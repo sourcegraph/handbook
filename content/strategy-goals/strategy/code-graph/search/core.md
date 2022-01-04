@@ -19,7 +19,7 @@ In FQ3, we grew the Sourcegraph Cloud global index to 2.1M repositories, includi
 
 #### Goals
 
-- Make Sourcegraph Search work well with large-scale monorepos (time to first result for unindexed search on monorepos larger than 200GB is < 10s and <2s for indexed, and time to indexing is always <30 minutes).
+- Make Sourcegraph Search work well with large-scale monorepos (time to first result for unindexed search on monorepos up to 60GB is < 10s and <2s for indexed, and time to indexing is always <30 minutes).
 - Sourcegraph Cloud indexes public repositories globally from 4 non-GitHub code hosts.
 
 #### Details

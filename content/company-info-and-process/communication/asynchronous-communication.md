@@ -92,7 +92,7 @@ Additionally, here are some other tips we've found work well:
 - **Summarize**. If your documentation ends up being too long, consider adding a summary, in the beginning, to help people consider if this is what they are looking for.
 - **Consider which tool to use**. Think about what you are working on and which is the best tool to discuss it, iterate and communicate.
 - **Know when _not_ to meet**. Ask yourself: is this meeting necessary or could we work on it asynchronously?
-- **Don’t be afraid to cancel or reject meetings**. Hopping on to meetings is easy and we tend to find it easy, however, they are also very disrupting and demanding. It’s completely okay to ask someone to cancel a meeting and use that time to communicate asyncly what they wanted to share with you. You’ll find some time to come back to them with your opinion and ideas.
+- **Don’t be afraid to cancel or reject meetings**. Hopping on to meetings is easy and we tend to find it easy, however, they are also very disrupting and demanding. It’s completely okay to ask someone to cancel a meeting and use that time to communicate asynchronously what they wanted to share with you. You’ll find some time to come back to them with your opinion and ideas.
 - **Meetings must start and end on time**. We must be conscious of our and other people’s time.
 - **Innovate**. Try out new things. Talk to your team and let them know you’ll conduct an asynchronous pilot. You won’t assist all or some of your weekly meetings and come back to them at the end of the week with your discoveries. Share them with the team and think of ways to make that experience better in the future.
 - **Invest in your writing**. It takes more time, but it gives people time to read/think about what you said versus react immediately and it is scalable.
@@ -103,7 +103,7 @@ Additionally, here are some other tips we've found work well:
 - **Share what changed**. If a decision was made async, it's important to get the word out. Although it can feel like oversharing, especially for a remote company it's important to repeat yourself and hit the important communication channels with the news. Otherwise, it's easy to miss.
 - **Rely on the handbook as the source of truth**. A lot of decisions we make (perhaps nearly all of them) should end up with updating the handbook. If all of us maintain the handbook, it will remain a wonderful resource to find out the latest thinking on any topic. If we let it go, people will lose trust, and it will no longer be an effective way to document decisions. If you see something out of date or that we no longer practice in the handbook, prioritize updating it.
 
-Each team should also have a section to explain how they do x, y and z asyncly. Define processes and communication channels. For example, how does the design team work? What is the decision making process?
+Each team should also have a section to explain how they do x, y and z asynchronously. Define processes and communication channels. For example, how does the design team work? What is the decision making process?
 
 #### Working with Slack
 

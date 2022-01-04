@@ -9,10 +9,10 @@ This guide is a resource for learning both git and GitHub, both of which are ext
 ## Glossary
 
 - **Repository:** A collection of (usually related) source code and other files, plus the history of those files. It is a location for your project, similar to a Google Drive folder that stores related documents in one place.
-- **Branch:** A specific series of changes in a repository, usually used to isolate changes during their development. Branching lets you make changes, test them in a staging area, then merge them into the “main branch” (the “live” part of your code).
-- **Main (sometimes referred to externally as “Master”) Branch:** The primary/default branch of a repository, usually holding the actively-developed product and working on features (non-working versions tend to stay in branches). This is the “live” part of a project that can be viewed by the public.
-- **Commit:** A single point in the Git history; the entire history of a project is represented as a set of interrelated commits. The word "commit" is often used by Git in the same places other revision control systems use the words "revision" or "version". Also used as a short hand for commit object.
-- **Pull Request:** Creating a pull requestis a way of proposing your changes to a repository. You can ask for reviews from certain people in a pull request.
+- **Branch:** A specific series of changes in a repository, usually used to isolate changes during their development. Branching lets you make changes, test them in a staging area, then merge them into the "main branch" (the "live" part of your code).
+- **Main (sometimes referred to externally as “Master”) Branch:** The primary/default branch of a repository, usually holding the actively-developed product and working on features (non-working versions tend to stay in branches). This is the "live" part of a project that can be viewed by the public.
+- **Commit:** A single point in the Git history; the entire history of a project is represented as a set of interrelated commits. The word "commit" is often used by Git in the same places other revision control systems use the words "revision" or "version". Also used as a shorthand for commit object.
+- **Pull Request:** Creating a pull request is a way of proposing your changes to a repository. You can ask for reviews from certain people in a pull request.
 - **Merge:** Bring the contents of your branch into the main branch. Merging is performed by an automatic process that identifies changes made since the branches diverged, and then applies all those changes together. In cases where changes conflict, manual intervention may be required to complete the merge.
 
 ## Git basics
