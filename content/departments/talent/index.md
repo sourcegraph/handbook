@@ -46,7 +46,6 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
   - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 
-
 ## Resources for Teammates
 
 - [How to refer a candidate](process/index.md#making-a-referral)
