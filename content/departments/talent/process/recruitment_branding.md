@@ -1,7 +1,7 @@
 # Recruitment Branding
 
 Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../tools/resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../company-info-and-process/values/index.md).
-This page outlines important tips and information for telling the story of what it's like to [work at Sourcegraph](../tools/resources_for_candidates.md#working-at-sourcegraph).
+This page outlines recruitment branding tips and information to tell the story of what it's like to [work at Sourcegraph](../tools/resources_for_candidates.md#working-at-sourcegraph).
 
 ## Social Media
 
@@ -9,29 +9,41 @@ We post about hiring initiatives and Sourcegraph culture content on our company 
 
 ### Posting Best Practices
 
+Below is information to reference when posting about Sourcegraph on your personal social platforms. Thank you for helping us attract and hire the best talent!
+
 Linked In
 
-- Use these [LinkedIn posting best practices](linkedin.md#linkedin-posting-best-practices) and our [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter) when sharing hiring initiatives on your LinkedIn Profile.
+- Use this [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/) and our [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter) to understand recent best practices for sharing hiring initiatives on your LinkedIn Profile.
+- If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
+- Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well.
+- [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 
 Twitter
 
 - Coming Soon!
 
-Recommended content to share: (Youtube, Blog, and Hadnbook)
+Company content to share:
 
-- Coming soon!
+- Sourcegraph Youtube, Blog, and Handbook content
+- [Sourcegraph Universal Code Search](https://www.youtube.com/watch?v=GQj5jXdON3A)
+- [Dev Tool Time](https://www.youtube.com/playlist?list=PL6zLuuRVa1_iDEP4EicZ8972RgyccCRGF) - Sourcegraph's bi-weekly virtual event series in which guest developers share their favorite dev tools and productivity hacks.
+- [Perks, Benefits, & Compensation](../../../benefits-pay-perks/benefits-perks/index.md)
+- [Careers page & open positions](../tools/resources_for_candidates.md#how-to-apply)
+- [Company values](../tools/resources_for_candidates.md#our-company-values)
+- [All-remote](../../../company-info-and-process/remote/index.md)
+- [Asynchronous communication](../../../company-info-and-process/communication/asynchronous-communication.md)
 
 Learn more about Sourcegraph's [Social Media](../../marketing/social-media/index.md)
 
 ## Leaving Company Reviews
 
-We encourage teammates to leave reviews and share about their Sourcegraph experience on the following sites
+We encourage teammates to leave honest reviews about their Sourcegraph experience on the following sites
 
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
 
-If you want to make a suggestion or notice outtaded company details on any of our profiles, please let your recruiter know or slack in the #hiring channel.
+If you want to make a suggestion or notice outdated company details on any of our profiles, please let your recruiter know or send a slack in the #hiring channel.
 
 ## Job boards
 
