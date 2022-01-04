@@ -86,7 +86,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
   - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
-- [Recruitment branding](process/job_boards.md)
+- [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 - [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)

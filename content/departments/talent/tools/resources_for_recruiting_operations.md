@@ -148,4 +148,4 @@ Recruiting Operations Specialists follow the steps below to send weekly candidat
 
 Working alongside Marketing to manage recruitment branding strategies on job boards and social media.
 
-Details can be found [here](../process/job_boards.md)
+Details can be found [here](../process/recruitment_branding.md)
