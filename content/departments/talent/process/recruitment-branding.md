@@ -20,7 +20,7 @@ Twitter
 
 - Coming Soon!
 
-Company content to share: 
+Company content to share:
 
 - Sourcegraph Youtube, Blog, and Handbook content
 - [Sourcegraph Universal Code Search](https://www.youtube.com/watch?v=GQj5jXdON3A)
