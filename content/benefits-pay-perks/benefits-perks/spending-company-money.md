@@ -42,7 +42,7 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 ## Computers
 
-Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
+Once your contract is signed, you will need to get your Sourcegraph computer. All Sourecgraph teammates are required to have, and to work from, a company machine. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
 **US/Canada/Eurpoe-based teammates (not Russia)** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
