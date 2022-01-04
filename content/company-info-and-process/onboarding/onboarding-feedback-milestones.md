@@ -15,13 +15,13 @@ Following our [standards of success](./index.md#onboarding-standards-and-success
 **Feedback Milestone: Month 1:**
 
 - check in on onboarding, values fit and get a sense for how they’re feeling
-- normalise two-way feedback and
+- normalize two-way feedback and
 - open conversation and build trust
 
 **Feedback Milestone: Month 2 & 3:**
 
 - check in on OKR/expectations tracking and values fit and get a sense for how they’re feeling
-- normalise two-way feedback and
+- normalize two-way feedback and
 - open conversation and build trust
 - get a feel for if they’re going to succeed and action if they aren’t (keep in mind teammates should be participating in projects by month 2 and owning projects by month 3)
 
@@ -50,5 +50,5 @@ Keep in mind managers may define expectations differently to fit the team, the m
 - Help me get a broad idea of how you’re doing
 - Talk me through what’s on track with 1) your OKRs and 2) how well you think you’re living our values? THEN manager feedback with examples and impact.
 - Talk me through what you think needs attention with 1) your OKRS and 2) how well you think you’re living our values? THEN manager feedback with examples and suggestions for development
-- Are you clear on your individual expectatios and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you getting there?
+- Are you clear on your individual expectations and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you from getting there?
 - What could I be doing 10% more of to help you succeed?
