@@ -20,7 +20,7 @@ Visit the **Site-admin > Subscriptions** page, find the existing subscription, c
 
 > NOTE: CEs should always consult with Sales before creating license keys for prospects (i.e., companies that have not yet officially become customers).
 
-First, the company's Sourcegraph administrator must create a Sourcegraph.com user account and provide their username. Once that is available,follow the steps below.
+First, the company's Sourcegraph administrator must create a Sourcegraph.com user account and provide their username. Once that is available, follow the steps below.
 
 1. Sign in to sourcegraph.com.
 2. If the customer does not have a license yet, navigate to the [users page](https://sourcegraph.com/site-admin/users) and create new user account.
