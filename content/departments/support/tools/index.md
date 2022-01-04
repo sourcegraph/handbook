@@ -104,7 +104,7 @@ This section captures our Zendesk protocol and configuration decisions.
 ### Access
 
 - Application engineers have agent access
-- Virginia, Brielle, Nonso, Tamar, and Tech Ops have admin access
+- CS leadership and Tech Ops have admin access
 - Only Virginia can modify billing related items
 - We have an admin level service account application engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
 - Tickets are also rendered via an iFrame in Salesforce for CE and sales access.

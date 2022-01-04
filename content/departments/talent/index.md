@@ -60,7 +60,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 - [Recruiter onboarding resources](onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
-  - [Kicking off a new search](tools/resources_for_recruiters.md)
+  - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
   - [Sourcing candidates](process/opening_a_new_job.md#sourcing-candidates)
   - [Partnering with your Sourcer](process/opening_a_new_job.md#partnering-with-your-sourcer)
