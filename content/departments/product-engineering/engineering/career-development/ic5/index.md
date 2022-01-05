@@ -1,6 +1,6 @@
 # IC5 roles at Sourcegraph
 
-This page is a list of profiles for IC5 roles at Sourcegraph. The IC5 level is defined through these profiles, acknowledging that impact at IC5 and beyond varies between individuals. As they form the level definition, these profiles can be used in career growth conversations between ICs and EMs, in [calibration](../talent-review-process.md#calibration-meeting) discussions between EMs and directors.
+This page is a list of profiles for IC5 roles at Sourcegraph. The IC5 level is defined through these profiles, acknowledging that impact at IC5 and beyond varies between individuals. As they form the level definition, these profiles can be used in career growth conversations between ICs and EMs, and in [calibration](../talent-review-process.md#calibration-meeting) discussions between EMs and directors.
 
 We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material.
 
