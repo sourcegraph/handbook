@@ -3,6 +3,7 @@
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
+- [Identifying candidates](identifying_candidates.md)
 - [The interview process](./interview_process.md)
 - **You are here:** how to extend an offer
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)

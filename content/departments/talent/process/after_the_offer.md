@@ -5,6 +5,7 @@ This page outlines all steps that the team takes **after** the candidate has off
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
+- [Identifying candidates](identifying_candidates.md)
 - [The interview process](./interview_process.md)
 - [How to extend an offer ](./extending_an_offer.md)
 - **You are here:** how to onboard a new hire after offer acceptance
