@@ -34,7 +34,7 @@ We strive to get option grants approved prior to any known or expected changes i
 
 ### Gross equity value
 
-The gross equity value granted to somebody will be determined from the prevailing compensation bands on the date that an offer is presented to a candidate or the date that a promotion is communicated to a teammate.
+The gross equity value granted to somebody will be determined from the prevailing [compensation bands](index.md#compensation-bands) on the date that an offer is presented to a candidate or the date that a promotion is communicated to a teammate.
 
 ### Preferred stock price
 
