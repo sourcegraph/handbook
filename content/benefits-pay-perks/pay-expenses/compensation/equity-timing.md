@@ -14,7 +14,7 @@ Changes to any of these inputs can affect the size and value of stock option gra
 
 ## Principle
 
-The principle behind this policy is that teammates should benefit from (or be affected by) increases or changes in valuation that occur once they have joined the company or are performing their new duties in a new position. 
+The principle behind this policy is that teammates should benefit from (or be affected by) increases or changes in valuation that occur once they have joined the company or are performing their new duties in a new position.
 
 On the other hand, if our valuation increases or changes before somebody joins, their option grant would be adjusted using the methodology below to reflect the new stock price.
 
