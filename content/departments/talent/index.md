@@ -13,6 +13,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Types of interviews & sample questions](process/types_of_interviews.md)
   - [Sample interview questions](process/types_of_interviews.md)
   - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
+  - [Providing interview feedback]COMING SOON
 - [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 
 ## Resources for Hiring Managers
@@ -29,6 +30,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Using recruitment agencies](process/identifying_candidates.md)
   - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
 - [The interview process](process/interview_process.md)
+  - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
@@ -50,6 +52,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 - [How to refer a candidate](process/index.md#making-a-referral)
 - [The interview process](process/interview_process.md)
+  - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Peer interview](process/types_of_interviews.md#peer-interview)
@@ -77,6 +80,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Using recruitment agencies](process/identifying_candidates.md)
   - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
 - [The interview process](process/interview_process.md)
+  - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
   - [Recruiter screen](process/types_of_interviews.md#recruiter-screen)
   - [How to schedule an interview](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
