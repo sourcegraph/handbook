@@ -59,4 +59,4 @@ Each of the examples below align with the [principle](#principle) behind this po
 
 ### Example 3: Morgan's promotion
 
-- Morgan is notified that they are being promoted on February 15, and it is effective on the same day. This occurs after the fundraising described in example 1 above. They receive a stock option grant worth $32 of gross equity value. The common FMV at that point in time is $2, and the prevailing preferred stock price is $4. Their offer summary calculator shows an illustrative grant of 8 options ($32 divided by $4), each with a strike price of $2.
+- Morgan is notified that they are being promoted on February 15, and it is effective on the same day. This promotion becomes effective _after_ the term sheet described in example 1 above is received from an investor. They receive a stock option grant worth $32 of gross equity value. The common FMV at that point in time is $2, and the prevailing preferred stock price is $4. Their offer summary calculator shows an illustrative grant of 8 options ($32 divided by $4), each with a strike price of $2.
