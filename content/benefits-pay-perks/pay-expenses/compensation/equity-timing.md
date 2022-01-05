@@ -38,7 +38,7 @@ The gross equity value granted to somebody will be determined from the prevailin
 
 ### Preferred stock price
 
-The preferred stock price used for the calculation of the number of options will be the "prevailing" preferred stock price on the date that someone starts or the effective date of a promotion.
+The preferred stock price used for the calculation of the number of options will be the "prevailing" preferred stock price on the date that someone starts or the effective date of a promotion or refresh.
 
 If a stock transaction (e.g. a fundraising) occurs, prevailing preferred stock prices will be updated at the same time that common FMVs are updated (generally: when we have reasonable certainty that a transaction will occur or that an offered price is legitimate). For example, if we receive a term sheet from an investor that we believe reflects legitimate interest, that would likely trigger changes to both common FMV (as described above) and in our prevailing preferred stock price for option grant calculations.
 
