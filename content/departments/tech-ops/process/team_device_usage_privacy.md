@@ -8,7 +8,7 @@ We (Tech Ops, Security, and company leadership) all personally care deeply about
 
 ## SOC2 and regulatory requirements
 
-SOC2 is essential for us to be [customer-first](./../../company-info-and-process/values/index.md#customer-first) and for us to be successful selling Sourcegraph Cloud, but it requires us to take certain precautions to ensure that company and customer data is being properly protected.
+SOC2 is essential for us to be [customer-first](../../../company-info-and-process/values/index.md#customer-first) and for us to be successful selling Sourcegraph Cloud, but it requires us to take certain precautions to ensure that company and customer data is being properly protected.
 
 As an example, SOC2 requires us to ensure that every device that teammates use for work has up-to-date antivirus software running. Similarly, it requires us to ensure that every device that teammates use for work has various security features enabled—passwords, encryption, lock screens, etc.
 
