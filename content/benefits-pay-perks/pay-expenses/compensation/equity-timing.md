@@ -26,7 +26,7 @@ The applicable common FMV is determined on the date that Sourcegraph's board of 
 
 For new hires, this cannot happen until after they start working at Sourcegraph.
 
-Common FMVs change periodically, based on several potential events. As an example, companies must update their common FMV at least once per year. As another example, if Sourcegraph receives a term sheet from a potential investor, the United States IRS will likely take the position that the price of the stock has changed, and the common FMV must be updated as well. Similarly, if Sourcegraph receives word that an investor sold their stock to another party at a new price, the same thing may happen. In many cases, companies like Sourcegraph have no knowledge or control over these changes (just like a public company has no direct control over their stock price).
+Common FMVs change periodically, based on several potential events. As an example, companies must update their common FMV at least once per year. As another example, if Sourcegraph receives a term sheet from a potential investor, the United States IRS will likely take the position that the price of the stock has changed, and the common FMV must be updated as well. Similarly, if Sourcegraph receives word that an investor sold their stock to another party at a new price, the same thing may happen. We often don’t have full control over if and when these “material events” happen (such as when an investor will send a term sheet). 
 
 We strive to get option grants approved prior to any known or expected changes in common FMV.
 
@@ -38,7 +38,7 @@ The gross equity value granted to somebody will be determined from the prevailin
 
 The preferred stock price used for the calculation of the number of options will be the "prevailing" preferred stock price on the date that someone starts or the effective date of a promotion.
 
-If a stock transaction (e.g. a fundraising) occurs, prevailing preferred stock prices will be updated at the same time that common FMVs are updated (generally: when we have reasonable certainty that a transaction will occur or that an offered price is legitimate). For example, if we receive a term sheet from an investor that we believe reflects legitimate interest, that would likely be enough to trigger changes to both common FMV (as described above), and in our prevailing preferred stock price for option grant calculations. While there is substantial work involved, and some art to these determinations, the United States IRS already requires us to make them whenever potential changes to common FMV occur.
+If a stock transaction (e.g. a fundraising) occurs, prevailing preferred stock prices will be updated at the same time that common FMVs are updated (generally: when we have reasonable certainty that a transaction will occur or that an offered price is legitimate). For example, if we receive a term sheet from an investor that we believe reflects legitimate interest, that would likely trigger changes to both common FMV (as described above) and in our prevailing preferred stock price for option grant calculations. 
 
 ## Examples
 
