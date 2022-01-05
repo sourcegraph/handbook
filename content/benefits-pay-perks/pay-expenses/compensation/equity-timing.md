@@ -50,7 +50,7 @@ Each of the examples below align with the [principle](#principle) behind this po
 
 - Logan signs an offer letter to join Sourcegraph on January 1 to receive $100 of gross equity value. The common FMV at that point in time is $1, and the prevailing preferred stock price is $2. Their offer summary calculator shows an illustrative grant of 50 options ($100 divided by $2), each with a strike price of $1. They accept, and select a start date of March 1.
 - Sourcegraph receives a term sheet from a new investor on February 1 at a new, higher valuation (a $4 preferred stock price). Given the investor's legitimacy and familiarity with Sourcegraph and the industry, our valuation advisors determine that Sourcegraph's common FMV should be updated to $2 to reflect this new pricing information.
-- Logan starts working at Sourcegraph on March 1. Their gross equity value received remains $100 (it was locked in when she signed her offer letter). They receive 25 options ($100 divided by $4), each with a strike price of $2.
+- Logan starts working at Sourcegraph on March 1. Their gross equity value received remains $100 (it was locked in when they signed their offer letter). However, they receive 25 options ($100 divided by $4), each with a strike price of $2.
 
 ### Example 2: Jordan's new hire grant
 
