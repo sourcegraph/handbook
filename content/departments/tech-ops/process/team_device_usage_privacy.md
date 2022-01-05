@@ -1,6 +1,6 @@
 # Device usage and privacy
 
-Sourcegraph is a high-trust and [high-agency](../company/values.md#high-agency) company. We must trust one another to be operating in the best interests of the team.
+Sourcegraph is a high-trust and [high-agency](../../../company-info-and-process/values/index.md#high-agency) company. We must trust one another to be operating in the best interests of the team.
 
 Privacy is a right that we believe deeply in, both for our customers (e.g. see our [philosophy on data collection from self-hosted Sourcegraph instances](https://docs.sourcegraph.com/dev/background-information/adding_ping_data#ping-philosophy)) and for our teammates. The [Unacceptable use policy](#unacceptable-use-of-company-devices--systems--and-networks) below outlines some of the activities that are prohibited on company devices. However, as long as you are using your device to perform your job duties properly, nobody, from Tech Ops to your manager to the CEO, cares how you use your Sourcegraph device or when you work.
 
@@ -8,7 +8,7 @@ We (Tech Ops, Security, and company leadership) all personally care deeply about
 
 ## SOC2 and regulatory requirements
 
-SOC2 is essential for us to be [customer-first](../company/values.md#customer-first) and for us to be successful selling Sourcegraph Cloud, but it requires us to take certain precautions to ensure that company and customer data is being properly protected.
+SOC2 is essential for us to be [customer-first](./../../company-info-and-process/values/index.md#customer-first) and for us to be successful selling Sourcegraph Cloud, but it requires us to take certain precautions to ensure that company and customer data is being properly protected.
 
 As an example, SOC2 requires us to ensure that every device that teammates use for work has up-to-date antivirus software running. Similarly, it requires us to ensure that every device that teammates use for work has various security features enabled—passwords, encryption, lock screens, etc.
 
