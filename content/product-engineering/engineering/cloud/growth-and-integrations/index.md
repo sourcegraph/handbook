@@ -110,7 +110,7 @@ This vision is necessarily broad because the growth-oriented goal for the team i
 
 ## Integrations vision
 
-Sourcegraph powers your first stop for any information about your code, for any tool or website you use.
+The power of Sourcegraph is available everywhere that developers read or write code.
 
 - Build a healthy ecosystem of Sourcegraph extensions, built by developers everywhere, who want to bring the power of existing developer tools they love into our platform.
 - Build new paths to get value from Sourcegraph on other websites and IDEs.
