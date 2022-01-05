@@ -100,7 +100,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
 
 ## Growth vision
 
-_Sourcegraph is optimized to help users discover how powerful the tool is, as quickly as possible._
+_Visitors to Sourcegraph clearly see the value of the product and are compelled to integrate it into their workflow and share it with friends and colleagues. _
 
 This vision is necessarily broad because the growth-oriented goal for the team is the generation of Product Qualified Leads. These PQLs will generally be generated from users who find value in the product and integrate Sourcegraph into their daily routines. As such, this team will also impact the following objectives:
 
