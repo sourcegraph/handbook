@@ -5,6 +5,7 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 ## The interview lifecycle
 
 - **You are here:** how to open a new job
+- [Identifying candidates](identifying_candidates.md)
 - [The interview process](interview_process.md)
 - [How to extend an offer](extending_an_offer.md)
 - [How to onboard a new hire](after_the_offer.md)
@@ -53,7 +54,7 @@ Example topics to cover during intake meeting:
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit) directly into each interview stage.
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding Interview Steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 
-**Step 3**: the Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](job_boards.md).
+**Step 3**: the Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
 
 **Step 4**: the Recruiter creates a Slack channel with the Interview Team and starts the Slack Kick-Off Process
 
@@ -100,40 +101,4 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-**Step 5**: the Recruiter begins generating a candidate pool by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter
-
-Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
-
-# How we find candidates
-
-## Sourcing candidates
-
-We identify candidates via a variety of channels:
-
-- Inbound applicants from our postings
-  - Our website
-  - LinkedIn Recruiter
-  - Glassdoor
-  - COMING SOON - where else we post
-- Sourced candidates
-- Agency submittals
-- Referrals
-
-## Partnering with your Sourcer
-
-COMING SOON
-
-## Using external recruiting agencies
-
-We only partner with agencies in select instances as approved by the VP Talent and Finance. To request agency usage, please Slack #hiring with your request, along with a business case for using an agency.
-
-- Q: Am I allowed to engage with an external agency if I have an assigned internal recruiter?
-  - A: This should be reviewed on a case-by-case basis to see what is the required candidate pipeline to meet the team’s hiring goals. If internal recruiter(s) are not enough to meet the needs of the team then the hiring manager can seek external help.
-- Q: How do I engage with a new agency?
-  - A: To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. As a next step, the VP of Talent will send and sign all agency agreements. All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit). The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq)
-- Q: What fee do we pay?
-  - Our standard agency fee is 20%.
-- Q: How do agencies submit candidates for consideration?
-  - A: The talent team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse. Please contact #hiring or recruiting@sourcegraph.com to get an agency added to Greenhouse.
-- Q: What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate?
-  - A: Please forward any emails from agencies to recruiting@sourcegraph.com.
+**Step 5**: the Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
