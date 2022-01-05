@@ -6,11 +6,11 @@ Privacy is a right that we believe deeply in, both for our customers (e.g. see o
 
 We (Tech Ops, Security, and company leadership) all personally care deeply about individual privacy, autonomy, and trust, and will not access or use private teammate information for any reason other than ensuring company and customer data security and legal compliance.
 
-## SOC2 and regulatory requirements
+## SOC 2 and regulatory requirements
 
-SOC2 is essential for us to be [customer-first](../../../company-info-and-process/values/index.md#customer-first) and for us to be successful selling Sourcegraph Cloud, but it requires us to take certain precautions to ensure that company and customer data is being properly protected.
+SOC 2 is essential for us to be [customer-first](../../../company-info-and-process/values/index.md#customer-first) and for us to be successful selling Sourcegraph Cloud, but it requires us to take certain precautions to ensure that company and customer data is being properly protected.
 
-As an example, SOC2 requires us to ensure that every device that teammates use for work has up-to-date antivirus software running. Similarly, it requires us to ensure that every device that teammates use for work has various security features enabled—passwords, encryption, lock screens, etc.
+As an example, SOC 2 requires us to ensure that every device that teammates use for work has up-to-date antivirus software running. Similarly, it requires us to ensure that every device that teammates use for work has various security features enabled—passwords, encryption, lock screens, etc.
 
 We strive to limit the information tracked by this monitoring software. Nonetheless, the software we use to ensure these protections are enabled does have the capability to track information beyond that, such as what applications are installed and your browser history.
 
