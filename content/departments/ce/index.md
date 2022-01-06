@@ -24,10 +24,11 @@ This continuity means we give customers consistent and high-quality service from
 - [CE Education](onboarding/education.md)
 - [New CE Onboarding](onboarding/index.md)
 - [CE Team Norms](team-culture/index.md)
-- [CE Tools](tools/ce-tools.md)
+- [CE Tools](tools/index.md)
 - [Career Growth](career-growth/index.md)
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [Team processes](process/index.md)
 
 ## Current Team Members
 
