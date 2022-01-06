@@ -29,6 +29,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [Guide to user journey mapping](../../departments/product-engineering/product/process/user_journey_maps.md)
 - [Guide to product-led growth](process/product_led_growth.md)
 - [Customer data policy](process/customer_data_policy.md)
+- [Team processes](process/index.md)
 
 ## Goals
 
