@@ -91,7 +91,7 @@ joe_chen:
   location: Boston, MA, USA 🇺🇸
   github: unknwon
   email: joe@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jiahua-chen-86218a81/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
   description: Joe lives in his little dark room. Prior to Sourcegraph, Joe created the Gogs project, a painless self-hosted Git service. Joe graduated with a MS in Software Development from Boston University.
 
 vanesa_ortiz:
@@ -123,7 +123,7 @@ nick_snyder:
   location: Belmont, CA, USA 🇺🇸
   github: GitHub
   email: nick@sourcegraph.com
-  links: '[Twitter](https://twitter.com/nickdsnyder), [LinkedIn](https://www.linkedin.com/in/nickdsnyder/), [manager docs](nick.md)'
+  links: '[Twitter](https://twitter.com/nickdsnyder), [LinkedIn](https://www.linkedin.com/in/nickdsnyder/), [manager docs](readmes/nick.md)'
   pronunciation: '[pronounce my name 🔊](https://name-coach.com/nickdsnyder)'
   description: Nick started writing code in CS 101 at Vanderbilt and loved it so much that he graduated 4 years later with a B.S and M.S. in Computer Science. Since then, Nick has spent most of his career as a software engineer working with a variety of technologies at companies large and small, and now enjoys building teams. Nick has a wife, a daughter, and a son, and likes to sail on the San Francisco Bay as often as his calendar permits.
 
@@ -281,7 +281,7 @@ mark_muldez:
   role: Sales Development
   location: Tampa, FL 🌴 🇺🇸
   email: mark@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/mmuldez/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/lovemesomesushi/)'
   description: "Mark has been working in sales for the past 8 years and he's held various roles such as SDR, AE, and Team Lead. Prior to Sourcegraph, Mark was the lead technical SDR for the west region at Imply.io, where he successfully built a strong and sustainable pipeline for the company. Mark is a Golden State Warriors fan, plays guitar, works out to earn the right to eat plates of sushi, and because he's in Florida, mosquitoes get really bad in the summer so the best way to avoid them is to hit up the beach. And oh btw, he thinks spicy mayo is life. 🙌🏽"
 
 christine_lovett:
@@ -475,7 +475,7 @@ jean_du_plessis:
   github: jeanduplessis
   pronunciation: '[ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
   email: jean@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](jean-du-plessis.md),'
+  links: '[LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](readmes/jean-du-plessis.md),'
   description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 16 years of which he's been a manager for 7. Prior to Sourcegraph, he was a manager at GitLab."
 
 eli_rothschild:
@@ -947,7 +947,7 @@ kendrick_morris:
   location: San Francisco, CA USA 🇺🇸
   github: kmorris50
   email: kendrick@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/kendrick-morris-3563b993)'
+  links: '[Linkedin](https://www.linkedin.com/in/kendrick-morris-cpa-3563b993/)'
   description: Kendrick grew up in Houston, TX and now resides in San Francisco, CA. He graduated with a degree in Economics-Accounting & Government from Claremont McKenna College. Prior to Sourcegraph, Kendrick worked in the Deloitte San Francisco audit practice and currently holds a CPA license in California. He enjoys listening to podcasts, collecting vintage basketball cards, and driving just about anywhere for good barbecue.
 
 christy_haragan:
@@ -1128,15 +1128,6 @@ brady_herrmann:
   links: '[LinkedIn](https://www.linkedin.com/in/bradyherrmann/)'
   description: "Brady has spent the majority of his career working for developer centric companies and has a passion for selling solutions that allow developers to build better. He grew up in Indianapolis, but has since lived in Denver, Washington DC, Maryland, and now resides in the northern suburbs of Chicago with his wife (Kali), 1-year old daughter (Noa), and two black lab mixes (Henry and Luna). His passions outside of work include hiking, camping, skiing, live music and traveling (Peru, SE Asia, the Amalfi Coast, and Switzerland being some of the favorite places he's visited). He's a big fan of karaoke (he's been known to do an above average rendition of Sister Christian with his wife), college basketball (Go Boilers) and is currently in the market for an alto saxophone to get back to his playing days."
 
-natalie_khoury:
-  name: Natalie Khoury
-  role: Enterprise Account Executive
-  location: San Francisco, CA, USA 🇺🇸
-  github: NK-83
-  email: natalie@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/nataliekhoury/)'
-  description: "Natalie grew up in Northern California and currently resides in San Francisco's Russian Hill neighborhood. She's spent the last 15+ years selling tech and loves it! In her free time ree time, you can find Natalie in SF or the NorCal outdoors being active. She loves swimming, running, tennis, spinning (Peloton Username - NattyK8), hiking, road trips, and traveling."
-
 rashad_bartholomew:
   name: Rashad Bartholomew
   pronouns: he/him
@@ -1261,7 +1252,7 @@ donavon_ellison:
   location: Acworth, GA USA
   github: donavonelli
   email: don@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/donavonelli/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/donavonellison/)'
   description: Donavon is an army veteran with a love for programming and all things tech. Based in the peach state, you can usual find him either exercising, watching tv, playing video games or playing with his dog, CiCee
 
 jason_harris:
@@ -1351,7 +1342,7 @@ marija_petrovic:
   location: Naples, FL USA 🇺🇸
   github: marija.petrovic214
   email: marija.petrovic@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/marija-petrovic-b49b9b38/)'
+  links: '[LinkedIn](https://www.linkedin.com/in/marija-petrovic-sphr-b49b9b38/)'
   description: "Marija, pronounced 'Maria', is a Serbian-American living in Naples, Florida. She is passionate about helping people find their dream career while promoting the vision and values of the organization + all things People/HR/Analytics related. She is currently finishing her Master's in HR Analytics and Resource Management at American University and has a BS in Finance and Information Systems from the University of Florida."
 
 shawn_king:
@@ -2280,3 +2271,12 @@ ashwin_Thakur:
   location: London, UK
   links: '[LinkedIn](https://www.linkedin.com/in/ashwin-thakur/)'
   description: Ash grew up in London and has had a passion for Sales and Tech throughout his career and education. After completing his degree at the University of Portsmouth he jumped straight into his first SDR role and hasn’t looked back since. In his free time, he enjoys football, listening to music and spending time with his dog Byron 🐶.
+
+casi_neff:
+  name: Casi Neff
+  email: casi.neff@sourcegraph.com
+  github: casineff
+  role: Sales Development Representative (East)
+  location: Indianapolis, IN, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/casi-neff-5a5787142/)'
+  description: Casi grew up in rural Indiana with her parents (Eric and Julie) and older brother (Cory). She attended Union University in TN and played volleyball before transferring back home to finish her degree at the Kelley School of Business (IUPUI). She currently plays in 2-3 volleyball leagues throughout the year and is the head coach for an elite travel team in Indy. She loves cold brew coffee, the color black, and heavy metal music (amongst other genres). If she's not in the gym, she's probably shopping, grabbing drinks with friends, or spending time with family.

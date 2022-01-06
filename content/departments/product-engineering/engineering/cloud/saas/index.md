@@ -262,13 +262,13 @@ TBD
 
 Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
-## Playbooks and procedures
+## [Playbooks](playbooks/index.md) and procedures
 
 - [Getting a list of cloud users](playbooks/getting-a-list-of-cloud-users.md)
 
 ## Hiring and onboarding
 
-### Hiring
+### [Hiring](hiring/index.md)
 
 This section contains links to Cloud SaaS specific interview types.
 
