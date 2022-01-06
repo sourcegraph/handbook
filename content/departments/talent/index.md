@@ -106,7 +106,6 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-- [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)
 
 ## Talent Team Members
 
