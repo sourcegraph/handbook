@@ -142,7 +142,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Frey-Bitmoji.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.42.55%20AM.png"
                 alt="Picture of Frey Andersson" style="background: transparent; width:128px;" />
             </a>
           </div>
@@ -258,7 +258,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
             </a>
           </div>
           <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank"
-              rel="noopener">We're Hiring!</a></div>
+              rel="noopener">Join Sourcegraph</a></div>
           <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91"
               target="_blank" rel="noopener">All Roles Here</a></div>
         </div>
