@@ -1,4 +1,4 @@
-# DevOps Engineer Oboarding
+# DevOps Engineer onboarding
 
 Welcome to the DevOps team! This document will guide you through DevOps-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../onboarding/software-engineer-onboarding.md).
 
@@ -50,14 +50,14 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 
 #### Goals
 
-- Confidently deploy sourcegraph via all supported deployment methods, and understand when a customer would use one over the others.
+- Confidently deploy Sourcegraph via all supported deployment methods, and understand when a customer would use one over the others.
 - Begin diving into and improving technical documentation and processes.
 - Understand how changes are deployed to our Cloud environments
 - Confidently contributing to and closing team issues
 
 #### Tasks
 
-- Review the sourcegraph install docs and make any appropriate updates.
+- Review the Sourcegraph install docs and make any appropriate updates.
 - Shadow another member of DevOps team during an incident or during their on-call schedule.
 - Take on new issues, and pair with other engineers.
 
