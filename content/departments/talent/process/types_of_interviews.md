@@ -549,13 +549,11 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 1 hour
 - Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
 
-
-
 #### Cross-functional interview
 
 - Interviewer: [Emily Chapman](https://handbook.sourcegraph.com/team#emily-chapman) and [Quinn Keast](https://handbook.sourcegraph.com/team#quinn-keast)
 - Duration: 60 mins
-- Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the  needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels. 
+- Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
 
 ### Product manager
 
