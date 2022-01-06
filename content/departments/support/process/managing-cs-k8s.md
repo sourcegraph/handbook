@@ -27,6 +27,7 @@ To access the CS-GKE instance and run Kubernetes commands locally, you'll need t
 ## Upgrading CS-GKE Kubernetes Instance
 
 We are currently deployed using this [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s). To upgrade the instance:
+### [https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s)
 
 1. Clone the [deploy-sourcegraph-cse-k8s repository](https://github.com/sourcegraph/deploy-sourcegraph-cse-k8s) to your local machine.
 2. `cd` into the newly cloned directory.
