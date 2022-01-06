@@ -142,7 +142,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.42.55%20AM.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.52.17%20AM.png"
                 alt="Picture of Frey Andersson" style="background: transparent; width:128px;" />
             </a>
           </div>
