@@ -551,7 +551,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Cross-functional interview
 
-- Interviewer: [Emily Chapman]("../../../team/index.md#emily-chapman") and [Quinn Keast]("../../../team/index.md#quinn-keast")
+- Interviewer: [Emily Chapman](../../../team/index.md#emily-chapman) and [Quinn Keast](../../../team/index.md#quinn-keast)
 - Duration: 60 mins
 - Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
 
