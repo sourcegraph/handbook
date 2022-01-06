@@ -38,7 +38,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 We are an early-stage company, and every team member can have a huge impact on our success. We want to make sure that everyone has a financial stake in the success and that contributions are rewarded.
 
-See [Equity FAQ](equity-faq.md).
+- See [Equity FAQ](equity-faq.md).
+- See [How and when stock option grants are calculated](equity-timing.md).
 
 ### Benefits and perks
 
