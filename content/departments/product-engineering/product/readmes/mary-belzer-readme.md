@@ -86,3 +86,5 @@ Hot sauce on everything
 ### My enneagram
 
 [Enneagram 2: The Helper](https://www.enneagraminstitute.com/type-2)
+
+See other product team readmes [here](index.md).
