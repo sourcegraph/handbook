@@ -65,8 +65,6 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-ops/index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../departments/people-ops/process/impact-reviews.md) process.
-
 ### Negotiating should not be needed
 
 We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term. We strive to reduce the impact of negotiations on offers and raises as much as possible. Our philosophy to make offers that are fair and generous is designed to ensure candidates feel appropriately valued and aren't forced to negotiate to get to something fair.
