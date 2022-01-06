@@ -13,6 +13,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Types of interviews & sample questions](process/types_of_interviews.md)
   - [Sample interview questions](process/types_of_interviews.md)
   - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
+  - [Providing interview feedback]COMING SOON
 - [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 
 ## Resources for Hiring Managers
@@ -22,7 +23,14 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
+- [Identifying candidates](process/identifying_candidates.md)
+  - [How we find candidates](process/identifying_candidates.md)
+  - [Where we advertise our jobs](process/identifying_candidates.md)
+  - [How we source passive candidates](process/identifying_candidates.md)
+  - [Using recruitment agencies](process/identifying_candidates.md)
+  - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
 - [The interview process](process/interview_process.md)
+  - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
@@ -39,12 +47,12 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
   - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
-- [Using recruitment agencies](process/index.md)
 
 ## Resources for Teammates
 
 - [How to refer a candidate](process/index.md#making-a-referral)
 - [The interview process](process/interview_process.md)
+  - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Peer interview](process/types_of_interviews.md#peer-interview)
@@ -62,13 +70,22 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
-  - [Sourcing candidates](process/opening_a_new_job.md#sourcing-candidates)
-  - [Partnering with your Sourcer](process/opening_a_new_job.md#partnering-with-your-sourcer)
-  - [Using external recruiting agencies](process/opening_a_new_job.md#using-external-recruiting-agencies)
-- [The interview process](process/interview_process.md)
+- [Identifying candidates](process/identifying_candidates.md)
+  - [How we find candidates](process/identifying_candidates.md)
+  - [Where we advertise our jobs](process/identifying_candidates.md)
+  - [How we source passive candidates]
+  - [Partnering with your Sourcer](process/identifying_candidates.md)
+  - [Using external recruiting agencies](process/identifying_candidates.md)
+  - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
+- [The interview stage](process/interview_process.md)
+  - [First time interviewer resources](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
-  - [Recruiter screen](process/types_of_interviews.md#recruiter-screen)
-  - [How to schedule an interview](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
+  - [The Recruiter screen](process/types_of_interviews.md#recruiter-screen)
+    - [How to schedule a Recruiter screen using Calendly](process/types_of_interviews.md#recruiter-screen)
+  - [Working with your Recruitment Operations Specialist](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
+    - [Which interviews does the ROS schedule?](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
+    - [How to make a scheduling request](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
+    - [How to schedule an interview](tools/resources_for_recruiting_operations.md#how-to-schedule-an-interview)
 - [Extending an offer](process/extending_an_offer.md)
   - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)

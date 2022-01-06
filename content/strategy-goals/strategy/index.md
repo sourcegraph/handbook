@@ -121,7 +121,7 @@ Within this overall product strategy, individual product teams set their own goa
 - [Engineering Education](enablement/engineering-education/index.md)
 - [Content Platform](enablement/content-platform/index.md)
 
-#### Cloud
+#### [Cloud](cloud/index.md)
 
 - [Core application](cloud/core-application/index.md)
 - Cloud SaaS
