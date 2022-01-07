@@ -14,7 +14,9 @@ Happy new year, and welcome to another iteration of the [Developer Experience ne
 
 To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
-### Backward-compatible database migrations are now enforced
+### Internal tools and libraries
+
+#### Backward-compatible database migrations are now enforced
 
 Backward-compatible database migrations are now enforced in the CI pipeline for `sourcegraph/sourcegraph` - see the PR to re-enable the check at [#28872](https://github.com/sourcegraph/sourcegraph/pull/28872). This PR contains some initial documentation on writing backwards-compatible migrations, but it is still a work in progress.
 
@@ -27,6 +29,20 @@ Backward-compatible database migrations are now enforced in the CI pipeline for 
 Of course, this check will come with escape hatches in the event of flake or test failures that are locked in the past. We're currently fleshing out the documentation on the subject, so keep an eye out for updates!
 
 For the full announcement or to leave comments, check out [the Slack discussion](https://sourcegraph.slack.com/archives/C0EPTDE9L/p1641329708282700)!
+
+#### Actor propagation
+
+Actors (used to identify a request in the context of a user or internal actor) are now propagated across _all_ internal requests when using the `httpcli` library, and the various approaches for propagating actors across services has been standardized with the new [`actor.HTTPMiddleware`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9233e2cd9b96bbbbbfb4be2e72543cb41ad9920c/-/blob/internal/actor/http.go?L94:6#tab=references). This makes it easier to enforce permissions across services. For more details, see [#28117](https://github.com/sourcegraph/sourcegraph/pull/28117).
+
+#### Database connections
+
+[`dbconn.Global` has been removed](https://github.com/sourcegraph/sourcegraph/pull/28251)! This is a huge step towards [bringing better database mocking to the entire codebase](https://github.com/sourcegraph/sourcegraph/issues/26113) (check out the [code insights dashboard tracking relevant migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTB9)!)
+
+![migration from global database mocks](https://user-images.githubusercontent.com/23356519/148499207-4862bdd8-2be6-4e73-9d47-2cd91f2c208c.png)
+
+#### Tracking issues
+
+[Tracking issues](../../process/tracking_issues.md) now support a new marker, `<!-- OPTIONAL LABEL: my-label -->`, that allows you to add labels on a tracking issue that do not need to be present on child issues for them to be considered part of this tracking issue. This is useful for making tracking issues easier to find without adding labels to every single issue within the tracking issue. For more details, see [#28665](https://github.com/sourcegraph/sourcegraph/pull/28665).
 
 ### Continuous integration
 
@@ -51,6 +67,10 @@ Presently, this approach is limited by having the plugin for that particular too
 
 There is more to come on that topic and the Frontend-Platform team has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
 
+#### Buildkite agent selection
+
+Buildkite pipeline steps should now explicitly declare `queue: standard` to avoid experimental or temporary agents. For more details, see [infrastructure#2939](https://github.com/sourcegraph/infrastructure/pull/2939).
+
 #### Sentry integration to monitor internal pipeline scripts and hooks
 
 There are scripts and components of the CI pipeline that should never fail, independently of the tests results. These have proved be to hard to monitor, especially when the scripts are called from build hooks. Being notified when these failures happen enables faster reaction time. Here is an [example](https://github.com/sourcegraph/sourcegraph/pull/28915/files#diff-3c4244f37fc751696252758dd92a887d9e1e30851b18932c142ae56202bb5ea7R40) to get monitor a command so that a Sentry issue in the [Buildkite](https://sentry.io/organizations/sourcegraph/projects/buildkite/?project=6110304) project is created on a non zero exit code.
@@ -63,25 +83,15 @@ The previous raw Grafana configuration used to add template variables to dashboa
 
 ### Local development
 
+#### Revamped introductory documentation
+
 The local development docs homepage has been revamped! Check it out at [docs.sourcegraph.com/dev](https://docs.sourcegraph.com/dev). The [quickstart docs](https://docs.sourcegraph.com/dev/setup/quickstart) has also been overhauled with a streamlined setup experience featuring `sg setup`, which has been greatly improved!
+
+#### `sg` improvements
 
 `sg` [now ships](https://github.com/sourcegraph/sourcegraph/pull/29382) a command that can reset databases as well as creating a site-admin: `sg db` (early adopters may have seen it under the name of `sg reset`). You can read more about the `sg db [reset-pg|reset-redis|add-user]` in the [documentation](https://docs.sourcegraph.com/dev/background-information/sg#sg-db-interact-with-your-local-sourcegraph-database-s)
 
 If you have ideas of other features that would be great, don't hesitate to join the [SG Hacking Hour](https://calendar.google.com/calendar/u/0/r/eventedit/a3RoaThiMjQ2am8zcDdmbThpcWNzbGZsNDhfMjAyMjAxMDdUMTYwMDAwWiBqZWFuLWhhZHJpZW4uY2hhYnJhbkBzb3VyY2VncmFwaC5jb20) on Fridays at 4PM UTC!
-
-### Internal libraries
-
-Actors are now propagated across _all_ internal requests when using the `httpcli` library, and the various approaches for propagating actors across services has been standardized with the new [`actor.HTTPMiddleware`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9233e2cd9b96bbbbbfb4be2e72543cb41ad9920c/-/blob/internal/actor/http.go?L94:6#tab=references). This makes it easier to enforce permissions across services. For more details, see [#28117](https://github.com/sourcegraph/sourcegraph/pull/28117).
-
-[`dbconn.Global` has been removed](https://github.com/sourcegraph/sourcegraph/pull/28251)! This is a huge step towards [bringing better database mocking to the entire codebase](https://github.com/sourcegraph/sourcegraph/issues/26113) (check out the [code insights dashboard tracking relevant migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTB9)!)
-
-![migration from global database mocks](https://user-images.githubusercontent.com/23356519/148499207-4862bdd8-2be6-4e73-9d47-2cd91f2c208c.png)
-
-### Miscellaneous
-
-[Tracking issues](../../process/tracking_issues.md) now support a new marker, `<!-- OPTIONAL LABEL: my-label -->`, that allows you to add labels on a tracking issue that do not need to be present on child issues for them to be considered part of this tracking issue. This is useful for making tracking issues easier to find without adding labels to every single issue within the tracking issue. For more details, see [#28665](https://github.com/sourcegraph/sourcegraph/pull/28665).
-
-Buildkite pipeline steps should now explicitly declare `queue: standard` to avoid experimental or temporary agents. For more details, see [infrastructure#2939](https://github.com/sourcegraph/infrastructure/pull/2939).
 
 ## Nov 23, 2021
 
