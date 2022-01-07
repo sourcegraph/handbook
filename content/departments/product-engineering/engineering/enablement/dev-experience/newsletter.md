@@ -28,7 +28,9 @@ Of course, this check will come with escape hatches in the event of flake or tes
 
 For the full announcement or to leave comments, check out [the Slack discussion](https://sourcegraph.slack.com/archives/C0EPTDE9L/p1641329708282700)!
 
-### Continuous `main` pipeline failures will now result in a branch lock
+### Continuous integration
+
+#### Subsequent `main` pipeline failures will now result in a branch lock
 
 In response to a variety of CI incidents (including [INC-21](https://github.com/sourcegraph/sourcegraph/issues/25482) at the end of September) we have introduced automated branch locks via a tool called [`buildchecker`](https://github.com/sourcegraph/sourcegraph/tree/main/dev/buildchecker). When `buildchecker` detects a series of CI failures, it will now automatically restrict push access to `main` to authors of recent failed builds and the DevX team until it sees a passed build, at which point it will unlock the branch. A notification will be posted in Slack to #buildkite-main as well mentioning the relevant teammates.
 
@@ -36,22 +38,22 @@ It is the responsibility of authors of recently failed builds to investigate wha
 
 We've also made significant investments towards improving and streamlining the pipeline for better stability and observability - most recently, [a large number of E2E/QA tests were dropped](https://github.com/sourcegraph/sourcegraph/pull/28995) - which will hopefully help with minimizing locks triggered by test and infrastructure flakes.
 
-### Sentry integration to monitor internal pipeline scripts and hooks
-
-There are scripts and components of the CI pipeline that should never fail, independently of the tests results. These have proved be to hard to monitor, especially when the scripts are called from build hooks. Being notified when these failures happen enables faster reaction time. Here is an [example](https://github.com/sourcegraph/sourcegraph/pull/28915/files#diff-3c4244f37fc751696252758dd92a887d9e1e30851b18932c142ae56202bb5ea7R40) to get monitor a command so that a Sentry issue in the [Buildkite](https://sentry.io/organizations/sourcegraph/projects/buildkite/?project=6110304) project is created on a non zero exit code.
-
-### Specifying tools and language versions ran by _any_ continuous pipeline
+#### Specifying tools and language versions ran by _any_ continuous pipeline
 
 In response to [INC-59](https://docs.google.com/document/d/1HXKZa9L3MVswK6pDpRN5TdCgUcEcQca9Re4vCwlb6Ek/edit#) we have reworked which tools and languages versions are to be used in a given CI job. Previously, the agents where running a mix of `asdf` and natively installed versions which created trouble when diagnosing build failures that weren't caused by the test themselves.
 
 It is now _the responsibility of each repository to provide an adequate `.tools-version` file that defines what are the versions it needs_. There are no more pre-installed `go` version for example.
 Presently, this approach is limited by having the plugin for that particular tool installed beforehand on the agents images (we are working on removing this limitation). The overarching goal is to make the agents reasonably independent from what they are actually building.
 
-### RFC 544: E2E and QA Tests survey results
+#### E2E and QA Tests survey results
 
 [RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes.
 
 There is more to come on that topic and the Frontend-Platform team has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
+
+#### Sentry integration to monitor internal pipeline scripts and hooks
+
+There are scripts and components of the CI pipeline that should never fail, independently of the tests results. These have proved be to hard to monitor, especially when the scripts are called from build hooks. Being notified when these failures happen enables faster reaction time. Here is an [example](https://github.com/sourcegraph/sourcegraph/pull/28915/files#diff-3c4244f37fc751696252758dd92a887d9e1e30851b18932c142ae56202bb5ea7R40) to get monitor a command so that a Sentry issue in the [Buildkite](https://sentry.io/organizations/sourcegraph/projects/buildkite/?project=6110304) project is created on a non zero exit code.
 
 ### Observability
 
