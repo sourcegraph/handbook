@@ -71,6 +71,14 @@ There is more to come on that topic and the [Frontend Platform team](../frontend
 
 Buildkite pipeline steps should now explicitly declare `queue: standard` to avoid experimental or temporary agents. For more details, see [infrastructure#2939](https://github.com/sourcegraph/infrastructure/pull/2939).
 
+#### Terraform vulnerability scanning
+
+The [security team](../../cloud/security/index.md) has introduced [Checkov checks](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) to the [`infrastructure` repository](https://github.com/sourcegraph/infrastructure) and performed a cleanup to fix or suppress all high and critical issues!
+
+Going forward, the Checkov step of the infrastructure pipeline will be set to fail in the event it finds a Terraform security issue. If the pipeline fails a warning block will be displayed in the pipeline output - a link will take you to the handbook with guidance on how to continue, and additional output will help point you towards how to correct the issue. For more details, see [Checkov Terraform vulnerability scanning](../../cloud/security/checkov.md)
+
+If anyone has any questions or issues, please post in the #security channel!
+
 #### Sentry integration to monitor internal pipeline scripts and hooks
 
 There are scripts and components of the CI pipeline that should never fail, independently of the tests results. These have proved be to hard to monitor, especially when the scripts are called from build hooks. Being notified when these failures happen enables faster reaction time. Here is an [example](https://github.com/sourcegraph/sourcegraph/pull/28915/files#diff-3c4244f37fc751696252758dd92a887d9e1e30851b18932c142ae56202bb5ea7R40) to get monitor a command so that a Sentry issue in the [Buildkite](https://sentry.io/organizations/sourcegraph/projects/buildkite/?project=6110304) project is created on a non zero exit code.
