@@ -90,15 +90,18 @@ The table below breaks down the capabilities of each team within Marketing. Once
     - Lindsay Murphy, Customer Marketing Lead
   - [Erica Lindberg](../../team/index.md#erica-lindberg), Director of Content Strategy
     - [Rebecca Dodd](../../team/index.md#rebecca-dodd), Senior Managing Editor
+    - [Nick Moore](../../team/index.md#nick-moore), Content Editor
     - [Jenny Bergen](../../team/index.md#jenny-bergen), Manager, Content Marketing
     - [Scott Bailey](../../team/index.md#scott-bailey), Technical Content Marketing Manager
-    - [Nick Moore](../../team/index.md#nick-moore), Content Editor
   - [Sarah Reece](../../team/index.md#sarah-reece), Director of Demand Generation
-    - Rebecca Rissinger, Manager, Marketing Operations
     - Jake Sorensen, Programs Lead, Demand Gen Campaigns
+    - Olivia Simpson, Program Manager, Demand Gen Campaigns
+    - Rebecca Rissinger, Manager, Marketing Operations
+    - Adam Greenhalgh, Marketing Operations Analyst
     - [Greg Bouton](../../team/index.md#greg-bouton), Senior Email & Automation Marketing Manager
     - [Erica Freckelton](../../team/index.md#erica-freckelton), Senior Digital Marketing Manager
     - [Fabiana Castellanos](../../team/index.md#fabiana-castellanos), Project Coordinator, Brand
+    - Jessie Char, Senior Manager, Events and Experiences
   - [Samson Goddy](../../team/index.md#samson-goddy), Director of Community
     - [Vanesa Ortiz](../../team/index.md#vanesa-ortiz), Community Advocate
     - [Prosper Otemuyiwa](../../team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
