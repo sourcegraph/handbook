@@ -9,11 +9,13 @@
 
 ## How does this impact you?
 
-- Currently, it does not. Currently, there is no action required on your part. If you want to take the initative and resolve the issues it finds in your code, that is great!
+- Any finding reported by Checkov will need to corrected. If it cannot be corrected immediately, a security-issue will need to be created and the proper suppression entered into the code.  Also please tag the security team to review the PR.
+
+If it is a false-positive, the proper suppression entry will need to be entered into the code.
 
 ## If checkov finds vulnerabilities will it fail the pipeline?
 
-- While we are currently testing and optimizing this tool, no, the pipeline will not fail.
+- Yes.
 
 ## I have a vulnerability that is a false positive, or one that we will not fix. Can I make Checkov ignore it?
 
