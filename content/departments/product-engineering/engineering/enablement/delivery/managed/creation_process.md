@@ -33,29 +33,33 @@ For basic operations like accessing an instance for these steps, see [managed in
    - **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
      - **User:** `managed+$COMPANY@sourcegraph.com`
      - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
-10. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
-11. Set up the initial admin account (for use by the Sourcegraph team only)
-   - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
-   - Username: `sourcegraph-admin`
-   - Password: Use the password previously created and stored in 1password.
+1. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
+1. Set up the initial admin account (for use by the Sourcegraph team only)
+
+- Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
+- Username: `sourcegraph-admin`
+- Password: Use the password previously created and stored in 1password.
+
 12. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` and add it as "token" under the 1password entry for the admin account.
 13. Navigate to Grafana and confirm the instance looks healthy.
 14. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
 15. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
 16. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
 17. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
-   ```
-   	"observability.alerts": [
-   		{
-   			"level": "critical",
-   			"notifier": {
-   				"type": "slack",
-   				"username": "$COMPANY",
-   				"url": "$WEBHOOK_URL"
-   			}
-   		},
-   	],
-   ```
+
+```
+	"observability.alerts": [
+		{
+			"level": "critical",
+			"notifier": {
+				"type": "slack",
+				"username": "$COMPANY",
+				"url": "$WEBHOOK_URL"
+			}
+		},
+	],
+```
+
 1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
