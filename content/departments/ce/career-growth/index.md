@@ -37,3 +37,9 @@ Within the technology pillar there exists three core responsibility areas:
 - Technical Aptitude
 - Product Knowledge
 - Domain Subject Matter Expertise
+
+## CEs Transitioning to CE Management
+
+We want to support the career progession of CEs on the Customer Engineering team based on their individual career goals and aspirations. For those that desire to move from an individual contributor (IC) role to a management role, the CE Manager Interview Process for Internal CE Candidates outlines how teammates would go about assessing their readiness for and applying for new CE Manager roles that open up. The goal of this process is provide clear visibility into what expectations should be for career advancement into management within the CE team.
+
+[CE Manager Interview Process for Internal CE Candidates](cemgr-candidates-internal.md)
