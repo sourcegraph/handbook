@@ -9,7 +9,7 @@
 
 ## How does this impact you?
 
-- Any finding reported by Checkov will need to corrected. If it cannot be corrected immediately, a security-issue will need to be created and the proper suppression entered into the code.  Also please tag the security team to review the PR.
+- Any finding reported by Checkov will need to corrected. If it cannot be corrected immediately, a security-issue will need to be created and the proper suppression entered into the code. Also please tag the security team to review the PR.
 
 If it is a false-positive, the proper suppression entry will need to be entered into the code.
 
