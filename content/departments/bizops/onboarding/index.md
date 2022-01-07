@@ -1,6 +1,6 @@
 # BizOps onboarding
 
-Welcome! We're so excited to have you join the BizOps team. This document outlines the structure of your first few weeks at Sourcegraph. Most of the actual onboarding content is in Process Street, so to avoid duplication some sections are intentionally non-specific. 
+Welcome! We're so excited to have you join the BizOps team. This document outlines the structure of your first few weeks at Sourcegraph. Most of the actual onboarding content is in Process Street, so to avoid duplication some sections are intentionally non-specific.
 
 ## Week 1
 
