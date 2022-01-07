@@ -1,12 +1,12 @@
-# Extensibility Team Goals and Roadmap
+# Growth and Integrations Team Goals and Roadmap
 
-The Extensibility team focuses on high impact projects aligned with the company's OKRs.
+The Growth and Integrations team focuses on high impact projects aligned with the company's OKRs.
 
 As Sourcegraph continues to grow and the team is able to bring on a dedicated product manager, designer, and additional engineers, the team's roadmap will adopt a more traditional product development trajectory.
 
 ## Goals for FY22
 
-See also our [completed goals](../../../../departments/product-engineering/engineering/cloud/extensibility/goals_completed.md).
+See also our [completed goals](../../../../departments/product-engineering/engineering/cloud/growth-and-integrations/goals_completed.md).
 
 ### 1. Make Sourcegraph extensions an active ecosystem
 
@@ -38,7 +38,7 @@ We want – and our users want – our users to build custom extensions, but t
 
 ### FY22
 
-The below items are the team's current focus areas in order of delivery quarter. The detailed Extensibility [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights), including progress status, can be viewed in Productboard. (There is also an [Extensibility-team-specific gantt chart roadmap](https://sourcegraph.productboard.com/roadmap/2748745-extensibility-features-timeline-roadmap) view with the same information.)
+The below items are the team's current focus areas in order of delivery quarter. The detailed Growth and Integrations [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights), including progress status, can be viewed in Productboard. (There is also an [Growth and Integrations-team-specific gantt chart roadmap](https://sourcegraph.productboard.com/roadmap/2748745-extensibility-features-timeline-roadmap) view with the same information.)
 
 | Feature                                                                     | Goal area               | Delivery quarter (FY22) |
 | --------------------------------------------------------------------------- | ----------------------- | ----------------------- |
