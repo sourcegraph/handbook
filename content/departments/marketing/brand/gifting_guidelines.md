@@ -37,7 +37,7 @@ All items in our inventory are the same ones found in our new hire kits, but not
 
 - Name of the recipient
 - Email of the recipient
-- A reason for the request (e.g: Participated as a guest speaker on our web series).
+- A reason for the request (e.g. Participated as a guest speaker on our web series).
 - Country of destination (not strickly necessary but preferred). Learn more about international shipping [here](https://help.printfection.com/hc/en-us/articles/201462224-International-shipping#:~:text=Printfection%20offers%20international%20shipping%20to,military%20addresses%2C%20and%20US%20territories).
 
 2. The Brand team will review your request. _Note: all requests will be reviewed on a case-by-case basis factoring in current inventory levels and use cases_
