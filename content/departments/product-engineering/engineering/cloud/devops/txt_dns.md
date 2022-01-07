@@ -10,8 +10,6 @@ owned DNS records you should make the change to the code in Terraform in our inf
       Sourcegraph.com, we typically create a file `sourcegraph.$TXT_PROVIDER.tf`
 
 1. Create a pull request in the infra repo with your changes
-1. Get approve from the cloud-devops team
-1. `terraform apply` the PR or ask a member of the devops team to do this
+1. Get approval from the Cloud DevOps team
+1. `terraform apply` the PR or ask a member of the DevOps team to do this
 1. Merge the PR **after** the apply succeeds
-
-For other
