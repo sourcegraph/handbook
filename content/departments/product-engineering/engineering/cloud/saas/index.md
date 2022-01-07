@@ -234,7 +234,8 @@ All team events and reminders should be added to the [team calendar](https://cal
 
 #### Making pull requests and asking for code reviews
 
-TBD
+- Everyone (including engineers, EM, PM, PD) should set up a reliable way to receive pull request review notifications, examples are emails, Slack notifications (through GitHub Scheduled reminders). In some cases, direct pinging required reviewers could inform reviewers about the urgency and may help expedite receiving reviews.
+- Pull requests in the draft state indicate work in progress and not ready for review, while occasionally the author may ask for early feedback in explicit forms, examples are direct pings, mentioned on the pull requests.
 
 #### Definition of done (DoD)
 
