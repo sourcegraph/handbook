@@ -42,7 +42,7 @@ TODO also mention agent state improvements
 
 The previous raw Grafana configuration used to add template variables to dashboards has been replaced with [`Container::Variables`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/docs/monitoring/monitoring?ContainerVariable) that abstracts away a lot of the behind-the-scenes dashboard config and potential gotchas to make it easier to define template variables on dashboards! Dashboard template variables are used to filter individual panels down by substituting variables in panel queries. Learn more in the [`ContainerVariable` API docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/docs/monitoring/monitoring?ContainerVariable).
 
-![image](https://user-images.githubusercontent.com/23356519/148470790-4397f274-68c7-45ab-8f9a-9057d162b1ab.png)
+![template variables](https://user-images.githubusercontent.com/23356519/148470790-4397f274-68c7-45ab-8f9a-9057d162b1ab.png)
 
 ### Local development
 
@@ -54,7 +54,9 @@ TODO `sg db ...` https://github.com/sourcegraph/sourcegraph/pull/29382
 
 Actors are now propagated across _all_ internal requests when using the `httpcli` library, and the various approaches for propagating actors across services has been standardized with the new [`actor.HTTPMiddleware`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9233e2cd9b96bbbbbfb4be2e72543cb41ad9920c/-/blob/internal/actor/http.go?L94:6#tab=references). This makes it easier to enforce permissions across services. For more details, see [#28117](https://github.com/sourcegraph/sourcegraph/pull/28117).
 
-[`dbconn.Global` has been removed](https://github.com/sourcegraph/sourcegraph/pull/28251)! This is a huge step towards [bringing better database mocking to the entire codebase](https://github.com/sourcegraph/sourcegraph/issues/26113).
+[`dbconn.Global` has been removed](https://github.com/sourcegraph/sourcegraph/pull/28251)! This is a huge step towards [bringing better database mocking to the entire codebase](https://github.com/sourcegraph/sourcegraph/issues/26113) (check out the [code insights dashboard tracking relevant migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTB9)!)
+
+![migration from global database mocks](https://user-images.githubusercontent.com/23356519/148499207-4862bdd8-2be6-4e73-9d47-2cd91f2c208c.png)
 
 ### Miscellaneous
 
