@@ -8,7 +8,7 @@ Site configuration for sourcegraph.com is split into two files. One contains non
 
 ### Non-sensitive configurations
 
-Non-sensitve configurations are stored in a [ConfigMap](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/frontend/non-sensitive-site-config.ConfigMap.yaml) and are updated through our standard git flow.
+Non-sensitive configurations are stored in a [ConfigMap](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/frontend/non-sensitive-site-config.ConfigMap.yaml) and are updated through our standard git-flow.
 
 ### Sensitive configurations
 
@@ -25,7 +25,7 @@ Our site configuration contains many secrets like OAuth credentials. It is [stor
 External service connections are handled through the sourcegraph.com UI. The only credentials managed through GSM are for the Cloud default GitHub and GitLab connections. To rotate those tokens follow these steps:
 
 1. Generate a new API token from the code host. Make sure it's properly documented in 1password.
-1. On the external service configuration, replace `REDACTED` by the new token and save changes.
+1. On the external service configuration, replace `REDACTED` with the new token and save changes.
 1. Ensure that the new token works.
 1. Revoke the old token from the code host.
 
