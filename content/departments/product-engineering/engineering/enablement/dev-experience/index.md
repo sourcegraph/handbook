@@ -70,7 +70,7 @@ There is a weekly `sg` hack hour the DevX team co-hosts weekly Fridays from 16:0
 
 When the hack hour starts, a meeting link will be posted in #dev-experience.
 
-Learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg).
+To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
 
 ### Support
 
