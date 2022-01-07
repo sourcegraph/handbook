@@ -81,7 +81,7 @@ As a build sheriff, the on-call support teammate should monitor the pipeline thr
 
 ### Newsletter
 
-The DevX team is responsible for a **monthly** newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
+The DevX team is responsible for a **monthly** (ish) newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
 
 To prepare a new issue of the newsletter, create a PR for the latest newsletter issue here following the conventions in the [previous newsletters](./newsletter.md). Some tips:
 
