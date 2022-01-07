@@ -91,7 +91,7 @@ The local development docs homepage has been revamped! Check it out at [docs.sou
 
 `sg` [now ships](https://github.com/sourcegraph/sourcegraph/pull/29382) a command that can reset databases as well as creating a site-admin: `sg db` (early adopters may have seen it under the name of `sg reset`). You can read more about the `sg db [reset-pg|reset-redis|add-user]` in the [documentation](https://docs.sourcegraph.com/dev/background-information/sg#sg-db-interact-with-your-local-sourcegraph-database-s)
 
-If you have ideas of other features that would be great, don't hesitate to join the [SG Hacking Hour](https://calendar.google.com/calendar/u/0/r/eventedit/a3RoaThiMjQ2am8zcDdmbThpcWNzbGZsNDhfMjAyMjAxMDdUMTYwMDAwWiBqZWFuLWhhZHJpZW4uY2hhYnJhbkBzb3VyY2VncmFwaC5jb20) on Fridays at 4PM UTC!
+If you have ideas of other features that would be great, don't hesitate to join the [`sg` hack hour](./index.md#sg-hack-hour) on Fridays at 4PM UTC!
 
 ## Nov 23, 2021
 
