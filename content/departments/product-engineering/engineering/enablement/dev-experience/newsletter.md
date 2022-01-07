@@ -42,14 +42,14 @@ There are scripts and components of the CI pipeline that should never fail, inde
 
 ### Specifying tools and language versions ran by _any_ continuous pipeline
 
-In response to [INC-59](https://docs.google.com/document/d/1HXKZa9L3MVswK6pDpRN5TdCgUcEcQca9Re4vCwlb6Ek/edit#) we have reworked which tools and languages versions are to be used in a given CI job. Previously, the agents where running a mix of `asdf` and natively installed versions which created trouble when diagnosing build failures that weren't caused by the test themselves. 
+In response to [INC-59](https://docs.google.com/document/d/1HXKZa9L3MVswK6pDpRN5TdCgUcEcQca9Re4vCwlb6Ek/edit#) we have reworked which tools and languages versions are to be used in a given CI job. Previously, the agents where running a mix of `asdf` and natively installed versions which created trouble when diagnosing build failures that weren't caused by the test themselves.
 
-It is now _the responsibility of each repository to provide an adequate `.tools-version` file that defines what are the versions it needs_. There are no more pre-installed `go` version for example. 
-Presently, this approach is limited by having the plugin for that particular tool installed beforehand on the agents images (we are working on removing this limitation). The overarching goal is to make the agents reasonably independent from what they are actually building. 
+It is now _the responsibility of each repository to provide an adequate `.tools-version` file that defines what are the versions it needs_. There are no more pre-installed `go` version for example.
+Presently, this approach is limited by having the plugin for that particular tool installed beforehand on the agents images (we are working on removing this limitation). The overarching goal is to make the agents reasonably independent from what they are actually building.
 
 ### RFC 544: E2E and QA Tests survey results
 
-[RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes. 
+[RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes.
 
 There is more to come on that topic and the Frontend-Platform team has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
 
@@ -65,7 +65,7 @@ The local development docs homepage has been revamped! Check it out at [docs.sou
 
 `sg` [now ships](https://github.com/sourcegraph/sourcegraph/pull/29382) a command that can reset databases as well as creating a site-admin: `sg db` (early adopters may have seen it under the name of `sg reset`). You can read more about the `sg db [reset-pg|reset-redis|add-user]` in the [documentation](https://docs.sourcegraph.com/dev/background-information/sg#sg-db-interact-with-your-local-sourcegraph-database-s)
 
-If you have ideas of other features that would be great, don't hesitate to join the [SG Hacking Hour](https://calendar.google.com/calendar/u/0/r/eventedit/a3RoaThiMjQ2am8zcDdmbThpcWNzbGZsNDhfMjAyMjAxMDdUMTYwMDAwWiBqZWFuLWhhZHJpZW4uY2hhYnJhbkBzb3VyY2VncmFwaC5jb20) on Fridays at 4PM UTC! 
+If you have ideas of other features that would be great, don't hesitate to join the [SG Hacking Hour](https://calendar.google.com/calendar/u/0/r/eventedit/a3RoaThiMjQ2am8zcDdmbThpcWNzbGZsNDhfMjAyMjAxMDdUMTYwMDAwWiBqZWFuLWhhZHJpZW4uY2hhYnJhbkBzb3VyY2VncmFwaC5jb20) on Fridays at 4PM UTC!
 
 ### Internal libraries
 
