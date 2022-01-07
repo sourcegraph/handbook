@@ -13,7 +13,7 @@ We use a variety of CTAs, including:
 
 - Product trials [Search Code](https://sourcegraph.com/search), [Deploy Locally](https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
 - [Blog content](https://about.sourcegraph.com/blog/) – these campaigns offer educational content from the Sourcegraph blog to enable developers to increase their skills and think of Sourcegraph as a developer resource
-- Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers provide third-party credibility for both individual developers and their managers
+- Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers to provide third-party credibility for both individual developers and their managers
 
 ### Audiences
 
@@ -41,7 +41,7 @@ We run (or have run) ads/sponsorships on the following channels in order to rais
 #### Developer-Facing Blogs/Websites/Newsletters
 
 - [DaringFireball](https://daringfireball.net/)
-- [Cooper Press newsletters](https://cooperpress.com/) (Javascript Weekly, Node Weekly, React Status, Go Weekly)
+- [Cooper Press newsletters](https://cooperpress.com/) (JavaScript Weekly, Node Weekly, React Status, Go Weekly)
 - [StackShare](https://stackshare.io/feed)
 - [DevsOps'Ish](https://devopsish.com/)
 - [Hanselman](https://www.hanselman.com/)
