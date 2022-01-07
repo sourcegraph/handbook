@@ -10,7 +10,7 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 ## Jan 10, 2022
 
-Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
 To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
