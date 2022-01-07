@@ -38,7 +38,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 We are an early-stage company, and every team member can have a huge impact on our success. We want to make sure that everyone has a financial stake in the success and that contributions are rewarded.
 
-See [Equity FAQ](equity-faq.md).
+- See [Equity FAQ](equity-faq.md).
+- See [How and when stock option grants are calculated](equity-timing.md).
 
 ### Benefits and perks
 
@@ -63,8 +64,6 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 ### Consistency
 
 We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-ops/index.md) before making them.
-
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../departments/people-ops/process/impact-reviews.md) process.
 
 ### Negotiating should not be needed
 
