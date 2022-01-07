@@ -1,10 +1,10 @@
 # Marketing Operations
 
-The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com).
+The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MarTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com).
 
 ## MarTech Stack
 
-As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today. Martech login details can be [found here](https://docs.google.com/spreadsheets/d/1LhvprlawDG2sNa_ozO_BBQWroOropudoyVVRiqhBNLo/edit#gid=274864472).
+As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today. MarTech login details can be [found here](https://docs.google.com/spreadsheets/d/1LhvprlawDG2sNa_ozO_BBQWroOropudoyVVRiqhBNLo/edit#gid=274864472).
 
 ## Lead Management
 
@@ -30,7 +30,7 @@ Marketing leads inbound in the following ways:
 
 #### Product (Private Install or Sourcegraph.com Account Sign Ups) Email- Only Leads\*
 
-\*(Backend web code set up by BizOps/CustomerOps passes prospect email address and tracking/sourcing data via API key from the product into Hubspot)
+\*(Backend web code set up by BizOps/CustomerOps passes prospect email address and tracking/sourcing data via API key from the product into HubSpot)
 
 - Private/Local Install
   This lead is created when a prospect copies and pastes the code from the “Search Your Own Code” CTA on the “Get Started” page and runs it on their machine, we capture an email address and share it with sales.
@@ -46,24 +46,24 @@ You can see the specifics of our intent and product lead scoring in our working 
 
 Marketing Operations is currently partnering with sales to implement a lead lifecycle program. Once the details are finalized, we will be updating this section.
 
-## Hubspot
+## HubSpot
 
-Hubspot is our marketing automation tool. It’s where we run all our email marketing campaigns, track engagement, score marketing qualified leads, and manage parts of the lead lifecycle from. Our goal is to keep this system aligned with Salesforce so that we’re staying current with processes to support the sales cycle.
+HubSpot is our marketing automation tool. It’s where we run all our email marketing campaigns, track engagement, score marketing qualified leads, and manage parts of the lead lifecycle from. Our goal is to keep this system aligned with Salesforce so that we’re staying current with processes to support the sales cycle.
 
-### Hubspot Access
+### HubSpot Access
 
-Most everyone at the organization has access to Hubspot. If you do not and you would like access, you can reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com). Alternatively, if you have a user seat, but are having difficulty completing an action due to your user role/permissions you can reach out as well.
+Most everyone at the organization has access to HubSpot. If you do not and you would like access, you can reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com). Alternatively, if you have a user seat, but are having difficulty completing an action due to your user role/permissions you can reach out as well.
 
-### Hubspot Roles
+### HubSpot Roles
 
-Hubspot Roles have been created to standardize company-wide access, as well as to ensure that all users have appropriate access to Hubspot. Below is an overview of the Roles. Please reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com) if you think your role needs to be changed.
+HubSpot Roles have been created to standardize company-wide access, as well as to ensure that all users have appropriate access to HubSpot. Below is an overview of the Roles. Please reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com) if you think your role needs to be changed.
 
-- Super Admin: Unlimited access to our Hubspot instance.
-- Standard Admin: Pared-down admin access to our Hubspot instance. Ability to change Hubspot settings, import data, bulk delete, and edit/delete workflows has been disabled.
-- User - Edit Access: Basic access to our Hubspot instance with added ability to edit objects, export data, create forms/lists/files, read/write ads, campaigns, blogs, landing pages, and URL redirects, and create/edit reports.
-- User - Read Access: Basic 'read only' access to our Hubspot instance.
+- Super Admin: Unlimited access to our HubSpot instance.
+- Standard Admin: Pared-down admin access to our HubSpot instance. Ability to change HubSpot settings, import data, bulk delete, and edit/delete workflows has been disabled.
+- User - Edit Access: Basic access to our HubSpot instance with added ability to edit objects, export data, create forms/lists/files, read/write ads, campaigns, blogs, landing pages, and URL redirects, and create/edit reports.
+- User - Read Access: Basic 'read only' access to our HubSpot instance.
 
-As we continue to grow, users will also be added to our Hubspot instance. In order to keep a level of consistency, roles will be automatically assigned to teams. If a member of the team needs to have upgraded access, please reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com).
+As we continue to grow, users will also be added to our HubSpot instance. In order to keep a level of consistency, roles will be automatically assigned to teams. If a member of the team needs to have upgraded access, please reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com).
 
 - People Ops: User - Read Access
 - Product: User - Edit Access
@@ -75,37 +75,37 @@ As we continue to grow, users will also be added to our Hubspot instance. In ord
 - Talent: User - Read Access
 - Operations: User - Read Access
 
-### Request for Email Send via Hubspot
+### Request for Email Send via HubSpot
 
-If you are interested in getting an email sent through Hubspot to existing opt-in email addresses, please be sure to fill out our [Hubspot Email Send Request Form](https://form.asana.com?k=_YtJFC_Eo-NG8iOSEdNgVA&d=7195383522959). Once we receive your request, we will assess our email send schedule to see if we can accommodate your request and provide options and recommendations if it is a request that cannot be accommodated.
+If you are interested in getting an email sent through HubSpot to existing opt-in email addresses, please be sure to fill out our [HubSpot Email Send Request Form](https://form.asana.com?k=_YtJFC_Eo-NG8iOSEdNgVA&d=7195383522959). Once we receive your request, we will assess our email send schedule to see if we can accommodate your request and provide options and recommendations if it is a request that cannot be accommodated.
 
-### Hubspot Integrations
+### HubSpot Integrations
 
 - Salesforce: This is how we pass lead and marketing data over to the sales organization.
 
-- Postal.io: This account-based marketing tool is how we send gifts and mailings out to prospects. The integration with Hubspot allows us to automate email messaging workflows before or after gifts are sent or received. Today, we are not running any automated email messaging via this integration.
+- Postal.io: This account-based marketing tool is how we send gifts and mailings out to prospects. The integration with HubSpot allows us to automate email messaging workflows before or after gifts are sent or received. Today, we are not running any automated email messaging via this integration.
 
-- Triblio: This account-based marketing tool is how we target specific accounts for digital advertising. The integration with Hubspot allows us to create target lists within Hubspot and share them with Triblio.
+- Triblio: This account-based marketing tool is how we target specific accounts for digital advertising. The integration with HubSpot allows us to create target lists within HubSpot and share them with Triblio.
 
-- Typeform: This marketing tool is how we create forms, surveys, and quizzes for our prospects. The integration with Hubspot allows us to send prospect answers and data into fields in Hubspot. Setting up this data flow lets us capture important information about our prospects, increase their intent scores based on responses, and surface important prospect responses to Sales when appropriate. As long as your Typeform asks for a person's email address, we can send responses to Hubspot. Reach out to us if you are interested in integrating forms, surveys, or quizzes with Hubspot.
+- Typeform: This marketing tool is how we create forms, surveys, and quizzes for our prospects. The integration with HubSpot allows us to send prospect answers and data into fields in HubSpot. Setting up this data flow lets us capture important information about our prospects, increase their intent scores based on responses, and surface important prospect responses to Sales when appropriate. As long as your Typeform asks for a person's email address, we can send responses to HubSpot. Reach out to us if you are interested in integrating forms, surveys, or quizzes with HubSpot.
 
-- Orbit: This marketing tool is how we understand our community's interactions with Sourcegraph. The integration with Hubspot allows us to create user activities in Orbit when community members take specific actions. Today, anytime someone submits their information on our [Dev Tool Time page](https://info.sourcegraph.com/dev-tool-time), an activity is created for that person in Orbit.
+- Orbit: This marketing tool is how we understand our community's interactions with Sourcegraph. The integration with HubSpot allows us to create user activities in Orbit when community members take specific actions. Today, anytime someone submits their information on our [Dev Tool Time page](https://info.sourcegraph.com/dev-tool-time), an activity is created for that person in Orbit.
 
-### Hubspot Technical Resources
+### HubSpot Technical Resources
 
-Hubspot is a fluid system, where we are always making updates to continue to improve our processes. Here are a few places you can go to review technical updates the marketing operations team is making within the system:
+HubSpot is a fluid system, where we are always making updates to continue to improve our processes. Here are a few places you can go to review technical updates the marketing operations team is making within the system:
 [Marketing/Hubspot Documentation](https://docs.google.com/document/d/1rJ9dmicBH160yQBRblsPMv0k-Hetp4O-_RQUyHrmvKA/edit?usp=sharing)
 
 ### Hubspot and UTM parameters
 
 The parameters that [HubSpot supports out of the box](https://knowledge.hubspot.com/settings/how-do-i-create-a-tracking-url) are `utm_campaign`, `utm_source`, `utm_medium`, `utm_term`, and `utm_content`.
 
-First Touchpoint is a custom marketing field we have created in Hubspot.. This fields help us determine the first touches marketing has with a prospect. There are supporting
+First Touchpoint is a custom marketing field we have created in HubSpot. These fields help us determine the first touches marketing has with a prospect. There are supporting
 [Workflows](https://app.hubspot.com/workflows/2762526/flow/9011999/edit) set up in HubSpot to capture the latest conversion information, and copy this information to the ‘First event’ fields if they are blank/ unknown.
 
 ### Dashboards and Marketing Analytics\*
 
-Marketing dashboards that are specific to Marketing intiatives are mostly created in Tableau, to access - you will need to use this [OnePassword](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/467npo7pkmnty4gmyt5crmmmga). If you have any questions or requests please reach out to Adam Greenhalgh.
+Marketing dashboards that are specific to Marketing initiatives are mostly created in Tableau, to access - you will need to use this [OnePassword](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/467npo7pkmnty4gmyt5crmmmga). If you have any questions or requests please reach out to Adam Greenhalgh.
 
 [To track current progress to marketing OKR's](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - with associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
 
