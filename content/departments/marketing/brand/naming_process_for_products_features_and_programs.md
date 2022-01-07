@@ -35,7 +35,7 @@ The process aims to address three main areas:
 
 ## The Process
 
-The full process should begin once the project or program is considered an approved, viable object that will be released to the public. Experimental projects should use a descriptive code name (see important notes above) until viability is achieved, at which point the naming process for official release can begin. Expect the “full” process to take anywhere from 4-6 weeks max depending on the name, localization needs and trademark research or approvals. Thus, it’s important to align the full naming sprint with the expected launch date, to ensure there are no blockers to launch from a naming perspective. During beta testing and experimental phase, the bland or descriptive names can be used with users. Once a go-to-market is approved and planned, the decision between full or light naming processes should occur immediately.
+The full process should begin once the project or program is considered and approved, viable object that will be released to the public. Experimental projects should use a descriptive code name (see important notes above) until viability is achieved, at which point the naming process for official release can begin. Expect the “full” process to take anywhere from 4-6 weeks max depending on the name, localization needs and trademark research or approvals. Thus, it’s important to align the full naming sprint with the expected launch date, to ensure there are no blockers to launch from a naming perspective. During beta testing and experimental phase, the bland or descriptive names can be used with users. Once a go-to-market is approved and planned, the decision between full or light naming processes should occur immediately.
 
 ### “Full” Naming process for externally-facing products, features, programs, groups and events:
 
@@ -46,7 +46,7 @@ The full process should begin once the project or program is considered an appro
 
 ### “Light” naming process for Level 2-3 feature names and internally-facing projects, programs, and events:
 
-1. During the initial planning phase for the project or program, the Requestor should use the [Resources](#additional-resources) provided below to see if their desired desired feature, group, or program name is being used elsewhere, has any translation or localization challenges, or has additional meanings or innuendos that may be culturally or demographically inappropriate
+1. During the initial planning phase for the project or program, the Requestor should use the [Resources](#additional-resources) provided below to see if their desired feature, group, or program name is being used elsewhere, has any translation or localization challenges, or has additional meanings or innuendos that may be culturally or demographically inappropriate
 1. Requestor shares results of initial search with Brand and Legal teams for review
 1. If required, Brand and Legal teams will do a more thorough background search and evaluation
 1. Requestor’s name is approved for use in the specific case requested, OR Brand/Legal teams may ask to meet with Requestor to discuss options based on preliminary search
