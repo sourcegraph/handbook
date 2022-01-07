@@ -14,7 +14,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="../../../../team/index.md#sara-lee" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Sara Lee</div>
@@ -25,7 +25,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="../../../../team/index.md#murat-sutunc" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Murat Sutunc</div>
@@ -36,7 +36,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="../../../../team/index.md#beatrix-woo" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Beatrix Woo</div>
@@ -47,7 +47,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="../../../../team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Erzhan Torokulov</div>
@@ -58,7 +58,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="../../../../team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">TJ Kandala</div>
@@ -68,7 +68,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
         </div>
         <div style="text-align: center;">P.S.</div>
         <div style="text-align: center; font-size: 12px;">Software Engineer</div>
@@ -79,7 +79,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
 <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/rob-rhyne.png" alt="Picture of Rob Rhyne" style="background: transparent; width:128px;"/>
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/rob-rhyne.png" alt="Picture of Rob Rhyne" style="background: transparent; width:128px;"/>
         </div>
         <div style="text-align: center;">Rob Rhyne</div>
         <div style="text-align: center; font-size: 12px;">Temporary product manager and product designer, growth</div>
@@ -88,7 +88,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/growth-and-integrations/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
         </div>
         <div style="text-align: center;">Stephen Gutekanst </div>
         <div style="text-align: center; font-size: 12px;">Software Engineer (growth)</div>
@@ -195,6 +195,6 @@ In November 2019, [Sourcegraph partnered with GitLab to create a native integrat
 
 In December 2020, [Sourcegraph released a Safari Extension](https://apps.apple.com/us/app/sourcegraph-for-safari/id1543262193) to support Safari users with our browser extension, in addition to Chrome and Firefox.
 
-In early 2021, the Extensibility team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team.
+In early 2021, the Growth and Integrations team was formed as an offshoot of the "web team" (which became the 2021 Developer Insights org) because the product direction, support and maintenance, validation, and future promises of Sourcegraph's browser extensions, native code host integrations, and Sourcegraph extensions required and deserved the resources of its own team.
 
-In late 2021, the Extensibility team was renamed Growth and Integrations.
+In late 2021, the Growth and Integrations team was renamed Growth and Integrations.

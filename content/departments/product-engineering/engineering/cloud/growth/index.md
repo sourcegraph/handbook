@@ -16,7 +16,7 @@ The cloud growth team focuses on the growth of Sourcegraph.com, both as a SaaS p
 
 ## Goals
 
-[Goals and roadmap](../../../../../strategy-goals/strategy/cloud/growth/index.md)
+[Goals and roadmap](../../../../../strategy-goals/strategy/cloud/growth-and-integrations/index.md)
 
 ## API docs
 
