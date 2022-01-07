@@ -4,7 +4,7 @@ API docs is a core component of a company-wide initiative to help Sourcegraph be
 
 ## Goals
 
-[Goals and roadmap](../../../../company/strategy/cloud/growth-and-integrations/api-docs.md)
+[Goals and roadmap](../../../../../strategy-goals/strategy/cloud/growth-and-integrations/api-docs.md)
 
 ## The API docs vision
 

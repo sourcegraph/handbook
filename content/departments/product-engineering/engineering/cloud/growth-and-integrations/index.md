@@ -162,7 +162,7 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
 ## Additional resources
 
 - [Processes](processes.md)
-- [Goals](../../../../company/strategy/cloud/growth-and-integrations/index.md)
+- [Goals](../../../../../strategy-goals/strategy/cloud/growth-and-integrations/index.md)
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
