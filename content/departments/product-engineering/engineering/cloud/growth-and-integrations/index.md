@@ -88,7 +88,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/stephen-gutekanst.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
         </div>
         <div style="text-align: center;">Stephen Gutekanst </div>
         <div style="text-align: center; font-size: 12px;">Software Engineer (growth)</div>
