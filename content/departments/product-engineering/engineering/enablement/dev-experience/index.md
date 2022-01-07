@@ -20,12 +20,21 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Responsibilities
 
-_This section is a work in progress._
+> NOTE: This section is a work in progress.
 
-- [Developer experience newsletter](./newsletter.md)
+- General
+  - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx)
+  - [Developer experience support](#support)
+  - [Developer experience newsletter](./newsletter.md)
 - Continuous integration
+  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
+- Tooling
+  - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
+  - [Monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
+
+> NOTE: We don't own the developer experience at Sourcegraph – we simply focus on it. Sourcegraph engineers own the developer experience as a collective. To learn more, check out our [team strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md).
 
 ## Contact
 
@@ -41,21 +50,13 @@ _This section is a work in progress._
 To collaborate, we use the following:
 
 - Internal team channel in #dev-experience-internal
-- [Planning board](https://github.com/orgs/sourcegraph/projects/212)
-- [Team sync](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
+- [GitHub planning board](https://github.com/orgs/sourcegraph/projects/212)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
+- [Team sync notes](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
+- [Retrospective notes](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#)
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
 
-### Work allocation
-
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
-
-- We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
-- If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
-
 ### Meetings
-
-_This section is a work in progress._
 
 We currently have weekly sync meetings and biweekly retrospectives.
 
@@ -70,14 +71,22 @@ Support on-call responsibilities on this team include:
 #### Build pipeline support
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration).
-This responsibility can be described as that of a "build sheriff" - the goal is to have someone lead on identifying the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
+The goal is to have someone lead on identifying the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 
-As a build sheriff, the on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests), and ensure issues are followed up on:
+The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker).
+If there are any issues, ensure issues are followed up on:
 
 1. Infer the owner based on the contents of the issue, e.g. through product names and other context, and reach out for assistance:
    1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.
    2. If no team is easily inferred, ping the most recent author via `git blame` where relevant for assistance.
 2. Guide the teammate towards a resolution for the issue by following our [broken builds process](https://docs.sourcegraph.com/dev/background-information/testing_principles#broken-builds-on-the-main-branch) (also see [Continuous integration: Flakes](https://docs.sourcegraph.com/dev/background-information/continuous_integration#flakes)).
+
+### Work allocation
+
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts to further our [team goals](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md), so as a rule of thumb:
+
+- We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
+- If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
 
 ### Newsletter
 
