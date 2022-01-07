@@ -107,9 +107,10 @@ First Touchpoint is a custom marketing field we have created in Hubspot.. This f
 
 Marketing dashboards that are specific to Marketing intiatives are mostly created in Tableau, to access - you will need to use this [OnePassword](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/467npo7pkmnty4gmyt5crmmmga). If you have any questions or requests please reach out to Adam Greenhalgh.
 
-[To track current progress to marketing OKR's use this Dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - with associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
+[To track current progress to marketing OKR's](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - with associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
 
 Important notes on dashboard - Marketing Sourced pipeline and MQL goals are stretch goals that are created and agreed upon at an executive level.
+
 Definitions:
 
 `Marketing Sourced` - Any opportunity created in time period that have an opportunity source of 'inbound' or 'events.'
