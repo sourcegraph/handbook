@@ -52,7 +52,7 @@ In response to a variety of CI incidents (including [INC-21](https://github.com/
 
 It is the responsibility of authors of recently failed builds to investigate what might have gone wrong, seek help if needed, and help get the pipeline back green. We hope this will prevent long periods of time where many commits to `main` go untested due to failing jobs. To learn more, check out the [branch lock playbook](../../process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch)
 
-We've also made significant investments towards improving and streamlining the pipeline for better stability and observability - most recently, [a large number of E2E/QA tests were dropped](https://github.com/sourcegraph/sourcegraph/pull/28995) - which will hopefully help with minimizing locks triggered by test and infrastructure flakes.
+We've also made significant investments towards improving and streamlining the pipeline for better stability and observability - most recently, [a large number of E2E/QA tests were dropped](#e2e-and-qa-tests-survey-results) - which will hopefully help with minimizing locks triggered by test and infrastructure flakes.
 
 #### Specifying tools and language versions ran by _any_ continuous pipeline
 
@@ -65,7 +65,7 @@ Presently, this approach is limited by having the plugin for that particular too
 
 [RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes.
 
-There is more to come on that topic and the Frontend-Platform team has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
+There is more to come on that topic and the [Frontend Platform team](../frontend-platform/index.md) has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
 
 #### Buildkite agent selection
 
