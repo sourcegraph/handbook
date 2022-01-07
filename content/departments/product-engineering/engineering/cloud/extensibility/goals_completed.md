@@ -1,6 +1,6 @@
-# Extensibility team completed goals
+# Growth and Integrations team completed goals
 
-This page records goals completed by the Extensibility team historically (started recording in FY-21-Q4). See also our [current goals](../../../../../strategy-goals/strategy/cloud/extensibility/index.md).
+This page records goals completed by the Growth and Integrations team historically (started recording in FY-21-Q4). See also our [current goals](../../../../company/strategy/cloud/growth-and-integrations/index.md).
 
 - [**2021**](#2021)
   - [FY-21-Q4](#FY-21-Q4)
@@ -9,7 +9,7 @@ This page records goals completed by the Extensibility team historically (starte
 
 ### FY-21-Q4
 
-_Since Q4 isn't over yet, this is just a placeholder of things moved off the Extensibility team goals page as we updated it. These will be reformated and complete at the end of Q4_
+_Since Q4 isn't over yet, this is just a placeholder of things moved off the Growth and Integrations team goals page as we updated it. These will be reformated and complete at the end of Q4_
 
 1. **Make Sourcegraph extensions a core part of Sourcegraph users' experiences.**
 
