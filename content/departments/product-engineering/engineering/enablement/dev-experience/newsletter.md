@@ -47,6 +47,12 @@ In response to [INC-59](https://docs.google.com/document/d/1HXKZa9L3MVswK6pDpRN5
 It is now _the responsibility of each repository to provide an adequate `.tools-version` file that defines what are the versions it needs_. There are no more pre-installed `go` version for example. 
 Presently, this approach is limited by having the plugin for that particular tool installed beforehand on the agents images (we are working on removing this limitation). The overarching goal is to make the agents reasonably independent from what they are actually building. 
 
+### RFC 544: E2E and QA Tests survey results
+
+[RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes. 
+
+There is more to come on that topic and the Frontend-Platform team has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
+
 ### Observability
 
 The previous raw Grafana configuration used to add template variables to dashboards has been replaced with [`Container::Variables`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/docs/monitoring/monitoring?ContainerVariable) that abstracts away a lot of the behind-the-scenes dashboard config and potential gotchas to make it easier to define template variables on dashboards! Dashboard template variables are used to filter individual panels down by substituting variables in panel queries. Learn more in the [`ContainerVariable` API docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/docs/monitoring/monitoring?ContainerVariable).
