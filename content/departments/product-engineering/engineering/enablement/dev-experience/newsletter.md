@@ -36,7 +36,16 @@ It is the responsibility of authors of recently failed builds to investigate wha
 
 We've also made significant investments towards improving and streamlining the pipeline for better stability and observability - most recently, [a large number of E2E/QA tests were dropped](https://github.com/sourcegraph/sourcegraph/pull/28995) - which will hopefully help with minimizing locks triggered by test and infrastructure flakes.
 
-TODO also mention agent state improvements
+### Sentry integration to monitor internal pipeline scripts and hooks
+
+There are scripts and components of the CI pipeline that should never fail, independently of the tests results. These have proved be to hard to monitor, especially when the scripts are called from build hooks. Being notified when these failures happen enables faster reaction time. Here is an [example](https://github.com/sourcegraph/sourcegraph/pull/28915/files#diff-3c4244f37fc751696252758dd92a887d9e1e30851b18932c142ae56202bb5ea7R40) to get monitor a command so that a Sentry issue in the [Buildkite](https://sentry.io/organizations/sourcegraph/projects/buildkite/?project=6110304) project is created on a non zero exit code.
+
+### Specifying tools and language versions ran by _any_ continuous pipeline
+
+In response to [INC-59](https://docs.google.com/document/d/1HXKZa9L3MVswK6pDpRN5TdCgUcEcQca9Re4vCwlb6Ek/edit#) we have reworked which tools and languages versions are to be used in a given CI job. Previously, the agents where running a mix of `asdf` and natively installed versions which created trouble when diagnosing build failures that weren't caused by the test themselves. 
+
+It is now _the responsibility of each repository to provide an adequate `.tools-version` file that defines what are the versions it needs_. There are no more pre-installed `go` version for example. 
+Presently, this approach is limited by having the plugin for that particular tool installed beforehand on the agents images (we are working on removing this limitation). The overarching goal is to make the agents reasonably independent from what they are actually building. 
 
 ### Observability
 
@@ -48,7 +57,9 @@ The previous raw Grafana configuration used to add template variables to dashboa
 
 The local development docs homepage has been revamped! Check it out at [docs.sourcegraph.com/dev](https://docs.sourcegraph.com/dev). The [quickstart docs](https://docs.sourcegraph.com/dev/setup/quickstart) has also been overhauled with a streamlined setup experience featuring `sg setup`, which has been greatly improved!
 
-TODO `sg db ...` https://github.com/sourcegraph/sourcegraph/pull/29382
+`sg` [now ships](https://github.com/sourcegraph/sourcegraph/pull/29382) a command that can reset databases as well as creating a site-admin: `sg db` (early adopters may have seen it under the name of `sg reset`). You can read more about the `sg db [reset-pg|reset-redis|add-user]` in the [documentation](https://docs.sourcegraph.com/dev/background-information/sg#sg-db-interact-with-your-local-sourcegraph-database-s)
+
+If you have ideas of other features that would be great, don't hesitate to join the [SG Hacking Hour](https://calendar.google.com/calendar/u/0/r/eventedit/a3RoaThiMjQ2am8zcDdmbThpcWNzbGZsNDhfMjAyMjAxMDdUMTYwMDAwWiBqZWFuLWhhZHJpZW4uY2hhYnJhbkBzb3VyY2VncmFwaC5jb20) on Fridays at 4PM UTC! 
 
 ### Internal libraries
 
