@@ -196,7 +196,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Extensibility
+   <td>Growth and Integrations
    </td>
    <td>David
    </td>
