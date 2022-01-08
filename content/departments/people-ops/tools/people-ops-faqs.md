@@ -93,7 +93,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 - **Health insurance:**
   - UnitedHealthcare EPO
-    - Summary of Benefits and Coverage](https://drive.google.com/file/d/1BsvNoewWmrM3qc9aNN7A6UPVeBt12wDE/view?usp=sharing)
+    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1BsvNoewWmrM3qc9aNN7A6UPVeBt12wDE/view?usp=sharing)
     - [Plan Summary](https://drive.google.com/file/d/1ZsLNhMQ1FBMlsHWRswh7XWW0zDAH8sAu/view?usp=sharing)
   - UnitedHealthcare PPO 250
     - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GgWZjukPEtcVit_07_MDD75ZKTFtr4Es/view?usp=sharing)
