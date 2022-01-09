@@ -68,7 +68,7 @@ security:
 extensions:
   title: Extensions
   product_org: cloud
-  strategy_link: /company/strategy/cloud/extensibility/index.md
+  strategy_link: /company/strategy/cloud/growth-and-integrations/index.md
   pm: murat_sutunc
   issue_labels:
     - team/extensiblity
