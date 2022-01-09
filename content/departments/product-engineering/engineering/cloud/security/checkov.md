@@ -23,7 +23,7 @@
 
 ## Are there any IDE Plugins for Checkov?
 
-- Yes.  The following options are available for you to use:
+- Yes. The following options are available for you to use:
 
   - [IntelliJ Plugin Marketplace:](https://plugins.jetbrains.com/plugin/17721-checkov)
   - [VSCode:](https://github.com/bridgecrewio/checkov-vscode)
