@@ -79,6 +79,8 @@ We provide variable compensation in the form of commissions for roles that are m
 
 However, managers can occasionally grant ad hoc bonuses (cash and equity are both possible) for strong performance. In such cases, they are expected to make the case for the bonus and tie it to the bands for their organization.
 
+As a note, our [Impact reviews](https://handbook.sourcegraph.com/departments/people-ops/process/impact-reviews#360-impact-review-cycles) are one of the many data points managers can use when determining the reward of a compensation change or promotion. There is no direct correlation between the two, and Impact reviews should be viewed independently of a merit change, and as a singular data point. There was great intention in creating our Impact reviews to view them as markers of personal development rather than reviews that result in a change of pay or titles.
+
 ## Compensation bands
 
 Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
