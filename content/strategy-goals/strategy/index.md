@@ -127,5 +127,5 @@ Within this overall product strategy, individual product teams set their own goa
 - [Growth and Integrations](cloud/growth-and-integrations/index.md)
 - [Security](cloud/security/index.md)
 - DevOps/SRE
-- [Delivery](enablement/delivery/index.md)
+- [Delivery](cloud/delivery/index.md)
 - [Growth and Integrations](cloud/growth-and-integrations/index.md)
