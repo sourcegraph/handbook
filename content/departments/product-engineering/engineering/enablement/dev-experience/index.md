@@ -32,6 +32,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
+    - [`sg` hack hour](#sg-hack-hour)
   - [Monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
 
 > NOTE: We don't own the developer experience at Sourcegraph – we simply focus on it. Sourcegraph engineers own the developer experience as a collective. To learn more, check out our [team strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md).
@@ -52,13 +53,24 @@ To collaborate, we use the following:
 - Internal team channel in #dev-experience-internal
 - [GitHub planning board](https://github.com/orgs/sourcegraph/projects/212)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
-- [Team sync notes](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
-- [Retrospective notes](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#)
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
 
 ### Meetings
 
-We currently have weekly sync meetings and biweekly retrospectives.
+#### Team meetings
+
+The DevX team currently has weekly sync meetings and biweekly retrospectives within the team.
+
+- [Team sync notes](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
+- [Retrospective notes](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#)
+
+#### `sg` hack hour
+
+There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
+
+When the hack hour starts, a meeting link will be posted in #dev-experience.
+
+To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
 
 ### Support
 
