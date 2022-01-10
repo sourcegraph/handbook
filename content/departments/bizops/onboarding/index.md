@@ -13,11 +13,15 @@ Welcome! We're so excited to have you join the BizOps team. This document outlin
 - [Sourcegraph OKRs](../../../strategy-goals/goals/index.md)
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/224/views/1) and [backlog](https://github.com/orgs/sourcegraph/projects/63)
 
-#### Understand Sourcegraph communication and documentation standards
-
 #### Onboarding sessions
-
-#### Get to know fellow teammates
+On your onboarding checklist you will find some onboarding sessions. Your manager will help you schedule the following training sessions:
+- Product demo
+- [Sales onboarding quiz](../../sales/onboarding/quiz.md)
+- Know thy dev
+  - [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ)
+- DataOps overview
+- Sales and marketing data overview (focused on the data instead of the tools)
+- GitHub and git walk-through (Q&A)
 
 ## Weeks 2 and 3
 
