@@ -26,7 +26,7 @@ _Last updated 2021-01-05_
 - **Intolerance for violations**: Any teammate who accesses another teammate’s specific usage information without following the protocols above will permanently lose access to such data and potentially be terminated.
 - In the event of a major breach and/or a forensic exercise or if compelled by a regulator or court, we might have to provide device access to law enforcement authorities or third party entities. We will notify the user of that device within 72 hours of the access provided to those entities, unless otherwise prohibited by the entities.
 
-# Uncceptable use of company devices, systems, and networks
+# Unacceptable use of company devices, systems, and networks
 
 _This list is based on GitLab's [acceptable use policy](https://about.gitlab.com/handbook/people-group/acceptable-use-policy/) and has been modified_
 
