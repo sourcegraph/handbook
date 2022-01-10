@@ -41,6 +41,6 @@ Prohibited system and network activities include, but are not limited to, the fo
 - Using a Sourcegraph computing asset to procure or transmit material that is in violation of sexual harassment policies or that creates a hostile workplace.
 - Making fraudulent offers of products, items, or services originating from any Sourcegraph account.
 - Intentionally accessing data or logging into a computer or account that the team member is not authorized to access, or disrupting network communication, computer processing, or access.
-- Executing any form of network monitoring that intercepts data not intended for the team member’s or contractor's computer, except when troubleshooting networking issues for the benefit of GitLab.
+- Executing any form of network monitoring that intercepts data not intended for the team member’s or contractor's computer, except when troubleshooting networking issues for the benefit of Sourcegraph.
 - Circumventing user authentication or security of any computer host, network, or account used by Sourcegraph.
 - Forwarding of confidential business emails or documents to personal external email addresses.
