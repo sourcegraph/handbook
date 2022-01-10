@@ -28,7 +28,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - [Kelvin Lee](../../team/index.md#kelvin-lee)
   - [Mariam Adedeji](../../team/index.md#mariam-adedeji)
   - [Michael Bali](../../team/index.md#michael-bali)
-  - RS (starting 2021-12-20)
+  - [Riana Shahid](../../team/index.md#riana-shahid)
   - [Warren Gifford](../../team/index.md#warren-gifford)
   - TBH
 - [Nonso Obiano](../../team/index.md#nonso-obiano), Manager
