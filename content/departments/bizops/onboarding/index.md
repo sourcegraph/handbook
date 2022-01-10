@@ -17,18 +17,6 @@ Welcome! We're so excited to have you join the BizOps team. This document outlin
 
 #### Onboarding sessions
 
-Your manager will help you schedule the following training sessions:
-
-- Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
-- Check out the [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ) in the Know Thy Dev sales enablement program for a deep dive into how Sourcegraph solves common developer pains. These videos are long so we recommend skipping to the parts the CEs are demoing and listening at at >1x speed
-- Data overview (led by DataOps)
-  - Product data
-    - Frontend data capture, Amplitude and their data pipelines
-    - Pings: what is it and their data pipelines
-  - Sales and marketing data overview
-    - HubSpot and Salesforce data architecture overview
-    - Enhancing sales and marketing data with Polytomic
-
 #### Get to know fellow teammates
 
 ## Weeks 2 and 3
