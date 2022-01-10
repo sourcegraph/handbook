@@ -70,7 +70,6 @@ The list below contains features and services that already exist, and the Cloud 
 - [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
 - [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles/index.md#engineering-manager)
   - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
-  - [Artem Ruts](../../../../../team/index.md#artem-ruts) (he/him)
   - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
   - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
   - P. R. (he/him) - starting 2022.01
