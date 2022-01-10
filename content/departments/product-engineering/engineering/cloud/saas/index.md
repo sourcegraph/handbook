@@ -70,7 +70,6 @@ The list below contains features and services that already exist, and the Cloud 
 - [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
 - [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles/index.md#engineering-manager)
   - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
-  - [Artem Ruts](../../../../../team/index.md#artem-ruts) (he/him)
   - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
   - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
   - P. R. (he/him) - starting 2022.01
@@ -83,9 +82,8 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 The Cloud SaaS team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
-- [Cloud Growth](../growth)
 - [Cloud DevOps](../devops)
-- [Extensibility](../extensibility)
+- [Growth and Integrations](../growth-and-integrations)
 - [Security](../security)
 
 ## News and updates
@@ -234,7 +232,8 @@ All team events and reminders should be added to the [team calendar](https://cal
 
 #### Making pull requests and asking for code reviews
 
-TBD
+- Everyone (including engineers, EM, PM, PD) should set up a reliable way to receive pull request review notifications, examples are emails, Slack notifications (through GitHub Scheduled reminders). In some cases, direct pinging required reviewers could inform reviewers about the urgency and may help expedite receiving reviews.
+- Pull requests in the draft state indicate work in progress and not ready for review, while occasionally the author may ask for early feedback in explicit forms, examples are direct pings, mentioned on the pull requests.
 
 #### Definition of done (DoD)
 

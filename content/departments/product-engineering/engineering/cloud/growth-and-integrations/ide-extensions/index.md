@@ -90,6 +90,6 @@
 
 ## Contact
 
-- #extensibility channel or @extensibility-team on Slack.
-- [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
-- [IDE](https://github.com/orgs/sourcegraph/projects/213/views/7) view on the Extensibility board to display all issues.
+- #growth-and-integrations channel or @growth-and-integrations-team on Slack.
+- [@sourcegraph/growth-and-integrations](https://github.com/orgs/sourcegraph/teams/growth-and-integrations) team on GitHub.
+- [IDE](https://github.com/orgs/sourcegraph/projects/213/views/7) view on the Growth and Integrations board to display all issues.
