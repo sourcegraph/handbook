@@ -14,7 +14,9 @@ Welcome! We're so excited to have you join the BizOps team. This document outlin
 - [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/224/views/1) and [backlog](https://github.com/orgs/sourcegraph/projects/63)
 
 #### Onboarding sessions
+
 On your onboarding checklist you will find some onboarding sessions. Your manager will help you schedule the following training sessions:
+
 - Product demo
 - [Sales onboarding quiz](../../sales/onboarding/quiz.md)
 - Know thy dev
