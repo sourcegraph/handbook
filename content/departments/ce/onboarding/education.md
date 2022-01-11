@@ -21,12 +21,7 @@ This page (WIP) provides new and existing CEs alike with important training, dem
 - [Moving off the insiders build](../process/leaving-insiders-build.md)
 - [Enterprise vs. Open Source Sourcegraph](../onboarding/enterprise-vs-oss.md)
 - [Deployment Methods](deployment-methods.md)
-
-## Useful Processes to Know
-
-- [Demo repo contribution](demo-repo-contribution.md)
-- [Migrating off the insiders build](leaving-insiders-build.md)
-- [Creating and maintaining license keys for customers](license_keys.md)
+- [Demo repo contribution](../process/demo-repo-contribution.md)
 
 ## CE Tools
 
