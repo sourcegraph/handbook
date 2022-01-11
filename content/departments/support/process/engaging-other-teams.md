@@ -58,7 +58,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`
 
-Any questions about deployment should be routed to the [Delivery team](../../product-engineering/engineering/enablement/delivery/index.md).
+Any questions about deployment should be routed to the [Delivery team](../../product-engineering/engineering/cloud/delivery/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -66,7 +66,7 @@ Any questions about deployment should be routed to the [Delivery team](../../pro
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance should be routed to the [Delivery team](../../product-engineering/engineering/enablement/delivery/index.md).
+Any other questions about monitoring and performance should be routed to the [Delivery team](../../product-engineering/engineering/cloud/delivery/index.md).
 
 ### Code host connections
 
