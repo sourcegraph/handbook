@@ -1,6 +1,6 @@
 # Customer Engineering
 
-The Customer Engineering team at Sourcegraph is oriented around the technical success of our customers. CEs wear three hats: sales engineers, solution architects, and post-sales technical account managers. We are first and foremost responsible for building and fostering relationships with developer users and champions at our prospects and customers. We serve as the technical experts during the sales cycle and help enable our customers throughout our journey together by helping customers get more value from using Sourcegraph in more and better ways. 
+The Customer Engineering team at Sourcegraph is oriented around the technical success of our customers. CEs wear three hats: sales engineers, solution architects, and post-sales technical account managers. We are first and foremost responsible for building and fostering relationships with developer users and champions at our prospects and customers. We serve as the technical experts during the sales cycle and help enable our customers throughout our journey together by helping customers get more value from using Sourcegraph in more and better ways.
 
 We show up for our customers, open source users, and teammates by living up to our Sourcegraph values and handbook, as well as in the following ways:
 
@@ -14,7 +14,7 @@ CEs are both "pre-sales" and "post-sales" because the moment that a sale occurs 
 
 ## Contact
 
-You can reach us at the #ce channel or @ce on Slack. Customer Engineering represents the voice of our customers so if you're curious about something customer-related, particularly as it relates to how Sourcegraph brings customers value, we're the team to reach out to!  
+You can reach us at the #ce channel or @ce on Slack. Customer Engineering represents the voice of our customers so if you're curious about something customer-related, particularly as it relates to how Sourcegraph brings customers value, we're the team to reach out to!
 
 ## CE Team
 
@@ -22,15 +22,19 @@ You can reach us at the #ce channel or @ce on Slack. Customer Engineering repres
 - [Open roles - Join us!](team/open-roles.md)
 
 ## References
+
 ### Team Norms
+
 - [The work we do in support of customers](process/working-with-customers.md)
 - [How we work with other teams](team-culture/index.md)
 
 ### Internal Team Resources
+
 - [New CE Onboarding](onboarding/index.md)
 - [CE Educational Materials](onboarding/education.md)
 - [Career Growth](career-growth/index.md)
 
 ### Customer Use Cases
+
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
