@@ -42,7 +42,11 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Legal](../departments/legal/index.md#members)
 
+{{generator:reporting_structure.director_legal}}
+
 ## [Tech Ops](../departments/tech-ops/index.md#members)
+
+{{generator:reporting_structure.tech_ops_manager}}
 
 ## Sales
 
@@ -50,11 +54,19 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ### [Sales team](../departments/sales/index.md#members)
 
+{{generator:reporting_structure.vp_sales}}
+
 ### [SDR team](../departments/sales/sdrteam/index.md#members)
+
+{{generator:reporting_structure.head_sales_development}}
 
 ### [Sales strategy & operations](../departments/sales/sales-ops/index.md#members)
 
+{{generator:reporting_structure.strategy_operations_manager}}
+
 ### [Value Engineering & Sales Enablement](../departments/sales/sales-enablement/index.md)
+
+{{generator:reporting_structure.senior_manager_value_engineering}}
 
 ## Other teams: TODO
 
