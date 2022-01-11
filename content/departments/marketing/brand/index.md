@@ -21,18 +21,18 @@ In addition to improving awareness and perception of our own brand, we strive to
 
 We value: <br>
 
-- Efficiency - We are a small but mighty team that leverages vendors and contractors to scale support <br>
-- Agility - We move fast, adapt, and can change directions easily based on the market and business goals <br>
-- Creativity - We don't settle for "status quo" and look for opportunities to surprise and delight our audience <br>
-- Measurement - We strive for quantifiable results and outsized impact; everything we do has a “why” behind it <br>
+- **Efficiency** - We are a small but mighty team that leverages vendors and contractors to scale support <br>
+- **Agility** - We move fast, adapt, and can change directions easily based on the market and business goals <br>
+- **Creativity** - We don't settle for "status quo" and look for opportunities to surprise and delight our audience <br>
+- **Measurement** - We strive for quantifiable results and outsized impact; everything we do has a “why” behind it <br>
 
 Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](brand_and_creative_team_requests.md#project-tiers).
 
-- Tier 1 - Large-scale, high-priority external projects that require creative strategy development
-- Tier 2 - Externally-facing but lower-priority; previously-approved concept but new deliverable; new concept internal projects
-- Tier 3 - Templated/formulaic work, or testing revisions to an existing asset or campaign
-- Tier 4 - Production design and brand management
-- Tier 5 - Self-serve and process-guided needs teammates can do on their own
+- **Tier 1** - Large-scale, high-priority external projects that require creative strategy development
+- **Tier 2** - Externally-facing but lower-priority; previously-approved concept but new deliverable; new concept internal projects
+- **Tier 3** - Templated/formulaic work, or testing revisions to an existing asset or campaign
+- **Tier 4** - Production design and brand management
+- **Tier 5** - Self-serve and process-guided needs teammates can do on their own
 
 The Brand Team works closely with XFN teams at every level of the organization, and is a key stakeholder in overall company messaging, strategy, and engagement initiatives, as well as internally-facing messaging and branded programs or experiences.
 

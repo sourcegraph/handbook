@@ -10,7 +10,7 @@ I'm the PM (Product Manager) for [Distribution](../../engineering/distribution/i
 
 I live in north Dorset in a pretty little town called [Shaftesbury](https://www.shaftesburytourism.co.uk/) [🗺️🔗](https://www.google.com/maps/place/Shaftesbury/@51.0075245,-2.2003362,15z) with my wife, her 2 kids (5y,8y) and our identical twin boys (15m as of May '21).
 
-We also have a 3 legged dog - Fender (10y). (He doesn't let either his age or his missing leg stop him sprinting everywhere and jumping in cow troughs when out on a walk.)
+We also have a 3 legged dog—Fender (10y). (He doesn't let either his age or his missing leg stop him sprinting everywhere and jumping in cow troughs when out on a walk.)
 
 ## Talk to me about...
 
@@ -40,7 +40,7 @@ I love 1:1. It's where I'm most happy. Both people have to be focused, and it's 
 
 ## Career history
 
-I started as a network and security engineer - managing firewalls, web filtering, wireless, WAN and LAN connectivity and security, virtual networking, load balancing... etc. I realised I didn't have the patience to fixate on any one subject for too long... and that's how I arrived at management 😆
+I started as a network and security engineer—managing firewalls, web filtering, wireless, WAN and LAN connectivity and security, virtual networking, load balancing... etc. I realised I didn't have the patience to fixate on any one subject for too long... and that's how I arrived at management 😆
 
 I did that for a while before being asked if I wanted to help lead building products like that. I did. Very much so 👍 That was for a company that built an on-prem (nearly always physical!) firewall and web filtering appliance.
 

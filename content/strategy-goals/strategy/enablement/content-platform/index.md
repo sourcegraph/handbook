@@ -48,7 +48,7 @@ In the next six months, we will focus primarily on improving the self-service ab
 
 #### FY22 Q4
 
-- Establish a scalable process for marketing web requests for the Content Platform team - Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
+- Establish a scalable process for marketing web requests for the Content Platform team—Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
 - Establish a unified technical strategy to drive all content platforms forward
 - Deliver the implementation of the redesigned blog
 

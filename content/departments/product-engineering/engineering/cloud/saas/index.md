@@ -175,8 +175,8 @@ Use comments in Figma to ask questions and share feedback. If a decision or miss
 
 Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
 
-- Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
-- Information internal to Sourcegraph - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
+- **Public Information** - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
+- **Information internal to Sourcegraph** - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
 Please read [this](../../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
 

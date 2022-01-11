@@ -22,7 +22,7 @@ Significant progress has been made with sg setup, a new command that is slated t
 
 The Dev Experience team is proposing a "build sheriff" rotation in [RFC 515](https://docs.google.com/document/d/1rHOOgvWmBB5c4aS_wWPogNCAWT6_tww8tceSy6nzFy8/edit), with the goal of distributing knowledge and responsibilities around our CI infrastructure to all of engineering through regular rotations of "build sheriffs".
 
-You may have noticed a daily update in #dev-experience providing an overview of how CI has behaved that day - this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
+You may have noticed a daily update in #dev-experience providing an overview of how CI has behaved that day—this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
 
 ![image](https://user-images.githubusercontent.com/23356519/143134471-85e5cea1-a1a2-44cd-96ff-36f06b7fe125.png)
 
@@ -44,7 +44,7 @@ A proposed revamp of how Honey events are created has been proposed in [#27964](
 
 Work on reducing usages of globals has continued with [improvements to how site configuration is accessed](https://github.com/sourcegraph/sourcegraph/pull/27453) that allows site configuration clients to be injected into places that require it. This makes site configuration easier to mock out and test without replacing a global variable in mocks.
 
-On a similar note, tests have been undergoing [incremental updates](https://github.com/sourcegraph/sourcegraph/pull/27401) to leverage the more ergonomic and self-contained database mocks - a [brief guide is available](https://docs.sourcegraph.com/dev/background-information/languages/testing_go_code#testing-with-a-database) if you know an area of the codebase that could use a similar update!
+On a similar note, tests have been undergoing [incremental updates](https://github.com/sourcegraph/sourcegraph/pull/27401) to leverage the more ergonomic and self-contained database mocks—a [brief guide is available](https://docs.sourcegraph.com/dev/background-information/languages/testing_go_code#testing-with-a-database) if you know an area of the codebase that could use a similar update!
 
 ## Nov 2, 2021
 
@@ -166,6 +166,6 @@ This is just the beginning. Work on [sg setup](https://github.com/sourcegraph/so
 
 Just sign up via GSuite SSO on [https://sourcegraph.grafana.net](https://sourcegraph.grafana.net/). This Grafana instance currently has logs for Sourcegraph Cloud, available for search with [LogQL](https://grafana.com/docs/loki/latest/logql/) via Loki. It has support for querying inferred fields from log messages, filtering for substring matches, and more. [Try it out!](https://sourcegraph.grafana.net/explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22grafanacloud-sourcegraph-logs%22,%7B%22expr%22:%22%7Bapp%3D%5C%22sourcegraph-frontend%5C%22%7D%20%7C%20logfmt%20%7C%20lvl%20%3D%20%5C%22eror%5C%22%20%7C%3D%20%5C%22migration%5C%22%22%7D%5D)
 
-Metrics and parity with /-/debug/grafana is on the roadmap - follow [#25407](https://github.com/sourcegraph/sourcegraph/issues/25407) for updates on that!
+Metrics and parity with /-/debug/grafana is on the roadmap—follow [#25407](https://github.com/sourcegraph/sourcegraph/issues/25407) for updates on that!
 
 **Shoutouts to teammates that improved our dev experience in September** [**Robert Lin, Valery Bugakov, Thorsten Ball, JH, Camden Cheek, Erik Seliger, Coury Clark and Quinn Slack**](https://github.com/sourcegraph/sourcegraph/pulls?page=2&q=is%3Apr+is%3Amerged+label%3Adx) **.**

@@ -172,7 +172,7 @@ Sales:
 
 - A customer engineer should be available to attend any / every call with a customer or prospect, as necessary.
 - AEs should drive renewal activities from a commercial aspect, with CEs contributing.
-- AEs should drive the process around a customer trial - advancing the sales cycle towards a trial - and pull in CEs as appropriate (CEs will contribute heavily, but AEs run the process as part of the overall sales process).
+- AEs should drive the process around a customer trial—advancing the sales cycle towards a trial - and pull in CEs as appropriate (CEs will contribute heavily, but AEs run the process as part of the overall sales process).
 
 #### How we conduct project work
 
@@ -180,14 +180,14 @@ Our goal is to be able to complete specific projects in no greater than 2 week i
 
 For each project, we will define:
 
-1. The objectives and expected outcomes of the project (what is it solving or creating)
-1. The scope of the project (define the bounds of what we will and will not do)
-1. Impact of the project (to help gauge prioritization how impactful will the output of this project be to our teams and our customers, perhaps 1 = widespread impact internally and externally, 2 = widespread impact EITHER internally OR externally, 3 = specific impact externally, 4 = specific impact internally)
-1. Project stakeholders - both those that need to provide input into the objectives and scope and also provide feedback on the finished product. Defined stakeholders are individuals or teams that will either directly utilize the output of the project (in which they will be part of roll out, as applicable) or have direct context with the subject matter. They are not expected to actively contribute to the project itself.
-1. Project Owner - we will have one individual assigned as the owner of a project; it is their responsibility to define and collect necessary inputs for the project. They are ultimately accountable for the project being completed.
-1. Project Lead(s) - these are the individuals that are leading the effort to deliver the project. Note: the project owner may also be a project lead, or there may be different people identified depending on the project.
-1. Roll-out plan (how will we deploy / publish or make known / available the output of the project, where will the output go when finished, what is the communication plan).
-1. Support plan (as applicable) for any code that is built as part of a project, Eng, Support, and Product leadership must sign-off on the ongoing support plan for any deliverable, even if the support plan is that we will not be providing any support and the customer will. See note below.
+1. **The objectives and expected outcomes of the project** (what is it solving or creating)
+1. **The scope of the project** (define the bounds of what we will and will not do)
+1. **Impact of the project** (to help gauge prioritization how impactful will the output of this project be to our teams and our customers, perhaps 1 = widespread impact internally and externally, 2 = widespread impact EITHER internally OR externally, 3 = specific impact externally, 4 = specific impact internally)
+1. **Project stakeholders** - both those that need to provide input into the objectives and scope and also provide feedback on the finished product. Defined stakeholders are individuals or teams that will either directly utilize the output of the project (in which they will be part of roll out, as applicable) or have direct context with the subject matter. They are not expected to actively contribute to the project itself.
+1. **Project Owner** - we will have one individual assigned as the owner of a project; it is their responsibility to define and collect necessary inputs for the project. They are ultimately accountable for the project being completed.
+1. **Project Lead(s)** - these are the individuals that are leading the effort to deliver the project. Note: the project owner may also be a project lead, or there may be different people identified depending on the project.
+1. **Roll-out plan** (how will we deploy / publish or make known / available the output of the project, where will the output go when finished, what is the communication plan).
+1. **Support plan** (as applicable) for any code that is built as part of a project, Eng, Support, and Product leadership must sign-off on the ongoing support plan for any deliverable, even if the support plan is that we will not be providing any support and the customer will. See note below.
 
 A note on supporting and maintaining any CE-built code or scripts:
 

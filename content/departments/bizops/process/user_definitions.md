@@ -4,7 +4,7 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 ## User states
 
-People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.
+People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases—a user can be both registered, activated and churned at the same time.
 
 | Metric                               | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |

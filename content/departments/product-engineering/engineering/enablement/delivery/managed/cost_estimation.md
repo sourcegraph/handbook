@@ -20,7 +20,7 @@ These data points are also listed in the CS [managed instance request template](
 | +$388/mo min.  | VM instance type - [see "Working out the VM type required" below](#working-out-the-vm-type-required) |
 | +$1.54/GB      | For each GB of network traffic to/from the instance.                                                 |
 
-Thus, the smallest managed instance supporting around ~300 repositories and ~100 users costs around $726/mo. Add enough buffer to the pricing to account for some variation in usage - for example, an estimate of $10–15k for this instance.
+Thus, the smallest managed instance supporting around ~300 repositories and ~100 users costs around $726/mo. Add enough buffer to the pricing to account for some variation in usage—for example, an estimate of $10–15k for this instance.
 
 ### Working out the VM type required
 
@@ -40,20 +40,20 @@ Thus, the smallest managed instance supporting around ~300 repositories and ~100
 The above does not take into account:
 
 - Potential committed use discounts, which are handled transparently on Sourcegraphs' side through [cross-project committed use discount sharing](https://cloud.google.com/compute/docs/instances/signing-up-committed-use-discounts#sharing_committed_use_discounts_across_projects) and passed onto you automatically.
-- Cost reduction based on proactive monitoring of services based on your actual usage - resource requirements of Sourcegraph vary widely depending on how your usage looks. This is handled automatically by Sourcegraph as part of monthly upgrades.
+- Cost reduction based on proactive monitoring of services based on your actual usage—resource requirements of Sourcegraph vary widely depending on how your usage looks. This is handled automatically by Sourcegraph as part of monthly upgrades.
 
 ---
 
 ## Detailed breakdown
 
-The following describes how the above table was derived - reviewing this is not necessary for calculating the cost of a new managed instance.
+The following describes how the above table was derived—reviewing this is not necessary for calculating the cost of a new managed instance.
 
 The following summarizes the infrastructure costs incurred for a managed instance. Managed instances are always created in completely isolated GCP projects, and as such it is easy to see the exact infrastructure cost breakdown for a given customer.
 
 | Cost estimate                  | Description                                                                                                                                                                                                                       |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $388/mo min. varies            | [VM instance](https://cloud.google.com/compute/vm-instance-pricing#n1_standard_machine_types), `n1-standard-16` min. in `us-central`. Consult [resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) |
-| $85/mo min. / $0.340/GB        | Data disk, SSD/regional, 250G minimum - exact size depends on customer's repository sizes.                                                                                                                                        |
+| $85/mo min. / $0.340/GB        | Data disk, SSD/regional, 250G minimum—exact size depends on customer's repository sizes.                                                                                                                                        |
 | $34/mo                         | Boot disk, SSD/regional, 100G fixed size.                                                                                                                                                                                         |
 | $85/mo / $0.026/GB             | 13 weekly snapshots (taken weekly, retained for 90d)                                                                                                                                                                              |
 | $78/mo / $0.026/GB             | 12 monthly upgrade data disk snapshots (taken once per month as part of upgrade, retained for 1yr).                                                                                                                               |

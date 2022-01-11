@@ -566,7 +566,7 @@ Use an en dash (–) to indicate a [range or span](#ranges-and-spans), without s
 </div>
 </div>
 
-Use an em (—) dash without spaces to separate clauses in paragraph copy.
+Use an em dash (—) without spaces to separate clauses in paragraph copy.
 
 <div class="usage">
 <div class="item yes">

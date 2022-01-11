@@ -105,11 +105,11 @@ A possible challenge with early-career candidates is that there is often not muc
 
 Here are some aspects that you might want to consider when identifying suitable candidates:
 
-- Passion - do they show a keen interest in their chosen career, the company, and technology.
-- Learnability - are they constantly looking to expand their knowledge and capability.
-- Grit - do they have the ability to persevere in the face of adversity and push through to achieve success.
-- Problem Solving and Critical Thinking - are they able to break down problems and think analytically about them.
-- Initiative - have they made the extra effort to further their career development? This comes in the form of classes, bootcamps, or taking on a project outside of work.
+- **Passion** - do they show a keen interest in their chosen career, the company, and technology.
+- **Learnability** - are they constantly looking to expand their knowledge and capability.
+- **Grit** - do they have the ability to persevere in the face of adversity and push through to achieve success.
+- **Problem Solving and Critical Thinking** - are they able to break down problems and think analytically about them.
+- **Initiative** - have they made the extra effort to further their career development? This comes in the form of classes, bootcamps, or taking on a project outside of work.
 
 What you are looking for is a candidate with the right attributes so that with the proper guidance and experience, they are likely to be a high-performing teammate.
 

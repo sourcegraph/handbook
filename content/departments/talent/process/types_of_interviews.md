@@ -24,7 +24,7 @@ We strive for consistency across all interviews.
 
 ## Structured interview questions
 
-We ask structured questions for all interviews, meaning that all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. The interview [may be recorded](../tools/guide_to_using_brighthire.md) so that we can focus on the candidate, not taking notes, and ensure that we're delivering a great interview experience. If a candidate prefers not to be recorded during the interview, they can let us know - the structure of the interview and decision-making process will remain the same and the decision not to be recorded will have no weight on their candidacy.
+We ask structured questions for all interviews, meaning that all candidates are asked the same questions in an effort to reduce bias and to even the playing-field. The interview [may be recorded](../tools/guide_to_using_brighthire.md) so that we can focus on the candidate, not taking notes, and ensure that we're delivering a great interview experience. If a candidate prefers not to be recorded during the interview, they can let us know—the structure of the interview and decision-making process will remain the same and the decision not to be recorded will have no weight on their candidacy.
 
 # Universal interviews
 
@@ -223,7 +223,7 @@ During this interview you will meet with the hiring manager on the Customer Engi
 
 ### Take Home & Live Interview with a Customer Engineer
 
-For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities - it’s connected to public GitHub repositories. We’ll use this instance to guide the project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team.
+For this interview we want to give candidates an opportunity to learn about our product and assess your capabilities working in the developer tooling ecosystem! Sourcegraph has a public version of our product available [here](https://sourcegraph.com/search) to let users get a sense of product capabilities—it’s connected to public GitHub repositories. We’ll use this instance to guide the project portion of the interview which will be conducted live, via Zoom, with a customer engineer on the team.
 
 There are two main concepts you should get familiar with in advance of the interview:
 
@@ -339,7 +339,7 @@ The agenda for the meeting will go as follows:
 - 38–50 mins: Prompt 4
 - 50–60 mins: Feedback and Q&A
 
-Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes - whichever you feel is most appropriate.
+Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes—whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
 The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../ce/process/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
@@ -571,7 +571,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Async writing project [(RFC Project)](../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
 
-- Interviewer(s): NA - this is a take home assignment. [Two members from the Product team](../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to see how you communicate and think about product problems. Below is the prompt on the project. [Here's how we will measure the project](../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md):
 - Please write a Request for comments (RFC) in a Google Doc for a recent problem you identified, solved, and shipped (the project is complete). The RFC should communicate how this problem ties to the product vision for your product/team.
@@ -617,7 +617,7 @@ Read more about our sales interview processes [here](../../sales/hiring/index.md
 
 #### SDR writing assignment
 
-- Interviewer(s): NA - this is a take home assignment.
+- Interviewer(s): NA—this is a take home assignment.
 - Duration: we expect this to take no more than 1 hour.
 - Details: Specifically, you will be crafting a “cold call” email to a prospective customer, with the goal of securing a meeting. You can assume that this is the first time this person has ever heard of Sourcegraph.
 - Step 1: Pick a new customer (not on our site/case studies, etc.).
@@ -679,7 +679,7 @@ A great resource on structure (including some great walkthrough videos) from [Be
 
 #### Recruiter assignment
 
-- Interviewer(s): NA - this is a take home assignment.
+- Interviewer(s): NA—this is a take home assignment.
 - Duration: we expect this to take no more than 1 hour.
 - Details: we want to ensure we understand your approach to proactively reaching out to and engaging with passive talent. Instructions:
 - **Step 1.** You are the newly assigned Recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?

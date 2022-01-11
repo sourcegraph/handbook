@@ -9,7 +9,7 @@ At Sourcegraph, we aim for ongoing, real-time career conversations so you feel e
 
 ## Why call them Impact reviews?
 
-[High agency](../../../company-info-and-process/values/index.md#high-agency), [high quality](../../../company-info-and-process/values/index.md#high-quality), and [continuous growth](../../../company-info-and-process/values/index.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
+[High agency](../../../company-info-and-process/values/index.md#high-agency), [high quality](../../../company-info-and-process/values/index.md#high-quality), and [continuous growth](../../../company-info-and-process/values/index.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success—all resulting in continuous growth for each individual.
 
 Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
 
@@ -135,7 +135,7 @@ After you have documented your informal Impact review, this process will be comp
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
 
-\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
+\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews—the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
 
 Additionally, our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by that point in time. We will keep the templates live for you to seek feedback inbetween future cycles.
 

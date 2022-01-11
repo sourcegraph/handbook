@@ -6,7 +6,7 @@
 - Facilitate learning and team bonding, and many virtual high fives!
 - Attendance is encouraged, but not required. **Additionally, you do not need to attend all three sessions. Ideally you would join the one that best aligns with your work schedule.**
 - There is no official facilitator. Instead, individual application engineer have set up the recurring meeting.
-- This is **not** for time sensitive issues. Use your best judgement - if the issue cannot wait for collaboration time, then seek help before the meeting.
+- This is **not** for time sensitive issues. Use your best judgement—if the issue cannot wait for collaboration time, then seek help before the meeting.
 - Time and days subject to future adjustment as needed by the group.
 
 ## Current time and days:

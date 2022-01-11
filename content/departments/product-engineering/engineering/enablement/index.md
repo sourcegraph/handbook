@@ -107,7 +107,7 @@ _When acknowledging a request:_
 _When acknowledging a statement:_
 
 - `:thumbsup:` 👍 = I agree with the statement or I have taken note of it
-- `:thumbsdown:` 👎 = I disagree with a statement - encouraged to always follow up with a written response
+- `:thumbsdown:` 👎 = I disagree with a statement—encouraged to always follow up with a written response
 
 _When acknowledging a question:_
 

@@ -105,9 +105,9 @@ Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.
 
 ## Definitions
 
-- Code search - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
-- Code navigation - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
-- Code exploration - Find both known and unknown code, with code intelligence providing the contextual understanding
-- Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
-- Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
-- Batch Changes - Make large-scale code changes
+- **Code search** - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
+- **Code navigation** - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
+- **Code exploration** - Find both known and unknown code, with code intelligence providing the contextual understanding
+- **Code discovery** - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
+- **Code intelligence** - Display and share additional contextual information around code (allows code reviews with context)
+- **Batch Changes** - Make large-scale code changes

@@ -115,7 +115,7 @@ The best way to use Zendesk as an agent is via the web app. The mobile app is ni
 
 ### When to be logged in and monitoring the queue
 
-Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday - Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](../process/support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-internal Slack channel so we can coordinate and make sure to have you covered!
+Our job requires that at least one of us is actively paying attention to what's coming into Zendesk between 9am-5pm pacific Monday–Friday. The only time the team expects you to not be logged in during your working hours is during your focus blocks as listed in our [schedule](../process/support-schedule.md). Otherwise, if you need to focus, just let the team know in our #customer-support-internal Slack channel so we can coordinate and make sure to have you covered!
 
 ### Notifications
 
@@ -163,7 +163,7 @@ Zendesk is set to pacific timezone to align with our states SLAs.
 
 ### Schedule and SLAs
 
-The schedule in Zendesk reflects our SLA hours and is set to 9–5 pacific, Monday - Friday. This allows us to use the SLA timer to reflect how much time we have before we hit our SLA (if relevant for that customer). The SLA clock is 8 business hours and therefore adds time if a case comes in after hours, on the weekend, or on a holiday. Currently we mark the following as holidays in Zendesk:
+The schedule in Zendesk reflects our SLA hours and is set to 9–5 pacific, Monday–Friday. This allows us to use the SLA timer to reflect how much time we have before we hit our SLA (if relevant for that customer). The SLA clock is 8 business hours and therefore adds time if a case comes in after hours, on the weekend, or on a holiday. Currently we mark the following as holidays in Zendesk:
 
 - December 24–25 for Christmas
 - January 1 for New Year

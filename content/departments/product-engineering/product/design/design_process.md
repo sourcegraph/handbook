@@ -197,11 +197,11 @@ Keep the stage updated as you progress with your work.
 
 Use [Project Tools](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/Project-Tools?node-id=0%3A1) to provide more information about the project directly in the Figma file. It will help all the visitors connect files to the related RFC or GitHub issue and understand better all the details about the design.
 
-- Project Card - displays basic information about the project. For example, reviewers, RFC and GitHub issue links, and deadlines. It should be created for every file.
+- **Project Card** - displays basic information about the project. For example, reviewers, RFC and GitHub issue links, and deadlines. It should be created for every file.
 
-- Project Introduction - necessary when sharing your prototype with the Team. It should contain details about the target audience and project goals, to provide good context before starting the review.
+- **Project Introduction** - necessary when sharing your prototype with the Team. It should contain details about the target audience and project goals, to provide good context before starting the review.
 
-- Final Page - placed at the end of the prototype. It shows additional notes on the solution, points out the most important pages in the prototype and describes what feedback the designer is looking for. It also instructs reviewers on how to leave comments.
+- **Final Page** - placed at the end of the prototype. It shows additional notes on the solution, points out the most important pages in the prototype and describes what feedback the designer is looking for. It also instructs reviewers on how to leave comments.
 
 ### File structure
 

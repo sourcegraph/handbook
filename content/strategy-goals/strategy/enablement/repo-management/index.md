@@ -36,7 +36,7 @@ We also have temporary custody of Authentication, with the aspiration being to s
 
 ## Top customer, support, sales and marketing issues
 
-Note that these are order by approximate known revenue impacted - but that the figures are likely not to be representive of the total value, and so the order in which these get address may not correlate with the order here. Click on the product gap link to find out the up to date impacted revenue amount.
+Note that these are order by approximate known revenue impacted—but that the figures are likely not to be representive of the total value, and so the order in which these get address may not correlate with the order here. Click on the product gap link to find out the up to date impacted revenue amount.
 
 #### Perforce support
 
@@ -69,7 +69,7 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** In progress
 - **Expected effort:** <5% team time (our role is largely in support of the [Search team](../../code-graph/search) who owns this work)
-- **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with
+- **Why:** Monorepos are commonplace but exert a huge toll on systems like ours—so much so that customers feel a significant ammount of pain and with
 
 #### [GitServer HA](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
 

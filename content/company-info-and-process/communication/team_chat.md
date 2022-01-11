@@ -47,7 +47,7 @@ Private channels will automatically be created for the following categories of c
 - Affinity groups: Channels for affinity groups that prefer a private space.
 - Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step to have one more conversation about why a channel should be made private - ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 

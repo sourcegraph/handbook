@@ -1,6 +1,6 @@
 # Customer Engineering Onboarding
 
-Welcome to Sourcegraph - we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview) as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
+Welcome to Sourcegraph—we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview) as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
 
 ## Company-wide and Customer Engineering-specific Onboarding
 

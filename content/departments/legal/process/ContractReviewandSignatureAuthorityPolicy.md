@@ -36,10 +36,10 @@ If you submit a request via #legal or #finance slack channels, no need to duplic
 1. Nature of business opportunity (prospective customer, vendor, partner)
 1. Approximate contract value
 
-SLAs - Turnaround time for legal review:
+SLAs—Turnaround time for legal review:
 
-- Sourcegraph Form - 2 business days
-- Third-party Form - 3 business days
+- Sourcegraph Form: 2 business days
+- Third-party Form: 3 business days
 
 ### Customer contracts
 
@@ -47,11 +47,11 @@ SLAs - Turnaround time for legal review:
 1. Approximate contract value
 1. Any other relevant context
 
-SLAs - Turnaround time for legal review:
+SLAs—Turnaround time for legal review:
 
-- Sourcegraph Form - 3 business days
-- Customer Form - not accepted, requires a legal-to-legal call if customer pushes back
-- EOQ - Legal will attempt to expedite reviews in the last week of the quarter
+- Sourcegraph Form: 3 business days
+- Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
+- EOQ: Legal will attempt to expedite reviews in the last week of the quarter
 
 ### Vendor contracts
 
@@ -62,11 +62,11 @@ SLAs - Turnaround time for legal review:
 1. Any other relevant context
 1. Cc the VP Budget Owner
 
-SLAs - Turnaround time for legal review:
+SLAs—Turnaround time for legal review:
 
-- Sourcegraph Form - 5 business days
-- Vendor Form - 7 business days
-- EOQ - expect delays during the last two weeks of each sales quarter
+- Sourcegraph Form: 5 business days
+- Vendor Form: 7 business days
+- EOQ: expect delays during the last two weeks of each sales quarter
 
 ### Partner contracts
 
@@ -77,10 +77,10 @@ SLAs - Turnaround time for legal review:
 1. Responsibilities and Restrictions on Sourcegraph (for product integrations): Propose any changes or confirm that you have no changes
 1. Any other relevant context
 
-SLAs - Turnaround time for legal review:
+SLAs—Turnaround time for legal review:
 
 - 7 business days
-- EOQ - expect delays during the last two weeks of each sales quarter
+- EOQ: expect delays during the last two weeks of each sales quarter
 
 ## What to do when the contract is fully signed
 

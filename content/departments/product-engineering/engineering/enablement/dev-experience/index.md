@@ -70,7 +70,7 @@ Support on-call responsibilities on this team include:
 #### Build pipeline support
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration).
-This responsibility can be described as that of a "build sheriff" - the goal is to have someone lead on identifying the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
+This responsibility can be described as that of a "build sheriff"—the goal is to have someone lead on identifying the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 
 As a build sheriff, the on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests), and ensure issues are followed up on:
 
