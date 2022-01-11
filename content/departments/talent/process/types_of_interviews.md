@@ -356,9 +356,9 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
 
-### Technical Interview: Coding Skills (Repository Management Team)
+### Technical Interview: Coding Skills
 
-- Interviewers: two members of the Repository Management Team
+- Interviewers: two members of the engineering team
 - Duration: 60-minutes.
 - Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
 
