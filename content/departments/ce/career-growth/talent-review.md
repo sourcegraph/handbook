@@ -1,6 +1,6 @@
 # CE Talent Review Process
 
-Please note: the talent review process is independent of the recurring Impact Review process (more [here](../../../benefits-pay-perks/pay-expenses/compensation/index.md#commissions-and-bonuses)). 
+Please note: the talent review process is independent of the recurring Impact Review process (more [here](../../../benefits-pay-perks/pay-expenses/compensation/index.md#commissions-and-bonuses)).
 
 ## Cadence
 
@@ -46,4 +46,4 @@ Sourcegraph's compensation change and approvals process follow [this](../../../b
 
 ### Considerations for increases
 
-Recognizing that for individuals to grow into a level, fully demonstrate consistent proficiency of that level, and begin performing against the elevated expectations of the next level it takes time. As individuals advance and progress, in-band compensation increases are considered annually to reflect  this.  Because individual band levels have a [range](../../../benefits-pay-perks/pay-expenses/compensation#how-bands-are-created) advancing between the 75th and 90th percentile of a range rewards positive achievement and impact between promotions. In addition to performance-based considerations, inflation and market data are also considerations for either individual changes or level-wide changes.
+Recognizing that for individuals to grow into a level, fully demonstrate consistent proficiency of that level, and begin performing against the elevated expectations of the next level it takes time. As individuals advance and progress, in-band compensation increases are considered annually to reflect this. Because individual band levels have a [range](../../../benefits-pay-perks/pay-expenses/compensation#how-bands-are-created) advancing between the 75th and 90th percentile of a range rewards positive achievement and impact between promotions. In addition to performance-based considerations, inflation and market data are also considerations for either individual changes or level-wide changes.
