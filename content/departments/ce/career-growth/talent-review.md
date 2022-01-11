@@ -30,7 +30,7 @@ Any qualitative feedback for an IC that came out of talent review is shared with
 
 ## Promotion requests
 
-Promotion requests are made immediately following the [talent review calibration meeting](#calibration-meeting) by the Manager, and assumes leadership alignment and agreement on the decision. The promotion request is raised to PeopleOps following the process outlined [here](../../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md).
+Promotion requests are made immediately following the [talent review calibration meeting](#calibration-meeting) by the Manager, and assumes leadership alignment and agreement on the decision. The promotion request is raised to PeopleOps following the process outlined [here](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md).
 
 ### Considerations for promotion
 
@@ -42,7 +42,7 @@ Our career ladders describe performance expectations in 3 core competencies. It 
 
 In-band compensation increases (while staying at the same level) are reviewed annually. That said, in recognition of a teammate exceeding expectations in their current level, an increase can be requested at any time with proper businesses justification.
 
-Sourcegraph's compensation change and approvals process follow [this](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals) guidance. PeopleOps will confirm to the manager once the compensation increase has been processed and the manager can then proceed with communicating the increase to the teammate using the [compensation increase confirmation template](https://docs.google.com/document/d/1o_jRRe7VYDUERz49lwcJxQQYUaNORkme3GMDaI04Fhw/edit).
+Sourcegraph's compensation change and approvals process follow [this](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md) guidance. PeopleOps will confirm to the manager once the compensation increase has been processed and the manager can then proceed with communicating the increase to the teammate using the [compensation increase confirmation template](https://docs.google.com/document/d/1o_jRRe7VYDUERz49lwcJxQQYUaNORkme3GMDaI04Fhw/edit).
 
 ### Considerations for increases
 
