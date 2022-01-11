@@ -1,6 +1,6 @@
 # Delivery strategy
 
-This page outlines the vision, strategy, and goals of the [Delivery team](../../../../departments/product-engineering/engineering/enablement/delivery/index.md).
+This page outlines the vision, strategy, and goals of the [Delivery team](../../../../departments/product-engineering/engineering/cloud/delivery/index.md).
 
 ---
 

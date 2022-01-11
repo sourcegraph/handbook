@@ -5,10 +5,11 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 ## Members
 
 - [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- Kristen Stretch ([Engineering Manager](../../roles/index.md#engineering-manager))
+- [Kristen Stretch](../../../../../team/index.md#kristen-stretch) ([Engineering Manager](../../roles/index.md#engineering-manager))
   - [JH Chabran](../../../../../team/index.md#jh-chabran)
   - [Robert Lin](../../../../../team/index.md#robert-lin)
   - [Dave Try](../../../../../team/index.md#dave-try)
+  - [Marek Zaluski](../../../../../team/index.md#marek-zaluski)
 
 ## [Strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
 
@@ -20,8 +21,6 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Responsibilities
 
-> NOTE: This section is a work in progress.
-
 - General
   - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx)
   - [Developer experience support](#support)
@@ -32,6 +31,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
+    - [`sg` hack hour](#sg-hack-hour)
   - [Monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
 
 > NOTE: We don't own the developer experience at Sourcegraph – we simply focus on it. Sourcegraph engineers own the developer experience as a collective. To learn more, check out our [team strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md).
@@ -52,13 +52,24 @@ To collaborate, we use the following:
 - Internal team channel in #dev-experience-internal
 - [GitHub planning board](https://github.com/orgs/sourcegraph/projects/212)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
-- [Team sync notes](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
-- [Retrospective notes](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#)
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
 
 ### Meetings
 
-We currently have weekly sync meetings and biweekly retrospectives.
+#### Team meetings
+
+The DevX team currently has weekly sync meetings and biweekly retrospectives within the team.
+
+- [Team sync notes](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
+- [Retrospective notes](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#)
+
+#### `sg` hack hour
+
+There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
+
+When the hack hour starts, a meeting link will be posted in #dev-experience.
+
+To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
 
 ### Support
 
@@ -90,11 +101,12 @@ We aim to allow teammates the flexibility to work on incoming requests, tackle p
 
 ### Newsletter
 
-The DevX team is responsible for a **monthly** newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
+The DevX team is responsible for a **monthly** (ish) newsletter to highlight developer experience updates (not just those lead by the team). Learn more about it and see previous issues [in the newsletter archive](newsletter.md).
 
 To prepare a new issue of the newsletter, create a PR for the latest newsletter issue here following the conventions in the [previous newsletters](./newsletter.md). Some tips:
 
 - You can refer to [`dx-announce` issues and PRs](https://github.com/sourcegraph/sourcegraph/issues?q=+is%3Aclosed+sort%3Aupdated-desc+label%3Adx-announce) for content ideas!
+  - Adding a `closed:>YYYY-MM-DD` will filter the list down to just things that have been closed since the last newsletter issue.
 - To include images, either [follow the official guide](../../../../../handbook/editing/handbook-images-video.md) or upload images to a GitHub issue - this will provide a shareable link.
 
 Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the rendered newsletter from the handbook (you can set this up locally with `yarn dev`) into a draft newsletter. You will need to remove the background color from the pasted content, but the formatting should otherwise just work.
