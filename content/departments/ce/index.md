@@ -21,8 +21,6 @@ You can reach us at the #ce channel or @ce on Slack. Customer Engineering repres
 - [Current Team Members](team/current-team-members.md)
 - [Open roles - Join us!](team/open-roles.md)
 
----
-
 ## References
 ### Team Norms
 - [The work we do in support of customers](process/working-with-customers.md)
