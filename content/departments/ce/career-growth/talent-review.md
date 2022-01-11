@@ -1,6 +1,6 @@
 # CE Talent Review Process
 
-Please note: the talent review process is independent of the recurring Impact Review process (more [here](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation#commissions-and-bonuses)).
+Please note: the talent review process is independent of the recurring Impact Review process (more [here](../../../benefits-pay-perks/pay-expenses/compensation/index.md#commissions-and-bonuses).
 
 ## Cadence
 
