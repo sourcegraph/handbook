@@ -24,7 +24,6 @@ You can reach us at the #ce channel or @ce on Slack. Customer Engineering repres
 ---
 
 ## References
-
 ### Team Norms
 - [The work we do in support of customers](process/working-with-customers.md)
 - [How we work with other teams](team-culture/index.md)
