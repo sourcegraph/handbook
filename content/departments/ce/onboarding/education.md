@@ -22,7 +22,7 @@ This page (WIP) provides new and existing CEs alike with important training, dem
 - [Enterprise vs. Open Source Sourcegraph](../onboarding/enterprise-vs-oss.md)
 - [Deployment Methods](deployment-methods.md)
 
-## Useful Processes
+## Useful Processes to Know
 
 - [Demo repo contribution](demo-repo-contribution.md)
 - [Migrating off the insiders build](leaving-insiders-build.md)
@@ -49,3 +49,31 @@ List of commonly used and recommended tooling for Customer Engineers.
 
 - [Krisp](https://krisp.ai/)
 - [Productboard](https://sourcegraph.productboard.com/)
+
+## Recurring Team Meetings
+
+- CE team meeting (bi-weekly on Wednesdays): Global team sync; open team discussion about any topics
+- Demo workshop (bi-weekly on Wednesdays): A space for the CE team to collaborate on demos, scripts, and other ideas / needs that will help us serve our customers better
+- CE team hangout (monthly on Thursdays): An open forum to ask questions, collaborate, and chat as a team.
+- Product & CE Requests & Feedback Themes (bi-weekly on Wednesdays): Feedback treads and requests between CE and Product.
+- CE <> Sales Office Hours (bi-weekly on Tuesdays): An open forum to discuss topics and answer questions from the sales team.
+
+## OOO Protocols
+
+Prior to taking time off, CEs should:
+
+1. [Log time off request in Roots PTO](../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
+1. Log time off on the CE team google calendar
+1. Work with their manager to create a coverage plan
+1. Notify their customers through the appropriate channel of their upcoming OOO
+1. Update their slack status accordingly with OOO dates indicated
+
+## CE-Specific Slack Channels
+
+| Slack Channel     | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| #ce-internal      | Internal channel the CE team to touch base with each other.    |
+| #ce               | External channel for other teams to ask CEs a question.        |
+| #customer-support | Where support collaborates with everyone outside of support.   |
+| #ask-product-eng  | Where CEs can ask product and Eng questions about Sourcegraph. |
+| #feedback         | Where CEs can share customer feedback with product.            |
