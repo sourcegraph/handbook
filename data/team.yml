@@ -108,7 +108,9 @@ vanesa_ortiz:
 noemi_mercado:
   name: Noemi Mercado
   pronouns: she/her
-  role: People Ops
+  role: People Operations Manager
+  reports_to: vp_people
+  manager_role_slug: people_operations_manager
   location: San Francisco, CA (Ramaytush Ohlone land)
   github: mercadon
   email: noemi@sourcegraph.com
@@ -533,6 +535,7 @@ cecily_black:
   name: Cecily Black
   pronouns: she/her
   role: People Operations Coordinator
+  reports_to: people_operations_manager
   location: San Jose, California, United States 🇺🇸
   github: CecilyBee
   email: cecily@sourcegraph.com
@@ -664,6 +667,7 @@ inés_roitman:
   name: Inés Roitman
   pronouns: she/her
   role: Onboarding and Training Manager
+  reports_to: vp_people
   location: Buenos Aires, Argentina 🇦🇷 / Barcelona, Spain 🇪🇸
   github: InesRoitman
   email: ines@sourcegraph.com
@@ -1014,6 +1018,7 @@ cassie_melani:
   name: Cassie Melani
   pronouns: she/her
   role: Teammate Success Manager
+  reports_to: vp_people
   location: Seattle, Washington, USA 🇺🇸🌲
   email: cassie@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/cassandralira/), [README](../../people-ops/cassie-bio.md)'
@@ -1151,7 +1156,8 @@ nicky_van_maanen:
 debbie_johnstone:
   name: Debbie Johnstone
   pronouns: she/her
-  role: VP People
+  role: VP of People
+  manager_role_slug: vp_people
   location: Amsterdam, Netherlands 🇳🇱
 
   email: debbie@sourcegraph.com
@@ -2111,6 +2117,7 @@ jonathan_ayers:
   name: Jonathan Ayers
   pronouns: he/him
   role: Senior People Partner
+  reports_to: vp_people
   location: Seattle, WA, USA 🇺🇸
   email: jonathan.ayers@sourcegraph.com
   github: jonathanayers

@@ -12,6 +12,8 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Product](../departments/product-engineering/product/team/index.md#current-team)
 
+{{generator:reporting_structure.vp_product}}
+
 ## [Customer Support](../departments/support/index.md#the-team)
 
 ## [Customer Engineering](../departments/ce/index.md#current-team-members)
@@ -19,6 +21,8 @@ The org chart is generated automatically from team pages in the handbook ([need 
 ## [Marketing](../departments/marketing/index.md#members)
 
 ## [People Ops](../departments/people-ops/index.md#people-ops-team-members)
+
+{{generator:reporting_structure.vp_people}}
 
 ## [Business Operations & Strategy](../departments/bizops/index.md#members)
 
@@ -55,7 +59,7 @@ This org chart is generated automatically based on the contents of other handboo
 1. To add any other text or structure to this page, just insert it as you would normally. Only 3rd-level heading links (lines that start with `###` and that have a link) are treated specially; all other content is preserved.
 
 <script>
-// This script injects the org chart content into each section of this page that links to a team page.
+/* This script injects the org chart content into each section of this page that links to a team page.
 // It is similar to the script used to compile the goals in ../strategy-goals/goals/index.md.
 
 async function getPageOrgChart(pageUrl) {
@@ -134,4 +138,5 @@ Promise.all(
         anchor.parentNode.replaceWith(content)
 	}
 })
+*/
 </script>
