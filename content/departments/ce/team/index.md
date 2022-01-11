@@ -38,4 +38,4 @@
   - [Elzanne Wentzel](../../team/index.md#elzanne-wentzel)
   - [Simon Waterer](../../team/index.md#simon-waterer)
 
-More details about our team members in [our team READMEs](team/readmes.md).
+More details about our team members in [our team READMEs](readmes.md).
