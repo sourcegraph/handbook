@@ -16,18 +16,13 @@ The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Dire
   - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
   - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
   - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
-- [Delivery](delivery/index.md)
-  - [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles/index.md#engineering-manager))
-  - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
-  - TBH ([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Crystal Augustus](../../../../team/index.md#crystal-augustus)
-  - [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
 - [Dev Experience](dev-experience/index.md)
   - [Kristen Stretch](../../../../team/index.md#kristen-stretch)([Engineering Manager](../roles/index.md#engineering-manager))
   - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [JH Chabran](../../../../team/index.md#jh-chabran)
   - [Robert Lin](../../../../team/index.md#robert-lin)
   - [Dave Try](../../../../team/index.md#dave-try)
+  - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
 - [Frontend Platform](frontend-platform/index.md)
   - [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
   - [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../roles/index.md#engineering-manager))
@@ -35,10 +30,12 @@ The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Dire
   - [Tom Ross](../../../../team/index.md#tom-ross)
   - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
   - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
-- [Engineering Education](engineering-education/index.md)
-  - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
-- Sourcegraph Handbook
+- [Content Platform](content-platform/index.md)
+  - [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles/index.md#engineering-manager))
   - [Mary Belzer](../../../../team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
+  - [Stephanie Zabala](../../../../team/index.md#stephanie-zabala) ([Designer](../../product/roles/index.md#product-designer))
+  - [Katy Juell](../../../../team/index.md#katy-juell)
+  - [Brett Hayes](../../../../team/index.md#brett-hayes)
 
 ## Principles and practices
 
@@ -121,14 +118,14 @@ Participation in sharing is voluntary.
 
 #### Status updates
 
-Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../tools/engineering-management.md#status-updates) by the Monday following their team's retrospective. This should happen at least once a month.
+Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../tools/engineering-management.md#status-updates) once a month.
 
 #### Leadership sync
 
-To stay aligned as an organization on Monday we share our priorities for the week in the #enablement-leadership channel. On Friday a reminder is sent to the same channel prompting the team with the following:
+To stay aligned as an organization we share our priorities for the week in the #enablement-leadership channel on Mondays. On Fridays a reminder is sent to the same channel prompting the team with the following:
 
 - What updates do you have on [our OKRs](https://github.com/orgs/sourcegraph/projects/214/views/14?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C188005%2C247470%2C284758%2C253662%2C243177%5D)
 - Any highlights on team accomplishments?
 - Any challenges or risks to call out?
 
-On Thursday we meet as a leadership team via zoom to have real time conversation. We cover one fun question, leadership updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and drive to quick decisions. If we do not have a large enough cohort we will run the meeting async.
+On Thursdays we meet as a leadership team via Zoom to have real-time conversations. We cover one fun question, leadership updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and to drive quick decisions. If we do not have a large enough cohort we will run the meeting async.

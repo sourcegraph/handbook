@@ -45,15 +45,15 @@
       - [JH Chabran](../../../../team/index.md#jh-chabran)
       - [Robert Lin](../../../../team/index.md#robert-lin)
       - [Dave Try](../../../../team/index.md#dave-try)
+      - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
     - [Frontend platform](../enablement/frontend-platform/index.md) - Engineering Manager: [Patrick Dubroy](../../../../team/index.md#patrick-dubroy)
       - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
       - [Tom Ross](../../../../team/index.md#tom-ross)
       - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
-    - [Content Platform](../enablement/content-platform/index.md) - Engineering Manager: [Jean du Plessis](../../../../team/index.md#jean-du-plessis)
+    - [Content Platform](../enablement/content-platform/index.md) - Acting Engineering Manager: [Jean du Plessis](../../../../team/index.md#jean-du-plessis)
       - [Katy Juell](../../../../team/index.md#katy-juell)
       - [Brett Hayes](../../../../team/index.md#brett-hayes)
-      - Mate Gyorffy
-      - Dan Clouse
+      - Mate Gyorffy (Contractor)
   - [Cloud](../cloud/index.md) - Director of Engineering: [Bill Creager](../../../../team/index.md#bill-creager)
     - [Growth and Integrations](../cloud/growth-and-integrations/index.md) - Engineering Manager: [Murat Sutunc](../../../../team/index.md#murat-sutunc)
       - [Stephen Gutekanst](../../../../team/index.md#stephen-gutekanst)
