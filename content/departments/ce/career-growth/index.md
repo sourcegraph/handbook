@@ -3,6 +3,7 @@
 Our career development framework is here to help you understand the expectations of your role, and to provide a common language for you and your manager to discuss and plan your career growth. It is also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.
 
 ## What are the expectations of my role?
+
 The CE team is a single globally distributed team. There are currently six levels for customers engineers at Sourcegraph. A level is composed of three categories (or core competencies), each with a summary statement and several example behaviors. These core competencies are:
 
 - Leadership
