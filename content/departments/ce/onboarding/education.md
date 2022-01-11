@@ -1,4 +1,4 @@
-# Customer Engineering Education
+# Customer Engineering Educational Materials
 
 This page (WIP) provides new and existing CEs alike with important training, demos, and product-specific materials that may be beneficial as you service your customers.
 
