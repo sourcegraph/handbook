@@ -30,7 +30,7 @@ Any qualitative feedback for an IC that came out of talent review is shared with
 
 ## Promotion requests
 
-Promotion requests are made immediately following the [talent review calibration meeting](#calibration-meeting) by the Manager, and assumes leadership alignment and agreement on the decision. The promotion request is raised to PeopleOps following the process outlined [here](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals).
+Promotion requests are made immediately following the [talent review calibration meeting](#calibration-meeting) by the Manager, and assumes leadership alignment and agreement on the decision. The promotion request is raised to PeopleOps following the process outlined [here](../../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md).
 
 ### Considerations for promotion
 
