@@ -1,10 +1,6 @@
-# Customer Engineering Team Culture
+# How CE Intersects Internal Teams
 
-CEs interact with most every other team at Sourcegraph. This page details those intersections.
-
-## How we intersect other teams
-
-We work alongside just about every team at Sourcegraph. Here is how we add value to each other and a collaboration overview for each pairing.
+CEs interact with most every other team at Sourcegraph. This page details those intersections, explaining how we add value to each other and a collaboration overview for each pairing.
 
 ### Sales
 
