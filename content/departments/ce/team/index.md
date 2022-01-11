@@ -5,6 +5,7 @@
 <!-- Alphabetically, by surname. -->
 
 - Leadership Team
+
   - [Aimee Menne](../../team/index.md#aimee-menne) (VP of Customer Engineering)
   - [Christy Haragan](../../team/index.md#christy-haragan) (Director of Customer Engineering, EMEA)
   - [Bob Roudebush](../../team/index.md#bob-roudebush) (Director of Customer Engineering, Americas)
