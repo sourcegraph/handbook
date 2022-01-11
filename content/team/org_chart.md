@@ -10,6 +10,8 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Engineering](../departments/product-engineering/engineering/team/index.md#current-organization)
 
+{{generator:reporting_structure.vp_engineering}}
+
 ## [Product](../departments/product-engineering/product/team/index.md#current-team)
 
 {{generator:reporting_structure.vp_product}}

@@ -32,6 +32,7 @@ christina_forney:
 stephen_gutekanst:
   name: Stephen Gutekanst
   role: Internal Contributor / Software Engineer
+  reports_to: director_engineering
   location: Phoenix, AZ, USA 🇺🇸
   email: stephen@sourcegraph.com
   links: '[@slimsag](https://twitter.com/slimsag), [LinkedIn](https://www.linkedin.com/in/slimsag)'
@@ -42,6 +43,7 @@ ryan_slade:
   name: Ryan Slade
   pronouns: he/him
   role: Software Engineer
+  reports_to: software_engineering_manager
   location: Valencia, Spain 🇪🇸
   email: rslade@sourcegraph.com
   links: '[@frefity](https://twitter.com/frefity), [LinkedIn](https://www.linkedin.com/in/ryan-slade-1bb36bb/)'
@@ -50,6 +52,7 @@ ryan_slade:
 rijnard_van_tonder:
   name: Rijnard van Tonder
   role: Software Engineer
+  reports_to: engineering_manager_search
   location: Las Vegas, NV, USA 🇺🇸
   email: rijnard@sourcegraph.com
   links: '[@rvtond](https://twitter.com/rvtond), [LinkedIn](https://www.linkedin.com/in/rijnard)'
@@ -60,6 +63,7 @@ eric_fritz:
   name: Eric Fritz
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_code_intelligence
   location: Milwaukee, WI, USA 🇺🇸
   github: efritz
   email: eric@sourcegraph.com
@@ -81,6 +85,7 @@ eric_brody-moore:
 keegan_carruthers-smith:
   name: Keegan Carruthers-Smith
   role: Software Engineer
+  reports_to: engineering_manager_search_core
   location: Cape Town, South Africa 🇿🇦
   github: keegancsmith
   email: keegan@sourcegraph.com
@@ -90,6 +95,7 @@ keegan_carruthers-smith:
 joe_chen:
   name: Joe Chen
   role: Software Engineer
+  reports_to: engineering_manager_cloud_saas
   location: Boston, MA, USA 🇺🇸
   github: unknwon
   email: joe@sourcegraph.com
@@ -125,6 +131,7 @@ nick_snyder:
   name: Nick Snyder
   pronouns: he/him
   role: VP Engineering
+  manager_role_slug: vp_engineering
   location: Belmont, CA, USA 🇺🇸
   github: GitHub
   email: nick@sourcegraph.com
@@ -136,6 +143,7 @@ thorsten_ball:
   name: Thorsten Ball
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_code_intelligence
   location: Aschaffenburg, Bavaria, Germany 🇩🇪
   github: mrnugget
   email: thorsten@sourcegraph.com
@@ -145,6 +153,8 @@ thorsten_ball:
 loïc_guychard:
   name: Loïc Guychard
   role: Engineering manager, search
+  reports_to: director_engineering_global_code_graph
+  manager_role_slug: engineering_manager_search
   location: Brest, Brittany, France 🇫🇷
   github: lguychard
   email: loic@sourcegraph.com
@@ -165,6 +175,7 @@ dan_adler:
 tomás_senart:
   name: Tomás Senart
   role: Software Engineer
+  reports_to: engineering_manager_search_core
   location: Lisbon, Portugal 🇵🇹 / Berlin, Germany 🇩🇪
   github: tsenart
   email: tomas@sourcegraph.com
@@ -175,6 +186,7 @@ tomás_senart:
 geoffrey_gilmore:
   name: Geoffrey Gilmore
   role: Software Engineer
+  reports_to: engineering_manager_search_core
   location: San Francisco, CA, USA 🇺🇸
   github: ggilmore
   email: geoffrey@sourcegraph.com
@@ -192,6 +204,7 @@ farhan_attamimi:
 erik_seliger:
   name: Erik Seliger
   role: Software Engineer
+  reports_to: engineering_manager_batch_changes
   location: Bremen, Germany 🇩🇪
   github: eseliger
   email: erik@sourcegraph.com
@@ -219,7 +232,9 @@ rob_rhyne:
 
 felix_becker:
   name: Felix Becker
-  role: Engineering Manager
+  role: Engineering Manager, Code Insights
+  reports_to: director_engineering_global_code_graph
+  manager_role_slug: engineering_manager_code_insights
   location: ~~Bremen, Germany 🇩🇪~~ San Francisco, California 🇺🇸
   github: felixfbecker
   email: felix@sourcegraph.com
@@ -230,6 +245,7 @@ asdine_el_hrychy:
   name: Asdine El Hrychy
   pronunciation: First name is pronounced _as-deen_, last name _el-ree-tchee_
   role: Software Engineer
+  reports_to: software_engineering_manager
   location: Ajaccio, France 🇫🇷/ Dubai, UAE 🇦🇪
   github: asdine
   email: asdine@sourcegraph.com
@@ -238,6 +254,7 @@ asdine_el_hrychy:
 dave_try:
   name: Dave Try
   role: Software Engineer
+  reports_to: engineering_manager_developer_experience
   location: Ibague, Colombia 🇨🇴/ Sydney, Australia 🇦🇺
   github: davejrt
   email: dave@sourcegraph.com
@@ -247,6 +264,7 @@ dax_mcdonald:
   name: Dax McDonald
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_devops
   location: Phoenix, AZ, USA 🇺🇸
   github: daxmc99
   email: dax@sourcegraph.com
@@ -256,6 +274,7 @@ dax_mcdonald:
 robert_lin:
   name: Robert Lin
   role: Software Engineer
+  reports_to: engineering_manager_developer_experience
   location: Burnaby, Canada 🇨🇦
   pronouns: he/him
   github: bobheadxi
@@ -266,6 +285,7 @@ robert_lin:
 marek_zaluski:
   name: Marek Zaluski
   role: 'Software Engineer, Engineering Education Lead'
+  reports_to: engineering_manager_web
   location: Ottawa, Canada 🇨🇦
   github: marekweb
   email: marek@sourcegraph.com
@@ -276,6 +296,7 @@ adam_harvey:
   name: Adam Harvey
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_batch_changes
   location: Vancouver, Canada 🇨🇦
   github: LawnGnome
   email: aharvey@sourcegraph.com
@@ -320,6 +341,7 @@ stefan_hengl:
   name: Stefan Hengl
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_search_core
   location: Berlin, Germany 🇩🇪
   github: stefanhengl
   email: stefan@sourcegraph.com
@@ -340,6 +362,7 @@ juliana_peña:
   name: Juliana Peña
   pronouns: she/her
   role: Software Engineer
+  reports_to: engineering_manager_search
   location: Redmond, WA, USA 🇺🇸
   github: limitedmage
   email: juliana@sourcegraph.com
@@ -351,10 +374,10 @@ tharuntej_kandala:
   name: Tharuntej Kandala
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_growth
   location: Jacksonville, FL, USA 🇺🇸
   github: tjkandala
   email: tj@sourcegraph.com
-
   pronunciation: Call him "TJ"
   description: TJ was born in India before he was brought to the swamp. He strives to bridge the gap between Developer Experience and User Experience in modern web applications. Outside of work, he loves to code and dunk basketballs by the ocean.
 
@@ -362,6 +385,8 @@ chris_pine:
   name: Chris Pine
   pronouns: he/she/they/Chris
   role: Engineering Manager, Batch Changes
+  reports_to: director_engineering_global_code_graph
+  manager_role_slug: engineering_manager_batch_changes
   location: Portland, OR, USA 🇺🇸
   github: chrispine
   email: chrispine@sourcegraph.com
@@ -383,6 +408,7 @@ noah_santschi-cooney:
   name: Noah Santschi-Cooney
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_code_intelligence
   location: Wexford, Ireland 🇮🇪
   pronunciation: '/[noʊə santʃi kuːnɪ](http://ipa-reader.xyz/?text=no%CA%8A%C9%99%20sant%CA%83i%20ku%CB%90n%C9%AA&voice=Amy)/'
   github: strum355
@@ -488,6 +514,8 @@ jean_du_plessis:
   name: Jean du Plessis
   pronouns: he/him
   role: Engineering Manager, Web
+  reports_to: vp_engineering
+  manager_role_slug: engineering_manager_web
   location: Cape Town, South Africa 🇿🇦
   github: jeanduplessis
   pronunciation: '[ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
@@ -509,6 +537,8 @@ owen_convey:
   name: Owen Convey
   pronouns: he/him
   role: Engineering Manager
+  reports_to: director_engineering_global_code_graph
+  manager_role_slug: engineering_manager_code_intelligence
   location: Barcelona, Spain 🇪🇸
   github: scalabilitysolved
   email: oconvey@sourcegraph.com
@@ -578,6 +608,7 @@ rok_novosel:
   name: Rok Novosel
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_search
   location: Trebnje, Slovenia 🇸🇮
   github: novoselrok
   email: rok@sourcegraph.com
@@ -588,6 +619,7 @@ andré_eleuterio:
   name: André Eleuterio
   pronouns: he/him
   role: Security Engineer
+  reports_to: security_engineering_manager
   location: Curitiba, Brazil 🇧🇷
   github: andreeleuterio
   email: andre@sourcegraph.com
@@ -622,6 +654,7 @@ camden_cheek:
   name: Camden Cheek
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_search
   location: Monument, Colorado, USA 🇺🇸
   github: camdencheek
   email: camden@sourcegraph.com
@@ -644,6 +677,7 @@ tom_ross:
   name: Tom Ross
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_frontend_platform
   location: York, North Yorkshire, UK 🇬🇧
   github: umpox
   email: tom@sourcegraph.com
@@ -677,6 +711,7 @@ seth_hoover:
   name: Ólafur Páll Geirsson
   pronouns: he/him
   role: Software Engineer, Code Intelligence
+  reports_to: engineering_manager_code_intelligence
   location: Drøbak, Norway 🇳🇴
   github: olafurpg
   email: olafurpg@sourcegraph.com
@@ -719,6 +754,7 @@ james_clifford:
 tj_devries:
   name: TJ DeVries
   role: Software Engineer
+  reports_to: engineering_manager_code_intelligence
   location: Rockford, MI, USA 🇺🇸
   github: tjdevries
   email: tjdevries@sourcegraph.com
@@ -762,6 +798,8 @@ murat_sutunc:
   name: Murat Sutunc
   pronouns: he/him
   role: Engineering Manager, Growth and Integrations
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_growth
   location: Redwood City, CA, USA 🇺🇸
   pronunciation: '[muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
   github: muratsu
@@ -827,6 +865,7 @@ valery_bugakov:
   name: Valery Bugakov
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_frontend_platform
   location: St. Petersburg, Russia 🇷🇺
   github: valerybugakov
   email: valery@sourcegraph.com
@@ -850,6 +889,7 @@ vova_kulikov:
   name: Vova Kulikov
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_code_insights
   location: St. Petersburg, Russia 🇷🇺
   github: vovakulikov
   email: vova@sourcegraph.com
@@ -871,6 +911,7 @@ alex_fogg:
 adeola_akinsiku:
   name: Adeola Akinsiku
   role: Application Engineer
+  reports_to: engineering_manager_batch_changes
   location: Atlanta, GA, USA 🇺🇸
   github: adeola-ak
   email: adeola@sourcegraph.com
@@ -881,6 +922,8 @@ patrick_dubroy:
   name: Patrick Dubroy
   pronouns: he/him
   role: Engineering Manager, Frontend platform
+  reports_to: engineering_manager_web
+  manager_role_slug: engineering_manager_frontend_platform
   location: Munich, Germany 🇩🇪
   github: pdubroy
   email: patrick@sourcegraph.com
@@ -891,6 +934,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Application Engineer
+  reports_to: engineering_manager_growth
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
@@ -922,6 +966,7 @@ indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
   role: Software Engineer, Core Application
+  reports_to: software_engineering_manager
   location: Kolkata, India, 🇮🇳
   github: indradhanush
   email: indradhanush@sourcegraph.com
@@ -966,6 +1011,8 @@ kelsey_brown:
 bill_creager:
   name: Bill Creager
   role: Director of Engineering
+  reports_to: vp_engineering
+  manager_role_slug: director_engineering
   location: Buda, TX USA 🇺🇸
   email: bill.creager@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/bill-creager-8055911a/)'
@@ -1041,6 +1088,8 @@ rafal_leszczynski:
   name: Rafal Leszczynski
   pronouns: he/him
   role: Engineering Manager, Cloud SaaS
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_cloud_saas
   location: Jelonek (Poznan), Poland 🇵🇱
   github: RafLeszczynski
   email: rafal@sourcegraph.com
@@ -1051,6 +1100,7 @@ kelli_rockwell:
   name: Kelli Rockwell
   pronouns: she/her
   role: Software Engineer, Batch Changes
+  reports_to: engineering_manager_batch_changes
   location: Seattle, WA, USA 🇺🇸
   github: courier-new
   email: kelli@sourcegraph.com
@@ -1117,6 +1167,7 @@ coury_clark:
   name: Coury Clark
   pronouns: He/Him
   role: Software Engineer, Code Insights
+  reports_to: engineering_manager_code_insights
   location: Phoenix, AZ, USA
   email: coury@sourcegraph.com
   description: Born and raised in Arizona, currently living in Phoenix. He learned to fly airplanes when he was 12 years old at a local glider club, and got his pilot’s license in both gliders and single engine airplanes in his teens. He started programming in c++ with a desire to make video games, and spent some time learning that he is a terrible 3D artist in Maya. Since then, Coury has loved exploring the complexities of software engineering, and has decided he is still a terrible artist (in any dimension). In his free time he likes to play music on piano / guitar, explore new foods through cooking, spend time birding and doing photography, and hanging out with his wife and cat.
@@ -1398,7 +1449,8 @@ katy_juell:
   name: Katy Juell
   pronouns: She/Her
   role: Full Stack Engineer
-  location: Stamford, CT, USA 🇺🇸
+  reports_to: engineering_manager_web
+  location: Greenwich, CT, USA 🇺🇸
   github: katjuell
   email: katy@sourcegraph.com
   links: '[katjuell.site](https://katjuell.site), [@katjuell](https://twitter.com/katjuell), [LinkedIn](https://www.linkedin.com/in/kathleen-juell/)'
@@ -1481,6 +1533,7 @@ justin_boyson:
   name: Justin Boyson
   pronouns: He/Him
   role: Frontend Engineer
+  reports_to: engineering_manager_code_insights
   location: Austin, TX, USA 🇺🇸
   github: unclejustin
   email: justin.boyson@sourcegraph.com
@@ -1541,6 +1594,8 @@ yink_teo:
   name: Yink Teo
   pronouns: he/him
   role: Director of Engineering, Global Code Graph
+  reports_to: vp_engineering
+  manager_role_slug: director_engineering_global_code_graph
   location: San Francisco, CA USA 🇺🇸
   github: yinquanteo
   email: yink@sourcegraph.com
@@ -1551,6 +1606,7 @@ milan_freml:
   name: Milan Freml
   pronouns: He/Him
   role: Software Engineer
+  reports_to: engineering_manager_cloud_saas
   location: Ružomberok, Žilinský, Slovakia 🇸🇰
   github: kopancek
   email: you@sourcegraph.com
@@ -1629,6 +1685,7 @@ erzhan_torokulov:
   name: Erzhan Torokulov
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_growth
   location: St. Petersburg, Russia 🇷🇺
   github: erzhtor
   email: erzhan.torokulov@sourcegraph.com
@@ -1761,6 +1818,8 @@ diego_comas:
   name: Diego Comas
   pronouns: he/him/his
   role: Security Engineering Manager
+  reports_to: director_engineering
+  manager_role_slug: security_engineering_manager
   location: Barcelona, Spain 🇪🇸
   github: dcomas
   email: diego.comas@sourcegraph.com
@@ -1782,6 +1841,7 @@ jh_chabran:
   name: JH Chabran
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_developer_experience
   pronunciation: 'Name Pronunciation: [/ʒiaʃ/](https://www.name-coach.com/jh-chabran)'
   location: Lyon, France 🇫🇷
   github: jhchabran
@@ -1791,6 +1851,7 @@ jh_chabran:
 chris_wendt:
   name: Chris Wendt
   role: Software Engineer on Code Intelligence
+  reports_to: engineering_manager_code_intelligence
   location: Boulder, CO 🇺🇸
   github: chrismwendt
   email: chris.wendt@sourcegraph.com
@@ -1801,6 +1862,7 @@ mohammad_umer_alam:
   name: Mohammad Umer Alam
   pronouns: he/him
   role: Security Engineer
+  reports_to: security_engineering_manager
   location: Staten Island, NY 🇺🇸
   github: mohammadualam
   email: mohammad.alam@sourcegraph.com
@@ -1819,6 +1881,7 @@ grace_bohl:
 cesar_jimenez:
   name: Cesar Jimenez
   role: Senior Software Engineer on Code Intelligence
+  reports_to: engineering_manager_code_intelligence
   location: Seattle, WA 🇺🇸
   github: numbers88s
   email: cesar.jimenez@sourcegraph.com
@@ -1839,6 +1902,7 @@ trey_sizemore:
 cristina_birkel:
   name: Cristina Birkel
   role: Software Engineer
+  reports_to: engineering_manager_code_insights
   location: Cleveland, OH, United States 🇺🇸
   github: CristinaBirkel
   email: cristina.birkel@sourcegraph.com
@@ -1897,6 +1961,7 @@ crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
   role: Software Engineer, Delivery
+  reports_to: engineering_manager_devops
   location: Ashland, MA, United States 🇺🇸
   github: caugustus-sourcegraph
   email: crystal.augustus@sourcegraph.com
@@ -2013,6 +2078,7 @@ david_sandy:
   name: David Sandy
   pronouns: he/him
   role: Security Engineer
+  reports_to: security_engineering_manager
   location: St. Paul, MN, US 🇺🇸
   github: david-sandy
   email: david.sandy@sourcegraph.com
@@ -2043,6 +2109,7 @@ rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_cloud_saas
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
@@ -2053,6 +2120,7 @@ lauren_chapman:
   name: Lauren Chapman
   pronouns: she/her
   role: Security Engineer
+  reports_to: security_engineering_manager
   location: New Brunswick, Canada 🇨🇦
   github: deflncha
   email: lauren.chapman@sourcegraph.com
@@ -2063,6 +2131,8 @@ jordan_plahn:
   name: Jordan Plahn
   pronouns: he/him
   role: Engineering Manager
+  reports_to: engineering_manager_web
+  manager_role_slug: software_engineering_manager
   location: Seattle, WA, USA 🇺🇸
   github: jplahn
   email: jordan.plahn@sourcegraph.com
@@ -2073,6 +2143,7 @@ varun_gandhi:
   name: Varun Gandhi
   pronouns: he/him
   role: Software Engineer
+  reports_to: engineering_manager_code_intelligence
   location: 'Berkeley, CA, USA / Mumbai, India'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
@@ -2093,6 +2164,8 @@ jeff_warner:
   name: Jeff Warner
   pronouns: he/him
   role: Engineering Manager for Search Core
+  reports_to: director_engineering_global_code_graph
+  manager_role_slug: engineering_manager_search_core
   github: jjeffwarner
   email: jeff.warner@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jjeffwarner)'
@@ -2155,6 +2228,7 @@ kevin_wojkovich:
   github: kevinwojo
   pronouns: he/him
   role: Software Engineer, Delivery
+  reports_to: engineering_manager_devops
   location: Chicago, IL, USA 🇺🇸
   description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
 
@@ -2163,6 +2237,7 @@ brett_hayes:
   email: brett.hayes@sourcegraph.com
   github: bretthayes
   role: Web Developer, Brand
+  reports_to: engineering_manager_web
   location: Ontario, Canada 🇨🇦
   description: Brett sparked his interest in design and programming when he first discovered modding map skins and projectiles to do weird things in the game of Halo. This became the catalyst to his self-taught career in software and web development. He started consulting after graduating high school and has had the pleasure of working for a handful of startups as well as Co-founding a few of his own. He’s worked in many industries such as retail, edtech, fintech, and automotive and brings over a decade of experience in software and web development to Sourcegraph. Being creative at heart with an analytical mind, Brett has a knack for his craft and is passionate about design and web technologies. Away from his mechanical keyboard, you can find him photographing candid moments, snowboarding with his wife, tinkering with his network rack, playing or writing music, or wrenching on his car.
 
@@ -2215,6 +2290,7 @@ molly_weitzel:
   links: '[LinkedIn](https://www.linkedin.com/in/mollyweitzel/)'
   github: mollylogue
   role: Software Engineer
+  reports_to: software_engineering_manager
   location: Boulder, CO, USA
   description: Molly lives in Boulder, CO with her husband Matthew. In her free time she enjoys outdoor activities such as rock climbing, running, hiking, and skiing.
 
@@ -2222,6 +2298,7 @@ alex_ostrikov:
   name: Alexander Ostrikov
   pronouns: he/him
   role: Software Engineer
+  reports_to: software_engineering_manager
   location: St. Petersburg, Russia 🇷🇺
   github: sashaostrikov
   email: alex.ostrikov@sourcegraph.com
@@ -2263,6 +2340,8 @@ jennifer_mitchell:
   name: Jennifer Mitchell
   pronouns: she/her
   role: Engineering Manager - DevOps
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_devops
   location: Hutto, TX, USA 🇺🇸
   email: jennifer.mitchell@sourcegraph.com
   github: JenRed777
@@ -2297,6 +2376,7 @@ oleg_gromov:
   links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
   github: oleggromov
   role: Software Engineer
+  reports_to: engineering_manager_frontend_platform
   location: Rostov-on-Don, Russia 🇷🇺
   description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
 
@@ -2304,6 +2384,7 @@ filip_haftek:
   name: Filip Haftek
   pronouns: he/him
   role: Software Engineer DevOps
+  reports_to: engineering_manager_devops
   location: Kraków, Poland 🇵🇱
   github: filiphaftek
   email: filip.haftek@sourcegraph.com
@@ -2335,6 +2416,7 @@ isuru_fonseka:
 daniel_dides:
   name: Daniel Dides
   role: Cloud DevOps
+  reports_to: engineering_manager_devops
   location: Flint, TX, USA 🇺🇸
   email: daniel.dides@sourcegraph.com
   github: danieldides
@@ -2365,6 +2447,7 @@ rohan_gupta:
 david_veszelovszki:
   name: David Veszelovszki
   role: Software Engineer
+  reports_to: director_engineering
   location: Budapest, Hungary 🇭🇺
   pronouns: he/him
   email: david.veszelovszki@sourcegraph.com
@@ -2418,6 +2501,7 @@ philipp_spiess:
   name: Philipp Spiess
   pronouns: he/him
   role: Full-Stack Engineer, Growth and Integrations
+  reports_to: engineering_manager_growth
   location: Vienna, AT 🇦🇹
   pronunciation: '[ˈʃpiːs](http://ipa-reader.xyz/?text=%CB%88%CA%83pi%CB%90s&voice=Marlene)'
   email: philipp.spiess@sourcegraph.com
@@ -2491,3 +2575,29 @@ ana_lavongtheung:
   name: Ana Lavongtheung
   role: Sales Development Representative
   reports_to: head_sales_development
+
+feroz_salam:
+  name: Feroz Salam
+  role: Security Engineer
+  reports_to: security_engineering_manager
+
+pietro_rosa:
+  name: Pietro Rosa
+  role: Software Engineer
+  reports_to: engineering_manager_cloud_saas
+
+kristen_stretch:
+  name: Kristen Stretch
+  role: Engineering Manager, Developer Experience
+  reports_to: engineering_manager_web
+  manager_role_slug: engineering_manager_developer_experience
+
+michael_sennett:
+  name: Michael Sennett
+  role: Strategic Projects Manager
+  reports_to: vp_engineering
+
+felix_kling:
+  name: Felix Kling
+  role: Software Engineer
+  reports_to: engineering_manager_search
