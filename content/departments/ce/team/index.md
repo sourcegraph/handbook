@@ -6,8 +6,8 @@
 
 - Leadership Team
 
-  - [Aimee Menne](../../team/index.md#aimee-menne) (VP of Customer Engineering)
-  - [Christy Haragan](../../team/index.md#christy-haragan) (Director of Customer Engineering, EMEA)
+  - [Aimee Menne](../../../team/index.md#aimee-menne) (VP of Customer Engineering)
+  - [Christy Haragan](../../../../team/index.md#christy-haragan) (Director of Customer Engineering, EMEA)
   - [Bob Roudebush](../../team/index.md#bob-roudebush) (Director of Customer Engineering, Americas)
   - [Greg Seador](../../team/index.md#greg-seador) (Manager of Customer Engineering, Americas West)
   - Manager of Customer Engineering, Americas East (Starts Jan-24, 2022)
