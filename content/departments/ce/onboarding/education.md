@@ -28,7 +28,6 @@ This page (WIP) provides new and existing CEs alike with important training, dem
 - [Migrating off the insiders build](leaving-insiders-build.md)
 - [Creating and maintaining license keys for customers](license_keys.md)
 
-
 ## CE Tools
 
 List of commonly used and recommended tooling for Customer Engineers.
