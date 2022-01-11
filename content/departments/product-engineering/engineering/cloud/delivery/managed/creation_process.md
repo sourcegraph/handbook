@@ -56,6 +56,10 @@ For basic operations like accessing an instance for these steps, see [managed in
    		},
    	],
    ```
+1. In the site configuration, configure password reset emails to expire after 24 hours (instead of the default 4 hours). This allows more time for the customer to set up their initial account and gain access to the instance.
+   ```
+	"auth.passwordResetLinkExpiry": 86400, // 24 hours
+   ```
 1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
