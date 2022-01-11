@@ -44,13 +44,15 @@ We encourage teammates to leave honest reviews about their Sourcegraph experienc
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
 
 ### Writing Prompts
-If helpful, you can use these prompts to get ideas flowing for your review. 
+
+If helpful, you can use these prompts to get ideas flowing for your review.
+
 - I enjoy working at Sourcegraph because...
 - My favorite perk/benefit at Sourcegraph is...
 - A day in the life of a Sourcegraph employee includes...
 - Since starting at Sourcegraph, I have learned...
 
-[Here](https://help.glassdoor.com/s/article/Writing-a-company-review?language=en_US) are instructions on how to leave a company review on Glassdoor 
+[Here](https://help.glassdoor.com/s/article/Writing-a-company-review?language=en_US) are instructions on how to leave a company review on Glassdoor
 
 If you want to make a suggestion or notice outdated company details on any of our profiles, please let your recruiter know or send a slack in the #hiring channel.
 
