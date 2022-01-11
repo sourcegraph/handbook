@@ -2,10 +2,10 @@
 
 ## Why have a vision and mission statement?
 
-- To provide direction — The statements serve as a “North Star” that keeps everyone clear on the goals and direction of the Brand Creative team. They tell everyone why we exist and what we’re doing today to take Sourcegraph, our work, and our audience where we all want to go in the future.
-- To provide boundaries — The statements give us a framework for thinking throughout our team that sets boundaries and guardrails to help us (and our internal partners) stay on the path to our preferred future.
-- To provide alignment — The statements get everyone on the same page when it comes to what the team does and how and why we do it, which leads to better effectiveness and efficiency.
-- To facilitate improvement — These statements help us understand what to measure and how to measure it so we can get better and better at what we do and how we serve.
+- To provide direction—The statements serve as a “North Star” that keeps everyone clear on the goals and direction of the Brand Creative team. They tell everyone why we exist and what we’re doing today to take Sourcegraph, our work, and our audience where we all want to go in the future.
+- To provide boundaries—The statements give us a framework for thinking throughout our team that sets boundaries and guardrails to help us (and our internal partners) stay on the path to our preferred future.
+- To provide alignment—The statements get everyone on the same page when it comes to what the team does and how and why we do it, which leads to better effectiveness and efficiency.
+- To facilitate improvement—These statements help us understand what to measure and how to measure it so we can get better and better at what we do and how we serve.
 
 ## Common challenges faced by in-house Brand & Creative teams†:
 

@@ -24,7 +24,7 @@ Later in 2021, will be using a tool called [Brandfolder](https://brandfolder.com
 
 Here is our top-level [Brand folder](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP?usp=sharing) in the Sourcegraph Team Drive.
 
-Here is our externally-accessible [Shared Drive](https://drive.google.com/drive/folders/0AB4h8L66C8qAUk9PVA) — _Sourcegraph-Brand Design (ext shared)_ — for when we need to share or receive files from vendors. After a design is approved in Asana, final files and working files should be uploaded to the appropriate vendor folder in the Shared Drive.
+Here is our externally-accessible [Shared Drive](https://drive.google.com/drive/folders/0AB4h8L66C8qAUk9PVA) — _Sourcegraph-Brand Design (ext shared)_—for when we need to share or receive files from vendors. After a design is approved in Asana, final files and working files should be uploaded to the appropriate vendor folder in the Shared Drive.
 
 ## Naming Convention
 

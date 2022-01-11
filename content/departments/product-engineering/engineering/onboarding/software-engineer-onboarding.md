@@ -20,10 +20,10 @@ As you're working on these tasks:
 
 - Optimize for learning: your priority is to soak up as much context as possible, not to ship something as fast as possible.
 - Aim to be as incremental as possible:
-  - Open a pull request as soon as you feel like you're ready for feedback or input on your code — you can make it a draft pull request if your code is still a work in progress.
-  - Favour splitting up your work in multiple pull requests every time it makes sense — shipping frequently is important.
+  - Open a pull request as soon as you feel like you're ready for feedback or input on your code—you can make it a draft pull request if your code is still a work in progress.
+  - Favour splitting up your work in multiple pull requests every time it makes sense—shipping frequently is important.
   - Ask yourself what tests are appropriate for the change you're tackling, and add them!
-- If you need help, remember everyone is here to [answer any question](../../../../company-info-and-process/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard) — ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
+- If you need help, remember everyone is here to [answer any question](../../../../company-info-and-process/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard)—ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
 
 As you complete these tasks, share your accomplishments in #progress 🙂
 
@@ -79,8 +79,8 @@ By now, you'll have shipped multiple improvements, paired with all members of yo
 - Discuss your plan with the team and your manager.
 - Get hacking!
 
-At Sourcegraph, you'll be expected to own the problems your team is solving, and work with the team to define solutions and plan your work — we think it's important that you start doing this early on!
+At Sourcegraph, you'll be expected to own the problems your team is solving, and work with the team to define solutions and plan your work—we think it's important that you start doing this early on!
 
 ## Give feedback on your onboarding
 
-You should be discussing your onboarding progress every week with your manager. At the end of week 6 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully — your answers will be very important to make sure our onboarding process is even better for future hires!
+You should be discussing your onboarding progress every week with your manager. At the end of week 6 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully—your answers will be very important to make sure our onboarding process is even better for future hires!

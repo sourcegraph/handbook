@@ -48,7 +48,7 @@ In addition to the [engineering principles and practices](../process/principles-
 
 Suppose a teammate is blocked by you on a question, your approval, or a pull request review. In that case, your top priority is always to unblock them, either directly or by helping them find someone else who can, even if this takes time away from your own or your team's priorities. If you're the one who is blocked, be sure to communicate that so that others can prioritize appropriately.
 
-Typically, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g., a new PR that depends on the first one). However, it's important to get a review ASAP in some scenarios — e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
+Typically, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g., a new PR that depends on the first one). However, it's important to get a review ASAP in some scenarios—e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
 
 Even when a teammate is not _blocked_ but _inconvenienced_ (because of follow-up work), please don't leave them hanging for extended periods. You should generally budget some amount of time every day for doing reviews.
 

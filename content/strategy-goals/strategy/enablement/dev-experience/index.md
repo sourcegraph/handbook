@@ -8,7 +8,7 @@ Make it so that every developer feels empowered to be productive in contributing
 
 ## Vision
 
-We want teammates and contributors to be delighted by the experience of working on Sourcegraph — to have a feeling so strong that it becomes a key contributor to their happiness and an asset in our recruitment of new teammates.
+We want teammates and contributors to be delighted by the experience of working on Sourcegraph—to have a feeling so strong that it becomes a key contributor to their happiness and an asset in our recruitment of new teammates.
 
 What is a delightful experience for developers exactly? While it's different for everyone, these experiences all share common traits: reproducibility, predictability, short feedback loop, previewing changes.
 

@@ -35,7 +35,7 @@ If someone is talking to Sales or CE and says they’re using the OSS version, t
 
 ### Sourcegraph Enterprise
 
-Most users, however, will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images — with or without a paid plan — are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
+Most users, however, will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images—with or without a paid plan—are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
 
 If someone follows the install instructions for our Docker, Docker Compose, or Kubernetes options ([reference](https://docs.sourcegraph.com/admin/install)), they will install Sourcegraph Enterprise.
 

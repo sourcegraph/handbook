@@ -151,7 +151,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
 - #gaming - For all gamers
 - #golf - To all those golf fans here
-- #great-bandname - “That’s a great bandname” — all the things we find that would make a great bandname
+- #great-bandname - “That’s a great bandname”—all the things we find that would make a great bandname
 - #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
 - #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
 - #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!
