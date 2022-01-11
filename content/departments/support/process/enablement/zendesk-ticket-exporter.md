@@ -40,7 +40,7 @@ A [Quick Video Tutorial](https://drive.google.com/file/d/1Jfq0o36vHB-yYqxMx-3fdU
 - Data is automatically populated from various sources. If any fields in the automated header are not filled automatically, check our usual data sources and fill manually.
 - Fill the fields marked “for manual CSE entry”:
   - For links, use the GitHub Markdown link format [Display Text](Link URL).
-  - The summary should be a concise 2-3 sentence explanation of the issue.
+  - The summary should be a concise 2–3 sentence explanation of the issue.
   - Troubleshooting steps should be a bulleted list of steps taken.
   - Resolution should be the root cause of the problem, and the action taken to rectify the issue.
   - Error logs should be trimmed to only include necessary lines, and all personally identifiable information should be redacted.

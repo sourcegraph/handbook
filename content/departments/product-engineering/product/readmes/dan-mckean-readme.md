@@ -20,7 +20,7 @@ We also have a 3 legged dog - Fender (10y). (He doesn't let either his age or hi
 
 ## How I like to work
 
-I'm an early bird. So once the kids are fed I get to work around 7:30-8am. But I'm in the UK, so most of my lovely colleagues aren't awake till my afternoon/evening. So my mornings are a mixture of bouts of focused solo work and reclaiming some time for myself.
+I'm an early bird. So once the kids are fed I get to work around 7:30–8am. But I'm in the UK, so most of my lovely colleagues aren't awake till my afternoon/evening. So my mornings are a mixture of bouts of focused solo work and reclaiming some time for myself.
 
 I tend to have meetings from about 3/4pm till about 8pm, though I try and break for dinner and bathtime with my family (bathtime 🛀 is chaos).
 

@@ -24,7 +24,7 @@ Instead of running everyone's impact reviews synchronously twice a year, your Im
 _In these review cycles, you will be asked to give and receive the following reviews:_
 
 - **Self-review:** reflect on your own contribution to your team and how you’ve made an impact.
-- **Peer review**: select 2-3 stakeholders who you’ve collaborated with on projects to give feedback on the impact you’ve made and how you’ve lived our values while collaborating.
+- **Peer review**: select 2–3 stakeholders who you’ve collaborated with on projects to give feedback on the impact you’ve made and how you’ve lived our values while collaborating.
 - **Upwards review:** review your manager, how they’ve supported your development, and what they can do to support you more effectively.
 - **Your manager reviewing you:** your manager will reflect on your contribution to your team and how you’ve made an impact and lived our values.
 
@@ -74,7 +74,7 @@ Timeline of stages:
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
 - **Self-review:** you will review yourself
-- **Peer review**: 2-3 stakeholders will review you
+- **Peer review**: 2–3 stakeholders will review you
 - **Upwards review:** you will review your manager
 - **Manager review:** your manager will review you
 
@@ -86,9 +86,9 @@ These cycles will run concurrently with your [Onboarding Feedback Milestones](..
 
 ### Selecting a peer reviewer
 
-**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
+**Teammates**: All teammates will select 2–3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
 
-When you choose these 2-3 reviewers, you should consider:
+When you choose these 2–3 reviewers, you should consider:
 
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
@@ -101,9 +101,9 @@ Managers will have the ability to edit the reviewers after teammates submit thei
 
 As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
 
-**Managers**: People managers will only need to select 1-2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
+**Managers**: People managers will only need to select 1–2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
 
-Each review should take an average of 30-45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
+Each review should take an average of 30–45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
 
 _As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to Cassie Melani on Slack or reach out on our #impact-reviews Slack channel.
 
@@ -123,7 +123,7 @@ In the event that you’d like to conduct an informal Impact review, [use this r
 
 There are three components to feedback: giving it to others, receiving it yourself, and seeking it out. Keep in mind that feedback is a muscle, and works best when you regularly strengthen it by giving and receiving it often. The concept you will be using in this informal review process is around “seeking feedback” which will help you inform your own working style, positive trends, and areas for improvement.
 
-We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2-3 peers as 30-45 minute calendar invites.
+We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2–3 peers as 30-45 minute calendar invites.
 
 In all instances, we recommend documenting these items in [this Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) or your 1:1 GoogleDoc which you share with your manager:
 

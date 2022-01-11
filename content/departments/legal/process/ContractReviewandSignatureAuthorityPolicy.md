@@ -55,7 +55,7 @@ SLAs - Turnaround time for legal review:
 
 ### Vendor contracts
 
-1. Purpose of the contract (1-2 sentences)
+1. Purpose of the contract (1–2 sentences)
 1. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
 1. Approximate contract value
 1. Budget: Confirm whether the contract is included in the budget. Attach budget file referencing where the spend is listed.
@@ -70,7 +70,7 @@ SLAs - Turnaround time for legal review:
 
 ### Partner contracts
 
-1. Purpose of the contract (1-2 sentences)
+1. Purpose of the contract (1–2 sentences)
 1. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
 1. Fees: If the contract includes fees payable by or to Sourcegraph, include written approval from the VP Budget Owner
 1. Marketing rights: Propose any changes to the marketing, publicity, and logo terms or confirm that you have no changes

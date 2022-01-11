@@ -6,7 +6,7 @@ To combat the perception that the only viable solution for a fast-growing startu
 
 ## Definition and expectation of an early-career engineer
 
-An early-career engineer is anyone who has no prior or limited (loosely defined as less than 12-24 months) professional work experience in an engineering-focused role. An early-career engineer could be someone who recently entered or reentered the job market, just finished their studies, or is transitioning into a new career.
+An early-career engineer is anyone who has no prior or limited (loosely defined as less than 12–24 months) professional work experience in an engineering-focused role. An early-career engineer could be someone who recently entered or reentered the job market, just finished their studies, or is transitioning into a new career.
 
 The initial expectations of a fully-onboarded early-career engineer are [defined in the IC1 career level](https://docs.google.com/document/d/1Zb7zCZUFkxP6vS_H5Y24wPK7MajA51DqV6gpsvDMMnU/edit#). In addition to these, we also expect all engineers to exhibit [our values](../../../../company-info-and-process/values/index.md).
 

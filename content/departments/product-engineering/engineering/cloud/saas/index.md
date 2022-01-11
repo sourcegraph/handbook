@@ -10,7 +10,7 @@ TBA. More can be found in our [Cloud Vision](../index.md#vision)
 
 Our detailed Sourcegraph Cloud roadmap is currently internal-only until our public announcement later this year. Our Q4 OKRs are publicly available [here](../index.md#okrs-fy22q4).
 
-Beyond Q4, our goals over the next 12-24 months include:
+Beyond Q4, our goals over the next 12–24 months include:
 
 - Provide a delightful self-service onboarding and self-service payments capabilities for new developers and new teams to enable a true Software-as-a-Service experience for customers who prefer it
 - Provide in-depth administration capabilities to unlock adoption of Sourcegraph Cloud by large enterprises

@@ -73,7 +73,7 @@ All departments are likely to have some or all of the below universal interview 
 ## Peer Interview
 
 - Interviewer(s): the other members of the team for which you're interviewing.
-- Duration: 30-45 minutes.
+- Duration: 30–45 minutes.
 - Details: during the peer interview, your potential future colleagues will assess if you will be a value-add to the team, take and give constructive criticism, and be an overall supportive team member. This is also an opportunity for you to ask questions directed to your potential future peers.
 - Example questions:
   - Tell us about the best team you've ever been a part of.
@@ -82,7 +82,7 @@ All departments are likely to have some or all of the below universal interview 
 ## Cross-functional Team Collaboration Interview
 
 - Interviewer(s): people outside of your respective department who you would cross-collaborate with regularly.
-- Duration: 30-60 minutes.
+- Duration: 30–60 minutes.
 - Details: during this stage of the interview process, you will meet with members of another team with whom you would partner regularly. The goal of this interview is to understand how you communicate and collaborate with cross-functional partners within Sourcegraph.
 - Example questions:
   - Tell us about a recent project you worked on where you collaborate with people outside of your department
@@ -91,7 +91,7 @@ All departments are likely to have some or all of the below universal interview 
 ## Leadership Interview
 
 - Interviewer: a member of the leadership team for the department.
-- Duration: 30-45 minutes.
+- Duration: 30–45 minutes.
 - Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values. They will also answer any final questions you may have! This is generally the last stage in our interview process.
 - Example questions:
   - Coming soon
@@ -175,7 +175,7 @@ A few pointers:
 
 ### BizOps: Product Analyst take-home project
 
-- This exercise should take 2-3 hours to complete; please don’t take more than that!
+- This exercise should take 2–3 hours to complete; please don’t take more than that!
 - Getting setup: You’ll be using Mode Analytics public datasets to complete this take-home project. Here are the steps to getting into the SQL workspace:
 - 1.Create an account if you don’t already have one
 - 2.Click the green+in the top right (‘Create report’)to access the workspace
@@ -251,7 +251,7 @@ We’ll conduct the interview in the following format:
 
 ### Working Session: Customer Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with a Customer Engineer on the team and one of the CE leaders. This working session is intended to help us understand how you approach customers and customer meetings. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
+For this interview round, you will have an hour-long working session with a Customer Engineer on the team and one of the CE leaders. This working session is intended to help us understand how you approach customers and customer meetings. The working session will cover 4 prompts, spending approximately 10–12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
 
 A summary of the 4 prompts are provided below:
 
@@ -262,12 +262,12 @@ A summary of the 4 prompts are provided below:
 
 The agenda for the meeting will go as follows:
 
-- 0-2 mins: Intros and recap of this interview stage
-- 2-14 mins: Prompt 1
-- 14-26 mins: Prompt 2
-- 26-38 mins: Prompt 3
-- 38-50 mins: Prompt 4
-- 50-60 mins: Feedback and Q&A
+- 0–2 mins: Intros and recap of this interview stage
+- 2–14 mins: Prompt 1
+- 14–26 mins: Prompt 2
+- 26–38 mins: Prompt 3
+- 38–50 mins: Prompt 4
+- 50–60 mins: Feedback and Q&A
 
 **Important Note**: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback.
 
@@ -294,7 +294,7 @@ A prospect (Director of Developer Productivity) came in last year and talked to 
 - **Use case:** primary use case is search and then Batch Changes. She wants 2 sets of users. Power users group with Enterprise features mostly search and batch and 2nd group just for daily users using search and intel. Roughly around 250 devs
 - **Codehost**: Primarily GitLab but they have GitLab as well just for open source projects
 - **# of repos:** 1500 (most of them not active) 300 active. 350,000 LOC for 5 repos
-- **LOC**: Roughly 3-4M
+- **LOC**: Roughly 3–4M
 - **Lang**: Go (adding more Go into their code base), Python 60%, JS 20% and PHP, Kotlin, and Swift rest 20%
 - **Architecture**: microservices.
 - **Deployment setup**: Kubernetes
@@ -318,7 +318,7 @@ You'll meet with two individual contributors on the CE team to learn about how y
 
 ### Working Session: Leadership Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10-12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
+For this interview round, you will have an hour-long working session with the Customer Engineering leadership team. This working session is intended to help us understand how you approach both organizational and customer scenarios as a leader. The working session will cover 4 prompts, spending approximately 10–12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
 
 A summary of the 4 prompts are provided below:
 
@@ -328,16 +328,16 @@ A summary of the 4 prompts are provided below:
 
 3. Change Management: We are in a hyper-growth phase and there are several key initiatives that will likely be rolling out over the course of the next several quarters. A key responsibility of this role is to align and train your team, introduce, implement, and manage organizational change, and anticipate emerging needs to iterate quickly. One such initiative we expect to need to implement across the CE organization in the near future is introducing a subset of individuals with the technical skills to be able to test/validate customer edge cases prior to progressing a deal forward. This is outside the current CE responsibilities today and Product and Engineering believe that this is best served from within CE as the team responsible for the technical success of the customer. See below for more context on this prompt. How would you approach this change with your team? How will you uncover and handle objections from within the team? What will you do personally to oversee this broad initiative?
 
-4. Your 30-60-90 Day Plan: What would your personal 30 / 60 / 90 day plan be for joining the team as a leader? What would you personally need to ensure success executing against this 30 / 60 / 90 day plan? How will you communicate and ensure alignment with our leadership team during your 30 / 60 / 90 day plan?
+4. Your 30–60–90 Day Plan: What would your personal 30 / 60 / 90 day plan be for joining the team as a leader? What would you personally need to ensure success executing against this 30 / 60 / 90 day plan? How will you communicate and ensure alignment with our leadership team during your 30 / 60 / 90 day plan?
 
 The agenda for the meeting will go as follows:
 
-- 0-2 mins: Intros and recap of this interview stage
-- 2-14 mins: Prompt 1
-- 14-26 mins: Prompt 2
-- 26-38 mins: Prompt 3
-- 38-50 mins: Prompt 4
-- 50-60 mins: Feedback and Q&A
+- 0–2 mins: Intros and recap of this interview stage
+- 2–14 mins: Prompt 1
+- 14–26 mins: Prompt 2
+- 26–38 mins: Prompt 3
+- 38–50 mins: Prompt 4
+- 50–60 mins: Feedback and Q&A
 
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes - whichever you feel is most appropriate.
 
@@ -378,7 +378,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 - Interviewers: two members of the team you are interviewing for
 - Duration: 60-minutes
-- Details: We will discuss 1-3 of the most complex problems you have solved with code or the most complex codebases you have worked with.
+- Details: We will discuss 1–3 of the most complex problems you have solved with code or the most complex codebases you have worked with.
 
 ## Marketing
 
@@ -471,7 +471,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - First, we'd like to cover some general stuff:
   - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
   - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me and Debbie, etc.)
-- Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60-90 minute Q1 kickoff this February.
+- Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60–90 minute Q1 kickoff this February.
 - Q1 company kickoff
 - This of course takes hours of planning, but we’re just looking for a 60 minute conversation total (including the general stuff above). _You don't need to put together a full plan!_
 - Some (hypothetical) updates to account for:
@@ -525,7 +525,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 #### Meet your team
 
-- Interviewer(s): Depending on the org, 2-3 [Product Managers](../../product-engineering/product/index.md#product).
+- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../product-engineering/product/index.md#product).
 - Duration: 45 min
 - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
 
@@ -672,7 +672,7 @@ A great resource on structure (including some great walkthrough videos) from [Be
 #### RSD team collaboration with Sales Development
 
 - Interviewer(s): Head of Sales Development.
-- Duration: 30-45 minutes.
+- Duration: 30–45 minutes.
 - Details: during this stage in the interview process, you meet with our Head of SDR to discuss your approach to prospecting & pipe gen, and your experience partnering with the SDR team. Our team may share current strategies and challenges to understand how your past experience can help the team achieve success.
 
 ## Talent

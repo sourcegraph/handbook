@@ -163,9 +163,9 @@ Zendesk is set to pacific timezone to align with our states SLAs.
 
 ### Schedule and SLAs
 
-The schedule in Zendesk reflects our SLA hours and is set to 9-5 pacific, Monday - Friday. This allows us to use the SLA timer to reflect how much time we have before we hit our SLA (if relevant for that customer). The SLA clock is 8 business hours and therefore adds time if a case comes in after hours, on the weekend, or on a holiday. Currently we mark the following as holidays in Zendesk:
+The schedule in Zendesk reflects our SLA hours and is set to 9–5 pacific, Monday - Friday. This allows us to use the SLA timer to reflect how much time we have before we hit our SLA (if relevant for that customer). The SLA clock is 8 business hours and therefore adds time if a case comes in after hours, on the weekend, or on a holiday. Currently we mark the following as holidays in Zendesk:
 
-- December 24-25 for Christmas
+- December 24–25 for Christmas
 - January 1 for New Year
 
 Since we are global team, we do not add every holiday that everyone celebrates. We only add the holidays where the majority/all of the team is unavailable.

@@ -20,7 +20,7 @@ These data points are also listed in the CS [managed instance request template](
 | +$388/mo min.  | VM instance type - [see "Working out the VM type required" below](#working-out-the-vm-type-required) |
 | +$1.54/GB      | For each GB of network traffic to/from the instance.                                                 |
 
-Thus, the smallest managed instance supporting around ~300 repositories and ~100 users costs around $726/mo. Add enough buffer to the pricing to account for some variation in usage - for example, an estimate of $10-15k for this instance.
+Thus, the smallest managed instance supporting around ~300 repositories and ~100 users costs around $726/mo. Add enough buffer to the pricing to account for some variation in usage - for example, an estimate of $10–15k for this instance.
 
 ### Working out the VM type required
 

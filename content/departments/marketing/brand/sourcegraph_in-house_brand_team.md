@@ -13,7 +13,7 @@ _1. Volume, velocity and variety of creative work mushrooms._ According to a rec
 
 _2. Creative briefs and project intake lead the list of process challenges._ The creative brief and project intake – the first steps in the creative process – are also the biggest challenges in creative workflow (42%). Some 67% of respondents said obtaining the necessary information just to begin work was difficult or very difficult.
 
-_3. Making time and headspace for creativity is squeezed by administrative work._ Most respondents (46%) said they spend between 3-7 hours per week on administrative tasks; about one-third (24%) said they spend seven or more hours per week on admin tasks. That’s about one full day every week, or 20% of creative time spent annually.
+_3. Making time and headspace for creativity is squeezed by administrative work._ Most respondents (46%) said they spend between 3–7 hours per week on administrative tasks; about one-third (24%) said they spend seven or more hours per week on admin tasks. That’s about one full day every week, or 20% of creative time spent annually.
 
 [†2018 In-House Creative Management Report, InSource/InMotionNo.](https://www.inmotionnow.com/project-workflow/2018-in-house-creative-management-report/)
 

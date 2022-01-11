@@ -11,9 +11,9 @@
 
 ## Current time and days:
 
-- Option A) CS Collab time! 13:00 UTC edition (6-7am pst) Monday, Wednesday and Thursday
-- Option B) CS Collab time! 16:00 UTC edition (9-10am pst) Monday and Wednesday
-- Option C) CS Collab time! 20:00 UTC edition (1pm-2pm pst) Tuesday and Thursday
+- Option A) CS Collab time! 13:00 UTC edition (6–7am pst) Monday, Wednesday and Thursday
+- Option B) CS Collab time! 16:00 UTC edition (9–10am pst) Monday and Wednesday
+- Option C) CS Collab time! 20:00 UTC edition (1pm–2pm pst) Tuesday and Thursday
 
 ## How to participate:
 

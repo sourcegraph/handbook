@@ -105,7 +105,7 @@ The list of things we could be doing is endless; as is the list of things we’d
 
 In the current model, CEs aren't able to work on valuable projects that help many accounts (eg, building custom extensions or batch changes for prospects/customers, writing materials to help our champions grow usage internally, etc, etc) because assigned accounts take up all of our time and focus. As we acquire more customers, it is even more valuable to be able to work on projects that help many accounts at once.
 
-In the current model, the CE team can't easily "surge" to provide a lot of help to a single customer or in a single area, because every CE is already near capacity (20-30 assigned accounts per CE). As we encounter more complex customers and expand our use cases, the peak workload of even a single account will often exceed what a CE can provide even today.
+In the current model, the CE team can't easily "surge" to provide a lot of help to a single customer or in a single area, because every CE is already near capacity (20–30 assigned accounts per CE). As we encounter more complex customers and expand our use cases, the peak workload of even a single account will often exceed what a CE can provide even today.
 
 In the current model and in our current state, a customer paying us $1,800 a year may receive the same (or worse, more) time and attention than a customer paying us more than $200,000 a year. We believe that the ~80% of customers that are not "strategic" and their needs are better served by our team working on projects that indirectly help them (along with other teams, such as Customer Support) versus having only an assigned (but overloaded) CE to directly help them.
 
@@ -144,7 +144,7 @@ A subset of the CE team will assume a strategic account focus; these individuals
 
 ##### Project-based Focus
 
-CEs have already begun and delivered on several important internal project work (customer-facing demo recordings, use-case based demo scripts, customer-facing deployment guides). All CEs, based on their existing work load and customer needs, have opportunities to contribute and lead projects. This is why 1-2 week sprints are critical framing for project work (more below). CE leadership will compile from cross-functional teams an initial set of projects and define each project against the templated criteria below. CEs, based on their availability, will be assigned to lead individual projects and work with the applicable stakeholders to get inputs, reviews / approvals, etc.
+CEs have already begun and delivered on several important internal project work (customer-facing demo recordings, use-case based demo scripts, customer-facing deployment guides). All CEs, based on their existing work load and customer needs, have opportunities to contribute and lead projects. This is why 1–2 week sprints are critical framing for project work (more below). CE leadership will compile from cross-functional teams an initial set of projects and define each project against the templated criteria below. CEs, based on their availability, will be assigned to lead individual projects and work with the applicable stakeholders to get inputs, reviews / approvals, etc.
 
 As we continue CE hiring and onboarding in Q2 and beyond, and as we assess both the needs and impact of this project work for our teams and our customers, we will gauge whether there exists enough need to have CEs be exclusively dedicated to project work in the future.
 

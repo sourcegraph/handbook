@@ -10,7 +10,7 @@ Our schedule also makes it clear when folks on the team have dedicated heads-dow
 
 Our schedule is reflected in the working hours set in our calendars and what day we reserve for our focus day.
 
-_Note: we can only have 3-4 folks with the same focus day. If you don't see the day you wanted, talk to your manager and we can see if a change is possible, otherwise, please select another day._
+_Note: we can only have 3–4 folks with the same focus day. If you don't see the day you wanted, talk to your manager and we can see if a change is possible, otherwise, please select another day._
 
 | Team member | Local hours | UTC hours     | Pacific hours | Focus day |
 | ----------- | ----------- | ------------- | ------------- | --------- |

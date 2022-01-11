@@ -1,6 +1,6 @@
 # Software engineer onboarding
 
-## Weeks 1-3
+## Weeks 1–3
 
 ### Learn about our culture and values
 
@@ -31,7 +31,7 @@ As you complete these tasks, share your accomplishments in #progress 🙂
 
 Reach out to every member of your direct team, and set up a two-hour pairing session with them. These sessions will be an opportunity to get to know your teammates, understand what they're working on and why, and learn more about our codebase and development flows!
 
-Take the first 20-30 minutes of the session to have an unstructured, introductory chat. Then, start hacking! Your teammate will set up a [live share](https://visualstudio.microsoft.com/services/live-share/) and walk you through what they're currently working on. Ask as many questions as possible, to try to understand:
+Take the first 20–30 minutes of the session to have an unstructured, introductory chat. Then, start hacking! Your teammate will set up a [live share](https://visualstudio.microsoft.com/services/live-share/) and walk you through what they're currently working on. Ask as many questions as possible, to try to understand:
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
@@ -60,7 +60,7 @@ We have many resources available to help you onboard and gain context:
   - Read our [Styling UI](https://docs.sourcegraph.com/dev/background-information/web/styling) documentation to understand our CSS stack and the constraints we work within when styling UI. We highly recommend reading this before you start working on a frontend task, as it will make you more effective.
   - Read our [TypeScript programming patterns](https://docs.sourcegraph.com/dev/background-information/languages/typescript#typescript-programming-patterns) to understand what TypeScript patterns we follow that are not easily detected with lint rules.
 
-## Weeks 4-6
+## Weeks 4–6
 
 ### Reading
 

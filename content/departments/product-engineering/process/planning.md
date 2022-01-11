@@ -155,6 +155,6 @@ Objectives and Key Results (OKRs) are how we [define success](#good-plans-are-cl
 
 Rough timeline:
 
-1. Start drafing OKRs 3-4 weeks before the quarter starts.
+1. Start drafing OKRs 3–4 weeks before the quarter starts.
 2. Finish OKRs before the new quarter starts.
 3. [Report progress](reporting-progress.md) on OKRs throughout the quarter.

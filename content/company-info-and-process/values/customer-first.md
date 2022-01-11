@@ -35,7 +35,7 @@ This is how this all fits together in terms of workflow:
   - To make a feature request
   - Help troubleshooting something not working correctly
 
-Currently, CEs are responsible for answering all how-to questions and handling all feature requests (whether these come up pre- or post-sales). Similarly, CS is responsible for troubleshooting something not working correctly (whether these come up pre- or post-sales), taking into account the prioritization considerations as provided by CEs, and adhering to our contractual [SLAs](../../departments/support/index.md#slas) post-sales and 1 hour internal SLA response time pre-sales between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (this will expand to 24/5 support as the team grows over the course of FY22). CS will also take on responsibility for how-to questions and feature requests for non-strategic customers in the future.
+Currently, CEs are responsible for answering all how-to questions and handling all feature requests (whether these come up pre- or post-sales). Similarly, CS is responsible for troubleshooting something not working correctly (whether these come up pre- or post-sales), taking into account the prioritization considerations as provided by CEs, and adhering to our contractual [SLAs](../../departments/support/index.md#slas) post-sales and 1 hour internal SLA response time pre-sales between 9:00–0:00 UTC (2am–5pm PT) Monday-Friday (this will expand to 24/5 support as the team grows over the course of FY22). CS will also take on responsibility for how-to questions and feature requests for non-strategic customers in the future.
 
 A few notes for CE:
 

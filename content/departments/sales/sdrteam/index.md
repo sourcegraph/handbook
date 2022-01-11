@@ -162,7 +162,7 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
   - CE leader (Engineering Leader)
   - Current manager (no role, observer only)
 - 1 Hour presentation that covers the following:
-  - Why are you ready to be an AE at Sourcegraph? 1-2 slides (5 mins)
+  - Why are you ready to be an AE at Sourcegraph? 1–2 slides (5 mins)
     - About you
     - Why sales?
   - Performance in SDR role to date 2~ slides (10 mins)
