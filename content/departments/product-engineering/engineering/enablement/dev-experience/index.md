@@ -111,7 +111,7 @@ To prepare a new issue of the newsletter, create a PR for the latest newsletter 
 
 Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the rendered newsletter from the handbook (you can set this up locally with `yarn dev`) into a draft newsletter. You will need to remove the background color from the pasted content, but the formatting should otherwise just work.
 
-Verify the output looks good, and email it to engineering-team-status@sourcegraph.com.
+Verify the output looks good, and email it to engineering-team@sourcegraph.com.
 
 ## Growth plan
 
