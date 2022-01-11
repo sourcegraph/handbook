@@ -70,6 +70,8 @@ eric_fritz:
 eric_brody-moore:
   name: Eric Brody-Moore
   role: Business Operations Manager
+  reports_to: vp_operations
+  manager_role_slug: business_operations_manager
   location: Nashville, TN, USA 🇺🇸
   github: ebrodymoore
   email: ericbm@sourcegraph.com
@@ -99,6 +101,7 @@ vanesa_ortiz:
   pronouns: she/her
   pronunciation: '/[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
   role: Community Advocate
+  reports_to: director_community
   location: San Francisco, CA, USA 🇺🇸
   github: vanesa
   email: vanesa@sourcegraph.com
@@ -152,6 +155,7 @@ dan_adler:
   name: Dan Adler
   pronouns: he/him
   role: VP Operations
+  manager_role_slug: vp_operations
   location: San Francisco, CA, USA 🇺🇸
   github: dadlerj
   email: dan@sourcegraph.com
@@ -179,6 +183,7 @@ geoffrey_gilmore:
 farhan_attamimi:
   name: Farhan Attamimi
   role: Senior Data Operations Analyst
+  reports_to: vp_operations
   location: Singapore 🇸🇬
   github: attfarhan
   email: farhan@sourcegraph.com
@@ -290,6 +295,7 @@ christine_lovett:
   name: Christine Lovett
   pronouns: she/her
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Baltimore MD, USA 🇺🇸
   github: christinelovett
   email: christine@sourcegraph.com
@@ -443,6 +449,7 @@ kacie_jenkins:
   name: Kacie Jenkins
   pronouns: she/her
   role: VP of Marketing
+  manager_role_slug: vp_marketing
   location: Sea Ranch, CA, USA 🇺🇸
   email: kacie@sourcegraph.com
   links: '[@mskaciej](https://twitter.com/mskaciej), [LinkedIn](https://www.linkedin.com/in/kaciejenkins)'
@@ -452,6 +459,7 @@ jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Seattle, WA, USA 🇺🇸
   github: justdueck
   email: jonah@sourcegraph.com
@@ -502,7 +510,8 @@ owen_convey:
 virginia_ulrich:
   name: Virginia Ulrich
   pronouns: she/they
-  role: Head of Customer Support
+  role: Director of Customer Support
+  manager_role_slug: director_customer_support
   location: Portland, Oregon, United States 🇺🇸
   github: virginiaulrich
   email: virginia@sourcegraph.com
@@ -525,6 +534,8 @@ tommy_o_donnell:
   name: Tommy O Donnell
   pronouns: he/him
   role: Manager, Financial Planning & Analysis
+  reports_to: vp_operations
+  manager_role_slug: manager_financial_planning
   location: Tralee, County Kerry, Ireland 🇮🇪
   github: TommyODonnell
   email: tommy@sourcegraph.com
@@ -546,6 +557,7 @@ mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -576,6 +588,7 @@ emily_chapman:
   name: Emily Chapman
   pronouns: she/her
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Portland, OR, USA, 🇺🇸
   github: emchap
   email: emily@sourcegraph.com
@@ -587,6 +600,8 @@ erica_lindberg:
   name: Erica Lindberg
   pronouns: she/her
   role: Director of Content Strategy
+  reports_to: vp_marketing
+  manager_role_slug: director_content_strategy
   location: Nederland, CO, USA 🇺🇸
   github: content-hacker
   email: erica@sourcegraph.com
@@ -607,6 +622,8 @@ andy_schumeister:
   name: Andy Schumeister
   pronouns: he/him
   role: Director of Product Marketing
+  reports_to: vp_marketing
+  manager_role_slug: director_product_marketing
   location: Minneapolis, MN, USA 🇺🇸
   github: abschu
   email: andy@sourcegraph.com
@@ -698,6 +715,7 @@ tj_devries:
 manuel_ucles:
   name: Manuel Ucles
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Phoenix, AZ, USA 🇺🇸
   github: mucles
   email: manuel@sourcegraph.com
@@ -770,6 +788,8 @@ tammy_zhu:
   name: Tammy Zhu
   pronouns: she/her
   role: Director of Legal
+  reports_to: vp_operations
+  manager_role_slug: director_legal
   location: San Francisco, CA, USA 🇺🇸
   email: tammy@sourcegraph.com
   description: Tammy joins Sourcegraph after years of counseling technology companies on matters including products, litigation, commercial contracts, data privacy, M&A, startup financing, and regulatory filings and investigations. She enjoys creative writing, reading fiction, solo traveling, watching basketball, and baking sourdough during the pandemic.
@@ -778,6 +798,7 @@ warren_gifford:
   name: Warren Gifford
   pronouns: he/him
   role: Application Engineer
+  reports_to: customer_support_manager_1
   location: Portland, OR, USA 🇺🇸
   github: DaedalusG
   email: warren@sourcegraph.com
@@ -799,6 +820,7 @@ giselle_northy:
   name: Giselle Northy
   pronouns: she/her
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Sherwood, OR, USA 🇺🇸
   github: northyg
   email: giselle@sourcegraph.com
@@ -821,6 +843,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -860,6 +883,7 @@ beatrix_woo:
 stompy_mwendwa:
   name: Stompy Mwendwa
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Nairobi, Kenya 🇰🇪
   github: airamare01
   email: stompy@sourcegraph.com
@@ -890,6 +914,8 @@ sarah_reece:
   name: Sarah Reece
   pronouns: she/her
   role: Director, Demand Generation
+  reports_to: vp_marketing
+  manager_role_slug: director_demand_generation
   location: Winston Salem, NC, USA
   github: sarah-reece
   email: sarah@sourcegraph.com
@@ -900,6 +926,7 @@ steph_hay:
   name: Steph Hay
   pronouns: she/her
   role: Senior Business Operations Analyst
+  reports_to: vp_operations
   location: Los Angeles, CA, USA 🇺🇸
   github: stephmhay
   email: steph@sourcegraph.com
@@ -910,6 +937,7 @@ kelsey_brown:
   name: Kelsey Brown
   pronouns: she/her
   role: Senior Business Operations Analyst
+  reports_to: vp_operations
   location: Arlington, VA, USA 🇺🇸
   github: kelsey-brown
   email: kelsey@sourcegraph.com
@@ -928,6 +956,8 @@ samson_goddy:
   name: Samson Goddy
   pronouns: he/him
   role: Director of Community
+  reports_to: vp_marketing
+  manager_role_slug: director_community
   location: Port Harcourt, Nigeria 🇳🇬
   github: samswag
   email: samson@sourcegraph.com
@@ -938,6 +968,7 @@ fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
   role: Project Coordinator, Brand
+  reports_to: director_demand_generation
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
   email: fabiana@sourcegraph.com
@@ -948,6 +979,7 @@ kendrick_morris:
   name: Kendrick Morris
   pronouns: he/him
   role: Finance and Operations Analyst
+  reports_to: manager_financial_planning
   location: San Francisco, CA USA 🇺🇸
   github: kmorris50
   email: kendrick@sourcegraph.com
@@ -958,6 +990,8 @@ christy_haragan:
   name: Christy Haragan
   pronouns: she/her
   role: Director of Customer Engineering - International
+  reports_to: vp_customer_engineering
+  manager_role_slug: director_customer_engineering_international
   location: London, UK 🇬🇧
 
   email: christy@sourcegraph.com
@@ -968,6 +1002,8 @@ rebecca_dodd:
   name: Rebecca Dodd
   pronouns: she/her
   role: Senior Managing Editor
+  reports_to: director_content_strategy
+  manager_role_slug: senior_managing_editor
   location: Bristol, UK 🇬🇧
 
   email: rebecca@sourcegraph.com
@@ -1028,6 +1064,8 @@ rebecca_rissinger:
   name: Rebecca Rissinger
   pronouns: she/her
   role: Manager, Marketing Operations
+  reports_to: director_demand_generation
+  manager_role_slug: manager_marketing_operations
   location: Red Bank, New Jersey, USA
   github: rebecca-rissinger
   email: Rebecca.Rissinger@sourcegraph.com
@@ -1049,6 +1087,7 @@ jake_sorensen:
   name: Jake Sorensen
   pronouns: He/Him
   role: Programs Lead, Demand Gen Campaigns
+  reports_to: director_demand_generation
   location: Los Angeles, CA, USA 🇺🇸
   github: jakevsen
   email: jake@sourcegraph.com
@@ -1066,7 +1105,8 @@ coury_clark:
 aimee_menne:
   name: Aimee Menne
   pronouns: she/her
-  role: Director of Customer Engineering
+  role: VP of Customer Engineering
+  manager_role_slug: vp_customer_engineering
   location: Denver, CO USA 🇺🇸
   github: amenne
   email: aimee@sourcegraph.com
@@ -1107,6 +1147,7 @@ prosper_otemuyiwa:
   name: Prosper Otemuyiwa
   pronouns: he/him
   role: Staff Developer Evangelist
+  reports_to: director_community
   location: Lagos, Nigeria 🇳🇬
   github: unicodeveloper
   email: prosper@sourcegraph.com
@@ -1147,6 +1188,8 @@ nicky_van_maanen:
   name: Nicky Van Maanen
   pronouns: she/her
   role: Tech Ops Manager
+  reports_to: vp_operations
+  manager_role_slug: tech_ops_manager
   location: Costa Mesa, California, USA 🇺🇸
   github: NickyVM
   email: nicky@sourcegraph.com
@@ -1157,6 +1200,7 @@ debbie_johnstone:
   name: Debbie Johnstone
   pronouns: she/her
   role: VP of People
+  reports_to: vp_operations
   manager_role_slug: vp_people
   location: Amsterdam, Netherlands 🇳🇱
 
@@ -1168,6 +1212,7 @@ nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Denver, Colorado, USA 🇺🇸
 
   email: nate.maynard@sourcegraph.com
@@ -1178,6 +1223,8 @@ jenny_bergen:
   name: Jenny Bergen
   pronouns: she/her
   role: Manager, Content Marketing
+  reports_to: director_content_strategy
+  manager_role_slug: manager_content_marketing
   location: Denver, Colorado, USA 🇺🇸
 
   email: jenny@sourcegraph.com
@@ -1206,6 +1253,7 @@ gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_1
   location: Los Angeles, CA, USA 🇺🇸
   github: gabtorre
   email: gabe@sourcegraph.com
@@ -1226,6 +1274,7 @@ amber_furbush:
   name: Amber Furbush
   pronouns: She/her
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Commerce City, CO, US
   github: amberfurbush0317
   email: amber@sourcegraph.com
@@ -1236,6 +1285,7 @@ ben_gordon:
   name: Ben Gordon
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Chicago IL, USA 🇺🇸
   github: benjaminwgordon
   email: ben.gordon@sourcegraph.com
@@ -1246,6 +1296,7 @@ donavon_ellison:
   name: Donavon Ellison
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Acworth, GA USA
   github: donavonelli
   email: don@sourcegraph.com
@@ -1256,6 +1307,7 @@ jason_harris:
   name: Jason Harris
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Los Angeles, CA USA
   github: jasonhawkharris
   email: jason.harris@sourcegraph.com
@@ -1266,6 +1318,7 @@ michael_bali:
   name: Michael Bali
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_1
   location: Lagos, Nigeria 🇳🇬
   github: topebali
   email: michael.bali@sourcegraph.com
@@ -1276,6 +1329,7 @@ alex_jean-baptiste:
   name: Alex Jean-Baptiste
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_2
   location: Atlanta, Georgia USA 🇺🇸
   github: alexAtSourcegraph
   email: alex.jean-baptiste@sourcegraph.com
@@ -1287,6 +1341,7 @@ kelvin_lee:
   name: Kelvin Lee
   pronouns: He/Him
   role: Application Engineer
+  reports_to: customer_support_manager_1
   location: (Northern) California, USA 🇺🇸
   email: kelvin@sourcegraph.com
   pronunciation: '[Name pronunciation](https://www.howtopronounce.com/kelvin)'
@@ -1296,6 +1351,7 @@ mariam_adedeji:
   name: Mariam Adedeji
   pronouns: She/Her
   role: Application Engineer
+  reports_to: customer_support_manager_1
   location: Lagos, Nigeria 🇳🇬
   github: rhiam
   email: mariam@sourcegraph.com
@@ -1306,6 +1362,7 @@ alex_isken:
   name: Alex Isken
   pronouns: He/Him
   role: Product Marketing Manager
+  reports_to: director_product_marketing
   location: Milwaukee, WI, USA 🇺🇸
   github: iskyOS
   email: alex.isken@sourcegraph.com
@@ -1326,6 +1383,7 @@ bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
   role: Senior Customer Engineer
+  reports_to: vp_customer_engineering
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
   email: bill.caplan@sourcegraph.com
@@ -1346,6 +1404,7 @@ shawn_king:
   name: Shawn King
   pronouns: He/Him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Rochester, MN USA 🇺🇸
   github: shawnplusplus
   email: shawn@sourcegraph.com
@@ -1355,6 +1414,7 @@ kristen_sundberg:
   name: Kristen Sundberg
   pronouns: She/Her
   role: Senior Social Media Manager
+  reports_to: director_global_communications
   location: Boston, MA USA 🇺🇸
   github: kristen-sundberg
   email: kristen@sourcegraph.com
@@ -1373,6 +1433,8 @@ amie_rotherham:
   name: Amie Rotherham
   pronouns: She/Her
   role: Director of Global Communications
+  reports_to: vp_marketing
+  manager_role_slug: director_global_communications
   location: Toronto, Canada 🇨🇦
   github: amieroth
   email: amie.rotherham@sourcegraph.com
@@ -1383,6 +1445,7 @@ max_wiederholt:
   name: Max Wiederholt
   pronouns: He/Him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Mountain View, CA, USA 🇺🇸
   github: maaaaaaaax
   email: max.wiederholt@sourcegraph.com
@@ -1410,6 +1473,7 @@ victoria_yunger:
   name: Victoria Yunger
   pronouns: She/Her
   role: Product Marketing Lead, Enterprise
+  reports_to: director_product_marketing
   location: San Francisco, CA, USA 🇺🇸
   github: thisisvic
   email: victoria.yunger@sourcegraph.com
@@ -1441,6 +1505,7 @@ rami_hamdan:
   name: Rami Hamdan
   pronouns: they/them
   role: Senior Customer Engineer
+  reports_to: vp_customer_engineering
   location: Albuquerque, NM from Palestine 🇵🇸
   github: ZrnH
   email: rami@sourcegraph.com
@@ -1471,6 +1536,7 @@ david_rohnow:
   name: David Rohnow
   pronouns: he/him
   role: Sr. Customer Engineer
+  reports_to: vp_customer_engineering
   location: San Diego, CA USA 🇺🇸
   github: zrnh
   email: david.rohnow@sourcegraph.com
@@ -1481,6 +1547,7 @@ scott_bailey:
   name: Scott Bailey
   pronouns: he/him
   role: Technical Content Marketing Manager
+  reports_to: manager_content_marketing
   location: Raleigh, NC, USA 🇺🇸
   github: csbailey5t
   email: scott.bailey@sourcegraph.com
@@ -1501,6 +1568,7 @@ elzanne_wentzel:
   name: Elzanne Wentzel
   pronouns: she/her
   role: Customer Engineer
+  reports_to: director_customer_engineering_international
   location: Amsterdam, The Netherlands 🇳🇱
   github: elzannewentzel
   email: elzanne.wentzel@sourcegraph.com
@@ -1511,6 +1579,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
+  reports_to: director_customer_engineering_international
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -1521,6 +1590,7 @@ leo_abreu:
   name: Leo Abreu
   pronouns: he/him
   role: Senior Customer Engineer
+  reports_to: vp_customer_engineering
   location: Matthews, NC, USA 🇺🇸
   github: leo-abreu
   email: leo.abreu@sourcegraph.com
@@ -1543,6 +1613,7 @@ nick_moore:
   name: Nick Moore
   pronouns: he/him/his
   role: Content Editor
+  reports_to: senior_managing_editor
   location: Weymouth, Massachusettes, United States 🇺🇸
   github: nickmyyz
   email: nick.moore@sourcegraph.com
@@ -1553,6 +1624,7 @@ erica_freckelton:
   name: Erica Freckelton
   pronouns: she/her
   role: Senior Digital Marketing Manager
+  reports_to: director_demand_generation
   location: San Diego, California, United States 🇺🇸
   github: efreckelton
   email: erica.freckelton@sourcegraph.com
@@ -1576,6 +1648,7 @@ dan_ryan:
   name: Dan Ryan
   pronouns: he/him
   role: Senior Customer Engineer
+  reports_to: vp_customer_engineering
   location: Lehi, UT, United States 🇺🇸
   github: danryan621
   email: dan.ryan@sourcegraph.com
@@ -1606,6 +1679,7 @@ greg_bouton:
   name: Greg Bouton
   pronouns: he/him/his
   role: Senior Email & Automation Marketing Manager
+  reports_to: manager_marketing_operations
   location: S. Hamilton, MA, United States 🇺🇸
   github: GregBouton
   email: greg.bouton@sourcegraph.com
@@ -1615,6 +1689,8 @@ greg_bouton:
 nonso_obiano:
   name: Nonso Obiano
   role: Customer Support Manager
+  reports_to: director_customer_support
+  manager_role_slug: customer_support_manager_2
   location: Lagos, Nigeria 🇳🇬
   github: Cyberwhiz5000
   email: nonso.obiano@sourcegraph.com
@@ -1624,6 +1700,8 @@ nonso_obiano:
 brielle_collins:
   name: Brielle Collins
   role: Customer Support Manager
+  reports_to: director_customer_support
+  manager_role_slug: customer_support_manager_1
   location: Chicago, Illinois 🇺🇸
   github: Brielle-C
   email: brielle.collins@sourcegraph.com
@@ -1665,6 +1743,7 @@ andrew_hsu:
   name: Andrew Hsu
   pronouns: he/him
   role: Customer Engineer
+  reports_to: vp_customer_engineering
   location: Los Angeles, California, United States 🇺🇸
   github: superhsu
   email: andrew.hsu@sourcegraph.com
@@ -1770,6 +1849,7 @@ win_yu:
 sam_jones:
   name: Sam Jones
   role: Senior Corporate & Commercial Counsel
+  reports_to: director_legal
   location: Oakland, CA, United States 🇺🇸
   github: srj427
   email: sam.jones@sourcegraph.com
@@ -1819,6 +1899,8 @@ bob_roudebush:
   name: Bob Roudebush
   pronouns: he/him
   role: Customer Engineering Director - Americas
+  reports_to: vp_customer_engineering
+  manager_role_slug: director_customer_engineering_americas
   location: Indianapolis, Indiana, United States 🇺🇸
   github: RoudyBob
   email: bob.roudebush@sourcegraph.com
@@ -1830,6 +1912,7 @@ nancy_shah:
   name: Nancy Shah
   pronouns: she/her
   role: Senior Customer Engineer - East Americas
+  reports_to: director_customer_engineering_americas
   location: Oakton, VA, United States 🇺🇸
   github: nancy4dev
   email: nancy.shahh@sourcegraph.com
@@ -1850,6 +1933,7 @@ keely_aguayo:
   name: Keely Aguayo
   pronouns: she/her
   role: Payroll Manager
+  reports_to: financial_controller
   location: New Orleans, LA, USA 🇺🇸
   github: keelyaguayo
   email: keely.aguayo@sourcegraph.com
@@ -1859,6 +1943,7 @@ erika_heidi:
   name: Erika Heidi
   pronouns: she/her
   role: Senior Developer Advocate, Community
+  reports_to: director_community
   location: The Hague, Netherlands 🇳🇱
   github: erikaheidi
   email: erika.heidi@sourcegraph.com
@@ -1878,6 +1963,7 @@ simon_waterer:
   name: Simon Waterer
   pronouns: he/him
   role: Senior Customer Engineer
+  reports_to: director_customer_engineering_international
   location: London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   github: simoncwaterer
   email: simon.waterer@sourcegraph.com
@@ -1888,6 +1974,7 @@ adam_greenhalgh:
   name: Adam Greenhalgh
   pronouns: he/him
   role: Marketing Operations Analyst
+  reports_to: manager_marketing_operations
   location: Salt Lake City, Utah, United States
   github: Adammaxla
   email: you@sourcegraph.com
@@ -1906,6 +1993,7 @@ devon_thompson:
   name: DeVon Thompson
   pronouns: she/her
   role: Customer Engineer
+  reports_to: director_customer_engineering_americas
   location: Baltimore, MD, US 🇺🇸
   github: Deethompson
   email: devon.thompson@sourcegraph.com
@@ -1993,6 +2081,7 @@ carter_jaenichen:
 amber_smokowski:
   name: Amber Smokowski
   role: Executive Business Partner, Sales and Marketing
+  reports_to: vp_marketing
   location: From Longmont, CO, USA currently in Austin, TX, USA
   github: ambersmo
   email: amber.smokowski@sourcegraph.com
@@ -2013,6 +2102,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
+  reports_to: director_customer_engineering_americas
   location: Whitefish, MT
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -2024,6 +2114,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
+  reports_to: director_customer_engineering_americas
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -2050,6 +2141,7 @@ olivia_simpson:
   links: '[LinkedIn](https://www.linkedin.com/in/olivia-simpson-9a8a1835/)'
   github: olivia488
   role: Program Manager, Demand Generation Campaigns
+  reports_to: director_demand_generation
   location: New York, NY, USA
   description: Olivia is originally from Park Ridge, IL, but now lives in Manhattan with her fluffy corgi. Prior to joining Sourcegraph, Olivia held different roles at high-growth startups, where she discovered a passion for demand generation marketing. In her free time, she enjoys walking her dog in Central Park, meeting up with friends, and finding fun new Peloton rides to try!
 
@@ -2059,6 +2151,7 @@ amy_johnson:
   links: '[LinkedIn](https://www.linkedin.com/in/amy-johnson-2367a4137/)'
   github: amyjohnsonSG
   role: Accountant
+  reports_to: financial_controller
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
 
@@ -2148,6 +2241,7 @@ Nate_Freng:
   name: Nate Freng
   pronouns: he/him
   role: Tech Ops Engineer
+  reports_to: tech_ops_manager
   location: Fargo, ND, USA 🇺🇸
   email: nate.freng@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
@@ -2160,6 +2254,7 @@ greg_seador:
   github: gseador
   pronouns: he/him
   role: Manager, Customer Engineering
+  reports_to: director_customer_engineering_americas
   location: Austin, TX, USA 🇺🇸
   description: Greg lives in Austin, TX. In his free time he's usually out golfing, trying a new restaurant, adding to his burger spreadsheet, tackling a home improvement project, or listening to a podcast.
 
@@ -2197,6 +2292,7 @@ isuru_fonseka:
   name: Isuru Fonseka
   pronouns: he/him
   role: Senior Customer Engineer
+  reports_to: director_customer_engineering_international
   location: Sydney, Australia 🇦🇺
   github: Isuru-F
   email: isuru.fonseka@sourcegraph.com
@@ -2247,6 +2343,7 @@ riana_shahid:
   github: r-shahid
   pronouns: she/her
   role: Application Engineer
+  reports_to: customer_support_manager_1
   location: New York City, NY, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/rianashahid/)'
   description: Riana is an analytical thinker with many creative interests. She studied mathematics at NYU where she first played with code in a web design class she took for fun. She returned to it later when she decided to attend a coding bootcamp. Outside of work, Riana likes to paint, knit, and visit museums in her city. She is an avid learner who's always willing to try out something new!
@@ -2289,3 +2386,34 @@ philipp_spiess:
   github: philipp-spiess
   links: '[@PhilippSpiess](https://twitter.com/PhilippSpiess), [LinkedIn](https://www.linkedin.com/in/philipp-spiess/)'
   description: Philipp grew up in the countryside of Austria and developed a passion for Web programming very early. After moving to Vienna to study computer science and working on some freelancing gigs, he helped create a PDF editor for the Web. Before joining Sourcegraph, Philipp worked as a Front-End Engineer at Meta/Facebook in London. Outside of work, his hobbies vary wildly, from being a home barista to learning new cooking techniques, working on DIY projects, or playing video games.
+
+jessie_char:
+  name: Jessie Char
+  role: Senior Manager, Events & Experiences
+  reports_to: director_demand_generation
+
+lindsay_murphy:
+  name: Lindsay Murphy
+  role: Customer Marketing Lead
+  reports_to: director_product_marketing
+
+brady_garrett:
+  name: Brady Garrett
+  role: Senior Data Analyst
+  reports_to: business_operations_manager
+
+maureen_loughrey:
+  name: Maureen Loughrey
+  role: Tech Ops Engineer
+  reports_to: tech_ops_manager
+
+desene_sterling:
+  name: Desene Sterling
+  role: Financial Controller
+  reports_to: vp_operations
+  manager_role_slug: financial_controller
+
+samantha_ulrich:
+  name: Samantha Ulrich
+  role: Senior Accountant
+  reports_to: financial_controller

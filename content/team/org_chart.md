@@ -16,9 +16,15 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Customer Support](../departments/support/index.md#the-team)
 
+{{generator:reporting_structure.director_customer_support}}
+
 ## [Customer Engineering](../departments/ce/index.md#current-team-members)
 
+{{generator:reporting_structure.vp_customer_engineering}}
+
 ## [Marketing](../departments/marketing/index.md#members)
+
+{{generator:reporting_structure.vp_marketing}}
 
 ## [People Ops](../departments/people-ops/index.md#people-ops-team-members)
 
@@ -26,7 +32,13 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## [Business Operations & Strategy](../departments/bizops/index.md#members)
 
+{{generator:reporting_structure.vp_operations}}
+
 ## [Finance & Accounting](../departments/finance/index.md#members)
+
+{{generator:reporting_structure.manager_financial_planning}}
+
+{{generator:reporting_structure.financial_controller}}
 
 ## [Legal](../departments/legal/index.md#members)
 
