@@ -70,7 +70,7 @@ We're here to help so reach out to us at security@sourcegraph.com with any quest
 
 We're always happy for teams to [request security code reviews](secure-code-review.md).
 
-Security questionnaires for new and existing customers should [follow the process here](../../../../sales/process/salessecurity.md) - feel free to message us on #security too.
+Security questionnaires for new and existing customers should [follow the process here](../../../../sales/process/salessecurity.md)—feel free to message us on #security too.
 
 ### Questions and Support Requests
 
@@ -196,7 +196,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Extensibility
+   <td>Growth and Integrations
    </td>
    <td>David
    </td>

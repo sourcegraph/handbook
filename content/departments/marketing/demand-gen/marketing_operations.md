@@ -109,10 +109,13 @@ Marketing dashboards that are specific to Marketing intiatives are mostly create
 
 [To track current progress to marketing OKR's](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - with associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
 
-Important notes on dash - Marketing Sourced pipeline and MQL goals are stretch goals that are created and agreed upon at an executive level.
+Important notes on dashboard - Marketing Sourced pipeline and MQL goals are stretch goals that are created and agreed upon at an executive level.
+
 Definitions:
-'Marketing Sourced' - Any opportunity created in said time period that have an opportunity source of 'inbound' or 'events.'
-'Marketing Influenced' - Any opportunity that has some sort of marketing program touch throughout the lifecycle of an opportunities journey.
+
+`Marketing Sourced` - Any opportunity created in time period that have an opportunity source of 'inbound' or 'events.'
+
+`Marketing Influenced` - Any opportunity that has some sort of marketing program touch throughout the lifecycle of an opportunities journey.
 
 [Sign-up Flow dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/Sign-Upbutton/EventList?:iid=1) - A dashboard set up to track the impact of new CTA's to drive customers to conversion. Please watch associated [loom](https://www.loom.com/share/830115fa32ea4b0fabb873850f809417).
 

@@ -38,7 +38,7 @@ Very hard, for me I think. I have lots of anxiety and apprehension about looking
 
 ### Preferred time to work
 
-I think this varies, probably just due to an inconsistent sleep schedule. But I'd say... I probably prefer starting around 10am? Doing tasks until 3pm? The last couple of hours feel more like reflections and evaluating my progress. I'm not sure. What I'm saying now differs greatly from my previous job, where I worked maybe 11am - 7pm, usually coding all the way up to the end. I suppose the tasks, the job, my sleep, etc. all factor into my preferences.
+I think this varies, probably just due to an inconsistent sleep schedule. But I'd say... I probably prefer starting around 10am? Doing tasks until 3pm? The last couple of hours feel more like reflections and evaluating my progress. I'm not sure. What I'm saying now differs greatly from my previous job, where I worked maybe 11am–7pm, usually coding all the way up to the end. I suppose the tasks, the job, my sleep, etc. all factor into my preferences.
 
 ### Feelings to receiving messages outside work hours
 

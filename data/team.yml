@@ -299,7 +299,7 @@ alicja_suska:
   reports_to: director_design
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
-  role: Product Designer, Frontend Platform, Extensibility, and Code Insights
+  role: Product Designer, Frontend Platform, Growth and Integrations, and Code Insights
   location: Poznań, Poland 🇵🇱
   github: AlicjaSuska
   email: alicja@sourcegraph.com
@@ -724,7 +724,7 @@ caitlin_moran:
 murat_sutunc:
   name: Murat Sutunc
   pronouns: he/him
-  role: Engineering Manager, Extensibility
+  role: Engineering Manager, Growth and Integrations
   location: Redwood City, CA, USA 🇺🇸
   pronunciation: '[muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
   github: muratsu
@@ -1635,16 +1635,6 @@ jason_yavorska:
   links: '[Twitter](https://twitter.com/j4yav), [Lichess](https://lichess.org/@/j4yav), [LinkedIn](https://linkedin.com/in/jyavorska), [Personal Site](https://metaluna.io), [README](../../product-engineering/product/readmes/jyavorska-readme.md)'
   description: 'Jason was born in the United States, but moved to the Netherlands in 2015. A big part of that move was due to having a big interest in history and classical arts and music, and living here provides a nice base for exploration. He has an international family with most parts in the United States and Ukraine, so often is traveling between these places. He has two young children, a daughter and younger son, and enjoys food, travel, guitar, fantasy and science fiction books, and (retro) technology. His personal passion is [helping kids learn to code](https://metaluna.io/learn/).'
 
-tamar_joyeux:
-  name: Tamar Joyeux
-  role: Customer Support Manager
-  location: Camas, WA, United States 🇺🇸
-  github: tamarj0y
-  email: tamar.joyeux@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/tamarj)'
-  pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/tamar-joyeux)'
-  description: Tamar was born on the island of St. Lucia 🇱🇨. He then spent several years living and working in London, England. He recently (and somewhat reluctantly) settled in the PNW. Tamar currently lives with his wife and two kids in Camas, Washington. He enjoys running local trails, signing up for moderately lengthy ultramarathon races and a host of other outdoor themed activities. Tamar has spent most of his career in infrasturcture ops. Before Sourcegraph, he led an infrastructure and dev ops team at a US based fitness equipment manufacturer.
-
 diego_comas:
   name: Diego Comas
   pronouns: he/him/his
@@ -1735,7 +1725,7 @@ sara_lee:
   name: Sara Lee
   reports_to: director_design
   pronouns: she/her
-  role: Product Designer, Code Intel and Extensibility
+  role: Product Designer, Code Intel and Growth and Integrations
   location: Chapel Hill, NC, United States 🇺🇸
   github: jjinnii
   email: sara.lee@sourcegraph.com
@@ -2271,3 +2261,22 @@ casi_neff:
   location: Indianapolis, IN, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/casi-neff-5a5787142/)'
   description: Casi grew up in rural Indiana with her parents (Eric and Julie) and older brother (Cory). She attended Union University in TN and played volleyball before transferring back home to finish her degree at the Kelley School of Business (IUPUI). She currently plays in 2-3 volleyball leagues throughout the year and is the head coach for an elite travel team in Indy. She loves cold brew coffee, the color black, and heavy metal music (amongst other genres). If she's not in the gym, she's probably shopping, grabbing drinks with friends, or spending time with family.
+
+philipp_spiess:
+  name: Philipp Spiess
+  pronouns: he/him
+  role: Full-Stack Engineer, Growth and Integrations
+  location: Vienna, AT 🇦🇹
+  pronunciation: '[ˈʃpiːs](http://ipa-reader.xyz/?text=%CB%88%CA%83pi%CB%90s&voice=Marlene)'
+  email: philipp.spiess@sourcegraph.com
+  github: philipp-spiess
+  links: '[@PhilippSpiess](https://twitter.com/PhilippSpiess), [LinkedIn](https://www.linkedin.com/in/philipp-spiess/)'
+  description: Philipp grew up in the countryside of Austria and developed a passion for Web programming very early. After moving to Vienna to study computer science and working on some freelancing gigs, he helped create a PDF editor for the Web. Before joining Sourcegraph, Philipp worked as a Front-End Engineer at Meta/Facebook in London. Outside of work, his hobbies vary wildly, from being a home barista to learning new cooking techniques, working on DIY projects, or playing video games.
+
+feroz_salam:
+  name: Feroz Salam
+  email: feroz.salam@sourcegraph.com
+  github: ferozsalam
+  role: Security Engineer
+  location: Bristol and London, UK
+  description: Feroz has been working in security engineering for most of his career, initially as a developer of anti-phishing products and more recently within application security and incident response for banking infrastructure. His LinkedIn profile also claims that his skills include French Horn, Dairy Science, and Immigration Issues; some of these might be true.

@@ -5,10 +5,10 @@ Hello, I’m Jason Yavorska and I’m the Product Director for Code Graph. You c
 ## Logistics
 
 - When managing Product Managers, I see myself in a coach/mentoring role with them with them as the visible experts. What I'll spend the rest of my time on is connecting dots (so I can inform my team), making sure we collaborate efficiently, and otherwise building/hiring a great group of people. This means that I'll typically work behind the scenes and avoid taking over; if you think it's helpful for me to do that in a specific situation, it's not a problem at all but please be direct and let me know.
-- I tend to be good at unblocking, helping break down problems into iterations, and generally helping move things forward - let me know if I can ever help you.
+- I tend to be good at unblocking, helping break down problems into iterations, and generally helping move things forward—let me know if I can ever help you.
 - I always appreciate direct feedback, so don't worry about upsetting me and feel free to share bad news early.
 - I'm more likely to be optimistic than not, with a plan that we'll figure it out what we need to when we need to, so feel free bring me back to reality.
-- I tend to debate different perspectives to solve problems, including playing "Devil's Advocate". If that puts you off that's fine - just tell me and we’ll use another approach.
+- I tend to debate different perspectives to solve problems, including playing "Devil's Advocate". If that puts you off that's fine—just tell me and we’ll use another approach.
 
 ## Reference
 

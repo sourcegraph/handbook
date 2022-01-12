@@ -20,4 +20,4 @@ While it is possible to request new headcount from the board throughout the year
 
 When a new quarter is about to start, hiring managers should be prepared to provide brief/lightweight justifications for headcount increases (any roles we want to start hiring for) for the quarter after the quarter that is about to start. This includes justifications for headcount that has already been tentatively allocated.
 
-After the board meeting (generally ~3 weeks into the new quarter), headcount increases will be finalized and hiring managers can work with the talent team to open hiring pipelines for the following quarter (the quarter after the one that just started).
+After the board meeting (generally ~3 weeks into the new quarter), headcount allocations will be finalized and hiring managers can work with the talent team to open hiring pipelines for the following quarter (the quarter after the one that just started).

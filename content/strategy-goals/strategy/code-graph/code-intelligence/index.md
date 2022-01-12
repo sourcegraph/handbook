@@ -102,7 +102,7 @@ Once we have validated our Alpha solution and have proven it’s running success
 
 **Ship precise language support**
 
-We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping Kotlin, Protobuf and a revamped version of our JS/TS indexer. Our next step is adding auto-indexing and cross dependency navigation for JS and TS to our on-prem offeting.
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping Kotlin, Protobuf and a revamped version of our JS/TS indexer. Our next step is adding auto-indexing and cross dependency navigation for JS and TS to our on-prem offering.
 
 **Improve the user experience of code navigation and code intelligence**
 

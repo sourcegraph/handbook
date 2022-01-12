@@ -1,6 +1,6 @@
 # Delivery strategy
 
-This page outlines the vision, strategy, and goals of the [Delivery team](../../../../departments/product-engineering/engineering/enablement/delivery/index.md).
+This page outlines the vision, strategy, and goals of the [Delivery team](../../../../departments/product-engineering/engineering/cloud/delivery/index.md).
 
 ---
 
@@ -53,7 +53,7 @@ These are the principles that guide the work we do in delivery. Sometimes adheri
 - We find and support the best deployment, configuration, and upgrade solutions to support the majority of our current and future customers
 - We cannot cater to every customer’s wants and needs, and trying to would undermine our ability to serve all of Sourcegraph’s current and future customers
 - We prioritize work that will best support the majority of our customers and prospects, sometimes compromising what we can offer to individual customers whose needs are not aligned with our strategic decisions
-- We typically refer to our primary persona as a “site admin” - they’re the person or team responsible for deploying Sourcegraph, including any configuration required to make it fit into their existing environment and meet the security requirements
+- We typically refer to our primary persona as a “site admin”—they’re the person or team responsible for deploying Sourcegraph, including any configuration required to make it fit into their existing environment and meet the security requirements
   - The site admin is often the linchpin of a successful deal, but they rarely have a hand in kicking off the use of Sourcegraph (and so can be less emotionally invested), but they are responsible for the deployment, which unlocks the value, whether that be during POC or production deployment
   - The ease of the site admin’s experience is critical to success as blockers for them block every other user, but site admin experience levels vary massively
   - Many site admins are normal engineers, rather than specialists in the types of technologies common for system deployments
