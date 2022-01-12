@@ -33,4 +33,4 @@ The People Ops team manages their projects through a team [Trello Board](https:/
    2. **Off Track:** the project is running behind, blocked, or otherwise not going as expected.
 4. After all relevant card updates have been given, each “Off Track” card is a discussion topic with the goal being to help get the project back on track. This can take several forms: Adjusting due date, pulling in additional resources, changing scope of the project, etc.
 
-This should take about 5-10 minutes at the beginning of our weekly People Ops internal sync meeting!
+This should take about 5–10 minutes at the beginning of our weekly People Ops internal sync meeting!

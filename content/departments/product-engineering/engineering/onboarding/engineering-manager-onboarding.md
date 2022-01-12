@@ -32,4 +32,4 @@ These timings are approximate, and you are welcome to reorder these outcomes bas
 
 ## Give feedback on your onboarding
 
-You should be discussing your onboarding progress every week with your manager. At the end of month 2 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully — your answers will be very important to make sure our onboarding process is even better for future hires!
+You should be discussing your onboarding progress every week with your manager. At the end of month 2 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully—your answers will be very important to make sure our onboarding process is even better for future hires!

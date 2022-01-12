@@ -67,7 +67,7 @@ The incident lead should follow these steps:
 2. **Thank** the person who identified the incident.
 3. **Acknowledge ownership** of the incident in the relevant incident chatroom (i.e. "I'm on it").
 4. **Communicate** intended next steps (e.g. "I plan to...") and keep the incident status and summary up to date (e.g. "We tried ... which resulted in ...") in the incident chat room.
-5. **Attempt to resolve the incident** by rolling back to a known good state instead of trying to identify and fix the exact issue - refer to [playbooks](#playbooks) for specific scenarios. Communicate your intentions in the incident chatroom.
+5. **Attempt to resolve the incident** by rolling back to a known good state instead of trying to identify and fix the exact issue—refer to [playbooks](#playbooks) for specific scenarios. Communicate your intentions in the incident chatroom.
 6. If rolling back and or reverting commits doesn’t resolve the incident, then identify the most logical resolution owner given what you know (this may be yourself) and have that person acknowledge ownership in the incident chatroom (i.e. “I’m on it”).
    - The person who has made recent changes to the affected product/code/system.
    - The person who owns the affected product/code/system.

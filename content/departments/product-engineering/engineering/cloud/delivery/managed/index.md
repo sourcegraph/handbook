@@ -66,7 +66,7 @@ Access can be requested in #it-tech-ops WITH manager approval.
 
 Terraform is used to maintain all managed instances. You can find this configuration here: https://github.com/sourcegraph/deploy-sourcegraph-managed
 
-All customer credentials, secrets, site configuration, app and user configuration - is stored in Postgres only (i.e. on the encrypted GCP disk). This allows customers to enter their access tokens, secrets, etc. directly into the app through the web UI without transferring them to us elsewhere.
+All customer credentials, secrets, site configuration, app and user configuration—is stored in Postgres only (i.e. on the encrypted GCP disk). This allows customers to enter their access tokens, secrets, etc. directly into the app through the web UI without transferring them to us elsewhere.
 
 ## FAQ
 
@@ -86,7 +86,7 @@ Managed instances is an interim solution to having the Sourcegraph.com Cloud nat
 
 Because of these reasons, and due to this being an interrupt to our regularly scheduled work, a few things with Kubernetes managed instances did not make sense at our current point in time:
 
-- We would need to set up multi-machine backup infrastructure and processes for restoration - substantially harder to do on a moments notice.
+- We would need to set up multi-machine backup infrastructure and processes for restoration—substantially harder to do on a moments notice.
 - Managing network ACLs in a Kubernetes deployment was substantially harder to do:
   - Need static NAT IPs for prospective customers to allow access to their code host which may be behind a corporate firewall.
   - Need to integrate something like GCP load balancer for SSL termination _with_ IP allow-listing (to restrict access to customer's VPN only)
@@ -97,10 +97,10 @@ Because of these reasons, and due to this being an interrupt to our regularly sc
 Additionally, we noted the following:
 
 - Docker-Compose deployments have suited companies up to 25k repos & ~3000 devs well in the past (and, frankly, beyond that..)
-- We have a proper production Kubernetes deployment (sourcegraph.com) but lacked a proper Docker-Compose production deployment - this could act as that and ensure we do even more proper diligence with that deployment type and keep it functioning well for the many customers out there running it today.
+- We have a proper production Kubernetes deployment (sourcegraph.com) but lacked a proper Docker-Compose production deployment—this could act as that and ensure we do even more proper diligence with that deployment type and keep it functioning well for the many customers out there running it today.
 - For the first customer requesting managed instances, we had a spin-up time of approx ~3d only.
 
-None of this is to say that we will not consider switching said managed instances to Kubernetes in the future under different circumstances - it is just to say we are not doing that today.
+None of this is to say that we will not consider switching said managed instances to Kubernetes in the future under different circumstances—it is just to say we are not doing that today.
 
 ### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
 
@@ -110,6 +110,6 @@ If `terraform apply` is giving you:
 Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400: The network_endpoint_group resource 'projects/sourcegraph-managed-$COMPANY/zones/us-central1-f/networkEndpointGroups/default-neg' is already being used by 'projects/sourcegraph-managed-$COMPANY/global/backendServices/default-backend-service', resourceInUseByAnotherResource
 ```
 
-Or similar - this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
+Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
 
 To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.

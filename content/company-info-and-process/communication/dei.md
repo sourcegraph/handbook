@@ -13,10 +13,10 @@ Sourcegraph’s first steps towards creating a diverse team came with the decisi
 After deciding to work remotely, we also:
 
 - Chose to offer compensation that was independent of location
-- Made sure our talent was supported in working remotely - including offering home desk set-up, coworking space, and internet benefits.
+- Made sure our talent was supported in working remotely—including offering home desk set-up, coworking space, and internet benefits.
 - Decided to Work asynchronously as much as reasonable, to ensure our teammates across time zones and working schedules are included in conversations and calls for input
 
-Our initiatives since then have been focused on identifying and acting on the potential obstacles our teammates and candidates feeling welcome and having equal access to opportunity existing teams and hiring process - the most impactful steps we could take to reduce bias and discrimination from our processes and interactions.
+Our initiatives since then have been focused on identifying and acting on the potential obstacles our teammates and candidates feeling welcome and having equal access to opportunity existing teams and hiring process—the most impactful steps we could take to reduce bias and discrimination from our processes and interactions.
 
 Up to and including FY22Q2, we:
 

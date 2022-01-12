@@ -43,6 +43,6 @@ For API docs to be widely accepted, we need to improve the UX in various ways. T
 
 ## Roadmap
 
-TODO(slimsag) TODO(bcreager): need to figure out how to keep Product Board up to date, it's not currently reflective of the new things we've learned in past 1-2 months. Jean previously did this for us but honestly product board is just not my cup of tea.
+TODO(slimsag) TODO(bcreager): need to figure out how to keep Product Board up to date, it's not currently reflective of the new things we've learned in past 1–2 months. Jean previously did this for us but honestly product board is just not my cup of tea.
 
 The API Docs [roadmap](https://sourcegraph.productboard.com/feature-board/2689572-fy2022-roadmap-developer-insights) can be viewed in Productboard.

@@ -403,7 +403,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <tr>
       <th id="ic5" scope="row" rowspan="2" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
-        IC5 is a different role from levels 1-4.<br>
+        IC5 is a different role from levels 1–4.<br>
         What impact looks like at this level varies between individuals.<br>
       </td>
     </tr>
