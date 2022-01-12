@@ -191,7 +191,8 @@ const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
 const rehypeResponsiveTables: Plugin<[], HastRoot> = () => tree => {
     visit(tree, (node, index, parent) => {
         if (isElement(node, 'table')) {
-            parent!.children[index!] = h('div.table-responsive', node)
+            // Note: Matches breakpoint used for th.sticky CSS class
+            parent!.children[index!] = h('div.table-responsive-sm', node)
         }
     })
 }

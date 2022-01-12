@@ -47,11 +47,11 @@ This travel budget is intended for teammates to attend company-wide meetups, arr
 
 Each team is allocated $4,000 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
-_9am-12pm: Breakfast + Team collaboration time
-12pm-1pm: Team lunch
-1-4pm: Team bonding activities
-5-6pm: Solo time
-6-8pm: Team dinner_
+_9am–12pm: Breakfast + Team collaboration time
+12pm–1pm: Team lunch
+1–4pm: Team bonding activities
+5–6pm: Solo time
+6–8pm: Team dinner_
 
 Factor in as much time to spend together during the trip and leave room for solo-exploring/recharging separate from the group.
 

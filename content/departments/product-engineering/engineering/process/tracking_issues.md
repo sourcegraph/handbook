@@ -73,7 +73,7 @@ Planning a team's milestone happens in the last week of the previous milestone.
 1. Add the `planned/$MILESTONE` label to all planned issues. This is used to track what work was originally planned, even if it gets deprioritized during the milestone.
 1. Remove `WIP` from the title.
 
-All planned work items are meant to be finished in the iteration. If this doesn't happen, it is either due to unknown unknowns or lack of estimating accuracy. While we cannot work on the former, we can on the latter — over time, we aim to estimate better.
+All planned work items are meant to be finished in the iteration. If this doesn't happen, it is either due to unknown unknowns or lack of estimating accuracy. While we cannot work on the former, we can on the latter—over time, we aim to estimate better.
 
 Teammates should be conservative by picking an estimate somewhere in between the median case and worst case scenarios, not best case. The higher someone's level of experience with the issue being estimated as well as estimation itself, the closer the estimate can be to the best case scenario. The opposite is also true.
 
@@ -83,7 +83,7 @@ Despite estimation having a bad reputation in some circles, we find it valuable 
 1. Ensure everyone has enough slack in the iteration (~20% of their time). This is to account for unexpected things, to foster creativity and to prevent burn-out.
 1. Remind the person working on the issue to avoid time sinks or approaches that would miss the estimate.
 
-Roadmap items may take more than an iteration to implement. As such please link to an issue which is scoped to this iteration. If it isn't clear how to break down a larger item in a scope increment, a **spike** of one or two days could be appropriate to determine such scope and then create the resulting issues for the iteration — it's fine to update the tracking issue with the results of a spike during the iteration.
+Roadmap items may take more than an iteration to implement. As such please link to an issue which is scoped to this iteration. If it isn't clear how to break down a larger item in a scope increment, a **spike** of one or two days could be appropriate to determine such scope and then create the resulting issues for the iteration—it's fine to update the tracking issue with the results of a spike during the iteration.
 
 ## Contributing to the tracking issue tool
 

@@ -2576,11 +2576,6 @@ ana_lavongtheung:
   role: Sales Development Representative
   reports_to: head_sales_development
 
-feroz_salam:
-  name: Feroz Salam
-  role: Security Engineer
-  reports_to: security_engineering_manager
-
 pietro_rosa:
   name: Pietro Rosa
   role: Software Engineer
@@ -2601,3 +2596,12 @@ felix_kling:
   name: Felix Kling
   role: Software Engineer
   reports_to: engineering_manager_search
+
+feroz_salam:
+  name: Feroz Salam
+  email: feroz.salam@sourcegraph.com
+  github: ferozsalam
+  role: Security Engineer
+  reports_to: security_engineering_manager
+  location: Bristol and London, UK
+  description: Feroz has been working in security engineering for most of his career, initially as a developer of anti-phishing products and more recently within application security and incident response for banking infrastructure. His LinkedIn profile also claims that his skills include French Horn, Dairy Science, and Immigration Issues; some of these might be true.

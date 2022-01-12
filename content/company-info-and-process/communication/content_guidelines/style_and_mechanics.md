@@ -199,7 +199,7 @@ Avoid any instructions or language that requires the user to see the layout or d
 
 ## Numbers
 
-- Spell out numbers 1-9 except for percentages and ranges.
+- Spell out numbers 1–9 except for percentages and ranges.
 - Use numerals for 10 upwards.
 - Always use the numeral for ordinals (numbers that tell the position of something in a list).
 
@@ -566,7 +566,7 @@ Use an en dash (–) to indicate a [range or span](#ranges-and-spans), without s
 </div>
 </div>
 
-Use an em (—) dash without spaces to separate clauses in paragraph copy.
+Use an em dash (—) without spaces to separate clauses in paragraph copy.
 
 <div class="usage">
 <div class="item yes">

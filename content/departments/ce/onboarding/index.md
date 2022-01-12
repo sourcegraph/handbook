@@ -1,6 +1,6 @@
 # Customer Engineering Onboarding
 
-Welcome to Sourcegraph - we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview) as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
+Welcome to Sourcegraph—we're VERY excited to have you on the Customer Engineering team! This page describes the onboarding philosophy and process for new customer engineers as they onboarding, and outlines expectations and [goals of onboarding](#high-level-onboarding-overview) as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
 
 ## Company-wide and Customer Engineering-specific Onboarding
 
@@ -29,7 +29,7 @@ Below are the goals and expectations for each week of your onboarding.
 
 - Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
 - Start to learn our processes (pre and post-sales), learn about the different templates that we have and how we use them
-- Identify customer calls to shadow for weeks 3 - 6
+- Identify customer calls to shadow for weeks 3–6
 
 ### Week 3 Goals:
 
@@ -52,20 +52,20 @@ Beginning week 6, you'll look to lead your first customer meeting, with your onb
 
 We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. During your first 90 days, this is what success looks like.
 
-### Customer Engineers (Level 1 - 2)
+### Customer Engineers (Level 1–2)
 
 #### First 30 days:
 
 - Demonstrate baseline understanding of core product, value proposition, and processes.
 - Successfully deliver initial product demo, covering core functionality.
 
-#### 30 - 60 days:
+#### 30–60 days:
 
 - Get [Demo Certified](#ce-demo-certification).
 - Actively participate in initial prospective calls: perform customer discovery, provide demos.
 - Be paired with 1 AE with whom you should begin to build a rapport.
 
-#### 60 - 90 days:
+#### 60–90 days:
 
 - Guide your first prospects towards and through a trial.
 - Collaborating with your lead, mentor, and / or AE, create plans around red accounts, renewals, and / or post-sales engagement.
@@ -74,21 +74,21 @@ We want every CE to feel certain and comfortable with where they are at currentl
 
 After day 90, your role expectations will then align to the predefined CE career ladders of your current level.
 
-### Senior Customer Engineers (Level 3 - 4)
+### Senior Customer Engineers (Level 3–4)
 
 #### First 30 days:
 
 - Demonstrate baseline understanding of core product, value proposition, and processes.
 - Successfully deliver initial product demo, covering core functionality.
 
-#### 30 - 60 days:
+#### 30–60 days:
 
 - Get [Demo Certified](#ce-demo-certification).
 - Actively participate in initial prospective calls, performing customer discovery.
 - Lead customer demos tailored to their described needs.
 - Be paired with 1 AE with whom you should begin to build a rapport and begin strategizing on book of business with.
 
-#### 60 - 90 days:
+#### 60–90 days:
 
 - Guide a prospect towards and through a trial.
 - Guide the creation of plans around red accounts, renewals, and / or post-sales engagement.

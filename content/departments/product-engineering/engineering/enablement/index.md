@@ -8,7 +8,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
 
-- [Repo Management](repo-management/index.md)
+- [Repo Management](./repo-management/index.md)
   - [Jordan Plahn](../../../../team/index.md#jordan-plahn) ([Engineering Manager](../roles/index.md#engineering-manager))
   - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
   - [Ryan Slade](../../../../team/index.md#ryan-slade)
@@ -16,21 +16,21 @@ The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Dire
   - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
   - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
   - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
-- [Dev Experience](dev-experience/index.md)
+- [Dev Experience](./dev-experience/index.md)
   - [Kristen Stretch](../../../../team/index.md#kristen-stretch)([Engineering Manager](../roles/index.md#engineering-manager))
   - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [JH Chabran](../../../../team/index.md#jh-chabran)
   - [Robert Lin](../../../../team/index.md#robert-lin)
   - [Dave Try](../../../../team/index.md#dave-try)
   - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
-- [Frontend Platform](frontend-platform/index.md)
+- [Frontend Platform](./frontend-platform/index.md)
   - [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
   - [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../roles/index.md#engineering-manager))
   - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
   - [Tom Ross](../../../../team/index.md#tom-ross)
   - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
   - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
-- [Content Platform](content-platform/index.md)
+- [Content Platform](./content-platform/index.md)
   - [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles/index.md#engineering-manager))
   - [Mary Belzer](../../../../team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
   - [Stephanie Zabala](../../../../team/index.md#stephanie-zabala) ([Designer](../../product/roles/index.md#product-designer))
@@ -45,7 +45,7 @@ In addition to the [engineering principles and practices](../process/principles-
 
 Suppose a teammate is blocked by you on a question, your approval, or a pull request review. In that case, your top priority is always to unblock them, either directly or by helping them find someone else who can, even if this takes time away from your own or your team's priorities. If you're the one who is blocked, be sure to communicate that so that others can prioritize appropriately.
 
-Typically, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g., a new PR that depends on the first one). However, it's important to get a review ASAP in some scenarios — e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
+Typically, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g., a new PR that depends on the first one). However, it's important to get a review ASAP in some scenarios—e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
 
 Even when a teammate is not _blocked_ but _inconvenienced_ (because of follow-up work), please don't leave them hanging for extended periods. You should generally budget some amount of time every day for doing reviews.
 
@@ -104,7 +104,7 @@ _When acknowledging a request:_
 _When acknowledging a statement:_
 
 - `:thumbsup:` 👍 = I agree with the statement or I have taken note of it
-- `:thumbsdown:` 👎 = I disagree with a statement - encouraged to always follow up with a written response
+- `:thumbsdown:` 👎 = I disagree with a statement—encouraged to always follow up with a written response
 
 _When acknowledging a question:_
 

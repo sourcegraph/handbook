@@ -22,13 +22,13 @@ View the [full list of product gap categories/subcategories](https://docs.google
 
 ## Product Gap Definitions
 
-- Open - needs to be reviewed/looked at by Product
-- In review - is currently being reviewed by Product but has not been prioritized
-- In progress - it is prioritized and the team is working on it
-- Scheduled - has been added to our Product roadmap
-- Resolved - this is done!
-- Backlog - we know we want to do this, we just don't know when yet
-- Won't do - we're not going to do this
+- **Open** - needs to be reviewed/looked at by Product
+- **In review** - is currently being reviewed by Product but has not been prioritized
+- **In progress** - it is prioritized and the team is working on it
+- **Scheduled** - has been added to our Product roadmap
+- **Resolved** - this is done!
+- **Backlog** - we know we want to do this, we just don't know when yet
+- **Won't do** - we're not going to do this
 
 ## Creating GitHub Issues
 

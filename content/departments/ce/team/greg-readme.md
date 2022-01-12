@@ -4,7 +4,7 @@
 
 Our product is our customer’s experience. Our north star for Sales is new business. Our north star for Customer Success (post-sales) is retention and growth. Everything we do should somehow map back to our customer’s experience, closing new business, and retaining and growing our customers.
 
-Customer Engineers are uniquely positioned to hear and understand our customer’s goals, needs, workflows, pain points, and hesitations. We can be the heroes or a source of frustration - that is determined by how we communicate, how we show up, how we advocate for our customers, and how we follow up.
+Customer Engineers are uniquely positioned to hear and understand our customer’s goals, needs, workflows, pain points, and hesitations. We can be the heroes or a source of frustration—that is determined by how we communicate, how we show up, how we advocate for our customers, and how we follow up.
 
 ### Preferred learning styles
 
@@ -14,7 +14,7 @@ I also learn by participating or doing. I need to jump in, give it a try, ask qu
 
 ### Communication style
 
-I am direct and empathetic. I try to understand the preferred communication style of who I’m talking with and adjust my message in a way that they’ll be most receptive to. Great communication is key to great teams and strong individual relationships - this requires effort and grace from everyone involved.
+I am direct and empathetic. I try to understand the preferred communication style of who I’m talking with and adjust my message in a way that they’ll be most receptive to. Great communication is key to great teams and strong individual relationships—this requires effort and grace from everyone involved.
 
 ### Preferred way to collaborate
 
@@ -26,7 +26,7 @@ I’m most productive working with other people (meetings) in the morning and mo
 
 ### How I approach problems
 
-I first seek to understand the root problem to make sure we’re not talking about a symptom. From there I work to understand the impact of the problem and the desired outcome. Even if I (think I) have an idea for a solution, I like brainstorming and socializing ideas with others - this helps get buy-in, filter out the bad ideas, and figure out how best to execute.
+I first seek to understand the root problem to make sure we’re not talking about a symptom. From there I work to understand the impact of the problem and the desired outcome. Even if I (think I) have an idea for a solution, I like brainstorming and socializing ideas with others—this helps get buy-in, filter out the bad ideas, and figure out how best to execute.
 
 ### Preferred way to be recognized/appreciated
 
@@ -46,7 +46,7 @@ I like when people come to me for help. Even if I don’t know the answer, I’m
 
 ### How I like to give and receive feedback
 
-I like to give feedback in real time whenever possible. I’m thoughtful in how I deliver feedback based on the situation and the person. Feedback is best when it’s specific - the situation, the behavior, the outcome, and what should happen the same or differently going forward.
+I like to give feedback in real time whenever possible. I’m thoughtful in how I deliver feedback based on the situation and the person. Feedback is best when it’s specific—the situation, the behavior, the outcome, and what should happen the same or differently going forward.
 
 ### What I find enjoyable at work
 

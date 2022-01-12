@@ -157,7 +157,7 @@ git add $NEW_DEPLOYMENT/ && git commit -m "$CUSTOMER: set up $NEW_DEPLOYMENT con
 ```
 
 Initialize the new production deployment (`NEW_DEPLOYMENT`) using the snapshot created in the previous step.
-This should only modify the deployment - not recreate it.
+This should only modify the deployment—not recreate it.
 
 ```sh
 ../util/init-deployment.ts $NEW_DEPLOYMENT
@@ -177,7 +177,7 @@ If you run into errors like:
 - `bash: docker: command not found`
 - `ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: 'failed to connect to backend'].`
 
-This might indicate that the instance is not fully set up yet - try again in a minute.
+This might indicate that the instance is not fully set up yet—try again in a minute.
 
 ### 6) Upgrade the new deployment
 
@@ -192,7 +192,7 @@ git --no-pager diff $NEW_DEPLOYMENT
 
 Address any merge conflicts in the `$NEW_DEPLOYMENT/` directory if needed.
 
-Also verify that no references remain for the old version - the script does not automatically apply changes to replicas.
+Also verify that no references remain for the old version—the script does not automatically apply changes to replicas.
 For each reference, ensure that the _entire_ service entry is up to date (i.e. not just the version).
 You can list references like so (if nothing shows up, you should be good to go):
 
@@ -232,7 +232,7 @@ If you run into an error like:
 ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: 'failed to connect to backend'].
 ```
 
-This might indicate that the instance is not fully set up yet - try again in a minute.
+This might indicate that the instance is not fully set up yet—try again in a minute.
 
 Ensure that no containers with the wrong version are still running:
 
@@ -424,7 +424,7 @@ To make use of the new disk space, we need to extend the filesystem on the `/dev
 ../util/ssh-exec.sh "resize2fs /dev/sdb"
 ```
 
-Verify the file system is extended - you should now see that the `Size` matches your upgraded disk size:
+Verify the file system is extended—you should now see that the `Size` matches your upgraded disk size:
 
 ```sh
 ../util/ssh-exec.sh "df -Th /dev/sdb"

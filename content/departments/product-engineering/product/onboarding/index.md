@@ -1,14 +1,14 @@
 # Product team onboarding
 
-Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2-4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
+Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2–4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
 
 **[Onboarding buddy](../../../../company-info-and-process/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
 
 ## Manager checklist
 
 - Visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
-- Create onboarding Google doc and copy in this page to customize week 2-4 tasks and have a personal checklist for the new teammate.
-- Update onboarding doc Week 2-4 with initial projects.
+- Create onboarding Google doc and copy in this page to customize week 2–4 tasks and have a personal checklist for the new teammate.
+- Update onboarding doc Week 2–4 with initial projects.
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
   - Invite to GitHub teams, including @sourcegraph/everyone
@@ -42,7 +42,7 @@ Remember:
 
 - Complete [Process st onboarding](https://app.process.st/reports/)
   - Keep the [guiding principles](../../../../company-info-and-process/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
-- Write your 30-60-90 day objectives in your 1:1 doc with Christina
+- Write your 30–60–90 day objectives in your 1:1 doc with Christina
 
 ### Get to know the team
 
@@ -146,7 +146,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
 - Explore and favorite the [Google Drive design folder](https://drive.google.com/drive/folders/1ow-19Yd4AFtT8HjVZ9ln_nEGpCzQ2CTf)
 - Review the [Potential UX projects document](https://docs.google.com/document/d/1LemO13R3f0Ku88WK8tFr7_Qo4teDA0Bebs8Y2TGkS3U/edit)
 
-## Week 2-3 - initial projects
+## Week 2–3 - initial projects
 
 - The goal is to give you a handful of projects that will help you familiarize yourself with the product, and get some quick wins in your first weeks.
 - If you see something that you think would be a great project for you to tackle as you’re onboarding, let’s talk about it!

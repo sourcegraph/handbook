@@ -28,7 +28,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. When and where do I get my Carta invite?
 
-- [Carta](https://carta.com/) houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1-3 weeks after the board meeting to process.
+- [Carta](https://carta.com/) houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1–3 weeks after the board meeting to process.
 
 ### Q. Who do I contact regarding questions about Carta and/or my option grant?
 

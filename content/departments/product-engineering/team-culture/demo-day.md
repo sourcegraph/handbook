@@ -37,7 +37,7 @@ OR
 
 - Turn on do not disturb and/or Slack notifications off
 - Only show 1 tab in 1 window (if possible)
-- (If you want to record - here's some helpful tips of how to use Loom)
+- (If you want to record—here's some helpful tips of how to use Loom)
 
 ## Examples
 

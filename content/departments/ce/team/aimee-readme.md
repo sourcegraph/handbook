@@ -23,7 +23,7 @@ I’m most productive first thing in the morning.
 
 ### How I approach problems
 
-I first want to understand why a problem is a problem - what’s the impact. From there, I try to consider various outcomes or potential solutions. I do appreciate varying perspectives and ideas about potential solutions. And then from there, try to determine the path forward.
+I first want to understand why a problem is a problem—what’s the impact. From there, I try to consider various outcomes or potential solutions. I do appreciate varying perspectives and ideas about potential solutions. And then from there, try to determine the path forward.
 
 ### Preferred way to be recognized/appreciated
 
@@ -37,11 +37,11 @@ I am more logical than emotional so when the logic of an idea clicks for me, you
 
 When I’m asking for help I’m the type of person who’s going to ask for volunteers. I might index too heavily to being sensitive to what other people have going on. I’m not scared to ask for help but too shy to put that request on any one person.
 
-When someone comes to me for help, it makes me feel good. I want to understand exactly what help is needed from me - i.e., do you want me to listen, take action, etc.
+When someone comes to me for help, it makes me feel good. I want to understand exactly what help is needed from me—i.e., do you want me to listen, take action, etc.
 
 ### How I like to give and receive feedback
 
-When giving feedback I tend to first gain understanding and perspective - both from the person who provided feedback and with the person the feedback is about. From there, depending on the situation, I want to work towards a solution, whatever that may be. Whenever possible I like to orient feedback around what good looks like or what the expectation is and discuss how to accomplish that.
+When giving feedback I tend to first gain understanding and perspective—both from the person who provided feedback and with the person the feedback is about. From there, depending on the situation, I want to work towards a solution, whatever that may be. Whenever possible I like to orient feedback around what good looks like or what the expectation is and discuss how to accomplish that.
 
 In receiving feedback, similar to my communication style I am very receptive and open to direct communication. Frequent feedback is very much welcomed.
 

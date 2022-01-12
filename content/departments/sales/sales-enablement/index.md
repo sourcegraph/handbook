@@ -34,7 +34,7 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 
 ### Sales Enablement Team Charter
 
-- Provide the Sales team with the resources they need to generate and close more deals - including content, tools, knowledge, and information to effectively sell to our prospects and customers.
+- Provide the Sales team with the resources they need to generate and close more deals—including content, tools, knowledge, and information to effectively sell to our prospects and customers.
 - Manage the Sales Onboarding Program and continually update based on current trends and content
 - More to come…..
 
