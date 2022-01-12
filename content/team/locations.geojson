@@ -1406,7 +1406,19 @@
           40.818130
         ]
       }
+    },
+ {
+    "type": "Feature",
+    "properties": {
+        "name": "Brady Garrett"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+             -111.634506,
+            33.244930
+        ]
     }
-
+}
   ]
 }
