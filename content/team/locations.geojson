@@ -1,7 +1,6 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
+  "features": [{
       "type": "Feature",
       "properties": {
         "name": "Thorsten Ball"
@@ -1367,6 +1366,47 @@
           -33.87757740654966
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "David Veszelovszki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.081810265779495,
+          47.4981015024372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riana Shahid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78375053405762,
+          40.71584246871321
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rob Dapaah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.212680,
+          40.818130
+        ]
+      }
     }
+
   ]
 }

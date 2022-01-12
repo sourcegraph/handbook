@@ -442,7 +442,7 @@
    <td>Engineering
 
    </td>
-   <td>Extensibility
+   <td>Growth and Integrations
 
    </td>
    <td>Frey Andersson
@@ -564,7 +564,7 @@
    <td>Repo Management
 
    </td>
-   <td>Veronica Bueno
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -581,7 +581,7 @@
    <td>Delivery
 
    </td>
-   <td>Veronica Bueno
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -598,7 +598,7 @@
    <td>DevEx
 
    </td>
-   <td>Veronica Bueno
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -615,7 +615,7 @@
    <td>Frontend Platform
 
    </td>
-   <td>Veronica Bueno
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -649,7 +649,7 @@
    <td>Product Management
 
    </td>
-   <td>Veronica
+   <td>Veronica Bueno
 
    </td>
    <td>Win Yu
@@ -666,7 +666,7 @@
    <td>Product Design
 
    </td>
-   <td>Veronica
+   <td>Veronica Bueno
 
    </td>
    <td>Win Yu
@@ -683,7 +683,7 @@
    <td>Technical Writing
 
    </td>
-   <td>Veronica
+   <td>Veronica Bueno
 
    </td>
    <td>Win Yu

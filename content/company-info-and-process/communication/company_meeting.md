@@ -1,6 +1,6 @@
 # Company meeting
 
-We are changing how we do company meeting in Oct 2021. We don't yet have all the details here; see the [Company meeting](https://docs.google.com/document/d/1OBOOjJxHXF21TCIxuCpwkJOF31WLaAJot0qs9KHW1pE/edit) doc.
+We are changing how we do company meetings in Oct 2021. We don't yet have all the details here; see the [Company meeting](https://docs.google.com/document/d/1OBOOjJxHXF21TCIxuCpwkJOF31WLaAJot0qs9KHW1pE/edit) doc.
 
 Update shared on Slack:
 

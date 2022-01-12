@@ -16,7 +16,8 @@ Exceptions:
 - #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages indefinitely to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
 - #sales-resources retains messages indefinitely to serve as a library of quickly evolving sales collateral and tools.
 - All channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages indefinitely to preserve context for support or audit-related purposes.
-- #marketintel retains messages indefinitely to keep a longterm overview of market information around the field of developer tools.
+- #marketintel retains messages indefinitely to keep a long term overview of market information around the field of developer tools.
+- #seo retains messages indefinitely to keep a record of historical SEO efforts, numbers & screenshots, etc.
 
 [Historical archive of Slack messages prior to 2019-11-09](https://drive.google.com/file/d/1FUbOEsMM4fWRpxymgNHZCAssOPEFDelJ/view?usp=sharing): unzip and open `sourcegraph-slack-archive-to-20191109/index.html` to view. If you consult this, please be sure to add whatever information you learn to a source of truth so we reduce our reliance on this archive.
 
@@ -47,7 +48,7 @@ Private channels will automatically be created for the following categories of c
 - Affinity groups: Channels for affinity groups that prefer a private space.
 - Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 
@@ -151,7 +152,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
 - #gaming - For all gamers
 - #golf - To all those golf fans here
-- #great-bandname - “That’s a great bandname”—all the things we find that would make a great bandname
+- #great-bandname - “That’s a great bandname” — all the things we find that would make a great bandname
 - #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
 - #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
 - #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!

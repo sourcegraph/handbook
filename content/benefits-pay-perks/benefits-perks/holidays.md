@@ -6,7 +6,7 @@ Teammates should add their respective holidays to their Sourcegraph calendar and
 
 We will reschedule any Monday [company meetings](../../company-info-and-process/communication/company_meeting.md) and new hire onboardings to the next working day if it would otherwise fall on any of the following holidays:
 
-- **New Years Day** - observed January 1st
+- **New Year's Day** - observed January 1st
 - **Martin Luther King Jr. Day** - observed third Monday in January
 - **Easter Monday** - observed the Monday following Easter Sunday (varies by year, but will fall between March 22 and April 25)
 - **International Workers' Day/Labour Day** - observed May 1

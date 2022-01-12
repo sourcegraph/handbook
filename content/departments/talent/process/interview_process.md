@@ -5,6 +5,7 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
+- [Identifying candidates](identifying_candidates.md)
 - **You are here:** the interview process
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
@@ -43,6 +44,8 @@ The Recruiter conducts an initial recruiter screen with eligible candidates. Sam
 - COMING SOON: how to schedule with Calendly
 - To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
 
+If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
+
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
 - [Click here](../tools/resources_for_recruiting_operations.md#interview-scheduling) to learn more about scheduling interviews at Sourcegraph.
@@ -53,6 +56,7 @@ If the Hiring Manager chooses to advance a candidate following the Hiring Manage
 
 - COMING SOON: link to instructions on how we schedule interviews
 - Interview process and sample interview questions for each department [here](interview_process.md)
+- If the candidate does not show up for the interview in the first 5 minutes, the Hiring Manager will send a message in the private Slack channel for the position and tag the Recruiter and Recruiting Coordinator. If the candidate does not show up for over 5 minutes, the Hiring Manager will end the interview.
 
 ### The "onsite" stage
 

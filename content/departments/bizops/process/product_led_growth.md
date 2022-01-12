@@ -44,7 +44,7 @@ To see how individual teams fit into the flywheel, please see [the full deck](ht
 
 # Lead Scoring at Sourcegraph
 
-Lead scoring is a framework we have put in place across Hubspot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase.
+Lead scoring is a framework we have put in place across HubSpot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase.
 
 Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below.
 
@@ -88,7 +88,7 @@ In most mature organizations, typically only those inbound leads formally meetin
   <tr>
    <td>Page view (pricing)
    </td>
-   <td>5 points 
+   <td>5 points
    </td>
   </tr>
   <tr>
@@ -136,7 +136,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>A 
+   <td>A
    </td>
    <td>Very active
    </td>
@@ -153,7 +153,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>B  
+   <td>B
    </td>
    <td>Moderately active
    </td>
@@ -166,7 +166,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>C  
+   <td>C
    </td>
    <td>Minimally active
    </td>
@@ -179,7 +179,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>D 
+   <td>D
    </td>
    <td>Inactive post sign-up / install
    </td>
@@ -192,7 +192,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>N/A 
+   <td>N/A
    </td>
    <td>Not applicable
    </td>
@@ -229,11 +229,11 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed (# of days active) 
+<li>≥10 return visits completed (# of days active)
 </li>
 </ol>
    </td>
-   <td>A  
+   <td>A
    </td>
    <td>Very active
    </td>
@@ -248,7 +248,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>B  
+   <td>B
    </td>
    <td>Moderately active
    </td>
@@ -261,7 +261,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>C 
+   <td>C
    </td>
    <td>Inactive post sign-up / install
    </td>
@@ -274,7 +274,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </li>
 </ol>
    </td>
-   <td>N/A 
+   <td>N/A
    </td>
    <td>Not applicable
    </td>
@@ -305,9 +305,9 @@ Cloud SaaS:
 
 - [Sourcegraph SaaS Vision](https://docs.google.com/presentation/u/0/d/1c5ByMM9dLZZF0oi6i9Hnshvo8S4xbHIqLCUOP9tjQyc/edit)
 
-Extensibility:
+Growth and Integrations:
 
-- [Extensibility Team - Cloud Org](https://docs.google.com/document/u/0/d/16pZ2QIRW2rvYVtyxuqWR91DTgReIdrOAAa_bX5q9kR8/edit)
+- [Growth and Integrations Team - Cloud Org](https://docs.google.com/document/u/0/d/16pZ2QIRW2rvYVtyxuqWR91DTgReIdrOAAa_bX5q9kR8/edit)
 
 ### External resources
 

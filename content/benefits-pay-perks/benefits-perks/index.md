@@ -14,7 +14,7 @@ We have a flexible Paid Time Off (PTO) policy with mandatory annual vacation tim
 
 ### 🏃 Wellness
 
-A healthy mind and body is imperative to doing your best work and living a healthy life. We offer an $100 monthly wellness stipend that can be used at your discretion.
+A healthy mind and body is imperative to doing your best work and living a healthy life. We offer a $100 monthly wellness stipend that can be used at your discretion.
 
 ### 👪 Family planning support
 
@@ -42,7 +42,7 @@ We want to ensure all teammates have a workspace that will make them comfortable
 
 ### 🏢 Co-working space
 
-We offer our teammates a $300–500 [monthly budget](spending-company-money.md#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking—teammates absorb any additional cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy travelling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
+We offer our teammates a $300–500 [monthly budget](spending-company-money.md#recurring-expenses) to join a coworking space. Our intention is not for teammates to use this budget to rent set/permanent office spaces, but rather to have an alternative, flexible space from which to work if and when they may not be able to work from their homes productively. With the wide variety of coworking spaces and options available throughout the world, we ask that teammates stick to options within this budget, including all amenities and parking—teammates absorb any additional cost for more expensive options, locations and/or amenities, such as private offices within coworking spaces, which are often not necessary. We also encourage teammates to consider coworking spaces where subscriptions include access to their spaces in various locations, particularly for teammates who enjoy traveling. If your circumstances are exceptional and require spend outside of this budget, feel free to reach out to the PeopleOps team.
 
 ### 🚚 Moving help
 

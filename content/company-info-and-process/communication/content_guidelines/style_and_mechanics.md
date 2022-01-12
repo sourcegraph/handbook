@@ -1160,8 +1160,8 @@ Don’t use examples to compensate for poor documentation. Avoid “cutesy” ex
 
 For consistency, all examples should use the following names (as appropriate).
 
-- **People:** Logan, Morgan, Jordan, Riley (gender-neutral first names)
-- **Usernames:** `logan`, `morgan`, `jordan`, `riley`
+- **People:** Logan, Morgan, Jordan, Riley, Cris, Cami, Dani, Alex, Chidi, Akira, Sam (or other [gender-neutral first names](https://en.wikipedia.org/wiki/Unisex_name), instead of the traditional Alice, Bob, Charles...)
+- **Usernames:** `logan`, `morgan`, `jordan`, `riley`, `cris`, `cami`, `dani`, `alex`, `chidi`, `akira`, `sam`
 - **Hostnames:** example.com and subdomains of example.com (avoid using real names such as `mycompany.com`)
 - **Email addresses:** logan@example.com, morgan@example.com
 - **URLs:** https://sourcegraph.example.com (assume HTTPS)

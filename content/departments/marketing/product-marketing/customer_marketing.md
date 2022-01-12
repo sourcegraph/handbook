@@ -21,7 +21,7 @@ We're always looking to share how our customers use Sourcegraph. If there's a cu
 
 ## Customer Advisory Board
 
-Sourcegraph's Customer Advisory Board is comrpised of engineering leaders from our strategic customers. The advisory board meets quarterly to discuss common challenges, share best practices, and provide feedback on our roadmap. We'll open up nominations for new CAB members every quarter. If you have any questions, please join the #customer-adivsory-board Slack channel.
+Sourcegraph's Customer Advisory Board is comprised of engineering leaders from our strategic customers. The advisory board meets quarterly to discuss common challenges, share best practices, and provide feedback on our roadmap. We'll open up nominations for new CAB members every quarter. If you have any questions, please join the #customer-advisory-board Slack channel.
 
 Check out these resources to learn more about the program and takeaways from past meetings:
 

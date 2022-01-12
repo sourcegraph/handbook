@@ -12,6 +12,7 @@ We provide two primary ways of requesting support from Repo Management:
 The [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) channel in Slack is our preferred method of receiving support requests.
 If your support request is a simple question, post in the channel. You don’t have to provide a GitHub issue or any other artifact.  
 If your support request is more than a question (e.g. customer bug, deep dive required, high priority ask), follow the support (request guidelines below)[insert link]
+
 If you are unsure whether Repo Management is the right team, or it impacts multiple teams, you can post in the [#ask-product-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W) channel. We recommend posting in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) if you know that Repo Management is the right owner as we do not review the #ask-product-eng channel as quickly.
 
 ### Support Request Guidelines

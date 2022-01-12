@@ -38,7 +38,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 We are an early-stage company, and every team member can have a huge impact on our success. We want to make sure that everyone has a financial stake in the success and that contributions are rewarded.
 
-See [Equity FAQ](equity-faq.md).
+- See [Equity FAQ](equity-faq.md).
+- See [How and when stock option grants are calculated](equity-timing.md).
 
 ### Benefits and perks
 
@@ -64,8 +65,6 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-ops/index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../departments/people-ops/process/impact-reviews.md) process.
-
 ### Negotiating should not be needed
 
 We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term. We strive to reduce the impact of negotiations on offers and raises as much as possible. Our philosophy to make offers that are fair and generous is designed to ensure candidates feel appropriately valued and aren't forced to negotiate to get to something fair.
@@ -79,6 +78,8 @@ Any negotiations over compensation should focus on the role and level rather tha
 We provide variable compensation in the form of commissions for roles that are measured by numerical performance (including certain roles in the Sales and Customer Engineering organizations), but we do not use reoccurring formal bonuses otherwise.
 
 However, managers can occasionally grant ad hoc bonuses (cash and equity are both possible) for strong performance. In such cases, they are expected to make the case for the bonus and tie it to the bands for their organization.
+
+As a note, our [Impact reviews](../../../departments/people-ops/process/impact-reviews.md#360-impact-review-cycles) are one of the many data points managers can use when determining the reward of a compensation change or promotion. There is no direct correlation between the two, and Impact reviews should be viewed independently of a merit change, and as a singular data point. There was great intention in creating our Impact reviews to view them as markers of personal development rather than reviews that result in a change of pay or titles.
 
 ## Compensation bands
 

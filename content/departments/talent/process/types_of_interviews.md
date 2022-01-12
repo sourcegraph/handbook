@@ -39,8 +39,8 @@ All departments are likely to have some or all of the below universal interview 
   - Tell me about your work experience, past to present.
   - Why are you looking for something new?
   - Why are you interested in Sourcegraph and our open position?
-  - What are you looking for in your next role, and what are you career goals?
-  - Do you have overlap with a specific timezone? (only applicable for roles that have time zone requirements)
+  - What are you looking for in your next role, and what are your career goals?
+  - Do you have overlap with a specific time zone? (only applicable for roles that have time zone requirements)
   - Tell us how much exposure, if any, you have had working with teammates across time zones. How did you stay connected and up-to-date with your team?
   - What is your ideal start date?
   - Are your compensation expectations in line with our compensation range, which is XYZ?
@@ -53,7 +53,7 @@ All departments are likely to have some or all of the below universal interview 
 - Details: during this stage in the interview process, the Hiring Manager will introduce themself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and the candidate.
 - Example questions:
   - What did you do to prepare for this conversation?
-  - Why do you want to be a [role title]? What are your longterm goals?
+  - Why do you want to be a [role title]? What are your long term goals?
   - How would you explain what Sourcegraph does to a friend?
 
 ## Resume Deep Dive
@@ -258,7 +258,7 @@ A summary of the 4 prompts are provided below:
 1. **Preparing for a customer call:** See below for some meeting notes taken by your Account Executive (AE) from an initial meeting with a prospect. The AE is requesting that you prepare a demo. Based on the notes provided: what would your demo agenda be, what would your talking points be during it, what questions do you still have for the AE and / or the customer, what additional information do you need, what would be your ideal next step after that meeting and how do you get there?
 2. **Discovery during a customer call:** See below for some high-level information about a prospect put together by a Sales Development Rep (SDR). They are requesting that you and an AE join them on a second conversation with the Director of Developer Productivity and several IC engineers. What are some things you’d want to uncover during that next meeting, what would you ask, what would you share, what in your mind is the overall goal of that meeting?
 3. **Dealing with detractors:** Your AE is asking you to join a meeting with a prospective customer. The AE has met with the prospect a couple times and the initial feedback you’re hearing from the AE is that the prospect isn’t seeing the value in Sourcegraph and does not feel like it’s compelling enough for them to consider at this time given other priorities they have. How do you handle this situation? What’s your game plan with your AE for that meeting?
-4. **Managing customer expectations and internal handling:** You are working with a customer during a trial and they are running into an issue trying to set up one of their code hosts. How would you handle this situation? What do you say to your customer? Who internally do you engage? What if you learn that what they are trying to do is actually a feature request; how does that change your approach?
+4. **Managing customer expectations and internal handling:** You are working with a customer during a trial and they are running into an issue trying to set up one of their code hosts. How would you handle this situation? What do you say to your customer? Who internally do you engage with? What if you learn that what they are trying to do is actually a feature request; how does that change your approach?
 
 The agenda for the meeting will go as follows:
 
@@ -276,7 +276,7 @@ Finally, as you prepare for this it may be useful to read some of our [customer 
 **<span style="text-decoration:underline;">Prompt #1: AE Notes</span>**
 
 1. Current team size:
-   - 200 engineers. LinkedIn only shows 43 as many engineers are coming from acquired software companies. This will help accelerate their development, goal is to improve their customer experience of their betting platform.
+   - 200 engineers. LinkedIn only shows 43 as many engineers are coming from acquired software companies. This will help accelerate their development, the goal is to improve their customer experience of their betting platform.
    - 100% growth in last year
    - 50% growth next year
 2. Why Anything (where is the need from)?
@@ -356,9 +356,9 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Duration: 60-minutes.
 - Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
 
-### Technical Interview: Coding Skills (Repository Management Team)
+### Technical Interview: Coding Skills
 
-- Interviewers: two members of the Repository Management Team
+- Interviewers: two members of the engineering team
 - Duration: 60-minutes.
 - Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
 
@@ -497,11 +497,11 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ### Director of Design
 
-#### Peer & leadership
+#### Peer + Leadership
 
 - Interviewer(s): Director of Product + Director of Engineering
 - Duration: 1 hour
-- Details: In this interview, you will meet with Directors from Product and Engineering (hopefully) from the same organization. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, focusing on your experiences integrating and supporting cross functional work. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and shared sense of ownership over our Product/Engineering goals (OKRs). We’re looking for to talk about your experiences managing a team, what you've learned, and how you inspire and challenge your team of peers and your reports.
+- Details: In this interview, you will meet with Directors from Product and Engineering (hopefully) from the same organization. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, focusing on your experiences integrating and supporting cross functional work. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and shared sense of ownership over our Product/Engineering goals (OKRs). We’re looking for you to talk about your experiences managing a team, what you've learned, and how you inspire and challenge your team of peers and your reports.
 
 #### Design feedback & processes
 
@@ -537,35 +537,23 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ### Director of Technical Writing
 
+#### Async strategy and writing project
+
+- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
+- Duration: ~1 hour
+- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
+
 #### Working session on strategy & Leadership
 
 - Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
 - Duration: 1 hour
 - Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
 
-#### Design collaboration
+#### Cross-functional interview
 
-- Interviewer: [Product designer](../../product-engineering/product/team/index.md)
-- Duration: 30 mins
-- Details: In this interview, you will meet with one of the Product Designers to discuss how you've worked with Design and other cross functional teams in the past. We will ask questions about your philosophy on technical writing and documentation and how you lead and evangelize your ideas throughout an organization. We're looking for how you prioritize and productize documentation, and how you would go about doing so in our handbook-first company.
-
-#### Engineering collaboration
-
-- Interviewer: [Engineering manager](../../product-engineering/engineering/team/index.md#planned-organization)
-- Duration: 30 mins
-- Details: In this interview, you will meet with one of the Engineering managers to discuss how you've worked closely with Engineering and other cross functional teams in the past to build the best technical documentation. We have a unique opportunity to create an interesting integrated docs experience with our product. We'd like to discuss that vision and how you would be able to help us achieve this vision.
-
-#### Marketing collaboration
-
-- Interviewer: [Marketing team member](../../../team/org_chart.md#marketing)
-- Duration: 30 mins
-- Details: In this interview, you will meet with someone from the Marketing team to discuss how you've partnered with Marketing and other cross functional teams in the past. We're interested in how you will work closely with the Developer education team aligning and overlapping for creating an incredible experience for developers. We'll talk about how to collaborate and produce educational and other types of content that connects with our customers and users.
-
-#### Customer support collaboration
-
-- Interviewer: [Virginia Ulrich](../../support/team/virginia-readme.md), Head of CS
-- Duration: 30 mins
-- Details: In this interview, you will meet with the Head of CS, to discuss how you've worked with Customer Support and other cross functional teams in the past. Customer support has a unique view into the key problems that our customers are experiencing, and are key to making sure our product documentation helps them sort through questions. We will discuss how the two teams collaborate together to create documentation that is trusted and loved by our users and customers. We're looking for how you would create and build out a doc structure and organization that benefits the Customer Support team and our customers.
+- Interviewer: [Emily Chapman](../../../team/index.md#emily-chapman) and [Quinn Keast](../../../team/index.md#quinn-keast)
+- Duration: 60 mins
+- Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
 
 ### Product manager
 
@@ -584,7 +572,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 - Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
-- Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will have about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
+- Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
 #### Engineering collaboration
 
@@ -607,7 +595,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 - Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
 - The interview is in 2 parts. Below is the prompt:
 - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
-- Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
+- Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
 
 ## Sales
 
@@ -683,6 +671,6 @@ A great resource on structure (including some great walkthrough videos) from [Be
 - Duration: we expect this to take no more than 1 hour.
 - Details: we want to ensure we understand your approach to proactively reaching out to and engaging with passive talent. Instructions:
 - **Step 1.** You are the newly assigned Recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
-- **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you are targeting them specifically?
+- **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you targeting them specifically?
 - **Step 3.** As we know, rarely do we hear back from a candidate after our 1st message or call. Pick one of the above profiles and please describe your outreach "campaign." What steps will you take to engage with this candidate? Please 1) include example inmails, emails, voicemails etc, and 2) please explain your approach and why you chose to craft your outreach campaign in this way. Your ultimate goal is to secure a call with the candidate.
 - **Step 4.** Good news! The candidate you messaged in step 3 is interested in having an exploratory conversation. How do you describe/sell Sourcegraph to them?

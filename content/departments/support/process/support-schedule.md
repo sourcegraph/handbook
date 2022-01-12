@@ -29,6 +29,7 @@ _Note: we can only have 3–4 folks with the same focus day. If you don't see th
 | Virginia    | 8am–5pm     | 16:00–01:00 | 8am–5pm       | Friday    |
 | Brielle     | 9am–5pm     | 15:00–23:00 | 7am–3pm       | Monday    |
 | Nonso       | 9am–5pm     | 09:00–17:00 | 1am–9am       | Monday    |
+| Riana       | 9am–5pm     | 02:00–10:00 | 6am–2pm       |           |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
