@@ -88,10 +88,10 @@ Internal compensation bands are maintained by the [People Ops](../../../departme
 - [Sales compensation bands (last updated 2022-01-07)](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
 - [Engineering compensation bands (last updated 2021-11-01)](https://docs.google.com/spreadsheets/d/1ywMdWxL8jCpGRXvEIY-bCVD4d4OZNRvz6-Gn4Spg4XU)
-- [Product compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1crngPVeZI-UcIzAmJphUhx-7eAOAm8kFbyOKs3GPFv4)
+- [Product compensation bands (last updated 2021-11-01)](https://docs.google.com/spreadsheets/d/1crngPVeZI-UcIzAmJphUhx-7eAOAm8kFbyOKs3GPFv4)
 - [Customer Engineering compensation bands (last updated 2021-10-14)](https://docs.google.com/spreadsheets/d/1UVQ20MWjjRkOxJifQR-9OrgbJzih3mcYvAHMeMhd03Q)
 - [Operations compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1x-MnymL9uw6xvyKQCX331W5w778rTwYAw3AJ_picnvU)
-- [Talent compensation bands (last updated 2021-12-01)]()
+- [Talent compensation bands (last updated 2021-12-01)](https://docs.google.com/spreadsheets/d/1Ri6MKZUwSprCqJ-7ncBDcdO9SERwUEH2xo0_xvU5Mbk/edit#gid=0)
 
 If you would like access to these spreadsheets, please contact your manager or the People Ops team. For now, these spreadsheets are only available to department heads (who may choose to share with hiring managers on their teams).
 
