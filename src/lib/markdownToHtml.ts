@@ -211,6 +211,24 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
+const replaceMatchedOrg = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateReportingStructure(group2)
+
+const replaceAsync = async (
+    markdown: string,
+    regex: RegExp,
+    replacer: (string: string, ...args: string[]) => Promise<string>
+): Promise<string> => {
+    const promises: Promise<string>[] = []
+    markdown.replace(regex, (match: string, ...args: string[]): string => {
+        const promise = replacer(match, ...args)
+        promises.push(promise)
+        return match
+    })
+    const data = await Promise.all(promises)
+    return markdown.replace(regex, (): string => data.shift() as string)
+}
+
 async function insertGeneratedMarkdown(markdown: string): Promise<string> {
     if (markdown.match(/{{generator:/)) {
         markdown = markdown.replace(
@@ -237,10 +255,7 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:product_teams_list}}/gi,
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
-        markdown = markdown.replace(
-            /{{generator:reporting_structure.vp_product}}/gi,
-            await Promise.resolve(generatedMarkdown.generateReportingStructure('vp_product'))
-        )
+        markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedOrg)
         markdown = markdown.replace(
             /{{generator:engineering_ownership}}/gi,
             await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
