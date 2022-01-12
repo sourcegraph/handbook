@@ -13,7 +13,7 @@
 
 You can find an example template below that uses all available features.
 
-All fields except name are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`; any fields using markdown should be quoted (i.e., surrounded with single or double quotes), just like the `links` example below. If you would like to be featured on the [company-wide org chart](https://handbook.sourcegraph.com/team/org_chart), be sure to add a `reports_to` field. If you are a [manager](#new-managers), be sure to add both `reports_to` and `manager_role_slug`.
+All fields except name are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`; any fields using markdown should be quoted (i.e., surrounded with single or double quotes), just like the `links` example below. If you would like to be featured on the [company-wide org chart](../../team/org_chart.md), be sure to add a `reports_to` field. If you are a [manager](#new-managers), be sure to add both `reports_to` and `manager_role_slug`.
 
 The order of fields doesn't matter. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md). If you receive errors during the build, check the [handbook check failures page](handbook-check-failures.md).
 
@@ -49,7 +49,7 @@ Remove `(Interim)` from the role title, as well as the `hidden_on_team_page` fie
 
 ## New employees
 
-Add your personal entry, and make sure it has a `reports_to` field with the appropriate slug if you would like to appear on the [company-wide org chart](https://handbook.sourcegraph.com/team/org_chart). To find your manager's slug, locate your manager’s entry, and use the value they have entered for `manager_role_slug`. For example, if you report to Jason Yavorska, his `manager_role_slug` is `product_director_code_graph`. So you'd add a row that looks like this:
+Add your personal entry, and make sure it has a `reports_to` field with the appropriate slug if you would like to appear on the [company-wide org chart](../../team/org_chart.md). To find your manager's slug, locate your manager’s entry, and use the value they have entered for `manager_role_slug`. For example, if you report to Jason Yavorska, his `manager_role_slug` is `product_director_code_graph`. So you'd add a row that looks like this:
 
 ```yaml
 your_name:
