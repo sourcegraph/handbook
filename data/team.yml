@@ -2282,3 +2282,11 @@ philipp_spiess:
   github: philipp-spiess
   links: '[@PhilippSpiess](https://twitter.com/PhilippSpiess), [LinkedIn](https://www.linkedin.com/in/philipp-spiess/)'
   description: Philipp grew up in the countryside of Austria and developed a passion for Web programming very early. After moving to Vienna to study computer science and working on some freelancing gigs, he helped create a PDF editor for the Web. Before joining Sourcegraph, Philipp worked as a Front-End Engineer at Meta/Facebook in London. Outside of work, his hobbies vary wildly, from being a home barista to learning new cooking techniques, working on DIY projects, or playing video games.
+
+feroz_salam:
+  name: Feroz Salam
+  email: feroz.salam@sourcegraph.com
+  github: ferozsalam
+  role: Security Engineer
+  location: Bristol and London, UK
+  description: Feroz has been working in security engineering for most of his career, initially as a developer of anti-phishing products and more recently within application security and incident response for banking infrastructure. His LinkedIn profile also claims that his skills include French Horn, Dairy Science, and Immigration Issues; some of these might be true.
