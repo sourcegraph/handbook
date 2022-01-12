@@ -5,7 +5,7 @@ The guidelines here are based on Sourcegraph’s [existing guidelines around our
 ## Role Transfer/Promotion Requirements for Internal Candidates
 
 1. Approval from the candidate’s direct manager on performance and values alignment. This should include at least 2 consecutive quarters of proven demonstration of performance at current level in current role based on the [documented CE competencies](https://sourcegraph.latticehq.com/grow/tracks/d4394744-a08e-4abf-a992-5b532f135a10).
-1. While Sourcegraph is an [all-remote company](../../../company-info-and-process/remote.md#all-remote), it’s important that a customer engineering manager’s availability aligns with the teammates they manage, the sales teams they partner with and the customers their teams support. As such, internal CE candidates for management roles will need to have appropriate geographic alignment to be considered for a position.
+1. While Sourcegraph is an [all-remote company](../../../company-info-and-process/remote/index.md#all-remote), it’s important that a customer engineering manager’s availability aligns with the teammates they manage, the sales teams they partner with and the customers their teams support. As such, internal CE candidates for management roles will need to have appropriate geographic alignment to be considered for a position.
 1. Customer Engineering Manager roles are either M4 or M5 level roles. Based on Sourcegraph compensation and leveling guidelines, only CEs at the IC3 or higher level are eligible to interview for a M4 or M5 position.
 1. Any exception to these requirements will be on a ‘needs of the business’ basis and require VP approval before interviewing.
 
