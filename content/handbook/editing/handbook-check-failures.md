@@ -139,7 +139,7 @@ data/search must have required property 'title'
 data/product_orgs.yml valid
 ```
 
-The file with invalid YAML will be reported as invalid, and the error will be listed following that line. In the above example, the `data/search` entry is missing a required property - its title.
+The file with invalid YAML will be reported as invalid, and the error will be listed following that line. In the above example, the `data/search` entry is missing a required property—its title.
 
 If you are confused by the error message you're seeing you can always reach out for help in #handbook.
 

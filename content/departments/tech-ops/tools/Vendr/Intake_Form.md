@@ -15,7 +15,7 @@ Vendr has a video for [How to submit an intake](https://vimeo.com/587847826/8417
 - Mid-Term: Upgrading or downgrading mid way through an existing engagement with a supplier.
 - Month to Month: Supplier engagement on a month to month basis. Looking to explore an annual contract.
 
-6. Follow the steps in the intake form - make sure to fill out **all** the fields.
+6. Follow the steps in the intake form—make sure to fill out **all** the fields.
 
 ![Buy](https://storage.googleapis.com/sourcegraph-assets/Vendr%20-%20Buy%20%231.jpg)
 

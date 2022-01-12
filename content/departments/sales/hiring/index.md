@@ -22,7 +22,7 @@ We publicly document our interview process for each of the different sales roles
 6. We check your references.
 7. We make you a job offer.
 
-We know the above process looks like a lot, but we promise **we move quickly**! Our goal is to get all candidates through the interview process in 1-2 weeks depending on your schedule.
+We know the above process looks like a lot, but we promise **we move quickly**! Our goal is to get all candidates through the interview process in 1–2 weeks depending on your schedule.
 
 ## AE interview process (3.5 hours total)
 

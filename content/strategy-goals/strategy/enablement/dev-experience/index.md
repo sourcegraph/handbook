@@ -8,7 +8,7 @@ Make it so that every developer feels empowered to be productive in contributing
 
 ## Vision
 
-We want teammates and contributors to be delighted by the experience of working on Sourcegraph — to have a feeling so strong that it becomes a key contributor to their happiness and an asset in our recruitment of new teammates.
+We want teammates and contributors to be delighted by the experience of working on Sourcegraph—to have a feeling so strong that it becomes a key contributor to their happiness and an asset in our recruitment of new teammates.
 
 What is a delightful experience for developers exactly? While it's different for everyone, these experiences all share common traits: reproducibility, predictability, short feedback loop, previewing changes.
 
@@ -56,7 +56,7 @@ Our high-level roadmap is blurry; we aim to work on the most impactful problems.
   - Tactic: Evaluate and decide if we continue with OkayHQ.
   - OKR: Those metrics are sufficient to corroborate existing DX hypotheses (or invalidate them).
 
-### Next (6-12 months)
+### Next (6–12 months)
 
 We are currently drafting opportunities and projects we plan to explore over next year in our [strategy draft document](https://docs.google.com/document/d/1IrIe7NUEr_0RscvWDuvtjAKFRIp4agpc_in1_6T5WBQ/edit#).
 

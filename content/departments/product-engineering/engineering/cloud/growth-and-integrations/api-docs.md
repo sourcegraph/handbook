@@ -46,7 +46,7 @@ Below is a summary of history our team has made, focusing on key milestones.
 
 - API docs have now indexed: 3000+ repositories with 5.8 million GitHub stars combined, 23,000+ Go packages, and 1 million fairly high quality Go symbol pages.
 - From having no sitemap at all on Sourcegraph.com, we create a new [sitemap generator](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/sitemap) which builds a sitemap of 400k+ API docs pages issuing several million GraphQL queries against our backend to produce it.
-- You can now link to individual symbols in API docs pages - a major UX milestone and important for our SEO.
+- You can now link to individual symbols in API docs pages—a major UX milestone and important for our SEO.
 - Major improvements to our SEO in general, preventing Google from indexing garbage pages and improving metadata. API docs gains link previews.
 
 #### July, 2021:

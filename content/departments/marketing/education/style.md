@@ -82,7 +82,7 @@ Our written resources should follow a consistent approach to structure. There sh
 Generally, procedural tutorials should follow the following format:
 
 - **Title**, H1 heading: Often following a _How to_ title format, though there are exceptions
-- **Introductory paragraphs**, no heading: Should explain in 1-3 paragraphs why the reader may find this tutorial valuable, and what to expect to have completed by the end of the tutorial
+- **Introductory paragraphs**, no heading: Should explain in 1–3 paragraphs why the reader may find this tutorial valuable, and what to expect to have completed by the end of the tutorial
 - **Steps**, H2 headings: Often following a _Step 1 — Do something_ format, this is the body of the tutorial and where most of the procedure that the reader is following is documented
 - **Secondary steps**, H3 headings: Nested headings should only be used when needed, and may refer to the same step on a different operating system, or closely related and more granular steps of a procedural process
 - **Concluding section**, H2 heading: Can be _Next steps_ or *Further resources* — here is an opportunity to reiterate what the reader has accomplished and provide them with additional links to learn more
