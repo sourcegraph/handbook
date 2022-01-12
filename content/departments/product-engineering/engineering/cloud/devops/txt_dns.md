@@ -14,4 +14,3 @@ owned DNS records you should make the change to the code in Terraform in our inf
 1. `terraform apply` the PR or ask a member of the DevOps team to do this
 1. Merge the PR **after** the apply succeeds
 
-For other
