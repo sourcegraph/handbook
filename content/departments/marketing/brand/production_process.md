@@ -77,7 +77,7 @@ What can we/should we be capturing to identify successes and areas for improveme
 
 **Analytics Status:** Working with Marketing, Sales, and People teams to better understand the most critical metrics to monitor and optimize for, after which we will build an initial set of universal dashboards to test data flow and accuracy. Once established, we will work with the Marketing Ops lead (open role) to set up individual dashboards to track each campaign and generate automatic and one-time reports for read-outs.
 
-**Process Metrics Status:** We use Asana and Harvest tor project management and time tracking. At the end of each quarter, we can prepare an analysis of internal process benchmarks to provide improvement targets.
+**Process Metrics Status:** We use Asana and Harvest for project management and time tracking. At the end of each quarter, we can prepare an analysis of internal process benchmarks to provide improvement targets.
 
 Examples of process metrics include:
 
