@@ -35,7 +35,7 @@ marie_curie:
 
 ## New managers
 
-If you are joining as a new manager, be sure to add `manager_role_slug` to your personal entry. After adding that, check that any team members who report to you have the appropriate `reports_to` field in their entry.  If you are stepping into a role that has been filled by an interim manager, you can update the existing entry rather than creating a new one. The entry would look something like this (depending on your role), but if you're unsure then ask your manager:
+If you are joining as a new manager, be sure to add `manager_role_slug` to your personal entry. After adding that, check that any team members who report to you have the appropriate `reports_to` field in their entry. If you are stepping into a role that has been filled by an interim manager, you can update the existing entry rather than creating a new one. The entry would look something like this (depending on your role), but if you're unsure then ask your manager:
 
 ```yaml
 director_design:
@@ -45,6 +45,7 @@ director_design:
   manager_role_slug: director_design
   hidden_on_team_page: true
 ```
+
 Remove `(Interim)` from the role title, as well as the `hidden_on_team_page` field. You don't need to change the `manager_role_slug` value.
 
 ## New employees
