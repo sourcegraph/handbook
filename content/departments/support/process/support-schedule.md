@@ -13,7 +13,7 @@ Our schedule is reflected in the working hours set in our calendars and what day
 _Note: we can only have 3–4 folks with the same focus day. If you don't see the day you wanted, talk to your manager and we can see if a change is possible, otherwise, please select another day._
 
 | Team member | Local hours | UTC hours   | Pacific hours | Focus day |
-|-------------|-------------|-------------|---------------|-----------|
+| ----------- | ----------- | ----------- | ------------- | --------- |
 | Alex        | 9am–5pm     | 14:00–22:00 | 6am–2pm       | Monday    |
 | Amber       | 9am–5pm     | 16:00–00:00 | 8am–4pm       | Monday    |
 | Ben         | 9am–5pm     | 15:00–23:00 | 7am–3pm       | Friday    |

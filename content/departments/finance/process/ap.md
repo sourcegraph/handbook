@@ -46,7 +46,7 @@ Best practice procurement processes should commence with the following steps:
 The table below presents the approval levels required for expenditure, based on $ amounts. Amounts below are in US dollars, inclusive of all taxes and charges. For procurement that exceeds an annual equivalent of $10,000, the Finance team will complete a PO.
 
 | Amount (Annual Equivalent) | Approval Required                                                                                 | Recommended Method of Payment            |
-|----------------------------| ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | $0–$1,000                  | Does not require specific approval                                                                | Expensify / Remote.com / Brex / Bill.com |
 | $1,000–$10,000             | Needs to be approved by a director or above of your department                                    | Brex / Bill.com via Sourcegraph AP team  |
 | $10,000 or greater         | Needs to be approved by a director or above of your department and Finance                        | Bill.com via Sourcegraph AP Team         |
@@ -70,7 +70,7 @@ Best practice guidelines relating to the go-to-market stage of procurement inclu
 Sourcegraph employees must request competitive quotes, in writing, as far as practicable, as presented in table 2 below.
 
 | Spend (Annual Equivalent) | Quotes |
-|---------------------------| ------ |
+| ------------------------- | ------ |
 | $0–$10,000                | 1      |
 | $10,000–$50,000           | 2      |
 | $50,000 or greater        | 3      |
