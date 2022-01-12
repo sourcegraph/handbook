@@ -48,7 +48,7 @@ Private channels will automatically be created for the following categories of c
 - Affinity groups: Channels for affinity groups that prefer a private space.
 - Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private - ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 
@@ -152,7 +152,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
 - #gaming - For all gamers
 - #golf - To all those golf fans here
-- #great-bandname - “That’s a great bandname” — all the things we find that would make a great band name
+- #great-bandname - “That’s a great bandname” — all the things we find that would make a great bandname
 - #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
 - #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
 - #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!

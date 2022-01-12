@@ -11,14 +11,14 @@ The following is true as of 2021-10-06.
 Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack.
 
 - This channel _is_ regularly checked and well monitored
-- So please do **NOT** directly message or CC an engineer - this is to try and protect their focus
+- So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
 - Instead, if it’s urgent, please @ either the PM or the EM in the question in the channel and we'll ensure it gets the best response
 
 ### Support request guidelines
 
 Support requests related to our [areas of ownership](index.md#responsibilities) should follow this process:
 
-1. Make sure there is an issue - if there's not, please create one and include:
+1. Make sure there is an issue—if there's not, please create one and include:
    - A short description of the ask
    - A more detailed explanation of the background, the context and the challenge that needs solving
    - Any guidance related to the impact this is having

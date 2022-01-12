@@ -35,7 +35,7 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 **Step 5**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
 - Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile
-- Select Close Reason - "hire-new headcount" or "hire-backfill"
+- Select Close Reason: "hire-new headcount" or "hire-backfill"
 - Click either `"yes"` or `"no"` in the "Keep Job Open" section. Only keep the job open if we are hiring for multiple openings
 - Select `"Yes"` for "Make Candidate Private"
 - Select `"Yes"` for "Export to BambooHR
@@ -78,7 +78,7 @@ After the candidate formally signs the offer letter (contract) generated through
 **Step 5**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
 - Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile
-- Select Close Reason - "hire-new headcount" or "hire-backfill"
+- Select Close Reason: "hire-new headcount" or "hire-backfill"
 - Click either `"yes"` or `"no"` in the "Keep Job Open" section. Only keep the job open if we are hiring for multiple openings
 - Select `"Yes"` for "Make Candidate Private"
 - Select `"Yes"` for "Export to BambooHR

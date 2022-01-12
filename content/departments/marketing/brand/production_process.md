@@ -24,31 +24,31 @@ Later in 2021, will be using a tool called [Brandfolder](https://brandfolder.com
 
 Here is our top-level [Brand folder](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP?usp=sharing) in the Sourcegraph Team Drive.
 
-Here is our externally-accessible [Shared Drive](https://drive.google.com/drive/folders/0AB4h8L66C8qAUk9PVA) — _Sourcegraph-Brand Design (ext shared)_ — for when we need to share or receive files from vendors. After a design is approved in Asana, final files and working files should be uploaded to the appropriate vendor folder in the Shared Drive.
+Here is our externally-accessible [Shared Drive](https://drive.google.com/drive/folders/0AB4h8L66C8qAUk9PVA) — _Sourcegraph-Brand Design (ext shared)_—for when we need to share or receive files from vendors. After a design is approved in Asana, final files and working files should be uploaded to the appropriate vendor folder in the Shared Drive.
 
 ## Naming Convention
 
-(asset name) + (category) + (version) + (file type)  
-Looks like: Asset-Name-category-version.xxx  
-Example in practice: Sales-Pitch-Deck-v7.ppt; POC-Kickoff-1sheet-v3.pdf  
+(asset name) + (category) + (version) + (file type)
+Looks like: Asset-Name-category-version.xxx
+Example in practice: Sales-Pitch-Deck-v7.ppt; POC-Kickoff-1sheet-v3.pdf
 _Note: Dates, names, descriptions and other important info is stored as metadata and any file notes can be added in Get Info. When we launch Brandfolder some of this will be auto-generated using AI and machine learning._
 
 **Example Categories**
-Brochure  
-Banner  
-Social (incl. Platform abbreviation and type, such as Header, Preview, Card, Story, etc.; dimensions are captured in metadata of the file): TW=Twitter; IG=Instagram, LI=LinkedIn, GD=Glassdoor, YT=YouTube, DS=Discord, TH=Twitch, RD=Reddit  
-One-sheets  
-Business Card  
-Letterhead  
-Swag (Include shirt, mug, socks, etc. if designed for a specific item)  
-Stickers  
+Brochure
+Banner
+Social (incl. Platform abbreviation and type, such as Header, Preview, Card, Story, etc.; dimensions are captured in metadata of the file): TW=Twitter; IG=Instagram, LI=LinkedIn, GD=Glassdoor, YT=YouTube, DS=Discord, TH=Twitch, RD=Reddit
+One-sheets
+Business Card
+Letterhead
+Swag (Include shirt, mug, socks, etc. if designed for a specific item)
+Stickers
 Deck
 
 ### Foldering System
 
 Brand > Assets > Type of Asset > Program or Campaign (if applicable)
 
-File Locations  
+File Locations
 **Google Drive** - all finished photography in appropriate subfolders; finished videos\* and cutdowns; print and digital design conceptual and finished files; finished audio files. [Google Drive](https://drive.google.com/drive/folders/1bV8Fis1ZKszGwMFWbjfRUFBVWeIui0NP) is our library of assets (for now, Brandfolder coming soon). All videos and photos should be stored in the main Brand folder, organized by content type and main use case. Any assets that have expired usage dates, or are simply outdated due to personnel or messaging changes, should be archived and labelled as such. We should scrub the drive quarterly to ensure freshness of content. Working files will be stored in Drive as well in a separate folder tree labelled Working Files. Backups will be held at 3 offsite locations on external drives.
 
 _Some videos created in collaboration with partners may only be sharable for limited time periods, i.e. weeks, months, or years. Please add notes in the Description section of the file after uploading to the appropriate location in Drive, and set an expiration date for sharing privileges if sharing outside of the team._
@@ -86,7 +86,7 @@ Examples of process metrics include:
 - Staff utilization (as a %); creative vs administrative time
 - On-time delivery rate (final deadline)
 - Error rate (should be zero)
-- Average rounds of revisions (1-2 is target)
+- Average rounds of revisions (1–2 is target)
 - Rounds of creative (less is better, should decrease over time)
 - Speed to market (avg. time to delivery)
 - Volume and frequency of rush requests (“P0s”) handled

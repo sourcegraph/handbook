@@ -1,6 +1,6 @@
 # Sourcegraph Procurement Policy
 
-The below policy relates to all expenses above $10,000 - including monthly recurring expenses with vendors where the annual run rate is above $10,000.
+The below policy relates to all expenses above $10,000—including monthly recurring expenses with vendors where the annual run rate is above $10,000.
 
 ## AP Policy
 
@@ -47,8 +47,8 @@ The table below presents the approval levels required for expenditure, based on 
 
 | Amount (Annual Equivalent) | Approval Required                                                                                 | Recommended Method of Payment            |
 | -------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| $0 - $1,000                | Does not require specific approval                                                                | Expensify / Remote.com / Brex / Bill.com |
-| $1,000 to $10,000          | Needs to be approved by a director or above of your department                                    | Brex / Bill.com via Sourcegraph AP team  |
+| $0–$1,000                  | Does not require specific approval                                                                | Expensify / Remote.com / Brex / Bill.com |
+| $1,000–$10,000             | Needs to be approved by a director or above of your department                                    | Brex / Bill.com via Sourcegraph AP team  |
 | $10,000 or greater         | Needs to be approved by a director or above of your department and Finance                        | Bill.com via Sourcegraph AP Team         |
 | $50,000 or greater         | Needs to be approved by a director or above of your department, Finance, and the VP of Operations | Bill.com via Sourcegraph AP Team         |
 
@@ -71,8 +71,8 @@ Sourcegraph employees must request competitive quotes, in writing, as far as pra
 
 | Spend (Annual Equivalent) | Quotes |
 | ------------------------- | ------ |
-| $0 - $10,000              | 1      |
-| $10,000 - $50,000         | 2      |
+| $0–$10,000                | 1      |
+| $10,000–$50,000           | 2      |
 | $50,000 or greater        | 3      |
 
 The number of quotes sought can be restricted to less than the required number if there are legitimate reasons for limiting the number of suppliers. Such reasons might include:

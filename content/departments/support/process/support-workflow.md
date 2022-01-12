@@ -26,7 +26,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
    10. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack.
    11. Depending on where the case originated, we may need to check with our internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
 
-   Spend 10-15 minutes just orienting to that customer before even looking at the details of the issue.
+   Spend 10–15 minutes just orienting to that customer before even looking at the details of the issue.
 
 6. **The application engineer does two extra things ASAP if the ticket originated from Slack.** Our trial- and support- channels are where our enterprise customers can work with anyone at Sourcegraph. This means not everything that comes into Zendesk via this medium will be for us (we use a Zapier integration that creates a new Zendesk ticket for each new post in a channel) -- you can see more details about our triage process [here](customer-support-triaging.md).
 
