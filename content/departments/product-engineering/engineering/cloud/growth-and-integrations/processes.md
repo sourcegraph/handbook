@@ -19,7 +19,7 @@ Our current process is as follows:
 
 - We work in **2-week iterations**. Every iteration has a GitHub milestone, which is created at least one iteration in advance.
 
-- Incoming tickets (from team members or from other teams) are added to the [GitHub project](https://github.com/orgs/sourcegraph/projects/213/views/1) automatically when they are labelled <span class="badge" style="background: var(--bs-teal)">team/extensibility</span> and will be visible in the ["To Triage" view](https://github.com/orgs/sourcegraph/projects/213/views/10).
+- Incoming tickets (from team members or from other teams) are added to the [GitHub project](https://github.com/orgs/sourcegraph/projects/213/views/1) automatically when they are labelled <span class="badge" style="background: var(--bs-teal)">team/growth-and-integrations</span> and will be visible in the ["To Triage" view](https://github.com/orgs/sourcegraph/projects/213/views/10).
 
 - **While an iteration is ongoing, we plan the next iteration**. This is a mostly asynchronous process.
 
@@ -53,8 +53,8 @@ These discussion items are captured on our [retrospective document](https://docs
 
 After each sprint, there are some manual tasks that are needed to be done before we start a new sprint.
 
-1. Create a new Sprint (milestone) on [GitHub](https://github.com/sourcegraph/sourcegraph/milestones). The title should be "Extensibility X" where X is +2 from last completed sprint. There should be an explanation with the format "Extensibility Sprint from 2021/11/08 - 2021/11/19", that starts on a Monday and finished in 2 weeks at Friday. This Friday should be saved as the "Due Date"
-2. Once the milestone is created, visit the [Current Iteration](https://github.com/orgs/sourcegraph/projects/213/views/1) board. If there are items on the Proposed, In Progress, or Blocked group, change their milestone to the upcoming milestone. Once all items are in Done, update the tab view query to filter this new milestone (eg change it from "milestone:"Extensibility 1" to milestone:"Extensibility 2"). Make sure to save the new view.
+1. Create a new Sprint (milestone) on [GitHub](https://github.com/sourcegraph/sourcegraph/milestones). The title should be "Growth and Integrations X" where X is +2 from last completed sprint. There should be an explanation with the format "Growth and Integrations Sprint from 2021/11/08 - 2021/11/19", that starts on a Monday and finished in 2 weeks at Friday. This Friday should be saved as the "Due Date"
+2. Once the milestone is created, visit the [Current Iteration](https://github.com/orgs/sourcegraph/projects/213/views/1) board. If there are items on the Proposed, In Progress, or Blocked group, change their milestone to the upcoming milestone. Once all items are in Done, update the tab view query to filter this new milestone (eg change it from "milestone:"Growth and Integrations 1" to milestone:"Growth and Integrations 2"). Make sure to save the new view.
 3. Once the [Current Iteration](https://github.com/orgs/sourcegraph/projects/213/views/1) board is updated, make sure to update the [Next Iteration](https://github.com/orgs/sourcegraph/projects/213/views/2) board query. Don't forget to save the view.
 4. Lastly, go back to the [Milestones](https://github.com/sourcegraph/sourcegraph/milestones?state=open) page and find the milestone that has just finished. Make sure that all the items are closed. If there are any open items, make sure to move them to the current milestone and close the milestone.
 

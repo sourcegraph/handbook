@@ -27,7 +27,7 @@ You are responsible for obtaining your laptop. You can find instructions [here](
 
 ### 📦 **An exciting delivery**
 
-We love our swag, and know you will, too! You will be receiving an email from someone in the People team a few days before your start date - please provide the requested information so that we can send you your Sourcegraph swag pack!
+We love our swag, and know you will, too! You will be receiving an email from someone in the People team a few days before your start date—please provide the requested information so that we can send you your Sourcegraph swag pack!
 
 ### 🪑 **Start getting your home office set up**
 
@@ -53,7 +53,7 @@ Sourcegraph is on a semi-monthly payroll cycle. Paychecks are the 15th and last 
 
 Keep in mind that teammates starting on the day before any given payday will receive their first paycheck on the following payday.
 
-## Non - US teammates
+## Non-US teammates
 
 ### 💸 **Getting Paid**
 

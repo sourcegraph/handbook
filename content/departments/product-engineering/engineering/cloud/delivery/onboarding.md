@@ -1,4 +1,4 @@
-# Delivery Engineer Oboarding
+# Delivery Engineer Onboarding
 
 Welcome to the Delivery team! This document will guide you through delivery-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../onboarding/index.md).
 
@@ -42,7 +42,7 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 #### Tasks
 
 - Familiarise yourself with the [internal infrastructure](../../tools/index.md) at Sourcegraph and ownership areas.
-  - Setup a 1 on 1 meeting with a member of the [cloud](../../cloud/devops/index.md#members) and [developer experience](../dev-experience/index.md#members)
+  - Setup a 1 on 1 meeting with a member of the [cloud](../../cloud/devops/index.md#members) and [developer experience](../../enablement/dev-experience/index.md#members)
 - Read through the [deployments types](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p) presentation
 - Schedule a 1 on 1 meeting with each of the engineers in the team
 - Set up a [local environment](https://docs.sourcegraph.com/dev/getting-started). This will be your other test environment. If you get stuck, just post in the #dev-chat Slack channel. You will often want to run Sourcegraph locally when you are troubleshooting or testing.

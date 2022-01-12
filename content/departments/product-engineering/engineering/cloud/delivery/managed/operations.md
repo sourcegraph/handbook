@@ -51,7 +51,7 @@ ssh_exchange_identification: Connection closed by remote host
 ERROR: (gcloud.beta.compute.ssh) [/usr/bin/ssh] exited with return code [255].
 ```
 
-This may be indicating that the VM is currently not running - check:
+This may be indicating that the VM is currently not running—check:
 
 ```sh
 $ gcloud beta compute instances list --project=sourcegraph-managed-$CUSTOMER

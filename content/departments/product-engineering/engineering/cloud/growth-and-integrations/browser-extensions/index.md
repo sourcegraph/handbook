@@ -1,6 +1,6 @@
 # Browser Extensions
 
-First released in 2016, the [Browser Extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) is the oldest product in the Extensibility ecosystem of products. The mission of the Browser Extension is to bring the value of Sourcegraph to code-hosts.
+First released in 2016, the [Browser Extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) is the oldest product in the Growth and Integrations ecosystem of products. The mission of the Browser Extension is to bring the value of Sourcegraph to code-hosts.
 
 <section>
   <div class="row" style="display:flex;">
@@ -73,6 +73,6 @@ First released in 2016, the [Browser Extension](https://about.sourcegraph.com/bl
 
 ## Contact
 
-- #extensibility channel or @extensibility-team on Slack.
-- [browser-extension](https://github.com/sourcegraph/sourcegraph/labels/browser-extension) label and [@sourcegraph/extensibility](https://github.com/orgs/sourcegraph/teams/extensibility) team on GitHub.
-- [Browser](https://github.com/orgs/sourcegraph/projects/213/views/6) view on the Extensibility board to display all issues.
+- #growth-and-integrations channel or @growth-and-integrations-team on Slack.
+- [browser-extension](https://github.com/sourcegraph/sourcegraph/labels/browser-extension) label and [@sourcegraph/growth-and-integrations](https://github.com/orgs/sourcegraph/teams/growth-and-integrations) team on GitHub.
+- [Browser](https://github.com/orgs/sourcegraph/projects/213/views/6) view on the Growth and Integrations board to display all issues.

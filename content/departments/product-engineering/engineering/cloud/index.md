@@ -23,6 +23,5 @@ Our vision is to offer the fastest, most seamless way for development teams to b
 
 - [SaaS](./saas/index.md)
 - [Security](./security/index.md)
-- [Growth](./growth/index.md)
-- [Extensibility](./extensibility/index.md)
+- [Growth and Integrations](./growth-and-integrations/index.md)
 - [DevOps](./devops/index.md)

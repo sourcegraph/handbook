@@ -18,7 +18,7 @@ If your changes include any images or video, you’ll need to upload to the Goog
 
 1. Once you have permissions set up, view the [sourcegraph-assets bucket](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true_)
 1. Make sure your file has a unique name that clearly describes the image or video. There are lots of files in Google Storage, and you want to be able to identify yours easily.
-1. If you’re working on a blog, navigate to the **blog/** folder found in the link in step 1. Navigate to the appropriate release folder - if your release folder is missing, go ahead and make a new one.
+1. If you’re working on a blog, navigate to the **blog/** folder found in the link in step 1. Navigate to the appropriate release folder—if your release folder is missing, go ahead and make a new one.
 1. Click "Upload Files" to select your file, and click "Open".
 
 ### Publishing changes

@@ -310,7 +310,7 @@ Red is used to signal serious alerts and error warnings.
 ### Color misuse
 
 Color should be used consistently to communicate a cohesive system.<br>
-Do not alter existing colors or add new colors to the palette. Use color to your advantage — and not to the detriment of a design.
+Do not alter existing colors or add new colors to the palette. Use color to your advantage—and not to the detriment of a design.
 
 <style>
   .color-misuse {

@@ -69,7 +69,7 @@ Do:
 - Make passwords hard to guess, even by those who know a lot about you.
 - Use a mix of numbers, letters (upper and lower case), and special characters but you don’t have to use them all
 - Make passwords complicated enough to need the use of a password manager (we use [1Password](https://1password.com/))
-- Create a password that is ideally 14 characters long
+- Create a password that is ideally 10 characters long
 - We recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
 
 ## JAMF Policy

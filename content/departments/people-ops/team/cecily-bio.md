@@ -50,7 +50,7 @@ I am not good at expressing when things aren’t going well personally, so if yo
 
 ### Things I am aware of that trigger anxious feelings/feelings of less than at work
 
-Making mistakes that affect my coworkers. I want to help my coworkers as much as I can and highly value - and encourage - feedback in all forms.
+Making mistakes that affect my coworkers. I want to help my coworkers as much as I can and highly value—and encourage—feedback in all forms.
 
 ### Areas of knowledge
 

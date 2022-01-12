@@ -1,26 +1,10 @@
-# Cloud growth
+# API docs
 
-The cloud growth team focuses on the growth of Sourcegraph.com, both as a SaaS product and lead generator for Sourcegraph as an on-prem product.
-
-## Members
-
-- [Bill Creager](../../../../../team/index.md#bill-creager) (Acting [Engineering Manager](../../roles/index.md#engineering-manager)) {#api-docs-eng}
-  - [Stephen Gutekanst](../../../../../team/index.md#stephen-gutekanst)
-  - FQ3 full stack engineer
-  - FQ3 full stack engineer
-  - FQ3 full stack engineer
-
-## Contact
-
-- #cloud-growth channel in Slack
+API docs is a core component of a company-wide initiative to help Sourcegraph become the standard tool for searching and understanding public code.
 
 ## Goals
 
-[Goals and roadmap](../../../../../strategy-goals/strategy/cloud/growth/index.md)
-
-## API docs
-
-The cloud growth team's primary focus for today is API docs. As we hire out this team we will be working on more growth opportunities. API docs is a core component of a company-wide initiative to help Sourcegraph become the standard tool for searching and understanding public code.
+[Goals and roadmap](../../../../../strategy-goals/strategy/cloud/growth-and-integrations/api-docs.md)
 
 ## The API docs vision
 
@@ -62,7 +46,7 @@ Below is a summary of history our team has made, focusing on key milestones.
 
 - API docs have now indexed: 3000+ repositories with 5.8 million GitHub stars combined, 23,000+ Go packages, and 1 million fairly high quality Go symbol pages.
 - From having no sitemap at all on Sourcegraph.com, we create a new [sitemap generator](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/sitemap) which builds a sitemap of 400k+ API docs pages issuing several million GraphQL queries against our backend to produce it.
-- You can now link to individual symbols in API docs pages - a major UX milestone and important for our SEO.
+- You can now link to individual symbols in API docs pages—a major UX milestone and important for our SEO.
 - Major improvements to our SEO in general, preventing Google from indexing garbage pages and improving metadata. API docs gains link previews.
 
 #### July, 2021:

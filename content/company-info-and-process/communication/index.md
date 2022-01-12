@@ -37,7 +37,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 ## Meetings
 
-- [Company meeting](company_meeting.md) (Mondays 8:00-8:30 am PST/PDT)
+- [Company meeting](company_meeting.md) (Mondays 8:00–8:30 am PST/PDT)
 - [Social calendar](../remote/social_calendar.md) meetings
 - [One on One](1-1.md) meetings
 
@@ -67,7 +67,7 @@ You may try this approach for more effective meetings. The goals are to surface 
 
 This assumes that currently the meeting has a Google Doc with notes that people sometimes write in advance and sometimes don't. This is better than nothing, but we can do even better.
 
-1. Everyone uses the first 5-15 minutes of the meeting to write down what they would like to communicate (e.g., updates on their progress, topics they would like to discuss, problems they've encountered, etc.). Then the rest is discussing and deciding in order.
+1. Everyone uses the first 5–15 minutes of the meeting to write down what they would like to communicate (e.g., updates on their progress, topics they would like to discuss, problems they've encountered, etc.). Then the rest is discussing and deciding in order.
    - Use this for a few weeks, and then...
 1. Everyone writes down their items _before_ the meeting. A topic that isn't written down can't be discussed. Spend the first 5 minutes of the meeting reading what other people wrote down, then discussing and deciding in order.
    - Use this for a few weeks, and then...
@@ -82,7 +82,7 @@ Structured meetings are great, but it's important to have casual, unscheduled, f
 - Join meetings early or on time.
 - End meetings on time.
 - Be patient for external folks who are running late to our meetings.
-  - For customers, prospects, and users, wait on the line for at least 10 minutes (and send them a friendly reminder after 3-5 minutes).
+  - For customers, prospects, and users, wait on the line for at least 10 minutes (and send them a friendly reminder after 3–5 minutes).
 
 ## Video calls
 

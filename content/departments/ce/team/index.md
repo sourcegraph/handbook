@@ -1,32 +1,43 @@
-# Customer Engineering Team README
+# CE Team Roster
 
-Our README expands on our profile in [the company team directory](../../../team/index.md) and are meant to help us orient to one another.
+## Current Team Members
 
-- Aimee [README](aimee-readme.md)
-- Bob [README](bob-readme.md)
-- Christy [README](christy-readme.md)
-- Greg [README](greg-readme.md)
+<!-- Alphabetically, by surname. -->
 
-The format, style, order, etc is up to each of us. Just make sure to include the following:
+- Leadership Team
 
-- Individual view on customer engineering
-- Preferred learning styles
-- Communication style
-- Preferred way to collaborate
-- Time of day most productive
-- How you approach problems
-- Preferred way to be recognized/appreciated
-- Thoughts/feelings/preferences when it comes to asking for help
-- How I like to give and receive feedback
-- What you find enjoyable at work
-- What kind of work do you find easiest to do when (for example, some folks write best at night or can focus more easily in the afternoon)
-- How do you feel about getting messages after/outside of hours that are meant for you to see and respond to during active hours
-- How folks can best show up for us when we seem off (give space, ask if work is the right place for us to be today, etc)
-- Things you are aware of that trigger anxious feelings/feelings of less than at work
-- A pet peeve
-- Areas of knowledge
-- Technical areas of interest to learn
-- Current personal project
-- Something you fear
-- A quote you like
-- Your Strengthsfinder results
+  - [Aimee Menne](../../../team/index.md#aimee-menne) (VP of Customer Engineering)
+  - [Christy Haragan](../../../team/index.md#christy-haragan) (Director of Customer Engineering, EMEA)
+  - [Bob Roudebush](../../../team/index.md#bob-roudebush) (Director of Customer Engineering, Americas)
+  - [Greg Seador](../../../team/index.md#greg-seador) (Manager of Customer Engineering, Americas West)
+  - Manager of Customer Engineering, Americas East (Starts Jan-24, 2022)
+
+- Americas West
+  - [Emily Chapman](../../../team/index.md#emily-chapman)
+  - [Dan Diemer](../../../team/index.md#dan-diemer)
+  - [Jonah Dueck](../../../team/index.md#jonah-dueck)
+  - [Rami Hamdan](../../../team/index.md#rami-hamdan)
+  - [Andrew Hsu](../../../team/index.md#andrew-hsu)
+  - [Christine Lovett](../../../team/index.md#christine-lovett)
+  - [Nate Maynard](../../../team/index.md#nate-maynard)
+  - [David Rohnow](../../../team/index.md#david-rohnow)
+  - [Dan Ryan](../../../team/index.md#dan-ryan)
+  - [Manuel Ucles](../../../team/index.md#manuel-ucles)
+  - [Max Wiederholt](../../../team/index.md#max-wiederholt)
+- Americas East
+  - [Leo Abreu](../../../team/index.md#leo-abreu)
+  - [Bill Caplan](../../../team/index.md#bill-caplan)
+  - [Alex Fogg](../../../team/index.md#alex-fogg)
+  - [Carson Hopkins](../../../team/index.md#carson-hopkins)
+  - [Shawn King](../../../team/index.md#shawn-king)
+  - [Mike McLaughlin](../../../team/index.md#mike-mclaughlin)
+  - [Nancy Shah](../../../team/index.md#nancy-shah)
+  - [DeVon Thompson](../../../team/index.md#DeVon-Thompson)
+- APAC
+  - [Isuru Fonseka](../../../team/index.md#isuru-fonseka)
+- EMEA
+  - [Ajay Sridhar](../../../team/index.md#ajay-sridhar)
+  - [Elzanne Wentzel](../../../team/index.md#elzanne-wentzel)
+  - [Simon Waterer](../../../team/index.md#simon-waterer)
+
+More details about our team members in [our team READMEs](readmes.md).
