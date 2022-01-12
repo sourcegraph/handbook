@@ -32,7 +32,7 @@ Add a blog post by creating a Markdown file in one of the `blogposts` child dire
 ```markdown
 ---
 title: The title
-description: A 300 character limit field for describing your post. Use this is you want to specially craft the excerpt shown on the index page. Uses the first 300 characters of text from your post if this field does not exist.
+description: A 300 character limit field for describing your post. Use this if you want to specially craft the excerpt shown on the index page. Uses the first 300 characters of text from your post if this field does not exist.
 author: The author name
 authorUrl: https://example.com/
 publishDate: YYYY-MM-DDT10:00-07:00
@@ -51,7 +51,7 @@ The data between the `---` is called front matter and is used to provide post me
 
 - The `description` field is optional and only needed if you want to craft the description for your post on the blog the index page.
 - The `authorUrl` field is optional but recommended.
-- The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
+- The `tags` field should be left as `blog` until we incorporate filtering posts via tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
 - The `canonical` field is optional and only required to override the canonical link. Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
