@@ -9,7 +9,7 @@ This page explains how team members can contribute to Sourcegraph's blog, includ
 
 Writing is a process, and thus, our editorial process is designed to aid the writer in producing their best work while staying on track with the publishing schedule. Pitches and first drafts can vary greatly in format and completeness. Some people like to create an outline for their first draft, others prefer to just start writing. The more you write, the more familiar you will get with your own writing process. What’s important is that you write multiple drafts and get feedback on them. This is how ideas turn into fully formed, thoughtful articles.
 
-It’s important to have a publishing schedule so that we can deliver relevant content to our audience at relevant times. The editorial team strategically manages our publishing calendar to optimize article views and engagement. For example, if you are writing an article on Go and GopherCon is two months away, we can time the release of your article to coincide with other activity around the conference. This has the potential to bring more attention and readers to your post while the topic is trending.
+It’s important to have a publishing schedule so that we can deliver relevant content to our audience at relevant times. The editorial team strategically manages our publishing calendar to optimize article views and engagement. For example, if you are writing an article on Go and GopherCon is two months away, we can time the release of your article to coincide with other activities around the conference. This has the potential to bring more attention and readers to your post while the topic is trending.
 
 ## Guidelines for contributing to Sourcegraph’s blog
 
@@ -68,12 +68,12 @@ Below are some common elements and themes found in the posts that tend to draw t
 
 #### Examples of great engineering posts
 
-Below are some examples of the types of blog post that are usually popular (from our blog and beyond):
+Below are some examples of the types of blog posts that are usually popular (from our blog and beyond):
 
 - [An ex-Googler's guide to dev tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/): This was one of our top blog posts of all time, and even now it still gets regular traffic. What worked?
   - It gives practical, actionable advice for engineers experiencing a common challenge after leaving Google (or any tech company that builds its own internal tools).
   - It's written from the point of view of someone who has experienced this pain! This helps to build trust with readers.
-  - It's not explictly selling Sourcegraph. Sure, code search is mentioned and the author is up front about being the CTO of a code search company, but it's not shoehorned in and there's far more to the blog post than promoting Sourcegraph.
+  - It's not explicitly selling Sourcegraph. Sure, code search is mentioned and the author is up front about being the CTO of a code search company, but it's not shoehorned in and there's far more to the blog post than promoting Sourcegraph.
   - Even though the post is long, the author sets expectations at the beginning about what readers will get from the post, and breaks the content up into sections with subheadings, numbers, and bullets, to make it more digestible than a wall of text.
 - [How not to break a search engine or: What I learned about unglamorous engineering](https://about.sourcegraph.com/blog/how-not-to-break-a-search-engine-unglamorous-engineering/)
 - [Optimizing a code intelligence commit graph](https://about.sourcegraph.com/blog/optimizing-a-code-intel-commit-graph/)
