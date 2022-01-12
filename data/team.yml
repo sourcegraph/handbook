@@ -2280,3 +2280,12 @@ feroz_salam:
   role: Security Engineer
   location: Bristol and London, UK
   description: Feroz has been working in security engineering for most of his career, initially as a developer of anti-phishing products and more recently within application security and incident response for banking infrastructure. His LinkedIn profile also claims that his skills include French Horn, Dairy Science, and Immigration Issues; some of these might be true.
+
+brady_garrett:
+  name: Brady Garrett
+  email: brady.garrett@sourcegraph.com
+  github: brady-garrett
+  role: Senior Data Analyst
+  location: Queen Creek, AZ, USA 🇺🇸
+  description: Brady started his career in finance where he first worked as a stock broker for Merrill Lynch. He has always loved math and data and was naturally drawn to analytics and data science. He most recently comes from working as a Senior Data Analyst at Pluralsight where he supported product analytics. When not working, Brady is usually found skateboarding, snowboarding, surfing, and adventruing with his wife, 3 kids, and dog oakley.
+  
