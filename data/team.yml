@@ -2509,51 +2509,11 @@ philipp_spiess:
   links: '[@PhilippSpiess](https://twitter.com/PhilippSpiess), [LinkedIn](https://www.linkedin.com/in/philipp-spiess/)'
   description: Philipp grew up in the countryside of Austria and developed a passion for Web programming very early. After moving to Vienna to study computer science and working on some freelancing gigs, he helped create a PDF editor for the Web. Before joining Sourcegraph, Philipp worked as a Front-End Engineer at Meta/Facebook in London. Outside of work, his hobbies vary wildly, from being a home barista to learning new cooking techniques, working on DIY projects, or playing video games.
 
-jessie_char:
-  name: Jessie Char
-  role: Senior Manager, Events & Experiences
-  reports_to: director_demand_generation
-
-lindsay_murphy:
-  name: Lindsay Murphy
-  role: Customer Marketing Lead
-  reports_to: director_product_marketing
-
-brady_garrett:
-  name: Brady Garrett
-  role: Senior Data Analyst
-  reports_to: business_operations_manager
-
-maureen_loughrey:
-  name: Maureen Loughrey
-  role: Tech Ops Engineer
-  reports_to: tech_ops_manager
-
 desene_sterling:
   name: Desene Sterling
   role: Financial Controller
   reports_to: vp_operations
   manager_role_slug: financial_controller
-
-samantha_ulrich:
-  name: Samantha Ulrich
-  role: Senior Accountant
-  reports_to: financial_controller
-
-will_camp:
-  name: Will Camp
-  role: Enterprise Account Executive
-  reports_to: vp_sales_western_region
-
-shane_carr:
-  name: Shane Carr
-  role: Enterprise Account Executive
-  reports_to: vp_sales_western_region
-
-mike_franko:
-  name: Mike Franko
-  role: Regional Director Sales, West
-  reports_to: vp_sales_western_region
 
 prakash_durgani:
   name: Prakash Durgani
@@ -2561,41 +2521,11 @@ prakash_durgani:
   reports_to: vp_sales
   manager_role_slug: head_international_sales
 
-mike_shinn:
-  name: Mike Shinn
-  role: Enterprise Account Executive
-  reports_to: head_international_sales
-
-khoshal_wial:
-  name: Khoshal Wial
-  role: Regional Sales Lead
-  reports_to: head_international_sales
-
-ana_lavongtheung:
-  name: Ana Lavongtheung
-  role: Sales Development Representative
-  reports_to: head_sales_development
-
-pietro_rosa:
-  name: Pietro Rosa
-  role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
-
 kristen_stretch:
   name: Kristen Stretch
   role: Engineering Manager, Developer Experience
   reports_to: engineering_manager_web
   manager_role_slug: engineering_manager_developer_experience
-
-michael_sennett:
-  name: Michael Sennett
-  role: Strategic Projects Manager
-  reports_to: vp_engineering
-
-felix_kling:
-  name: Felix Kling
-  role: Software Engineer
-  reports_to: engineering_manager_search
 
 feroz_salam:
   name: Feroz Salam
