@@ -1,6 +1,6 @@
 # Content Strategy
 
-The content produced by the Community Relations team has the ultimate goal of engaging with the developers community and increasing brand awareness. In order to do that, we often need to reach developers where they are: that could be a physical setting, such as a meetup or conference, a virtual event, or an online content platform such as DEV, Hashnode, or Youtube. This document outlines the DevRel team strategies to plan, create, and publish original content that supports the team mission.
+The content produced by the Community Relations team has the ultimate goal of engaging with the developers community and increasing brand awareness. In order to do that, we often need to reach developers where they are: that could be a physical setting, such as a meetup or conference, a virtual event, or an online content platform such as DEV, Hashnode, or YouTube. This document outlines the DevRel team strategies to plan, create, and publish original content that supports the team mission.
 
 ## Mission
 
@@ -14,11 +14,11 @@ The Community Relations team produces content in various formats, including but 
 
 ## Target platforms
 
-To increase brand awareness, we target external content platforms such as DEV, Hashnode, Twitch, and Youtube. We use both official channels and our own personal network and visibility to establish Sourcegraph as an industry leader and community supporter.
+To increase brand awareness, we target external content platforms such as DEV, Hashnode, Twitch, and YouTube. We use both official channels and our own personal network and visibility to establish Sourcegraph as an industry leader and community supporter.
 
 ## Topic selection
 
-Developer advocates are expected to use their own judgement to choose topics that are aligned with our goals and mission as a team. As a close touch point with the community, the DevRel team uses a dynamic approach to select topics that have good potential for success in terms of reach and/or engagement. Topics are selected using criteria such as trending technologies and projects, upcoming events and releases, and alignment with each advocate's own skill set.
+Developer advocates are expected to use their own judgment to choose topics that are aligned with our goals and mission as a team. As a close touch point with the community, the DevRel team uses a dynamic approach to select topics that have good potential for success in terms of reach and/or engagement. Topics are selected using criteria such as trending technologies and projects, upcoming events and releases, and alignment with each advocate's own skill set.
 
 The goal is to provide the best educational resources in short and long form that developers from all levels across the world will find useful in their daily work, demos, startups, and projects.
 
