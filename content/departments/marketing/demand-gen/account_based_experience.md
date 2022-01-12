@@ -1,6 +1,6 @@
 # Account-Based Experience
 
-Account Based Experience (ABX) isn’t just a fancier name for Account Based Marketing (ABM). ABX focuses on using experiential marketing to create connections to brand using personalized marketing strategy fueld by intent data and predictive anaytics.
+Account Based Experience (ABX) isn’t just a fancier name for Account Based Marketing (ABM). ABX focuses on using experiential marketing to create connections to brand using personalized marketing strategies fueled by intent data and predictive analytics.
 
 ## Program Goals
 
@@ -8,7 +8,7 @@ Our goal with ABX is to make Sourcegraph valuable and accessible to every develo
 
 We know we can add value by maintaining a strong partnership between Sales and Marketing to focus on targeted marketing, personalization, and measurable results.
 
-We want to resolve challenges faced by developers everyday:
+We want to resolve challenges faced by developers every day:
 
 ### Poor experience
 
