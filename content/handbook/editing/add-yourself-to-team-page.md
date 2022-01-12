@@ -43,10 +43,8 @@ director_design:
   role: (Interim) Director of Design
   reports_to: vp_product
   manager_role_slug: director_design
-  hidden_on_team_page: true
 ```
-
-Remove `(Interim)` from the role title, as well as the `hidden_on_team_page` field. You don't need to change the `manager_role_slug` value.
+Remove `(Interim)` from the role title. You don't need to change the `manager_role_slug` value.
 
 ## New employees
 

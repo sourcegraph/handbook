@@ -4,12 +4,7 @@
 
 ### People Ops team members
 
-- [Debbie Johnstone](../../team/index.md#debbie-johnstone), VP of People
-- [Noemi Mercado](../../team/index.md#noemi-mercado), People Operations Manager
-- [Inés Roitman](../../team/index.md#ines-roitman), Onboarding and Training Manager
-- [Cassie Melani](../../team/index.md#cassie-melani), Teammate Success Manager
-- [Cecily Black](../../team/index.md#cecily-black), People Operations Coordinator
-- [Jon Ayers](../../team/index.md#jonathan-ayers), Senior People Partner
+{{generator:reporting_structure.vp_people}}
 
 #### People Ops team READMEs
 

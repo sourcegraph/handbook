@@ -157,35 +157,33 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
-    if (!teamMember.hidden_on_team_page) {
-      pageContent += `\n### ${String(teamMember.name)}\n`
-      if (teamMember.role) {
-        pageContent += `${String(teamMember.role)}`
-        if (teamMember.location) {
-          pageContent += ` (${String(teamMember.location)})`
-        }
-        pageContent += '\n\n'
-      } else if (teamMember.location) {
-        pageContent += ` (${String(teamMember.location)})\n\n`
+    pageContent += `\n### ${String(teamMember.name)}\n`
+    if (teamMember.role) {
+      pageContent += `${String(teamMember.role)}`
+      if (teamMember.location) {
+        pageContent += ` (${String(teamMember.location)})`
       }
-      if (teamMember.description) {
-        pageContent += `${String(teamMember.description)}\n`
-      }
-      if (teamMember.email) {
-        pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
-      }
-      if (teamMember.github) {
-        pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
-      }
-      if (teamMember.pronouns) {
-        pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
-      }
-      if (teamMember.pronunciation) {
-        pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
-      }
-      if (teamMember.links) {
-        pageContent += `- Other links: ${String(teamMember.links)}\n`
-      }
+      pageContent += '\n\n'
+    } else if (teamMember.location) {
+      pageContent += ` (${String(teamMember.location)})\n\n`
+    }
+    if (teamMember.description) {
+      pageContent += `${String(teamMember.description)}\n`
+    }
+    if (teamMember.email) {
+      pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
+    }
+    if (teamMember.github) {
+      pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
+    }
+    if (teamMember.pronouns) {
+      pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
+    }
+    if (teamMember.pronunciation) {
+      pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
+    }
+    if (teamMember.links) {
+      pageContent += `- Other links: ${String(teamMember.links)}\n`
     }
   }
   return pageContent

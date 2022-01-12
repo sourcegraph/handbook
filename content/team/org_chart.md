@@ -46,8 +46,6 @@ The org chart is generated automatically from team pages in the handbook ([need 
 
 ## Sales
 
-<!-- When updating the engineering team list below, please also update handbook/index.md. -->
-
 ### [Sales team](../departments/sales/index.md#members)
 
 {{generator:reporting_structure.vp_sales}}
@@ -77,6 +75,6 @@ This org chart is generated automatically based on the contents of other handboo
 1. To add a team, [edit this page](https://github.com/sourcegraph/handbook/edit/main/content/team/org_chart.md) and add a link to the section of the team's page that lists the members as the header (such as `### [My team](../../myteam/index.md#members)`).
 2. To edit a team, [edit this file](https://github.com/sourcegraph/handbook/edit/main/data/team.yml) to add or adjust any team members. Follow the steps below:
 
-   a. **New Managers**: Be sure to add a `manager_role_slug` to your personal entry. After adding that, check that any team members who report to you have the appropriate `reports_to` field in their entry. If you are stepping into a role that has been filled by an interim manager, you can update the existing entry rather than creating a new one. Remove `(Interim)` from the role title, as well as the `hidden_on_team_page` field.
+   a. **New Managers**: Be sure to add a `manager_role_slug` to your personal entry. After adding that, check that any team members who report to you have the appropriate `reports_to` field in their entry. If you are stepping into a role that has been filled by an interim manager, you can update the existing entry rather than creating a new one by removing `(Interim)` from the role title.
 
    b. **New Teammates**: Add your personal entry, and make sure it has a `reports_to` field with the appropriate slug. To find this slug, locate your manager's entry, and use the value they have entered for `manager_role_slug`.
