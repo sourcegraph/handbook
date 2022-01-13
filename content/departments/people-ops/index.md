@@ -4,7 +4,83 @@
 
 ### People Ops team members
 
-{{generator:reporting_structure.vp_people}}
+ <section>
+    <div class="row" style="display:flex;">
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#debbie-johnstone" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Debbie.png"
+                alt="Picture of Debbie Johnstone" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Debbie Johnstone</div>
+          <div style="text-align: center; font-size: 12px;">VP of People</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#noemi-mercado" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Noem.png"
+                alt="Picture of Noemi Mercado" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Noemi Mercado</div>
+          <div style="text-align: center; font-size: 12px;">People Operations Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Ines.png"
+                alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Inés Roitman</div>
+          <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#cassie-melani" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Cassie.png"
+                alt="Picture of Cassie Melani" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Cassie Melani</div>
+          <div style="text-align: center; font-size: 12px;">Teammate Success Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#cecily-Black" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Cecily.png"
+                alt="Picture of Cecily Black" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Cecily Black</div>
+          <div style="text-align: center; font-size: 12px;">People Operations Coordinator</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Blue.png"
+                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Jon Ayers</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+      </div>
+    </div>
+   </section>
 
 #### People Ops team READMEs
 
