@@ -4,7 +4,7 @@ This page provides a strategic introduction to one of our [company use cases](..
 
 ## Overall vision
 
-Sourcegraph provides a dashboard source of truth for overall code structure and health. It makes visible the impact of changes on health, and provides interventions for improving code health. We envision this covering rigorous, explicitly measurable aspects of code health such as scorecards and checklists (for example, https://www.cortex.io/products/scorecard and https://www.opslevel.com/checks/ but for code), compliance scoring, and measurable, actionable tech debt. We can also extend this analysis to the dependencies in your software supply chain.
+Our vision for this use case is that Sourcegraph provides a dashboard source of truth for overall code structure and health. It makes visible the impact of changes on health, and provides interventions for improving code health. We envision this covering rigorous, explicitly measurable aspects of code health such as scorecards and checklists (for example, https://www.cortex.io/products/scorecard and https://www.opslevel.com/checks/ but for code), compliance scoring, and measurable, actionable tech debt. We can also extend this analysis to the dependencies in your software supply chain.
 
 Note that more abstract notions of health such as general tech debt, subjective outcome surveys, or team happiness/health are not what we are focusing on.
 
