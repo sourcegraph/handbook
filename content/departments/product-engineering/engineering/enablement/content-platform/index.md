@@ -6,9 +6,7 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 - [Mary Belzer](../../../../../team/index.md#mary-belzer) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Stephanie Zabala](../../../../../team/index.md#stephanie-zabala) ([Designer](../../../product/roles/index.md#product-designer))
-- [Jean du Plessis](../../../../../team/index.md#jean-du-plessis) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Katy Juell](../../../../../team/index.md#katy-juell)
-  - [Brett Hayes](../../../../../team/index.md#brett-hayes)
+{{generator:reporting_structure.engineering_manager_content_platform}}
   - Mate Gyorffy (Contractor)
 
 ## Our Strategy

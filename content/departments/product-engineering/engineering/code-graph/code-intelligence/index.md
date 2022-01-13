@@ -90,15 +90,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 - [María Craig](../../../../../team/index.md#maría-craig) ([Product Manager](../../../product/roles/index.md#product-manager))
 - [Sara Lee](../../../../../team/index.md#sara-lee) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Owen Convey](../../..../../team/index.md#owen-convey) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#code-intelligence-eng}
-  - [Eric Fritz](../../../../../team/index.md#eric-fritz)
-  - [Noah Santschi-Cooney](../../../../../team/index.md#noah-santschi-cooney)
-  - [Ólafur Páll Geirsson](../../../../../team/index.md#Ólafur-Páll-Geirsson)
-  - [TJ DeVries](../../../../../team/index.md#tj-devries)
-  - [Chris Wendt](../../../../../team/index.md#chris-wendt)
-  - [Cesar Jimenez](../../../../../team/index.md#cesar-jimenez)
-  - [Varun Gandhi](../../../../../team/index.md#varun-gandhi)
-  - [Thorsten Ball](../../../../../team/index.md#thorsten-ball)
+{{generator:reporting_structure.engineering_manager_code_intelligence}}
 
 ## Ownership
 

@@ -12,11 +12,7 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 
 - We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../../team/index.md#jason-yavorska) is involved in the meantime.
 - [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Jeff Warner](../../../../../team/index.md#jeff-warner) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#search-core-eng}
-  - [Keegan Carruthers-Smith](../../../../../team/index.md#keegan-carruthers-smith)
-  - [Stefan Hengl](../../../../../team/index.md#stefan-hengl)
-  - [Tomás Senart](../../../../../team/index.md#tomás-senart)
-  - [Geoffrey Gilmore](../../../../../team/index.md#geoffrey-gilmore)
+{{generator:reporting_structure.engineering_manager_search_core}}
 
 ## Contact
 
