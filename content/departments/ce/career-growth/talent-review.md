@@ -4,7 +4,7 @@ Please note: the talent review process is independent of the recurring Impact Re
 
 ## Cadence
 
-The talent review process is performed in the first month of each fiscal quarter (February, May, August, November). Individuals who, at time of review, have been in their current band for a minimum of 4 quarters will be considered for promotion. All ICs will be discussed and calibrated amongst the leadership team.
+The talent review process is performed in the second month of each fiscal quarter (March, June, September, December). Individuals who, at time of review, have been in their current band for a minimum of 4 quarters will be considered for promotion. All ICs will be discussed and calibrated amongst the leadership team.
 
 ## Pre-Work
 
