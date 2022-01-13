@@ -82,7 +82,6 @@
     </div>
    </section>
 
-
 #### People Ops team READMEs
 
 [People Ops READMEs](team/index.md)
@@ -150,4 +149,3 @@ This section currently includes resources that were specifically created to help
 - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to notify People Ops of an org and role change section](tools/manager-guide.md#managing-a-role-change)
 - [Tools overview](tools/index.md)
-
