@@ -31,7 +31,7 @@ The following are real, anonymized quotes from customers today on how we're alre
 
 ## Who benefits
 
-<!-- Link to the personas that relate to this use case, and describe how it benefits each of them -->
+<!-- Link to the personas that relate to this use case, and describe briefly how it benefits each of them (the real detail is in the above section, so be sure not to repeat yourself here; speak in generalities for each persona in this section.) -->
 
 [Developer](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0):
 
