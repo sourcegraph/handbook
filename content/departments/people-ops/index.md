@@ -71,7 +71,7 @@
           <div>
             <a href="../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
               <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Jon.png"
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/PlaceholderForAvatar1.png"
                 alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
             </a>
           </div>
