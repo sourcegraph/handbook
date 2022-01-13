@@ -38,9 +38,9 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Contact
 
-- **Discussions and questions**: #dev-experience channel and [developer experience GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
+- **Discussions and questions**: [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channel and [developer experience GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
 - **[Support](#support)**: `@dev-experience-support` in Slack
-- **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
+- **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and [@sourcegraph/dev-experience team](https://github.com/orgs/sourcegraph/teams/dev-experience).
   - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](https://github.com/orgs/sourcegraph/projects/212).
 
 > NOTE: When referring to this team, prefer to use _Dev Experience_ or _DevX_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
@@ -49,9 +49,12 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 To collaborate, we use the following:
 
-- Internal team channel in #dev-experience-internal
+- Internal team channel in [#dev-experience-internal](https://sourcegraph.slack.com/archives/C02MWRMAFR8)
 - [GitHub planning board](https://github.com/orgs/sourcegraph/projects/212)
-- Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
+- Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to [#dev-experience-updates](https://sourcegraph.slack.com/archives/C023XLNG00N)
+- Tools and languages update feed in [#dev-experience-notification](https://sourcegraph.slack.com/archives/C02NJHRETGS)
+- GitHub issues and pull-requests feed in [#dx-github-feed](https://sourcegraph.slack.com/archives/C02JCKFQ64D)
+- [Sentry project](https://sentry.io/organizations/sourcegraph/issues/?project=6110304) for the CI pipeline.
 - [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
 
 ### Meetings
@@ -63,11 +66,11 @@ The DevX team currently has weekly sync meetings and biweekly retrospectives wit
 - [Team sync notes](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit)
 - [Retrospective notes](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#)
 
-#### `sg` hack hour
+#### `sg` hacking hour
 
-There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
+There is a weekly `sg` hacking hour that Thorsten Ball and the DevX team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
 
-When the hack hour starts, a meeting link will be posted in #dev-experience.
+When the hack hour starts, a meeting link will be posted in [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU).
 
 To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
 
