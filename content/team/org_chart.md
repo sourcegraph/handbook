@@ -73,7 +73,7 @@ Not all teams are listed here yet.
 This org chart is generated automatically based on the contents of other handbook pages.
 
 1. To add a team, [edit this page](https://github.com/sourcegraph/handbook/edit/main/content/team/org_chart.md) and add a link to the section of the team's page that lists the members as the header (such as `### [My team](../../myteam/index.md#members)`).
-2. To edit a team, [edit this file](https://github.com/sourcegraph/handbook/edit/main/data/team.yml) to add or adjust any team members. Follow the steps below:
+2. To edit a team, [edit this file](https://github.com/sourcegraph/handbook/edit/main/data/team.yml), and, if working on a Product team, [this file](https://github.com/sourcegraph/handbook/edit/main/data/product_teams.yml) to add or adjust any team members. Follow the steps below:
 
    a. **New Managers**: Be sure to add a `manager_role_slug` to your personal entry. After adding that, check that any team members who report to you have the appropriate `reports_to` field in their entry. If you are stepping into a role that has been filled by an interim manager, you can update the existing entry rather than creating a new one by removing `(Interim)` from the role title.
 
