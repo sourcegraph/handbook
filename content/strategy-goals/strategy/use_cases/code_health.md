@@ -20,7 +20,7 @@ Tech debt is one component in code health that plays a big role in developer exp
 
 ## How we solve this today
 
-<!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. -->
+<!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. This is perhaps the most important single section in this document, so don't be afraid to add too much - if you feel this section is getting long, consider summarizing here and linking out to other pages in the handbook with details. -->
 
 The following are real, anonymized quotes from customers today on how we're already helping them with this use case:
 
