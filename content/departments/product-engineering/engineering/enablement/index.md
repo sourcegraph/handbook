@@ -8,34 +8,15 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
 
-- [Repo Management](./repo-management/index.md)
-  - [Jordan Plahn](../../../../team/index.md#jordan-plahn) ([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
-  - [Ryan Slade](../../../../team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../../team/index.md#indradhanush-gupta)
-  - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
-  - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
-- [Dev Experience](./dev-experience/index.md)
-  - [Kristen Stretch](../../../../team/index.md#kristen-stretch)([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [JH Chabran](../../../../team/index.md#jh-chabran)
-  - [Robert Lin](../../../../team/index.md#robert-lin)
-  - [Dave Try](../../../../team/index.md#dave-try)
-  - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
-- [Frontend Platform](./frontend-platform/index.md)
-  - [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
-  - [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [Tom Ross](../../../../team/index.md#tom-ross)
-  - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
-  - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
-- [Content Platform](./content-platform/index.md)
-  - [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles/index.md#engineering-manager))
-  - [Mary Belzer](../../../../team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
-  - [Stephanie Zabala](../../../../team/index.md#stephanie-zabala) ([Designer](../../product/roles/index.md#product-designer))
-  - [Katy Juell](../../../../team/index.md#katy-juell)
-  - [Brett Hayes](../../../../team/index.md#brett-hayes)
+**[Repo Management](./repo-management/index.md)**
+  {{generator:product_team.repo_management}}
+**[Dev Experience](./dev-experience/index.md)**
+  {{generator:product_team.dev_experience}}
+**[Frontend Platform](./frontend-platform/index.md)**
+  {{generator:product_team.frontend_platform}}
+**[Content Platform](./content-platform/index.md)**
+  {{generator:product_team.content_platform}}
+  
 
 ## Principles and practices
 

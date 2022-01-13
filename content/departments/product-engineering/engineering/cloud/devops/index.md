@@ -21,7 +21,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 
 ## Members
 
-{{generator:reporting_structure.engineering_manager_devops}}
+{{generator:product_team.devops}}
 
 ## Content
 

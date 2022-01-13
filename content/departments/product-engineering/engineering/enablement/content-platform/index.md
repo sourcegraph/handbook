@@ -4,9 +4,7 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 ## Members
 
-- [Mary Belzer](../../../../../team/index.md#mary-belzer) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Stephanie Zabala](../../../../../team/index.md#stephanie-zabala) ([Designer](../../../product/roles/index.md#product-designer))
-{{generator:reporting_structure.engineering_manager_content_platform}}
+{{generator:product_team.content_platform}}
   - Mate Gyorffy (Contractor)
 
 ## Our Strategy

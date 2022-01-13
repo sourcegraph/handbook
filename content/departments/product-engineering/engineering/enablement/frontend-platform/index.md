@@ -4,9 +4,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-{{generator:reporting_structure.engineering_manager_frontend_platform}}
+{{generator:product_team.frontend_platform}}
 
 ## Our Strategy
 

@@ -62,6 +62,7 @@ security:
   product_org: cloud
   strategy_link: /company/strategy/cloud/security/index.md
   pm: diego_comas
+  em: diego_comas
   issue_labels:
     - team/security
 
@@ -72,14 +73,6 @@ extensions:
   pm: murat_sutunc
   issue_labels:
     - team/extensiblity
-
-repository_management:
-  title: Repository Management
-  product_org: enablement
-  strategy_link: /company/strategy/enablement/repo-management/index.md
-  pm: dan_mckean
-  issue_labels:
-    - team/repo-management
 
 delivery:
   title: Delivery
@@ -110,21 +103,42 @@ devops:
   title: DevOps/SRE
   product_org: cloud
   pm: bill_creager
+  em: jennifer_mitchell
   issue_labels:
     - team/devops
 
 dev_experience:
   title: Dev Experience
-  strategy_link: /company/strategy/enablement/dev-experience
+  strategy_link: /strategy-goals/strategy/enablement/dev-experience
   product_org: enablement
   pm: taylor_sperry
+  em: kristen_stretch
   issue_labels:
     - team/dev-experience
 
 frontend_platform:
   title: Frontend Platform
-  strategy_link: /company/strategy/enablement/frontend-platform
+  strategy_link: /strategy-goals/strategy/enablement/frontend-platform
   product_org: enablement
   pm: taylor_sperry
+  em: patrick_dubroy
   issue_labels:
     - team/frontend-platform
+
+repo_management:
+  title: Repo Management
+  strategy_link: /strategy-goals/strategy/enablement/repo-management
+  product_org: enablement
+  pm: dan_mckean
+  em: jordan_plahn
+  issue_labels:
+    - team/repo-management
+
+content_platform:
+  title: Content Platform Team
+  strategy_link: /strategy-goals/strategy/enablement/content-platform
+  product_org: enablement
+  pm: mary_belzer
+  em: engineering_manager_content_platform
+  issue_labels:
+    - team/content-platform

@@ -88,9 +88,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../../../team/index.md#maría-craig) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Sara Lee](../../../../../team/index.md#sara-lee) ([Product Designer](../../../product/roles/index.md#product-designer))
-{{generator:reporting_structure.engineering_manager_code_intelligence}}
+{{generator:product_team.code_intelligence}}
 
 ## Ownership
 

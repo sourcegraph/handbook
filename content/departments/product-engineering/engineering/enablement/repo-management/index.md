@@ -8,8 +8,7 @@ Our mission (which we do choose to accept) is to ensure that Sourcegraph’s mos
 
 ## Members
 
-- [Dan Mckeen](../../../../../team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
-{{generator:reporting_structure.software_engineering_manager}}
+{{generator:product_team.repo_management}}
 
 ## Strategy
 

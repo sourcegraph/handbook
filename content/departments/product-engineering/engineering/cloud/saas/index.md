@@ -66,9 +66,7 @@ The list below contains features and services that already exist, and the Cloud 
 
 ## Team
 
-- [Ryan Phillips](../../../../../team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
-- [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
-{{generator:reporting_structure.engineering_manager_cloud_saas}}
+{{generator:product_team.cloud_saas}}
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 

@@ -8,7 +8,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Members
 
-{{generator:reporting_structure.security_engineering_manager}}
+{{generator:product_team.security}}
 
 ## Contact
 

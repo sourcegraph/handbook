@@ -4,8 +4,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Members
 
-- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-{{generator:reporting_structure.engineering_manager_developer_experience}}
+{{generator:product_team.dev_experience}}
 
 ## [Strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
 

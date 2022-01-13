@@ -19,9 +19,7 @@ The code insights team is responsible for building and delivering code insights 
 
 ## Members
 
-- [Joel Kwartler](../../../../../team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-{{generator:reporting_structure.engineering_manager_code_insights}}
+{{generator:product_team.code_insights}}
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 

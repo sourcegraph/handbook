@@ -54,9 +54,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../../../../team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-{{generator:reporting_structure.engineering_manager_batch_changes}}
+{{generator:product_team.batch_changes}}
 
 ## Growth plan
 
