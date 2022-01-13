@@ -9,7 +9,7 @@ What this means is that the customer issue needs to be understood before it’s 
 
 In order to set-up the team for success meeting our internal 1-hour SLA, it is critical that the triage team triages every ticket that comes in within ~10 minutes of it coming in.
 
-That said, there may be times when we have unusually large amount of work or more folks are out than normal and it is fine customers have to wait. In such situations, we follow [support capacity levels and contingencies](departments/support/process/support-capacity-levels-and-contingencies.md).
+That said, there may be times when we have unusually large amount of work or more folks are out than normal and it is fine customers have to wait. In such situations, we follow [support capacity levels and contingencies](support-capacity-levels-and-contingencies.md).
 
 ## How to triage like a pro
 
