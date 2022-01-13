@@ -10,7 +10,7 @@
         <div>
           <div>
             <a href="../../team/index.md#debbie-johnstone" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/DebbieJohnstone1.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Debbie.png"
                 alt="Picture of Debbie Johnstone" style="background: transparent; width:128px;" />
             </a>
           </div>
@@ -22,7 +22,7 @@
         <div>
           <div>
             <a href="../../team/index.md#noemi-mercado" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/NoemiMercado.jpeg"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Noem.png"
                 alt="Picture of Noemi Mercado" style="background: transparent; width:128px;" />
             </a>
           </div>
@@ -34,7 +34,7 @@
         <div>
           <div>
             <a href="../../team/index.md#inés-roitman" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/InesRoitman1.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Ines.png"
                 alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
             </a>
           </div>
@@ -46,7 +46,7 @@
         <div>
           <div>
             <a href="../../team/index.md#cassie-melani" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/CassieMelani1.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Cassie.png"
                 alt="Picture of Cassie Melani" style="background: transparent; width:128px;" />
             </a>
           </div>
@@ -58,7 +58,7 @@
         <div>
           <div>
             <a href="../../team/index.md#cecily-Black" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/CecilyBlack1.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Cecily.png"
                 alt="Picture of Cecily Black" style="background: transparent; width:128px;" />
             </a>
           </div>
@@ -71,7 +71,7 @@
           <div>
             <a href="../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
               <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/PlaceholderForAvatar1.png"
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Blue.png"
                 alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
             </a>
           </div>
