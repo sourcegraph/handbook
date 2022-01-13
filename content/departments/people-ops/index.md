@@ -4,12 +4,84 @@
 
 ### People Ops team members
 
-- [Debbie Johnstone](../../team/index.md#debbie-johnstone), VP of People
-- [Noemi Mercado](../../team/index.md#noemi-mercado), People Operations Manager
-- [Inés Roitman](../../team/index.md#ines-roitman), Onboarding and Training Manager
-- [Cassie Melani](../../team/index.md#cassie-melani), Teammate Success Manager
-- [Cecily Black](../../team/index.md#cecily-black), People Operations Coordinator
-- [Jon Ayers](../../team/index.md#jonathan-ayers), Senior People Partner
+ <section>
+    <div class="row" style="display:flex;">
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#debbie-johnstone" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/DebbieJohnstone1.png"
+                alt="Picture of Debbie Johnstone" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Debbie Johnstone</div>
+          <div style="text-align: center; font-size: 12px;">VP of People</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#noemi-mercado" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/NoemiMercado.jpeg"
+                alt="Picture of Noemi Mercado" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Noemi Mercado</div>
+          <div style="text-align: center; font-size: 12px;">People Operations Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/InesRoitman1.png"
+                alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Inés Roitman</div>
+          <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#cassie-melani" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/CassieMelani1.png"
+                alt="Picture of Cassie Melani" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Cassie Melani</div>
+          <div style="text-align: center; font-size: 12px;">Teammate Success Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#cecily-Black" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/CecilyBlack1.png"
+                alt="Picture of Cecily Black" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Cecily Black</div>
+          <div style="text-align: center; font-size: 12px;">People Operations Coordinator</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Jon.png"
+                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Jon Ayers</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+      </div>
+    </div>
+   </section>
+
 
 #### People Ops team READMEs
 
@@ -78,3 +150,4 @@ This section currently includes resources that were specifically created to help
 - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to notify People Ops of an org and role change section](tools/manager-guide.md#managing-a-role-change)
 - [Tools overview](tools/index.md)
+
