@@ -70,7 +70,7 @@ The DevX team currently has weekly sync meetings and biweekly retrospectives wit
 
 There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host weekly Fridays from 16:00 UTC to 17:00 UTC for anyone interested in making contributions to [the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg).
 
-When the hack hour starts, a meeting link will be posted in #dev-experience
+When the hack hour starts, a meeting link will be posted in #dev-experience.
 
 To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
 
