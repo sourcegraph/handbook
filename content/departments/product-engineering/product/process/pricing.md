@@ -55,3 +55,29 @@ This section is to be determined; in the meantime please work with Product Marke
 ## Choosing the price for add-on features
 
 This section is to be determined; in the meantime please work with Product Marketing and Product Leadership to determine the price for new features that will be charged as add-ons.
+
+## How pricing and packaging decisions are made
+Pricing and packaging recommendations should be driven by those that are closest to the work. 
+- For new products and features, this is typically Product Management and Product Marketing. 
+- For changes to how we charge or how much we charge, this may be Sales, CE, Sales Ops, or BizOps.
+
+At times, it may make sense for a working group to spin up to address our pricing and packaging (example: Cloud for teams). 
+
+Given the potential impact of pricing and packaging changes across all teams, it is important that a cross-functional group is able to review all proposed changes. While other people and teams should certainly be consulted for feedback/approval, be sure to include the following people:
+- Marketing: Kacie, Andy
+- Sales: Gregg
+- Product: Christina
+- Ops: Dan, Steph
+
+While the entire council should be consulted, there will typically be only one or two final approvers. The pricing council can help determine who the approver should be (and that person may not be part of the pricing council). 
+
+## Working with the pricing council
+The PM/PMM/EM working on a new feature or product is responsible for making a recommendation on:
+- Who gets access to this product or feature? How do customers get access to this product or feature?
+- How much do customers have to pay to access this product or feature?
+
+The pricing council is responsible for:
+- Providing feedback/guidance on pricing/packaging efforts
+- Reviewing and approving recommendations (or identifying a single approver for the recommendation)
+
+If you’re working on pricing/packaging for a new product or feature, please create an RFC and share it in #pricing.
