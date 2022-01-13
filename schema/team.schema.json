@@ -37,9 +37,6 @@
         "type": "string"
       }
     },
-    "required": [
-      "name",
-      "role"
-    ]
+    "required": ["name", "role"]
   }
 }

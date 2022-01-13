@@ -5,7 +5,8 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 ## Members
 
 {{generator:product_team.content_platform}}
-  - Mate Gyorffy (Contractor)
+
+- Mate Gyorffy (Contractor)
 
 ## Our Strategy
 
