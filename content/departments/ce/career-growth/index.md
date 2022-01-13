@@ -47,3 +47,9 @@ When you have demonstrated consistently achieving at least 4 consecutive quarter
 Promotions from one level to another are considered in our bi-annual talent review. In-band compensation increases (while staying at the same level) can happen at any time when your manager makes the case to do so, and is also reviewed annually. These in-band compensation increases are in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
 Learn more about the CE talent review process [here](talent-review.md).
+
+## CEs Transitioning to CE Management
+
+We want to support the career progession of CEs on the Customer Engineering team based on their individual career goals and aspirations. For those that desire to move from an individual contributor (IC) role to a management role, the CE Manager Interview Process for Internal CE Candidates outlines how teammates would go about assessing their readiness for and applying for new CE Manager roles that open up. The goal of this process is provide clear visibility into what expectations should be for career advancement into management within the CE team.
+
+Learn more about CEs transitioning to CE management [here](cemgr-candidates-internal.md).
