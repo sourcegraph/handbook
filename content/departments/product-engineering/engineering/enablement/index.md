@@ -9,14 +9,13 @@ Our mission is to provide technical foundations critical to the business, our cu
 The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
 
 **[Repo Management](./repo-management/index.md)**
-  {{generator:product_team.repo_management}}
+{{generator:product_team.repo_management}}
 **[Dev Experience](./dev-experience/index.md)**
-  {{generator:product_team.dev_experience}}
+{{generator:product_team.dev_experience}}
 **[Frontend Platform](./frontend-platform/index.md)**
-  {{generator:product_team.frontend_platform}}
+{{generator:product_team.frontend_platform}}
 **[Content Platform](./content-platform/index.md)**
-  {{generator:product_team.content_platform}}
-  
+{{generator:product_team.content_platform}}
 
 ## Principles and practices
 

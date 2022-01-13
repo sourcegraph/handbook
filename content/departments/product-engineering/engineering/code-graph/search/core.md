@@ -11,7 +11,7 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 ## Team members
 
 - We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../../team/index.md#jason-yavorska) is involved in the meantime.
-{{generator:product_team.search_core}}
+  {{generator:product_team.search_core}}
 
 ## Contact
 

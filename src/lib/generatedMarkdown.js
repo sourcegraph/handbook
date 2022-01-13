@@ -311,9 +311,7 @@ export async function generateTeamOrgChart(team) {
   }
   if (productTeam.pmm) {
     const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
-    pageContent += `- [${String(teamMembers[productTeam.pmm].name)}](${String(
-      bioLink
-    )}), Product Marketing Manager\n`
+    pageContent += `- [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)}), Product Marketing Manager\n`
   }
   return pageContent
 }
