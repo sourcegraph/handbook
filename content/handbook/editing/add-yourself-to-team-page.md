@@ -44,6 +44,7 @@ director_design:
   reports_to: vp_product
   manager_role_slug: director_design
 ```
+
 Remove `(Interim)` from the role title. You don't need to change the `manager_role_slug` value.
 
 ## New employees

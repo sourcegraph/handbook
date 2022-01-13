@@ -12,6 +12,7 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 ### Members
 
 {{generator:reporting_structure.senior_manager_value_engineering}}
+
 - [VE & SE roles - open positions](https://sourcegraph.com/careers)
 
 ### Value Engineering Team Charter
