@@ -142,7 +142,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Engaging other teams](process/engaging-other-teams.md)
 - [Serving as messenger during incidents](../product-engineering/engineering/process/incidents/index.md)
 - [Triaging](process/customer-support-triaging.md)
-- [Support capacity levels and contingencies](process/support-capacity-levels-and-contingencies.md)
+- [Support capacity levels and contingencies](departments/support/process/support-capacity-levels-and-contingencies.md)
 - [Case reviews](process/case-reviews.md)
 - [Enablement](process/enablement/index.md)
 - [Tools](tools/index.md)
