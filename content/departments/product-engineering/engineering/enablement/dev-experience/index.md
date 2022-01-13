@@ -121,6 +121,8 @@ TODO
 
 ## Tech stack
 
+TODO
+
 ### Internal resources
 
 - Tools and languages updates feed is available in #dev-experience-notification
