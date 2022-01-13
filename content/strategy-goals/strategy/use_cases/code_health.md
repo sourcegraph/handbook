@@ -4,17 +4,23 @@ This page provides a strategic introduction to one of our [company use cases](..
 
 ## Overall vision
 
+<!-- Convey what things will be like in the future for your use case, be as descriptive as you can to help someone understand where we are headed with our vision. -->
+
 Our vision for this use case is that Sourcegraph provides a dashboard source of truth for overall code structure and health. It makes visible the impact of changes on health, and provides interventions for improving code health. We envision this covering rigorous, explicitly measurable aspects of code health such as scorecards and checklists (for example, https://www.cortex.io/products/scorecard and https://www.opslevel.com/checks/ but for code), compliance scoring, and measurable, actionable tech debt. We can also extend this analysis to the dependencies in your software supply chain.
 
 Note that more abstract notions of health such as general tech debt, subjective outcome surveys, or team happiness/health are not what we are focusing on.
 
 ## Why this is important
 
+<!-- Beyond imagining a future in the above section, talk more about why this future is important and why we are going after it. -->
+
 [Originating in Google](https://testing.googleblog.com/2017/04/code-health-googles-internal-code.html), Code Health is defined as “…how software was written that could influence the readability, maintainability, stability, or simplicity of code“, with the idea being that a developer’s quality of work, productivity, and happiness can be improved if the code they work with is healthy. While in most companies there are no dedicated developers working on code health as their job title, code health initiatives can improve the lives of engineers and their ability to write products with shorter iteration time, decreased development effort, greater stability, and improved performance, which all lead to business upside.
 
 Tech debt is one component in code health that plays a big role in developer experience and productivity, and refers to the cost of refactoring or redesigning code tomorrow because of short-cuts taken today. [Stripe found](https://stripe.com/files/reports/the-developer-coefficient.pdf) that developers spend 33% of their time on tech debt; maintenance of legacy systems and tech debt being the number one cause for productivity loss. For a 50-person engineering team of $100k/year developers, that 33% respresents $1.65M/year. Beyond the monetary implications, organizations bogged down with it often suffer from low morale and churn.
 
 ## How we solve this today
+
+<!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. -->
 
 The following are real, anonymized quotes from customers today on how we're already helping them with this use case:
 
@@ -24,6 +30,8 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Our teams are constantly innovating and building new systems, necessitating decomposing and migrating off of older ones. Sourcegraph gives us the ability to search for and refactor references to deprecated services, libraries, URL patterns, and more across our 2000+ repositories, and the confidence that we're not leaving anyone behind.
 
 ## Who benefits
+
+<!-- Link to the personas that relate to this use case, and describe how it bnenefits each of them -->
 
 [Developer](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0):
 
@@ -39,6 +47,8 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Increased productivity, quicker builds
 
 ## Additional resources
+
+<!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
 - [Use case index](../index.md#use-cases)
 - [Code Health unpacked](https://diff.wikimedia.org/2017/10/11/mediawiki-code-health-group/)
