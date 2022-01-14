@@ -2,7 +2,7 @@
 
 Working together to determine our OKRs each quarter forces us to have all the healthy conversations in order to align and determine our focus for the quarter. Throughout the quarter, having OKRs lets us easily ask if anything new that comes up is more important than the focus to which we already agreed.
 
-Planning takes about 2 hours of each person's time over the course of 3 weeks. Whoever facilitates the process will spend 5-10 hours more doing extra tasks to alleviate the time burden for everyone else.
+Planning takes about 2 hours of each person's time over the course of 3 weeks. Whoever facilitates the process will spend 5–10 hours more doing extra tasks to alleviate the time burden for everyone else.
 
 Here is how we do it:
 

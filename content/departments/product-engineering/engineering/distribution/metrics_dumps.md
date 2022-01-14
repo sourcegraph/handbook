@@ -2,9 +2,9 @@
 
 ## What is a metrics dump?
 
-Metrics dumps are a snapshot of the entire Prometheus database. This includes detailed information from the past 7d about the health of Sourcegraph, which alerts were firing, resource utilization, request performance, and more - but all aggregate / statistical information containing no code, personal information, etc.
+Metrics dumps are a snapshot of the entire Prometheus database. This includes detailed information from the past 7d about the health of Sourcegraph, which alerts were firing, resource utilization, request performance, and more—but all aggregate / statistical information containing no code, personal information, etc.
 
-Metrics dumps are very heavy (often in the range of ~8GB uncompressed to ~3GB compressed), and take ~10mins of an admins time to collect + some time to upload the file somewhere. It is most useful when debugging performance problems - but should be considered a last resort of sorts (with alerts being the first thing to check).
+Metrics dumps are very heavy (often in the range of ~8GB uncompressed to ~3GB compressed), and take ~10mins of an admins time to collect + some time to upload the file somewhere. It is most useful when debugging performance problems—but should be considered a last resort of sorts (with alerts being the first thing to check).
 
 ## How to ask a site admin for a metrics dump
 

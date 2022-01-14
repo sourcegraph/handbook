@@ -4,7 +4,7 @@ An overview of the tools we use for CustomerOps, with some useful links.
 
 ## HubSpot
 
-Hubspot is a customer relationship management (CRM) software. We use HubSpot primarily for marketing operations. Any marketing activity that generates leads will funnel leads into HubSpot. In order to capture these leads, we embed HubSpot forms onto our marketing websites (about.sourcegraph.com, info.sourcegraph.com), and use HubSpot landing pages.
+HubSpot is a customer relationship management (CRM) software. We use HubSpot primarily for marketing operations. Any marketing activity that generates leads will funnel leads into HubSpot. In order to capture these leads, we embed HubSpot forms onto our marketing websites (about.sourcegraph.com, info.sourcegraph.com), and use HubSpot landing pages.
 
 **[Contacts](https://app.hubspot.com/contacts/2762526/contacts/list/view/all/)**: all generated leads are turned into HubSpot Contacts.
 
@@ -56,7 +56,7 @@ How to get data into Looker:
   - Make sure the script to pull data is added to the [ETL script](https://github.com/sourcegraph/analytics/tree/master/HubSpot%20ETL)
 
 - ETL script is run every 24 hours via this [Buildkite pipeline](https://buildkite.com/sourcegraph/analytics)
-- Tables under hubspot in BigQuery database are updated: [HubSpot contacts table](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&p=telligentsourcegraph&page=table&d=hubspot&t=contacts)
+- Tables under HubSpot in BigQuery database are updated: [HubSpot contacts table](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&p=telligentsourcegraph&page=table&d=hubspot&t=contacts)
 - Create a scheduled query that creates a table with the data you want: [first search by HubSpot Original Source](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/60fef56b-0000-21c2-996c-089e0826838c/runs?project=telligentsourcegraph)
 - [Create a view in Looker from the BigQuery table](https://sourcegraph.looker.com/projects/sourcegraph_events/files/first_search_by_contact.view.lkml)
 
@@ -193,3 +193,5 @@ More useful links for the HubSpot to Salesforce integration:
 - [HubSpot to Salesforce data flow spreadsheet](https://docs.google.com/spreadsheets/d/1Jw-t7y0Rmni-vR9gy28Ewy6IVzwu9JyJjW2pwDQOPJk/edit#gid=0)
 - [Sync settings](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/syncsettings)
 - [Marketing conversion actions spreadsheet](https://docs.google.com/spreadsheets/d/1tKRToLb2WRhVKJojTMQIj28TaLQfB58F57QQh5IICbU/edit#gid=0)
+
+See [here](index.md) for info on other tools.

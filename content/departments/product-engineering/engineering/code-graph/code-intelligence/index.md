@@ -36,7 +36,7 @@ The video below is a brief introduction to Code Intelligence at Sourcegraph expl
 
 ## Tech stack
 
-Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use SQLite databases to store data specific to a particular LSIF index and Postgres to store all other data.
+Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use Postgres databases to store data specific to a particular LSIF index and all other metadata.
 
 ## How we do technical hiring
 
@@ -70,7 +70,7 @@ We track most of our work as [issues on the Sourcegraph main repository](https:/
 
 Our team is growing and to help our new teammates have the best onboarding experience we have created additional material that builds on Sourcegraph's [general engineering onboarding](../../onboarding/index.md) guide. We think will help you ramp up in all things code intel.
 
-### Weeks 1 - 4
+### Weeks 1–4
 
 **Architecture Presentation**: An experienced code intel engineer will give a live presentation primarily to the new hire (and any other Sourcegraph teammate who’s interested) explaining the architecture of our systems at a high level.
 
@@ -98,7 +98,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
   - [Chris Wendt](../../../../../team/index.md#chris-wendt)
   - [Cesar Jimenez](../../../../../team/index.md#cesar-jimenez)
   - [Varun Gandhi](../../../../../team/index.md#varun-gandhi)
-  - FQ4 hire
+  - [Thorsten Ball](../../../../../team/index.md#thorsten-ball)
 
 ## Ownership
 

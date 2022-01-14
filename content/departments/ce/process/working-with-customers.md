@@ -44,7 +44,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
 
 ## Discovery and Demo
 
-The initial conversation(s) with a customer can vary in length and scope, but always involve discovery, that is uncovering their needs and motivations, and demonstrating product capabilities. This could range from an abbreviated 30 minute intro call with a smaller prospect, or multiple hour-long calls across various stakeholders and teams at an enterprise organization.
+The initial conversation(s) with a customer can vary in length and scope, but always involve discovery, that is uncovering their needs and motivations, and demonstrating product capabilities. This could range from an abbreviated 30-minute intro call with a smaller prospect, or multiple hour-long calls across various stakeholders and teams at an enterprise organization.
 
 ### Resources
 
@@ -53,9 +53,9 @@ The initial conversation(s) with a customer can vary in length and scope, but al
 
 ## Technical Design
 
-Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal. Every single prospective customer must have a techincal design document estbalished, starting as early as Stage 2 - Qualification and completed into Stage 4 - Technical and Business Validation. We begin by capturing details about their pre-Sourcegraph business and document first their Trial design and configuration, and subsequently their Production design and setup. These TDDs should be stored [here](https://drive.google.com/drive/folders/1jcDmtyNEPphdCfokeQ6JF-MmA_KMQEtF) and you should also link to the TDD from within your respective prospective customer [folder](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0) by creating a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) in Drive.
+Early on in the process, we begin to understand the needs of our prospective customers. As we learn about them - their needs, their tech stack, their business, etc. we begin to document both the product and technical requirements and the business context of the deal. Every single prospective customer must have a technical design document established, starting as early as Stage 2 - Qualification and completed into Stage 4 - Technical and Business Validation. We begin by capturing details about their pre-Sourcegraph business and document first their Trial design and configuration, and subsequently their Production design and setup. These TDDs should be stored [here](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) and you should also link to the TDD from within your respective prospective customer [folder](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0) by creating a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) in Drive.
 
-For complex engagements, we have internal technical reviews with cross-functional teams (see [technical deal reviews](#technical-deal-reviews) below) that occur before approval to proceed to a trial deployment, to ensure we at Sourcegraph are colletively aligned on their needs and expectations, and so that the customer has the right expectations set and is positioned for success.
+For complex engagements, we have internal technical reviews with cross-functional teams (see [technical deal reviews](#technical-deal-reviews) below) that occur before approval to proceed to a trial deployment, to ensure we at Sourcegraph are collectively aligned on their needs and expectations, and so that the customer has the right expectations set and is positioned for success.
 
 ### Resources
 
@@ -118,7 +118,7 @@ On the kickoff call we plan our ongoing engagement with the customer. Different 
 - How often do they want to have check-in calls?
 - What types of trainings, webinars, or Q&A sessions could their team use? When?
 - Would they like any assistance or resources to integrate Sourcegraph into their developer onboarding process?
-- Anything else we can look to help them out with? Upcoming iniaitives they could use Sourcegraph for?
+- Anything else we can look to help them out with? Upcoming initiatives they could use Sourcegraph for?
 
 ### Resources
 
@@ -138,7 +138,7 @@ We may also hold specific topic trainings or Q&A sessions, depending on customer
 
 ## Check-in calls
 
-Check-in calls may be weekly, bi-weekly, monthly, or as-needed. Going in to a check-in call you should be familiar with:
+Check-in calls may be weekly, bi-weekly, monthly, or as-needed. Going into a check-in call you should be familiar with:
 
 - Usage data
 - Current Sourcegraph version & upgrade info
@@ -240,7 +240,7 @@ There are three scenarios in which we would perform a Technical Deal Review:
 When a Technical Deal Review is needed, the CE initiates this process by doing the following:
 
 1. Completes a peer review with another CE
-2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pro's or con's where applicable, and articulate specific asked of Product, Engineering, and Support.
+2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asked of Product, Engineering, and Support.
 3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
 4. [Product Directors](../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD.
 5. Complete async review within 3 business days.
@@ -267,4 +267,4 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
 
 - Sales
   - Responsible for providing necessary business context around the deal.
-  - Where applicable, responsibile for prioritization decisions.
+  - Where applicable, responsible for prioritization decisions.

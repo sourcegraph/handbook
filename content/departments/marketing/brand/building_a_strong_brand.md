@@ -14,7 +14,7 @@ The strongest brands are highly authentic, helpful, knowledgeable, and values-dr
 1. Customers associate themselves strongly with the brand, its attributes, values, and personality, and they fully buy into the concept which is often characterized by a very emotional and intangible relationship (this results in higher customer loyalty);
 1. Customers are loyal to the brand and would actively seek it and buy it, despite several often cheaper options available (this results in a higher customer retention rate).
 
-A strong brand can also help reduce perceived risks (performance, financial, opportunity/time, safety, social, and psychological) by authenticating the source of the product or service, and fulfilling the promise of the perceived value of the items being sold or used. Best of all, a strong brand can grow and evolve with its customers — without losing identity or values — because its ultimate goal is to help improve or simplify some aspect of their lives.
+A strong brand can also help reduce perceived risks (performance, financial, opportunity/time, safety, social, and psychological) by authenticating the source of the product or service, and fulfilling the promise of the perceived value of the items being sold or used. Best of all, a strong brand can grow and evolve with its customers—without losing identity or values—because its ultimate goal is to help improve or simplify some aspect of their lives.
 
 ## Further reading on technology company branding:
 

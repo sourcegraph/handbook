@@ -10,7 +10,11 @@ The instructions in this document will guide you on the steps you need to take t
 > - Search indexes will be rebuilt from scratch
 >
 > The above may take a while if you have a lot of repositories. In the meantime, searches may be slow or return incomplete results. This process rarely takes longer than 6 hours and is usually **much** faster.
-
+>
+> CAUTION: **Backup and Restore must be done on Sourcegraph instances that are on the same version**
+>
+> - For example, if the Sourcegraph instance you take the database dump from is on v3.34.2 then the new instance must also be on v3.34.2.
+>
 > NOTE: In some places you will see `$NAMESPACE` used. Add `-n $NAMESPACE` to commands if you are not using the default namespace
 > More kubectl configuration options can be found here: [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
@@ -49,16 +53,16 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 - Before restoring on the new deployment, It is very important you stop all connections to the Database from the frontend.
 
   -     Scale down all the pods in the deployment
-    `kubectl scale deployment ---all --replicas=0 `
+    `kubectl scale deployment --all --replicas=0 `
   -     Scale down all the statefulset
-    `kubectl scale sts ---all --replicas=0 `
+    `kubectl scale sts --all --replicas=0 `
 
 - Then restart ONLY the `pgsql` and `codeintel` pods
 
   -     Start the pgsql:
-    `kubectl scale pgsql --replicas=1 `
+    `kubectl scale deployment/pgsql --replicas=1 `
   -     Start the codeintel-db:
-    `kubectl scale codeintel-db --replicas=1 `
+    `kubectl scale deployment/codeintel-db --replicas=1 `
 
 - Copy the database files into the pods by running the following command from the root of the deploy-sourcegraph directory
 
@@ -87,8 +91,8 @@ In this section of the tutorial, you would learn how to restore the primary `sou
 
 ```
 
-  $ psql -U sg -f /tmp/sourcegraph_db.out sg
-  $ psql -U sg -f /tmp/codeintel_db.out sg
+  $ psql -U sg -f /tmp/sourcegraph_db.out sg  // exec into the pgsql-pod and run this command
+  $ psql -U sg -f /tmp/codeintel_db.out sg   // exec into codeintel_db-pod and run this command
 
 ```
 

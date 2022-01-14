@@ -16,8 +16,8 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [Farhan Attamimi](../../team/index.md#farhan-attamimi), Senior Data Operations Analyst
 - [Steph Hay](../../team/index.md#steph-hay), Senior Business Operations Analyst
 - [Kelsey Brown](../../team/index.md#kelsey-brown), Senior Business Operations Analyst
-- **Hiring**: [Director of Data and Analytics](https://boards.greenhouse.io/sourcegraph91/jobs/4084968004)
-- **Hiring**: [Data Analyst](https://boards.greenhouse.io/sourcegraph91/jobs/4155296004)
+- L.A. (starting 2022-02-07), Director of Data and Analytics
+- B.G. (starting 2022-01-10), Senior Data Analyst
 
 ## Resources
 
@@ -29,6 +29,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [Guide to user journey mapping](../../departments/product-engineering/product/process/user_journey_maps.md)
 - [Guide to product-led growth](process/product_led_growth.md)
 - [Customer data policy](process/customer_data_policy.md)
+- [Team processes](process/index.md)
 
 ## Goals
 

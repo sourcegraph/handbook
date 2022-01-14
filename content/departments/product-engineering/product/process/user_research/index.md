@@ -28,7 +28,7 @@
 
 ### Search
 
-- **Initial searches** - This study sought to undertstand a user's initial impressions and searches of the Sourcegraph Cloud product.
+- **Initial searches** - This study sought to understand a user's initial impressions and searches of the Sourcegraph Cloud product.
   - [Research summary slides](https://docs.google.com/presentation/d/1b1sa88dqmXIKB3_1stHYuj14ts4qptb5Gyym1goO2wQ/edit#slide=id.g7a4352b37a_0_90)
   - [User journey map](https://www.figma.com/file/7RHdxmVzzCqrXYOEC9dY4u/Initial-search-user-journey?node-id=62%3A0)
   - Loom discussing the research [part 1](https://www.loom.com/share/f775af94c06a4446a31fcc600332f2f5), [part 2](https://www.loom.com/share/13e0e6d2e035409db1173c13428f090a), [part 3](https://www.loom.com/share/8907c7413b6a4162a5cb819d9584d908)

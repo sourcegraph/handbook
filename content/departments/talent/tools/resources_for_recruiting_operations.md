@@ -32,7 +32,7 @@ How Recruiters Submit Interview Requests:
 How All Other Teammates Submit Interview Requests:
 
 - Simply let the appropriate Recruiter and/or Recruiting Operations Specialist know what you would like scheduled in whatever format is easiest for you (email, slack, tagging them in Greenhouse, etc.). Please include the candidate’s full name and which [types of interviews](../process/types_of_interviews.md#resume-deep-dive) you would like scheduled. We will let you know if we have any follow up questions!
-  - If you do not hear back from us in 24-48 hours, please send a kind reminder over Slack!
+  - If you do not hear back from us in 24–48 hours, please send a kind reminder over Slack!
 
 ## Interview Scheduling:
 
@@ -146,12 +146,6 @@ Recruiting Operations Specialists follow the steps below to send weekly candidat
 
 ### Recruitment Branding
 
-- Working alongside Marketing to manage recruitment branding strategies for the following job boards:
-  - [Blind](https://www.teamblind.com/company/Sourcegraph/news)
-  - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
-  - [LinkedIn](https://www.linkedin.com/company/sourcegraph)
-  - Great Place to Work
-  - [AngelList](https://angel.co/company/sourcegraph)
-  - Hacker News
-  - Women Who Code
-    - Please see the full list of job boards where we post our open positions [here](../process/job_boards.md)!
+Working alongside Marketing to manage recruitment branding strategies on job boards and social media.
+
+Details can be found [here](../process/recruitment_branding.md)

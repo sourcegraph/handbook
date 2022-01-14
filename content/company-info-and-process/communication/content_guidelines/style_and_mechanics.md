@@ -199,7 +199,7 @@ Avoid any instructions or language that requires the user to see the layout or d
 
 ## Numbers
 
-- Spell out numbers 1-9 except for percentages and ranges.
+- Spell out numbers 1–9 except for percentages and ranges.
 - Use numerals for 10 upwards.
 - Always use the numeral for ordinals (numbers that tell the position of something in a list).
 
@@ -566,7 +566,7 @@ Use an en dash (–) to indicate a [range or span](#ranges-and-spans), without s
 </div>
 </div>
 
-Use an em (—) dash without spaces to separate clauses in paragraph copy.
+Use an em dash (—) without spaces to separate clauses in paragraph copy.
 
 <div class="usage">
 <div class="item yes">
@@ -1160,8 +1160,8 @@ Don’t use examples to compensate for poor documentation. Avoid “cutesy” ex
 
 For consistency, all examples should use the following names (as appropriate).
 
-- **People:** Logan, Morgan, Jordan, Riley (gender-neutral first names)
-- **Usernames:** `logan`, `morgan`, `jordan`, `riley`
+- **People:** Logan, Morgan, Jordan, Riley, Cris, Cami, Dani, Alex, Chidi, Akira, Sam (or other [gender-neutral first names](https://en.wikipedia.org/wiki/Unisex_name), instead of the traditional Alice, Bob, Charles...)
+- **Usernames:** `logan`, `morgan`, `jordan`, `riley`, `cris`, `cami`, `dani`, `alex`, `chidi`, `akira`, `sam`
 - **Hostnames:** example.com and subdomains of example.com (avoid using real names such as `mycompany.com`)
 - **Email addresses:** logan@example.com, morgan@example.com
 - **URLs:** https://sourcegraph.example.com (assume HTTPS)

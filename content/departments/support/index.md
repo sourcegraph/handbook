@@ -28,7 +28,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
   - [Kelvin Lee](../../team/index.md#kelvin-lee)
   - [Mariam Adedeji](../../team/index.md#mariam-adedeji)
   - [Michael Bali](../../team/index.md#michael-bali)
-  - RS (starting 2021-12-20)
+  - [Riana Shahid](../../team/index.md#riana-shahid)
   - [Warren Gifford](../../team/index.md#warren-gifford)
   - TBH
 - [Nonso Obiano](../../team/index.md#nonso-obiano), Manager
@@ -61,7 +61,7 @@ We always want the following to be true:
 As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
 1. I enact our company values and team guiding principles in all of my work (customer communication, workflow, internal communication, etc)
-2. I take an average of at least 1 new case each day (5-7 a week); as volume allows
+2. I take an average of at least 1 new case each day (5–7 a week); as volume allows
 3. I provide an initial response to each case for which I take responsibility within 1 hour of the customer requesting help
 4. I remain responsive to our customers throughout, aiming to reply within minutes to each reply they send me and letting no more than a day (counted as 24 hours) pass between my replies (being sure that I have set expectations with the customer on when they will hear from me again and what I am doing in the meantime)
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
@@ -130,7 +130,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 - [Application engineer onboarding](onboarding/customer-support-onboarding.md)
 - [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
-- [Career levels](career-growth/cs-career-levels.md)
+- [Career growth](career-growth/index.md)
 - [Team README](team/index.md)
 - [Team schedule](process/support-schedule.md)
 - [Organizational structure](team/support-org-structure.md)
@@ -142,6 +142,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Engaging other teams](process/engaging-other-teams.md)
 - [Serving as messenger during incidents](../product-engineering/engineering/process/incidents/index.md)
 - [Triaging](process/customer-support-triaging.md)
+- [Support capacity levels and contingencies](process/support-capacity-levels-and-contingencies.md)
 - [Case reviews](process/case-reviews.md)
 - [Enablement](process/enablement/index.md)
 - [Tools](tools/index.md)
@@ -153,7 +154,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
-- We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
+- We aim to respond to all customers on all issues within 1 hour between 9:00–0:00 UTC (2am–5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.
 
 #### For customers with on-premises/self-hosted Sourcegraph instances:

@@ -38,7 +38,8 @@ The Content Platform team has the following customers:
 
 1. Marketing department: The marketing, blog, and learn sites.
 1. Content Platform: The handbook site
-1. Product department: The Docs site
+1. Product department: The docs site
+1. Docs team: The docs site
 
 ## Strategy and Plans
 
@@ -48,7 +49,7 @@ In the next six months, we will focus primarily on improving the self-service ab
 
 #### FY22 Q4
 
-- Establish a scalable process for marketing web requests for the Content Platform team - Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
+- Establish a scalable process for marketing web requests for the Content Platform team—Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
 - Establish a unified technical strategy to drive all content platforms forward
 - Deliver the implementation of the redesigned blog
 

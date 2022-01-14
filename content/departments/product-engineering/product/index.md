@@ -15,7 +15,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
-- [How we track product and engineering progress](../process/planning-process.md#sharing-progress)
+- [How we track product and engineering progress](../process/reporting-progress.md)
 
 ## Product team
 
@@ -71,3 +71,4 @@ There are various problems, feature areas, or initiatives related to Product (wh
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
+- [Product team tools](tools/index.md)

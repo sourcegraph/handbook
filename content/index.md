@@ -30,7 +30,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Team bios](team/index.md)
 - [CEO](team/ceo/index.md)
 
-## Sourcegraph Strategy and Goals
+## [Sourcegraph Strategy and Goals](strategy-goals/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
@@ -46,6 +46,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [RFCs](company-info-and-process/communication/rfcs/index.md)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
 - [Community](company-info-and-process/community/index.md)
+- [Policies](company-info-and-process/policies/index.md)
 
 ## Using the Handbook
 
@@ -114,3 +115,7 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Legal](departments/legal/index.md)
 
 ### [Tech Ops](departments/tech-ops/index.md)
+
+- [Internal security](departments/tech-ops/process/internal_security.md)
+- [Device usage and privacy](departments/tech-ops/process/team_device_usage_privacy.md)
+- [Systems list and guides](departments/tech-ops/tools/index.md)

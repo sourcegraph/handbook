@@ -19,7 +19,7 @@
 
 For any members of a hiring team, please see [this page](../index.md#the-talent-team) for a breakdown of each step in the hiring process.
 
-## Recruiting tools
+## Recruiting [tools](../tools/index.md)
 
 - We use Greenhouse as our applicant tracking system. Please see this [guide to using Greenhouse.](../tools/guide_to_using_greenhouse.md) (in progress)
 - We utilize LinkedIn Recruiter and TopFunnel as our sourcing platforms. Hiring managers will be a assigned a hiring manager seat on the platform. For details on hiring manager seat capabilities, [click here](linkedin.md).
@@ -45,7 +45,7 @@ The folder to store agency contracts can be found [here](https://drive.google.co
 
 ## Open positions
 
-The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91). For job boards that we post to and are considering, [click here](job_boards.md)
+The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91). For job boards that we post to and are considering, [click here](recruitment_branding.md)
 
 ## Job descriptions
 

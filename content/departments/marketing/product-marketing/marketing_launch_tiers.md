@@ -35,9 +35,9 @@ L2 launches are reserved for features or small products. L2 launches:
 - Are typically goaled on product adoption or leads
 - Receive fewer marketing and sales resources
 
-_The L2 designation does not mean that the feature isn’t important - it just means that the launch doesn’t warrant as much marketing support._
+_The L2 designation does not mean that the feature isn’t important—it just means that the launch doesn’t warrant as much marketing support._
 
-PMM should begin partnering with the product deam during the beta stage. Depending on other priorities, PMM involvement may be later.
+PMM should begin partnering with the product team during the beta stage. Depending on other priorities, PMM involvement may be later.
 
 ## L3 launch
 
@@ -49,6 +49,6 @@ L3 launches are reserved for small or incremental features and updates. L3 launc
 - Are typically goaled on product adoption or usage
 - Require minimal marketing and sales resources
 
-_The L3 designation does not mean that the feature isn’t important - it just means that the launch doesn’t warrant as much marketing support._
+_The L3 designation does not mean that the feature isn’t important—it just means that the launch doesn’t warrant as much marketing support._
 
 PMM will provide launch support only and will not be embedded. Depending on other priorities, PMM may only be involved as a consultant.

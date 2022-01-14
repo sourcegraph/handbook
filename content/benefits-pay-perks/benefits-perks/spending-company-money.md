@@ -42,9 +42,9 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 ## Computers
 
-Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
+Once your contract is signed, you will need to get your Sourcegraph computer. All Sourecgraph teammates are required to have, and to work from, a company machine. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
-**US/Canada/EU-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+**US/Canada/Eurpoe-based teammates (not Russia)** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
 
 **Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
@@ -108,7 +108,7 @@ If you would like to upgrade to the new M1 Pro but you have had your current lap
 - **Cell phone plan:** $75/month
 - **Wellness:** $100/month
 
-**Co-working/office space:** $300-500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space. This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included.
+**Co-working/office space:** $300–500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space. This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included.
 
 You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a _day-to-day drop in basis_ or a _month-to-month basis_ for ease of monthly reimbursement. The Company will not cover the cost of a co-working space deposit or sign for coworking space contracts. Additionally, if you would like to setup a group co-working space with pooled teammate funds, please send a message to People Ops and Finance stating Name(s) and Team Role(s), Location of space, and estimated monthly cost. For group rentals, we recommend one person submit a monthly invoice and tag all attendees.
 

@@ -15,11 +15,12 @@ Reference:
 - [Current team](team/index.md)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
 - [Department Meeting](team-culture/department-meeting.md)
+- [Team rituals](team-culture/index.md)
 
-How to:
+[How to](process/index.md):
 
 - [Headcount planning](process/headcount-planning.md)
-- [Planning process](process/planning-process.md)
+- [Planning](process/planning.md)
 - [Reporting progress](process/reporting-progress.md)
 
 ## Handbook organization

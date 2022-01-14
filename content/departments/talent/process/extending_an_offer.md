@@ -3,6 +3,7 @@
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
+- [Identifying candidates](identifying_candidates.md)
 - [The interview process](./interview_process.md)
 - **You are here:** how to extend an offer
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
@@ -29,7 +30,7 @@
 - Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `"Yes"` or `"Strong Yes"` in feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 
-**Step 5**: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
+**Step 5**: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
 
 - Attendees: Recruiter, Hiring Manager, Candidate.
 - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile.

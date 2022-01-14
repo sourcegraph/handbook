@@ -1,52 +1,29 @@
 # BizOps onboarding
 
-Welcome! We're so excited to have you join the BizOps team. This document outlines the structure of your first few weeks at Sourcegraph.
+Welcome! We're so excited to have you join the BizOps team. This document outlines the structure of your first few weeks at Sourcegraph. Most of the actual onboarding content is in Process Street, so to avoid duplication some sections are intentionally non-specific.
 
 ## Week 1
 
-### Get set up
+#### Get set up
 
-You'll have to get some basics set up in your first few days:
-
-- Complete the [Process St onboarding](https://app.process.st/reports/).
-
-### Understand company and team mission, values and goals
+#### Understand company and team mission, values and goals
 
 - [Sourcegraph values](../../../company-info-and-process/values/index.md)
 - [Sourcegraph strategy](../../../strategy-goals/strategy/index.md)
 - [Sourcegraph OKRs](../../../strategy-goals/goals/index.md)
-- [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/63)
+- [Current BizOps projects](https://github.com/orgs/sourcegraph/projects/224/views/1) and [backlog](https://github.com/orgs/sourcegraph/projects/63)
 
-### Understand Sourcegraph communication and documentation standards
+#### Onboarding sessions
 
-- We're a handbook-first company. Learn all about the handbook on its [handbook page](../../../handbook/index.md).
-- Join relevant Slack channels. The main channels are [listed in the handbook](../../../company-info-and-process/communication/team_chat.md#channels), but it's a good idea to look through all the channels in our Slack and join all that seem relevant! The channels that BizOps uses most heavily are #business-ops and #analytics, in addition to the channels of teams we work with.
-- Learn about how we work. We're an all-remote company, which means [we work asynchronously as much as possible](../../../company-info-and-process/remote/index.md#all-remote) and a lot of decision making happens through [RFCs](../../../company-info-and-process/communication/rfcs/index.md).
-
-### Onboarding sessions
-
-Your manager will help you schedule the following training sessions:
+On your onboarding checklist you will find some onboarding sessions. Your manager will help you schedule the following training sessions:
 
 - Product demo
-  - Cloud vs. self-hosted
-  - Search (including code monitoring)
-  - Code intel (including the difference between search and precise)
-  - Sourcegraph and browser extensions
-  - Batch Changes
-  - Code insights
-- Review the [sales onboarding quiz](../../sales/onboarding/quiz.md)
-- Check out the [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ) in the Know Thy Dev sales enablement program for a deep dive into how Sourcegraph solves common developer pains. These videos are long so I recommend skipping to the parts the CEs are demoing and listening at at >1x speed
-- Product analytics overview
-  - Event logger and pings overview
-  - On-prem deployment to Google BigQuery to Looker data flow
+- [Sales onboarding quiz](../../sales/onboarding/quiz.md)
+- Know thy dev
+  - [Dev Pain Sessions](https://drive.google.com/drive/u/0/folders/167Umyjs25fHPonju2ctWhtrkADDQ1WSJ)
+- DataOps overview
 - Sales and marketing data overview (focused on the data instead of the tools)
 - GitHub and git walk-through (Q&A)
-  - Read through the [git intro](../../../company-info-and-process/onboarding/git-intro/index.md) and [add yourself](../../../handbook/editing/add-yourself-to-team-page.md) to the team page
-
-### Get to know fellow teammates
-
-- Schedule 1:1s with teammates to start getting to know who you'll be working with! Ask your manager for a list of people you could get started with! The [org chart](../../../team/org_chart.md) is also good place to start.
-- Begin joining relevant weekly team meetings wherever possible. For example, if you will be working closely with our commercial teams (e.g. Sales, Marketing, Customer Engineering), join our weekly Customer Ops sync, the company pipeline review, and more. Your manager will help you identify and get invites to the right list of meetings.
 
 ## Weeks 2 and 3
 
@@ -62,3 +39,4 @@ Your manager will help you schedule the following training sessions:
 ## Week 4
 
 - Get onboarded onto your first big project!
+- Month one check-in

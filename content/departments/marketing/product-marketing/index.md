@@ -21,7 +21,7 @@
 
 ## What we do
 
-Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible - there will certainly be times when other teams drive these initiatives.
+Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible—there will certainly be times when other teams drive these initiatives.
 
 | Drive                                                       | Contribute                                                             |
 | :---------------------------------------------------------- | :--------------------------------------------------------------------- |

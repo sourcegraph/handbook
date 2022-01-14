@@ -49,7 +49,7 @@ Whether you need a dedicated screenshot application or not depends on how often 
 - Do not use retina sizes as screenshots look fine at 1x (ratio of image size to intended display size is 1:1)
 - If needed, use screenshot annotations to further contextualize visual elements
 - Consider adding a caption below the image for additional context and information
-- Export as a PNG if the color palette is limited, else JPEG compression at 70-80% quality
+- Export as a PNG if the color palette is limited, else JPEG compression at 70–80% quality
 - The total file size should be less than 100Kb (faster loading time = better UX). If larger, it should be uploaded to [sourcegraph-assets](https://console.cloud.google.com/storage/browser/sourcegraph-assets/?project=sourcegraph-de&folder=true&organizationId=true) on Google Cloud storage and linked to
 
 ## Adding a screen recording (screencast)
@@ -78,7 +78,7 @@ Recording a great screencast is a large topic, but here are some essentials to k
 - Only capture the part of the screen that is necessary. If the output is video, then aim for 16:9 ratio for YouTube
 - If the entire screen needs to be captured, then your resolution should be 1280x720 (720p), as that will make on-screen elements easy to read
 - Decide whether it should be standalone, or if it only makes sense when embedded with content
-- Ideally, GIF-like videos should be less than 15-20 seconds. Otherwise, it’s most likely better as a video.
+- Ideally, GIF-like videos should be less than 15–20 seconds. Otherwise, it’s most likely better as a video.
 - Invest in learning a tool such as ScreenFlow if you need to annotate and/or edit your recordings
 - Does your video make sense without an accompanying explanation? If not, then a voice-over or text annotations can help a lot
 
@@ -212,7 +212,7 @@ Export your video in 16:9 ratio (should probably be 720p), then [upload your vid
 1. Click on the **CREATE** button
 2. Select your video to begin uploading
 3. Add a title that has key words someone is likely to use in a search
-4. Add a 1-2 sentence description of your video that contains a call-to-action for the user to learn more, activate the feature, or at least, install Sourcegraph. See other Sourcegraph videos that may have description content you can re-use
+4. Add a 1–2 sentence description of your video that contains a call-to-action for the user to learn more, activate the feature, or at least, install Sourcegraph. See other Sourcegraph videos that may have description content you can re-use
 5. For thumbnail, either select the best option presented or generate your own by viewing the video fullscreen, taking a screenshot, then uploading it
 6. Select "No, it's not made for kids"
 7. Expand "MORE OPTIONS" to add the tags: "sourcegraph", "codesearch", "universalcodesearch"
