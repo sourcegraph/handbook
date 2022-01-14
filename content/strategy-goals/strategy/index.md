@@ -37,12 +37,12 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 We have identified five key use cases for our universal code search platform:
 
 1. Developer onboarding & velocity
-1. [Code reuse](./use_cases/code_reuse.md)
-1. [Code health](./use_cases/code_health.md)
+1. [Code reuse](use_cases/code_reuse.md)
+1. [Code health](use_cases/code_health.md)
 1. Fixing vulnerabilities
 1. Incident Response
 
-See also our (internal only) [use cases slide](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0) for presenting these. We also have an (internal only) document describing [FY23 use cases in detail](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz). Finally, how each department uses them and what they need out of them is described on our [working with use cases](./working_with_use_cases.md) page.
+See also our (internal only) [use cases slide](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0) for presenting these. We also have an (internal only) document describing [FY23 use cases in detail](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz). Finally, how each department uses them and what they need out of them is described on our [working with use cases](working_with_use_cases.md) page.
 
 ## Principles
 
