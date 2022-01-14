@@ -68,6 +68,7 @@ Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.138065992
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Devon Coords owns this list and payments are made with Nick's Brex. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm) All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor.
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
+- [AngelList](https://angel.co/company/sourcegraph)
 
 ### Job boards and coding bootcamps we have posted to in the past:
 
