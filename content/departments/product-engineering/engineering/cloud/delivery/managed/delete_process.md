@@ -6,8 +6,8 @@ Deleting a managed instance is initiated by a CE team member by creating an tear
 
 1.  Destroy the customer's managed instance infrastructure with Terraform.
 1.  Destroy the customer's Terraform remote state.
-1.  Open a PR against deploy-sourcegraph-managed.
-1.  Delete the DNS entry for the managed instance.
+1.  Delete GCP Disk Snapshots
+1.  Delete the DNS entry and GCP Project for the managed instance.
 1.  Update documentation to remove references of the managed instance.
 
 ## Confirm teardown request with the CE Team:
@@ -112,8 +112,68 @@ git push origin HEAD
 
 ### Create the Pull Request
 
-**Title:** Appfolio: Teardown Managed Instance
+**Title:** CUSTOMER: Teardown Managed Instance
 _Link tear-down request ticket in the description_
+
+## Delete Snapshots
+Scheduled snapshots are not managed by Terraform. In order to remove the GCP project, remaining snapshots must be deleted.
+
+**Please double-check the value of the $CUSTOMER environment variable in your current session.**
+
+```
+gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "data" | awk '{print $1}' | xargs gcloud compute snapshots delete --project=sourcegraph-managed-$CUSTOMER --quiet
+```
+
+## Remove the GCP Project Entry
+
+### Checkout the sourcegraph/infrastructure repository and ensure it is up-to-date
+```
+git checkout main
+git pull
+```
+
+### Create a new branch
+
+```
+git checkout -b managed-instance/${CUSTOMER}/teardown-project
+```
+
+### Remove project variable
+
+```
+cd gcp/projects
+```
+
+Edit `terraform.tfvars` to remove the project variable corresponding to $CUSTOMER.
+
+### Remove the GCP project
+```
+terraform apply
+```
+
+**Review the proposed changes carefully.**
+
+### Commit the change
+To prevent an initial state circular depenency, the Terraform state for GCP projects is committed as a file into the infrastructure repository.
+Make sure to include this in the pull request.
+
+```
+git add terraform.tfvars terraform.tfstate
+git commit -m "managed-instance-${CUSTOMER}: Remove GCP project"
+```
+
+### Open a pull request
+
+```
+git push origin HEAD
+```
+
+For the Pull Request:
+**Title:** managed-instance-customer: Remove GCP Project
+_Link tear-down request ticket in the description_
+
+Wait for checks to pass, approval and then merge pull request.
+
 
 ## Remove the DNS Entry
 
@@ -136,19 +196,15 @@ git checkout -b managed-instance/${CUSTOMER}/teardown
 cd dns
 ```
 
-Edit `sourcegraph.managed.tf` remove the cloudflare_record resource for $CUSTOMER.
+Edit `sourcegraph.managed.tf` to remove the cloudflare_record resource for $CUSTOMER.
 
-### Verify the change
-
-```
-git diff
-```
 
 ### Commit the change
 
 ```
 git add sourcegraph.managed.tf
-git commit -m “managed-instance-${CUSTOMER}: Remove DNS entry”
+git commit -m "managed-instance-${CUSTOMER}: Remove DNS entry"
+cd ../ # back to the infrastructure/ repo root directory
 ```
 
 ### Open a pull request
@@ -158,19 +214,36 @@ git push origin HEAD
 ```
 
 For the Pull Request:
-**Title:** managed-instance-appfolio: Remove DNS entry
+**Title:** managed-instance-$CUSTOMER: Remove DNS entry
 _Link tear-down request ticket in the description_
 
-Wait for checks to pass and approval, merge pull request
+Wait for checks to pass, approval, and merge pull request.
 
-### Apply the change
+### Update the local main branch
+```
+git checkout main
+git pull
+```
+
+### Remove the DNS the change
 
 Check .tool-versions for correct Terraform version
 
 ```
+cd infrastructure/dns
+cat .tool-versions
+terraform apply
+cd ../ # back to the repo root directory
+```
+
+### Remove the GCP project
+```
+cd infrastructure/gcp/projects
+cat .tool-versions
 git checkout main
 git pull
 terraform apply
+cd ../ # back to the repo root directory
 ```
 
 ## Update documentation to remove references of the managed instance
