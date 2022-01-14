@@ -66,6 +66,6 @@ Additionally, the "platform team" (a central team that mains many or most librar
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
-- [Use case index](../index.md)
+- [Use case index](../index.md#use-cases)
 - [Productboard code reuse](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482292/detail)
 - [Drive innovation by enabling innersource](https://drive.google.com/file/d/1hiyTxBA_n43LsZjhuE3YOMiWZdAOHcTn/view?usp=sharing), Gartner. Analyst research that cites Sourcegraph as a key resource for enabling innersource and code reuse.
