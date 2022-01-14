@@ -1393,7 +1393,6 @@
         ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -1406,7 +1405,19 @@
           40.818130
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pietro Rosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.789800,
+          45.070740
+        ]
+      }
     }
-
   ]
 }
