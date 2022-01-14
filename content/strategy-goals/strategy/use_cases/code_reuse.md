@@ -14,6 +14,8 @@ Sourcegraph is the way that devs discover libraries and learn how to reuse them.
 - How library maintainers can understand where and how their library is being used, and evolve or fix the library and everywhere it's used
 - How engineering leadership allocates investments in library development vs. application teams
 
+[Innersourcing](https://en.wikipedia.org/wiki/Inner_source) (see also [GitLab's definition](https://about.gitlab.com/topics/version-control/what-is-innersource)) is necessary but not sufficient for code reuse. In order to reuse code, you need to be able to view the code. But you can't stop there. Just making it visible doesn't mean it's easy to discover code to reuse, evaluate it, and so on. Any organization that embarked on an innersourcing journey intending to improve code reuse needs to follow through (see the "Our model" section for what's needed).
+
 Note that "Code reuse" as we use it always refers to code library reuse, not to copy-paste reuse. Also, the terms "library" and "API" have a nuanced relationship - in the context of this use case, they are roughly interchangeable.
 
 ## Why this is important
@@ -57,6 +59,8 @@ The following are real, anonymized quotes from customers today on how we're alre
 [Dev Productivity Lead](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_19)
 
 - At enterprises, internal dev productivity teams are often tasked with maintaining shared libraries and APIs that are used throughout the organization. This ensures consistency and eliminates duplicate work.
+
+Additionally, the "platform team" (a central team that mains many or most libraries in a company) is a key player here for companies that have that team.
 
 ## Additional resources
 
