@@ -2,7 +2,7 @@
 
 ## Teammate privacy and trust
 
-## List of Policies
+## List of Policies - DRAFT - All policies are in work]
 
 - Access Control Policy
 - Asset Management Policy
