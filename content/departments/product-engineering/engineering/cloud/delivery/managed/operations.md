@@ -2,8 +2,10 @@
 
 Operations guides for [managed instances](./index.md).
 
-To upgrade a managed instance, see [managed instances upgrade process](upgrade_process.md).
-To create a managed instance, see [managed instances creation process](creation_process.md).
+ * To upgrade a managed instance, see [managed instances upgrade process](upgrade_process.md).
+ * To create a managed instance, see [managed instances creation process](creation_process.md).
+ * To delete a managed instance, see [managed instances deletion process](delete_process.md).
+
 
 - [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
