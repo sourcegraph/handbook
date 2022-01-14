@@ -278,7 +278,6 @@ If you or anyone attending an in-person company event suspects COVID-19 exposure
 
     -   List of company event attendees/potentially exposed teammates
 
-
 - If you are preparing to travel soon and you’re feeling sick, or have been exposed to anyone within the past two weeks, please postpone or cancel your travel. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we’d be traveling to. Reach out to People Ops and they will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
 
 - Please arrange to get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
