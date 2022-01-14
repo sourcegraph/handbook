@@ -72,7 +72,7 @@ The list below contains features and services that already exist, and the Cloud 
   - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
   - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
   - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
-  - P. R. (he/him) - starting 2022.01
+  - [Pietro Rosa](../../../../../team/index.md#pietro_rosa) (he/him)
   - P-J L. (he/him) - starting 2022.01
   - M. V. (she/her) - starting 2022.02
 
