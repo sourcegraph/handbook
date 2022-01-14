@@ -161,11 +161,11 @@ We advise spending within reason for the location you are visiting, with a $300 
     - [Getaround](https://www.getaround.com/)
     - [Zipcar](https://www.zipcar.com/)
 
-### Dining and your per diem:
+### Dining expenses:
 
 We ask you to use your best judgment when traveling and spending company money. Don’t go overboard with spending on food and drinks. Always ask for receipts for expenses over $25 USD and keep them organized.
 
-- All teammates will receive a [per diem](https://www.merriam-webster.com/words-at-play/what-does-per-diem-mean) while they travel:
+- All teammates will be able to spend a maximum of:
   - $80 per day for all 3 meals, alcoholic beverages included.
   - Any additional spending for food or drinks will come out of your own pocket.
 - Please note that this is money that is available to be reimbursed, and you will not roll over any unused money to the next day. We encourage you to use this set amount, as your daily per diem amount will reset the following day.
