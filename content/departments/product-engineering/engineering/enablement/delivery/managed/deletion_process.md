@@ -18,6 +18,7 @@ resource "google_kms_crypto_key" "key" {
 ```
 
 # Destroy the infrastructure
+
 ```
 terraform destroy
 ```
@@ -25,6 +26,7 @@ terraform destroy
 # Force object deletion in the GCP Bucket
 
 Edit `terraform.tfstate`:
+
 ```
 - "force_destroy": false,
 + "force_destroy": true,
@@ -33,6 +35,7 @@ Edit `terraform.tfstate`:
 # Delete snapshots
 
 # Destroy the GCP Bucket
+
 ```
 terraform destroy
 ```
@@ -40,9 +43,11 @@ terraform destroy
 # Remove managed instance terraform files
 
 # Open pull request against deploy-sourcegraph-managed
+
 ```
 # Create a branch, remove the customer files, commit
 
 
 # Push the current branch up
 git push origin HEAD
+```
