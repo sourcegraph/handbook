@@ -2526,6 +2526,16 @@ feroz_salam:
   location: Bristol and London, UK
   description: Feroz has been working in security engineering for most of his career, initially as a developer of anti-phishing products and more recently within application security and incident response for banking infrastructure. His LinkedIn profile also claims that his skills include French Horn, Dairy Science, and Immigration Issues; some of these might be true.
 
+shawntee_harris:
+  name: Shawnteé Harris
+  email: shawntee.harris@sourcegraph.com
+  reports_to: director_customer_support
+  github: shawnteeharris
+  pronouns: she/her
+  role: Program Manager
+  location: Kansas City, KS, USA 🇺🇸
+  description: Shawntee lives in Kansas City, KS with her fiancé and 2 dog. Outside of work she loves, collecting new vinyals, attending live music shows, and traveling.
+
 pietro_rosa:
   name: Pietro Rosa
   email: pietro.rosa@sourcegraph.com
