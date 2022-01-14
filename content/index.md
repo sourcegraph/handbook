@@ -46,7 +46,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [RFCs](company-info-and-process/communication/rfcs/index.md)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
 - [Community](company-info-and-process/community/index.md)
-- [Policies](company-info-and-process/policies/index.md)  
+- [Policies](company-info-and-process/policies/index.md)
 
 ## Using the Handbook
 
