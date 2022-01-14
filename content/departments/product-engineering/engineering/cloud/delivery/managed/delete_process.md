@@ -116,6 +116,7 @@ git push origin HEAD
 _Link tear-down request ticket in the description_
 
 ## Delete Snapshots
+
 Scheduled snapshots are not managed by Terraform. In order to remove the GCP project, remaining snapshots must be deleted.
 
 **Please double-check the value of the $CUSTOMER environment variable in your current session.**
@@ -127,6 +128,7 @@ gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "da
 ## Remove the GCP Project Entry
 
 ### Checkout the sourcegraph/infrastructure repository and ensure it is up-to-date
+
 ```
 git checkout main
 git pull
@@ -147,6 +149,7 @@ cd gcp/projects
 Edit `terraform.tfvars` to remove the project variable corresponding to $CUSTOMER.
 
 ### Remove the GCP project
+
 ```
 terraform apply
 ```
@@ -154,6 +157,7 @@ terraform apply
 **Review the proposed changes carefully.**
 
 ### Commit the change
+
 To prevent an initial state circular depenency, the Terraform state for GCP projects is committed as a file into the infrastructure repository.
 Make sure to include this in the pull request.
 
@@ -173,7 +177,6 @@ For the Pull Request:
 _Link tear-down request ticket in the description_
 
 Wait for checks to pass, approval and then merge pull request.
-
 
 ## Remove the DNS Entry
 
@@ -198,7 +201,6 @@ cd dns
 
 Edit `sourcegraph.managed.tf` to remove the cloudflare_record resource for $CUSTOMER.
 
-
 ### Commit the change
 
 ```
@@ -220,6 +222,7 @@ _Link tear-down request ticket in the description_
 Wait for checks to pass, approval, and merge pull request.
 
 ### Update the local main branch
+
 ```
 git checkout main
 git pull
@@ -237,6 +240,7 @@ cd ../ # back to the repo root directory
 ```
 
 ### Remove the GCP project
+
 ```
 cd infrastructure/gcp/projects
 cat .tool-versions
