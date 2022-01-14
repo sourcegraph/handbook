@@ -4,7 +4,7 @@
 
 Typography is one of the most crucial brand touch points, as it is perhaps the aspect viewers interact with the most. Our typefaces work cohesively to clearly present data in a modern, accessible, open, and informative way, that aligns with our brand voice and values. The Source type family is Adobe’s first open source typeface, designed by Paul D. Hunt. It is intended to be extremely legible in both print and digital uses.
 
-The Source type family was selected for three primary reasons: 1) Because it is fully open source and this aligns with our values as a company. 2) It provides a sans serif and a code typeface that is useful for showing code snippets on marketing web pages. 3) It refers back to the name of our own company — a perfect match.
+The Source type family was selected for three primary reasons: 1) Because it is fully open source and this aligns with our values as a company. 2) It provides a sans serif and a code typeface that is useful for showing code snippets on marketing web pages. 3) It refers back to the name of our own company—a perfect match.
 
 Learn more about Source Sans through [Adobe fonts](https://fonts.adobe.com/fonts/source-sans), [Google Fonts](https://fonts.google.com/specimen/Source+Sans+Pro) or on [Paul D. Hunt’s GitHub](https://github.com/pauldhunt).
 We prioritize different typefaces for our product interface. For the purposes of this guide we are only focusing on market-facing contexts.
@@ -57,7 +57,7 @@ We prioritize different typefaces for our product interface. For the purposes of
     size of each design, however, relative sizing should resemble the examples to the right.</p>
     <h3>Tone of voice</h3>
     <p>
-      Headlines should be set in sentence case — never all caps.
+      Headlines should be set in sentence case—never all caps.
       We do not want to be perceived as yelling at our audience.
       Initial caps create visual “speed bumps” for readers and should be avoided.
       Use punctuation sparingly; we recommend using em dashes over commas, avoiding exclamation points, and omitting periods in headlines unless preceded by other punctuation.
@@ -139,15 +139,15 @@ See [PDF](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=42
 
 ### Alignment
 
-In most cases text should be left-aligned with a ragged right margin. Some layouts call for center alignment of the headline(s) — this is typical when a headline accompanies more graphic elements. Body copy within such layouts should be left-aligned.
+In most cases text should be left-aligned with a ragged right margin. Some layouts call for center alignment of the headline(s)—this is typical when a headline accompanies more graphic elements. Body copy within such layouts should be left-aligned.
 
 ### Tracking and kerning
 
-Our typefaces do not require tracking, and neither do we have any stylistic need for it. Our typefaces are also designed with kerning in mind, so for the most part you don’t have to worry about this. If your software allows — body copy should be set to metrics, and large headlines can be set to optical. In print, large headlines may require kerning on a case-by-case basis. There is less flexibility with this in digital cases — so don’t sweat it. Always use your best judgment to determine how to set the type to ensure legibility and visual consistency of word forms.
+Our typefaces do not require tracking, and neither do we have any stylistic need for it. Our typefaces are also designed with kerning in mind, so for the most part you don’t have to worry about this. If your software allows—body copy should be set to metrics, and large headlines can be set to optical. In print, large headlines may require kerning on a case-by-case basis. There is less flexibility with this in digital cases—so don’t sweat it. Always use your best judgment to determine how to set the type to ensure legibility and visual consistency of word forms.
 
 ### Widows and orphans
 
-A ‘widow’ or ‘orphan’ is a very short line — usually one word — at the end or beginning
+A ‘widow’ or ‘orphan’ is a very short line—usually one word—at the end or beginning
 of a paragraph or column. These should be avoided whenever possible.
 
 ## Placement

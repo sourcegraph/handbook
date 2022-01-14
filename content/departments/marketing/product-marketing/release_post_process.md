@@ -16,14 +16,14 @@ Product marketing is responsible for creating the monthly release post in collab
 You can tell when the release is cut by following along in #progress.
 
 - The marketing release post owner runs the command to generate the changelog (being sure to replace the version number in the command), and then pastes the output at the end of the release post ([loom guide](https://www.loom.com/share/59da6bc1784a48e9b6af4d9e620ee4df)): `go run ./bin/generate_changelog_items.go -versions 3.28 -i ../sourcegraph/CHANGELOG.md`.
-  - Make sure that you get the latest in the Sourcegraph repo before running this command. If your repo is in a different location than `../sourcegraph`, you'll need to update the commandline above.
+  - Make sure that you get the latest in the Sourcegraph repo before running this command. If your repo is in a different location than `../sourcegraph`, you'll need to update the command line above.
   - If for some reason the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
 - Once this is done, inform the team in the #release-post channel.
 - If necessary, PMs make edits to the changelog based on what was actually shipped.
 - PMs add final assets.
 - Product marketing to package and draft the release post and share with [Rebecca](../../../team/index.md#rebecca-dodd), [Andy](../../../team/index.md#andy-schumeister), and [Jason](../../../team/index.md#jason-yavorska) for review.
 
-**0-2 days after release ships**
+**0–2 days after release ships**
 
 - No new additions or edits from the product team
 - Managing Editor edits and publishes release post.

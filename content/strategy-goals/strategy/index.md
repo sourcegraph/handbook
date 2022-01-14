@@ -32,6 +32,23 @@ To make it so [everyone can code](#purpose), we will create tools, networks, and
 
 Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
 
+## Use cases
+
+We have identified five key use cases for our universal code search platform:
+
+1. Developer onboarding & velocity
+1. [Code reuse](use_cases/code_reuse.md)
+1. [Code health](use_cases/code_health.md)
+1. Fixing vulnerabilities
+1. Incident Response
+
+There are also several related resources:
+
+- [use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
+- [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
+- [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
+- How we [work with use cases](working_with_use_cases.md)
+
 ## Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
@@ -102,19 +119,18 @@ Within this overall product strategy, individual product teams set their own goa
 
 #### [Enablement](enablement/index.md)
 
-- [Delivery](enablement/delivery/index.md)
 - [Dev Experience](enablement/dev-experience/index.md)
 - [Frontend Platform](enablement/frontend-platform/index.md)
 - [Repo Management](enablement/repo-management/index.md)
 - [Engineering Education](enablement/engineering-education/index.md)
-- [Handbook](enablement/handbook/index.md)
+- [Content Platform](enablement/content-platform/index.md)
 
-#### Cloud
+#### [Cloud](cloud/index.md)
 
 - [Core application](cloud/core-application/index.md)
 - Cloud SaaS
-- Growth
-  - [API docs](cloud/growth/index.md)
+- [Growth and Integrations](cloud/growth-and-integrations/index.md)
 - [Security](cloud/security/index.md)
 - DevOps/SRE
-- [Extensibility](cloud/extensibility/index.md)
+- [Delivery](cloud/delivery/index.md)
+- [Growth and Integrations](cloud/growth-and-integrations/index.md)

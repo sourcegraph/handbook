@@ -34,7 +34,7 @@ I prefer to solve problems independently, but I'm not averse to asking for help 
 
 ### Preferred time to work
 
-Standard 9-5
+Standard 9–5
 
 ### Feelings to receiving messages outside work hours
 

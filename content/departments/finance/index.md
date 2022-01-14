@@ -48,10 +48,10 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ### Fiscal year 2022
 
-- **FY22 Q1**: 01 February, 2021 - 30 April, 2021
-- **FY22 Q2**: 01 May, 2021 - 31 July, 2021
-- **FY22 Q3**: 01 August, 2021 - 31 October, 2021
-- **FY22 Q4**: 01 November, 2021 - 31 January, 2022
+- **FY22 Q1**: 01 February, 2021–30 April, 2021
+- **FY22 Q2**: 01 May, 2021–31 July, 2021
+- **FY22 Q3**: 01 August, 2021–31 October, 2021
+- **FY22 Q4**: 01 November, 2021–31 January, 2022
 
 ### Sources of truth
 
@@ -106,6 +106,10 @@ We work with the head of each department in order to update the financial plan.
 Following month two of every quarter, we complete a detailed dive in the current quarter actuals versus plan. Our philosophy is to compare our forecasts to results, so that we can constantly improve our forecasting methodologies and approaches to hold ourselves accountable. Additionally, this process drives accountability to the business owners of the budget. We focus on variances that exceed both 5% and $20k thresholds. We use this exercise to determine completeness over our financial statement close process, and also to understand if there is any activity causing fluctuations that we will need to revise on a go-forward basis. This exercise is completed at week 3 and 4 of the Month 3, in a given quarter. Once the quarter is closed, we also complete a detailed review of our plan vs. actual results. This analysis is completed at both a departmental level and a GL account level. We provide detailed explanations for variances that exceed both 5% and $20k thresholds.
 
 We also complete a balance sheet review. This review is focused on providing analysis on key financial statement line items such as Cash, AR, AP, Accruals, and Deferred Revenue. We have a number of methods for analyzing the activity on these accounts.
+
+### Process
+
+See our [process docs](process/index.md).
 
 ## Accounting
 

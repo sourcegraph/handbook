@@ -12,7 +12,6 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
   - Chorus
     - Note: To properly use Chorus make sure you are signed in to Zoom (You can use Zoom without being logged in, but Chorus may not work properly, so it is good to double check). You also need to be signed in to stop Chorus from recording if requested from a customer. Also see [this link for additional details on stopping Chorus recordings.](https://docs.chorus.ai/hc/en-us/articles/360051549574-How-can-I-stop-recording-or-turn-recording-off-for-a-call-)
   - Docusign
-  - Sendoso
   - Outreach (Optional)
   - Looker
 - [Join all customer calls](joining_customer_calls.md) during this period that you can
@@ -46,24 +45,24 @@ See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFP
 
 ### First 30 days
 
-- Pass the Demo certification
+- Pass the [Demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I) and upload your Demo video to the [Demo Certification folder](https://drive.google.com/drive/u/0/folders/1F8p1bxTS78wlb41JB6WrAjn2yF-J-5fQ) or have your manager notify Sales Ops when completed
 - Pass the Pitch certification
 - Finalize your Target Account list with your manager
 - Establish an Outbound Propsecting Plan for 5 Target Accounts
 
-### 30-60 Days
+### 30–60 Days
 
 - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](../index.md#target-opportunity-profile))
 - Added 3 Qualified Opportunities to your pipeline in Salesforce
 - Build a Strategic Account Plan for top Target Account
 
-### 60-90 Days
+### 60–90 Days
 
 - Complete 7 New Business meetings (meetings should meet our [Target Opportunity Profile](../index.md#target-opportunity-profile))
 - Add 3 additional Qualified Opportunities to your pipeline in Salesforce
 - Advance 2 opportunities into Technical and Business Validation
 
-### 90-180 Days
+### 90–180 Days
 
 - Complete 20 New Business meetings (meetings should meet our [Target Opportunity Profile](../index.md#target-opportunity-profile))
 - $187k of Closed/Won IARR

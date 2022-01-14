@@ -25,7 +25,7 @@
 1. Be able to communicate how universal code search solves the challenges of every developer/company
    - We’ve delivered updated brand personas by end of Q1, an updated brand narrative by Q2, a brand guide by Q3, and an internal brand repository by Q4
    - Unfamiliar devs and decision-makers visit about.Sourcegraph.com and convert to the next stage of the funnel (with high probability)
-   - Dev-focused announcement before Q4 drives a 20-30% lift in new MAU
+   - Dev-focused announcement before Q4 drives a 20–30% lift in new MAU
 1. Scale awareness to reach more developers around the world
    - Monthly organic search traffic to about.sourcegraph.com has increased by 30%
    - By EOY our email subscribers have grown to [_N<sub>8</sub>_][n8] developers

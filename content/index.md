@@ -9,6 +9,10 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate. Learn more about the handbook [here](handbook/index.md).
 
+## We're Hiring!
+
+- View open positions [here](https://about.sourcegraph.com/jobs/)
+
 ## Benefits, Pay, Perks
 
 - [Overview](benefits-pay-perks/benefits-perks/index.md)
@@ -26,7 +30,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Team bios](team/index.md)
 - [CEO](team/ceo/index.md)
 
-## Sourcegraph Strategy and Goals
+## [Sourcegraph Strategy and Goals](strategy-goals/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
@@ -95,6 +99,11 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Talent](departments/talent/index.md)
 
+- [Resources for Candidates](departments/talent/index.md)
+- [Resources for Hiring Manager](departments/talent/index.md)
+- [Resources for Teammaates](departments/talent/index.md)
+- [Resources for Recruiters](departments/talent/index.md)
+
 ### [Business Operations & Strategy](departments/bizops/index.md)
 
 - [Data operations](departments/bizops/data-operations/index.md)
@@ -105,3 +114,7 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Legal](departments/legal/index.md)
 
 ### [Tech Ops](departments/tech-ops/index.md)
+
+- [Internal security](departments/tech-ops/process/internal_security.md)
+- [Device usage and privacy](departments/tech-ops/process/team_device_usage_privacy.md)
+- [Systems list and guides](departments/tech-ops/tools/index.md)

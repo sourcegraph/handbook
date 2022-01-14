@@ -10,7 +10,7 @@ TBA. More can be found in our [Cloud Vision](../index.md#vision)
 
 Our detailed Sourcegraph Cloud roadmap is currently internal-only until our public announcement later this year. Our Q4 OKRs are publicly available [here](../index.md#okrs-fy22q4).
 
-Beyond Q4, our goals over the next 12-24 months include:
+Beyond Q4, our goals over the next 12–24 months include:
 
 - Provide a delightful self-service onboarding and self-service payments capabilities for new developers and new teams to enable a true Software-as-a-Service experience for customers who prefer it
 - Provide in-depth administration capabilities to unlock adoption of Sourcegraph Cloud by large enterprises
@@ -70,10 +70,11 @@ The list below contains features and services that already exist, and the Cloud 
 - [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
 - [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles/index.md#engineering-manager)
   - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
-  - [Artem Ruts](../../../../../team/index.md#artem-ruts) (he/him)
   - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
   - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
-  - P. R. (he/him) - starting 2022.01
+  - [Pietro Rosa](../../../../../team/index.md#pietro_rosa) (he/him)
+  - P-J L. (he/him) - starting 2022.01
+  - M. V. (she/her) - starting 2022.02
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 
@@ -81,9 +82,8 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 The Cloud SaaS team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
-- [Cloud Growth](../growth)
 - [Cloud DevOps](../devops)
-- [Extensibility](../extensibility)
+- [Growth and Integrations](../growth-and-integrations)
 - [Security](../security)
 
 ## News and updates
@@ -104,7 +104,7 @@ We are committed to sending a monthly newsletter to the entire Product and Engin
 ### How to contact the team and ask for help
 
 - For cloud users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for Cloud SaaS Team`.
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud-saas`.
 - For internal Sourcegraph teammates, join us in [#cloud-saas](https://sourcegraph.slack.com/archives/cloud-saas) to ask questions or request help from our team.
 - For cloud users with feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `Cloud Feature Request:` in your subject line.
 
@@ -173,8 +173,8 @@ Use comments in Figma to ask questions and share feedback. If a decision or miss
 
 Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
 
-- Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
-- Information internal to Sourcegraph - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
+- **Public Information** - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
+- **Information internal to Sourcegraph** - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
 Please read [this](../../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
 
@@ -232,7 +232,8 @@ All team events and reminders should be added to the [team calendar](https://cal
 
 #### Making pull requests and asking for code reviews
 
-TBD
+- Everyone (including engineers, EM, PM, PD) should set up a reliable way to receive pull request review notifications, examples are emails, Slack notifications (through GitHub Scheduled reminders). In some cases, direct pinging required reviewers could inform reviewers about the urgency and may help expedite receiving reviews.
+- Pull requests in the draft state indicate work in progress and not ready for review, while occasionally the author may ask for early feedback in explicit forms, examples are direct pings, mentioned on the pull requests.
 
 #### Definition of done (DoD)
 
@@ -260,13 +261,13 @@ TBD
 
 Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
-## Playbooks and procedures
+## [Playbooks](playbooks/index.md) and procedures
 
 - [Getting a list of cloud users](playbooks/getting-a-list-of-cloud-users.md)
 
 ## Hiring and onboarding
 
-### Hiring
+### [Hiring](hiring/index.md)
 
 This section contains links to Cloud SaaS specific interview types.
 

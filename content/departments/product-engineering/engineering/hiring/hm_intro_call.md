@@ -24,7 +24,7 @@ Review the candidate's resume, application responses, and any other links or inf
   - What are you looking to get out of your next role?
     - What is the most important thing you are hoping to learn/do?
   - Say I hire you today. What are the risks of you starting in this role?
-    - What will you do in your first 30-60 days to set yourself up for success and mitigate these risks?
+    - What will you do in your first 30–60 days to set yourself up for success and mitigate these risks?
     - What do you need from me/your team to be successful?
 - (~10 min) Answer any questions that they have. Use this as an opportunity to sell Sourcegraph (assuming you want to move forward with the candidate).
   - If you don't know the answer or think there is someone else who would be able to give a better answer, tell the candidate that you will write down their question and followup over email.

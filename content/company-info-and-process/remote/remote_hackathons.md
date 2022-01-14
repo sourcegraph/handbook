@@ -6,7 +6,7 @@ See also [Blog Hackathon](../../departments/marketing/content/editorial/blog_hac
 
 ## Size
 
-A hackathon of any size is possible, but we've found that having 10-20 participants works well. In a hackathon of ~16 product/engineering/design teammates, 11/11 survey respondents felt this size was "just right" and neither "too small" nor "too large."
+A hackathon of any size is possible, but we've found that having 10–20 participants works well. In a hackathon of ~16 product/engineering/design teammates, 11/11 survey respondents felt this size was "just right" and neither "too small" nor "too large."
 
 ## Length
 
@@ -40,7 +40,7 @@ Then, make sure to leave the feedback you have from the experience in the post-h
 
 Don't let the remote nature mislead you – there are still a significant number of tasks that a facilitator(s) should execute in order to create a smooth experience. Folks acting as facilitators should take the amount of planning/facilitation work they want to handle into account when choosing their own hackathon projects so they don't overwhelm themselves.
 
-The facilitator(s) should be mindful that pre-planning and proactively sharing all aspects of the hackathon in advance is important for a successful remote hackathon due to the different timezones of participants – facilitating a remote hackathon well is a task that starts days or weeks in advance of the actual hackathon.
+The facilitator(s) should be mindful that pre-planning and proactively sharing all aspects of the hackathon in advance is important for a successful remote hackathon due to the different time zones of participants – facilitating a remote hackathon well is a task that starts days or weeks in advance of the actual hackathon.
 
 ### Align on and communicate any themes
 
@@ -64,7 +64,7 @@ Depending on the size and duration of the hackathon, we recommend having at leas
 
 #### Kickoff
 
-With a synchronous kickoff, you can have folks give high-energy motivating speeches, share pieces of Sourcegraph history related to hackathons at Sourcegraph, or do any creative/icebreaking activities you'd like (see [Hackathon spirit](#hackathon-spirit)).
+With a synchronous kickoff, you can have folks give high-energy motivational speeches, share pieces of Sourcegraph history related to hackathons at Sourcegraph, or do any creative/icebreaking activities you'd like (see [Hackathon spirit](#hackathon-spirit)).
 
 #### Share / demo event
 
@@ -74,7 +74,7 @@ Whether demos are recorded or live, good topics to have participants cover in th
 
 - Who worked on the project?
 - What was made?
-- Why/How someone would use/interact/benefit from your project?
+- Why/How would someone use/interact/benefit from your project?
 - What's one thing (any kind/topic!) you learned making it?
 - Why did you choose this problem, of all possible projects?
 - What excites you about this project?
@@ -83,7 +83,7 @@ Whether demos are recorded or live, good topics to have participants cover in th
 
 Even though the hackathon is remote, you can choose to still make the entire experience feel different than the average week at Sourcegraph. Here are some tips + tricks we've used successfully in the past:
 
-- Hackathon Zoom backgrounds: at the [kickoff](#kickoff), share a Figma file with a template design that folks can then modify a copy of for 3-5 minutes, then have everyone share by setting it to their zoom background for the week. This [Figma file](https://www.figma.com/file/8Rvufqt6G4l0r809oJp0cU/Hackathon-Backgrounds?node-id=0%3A1) contains specific directions as well as an example.
+- Hackathon Zoom backgrounds: at the [kickoff](#kickoff), share a Figma file with a template design that folks can then modify a copy of for 3–5 minutes, then have everyone share by setting it to their zoom background for the week. This [Figma file](https://www.figma.com/file/8Rvufqt6G4l0r809oJp0cU/Hackathon-Backgrounds?node-id=0%3A1) contains specific directions as well as an example.
 - Hackathon swag: if you choose to have t-shirts or other swag, two things to keep in mind: (1) you can open the design up to participants as a contest (but have a backup design) and (2) you may need to collect sizes, in which case you should do so in the [post-hackathon survey](#post-hackathon-survey).
 - Hackathon talks: we've experimented with having "inspo talks" (inspiration talks) to mixed reception. Nobody hates them, but 8/11 participants in a post-hackathon survey noted these had a neutral effect on the experience.
 

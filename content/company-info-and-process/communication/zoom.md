@@ -8,7 +8,7 @@ Zoom can be set up to automatically post recordings of meetings to Slack after t
 
 ![image](https://user-images.githubusercontent.com/3173176/86101192-c3100f80-ba6e-11ea-984c-2955860113e3.png)
 
-This is most useful for remote teammates whom wish to participate in a team sync after the fact.
+This is most useful for remote teammates who wish to participate in a team sync after the fact.
 
 ### Set the meeting to auto-record
 

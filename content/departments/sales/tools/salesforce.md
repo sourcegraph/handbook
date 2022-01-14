@@ -32,9 +32,9 @@ Opportunities begin at the [interest](index.md#interest) stage.
 
 Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. Leads can be created in Salesforce in a few different ways:
 
-- Inbound Marketing Lead - automatically created via Hubspot when a user takes an action on our website
-- SDR Created - SDR either manually creates a new lead or uploads a list
-- Other Offline Sources - list uploaded from marketing event, webinar, etc.
+- **Inbound Marketing Lead** - automatically created via Hubspot when a user takes an action on our website
+- **SDR Created** - SDR either manually creates a new lead or uploads a list
+- **Other Offline Sources** - list uploaded from marketing event, webinar, etc.
 
 ### Lead Source
 
@@ -42,12 +42,12 @@ Every Lead should have a value in the Lead Source field. The Lead Source value i
 
 Lead Source values include:
 
-- Inbound - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
-- Referral - any lead that was referred by a partner, investor, customer, employee, etc.
-- SDR Created - any lead created by an SDR
-- Event - lead attended an event, webinar, or similar
-- Feedback Form - NPS Form Submissions
-- Other
+- **Inbound** - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
+- **Referral** - any lead that was referred by a partner, investor, customer, employee, etc.
+- **SDR Created** - any lead created by an SDR
+- **Event** - lead attended an event, webinar, or similar
+- **Feedback Form** - NPS Form Submissions
+- **Other**
 
 ### First Touchpoint
 
@@ -72,15 +72,15 @@ Lead Status indicates the stage of a lead in the workflow process.
 
 Lead Status values include:
 
-- New
-- Working - SDR is actively engaging new lead
-- Nurture - lead has potential, but is not ready to be converted
-- Self-Service - lead is best served by our self-service offering
-- Unqualified - lead is unqualified for our services, used for job candidates, students, etc.
-- Bad-Data
-- Converted - auto-set upon conversion of lead
-- Replied - lead responded from an Outreach sequence
-- Unresponsive - lead has not responded to an Outreach sequence
+- **New**
+- **Working** - SDR is actively engaging new lead
+- **Nurture** - lead has potential, but is not ready to be converted
+- **Self-Service** - lead is best served by our self-service offering
+- **Unqualified** - lead is unqualified for our services, used for job candidates, students, etc.
+- **Bad-Data**
+- **Converted** - auto-set upon conversion of lead
+- **Replied** - lead responded from an Outreach sequence
+- **Unresponsive** - lead has not responded to an Outreach sequence
 
 ### Lead Assignment
 
@@ -240,6 +240,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
   - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
+  - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
 - Consultants should not count in the round robin, and the SDR team should not convert consultant leads into the round robin queue
   - If a consultant does slip through, the scenario will be assessed on a one-off basis by Sales Ops and Sales Management

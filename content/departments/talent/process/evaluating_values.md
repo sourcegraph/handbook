@@ -22,7 +22,7 @@ Workplaces are a version of a community. In any community where you want people 
 
 Candidates are brand ambassadors, regardless of whether we hire them or not and candidate experience should be a top priority. We want to ensure we're hiring people who are going to enhance our values, and who believe in them the way that we do. On the flip side, it provides a really great candidate experience and it allows our candidates to truly realize that we don't just put values in our handbook, but we actually live them and breed them.
 
-The Values Interview is also important for the candidate for a couple of reasons. Not only does it give candidates direct exposure to our DNA, our makeup, and why our values are important - it also gives them the opportunity to meet people outside of the respective department for which they're interviewing. For example, if somebody is interviewing for a sales role, they could meet with somebody from the marketing and/or finance team. Not only does the candidate have the opportunity to see that our values are really important, but they also have the opportunity to meet a diverse set of teammates. They have the opportunity to ask why people outside of their respective departments work at Sourcegraph.
+The Values Interview is also important for the candidate for a couple of reasons. Not only does it give candidates direct exposure to our DNA, our makeup, and why our values are important—it also gives them the opportunity to meet people outside of the respective department for which they're interviewing. For example, if somebody is interviewing for a sales role, they could meet with somebody from the marketing and/or finance team. Not only does the candidate have the opportunity to see that our values are really important, but they also have the opportunity to meet a diverse set of teammates. They have the opportunity to ask why people outside of their respective departments work at Sourcegraph.
 
 ## Why is the values interview important to YOU?
 
@@ -48,7 +48,7 @@ You can see more information about our interview stages [here](types_of_intervie
 
 As we all know, interviewing can be stressful. The priority is to develop rapport, get the candidate at ease, and make them feel comfortable. We should ask them how they're doing, make sure they have a glass of water, and answer any initial questions they have. We always want to introduce ourselves and set an agenda.
 
-Sample script: Hi [candidate name], thank you so much for joining us today!  We know you have been through several other stages of the interview process, and everyone has really enjoyed getting to know you thus far.  For the next 30-minutes, we're excited to spend time together discussing our values, which we believe are the principles and beliefs that help us achieve our goals and vision.  We'd like to start with introductions.  We will then ask a series of questions related to our values, and we'll be sure to leave 5-10 minutes at the end for questions from you.  Does this sound good?
+Sample script: Hi [candidate name], thank you so much for joining us today!  We know you have been through several other stages of the interview process, and everyone has really enjoyed getting to know you thus far.  For the next 30-minutes, we're excited to spend time together discussing our values, which we believe are the principles and beliefs that help us achieve our goals and vision.  We'd like to start with introductions.  We will then ask a series of questions related to our values, and we'll be sure to leave 5–10 minutes at the end for questions from you.  Does this sound good?
 
 - 1st interviewer: my name is [name], my role is [position], and I have been at Sourcegraph for [length of time].
 - 2nd interviewer: my name is [name], my role is [position], and I have been at Sourcegraph for [length of time].
@@ -101,7 +101,7 @@ Once the values team has been selected, the Recruiter is responsible for sending
 
 "Hi team! As you know, our [values interview](evaluating_values.md) is critical to ensuring that our new hires embody our values, and we need your help! The two of you have been nominated to serve as the values team for our [role title] opening. I recognize that this is outside of your day-to-day responsibilities, so please let me know if you're willing to participate (and if you're too busy right now, no worries! We can always add you to another team when your schedule allows). If you both agree to opt in, below are some helpful details:
 
-- The two of you will conduct a 30-minute values interview for all [role title] finalists. We anticipate 3-5 total interviews (so this would be a 1.5-2.5 hour commitment) and will be spread out over multiple days.
+- The two of you will conduct a 30-minute values interview for all [role title] finalists. We anticipate 3–5 total interviews (so this would be a 1.5–2.5 hour commitment) and will be spread out over multiple days.
 - One of you will need to opt in as the lead (this person is the one who begins the introduction and asks the first question).
 - [Here](evaluating_values.md) is a resource to help you in the interview.
 - All structured interview questions are listed in your Greenhouse scorecard, found in the interview prep link in your interview calendar invite.

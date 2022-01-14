@@ -22,7 +22,7 @@ The previous 2 goals entail fast growth, which is risky for any company to under
 
 ## Responsibilities
 
-See "[Roles of the CEO](roles.md)".
+See [Roles of the CEO](roles.md).
 
 ## Communication
 
@@ -30,7 +30,7 @@ See "[Roles of the CEO](roles.md)".
 
 If possible, let's talk [asynchronously and publicly](../../company-info-and-process/communication/index.md).
 
-My preferred working hours are 08:00-17:30 US Pacific Time.
+My preferred working hours are 08:00–17:30 US Pacific Time.
 
 ### Asking for a review from me
 

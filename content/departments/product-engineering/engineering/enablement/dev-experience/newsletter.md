@@ -8,6 +8,99 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./index.md#newsletter) for preparing a newsletter.
 
+## Jan 10, 2022
+
+Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+
+### Internal tools and libraries
+
+#### Backward-compatible database migrations are now enforced
+
+Backward-compatible database migrations are now enforced in the CI pipeline for `sourcegraph/sourcegraph` - see the PR to re-enable the check at [#28872](https://github.com/sourcegraph/sourcegraph/pull/28872). This PR contains some initial documentation on writing backwards-compatible migrations, but it is still a work in progress.
+
+**What is a backwards compatible migration?:** A migration is backwards-compatible with a particular Sourcegraph version if those changes can be applied to a version without ill-effect.
+
+**What has already changed? (TL;DR)**: We've removed our use of golang-migrate that ran database migrations on startup of the frontend service and added a `migrator` service that runs database migrations separately from and prior to instance upgrades. This puts us well on our way to removing the entire class of frequent "dirty database" bugs that plagues many site-administrators on every upgrade.
+
+**What else is changing?:** We will soon be enforcing that the unit tests of the _previous minor release_ continue to pass with the newest database schema. This gives high confidence that any changes to the database will not negatively affect a running instance (behind at most one minor version). This allow site-administrators to upgrade an instance without requiring downtime to run the migrations.
+
+Of course, this check will come with escape hatches in the event of flake or test failures that are locked in the past. We're currently fleshing out the documentation on the subject, so keep an eye out for updates!
+
+For the full announcement or to leave comments, check out [the Slack discussion](https://sourcegraph.slack.com/archives/C0EPTDE9L/p1641329708282700)!
+
+#### Actor propagation
+
+Actors (used to identify a request in the context of a user or internal actor) are now propagated across _all_ internal requests when using the `httpcli` library, and the various approaches for propagating actors across services has been standardized with the new [`actor.HTTPMiddleware`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9233e2cd9b96bbbbbfb4be2e72543cb41ad9920c/-/blob/internal/actor/http.go?L94:6#tab=references). This makes it easier to enforce permissions across services. For more details, see [#28117](https://github.com/sourcegraph/sourcegraph/pull/28117).
+
+#### Database connections
+
+[`dbconn.Global` has been removed](https://github.com/sourcegraph/sourcegraph/pull/28251)! This is a huge step towards [bringing better database mocking to the entire codebase](https://github.com/sourcegraph/sourcegraph/issues/26113) (check out the [code insights dashboard tracking relevant migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTB9)!)
+
+![migration from global database mocks](https://user-images.githubusercontent.com/23356519/148499207-4862bdd8-2be6-4e73-9d47-2cd91f2c208c.png)
+
+#### Tracking issues
+
+[Tracking issues](../../process/tracking_issues.md) now support a new marker, `<!-- OPTIONAL LABEL: my-label -->`, that allows you to add labels on a tracking issue that do not need to be present on child issues for them to be considered part of this tracking issue. This is useful for making tracking issues easier to find without adding labels to every single issue within the tracking issue. For more details, see [#28665](https://github.com/sourcegraph/sourcegraph/pull/28665).
+
+### Continuous integration
+
+#### Subsequent `main` pipeline failures will now result in a branch lock
+
+In response to a variety of CI incidents (including [INC-21](https://github.com/sourcegraph/sourcegraph/issues/25482) at the end of September) we have introduced automated branch locks via a tool called [`buildchecker`](https://github.com/sourcegraph/sourcegraph/tree/main/dev/buildchecker). When `buildchecker` detects a series of CI failures, it will now automatically restrict push access to `main` to authors of recent failed builds and the DevX team until it sees a passed build, at which point it will unlock the branch. A notification will be posted in Slack to #buildkite-main as well mentioning the relevant teammates.
+
+It is the responsibility of authors of recently failed builds to investigate what might have gone wrong, seek help if needed, and help get the pipeline back green. We hope this will prevent long periods of time where many commits to `main` go untested due to failing jobs. To learn more, check out the [branch lock playbook](../../process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch)
+
+We've also made significant investments towards improving and streamlining the pipeline for better stability and observability - most recently, [a large number of E2E/QA tests were dropped](#e2e-and-qa-tests-survey-results) - which will hopefully help with minimizing locks triggered by test and infrastructure flakes.
+
+#### Specifying tools and language versions ran by _any_ continuous pipeline
+
+In response to [INC-59](https://docs.google.com/document/d/1HXKZa9L3MVswK6pDpRN5TdCgUcEcQca9Re4vCwlb6Ek/edit#) we have reworked which tools and languages versions are to be used in a given CI job. Previously, the agents where running a mix of `asdf` and natively installed versions which created trouble when diagnosing build failures that weren't caused by the test themselves.
+
+It is now _the responsibility of each repository to provide an adequate `.tools-version` file that defines what are the versions it needs_. There are no more pre-installed `go` version for example.
+Presently, this approach is limited by having the plugin for that particular tool installed beforehand on the agents images (we are working on removing this limitation). The overarching goal is to make the agents reasonably independent from what they are actually building.
+
+#### E2E and QA Tests survey results
+
+[RFC 544](https://docs.google.com/document/d/1pHlgAj3JderMVsP2rWMovh2mTSK8TBecriSHLZX6UHQ/edit) explored the result of [the e2e and qa tests survey](https://sourcegraph.slack.com/archives/CHXHX7XAS/p1636989660454300). Thanks to the efforts of every team that took part to that survey, a large amount of irrelevant tests [have been removed](https://github.com/sourcegraph/sourcegraph/pull/28995). As a result, those tests are about seven minutes faster than before and the average build time on the `main` branch is hovering around the 20 minutes mark instead of 25 minutes.
+
+There is more to come on that topic and the [Frontend Platform team](../frontend-platform/index.md) has plans to rework those tests as well as providing guidance on how to write them in reliable fashion.
+
+#### Buildkite agent selection
+
+Buildkite pipeline steps should now explicitly declare `queue: standard` to avoid experimental or temporary agents. For more details, see [infrastructure#2939](https://github.com/sourcegraph/infrastructure/pull/2939).
+
+#### Terraform vulnerability scanning
+
+The [security team](../../cloud/security/index.md) has introduced [Checkov checks](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) to the [`infrastructure` repository](https://github.com/sourcegraph/infrastructure) and performed a cleanup to fix or suppress all high and critical issues!
+
+Going forward, the Checkov step of the infrastructure pipeline will be set to fail in the event it finds a Terraform security issue. If the pipeline fails a warning block will be displayed in the pipeline output - a link will take you to the handbook with guidance on how to continue, and additional output will help point you towards how to correct the issue. For more details, see [Checkov Terraform vulnerability scanning](../../cloud/security/checkov.md)
+
+If anyone has any questions or issues, please post in the #security channel!
+
+#### Sentry integration to monitor internal pipeline scripts and hooks
+
+There are scripts and components of the CI pipeline that should never fail, independently of the tests results. These have proved be to hard to monitor, especially when the scripts are called from build hooks. Being notified when these failures happen enables faster reaction time. Here is an [example](https://github.com/sourcegraph/sourcegraph/pull/28915/files#diff-3c4244f37fc751696252758dd92a887d9e1e30851b18932c142ae56202bb5ea7R40) to get monitor a command so that a Sentry issue in the [Buildkite](https://sentry.io/organizations/sourcegraph/projects/buildkite/?project=6110304) project is created on a non zero exit code.
+
+### Observability
+
+The previous raw Grafana configuration used to add template variables to dashboards has been replaced with [`Container::Variables`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/docs/monitoring/monitoring?ContainerVariable) that abstracts away a lot of the behind-the-scenes dashboard config and potential gotchas to make it easier to define template variables on dashboards! Dashboard template variables are used to filter individual panels down by substituting variables in panel queries. Learn more in the [`ContainerVariable` API docs](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/docs/monitoring/monitoring?ContainerVariable).
+
+![template variables](https://user-images.githubusercontent.com/23356519/148470790-4397f274-68c7-45ab-8f9a-9057d162b1ab.png)
+
+### Local development
+
+#### Revamped introductory documentation
+
+The local development docs homepage has been revamped! Check it out at [docs.sourcegraph.com/dev](https://docs.sourcegraph.com/dev). The [quickstart docs](https://docs.sourcegraph.com/dev/setup/quickstart) has also been overhauled with a streamlined setup experience featuring `sg setup`, which has been greatly improved!
+
+#### `sg` improvements
+
+`sg` [now ships](https://github.com/sourcegraph/sourcegraph/pull/29382) a command that can reset databases as well as creating a site-admin: `sg db` (early adopters may have seen it under the name of `sg reset`). You can read more about the `sg db [reset-pg|reset-redis|add-user]` in the [documentation](https://docs.sourcegraph.com/dev/background-information/sg#sg-db-interact-with-your-local-sourcegraph-database-s)
+
+If you have ideas of other features that would be great, don't hesitate to join the [`sg` hack hour](./index.md#sg-hack-hour) on Fridays at 4PM UTC!
+
 ## Nov 23, 2021
 
 Hello everyone, and welcome to another iteration of the Developer Experience newsletter!
@@ -22,7 +115,7 @@ Significant progress has been made with sg setup, a new command that is slated t
 
 The Dev Experience team is proposing a "build sheriff" rotation in [RFC 515](https://docs.google.com/document/d/1rHOOgvWmBB5c4aS_wWPogNCAWT6_tww8tceSy6nzFy8/edit), with the goal of distributing knowledge and responsibilities around our CI infrastructure to all of engineering through regular rotations of "build sheriffs".
 
-You may have noticed a daily update in #dev-experience providing an overview of how CI has behaved that day - this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
+You may have noticed a daily update in #dev-experience providing an overview of how CI has behaved that day—this will be helping us track our progress towards a flake-free pipeline! If you need more details, a [dashboard is now available in Grafana Cloud](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) that features an overview of recently failed builds, steps, and potentially relevant logs. You can use this to see if lots of builds are failing on similar steps, which steps are the most problematic, and whether the issues are potentially related. A link can also be found in the Slack summaries. Let us know what you think on [#26118](https://github.com/sourcegraph/sourcegraph/issues/26118)!
 
 ![image](https://user-images.githubusercontent.com/23356519/143134471-85e5cea1-a1a2-44cd-96ff-36f06b7fe125.png)
 
@@ -44,7 +137,7 @@ A proposed revamp of how Honey events are created has been proposed in [#27964](
 
 Work on reducing usages of globals has continued with [improvements to how site configuration is accessed](https://github.com/sourcegraph/sourcegraph/pull/27453) that allows site configuration clients to be injected into places that require it. This makes site configuration easier to mock out and test without replacing a global variable in mocks.
 
-On a similar note, tests have been undergoing [incremental updates](https://github.com/sourcegraph/sourcegraph/pull/27401) to leverage the more ergonomic and self-contained database mocks - a [brief guide is available](https://docs.sourcegraph.com/dev/background-information/languages/testing_go_code#testing-with-a-database) if you know an area of the codebase that could use a similar update!
+On a similar note, tests have been undergoing [incremental updates](https://github.com/sourcegraph/sourcegraph/pull/27401) to leverage the more ergonomic and self-contained database mocks—a [brief guide is available](https://docs.sourcegraph.com/dev/background-information/languages/testing_go_code#testing-with-a-database) if you know an area of the codebase that could use a similar update!
 
 ## Nov 2, 2021
 
@@ -166,6 +259,6 @@ This is just the beginning. Work on [sg setup](https://github.com/sourcegraph/so
 
 Just sign up via GSuite SSO on [https://sourcegraph.grafana.net](https://sourcegraph.grafana.net/). This Grafana instance currently has logs for Sourcegraph Cloud, available for search with [LogQL](https://grafana.com/docs/loki/latest/logql/) via Loki. It has support for querying inferred fields from log messages, filtering for substring matches, and more. [Try it out!](https://sourcegraph.grafana.net/explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22grafanacloud-sourcegraph-logs%22,%7B%22expr%22:%22%7Bapp%3D%5C%22sourcegraph-frontend%5C%22%7D%20%7C%20logfmt%20%7C%20lvl%20%3D%20%5C%22eror%5C%22%20%7C%3D%20%5C%22migration%5C%22%22%7D%5D)
 
-Metrics and parity with /-/debug/grafana is on the roadmap - follow [#25407](https://github.com/sourcegraph/sourcegraph/issues/25407) for updates on that!
+Metrics and parity with /-/debug/grafana is on the roadmap—follow [#25407](https://github.com/sourcegraph/sourcegraph/issues/25407) for updates on that!
 
 **Shoutouts to teammates that improved our dev experience in September** [**Robert Lin, Valery Bugakov, Thorsten Ball, JH, Camden Cheek, Erik Seliger, Coury Clark and Quinn Slack**](https://github.com/sourcegraph/sourcegraph/pulls?page=2&q=is%3Apr+is%3Amerged+label%3Adx) **.**

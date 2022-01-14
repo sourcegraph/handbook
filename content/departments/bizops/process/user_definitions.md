@@ -4,7 +4,7 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 ## User states
 
-People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.
+People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases—a user can be both registered, activated and churned at the same time.
 
 | Metric                               | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
@@ -26,7 +26,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 ### Visitor
 
-A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
+A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure the success of our features that are intended to convert them into an active user.
 
 ### Active user (Cloud)
 
@@ -104,7 +104,7 @@ In each ping, instances will send a site_activity.DAUs, site_activity.WAUs, and 
 
 ### In-app site admin [usage stats page](https://sourcegraph.com/site-admin/usage-statistics)
 
-In the site admin panel, we have a Usage stats page that displays number of MAUs. This pulls data from Redis, which gets populated by our `usagestatsdeprecated` package. This was an old way of collecting data, and is not reliable. This is a known issue, and will be fixed to use the `event_logs` table.
+In the site admin panel, we have a Usage stats page that displays the number of MAUs. This pulls data from Redis, which gets populated by our `usagestatsdeprecated` package. This was an old way of collecting data, and is not reliable. This is a known issue, and will be fixed to use the `event_logs` table.
 
 ## How are metrics calculated
 

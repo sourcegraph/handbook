@@ -24,7 +24,7 @@ a nod to ADA accessibility and the inclusion of a secondary palette for more ver
 ### An iterative past
 
 Over the years the Sourcegraph logo has taken many
-forms — here is just a sample of the various sans serifs,
+forms—here is just a sample of the various sans serifs,
 colors, and logomark styles.
 
 <style>

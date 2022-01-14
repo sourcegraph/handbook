@@ -4,12 +4,13 @@
 
 - Create a new RFC:
   - The default format — [View](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/edit) or [Duplicate](https://docs.google.com/document/d/1VV0ddLmMrcU2IWo_s4xm8Q8UtGnreyuhIRPJY0Dh5NI/copy)
-  - Framing problems, proposing solutions, and making decisions — [View](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/edit) or [Duplicate](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/copy)
-  - Surfacing a tension — [View](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/edit) or [Duplicate](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/copy)
+  - Framing problems, proposing solutions, and making decisions—[View](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/edit) or [Duplicate](https://docs.google.com/document/d/1FJ6AhHmVInSE22EHcDZnzvvAd9KfwOkKvFpx7e346z4/copy)
+  - Surfacing a tension—[View](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/edit) or [Duplicate](https://docs.google.com/document/d/1__E9bzW9eV7pnzhGfs4f_bOqWefYZKzI-m0rWrZ8nF4/copy)
   - Proposal for adding data to pings — [View](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/edit) or [Duplicate](https://docs.google.com/document/d/1dbR2ir-gKmpGRgnNphk6SxOkt1DNSCX2pjbOiPtcFBw/copy)
   - Proposing process / handbook changes — [View](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/edit) or [Duplicate](https://docs.google.com/document/d/1zInJ9mn_SePKjS8dLHS1EDt2_gUEkCKD544bDDSuJek/copy)
 - [View all public RFCs](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa)
 - [View all private RFCs](https://drive.google.com/drive/folders/1KCq4tMLnVlC0a1rwGuU5OSCw6mdDxLuv)
+- There is also an #rfcs channel you can use to follow along with RFCs as they are created. The bot that updates the channel is a [Zapier](https://zapier.com) integration; you can request access in #it-tech-ops but you only need to do this if you want to modify the bot.
 
 ---
 
@@ -69,7 +70,7 @@ We have a set of status labels we’ve found helpful in the past:
 - **Closed**: When the RFC is for the purpose of collaboration or discussion but not necessarily to make a decision or propose a specific outcome that will eventually become Implemented, the Closed label indicates that the RFC is no longer an active collaborative artifact.
 - **Abandoned**: When the RFC is for the purpose of making a decision, and there are no plans to move forward with the RFC’s proposal, the Abandoned label indicates that the RFC has been purposefully set aside.
 
-While these labels suggest that RFCs move through series of prescribed stages, this isn’t always the case. RFCs are low-process and can be used for all kinds of purposes that may not have an explicit, actionable outcome. Ultimately, the RFC itself should make it clear what the status and planned process is.
+While these labels suggest that RFCs move through a series of prescribed stages, this isn’t always the case. RFCs are low-process and can be used for all kinds of purposes that may not have an explicit, actionable outcome. Ultimately, the RFC itself should make it clear what the status and planned process is.
 
 If in doubt about the current status of an RFC, check the update history and contact the author.
 
@@ -100,7 +101,7 @@ We use Google Docs for writing and collaborating on RFCs. Using a single system 
 - It’s intuitive and inclusive of all of our team members, regardless of prior technical experience.
 - It’s easy to determine the next sequential number when creating a new RFC.
 
-We know Google Docs don’t have all the features or capabilities we would like, such as markdown support and code snippets. We’ve considered and tried using other tools in the past, including Notion and markdown in git. However, in our experience, Google Docs provide the best overall experience within its constraints.
+We know Google Docs don’t have all the features or capabilities we would like, such as markdown support and code snippets. We’ve considered and tried using other tools in the past, including Notion and markdown in git. However, in our experience, Google Docs provides the best overall experience within its constraints.
 
 Often, the ideas and proposals within RFCs progress into other collaborative artifacts: a usability improvement might be explored in a Figma file, a new feature might be captured in a series of GitHub issues, or a single RFC’s proposal might be carried out through a series of subsequent RFCs. It’s a best practice to update RFCs to include links and references to related artifacts.
 

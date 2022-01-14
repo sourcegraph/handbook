@@ -2,11 +2,11 @@
 
 # How to apply
 
-The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91).
+The source-of-truth for our open positions is [our careers page](https://about.sourcegraph.com/jobs/).
 
 We want to build a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, please apply anyway. We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
-We are growing rapidly and post new jobs on a weekly basis. We encourage you to check our [our careers page](https://boards.greenhouse.io/sourcegraph91) regularly to see if there is a match.
+We are growing rapidly and post new jobs on a weekly basis. We encourage you to check our [our careers page](https://about.sourcegraph.com/jobs/) regularly to see if there is a match.
 
 # Working at Sourcegraph
 
@@ -47,12 +47,12 @@ Candidates are welcome to re-apply for roles at any time. The talent team will r
 
 ### Early-career Engineering Hiring
 
-Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../../product-engineering/engineering/hiring/early-career-engineers.md)
+Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../../product-engineering/engineering/hiring/early-career-engineers.md).
 
 # Interviewing at Sourcegraph
 
-- [Our interview process](../process/interview_process.md).
-- [Types of interviews](../process//types_of_interviews.md).
+- [Our interview process](../process/interview_process.md)
+- [Types of interviews](../process//types_of_interviews.md)
 
 # How to prepare for an interview
 
@@ -76,7 +76,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 ### Types of interviews
 
-- We encourage you to read about the [different types of interviews](../process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
+We encourage you to read about the [different types of interviews](../process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
 
 ### Helpful links
 

@@ -24,7 +24,7 @@ When developers need to make changes across multiple repositories or workspaces:
 #### Benefits
 
 - Reduce the time it takes to make large-scale code changes by up to 80%
-- Turn control back to the developer making the change. Instead of asking for help, they can automate the change and ask for review.
+- Turn control back to the developer making the change. Instead of asking for help, they can automate the change and ask for a review.
 
 #### Customer proof points
 
@@ -33,7 +33,7 @@ When developers need to make changes across multiple repositories or workspaces:
 
 ## Go-to-market playbook
 
-There are many ways to get value out of Batch Changes, but here are the two approaches that are the most successfull:
+There are many ways to get value out of Batch Changes, but here are the two approaches that are the most successful:
 
 ### Playbook 1
 
@@ -59,7 +59,7 @@ Here is a list of detailed [usage examples](https://github.com/sourcegraph/batch
 
 ## Discovery
 
-When talking to a platform, infrastucture or developer experience team, or as a starting point:
+When talking to a platform, infrastructure or developer experience team, or as a starting point:
 
 - How do you make large scale code changes at your company? Do you have any automation in place to fix / upgrade code at scale? What is it used for?
 - Tell me about a time you had to change (functions, configuration, libraries) across your codebase?

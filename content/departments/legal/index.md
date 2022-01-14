@@ -4,9 +4,9 @@ The legal team helps Sourcegraph grow responsibly.
 
 We provide high-quality legal advice to every team. High-quality legal advice at Sourcegraph is:
 
-- Practical - enables teams to make decisions
-- Efficient - timely and avoids being a bottleneck or slowing down decisions
-- Balanced - given in context and considers priorities, differing viewpoints, and competing interests
+- **Practical** - enables teams to make decisions
+- **Efficient** - timely and avoids being a bottleneck or slowing down decisions
+- **Balanced** - given in context and considers priorities, differing viewpoints, and competing interests
 
 We manage the company's legal risk by anticipating major legal risks and building mitigation plans. Legal risk includes lawsuits and investigations brought by a third party, which can be a customer, competitor, user, teammate, partner, vendor, or regulator. We enable teammates to identify and weigh legal risks, make informed decisions, and accept calculated risks.
 
@@ -56,7 +56,7 @@ Objective 1: Enable the business to achieve its growth targets by managing an ef
 
 - Turnaround 100% of customer contract reviews within 5 business days
 - Increase use of online terms by making our online terms more mutual ✅
-- Establish a clear and efficient process for vendor contract reviews in partnership with Finance and other business stakeholders
+- Establish a clear and efficient [process](process/index.md) for vendor contract reviews in partnership with Finance and other business stakeholders
 - Make signing Sourcegraph’s form NDA easier for customers and other third parties by setting up a Docusign PowerForm ✅
 - Deliver legal enablement trainings proactively on an as-needed basis
 
