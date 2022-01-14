@@ -29,6 +29,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
+  - [Sentry project](https://sentry.io/organizations/sourcegraph/issues/?project=6110304) for the CI pipeline.
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
     - [`sg` hack hour](#sg-hack-hour)
@@ -120,3 +121,8 @@ TODO
 ## Tech stack
 
 TODO
+
+### Internal resources
+
+- Tools and languages updates feed is available in #dev-experience-notification
+- GitHub issues and pull-requests feed is available in #dx-github-feed
