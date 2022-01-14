@@ -3,6 +3,7 @@
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
 - [Engineering management](tools/engineering-management.md)
+- [Policies](policies/index.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)

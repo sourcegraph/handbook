@@ -77,6 +77,7 @@
       - [Milan Freml](../../../../team/index.md#mila-freml)
       - [Artem Ruts](../../../../team/index.md#artem-ruts)
       - [Joe Chen](../../../../team/index.md#joe-chen)
+      - [Pietro Rosa](../../../../team/index.md#pietro_rosa)
 
 Helpful links:
 
