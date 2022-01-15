@@ -81,40 +81,11 @@ If it's a security related issue, it's best to also loop in the security team.
 
 #### Messenger
 
-The messenger is only needed for incidents with customer-facing impact. The messenger is almost always a member of customer support or engineering (someone who is not in the role of incident lead).
+The messenger is only needed for incidents with customer-facing impact. The messenger is always a member of customer support.
 
-If an incident has customer impact, all you have to do is engage #customer-support and customer support will facilitate the entire communication process so you can focus on solving the issue. Support is also in OpsGenie and can be engaged the same way as engineering with `/genie whoisoncall` and `/genie alert <description of incident and link to Slack thread> for [@team or user email]`. If ever there is a question about whether a messenger is useful for an incident, just post in #customer-support and the support team can help think through it and determine best next steps.
+If an incident has customer impact, all you have to do is engage #customer-support and customer support will facilitate the entire communication process so you can focus on solving the issue. Support is also in OpsGenie and can be engaged the same way as engineering with `/genie whoisoncall` and `/genie alert <description of incident and link to Slack thread> for [@team or user email]`. If ever there is a question about whether a messenger is useful for an incident, just post in #customer-support and @ mention @cs-triage or page support and the support team can help think through it and determine best next steps.
 
-If a messenger is decided, **assign** the messenger in the incident chatroom with `/incident messenger @person`
-
-The messenger should witness the incident lead work (in the dedicated Slack channel and/or on any huddle calls) and (with minimal progress-interrupting questions) translates what they witness to:
-
-- [Status page](https://sourcegraphstatus.com/#) updates for customers which is updated via incident.io Slack commands (`/incident statuspage`) and following these best practices:
-
-  - Be sure posts do not orient toward any specific region and remain relevant to a global population (for example, use UTC timezone and don’t say things like “this morning,” etc)
-  - Be succinct and informative
-  - First post should be a report of awareness of the incident and mention to email support@sourcegraph.com if there are questions. For example:
-
-    _Identified: We are aware there is an issue with **\_\_\_**. We are investigating a resolution. If you have any questions, email support@sourcegraph.com._
-
-  - Next post(s) can be updates. These are best offered at least every 30 minutes. For example:
-
-    _Investigating: We are continuing to investigate a resolution. We want to resolve this as quickly as possible!_
-
-  - When the issue is resolved, post a “resolved” status. If customers are required to follow any guidance, consider including it here or link to where it can be found. For example:
-
-    _Resolved: We have resolved the issue and will conduct a postmortem to see how we can learn and grow. If you would like to know more, please email support@sourcegraph.com._
-
-- Direct message updates/responses to customers (if relevant) in #support- or #trial- customer Slack channels or Zendesk email tickets
-- Draft suggested social media posts (at marketing’s request; marketing will revise to match Sourcegraph tone, etc)
-- Internal updates in the dedicated Slack channel by keeping the incident.io status up to date. All teammates joining the chat room will get the current status provided by incident.io. At any time, a user in the chat room can see the current status using this slack command: `/incident recap`.
-- Posts in #customer-support, #ce, #sales to ensure key customer-facing roles impacted by incidents are easily informed and folks can join the incident channel for more information
-- Posts in #marketing for all customer-impact incidents and tag @marketing-incident. This will give marketing visibility into all issues and the team can determine how to respond/what action is necessary. It's okay that they don't respond right away -- most incidents do not require that of our marketing teammates.
-- Posts in #general if the issue is severe enough it’s better to err on broader internal communicationIn some cases, an issue is so severe we need to do executive level communication.
-- In these cases, the messenger loops in a member of @cs-leadership who will help by handling this. The messenger reminds them to include all department heads and for marketing to also include our director of global communication in addition to the head of marketing).
-- For security related issues they also follow [our security disclosure process](../../cloud/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)
-
-> NOTE: Need help using incident<unlink>.io? Go to their Help Centre at [docs.incident.io](https://docs.incident.io/).
+Once identified, the messenger for the incident follows [this document](../support/process/serving-as-a-messenger-during-incidents.md) to ensure customer communication is consistent and reliable.
 
 ### Playbooks
 
