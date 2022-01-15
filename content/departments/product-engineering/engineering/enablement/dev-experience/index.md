@@ -26,8 +26,9 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [Developer experience support](#support)
   - [Developer experience newsletter](./newsletter.md)
 - Continuous integration
-  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
+  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines) (also see [CI support responsibilities](#ci-support-responsibilities))
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
+  - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
   - [Sentry project](https://sentry.io/organizations/sourcegraph/issues/?project=6110304) for the CI pipeline.
 - Tooling
@@ -88,10 +89,19 @@ The goal is to have someone lead on identifying the right person to drive a fix 
 The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker).
 If there are any issues, ensure issues are followed up on:
 
-1. Infer the owner based on the contents of the issue, e.g. through product names and other context, and reach out for assistance:
+1. Infer the owner based on the contents of the issue *e.g. through product names, git history, and/or other context) and reach out for assistance:
    1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.
    2. If no team is easily inferred, ping the most recent author via `git blame` where relevant for assistance.
 2. Guide the teammate towards a resolution for the issue by following our [broken builds process](https://docs.sourcegraph.com/dev/background-information/testing_principles#broken-builds-on-the-main-branch) (also see [Continuous integration: Flakes](https://docs.sourcegraph.com/dev/background-information/continuous_integration#flakes)).
+
+##### CI support responsibilities
+
+The DevX team is _not_ responsible for all tools and tests that _run_ in Sourcegraph's CI infrastructure.
+If a tool or test is behaving in an unstable manner, the team using the tool or test has the responsibility of leading an investigation into what might be causing said instability, with the _assistance_ of the DevX team if helpful.
+
+The team leading the investigation should either fix the issue directly, or if the issue requires changes in the DevX team's ownership areas (e.g. increasing resource limits for build agents) request the desired changes through an issue tagged `team/devx`.
+
+Also see [build pipeline support](#build-pipeline-support).
 
 ### Work allocation
 
