@@ -85,7 +85,7 @@ The messenger is only needed for incidents with customer-facing impact. The mess
 
 If an incident has customer impact, all you have to do is engage #customer-support and customer support will facilitate the entire communication process so you can focus on solving the issue. Support is also in OpsGenie and can be engaged the same way as engineering with `/genie whoisoncall` and `/genie alert <description of incident and link to Slack thread> for [@team or user email]`. If ever there is a question about whether a messenger is useful for an incident, just post in #customer-support and @ mention @cs-triage or page support and the support team can help think through it and determine best next steps.
 
-Once identified, the messenger for the incident follows [this document](../../../../support/process/serving-as-a-messenger-during-incidents.md) to ensure customer communication is consistent and reliable.
+Once identified, the messenger for the incident follows [this document](../../../support/process/serving-as-a-messenger-during-incidents.md) to ensure customer communication is consistent and reliable.
 
 ### Playbooks
 
