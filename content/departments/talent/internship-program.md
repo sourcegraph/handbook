@@ -1,5 +1,3 @@
-
-
 ## Program Details:
 
 We are rolling out our first-ever internship program in Q2 FY23!
