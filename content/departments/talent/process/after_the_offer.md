@@ -74,12 +74,9 @@ After the candidate formally signs the offer letter (contract) generated through
 
 **Step 2**: the Recruiter confirms that the open, start and hired dates are correct, ensuring accurate time-to-fill data.
 
-
 **Step 3**: the Recruiter confirms the candidate source information is accurate, ensuring accurate source data.
 
-
 **Step 4**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
-
 
 **Step 5**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
