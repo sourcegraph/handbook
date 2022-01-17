@@ -207,12 +207,7 @@ To help us all do our part to keep each other safe, please review and abide by t
 
 **_Number of attendees: As of January 14th, 2022, we are only allowing meetups with a maximum number of 10 teammates physically present._**
 
-- This is to ensure the safety of teammates who have voluntarily chosen
-  to travel and is based on our Teammmate Travel survey responses. _70%
-  of our teammates feel comfortable with meetups under 10 attendees;
-  but 30% do not feel fully comfortable traveling at this time._ We
-  will revisit our travel stance on a monthly basis and will only make
-  changes based on downwards trends in cases driven by data.
+- This is to ensure the safety of teammates who have voluntarily chosen to travel and is based on our Teammmate Travel survey responses. _30% of teammates do not feel fully comfortable traveling at this time, but 70% of our teammates feel comfortable with meetups of 10 attendees or less._ We will revisit our travel stance on a monthly basis and will only make changes based on downwards trends in cases driven by data.
 
 This category of guidance includes casual, local meet-ups that are company-sponsored _(e.g. dinners/lunches, happy hours, coworking etc.)_ We encourage each group to apply high agency over their meet-up and activities, but we require the following protocols for any in-person meet-up:
 
@@ -240,12 +235,7 @@ Note that these guidelines are not inclusive of all travel requirements that are
 
 **_Number of attendees: As of January 14th, 2022, we are only allowing meetups with a maximum number of 10 teammates physically present._**
 
-- This is to ensure the safety of teammates who have voluntarily chosen
-  to travel and is based on our Teammmate Travel survey responses. _70%
-  of our teammates feel comfortable with meetups under 10 attendees;
-  but 30% do not feel fully comfortable traveling at this time._ We
-  will revisit our travel stance on a monthly basis and will only make
-  changes based on downwards trends in cases driven by data.
+- This is to ensure the safety of teammates who have voluntarily chosen to travel and is based on our Teammmate Travel survey responses. _30% of teammates do not feel fully comfortable traveling at this time, but 70% of our teammates feel comfortable with meetups of 10 attendees or less._ We will revisit our travel stance on a monthly basis and will only make changes based on downwards trends in cases driven by data.
 
 Please respect your peers wishes, and _lead with empathy_ when planning remote and hybrid meetups. Everyone should have equal and accessibility to any event that is planned. For trips that meet the maximum 10-person threshold, the following protocols must be taken:
 
@@ -266,25 +256,22 @@ Please respect your peers wishes, and _lead with empathy_ when planning remote a
 
 If you or anyone attending an in-person company event suspects COVID-19 exposure (prior to, during, or after an event) please do the following:
 
-- Notify People Ops
+- Notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Jonathan Ayers immediately so that they can advise on next steps for notifying other potentially affected teammates. _Note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
 
-- If you are currently attending a company event or recently returned from a company event and you’re feeling sick, please notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Jonathan Ayers immediately so that they can advise on next steps for notifying other potentially affected teammates. _Note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
-
-**Information to share with People Ops:**
+  - **Information to share with People Ops:**
 
     -   Date symptoms began
-
     -   Dates of company event and travel
-
     -   List of company event attendees/potentially exposed teammates
 
-- If you are preparing to travel soon and you’re feeling sick, or have been exposed to anyone within the past two weeks, please postpone or cancel your travel. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we’d be traveling to. Reach out to People Ops and they will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
+- Please postpone or cancel your travel. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we’d be traveling to. Reach out to People Ops and they will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
 
 - Please arrange to get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
 
 - Take any necessary additional precautions.
 
 - Prevent spread _(please cancel or postpone any upcoming travel or in-person events in the following 2 weeks)_.
+
 - Monitor your symptoms and quarantine based on CDC guidelines.
 
-If you have any questions, concerns, please reach out to #people-ops on Slack. Thank you for your continued collaboration to ensure your safety, and the safety of your teammates while traveling.
+If you have any questions or concerns, please reach out to #people-ops on Slack. Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
