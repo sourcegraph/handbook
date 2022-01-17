@@ -96,12 +96,12 @@ If there are any issues, ensure issues are followed up on:
 
 ##### CI support responsibilities
 
-The DevX team is _not_ responsible for all tools and tests that _run_ in Sourcegraph's CI infrastructure.
-If a tool or test is behaving in an unstable manner, the team using the tool or test has the responsibility of leading an investigation into what might be causing said instability, with the _assistance_ of the DevX team if helpful.
+The DevX team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure.
+If a tool or test is behaving in an unstable manner, the team using the tool or test (see [build pipeline support](#build-pipeline-support) for how we infer ownership) has the responsibility of leading an investigation into what might be causing said instability, with the _assistance_ of the DevX team if helpful.
 
-The team leading the investigation should either fix the issue directly, or if the issue requires changes in the DevX team's ownership areas (e.g. increasing resource limits for build agents) request the desired changes through an issue tagged `team/devx`.
+The team leading the investigation should either fix the issue directly, or if the issue requires changes in the [DevX team's ownership/responsibility areas](#responsibilities) (e.g. increasing resource limits for build agents, or making significant changes to the pipeline generator), request the desired changes through an issue tagged `team/devx`.
 
-Also see [build pipeline support](#build-pipeline-support).
+For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles).
 
 ### Work allocation
 
