@@ -77,6 +77,7 @@ To overcome this, we'll market/design/develop/sell around specific use cases (ma
 Some customers already use Sourcegraph for these use cases by stitching together our product capabilities in novel ways. That's great for those particularly industrious customers, but we want the use cases to feel so obvious and natural to every user, which will require a lot of product and engineering work. This is not just a marketing/positioning/pitching exercise.
 
 > More links related to the use cases:
+>
 > - [use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
 > - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
 > - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
@@ -92,7 +93,7 @@ Don't think about this as "say no to building for prospects". Instead, think "cr
 
 ### Grow ARR
 
-ARR (annual recurring revenue) is *the* key metric for our business because:
+ARR (annual recurring revenue) is _the_ key metric for our business because:
 
 - ARR is a good proxy for the long-term value we create for customers.
 - Earning revenue (being customer-funded) is the only way to build a long-term, independent company.

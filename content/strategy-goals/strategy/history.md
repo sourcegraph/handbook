@@ -8,7 +8,7 @@ See "[Strategy](index.md)" for our current strategy.
 
 > This was written at the end of FY22 to explain how we arrived at our FY23 strategy.
 
-*In short: FY22 was "serving larger and smaller customers", FY23 is "specific use cases".*
+_In short: FY22 was "serving larger and smaller customers", FY23 is "specific use cases"._
 
 1 year ago, our growth was constrained by only being able to serve recent-vintage mid-size tech companies. Our strategy was to widen the range of customers we could serve:
 
