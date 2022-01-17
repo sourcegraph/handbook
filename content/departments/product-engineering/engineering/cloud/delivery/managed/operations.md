@@ -140,26 +140,24 @@ Disk storage can be safely **increased** on managed instances at any time. Do no
 
 To increase the disk size:
 
-1. Edit `data_disk_size` in `terraform.tfvars` and run terraform apply
-
+1. Set up your variables [variables](upgrade_process.md#general-setup) as usual.
+1. Increase the value of `data_disk_size` in `terraform.tfvars` and run terraform apply
 1. Commit and push your changes:
 
-```sh
-git add terraform.tfvars && git commit -m "$CUSTOMER: increase disk size"
-git push origin HEAD
-```
-
+  ```sh
+  git add terraform.tfvars && git commit -m "$CUSTOMER: increase disk size"
+  git push origin HEAD
+  ```
 1. SSH to the instance and follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/working-with-persistent-disks#resize_pd). In most cases, the instructions should look like:
 
-```sh
-../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
-```
+  ```sh
+  ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
+  ```
+  Then confirm the new size is visible:
 
-Then confirm the new size is visible:
-
-```sh
-../util/ssh-exec.sh "df -h /dev/sdb"
-```
+  ```sh
+  ../util/ssh-exec.sh "df -h /dev/sdb"
+  ```
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
 
