@@ -1,6 +1,8 @@
-We are rolling out our first-ever internship program in Q2 FY23!
+
 
 ## Program Details:
+
+We are rolling out our first-ever internship program in Q2 FY23!
 
 This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote].
 
