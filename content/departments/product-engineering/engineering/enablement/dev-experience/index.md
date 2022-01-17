@@ -89,7 +89,7 @@ The goal is to have someone lead on identifying the right person to drive a fix 
 The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker).
 If there are any issues, ensure issues are followed up on:
 
-1. Infer the owner based on the contents of the issue *e.g. through product names, git history, and/or other context) and reach out for assistance:
+1. Infer the owner based on the contents of the issue \*e.g. through product names, git history, and/or other context) and reach out for assistance:
    1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.
    2. If no team is easily inferred, ping the most recent author via `git blame` where relevant for assistance.
 2. Guide the teammate towards a resolution for the issue by following our [broken builds process](https://docs.sourcegraph.com/dev/background-information/testing_principles#broken-builds-on-the-main-branch) (also see [Continuous integration: Flakes](https://docs.sourcegraph.com/dev/background-information/continuous_integration#flakes)).
