@@ -127,7 +127,6 @@ Within this overall product strategy, individual product teams set their own goa
 
 #### [Cloud](cloud/index.md)
 
-- [Core application](cloud/core-application/index.md)
 - Cloud SaaS
 - [Growth and Integrations](cloud/growth-and-integrations/index.md)
 - [Security](cloud/security/index.md)
