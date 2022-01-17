@@ -9,7 +9,7 @@ _Total interview time: 4.5 hours + ~1 hour project_
 1. [2 hrs] **"Onsite" interview**
    - [1 hr] **[Resume deep dive](../../../../../talent/process/types_of_interviews.md#resume-deep-dive)**: We go through your background in great detail with the hiring manager.
    - [30 min] **Engineering collaboration**: Meet with the Engineering Manager from the team you're interviewing for about how you collaborate and work within a team.
-   - [30 min] **[Values interview](../../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, BizOps)14. 
+   - [30 min] **[Values interview](../../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, BizOps)14.
    - [30 min] **Leadership interview** with [Beyang Liu](../../../../../../team/index.md#beyang-liu), CTO
 1. We make you a job offer!
 
