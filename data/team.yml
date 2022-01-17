@@ -2545,3 +2545,14 @@ pietro_rosa:
   links: '[LinkedIn](https://www.linkedin.com/in/pietrorosa77)'
   reports_to: engineering_manager_cloud_saas
   description: Pietro lives in a small city called [Rovigo](https://goo.gl/maps/bFK7n4quTGk5MJBu7) in Italy with his wife and 2 kids. Pietro previously worked in Microsoft, Auth0 and NearForm as a senior full stack engineer. He loves playing football ⚽ (nowadays only 5 aside letting the ball doing most of the job...), hiking 🥾 and wild mushrooms gathering 🍄.
+
+ana_lavongtheung:
+  name: Ana Lavongtheung
+  email: ana.lavongtheung@sourcegraph.com
+  github: ana-lavongtheung
+  pronouns: she/her
+  role: Sales Development Representative
+  reports_to: head_sales_development
+  location: Claremont, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/ana-lavongtheung/)'
+  description: Originally from Maui, Hawaii, Ana now lives in Claremont, CA with her weiner dog, Leo. She loves being outside and is always looking for her next adventure. In her free time, you can find her being active – whether it be playing rugby, pickleball or at the gym. Prior to Sourcegraph, Ana worked in the HR tech space. 
