@@ -191,7 +191,8 @@ const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
 const rehypeResponsiveTables: Plugin<[], HastRoot> = () => tree => {
     visit(tree, (node, index, parent) => {
         if (isElement(node, 'table')) {
-            parent!.children[index!] = h('div.table-responsive', node)
+            // Note: Matches breakpoint used for th.sticky CSS class
+            parent!.children[index!] = h('div.table-responsive-sm', node)
         }
     })
 }
@@ -208,6 +209,24 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
         }
     }
     return false
+}
+
+const replaceMatchedOrg = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateReportingStructure(group2)
+
+const replaceAsync = async (
+    markdown: string,
+    regex: RegExp,
+    replacer: (string: string, ...args: string[]) => Promise<string>
+): Promise<string> => {
+    const promises: Promise<string>[] = []
+    markdown.replace(regex, (match: string, ...args: string[]): string => {
+        const promise = replacer(match, ...args)
+        promises.push(promise)
+        return match
+    })
+    const data = await Promise.all(promises)
+    return markdown.replace(regex, (): string => data.shift() as string)
 }
 
 async function insertGeneratedMarkdown(markdown: string): Promise<string> {
@@ -235,6 +254,11 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
         markdown = markdown.replace(
             /{{generator:product_teams_list}}/gi,
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
+        )
+        markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedOrg)
+        markdown = markdown.replace(
+            /{{generator:engineering_ownership}}/gi,
+            await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
         )
     }
     return markdown

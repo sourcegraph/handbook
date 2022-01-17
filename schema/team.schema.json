@@ -6,6 +6,12 @@
       "name": {
         "type": "string"
       },
+      "reports_to": {
+        "type": "string"
+      },
+      "manager_role_slug": {
+        "type": "string"
+      },
       "pronouns": {
         "type": "string"
       },
@@ -29,8 +35,11 @@
       },
       "description": {
         "type": "string"
+      },
+      "hide_on_team_page": {
+        "type": "boolean"
       }
     },
-    "required": ["name"]
+    "required": ["name", "role"]
   }
 }

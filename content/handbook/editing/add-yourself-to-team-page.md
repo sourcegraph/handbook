@@ -1,6 +1,6 @@
 # Add Yourself to the Team Page
 
-<div style="position: relative; padding-bottom: 42.1875%; height: 0;"><iframe src="https://www.loom.com/embed/77099078d3cc4a8ca9c2ce1592eeb6d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2db66c65566e453180078e13c55b0854" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Steps:
 
@@ -9,11 +9,11 @@
 1. In the edit view, copy the example below, paste it at the end of the edit view, and make it about yourself! Look at others' bios for more examples.
 1. Under "Commit changes" at the bottom of the page, replace the "Update team.yml" text with a summary of your change, e.g., Add Marie to team page.
 1. Click the green "Commit changes" button. If you do not see the green "Commit Changes" button, refer to step 1. Successful changes will become visible shortly (but not immediately).
-1. Consider adding yourself to the [team members locations map](../../company/team/locations.md).
+1. Consider adding yourself to the [team members locations map](../../team/locations.md).
 
 You can find an example template below that uses all available features.
 
-All fields except name are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`; any fields using markdown should be quoted (i.e., surrounded with single or double quotes), just like the `links` example below.
+All fields except name are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`; any fields using markdown should be quoted (i.e., surrounded with single or double quotes), just like the `links` example below. If you would like to be featured on the [company-wide org chart](../../team/org_chart.md), be sure to add a `reports_to` field. If you are a [manager](#new-managers), be sure to add both `reports_to` and `manager_role_slug`.
 
 The order of fields doesn't matter. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md). If you receive errors during the build, check the [handbook check failures page](handbook-check-failures.md).
 
@@ -26,8 +26,34 @@ marie_curie:
   github: marie_curie
   pronouns: she/her
   role: Staff Scientist
+  reports_to: vp_research
   location: Passy, Haute-Savoie, France 🇫🇷
   links: '[Wikipedia](https://en.wikipedia.org/wiki/Marie_Curie)'
   pronunciation: https://forvo.com/word/marie_curie/
   description: I am a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. I was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. My husband, Pierre Curie, was a co-winner on her first Nobel Prize, making us the first ever married couple to win the Nobel Prize and launching the Curie family legacy of five Nobel Prizes. I was, in 1906, the first woman to become a professor at the University of Paris.
+```
+
+## New managers
+
+If you are joining as a new manager, be sure to add `manager_role_slug` to your personal entry. After adding that, check that any team members who report to you have the appropriate `reports_to` field in their entry. If you are stepping into a role that has been filled by an interim manager, you can update the existing entry rather than creating a new one. The entry would look something like this (depending on your role), but if you're unsure then ask your manager:
+
+```yaml
+director_design:
+  name: Christina Forney
+  role: (Interim) Director of Design
+  reports_to: vp_product
+  manager_role_slug: director_design
+  hidden_on_team_page: true
+```
+
+Remove `(Interim)` from the role title, as well as the `hidden_on_team_page` field. You don't need to change the `manager_role_slug` value.
+
+## New employees
+
+Add your personal entry, and make sure it has a `reports_to` field with the appropriate slug if you would like to appear on the [company-wide org chart](../../team/org_chart.md). To find your manager's slug, locate your manager’s entry, and use the value they have entered for `manager_role_slug`. For example, if you report to Jason Yavorska, his `manager_role_slug` is `product_director_code_graph`. So you'd add a row that looks like this:
+
+```yaml
+your_name:
+  name: Your Name
+  reports_to: product_director_code_graph
 ```

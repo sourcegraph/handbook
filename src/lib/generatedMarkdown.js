@@ -10,11 +10,20 @@ async function readYamlFile(file) {
   return load(await readFile(file, 'utf8'))
 }
 
+function createValidTeamAnchor(name) {
+  return name.toLowerCase().replace(/\s+/g, '-')
+}
+
+function createBioLink(name) {
+  const bioLinkUrlPrefix = '/company/team/index.md#'
+  return `${bioLinkUrlPrefix}${String(createValidTeamAnchor(name))}`
+}
+
 function createRelativeProductLink(link) {
   if (link.startsWith('http')) {
     return link
   }
-  return `../..${String(link)}`
+  return `../../../..${String(link)}`
 }
 
 export async function generateMaturityDefinitions() {
@@ -46,9 +55,7 @@ export async function generateFeatureMaturityLevels() {
       )}))\n`
     }
     if (productTeam.pm) {
-      const bioLink = `../../company/team/index.md#${String(
-        teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
-      )}`
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
 
@@ -95,9 +102,7 @@ export async function generateFeatureCodeHostCompatibilities() {
       )}))\n`
     }
     if (productTeam.pm) {
-      const bioLink = `../../company/team/index.md#${String(
-        teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
-      )}`
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
 
@@ -152,33 +157,35 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
-    pageContent += `\n### ${String(teamMember.name)}\n`
-    if (teamMember.role) {
-      pageContent += `${String(teamMember.role)}`
-      if (teamMember.location) {
-        pageContent += ` (${String(teamMember.location)})`
+    if (!teamMember.hidden_on_team_page) {
+      pageContent += `\n### ${String(teamMember.name)}\n`
+      if (teamMember.role) {
+        pageContent += `${String(teamMember.role)}`
+        if (teamMember.location) {
+          pageContent += ` (${String(teamMember.location)})`
+        }
+        pageContent += '\n\n'
+      } else if (teamMember.location) {
+        pageContent += ` (${String(teamMember.location)})\n\n`
       }
-      pageContent += '\n\n'
-    } else if (teamMember.location) {
-      pageContent += ` (${String(teamMember.location)})\n\n`
-    }
-    if (teamMember.description) {
-      pageContent += `${String(teamMember.description)}\n`
-    }
-    if (teamMember.email) {
-      pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
-    }
-    if (teamMember.github) {
-      pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
-    }
-    if (teamMember.pronouns) {
-      pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
-    }
-    if (teamMember.pronunciation) {
-      pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
-    }
-    if (teamMember.links) {
-      pageContent += `- Other links: ${String(teamMember.links)}\n`
+      if (teamMember.description) {
+        pageContent += `${String(teamMember.description)}\n`
+      }
+      if (teamMember.email) {
+        pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
+      }
+      if (teamMember.github) {
+        pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
+      }
+      if (teamMember.pronouns) {
+        pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
+      }
+      if (teamMember.pronunciation) {
+        pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
+      }
+      if (teamMember.links) {
+        pageContent += `- Other links: ${String(teamMember.links)}\n`
+      }
     }
   }
   return pageContent
@@ -195,11 +202,10 @@ export async function generateProductTeamsList() {
       pageContent += `- [Strategy Page](${String(createRelativeProductLink(productOrg.strategy_link))})\n`
     }
     if (productOrg.strategy_link) {
-      const bioLink = `../../company/team/index.md#${String(
-        teamMembers[productOrg.pm].name.toLowerCase().replace(/\s+/g, '-')
-      )}`
-      pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLink)})\n`
-      pageContent += `- Engineering Director: [${String(teamMembers[productOrg.em].name)}](${String(bioLink)})\n`
+      const bioLinkPM = createBioLink(teamMembers[productOrg.pm].name)
+      const bioLinkEM = createBioLink(teamMembers[productOrg.em].name)
+      pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLinkPM)})\n`
+      pageContent += `- Engineering Director: [${String(teamMembers[productOrg.em].name)}](${String(bioLinkEM)})\n`
     }
     for (const productTeam of Object.values(productTeams)) {
       if (productTeam.product_org === productOrgName) {
@@ -208,27 +214,19 @@ export async function generateProductTeamsList() {
           pageContent += `- [Strategy Page](${String(createRelativeProductLink(productTeam.strategy_link))})\n`
         }
         if (productTeam.pm) {
-          const bioLink = `../../company/team/index.md#${String(
-            teamMembers[productTeam.pm].name.toLowerCase().replace(/\s+/g, '-')
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.pm].name)
           pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
         }
         if (productTeam.em) {
-          const bioLink = `../../company/team/index.md#${String(
-            teamMembers[productTeam.em].name.toLowerCase().replace(/\s+/g, '-')
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.em].name)
           pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
         }
         if (productTeam.design) {
-          const bioLink = `../../company/team/index.md#${String(
-            teamMembers[productTeam.design].name.toLowerCase().replace(/\s+/g, '-')
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.design].name)
           pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
         }
         if (productTeam.pmm) {
-          const bioLink = `../../company/team/index.md#${String(
-            teamMembers[productTeam.pmm].name.toLowerCase().replace(/\s+/g, '-')
-          )}`
+          const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
           pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(
             bioLink
           )})\n`
@@ -254,6 +252,60 @@ export async function generateProductTeamsList() {
       }
     }
   }
-  console.log(pageContent)
+  return pageContent
+}
+
+function getReports(teamMembers, role_slug, indent) {
+  let content = ''
+  for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
+    if (teamMember.reports_to === role_slug) {
+      const spaces = ' '.repeat(indent * 2)
+      content += `${spaces}- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
+        createValidTeamAnchor(teamMember.name)
+      )}), ${String(teamMember.role)}\n`
+      if (teamMember.manager_role_slug) {
+        const reportsIndent = (content += getReports(
+          teamMembers,
+          teamMember.manager_role_slug,
+          parseInt(indent, 10) + 1
+        ))
+      }
+    }
+  }
+  return content
+}
+
+export async function generateReportingStructure(starting_role) {
+  const teamMembers = await readYamlFile('data/team.yml')
+  let pageContent = ''
+  for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
+    if (teamMember.manager_role_slug === starting_role) {
+      pageContent += `- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
+        createValidTeamAnchor(teamMember.name)
+      )}), ${String(teamMember.role)}\n`
+    }
+  }
+  pageContent += getReports(teamMembers, starting_role, 1)
+  return pageContent
+}
+
+export async function generateEngineeringOwnershipTable() {
+  const entries = await readYamlFile('data/engineering_ownership.yml')
+  let pageContent = ''
+  const addRow = colData => {
+    pageContent += `| ${String(colData.join(' | '))} |\n`
+  }
+
+  const columnNames = Object.keys(entries[0] || {})
+  addRow(columnNames)
+
+  const splitters = columnNames.map(() => '---')
+  addRow(splitters)
+
+  for (const entry of entries) {
+    const colData = columnNames.map(name => entry[name])
+    addRow(colData)
+  }
+
   return pageContent
 }

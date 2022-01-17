@@ -18,18 +18,11 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 
     return (
         <>
-            <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-KVVCR189Q6" />
-
-            <Script strategy="lazyOnload">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-KVVCR189Q6', {
-                        page_path: window.location.pathname,
-                    });
-                `}
-            </Script>
+            <Script
+                strategy="lazyOnload"
+                data-domain="handbook.sourcegraph.com"
+                src="https://plausible.io/js/plausible.js"
+            />
 
             <Script strategy="lazyOnload">
                 {`
@@ -45,6 +38,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             </Head>
+
             <Component {...pageProps} />
         </>
     )
