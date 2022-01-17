@@ -5,11 +5,11 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 ## Members
 
 - [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Patrick Dubroy](../../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../../roles/index.md#engineering-manager))
 - [Alicja Suska](../../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Tom Ross](../../../../../team/index.md#tom-ross)
-- [Valery Bugakov](../../../../../team/index.md#valery-bugakov)
-- [Oleg Gromov](../../../../../team/index.md#oleg-gromov)
+- [Patrick Dubroy](../../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../../roles/index.md#engineering-manager))
+  - [Tom Ross](../../../../../team/index.md#tom-ross)
+  - [Valery Bugakov](../../../../../team/index.md#valery-bugakov)
+  - [Oleg Gromov](../../../../../team/index.md#oleg-gromov)
 
 ## Our Strategy
 

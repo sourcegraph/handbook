@@ -107,7 +107,7 @@ Note that the time periods are rolling time periods and the plans here are revie
 #### [BB Cloud permissions](https://github.com/sourcegraph/sourcegraph/issues/19782)
 
 - **Why:** Currently blocking expansion for at least [one large customer](https://github.com/sourcegraph/customer/issues/288) as well as being strategically valuable as Atlassian have announce EOL for BB Server, meaning many other BB Server customers will likely move to BB Cloud and want this support.
-- **What:** Support permissions syncing for BitBucket Cloud.
+- **What:** Support permissions syncing for BitBucket Cloud. Also likely to introduce BB Datacenter support, as this will either be based on the same API as used for either BB Cloud of BB Server.
 
 ## What we're not working on
 

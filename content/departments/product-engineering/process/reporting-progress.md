@@ -11,8 +11,8 @@ There are a few ways we track plans and celebrate progress at Sourcegraph.
 
 | Status        | Description                                  |
 | ------------- | -------------------------------------------- |
-| 🟢 On track   | 90-100% confidence we will achieve the goal. |
-| 😬 At risk    | 75-89% confidence we will achieve the goal.  |
+| 🟢 On track   | 90–100% confidence we will achieve the goal. |
+| 😬 At risk    | 75–89% confidence we will achieve the goal.  |
 | ⛔️ Off track | <75% confidence we will achieve the goal.    |
 | 🚀 Done       | We have achieved the goal!                   |
 | ☠️ Cancelled  | We are no longer pursuing this goal.         |

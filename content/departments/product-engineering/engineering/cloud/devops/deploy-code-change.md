@@ -31,7 +31,7 @@ to build an image that bypasses tests.
 
 1. Make the relevant image changes to the YAML files in the [cloud repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
 
-   - Typically, the image will be need to be updated in an `deployment` or `statefulset` file
+   - Typically, the image will need to be updated in an `deployment` or `statefulset` file
 
 1. Create a pull request against the `release` branch of the cloud repo.
 1. Request a review from the cloud-devops github team (preferable) or

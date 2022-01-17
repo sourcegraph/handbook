@@ -55,7 +55,7 @@ Our [career development framework](framework.md) defines the levels that exist a
 
 ## Promotion requests
 
-Promotion requests are made immediately following the [talent review callibration meeting](#calibration-meeting).
+Promotion requests are made immediately following the [talent review calibration meeting](#calibration-meeting).
 
 The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval.
 

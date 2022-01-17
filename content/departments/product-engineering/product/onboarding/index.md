@@ -1,14 +1,14 @@
 # Product team onboarding
 
-Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2-4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
+Welcome to Sourcegraph! As a member of the product team, it is your job to be the voice of the user, and to balance that with the goals of the company. For all [roles on the product team](../roles/index.md), you will have a very similar first week. Weeks 2–4 will vary depending on your role and areas of focus, but the high level goals for each week will be the same.
 
 **[Onboarding buddy](../../../../company-info-and-process/onboarding/buddy-program.md)**: You will be paired up with an “onboarding buddy” in order to become better acquainted with Sourcegraph team and culture. A buddy will be your go-to person for questions (in addition to your manager and the People Ops team).
 
 ## Manager checklist
 
 - Visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
-- Create onboarding Google doc and copy in this page to customize week 2-4 tasks and have a personal checklist for the new teammate.
-- Update onboarding doc Week 2-4 with initial projects.
+- Create onboarding Google doc and copy in this page to customize week 2–4 tasks and have a personal checklist for the new teammate.
+- Update onboarding doc Week 2–4 with initial projects.
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
   - Invite to GitHub teams, including @sourcegraph/everyone
@@ -42,11 +42,11 @@ Remember:
 
 - Complete [Process st onboarding](https://app.process.st/reports/)
   - Keep the [guiding principles](../../../../company-info-and-process/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
-- Write your 30-60-90 day objectives in your 1:1 doc with Christina
+- Write your 30–60–90 day objectives in your 1:1 doc with Christina
 
 ### Get to know the team
 
-- Schedule individual meetings with each person on the [Product team](../index.md#members)
+- Schedule individual meetings with each person on the [Product team](../team/index.md#current-team)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
 - Schedule a meeting with the [Head of Customer Support](../../../../team/index.md#virginia-ulrich)
 - Get up to speed on what your team is working on
@@ -65,21 +65,21 @@ Remember:
 - Familiarize yourself with our [team chat](../../../../company-info-and-process/communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../../company-info-and-process/communication/team_chat.md#product).
 - Set up your [local development environment](https://docs.sourcegraph.com/dev/setup). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
   - You will need to run Sourcegraph locally to test and validate work that engineering is doing, to provide early feedback, or to review the UX of recently implemented work.
-- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/process/deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
+- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/process/deployments/instances.md#k8s.sgdev.org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 - Install a text editor of your choice. A lot of the team uses [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Get to know the product
 
-- Review [product resources](../index.md#resources)
+- Review [product resources](../index.md#references)
 - Learn how the Customer Engineering team gives demos and talks about the product in the [product demo recording](https://drive.google.com/file/d/1idbCnce5MIvtAV0GOOwgB68zQJB2WmZ9/view).
-- Read about [search queries](https://docs.sourcegraph.com/code-search) and perform your first searches.
+- Read about [search queries](https://docs.sourcegraph.com/code_search) and perform your first searches.
 - Work through the questions from the [Sales Onboarding Quiz](../../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Record yourself completing the Sales [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit#).
 - [How to make configuration changes to sourcegraph.com](../../engineering/cloud/devops/update_sg_website_config.md)
 
 ### Get to know our customers
 
-- Watch the [demo videos](https://about-docsite.sourcegraph.com/handbook/ce/onboarding) & recent Chorus.AI recordings with customers
+- Watch the [demo videos](../../../ce/onboarding/education.md#trainings-and-demos) & recent Chorus.AI recordings with customers
 - Familiarize yourself with [customer feedback channels](../process/responding_to_user_feedback.md):
   - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions) surveys
   - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
@@ -146,7 +146,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
 - Explore and favorite the [Google Drive design folder](https://drive.google.com/drive/folders/1ow-19Yd4AFtT8HjVZ9ln_nEGpCzQ2CTf)
 - Review the [Potential UX projects document](https://docs.google.com/document/d/1LemO13R3f0Ku88WK8tFr7_Qo4teDA0Bebs8Y2TGkS3U/edit)
 
-## Week 2-3 - initial projects
+## Week 2–3 - initial projects
 
 - The goal is to give you a handful of projects that will help you familiarize yourself with the product, and get some quick wins in your first weeks.
 - If you see something that you think would be a great project for you to tackle as you’re onboarding, let’s talk about it!

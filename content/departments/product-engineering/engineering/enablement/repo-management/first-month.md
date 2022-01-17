@@ -17,7 +17,7 @@ Week 1 will get you setup to deliver awesome things in the future. You will also
 
 ### Week 2
 
-You completed your first week - great job! The first week is always a whirlwind of documents and tasks, so this week we will calm things down a bit. The focus is on working as a team and being open and transparent.
+You completed your first week—great job! The first week is always a whirlwind of documents and tasks, so this week we will calm things down a bit. The focus is on working as a team and being open and transparent.
 
 Here’s where you’ll spend your time in week 2:
 
@@ -31,9 +31,9 @@ You’re halfway done with your first month at Sourcegraph! Time flies, doesn’
 
 Here’s where you’ll spend your time in week 3:
 
-- **Participate in planning:** Now that you have some hands-on experience with the Sourcegraph project, help us plan and estimate the upcoming iteration. Don’t worry about pinpoint accuracy - we want to hear your voice and your contributions, and we’ll help guide you.
+- **Participate in planning:** Now that you have some hands-on experience with the Sourcegraph project, help us plan and estimate the upcoming iteration. Don’t worry about pinpoint accuracy—we want to hear your voice and your contributions, and we’ll help guide you.
 - **Tackle larger work:** We will have some larger issues that you can take to build off what you have learned so far. Don't worry: we are here to help and make sure you're successful.
-- **Take further service tours:** Last week, you took one of our service tours and discussed what you learned with your onboarding buddy. Select a different one and do the same thing this week. Additionally, relate this service tour to the previous one - how / why do these services connect, what data is being operated upon, etc.
+- **Take further service tours:** Last week, you took one of our service tours and discussed what you learned with your onboarding buddy. Select a different one and do the same thing this week. Additionally, relate this service tour to the previous one—how / why do these services connect, what data is being operated upon, etc.
 
 ### Week 4
 

@@ -9,7 +9,7 @@ What this means is that the customer issue needs to be understood before it’s 
 
 In order to set-up the team for success meeting our internal 1-hour SLA, it is critical that the triage team triages every ticket that comes in within ~10 minutes of it coming in.
 
-That said, there may be times when we have unusally large amount of work or more folks are out than normal and it is fine customers have to wait. In such [situations](<support-prioritization.md#:~:text=When%20we%20have%20an%20unusually%20large%20amount%20of%20work%20or%20more%20folks%20are%20out%20than%20normal%2C%20it%20is%20fine%20if%20customers%20(including%20pre-sales)%20have%20to%20wait.%20In%20such%20situations%2C%20we%20will%20communicate%20proactively%2C%20letting%20them%20know%20that%20we%20have%20team%20members%20arriving%20in%20another%20few%20hours%20who%20will%20be%20able%20to%20help%20them.>), the person triaging can help set expectations and invite the customer to share whether there is more urgency than may be immediately apparent.
+That said, there may be times when we have unusually large amount of work or more folks are out than normal and it is fine customers have to wait. In such situations, we follow [support capacity levels and contingencies](support-capacity-levels-and-contingencies.md). It is part of triage's role to understand the team's capacity and facilitate accordingly.
 
 ## How to triage like a pro
 
@@ -27,6 +27,7 @@ That said, there may be times when we have unusally large amount of work or more
 
   - troubleshoot
   - explain how a feature works in the product/how to do something in the product
+  - handle incident customer communication
   - handle anything related to security for a customer without a CE
   - handle a feature request for a customer without a CE
 
@@ -50,7 +51,7 @@ That said, there may be times when we have unusally large amount of work or more
 
 - **Step 7:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
 
-- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
+- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take. Remember to facilitate if necessary, @ mentioning folks who have capacity to take it if we are at level 2 capacity.
 
 - **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
@@ -58,9 +59,9 @@ That said, there may be times when we have unusally large amount of work or more
 
 ### 1. Whose responsible for triaging?
 
-Nonso 08:00 - 14:00 UTC (Stompy as backup)
-Stompy 14:00 - 15:00 UTC (Brielle, Nonso as backup)
-Virginia 15:00 - 24:00 UTC (Brielle, Warren as backup)
+Nonso 08:00–14:00 UTC (Stompy as backup)
+Stompy 14:00–15:00 UTC (Brielle, Nonso as backup)
+Virginia 15:00–24:00 UTC (Brielle, Warren as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
@@ -79,6 +80,8 @@ Short answer, No. Hopefully in the future, Zendesk will give us this feature; fo
 Yes, we have a few customers listed in our [Customer Exception list](customer-exceptions.md) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.
 
 We also look at the queues of anyone who is out that day to see if someone needs to fill-in (the original CSE keeps responsibility) -- great for when the CSE is out a day or two -- or we if we need to transition the case to another CSE --great for when the CSE is out a longer period of time.
+
+And finally, we are also brought into every new incident channel to be there if it requires customer communication and ensure we have a team member available to serve as a messenger.
 
 ### 6. What do I do when I see a company update in the triage queue?
 

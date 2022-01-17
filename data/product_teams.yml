@@ -31,7 +31,7 @@ code_intelligence:
   pm: maría_craig
   em: owen_convey
   design: sara_lee
-  pmm: victoria_yunger
+  pmm: alex_isken
   issue_labels:
     - team/code-intelligence
 
@@ -68,7 +68,7 @@ security:
 extensions:
   title: Extensions
   product_org: cloud
-  strategy_link: /company/strategy/cloud/extensibility/index.md
+  strategy_link: /company/strategy/cloud/growth-and-integrations/index.md
   pm: murat_sutunc
   issue_labels:
     - team/extensiblity
