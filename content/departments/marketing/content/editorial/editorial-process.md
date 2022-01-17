@@ -128,3 +128,11 @@ At a minimum, we can share the first draft of the post in the description of the
 By suggesting Twitter copy we have a better chance of the post being promoted on the day of publishing.
 
 After publishing the blog post, there is a task for the editor to share the live URL in #social-media-action. This will alert Kristen that she can proceed with social promotion.
+
+### Working with external contributors
+
+We work with external writers and editors in a few different capacities:
+
+#### Freelance writers
+
+We engage freelance writers on an assignment basis. This could be a single blog post or a series.
