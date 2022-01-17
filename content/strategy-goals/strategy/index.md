@@ -1,12 +1,17 @@
 # Sourcegraph strategy
 
-## Purpose
+- Long-term: [make it so everyone can code](#purpose)
+- FY23 (this year): [target 5 specific use cases for existing customers first to grow ARR](#this-year-fy23)
+
+## Long-term
+
+### Purpose
 
 Our overall purpose is we want to make it so **everyone can code**. A world where everyone, not just ~0.1% of the world population, can code will see faster and more broadly beneficial technological progress. This page describes how we are going to achieve that goal, and the [individual team and org strategies](#per-team-strategy-pages) describe what we're doing in each of our product teams.
 
 Want to help us achieve these goals? [We're hiring!](https://github.com/sourcegraph/careers)
 
-### Background
+#### Background
 
 For thousands of years after writing was invented, most people remained illiterate. Universal literacy seemed unlikely. Is it really possible that every human would be capable of reading and writing? How would literacy benefit the average person? As we now know, every human is capable of and benefits immensely from literacy.
 
@@ -14,42 +19,13 @@ More recently, around 1976, just 0.2% of the world's population used computers. 
 
 Today, only about 0.1% of the world's population can code. That tiny group has built software that runs the modern world and improves the lives of billions of people. Think of the possibilities if everyone was able to code. All around the world, more people would be able to solve problems and improve their lives by building software. We don't know exactly what these billions of coders will create, but we know that this will bring faster and more broadly beneficial technological progress.
 
-### Big Code
+### Values
 
-We're living in [the era of Big Code](https://thenewstack.io/universal-code-search-a-new-search-tech-for-the-era-of-big-code/): the amount, complexity, and value of code is growing quickly.
+Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us implement our strategy and achieve our [goals](../goals/index.md).
 
-Tools and practices that were conceived before the era of Big Code will break down, leaving codebases that are huge but complex and brittle. Any change might shatter the whole thing. Developers become hesitant about making changes. Productivity slows, communication bottlenecks grow, deadlines are missed, and quality declines.
+## Medium-term
 
-This is a new game. Companies that master this will thrive. Companies that don't will fail.
-
-> For people as users of technology, Big Code is great. It means there's more software out there, it's more personalized, it's faster, it's on their desktop and phone and watch, it's localized, and so on. But for developers, it's way harder and takes way more work to build software than it did 10 years ago.
-
-## Mission
-
-To make it so [everyone can code](#purpose), we will create tools, networks, and incentives for coding at ever-larger scale.
-
-## Values
-
-Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
-
-## Use cases
-
-We have identified five key use cases for our universal code search platform:
-
-1. Developer onboarding & velocity
-1. [Code reuse](use_cases/code_reuse.md)
-1. [Code health](use_cases/code_health.md)
-1. Fixing vulnerabilities
-1. Incident Response
-
-There are also several related resources:
-
-- [use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
-- [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
-- [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
-- How we [work with use cases](working_with_use_cases.md)
-
-## Principles
+### Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
 - We want every developer, not just a specific niche audience, to use Sourcegraph.
@@ -63,73 +39,90 @@ There are also several related resources:
 
 Additionally, these are our [product design principles](../../departments/product-engineering/product/design/product_design_principles.md).
 
-## Assumptions
+### Assumptions
 
 - Sufficiently good code search will be useful to every developer many times per day (on average). It may take a while to convert any specific person into a frequent code search power user, but it will happen eventually.
 - Code search that is _exclusively_ for public/open-source code is not actually that useful because most people spend most of their time working on their organization's internal code.
 - Any given developer will only pick one code search tool to use. Any given company will standardize on a single code search tool.
   - Therefore, to avoid fragmentation, Sourcegraph should be not only _much_ better than the alternatives, but also _not worse_ in any significant way.
 
-## Pricing
+### Pricing
 
 - Trying Sourcegraph (to prove it works and is valuable) is free and (if you want) self-service.
 - If your organization is getting value from Sourcegraph with a lot of users, our [pricing](https://about.sourcegraph.com/pricing) is designed so that we earn money from you. This lets us invest in improving our product.
 - All users at a given customer are on the same pricing tier. This is simpler than having users at different tiers and encourages us to build things that are broadly valuable.
 
-## Where we're at now
+## This year (FY23)
 
-A complete list of feature areas by maturity, tier, or by code host compatibility can be found on [our feature matrices](../../departments/product-engineering/product/index.md#feature-matrices). The [following](../../departments/product-engineering/strategy-goals/index.md) gives on overview of what we are working on today.
+Our strategy for FY23 is: **target 5 specific use cases for existing customers first to grow ARR.** ([Last year's strategy](history.md#what-we-learned-from-fy22s-strategy) was about serving larger and smaller customers.)
 
-## Five-year vision: democratize code
+Let's break that down:
 
-We will make the universal code graph accessible to everyone.
+- [Target 5 specific use cases](#target-5-specific-use-cases)
+- [Iterate with existing customers first](#iterate-with-existing-customers-first)
+- [Grow ARR](#grow-arr)
 
-The universe of code is exploding, but to any given person, most of that universe remains terra incognita. We will map out that universe and its graph of dependencies, references, and authorship, so that everyone can easily traverse, explore, discover, and make use of it. (Think Google vs. Yahoo.)
+### Target 5 specific use cases
 
-- Sourcegraph understands the reference and dependency graph of the open-source universe and all our customers' private code. We make it easy to walk this graph (subject to the privacy constraints of our customers and users) even if you're not a professional software engineer.
-- You can see which changes to code affect you and how your changes affect others.
-- When a library changes, it's commonplace to include refactoring scripts (to update call sites) along with the change. Sourcegraph automatically propagates the suggested changes to all public and private code that depends on the library.
-- You can discover and more easily use libraries, with data about who uses them and how they're used.
-- Sourcegraph understands how the entire codebase of an organization is evolving and makes this accessible to codebase owners. The health and overall status of the codebase is no longer opaque to engineering leaders.
+So far, we've been selling code search to companies that know they need code search. But most companies don't know they need code search or what problems it solves. Even power users don't know all the ways they could use code search.
 
-## Ten-year-vision: democratize coding
+To overcome this, we'll market/design/develop/sell around specific use cases (mapped to our ideal customer profile, personas, and value drivers) that are immediately and obviously compelling to many more devs and companies:
 
-We will make it so coding is a universal skill (just like universal literacy). This requires not only making coding easier but also introducing more widely available economic incentives--letting anyone earn a living coding from anywhere in the world.
+1. Developer onboarding & velocity
+1. [Code reuse](use_cases/code_reuse.md)
+1. [Code health](use_cases/code_health.md)
+1. Fixing vulnerabilities
+1. Incident response
 
-As code becomes an essential part of every company and organization, more and more people can make an impact by having access to code. It will start with roles like product management and SRE that are adjacent to software engineering, but we envision a future where code becomes so critical that nearly everyone in an organization will have an interest in understanding it and modifying it. This applies to organizations of all sizes--and even individuals earning a living from libraries they wrote and shared with others who make profitable end-user products on top of them.
+Some customers already use Sourcegraph for these use cases by stitching together our product capabilities in novel ways. That's great for those particularly industrious customers, but we want the use cases to feel so obvious and natural to every user, which will require a lot of product and engineering work. This is not just a marketing/positioning/pitching exercise.
 
-Coding itself is a technology, and we anticipate the technology adoption curve will eventually extend to nearly everyone. (Just like everyone has adopted the "technology" of reading and writing--literacy.) Tools like Netscape Navigator and Google Web Search made the internet accessible to all, and Windows and Macintosh made desktop computing accessible to all. We will make coding accessible to all.
+> More links related to the use cases:
+> - [use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
+> - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
+> - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
+> - How we [work with use cases](working_with_use_cases.md)
 
-- Sourcegraph code search supports high-level queries (e.g., `function to parse URL`, `function to marshal struct into ${INTERNAL_FORMAT}`).
-- Non-technical people can use Sourcegraph to gain an understanding of what a piece of code does and modify it. E.g., a salesperson can look up a function that encodes a piece of automation in the sales process and change it to align with updated sales priorities for the quarter.
-- Sourcegraph provides a discovery and marketplace mechanism for authors of useful shared libraries to distribute and make a living off of novel source code and algorithms.
+### Iterate with existing customers first
 
-## Per-team strategy pages
+Product development (especially around target use cases) will go faster, incur less risk, and yield a more compelling and valuable product by iterating with existing customers (who already use Sourcegraph for the use cases and can give us more and better feedback), not new prospective customers.
 
-Within this overall product strategy, individual product teams set their own goals and roadmaps aligned to the [company OKRs](../goals/index.md), and each have a strategy page with all the details of what they are working on next and why. There is also an [(currently internal only) presentation](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164) with highlights of planned features from all teams.
+Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to build the target use cases to be so compelling that our existing customers adopt them (and expand usage/revenue) and so that new customers adopt as-is without customizations (with faster, smaller initial lands).
 
-### [Product & Engineering](../../departments/product-engineering/strategy-goals/index.md)
+Don't think about this as "say no to building for prospects". Instead, think "create and execute on such a compelling product roadmap that we can meet our revenue targets and win new customers without needing to build specifically for prospects".
 
-#### [Code Graph](code-graph/index.md)
+### Grow ARR
 
-- [Search core and Search product](code-graph/search/index.md)
-- [Batch Changes](code-graph/batch-changes/index.md)
-- [Code Intelligence](code-graph/code-intelligence/index.md)
-- [Code Insights](code-graph/code-insights/index.md)
+ARR (annual recurring revenue) is *the* key metric for our business because:
 
-#### [Enablement](enablement/index.md)
+- ARR is a good proxy for the long-term value we create for customers.
+- Earning revenue (being customer-funded) is the only way to build a long-term, independent company.
 
-- [Dev Experience](enablement/dev-experience/index.md)
-- [Frontend Platform](enablement/frontend-platform/index.md)
-- [Repo Management](enablement/repo-management/index.md)
-- [Engineering Education](enablement/engineering-education/index.md)
-- [Content Platform](enablement/content-platform/index.md)
+Everyone here helps grow ARR (and if you don't know how or have better ideas, speak up!). It's subtler but just as important to help ensure ARR corresponds to long-term customer value through our culture, practices, and values.
 
-#### [Cloud](cloud/index.md)
+## Team strategy pages
 
-- [Core application](cloud/core-application/index.md)
-- Cloud SaaS
-- [Growth and Integrations](cloud/growth-and-integrations/index.md)
-- [Security](cloud/security/index.md)
-- DevOps/SRE
-- [Delivery](cloud/delivery/index.md)
+- [**Product & Engineering**](../../departments/product-engineering/strategy-goals/index.md)
+  - [Highlights of planned features from all teams (currently internal only)](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164)
+  - [Feature areas by maturity, tier, or code host compatibility](../../departments/product-engineering/product/index.md#feature-matrices)
+  - [Code Graph](code-graph/index.md)
+    - [Search core and Search product](code-graph/search/index.md)
+    - [Batch Changes](code-graph/batch-changes/index.md)
+    - [Code Intelligence](code-graph/code-intelligence/index.md)
+    - [Code Insights](code-graph/code-insights/index.md)
+  - [Enablement](enablement/index.md)
+    - [Dev Experience](enablement/dev-experience/index.md)
+    - [Frontend Platform](enablement/frontend-platform/index.md)
+    - [Repo Management](enablement/repo-management/index.md)
+    - [Engineering Education](enablement/engineering-education/index.md)
+    - [Content Platform](enablement/content-platform/index.md)
+  - [Cloud](cloud/index.md)
+    - [Core application](cloud/core-application/index.md)
+    - Cloud SaaS
+    - [Growth and Integrations](cloud/growth-and-integrations/index.md)
+    - [Security](cloud/security/index.md)
+    - DevOps/SRE
+    - [Delivery](cloud/delivery/index.md)
+
+## Historical strategy
+
+See "[Historical strategy](history.md)" for explanations of changes in our strategy and older concepts.
