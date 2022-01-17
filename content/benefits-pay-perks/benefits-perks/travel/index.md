@@ -260,9 +260,9 @@ If you or anyone attending an in-person company event suspects COVID-19 exposure
 
   - **Information to share with People Ops:**
 
-    -   Date symptoms began
-    -   Dates of company event and travel
-    -   List of company event attendees/potentially exposed teammates
+    - Date symptoms began
+    - Dates of company event and travel
+    - List of company event attendees/potentially exposed teammates
 
 - Please postpone or cancel your travel. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we’d be traveling to. Reach out to People Ops and they will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
 
