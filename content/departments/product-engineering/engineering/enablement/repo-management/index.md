@@ -61,3 +61,7 @@ We also have a set of [guiding principles](../../../../../strategy-goals/strateg
 ## Internal
 
 [Internal page](internal.md) geared towards Repo Management team members.
+
+## Other
+
+- [Operational rotation](operational-rotation.md)
