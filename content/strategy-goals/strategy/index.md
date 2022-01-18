@@ -23,7 +23,7 @@ Today, only about 0.1% of the world's population can code. That tiny group has b
 
 Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us implement our strategy and achieve our [goals](../goals/index.md).
 
-## Use cases
+### Use cases
 
 We have identified five key use cases for our universal code search platform:
 
@@ -40,7 +40,7 @@ There are also several related resources:
 - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
 - How we [work with use cases](working_with_use_cases.md)
 
-## Principles
+### Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
 - We want every developer, not just a specific niche audience, to use Sourcegraph.
