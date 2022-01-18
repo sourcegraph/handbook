@@ -2,15 +2,15 @@
 
 ## View on customer support
 
-Support is essential to the healthiness and happiness of clients. A healthy and happy support team is one of the best ways to keep clients happy and successful. 
+Support is essential to the healthiness and happiness of clients. A healthy and happy support team is one of the best ways to keep clients happy and successful.
 
 ## Preferred learning style
 
-I like to take time to watch videos and read about the task, before taking a hands-on approach. 
+I like to take time to watch videos and read about the task, before taking a hands-on approach.
 
 ## Communication style
 
-Video calls, context is important to me. I appreciate verbal communication as well as body language. I am okay with communicating thru Slack as well. 
+Video calls, context is important to me. I appreciate verbal communication as well as body language. I am okay with communicating thru Slack as well.
 
 ## Collaboration style
 
@@ -18,11 +18,11 @@ I work best in a group or one on one where ideas can be discussed with flexiable
 
 ## Approach to problems
 
-I like to do as much as research as possible to solve the problem on my own. If I cannot solve a problem on my own I will communicate with a teammate that enjoys working with others. 
+I like to do as much as research as possible to solve the problem on my own. If I cannot solve a problem on my own I will communicate with a teammate that enjoys working with others.
 
 ## Preferred way to be recognized
 
-No preferred way, but I do appreciate recognition when it's sincere. 
+No preferred way, but I do appreciate recognition when it's sincere.
 
 ## What I enjoy at work
 
@@ -30,19 +30,19 @@ Personal development to ensure I am growing to be better for myself and the team
 
 ## Thoughts on asking for help
 
-I don't enjoy asking for help, but I will if I have exhausted my time and resourses. 
+I don't enjoy asking for help, but I will if I have exhausted my time and resourses.
 
 ## Preferred time to work
 
-I like to get started early in the day, I find myself energized in the morning and ready to relax towards the end of my day. 
+I like to get started early in the day, I find myself energized in the morning and ready to relax towards the end of my day.
 
 ## Feelings to receiving messages outside work hours
 
-I don't mind, unless it is absolutley urgent I probalbly wont respond. Actively working on my work/personal life balance. 
+I don't mind, unless it is absolutley urgent I probalbly wont respond. Actively working on my work/personal life balance.
 
 ## How to show up when I'm feeling off
 
-Be patient and a DM to check in is always appreciated. 
+Be patient and a DM to check in is always appreciated.
 
 ## Things that make me anxious
 
@@ -51,9 +51,10 @@ Unclear expectations, making mistakes, and asking for help.
 ## Technical areas of knowledge
 
 I am not super technical, but I do like to learn and I am open to having conversation that will broaden my technical horizens
+
 ## Technical interests to learn
 
-Continusly gaining knowldge about our product. 
+Continusly gaining knowldge about our product.
 
 ## Current personal project
 
@@ -69,7 +70,7 @@ Mice
 
 ## How I eat fries
 
-I like soft fries with cajun seasoning and cheese sauce. 
+I like soft fries with cajun seasoning and cheese sauce.
 
 ## Sun, moon, and rising signs
 
