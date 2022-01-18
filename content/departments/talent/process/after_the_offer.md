@@ -57,12 +57,13 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 After the candidate formally signs the offer letter (contract) generated through the PEO, the Recruiter takes the following steps to onboard the new Teammate:
 
-- **Turnaround time for PEO/EOR contracts**
+**Turnaround time for PEO/EOR contracts**
+
 - Talent notifies People Ops of verbal acceptance and provides contract info
 - People Ops enters information to Remote platform and invites candidate to onboard to Remote (~ 1 day)
 - Candidate creates Remote profile and completes required fields (~1-2 days)
 - Remote reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
-- People Ops/Carly and Legal review SO/SLA and sign (~1-2 days)
+- People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
 - Candidate reviews and signs Employment Agreement (~1-2 days)
 - People Ops forwards confirmation for signed employment agreement to Talent
 
