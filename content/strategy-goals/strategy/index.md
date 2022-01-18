@@ -23,6 +23,8 @@ Today, only about 0.1% of the world's population can code. That tiny group has b
 
 Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us implement our strategy and achieve our [goals](../goals/index.md).
 
+## Medium-term
+
 ### Use cases
 
 We have identified five key use cases for our universal code search platform:
