@@ -34,7 +34,7 @@ Every developer and software project practices code reuse to some degree---it's 
 
 <!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. This is perhaps the most important single section in this document, so don't be afraid to add too much - if you feel this section is getting long, consider summarizing here and linking out to other pages in the handbook with details. -->
 
-Code Search, Batch Changes, and Code Insights play a key role here.
+Code Search, Batch Changes, Code Intel, and Code Insights play a key role here.
 
 The following are real, anonymized quotes from customers today on how we're already helping them with this use case:
 
