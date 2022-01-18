@@ -83,7 +83,7 @@ Let's break that down:
 - [Iterate with existing customers first](#iterate-with-existing-customers-first)
 - [Grow ARR](#grow-arr)
 
-### Use cases
+### Target 5 specific use cases
 
 So far, we've been selling code search to companies that know they need code search. But most companies don't know they need code search or what problems it solves. Even power users don't know all the ways they could use code search. To overcome this, we'll market/design/develop/sell around five specific use cases that we'll target (mapped to our ideal customer profile, personas, and value drivers) that are immediately and obviously compelling to many more devs and companies.
 
