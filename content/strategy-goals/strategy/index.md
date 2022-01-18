@@ -39,8 +39,8 @@ We have identified five key use cases for our universal code search platform:
 1. Developer onboarding & velocity
 1. [Code reuse](use_cases/code_reuse.md)
 1. [Code health](use_cases/code_health.md)
-1. Fixing vulnerabilities
-1. Incident Response
+1. [Fixing security vulnerabilities](use_cases/fixing_security_vulnerabilities.md)
+1. [Incident Response](use_cases/incident_response.md)
 
 There are also several related resources:
 
