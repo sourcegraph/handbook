@@ -4,7 +4,7 @@ We are rolling out our first-ever internship program in Q2 FY23!
 
 This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../company-info-and-process/remote/index.md).
 
-Sourcegraph internships will be limited to incoming college seniors, graduating seniors, and graduate students. Healthcare benefits do not apply for interns.
+We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
 In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience.
 
@@ -35,7 +35,9 @@ COMING SOON
 
 While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts.
 
-### Future openings
+### How to request an intern for your team
+
+Intern positions for the first cohort (May-August 2022) have already been finalized. More info coming soon how to request an intern for future cohorts.
 
 Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 If your team is selected to have an intern, the hiring manager will be required to develop a job description following the steps in the handbook.
