@@ -17,7 +17,7 @@ Here at Sourcegraph, we believe that interviewing is a company-wide effort. This
   - How to provide feedback
   - Interview feedback definitions
   - How to keep your feedback legal (what you can and cannot put in your feedback)
-- Review [preparing for your interview] page
+- Review [Preparing for your interview](../process/interview_process.md#preparing-for-an-interview) page
 
 ## Part 1: How we provide a fair and consistent interview experience
 

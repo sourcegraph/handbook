@@ -3,6 +3,7 @@
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
 - [Engineering management](tools/engineering-management.md)
+- [Policies](policies/index.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
@@ -31,7 +32,6 @@
 - [Career development](career-development/index.md)
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
-- [Core Application Operational Rotation](core-application/index.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
 

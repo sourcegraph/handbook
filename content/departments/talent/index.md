@@ -7,6 +7,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 ## Resources for Candidates
 
 - [Careers page & open positions](tools/resources_for_candidates.md#how-to-apply)
+- [Internship Program](internship-program.md)
 - [Company values](tools/resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](tools/resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](tools/resources_for_candidates.md)
@@ -106,6 +107,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [Internship Program](internship-program.md)
 
 ## Talent Team Members
 
