@@ -28,7 +28,7 @@ _Note: we can only have 2-3 folks with the same focus day. If you don't see the 
 | Warren      | 9am–5pm     | 17:00–01:00 | 9am–5pm       | Monday    |
 | Virginia    | 8am–5pm     | 16:00–01:00 | 8am–5pm       | Friday    |
 | Brielle     | 9am–5pm     | 15:00–23:00 | 7am–3pm       | Monday    |
-| Nonso       | 9am–5pm     | 09:00–16:00 | 12am–8am       | Monday    |
+| Nonso       | 9am–5pm     | 09:00–16:00 | 12am–8am      | Monday    |
 | Riana       | 9am–5pm     | 14:00–22:00 | 6am–2pm       |           |
 | Shawnteé    | 8am–4pm     | 14:00–22:00 | 6am–2pm       |           |
 
