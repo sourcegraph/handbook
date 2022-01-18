@@ -35,7 +35,9 @@ COMING SOON
 
 While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts.
 
-### Future openings
+### How to request an intern for your team
+
+Intern positions for the first cohort (May-August 2022) have already been finalized. More info coming soon how to request an intern for future cohorts.
 
 Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 If your team is selected to have an intern, the hiring manager will be required to develop a job description following the steps in the handbook.
