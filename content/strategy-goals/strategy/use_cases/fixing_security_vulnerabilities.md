@@ -44,7 +44,7 @@ The following are real, anonymized quotes from customers today on how we’re al
 
 [Engineering Leader](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46)
 
-- Create Code Insights to track remediation and set up Code Monitoring alerts to be notified when risky patterns, secrets, or other known vulnerabilities are introduced into the codebase
+- Create Code Insights to track remediation of the issue across affected repositories and set up Code Monitoring alerts to be notified when risky patterns, secrets, or other known vulnerabilities are introduced into any codebase
 
 [Dev Productivity Lead](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_19)
 
