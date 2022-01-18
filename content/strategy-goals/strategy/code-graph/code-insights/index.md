@@ -127,7 +127,7 @@ Code Insights is a [Beta Feature](../../../../departments/product-engineering/pr
 
 This means that the Code Insights team is singularly focused on bringing Code Insights into general availability. To reach that goal, Code Insights will be building stability, features, and core product experiences based on the feedback we get from our beta participants.
 
-During the Beta, we are also evaluating pricing and packaging options. It is likely Code Insights will be a standalone feature with its own pricing. The current pricing and packaging proposal is [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg). 
+During the Beta, we are also evaluating pricing and packaging options. It is likely Code Insights will be a standalone feature with its own pricing. The current pricing and packaging proposal is [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
 
 For what we have learned so far and how we are operationalizing those learnings, see [Strategy](#strategy-and-plans).
 
@@ -200,7 +200,7 @@ We're an early Beta product and have a lot of potential growth in both how stabl
 We will:
 
 - Continue to optimize our backend to run more insights over more repos in less time
-- Explore stability updates for running over large repositories (monorepo scaling) 
+- Explore stability updates for running over large repositories (monorepo scaling)
 
 #### Launch Planning
 
