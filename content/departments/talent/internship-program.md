@@ -2,7 +2,7 @@
 
 We are rolling out our first-ever internship program in Q2 FY23!
 
-This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote].
+This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../company-info-and-process/remote/index.md).
 
 Sourcegraph internships will be limited to incoming college seniors, graduating seniors, and graduate students. Healthcare benefits do not apply for interns.
 
@@ -22,7 +22,7 @@ COMING SOON
 ## Compensation:
 
 - Varies by role, not location, and will be discussed during interviews
-- [Desk Set Up]
+- [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
 
 ## Future Internship Cohorts
 
@@ -35,7 +35,7 @@ If your team is selected to have an intern, the hiring manager will be required 
 
 ## Helpful Links:
 
-- [Resources for Candidates]
-- [How to Apply]
-- [Interviewing at Sourcegraph]
-- [Candidate FAQs]
+- [Resources for Candidates](tools/resources_for_candidates.md)
+- [How to Apply](tools/resources_for_candidates.md#how-to-apply)
+- [Interviewing at Sourcegraph](tools/resources_for_candidates.md#interviewing-at-sourcegraph)
+- [Candidate FAQs](tools/resources_for_candidates.md#candidate-faqs)
