@@ -12,7 +12,7 @@ A full time position may be possible depending on performance and what roles are
 
 ## Open Positions:
 
-We will begin recruiting in February 2022 and will be hiring for the following internship positions:
+We will begin recruiting in February 2022 and our open roles can be found here:
 COMING SOON
 
 ### College Job Boards we’re Using:
