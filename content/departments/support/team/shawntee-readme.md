@@ -74,4 +74,4 @@ I like soft fries with cajun seasoning and cheese sauce.
 
 ## Sun, moon, and rising signs
 
-Taurus sun, Sagittarius moon, Leor rising
+Taurus sun, Libra moon, Gemini rising
