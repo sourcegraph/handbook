@@ -14,7 +14,7 @@ VMWare’s Carbon Black is an antivirus software that we are deploying to Source
 
 **What you can do prior to Workspace One Enrollment**:
 
-If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](/process/internal_security.md)
+If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](/internal_security.md)
 **How to Enroll in Workspace One for MacOS and Windows**
 
 You will receive an email invite from **Airwatch** with steps on how to enroll in Workspace One. Below is a short summary of what you’ll need to do. If you do not receive an invitation from Airwatch please reach out in the #it-tech-ops Slack channel.
@@ -31,7 +31,7 @@ If you are waiting for the arrival of your Sourcegraph laptop and need to use yo
 
 If using your personal device** temporarily** while waiting for your Sourcegraph device and you **do not** wish to install Workspace One, please ensure that you are doing the following:
 
-- You are following the [laptop setup standards](/process/internal_security.md).
+- You are following the [laptop setup standards](/internal_security.md).
 - You have reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
 **Removing Workspace One and Carbon Black from my personal computer**
