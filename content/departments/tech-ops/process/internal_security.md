@@ -74,12 +74,12 @@ Do:
 
 ## Using A Personal Computer
 
-If using your personal device, please ensure that you are doing the following: 
+If using your personal device, please ensure that you are doing the following:
 
-* You are following the laptop setup standards above.
-* You have reached out to the Tech Ops team in the #it-tech-ops Slack channel to get an invite to our antivirus software, Carbon Black. 
+- You are following the laptop setup standards above.
+- You have reached out to the Tech Ops team in the #it-tech-ops Slack channel to get an invite to our antivirus software, Carbon Black.
 
-If you receive a Sourcegraph device and will no longer be working from a personal device please reach out to the Tech Ops team, and we can unenroll your personal device from Carbon Black. 
+If you receive a Sourcegraph device and will no longer be working from a personal device please reach out to the Tech Ops team, and we can unenroll your personal device from Carbon Black.
 
 ## Zoom Retention Policy
 
