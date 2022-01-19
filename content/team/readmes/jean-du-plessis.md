@@ -25,7 +25,7 @@ If I am your new manager, I will ask you to schedule a series of three 60 minute
 
 Here are the topics for the sessions:
 
-1. Tell me about your life starting from grade school - include whatever you deem important to you.
+1. Tell me about your life starting from grade school—include whatever you deem important to you.
 2. What do you want to do at the pinnacle of your career?
 3. I will reflect back things I heard and tell you about how I think I can help you achieve your goals and be successful at Sourcegraph.
 

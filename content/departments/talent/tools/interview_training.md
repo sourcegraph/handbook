@@ -8,6 +8,17 @@ Here at Sourcegraph, we believe that interviewing is a company-wide effort. This
 - Protect our teammates from unintentional discrimination
 - Provide an excellent candidate experience, regardless of hiring outcome
 
+## Checklist for new interviewers
+
+- Review interview training below
+- Review [guide to using brighthire] page
+- Review [guide to using Greenhouse] page
+  - How to see your interview questions
+  - How to provide feedback
+  - Interview feedback definitions
+  - How to keep your feedback legal (what you can and cannot put in your feedback)
+- Review [Preparing for your interview](../process/interview_process.md#preparing-for-an-interview) page
+
 ## Part 1: How we provide a fair and consistent interview experience
 
 - We become aware of our unconscious biases
@@ -134,7 +145,7 @@ Best practices:
 - Remind candidates that they can pause if they need to think of an example
 - If you notice that a candidate is getting nervous, it’s okay to say, “take a breath, take a pause, it is just as important for you to ask me questions and it is for me to ask you”
 
-If you ask a candidate to tell you a problem that they identified and then took the initiative to solve, and the candidate says, “the problem was that things were falling through the cracks” and then stops - obviously we’re not going to be able to walk away from that answer thinking that they nailed it or failed it. Interviewers are going to need to dig deeper. Think about using the “tell me about” phrasing as a way to drill down to get to the root of the answer. To follow up on that answer, you could say, “tell me, how did you identify that things were falling through the cracks? Tell me, why was that a problem? Tell me, what did you do to fix that problem? Tell me, what initiative did you take?”
+If you ask a candidate to tell you a problem that they identified and then took the initiative to solve, and the candidate says, “the problem was that things were falling through the cracks” and then stops—obviously we’re not going to be able to walk away from that answer thinking that they nailed it or failed it. Interviewers are going to need to dig deeper. Think about using the “tell me about” phrasing as a way to drill down to get to the root of the answer. To follow up on that answer, you could say, “tell me, how did you identify that things were falling through the cracks? Tell me, why was that a problem? Tell me, what did you do to fix that problem? Tell me, what initiative did you take?”
 
 Whatever it takes to drill down to actually get an answer that allows you to confidently determine that they either embody a particular value or they do not. Those follow up questions are not scripted and it’s where interviewers will need to be mindful of the legal training.
 
@@ -146,7 +157,7 @@ It is your responsibility to make the candidate feel comfortable and remind them
 
 - Please provide feedback as soon as possible, ideally no later than 24 hours after the interview, so that we can move quickly and ensure a positive candidate experience. You can use **Brighthire** to review the interview and copy / paste notes at a later time, but please try your best to get in the habit of submitting feedback directly after the interview since recall reduces by 44% after one hour. Feedback is best when you use the attributes to help score responses.
 - Most importantly, please do not talk to anybody else about their feedback if you were in a panel interview. If somebody went right before you went right after you, please don't ask for their feedback until you have officially filled yours out. That is a surefire way to introduce bias into your decision making. You should feel conviction in your process and your assessment of the candidate. If we notice that some candidate has gotten a couple yeses and a no, we will bring the team together to talk about it and determine why that happened. We can leverage BrightHire again here to see if there was a miscommunication or if their story was inconsistent. BrightHire will allow us to dig deeper if the panel did not agree on a decision.
-- Please leverage the definitions in this interview feedback [overall recommendation guide](../process/interview_process.md#overall-recommendation) when rating candidates in Greenhouse. It’s natural to want to make hiring decisions based on comparison points. As you talk to more people, you can start to understand where certain candidates fall in comparison. That being said, we should avoid the “shopping effect” - where we feel like we need to talk to five or 10 candidates in order to make a hiring decision. Sometimes it’s the first candidate we talk to that’s the best fit, and by the time we’ve talked to all of the other folks, we’ve lost that person.
+- Please leverage the definitions in this interview feedback [overall recommendation guide](../process/interview_process.md#overall-recommendation) when rating candidates in Greenhouse. It’s natural to want to make hiring decisions based on comparison points. As you talk to more people, you can start to understand where certain candidates fall in comparison. That being said, we should avoid the “shopping effect”—where we feel like we need to talk to five or 10 candidates in order to make a hiring decision. Sometimes it’s the first candidate we talk to that’s the best fit, and by the time we’ve talked to all of the other folks, we’ve lost that person.
 
 There are plenty of companies that pull interviewers into a room and stack rank candidates. We want to avoid this to the best of our abilities. Rather than comparing candidates together in a room, ask yourself a binary question, “can this candidate do the job, yes or no?” Then consider where this candidate would fall in terms of being an example to others. It’s difficult because our brains are wired to compare, which introduces bias because we start to trend towards likability and/or recency bias.
 

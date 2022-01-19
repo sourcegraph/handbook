@@ -69,14 +69,8 @@ Do:
 - Make passwords hard to guess, even by those who know a lot about you.
 - Use a mix of numbers, letters (upper and lower case), and special characters but you don’t have to use them all
 - Make passwords complicated enough to need the use of a password manager (we use [1Password](https://1password.com/))
-- Create a password that is ideally 14 characters long
+- Create a password that is ideally 10 characters long
 - We recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
-
-## JAMF Policy
-
-We want all teammates who have Sourcegraph **Apple devices** to have their devices set up on Jamf Now. This way, in cases where a device is lost/stolen, we would have ability to wipe it remotely. (Jamf Now will only be used in these types of emergency circumstances.)
-
-1. Set Jamf up on your computer: Visit https://sourcegraph.jamfcloud.com and use the following access code: 121200 to get it set up on your device
 
 ## Zoom Retention Policy
 

@@ -4,28 +4,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
-- [Nicholas Gage](../../../team/index.md#nicholas-gage), Head of Sales Development
-  - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../../../team/index.md#kevin-quigley)
-    - [Brannon Rouse](../../../team/index.md#brannon-rouse)
-    - [Carter Jaenichen](../../../team/index.md#carter-jaenichen)
-    - Open
-  - East Outbound SDRs
-    - [Sam Cregg](../../../team/index.md#sam-cregg)
-    - [Ellie Dawson](../../../team/index.md#ellie-dawson)
-    - [Daniel Gwyn]
-    - Open
-  - Inbound SDRs
-    - [Mark "Markie" Muldez](../../../team/index.md#mark-markie-muldez)
-    - Open
-  - EMEA SDRs
-    - [Jagna Feierabend](../../../team/index.md#jagna-feierabend)
-    - [Ashwin Thakur](../../../team/index.md#ashwin-thakur)
-    - Open
-  - APAC SDRs
-    - Open
-  - Commercial SDRs
-    - Open
+{{generator:reporting_structure.head_sales_development}}
 
 ## Quick Links
 
@@ -124,12 +103,12 @@ See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM
 
 ## Tech Stack
 
-- Salesforce - Customer Relationship Management
-- Outreach.io - Sales Engagement Platform
-- Linkedin Sales Navigator - Prospecting Tool
-- Zoominfo - Data Intelligence Tool
-- LeadiQ - Data Intelligence Tool
-- Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
+- **Salesforce** - Customer Relationship Management
+- **Outreach.io** - Sales Engagement Platform
+- **Linkedin Sales Navigator** - Prospecting Tool
+- **Zoominfo** - Data Intelligence Tool
+- **LeadiQ** - Data Intelligence Tool
+- **Postal.Io** - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
 
 ## SDR Promotion Process
 
@@ -163,7 +142,7 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
   - CE leader (Engineering Leader)
   - Current manager (no role, observer only)
 - 1 Hour presentation that covers the following:
-  - Why are you ready to be an AE at Sourcegraph? 1-2 slides (5 mins)
+  - Why are you ready to be an AE at Sourcegraph? 1–2 slides (5 mins)
     - About you
     - Why sales?
   - Performance in SDR role to date 2~ slides (10 mins)
@@ -181,11 +160,11 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
 
 **Scoring Criteria for Presentation:**
 
-- Communication- candidate presentation is paced well, transitions are smooth, concepts are clear, everyone is included and heard, filler words are minimal, confidence is apparent
-- Problem Discovery - candidate uses active listening and curiosity to uncover customer pain points
-- Solution Mapping - candidate aligns specific aspects of the Sourcegraph solution to expressed customer needs with an eye towards collecting information that will inform a subsequent demo
-- Objection handling- candidate clarifies and responds to objections without derailing the presentation
-- Next Steps - candidate concludes with next steps that overcome objections and initiates a process that will conclude with a timely close.
+- **Communication** - candidate presentation is paced well, transitions are smooth, concepts are clear, everyone is included and heard, filler words are minimal, confidence is apparent
+- **Problem Discovery** - candidate uses active listening and curiosity to uncover customer pain points
+- **Solution Mapping** - candidate aligns specific aspects of the Sourcegraph solution to expressed customer needs with an eye towards collecting information that will inform a subsequent demo
+- **Objection handling** - candidate clarifies and responds to objections without derailing the presentation
+- **Next Steps** - candidate concludes with next steps that overcome objections and initiates a process that will conclude with a timely close.
 
 [Example prompt and call recordings are located here.](https://docs.google.com/document/d/1SbXuR_Eo42KOXJZBAICr84dXQrBFKHE5Q8ZQFsRlLvE/edit?usp=sharing)
 

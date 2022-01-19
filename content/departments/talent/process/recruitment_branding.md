@@ -37,11 +37,22 @@ Learn more about Sourcegraph's [Social Media](../../marketing/social-media/index
 
 ## Leaving Company Reviews
 
-We encourage teammates to leave honest reviews about their Sourcegraph experience on the following sites
+We encourage teammates to leave honest reviews about their Sourcegraph experience on the following sites:
 
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fnuarl95u1rp800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
+
+### Writing Prompts
+
+If helpful, you can use these prompts to get ideas flowing for your review.
+
+- I enjoy working at Sourcegraph because...
+- My favorite perk/benefit at Sourcegraph is...
+- A day in the life of a Sourcegraph employee includes...
+- Since starting at Sourcegraph, I have learned...
+
+[Here](https://help.glassdoor.com/s/article/Writing-a-company-review?language=en_US) are instructions on how to leave a company review on Glassdoor
 
 If you want to make a suggestion or notice outdated company details on any of our profiles, please let your recruiter know or send a slack in the #hiring channel.
 
@@ -57,6 +68,9 @@ Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.138065992
 - [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Devon Coords owns this list and payments are made with Nick's Brex. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm) All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor.
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
+- [AngelList](https://angel.co/company/sourcegraph)
+
+[Click here](../internship-program.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
 
 ### Job boards and coding bootcamps we have posted to in the past:
 

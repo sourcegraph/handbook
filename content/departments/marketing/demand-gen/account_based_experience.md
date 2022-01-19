@@ -62,7 +62,7 @@ Our Ideal Customer Profile (ICP) is broken down by two audiences: developers and
 ### ABX Tiers
 
 - Strategic ABX = 1:1 Accounts (Limited to 5)
-- Lite ABX = 1:Few Accounts (Limited to 5-10)
+- Lite ABX = 1:Few Accounts (Limited to 5–10)
 - Programmatic ABX = 1:Many Accounts (Target list, excludes Strategic and Lite)
 
 ### Tier Criteria

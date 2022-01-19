@@ -6,11 +6,11 @@ Demand Gen is great because it impacts growth through many different tools: stor
 
 ### Preferred learning styles
 
-I learn a bunch of different ways - but the most effective is the following process: hearing it, then reading it, and then doing it. In meetings I am looking generally for context. I digest information best from reading it, I retain info by doing it.
+I learn a bunch of different ways—but the most effective is the following process: hearing it, then reading it, and then doing it. In meetings I am looking generally for context. I digest information best from reading it, I retain info by doing it.
 
 ### Communication style
 
-My brain works in a non - linear way; so when I am in a meeting, I am thinking of 100 random different ways to do something. Sometimes in the moment it is hard for me to reach up in my mind and articulate the universe of thoughts I have on a subject. I sometimes will talk out my thoughts, which is helpful but it's not always the right time to do that. I can seem quiet in meetings, this is because I am likely processing the info and my thoughts on it. It doesn't mean I don't have an input, it's just I am making sure I understand the presenter and myself. It's best for me to think, then stop to organize and articulate what I am thinking. Writing things out is usually my best way articulating ideas/strategy etc.. However, I love talking and listening for context on why and what?
+My brain works in a non-linear way; so when I am in a meeting, I am thinking of 100 random different ways to do something. Sometimes in the moment it is hard for me to reach up in my mind and articulate the universe of thoughts I have on a subject. I sometimes will talk out my thoughts, which is helpful but it's not always the right time to do that. I can seem quiet in meetings, this is because I am likely processing the info and my thoughts on it. It doesn't mean I don't have an input, it's just I am making sure I understand the presenter and myself. It's best for me to think, then stop to organize and articulate what I am thinking. Writing things out is usually my best way articulating ideas/strategy etc.. However, I love talking and listening for context on why and what?
 If there is ever any tension or any type of conflict, I much prefer talking in person.
 
 ### Preferred way to collaborate
@@ -67,7 +67,7 @@ Ask me whats going on? Talking to someone about whatever usually helps me,gettin
 
 ### Things I am aware of that trigger anxious feelings/feelings of less than at work
 
-When I feel like I don't fully understand something and I am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems. Don't get me wrong, love dashboards - just sometimes I feel like it becomes a crutch or isn't thought out.
+When I feel like I don't fully understand something and I am expected to all the sudden build a dashboard! Or when a dashboard is the answer to everyone's problems. Don't get me wrong, love dashboards—just sometimes I feel like it becomes a crutch or isn't thought out.
 
 ### Marketing areas of knowledge
 

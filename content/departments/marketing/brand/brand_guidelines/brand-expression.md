@@ -12,7 +12,7 @@
 
 Our brand is at the root of everything we do. It’s how we behave, communicate, look, and interact, across digital and real-world touch-points. Each element of our brand works together to demonstrate who we are and what we believe in.
 
-We express our brand through our brand story, brand voice, and brand visuals. Our brand story is what motivates us — it explains why we do what we do. Our brand voice is the unique way in which we communicate, our tones and personality. Brand visuals reinforce and enhance our brand voice and story, communicating our values through graphic elements and style choices. Everything defined in this brand guide — from typeface, to color, to texture — is carefully chosen to visually represent our brand in support of our brand voice and brand story.
+We express our brand through our brand story, brand voice, and brand visuals. Our brand story is what motivates us—it explains why we do what we do. Our brand voice is the unique way in which we communicate, our tones and personality. Brand visuals reinforce and enhance our brand voice and story, communicating our values through graphic elements and style choices. Everything defined in this brand guide—from typeface, to color, to texture—is carefully chosen to visually represent our brand in support of our brand voice and brand story.
 
 <div style="clear: both"></div>
 
@@ -29,7 +29,7 @@ Read more about [our mission in the handbook](../../../../strategy-goals/strateg
 
 ### Values
 
-These values are the beliefs and principles that help us achieve our goals and vision and build an inclusive team. These apply at every level of our organization — “you” refers to individuals, teams, and Sourcegraph as a whole.
+These values are the beliefs and principles that help us achieve our goals and vision and build an inclusive team. These apply at every level of our organization—“you” refers to individuals, teams, and Sourcegraph as a whole.
 
 Read more about [our values in the handbook](../../../../company-info-and-process/values/index.md).
 
@@ -83,7 +83,7 @@ Read more about [our values in the handbook](../../../../company-info-and-proces
   </tbody>
 </table>
 
-Our voice is informed by our story — because we believe in large scale accessibility and transparency in code, we chose attributes that reflect those values.
+Our voice is informed by our story—because we believe in large scale accessibility and transparency in code, we chose attributes that reflect those values.
 
 Our voice attributes guide how we articulate our communication. Each message requires differing amounts of each voice attribute, depending on the audience.
 

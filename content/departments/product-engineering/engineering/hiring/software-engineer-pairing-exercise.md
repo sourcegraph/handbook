@@ -31,7 +31,7 @@ The engineer leading the pairing exercise should choose a task to work on from [
 - be easy to explain
 - be language agnostic, so the candidate can use whatever language/tools they are most comfortable with
 - require no specialized knowledge
-- take 30-60 minutes to complete
+- take 30–60 minutes to complete
 - have multiple ways to extend it: more features, add tests, etc.
 
 Having ways to extend the exercise is important if you finish the exercise before the interview is over. Finishing the exercise is _not_ a goal; the goal is to pair for as much of the interview as possible, since that provides the signal we are looking for. (This implies not finishing the exercise.)

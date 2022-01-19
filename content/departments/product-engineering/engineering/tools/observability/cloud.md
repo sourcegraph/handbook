@@ -45,7 +45,7 @@ The `sourcegraph/sourcegraph` CI pipeline also [uploads pipeline logs using `sg`
   |~ "FAILED:"
 ```
 
-Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) for more examples - just select a panel and click "Explore" to see the underlying query.
+Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) for more examples—just select a panel and click "Explore" to see the underlying query.
 
 ### Metrics
 

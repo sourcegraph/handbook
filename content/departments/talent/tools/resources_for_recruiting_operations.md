@@ -32,7 +32,7 @@ How Recruiters Submit Interview Requests:
 How All Other Teammates Submit Interview Requests:
 
 - Simply let the appropriate Recruiter and/or Recruiting Operations Specialist know what you would like scheduled in whatever format is easiest for you (email, slack, tagging them in Greenhouse, etc.). Please include the candidate’s full name and which [types of interviews](../process/types_of_interviews.md#resume-deep-dive) you would like scheduled. We will let you know if we have any follow up questions!
-  - If you do not hear back from us in 24-48 hours, please send a kind reminder over Slack!
+  - If you do not hear back from us in 24–48 hours, please send a kind reminder over Slack!
 
 ## Interview Scheduling:
 
@@ -49,6 +49,8 @@ How All Other Teammates Submit Interview Requests:
 6. The Email template, Subject Line, and Description will auto populate. All you need to do is click “Add Video Conferencing, select “Zoom”, and mark one of the interviewers as the Zoom Host. 6. Important note: if one of the interviewers is \_not \_the zoom host, they will not be able to cancel the interview recording in BrightHire should the candidate request that in real time.
 7. Before sending any interview invitations, please double check the interviewers’ availability within Google Calendar by clicking “Open in Google Cal”. 7. This will open a separate tab. You can see the interview zoom link in the body of the invite, as well as the interviewers’ names listed as Guests. 8. Use the “Find a Time” tool to confirm all interviewers are available during the interview time 9. Important note: the calendar shown in Greenhouse does not include interviewers’ working hours. You must open in Google Calendar to ensure that you are scheduling an interview within working hours.
 8. Click “Save”, “Send”, and “Invite all guests”.
+
+NOTE: Follow the same scheduling steps for internal candidates that you would for external candidates. Send the confirmation email to the internal candidate's Sourcegraph email address so they can add the event to their calendar if they'd like.
 
 ### Scheduling Best Practices
 

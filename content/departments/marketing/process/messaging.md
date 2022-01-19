@@ -84,16 +84,16 @@ By solving some of the most pressing challenges in today’s fast-moving, intric
 
 See how Sourcegraph compares with and integrates to other solutions:
 
-- [Atlassian Fisheye](../tools/atlassian_fisheye_vs_sourcegraph.md)
-- [Bitbucket Cloud](../tools/bitbucket_cloud_vs_sourcegraph.md)
-- [Bitbucket Server](../tools/bitbucket_server_vs_sourcegraph.md)
-- [GitHub](../tools/github_vs_sourcegraph.md)
-- [GitLab](../tools/gitlab_vs_sourcegraph.md)
-- [Google Cloud Source Repositories](../tools/google_cloud_source_repositories_vs_sourcegraph.md)
-- [Hound](../tools/hound_vs_sourcegraph.md)
-- [Livegrep](../tools/livegrep_vs_sourcegraph.md)
-- [OpenGrok](../tools/opengrok_vs_sourcegraph.md)
-- [Phabricator](../tools/phabricator_vs_sourcegraph.md)
+- [Atlassian Fisheye](atlassian_fisheye_vs_sourcegraph.md)
+- [Bitbucket Cloud](bitbucket_cloud_vs_sourcegraph.md)
+- [Bitbucket Server](bitbucket_server_vs_sourcegraph.md)
+- [GitHub](github_vs_sourcegraph.md)
+- [GitLab](gitlab_vs_sourcegraph.md)
+- [Google Cloud Source Repositories](google_cloud_source_repositories_vs_sourcegraph.md)
+- [Hound](hound_vs_sourcegraph.md)
+- [Livegrep](livegrep_vs_sourcegraph.md)
+- [OpenGrok](opengrok_vs_sourcegraph.md)
+- [Phabricator](phabricator_vs_sourcegraph.md)
 
 ## Company overview
 
@@ -105,9 +105,9 @@ Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.
 
 ## Definitions
 
-- Code search - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
-- Code navigation - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
-- Code exploration - Find both known and unknown code, with code intelligence providing the contextual understanding
-- Code discovery - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
-- Code intelligence - Display and share additional contextual information around code (allows code reviews with context)
-- Batch Changes - Make large-scale code changes
+- **Code search** - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
+- **Code navigation** - Guided traveling to find specific code via ad-hoc query (enables code discovery and exploration)
+- **Code exploration** - Find both known and unknown code, with code intelligence providing the contextual understanding
+- **Code discovery** - Navigate, explore, and understand the code you are looking for, even if you didn’t know it existed
+- **Code intelligence** - Display and share additional contextual information around code (allows code reviews with context)
+- **Batch Changes** - Make large-scale code changes

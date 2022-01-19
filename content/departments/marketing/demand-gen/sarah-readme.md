@@ -21,7 +21,7 @@ A nonlinear workday works best for me. I keep my calendar open for meetings betw
 ### Preferred way to collaborate
 
 A well-written RFC is a delight to read, review, and comment in.
-I also love what I call a "jam sesh" - an informal small-group conversation to work through something.
+I also love what I call a "jam sesh"—an informal small-group conversation to work through something.
 
 ### How I approach problems
 

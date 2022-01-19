@@ -78,7 +78,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 #### Impact of org and role changes
 
-Process Street allows users to use conditional logic - we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist.
+Process Street allows users to use conditional logic—we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist.
 
 Managers assigned to teammates also need to be updated and sometimes even the content needs to be too.
 

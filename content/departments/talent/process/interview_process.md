@@ -40,11 +40,11 @@ The first step of an interview process for a candidate is the Recruiter Screen. 
 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
-If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
-
 - To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
 - COMING SOON: how to schedule with Calendly
 - To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
+
+If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
 
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
@@ -94,11 +94,11 @@ If we are _declining_ the candidate, the Recruiter will call the candidate.
 
 It is our goal to fill our openings as quickly as possible while maintaining a high quality bar and a strong candidate experience. Our time-to-fill goal is an average of 45 days. This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45 days or less.
 
-- (45 days time-to-fill) + (2-4 weeks notice period) + (1-2 weeks vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts.
-- All roles should be kicked off 2-3 months prior to our target start date to ensure we're taking a proactive, rather than reactive, recruitment approach.
+- (45 days time-to-fill) + (2–4 weeks notice period) + (1-2 weeks vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts.
+- All roles should be kicked off 2–3 months prior to our target start date to ensure we're taking a proactive, rather than reactive, recruitment approach.
 - Once a candidate begins the interview process with us, we should aim to complete the interview process in **2-weeks** or less.
 
-Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles. This document is updated in real time and adjusts as the needs of our business change. If you see that you have an upcoming role in the next 2-3 months, please follow the below steps to kick off a search.
+Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles. This document is updated in real time and adjusts as the needs of our business change. If you see that you have an upcoming role in the next 2–3 months, please follow the below steps to kick off a search.
 
 ## **Sourcing best practices**
 
@@ -140,7 +140,9 @@ Please leverage the below **definitions** when rating candidates:
 
 `Yes` You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
 
-`No` You are neutral or have doubts about whether this person would make our team better.
+`Neutral` You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended. To indicate that you're neutral, please **do not select any score** and press submit.
+
+`No` You have doubts about whether this person would make our team better.
 
 `Strong No` You are very confident that we should not hire this person because they would not be successful on our team.
 

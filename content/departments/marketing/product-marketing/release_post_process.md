@@ -23,7 +23,7 @@ You can tell when the release is cut by following along in #progress.
 - PMs add final assets.
 - Product marketing to package and draft the release post and share with [Rebecca](../../../team/index.md#rebecca-dodd), [Andy](../../../team/index.md#andy-schumeister), and [Jason](../../../team/index.md#jason-yavorska) for review.
 
-**0-2 days after release ships**
+**0–2 days after release ships**
 
 - No new additions or edits from the product team
 - Managing Editor edits and publishes release post.

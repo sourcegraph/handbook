@@ -56,18 +56,18 @@ We also intentionally plan so we can avoid merging significant work less than tw
 
 Larger (usually multi-iteration) projects coming from our roadmap go through three phases. <small>_(Note that these three phases are the **team collaboration** phases, but there are often additional individual phases like product/design research processes or technical research that may come before phase 1.)_</small>
 
-1. **Product context and scope agreement** (usually 1-2 weeks)<br>
+1. **Product context and scope agreement** (usually 1–2 weeks)<br>
    The PM (or other driving individual) creates a product-level RFC summarizing user desires from feedback and proposes a reasonable timeline to reach a scope agreement (mentioned in the RFC).
    Engineers, designer (as applicable), PM, and EM discuss the needs in the RFC and the feasibility/complexity of different options.
    **The goal of this phase is to agree on a scope for the project**, which will generally be a _subset_ of the desires the PM/driver outlined in the RFC based on the implementation complexity, how long it would roughly take to implement, and how much time we want to dedicate to the project.
    After discussion, the agreed-upon scope is recorded in a section at the bottom of the RFC.
 
-2. **Design and implementation planning** (usually 1-2 weeks)<br>
+2. **Design and implementation planning** (usually 1–2 weeks)<br>
    For a UI project, our designer will create wireframes and designs which are reviewed and discussed by all teammates in Figma.
    Similarly, engineers will make a proposal for the needed GraphQL APIs (e.g. in an RFC) and agree on the API shape, think the implementation through, and create concrete implementation sub-tasks with estimates, testing plans, and a label collecting them.
    The goal of this phase is to be "ready to go" for the implementation phase – having a plan (with reasonable confidence) that only needs to be executed.
 
-3. **Implementation and testing** (usually 1-4 weeks)<br>
+3. **Implementation and testing** (usually 1–4 weeks)<br>
    Engineers execute on the implementation plan, putting a set of issues from the project into each iteration.
    This also includes that each sub-implementation-task is sufficiently tested, meaning by the end of this phase the project is ready to ship to customers with confidence.
 
