@@ -4,28 +4,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
-- [Nicholas Gage](../../../team/index.md#nicholas-gage), Head of Sales Development
-  - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../../../team/index.md#kevin-quigley)
-    - [Brannon Rouse](../../../team/index.md#brannon-rouse)
-    - [Carter Jaenichen](../../../team/index.md#carter-jaenichen)
-    - Open
-  - East Outbound SDRs
-    - [Sam Cregg](../../../team/index.md#sam-cregg)
-    - [Ellie Dawson](../../../team/index.md#ellie-dawson)
-    - [Casi Neff](../../../team/index.md#casi-neff)
-    - Open
-  - Inbound SDRs
-    - [Mark "Markie" Muldez](../../../team/index.md#mark-markie-muldez)
-    - [Daniel Gwyn](../../../team/index.md#daniel-gwyn)
-  - EMEA SDRs
-    - [Jagna Feierabend](../../../team/index.md#jagna-feierabend)
-    - [Ashwin Thakur](../../../team/index.md#ashwin-thakur)
-    - Open
-  - APAC SDRs
-    - Open
-  - Commercial SDRs
-    - Open
+{{generator:reporting_structure.head_sales_development}}
 
 ## Quick Links
 
@@ -190,3 +169,33 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
 [Example prompt and call recordings are located here.](https://docs.google.com/document/d/1SbXuR_Eo42KOXJZBAICr84dXQrBFKHE5Q8ZQFsRlLvE/edit?usp=sharing)
 
 This above process is the template for progression from SDR to Commercial AE. Further iterations will be forthcoming and outlined in this section of the handbook. This page also serves as a framework for the SDR promotion process into other parts of the business (e.g. Marketing).
+
+## Recommended SDR Team Reads & Podcasts
+
+**Books**
+
+- Never Split the Difference
+- The Infinite Game
+- Leaders Eat Last
+- Challenger Sale
+- Blockchain Revolution
+- GAP Selling
+- PLG- Product Led Growth
+- GRIT
+- Start with Why
+- Turning the Flywheel
+- The New Kingmakers
+- The Compound Effect
+- Smarter, Faster, Better
+- So Good They Can't Ignore You
+- Think Again
+- Give and Take
+- The Most Excellent Way to Lead
+- Seven Habits of Highly Successful People
+- How to Win Friends and Influence People
+
+**Podcasts**
+
+- This Week in Startups
+- A Time Shared
+- 30 Minutes to President's Club
