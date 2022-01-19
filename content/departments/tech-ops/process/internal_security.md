@@ -72,11 +72,14 @@ Do:
 - Create a password that is ideally 10 characters long
 - We recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
 
-## JAMF Policy
+## Using A Personal Computer
 
-We want all teammates who have Sourcegraph **Apple devices** to have their devices set up on Jamf Now. This way, in cases where a device is lost/stolen, we would have ability to wipe it remotely. (Jamf Now will only be used in these types of emergency circumstances.)
+If using your personal device, please ensure that you are doing the following: 
 
-1. Set Jamf up on your computer: Visit https://sourcegraph.jamfcloud.com and use the following access code: 121200 to get it set up on your device
+* You are following the laptop setup standards above.
+* You have reached out to the Tech Ops team in the #it-tech-ops Slack channel to get an invite to our antivirus software, Carbon Black. 
+
+If you receive a Sourcegraph device and will no longer be working from a personal device please reach out to the Tech Ops team, and we can unenroll your personal device from Carbon Black. 
 
 ## Zoom Retention Policy
 
