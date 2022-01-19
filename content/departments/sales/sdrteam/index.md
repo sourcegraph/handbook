@@ -169,3 +169,33 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
 [Example prompt and call recordings are located here.](https://docs.google.com/document/d/1SbXuR_Eo42KOXJZBAICr84dXQrBFKHE5Q8ZQFsRlLvE/edit?usp=sharing)
 
 This above process is the template for progression from SDR to Commercial AE. Further iterations will be forthcoming and outlined in this section of the handbook. This page also serves as a framework for the SDR promotion process into other parts of the business (e.g. Marketing).
+
+## Recommended SDR Team Reads & Podcasts
+
+**Books**
+
+- Never Split the Difference
+- The Infinite Game
+- Leaders Eat Last
+- Challenger Sale
+- Blockchain Revolution
+- GAP Selling
+- PLG- Product Led Growth
+- GRIT
+- Start with Why
+- Turning the Flywheel
+- The New Kingmakers
+- The Compound Effect
+- Smarter, Faster, Better
+- So Good They Can't Ignore You
+- Think Again
+- Give and Take
+- The Most Excellent Way to Lead
+- Seven Habits of Highly Successful People
+- How to Win Friends and Influence People
+
+**Podcasts**
+
+- This Week in Startups
+- A Time Shared
+- 30 Minutes to President's Club
