@@ -123,9 +123,9 @@ Other tools that need to be updated when there is an org change (including manag
 ## Managing a Role Change
 
 Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. This will notify People Ops.
-If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). If the change implies someone changing team or manager, the new manager is the one who should complete the form.
+If you have any questions, please contact [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). **Please note** that if the change involves someone changing team or manager, the new manager is the one who should complete the form.
 
-When to complete this form?
+**When to complete this form?**
 
 - If someone in your team has a change in:
 
@@ -139,6 +139,6 @@ When to complete this form?
 - If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change)
 - If there is a structural change due to a manager taking parental leave
 
-### Process for a Role Change
+### Additional Process for a Role Change
 
-1. Update the `reports_to` field on the [team page](../../../team/index.md) to reflect the change.
+- Update the `reports_to` field on the [team page](../../../team/index.md) to reflect the change.
