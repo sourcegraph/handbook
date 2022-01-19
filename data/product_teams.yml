@@ -122,6 +122,7 @@ frontend_platform:
   product_org: enablement
   pm: taylor_sperry
   em: patrick_dubroy
+  design: alicja_suska
   issue_labels:
     - team/frontend-platform
 
@@ -140,5 +141,6 @@ content_platform:
   product_org: enablement
   pm: mary_belzer
   em: engineering_manager_content_platform
+  design: stephanie_zabala
   issue_labels:
     - team/content-platform

@@ -285,7 +285,7 @@ robert_lin:
 marek_zaluski:
   name: Marek Zaluski
   role: 'Software Engineer, Engineering Education Lead'
-  reports_to: engineering_manager_web
+  reports_to: engineering_manager_developer_experience
   location: Ottawa, Canada 🇨🇦
   github: marekweb
   email: marek@sourcegraph.com

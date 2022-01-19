@@ -288,7 +288,7 @@ export async function generateProductTeamsList() {
 }
 
 /**
- * Used in cases where a team in composed of individuals who report to different
+ * Used in cases where a team in comprised of individuals who report to different
  * people, but work on the same thing.
  */
 
