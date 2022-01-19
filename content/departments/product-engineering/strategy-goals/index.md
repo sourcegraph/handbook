@@ -14,7 +14,7 @@ In order to achieve our ARR growth goal in FY23, our central challenge is to mak
 
 ## What
 
-Our answer to the question of how to enable many more devs and eng orgs to discover the value of Sourcegraph is to make the [5 company use cases](../../..//strategy-goals/strategy.md#use-cases) shine.
+Our answer to the question of how to enable many more devs and eng orgs to discover the value of Sourcegraph is to make the [5 company use cases](../../../strategy-goals/strategy/index.md#use-cases) shine.
 
 ## Vision
 
