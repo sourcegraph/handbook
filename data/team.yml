@@ -2549,3 +2549,14 @@ pietro_rosa:
   links: '[LinkedIn](https://www.linkedin.com/in/pietrorosa77)'
   reports_to: engineering_manager_cloud_saas
   description: Pietro lives in a small city called [Rovigo](https://goo.gl/maps/bFK7n4quTGk5MJBu7) in Italy with his wife and 2 kids. Pietro previously worked in Microsoft, Auth0 and NearForm as a senior full stack engineer. He loves playing football ⚽ (nowadays only 5 aside letting the ball doing most of the job...), hiking 🥾 and wild mushrooms gathering 🍄.
+
+lindsay_murphy:
+  name: Lindsay Murphy
+  email: lindsay.murphy@sourcegraph.com
+  reports_to: director_product_marketing
+  github: lindsaykmurphy
+  pronouns: she/her
+  role: Customer Marketing Lead
+  links: '[LinkedIn](https://www.linkedin.com/in/lindsaynolan-mba/)'
+  location: Hudson, MA, USA 🇺🇸
+  description: Lindsay lives in Hudson, MA with her husband and dog, Toro. Outside of work she loves traveling around the world, planning trips for family and friends, drinking copious amounts of coffee, and trying out new recipes in the kitchen.
