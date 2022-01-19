@@ -26,7 +26,11 @@ Unfortunately, we cannot legally provide personal financial or tax advice. Pleas
 
 ### Are there any non-standard liquidity preferences (anything greater than 1x) on the preferred shares?
 
-Unfortunately, we cannot answer this question publicly due to confidentiality provisions in our fundraising agreements. Sourcegraph teammates, however, can find the answer at https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs.
+Unfortunately, we cannot answer this question publicly due to confidentiality provisions in our fundraising agreements. Sourcegraph teammates, however, can find the answer at [Sourcegraph Stock Options FAQ](https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs).
+
+### Is there a good primer to learn the basics of equity?
+
+Carta offers an [Equity Education Center](https://carta.com/equity/) that teammates who are new to equity have found helpful. 
 
 ### How much time do I have to exercise the stock options that have vested if I leave?
 
