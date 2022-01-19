@@ -21,24 +21,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
-
-- [Brielle Collins](../../team/index.md#brielle-collins), Manager
-  - [Gabe Torres](../../team/index.md#team#gabe-torres)
-  - [Kelvin Lee](../../team/index.md#kelvin-lee)
-  - [Mariam Adedeji](../../team/index.md#mariam-adedeji)
-  - [Michael Bali](../../team/index.md#michael-bali)
-  - [Riana Shahid](../../team/index.md#riana-shahid)
-  - [Warren Gifford](../../team/index.md#warren-gifford)
-  - TBH
-- [Nonso Obiano](../../team/index.md#nonso-obiano), Manager
-  - [Alex Jean-Baptiste](../../team/index.md#alex-jean-baptiste)
-  - [Amber Furbush](../../team/index.md#amber-furbush)
-  - [Ben Gordon](../../team/index.md#team#ben-gordon)
-  - [Don Ellison](../../team/index.md#donavon-ellison)
-  - [Giselle Northy](../../team/index.md#giselle-northy)
-  - [Jason Harris](../../team/index.md#jason-harris)
-  - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa)
+{{generator:reporting_structure.director_customer_support}}
 
 More details about each team member in [our team READMEs](team/index.md).
 
