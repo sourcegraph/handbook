@@ -16,7 +16,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 **Here are our best practices for celebrating your teammate’s anniversaries:**
 
-Managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Fabiana Castellanos at fabiana@sourcegraph.com or brand@sourcegraph.com if Fabiana is not available. Please note the following:
+Managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack if Fabiana is not available. Please note the following:
 
 - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
 - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
