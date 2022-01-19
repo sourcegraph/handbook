@@ -21,7 +21,7 @@ We also sell add-on features that are at additional cost to the enterprise tier,
 The sources of truth for pricing are:
 
 - The public [pricing page](https://about.sourcegraph.com/pricing/)
-- the private [enterprise pricing spreadsheet](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
+- The private [enterprise pricing spreadsheet](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
 
 ## Philosophy
 
