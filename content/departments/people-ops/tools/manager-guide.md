@@ -131,10 +131,12 @@ When to complete this form?
   - title
   - compensation
   - manager
-  - becomes a manager.
-- If someone in your team is changing to a different team.
-- If you are planning to restructure your team or org.
-- If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
+  - becomes a manager
+
+- If someone in your team is changing to a different team
+- If you are planning to restructure your team or org
+- If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change)
+- If there is a structural change due to a manager taking parental leave
 
 ### Process for a Role Change
 
