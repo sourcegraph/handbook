@@ -25,11 +25,7 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 ## Medium-term
 
-## Values
-
-Our [values](../../company-info-and-process/values/index.md) are the principles and beliefs that help us achieve our [goals](../goals/index.md) and make our strategy real.
-
-## Use cases
+### Use cases
 
 We have identified five key use cases for our universal code search platform:
 
@@ -41,12 +37,12 @@ We have identified five key use cases for our universal code search platform:
 
 There are also several related resources:
 
-- [use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
+- [Use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
 - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
 - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
 - How we [work with use cases](working_with_use_cases.md)
 
-## Principles
+### Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
 - We want every developer, not just a specific niche audience, to use Sourcegraph.
@@ -85,24 +81,11 @@ Let's break that down:
 
 ### Target 5 specific use cases
 
-So far, we've been selling code search to companies that know they need code search. But most companies don't know they need code search or what problems it solves. Even power users don't know all the ways they could use code search.
-
-To overcome this, we'll market/design/develop/sell around specific use cases (mapped to our ideal customer profile, personas, and value drivers) that are immediately and obviously compelling to many more devs and companies:
-
-1. Developer onboarding & velocity
-1. [Code reuse](use_cases/code_reuse.md)
-1. [Code health](use_cases/code_health.md)
-1. [Fixing security vulnerabilities](use_cases/fixing_security_vulnerabilities.md)
-1. [Incident response](use_cases/incident_response.md)
+So far, we've been selling code search to companies that know they need code search. But most companies don't know they need code search or what problems it solves. Even power users don't know all the ways they could use code search. To overcome this, we'll market/design/develop/sell around five specific use cases that we'll target (mapped to our ideal customer profile, personas, and value drivers) that are immediately and obviously compelling to many more devs and companies.
 
 Some customers already use Sourcegraph for these use cases by stitching together our product capabilities in novel ways. That's great for those particularly industrious customers, but we want the use cases to feel so obvious and natural to every user, which will require a lot of product and engineering work. This is not just a marketing/positioning/pitching exercise.
 
-> More links related to the use cases:
->
-> - [use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
-> - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
-> - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
-> - How we [work with use cases](working_with_use_cases.md)
+See [above](#use-cases) on this page for the complete list of use cases and supporting links.
 
 ### Iterate with existing customers first
 
