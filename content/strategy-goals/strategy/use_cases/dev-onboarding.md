@@ -1,4 +1,4 @@
-# Developer onboarding & velocity use case
+# Developer onboarding
 
 ## Why
 
