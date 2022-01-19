@@ -22,6 +22,7 @@ As we scale our team and our customer list, we need help with all of the applica
 - [Okta SSO Implementation](tools/Okta.md)
 - [Internal Security](process/internal_security.md)
 - [Vendr](tools/Vendr/index.md)
+- [Computer Setup](tools/computer_setup.md)
 
 ## Team
 
