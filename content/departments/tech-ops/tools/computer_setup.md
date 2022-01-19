@@ -14,7 +14,7 @@ VMWare’s Carbon Black is an antivirus software that we are deploying to Source
 
 **What you can do prior to Workspace One Enrollment**:
 
-If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](tech-ops/process/internal_security.md).
+If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](tech-ops/process/internal_security.md)
 
 **How to Enroll in Workspace One for MacOS and Windows**
 
