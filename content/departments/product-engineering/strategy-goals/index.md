@@ -2,7 +2,7 @@
 
 ## FY23
 
-[Our top-level company strategy for next year is a work-in-progress](https://docs.google.com/document/d/11ot7RoJ18mmjeP8Zb4TJMJsdQf5ZmGErkPq1VDW80d4/edit#).
+[Company strategy for FY23](../../../strategy-goals/strategy/index.md#this-year-fy23)
 
 ## FY22 Q4
 
