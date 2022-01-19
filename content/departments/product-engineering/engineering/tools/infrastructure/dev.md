@@ -5,7 +5,7 @@ All [internal infrastructure](./index.md) is developed and deployed with infrast
 - General infrastructure: [`sourcegraph/infrastructure`](https://github.com/sourcegraph/infrastructure)
 - [Sourcegraph instances](../../process/deployments/instances.md): [`deploy-sourcegraph-*` repositories](https://sourcegraph.com/search?q=context:%40sourcegraph+repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-.*+-repo:deploy-sourcegraph%24+-repo:deploy-sourcegraph-docker%24&patternType=literal)
 
-## Testing
+## Testing <span class="badge badge-note">SOC2/GN-105</span>
 
 ### Internal infrastructure
 
