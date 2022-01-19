@@ -128,6 +128,7 @@ If you have any questions, please contact #people-ops in Slack or send an email 
 When to complete this form?
 
 - If someone in your team has a change in:
+
   - title
   - compensation
   - manager
