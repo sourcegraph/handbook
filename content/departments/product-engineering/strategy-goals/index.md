@@ -35,6 +35,15 @@ Here's how things will look a year from now:
 - Share underlying capabilities: We will build solutions that enable a 10x improvement in these areas by building on our code search, navigation, and large-scale changesets capabilities, and our ability to integrate context from best-in-class third-party tools through our open extension API. Users should be able to leverage these capabilities consistently wherever they choose to use Sourcegraph: in the webapp, on their code host, in their editor, on the command line, or through the API.
 - Low-friction adoption: We must bring to maturity our two delivery modes of self-hosted and cloud to minimize adoption friction and ensure we meet customers' reliability, security, and compliance needs. No product, however great the feature set, is useful if a customer is unable to use it for any of these reasons.
 
+## Examples of what we're NOT building
+
+- It is often useful, in order to clarify our focus, to call out certain things that we *could* but *won't* build.
+- Major features that don't address any of the 5 use cases
+- Major features that we can’t iterate on with existing customers
+- Code search for every public repository on GitHub
+- A code host
+- An IDE (cloud or otherwise)
+
 ## Competitive philosophy
 
 One difference between this year and last is that we anticipate more competition. The world is starting to come around to the value of code search, so it's natural there will be more competitive interest. Some of these competitors will be larger and may have a distribution advantage (e.g., GitHub/Microsoft). Others will be smaller with innovative approaches in product, technology, or marketing. A few things to call out in our approach:
