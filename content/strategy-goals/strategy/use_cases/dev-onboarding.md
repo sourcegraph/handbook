@@ -1,7 +1,9 @@
 # Developer onboarding
+
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
 
 ## Why this is important
+
 <!-- Beyond imagining a future in the above section, talk more about why this future is important and why we are going after it. -->
 
 One of the fundamental principles of developer onboarding and velocity relates to confidence, and confidence comes from understanding. There are many other factors that form part of the overall effectiveness of developer onboarding and velocity, however, as far as what Sourcegraph’s role is in relation to it, we will constrain it to the idea of understanding code.
@@ -18,11 +20,13 @@ If we unpack this a bit further, understanding relates to:
 This kind of understanding is central to both onboarding and velocity, and research shows that revenue growth among companies who invest in the velocity of their developers see revenue growth upto 4-5 times faster than those who don’t.
 
 ## Overall vision
+
 <!-- Convey what things will be like in the future for your use case, being as descriptive as you can to help someone understand where we are headed with our vision. -->
 
 Sourcegraph anchors onboarding inside engineering organizations and enables engineers to dive into unfamiliar code and get to "first bug fix or feature" quickly. With Soucegraph integrated in the developers workflow they see increased velocity in their work over their peers that do not integrate Sourcegraph in their workflow.
 
 ## How we solve this today
+
 <!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. This is perhaps the most important single section in this document, so don't be afraid to add too much - if you feel this section is getting long, consider summarizing here and linking out to other pages in the handbook with details. -->
 
 Today we do not specifically focus on solving this problem, however we know from speaking with existing customers they use Sourcegraph to enhance developer onboarding & velocity. Below are two case studies further elaborating these notions.
@@ -39,6 +43,7 @@ Despite the lack of deliberate focus on solving this problem, the following are 
 - For our new developers, Sourcegraph has been invaluable to get to know the repository structure, to track down where code lives, and self-service during their investigations.
 
 ## Who benefits
+
 <!-- Link to the personas that relate to this use case, and describe briefly how it benefits each of them (the real detail is in the above section, so be sure not to repeat yourself here; speak in generalities for each persona in this section.) -->
 
 [Developer](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0)
@@ -60,7 +65,10 @@ Despite the lack of deliberate focus on solving this problem, the following are 
 - Help surface best practices across the team
 
 - Help surface best practices across the team
+
 ## Additional resources
+
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
+
 - [Use case index](../index.md#use-cases)
--- [Productboard developer onboarding & velocity (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482294/detail)
+  -- [Productboard developer onboarding & velocity (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482294/detail)
