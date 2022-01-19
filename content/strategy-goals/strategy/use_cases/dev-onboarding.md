@@ -33,7 +33,7 @@ Today we do not specifically focus on solving this problem, however we know from
 
 [Convoy improved on-boarding](https://about.sourcegraph.com/case-studies/convoy-improved-on-boarding/)
 
-[Indeed accelrates developmeent velocity](https://about.sourcegraph.com/case-studies/indeed-accelerates-development-velocity/)
+[Indeed accelerates development velocity](https://about.sourcegraph.com/case-studies/indeed-accelerates-development-velocity/)
 
 Despite the lack of deliberate focus on solving this problem, the following are real, anonymized quotes from customers today on how we’re already helping them with this use case:
 
