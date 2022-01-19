@@ -7,7 +7,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 ## Resources for Candidates
 
 - [Careers page & open positions](tools/resources_for_candidates.md#how-to-apply)
-- [Internship Program] COMING SOON
+- [Internship Program](internship-program.md)
 - [Company values](tools/resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](tools/resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](tools/resources_for_candidates.md)
@@ -37,7 +37,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
   - [Scheduling an interview](process/interview_process.md)
   - [Interviewing internal candidates](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
+  - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
 - [Extending an offer](process/extending_an_offer.md)
   - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
@@ -59,10 +59,10 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Peer interview](process/types_of_interviews.md#peer-interview)
   - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
   - [Values interview](process/evaluating_values.md)
-  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
+  - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
 - [Recruiting Tools](process/index.md#recruiting-tools)
-- [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
-- [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
@@ -107,7 +107,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-- [Internship Program] COMING SOON
+- [Internship Program](internship-program.md)
 
 ## Talent Team Members
 
