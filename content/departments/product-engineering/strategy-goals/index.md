@@ -37,7 +37,7 @@ Here's how things will look a year from now:
 
 ## Examples of what we're NOT building
 
-- It is often useful, in order to clarify our focus, to call out certain things that we *could* but *won't* build.
+- It is often useful, in order to clarify our focus, to call out certain things that we _could_ but _won't_ build.
 - Major features that don't address any of the 5 use cases
 - Major features that we can’t iterate on with existing customers
 - Code search for every public repository on GitHub
