@@ -41,7 +41,6 @@ Welcome to Engineering!
     <iframe class="embed-responsive-item" src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4" allowfullscreen="" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
 </div>
 
-
 ## Org chart
 
 - [How engineering is organized](team/index.md).
