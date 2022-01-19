@@ -30,7 +30,7 @@ Unfortunately, we cannot answer this question publicly due to confidentiality pr
 
 ### Is there a good primer to learn the basics of equity?
 
-Carta offers an [Equity Education Center](https://carta.com/equity/) that teammates who are new to equity have found helpful. 
+Carta offers an [Equity Education Center](https://carta.com/equity/) that teammates who are new to equity have found helpful.
 
 ### How much time do I have to exercise the stock options that have vested if I leave?
 
