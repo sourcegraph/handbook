@@ -38,7 +38,7 @@ I like to get started early in the day, I find myself energized in the morning a
 
 ## Feelings to receiving messages outside work hours
 
-I don't mind, unless it is absolutley urgent I probalbly wont respond. Actively working on my work/personal life balance.
+I most likey will not respond until the next working day. I am actively working on my work/personal life balance.
 
 ## How to show up when I'm feeling off
 
@@ -70,7 +70,7 @@ Mice
 
 ## How I eat fries
 
-I like soft fries with cajun seasoning and cheese sauce.
+I like shoestring fries with cajun seasoning and cheese sauce.
 
 ## Sun, moon, and rising signs
 
