@@ -1,8 +1,8 @@
-As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](tech-ops/process/internal_secuirty.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats. 
+As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](tech-ops/process/internal_secuirty.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
 
-We are asking that all teammates work from their Sourcegraph computer and all Sourcegraph computers be enrolled with both Workspace One and Carbon Black in order to be compliant. 
+We are asking that all teammates work from their Sourcegraph computer and all Sourcegraph computers be enrolled with both Workspace One and Carbon Black in order to be compliant.
 
-If you are waiting to receive a Sourcegraph computer or if there has been some damage or circumstance where the machine in unavailable, you may use a personal device as a temporary solution, please skip to Minimum Security Requirements for Personal Device below. Additionally, we maybe able able to allocate a loaner Sourcegraph laptop for use use during this temporary period. Please reach out to Tech Ops for additional assistance. 
+If you are waiting to receive a Sourcegraph computer or if there has been some damage or circumstance where the machine in unavailable, you may use a personal device as a temporary solution, please skip to Minimum Security Requirements for Personal Device below. Additionally, we maybe able able to allocate a loaner Sourcegraph laptop for use use during this temporary period. Please reach out to Tech Ops for additional assistance.
 
 ### **Workspace One**
 
@@ -32,7 +32,7 @@ You will receive an email invite from **Airwatch** with steps on how to enroll i
 
 **How to Enroll in Workspace One for Linux device**
 
-Please reach out to Tech Ops for more information. 
+Please reach out to Tech Ops for more information.
 
 **Minimum Security Requirements for Personal Devices**
 
@@ -43,7 +43,7 @@ If using your personal device** temporarily** and you **do not** wish to install
 - You are following the [laptop setup standards](tech-ops/process/internal_security.md)
 - You have reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
-If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected. 
+If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
 
 **Removing Workspace One and Carbon Black from my personal computer**
 
