@@ -79,7 +79,13 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 
 ## Branded swag
 
-Requests for branded swag as internal gifts cannot be supported at this time. If you have any questions, please reach out to the People Ops team via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
+**Internal requests:**
+
+- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. People Ops will revisit solutions late in FY23 when the team has bandwidth. If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
+
+**External requests:**
+
+- Requests for branded swag for external use can be fulfilled by following [these instructions](../../departments/marketing/brand/gifting_guidelines.md#branded-swag) on the Gifting Guidelines page.
 
 ## Sending gifts via mail
 
@@ -89,4 +95,4 @@ _Happy celebrating!_
 
 ---
 
-For any additional questions, feel free to reach out to *people-ops@sourcegraph.com* or the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel.
+For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel.
