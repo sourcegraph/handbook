@@ -85,7 +85,7 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 
 **External requests:**
 
-- Requests for branded swag for external use can be fulfilled by following [these instructions](https://handbook.sourcegraph.com/departments/marketing/brand/gifting_guidelines#branded-swag) on the Gifting Guidelines page.
+- Requests for branded swag for external use can be fulfilled by following [these instructions](../../departments/marketing/brand/gifting_guidelines.md#branded-swag) on the Gifting Guidelines page.
 
 ## Sending gifts via mail
 
