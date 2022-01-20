@@ -1,4 +1,4 @@
-As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](tech-ops/process/internal_secuirty.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
+As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](../process/internal_security.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
 
 We are asking that all teammates work from their Sourcegraph computer and all Sourcegraph computers be enrolled with both Workspace One and Carbon Black in order to be compliant.
 
@@ -18,7 +18,7 @@ VMWare’s Carbon Black is an antivirus software that we are deploying to Source
 
 **What you can do prior to Workspace One Enrollment**:
 
-If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](tech-ops/process/internal_secuirty.md)
+If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](../process/internal_security.md) 
 
 **How to Enroll in Workspace One for MacOS and Windows**
 
@@ -36,11 +36,11 @@ Please reach out to Tech Ops for more information.
 
 **Minimum Security Requirements for Personal Devices**
 
-If you are waiting for the arrival of your Sourcegraph laptop, or there is an issue with your current Sourcegraph laptop, and need to use your personal machine temporarily, please reach out the #it-tech-ops Slack channel to get an additional enrollment invitation to Workspace One and Carbon Black. You may enroll this solution on as many deices as necessary to ensure our company and client data is protected.
+If you are waiting for the arrival of your Sourcegraph laptop, or there is an issue with your current Sourcegraph laptop, and need to use your personal machine temporarily, please reach out the #it-tech-ops Slack channel to get an additional enrollment invitation to Workspace One and Carbon Black. You may enroll this solution on as many devices as necessary to ensure our company and client data is protected.
 
-If using your personal device** temporarily** and you **do not** wish to install Workspace One, please ensure that you are doing the following:
+If using your personal device **temporarily** and you **do not** wish to install Workspace One, please ensure that you are doing the following:
 
-- You are following the [laptop setup standards](tech-ops/process/internal_security.md)
+- You are following the [laptop setup standards](../process/internal_security.md)
 - You have reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
 If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
