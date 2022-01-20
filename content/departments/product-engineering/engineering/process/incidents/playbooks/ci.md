@@ -13,7 +13,7 @@ This page lists common failures scenarios and provide a step by step guide to ge
 In order to handle problems with the CI, the following elements are necessary:
 
 1. Have access to the `sourcegraph-ci` _project_ on Google Cloud Platform.
-  1. Ask #it-tech-ops for access if you do not have access.
+1. Ask #it-tech-ops for access if you do not have access.
 1. Have the `gcloud` CLI installed.
 1. Have the `kubectl` CLI installed.
 1. [Gained access to the CI cluster by authenticated against it with `gcloud` and `kubectl`](../../deployments/debugging/tutorial.md#ci-cluster).
