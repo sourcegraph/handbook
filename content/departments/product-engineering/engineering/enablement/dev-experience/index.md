@@ -4,12 +4,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Members
 
-- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Kristen Stretch](../../../../../team/index.md#kristen-stretch) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [JH Chabran](../../../../../team/index.md#jh-chabran)
-  - [Robert Lin](../../../../../team/index.md#robert-lin)
-  - [Dave Try](../../../../../team/index.md#dave-try)
-  - [Marek Zaluski](../../../../../team/index.md#marek-zaluski)
+{{generator:product_team.dev_experience}}
 
 ## [Strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
 
@@ -29,6 +24,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
+  - [Sentry project](https://sentry.io/organizations/sourcegraph/issues/?project=6110304) for the CI pipeline.
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
     - [`sg` hack hour](#sg-hack-hour)
@@ -120,3 +116,8 @@ TODO
 ## Tech stack
 
 TODO
+
+### Internal resources
+
+- Tools and languages updates feed is available in #dev-experience-notification
+- GitHub issues and pull-requests feed is available in #dx-github-feed

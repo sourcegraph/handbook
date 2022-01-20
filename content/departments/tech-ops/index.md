@@ -27,8 +27,7 @@ As we scale our team and our customer list, we need help with all of the applica
 
 ### Members
 
-- [Maureen Loughrey](../../team/index.md), Tech Operations Engineer
-- [Nicky Van Maanen](../../team/index.md#nicky-van-maanen), Tech Operations Manager
+{{generator:reporting_structure.tech_ops_manager}}
 
 ### Roles
 

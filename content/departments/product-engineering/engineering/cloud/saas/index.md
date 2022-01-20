@@ -66,15 +66,7 @@ The list below contains features and services that already exist, and the Cloud 
 
 ## Team
 
-- [Ryan Phillips](../../../../../team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
-- [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
-- [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles/index.md#engineering-manager)
-  - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
-  - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
-  - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
-  - P. R. (he/him) - starting 2022.01
-  - P-J L. (he/him) - starting 2022.01
-  - M. V. (she/her) - starting 2022.02
+{{generator:product_team.cloud_saas}}
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 
@@ -219,9 +211,10 @@ We review the [backlog of action items](https://sourcegraph.atlassian.net/browse
 
 To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. [Agile Poker Jira addon](https://marketplace.atlassian.com/apps/700473/agile-poker-for-jira-planning-estimation?tab=overview&hosting=cloud) is our tool of choice, and we are running our groomings session based on the following schedule:
 
-- Each Monday, the new async grooming session should be created within [Agile Poker app](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.spartez.jira.plugins.jiraplanningpoker__poker-project-page#!/board/11/sessions-management?type=async)
+- Each Monday, the new async grooming session should be created within [Agile Poker app](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.spartez.jira.plugins.jiraplanningpoker__poker-project-page#!/board/11/sessions-management?type=async).
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
-- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer
+- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
+- Each story point represents a single developer day.
 
 #### Team calendar
 
@@ -278,7 +271,7 @@ This section contains links to Cloud SaaS specific interview types.
 
 TBD
 
-## Useful Links
+## Useful links
 
 - [Cloud SaaS Team Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
 - [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)

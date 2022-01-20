@@ -20,7 +20,7 @@ If all of us happen to be outside of working hours when you need a tutorial, [wa
 
 ## Google Cloud Platform SDK/CLI
 
-To work with managed instances, you'll need acccess to Sourcegraph's Google Cloud Console and access to all managed instances therein. Reach out to Dax from distribution and request access to the "gcp-managed" group.
+To work with managed instances, you'll need acccess to Sourcegraph's Google Cloud Console and access to all managed instances therein. Reach out to #it-tech-ops to request access to the "gcp-managed" group.
 
 Next, you'll need to install the Google Cloud Platform (GCP) SDK locally. Instructions for doing so can be found [here](https://cloud.google.com/sdk/docs/install). Pay close attention to the troubleshooting tips in this link, as you are likely to run into a few minor snags along the way.
 
