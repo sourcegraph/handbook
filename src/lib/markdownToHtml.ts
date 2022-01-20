@@ -211,8 +211,11 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
-const replaceMatchedOrg = async (match: string, group1: string, group2: string): Promise<string> =>
+const replaceMatchedTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateReportingStructure(group2)
+
+const replaceMatchedProductTeam = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateTeamOrgChart(group2)
 
 const replaceAsync = async (
     markdown: string,
@@ -255,7 +258,8 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:product_teams_list}}/gi,
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
-        markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedOrg)
+        markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
+        markdown = await replaceAsync(markdown, /({{generator:product_team.)(\w+)(}})/gi, replaceMatchedProductTeam)
         markdown = markdown.replace(
             /{{generator:engineering_ownership}}/gi,
             await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())

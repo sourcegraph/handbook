@@ -36,7 +36,7 @@ The video below is a brief introduction to Code Intelligence at Sourcegraph expl
 
 ## Tech stack
 
-Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use SQLite databases to store data specific to a particular LSIF index and Postgres to store all other data.
+Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use Postgres databases to store data specific to a particular LSIF index and all other metadata.
 
 ## How we do technical hiring
 
@@ -88,17 +88,7 @@ Our team is growing and to help our new teammates have the best onboarding exper
 
 ## Members
 
-- [María Craig](../../../../../team/index.md#maría-craig) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Sara Lee](../../../../../team/index.md#sara-lee) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Owen Convey](../../..../../team/index.md#owen-convey) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#code-intelligence-eng}
-  - [Eric Fritz](../../../../../team/index.md#eric-fritz)
-  - [Noah Santschi-Cooney](../../../../../team/index.md#noah-santschi-cooney)
-  - [Ólafur Páll Geirsson](../../../../../team/index.md#Ólafur-Páll-Geirsson)
-  - [TJ DeVries](../../../../../team/index.md#tj-devries)
-  - [Chris Wendt](../../../../../team/index.md#chris-wendt)
-  - [Cesar Jimenez](../../../../../team/index.md#cesar-jimenez)
-  - [Varun Gandhi](../../../../../team/index.md#varun-gandhi)
-  - [Thorsten Ball](../../../../../team/index.md#thorsten-ball)
+{{generator:product_team.code_intelligence}}
 
 ## Ownership
 
