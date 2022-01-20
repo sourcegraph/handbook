@@ -1,3 +1,5 @@
+# Computer Setup
+
 As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](../process/internal_security.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
 
 We are asking that all teammates work from their Sourcegraph computer and all Sourcegraph computers be enrolled with both Workspace One and Carbon Black in order to be compliant.
@@ -29,6 +31,15 @@ You will receive an email invite from **Airwatch** with steps on how to enroll i
 3. You should then be prompted for your Okta credentials.
 4. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer as well as
 5. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
+
+**What Workspace One Hub will automatically install on the device**
+
+The Hub app will look for a certain set of applications on your computer and push them out automatically if they are not present, they are:
+- 1Password
+- Google Chrome
+- Carbon Black
+- Slack
+- Zoom
 
 **How to Enroll in Workspace One for Linux device**
 
