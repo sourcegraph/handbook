@@ -35,6 +35,7 @@ You will receive an email invite from **Airwatch** with steps on how to enroll i
 **What Workspace One Hub will automatically install on the device**
 
 The Hub app will look for a certain set of applications on your computer and push them out automatically if they are not present, they are:
+
 - 1Password
 - Google Chrome
 - Carbon Black
