@@ -18,7 +18,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 - Managers can send anniversary gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
-  - Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack if Cecily is not available. **Please note** there are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
+  - Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or if Cecily is not available, the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note** there are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
 
 - In addition to anniversary gifts, managers can create [Kudoboards](https://www.kudoboard.com/) for their direct reports to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
 
