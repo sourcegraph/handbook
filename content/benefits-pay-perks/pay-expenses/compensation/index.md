@@ -83,7 +83,7 @@ As a note, our [Impact reviews](../../../departments/people-ops/process/impact-r
 
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department. 
+Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department.
 
 - [Sales compensation bands (last updated 2022-01-07)](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
