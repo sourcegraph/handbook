@@ -21,19 +21,20 @@ The following are mechanisms we use to stay in sync. We favor asynchoronous mech
 
 ## Support
 
-We use a weekly support rotation to provide dedicated support for customers and avoid randomization for the rest of the team. There is always one engineer designated as the primary support owner for a week. 
+We use a weekly support rotation to provide dedicated support for customers and avoid randomization for the rest of the team. There is always one engineer designated as the primary support owner for a week.
 
-### Expectations 
+### Expectations
+
 The following are expectations for the support owner in a given week:
 
 1. Triaging and resolving support requests is your only priority for the week. Any and all project work is put on hold for the week.
 2. Monitor #repo-management and #ask-product-eng for inbound requests
-3. Aim to acknowledge all requests within 24 hours, even if the initial response is an indication that we don't have bandwidth to review it yet and will respond back at a future date. Add the GitHub issue to the Repo Management project with the Status "Support Issues". 
+3. Aim to acknowledge all requests within 24 hours, even if the initial response is an indication that we don't have bandwidth to review it yet and will respond back at a future date. Add the GitHub issue to the Repo Management project with the Status "Support Issues".
 4. Update the [Support Playbook](https://docs.google.com/document/d/1Ynx9YC2smJQUBE_iBHS4MAmFqPberWZ4YSK7TucP10s/edit) afer every issue
 5. Provide the incoming support owner with the status of all in-flight issues before their rotation begins (Monday morning is fine, asychronous updates are fine). Include the relative priority of all issues so the incoming support owner knows where to begin.
 6. Ask for help when you are stuck! Don't spend too much time trying to troubleshoot an issue, especially if it's high priority. Do your best, ask the team, resolve the issue, and then update the [Support Playbook](https://docs.google.com/document/d/1Ynx9YC2smJQUBE_iBHS4MAmFqPberWZ4YSK7TucP10s/edit) so we all know how to handle it next time.
-7. If you ever have 0 active support requests (woohoo!), use that time to improve something within our team. Adding/improving tests, updating documentation, fixing bugs, and otherwise improving what we own are all great things to spend time on. 
-8. If you ever have _too many_ support requests, leave a message in #repo-management-internal that you need help and cc Jordan and Dan. We will help triage and ask others to help if needed. 
+7. If you ever have 0 active support requests (woohoo!), use that time to improve something within our team. Adding/improving tests, updating documentation, fixing bugs, and otherwise improving what we own are all great things to spend time on.
+8. If you ever have _too many_ support requests, leave a message in #repo-management-internal that you need help and cc Jordan and Dan. We will help triage and ask others to help if needed.
 
 The rest of the team is _always_ available to help. While you might be the owner of support for a week, you are not alone.
 
