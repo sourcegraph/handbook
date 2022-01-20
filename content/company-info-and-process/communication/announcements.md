@@ -8,7 +8,9 @@ New teammates should post a message in #teammate-announce on their first day int
 
 ## Org changes
 
-If you or your team are planning any organizational changes– this includes promotions, title changes, team switches, reporting structure changes, team name changes, etc., please notify People Ops in advance of the change going into effect. Any change that affects the company org chart or someone's title should be communicated to People Ops by submitting the change via [this form](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) prior to announcement. People Ops will review the changes and make any necessary to any impacted systems. Note: Notifying People Ops of any org change is crucial to maintaining our HRIS/teammate database (BambooHR) up to date. Many key systems such as our Impact Review platform (Lattice), our PTO platform (Roots), and even our cost centers/budgeting all rely on our HRIS being accurate and up to date.
+If you or your team are planning any organizational changes– this includes promotions, title changes, team switches, reporting structure changes, team name changes, etc., please notify People Ops in advance of the change going into effect. Any change that affects the company org chart or someone's title should be communicated to People Ops by submitting the change via [this form](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) prior to announcement. People Ops will review the changes and make any necessary to any impacted systems. 
+
+**Important:** Notifying People Ops of any org change is crucial to maintaining our HRIS/teammate database (BambooHR) up to date. Many key systems such as our Impact Review platform (Lattice), our PTO platform (Roots), and even our cost centers/budgeting all rely on our HRIS being accurate and up to date.
 
 ## Promotions
 
