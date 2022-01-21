@@ -297,7 +297,7 @@ Finally, we would like you to start **shadowing** your team members during **on-
 
 Here you can find a list of questions asked by other team members during their onboarding. As a distributed, async-first team, our goal is to provide you with the answers to all these questions in an asynchronous form.
 
-If the answer is not available below, your buddy and the whole team will share the knowledge with you. We highly encourage you to contribute to this list and add tasks to our [Onboarding Improvements Jira epic](https://sourcegraph.atlassian.net/browse/CLOUD-236) to continuously improve the Cloud SaaS team domain knowledge database and onboarding process.
+If the answer is not available below, your buddy and the whole team will share their knowledge with you. We highly encourage you to contribute to this list and add tasks to our [Onboarding Improvements Jira epic](https://sourcegraph.atlassian.net/browse/CLOUD-236) to continuously improve the Cloud SaaS team domain knowledge database and onboarding process.
 
 - How Sourcegraph is designed? - Deep dive into our [architecture](https://docs.sourcegraph.com/dev/background-information/architecture)
 - On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the Cloud SaaS team?
