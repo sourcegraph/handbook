@@ -83,7 +83,7 @@ As a note, our [Impact reviews](../../../departments/people-ops/process/impact-r
 
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
+Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department.
 
 - [Sales compensation bands (last updated 2022-01-07)](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
@@ -99,7 +99,7 @@ If you would like access to these spreadsheets, please contact your manager or t
 
 Our compensation bands are brought together by the People Ops team from multiple inputs. The process is described below:
 
-- First, the People Ops team pulls raw benchmark data from Option Impact every 6 months. This data provides benchmarks for each level and position at multiple percentiles. We use the following criteria for filtering the data we pull from Option Impact:
+- First, the People Ops team pulls raw benchmark data from Option Impact. This data provides benchmarks for each level and position at multiple percentiles. We use the following criteria for filtering the data we pull from Option Impact:
   - Location: All US Regions
   - Industry: Enterprise
   - Founding Status: Non-Founders
