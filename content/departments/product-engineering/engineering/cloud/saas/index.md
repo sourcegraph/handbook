@@ -283,7 +283,7 @@ You will be exposed to a ton of new information - you will meet many people, rea
 
 We will give you more **ownership** and opportunities to make an impact. While learning will still be the central theme, you can expect more complex problems to solve. You will also get your **first project assigned**, requiring you to collaborate with other teams, think about planning, execution, risk management, technical design, and other factors.
 
-With the domain knowledge and business context you have acquired so far, it's an excellent opportunity to **start making an impact on the team**. We expect your honest **feedback** about our current processes, tooling, architecture, code base, product goals, etc. Please be [proactive in sharing your ideas](../../../../../company-info-and-process/values#high-agency) on how we can improve in the spirit of **continuous improvement**.
+With the domain knowledge and business context you have acquired so far, it's an excellent opportunity to **start making an impact on the team**. We expect your honest **feedback** about our current processes, tooling, architecture, code base, product goals etc. Please be [proactive in sharing your ideas](../../../../../company-info-and-process/values#high-agency) on how we can improve in the spirit of **continuous improvement**.
 
 #### Third month
 
