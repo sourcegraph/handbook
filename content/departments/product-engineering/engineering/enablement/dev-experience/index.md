@@ -45,9 +45,10 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 To collaborate, we use the following:
 
 - Internal team channel in #dev-experience-internal
-- [GitHub planning board](https://github.com/orgs/sourcegraph/projects/212)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
-- [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
+- [GitHub board](https://github.com/orgs/sourcegraph/projects/212) for [planning](#planning)
+  - This board automatically imports issues with the `dx` or `team/devx` labels
+- [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE) for [meeting](#meetings) notes and [planning](#planning) artefacts
 
 ### Meetings
 
@@ -65,6 +66,16 @@ There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host we
 When the hack hour starts, a meeting link will be posted in #dev-experience.
 
 To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
+
+### Planning
+
+Planning can include quarterly planning, project scoping, requirements gathering, RFC-writing, or any combination of the above.
+
+The DevX team uses GitHub issues with the [`team/devx` and `planning` labels](https://github.com/sourcegraph/sourcegraph/issues?q=sort%3Aupdated-desc+is%3Aissue+label%3Aplanning+label%3Ateam%2Fdevx) on our [GitHub board](https://github.com/orgs/sourcegraph/projects/212) to track any significant planning efforts.
+Loose documents, Slack discussions, [meetings](#meetings), etc. can be used, but they should all be captured within and/or linked from the relevant planning issue.
+This makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with robust planning efforts.
+
+Once a roadmap or scope has been finalized, the appropriate tasks should be created, consolidated under a [tracking issue](../../process/tracking_issues.md) where helpful.
 
 ### Support
 
