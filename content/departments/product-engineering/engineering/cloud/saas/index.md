@@ -317,7 +317,7 @@ If the answer is not available below, your buddy and the whole team will share t
 - [How do we fetch, sync, and enforce code host repository permissions?](https://docs.google.com/document/d/17xYmDqSfOUZuqwH8OA-mh0DRieZedA0JkHGffgvzSBw/edit#heading=h.kelnla4sqwyv)
 - How does subscription and license management work?
   Database schema overview
-- [How do we deal with incidents?](../../prcess/incidents)
+- [How do we deal with incidents?](../../process/incidents/index.md)
 - What is our on-call strategy?
 
 ## Useful links
