@@ -83,33 +83,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
 
 ## Members
 
-- [Kacie Jenkins](../../team/index.md#kacie-jenkins), VP of Marketing
-  - [Andy Schumeister](../../team/index.md#andy-schumeister), Director of Product Marketing
-    - [Alex Isken](../../team/index.md#alex-isken), Product Marketing Manager, Emerging Products
-    - [Victoria Yunger](../../team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
-    - Lindsay Murphy, Customer Marketing Lead
-  - [Erica Lindberg](../../team/index.md#erica-lindberg), Director of Content Strategy
-    - [Rebecca Dodd](../../team/index.md#rebecca-dodd), Senior Managing Editor
-    - [Nick Moore](../../team/index.md#nick-moore), Content Editor
-    - [Jenny Bergen](../../team/index.md#jenny-bergen), Manager, Content Marketing
-    - [Scott Bailey](../../team/index.md#scott-bailey), Technical Content Marketing Manager
-  - [Sarah Reece](../../team/index.md#sarah-reece), Director of Demand Generation
-    - Jake Sorensen, Programs Lead, Demand Gen Campaigns
-    - Olivia Simpson, Program Manager, Demand Gen Campaigns
-    - Rebecca Rissinger, Manager, Marketing Operations
-    - Adam Greenhalgh, Marketing Operations Analyst
-    - [Greg Bouton](../../team/index.md#greg-bouton), Senior Email & Automation Marketing Manager
-    - [Erica Freckelton](../../team/index.md#erica-freckelton), Senior Digital Marketing Manager
-    - [Fabiana Castellanos](../../team/index.md#fabiana-castellanos), Project Coordinator, Brand
-    - Jessie Char, Senior Manager, Events and Experiences
-  - [Samson Goddy](../../team/index.md#samson-goddy), Director of Community
-    - [Vanesa Ortiz](../../team/index.md#vanesa-ortiz), Community Advocate
-    - [Prosper Otemuyiwa](../../team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
-    - Amarachi Emmanuela Azubuike, Social Media Community Manager (contractor)
-    - [Erika Heidi](../../team/index.md#erika-heidi), Senior Developer Advocate
-    - We will be hiring developer advocates
-  - Amie Rotherham, Director of Global Communications
-    - [Kristen Sundberg](https://www.linkedin.com/in/kristensundberg/), Senior Manager, Social Media
+{{generator:reporting_structure.vp_marketing}}
 
 ## Open Roles
 

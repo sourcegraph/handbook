@@ -6,9 +6,11 @@ This document describes the standard procedures for how to make announcements to
 
 New teammates should post a message in #teammate-announce on their first day introducing themselves to the company! They can include pictures of themselves and/or loved ones, pets, hobbies, or anything else they choose.
 
-## Org structure changes
+## Org changes
 
-This includes, promotions, title changes, team switches, reporting structure changes, team name changes, etc. Any change that affects our org chart or someone's title should be communicated to People Ops prior to announcement. The manager in charge of the particular org change should first notify People Ops via #people-ops or people-ops@sourcegraph.com of the change so they can update any necessary systems (such as our HRIS, BambooHR), and then continue with a message announcing the change in #teammate-announce and any other relevant channels.
+If you or your team are planning any organizational changes– this includes promotions, title changes, team switches, reporting structure changes, team name changes, etc., please notify People Ops in advance of the change going into effect. Any change that affects the company org chart or someone's title should be communicated to People Ops by submitting the change via [this form](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) prior to announcement. People Ops will review the changes and make any necessary to any impacted systems.
+
+**Important:** Notifying People Ops of any org change is crucial to maintaining our HRIS/teammate database (BambooHR) up to date. Many key systems such as our Impact Review platform (Lattice), our PTO platform (Roots), and even our cost centers/budgeting all rely on our HRIS being accurate and up to date.
 
 ## Promotions
 

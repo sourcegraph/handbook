@@ -11,13 +11,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Members
 
-- [Dan Adler](../../team/index.md#dan-adler), VP Operations
-- [Eric Brody-Moore](../../team/index.md#eric-brody-moore), Business Operations Manager
-- [Farhan Attamimi](../../team/index.md#farhan-attamimi), Senior Data Operations Analyst
-- [Steph Hay](../../team/index.md#steph-hay), Senior Business Operations Analyst
-- [Kelsey Brown](../../team/index.md#kelsey-brown), Senior Business Operations Analyst
-- L.A. (starting 2022-02-07), Director of Data and Analytics
-- B.G. (starting 2022-01-10), Senior Data Analyst
+{{generator:reporting_structure.vp_operations}}
 
 ## Resources
 

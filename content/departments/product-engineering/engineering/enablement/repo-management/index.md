@@ -8,13 +8,7 @@ Our mission (which we do choose to accept) is to ensure that Sourcegraph’s mos
 
 ## Members
 
-- [Dan Mckeen](../../../../../team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Jordan Plahn](../../../../../team/index.md#jordan-plahn) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Ryan Slade](../../../../../team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../../../team/index.md#indradhanush-gupta)
-  - [Molly Weitzel](../../../../../team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../../../team/index.md#alexander-ostrikov)
-  - [Asdine El Hrychy](../../../../../team/index.md#asdine-el-hrychy)
+{{generator:product_team.repo_management}}
 
 ## Strategy
 

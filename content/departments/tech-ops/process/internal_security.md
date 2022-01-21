@@ -72,12 +72,6 @@ Do:
 - Create a password that is ideally 10 characters long
 - We recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
 
-## JAMF Policy
-
-We want all teammates who have Sourcegraph **Apple devices** to have their devices set up on Jamf Now. This way, in cases where a device is lost/stolen, we would have ability to wipe it remotely. (Jamf Now will only be used in these types of emergency circumstances.)
-
-1. Set Jamf up on your computer: Visit https://sourcegraph.jamfcloud.com and use the following access code: 121200 to get it set up on your device
-
 ## Zoom Retention Policy
 
 Sourcegraph will institute a 30-day Zoom cloud storage retention period. All Zoom recordings older than 30 days will be placed in the meeting host’s trash for an additional 30 days. After 30 days, the recordings will be permanently deleted. Due to issues of privacy and compliance, Zoom recordings should only be downloaded and kept beyond 30-days if there is an explicit business use for doing so. In the event that you need to download and store Zoom recordings Sourcegraph’s Google Drive should be used as the default location
