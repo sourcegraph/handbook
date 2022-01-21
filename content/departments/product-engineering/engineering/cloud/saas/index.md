@@ -314,7 +314,7 @@ If the answer is not available below, your buddy and the whole team will share t
 - What is the difference between login connection and code host connection? How do we authenticate and authorize users on the Cloud?
 - Authorization of GraphQL calls - how do we know the call was made by a legitimate user?
 - [How do we add repositories to Sourcegraph, and how does the repository state management work?](https://docs.google.com/document/d/1BS-gd3oU-sl3B2Mu6CoERl452kP7hlH1z1fbIBotXic/edit#heading=h.kelnla4sqwyv)
-- How do we fetch, sync, and enforce code host repository permissions?
+- [How do we fetch, sync, and enforce code host repository permissions?](https://docs.google.com/document/d/17xYmDqSfOUZuqwH8OA-mh0DRieZedA0JkHGffgvzSBw/edit#heading=h.kelnla4sqwyv)
 - How does subscription and license management work?
   Database schema overview
 - [How do we deal with incidents?](../../prcess/incidents)
