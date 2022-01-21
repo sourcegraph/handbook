@@ -291,7 +291,7 @@ Time is running fast, and you learned a lot. You feel productive and autonomous,
 
 We would like you to take the role of a **Directly Responsible Individual (DRI)** for a given project. DRIs are empowered and accountable for the success of the initiative they lead. The scope and complexity of the problem will depend on your seniority level. While you likely won't be the only person working on this project, it's up to you to make sure it gets done and that you have all resources necessary. Being a DRI might sound challenging and stressful, especially during your first months at Sourcegraph. Don't worry; your buddy, peers, and team's triad (Project Manager, Project Designer, and Engineering Manager) are here to help and support you. The goal is to give you the sense of responsibility, ownership, and experience of wearing different hats.
 
-Finally, we would like you to start **shadowing** your team members during **on-call rotation** and participate in responding to and resolving production incidents. This experience will prepare you for performing on-call duty once you finish your onboarding process. 
+Finally, we would like you to start **shadowing** your team members during **on-call rotation** and participate in responding to and resolving production incidents. This experience will prepare you for performing on-call duty once you finish your onboarding process.
 
 ### Questions that you might come up with during your onboarding
 
@@ -316,7 +316,7 @@ If the answer is not available below, your buddy and the whole team will share t
 - [How do we add repositories to Sourcegraph, and how does the repository state management work?](https://docs.google.com/document/d/1BS-gd3oU-sl3B2Mu6CoERl452kP7hlH1z1fbIBotXic/edit#heading=h.kelnla4sqwyv)
 - How do we fetch, sync, and enforce code host repository permissions?
 - How does subscription and license management work?
-Database schema overview
+  Database schema overview
 - [How do we deal with incidents?](../../prcess/incidents)
 - What is our on-call strategy?
 
