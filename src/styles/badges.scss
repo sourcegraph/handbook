@@ -1,0 +1,57 @@
+/*
+    Inline badges used in docs.sourcegraph.com
+
+    Mirrored from https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/_resources/assets/docsite.css
+*/
+:root {
+    --note-color: #bce8f1;
+    --warning-color: #faebcc;
+    --warning-badge-color: #f59f00;
+    --critical-badge-color: #f03e3e;
+    --experimental-color: #b200f8;
+    --feature-color: #38757f;
+    --beta-color: #72dbe8;
+}
+.badge {
+    /* Mirrored from product badge styles */
+    display: inline-block;
+    padding: 0.125rem 0.375rem;
+    line-height: 1rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: inherit;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+.badge-experimental {
+    color: #ffffff;
+    background-color: var(--experimental-color);
+}
+
+.badge-beta {
+    color: #000000;
+    background-color: var(--beta-color);
+    text-transform: uppercase;
+}
+
+.badge-feature {
+    color: var(--feature-color);
+    background-color: var(--note-color);
+}
+
+.badge-note {
+    color: #000000;
+    background-color: var(--note-color);
+}
+
+.badge-warning {
+    color: #ffffff;
+    background-color: var(--warning-badge-color);
+}
+
+.badge-critical {
+    color: #ffffff;
+    background-color: var(--critical-badge-color);
+}

@@ -1,5 +1,7 @@
 # Internal infrastructure
 
+Also see [internal infrastructure development](./dev.md).
+
 ## Sourcegraph deployments
 
 Internal deployments are documented in the [deployments](../../process/deployments/instances.md).

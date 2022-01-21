@@ -1,11 +1,11 @@
-# Internal Security
+# Internal security
 
 One of Sourcegraph's top-level principles is to keep our customers data private and secure . In the same way, maintaining the integrity and security of our
 internal data, employee information, and systems, is critical.
 
 To do that, we need to keep some basic security best-practices in mind:
 
-## Phishing/Spoofing
+## Phishing/spoofing
 
 Sourcegraph uses Google Workspace (Gmail) to host and manage all incoming and outbound email.
 
@@ -19,17 +19,17 @@ Enabled Spam Alerting features
 
 **Links and external images** - Identify links behind short URLs, scan linked images for malicious content, and display a warning when you click links to untrusted domains.
 
-**Spoofing and Authentication** - Protection against spoofing a domain name, employee names, email pretending to be from your domain, and unauthenticated email from any domain. Unauthenticated emails display a question mark next to the sender’s name.
+**Spoofing and authentication** - Protection against spoofing a domain name, employee names, email pretending to be from your domain, and unauthenticated email from any domain. Unauthenticated emails display a question mark next to the sender’s name.
 
-**Tech Ops Spam Procedures**
+**Tech Ops spam procedures**
 
 In addition to the settings outlined above, Sourcegraph recipients are also able to report suspected spam to their Google Workspace Admin.
 
 If a message is reported as spam, the Sourcegraph Tech Ops team will evaluate the reported message and add the sender to the Google Workspace list of “**Blocked Senders**”. This will prevent any further messages from that account from reaching the Sourcegraph domain.
 
-## Laptop Setup Standards
+## Laptop standards
 
-Below is a list of steps to ensure security and compliance for Sourcegraph devices. When setting up your Sourcegraph device please ensure the following steps have been completed.
+When setting up your Sourcegraph device please ensure the following steps have been completed to ensure security and compliance for Sourcegraph devices.
 
 1. Create a complex laptop password that meets our password requirements below.
 
@@ -48,9 +48,11 @@ Below is a list of steps to ensure security and compliance for Sourcegraph devic
 - [Enabling Firewall on MacOS](https://support.apple.com/guide/mac-help/block-connections-to-your-mac-with-a-firewall-mh34041/mac#:~:text=services%20and%20apps-,On%20your%20Mac%2C%20choose%20Apple%20menu%20%3E%20System%20Preferences%2C%20click,%26%20Privacy%20%2C%20then%20click%20Firewall.&text=pane%20for%20me-,If%20the%20lock%20at%20the%20bottom%20left%20is%20locked%20%2C%20click,the%20firewall%20for%20your%20Mac.)
 - [Enabling Firewall for Windows](https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f)
 
+Additionally, all machines should be set up with our MDM and antivirus software. Steps for setting up your computer are [here](../tools/computer_setup.md).
+
 If you run into any issues or have any questions about the above please reach out to the #it-tech-ops Slack Channel!
 
-## Password Requirements
+## Password requirements
 
 Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators so it is especially important to be thoughtful when selecting a password.
 
@@ -72,12 +74,6 @@ Do:
 - Create a password that is ideally 10 characters long
 - We recommend using a passphrase or sentence so it’s easier to remember and meet the above requirements! Example: HungryAnteaterAte1400Ants!
 
-## JAMF Policy
-
-We want all teammates who have Sourcegraph **Apple devices** to have their devices set up on Jamf Now. This way, in cases where a device is lost/stolen, we would have ability to wipe it remotely. (Jamf Now will only be used in these types of emergency circumstances.)
-
-1. Set Jamf up on your computer: Visit https://sourcegraph.jamfcloud.com and use the following access code: 121200 to get it set up on your device
-
-## Zoom Retention Policy
+## Zoom retention policy
 
 Sourcegraph will institute a 30-day Zoom cloud storage retention period. All Zoom recordings older than 30 days will be placed in the meeting host’s trash for an additional 30 days. After 30 days, the recordings will be permanently deleted. Due to issues of privacy and compliance, Zoom recordings should only be downloaded and kept beyond 30-days if there is an explicit business use for doing so. In the event that you need to download and store Zoom recordings Sourcegraph’s Google Drive should be used as the default location

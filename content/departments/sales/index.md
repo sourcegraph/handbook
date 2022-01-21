@@ -33,44 +33,7 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
-- [Gregg Stone](../../team/index.md#gregg-stone) (VP of Sales)
-- Amber Smokowski (Executive Business Partner, Sales and Marketing)
-- [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-  - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
-  - [Rob Dapaah](../../team/index.md#rob-dapaah) (Sr. Advisor, Value Engineering)
-- [Scott Campbell](../../team/index.md#scott-campbell) (Regional Director of East)
-  - [Kai Passo](../../team/index.md#kai-passo)
-  - [Bill Kolman](../../team/index.md#bill-kolman)
-  - [Eli Rothschild](../../team/index.md#eli-rothschild)
-  - [Caitlin Moran](../../team/index.md#caitlin-moran)
-  - [Brady Hermann](../../team/index.md#brady-herrmann)
-- [Greg Bastis](../../team/index.md#greg-bastis) (Regional VP of West)
-  - Mike Franko (Regional Director of Sales, West)
-  - [Owen Brennan](../../team/index.md#owen-brennan)
-  - [Chris Surdi](../../team/index.md#chris-surdi)
-  - Will Camp
-  - [Jon Kishpaugh](../../team/index.md#jon-kishpaugh)
-  - [James Clifford](../../team/index.md#james-clifford)
-  - [Natalie Khoury](../../team/index.md#natalie-khoury)
-  - [Rashad Bartholomew](../../team/index.md#rashad-bartholomew)
-  - [Cory Dobson](../../team/index.md#cory-dobson)
-- Prakash Durgani (Head of International Sales)
-  - Khoshal Wial
-  - Suki Randhawa
-  - Mike Shinn
-  - Luke Taylor
-- Nick Gage (Head of Sales Development)
-  - Brannon Rouse
-  - Carter Jaenichen
-  - Casi Neff
-  - Daniel Gwyn
-  - Ellie Dawson
-  - Jagna Feierabend
-  - Kevin Quigley
-  - Mark Muldez
-  - Sam Cregg
-- Joe Kirscher (Sales Strategy and Operations Manager)
-  - Seth Hoover (Salesforce Administrator and Developer)
+{{generator:reporting_structure.vp_sales}}
 
 ### Roles
 

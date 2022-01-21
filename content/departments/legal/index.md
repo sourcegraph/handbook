@@ -16,8 +16,7 @@ We take initiatives that improve all teammates’ experiences working with the l
 
 ### Members
 
-- [Tammy Zhu](../../team/index.md#tammy-zhu), Director of Legal
-- [Sam Jones](../../team/index.md#sam-jones), Senior Corporate & Commercial Counsel
+{{generator:reporting_structure.director_legal}}
 
 ### Roles
 
