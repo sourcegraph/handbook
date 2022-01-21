@@ -269,7 +269,7 @@ This section contains links to Cloud SaaS specific interview types.
 
 ### Onboarding goals and milestones
 
-Your onboarding will take up to three months. During this time, you should acquire the necessary domain knowledge and experience that will allow you to succeed in the role of [software engineer](../../roles#software-engineer) within your [seniority level](../../career-development/framework.md#levels). This process is a team effort, and your success depends not only on your actions but also on full support from your team and manager.
+Your onboarding will take up to three months. During this time, you should acquire the necessary domain knowledge and experience that will allow you to succeed in the role of [software engineer](../../roles#software-engineer) within your [seniority level](../../career-development/framework.md#levels). This process is a team effort, and your success depends not only on your actions, but also on full support from your team and manager.
 
 We are applying 30/60/90 day patterns and breaking down the onboarding process into three milestones, each with defined themes and outcomes to keep things organized and clarify what you should expect.
 
