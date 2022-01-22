@@ -5,9 +5,11 @@ The Tech Ops team helps implement, build, integrate, upgrade, and maintain all o
 Tech Ops is excited to announce that we will also be adding a compliance function to the team soon.
 
 ## Our Team
+
 {{generator:reporting_structure.tech_ops_manager}}
 
 ### Roles
+
 We are hiring for positions in Tech Ops! See our [careers page](https://boards.greenhouse.io/sourcegraph91) to see all roles.
 
 ## Goals
@@ -15,7 +17,7 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 - Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](tools/index.md))
 - Provide global support for all team members who need assistance with hardware and application support
 - Keep Sourcegraph’s internal systems secure and compliant with legal requirements while maintaining transparency
-- Provide processes 
+- Provide processes
 - Capture data so that we can identify gaps in our existing processes and common issues with our systems
 
 ### How we intend to get there
@@ -26,6 +28,7 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 - Maintain a comprehensive systems architecture and asset register
 
 ### Tools
+
 - [Okta SSO Implementation](tools/Okta.md)
 - [Vendr](tools/Vendr/index.md)
 - Workspace One & Carbon Black
@@ -34,4 +37,3 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 
 - [Internal Security](process/internal_security.md)
 - [Computer Setup](tools/computer_setup.md)
-
