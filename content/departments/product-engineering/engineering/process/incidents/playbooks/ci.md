@@ -6,7 +6,7 @@
 
 Sourcegraph's [continuous integration (CI)](https://docs.sourcegraph.com/dev/background-information/continuous_integration) is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
 
-This page lists common failures scenarios and provide a step by step guide to get the CI back in an operational state.
+This page lists common failure scenarios and provides a step by step guide to get the CI back in an operational state.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ In order to handle problems with the CI, the following elements are necessary:
 1. Ask #it-tech-ops for access if you do not have access.
 1. Have the `gcloud` CLI installed.
 1. Have the `kubectl` CLI installed.
-1. [Gained access to the CI cluster by authenticated against it with `gcloud` and `kubectl`](../../deployments/debugging/tutorial.md#ci-cluster).
+1. [Gain access to the CI cluster by authenticating against it with `gcloud` and `kubectl`](../../deployments/debugging/tutorial.md#ci-cluster).
 
 > NOTE: Optional, additional tips:
 >
