@@ -16,7 +16,7 @@ We care about the safety and comfort of everyone in our community, including col
 
 ## Team member philosophy
 
-If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#enforcement).
+If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#Raising concerns).
 
 Your ultimate success with Sourcegraph will be a function of your personal agency and the environment we create as a team. We want that environment to set you up for success and enable you to thrive while realizing your professional goals and dreams.
 
@@ -91,7 +91,7 @@ Our success depends on the trust we earn from customers, partners, and each othe
 
 We provide company resources for company business use.
 
-Personal use on company equipment such as laptops is fine as long as your use does not impede your work, disrupt our work environment, or break any laws. See our [Device usage and privacy policy](../../../departments/tech-ops/process/team_device_usage_privacy).
+Personal use on company equipment such as laptops is fine as long as your use does not impede your work, disrupt our work environment, or break any laws. See our [Device usage and privacy policy](../../../departments/tech-ops/process/team_device_usage_privacy.md).
 
 Any technology that you buy using Sourcegraph money or that you use to do work for Sourcegraph is subject to access by Sourcegraph at any time and subject to discovery in the event of litigation involving the company. Be mindful of what you put on your company equipment. Avoid putting any personal content that you would like to keep private.
 
@@ -99,7 +99,7 @@ Direct questions about the proper use of company resources to the Tech Ops Team 
 
 ### Protect confidential information of Sourcegraph, its customers, users, and other business partners
 
-We are an [open and transparent company](../../about-sourcegraph#sourcegraph-open-product-open-company-open-source). However, you still have a duty to protect confidential company information as well as nonpublic information entrusted to you by Sourcegraph employees, customers, and other business partners. Confidential and proprietary information includes nonpublic pricing, financial data, and customer information. See our [level of transparency chart](../../values#open-and-transparent).
+We are an [open and transparent company](../../about-sourcegraph#sourcegraph-open-product-open-company-open-source.md). However, you still have a duty to protect confidential company information as well as nonpublic information entrusted to you by Sourcegraph employees, customers, and other business partners. Confidential and proprietary information includes nonpublic pricing, financial data, and customer information. See our [level of transparency chart](../../values#open-and-transparent.md).
 
 If you receive customer or user data in your role, you must safeguard and treat such data with paramount care, including complying with our privacy policies, security commitments, and applicable data privacy laws.
 
