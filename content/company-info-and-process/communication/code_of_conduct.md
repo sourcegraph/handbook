@@ -91,7 +91,7 @@ Our success depends on the trust we earn from customers, partners, and each othe
 
 We provide company resources for company business use.
 
-Personal use on company equipment such as laptops is fine as long as your use does not impede your work, disrupt our work environment, or break any laws. See our [Device usage and privacy policy](https://handbook.sourcegraph.com/departments/tech-ops/process/team_device_usage_privacy).
+Personal use on company equipment such as laptops is fine as long as your use does not impede your work, disrupt our work environment, or break any laws. See our [Device usage and privacy policy](../../../departments/tech-ops/process/team_device_usage_privacy).
 
 Any technology that you buy using Sourcegraph money or that you use to do work for Sourcegraph is subject to access by Sourcegraph at any time and subject to discovery in the event of litigation involving the company. Be mindful of what you put on your company equipment. Avoid putting any personal content that you would like to keep private.
 
@@ -99,7 +99,7 @@ Direct questions about the proper use of company resources to the Tech Ops Team 
 
 ### Protect confidential information of Sourcegraph, its customers, users, and other business partners
 
-We are an [open and transparent company](https://handbook.sourcegraph.com/company-info-and-process/about-sourcegraph#sourcegraph-open-product-open-company-open-source). However, you still have a duty to protect confidential company information as well as nonpublic information entrusted to you by Sourcegraph employees, customers, and other business partners. Confidential and proprietary information includes nonpublic pricing, financial data, and customer information. See our [level of transparency chart](https://handbook.sourcegraph.com/company-info-and-process/values#open-and-transparent).
+We are an [open and transparent company](../../../company-info-and-process/about-sourcegraph#sourcegraph-open-product-open-company-open-source). However, you still have a duty to protect confidential company information as well as nonpublic information entrusted to you by Sourcegraph employees, customers, and other business partners. Confidential and proprietary information includes nonpublic pricing, financial data, and customer information. See our [level of transparency chart](../../../company-info-and-process/values#open-and-transparent).
 
 If you receive customer or user data in your role, you must safeguard and treat such data with paramount care, including complying with our privacy policies, security commitments, and applicable data privacy laws.
 
