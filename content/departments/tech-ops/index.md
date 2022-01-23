@@ -22,13 +22,13 @@ As we scale our team and our customer list, we need help with all of the applica
 - [Okta SSO Implementation](tools/Okta.md)
 - [Internal Security](process/internal_security.md)
 - [Vendr](tools/Vendr/index.md)
+- [Computer Setup](tools/computer_setup.md)
 
 ## Team
 
 ### Members
 
-- [Maureen Loughrey](../../team/index.md), Tech Operations Engineer
-- [Nicky Van Maanen](../../team/index.md#nicky-van-maanen), Tech Operations Manager
+{{generator:reporting_structure.tech_ops_manager}}
 
 ### Roles
 

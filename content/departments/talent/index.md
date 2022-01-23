@@ -37,7 +37,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
   - [Scheduling an interview](process/interview_process.md)
   - [Interviewing internal candidates](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
+  - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
 - [Extending an offer](process/extending_an_offer.md)
   - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
@@ -59,10 +59,10 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Peer interview](process/types_of_interviews.md#peer-interview)
   - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
   - [Values interview](process/evaluating_values.md)
-  - [Providing interview feedback](process/interview_process.md#providing-interview-feedback)
+  - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
 - [Recruiting Tools](process/index.md#recruiting-tools)
-- [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
-- [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
@@ -155,8 +155,8 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../team#dominique-dom-cole" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png"
-                alt="Picture with CTA: Join Us" style="background: transparent; width:128px;" />
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Dom-Bitmoji.jpg"
+                alt="Picture of Dom Cole" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Dom Cole</div>

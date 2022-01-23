@@ -4,12 +4,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Members
 
-- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Kristen Stretch](../../../../../team/index.md#kristen-stretch) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [JH Chabran](../../../../../team/index.md#jh-chabran)
-  - [Robert Lin](../../../../../team/index.md#robert-lin)
-  - [Dave Try](../../../../../team/index.md#dave-try)
-  - [Marek Zaluski](../../../../../team/index.md#marek-zaluski)
+{{generator:product_team.dev_experience}}
 
 ## [Strategy](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
 
@@ -25,12 +20,12 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx)
   - [Developer experience support](#support)
   - [Developer experience newsletter](./newsletter.md)
-- Continuous integration
-  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines) (also see [CI support responsibilities](#ci-support-responsibilities))
+- Continuous integration  (also see [CI support responsibilities](#ci-support-responsibilities))
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
+  - [Continuous integration infrastructure](../../tools/infrastructure/ci/index.md)
+  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
   - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
   - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
-  - [Sentry project](https://sentry.io/organizations/sourcegraph/issues/?project=6110304) for the CI pipeline.
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
     - [`sg` hack hour](#sg-hack-hour)
@@ -52,9 +47,10 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 To collaborate, we use the following:
 
 - Internal team channel in #dev-experience-internal
-- [GitHub planning board](https://github.com/orgs/sourcegraph/projects/212)
 - Daily updates via [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) to #dev-experience-updates
-- [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE)
+- [GitHub board](https://github.com/orgs/sourcegraph/projects/212) for [planning](#planning)
+  - This board automatically imports issues with the `dx` or `team/devx` labels
+- [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE) for [meeting](#meetings) notes and [planning](#planning) artefacts
 
 ### Meetings
 
@@ -72,6 +68,16 @@ There is a weekly `sg` hack hour that Thorsten Ball and the DevX team co-host we
 When the hack hour starts, a meeting link will be posted in #dev-experience.
 
 To learn more about contributing to `sg`, check out the [contribution guide](https://docs.sourcegraph.com/dev/background-information/sg#contributing-to-sg)!
+
+### Planning
+
+Planning can include quarterly planning, project scoping, requirements gathering, RFC-writing, or any combination of the above.
+
+The DevX team uses GitHub issues with the [`team/devx` and `planning` labels](https://github.com/sourcegraph/sourcegraph/issues?q=sort%3Aupdated-desc+is%3Aissue+label%3Aplanning+label%3Ateam%2Fdevx) on our [GitHub board](https://github.com/orgs/sourcegraph/projects/212) to track any significant planning efforts.
+Loose documents, Slack discussions, [meetings](#meetings), etc. can be used, but they should all be captured within and/or linked from the relevant planning issue.
+This makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with robust planning efforts.
+
+Once a roadmap or scope has been finalized, the appropriate tasks should be created, consolidated under a [tracking issue](../../process/tracking_issues.md) where helpful.
 
 ### Support
 
