@@ -20,7 +20,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
   - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx)
   - [Developer experience support](#support)
   - [Developer experience newsletter](./newsletter.md)
-- Continuous integration  (also see [CI support responsibilities](#ci-support-responsibilities))
+- Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
   - [Continuous integration infrastructure](../../tools/infrastructure/ci/index.md)
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
