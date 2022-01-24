@@ -39,6 +39,8 @@ Reach out for [content help](#content-help) for help if you're unsure.
 
 When naming your markdown file, use hyphens rather than underscores in place of spaces. For example: `some-page-name.md` instead of `some_page_name.md`.
 
+You can always change your page name later, so choose something that makes sense for now. If the content changes in the future, you can rename your page.
+
 ## Page structure and use of headings
 
 We don't currently have page templates for most areas of the handbook.
