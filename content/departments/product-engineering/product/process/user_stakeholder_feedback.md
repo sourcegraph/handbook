@@ -38,12 +38,12 @@ The product team can access recordings using [Chorus AI](https://chorus.ai/). Yo
 - **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 Other resources (internal only) the CE team owns:
+
 - The [product gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HH53EAG/view) tracks features that are impacting deals.
 - [Account overview dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HSnLEAW/view).
-- [Account plan documents](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) provide the business context for the accounts. 
+- [Account plan documents](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) provide the business context for the accounts.
 - [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC?usp=sharing) reflect what the latest state of the customers’ environment.
 - [Customer notes](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0?usp=sharing) are running notes from customer Chorus calls.
-
 
 ### Email lists
 
