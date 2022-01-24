@@ -81,14 +81,17 @@ We encourage you to read about the [different types of interviews](../process/ty
 # What to expect after an interview
 
 ### When you'll hear back
-- We do our best to provide a decision (whether we're moving forward or not moving forward) within 5 business days of the interview.  If you want an update on the status of your application, please email recruiting@sourcegraph.com
+
+- We do our best to provide a decision (whether we're moving forward or not moving forward) within 5 business days of the interview. If you want an update on the status of your application, please email recruiting@sourcegraph.com
 
 ### Sharing interview feedback
+
 We don't share specific reasons or feedback if we decide not to move forward in our hiring process with a candidate. It would be nice if we could give feedback like this, but we don't do this today. Why?
+
 - The written feedback that we collect during our interview process is intended for an internal audience. We don't ask our interviewers to spend time and effort packaging their feedback in a way that can be delivered directly to candidates.
 - Adequately summarizing all interview feedback for a candidate is challenging and time consuming. We choose to spend our time focusing on delivering developmental feedback to our existing teammates.
 - If any interviewer is asked by a candidate for interview feedback, they may respond with the following message:
-> I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it. 
+  > I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it.
 
 # Helpful links
 
