@@ -7,22 +7,28 @@ This page outlines recruitment branding tips and information to tell the story o
 
 We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages.
 
-### Posting Best Practices
+### Sharing to your personal platforms
 
-Below is information to reference when posting about Sourcegraph on your personal social platforms. Thank you for helping us attract and hire the best talent!
+Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent! 
 
-Linked In
+#### Linked In
+- Suggested copy options for LinkedIn:
+    * We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
+    * At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
+- If you're looking for other Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
+
+##### LinkedIn Posting Best Practices
 
 - Use this [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/) and our [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter) to understand recent best practices for sharing hiring initiatives on your LinkedIn Profile.
-- If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
-- Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well.
 - [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 
-Twitter
+#### Twitter
 
-- Coming Soon!
+- Suggest copy options for Twiter
+    * Click to tweet: https://ctt.ac/k23tL
+    * Click to tweet: https://ctt.ac/dxqE5
 
-Company content to share:
+#### Company content to share:
 
 - Sourcegraph Youtube, Blog, and Handbook content
 - [Sourcegraph Universal Code Search](https://www.youtube.com/watch?v=GQj5jXdON3A)
