@@ -8,7 +8,7 @@ _This page is most relevant to product team members. If you want to know how to 
 
 - [Tracking & sharing user & stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
   - [Sources of feedback](#sources-of-feedback)
-    - [Sales/CE feedback](#salesce-feedback)
+    - [Sales feedback](#salesce-feedback)
     - [CE feedback](#ce-feedback)
     - [Email lists](#email-lists)
       - [hi@sourcegraph.com](#hisourcegraphcom)
