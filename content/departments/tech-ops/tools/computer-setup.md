@@ -1,6 +1,6 @@
 # Computer setup
 
-As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](../process/internal-security.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
+As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](../process/internal-security/index.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
 
 We are asking that all teammates work from their Sourcegraph computer and all Sourcegraph computers be enrolled with both Workspace One and Carbon Black in order to be compliant.
 
@@ -52,7 +52,7 @@ If you are waiting for the arrival of your Sourcegraph laptop, or there is an is
 
 If using your personal device **temporarily** and you **do not** wish to install Workspace One, please ensure that you are doing the following:
 
-- You are following the [laptop setup standards](../process/internal-security.md)
+- You are following the [laptop setup standards](../process/internal-security/index.md)
 - You have reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
 If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
