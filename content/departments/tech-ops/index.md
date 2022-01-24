@@ -29,11 +29,12 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 
 ### Tools
 
-- [Okta SSO Implementation](tools/Okta.md)
+- [Okta SSO implementation](tools/Okta.md)
 - [Vendr](tools/Vendr/index.md)
 - Workspace One & Carbon Black
 
 ### Processes
 
-- [Internal Security](process/internal_security.md)
-- [Computer Setup](tools/computer_setup.md)
+- [Device usage & privacy](process/team_device_usage_privacy.md)
+- [Internal security](process/internal_security.md)
+- [Computer setup](tools/computer_setup.md)
