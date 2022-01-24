@@ -14,8 +14,10 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Types of interviews & sample questions](process/types_of_interviews.md)
   - [Sample interview questions](process/types_of_interviews.md)
   - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
-  - [Providing interview feedback]COMING SOON
-- [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
+  - [Providing interview feedback](tools/resources_for_candidates.md#sharing-interview-feedback)
+- [The offer process](process/extending_an_offer.md))
+  - [Reference checks](process/reference_check_questions.md)
+  - [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 
 ## Resources for Hiring Managers
 
@@ -51,7 +53,8 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 ## Resources for Teammates
 
-- [How to refer a candidate](process/index.md#making-a-referral)
+- [How to refer a candidate](process/identifying_candidates.md)
+  - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)  
 - [The interview process](process/interview_process.md)
   - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
