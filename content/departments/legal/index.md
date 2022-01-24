@@ -4,9 +4,9 @@ The legal team helps Sourcegraph grow responsibly.
 
 We provide high-quality legal advice to every team. High-quality legal advice at Sourcegraph is:
 
-- Practical - enables teams to make decisions
-- Efficient - timely and avoids being a bottleneck or slowing down decisions
-- Balanced - given in context and considers priorities, differing viewpoints, and competing interests
+- **Practical** - enables teams to make decisions
+- **Efficient** - timely and avoids being a bottleneck or slowing down decisions
+- **Balanced** - given in context and considers priorities, differing viewpoints, and competing interests
 
 We manage the company's legal risk by anticipating major legal risks and building mitigation plans. Legal risk includes lawsuits and investigations brought by a third party, which can be a customer, competitor, user, teammate, partner, vendor, or regulator. We enable teammates to identify and weigh legal risks, make informed decisions, and accept calculated risks.
 
@@ -16,8 +16,7 @@ We take initiatives that improve all teammates’ experiences working with the l
 
 ### Members
 
-- [Tammy Zhu](../../team/index.md#tammy-zhu), Director of Legal
-- [Sam Jones](../../team/index.md#sam-jones), Senior Corporate & Commercial Counsel
+{{generator:reporting_structure.director_legal}}
 
 ### Roles
 

@@ -81,16 +81,16 @@ As a next step, please:
 Interview process / hiring team:
 
 - [30m] [Recruiter screen](../process/types_of_interviews.md#recruiter-screen):
-- [30-60m] [Hiring Manager screen](../process/types_of_interviews.md#hiring-manager-screen):
+- [30–60m] [Hiring Manager screen](../process/types_of_interviews.md#hiring-manager-screen):
 - Assignment, if applicable:
 - In-depth Interview Stage:
   - [1h] [Resume Deep Dive](../process/types_of_interviews.md#resume-deep-dive):
   - [30m] Assignment review/working session, if applicable:
-  - [60-120m] Technical interview, if applicable:
-  - [30-60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-functional-team-collaboration-interview):
+  - [60–120m] Technical interview, if applicable:
+  - [30–60m] [Cross-functional Team collaboration interview](../process/types_of_interviews.md#cross-functional-team-collaboration-interview):
   - [30m] [Peer interview](../process/types_of_interviews.md#peer-interview):
 - [30m] [Values interview](../process/types_of_interviews.md#values-interview):
-- [15-30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview):
+- [15–30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview):
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
 
@@ -101,4 +101,12 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:
 
-**Step 5**: the Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
+**Step 5**: the **Recruiter** posts an announcement about the new role in #hiring. Example below:
+
+Hi team! We're excited to announce that we're kicking off a new search on the [department name] team. Please help us find candidates by spreading the word to your network and sending any referrals! And as always, we welcome internal applicants, too! If you're interested, talk to your Manager and follow [these steps](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams) in the Handbook.
+
+- Hiring Manager: @Hiring Manager name
+- Role: role title, hyperlinked to job description
+- What we're looking for: ask Hiring Manager to write a brief exciting description
+
+**Step 6**: the Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)

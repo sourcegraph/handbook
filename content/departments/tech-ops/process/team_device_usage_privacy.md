@@ -26,7 +26,7 @@ _Last updated 2021-01-05_
 - **Intolerance for violations**: Any teammate who accesses another teammate’s specific usage information without following the protocols above will permanently lose access to such data and potentially be terminated.
 - In the event of a major breach and/or a forensic exercise or if compelled by a regulator or court, we might have to provide device access to law enforcement authorities or third party entities. We will notify the user of that device within 72 hours of the access provided to those entities, unless otherwise prohibited by the entities.
 
-# Uncceptable use of company devices, systems, and networks
+# Unacceptable use of company devices, systems, and networks
 
 _This list is based on GitLab's [acceptable use policy](https://about.gitlab.com/handbook/people-group/acceptable-use-policy/) and has been modified_
 
@@ -41,6 +41,6 @@ Prohibited system and network activities include, but are not limited to, the fo
 - Using a Sourcegraph computing asset to procure or transmit material that is in violation of sexual harassment policies or that creates a hostile workplace.
 - Making fraudulent offers of products, items, or services originating from any Sourcegraph account.
 - Intentionally accessing data or logging into a computer or account that the team member is not authorized to access, or disrupting network communication, computer processing, or access.
-- Executing any form of network monitoring that intercepts data not intended for the team member’s or contractor's computer, except when troubleshooting networking issues for the benefit of GitLab.
+- Executing any form of network monitoring that intercepts data not intended for the team member’s or contractor's computer, except when troubleshooting networking issues for the benefit of Sourcegraph.
 - Circumventing user authentication or security of any computer host, network, or account used by Sourcegraph.
 - Forwarding of confidential business emails or documents to personal external email addresses.

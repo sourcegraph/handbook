@@ -1,4 +1,4 @@
-# Operational rotation - how do we provide support to other teams?
+# Operational rotation—how do we provide support to other teams?
 
 Our team works in biweekly iterations applying SCRUM principles. Each sprint has defined goals and fixed scope that the team has committed to deliver. We also need to support our customers and reply to different types of requests from other teams (for example, answering questions, reviewing and merging pull requests, or performing necessary maintenance tasks). While all of these (outside of the sprint) tasks are essential and could be urgent, we consider them interruption work because they are not part of currently planned sprint commitments.
 
@@ -20,5 +20,5 @@ We are establishing the **operational rotation** to predictably deliver sprint g
 - Hands off work in progress to the next team member who is starting operational rotation.
 - Share knowledge with the Customer Support team. Example:
   - Pair with Customer Support engineer(s) on current open customer support issues.
-  - Optionally (but highly recommended), record and add to the list [here](../../../support/process/enablement/debugging-tips.md).
+  - Optionally (but highly recommended), record and add to the list [here](../../../../support/process/enablement/debugging-tips.md).
 - Work on the team's technical debt items if there is free capacity.

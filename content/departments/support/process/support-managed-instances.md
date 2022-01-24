@@ -10,7 +10,7 @@ If you are an application engineer being trained to work with managed instances,
 
 ## Required access
 
-To fully access managed instances, follow these [docs](../../product-engineering/engineering/enablement/delivery/managed/index.md#access)
+To fully access managed instances, follow these [docs](../../product-engineering/engineering/cloud/delivery/managed/index.md#access)
 
 ## Set up a tutorial session
 
@@ -20,13 +20,13 @@ If all of us happen to be outside of working hours when you need a tutorial, [wa
 
 ## Google Cloud Platform SDK/CLI
 
-To work with managed instances, you'll need acccess to Sourcegraph's Google Cloud Console and access to all managed instances therein. Reach out to Dax from distribution and request access to the "gcp-managed" group.
+To work with managed instances, you'll need acccess to Sourcegraph's Google Cloud Console and access to all managed instances therein. Reach out to #it-tech-ops to request access to the "gcp-managed" group.
 
 Next, you'll need to install the Google Cloud Platform (GCP) SDK locally. Instructions for doing so can be found [here](https://cloud.google.com/sdk/docs/install). Pay close attention to the troubleshooting tips in this link, as you are likely to run into a few minor snags along the way.
 
 To check and see if you've installed the GCP SDK correctly, enter the command `gcloud version` in your terminal. It should return the current version of your SDK. If so, congratulations. You now have the ability to start up virtual machines for each managed instance, and begin debugging.
 
-Next, read the [managed instances operations](../../product-engineering/engineering/enablement/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
+Next, read the [managed instances operations](../../product-engineering/engineering/cloud/delivery/managed/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
 
 # Other important notes
 

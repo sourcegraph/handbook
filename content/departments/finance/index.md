@@ -6,10 +6,9 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ### Members
 
-- [Dan Adler](../../team/index.md#dan-adler), VP Operations
-- [Tommy O Donnell](../../team/index.md#tommy-o-donnell), Manager, Financial Planning & Analysis
-- [Kendrick Morris](../../team/index.md#kendrick-morris), Finance & Operations Analyst
-- [Keely Aguayo](../../team/index.md#keely-aguayo), Payroll Manager
+{{generator:reporting_structure.manager_financial_planning}}
+
+{{generator:reporting_structure.financial_controller}}
 
 ### Roles
 
@@ -48,10 +47,10 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ### Fiscal year 2022
 
-- **FY22 Q1**: 01 February, 2021 - 30 April, 2021
-- **FY22 Q2**: 01 May, 2021 - 31 July, 2021
-- **FY22 Q3**: 01 August, 2021 - 31 October, 2021
-- **FY22 Q4**: 01 November, 2021 - 31 January, 2022
+- **FY22 Q1**: 01 February, 2021–30 April, 2021
+- **FY22 Q2**: 01 May, 2021–31 July, 2021
+- **FY22 Q3**: 01 August, 2021–31 October, 2021
+- **FY22 Q4**: 01 November, 2021–31 January, 2022
 
 ### Sources of truth
 

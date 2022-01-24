@@ -3,13 +3,13 @@
 At Sourcegraph, we build universal code search for every developer and company so they can innovate faster.
 We help developers and companies, with billions of lines of code, create the software you use every day.
 
-<strong class="text-vivid-violet">Our brand is more than just our name and logo</strong> — it encompasses all the ways that we present ourselves
+<strong class="text-vivid-violet">Our brand is more than just our name and logo</strong>—it encompasses all the ways that we present ourselves
 as a company and team. It’s the quality of our services and products, the tone of our interactions with
 clients and collaborators, and the look and feel of our communications. These aspects, along with others,
 merge together to express who we are, what we do,
 and what we value.
 
-Everything defined in our brand guide — from typeface, to color, to texture — is carefully chosen to visually represent our brand and help communicate our voice, our vision, and our values.
+Everything defined in our brand guide—from typeface, to color, to texture—is carefully chosen to visually represent our brand and help communicate our voice, our vision, and our values.
 
 ## Contents
 

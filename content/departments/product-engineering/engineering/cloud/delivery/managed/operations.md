@@ -2,10 +2,11 @@
 
 Operations guides for [managed instances](./index.md).
 
-To upgrade a managed instance, see [managed instances upgrade process](upgrade_process.md).
-To create a managed instance, see [managed instances creation process](creation_process.md).
+- To upgrade a managed instance, see [managed instances upgrade process](upgrade_process.md).
+- To create a managed instance, see [managed instances creation process](creation_process.md).
+- To delete a managed instance, see [managed instances deletion process](delete_process.md).
 
-- [Managed instances operations](#managed-instances-operations)
+* [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
   - [Accessing the instance](#accessing-the-instance)
     - [SSH access](#ssh-access)
@@ -14,6 +15,7 @@ To create a managed instance, see [managed instances creation process](creation_
     - [Port-forwarding](#port-forwarding)
     - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
     - [Finding the external IPs](#finding-the-external-ips)
+    - [Resizing Disks](#resizing-disks)
   - [Instance technicalities](#instance-technicalities)
     - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
     - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
@@ -51,7 +53,7 @@ ssh_exchange_identification: Connection closed by remote host
 ERROR: (gcloud.beta.compute.ssh) [/usr/bin/ssh] exited with return code [255].
 ```
 
-This may be indicating that the VM is currently not running - check:
+This may be indicating that the VM is currently not running—check:
 
 ```sh
 $ gcloud beta compute instances list --project=sourcegraph-managed-$CUSTOMER
@@ -131,6 +133,35 @@ default-nat-manual-ip-1  $NAT_IP_TWO     EXTERNAL                    us-central1
 
 - `$GLOBAL_IP` is the IP address that `$CUSTOMER.sourcegraph.com` should point to, it is the address of the GCP Load Balancer.
 - `$NAT_IP_ONE` and `$NAT_IP_TWO` are the external IPs from which egress traffic from the deployment will originate from. These are the addresses from which Sourcegraph will access the customer's code host, and as such the customer will need to allow them access to e.g. their internal code host.
+
+### Resizing Disks
+
+Disk storage can be safely **increased** on managed instances at any time. Do not try to decrease the disk size - Terraform will destroy and recreate the disk causing data loss.
+
+To increase the disk size:
+
+1. Set up your [variables](upgrade_process.md#general-setup) as usual.
+1. Increase the value of `data_disk_size` in `terraform.tfvars` and run terraform apply
+1. Commit and push your changes:
+
+   ```sh
+   git add terraform.tfvars && git commit -m "$CUSTOMER: increase disk size"
+   git push origin HEAD
+   ```
+
+1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/working-with-persistent-disks#resize_pd) to resize the block storage. In most cases, the commands will look like:
+
+   ```sh
+   ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
+   ```
+
+   Then confirm the new size is visible:
+
+   ```sh
+   ../util/ssh-exec.sh "df -h /dev/sdb"
+   ```
+
+Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
 
 ## Instance technicalities
 

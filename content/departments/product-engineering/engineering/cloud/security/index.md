@@ -8,12 +8,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Members
 
-- [Diego Comas](../../../../../team/index.md#diego-comas)
-  - [André Eleuterio](../../../../../team/index.md#andré-eleuterio)
-  - [Mohammad Umer Alam](../../../../../team/index.md#mohammad-umer-alam)
-  - [Lauren Chapman](../../../../../team/index.md#lauren-chapman)
-  - [David Sandy](../../../../../team/index.md#david-sandy)
-  - FY2022 security engineer
+{{generator:product_team.security}}
 
 ## Contact
 
@@ -70,7 +65,7 @@ We're here to help so reach out to us at security@sourcegraph.com with any quest
 
 We're always happy for teams to [request security code reviews](secure-code-review.md).
 
-Security questionnaires for new and existing customers should [follow the process here](../../../../sales/process/salessecurity.md) - feel free to message us on #security too.
+Security questionnaires for new and existing customers should [follow the process here](../../../../sales/process/salessecurity.md)—feel free to message us on #security too.
 
 ### Questions and Support Requests
 
