@@ -99,7 +99,7 @@ Direct questions about the proper use of company resources to the Tech Ops Team 
 
 ### Protect confidential information of Sourcegraph, its customers, users, and other business partners
 
-We are an [open and transparent company](../../about-sourcegraph#sourcegraph-open-product-open-company-open-source.md). However, you still have a duty to protect confidential company information as well as nonpublic information entrusted to you by Sourcegraph employees, customers, and other business partners. Confidential and proprietary information includes nonpublic pricing, financial data, and customer information. See our [level of transparency chart](../../values#open-and-transparent.md).
+We are an [open and transparent company](../../about-sourcegraph.md#sourcegraph-open-product-open-company-open-source). However, you still have a duty to protect confidential company information as well as nonpublic information entrusted to you by Sourcegraph employees, customers, and other business partners. Confidential and proprietary information includes nonpublic pricing, financial data, and customer information. See our [level of transparency chart](../../values.md#open-and-transparent).
 
 If you receive customer or user data in your role, you must safeguard and treat such data with paramount care, including complying with our privacy policies, security commitments, and applicable data privacy laws.
 
