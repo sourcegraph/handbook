@@ -36,5 +36,5 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 ### Processes
 
 - [Device usage & privacy](process/team_device_usage_privacy.md)
-- [Internal security](process/internal_security.md)
-- [Computer setup](tools/computer_setup.md)
+- [Internal security](process/internal-security.md)
+- [Computer setup](tools/computer-setup.md)
