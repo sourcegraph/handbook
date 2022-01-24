@@ -54,7 +54,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 ## Resources for Teammates
 
 - [How to refer a candidate](process/identifying_candidates.md)
-  - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)  
+  - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)
 - [The interview process](process/interview_process.md)
   - [First time interviewer resources]COMING SOON
   - [Interview training & best practices](tools/interview_training.md)
