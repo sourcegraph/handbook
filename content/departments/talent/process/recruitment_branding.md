@@ -10,6 +10,7 @@ We post about hiring initiatives and Sourcegraph culture content on our company 
 Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin and Twitter profiles as well. Thank you for helping us attract and hire the best talent!
 
 ### Linked In
+
 - Copy options for LinkedIn
   - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
