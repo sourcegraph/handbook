@@ -178,7 +178,7 @@ export async function generateReportingStructure(starting_role) {
   let pageContent = ''
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
     if (teamMember.manager_role_slug === starting_role) {
-      pageContent += `- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
+      pageContent += `- [${String(teamMember.name)}](/company/team/index.md#${String(
         createValidTeamAnchor(teamMember.name)
       )}), ${String(teamMember.role)}\n`
     }
