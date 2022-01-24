@@ -9,12 +9,13 @@ We post about hiring initiatives and Sourcegraph culture content on our company 
 
 ### Sharing to your personal platforms
 
-Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent! 
+Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent!
 
 #### Linked In
+
 - Suggested copy options for LinkedIn:
-    * We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
-    * At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
+  - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
+  - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
 - If you're looking for other Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
 
 ##### LinkedIn Posting Best Practices
@@ -25,8 +26,8 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 #### Twitter
 
 - Suggest copy options for Twiter
-    * Click to tweet: https://ctt.ac/k23tL
-    * Click to tweet: https://ctt.ac/dxqE5
+  - Click to tweet: https://ctt.ac/k23tL
+  - Click to tweet: https://ctt.ac/dxqE5
 
 #### Company content to share:
 
