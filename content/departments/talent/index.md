@@ -155,8 +155,8 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../team#dominique-dom-cole" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png"
-                alt="Picture with CTA: Join Us" style="background: transparent; width:128px;" />
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Dom-Bitmoji.jpg"
+                alt="Picture of Dom Cole" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Dom Cole</div>
