@@ -43,7 +43,8 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | **Marketing**           | Messaging and positioning, buyer personas, content development and review, subject matter expertise, marketing campaigns and programs                                                                                                  | Given that many members of the marketing team are relatively new, we’ll figure this out together as we work on key initiatives that span across the entire marketing org.                                                                                    |
 
 ## Marketing launch calendar
-Add [this](https://calendar.google.com/calendar/u/0?cid=Y19wdjFza2M4MGkxdHNoMGNscW05aTdrNGlyc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar to your Google account for details on upcoming launches! 
+
+Add [this](https://calendar.google.com/calendar/u/0?cid=Y19wdjFza2M4MGkxdHNoMGNscW05aTdrNGlyc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar to your Google account for details on upcoming launches!
 
 ## Meet the team
 
