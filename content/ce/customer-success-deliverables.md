@@ -10,8 +10,8 @@ A document that pulls relevant information from other sources and combines with 
 
 A document, shared with the champion, that outlines both:
 
-* the onboarding plan
-* the agreed cadence of ongoing activities including training, business reviews, product updates, and other regular engagement activities and content release schedules.
+- the onboarding plan
+- the agreed cadence of ongoing activities including training, business reviews, product updates, and other regular engagement activities and content release schedules.
 
 There are default versions, according to each account tier.
 
@@ -27,10 +27,10 @@ A deck that will be used in the account kick-off meeting that contains a review 
 
 ### [Business Review Deck](https://docs.google.com/presentation/d/11iBp50mbtj-9Y8r9EVCsFeaYkdJ3lw3QmAsgi_SESa8/edit#slide=id.gaef7e6092b_0_10)
 
-A  document for the Business Review that lists:
+A document for the Business Review that lists:
 
-* Status of progress and metrics
-* Usage stats including recommendations on addressing low usage
-* Summary of roadmap and progress on features and issues
-* Current deployment status
-* Proposed deployment changes. This could be existing proposals (that are discussed in the meeting) or/and capture discussion points from the meeting on potential proposals
+- Status of progress and metrics
+- Usage stats including recommendations on addressing low usage
+- Summary of roadmap and progress on features and issues
+- Current deployment status
+- Proposed deployment changes. This could be existing proposals (that are discussed in the meeting) or/and capture discussion points from the meeting on potential proposals
