@@ -1,6 +1,8 @@
 # Security infrastructure playbooks
 
-Contains playbooks for GCP project deployments, GKE project deployments,
+Contains playbooks for GCP project deployments and GKE project deployments.
+
+⭐ AWS Instances MUST NOT hold ANY customer data.
 
 ## GKE deployment playbooks
 

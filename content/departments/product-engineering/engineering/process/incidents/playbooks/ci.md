@@ -4,28 +4,29 @@
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
-See also: [Continuous Integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration) in our product documentation.
+Sourcegraph's [continuous integration (CI)](https://docs.sourcegraph.com/dev/background-information/continuous_integration) is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
+
+This page lists common failure scenarios and provides a step by step guide to get the CI back in an operational state.
 
 ## Prerequisites
 
 In order to handle problems with the CI, the following elements are necessary:
 
-- Have access to the `sourcegraph-ci` _project_ on Google Cloud Platform.
-  - See [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75)
-- Have the CLI `gcloud` tool installed and have authenticated yourself.
-  - See [Gain access to the cluster](../../deployments/debugging/tutorial.md)
-- Have `kubectl` installed.
-  - 💡 You can set the default namespace to `buildkite` to avoid always appending the `-n buildkite` flag to `kubectl` commands.
-    - `kubectl config set-context --current --namespace=buildkite`
-  - (Optional) Install [K9s](https://k9scli.io) for easier interactions with the _pods_.
+1. Have access to the `sourcegraph-ci` _project_ on Google Cloud Platform.
+1. Ask #it-tech-ops for access if you do not have access.
+1. Have the `gcloud` CLI installed.
+1. Have the `kubectl` CLI installed.
+1. [Gain access to the CI cluster by authenticating against it with `gcloud` and `kubectl`](../../deployments/debugging/tutorial.md#ci-cluster).
 
-## Overview
-
-The CI is what enables us to feel confident when delivering our changes to our users, and is one of the key components enabling Sourcegraph to deliver quality software. While the DevX team is in charge of managing the CI as a tool, it is essential for every engineer to be able to unblock themselves if there is a problem in order be autonomous.
-
-This page lists common failures scenarios and provide a step by step guide to get the CI back in an operational state.
+> NOTE: Optional, additional tips:
+>
+> - 💡 You can set the default namespace to `buildkite` to avoid always appending the `-n buildkite` flag to `kubectl` commands.
+>   - `kubectl config set-context --current --namespace=buildkite`
+> - You can also use [k9s](https://k9scli.io) for easier interactions with the _pods_.
 
 ## Scenarios
+
+> NOTE: All scenario guides assume you have the appropriate [prerequisites](#prerequisites) set up.
 
 ### `buildchecker` has locked the `main` branch
 
