@@ -41,6 +41,10 @@ Team members using Velocity Global will receive an email invitation to our Expen
 
 Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](invoices.md). Once the expenses are approved, the full invoice can be paid.
 
+Starting February 15, 2022 we will be offering a physical Sourcegraph credit card (US based Mastercard) to our international teammates . We are hoping to be able to solve the tax implications around reimbursements for home office, professional development, travel, and other reimbursable expenses. You may request your card by filling up this [spreadsheet](https://docs.google.com/spreadsheets/d/1Hj9VbWMh4BiZdUPLJWSOWgz5784gOVJH9FXoY_YGDkQ/edit?usp=sharing). If you have any question, reach out to #expense-inquiries. 
+
+If you currently hold a Brex physical card, an Airbase physical card will be issued to replace it. Once you have a card you will be responsible for providing the correct expense categories in Airbase and uploading receipts for all purchases. Failure to do so after warnings will result in your card being cancelled. Items purchased on a company credit should not be added to invoices or expense reports. Note that these cards take 7 days to ship within the US and longer for international addresses. These cards are tied to a specific teammate rather than a specific vendor.
+
 ## Internet, phone, and wellness benefits
 
 - For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Expensify.
