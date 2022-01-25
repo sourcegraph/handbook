@@ -1,5 +1,7 @@
 # Code of conduct
 
+Last updated:  January 24, 2022
+
 Related: see "[Diversity, equity, and inclusion](dei.md)"
 
 The purpose of this Code is to promote responsible and ethical conduct in the way we run our business. We want this Code to help you respond to common ethical dilemmas and avoid pitfalls.
