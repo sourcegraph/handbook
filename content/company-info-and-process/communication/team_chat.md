@@ -12,6 +12,7 @@ Exceptions:
 - #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
 - #feedback retains messages indefinitely because it provides a good source of user testimonials.
 - #engaging-external-engineers retains indefinitely because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn't make sense to try to make this more organized.
+- #it-tech-ops retains messages indefinitely to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
 - #sales-prospecting retains indefinitely to support the education of new teammates about how to communicate with customers and prospects.
 - #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages indefinitely to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
 - #sales-resources retains messages indefinitely to serve as a library of quickly evolving sales collateral and tools.
