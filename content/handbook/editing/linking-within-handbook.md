@@ -14,10 +14,10 @@ If we are linking the Buddy program handbook page (handbook/people-ops/onboardin
 However, if we want to link the Buddy program handbook page to Engineering onboarding page (handbook/engineering/onboarding.md) we would need to use ../ to go back in the directory and then indicate the correct path: **../../engineering/onboarding.md**
 
 Example 2:
-I am on the [Code of conduct](../../company-info-and-process/communication/code_of_conduct.md)(handbook/content/company-info-and-process/communication/code_of_conduct.md). I want to link to a [specific section](../../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) of our (About Sourcegraph)[../about-sourcegraph/index.md] page. I will use the following path: **../about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source** Reasoning:
+I am on the [Code of conduct](../../company-info-and-process/communication/code_of_conduct.md) (handbook/content/company-info-and-process/communication/code_of_conduct.md). I want to link to a [specific section](../../company-info-and-process/about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) of our [About Sourcegraph](../../company-info-and-process/about-sourcegraph/index.md) page. I will use the following path: **../about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source**. Method:
 
-- I use one set of **../** to go from the **communication** folder (where the Code of conduct is) to the **comany-info-and-process** folder (where the About Sourcegraph page is).
-- I use **about-sourcegraph/index.md** because that is the file path. You can see "index" in the file path when you open or edit the file in GitHub.
+- I use one set of **../** to go from the **communication** folder (where the Code of conduct is) to the **company-info-and-process** folder (where the About Sourcegraph page is).
+- I add **about-sourcegraph/index.md** because that is the file path of the page I want to link to. You can see "index" in the file path when you open or edit the file in GitHub.
 - I add **#sourcegraph-open-product-open-company-open-source** using a **#** to indicate the specific section on the page to link to.
 
 **Why do we do this?**

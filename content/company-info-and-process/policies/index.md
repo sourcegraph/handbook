@@ -7,7 +7,7 @@
 - Access Control Policy
 - Asset Management Policy
 - Business Continuity and Disaster Recovery Plan
-- Code of Conduct
+- [Code of Conduct](../communication/code_of_conduct.md)
 - Cryptography Policy
 - Data Management Policy
 - Human Resource Security Policy
