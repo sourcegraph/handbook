@@ -2,6 +2,10 @@
 
 **Policy Owner**: Tech Ops
 
+**Effective Date**: Feb 1, 2022
+
+**Last Updated Date**: Jan 25, 2022
+
 1. **Purpose**
 
 To identify organizational assets and define appropriate protection responsibilities. To ensure that information receives an appropriate level of protection in accordance with its importance to the organization. To prevent unauthorized disclosure, modification, removal, or destruction of information stored on media.
@@ -14,9 +18,9 @@ This policy applies to all Sourcegraph owned or managed information systems.
 
 Assets associated with information and information processing facilities that store, process, or transmit classified information shall be identified and an inventory of these assets shall be drawn up and maintained. This inventory will live in our endpoint management system, VMWare Workspace One.
 
-**Ownership of Assets**
+**Assignment of Assets**
 
-Assets maintained in the inventory shall be owned by a specific individual or group within Sourcegraph.
+Assets maintained in the inventory shall be assigned to a specific individual or group within Sourcegraph.
 
 ## **Acceptable Use of Assets**
 
