@@ -290,7 +290,7 @@ code_insights:
   title: Code Insights
   product_team: code_insights
   maturity: beta
-  documentation_link: https://docs.sourcegraph.com/code_insights
+  documentation_link: https://docs.sourcegraph.com/ 
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
