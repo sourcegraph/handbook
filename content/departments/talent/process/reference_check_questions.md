@@ -33,7 +33,7 @@ Thanks so much in advance for taking the time!  It's greatly appreciated.
 - What were their day to day responsibilities?
 - What were their greatest strengths?
 - How would their peers describe them? How do they work with a team?
-- Did they have any opportunities for improvement? What would you advise a future manager to coach them on? 
+- Did they have any opportunities for improvement? What would you advise a future manager to coach them on?
 - Would you hire or work with them again, if given the opportunity?  Are they someone you recommend?
 - Is there anything else I should know that I didn't ask above?
 
