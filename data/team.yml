@@ -2586,3 +2586,15 @@ michael_lin:
     He graduated from the University of Alberta with a BSc in Computer Science.
     Prior to Sourcegraph, he worked on Kubernetes and web stuff at IBM.
     He is passionate about building tools for developers and has contributed to open source projects such as Linkerd, Percona and better-opn.
+
+petri_last:
+  name: Petri-Johan Last
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_cloud_saas
+  location: Stellenbosch, Western Cape, South Africa 🇿🇦
+  github: pjlast
+  pronunciation: '[pɪətʁɪ lɑst](http://ipa-reader.xyz/?text=p%C9%AA%C9%99t%CA%81%C9%AA%20l%C9%91st&voice=Joey)'
+  email: petri.last@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/petri-johan-last-1b1214135/)'
+  description: "Petri lives in [Stellenbosch, South Africa](https://www.google.com/maps/place/Stellenbosch) with his wife and dog. When he's not busy overthinking everything he does, he enjoys reading (horror, fantasy, sci-fi), gaming (horror, RPG, story-driven), music (hard, fast, and loud), and whatever additional flavour of hobby for the month."
