@@ -104,12 +104,13 @@ Each CE is expected to receive demo certification before being allowed to delive
 
 As onboarding progresses to around weeks 4 and 5, the CE should begin practicing their demos and product knowledge with their mentor 1:1. When a CE and their mentor feel they have progressed enough in demo practice, the onboarding CE should schedule a demo review with their mentor and manager for agreed approval that the onboarding CE can lead customer calls. From this point of approval, an onboarding CE is ready to lead a customer demo with a CE shadow. A shadow should be any tenured CE, preferably a CE's mentor, however this is not required considering likely constraints with availability and time.
 
-For final demo certification, a [rubric](https://docs.google.com/spreadsheets/d/1goSKFCPSrRSxw3iVUWEryORdzail96quHcc6ZAwh1LY/edit#gid=0) will be used to assess a new CE’s demo competency. 
+For final demo certification, a [rubric](https://docs.google.com/spreadsheets/d/1goSKFCPSrRSxw3iVUWEryORdzail96quHcc6ZAwh1LY/edit#gid=0) will be used to assess a new CE’s demo competency.
 
 In order to be demo certified a CE:
-* Must submit a Chorus recording of their example of a successful demo to their Manager and Mentor
-* Score 3s in all areas of expertise outlined in demo rubric
-* Successfully lead three customer demos with a shadow
+
+- Must submit a Chorus recording of their example of a successful demo to their Manager and Mentor
+- Score 3s in all areas of expertise outlined in demo rubric
+- Successfully lead three customer demos with a shadow
 
 Until passing certification, each time a new CE leads a demo session, the shadowing mentor and the CE manager (via Chorus recording) will watch the demo and fill out a demo certification rubric. This will help provide feedback and give the new CE specific areas of focus as you work to get certified and improve your overall presentation.
 
