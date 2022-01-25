@@ -2611,3 +2611,15 @@ jeff_wayman:
   links: '[LinkedIn](https://www.linkedin.com/in/jeffwayman/)'
   pronunciation: '[dʒɛf weɪmẽə̃n](http://ipa-reader.xyz/?text=d%CA%92%C9%9Bf%20we%C9%AAm%E1%BA%BD%C9%99%CC%83n&voice=Joanna)'
   description: 'Jeff lives in Valrico FL with his wife, son, and step-daughter. He loves to spend time with his family (usually outdoors). He also enjoys reading (sci-fi, fantasy, and business), watch TV (just about anything), play video games (anything, but definitely rpgs and open-world), and visit the local theme parks.'
+
+quinlan_sparks:
+  name: Quinlan Sparks
+  email: quinlan.sparks@sourcegraph.com
+  github: qmsparks
+  pronouns: they/them
+  role: Application Engineer
+  reports_to: customer_support_manager_1
+  location: Chicago, Illinois, USA
+  links: '[LinkedIn](https://www.linkedin.com/in/quinlansparks/)'
+  pronunciation: '[/ˈkwɪnlən spɑrks/](http://ipa-reader.xyz/?text=%CB%88kw%C9%AAnl%C9%99n%20sp%C9%91rks&voice=Salli)'
+  description: 'Quinlan grew up in the Chicago suburbs and hasn’t quite managed to leave yet, despite multiple attempts and a bone-deep dislike of winter. Their background is in fiction writing and live entertainment, so no one’s quite sure exactly how they wound up as an engineer, but it doesn’t seem like anyone’s complaining. In their free time they enjoy running and playing tabletop role-playing games with their friends, experimenting with video game design and development, and thinking about Battlebots.'
