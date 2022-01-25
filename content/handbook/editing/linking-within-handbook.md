@@ -14,11 +14,11 @@ If we are linking the Buddy program handbook page (handbook/people-ops/onboardin
 However, if we want to link the Buddy program handbook page to Engineering onboarding page (handbook/engineering/onboarding.md) we would need to use ../ to go back in the directory and then indicate the correct path: **../../engineering/onboarding.md**
 
 Example 2:
-I am on the [Code of conduct](../../company-info-and-process/communication/code_of_conduct.md)(handbook/content/company-info-and-process/communication/code_of_conduct.md). I want to link to a [specific section](../about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) of our (About Sourcegraph)[../about-sourcegraph/index.md] page. I will use the following path:  **../about-sourcegraph.index.md#sourcegraph-open-product-open-company-open-source**  Reasoning:
+I am on the [Code of conduct](../../company-info-and-process/communication/code_of_conduct.md)(handbook/content/company-info-and-process/communication/code_of_conduct.md). I want to link to a [specific section](../about-sourcegraph/index.md#sourcegraph-open-product-open-company-open-source) of our (About Sourcegraph)[../about-sourcegraph/index.md] page. I will use the following path: **../about-sourcegraph.index.md#sourcegraph-open-product-open-company-open-source** Reasoning:
 
-- I use one set of **../** to go from the **communication** folder (where the Code of conduct is) to the **comany-info-and-process** folder (where the About Sourcegraph page is). 
-- I use **about-sourcegraph/index.md** because that is the file path. You can see "index" in the file path when you open or edit the file in GitHub. 
-- I add **#sourcegraph-open-product-open-company-open-source** using a **#** to indicate the specific section on the page to link to. 
+- I use one set of **../** to go from the **communication** folder (where the Code of conduct is) to the **comany-info-and-process** folder (where the About Sourcegraph page is).
+- I use **about-sourcegraph/index.md** because that is the file path. You can see "index" in the file path when you open or edit the file in GitHub.
+- I add **#sourcegraph-open-product-open-company-open-source** using a **#** to indicate the specific section on the page to link to.
 
 **Why do we do this?**
 While it is possible to use absolute URLs (ones that include the domain e.g. https://handbook.sourcegraph.com) to link to pages, if the domain changes, it is more difficult to update the URLs compared to using relative URLs.
