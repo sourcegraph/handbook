@@ -16,3 +16,8 @@ We track success metrics in a (private) [Looker dashboard](https://sourcegraph.l
 
 - **Batch Changes MAU:** A visitor who triggers any event happening on a Sourcegraph Batch Changes property in a given month. In practice, we do not track CLI events, so this effectively only includes events in the GUI, or uploading a spec.
 - **Batch Changes monthly contributor:** A user that has taken an action to create or manage a batch change in a given month. In practice, a user that has previewed, or applied or closed a batch change in a given month. New actions that are added in the future, such as [comment, merge, publish](https://sourcegraph.productboard.com/roadmap/2263724-batch-changes-releases/features/6775792/portal) will be added.
+- **Active Batch Changes customer**: A customer is considered as actively using Batch Changes if either:
+   - they have created more than 5 batch changes in the last 90 days
+   - or, they merged 100 changesets opened by Batch Changes in the last 90 days
+
+
