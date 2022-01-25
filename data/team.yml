@@ -2598,7 +2598,7 @@ petri_last:
   email: petri.last@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/petri-johan-last-1b1214135/)'
   description: "Petri lives in [Stellenbosch, South Africa](https://www.google.com/maps/place/Stellenbosch) with his wife and dog. When he's not busy overthinking everything he does, he enjoys reading (horror, fantasy, sci-fi), gaming (horror, RPG, story-driven), music (hard, fast, and loud), and whatever additional flavour of hobby for the month."
-  
+
 jeff_wayman:
   name: Jeff Wayman
   email: jeff.wayman@sourcegraph.com
@@ -2609,4 +2609,4 @@ jeff_wayman:
   location: Valrico, FL, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/jeffwayman/)'
   pronunciation: '[dʒɛf weɪmẽə̃n](http://ipa-reader.xyz/?text=d%CA%92%C9%9Bf%20we%C9%AAm%E1%BA%BD%C9%99%CC%83n&voice=Joanna)'
-  description: "Jeff lives in Valrico FL with his wife, 5yo son, and 17yo step-daughter. He loves to spend time with his family (usually outdoors). He also loves to read, watch TV, play video games, and visit the local theme parks."
+  description: 'Jeff lives in Valrico FL with his wife, 5yo son, and 17yo step-daughter. He loves to spend time with his family (usually outdoors). He also loves to read, watch TV, play video games, and visit the local theme parks.'
