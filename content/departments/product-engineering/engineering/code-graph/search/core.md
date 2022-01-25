@@ -58,7 +58,6 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 - [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product
 - [Scatchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
 
-
 ## On Boarding
 
 Public resources are available here:
