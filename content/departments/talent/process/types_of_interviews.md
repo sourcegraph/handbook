@@ -346,39 +346,7 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ## Engineering
 
-### Assignments
-
-- See more about coding exercises [here](../../product-engineering/engineering/hiring/software-engineer-coding-exercise.md)
-
-### Technical Interview: General
-
-- Interviewers: two members of the engineering department
-- Duration: 60-minutes.
-- Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
-
-### Technical Interview: Coding Skills
-
-- Interviewers: two members of the engineering team
-- Duration: 60-minutes.
-- Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
-
-### Technical Interview: Architecture
-
-- Interviewers: two members of the team you are interviewing for
-- Duration: 60-minutes.
-- Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
-
-### Pairing Exercise
-
-- Interviewer(s): two members of the engineering department
-- Duration: 60-minutes.
-- Details: during this stage in the interview process, we will give you an open problem statement and you will walk us through how you would solve the problem.
-
-## Technical Interview: Complex Problems Deep Dive
-
-- Interviewers: two members of the team you are interviewing for
-- Duration: 60-minutes
-- Details: We will discuss 1–3 of the most complex problems you have solved with code or the most complex codebases you have worked with.
+- See more about technical interviews [here](../engineering_interview_process_candidates.md)
 
 ## Marketing
 
