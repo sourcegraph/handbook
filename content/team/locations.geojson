@@ -1418,6 +1418,19 @@
           45.070740
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Petri-Johan Last"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [
+              18.860151,
+              -33.932106
+          ]
+      }
     }
   ]
 }
