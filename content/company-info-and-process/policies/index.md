@@ -5,7 +5,7 @@
 ## List of Policies - DRAFT - All policies are in work]
 
 - Access Control Policy
-- Asset Management Policy
+- [Asset Management Policy](../policies/asset-management-policy.md)
 - Business Continuity and Disaster Recovery Plan
 - Code of Conduct
 - Cryptography Policy
