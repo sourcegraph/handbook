@@ -55,7 +55,7 @@ To get maximum value from Sourcegraph, customers should be using it as frequentl
 **Playbooks**:
 
 - [Account Onboarding](customer-success-playbooks.md#account-onboarding)
-- [QBRs](customer-success-playbooks.md#business-review-with-customer)
+- [QBRs](customer-success-playbooks.md#business-review)
 
 ### Nuture advocates and champions
 
@@ -77,7 +77,7 @@ A business case outlines the expected value Sourcegraph brings to a customer. A 
 
 **Playbooks**:
 
-- [QBRs](customer-success-playbooks.md#business-review-with-customer)
+- [QBRs](customer-success-playbooks.md#business-review)
 
 ### Maintain an in-depth knowledge of the account
 
@@ -113,53 +113,53 @@ Customers will raise bug feature requests, and sometimes roadmap items will bene
 
 ### Sales Stage 6
 
-- _CE & AE_ **[Start Onboard Planning](customer-success-playbooks.md#account-planning):** CE builds onboarding and engagement plans; AE gets alignment with Champion and the customer’s commitment to onboarding and engagement plans
-- _CE & (when necessary Product & Support & Engineering)_ **[Production Planning](customer-success-playbooks.md#production-planning):** Document planned production in Technical Design Document; run Technical Review when necessary. Work with champion to agree production design and build roll-out plan and commitment from Champion to secure necessary resources.
+- *CE & AE* **[Start Onboard Planning](customer-success-playbooks.md#account-onboarding):** CE builds onboarding and engagement plans; AE gets alignment with Champion and the customer’s commitment to onboarding and engagement plans
+- *CE & (when necessary Product & Support & Engineering)* **[Production Planning](customer-success-playbooks.md#production-planning):** Document planned production in Technical Design Document; run Technical Review when necessary. Work with champion to agree production design and build roll-out plan and commitment from Champion to secure necessary resources.
 
 ### Contract Started
 
-- _AE & CE_ **[Book and run kickoff meeting](customer-success-playbooks.md#account-planning)**: review trial and business assessment results, share 30/60/90 day plan and ongoing engagement (Business Reviews, Training, etc.). Get commitment from all stakeholders to resource these meetings. Explain engagement model for things like support, product feedback, and training & enablement.
-- _AE & CE_ **[Book onboarding meetings and recurring engagement meetings](customer-success-playbooks.md#account-planning)**
+- *AE & CE* **[Book and run kickoff meeting](customer-success-playbooks.md#account-onboarding)**: review trial and business assessment results, share 30/60/90 day plan and ongoing engagement (Business Reviews, Training, etc.). Get commitment from all stakeholders to resource these meetings. Explain engagement model for things like support, product feedback, and training & enablement.
+- *AE & CE* **[Book onboarding meetings and recurring engagement meetings](customer-success-playbooks.md#account-onboarding)**
 
 ### Customer Onboarding (Q1 of Contract)
 
-- _CE_ **Run customer enablement**
-- _CE_ **Oversee production rollout**
+- *CE* **Run customer enablement**
+- *CE* **Oversee production rollout**
 
 ### Q2 of Contract
 
 - For Tier 1 Accounts
-  - _AE & CE & (optionally VE, Product, Marketing)_ **[Business Review with customer](customer-success-playbooks.md#business-review)**
-  - _AE & CE_ **[Account Planning](customer-success-playbooks.md#account-planning.md)**
-  - _CE_ **Monthly nurture and enablement activities**
+  - *AE & CE & (optionally VE, Product, Marketing)* **[Business Review with customer](customer-success-playbooks.md#business-review)**
+  - *AE & CE* **[Account Planning](customer-success-playbooks.md#account-planning)**
+  - *CE* **Monthly nurture and enablement activities**
 - For Tier 2 & Tier 3 Accounts
-  - _AE & CE_ **[Account Planning](customer-success-playbooks.md#account-planning.md)**
-  - _CE_ **Monthly nurture and enablement activities**
+  - *AE & CE* **[Account Planning](customer-success-playbooks.md#account-planning)**
+  - *CE* **Monthly nurture and enablement activities**
 
 ### Q3 of Contract
 
 - For Tier 1 Accounts
-  - _AE & CE & (optionally VE, Product, Marketing)_ **[Business Review with customer](customer-success-playbooks.md#business-review)**
-  - _AE & CE_ **[Account Planning](customer-success-playbooks.md#account-planning.md)**
-  - _CE_ **Monthly nurture and enablement activities**
+  - *AE & CE & (optionally VE, Product, Marketing)* **[Business Review with customer](customer-success-playbooks.md#business-review)**
+  - *AE & CE* **[Account Planning](customer-success-playbooks.md#account-planning)**
+  - *CE* **Monthly nurture and enablement activities**
 - For Tier 2 Accounts
-  - _AE & CE_ **[Business Review with customer](customer-success-playbooks.md#business-review)**
-  - _AE & CE_ **[Account Planning](customer-success-playbooks.md#account-planning.md)**
-  - _CE_ **Monthly nurture and enablement activities**
+  - *AE & CE* **[Business Review with customer](customer-success-playbooks.md#business-review)**
+  - *AE & CE* **[Account Planning](customer-success-playbooks.md#account-planning)**
+  - *CE* **Monthly nurture and enablement activities**
 - For Tier 3 Accounts
-  - _AE & CE_ **[Account Planning](customer-success-playbooks.md#account-planning.md)**
-  - _CE_ **Monthly nurture and enablement activities**
+  - *AE & CE* **[Account Planning](customer-success-playbooks.md#account-planning)**
+  - *CE* **Monthly nurture and enablement activities**
 
 ### Q4 of Contract
 
 - For Tier 1 Accounts
-  - _AE & CE & (optionally VE, Product, Marketing)_ **[Business Review with customer](customer-success-playbooks.md#business-review)**
-  - _AE & CE_ **[Renewal Planning](customer-success-playbooks.md#renewal-planning.md)**
-  - _CE_ \*\*Monthly nurture and enablement activities
+  - *AE & CE & (optionally VE, Product, Marketing)* **[Business Review with customer](customer-success-playbooks.md#business-review)**
+  - *AE & CE* **[Renewal Planning](customer-success-playbooks.md#renewal-planning)**
+  - *CE* **Monthly nurture and enablement activities
 - For Tier 2 & Tier 3 Accounts
-  - _AE & CE_ **[Renewal Planning](customer-success-playbooks.md#renewal-planning.md)**
-  - _CE_ **Monthly nurture and enablement activities**
+  - *AE & CE* **[Renewal Planning](customer-success-playbooks.md#renewal-planning)**
+  - *CE* **Monthly nurture and enablement activities**
 
 ### Contract Renewal
 
-- _AE_ **Renews Contract**
+- *AE* **Renews Contract**
