@@ -70,5 +70,6 @@ Despite the lack of deliberate focus on solving this problem, the following are 
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
+- [Marketing page for Onboarding use case](https://about.sourcegraph.com/use-cases/#accelerate-developer-onboarding)
 - [Use case index](../index.md#use-cases)
-  -- [Productboard developer onboarding & velocity (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482294/detail)
+- [Productboard developer onboarding & velocity (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482294/detail)
