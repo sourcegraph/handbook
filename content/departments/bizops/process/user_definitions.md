@@ -6,18 +6,18 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases—a user can be both registered, activated and churned at the same time.
 
-| Metric                               | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
-| [Visitor](#visitor)                  | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           | Activity       |
-| [Active (Cloud)](#active-user-cloud)       | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     | Activity       |
-| [Activated (Cloud)](#activated-user-cloud) | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
-| [Registered (Cloud)](#registered-user-cloud)   | A user with an account on Cloud                                                               | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
-| [Account Setup](#account-setup)       | A Registered user OR team on either Cloud or Private Install                                     | ✔️    | ✔️      |                                         | Characteristic |
-| Retained                             | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
-| Churned                              | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
-| Resurrected                          | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
-| Created                              | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
-| Deleted                              | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
+| Metric                                       | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
+| [Visitor](#visitor)                          | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           | Activity       |
+| [Active (Cloud)](#active-user-cloud)         | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     | Activity       |
+| [Activated (Cloud)](#activated-user-cloud)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
+| [Registered (Cloud)](#registered-user-cloud) | A user with an account on Cloud                                                                   | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
+| [Account Setup](#account-setup)              | A Registered user OR team on either Cloud or Private Install                                      | ✔️    | ✔️      |                                         | Characteristic |
+| Retained                                     | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
+| Churned                                      | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
+| Resurrected                                  | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
+| Created                                      | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
+| Deleted                                      | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
 
 \***_Types_**
 
@@ -62,7 +62,7 @@ Activation is this entire journey, and our current definition is that someone ha
 
 Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
 
-### Account Setup 
+### Account Setup
 
 This identifies users or teams either on Cloud or private install and are not yet customers.
 
@@ -70,12 +70,12 @@ This identifies users or teams either on Cloud or private install and are not ye
 
 - Signed up for Cloud OR
 - Added Admin email on private install OR
-- Added user to private install 
+- Added user to private install
 
 #### Team Account Setup
 
 - Signed up and onboarded to Cloud beta account and added team members OR
-- Set up private install and added users 
+- Set up private install and added users
 
 ## Time periods
 
