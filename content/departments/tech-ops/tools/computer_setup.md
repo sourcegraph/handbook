@@ -29,7 +29,7 @@ You will receive an email invite from **Airwatch** with steps on how to enroll i
 1. Click the link to download and install the WS One client in the email invite you receive.
 2. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
 3. You should then be prompted for your Okta credentials.
-4. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer as well as
+4. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
 5. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
 
 **What Workspace One Hub will automatically install on the device**
