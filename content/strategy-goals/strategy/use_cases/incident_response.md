@@ -23,6 +23,9 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 
 <!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. This is perhaps the most important single section in this document, so don't be afraid to add too much - if you feel this section is getting long, consider summarizing here and linking out to other pages in the handbook with details. -->
 
+- Solving an incident is a collaborative effort that must be documented. Sourcegraph aids in these efforts by allowing users to share links to searches and files and by recording work done in a search notebook.
+- IR efforts often require reports. This could include impacted files, repositories or other artifacts Sourcegraph helps generate.
+
 ## Who benefits
 
 <!-- Link to the personas that relate to this use case, and describe briefly how it benefits each of them (the real detail is in the above section, so be sure not to repeat yourself here; speak in generalities for each persona in this section.) -->
@@ -39,6 +42,7 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
+- [Marketing page for Incident Response use case](https://about.sourcegraph.com/use-cases/#resolve-incidents-faster)
 - [Use case index](../index.md#use-cases)
 - [Productboard incident response (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482291/detail)
 - [Google SRE books](https://sre.google/books/)

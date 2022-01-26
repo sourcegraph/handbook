@@ -11,21 +11,15 @@ The code insights team is responsible for building and delivering code insights 
 
 ## Quick Resources
 
-- [Product docs](https://docs.sourcegraph.com/code_insights)
-- [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
+- Product docs - ask in #code-insights (internal) or your Sourcegraph contact (external)
+- Development docs - ask in #code-insights
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
 - [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)
 
 ## Members
 
-- [Joel Kwartler](../../../../../team/index.md#joel-kwartler) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Felix Becker](../../../../../team/index.md#felix-becker) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#code-insights-eng}
-  - [Vova Kulikov](../../../../../team/index.md#vova-kulikov) (Frontend Engineer)
-  - [Justin Boyson](../../../../../team/index.md#justin-boyson) (Frontend Engineer)
-  - [Coury Clark](../../../../../team/index.md#coury-clark) (Backend Engineer)
-  - [Cristina Birkel](../../../../../team/index.md#cristina-birkel) (Backend Engineer)
+{{generator:product_team.code_insights}}
 
 [We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
 

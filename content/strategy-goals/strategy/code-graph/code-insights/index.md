@@ -11,8 +11,8 @@ Quick links:
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
-- [Documentation](https://docs.sourcegraph.com/code_insights)
 - [Product Marketing Brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) (internal only)
+- Documentation - ask in #code-insights (internal) or your Sourcegraph contact (external)
 
 ## Mission, Vision, and Guiding Principles
 
@@ -133,7 +133,7 @@ For what we have learned so far and how we are operationalizing those learnings,
 
 ### Top customer, support, sales and marketing issues
 
-- The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for [Current Limitations of Code Insights](https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights) for an up-to-date list.
+- The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for Current Limitations of Code Insights (private until GA; ask in #code-insights or ask your Sourcegraph contact) for an up-to-date list.
 - The main sales task for Code Insights is operationalizing the pricing and packaging
 - The main marketing task for Code Insights is readying assets, landing pages, blog content, and launch messaging for a general availability launch
 

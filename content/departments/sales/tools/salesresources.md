@@ -25,7 +25,7 @@ The following templates are currently available:
 
 - [Enterprise License Agreement and Order Form (On Prem)](https://drive.google.com/u/0/uc?id=1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv&export=download)
 - [Enterprise License Agreement and Order Form (Offline)](https://drive.google.com/u/0/uc?id=18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b&export=download)
-- [Enterprise Services Agreement and Order Form (Managed Instance)](https://docs.google.com/u/0/uc?id=1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A&export=download)
+- [Enterprise Services Agreement and Order Form (Cloud and Managed Instance)](https://docs.google.com/u/0/uc?id=1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A&export=download)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
@@ -42,6 +42,7 @@ To update a template place the new template in the main Sales Template folder, n
 - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
 - [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
+- [GDPR Prospecting Guidelines](https://docs.google.com/document/d/1p1w7YYWoOkiSBbCZBeTJZUkst8vX8GnG1jivtQ9wYBo/edit)
 
 ## Customer Notes
 
