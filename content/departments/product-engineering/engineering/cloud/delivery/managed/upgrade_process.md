@@ -29,6 +29,13 @@ To create a managed instance, see [managed instances creation process](creation_
   - [4) Prepare the new machine](#4-prepare-the-new-machine)
     - [4.a) Resize the disk](#4a-resize-the-disk)
   - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade)
+- [In-place updates](#in-place-updates)
+  - [0) Upgrade setup](#0-upgrade-setup)
+  - [1) Create a snapshot](#1-create-a-snapshot)
+  - [2) Prepare upgraded docker-compose](#2-prepare-upgraded-docker-compose)
+  - [3) Apply changes to instance](#3-apply-changes-to-instance)
+  - [4) Upgrade running deployment](#4-upgrade-running-deployment)
+  - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade)
 
 ## General setup
 
@@ -445,3 +452,85 @@ For reference, the above steps were adapted from [Working with persistent disks]
 3. [Take down the old deployment](#10-take-down-the-old-deployment)
 4. [Remove the maintainence banner](#11-remove-the-banner-indicating-maintenance-is-in-progress)
 5. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
+
+## In-place updates
+
+This is the upgrade process for running in-place updates. This approach is riskier than the above processes, because rolling back changes takes significantly longer.
+
+Only use this approach for low-risk patch upgrades or docker-compose container resource changes. **Do not use if the patch includes a database change.**
+
+### 0) Upgrade setup
+
+**Follow the [general setup](#general-setup) guide.** Then redefine the NEW_DEPLOYMENT variable to match the existing deployment:
+
+```sh
+export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
+```
+
+Validate all variables are set:
+
+```sh
+./util/validate-env.ts
+```
+
+Then set up a branch for your changes:
+
+```sh
+git checkout -b $CUSTOMER/upgrade to $NEW_VERSION in-place
+# all the below steps are documented assuming you are in the customer deployment directory
+cd $CUSTOMER
+```
+
+### 1) Create a snapshot
+
+Create a snapshot:
+
+```sh
+../util/create-snapshot.ts $OLD_DEPLOYMENT upgrade-machine-$DATE
+git add . && git commit -m "$CUSTOMER: snapshot deployment"
+```
+
+This can take anywhere from a minute to several minutes, depending on how large the disk is.
+
+Note that since we are not marking the database as read-only, this snapshot could become out of date with the live deployment. It is only prepared as an emergency measure - rolling back to this snapshot risks data loss.
+
+### 2) Prepare upgraded docker-compose
+
+Update version references:
+
+```sh
+VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
+git --no-pager diff $NEW_DEPLOYMENT
+```
+
+Check for old version references or merge conflicts:
+
+```sh
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
+```
+
+Resolve any merge conflicts that have arisen.
+
+### 3) Apply changes to instance
+
+```sh
+git add . && git commit -m "$CUSTOMER: upgrade to $NEW_VERSION in-place"
+terraform apply
+```
+
+This will only update the instance metadata and not affect the running deployment.
+
+### 4) Upgrade running deployment
+
+Apply changes to the running deployment by copying the docker-compose file to the instance and re-running docker-compose:
+
+```sh
+gcloud compute scp --project "sourcegraph-managed-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
+../util/ssh-exec.sh "cd /deployment/docker-compose && docker-compose up -d"
+```
+
+### 5) Wrap up the upgrade
+
+1. [Confirm instance health](#8-confirm-instance-health).
+2. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
