@@ -45,7 +45,7 @@ The Cloudflare WAF is enabled via terraform. To turn it on or off, update `cloud
 
 To configure the Cloudflare WAF, add or update WAF rules in `[sourcegraph/sgdev]-waf.tf`. For documentation on what configuration options exist, check [the terraform registry](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs). Note that the configuration options may be restricted by plan, as documented in the [Cloudflare API documentation](https://api.cloudflare.com/).
 
-The Cloudflare WAF must be turned for any instances containing customer data, including Cloud.
+The Cloudflare WAF must be enabled for any instances containing customer data, including Cloud.
 
 ### Rate Limiter
 
