@@ -346,7 +346,8 @@ The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the 
 
 ## Engineering
 
-- See more about technical interviews [here](../engineering_interview_process_candidates.md)
+- [Resources for candidates](../engineering_interview_process_candidates.md)
+- [Resources for Hiring Managers and Teammates](../engineering_interview_process.md)
 
 ## Marketing
 
