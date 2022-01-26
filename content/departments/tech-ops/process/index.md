@@ -1,3 +1,3 @@
 # Tech Ops Process
 
-- [Internal security](internal_security.md)
+- [Internal security](internal-security/index.md)
