@@ -15,7 +15,6 @@
 - [Information Security Policy](https://docs.google.com/document/d/1FUwPGTWUYWJJ2VpTIXR8ZPIOaUS3e904/edit?usp=sharing)
 - Information Security Roles and Responsibilities
 - Operations Security Policy
-- Physical Security Policy
 - [Information Security Risk Management Policy](https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit?usp=sharing)
 - Secure Development Policy
-- Third-Party Management Policy
+- [Third-Party Management Policy](./third-party-management-policy.md)
