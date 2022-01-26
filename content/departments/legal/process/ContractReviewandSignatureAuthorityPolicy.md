@@ -168,7 +168,7 @@ Templates:
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
   - Sign: VP Budget Owner or VP Finance/Operations
 
-**Legal Review Workflow:**
+**Legal Review Workflow for Vendor Contracts:**
 
 - Does the vendor access, collect, or receive any customer data (including customer code, repo names, pings or personal data of customer personnel)?
   - Get a DPA
