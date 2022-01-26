@@ -24,7 +24,7 @@
 
 ### In case of a user’s departure from the company,
 
-- the removal of user’s account from the main system will remove them from any groups, which in turn will remove all permissions from that user as well
+- The removal of user’s account from the main system will remove them from any groups, which in turn will remove all permissions from that user as well
 
 ### BreakGlass scenario:
 
