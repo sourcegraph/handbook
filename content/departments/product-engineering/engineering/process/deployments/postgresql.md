@@ -5,6 +5,7 @@ For deployments other than Cloud and Sourcegraph.com please use the information 
 ## Sourcegraph.com specific
 
 We currently run two separate databases. The `sg-cloud` database is the primary database, and the code-intel team uses the `sg-cloud-code-intel`.
+Both of these databases reside in the Google Cloud Platform (GCP) and is where customer data is stored.
 
 You can also directly view the database in [GCP](https://console.cloud.google.com/sql/instances?project=sourcegraph-dev).
 
