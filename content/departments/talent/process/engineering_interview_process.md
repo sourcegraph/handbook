@@ -60,7 +60,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 - **Length:** 60-minutes
 
-- **How the candidate will prepare:** We ask candidates to spend an hour pairing with an engineer on the team they are applying to. The pairing exercise is not used for technical evaluation. That’s what the [async coding exercise](https://handbook.sourcegraph.com/departments/product-engineering/engineering/hiring/software-engineer-coding-exercise) is for. The assumption is that any candidate who gets to this stage meets the technical requirements for the job in question.
+- **How the candidate will prepare:** We ask candidates to spend an hour pairing with an engineer on the team they are applying to. The pairing exercise is not used for technical evaluation. The assumption is that any candidate who gets to this stage meets the technical requirements for the job in question.
 
 - **What to look for:** At a high level, this is what we are evaluating our candidates for:
 
