@@ -4,7 +4,7 @@
 
 ## List of Policies - DRAFT - All policies are in work]
 
-- Access Control Policy
+- [Access Control Policy](../policies/access-control-policy.md)
 - Asset Management Policy
 - Business Continuity and Disaster Recovery Plan
 - Code of Conduct
