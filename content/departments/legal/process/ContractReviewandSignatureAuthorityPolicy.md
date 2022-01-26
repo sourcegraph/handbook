@@ -17,15 +17,19 @@ If you are not sure where to direct a contract for review, approval, or signatur
 
 Legal:
 
-- [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or
-- #legal slack channel
+- [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
+- For general legal requests or questions, please use the #legal slack channel.
+- For Customer Contracts, please submit requests via the #deal-desk slack channel.
+- For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
 
 Give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don’t hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time.
 
 Finance:
 
 - [finance@sourcegraph.com](mailto:finance@sourcegraph.com) or
-- #finance slack channel
+- For general finance requests or questions, please use the #finance slack channel.
+- For Customer Contracts, please submit requests via the #deal-desk slack channel.
+- For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
 
 If you submit a request via #legal or #finance slack channels, no need to duplicate your request in each channel. You can just post your request in one channel and tag the other team.
 
@@ -158,10 +162,33 @@ Templates:
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
   - Sign: VP Budget Owner or VP Finance/Operations
 
-- Vendor Form (including online click-through agreements)
-  - Review: (a) Legal and (b) Finance for payment terms such as fees, termination, and tax terms
+- Vendor Form (including online click-through agreements):
+
+  - Review: (a) Legal (if necessary, based on the below Legal Review Workflow) and (b) Finance for payment terms such as fees, termination, and tax terms
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
   - Sign: VP Budget Owner or VP Finance/Operations
+
+Legal Review Workflow:
+
+- Does the vendor access, collect, or receive any customer data (including customer code, repo names, pings or personal data of customer personnel)?
+  - Get a DPA
+  - Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
+- Does the vendor access, collect, or receive any personal data of Sourcegraph personnel (for example, will our teammates create an account to log in)?
+  - Personal data typically includes usernames or email addresses, but can also include any other information that can be used to identify an individual: name, title, personal address, location data, physical characteristics, etc.
+  - Get a DPA
+- Does the vendor access one of the following types of sensitive data?
+  - Sensitive security information (e.g. incident data, security logs, authentication)
+  - Core IT infrastructure (e.g. GCP, AWS, customer data storage)
+    IF ANY OF THE ABOVE, legal to review and negotiate
+  - Indemnification for data breach/confidentiality breach
+  - Uncapped liability for indemnification
+  - Sample language is available in our [Vendor Review Playbook](https://docs.google.com/document/d/1RxuOmvrw8Khe7sbMoNcFkrASoTdh4a0MsqWrg4FWqpw/edit)
+- Is legal review necessary?
+  - If (1) no personal data or sensitive data and (2) annual contract spend is projected to be <$100,000 per year, no legal review.
+- Examples of contract types that generally do not require legal review
+  - One-off team trainings that do not involve the provision of personal data
+  - Events and conferences
+  - Hotels
 
 Templates:
 
