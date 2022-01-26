@@ -1445,6 +1445,19 @@
           27.962035105066086
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quinlan Sparks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.14605712890625,
+          41.77950486590359
+        ]
+      }
     }
   ]
 }
