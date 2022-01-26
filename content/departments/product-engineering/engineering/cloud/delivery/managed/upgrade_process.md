@@ -476,7 +476,7 @@ Validate all variables are set:
 Then set up a branch for your changes:
 
 ```sh
-git checkout -b $CUSTOMER/upgrade to $NEW_VERSION in-place
+git checkout -b $CUSTOMER/upgrade-$NEW_VERSION-in-place
 # all the below steps are documented assuming you are in the customer deployment directory
 cd $CUSTOMER
 ```
