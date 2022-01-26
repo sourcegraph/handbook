@@ -150,18 +150,18 @@ Templates:
 
   - Review: None
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
-  - Sign: VP Budget Owner
+  - Sign: VP Budget Owner or VP Finance/Operations
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
   - Review: (a) Finance for changes to fees, termination, or tax terms and (b) Legal for any other changes
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
-  - Sign: VP Budget Owner
+  - Sign: VP Budget Owner or VP Finance/Operations
 
 - Vendor Form (including online click-through agreements)
   - Review: (a) Legal and (b) Finance for payment terms such as fees, termination, and tax terms
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
-  - Sign: VP Budget Owner
+  - Sign: VP Budget Owner or VP Finance/Operations
 
 Templates:
 

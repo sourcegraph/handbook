@@ -88,7 +88,7 @@ The team makes use of [tracking issues](../../process/tracking_issues.md) for tr
 
 ### Code Insights
 
-We have several [Code Insights](https://docs.sourcegraph.com/code_insights) dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
+We have several Code Insights dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
 
 - [Frontend Platform: Migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTF9) tracks long-running code migrations (e.g., global CSS → CSS modules).
   - The insight title should contain the GitHub issue number (where applicable).
