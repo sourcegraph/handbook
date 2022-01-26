@@ -40,11 +40,9 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 #### Code Walkthrough
 
-Currently lives [here](../../product-engineering/engineering/code-graph/code-intelligence/code-walkthrough)
-
 - **Interviewers:** two members of the team they are interviewing for
 
-- **Length:** 45-minutes (5 minutes of introductions, 30-minute walkthrough, 10 minutes of questions that you have for our engineers about working at Sourcegraph.
+- **Length:** 45-minutes (5 minutes of introductions, 30-minute walkthrough, 10 minutes of questions about working at Sourcegraph.)
 
 - **How the candidate will prepare:** For this interview, the candidate will drive a walkthrough of either a personal project or library of their choice. Be ready for them to screen share the library in question via the IDE or editor of choice.
 
@@ -57,8 +55,6 @@ Currently lives [here](../../product-engineering/engineering/code-graph/code-int
 - **During the interview:** You will guide the candidate to areas of the code that seem ripe for discussion. You may ask the candidate to zoom in or out of layers of abstraction (into/out of functions, classes, and packages) in order to help you build a shared understanding of the code under review. You may ask to explain how particular parts of the code under review work. The level of explanation will vary (but will not be a mystery): you may ask how high-level components interact, or you may ask how an individual function works in detail. Try to ask both! You should ask follow-up questions about performance, usage ergonomics, code complexity, and ideas for improvements. You should also ask clarifying questions about how the code under review reacts to certain input or usage conditions. You can ask the candidate to explain potential trade-offs given different hypothetical design constraints (what in the code would need to change).
 
 #### Pairing Exercise
-
-Currently lives [here](../../product-engineering/engineering/hiring/software-engineer-pairing-exercise)
 
 - **Interviewers:** two engineers on the team they are interviewing for. All pairing sessions should include a third engineer in the room as an observer. As such, they can stay muted for the bulk of the interview. Having another person in the room provides a more complete picture of the candidate and helps to reduce bias. All candidates applying for the same position should pair on the same exercise with the same people. Important: If the engineer leading the interview has not led a pairing interview with the chosen exercise before, they must do a dry run with the hiring manager first. This is to ensure that any wrinkles are ironed out before we meet with a candidate.
 
