@@ -169,6 +169,7 @@ Templates:
   - Sign: VP Budget Owner or VP Finance/Operations
 
 Legal Review Workflow:
+
 - Does the vendor access, collect, or receive any customer data (including customer code, repo names, pings or personal data of customer personnel)?
   - Get a DPA
   - Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
@@ -178,7 +179,7 @@ Legal Review Workflow:
 - Does the vendor access one of the following types of sensitive data?
   - Sensitive security information (e.g. incident data, security logs, authentication)
   - Core IT infrastructure (e.g. GCP, AWS, customer data storage)
-IF ANY OF THE ABOVE, legal to review and negotiate
+    IF ANY OF THE ABOVE, legal to review and negotiate
   - Indemnification for data breach/confidentiality breach
   - Uncapped liability for indemnification
   - Sample language is available in our [Vendor Review Playbook](https://docs.google.com/document/d/1RxuOmvrw8Khe7sbMoNcFkrASoTdh4a0MsqWrg4FWqpw/edit)
