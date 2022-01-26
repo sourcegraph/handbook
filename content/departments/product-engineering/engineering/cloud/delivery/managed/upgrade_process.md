@@ -486,7 +486,7 @@ cd $CUSTOMER
 Create a snapshot:
 
 ```sh
-../util/create-snapshot.ts $OLD_DEPLOYMENT upgrade-machine-$DATE
+../util/create-snapshot.ts $OLD_DEPLOYMENT
 git add . && git commit -m "$CUSTOMER: snapshot deployment"
 ```
 
