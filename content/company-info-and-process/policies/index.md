@@ -12,7 +12,7 @@
 - Data Management Policy
 - Human Resource Security Policy
 - [Security Incident Response Policy](../../departments/product-engineering/engineering/cloud/security/security-incident-response.md)
-- [Information Security Policy] (https://docs.google.com/document/d/1FUwPGTWUYWJJ2VpTIXR8ZPIOaUS3e904/edit?usp=sharing&ouid=101716442114708260318&rtpof=true&sd=true)
+- [Information Security Policy](https://docs.google.com/document/d/1FUwPGTWUYWJJ2VpTIXR8ZPIOaUS3e904/edit?usp=sharing&ouid=101716442114708260318&rtpof=true&sd=true)
 - Information Security Roles and Responsibilities
 - Operations Security Policy
 - Physical Security Policy
