@@ -40,7 +40,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 #### Code Walkthrough
 
-Currently lives [here](https://handbook.sourcegraph.com/departments/product-engineering/engineering/code-graph/code-intelligence/code-walkthrough)
+Currently lives [here](../../product-engineering/engineering/code-graph/code-intelligence/code-walkthrough)
 
 - **Interviewers:** two members of the team they are interviewing for
 
@@ -58,7 +58,7 @@ Currently lives [here](https://handbook.sourcegraph.com/departments/product-engi
 
 #### Pairing Exercise
 
-Currently lives [here](https://handbook.sourcegraph.com/departments/product-engineering/engineering/hiring/software-engineer-pairing-exercise)
+Currently lives [here](../../product-engineering/engineering/hiring/software-engineer-pairing-exercise)
 
 - **Interviewers:** two engineers on the team they are interviewing for. All pairing sessions should include a third engineer in the room as an observer. As such, they can stay muted for the bulk of the interview. Having another person in the room provides a more complete picture of the candidate and helps to reduce bias. All candidates applying for the same position should pair on the same exercise with the same people. Important: If the engineer leading the interview has not led a pairing interview with the chosen exercise before, they must do a dry run with the hiring manager first. This is to ensure that any wrinkles are ironed out before we meet with a candidate.
 
