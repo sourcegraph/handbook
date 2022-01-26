@@ -40,6 +40,7 @@ Best practice procurement processes should commence with the following steps:
 - defining the requirement (e.g. quantity, quality, delivery, timing)
 - assessing other strategies such as utilizing existing period contract arrangements
 - obtaining financial & Legal approval
+- obtaining Security approval following our [Third-party Management Policy](../../../company-info-and-process/policies/third-party-management-policy.md)
 
 ##### Approval Levels
 
