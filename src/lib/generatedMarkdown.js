@@ -300,7 +300,6 @@ export async function generateUseCaseFeatureList(use_case) {
         } else {
           pageContent += `- ${String(feature.title)}\n`
         }
-        
       }
     }
   }

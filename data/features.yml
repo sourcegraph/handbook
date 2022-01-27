@@ -27,7 +27,7 @@ regexp_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -48,7 +48,7 @@ structural_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -69,7 +69,7 @@ diff_commit_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -90,7 +90,7 @@ code_monitoring:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -111,7 +111,7 @@ code_monitoring_email_notifications:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -131,7 +131,7 @@ code_monitoring_webhooks:
   product_team: search_product
   maturity: not_implemented
   use_cases:
-    - none  
+    - none
 
 saved_searches:
   title: Saved Searches
@@ -139,7 +139,7 @@ saved_searches:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
   use_cases:
-  - none
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -160,7 +160,7 @@ search_contexts:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -181,7 +181,7 @@ search_based_code_intelligence:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -202,7 +202,7 @@ precise_code_intelligence_go:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -223,7 +223,7 @@ precise_code_intelligence_jsts:
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -244,7 +244,7 @@ precise_code_intelligence_java_scala_kotlin:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -265,7 +265,7 @@ precise_code_intelligence_c_cpp:
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -285,21 +285,21 @@ precise_code_intelligence_python:
   product_team: code_intelligence
   maturity: not_implemented
   use_cases:
-    - none  
+    - none
 
 precise_code_intelligence_csharp:
   title: Precise Code Intelligence for C#
   product_team: code_intelligence
   maturity: not_implemented
   use_cases:
-    - none  
+    - none
 
 precise_code_intelligence_ruby:
   title: Precise Code Intelligence for Ruby
   product_team: code_intelligence
   maturity: not_implemented
   use_cases:
-    - none  
+    - none
 
 batch_changes:
   title: Batch Changes
@@ -307,7 +307,7 @@ batch_changes:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/batch_changes
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -328,7 +328,7 @@ code_insights:
   maturity: beta
   documentation_link: https://docs.sourcegraph.com/
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -348,14 +348,14 @@ soc_ii_type_ii:
   product_team: security
   maturity: not_implemented
   use_cases:
-    - none  
+    - none
 
 repository_syncing:
   title: Repository Syncing
   product_team: repository_management
   maturity: ga
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -376,7 +376,7 @@ repository_permissions:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -397,7 +397,7 @@ user_authentication:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -418,7 +418,7 @@ browser_extension:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -439,7 +439,7 @@ native_integration:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -460,7 +460,7 @@ single_container_deployment:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -481,7 +481,7 @@ docker_compose_deployment:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -502,7 +502,7 @@ kubernetes_deployment:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -523,7 +523,7 @@ prebuilt_extensions:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -544,7 +544,7 @@ custom_extensions:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
   use_cases:
-    - none  
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
