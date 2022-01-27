@@ -121,7 +121,7 @@ cat $CURRENT_DEPLOYMENT/VERSION
 
 Go to [deploy-sourcegraph-docker], and compare with the latest tag.
 
-Follow the [upgrade process](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/upgrade_process) as needed
+Follow the [upgrade process](./upgrade_process.md) as needed
 
 [deploy-sourcegraph-managed]: https://github.com/sourcegraph/deploy-sourcegraph-managed
 [deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker/tags
