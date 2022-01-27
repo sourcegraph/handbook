@@ -74,6 +74,7 @@ Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.138065992
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm) All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor.
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
 - [AngelList](https://angel.co/company/sourcegraph)
+- [Diversify Tech](https://www.diversifytech.co/job-board)
 
 [Click here](../internship-program.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
 
