@@ -81,7 +81,7 @@ Within planned threshold when **ALL** of the following **are true**:
 - 4 US-based AERs working
 - Each AER working has more than 9 open, active cases
 
-**Contingency:** CS-triage alerts #ce and #sales that we are at level 5 and will get to all issues from post-sales customers as soon as we are able and within 4 business hours from the time of post.
+**Contingency:** CS-triage alerts #ce that we are at level 5 and will get to all issues from post-sales customers as soon as we are able and within 4 business hours from the time of post.
 
 #### Level 6
 
