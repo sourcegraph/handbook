@@ -56,7 +56,7 @@ Example topics to cover during intake meeting:
 
 **Step 3**: the Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
 
-- The recruiter follows [these instructions](recruitment_branding#before-posting-to-a-job-board) before posting a role to any given job board in order to track the source of applicants and help measure the job board's return on investment.
+- The recruiter follows [these instructions](departments/talent/process/recruitment_branding#before-posting-to-a-job-board) before posting a role to any given job board in order to track the source of applicants and help measure the job board's return on investment.
 
 **Step 4**: the Recruiter creates a Slack channel with the Interview Team and starts the Slack Kick-Off Process:
 
