@@ -6,7 +6,7 @@ literal_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - developer_onboarding
+    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
