@@ -98,4 +98,4 @@ Many reported issues are due to:
 - The customer has a [legacy license](#legacy-tags). If it is a legacy license, gates may not be enforced. This is easily fixed by creating a new license with updated tags for the customer, usually at renewal given they will need a new license at that time.
 - The customer is on version 3.26 or below. The current gating system was introduced in 3.27, so older versions may not be gated properly.
 
-If the problem you are observing is none of the cases above, please submit it as a [product gap](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders)
+If the problem you are observing is none of the cases above, please submit it as a [product gap](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UGhEAM/view?queryScope=userFolders). If unsure, ask in #wg-gating.
