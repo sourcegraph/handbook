@@ -51,7 +51,7 @@ First, the company's Sourcegraph administrator must create a Sourcegraph.com use
 
 #### Legacy tags
 
-The `enterprise` tag is a legacy tag that should not be used anymore. It gives access to all features, including `batch-changes`. Similarly, a license with no `plan:<...plan here...>` tag allows acess to all features.
+The `enterprise` tag is a legacy tag that should not be used anymore. It gives access to all features, including `batch-changes`. Similarly, a license with no `plan:` tag (no `plan:team-0`, `plan:enterprise-0`) allows acess to all features.
 
 ## Future state
 
