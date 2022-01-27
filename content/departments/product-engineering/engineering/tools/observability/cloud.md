@@ -47,6 +47,8 @@ Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?
 
 ## Cloudflare
 
+[Cloudflare Analytics](https://www.cloudflare.com/analytics/) is used to extract useful data about the performance of our WAF, as well as the overall traffic distribution to our instances. Note that the retention of analytics data is relatively short due to the [limits](https://developers.cloudflare.com/analytics/graphql-api/limits) on our plan.
+
 This section gives a quick overview of how to access Cloudflare analytics, and how to interface with their GraphQL API. Note that in most cases, you'll be able to get much richer metrics by accessing our [existing monitoring dashboards](monitoring.md) on our own internal monitoring.
 
 ## GraphQL API
