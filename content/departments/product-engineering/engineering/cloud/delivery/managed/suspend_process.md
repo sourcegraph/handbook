@@ -1,6 +1,6 @@
 # Suspending a managed instance
 
-This page documents how suspension of managed instances are done for [managed instances](./index.md). This is useful when Sales team would like to re-engage a customer at a later and they already have a managed instance provisioned. We will tear off most resources while still keeping the persistent data (disk snapshot) around.
+This page documents how suspension of managed instances are done for [managed instances](./index.md). This is useful when Sales team would like to re-engage a customer at a later date and they already have a managed instance provisioned. We will tear down most resources while still keeping the persistent data (disk snapshot) around.
 
 Managed instances configuration is tracked in [`deploy-sourcegraph-managed-instances`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
 
@@ -56,7 +56,7 @@ git checkout -b $CUSTOMER/suspend-instance
 cd $CUSTOMER
 ```
 
-### 1) Mark the database as ready-only
+### 1) Mark the database as read-only
 
 ```sh
 ../util/set-db-readonly.sh $CURRENT_DEPLOYMENT true

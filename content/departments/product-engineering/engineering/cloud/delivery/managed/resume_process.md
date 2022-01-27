@@ -1,4 +1,4 @@
-# Resumeing a managed instance
+# Resuming a managed instance
 
 This page documents how to resume suspended [managed instances](./index.md). This is useful when Sales team would like to re-engage a customer again where their managed instance was suspended.
 
@@ -31,7 +31,7 @@ Many of the following commands in this guide, as well as the commands [operation
 # name of customer deployment (should match folder)
 export CUSTOMER=<customer_or_instance_name>
 
-# the previous actvie deployment, either `red` or `black`
+# the previous active deployment, either `red` or `black`
 # this can be determined by obtaining the last snapshot name by running `gcloud compute snapshots list`
 # `default-red-data-disk-snapshot--upgrade-from-<>` -> `red`
 # `default-black-data-disk-snapshot--upgrade-from-<>` -> `black`
@@ -83,7 +83,7 @@ disks = {
 terraform plan -out resume.plan
 ```
 
-If everything look good to you, apply the plan
+If everything looks good to you, apply the plan
 
 ```sh
 terraform apply resume.plan
