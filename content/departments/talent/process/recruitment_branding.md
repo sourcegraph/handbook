@@ -65,6 +65,16 @@ If you want to make a suggestion or notice outdated company details on any of ou
 
 Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.1380659926.1640620768-539125958.1632800152) is a great resource for candidates to learn about working at Sourcegraph and view our current job opportunities. In addition to the Careers page, we also leverage Job Boards to post about our open roles.
 
+### Before posting to a job board:
+
+In order to assess the return on investment for any given job board, it is critical that we create custom sources and tracking links in Greenhouse. This will allow us to capture data on where applicants are applying from. To do this, please follow these instructions: 
+
+- Step 1: Send a Slack message to #hiring outlining the job board(s) you would like to post to and the job(s) you would like to see posted.
+
+- Step 2: A talent team member will 1) [create a custom source](https://support.greenhouse.io/hc/en-us/articles/200721664-Add-Custom-Source) in Greenhouse for that job board and 2) [create a tracking link for a single job post](https://support.greenhouse.io/hc/en-us/articles/4405093302427-Create-a-tracking-link-for-a-single-job-post) and/or [create a tracking link for the entire job board](https://support.greenhouse.io/hc/en-us/articles/201823760-Create-Tracking-Link-for-Job-Board).
+
+- Step 3: The talent team member will provide the tracking links in the thread and help you post the jobs! 
+
 ### We currently cross-post our open positions to the following locations:
 
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph). All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn.
