@@ -1,4 +1,4 @@
-# Software Development Life Cycle <span class="badge badge-note">SOC2/GN-98</span>
+# Software Development Life Cycle 
 
 Sourcegraph uses two types of approaches to drive changes: 
 
@@ -39,3 +39,7 @@ Sourcegraph uses two different mechanisms to deploy its changes in production:
 
 - [Continuous deployments](../engineering/index.md#sourcegraph-deployments-and-other-developer-test-instances)) on soucegraph.com 
 - [Release-based model](../engineering/process/releases/index.md) for [managed instances](../engineering/cloud/delivery/managed/index.md).
+
+---
+
+<span class="badge badge-note">SOC2/GN-98</span>
