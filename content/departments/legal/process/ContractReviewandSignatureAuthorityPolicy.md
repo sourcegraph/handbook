@@ -1,6 +1,6 @@
 # Contract review and signature authority policy
 
-Effective and last modified June 21, 2021
+Effective and last modified January 27, 2022
 
 The purpose of this policy is to help you direct your contracts to the right team or teammate to review, approve, and sign.
 
@@ -168,8 +168,10 @@ Templates:
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
   - Sign: VP Budget Owner or VP Finance/Operations
 
-**Legal Review Workflow for Vendor Contracts:**
+### Legal Review Workflow for Vendor Contracts:
 
+- Is legal review necessary?
+  - If (1) no personal data or sensitive data and (2) annual contract spend is projected to be <$100,000 per year, no legal review.
 - Does the vendor access, collect, or receive any customer data (including customer code, repo names, pings or personal data of customer personnel)?
   - Get a DPA
   - Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
@@ -179,12 +181,10 @@ Templates:
 - Does the vendor access one of the following types of sensitive data?
   - Sensitive security information (e.g. incident data, security logs, authentication)
   - Core IT infrastructure (e.g. GCP, AWS, customer data storage)
-    IF ANY OF THE ABOVE, legal to review and negotiate
+- IF ANY OF THE ABOVE, legal to review and negotiate
   - Indemnification for data breach/confidentiality breach
   - Uncapped liability for indemnification
   - Sample language is available in our [Vendor Review Playbook](https://docs.google.com/document/d/1RxuOmvrw8Khe7sbMoNcFkrASoTdh4a0MsqWrg4FWqpw/edit)
-- Is legal review necessary?
-  - If (1) no personal data or sensitive data and (2) annual contract spend is projected to be <$100,000 per year, no legal review.
 - Examples of contract types that generally do not require legal review
   - One-off team trainings that do not involve the provision of personal data
   - Events and conferences
