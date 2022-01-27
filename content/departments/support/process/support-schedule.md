@@ -33,7 +33,6 @@ _Note: we can only have 2-3 folks with the same focus day. If you don't see the 
 | Nonso       | 9am–5pm     | 09:00–16:00 | 12am–8am      | Monday    |
 | Virginia    | 8am–5pm     | 16:00–01:00 | 8am–5pm       | Friday    |
 
-
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
 ## Adjusting the schedule
