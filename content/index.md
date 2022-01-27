@@ -102,7 +102,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Resources for Candidates](departments/talent/index.md)
 - [Resources for Hiring Manager](departments/talent/index.md)
-- [Resources for Teammaates](departments/talent/index.md)
+- [Resources for Teammates](departments/talent/index.md)
 - [Resources for Recruiters](departments/talent/index.md)
 
 ### [Business Operations & Strategy](departments/bizops/index.md)
