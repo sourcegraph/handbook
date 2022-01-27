@@ -1,8 +1,8 @@
 # Resumeing a managed instance
 
-This page documents how to resume suspended [managed instances](./index.md). This is useful when Sales team would like to re-engage a customer again where their managed instances were suspended.
+This page documents how to resume suspended [managed instances](./index.md). This is useful when Sales team would like to re-engage a customer again where their managed instance was suspended.
 
-Managed instances configuration is tracked in [`deploy-sourcegraph-managed-instances`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
+Managed instances configuration is tracked in [deploy-sourcegraph-managed].
 
 For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
 
@@ -16,7 +16,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## General setup
 
-Managed instances configuration is tracked in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed) - make sure you have the latest revision of this repository checked out. For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
+Managed instances configuration is tracked in [deploy-sourcegraph-managed] - make sure you have the latest revision of this repository checked out. For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
 
 First, ensure you have the prerequisites installed and up-to-date:
 
@@ -38,7 +38,7 @@ export CUSTOMER=<customer_or_instance_name>
 export CURRENT_DEPLOYMENT="[red|black]"
 ```
 
-Make sure your copy of the [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository is up to date:
+Make sure your copy of the [deploy-sourcegraph-managed]() repository is up to date:
 
 ```sh
 git checkout main
@@ -63,21 +63,11 @@ cd $CUSTOMER
 
 ### 1) Prepare terraform module
 
-Uncomment the following in `infrastructure.tf`.
+Uncomment out the following resources in `infrastructure.tf`.
 
-- `google_compute_instance.primary` resource
-- `google_compute_resource_policy.primary` resource
-- `google_compute_disk_resource_policy_attachment.prmary` resource
-- `google_compute_disk.primary` resource
-- `google_compute_network_endpoint.primary` resource
-- all resources under `Monitoring / alerting` section
-- `opsgenie_webhook` output
-
-Run comand below to revert allowed deletion of KMS
-
-```sh
-sed -i '' 's/    prevent_destroy = false/    prevent_destroy = true/g' infrastructure.tf
-```
+- `google_compute_network_endpoint.primary`
+- `google_monitoring_uptime_check_config.primary`
+- `google_monitoring_alert_policy.primary`
 
 Update `terraform.tfvars`, replace `<snapshot_name>` with the snapshot taken during suspend process. Depending on the previous active deployment, the disk to restore from may vary. Run `gcloud compute snapshots list` to obtain the snapshot name.
 
@@ -109,7 +99,7 @@ You should ssh into the deployment and wait until postgres services are healthy 
 
 ### 3) Verify instance heath
 
-Consult the [upgrade process](./upgrade_process#8-confirm-instance-health) for more detail.
+Consult the [upgrade process](upgrade_process.md#8-confirm-instance-health) for more detail.
 
 ### 4) Wrapping up
 
@@ -120,3 +110,5 @@ git add . && git commit -m "$CUSTOMER: resume instance" && git push origin HEAD
 And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person touching the instance will have a very bad time.
+
+[deploy-sourcegraph-managed]: https://github.com/sourcegraph/deploy-sourcegraph-managed

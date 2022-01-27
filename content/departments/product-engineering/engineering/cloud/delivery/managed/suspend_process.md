@@ -76,30 +76,21 @@ Make sure to `terraform apply` any additional changes you make.
 
 ### 3) Remove some resources
 
-Run comand below to allow deletion of KMS
+Comment out the `deployments` list and `disks` map in `terraform.tfvars` (this makes whoever is going to resume the instance life easier), then paste below snippet into the file.
 
-```sh
-sed -i '' 's/    prevent_destroy = true/    prevent_destroy = false/g' infrastructure.tf
+```tf
+deployments = []
+disks       = {}
 ```
 
-Comment out the following in `infrastructure.tf`. __IMPORTANT__: Do not remove the `google_compute_snapshot.manual_snapshot` resource, this will result in data loss
+Comment out the following resources in `infrastructure.tf`.
 
-- `google_compute_instance.primary` resource
-- `google_compute_resource_policy.primary` resource
-- `google_compute_disk_resource_policy_attachment.prmary` resource
-- `google_compute_disk.primary` resource
-- `google_compute_network_endpoint.primary` resource
-- all resources under `Monitoring / alerting` section
-- `opsgenie_webhook` output
+- `google_compute_network_endpoint.primary`
+- `google_monitoring_uptime_check_config.primary`
+- `google_monitoring_alert_policy.primary`
 
 ```sh
-terraform plan -out suspend.plan
-```
-
-If everything look good to you, apply the plan
-
-```sh
-terraform apply suspend.plan
+terraform plan && terraform apply
 ```
 
 ### 4) Wrapping up
