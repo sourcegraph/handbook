@@ -34,6 +34,10 @@ export CUSTOMER=<customer_or_instance_name>
 
 # the previous active deployment, either `red` or `black`
 export CURRENT_DEPLOYMENT=$(gcloud compute snapshots list --format json --sort-by '~creationTimestamp' --limit 1 | jq -r '.[0].name' | awk -F: '{ if ($1 ~ "-red-") {print "red"} else {print "black"} }')
+
+# The value can be found in the Managed Instances vault
+# https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m
+export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 ```
 
 Make sure your copy of the [deploy-sourcegraph-managed]() repository is up to date:
