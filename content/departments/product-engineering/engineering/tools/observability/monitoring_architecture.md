@@ -104,8 +104,9 @@ _Rationale for an all-in-one Prometheus image with prom-wrapper_: This allows us
 
 ## Custom additions
 
-There is currently no process defining how custom additions should be made to our monitoring stack (for example, to accomodate Cloud-specific needs).
+To add custom dashboards for Cloud-specific needs, see [Creating Cloud-only Grafana dashboards](#creating-cloud-only-grafana-dashboards).
 
+There is currently no process defining how custom alerts should be added.
 [RFC 208](https://docs.google.com/document/d/1ub1xsrKTdjA5n-4MAk4AZXtInmgJlMwJ0pI1opkq5mo/) / https://github.com/sourcegraph/sourcegraph/issues/12396 is an ongoing discussion on what custom additions might look like.
 
 ## Sourcegraph Cloud
