@@ -287,6 +287,29 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
+export async function generateUseCaseFeatureList(use_case) {
+  const features = await readYamlFile('data/features.yml')
+  let pageContent = ''
+  let featureCount = 0
+  for (const feature of Object.values(features)) {
+    if (!feature.maturity.includes('deprecated', 'not_implemented')) {
+      if (feature.use_cases.includes(use_case)) {
+        featureCount++
+        if (feature.documentation_link) {
+          pageContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+        } else {
+          pageContent += `- ${String(feature.title)}\n`
+        }
+        
+      }
+    }
+  }
+  if (featureCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
 /**
  * Used in cases where a team in comprised of individuals who report to different
  * people, but work on the same thing.

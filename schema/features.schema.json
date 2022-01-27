@@ -9,6 +9,9 @@
       "product_team": {
         "type": "string"
       },
+      "use_cases": {
+        "type": "array"
+      },
       "maturity": {
         "type": "string",
         "enum": ["ga", "partial_ga", "beta", "experimental", "not_implemented", "deprecated"]

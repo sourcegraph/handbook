@@ -66,6 +66,10 @@ Despite the lack of deliberate focus on solving this problem, the following are 
 
 - Help surface best practices across the team
 
+## Features that enable this use case
+
+{{generator:use_case_feature_list.developer_onboarding}}
+
 ## Additional resources
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
