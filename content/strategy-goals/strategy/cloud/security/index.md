@@ -52,3 +52,9 @@ These are goals that we have not started working on, but expect to begin work on
 
 - [High level roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2866503-fy2022-security)
 - [Completed/in-progress/planned in Productboard](https://sourcegraph.productboard.com/feature-board/2130270-security)
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.security}}

@@ -287,6 +287,39 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
+export async function generateProductTeamUseCaseList(product_team) {
+  const features = await readYamlFile('data/features.yml')
+  const useCases = await readYamlFile('data/use_cases.yml')
+  let pageContent = ''
+  let useCaseCount = 0
+  for (const [useCaseName, useCase] of Object.entries(useCases)) {
+    let useCaseContent = `### ${useCase.title}\n\n`
+    let featureCount = 0
+    for (const feature of Object.values(features)) {
+      if (feature.product_team === product_team) {
+        if (!feature.maturity.includes('deprecated', 'not_implemented')) {
+          if (feature.use_cases.includes(useCaseName)) {
+            useCaseCount++
+            featureCount++
+            if (feature.documentation_link) {
+              useCaseContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+            } else {
+              useCaseContent += `- ${String(feature.title)}\n`
+            }
+          }
+        }
+      }
+    }
+    if (featureCount > 0) {
+      pageContent += useCaseContent
+    }
+  }
+  if (useCaseCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
 export async function generateUseCaseFeatureList(use_case) {
   const features = await readYamlFile('data/features.yml')
   let pageContent = ''
