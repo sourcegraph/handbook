@@ -27,6 +27,10 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 ---
 
+## Security Policies
+
+See [security_policies](security-policies.md).
+
 ## Responsibilities
 
 - Proactively improve the security of our application and infrastructure.
