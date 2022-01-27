@@ -33,10 +33,7 @@ Many of the following commands in this guide, as well as the commands [operation
 export CUSTOMER=<customer_or_instance_name>
 
 # the previous active deployment, either `red` or `black`
-# this can be determined by obtaining the last snapshot name by running `gcloud compute snapshots list`
-# `default-red-data-disk-snapshot--upgrade-from-<>` -> `red`
-# `default-black-data-disk-snapshot--upgrade-from-<>` -> `black`
-export CURRENT_DEPLOYMENT="[red|black]"
+export CURRENT_DEPLOYMENT=$(gcloud compute snapshots list --format json --sort-by '~creationTimestamp' --limit 1 | jq -r '.[0].name' | awk -F: '{ if ($1 ~ "-red-") {print "red"} else {print "black"} }')
 ```
 
 Make sure your copy of the [deploy-sourcegraph-managed]() repository is up to date:
