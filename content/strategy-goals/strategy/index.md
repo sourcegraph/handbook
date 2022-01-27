@@ -41,6 +41,7 @@ There are also several related resources:
 - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
 - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
 - How we [work with use cases](working_with_use_cases.md)
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) (private until GA)
 
 ### Principles
 
