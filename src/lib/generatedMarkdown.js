@@ -293,7 +293,7 @@ export async function generateProductTeamUseCaseList(product_team) {
   let pageContent = ''
   let useCaseCount = 0
   for (const [useCaseName, useCase] of Object.entries(useCases)) {
-    let useCaseContent = `### ${useCase.title}\n\n`
+    let useCaseContent = `### [${String(useCase.title)}](${String(useCase.link)})\n\n`
     let featureCount = 0
     for (const feature of Object.values(features)) {
       if (feature.product_team === product_team) {
