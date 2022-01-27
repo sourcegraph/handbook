@@ -41,6 +41,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 - `internal` for licenses used for internal sites (dotcom, k8s, etc.)
 - `dev` for internal developer licenses
 - The company's name (with dashes instead of spaces), to make it easy to search for a given license key in the future.
+
 7. Set the licensed number of users (note that if you added the `true-up` tag above, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
 8. Finally, copy the license key, and send it to the relevant contact at the company.
 
