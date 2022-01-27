@@ -51,7 +51,7 @@ Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?
 
 This section gives a quick overview of how to access Cloudflare analytics, and how to interface with their GraphQL API. Note that in most cases, you'll be able to get much richer metrics by accessing our [existing monitoring dashboards](monitoring.md) on our own internal monitoring.
 
-## GraphQL API
+### GraphQL API
 
 Cloudflare Analytics provides a somewhat [limited](https://developers.cloudflare.com/analytics/graphql-api/limits) API for retrieving monitoring data. Note that you can only retrieve relatively recent data, and have a limited number of operations.
 
