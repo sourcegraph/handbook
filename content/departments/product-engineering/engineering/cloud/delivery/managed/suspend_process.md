@@ -71,8 +71,11 @@ git add . && git commit -m "$CUSTOMER: snapshot deployment"
 
 This can take anywhere from a minute to several minutes, depending on how large the disk is.
 
-Note the number of snapshots in `terraform.tfvars`, and prune snapshots >5 upgrades old where appropriate.
-Make sure to `terraform apply` any additional changes you make.
+If there are more than one snapshot in the `snapshots` list in `terraform.tfvars`, only keep the latest one. Then apply your changes again
+
+```sh
+terraform apply
+```
 
 ### 3) Remove some resources
 

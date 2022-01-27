@@ -12,7 +12,8 @@ For basic operations like accessing an instance for these steps, see [managed in
   - [1) Prepare terraform module](#1-prepare-terraform-module)
   - [2) Make database writable](#2-make-database-writable)
   - [3) Verify instance heath](#3-verify-instance-heath)
-  - [4) Wrapping up](#4-wrapping-up)
+  - [4) Commit your change](#4-commit-your-change)
+  - [5) Upgrade as needed](#5-upgrade-as-needed)
 
 ## General setup
 
@@ -69,6 +70,8 @@ Uncomment out the following resources in `infrastructure.tf`.
 - `google_monitoring_uptime_check_config.primary`
 - `google_monitoring_alert_policy.primary`
 
+In `terraform.tfvars`, remove the emply `deployments` list and empty `disks` map, uncomment the previous `deployments` and `disks` varible.
+
 Update `terraform.tfvars`, replace `<snapshot_name>` with the snapshot taken during suspend process. Depending on the previous active deployment, the disk to restore from may vary. Run `gcloud compute snapshots list` to obtain the snapshot name.
 
 If the `$CURRENT_DEPLOYMENT` is `red`, vice versa.
@@ -101,7 +104,7 @@ You should ssh into the deployment and wait until postgres services are healthy 
 
 Consult the [upgrade process](upgrade_process.md#8-confirm-instance-health) for more detail.
 
-### 4) Wrapping up
+### 4) Commit your change
 
 ```sh
 git add . && git commit -m "$CUSTOMER: resume instance" && git push origin HEAD
@@ -111,4 +114,18 @@ And click the provided link to open a pull request in [`deploy-sourcegraph-manag
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person touching the instance will have a very bad time.
 
+#### 5) Upgrade as needed
+
+Check if the instance is running the latest version of Sourcegraph. First, obtain the current version
+
+```sh
+cat $CURRENT_DEPLOYMENT/VERSION
+```
+
+Go to [deploy-sourcegraph-docker], and compare with the latest tag.
+
+Follow the [upgrade process](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/upgrade_process) as needed
+
+
 [deploy-sourcegraph-managed]: https://github.com/sourcegraph/deploy-sourcegraph-managed
+[deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker/tags
