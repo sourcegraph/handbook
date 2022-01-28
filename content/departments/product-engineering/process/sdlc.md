@@ -2,32 +2,30 @@
 
 Sourcegraph uses two types of approaches to drive changes:
 
-- [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. These documents. A list of all publicly available PDs is available.
+- [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
 - [Request For Comments](../../../company-info-and-process/communication/rfcs/index.md) to communicate technical problems or specific solutions in response to a Product Document.
 
-Sourcegraph follows an agile process, meaning that the team will repeatedly go through in order to refine the result and adapt to changes discovered during each phases.
+Sourcegraph follows an agile process, which means that the teams go through repeated iterations on a solution in order to refine results and adapt to changes discovered during each phase.
 
 ## Design
 
-Designing at Sourcegraph starts with a design document, either a formal one in the shape of a PD or RFC, or an informal one (a GitHub issue, a Google Doc) that gets formalized into an RFC or PD as the explorative work progresses.
+Designing at Sourcegraph starts with a design document, which can be either a formal PD or RFC, or an informal GitHub Issue or Google Doc that gets formalized into an RFC or PD as the explorative work progresses.
 
-The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows the [product design principles](../product/design/index.md). Through an iterative process, the team solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
+The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
-A detailed version of the [design process](../product/design/design_process.md) is available.
-
-It may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
+A detailed version of the [design process](../product/design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
 
 ## Implementation
 
-The relevant engineering teams divide the necessary work from the Product Document with the help of a Product Manager, into smaller tracked units of work with the tracking system of their choice.
+With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice.
 
-They iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document. Instead of a product manager, an engineering manager or engineer may lead the work in this manner.
+Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document, though an Engineering Manager or Engineer may also lead the work in this manner.
 
-In the eventuality of complex problems surfacing during this step, an RFC can be created to frame the discussions around that particular problem to provide an adequate solution.
+If complex problems surface during this step, an RFC can be created to frame the discussions around that particular problem to provide an adequate solution.
 
 ## Testing
 
-The outcome of this phase is two-fold: conformance to the requirements stated in the Product Document and ensuring the right quality level has been achieved, both in terms of service and security. Quality is ensured through reviewing conformance to the Product Document. Security is evaluated through automated vulnerability scanning and SAST during continuous integration and warns the developers of their presence without failing the build.
+The testing phase ensures conformance to the requirements stated in the Product Document and to appropriate standards for service and security. Security is evaluated through automated vulnerability scanning and SAST during continuous integration and warns the developers of vulnerabilities without failing the build.
 
 If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
 
