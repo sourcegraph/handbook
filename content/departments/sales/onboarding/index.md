@@ -5,8 +5,8 @@ Welcome to Sourcegraph! As a member of the sales team, you represent us and our 
 See also [Sales onboarding logistics](https://docs.google.com/document/d/1un9fFPCBtcyWQSJtorUz20zI5LJGMTpdmmTomE9ndEM/edit).
 Read about Sales onboarding Mentor program:
 
-- (New AE onboarding mentor program)[ae-onboarding-mentor.md]
-- (SDR to AE Transition onboarding mentor program)[transition-ae-onboarding-mentor.md]
+- [New AE onboarding mentor program](ae-onboarding-mentor.md)
+- [SDR to AE Transition onboarding mentor program](transition-ae-onboarding-mentor.md)
 
 ## Getting started
 
