@@ -307,7 +307,7 @@ batch_changes:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/batch_changes
   use_cases:
-    - none
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
