@@ -10,7 +10,7 @@ Hands on with lots of questions.
 
 ### Communication style
 
-I’m pretty straightforward and love to ask questions. It thats not your style, I can adjust to what works for you. 
+I’m pretty straightforward and love to ask questions. It thats not your style, I can adjust to what works for you.
 
 ### Preferred way to collaborate
 
@@ -50,15 +50,15 @@ Undefined expecations, poor communication, lack of empathy, knowing we can do be
 
 ### Technical areas of interest to learn
 
-To be determined! I love to be a student. 
+To be determined! I love to be a student.
 
 ### Current personal project
 
-Converting our guest room into my new office. Come spring it will be my garden. Come summer it will be my tan. 
+Converting our guest room into my new office. Come spring it will be my garden. Come summer it will be my tan.
 
 ### Something I fear
 
-Failing. But I fear not trying more. 
+Failing. But I fear not trying more.
 
 ### A quote I like
 
