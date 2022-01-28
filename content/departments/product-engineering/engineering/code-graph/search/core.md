@@ -63,6 +63,8 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 Public resources are available here:
 
 - [Learning Go](https://go.dev)
+- [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
+- [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
