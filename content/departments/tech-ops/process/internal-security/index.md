@@ -12,15 +12,15 @@ Computer requirements
 
 Required security measures for all full-time teammates, interns, and temp contractors:
 
-- Setup our basaeline security standards before accessing Sourcegraph data
-- All Sourcegraph computers be enrolled with both Workspace One and Carbon Black
-- Follow password guidelines for accessing/administering systems as well as to protecting your devices
+- Setup our baseline security standards before accessing Sourcegraph data.
+- All Sourcegraph computers be enrolled with both Workspace One and Carbon Black.
+- Follow password guidelines for accessing/administering systems as well as to protecting your devices.
 
 Security measures Tech Ops is taking:
 
 - Advanced phishing/spoofing settings
 - Quarterly system reviews (in work)
-- Internal aduits (in work)
+- Internal audits (in work)
 
 ## Phishing/spoofing
 
