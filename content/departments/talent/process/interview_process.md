@@ -140,7 +140,9 @@ Please leverage the below **definitions** when rating candidates:
 
 `Yes` You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
 
-`No` You are neutral or have doubts about whether this person would make our team better.
+`Neutral` You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended. To indicate that you're neutral, please **do not select any score** and press submit.
+
+`No` You have doubts about whether this person would make our team better.
 
 `Strong No` You are very confident that we should not hire this person because they would not be successful on our team.
 

@@ -3,6 +3,7 @@
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
 - [Engineering management](tools/engineering-management.md)
+- [Policies](policies/index.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
@@ -18,6 +19,7 @@
   - [External contributions](process/external_contributions.md)
   - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
+  - [IAM model for GCP](process/engineering_iam_model.md)
 - [Tooling](tools/index.md)
   - [Slackgenie](tools/slackgenie.md)
 - Infrastructure
@@ -31,14 +33,13 @@
 - [Career development](career-development/index.md)
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
-- [Core Application Operational Rotation](core-application/index.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
 
 Welcome to Engineering!
 
 <div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://storage.googleapis.com/sourcegraph-assets/handbook/eng%20dept%20video.mp4" allowfullscreen="" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
+    <iframe class="embed-responsive-item" src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4" allowfullscreen="" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" frameborder="0"></iframe>
 </div>
 
 ## Org chart

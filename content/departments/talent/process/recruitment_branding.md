@@ -3,26 +3,31 @@
 Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../tools/resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../company-info-and-process/values/index.md).
 This page outlines recruitment branding tips and information to tell the story of what it's like to [work at Sourcegraph](../tools/resources_for_candidates.md#working-at-sourcegraph).
 
-## Social Media
-
 We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages.
 
-### Posting Best Practices
+## Sharing to your personal social platforms
 
-Below is information to reference when posting about Sourcegraph on your personal social platforms. Thank you for helping us attract and hire the best talent!
+Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin and Twitter profiles as well. Thank you for helping us attract and hire the best talent!
 
-Linked In
+### Linked In
+
+- Copy options for LinkedIn
+  - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
+  - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
+- View the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph) to find recent updates and articles to share
+
+#### LinkedIn Posting Best Practices
 
 - Use this [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/) and our [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter) to understand recent best practices for sharing hiring initiatives on your LinkedIn Profile.
-- If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
-- Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well.
 - [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
 
-Twitter
+### Twitter
 
-- Coming Soon!
+- Copy options for Twitter
+  - Click to tweet: https://ctt.ac/k23tL
+  - Click to tweet: https://ctt.ac/dxqE5
 
-Company content to share:
+### Company content to share:
 
 - Sourcegraph Youtube, Blog, and Handbook content
 - [Sourcegraph Universal Code Search](https://www.youtube.com/watch?v=GQj5jXdON3A)
@@ -60,6 +65,16 @@ If you want to make a suggestion or notice outdated company details on any of ou
 
 Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.1380659926.1640620768-539125958.1632800152) is a great resource for candidates to learn about working at Sourcegraph and view our current job opportunities. In addition to the Careers page, we also leverage Job Boards to post about our open roles.
 
+### Before posting to a job board:
+
+In order to assess the return on investment for any given job board, it is critical that we create custom sources and tracking links in Greenhouse. This will allow us to capture data on where applicants are applying from. To do this, please follow these instructions:
+
+- Step 1: Send a Slack message to #hiring outlining the job board(s) you would like to post to and the job(s) you would like to see posted.
+
+- Step 2: A talent team member will 1) [create a custom source](https://support.greenhouse.io/hc/en-us/articles/200721664-Add-Custom-Source) in Greenhouse for that job board and 2) [create a tracking link for a single job post](https://support.greenhouse.io/hc/en-us/articles/4405093302427-Create-a-tracking-link-for-a-single-job-post) and/or [create a tracking link for the entire job board](https://support.greenhouse.io/hc/en-us/articles/201823760-Create-Tracking-Link-for-Job-Board).
+
+- Step 3: The talent team member will provide the tracking links in the thread and help you post the jobs!
+
 ### We currently cross-post our open positions to the following locations:
 
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph). All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn.
@@ -69,6 +84,9 @@ Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.138065992
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm) All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor.
 - [Blind](https://www.teamblind.com/company/Sourcegraph/)
 - [AngelList](https://angel.co/company/sourcegraph)
+- [Diversify Tech](https://www.diversifytech.co/job-board)
+
+[Click here](../internship-program.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
 
 ### Job boards and coding bootcamps we have posted to in the past:
 

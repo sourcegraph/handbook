@@ -61,7 +61,12 @@ Recent key learnings:
 
 ### Competitive landscape
 
-- **Code hosts:** Both GitHub and GitLab have navigation features, mostly powered by imprecise code intelligence. They have good out-of-the-box support, but their chosen technical path prioritizes wider language breath sacrificing accuracy. Our precise code intelligence approach focuses on having 100% accuracy by implementing LSIF indexers. So far none of our competitors have mimicked the approach, but as precise code navigation gains traction this is a potential risk.
+- **Code hosts:** Both GitHub and GitLab offer navigation features, mostly powered by fuzzy code intelligence.
+
+  GitHub has recently released a new version of their [Code Search](https://cs.github.com/) which includes an enhanced version of our search-based code intelligence approach. This means their chosen technical path prioritizes wider language breath while sacrificing accuracy. However, if GitHub's Code Search navigation proves to be "good enough" for most use cases, we'll have to directly compete for adoption and usage.
+
+  Our precise code intelligence approach remains our key competitive advantage as it focuses on returning 100% accurate results and lays a solid foundation that enables implementing advanced navigation features like finding implementations and cross-dependency navigation. None of our competitors have mimicked the approach yet.
+
 - **IDEs:** Code navigation is a core part of a developer’s workflow and most IDEs have advanced navigation features we cannot avoid competing with. Most developers expect Sourcegraph’s code navigation to have feature parity with their favorite IDE.
 - **Other navigation tools:** These are usually focused on a small scope of languages, none of them have reached wide usage or compete directly with our current value proposition yet.
 

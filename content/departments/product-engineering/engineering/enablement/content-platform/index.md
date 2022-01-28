@@ -4,12 +4,7 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 ## Members
 
-- [Mary Belzer](../../../../../team/index.md#mary-belzer) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Stephanie Zabala](../../../../../team/index.md#stephanie-zabala) ([Designer](../../../product/roles/index.md#product-designer))
-- [Jean du Plessis](../../../../../team/index.md#jean-du-plessis) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Katy Juell](../../../../../team/index.md#katy-juell)
-  - [Brett Hayes](../../../../../team/index.md#brett-hayes)
-  - Mate Gyorffy (Contractor)
+{{generator:product_team.content_platform}}
 
 ## Our Strategy
 
@@ -31,7 +26,7 @@ The current existing content platforms include:
 
 ### Requests
 
-The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Requests to the content platform team can be made through a Slack workflow:
+The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Note that if you're comfortable making changes to one of these sites, you don't have to put in a request for the Content Platform Team. We are happy to serve as a review on your PR, but no need to put in a request unless you need us to complete the work for you. Requests to the content platform team can be made through a Slack workflow:
 
 1. In the #content-platform channel in Slack, click the + icon, then “Content Platform Request”
 

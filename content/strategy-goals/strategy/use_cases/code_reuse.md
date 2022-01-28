@@ -6,7 +6,7 @@ This page provides a strategic introduction to one of our [company use cases](..
 
 <!-- Convey what things will be like in the future for your use case, being as descriptive as you can to help someone understand where we are headed with our vision. -->
 
-Sourcegraph is the way that devs discover libraries and learn how to reuse them. It's also how library maintainers monitor and understand usage. Every dev and eng leader wants more and better code reuse, but it's not something you can mandate or just decide to start doing.. it's an extremely complex and knowledge-intensive phenomenon that involves every member of the eng team and requires the following 5 processes to work extremely well:
+Sourcegraph is the way that devs discover libraries and learn how to reuse them. It's also how library maintainers monitor and understand usage. Every dev and eng leader wants more and better code reuse, but it's not something you can mandate or just decide to start doing—it's an extremely complex and knowledge-intensive phenomenon that involves every member of the eng team and requires the following 5 processes to work extremely well:
 
 - How developers discover existing code libraries that they can use
 - How developers evaluate whether the code libraries are high quality and appropriate for their needs
@@ -16,7 +16,7 @@ Sourcegraph is the way that devs discover libraries and learn how to reuse them.
 
 [Innersourcing](https://en.wikipedia.org/wiki/Inner_source) (see also [GitLab's definition](https://about.gitlab.com/topics/version-control/what-is-innersource)) is necessary but not sufficient for code reuse. In order to reuse code, you need to be able to view the code. But you can't stop there. Just making it visible doesn't mean it's easy to discover code to reuse, evaluate it, and so on. Any organization that embarked on an innersourcing journey intending to improve code reuse needs to follow through (see the "Our model" section for what's needed).
 
-Note that "Code reuse" as we use it always refers to code library reuse, not to copy-paste reuse. Also, the terms "library" and "API" have a nuanced relationship - in the context of this use case, they are roughly interchangeable.
+Note that "Code reuse" as we use it always refers to code library reuse, not to copy-paste reuse. Also, the terms "library" and "API" have a nuanced relationship—in the context of this use case, they are roughly interchangeable.
 
 ## Why this is important
 
@@ -34,7 +34,7 @@ Every developer and software project practices code reuse to some degree---it's 
 
 <!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. This is perhaps the most important single section in this document, so don't be afraid to add too much - if you feel this section is getting long, consider summarizing here and linking out to other pages in the handbook with details. -->
 
-Code Search, Batch Changes, and Code Insights play a key role here.
+Code Search, Batch Changes, Code Intel, and Code Insights play a key role here.
 
 The following are real, anonymized quotes from customers today on how we're already helping them with this use case:
 
@@ -66,6 +66,7 @@ Additionally, the "platform team" (a central team that mains many or most librar
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
+- [Marketing page for Code Reuse use case](https://about.sourcegraph.com/use-cases/#streamline-code-reuse)
 - [Use case index](../index.md#use-cases)
 - [Productboard code reuse (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482292/detail)
 - [Drive innovation by enabling innersource](https://drive.google.com/file/d/1hiyTxBA_n43LsZjhuE3YOMiWZdAOHcTn/view?usp=sharing), Gartner. Analyst research that cites Sourcegraph as a key resource for enabling innersource and code reuse.
