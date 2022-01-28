@@ -112,7 +112,7 @@ Where does MQL data live within Salesforce (relevant to leads and contacts only)
 
 Where / how do we track MQLs at Sourcegraph:
 
-- [Demand Gen / Marketing]: tracks new MQLs generated over time across multiple dashboards
+- Demand Gen / Marketing: tracks new MQLs generated over time across multiple dashboards
 - [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new MQLs generated over time as well as qualified opportunity conversion rates by First Touchpoint
 
 **Product Qualified Lead (PQL)**
