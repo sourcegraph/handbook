@@ -6,8 +6,6 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 {{generator:product_team.content_platform}}
 
-- Mate Gyorffy (Contractor)
-
 ## Our Strategy
 
 [Mission & Vision](../../../../../strategy-goals/strategy/enablement/content-platform/index.md)
@@ -28,7 +26,7 @@ The current existing content platforms include:
 
 ### Requests
 
-The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Requests to the content platform team can be made through a Slack workflow:
+The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Note that if you're comfortable making changes to one of these sites, you don't have to put in a request for the Content Platform Team. We are happy to serve as a review on your PR, but no need to put in a request unless you need us to complete the work for you. Requests to the content platform team can be made through a Slack workflow:
 
 1. In the #content-platform channel in Slack, click the + icon, then “Content Platform Request”
 
