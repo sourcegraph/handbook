@@ -12,7 +12,7 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 ### Linked In
 
 - If you share all of our [open roles](https://boards.greenhouse.io/sourcegraph91) on your LinkedIn, please use the following link so that Greenhouse can track the applicants that apply through our personal LinkedIn posts: https://grnh.se/6c3034d74us
-  - If you prefer to share a specific role, rather than the entire job board, please send a Slack message to #hiring and a member of the talent team will create a  LinkedIn tracking link for you to use
+  - If you prefer to share a specific role, rather than the entire job board, please send a Slack message to #hiring and a member of the talent team will create a LinkedIn tracking link for you to use
 - Copy options for LinkedIn
   - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
