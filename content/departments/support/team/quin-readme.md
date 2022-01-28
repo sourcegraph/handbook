@@ -52,7 +52,7 @@ I'm responsible for maintaining my own boundaries. If I can't stop myself from m
 
 My brain floats around in a fun cocktail of ADHD, depression, and anxiety, which is fortunately pretty much managed at this point in my life. If things get a little bumpy, I can recenter after a chance to just talk through where I'm at with someone. If the result of that talk is that I take on less than I usually would, okay, I don't love that, but it's something I'm getting better at accepting.
 
-But sometimes the bumps are big, and while I technically *can* push through and get the work done, it definitely isn't good for me. These are also the times when I'm least capable of expressing and asking for what I need. Which is a long way of saying please ask me if work is the right place for me to be. And maybe push back if you can tell I'm brushing the idea off without proper consideration - but only if you're feeling up to it. You're not my therapist or my parent, my ability to self-regulate is not your responsibility.
+But sometimes the bumps are big, and while I technically _can_ push through and get the work done, it definitely isn't good for me. These are also the times when I'm least capable of expressing and asking for what I need. Which is a long way of saying please ask me if work is the right place for me to be. And maybe push back if you can tell I'm brushing the idea off without proper consideration - but only if you're feeling up to it. You're not my therapist or my parent, my ability to self-regulate is not your responsibility.
 
 ## Things you are aware of that trigger anxious feelings/feelings of less than at work
 
@@ -93,12 +93,12 @@ Heights. Disappointing people who rely on me.
 ## A quote you like
 
 > You do not have to be good.  
-You do not have to walk on your knees  
-for a hundred miles through the desert repenting.  
-You only have to let the soft animal of your body  
-love what it loves.
+> You do not have to walk on your knees  
+> for a hundred miles through the desert repenting.  
+> You only have to let the soft animal of your body  
+> love what it loves.
 
--Excerpt from *Wild Geese* by Mary Oliver
+-Excerpt from _Wild Geese_ by Mary Oliver
 
 ## How you eat fries (with or without ketchup (ketchup on the fries or on the side), etc)
 
