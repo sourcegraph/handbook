@@ -328,7 +328,11 @@ code_insights:
   maturity: beta
   documentation_link: https://docs.sourcegraph.com/
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
