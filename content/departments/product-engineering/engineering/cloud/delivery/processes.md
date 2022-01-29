@@ -32,6 +32,8 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 
 ## How we work
 
+### Planning, sync, & retro
+
 We're currently working in a Kanban style. It suits the fact that support work often cannot wait for a new sprint, and so the idea of being able to plan what we be delivered in any period of time is unreliable.
 
 Kanban means we maintain a backlog of work we want to complete, prioritized in such a way that the team picks up the next highest priority thing.
@@ -48,3 +50,9 @@ We still work in 2 week cycles, and have the following ceremonies:
    - This happens on the weeks we don't have planning, and is a check in on the plans and anything new
 3. Retro (biweekly)
    - A review of what we did for learing purposes
+
+### Issue tracking
+
+<!-- TODO: We should copy the content of google docs over here once the content is finalized -->
+
+The [Delivery GitHub project](https://github.com/orgs/sourcegraph/projects/205) is the single source of truth. You shoud go over this [doc](https://docs.google.com/document/d/1HBsAwXuuAVWMCl1_C2hNnKGmoOHGEmcpkQG_jQBSZeg/edit?usp=sharing) to understand how we use the board.

@@ -1,6 +1,6 @@
 # Delivery team
 
-The Delivery team (part of the [Enablement](../index.md) org).
+Delivery team is a part of the [DevOps](../devops/index.ms) team (prt of the [Cloud](../index.md) org).
 
 ## Mission
 
@@ -8,10 +8,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Members
 
-- [Jean du Plessis](../../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../../roles/index.md#director-of-engineering)) and (acting [Engineering Manager](../../roles/index.md#engineering-manager))
-- [Dan Mckean](../../../../../team/index.md#dan-mckean) (acting [Product Manager](../../../product/roles/index.md#product-manager))
-- [Crystal Augustus](../../../../../team/index.md#crystal-augustus)
-- [Kevin Wojkovich](../../../../../team/index.md#kevin-wojkovich)
+{{generator:product_team.devops}}
 
 ## Strategy
 
