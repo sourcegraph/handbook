@@ -5,7 +5,7 @@ Cloud DevOps team consists of two streams with different focus area.
 - DevOps
 - [Delivery]
 
-If you're looking DevOps stream documentation, stay on this page.
+If you're looking for DevOps stream documentation, stay on this page.
 If you're looking for [Delivery] specific documentation, visit this [page](../delivery/index.md).
 
 ## Vision
