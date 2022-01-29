@@ -91,4 +91,4 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 - Develop any new material required to help others level up and understand our product
 - Add to the teams planning and OKRs
 
-[GCP]: https://console.cloud.google.com
+[gcp]: https://console.cloud.google.com

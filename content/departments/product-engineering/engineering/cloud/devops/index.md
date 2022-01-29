@@ -54,4 +54,4 @@ The best way to contact the cloud-devops team is in the #cloud-devops slack chan
 - Migrate our zonal cluster to a regional cluster and document the process
 - Complete assigned security tasks on behalf of security and provide evidence of completion
 
-[Delivery]: ../delivery/index.md
+[delivery]: ../delivery/index.md
