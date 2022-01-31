@@ -2584,13 +2584,13 @@ quinlan_sparks:
   pronunciation: '[/ˈkwɪnlən spɑrks/](http://ipa-reader.xyz/?text=%CB%88kw%C9%AAnl%C9%99n%20sp%C9%91rks&voice=Salli)'
   description: 'Quinlan grew up in the Chicago suburbs and hasn’t quite managed to leave yet, despite multiple attempts and a bone-deep dislike of winter. Their background is in fiction writing and live entertainment, so no one’s quite sure exactly how they wound up as an engineer, but it doesn’t seem like anyone’s complaining. In their free time they enjoy running and playing tabletop role-playing games with their friends, experimenting with video game design and development, and thinking about Battlebots.'
 
-samantha_ulrich:
-  name: Samantha (Sam) Ulrich
-  email: sam.ulrich@sourcegraph.com
-  github: SamU713
-  pronouns: she/her
-  role: Senior Accountant
-  reports_to: Financial Controller
-  location: Portland, Oregon, USA 🇺🇸
-  links: '[LinkedIn](https://www.linkedin.com/in/samantha-u-62218837/)'
-  description: 'An Oregon Native, Sam loves to hike and explore her home state with her fiancé, one of their favorite things is finding hidden waterfalls. An avid reader, Sam has run her own book blog on Youtube and Instagram since 2014. She also has recently discovered a new passion in watercolor painting. Prior to Sourcegraph, Sam has spent time in the healthcare, structural engineering, and crpyto fields and looks forward to bringing her experience to her new role at Sourecgraph!'
+shane_carr:
+  name: Shane Carr
+  pronouns: he/him
+  role: Enterprise Account Executive
+  reports_to: vp_sales_western_region
+  location: Berkeley, CA, USA 🇺🇸
+  github: shanecarr1
+  email: shane.carr@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/carrshane/)'
+  description: 'Shane lives in Berkeley, CA with his partner, Juliana, and 2 kids. He recently came from GitHub and fundamentally believes that developers are changing the world for the better. Outside of work, he enjoys chess, camping, live music, attempting to teach his kids how to ride a bike, and spicy Thai curry. He dabbles in crypto, real estate investing, and calisthenics.'
