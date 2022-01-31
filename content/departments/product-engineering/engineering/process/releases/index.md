@@ -38,13 +38,9 @@ These releases **never** require any manual migration steps.
 On rare occasions we may decide to increase the major version number (e.g. `2.13.x` -> `3.0.0`).
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-## Release process
+## Key concepts and components
 
 This section documents the process used to create releases at Sourcegraph.
-
-### Goal
-
-The goal of our release process is to make releases boring, regular, and eventually, automated.
 
 ### Release captain
 
@@ -56,7 +52,7 @@ Release captain responsibilities are currently owned by the [Distribution team](
 
 ### Release tooling
 
-The [Sourcegraph release tool](../../tools/release.md) is used to generate releases as associated materials (such as tracking issues).
+The [Sourcegraph release tool] is used to generate releases as associated materials (such as tracking issues).
 It leverages the following issue templates, which list all individual steps that needs to be performed, for each type of release:
 
 - [Release issue template](release_issue_template.md)
@@ -74,6 +70,56 @@ To avoid confusion between tags and branches:
 - Branches are always the dot-separated major/minor versions with no leading `v` (e.g. `2.10`).
 
 Development always happens on `main` and changes are cherry-picked onto release branch as necessary **with the approval of the release captain**.
+
+## Patch release process
+
+> As of Jan 31, 2022, the Delivery team still owns the release process hence the role of Release Captain, `us` in the process below is always refering to the Delivery team. However, this may change in the future when we transit to a rotation base Release Captain.
+
+### 1) Kickstart a patch release
+
+CE or the products team will start requesting a patch release by submitting a [patch release request]. The patch release to [revert poor onboarding UX change] is a good example.
+
+Upon the Delivery team or the Release Captain receives the patch release request and we have decided to rollout a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process.
+
+The instruction is located at the bottom of the [patch release request]. At a high level, it contains the following
+
+- Open a PR to update [release-config.jsonc] config file with the upcoming release information and merge the PR
+- Utilize the [Sourcegraph release tool] to initialize the next step
+
+### 2) Patch release tracking issue
+
+The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. [3.36.2 patch release tracking issue] is a good example.
+
+The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level
+
+#### 2.1) Cherry-pick patch commits from `main` into the release branch
+
+#### 2.2) Rollout a release candiate build
+
+#### 2.3) Tag the final patch release build
+
+#### 2.4) Initialize a batch change
+
+This will make neccessary code changes across multiple repositories. [3.36.2 release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/release-sourcegraph-3.36.2?visible=6) is a good example.
+
+Changesets from the release batch change have to be merged following a specific order.
+
+1. sourcegraph/deploy-sourcegraph-digitalocean
+1. sourcegraph/deploy-sourcegraph-aws
+1. sourcegraph/deploy-sourcegraph-docker
+1. sourcegraph/deploy-sourcegraph
+1. sourcegraph/about
+1. sourcegraph/sourcegraph
+
+Unless there's specific instruction in the changeset (Pull Request), the Release Captain can merge them with confident provided that CI checks pass. However, Special attention is required to the changeset against [sourcegraph/deploy-sourcegraph-docker]. The changeset in [sourcegraph/deploy-sourcegraph-docker] also contains the release of our `pure-docker` deployment method and it is error prone. Follow the instruction provided in the Pull Request template.
+
+#### 2.5) Wrapping up
+
+Follow the instruction from post-release in the patch release tracking issue to wrap up the patch release
+
+### 3) Revisit patch request issue
+
+Now it's a good time to go back to the original [patch release request] and close it.
 
 #### Example
 
@@ -135,3 +181,10 @@ This is because:
 - We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
 
 In the future, we may introduce continuous releases if these issues become surmountable.
+
+[patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
+[revert poor onboarding UX change]: https://github.com/sourcegraph/sourcegraph/issues/30197
+[release-config.jsonc]: https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc
+[Sourcegraph release tool]: ../../tools/release.md
+[3.36.2 patch release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/30200
+[sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
