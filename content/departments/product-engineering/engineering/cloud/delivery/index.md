@@ -1,6 +1,6 @@
 # Delivery team
 
-Delivery team is a part of the [DevOps](../devops/index.ms) team (part of the [Cloud](../index.md) org).
+Delivery team is a part of the [DevOps](../devops/index.md) team (part of the [Cloud](../index.md) org).
 
 ## Mission
 
