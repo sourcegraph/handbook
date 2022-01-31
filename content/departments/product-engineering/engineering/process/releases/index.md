@@ -183,8 +183,8 @@ This is because:
 In the future, we may introduce continuous releases if these issues become surmountable.
 
 [patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
-[revert poor onboarding UX change]: https://github.com/sourcegraph/sourcegraph/issues/30197
+[revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197
 [release-config.jsonc]: https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc
-[Sourcegraph release tool]: ../../tools/release.md
+[sourcegraph release tool]: ../../tools/release.md
 [3.36.2 patch release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/30200
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
