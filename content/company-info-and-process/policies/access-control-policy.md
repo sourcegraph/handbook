@@ -2,6 +2,11 @@
 
 **Policy Owner**: Tech Ops
 
+**Effective Date**: Feb 1, 2022
+
+**Last Updated Date**: Jan 25, 2022
+
+
 1. **Purpose**
 
 To limit access to information, information processing systems, and networks to authorized parties in order to protect our customers, team members, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Our intention in publishing this policy is to outline information security guidelines intended to protect Sourcegraph’s assets, not to impose restrictions.
