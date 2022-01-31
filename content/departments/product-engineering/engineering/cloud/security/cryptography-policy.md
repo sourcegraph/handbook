@@ -1,7 +1,7 @@
 # Cryptography Policy
 
-Policy Owner: Security Engineering Manager
-Effective Date: 31-Jan-2022
+- Policy Owner: Security Engineering Manager
+- Effective Date: 31-Jan-2022
 
 ## Purpose
 
