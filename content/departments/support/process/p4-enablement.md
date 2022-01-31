@@ -223,7 +223,7 @@ Updated your local SG user to include the verified e-mail address of one of the 
 
 _NOTE_: Don’t modify the permissions in Perforce since they are used for integration testing.
 
-In order not to wait for permissions syncs, you can force one with this mutation:
+In order to not have to wait for a permissions sync to complete, you can force one with this mutation:
 
 ```graphql
 mutation {
