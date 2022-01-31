@@ -66,7 +66,8 @@ Communicate good candidates with any relevant parties. This could include other 
   - Define the length of the test, depending on the number of users you need, and check for statistical significance with a calculator ([example](https://www.optimizely.com/sample-size-calculator/)). Let BizOps know if you need to understand how much existing traffic there is to determine the expected length of the test
   - Pick a feature flag name for your A/B test (eg. `w0-signup-optimisation`)
   - Set up the exact methodology (write the query, build the chart) for how this will be evaluated before the test launches to not introduce any bias in the evaluation
-- Label all the issues that will go into that A/B test with `AB-test/<flag-name>`. That way anyone can see what changes are in a given A/B test, and what the name of the feature flag is. It will also make it easier to clean up the flag when the test ends. [Example](https://github.com/orgs/sourcegraph/projects/181?card_filter_query=label%3Aab-test%2Fw0-signup-optimisation).
+- Label the parent issue of the test with `AB-test` so anyone can see a list of the A/B tests that have or are being run
+- Label all the issues that will go into the test `AB-test/<flag-name>`. That way anyone can see what changes are in a given A/B test, and what the name of the feature flag is. It will also make it easier to clean up the flag when the test ends. [Example](https://github.com/orgs/sourcegraph/projects/181?card_filter_query=label%3Aab-test%2Fw0-signup-optimisation).
 - **_WIP: Follow the naming conventions when adding events_**
 
 ### Setup the A/B test
