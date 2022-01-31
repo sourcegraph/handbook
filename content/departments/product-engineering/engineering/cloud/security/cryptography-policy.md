@@ -1,20 +1,24 @@
 # Cryptography Policy
- 
+
 Policy Owner: Security Engineering Manager
 Effective Date: 31-Jan-2022
 
-## Purpose 
+## Purpose
+
 To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information. This policy establishes requirements for the use and protection of cryptographic keys throughout their entire lifecycle.
 
-## Scope 
+## Scope
+
 All information systems developed and/or controlled by Sourcegraph which store or transmit confidential data.
 
 ## Policy
+
 Sourcegraph shall evaluate the risks inherent in processing and storing data, and shall implement cryptographic controls to mitigate those risks where deemed appropriate. Where encryption is in use, strong cryptography with associated key management processes and procedures shall be implemented and documented. All encryption shall be performed in accordance with industry standards, including NIST SP 800-57.
 For all personal data, Sourcegraph shall consider the state of the art, the costs of implementation and the nature, scope, context, and purposes of processing as well as the risk of varying likelihood and severity to the rights and freedoms of natural persons, and implement appropriate technical and organizational measures surrounding the pseudonymization and encryption of data to ensure a level of security appropriate to the risk.
-For all web traffic sent over the public Internet containing confidential information, the TLS v1.2 protocol or better must be utilized. 
+For all web traffic sent over the public Internet containing confidential information, the TLS v1.2 protocol or better must be utilized.
 
 ## Key Management
+
 Access to keys and secrets shall be tightly controlled in accordance with the Access Control Policy.
 
 The following table includes the recommended usage for cryptographic keys:
@@ -64,9 +68,10 @@ The following table includes the recommended usage for cryptographic keys:
   </tr>
 </table>
 
-** This is provided via the TLS 1.3 stack using the TLS_AES_128_GCM_SHA256 Cipher Suite.
+\*\* This is provided via the TLS 1.3 stack using the TLS_AES_128_GCM_SHA256 Cipher Suite.
 
 ## Exceptions
+
 Requests for an exception to this policy must be submitted to the #security slack channel for approval.
 
 ## Violations & Enforcement
