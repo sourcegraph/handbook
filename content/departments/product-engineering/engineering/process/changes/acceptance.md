@@ -34,8 +34,8 @@ Using checklists improves quality in software engineering. This checklist is a s
 
 1. I have considered using a feature flag for this change because the change may be high risk.
 2. If I am using a feature flag:
-    1. I plan to test the change on dogfood before I test it in Sourcegraph Cloud or a Sourcegraph release.
-    2. I have considered rolling it out to just Sourcegraph teammates and/or to a subset of production customers before rolling it out to all customers in Sourcegraph Cloud or a full release.
+   1. I plan to test the change on dogfood before I test it in Sourcegraph Cloud or a Sourcegraph release.
+   2. I have considered rolling it out to just Sourcegraph teammates and/or to a subset of production customers before rolling it out to all customers in Sourcegraph Cloud or a full release.
 3. I have requested reviews from members of the relevant [Cloud teams](../../cloud/index.md) where a change to self-managed, managed or the deployment of Sourcegraph Cloud is required.
 
 ## Exceptions
