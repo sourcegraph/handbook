@@ -6,7 +6,7 @@ Sourcegraph uses three types of approaches to drive changes:
 
 - [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
 - [Request For Comments](../../../company-info-and-process/communication/rfcs/index.md) to communicate technical problems or specific solutions in response to a Product Document.
-- Tickets (GitHub, GitHub discussions, JIRA, ...) and Pull Requests to communicate targeted technical problems or solutions, possibly (but not always) in response to RFCs or PDs. 
+- Tickets (GitHub, GitHub discussions, JIRA, ...) and Pull Requests to communicate targeted technical problems or solutions, possibly (but not always) in response to RFCs or PDs.
 
 Sourcegraph follows an agile process, which means that the teams go through repeated iterations on a solution in order to refine results and adapt to changes discovered during each phase.
 
