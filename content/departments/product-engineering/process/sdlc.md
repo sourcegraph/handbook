@@ -7,9 +7,9 @@ Sourcegraph uses two types of approaches to drive changes:
 - [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
 - [Request For Comments](../../../company-info-and-process/communication/rfcs/index.md) to communicate technical problems or specific solutions in response to a Product Document.
 
-Sourcegraph follows an agile process, which means that the teams go through repeated iterations on a solution in order to refine results and adapt to changes discovered during each phase. 
+Sourcegraph follows an agile process, which means that the teams go through repeated iterations on a solution in order to refine results and adapt to changes discovered during each phase.
 
-Intermediary work items mentioned in either approach are tracked through ticketing systems. Which ticketing system is used depends on the originating team implementing the work. 
+Intermediary work items mentioned in either approach are tracked through ticketing systems. Which ticketing system is used depends on the originating team implementing the work.
 
 ## Design
 
@@ -41,4 +41,3 @@ Sourcegraph uses two different mechanisms to deploy its changes in production:
 
 - [Continuous deployments](../engineering/index.md#sourcegraph-deployments-and-other-developer-test-instances)) on soucegraph.com
 - [Release-based model](../engineering/process/releases/index.md) for [managed instances](../engineering/cloud/delivery/managed/index.md).
-
