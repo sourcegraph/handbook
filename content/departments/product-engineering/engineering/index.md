@@ -19,6 +19,7 @@
   - [External contributions](process/external_contributions.md)
   - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
+  - [IAM model for GCP](process/engineering_iam_model.md)
 - [Tooling](tools/index.md)
   - [Slackgenie](tools/slackgenie.md)
 - Infrastructure

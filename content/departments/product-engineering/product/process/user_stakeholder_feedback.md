@@ -8,6 +8,8 @@ _This page is most relevant to product team members. If you want to know how to 
 
 - [Tracking & sharing user & stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
   - [Sources of feedback](#sources-of-feedback)
+    - [Sales feedback](#salesce-feedback)
+    - [CE feedback](#ce-feedback)
     - [Email lists](#email-lists)
       - [hi@sourcegraph.com](#hisourcegraphcom)
       - [feedback@sourcegraph.com](#feedbacksourcegraphcom)
@@ -16,14 +18,32 @@ _This page is most relevant to product team members. If you want to know how to 
     - [Twitter](#twitter)
     - [Slack](#slack)
     - [Support tickets](#support-tickets)
-    - [Sales/CE feedback](#salesce-feedback)
     - [Hubspot forms](#hubspot-forms)
       - [NPS Survey](#nps-survey)
       - [Browser Extension Uninstall Feedback](#browser-extension-uninstall-feedback)
-    - [CE feedback](#ce-feedback)
   - [Productboard](#productboard)
     - [Adding feedback to productboard](#adding-feedback-to-productboard)
   - [Sharing user feedback](#sharing-user-feedback)
+
+### Sales feedback
+
+- **Purpose:** Customers and prospects often give product feedback on calls with sales members.
+- **Owner:** The Sales team owns feedback from sales calls.
+
+The product team can access recordings using [Chorus AI](https://chorus.ai/). You can find relevant calls using Chorus's search and [tracker](https://docs.chorus.ai/hc/en-us/articles/360036206813-How-to-Create-Trackers) features, which allow you to use keywords to explore call transcripts.
+
+### CE feedback
+
+- **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
+- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
+
+Other resources (internal only) the CE team owns:
+
+- The [product gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HH53EAG/view) tracks features that are impacting deals.
+- [Account overview dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HSnLEAW/view).
+- [Account plan documents](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) provide the business context for the accounts.
+- [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC?usp=sharing) reflect what the latest state of the customers’ environment.
+- [Customer notes](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0?usp=sharing) are running notes from customer Chorus calls.
 
 ### Email lists
 
@@ -66,13 +86,6 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 - **Purpose:** A path for existing customers to get responsive support.
 - **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with [a qualitative summary](https://drive.google.com/drive/folders/12kZOFbnXX8vfzLvso1hO-lf-t-HzJIr-?usp=sharing) and links to details of the major support trends from the prior three months.
 
-### Sales/CE feedback
-
-- **Purpose:** Customers and prospects often give product feedback on calls with sales members.
-- **Owner:** The Sales team owns feedback from sales calls.
-
-The Sales and CE teams also provide a [product gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HH53EAG/view) (internal only) that tracks features that are impacting deals.
-
 ### Hubspot forms
 
 #### NPS Survey
@@ -84,11 +97,6 @@ The Sales and CE teams also provide a [product gaps dashboard](https://sourcegra
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
 - **Owner:** The browser extension product manager (currently the [Growth and Integrations team product manager](../../engineering/cloud/growth-and-integrations/index.md#members)) owns responding to this feedback.
-
-### CE feedback
-
-- **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 ## Productboard
 
