@@ -20,5 +20,4 @@ In addition to the settings outlined above, Sourcegraph recipients are also able
 
 If a message is reported as spam, the Sourcegraph Tech Ops team will evaluate the reported message and add the sender to the Google Workspace list of “**Blocked Senders**”. This will prevent any further messages from that account from reaching the Sourcegraph domain.
 
-
 See additional security measures Tech Ops is undertaking [here](internal-security/index.md)
