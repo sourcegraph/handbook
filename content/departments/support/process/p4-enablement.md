@@ -221,13 +221,13 @@ You can get the `P4.passwd` token above from running `p4 -u admin login -p -a` u
 
 Updated your local SG user to include the verified e-mail address of one of the users configured on the dogfood instance, for example `alice@perforce.sgdev.org`. Alice is a user in the our dogfood instance with permissions set against the `//test-perms` instance.
 
-*NOTE*: Don’t modify the permissions in Perforce since they are used for integration testing.
+_NOTE_: Don’t modify the permissions in Perforce since they are used for integration testing.
 
 In order not to wait for permissions syncs, you can force one with this mutation:
 
 ```graphql
-mutation{
-  scheduleUserPermissionsSync(user:"YOUR_ID"){
+mutation {
+  scheduleUserPermissionsSync(user: "YOUR_ID") {
     alwaysNil
   }
 }
@@ -236,8 +236,8 @@ mutation{
 Your can find your user id with this query:
 
 ```graphql
-query{
-  currentUser{
+query {
+  currentUser {
     id
   }
 }
@@ -251,6 +251,3 @@ sourcegraph=# select repo_id, user_id, path_includes, path_excludes from sub_rep
 ---------+---------+-------------------+----------------------------
      238 |       1 | {//test-perms/**} | {//test-perms/Security/**}
 ```
-
-
-
