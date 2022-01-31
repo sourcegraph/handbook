@@ -1,5 +1,7 @@
 # Software development life cycle
 
+<span class="badge badge-note">SOC2/GN-98</span>
+
 Sourcegraph uses two types of approaches to drive changes:
 
 - [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
@@ -38,6 +40,3 @@ Sourcegraph uses two different mechanisms to deploy its changes in production:
 - [Continuous deployments](../engineering/index.md#sourcegraph-deployments-and-other-developer-test-instances)) on soucegraph.com
 - [Release-based model](../engineering/process/releases/index.md) for [managed instances](../engineering/cloud/delivery/managed/index.md).
 
----
-
-<span class="badge badge-note">SOC2/GN-98</span>
