@@ -53,7 +53,7 @@ These exceptions will be tracked in [sourcegraph/sec-pr-audit-trail](https://git
 
 The list below designates source code exempted from the acceptance guidelines because they do not directly impact the behaviour of the application in any way.
 
-- [sourcegraph/sourcegraph](github.com/sourcegraph/sourcegraph)
+- [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph)
   - `dev/*`: internal tools, scripts for the local environment and continuous integration.
   - `enterprise/dev/*`: internal tools, scripts for the local environment and continuous integration that fall under the [Sourcegraph Enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise).
 
