@@ -1,4 +1,4 @@
-# Software Development Life Cycle
+# Software development life cycle
 
 Sourcegraph uses two types of approaches to drive changes:
 
