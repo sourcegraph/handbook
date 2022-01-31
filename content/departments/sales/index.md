@@ -41,10 +41,15 @@ See [roles](roles/index.md) page.
 
 ## How sales works with other Sourcegraph teams
 
-### [Customer engineering](../support/index.md) (for customer support)
+### [Customer engineering](../support/index.md)
+
+- [How CE supports sales](../ce/team-culture#sales)
+- [Creating and maintaining license keys for customers](../ce/process/license_keys.md)
+
+### [Customer Support](../support/index.md)
 
 - [How to request support (for customers)](../support/index.md#how-to-get-support-for-customers)
-- [Creating and maintaining license keys for customers](../ce/process/license_keys.md)
+- [Support SLAs](../support/index.md#slas)
 
 ### [Team members who want to join calls](onboarding/joining_customer_calls.md)
 

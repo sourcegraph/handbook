@@ -2258,12 +2258,6 @@ director_design:
   reports_to: vp_product
   manager_role_slug: director_design
 
-head_of_technical_writing:
-  name: Christina Forney
-  role: (Interim) Head of Technical Writing
-  reports_to: vp_product
-  manager_role_slug: head_of_technical_writing
-
 engineering_manager_content_platform:
   name: Jean du Plessis
   role: (Interim) Engineering Manager, Content Platform
@@ -2581,7 +2575,7 @@ brady_garrett:
   reports_to: business_operations_manager
   location: Queen Creek, AZ, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/bradygarrett11/)'
-  description: Brady lives in Queen Creek, AZ which is about 45 minutes Southeast of Phoenix with his wife, three kids and dog. Before joining Sourcegraph, he worked at a Sr. Product Analyst for Pluralsight where we was able to drive changes in creating self service data enviroments, lead A/B Testing, and provide valuable insight into product growth strategies. When not working, Brady can found enjoying the outdoors with his family, skateboarding, snowboarding, surfing, and hiking.
+  description: Brady lives in Queen Creek, AZ which is about 45 minutes Southeast of Phoenix with his wife, three kids, and dog. Before joining Sourcegraph, he worked as a Sr. Product Analyst for Pluralsight where he was able to drive changes in creating self service data enviroments, lead A/B Testing, and provide valuable insights into product growth strategies. When not working, Brady can be found enjoying the outdoors with his family, skateboarding, snowboarding, surfing, and hiking.
 
 michael_lin:
   name: Michael Lin
@@ -2617,11 +2611,22 @@ jeff_wayman:
   pronouns: he/him
   role: Director, Technical Writing
   reports_to: vp_product
-  manager_role_slug: director_design
+  manager_role_slug: head_of_technical_writing
   location: Valrico, FL, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/jeffwayman/)'
   pronunciation: '[dʒɛf weɪmẽə̃n](http://ipa-reader.xyz/?text=d%CA%92%C9%9Bf%20we%C9%AAm%E1%BA%BD%C9%99%CC%83n&voice=Joanna)'
   description: 'Jeff lives in Valrico FL with his wife, son, and step-daughter. He loves to spend time with his family (usually outdoors). He also enjoys reading (sci-fi, fantasy, and business), watch TV (just about anything), play video games (anything, but definitely rpgs and open-world), and visit the local theme parks.'
+
+sarah_briggs:
+  name: Sarah Briggs
+  email: sarah.briggs@sourcegraph.com
+  github: 5arahBrigg5
+  pronouns: she/her
+  role: Program Manager, Customer Support
+  reports_to: director_customer_support
+  location: Portland, OR, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/sarah-briggs-3b690330/)'
+  description: 'Sarah lives in Portland, Oregon with her partner Alo and their many pets. Her background in hospitality is the foundation of her work as a project manager and why she loves to be a host. When she is not at work, you can find her cooking, hiking, or checking out the newest restaurant in PDX. She has a minor addiction to sparkling water, an obsession with all things Harry Potter, and a reputation for playing Robyn on repeat.'
 
 quinlan_sparks:
   name: Quinlan Sparks
