@@ -24,7 +24,7 @@ Owners files work exactly like the CODENOTIFY files that we use currently:
 
 OWNERS files and CODENOTIFY files use the same syntax, and notifications for both are implemented by the [Codenotify](https://github.com/sourcegraph/codenotify) tool. Owners files have some additional guidelines:
 
-- It is preferred to list a team (e.g., @frontend-platform) rather than individuals.
+- It is preferred to list a team (e.g., @sourcegraph/frontend-platform) rather than individuals.
 - If there is an individual with expertise in a given part of the code, who is not on the owning team (e.g., Thorsten Ball with sg), that person should be listed in OWNERS.
 
 For questions about our use of owners files, please reach out on [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU).
