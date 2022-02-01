@@ -18,7 +18,7 @@ We care about the safety and comfort of everyone in our community, including col
 
 ## Team member philosophy
 
-If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#Raising-concerns).
+If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#raising-concerns).
 
 Your ultimate success with Sourcegraph will be a function of your personal agency and the environment we create as a team. We want that environment to set you up for success and enable you to thrive while realizing your professional goals and dreams.
 
