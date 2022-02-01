@@ -17,7 +17,7 @@ Additionally, we will aim to complete the following by the end of the quarter:
 
 - Resume case reviews and introduce the long running case retro practice
 - Enable (at least) all other leaders and program managers to serve as messenger
-- Solidify our change managment practices 
+- Solidify our change management practices 
 - Solidify our project management practices
 - Identify possible ways to lower need for requests for help for #delivery and #repo-management 
 
