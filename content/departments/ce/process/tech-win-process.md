@@ -3,12 +3,12 @@
 - [Background](#background)
 - [Assets](#assets)
 - [Process](#process)
-    - [Gates for Progressing Through Technical Win Phases](#gates-for-progressing-through-technical-win-phases)
-    - [Technical Design Document Creation and Review](#technical-design-document-creation-and-review)
-    - [Technical Deal Review Process](#technical-deal-review-process)
-    - [Surfacing Product Feedback](#surfacing-product-feedback)
-    - [Weekly Tech Win Review](#weekly-tech-win-review)
-    - [Engaging Subject Matter Experts](#engaging-subject-matter-experts)
+  - [Gates for Progressing Through Technical Win Phases](#gates-for-progressing-through-technical-win-phases)
+  - [Technical Design Document Creation and Review](#technical-design-document-creation-and-review)
+  - [Technical Deal Review Process](#technical-deal-review-process)
+  - [Surfacing Product Feedback](#surfacing-product-feedback)
+  - [Weekly Tech Win Review](#weekly-tech-win-review)
+  - [Engaging Subject Matter Experts](#engaging-subject-matter-experts)
 
 ## Background
 
@@ -188,44 +188,44 @@ The following criteria are used to determine whether a technical win should prog
 
 #### Initial Conversations (Sales Stages: 0-2)
 
-* Has the account team identified a champion in the account?
-    * A champion is a contact in the account with power and influence who will be selling internally on our behalf and has a vested interest in our success.
-    * As defined by the [Customer Engagement Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0), the champion typically confirms use cases, identifies the business/technical validation process and confirms the technical win.
-* Has the CE confirmed the top 2-3 use cases for the customer?
-* Does the CE understand the customer’s technical landscape and current tools?
+- Has the account team identified a champion in the account?
+  - A champion is a contact in the account with power and influence who will be selling internally on our behalf and has a vested interest in our success.
+  - As defined by the [Customer Engagement Process](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/edit#gid=0), the champion typically confirms use cases, identifies the business/technical validation process and confirms the technical win.
+- Has the CE confirmed the top 2-3 use cases for the customer?
+- Does the CE understand the customer’s technical landscape and current tools?
 
 #### Tech Design & Trial Planning (Sales Stage: 3)
 
-* Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
-* Has the CE completed technical qualification of the customer’s usage scenario?
-* If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Deal Review Process](working-with-customers.md#technical-deal-reviews) and received approval to proceed?
-* CE has completed a v1 draft of the [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58)
+- Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
+- Has the CE completed technical qualification of the customer’s usage scenario?
+- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Deal Review Process](working-with-customers.md#technical-deal-reviews) and received approval to proceed?
+- CE has completed a v1 draft of the [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58)
 
 #### Trial Deployment (Sales Stages: 3-4)
 
-* CE has completed a v1 final version of [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58)
-* CE has completed the Trial and Deployment portions of the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268)
-* Is the trial or evaluation environment successfully deployed?
+- CE has completed a v1 final version of [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58)
+- CE has completed the Trial and Deployment portions of the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268)
+- Is the trial or evaluation environment successfully deployed?
 
 #### Trial Execution (Stage 4)
 
-* Has the CE established a regular check-in with the customer champion?
-* Has the account team delivered a trial/POC readout for the customer?
-* Has the customer confirmed that we have achieved the technical win?
+- Has the CE established a regular check-in with the customer champion?
+- Has the account team delivered a trial/POC readout for the customer?
+- Has the customer confirmed that we have achieved the technical win?
 
 #### Post-Trial (Stages 5-7)
 
-* CE has completed a v1 draft of the [Post Sales Engagement Sheet](https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0)
-* CE has updated the [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58) with details about the customer’s production deployment plans
-* Welcome kickoff meeting is scheduled with the customer
+- CE has completed a v1 draft of the [Post Sales Engagement Sheet](https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0)
+- CE has updated the [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58) with details about the customer’s production deployment plans
+- Welcome kickoff meeting is scheduled with the customer
 
 ### Technical Design Document Creation and Review
 
-As early as the Qualification stage (Stage 2), CEs begin to collect information about and work to understand the needs of prospective customers. The learnings from these discussions (business and technical challenges, current environment, and technical and functional requirements) are recorded in a Technical Design Document. 
+As early as the Qualification stage (Stage 2), CEs begin to collect information about and work to understand the needs of prospective customers. The learnings from these discussions (business and technical challenges, current environment, and technical and functional requirements) are recorded in a Technical Design Document.
 
-* Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, Product and Engineering.
-* All TDDs for [Tier 1 accounts](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit) must be reviewed by a peer on the CE team.
-* All TDDs with [non-standard technical requirements](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279) must be reviewed by a peer on the CE team. 
+- Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, Product and Engineering.
+- All TDDs for [Tier 1 accounts](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit) must be reviewed by a peer on the CE team.
+- All TDDs with [non-standard technical requirements](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279) must be reviewed by a peer on the CE team.
 
 ### Technical Deal Review Process
 
@@ -240,7 +240,7 @@ When a Technical Deal Review is needed, the CE initiates this process by doing t
 3. Initiates the request in the [#tech-deal-reviews](https://sourcegraph.slack.com/archives/tech-deal-reviews) channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to the TDD.
 4. Documents the results of the Technical Deal Review in the TDD.
 
-[Product Directors](../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD. This asynchronous review should be completed within 3 business days. 
+[Product Directors](../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD. This asynchronous review should be completed within 3 business days.
 
 If there are additional questions, the Product Team member can request a synchronous review. That review will be recorded and documented to show the decision-making process and provide additional context. CEs are responsible for scheduling the synchronous review and including the appropriate stakeholders.
 
@@ -248,23 +248,23 @@ If there are additional questions, the Product Team member can request a synchro
 
 ##### Customer Engineer
 
-* Responsible for creating the Technical Design Document (TDD) for each new customer.
-* Responsible for identifying any non-standard or high-risk requirements.
-* Responsible for communicating with their AE when non-standard or high risk requirements emerge.
-* Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
-* If a request is made for a synchronous review, the CE will schedule and facilitate.
-* Product, Engineering, and Support
+- Responsible for creating the Technical Design Document (TDD) for each new customer.
+- Responsible for identifying any non-standard or high-risk requirements.
+- Responsible for communicating with their AE when non-standard or high risk requirements emerge.
+- Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
+- If a request is made for a synchronous review, the CE will schedule and facilitate.
+- Product, Engineering, and Support
 
 ##### Product, Engineering and Support
 
-* When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
-* Initial feedback on the review should occur within 3 business days.
-* Any member from Product, Engineering, or Support may request a synchronous review.
+- When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
+- Initial feedback on the review should occur within 3 business days.
+- Any member from Product, Engineering, or Support may request a synchronous review.
 
 ##### Sales
 
-* Responsible for providing necessary business context around the deal.
-* Where applicable, responsible for prioritization decisions.
+- Responsible for providing necessary business context around the deal.
+- Where applicable, responsible for prioritization decisions.
 
 ### Surfacing Product Feedback
 
@@ -383,15 +383,15 @@ When engaging a SME, the CE does not abdicate ownership of managing the technica
 
 #### When to Pull in Subject Matter Experts (SMEs)
 
-* CEs should engage a SME when they need **help to achieve the technical win.**
-* The opportunity **should be properly qualified (sales stage S3+)** before a CE engages a SME in the opportunity.
-* The contributions needed from the SME should be **well-defined** and **time-bound**.
-* CEs should **first exhaust the resources available to them** (product documentation, CE StackOverflow instance, Slack channels, etc.) before engaging a SME.
+- CEs should engage a SME when they need **help to achieve the technical win.**
+- The opportunity **should be properly qualified (sales stage S3+)** before a CE engages a SME in the opportunity.
+- The contributions needed from the SME should be **well-defined** and **time-bound**.
+- CEs should **first exhaust the resources available to them** (product documentation, CE StackOverflow instance, Slack channels, etc.) before engaging a SME.
 
 #### Types of Subject Matter Experts (SMEs)
 
-* Peer CEs with expertise in a specific area of the product, a deployment methodology, or a 3rd-party solution which is being integrated with Sourcegraph
-* Product Managers with more in-depth knowledge of a feature or capability of Sourcegraph and who can provide information around future plans
+- Peer CEs with expertise in a specific area of the product, a deployment methodology, or a 3rd-party solution which is being integrated with Sourcegraph
+- Product Managers with more in-depth knowledge of a feature or capability of Sourcegraph and who can provide information around future plans
 
 #### Engaging SMEs - Examples
 
@@ -399,20 +399,20 @@ When engaging a SME, the CE does not abdicate ownership of managing the technica
 
 Alex is a CE assigned to work an opportunity with XYZ Company and has a fruitful demo with them and things are moving towards a trial. During the trial-planning process, Alex discovers that XYZ Company has a strongly opinionated and very technical devops team, and that **high availability** for the Sourcegraph deployment will be required to get the technical win. They have questions about customizing their Kubernetes deployment and Alex doesn’t have deep Kubernetes experiences. In this case, they may choose to pull in a peer CE with that knowledge to talk with the customer.
 
-* Does the effort directly contribute to the technical win? **Yes**.
-* Is the opportunity qualified? **Yes - Moving to trial.**
-* Is the request well-defined and time-bound? **Yes - Single meeting w/customer**.
+- Does the effort directly contribute to the technical win? **Yes**.
+- Is the opportunity qualified? **Yes - Moving to trial.**
+- Is the request well-defined and time-bound? **Yes - Single meeting w/customer**.
 
 ##### Product SME Example
 
 For ABC Company’s trial, Sourcegraph’s batch changes feature is a critical part of the deal. A few of the customer’s most influential developers asked a lot of challenging questions during the first demo. Alex thinks that setting up a special batch changes training session would be especially helpful to earn the technical win. Alex engages a batch changes SME to co-run the session with him so that he is well-equipped to give the best customer experience around batch changes.
 
-* Does the effort directly contribute to the technical win? **Yes.**
-* Is the opportunity qualified? **Yes - Solution mapped to batch changes (S2+).**
-* Is the request well-defined and time-bound? **Yes - Single meeting w/customer.**
+- Does the effort directly contribute to the technical win? **Yes.**
+- Is the opportunity qualified? **Yes - Solution mapped to batch changes (S2+).**
+- Is the request well-defined and time-bound? **Yes - Single meeting w/customer.**
 
 #### How to Pull in SMEs
 
-There is no formal process today for engaging a SME. For engaging a peer CE as a SME in an opportunity, sending a message to **ce-internal** in Slack will likely help find the right resources. 
+There is no formal process today for engaging a SME. For engaging a peer CE as a SME in an opportunity, sending a message to **ce-internal** in Slack will likely help find the right resources.
 
 Product Managers are a great option for a SME for product areas. It’s worthwhile to consider pulling them in for feature feedback, after the rollout of major updates, or for especially large opportunities. <span style="text-decoration:underline;">However, pulling in PMs for every opportunity is not a scalable process. CEs should default to peer CE SMEs whenever possible.</span>
