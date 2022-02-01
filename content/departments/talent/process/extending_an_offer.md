@@ -48,8 +48,22 @@
 
 - If US-based candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
 - If a Contractor candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
-- If onboarding via a PEO, make a formal request in the Slack channel 'peo-visa-hiring` to begin the PEO onboarding process
-  - COMING SOON: learn more about hiring via PEOs here
+- If onboarding via a PEO, make a formal request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
+
+Hi team - we have a candidate based in `location` that we would like to onboard via Remote. Can we please initiate the process?
+
+- Candidate's full legal name:
+- Candidate's personal email:
+- Country of residence:
+- Do they require visa sponsorship to work in their country of residence? If so, what visa?
+- Job title:
+- Job description link:
+- Compensation in USD (we will need to convert this to their local currency):
+- Provide commission plan if applicable to the role:
+- Job level:
+- Will they be an IC or Manager?
+- Start date:
+- Hiring Manager (full name):
 
 **Step 8**: the candidate receives the offer.
 
