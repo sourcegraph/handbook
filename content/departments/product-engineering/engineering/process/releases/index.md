@@ -186,7 +186,7 @@ In the future, we may introduce continuous releases if these issues become surmo
 [sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
 [3.36.0 release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/29290
-[Delivery]: ../../cloud/delivery/index.md
-[Release issue template]: release_issue_template.md
-[Patch release issue template]: patch_release_issue_template.md
-[Upgrade managed instances issue template]: upgrade_managed_issue_template.md
+[delivery]: ../../cloud/delivery/index.md
+[release issue template]: release_issue_template.md
+[patch release issue template]: patch_release_issue_template.md
+[upgrade managed instances issue template]: upgrade_managed_issue_template.md
