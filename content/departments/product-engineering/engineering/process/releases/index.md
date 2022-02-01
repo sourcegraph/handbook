@@ -122,13 +122,13 @@ Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main
 
 ### 1) Start a minor release
 
-Major and minor releases are released on a fixed scheule, see [when we release](#when-we-release).
+Major and minor releases are released on a fixed schedule, see [when we release](#when-we-release).
 
 ### 2) Minor release tracking issue
 
 The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. Learn more from the [release issue template].
 
-The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level, it includes the following steps:
+The Release Captain should review and follow the instruction in the patch release tracking release for the next steps. At a high level, it includes the following steps:
 
 - Build a release candidate and verify CI passes
 - Publish final images
@@ -145,13 +145,13 @@ Follow the instruction from post-release in the release tracking issue to wrap u
 
 CE or the products team will start requesting a patch release by submitting a [patch release request]. Learn more from the [patch release issue template].
 
-Upon the Delivery team or the Release Captain receives the patch release request and we have decided to rollout a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process. The instruction is located at the bottom of the [patch release request].
+Upon the Delivery team or the Release Captain receives the patch release request and we have decided to roll out a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process. The instruction is located at the bottom of the [patch release request].
 
 ### 2) Patch release tracking issue
 
 The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. Learn more from the [patch release issue template].
 
-The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level, it includes the following steps:
+The Release Captain should review and follow the instruction in the patch release tracking release for the next steps. At a high level, it includes the following steps:
 
 - Build a release candidate and verify CI passes
 - Publish final images
