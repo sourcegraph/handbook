@@ -2,11 +2,9 @@
 
 ## Background
 
-CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. 
+CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity.
 
 To be successful in driving technical wins requires the ability to:
-
-
 
 1. Help define and document customers’ use cases as confirmed during the qualification stage of the sales process
 2. Validate the technical viability of our solution against customers’ use cases using criteria provided by Product and Engineering
