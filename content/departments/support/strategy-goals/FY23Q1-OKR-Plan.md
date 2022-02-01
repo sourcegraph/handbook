@@ -17,8 +17,8 @@ Additionally, we will aim to complete the following by the end of the quarter:
 
 - Resume case reviews and introduce the long running case retro practice
 - Enable (at least) all other leaders and program managers to serve as messenger
-- Solidify our change management practices 
+- Solidify our change management practices
 - Solidify our project management practices
-- Identify possible ways to lower need for requests for help for #delivery and #repo-management 
+- Identify possible ways to lower need for requests for help for #delivery and #repo-management
 
 As time, capacity, and energy allow, application engineers will also continue to build out our [enablement library](../process/enablement/index.md). Application engineers are welcome to "claim" any of the areas of focus from the [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing) and create the relevant enablement materials. We will get as much done as possible and hold grace for ourselves if we are not able to get much of this done.
