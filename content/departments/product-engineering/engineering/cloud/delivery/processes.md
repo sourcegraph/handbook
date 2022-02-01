@@ -69,6 +69,7 @@ The [Delivery GitHub project](https://github.com/orgs/sourcegraph/projects/205) 
 This is where we can place any tickets that we need to either gather more information on.
 
 Examples:
+
 - A customer ticket comes in but we need to have more information from the customer.
 - A ticket comes through from developers and we are unclear if this is really a Delivery issue.
 
@@ -100,6 +101,7 @@ These are items that are currently being worked on. You should only have a maxim
 Items in here are either complete or are waiting on Customer/Internal feedback.
 
 Examples:
+
 - We have created a managed instance but we want to confirm the customer is able to log in.
 - We have completed work that needs to also be confirmed and worked on by other teams.
 
