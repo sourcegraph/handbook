@@ -122,7 +122,7 @@ Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main
 
 When releasing a new version, the Release Captain may need to manually update the [CHANGELOG.md]. Follow the instruction below:
 
-- [ ] I understood the convention of our changelog format. Learn more from our [CHANGELOG.md].
+- [ ] Check past entries in [CHANGELOG.md] to understand the changelog format.
 - [ ] Create a new H2 title named `{major}.{minor}.{patch}` (the new version) after the `Unreleased` section if it doesn't already exist.
 - [ ] Copy all changelog entries of the commits belong to this patch release into the new H2 title `## {major}.{minor}.{patch}`, grouped into the types they were originally in (e.g. `### Added`, `### Changed`, `### Fixed`, `### Removed`).
 
