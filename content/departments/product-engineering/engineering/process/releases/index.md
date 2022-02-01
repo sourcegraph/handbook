@@ -126,7 +126,7 @@ Major and minor releases are released on a fixed scheule, see [when we release](
 
 ### 2) Minor release tracking issue
 
-The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. [3.36.0 release tracking issue] is a good example of a minor release tracking issue.
+The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. Learn more from the [release issue template].
 
 The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level, it includes the following steps:
 
@@ -143,13 +143,13 @@ Follow the instruction from post-release in the release tracking issue to wrap u
 
 ### 1) Kickstart a patch release using the [Sourcegraph release tool]
 
-CE or the products team will start requesting a patch release by submitting a [patch release request]. The patch release to [revert poor onboarding UX change] is a good example.
+CE or the products team will start requesting a patch release by submitting a [patch release request]. Learn more from the [patch release issue template].
 
 Upon the Delivery team or the Release Captain receives the patch release request and we have decided to rollout a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process. The instruction is located at the bottom of the [patch release request].
 
 ### 2) Patch release tracking issue
 
-The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. [3.36.2 patch release tracking issue] is a good example.
+The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. Learn more from the [patch release issue template].
 
 The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level, it includes the following steps:
 
@@ -187,3 +187,6 @@ In the future, we may introduce continuous releases if these issues become surmo
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
 [3.36.0 release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/29290
 [Delivery]: ../../cloud/delivery/index.md
+[Release issue template]: release_issue_template.md
+[Patch release issue template]: patch_release_issue_template.md
+[Upgrade managed instances issue template]: upgrade_managed_issue_template.md
