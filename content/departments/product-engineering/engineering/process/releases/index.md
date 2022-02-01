@@ -128,7 +128,7 @@ Major and minor releases are released on a fixed schedule, see [when we release]
 
 The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. Learn more from the [release issue template].
 
-The Release Captain should review and follow the instruction in the patch release tracking release for the next steps. At a high level, it includes the following steps:
+The Release Captain should review and follow the instruction in the release tracking release for the next steps. At a high level, it includes the following steps:
 
 - Build a release candidate and verify CI passes
 - Publish final images
