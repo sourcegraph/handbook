@@ -37,4 +37,4 @@ You can reach us at the #ce channel or @ce on Slack. Customer Engineering repres
 ### Customer Use Cases
 
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
