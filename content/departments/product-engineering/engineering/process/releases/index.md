@@ -137,7 +137,7 @@ The Release Captain should review and follow the instruction in the release trac
 
 ### 3) Wrapping up
 
-Follow the instruction from post-release in the release tracking issue to wrap up the release.
+Follow the instruction from post-release in the release tracking issue to wrap up the release and schedule the next minor release.
 
 ## Patch release process
 
