@@ -143,6 +143,14 @@ Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../..
 
 Any questions about Code Insights should be routed to the [Code Insights Team](../../product-engineering/engineering/code-graph/code-insights/index.md)
 
+### Docs site availability
+
+**Keywords**: `docs`, `documentation`, `sourcegraph.com`,
+
+The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our technical writing team).
+
+If the docs site is unavilable, route to the [Content Platform team](../../product-engineering/engineering/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
+
 ## Step 4: File a Github issue
 
 It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.

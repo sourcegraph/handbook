@@ -170,7 +170,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../team#veronica-bueno" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/VeronicaBitmoji.jpg"
                 alt="Picture of Veronica Bueno" style="background: transparent; width:128px;" />
             </a>
           </div>

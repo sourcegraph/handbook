@@ -1,7 +1,5 @@
 # Marketing
 
-<img align="right" src="https://sourcegraphstatic.com/marketing-logo.gif" style="max-height:100%" alt="Sourcegraph Marketing team logo"/>
-
 ## How to contact Marketing
 
 ### General Marketing requests and feedback

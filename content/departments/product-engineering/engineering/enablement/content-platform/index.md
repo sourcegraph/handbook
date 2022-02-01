@@ -6,8 +6,6 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 {{generator:product_team.content_platform}}
 
-- Mate Gyorffy (Contractor)
-
 ## Our Strategy
 
 [Mission & Vision](../../../../../strategy-goals/strategy/enablement/content-platform/index.md)
@@ -28,7 +26,7 @@ The current existing content platforms include:
 
 ### Requests
 
-The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Requests to the content platform team can be made through a Slack workflow:
+The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Note that if you're comfortable making changes to one of these sites, you don't have to put in a request for the Content Platform Team. We are happy to serve as a review on your PR, but no need to put in a request unless you need us to complete the work for you. Requests to the content platform team can be made through a Slack workflow:
 
 1. In the #content-platform channel in Slack, click the + icon, then “Content Platform Request”
 
@@ -56,10 +54,14 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 ### Creating Issues
 
 - Anyone can [create an issue in the repos](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) we work in:
-  - [Sourcegraph/About](https://github.com/sourcegraph/about/labels/blog)
-  - Includes marketing site, blog, docs
-  - [Sourcegraph/Handbook](https://github.com/sourcegraph/handbook)
-  - [Sourcegraph/Learn](https://github.com/sourcegraph/learn)
+  - [About](https://github.com/sourcegraph/about/issues/new)
+    - [Blog](https://github.com/sourcegraph/about/issues/new?labels=about-blog)
+    - [Legal Docs](https://github.com/sourcegraph/about/issues/new?labels=legal)
+  - [Learn](https://github.com/sourcegraph/learn/issues/new/choose)
+  - [Handbook](https://github.com/sourcegraph/handbook/issues/new/choose)
+  - Docs:
+    - [Docs](https://github.com/sourcegraph/sourcegraph/issues/new?labels=docs) for content level
+    - [Docsite](https://github.com/sourcegraph/docsite/issues/new) for application level
   - Note: After issues are created, they must be added to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1) to be prioritized
 - Anyone can request help from the content platform team according to [this process](#requests)
   - Issues are then [triaged](#triaging-incoming-requests) and added to the proper repo in Github (and to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1))
