@@ -29,11 +29,11 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 We have identified five key use cases for our universal code search platform:
 
-1. [Developer onboarding](use_cases/dev-onboarding.md)
-1. [Code reuse](use_cases/code_reuse.md)
-1. [Code health](use_cases/code_health.md)
-1. [Fixing security vulnerabilities](use_cases/fixing_security_vulnerabilities.md)
-1. [Incident Response](use_cases/incident_response.md)
+1. [Developer onboarding](use-cases/dev-onboarding.md)
+1. [Code reuse](use-cases/code-reuse.md)
+1. [Code health](use-cases/code-health.md)
+1. [Fixing security vulnerabilities](use-cases/fixing-security-vulnerabilities.md)
+1. [Incident Response](use-cases/incident-response.md)
 
 There are also several related resources:
 
