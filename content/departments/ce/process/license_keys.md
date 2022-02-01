@@ -48,7 +48,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 
 ### License key tags
 
-- **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes` based on the context of the license.
+- **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
 
 #### Legacy tags
