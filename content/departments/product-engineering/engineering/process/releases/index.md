@@ -120,7 +120,7 @@ Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main
 
 > As of Jan 31, 2022, the Delivery team still owns the release process hence the role of Release Captain, `us` in the process below is always refering to the Delivery team. However, this may change in the future when we transit to a rotation base Release Captain.
 
-### 1) Kickstart a patch release
+### 1) Kickstart a patch release using the release tool
 
 CE or the products team will start requesting a patch release by submitting a [patch release request]. The patch release to [revert poor onboarding UX change] is a good example.
 
