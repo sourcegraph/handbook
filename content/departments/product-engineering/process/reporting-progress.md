@@ -22,7 +22,7 @@ The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) i
 
 There are a few tabs:
 
-- The **Department KRs** tab tracks the top level product and engineering key results that the KR owners, Directors and VPs update weekly. 
+- The **Department KRs** tab tracks the top level product and engineering key results that the KR owners, Directors and VPs update weekly.
 - The **Team Deliverables** tab tracks the next big roadmap items that each team is delivering in service of their KRs.
   - When teams are in the state where they have a clear KR, but don't yet have a clear roadmap to achieving that KR, the KR is included in this view. Once a roadmap item added, the KR is removed.
   - Teams should include any big current and future roadmap items that the team has line of sight to.
@@ -37,17 +37,15 @@ All items in the tracker should be linked to a GitHub issue so that we can assig
 
 Customer names and business metrics can't be mentioned on public issues, so by default, all issues should be created in [sourcegraph/product-engineering-tracker](https://github.com/sourcegraph/product-engineering-tracker).
 
-
 ## Weekly OKR updates
 
-These are due each Friday by 19:00 UTC. 
+These are due each Friday by 19:00 UTC.
 
-- Each KR owner is responsible for posting a comment to the issue in the [GitHub project tracker](#github-project-tracker) with the latest status update and ensuring the delivery plan is up to date (reflecting what has been accomplished, the work that remains, date estimates, etc.) 
+- Each KR owner is responsible for posting a comment to the issue in the [GitHub project tracker](#github-project-tracker) with the latest status update and ensuring the delivery plan is up to date (reflecting what has been accomplished, the work that remains, date estimates, etc.)
 
-- VPP and VPE review each issue in the [GitHub project tracker](#github-project-tracker) on Fridays at 23:00 UTC and ask questions on the issues directly. Answers are provided by updating/editing the latest update directly so it gets added to the summary issue. 
+- VPP and VPE review each issue in the [GitHub project tracker](#github-project-tracker) on Fridays at 23:00 UTC and ask questions on the issues directly. Answers are provided by updating/editing the latest update directly so it gets added to the summary issue.
 
-- By default, we do not discuss OKRs unless someone explicitly raises a discussion point. The summary issue should be reviewed by Prod/Eng leadership on a recurring basis so everyone is aware of our progress. 
-
+- By default, we do not discuss OKRs unless someone explicitly raises a discussion point. The summary issue should be reviewed by Prod/Eng leadership on a recurring basis so everyone is aware of our progress.
 
 ## Monthly team updates
 
