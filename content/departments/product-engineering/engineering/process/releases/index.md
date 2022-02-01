@@ -182,10 +182,8 @@ In the future, we may introduce continuous releases if these issues become surmo
 [revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197
 [release-config.jsonc]: https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc
 [sourcegraph release tool]: ../../tools/release.md
-[3.36.2 patch release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/30200
 [sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
-[3.36.0 release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/29290
 [delivery]: ../../cloud/delivery/index.md
 [release issue template]: release_issue_template.md
 [patch release issue template]: patch_release_issue_template.md
