@@ -118,6 +118,14 @@ The release captain has unlimited power to make changes to the release branch to
 
 Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
 
+### CHANGELOG.md
+
+When releasing a new version, the Release Captain may need to manually update the [CHANGELOG.md]. Follow the instruction below:
+
+- [ ] I understood the convention of our changelog format. Learn more from our [CHANGELOG.md].
+- [ ] Create a new H2 title named `{major}.{minor}.{patch}` (the new version) after the `Unreleased` section if it doesn't already exist
+- [ ] Copy all changelog entries of the commits belong to this patch release into the new H2 title `## {major}.{minor}.{patch}`, grouped into the types they were originally in (e.g. `### Added`, `### Changed`, `### Fixed`, `### Removed`).
+
 ## Minor release process
 
 ### 1) Start a minor release
@@ -188,3 +196,4 @@ In the future, we may introduce continuous releases if these issues become surmo
 [release issue template]: release_issue_template.md
 [patch release issue template]: patch_release_issue_template.md
 [upgrade managed instances issue template]: upgrade_managed_issue_template.md
+[changelog.md]: https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md
