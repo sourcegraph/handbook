@@ -1,16 +1,16 @@
 # FY22Q4 OKR Plan
 
-Our objective this quarter is to:
+Our objective this quarter was to:
 
 **Make providing an effortless customer experience a habit for each application engineer by consistently honoring [our guiding principles](index.md#guiding-principles) and [definitions of success](index.md#we-know-that-we-are-successful-when-we) while maintaining healthy work habits.**
 
-We will measure this via the following key results:
+We measured this via the following key results:
 
 - Anyone on the team will be able to review all open cases and say “yes” we are honoring [our guiding principles](index.md#guiding-principles) and [definitions of success](index.md#we-know-that-we-are-successful-when-we) at least 95% of the time when measured.
 - All application engineers will have a sentiment of at least a 2 in at least 60% of the technical competency areas outlined in our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing).
 - All application engineers honor their weekly focus day at least 90% of the time and have taken about 20–30 days off by the end of the quarter (about 20 for those who started in June/July; about 30 for those who started in February/March).
 
-We will tracked our progress in [our tracker](https://docs.google.com/spreadsheets/d/1bXOm-oj9VyQwQtIvEfTI3ZRlDV2G5mDCTPBVporbQI8/edit?usp=sharing) and here is the end of quarter summary:
+We tracked our progress in [our tracker](https://docs.google.com/spreadsheets/d/1bXOm-oj9VyQwQtIvEfTI3ZRlDV2G5mDCTPBVporbQI8/edit?usp=sharing) and here is the end of quarter summary:
 
 - We honored [our guiding principles](index.md#guiding-principles) and [definitions of success](index.md#we-know-that-we-are-successful-when-we) 96% of the time, achieving our intention for this key result.
 - Application engineers have a sentiment of at least a 2 in at least X% of the technical competency areas outlined in our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing). _Note: TO BE WRITTEN 2022-02-01 when the application engineers finish their assessment._
