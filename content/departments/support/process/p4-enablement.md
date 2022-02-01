@@ -201,19 +201,16 @@ Sub-repo permissions are still experimental and below are the steps required to 
 Add this configuration to your external service configuration in dev private
 
 ```yaml
-"PERFORCE": [
+'PERFORCE':
+  [
     {
-      "p4.port": "perforce.sgdev.org:1666",
-      "p4.user": "admin",
-      "p4.passwd": "REDACTED",
-      "depots": [
-        "//test-perms/"
-      ],
-      "repositoryPathPattern": "perforce/{depot}",
-      "authorization": {
-        "subRepoPermissions": true
-      }
-    }
+      'p4.port': 'perforce.sgdev.org:1666',
+      'p4.user': 'admin',
+      'p4.passwd': 'REDACTED',
+      'depots': ['//test-perms/'],
+      'repositoryPathPattern': 'perforce/{depot}',
+      'authorization': { 'subRepoPermissions': true },
+    },
   ]
 ```
 
@@ -226,12 +223,7 @@ _NOTE_: Don’t modify the permissions in Perforce since they are used for integ
 You'll also need Perforce and sub-repo permissions enabled in your site config under the `experimentalFeatures` section:
 
 ```yaml
-"experimentalFeatures": {
-  "perforce": "enabled",
-  "subRepoPermissions": {
-    "enabled": true
-  },
-}
+'experimentalFeatures': { 'perforce': 'enabled', 'subRepoPermissions': { 'enabled': true } }
 ```
 
 In order to not have to wait for a permissions sync to complete, you can force one with this mutation:
