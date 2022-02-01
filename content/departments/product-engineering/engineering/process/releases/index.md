@@ -4,7 +4,7 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
-> As of Jan 31, 2022, the [Delivery] team owns the release process. The role of Release Captain is referring to a member of the [Delivery] team. However, this may change in the future when we transit to a rotating base Release Captain.
+> As of Jan 31, 2022, the [Delivery] team owns the release process. The role of Release Captain is referring to a member of the [Delivery] team. However, this may change in the future when we transition to a rotation-based Release Captain.
 
 ### Releases
 
