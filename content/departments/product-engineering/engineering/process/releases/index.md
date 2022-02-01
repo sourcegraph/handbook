@@ -71,66 +71,6 @@ To avoid confusion between tags and branches:
 
 Development always happens on `main` and changes are cherry-picked onto release branch as necessary **with the approval of the release captain**.
 
-## Patch release process
-
-> As of Jan 31, 2022, the Delivery team still owns the release process hence the role of Release Captain, `us` in the process below is always refering to the Delivery team. However, this may change in the future when we transit to a rotation base Release Captain.
-
-### 1) Kickstart a patch release
-
-CE or the products team will start requesting a patch release by submitting a [patch release request]. The patch release to [revert poor onboarding UX change] is a good example.
-
-Upon the Delivery team or the Release Captain receives the patch release request and we have decided to rollout a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process.
-
-The instruction is located at the bottom of the [patch release request]. At a high level, it contains the following
-
-- Open a PR to update [release-config.jsonc] config file with the upcoming release information and merge the PR
-- Utilize the [Sourcegraph release tool] to initialize the next step
-
-### 2) Patch release tracking issue
-
-The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. [3.36.2 patch release tracking issue] is a good example.
-
-The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level
-
-#### 2.1) Cherry-pick patch commits from `main` into the release branch
-
-Wait for CI passes on the releas branches listed.
-
-#### 2.2) Rollout a release candiate build
-
-Wait for passes for the new rc tag build.
-
-#### 2.3) Tag the final patch release build
-
-Wait for CI passes for the new patch tag.
-
-#### 2.4) Initialize a batch change
-
-This will make neccessary code changes across multiple repositories. [3.36.2 release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/release-sourcegraph-3.36.2?visible=6) is a good example.
-
-Changesets from the release batch change have to be merged following a specific order.
-
-1. sourcegraph/deploy-sourcegraph-digitalocean
-1. sourcegraph/deploy-sourcegraph-aws
-1. sourcegraph/deploy-sourcegraph-docker
-1. sourcegraph/deploy-sourcegraph
-1. sourcegraph/about
-1. sourcegraph/sourcegraph
-
-Unless there's specific instruction in the changeset (Pull Request on GitHub), the Release Captain can merge them with confident provided that CI checks pass.
-
-The changeset against [sourcegraph/sourcegraph] requires some manual changes to the changelog. Follow the instruction in the Pull Request description.
-
-Special attention is required to the changeset against [sourcegraph/deploy-sourcegraph-docker]. The changeset in [sourcegraph/deploy-sourcegraph-docker] also contains the release of our `pure-docker` deployment method and it is error prone (you need to manually resolved an expected merge conflict). Follow the instruction provided in the Pull Request description.
-
-#### 2.5) Wrapping up
-
-Follow the instruction from post-release in the patch release tracking issue to wrap up the patch release
-
-### 3) Revisit patch request issue
-
-Now it's a good time to go back to the original [patch release request] and close it.
-
 #### Example
 
 Here is an example git commit history:
@@ -176,6 +116,117 @@ The release captain has unlimited power to make changes to the release branch to
 
 Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
 
+## Patch release process
+
+> As of Jan 31, 2022, the Delivery team still owns the release process hence the role of Release Captain, `us` in the process below is always refering to the Delivery team. However, this may change in the future when we transit to a rotation base Release Captain.
+
+### 1) Kickstart a patch release
+
+CE or the products team will start requesting a patch release by submitting a [patch release request]. The patch release to [revert poor onboarding UX change] is a good example.
+
+Upon the Delivery team or the Release Captain receives the patch release request and we have decided to rollout a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process.
+
+The instruction is located at the bottom of the [patch release request]. At a high level, it contains the following
+
+- Open a PR to update [release-config.jsonc] config file with the upcoming release information and merge the PR
+- Utilize the [Sourcegraph release tool] to initialize the next step
+
+### 2) Patch release tracking issue
+
+The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. [3.36.2 patch release tracking issue] is a good example.
+
+The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level, it contains the followin steps
+
+#### 2.1) Cherry-pick patch commits from `main` into the release branch
+
+Wait for CI passes on the releas branches listed.
+
+#### 2.2) Tag a release candiate build
+
+Wait for CI passes for the new release candidate build.
+
+#### 2.3) Tag the final patch release build
+
+Wait for CI passes for the new patch tag.
+
+#### 2.4) Update image tag acroos repos with batch change
+
+This will make neccessary code changes across multiple repositories. [3.36.2 release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/release-sourcegraph-3.36.2?visible=6) is a good example.
+
+Changesets from the release batch change have to be merged following a specific order.
+
+1. sourcegraph/deploy-sourcegraph-digitalocean
+1. sourcegraph/deploy-sourcegraph-aws
+1. sourcegraph/deploy-sourcegraph-docker
+1. sourcegraph/deploy-sourcegraph
+1. sourcegraph/about
+1. sourcegraph/sourcegraph
+
+Unless there's specific instruction in the changeset (Pull Request on GitHub), the Release Captain can merge them with confident provided that CI checks pass.
+
+The changeset against [sourcegraph/sourcegraph] requires some manual changes to the changelog. Follow the instruction in the Pull Request description.
+
+Special attention is required to the changeset against [sourcegraph/deploy-sourcegraph-docker]. The changeset in [sourcegraph/deploy-sourcegraph-docker] also contains the release of our `pure-docker` deployment method and it is error prone (you need to manually resolved an expected merge conflict). Follow the instruction provided in the Pull Request description.
+
+#### 2.5) Wrapping up
+
+Follow the instruction from post-release in the patch release tracking issue to wrap up the patch release
+
+### 3) Revisit patch request issue
+
+Now it's a good time to go back to the original [patch release request] and close it.
+
+## Minor release process
+
+### 1) Start a minor release
+
+Major and minor releases are released on a fixed scheule, see [when we release](#when-we-release).
+
+### 2) Minor release tracking issue
+
+The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. [3.36.0 release tracking issue] is a good example of a minor release tracking issue.
+
+The Release Captain should review and follow the instruction in the patch release tracking release for next steps. At a high level, it contains the followin steps
+
+#### 2.1) Open a PR to pdate [release-config.jsonc]
+
+Merge this PR prior proceeding to the next step
+
+#### 2.2) Create a new release branch
+
+For example, `3.36`.
+
+#### 2.3) Tag a release candidate build
+
+Wait for CI passes for the new release candidate build.
+
+#### 2.4) Tag the final release build
+
+Wait for CI passes.
+
+#### 2.5) Update image tag acroos repos with batch change
+
+This will make neccessary code changes across multiple repositories. [3.36.0 release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/release-sourcegraph-3.36.0?visible=6) is a good example.
+
+Changesets from the release batch change have to be merged following a specific order.
+
+1. sourcegraph/deploy-sourcegraph-digitalocean
+1. sourcegraph/deploy-sourcegraph-aws
+1. sourcegraph/deploy-sourcegraph-docker
+1. sourcegraph/deploy-sourcegraph
+1. sourcegraph/about
+1. sourcegraph/sourcegraph
+
+Unless there’s specific instruction in the changeset (Pull Request on GitHub), the Release Captain can merge them with confident provided that CI checks pass.
+
+The changeset against [sourcegraph/sourcegraph] requires some manual changes to the changelog. Follow the instruction in the Pull Request description.
+
+Special attention is required to the changeset against sourcegraph/deploy-sourcegraph-docker. The changeset in sourcegraph/deploy-sourcegraph-docker also contains the release of our pure-docker deployment method and it is error prone (you need to manually resolved an expected merge conflict). Follow the instruction provided in the Pull Request description.
+
+#### 2.6) Wrapping up
+
+Follow the instruction from post-release in the release tracking issue to wrap up the release.
+
 ## FAQ
 
 ### Why the 20th?
@@ -199,3 +250,4 @@ In the future, we may introduce continuous releases if these issues become surmo
 [3.36.2 patch release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/30200
 [sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
+[3.36.0 release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/29290
