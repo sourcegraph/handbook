@@ -1,6 +1,6 @@
 # FY23Q1 OKR Plan
 
-In order to ensure that the customer support team is able to recover from the COVID impact that made for an unusually difficult end to FY22 and the team is able to continue showing up for our customers without risk of burnout, we will forego OKRs for Q1. Instead, we will focus on keeping the lights on -- our number one priority: when something isn't working for a customer, we want to live [our ethos](index.md#our-ethos) and resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers.
+In order to ensure that the customer support team is able to recover from the COVID impact that made for an unusually difficult end to FY22 and we are able to continue showing up for our customers without risk of burnout, we will forego OKRs for Q1. Instead, we will focus on keeping the lights on -- our number one priority: when something isn't working for a customer, we want to live [our ethos](index.md#our-ethos) and resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers.
 
 To measure our success in Q1, we will focus on our [standard definitions of success](index.md#we-know-that-we-are-successful-when-we), measuring the following at a team level in [this tracker](https://docs.google.com/spreadsheets/d/1Uufqr8hTFKCpmxfBjTS4NVfUh8RQzrhDPL0vfSdSQpk/edit?usp=sharing):
 
@@ -13,6 +13,12 @@ To measure our success in Q1, we will focus on our [standard definitions of succ
 
 A member of CS leadership will update the tracker weekly.
 
-Additionally, program managers will aim to have a project management methodology in place by the end of the quarter.
+Additionally, we will aim to complete the following by the end of the quarter:
+
+- Resume case reviews and introduce the long running case retro practice
+- Enable (at least) all other leaders and program managers to serve as messenger
+- Solidify our change managment practices 
+- Solidify our project management practices
+- Identify possible ways to lower need for requests for help for #delivery and #repo-management 
 
 As time, capacity, and energy allow, application engineers will also continue to build out our [enablement library](../process/enablement/index.md). Application engineers are welcome to "claim" any of the areas of focus from the [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing) and create the relevant enablement materials. We will get as much done as possible and hold grace for ourselves if we are not able to get much of this done.
