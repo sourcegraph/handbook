@@ -5,10 +5,10 @@ In order to ensure that the customer support team is able to recover from the CO
 To measure our success in Q1, we will focus on our [standard definitions of success](index.md#we-know-that-we-are-successful-when-we), measuring the following at a team level in [this tracker](https://docs.google.com/spreadsheets/d/1Uufqr8hTFKCpmxfBjTS4NVfUh8RQzrhDPL0vfSdSQpk/edit?usp=sharing):
 
 - Anyone on the team will be able to review all open cases and say “yes” we are honoring [our guiding principles](index.md#guiding-principles) and at least 95% of the time when measured.
-- We maintain 1 hour response (internal) SLA 100% of the time for all pre-sales customers.
-- We maintain an overall average of 2 hour response for all customers (pre-, post, open source/free).
-- We maintain an overall average 7 day resolution.
-- We continue to engage engineering no more than 10% of the time if we exclude requests for help posted to our #delivery and #repo-management teammates; for #delivery and #repo-management, we need to determine if we can lower our need for help requests for these issues and if so, how. All we know now is that we need help the most with these parts of the product and it no longer seems to be about team enablement.
+- We maintain 1 hour response (internal) SLA 100% of the time for all pre-sales customers (checked for last 30 days).
+- We maintain an overall average of 2 hour response for all customers (pre-, post, open source/free) (checked for last 30 days).
+- We maintain an overall average 7 day resolution (checked for last 30 days).
+- We continue to engage engineering no more than 10% of the time if we exclude requests for help posted to our #delivery and #repo-management teammates; for #delivery and #repo-management (checked for last 30 days), we need to determine if we can lower our need for help requests for these issues and if so, how. All we know now is that we need help the most with these parts of the product and it no longer seems to be about team enablement.
 - All application engineers are able to honor their focus day at least 80% of the time.
 
 A member of CS leadership will update the tracker weekly.
