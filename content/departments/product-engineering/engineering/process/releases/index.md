@@ -94,9 +94,15 @@ The Release Captain should review and follow the instruction in the patch releas
 
 #### 2.1) Cherry-pick patch commits from `main` into the release branch
 
+Wait for CI passes on the releas branches listed.
+
 #### 2.2) Rollout a release candiate build
 
+Wait for passes for the new rc tag build.
+
 #### 2.3) Tag the final patch release build
+
+Wait for CI passes for the new patch tag.
 
 #### 2.4) Initialize a batch change
 
@@ -111,7 +117,11 @@ Changesets from the release batch change have to be merged following a specific 
 1. sourcegraph/about
 1. sourcegraph/sourcegraph
 
-Unless there's specific instruction in the changeset (Pull Request), the Release Captain can merge them with confident provided that CI checks pass. However, Special attention is required to the changeset against [sourcegraph/deploy-sourcegraph-docker]. The changeset in [sourcegraph/deploy-sourcegraph-docker] also contains the release of our `pure-docker` deployment method and it is error prone. Follow the instruction provided in the Pull Request template.
+Unless there's specific instruction in the changeset (Pull Request on GitHub), the Release Captain can merge them with confident provided that CI checks pass.
+
+The changeset against [sourcegraph/sourcegraph] requires some manual changes to the changelog. Follow the instruction in the Pull Request description.
+
+Special attention is required to the changeset against [sourcegraph/deploy-sourcegraph-docker]. The changeset in [sourcegraph/deploy-sourcegraph-docker] also contains the release of our `pure-docker` deployment method and it is error prone (you need to manually resolved an expected merge conflict). Follow the instruction provided in the Pull Request description.
 
 #### 2.5) Wrapping up
 
@@ -187,4 +197,5 @@ In the future, we may introduce continuous releases if these issues become surmo
 [release-config.jsonc]: https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc
 [sourcegraph release tool]: ../../tools/release.md
 [3.36.2 patch release tracking issue]: https://github.com/sourcegraph/sourcegraph/issues/30200
+[sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
