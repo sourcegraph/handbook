@@ -2,16 +2,12 @@
 
 A CE, being both a pre-sales engineer and a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
-- [Customer Engineering: Working with Customers](#customer-engineering-working-with-customers)
-- [Pre-Sales Customer Touchpoints](#pre-sales-customer-touchpoints)
-  - [Discovery and Demo](#discovery-and-demo)
-    - [Resources](#resources)
-  - [Technical Design](#technical-design)
-    - [Resources](#resources-1)
-  - [Customer Trials](#customer-trials)
-    - [Resources](#resources-2)
-  - [Security Reviews](#security-reviews)
-  - [License Keys](#license-keys)
+- [Pre-Sales Customer Touchpoints](pre-sales-customer.md)
+  - Discovery and Demo
+  - Technical Design
+  - Customer Trials
+  - Security Reviews
+  - License Keys
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
   - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
     - [Resources](#resources-3)
