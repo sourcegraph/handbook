@@ -18,7 +18,7 @@ We care about the safety and comfort of everyone in our community, including col
 
 ## Team member philosophy
 
-If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](https://handbook.sourcegraph.com/company-info-and-process/communication/code_of_conduct#raising-concerns).
+If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#raising-concerns).
 
 Your ultimate success with Sourcegraph will be a function of your personal agency and the environment we create as a team. We want that environment to set you up for success and enable you to thrive while realizing your professional goals and dreams.
 
@@ -79,7 +79,7 @@ Leadership has the right and responsibility to remove, edit, or reject comments,
 
 We provide equal employment opportunities for all who work at and apply to work at Sourcegraph. We are committed to providing an environment free of harassment and discrimination of all types.
 
-Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. See the [Raising concerns](https://handbook.sourcegraph.com/company-info-and-process/communication/code_of_conduct#raising-concerns) section.
+Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. See the [Raising concerns](#raising-concerns) section.
 
 We must comply with all applicable labor laws. We do not use or tolerate the use of forced, involuntary, or child labor.
 
