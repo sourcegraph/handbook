@@ -19,7 +19,7 @@ Sourcegraph is using Okta for a few key goals:
 - Secure access to SaaS systems
 - Faster onboarding process
 - Consolidated & automated system access
-- Automating processes through the use of Okta workflows 
+- Automating processes through the use of Okta workflows
 
 ## What are the benefits of using Okta?
 
@@ -38,10 +38,11 @@ Sourcegraph is using Okta for a few key goals:
 
 All Sourcegraph team members have an Okta account set up as part of their onboarding process. Okta activation emails are valid for 7 days.
 
-Expect the sign-up process to take around 10 minutes. You will need to create login credentials, and set up Okta Verify on your mobile and/or desktop device for MFA. 
+Expect the sign-up process to take around 10 minutes. You will need to create login credentials, and set up Okta Verify on your mobile and/or desktop device for MFA.
 
 ## Which MFA options are available?
-- Okta Verify is available on iOS, Android, and Windows devices. 
+
+- Okta Verify is available on iOS, Android, and Windows devices.
 - You can always use 1Password’s one-time passcode feature to host your MFA codes
 - YubiKeys
 
@@ -55,15 +56,13 @@ For YubiKey set up:
 If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password.
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
 
-
-
 1. Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com)
 1. Click the "Need help signing in?" button on the login screen
-2. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
-3. Enter your personal email address
-4. Reset via email
-5. Go to your personal email account
-6. Follow the directions from Okta for resetting you password
+1. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
+1. Enter your personal email address
+1. Reset via email
+1. Go to your personal email account
+1. Follow the directions from Okta for resetting you password
 
 We recommend that you store your Okta password in 1Password as well as your Security Questions there.
 
@@ -108,4 +107,3 @@ If you are having problems with being asked for multiple MFA authentications dur
 ## Where do I go if I have any questions?
 
 For Okta help, setup, and integration questions: #it-tech-ops Slack channel or <tech-ops-admin@sourcegraph.com>
-
