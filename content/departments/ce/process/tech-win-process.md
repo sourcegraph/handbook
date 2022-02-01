@@ -180,6 +180,8 @@ Store Completed Success Plans <strong>[Here]</strong>
 
 ## Process
 
+![Technical Win Management Process](https://storage.googleapis.com/sourcegraph-assets/handbook/techwin-diagram-updated.png)
+
 ### Gates for Progressing Through Technical Win Phases
 
 Customer Engineering has defined five (5) phases across which we will be tracking the status of the technical win. These five phases map to one or more of the seven (7) defined sales stages.
