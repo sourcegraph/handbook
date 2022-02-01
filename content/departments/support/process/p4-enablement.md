@@ -223,10 +223,9 @@ _NOTE_: Don’t modify the permissions in Perforce since they are used for integ
 You'll also need Perforce and sub-repo permissions enabled in your site config under the `experimentalFeatures` section:
 
 ```json
-  "experimentalFeatures": {
-    "perforce": "enabled",
-    "subRepoPermissions": { "enabled": true }
-  }
+"experimentalFeatures": {
+  "perforce": "enabled",
+  "subRepoPermissions": { "enabled": true }
 }
 ```
 
