@@ -12,12 +12,6 @@ From the Okta website:
 
 Okta is an Identity and Single Sign-On (SSO) solution for applications and Cloud entities. It allows Sourcegraph to consolidate authentication and authorization to applications we use daily through a single dashboard and ensure a consistent, secure, and auditable login experience for all our Sourcegraph team members.
 
-#### Current implementation status
-
-Please see our [Okta Project Plan](https://docs.google.com/spreadsheets/d/1T7PUK4J94KgkW18cyjCBQZEkmVhFSDigRC8nuMV2EGU/edit?usp=sharing) for relevant timelines on app-specific and team-specific Okta integrations.
-
-You should have received an activation email, if you haven’t please let #it-tech-ops know and we can resend the invite.
-
 ## How is Sourcegraph using Okta?
 
 Sourcegraph is using Okta for a few key goals:
@@ -25,11 +19,11 @@ Sourcegraph is using Okta for a few key goals:
 - Secure access to SaaS systems
 - Faster onboarding process
 - Consolidated & automated system access
+- Automating processes through the use of Okta workflows
 
-## What will be the benefits to me using Okta as a user?
+## What are the benefits of using Okta?
 
-- A single dashboard that is provided to all users, with all the applications you need in a single place
-- The ability to request access to applications from within the dashboard
+- A dashboard with all the applications you need in a single place
 - No more long list of complicated or insecure passwords
 - Managed SSO and Multi-Factor Authentication (MFA) that learns and adapts to your login patterns
 - Transparent security controls with a friendly user experience
@@ -38,19 +32,19 @@ Sourcegraph is using Okta for a few key goals:
 
 - Automated provisioning and group management
 - Ability to transparently manage shared credentials to web applications without disclosing the credentials to users
-- Centralized access for users, making it easy to add, remove and change the application profile without the need to update all users.
+- Centralized access for users, making it easy to add, remove and change the application profile without the need to update all users
 
 ## How do I get my Okta account set up?
 
-All Sourcegraph team members will have an Okta account set up as part of their onboarding process. Okta activation emails are valid for 7 days.
+All Sourcegraph team members have an Okta account set up as part of their onboarding process. Okta activation emails are valid for 7 days.
 
-Expect the sign-up process to take around 10 minutes. You will need to create login credentials, and set up Okta Verify on your mobile and/or desktop device for MFA. Okta Verify is available on iOS, Android, and Windows devices. You can always use 1Password’s one-time passcode feature to host your MFA codes, if you would rather.
+Expect the sign-up process to take around 10 minutes. You will need to create login credentials, and set up Okta Verify on your mobile and/or desktop device for MFA.
 
-Contact #it-tech-ops if you need assistance setting this up.
+## Which MFA options are available?
 
-## Can I use a different MFA option other than Okta Verify?
-
-Yes, we will be enabling TOTP and YubiKeys in addition to Okta Verify as our three MFA options for Okta. Once we have successfully configured them you will see them listed when you set up 2FA. You can set up Okta Veify (or use 1Password's one-time passcode with Okta Verify) first and then once enable switch to TOTP or YubiKeys when they are ready.
+- Okta Verify is available on iOS, Android, and Windows devices.
+- You can always use 1Password’s one-time passcode feature to host your MFA codes
+- YubiKeys
 
 For YubiKey set up:
 
@@ -59,17 +53,18 @@ For YubiKey set up:
 
 ## I forgot my password/my login doesn't work, what do I do?
 
+If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password.
 There is a "need help signing in?" button on the login screen. If you expand this there is a link to an automated password reset process via email.
-We recommend that you store your Okta password in 1Password as well as your Security Questions there.
-
-If you forgot your password to Okta you won't have access to your Sourcegraph google account BUT you can also use your secondary/personal email address (as it is entered in BambooHR) to reset your password:
 
 1. Go to the our [Sourcegraph Okta Login page](https://www.sourcegraph.okta.com)
-2. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
-3. Enter your personal email address
-4. Reset via Email
-5. Go to your personal email account
-6. Follow the directions from Okta for resetting you password
+1. Click the "Need help signing in?" button on the login screen
+1. [Forgot Password](https://sourcegraph.okta.com/signin/forgot-password)
+1. Enter your personal email address
+1. Reset via email
+1. Go to your personal email account
+1. Follow the directions from Okta for resetting you password
+
+We recommend that you store your Okta password in 1Password as well as your Security Questions there.
 
 ## I forgot my Security Questions, how do I reset my password?
 
@@ -77,7 +72,9 @@ Ask #it-help-ops for a temporary password to be issued. You will be given a temp
 
 ## I changed my phone and now can't do MFA, what do I do?
 
-No worries! You can easily reset your own MFA code for Okta if you did not wipe/return your old phone yet.
+If you no longer have your phone: ask the it-tech-ops channel for an MFA reset.
+
+If you still have your old phone: you can reset your own MFA code:
 
 1. Sign in to your Okta webpage by going to <https://www.sourcegraph.okta.com> on your old phone
 2. Use your email, password, and the MFA code on your old phone
@@ -85,7 +82,7 @@ No worries! You can easily reset your own MFA code for Okta if you did not wipe/
 4. Scroll down until you see "Extra Verification", once you're there click "remove" to disable that instance of Okta Verify
 5. Configure the new MFA code on your new phone
 
-Lost all your MFA Factors? Ask #it-tech-ops for an MFA Reset. Once your Factors have been reset, please set up MFA again.
+Once your MFAs have been reset, please set up MFA again.
 
 ## My Okta account has been locked out because of failed attempts, what do I do?
 
@@ -110,11 +107,3 @@ If you are having problems with being asked for multiple MFA authentications dur
 ## Where do I go if I have any questions?
 
 For Okta help, setup, and integration questions: #it-tech-ops Slack channel or <tech-ops-admin@sourcegraph.com>
-
-### Who are the Okta Super Admins?
-
-[Nate Tang](../../../team/index.md#nate-tang), Tech Ops, nate@sourcegraph.com
-
-[Maureen Loughrey](../../../team/index.md), Tech Ops, maureen.loughrey@sourcegraph.com
-
-[Nicky Van Maanen](../../../team/index.md#nicky-van-maanen), Tech Ops, nicky@sourcegraph.com
