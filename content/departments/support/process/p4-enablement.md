@@ -227,10 +227,10 @@ You'll also need Perforce and sub-repo permissions enabled in your site config u
 
 ```yaml
 "experimentalFeatures": {
-	"perforce": "enabled",
-	"subRepoPermissions": {
-		"enabled": true
-	},
+  "perforce": "enabled",
+  "subRepoPermissions": {
+    "enabled": true
+  },
 }
 ```
 
