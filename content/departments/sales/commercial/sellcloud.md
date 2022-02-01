@@ -27,9 +27,6 @@ Sourcegraph launched the Cloud Beta in December. Since then hundreds of companie
    - The beta program ends (usually at the end of month)
    - Ask if they would like to continue using it past the end of the month
    - Make sure to find out if the customer has budget, signing authority or can involve someone with signing authority
-   - Position the price:
-     - $25/user/month has been positioned without too much pushback
-     - Make sure the user understands that $75/user/month is the approved pricing for the self-hosted product and the GA cloud product will likely be far more expensive than $25/user/month
-     - Make sure you manage the customer’s expectations from the beginning; this is a beta and all sorts of things could go wrong with reliability or usability of the Cloud product and that they may ‘upgrade’ to the self-hosted product as an option if the Cloud product is too troubled
+   - Position the price: Make sure you manage the customer’s expectations from the beginning; this is a beta and all sorts of things could go wrong with reliability or usability of the Cloud product and that they may ‘upgrade’ to the self-hosted product as an option if the Cloud product is too troubled
 
 5. Make sure to follow up with the customer like any other to gather the final details and close the deal.
