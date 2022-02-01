@@ -34,6 +34,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 - `mau` to indicate that the company is on a monthly usage-based billing model.
 - `trial` to show an indicate in Sourcegraph that the company is on a trial.
 - `batch-changes` for Batch Changes (formerly `campaigns`)
+- `code-insights` for Code Insights
 - `acls` for external Permission syncing from the code host. (Add this to all licenses.)
 - `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
 - `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions. All Enterprise licenses should have this added.
