@@ -501,17 +501,6 @@ jonah_dueck:
   links: '[LinkedIn](https://www.linkedin.com/in/jonah-dueck/)'
   description: "Jonah has been working within the IT space since high school. He started out by founding and running a small IT company in northern Nevada while still in high school and after graduating, moved on to working for another small company in Northern California. Most recently, he worked in internal IT operations and technical program management at Google for about 2 years. Outside of work, he enjoys rock climbing, playing music (guitar and drums), riding his motorcycle and working on his old VW bus (there's always something breaking on it)."
 
-artem_ruts:
-  name: Artem Ruts
-  pronouns: he/him
-  role: Software Engineer
-  location: Pittsburgh, PA, USA 🇺🇸
-  github: artemruts
-  email: artem@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/artemruts/)'
-  pronunciation: '/[arˈtʲɵm ruts](http://ipa-reader.xyz/?text=ar%CB%88t%CA%B2%C9%B5m%20ruts)/'
-  description: Artem is a Software Engineer from Belarus with a Master’s in Computer Science. Before teaming up with Sourcegraph, Artem dazzled the IT crowd at Wayfair and, prior to that, Thomson Reuters. Avid believers in lifelong learning, Artem and his awesome wife currently enjoy dabbling in blocks, balls, and trucks with their infant daughter. In his rare and fleeting free time, you might be able to catch him rollerblading (though you’d have to be awfully fast) or studying foreign languages.
-
 jean_du_plessis:
   name: Jean du Plessis
   pronouns: he/him
@@ -524,16 +513,6 @@ jean_du_plessis:
   email: jean@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](readmes/jean-du-plessis.md),'
   description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 16 years of which he's been a manager for 7. Prior to Sourcegraph, he was a manager at GitLab."
-
-eli_rothschild:
-  name: Eli Rothschild
-  pronouns: He/Him
-  role: Account Executive
-  reports_to: regional_director_sales_east
-  location: New York, New York (Currently in Boca Raton, FL)
-  email: eli@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/eli-rothschild-b922824a/)'
-  description: Eli was raised in Baltimore, MD, has been in New York City since 2007. He has been in SaaS sales with early stage to high growth companies for a majority of his professional career. Prior to joining Sourcegraph, Eli was an Enterprise Account Executive at Segment, and previously at Mixpanel during similar stages of company growth. When not listening to the latest tech and business podcasts, Eli is a student of U.S and World history, enjoys playing chess, following his favorite sports teams, and traveling.
 
 owen_convey:
   name: Owen Convey
@@ -808,17 +787,6 @@ murat_sutunc:
   email: murat@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/muratsutunc)'
   description: Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.
-
-lisa_tagliaferri:
-  name: Lisa Tagliaferri
-  pronouns: any
-  role: Director of Developer Education
-  location: New York City 🗽
-  github: ltagliaferri
-  email: lisa@sourcegraph.com
-  links: '[lisatagliaferri.org](https://lisatagliaferri.org), [@lisaironcutter](https://twitter.com/lisaironcutter), [LinkedIn](https://www.linkedin.com/in/lisa-tagliaferri/)'
-  pronunciation: tal YA feh ree
-  description: Lisa wants to make tech more accessible through education and community building. She previously led the Developer Education/Community team at DigitalOcean, and wrote very popular open access books on Python programming and machine learning. An interdisciplinary researcher and teacher, Lisa earned her PhD from the City University of New York, and held postdoctoral positions at MIT and Harvard. A native New Yorker, she is interested in both public transportation and complicated street parking signage.
 
 jon_kishpaugh:
   name: Jon Kishpaugh
@@ -1308,16 +1276,6 @@ jenny_bergen:
   links: '[@jennybergen](https://www.twitter.com/jennybergen), [LinkedIn](https://www.linkedin.com/in/jenniferbergen/)'
   description: "Jenny lives outside of Denver with her husband and their aloof dog, Rufus. She grew up in the Boulder, CO area and spent five years in NYC as a tech journalist (PCMag, ZDNet, Digital Trends) after college before returning home to Colorado to start the second chapter of her career as a content marketer. Jenny is an avid music lover and 'met' her husband at a concert in NYC (a Craigslist Missed Connection did the rest). She enjoys cooking and baking, pretending she's a restaurant critic, researching everything, and being in nature. She also is Team Oxford comma and hopes you are, too."
 
-carl_hicks:
-  name: Carl Hicks
-  pronouns: He/Him
-  role: Application Engineer
-  location: Washington, DC, USA 🇺🇸
-  github: hicksca
-  email: carl@sourcegraph.com
-
-  description: Carl lives in Washington, DC. When not working, you will generally find him spending time with his two sons or building mechanical keyboards. Before Sourcegraph, Carl worked as a consultant at IBM working focusing on internal IaaS cloud services.
-
 kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
@@ -1500,14 +1458,6 @@ kristen_sundberg:
   links: '[Twitter](https://twitter.com/thisiskris_s), [LinkedIn](https://www.linkedin.com/in/kristensundberg/)'
   description: "Kristen is a New England native that resides in a small town outside of Boston, MA. She has a knack for making brands loveable. And has been managing social media for tech and software brands the majority of her career. She's a Stonehill College alumni, who speaks passionately about chronic illness, remote work, and social media best practices. When away from the keyboard, you will find Kristen on an adventure with [Leo the Samoyed](https://www.instagram.com/ladyandleolife/), crafting with her Cricut, or watching true crime documentaries and BravoTV."
 
-mustafa_ulker:
-  name: Mustafa Ulker (Moose)
-  role: Senior Copywriter/Creative
-  location: Los Angeles,USA 🇺🇸
-  email: moose@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/mooooose/)'
-  description: "My grandpa was quite a famous storyteller, as well as my grandma; my dad and my mom too. So, I found myself telling stories to my brother when I was five. Since then I never stopped. -30 Years Later— I'm creating and telling stories for global brands. Nothing has changed. I just add some taglines and hashtags at the end. www.mustafaulker.com"
-
 amie_rotherham:
   name: Amie Rotherham
   pronouns: She/Her
@@ -1541,13 +1491,6 @@ justin_boyson:
   email: justin.boyson@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/justindavidboyson/)'
   description: "Justin got his first taste of coding on a Commodore 64. He and his brother 'hacked' their Wheel of Fortune™ game replacing all the character's speech text with curse words to hilarious effect. Since then he's turned his curiosity towards more positive pursuits, most recently as a Frontend Engineer at GitLab. Justin's antics are graciously tolerated by his patient wife, three less patient dogs, and one completely impatient cat. When he's not working there is an equal chance of finding him doing some subset of the following: roasting/drinking coffee, working on his house, playing video games, playing music, napping."
-
-sruti_dhulipala:
-  name: Sruti Dhulipala
-  pronouns: She/Her
-  role: 👋 Senior Manager, Global Brand Strategy
-  location: 🌴 Los Angeles, California, USA
-  description: "👀 I’m always fascinated by the intersection of technology, culture, brands, and human behavior. I love keeping a pulse on trends as they are often great predictors of innovation. 🌱 I’m currently learning permaculture, yoga, and very recently, how to use GitHub! ✨ I’m looking to collaborate on all things related to awareness, brand perception, and adoption of Sourcegraph. I've spent over 12 years imparting my expertise and passion in scaling strategic initiatives that foster product engagement for a plethora of innovative brands (including Theranos!) My background in consulting, service design, brand strategy, and advertising give me a unique perspective to develop compelling brand narratives, cultivating an enriched connection with users and translating that into measured business impact. Specialties: Service Design, Design Thinking, Ethnographic Research, Enterprise Digital Strategy and Transformation, Experience Design, Organizational Culture Change Management, Brand Strategy, Product Marketing, Product Launch, Go-To-Market, Communications Planning."
 
 victoria_yunger:
   name: Victoria Yunger
@@ -2640,3 +2583,25 @@ quinlan_sparks:
   links: '[LinkedIn](https://www.linkedin.com/in/quinlansparks/)'
   pronunciation: '[/ˈkwɪnlən spɑrks/](http://ipa-reader.xyz/?text=%CB%88kw%C9%AAnl%C9%99n%20sp%C9%91rks&voice=Salli)'
   description: 'Quinlan grew up in the Chicago suburbs and hasn’t quite managed to leave yet, despite multiple attempts and a bone-deep dislike of winter. Their background is in fiction writing and live entertainment, so no one’s quite sure exactly how they wound up as an engineer, but it doesn’t seem like anyone’s complaining. In their free time they enjoy running and playing tabletop role-playing games with their friends, experimenting with video game design and development, and thinking about Battlebots.'
+
+shane_carr:
+  name: Shane Carr
+  pronouns: he/him
+  role: Enterprise Account Executive
+  reports_to: vp_sales_western_region
+  location: Berkeley, CA, USA 🇺🇸
+  github: shanecarr1
+  email: shane.carr@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/carrshane/)'
+  description: 'Shane lives in Berkeley, CA with his partner, Juliana, and 2 kids. He recently came from GitHub and fundamentally believes that developers are changing the world for the better. Outside of work, he enjoys chess, camping, live music, attempting to teach his kids how to ride a bike, and spicy Thai curry. He dabbles in crypto, real estate investing, and calisthenics.'
+
+Samantha_Ulrich:
+  name: Samantha (sam) Ulrich
+  email: sam.ulrich@sourcegraph.com
+  github: samU713
+  pronouns: she/her
+  role: Senior Accountant
+  reports_to: Financial Controller
+  location: Portland, OR, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/samantha-u-62218837/)'
+  description: 'An Oregon Native, Sam loves to hike and explore her home state with her fiancé, one of their favorite things is finding hidden waterfalls. An avid reader, Sam has run her own book blog on Youtube and Instagram since 2014. She also has recently discovered a new passion in watercolor painting. Prior to Sourcegraph, Sam has spent time in the healthcare, structural engineering, and crpyto fields and looks forward to bringing her experience to her role at Sourecgraph!'
