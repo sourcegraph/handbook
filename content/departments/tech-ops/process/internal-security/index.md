@@ -18,7 +18,7 @@ Required security measures for all full-time teammates, interns, and temp contra
 
 Security measures Tech Ops is taking:
 
-- Basaeline device standards
+- Baseline device standards
 - Workspace One and Carbon Black for enpoint management and antivirus
 - Advanced phishing/spoofing settings
 - Quarterly system reviews (in work)
