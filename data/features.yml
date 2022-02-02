@@ -356,7 +356,7 @@ soc_ii_type_ii:
 
 repository_syncing:
   title: Repository Syncing
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   use_cases:
     - none
@@ -376,7 +376,7 @@ repository_syncing:
 
 repository_permissions:
   title: Repository Permissions
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
   use_cases:
@@ -397,7 +397,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   use_cases:
@@ -418,7 +418,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   use_cases:
@@ -439,7 +439,7 @@ browser_extension:
 
 native_integration:
   title: Native Integration
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
   use_cases:
@@ -460,7 +460,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: deployment
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   use_cases:
@@ -481,7 +481,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: deployment
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   use_cases:
@@ -502,7 +502,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: deployment
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   use_cases:
