@@ -163,7 +163,6 @@ function getReports(teamMembers, role_slug, parentTeam, indent) {
     if (teamMember.reports_to === role_slug) {
       const currentTeam = createValidTeamString(teamMember)
       const teamString = parentTeam && parentTeam === currentTeam ? '' : currentTeam
-      console.log(indent)
       const spaces = ' '.repeat(indent * 2)
       content += `${spaces}- [${String(teamMember.name)}](/team/index.md#${String(
         createValidTeamAnchor(teamMember.name)
