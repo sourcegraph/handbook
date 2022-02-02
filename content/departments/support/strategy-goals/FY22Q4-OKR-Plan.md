@@ -13,7 +13,7 @@ We measured this via the following key results:
 We tracked our progress in [our tracker](https://docs.google.com/spreadsheets/d/1bXOm-oj9VyQwQtIvEfTI3ZRlDV2G5mDCTPBVporbQI8/edit?usp=sharing) and here is the end of quarter summary:
 
 - We honored [our guiding principles](index.md#guiding-principles) and [definitions of success](index.md#we-know-that-we-are-successful-when-we) 96% of the time, achieving our intention for this key result.
-- Application engineers have a sentiment of at least a 2 in at least X% of the technical competency areas outlined in our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing). _Note: TO BE WRITTEN 2022-02-01 when the application engineers finish their assessment._
+- Application engineers have a sentiment of at least a 2 in 87% of the technical competency areas outlined in our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit?usp=sharing).
 - Application engineers honored their weekly focus day 80% of the time and 83% of application engineers took about 20–30 days off by the end of the quarter (about 20 for those who started in June/July; about 30 for those who started in February/March). CS leaders now understand how to better coach application engineers to take time off and we very much solved the barriers to honor the focus day ... landing at 80% instead of 90% was due to factors out of the team's control due to COVID impact in the last month of the quarter.
 
 To accomplish our OKR, we...
