@@ -1240,7 +1240,7 @@ coury_clark:
   name: Coury Clark
   pronouns: He/Him
   role: Software Engineer
-  team: Code WINSIGHTS
+  team: Code Insights
   reports_to: engineering_manager_code_insights
   location: Phoenix, AZ, USA
   email: coury@sourcegraph.com
