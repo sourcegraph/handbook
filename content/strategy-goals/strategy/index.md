@@ -29,18 +29,18 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 We have identified five key use cases for our universal code search platform:
 
-1. [Developer onboarding](use_cases/dev-onboarding.md)
-1. [Code reuse](use_cases/code_reuse.md)
-1. [Code health](use_cases/code_health.md)
-1. [Fixing security vulnerabilities](use_cases/fixing_security_vulnerabilities.md)
-1. [Incident Response](use_cases/incident_response.md)
+1. [Developer onboarding](use-cases/dev-onboarding.md)
+1. [Code reuse](use-cases/code-reuse.md)
+1. [Code health](use-cases/code-health.md)
+1. [Fixing security vulnerabilities](use-cases/fixing-security-vulnerabilities.md)
+1. [Incident Response](use-cases/incident-response.md)
 
 There are also several related resources:
 
 - [Use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
 - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
 - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
-- How we [work with use cases](working_with_use_cases.md)
+- How we [work with use cases](working-with-use-cases.md)
 
 ### Principles
 

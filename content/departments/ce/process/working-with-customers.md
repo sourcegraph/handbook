@@ -2,7 +2,6 @@
 
 A CE, being both a pre-sales engineer and a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
-- [Customer Engineering: Working with Customers](#customer-engineering-working-with-customers)
 - [Pre-Sales Customer Touchpoints](#pre-sales-customer-touchpoints)
   - [Discovery and Demo](#discovery-and-demo)
     - [Resources](#resources)
@@ -30,6 +29,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [Customer Discovery](#customer-discovery)
   - [Account Health](#account-health)
 - [Processes](#processes)
+  - [CE Technical Win Management](#ce-technical-win-management)
   - [Red Accounts](#red-accounts)
     - [Overview](#overview)
     - [Red Accounts Process](#red-accounts-process)
@@ -206,6 +206,10 @@ The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnm
 # Processes
 
 Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the CE team either drives or heavily contributes to are outlined below.
+
+## CE Technical Win Management
+
+CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
 
 ## Red Accounts
 

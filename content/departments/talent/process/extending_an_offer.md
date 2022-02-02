@@ -33,7 +33,8 @@
 **Step 5**: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
 
 - Attendees: Recruiter, Hiring Manager, Candidate.
-- To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile.
+- To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
+- Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager and Talent Team Manager (if applicable) for review.
 - Offer Summary call agenda:
   - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them.
   - The Recruiter then shares their screen to display the offer summary document.
@@ -48,8 +49,22 @@
 
 - If US-based candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
 - If a Contractor candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
-- If onboarding via a PEO, make a formal request in the Slack channel 'peo-visa-hiring` to begin the PEO onboarding process
-  - COMING SOON: learn more about hiring via PEOs here
+- If onboarding via a PEO, make a formal request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
+
+Hi team - we have a candidate based in `location` that we would like to onboard via Remote. Can we please initiate the process?
+
+- Candidate's full legal name:
+- Candidate's personal email:
+- Country of residence:
+- Do they require visa sponsorship to work in their country of residence? If so, what visa?
+- Job title:
+- Job description link:
+- Compensation in USD (we will need to convert this to their local currency):
+- Provide commission plan if applicable to the role:
+- Job level:
+- Will they be an IC or Manager?
+- Start date:
+- Hiring Manager (full name):
 
 **Step 8**: the candidate receives the offer.
 
@@ -59,3 +74,17 @@
 - For PEO candidates, the candidate will receive all offer documentation via the PEO.
 
 COMING SOON: what to do if the candidate declines our offer
+
+**Offer Process for PEO/EOR contracts**
+
+1. Confirm if the Country is Eligible for PEO through Remote.com - https://support.remote.com/hc/en-us/articles/4411262104589
+2. If a country does not have an SLA, notify People Ops and Legal to begin the SLA process if at the final or offer stage with a candidate.
+   - Current SLA in UK, Australia, Netherlands, Germany, Ireland
+3. Talent notifies People Ops of verbal acceptance and provides contract info
+4. People Ops enters information to Remote platform and invites candidate to onboard to Remote (~ 1 day)
+5. Candidate creates Remote profile and completes required fields (~1-2 days)
+6. Remote reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
+7. People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
+8. Candidate reviews and signs Employment Agreement (~1-2 days)
+9. People Ops forwards confirmation for signed employment agreement to Talent
+10. Follow PEO Onboarding Process
