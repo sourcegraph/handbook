@@ -111,6 +111,10 @@ Target Accounts can be easily identified in Salesforce by the “Target Account�
 AE can trade a targeted account for an unassigned account with managers approval. Must be in writing and sent to the Manager.
 If the Manager accepts trade/Account will be transferred to AE. AE’s SDR will be assigned automatically to account and should be notified of the change in ownership.
 
+### Commercial account
+
+A commercial account is an account that is under a certain size. The current definition is that it has <500 employees. In practice, "Employees" comes from Clearbit.
+
 ## Stages
 
 See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
