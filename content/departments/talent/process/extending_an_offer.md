@@ -74,3 +74,17 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
 - For PEO candidates, the candidate will receive all offer documentation via the PEO.
 
 COMING SOON: what to do if the candidate declines our offer
+
+**Offer Process for PEO/EOR contracts**
+
+1. Confirm if the Country is Eligible for PEO through Remote.com - https://support.remote.com/hc/en-us/articles/4411262104589
+2. If a country does not have an SLA, notify People Ops and Legal to begin the SLA process if at the final or offer stage with a candidate.
+   - Current SLA in UK, Australia, Netherlands, Germany, Ireland
+3. Talent notifies People Ops of verbal acceptance and provides contract info
+4. People Ops enters information to Remote platform and invites candidate to onboard to Remote (~ 1 day)
+5. Candidate creates Remote profile and completes required fields (~1-2 days)
+6. Remote reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
+7. People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
+8. Candidate reviews and signs Employment Agreement (~1-2 days)
+9. People Ops forwards confirmation for signed employment agreement to Talent
+10. Follow PEO Onboarding Process
