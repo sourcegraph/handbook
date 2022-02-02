@@ -180,7 +180,7 @@ Store Completed Success Plans <strong>[Here]</strong>
 
 ## Process
 
-![Technical Win Management Process](https://storage.googleapis.com/sourcegraph-assets/handbook/techwin-diagram-updated.png)
+![Technical Win Management Process](https://storage.googleapis.com/sourcegraph-assets/techwin-diagram-updatedv2.png)
 
 ### Gates for Progressing Through Technical Win Phases
 
