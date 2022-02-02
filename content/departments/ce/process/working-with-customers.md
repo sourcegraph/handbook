@@ -217,6 +217,6 @@ Should an AE or CE feel that an account which isn't designated as red via the he
 
 Both the AE and CE are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
 
-## Technical Deal Reviews
+## Tech Reviews
 
-Technical Deal Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).
+Tech Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).
