@@ -19,6 +19,7 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Virginia [README](virginia-readme.md)
 - Riana [README](riana-readme.md)
 - Shawnteé [README](shawntee-readme.md)
+- Quinlan [README](quin-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following to the degree you feel at ease to do so; feel free to add/remove as you see fit:
 

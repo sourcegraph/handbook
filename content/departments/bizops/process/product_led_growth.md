@@ -112,7 +112,7 @@ Where does MQL data live within Salesforce (relevant to leads and contacts only)
 
 Where / how do we track MQLs at Sourcegraph:
 
-- [Demand Gen / Marketing]: tracks new MQLs generated over time across multiple dashboards
+- Demand Gen / Marketing: tracks new MQLs generated over time across multiple dashboards
 - [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new MQLs generated over time as well as qualified opportunity conversion rates by First Touchpoint
 
 **Product Qualified Lead (PQL)**
@@ -138,7 +138,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed
+<li>≥5 return visits completed (# of days active)
 
 <li>Code host added
 
@@ -157,7 +157,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥5 return visits completed
+<li>≥2 return visits completed (# of days active)
 
 <li>Private code <em>OR</em> public code added via repo
 </li>
@@ -239,7 +239,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed (# of days active)
+<li>≥2 return visits completed (# of days active)
 </li>
 </ol>
    </td>

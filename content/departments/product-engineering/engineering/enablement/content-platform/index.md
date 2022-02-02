@@ -62,10 +62,14 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 ### Creating Issues
 
 - Anyone can [create an issue in the repos](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) we work in:
-  - [Sourcegraph/About](https://github.com/sourcegraph/about/labels/blog)
-  - Includes marketing site, blog, docs
-  - [Sourcegraph/Handbook](https://github.com/sourcegraph/handbook)
-  - [Sourcegraph/Learn](https://github.com/sourcegraph/learn)
+  - [About](https://github.com/sourcegraph/about/issues/new)
+    - [Blog](https://github.com/sourcegraph/about/issues/new?labels=about-blog)
+    - [Legal Docs](https://github.com/sourcegraph/about/issues/new?labels=legal)
+  - [Learn](https://github.com/sourcegraph/learn/issues/new/choose)
+  - [Handbook](https://github.com/sourcegraph/handbook/issues/new/choose)
+  - Docs:
+    - [Docs](https://github.com/sourcegraph/sourcegraph/issues/new?labels=docs) for content level
+    - [Docsite](https://github.com/sourcegraph/docsite/issues/new) for application level
   - Note: After issues are created, they must be added to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1) to be prioritized
 - Anyone can request help from the content platform team according to [this process](#requests)
   - Issues are then [triaged](#triaging-incoming-requests) and added to the proper repo in Github (and to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1))

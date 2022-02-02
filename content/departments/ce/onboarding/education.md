@@ -4,6 +4,7 @@ This page (WIP) provides new and existing CEs alike with important training, dem
 
 ## Trainings and Demos
 
+- [Prepare your environment](https://docs.google.com/document/d/1VEeGyegnhFUm3FTJVkDu_n0Auw-maQY8jQHEShRSc8Q/edit)
 - [Standard training sessions](https://docs.google.com/document/d/1nFePrSIcIakMmjOEY01vNc6VRe7WiJ0iOWygeZlbpYw/edit) (Sourcegraph 101, 102, office hours, etc.)
 - [Comprehensive demo flow](https://docs.google.com/document/d/1q903Yl-vkOqkQ4e3JRiw-u8x8aJ50iTezllzcj_MJWc/edit)
 - [Demo instances](../tools/demo_instances.md)
