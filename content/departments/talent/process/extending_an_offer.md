@@ -28,7 +28,8 @@
   - If you need to start a Teammate on a non-cohort date, you must receive approval from Head of Talent and HR. To receive approval, please send a Slack to Head of Talent, Noemi and Ines with business case for starting on a non-cohort date.
 - Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
-- We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `"Yes"` or `"Strong Yes"` in feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
+- We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` or `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
+  - If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 
 **Step 5**: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
 
