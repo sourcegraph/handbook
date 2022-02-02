@@ -162,7 +162,7 @@ function getReports(teamMembers, role_slug, parentTeam, indent) {
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
     if (teamMember.reports_to === role_slug) {
       const currentTeam = createValidTeamString(teamMember)
-      const teamString = parentTeam && parentTeam === currentTeam ? '' :currentTeam
+      const teamString = parentTeam && parentTeam === currentTeam ? '' : currentTeam
       console.log(indent)
       const spaces = ' '.repeat(indent * 2)
       content += `${spaces}- [${String(teamMember.name)}](/team/index.md#${String(
@@ -191,7 +191,7 @@ export async function generateReportingStructure(starting_role) {
       )}), ${String(teamMember.role)}\n`
     }
   }
-  pageContent += getReports(teamMembers, starting_role,'', 1)
+  pageContent += getReports(teamMembers, starting_role, '', 1)
   return pageContent
 }
 
