@@ -23,7 +23,7 @@ This kind of understanding is central to both onboarding and velocity, and resea
 
 <!-- Convey what things will be like in the future for your use case, being as descriptive as you can to help someone understand where we are headed with our vision. -->
 
-Sourcegraph anchors onboarding inside engineering organizations and enables engineers to dive into unfamiliar code and get to "first bug fix or feature" quickly. With Soucegraph integrated in the developers workflow they see increased velocity in their work over their peers that do not integrate Sourcegraph in their workflow.
+Sourcegraph anchors onboarding inside engineering organizations and enables engineers to dive into unfamiliar code and get to "first bug fix or feature" quickly. With Sourcegraph integrated in the developers workflow they see increased velocity in their work over their peers that do not integrate Sourcegraph in their workflow.
 
 ## How we solve this today
 
@@ -62,8 +62,6 @@ Despite the lack of deliberate focus on solving this problem, the following are 
 
 - Allow your engineers to move faster
 - Eliminate single point of failure and knowledge silos: every dev can self-serve and troubleshoot
-- Help surface best practices across the team
-
 - Help surface best practices across the team
 
 ## Additional resources
