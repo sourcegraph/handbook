@@ -3,7 +3,6 @@
 There are a few ways we track plans and celebrate progress at Sourcegraph.
 
 - The [GitHub project tracker](#github-project-tracker) is **the source of truth** for all key results in product and engineering.
-- [OKR slides](#okr-slides) contain the top level product and engineering results that the VPs and Directors review and discuss on a weekly basis.
 - [Monthly team updates](#monthly-team-updates) communicate a high-level narrative/summary to the rest of the company about what each team in product/eng accomplished since the last monthly update and what is up next.
 - [Monthly demo days](../team-culture/demo-day.md) are a great opportunity for engineers to highlight and share with a broad audience the specific things they shipped. It is really fun!
 
@@ -23,8 +22,7 @@ The [GitHub project tracker](https://github.com/orgs/sourcegraph/projects/214) i
 
 There are a few tabs:
 
-- The **Department KRs** tab tracks the top level product and engineering key results that the VPs and Directors review every week at the [VP team sync](../team/index.md#vp-team-sync). Updates are tracked and communicated in the [OKR slides](#okr-slides).
-- The **Org KRs** tab tracks all the org level key results. VPs and Directors review this monthly, or as-needed when something is escalated by a Director.
+- The **Department KRs** tab tracks the top level product and engineering key results that the KR owners, Directors and VPs update weekly.
 - The **Team Deliverables** tab tracks the next big roadmap items that each team is delivering in service of their KRs.
   - When teams are in the state where they have a clear KR, but don't yet have a clear roadmap to achieving that KR, the KR is included in this view. Once a roadmap item added, the KR is removed.
   - Teams should include any big current and future roadmap items that the team has line of sight to.
@@ -39,27 +37,15 @@ All items in the tracker should be linked to a GitHub issue so that we can assig
 
 Customer names and business metrics can't be mentioned on public issues, so by default, all issues should be created in [sourcegraph/product-engineering-tracker](https://github.com/sourcegraph/product-engineering-tracker).
 
-## OKR slides
-
-The OKR tracker slides are a living document that directors update by 19:00 UTC each week to communicate that current state of top level product and engineering key results for the current quarter. It only contains 1 week's worth of updates.
-
-The slides are reviewed and discussed each week in the [VP team sync](../team/index.md#vp-team-sync) so we can celebrate wins, identify risks, and course correct if necessary.
-
-After the slides are reviewed, they are copied to a seprate slide deck to capture week-over-week progress.
-
-After the [VP team sync](../team/index.md#vp-team-sync), summarized OKR status updates are posted in #product-engineering-planning Slack channel for visibility.
-
-Slides:
-
-- [FY22 Q4 (current week)](https://docs.google.com/presentation/d/1DgY3k684Jn3diCe4GPPcrGt9iaD9-vyndiiJwEoELyE/edit#slide=id.gfca47eca53_0_184)
-- [FY22 Q4 (week over week history)](https://docs.google.com/presentation/d/1d36d47VFSZzQWIhdkZt3JZ3pNUk766yy8iwkFfVpTyY/edit)
-
-## Weekly updates
+## Weekly OKR updates
 
 These are due each Friday by 19:00 UTC.
 
-- Teams ensure that the [GitHub project tracker](#github-project-tracker) and connected issues are up-to-date.
-- Directors update the [OKR slides](#okr-slides)
+- Each KR owner is responsible for posting a comment to the issue in the [GitHub project tracker](#github-project-tracker) with the latest status update and ensuring the delivery plan is up to date (reflecting what has been accomplished, the work that remains, date estimates, etc.)
+
+- VPP and VPE review each issue in the [GitHub project tracker](#github-project-tracker) on Fridays at 23:00 UTC and ask questions on the issues directly. Answers are provided by updating/editing the latest update directly so it gets added to the summary issue.
+
+- By default, we do not discuss OKRs unless someone explicitly raises a discussion point. The summary issue should be reviewed by Prod/Eng leadership on a recurring basis so everyone is aware of our progress.
 
 ## Monthly team updates
 
