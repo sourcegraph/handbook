@@ -34,7 +34,7 @@
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
+- [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
 
 Welcome to Engineering!
 

@@ -34,6 +34,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 - `mau` to indicate that the company is on a monthly usage-based billing model.
 - `trial` to show an indicate in Sourcegraph that the company is on a trial.
 - `batch-changes` for Batch Changes (formerly `campaigns`)
+- `code-insights` for Code Insights
 - `acls` for external Permission syncing from the code host. (Add this to all licenses.)
 - `private-extension-registry` to allow for a private Extension registry. All Enterprise licenses should have this added.
 - `remote-extensions-allow-disallow` to allow for the admin to enable/disable remote extensions. All Enterprise licenses should have this added.
@@ -47,7 +48,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 
 ### License key tags
 
-- **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes` based on the context of the license.
+- **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.
 - **Teams Licenses**: Only applicable for team license renewals. Add `plan:team-0`,`acls`,`monitoring`, plus the customer name, to all Teams licenses.
 
 #### Legacy tags

@@ -2,6 +2,7 @@
 
 The Sales team represents us and our values to customers, bringing back dollars and feedback to help us grow.
 
+- [Commercial Sales](commercial/sellcloud.md)
 - [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
 - [Pricing](https://about.sourcegraph.com/pricing)
 - [Price List](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
@@ -16,7 +17,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Engaging with Legal](process/saleslegal.md)
 - [Engaging with Security](process/salessecurity.md)
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
 
 ## Pipeline, data, and models

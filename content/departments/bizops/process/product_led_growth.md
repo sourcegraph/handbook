@@ -138,7 +138,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed
+<li>≥5 return visits completed (# of days active)
 
 <li>Code host added
 
@@ -157,7 +157,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥5 return visits completed
+<li>≥2 return visits completed (# of days active)
 
 <li>Private code <em>OR</em> public code added via repo
 </li>
@@ -239,7 +239,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed (# of days active)
+<li>≥2 return visits completed (# of days active)
 </li>
 </ol>
    </td>
