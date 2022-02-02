@@ -33,7 +33,8 @@
 **Step 5**: once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
 
 - Attendees: Recruiter, Hiring Manager, Candidate.
-- To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile.
+- To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
+- Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager and Talent Team Manager (if applicable) for review.
 - Offer Summary call agenda:
   - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them.
   - The Recruiter then shares their screen to display the offer summary document.
