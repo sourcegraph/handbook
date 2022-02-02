@@ -231,7 +231,7 @@ As early as the Qualification stage (Stage 2), CEs begin to collect information 
 
 ### Tech Review Process
 
-Deals flagged as having non-standard or high-risk requirements must go through the Tech Review Process before moving to Trial Deployment (late Stage 3). 
+Deals flagged as having non-standard or high-risk requirements must go through the Tech Review Process before moving to Trial Deployment (late Stage 3).
 
 #### How the Process Works
 
