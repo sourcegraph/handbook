@@ -131,7 +131,7 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         contextUrlPath !== '/'
     ) {
         const baseName = path.posix.basename(contextUrlPath)
-        parsedUrl.pathname = `./${baseName}/${parsedUrl.pathname}`
+        parsedUrl.pathname = `./${parsedUrl.pathname}`
     }
 
     // Rewrite index.md references to point to the directory
