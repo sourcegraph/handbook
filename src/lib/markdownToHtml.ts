@@ -130,7 +130,6 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         contextUrlPath !== '' &&
         contextUrlPath !== '/'
     ) {
-        const baseName = path.posix.basename(contextUrlPath)
         parsedUrl.pathname = `./${parsedUrl.pathname}`
     }
 
