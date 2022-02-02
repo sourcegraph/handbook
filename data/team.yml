@@ -168,8 +168,8 @@ thorsten_ball:
 
 loïc_guychard:
   name: Loïc Guychard
-  role: Engineering manager, search
-  team:
+  role: Engineering manager
+  team: Search
   reports_to: director_engineering_global_code_graph
   manager_role_slug: engineering_manager_search
   location: Brest, Brittany, France 🇫🇷
@@ -247,8 +247,8 @@ kai_passo:
 rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
-  role: Senior Product Designer, Batch Changes and Search
-  team:
+  role: Senior Product Designer
+  team: Batch Changes, Search
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -313,8 +313,8 @@ robert_lin:
 
 marek_zaluski:
   name: Marek Zaluski
-  role: 'Software Engineer, Engineering Education Lead'
-  team:
+  role: Software Engineer, Engineering Education Lead
+  team: Engineering Education
   reports_to: engineering_manager_developer_experience
   location: Ottawa, Canada 🇨🇦
   github: marekweb
@@ -363,8 +363,8 @@ alicja_suska:
   reports_to: director_design
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
-  role: Product Designer, Frontend Platform, Growth and Integrations, and Code Insights
-  team:
+  role: Product Designer
+  team: Frontend Platform, Growth and Integrations, Code Insights
   location: Poznań, Poland 🇵🇱
   github: AlicjaSuska
   email: alicja@sourcegraph.com
@@ -386,8 +386,8 @@ quinn_keast:
   name: Quinn Keast
   reports_to: director_design
   pronouns: he/him
-  role: Product Designer, Cloud SaaS and Search
-  team:
+  role: Product Designer
+  team: Cloud SaaS, Search
   location: Berlin, Germany 🇩🇪
   github: quinnkeast
   email: qkeast@sourcegraph.com
@@ -422,8 +422,8 @@ tharuntej_kandala:
 chris_pine:
   name: Chris Pine
   pronouns: he/she/they/Chris
-  role: Engineering Manager, Batch Changes
-  team:
+  role: Engineering Manager
+  team: Batch Changes
   reports_to: director_engineering_global_code_graph
   manager_role_slug: engineering_manager_batch_changes
   location: Portland, OR, USA 🇺🇸
@@ -436,7 +436,7 @@ chris_pine:
 gregg_stone:
   name: Gregg Stone
   role: VP of Sales
-  team:
+  team: Sales
   manager_role_slug: vp_sales
   location: San Francisco, CA
 
@@ -483,8 +483,8 @@ maría_craig:
   name: María Craig
   reports_to: product_director_code_graph
   pronouns: she/her
-  role: Product Manager, Code Intelligence
-  team:
+  role: Product Manager
+  team: Code Intelligence
   location: Barcelona, Spain 🇪🇸 / Buenos Aires, Argentina 🇦🇷
   github: macraig
   email: maria@sourcegraph.com
@@ -505,8 +505,8 @@ joel_kwartler:
   name: Joel Kwartler
   reports_to: product_director_code_graph
   pronouns: he/him
-  role: Product Manager, Code Insights
-  team:
+  role: Product Manager
+  team: Code Insights
   location: Los Angeles, CA, USA 🇺🇸
   pronunciation: '[ʤoʊl kwɔrtlɜr](http://ipa-reader.xyz/?text=%CA%A4o%CA%8Al%20kw%C9%94rtl%C9%9Cr&voice=Joey)'
   github: Joelkw
@@ -529,7 +529,7 @@ kacie_jenkins:
   name: Kacie Jenkins
   pronouns: she/her
   role: VP of Marketing
-  team:
+  team: Marketing
   manager_role_slug: vp_marketing
   location: Sea Ranch, CA, USA 🇺🇸
   email: kacie@sourcegraph.com
@@ -551,8 +551,8 @@ jonah_dueck:
 jean_du_plessis:
   name: Jean du Plessis
   pronouns: he/him
-  role: Engineering Manager, Web
-  team:
+  role: Engineering Manager
+  team: Web
   reports_to: vp_engineering
   manager_role_slug: engineering_manager_web
   location: Cape Town, South Africa 🇿🇦
@@ -566,7 +566,7 @@ owen_convey:
   name: Owen Convey
   pronouns: he/him
   role: Engineering Manager
-  team:
+  team: Code Intelligence
   reports_to: director_engineering_global_code_graph
   manager_role_slug: engineering_manager_code_intelligence
   location: Barcelona, Spain 🇪🇸
@@ -591,8 +591,8 @@ virginia_ulrich:
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
-  role: Regional Director of Sales, East
-  team:
+  role: Regional Director of Sales
+  team: Sales East
   reports_to: vp_sales
   manager_role_slug: regional_director_sales_east
   location: Asheville, North Carolina, United States 🇺🇸
@@ -605,8 +605,8 @@ scott_campbell:
 tommy_o_donnell:
   name: Tommy O Donnell
   pronouns: he/him
-  role: Manager, Financial Planning & Analysis
-  team:
+  role: Manager
+  team: Financial Planning & Analysis
   reports_to: vp_operations
   manager_role_slug: manager_financial_planning
   location: Tralee, County Kerry, Ireland 🇮🇪
@@ -705,7 +705,7 @@ andy_schumeister:
   name: Andy Schumeister
   pronouns: he/him
   role: Director of Product Marketing
-  team:
+  team: Product Marketing
   reports_to: vp_marketing
   manager_role_slug: director_product_marketing
   location: Minneapolis, MN, USA 🇺🇸
@@ -730,7 +730,7 @@ greg_bastis:
   name: Greg Bastis
   pronouns: he/him
   role: VP Sales, Western Region
-  team:
+  team: Sales West
   reports_to: vp_sales
   manager_role_slug: vp_sales_western_region
   location: San Francisco, CA, USA
@@ -754,8 +754,8 @@ seth_hoover:
 ólafur_páll_geirsson:
   name: Ólafur Páll Geirsson
   pronouns: he/him
-  role: Software Engineer, Code Intelligence
-  team:
+  role: Software Engineer
+  team: Code Intelligence
   reports_to: engineering_manager_code_intelligence
   location: Drøbak, Norway 🇳🇴
   github: olafurpg
@@ -767,8 +767,8 @@ malo_marrec:
   name: Malo Marrec
   reports_to: product_director_code_graph
   pronouns: he/him
-  role: Product Manager, Batch Changes
-  team:
+  role: Product Manager
+  team: Batch Changes
   location: Paris, France 🇫🇷
   email: malo@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
@@ -849,8 +849,8 @@ caitlin_moran:
 murat_sutunc:
   name: Murat Sutunc
   pronouns: he/him
-  role: Engineering Manager, Growth and Integrations
-  team:
+  role: Engineering Manager
+  team: Growth and Integrations
   reports_to: director_engineering
   manager_role_slug: engineering_manager_growth
   location: Redwood City, CA, USA 🇺🇸
@@ -888,7 +888,7 @@ tammy_zhu:
   name: Tammy Zhu
   pronouns: she/her
   role: Director of Legal
-  team:
+  team: Legal
   reports_to: vp_operations
   manager_role_slug: director_legal
   location: San Francisco, CA, USA 🇺🇸
@@ -972,8 +972,8 @@ adeola_akinsiku:
 patrick_dubroy:
   name: Patrick Dubroy
   pronouns: he/him
-  role: Engineering Manager, Frontend platform
-  team:
+  role: Engineering Manager
+  team: Frontend platform
   reports_to: engineering_manager_web
   manager_role_slug: engineering_manager_frontend_platform
   location: Munich, Germany 🇩🇪
@@ -1020,8 +1020,8 @@ sam_cregg:
 indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
-  role: Software Engineer, Core Application
-  team:
+  role: Software Engineer
+  team: Core Application
   reports_to: software_engineering_manager
   location: Kolkata, India, 🇮🇳
   github: indradhanush
@@ -1033,8 +1033,8 @@ indradhanush_gupta:
 sarah_reece:
   name: Sarah Reece
   pronouns: she/her
-  role: Director, Demand Generation
-  team:
+  role: Director
+  team: Demand Generation
   reports_to: vp_marketing
   manager_role_slug: director_demand_generation
   location: Winston Salem, NC, USA
@@ -1094,8 +1094,8 @@ samson_goddy:
 fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
-  role: Project Coordinator, Brand
-  team:
+  role: Project Coordinator
+  team: Brand
   reports_to: director_demand_generation
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
@@ -1144,8 +1144,8 @@ rebecca_dodd:
 carly_jones:
   name: Carly Jones
   pronouns: she/her
-  role: VP, Talent
-  team:
+  role: VP
+  team: Talent
   location: Denver, CO USA 🇺🇸
   github: carlyj0nes
   description: Carly is a Denver native who went to college in Vermont (Middlebury), lived in Washington, DC for 5 years, and has since returned home to Colorado. Prior to Sourcegraph, she gained experience leading talent teams at high growth startups and is passionate about all things talent acquisition. When not working, you can find Carly tackling a DIY project, practicing her golf game, spending time outdoors, and traveling.
@@ -1153,8 +1153,8 @@ carly_jones:
 rafal_leszczynski:
   name: Rafal Leszczynski
   pronouns: he/him
-  role: Engineering Manager, Cloud SaaS
-  team:
+  role: Engineering Manager
+  team: Cloud SaaS
   reports_to: director_engineering
   manager_role_slug: engineering_manager_cloud_saas
   location: Jelonek (Poznan), Poland 🇵🇱
@@ -1166,8 +1166,8 @@ rafal_leszczynski:
 kelli_rockwell:
   name: Kelli Rockwell
   pronouns: she/her
-  role: Software Engineer, Batch Changes
-  team:
+  role: Software Engineer
+  team: Batch Changes
   reports_to: engineering_manager_batch_changes
   location: Seattle, WA, USA 🇺🇸
   github: courier-new
@@ -1180,8 +1180,8 @@ dan_mckean:
   name: Dan Mckean
   reports_to: product_director_enablement
   pronouns: he/him
-  role: Product Manager, Repo Management & Delivery
-  team:
+  role: Product Manager
+  team: Repo Management, Delivery
   location: Shaftesbury (Dorset), UK 🇬🇧
   github: dan-mckean
   email: dan.mckean@sourcegraph.com
@@ -1202,8 +1202,8 @@ cassie_melani:
 rebecca_rissinger:
   name: Rebecca Rissinger
   pronouns: she/her
-  role: Manager, Marketing Operations
-  team:
+  role: Manager
+  team: Marketing Operations
   reports_to: director_demand_generation
   manager_role_slug: manager_marketing_operations
   location: Red Bank, New Jersey, USA
@@ -1216,8 +1216,8 @@ ryan_phillips:
   name: Ryan Phillips
   reports_to: product_director_cloud
   pronouns: He/Him
-  role: Product Manager, Cloud
-  team:
+  role: Product Manager
+  team: Cloud
   location: San Francisco, CA, USA 🇺🇸
   github: Ryphil
   email: ryphil@sourcegraph.com
@@ -1227,8 +1227,8 @@ ryan_phillips:
 jake_sorensen:
   name: Jake Sorensen
   pronouns: He/Him
-  role: Programs Lead, Demand Gen Campaigns
-  team:
+  role: Programs Lead
+  team: Demand Gen Campaigns
   reports_to: director_demand_generation
   location: Los Angeles, CA, USA 🇺🇸
   github: jakevsen
@@ -1251,7 +1251,7 @@ aimee_menne:
   name: Aimee Menne
   pronouns: she/her
   role: VP of Customer Engineering
-  team:
+  team: Customer Engineering
   manager_role_slug: vp_customer_engineering
   location: Denver, CO USA 🇺🇸
   github: amenne
@@ -1276,7 +1276,7 @@ devon_coords:
   name: Devon Coords
   pronouns: She/Her
   role: Senior Technical Recruiter, Team Lead
-  team:
+  team: Talent
   location: White Plains, NY USA 🇺🇸
   github: devoncoords
   email: devon@sourcegraph.com
@@ -1383,8 +1383,8 @@ nate_maynard:
 jenny_bergen:
   name: Jenny Bergen
   pronouns: she/her
-  role: Manager, Content Marketing
-  team:
+  role: Manager
+  team: Content Marketing
   reports_to: director_content_strategy
   manager_role_slug: manager_content_marketing
   location: Denver, Colorado, USA 🇺🇸
@@ -1656,8 +1656,8 @@ luke_taylor:
 anna_mikhova:
   name: Anna Mikhova
   reports_to: vp_product
-  role: Director of Product, Cloud
-  team:
+  role: Director of Product
+  team: Cloud
   manager_role_slug: product_director_cloud
   location: Salt Lake City, UT, USA 🇺🇸
   github: anna-mikhova
@@ -1816,8 +1816,8 @@ serina_clark:
   name: Serina Clark
   reports_to: vp_product
   pronouns: her/she/hers
-  role: Director of Product, Enablement
-  team:
+  role: Director of Product
+  team: Enablement
   manager_role_slug: product_director_enablement
   location: Erie, Colorado, United States 🇺🇸
   github: serinadawn
@@ -2059,8 +2059,8 @@ sam_jones:
 stephanie_zabala:
   name: Stephanie Zabala
   pronouns: she/her
-  role: Principal Designer, Brand
-  team:
+  role: Principal Designer
+  team: Brand
   location: Brooklyn, NY, United States 🇺🇸
   github: stephzabala
   email: steph.zabala@sourcegraph.com
@@ -2069,8 +2069,8 @@ stephanie_zabala:
 crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
-  role: Software Engineer, Delivery
-  team:
+  role: Software Engineer
+  team: Delivery
   reports_to: engineering_manager_devops
   location: Ashland, MA, United States 🇺🇸
   github: caugustus-sourcegraph
@@ -2093,8 +2093,8 @@ marisa_kanemoto:
   name: Marisa Kanemoto
   reports_to: director_design
   pronouns: she/her
-  role: Product Designer, Search
-  team:
+  role: Product Designer
+  team: Search
   location: Berkeley, California, United States 🇺🇸
   github: marisak
   email: marisa.kanemoto@sourcegraph.com
@@ -2131,8 +2131,8 @@ nancy_shah:
 michal_sennett:
   name: Michal Sennett
   pronouns: she/her
-  role: Strategic Projects Manager, Engineering
-  team:
+  role: Strategic Projects Manager
+  team: Engineering
   location: Dallas, TX, USA 🇺🇸
   github: msennett22
   email: michal.sennett@sourcegraph.com
@@ -2152,8 +2152,8 @@ keely_aguayo:
 erika_heidi:
   name: Erika Heidi
   pronouns: she/her
-  role: Senior Developer Advocate, Community
-  team:
+  role: Senior Developer Advocate
+  team: Community
   reports_to: director_community
   location: The Hague, Netherlands 🇳🇱
   github: erikaheidi
@@ -2361,8 +2361,8 @@ kevin_wojkovich:
   email: kevin.wojkovich@sourcegraph.com
   github: kevinwojo
   pronouns: he/him
-  role: Software Engineer, Delivery
-  team:
+  role: Software Engineer
+  team: Delivery
   reports_to: engineering_manager_devops
   location: Chicago, IL, USA 🇺🇸
   description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
@@ -2761,8 +2761,8 @@ michael_lin:
   name: Michael Lin
   pronouns: he/him
   location: Richmond, BC, Canada 🇨🇦
-  role: Software Engineer, DevOps
-  team:
+  role: Software Engineer
+  team: DevOps
   reports_to: engineering_manager_devops
   email: michael.lin@sourcegraph.com
   github: michaellzc
