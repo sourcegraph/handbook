@@ -5,7 +5,7 @@
 - [Process](#process)
   - [Gates for Progressing Through Technical Win Phases](#gates-for-progressing-through-technical-win-phases)
   - [Technical Design Document Creation and Review](#technical-design-document-creation-and-review)
-  - [Technical Deal Review Process](#technical-deal-review-process)
+  - [Tech Review Process](#tech-review-process)
   - [Surfacing Product Feedback](#surfacing-product-feedback)
   - [Weekly Tech Win Review](#weekly-tech-win-review)
   - [Engaging Subject Matter Experts](#engaging-subject-matter-experts)
@@ -155,7 +155,7 @@ Store Completed Success Plans <strong>[Here]</strong>
   <tr>
    <td>Technical Qualification Discovery Questions
    </td>
-   <td>Based on the guidance provided by product and engineering teams, this document contains a list of questions to which CEs should have answers to assess whether a customer’s configuration or use case fits our product capabilities and supported scenarios. If it does not fit, the deal must be submitted to the Tech Deal Review process and then validated based on product/engineering feedback.
+   <td>Based on the guidance provided by product and engineering teams, this document contains a list of questions to which CEs should have answers to assess whether a customer’s configuration or use case fits our product capabilities and supported scenarios. If it does not fit, the deal must be submitted to the Tech Review process and then validated based on product/engineering feedback.
 <p>
 <a href="https://docs.google.com/document/d/15zcyWeTVAZjYQZDBnWwEZV9p1gWUTGgoD9m38Dneah0/edit#heading=h.75uzt4ptnpqx">Link to Technical Qualification Discovery Questions</a>
    </td>
@@ -200,7 +200,7 @@ The following criteria are used to determine whether a technical win should prog
 
 - Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
 - Has the CE completed technical qualification of the customer’s usage scenario?
-- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Deal Review Process](working-with-customers.md#technical-deal-reviews) and received approval to proceed?
+- If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed?
 - CE has completed a v1 draft of the [Technical Design Document](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit#heading=h.5v85ynofit58)
 
 #### Trial Deployment (Sales Stages: 3-4)
@@ -229,18 +229,18 @@ As early as the Qualification stage (Stage 2), CEs begin to collect information 
 - All TDDs for [Tier 1 accounts](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit) must be reviewed by a peer on the CE team.
 - All TDDs with [non-standard technical requirements](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279) must be reviewed by a peer on the CE team.
 
-### Technical Deal Review Process
+### Tech Review Process
 
-Deals flagged as having non-standard or high-risk requirements must go through the Tech Deal Review Process before moving to Trial Deployment (late Stage 3). All deals designated as key prospect deals by Sales leadership must go to the Tech Deal Review process before moving to Trial Deployment and must also go to the Tech Deal Review process before going into production.
+Deals flagged as having non-standard or high-risk requirements must go through the Tech Review Process before moving to Trial Deployment (late Stage 3). 
 
 #### How the Process Works
 
-When a Technical Deal Review is needed, the CE initiates this process by doing the following:
+When a Tech Review is needed, the CE initiates this process by doing the following:
 
 1. Completes a peer review of the TDD and opportunity with a peer CE.
 2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asks of Product, Engineering, and Support.
 3. Initiates the request in the [#tech-deal-reviews](https://sourcegraph.slack.com/archives/tech-deal-reviews) channel via the ‘Request TDD Review’ shortcut in Slack and includes a link to the loom video and to the TDD.
-4. Documents the results of the Technical Deal Review in the TDD.
+4. Documents the results of the Tech Review in the TDD.
 
 [Product Directors](../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD. This asynchronous review should be completed within 3 business days.
 
@@ -370,9 +370,9 @@ For each CE, the Technical Win Dashboard in Salesforce shows a summary of all S2
    </td>
   </tr>
   <tr>
-   <td>Technical Deal Review Link
+   <td>Tech Review Link
    </td>
-   <td>If this is a non-standard configuration, a link to the submission for Tech Deal Review.
+   <td>If this is a non-standard configuration, a link to the submission for Tech Review.
    </td>
   </tr>
 </table>
