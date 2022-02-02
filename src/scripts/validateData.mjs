@@ -80,6 +80,23 @@ for (const productOrg of Object.values(productOrgs)) {
     }
 }
 
+// iterate through team members and make sure their manager exists
+for (const teamMember of Object.values(teamMembers)) {
+    if (teamMember.reports_to) {
+        let manager_exists = false
+        for (const potentialManager of Object.values(teamMembers)) {
+            if (potentialManager.manager_role_slug) {
+                if (teamMember.reports_to === potentialManager.manager_role_slug) {
+                    manager_exists = true
+                }
+            }
+        }
+        if (manager_exists === false) {
+            console.log(`Team member reports to non-existent manager role slug: ${JSON.stringify(teamMember)}`)
+        }
+    }
+}
+
 if (errors > 0) {
     throw new Error(`${errors} consistency errors found`)
 } else {
