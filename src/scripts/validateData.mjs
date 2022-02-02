@@ -21,11 +21,11 @@ let errors = 0
 
 // iterate through features and make sure they point to valid product teams and maturities
 for (const feature of Object.values(features)) {
-    if (!maturityLevels.hasOwnProperty(feature.maturity)) {
+    if (!Object.prototype.hasOwnProperty.call(maturityLevels, feature.maturity)) {
         console.log(`Feature contains unknown maturity level: ${JSON.stringify(feature)}`)
         errors++
     }
-    if (!productTeams.hasOwnProperty(feature.product_team)) {
+    if (!Object.prototype.hasOwnProperty.call(productTeams, feature.product_team)) {
         console.log(`Feature contains unknown team: ${JSON.stringify(feature)}`)
         errors++
     }
@@ -34,30 +34,30 @@ for (const feature of Object.values(features)) {
 
 // iterate through product teams and make sure they point to valid product orgs and team members
 for (const productTeam of Object.values(productTeams)) {
-    if (!productOrgs.hasOwnProperty(productTeam.product_org)) {
+    if (!Object.prototype.hasOwnProperty.call(productOrgs, productTeam.product_org)) {
         console.log(`Product team contains unknown org: ${JSON.stringify(productTeam)}`)
         errors++
     }
     if (productTeam.em) {
-        if (!teamMembers.hasOwnProperty(productTeam.em)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productTeam.em)) {
             console.log(`Product team contains unknown EM: ${JSON.stringify(productTeam)}`)
             errors++
         }
     }
     if (productTeam.pm) {
-        if (!teamMembers.hasOwnProperty(productTeam.pm)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productTeam.pm)) {
             console.log(`Product team contains unknown PM: ${JSON.stringify(productTeam)}`)
             errors++
         }
     }
     if (productTeam.design) {
-        if (!teamMembers.hasOwnProperty(productTeam.design)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productTeam.design)) {
             console.log(`Product team contains unknown designer: ${JSON.stringify(productTeam)}`)
             errors++
         }
     }
     if (productTeam.pmm) {
-        if (!teamMembers.hasOwnProperty(productTeam.pmm)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productTeam.pmm)) {
             console.log(`Product team contains unknown PMM: ${JSON.stringify(productTeam)}`)
             errors++
         }
@@ -67,13 +67,13 @@ for (const productTeam of Object.values(productTeams)) {
 // iterate through product orgs and make sure they point to valid team members
 for (const productOrg of Object.values(productOrgs)) {
     if (productOrg.em) {
-        if (!teamMembers.hasOwnProperty(productOrg.em)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productOrg.em)) {
             console.log(`Product org contains unknown EM: ${JSON.stringify(productOrg)}`)
             errors++
         }
     }
     if (productOrg.pm) {
-        if (!teamMembers.hasOwnProperty(productOrg.em)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productOrg.em)) {
             console.log(`Product org contains unknown PM: ${JSON.stringify(productOrg)}`)
             errors++
         }
@@ -81,7 +81,7 @@ for (const productOrg of Object.values(productOrgs)) {
 }
 
 if (errors > 0) {
-    throw `${errors} consistency errors found`
+    throw new Error(`${errors} consistency errors found`)
 } else {
     console.log('No consistency errors found')
 }
