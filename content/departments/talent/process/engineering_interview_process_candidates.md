@@ -84,4 +84,4 @@ We want to find engineers who are:
 
 - **Length:** 60-minutes
 
-- **How to prepare:** We will discuss 1-3 of the most complex problems you have solved with code, or the most complex codebases you have worked on.
+- **How to prepare:** We will discuss the the most complex problems you have solved with code, or the most complex codebases you have worked on.
