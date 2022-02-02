@@ -1,4 +1,3 @@
-import * as path from 'path'
 import * as url from 'url'
 
 import * as _rehypeSection from '@agentofuser/rehype-section'
