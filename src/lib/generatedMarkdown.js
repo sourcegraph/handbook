@@ -14,6 +14,10 @@ function createValidTeamAnchor(name) {
   return name.toLowerCase().replace(/\s+/g, '-')
 }
 
+function createValidTeamString(teamMember) {
+  return teamMember.team ? `- ${String(teamMember.team)}` : ''
+}
+
 function createBioLink(name) {
   const bioLinkUrlPrefix = '/team/index.md#'
   return `${bioLinkUrlPrefix}${String(createValidTeamAnchor(name))}`
@@ -153,18 +157,22 @@ export async function generateCodeHostsList() {
   return pageContent
 }
 
-function getReports(teamMembers, role_slug, indent) {
+function getReports(teamMembers, role_slug, parentTeam, indent) {
   let content = ''
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
     if (teamMember.reports_to === role_slug) {
+      const currentTeam = createValidTeamString(teamMember)
+      const teamString = parentTeam && parentTeam === currentTeam ? '' :currentTeam
+      console.log(indent)
       const spaces = ' '.repeat(indent * 2)
       content += `${spaces}- [${String(teamMember.name)}](/team/index.md#${String(
         createValidTeamAnchor(teamMember.name)
-      )}), ${String(teamMember.role)}\n`
+      )}), ${String(teamMember.role)} ${teamString}\n`
       if (teamMember.manager_role_slug) {
         const reportsIndent = (content += getReports(
           teamMembers,
           teamMember.manager_role_slug,
+          currentTeam,
           parseInt(indent, 10) + 1
         ))
       }
@@ -183,7 +191,7 @@ export async function generateReportingStructure(starting_role) {
       )}), ${String(teamMember.role)}\n`
     }
   }
-  pageContent += getReports(teamMembers, starting_role, 1)
+  pageContent += getReports(teamMembers, starting_role,'', 1)
   return pageContent
 }
 
