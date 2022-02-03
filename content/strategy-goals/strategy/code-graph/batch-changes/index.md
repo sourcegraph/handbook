@@ -111,10 +111,10 @@ We keep hearing user requests for [mounting files on batch change steps containe
    - Onboard three early customers, and get positive feedback
    - Train sales CE, CS and sales to sell and support SSBC.
    - Make sure that the upgrade process for SSBC is scalable (upgrading Sourcegraph + SSBC takes no more than twice the time required to upgrade Sourcegraph).
-1. Bitbucket Cloud is frequently requested by [customers](https://sourcegraph2020.lightning.force.com/lightning/r/Product_Gap__c/a1B3t00000IkxMjEAJ/view), and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter [#24199](https://github.com/sourcegraph/sourcegraph/issues/24199).
+1. Bitbucket Cloud is frequently requested by [customers](https://sourcegraph2020.lightning.force.com/lightning/r/Product_Gap__c/a1B3t00000IkxMjEAJ/view), and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)).
 1. We recently onboarded a few monorepo customers that highlighted the limitations of our (experimental) monorepo support in Batch Changes. We plan to address those limitations and move monorepo support to GA ([RFC](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU), [#28246](https://github.com/sourcegraph/sourcegraph/issues/28246)).
 1. Batch Changes's minimalist permission model is limiting adoption in the traditional enterprise segment. In particular, customers report they want to control who can run batch changes at all. We plan to make a first iteration to solve this problem.
-1. Every customer is different and uses a broad set of tooling. We plan to design outgoing webhooks that allow customers to easily integrate Batch Changes into their workflow. We aim to experiment with a customer on this. [#26790](https://github.com/sourcegraph/sourcegraph/issues/26790).
+1. Every customer is different and uses a broad set of tooling. We plan to design outgoing webhooks that allow customers to easily integrate Batch Changes into their workflow. We aim to experiment with a customer on this ([#26790](https://github.com/sourcegraph/sourcegraph/issues/26790)).
 
 ### Discovery
 
@@ -126,7 +126,7 @@ This year, we have a lot of goals that have multiple dependencies on other teams
 
 ## What we are not working on
 
-- **Windows support** (#24849): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
+- **Windows support** ([#24849](https://github.com/sourcegraph/sourcegraph/issues/24849)): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
 
 - **Education material about code change tools:** Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
 
