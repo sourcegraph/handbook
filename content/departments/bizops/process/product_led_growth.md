@@ -318,6 +318,10 @@ Where / how do we track PQLs at Sourcegraph:
 - [Product / Eng](https://sourcegraph.looker.com/dashboards/217): tracks new PQLs generated over time as part of their org KPIs
 - [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new PQLs generated over time as well as qualified opportunity conversion rates
 
+How do we track changes to PQL scoring over time:
+
+PQL scoring is not static. BizOps conducts regular analysis to evaluate whether we have the right scoring criteria in place to inform better outreach to those users seeing the most value from our product. While the PQL scoring workflow ultimately lives in HubSpot, we track all relevant changes [here](https://docs.google.com/spreadsheets/d/1cK1EHd1nt6XvVbP52Vh_d4CYKd9oPlejKqSSfS7QyRQ/edit#gid=0).    
+
 ## Additional PLG resources
 
 ### Internal resources
