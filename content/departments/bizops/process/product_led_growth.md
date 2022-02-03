@@ -80,6 +80,12 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
+    <td>In-product trial request 
+   </td>
+   <td>15 points
+   </td>
+  </tr>
+  <tr>
    <td>Private Install or Sourcegraph.com Sign up
    </td>
    <td>10 points
