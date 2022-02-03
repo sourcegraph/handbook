@@ -64,7 +64,7 @@ Despite the lack of deliberate focus on solving this problem, the following are 
 - Eliminate single point of failure and knowledge silos: every dev can self-serve and troubleshoot
 - Help surface best practices across the team
 
-- Help surface best practices across the team
+
 
 ## Additional resources
 
