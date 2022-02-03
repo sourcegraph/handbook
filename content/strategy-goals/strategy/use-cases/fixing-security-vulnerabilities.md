@@ -54,6 +54,7 @@ The following are real, anonymized quotes from customers today on how we’re al
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
+- [Marketing page for Security Vulnerabilities use case](https://about.sourcegraph.com/use-cases/#find-and-fix-security-vulnerabilities)
 - [Use case index](../index.md#use-cases)
 - [Productboard fixing security vulnerabilities (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482297/detail)
 - [Tackling Log4j with Sourcegraph](https://about.sourcegraph.com/blog/log4j-log4shell-0-day)
