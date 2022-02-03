@@ -51,6 +51,7 @@ const HEADING_SELECTOR = 'h1, h2, h3, h4, h5, h6'
 export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
     const tocReference = useRef<HTMLElement>(null)
+    const router = useRouter()
     useEffect(() => {
         const observer = new IntersectionObserver(
             entries => {
@@ -90,7 +91,16 @@ export default function Page({ page }: PageProps): JSX.Element {
         return () => observer.disconnect()
     })
 
-    const router = useRouter()
+    useEffect(() => {
+        const handleRouteChange = async (): Promise<boolean> => {
+            const newUrl = router.asPath.replace(/\/$/, '')
+            return router.replace(newUrl, undefined, { shallow: true })
+        }
+        if (router.asPath.endsWith('/') && router.asPath !== '/') {
+            handleRouteChange().catch(error => console.error(error))
+        }
+    })
+
     if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
     }
