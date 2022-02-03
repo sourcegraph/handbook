@@ -107,6 +107,8 @@ We keep hearing user requests for [mounting files on batch change steps containe
 
 ### Execution
 
+This quarter, we are primarily focusing on improving the usability of Batch Changes at [enterprise scale](#enterprise-scale).
+
 1. Move [server side Batch Changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) (SSBC) currently an [experimental](https://docs.sourcegraph.com/batch_changes/explanations/server_side) feature, to beta. We can move to beta ([#26919](https://github.com/sourcegraph/sourcegraph/issues/26919)) after we:
    - Onboard three early customers, and get positive feedback
    - Train sales CE, CS and sales to sell and support SSBC.
@@ -118,7 +120,7 @@ We keep hearing user requests for [mounting files on batch change steps containe
 
 ### Discovery
 
-This year, we have a lot of goals that have multiple dependencies on other teams that require an explicit plan. In particular:
+We have multiple dependencies on other teams that require an explicit plan that we will start scopint out this quarter. In particular:
 
 1. Server-side batch changes is not available yet on managed instances, because we have no way to bill for variable compute costs. By the end of the quarter, we want to have a plan and timeline to address that.
 1. Cloud is coming up, and it does not support Batch Changes. By the end of this quarter, we want to have a plan for Batch Changes on Cloud, including solving for pricing and billing issues.
