@@ -2,41 +2,27 @@
 
 A CE, being both a pre-sales engineer and a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
-- [Customer Engineering: Working with Customers](#customer-engineering-working-with-customers)
 - [Pre-Sales Customer Touchpoints](#pre-sales-customer-touchpoints)
   - [Discovery and Demo](#discovery-and-demo)
-    - [Resources](#resources)
   - [Technical Design](#technical-design)
-    - [Resources](#resources-1)
   - [Customer Trials](#customer-trials)
-    - [Resources](#resources-2)
   - [Security Reviews](#security-reviews)
   - [License Keys](#license-keys)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
   - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
-    - [Resources](#resources-3)
   - [Webinars / Trainings / Q&A Sessions](#webinars--trainings--qa-sessions)
-    - [Resources](#resources-4)
   - [Check-in calls](#check-in-calls)
-    - [Resources](#resources-5)
   - [QBRs](#qbrs)
-    - [Resources](#resources-6)
   - [Expansions and Renewals](#expansions-and-renewals)
   - [Ongoing Customer Support](#ongoing-customer-support)
-    - [Resources](#resources-7)
   - [Account Management](#account-management)
-    - [Resources](#resources-8)
 - [Playbooks](#playbooks)
   - [Customer Discovery](#customer-discovery)
   - [Account Health](#account-health)
 - [Processes](#processes)
+  - [CE Technical Win Management](#ce-technical-win-management)
   - [Red Accounts](#red-accounts)
-    - [Overview](#overview)
-    - [Red Accounts Process](#red-accounts-process)
-    - [Roles and Responsibilities](#roles-and-responsibilities)
   - [Technical Deal Reviews](#technical-deal-reviews)
-    - [Technical Deal Review Process](#technical-deal-review-process)
-    - [Roles and Responsibilities](#roles-and-responsibilities-1)
 
 ---
 
@@ -207,6 +193,10 @@ The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnm
 
 Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the CE team either drives or heavily contributes to are outlined below.
 
+## CE Technical Win Management
+
+CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
+
 ## Red Accounts
 
 As the team accountable for our customers' technical success, usage, and adoption of our products, CEs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.
@@ -227,44 +217,6 @@ Should an AE or CE feel that an account which isn't designated as red via the he
 
 Both the AE and CE are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
 
-## Technical Deal Reviews
+## Tech Reviews
 
-There are three scenarios in which we would perform a Technical Deal Review:
-
-1. As the team accountable for our leading our prospective customers' to the technical win, it is important that CE consistently captures appropriate business and technical context about the customer. When a non-standard or high-risk need emerges, a CE initiates a technical deal review. When a technical deal review is required, the opportunity must complete review before proceeding forward.
-2. For any Sales leadership-designation key prospect, a Technical Deal Review will be done before proceeding to trial.
-3. For any Sales leadership-designation key prospect, a Technical Deal Review will be done before the deal closes to review their Production needs.
-
-### Technical Deal Review Process
-
-When a Technical Deal Review is needed, the CE initiates this process by doing the following:
-
-1. Completes a peer review with another CE
-2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asked of Product, Engineering, and Support.
-3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
-4. [Product Directors](../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD.
-5. Complete async review within 3 business days.
-
-- If there are additional questions the Product team member can request a synchronous review. The review will be recorded and documented to show the decision-making process and provide additional context. The CE know is responsible for scheduling the synchronous review.
-
-7. Acknowledge completion in the TDD.
-
-### Roles and Responsibilities
-
-- CE
-
-  - Responsible for creating the Technical Design Document (TDD) for each new customer.
-  - Responsible for identifying any non-standard or high-risk requirements.
-  - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
-  - Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
-  - If a request is made for a synchronous review, the CE will schedule and facilitate.
-
-- Product, Engineering, and Support
-
-  - When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
-  - Initial feedback on the review should occur within 3 business days.
-  - Any member from Product, Engineering, or Support may request a synchronous review.
-
-- Sales
-  - Responsible for providing necessary business context around the deal.
-  - Where applicable, responsible for prioritization decisions.
+Tech Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).

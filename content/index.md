@@ -102,7 +102,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Resources for Candidates](departments/talent/index.md)
 - [Resources for Hiring Manager](departments/talent/index.md)
-- [Resources for Teammaates](departments/talent/index.md)
+- [Resources for Teammates](departments/talent/index.md)
 - [Resources for Recruiters](departments/talent/index.md)
 
 ### [Business Operations & Strategy](departments/bizops/index.md)
@@ -116,6 +116,6 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Tech Ops](departments/tech-ops/index.md)
 
-- [Internal security](departments/tech-ops/process/internal_security.md)
+- [Internal security](departments/tech-ops/process/internal-security/index.md)
 - [Device usage and privacy](departments/tech-ops/process/team_device_usage_privacy.md)
 - [Systems list and guides](departments/tech-ops/tools/index.md)

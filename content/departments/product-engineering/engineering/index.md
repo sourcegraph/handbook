@@ -19,6 +19,7 @@
   - [External contributions](process/external_contributions.md)
   - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
+  - [IAM model for GCP](process/engineering_iam_model.md)
 - [Tooling](tools/index.md)
   - [Slackgenie](tools/slackgenie.md)
 - Infrastructure
@@ -33,7 +34,7 @@
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
+- [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
 
 Welcome to Engineering!
 
