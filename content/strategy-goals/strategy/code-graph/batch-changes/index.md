@@ -107,14 +107,14 @@ We keep hearing user requests for [mounting files on batch change steps containe
 
 ### Execution
 
-1. Move [server side Batch Changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) (SSBC) currently an [experimental](https://docs.sourcegraph.com/batch_changes/explanations/server_side) feature, to beta. We can move to beta after we:
+1. Move [server side Batch Changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) (SSBC) currently an [experimental](https://docs.sourcegraph.com/batch_changes/explanations/server_side) feature, to beta. We can move to beta ([#26919](https://github.com/sourcegraph/sourcegraph/issues/26919)) after we:
    - Onboard three early customers, and get positive feedback
    - Train sales CE, CS and sales to sell and support SSBC.
    - Make sure that the upgrade process for SSBC is scalable (upgrading Sourcegraph + SSBC takes no more than twice the time required to upgrade Sourcegraph).
-1. Bitbucket Cloud is frequently requested by customers, and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter [#TODO]()
-1. We recently onboarded a few monorepo customers that highlighted the limitations of our (experimental) monorepo support in Batch Changes. We plan to address those limitations and move monorepo support to GA (RFC | issue).
-1. Batch Changes's minimalist permission model is limiting adoption in the traditional enterprise segment. In particular, customers report they want to control who can run batch changes at all. We plan to make a first iteration of this problem.
-1. Every customer is different and uses a broad set of tooling. We plan to design outgoing webhooks that allow customers to easily integrate Batch Changes into their workflow. We aim to experiment with a customer on this.
+1. Bitbucket Cloud is frequently requested by [customers](https://sourcegraph2020.lightning.force.com/lightning/r/Product_Gap__c/a1B3t00000IkxMjEAJ/view), and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter [#24199](https://github.com/sourcegraph/sourcegraph/issues/24199).
+1. We recently onboarded a few monorepo customers that highlighted the limitations of our (experimental) monorepo support in Batch Changes. We plan to address those limitations and move monorepo support to GA ([RFC](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU), [#28246](https://github.com/sourcegraph/sourcegraph/issues/28246)).
+1. Batch Changes's minimalist permission model is limiting adoption in the traditional enterprise segment. In particular, customers report they want to control who can run batch changes at all. We plan to make a first iteration to solve this problem.
+1. Every customer is different and uses a broad set of tooling. We plan to design outgoing webhooks that allow customers to easily integrate Batch Changes into their workflow. We aim to experiment with a customer on this. [#26790](https://github.com/sourcegraph/sourcegraph/issues/26790).
 
 ### Discovery
 
