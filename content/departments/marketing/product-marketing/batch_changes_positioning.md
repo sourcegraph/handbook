@@ -50,7 +50,6 @@ There are many ways to get value out of Batch Changes, but here are the two appr
   - Quickly edit every CI, build, and other configuration files to make changes such as altering steps, migrating versions or changing base images.
   - Update infrastructure-as-code (eg. Terraform) files across many repositories
 
-
 ### Other product use cases
 
 - **[Fixing security vulnerabilities](../../../strategy-goals/strategy/use-cases/fixing-security-vulnerabilities)** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
