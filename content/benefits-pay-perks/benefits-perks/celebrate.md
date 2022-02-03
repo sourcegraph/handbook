@@ -84,7 +84,7 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 
 **Internal requests:**
 
-- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
+- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. This is being reviewed and updates will be posted! If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
 
 **External requests:**
 
