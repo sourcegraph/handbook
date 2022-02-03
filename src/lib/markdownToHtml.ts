@@ -1,3 +1,4 @@
+import * as path from 'path'
 import * as url from 'url'
 
 import * as _rehypeSection from '@agentofuser/rehype-section'
@@ -129,7 +130,8 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         contextUrlPath !== '' &&
         contextUrlPath !== '/'
     ) {
-        parsedUrl.pathname = `./${parsedUrl.pathname}`
+        const baseName = path.posix.basename(contextUrlPath)
+        parsedUrl.pathname = `./${baseName}/${parsedUrl.pathname}`
     }
 
     // Rewrite index.md references to point to the directory

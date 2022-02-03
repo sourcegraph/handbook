@@ -2,9 +2,6 @@
 command = "yarn run netlify-build"
 publish = "out"
 
-[build.processing.html]
-  pretty_urls = true
-
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
