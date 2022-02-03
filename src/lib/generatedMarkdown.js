@@ -297,7 +297,7 @@ export async function generateProductTeamUseCaseList(product_team) {
     let featureCount = 0
     for (const feature of Object.values(features)) {
       if (feature.product_team === product_team) {
-        if (!feature.maturity.includes('deprecated', 'not_implemented')) {
+        if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
           if (feature.use_cases.includes(useCaseName)) {
             useCaseCount++
             featureCount++
@@ -325,7 +325,7 @@ export async function generateUseCaseFeatureList(use_case) {
   let pageContent = ''
   let featureCount = 0
   for (const feature of Object.values(features)) {
-    if (!feature.maturity.includes('deprecated', 'not_implemented')) {
+    if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
       if (feature.use_cases.includes(use_case)) {
         featureCount++
         if (feature.documentation_link) {
