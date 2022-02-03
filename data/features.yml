@@ -6,7 +6,11 @@ literal_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -27,7 +31,11 @@ regexp_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -48,7 +56,11 @@ structural_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -69,7 +81,11 @@ diff_commit_search:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -90,7 +106,9 @@ code_monitoring:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -111,7 +129,9 @@ code_monitoring_email_notifications:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -131,7 +151,9 @@ code_monitoring_webhooks:
   product_team: search_product
   maturity: not_implemented
   use_cases:
-    - none
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
 
 saved_searches:
   title: Saved Searches
@@ -139,7 +161,7 @@ saved_searches:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
   use_cases:
-    - none
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -160,7 +182,7 @@ search_contexts:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
   use_cases:
-    - none
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
