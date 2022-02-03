@@ -311,7 +311,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 Where does PQL data live within Salesforce (relevant to leads and contacts only):
 
 - Lead lifecycle stage: this field will have a value of "PQL" once a lead or contact completes enough actions to meet the A or B PQL thresholds descibed above; this value is not static and will change depending on the SDRs subsequent interactions with the prospect
-- PQL date: this field displays the date at which a lead or contact completes enough in-product actions to receive the A or B PQL thresholds descibed above; this field will be blank if the prospect has not completed enough actions to receive a PQL designation
+- PQL date: this field displays the date at which a lead or contact completes enough in-product actions to meet the A or B PQL thresholds descibed above; this field will be blank if the prospect has not completed enough actions to receive a PQL designation
 
 Where / how do we track PQLs at Sourcegraph:
 
