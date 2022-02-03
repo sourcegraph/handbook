@@ -46,7 +46,7 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
-- (Early Access / Beta) enrollment: Referring to the process of enabling early or beta access for customers or prospects so they can begin using a product feature.
+- ([Experimental / Beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features)) enrollment: Referring to the process of enabling early or beta access for customers or prospects so they can begin using a product feature.
 - First experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
