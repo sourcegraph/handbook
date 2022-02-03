@@ -107,7 +107,7 @@ We keep hearing user requests for [mounting files on batch change steps containe
 
 ### Execution
 
-This quarter, we are primarily focusing on improving the usability of Batch Changes at [enterprise scale](#enterprise-scale).
+This quarter, we are primarily focusing on improving the value and usability of Batch Changes at [enterprise scale](#enterprise-scale).
 
 1. Move [server side Batch Changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) (SSBC) currently an [experimental](https://docs.sourcegraph.com/batch_changes/explanations/server_side) feature, to beta. We can move to beta ([#26919](https://github.com/sourcegraph/sourcegraph/issues/26919)) after we:
    - Onboard three early customers, and get positive feedback
