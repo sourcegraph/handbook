@@ -5,15 +5,13 @@
 - **Product name:** Batch Changes (formerly known as Campaigns)
 - **Access and pricing:** Paid add-on for Enterprise customers; all customers can try the product (limit: 5 changesets)
 
-## Positioning and value drivers
+## Positioning and Use Cases
 
 ### 1-sentence pitch
 
 Sourcegraph Batch Changes enables developers to automate and manage large-scale code changes across all of their repositories and code hosts.
 
-### Value driver: [Developer velocity](../process/value-drivers.md#developer-velocity)
-
-#### Pains
+### Pains
 
 When developers need to make changes across multiple repositories or workspaces:
 
@@ -21,12 +19,12 @@ When developers need to make changes across multiple repositories or workspaces:
 - Tracking changes to many repositories requires spreadsheets and manual labor
 - Automating applying changes with one-off scripts is brittle
 
-#### Benefits
+### Benefits
 
 - Reduce the time it takes to make large-scale code changes by up to 80%
 - Turn control back to the developer making the change. Instead of asking for help, they can automate the change and ask for a review.
 
-#### Customer proof points
+### Customer proof points
 
 - [Workiva reduces the time it takes to make large-scale code changes by 80%](https://about.sourcegraph.com/case-studies/workiva-automates-large-scale-code-changes)
 - [Indeed keeps code up to date and accelerates development velocity](https://about.sourcegraph.com/case-studies/indeed-accelerates-development-velocity)
@@ -37,6 +35,7 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Playbook 1
 
+- **Use case**: [Code reuse](../../../strategy-goals/strategy/use-cases/incident-response.md)
 - **User persona**: a platform team that is responsible for a framework or platform. Sample teams: Java platform team, client platform team, frontend platform team.
 - **Painpoint**: When shipping new internal library versions with breaking changes, getting other teams to upgrade takes a lot of time and effort.
 - **Product use case**: When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories.
@@ -44,6 +43,7 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Playbook 2
 
+- **Use case**: [Code reuse](../../../strategy-goals/strategy/use-cases/incident-response.md) or [Incident response](../../../strategy-goals/strategy/use-cases/incident-response.md)
 - **User persona**: an infrastructure team, sometimes also responsible for developer experience
 - **Painpoint**: Infrastructure or configuration files have a lot of repetitive / boilerplate code that is very time-consuming to change.
 - **Product use case**: ship updates to configuration across many repositories.
@@ -52,8 +52,8 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Other product use cases
 
+- **[Fixing security vulnerabilities](../../../strategy-goals/strategy/use-cases/fixing-security-vulnerabilities.md)** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
 - **Refactoring:** Use language-aware tooling of your choice to perform complex refactors like updating an API and its function calls or replacing libraries entirely.
-- **Security:** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
 
 Here is a list of detailed [usage examples](https://github.com/sourcegraph/batch-changes-use-cases) (private).
 
