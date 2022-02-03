@@ -1,6 +1,6 @@
 # Commercial Team
 
-The Commercial Team represents Sourcegraph for customers <501 employees.
+The Commercial Team represents Sourcegraph for customers <501 employees. Clearbit is the final authority of customer size.
 
 ## Members
 
@@ -10,11 +10,12 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
 
 - [SFDC Hygiene](#sfdc-hygiene)
 - [How to Sell Cloud](sellcloud.md)
-- [How to Price](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit?usp=sharing)
+- [Price and Incentives](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit?usp=sharing)
+- [Meetings](#meetings)
+- [Order Forms]
 - [Account Planning]
 - [Territory Planning]
 - [Forecasting]
-- [Order Forms]
 - [Film Study]
 
 ## Role Requirements
@@ -41,3 +42,29 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
    - Why anything: this is a description of the customer’s business problem; this should be something quantifiable in terms of time or money or pertaining to security
    - Why Sourcegraph: this describes the technical problems that underlie the business problem and how Sourcegraph is uniquely suited to solving these technical problems
    - Why now: this may come later in discovery but it gives purpose for a timeline / compelling event
+
+
+## Best Practices
+
+### Meetings
+
+1. Before the first meeting:
+   - If the deal was sourced by an SDR or other introduction, make sure to have a sit down before the meeting to incorporate whatever information the deal sourcer has for you.
+   - Prep a deck with the customer logo on it.
+     - Include a Sourcegraph overview with the slides you’d like to use to tell the Sourcegraph story
+     - The important questions:
+       - What questions do you want to ask every customer? Maybe these should be on a standardized slide.
+       - What questions or comments do you have for this particular customer?
+
+2. After the first meeting:
+   - Does the customer have a valuable problem they want to solve and are they willing to work with you via a planned next step to solve it?
+     - If so, send an calendar invite with an agenda for the next meeting
+     - If not, kick it back to the SDR to schedule any additional meetings that may subsequently create a SAO
+
+3. After every meeting:
+   - Schedule 30 minutes after the call customer calls because:
+     - They are cushion should the call run over.
+     - It is time for you to debrief with your SDR, CE and any other support on the call.
+     - Update your notes and SFDC.
+     - Execute your next steps, calendar invite, summary email and agenda etc.
+
