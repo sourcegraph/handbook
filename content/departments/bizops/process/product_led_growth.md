@@ -320,7 +320,7 @@ Where / how do we track PQLs at Sourcegraph:
 
 How do we track changes to PQL scoring over time:
 
-PQL scoring is not static. BizOps conducts regular analysis to evaluate whether we have the right scoring criteria in place to inform better outreach to those users seeing the most value from our product. While the PQL scoring workflow ultimately lives in HubSpot, we track all relevant changes [here](https://docs.google.com/spreadsheets/d/1cK1EHd1nt6XvVbP52Vh_d4CYKd9oPlejKqSSfS7QyRQ/edit#gid=0).    
+PQL scoring is not static. BizOps conducts regular analysis to evaluate whether we have the right scoring criteria in place to inform better outreach to those users seeing the most value from our product. While the PQL scoring workflow ultimately lives in HubSpot, we track all relevant changes [here](https://docs.google.com/spreadsheets/d/1cK1EHd1nt6XvVbP52Vh_d4CYKd9oPlejKqSSfS7QyRQ/edit#gid=0).
 
 ## Additional PLG resources
 
