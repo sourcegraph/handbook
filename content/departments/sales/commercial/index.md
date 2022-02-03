@@ -43,12 +43,12 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
    - Why Sourcegraph: this describes the technical problems that underlie the business problem and how Sourcegraph is uniquely suited to solving these technical problems
    - Why now: this may come later in discovery but it gives purpose for a timeline / compelling event
 
-
 ## Best Practices
 
 ### Meetings
 
 1. Before the first meeting:
+
    - If the deal was sourced by an SDR or other introduction, make sure to have a sit down before the meeting to incorporate whatever information the deal sourcer has for you.
    - Prep a deck with the customer logo on it.
      - Include a Sourcegraph overview with the slides you’d like to use to tell the Sourcegraph story
@@ -57,6 +57,7 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
        - What questions or comments do you have for this particular customer?
 
 2. After the first meeting:
+
    - Does the customer have a valuable problem they want to solve and are they willing to work with you via a planned next step to solve it?
      - If so, send an calendar invite with an agenda for the next meeting
      - If not, kick it back to the SDR to schedule any additional meetings that may subsequently create a SAO
@@ -67,4 +68,3 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
      - It is time for you to debrief with your SDR, CE and any other support on the call.
      - Update your notes and SFDC.
      - Execute your next steps, calendar invite, summary email and agenda etc.
-
