@@ -18,7 +18,7 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ### 👪 Family planning support
 
-We value and support teammates at all stages of life. We provide 16 weeks of paid parental leave for all new parents for the birth or adoption of a child (details depend on location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing).
+We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing).
 
 ### 📚 Professional development
 
