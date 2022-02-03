@@ -100,9 +100,9 @@ The [work lead](#work-leads) should:
     - Desired outcomes of this work
     - Estimation that indicates the work a manageable size for one team to deliver within one quarter (timeboxed)
     - How we will accomplish "Non-Functional Requirements" where applicable (or call out as N/A): testing, monitoring (how do we monitor and support the system?), documentation, etc.
-  - Identify:
+  - Identify and monitor:
     - Stakeholders to notify and consult
-    - Dependencies on other teams and/or other work
+    - Dependencies on other teams and/or other work and their progress status. 
 
 **✅ Outcome**: Once a roadmap or scope has been finalized, the appropriate tasks should be created, labelled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)) and other metadata where helpful, as well as a rough order of operation and outline of what can be parallelized. A [tracking issue](../../process/tracking_issues.md) should then be created.
 
