@@ -12,10 +12,11 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
 - [How to Sell Cloud](sellcloud.md)
 - [Price and Incentives](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit?usp=sharing)
 - [Meetings](#meetings)
-- [Order Forms]
-- [Account Planning]
-- [Territory Planning]
-- [Forecasting]
+- [Day-to-Day Activities](#day-to-day-activities)
+  - [Order Forms](#order-forms)
+  - [Territory Planning](#territory-planning)
+  - [Account Planning](#account-planning)
+  - [Forecasting](#forecasting)
 - [Film Study]
 
 ## Role Requirements
@@ -68,3 +69,24 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
      - It is time for you to debrief with your SDR, CE and any other support on the call.
      - Update your notes and SFDC.
      - Execute your next steps, calendar invite, summary email and agenda etc.
+
+
+
+## Day-to-Day Activities
+
+### Order Forms
+
+You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fAgfP1bWT3IimI3/view) on where order forms are, how to fill them out, how to docusign the form and how to close a deal once you have a signed order.
+
+If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
+
+
+### Territory Planning
+Content Coming Soon
+
+### Account Planning
+Content Coming Soon
+
+### Forecasting
+Content Coming Soon
+
