@@ -117,7 +117,7 @@ export async function generateFeatureCodeHostCompatibilities() {
     areaContent += '\n'
 
     for (const feature of Object.values(features)) {
-      if (feature.product_team === productTeamName && feature.compatibility !== undefined ) {
+      if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
         featureCount++
         if (feature.documentation_link) {
           areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
