@@ -286,6 +286,12 @@ batch_changes:
     perforce: false
     cvs: false
 
+server_side_batch_changes:
+  title: Server side batch changes
+  product_team: batch_changes
+  maturity: experimental
+  documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
+
 code_insights:
   title: Code Insights
   product_team: code_insights
