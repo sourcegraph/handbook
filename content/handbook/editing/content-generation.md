@@ -1,6 +1,6 @@
 # Content generation
 
-There are several pages in the handbook that contain generated content. For example, the [team page](../../team/index.md) uses data on team members that's checked in to the repository to generate the content at build-time. You can recognize a data-driven section because it will contain a directive that looks like `{{generator:team_members_list}}` somewhere in the markdown.
+There are several pages in the handbook that contain generated content. For example, the [team page](../../team/index.md) uses data on team members that's checked in to the repository to generate the content at build-time. You can recognize a data-driven section because it will contain a directive that looks like `generator:team_members_list` inside of double curly braces somewhere in the markdown.
 
 This page describes how this generation functionality is implemented in case you need to modify it.
 
