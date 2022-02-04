@@ -16,6 +16,7 @@ Reference:
 - [KPIs](https://sourcegraph.looker.com/boards/20)
 - [Department Meeting](team-culture/department-meeting.md)
 - [Team rituals](team-culture/index.md)
+- [Processes](process/index.md)
 
 [How to](process/index.md):
 

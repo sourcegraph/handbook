@@ -42,6 +42,7 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
+- [Marketing page for Incident Response use case](https://about.sourcegraph.com/use-cases/#resolve-incidents-faster)
 - [Use case index](../index.md#use-cases)
 - [Productboard incident response (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482291/detail)
 - [Google SRE books](https://sre.google/books/)

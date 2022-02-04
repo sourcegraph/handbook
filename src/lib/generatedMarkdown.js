@@ -15,7 +15,7 @@ function createValidTeamAnchor(name) {
 }
 
 function createBioLink(name) {
-  const bioLinkUrlPrefix = '/company/team/index.md#'
+  const bioLinkUrlPrefix = '/team/index.md#'
   return `${bioLinkUrlPrefix}${String(createValidTeamAnchor(name))}`
 }
 
@@ -158,7 +158,7 @@ function getReports(teamMembers, role_slug, indent) {
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
     if (teamMember.reports_to === role_slug) {
       const spaces = ' '.repeat(indent * 2)
-      content += `${spaces}- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
+      content += `${spaces}- [${String(teamMember.name)}](/team/index.md#${String(
         createValidTeamAnchor(teamMember.name)
       )}), ${String(teamMember.role)}\n`
       if (teamMember.manager_role_slug) {
@@ -178,7 +178,7 @@ export async function generateReportingStructure(starting_role) {
   let pageContent = ''
   for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
     if (teamMember.manager_role_slug === starting_role) {
-      pageContent += `- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
+      pageContent += `- [${String(teamMember.name)}](/team/index.md#${String(
         createValidTeamAnchor(teamMember.name)
       )}), ${String(teamMember.role)}\n`
     }

@@ -45,6 +45,8 @@ The Cloudflare WAF is enabled via terraform. To turn it on or off, update `cloud
 
 To configure the Cloudflare WAF, add or update WAF rules in `[sourcegraph/sgdev]-waf.tf`. For documentation on what configuration options exist, check [the terraform registry](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs). Note that the configuration options may be restricted by plan, as documented in the [Cloudflare API documentation](https://api.cloudflare.com/).
 
+The Cloudflare WAF must be enabled for any instances containing customer data, including Cloud.
+
 ### Rate Limiter
 
 The Cloudflare rate limiter is configured via terraform. To change the behavior of existing rate limiting rules, or create new ones, edit `[sourcegraph/sgdev]-waf.tf`. For documentation on what configuration options exist, check [the terraform registry](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs). Note that the configuration options may be restricted by plan, as documented in the [Cloudflare API documentation](https://api.cloudflare.com/), as well as the [rate limiting configuration guide](https://support.cloudflare.com/hc/en-us/articles/115001635128-Configuring-Cloudflare-Rate-Limiting). Also note that we are restricted to 10 rate limiting rules with our current plan, so be purposeful about using these.

@@ -80,6 +80,12 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
+    <td>In-product trial request 
+   </td>
+   <td>15 points
+   </td>
+  </tr>
+  <tr>
    <td>Private Install or Sourcegraph.com Sign up
    </td>
    <td>10 points
@@ -105,6 +111,16 @@ In most mature organizations, typically only those inbound leads formally meetin
   </tr>
 </table>
 
+Where does MQL data live within Salesforce (relevant to leads and contacts only):
+
+- Lead lifecycle stage: this field will have a value of "MQL" if a lead or contact has reached the 15+ MQL point accrual threshold descibed above; this value is not static and will change depending on the SDRs subsequent interactions with the prospect
+- MQL date: this field displays the date at which a lead or contact reached the 15+ MQL point accrual threshold descibed above; this field will be blank if the prospect has not completed enough actions to receive MQL designation
+
+Where / how do we track MQLs at Sourcegraph:
+
+- Demand Gen / Marketing: tracks new MQLs generated over time across multiple dashboards
+- [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new MQLs generated over time as well as qualified opportunity conversion rates by First Touchpoint
+
 **Product Qualified Lead (PQL)**
 
 A product qualified lead (PQL) is a prospect who has used the product and completed pre-defined actions that signify strong engagement and resonance with our core value proposition. This will be a separate grade solely ascribed to leads that sign up for a cloud account or install a private instance. The goal of this score is to act as a relative indicator of active use / engagement for our non-paying users post-sign up, which looks very different from how we evaluate this for current enterprise customers.
@@ -128,7 +144,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed
+<li>≥5 return visits completed (# of days active)
 
 <li>Code host added
 
@@ -147,7 +163,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥5 return visits completed
+<li>≥2 return visits completed (# of days active)
 
 <li>Private code <em>OR</em> public code added via repo
 </li>
@@ -229,7 +245,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
 
 <li>Completion of ≥1 search
 
-<li>≥10 return visits completed (# of days active)
+<li>≥2 return visits completed (# of days active)
 </li>
 </ol>
    </td>
@@ -291,6 +307,20 @@ Our product engagement scoring inputs, which we view as different between cloud 
 </table>
 
 **Note**: There will be users that actively engage with our product through both a Cloud account and a private install. To account for this, we will build three distinct workflows in Hubspot: one to evaluate engagements within Cloud, another to evaluate usage in a private install, and another to ultimately assign a product engagement grade based upon the higher of the aforementioned two scores.
+
+Where does PQL data live within Salesforce (relevant to leads and contacts only):
+
+- Lead lifecycle stage: this field will have a value of "PQL" once a lead or contact completes enough actions to meet the A or B PQL thresholds descibed above; this value is not static and will change depending on the SDRs subsequent interactions with the prospect
+- PQL date: this field displays the date at which a lead or contact completes enough in-product actions to meet the A or B PQL thresholds descibed above; this field will be blank if the prospect has not completed enough actions to receive a PQL designation
+
+Where / how do we track PQLs at Sourcegraph:
+
+- [Product / Eng](https://sourcegraph.looker.com/dashboards/217): tracks new PQLs generated over time as part of their org KPIs
+- [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new PQLs generated over time as well as qualified opportunity conversion rates
+
+How do we track changes to PQL scoring over time:
+
+PQL scoring is not static. BizOps conducts regular analysis to evaluate whether we have the right scoring criteria in place to inform better outreach to those users seeing the most value from our product. While the PQL scoring workflow ultimately lives in HubSpot, we track all relevant changes [here](https://docs.google.com/spreadsheets/d/1cK1EHd1nt6XvVbP52Vh_d4CYKd9oPlejKqSSfS7QyRQ/edit#gid=0).
 
 ## Additional PLG resources
 
