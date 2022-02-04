@@ -22,7 +22,7 @@ When implementing new fields/structures, avoid creating new string values for th
 
 ## Code
 
-The flow for content generation starts in [/src/lib/markdownToHtml.ts](https://github.com/sourcegraph/handbook/blob/main/src/lib/markdownToHtml.ts) in the function `insertGeneratedMarkdown`, which handles detecting a `{{generator:*}}` directive and passing it on to the appropriate markdown generation function.
+The flow for content generation starts in [/src/lib/markdownToHtml.ts](https://github.com/sourcegraph/handbook/blob/main/src/lib/markdownToHtml.ts) in the function `insertGeneratedMarkdown`, which handles detecting a `{{generator:*}}` directive and passing it on to the appropriate markdown generation function. If you add a new kind of generator you need to add the mapping here.
 
 The markdown generation functions are in [/src/lib/generatedMarkdown.js](https://github.com/sourcegraph/handbook/blob/main/src/lib/generatedMarkdown.js). These functions are responsible for processing the data files and returning the markdown that will be inserted on the page. Typically these functions are iterating over objects, looking up values for other objects, in order to generate some sort of list that can be returned for embedding on the page.
 
