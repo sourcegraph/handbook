@@ -220,3 +220,10 @@ In an effort to work closely with our teammates and shift security focus more in
 
 [Read about our methodology and process.](process.md)
 [Security Support Rotation](security-support-rotation.md)
+
+## Risk management
+
+The Security team manages risk via the [Information Security Risk Management Policy][0]
+and the underlying [risk management process](security-risk-management-process.md).
+
+[0]: https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit
