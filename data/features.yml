@@ -202,6 +202,11 @@ search_based_code_intelligence:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -221,6 +226,11 @@ precise_code_intelligence_go:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -240,6 +250,11 @@ precise_code_intelligence_jsts:
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -259,6 +274,11 @@ precise_code_intelligence_java_scala_kotlin:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -278,6 +298,11 @@ precise_code_intelligence_c_cpp:
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
