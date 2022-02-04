@@ -122,9 +122,12 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 
 The team currently follows a support rotation that is intended to allow a single engineer to dedicate time towards supporting customer issues. This support rotation will automatically update based on an [OpsGenie schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/72b2d9c8-8e48-4681-8914-908ead78dd8c) and can be contacted with the @code-insights-support Slack tag. This support rotation is currently intended to be a work hours rotation, instead of on-call.
 
+If the teammate on support duty has time off during their turn, someone else on the team will swap with them or cover. OpsGenie allows to add an override in these cases.
+It's the support engineer's responsibility to reach out proactively, find someone to swap with or cover and add the override.
+
 The engineer assigned to the support rotation is responsible for:
 
-1. Responding to and triaging escalations from other teams (for example: customer support, or security)
+1. Responding to and triaging escalations from other teams (for example: [customer support](https://handbook.sourcegraph.com/departments/support), or [security](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/security))
 2. Performing a best-effort resolution of the issue
    1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem
@@ -147,4 +150,4 @@ It is important to make a best effort attempt to clean up as much as possible on
 
 1. Prefer to leave issues open if it isn't clear it should be closed
 2. Prefer to tag people in the issues rather than open new discussions in something like Slack
-3. Leave notes when closing an issue with a short description (ex. I am closing this issue as a cleanup effort since we already did this work)
+3. Leave notes when closing an issue with a short description (ex. "I am closing this issue as a cleanup effort since we already did this work")
