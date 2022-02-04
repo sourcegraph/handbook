@@ -1,4 +1,4 @@
-# Core application goals and priorities
+# Cloud SaaS goals and priorities
 
 ## Goals
 
