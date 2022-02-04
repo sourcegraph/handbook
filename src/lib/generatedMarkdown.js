@@ -117,7 +117,7 @@ export async function generateFeatureCodeHostCompatibilities() {
     areaContent += '\n'
 
     for (const feature of Object.values(features)) {
-      if (feature.product_team === productTeamName) {
+      if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
         featureCount++
         if (feature.documentation_link) {
           areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
@@ -372,21 +372,40 @@ export async function generateTeamOrgChart(team) {
 }
 
 export async function generateEngineeringOwnershipTable() {
-  const entries = await readYamlFile('data/engineering_ownership.yml')
-  let pageContent = ''
-  const addRow = colData => {
-    pageContent += `| ${String(colData.join(' | '))} |\n`
-  }
-
-  const columnNames = Object.keys(entries[0] || {})
-  addRow(columnNames)
-
-  const splitters = columnNames.map(() => '---')
-  addRow(splitters)
-
-  for (const entry of entries) {
-    const colData = columnNames.map(name => entry[name])
-    addRow(colData)
+  const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
+  const productTeams = await readYamlFile('data/product_teams.yml')
+  const productOrgs = await readYamlFile('data/product_orgs.yml')
+  let pageContent =
+    '|Category|Thing|Type|Org|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
+  pageContent += '|---|---|---|---|---|---|---|---|---|---|\n'
+  for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
+    pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
+    if (productOrgs[thing.product_org]) {
+      if (productOrgs[thing.product_org]) {
+        pageContent += `|[${String(productOrgs[thing.product_org].title)}](${String(
+          productOrgs[thing.product_org].strategy_link
+        )})`
+      } else {
+        pageContent += `|${String(productOrgs[thing.product_org].title)}`
+      }
+    } else {
+      pageContent += '|'
+    }
+    if (productTeams[thing.product_team]) {
+      if (productTeams[thing.product_team].strategy_link) {
+        pageContent += `|[${String(productTeams[thing.product_team].title)}](${String(
+          productTeams[thing.product_team].strategy_link
+        )})`
+      } else {
+        pageContent += `|${String(productTeams[thing.product_team].title)}`
+      }
+    } else {
+      pageContent += '|'
+    }
+    pageContent += `|${String(thing.domain_experts || '')}|${String(thing.slack_channels || '')}`
+    pageContent += `|${String(thing.ownership_model || '')}|${String(thing.health || '')}`
+    pageContent += `|${String(thing.product_lifecycle || '')}`
+    pageContent += '|\n'
   }
 
   return pageContent
