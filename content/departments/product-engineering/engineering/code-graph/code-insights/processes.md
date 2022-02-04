@@ -48,7 +48,7 @@ Our current process is as follows:
 
 ## How we think about issue sizes
 
-When sizing an issue please keep in mind the size includes the entire lifecycle of the issue. The coding, any testing both automated and manual, as well as PR reviews, documentation, and any follow-up needed.
+When sizing an issue please keep in mind the size includes the entire lifecycle of the issue. The coding, any testing both automated and manual, as well as PR reviews and documentation.
 
 When thinking about the size of an issue we try to stay away from actual time estimates. Generally, 1 and 2 sizes should be considered small. 3 and 5 are medium issues. 8 and 13 can be considered large issues. Any number larger than 13 can be considered significantly large, and possibly could represent a small project.
 
