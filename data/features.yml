@@ -419,7 +419,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: repo_management
+  product_team: cloud_saas
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   use_cases:
