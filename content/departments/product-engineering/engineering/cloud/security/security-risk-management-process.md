@@ -9,7 +9,7 @@ definitions of key terms, is assumed within this document.
 
 ## Risk register
 
-Sourcegraph maintains its [information security risk register][1].
+Sourcegraph maintains its [information security risk register][1]
 in Google Sheets. This document is the source of truth for Sourcegraph’s
 information security risks. To edit the Risk Register, you must be a member of
 the Security team; if you do not have access and believe you might require it,
