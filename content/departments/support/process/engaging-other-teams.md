@@ -85,15 +85,25 @@ Note that this section applies to backend connections with code hosts, such as r
 
 ### Repository permissions
 
+**Keywords**: `permissions`, `ACLs`, `access`
+
+Any questions about repository permissions (what repositories users are able to see) should be routed to the Repository Management team.
+
+⚠️ See [Authorization](#Authorization) for anything _**not**_ related to what repos a user is able to see.
+
+### Authorization
+
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`
 
-Any questions about repository permissions should be routed to the Repository Management team.
+**On-prem/managed instance:** Any questions about what rights users have within Sourcegraph (excluding which repos they can see/search) should go to the Repository Management team.
+**Cloud:** Any questions about what rights users have within Sourcegraph (excluding which repos they can see/search) should go to Cloud-SaaS.
 
 ### User authentication (SSO)
 
 **Keywords**: `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about user authentication should be routed to the Repository Management team.
+**On-prem/managed instance:** Any questions about user authentication should be routed to the Repository Management team.
+**Cloud:** Any questions about user authentication should be routed to the Cloud SaaS team.
 
 ### Code intelligence
 
@@ -191,7 +201,7 @@ After you file the Github issue, alert the relevant engineering team you did so 
 
 - When posting in the Delivery team's Slack channel, use @delivery-support
 - When posting in Batcher Changes team's Slack channel, use @batchers-support
-- When posting for Repository Management, be sure to do so in the #repo-management channel and use @core-app-support (if @repo-management-support doesn't exist)
+- When posting for Repository Management, be sure to do so in the #repo-management channel and use @repo-management-support
 - When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas
 - When posting for Search, use @search-core-support or @search-product-support ... depending which team within Search you need
 - Whenever we have more work than any one engineering team can handle via their support process, we prioritize issues holistically. We try to catch this before the engineering team has to alert us.
