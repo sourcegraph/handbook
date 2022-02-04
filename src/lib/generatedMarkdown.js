@@ -298,13 +298,15 @@ export async function generateProductTeamUseCaseList(product_team) {
     for (const feature of Object.values(features)) {
       if (feature.product_team === product_team) {
         if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
-          if (feature.use_cases.includes(useCaseName)) {
-            useCaseCount++
-            featureCount++
-            if (feature.documentation_link) {
-              useCaseContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
-            } else {
-              useCaseContent += `- ${String(feature.title)}\n`
+          if (feature.use_cases) {
+            if (feature.use_cases.includes(useCaseName)) {
+              useCaseCount++
+              featureCount++
+              if (feature.documentation_link) {
+                useCaseContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+              } else {
+                useCaseContent += `- ${String(feature.title)}\n`
+              }
             }
           }
         }
@@ -326,12 +328,14 @@ export async function generateUseCaseFeatureList(use_case) {
   let featureCount = 0
   for (const feature of Object.values(features)) {
     if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
-      if (feature.use_cases.includes(use_case)) {
-        featureCount++
-        if (feature.documentation_link) {
-          pageContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
-        } else {
-          pageContent += `- ${String(feature.title)}\n`
+      if (feature.use_cases) {
+        if (feature.use_cases.includes(use_case)) {
+          featureCount++
+          if (feature.documentation_link) {
+            pageContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+          } else {
+            pageContent += `- ${String(feature.title)}\n`
+          }
         }
       }
     }

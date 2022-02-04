@@ -202,8 +202,6 @@ search_based_code_intelligence:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -223,8 +221,6 @@ precise_code_intelligence_go:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -244,8 +240,6 @@ precise_code_intelligence_jsts:
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -265,8 +259,6 @@ precise_code_intelligence_java_scala_kotlin:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -286,8 +278,6 @@ precise_code_intelligence_c_cpp:
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -306,22 +296,16 @@ precise_code_intelligence_python:
   title: Precise Code Intelligence for Python
   product_team: code_intelligence
   maturity: not_implemented
-  use_cases:
-    - none
 
 precise_code_intelligence_csharp:
   title: Precise Code Intelligence for C#
   product_team: code_intelligence
   maturity: not_implemented
-  use_cases:
-    - none
 
 precise_code_intelligence_ruby:
   title: Precise Code Intelligence for Ruby
   product_team: code_intelligence
   maturity: not_implemented
-  use_cases:
-    - none
 
 batch_changes:
   title: Batch Changes
@@ -379,15 +363,11 @@ soc_ii_type_ii:
   title: SOC II Type II
   product_team: security
   maturity: not_implemented
-  use_cases:
-    - none
 
 repository_syncing:
   title: Repository Syncing
   product_team: repo_management
   maturity: ga
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -407,8 +387,6 @@ repository_permissions:
   product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -428,8 +406,6 @@ user_authentication:
   product_team: cloud_saas
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -449,8 +425,6 @@ browser_extension:
   product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -470,8 +444,6 @@ native_integration:
   product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -491,8 +463,6 @@ single_container_deployment:
   product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -512,8 +482,6 @@ docker_compose_deployment:
   product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -533,8 +501,6 @@ kubernetes_deployment:
   product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -554,8 +520,6 @@ prebuilt_extensions:
   product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -575,8 +539,6 @@ custom_extensions:
   product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
-  use_cases:
-    - none
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
