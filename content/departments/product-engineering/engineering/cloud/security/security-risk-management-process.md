@@ -28,17 +28,17 @@ any point in time by sending an email with details of the risk in question to
 responsibility of the Security team member currently on the support rota to
 ensure that:
 
-* The email is acknowledged
-* Any unclear details about the risk in question are clarified with the person
+- The email is acknowledged
+- Any unclear details about the risk in question are clarified with the person
   reporting the risk
-* Estimates of inherent and residual risk are created according to the process
+- Estimates of inherent and residual risk are created according to the process
   described in the Information Security Risk Management Policy. Only Security
   team members are able to add new risks and set information security risk
   estimates.
-* A risk owner is assigned. An appropriate risk owner should have good
+- A risk owner is assigned. An appropriate risk owner should have good
   knowledge of the risk area in question, and should be able to own and
   drive any required risk treatments.
-* If required, a treatment plan with a due date is defined
+- If required, a treatment plan with a due date is defined
 
 Security team members are also free to raise and triage risks in this manner as
 required.
@@ -62,7 +62,7 @@ the risk owner to identify treatments that would achieve this goal, and a
 realistic timeline in which this can happen.
 
 Once this is done, the risk entry in the register should be updated with links
-to specific issues in relevant trackers (Github, Jira, etc.)  where the
+to specific issues in relevant trackers (Github, Jira, etc.) where the
 treatment actions will occur, as well as the due date. The Security team member
 must notify the risk owner of this change and receive written confirmation that
 they are satisfied with the status of the risk register entry.
@@ -71,13 +71,14 @@ In some cases, it might be possible that there is no reasonable treatment
 possible for a risk that exceeds the threshold for risk treatment. In this case,
 an exception should be sought. Exceptions can only be signed off by the CTO. In
 order to raise an exception:
-* Discuss the risk first with the Engineering Manager of the Security team to
+
+- Discuss the risk first with the Engineering Manager of the Security team to
   confirm that an exception should be sought in this case.
-* Compose an email to the CTO, including the Engineering Manager of the Security
+- Compose an email to the CTO, including the Engineering Manager of the Security
   team and the risk owner, explaining the nature of the risk and the reason why
-  a suitable treatment cannot be found.  If the CTO confirms in writing that they
+  a suitable treatment cannot be found. If the CTO confirms in writing that they
   are happy to grant this exception, update the risk register accordingly.
-* If the CTO is not satisfied that an exception is merited, work with the
+- If the CTO is not satisfied that an exception is merited, work with the
   involved parties to investigate other possible treatments or approaches to the
   problem.
 
@@ -85,14 +86,14 @@ order to raise an exception:
 
 In order to ensure that the risk register is up-to-date
 and irrelevant risks are removed, a reporting and review process is also
-necessary.  Once every six months, a Google Calendar entry will prompt the
+necessary. Once every six months, a Google Calendar entry will prompt the
 Security team to send out a risk report. The team member on the support rota
 must then send out a high-level risk report to all risk owners and Sourcegraph
 staff at VP-level. This report should contain:
 
-* A link to the current risk register
-* A summary of new risks added to the register since the previous report
-* A summary of risks requiring treatment that are about to or have already
+- A link to the current risk register
+- A summary of new risks added to the register since the previous report
+- A summary of risks requiring treatment that are about to or have already
   exceeded their due date
 
 As part of this reporting process, risk owners should also be requested to
