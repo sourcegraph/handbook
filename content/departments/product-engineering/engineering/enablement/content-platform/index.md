@@ -35,6 +35,14 @@ The content platform team helps with updates or changes to the various [sites we
 2. This will prompt you to fill out a form with relevant details.
 3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
 
+#### Service level agreements (SLAs)
+
+- **Initial response:** all requests will be (triaged)[#triaging-incoming-requests] within one business day.
+  - **Urgent requests:** If your request is urgent, flag it in the #content-platform channel or contact the CPT [Product Manager](#members) directly so they can respond as soon as possible. Urgent requests are issues impacting customers' ability to interact with our sites, issues blocking an essential part of a current marketing campaign, or potentially other requests defined on a case-by-case basis.
+- **Resolution:**
+  - **Non-urgent requests** will be resolved by a due date agreed upon by the CPT and the requestor as part of triage.
+  - **Urgent** requests will be worked until the issue is resolved or no longer in an urgent state.
+
 ## Principles
 
 We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).

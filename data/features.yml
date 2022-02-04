@@ -312,7 +312,7 @@ soc_ii_type_ii:
 
 repository_syncing:
   title: Repository Syncing
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   compatibility:
     gitlab_com: true
@@ -330,7 +330,7 @@ repository_syncing:
 
 repository_permissions:
   title: Repository Permissions
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
   compatibility:
@@ -349,7 +349,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   compatibility:
@@ -368,7 +368,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   compatibility:
@@ -387,7 +387,7 @@ browser_extension:
 
 native_integration:
   title: Native Integration
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
   compatibility:
@@ -406,7 +406,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: deployment
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   compatibility:
@@ -425,7 +425,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: deployment
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   compatibility:
@@ -444,7 +444,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: deployment
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   compatibility:
