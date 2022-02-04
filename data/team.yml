@@ -234,7 +234,7 @@ rob_rhyne:
 
 felix_becker:
   name: Felix Becker
-  role: Engineering Manager, Code Insights
+  role: Engineering Manager
   reports_to: director_engineering_global_code_graph
   manager_role_slug: engineering_manager_code_insights
   location: ~~Bremen, Germany 🇩🇪~~ San Francisco, California 🇺🇸
@@ -858,7 +858,7 @@ giselle_northy:
 vova_kulikov:
   name: Vova Kulikov
   pronouns: he/him
-  role: Software Engineer
+  role: Software Engineer, Frontend
   reports_to: engineering_manager_code_insights
   location: St. Petersburg, Russia 🇷🇺
   github: vovakulikov
@@ -1136,7 +1136,7 @@ jake_sorensen:
 coury_clark:
   name: Coury Clark
   pronouns: He/Him
-  role: Software Engineer, Code Insights
+  role: Software Engineer, Backend
   reports_to: engineering_manager_code_insights
   location: Phoenix, AZ, USA
   email: coury@sourcegraph.com
@@ -1485,7 +1485,7 @@ max_wiederholt:
 justin_boyson:
   name: Justin Boyson
   pronouns: He/Him
-  role: Frontend Engineer
+  role: Software Engineer, Frontend
   reports_to: engineering_manager_code_insights
   location: Austin, TX, USA 🇺🇸
   github: unclejustin
@@ -1837,7 +1837,7 @@ trey_sizemore:
 
 cristina_birkel:
   name: Cristina Birkel
-  role: Software Engineer
+  role: Software Engineer, Backend
   reports_to: engineering_manager_code_insights
   location: Cleveland, OH, United States 🇺🇸
   github: CristinaBirkel
