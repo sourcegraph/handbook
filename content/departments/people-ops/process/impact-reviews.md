@@ -57,7 +57,7 @@ Stepping back from the bigger picture of your work and seeing where you can make
 
 ### A note on the Values-based questions:
 
-You may have noticed questions around which values you embody the most, and which values you can work on to embody more of. These questions were created to embed more of our values-driven culture into our Impact reviews. This is meant to be a nod to the fact that our values are living, breathing things - and all teammates should actively work on inserting these values in how we show up for eachother each day. 
+You may have noticed questions around which values you embody the most, and which values you can work on to embody more of. These questions were created to embed more of our values-driven culture into our Impact reviews. This is meant to be a nod to the fact that our values are living, breathing things - and all teammates should actively work on inserting these values in how we show up for eachother each day.
 
 If you find yourself stuck in choosing one value over another, you can simply select the value that most aligns with the area you chose for this teammate (whether it is something they excel at, or need to work on), and elaborate about other values in the comment box. Similarly to the 10% question above, we focus on selecting one value here as to not overwhelm the 'feedback receiver' with a laundry list of things to change before their next review cycle begins. Making tiny, incremental changes in the way we work can have a large impact over time!
 
@@ -79,10 +79,7 @@ After you’ve moved through each of your three [Onboarding Feedback Milestones]
 
 Timeline of stages:
 
--**Peer selection:** 5 business days 
--**Self, peer, and upwards reviews:** 7 business days 
--**Manager reviews:** 5 business days, then manager will release feedback packet to you 
--**Meet with manager to discuss feedback packet:** after your cycle concludes
+-**Peer selection:** 5 business days -**Self, peer, and upwards reviews:** 7 business days -**Manager reviews:** 5 business days, then manager will release feedback packet to you -**Meet with manager to discuss feedback packet:** after your cycle concludes
 
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
