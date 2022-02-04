@@ -406,7 +406,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: delivery
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   compatibility:
@@ -425,7 +425,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: delivery
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   compatibility:
@@ -444,7 +444,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: delivery
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   compatibility:
