@@ -95,7 +95,7 @@ These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_Q4.md#p
 
 **Cross repository and dependency navigation**
 
-We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premise usage.
+We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premises usage.
 
 **Auto-indexing on-prem goes into Beta:**
 

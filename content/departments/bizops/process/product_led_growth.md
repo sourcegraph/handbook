@@ -80,6 +80,12 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
+    <td>In-product trial request 
+   </td>
+   <td>15 points
+   </td>
+  </tr>
+  <tr>
    <td>Private Install or Sourcegraph.com Sign up
    </td>
    <td>10 points
@@ -305,12 +311,16 @@ Our product engagement scoring inputs, which we view as different between cloud 
 Where does PQL data live within Salesforce (relevant to leads and contacts only):
 
 - Lead lifecycle stage: this field will have a value of "PQL" once a lead or contact completes enough actions to meet the A or B PQL thresholds descibed above; this value is not static and will change depending on the SDRs subsequent interactions with the prospect
-- PQL date: this field displays the date at which a lead or contact completes enough in-product actions to receive the A or B PQL thresholds descibed above; this field will be blank if the prospect has not completed enough actions to receive a PQL designation
+- PQL date: this field displays the date at which a lead or contact completes enough in-product actions to meet the A or B PQL thresholds descibed above; this field will be blank if the prospect has not completed enough actions to receive a PQL designation
 
 Where / how do we track PQLs at Sourcegraph:
 
 - [Product / Eng](https://sourcegraph.looker.com/dashboards/217): tracks new PQLs generated over time as part of their org KPIs
 - [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new PQLs generated over time as well as qualified opportunity conversion rates
+
+How do we track changes to PQL scoring over time:
+
+PQL scoring is not static. BizOps conducts regular analysis to evaluate whether we have the right scoring criteria in place to inform better outreach to those users seeing the most value from our product. While the PQL scoring workflow ultimately lives in HubSpot, we track all relevant changes [here](https://docs.google.com/spreadsheets/d/1cK1EHd1nt6XvVbP52Vh_d4CYKd9oPlejKqSSfS7QyRQ/edit#gid=0).
 
 ## Additional PLG resources
 

@@ -482,7 +482,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: delivery
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   use_cases:
@@ -503,7 +503,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: delivery
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   use_cases:
@@ -524,7 +524,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: delivery
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   use_cases:
@@ -545,7 +545,7 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: Pre-built Extensions
-  product_team: extensions
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
   use_cases:
@@ -566,7 +566,7 @@ prebuilt_extensions:
 
 custom_extensions:
   title: Custom Extensions
-  product_team: extensions
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
   use_cases:
