@@ -66,21 +66,17 @@ security:
   issue_labels:
     - team/security
 
-extensions:
-  title: Extensions
+growth_and_integrations:
+  title: Growth and Integrations
   product_org: cloud
   strategy_link: /company/strategy/cloud/growth-and-integrations/index.md
-  pm: murat_sutunc
+  pm: rob_rhyne
+  design: sara_lee
+  em: murat_sutunc
+  pmm: alex_isken
   issue_labels:
     - team/extensiblity
-
-delivery:
-  title: Delivery
-  product_org: enablement
-  strategy_link: /company/strategy/enablement/delivery/index.md
-  pm: dan_mckean
-  issue_labels:
-    - team/delivery
+    - team/cloud-growth
 
 cloud_saas:
   title: Cloud SaaS
@@ -92,20 +88,15 @@ cloud_saas:
   issue_labels:
     - team/cloud-saas
 
-cloud_growth:
-  title: Cloud Growth
-  product_org: cloud
-  pm: anna_mikhova
-  issue_labels:
-    - team/cloud-growth
-
 devops:
-  title: DevOps/SRE
+  title: DevOps (and Delivery)
+  strategy_link: /company/strategy/enablement/delivery/index.md
   product_org: cloud
   pm: bill_creager
   em: jennifer_mitchell
   issue_labels:
     - team/devops
+    - team/delivery
 
 dev_experience:
   title: Dev Experience
