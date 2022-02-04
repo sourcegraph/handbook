@@ -50,7 +50,7 @@ Our current process is as follows:
 
 When sizing an issue please keep in mind the size includes the entire lifecycle of the issue. The coding, any testing both automated and manual, as well as PR reviews, documentation, and any follow-up needed.
 
-When thinking about the size of an issue we try to stay away from actual time estimates. But generally, 1 and 2 sizes would probably finish in less than a full workday. 3 and 5 probably no more than 2 workdays. 8 and 13 get closer to a full week and beyond that begins to span whole weeks or even months.
+When thinking about the size of an issue we try to stay away from actual time estimates. Generally, 1 and 2 sizes should be considered small. 3 and 5 are medium issues. 8 and 13 can be considered large issues. Any number larger than 13 can be considered significantly large, and possibly could represent a small project.
 
 While there is no "maximum" number, once we get higher than a 13 in size it will probably prompt some discussion or at least need some explanation in the issue.
 
