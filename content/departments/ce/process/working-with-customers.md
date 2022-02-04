@@ -73,15 +73,9 @@ During the trial, CE is enabling and educating the customer on how to use Source
 
 ## Security Reviews
 
-Many customers send security questionnaires to complete. They are required to proceed with the partnership. The current process for completing them is:
+Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](security-reviews.md)
 
-1. Work with the AE to get access to the security questionnaire.
-2. Note the customer preferred deployment type (self-hosted, managed, or cloud).
-3. If you (the CE) feel comfortable doing so, take a first pass at the questionnaire. Use the [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing).
-4. Talk to your region's CE in charge of security reviews. Have them take a pass at it and review it. Please ensure timelines are properly communicated and enough notice is given to all involved stakeholders.
-5. If the Security CE feels it necessary, they may involve the product manager on the security team. Typically this involves asking one-off questions in the security [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing), but they may also request full security questionnaire reviews. Note that full reviews may require extra time to get prioritized and worked on by the security team.
-
-The current CE's in charge of security questionnaires are [Max Wiederholt](../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
+The current CE Security SMEs are [Max Wiederholt](../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
 
 ## License Keys
 
