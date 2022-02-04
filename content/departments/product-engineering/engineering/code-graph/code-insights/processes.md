@@ -120,7 +120,7 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 
 ## Support rotation
 
-The team currently follows a support rotation that is intended to allow a single engineer to dedicate time towards supporting customer issues. This support rotation will automatically update based on an [OpsGenie schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/72b2d9c8-8e48-4681-8914-908ead78dd8c) and can be contacted with the @code-insights-support Slack tag.
+The team currently follows a support rotation that is intended to allow a single engineer to dedicate time towards supporting customer issues. This support rotation will automatically update based on an [OpsGenie schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/72b2d9c8-8e48-4681-8914-908ead78dd8c) and can be contacted with the @code-insights-support Slack tag. This support rotation is currently intended to be a work hours rotation, instead of on-call.
 
 The engineer assigned to the support rotation is responsible for:
 
