@@ -440,7 +440,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: repo_management
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   use_cases:
