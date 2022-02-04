@@ -22,7 +22,8 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
 - [Processes](#processes)
   - [CE Technical Win Management](#ce-technical-win-management)
   - [Red Accounts](#red-accounts)
-  - [Technical Deal Reviews](#technical-deal-reviews)
+  - [Tech Reviews](#tech-reviews)
+  - [Account Planning](#account-planning)
 
 ---
 
@@ -214,3 +215,67 @@ Both the AE and CE are responsible for participating in the creation of the acti
 ## Tech Reviews
 
 Tech Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).
+
+## Account Planning
+
+Account Planning is critical to the success of our customers, ensuring that both CE's and AE's are on the same page and that any concerns can be properly surfaced to leadership.
+
+A [video version](https://www.loom.com/share/b18f6a43fa6243a38affe0a25c068f6d) of this has also been recorded.
+
+### What is an Account Plan?
+
+The Account Plan is an internal document that provides customer context, objectives, risks, and plans for a customer account looking back on the previous quarter and ahead for the next quarter that includes the following information:
+
+Customer Context
+
+- Contacts: champions, EB, advocate, admin, etc.
+- Use cases
+- How they’re using SG; internal initiatives; value perception
+- Customer health
+
+Objectives and plans
+
+- Expansion & Growth Opportunities
+- Account Risks & Challenges
+- Product Feedback themes
+- Quarterly Account Objectives
+
+### How do I start an Account Plan?
+
+To create a new Account Plan, a CE makes a copy of the [Account Plan Template](https://docs.google.com/document/d/1AN-irUdSLOhmV_zIIjKfAdw8vvf3Eh2HEdd0hhYiC_M/).
+
+Each plan is stored:
+
+- In the [accounts plan folder](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) for central access of all Customer Account Plans
+- A [shortcut linked](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) to the account plan from within the customer folder
+- URL reference of the Account Plan on the account object in SFDC in the “Action Plan Link” field
+
+### When should I Account Plan?
+
+Account Planning for all accounts occurs one a quarter, but the exact timing depends on the tier of the customer.
+
+For Tier 1 customers, this prior to internal QBRs so that the information can be presented there.
+
+For Tier 2 and Tier 3 customers, this will happen sometime at the beginning of the quarter.
+
+Calendar invites will be sent out indicating the weeks during which each Tier's account plans should be completed.
+
+Newly signed customers will not have their first account plan created till after their account onboarding has been complete. Untill then, the onboarding plan should be the roadmap for the customer.
+
+### What do I do with an Account Plan?
+
+For Tier 1 customers, this account plan will be shared with CE and AE leadership at a 2:2 Review meeting, and shared again to the whole organization at the internal QBR.
+
+For Tier 2 and Tier 3 customers, the account plan will be shared with your CE leader directly during your 1:1.
+
+Regardless of tier, each account plan should include clear next steps that will be added in Salesforce to the _Notes / Next Steps_ field on the account. A link to the account plan should also be included in the _Account Plan Link_ field.
+
+### Additional Questions
+
+How do I find out what tier my customers are?
+
+- In this [SFDC Account Tiering Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HUrjEAG/view)
+
+How do I see when my accounts renew?
+
+- In this [SFDC Renewals Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HGAbEAO/view)
