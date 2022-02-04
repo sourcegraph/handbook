@@ -56,7 +56,7 @@ While there is no "maximum" number, once we get higher than a 13 in size it will
 
 ### Examples
 
-- 1: An issue that you completely know the entire solution and are 100% confident in how long it will take you. You have no questions and no dependencies on other teammates. There aren't any tests that need writing. Fixing a typo, updating copy, or very minor CSS changes would most likely all be 1s.
+- 1: A small issue that you completely know the entire solution and are 100% confident in the scope. You have no questions and no dependencies on other teammates. There aren't any tests that need writing. Fixing a typo, updating copy, or very minor CSS changes would most likely all be 1s.
 - 2: You still know the full scope of your solution and have no dependencies. But the change is more logic-based than a simple text update. Something like removing a feature flag and all accompanying code. This could be a simple change but may take more effort in asserting the change is successful. i.e. manually testing the change.
 - 3: The scope is still generally understood, but some discovery may need to happen during coding. Any tests already exist for this section of code and only need basic updates if any. The resulting PR is pretty small and could be reviewed quickly by a teammate.
 - 5: Like 3, but may need more discovery. Or maybe there are no tests for this part of the code yet so you have to start from scratch.
