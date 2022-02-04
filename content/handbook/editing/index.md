@@ -41,6 +41,10 @@ We don't expect everyone on the team to figure this out on their own. Other team
 - [Deleting a Page](delete-a-page.md)
 - [Editing the Handbook Product](editing-the-handbook-product.md)
 
+## Advanced topics
+
+- [Content generation](content-generation.md)
+
 ## Troubleshooting & Tools
 
 - [Handbook Check Failures](handbook-check-failures.md)
