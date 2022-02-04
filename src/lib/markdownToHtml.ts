@@ -147,7 +147,9 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         .replace(/\/$/, '')
 
     if (match.node.tagName === 'a') {
-        const formattedInternalUrl = url.format(url.resolve(contextUrlPath, parsedUrl.pathname || '')).replace(/\/$/, '')
+        const formattedInternalUrl = url
+            .format(url.resolve(contextUrlPath, parsedUrl.pathname || ''))
+            .replace(/\/$/, '')
         const vfileData = match.file.data as VFile['data'] & { internalLinks?: string[] }
         if (!vfileData.internalLinks) {
             vfileData.internalLinks = []
