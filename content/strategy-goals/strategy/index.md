@@ -123,8 +123,7 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
     - [Engineering Education](enablement/engineering-education/index.md)
     - [Content Platform](enablement/content-platform/index.md)
   - [Cloud](cloud/index.md)
-    - [Core application](cloud/core-application/index.md)
-    - Cloud SaaS
+    - [Cloud SaaS](cloud/cloud-saas/index.md)
     - [Growth and Integrations](cloud/growth-and-integrations/index.md)
     - [Security](cloud/security/index.md)
     - DevOps/SRE

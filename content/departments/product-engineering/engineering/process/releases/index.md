@@ -149,6 +149,8 @@ Follow the instruction from post-release in the release tracking issue to wrap u
 
 ## Patch release process
 
+You can reference our [patch release process recording](https://drive.google.com/drive/u/1/folders/1SUp3732AewIKTFcn5cqfvyf5_7d2HyUX) on Google Drive.
+
 ### 1) Kickstart a patch release using the [Sourcegraph release tool]
 
 CE or the products team will start requesting a patch release by submitting a [patch release request]. Learn more from the [patch release issue template].
