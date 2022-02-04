@@ -26,7 +26,7 @@ The flow for content generation starts in [/src/lib/markdownToHtml.ts](https://g
 
 The markdown generation functions are in [/src/lib/generatedMarkdown.js](https://github.com/sourcegraph/handbook/blob/main/src/lib/generatedMarkdown.js). These functions are responsible for processing the data files and returning the markdown that will be inserted on the page. Typically these functions are iterating over objects, looking up values for other objects, in order to generate some sort of list that can be returned for embedding on the page.
 
-Lastly, there is [/src/scripts/validateData.mjs](https://github.com/sourcegraph/handbook/blob/main/src/scripts/validateData.mjs) which runs at build time and validates that any data that points to other data (for example, a pointer to a specific team member from a team) actually exists, and will report an error if it does not.
+Lastly, there is [/src/scripts/validateData.mjs](https://github.com/sourcegraph/handbook/blob/main/src/scripts/validateData.mjs) which runs at build time and validates that any data that points to other data (for example, a pointer to a specific team member from a team) actually exists, and will report an error if it does not. If you add new data relationships, you should also add a check here.
 
 ## Edit data shortcut for pages driven by data
 
