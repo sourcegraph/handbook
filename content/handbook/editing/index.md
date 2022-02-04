@@ -43,7 +43,7 @@ We don't expect everyone on the team to figure this out on their own. Other team
 
 ## Advanced topics
 
-- [Content generation](content-generation.md)
+- [How embedded content generation works](content-generation.md)
 
 ## Troubleshooting & Tools
 
