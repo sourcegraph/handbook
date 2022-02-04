@@ -227,12 +227,12 @@ A [video version](https://www.loom.com/share/b18f6a43fa6243a38affe0a25c068f6d) o
 The Account Plan is an internal document that provides customer context, objectives, risks, and plans for a customer account looking back on the previous quarter and ahead for the next quarter that includes the following information:
 
 Customer Context
-
 - Contacts: champions, EB, advocate, admin, etc.
 - Use cases
 - How they’re using SG; internal initiatives; value perception
 - Customer health
-  Objectives and plans
+
+Objectives and plans
 - Expansion & Growth Opportunities
 - Account Risks & Challenges
 - Product Feedback themes
@@ -271,7 +271,7 @@ Regardless of tier, each account plan should include clear next steps that will 
 ### Additional Questions
 
 How do I find out what tier my customers are?
-
 - In this [SFDC Account Tiering Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HUrjEAG/view)
-  How do I see when my accounts renew?
+
+How do I see when my accounts renew?
 - In this [SFDC Renewals Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HGAbEAO/view)
