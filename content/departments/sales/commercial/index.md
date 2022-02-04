@@ -70,8 +70,6 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
      - Update your notes and SFDC.
      - Execute your next steps, calendar invite, summary email and agenda etc.
 
-
-
 ## Day-to-Day Activities
 
 ### Order Forms
@@ -80,13 +78,14 @@ You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fA
 
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
 
-
 ### Territory Planning
+
 Content Coming Soon
 
 ### Account Planning
+
 Content Coming Soon
 
 ### Forecasting
-Content Coming Soon
 
+Content Coming Soon
