@@ -20,6 +20,8 @@ To create a Product Gap, navigate to the impacted customer(s) most recent Opport
 
 View the [full list of product gap categories/subcategories](https://docs.google.com/spreadsheets/d/1lgfIJUGkGW0Cp6yJmOqpR-WcUaWj8LbEAg4jt6EH4oY/edit?usp=sharing) in Google Drive.
 
+New product gap submissions will be automatically posted to the #feedback channel, @-mentioning the PM responsible for the relevant product area. This automation relies on a [zap](https://zapier.com/app/editor/145738791), and the PM - area mapping is hard-coded there and should be modified when necessary.
+
 ## Product Gap Definitions
 
 - **Open** - needs to be reviewed/looked at by Product
