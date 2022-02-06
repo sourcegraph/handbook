@@ -26,4 +26,4 @@ If the new IC5 profile represents the promotion of an existing teammate, the EM 
 
 ## Profiles
 
-There are no IC5 profiles at Sourcegraph today.
+[Enablement Org](./enablement-org.md)
