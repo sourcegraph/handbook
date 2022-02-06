@@ -98,7 +98,7 @@ The [work lead](#work-leads) should:
 - Help/work with PM/EM to:
   - Define **Key Results**, including:
     - Desired outcomes of this work
-    - Estimation that indicates the work a manageable size for one team to deliver within one quarter (timeboxed)
+    - Scoping the work to a manageable size for one team to deliver within one quarter (timeboxed)
     - How we will accomplish "Non-Functional Requirements" where applicable (or call out as N/A): testing, monitoring (how do we monitor and support the system?), documentation, etc.
   - Identify and monitor:
     - Stakeholders to notify and consult
