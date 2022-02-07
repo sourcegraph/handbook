@@ -96,3 +96,13 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 - **Duration:** 60-minutes
 
 - **Details:** You will discuss the most complex problem the candidate has solved with code or the most complex codebases they have worked with.
+
+#### Frontend live-coding exercise interview 
+
+- **Interviewers:** two frontend engineers from the Sourcegraph team
+
+- **Duration:** 60-minutes
+
+- **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise requires  a CodeSandbox account and a Figma account. If you prefer not to use CodeSandbox we can help with that, please let us know in advance. 
+
+- **Preparation** Make sure that you have a CodeSandbox account and a Figma account. We can also accommodate you if you don't have/want a CodeSandbox account, please inform us what you prefer.
