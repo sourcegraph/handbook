@@ -218,8 +218,8 @@ In an effort to work closely with our teammates and shift security focus more in
 
 ## How we work
 
-[Read about our methodology and process.](process.md)
-[Security Support Rotation](security-support-rotation.md)
+- [Read about our methodology and process.](process.md)
+- [Security Support Rotation](security-support-rotation.md)
 
 ## Risk management
 
