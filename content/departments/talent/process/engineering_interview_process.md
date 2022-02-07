@@ -97,7 +97,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 - **Details:** You will discuss the most complex problem the candidate has solved with code or the most complex codebases they have worked with.
 
-#### Frontend live-coding exercise interview 
+#### Frontend live-coding exercise interview
 
 - **Interviewers:** two members of the team they are interviewing for
 
@@ -107,7 +107,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 - **Resources** TODO
 
-- **What to look for:** 
-How did the candidate approach the code? Think about CSS, React, error handling, tests. If there was anything they struggled with, did they communicate their intentions well?
-How did the candidate approach the UI/UX. Did they generally follow what the design specified? Did they consider loading and error states? Did they consider accessibility?
-Follow up questions based on the candidates implementation
+- **What to look for:**
+  How did the candidate approach the code? Think about CSS, React, error handling, tests. If there was anything they struggled with, did they communicate their intentions well?
+  How did the candidate approach the UI/UX. Did they generally follow what the design specified? Did they consider loading and error states? Did they consider accessibility?
+  Follow up questions based on the candidates implementation
