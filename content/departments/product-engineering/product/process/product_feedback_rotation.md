@@ -14,7 +14,7 @@ Other teams are responsible for bugs, support issues, product gaps. Read on to k
 
 The current PM on rotation is TODO.
 
-## End of a roation
+## End of a rotation
 
 At the end of a rotation, the PM on rotation is responsible for handing off the rotation to the next PM.
 
@@ -30,19 +30,21 @@ There is a 24h SLA for this.
 
 The in-product NPS feedback widget and happyness feedback widget post directly to the feedback channel. They are powered by [Zapier](https://zapier.com/app/zaps/folder/828861).
 
-As the feedback on rotation, you need to review each submission and identify the right owner, then tag them. In a few cases, you need to reply yourself.
+As the PM on feedback on rotation, you need to review each submission and identify the right owner, then tag them. In a few cases, you need to reply yourself.
 
-- If it's customer feedback, tag the CE that owns the account, and the product manager that owns the relevant product area. The CE is the DRI for answering the customer, the PM for extracting insights from the feedback. PMs should sync with the CE account owner if they want to follow-up directly, which is easily done in slack ("Hey, @<ce-owner> can I follow-up directly here?").
-- If it's a support request, “I’m having trouble figuring something out”, start an email and cc `support@sourcegraph.com`, they will handle it from there. After you sent that email, reply to the slack message with an explicit message so that others know it's been dealth with (eg. "Forwarded to support").
-- Lastly, the feedback is not from a customer, you need to reply yourself if the user added their email, and **if there is a comment that calls for an answer**. When you reply, cc `feedback@sourcegraph.com` and bcc [your salesforce email](https://www.google.com/url?q=https://sourcegraph2020.lightning.force.com/lightning/settings/personal/EmailToSalesforceUserSetup/home&sa=D&source=docs&ust=1644257326395356&usg=AOvVaw0KQKoT-nlb8dZb8xk7iyPa) so that if the user replies all, we can all see that feedback, and then helps in cases where someone might get sick or be on vacation when a reply happens. Also, it will automatically get sent to Productboard. There are someuseful email templates [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#).
+- If the submission is customer feedback, tag the CE that owns the account, and the product manager that owns the relevant product area. The CE is the DRI for answering the customer, the PM for extracting insights from the feedback. PMs should sync with the CE account owner if they want to follow-up directly, which is easily done in slack ("Hey, @<ce-owner> can I follow-up directly here?").
+- If the submission is a support request, “I’m having trouble figuring something out”, start an email and cc `support@sourcegraph.com`, they will handle it from there. After you sent that email, reply to the slack message with an explicit message so that others know it's been dealth with (eg. "Forwarded to support").
+- Lastly, if it's feedback from a customer (eg. a free tier self-hosted instance), you need to reply yourself if the user added their email, and **if there is a comment that calls for an answer** (not just an NPS rating with an empty message). When you reply, cc `feedback@sourcegraph.com` and bcc [your salesforce email](https://www.google.com/url?q=https://sourcegraph2020.lightning.force.com/lightning/settings/personal/EmailToSalesforceUserSetup/home&sa=D&source=docs&ust=1644257326395356&usg=AOvVaw0KQKoT-nlb8dZb8xk7iyPa) so that if the user replies all, we can all see that feedback. Also, it will automatically get sent to Productboard. There are someuseful email templates [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#).
 
-Note: We don't reply to feedback that are not from customers and that do not have a comment (that are just an NPS rating). This is not because we don't care: we used to reply and investigate those in the past, but we hardly ever got an answer, and realized our time was better spent replying to customers that provide actionable feedback.
+Note: We don't reply to feedback not from customers that do not have a comment (that are just an NPS rating). This is not because we don't care: we used to reply and investigate those in the past, but we hardly ever got an answer, and realized our time was better spent replying to users that provide actionable feedback.
 
-#### Traiging submissions from teammates
+#### Triaging submissions from teammates
 
-Often, teammates will post feedback directly to the feedback channel. As the PM on rotation, you should tag the PM of the relevant product area in this message. If the person that sumitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_feedback.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be trracked as product gaps submissions.
+Often, teammates will post feedback directly to the #feedback channel. As the PM on rotation, you should reply to those messages, tagging the PM responsible for this area, and if it's a customer, the CE on this account. 
+  
+If the person that sumitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_feedback.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be trracked as product gaps submissions.
 
-You don't need to do anything for other items posted to #feedback. Product gap submissions automatically tag the right PM.
+You don't need to do anything for other items posted to #feedback. Product gap submissions in particular automatically tag the right PM.
 
 ### Labelling GitHub issues with no team label
 
