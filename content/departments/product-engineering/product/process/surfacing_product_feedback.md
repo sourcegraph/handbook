@@ -45,7 +45,7 @@ Note: while this will currently be a manual process, we intend to automate the c
 
 ### What if the feedback is [a possible exception]?
 
-There are no exceptions to the above process! Please do post all ARR-impactingproduct feedback in Salesforce – **this includes feedback that you feel might be: minor, not worth surfacing, too harsh, just a personal opinion, or from you rather than a customer**. All feedback helps us make Sourcegraph the best product possible.
+There are no exceptions to the above process! Please do post all ARR-impacting product feedback in Salesforce – **this includes feedback that you feel might be: minor, not worth surfacing, too harsh, just a personal opinion, or from you rather than a customer**. All feedback helps us make Sourcegraph the best product possible.
 
 ## If you are uncomfortable posting the feedback
 
