@@ -83,7 +83,7 @@ Since we have the same goal of launching products that drive adoption and revenu
 
 ### Feature roll-outs
 
-Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+Communications around feature roll-out are especially important, and are documented on [the rollout process](./rollout_process.md#communications) page.
 
 ### Talking to customers and stakeholders
 
