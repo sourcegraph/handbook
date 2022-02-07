@@ -1,3 +1,3 @@
 # Resources
 
-- Managing cross-functional projects
+- [Managing cross-functional projects](project-management.md)
