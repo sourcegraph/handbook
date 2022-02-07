@@ -2,41 +2,28 @@
 
 A CE, being both a pre-sales engineer and a post-sales technical account manager, works with customers in a number of different ways throughout the customer journey. This page captures high-level descriptions of the ways in which we work with or on behalf of our customers. Each section contains links to some supporting documents, templates, processes, playbooks, and recordings.
 
-- [Customer Engineering: Working with Customers](#customer-engineering-working-with-customers)
 - [Pre-Sales Customer Touchpoints](#pre-sales-customer-touchpoints)
   - [Discovery and Demo](#discovery-and-demo)
-    - [Resources](#resources)
   - [Technical Design](#technical-design)
-    - [Resources](#resources-1)
   - [Customer Trials](#customer-trials)
-    - [Resources](#resources-2)
   - [Security Reviews](#security-reviews)
   - [License Keys](#license-keys)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
   - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
-    - [Resources](#resources-3)
   - [Webinars / Trainings / Q&A Sessions](#webinars--trainings--qa-sessions)
-    - [Resources](#resources-4)
   - [Check-in calls](#check-in-calls)
-    - [Resources](#resources-5)
   - [QBRs](#qbrs)
-    - [Resources](#resources-6)
   - [Expansions and Renewals](#expansions-and-renewals)
   - [Ongoing Customer Support](#ongoing-customer-support)
-    - [Resources](#resources-7)
   - [Account Management](#account-management)
-    - [Resources](#resources-8)
 - [Playbooks](#playbooks)
   - [Customer Discovery](#customer-discovery)
   - [Account Health](#account-health)
 - [Processes](#processes)
+  - [CE Technical Win Management](#ce-technical-win-management)
   - [Red Accounts](#red-accounts)
-    - [Overview](#overview)
-    - [Red Accounts Process](#red-accounts-process)
-    - [Roles and Responsibilities](#roles-and-responsibilities)
-  - [Technical Deal Reviews](#technical-deal-reviews)
-    - [Technical Deal Review Process](#technical-deal-review-process)
-    - [Roles and Responsibilities](#roles-and-responsibilities-1)
+  - [Tech Reviews](#tech-reviews)
+  - [Account Planning](#account-planning)
 
 ---
 
@@ -87,15 +74,9 @@ During the trial, CE is enabling and educating the customer on how to use Source
 
 ## Security Reviews
 
-Many customers send security questionnaires to complete. They are required to proceed with the partnership. The current process for completing them is:
+Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](security-reviews.md)
 
-1. Work with the AE to get access to the security questionnaire.
-2. Note the customer preferred deployment type (self-hosted, managed, or cloud).
-3. If you (the CE) feel comfortable doing so, take a first pass at the questionnaire. Use the [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing).
-4. Talk to your region's CE in charge of security reviews. Have them take a pass at it and review it. Please ensure timelines are properly communicated and enough notice is given to all involved stakeholders.
-5. If the Security CE feels it necessary, they may involve the product manager on the security team. Typically this involves asking one-off questions in the security [source of truth document](https://docs.google.com/spreadsheets/d/1xtjGzKExX9bEYBrsSyOcHFa-rm0SmB53hWnDKueVJjI/edit?usp=sharing), but they may also request full security questionnaire reviews. Note that full reviews may require extra time to get prioritized and worked on by the security team.
-
-The current CE's in charge of security questionnaires are [Max Wiederholt](../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
+The current CE Security SMEs are [Max Wiederholt](../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
 
 ## License Keys
 
@@ -207,6 +188,10 @@ The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnm
 
 Similar to playbooks, processes exist to ensure consistent practices amongst teams. Processes that the CE team either drives or heavily contributes to are outlined below.
 
+## CE Technical Win Management
+
+CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
+
 ## Red Accounts
 
 As the team accountable for our customers' technical success, usage, and adoption of our products, CEs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.
@@ -227,44 +212,70 @@ Should an AE or CE feel that an account which isn't designated as red via the he
 
 Both the AE and CE are responsible for participating in the creation of the action plan, and overseeing the action plan through to resolution.
 
-## Technical Deal Reviews
+## Tech Reviews
 
-There are three scenarios in which we would perform a Technical Deal Review:
+Tech Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).
 
-1. As the team accountable for our leading our prospective customers' to the technical win, it is important that CE consistently captures appropriate business and technical context about the customer. When a non-standard or high-risk need emerges, a CE initiates a technical deal review. When a technical deal review is required, the opportunity must complete review before proceeding forward.
-2. For any Sales leadership-designation key prospect, a Technical Deal Review will be done before proceeding to trial.
-3. For any Sales leadership-designation key prospect, a Technical Deal Review will be done before the deal closes to review their Production needs.
+## Account Planning
 
-### Technical Deal Review Process
+Account Planning is critical to the success of our customers, ensuring that both CE's and AE's are on the same page and that any concerns can be properly surfaced to leadership.
 
-When a Technical Deal Review is needed, the CE initiates this process by doing the following:
+A [video version](https://www.loom.com/share/b18f6a43fa6243a38affe0a25c068f6d) of this has also been recorded.
 
-1. Completes a peer review with another CE
-2. Records a 5 min loom video (stored [here](https://www.loom.com/team-videos/CE%20Technical%20Reviews)) to give a short verbal overview of the deal, the key risks for the opportunity including tradeoffs and pros or cons where applicable, and articulate specific asked of Product, Engineering, and Support.
-3. Initiate the request in the #tech-deal-reviews channel via the 'Request TDD Review' shortcut in slack; include a link to the loom video and to the TDD.
-4. [Product Directors](../../../team/org_chart.md#product) will review and assign the appropriate Product Managers (or others involved) to review the TDD.
-5. Complete async review within 3 business days.
+### What is an Account Plan?
 
-- If there are additional questions the Product team member can request a synchronous review. The review will be recorded and documented to show the decision-making process and provide additional context. The CE know is responsible for scheduling the synchronous review.
+The Account Plan is an internal document that provides customer context, objectives, risks, and plans for a customer account looking back on the previous quarter and ahead for the next quarter that includes the following information:
 
-7. Acknowledge completion in the TDD.
+Customer Context
 
-### Roles and Responsibilities
+- Contacts: champions, EB, advocate, admin, etc.
+- Use cases
+- How they’re using SG; internal initiatives; value perception
+- Customer health
 
-- CE
+Objectives and plans
 
-  - Responsible for creating the Technical Design Document (TDD) for each new customer.
-  - Responsible for identifying any non-standard or high-risk requirements.
-  - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
-  - Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
-  - If a request is made for a synchronous review, the CE will schedule and facilitate.
+- Expansion & Growth Opportunities
+- Account Risks & Challenges
+- Product Feedback themes
+- Quarterly Account Objectives
 
-- Product, Engineering, and Support
+### How do I start an Account Plan?
 
-  - When a deal review request is raised, Product Directors are responsible for designating appropriate individuals to review.
-  - Initial feedback on the review should occur within 3 business days.
-  - Any member from Product, Engineering, or Support may request a synchronous review.
+To create a new Account Plan, a CE makes a copy of the [Account Plan Template](https://docs.google.com/document/d/1AN-irUdSLOhmV_zIIjKfAdw8vvf3Eh2HEdd0hhYiC_M/).
 
-- Sales
-  - Responsible for providing necessary business context around the deal.
-  - Where applicable, responsible for prioritization decisions.
+Each plan is stored:
+
+- In the [accounts plan folder](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) for central access of all Customer Account Plans
+- A [shortcut linked](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) to the account plan from within the customer folder
+- URL reference of the Account Plan on the account object in SFDC in the “Action Plan Link” field
+
+### When should I Account Plan?
+
+Account Planning for all accounts occurs one a quarter, but the exact timing depends on the tier of the customer.
+
+For Tier 1 customers, this prior to internal QBRs so that the information can be presented there.
+
+For Tier 2 and Tier 3 customers, this will happen sometime at the beginning of the quarter.
+
+Calendar invites will be sent out indicating the weeks during which each Tier's account plans should be completed.
+
+Newly signed customers will not have their first account plan created till after their account onboarding has been complete. Untill then, the onboarding plan should be the roadmap for the customer.
+
+### What do I do with an Account Plan?
+
+For Tier 1 customers, this account plan will be shared with CE and AE leadership at a 2:2 Review meeting, and shared again to the whole organization at the internal QBR.
+
+For Tier 2 and Tier 3 customers, the account plan will be shared with your CE leader directly during your 1:1.
+
+Regardless of tier, each account plan should include clear next steps that will be added in Salesforce to the _Notes / Next Steps_ field on the account. A link to the account plan should also be included in the _Account Plan Link_ field.
+
+### Additional Questions
+
+How do I find out what tier my customers are?
+
+- In this [SFDC Account Tiering Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HUrjEAG/view)
+
+How do I see when my accounts renew?
+
+- In this [SFDC Renewals Report](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HGAbEAO/view)

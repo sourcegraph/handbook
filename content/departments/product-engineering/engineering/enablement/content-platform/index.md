@@ -35,6 +35,14 @@ The content platform team helps with updates or changes to the various [sites we
 2. This will prompt you to fill out a form with relevant details.
 3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
 
+#### Service level agreements (SLAs)
+
+- **Initial response:** all requests will be (triaged)[#triaging-incoming-requests] within one business day.
+  - **Urgent requests:** If your request is urgent, flag it in the #content-platform channel or contact the CPT [Product Manager](#members) directly so they can respond as soon as possible. Urgent requests are issues impacting customers' ability to interact with our sites, issues blocking an essential part of a current marketing campaign, or potentially other requests defined on a case-by-case basis.
+- **Resolution:**
+  - **Non-urgent requests** will be resolved by a due date agreed upon by the CPT and the requestor as part of triage.
+  - **Urgent** requests will be worked until the issue is resolved or no longer in an urgent state.
+
 ## Principles
 
 We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
@@ -54,10 +62,14 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 ### Creating Issues
 
 - Anyone can [create an issue in the repos](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) we work in:
-  - [Sourcegraph/About](https://github.com/sourcegraph/about/labels/blog)
-  - Includes marketing site, blog, docs
-  - [Sourcegraph/Handbook](https://github.com/sourcegraph/handbook)
-  - [Sourcegraph/Learn](https://github.com/sourcegraph/learn)
+  - [About](https://github.com/sourcegraph/about/issues/new)
+    - [Blog](https://github.com/sourcegraph/about/issues/new?labels=about-blog)
+    - [Legal Docs](https://github.com/sourcegraph/about/issues/new?labels=legal)
+  - [Learn](https://github.com/sourcegraph/learn/issues/new/choose)
+  - [Handbook](https://github.com/sourcegraph/handbook/issues/new/choose)
+  - Docs:
+    - [Docs](https://github.com/sourcegraph/sourcegraph/issues/new?labels=docs) for content level
+    - [Docsite](https://github.com/sourcegraph/docsite/issues/new) for application level
   - Note: After issues are created, they must be added to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1) to be prioritized
 - Anyone can request help from the content platform team according to [this process](#requests)
   - Issues are then [triaged](#triaging-incoming-requests) and added to the proper repo in Github (and to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1))

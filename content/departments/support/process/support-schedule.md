@@ -27,6 +27,7 @@ _Note: we can only have 2-3 folks with the same focus day. If you don't see the 
 | Riana       | 9am–5pm     | 14:00–22:00 | 6am–2pm       |           |
 | Stompy      | 1pm–9pm     | 10:00–19:00 | 2am–10am      | Friday    |
 | Warren      | 9am–5pm     | 17:00–01:00 | 9am–5pm       | Monday    |
+| Quinlan     | 9am-5pm     | 15:00-23:00 | 7am-3pm       |           |
 | Sarah       | 9am–5pm     | 17:00–01:00 | 9am–5pm       |           |
 | Shawnteé    | 8am–4pm     | 14:00–22:00 | 6am–2pm       |           |
 | Brielle     | 9am–5pm     | 15:00–23:00 | 7am–3pm       | Monday    |
