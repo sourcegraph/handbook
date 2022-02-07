@@ -219,7 +219,7 @@ Going back to [Step 1](#bookmark=id.tkr1hgyuz3ox) (assigning roles and responsib
 
 ### Avoid making decisions by consensus
 
-While it’s important to get feedback from key stakeholders, it’s equally important to have the right person make a given decision. This [handbook page](https://handbook.sourcegraph.com/company-info-and-process/communication/decisions) is a great resource for making decisions at Sourcegraph.
+While it’s important to get feedback from key stakeholders, it’s equally important to have the right person make a given decision. This [handbook page](../../../company-info-and-process/communication/decisions.md) is a great resource for making decisions at Sourcegraph.
 
 Here are tips for collecting feedback without making decisions by consensus:
 
@@ -230,4 +230,4 @@ Here are tips for collecting feedback without making decisions by consensus:
 - Be clear about the role of feedback: while feedback is an important input, you do not need to act on every piece of feedback you receive. In many cases, this will be impossible because you’ll receive conflicting feedback from different stakeholders.
 - Set and communicate a timeline for when you want to receive feedback. This will make it easier to review and incorporate all feedback at once and then move forward. It may make sense to have two rounds of feedback at times.
 
-Back to [resources](marketing/resources).
+Back to [resources](resources.md).
