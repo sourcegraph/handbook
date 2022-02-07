@@ -39,5 +39,6 @@ The Hub app will look for a certain set of applications on your computer and pus
 The steps for enrolling your device in WS1 are more manual. Please reach out to Tech Ops for more information.
 
 ## Related
+
 - [Computer requirements](tools/computer-setup.md)
 - [Internal security](../process/internal-security/index.md)
