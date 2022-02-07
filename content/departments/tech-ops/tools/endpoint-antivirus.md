@@ -12,7 +12,7 @@ VMWare’s Carbon Black is an antivirus software that we are deploying to Source
 
 **What you can do prior to Workspace One Enrollment**:
 
-If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](../process/internal-security/index.md)
+If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md)
 
 **How to Enroll in Workspace One for MacOS and Windows**
 
@@ -38,4 +38,6 @@ The Hub app will look for a certain set of applications on your computer and pus
 
 The steps for enrolling your device in WS1 are more manual. Please reach out to Tech Ops for more information.
 
-
+## Related
+- [Computer requirements](tools/computer-setup.md)
+- [Internal security](../process/internal-security/index.md)
