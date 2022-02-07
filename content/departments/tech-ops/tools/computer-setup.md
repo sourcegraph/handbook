@@ -1,4 +1,3 @@
-
 ## Computer requirements
 
 - All full-time teammates must have a Sourcegraph computer
@@ -9,6 +8,7 @@
   - [Protect company assets and use them properly - Code of conduct](../../../company-info-and-process/communication/code_of_conduct.md#respect-others-and-their-property-and-confidential-information)
 
 ## Security requirements for your Sourcegraph computer
+
 1. Have all our [endpoint standards](../process/internal-security/computer-standards.md) setup on your computer at all times
 2. Install Workspace One & Carbon Black
 
@@ -19,20 +19,25 @@ Please go [here](../benefits-pay-perks/benefits-perks/spending-company-money.md#
 Please go [here](../benefits-pay-perks/benefits-perks/spending-company-money#laptop-upgrade) to see our policy on computer upgrades.
 
 ## Use of personal devices
-If you are a temporary contractor, waiting to receive a Sourcegraph computer, or if there has been some damage or circumstance where the machine in unavailable, you may use a personal device as a temporary solution provided that you either set up WS1 and Carbon Black or, at a minimum, setup our [standards](../tech-ops/process/internal-security/computer-standards.md) and have an antivirus installed on the device. Please reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.  
+
+If you are a temporary contractor, waiting to receive a Sourcegraph computer, or if there has been some damage or circumstance where the machine in unavailable, you may use a personal device as a temporary solution provided that you either set up WS1 and Carbon Black or, at a minimum, setup our [standards](../tech-ops/process/internal-security/computer-standards.md) and have an antivirus installed on the device. Please reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
 If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
 
 ## Requesting a loaner
+
 Tech Ops has a number of prevoiusly used computers available to be allocated in the event you need one. Please reached out to the Tech Ops team in the #it-tech ops channel to request a device. As we are a global company not all situations can be accomodated through this process, however Tech Ops is committed to ensuring you have access to the device you need to do your job and will work with you to find the right solution.
 
 ## Damaged computers
+
 If something has happened to your Sourcegraph device please contact #IT-Tech-Ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care or some form of warranty. For repairs under warranty a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warrenty please contact It-Tech-Ops to have it sent to ComputerCare to be evaluated and repaired/replaced.
 
 ## Used computers
+
 If you have a device that you are having replaced, or you are leaving the company you can either:
-1. participate in our [buyback program](../process/buyback.md), where we will tranfer ownership to you. 
-2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. If you would like to return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you and have a shipping label and box sent to you. 
+
+1. participate in our [buyback program](../process/buyback.md), where we will tranfer ownership to you.
+2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. If you would like to return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you and have a shipping label and box sent to you.
 
 ### **Workspace One**
 
@@ -79,12 +84,12 @@ You may enroll Workspace One and Carbon Black on as many devices as necessary to
 
 1. Go to [getwsone.com](https://getwsone.com/)
 1. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
-3. You should then be prompted for your Okta credentials.
-4. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
-5. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
+1. You should then be prompted for your Okta credentials.
+1. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
+1. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
 
 **Removing Workspace One and Carbon Black from my personal computer**
 
 In order to remove Workspace One and Carbon Black from your personal device, please reach out to the Tech Ops team. The Tech Ops team can initiate what’s called an “Enterprise Only Wipe” which will remove Workspace One and all associated profiles and applications (Carbon Black) from the machine.
 
-When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from Carbon Black. 
+When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from Carbon Black.
