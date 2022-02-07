@@ -40,8 +40,8 @@ Note: We don't reply to feedback not from customers that do not have a comment (
 
 #### Triaging submissions from teammates
 
-Often, teammates will post feedback directly to the #feedback channel. As the PM on rotation, you should reply to those messages, tagging the PM responsible for this area, and if it's a customer, the CE on this account. 
-  
+Often, teammates will post feedback directly to the #feedback channel. As the PM on rotation, you should reply to those messages, tagging the PM responsible for this area, and if it's a customer, the CE on this account.
+
 If the person that sumitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_feedback.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be trracked as product gaps submissions.
 
 You don't need to do anything for other items posted to #feedback. Product gap submissions in particular automatically tag the right PM.
