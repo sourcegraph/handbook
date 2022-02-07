@@ -92,12 +92,22 @@ export default function Page({ page }: PageProps): JSX.Element {
     })
 
     useEffect(() => {
-        const handleRouteChange = async (): Promise<boolean> => {
+        const handleSlashRouteChange = async (): Promise<boolean> => {
             const newUrl = router.asPath.replace(/\/$/, '')
             return router.replace(newUrl, undefined, { shallow: true })
         }
+
+        const handleAnchorRouteChange = async (): Promise<boolean> => {
+            const regex = /(\/)(#)/
+            const newUrl = router.asPath.replace(regex, '$2')
+            return router.replace(newUrl, undefined, { shallow: true })
+        }
+
         if (router.asPath.endsWith('/') && router.asPath !== '/') {
-            handleRouteChange().catch(error => console.error(error))
+            handleSlashRouteChange().catch(error => console.error(error))
+        }
+        if (router.asPath.includes('#')) {
+            handleAnchorRouteChange().catch(error => console.error(error))
         }
     })
 
