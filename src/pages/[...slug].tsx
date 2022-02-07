@@ -2,11 +2,12 @@ import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
-import { useRouter } from 'next/router'
+import { useRouter, NextRouter } from 'next/router'
 import React, { useEffect, useRef } from 'react'
 
 import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
+import useRouterReplace from '../hooks/routerReplace'
 import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
@@ -52,6 +53,7 @@ export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
     const tocReference = useRef<HTMLElement>(null)
     const router = useRouter()
+    const replace = useRouterReplace()
     useEffect(() => {
         const observer = new IntersectionObserver(
             entries => {
@@ -92,15 +94,15 @@ export default function Page({ page }: PageProps): JSX.Element {
     })
 
     useEffect(() => {
-        const handleSlashRouteChange = async (): Promise<boolean> => {
+        const handleSlashRouteChange = (): Promise<NextRouter> => {
             const newUrl = router.asPath.replace(/\/$/, '')
-            return router.replace(newUrl, undefined, { shallow: true })
+            return replace(newUrl, undefined, { shallow: true })
         }
 
-        const handleAnchorRouteChange = async (): Promise<boolean> => {
+        const handleAnchorRouteChange = (): Promise<NextRouter> => {
             const regex = /(\/)(#)/
             const newUrl = router.asPath.replace(regex, '$2')
-            return router.replace(newUrl, undefined, { shallow: true })
+            return replace(newUrl, undefined, { shallow: true })
         }
 
         if (router.asPath.endsWith('/') && router.asPath !== '/') {
@@ -109,7 +111,7 @@ export default function Page({ page }: PageProps): JSX.Element {
         if (router.asPath.includes('#')) {
             handleAnchorRouteChange().catch(error => console.error(error))
         }
-    })
+    }, [replace, router.asPath])
 
     if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
