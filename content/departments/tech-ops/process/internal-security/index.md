@@ -14,7 +14,7 @@ As we attempt for SOC2 certification we are also acknowledging that we are more 
 
 - Institute baseline [device standards](../internal-security/computer-standards.md)
 - Enable [Workspace One and Carbon Black](../../tools/endpoint-antivirus.md) as our enpoint management and antivirus solutions
-- Set advanced [phishing/spoofing](../internal-security/phishing-spoofing.md) settings 
+- Set advanced [phishing/spoofing](../internal-security/phishing-spoofing.md) settings
 - Run quarterly system reviews (in work)
 - Perform internal audits (in work)
 
