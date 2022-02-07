@@ -126,3 +126,9 @@ Conduct research that helps us understand adoption drivers and pain points with 
 - **Adding C#, Ruby and other precise language support:** Based on our team's bandwidth, skill set, market share and current associated ARR, we are not planning to work on these languages this year. We do however intend to add support for them in the middle term.
 
 - **Scale the C++ code graph:** Given the fragmented nature of the C/C++ environment we won’t be investing in improving C/C++ language support or scaling. We do however intend to revisit our solution in the future.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.code_intelligence}}

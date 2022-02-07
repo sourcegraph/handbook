@@ -217,6 +217,12 @@ const replaceMatchedTeam = async (match: string, group1: string, group2: string)
 const replaceMatchedProductTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateTeamOrgChart(group2)
 
+const replaceMatchedUseCaseFeatureList = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateUseCaseFeatureList(group2)
+
+const replaceMatchedProductTeamUseCaseList = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateProductTeamUseCaseList(group2)
+
 const replaceAsync = async (
     markdown: string,
     regex: RegExp,
@@ -260,6 +266,16 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
         )
         markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
         markdown = await replaceAsync(markdown, /({{generator:product_team.)(\w+)(}})/gi, replaceMatchedProductTeam)
+        markdown = await replaceAsync(
+            markdown,
+            /({{generator:product_team_use_case_list.)(\w+)(}})/gi,
+            replaceMatchedProductTeamUseCaseList
+        )
+        markdown = await replaceAsync(
+            markdown,
+            /({{generator:use_case_feature_list.)(\w+)(}})/gi,
+            replaceMatchedUseCaseFeatureList
+        )
         markdown = markdown.replace(
             /{{generator:engineering_ownership}}/gi,
             await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
