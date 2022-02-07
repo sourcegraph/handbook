@@ -71,13 +71,60 @@ To learn more about contributing to `sg`, check out the [contribution guide](htt
 
 ### Planning
 
+This section describes how the DevX team currently conducts planning.
 Planning can include quarterly planning, project scoping, requirements gathering, RFC-writing, or any combination of the above.
 
-The DevX team uses GitHub issues with the [`team/devx` and `planning` labels](https://github.com/sourcegraph/sourcegraph/issues?q=sort%3Aupdated-desc+is%3Aissue+label%3Aplanning+label%3Ateam%2Fdevx) on our [GitHub board](https://github.com/orgs/sourcegraph/projects/212) to track any significant planning efforts.
-Loose documents, Slack discussions, [meetings](#meetings), etc. can be used, but they should all be captured within and/or linked from the relevant planning issue.
-This makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with robust planning efforts.
+For any major body of work:
 
-Once a roadmap or scope has been finalized, the appropriate tasks should be created, consolidated under a [tracking issue](../../process/tracking_issues.md) where helpful.
+1. A [work lead](#work-leads) is assigned.
+2. A [planning issue](#planning-issues) is created, and relevant planning work is done.
+3. A [tracking issue](#tracking-issues) is created, tracking tasks required for completing the work.
+
+#### Work leads
+
+A **work lead** is the person assigned to lead a body of work, including the planning of said work.
+If there are questions about priority order, scope change, etc. the work lead helps answer questions/provide updates.
+They have special responsibilities regarding [planning issues](#planning-issues) and [tracking issues](#tracking-issues).
+
+#### Planning issues
+
+Planning starts with a **planning issue**. Planning issues are GitHub issues with the [`team/devx` and `planning` labels](https://github.com/sourcegraph/sourcegraph/issues?q=sort%3Aupdated-desc+is%3Aissue+label%3Aplanning+label%3Ateam%2Fdevx) on our [GitHub board](https://github.com/orgs/sourcegraph/projects/212) to track any significant planning efforts. A planning issue documents the planning process - links to RFC(s), discussions, artefacts like scratch documents, [meetings](#meetings), decisions, etc. as planning progresses.
+
+> NOTE: An updated and well-documented planning issue makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with planning efforts.
+
+The [work lead](#work-leads) should:
+
+- Continuously document the planning process
+- Help/work with PM/EM to:
+  - Define **Key Results**, including:
+    - Desired outcomes of this work
+    - Scoping the work to a manageable size for one team to deliver within one quarter (timeboxed)
+    - How we will accomplish "Non-Functional Requirements" where applicable (or call out as N/A): testing, monitoring (how do we monitor and support the system?), documentation, etc.
+  - Identify and monitor:
+    - Stakeholders to notify and consult
+    - Dependencies on other teams and/or other work and their progress status.
+
+**✅ Outcome**: Once a roadmap or scope has been finalized, the appropriate tasks should be created, labelled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)) and other metadata where helpful, as well as a rough order of operation and outline of what can be parallelized. A [tracking issue](../../process/tracking_issues.md) should then be created.
+
+#### Tracking issues
+
+A tracking issue is summarised by the Key Results defined in [planning](#planning-issues), and collects all the relevant tasks to achieving this to track in-flight work. Tracking issues are GitHub issues with the [`team/devx` and `tracking` labels](https://github.com/sourcegraph/sourcegraph/issues?q=sort%3Aupdated-desc+is%3Aissue+label%3Atracking+label%3Ateam%2Fdevx) on our [GitHub board](https://github.com/orgs/sourcegraph/projects/212).
+
+> NOTE: Tracking issues are managed automatically using the tracking issue bot if created using the tracking issue template - learn more in [tracking issue bot docs](../../process/tracking_issues.md)!
+
+The [work lead](#work-leads) should:
+
+- Have a clear picture of the work currently being executed on, upcoming work, and overall timelines
+- Ensure required tasks are delegated
+- Continually evaluate:
+  - That we are working towards the Key Results, and if the work meets it.
+  - The Key Results, scope, and order of operations
+  - If any adjustments are needed - if so, work with PM/EM to make the adjustments.
+
+**✅ Outcome**: The Key Results defined during [planning](#planning-issues) are met, and follow-ups and takeaways are documented and tracked:
+
+- Are there any known/outstanding bugs? Create issues to follow up if needed.
+- Did we change the design mid-development? If so, why?
 
 ### Support
 
