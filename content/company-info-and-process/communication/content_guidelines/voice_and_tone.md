@@ -15,7 +15,7 @@ When we write in our shared voice, we are always:
 ### Plainspoken
 
 - Be clear and concise
-- Avoid jargon, acronyms, and filler words
+- Avoid jargon, [acronyms](https://docs.google.com/spreadsheets/d/1E71lKEMl6sFvey0BAVWyQih2an64bSutZfBJ6haXY9c/edit#gid=0), and filler words
 - Be precise and consistent with terminology so that our meaning is always clear
 
 ### Empathetic
