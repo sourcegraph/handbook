@@ -229,3 +229,5 @@ Here are tips for collecting feedback without making decisions by consensus:
   - 80% feedback: Feedback on the specific content (words, design, etc.).
 - Be clear about the role of feedback: while feedback is an important input, you do not need to act on every piece of feedback you receive. In many cases, this will be impossible because you’ll receive conflicting feedback from different stakeholders.
 - Set and communicate a timeline for when you want to receive feedback. This will make it easier to review and incorporate all feedback at once and then move forward. It may make sense to have two rounds of feedback at times.
+
+Back to [resources](marketing/resources).
