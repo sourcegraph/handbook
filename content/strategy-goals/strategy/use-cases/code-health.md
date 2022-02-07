@@ -46,6 +46,10 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Tie to higher retainment of engineers when they work in healthy code environments
 - Increased productivity, quicker builds
 
+## Features that enable this use case
+
+{{generator:use_case_feature_list.code_health}}
+
 ## Additional resources
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->

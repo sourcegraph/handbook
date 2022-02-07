@@ -1,50 +1,39 @@
 {
-  "type": "array",
-  "items": {
+  "type": "object",
+  "additionalProperties": {
     "type": "object",
     "properties": {
-      "Category": {
+      "category": {
         "type": "string"
       },
-      "Thing": {
+      "type": {
         "type": "string"
       },
-      "Type": {
+      "title": {
         "type": "string"
       },
-      "Org": {
+      "product_org": {
         "type": "string"
       },
-      "Team": {
+      "product_team": {
         "type": "string"
       },
-      "Domain experts": {
+      "domain_experts": {
         "type": "string"
       },
-      "Slack channels": {
+      "slack_channels": {
         "type": "string"
       },
-      "Ownership model": {
+      "ownership_model": {
         "type": "string"
       },
-      "Health": {
+      "health": {
         "type": "string"
       },
-      "Product lifecycle": {
+      "product_lifecycle": {
         "type": "string"
       }
     },
-    "required": [
-      "Category",
-      "Thing",
-      "Type",
-      "Org",
-      "Team",
-      "Domain experts",
-      "Slack channels",
-      "Ownership model",
-      "Health",
-      "Product lifecycle"
-    ]
+    "required": ["category", "title"]
   }
 }

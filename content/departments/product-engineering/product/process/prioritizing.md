@@ -86,7 +86,7 @@ Sometimes, we need to prioritize changes to our product on _very_ short notice d
 However, extenuating circumstances exist that would encourage us to break this rule (all subject to interpretation):
 
 - A bug that is significantly impacting Sourcegraph Cloud.
-- A bug that is significantly impacting a managed or on-premise instance.
+- A bug that is significantly impacting a managed or on-premises instance.
 - A bug that is significantly impacting a prospective customer.
 - Critical, time-sensitive opportunities.
 

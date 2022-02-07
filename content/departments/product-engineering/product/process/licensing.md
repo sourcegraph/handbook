@@ -43,7 +43,7 @@ Because the code for all three pricing plans is the same, customers can subscrib
 
 ## Plans
 
-Sourcegraph Enterprise offers three **plans**: Free, Team and Enterprise as defined in [pricing](https://about.sourcegraph.com/pricing/). The Free plan is the default plan. It does not require a license key to run.
+Sourcegraph Enterprise offers three **plans**: Free and Enterprise as defined in [pricing](https://about.sourcegraph.com/pricing/). The Free plan is the default plan. It does not require a license key to run.
 
 Customers on the Team and Enterprise plan of Sourcegraph Enterprise are provided with a [license key](../../../ce/process/license_keys.md), usually by a customer engineer. When a prebuilt image is configured with a license key, the functionality covered under the customer's plan is enabled.
 
@@ -75,6 +75,6 @@ You can think of this as a set of three options from the user's perspective:
 
 1. Run a fully open source deployment of Sourcegraph. No enterprise code is included in this deployment, no enterprise features (or even landing pages for those features) are enabled, and no option is provided to do so.
 2. Run Sourcegraph Core. This corresponds to [the _Free_ option on the pricing page](https://about.sourcegraph.com/pricing/). A Sourcegraph Core deployment includes enterprise code, but without a license key, any functionality provided therein is extremely limited. (For example, batch changes can only be made with up to five changesets.)
-3. Run Sourcegraph with a paid plan. This corresponds to [the _Team_ or _Enterprise_ options on the pricing page](https://about.sourcegraph.com/pricing/). These deployments include enterprise code, with paid features available based on the customer's plan, controlled by their license key.
+3. Run Sourcegraph with a paid plan. This corresponds to [Enterprise\_ options on the pricing page](https://about.sourcegraph.com/pricing/). These deployments include enterprise code, with paid features available based on the customer's plan, controlled by their license key.
 
 For more information, you may also want to refer to our [explanation of Sourcegraph Enterprise vs Sourcegraph OSS](../../../ce/onboarding/enterprise-vs-oss.md).

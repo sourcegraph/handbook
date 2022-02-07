@@ -8,6 +8,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
+- [Surfacing feedaback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
@@ -46,7 +47,7 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
-- (Early Access / Beta) enrollment: Referring to the process of enabling early or beta access for customers or prospects so they can begin using a product feature.
+- Early access enrollment: Referring to the process of enabling early access for customers or prospects so they can begin using an [Experimental or Beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features) feature.
 - First experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
@@ -82,7 +83,7 @@ Since we have the same goal of launching products that drive adoption and revenu
 
 ### Feature roll-outs
 
-Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+Communications around feature roll-out are especially important, and are documented on [the rollout process](./rollout_process.md#communications) page.
 
 ### Talking to customers and stakeholders
 

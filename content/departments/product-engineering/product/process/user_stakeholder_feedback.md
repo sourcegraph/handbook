@@ -66,7 +66,7 @@ We have a few different email lists that are used to send us feedback.
 
 ### GitHub issues
 
-- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback.
+- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
 - **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](responding_to_user_feedback.md) is responsible for labelling with the right team.
 
 See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
