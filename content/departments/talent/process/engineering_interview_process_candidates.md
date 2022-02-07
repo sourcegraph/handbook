@@ -85,3 +85,13 @@ We want to find engineers who are:
 - **Length:** 60-minutes
 
 - **How to prepare:** We will discuss the the most complex problems you have solved with code, or the most complex codebases you have worked on.
+
+#### Frontend live-coding exercise interview
+
+- **Interviewers:** two frontend engineers from the Sourcegraph team
+
+- **Duration:** 60-minutes
+
+- **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise requires a CodeSandbox account and a Figma account. If you prefer not to use CodeSandbox we can help with that, please let us know in advance.
+
+- **Preparation:** Please create (free) accounts on https://www.figma.com/ and https://codesandbox.io/ in advance if you don't have them already and be logged in to Figma and CodeSandbox at the time of the exercise. This will make sure you can access the full UI designs for the exercise and can join the live-coding session in the CodeSandbox.
