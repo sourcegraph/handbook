@@ -8,7 +8,7 @@ const useRouterReplace = (): NextRouter['replace'] => {
     routerReference.current = router
 
     const [{ replace }] = useState<Pick<NextRouter, 'replace'>>({
-        replace: path => routerReference.current.replace(path)
+        replace: path => routerReference.current.replace(path),
     })
 
     return replace
