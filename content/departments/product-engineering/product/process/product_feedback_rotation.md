@@ -20,7 +20,7 @@ At the end of a rotation, the PM on rotation is responsible for handing off the 
 
 ## Feedback rotation guide
 
-### Triaging and answering in the feedback channel
+### Triaging and answering the feedback channel
 
 When you're on support rotation, you will spend more time monitoring the #feedback channel, which is a good thing to stay on top of customer needs in general. There are two things you need to do in the feedback channel: answering some NPS submissions, and routing feedback submitted directly by teammates to the right team.
 
