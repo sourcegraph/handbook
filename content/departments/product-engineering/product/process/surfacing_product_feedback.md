@@ -7,7 +7,7 @@ CEs, application engineers (CS), Sales, Marketing, Engineering, and other teamma
 We deeply value this feedback, so we make this process as frictionless for teammates as possible. There are only two ways of posting feedback:
 
 - any team member can post general feedback to the #feedback channel. It will be triaged by the PM on feedback rotation.
-- ARR-impacting feedback should be submitted and tracked as a product gap. This helps the product team drive important decisions. In particular, it's important that AEs and CEs submit feedback submitted by customers or prospects as product gaps.
+- ARR-impacting feedback should be submitted and tracked as a product gap. This helps the product team drive important decisions. In particular, it's important that AEs and CEs submit feedback surfaced by customers or prospects as product gaps.
 
 ## Product gaps
 
