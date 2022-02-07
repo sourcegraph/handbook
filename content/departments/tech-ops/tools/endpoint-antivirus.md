@@ -1,10 +1,10 @@
-### **Workspace One**
+### **Workspace One (WS1)**
 
 ### **What is Workspace One?**
 
 VMWare’s Workspace One is an Endpoint Management system that provides Tech Ops with the ability to manage Sourcegraph devices (computers) remotely. More information about Workspace One can be found [here](https://www.vmware.com/products/workspace-one.html).
 
-**Carbon Black**
+**Carbon Black (CB)**
 
 **What is Carbon Black?**
 
@@ -12,7 +12,7 @@ VMWare’s Carbon Black is an antivirus software that we are deploying to Source
 
 **What you can do prior to Workspace One Enrollment**:
 
-If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md)
+If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md).
 
 **How to Enroll in Workspace One for MacOS and Windows**
 
@@ -36,9 +36,8 @@ The Hub app will look for a certain set of applications on your computer and pus
 
 **How to Enroll in Workspace One for Linux device**
 
-The steps for enrolling your device in WS1 are more manual. Please reach out to Tech Ops for more information.
+The steps for enrolling your device in WS1 & CB are more manual. Please reach out to Tech Ops for more information.
 
 ## Related
-
-- [Computer requirements](tools/computer-setup.md)
+- [Computer requirements](../tools/computer-setup.md)
 - [Internal security](../process/internal-security/index.md)
