@@ -221,3 +221,9 @@ In order to focus and have a successful initial launch, the Code Insights team i
 - Custom Extension Insights: while some Sourcegraph extensions do and can contribute Code Insights, we're not focused on third-party contributed insights because of the limited excitement initial users had for them. We _may_ explore this in FY23H1.
 - Integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all Code Insights users first.
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.code_insights}}

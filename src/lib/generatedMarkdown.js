@@ -287,6 +287,65 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
+export async function generateProductTeamUseCaseList(product_team) {
+  const features = await readYamlFile('data/features.yml')
+  const useCases = await readYamlFile('data/use_cases.yml')
+  let pageContent = ''
+  let useCaseCount = 0
+  for (const [useCaseName, useCase] of Object.entries(useCases)) {
+    let useCaseContent = `### [${String(useCase.title)}](${String(useCase.link)})\n\n`
+    let featureCount = 0
+    for (const feature of Object.values(features)) {
+      if (feature.product_team === product_team) {
+        if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
+          if (feature.use_cases) {
+            if (feature.use_cases.includes(useCaseName)) {
+              useCaseCount++
+              featureCount++
+              if (feature.documentation_link) {
+                useCaseContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+              } else {
+                useCaseContent += `- ${String(feature.title)}\n`
+              }
+            }
+          }
+        }
+      }
+    }
+    if (featureCount > 0) {
+      pageContent += useCaseContent
+    }
+  }
+  if (useCaseCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
+export async function generateUseCaseFeatureList(use_case) {
+  const features = await readYamlFile('data/features.yml')
+  let pageContent = ''
+  let featureCount = 0
+  for (const feature of Object.values(features)) {
+    if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
+      if (feature.use_cases) {
+        if (feature.use_cases.includes(use_case)) {
+          featureCount++
+          if (feature.documentation_link) {
+            pageContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+          } else {
+            pageContent += `- ${String(feature.title)}\n`
+          }
+        }
+      }
+    }
+  }
+  if (featureCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
 /**
  * Used in cases where a team in comprised of individuals who report to different
  * people, but work on the same thing.
