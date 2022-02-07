@@ -92,6 +92,6 @@ We want to find engineers who are:
 
 - **Duration:** 60-minutes
 
-- **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise requires a CodeSandbox account and a Figma account. If you prefer not to use CodeSandbox we can help with that, please let us know in advance.
+- **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise will use CodeSandbox and Figma. If you prefer not to use your accounts we have it set up so you don't have to.
 
-- **Preparation:** Please create (free) accounts on https://www.figma.com/ and https://codesandbox.io/ in advance if you don't have them already and be logged in to Figma and CodeSandbox at the time of the exercise. This will make sure you can access the full UI designs for the exercise and can join the live-coding session in the CodeSandbox.
+- **Preparation:** Not Mandatory, since we can set up the exercise without it - Create (free) accounts on https://www.figma.com/ and https://codesandbox.io/. 
