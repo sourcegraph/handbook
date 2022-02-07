@@ -2,7 +2,7 @@ import { Toc } from '@stefanprobst/rehype-extract-toc'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { NextSeo } from 'next-seo'
 import ErrorPage from 'next/error'
-import { useRouter, NextRouter } from 'next/router'
+import { useRouter } from 'next/router'
 import React, { useEffect, useRef } from 'react'
 
 import { EditSection } from '../components/EditSection'
@@ -94,12 +94,12 @@ export default function Page({ page }: PageProps): JSX.Element {
     })
 
     useEffect(() => {
-        const handleSlashRouteChange = (): Promise<NextRouter> => {
+        const handleSlashRouteChange = (): Promise<boolean> => {
             const newUrl = router.asPath.replace(/\/$/, '')
             return replace(newUrl, undefined, { shallow: true })
         }
 
-        const handleAnchorRouteChange = (): Promise<NextRouter> => {
+        const handleAnchorRouteChange = (): Promise<boolean> => {
             const regex = /(\/)(#)/
             const newUrl = router.asPath.replace(regex, '$2')
             return replace(newUrl, undefined, { shallow: true })
