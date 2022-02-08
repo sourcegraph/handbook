@@ -44,5 +44,5 @@ If something has happened to your Sourcegraph device please contact #it-tech-ops
 
 If you have a device that you are having replaced, or you are leaving the company you can either:
 
-1. participate in our buyback program, where we will transfer ownership to you.
+1. participate in our [buyback program](../process/buyback.md), where we will transfer ownership to you.
 2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. If you would like to return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you and have a shipping label and box sent to you.
