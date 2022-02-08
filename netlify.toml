@@ -2,8 +2,20 @@
 command = "yarn run netlify-build"
 publish = "out"
 
-[build.environment]
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+# https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
+# If skip_processing = true, all other settings are ignored
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = true
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
