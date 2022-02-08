@@ -13,13 +13,13 @@ Bugs can be directly submitted as a GitHub issue.
 
 ## Product gaps
 
-### What is a Product Gap?
+### What is a Product gap?
 
 It is important to distinguish all customer feedback you receive from what would be considered a product gap. A product gap would be some feedback you collect from a prospect during your initial sales cycle, or from an existing customer, that could be within the expected scope of work for our Product and Engineering team. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated in to our roadmap. In contrast, a product gap is NOT a bug nor should it be a potential request that falls well outside the scope of Sourcegraph intended use and function.
 
 It is vitally important when creating a product gap, and a submission record (to tie a gap to a customer), that we offer additional details like the true level of impact this gap has on a customer and what their current workaround may be, if any. This information arms our Product team with the critical detail that can determine if and when a request is accepted for work, so be sure to provide as much context as possible.
 
-### Create a Product Gap and a Submission in Salesforce
+### Create a Product gap and a Submission in Salesforce
 
 If you have gotten a specific feedback request that a customer(s) would like to track the progress of you should log that feedback as a Product Gap in Salesforce. Doing so allows full transparency to CEs and Product Eng on how many customers are impacted by an issue and what teams are responsible.
 
@@ -41,7 +41,9 @@ New product gap submissions will be automatically posted to the #feedback channe
 
 ### Creating GitHub Issues
 
-Customer Engineers should no longer be creating GitHub Issues for their Customers. Instead, Product Eng will manage the process of extracting Product Gaps from Salesforce to add to GitHub.
+Customer Engineers should no longer be creating GitHub issues for feature requests from their Customers. Instead, Product Eng will manage the process of extracting Product Gaps from Salesforce to add to GitHub.
+
+Bugs can still be submitted as GitHub issues.
 
 Note: while this will currently be a manual process, we intend to automate the creation of GH issues upon creating of a new Product Gap in Salesforce.
 
