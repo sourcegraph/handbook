@@ -20,6 +20,6 @@ Our mission is to provide the fastest, most seamless way for development teams t
 
 [Product Strategy – Mission/Vision/Focus Areas](../../../../strategy-goals/strategy/cloud/index.md)
 
-##Contact
+## Contact
 
 #cloud-org channel in Slack
