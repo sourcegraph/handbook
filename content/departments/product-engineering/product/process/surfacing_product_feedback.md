@@ -9,6 +9,8 @@ We deeply value this feedback, so we make this process as frictionless for teamm
 - any team member can post general feedback to the #feedback channel. It will be triaged by the PM on feedback rotation.
 - ARR-impacting feedback should be submitted and tracked as a product gap. This helps the product team drive important decisions. In particular, it's important that AEs and CEs submit feedback surfaced by customers or prospects as product gaps.
 
+Bugs can be directly submitted as a GitHub issue.
+
 ## Product gaps
 
 ### What is a Product Gap?
