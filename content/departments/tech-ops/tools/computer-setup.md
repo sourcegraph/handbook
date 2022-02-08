@@ -19,10 +19,12 @@ Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-mon
 Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#laptop-upgrade) to see our policy on computer upgrades.
 
 ## What to do if you are waiting for your Sourcegraph computer to arrive
+
 Currently, we are experiencing extensive wait times to receive new laptops due to Apple logistics delays. If you are waiting for your Sourcegraph computer to arrive you can either:
-1. Use your personal device as a temporary measure 
+
+1. Use your personal device as a temporary measure
 1. Request a loaner laptop
-2. Rent a laptop from a local provider, #it-tech-ops can pay for this service
+1. Rent a laptop from a local provider, #it-tech-ops can pay for this service
 
 ## Use of personal devices
 
@@ -44,5 +46,3 @@ If you have a device that you are having replaced, or you are leaving the compan
 
 1. participate in our buyback program , where we will tranfer ownership to you.
 2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. If you would like to return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you and have a shipping label and box sent to you.
-
-
