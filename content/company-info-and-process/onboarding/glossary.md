@@ -42,7 +42,7 @@ This is a glossary of terms you might hear working at Sourcegraph. Although we t
 | LOC                      | Lines of code                                                                                                                                                    |
 | LOE                      | Level of effort                                                                                                                                                  |
 
-# Business terms
+## Business terms
 
 | Term                                         | Meaning                                                                                                                                                                 |
 | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -76,7 +76,7 @@ This is a glossary of terms you might hear working at Sourcegraph. Although we t
 | MQL                                          | [Marketing qualified lead](../../departments/bizops/process/product_led_growth.md)                                                                                      |
 | SLA                                          | Service level agreement                                                                                                                                                 |
 
-# Role terms
+## Role terms
 
 | Term          | Meaning                                                                                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -104,7 +104,7 @@ This is a glossary of terms you might hear working at Sourcegraph. Although we t
 | Ops           | Operations (includes Finance, Accounting, Legal, People, Data & Analytics, Strategy, and Tech Ops)                                                                                       |
 | DRI           | Directly responsible individual, the "one true owner" of something                                                                                                                       |
 
-# General terms
+## General terms
 
 | Term  | Meaning                                             |
 | ----- | --------------------------------------------------- |
@@ -118,7 +118,7 @@ This is a glossary of terms you might hear working at Sourcegraph. Although we t
 | LFG   | Looking for Gutekanst - sometimes Looking for Group |
 | YAGNI | You aren't gonna need it                            |
 
-# Developer lingo for non-developers: a guide
+## Developer lingo for non-developers: a guide
 
 _This guide is made to define and explain many of the terms that are commonplace in conversations at the Sourcegraph office but not necessarily outside of it. The goal of this guide is to break down these terms in a way that your average person can comprehend, at least at a very high level. Think of this as an "intro to dev-speak"_ :)
 
