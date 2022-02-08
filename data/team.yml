@@ -1268,7 +1268,7 @@ nate_maynard:
 jenny_bergen:
   name: Jenny Bergen
   pronouns: she/her
-  role: Manager, Content Marketing
+  role: Senior Content Marketing Manager
   reports_to: director_content_strategy
   manager_role_slug: manager_content_marketing
   location: Denver, Colorado, USA 🇺🇸
@@ -1574,8 +1574,8 @@ david_rohnow:
 scott_bailey:
   name: Scott Bailey
   pronouns: he/him
-  role: Technical Content Marketing Manager
-  reports_to: manager_content_marketing
+  role: Technical Content Research Manager
+  reports_to: director_content_strategy
   location: Raleigh, NC, USA 🇺🇸
   github: csbailey5t
   email: scott.bailey@sourcegraph.com
@@ -1643,7 +1643,7 @@ nick_moore:
   name: Nick Moore
   pronouns: he/him/his
   role: Content Editor
-  reports_to: senior_managing_editor
+  reports_to: director_content_strategy
   location: Weymouth, Massachusettes, United States 🇺🇸
   github: nickmyyz
   email: nick.moore@sourcegraph.com
