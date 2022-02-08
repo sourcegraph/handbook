@@ -67,8 +67,10 @@ There is no SLA for this, just make sure that all issues are labelled at the end
 
 This is the third and last thing you need to do as the PM on feedback rotation. Feedback from various sources are submitted into productboard, and need to be assigned to the right owner.
 
-- Go to the **Feedback replies triage** section. This filters only issues to triage, that is those with where `Owners` is `Unassigned`, `Christina Forney` (as most feedback gets automatically assigned to her) or `Eric Brody-Moore` (Happiness widget feedback).
-- Steps for all insights:
+Note that there is currently a huge backlog of unsorted notes. You are only responsible with notes submitted during your rotation.
+
+- Go to [Unprocessed notes](https://sourcegraph.productboard.com/insights/notes/unprocessed/notes/21590532)
+- Steps **for all notes**:
   - Owner assignment: Unassign the Owner, assign whoever should own the insight (PM or EM). Note that in some cases, this happens automatically.
   - User assignment: Assign User as the Company or create a new user if it hasn’t been assigned by default.
   - Tags: Add any relevant team tags.
@@ -76,7 +78,7 @@ This is the third and last thing you need to do as the PM on feedback rotation. 
   - If there is no feedback in the item, it can be archived.
   - When you are complete with a note that isn’t getting “archived” – please mark it as “processed.”
 
-For SourcegraphWeb insights, there are additional routing rules:
+For SourcegraphWeb notes, there are additional routing rules:
 
 - Browser uninstalls: Assign to Joel Kwartler
 - Has contact email: Assign to Ryan Phillips (interested in contacting open source users for the Sourcegraph Cloud effort)
