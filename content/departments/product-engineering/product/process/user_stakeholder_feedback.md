@@ -36,6 +36,7 @@ The product team can access recordings using [Chorus AI](https://chorus.ai/). Yo
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
 - **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
+- **Pipeline:** Each time a product gap submission is added to salesforce, it is posted in #feedback, @-mentioning the PM of the relevant product area. This is powered by a [Zap](https://zapier.com/app/editor/145738791).
 
 Other resources (internal only) the CE team owns:
 
@@ -92,6 +93,13 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
 - **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
+- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/64689250). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack.
+
+#### Happiness widget
+
+- **Purpose:** Users can submit feedback from the `Feedback` button of the Sourcegraph UI.
+- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding happiness widget feedback.
+- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/113508746). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains specific keywords, the PM of the relevant area will be automatically @-mentioned on slack.
 
 #### Browser Extension Uninstall Feedback
 
