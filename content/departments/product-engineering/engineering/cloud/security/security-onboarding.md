@@ -40,7 +40,7 @@ We are an all-remote company and favor asynchronous communication, it is importa
 
 It's much easier to test and debug code locally. Follow the below guide to get Sourcegraph up and running!
 
-- [SG local Setup](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md) [_If you encounter any issues, ask for help in #dev-chat and then update the documentation to reflect the resolution (so the next engineer that we hire doesn’t run into the same problem)_]
+- [SG local Setup](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/setup/quickstart.md) [_If you encounter any issues, ask for help in #dev-chat and then update the documentation to reflect the resolution (so the next engineer that we hire doesn’t run into the same problem)_]
 
 ### Sourcegraph - Browser Search Engine
 

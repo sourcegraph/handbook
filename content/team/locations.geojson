@@ -1458,6 +1458,19 @@
           41.77950486590359
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michal Vrtiak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.60324662923813,
+          49.18813918271655
+        ]
+      }
     }
   ]
 }
