@@ -8,7 +8,7 @@ VMWare’s Workspace One is an Endpoint Management system that provides Tech Ops
 
 **What is Carbon Black?**
 
-VMWare’s Carbon Black is an antivirus software that we are deploying to Sourcegraph devices (laptops). Carbon Black monitors for malicious softwares and adware that may present security risks.
+VMWare’s Carbon Black is an antivirus software that we are deploying to Sourcegraph devices (laptops). Carbon Black monitors for malicious software and adware that may present security risks.
 
 **What you can do prior to Workspace One Enrollment**:
 
@@ -37,6 +37,23 @@ The Hub app will look for a certain set of applications on your computer and pus
 **How to Enroll in Workspace One for Linux device**
 
 The steps for enrolling your device in WS1 & CB are more manual. Please reach out to Tech Ops for more information.
+
+**Installing Workspace One and Carbon Black on a personal computer**
+You may enroll Workspace One and Carbon Black on as many devices as necessary to ensure our company and client data is protected, including personal devices as long as they are used only as a temporary measure.
+
+1. Go to [getwsone.com](https://getwsone.com/)
+1. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
+1. You should then be prompted for your Okta credentials.
+1. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
+1. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
+
+**Removing Workspace One and Carbon Black from a personal computer**
+
+In order to remove Workspace One and Carbon Black from your personal device, please reach out to the Tech Ops team. The Tech Ops team can initiate what’s called an “Enterprise Only Wipe” which will remove Workspace One and all associated profiles and applications (Carbon Black) from the machine.
+
+Workspace One and Carbon Black should never be removed from a Sourcegraph computer. If there is a circumstance where this needs would to occur please let #it-tech-ops know so that they are aware it is the owner who is performing the removal and for what reasons.
+
+When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from Carbon Black.
 
 ## Related
 
