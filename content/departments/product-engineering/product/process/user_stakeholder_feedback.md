@@ -35,7 +35,7 @@ The product team can access recordings using [Chorus AI](https://chorus.ai/). Yo
 ### CE feedback
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns raising customer or prospect feedback as [product gaps](surfacing_product_feedback). Product owns triaging those product gaps, and keeping CE updated about prioritisation decisions, if the items ends up on the roadmap.
+- **Owner:** CE owns raising customer or prospect feedback as [product gaps](surfacing_product_feedback.md). Product owns triaging those product gaps, and keeping CE updated about prioritisation decisions, if the items ends up on the roadmap.
 
 Other resources (internal only) the CE team owns:
 
