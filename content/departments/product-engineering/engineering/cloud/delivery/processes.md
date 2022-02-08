@@ -2,7 +2,7 @@
 
 ## Support
 
-Support for Delivery is in a state of transition. In in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
+In in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
 ### Requesting our support
 
