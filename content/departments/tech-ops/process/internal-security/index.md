@@ -8,7 +8,7 @@ As we attempt for SOC2 certification we are also acknowledging that we are more 
 
 - Setup up your computer with the appropriate [device standards](../internal-security/computer-standards.md)
 - Follow [password guidelines](../internal-security/passwords.md) for accessing/administering systems as well as for protecting your devices
-- Attend security trainings (in work)
+- Attend security training (in work)
 
 ## Security measures Tech Ops is taking:
 
