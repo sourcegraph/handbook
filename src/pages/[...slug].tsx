@@ -7,7 +7,7 @@ import React, { useEffect, useRef } from 'react'
 
 import { EditSection } from '../components/EditSection'
 import { TableOfContents } from '../components/TableOfContents'
-import useRouterReplace from '../hooks/routerReplace'
+// import useRouterReplace from '../hooks/routerReplace'
 import { getPageBySlugPath, loadAllPages, LoadedPage } from '../lib/api'
 import markdownToHtml from '../lib/markdownToHtml'
 import omitUndefinedFields from '../lib/omitUndefinedFields'
@@ -53,7 +53,7 @@ export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
     const tocReference = useRef<HTMLElement>(null)
     const router = useRouter()
-    const replace = useRouterReplace()
+    // const replace = useRouterReplace()
     useEffect(() => {
         const observer = new IntersectionObserver(
             entries => {
@@ -93,7 +93,7 @@ export default function Page({ page }: PageProps): JSX.Element {
         return () => observer.disconnect()
     })
 
-    useEffect(() => {
+    /* useEffect(() => {
         const handleSlashRouteChange = (): Promise<boolean> => {
             const newUrl = router.asPath.replace(/\/$/, '')
             return replace(newUrl, undefined, { shallow: true })
@@ -111,7 +111,7 @@ export default function Page({ page }: PageProps): JSX.Element {
         if (router.asPath.includes('#')) {
             handleAnchorRouteChange().catch(error => console.error(error))
         }
-    }, [replace, router.asPath])
+    }, [replace, router.asPath]) */
 
     if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
