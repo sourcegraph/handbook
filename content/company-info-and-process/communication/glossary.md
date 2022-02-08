@@ -66,15 +66,15 @@ Technical terms.
 | Expansion IARR                               | IARR from customers who we already had at the start of the period                                                                                                       |
 | Booking                                      | A customer committed to paying us money, a new customer signing a contract, a contract signed to expand the number of seats, etc.                                       |
 | AP                                           | Accounts Payable, i.e. our own bills we can pay right now                                                                                                               |
-| AR                                           | Accounts Receivable, [bills customers should pay to us](../../departments/finance/process/ar)                                                                           |
+| AR                                           | Accounts Receivable, [bills customers should pay to us](../../departments/finance/process/ar.md)                                                                        |
 | Cash, AR, AP, Accruals, and Deferred Revenue | Very specific terms defined [here](../../departments/finance#financial-planning-and-financial-statement-review)                                                         |
 | CLA                                          | Contributor license agreement, non-employees must sign this before contributing code                                                                                    |
 | UX                                           | User experience, the experience a user would have going through a flow for example                                                                                      |
 | UI                                           | User interface, how buttons look, the layout, etc.                                                                                                                      |
 | SaaS                                         | Software as a service                                                                                                                                                   |
-| PQL                                          | [Product Qualified lead](../../departments/bizops/process/product_led_growth)                                                                                           |
-| PLG                                          | [Product led growth](../../departments/bizops/process/product_led_growth)                                                                                               |
-| MQL                                          | [Marketing qualified lead](../../departments/bizops/process/product_led_growth)                                                                                         |
+| PQL                                          | [Product Qualified lead](../../departments/bizops/process/product_led_growth.md)                                                                                        |
+| PLG                                          | [Product led growth](../../departments/bizops/process/product_led_growth.md)                                                                                            |
+| MQL                                          | [Marketing qualified lead](../../departments/bizops/process/product_led_growth.md)                                                                                      |
 | SLA                                          | Service level agreement                                                                                                                                                 |
 
 # Role terms
