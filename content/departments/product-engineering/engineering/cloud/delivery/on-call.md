@@ -123,4 +123,4 @@ As the Outgoing Engineer On-Call, your responsibility to ensure the [Delivery On
 
 ### Take time off
 
-If you responded to an incident, consider taking a day off to recover and prevent burn-out. Sourcegraph has an [unlimited PTO policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/time-off#paid-time-off-for-rest).
+If you responded to an incident, consider taking a day off to recover and prevent burn-out. Sourcegraph has an [unlimited PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md#paid-time-off-for-rest).
