@@ -1,6 +1,6 @@
 # Product feedback rotation
 
-Sourcegraph has a number of [user & stakeholder feedback sources](user_stakeholder_feedback.md), each with an owner. The product team is responsible for replying and triaging feedback from some sources. To make sure this gets done, the PM team takes two-week long rotations.
+Sourcegraph has a number of [user & stakeholder feedback sources](user_stakeholder_feedback.md), each with an owner. Each product manager is ultimately responsible for feedback in their area. The product team is responsible as the first responder for replying and triaging feedback from some sources. To make sure this is taken core of, a PM is is assigned to a rotation every two week.
 
 If you are the PM on rotation, your are responsible for:
 
@@ -12,7 +12,7 @@ Other teams are responsible for bugs, support issues, product gaps. Read on to k
 
 ## Current rotation
 
-The current PM on rotation is TODO.
+The current PM on rotation is listed [here]().
 
 ## End of a rotation
 
