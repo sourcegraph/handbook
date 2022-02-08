@@ -91,7 +91,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 #### NPS Survey
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
+- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md#feedback-rotation) owns responding to or forwarding NPS feedback.
 
 #### Browser Extension Uninstall Feedback
 

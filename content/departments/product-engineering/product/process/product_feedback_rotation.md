@@ -1,6 +1,6 @@
 # Product feedback rotation
 
-Sourcegraph has a number of [user & stakeholder feedback sources](user_stakeholder_feedback.md), each with an owner. Each product manager is ultimately responsible for feedback in their area. The product team is responsible as the first responder for replying and triaging feedback from some sources. To make sure this gets done, a given PM is the dedicated PM on product feedabck rotation for rotations of two weeks.
+Sourcegraph collects user and stakeholder feedback from [several sources](user_stakeholder_feedback.md), each with an owner. Product managers are ultimately responsible for feedback in their areas. The product team as a whole is responsible as the first responder for replying and triaging feedback from some sources. To make sure this gets done, a given PM is the dedicated PM on product feedback rotation for rotations of two weeks.
 
 If you are the PM on rotation, your are responsible for:
 
@@ -12,7 +12,7 @@ Other teams are responsible for support issues (customer support) and product ga
 
 ## Current rotation
 
-The current PM on rotation is listed [here]().
+The current PM on rotation is listed [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#heading=h.z3gywz4ddkbk).
 
 ## End of a rotation
 
@@ -22,38 +22,43 @@ At the end of a rotation, the PM on rotation is responsible for handing off the 
 
 ### Triaging and answering the feedback channel
 
-When you're on support rotation, you will spend more time monitoring the #feedback channel, which is a good thing to stay on top of customer needs in general. There are two things you need to do in the feedback channel: answering some NPS submissions, and routing feedback submitted directly by teammates to the right team.
+When you're on support rotation, you are explicitly responsible for monitoring the #feedback channel. There are two things you need to do there:
+- answering some NPS submissions
+- routing feedback submitted directly by teammates to the right team
 
 There is a 24h SLA for this.
 
 #### NPS feedback submission and happyness widget
 
-The in-product NPS feedback widget and happyness feedback widget post directly to the feedback channel. They are powered by [Zapier](https://zapier.com/app/zaps/folder/828861).
+The in-product NPS feedback widget and happiness feedback widget post directly to the feedback channel. They are powered by [Zapier](https://zapier.com/app/zaps/folder/828861).
 
 As the PM on feedback on rotation, you need to review each submission and identify the right owner, then tag them. In a few cases, you need to reply yourself.
 
-- If the submission is customer feedback, tag the CE that owns the account, and the product manager that owns the relevant product area. The CE is the DRI for answering the customer, the PM for extracting insights from the feedback. PMs should sync with the CE account owner if they want to follow-up directly, which is easily done in slack ("Hey, @<ce-owner> can I follow-up directly here?").
-- If the submission is a support request, “I’m having trouble figuring something out”, start an email and cc `support@sourcegraph.com`, they will handle it from there. After you sent that email, reply to the slack message with an explicit message so that others know it's been dealth with (eg. "Forwarded to support").
-- Lastly, if it's feedback **not** from a customer (eg. a free tier self-hosted instance), you need to reply yourself if the user added their email, and **if there is a comment that calls for an answer** (not just an NPS rating with an empty message). When you reply, cc `feedback@sourcegraph.com` and bcc [your salesforce email](https://www.google.com/url?q=https://sourcegraph2020.lightning.force.com/lightning/settings/personal/EmailToSalesforceUserSetup/home&sa=D&source=docs&ust=1644257326395356&usg=AOvVaw0KQKoT-nlb8dZb8xk7iyPa) so that if the user replies all, we can all see that feedback. Also, it will automatically get sent to Productboard. There are someuseful email templates [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#).
+- **If the submission is customer feedback**, tag the CE that owns the account, and the product manager that owns the relevant product area. The CE is the DRI for answering the customer. PMs should sync with the CE account owner if they want to follow-up directly, which is easily done in slack ("Hey, @<ce-owner> can I follow-up directly here?").
+- **If the submission is a support request**, “I’m having trouble figuring something out”, start an email and cc `support@sourcegraph.com`, they will handle it from there. After you send that email, reply to the slack message explicitly so that others know it's been dealt with (eg. "Forwarded to support").
+- Lastly, if the submission is feedback **not** from a customer (eg. a free tier self-hosted instance), you need to reply yourself if the user added their email, and **if there is a comment that calls for an answer** (not just an NPS rating with an empty message). When you reply, cc `feedback@sourcegraph.com` and bcc [your salesforce email](https://www.google.com/url?q=https://sourcegraph2020.lightning.force.com/lightning/settings/personal/EmailToSalesforceUserSetup/home&sa=D&source=docs&ust=1644257326395356&usg=AOvVaw0KQKoT-nlb8dZb8xk7iyPa) so that if the user replies all, we can all see that feedback. Also, it will automatically get sent to Productboard. There are some useful email templates [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls).
 
-Note: We don't reply to feedback not from customers that do not have a comment (that are just an NPS rating). This is not because we don't care: we used to reply and investigate those in the past, but we hardly ever got an answer, and realized our time was better spent replying to users that provide actionable feedback.
+Note: We don't reply to feedback not from customers that do not have a comment (that are just an NPS rating). This is not because we don't care: we used to reply and investigate those in the past, but we hardly ever got an answer, and realized our time was better spent replying to users that provide actionable feedback and usually expect an answer.
 
 #### Triaging submissions from teammates
 
 Often, teammates will post feedback directly to the #feedback channel. As the PM on rotation, you should reply to those messages, tagging the PM responsible for this area, and if it's a customer, the CE on this account.
 
-If the person that sumitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_feedback.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be trracked as product gaps submissions.
+If the person that submitted the feedback item is a CE and the item looks like a [product gap](surfacing_product_feedback.md#what-is-a-product-gap), ask them to file a product gap instead as we want ARR-impacting items to be tracked as product gap submissions.
 
-You don't need to do anything for other items posted to #feedback. Product gap submissions in particular automatically tag the right PM.
+You don't need to do anything for other items posted to #feedback. In particular, product gap submissions are automatically posted to the #feedback channel, and automatically tag the right PM.
 
 ### Labelling GitHub issues with no team label
 
-Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/code-insights` so that they show up on the dashboard of the right team. External contributors cannot add labels, so the PM on feedback rotation has to label those issues. To keep the backlog clean, this means you may also have to add a team label to issues created by Sourcegraph teammates that forgot to do it. View it as an opportunity to peak into what other teams are doing!
+This is the third and last thing you need to do as the PM on feedback rotation. Have you ever submitted an issue to a GitHub repository, and never gotten an answer? This is very frustrating, adn we don't want that to happen at Sourcegraph.
 
-You can refer to the [product teams page](../team/product_teams.md) and to the more detailed (internal only, working document) [team areas of ownership](../../engineering/process/engineering_ownership.md). We plan to merge the product team areas of ownership into the handbook page when finalized.
+Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/batchers` so that they show up on the dashboard of the right team. Issues without labels tend to get lost. External contributors cannot add labels, so the PM on feedback rotation has to label those issues. To keep the backlog clean, this means you may also have to add a team label to issues created by Sourcegraph teammates that forgot to do it. View it as an opportunity to peak into what other teams are doing!
 
-- list of [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen)
-- [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F), the slack channel associated with the team is in the label description
+In practice:
+
+- Monitor the list of [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen)
+- If unsure about what team label to use, take a look at [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). The slack channel associated with the team is in the label description. You can refer to the [product teams page](../team/product_teams.md) and to the more detailed [engineering ownership](../../engineering/process/engineering_ownership.md).
+- If you really don't know what team to assign it to, take a shot at assigning to the closest team with a nice message, asking them to re-route it to a more relevant team if necessary. "Hey, this issue has no team label and this _seems_ like it's in your scope. Adding your team label, but feel free to re-route this to another team".
 
 All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
@@ -61,11 +66,11 @@ There is no SLA for this, just make sure that all issues are labelled at the end
 
 ### Triaging producboard feedback
 
-Feedback from various sources are submitted into productboard, and need to be assigned to the right owner. As the PM on feedback om rotation, your are responsible for this.
+This is the third and last thing you need to do as the PM on feedback rotation. Feedback from various sources are submitted into productboard, and need to be assigned to the right owner.
 
-- Go to the Feedback replies triage section. This filters by Owners being Unassigned, Christina Forney (as most feedback gets automatically assigned to her) or Eric Brody-Moore (Happiness widget feedback).
+- Go to the **Feedback replies triage** section. This filters by `Owners` being `Unassigned`, `Christina Forney` (as most feedback gets automatically assigned to her) or `Eric Brody-Moore` (Happiness widget feedback).
 - Steps for all insights:
-  - Owner assignment: Unassign the Owner, assign whoever should own the insight (PM or EM).
+  - Owner assignment: Unassign the Owner, assign whoever should own the insight (PM or EM). Note that in some cases, this happens automatically.
   - User assignment: Assign User as the Company or create a new user if it hasn’t been assigned by default.
   - Tags: Add any relevant team tags.
   - Features: Highlight content and assign any relevant features you find. When in doubt, leave it to the new Owner to triage (PM or EM).
