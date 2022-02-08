@@ -13,7 +13,7 @@ publish = "out"
   bundle = false
   minify = false
 [build.processing.html]
-  pretty_urls = false
+  pretty_urls = true
 [build.processing.images]
   compress = false
 

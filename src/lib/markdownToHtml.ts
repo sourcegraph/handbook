@@ -1,4 +1,3 @@
-import * as path from 'path'
 import * as url from 'url'
 
 import * as _rehypeSection from '@agentofuser/rehype-section'
@@ -120,23 +119,14 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         return
     }
 
-    // index.md files are rendered as the output for the *parent* folder.
-    // Therefor links within the index.md files need to be rewritten to be relative to the parent folder,
-    // instead of relative to the index.md file.
-    if (
-        parsedUrl.pathname &&
-        !parsedUrl.pathname?.startsWith('/') &&
-        isOnIndexPage &&
-        contextUrlPath !== '' &&
-        contextUrlPath !== '/'
-    ) {
-        const baseName = path.posix.basename(contextUrlPath)
-        parsedUrl.pathname = `./${baseName}/${parsedUrl.pathname}`
-    }
-
     // Rewrite index.md references to point to the directory
     if (parsedUrl.pathname?.match(/(^|\/)index\.md$/)) {
         parsedUrl.pathname = url.resolve(parsedUrl.pathname, '.') || '.'
+    }
+
+    // If the link is to an index with an anchor, navigate to the parent
+    if (parsedUrl.pathname === '.') {
+        parsedUrl.pathname = `../${parsedUrl.pathname}`
     }
 
     parsedUrl.pathname = parsedUrl.pathname
