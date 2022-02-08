@@ -1,14 +1,14 @@
 # Product feedback rotation
 
-Sourcegraph has a number of [user & stakeholder feedback sources](user_stakeholder_feedback.md), each with an owner. Each product manager is ultimately responsible for feedback in their area. The product team is responsible as the first responder for replying and triaging feedback from some sources. To make sure this is taken core of, a PM is is assigned to a rotation every two week.
+Sourcegraph has a number of [user & stakeholder feedback sources](user_stakeholder_feedback.md), each with an owner. Each product manager is ultimately responsible for feedback in their area. The product team is responsible as the first responder for replying and triaging feedback from some sources. To make sure this gets done, a given PM is the dedicated PM on product feedabck rotation for rotations of two weeks.
 
 If you are the PM on rotation, your are responsible for:
 
-- replying to relevant feedback channel items
-- labelling GitHub issues with no team label
-- triaging productboard feedback
+- [replying to relevant #feedback channel items](#triaging-and-answering-the-feedback-channel)
+- [labelling GitHub issues with no team label](#labelling-gitHub-issues-with-no-team-label)
+- [triaging productboard feedback](#triaging-producboard-feedback)
 
-Other teams are responsible for bugs, support issues, product gaps. Read on to know what you need to do!
+Other teams are responsible for support issues (customer support) and product gaps (CEs).
 
 ## Current rotation
 
