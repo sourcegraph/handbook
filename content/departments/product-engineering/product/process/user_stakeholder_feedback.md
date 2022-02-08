@@ -98,7 +98,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 #### Happiness widget
 
 - **Purpose:** Users can submit feedback from the `Feedback` button of the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding happiness widget feedback.
+- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding happiness widget feedback.
 - **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/113508746). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains specific keywords, the PM of the relevant area will be automatically @-mentioned on slack.
 
 #### Browser Extension Uninstall Feedback
