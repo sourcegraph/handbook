@@ -50,7 +50,7 @@ You don't need to do anything for other items posted to #feedback. In particular
 
 ### Labelling GitHub issues with no team label
 
-This is the third and last thing you need to do as the PM on feedback rotation. Have you ever submitted an issue to a GitHub repository, and never gotten an answer? This is very frustrating, adn we don't want that to happen at Sourcegraph.
+This is the second thing you need to do as the PM on feedback rotation. Have you ever submitted an issue to a GitHub repository, and never gotten an answer? This is very frustrating, adn we don't want that to happen at Sourcegraph.
 
 Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/batchers` so that they show up on the dashboard of the right team. Issues without labels tend to get lost. External contributors cannot add labels, so the PM on feedback rotation has to label those issues. To keep the backlog clean, this means you may also have to add a team label to issues created by Sourcegraph teammates that forgot to do it. View it as an opportunity to peak into what other teams are doing!
 
