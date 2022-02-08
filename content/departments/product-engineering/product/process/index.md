@@ -39,6 +39,8 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 
 ## Glossary
 
+There is also a [company-wide glossary of terms](../../../../company-info-and-process/communication/glossary.md) we use, the below are specific to the product team.
+
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
