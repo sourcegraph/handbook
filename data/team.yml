@@ -2606,3 +2606,14 @@ Samantha_Ulrich:
   location: Portland, OR, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/samantha-u-62218837/)'
   description: 'An Oregon Native, Sam loves to hike and explore her home state with her fiancé, one of their favorite things is finding hidden waterfalls. An avid reader, Sam has run her own book blog on Youtube and Instagram since 2014. She also has recently discovered a new passion in watercolor painting. Prior to Sourcegraph, Sam has spent time in the healthcare, structural engineering, and crpyto fields and looks forward to bringing her experience to her role at Sourecgraph!'
+
+michal_vrtiak:
+  name: Michal Vrtiak
+  email: michal.vrtiak@sourcegraph.com
+  github: vrto
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: director_engineering
+  location: Brno, South Moravia, Czech Republic 🇨🇿
+  links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
+  description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
