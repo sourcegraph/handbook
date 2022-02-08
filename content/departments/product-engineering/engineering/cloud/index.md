@@ -2,7 +2,7 @@
 
 ## Mission
 
-Our mission is to provide the fastest, most seamless way for development teams to bring Sourcegraph into their workflows, wherever they are.  We do this by optimizing the processes and tools at those initial touchpoints and bridging our value to our users needs. 
+Our mission is to provide the fastest, most seamless way for development teams to bring Sourcegraph into their workflows, wherever they are. We do this by optimizing the processes and tools at those initial touchpoints and bridging our value to our users needs.
 
 - “seamless way” → if Sourcegraph cloud is a method of deploying Sourcegraph, we’re solving the problem of “bringing Sourcegraph in,” not “making code search better.”
 - “development teams” → includes developers themselves, engineering managers, and the intersections with the rest of their org chart. Also steps away from the question of team scale, and encompasses all sizes of customer.
@@ -11,7 +11,7 @@ Our mission is to provide the fastest, most seamless way for development teams t
 ## Teams
 
 - [SaaS](./saas/index.md) is bringing our _Cloud for Teams_ product to market
-- [Security](./security/index.md) ensures _proactive Secuirty_ on our platform 
+- [Security](./security/index.md) ensures _proactive Secuirty_ on our platform
 - [Growth and Integrations](./growth-and-integrations/index.md) is bringing the value of Sourcegraph _closer to our users_
 - [DevOps](./devops/index.md) ensures world class _reliability and availability_ for our Cloud SaaS platform
   - [Delivery](./delivery) as part of DevOps brings Sourcegraph to our prospects and customers environments
@@ -23,4 +23,3 @@ Our mission is to provide the fastest, most seamless way for development teams t
 ##Contact
 
 #cloud-org channel in Slack
-
