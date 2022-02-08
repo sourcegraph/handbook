@@ -66,7 +66,7 @@ There is no SLA for this, just make sure that all issues are labelled at the end
 
 This is the third and last thing you need to do as the PM on feedback rotation. Feedback from various sources are submitted into productboard, and need to be assigned to the right owner.
 
-- Go to the **Feedback replies triage** section. This filters by `Owners` being `Unassigned`, `Christina Forney` (as most feedback gets automatically assigned to her) or `Eric Brody-Moore` (Happiness widget feedback).
+- Go to the **Feedback replies triage** section. This filters only issues to triage, that is those with where `Owners` is `Unassigned`, `Christina Forney` (as most feedback gets automatically assigned to her) or `Eric Brody-Moore` (Happiness widget feedback).
 - Steps for all insights:
   - Owner assignment: Unassign the Owner, assign whoever should own the insight (PM or EM). Note that in some cases, this happens automatically.
   - User assignment: Assign User as the Company or create a new user if it hasn’t been assigned by default.
