@@ -8,7 +8,7 @@ Slack is not a [source of truth](index.md#sources-of-truth) which means it shoul
 
 Exceptions:
 
-- #distributioneers retains messages indefinitely because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
+- #security-monitoring retains messages indefinitely for auditing purposes in our security monitoring tooling.
 - #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
 - #feedback retains messages indefinitely because it provides a good source of user testimonials.
 - #engaging-external-engineers retains indefinitely because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn't make sense to try to make this more organized.

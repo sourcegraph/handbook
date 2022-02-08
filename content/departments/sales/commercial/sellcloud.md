@@ -24,7 +24,7 @@ Sourcegraph launched the Cloud Beta in December. Since then hundreds of companie
 
 4. Next Steps:
 
-   - The beta program ends (usually at the end of month)
+   - Customers get at least 30 days to trial Cloud but no more than 60 days, the beta program ends at the end of the month following the month of their onboarding
    - Ask if they would like to continue using it past the end of the month
    - Make sure to find out if the customer has budget, signing authority or can involve someone with signing authority
    - Position the price: Make sure you manage the customer’s expectations from the beginning; this is a beta and all sorts of things could go wrong with reliability or usability of the Cloud product and that they may ‘upgrade’ to the self-hosted product as an option if the Cloud product is too troubled
