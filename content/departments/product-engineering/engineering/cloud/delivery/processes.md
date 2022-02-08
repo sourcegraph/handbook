@@ -50,6 +50,7 @@ We still work in 2 week cycles, and have the following ceremonies:
    - A review of what we did for learing purposes
 
 ### On-Call Rotation
+
 The Delivery team has a weekly on-call rotation where the Engineer On-Duty will respond to managed instance alerts, monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
 
 More information about the Delivery Team's On-Call Rotation can be found here](./on-call.md).
