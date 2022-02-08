@@ -52,15 +52,13 @@ You don't need to do anything for other items posted to #feedback. In particular
 
 This is the second thing you need to do as the PM on feedback rotation. Have you ever submitted an issue to a GitHub repository, and never gotten an answer? This is very frustrating, adn we don't want that to happen at Sourcegraph.
 
-Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/batchers` so that they show up on the dashboard of the right team. Issues without labels tend to get lost. External contributors cannot add labels, so the PM on feedback rotation has to label those issues. To keep the backlog clean, this means you may also have to add a team label to issues created by Sourcegraph teammates that forgot to do it. View it as an opportunity to peak into what other teams are doing!
+Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/batchers` so that they show up on the dashboard of the right team. All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage. Issues without labels tend to get lost. External contributors cannot add labels, so the PM on feedback rotation has to label those issues. To keep the backlog clean, this means you may also have to add a team label to issues created by Sourcegraph teammates that forgot to do it. View it as an opportunity to peak into what other teams are doing!
 
 In practice:
 
 - Monitor the list of [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen)
 - If unsure about what team label to use, take a look at [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). The slack channel associated with the team is in the label description. You can refer to the [product teams page](../team/product_teams.md) and to the more detailed [engineering ownership](../../engineering/process/engineering_ownership.md).
 - If you really don't know what team to assign it to, take a shot at assigning to the closest team with a nice message, asking them to re-route it to a more relevant team if necessary. "Hey, this issue has no team label and this _seems_ like it's in your scope. Adding your team label, but feel free to re-route this to another team".
-
-All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage.
 
 There is no SLA for this, just make sure that all issues are labelled at the end of your rotation.
 
