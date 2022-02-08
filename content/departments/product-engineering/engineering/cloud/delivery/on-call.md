@@ -13,7 +13,7 @@ The Delivery team aims to provide timely responses that are proportional to the 
 The Engineer On-Call (EOC) is responsible for a 24 hour x 7 period shift, guarenteeing responses during their
 working hours (generally 9am - 5pm in their timezone).
 
-The EOC is expected to provide an initial response within 30 minutes in response to an Incident where they are activated with an OpsGenie page. If the EOC is unavailable within the first 45 minutes of an OpsGenie page, the Secondary Engineer On-Call will be activated, where the expectation is to provide an initial response within an additional 45 minutes.
+The EOC is expected to provide an initial response within 45 minutes in response to an Incident where they are activated with an OpsGenie page. If the EOC is unavailable within the first 45 minutes of an OpsGenie page, the Secondary Engineer On-Call will be activated, where the expectation is to provide an initial response within an additional 45 minutes.
 
 ## Roles
 
