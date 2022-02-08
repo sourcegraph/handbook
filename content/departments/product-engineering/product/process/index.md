@@ -10,7 +10,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Surfacing feedaback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
-- [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
+- [Responding to user feedback](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
