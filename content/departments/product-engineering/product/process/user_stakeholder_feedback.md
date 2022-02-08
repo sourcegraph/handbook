@@ -67,7 +67,7 @@ We have a few different email lists that are used to send us feedback.
 ### GitHub issues
 
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](responding_to_user_feedback.md) is responsible for labelling with the right team.
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](product_feedback_rotation.md) is responsible for labelling with the right team.
 
 See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
@@ -79,7 +79,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
+- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](product_feedback_rotation.md) owns routing and logging this feedback.
 
 ### Support tickets
 
