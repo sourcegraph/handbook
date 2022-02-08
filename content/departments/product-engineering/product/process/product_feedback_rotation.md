@@ -23,6 +23,7 @@ At the end of a rotation, the PM on rotation is responsible for handing off the 
 ### Triaging and answering the feedback channel
 
 When you're on support rotation, you are explicitly responsible for monitoring the #feedback channel. There are two things you need to do there:
+
 - answering some NPS submissions
 - routing feedback submitted directly by teammates to the right team
 
