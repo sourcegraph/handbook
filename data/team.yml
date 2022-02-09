@@ -2617,3 +2617,29 @@ michal_vrtiak:
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
   description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
+
+ryan_scott:
+  name: Ryan Scott
+  email: ryan.scott@sourcegraph.com
+  github: ryankscott
+  pronouns: he/him
+  role: Product Manager
+  reports_to: product_director_cloud
+  location: Berlin, Germany 🇩🇪
+  links: '[LinkedIn](https://www.linkedin.com/in/ryankscott/)'
+  description: "Ryan lives in Berlin, Germany with his partner, far away from his home in Auckland, New Zealand. He was fascinated with computers and electronics from a young age, taking them apart and putting them back together (often missing a few screws) and eventually getting a Bachelors degree in Computer  sSystems Engineering. Outside of work you'll find Ryan brewing and drinking too much coffee, eating unhealthy food then trying to offset with the gym and travelling through the south of Europe to escape the cold in winter."
+
+felix_kling:
+  name: Felix Kling
+  role: Software Engineer
+  github: fkling
+
+sam_lottes:
+  name: Sam Lottes
+  role: Sales Development Representative
+  reports_to: head_sales_development
+  location: Minneapolis, MN 🔜 NYC 🇺🇸
+  github: SamLottes
+  email: sam.lottes@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/samuel-lottes/)'
+  description: Sam grew up in Madison, WI and currently resides in Minneapolis, MN. He's an avid reader and loves urbanism. He also desperately wants to own his own dog but is decidedly too irresponsible for such a commitment. At work, Sam loves making a lasting impact and has vowed to never give up the startup mentalities of grit and perseverance in the face of a challenge.
