@@ -65,11 +65,9 @@ There is no SLA for this, just make sure that all issues are labelled at the end
 
 ### Triaging producboard feedback
 
-This is the third and last thing you need to do as the PM on feedback rotation. Feedback from various sources are submitted into productboard, and need to be assigned to the right owner.
+This is the third and last thing you need to do as the PM on feedback rotation. Feedback from various sources are submitted into productboard, and need to be assigned to the right owner. Feedback items in productboard are called "noted". Some notes are auto-assigned using various automation. You need to take care of [unassigned notes](https://sourcegraph.productboard.com/insights/notes/unassigned), and make sure they get assigned to the right PM.
 
-Note that there is currently a huge backlog of unsorted notes. You are only responsible with notes submitted during your rotation.
-
-- Go to [Unprocessed notes](https://sourcegraph.productboard.com/insights/notes/unprocessed/notes/21590532)
+- Go to [Unassigned notes](https://sourcegraph.productboard.com/insights/notes/unassigned/)
 - Steps **for all notes**:
   - Owner assignment: Unassign the Owner, assign whoever should own the insight (PM or EM). Note that in some cases, this happens automatically.
   - User assignment: Assign User as the Company or create a new user if it hasn’t been assigned by default.
