@@ -14,7 +14,7 @@ Each quarter we set OKRs at the department level (all of product and engineering
 
 OKRs define what success looks like each quarter, taking into account where we are at as a company and what we think the next things we need to accomplish given the vision and strategy we have for the year.
 
-We don't do OKRs at lower levels (orgs, teams); instead we ask orgs and teams to focus on building out their roadmap (using strategy and OKRs as an input).
+We don't require OKRs at lower levels (orgs, teams) because the most important artifact is the roadmap (using strategy and department OKRs as an input). Orgs and/or teams may decide to set their OKRs if they find that helpful (but this doesn't replace having a roadmap).
 
 ### OKR tracking
 
