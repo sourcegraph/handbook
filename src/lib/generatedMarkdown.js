@@ -420,12 +420,10 @@ export async function generateGlossary() {
   let pageContent = ''
 
   for (const [sectionName, section] of Object.entries(glossarySections)) {
-    console.log(`processing section ${sectionName}`)
-    pageContent += `## ${sectionName.charAt(0).toUpperCase() + sectionName.slice(1)} terms\n\n`
+    pageContent += `## ${String(sectionName.charAt(0).toUpperCase() + sectionName.slice(1))} terms\n\n`
     pageContent += '|Term|Definition|\n|----|----------|\n'
     for (const entry of section) {
-      console.log(`processing ${entry.term}`)
-      pageContent += `|${entry.term}|${entry.definition}|\n`
+      pageContent += `|${String(entry.term)}|${String(entry.definition)}|\n`
     }
     pageContent += '\n'
   }
