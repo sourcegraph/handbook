@@ -157,6 +157,7 @@ In addition to the project brief, there are additional/specialized briefs used f
 - [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#)
 - [Demand gen brief](https://docs.google.com/document/d/1PxwYXBR-idAL3odrrg0t0XdTl09b1WjFsEpA0KmnLpY/edit)
 - [Content pillar brief](https://docs.google.com/document/d/1d_vX0BWcQ9XaQbPOa0eyLaOn3adi8BkEEGgDiqMGw9Q/edit)
+- [Content program proposal](https://docs.google.com/document/d/11PVd0JFdg5VBhi1qJaO36XKixAXu5c3swQX-E-ZZny8/edit?usp=sharing)
 
 ### Step 3: Kick the project off and begin planning
 
