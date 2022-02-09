@@ -309,12 +309,12 @@ adam_harvey:
 mark_muldez:
   name: Mark "Markie" Muldez
   pronouns: he/him
-  role: Sales Development
+  role: Commercial Account Executive
   reports_to: head_sales_development
-  location: Tampa, FL 🌴 🇺🇸
+  location: Tampa, FL 🇺🇸
   email: mark@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/lovemesomesushi/)'
-  description: "Mark has been working in sales for the past 8 years and he's held various roles such as SDR, AE, and Team Lead. Prior to Sourcegraph, Mark was the lead technical SDR for the west region at Imply.io, where he successfully built a strong and sustainable pipeline for the company. Mark is a Golden State Warriors fan, plays guitar, works out to earn the right to eat plates of sushi, and because he's in Florida, mosquitoes get really bad in the summer so the best way to avoid them is to hit up the beach. And oh btw, he thinks spicy mayo is life. 🙌🏽"
+  links: '[LinkedIn](https://www.linkedin.com/in/mjgmuldz/)'
+  description: "Mark has been working in sales for the past 8 years and he's held various roles such as SDR, AE, and Team Lead. Prior to Sourcegraph, Mark was an SDR (Sales Developement Rep) at Imply.io, where he successfully built a strong and sustainable pipeline for the company. Mark is a Golden State Warriors fan, plays guitar, and can eat endless plates of sushi. He's currently based in Florida, where mosquitoes get really bad in the summer so the best way to avoid them is to hit the beach . And oh btw, spicy mayo is his secret sauce."
 
 christine_lovett:
   name: Christine Lovett
@@ -1268,7 +1268,7 @@ nate_maynard:
 jenny_bergen:
   name: Jenny Bergen
   pronouns: she/her
-  role: Manager, Content Marketing
+  role: Senior Content Marketing Manager
   reports_to: director_content_strategy
   manager_role_slug: manager_content_marketing
   location: Denver, Colorado, USA 🇺🇸
@@ -1574,8 +1574,8 @@ david_rohnow:
 scott_bailey:
   name: Scott Bailey
   pronouns: he/him
-  role: Technical Content Marketing Manager
-  reports_to: manager_content_marketing
+  role: Technical Content Research Manager
+  reports_to: director_content_strategy
   location: Raleigh, NC, USA 🇺🇸
   github: csbailey5t
   email: scott.bailey@sourcegraph.com
@@ -1643,7 +1643,7 @@ nick_moore:
   name: Nick Moore
   pronouns: he/him/his
   role: Content Editor
-  reports_to: senior_managing_editor
+  reports_to: director_content_strategy
   location: Weymouth, Massachusettes, United States 🇺🇸
   github: nickmyyz
   email: nick.moore@sourcegraph.com
@@ -2617,3 +2617,19 @@ michal_vrtiak:
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
   description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
+
+ryan_scott:
+  name: Ryan Scott
+  email: ryan.scott@sourcegraph.com
+  github: ryankscott
+  pronouns: he/him
+  role: Product Manager
+  reports_to: product_director_cloud
+  location: Berlin, Germany 🇩🇪
+  links: '[LinkedIn](https://www.linkedin.com/in/ryankscott/)'
+  description: "Ryan lives in Berlin, Germany with his partner, far away from his home in Auckland, New Zealand. He was fascinated with computers and electronics from a young age, taking them apart and putting them back together (often missing a few screws) and eventually getting a Bachelors degree in Computer Systems Engineering. Outside of work you'll find Ryan brewing and drinking too much coffee, eating unhealthy food then trying to offset with the gym and travelling through the south of Europe to escape the cold in winter."
+
+felix_kling:
+  name: Felix Kling
+  role: Software Engineer
+  github: fkling
