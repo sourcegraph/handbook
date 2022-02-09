@@ -100,6 +100,7 @@ Different specs are required depending on your role, please see below for necess
 - If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
 
 ### Temporary laptop options
+
 If you have ordered your laptop but it is not expected to arrive by your start date please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations of what to do in the interium.
 
 ### Laptop upgrade
