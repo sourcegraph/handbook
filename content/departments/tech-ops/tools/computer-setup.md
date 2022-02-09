@@ -29,9 +29,9 @@ Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-mon
 
 Currently, we are experiencing extensive wait times to receive new laptops due to Apple logistics delays. If you are waiting for your Sourcegraph computer to arrive you can either:
 
-1. Use your personal device as a temporary measure
-1. Request a loaner laptop
-1. Rent a laptop from a local provider, #it-tech-ops can pay for this service
+1. Use your personal device as a temporary measure, as long as the minimum security measures can be instituted
+1. Request a loaner laptop - this is severly limited based on to location and availablity
+1. Rent a laptop from a local provider, #it-tech-ops can pay for this service - this is also limited by location and availability
 
 ## Use of personal devices
 
