@@ -8,6 +8,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
+- [Surfacing feedaback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
@@ -55,6 +56,20 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
+### Executive decisions
+
+There are some classes of questions that occasionally require an executive level in order to proceed, usually because they are part of a high level strategic decision or because they require making tradeoffs between different organizations or departments within the company. Some examples of these in the past which have gotten stuck are:
+
+- Pricing strategy
+- Upgrade strategy
+- Competitive strategy
+- Prioritization across org/department boundaries
+- Decisions when values conflict
+
+The goal is for these to be documented in the handbook in more detail so that decisions can be made without an escalation, but until then the procedure is for the team who needs clarity around any of these kinds of items to write a proposal with how they would like to proceed. This can be presented directly to the executive team member(s) who makes the decision, or if that is unknown or they are not responding in a timely manner, then Christina will either make the decision herself or find the responsible exec team member and ensure it is followed up on. Be sure it's clear when making this request that you're asking for active help.
+
+It's important to keep in mind that when multiple parties are involved to lean in with empathy: [escalate cleanly](../../../../company-info-and-process/communication/conflicts.md#clean-escalation) and ensure everyone understands each others views. You won't always come to an agreement because of different priorities/contexts, but you should always be able to come to a mutual understanding of the trade-offs that you can present together.
+
 ### Product Management & Marketing
 
 Product Management and Marketing must work closely together to successfully create and launch products. Because of this, it's important to be clear on what the shared and unique responsibilities are within the working relationship.
@@ -82,7 +97,7 @@ Since we have the same goal of launching products that drive adoption and revenu
 
 ### Feature roll-outs
 
-Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+Communications around feature roll-out are especially important, and are documented on [the rollout process](./rollout_process.md#communications) page.
 
 ### Talking to customers and stakeholders
 

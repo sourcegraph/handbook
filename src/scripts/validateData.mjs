@@ -17,10 +17,11 @@ const productTeams = await readYamlFile('data/product_teams.yml')
 const productOrgs = await readYamlFile('data/product_orgs.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
+const useCases = await readYamlFile('data/use_cases.yml')
 
 let errors = 0
 
-// iterate through features and make sure they point to valid product teams and maturities
+// iterate through features and make sure they point to valid use cases, product teams, and maturities
 for (const feature of Object.values(features)) {
     if (!Object.prototype.hasOwnProperty.call(maturityLevels, feature.maturity)) {
         console.log(`Feature contains unknown maturity level: ${JSON.stringify(feature)}`)
@@ -30,7 +31,22 @@ for (const feature of Object.values(features)) {
         console.log(`Feature contains unknown team: ${JSON.stringify(feature)}`)
         errors++
     }
-    // TODO also validate code hosts
+    if (feature.use_cases) {
+        for (const useCase of Object.values(feature.use_cases)) {
+            if (!Object.prototype.hasOwnProperty.call(useCases, useCase)) {
+                console.log(`Feature contains unknown use case: ${JSON.stringify(feature)}`)
+                errors++
+            }
+        }
+    }
+    if (feature.code_hosts) {
+        for (const codeHost of Object.values(feature.code_hosts)) {
+            if (!Object.prototype.hasOwnProperty.call(codeHosts, codeHost)) {
+                console.log(`Feature contains unknown code host: ${JSON.stringify(feature)}`)
+                errors++
+            }
+        }
+    }
 }
 
 // iterate through product teams and make sure they point to valid product orgs and team members
