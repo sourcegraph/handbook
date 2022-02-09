@@ -22,7 +22,7 @@ Near the end of each quarter, the product/engineering VPs and Directors will get
 
 - Before the retrospective we will
   - Solicit feedback from the broader product/engineering team
-  - Asyncronously write down thoughts on topics we may want to discuss during the retrospective. Prompts may include but aren't limited to:
+  - Asynchronously write down thoughts on topics we may want to discuss during the retrospective. Prompts may include but aren't limited to:
     - What went well (wins) for yourself and for your team?
     - Did we accomplish what we said we were going to accomplish?
     - What didn’t go well (struggles and challenges) for yourself and for your team?
