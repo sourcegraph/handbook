@@ -12,7 +12,7 @@ Other teams are responsible for support issues (customer support) and product ga
 
 ## Current rotation
 
-The current PM on rotation is listed [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#heading=h.z3gywz4ddkbk).
+The current PM on rotation is listed [here](https://docs.google.com/document/d/1TTRjK-CL38fdCvrVUgRL70agUiwDbQFJXCo8IuJmLls/edit#bookmark=id.cqrgoc1hvygc).
 
 ## End of a rotation
 
