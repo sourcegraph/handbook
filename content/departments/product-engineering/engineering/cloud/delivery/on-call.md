@@ -65,6 +65,8 @@ offload support duties in order to transition back into project work.
 This can be done in the OpsGenie interface by supplying your cellphone number or by downloading the OpsGenie app.
 The method you choose to be contacted is up to you as long as your response time follows the [Response Time guidelines](#response-times-and-slas)
 
+The Delivery Team OpsGenie Dashboard is: https://sourcegraph.app.opsgenie.com/teams/dashboard/9fac6e04-e826-4e3d-a1bb-1790e833bba5/main
+
 OpsGenie has documentation that describes [how to setup Notification Preferences](https://support.atlassian.com/opsgenie/docs/create-and-manage-notification-preferences/).
 
 ### Join Slack Channels
