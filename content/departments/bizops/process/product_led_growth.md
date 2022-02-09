@@ -92,13 +92,25 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>Page view (pricing)
+   <td>[Target account](https://handbook.sourcegraph.com/departments/sales#target-account) match
    </td>
    <td>5 points
    </td>
   </tr>
   <tr>
-   <td>Page view (any other than pricing)
+   <td>[Target title](https://docs.google.com/spreadsheets/d/1ClC3jjeiasLgJz_Vju_V6kAYXs68woe8MTi48Ihlb-E/edit#gid=1554501911) match
+   </td>
+   <td>5 points
+   </td>
+  </tr>
+  <tr>  
+    <td>Page view (pricing, use cases, case studies)
+   </td>
+   <td>5 points
+   </td>
+  </tr>
+  <tr>
+   <td>Page view (any other than pricing, use cases, case studies)
    </td>
    <td>1 point per view
    </td>
