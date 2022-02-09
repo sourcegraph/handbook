@@ -33,6 +33,8 @@ How Sourcegraph uses UTM parameters:
 - utm_source={STRING} Which property sent the traffic. E.g. Sourcegraph.com, VSCIDE, etc.
 - utm_content={STRING} A descriptor for the content used in the link
 
+This can all be a little daunting, and it's hard to know how to name your values for these parameters. The [UTM tracking spreadsheet](https://docs.google.com/spreadsheets/d/1U0HRC5WVz3tsP6z9pqDLG8igTMSf2-pQGhbRoVn_iu0/edit#gid=0) will help you create the link and allow review existing in-product links to use as a guide.
+
 UTM parameters work on the following websites:
 
 - docs.sourcegraph.com
