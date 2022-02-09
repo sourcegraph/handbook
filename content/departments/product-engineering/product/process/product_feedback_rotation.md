@@ -33,7 +33,7 @@ There is a 24h SLA for this on business days.
 
 The in-product NPS feedback widget and happiness feedback widget post directly to the feedback channel. They are powered by [Zapier](https://zapier.com/app/zaps/folder/828861).
 
-As the PM on feedback on rotation, you need to review each submission and identify the right owner, then tag them. In a few cases, you need to reply yourself.
+As the PM on feedback on rotation, you need to review submissions **that contain actionable feedback** and identify the right owner, then tag them. In a few cases, you need to reply yourself. This excludes submissions that only contain a NPS score or rating and no written feedback.
 
 - **If the submission is customer feedback**, tag the CE that owns the account, and the product manager that owns the relevant product area. The CE is the DRI for answering the customer. PMs should sync with the CE account owner if they want to follow-up directly, which is easily done in slack ("Hey, @<ce-owner> can I follow-up directly here?").
 - **If the submission is a support request**, “I’m having trouble figuring something out”, start an email and cc `support@sourcegraph.com`, they will handle it from there. After you send that email, reply to the slack message explicitly so that others know it's been dealt with (eg. "Forwarded to support").
