@@ -2,7 +2,9 @@
 
 ## FY2022 (current)
 
-Timeline: 2021-02-01 to 2022-01-31
+- Timeline: 2021-02-01 to 2022-01-31
+
+In FY22, we started the year off with the intent to have both annual and quarterly OKRs. Roughly halfway through the year, we determined annual OKRs weren't keeping pace with Sourcegraph's growth and scale. We reverted back to quarterly OKRs as they better aligned long-term strategy with short-term execution.
 
 - [FY22-Q4](2022_Q4.md)
 - [FY22-Q3](2022_q3.md)
