@@ -15,25 +15,9 @@ This page contains information that is relevant for how to do well at your job a
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Keeping strategy up to date
+## Product data
 
-Sourcegraph has a top-level [strategy page](../../../../strategy-goals/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
-
-#### OKR and roadmap tracking
-
-See the [Product & Engineering handbook on sharing progress](../../process/reporting-progress.md) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
-
-#### Per-team strategy pages
-
-We also use [per-team strategy pages](../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
-
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../../company-info-and-process/communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
-
-We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
-
-#### Product data
-
-The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).
+Teams should review and update the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/) monthly, in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).
 
 Part of the product data is a (internal-only) list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be manually reviewed and updated as feature capabilities evolve.
 
