@@ -3,8 +3,6 @@
 technical:
   - term: GQL
     definition: GraphQL (a type of API, sort of like HTTP or Rest APIs)
-  - term: GQL
-    definition: GraphQL (a type of API, sort of like HTTP or Rest APIs)
   - term: VSCE
     definition: VS Code Extension, referring to either the Sourcegraph integration extension for the VS Code IDE, or the Microsoft tool called 'vsce' used to publish extensions
   - term: Bext
