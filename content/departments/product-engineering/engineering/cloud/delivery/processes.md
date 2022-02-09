@@ -2,7 +2,7 @@
 
 ## Support
 
-In in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
+If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
 ### Requesting our support
 
