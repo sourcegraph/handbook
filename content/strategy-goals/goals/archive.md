@@ -5,6 +5,7 @@
 - In FY22, we started the year off with the intent to have both annual and quarterly OKRS. Roughly halfway through the year, we determined that annual OKRs weren't useful as the pace of change at Sourcegraph quickly rendered our annual OKRs worthless. We reverted back to ONLY quarterly OKRs to great effect.
 
 Timeline: 2021-02-01 to 2022-01-31
+
 - [FY22-Q4](2022_q4.md)
 - [FY22-Q3](2022_q3.md)
 - [FY22-Q2](2022_q2.md)
