@@ -92,13 +92,13 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>[Target account](https://handbook.sourcegraph.com/departments/sales#target-account) match
+   <td>Target account match  
    </td>
    <td>5 points
    </td>
   </tr>
   <tr>
-   <td>[Target title](https://docs.google.com/spreadsheets/d/1ClC3jjeiasLgJz_Vju_V6kAYXs68woe8MTi48Ihlb-E/edit#gid=1554501911) match
+   <td>Target title match
    </td>
    <td>5 points
    </td>
