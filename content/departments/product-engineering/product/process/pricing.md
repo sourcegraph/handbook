@@ -10,11 +10,18 @@ Our top-level strategy for pricing can be found on the [company strategy page](.
 
 ## Pricing tiers
 
-We have three pricing tiers, Free, Team, and Enterprise. Our Free tier allows users to try the product in a self-service way before they buy, and our Team and Enterprise tiers allow us to charge our users in a fair, understandable way once they see the value.
+We have two pricing tiers: Free and Enterprise. Our Free tier allows users to try the product in a self-service way before they buy, and our Enterprise tier allow us to charge our users in a fair, understandable way once they see the value.
 
 ## Add-on features
 
 We also sell add-on features that are at additional cost to the enterprise tier, such as Batch Changes. These are higher tier features that can be optionally added.
+
+## Sources of truth
+
+The sources of truth for pricing are:
+
+- The public [pricing page](https://about.sourcegraph.com/pricing/)
+- The private [enterprise pricing spreadsheet](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
 
 ## Philosophy
 

@@ -14,7 +14,7 @@ Note that more abstract notions of health such as general tech debt, subjective 
 
 <!-- Beyond imagining a future in the above section, talk more about why this future is important and why we are going after it. -->
 
-[Originating in Google](https://testing.googleblog.com/2017/04/code-health-googles-internal-code.html), Code Health is defined as “…how software was written that could influence the readability, maintainability, stability, or simplicity of code“, with the idea being that a developer’s quality of work, productivity, and happiness can be improved if the code they work with is healthy. While in most companies there are no dedicated developers working on code health as their job title, code health initiatives can improve the lives of engineers and their ability to write products with shorter iteration time, decreased development effort, greater stability, and improved performance, which all lead to business upside.
+[Originating in Google](https://testing.googleblog.com/2017/04/code-health-googles-internal-code.html), Code Health is defined as “…how software was written that could influence the readability, maintainability, stability, or simplicity of code,” with the idea being that a developer’s quality of work, productivity, and happiness can be improved if the code they work with is healthy. While in most companies there are no dedicated developers working on code health as their job title, code health initiatives can improve the lives of engineers and their ability to write products with shorter iteration time, decreased development effort, greater stability, and improved performance, which all lead to business upside.
 
 Tech debt is one component in code health that plays a big role in developer experience and productivity, and refers to the cost of refactoring or redesigning code tomorrow because of short-cuts taken today. [Stripe found](https://stripe.com/files/reports/the-developer-coefficient.pdf) that developers spend 33% of their time on tech debt; maintenance of legacy systems and tech debt being the number one cause for productivity loss. For a 50-person engineering team of $100k/year developers, that 33% respresents $1.65M/year. Beyond the monetary implications, organizations bogged down with it often suffer from low morale and churn.
 
@@ -46,10 +46,15 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Tie to higher retainment of engineers when they work in healthy code environments
 - Increased productivity, quicker builds
 
+## Features that enable this use case
+
+{{generator:use_case_feature_list.code_health}}
+
 ## Additional resources
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
 
+- [Marketing page for Code Health use case](https://about.sourcegraph.com/use-cases/#boost-code-health)
 - [Use case index](../index.md#use-cases)
 - [Productboard code health (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482293/detail)
 - [Code Health unpacked](https://diff.wikimedia.org/2017/10/11/mediawiki-code-health-group/)

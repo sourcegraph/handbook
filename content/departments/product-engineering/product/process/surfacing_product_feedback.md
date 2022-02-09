@@ -2,25 +2,34 @@
 
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../support/process/engaging-other-teams.md).
 
-CEs, application engineers (CS), Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback with the product team.
+CEs, application engineers (CS), Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
 
-We deeply value this feedback, so we make this process as frictionless for teammates as possible. Team members can submit a product gap to share any new feedback internally with the team.
+We deeply value this feedback, so we make this process as frictionless for teammates as possible. There are only two ways of posting feedback:
 
-## What IS a Product Gap?
+- any team member can post general feedback to the #feedback channel. It will be triaged by the PM on feedback rotation.
+- ARR-impacting feedback should be submitted and tracked as a product gap. This helps the product team drive important decisions. In particular, it's important that AEs and CEs submit feedback surfaced by customers or prospects as product gaps.
+
+Bugs can be directly submitted as a GitHub issue.
+
+## Product gaps
+
+### What is a Product gap?
 
 It is important to distinguish all customer feedback you receive from what would be considered a product gap. A product gap would be some feedback you collect from a prospect during your initial sales cycle, or from an existing customer, that could be within the expected scope of work for our Product and Engineering team. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated in to our roadmap. In contrast, a product gap is NOT a bug nor should it be a potential request that falls well outside the scope of Sourcegraph intended use and function.
 
-It is vitally important when created a product gap, and a submission record (to tie a gap to a customer), that we offer additional details like the true level of impact this gap has on a customer and what their current workaround may be, if any. This information arms our Product team with the critical detail that can determine if and when a request is accepted for work, so be sure to provide as much context as possible.
+It is vitally important when creating a product gap, and a submission record (to tie a gap to a customer), that we offer additional details like the true level of impact this gap has on a customer and what their current workaround may be, if any. This information arms our Product team with the critical detail that can determine if and when a request is accepted for work, so be sure to provide as much context as possible.
 
-## Create a Product Gap and a Submission in Salesforce
+### Create a Product gap and a Submission in Salesforce
 
-If you have gotten a specific feedback requests that a customer(s) would like to track the progress of you should log that feedback as a Product Gap in Salesforce. Doing so allows full transparency to CEs and Product Eng on how many customers are impacted by an issue and what teams are responsible.
+If you have gotten a specific feedback request that a customer(s) would like to track the progress of you should log that feedback as a Product Gap in Salesforce. Doing so allows full transparency to CEs and Product Eng on how many customers are impacted by an issue and what teams are responsible.
 
 To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity, whether it's a net new opp or a renewal. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. Be sure to include relevant information like what workarounds your customer must employ (if any), and the severity of what this issue blocks for them.
 
 View the [full list of product gap categories/subcategories](https://docs.google.com/spreadsheets/d/1lgfIJUGkGW0Cp6yJmOqpR-WcUaWj8LbEAg4jt6EH4oY/edit?usp=sharing) in Google Drive.
 
-## Product Gap Definitions
+New product gap submissions will be automatically posted to the #feedback channel, @-mentioning the PM responsible for the relevant product area. This automation relies on a [zap](https://zapier.com/app/editor/145738791), and the PM - area mapping is hard-coded there and should be modified when necessary.
+
+### Product Gap Definitions
 
 - **Open** - needs to be reviewed/looked at by Product
 - **In review** - is currently being reviewed by Product but has not been prioritized
@@ -30,15 +39,17 @@ View the [full list of product gap categories/subcategories](https://docs.google
 - **Backlog** - we know we want to do this, we just don't know when yet
 - **Won't do** - we're not going to do this
 
-## Creating GitHub Issues
+### Creating GitHub Issues
 
-Customer Engineers should no longer be creating GitHub Issues for their Customers. Instead, Product Eng will manage the process of extracting Product Gaps from Salesforce to add to GitHub.
+Customer Engineers should no longer be creating GitHub issues for feature requests from their Customers. Instead, Product Eng will manage the process of extracting Product Gaps from Salesforce to add to GitHub.
+
+Bugs can still be submitted as GitHub issues.
 
 Note: while this will currently be a manual process, we intend to automate the creation of GH issues upon creating of a new Product Gap in Salesforce.
 
-## What if the feedback is [a possible exception]?
+### What if the feedback is [a possible exception]?
 
-There are no exceptions to the above process! Please do post all product feedback in Salesforce – **this includes feedback that you feel might be: minor, not worth surfacing, too harsh, just a personal opinion, or from you rather than a customer**. All feedback helps us make Sourcegraph the best product possible.
+There are no exceptions to the above process! Please do post all ARR-impacting product feedback in Salesforce – **this includes feedback that you feel might be: minor, not worth surfacing, too harsh, just a personal opinion, or from you rather than a customer**. All feedback helps us make Sourcegraph the best product possible.
 
 ## If you are uncomfortable posting the feedback
 

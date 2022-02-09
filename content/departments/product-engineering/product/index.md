@@ -13,6 +13,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
+- [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/21) in GitHub
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
 - [How we track product and engineering progress](../process/reporting-progress.md)
@@ -39,20 +40,9 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Product team initiatives
 
-Occasionally the product team takes on special initiatives that are not strictly tied to product delivery. Those are tracked here.
+Occasionally the product team takes on special initiatives that are not strictly tied to product delivery. Those are tracked [here](https://github.com/sourcegraph/product-engineering-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22Product+Initiative%22).
 
-### Product management and Product design impact ladders
-
-To help guide people within the product organization on career growth we are creating a clearly defined impact ladder.
-
-- Owner: Christina
-- [Working Document](https://docs.google.com/document/d/1L-TnZjcYNjwTo2fqUF3DOfUvznbfwCAYvDYLBwwqJW8/edit?usp=sharing)
-
-### Document known product gaps and process
-
-There are various problems, feature areas, or initiatives related to Product (which sometimes touch on Engineering or other departments) without a clear owner: we need a list of those, what people should do in the meantime for each of them (if we are not actively working on solving them), a link to a ticket or other resource where the work is happening to fix it, and how to report or add one if someone thinks they have found a new ownership gap.
-
-- Owner: TBD
+To create a new one, go to the [new issue screen](https://github.com/sourcegraph/product-engineering-tracker/issues/new/choose) for the [product-engineering-tracker repo](https://github.com/sourcegraph/product-engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
 
 ## References
 
@@ -70,5 +60,5 @@ There are various problems, feature areas, or initiatives related to Product (wh
 - [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../../strategy-goals/strategy/working_with_use_cases.md)
+- [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
 - [Product team tools](tools/index.md)

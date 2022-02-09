@@ -4,12 +4,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Members
 
-- [Taylor Sperry](../../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../../product/roles/index.md#product-manager))
-- [Alicja Suska](../../../../../team/index.md#alicja-suska) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Patrick Dubroy](../../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Tom Ross](../../../../../team/index.md#tom-ross)
-  - [Valery Bugakov](../../../../../team/index.md#valery-bugakov)
-  - [Oleg Gromov](../../../../../team/index.md#oleg-gromov)
+{{generator:product_team.frontend_platform}}
 
 ## Our Strategy
 
@@ -93,7 +88,7 @@ The team makes use of [tracking issues](../../process/tracking_issues.md) for tr
 
 ### Code Insights
 
-We have several [Code Insights](https://docs.sourcegraph.com/code_insights) dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
+We have several Code Insights dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
 
 - [Frontend Platform: Migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTF9) tracks long-running code migrations (e.g., global CSS → CSS modules).
   - The insight title should contain the GitHub issue number (where applicable).

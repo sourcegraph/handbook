@@ -15,7 +15,7 @@ function createValidTeamAnchor(name) {
 }
 
 function createBioLink(name) {
-  const bioLinkUrlPrefix = '/company/team/index.md#'
+  const bioLinkUrlPrefix = '/team/index.md#'
   return `${bioLinkUrlPrefix}${String(createValidTeamAnchor(name))}`
 }
 
@@ -117,7 +117,7 @@ export async function generateFeatureCodeHostCompatibilities() {
     areaContent += '\n'
 
     for (const feature of Object.values(features)) {
-      if (feature.product_team === productTeamName) {
+      if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
         featureCount++
         if (feature.documentation_link) {
           areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
@@ -153,39 +153,71 @@ export async function generateCodeHostsList() {
   return pageContent
 }
 
+function getReports(teamMembers, role_slug, indent) {
+  let content = ''
+  for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
+    if (teamMember.reports_to === role_slug) {
+      const spaces = ' '.repeat(indent * 2)
+      content += `${spaces}- [${String(teamMember.name)}](/team/index.md#${String(
+        createValidTeamAnchor(teamMember.name)
+      )}), ${String(teamMember.role)}\n`
+      if (teamMember.manager_role_slug) {
+        const reportsIndent = (content += getReports(
+          teamMembers,
+          teamMember.manager_role_slug,
+          parseInt(indent, 10) + 1
+        ))
+      }
+    }
+  }
+  return content
+}
+
+export async function generateReportingStructure(starting_role) {
+  const teamMembers = await readYamlFile('data/team.yml')
+  let pageContent = ''
+  for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
+    if (teamMember.manager_role_slug === starting_role) {
+      pageContent += `- [${String(teamMember.name)}](/team/index.md#${String(
+        createValidTeamAnchor(teamMember.name)
+      )}), ${String(teamMember.role)}\n`
+    }
+  }
+  pageContent += getReports(teamMembers, starting_role, 1)
+  return pageContent
+}
+
 export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
-    if (!teamMember.hidden_on_team_page) {
-      pageContent += `\n### ${String(teamMember.name)}\n`
-      if (teamMember.role) {
-        pageContent += `${String(teamMember.role)}`
-        if (teamMember.location) {
-          pageContent += ` (${String(teamMember.location)})`
-        }
-        pageContent += '\n\n'
-      } else if (teamMember.location) {
-        pageContent += ` (${String(teamMember.location)})\n\n`
+    pageContent += `\n### ${String(teamMember.name)}\n`
+    if (teamMember.role) {
+      pageContent += `${String(teamMember.role)}`
+      if (teamMember.location) {
+        pageContent += ` (${String(teamMember.location)})`
       }
-      if (teamMember.description) {
-        pageContent += `${String(teamMember.description)}\n`
-      }
-      if (teamMember.email) {
-        pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
-      }
-      if (teamMember.github) {
-        pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
-      }
-      if (teamMember.pronouns) {
-        pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
-      }
-      if (teamMember.pronunciation) {
-        pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
-      }
-      if (teamMember.links) {
-        pageContent += `- Other links: ${String(teamMember.links)}\n`
-      }
+      pageContent += '\n\n'
+    } else if (teamMember.location) {
+      pageContent += ` (${String(teamMember.location)})\n\n`
+    }
+    if (teamMember.description) {
+      pageContent += `${String(teamMember.description)}\n`
+    }
+    if (teamMember.email) {
+      pageContent += `- Email: [${String(teamMember.email)}](mailto:${String(teamMember.email)})\n`
+    }
+    if (teamMember.github) {
+      pageContent += `- GitHub: [${String(teamMember.github)}](https://github.com/${String(teamMember.github)})\n`
+    }
+    if (teamMember.pronouns) {
+      pageContent += `- Pronouns: ${String(teamMember.pronouns)}\n`
+    }
+    if (teamMember.pronunciation) {
+      pageContent += `- Pronunciation: ${String(teamMember.pronunciation)}\n`
+    }
+    if (teamMember.links) {
+      pageContent += `- Other links: ${String(teamMember.links)}\n`
     }
   }
   return pageContent
@@ -255,56 +287,129 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
-function getReports(teamMembers, role_slug, indent) {
-  let content = ''
-  for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
-    if (teamMember.reports_to === role_slug) {
-      const spaces = ' '.repeat(indent * 2)
-      content += `${spaces}- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
-        createValidTeamAnchor(teamMember.name)
-      )}), ${String(teamMember.role)}\n`
-      if (teamMember.manager_role_slug) {
-        const reportsIndent = (content += getReports(
-          teamMembers,
-          teamMember.manager_role_slug,
-          parseInt(indent, 10) + 1
-        ))
+export async function generateProductTeamUseCaseList(product_team) {
+  const features = await readYamlFile('data/features.yml')
+  const useCases = await readYamlFile('data/use_cases.yml')
+  let pageContent = ''
+  let useCaseCount = 0
+  for (const [useCaseName, useCase] of Object.entries(useCases)) {
+    let useCaseContent = `### [${String(useCase.title)}](${String(useCase.link)})\n\n`
+    let featureCount = 0
+    for (const feature of Object.values(features)) {
+      if (feature.product_team === product_team) {
+        if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
+          if (feature.use_cases) {
+            if (feature.use_cases.includes(useCaseName)) {
+              useCaseCount++
+              featureCount++
+              if (feature.documentation_link) {
+                useCaseContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+              } else {
+                useCaseContent += `- ${String(feature.title)}\n`
+              }
+            }
+          }
+        }
+      }
+    }
+    if (featureCount > 0) {
+      pageContent += useCaseContent
+    }
+  }
+  if (useCaseCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
+export async function generateUseCaseFeatureList(use_case) {
+  const features = await readYamlFile('data/features.yml')
+  let pageContent = ''
+  let featureCount = 0
+  for (const feature of Object.values(features)) {
+    if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
+      if (feature.use_cases) {
+        if (feature.use_cases.includes(use_case)) {
+          featureCount++
+          if (feature.documentation_link) {
+            pageContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+          } else {
+            pageContent += `- ${String(feature.title)}\n`
+          }
+        }
       }
     }
   }
-  return content
+  if (featureCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
 }
 
-export async function generateReportingStructure(starting_role) {
+/**
+ * Used in cases where a team in comprised of individuals who report to different
+ * people, but work on the same thing.
+ */
+
+export async function generateTeamOrgChart(team) {
+  const productTeams = await readYamlFile('data/product_teams.yml')
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
-  for (const [teamMemberName, teamMember] of Object.entries(teamMembers)) {
-    if (teamMember.manager_role_slug === starting_role) {
-      pageContent += `- [${String(teamMember.name)}](../../../../company/team/index.md#${String(
-        createValidTeamAnchor(teamMember.name)
-      )}), ${String(teamMember.role)}\n`
-    }
+  const productTeam = productTeams[team]
+  if (productTeam.pm) {
+    const bioLink = createBioLink(teamMembers[productTeam.pm].name)
+    pageContent += `- [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)}), Product Manager\n`
   }
-  pageContent += getReports(teamMembers, starting_role, 1)
+  if (productTeam.em) {
+    const bioLink = createBioLink(teamMembers[productTeam.em].name)
+    pageContent += await generateReportingStructure(teamMembers[productTeam.em].manager_role_slug)
+  }
+  if (productTeam.design) {
+    const bioLink = createBioLink(teamMembers[productTeam.design].name)
+    pageContent += `- [${String(teamMembers[productTeam.design].name)}](${String(bioLink)}), Product Designer\n`
+  }
+  if (productTeam.pmm) {
+    const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
+    pageContent += `- [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)}), Product Marketing Manager\n`
+  }
   return pageContent
 }
 
 export async function generateEngineeringOwnershipTable() {
-  const entries = await readYamlFile('data/engineering_ownership.yml')
-  let pageContent = ''
-  const addRow = colData => {
-    pageContent += `| ${String(colData.join(' | '))} |\n`
-  }
-
-  const columnNames = Object.keys(entries[0] || {})
-  addRow(columnNames)
-
-  const splitters = columnNames.map(() => '---')
-  addRow(splitters)
-
-  for (const entry of entries) {
-    const colData = columnNames.map(name => entry[name])
-    addRow(colData)
+  const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
+  const productTeams = await readYamlFile('data/product_teams.yml')
+  const productOrgs = await readYamlFile('data/product_orgs.yml')
+  let pageContent =
+    '|Category|Thing|Type|Org|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
+  pageContent += '|---|---|---|---|---|---|---|---|---|---|\n'
+  for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
+    pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
+    if (productOrgs[thing.product_org]) {
+      if (productOrgs[thing.product_org]) {
+        pageContent += `|[${String(productOrgs[thing.product_org].title)}](${String(
+          productOrgs[thing.product_org].strategy_link
+        )})`
+      } else {
+        pageContent += `|${String(productOrgs[thing.product_org].title)}`
+      }
+    } else {
+      pageContent += '|'
+    }
+    if (productTeams[thing.product_team]) {
+      if (productTeams[thing.product_team].strategy_link) {
+        pageContent += `|[${String(productTeams[thing.product_team].title)}](${String(
+          productTeams[thing.product_team].strategy_link
+        )})`
+      } else {
+        pageContent += `|${String(productTeams[thing.product_team].title)}`
+      }
+    } else {
+      pageContent += '|'
+    }
+    pageContent += `|${String(thing.domain_experts || '')}|${String(thing.slack_channels || '')}`
+    pageContent += `|${String(thing.ownership_model || '')}|${String(thing.health || '')}`
+    pageContent += `|${String(thing.product_lifecycle || '')}`
+    pageContent += '|\n'
   }
 
   return pageContent

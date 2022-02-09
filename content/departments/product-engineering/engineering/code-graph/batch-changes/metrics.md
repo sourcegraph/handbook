@@ -2,7 +2,11 @@
 
 We track and report anonymous, non-specific, aggregate metrics from Sourcegraph instances as defined in [pings](https://docs.sourcegraph.com/admin/pings).
 
-## Key success metrics
+## Revenue
+
+We track revenue associated with add-on features in this (private) [dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UPZEA2/view).
+
+## Key usage metrics
 
 We track success metrics in a (private) [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/174).
 
@@ -10,9 +14,14 @@ We track success metrics in a (private) [Looker dashboard](https://sourcegraph.l
 | -------------------------------------------------- | ---------------------------------------------------------------------- |
 | Are developers using Batch Changes?                | number of batch changes created, number of changesets published        |
 | Are batch changes successful?                      | merge rate of batch changes (changesets merged / changesets published) |
-| Is Batch Changes being adopted [broadly](#Vision)? | number of monthly contributors and MAUs                                |
+| Is Batch Changes being adopted [broadly](#Vision)? | number of monthly MAUs and monthly visitors                            |
 
 ## Definitions
 
-- **Batch Changes MAU:** A visitor who triggers any event happening on a Sourcegraph Batch Changes property in a given month. In practice, we do not track CLI events, so this effectively only includes events in the GUI, or uploading a spec.
-- **Batch Changes monthly contributor:** A user that has taken an action to create or manage a batch change in a given month. In practice, a user that has previewed, or applied or closed a batch change in a given month. New actions that are added in the future, such as [comment, merge, publish](https://sourcegraph.productboard.com/roadmap/2263724-batch-changes-releases/features/6775792/portal) will be added.
+- **Batch Changes visitors:** A visitor who triggers any event happening on a Sourcegraph Batch Changes property in a given month. In practice, we do not track CLI events, so this effectively only includes events in the GUI, or uploading a spec.
+- **Batch Changes MAU:** A user that has taken an action to create or manage a batch change in a given month. In practice, a user that has previewed, or applied or closed a batch change in a given month. New actions that are added in the future, such as [comment, merge, publish](https://sourcegraph.productboard.com/roadmap/2263724-batch-changes-releases/features/6775792/portal) will be added.
+- **Active Batch Changes customer**: A customer is considered as actively using Batch Changes if either:
+  - they have created more than 5 batch changes in the last 90 days
+  - or, they merged 100 changesets opened by Batch Changes in the last 90 days
+
+_Technical note: what is called a MAU here is called a "monthly_contributor" in the pings and what is called a monthly viewer here is called an MAU in the pings._

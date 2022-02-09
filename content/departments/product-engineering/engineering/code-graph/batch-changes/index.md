@@ -54,13 +54,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../../../../team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../../../team/index.md#chris-pine) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Adam Harvey](../../../../../team/index.md#adam-harvey)
-  - [Erik Seliger](../../../../../team/index.md#erik-seliger)
-  - [Kelli Rockwell](../../../../../team/index.md#kelli-rockwell)
-  - [Adeola Akinsiku](../../../../../team/index.md#adeola-akinsiku)
+{{generator:product_team.batch_changes}}
 
 ## Growth plan
 
@@ -86,6 +80,7 @@ This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either
 - Update PR templates across many repositories.
 - Standardize versions of tools across many repositories by updating .tool-versions files. [Search](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph+file:%5E%5C.tool-versions+shfmt&patternType=literal&case=yes) (private)
 - Update CI configuration across several repositories. [Blog post](https://unknwon.io/posts/211110_sourcegraph_batch_changes/)
+- Update CI to use system python ([spec](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/use-system-python-in-ci?tab=spec&visible=2))
 - Tracking release changesets.
 
 ## Related links
