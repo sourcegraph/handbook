@@ -80,7 +80,7 @@ Note that there is currently a huge backlog of unsorted notes. You are only resp
 
 For SourcegraphWeb notes, there are additional routing rules:
 
-- Browser uninstalls: Assign to Joel Kwartler
+- Browser uninstalls: Assign to Ryan Scott
 - Has contact email: Assign to Ryan Phillips (interested in contacting open source users for the Sourcegraph Cloud effort)
 - Has feedback but no contact email: Tag any relevant feedback and assign PM/EM owner. If the feedback is generic and has no clear owner, process it yourself.
 - No feedback: Archive
