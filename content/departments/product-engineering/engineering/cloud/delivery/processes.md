@@ -8,7 +8,7 @@ In in doubt about the process, please ask in [#delivery](https://sourcegraph.sla
 
 Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack.
 
-- This channel _is_ regularly checked and well monitored
+- This channel _is_ regularly checked and well-monitored
 - So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
 - Instead, if it’s urgent, please @ either the PM or the EM in the question in the channel and we'll ensure it gets the best response
 
@@ -50,7 +50,6 @@ We still work in 2 week cycles, and have the following ceremonies:
    - A review of what we did for learing purposes
 
 ### On-Call Rotation
-
 The Delivery team has a weekly on-call rotation where the Engineer On-Duty will respond to managed instance alerts, monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
 
 More information about the Delivery Team's On-Call Rotation can be found here](./on-call.md).
