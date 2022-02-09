@@ -84,7 +84,12 @@ We use this [calculator](https://neilpatel.com/ab-testing-calculator/) to evalua
 
 ### Cleanup
 
-You should book some time for cleaning up after the A/B test. That can be either [removing the flag](https://docs.sourcegraph.com/dev/how-to/use_feature_flags#disable-or-delete-the-feature-flag) and rolling out the changes, or removing the changes altogether. You can create a ticket for this when defining the test if useful.
+Book some time for cleaning up after the A/B test. It's best to create a ticket for cleanup when starting the test. In particular:
+
+- **Remove the feature flag:**
+  - In case of a _successful_ experiment, [remove the flag](https://docs.sourcegraph.com/dev/how-to/use_feature_flags#disable-or-delete-the-feature-flag) and roll out the changes.
+  - In case of a _failed_ experiment, remove both the changes and the feature flag.
+- **Remove data from pings:** if the experiment used data in pings, and it failed, remove the data. We are [very selective](https://docs.sourcegraph.com/dev/background-information/adding_ping_data#ping-philosophy) on what to include in our pings. Remove any data from pings that is not needed anymore.
 
 ## Resources
 

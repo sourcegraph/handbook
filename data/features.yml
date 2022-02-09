@@ -5,6 +5,12 @@ literal_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -24,6 +30,12 @@ regexp_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -43,6 +55,12 @@ structural_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -62,6 +80,12 @@ diff_commit_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -81,6 +105,10 @@ code_monitoring:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -100,6 +128,10 @@ code_monitoring_email_notifications:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -118,12 +150,18 @@ code_monitoring_webhooks:
   title: Code Monitoring Webhooks
   product_team: search_product
   maturity: not_implemented
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
 
 saved_searches:
   title: Saved Searches
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
+  use_cases:
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -143,6 +181,8 @@ search_contexts:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
+  use_cases:
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -162,6 +202,11 @@ search_based_code_intelligence:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -181,6 +226,11 @@ precise_code_intelligence_go:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -200,6 +250,11 @@ precise_code_intelligence_jsts:
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -219,6 +274,11 @@ precise_code_intelligence_java_scala_kotlin:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -238,6 +298,11 @@ precise_code_intelligence_c_cpp:
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -272,6 +337,8 @@ batch_changes:
   product_team: batch_changes
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/batch_changes
+  use_cases:
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -297,6 +364,12 @@ code_insights:
   product_team: code_insights
   maturity: beta
   documentation_link: https://docs.sourcegraph.com/
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -355,7 +428,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: repo_management
+  product_team: cloud_saas
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   compatibility:
@@ -374,7 +447,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: repo_management
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   compatibility:
