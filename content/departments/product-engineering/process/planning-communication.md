@@ -78,3 +78,18 @@ Guidelines:
 ## Monthly PMM roadmap update
 
 In addition to the monthly team update, each PM should update the [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) for their features at the same time. This deck contains a manually updated copy of the current plan, plus recently launched important customer-facing features from the OKR and roadmap tracker. In the future we may transition updating this to PMM, but for now its important product managers are involved in ensuring it is up to date and correct.
+
+## Quarterly department retrospective
+
+Near the end of each quarter, the product/engineering VPs and Directors will get together for a retrospective. The purpose of this retrospective is to create a shared safe space for celebrating wins, learning, and improvement.
+
+- Before the retrospective we will
+  - Solicit feedback from the broader product/engineering team
+  - Asynchronously write down thoughts on topics we may want to discuss during the retrospective. Prompts may include but aren't limited to:
+    - What went well (wins) for yourself and for your team?
+    - Did we accomplish what we said we were going to accomplish?
+    - What didn’t go well (struggles and challenges) for yourself and for your team?
+    - What did you and/or your team learn?
+    - What should we start/stop/continue?
+- During the retrospective we will vote on what topics we want to discuss and then discuss those topics.
+- After the retrospective, we will share notes and action items in a public channel for transparency.
