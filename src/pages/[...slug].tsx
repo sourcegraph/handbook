@@ -95,7 +95,9 @@ export default function Page({ page }: PageProps): JSX.Element {
         return <ErrorPage statusCode={404} />
     }
 
-    const slugParts = page.slugPath.split('/').filter(Boolean)
+    const slugParts = page.slugPath.split('/')
+        .filter(Boolean)
+        .map(part => part.includes('_') ? part.replace('_', '-') : part)
 
     return (
         <>
