@@ -24,7 +24,7 @@ This is designed to ensure that an initial response is produced within 20 minute
 
 ### Support Responses
 
-The Delivery team aims to facilitate and uphold the [SLAs maintained by the Customer Support team](https://handbook.sourcegraph.com/departments/support#slas). The Delivery team will triage and provide an initial response within 24 hours of receiving a support request or request for help.
+The Delivery team aims to facilitate and uphold the [SLAs maintained by the Customer Support team](../../../../support/index.md#slas). The Delivery team will triage and provide an initial response within 24 hours of receiving a support request or request for help.
 
 ## Roles
 
@@ -83,7 +83,7 @@ The following Slack channels should be monitored during your shift. There is no 
 | [#incidents](https://sourcegraph.slack.com/archives/C027D0VLZDM)                | Company-wide incident feed.                                                                                     | Incidents that may affect on-prem/managed instance deployments.                                                                                                                                                                                                                                                                                 |
 | [#prod-eng-announcements](https://sourcegraph.slack.com/archives/C0EPTDE9L)     | Product Engineering Announcements.                                                                              | Monitor for release-related items or larger feature roll-outs that may affect on-prem / managed instance deployments.                                                                                                                                                                                                                           |
 | [#ask-prod-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W)             | Company-wide forum to discuss Product Engineering topics.                                                       | Generally questions are tagged with "[Delivery]"                                                                                                                                                                                                                                                                                                |
-| [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ)           | Information about BuildKite CI.                                                                                 | The [build checker](https://handbook.sourcegraph.com/departments/product-engineering/engineering/process/incidents/playbooks/ci#buildchecker-has-locked-the-main-branch) will occasionally lock the main branch when the main build fails to build. When serving as a release captain it may be helpful to know the current state of the build. |
+| [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ)           | Information about BuildKite CI.                                                                                 | The [build checker](../../process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch) will occasionally lock the main branch when the main build fails to build. When serving as a release captain it may be helpful to know the current state of the build. |
 
 #### The `@delivery-support` Slack handle
 
