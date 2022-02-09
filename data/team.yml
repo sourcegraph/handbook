@@ -2643,3 +2643,13 @@ sam_lottes:
   email: sam.lottes@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/samuel-lottes/)'
   description: Sam grew up in Madison, WI and currently resides in Minneapolis, MN. He's an avid reader and loves urbanism. He also desperately wants to own his own dog but is decidedly too irresponsible for such a commitment. At work, Sam loves making a lasting impact and has vowed to never give up the startup mentalities of grit and perseverance in the face of a challenge.
+
+andrew_kim:
+  name: Andrew Kim
+  role: Sales Development Representative
+  reports_to: head_sales_development
+  location: Seattle 🇺🇸
+  github: ackim507
+  email: andrew.kim@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/andrew-kim-0096b492/)'
+  description: Andrew grew up in Seattle, WA. His favorite memories include singing with his acapella group for the Obama at the whitehouse when attending Boston University. He will remain a diehard seahawks fan and continue to grow his passions in music production, DJing, and cooking. He aspires to continue his career growth in sales and is always eager to learn new things from his peers, family, and friends. 
