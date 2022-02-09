@@ -18,7 +18,7 @@ After 10 minutes, the Secondary Engineer On-Call (SEOC) is paged and expected to
 
 This is designed to ensure that an initial response is produced within 20 minutes of the page.
 
-> Note: ⚠️ An OpGenie page is considered an emergency. It may wake up the EOC in the middle of the night. It's expected to be used with the utmost discretion.
+> Note: ⚠️ An OpsGenie page is considered an emergency. It may wake up the EOC in the middle of the night. It's expected to be used with the utmost discretion.
 
 ### Support Responses
 The Delivery team aims to facilitate and uphold the [SLAs maintained by the Customer Support team](https://handbook.sourcegraph.com/departments/support#slas). The Delivery team will triage and provide an initial response within 24 hours of receiving a support request or request for help.
