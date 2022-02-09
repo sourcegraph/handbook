@@ -21,7 +21,7 @@ Reference:
 [How to](process/index.md):
 
 - [Headcount planning](process/headcount-planning.md)
-- [Planning](process/planning.md)
+- [Planning](process/planning-process.md)
 - [Reporting progress](process/reporting-progress.md)
 - [Submitting a bug report](process/submitting-a-bug-report.md)
 

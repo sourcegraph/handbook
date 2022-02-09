@@ -1,4 +1,4 @@
-# Product/Engineering planning communication
+# Product/Engineering planning process
 
 This page documents how we communicate our plans and progress.
 
