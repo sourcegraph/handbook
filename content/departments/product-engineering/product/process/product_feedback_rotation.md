@@ -27,7 +27,7 @@ When you're on support rotation, you are explicitly responsible for monitoring t
 - answering some NPS submissions
 - routing feedback submitted directly by teammates to the right team
 
-There is a 24h SLA for this.
+There is a 24h SLA for this on business days.
 
 #### NPS feedback submission and happyness widget
 
