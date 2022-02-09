@@ -18,7 +18,7 @@ Often we need to understand how our designs perform when they send traffic to So
 Examples of scenarios you may need to track:
 
 - Sign-up links from an IDE extension to Sourcegraph.com
-- Links from Sourcegraph.com to about.sourcegraph.com
+- Links from Sourcegraph.com to a lead generation form on about.sourcegraph.com
 - Links from Server to Sourcegraph.com
 
 Examples of events you cannot track with UTM parameters:
