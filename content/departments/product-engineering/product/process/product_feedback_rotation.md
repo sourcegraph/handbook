@@ -5,7 +5,7 @@ Sourcegraph collects user and stakeholder feedback from [several sources](user_s
 If you are the PM on rotation, your are responsible for:
 
 - [replying to relevant #feedback channel items](#triaging-and-answering-the-feedback-channel)
-- [labelling GitHub issues with no team label](#labelling-gitHub-issues-with-no-team-label)
+- [labelling GitHub issues with no team label](#labelling-github-issues-with-no-team-label)
 - [triaging productboard feedback](#triaging-producboard-feedback)
 
 Other teams are responsible for support issues (customer support) and product gaps (CEs).
