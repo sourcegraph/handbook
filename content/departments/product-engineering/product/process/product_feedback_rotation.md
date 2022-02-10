@@ -20,6 +20,8 @@ At the end of a rotation, the PM on rotation is responsible for handing off the 
 
 ## Feedback rotation guide
 
+[Intro video](https://www.loom.com/share/7a304e8b44b141bb92fee8976f15427f)
+
 ### Triaging and answering the feedback channel
 
 When you're on support rotation, you are explicitly responsible for monitoring the #feedback channel. There are two things you need to do there:
