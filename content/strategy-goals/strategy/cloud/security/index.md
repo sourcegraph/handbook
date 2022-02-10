@@ -22,7 +22,7 @@ These are goals that we have not started working on, but expect to begin work on
 
 ### 1. Secure Sourcegraph Cloud for SMBs
 
-**Problem:** The [Cloud SaaS team](../../../../departments/product-engineering/engineering/cloud/saas/index.md) team is working toward [enabling Sourcegraph Cloud as an alternative to on-premise deployments](../../../../departments/product-engineering/engineering/cloud/saas/index.md). To be confident that Sourcegraph Cloud is a secure alternative to Sourcegraph on-premise, we need a high degree of confidence in our security posture. We'll do this by improving visibility across our entire threat surface, as well as continuously and proactively ensuring the efficacy of our security controls.
+**Problem:** The [Cloud SaaS team](../../../../departments/product-engineering/engineering/cloud/saas/index.md) team is working toward [enabling Sourcegraph Cloud as an alternative to on-premises deployments](../../../../departments/product-engineering/engineering/cloud/saas/index.md). To be confident that Sourcegraph Cloud is a secure alternative to Sourcegraph on-premises, we need a high degree of confidence in our security posture. We'll do this by improving visibility across our entire threat surface, as well as continuously and proactively ensuring the efficacy of our security controls.
 
 1. We have confidence that our centralized logging infrastructure is production-ready, and we have relevant tooling and testing environments configured.
 2. We're confident that we're ingesting logs from all services that are tightly coupled to our Cloud deployment. This is anything that directly interacts with our cloud deployment with elevated privileges, or directly allows authentication to these services.
@@ -52,3 +52,9 @@ These are goals that we have not started working on, but expect to begin work on
 
 - [High level roadmap in Productboard](https://sourcegraph.productboard.com/roadmap/2866503-fy2022-security)
 - [Completed/in-progress/planned in Productboard](https://sourcegraph.productboard.com/feature-board/2130270-security)
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.security}}

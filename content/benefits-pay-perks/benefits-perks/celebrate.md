@@ -18,6 +18,11 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 - Managers can send anniversary gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
+  - Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts\*. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or if Cecily is not available, the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note:**
+
+    - \*Requests for changes or additions to inventory cannot be facilitated at this time. This is being reviewed and updates will be posted!
+    - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
+
 - In addition to anniversary gifts, managers can create [Kudoboards](https://www.kudoboard.com/) for their direct reports to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
 
   - When creating the Kudoboard, the format should include:
@@ -79,7 +84,7 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 
 **Internal requests:**
 
-- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
+- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. This is being reviewed and updates will be posted! If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
 
 **External requests:**
 

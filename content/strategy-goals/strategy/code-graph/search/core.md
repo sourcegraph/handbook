@@ -8,6 +8,7 @@ Quicklinks:
 
 - [Search overall strategy](../index.md)
 - [Search Core backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-core)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+core%22)
 
 ## Where we are now
 
@@ -39,3 +40,9 @@ As we kept growing the global index past 2.1M, we noticed that we were pulling i
 We also agreed that growing the global index from 2.1M to 5.5M wouldn't have made a meaningful difference to the usability, universality or completeness of Sourcegraph Cloud. Most OSS code search use cases over popular code (eg. searching for usage examples of a popular library in OSS projects) are already well-serviced at our current scale. Adding an additional 3M repositories from the "popular long tail" of GitHub doesn't achieve the promise of letting people search their own code: this would amount to searching 0–1 star repositories, which means complete coverage is still 28+M repos, a scale we are not ready to invest in at this time.
 
 In addition, while our work on scaling had produced trickle-down benefits on performance and efficiency for our Enterprise deployments, the work we would have produced to scale from 2.1M to 5.5M would have been mostly Cloud-specific.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.search_core}}

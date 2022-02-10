@@ -16,12 +16,14 @@ Reference:
 - [KPIs](https://sourcegraph.looker.com/boards/20)
 - [Department Meeting](team-culture/department-meeting.md)
 - [Team rituals](team-culture/index.md)
+- [Processes](process/index.md)
 
 [How to](process/index.md):
 
 - [Headcount planning](process/headcount-planning.md)
 - [Planning](process/planning.md)
 - [Reporting progress](process/reporting-progress.md)
+- [Submitting a bug report](process/submitting-a-bug-report.md)
 
 ## Handbook organization
 

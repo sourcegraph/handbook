@@ -3,6 +3,7 @@
 We're an [all-remote](../remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
 - [Decision making at Sourcegraph](decisions.md)
+- [Glossary of terms](../onboarding/glossary.md) we use
 
 ## Sources of truth
 
@@ -93,6 +94,9 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 1. In your [Zoom settings](https://zoom.us/profile/setting), enable "Join before host". (It is enabled by default in our Zoom organization account, but you may have overridden it previously.) This lets the meeting get started even if you aren't there.
 1. Set Zoom meetings to be recorded to the cloud so that you and other teammates can refer back to them later.
    - If any participant doesn't feel comfortable with the meeting being recorded, it is fine to not record it.
+   - All Zoom recordings saved to the cloud are deleted automatically after 30 days. Deleted Zoom recordings will be placed in the meeting host's trash for an additional 30 days. After this time the recordings will be permanently deleted.
+   - Due to issues of privacy and compliance, Zoom recordings should only be downloaded and kept beyond 30 days if there is an explicit business use for doing so.
+   - In the event that you need to download and store Zoom recordings Sourcegraph’s Google Drive should be used as the default location.
 
 ## [1-1 meetings](1-1.md)
 

@@ -1,7 +1,5 @@
 # Marketing
 
-<img align="right" src="https://sourcegraphstatic.com/marketing-logo.gif" style="max-height:100%" alt="Sourcegraph Marketing team logo"/>
-
 ## How to contact Marketing
 
 ### General Marketing requests and feedback
@@ -77,9 +75,11 @@ The table below breaks down the capabilities of each team within Marketing. Once
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../strategy-goals/strategy/working_with_use_cases.md)
+- [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
 - [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
+- [Resources](resources/index.md)
+- [Managing cross-functional projects](resources/project-management.md)
 
 ## Members
 

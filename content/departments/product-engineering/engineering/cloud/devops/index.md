@@ -1,5 +1,13 @@
 # Cloud DevOps Team
 
+Cloud DevOps team consists of two streams with different focus area.
+
+- DevOps
+- [Delivery]
+
+If you're looking for DevOps stream documentation, stay on this page.
+If you're looking for [Delivery] specific documentation, visit this [page](../delivery/index.md).
+
 ## Vision
 
 The two primary pillars of the Cloud Team are Availability and Observability as defined in [RFC 498](https://docs.google.com/document/d/1FOuWZk6wdL7vOA09pb8ILyBYuQ8tEe5saAxebjKduBw/edit#heading=h.trqab8y0kufp)
@@ -29,7 +37,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [Large-release-(rollout-release)-process](<deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>>)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Onboarding](onboarding.md)
-- [How to add TXT Records](txt_dns.md)
+- [How to add or modify DNS Records](dns.md)
 
 ## How to contact the team and ask for help
 
@@ -45,3 +53,5 @@ The best way to contact the cloud-devops team is in the #cloud-devops slack chan
 - Standardize our monitoring, logging and error reporting systems
 - Migrate our zonal cluster to a regional cluster and document the process
 - Complete assigned security tasks on behalf of security and provide evidence of completion
+
+[delivery]: ../delivery/index.md

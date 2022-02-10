@@ -8,8 +8,9 @@ This page contains information that is relevant for how to do well at your job a
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
+- [Surfacing feedaback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
-- [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
+- [The product feedback rotation](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
@@ -38,6 +39,8 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 
 ## Glossary
 
+There is also a [company-wide glossary of terms](../../../../company-info-and-process/onboarding/glossary.md) we use, the below are specific to the product team.
+
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
@@ -46,7 +49,7 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
-- (Early Access / Beta) enrollment: Referring to the process of enabling early or beta access for customers or prospects so they can begin using a product feature.
+- Early access enrollment: Referring to the process of enabling early access for customers or prospects so they can begin using an [Experimental or Beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features) feature.
 - First experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
@@ -54,6 +57,20 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 ## Collaboration
 
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
+
+### Executive decisions
+
+There are some classes of questions that occasionally require an executive level in order to proceed, usually because they are part of a high level strategic decision or because they require making tradeoffs between different organizations or departments within the company. Some examples of these in the past which have gotten stuck are:
+
+- Pricing strategy
+- Upgrade strategy
+- Competitive strategy
+- Prioritization across org/department boundaries
+- Decisions when values conflict
+
+The goal is for these to be documented in the handbook in more detail so that decisions can be made without an escalation, but until then the procedure is for the team who needs clarity around any of these kinds of items to write a proposal with how they would like to proceed. This can be presented directly to the executive team member(s) who makes the decision, or if that is unknown or they are not responding in a timely manner, then Christina will either make the decision herself or find the responsible exec team member and ensure it is followed up on. Be sure it's clear when making this request that you're asking for active help.
+
+It's important to keep in mind that when multiple parties are involved to lean in with empathy: [escalate cleanly](../../../../company-info-and-process/communication/conflicts.md#clean-escalation) and ensure everyone understands each others views. You won't always come to an agreement because of different priorities/contexts, but you should always be able to come to a mutual understanding of the trade-offs that you can present together.
 
 ### Product Management & Marketing
 
@@ -82,7 +99,7 @@ Since we have the same goal of launching products that drive adoption and revenu
 
 ### Feature roll-outs
 
-Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+Communications around feature roll-out are especially important, and are documented on [the rollout process](./rollout_process.md#communications) page.
 
 ### Talking to customers and stakeholders
 
