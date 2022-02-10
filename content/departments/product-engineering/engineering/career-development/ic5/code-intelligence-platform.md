@@ -1,6 +1,6 @@
 # IC5 profile - Code Intelligence Platform
 
-See also [internal profile](TODO)
+See also [internal profile](https://docs.google.com/document/d/1N7KeSwnkIiuyclYdPQP5uqrXSps1l2dpVZZ1eV1y-pA/edit)
 
 ## Business need
 

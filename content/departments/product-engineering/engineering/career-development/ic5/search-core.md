@@ -1,6 +1,6 @@
 # IC5 profile - Search Core
 
-See also [internal profile](TODO)
+See also [internal profile](https://docs.google.com/document/d/1ddyd2ygnBB4khxYGeGWocU20r4YjpnE29fxq-N1rguo/edit)
 
 ## Business need
 

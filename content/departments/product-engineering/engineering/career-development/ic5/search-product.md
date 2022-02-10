@@ -1,6 +1,6 @@
 # IC5 profile - Search Product
 
-See also [internal profile](TODO)
+See also [internal profile](https://docs.google.com/document/d/15i-CVUma02-lNhOCL3yuSN69BLh2Quw8xXqxdPb2m4k/edit)
 
 ## Business need
 

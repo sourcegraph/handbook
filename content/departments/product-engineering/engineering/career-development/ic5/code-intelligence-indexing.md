@@ -1,6 +1,6 @@
 # IC5 profile - Code Intelligence Indexing
 
-See also [internal profile](TODO)
+See also [internal profile](https://docs.google.com/document/d/18frj5dBnLTGWDNv9zp7995qz71y2BVvLZd1ODbqaOPE/edit#heading=h.hr2sxcrq489z)
 
 ## Business need
 
