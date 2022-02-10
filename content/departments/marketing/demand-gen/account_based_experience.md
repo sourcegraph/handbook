@@ -127,4 +127,4 @@ Our first measurement of success if by bridging the gap that occurs frequently b
 - Velocity
 - Increase in Iarr
 
-#### Note: This page is a constantly evolving guide to ABX at Sourcegraph. We will continue to add more and update as the program grows! If you have a suggestion or improvement or just want to talk ABX strategy, please email [Jake Sorensen](jake@sourcegraph.com)
+#### Note: This page is a constantly evolving guide to ABX at Sourcegraph. We will continue to add more and update as the program grows! If you have a suggestion or improvement or just want to talk ABX strategy, please email [Jake Sorensen](mailto:jake@sourcegraph.com)
