@@ -2675,3 +2675,14 @@ idan_varsano:
   location: Toronto, Canada 🇨🇦
   links: '[GitHub](https://github.com/varsanojidan)'
   description: Idan is software enginerr living in Toronto Canada. He enjoys working out, spending time with friends and family, and looking for new fried chicken/donut places to try out. Feel free to chat to him about anything gaming or garbage reality TV related.
+
+ana_lavongtheung:
+  name: Ana Lavongtheung
+  email: ana.lavongtheung@sourcegraph.com
+  github: ana-lavongtheung
+  pronouns: she/her
+  role: Sales Development Representative
+  reports_to: head_sales_development
+  location: Claremont, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/ana-lavongtheung/)'
+  description: Originally from Maui, Hawaii, Ana now lives in Claremont, CA with her weiner dog, Leo. She loves being outside and is always looking for her next adventure. In her free time, you can find her being active – whether it be playing rugby, pickleball or at the gym. Prior to Sourcegraph, Ana worked in the HR tech space. 
