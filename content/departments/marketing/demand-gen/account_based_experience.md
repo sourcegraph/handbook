@@ -18,14 +18,14 @@ Supporting our _ABX Program_ are four pillars used to help create a baseline pro
 
 _Meet the team_
 
-[**Jake Sorensen**](../../team/index.md#jake-sorensen) _Program Lead, Demand Generation_
+[**Jake Sorensen**](../../../team/index.md#jake-sorensen) _Program Lead, Demand Generation_
 
 - Develop framework, processes, strategy, and campaigns
 - Manage flow, roadmap, and program success
 - Measure and report to leadership teams
 - Execute on ABX campaigns
 
-[**Olivia Simpson**](../../team/index.md#olivia-simpson) _Program Manager, Demand Generation_
+[**Olivia Simpson**](../../../team/index.md#olivia-simpson) _Program Manager, Demand Generation_
 
 - Develops and implements marketing plans and strategy
 - Manages and executes ABX campaigns
