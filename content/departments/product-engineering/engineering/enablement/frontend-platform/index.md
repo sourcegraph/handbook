@@ -4,7 +4,7 @@ The Frontend Platform team (part of the [Enablement](../index.md) org) defines a
 
 ## Mission
 
-Our mission is to empower all users and Sourcegraph developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience. 
+Our mission is to empower all users and Sourcegraph developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
 
 ## Members
 
