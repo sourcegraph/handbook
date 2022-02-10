@@ -35,7 +35,7 @@ The source of truth for current OKRs and status of those OKRs is in our [private
 
 Each KR has an associated GitHub issue following [this template](https://github.com/sourcegraph/product-engineering-tracker/issues/new?template=product-engineering-kr.md).
 
-- The assignee of each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. Weekly updates should include:
+- The assignee of each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. To post an update, create a new comment with the following details:
   - The status of how we are tracking toward the goal (for numeric goals, include the current number we are at).
     | Status | Description |
     | ------------- | -------------------------------------------- |
