@@ -212,7 +212,7 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
-function embedNotebook(id): string {
+async function embedNotebook(id: string): Promise<string> {
     return `<div class="embed notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
         id
     )}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
@@ -247,7 +247,7 @@ const replaceAsync = async (
     return markdown.replace(regex, (): string => data.shift() as string)
 }
 
-async function insertNotebooks(markdown: markdown): Promise<string> {
+async function insertNotebooks(markdown: string): Promise<string> {
     if (markdown.match(/{{notebook:/)) {
         markdown = await replaceAsync(markdown, /({{notebook:)(\w+==)(}})/gi, replaceNotebook)
     }
