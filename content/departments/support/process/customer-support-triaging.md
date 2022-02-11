@@ -91,9 +91,8 @@ We sometimes get all company updates coming to the support mailbox. Company upda
 
 ### 7.What if we are close to missing SLA?
 
-When SLA is close to expiring, we can view the teams' cases and then ask team members who have capacity to take the case. 
+When SLA is close to expiring, we can view the teams' cases and then ask team members who have capacity to take the case.
 
-### 8. What to do when it is an AER first day taking cases? 
+### 8. What to do when it is an AER first day taking cases?
 
-When it's an AER first day take to take cases, they will get the first one that comes through the queue. After that, they will have the first right of refusal. The goal is for them to have 3 cases by the end of the week. 
-
+When it's an AER first day take to take cases, they will get the first one that comes through the queue. After that, they will have the first right of refusal. The goal is for them to have 3 cases by the end of the week.
