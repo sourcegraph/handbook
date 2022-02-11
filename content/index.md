@@ -119,5 +119,3 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Internal security](departments/tech-ops/process/internal-security/index.md)
 - [Device usage and privacy](departments/tech-ops/process/team_device_usage_privacy.md)
 - [Systems list and guides](departments/tech-ops/tools/index.md)
-
-{{notebook:Tm90ZWJvb2s6MQ==}}
