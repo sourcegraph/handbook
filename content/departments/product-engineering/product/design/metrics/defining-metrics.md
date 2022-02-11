@@ -30,7 +30,7 @@ How Sourcegraph uses UTM parameters:
 
 - utm_campaign={STRING} A string describing a series of content you are using to promote the link.
 - utm_medium=direct-traffic It is important this value be set as so
-- utm_source={STRING} Typically 'in-product', potentially with a product designator.  Potential values:
+- utm_source={STRING} Typically 'in-product', potentially with a product designator. Potential values:
   - inproduct: links from the Sourcegraph applicaiton
   - vsce: links from the VS Code extension
   - bext: links from the Browser extension
@@ -38,7 +38,7 @@ How Sourcegraph uses UTM parameters:
 
 This can all be a little daunting, and it's hard to know how to name your values for these parameters. The [UTM tracking spreadsheet](https://docs.google.com/spreadsheets/d/1U0HRC5WVz3tsP6z9pqDLG8igTMSf2-pQGhbRoVn_iu0/edit#gid=0) will help you create the link and allow review existing in-product links to use as a guide.
 
-After filling out a new row in the UTM tracking spreadsheet, create a [UTM card component](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/%F0%9F%9B%A0Project-Tools?node-id=3227%3A6190) with the value in the last column and inform your engineer of the requirement.  
+After filling out a new row in the UTM tracking spreadsheet, create a [UTM card component](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/%F0%9F%9B%A0Project-Tools?node-id=3227%3A6190) with the value in the last column and inform your engineer of the requirement.
 
 UTM parameters work on the following websites:
 
