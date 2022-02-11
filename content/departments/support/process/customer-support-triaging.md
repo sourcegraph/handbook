@@ -88,3 +88,12 @@ And finally, we are also brought into every new incident channel to be there if 
 ### 6. What do I do when I see a company update in the triage queue?
 
 We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perspective, please go ahead and delete them.
+
+### 7.What if we are close to missing SLA?
+
+When SLA is close to expiring, we can view the teams' cases and then ask team members who have capacity to take the case. 
+
+### 8. What to do when it is an AER first day taking cases? 
+
+When it's an AER first day take to take cases, they will get the first one that comes through the queue. After that, they will have the first right of refusal. The goal is for them to have 3 cases by the end of the week. 
+
