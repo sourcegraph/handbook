@@ -13,7 +13,7 @@ Follow the [guidelines for naming events](../../../../bizops/tools/amplitude.md#
 
 ## Tracking events across domains or products
 
-Often we need to understand how our designs perform when they send traffic to Sourcegraph websites outside of the product we are working on. When these events occur and they end in a visit to a publicly facing Sourcegraph website, we can use Google Analytics [UTM parameters](https://en.wikipedia.org/wiki/UTM_parameters) to track the source of the event.
+Often we need to understand how our designs perform when they send traffic to Sourcegraph websites outside of the product we are working on. When these events occur and end at a publicly facing Sourcegraph website, we can use Google Analytics [UTM parameters](https://en.wikipedia.org/wiki/UTM_parameters) to track the source of the event.
 
 Examples of scenarios you may need to track:
 
