@@ -213,7 +213,7 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
 }
 
 function embedNotebook(id: string): string {
-    return `<div class="embed notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
+    return `<div class="border notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
         id
     )}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
 }
