@@ -212,11 +212,13 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
-function embedNotebook(id) {
-    return `<div class="embed notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${id}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
+function embedNotebook(id): string {
+    return `<div class="embed notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
+        id
+    )}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
 }
 
-const replaceNotebook = async (match: string, group1: string, group2: string): Promise<string> => embedNotebook(group2)
+const replaceNotebook = (match: string, group1: string, group2: string): Promise<string> => embedNotebook(group2)
 
 const replaceMatchedTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateReportingStructure(group2)
