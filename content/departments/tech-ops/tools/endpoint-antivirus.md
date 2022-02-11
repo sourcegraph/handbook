@@ -22,7 +22,6 @@ If you haven't done so already please configure your laptop in accordance with o
 1. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
 1. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
 
-
 **What Workspace One Hub will automatically install on the device**
 
 The Hub app will look for a certain set of applications on your computer and push them out automatically if they are not present, they are:
@@ -38,7 +37,7 @@ The Hub app will look for a certain set of applications on your computer and pus
 The steps for enrolling your device in WS1 & CB are more manual. Please reach out to Tech Ops for more information.
 
 **Installing Workspace One and Carbon Black on a personal computer**
-You may enroll Workspace One and Carbon Black on as many devices as necessary to ensure our company and client data is protected, including personal devices. 
+You may enroll Workspace One and Carbon Black on as many devices as necessary to ensure our company and client data is protected, including personal devices.
 
 **Removing Workspace One and Carbon Black from a personal computer**
 
