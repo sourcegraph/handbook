@@ -213,7 +213,7 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
 }
 
 function embedNotebook(id) {
-    return `<iframe src="https://sourcegraph.com/embed/notebooks/${id}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>`
+    return `<div class="embed notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${id}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
 }
 
 const replaceNotebook = async (match: string, group1: string, group2: string): Promise<string> => embedNotebook(group2)
