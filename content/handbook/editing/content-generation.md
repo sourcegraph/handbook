@@ -6,7 +6,7 @@ This page describes how this generation functionality is implemented in case you
 
 ## Embedded notebooks
 
-Search Notebooks can be embedded on a handbook page using a `notebook:id` directive inside of double curly braces. This is implemented in [/src/lib/markdownToHtml.ts](https://github.com/sourcegraph/handbook/blob/main/src/lib/markdownToHtml.ts).
+Search Notebooks can be embedded on a handbook page using a `notebook:id` directive inside of double curly braces. This is implemented in [/src/lib/markdownToHtml.ts](https://github.com/sourcegraph/handbook/blob/main/src/lib/markdownToHtml.ts). The ID of the notebook is the portion of the URL that looks like `Tm90ZWJvb2s6MQ==`.
 
 ## Data files
 
