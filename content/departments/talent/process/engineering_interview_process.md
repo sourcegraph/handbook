@@ -34,7 +34,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 - **Interviewers:** two members of the team they are interviewing for
 
-- **Duration:** 60-minutes
+- **Duration:** 45-minutes
 
 - **How the candidate will prepare:** during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you’d do differently today.
 
