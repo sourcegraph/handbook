@@ -66,6 +66,6 @@ The following are real, anonymized quotes from customers today on how we’re al
 
 ### Log4j search notebook
 
-As part of our log4j mitigation efforts, we used a Search Notebook to demonstrate how to use Sourcegraph to solve this use case. You can see that use case here.
+As part of our log4j mitigation efforts, we used a Search Notebook to demonstrate how to use Sourcegraph to solve this use case. You can see that here.
 
 {{notebook:Tm90ZWJvb2s6MQ==}}
