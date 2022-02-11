@@ -14,7 +14,7 @@ Supporting our _ABX Program_ are four pillars used to help create a baseline pro
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Identify which accounts should be considered Strategic Accounts. These accounts will help us prioritize where we will focus our time, resources, and spend. | Focus our efforts on tried and true orchestration campaigns to help us understand how our platform can best serve current and potential customers. | Combine timely data and visibility to enable meaningful conversation at the right time. If an account has clicked on many of our ads and spent a lot of time learning on our site, this is the great time for a team member to reach out and see how they can help. | Standardized campaign performance metrics, revenue attribution, and everything in between will be tracked to measure success and reported to marketing and sales leadership. |
 
-### Roles & Responsibilitie 👥
+### Roles & Responsibilities 👥
 
 _Meet the team_
 
