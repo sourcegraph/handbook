@@ -11,6 +11,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
 - [Batch Changes team page](../../../../departments/product-engineering/engineering/code-graph/batch-changes/index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
 ## Vision
 
@@ -113,6 +114,7 @@ This quarter, we are primarily focusing on improving the value and usability of 
    - Onboard three early customers, and get positive feedback
    - Train sales CE, CS and sales to sell and support SSBC.
    - Make sure that the upgrade process for SSBC is scalable (upgrading Sourcegraph + SSBC takes no more than twice the time required to upgrade Sourcegraph).
+   - Create a unified experience, that is clear regardless of if you have executors connected or not.
 1. Bitbucket Cloud is frequently requested by [customers](https://sourcegraph2020.lightning.force.com/lightning/r/Product_Gap__c/a1B3t00000IkxMjEAJ/view), and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)).
 1. We recently onboarded a few monorepo customers that highlighted the limitations of our (experimental) monorepo support in Batch Changes. We plan to address those limitations and move monorepo support to GA ([RFC](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU), [#28246](https://github.com/sourcegraph/sourcegraph/issues/28246)).
 1. Batch Changes's minimalist permission model is limiting adoption in the traditional enterprise segment. In particular, customers report they want to control who can run batch changes at all. We plan to make a first iteration to solve this problem.

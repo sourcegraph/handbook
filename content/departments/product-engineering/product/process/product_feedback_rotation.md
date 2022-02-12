@@ -5,7 +5,7 @@ Sourcegraph collects user and stakeholder feedback from [several sources](user_s
 If you are the PM on rotation, your are responsible for:
 
 - [replying to relevant #feedback channel items](#triaging-and-answering-the-feedback-channel)
-- [labelling GitHub issues with no team label](#labelling-gitHub-issues-with-no-team-label)
+- [labelling GitHub issues with no team label](#labelling-github-issues-with-no-team-label)
 - [triaging productboard feedback](#triaging-producboard-feedback)
 
 Other teams are responsible for support issues (customer support) and product gaps (CEs).
@@ -19,6 +19,8 @@ The current PM on rotation is listed [here](https://docs.google.com/document/d/1
 At the end of a rotation, the PM on rotation is responsible for handing off the rotation to the next PM.
 
 ## Feedback rotation guide
+
+[Intro video](https://www.loom.com/share/7a304e8b44b141bb92fee8976f15427f)
 
 ### Triaging and answering the feedback channel
 
@@ -57,7 +59,7 @@ Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegrap
 
 In practice:
 
-- Monitor the list of [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?page=2&q=is%3Aissue+no%3Alabel+is%3Aopen)
+- Monitor the list of [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+no%3Alabel+is%3Aopen)
 - If unsure about what team label to use, take a look at [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). The slack channel associated with the team is in the label description. You can refer to the [product teams page](../team/product_teams.md) and to the more detailed [engineering ownership](../../engineering/process/engineering_ownership.md).
 - If you really don't know what team to assign it to, take a shot at assigning to the closest team with a nice message, asking them to re-route it to a more relevant team if necessary. "Hey, this issue has no team label and this _seems_ like it's in your scope. Adding your team label, but feel free to re-route this to another team".
 

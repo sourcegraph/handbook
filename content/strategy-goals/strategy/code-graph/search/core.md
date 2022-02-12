@@ -8,6 +8,7 @@ Quicklinks:
 
 - [Search overall strategy](../index.md)
 - [Search Core backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-core)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+core%22)
 
 ## Where we are now
 
