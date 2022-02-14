@@ -28,7 +28,7 @@ Information security risks can be raised in either of the following two ways:
 
 - ad-hoc, by emailing the security team
 - by a member of the Information Security Risk Committee during the scheduled
-risk review meeting
+  risk review meeting
 
 ### Ad-hoc risk identification
 
@@ -98,7 +98,7 @@ order to raise an exception:
 In order to ensure that the risk register is up-to-date
 and irrelevant risks are removed, a Google Calendar entry will prompt the
 Security team to send out a risk report once every six months. The team member
-on the Security  support rota must then send out a high-level risk report to all
+on the Security support rota must then send out a high-level risk report to all
 current risk owners and the Information Security Risk Committee. This report
 should contain:
 
@@ -123,10 +123,10 @@ Google Sheets.
 
 Members of the risk committee have two main responsibilities:
 
-* Working with the Security team to identify any risks related to their area of
-the business as part of the scheduled [risk review process](#reporting-and-review).
-* Assisting the Security team in developing and iterating on the risk management
-programme to ensure it is meeting the goals of the risk management policy.
+- Working with the Security team to identify any risks related to their area of
+  the business as part of the scheduled [risk review process](#reporting-and-review).
+- Assisting the Security team in developing and iterating on the risk management
+  programme to ensure it is meeting the goals of the risk management policy.
 
 The Security team will let you know whenever your input is required on matters
 relating to security risk management - if you haven't heard from us, there's
@@ -136,22 +136,22 @@ nothing required from you at the moment!
 
 Risk owners are responsible for:
 
-* Working with the Security team to identify treatment plans for risks relating
-to their business areas
-* Ensuring that treatment plans agreed upon are put into action and delivered
-by the agreed upon due date
+- Working with the Security team to identify treatment plans for risks relating
+  to their business areas
+- Ensuring that treatment plans agreed upon are put into action and delivered
+  by the agreed upon due date
 
 The Security team will ensure that you are involved in all parts of the treatment
 process from when a risk is raised against your area. This includes involving
 you in:
 
-* Verifying that an identified risk has been identified correctly, and that all
-available controls to mitigate against the risk have been noted
-* Verifying that the risk estimate for the risk (as defined in the
-[risk management policy][0]) is accurate
-* Developing a reasonable treatment plan for the risk, and identifying a realistic
-due date for the delivery of the plan
-* Closing off the risk when the treatment plan is complete
+- Verifying that an identified risk has been identified correctly, and that all
+  available controls to mitigate against the risk have been noted
+- Verifying that the risk estimate for the risk (as defined in the
+  [risk management policy][0]) is accurate
+- Developing a reasonable treatment plan for the risk, and identifying a realistic
+  due date for the delivery of the plan
+- Closing off the risk when the treatment plan is complete
 
 [0]: https://docs.google.com/document/u/2/d/1JMeLKBxgGsT-rrxxQpvBI_IQSYlj4I5KoldYNT5iQLQ/edit
 [1]: https://docs.google.com/spreadsheets/d/1fugokYzcrjJ4lPmbjoo91rFk-3mBabsz4UCOnuL6_PE/edit#gid=0
