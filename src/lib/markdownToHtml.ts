@@ -51,6 +51,7 @@ export default async function markdownToHtml(
 ): Promise<{ content: string; title?: string; toc: Toc; internalLinks?: string[] }> {
     // Pre-insert generated markdown
     markdown = await Promise.resolve(insertGeneratedMarkdown(markdown))
+    markdown = insertNotebooks(markdown)
     const result = await unified()
         // Parse markdown
         .use(remarkParse)
@@ -211,6 +212,14 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
+function embedNotebook(id: string): string {
+    return `<div class="border notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
+        id
+    )}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
+}
+
+const replaceNotebook = (match: string, group1: string, group2: string): string => embedNotebook(group2)
+
 const replaceMatchedTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateReportingStructure(group2)
 
@@ -236,6 +245,13 @@ const replaceAsync = async (
     })
     const data = await Promise.all(promises)
     return markdown.replace(regex, (): string => data.shift() as string)
+}
+
+function insertNotebooks(markdown: string): string {
+    if (markdown.match(/{{notebook:/)) {
+        markdown = markdown.replace(/({{notebook:)(\w+==)(}})/gi, replaceNotebook)
+    }
+    return markdown
 }
 
 async function insertGeneratedMarkdown(markdown: string): Promise<string> {
