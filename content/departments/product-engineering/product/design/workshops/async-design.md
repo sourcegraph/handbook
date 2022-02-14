@@ -2,7 +2,7 @@
 
 If you want to avoid sync meetings and want to have a design workshop activity that can involve a large group of people you can consider an async design workshop.
 
-The activities you do on a given day are flexible, so you can do problem validation, solution validation, brainstorming, and more; the important part is making it a multi-day activity with offsetting days for content creation and evaluation/voting.
+The activities you do on a given day are flexible with this approach, so you can do problem validation, solution validation, brainstorming, and more; the important part is making it a multi-day activity with offsetting days for content creation and evaluation/voting.
 
 Benefits:
 
