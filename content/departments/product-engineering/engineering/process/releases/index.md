@@ -4,7 +4,7 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
-> As of Jan 31, 2022, the [Delivery] team owns the release process. The role of Release Captain is referring to a member of the [Delivery] team. However, this may change in the future when we transition to a rotation-based Release Captain.
+> As of Feb 3, 2022, the role of Release Captain is now rotation-based within the [Cloud](../../cloud/index.md) org, [learn more](https://sourcegraph.slack.com/archives/C0EPTDE9L/p1643915838386829). If you need assistance with releases, please reach out to [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). The [Delivery] team is more than happy to help you through the process.
 
 ### Releases
 

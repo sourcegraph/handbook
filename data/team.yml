@@ -1945,10 +1945,10 @@ nancy_shah:
   reports_to: director_customer_engineering_americas
   location: Oakton, VA, United States 🇺🇸
   github: nancy4dev
-  email: nancy.shahh@sourcegraph.com
+  email: nancy@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nancy-s-97b71859/)'
   pronunciation: 'How to say my last name: [Shah](https://www.howtopronounce.com/shah)'
-  description: Nancy grew up in upstate New York, but has lived in the DC Metro Area for most of her life. She appreciates the peacefulness of newly fallen snow as well as the warmth of the sunshine. She enjoys the beach as much as the mountains. You can find Nancy swimming, climbing, drinking coffee, binge watching TV shows, trying out the latest vegan recipes, and making her own skin/hair care products. Her favorite things are blankets and cozy socks.
+  description: Nancy grew up in upstate New York, but has lived in the DC Metro Area for most of her life. You can find Nancy rock climbing most evenings.  She also enjoys trying out new coffee shops, tyring out vegan recipes, drinking tea, binge watching TV shows, and spending time outdoors.
 
 michal_sennett:
   name: Michal Sennett
@@ -2686,3 +2686,13 @@ michelle_veronese:
   location: Fremont, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/michelleveronese)'
   description: Michelle lives in the San Francisco Bay Area with her husband, Herval, and Frodo, a shih tzu dog that loves adventures. She grew up in Brazil and, before becoming a software engineer, worked as a journalist. In her free time, she likes reading, hiking and cooking Northeastern Brazilian recipes such as cuscuz and tapioca.
+
+maureen_loughrey:
+  name: Maureen Loughrey
+  email: maureen.loughrey@sourcegraph.com
+  github: maureenlsourcegraph
+  pronouns: she/her
+  role: Tech Ops Engineer
+  reports_to: tech_ops_manager
+  location: Austin, TX, USA 🇺🇸
+  description: Maureen lives in Austin, TX with her partner, two shih tzus, and two loveable goldfish. When not tinkering with computers she can often be found recreating recipes from the Great British Bake Off or meandering about the Austin library.

@@ -43,6 +43,7 @@ There are also several related resources:
 - [Use case discovery & command (internal only)](https://docs.google.com/document/d/1ngbta0HM50P3lZiQiT8m5lZn54WJW5wJXW5jwT3xVts/edit#heading=h.r950ejc8058m)
 - [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
 - [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) (private until GA)
 
 ### Principles
 
