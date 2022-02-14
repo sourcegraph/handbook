@@ -45,7 +45,7 @@ The situations we are trying to avoid are:
 - We lose track of the big picture for important user flows because we plan and create at the team's horizon.
 - Work gets stuck because it is blocked waiting for other teams with different priorities.
 
-Because the Cloud team occasionally focuses on what would otherwise be considered core features within Source Graph as they focus on growth and cloud, this principle extends to our collaboration with them.
+Because the [Cloud org](../cloud/index.md) occasionally focuses on what would otherwise be considered core features within Source Graph as they focus on growth, this principle extends to our collaboration with them.
 
 ### Abstraction vs. complexity
 
