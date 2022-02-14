@@ -215,7 +215,7 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
 function embedNotebook(id: string): string {
     return `<div class="border notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
         id
-    )}" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
+    )}?theme=light" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
 }
 
 const replaceNotebook = (match: string, group1: string, group2: string): string => embedNotebook(group2)
