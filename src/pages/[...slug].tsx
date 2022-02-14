@@ -205,7 +205,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 
     const fullPath = getFullSlugPath(params.slug)
     const page = await getPageBySlugPath(fullPath)
-    var commitData = null
+    let commitData = null
     if (process.env.CONTEXT === 'production') {
         // Only fetch real commit data for production builds
         commitData = await getGitHubCommitData(fullPath)
