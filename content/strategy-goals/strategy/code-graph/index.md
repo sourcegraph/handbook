@@ -35,7 +35,7 @@ There are a few key principles that inform how we think about the features we bu
 
 ### User-focused workflows
 
-Many of the features in Code Graph are used synergistically with each other to get the most out of the product; for example, you may discover a new shared component via some Search Notebook documentation, which leads you to running a query, perhaps setting up a new monitor via Insights, and then rolling out some upgrades via a Batch Change. These kinds of flows are exemplified by the common [use cases](../index.md#use-cases) we focus on. 
+Many of the features in Code Graph are used synergistically with each other to get the most out of the product; for example, you may discover a new shared component via some Search Notebook documentation, which leads you to running a query, perhaps setting up a new monitor via Insights, and then rolling out some upgrades via a Batch Change. These kinds of flows are exemplified by the common [use cases](../index.md#use-cases) we focus on.
 
 From an design standpoint, we aim to model user behavior with these cross-cutting workflows in mind first, and then empower individual teams to implement changes across Code Graph to make them reality. This requires coordinating with each other to make sure we stay on the same page, and the most common form of that is through [public RFCs](../../company-info-and-process/communication/rfcs.md) where we invite all of Code Graph engineering, design, and product, as well as customers and anyone else interested from Sourcegraph to participate. The situations we are trying to avoid are:
 
