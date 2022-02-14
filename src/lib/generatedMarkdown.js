@@ -414,3 +414,19 @@ export async function generateEngineeringOwnershipTable() {
 
   return pageContent
 }
+
+export async function generateGlossary() {
+  const glossarySections = await readYamlFile('data/glossary.yml')
+  let pageContent = ''
+
+  for (const [sectionName, section] of Object.entries(glossarySections)) {
+    pageContent += `## ${String(sectionName.charAt(0).toUpperCase() + sectionName.slice(1))} terms\n\n`
+    pageContent += '|Term|Definition|\n|----|----------|\n'
+    for (const entry of section) {
+      pageContent += `|${String(entry.term)}|${String(entry.definition)}|\n`
+    }
+    pageContent += '\n'
+  }
+
+  return pageContent
+}

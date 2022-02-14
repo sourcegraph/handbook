@@ -9,6 +9,7 @@ Quicklinks:
 - [Code intelligence backlog](https://github.com/orgs/sourcegraph/projects/211)
 - [Latest demo](https://www.loom.com/share/b76c3ce971d9498197d4b664a20b20a8)
 - [Documentation](https://docs.sourcegraph.com/code_intelligence)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Code+intelligence%22)
 
 ## Mission, Vision & Guiding Principles
 

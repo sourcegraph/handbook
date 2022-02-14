@@ -42,11 +42,20 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 ## Computers
 
-Once your contract is signed, you will need to get your Sourcegraph computer. All Sourcegraph teammates are required to have, and to work from, a company machine. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
+All Sourcegraph teammates are required to have, and to work from, a company machine. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
 
-**US/Canada/Europe-based teammates (not Russia)** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+### Ordering your laptop:
 
-**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
+Because of Apple manufacturing and global shipping delays, our recommended models can take anywhere from 4-12 weeks to arrive so we ask that once your contract is signed, please place an order for your Sourcegraph computer immediately. You are responsible for ordering your laptop through one of the following ways:
+
+**US/Canada/Europe-based teammates (not Russia)**
+
+1. You can purchase a device that is in stock or to be ordered through a local store and be reimbursed by Sourcegraph. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md).
+2. You can place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+
+**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md).
+
+Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required depending on your role, please see below for necessary specs corresponding to your role.
 
@@ -86,11 +95,13 @@ Different specs are required depending on your role, please see below for necess
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-512-gb-ssd-us/6738963?enkwrd=6738963)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-If you need to update any specs, please reach out to your manager and [People Ops](mailto:people-ops@sourcegraph.com) for approval.
-
 ### Other computer
 
 - If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
+
+### Temporary laptop options
+
+If you have ordered your laptop but it is not expected to arrive by your start date please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations of what to do in the interium.
 
 ### Laptop upgrade
 
