@@ -138,7 +138,7 @@ Again, please delete your test project when done. Click on the upper right corne
 
 If you need to build Docker images on Buildkite for testing purposes, e.g. you
 have a PR with a fix and want to deploy that fix to a test instance, you can
-push the branch to the special `docker-images-patch` and `docker-images-patch-notest` branches.
+push the branch to the special [`docker-images-patch`](https://docs.sourcegraph.com/dev/background-information/ci/reference#patch-image) and [`docker-images-patch-notest`](https://docs.sourcegraph.com/dev/background-information/ci/reference#patch-image-without-testing) branches.
 [Learn more about pipeline run types](https://docs.sourcegraph.com/dev/background-information/ci/reference).
 
 To request a build with to build images, you can use [`sg`](https://docs.sourcegraph.com/dev/background-information/sg):
