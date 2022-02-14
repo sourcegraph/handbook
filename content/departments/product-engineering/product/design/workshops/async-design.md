@@ -4,6 +4,19 @@ If you want to avoid sync meetings and want to have a design workshop activity t
 
 The activities you do on a given day are flexible, so you can do problem validation, solution validation, brainstorming, and more; the important part is making it a multi-day activity with offsetting days for content creation and evaluation/voting.
 
+Benefits:
+
+- Supports async work
+- More flexibility when people are in lots of time zones
+- Can support quite large groups
+- Self-documenting
+
+Drawbacks:
+
+- Plays out slower than if everyone was in a live session together
+- Not as engaging for people who are inspired by real-time communication
+- Requires lots of written communication
+
 ## Offsetting days
 
 The first thing you should do when planning the workshop is identify the list of activities you want to complete. You may do some problem exploration, followed by some customer research. A way you might structure that to use offsetting days is something like this:
