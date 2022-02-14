@@ -41,7 +41,7 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 #### Google BigQuery
 
 - Most "data pipelines" are SQL queries that turn raw ping data into clean datasets for analysis.
-- Data pipeline from Sourcegraph's [postgres database] (https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md) to BigQuery runs via Terraform. To schedule/update these queries:
+- Data pipeline from Sourcegraph's [postgres database](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md) to BigQuery runs via Terraform. To schedule/update these queries:
   - Create a pull request with the necessary update [here](https://github.com/sourcegraph/infrastructure/blob/main/telligent/terraform.tfvars) and a member of the cloud-devops team will review and deploy the changes
   - Update the scheduled query in BigQuery. Note that that the query needs to be run by the service account, otherwise it will encounter permissions errors. To do so, use the following command in the [BigQuery CLI](https://cloud.google.com/bigquery/docs/bq-command-line-tool):
   ```
