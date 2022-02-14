@@ -205,7 +205,11 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 
     const fullPath = getFullSlugPath(params.slug)
     const page = await getPageBySlugPath(fullPath)
-    const commitData = await getGitHubCommitData(fullPath)
+    var commitData = null
+    if (process.env.CONTEXT === 'production') {
+        // Only fetch real commit data for production builds
+        commitData = await getGitHubCommitData(fullPath)
+    }
 
     const { content, title, toc } = await markdownToHtml(page.body || '', fullPath, page.isIndexPage)
 
