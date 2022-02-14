@@ -6,7 +6,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 ## Team
 
-The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
+The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering)). [Michal Vrtiak](../../../../team/index.md#michal-vrtiak) serves as an org-level engineer, reporting into the Director of Engineering, and partners with the teams below.
 
 **[Repo Management](./repo-management/index.md)**
 {{generator:product_team.repo_management}}
