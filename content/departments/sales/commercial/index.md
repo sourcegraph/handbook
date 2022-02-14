@@ -69,8 +69,6 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
      - Execute your next steps, calendar invite, summary email and agenda etc.
    - If you send a calendar invite, make sure to include an agenda for the meeting.
 
-
-
 ## Day-to-Day Activities
 
 ### Order Forms
@@ -83,9 +81,9 @@ If you need an exception to the norm for your order form, please see the [order 
 
 1. Please complete forecasting by close of business on Friday.
 2. Every week on Thursday you will receive an email with a title format as follows: **20XX-QX Your Name - Region Week X has not been completed. Please provide your updates.**
-3. The notes should be staged as follows with headings of _Closed/Won_, _Commit_, _Call_, _Best Case_, and _Early Pipeline_. 
-    - For each heading include the total dollar amount for that heading; each subsequent heading is additive so the amount for "Commit" is additive of the deals in Commit and Close/Won
-    - Put the title of the opp along with the amount of the opp under the heading
+3. The notes should be staged as follows with headings of _Closed/Won_, _Commit_, _Call_, _Best Case_, and _Early Pipeline_.
+   - For each heading include the total dollar amount for that heading; each subsequent heading is additive so the amount for "Commit" is additive of the deals in Commit and Close/Won
+   - Put the title of the opp along with the amount of the opp under the heading
 4. For efficiency, copy and paste notes from the week before and just add updates to the notes as is fitting.
 5. How to determine stage:
    - Closed/Won is defined by business that has been Closed/Won in salesforce; I should not see these deals as open opps anymore
@@ -97,4 +95,3 @@ If you need an exception to the norm for your order form, please see the [order 
    - Best Case are for deals that have engagement but without the clarity provided by a MAP; these deals may include those that you have a 'gut' feel for
    - Early Pipeline means that you're only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on; any deal that is not forecasted to close in quarter should fall into this category
 6. Make sure to check your math. Closed/Won should have the smallest amount and Best Case should have the largest amount. Closed/Won to Best Case are all possibilities of what could happen within the quarter. Early Pipeline, by definition, is not forecasted for the quarter so you don't need to add the previous numbers up since the forecast is quarterly.
-
