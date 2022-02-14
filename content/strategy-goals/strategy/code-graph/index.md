@@ -43,6 +43,8 @@ From an design standpoint, we aim to model user behavior with these cross-cuttin
 - We lose track of the big picture for important user flows because we plan and create at the team's horizon.
 - Work gets stuck because it is blocked waiting for other teams with different priorities.
 
+Because the Cloud team occasionally focuses on what would otherwise be considered core features within Source Graph as they focus on growth and cloud, this principle extends to our collaboration with them.
+
 ### Abstraction vs. complexity
 
 According to [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)), there are two ways to think about categories of developer tools or features today:
