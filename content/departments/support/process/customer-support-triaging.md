@@ -91,7 +91,7 @@ We sometimes get all company updates coming to the support mailbox. Company upda
 
 ### 7.What if we are close to missing SLA?
 
-When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it. 
+When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
 
 ### 8. What to do when it is an AER first day taking cases?
 
