@@ -55,11 +55,22 @@ If you are going to away from your keyboard (afk) or out of office (ooo) -- plan
 We always make sure the following is true:
 
 - We let each other know when we are/will be unavailable by posting in our #customer-support-internal Slack channel and adding it to Roots to be sure it's also reflected in the team CS team calendar and our Slack status.
-- Before we afk or ooo, we clearly indicate why a case can wait for us to return `OR` we post in our #customer-support-internal Slack channel and ask that someone either fill in or take it over (fill in if it's just a day and you want someone to keep an eye on it or have something specific for them to do; take it over if you are gone for a few days and we want the customer to have a smooth handover).
+- Before we are afk or ooo, we clearly indicate why a case can wait for us to return `OR` we post in our #customer-support-internal Slack channel and ask that someone either fill in or take it over (fill in if it's just a day and you want someone to keep an eye on it or have something specific and not time consuming for them to do; take it over if you are gone for a few days and we want the customer to have a smooth handover).
 
-And remember, you never have to ask to take the time you need and you never have to share why you need the time you do. You just need to communicate clearly and make sure the team knows how to have your back.
+We want to minimize customers having to work with more than one application engineer; so we strive to keep fill-in requests and handovers rare. Fill-in requests should be simple things (not covering calls or doing heavy debugging). For example, keeping an eye to see if our engineering teammates get back to us on a RFH for a time-sensitive issue and sharing that with the customer would be a reasonable request (vs if the issue isn't that urgent, it's okay for it to wait until you return). We want to show-up for each other, but also not confuse the customer -- in theory, maintaining no more than 5 open/active tickets should allow for things to be such that taking 1-2 days off doesn't require anyone on the team to do anything. We mostly reserve handovers for when folks have 3+ days off or it's an exceptional situation where a handover will be truly best.
 
-Also, sometimes we wake up not feeling well and we don't have it in us to line things up. That's okay! Simply add a sick day to Roots and post in #customer-support-internal Slack channel and @ mention @cs-leadership and ask that they tend to things for you.
+When you will be away for 3+ days and a handover is required, post about each case requiring handover in a new thread. This will make it easier for whomever is on @cs-triage duty to help make sure another AER takes responsibility.
+
+You never have to ask to take the time you need and you never have to share why you need the time you do. You just need to communicate clearly and make sure the team knows how to show-up for you and it honors the customer experience.
+
+Also, sometimes we wake up not feeling well and we don't have it in us to line things up. That's okay! Simply add a sick day to Roots and post in #customer-support-internal Slack channel and @ mention @cs-leadership and ask that they tend to things for you. A member of @cs-leadership will make the call about whether any coverage is needed and work to ensure as little goes to the rest of the team as possible. Again, you don't have to say why you need the day, just that you do; posting in the shared channel ensures whoever is online can help (you can also, of course, share details with whoever you desire).
+
+For those who cover Fridays, we also need to ask that someone cover our Friday responsibilities. When you need to take a Friday off planned or unplanned, you can lean on @cs-leadership to help make sure you have coverage. We can also rely on @cs-leadership to track who has covered a Friday to make sure this doesn't always fall to the same person:
+
+- For SLA Pacific hour time block 2am-7am the following folks can cover for Mariam: Michael or Stompy
+- For SLA Pacific hour time block 7am-12pm the following folks can cover for Don: Alex, Ben, Jason, Riana, and Quinlan (Riana and Quinlan once they reach 90 days)
+- For SLA Pacific hour time block 12pm-5pm the following folks can cover for Kelvin: Amber, Gabe, Giselle, and Warren (Amber when she returns from leave)
+- For SLA Pacific hour triage coverage from 7am-5pm, Brielle, Sarah, Shawnteé, and Virginia work together to handle any exceptions needed to the schedule (which is maintained on the team calendar).
 
 Optionally, when we are out for more than a day or two, we can create a "what did I miss" doc in our [shared drive folder](https://drive.google.com/drive/u/1/folders/1w-4j9T1z1GxnpvSbr_o5VRVxkct7w27O) for our teammates to populate with things we need to catch-up, be aware of when we return.
 
