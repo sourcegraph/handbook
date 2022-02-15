@@ -79,7 +79,12 @@ Pipeline operations can now be configured into groups with `operations.NewNamedS
 
 #### Build traces are now uploaded to Honeycomb
 
-Build traces are now uploaded to Honeycomb to dive into the performance of each command that gets run in a pipeline! To learn more, check out the [Pipeline command tracing docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-command-tracing).
+Build traces are now uploaded to Honeycomb to dive into the performance of each command that gets run in a pipeline!
+A link to the uploaded build trace is added as an annotation on the results of each Buildkite build.
+
+![Trace example](https://user-images.githubusercontent.com/23356519/154169455-9d484f0f-7aac-4310-ac62-1551696765ff.png)
+
+To learn more, check out the [Pipeline command tracing docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-command-tracing).
 
 #### Test analytics
 
