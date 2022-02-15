@@ -17,6 +17,10 @@ Drawbacks:
 - Not as engaging for people who are inspired by real-time communication
 - Requires lots of written communication
 
+## Scheduling considerations
+
+Because this is an activity that takes a little bit of attention each day over a few days or a week, its' good to avoid scheduling at the same time as the release is wrapping up, or another heavyweight organizational activity like planning is going on.
+
 ## Offsetting days
 
 The first thing you should do when planning the workshop is identify the list of activities you want to complete. You may do some problem exploration, followed by some customer research. A way you might structure that to use offsetting days is something like this:
