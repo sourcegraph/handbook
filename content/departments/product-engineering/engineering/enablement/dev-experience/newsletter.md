@@ -23,6 +23,37 @@ https://docs.sourcegraph.com/dev/background-information/testing_principles
 
 https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=
 
+### Internal tools and libraries
+
+#### Database migrations update
+
+TODO ask eric
+
+#### New `lib/errors` package
+
+_All_ errors in Sourcegraph backend services should now use the new `github.com/sourcegraph/sourcegraph/internals/errors` package. This consolidation helps us restrict and control the ways that we can create, consume, and compare errors, and will allows us to control library behavior clashes more easily in the future. [#30558](https://github.com/sourcegraph/sourcegraph/pull/30558)
+
+#### New `teams` package
+
+There is now a unified library for interacting with Sourcegraph teammates for whatever fun integrations you want to build! It leverages [`team.yaml`](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) data as well as additional GitHub and Slack metadata:
+
+```go
+import "github.com/sourcegraph/sourcegraph/dev/internal/team"
+
+func main() {
+  // Neither a GitHub client nor a Slack client is required, but each enables more ways
+  // to query for users and/or get additional metadata about a user.
+  teammates := team.NewTeammateResolver(githubClient, slackClient)
+  tm, _ := teammates.ResolveByName(ctx, "Robert")
+  println(tm.SlackID)
+  println(tm.HandbookLink)
+  println(tm.Role)
+  // etc.
+}
+```
+
+`sg teammate`, branch lock notifications, and Buidlkite failure mentions are [all powered by this API](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+f:dev+ResolveBy...%28...%29+-f:test%7Cmock&patternType=structural).
+
 ### Continuous integration
 
 #### Slack mention notifications
@@ -74,33 +105,6 @@ This now also supports run types that require arguments, such as `docker-images-
 We will soon be rolling out stateless Buildkite agents to all pipeline builds.
 These should improve the stability and reliability of all pipelines by removing any issues that might be caused by lingering state from other builds.
 Learn more about this in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c40213922476f9)! ([#31003](https://github.com/sourcegraph/sourcegraph/issues/31003))
-
-### Internal tools and libraries
-
-#### Database migrations update
-
-TODO ask eric
-
-#### New `teams` package
-
-There is now a unified library for interacting with Sourcegraph teammates for whatever fun integrations you want to build! It leverages [`team.yaml`](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) data as well as additional GitHub and Slack metadata:
-
-```go
-import "github.com/sourcegraph/sourcegraph/dev/internal/team"
-
-func main() {
-  // Neither a GitHub client nor a Slack client is required, but each enables more ways
-  // to query for users and/or get additional metadata about a user.
-  teammates := team.NewTeammateResolver(githubClient, slackClient)
-  tm, _ := teammates.ResolveByName(ctx, "Robert")
-  println(tm.SlackID)
-  println(tm.HandbookLink)
-  println(tm.Role)
-  // etc.
-}
-```
-
-`sg teammate`, branch lock notifications, and Buidlkite failure mentions are [all powered by this API](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+f:dev+ResolveBy...%28...%29+-f:test%7Cmock&patternType=structural).
 
 ### Local development
 
