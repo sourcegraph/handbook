@@ -83,19 +83,20 @@ Recent key learnings:
 
 **Unlock dependency navigation**
 
-We believe this is the global code graph’s killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and undestand a new codebase (including the dependencies it relies on). 
+We believe this is the global code graph’s killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and undestand a new codebase (including the dependencies it relies on).
 
 Taking it a step further, adding support for a wider set of artifactory hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
+
 - Accelerating [Developer onboarding](../use-cases/dev-onboarding.md) by enabling search for dependency versions and across transitive dependencies.
 - Monitoring [Code Health](../use-cases/code-health.md) by creating dependency tracking insights to detect deprecated dependency usage.
 - [Fixing security vulnerabilities](../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors, later applying a batch fix using Batch Changes.
-- Encourage [Code Reuse](../use-cases/code-reuse.md) by making precise navigation a medium for finding references to relevant usage examples. 
+- Encourage [Code Reuse](../use-cases/code-reuse.md) by making precise navigation a medium for finding references to relevant usage examples.
 
 These are all currently in early stages of development and discussion. Read more about how we're thinking about the dependency graph in [RFC 593: Unlocking use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#heading=h.trqab8y0kufp).
 
 **Ship precise language support**
 
-We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping a revamped version of our JS/TS indexer and building a Python indexer. 
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping a revamped version of our JS/TS indexer and building a Python indexer.
 
 **Auto-indexing on-prem goes into Beta:**
 
@@ -124,7 +125,7 @@ Although the themes above might seem isolated or disconnected at a first glance,
 - **Scale the C++ code graph:** Given the fragmented nature of the C/C++ environment we won’t be investing in improving C/C++ language support or scaling. We do however intend to revisit our solution in the future.
 
 - **Auto-indexing available for Cloud customers**
-Auto-indexing is set up on Sourcegraph Cloud but is not available as a feature for Cloud customers yet. Although this is something we'd like to support in the future, it makes sense for the team to focus on our on prem customers first to support our [Grow ARR and Iterate with existing customers](../../index.md#this-year-fy23) business goals for this year.
+  Auto-indexing is set up on Sourcegraph Cloud but is not available as a feature for Cloud customers yet. Although this is something we'd like to support in the future, it makes sense for the team to focus on our on prem customers first to support our [Grow ARR and Iterate with existing customers](../../index.md#this-year-fy23) business goals for this year.
 
 ## Related use cases
 
