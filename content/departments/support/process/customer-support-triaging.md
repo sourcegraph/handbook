@@ -81,6 +81,8 @@ Yes, we have a few customers listed in our [Customer Exception list](customer-ex
 
 We also look at the queues of anyone who is out that day to see if someone needs to fill-in (the original CSE keeps responsibility) -- great for when the CSE is out a day or two -- or we if we need to transition the case to another CSE --great for when the CSE is out a longer period of time.
 
+We should be creating tickets when the post is from someone at the customer, even if the end result is no action for CS. We can skip things from our internal teammates.
+
 And finally, we are also brought into every new incident channel to be there if it requires customer communication and ensure we have a team member available to serve as a messenger.
 
 ### 6. What do I do when I see a company update in the triage queue?
