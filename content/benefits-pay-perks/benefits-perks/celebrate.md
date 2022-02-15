@@ -12,11 +12,9 @@ As an all-remote company, we want everyone to feel included and connected, regar
 
 ## Anniversaries
 
-We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! You can easily access all teammate anniversaries by checking your Bamboo HR homepage.
+We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
 
-### Here are our best practices for celebrating your teammate’s anniversaries
-
-- Managers can send anniversary gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
+To celebrate anniversaries, managers can send gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
   - Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts\*. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or if Cecily is not available, the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note:**
 
