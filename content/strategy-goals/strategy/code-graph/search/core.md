@@ -14,7 +14,7 @@ Quicklinks:
 
 In **FY22Q3**, we grew the Sourcegraph Cloud global index to 2.1M repositories, including all repositories with 6 stars or more. Importantly, the changes we’ve made to reach this state have never been cloud-specific, and yielded trickle-down benefits to all Sourcegraph deployments (for instance, [significant reductions](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usagee of Zoekt, our trigram-based indexed search backend).
 
-In **FY22Q4**, we conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (>6Gb working directory). We also started growing our search index to include repositories from more non-GitHub.com and GitLab.com code hosts: for instance, you can now search [34.5k repositories from src.fedoraproject.org on sourcegraph.com](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal).
+In **FY22Q4**, we conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (>6GB working directory). We also started growing our search index to include repositories from more non-GitHub.com and GitLab.com code hosts: for instance, you can now search [34k repositories from src.fedoraproject.org on sourcegraph.com](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal).
 
 ## What's next and why
 
@@ -22,13 +22,13 @@ In **FY22Q4**, we conducted discovery work to better understand the bottlenecks 
 
 #### Goals
 
-- **Monorepo performance**: At a P75 level, a synthetic repo of 15B will index in less than 30 minutes, indexed searches complete in < 2s and unindexed searches complete in < 10s
+- **Monorepo performance**: At a P75 level, a synthetic repo of 15GB will index in less than 30 minutes, indexed searches complete in < 2s and unindexed searches complete in < 10s
 - **Ranking**: We start tracking ranking quality, using selected search results as a proxy.
 - **Code host coverage**: Sourcegraph Cloud indexes public repositories globally from the most popular package hosts.
 
 #### Details
 
-**Monorepo performance**: is a recurrent pain point for large Enterprise customers. Having replicated large monorepo setups, and identified the Unindexed monorepo performance is still poor, and several facets of search on large monorepos cause significant load on gitserver.
+**Monorepo performance**: is a recurrent pain point for large enterprise customers. Having replicated large monorepo setups, and identified the unindexed monorepo performance is still poor, and several facets of search on large monorepos cause significant load on gitserver.
 
 **Ranking**: As a first step towards improving the ranking of our search results, we will start tracking the quality of search results, using the index of user-selected results as a proxy metric. Having this tracking in place will help measure the success of future improvements, and drive the areas of ranking we choose to focus on.
 
