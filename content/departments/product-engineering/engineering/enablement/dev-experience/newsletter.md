@@ -27,7 +27,12 @@ https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=
 
 #### Database migrations update
 
-TODO ask eric
+We have now eradicated two classes of errors related to database migrations:
+
+1. On the site-administrator and ops side, we no longer spuriously mark the database as dirty and give up any attempt at migrations at the first sign of trouble. We no longer immediately fail an upgrade because of the mere presence of an empty table or a concurrently created index. Now we only fail for **actual** reasons.
+2. On the development side, we no longer have to worry about two independently created migrations clashing only after both are merged into `main`. That was very annoying to me and now it will never, ever happen again. Check out the help page for the new `sg migration` to check out the new tooling.
+
+See the [migrator docs](https://docs.sourcegraph.com/admin/how-to/manual_database_migrations) for additional info.
 
 #### New `lib/errors` package
 
