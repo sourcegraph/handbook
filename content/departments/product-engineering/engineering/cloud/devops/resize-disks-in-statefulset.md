@@ -36,7 +36,10 @@ kubectl describe sc sourcegraph | grep ReclaimPolicy
 Note: do it for ALL persistent volumes used by StatefulSet!
 
 ```
-kubectl patch pvc repos-gitserver-0 -n prod -p '{ "spec": { "resources": { "requests": { "storage": "<new size>" }}}}'
+for i in $(kubectl get pvc -n prod -l app=gitserver | awk '{print $1}'); do
+  kubectl patch pvc "$i" -n prod -p '{ "spec": { "resources": { "requests": { "storage": "${NEW_STORAGE_SIZE}" }}}}'
+done
+
 ```
 
 6. Ensure that all resized persistent volumes, persistent volume claims and google disks has new value:
