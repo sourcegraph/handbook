@@ -8,6 +8,123 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./index.md#newsletter) for preparing a newsletter.
 
+## Feb 21, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+### SOC2 compliance processes
+
+TODO pr-auditor, test plans
+
+https://github.com/sourcegraph/sourcegraph/pull/30278
+
+https://docs.sourcegraph.com/dev/background-information/testing_principles
+
+https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=
+
+### Continuous integration
+
+#### Slack mention notifications
+
+We now generate notifications for failed builds based on the author of each commit (using the [new teams package](#new-teams-package)).
+Make sure to set up your [`teams.yaml` entry with your GitHub handle](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) to get notified when your changes fail in `main`!
+
+#### Pipeline readability improvements
+
+Pipeline operations can now be configured into groups with `operations.NewNamedSet` ([#30381](https://github.com/sourcegraph/sourcegraph/pull/30381)). The result looks like this:
+
+![Grouped operations](https://user-images.githubusercontent.com/23356519/151649399-247b9507-3d2e-48b3-9f10-48bea69872c8.png)
+
+`sg ci preview` also leverages this grouping to improve readability of pipeline steps, as well as now leveraging a terminal Markdown renderer to generate nicer output! ([#30724](https://github.com/sourcegraph/sourcegraph/pull/30724))
+
+#### Build traces are now uploaded to Honeycomb
+
+Build traces are now uploaded to Honeycomb to dive into the performance of each command that gets run in a pipeline! To learn more, check out the [Pipeline command tracing docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-command-tracing).
+
+#### Test analytics
+
+We have started rolling out Buildkite test analytics support for Go tests and a subset of frontend tests that get run in continuous integration. This is still an experimental Buildkite feature, but you can learn more about it in our [Test analytics docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#test-analytics).
+
+#### Pipeline documentation
+
+A new command, `sg ci docs`, can now render a full, up-to-date reference of various run types that our pipeline can generate as well as example pipelines of each, such as what gets run with various diff types.
+You can also see a web version of this in the [Pipeline types reference](https://docs.sourcegraph.com/dev/background-information/ci/reference).
+
+Our [pipeline development guide](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-development) has also been refereshed with updated content, featuring a series of embedded search notebooks! This includes new guidance on:
+
+- [Creating pipeline annotations](https://docs.sourcegraph.com/dev/background-information/continuous_integration#creating-annotations) (using a new API introduced in [#30951](https://github.com/sourcegraph/sourcegraph/pull/30951))
+- [Caching build artefacts](https://docs.sourcegraph.com/dev/how-to/cache_ci_artefacts)
+- [Pipeline observability features](https://docs.sourcegraph.com/dev/background-information/continuous_integration#observability)
+
+#### Generate builds using run types
+
+`sg ci build` now supports an additional argument to automatically generate a Buildkite build using a specified run type ([#30932](https://github.com/sourcegraph/sourcegraph/pull/30932)). For example, to create a `main` dry run build:
+
+```sh
+sg ci build main-dry-run
+```
+
+This now also supports run types that require arguments, such as `docker-images-patch` - learn more in [#31193](https://github.com/sourcegraph/sourcegraph/pull/31193).
+
+![sg ci build](https://user-images.githubusercontent.com/23356519/153933687-110f3657-543b-4d95-b01b-21b6b9e28514.png)
+
+#### Coming soon: stateless Buildkite agents
+
+We will soon be rolling out stateless Buildkite agents to all pipeline builds.
+These should improve the stability and reliability of all pipelines by removing any issues that might be caused by lingering state from other builds.
+Learn more about this in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c40213922476f9)! ([#31003](https://github.com/sourcegraph/sourcegraph/issues/31003))
+
+### Internal tools and libraries
+
+#### Database migrations update
+
+TODO ask eric
+
+#### New `teams` package
+
+There is now a unified library for interacting with Sourcegraph teammates for whatever fun integrations you want to build! It leverages [`team.yaml`](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) data as well as additional GitHub and Slack metadata:
+
+```go
+import "github.com/sourcegraph/sourcegraph/dev/internal/team"
+
+func main() {
+  // Neither a GitHub client nor a Slack client is required, but each enables more ways
+  // to query for users and/or get additional metadata about a user.
+  teammates := team.NewTeammateResolver(githubClient, slackClient)
+  tm, _ := teammates.ResolveByName(ctx, "Robert")
+  println(tm.SlackID)
+  println(tm.HandbookLink)
+  println(tm.Role)
+  // etc.
+}
+```
+
+`sg teammate`, branch lock notifications, and Buidlkite failure mentions are [all powered by this API](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+f:dev+ResolveBy...%28...%29+-f:test%7Cmock&patternType=structural).
+
+### Local development
+
+#### Log entries now link to source VS Code
+
+Each log entry now prints an iTerm link that links to each log statement's source file:line in VS Code ([#30439](https://github.com/sourcegraph/sourcegraph/pull/30439)).
+
+#### Experimental workaround for MacOS firewalls
+
+A new `-add-to-macos-firewall` flag is now available on `sg start` and `sg run` to avoid all those pop-up prompts you get in MacOS when firewalls are enabled. [#30747](https://github.com/sourcegraph/sourcegraph/pull/30747)
+
+#### `sg` highlights
+
+You can now see what has changed as part of your fresh `sg` installation with the `sg version changelog` command! You can also use it to see what's coming up next with `sg version changelog -next`. [#30697](https://github.com/sourcegraph/sourcegraph/pull/30697)
+
+`sg start` now waits for all commands to install before starting them ([#29760](https://github.com/sourcegraph/sourcegraph/pull/29760)).
+
+M1 macs no longer require _any_ additional workarounds ([#29815](https://github.com/sourcegraph/sourcegraph/pull/29815)).
+
+`sg checks docker` now features a custom Dockerfile parser to enable more powerful checks, such as validating `apk add` arguments as well as also running more existing checks.
+It now powers the Docker check in CI as well! ([#31217](https://github.com/sourcegraph/sourcegraph/pull/31217))
+
+`sg setup` now features an overhauled checks system to make sure your dev environment is ready to go ([#29849](https://github.com/sourcegraph/sourcegraph/pull/31055)).
+
 ## Jan 10, 2022
 
 Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
