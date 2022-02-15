@@ -33,6 +33,14 @@ TODO ask eric
 
 _All_ errors in Sourcegraph backend services should now use the new `github.com/sourcegraph/sourcegraph/internals/errors` package. This consolidation helps us restrict and control the ways that we can create, consume, and compare errors, and will allows us to control library behavior clashes more easily in the future. [#30558](https://github.com/sourcegraph/sourcegraph/pull/30558)
 
+#### Actor propagation reminder
+
+Unified actor propagation was introduced a few months ago as part of an effort to enable the implementation of [sub-repository permissions](https://github.com/sourcegraph/sourcegraph/issues/27916) across all Sourcegraph features.
+There have been gradual efforts to roll out this actor propagation to more services, which may cause behavioural changes that impact how permissions are handled if, for example, `internal` actors are not set explicitly.
+When implementing new features please ensure that actors are correctly set and read from contexts.
+
+To learn more, check out the [intro to actor propagation search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6OTI=).
+
 #### New `teams` package
 
 There is now a unified library for interacting with Sourcegraph teammates for whatever fun integrations you want to build! It leverages [`team.yaml`](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) data as well as additional GitHub and Slack metadata:
