@@ -49,3 +49,7 @@ We see Sourcegraph playing an important role in this emerging need for complexit
 If we achieve these, we make it easy for developers to get things done and, ultimately, ship great code.
 
 [1]: https://future.a16z.com/the-case-for-developer-experience/
+
+## Technology and defensibility
+
+On top of building features that are immediately useful to customers, Code graph is investing in key technology areas that will drive Sourcegraph's long term product differentiation and defensibility. Code Intelligence's technology and indexing capabilities, as well as Code Search's compute platform will provide the foundations for delivering a unique, hard to replicate experience across use cases and features, allowing developers to navigate, understand and manipulate their Code Graph.
