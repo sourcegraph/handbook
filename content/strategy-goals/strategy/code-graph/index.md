@@ -44,6 +44,7 @@ The situations we are trying to avoid are:
 - Good improvements don't get made because there isn't a way to build consensus around cross-cutting concerns.
 - We lose track of the big picture for important user flows because we plan and create at the team's horizon.
 - Work gets stuck because it is blocked waiting for other teams with different priorities.
+- Changes are made without consulting the team owning the area being changed
 
 Because the [Cloud org](../cloud/index.md) occasionally focuses on what would otherwise be considered core features within SourceGraph as they focus on growth, this principle extends to our collaboration with them.
 
