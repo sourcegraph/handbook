@@ -119,6 +119,11 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         return
     }
 
+    // Rewrite links on non-index pages to be relative
+    if (parsedUrl.pathname && !isOnIndexPage) {
+        parsedUrl.pathname = `../${parsedUrl.pathname}`
+    }
+
     // Rewrite index.md references to point to the directory
     if (parsedUrl.pathname?.match(/(^|\/)index\.md$/)) {
         parsedUrl.pathname = url.resolve(parsedUrl.pathname, '.') || '.'
@@ -132,9 +137,6 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
     parsedUrl.pathname = parsedUrl.pathname
         // Remove .md suffix
         ?.replace(/\.md$/, '')
-        // Our routing currently redirects trailing slash to non-trailing slash anyway, so trim it
-        // earlier to save a redirect
-        .replace(/\/$/, '')
 
     if (match.node.tagName === 'a') {
         const formattedInternalUrl = url.format(url.resolve(contextUrlPath, parsedUrl.pathname || ''))
