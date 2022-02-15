@@ -58,7 +58,7 @@ Recent key learnings:
 - Requests for adding precise support for more languages (often including the addition of cross-repository and cross-dependency navigation features).
 - Current manual setup is not straightforward, customers run into issues while setting up LSIF for their repositories. This varies per indexer maturity and language ecosystem complexity.
 - There have been reports about performance and scaling issues when indexing large monorepos.
-- Requests for a feature that helps visualize the code graph and its dependencies.
+- Requests for the ability to visualize the code graph and its dependencies.
 
 ### Competitive landscape
 
@@ -83,14 +83,14 @@ Recent key learnings:
 
 **Unlock dependency navigation**
 
-We believe this is the global code graph’s killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and undestand a new codebase (including the dependencies it relies on).
+We believe this is Code Intelligence's killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on).
 
-Taking it a step further, adding support for a wider set of artifactory hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
+Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
-- Accelerating [Developer onboarding](../use-cases/dev-onboarding.md) by enabling search for dependency versions and across transitive dependencies.
-- Monitoring [Code Health](../use-cases/code-health.md) by creating dependency tracking insights to detect deprecated dependency usage.
-- [Fixing security vulnerabilities](../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors, later applying a batch fix using Batch Changes.
-- Encourage [Code Reuse](../use-cases/code-reuse.md) by making precise navigation a medium for finding references to relevant usage examples.
+- Accelerating [Developer onboarding](../../use-cases/dev-onboarding.md) by enabling the ability to search over the full transitive dependency graph.
+- Monitor [Code Health](../../use-cases/code-health.md) by creating Code Insights that track deprecated dependency usages and version drift.
+- [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors, later applying a batch fix using Batch Changes.
+- Encourage [Code Reuse](../../use-cases/code-reuse.md) by making precise navigation the obvious way to find references to relevant usage examples.
 
 These are all currently in early stages of development and discussion. Read more about how we're thinking about the dependency graph in [RFC 593: Unlocking use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#heading=h.trqab8y0kufp).
 
@@ -112,7 +112,7 @@ We receive a significant amount of feedback around papercuts and potential impro
 
 ### How do these all tie together?
 
-Although the themes above might seem isolated or disconnected at a first glance, each one of them contributes to push forward our [Code Graph vision](../index.md). Auto-indexing serves a double purpose: it lowers the barrier to adoption by making precise code intelligence easier to configure, and also unlocks the ability to index dependencies (which play a central part in our current strategy). By adding more language support, combining it with adding artifactory hosts support, and improving our navigation features overall we're aiming to position Sourcegraph as a superior code navigation platform that goes beyond baseline expectations and creates delightful experiences for our users.
+Although the themes above might seem isolated or disconnected at a first glance, each one of them contributes to push forward our [Code Graph vision](../index.md). Auto-indexing serves a double purpose: it lowers the barrier to adoption by making precise code intelligence easier to configure, and also unlocks the ability to index dependencies (which play a central part in our current strategy). By adding more language support, combining it with adding package hosts support, and improving our navigation features overall we're aiming to position Sourcegraph as a superior code navigation platform that goes beyond baseline expectations and creates delightful experiences for our users.
 
 ### What's next and why
 
