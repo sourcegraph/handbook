@@ -28,6 +28,10 @@ Then start the handbook:
 yarn dev
 ```
 
+### Fetching GitHub data
+
+If you want to fetch GitHub data (used for the recent contributors list on the sidebar), you should set the environment variable `GITHUB_TOKEN` to a working personal access token, and set the `CONTEXT` environment variable to `production`.
+
 ### Using Docker
 
 You can run the handbook locally using Docker and the included Dockerfile. This won't require you to have a Node environment installed, you'll need only the Docker engine (Linux) or Docker Desktop (Windows and MacOS) installed.
