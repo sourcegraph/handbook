@@ -91,7 +91,7 @@ A link to the uploaded build trace is added as an annotation on the results of e
 
 To learn more, check out the [Pipeline command tracing docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-command-tracing).
 
-#### Test analytics
+#### Test analytics preview
 
 We have started rolling out Buildkite test analytics support for Go tests and a subset of frontend tests that get run in continuous integration. This is still an experimental Buildkite feature, but you can learn more about it in our [Test analytics docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#test-analytics).
 
@@ -126,7 +126,7 @@ Learn more about this in [this Loom demo](https://www.loom.com/share/601c226a8a9
 
 ### Local development
 
-#### Log entries now link to source VS Code
+#### Log entries now link to source in VS Code
 
 Each log entry now prints an iTerm link that links to each log statement's source file:line in VS Code ([#30439](https://github.com/sourcegraph/sourcegraph/pull/30439)).
 
