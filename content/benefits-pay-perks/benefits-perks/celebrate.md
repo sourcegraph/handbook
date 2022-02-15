@@ -23,18 +23,6 @@ We like to take the time to celebrate big milestones for teammates who have hit 
     - \*Requests for changes or additions to inventory cannot be facilitated at this time. This is being reviewed and updates will be posted!
     - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
 
-- In addition to anniversary gifts, managers can create [Kudoboards](https://www.kudoboard.com/) for their direct reports to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
-
-  - When creating the Kudoboard, the format should include:
-
-    - **Title**: Happy [insert number of year(s)] Anniversary, [first name of teammate]!
-    - **Delivery** **date**: set delivery of the Kudoboard to the day of their anniversary, in the morning/before work in their time zone. _(This is so they have something nice waiting in their inbox when they start work!)_
-
-  - Manager should pass Kudoboard along to the following people:
-
-    - Immediate team members
-    - Anyone the teammate regularly works with
-
 ### Gift amount policy for anniversaries
 
 Anniversary gifts should not exceed the following amounts per teammate and per year:
