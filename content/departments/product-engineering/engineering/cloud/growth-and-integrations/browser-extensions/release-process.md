@@ -107,3 +107,8 @@ Steps:
    1. Since our app communicates using https, we qualify for the export compliance. Select `Yes` and click `next`.
    1. Our use of encryption is exempt from regulations. Select `Yes` and click `next`.
 1. We can now click the `Save` button and `Submit for Review`.
+
+### Add status message to slack for public visibility for the org + history.
+
+1. Create a PR w/ updates for the `client/browser/Changelog.md`. See [example commit](https://github.com/sourcegraph/sourcegraph/commit/2683fae5671de24b2f8dda3504dac40904f9f913)
+1. Add a message to [#growth-and-integrations](https://sourcegraph.slack.com/archives/C01LZKLRF0C) slack channel, with updates in a thread on release updates. See [example message](https://sourcegraph.slack.com/archives/C01LZKLRF0C/p1637851520182400)
