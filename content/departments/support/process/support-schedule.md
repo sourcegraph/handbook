@@ -12,14 +12,14 @@ Our schedule is reflected in the working hours set in our calendars.
 
 | Team member | Local hours | UTC hours   | Pacific hours |
 | ----------- | ----------- | ----------- | ------------- |
-| Alex        | 9am–5pm     | 14:00–22:00 | 6am–2pm    |
+| Alex        | 9am–5pm     | 14:00–22:00 | 6am–2pm       |
 | Amber       | 9am–5pm     | 16:00–00:00 | 8am–4pm       |
 | Ben         | 9am–5pm     | 15:00–23:00 | 7am–3pm       |
 | Don         | 10am–6pm    | 15:00–23:00 | 7am–3pm       |
 | Gabe        | 9am–5pm     | 17:00–01:00 | 9am–5pm       |
 | Giselle     | 8am–4pm     | 16:00–24:00 | 8am–4pm       |
 | Jason       | 9am–5pm     | 15:00–23:00 | 7am–3pm       |
-| Kelvin      | 11am–7pm    | 19:00–03:00 | 11am–7pm |
+| Kelvin      | 11am–7pm    | 19:00–03:00 | 11am–7pm      |
 | Mariam      | 9am–5pm     | 09:00–17:00 | 1am–9am       |
 | Michael     | 8am–4pm     | 07:00–15:00 | 11pm–7am      |
 | Riana       | 9am–5pm     | 14:00–22:00 | 6am–2pm       |
@@ -38,11 +38,11 @@ We also hold Friday as a team-wide focus day. Friday is our slowest day and we c
 
 Fridays are covered in 3 time blocks:
 
-| Time block (in SLA hours Pacific hours) |Person covering | Local hours for the person covering  | UTC hours |
-| ----------- | ----------- | ----------- | ------------- |
-| 2am-7am  | Mariam     | 10am-3pm | 10:00-15:00    |
-| 7am-12pm        | Don    | 10am-3pm | 15:00-20:00    |
-| 12pm-5pm        | Kelvin    | 12pm-5pm | 20:00-01:00    |
+| Time block (in SLA hours Pacific hours) |Person covering | Local hours for the person covering  | UTC hours     |
+| --------------------------------------- | -------------- | ------------------------------------ | ------------- |
+| 2am-7am                                 | Mariam         | 10am-3pm                             | 10:00-15:00   |
+| 7am-12pm                                | Don            | 10am-3pm                             | 15:00-20:00   |
+| 12pm-5pm                                | Kelvin         | 12pm-5pm                             | 20:00-01:00   |
 
 Mariam also covers triage during the first time block. Brielle, Sarah, Shawnteé, and Virginia rotate who covers triage during the rest of the day (reflected each week on the team calendar).
 
