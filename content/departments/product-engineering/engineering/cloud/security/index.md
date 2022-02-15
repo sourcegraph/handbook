@@ -55,7 +55,7 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 ## CI/CD Pipeline Vulnerability Scanning
 
-- We are currently using Checkov.io to [scan our IaC](./checkov.md)
+- We are currently using Checkov.io to [scan our IaC](./checkov.md) and Trivy to scan containers (./trivy.md)
 
 ## How to work with us
 
@@ -227,3 +227,7 @@ The Security team manages risk via the [Information Security Risk Management Pol
 and the underlying [risk management process](security-risk-management-process.md).
 
 [0]: https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit
+
+# Misc Links
+
+- [Code Ownership Matrix] - (../../process/engineering_ownership.md)

@@ -8,6 +8,7 @@ Quick links:
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) (private until GA)
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
