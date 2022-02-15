@@ -12,6 +12,8 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
 - [How to Sell Cloud](sellcloud.md)
 - [Price and Incentives](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit?usp=sharing)
 - [Meetings](#meetings)
+- [Mutual Action Plan (MAP)](#mutual-action-plan)
+- [Return on Investment (ROI)](#return-on-investment)
 - [Day-to-Day Activities](#day-to-day-activities)
   - [Order Forms](#order-forms)
   - [Forecasting](#forecasting)
@@ -68,6 +70,32 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
      - Update your notes and SFDC.
      - Execute your next steps, calendar invite, summary email and agenda etc.
    - If you send a calendar invite, make sure to include an agenda for the meeting.
+
+
+### Mutual Action Plan
+
+In stage 2 or 3, depending on how the deal is progressing it is important that you align with the customer on a [MAP](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). Unless a deal is in the "Fast Lane" it can not progress to stage 4 without a MAP. The mutual action plan should be formed in partnership with the champion. It is an agreement with the customer on predictable actions to be taken on the process toward a close. Expect no two customers to have the same process in place to complete a deal. A few items common on MAPs include:
+
+    Trial training demo
+    Trial decision criteria checkin
+    Security review
+    Legal review
+    Business Value Analysis / Return on Investment
+    Trial feedback survey
+    Proposal for the executive team or executive buyer
+    Final signature on the ELA
+    Post sales support
+
+
+### Return on Investment
+In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). The spreadsheet is a space to catalogue Sourcegraph's value for a customer. Unlesss a deal is in the "Fast Lane" it can not progress to stage 5 without a ROI. From the initial call with a customer your discovery should be executed with the intent to uncover value. Building an ROI gives purpose to questions like:
+    
+    Who (how many people) does the problem impact?
+    What (how much time or money) is the cost of the problem?
+    What if you don't do anything about the problem?
+    How would Sourcegraph change your workflow?
+    How much do these 3rd party tools cost?
+
 
 ## Day-to-Day Activities
 
