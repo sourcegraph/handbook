@@ -34,15 +34,15 @@ Our schedule is reflected in the working hours set in our calendars.
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
-We also hold Friday as a team-wide focus day. Friday is our slowest day and we can remain responsive to customers while also granting space for folks to spend time on other things, however they see fit. 
+We also hold Friday as a team-wide focus day. Friday is our slowest day and we can remain responsive to customers while also granting space for folks to spend time on other things, however they see fit.
 
 Fridays are covered in 3 time blocks:
 
-| Time block (in SLA hours Pacific hours) |Person covering | Local hours for the person covering  | UTC hours     |
-| --------------------------------------- | -------------- | ------------------------------------ | ------------- |
-| 2am-7am                                 | Mariam         | 10am-3pm                             | 10:00-15:00   |
-| 7am-12pm                                | Don            | 10am-3pm                             | 15:00-20:00   |
-| 12pm-5pm                                | Kelvin         | 12pm-5pm                             | 20:00-01:00   |
+| Time block (in SLA hours Pacific hours) | Person covering | Local hours for the person covering | UTC hours   |
+| --------------------------------------- | --------------- | ----------------------------------- | ----------- |
+| 2am-7am                                 | Mariam          | 10am-3pm                            | 10:00-15:00 |
+| 7am-12pm                                | Don             | 10am-3pm                            | 15:00-20:00 |
+| 12pm-5pm                                | Kelvin          | 12pm-5pm                            | 20:00-01:00 |
 
 Mariam also covers triage during the first time block. Brielle, Sarah, Shawnteé, and Virginia rotate who covers triage during the rest of the day (reflected each week on the team calendar).
 
