@@ -38,3 +38,4 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 - [Device usage & privacy](process/team_device_usage_privacy.md)
 - [Internal security](process/internal-security/index.md)
 - [Computer setup](tools/computer-setup.md)
+- [Computer buyback program](process/buyback.md)

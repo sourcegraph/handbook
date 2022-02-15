@@ -9,6 +9,7 @@ Quicklinks:
 - [Code intelligence backlog](https://github.com/orgs/sourcegraph/projects/211)
 - [Latest demo](https://www.loom.com/share/b76c3ce971d9498197d4b664a20b20a8)
 - [Documentation](https://docs.sourcegraph.com/code_intelligence)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Code+intelligence%22)
 
 ## Mission, Vision & Guiding Principles
 
@@ -95,7 +96,7 @@ These tie back to [FY22 Q4 Product/Engineering OKRs](../../../goals/2022_Q4.md#p
 
 **Cross repository and dependency navigation**
 
-We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premise usage.
+We believe this is the global code graph’s killer feature. It elevates the code navigation experience to a new level of cross-project analysis. It includes enabling precise cross-repository navigation and the ability to navigate to any third party dependency a repository references. We're solving this initially on Sourcegraph Cloud and plan to replicate the same functionality for on-premises usage.
 
 **Auto-indexing on-prem goes into Beta:**
 
@@ -126,3 +127,9 @@ Conduct research that helps us understand adoption drivers and pain points with 
 - **Adding C#, Ruby and other precise language support:** Based on our team's bandwidth, skill set, market share and current associated ARR, we are not planning to work on these languages this year. We do however intend to add support for them in the middle term.
 
 - **Scale the C++ code graph:** Given the fragmented nature of the C/C++ environment we won’t be investing in improving C/C++ language support or scaling. We do however intend to revisit our solution in the future.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.code_intelligence}}

@@ -117,7 +117,7 @@ export async function generateFeatureCodeHostCompatibilities() {
     areaContent += '\n'
 
     for (const feature of Object.values(features)) {
-      if (feature.product_team === productTeamName) {
+      if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
         featureCount++
         if (feature.documentation_link) {
           areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
@@ -287,6 +287,65 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
+export async function generateProductTeamUseCaseList(product_team) {
+  const features = await readYamlFile('data/features.yml')
+  const useCases = await readYamlFile('data/use_cases.yml')
+  let pageContent = ''
+  let useCaseCount = 0
+  for (const [useCaseName, useCase] of Object.entries(useCases)) {
+    let useCaseContent = `### [${String(useCase.title)}](${String(useCase.link)})\n\n`
+    let featureCount = 0
+    for (const feature of Object.values(features)) {
+      if (feature.product_team === product_team) {
+        if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
+          if (feature.use_cases) {
+            if (feature.use_cases.includes(useCaseName)) {
+              useCaseCount++
+              featureCount++
+              if (feature.documentation_link) {
+                useCaseContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+              } else {
+                useCaseContent += `- ${String(feature.title)}\n`
+              }
+            }
+          }
+        }
+      }
+    }
+    if (featureCount > 0) {
+      pageContent += useCaseContent
+    }
+  }
+  if (useCaseCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
+export async function generateUseCaseFeatureList(use_case) {
+  const features = await readYamlFile('data/features.yml')
+  let pageContent = ''
+  let featureCount = 0
+  for (const feature of Object.values(features)) {
+    if (!['deprecated', 'not_implemented'].includes(feature.maturity)) {
+      if (feature.use_cases) {
+        if (feature.use_cases.includes(use_case)) {
+          featureCount++
+          if (feature.documentation_link) {
+            pageContent += `- [${String(feature.title)}](${String(feature.documentation_link)})\n`
+          } else {
+            pageContent += `- ${String(feature.title)}\n`
+          }
+        }
+      }
+    }
+  }
+  if (featureCount === 0) {
+    pageContent += '- None'
+  }
+  return pageContent
+}
+
 /**
  * Used in cases where a team in comprised of individuals who report to different
  * people, but work on the same thing.
@@ -317,21 +376,56 @@ export async function generateTeamOrgChart(team) {
 }
 
 export async function generateEngineeringOwnershipTable() {
-  const entries = await readYamlFile('data/engineering_ownership.yml')
-  let pageContent = ''
-  const addRow = colData => {
-    pageContent += `| ${String(colData.join(' | '))} |\n`
+  const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
+  const productTeams = await readYamlFile('data/product_teams.yml')
+  const productOrgs = await readYamlFile('data/product_orgs.yml')
+  let pageContent =
+    '|Category|Thing|Type|Org|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
+  pageContent += '|---|---|---|---|---|---|---|---|---|---|\n'
+  for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
+    pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
+    if (productOrgs[thing.product_org]) {
+      if (productOrgs[thing.product_org]) {
+        pageContent += `|[${String(productOrgs[thing.product_org].title)}](${String(
+          productOrgs[thing.product_org].strategy_link
+        )})`
+      } else {
+        pageContent += `|${String(productOrgs[thing.product_org].title)}`
+      }
+    } else {
+      pageContent += '|'
+    }
+    if (productTeams[thing.product_team]) {
+      if (productTeams[thing.product_team].strategy_link) {
+        pageContent += `|[${String(productTeams[thing.product_team].title)}](${String(
+          productTeams[thing.product_team].strategy_link
+        )})`
+      } else {
+        pageContent += `|${String(productTeams[thing.product_team].title)}`
+      }
+    } else {
+      pageContent += '|'
+    }
+    pageContent += `|${String(thing.domain_experts || '')}|${String(thing.slack_channels || '')}`
+    pageContent += `|${String(thing.ownership_model || '')}|${String(thing.health || '')}`
+    pageContent += `|${String(thing.product_lifecycle || '')}`
+    pageContent += '|\n'
   }
 
-  const columnNames = Object.keys(entries[0] || {})
-  addRow(columnNames)
+  return pageContent
+}
 
-  const splitters = columnNames.map(() => '---')
-  addRow(splitters)
+export async function generateGlossary() {
+  const glossarySections = await readYamlFile('data/glossary.yml')
+  let pageContent = ''
 
-  for (const entry of entries) {
-    const colData = columnNames.map(name => entry[name])
-    addRow(colData)
+  for (const [sectionName, section] of Object.entries(glossarySections)) {
+    pageContent += `## ${String(sectionName.charAt(0).toUpperCase() + sectionName.slice(1))} terms\n\n`
+    pageContent += '|Term|Definition|\n|----|----------|\n'
+    for (const entry of section) {
+      pageContent += `|${String(entry.term)}|${String(entry.definition)}|\n`
+    }
+    pageContent += '\n'
   }
 
   return pageContent

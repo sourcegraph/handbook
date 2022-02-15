@@ -8,11 +8,13 @@ Quick links:
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) (private until GA)
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
 - [Product Marketing Brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) (internal only)
 - Documentation - ask in #code-insights (internal) or your Sourcegraph contact (external)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Code+insights%22)
 
 ## Mission, Vision, and Guiding Principles
 
@@ -221,3 +223,9 @@ In order to focus and have a successful initial launch, the Code Insights team i
 - Custom Extension Insights: while some Sourcegraph extensions do and can contribute Code Insights, we're not focused on third-party contributed insights because of the limited excitement initial users had for them. We _may_ explore this in FY23H1.
 - Integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all Code Insights users first.
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.code_insights}}

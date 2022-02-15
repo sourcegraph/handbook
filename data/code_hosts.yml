@@ -17,7 +17,7 @@ github_enterprise:
   info_link: https://github.com
 
 bitbucket_server:
-  title: BitBucket Server
+  title: BitBucket Server and Bitbucket Data Center
   info_link: https://bitbucket.org/
 
 bitbucket_cloud:

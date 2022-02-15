@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema/use_cases.schema.json
+
+developer_onboarding:
+  title: Developer Onboarding
+  link: /strategy-goals/strategy/use_cases/dev-onboarding
+
+code_reuse:
+  title: Code Reuse
+  link: /strategy-goals/strategy/use_cases/code_reuse
+
+code_health:
+  title: Code Health
+  link: /strategy-goals/strategy/use_cases/code_health
+
+fixing_security_vulnerabilities:
+  title: Fixing Security Vulnerabilities
+  link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
+
+incident_response:
+  title: Incident Response
+  link: /strategy-goals/strategy/use_cases/incident_response

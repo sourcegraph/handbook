@@ -56,6 +56,12 @@ export const EditSection: React.FunctionComponent<EditSectionProps> = ({ page })
                 </div>
             )}
             <div className="sidebar-bottom-links">
+                <Link
+                    href={`https://sourcegraph.com/search?q=context:global+repo:%5Egithub.com/sourcegraph/handbook%24+file:${CONTENT_FOLDER}/${pagePath}+type:diff+rev:main&patternType=literal`}
+                >
+                    Page history as diffs
+                </Link>
+                <br />
                 <Link href={`https://github.com/sourcegraph/handbook/edit/main/${CONTENT_FOLDER}/${pagePath}`}>
                     Edit this page
                 </Link>
