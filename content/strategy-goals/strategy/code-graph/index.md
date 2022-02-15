@@ -32,6 +32,7 @@ There are a few key principles that inform how we think about the features we bu
 - 🚀 **Fast**: For our product to be effective, it must be fast. We will continually improve our performance regardless of the size and complexity of data we index.
 - ✅ **Relevant**: In order to be useful, we need to be relevant. Our features will be the most accurate, relevant, and informative results possible.
 - 🧠 **Educational**: For everyone to be able to code, we need to foster a culture of knowledge sharing. We are in a unique position to leverage search to increase code sharing and education, empowering communities of self-learners.
+- 🔬 **Innovative**: On top of building features that are immediately useful to customers, invest in key technology areas that drive Sourcegraph's long term product differentiation and defensibility, such as Code Intelligence's technology and indexing capabilitie and Code Search's compute platform.
 
 ### Abstraction vs. complexity
 
@@ -49,7 +50,3 @@ We see Sourcegraph playing an important role in this emerging need for complexit
 If we achieve these, we make it easy for developers to get things done and, ultimately, ship great code.
 
 [1]: https://future.a16z.com/the-case-for-developer-experience/
-
-## Technology and defensibility
-
-On top of building features that are immediately useful to customers, Code graph is investing in key technology areas that will drive Sourcegraph's long term product differentiation and defensibility. Code Intelligence's technology and indexing capabilities, as well as Code Search's compute platform will provide the foundations for delivering a unique, hard to replicate experience across use cases and features, allowing developers to navigate, understand and manipulate their Code Graph.
