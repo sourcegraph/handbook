@@ -32,6 +32,7 @@ There are a few key principles that inform how we think about the features we bu
 - 🚀 **Fast**: For our product to be effective, it must be fast. We will continually improve our performance regardless of the size and complexity of data we index.
 - ✅ **Relevant**: In order to be useful, we need to be relevant. Our features will be the most accurate, relevant, and informative results possible.
 - 🧠 **Educational**: For everyone to be able to code, we need to foster a culture of knowledge sharing. We are in a unique position to leverage search to increase code sharing and education, empowering communities of self-learners.
+- 🔬 **Innovative**: On top of building features that are immediately useful to customers, invest in key technology areas that drive Sourcegraph's long term product differentiation and defensibility, such as Code Intelligence's [technology](code-intelligence#competitive-landscape) and Code Search's compute platform.
 
 ### User-focused workflows
 
