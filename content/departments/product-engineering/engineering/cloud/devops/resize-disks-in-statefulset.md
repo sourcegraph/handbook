@@ -40,6 +40,7 @@ kubectl patch pvc repos-gitserver-0 -n prod -p '{ "spec": { "resources": { "requ
 ```
 
 6. Ensure that all resized persistent volumes, persistent volume claims and google disks has new value:
+
 ```
 kubectl get pv
 kubectl get pvc -n prod
@@ -54,7 +55,8 @@ Important: without `--cascade='orphan'` you will lose the PVs! (But not the GCP 
 kubectl delete sts gitserver --cascade=orphan -n prod
 ```
 
-8. Modify  and deploy StatefulSet with extended disk sizes (change `storage` to `<new size>` in this example):
+8. Modify and deploy StatefulSet with extended disk sizes (change `storage` to `<new size>` in this example):
+
 - in [StatefulSet](https://k8s.sgdev.org/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/base/gitserver/gitserver.StatefulSet.yaml?L148)
 - in persistent volumes files: https://k8s.sgdev.org/github.com/sourcegraph/deploy-sourcegraph-cloud/-/tree/base/gitserver (all files with `repos-gitserver-[NUMBER].PersistentVolume.yaml` names)
 - deploy via [buildkite job](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud)
