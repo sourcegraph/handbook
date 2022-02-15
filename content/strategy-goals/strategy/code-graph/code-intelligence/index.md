@@ -83,7 +83,7 @@ Recent key learnings:
 
 **Unlock dependency navigation**
 
-We believe this is Code Intelligence's killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on).
+We believe this is Code Intelligence's killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on).
 
 Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
