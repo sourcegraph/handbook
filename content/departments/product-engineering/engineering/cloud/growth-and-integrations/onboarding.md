@@ -1,6 +1,6 @@
 # New Team Member Onboarding
 
-In addition to [Sourcegraph's general onboarding](https://handbook.sourcegraph.com/company-info-and-process/onboarding) there are some specific tasks and material relevant to the Growth and Integrations team.
+In addition to [Sourcegraph's general onboarding](../../../../../company-info-and-process/onboarding/index.md) there are some specific tasks and material relevant to the Growth and Integrations team.
 
 ## Tools
 
