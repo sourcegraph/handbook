@@ -377,7 +377,7 @@ code_insights:
     github_enterprise: true
     bitbucket_server: true
     bitbucket_cloud: true
-    phabricator: true
+    phabricator: partial
     codecommit: true
     gitolite: true
     gerrit: true
