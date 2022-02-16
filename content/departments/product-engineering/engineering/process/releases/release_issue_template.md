@@ -68,7 +68,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 
 - [ ] Post in #delivery channel asking for release candidate to be deployed to a test managed instance
 
-## Release Day
+## Release Day ($RELEASE_DATE)
 
 ### Stage release
 
