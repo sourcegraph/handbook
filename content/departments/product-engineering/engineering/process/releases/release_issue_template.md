@@ -61,6 +61,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 - Sourcegraph: `https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.N`
 
 - [ ] Post a release status update to Slack:
+
   ```sh
   yarn release release:status
   ```
