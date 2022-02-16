@@ -431,8 +431,6 @@ export async function generateGlossary() {
   return pageContent
 }
 
-
-
 export async function generateDeploymentOptions() {
   const features = await readYamlFile('data/features.yml')
   const productTeams = await readYamlFile('data/product_teams.yml')
@@ -483,7 +481,7 @@ export async function generateDeploymentOptions() {
           console.log(feature.deployment)
           if (feature.deployment === undefined) {
             areaContent += ' |'
-          } else if (feature.deployment[deploymentOption] === 'ga' ) {
+          } else if (feature.deployment[deploymentOption] === 'ga') {
             areaContent += '✔️|'
           } else {
             areaContent += `${String(maturityLevels[feature.deployment[deploymentOption]].title)}|`
