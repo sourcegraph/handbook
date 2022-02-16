@@ -41,7 +41,7 @@ The following table includes the recommended usage for cryptographic keys:
   <tr>
     <td>Web Cipher</td>
     <td>Encryption</td>
-    <td>AES_128_GCM*</td>
+    <td>AES_128_GCM *</td>
     <td>128 bit</td>
     <td>N/A</td>
   </tr>
@@ -62,13 +62,15 @@ The following table includes the recommended usage for cryptographic keys:
   <tr>
     <td>Laptop HDD</td>
     <td>Encryption</td>
-    <td>XTS-AES-128</td>
+    <td>XTS-AES-128 **</td>
     <td>256 bit</td>
     <td>N/A</td>
   </tr>
 </table>
 
-\*\* This is provided via the TLS 1.3 stack using the TLS_AES_128_GCM_SHA256 Cipher Suite.
+\* This is provided via the TLS 1.3 stack using the TLS_AES_128_GCM_SHA256 Cipher Suite.
+
+\*\* Please see [Computer Standards](../../../../tech-ops/process/internal-security/computer-standards.md) for more information.
 
 ## Exceptions
 
