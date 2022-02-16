@@ -28,8 +28,8 @@
       "deployment": {
         "type": "object",
         "additionalProperties": {
-            "type": "string",
-            "enum": ["ga", "partial_ga", "beta", "experimental", "not_implemented", "deprecated"]
+          "type": "string",
+          "enum": ["ga", "partial_ga", "beta", "experimental", "not_implemented", "deprecated"]
         }
       }
     },
