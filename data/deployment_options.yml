@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=../schema/deployment_options.schema.json
+
 self_hosted:
   title: Self-hosted
 managed_instance:
