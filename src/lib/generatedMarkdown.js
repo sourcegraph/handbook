@@ -502,20 +502,20 @@ export async function generateGuildRoster(guildReference) {
   const teamMembers = await readYamlFile('data/team.yml')
 
   let pageContent = ''
-  let guild = guilds[guildReference]
+  const guild = guilds[guildReference]
 
   pageContent += '## Members\n'
-  const leaderRef = guild.leader
+  const leaderReference = guild.leader
   const teamLinkPrefix = '../../../../../'
-  if (leaderRef) {
-    const name = teamMembers[leaderRef].name
+  if (leaderReference) {
+    const name = teamMembers[leaderReference].name
     pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))}) - Guild Leader\n`
   }
-  for (const memberRef of guild.member_refs) {
-    if (memberRef === leaderRef) {
+  for (const memberReference of guild.member_refs) {
+    if (memberReference === leaderReference) {
       continue
     }
-    const name = teamMembers[memberRef].name
+    const name = teamMembers[memberReference].name
     pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))})\n`
   }
 
