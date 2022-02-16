@@ -1,10 +1,10 @@
 # Release guild
 
-The release guild is a collection of teammates that serve as [release captain](../index.md#Release-captain) for Sourcegraph releases. The guild
+The release guild is a collection of teammates that serve as [release captain](index.md#release-captain) for Sourcegraph releases. The guild
 was formed to establish a cross-team working group of engineers that own the release process. The guild is currently
 chartered to act through Q1 and Q2 of FY23; however, there is no current sunset date for the guild.
 
-The release-guild can be found in the slack channel #release-guild.
+The release guild can be found in the slack channel #release-guild.
 
 ## Release captain selection
 
