@@ -130,9 +130,11 @@ Learn more about this in [this Loom demo](https://www.loom.com/share/601c226a8a9
 
 Each log entry now prints an iTerm link that links to each log statement's source file:line in VS Code ([#30439](https://github.com/sourcegraph/sourcegraph/pull/30439)).
 
-#### Experimental workaround for MacOS firewalls
+#### Workaround for MacOS firewalls
 
-A new `-add-to-macos-firewall` flag is now available on `sg start` and `sg run` to avoid all those pop-up prompts you get in MacOS when firewalls are enabled. [#30747](https://github.com/sourcegraph/sourcegraph/pull/30747)
+A new `-add-to-macos-firewall` flag, [enabled by default on MacOS](https://github.com/sourcegraph/sourcegraph/pull/31299), is now available on `sg start` and `sg run` to avoid all those pop-up prompts you get in MacOS when firewalls are enabled. [#30747](https://github.com/sourcegraph/sourcegraph/pull/30747)
+
+If this causes issues for you, the behaviour can be disabled with `-add-to-macos-firewall=false`.
 
 #### `sg` highlights
 
