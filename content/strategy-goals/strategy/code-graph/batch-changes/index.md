@@ -133,7 +133,7 @@ We have multiple dependencies on other teams that require an explicit plan that 
 
 - **Education material about code change tools:** Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
 
-- **Batch Changes on Cloud:** Making Batch Changes available on Cloud is not on our roadmap for FY23, and is tentatively planned for FY24. 
+- **Batch Changes on Cloud:** Making Batch Changes available on Cloud is not on our roadmap for FY23, and is tentatively planned for FY24.
 
 In general, we tend to focus on features that we can build for multiple codehosts in a relatively homogenous manner, and avoid codehost-specific features.
 
