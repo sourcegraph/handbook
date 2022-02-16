@@ -38,6 +38,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
+- [Disaster Recovery](disaster-recovery.md)
 
 ## How to contact the team and ask for help
 
