@@ -48,14 +48,6 @@ for (const feature of Object.values(features)) {
             }
         }
     }
-    if (feature.deployment) {
-        for (const deploymentOption of Object.values(feature.deployment)) {
-            if (!Object.prototype.hasOwnProperty.call(deploymentOptions, deploymentOption)) {
-                console.log(`Feature contains unknown code host: ${JSON.stringify(feature)}`)
-                errors++
-            }
-        }
-    }
 }
 
 // iterate through product teams and make sure they point to valid product orgs and team members
