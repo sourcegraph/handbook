@@ -51,7 +51,9 @@ for (const feature of Object.values(features)) {
     if (feature.deployment) {
         for (const deploymentOption of Object.keys(feature.deployment)) {
             if (!Object.prototype.hasOwnProperty.call(deploymentOptions, deploymentOption)) {
-                console.log(`Feature contains unknown deployment option ${String(deploymentOption)}: ${JSON.stringify(feature)}`)
+                console.log(
+                    `Feature contains unknown deployment option ${String(deploymentOption)}: ${JSON.stringify(feature)}`
+                )
                 errors++
             }
         }
