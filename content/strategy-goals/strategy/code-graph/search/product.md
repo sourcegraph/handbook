@@ -15,6 +15,7 @@ Quicklinks:
 Sourcegraph is the leading code search product in the market, used by tens of thousands of developers across enterprises of all sizes. It has advanced, novel search capabilities, such as [structural search](https://learn.sourcegraph.com/how-to-use-structural-search-in-sourcegraph) and [diff/commit search](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTI=), as well as capabilities that extend search, such as [Code monitors](https://docs.sourcegraph.com/code_monitoring).
 
 <!-- TODO: fix up docs link to go to Notebooks when docs PR is merged -->
+
 We've launched [Notebooks](https://sourcegraph.com/notebooks?tab=explore) in public beta. You can create and share Notebooks with a free Sourcegraph cloud account. Read more about Notebooks in the [docs](https://docs.sourcegraph.com). This quarter will also see a [Code monitors](https://sourcegraph.com/code-monitoring?visible=4) release featuring a 10,000 repository limit on monitors (a 200x increase), major peformance improvements, multiple actions per monitor, Slack integration, and webhook support.
 
 ## What's next and why
@@ -22,7 +23,9 @@ We've launched [Notebooks](https://sourcegraph.com/notebooks?tab=explore) in pub
 ### FY23Q1
 
 #### Goals
+
 Expand the core platform functionality with products and features that address our core [use cases](../../../strategy/use-cases/index.md). Sourcegraph needs to continue to differentiate its core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search. We must provide compelling solutions for the most pressing use cases of our customers. Our goal is to ensure the base Sourcegraph platform (currently Search, Notebooks, and Code monitors) continues to become more compelling and differentiated and supports future innovation from our team and across Sourcegraph.
+
 - Support customers in onboarding new developers and sharing best practices, via Notebooks
 - Enable more connectivity to Sourcegraph via webhooks and Slack integration
 - Continue to improve our core platform experience by continuing to invest in the existing products and features, performance, and experimental R&D efforts that leverage our core search competency.
