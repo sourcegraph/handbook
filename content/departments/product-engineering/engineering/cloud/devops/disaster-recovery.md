@@ -10,7 +10,7 @@ Disaster Recovery process contains playbooks for different components:
   - [Google Secret Manager backup process](#google-secret-manager-backup-process)
   - [Google Secret Manager restore process](#google-secret-manager-restore-process)
 - [GKE Kubernetes](#gke-kubernetes)
-  - [Install velero in GKE Kubernetes](#install-velero-in-gke-kubernetes)
+  - [Install Velero in GKE Kubernetes](#install-velero-in-gke-kubernetes)
   - [GKE Kubernetes backup process](#gke-kubernetes-backup-process)
     - [On demand backup steps](#on-demand-backup-steps)
     - [Scheduled backup steps](#scheduled-backup-steps)
@@ -191,7 +191,7 @@ Google Kubernetes cluster is the platform for all applications. Applications are
 
 Sourcegraph uses open source tool [Velero](https://velero.io/) to backup and restore GKE Kubernetes cluster state and GCP disk snapshots.
 
-## Install velero in GKE Kubernetes
+## Install Velero in GKE Kubernetes
 
 Note: original documentation from [Velero](https://github.com/vmware-tanzu/velero-plugin-for-gcp#setup)
 
@@ -273,6 +273,8 @@ velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.
 Note: installation instructions for [Velero cli](https://velero.io/docs/v1.8/basic-install/)
 
 ## GKE Kubernetes backup process
+
+GKE Kubernetes backup process is performed by [Velero](https://github.com/vmware-tanzu/velero-plugin-for-gcp#setup) tool.
 
 ### On demand backup steps
 
