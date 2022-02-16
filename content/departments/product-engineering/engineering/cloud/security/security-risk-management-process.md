@@ -24,7 +24,7 @@ you do not have access and believe you might require it, email
 
 ## Information Security Risk Committee
 
-The Information Security Risk Committee exists to discuss the management of 
+The Information Security Risk Committee exists to discuss the management of
 information security risks across the organization. They are responsible for the
 regular review of Sourcegraph's information security risk profile as required by
 the Information Security Risk Policy.
