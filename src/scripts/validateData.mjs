@@ -18,6 +18,7 @@ const productOrgs = await readYamlFile('data/product_orgs.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
 const useCases = await readYamlFile('data/use_cases.yml')
+const deploymentOptions = await readYamlFile('data/deployment_options.yml')
 
 let errors = 0
 
@@ -42,6 +43,14 @@ for (const feature of Object.values(features)) {
     if (feature.code_hosts) {
         for (const codeHost of Object.values(feature.code_hosts)) {
             if (!Object.prototype.hasOwnProperty.call(codeHosts, codeHost)) {
+                console.log(`Feature contains unknown code host: ${JSON.stringify(feature)}`)
+                errors++
+            }
+        }
+    }
+    if (feature.deployment) {
+        for (const deploymentOption of Object.values(feature.deployment)) {
+            if (!Object.prototype.hasOwnProperty.call(deploymentOptions, deploymentOption)) {
                 console.log(`Feature contains unknown code host: ${JSON.stringify(feature)}`)
                 errors++
             }

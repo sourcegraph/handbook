@@ -300,6 +300,10 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:glossary}}/gi,
             await Promise.resolve(generatedMarkdown.generateGlossary())
         )
+        markdown = markdown.replace(
+            /{{generator:deployment_options}}/gi,
+            await Promise.resolve(generatedMarkdown.generateDeploymentOptions())
+        )
     }
     return markdown
 }

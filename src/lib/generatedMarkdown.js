@@ -430,3 +430,71 @@ export async function generateGlossary() {
 
   return pageContent
 }
+
+
+
+export async function generateDeploymentOptions() {
+  const features = await readYamlFile('data/features.yml')
+  const productTeams = await readYamlFile('data/product_teams.yml')
+  const productOrgs = await readYamlFile('data/product_orgs.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+  const deploymentOptions = await readYamlFile('data/deployment_options.yml')
+  const maturityLevels = await readYamlFile('data/maturity_levels.yml')
+  let pageContent = ''
+
+  for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
+    let featureCount = 0
+    let areaContent = `\n### ${String(productTeam.title)}\n`
+    const productOrg = productOrgs[productTeam.product_org]
+    if (productOrg.strategy_link) {
+      const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
+      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(strategyUrl)}) | `
+    }
+    if (productTeam.strategy_link) {
+      areaContent += `[${String(productTeam.title)} Strategy](${String(
+        createRelativeProductLink(productTeam.strategy_link)
+      )}))\n`
+    }
+    if (productTeam.pm) {
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
+      areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
+    }
+
+    areaContent += '\n|Feature|'
+    for (const deploymentOption of Object.values(deploymentOptions)) {
+      areaContent += `${String(deploymentOption.title)} |`
+    }
+    areaContent += '\n|-------|'
+    for (let index = 0; index < Object.values(deploymentOptions).length; index++) {
+      areaContent += '-|'
+    }
+    areaContent += '\n'
+
+    for (const feature of Object.values(features)) {
+      if (feature.product_team === productTeamName && feature.deployment !== undefined) {
+        featureCount++
+        if (feature.documentation_link) {
+          areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
+        } else {
+          areaContent += `|${String(feature.title)}`
+        }
+        areaContent += '|'
+        for (const deploymentOption of Object.keys(deploymentOptions)) {
+          console.log(feature.deployment)
+          if (feature.deployment === undefined) {
+            areaContent += ' |'
+          } else if (feature.deployment[deploymentOption] === 'ga' ) {
+            areaContent += '✔️|'
+          } else {
+            areaContent += `${String(maturityLevels[feature.deployment[deploymentOption]].title)}|`
+          }
+        }
+        areaContent += '\n'
+      }
+    }
+    if (featureCount > 0) {
+      pageContent += areaContent
+    }
+  }
+  return pageContent
+}
