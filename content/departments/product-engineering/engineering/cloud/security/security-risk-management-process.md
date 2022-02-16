@@ -37,11 +37,11 @@ Sourcegraph's Information Security Risk Committee is currently comprised of:
 - [Nick Snyder][6], VP Engineering
 - [Tammy Zhu][7], Diector of Legal
 
-[3]: https://handbook.sourcegraph.com/team#christina-forney
-[4]: https://handbook.sourcegraph.com/team#dan-adler
-[5]: https://handbook.sourcegraph.com/team#diego-comas
-[6]: https://handbook.sourcegraph.com/team#nick-snyder
-[7]: https://handbook.sourcegraph.com/team#tammy-zhu
+[3]: ../../../../../team/index.md#christina-forney
+[4]: ../../../../../team/index.md#dan-adler
+[5]: ../../../../../team/index.md#diego-comas
+[6]: ../../../../../team/index.md#nick-snyder
+[7]: ../../../../../team/index.md#tammy-zhu
 
 ## Risk identification
 
