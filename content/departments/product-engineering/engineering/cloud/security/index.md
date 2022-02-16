@@ -221,6 +221,27 @@ In an effort to work closely with our teammates and shift security focus more in
 - [Read about our methodology and process.](process.md)
 - [Security Support Rotation](security-support-rotation.md)
 
+## Slack acknowledgement
+
+It is essential to remove assumptions/uncertainty around whether teammates have seen, understood, or acted on a message in an async-first communication environment.
+To assist in this regard, we provide the following guideline for teammates to follow when communicating and responding in Slack.
+
+**The most important thing to remember is not which emoji to use, but rather to remember to acknowledge and do it unambiguously.**
+
+_When acknowledging a request:_
+
+- `:thumbsup:` (👍) = I see the request and will action it
+- `:white_check_mark:` (✅) = I have completed my action on the request
+
+_When acknowledging a statement:_
+
+- `:thumbsup:` 👍 = I agree with the statement or I have taken note of it
+- `:thumbsdown:` 👎 = I disagree with a statement—encouraged to always follow up with a written response
+
+_When acknowledging a question:_
+
+You should provide a written response unless it's a simple yes/no question, in which case `:thumbs-up:` (👍)/`:thumbs-down:` (👎) is acceptable.
+
 ## Risk management
 
 The Security team manages risk via the [Information Security Risk Management Policy][0]
