@@ -30,6 +30,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 See the [Operations OKRs](../../strategy-goals/goals/2023_Q1.md#operations-bizops-finance-techops-legal-peopleops) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
 
 OBJECTIVE: Empower the business through better visibility of data
+
 - KR: Multi-touch attribution is in place
 - KR: Understanding of what customer attributes and Sourcegraph actions drive higher close/renewal rates or adoption/consumption, and for CE to put those findings into practice
 - KR: Understanding of what user actions drive Cloud account setups (or retention), and for Product and Commercial Sales to put those findings into practice
