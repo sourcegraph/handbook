@@ -888,18 +888,6 @@ adeola_akinsiku:
   links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270), [Readme](../../support/bios/adeola-readme.md)'
   description: Adeola joins Sourcegraph fresh out of an engineering bootcamp after years of doing work that she never felt challenged or very excited about. Having studied Finance in undergrad, she knows a thing or two about credit and managing money, but really loves to talk about all things code. Adeola finds life to be awfully boring without purpose and meaning, and strives to become a better person both professionally and personally everyday. Real connections mean a lot to Adeola and she loves to engage with people who feel the same way. Outside of work, she loves going out to eat, watching basketball, sniffing candles, reading and relaxing.
 
-patrick_dubroy:
-  name: Patrick Dubroy
-  pronouns: he/him
-  role: Engineering Manager, Frontend platform
-  reports_to: engineering_manager_web
-  manager_role_slug: engineering_manager_frontend_platform
-  location: Munich, Germany 🇩🇪
-  github: pdubroy
-  email: patrick@sourcegraph.com
-  links: '[Twitter](https://twitter.com/dubroy), [LinkedIn](https://www.linkedin.com/in/pdubroy), [dubroy.com](https://dubroy.com/)'
-  description: "Patrick is a small-town Canadian kid who's been living in Germany for the past 10 years. Previously, he worked on autonomous driving at Lyft, where he was an enthusiastic user of Sourcegraph. Outside of work, he loves to play soccer, watch [Bayern Munich](https://fcbayern.com/) games, and explore the gravel roads around Munich on his bike."
-
 beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
@@ -2208,6 +2196,12 @@ engineering_manager_content_platform:
   role: (Interim) Engineering Manager, Content Platform
   reports_to: engineering_manager_web
   manager_role_slug: engineering_manager_content_platform
+
+engineering_manager_frontend_platform:
+  name: Jean du Plessis
+  role: (Interim) Engineering Manager, Frontend Platform
+  reports_to: engineering_manager_web
+  manager_role_slug: engineering_manager_frontend_platform
 
 Daniel_Gwyn:
   name: Daniel Gwyn
