@@ -43,6 +43,13 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 ---
 
+## How we ensure that we release our product without high or critical vulnerabilities
+
+- We scan our containers and IaC as defined in the CI/CD Pipeline Vulnerability Scanning section below.
+- As part of the release process, we will conduct a full manual scan of our product using Trivy and Checkov.
+- Any high and critical vulnerabilities will need to be addressed before releasing.
+- The artifacts from the scans are then archived.
+
 ## How we are improving and investing in product security
 
 - We are growing our security team to expand, develop and mature the security program
@@ -55,7 +62,7 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 ## CI/CD Pipeline Vulnerability Scanning
 
-- We are currently using Checkov.io to [scan our IaC](./checkov.md) and Trivy to scan containers (./trivy.md)
+- We are currently using Checkov.io to [scan our IaC](./checkov.md) and [Trivy](./trivy.md) to scan containers.
 
 ## How to work with us
 
