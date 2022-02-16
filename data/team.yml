@@ -2197,6 +2197,12 @@ engineering_manager_content_platform:
   reports_to: engineering_manager_web
   manager_role_slug: engineering_manager_content_platform
 
+engineering_manager_frontend_platform:
+  name: Jean du Plessis
+  role: (Interim) Engineering Manager, Frontend Platform
+  reports_to: engineering_manager_web
+  manager_role_slug: engineering_manager_frontend_platform
+
 Daniel_Gwyn:
   name: Daniel Gwyn
   email: daniel.gwyn@sourcegraph.com
