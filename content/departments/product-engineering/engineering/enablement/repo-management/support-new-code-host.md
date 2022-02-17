@@ -2,7 +2,7 @@
 
 Sourcegraph currently supports a number of different [code hosts](https://docs.sourcegraph.com/admin/external_service).
 
-Not all code hosts are supported "natively". What we mean by this is that the code host type is listed an an option in our UI and it seamless to add.  In some cases it is possible to work around this if the code host is based on `git`, in which case it can be added via our [other git repository hosts](https://docs.sourcegraph.com/admin/external_service/other) mechanism.
+Not all code hosts are supported "natively". What we mean by this is that the code host type is listed an an option in our UI and it seamless to add. In some cases it is possible to work around this if the code host is based on `git`, in which case it can be added via our [other git repository hosts](https://docs.sourcegraph.com/admin/external_service/other) mechanism.
 
 The following are the list of changes required to nativley support another code host type.
 
@@ -47,6 +47,6 @@ The implementation can vary a lot depending on the specifics of each code host, 
 
 ## Considerations
 
-* Converting to `git` from another source can take a long time
-* Incremetnal importing is necessary so that changes can be pulled more frequently
-* Concepts like branches sometimes don't map directly to the way they are supported in `git`
+- Converting to `git` from another source can take a long time
+- Incremetnal importing is necessary so that changes can be pulled more frequently
+- Concepts like branches sometimes don't map directly to the way they are supported in `git`
