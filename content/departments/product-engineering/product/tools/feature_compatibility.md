@@ -4,17 +4,17 @@ data_source_2: [/data/product_teams.yml, product teams]
 hide_sidebar: true
 ---
 
-# Product Feature Compatibility
+# Code host compatibility
 
 This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.
 You may also be interested in seeing our [feature maturity](feature_maturity.md) matrix.
 
 Note that this page only lists features that have an incompatibility with a code host; if a feature is not listed here it can be assumed to be compatible with every code host.
 
-## Code Hosts
+## List of code hosts
 
 {{generator:code_hosts_list}}
 
-## Code host compatibility
+## Compatibility matrix
 
 {{generator:feature_code_host_compatibilities}}
