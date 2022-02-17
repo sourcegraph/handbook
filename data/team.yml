@@ -935,9 +935,9 @@ sam_cregg:
 indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
-  role: Software Engineer, Core Application
+  role: Software Engineer
   reports_to: software_engineering_manager
-  location: Kolkata, India, 🇮🇳
+  location: Kolkata, India 🇮🇳
   github: indradhanush
   email: indradhanush@sourcegraph.com
   links: '[Twitter](https://twitter.com/indradhanush92), [indradhanush.github.io](https://indradhanush.github.io)'
