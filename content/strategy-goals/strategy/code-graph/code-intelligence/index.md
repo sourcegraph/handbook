@@ -1,6 +1,6 @@
 # Code intelligence strategy
 
-Code intelligence provides features and services that help developers better understand and navigate code. This page outlines the vision, strategy and goals of the Code intelligence team.
+Code intelligence provides features and services that help developers better understand and navigate code. This page outlines the vision, strategy and goals of the Code intelligence team over the next year or so.
 
 Quicklinks:
 

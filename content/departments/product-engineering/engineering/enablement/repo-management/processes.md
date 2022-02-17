@@ -49,6 +49,8 @@ Kanban means we maintain a backlog of work we want to complete, prioritized in s
 
 This allows us to be flexible about what's up next, but still protect the sanctity of concentration and focus by avoiding (as much as we can) in-flight work from being dropped in favor of something else.
 
+For larger pieces of work we utilise [tracking issues](../../process/tracking_issues.md), for [example](https://github.com/sourcegraph/sourcegraph/issues/27916).
+
 We work in 2 week cycles, and have the following ceremonies:
 
 1. Planning (biweekly)
