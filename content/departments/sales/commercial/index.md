@@ -4,20 +4,24 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 ## Members
 
-Something like this: {{*generator:reporting_structure.head_sales_development}}
+Links TBD
+
+
 
 ## Quick Links
 
-- [SFDC Hygiene](#sfdc-hygiene)
+- [Role Requirements](#role-requirements)
+  - [SFDC Hygiene](#sfdc-hygiene)
 - [How to Sell Cloud](sellcloud.md)
-- [Price and Incentives](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit?usp=sharing)
-- [Meetings](#meetings)
-- [Mutual Action Plan (MAP)](#mutual-action-plan)
-- [Return on Investment (ROI)](#return-on-investment)
+- [Price and Incentives](https://docs.google.com/document/d/1jGzr_kERkn397X8v2Juyf0JSYvI6uQCZihN7dYjoO8w/edit?usp=sharing)
+- [Best Practices](#best-practices)
+  - [Meetings](#meetings)
+  - [Keys to Discovery](#keys-to-discovery)
+  - [Mutual Action Plan (MAP)](#mutual-action-plan)
+  - [Return on Investment (ROI)](#return-on-investment)
 - [Day-to-Day Activities](#day-to-day-activities)
   - [Order Forms](#order-forms)
   - [Forecasting](#forecasting)
-- [Film Study]
 
 ## Role Requirements
 
@@ -44,6 +48,8 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
    - Why Sourcegraph: this describes the technical problems that underlie the business problem and how Sourcegraph is uniquely suited to solving these technical problems
    - Why now: this may come later in discovery but it gives purpose for a timeline / compelling event
 
+
+
 ## Best Practices
 
 ### Meetings
@@ -62,14 +68,41 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
    - Does the customer have a valuable problem they want to solve and are they willing to work with you via a planned next step to solve it?
      - If so, send an calendar invite with an agenda for the next meeting
      - If not, kick it back to the SDR to schedule any additional meetings that may subsequently create a SAO
+   - Make sure to put in the _iARR_ and _amount_ for each deal. The _iARR_ is the incremental amount over what the previous contract value. In the case of new accounts, _iARR_ and _amount_ are the same.
+     - Please calculate the amount for a deal as follows:
+       - Self-Hosted = number of seats x [Self-Hosted Pricing](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit#)
+       - Cloud = number of seats x [Cloud Pricing](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit#)
 
 3. After every meeting:
    - Schedule 30 minutes after the call customer calls because:
      - They are cushion should the call run over.
      - It is time for you to debrief with your SDR, CE and any other support on the call.
      - Update your notes and SFDC.
+       - Update MEDDPICC; make note of anything that you can not satisfactorily address as you will need to find answers on the next call
+       - Update the 3 Why's; make note of anything that you can not satisfactorily address as you will need to find answers on the next call
      - Execute your next steps, calendar invite, summary email and agenda etc.
    - If you send a calendar invite, make sure to include an agenda for the meeting.
+
+
+### Keys to Discovery
+1. Our use cases are our tactical focus. Before jumping into the use cases customers need to understand our core competencies. Sourcegraph helps engineers:
+   - Navigate Code
+   - Understand Code
+   - Change Code
+
+By explaining our core competencies first, we help customers understand how we can uniquely address their pain. For example, some HR companies may help developers with onboarding and monitoring companies may assist with incident response but Sourcegraph addresses both of the aforementioned use cases in a different way based on our set of core competencies.
+
+2. We have several frameworks with which to guide discovery and progress deals. MEDDPICC, the 3 Why's and Command of the Message are the ones we use at Sourcegraph. All deals begin with a business problem. For us, the business problem is uncovered with questions that help us understand the customer pain. The "I" in MEDDPICC and the "Why Anything?" of the 3 Why's speak directly to understanding the customer's business problem. The first thing you want to know in the first call is the answer to the business problem question.
+
+3. The next stage of discovery is about uncovering the customer's specific technical challenges that cause their business problem. Each technical challenge is a customer use case. Though some customer use cases may fall outside the ones we're focused, if our core competencies can be applied to solve these problems then there is a strong argument for "Why Sourcegraph" can uniquely solve the customer's pain / business problem.
+
+4. We should exit stage 3 with several technical problems that solving for constitutes the first "C" or "Success Criteria" in MEDDPICC. We must uncover these problems to provide context for a kick-ass demo.
+
+5. The "M" in MEDDPICC refers to metrics. If we have well defined success criteria we can use metrics to quantify value during a pilot. One way this can be done, a mid-way checkin call during the pilot is a perfect time to see what difference Sourcegraph has on the success criteria.
+
+6. Lastly and maybe most importantly we use the metrics to build a ROI. Here you can see how we can [leverage Command of the Message to cover points 2 - 6 and build a successful ROI](https://docs.google.com/presentation/d/1kWXhPnAdEgZ9PpLimMxFBZ6OL8KwG47ZcVk8V4pDxPo/edit?usp=sharing).
+
+
 
 ### Mutual Action Plan
 
@@ -85,6 +118,7 @@ In stage 2 or 3, depending on how the deal is progressing it is important that y
     Final signature on the ELA
     Post sales support
 
+
 ### Return on Investment
 
 In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). The spreadsheet is a space to catalogue Sourcegraph's value for a customer. Unlesss a deal is in the "Fast Lane" it can not progress to stage 5 without a ROI. From the initial call with a customer your discovery should be executed with the intent to uncover value. Building an ROI gives purpose to questions like:
@@ -95,6 +129,8 @@ In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/sp
     How would Sourcegraph change your workflow?
     How much do these 3rd party tools cost?
 
+
+
 ## Day-to-Day Activities
 
 ### Order Forms
@@ -102,6 +138,7 @@ In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/sp
 You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fAgfP1bWT3IimI3/view) on where order forms are, how to fill them out, how to docusign the form and how to close a deal once you have a signed order.
 
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
+
 
 ### Forecasting
 
