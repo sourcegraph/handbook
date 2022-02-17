@@ -9,7 +9,7 @@ Our team is rapidly growing and we want to provide a forum to:
 
 Audience
 
-- All of Product/Engineering/Custoemr Support (& anyone else who wants to join!)
+- All of product/engineering/customer support (& anyone else who wants to join!)
 
 Cadence
 
@@ -17,7 +17,7 @@ Cadence
 
 Format & content
 
-- A week prior to the meeting, we will send out content including updates from Product, Engineering, and Customer Support As a follow up of consuming the content, there will be a Q&A Google doc to add your questions and upvote questions for leadership to answer live at the meeting.
+- A week prior to the meeting, we will send out content including updates from product, engineering, and customer support. As a follow up of consuming the content, there will be a Q&A Google doc to add your questions and upvote questions for leadership to answer live at the meeting.
 
   - The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.
 
@@ -25,7 +25,7 @@ Format & content
 
   - Live Q&A is meant to foster conversation and discussion.
 
-  - Please watch content in advance of the meeting and submit your questions via the Q&A doc before the call to maximize value of time spent synchronously.
+  - Please consume content in advance of the meeting and submit your questions via the Q&A doc before the call to maximize value of time spent synchronously.
 
   - Reminder that your questions can be about anything related to Sourcegraph or product/engineering/customer support (it doesn’t have to be specifically about the content provided).
 
