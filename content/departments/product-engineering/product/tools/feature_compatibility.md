@@ -9,6 +9,8 @@ hide_sidebar: true
 This page is intended as a reference of features by code host compatibility; each item will link you to our documentation.
 You may also be interested in seeing our [feature maturity](feature_maturity.md) matrix.
 
+Note that this page only lists features that have an incompatibility with a code host; if a feature is not listed here it can be assumed to be compatible with every code host.
+
 ## Code Hosts
 
 {{generator:code_hosts_list}}
