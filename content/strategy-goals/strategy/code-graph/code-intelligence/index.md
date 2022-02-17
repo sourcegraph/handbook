@@ -82,13 +82,14 @@ Top feedback patterns we're hearing from customers and prospects across the boar
 
 **Unlock dependency navigation**
 
-We believe this is emerging as an additional killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on).
+We believe this is emerging as an additional killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. Dependency navigation coupled with cross-repository takes the IDE model and scales it to encompass the whole cognitive space of a company.
 
-Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
+The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on). Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
 - Accelerating [Developer onboarding](../../use-cases/dev-onboarding.md) by enabling the ability to search over the full transitive dependency graph.
 - Monitor [Code Health](../../use-cases/code-health.md) by creating Code Insights that track deprecated dependency usages and version drift.
-- [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors, later applying a batch fix using Batch Changes.
+- [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections. 
+
 - Encourage [Code Reuse](../../use-cases/code-reuse.md) by making precise navigation the obvious way to find references to relevant usage examples.
 
 These are all currently in early stages of development and discussion. Read more about how we're thinking about the dependency graph in [RFC 593: Unlocking use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#heading=h.trqab8y0kufp).
@@ -114,6 +115,8 @@ We receive a significant amount of feedback around papercuts and potential impro
 ### How do these all tie together?
 
 Although the themes above might seem isolated or disconnected at a first glance, each one of them contributes to push forward our [Code Graph vision](../index.md). Auto-indexing serves a double purpose: it lowers the barrier to adoption by making precise code intelligence easier to configure, and also unlocks the ability to index dependencies (which play a central part in our current strategy). By adding more language support, combining it with adding package hosts support, and improving our navigation features overall we're aiming to position Sourcegraph as a superior code navigation platform that goes beyond baseline expectations and creates delightful experiences for our users.
+
+Additionally, providing the precise code intelligence data layer sets the foundations to unlock new features in our other product verticals (e.g. powering symbol renaming in Batch Changes, using number of call sites to power ranking in Search) and enhancing already existing product verticals (e.g more accurate dependency tracking in Code Insights). This will make Sourcegraph a powerful integrated solution for a large array of developer use cases, which will be hard to match by any single competitor.
 
 ### What's next and why
 
