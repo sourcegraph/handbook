@@ -26,7 +26,7 @@ Format & content
   - Live Q&A is meant to foster conversation and discussion.
 
   - Please watch content in advance of the meeting and submit your questions via the Q&A doc before the call to maximize value of time spent synchronously.
-  
+
   - Reminder that your questions can be about anything related to Sourcegraph or product/engineering/customer support (it doesn’t have to be specifically about the content provided).
 
   - You can start adding your questions and/or comments to the Q&A doc a week before the live Q&A session so people can view and upvote.
