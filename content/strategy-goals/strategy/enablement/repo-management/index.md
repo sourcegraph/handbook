@@ -74,21 +74,27 @@ We prioritize work in the performance engineering delivery stream by using our d
 ### FY23 Q1
 
 #### Sub-repository permissions
+
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31226
 
 #### Implement native Gerrit support
+
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31227
 
 #### Implement native CVS support
+
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31405
 
 #### Simplified method to trigger per-repo sync for more up to date results
+
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31228
 
 #### Revised hashing algorithm
+
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31229
 
 #### Architectural planning
+
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31230
 
 ### FY23 Q2
