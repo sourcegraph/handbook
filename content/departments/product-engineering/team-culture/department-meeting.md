@@ -17,7 +17,7 @@ Cadence
 
 Format & content
 
-- A week prior to the meeting, we will send out a presentation including updates from Product, Engineering, and Customer Support As a follow up of watching the videos, there will be a Q&A Google doc to add your questions and upvote questions forleadership to answer live at the meeting.
+- A week prior to the meeting, we will send out content including updates from Product, Engineering, and Customer Support As a follow up of consuming the content, there will be a Q&A Google doc to add your questions and upvote questions for leadership to answer live at the meeting.
 
   - The video update may contain: OKR progress updates, org updates, new processes, guest speakers from other departments, etc.
 
