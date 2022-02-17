@@ -22,6 +22,27 @@ risks. To edit the Risk Register, you must be a member of the Security team; if
 you do not have access and believe you might require it, email
 [security@sourcegraph.com][2].
 
+## Information Security Risk Committee
+
+The Information Security Risk Committee exists to discuss the management of
+information security risks across the organization. It is responsible for the
+regular review of Sourcegraph's information security risk profile as required by
+the Information Security Risk Policy.
+
+Sourcegraph's Information Security Risk Committee is currently comprised of:
+
+- [Christina Forney][3], VP Product & Engineering
+- [Dan Adler][4], VP Operations
+- [Diego Comas][5], Engineering Manager, Security
+- [Nick Snyder][6], VP Engineering
+- [Tammy Zhu][7], Diector of Legal
+
+[3]: ../../../../../team/index.md#christina-forney
+[4]: ../../../../../team/index.md#dan-adler
+[5]: ../../../../../team/index.md#diego-comas
+[6]: ../../../../../team/index.md#nick-snyder
+[7]: ../../../../../team/index.md#tammy-zhu
+
 ## Risk identification
 
 Information security risks can be raised in either of the following two ways:
