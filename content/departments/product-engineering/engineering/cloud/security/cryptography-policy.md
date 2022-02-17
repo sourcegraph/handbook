@@ -62,8 +62,8 @@ The following table includes the recommended usage for cryptographic keys:
   <tr>
     <td>Laptop HDD</td>
     <td>Encryption</td>
-    <td>N/A</td>
-    <td>N/A</td>
+    <td>XTS-AES-128</td>
+    <td>256 bit</td>
     <td>N/A</td>
   </tr>
 </table>
