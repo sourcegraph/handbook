@@ -19,6 +19,7 @@ In the near term, we want to make sure our customers are aware of and using our 
 ## Competitive landscape
 
 ### GitHub
+
 The biggest threat to our dominance as the leader in open-source, free, and commercially available code search is the advent of GitHub Code search, currently widely available in technology preview. Last quarter we stated:
 
 > It’s very likely they only need to release “good enough” code search to deal Sourcegraph’s search product a serious blow. While we believe our solution will remain far superior to whatever GitHub releases, there is a real risk that the switching costs of using Sourcegraph will be too high for users to switch, if GitHub’s search improves significantly.
@@ -38,6 +39,7 @@ With GitHub code search you're stopped before you even get started because you c
 Despite our superior capabilities, GitHub has a very powerful distribution channel which requires us to evangelize Sourcegraph and its uses clearly and widely.
 
 ### Broader competition
+
 As the scope of the Search teams continues to expand, we face competition in new areas. Some examples are onboarding new developers and enabling responses to codebase changes. There are both new entrants (Swimm) and incumbents (Zapier, IFTTT) in those spaces, but we believe continuing to build out our core platform positions us to deliver differentiated solutions by leveraging the distinct advantages of our code graph, such as its [unified experience](../index.md#deliver-a-unified-experience): [Notebooks](https://sourcegraph.com/notebooks?tab=explore) as onboarding documentation can be created from code searches, browsed alongside the user’s code, and searched alongside the user’s code. [Code monitors](https://sourcegraph.com/code-monitoring) can eventually integrate with Batch changes and Code insights, to allow users to directly change the pattern they’re monitoring from Sourcegraph, and visualize instances of this pattern in their codebase over time.
 
 ## Where we are now and what's next
