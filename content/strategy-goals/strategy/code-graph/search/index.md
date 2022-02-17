@@ -21,7 +21,7 @@ In the near term, we want to make sure our customers are aware of and using our 
 ### GitHub
 The biggest threat to our dominance as the leader in open-source, free, and commercially available code search is the advent of GitHub Code search, currently widely available in technology preview. Last quarter we stated:
 
->It’s very likely they only need to release “good enough” code search to deal Sourcegraph’s search product a serious blow. While we believe our solution will remain far superior to whatever GitHub releases, there is a real risk that the switching costs of using Sourcegraph will be too high for users to switch, if GitHub’s search improves significantly.
+> It’s very likely they only need to release “good enough” code search to deal Sourcegraph’s search product a serious blow. While we believe our solution will remain far superior to whatever GitHub releases, there is a real risk that the switching costs of using Sourcegraph will be too high for users to switch, if GitHub’s search improves significantly.
 
 While we still maintain a strong reputation with our customers and the market, GitHub's code search is in fact "good enough" for some users. However, we serve SMB and Enterprise customers with thousands of repos or more, on multiple code hosts–and even non-git VCSs. GitHub's code search is not yet sufficient for industrial situations where finding and fixing vulnerabilities, searching across branches and revisions, or exhaustive searches must be both possible and performant.
 
