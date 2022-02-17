@@ -19,20 +19,18 @@ We generate and process rich metadata that powers compiler-accurate code navigat
 
 ### Vision
 
-> We see Code intelligence as the glue that sticks the product together, providing a platform for features from navigation to precise powered searches, compiler-accurate batch changes and insights. We aim to provide support for all widely used languages and for the ones we don’t, provide a platform for any developer to add and test their own indexers.
-> In the near term we want Code intelligence to provide seamless, out-of-the-box, precise code navigation for languages that cover 90% of the market usage.
-> We want our code navigation to reach IDE feature parity, while offering the option of plugging into developers’ favorite IDEs.
-> In the longer term, we envision building a global knowledge graph that accurately maps the entire code universe.
+- We see Code intelligence as the glue that sticks the product together, providing a platform for features from navigation to precise powered searches, compiler-accurate batch changes and insights. We aim to provide support for all widely used languages and for the ones we don’t, provide a platform for any developer to add and test their own indexers.
+- In the near term we want Code intelligence to provide seamless, out-of-the-box, precise code navigation for languages that cover 90% of the market usage.
+- We want our code navigation to reach IDE feature parity, while offering the option of plugging into developers’ favorite IDEs.
+- In the longer term, we envision building a global knowledge graph that accurately maps the entire code universe.
 
 ### Guiding principles
-
-We target developers independently of their career level and company size, helping them learn, onboard, find, and understand codebases faster.
 
 We prioritize precise language support based on overall usage and market-share, while also taking into account our customers' appetites. Given that supporting new languages requires deep knowledge of the language ecosystem, our team's skillset also affects the order of language support priority. To mitigate the impact of this factor we’re working on putting in place the necessary infrastructure that will enable taking in community contributions in the future.
 
 ## Where we are now
 
-Code intelligence lies at the very center of the product as a whole, providing the metadata that will eventually power other product areas.
+Code intelligence lies at the very center of the product as a whole, providing the metadata that powers other product areas.
 
 At the moment maturity varies depending on the area of ownership:
 
@@ -55,6 +53,7 @@ Recent key learnings:
 
 ### Top customer, support, sales and marketing issues
 
+Top feedback patterns we're hearing from customers and prospects across the board (also captured in our internal [Product Gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view?reportFilters=%5B%7B%22operator%22%3A%22equals%22%2C%22value%22%3A%22Intelligence%22%2C%22column%22%3A%22Product_Gap_Submission__c.Product_Category__c%22%7D%5D)):
 - Requests for adding precise support for more languages (often including the addition of cross-repository and cross-dependency navigation features).
 - Current manual setup is not straightforward, customers run into issues while setting up LSIF for their repositories. This varies per indexer maturity and language ecosystem complexity.
 - There have been reports about performance and scaling issues when indexing large monorepos.
@@ -83,7 +82,7 @@ Recent key learnings:
 
 **Unlock dependency navigation**
 
-We believe this is Code Intelligence's killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on).
+We believe this is emerging as an additional killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on).
 
 Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
@@ -96,17 +95,19 @@ These are all currently in early stages of development and discussion. Read more
 
 **Ship precise language support**
 
-We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision. We're currently focusing on shipping a revamped version of our JS/TS indexer and building a Python indexer.
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). We're currently focusing on shipping a revamped version of our JS/TS indexer and building a Python indexer.
 
 **Auto-indexing on-prem goes into Beta:**
 
-The current set up experience is not scalable for customers with a large amount of repositories. Enabling auto-indexing would mean a lower barrier for entry, a seamless experience and more engineers using precise code intelligence. Setting up auto-indexing is also a requirement for Sourcegraph to be able to index dependency packages.
+Strategically we're favoring accuracy over availability and actively recommend customers to set up precise code intelligence. This comes at a cost, as the current precise set up experience can be cumbersome and isn't scalable for customers with a large amount of repositories given it requires manual set up for each individual repository we want to enable precise code intelligence for. 
+
+Enabling auto-indexing would mean a lower barrier for entry, a seamless experience and more engineers using precise code intelligence. Setting up [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) is also a requirement for Sourcegraph to be able to index dependency packages.
 
 Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
 
 Once we have validated our Experimental solution and have proven it’s running successfully at three customers, the next step is monitoring and weeding out any issues that might arise from our first trials to move on-prem auto-indexing into Beta. At this point we’ll be aiming to roll it out to a larger number of customers.
 
-**Make code navigation fast and reliable**
+**Make code navigation feel fast and reliable**
 
 We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements (see [RFC 542](https://docs.google.com/document/d/1sDDpZaWdGtIaiNLNB8QsLwHTvH10fhEKpEa4qcog5vg/edit) for example). From a design perspective, we have plans to conduct research that helps us understand adoption drivers and pain points, with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
 
@@ -117,6 +118,10 @@ Although the themes above might seem isolated or disconnected at a first glance,
 ### What's next and why
 
 - **Adding precise C# and Ruby language support:** Based on our team's bandwidth and skill set, we are not planning to work on these languages this quarter. However, to support our [Grow ARR and Iterate with existing customers first](../../index.md#this-year-fy23) goals, we are working towards prioritizing these languages later this year based on current customer language share and associated ARR.
+
+- **Add support for a wider set of package hosts:** We currently support Maven packages and are finalizing work to support NPM packages. In the near future we want to expand our support to cover PyPi, NuGet and RubyGems. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
+
+- **Auto-indexing on prem goes GA:** Once we've validated adoption in Beta phase focus on identifying feedback patterns and solving issues to make the auto-indexing generally available to all customers.
 
 ### What we're not working on & why
 
