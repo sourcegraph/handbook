@@ -30,7 +30,7 @@ We don't require OKRs at lower levels (orgs, teams) because the most important a
 
 The source of truth for current OKRs and status of those OKRs is in our [private issue tracker](https://github.com/sourcegraph/product-engineering-tracker/labels/summary).
 
-- This is private because KRs frequently contain sensitive business metrics and customer names).
+- This is private because KRs frequently contain sensitive business metrics and customer names.
 - The sanitized public version of our OKRs are [here in the handbook](../../../strategy-goals/goals/index.md).
 
 Each KR has an associated GitHub issue following [this template](https://github.com/sourcegraph/product-engineering-tracker/issues/new?template=product-engineering-kr.md).
