@@ -13,9 +13,8 @@ _Total interview time: 4.5 hours + ~1 hour project_
    - [30 min] **Peer Review** (Product Manager/Support Team/CE)
    - [30 min] **[Values interview](../../../../../../company-info-and-process/values/index.md)** with someone from another Sourcegraph team (Marketing, Customer Support, BizOps)
 
-- [30 min] **Final interview** with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product
-
-6. We make you a job offer!
+1. [30 min] **Final interview** with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product
+1. We make you a job offer!
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
 
