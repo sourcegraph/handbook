@@ -6,8 +6,6 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 Links TBD
 
-
-
 ## Quick Links
 
 - [Role Requirements](#role-requirements)
@@ -48,8 +46,6 @@ Links TBD
    - Why Sourcegraph: this describes the technical problems that underlie the business problem and how Sourcegraph is uniquely suited to solving these technical problems
    - Why now: this may come later in discovery but it gives purpose for a timeline / compelling event
 
-
-
 ## Best Practices
 
 ### Meetings
@@ -83,8 +79,8 @@ Links TBD
      - Execute your next steps, calendar invite, summary email and agenda etc.
    - If you send a calendar invite, make sure to include an agenda for the meeting.
 
-
 ### Keys to Discovery
+
 1. Our use cases are our tactical focus. Before jumping into the use cases customers need to understand our core competencies. Sourcegraph helps engineers:
    - Navigate Code
    - Understand Code
@@ -102,8 +98,6 @@ By explaining our core competencies first, we help customers understand how we c
 
 6. Lastly and maybe most importantly we use the metrics to build a ROI. Here you can see how we can [leverage Command of the Message to cover points 2 - 6 and build a successful ROI](https://docs.google.com/presentation/d/1kWXhPnAdEgZ9PpLimMxFBZ6OL8KwG47ZcVk8V4pDxPo/edit?usp=sharing).
 
-
-
 ### Mutual Action Plan
 
 In stage 2 or 3, depending on how the deal is progressing it is important that you align with the customer on a [MAP](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). Unless a deal is in the "Fast Lane" it can not progress to stage 4 without a MAP. The mutual action plan should be formed in partnership with the champion. It is an agreement with the customer on predictable actions to be taken on the process toward a close. Expect no two customers to have the same process in place to complete a deal. A few items common on MAPs include:
@@ -118,7 +112,6 @@ In stage 2 or 3, depending on how the deal is progressing it is important that y
     Final signature on the ELA
     Post sales support
 
-
 ### Return on Investment
 
 In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). The spreadsheet is a space to catalogue Sourcegraph's value for a customer. Unlesss a deal is in the "Fast Lane" it can not progress to stage 5 without a ROI. From the initial call with a customer your discovery should be executed with the intent to uncover value. Building an ROI gives purpose to questions like:
@@ -129,8 +122,6 @@ In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/sp
     How would Sourcegraph change your workflow?
     How much do these 3rd party tools cost?
 
-
-
 ## Day-to-Day Activities
 
 ### Order Forms
@@ -138,7 +129,6 @@ In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/sp
 You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fAgfP1bWT3IimI3/view) on where order forms are, how to fill them out, how to docusign the form and how to close a deal once you have a signed order.
 
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
-
 
 ### Forecasting
 
