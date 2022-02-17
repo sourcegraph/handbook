@@ -18,6 +18,7 @@ const nextConfig = {
         domains: ['avatars.githubusercontent.com'],
     },
     swcMinify: true,
+    trailingSlash: true,
 }
 
 export default nextConfig

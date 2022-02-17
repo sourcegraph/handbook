@@ -511,6 +511,7 @@ gitserver_service:
   type: Product
   product_org: enablement
   product_team: repo_management
+  slack_channels: '#repo-management'
   ownership_model: Owner
 
 code_host_syncing:
@@ -519,6 +520,7 @@ code_host_syncing:
   type: Product
   product_org: enablement
   product_team: repo_management
+  slack_channels: '#repo-management'
   ownership_model: Owner
 
 search_indexing:
