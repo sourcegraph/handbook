@@ -1,14 +1,10 @@
 # Code Graph strategy
 
-Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together over the next year or so, but each linked page provides a more detailed strategy for that team. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../departments/product-engineering/strategy-goals/index.md) to which all of this is aligned.
-
-## Mission
-
-Make discovering, learning, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are.
+Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together over the next year or so, but each linked page provides a more detailed strategy for that team. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../departments/product-engineering/strategy-goals/index.md) to which all of this is aligned. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/34) (internal only) also shows where we are headed over the next year in terms of specific deliverables.
 
 ## Themes
 
-We are focused over the next year on several themes across Code Graph to make our mission a reality. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/34) (internal only) shows where we are headed over the next year in more detail.
+Our mission is to **make discovering, learning, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are.** We will achieve this through several important themes:
 
 ### Make the power of our features easier to find and use
 
