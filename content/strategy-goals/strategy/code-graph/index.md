@@ -8,7 +8,7 @@ Make discovering, learning, and editing code easier, no matter how complex it is
 
 ## Themes
 
-We are focused over the next year on several themes across Code Graph to make our mission a reality. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/21) (internal only) shows where we are headed over the next year in more detail.
+We are focused over the next year on several themes across Code Graph to make our mission a reality. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/34) (internal only) shows where we are headed over the next year in more detail.
 
 ### Make the power of our features easier to find and use
 
