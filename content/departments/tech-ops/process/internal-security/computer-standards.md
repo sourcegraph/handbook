@@ -19,6 +19,8 @@ When setting up your Sourcegraph device please ensure the following steps have b
    - [Enabling Firewall on MacOS](https://support.apple.com/guide/mac-help/block-connections-to-your-mac-with-a-firewall-mh34041/mac#:~:text=services%20and%20apps-,On%20your%20Mac%2C%20choose%20Apple%20menu%20%3E%20System%20Preferences%2C%20click,%26%20Privacy%20%2C%20then%20click%20Firewall.&text=pane%20for%20me-,If%20the%20lock%20at%20the%20bottom%20left%20is%20locked%20%2C%20click,the%20firewall%20for%20your%20Mac.)
    - [Enabling Firewall for Windows](https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f)
 
-Additionally, all machines should be set up with our MDM and antivirus software. Steps for setting up your computer are [here](../index.md).
+Additionally, all machines should be set up with our [MDM and antivirus software](../../tools/endpoint-antivirus.md).
+
+Complete steps for setting up your computer are [here](../../tools/computer-setup.md).
 
 If you run into any issues or have any questions about the above please reach out to the #it-tech-ops Slack Channel!

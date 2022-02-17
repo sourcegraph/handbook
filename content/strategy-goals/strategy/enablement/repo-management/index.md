@@ -115,3 +115,9 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** Under investigation
 - Currently under investigation to try and ID customer need in light of upcoming Phabricator deprication.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.repository_management}}

@@ -33,37 +33,37 @@ The following table includes the recommended usage for cryptographic keys:
   </tr>
   <tr>
     <td>Web Certificate</td>
-    <td>Web Cipher</td>
-    <td>Confidential</td>
-    <td>Password</td>
-    <td>Laptop HDD</td>
-  </tr>
-  <tr>
     <td>Digital Signature</td>
-    <td>Encryption</td>
-    <td>Encryption</td>
-    <td>Hash</td>
-    <td>Encryption</td>
+    <td>SHA256</td>
+    <td>256 bit</td>
+    <td>2 years</td>
   </tr>
   <tr>
-    <td>SHA256</td>
-    <td>AES_128_GCM **</td>
+    <td>Web Cipher</td>
+    <td>Encryption</td>
+    <td>AES_128_GCM*</td>
+    <td>128 bit</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Confidential</td>
+    <td>Encryption</td>
     <td>AES256</td>
+    <td>256 bit</td>
+    <td>1 Year</td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td>Hash</td>
     <td>Bcrypt</td>
     <td>N/A</td>
-  </tr>
-  <tr>
-    <td>256 bit</td>
-    <td>128 bit</td>
-    <td>256 bit</td>
-    <td>N/A</td>
     <td>N/A</td>
   </tr>
   <tr>
-    <td>2 years</td>
-    <td>N/A</td>
-    <td>1 Year</td>
-    <td>N/A</td>
+    <td>Laptop HDD</td>
+    <td>Encryption</td>
+    <td>XTS-AES-128</td>
+    <td>256 bit</td>
     <td>N/A</td>
   </tr>
 </table>
