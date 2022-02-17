@@ -51,6 +51,7 @@ const HEADING_SELECTOR = 'h1, h2, h3, h4, h5, h6'
 export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
     const tocReference = useRef<HTMLElement>(null)
+    const router = useRouter()
     useEffect(() => {
         const observer = new IntersectionObserver(
             entries => {
@@ -90,7 +91,6 @@ export default function Page({ page }: PageProps): JSX.Element {
         return () => observer.disconnect()
     })
 
-    const router = useRouter()
     if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
     }
