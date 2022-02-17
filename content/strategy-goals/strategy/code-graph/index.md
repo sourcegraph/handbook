@@ -34,6 +34,21 @@ There are a few key principles that inform how we think about the features we bu
 - 🧠 **Educational**: For everyone to be able to code, we need to foster a culture of knowledge sharing. We are in a unique position to leverage search to increase code sharing and education, empowering communities of self-learners.
 - 🔬 **Innovative**: On top of building features that are immediately useful to customers, invest in key technology areas that drive Sourcegraph's long term product differentiation and defensibility, such as Code Intelligence's [technology](code-intelligence#competitive-landscape) and Code Search's compute platform.
 
+### User-focused workflows
+
+Many of the features in Code Graph are used synergistically with each other to get the most out of the product; for example, you may discover a new shared component via some Search Notebook documentation, which leads you to running a query, perhaps setting up a new monitor via Insights, and then rolling out some upgrades via a batch change. These kinds of flows are exemplified by the common [use cases](../index.md#use-cases) we focus on.
+
+From an planning standpoint we aim to model user behavior with these cross-cutting workflows in mind first, and then empower individual teams to implement changes across Code Graph to make them reality. This requires coordinating with each other to make sure we stay on the same page, and the most common form of that is through [public RFCs](../../../company-info-and-process/communication/rfcs/index.md) where we invite all of Code Graph engineering, design, and product, as well as customers and anyone else interested from Sourcegraph to participate. In general, whether workshopping designs, setting strategy, or collaborating on features, our goal is to be as transparent and collaborative as possible.
+
+The situations we are trying to avoid are:
+
+- Good improvements don't get made because there isn't a way to build consensus around cross-cutting concerns.
+- We lose track of the big picture for important user flows because we plan and create at the team's horizon.
+- Work gets stuck because it is blocked waiting for other teams with different priorities.
+- Changes are made without consulting the team owning the area being changed
+
+Because the [Cloud org](../cloud/index.md) occasionally focuses on what would otherwise be considered core features within SourceGraph as they focus on growth, this principle extends to our collaboration with them.
+
 ### Abstraction vs. complexity
 
 According to [The Case for 'Developer Experience'](https://future.a16z.com/the-case-for-developer-experience/) (by [Jean Yang](https://twitter.com/jeanqasaur)), there are two ways to think about categories of developer tools or features today:
