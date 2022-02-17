@@ -42,27 +42,30 @@ We will encourage and support you to:
 
 - Publish blog posts and give conference talks about your work at Sourcegraph.
 
-## Technical Writer
+## Sr. Product Education Engineer
 
-Technical Writers plan, create, revise, and maintain developer documents and educational content, working closely with the engineering, design, and marketing teams.
+Sr. Product Education Engineers plan, create, revise, and maintain product docs, as well as other relevant educational content such as guides, videos, tutorials and technical articles. They are a champion for great content and information across the organization, working collaboratively and cross-functionaly with the engineering, design, customer engineering, support, and marketing teams to assist however they can.
 
 ### Responsibilities
 
-- Plan, research, write, revise, and maintain technical documentation for internal or external engineering audiences.
-- Edit, clarify, and proofread documents written by others, and coach non-writers on ways to improve their writing skills.
-- Own docs.sourcegraph.com:
-  - Make Sourcegraph documentation top-tier
-  - Own the backlog of issues with the documentation
-  - Assess quality of existing documentation:
-    - It is clear and easy to read?
-    - It is correct?
-    - It is organized?
-    - Are there great examples?
+- Plan, research, write, revise, and maintain educational content for Sourcegraph admins and users.
+- Edit, clarify, and proofread content written by others, and coach non-writers on ways to improve their writing skills.
+- Be the most knowledgable expert for the product(s) or product area(s) you support.
+- Custodian and curator for docs.sourcegraph.com:
+  - Make Sourcegraph docs best-in-class
+  - Own and help prioritize the backlog of doc issues
+  - Assess quality of existing docs:
+    - Is it clear and easy to read?
+    - Is it correct?
+    - Is it organized?
+    - Are there relevant examples?
 - Support creation of videos
   - Surface needed topics
-  - Write scripts for the videos
-- Support developers in creating documentation and technical blog posts based on their comfort level:
-  - Interview a developer and create a draft, or
+  - Write scripts
+  - Create/edit video and audio
+  - Maintain branding standards
+- Support team members in creating docs and other educational content based on their comfort level:
+  - Interview a developer or customer engineer and create a draft, or
   - Edit copy written by the developer
 - Be a resource for other teams to create copy for:
   - Social media posts
