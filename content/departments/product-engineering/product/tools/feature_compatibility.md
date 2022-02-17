@@ -1,6 +1,7 @@
 ---
 data_source: [/data/code_hosts.yml, code hosts]
 data_source_2: [/data/product_teams.yml, product teams]
+hide_sidebar: true
 ---
 
 # Product Feature Compatibility
