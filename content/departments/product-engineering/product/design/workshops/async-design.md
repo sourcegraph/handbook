@@ -10,6 +10,7 @@ Benefits:
 - More flexibility when people are in lots of time zones
 - Can support quite large groups
 - Self-documenting
+- Allows time for reflection and "shower thoughts" to be included
 
 Drawbacks:
 
