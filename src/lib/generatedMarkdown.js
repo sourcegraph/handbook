@@ -117,24 +117,34 @@ export async function generateFeatureCodeHostCompatibilities() {
     areaContent += '\n'
 
     for (const feature of Object.values(features)) {
+      let incompatibleFeatureCount = 0
+      let featureContent = ''
       if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
-        featureCount++
         if (feature.documentation_link) {
-          areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
+          featureContent += `|[${String(feature.title)}](${String(
+            createRelativeProductLink(feature.documentation_link)
+          )})`
         } else {
-          areaContent += `|${String(feature.title)}`
+          featureContent += `|${String(feature.title)}`
         }
-        areaContent += '|'
+        featureContent += '|'
         for (const codeHostName of Object.keys(codeHosts)) {
+          if (feature.compatibility[codeHostName] === false) {
+            incompatibleFeatureCount++
+            featureCount++
+          }
           if (feature.compatibility === undefined) {
-            areaContent += ' |'
+            featureContent += ' |'
           } else if (feature.compatibility[codeHostName]) {
-            areaContent += '✔️|'
+            featureContent += '✔️|'
           } else {
-            areaContent += ' |'
+            featureContent += ' |'
           }
         }
-        areaContent += '\n'
+        featureContent += '\n'
+      }
+      if (incompatibleFeatureCount > 0) {
+        areaContent += featureContent
       }
     }
     if (featureCount > 0) {
@@ -478,7 +488,6 @@ export async function generateDeploymentOptions() {
         }
         areaContent += '|'
         for (const deploymentOption of Object.keys(deploymentOptions)) {
-          console.log(feature.deployment)
           if (feature.deployment === undefined) {
             areaContent += ' |'
           } else if (feature.deployment[deploymentOption] === 'ga') {
