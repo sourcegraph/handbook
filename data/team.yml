@@ -2689,3 +2689,14 @@ lauren anderson:
   reports_to: vp_operations
   location: Pacifica, CA, USA 🇺🇸
   description: Lauren lives at the beach in Pacifica, CA with her husband, daugther, and dog.  She has a passion for all things data and has spent most of her career building data warehouses and reporting platforms.  Lauren likes to listen to music, cook, travel, and spend time outdoors (especially at the beach) and loves to combine the latter two by spending as much time at the beach in Southern Baja California.
+
+madison_clark:
+  name: Madison Clark
+  email: madison.clark@sourcegraph.com
+  github: madisongclark
+  pronouns: she/her
+  role: Sr. Manager, Internal Communications
+  reports_to: Director, Global Communications
+  location: San Francisco, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/madison-clark-727399b7/)'
+  description: Madison lives in San Francisco, CA, with her partner Julian and two very floofy cats, Loaf and Grandpa. She works on the Sourcegraph communications team, focused on building effective internal communication strategies that inform, engage, and inspire our global team. Outside of work, you can find Madison testing new recipes/making cooking videos, exploring new cafes and restaurants, and taking excercise classes on her Peloton bike.  
