@@ -417,15 +417,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="3" rowspan="2" class="tbd">
+      <td colspan="3" class="tbd">
         <p>
-          We haven't yet finalized the descriptions of these levels at Sourcegraph.
-          Like <a href="#ic5">IC5</a>, these are different <strong>roles</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
+          We haven't yet finalized the description of this level at Sourcegraph.
+          Like <a href="#ic5">IC5</a>, this is a different <strong>role</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
         </p>
       </td>
-    </tr>
-    <tr>
-      <th id="ic7" scope="row" class="level"><a class="anchor" href="#ic7"></a><abbr title="Individual Contributor">IC</abbr>7</th>
     </tr>
   </tbody>
 
