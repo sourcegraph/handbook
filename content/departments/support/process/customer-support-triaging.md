@@ -59,9 +59,9 @@ That said, there may be times when we have unusually large amount of work or mor
 
 ### 1. Whose responsible for triaging?
 
-Nonso 08:00–14:00 UTC (Stompy as backup)
-Shwanteé 14:00–22:00 UTC (Virginia, Brielle as backup)
-Virginia 22:00–01:00 UTC (Warren as backup)
+- Nonso 08:00–14:00 UTC (Stompy as backup)
+- Shwanteé 14:00–18:00 UTC (Virginia, Brielle as backup)
+- Sarah 18:00–01:00 UTC (Virginia, Warren as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
