@@ -606,8 +606,8 @@ When prompting users about or writing about our 5 company uses cases, we can't a
 
 Instead we can use this more intuitive (but less accurate) language:
 
-| Sourcegraph use case                                                                                          | "You are using Sourcegraph to..."     |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| Sourcegraph use case                                                                                             | "You are using Sourcegraph to..."     |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | [Developer Onboarding](../../../strategy-goals/strategy/use-cases/dev-onboarding.md)                             | Understand a new part of the codebase |
 | [Code Health](../../../strategy-goals/strategy/use-cases/code-health.md)                                         | Track and improve codebase quality    |
 | [Code Reuse](../../../strategy-goals/strategy/use-cases/code-reuse.md)                                           | Find code to reuse                    |
