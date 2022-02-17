@@ -157,7 +157,7 @@ The next six months are focused on building a product that can quickly prove out
 
 ### Goals
 
-#### FY23Q1
+These are the goals we plan to fully complete by the end of Q1 FY23:
 
 - KR 1: 10 customers have purchased Code Insights in FY23Q1
 
