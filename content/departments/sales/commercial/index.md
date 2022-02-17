@@ -92,9 +92,9 @@ By explaining our core competencies first, we help customers understand how we c
 
 3. The next stage of discovery is about uncovering the customer's specific technical challenges that cause their business problem. Each technical challenge is a customer use case. Though some customer use cases may fall outside the ones we're focused, if our core competencies can be applied to solve these problems then there is a strong argument for "Why Sourcegraph" can uniquely solve the customer's pain / business problem.
 
-4. We should exit stage 3 with several technical problems that solving for constitutes the first "C" or "Success Criteria" in MEDDPICC. We must uncover these problems to provide context for a kick-ass demo.
+4. We should exit stage 3 with several technical problems that solving for constitutes the first "D" or "Decision Criteria" in MEDDPICC. We must uncover these problems to provide context for a kick-ass demo.
 
-5. The "M" in MEDDPICC refers to metrics. If we have well defined success criteria we can use metrics to quantify value during a pilot. One way this can be done, a mid-way checkin call during the pilot is a perfect time to see what difference Sourcegraph has on the success criteria.
+5. The "M" in MEDDPICC refers to metrics. If we have well defined decision criteria we can use metrics to quantify value during a pilot. One way this can be done, a mid-way checkin call during the pilot is a perfect time to see what difference Sourcegraph has on the success criteria.
 
 6. Lastly and maybe most importantly we use the metrics to build a ROI. Here you can see how we can [leverage Command of the Message to cover points 2 - 6 and build a successful ROI](https://docs.google.com/presentation/d/1kWXhPnAdEgZ9PpLimMxFBZ6OL8KwG47ZcVk8V4pDxPo/edit?usp=sharing).
 
