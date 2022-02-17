@@ -6,7 +6,7 @@
       "title": {
         "type": "string"
       },
-      "member_refs": {
+      "members": {
         "type": "array",
         "items": {
           "type": "string"
@@ -16,6 +16,6 @@
         "type": "string"
       }
     },
-    "required": ["title", "member_refs"]
+    "required": ["title", "members"]
   }
 }

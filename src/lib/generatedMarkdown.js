@@ -511,7 +511,7 @@ export async function generateGuildRoster(guildReference) {
     const name = teamMembers[leaderReference].name
     pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))}) - Guild Leader\n`
   }
-  for (const memberReference of guild.member_refs) {
+  for (const memberReference of guild.members) {
     if (memberReference === leaderReference) {
       continue
     }
