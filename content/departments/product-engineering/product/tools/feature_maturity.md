@@ -1,6 +1,7 @@
 ---
 data_source: [/data/maturity_levels.yml, maturity levels]
 data_source_2: [/data/features.yml, features]
+hide_sidebar: true
 ---
 
 # Product Features by Maturity
