@@ -4,20 +4,22 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 ## Members
 
-Something like this: {{*generator:reporting_structure.head_sales_development}}
+Links TBD
 
 ## Quick Links
 
-- [SFDC Hygiene](#sfdc-hygiene)
+- [Role Requirements](#role-requirements)
+  - [SFDC Hygiene](#sfdc-hygiene)
 - [How to Sell Cloud](sellcloud.md)
-- [Price and Incentives](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit?usp=sharing)
-- [Meetings](#meetings)
+- [Price and Incentives](https://docs.google.com/document/d/1jGzr_kERkn397X8v2Juyf0JSYvI6uQCZihN7dYjoO8w/edit?usp=sharing)
+- [Best Practices](#best-practices)
+  - [Meetings](#meetings)
+  - [Keys to Discovery](#keys-to-discovery)
+  - [Mutual Action Plan (MAP)](#mutual-action-plan)
+  - [Return on Investment (ROI)](#return-on-investment)
 - [Day-to-Day Activities](#day-to-day-activities)
   - [Order Forms](#order-forms)
-  - [Territory Planning](#territory-planning)
-  - [Account Planning](#account-planning)
   - [Forecasting](#forecasting)
-- [Film Study]
 
 ## Role Requirements
 
@@ -62,13 +64,63 @@ Something like this: {{*generator:reporting_structure.head_sales_development}}
    - Does the customer have a valuable problem they want to solve and are they willing to work with you via a planned next step to solve it?
      - If so, send an calendar invite with an agenda for the next meeting
      - If not, kick it back to the SDR to schedule any additional meetings that may subsequently create a SAO
+   - Make sure to put in the _iARR_ and _amount_ for each deal. The _iARR_ is the incremental amount over what the previous contract value. In the case of new accounts, _iARR_ and _amount_ are the same.
+     - Please calculate the amount for a deal as follows:
+       - Self-Hosted = number of seats x [Self-Hosted Pricing](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit#)
+       - Cloud = number of seats x [Cloud Pricing](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit#)
 
 3. After every meeting:
    - Schedule 30 minutes after the call customer calls because:
      - They are cushion should the call run over.
      - It is time for you to debrief with your SDR, CE and any other support on the call.
      - Update your notes and SFDC.
+       - Update MEDDPICC; make note of anything that you can not satisfactorily address as you will need to find answers on the next call
+       - Update the 3 Why's; make note of anything that you can not satisfactorily address as you will need to find answers on the next call
      - Execute your next steps, calendar invite, summary email and agenda etc.
+   - If you send a calendar invite, make sure to include an agenda for the meeting.
+
+### Keys to Discovery
+
+1. Our use cases are our tactical focus. Before jumping into the use cases customers need to understand our core competencies. Sourcegraph helps engineers:
+   - Navigate Code
+   - Understand Code
+   - Change Code
+
+By explaining our core competencies first, we help customers understand how we can uniquely address their pain. For example, some HR companies may help developers with onboarding and monitoring companies may assist with incident response but Sourcegraph addresses both of the aforementioned use cases in a different way based on our set of core competencies.
+
+2. We have several frameworks with which to guide discovery and progress deals. MEDDPICC, the 3 Why's and Command of the Message are the ones we use at Sourcegraph. All deals begin with a business problem. For us, the business problem is uncovered with questions that help us understand the customer pain. The "I" in MEDDPICC and the "Why Anything?" of the 3 Why's speak directly to understanding the customer's business problem. The first thing you want to know in the first call is the answer to the business problem question.
+
+3. The next stage of discovery is about uncovering the customer's specific technical challenges that cause their business problem. Each technical challenge is a customer use case. Though some customer use cases may fall outside the ones we're focused, if our core competencies can be applied to solve these problems then there is a strong argument for "Why Sourcegraph" can uniquely solve the customer's pain / business problem.
+
+4. We should exit stage 3 with several technical problems that solving for constitutes the first "D" or "Decision Criteria" in MEDDPICC. We must uncover these problems to provide context for a kick-ass demo.
+
+5. The "M" in MEDDPICC refers to metrics. If we have well defined decision criteria we can use metrics to quantify value during a pilot. One way this can be done, a mid-way checkin call during the pilot is a perfect time to see what difference Sourcegraph has on the success criteria.
+
+6. Lastly and maybe most importantly we use the metrics to build a ROI. Here you can see how we can [leverage Command of the Message to cover points 2 - 6 and build a successful ROI](https://docs.google.com/presentation/d/1kWXhPnAdEgZ9PpLimMxFBZ6OL8KwG47ZcVk8V4pDxPo/edit?usp=sharing).
+
+### Mutual Action Plan
+
+In stage 2 or 3, depending on how the deal is progressing it is important that you align with the customer on a [MAP](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). Unless a deal is in the "Fast Lane" it can not progress to stage 4 without a MAP. The mutual action plan should be formed in partnership with the champion. It is an agreement with the customer on predictable actions to be taken on the process toward a close. Expect no two customers to have the same process in place to complete a deal. A few items common on MAPs include:
+
+    Trial training demo
+    Trial decision criteria checkin
+    Security review
+    Legal review
+    Business Value Analysis / Return on Investment
+    Trial feedback survey
+    Proposal for the executive team or executive buyer
+    Final signature on the ELA
+    Post sales support
+
+### Return on Investment
+
+In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/spreadsheets/d/1Whvi0HJBKlNDQqvhq1FXV9_flB_RVFHPPNil02h4Yd4/edit?usp=sharing). The spreadsheet is a space to catalogue Sourcegraph's value for a customer. Unlesss a deal is in the "Fast Lane" it can not progress to stage 5 without a ROI. From the initial call with a customer your discovery should be executed with the intent to uncover value. Building an ROI gives purpose to questions like:
+
+    Who (how many people) does the problem impact?
+    What (how much time or money) is the cost of the problem?
+    What if you don't do anything about the problem?
+    How would Sourcegraph change your workflow?
+    How much do these 3rd party tools cost?
 
 ## Day-to-Day Activities
 
@@ -78,14 +130,21 @@ You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fA
 
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
 
-### Territory Planning
-
-Content Coming Soon
-
-### Account Planning
-
-Content Coming Soon
-
 ### Forecasting
 
-Content Coming Soon
+1. Please complete forecasting by close of business on Friday.
+2. Every week on Thursday you will receive an email with a title format as follows: **20XX-QX Your Name - Region Week X has not been completed. Please provide your updates.**
+3. The notes should be staged as follows with headings of _Closed/Won_, _Commit_, _Call_, _Best Case_, and _Early Pipeline_.
+   - For each heading include the total dollar amount for that heading; each subsequent heading is additive so the amount for "Commit" is additive of the deals in Commit and Close/Won
+   - Put the title of the opp along with the amount of the opp under the heading
+4. For efficiency, copy and paste notes from the week before and just add updates to the notes as is fitting.
+5. How to determine stage:
+   - Closed/Won is defined by business that has been Closed/Won in salesforce; I should not see these deals as open opps anymore
+   - Commit means that you have switched the close date to the last day of the month that it will close in; these things are synonomous and you should not have one without the other
+   - Call is for deals that you believe will come in during the quarter
+     - this may apply to any deal that has a mutual action plan (MAP) where the close date is in quarter
+     - the may apply to cloud deals that onboarded the month before the final month in the quarter
+     - during the first month of the quarter, this should also apply to 1/3 of your existing pipeline for best case and early pipeline deals
+   - Best Case are for deals that have engagement but without the clarity provided by a MAP; these deals may include those that you have a 'gut' feel for
+   - Early Pipeline means that you're only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on; any deal that is not forecasted to close in quarter should fall into this category
+6. Make sure to check your math. Closed/Won should have the smallest amount and Best Case should have the largest amount. Closed/Won to Best Case are all possibilities of what could happen within the quarter. Early Pipeline, by definition, is not forecasted for the quarter so you don't need to add the previous numbers up since the forecast is quarterly.

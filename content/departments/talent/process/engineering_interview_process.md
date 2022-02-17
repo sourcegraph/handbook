@@ -34,7 +34,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 - **Interviewers:** two members of the team they are interviewing for
 
-- **Duration:** 60-minutes
+- **Duration:** 45-minutes
 
 - **How the candidate will prepare:** during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you’d do differently today.
 
@@ -96,3 +96,19 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 - **Duration:** 60-minutes
 
 - **Details:** You will discuss the most complex problem the candidate has solved with code or the most complex codebases they have worked with.
+
+#### Frontend live-coding exercise interview
+
+- **Interviewers:** two members of the team they are interviewing for
+
+- **Duration:** 60-minutes
+
+- **Details:** This is a live interview to assess the candidate's approach to Code and the UI/UX. One interviewer will lead the interview and one interviewer will shadow. The exercise currently requires the candidate to have a CodeSandbox account and a Figma account.
+
+- **Before the interview** [Instruction](https://github.com/sourcegraph/interviews/edit/master/engineering/coding/commit-header/README.md)
+- Note: The instructions are for both 60min and 90min. In this case it is a 60min interview.
+
+- **What to look for:**
+  How did the candidate approach the code? Think about CSS, React, error handling, tests. If there was anything they struggled with, did they communicate their intentions well?
+  How did the candidate approach the UI/UX. Did they generally follow what the design specified? Did they consider loading and error states? Did they consider accessibility?
+  Follow up questions based on the candidates implementation

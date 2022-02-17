@@ -70,7 +70,7 @@ growth_and_integrations:
   title: Growth and Integrations
   product_org: cloud
   strategy_link: /strategy-goals/strategy/cloud/growth-and-integrations/index.md
-  pm: rob_rhyne
+  pm: ryan_scott
   design: sara_lee
   em: murat_sutunc
   pmm: alex_isken
@@ -113,7 +113,7 @@ frontend_platform:
   strategy_link: /strategy-goals/strategy/enablement/frontend-platform
   product_org: enablement
   pm: taylor_sperry
-  em: patrick_dubroy
+  em: jean_du_plessis
   design: alicja_suska
   issue_labels:
     - team/frontend-platform

@@ -1,6 +1,6 @@
 # Search Product strategy
 
-This page outlines the strategy, and goals of the [Search Product team](../../../../departments/product-engineering/engineering/code-graph/search/product.md).
+This page outlines the strategy, and goals of the [Search Product team](../../../../departments/product-engineering/engineering/code-graph/search/product.md) over the next year or so.
 
 For context on the mission, vision and guiding principles of Search, see the top-level [search strategy](index.md) page.
 
@@ -8,7 +8,7 @@ Quicklinks:
 
 - [Search overall strategy](../index.md)
 - [Search Product backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-product/)
-- [FY2021 Q4 Roadmap](https://app.productplan.com/pr/Gkvre8UGfdmM93rKHeVoGTP0ZboBns_s)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+product%22)
 
 ## Where we are now
 
@@ -32,3 +32,9 @@ Sourcegraph is the leading code search product in the market, used by tens of th
 #### What we're not working on and why
 
 We currently have no development work in the pipeline for search relevance, ranking, or semantic and natural language searching. These are important areas where we do plan to invest substantial research, but we have no implementation plans for FY22Q4.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.search_product}}
