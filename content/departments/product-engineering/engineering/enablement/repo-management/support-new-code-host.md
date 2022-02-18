@@ -19,7 +19,7 @@ We'll use [Pagure](https://pagure.io/) as an example. Here's the [commit](https:
 1. The same needs to be done for places where we need [unmarshal config](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%4039265b5+case+*schema.PagureConnection&patternType=literal)
 1. Update our [UI code](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@39265b5cf53167a86bd993a0f0081b49c18aab81/-/blob/client/web/src/components/externalServices/externalServices.tsx?L1218) so that the new code host type is displayed
 
-A rough estime for the above would be two weeks of development work for 1 onboarded developer.
+A rough estimate for the above changes is two weeks of development work for 1 onboarded developer.
 
 ## Additional steps required if the code host it not git based
 
