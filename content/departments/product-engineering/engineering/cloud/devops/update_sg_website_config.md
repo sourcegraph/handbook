@@ -14,7 +14,7 @@ To update the non-sensitive configuration, follow these steps:
 
 1. After your PR is approved, merge it with the "release" branch.
 2. Confirm that you have access to Sourcegraph Cloud on the Google Cloud Platform (GCP). Go to this [link](https://console.cloud.google.com/kubernetes/list/overview?project=sourcegraph-dev) and verify that you can see a cluster named "cloud".
-3. Setup your access to Kubernetes if you haven't done this yet. See the instructions [here](../../process/deployments/kubernetes/.md).
+3. Setup your access to Kubernetes if you haven't done this yet. See the instructions [here](../../process/deployments/kubernetes.md).
 4. If you haven't done this yet, configure `kubectl` to point to the right cluster by running: `gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev`. Or just run `kubectl config get-contexts` to check if you are in the Cloud cluster.
 5. Finally, run `kubectl rollout restart deployment sourcegraph-frontend -n prod` to restart the frontend.
 6. Run `kubectl get pods -n prod -l app=sourcegraph-frontend` and check if the new pods are running.
