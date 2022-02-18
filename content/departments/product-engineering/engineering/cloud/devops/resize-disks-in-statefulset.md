@@ -64,13 +64,12 @@ kubectl delete sts gitserver --cascade=orphan -n prod
 - in persistent volumes files: https://k8s.sgdev.org/github.com/sourcegraph/deploy-sourcegraph-cloud/-/tree/base/gitserver (all files with `repos-gitserver-[NUMBER].PersistentVolume.yaml` names)
 - deploy via [buildkite job](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud)
 
-9. Delete StatefulSet pods one by one
+9. Delete StatefulSet pods one by one (optional)
 
 Note:
 
-- wait for each pod to be fully available before moving forward.
-- perform it for each pod in StatefulSet
+- only invoke if pods were not recreated in step 8.
 
 ```
-kubectl delete pod gitserver-0 -n prod
+kubectl rollout restart sts gitserver -n prod
 ```
