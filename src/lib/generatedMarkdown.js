@@ -117,24 +117,34 @@ export async function generateFeatureCodeHostCompatibilities() {
     areaContent += '\n'
 
     for (const feature of Object.values(features)) {
+      let incompatibleFeatureCount = 0
+      let featureContent = ''
       if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
-        featureCount++
         if (feature.documentation_link) {
-          areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
+          featureContent += `|[${String(feature.title)}](${String(
+            createRelativeProductLink(feature.documentation_link)
+          )})`
         } else {
-          areaContent += `|${String(feature.title)}`
+          featureContent += `|${String(feature.title)}`
         }
-        areaContent += '|'
+        featureContent += '|'
         for (const codeHostName of Object.keys(codeHosts)) {
+          if (feature.compatibility[codeHostName] === false) {
+            incompatibleFeatureCount++
+            featureCount++
+          }
           if (feature.compatibility === undefined) {
-            areaContent += ' |'
+            featureContent += ' |'
           } else if (feature.compatibility[codeHostName]) {
-            areaContent += '✔️|'
+            featureContent += '✔️|'
           } else {
-            areaContent += ' |'
+            featureContent += ' |'
           }
         }
-        areaContent += '\n'
+        featureContent += '\n'
+      }
+      if (incompatibleFeatureCount > 0) {
+        areaContent += featureContent
       }
     }
     if (featureCount > 0) {
@@ -410,6 +420,112 @@ export async function generateEngineeringOwnershipTable() {
     pageContent += `|${String(thing.ownership_model || '')}|${String(thing.health || '')}`
     pageContent += `|${String(thing.product_lifecycle || '')}`
     pageContent += '|\n'
+  }
+
+  return pageContent
+}
+
+export async function generateGlossary() {
+  const glossarySections = await readYamlFile('data/glossary.yml')
+  let pageContent = ''
+
+  for (const [sectionName, section] of Object.entries(glossarySections)) {
+    pageContent += `## ${String(sectionName.charAt(0).toUpperCase() + sectionName.slice(1))} terms\n\n`
+    pageContent += '|Term|Definition|\n|----|----------|\n'
+    for (const entry of section) {
+      pageContent += `|${String(entry.term)}|${String(entry.definition)}|\n`
+    }
+    pageContent += '\n'
+  }
+
+  return pageContent
+}
+
+export async function generateDeploymentOptions() {
+  const features = await readYamlFile('data/features.yml')
+  const productTeams = await readYamlFile('data/product_teams.yml')
+  const productOrgs = await readYamlFile('data/product_orgs.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+  const deploymentOptions = await readYamlFile('data/deployment_options.yml')
+  const maturityLevels = await readYamlFile('data/maturity_levels.yml')
+  let pageContent = ''
+
+  for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
+    let featureCount = 0
+    let areaContent = `\n### ${String(productTeam.title)}\n`
+    const productOrg = productOrgs[productTeam.product_org]
+    if (productOrg.strategy_link) {
+      const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
+      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(strategyUrl)}) | `
+    }
+    if (productTeam.strategy_link) {
+      areaContent += `[${String(productTeam.title)} Strategy](${String(
+        createRelativeProductLink(productTeam.strategy_link)
+      )}))\n`
+    }
+    if (productTeam.pm) {
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
+      areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
+    }
+
+    areaContent += '\n|Feature|'
+    for (const deploymentOption of Object.values(deploymentOptions)) {
+      areaContent += `${String(deploymentOption.title)} |`
+    }
+    areaContent += '\n|-------|'
+    for (let index = 0; index < Object.values(deploymentOptions).length; index++) {
+      areaContent += '-|'
+    }
+    areaContent += '\n'
+
+    for (const feature of Object.values(features)) {
+      if (feature.product_team === productTeamName && feature.deployment !== undefined) {
+        featureCount++
+        if (feature.documentation_link) {
+          areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
+        } else {
+          areaContent += `|${String(feature.title)}`
+        }
+        areaContent += '|'
+        for (const deploymentOption of Object.keys(deploymentOptions)) {
+          if (feature.deployment === undefined) {
+            areaContent += ' |'
+          } else if (feature.deployment[deploymentOption] === 'ga') {
+            areaContent += '✔️|'
+          } else {
+            areaContent += `${String(maturityLevels[feature.deployment[deploymentOption]].title)}|`
+          }
+        }
+        areaContent += '\n'
+      }
+    }
+    if (featureCount > 0) {
+      pageContent += areaContent
+    }
+  }
+  return pageContent
+}
+
+export async function generateGuildRoster(guildReference) {
+  const guilds = await readYamlFile('data/guilds.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+
+  let pageContent = ''
+  const guild = guilds[guildReference]
+
+  pageContent += '## Members\n'
+  const leaderReference = guild.leader
+  const teamLinkPrefix = '../../../../../'
+  if (leaderReference) {
+    const name = teamMembers[leaderReference].name
+    pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))}) - Guild Leader\n`
+  }
+  for (const memberReference of guild.members) {
+    if (memberReference === leaderReference) {
+      continue
+    }
+    const name = teamMembers[memberReference].name
+    pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))})\n`
   }
 
   return pageContent
