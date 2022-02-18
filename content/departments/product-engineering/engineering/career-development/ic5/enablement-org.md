@@ -1,6 +1,6 @@
 # IC5 profile: Enablement Org
 
-See also [internal profile](https://docs.google.com/document/d/1ywJxHj--tv3MxYo8Y8asxTWamZgbvDQx382iV9Wy1m4/edit)
+See also [internal profile](https://docs.google.com/document/d/1-aq34j9zskjTY5XXZyodWqoLnklhm4sJQdxetyB-6iA/edit)
 
 ## Business need
 
