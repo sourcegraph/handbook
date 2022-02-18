@@ -5,13 +5,14 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
-   - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details
+   - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details. If you customize the `sourcegraph-managed` prefix, make sure to update the PROJECT_PREFIX variable in the below instructions.
    - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
    - `export VERSION=vMAJOR.MINOR.PATH`
    - `export COMPANY=$COMPANY`
-   - `export PROJECT_ID=sourcegraph-managed-$COMPANY`
+   - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
+   - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
    - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
      - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
