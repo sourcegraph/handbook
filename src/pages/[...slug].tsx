@@ -101,7 +101,7 @@ export default function Page({ page }: PageProps): JSX.Element {
         <>
             <NextSeo title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
             <div className="container">
-                {!page.frontMatter?.hide_sidebar ? (
+                {!page.frontMatter?.hide_sidebar && (
                     <nav id="right-sidebar">
                         <section className="right-sidebar-section" ref={tocReference}>
                             <h4 className="sidebar-heading">On this page</h4>
@@ -110,7 +110,7 @@ export default function Page({ page }: PageProps): JSX.Element {
 
                         <EditSection page={page} />
                     </nav>
-                ) : null}
+                )}
                 <div id="content">
                     {page.content ? (
                         <>
@@ -152,7 +152,7 @@ export default function Page({ page }: PageProps): JSX.Element {
                     ) : (
                         <h1>Unexpected error</h1>
                     )}
-                    {page.frontMatter?.hide_sidebar ? <EditSection page={page} /> : null}
+                    {page.frontMatter?.hide_sidebar && <EditSection page={page} />}
                 </div>
             </div>
         </>
