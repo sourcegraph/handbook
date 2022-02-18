@@ -34,7 +34,7 @@ A rough estimate for the above effort is two weeks of development work for 1 onb
 
 ## Extra steps required if permission syncing is required
 
-In order to support permission syncing, we need a way of mapping permissions from the code host with users in the Sourcegraph instance. The decision on how to perform the mapping varies, but the most common option is to map users based on verified e-mail addresses.
+In order to support permissions syncing, we need a way of mapping permissions from the code host with users in the Sourcegraph instance. The decision on how to perform the mapping varies, but the most common option is to map users based on verified e-mail addresses.
 
 1. [Implement](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@39265b5cf53167a86bd993a0f0081b49c18aab81/-/blob/enterprise/internal/authz/perforce/perforce.go?L27) the [AuthProvider](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@39265b5cf53167a86bd993a0f0081b49c18aab81/-/blob/internal/authz/iface.go?L87) interface
 1. Provide the [authorization](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@39265b5cf53167a86bd993a0f0081b49c18aab81/-/blob/schema/perforce.schema.json?L67-78) section in config
