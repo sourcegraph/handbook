@@ -278,7 +278,7 @@ GKE Kubernetes backup process is performed by [Velero](https://github.com/vmware
 
 ### On demand backup steps
 
-1. Install Velero on GKE Kubernetes
+1. Install Velero on GKE Kubernetes:
 
 ```
 velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.4.0     --bucket sg-velero-preprod-backup     --secret-file ./credentials-velero
@@ -328,7 +328,7 @@ Note:
 Important:
 
 - new GKE Kubernetes cluster was created via [terraform](https://github.com/sourcegraph/infrastructure/pull/3101)
-- if Velero is going to restore a snapshot in a DIFFERENT GCP project, all steps from [Install velero in the GKE cluster](<(#install-velero-in-gke-kubernetes)>) have to be performed in the new GCP project.
+- if Velero is going to restore a snapshot in a DIFFERENT GCP project, all steps from [How to install velero in the GKE cluster](#how-to-install-velero-in-gke-kubernetes) have to be performed in the new GCP project.
 
 1. Connect to new GKE cluster:
 
