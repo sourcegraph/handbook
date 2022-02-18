@@ -505,3 +505,28 @@ export async function generateDeploymentOptions() {
   }
   return pageContent
 }
+
+export async function generateGuildRoster(guildReference) {
+  const guilds = await readYamlFile('data/guilds.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+
+  let pageContent = ''
+  const guild = guilds[guildReference]
+
+  pageContent += '## Members\n'
+  const leaderReference = guild.leader
+  const teamLinkPrefix = '../../../../../'
+  if (leaderReference) {
+    const name = teamMembers[leaderReference].name
+    pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))}) - Guild Leader\n`
+  }
+  for (const memberReference of guild.members) {
+    if (memberReference === leaderReference) {
+      continue
+    }
+    const name = teamMembers[memberReference].name
+    pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))})\n`
+  }
+
+  return pageContent
+}
