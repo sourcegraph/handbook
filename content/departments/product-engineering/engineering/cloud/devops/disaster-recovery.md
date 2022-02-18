@@ -10,7 +10,7 @@ Disaster Recovery process contains playbooks for different components:
   - [Google Secret Manager backup process](#google-secret-manager-backup-process)
   - [Google Secret Manager restore process](#google-secret-manager-restore-process)
 - [GKE Kubernetes](#gke-kubernetes)
-  - [Install Velero in GKE Kubernetes](#install-velero-in-gke-kubernetes)
+  - [How to install Velero in GKE Kubernetes](#how-to-install-velero-in-gke-kubernetes)
   - [GKE Kubernetes backup process](#gke-kubernetes-backup-process)
     - [On demand backup steps](#on-demand-backup-steps)
     - [Scheduled backup steps](#scheduled-backup-steps)
@@ -21,7 +21,7 @@ Disaster Recovery process contains playbooks for different components:
 
 [Sourcegraph](https://sourcegraph.com) is deployed in Google Cloud Platform.
 
-![Sourcegrap.com in Gogole Cloud Platform](sourcegraph_cloud.png)
+![Sourcegrap.com in Google Cloud Platform](sourcegraph_cloud.png)
 
 Before restoring all components from backups, [terraform](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/cloud/README.md) has to be applied to create:
 
@@ -191,7 +191,7 @@ Google Kubernetes cluster is the platform for all applications. Applications are
 
 Sourcegraph uses open source tool [Velero](https://velero.io/) to backup and restore GKE Kubernetes cluster state and GCP disk snapshots.
 
-## Install Velero in GKE Kubernetes
+## How to install Velero in GKE Kubernetes
 
 Note: original documentation from [Velero](https://github.com/vmware-tanzu/velero-plugin-for-gcp#setup)
 
