@@ -2,7 +2,15 @@
 
 ## Vision
 
-TODO
+At the end of FY’22 a new team, Technical Writing, was formed within the product organization.
+
+The Technical Writing team aims to ensure that users not only understand how features work but why they are important through practical, actionable technical content.
+
+Put another way, this team's primary goal is to educate users and provide them with a path to realized value in Sourcegraph products, as well as help them achieve measurable success in reaching their desired outcomes. We strive to accomplish this through a variety of educational content that goes beyond docs and also includes guides, technical use cases, tutorials, videos, and any other content/mediums/approaches that serve our users and this goal.
+
+While the primary focus of this group will be to create original content, this group will also work to develop the strategy, templates, processes, and standards necessary to ensure the content produced aligns with style guides, maintains relevancy, and provides a consistent style, tone, and voice.
+
+Finally, this group will contribute to shaping the relevant technical platforms in order to drive consistent design, information architecture, functionality, and experience that allows this content to stand out as a competitive differentiator for Sourcegraph.
 
 ## Contact
 
