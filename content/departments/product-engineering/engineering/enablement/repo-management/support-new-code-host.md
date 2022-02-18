@@ -43,7 +43,7 @@ Bear in mind that some code hosts support permissions that are more granular tha
 
 We currently only support per path filtering in sub-repo permissions.
 
-The implementation can vary a lot depending on the specifics of each code host, but again, a rouugh estimate is about two weeks of work.
+The implementation can vary a lot depending on the specifics of each code host, but again, a rough estimate is about two weeks of work.
 
 ## Considerations
 
