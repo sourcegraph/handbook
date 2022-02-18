@@ -82,7 +82,7 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 
 When adding a user to Looker, they need to be in both the group and role:
 
-- Marketing, customer support, people ops, talent users = View
+- Engineering, marketing, customer support, people ops, talent users = View
 - CE, sales, product users = ‘All internal users, view and edit’
 - Any other teams not listed should default to 'View'
-- Generally, CE, sales, product, customer support and marketing receive accounts when joining the company
+- Generally, CE, sales, product, customer support, engineering, and marketing receive accounts when joining the company

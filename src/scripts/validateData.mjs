@@ -18,6 +18,8 @@ const productOrgs = await readYamlFile('data/product_orgs.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
 const useCases = await readYamlFile('data/use_cases.yml')
+const deploymentOptions = await readYamlFile('data/deployment_options.yml')
+const guilds = await readYamlFile('data/guilds.yml')
 
 let errors = 0
 
@@ -43,6 +45,24 @@ for (const feature of Object.values(features)) {
         for (const codeHost of Object.values(feature.code_hosts)) {
             if (!Object.prototype.hasOwnProperty.call(codeHosts, codeHost)) {
                 console.log(`Feature contains unknown code host: ${JSON.stringify(feature)}`)
+                errors++
+            }
+        }
+    }
+    if (feature.deployment) {
+        for (const deploymentOption of Object.keys(feature.deployment)) {
+            if (!Object.prototype.hasOwnProperty.call(deploymentOptions, deploymentOption)) {
+                console.log(
+                    `Feature contains unknown deployment option ${String(deploymentOption)}: ${JSON.stringify(feature)}`
+                )
+                errors++
+            }
+        }
+        for (const deploymentOption of Object.values(feature.deployment)) {
+            if (!Object.prototype.hasOwnProperty.call(maturityLevels, deploymentOption)) {
+                console.log(
+                    `Feature contains unknown deployment option ${String(deploymentOption)}: ${JSON.stringify(feature)}`
+                )
                 errors++
             }
         }
@@ -125,6 +145,21 @@ for (const thing of Object.values(engineeringOwnership)) {
     if (thing.product_team) {
         if (!Object.prototype.hasOwnProperty.call(productTeams, thing.product_team)) {
             console.log(`Engineering ownership item contains unknown product team: ${JSON.stringify(thing)}`)
+            errors++
+        }
+    }
+}
+
+for (const guild of Object.values(guilds)) {
+    if (guild.leader) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, guild.leader)) {
+            console.log(`Guild ${JSON.stringify(guild.name)} contains unknown leader: ${JSON.stringify(guild.leader)}`)
+            errors++
+        }
+    }
+    for (const member of Object.values(guild.members)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, member)) {
+            console.log(`Guild ${JSON.stringify(guild.name)} contains unknown member: ${JSON.stringify(member)}`)
             errors++
         }
     }
