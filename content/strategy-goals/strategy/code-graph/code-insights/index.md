@@ -2,7 +2,7 @@
 
 Code Insights is an upcoming product that lets you track and understand what's in your code and how it changes over time.
 
-This page outlines the vision, strategy, and goals of the Code Insights team.
+This page outlines the vision, strategy, and goals of the Code Insights team over the next year or so.
 
 Quick links:
 
