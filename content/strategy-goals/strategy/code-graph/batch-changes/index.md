@@ -1,6 +1,6 @@
 # Batch Changes strategy
 
-Batch Changes is a tool to find code that needs to be changed and change it at scale by running code. This page outlines the vision, strategy, and goals of the Batch Changes team.
+Batch Changes is a tool to find code that needs to be changed and change it at scale by running code. This page outlines the vision, strategy, and goals of the Batch Changes team over the next year or so.
 
 ## Quick links
 
