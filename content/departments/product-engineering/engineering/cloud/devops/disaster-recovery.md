@@ -278,7 +278,7 @@ GKE Kubernetes backup process is performed by [Velero](https://github.com/vmware
 
 ### On demand backup steps
 
-1. Install Velero on GKE Kubernetes:
+1. Install Velero on GKE Kubernetes
 
 ```
 velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.4.0     --bucket sg-velero-preprod-backup     --secret-file ./credentials-velero
