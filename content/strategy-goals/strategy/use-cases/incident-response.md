@@ -40,7 +40,7 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 
 ## Features that enable this use case
 
-{{generator:use_case_feature_list.incident_responses}}
+{{generator:use_case_feature_list.incident_response}}
 
 ## Additional resources
 

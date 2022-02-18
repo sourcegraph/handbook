@@ -30,7 +30,9 @@ Many of the following commands in this guide, as well as the commands [operation
 ```sh
 # name of customer deployment (should match folder)
 export CUSTOMER=<customer_or_instance_name>
-export CURRENT_DEPLOYMENT=$(gcloud compute instances list --project=sourcegraph-managed-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+# should match GCP project prefix - typically the default is correct
+export PROJECT_PREFIX=sourcegraph-managed
+export CURRENT_DEPLOYMENT=$(gcloud compute instances list --project=${PROJECT_PREFIX}-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 # The value can be found in the Managed Instances vault
 # https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m
 export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>

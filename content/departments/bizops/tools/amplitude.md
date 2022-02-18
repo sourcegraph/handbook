@@ -83,6 +83,8 @@ If an additional user property is added to this table, it will only be applied t
 
 Amplitude is built on top of our existing [eventLogger infrastructure](https://sourcegraph.com/search?q=context:global+eventLogger.log%28+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+&patternType=literal), so we consider an event to be anything logged by this. We use [object action framework in Proper Case](https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/) for our naming. For example, in eventLogger this would show up as 'SearchSubmitted', and in Amplitude it's converted to 'Search Submitted'.
 
+Name space your event names so events in a group are easily recognized. For example: ClickedCTA follws the convension, but does not help users distinguish which CTA or where the event occurred. PostSignUpFlowCLickedBextCTA helps identify this CTA was for the browser extesnsion.
+
 All events from eventLogger are sent to Amplitude except if explicitly added to a denylist in the scheduled query.
 
 ## Amplitude Govern
