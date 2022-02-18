@@ -39,6 +39,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
 - [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
+- [How to use preprod aka staging](preprod.md)
 
 ## How to contact the team and ask for help
 
