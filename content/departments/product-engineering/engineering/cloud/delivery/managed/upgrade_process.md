@@ -57,8 +57,10 @@ export CUSTOMER=<customer_or_instance_name>
 export SRC_ENDPOINT=http://localhost:4444
 # see 1password "$CUSTOMER admin account", under "token" field
 export SRC_ACCESS_TOKEN=$TOKEN
+# should match GCP project prefix - typically the default is correct
+export PROJECT_PREFIX=sourcegraph-managed
 # currently live instance
-export OLD_DEPLOYMENT=$(gcloud compute instances list --project=sourcegraph-managed-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+export OLD_DEPLOYMENT=$(gcloud compute instances list --project=${PROJECT_PREFIX}-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 # the instance we will create
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 ```
