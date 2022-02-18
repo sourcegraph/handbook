@@ -30,7 +30,7 @@ We'll use [Perforce](https://www.perforce.com/) as an example.
 1. [Implement](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@e474119750b4e0700eaf2750933100c019bf2695/-/blob/cmd/gitserver/server/vcs_syncer_perforce.go?L17) the [VCSSyncer interface](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@078c426697c5bc6fedcba5b7851f3a2c194101f6/-/blob/cmd/gitserver/server/vcs_syncer.go?L12)
 1. You may need to update the [gitserver](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@39265b5cf53167a86bd993a0f0081b49c18aab81/-/blob/cmd/gitserver/Dockerfile?L6) and [server](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@39265b5cf53167a86bd993a0f0081b49c18aab81/-/blob/cmd/server/Dockerfile?L2) `Dockerfile` so that any required CLI tools are available at runtime
 
-A rough estime for the above would be two weeks of development work for 1 onboarded developer, assuming third party tooling already support incremental imports from the source repo type.
+A rough estimate for the above effort is two weeks of development work for 1 onboarded developer, assuming third party tooling already supports incremental imports from the source repo type.
 
 ## Extra steps required if permission syncing is required
 
