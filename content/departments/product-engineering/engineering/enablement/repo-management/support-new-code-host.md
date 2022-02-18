@@ -4,7 +4,7 @@ Sourcegraph currently supports a number of different [code hosts](https://docs.s
 
 Not all code hosts are supported "natively". Native supports means a code host type is listed as an option in our UI and it is seamless to add. In some cases it is possible to work around this if the code host is based on `git`, in which case it can be added via our [other git repository hosts](https://docs.sourcegraph.com/admin/external_service/other) mechanism.
 
-The following are the list of changes required to nativley support another code host type.
+The following are the list of changes required to natively support another code host type.
 
 ## Steps required for all new code host types
 
