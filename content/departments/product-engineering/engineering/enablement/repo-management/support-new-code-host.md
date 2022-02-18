@@ -32,7 +32,7 @@ We'll use [Perforce](https://www.perforce.com/) as an example.
 
 A rough estimate for the above effort is two weeks of development work for 1 onboarded developer, assuming third party tooling already supports incremental imports from the source repo type.
 
-## Extra steps required if permission syncing is required
+## Extra steps required if permissions syncing is required
 
 In order to support permissions syncing, we need a way of mapping permissions from the code host with users in the Sourcegraph instance. The decision on how to perform the mapping varies, but the most common option is to map users based on verified e-mail addresses.
 
