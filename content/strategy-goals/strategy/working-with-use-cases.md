@@ -56,7 +56,7 @@ At a strategic level the use cases are the narrative under which we connect our 
 
 We aim to increase the relevancy of our product for technology organizations that care about these challenges and want to solve them at their company. Our business measure of success will be identified through Revenue growth while on the product side this will exhibit through better engagement in our products; especially around the features that provide solutions for these use cases. By taking a more focused approach we will be able to move fast and prove the efficacy of these use cases to our growth.
 
-## Are these all use cases?
+## Are these the only use cases?
 
 We are being intentional so we can develop depth to our solutions and choosing common themes the majority of them face continuously. Although these five problem spaces are the ones we’ve chosen to focus on at this time, we will continue to discover ways to support our customers and every technology organization out there. We are not only focusing on the individual developer workflows, we’re looking at the bigger picture and tackling code quality, developer productivity and happiness within organizations. We are well positioned to truly revolutionize how software is developed and give super-powers to those developing it.
 
