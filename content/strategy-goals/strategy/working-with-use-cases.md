@@ -33,7 +33,7 @@ For Sales & CE, a good use case is:
 
 # Applied in Product & Engineering
 
-This section provides context on how use cases align to our platform, products, features and roadmap to set forth a framework teams can leverage to make use cases first class citizens in our platform.
+This section provides context on how use cases align to our platform, products, features, and roadmap to set forth a framework teams can leverage to make use cases first-class citizens in our platform.
 
 The use cases are problems that our customers encounter that our product helps solve. In Product and Engineering, we’re building for these scenarios, demonstrating a clear progression of solving our customers (and potential customers) pain points over time. When we talk about what’s coming next on the roadmap, we think about how we’re enhancing the product to better solve these use cases. They provide general alignment and focus that the team is constantly thinking about, across the organization and within our product teams and features. When we package together Sourcegraph’s features like search, code insights, code intelligence, batch changes, notebooks - we’re able to create a cohesive and compelling narrative and solution in a particular use case for the end user.
 
