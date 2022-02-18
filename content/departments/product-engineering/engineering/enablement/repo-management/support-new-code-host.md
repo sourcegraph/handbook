@@ -48,5 +48,5 @@ The implementation can vary a lot depending on the specifics of each code host, 
 ## Considerations
 
 - Converting to `git` from another source can take a long time
-- Incremetnal importing is necessary so that changes can be pulled more frequently
+- Incremental importing is necessary so that changes can be pulled more frequently
 - Concepts like branches sometimes don't map directly to the way they are supported in `git`
