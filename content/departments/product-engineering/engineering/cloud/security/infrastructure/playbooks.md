@@ -335,3 +335,13 @@ If `terraform plan` or `terraform apply` fails on acquiring state lock, look at 
 
 - If the `who` field is obviously a developer, they're probably also running `terraform plan` or `terraform apply` on the same GCP resources. You'll probably have a merge conflict at some point, so it's a good idea to sync with them on what the two of you are doing, and how it could interact.
 - If the `who` field is buildkite, then we may have a stuck pipeline. A good heuristic is to see if the lock was created more than ~10 minutes ago. If it was, it's a good idea to start hunting through PRs on the infrastructure repo for a stuck pipeline so you can ping the PR author, or to ping #distributrioneers if you can't find the source. You may need to force unlock the state after killing the stuck pipeline.
+
+During a `terraform init` if you get the below error that means there was an issue pulling the terraform state from Cloud storage. Running `gcloud auth application-default login` to refresh your default auth token should resolve it (`gcloud auth login` will not recreate the token).
+
+```
+Error: Failed to get existing workspaces: querying Cloud Storage failed: Get "https://www.googleapis.com/storage/v1/b/sourcegraph-tfstate/o?alt=json&delimiter=%2F&pageToken=&prefix=infrastructure%2Fpentest%2F&prettyPrint=false&projection=full&versions=false": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+```
