@@ -18,7 +18,7 @@ Jump to:
 
 ## Salesforce access
 
-Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. 
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation.
 
 To access Salesforce you will need to log in using your [Okta](https://sourcegraph.okta.com/app/UserHome) credentials. To request access, tag @sales-operations in #it-tech-ops.
 
