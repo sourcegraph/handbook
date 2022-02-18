@@ -43,7 +43,7 @@ Companies have different workflows for each use case, for example how they monit
 
 - Platform : the overall Sourcegraph offering
 - Product : one of the vertical products in our offering (e.g. search, code monitor, code insights, batch changes)
-- Feature : a capability within a products
+- Feature : a capability within a product
 - Solution : any collection of products and features that solve a problem or use case
 
 If a customer cares about Code Health, they may use Code Monitoring differently than one that cares about monitoring for Security Vulnerabilities. Our focus is to enrich our offering in each one of these products to support solving for each use case. This will make it easiery for our users to recognize where Sourcegraph could provide value in their workflows.
