@@ -49,38 +49,35 @@ Legal training for managers on performance management
 
 Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
 
-## What are we up to? FY'22 goals
+## What are we up to? FY'23 goals
 
-Objective 1: Enable the business to achieve its growth targets by managing an efficient contracting process while protecting the company
+Objective 1:  Processes are set up to enable company to meet revenue targets
 
-- Turnaround 100% of customer contract reviews within 5 business days
-- Increase use of online terms by making our online terms more mutual ✅
-- Establish a clear and efficient [process](process/index.md) for vendor contract reviews in partnership with Finance and other business stakeholders
-- Make signing Sourcegraph’s form NDA easier for customers and other third parties by setting up a Docusign PowerForm ✅
-- Deliver legal enablement trainings proactively on an as-needed basis
+- KR: 100% of AEs joining April 1 onward complete a 20-minute (or less) legal onboarding (such as a video) as part of sales onboarding within first 1 month
+- KR: 50% of MSA redline comments are copied and pasted from playbook
+- KR: Playbooks and Salesforce non-standard terms fields are updated with each deal
+- KR: At least 50% of our customers signing new deals <$100k ARR agree to use our online terms
+- KR: 100% of customer redlines are reviewed within 3 business days of receipt and in the last month of the quarter within 2 business days of receipt
 
-Objective 2: Enable the company and its managers to provide teammate experiences that respect teammates’ rights
+Objective 2:  Our data collection and storage practices for Cloud and other products earn customer trust 
 
-- Deliver employment legal enablement training to all managers annually or as part of their onboarding process ✅
-- Build a user-friendly code of conduct that accounts for frequently asked questions by teammates in collaboration with People team, including whistleblower and anti-bribery policies
-- Notify all teammates of their privacy rights in a privacy notice
-- Provide legally compliant offer letters and consulting agreements, compensation plans, and separation agreements
+- KR: Privacy policy is updated and process for regular updates is established
+- KR: SOC 2 efforts receive all necessary legal support and attention
+- KR: Privacy program is set up to scale with product, including data mapping, subprocessor updates, incident response plans, teammate FAQs and trainings (this item is contingent on a legal counsel hire in Q1)
 
-Objective 3: Enable the company to deliver products that respect customers’ and users’ rights and comply with the law
+Objective 3:  Equity compensation is legally compliant and maximizes value to teammates
 
-- Provide contract templates that comply with data protection laws and advise the product and engineering teams on compliance requirements before the launch of Sourcegraph Cloud
-- Provide proactive advice to the business on the company’s data protection obligations
-- Provide proactive advice to the business on the company’s export compliance obligations
+- KR: 100% of equity granted to teammates is accurate
 
-Objective 4: Enable the company to grow responsibly
+Objective 4:  Each legal team member has grown 
 
-- Identify and advise on 100% of corporate compliance risks that the company faces including securities laws, disclosure requirements, and international business registrations
-- Secure high-quality legal advice on strategic decisions such as financings, M&A, and international expansion
-- Secure high-quality legal advice relating to teammate equity such as granting, exercising, and selling equity and different types of equity (options vs. RSUs)
-- Provide a [signature authority policy](process/ContractReviewandSignatureAuthorityPolicy.md) ✅
+- KR: Each teammate seeks and receives feedback from at least 3 individuals from different levels and teams on opportunities for improvement
+- KR: Each teammate seeks out and participates in at least one training or conference of their choice
 
-Objective 5: Enable the business to make informed decisions about IP strategy
+Legal roadmap Q1 and Q2:
 
-- Help the business weigh ways to protect against patent trolls and other infringement suits ✅
-- Keep the business informed about open source license rights and risks ✅
-- Provide a well-managed trademark registration program
+- cookie policy is updated
+- data retention policy is published on handbook
+- commercial contract tracking and analytics is improved upon
+- legal team leveling chart is created and used
+- Docusign Powerforms are improved
