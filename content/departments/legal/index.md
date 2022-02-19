@@ -51,7 +51,7 @@ Before reaching out to our [outside counsel](https://docs.google.com/document/d/
 
 ## What are we up to? FY'23 goals
 
-Objective 1:  Processes are set up to enable company to meet revenue targets
+Objective 1: Processes are set up to enable company to meet revenue targets
 
 - KR: 100% of AEs joining April 1 onward complete a 20-minute (or less) legal onboarding (such as a video) as part of sales onboarding within first 1 month
 - KR: 50% of MSA redline comments are copied and pasted from playbook
@@ -59,17 +59,17 @@ Objective 1:  Processes are set up to enable company to meet revenue targets
 - KR: At least 50% of our customers signing new deals <$100k ARR agree to use our online terms
 - KR: 100% of customer redlines are reviewed within 3 business days of receipt and in the last month of the quarter within 2 business days of receipt
 
-Objective 2:  Our data collection and storage practices for Cloud and other products earn customer trust 
+Objective 2: Our data collection and storage practices for Cloud and other products earn customer trust
 
 - KR: Privacy policy is updated and process for regular updates is established
 - KR: SOC 2 efforts receive all necessary legal support and attention
 - KR: Privacy program is set up to scale with product, including data mapping, subprocessor updates, incident response plans, teammate FAQs and trainings (this item is contingent on a legal counsel hire in Q1)
 
-Objective 3:  Equity compensation is legally compliant and maximizes value to teammates
+Objective 3: Equity compensation is legally compliant and maximizes value to teammates
 
 - KR: 100% of equity granted to teammates is accurate
 
-Objective 4:  Each legal team member has grown 
+Objective 4: Each legal team member has grown
 
 - KR: Each teammate seeks and receives feedback from at least 3 individuals from different levels and teams on opportunities for improvement
 - KR: Each teammate seeks out and participates in at least one training or conference of their choice
