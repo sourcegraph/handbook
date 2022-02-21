@@ -504,15 +504,15 @@ jonah_dueck:
 jean_du_plessis:
   name: Jean du Plessis
   pronouns: he/him
-  role: Engineering Manager, Web
+  role: Director of Engineering
   reports_to: vp_engineering
-  manager_role_slug: engineering_manager_web
+  manager_role_slug: director_engineering_enablement
   location: Cape Town, South Africa 🇿🇦
   github: jeanduplessis
   pronunciation: '[ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
   email: jean@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](readmes/jean-du-plessis.md),'
-  description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 16 years of which he's been a manager for 7. Prior to Sourcegraph, he was a manager at GitLab."
+  description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 18 years of which he's been a manager for 8. Prior to Sourcegraph, he was a manager at GitLab."
 
 owen_convey:
   name: Owen Convey
