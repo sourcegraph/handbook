@@ -368,6 +368,8 @@ batch_changes:
   documentation_link: https://docs.sourcegraph.com/batch_changes
   use_cases:
     - code_reuse
+    - code_health
+    - incident_response
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
