@@ -23,7 +23,13 @@ It is vitally important when creating a product gap, and a submission record (to
 
 If you have gotten a specific feedback request that a customer(s) would like to track the progress of you should log that feedback as a Product Gap in Salesforce. Doing so allows full transparency to CEs and Product Eng on how many customers are impacted by an issue and what teams are responsible.
 
-To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity, whether it's a net new opp or a renewal. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. Be sure to include relevant information like what workarounds your customer must employ (if any), and the severity of what this issue blocks for them.
+To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity, whether it's a net new opp or a renewal. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. A gap submission should include the following: 
+- Severity - P0, P1, P2
+- Use Case - *if relevant* tie your submission to one or multiple core use cases to help with prioritization
+- Description
+- Impact
+- Workaround, if any
+
 
 View the [full list of product gap categories/subcategories](https://docs.google.com/spreadsheets/d/1lgfIJUGkGW0Cp6yJmOqpR-WcUaWj8LbEAg4jt6EH4oY/edit?usp=sharing) in Google Drive.
 
@@ -38,9 +44,9 @@ PMs are responsible for updating a Gap after it's been opened. If a particular f
 - **In progress** - it is prioritized and the team is working on it
 - **Scheduled** - has been added to our Product roadmap
 - **Backlog** - we know we want to do this, we just don't know when yet
-- **Experimental**
-- **Beta**
-- **GA**
+- **Experimental** - released, experimental phase. Contact PM for more info.
+- **Beta** - released in Beta.
+- **GA** - fully available in standard release.
 - **Won't do** - we're not going to do this
 
 ### Creating GitHub Issues
