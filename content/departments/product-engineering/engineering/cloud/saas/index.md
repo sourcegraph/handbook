@@ -305,6 +305,7 @@ If the answer is not available below, your buddy and the whole team will share t
   - [Current Software Development Life Cycle](../../../process/sdlc.md)
   - [Cloud CI pipeline](https://docs.sourcegraph.com/dev/background-information/continuous_integration)
   - Video from Dave Try about [CI pipeline](https://www.loom.com/share/601c226a8a93429890c40213922476f9)
+  - [CI CD slides](https://docs.google.com/presentation/d/1ML71MPM4n9EHW-57p8ks9GktJdKqrcQnWhBiU2qQGpI)
   - [Deployment to production](../../process/deployments/index.md#deployment-basics)
   - [How to deploy during a freeze](../devops/deploy-code-change.md)
 - Decisions/trade-offs we accepted in our development process:
