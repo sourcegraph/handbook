@@ -112,7 +112,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     padding: 2.5rem;
   }
   /*
-  Safari doesn't make the IC6 row equal size automatically, so give them explicit heights
+  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
   Note that min-height also doesn't work.
   */
   th#ic6 {
