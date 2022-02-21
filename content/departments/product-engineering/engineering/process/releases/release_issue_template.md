@@ -20,7 +20,11 @@ This release is scheduled for **$RELEASE_DATE**.
 - [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up to date with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 
-## Prepare release
+## Cut Release (day before release - $ONE_WORKING_DAY_BEFORE_RELEASE)
+
+Perform these steps the day before the release date to generate a stable release candidate.
+
+### Prepare release
 
 - [ ] Post a release status update to Slack - review all release-blocking issues, and ensure someone is resolving each.
   ```sh
@@ -55,19 +59,22 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 **Note**: You will need to re-check the above pipelines for any subsequent release candidates. You can see the Buildkite logs by tweaking the "branch" query parameter in the URLs to point to the desired release candidate. In general, the URL scheme looks like the following (replacing `N` in the URL):
 
 - Sourcegraph: `https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.N`
-- QA: `https://buildkite.com/sourcegraph/qa/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.N`
-- E2E: `https://buildkite.com/sourcegraph/qa/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.N`
 
 - [ ] Post a release status update to Slack:
+
   ```sh
   yarn release release:status
   ```
 
-## Stage release
+- [ ] Post in #delivery channel asking for release candidate to be deployed to a test managed instance
+
+## Release Day ($RELEASE_DATE)
+
+### Stage release
 
 <!-- Keep in sync with patch_release_issue's "Stage release" section -->
 
-Once there are no more release-blocking issues (as reported by the `release:status` command) proceed with creating the final release:
+On the day of the release, confirm there are no more release-blocking issues (as reported by the `release:status` command), then proceed with creating the final release:
 
 - [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on `main` and `$MAJOR.$MINOR` are accurate.
 - [ ] Tag the final release:
@@ -84,7 +91,7 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   yarn release release:stage
   ```
 
-## Finalize release
+### Finalize release
 
 - [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously.
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
@@ -102,11 +109,10 @@ Once there are no more release-blocking issues (as reported by the `release:stat
   yarn release release:close
   ```
 
-## Post-release
+### Post-release
 
-Notify the next [release captain](./index.md#release-captain) that they are on duty for the next release. They should complete the steps in this section.
-
-- [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the current release.
+- [ ] Notify the next [release captain](./index.md#release-captain) that they are on duty for the next release.
+- [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the next release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```sh

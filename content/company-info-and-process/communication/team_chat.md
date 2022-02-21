@@ -161,6 +161,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.
 - #music - Share your tunes.
 - #nomad-life - For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
+- #peloton - For conversation around bikes that don't move
 - #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
 - #photography-chat - For photo-takey types
 - #plants-of-sourcegraph - 🌲🌻

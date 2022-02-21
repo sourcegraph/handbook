@@ -31,7 +31,7 @@ Team members using Velocity Global will receive an email invitation to our Expen
   - Some frequently asked questions about categories include:
   - Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
   - Computer purchases and other hardware (monitor, headphones, etc.) should be categorized as "Computer & Related"
-  - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Furniture & Office"
+  - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Desk Setup Stipend"
   - Team building event purchases should be categorized under "Team Morale"
   - Co-Working space bills should be categorized as Rental & Co-Working Space
   - There is no designated "home office setup" category in Expensify. Each expensed item should be categorized individually. So even though we have one home office setup budget, it spans across multiple categories.
