@@ -100,7 +100,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
   - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
 - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
   - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
-- [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post. 
+- [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
   yarn release release:close
