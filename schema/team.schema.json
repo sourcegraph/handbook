@@ -37,6 +37,6 @@
         "type": "string"
       }
     },
-    "required": ["name", "role"]
+    "required": ["name", "role", "reports_to"]
   }
 }
