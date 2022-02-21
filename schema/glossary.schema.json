@@ -2,14 +2,17 @@
   "type": "object",
   "additionalProperties": {
     "type": "array",
-    "properties": {
-      "term": {
-        "type": "string"
+    "items": {
+      "type": "object",
+      "properties": {
+        "term": {
+          "type": "string"
+        },
+        "definition": {
+          "type": "string"
+        }
       },
-      "definition": {
-        "type": "string"
-      }
-    },
-    "required": ["title", "definition"]
+      "required": ["term", "definition"]
+    }
   }
 }
