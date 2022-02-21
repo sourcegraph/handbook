@@ -4,6 +4,8 @@ This page provides a strategic introduction to one of our [company use cases](..
 
 ## Sponsors
 
+This use case has sponsors who [help maintain it](../working-with-use-cases.md). If you have questions or suggestions, you can reach out to them.
+
 {{generator:use_case_sponsors.developer_onboarding}}
 
 ## Why this is important
