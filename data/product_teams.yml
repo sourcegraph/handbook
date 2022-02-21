@@ -113,7 +113,7 @@ frontend_platform:
   strategy_link: /strategy-goals/strategy/enablement/frontend-platform
   product_org: enablement
   pm: taylor_sperry
-  em: jean_du_plessis
+  em: engineering_manager_frontend_platform
   design: alicja_suska
   issue_labels:
     - team/frontend-platform
