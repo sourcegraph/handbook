@@ -62,7 +62,7 @@ How to get data into Looker:
 
 ## Salesforce (SFDC)
 
-Salesforce is also a CRM. This is what our sales team uses and relies on heavily, and is the source of truth for our customer interactions and data. Our marketing team uses this as well, in a limited capacity. The best people to speak to about Salesforce are Joe Kirsher (Sales Ops) and Seth Hoover (Salesforce Admin).
+Salesforce is also a CRM. This is what our sales team uses and relies on heavily, and is the source of truth for our customer interactions and data. Our marketing team uses this as well, in a limited capacity. The best people to speak to about Salesforce are Joe Kirsher (Sales Ops) and Seth Hoover (Salesforce Admin). For access please contact #it-tech-ops. Access is granted through Okta.
 
 **Customer ops reporting in SFDC**
 

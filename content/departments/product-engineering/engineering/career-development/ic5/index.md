@@ -26,4 +26,9 @@ If the new IC5 profile represents the promotion of an existing teammate, the EM 
 
 ## Profiles
 
-[Enablement Org](./enablement-org.md)
+- [Enablement Org](./enablement-org.md)
+- [Code Intelligence](./code-intelligence.md)
+- [Code Intelligence - Indexing](./code-intelligence-indexing.md)
+- [Code Intelligence - Platform](./code-intelligence-platform.md)
+- [Search Core](./search-core.md)
+- [Search Product](./search-product.md)

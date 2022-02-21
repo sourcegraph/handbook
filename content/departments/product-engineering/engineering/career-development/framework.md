@@ -345,7 +345,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
       <td colspan="3" class="level-summary">
         A particularly experienced, impactful contributor.<br>
-        IC4 is the highest level that an engineer can get to based solely on their impact. The availability of positions beyond IC4 is based on both impact and business need.
+        IC4 is the highest level that an engineer can get to based solely on their performance. The availability of positions beyond IC4 is based on both impact and business need.
       </td>
     </tr>
     <tr class="category-summaries-row">

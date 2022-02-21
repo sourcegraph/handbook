@@ -2,6 +2,10 @@
 
 Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together over the next year or so, but each linked page provides a more detailed strategy for that team. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../departments/product-engineering/strategy-goals/index.md) to which all of this is aligned. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/34) (internal only) also shows where we are headed over the next year in terms of specific deliverables.
 
+If you're new to our strategy pages, this video walkthrough will help orient you.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/71b675b67c464b0db7670a7f5025cbbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## Themes
 
 Our mission is to **make discovering, learning, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are.** We will achieve this through several important themes:

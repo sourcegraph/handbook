@@ -504,15 +504,15 @@ jonah_dueck:
 jean_du_plessis:
   name: Jean du Plessis
   pronouns: he/him
-  role: Engineering Manager, Web
+  role: Director of Engineering
   reports_to: vp_engineering
-  manager_role_slug: engineering_manager_web
+  manager_role_slug: director_engineering_enablement
   location: Cape Town, South Africa 🇿🇦
   github: jeanduplessis
   pronunciation: '[ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
   email: jean@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](readmes/jean-du-plessis.md),'
-  description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 16 years of which he's been a manager for 7. Prior to Sourcegraph, he was a manager at GitLab."
+  description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 18 years of which he's been a manager for 8. Prior to Sourcegraph, he was a manager at GitLab."
 
 owen_convey:
   name: Owen Convey
@@ -1792,7 +1792,7 @@ grace_bohl:
 
 cesar_jimenez:
   name: Cesar Jimenez
-  role: Senior Software Engineer on Code Intelligence
+  role: Software Engineer on Code Intelligence
   reports_to: engineering_manager_code_intelligence
   location: Seattle, WA 🇺🇸
   github: numbers88s
@@ -2043,7 +2043,7 @@ jordan_plahn:
   name: Jordan Plahn
   pronouns: he/him
   role: Engineering Manager
-  reports_to: engineering_manager_web
+  reports_to: director_engineering_enablement
   manager_role_slug: software_engineering_manager
   location: Seattle, WA, USA 🇺🇸
   github: jplahn
@@ -2441,7 +2441,7 @@ prakash_durgani:
 kristen_stretch:
   name: Kristen Stretch
   role: Engineering Manager, Developer Experience
-  reports_to: engineering_manager_web
+  reports_to: director_engineering_enablement
   manager_role_slug: engineering_manager_developer_experience
 
 feroz_salam:
@@ -2596,7 +2596,7 @@ michal_vrtiak:
   github: vrto
   pronouns: he/him
   role: Software Engineer
-  reports_to: director_engineering
+  reports_to: director_engineering_enablement
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
   description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
@@ -2689,3 +2689,13 @@ lauren anderson:
   reports_to: vp_operations
   location: Pacifica, CA, USA 🇺🇸
   description: Lauren lives at the beach in Pacifica, CA with her husband, daugther, and dog.  She has a passion for all things data and has spent most of her career building data warehouses and reporting platforms.  Lauren likes to listen to music, cook, travel, and spend time outdoors (especially at the beach) and loves to combine the latter two by spending as much time at the beach in Southern Baja California.
+
+madison clark:
+  name: Madison Clark
+  email: madison.clark@sourcegraph.com
+  github: madisongclark
+  pronouns: she/her
+  role: Senior Manager, Internal Communications
+  reports_to: Director, Global Communications
+  location: San Francisco, CA, USA 🇺🇸
+  description: Madison lives in San Francisco, CA, with her partner Julian and two very floofy cats, Loaf and Grandpa. She works on the Sourcegraph communications team, focused on building effective internal communication strategies that inform, engage, and inspire our global team. Outside of work, you can find Madison testing new recipes/making cooking videos, exploring new cafes and restaurants, and taking excercise classes on her Peloton bike.

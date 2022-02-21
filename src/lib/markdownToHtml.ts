@@ -224,6 +224,9 @@ const replaceMatchedUseCaseFeatureList = async (match: string, group1: string, g
 const replaceMatchedProductTeamUseCaseList = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateProductTeamUseCaseList(group2)
 
+const replaceMatchedGuildRoster = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateGuildRoster(group2)
+
 const replaceAsync = async (
     markdown: string,
     regex: RegExp,
@@ -296,6 +299,7 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:deployment_options}}/gi,
             await Promise.resolve(generatedMarkdown.generateDeploymentOptions())
         )
+        markdown = await replaceAsync(markdown, /({{generator:guild_roster.)(\w+)(}})/gi, replaceMatchedGuildRoster)
     }
     return markdown
 }

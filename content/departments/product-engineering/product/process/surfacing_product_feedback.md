@@ -29,14 +29,18 @@ View the [full list of product gap categories/subcategories](https://docs.google
 
 New product gap submissions will be automatically posted to the #feedback channel, @-mentioning the PM responsible for the relevant product area. This automation relies on a [zap](https://zapier.com/app/editor/145738791), and the PM - area mapping is hard-coded there and should be modified when necessary.
 
-### Product Gap Definitions
+### Product Gap Statuses
+
+PMs are responsible for updating a Gap after it's been opened. If a particular feature request is known to have a different status than what is reflected in a Product Gap, anyone is encouraged to update the status (e.g. if a feature is currently in Beta but the gap does not reflect).
 
 - **Open** - needs to be reviewed/looked at by Product
 - **In review** - is currently being reviewed by Product but has not been prioritized
 - **In progress** - it is prioritized and the team is working on it
 - **Scheduled** - has been added to our Product roadmap
-- **Resolved** - this is done!
 - **Backlog** - we know we want to do this, we just don't know when yet
+- **Experimental**
+- **Beta**
+- **GA**
 - **Won't do** - we're not going to do this
 
 ### Creating GitHub Issues

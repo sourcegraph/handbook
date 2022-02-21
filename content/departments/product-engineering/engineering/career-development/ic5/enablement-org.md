@@ -1,5 +1,7 @@
 # IC5 profile: Enablement Org
 
+See also [internal profile](https://docs.google.com/document/d/1-aq34j9zskjTY5XXZyodWqoLnklhm4sJQdxetyB-6iA/edit)
+
 ## Business need
 
 The Enablement org’s main goal is to reduce complexity and improve development velocity and time to market by providing self-service solutions, engineering standards, and best practices. The team aims to enable developers to focus on business logic and puts an emphasis on developer experience and product quality.
