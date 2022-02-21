@@ -101,6 +101,30 @@ for (const productTeam of Object.values(productTeams)) {
     }
 }
 
+// iterate through use cases and make sure they point to valid team members
+for (const useCase of Object.values(useCases)) {
+    if (useCase.sponsors) {
+        if (useCase.sponsors.engineering) {
+            if (!Object.prototype.hasOwnProperty.call(teamMembers, useCase.sponsors.engineering)) {
+                console.log(`Use case contains unknown engineering sponsor: ${JSON.stringify(useCase)}`)
+                errors++
+            }
+        }
+        if (useCase.sponsors.product) {
+            if (!Object.prototype.hasOwnProperty.call(teamMembers, useCase.sponsors.product)) {
+                console.log(`Use case contains unknown product sponsor: ${JSON.stringify(useCase)}`)
+                errors++
+            }
+        }
+        if (useCase.sponsors.design) {
+            if (!Object.prototype.hasOwnProperty.call(teamMembers, useCase.sponsors.design)) {
+                console.log(`Use case contains unknown design sponsor: ${JSON.stringify(useCase)}`)
+                errors++
+            }
+        }
+    }
+}
+
 // iterate through product orgs and make sure they point to valid team members
 for (const productOrg of Object.values(productOrgs)) {
     if (productOrg.em) {
@@ -110,7 +134,7 @@ for (const productOrg of Object.values(productOrgs)) {
         }
     }
     if (productOrg.pm) {
-        if (!Object.prototype.hasOwnProperty.call(teamMembers, productOrg.em)) {
+        if (!Object.prototype.hasOwnProperty.call(teamMembers, productOrg.pm)) {
             console.log(`Product org contains unknown PM: ${JSON.stringify(productOrg)}`)
             errors++
         }

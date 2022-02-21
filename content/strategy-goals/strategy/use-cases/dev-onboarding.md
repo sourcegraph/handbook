@@ -2,6 +2,10 @@
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
 
+## Sponsors
+
+{{generator:use_case_sponsors.developer_onboarding}}
+
 ## Why this is important
 
 <!-- Beyond imagining a future in the above section, talk more about why this future is important and why we are going after it. -->
