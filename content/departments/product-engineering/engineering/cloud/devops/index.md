@@ -37,7 +37,8 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [Large-release-(rollout-release)-process](<deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>>)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Onboarding](onboarding.md)
-- [How to add TXT Records](txt_dns.md)
+- [How to add or modify DNS Records](dns.md)
+- [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
 
 ## How to contact the team and ask for help
 

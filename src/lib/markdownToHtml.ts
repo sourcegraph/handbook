@@ -1,4 +1,3 @@
-import * as path from 'path'
 import * as url from 'url'
 
 import * as _rehypeSection from '@agentofuser/rehype-section'
@@ -51,6 +50,7 @@ export default async function markdownToHtml(
 ): Promise<{ content: string; title?: string; toc: Toc; internalLinks?: string[] }> {
     // Pre-insert generated markdown
     markdown = await Promise.resolve(insertGeneratedMarkdown(markdown))
+    markdown = insertNotebooks(markdown)
     const result = await unified()
         // Parse markdown
         .use(remarkParse)
@@ -120,18 +120,9 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         return
     }
 
-    // index.md files are rendered as the output for the *parent* folder.
-    // Therefor links within the index.md files need to be rewritten to be relative to the parent folder,
-    // instead of relative to the index.md file.
-    if (
-        parsedUrl.pathname &&
-        !parsedUrl.pathname?.startsWith('/') &&
-        isOnIndexPage &&
-        contextUrlPath !== '' &&
-        contextUrlPath !== '/'
-    ) {
-        const baseName = path.posix.basename(contextUrlPath)
-        parsedUrl.pathname = `./${baseName}/${parsedUrl.pathname}`
+    // Rewrite links on non-index pages to be relative
+    if (parsedUrl.pathname && !isOnIndexPage) {
+        parsedUrl.pathname = `../${parsedUrl.pathname}`
     }
 
     // Rewrite index.md references to point to the directory
@@ -139,12 +130,14 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         parsedUrl.pathname = url.resolve(parsedUrl.pathname, '.') || '.'
     }
 
+    // If the link is to an index with an anchor, navigate to the parent
+    if (parsedUrl.pathname === '.') {
+        parsedUrl.pathname = `../${parsedUrl.pathname}`
+    }
+
     parsedUrl.pathname = parsedUrl.pathname
         // Remove .md suffix
         ?.replace(/\.md$/, '')
-        // Our routing currently redirects trailing slash to non-trailing slash anyway, so trim it
-        // earlier to save a redirect
-        .replace(/\/$/, '')
 
     if (match.node.tagName === 'a') {
         const formattedInternalUrl = url.format(url.resolve(contextUrlPath, parsedUrl.pathname || ''))
@@ -211,11 +204,28 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
     return false
 }
 
+function embedNotebook(id: string): string {
+    return `<div class="border notebook"><iframe src="https://sourcegraph.com/embed/notebooks/${String(
+        id
+    )}?theme=light" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups"></iframe></div>`
+}
+
+const replaceNotebook = (match: string, group1: string, group2: string): string => embedNotebook(group2)
+
 const replaceMatchedTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateReportingStructure(group2)
 
 const replaceMatchedProductTeam = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateTeamOrgChart(group2)
+
+const replaceMatchedUseCaseFeatureList = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateUseCaseFeatureList(group2)
+
+const replaceMatchedProductTeamUseCaseList = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateProductTeamUseCaseList(group2)
+
+const replaceMatchedGuildRoster = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateGuildRoster(group2)
 
 const replaceAsync = async (
     markdown: string,
@@ -230,6 +240,13 @@ const replaceAsync = async (
     })
     const data = await Promise.all(promises)
     return markdown.replace(regex, (): string => data.shift() as string)
+}
+
+function insertNotebooks(markdown: string): string {
+    if (markdown.match(/{{notebook:/)) {
+        markdown = markdown.replace(/({{notebook:)(\w+==)(}})/gi, replaceNotebook)
+    }
+    return markdown
 }
 
 async function insertGeneratedMarkdown(markdown: string): Promise<string> {
@@ -260,10 +277,29 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
         )
         markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
         markdown = await replaceAsync(markdown, /({{generator:product_team.)(\w+)(}})/gi, replaceMatchedProductTeam)
+        markdown = await replaceAsync(
+            markdown,
+            /({{generator:product_team_use_case_list.)(\w+)(}})/gi,
+            replaceMatchedProductTeamUseCaseList
+        )
+        markdown = await replaceAsync(
+            markdown,
+            /({{generator:use_case_feature_list.)(\w+)(}})/gi,
+            replaceMatchedUseCaseFeatureList
+        )
         markdown = markdown.replace(
             /{{generator:engineering_ownership}}/gi,
             await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
         )
+        markdown = markdown.replace(
+            /{{generator:glossary}}/gi,
+            await Promise.resolve(generatedMarkdown.generateGlossary())
+        )
+        markdown = markdown.replace(
+            /{{generator:deployment_options}}/gi,
+            await Promise.resolve(generatedMarkdown.generateDeploymentOptions())
+        )
+        markdown = await replaceAsync(markdown, /({{generator:guild_roster.)(\w+)(}})/gi, replaceMatchedGuildRoster)
     }
     return markdown
 }

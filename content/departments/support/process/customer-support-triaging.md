@@ -59,9 +59,9 @@ That said, there may be times when we have unusually large amount of work or mor
 
 ### 1. Whose responsible for triaging?
 
-Nonso 08:00–14:00 UTC (Stompy as backup)
-Shwanteé 14:00–22:00 UTC (Virginia, Brielle as backup)
-Virginia 22:00–01:00 UTC (Warren as backup)
+- Nonso 08:00–14:00 UTC (Stompy as backup)
+- Shwanteé 14:00–18:00 UTC (Virginia, Brielle as backup)
+- Sarah 18:00–01:00 UTC (Virginia, Warren as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
@@ -81,8 +81,18 @@ Yes, we have a few customers listed in our [Customer Exception list](customer-ex
 
 We also look at the queues of anyone who is out that day to see if someone needs to fill-in (the original CSE keeps responsibility) -- great for when the CSE is out a day or two -- or we if we need to transition the case to another CSE --great for when the CSE is out a longer period of time.
 
+We should be creating tickets when the post is from someone at the customer, even if the end result is no action for CS. We can skip things from our internal teammates.
+
 And finally, we are also brought into every new incident channel to be there if it requires customer communication and ensure we have a team member available to serve as a messenger.
 
 ### 6. What do I do when I see a company update in the triage queue?
 
 We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perspective, please go ahead and delete them.
+
+### 7.What if we are close to missing SLA?
+
+When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
+
+### 8. What to do when it is an AER first day taking cases?
+
+When it's an AER first day take to take cases, they will get the first one that comes through the queue. After that, they will have the first right of refusal. The goal is for them to have 3 cases by the end of the week.

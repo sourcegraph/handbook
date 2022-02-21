@@ -38,7 +38,4 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 
 - [Download our Brand Guidelines as PDF](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf)
 - [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip, includes full Brand Guidelines PDF, plus logos, fonts, color palettes, and more)
-
-## Contact
-
-Please reach out to the Brand team if you have any questions about how or when to utilize the above elements: [brand@sourcegraph.com](mailto:brand@sourcegraph.com). 🤙
+- [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)

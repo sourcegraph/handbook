@@ -48,7 +48,7 @@ Lead scoring is a framework we have put in place across HubSpot and Salesforce t
 
 Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below.
 
-**Marketing Qualified Lead (MQL)**
+## Marketing Qualified Lead (MQL)
 
 A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to Marketing’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).
 
@@ -92,13 +92,25 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>Page view (pricing)
+   <td>Target account match  
    </td>
    <td>5 points
    </td>
   </tr>
   <tr>
-   <td>Page view (any other than pricing)
+   <td>Target title match
+   </td>
+   <td>5 points
+   </td>
+  </tr>
+  <tr>  
+    <td>Page view (pricing, use cases, case studies)
+   </td>
+   <td>5 points
+   </td>
+  </tr>
+  <tr>
+   <td>Page view (any other than pricing, use cases, case studies)
    </td>
    <td>1 point per view
    </td>
@@ -121,13 +133,13 @@ Where / how do we track MQLs at Sourcegraph:
 - Demand Gen / Marketing: tracks new MQLs generated over time across multiple dashboards
 - [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new MQLs generated over time as well as qualified opportunity conversion rates by First Touchpoint
 
-**Product Qualified Lead (PQL)**
+## Product Qualified Lead (PQL)
 
 A product qualified lead (PQL) is a prospect who has used the product and completed pre-defined actions that signify strong engagement and resonance with our core value proposition. This will be a separate grade solely ascribed to leads that sign up for a cloud account or install a private instance. The goal of this score is to act as a relative indicator of active use / engagement for our non-paying users post-sign up, which looks very different from how we evaluate this for current enterprise customers.
 
 Our product engagement scoring inputs, which we view as different between cloud accounts and private installs, can be found below:
 
-**Cloud Account**
+### Cloud Account
 
 <table>
   <tr>

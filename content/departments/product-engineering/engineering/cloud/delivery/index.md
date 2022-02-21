@@ -19,7 +19,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 - Deployments methods
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Managed instances](./managed/index.md)
-- [Sourcegraph releases](../../process/releases/index.md)
+- ~~[Sourcegraph releases](../../process/releases/index.md)~~
 - Deployment configuration and configuration orchestration ([Kustomize](https://docs.sourcegraph.com/admin/install/kubernetes))
 
 Specifically not included:

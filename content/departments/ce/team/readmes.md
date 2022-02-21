@@ -2,10 +2,9 @@
 
 Our README expands on our profile in [the company team directory](../../../team/index.md) and are meant to help us orient to one another.
 
-- Aimee [README](aimee-readme.md)
-- Bob [README](bob-readme.md)
-- Christy [README](christy-readme.md)
-- Greg [README](greg-readme.md)
+- Aimee Menne [README](aimee-readme.md)
+- Bob Roudebush [README](bob-readme.md)
+- Greg Seador [README](greg-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 

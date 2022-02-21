@@ -38,6 +38,10 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 
 - Meet the organization's SLOs; avoid negative business impacts from prolonged downtime; faster resolution time; fewer escalations.
 
+## Features that enable this use case
+
+{{generator:use_case_feature_list.incident_response}}
+
 ## Additional resources
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->

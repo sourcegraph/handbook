@@ -2,7 +2,11 @@
 
 We track and report anonymous, non-specific, aggregate metrics from Sourcegraph instances as defined in [pings](https://docs.sourcegraph.com/admin/pings).
 
-## Key success metrics
+## Revenue
+
+We track revenue associated with add-on features in this (private) [dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000015UPZEA2/view).
+
+## Key usage metrics
 
 We track success metrics in a (private) [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/174).
 

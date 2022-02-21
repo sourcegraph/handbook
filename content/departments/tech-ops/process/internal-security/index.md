@@ -1,25 +1,25 @@
 # Internal security
 
-One of Sourcegraph's top-level principles is to keep our customers' data private. In the same way, maintaining the integrity and security of our internal data, employee information, and systems, is critical. You can read more about our internal privacy policies and commitments to all our teammates [here.](../team_device_usage_privacy.md)
+One of Sourcegraph's top-level principles is to keep our customers' data private. In the same way, maintaining the integrity and security of our internal data, employee information, and systems is critical.
 
 As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. These are the steps we are taking internally to proactively prevent malicious attacks and threats and protect our resources.
 
-Computer requirements
+## Required security measures for all full-time teammates, interns, and temporary contractors:
 
-- All full-time teammates must have a Sourcegraph computer
-- All teammates must work from their Sourcegraph computer and follow our [device useage and privacy policy](../team_device_usage_privacy.md)
-- If you are waiting to receive a Sourcegraph computer or if there has been some damage or circumstance where the machine in unavailable, you may use a personal device as a temporary solution. An antivirus software and our standards must be installed on the device.
+- Setup up your computer with the appropriate [device standards](../internal-security/computer-standards.md)
+- Follow [password guidelines](../internal-security/passwords.md) for accessing/administering systems as well as for protecting your devices
+- Attend security training (in work)
 
-Required security measures for all full-time teammates, interns, and temp contractors:
+## Security measures Tech Ops is taking:
 
-- Setup our basaeline security standards before accessing Sourcegraph data
-- All Sourcegraph computers be enrolled with both Workspace One and Carbon Black
-- Follow password guidelines for accessing/administering systems as well as to protecting your devices
+- Institute baseline [device standards](../internal-security/computer-standards.md)
+- Enable [Workspace One and Carbon Black](../../tools/endpoint-antivirus.md) as our enpoint management and antivirus solutions
+- Set advanced [phishing/spoofing](../internal-security/phishing-spoofing.md) settings
+- Run quarterly system reviews (in work)
+- Perform internal audits (in work)
 
-Security measures Tech Ops is taking:
+## Related
 
-- Baseline device standards
-- Workspace One and Carbon Black for enpoint management and antivirus
-- Advanced phishing/spoofing settings
-- Quarterly system reviews (in work)
-- Internal audits (in work)
+[Device usage & privacy policy](../team_device_usage_privacy.md)
+
+[Computer Setup Requirements](../../tools/computer-setup.md)

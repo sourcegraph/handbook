@@ -1,64 +1,55 @@
-# Computer setup
+## Computer requirements
 
-As we attempt for SOC2 certification we are also acknowledging that we are more susceptible to attacks, putting our IP, our client’s data, and our teammates’ personal information all at greater risk of being compromised. While having [standards](../process/internal-security/index.md) in place along with an endpoint management and an antivirus system to monitor our devices is required for SOC2, it is also proactively preventing malicious attacks and threats.
+- All full-time teammates must have a Sourcegraph computer
+- All teammates must work from their Sourcegraph computer
+- All teammates should adhear to our related usage and access policies:
+  - [Device useage and privacy policy](../process/team_device_usage_privacy.md)
+  - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
+  - [Protect company assets and use them properly - Code of conduct](../../../company-info-and-process/communication/code_of_conduct.md#respect-others-and-their-property-and-confidential-information)
 
-We are asking that all teammates work from their Sourcegraph computer and all Sourcegraph computers be enrolled with both Workspace One and Carbon Black in order to be compliant.
+## Setting up your computer
 
-If you are waiting to receive a Sourcegraph computer or if there has been some damage or circumstance where the machine in unavailable, you may use a personal device as a temporary solution, please skip to Minimum Security Requirements for Personal Device below. Additionally, we maybe able able to allocate a loaner Sourcegraph laptop for use use during this temporary period. Please reach out to Tech Ops for additional assistance.
+1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
+2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)
+3. Check that your warrenty information is reflected on your device
 
-### **Workspace One**
+- [Apple](https://support.apple.com/en-us/HT202741)
+- [Lenovo](https://pcsupport.lenovo.com/us/en/warrantylookup#/)
+- [Dell](https://www.dell.com/support/kbdoc/en-us/000132024/how-to-find-warranty-status-and-information-for-your-dell-product)
 
-### **What is Workspace One?**
+Note: All devices purchased through our partners will have been purchased with warrenty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warrenty please do so within 30 days.
 
-VMWare’s Workspace One is an Endpoint Management system that provides Tech Ops with the ability to manage Sourcegraph devices (computers) remotely. More information about Workspace One can be found [here](https://www.vmware.com/products/workspace-one.html).
+## Ordering a Sourcegraph computer
 
-**Carbon Black**
+Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#computers) for more information about the recommended devices for all our teammates as well as steps for ordering a device.
 
-**What is Carbon Black?**
+Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#laptop-upgrade) to see our policy on computer upgrades.
 
-VMWare’s Carbon Black is an antivirus software that we are deploying to Sourcegraph devices (laptops). Carbon Black monitors for malicious softwares and adware that may present security risks.
+## What to do if you are waiting for your Sourcegraph computer to arrive
 
-**What you can do prior to Workspace One Enrollment**:
+Currently, we are experiencing extensive wait times to receive new laptops due to Apple logistics delays. If you are waiting for your Sourcegraph computer to arrive you can either:
 
-If you haven't done so already please configure your laptop in accordance with our Laptop Standards [here](../process/internal-security/index.md)
+1. Use your personal device as a temporary measure, as long as the minimum security measures can be instituted
+1. Request a loaner laptop - this is severly limited based on to location and availablity
+1. Rent a laptop from a local provider, #it-tech-ops can pay for this service - this is also limited by location and availability
 
-**How to Enroll in Workspace One for MacOS and Windows**
+## Use of personal devices
 
-You will receive an email invite from **Airwatch** with steps on how to enroll in Workspace One. Below is a short summary of what you’ll need to do. If you do not receive an invitation from Airwatch please reach out in the #it-tech-ops Slack channel.
-
-1. Click the link to download and install the WS One client in the email invite you receive.
-2. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
-3. You should then be prompted for your Okta credentials.
-4. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
-5. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
-
-**What Workspace One Hub will automatically install on the device**
-
-The Hub app will look for a certain set of applications on your computer and push them out automatically if they are not present, they are:
-
-- 1Password
-- Google Chrome
-- Carbon Black
-- Slack
-- Zoom
-
-**How to Enroll in Workspace One for Linux device**
-
-Please reach out to Tech Ops for more information.
-
-**Minimum Security Requirements for Personal Devices**
-
-If you are waiting for the arrival of your Sourcegraph laptop, or there is an issue with your current Sourcegraph laptop, and need to use your personal machine temporarily, please reach out the #it-tech-ops Slack channel to get an additional enrollment invitation to Workspace One and Carbon Black. You may enroll this solution on as many devices as necessary to ensure our company and client data is protected.
-
-If using your personal device **temporarily** and you **do not** wish to install Workspace One, please ensure that you are doing the following:
-
-- You are following the [laptop setup standards](../process/internal-security/index.md)
-- You have reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
+If you are a temporary contractor, waiting to receive a Sourcegraph computer, or if there has been some damage or circumstance where the machine is unavailable, you may use a personal device as a temporary solution provided that you either set up WS1 and Carbon Black or, at a minimum, set up our [standards](../process/internal-security/computer-standards.md) and have an antivirus installed on the device. Please reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
 If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
 
-**Removing Workspace One and Carbon Black from my personal computer**
+## Requesting a loaner
 
-In order to remove Workspace One and Carbon Black from your personal device, please reach out to the Tech Ops team. The Tech Ops team can initiate what’s called an “Enterprise Only Wipe” which will remove Workspace One and all associated profiles and applications (Carbon Black) from the machine.
+Tech Ops has a number of previously used computers available to be allocated in the event you need one. Please reached out to the Tech Ops team in the #it-tech ops channel to request a device. As we are a global company not all situations can be accommodated through this process, however, Tech Ops is committed to ensuring you have access to the device you need to do your job and will work with you to find the right solution.
 
-When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from Carbon Black. Please note by agreeing to use a personal computer temporarily, you are agreeing to follow these requirements.
+## Damaged computers
+
+If something has happened to your Sourcegraph device please contact #it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care or some form of warranty. For repairs under warranty, a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warranty please contact  #it-tech-ops to have it sent to ComputerCare to be evaluated and repaired/replaced.
+
+## Used computers
+
+If you have a device that you are having replaced, or you are leaving the company you can either:
+
+1. participate in our [buyback program](../process/buyback.md), where we will transfer ownership to you.
+2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. To return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you.

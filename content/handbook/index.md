@@ -71,7 +71,7 @@ Contact @handbook-support in the #handbook channel for help with the Handbook. @
 
 ### Handbook Hacking Hours
 
-Handbook Hacking Hours are held every Monday at 15:00 UTC, open to all Sourcegraph teammates to work on the Handbook website. We usually work through [Handbook Issues](https://github.com/sourcegraph/handbook/projects/1). The goal is to create some dedicated time to talk handbook, try things out, make it better, fail at things together, etc.
+Handbook Hacking Hours are held every other Monday at 15:00 UTC, open to all Sourcegraph teammates to work on the Handbook website. We usually work through [Handbook Issues](https://github.com/sourcegraph/handbook/projects/1). The goal is to create some dedicated time to talk handbook, try things out, make it better, fail at things together, etc.
 
 ## Handbook feedback
 

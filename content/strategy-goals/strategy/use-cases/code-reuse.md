@@ -62,6 +62,10 @@ The following are real, anonymized quotes from customers today on how we're alre
 
 Additionally, the "platform team" (a central team that mains many or most libraries in a company) is a key player here for companies that have that team.
 
+## Features that enable this use case
+
+{{generator:use_case_feature_list.code_reuse}}
+
 ## Additional resources
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->

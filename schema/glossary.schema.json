@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "array",
+    "properties": {
+      "term": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      }
+    },
+    "required": ["title", "definition"]
+  }
+}

@@ -50,6 +50,10 @@ The following are real, anonymized quotes from customers today on how we’re al
 
 - Increased productivity, lower time to remediation
 
+## Features that enable this use case
+
+{{generator:use_case_feature_list.fixing_security_vulnerabilities}}
+
 ## Additional resources
 
 <!-- Are there other articles, blogs, internal documents, or handbook links that are useful for someone who wants to understand this use case? Link to them here. -->
@@ -59,3 +63,9 @@ The following are real, anonymized quotes from customers today on how we’re al
 - [Productboard fixing security vulnerabilities (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482297/detail)
 - [Tackling Log4j with Sourcegraph](https://about.sourcegraph.com/blog/log4j-log4shell-0-day)
 - [Cloudflare case study](https://about.sourcegraph.com/case-studies/cloudflare-accelerates-debugging-and-improves-security/)
+
+### Log4j search notebook
+
+As part of our log4j mitigation efforts, we used a Search Notebook to demonstrate how to use Sourcegraph to solve this use case. You can see that here.
+
+{{notebook:Tm90ZWJvb2s6MQ==}}

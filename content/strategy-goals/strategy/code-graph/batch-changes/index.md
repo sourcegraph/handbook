@@ -1,6 +1,6 @@
 # Batch Changes strategy
 
-Batch Changes is a tool to find code that needs to be changed and change it at scale by running code. This page outlines the vision, strategy, and goals of the Batch Changes team.
+Batch Changes is a tool to find code that needs to be changed and change it at scale by running code. This page outlines the vision, strategy, and goals of the Batch Changes team over the next year or so.
 
 ## Quick links
 
@@ -11,6 +11,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
 - [Batch Changes team page](../../../../departments/product-engineering/engineering/code-graph/batch-changes/index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
 ## Vision
 
@@ -33,8 +34,8 @@ We allow developers to focus on changing their code, without having to do any pl
 To deliver our vision, we will:
 
 - First, get adopted by the Sourcegraph customer base, including large enterprises. We will target customers with advanced practices and workflow, and collaborate with them to build a category-defining product that all other companies will use. This is what we are doing today.
-- Concurrently, spread usage (MAUs) within our customer base, and make sure we deliver on our success metric (changesets merged).
-- Then, create low time-to-value entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to onboard with a smooth learning curve. Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
+- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged).
+- Then, create low time-to-value entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a use case. Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
 - Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
 - Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
 
@@ -42,7 +43,7 @@ To deliver our vision, we will:
 
 Our primary competition comes from companies building internal tools to apply and track code changes. Individual users inside companies also build scripts around [git-xargs](https://github.com/gruntwork-io/git-xargs), [mu-repo](https://fabioz.github.io/mu-repo/) or [turbolift](https://github.com/Skyscanner/turbolift) to create changesets, then tend to outgrow it when they scale usage (lack of changeset tracking, collaboration, reproducibility). Every tool relies on a search engine to return matches, so being integrated with Sourcegraph search is a key competitive advantage for Batch Changes.
 
-We expect to see more vertical competition from companies focused on a language ecosystem, that enter the market by building refactoring frameworks for a given language ecosystem, then competing with Batch Changes on tooling to apply and track code changes. [Moderne](https://moderne.io/)/[openrewrite](https://github.com/openrewrite/rewrite) is the first significant example of this, focused on the Java ecosystem.
+We expect to see more vertical competition from companies focused on a language ecosystem, that enter the market by building refactoring frameworks for a given language ecosystem, then competing with Batch Changes on tooling to apply and track code changes. [Moderne](https://moderne.io/)/[openrewrite](https://github.com/openrewrite/rewrite) is the first significant example of this, focused on the Java ecosystem. Recently, [updatecli](https://www.updatecli.io/) also showed up on our radar. So far, Batch Changes differentiates with better search, a collaborative management UI, its language agnostic approach and enterprise-grade features.
 
 We are committed to remaining language-agnostic, which includes using Batch Changes to apply and track changesets created with frameworks such as openrewrite or any other refactoring framework. We also think there is an opportunity in leveraging precise code intelligence to create radically better code change tools that support many languages in the future.
 
@@ -59,9 +60,9 @@ We have the overarching goal to [level up our enterprise-ready features](../inde
 
 To drive enterprise success and stickiness, we need to:
 
-- Deliver a great experience in creating changesets at enterprise scale (10,000s repositories), resulting in more users onboarding batch changes.
-- Make sure that iterating on batch changes has the lowest cycle time possible, and that the debugging experience is smooth.
-- Allow users to find out where to create batch changes and understand what to do to get changesets merged in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../departments/product-engineering/engineering/code-graph/batch-changes/metrics.md).
+- Deliver a great experience in creating changesets at **enterprise scale** (10,000s repositories), resulting in more users onboarding batch changes.
+- Make sure that iterating on batch changes has the **lowest cycle time possible**, and that the debugging experience is smooth.
+- Allow users to find out where to create batch changes and understand what to do to **get changesets merged** in batch changes with 1,000s of changesets. This will increase the number of changesets merged, our key [success metric](../../../../departments/product-engineering/engineering/code-graph/batch-changes/metrics.md).
 
 ### Discovery, configuration and onboarding
 
@@ -113,6 +114,7 @@ This quarter, we are primarily focusing on improving the value and usability of 
    - Onboard three early customers, and get positive feedback
    - Train sales CE, CS and sales to sell and support SSBC.
    - Make sure that the upgrade process for SSBC is scalable (upgrading Sourcegraph + SSBC takes no more than twice the time required to upgrade Sourcegraph).
+   - Create a unified experience, that is clear regardless of if you have executors connected or not.
 1. Bitbucket Cloud is frequently requested by [customers](https://sourcegraph2020.lightning.force.com/lightning/r/Product_Gap__c/a1B3t00000IkxMjEAJ/view), and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)).
 1. We recently onboarded a few monorepo customers that highlighted the limitations of our (experimental) monorepo support in Batch Changes. We plan to address those limitations and move monorepo support to GA ([RFC](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU), [#28246](https://github.com/sourcegraph/sourcegraph/issues/28246)).
 1. Batch Changes's minimalist permission model is limiting adoption in the traditional enterprise segment. In particular, customers report they want to control who can run batch changes at all. We plan to make a first iteration to solve this problem.
@@ -122,9 +124,8 @@ This quarter, we are primarily focusing on improving the value and usability of 
 
 We have multiple dependencies on other teams that require an explicit plan that we will start scoping out this quarter. In particular:
 
-1. Server-side batch changes is not available yet on managed instances, because we have no way to bill for variable compute costs. By the end of the quarter, we want to have a plan and timeline to address that.
-1. Cloud is coming up, and it does not support Batch Changes. By the end of this quarter, we want to have a plan for Batch Changes on Cloud, including solving for pricing and billing issues.
-1. Lastly, we want to start discovery and planning for integrating Batch Changes with another feature (eg. create a batch change from a search result, a Code Insight, or a Code Monitor), to set the stage for a full-fledged workflow next quarter.
+1. Server-side batch changes is not available yet on managed instances, because we have no way to bill for variable compute costs. By the end of the quarter, we want to have a plan and timeline to address that. ([Private RFC](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18/edit#heading=h.trqab8y0kufp))
+1. We want to start discovery and planning for integrating Batch Changes with another feature (eg. create a batch change from a search result, a Code Insight, or a Code Monitor), to set the stage for a full-fledged workflow next quarter.
 
 ## What we are not working on
 
@@ -132,4 +133,12 @@ We have multiple dependencies on other teams that require an explicit plan that 
 
 - **Education material about code change tools:** Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
 
+- **Batch Changes on Cloud:** Making [Batch Changes available on Cloud](https://docs.google.com/document/d/1tcl5Zs_0NCYieya9weTyelxPxoif0VfxAq8UIV4JDjA/edit#heading=h.g0gjwch98szj) is not on our roadmap for FY23, and is tentatively planned for FY24.
+
 In general, we tend to focus on features that we can build for multiple codehosts in a relatively homogenous manner, and avoid codehost-specific features.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.batch_changes}}

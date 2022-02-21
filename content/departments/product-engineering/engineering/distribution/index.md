@@ -1,8 +1,8 @@
 # Distribution team
 
-# Distribution are no longer 1 team and have devided into three teams.
+# Distribution are no longer 1 team and have divided into three teams.
 
-While these pages still remian (due to a lot of useful resources that have yet to be migrated) there new teams are as follows:
+While these pages still remain (due to a lot of useful resources that have yet to be migrated) there new teams are as follows:
 
 - [Delivery](../cloud/delivery/index.md)
   - Ownership: Customer deployments, whether self-hosted or on-prem, and our customer releases of Sourcegraph

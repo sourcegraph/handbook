@@ -62,7 +62,7 @@ How to get data into Looker:
 
 ## Salesforce (SFDC)
 
-Salesforce is also a CRM. This is what our sales team uses and relies on heavily, and is the source of truth for our customer interactions and data. Our marketing team uses this as well, in a limited capacity. The best people to speak to about Salesforce are Joe Kirsher (Sales Ops) and Seth Hoover (Salesforce Admin).
+Salesforce is also a CRM. This is what our sales team uses and relies on heavily, and is the source of truth for our customer interactions and data. Our marketing team uses this as well, in a limited capacity. The best people to speak to about Salesforce are Joe Kirsher (Sales Ops) and Seth Hoover (Salesforce Admin). For access please contact #it-tech-ops. Access is granted through Okta.
 
 **Customer ops reporting in SFDC**
 
@@ -178,7 +178,7 @@ It's often useful to include a customer or prospect name in a public RFC, GitHub
 
 To use it, copy a link to the issue that represents the customer you want to reference. For example, if the customer was "Sourcegraph", you might write: "We heard from [this customer](https://github.com/sourcegraph/accounts/issues/8194) that...".
 
-For now, the list of accounts is maintained manually by @malomarrec. In the near future it will be automatically populated from Salesforce.
+This list of account is automatically populated from salesforce by Zapier [automation](https://zapier.com/app/zaps/folder/1166872). @malomarrec maintains this, please reach out if you notice an issue.
 
 ### How to find all tickets related to a customer
 

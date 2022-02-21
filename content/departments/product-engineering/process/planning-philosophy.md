@@ -1,12 +1,10 @@
-# Product and Engineering planning
+# Product and Engineering planning philosophy
 
-## Philosophy
+We're a rapidly growing company so [our planning processes](planning-process.md) will continuously evolve. These principles and philosophy guide us as we build and evolve our processes.
 
-We're a rapidly growing company so our planning processes will continuously evolve. These principles and philosophy guide us as we build and evolve our processes.
+## A good strategy provides focus
 
-### A good strategy provides focus
-
-Our strategy documents how we plan to make decisions and tradeoffs to achieve our goals.
+[Our strategy](../strategy-goals/index.md) documents how we plan to make decisions and tradeoffs to achieve our goals.
 
 A good strategy has 3 components:
 
@@ -19,9 +17,9 @@ Recommended reading:
 - Short article: [The perils of bad strategy](https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/the-perils-of-bad-strategy)
 - Book: [Good Strategy/Bad Strategy: The difference and why it matters](https://www.amazon.com/Good-Strategy-Bad-difference-matters/dp/1781256179/ref=sr_1_1?crid=1H0B1F3WWUL2S&keywords=good+strategy+bad+strategy&qid=1639180521&sprefix=good+strategy%2Caps%2C205&sr=8-1) by Richard Rumelt
 
-### Good plans are clear and concise
+## Good plans are clear and concise
 
-A good plan contains:
+In theory, a good plan contains:
 
 - A definition of success that:
   - Is clear and succinct (so a variety of stakeholders can quickly understand what is important)
@@ -30,11 +28,14 @@ A good plan contains:
   - Can be unambiguously measured and evaluated (so there is no disagreement about whether we have achieved success)
 - A concrete set of deliverables we believe will solve the problem (so we can detect/manage dependencies and do capacity planning)
 
-In practice, the definition of succeess is defined first and then there is additional work that needs to be done to figure out what the delivery plan is to achieve that success. The team might need to collect customer feedback, dig in to metrics, or build prototypes as a first step. This exploration is normal, healthy, and part of planning and execution!
+In practice...
+
+- The definition of success is defined first and then there is additional work that needs to be done to figure out what the delivery plan is to achieve that success. The team might need to collect customer feedback, dig in to metrics, or build prototypes as a first step. This exploration is normal, healthy, and part of planning and execution!
+- We sometimes aren't at a level of maturity where we can define the perfect definition of success, so we find the best approximation and give context to communicate intent.
 
 This definition applies recursively at every layer of a plan (for example: company plan, product/eng department plan, org plan, team plan) for a given unit of time (year, quarter, week).
 
-### Planning is iterative
+## Planning is iterative
 
 Arriving at a good plan is an iterative process that is neither exclusively top-down nor exclusively bottom-up because there is a cyclical information dependency. Company level strategy is informed by what is working and not working about our business (context our teams have), and team plans are informed by what our company level strategy is (a decision ultimately owned by the CEO). Fundmentally, everyone on our team has context and insights that are valuable inputs into the planning process.
 
@@ -43,7 +44,13 @@ In practice, both the top-down motion and bottoms-up motion happen concurrently,
 
 Source: [The Secret to a Great Planning Process — Lessons from Airbnb and Eventbrite](https://review.firstround.com/the-secret-to-a-great-planning-process-lessons-from-airbnb-and-eventbrite)
 
-### Plans are ambitious and feasible
+## Planning is continuous and never done
+
+At any given point in time we should have an idea of where we want to go in the absence of any new information, but we are always discovering new information and we should be open to adjusting our plan accordingly as we learn.
+
+Done well, this feels like an organic continuous process where we periodically review the existing plan (as opposed to a discrete planning process that starts and stops).
+
+## Plans are ambitious and feasible
 
 We want our plans to be ambitious so that we challenge ourselves to grow. Plans should be ambitious in a focused direction, not ambitious in the number of things we want to accomplish. Doing one thing exceptionally is better than doing multiple things not exceptionally.
 
@@ -51,7 +58,7 @@ Plans need to be feasible. A plan is feasible only if we can achieve it accounti
 
 The right level of capacity to plan to depends on the team (size, health, maturity of the ownership area), but a good default is to plan to 80% capacity and reserve 20% capacity for reactive work (responding to bugs, incidents, customer requests). Planned work should contain an appropriate balance of [multiple kinds of work](#plans-balance-multiple-kinds-of-work).
 
-### Plans balance multiple kinds of work
+## Plans balance multiple kinds of work
 
 There are three different kinds of work to consider when planning work: feature work, scale work, and risk work.
 
@@ -116,45 +123,3 @@ Here are questions to ask whenever you hear the phrase "tech debt":
 Further reading:
 
 - https://www.bigeng.io/why-the-way-we-look-at-technical-debt-is-wrong/
-
-## Process
-
-What follows is our current implementation of the above philosophy.
-
-### Annual planning
-
-The goal of annual planning is to produce the following artifacts:
-
-1. A [good product and engineering strategy](#a-good-strategy-provides-focus) for the year. **[Current product and engineering strategy](../strategy-goals/index.md)**.
-2. A [good plan](#good-plans-are-clear-and-concise) for each team for the year.
-   - A short paragraph about what success looks like for each team at the end of the year. This should include how this success contributes to important top level company needs (as defined in the overall company strategy and product/engineering strategy). This should be documented in the handbook in the [per-team strategy pages](../../../strategy-goals/strategy/index.md#per-team-strategy-pages).
-   - A short list of the key deliverables the team plans to deliver throughout the year to achieve the definition of success. This should be captured in the [GitHub project tracker](reporting-progress.md#github-project-tracker).
-
-Here are the rough steps we follow:
-
-1. To ensure our overall plan is anchored in customer and business needs, VPs will collaborate with the exec team to align on a company wide strategy.
-2. With the context of the company level strategy, the VPs will create a product/engineering strategy that will more specifically communciate what we need to accomplish as a product and engineering team. This will be done iteratively with feedback from exec team, product/eng directors, and any other teammates who have input.
-3. Individual teams will write down their plan for the year (as defined above) given the overall company strategy, department strategy, and domain knowledge the team has.
-4. We will iterate on all these artifacts concurrently until they reach a stable state.
-
-Rough timeline:
-
-1. Product/eng strategy has a polished draft by mid December.
-2. Teams have a polished draft of annual plans by mid January.
-
-Note: We do not have annual OKRs; just quarterly OKRs (see [quarterly planning](#quarterly-planning)).
-
-### Quarterly planning
-
-The goal of annual planning is to:
-
-1. Review [annual planning artifacts](#annual-planning) to remind ourselves where we want to go, and to make any necessary adjustments to account for any new information we now have.
-2. Produce quarterly OKRs for product and engineering as a whole, and for each deparment.
-
-Objectives and Key Results (OKRs) are how we [define success](#good-plans-are-clear-and-concise) for the quarter. The [GitHub project tracker](reporting-progress.md#github-project-tracker) is where we define our delivery plan for the quarter (and the year).
-
-Rough timeline:
-
-1. Start drafing OKRs 3–4 weeks before the quarter starts.
-2. Finish OKRs before the new quarter starts.
-3. [Report progress](reporting-progress.md) on OKRs throughout the quarter.

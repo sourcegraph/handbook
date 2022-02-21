@@ -12,8 +12,7 @@ A full time position may be possible depending on performance and what roles are
 
 ## Open Positions:
 
-We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found here:
-COMING SOON
+We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
 ### Job Boards we’re Using:
 

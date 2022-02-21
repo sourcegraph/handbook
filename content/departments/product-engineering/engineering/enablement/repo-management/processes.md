@@ -49,6 +49,8 @@ Kanban means we maintain a backlog of work we want to complete, prioritized in s
 
 This allows us to be flexible about what's up next, but still protect the sanctity of concentration and focus by avoiding (as much as we can) in-flight work from being dropped in favor of something else.
 
+For larger pieces of work we utilise [tracking issues](../../process/tracking_issues.md), for [example](https://github.com/sourcegraph/sourcegraph/issues/27916).
+
 We work in 2 week cycles, and have the following ceremonies:
 
 1. Planning (biweekly)
@@ -59,3 +61,9 @@ We work in 2 week cycles, and have the following ceremonies:
    - This happens on the weeks we don't have planning, and is a check in on the plans and anything new
 3. Retro (biweekly)
    - A review of what we did for learing purposes
+
+### How we structure our work
+
+We split our time between project work, support, and ad-hoc requests. We always have one person dedicated to support requests and the remaining engineers are split between our two delivery streams as outlined in our [strategy page](../../../../../strategy-goals/strategy/enablement/repo-management/index.md#how-we-plan). In an ideal week, everyone who is not on support is focusing solely on either the performance engineering track or the product engineering trakc. But, we often receive ad-hoc requests for items that don't fit our definition of a support issue.
+
+We plan for ad-hoc requests on a case by case basis, taking into account team availability, the size of the request, skills/knowledge required, and the urgency of the request. We pull the ad-hoc request into our 2 week cycle if we have the right people available to deliver it efficiently and with high quality. This approach ensures we spread ad-hoc work evenly across all teammates.

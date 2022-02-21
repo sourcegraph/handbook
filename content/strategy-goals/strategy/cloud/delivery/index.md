@@ -199,3 +199,9 @@ Instead, PS are (hopefully) going to be more likely needed to help facilitate in
 - Is this aligned with our strategic vision for the product and the business
 
 A process for handling exceptions according to these assessment criteria (and likely more) will be drawn up to properly handle expectations in a way that does not leave us with regret.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.delivery}}
