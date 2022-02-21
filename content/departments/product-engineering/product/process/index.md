@@ -42,7 +42,7 @@ Launch tier levels (L1, L2, and L3) are also an important term to be aware of, a
 
 Our [use cases](../../../../strategy-goals/strategy/use-cases/index.md) help us align our platform, products, features, and roadmap to the most important value drivers for our customers. The use cases are problems that our customers encounter that our product helps solve, and in Product and Engineering we’re building for these scenarios, demonstrating a clear progression of solving our customers' (and potential customers') pain points over time. When we talk about what’s coming next on the roadmap, we think about how we’re enhancing the product to better solve these use cases. They provide general alignment and focus that the team is constantly thinking about, across the organization and within our product teams and features. When we package together Sourcegraph’s products like search, code insights, code intelligence, batch changes, notebooks - we’re able to create a cohesive and compelling narrative and solution in a particular use case for the end-user.
 
-To support the ongoing maintenance and improvement of each use case, each has a designated product, design, and engineering sponsor. That group is responsible for:
+To support the ongoing maintenance and improvement of each use case, each can have a designated product, design, and engineering sponsor. That group is responsible for:
 
 - Working just like a team-based design/product/engineering triad, but with a focus on a specific use case
 - Being a point of contact for people with product, design, and/or engineering ideas/questions about the use case
