@@ -2637,7 +2637,7 @@ ryan_scott:
 
 felix_kling:
   name: Felix Kling
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_search
   role: Software Engineer
   github: fkling
 
