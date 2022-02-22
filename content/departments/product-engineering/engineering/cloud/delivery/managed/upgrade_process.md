@@ -190,7 +190,7 @@ If you run into errors like:
 
 This might indicate that the instance is not fully set up yet—try again in a minute.
 
-### 6) Upgrade the new deployment
+### 6) Upgrade the new deployment metadata
 
 First check that thew new version requires no manual migration steps in [docker-compose upgrade guide](https://docs.sourcegraph.com/admin/updates/docker_compose)
 
@@ -219,15 +219,13 @@ git add $NEW_DEPLOYMENT/ && git commit -m "$CUSTOMER: upgrade to $NEW_VERSION"
 terraform apply
 ```
 
-### 7) Recreate the deployment
+### 7) Upgrade running deployment
 
-Take down the new `$NEW_DEPLOYMENT` deployment and recreate it (so the startup script runs on a clean OS disk):
+Apply changes to the running deployment by copying the docker-compose file to the instance and re-running docker-compose:
 
 ```sh
-../util/drop-deployment.ts $NEW_DEPLOYMENT
-git add . && git commit -m "$CUSTOMER: take down $NEW_DEPLOYMENT"
-../util/deploy-deployment.ts $NEW_DEPLOYMENT
-git add . && git commit -m "$CUSTOMER: restart $NEW_DEPLOYMENT"
+gcloud compute scp --project "$PROJECT_PREFIX-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
+../util/ssh-exec.sh "cd /deployment/docker-compose && docker-compose up -d"
 ```
 
 ### 8) Confirm instance health
