@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve" viewBox="0 0 1133 1889" role="document">
+  <defs />
+  <style>
+    @import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap);
+
+    svg {
+      font-family: Nunito, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      --sg-vermillion: #ff5543;
+      --sg-vivid-violet: #a112ff;
+      --sg-sky-blue: #00cbec;
+    }
+    a {
+      fill: #0055c5;
+      cursor: pointer;
+    }
+    a:hover {
+      fill: #1986ea;
+      text-decoration: underline;
+    }
+    [role="heading"][aria-level="1"] {
+      font-size: 50.7px;
+      font-weight: 700;
+    }
+    [role="heading"][aria-level="2"] {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    [role="heading"][aria-level="3"],
+    .lead {
+      font-size: 26.7px;
+      font-weight: 700;
+    }
+    .dot {
+      font-weight: 400;
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+    }
+  </style>
+  <!--Background-->
+  <rect x="0" y="0" width="100%" height="100%" fill="#fff" />
+  <!--Sourcegraph logo-->
+  <image x="35" y="50" width="312.8" href="https://about.sourcegraph.com/assets/sourcegraph-logo.svg" aria-label="Sourcegraph logo" preserveAspectRatio="xMinYMin" />
+  <g transform="matrix(.00263 0 0 .00263 0 0)">
+    <!--Working asynchronously-->
+    <g role="group">
+      <!--Heading-->
+      <text role="heading" aria-level="1" transform="matrix(381 0 0 381 16383 81534)" fill="var(--sg-sky-blue)">
+        <tspan x="0" y="0">Working asynchronously</tspan>
+      </text>
+      <path d="M248023 73066h170208v4968H248023z" fill="var(--sg-sky-blue)" fill-opacity="1" fill-rule="evenodd" stroke="none" />
+      <!--Monitor with a webcam showing three people on a video call-->
+      <g transform="matrix(68989.13 0 0 -68988.01 328955 163030)">
+        <image width="1" height="1" preserveAspectRatio="none" transform="matrix(1 0 0 -1 0 1)" href="https://sourcegraphstatic.com/handbook/async-communication/meeting.png" aria-label="Monitor with a webcam showing three people on a video call" />
+      </g>
+      <!--Intro text-->
+      <text transform="matrix(381 0 0 381 22479 107442)" font-size="26.7" fill="#000">
+        <tspan x="0" y="0">Sourcegraph is an all-remote, global company. This means that</tspan>
+        <tspan x="0" dy="48">not only do we not share an ofﬁce, most of the time, we don’t</tspan>
+        <tspan x="0" dy="48">even share time zones.</tspan>
+      </text>
+      <!--Map of the world with different clocks symbolizing different timezones-->
+      <g transform="matrix(65381.992 0 0 -65379.84 19074 229414)">
+        <image width="1" height="1" preserveAspectRatio="none" transform="matrix(1 0 0 -1 0 1)" href="https://sourcegraphstatic.com/handbook/async-communication/timezones.png" aria-label="Map of the world with different clocks symbolizing different timezones" />
+      </g>
+      <!--Second paragraph-->
+      <text transform="matrix(381 0 0 381 100584 181737)" fill="#000" font-size="26.7">
+        <tspan x="0" y="0">For this reason, we use</tspan>
+        <tspan x="281" y="0" font-weight="700" fill="var(--sg-vivid-violet)">asynchronous</tspan>
+        <tspan x="458" y="0">forms of communication as</tspan>
+        <tspan x="0" dy="48">much as possible, and conduct</tspan>
+        <tspan x="371" dy="0" font-weight="700" fill="var(--sg-vermillion)">synchronous</tspan>
+        <tspan x="532" dy="0">meetings only when it’s</tspan>
+        <tspan x="0" dy="48">really necessary.</tspan>
+      </text>
+    </g>
+    <!--Asynchronous communication-->
+    <g role="group">
+      <!--Heading-->
+      <text role="heading" aria-level="2" transform="matrix(381 0 0 381 16383 284988)" fill="var(--sg-vivid-violet)">
+        <tspan x="0" y="0">Asynchronous communication</tspan>
+      </text>
+      <path d="M237744 277614h180492v4968H237744z" fill="var(--sg-vivid-violet)" fill-opacity="1" fill-rule="evenodd" stroke="none" />
+      <!--Graphic of two persons on different ends of the globe-->
+      <g transform="matrix(86324.99 0 0 -86324.99 32502 410259)">
+        <image width="1" height="1" preserveAspectRatio="none" transform="matrix(1 0 0 -1 0 1)" href="https://sourcegraphstatic.com/handbook/async-communication/across_the_world.png" aria-label="Graphic of two persons on different ends of the globe" />
+      </g>
+      <!--Explanation-->
+      <text class="lead" transform="matrix(381 0 0 381 135255 309753)" fill="var(--sg-vivid-violet)">
+        <tspan x="0" y="0">Asynchronous communication includes every form of</tspan>
+        <tspan x="0" dy="48">communication that doesn’t happen in real-time –</tspan>
+        <tspan x="0" dy="48">responses can occur intermittently.</tspan>
+      </text>
+      <path d="M191072 367168l-54624-144" fill="none" stroke="var(--sg-vivid-violet)" stroke-width="1524" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="8" />
+      <path d="M336850 367168l-54624-144" fill="none" stroke="var(--sg-vivid-violet)" stroke-width="1524" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="8" />
+      <!--When to use-->
+      <g fill="#434343" role="group">
+        <text role="heading" aria-level="3" transform="matrix(381 0 0 381 135255 392811)">
+          <tspan x="0" y="0">When to use:</tspan>
+        </text>
+        <g role="list">
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 139065 403860)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 153543 403860)">
+            <tspan x="0" y="0">As a main form of</tspan>
+            <tspan x="0" dy="29">communication, to be</tspan>
+            <tspan x="0" dy="29">respectful of</tspan>
+            <tspan x="0" dy="29">teammates’ time zones</tspan>
+            <tspan x="0" dy="29">and outside lives</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 139065 459105)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 153543 459105)">
+            <tspan x="0" y="0">To provide thoughtful</tspan>
+            <tspan x="0" dy="29">feedback on teammates’</tspan>
+            <tspan x="0" dy="29">working documents</tspan>
+          </text>
+        </g>
+      </g>
+      <!--Best practices-->
+      <g fill="#434343" role="group">
+        <text role="heading" aria-level="3" transform="matrix(381 0 0 381 279273 392811)">
+          <tspan x="0" y="0">Best practices:</tspan>
+        </text>
+        <g role="list">
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 283083 403860)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 297561 403860)">
+            <tspan x="0" y="0">Write clearly and</tspan>
+            <tspan x="0" dy="29">consistently</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 283083 425958)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 297561 425958)">
+            <tspan x="0" y="0">Provide detailed context</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 283083 438531)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 297561 438531)">
+            <tspan x="0" y="0">Document in a</tspan>
+            <a href="/communication#sources-of-truth" xml:space="preserve" target="_top"><tspan>source of </tspan><tspan x="0" dy="29">truth</tspan></a>
+            <tspan> and share results</tspan>
+            <tspan x="0" dy="29">with pertinent teammates</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <!--Synchronous communication-->
+    <g role="group">
+      <!--Heading-->
+      <text role="heading" aria-level="2" transform="matrix(381 0 0 381 16383 502920)" fill="var(--sg-vermillion)">
+        <tspan x="0" y="0">Synchronous communication</tspan>
+      </text>
+      <path d="M227076 496668h192540v4968H227076z" fill="var(--sg-vermillion)" fill-opacity="1" fill-rule="evenodd" stroke="none" />
+      <!--Graphic with three people close together, having an idea-->
+      <g transform="matrix(82590 0 0 -82590 34369 621299)">
+        <image width="1" height="1" preserveAspectRatio="none" transform="matrix(1 0 0 -1 0 1)" href="https://sourcegraphstatic.com/handbook/async-communication/collaborative_idea.png" aria-label="Graphic with three people close together, having an idea" />
+      </g>
+      <!--Explanation-->
+      <text class="lead" transform="matrix(381 0 0 381 136779 525780)" fill="var(--sg-vermillion)">
+        <tspan x="0" y="0">Synchronous communication includes every form of</tspan>
+        <tspan x="0" dy="48">communication that happens in real-time – responses occur</tspan>
+        <tspan x="0" dy="48">immediately.</tspan>
+      </text>
+      <path d="M192461 579840l-54624-144" fill="none" stroke="var(--sg-vermillion)" stroke-width="1524" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="8" />
+      <path d="M338239 580076l-54624-144" fill="none" stroke="var(--sg-vermillion)" stroke-width="1524" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="8" />
+      <!--When to use-->
+      <g fill="#434343" role="group">
+        <text role="heading" aria-level="3" transform="matrix(381 0 0 381 136779 604266)">
+          <tspan x="0" y="0">When to use:</tspan>
+        </text>
+        <g role="list">
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 140589 615315)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 155067 615315)">
+            <tspan x="0" y="0">When you need</tspan>
+            <tspan x="0" dy="29">real-time resolutions</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 140589 637413)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 155067 637413)">
+            <tspan x="0" y="0">When discussing</tspan>
+            <tspan x="0" dy="29">sensitive topics that</tspan>
+            <tspan x="0" dy="29">require reading body</tspan>
+            <tspan x="0" dy="29">language and tone</tspan>
+          </text>
+        </g>
+      </g>
+      <!--Best practices-->
+      <g fill="#434343" role="group">
+        <text role="heading" aria-level="3" transform="matrix(381 0 0 381 284226 604266)">
+          <tspan x="0" y="0">Best practices:</tspan>
+        </text>
+        <g role="list">
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 288036 615315)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 302514 615315)">
+            <tspan x="0" y="0">Include a written agenda</tspan>
+            <tspan x="0" dy="29">before meetings</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 288036 637413)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 302514 637413)">
+            <tspan x="0" y="0">Write down action items at</tspan>
+            <tspan x="0" dy="29">the end of meetings</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 288036 659511)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 302514 659511)">
+            <tspan x="0" y="0">Record meetings when</tspan>
+            <tspan x="0" dy="29">possible</tspan>
+          </text>
+          <text role="presentation" aria-hidden="true" transform="matrix(381 0 0 381 288036 681609)" class="dot">
+            <tspan x="0" y="0">●</tspan>
+          </text>
+          <text role="listitem" transform="matrix(381 0 0 381 302514 681609)">
+            <tspan x="0" y="0">Document results in a</tspan>
+            <tspan x="0" dy="29">
+              <a href="https://about.sourcegraph.com/handbook/communication#sources-of-truth">source of truth</a>
+              and share
+            </tspan>
+            <tspan x="0" dy="29">results with pertinent</tspan>
+            <tspan x="0" dy="29">teammates</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

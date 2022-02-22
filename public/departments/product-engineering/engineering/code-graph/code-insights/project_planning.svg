@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1100 263" width="1100" height="263" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import 'https://unpkg.com/open-color@1.9.1/open-color.css';
+    @import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro&amp;display=swap';
+
+    text {
+      font-family: 'Source Sans Pro', sans-serif;
+      fill: black;
+    }
+    rect {
+      stroke: black;
+    }
+  </style>
+  <defs>
+    <symbol id="project" viewBox="-10 0 888 70">
+      <g transform="matrix(1, 0, 0, 1, -114.25829315185547, -25.504009246826172)">
+        <g transform="matrix(1, 0, 0, 1, 104.25829, 15.50401)" aria-label="Project phase">
+          <rect x="10" y="10" width="160" height="70" style="fill: var(--oc-green-2, lime);"></rect>
+          <g transform="matrix(1, 0, 0, 1, -1, 0.77344)">
+            <text style="font-size: 20px; text-anchor: middle; white-space: pre;" x="91" y="42">Product planning</text>
+            <text style="white-space: pre; text-anchor: middle; font-size: 15px;" x="88" y="62">Scope, requirements</text>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 374.2583, 15.50401)" aria-label="Project phase">
+          <rect x="-100" y="10" width="285" height="70" style="fill: var(--oc-yellow-2, yellow);"></rect>
+          <g transform="matrix(1, 0, 0, 1, -60.27491, 0)">
+            <text style="font-size: 20px; text-anchor: middle; white-space: pre;" x="105" y="34">Design</text>
+            <text style="white-space: pre; text-anchor: middle; font-size: 15px;" x="145" y="61" transform="matrix(1, 0, 0, 1, -42.64458, -7.125)">High/low fidelity Figma, implementation<tspan x="145" dy="1em">​</tspan>plan, API specs, GitHub issues, estimates</text>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 644.25824, 15.50401)" aria-label="Project phase">
+          <rect x="-85" y="10" width="421" height="70" style="fill: var(--oc-cyan-2, cyan);"></rect>
+          <g transform="matrix(1, 0, 0, 1, -60.0133, 0)">
+            <text style="font-size: 20px; text-anchor: middle; white-space: pre;" x="187" y="41">Implementation</text>
+            <text style="white-space: pre; text-anchor: middle; font-size: 15px;" x="184" y="61">Frontend/Backend coding, testing</text>
+          </g>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <g>
+    <text style="font-size: 20px; white-space: pre;" x="23" y="67">Project A</text>
+    <use width="809.9998779296875" height="70" transform="matrix(0.9871000647544861, 0, 0, 0.9871000647544861, 122.03817749023438, 25.240489959716797)" href="#project"></use>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0.19403, -1.78378)">
+    <text style="font-size: 20px; white-space: pre;" x="23" y="144">Project B</text>
+    <use width="809.9998779296875" height="70" transform="matrix(0.9871, 0, 0, 0.9871, 522.79236, 102.46549)" href="#project"></use>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 73.61057)">
+    <text style="font-size: 20px; white-space: pre;" x="23" y="144">Project C</text>
+    <use width="809.9998779296875" height="70" transform="matrix(0.9871, 0, 0, 0.9871, 924.41309, 103.82504)" href="#project"></use>
+  </g>
+</svg>
