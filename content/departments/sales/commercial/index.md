@@ -63,6 +63,7 @@ Links TBD
 
    - Does the customer have a valuable problem they want to solve and are they willing to work with you via a planned next step to solve it?
      - If so, send an calendar invite with an agenda for the next meeting
+     - If so, bump the opp to Stage to "2 - Qualification" or create an opp; in either case format the name of the opp as follows: "Company Name - UserCount Self-Hosted/Cloud/Managed Instance"
      - If not, kick it back to the SDR to schedule any additional meetings that may subsequently create a SAO
    - Make sure to put in the _iARR_ and _amount_ for each deal. The _iARR_ is the incremental amount over what the previous contract value. In the case of new accounts, _iARR_ and _amount_ are the same.
      - Please calculate the amount for a deal as follows:
