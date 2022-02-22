@@ -209,6 +209,7 @@ You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
 Commit and apply the upgrade:
