@@ -174,7 +174,7 @@ This format is helpful for discussing things that will ultimately result in a ch
 In this format, we find it helpful to include:
 
 - **Tags** for the people involved and their roles in the decision-making framework (including the decider, input providers, approvers, and approvals).
-- **Tags** for any teams that will be affected either directly or indirectly, and should have the opportunity to review and contribute to the RFC.
+- **Teams** for any teams that will be affected either directly or indirectly, and should have the opportunity to review and contribute to the RFC.
 - **Background**: Just enough context necessary to frame the rest of the RFC. The content should be indisputable facts, not opinion.
 - **Problem**: A description of the problem that this RFC is trying to address, the constraints, and why this problem is worth solving now.
 - **Proposal, including a linked pull request**: A proposal for the change, including a link to a pull request on GitHub with the proposed changes reflected in the handbook. This helps anchor the discussion to a concrete proposal. For larger changes, the proposal should include and reflect the status of any rollout steps, such as presenting the changes to the company.
