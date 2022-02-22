@@ -38,7 +38,7 @@ We track support issues from customers on this [board](https://github.com/orgs/s
 
 ## Team syncs, plans and updates:
 
-- The teams holds syncs thrice weekly (M, W, F).
+- The teams holds syncs twice weekly (Mon, Thu).
 - Before team syncs, teammates add their status and plans to the [team sync meeting notes](https://docs.google.com/document/d/1cTdGC4jBK7aEnb9ChzCLYHVGBpRRMNYGdUUPYVPIWHo/edit#).
 - The team discusses the updates live during the sync.
 - Updates should be in prose and communicate progress made and pain points.
@@ -56,7 +56,7 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 
 - [Zoekt](https://github.com/sourcegraph/zoekt) the Zoekt search engine we support and use.
 - [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product
-- [Scatchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
+- [Scratchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
 
 ## On Boarding
 
