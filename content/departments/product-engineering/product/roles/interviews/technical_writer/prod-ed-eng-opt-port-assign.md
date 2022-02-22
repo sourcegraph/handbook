@@ -20,7 +20,7 @@ Describe how git and GitHub pair together, their role in software development, a
 
 - **High** - the candidate picked a topic and wrote 2-3 clear, concise paragraphs on the chosen topic. Grammar, spelling, punctuation, and vocabulary are in line with a candidate that has written content for 5+ years.
 - **Medium** - the candidate wrote less or more than 2-3 paragraphs, and the reduction or additional content does not provide any additional insight on the topic. Minor grammatical, spelling, punctuation, and/or vocabulary errors are present.
-- **Low** - the candidatƒe was unable to write something cohesive within the constraints. There are major  grammatical, spelling, punctuation, and/or vocabulary errors are present
+- **Low** - the candidatƒe was unable to write something cohesive within the constraints. There are major grammatical, spelling, punctuation, and/or vocabulary errors are present
 
 ## Part 2: Technical Writing
 
