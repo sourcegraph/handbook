@@ -315,7 +315,7 @@ If the answer is not available below, your buddy and the whole team will share t
   - Why we are using GraphQL API?
 - Overview of the Cloud infrastructure setup.
 - Overview of the frontend/UI layer at Sourcegraph.
-- Overview of the GraphQL API layer at Sourcegraph
+- [Overview of the GraphQL API layer at Sourcegraph](https://docs.google.com/document/d/1urMZCQ4ZRqHqGvYoKXgLG7EfBEZa_foIilJEhA9Es28/edit#)
 - I am debugging an issue on production - where can I find logs, metrics, events, and traces?
 - What is the difference between login connection and code host connection? How do we authenticate and authorize users on the Cloud?
 - Authorization of GraphQL calls - how do we know the call was made by a legitimate user?
