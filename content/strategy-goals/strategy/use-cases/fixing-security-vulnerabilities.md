@@ -1,3 +1,7 @@
+---
+data_source: [/data/use_cases.yml, use cases]
+---
+
 # Fixing security vulnerabilities use case
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
