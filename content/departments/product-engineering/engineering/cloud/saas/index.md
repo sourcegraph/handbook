@@ -301,7 +301,13 @@ If the answer is not available below, your buddy and the whole team will share t
 
 - How Sourcegraph is designed? - Deep dive into our [architecture](https://docs.sourcegraph.com/dev/background-information/architecture)
 - On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the Cloud SaaS team?
-- Life of a commit - How does my code end up in production? Current [SDLC](https://docs.google.com/document/d/1NqfuxSchCtGoecMLc3-HWt7ktSLSAu-ajYBTdJnsqeU/edit#heading=h.a6t8mk9kz0e5)
+- Life of a commit - How does my code end up in production?
+  - [Current Software Development Life Cycle](../../../process/sdlc.md)
+  - [Cloud CI pipeline](https://docs.sourcegraph.com/dev/background-information/continuous_integration)
+  - Video from Dave Try about [CI pipeline](https://www.loom.com/share/601c226a8a93429890c40213922476f9)
+  - [CI/CD slides](https://docs.google.com/presentation/d/1ML71MPM4n9EHW-57p8ks9GktJdKqrcQnWhBiU2qQGpI)
+  - [Deployment to production](../../process/deployments/index.md#deployment-basics)
+  - [How to deploy during a freeze](../devops/deploy-code-change.md)
 - Decisions/trade-offs we accepted in our development process:
   - Why do we have a single repo for all services?
   - Why do we have a distributed monolith?
