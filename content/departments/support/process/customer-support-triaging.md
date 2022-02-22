@@ -101,7 +101,7 @@ When it's an AER first day take to take cases, they will get the first one that 
 
 ### 1. Post in Customer Support
 
-When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](https://docs.google.com/document/d/1YeRxSeVizEJPE1JNA5FG7mIz3ucjSxYXkEBX2XEytJU/edit#)
+When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here]
 
 ### 2. Custom Scripts
 
