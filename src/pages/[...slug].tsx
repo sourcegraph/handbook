@@ -51,6 +51,7 @@ const HEADING_SELECTOR = 'h1, h2, h3, h4, h5, h6'
 export default function Page({ page }: PageProps): JSX.Element {
     const markdownBodyReference = useRef<HTMLElement>(null)
     const tocReference = useRef<HTMLElement>(null)
+    const router = useRouter()
     useEffect(() => {
         const observer = new IntersectionObserver(
             entries => {
@@ -90,7 +91,6 @@ export default function Page({ page }: PageProps): JSX.Element {
         return () => observer.disconnect()
     })
 
-    const router = useRouter()
     if (!router.isFallback && !page?.slugPath) {
         return <ErrorPage statusCode={404} />
     }
@@ -101,13 +101,16 @@ export default function Page({ page }: PageProps): JSX.Element {
         <>
             <NextSeo title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
             <div className="container">
-                <nav id="right-sidebar">
-                    <section className="right-sidebar-section" ref={tocReference}>
-                        <h4 className="sidebar-heading">On this page</h4>
-                        <TableOfContents toc={page.toc} className="table-of-contents" />
-                    </section>
-                    <EditSection page={page} />
-                </nav>
+                {!page.frontMatter?.hide_sidebar && (
+                    <nav id="right-sidebar">
+                        <section className="right-sidebar-section" ref={tocReference}>
+                            <h4 className="sidebar-heading">On this page</h4>
+                            <TableOfContents toc={page.toc} className="table-of-contents" />
+                        </section>
+
+                        <EditSection page={page} />
+                    </nav>
+                )}
                 <div id="content">
                     {page.content ? (
                         <>
@@ -149,6 +152,7 @@ export default function Page({ page }: PageProps): JSX.Element {
                     ) : (
                         <h1>Unexpected error</h1>
                     )}
+                    {page.frontMatter?.hide_sidebar && <EditSection page={page} />}
                 </div>
             </div>
         </>

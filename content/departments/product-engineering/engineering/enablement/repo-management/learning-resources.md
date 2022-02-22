@@ -52,3 +52,7 @@
 ## TypeScript
 
 - [Programming TypeScript](https://smile.amazon.com/gp/product/1492037656)
+
+## Techical writing
+
+- [Technical Writing by Google](https://developers.google.com/tech-writing/overview)

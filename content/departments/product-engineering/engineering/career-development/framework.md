@@ -4,7 +4,7 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-There are currently seven levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+There are currently six levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Proficiency
 - Execution
@@ -112,10 +112,10 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     padding: 2.5rem;
   }
   /*
-  Safari doesn't make the two IC6/IC7 rows equal size automatically, so give them explicit heights
+  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
   Note that min-height also doesn't work.
   */
-  th#ic6, th#ic7 {
+  th#ic6 {
     height: 11rem;
   }
 </style>
@@ -345,7 +345,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
       <td colspan="3" class="level-summary">
         A particularly experienced, impactful contributor.<br>
-        IC4 is the highest level that an engineer can get to based solely on their impact. The availability of positions beyond IC4 is based on both impact and business need.
+        IC4 is the highest level that an engineer can get to based solely on their performance. The availability of positions beyond IC4 is based on both impact and business need.
       </td>
     </tr>
     <tr class="category-summaries-row">
@@ -417,15 +417,12 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="3" rowspan="2" class="tbd">
+      <td colspan="3" class="tbd">
         <p>
-          We haven't yet finalized the descriptions of these levels at Sourcegraph.
-          Like <a href="#ic5">IC5</a>, these are different <strong>roles</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
+          We haven't yet finalized the description of this level at Sourcegraph.
+          Like <a href="#ic5">IC5</a>, this is a different <strong>role</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
         </p>
       </td>
-    </tr>
-    <tr>
-      <th id="ic7" scope="row" class="level"><a class="anchor" href="#ic7"></a><abbr title="Individual Contributor">IC</abbr>7</th>
     </tr>
   </tbody>
 

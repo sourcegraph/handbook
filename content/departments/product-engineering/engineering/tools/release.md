@@ -17,6 +17,7 @@ This tool requires the following dependencies in your system `PATH`
 - [comby](https://comby.dev)
 - [gsed](https://formulae.brew.sh/formula/gnu-sed#default) (macOS only)
 - [src-cli](https://github.com/sourcegraph/src-cli)
+- [sg-cli](https://docs.sourcegraph.com/dev/setup/quickstart)
 - [docker](https://www.docker.com/get-started)
 
 If also requires the following information, you will be prompted to enter them by the release tool.
