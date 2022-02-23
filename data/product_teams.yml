@@ -91,7 +91,6 @@ cloud_saas:
 
 devops:
   title: DevOps
-  strategy_link:
   product_org: cloud
   pm: bill_creager
   em: jennifer_mitchell
