@@ -1,6 +1,6 @@
 # Delivery team
 
-Delivery team is a part of  the [Cloud](../index.md) org.
+Delivery team is a part of the [Cloud](../index.md) org.
 
 ## Mission
 
