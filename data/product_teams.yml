@@ -91,6 +91,7 @@ cloud_saas:
 
 devops:
   title: DevOps
+  strategy_link: /departments/product-engineering/engineering/cloud/devops/#goals
   product_org: cloud
   pm: bill_creager
   em: jennifer_mitchell
