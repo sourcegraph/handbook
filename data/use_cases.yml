@@ -29,7 +29,7 @@ fixing_security_vulnerabilities:
   link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
   sponsors:
     product: jason_yavorska
-    engineering: jason_yavorska
+    engineering: tomas_senart
     design: jason_yavorska
 
 incident_response:
@@ -37,5 +37,5 @@ incident_response:
   link: /strategy-goals/strategy/use_cases/incident_response
   sponsors:
     product: jason_yavorska
-    engineering: jason_yavorska
+    engineering: tomas_senart
     design: jason_yavorska
