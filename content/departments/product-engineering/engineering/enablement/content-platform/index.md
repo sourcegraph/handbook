@@ -34,6 +34,7 @@ The content platform team helps with updates or changes to the various [sites we
 
 2. This will prompt you to fill out a form with relevant details.
 3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
+   - **Note:** You'll see a condensed version of your request appear in the #content-platform channel instead of the full text you entered. Your full request will be sent directly to the PM via Slackbot, and they will follow up with questions as needed.
 
 #### Service level agreements (SLAs)
 
