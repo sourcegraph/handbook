@@ -111,5 +111,5 @@ Sometimes custom scripts are developed by the CE team, if the customer reaches o
 
 When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
 
-###4. External Channels
+### 4. External Channels
 There are a couple of external slack channels that customers can ask questions in. If you do not have access to these, you can be invited by any team member with access. Please post in our internal slack channel to ask for access.
