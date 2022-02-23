@@ -233,6 +233,7 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
 - [Role of sourcegraph.com/search in revenue generation](sourcegraph.com-and-revenue.md)
 - [Defining ‘growth team’](what-is-a-growth-team.md)
 - [Team history](team-history.md)
+- [Onboarding](onboarding.md)
 
 ## Tech stack
 
