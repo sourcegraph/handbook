@@ -506,14 +506,15 @@ Update version references:
 🐟```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
-```
+
+````
 
 Check for old version references or merge conflicts:
 
 ```sh
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
-```
+````
 
 Resolve any merge conflicts that have arisen.
 
