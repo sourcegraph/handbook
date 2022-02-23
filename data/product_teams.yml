@@ -101,7 +101,7 @@ devops:
 delivery:
   title: Delivery
   strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
-  product_org:
+  product_org: cloud
   pm: dan_mckean
   em: virginia_ulrich
   issue_labels:
