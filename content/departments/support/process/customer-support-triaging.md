@@ -101,8 +101,12 @@ When it's an AER first day take to take cases, they will get the first one that 
 
 ### 1. Post in Customer Support
 
-When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here]
+When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](https://handbook.sourcegraph.com/departments/support/process/customer-exceptions/)
 
 ### 2. Custom Scripts
 
 Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
+
+### Ticket Follow-ups
+
+A ticket can be followed up on when a customer replies to an email that has been marked as solved in Zendesk. When this occurs, remove the tags, and triage as normal. 
