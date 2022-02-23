@@ -103,7 +103,7 @@ delivery:
   strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
   product_org: cloud
   pm: dan_mckean
-  em: virginia_ulrich
+  em: engineering_manager_delivery
   issue_labels:
     - team/delivery
 
