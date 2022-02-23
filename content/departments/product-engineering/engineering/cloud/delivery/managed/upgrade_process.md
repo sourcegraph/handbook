@@ -62,7 +62,7 @@ export PROJECT_PREFIX=sourcegraph-managed
 # Found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 # currently live instance
-export OLD_DEPLOYMENT=$(gcloud compute instances list --project=${PROJECT_PREFIX}-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+export OLD_DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 # the instance we will create
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 ```
@@ -93,7 +93,7 @@ There is a ~1h two-part screencast available by @slimsag walks through this whol
 # version to upgrade to - MUST be in format 'v$MAJOR.$MINOR.$PATCH'
 export NEW_VERSION=v<sourcegraph_version>
 # old version used to verify upgrade
-export OLD_VERSION=$(cat ${CUSTOMER}\/${OLD_DEPLOYMENT}\/VERSION)
+export OLD_VERSION=$(cat $CUSTOMER\/$OLD_DEPLOYMENT\/VERSION)
 ```
 
 Validate all variables are set:
@@ -208,7 +208,7 @@ For each reference, ensure that the _entire_ service entry is up to date (i.e. n
 You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
@@ -249,7 +249,7 @@ This might indicate that the instance is not fully set up yet—try again in a m
 Ensure that no containers with the wrong version are still running:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep \"$OLD_VERSION#v\""
 ```
 
 ### 9) Switch the load balancer target
@@ -503,7 +503,7 @@ Note that since we are not marking the database as read-only, this snapshot coul
 
 Update version references:
 
-```sh
+🐟```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
 ```
@@ -511,7 +511,7 @@ git --no-pager diff $NEW_DEPLOYMENT
 Check for old version references or merge conflicts:
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
