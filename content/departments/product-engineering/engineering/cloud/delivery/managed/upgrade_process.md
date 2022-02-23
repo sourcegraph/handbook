@@ -57,8 +57,12 @@ export CUSTOMER=<customer_or_instance_name>
 export SRC_ENDPOINT=http://localhost:4444
 # see 1password "$CUSTOMER admin account", under "token" field
 export SRC_ACCESS_TOKEN=$TOKEN
+# should match GCP project prefix - typically the default is correct
+export PROJECT_PREFIX=sourcegraph-managed
+# Found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 # currently live instance
-export OLD_DEPLOYMENT=$(gcloud compute instances list --project=sourcegraph-managed-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+export OLD_DEPLOYMENT=$(gcloud compute instances list --project=${PROJECT_PREFIX}-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 # the instance we will create
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 ```
@@ -115,7 +119,7 @@ Also refer to the [upgrade notes](https://docs.sourcegraph.com/admin/updates/doc
 Set up access to the frontend by copying this output and running it in another shell:
 
 ```sh
-echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
+echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER"
 ```
 
 Note that an upgrade is being performed:
@@ -205,6 +209,7 @@ You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
 Commit and apply the upgrade:
@@ -230,7 +235,7 @@ git add . && git commit -m "$CUSTOMER: restart $NEW_DEPLOYMENT"
 Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
 
 ```sh
-gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER
+gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER
 ```
 
 If you run into an error like:
@@ -280,7 +285,7 @@ git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 Set up access to new frontend by copying this output and running it in another shell:
 
 ```sh
-echo "gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
+echo "gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER"
 ```
 
 Remove the notice previously added to the global user settings:
@@ -330,7 +335,7 @@ cd $CUSTOMER
 Set up access to the frontend by copying this output and running it in another shell:
 
 ```sh
-echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
+echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER"
 ```
 
 Note that maintainence is being performed:
@@ -526,7 +531,7 @@ This will only update the instance metadata and not affect the running deploymen
 Apply changes to the running deployment by copying the docker-compose file to the instance and re-running docker-compose:
 
 ```sh
-gcloud compute scp --project "sourcegraph-managed-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
+gcloud compute scp --project "$PROJECT_PREFIX-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
 ../util/ssh-exec.sh "cd /deployment/docker-compose && docker-compose up -d"
 ```
 
