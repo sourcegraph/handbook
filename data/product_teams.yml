@@ -90,13 +90,21 @@ cloud_saas:
     - team/cloud-saas
 
 devops:
-  title: DevOps (and Delivery)
-  strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
+  title: DevOps
+  strategy_link: /departments/product-engineering/engineering/cloud/devops/#goals
   product_org: cloud
   pm: bill_creager
   em: jennifer_mitchell
   issue_labels:
     - team/devops
+
+delivery:
+  title: Delivery
+  strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
+  product_org: cloud
+  pm: dan_mckean
+  em: virginia_ulrich
+  issue_labels:
     - team/delivery
 
 dev_experience:
