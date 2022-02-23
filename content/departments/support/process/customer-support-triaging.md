@@ -60,7 +60,7 @@ That said, there may be times when we have unusually large amount of work or mor
 ### 1. Whose responsible for triaging?
 
 - Nonso 08:00–14:00 UTC (Stompy as backup)
-- Shwanteé 14:00–18:00 UTC (Virginia, Brielle as backup)
+- Shawnteé 14:00–18:00 UTC (Virginia, Brielle as backup)
 - Sarah 18:00–01:00 UTC (Virginia, Warren as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
@@ -96,3 +96,13 @@ When SLA is close to expiring, we view the teams' cases we ask those AERs with l
 ### 8. What to do when it is an AER first day taking cases?
 
 When it's an AER first day take to take cases, they will get the first one that comes through the queue. After that, they will have the first right of refusal. The goal is for them to have 3 cases by the end of the week.
+
+## Helpful Triage Reminders
+
+### 1. Post in Customer Support
+
+When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here]
+
+### 2. Custom Scripts
+
+Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.

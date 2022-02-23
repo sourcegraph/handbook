@@ -31,7 +31,8 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 
 - [Okta SSO implementation](tools/Okta.md)
 - [Vendr](tools/Vendr/index.md)
-- Workspace One & Carbon Black
+- [Zoom](tools/zoom.md)
+- [Workspace One & Carbon Black](tools/endpoint-antivirus.md)
 
 ### Processes
 

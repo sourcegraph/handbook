@@ -1,14 +1,14 @@
 # Delivery team
 
-Delivery team is a part of the [DevOps](../devops/index.md) team (part of the [Cloud](../index.md) org).
+Delivery team is a part of the [Cloud](../index.md) org.
 
 ## Mission
 
-Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way fits within their environment, supports their level of technical expertise and allows them to easily access the value that our product provides. Make it as easy as possible to access this value, and to maintain it going forwards by easily staying up to date with Sourcegraph's latest developments.
+Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Make it as easy as possible to access this value, and to maintain it going forwards by easily staying up to date with Sourcegraph's latest developments.
 
 ## Members
 
-{{generator:product_team.devops}}
+{{generator:product_team.delivery}}
 
 ## Strategy
 
