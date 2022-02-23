@@ -18,7 +18,7 @@ We consider the following kinds of repositories;
 
 1. Public forks of private repositories,
 2. Public repositories that are made private,
-3. Public repositories added by other users or organizations other than the owner of the repository and,
+3. Public repositories added by other users or organizations other than the owner of the repository
 4. Private repositories.
 
 The removal process is the same across all the visibility types listed above.
