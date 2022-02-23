@@ -105,6 +105,7 @@ You will be able to submit an expense reimbursement for the computer and desk eq
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
 - Learn how we can (and cannot) [reference our customers externally](../../departments/sales/index.md#customer)
 - Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../remote/teammate-recommended_productivity_hacks.md).
+- Watch our [Sourcegraph Product Onboarding videos](product-onboarding-videos.md)
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
 
