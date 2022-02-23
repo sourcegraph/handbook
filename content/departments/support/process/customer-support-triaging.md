@@ -108,8 +108,8 @@ When we see post in the Customer Support channel, we need to make sure whether o
 Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
 
 ### 3. Follow Up Tickets
-When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above. 
+
+When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
 
 ###4. External Channels
-There are a couple of external slack channels that customers can ask questions in. If you do not have access to these, you can be invited by any team member with access. Please post in our internal slack channel to ask for access. 
-
+There are a couple of external slack channels that customers can ask questions in. If you do not have access to these, you can be invited by any team member with access. Please post in our internal slack channel to ask for access.
