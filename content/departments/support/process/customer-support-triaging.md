@@ -109,4 +109,4 @@ Sometimes custom scripts are developed by the CE team, if the customer reaches o
 
 ### Ticket Follow-ups
 
-A ticket can be followed up on when a customer replies to an email that has been marked as solved in Zendesk. When this occurs, remove the tags, and triage as normal. 
+A ticket can be followed up on when a customer replies to an email that has been marked as solved in Zendesk. When this occurs, remove the tags, and triage as normal.
