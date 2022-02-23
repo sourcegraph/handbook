@@ -56,7 +56,6 @@ To create a new initiative, go to the [new issue screen](https://github.com/sour
   - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
 - [User research](process/user_research/index.md)
 - [Product licensing](process/licensing.md)
-- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
 - [Product Gaps Dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view) (internal only)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
