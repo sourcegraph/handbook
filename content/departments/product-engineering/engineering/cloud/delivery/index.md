@@ -8,7 +8,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Members
 
-{{generator:product_team.devops}}
+{{generator:product_team.delivery}}
 
 ## Strategy
 
