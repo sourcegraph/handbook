@@ -255,5 +255,5 @@ Once the permissions sync has completed you should see something like this in yo
 sourcegraph=# select repo_id, user_id, path_includes, path_excludes from sub_repo_permissions;
  repo_id | user_id |   path_includes   |       path_excludes
 ---------+---------+-------------------+----------------------------
-     238 |       1 | {//test-perms/**} | {//test-perms/Security/**}
+     238 |       1 | {**} | {Security/**}
 ```

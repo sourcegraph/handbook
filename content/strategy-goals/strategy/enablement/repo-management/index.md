@@ -69,45 +69,37 @@ We prioritize work in the performance engineering delivery stream by using our d
 
 ## What's next and why
 
-Note that the time periods are rolling time periods and the plans here are reviewed and updated monthly.
+> ℹ️ [Full list of the tracking issues for Repo Management](https://github.com/orgs/sourcegraph/projects/214/views/21?filterQuery=label%3A%22team%2Frepo-management%22)
 
-### Short term (3m)
+### FY23 Q1
 
-#### Sub-repository permissions - Perforce support
+#### Sub-repository permissions
 
-- **Current status:** In progress
-- **Expected effort:** ~60% team time
-- **Why:** Support a range of customers, across various code hosts (but beginning with Perforce) who utilize sub-repo level permissions within their code host.
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31226
 
-[PD for the work](https://docs.google.com/document/d/1d8j-6VC_nk8HXEDT6U2_s-_9uSzgzHWZzrJjII9pKEE/edit#heading=h.hamivlgnpbpn)
-[Tracking issue for the work](https://github.com/sourcegraph/sourcegraph/issues/27916)
-[Timing analysis for the project](https://docs.google.com/document/d/1p0a9YSj_OPJcmjHZgdou2RKGw-qLo_nzdwpryisyfzo/edit#heading=h.g3dopdwgj3yv)
+#### Implement native Gerrit support
 
-#### More scalable explicit permissions API
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31227
 
-- ** Current status:** In progress/further planning
-- **Expected effort:** ~15% team time
-- **Why:** At least one large customer has experienced scaling issues resulting from overly granular endpoints used to inform Sourcegraph of the required repo permissions. As a result, endpoints that make broader changes but require less calls are needed.
+#### Implement native CVS support
 
-[Tracking issue](https://github.com/sourcegraph/sourcegraph/issues/28590)
-[Originating customer issue](https://github.com/sourcegraph/customer/issues/546)
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31405
 
-### Mid term (6m)
+#### Simplified method to trigger per-repo sync for more up to date results
 
-#### [GitServer HA Cont.](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31228
 
-- **Why:** Support our largest customers in a robust and reliable way, no matter how many repos and what size.
-- **What:** Better support for monorepos, likely through better utilization of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
+#### Revised hashing algorithm
 
-#### Gerrit Permissions syncing
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31229
 
-- **Why:** Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246). We are currently [investigating](https://github.com/sourcegraph/sourcegraph/issues/23563) the value to other customers who are known Gerrit users, and the depth of support needed.
-- **What:** Gerrit supports permissions more granular than just repo-level. Since this is needed to properly (in a long term way) support Perforce too, we're expecting to do work to change our internal model to support more granular permissions, then add Gerrit support properly on top of this.
+#### Architectural planning
 
-#### [BB Cloud permissions](https://github.com/sourcegraph/sourcegraph/issues/19782)
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31230
 
-- **Why:** Currently blocking expansion for at least [one large customer](https://github.com/sourcegraph/customer/issues/288) as well as being strategically valuable as Atlassian have announce EOL for BB Server, meaning many other BB Server customers will likely move to BB Cloud and want this support.
-- **What:** Support permissions syncing for BitBucket Cloud. Also likely to introduce BB Datacenter support, as this will either be based on the same API as used for either BB Cloud of BB Server.
+### FY23 Q2
+
+TBD
 
 ## What we're not working on
 
