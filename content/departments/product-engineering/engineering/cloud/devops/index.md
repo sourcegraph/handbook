@@ -1,12 +1,6 @@
 # Cloud DevOps Team
 
-Cloud DevOps team consists of two streams with different focus area.
-
-- DevOps
-- [Delivery]
-
-If you're looking for DevOps stream documentation, stay on this page.
-If you're looking for [Delivery] specific documentation, visit this [page](../delivery/index.md).
+If you're looking for [Delivery] documentation instead of DevOps, visit this [page](../delivery/index.md).
 
 ## Vision
 
@@ -38,6 +32,8 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
+- [Disaster Recovery](disaster-recovery.md)
+- [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
 
 ## How to contact the team and ask for help
 
