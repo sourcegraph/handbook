@@ -11,6 +11,7 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
+- [SLAs for managed instances](#slas-for-managed-instaces)
 - [Creating a managed instance](creation_process.md)
 - [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
@@ -25,10 +26,21 @@ After [determining a managed instance is what a customer/prospect wants](https:/
 1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
 2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
 
-## SLA for managed instances
-Currently, the SLA for creating a new managed instance is 10 business days.  This allows the team to assess the sizing is correct, verify the information in the ticket, and plan the work in the following iterations without interupting work that is currently in progress
+## SLAs for managed instances
+Support SLAs for Sev 1 and Sev 2 can be found [here](https://handbook.sourcegraph.com/departments/support/#slas).  Other engineering SLAs are listed below
 
-Managed instances feature requests have a SLA of 10 business days to provide engineering level of effort.  After a level of effort and scoping is produced, we follow standard guidelines for prioritization and scheduling the work 
+| | Description | Response time | Provide LOE | Resolution time |
+| --- | --- | --- | --- | --- |
+| New instance Creation | Spin up new instance for a new customer | Within 24 hours of becomeing aware of the need | Within 2 weeks to provide LOE (leve of effort) | Within 10 working days from agreement |
+| New Feature Request | Feature request from new or existing customers | Within 24 hours of becoming aware of the need |  Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release | NA | | Within 1 week after latest release |
+| Maintenance: patch/emergency release Update | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release |
+
+
+
+
+
+
 
 ## Technical details
 
@@ -56,7 +68,8 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **Admin access**: Both the customer and Sourcegraph personnel will have access to an application-level admin account.
 - **VM/SSH access**: Only Sourcegraph personnel will have access to the actual GCP VM, this is done securely through GCP IAP TCP proxy access only. Sourcegraph personnel can make changes or provide data from the VM upon request by the customer.
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
-- **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
+- **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the:w
+ Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
 
 ### Access
 
