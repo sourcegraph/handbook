@@ -13,6 +13,8 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+
 ### SOC2 compliance processes
 
 A new bot, `pr-auditor`, is now live in `sourcegraph/sourcegraph` and is rolling out to [a number of other repositories](https://k8s.sgdev.org/users/robert/batch-changes/pr-auditor-rollout) that houses code that reaches customers. `pr-auditor` will add status checks on your pull requests when you edit descriptions to indicate whether or not it has detected a "test plan" within your pull request description. If a "test plan" is not provided by the time a PR is merged, an issue will be created in [the `sec-pr-audit-trail` repository](https://github.com/sourcegraph/sec-pr-audit-trail/issues) requesting that the PR author document a test plan, or provide a reason for the exception. This serves as an audit log to help us achieve these two SOC2 control points:
