@@ -79,5 +79,4 @@ Our private resources are available [in the Google doc](https://docs.google.com/
 
 ## Misc
 
-- [lab journal (private)](https://github.com/sourcegraph/search-scratch/blob/master/2021/journal.org)
 - [iteration log (deprecated)](./iteration_log.md)

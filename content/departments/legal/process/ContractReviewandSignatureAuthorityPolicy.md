@@ -105,7 +105,7 @@ For Salesforce, complete the opportunity with the following steps: 1) go to the 
 
 ### NDAs (for customers, vendors, partners)
 
-- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines)
+- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
   - Review: None
   - Approve: None
   - Sign: Director of Legal, VP, or Director
