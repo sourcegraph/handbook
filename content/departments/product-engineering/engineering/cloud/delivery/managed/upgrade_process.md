@@ -523,7 +523,7 @@ Note that since we are not marking the database as read-only, this snapshot coul
 
 Update version references:
 
-```sh
+````sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
 
@@ -540,7 +540,7 @@ Resolve any merge conflicts that have arisen.
 ```sh
 git add . && git commit -m "$CUSTOMER: upgrade to $NEW_VERSION in-place"
 terraform apply
-```
+````
 
 This will only update the instance metadata and not affect the running deployment.
 
