@@ -523,9 +523,10 @@ Note that since we are not marking the database as read-only, this snapshot coul
 
 Update version references:
 
-````sh
+```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
+```
 
 Check for old version references or merge conflicts:
 
@@ -551,7 +552,7 @@ Apply changes to the running deployment by copying the docker-compose file to th
 ```sh
 gcloud compute scp --project "$PROJECT_PREFIX-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
 ../util/ssh-exec.sh "cd /deployment/docker-compose && docker-compose up -d"
-````
+```
 
 ### 5) Wrap up the upgrade
 
