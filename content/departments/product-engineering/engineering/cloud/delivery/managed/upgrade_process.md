@@ -532,7 +532,6 @@ Check for old version references or merge conflicts:
 ```sh
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
-````
 
 Resolve any merge conflicts that have arisen.
 
