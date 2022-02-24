@@ -14,7 +14,7 @@ It’s important to understand that what is listed in the level descriptions are
 
 In most cases, a level builds on the expectations from the preceding levels: someone at level 2 must also meet the level 1 expectations. In addition to what is listed there, we expect support engineers at all levels to exhibit our Sourcegraph company values.
 
-Rather than precede each bullet point with “consistently,” we leave it as implicit and we define this as _X happening consistently over a period of at least 3–6 months_. It’s great to do something once, but the real measure of impact is if you are able to do that again and again over a substantial enough period of time.
+Rather than precede each bullet point with “consistently,” we leave it as implicit and we define this as _X happening consistently over a period of at least ~6 months_. It’s great to do something once, but the real measure of impact is if you are able to do that again and again over a substantial enough period of time.
 
 The level descriptions state the minimum expectations _after you have completed your onboarding_. For example, if you were hired at a level 2, we would expect that you are having the impact outlined for both levels 1 and 2 once your onboarding is complete. This also means that before being promoted to level 3, for example, you would be expected to be already doing what is listed in level 3 before a promotion is possible.
 
@@ -22,7 +22,7 @@ In line with our _continuously grow_ company value, we expect you to understand 
 
 ## When do I get promoted?
 
-Promotion discussions occur when your manager can make the case that you’ve had at least 3–6 months of high performance at your current level, and at least 3 months performing at the next level, in all three of the categories. Again, it takes time to demonstrate the “consistently” implicit in the expectations and we want to ensure that you are set up for success to perform at your current level.
+Promotion discussions occur when your manager can make the case that you’ve had at least 6 months of consistent high performance at your current level, and at least 3 months performing consistently at the next level, in all three of the categories. Again, it takes time to demonstrate the “consistently” implicit in the expectations and we want to ensure that you are set up for success to perform at your current level.
 
 Promotions from one level to another are considered in our quarterly talent review conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
