@@ -540,7 +540,6 @@ Resolve any merge conflicts that have arisen.
 ```sh
 git add . && git commit -m "$CUSTOMER: upgrade to $NEW_VERSION in-place"
 terraform apply
-````
 
 This will only update the instance metadata and not affect the running deployment.
 
