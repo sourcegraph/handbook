@@ -523,11 +523,9 @@ Note that since we are not marking the database as read-only, this snapshot coul
 
 Update version references:
 
-🐟```sh
+```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
-
-````
 
 Check for old version references or merge conflicts:
 
