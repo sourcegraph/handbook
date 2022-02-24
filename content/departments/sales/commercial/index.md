@@ -69,6 +69,7 @@ Links TBD
      - Please calculate the amount for a deal as follows:
        - Self-Hosted = number of seats x [Self-Hosted Pricing](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit#)
        - Cloud = number of seats x [Cloud Pricing](https://docs.google.com/document/d/1-IcQrLOUp_XPUPHB9n-IX7MOKJf_dJOJelMc9lDSb-c/edit#)
+       - If you are unsure, put 10 users and calcualte the price according to cloud or self-hosted pricing. If you are unsure of whether it is cloud or self-hosted, put TBD and use self-hosted pricing
 
 3. After every meeting:
    - Schedule 30 minutes after the call customer calls because:
