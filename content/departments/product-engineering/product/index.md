@@ -65,5 +65,5 @@ To create a new initiative, go to the [new issue screen](https://github.com/sour
 
 A list of deprecated documents and processes that we keep for historical reasons.
 
-- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
+- [FY22 Q4 key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
 
