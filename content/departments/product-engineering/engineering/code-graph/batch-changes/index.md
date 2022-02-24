@@ -82,6 +82,7 @@ This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either
 - Update CI configuration across several repositories. [Blog post](https://unknwon.io/posts/211110_sourcegraph_batch_changes/)
 - Update CI to use system python ([spec](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/use-system-python-in-ci?tab=spec&visible=2))
 - Tracking release changesets.
+- Add test plans to all PR templates ([example changeset](https://github.com/sourcegraph/terraform-google-executors/pull/35))
 
 ## Related links
 
