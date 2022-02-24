@@ -124,7 +124,7 @@ You can also see a web version of this in the [Pipeline types reference](https:/
 Our [pipeline development guide](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-development) has also been refereshed with updated content, featuring a series of embedded search notebooks! This includes new guidance on:
 
 - [Creating pipeline annotations](https://docs.sourcegraph.com/dev/background-information/continuous_integration#creating-annotations) (using a new API introduced in [#30951](https://github.com/sourcegraph/sourcegraph/pull/30951))
-- [Caching build artefacts](https://docs.sourcegraph.com/dev/how-to/cache_ci_artefacts)
+- [Caching build artefacts](https://docs.sourcegraph.com/dev/how-to/cache_ci_artefacts) _Only available on stateless agents_.
 - [Pipeline observability features](https://docs.sourcegraph.com/dev/background-information/continuous_integration#observability)
 
 #### Generate builds using run types
