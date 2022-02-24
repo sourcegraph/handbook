@@ -43,9 +43,21 @@ We have now eradicated two classes of errors related to database migrations:
 
 See the [migrator docs](https://docs.sourcegraph.com/admin/how-to/manual_database_migrations) for additional info.
 
-#### New `lib/errors` package
+#### New `lib/errors` package and `MultiErrors` type
 
 _All_ errors in Sourcegraph backend services should now use the new `github.com/sourcegraph/sourcegraph/internals/errors` package. This consolidation helps us restrict and control the ways that we can create, consume, and compare errors, and will allows us to control library behavior clashes more easily in the future. [#30558](https://github.com/sourcegraph/sourcegraph/pull/30558)
+
+Additionally, all usages of the old `MultiError` type has been replaced with a new, custom multi-error implementation ([#31466](https://github.com/sourcegraph/sourcegraph/pull/31466), [#698](https://github.com/sourcegraph/src-cli/pull/698)). This new error type is an interface that behaves much more closely to regular errors, prevents errors from disappearing due to library conflicts as was previously the case, and supports introspection with `errors.Is`, `errors.As`, and friends much more consistently.
+
+```go
+var err errors.MultiError
+for _, fn := range thingsToDo {
+  err = errors.Append(err, fn())
+}
+return err
+```
+
+Check out the source code [in `lib/errors`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/errors).
 
 #### Actor propagation reminder
 
