@@ -59,6 +59,24 @@ If we discover that we've produced something that does not meet our quality bar,
 
 High-quality isn't the opposite of iterative. You can keep quality high while still being iterative by narrowing the scope (for example, by solving a smaller problem at first, or by solving it only for certain customers initially).
 
+### Be iterative
+
+We try to ship small things fast, instead of big things slowly. Being iterative allows us to avoid unecesary long planning, avoid deadlocks, and derisk what we do faster, increasing the value we create for customers. Postponing shipping things leads to them being outdated, creates complexity in managing what's not been shipped, and delays learning. 
+Discussions around large changes tend to be slow and deadlock, whereas small steps are much more likely to lead to a decision. It's always easier to re-evaluate after we have learnt by taking a first step. 
+
+Having a strong vision and strategy allows us to be iterative: it gives us the framework that we need to move in the right direction, and allows us to plan less and iterate faster instead.
+
+In practice this means we:
+- cut scope to get things out faster
+- don't hide work in progress from customers as long as the change is better than the previous state
+- start a proposal, instead of waiting to organize a meeting to collect input
+- try to make reversible decisions, that allow us to change our mind if we need to
+
+Being iterative allows us to work efficiently in an async-first setting. As long as we are aligned on our vision and strategy, being iterative reduces the need for heavy coordination, because we are mostly taking small reversible steps. It reduces communication bandwidth, because in many case we can share concrete artifacts (a PR, customer feedback on an iteration, a proposal) instead of sharing larger plans.
+
+Being iterative also helps us have high agency, because small steps are easier to take and don't require approval. It also allows us to be more open and transparent, because we can learn in public by consyantly shipping small improvements.
+
+
 ### Be welcoming and inclusive
 
 You make people from all groups and backgrounds feel comfortable belonging to our team and community. You understand that diversity is having a seat at the table, inclusion is having a voice, and belonging is having that voice be heard. You are acting against racism and bias.
