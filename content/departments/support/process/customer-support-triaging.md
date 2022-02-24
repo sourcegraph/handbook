@@ -109,10 +109,10 @@ Sometimes custom scripts are developed by the CE team, if the customer reaches o
 
 When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
 
-### 12. External Channels
+### 12. External Communities
 
-There are a couple of external slack channels that customers can ask questions in. If you do not have access to these, you can be invited by any team member with access. Please post in our internal slack channel to ask for access.
+There are a couple of external slack communities that customers can ask questions in. If you do not have access to these, you can be invited by any team member with access. Please post in our internal slack channel to ask for access.
 
-### 13.
+### 13. Slack Channels
 
 When slack channels have 'support-' they will automatically trigger Zendesk to create tickets. If you see a Zendesk ticket that comes in like this please reach out to the appropiate slack channel and ask if they would be able to change the dash to a an underscore or some other symbol. You can then delete the Zendesk ticket.
