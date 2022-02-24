@@ -366,6 +366,10 @@ Note that maintainence is being performed:
 
 Then, [mark the database as read-only](#2-mark-the-database-as-ready-only).
 
+```sh
+../util/set-db-readonly.sh $OLD_DEPLOYMENT true
+```
+
 Create a snapshot:
 
 ```sh
@@ -426,6 +430,10 @@ git add . && git commit -m "$CUSTOMER: init targetted $NEW_DEPLOYMENT deployment
 
 [Make the database on the new deployment writeable](#5-make-the-database-on-the-new-deployment-writable).
 
+```sh
+../util/set-db-readonly.sh $NEW_DEPLOYMENT false
+```
+
 If you changed the disk size, make sure to [resize the disk](#4-a-resize-the-disk).
 
 #### 4.a) Resize the disk
@@ -473,9 +481,27 @@ For reference, the above steps were adapted from [Working with persistent disks]
 ### 5) Wrap up the upgrade
 
 1. [Confirm instance health](#8-confirm-instance-health).
-2. [Switch the load balancer target](#9-switch-the-load-balancer-target) - when prompted to apply, exit the command (do not apply the changes) and continue to the next step. This will prevent Terraform from attempting to apply resource changes to the old machine - instead, we just update the load balancer and remove the old instance at the same time.
+2. [Switch the load balancer target](#9-switch-the-load-balancer-target) - **⚠️ when prompted to apply, exit the command (do not apply the changes) and continue to the next step. ⚠️** This will prevent Terraform from attempting to apply resource changes to the old machine - instead, we just update the load balancer and remove the old instance at the same time.
+
+```sh
+../util/retarget-load-balancer.ts $NEW_DEPLOYMENT
+git add . && git commit -m "$CUSTOMER: switch load balancer to new target"
+```
+
 3. [Take down the old deployment](#10-take-down-the-old-deployment)
+
+```sh
+../util/drop-deployment.ts $OLD_DEPLOYMENT drop-disk
+rm -rf $OLD_DEPLOYMENT/
+git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
+```
+
 4. [Remove the maintainence banner](#11-remove-the-banner-indicating-maintenance-is-in-progress)
+
+```sh
+../util/set-notice.sh none
+```
+
 5. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
 
 ## In-place updates
