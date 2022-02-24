@@ -15,13 +15,22 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ### SOC2 compliance processes
 
-TODO pr-auditor, test plans
+A new bot, `pr-auditor`, is now live in `sourcegraph/sourcegraph` and is rolling out to [a number of other repositories](https://k8s.sgdev.org/users/robert/batch-changes/pr-auditor-rollout) that houses code that reaches customers. `pr-auditor` will add status checks on your pull requests when you edit descriptions to indicate whether or not it has detected a "test plan" within your pull request description. If a "test plan" is not provided by the time a PR is merged, an issue will be created in [the `sec-pr-audit-trail` repository](https://github.com/sourcegraph/sec-pr-audit-trail/issues) requesting that the PR author document a test plan, or provide a reason for the exception. This serves as an audit log to help us achieve these two SOC2 control points:
 
-https://github.com/sourcegraph/sourcegraph/pull/30278
+> **GN-104** Code changes are systematically required to be peer-reviewed and approved prior to merging code into the main branch.
 
-https://docs.sourcegraph.com/dev/background-information/testing_principles
+<span class="virtual-br">
 
-https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=
+> **GN-105** Application and infrastructure changes are required to undergo functional, security, unit, integration, smoke, regression, and SAST testing prior to release to production.
+
+**What is a test plan?** A test plan is denoted by content following `# Test plan`, `Test plan:`, `### Test Plan:`, etc. within a pull request description. All pull requests must provide test plans that indicate what has been done to test the changes being introduced. Testing methodologies could include:
+
+- [Automated testing](https://docs.sourcegraph.com/dev/background-information/testing_principles#automated-tests), such as unit tests or integration tests
+- [Other testing strategies](https://docs.sourcegraph.com/dev/background-information/testing_principles#other-testing-strategies), such as manual testing, providing observability measures, or implementing a feature flag that can easibly be toggled to limit impact
+
+**Pull request reviews are now also required by default**. Branch protections have been enabled in `sourcegraph/sourcegraph`. In other repositories with `pr-auditor` review checks must be opted out of by including `No review required: ...` within a pull request's test plan.
+
+To learn more, refer to [our updated testing guidance](https://docs.sourcegraph.com/dev/background-information/testing_principles). You can find DevX SOC compliance documentation by control point in [this search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=). If you have any questions or feedback, please do not hesitate to reach out in #dev-experience or in our [GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)!
 
 ### Internal tools and libraries
 
