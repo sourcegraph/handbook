@@ -48,7 +48,7 @@ While [decisions should be made eagerly](../communication/decisions.md), this do
 
 #### Be iterative
 
-We try to ship small things fast, instead of big things slowly. Being iterative allows us to avoid unecesary long planning, avoid deadlocks, and derisk what we do faster, increasing the value we create for customers. Postponing shipping things leads to them being outdated, creates complexity in managing what's not been shipped, and delays learning.
+We try to ship small things fast, instead of big things slowly. Being iterative allows us to avoid unnecessarily long planning, avoid deadlocks, and derisk what we do faster, increasing the value we create for customers. Postponing shipping things leads to them being outdated, creates complexity in managing what's not been shipped, and delays learning.
 Discussions around large changes tend to be slow and deadlock, whereas small steps are much more likely to lead to a decision. It's always easier to re-evaluate after we have learnt by taking a first step.
 
 Having a strong vision and strategy allows us to be iterative: it gives us the framework that we need to move in the right direction, and allows us to plan less and iterate faster instead.
