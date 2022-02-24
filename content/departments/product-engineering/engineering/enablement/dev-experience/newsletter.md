@@ -145,10 +145,10 @@ We will soon be rolling out stateless Buildkite agents to all pipeline builds.
 These should improve the stability and reliability of all pipelines by removing any issues that might be caused by lingering state from other builds.
 Learn more in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c40213922476f9)! ([#31003](https://github.com/sourcegraph/sourcegraph/issues/31003))
 
-#### Improvements on the `server` and `gitserver` Docker images building
+#### Optimizations
 
-After the addition of `p4-fusion` artifacts, the `gitserver` Docker image build time increased to 4 minutes to complete, which also impacted the `server` image. It has been fixed by caching the resulting binary, which brought
-the build time for `gitserver` down to about 40 seconds, thanks to [#31317](https://github.com/sourcegraph/sourcegraph/pull/31317).
+- **Improvements on the `server` and `gitserver` Docker images building:** after the addition of `p4-fusion` artifacts, the `gitserver` Docker image build time increased to 4 minutes to complete, which also impacted the `server` image. It has been fixed by caching the resulting binary, which brought the build time for `gitserver` down to about 40 seconds, thanks to [#31317](https://github.com/sourcegraph/sourcegraph/pull/31317).
+- **`go-mockgen` is now much faster:** a misconfiguration was causing `go-mockgen` to be downloaded multiple times throughout a `go generate` run. This has been fixed, and run times for `go generate` is now much faster ([#31597](https://github.com/sourcegraph/sourcegraph/pull/31597)).
 
 ### Local development
 
