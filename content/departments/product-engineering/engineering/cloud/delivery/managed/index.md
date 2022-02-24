@@ -27,20 +27,15 @@ After [determining a managed instance is what a customer/prospect wants](https:/
 2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
 
 ## SLAs for managed instances
-Support SLAs for Sev 1 and Sev 2 can be found [here](https://handbook.sourcegraph.com/departments/support/#slas).  Other engineering SLAs are listed below
 
-| | Description | Response time | Provide LOE | Resolution time |
-| --- | --- | --- | --- | --- |
-| New instance Creation | Spin up new instance for a new customer | Within 24 hours of becomeing aware of the need | Within 2 weeks to provide LOE (leve of effort) | Within 10 working days from agreement |
-| New Feature Request | Feature request from new or existing customers | Within 24 hours of becoming aware of the need |  Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
-| Maintenance: Monthly Update to latest release | Updating an instance to the latest release | NA | | Within 1 week after latest release |
-| Maintenance: patch/emergency release Update | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release |
+Support SLAs for Sev 1 and Sev 2 can be found [here](https://handbook.sourcegraph.com/departments/support/#slas). Other engineering SLAs are listed below
 
-
-
-
-
-
+|                                               | Description                                            | Response time                                  | Provide LOE                                                      | Resolution time                                                 |
+| --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becomeing aware of the need | Within 2 weeks to provide LOE (leve of effort)                   | Within 10 working days from agreement                           |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             |                                                                  | Within 1 week after latest release                              |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release                    |
 
 ## Technical details
 
@@ -69,7 +64,7 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **VM/SSH access**: Only Sourcegraph personnel will have access to the actual GCP VM, this is done securely through GCP IAP TCP proxy access only. Sourcegraph personnel can make changes or provide data from the VM upon request by the customer.
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the:w
- Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
+  Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
 
 ### Access
 
