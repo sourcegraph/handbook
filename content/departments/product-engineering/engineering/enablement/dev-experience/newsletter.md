@@ -143,7 +143,7 @@ This now also supports run types that require arguments, such as `docker-images-
 
 We will soon be rolling out stateless Buildkite agents to all pipeline builds.
 These should improve the stability and reliability of all pipelines by removing any issues that might be caused by lingering state from other builds.
-Learn more about this in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c40213922476f9)! ([#31003](https://github.com/sourcegraph/sourcegraph/issues/31003))
+Learn more in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c40213922476f9)! ([#31003](https://github.com/sourcegraph/sourcegraph/issues/31003))
 
 ### Local development
 
