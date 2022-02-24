@@ -60,3 +60,10 @@ To create a new initiative, go to the [new issue screen](https://github.com/sour
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
 - [Product team tools](tools/index.md)
+
+### Deprecated
+
+A list of deprecated documents and processes that we keep for historical reasons.
+
+- [Key accounts deck](https://docs.google.com/presentation/d/18hw513mX3ssA9isQdGdnmrt5-BIN4TRMpjkSaodTEuw/edit#slide=id.gf03521df2b_0_0) (internal only)
+
