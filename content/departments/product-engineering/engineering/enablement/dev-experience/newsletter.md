@@ -175,6 +175,8 @@ It now powers the Docker check in CI as well! ([#31217](https://github.com/sourc
 
 `sg setup` now features an overhauled checks system to make sure your dev environment is ready to go ([#29849](https://github.com/sourcegraph/sourcegraph/pull/31055)).
 
+`sg setup` now supports Ubuntu as a first class citizen and provides automated installation ([#31312](https://github.com/sourcegraph/sourcegraph/pull/31312)).
+
 ## Jan 10, 2022
 
 Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
