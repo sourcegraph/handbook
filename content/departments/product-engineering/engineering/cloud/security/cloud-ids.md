@@ -17,7 +17,7 @@ _Note: Google recommends only setting up Cloud IDS endpoints in projects that ar
 1. Make the proper resource naming modifications to the terraform file and update the `google_compute_network` data resource to the network you wish to monitor.
 1. Run a `terraform init` to initalize terraform and then run a `terraform plan` (you should see 6 new resources being created).
 1. If everything looks as expected you can run `terraform apply`. Please note this may need to be executed twice if the Service Networking API is being enabled for the first time (there is a delay which can cause part of the terraform to fail). If this happens wait 5 minutes and run another apply.
-1. When the terraform finishes you will need to wait approximently 15-20 minutes for the IDS endpoint to be created. This can be confirmed by searching for `cloud ids` in GCP under your project and selecting the `endpoint tab`.
+1. When the terraform finishes you will need to wait approximently 15-20 minutes for the IDS endpoint to be created in GCP. This can be confirmed by searching for `cloud ids` in GCP under your project and selecting the `endpoint tab`.
 
 _Note: Due to lack of support creating the IDS endpoint directly in terraform isn't possible so we used a work around. The remaining steps must be done outside of terraform._
 
