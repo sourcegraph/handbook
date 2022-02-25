@@ -4,3 +4,7 @@ WIP document to list Security tools/process and their documentation. Sensitive i
 
 - [Blocking IPs in Cloudflare](https://docs.google.com/document/d/17FV8pjbJNrhAtW9lvGIbJ1jSkXe0mRw4ci7w0084RBE/edit#heading=h.jpz7uaphhdtk)
 - [Cloud IDS](../cloud-ids.md)
+
+## CI/CD Pipeline Vulnerability Scanning
+
+- We are currently using Checkov.io to [scan our IaC](../checkov.md) and [Trivy](../trivy.md) to scan containers.
