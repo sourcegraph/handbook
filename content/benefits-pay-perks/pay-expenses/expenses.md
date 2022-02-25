@@ -6,7 +6,7 @@ Generally, you should feel free to spend in ways that are in the best interest o
 
 ## Submit expenses every month
 
-Teammates should submit expenses at the end of every month, ideally in a single report (if US based) or invoice (if based outside the US) for the full month.
+Teammates should submit expenses at the end of every month.
 
 We prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses before the month ends simplifies our jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
 
@@ -14,7 +14,9 @@ Any expenses more than 90 days old require approval by Finance.
 
 ## US based teammates
 
-You will receive an invitation via email to our Expensify organization during your first week, please sign up using that link. (Please do not sign up manually, this will create an account but it will not be associated with the proper organization or expense policy and will result in delayed reimbursements). If you do not have an invite to Expensify within your first week, please contact People Ops. You will need to link a bank account to Expensify.
+Reimbursement requests are processed on Airbase, which can be accessed via Okta. You will need to add your banking information into Airbase. All expenses will first be routed to your direct manager and then to Accounting for approval. Expect a 7-10 day turn around on receiving reimbursements.
+
+[Reimbursements Help](https://help.airbase.com/hc/en-us/articles/360057207871-Overview-of-Reimbursements-)
 
 ## Teammates using Velocity Global
 
