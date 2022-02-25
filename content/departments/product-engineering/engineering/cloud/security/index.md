@@ -27,7 +27,7 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 ## Security Tooling
 
-See [tooling](./tooling/index.md) for a list of active tools we use.  
+See [tooling](./tooling/index.md) for a list of active tools we use.
 
 ---
 
