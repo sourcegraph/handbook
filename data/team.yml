@@ -2739,3 +2739,13 @@ michael mcmahan:
   reports_to: vp_sales_western_region
   location: Austin, TX, USA 🇺🇸
   description: Michael lives in Austin with his partner Danielle and their two dogs Lucy and Lady. He has spent the last 3 years of his career helping build A Cloud Guru, a cloud focused edtech startup. He is passionate about self development and loves to learn about technology, fitness, and investing. Outside of work and self improvement Michael can be found enjoying live music around Austin or watching his Pacers/Colts/Hoosiers play.
+
+justin dorfman:
+  name: Justin Dorfman
+  role: Open Source Program Manager
+  reports_to: director_community
+  location: Los Angeles, CA, USA 🇺🇸
+  github: jdorfman
+  email: justin.dorfman@sourcegraph.com
+  links: '[Twitter](https://twitter.com/jdorfman), [LinkTree](https://linktr.ee/jdorfman)'
+  description: Justin is responsible for fostering the adoption of universal code search in the open source community. Previously, he led similar initiatives for Curifense (a CNCF project), Gitcoin, & MaxCDN. He has contributed to Bootstrap, Font Awesome, jQuery, Nginx, GNU Bash, and many more. He also serves on the Open Source Collective board of directors. In 2017, he co-founded SustainOSS, which hosts events and podcasts for Open Source Software Sustainers.
