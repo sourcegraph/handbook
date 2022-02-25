@@ -58,7 +58,7 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Growth plan
 
-We are looking to add one [experienced full-stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4179711004) to our team to help us grow our product in FY22 Q4.
+We are looking to add one [experienced full-stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4179711004) to our team to help us grow our product in FY23 Q1.
 
 ## Onboarding
 
