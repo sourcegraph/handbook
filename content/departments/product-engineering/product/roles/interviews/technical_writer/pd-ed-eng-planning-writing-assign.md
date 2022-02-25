@@ -1,6 +1,6 @@
-# Project planning, stakeholder, and SME interaction assignment [1-2hr (async), 30min (interview)] 
+# Project planning, stakeholder, and SME interaction assignment [1-2hr (async), 30min (interview)]
 
-The goal with this assignment is to see if the candidate can think about how they would need to organize this project, and why they made certain decisions. It’s also an opportunity to interact with the individual in a more typical scenario. 
+The goal with this assignment is to see if the candidate can think about how they would need to organize this project, and why they made certain decisions. It’s also an opportunity to interact with the individual in a more typical scenario.
 
 For example, can the candidate respond to feedback, does the candidate have other questions. While exposure to cloud/container deployments is desired, we’re also looking for the aptitude to think critically and consider what the customer is looking to accomplish.
 
@@ -8,7 +8,7 @@ During the interview, the panel may explore the candidate's knowledge in this sp
 
 ## Scenario 1: Deployment
 
-Sourcegraph has identified that a number of our large customers are experiencing difficulty with self-hosted deployments (on-prem). This can be attributed to a number of points including too much detail in current docs (it covers all the cases) and the fact that skills can vary from customer to customer. 
+Sourcegraph has identified that a number of our large customers are experiencing difficulty with self-hosted deployments (on-prem). This can be attributed to a number of points including too much detail in current docs (it covers all the cases) and the fact that skills can vary from customer to customer.
 
 Because of this, the Customer Engineering team has asked for a best practices guide they can pass along to customers looking to self-host Sourcegraph. The team has also provided a few topics (see below) and asked that you put together a basic project plan (1 page or less) that includes a high-level outline for the guide. In addition, they’re looking for you to include the resources you’ll need to be successful, subject matter experts you’ll need access to, how long you expect the project to take, and how you will define/measure success.
 
@@ -52,15 +52,15 @@ Feel free to review our existing docs for installation and deployment best pract
 
 ## Scenario 2: CodeGraph Search
 
-The Support team at Source graph has identified an increase in tickets related to users being unable to find precise pieces of code. While there is no bug at the root of these requests, we have discovered that a number of our new users are only using literal search.  
+The Support team at Source graph has identified an increase in tickets related to users being unable to find precise pieces of code. While there is no bug at the root of these requests, we have discovered that a number of our new users are only using literal search.
 
 Because the true power of Sourcegraph is ultimately realized by using more advanced search options such as regex and structural, the Support team has asked for a best practices guide they can pass along to developers that may be new to these concepts. They would like the guide to focus on regex, but also provide guidance to future guides related to more advanced search features.
 
 The team has provided a few topics (see below) and asked that you put together a basic project plan (1 page or less) that includes a high-level outline for the guide. In addition, they’re looking for you to include the resources you’ll need to be successful, subject matter experts you’ll need access to, how long you expect the project to take, and how you will define/measure success.
 
-We expect this assignment to take no more than 2 hours, but are providing one week to accommodate your schedule. If you need additional time, please let us know. 
+We expect this assignment to take no more than 2 hours, but are providing one week to accommodate your schedule. If you need additional time, please let us know.
 
-When you are done, submit your project plan to the hiring manager, and we will schedule an interview session with the hiring manager and a relevant stakeholder you would be working with in this role. 
+When you are done, submit your project plan to the hiring manager, and we will schedule an interview session with the hiring manager and a relevant stakeholder you would be working with in this role.
 
 During this session, we’ll go over your project plan and ask questions about your process. Our goal here is not to ensure you got everything right, but that you have exposure to these concepts, and can talk about how you would organize this project.
 
@@ -77,6 +77,7 @@ During this session, we’ll go over your project plan and ask questions about y
   - Symbols
 
 ### Key questions:
+
 - What is literal search?
 - Why is there more than one search option/approach?
 - What advantages are provided by regex?
@@ -91,8 +92,7 @@ Feel free to review our existing docs related to search and deployment best prac
 - Did the candidate create a logical flow for the guide, what reasoning did they give for their approach?
 - Did the candidate point out any vagueness in the assignment, did they have solutions on how that might be addressed?
 - Did the candidate express the type of SMEs they would need access to, for example, did they show understanding that someone in Product, Engineer, or Support would likely have the relevant information?
-start a process to figure that out.
+  start a process to figure that out.
 - Does the candidate indicate openness and willingness to learn these concepts, even if they don’t currently have expertise or exposure in this area?
 - What analytics or metrics did the candidate indicate would be ideal for measuring success?
 - How long does the candidate believe the project will take, and could they provide justification for their answer?
-
