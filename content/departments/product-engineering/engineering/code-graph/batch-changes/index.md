@@ -56,6 +56,159 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 {{generator:product_team.batch_changes}}
 
+<section>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#sara-lee" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/malo.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Sara Lee</div>
+        <div style="text-align: center; font-size: 12px;">Product Designer (Integrations)</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#murat-sutunc" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/malomarrec.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Murat Sutunc</div>
+        <div style="text-align: center; font-size: 12px;">Engineering Manager</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#beatrix-woo" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Beatrix Woo</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#erzhan-torokulov" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Erzhan Torokulov</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#tharuntej-kandala" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">TJ Kandala</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#philipp-spiess" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of Philipp Spiess" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Philipp Spiess</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#rob-rhyne" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/rob-rhyne.png" alt="Picture of Rob Rhyne" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Rob Rhyne</div>
+        <div style="text-align: center; font-size: 12px;">Temporary Product Manager and Product Designer (Growth)</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#stephen-gutekanst" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/stephen-gutekanst.png" alt="Picture of Stephen Gutekanst" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Stephen Gutekanst</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#david-veszelovszki" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of David Veszelovszki" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">David Veszelovszki</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#taras-yemets" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/taras.png" alt="Picture of Taras Yemets" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Taras Yemets</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#ryan-scott" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/ryan.png" alt="Picture of Ryan Scott" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Ryan Scott</div>
+        <div style="text-align: center; font-size: 12px;">Product Manager (Integrations)</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of N.K." style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">N.K.</div>
+        <div style="text-align: center; font-size: 12px;">Engineer</div>
+        <div style="text-align: center; font-size: 12px;">(starting 04/11)</div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div style="text-align: center;">
+          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4068101004?t=c685479c4us" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Join Us!</div>
+        <div style="text-align: center; font-size: 12px;">Product Manager (Growth)</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
 ## Growth plan
 
 We are looking to add one [experienced full-stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4179711004) to our team to help us grow our product in FY22 Q4.
