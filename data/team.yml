@@ -203,7 +203,7 @@ geoffrey_gilmore:
 farhan_attamimi:
   name: Farhan Attamimi
   role: Senior Data Operations Analyst
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   location: Singapore 🇸🇬
   github: attfarhan
   email: farhan@sourcegraph.com
