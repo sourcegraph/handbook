@@ -23,3 +23,9 @@ _Note: Due to lack of support creating the IDS endpoint directly in terraform is
 
 1. Modify the following command to use your IDS endpoint, project, and zone `gcloud alpha ids endpoints describe <IDS_ENDPOINT_NAME> --project=<PROJECT_ID> --zone=<us-central1-b> | grep 'endpointForwardingRule' | cut -d ' ' -f 2`. Run the command and copy the exported endpoint forwarding rule.
 1. The final step is to setup packet mirroring from the network being monitored to the IDS endpoint using the above forward rule. Modify and run the following command `gcloud compute packet-mirrorings create <POLICY_NAME>-mirror --region=<us-central1> --collector-ilb=<ENDPOINT_FORWARDING_RULE> --network=<NETWORK_TO_MONITOR> --mirrored-subnets=<SUBNET(S)_TO_MONITOR>`.
+
+Within a few minutes to hours (depending on the amount of malicious traffic being generated) you should start seeing Cloud IDS populating.
+
+<div style="text-align: center; margin-bottom: 1rem">
+  <img src="https://storage.googleapis.com/sourcegraph-assets/cloud-ids.png" width="80%" alt="Cloud IDS Example">
+</div>
