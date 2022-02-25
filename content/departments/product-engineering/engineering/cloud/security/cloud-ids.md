@@ -13,7 +13,7 @@ This shouldn't impact other teams at all. As it's currently configured the IDS d
 _Note: Google recommends only setting up Cloud IDS endpoints in projects that are outside perimeters. Cloud IDS is not supported by [VPC Service Controls](https://cloud.google.com/vpc-service-controls/)_
 
 1. Git clone a local copy of the [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security).
-1. Copy the ids.tf file from another project directory in the repository (projects with IDS enabled will have it).
+1. Copy the ids.tf file from another project directory in the repository (projects with IDS enabled will have it) to your project.
 1. Make the proper resource naming modifications to the terraform file and update the `google_compute_network` data resource to the network you wish to monitor.
 1. Run a `terraform init` to initalize terraform and then run a `terraform plan` (you should see 6 new resources being created).
 1. If everything looks as expected you can run `terraform apply`. Please note this may need to be executed twice if the Service Networking API is being enabled for the first time (there is a delay which can cause part of the terraform to fail). If this happens wait 5 minutes and run another apply.
