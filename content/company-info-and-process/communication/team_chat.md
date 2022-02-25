@@ -90,6 +90,7 @@ If teams require additional channels they should follow the convention of prefix
 - #handbook - Updates to and discussion of [this handbook](../../index.md)
 - #handbook-updates - Github updates from the Handbook repo.
 - #handbook-announce - Announcement of important changes to the Handbook.
+- #wine-beer-spirits - A place to share stuff about ethanol in its many forms.
 
 ### Employee Resource/Identity
 
