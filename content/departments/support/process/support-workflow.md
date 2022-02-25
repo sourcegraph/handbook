@@ -58,7 +58,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
     1. New = the case has not yet been triaged
     2. Open = an application engineer has not yet taken responsibility (it's a new case) or an application engineer is accountable for the next step
     3. Pending = the customer is accountable for the next step
-    4. On-hold = it's a defect and we are waiting for engineering to fix it
+    4. On-hold = there is no further action with the customer and the next step is internal only OR (in very rare cases), when the customer asks us to hold off due to leave, etc
     5. Solved = the issue is resolved as described above
     6. Closed = the final state (solved tickets move to this status automatically after 16 business hours)
 

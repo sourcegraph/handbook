@@ -2538,7 +2538,7 @@ michael_lin:
   name: Michael Lin
   pronouns: he/him
   location: Richmond, BC, Canada 🇨🇦
-  role: Software Engineer, DevOps
+  role: Software Engineer, Delivery
   reports_to: engineering_manager_delivery
   email: michael.lin@sourcegraph.com
   github: michaellzc
@@ -2547,7 +2547,7 @@ michael_lin:
     Michael lives in Richmond, BC with his partner, their bunny [Muse](https://instagram.com/bossbunnymuse), and their standard poodle [Marley](https://instagram.com/marleythemagicpoodle).
     He graduated from the University of Alberta with a BSc in Computer Science.
     Prior to Sourcegraph, he worked on Kubernetes and web stuff at IBM.
-    He is passionate about building tools for developers and has contributed to open source projects such as Linkerd, Percona and better-opn.
+    He is passionate about building tools for developers and has contributed to open source projects such as Linkerd, Percona, vscode-hadolint, and better-opn.
 
 petri_last:
   name: Petri-Johan Last

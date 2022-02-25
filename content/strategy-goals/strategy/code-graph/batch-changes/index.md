@@ -122,10 +122,12 @@ This quarter, we are primarily focusing on improving the value and usability of 
 
 ### Discovery
 
-We have multiple dependencies on other teams that require an explicit plan that we will start scoping out this quarter. In particular:
+This quarter, we want to run discovery on a few threads, including to clear dependencies on other teams:
 
 1. Server-side batch changes is not available yet on managed instances, because we have no way to bill for variable compute costs. By the end of the quarter, we want to have a plan and timeline to address that. ([Private RFC](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18/edit#heading=h.trqab8y0kufp))
+1. Getting changesets merged is critical to our [#enterprise-scale] theme. We are currently investigating how to improve this [#31691](https://github.com/sourcegraph/sourcegraph/issues/31691).
 1. We want to start discovery and planning for integrating Batch Changes with another feature (eg. create a batch change from a search result, a Code Insight, or a Code Monitor), to set the stage for a full-fledged workflow next quarter.
+1. We are collecting detailed data on what batch changes customers run, in order to inform creating sample batch changes specs, or potentially codemod tooling. See (private) [insights](https://sourcegraph.productboard.com/feature-board/2104383-batch-changes)
 
 ## What we are not working on
 
