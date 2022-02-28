@@ -15,6 +15,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 - [How to Sell Cloud](sellcloud.md)
 - [Price and Incentives](https://docs.google.com/document/d/1jGzr_kERkn397X8v2Juyf0JSYvI6uQCZihN7dYjoO8w/edit?usp=sharing)
 - [Best Practices](#best-practices)
+  - [Customer Engagment Process](#customer-engagement-process)
   - [Meetings](#meetings)
   - [Keys to Discovery](#keys-to-discovery)
   - [Mutual Action Plan (MAP)](#mutual-action-plan)
@@ -51,6 +52,9 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 ## Best Practices
 
+### Customer Engagement Process
+The [Customer Engagement Process (CEP)]((https://docs.google.com/spreadsheets/d/1BEs9Bi0Bdi7tsPHX22G4WVZnMBhrEFslhJpkCkEOZvI/edit?usp=sharing)) details what is required for a deal to be forecasted in a given stage. Please make note of this as you forecast your deals. You will be held to account for it.
+
 ### Meetings
 
 1. Before the first meeting:
@@ -82,6 +86,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
        - Update the 3 Why's; make note of anything that you can not satisfactorily address as you will need to find answers on the next call
      - Execute your next steps, calendar invite, summary email and agenda etc.
    - If you send a calendar invite, make sure to include an agenda for the meeting.
+   - Should you update the stage of the deal? Please make sure your deal is aligned with the [Commercial Customer Engagement Process](https://docs.google.com/spreadsheets/d/1BEs9Bi0Bdi7tsPHX22G4WVZnMBhrEFslhJpkCkEOZvI/edit?usp=sharing)
 
 ### Keys to Discovery
 
