@@ -112,7 +112,7 @@ See our [process docs](process/index.md).
 
 ## Accounting
 
-We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more.
+Our internal Accounting team closes the books monthly and produces our financial statements. We also process payables, prepare taxes, file corporate registrations, and more.
 
 Reach out to the [Finance team](#team) for an introduction if needed.
 

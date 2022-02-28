@@ -25,6 +25,10 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 - New members [onboarding guide](./security-onboarding.md)
 
+## Security Tooling
+
+See [tooling](./tooling/index.md) for a list of active tools we use.
+
 ---
 
 ## Responsibilities
@@ -57,12 +61,6 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 - We are improving our internal security training for developers
 - We have a security ambassador program where a security engineer is involved in the early stages of the design of new features to give input and help identifying potential weaknesses of the product
 - We have developed a new vulnerability management process which will limit the number of open vulnerabilities as we will have a much closer follow up with a new SLA
-
----
-
-## CI/CD Pipeline Vulnerability Scanning
-
-- We are currently using Checkov.io to [scan our IaC](./checkov.md) and [Trivy](./trivy.md) to scan containers.
 
 ## How to work with us
 
@@ -258,4 +256,4 @@ and the underlying [risk management process](security-risk-management-process.md
 
 # Misc Links
 
-- [Code Ownership Matrix] - (../../process/engineering_ownership.md)
+- [Code Ownership Matrix](../../process/engineering_ownership.md)
