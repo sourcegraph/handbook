@@ -19,7 +19,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 - Deployments methods (e.g. docker, kustomize, helm)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Managed instances](./managed/index.md)
-- ~~[Sourcegraph releases](../../process/releases/index.md)~~ releases are owned by the [release guild](../../process/releases/release_guild)
+- ~~[Sourcegraph releases](../../process/releases/index.md)~~ releases are owned by the [release guild](../../process/releases/release_guild.md)
 - Deployment configuration and configuration orchestration ([Kustomize](https://docs.sourcegraph.com/admin/install/kubernetes))
 
 ## Contact
@@ -29,11 +29,11 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Support
 
-If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). Delivery teammates shold consult our [on-call rotation](./processes#on-call-rotation) guide to handle inquiries.
+If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). Delivery teammates shold consult our [on-call rotation](./processes.md#on-call-rotation) guide to handle inquiries.
 
 ### Requesting our support
 
-Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack.
+Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack. As a rule of thumb, anything that is not documented in our handbook or [docsite](https://docs.sourcegraph.com/) usually indicates it is not a simple question (e.g. feature requests) and should follow our [support request guidelines](./#support-request-guidelines) below.
 
 - This channel _is_ regularly checked and well-monitored
 - So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
