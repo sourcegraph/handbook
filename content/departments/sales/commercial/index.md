@@ -53,6 +53,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 ## Best Practices
 
 ### Customer Engagement Process
+
 The [Customer Engagement Process (CEP)](https://docs.google.com/spreadsheets/d/1BEs9Bi0Bdi7tsPHX22G4WVZnMBhrEFslhJpkCkEOZvI/edit?usp=sharing) details what is required for a deal to be forecasted in a given stage. Please make note of this as you forecast your deals. You will be held to account for it.
 
 ### Meetings
