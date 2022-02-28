@@ -30,8 +30,8 @@ Finally, it's your responsibility to ensure a smooth transition to the next engi
 The following channels/boards should be checked at least _once a day_:
 
 - #security
-- #security-monitoring
 - #security-internal
+- #security-monitoring
 - Messages that tag @security-team or @security-support
 - GitHub notifications tagging @security
 - security@sourcegraph.com email
