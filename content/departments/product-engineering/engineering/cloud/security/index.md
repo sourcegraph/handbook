@@ -188,14 +188,6 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Growth
-   </td>
-   <td>Mohammad
-   </td>
-  </tr>
-  <tr>
-   <td>Cloud
-   </td>
    <td>Growth and Integrations
    </td>
    <td>David
