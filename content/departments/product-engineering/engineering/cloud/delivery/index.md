@@ -19,7 +19,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 - Deployments methods (e.g. docker, kustomize, helm)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
 - [Managed instances](./managed/index.md)
-- ~~[Sourcegraph releases](../../process/releases/index.md)~~ releases are owned by the [release guild](../../process/releases/release_guild.md)
+- ~~[Sourcegraph releases](../../process/releases/index.md)~~ releases are owned by the [Release Guild](../../process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 - Deployment configuration and configuration orchestration ([Kustomize](https://docs.sourcegraph.com/admin/install/kubernetes))
 
 ## Contact
