@@ -28,7 +28,7 @@ If complex problems surface during this step, an RFC can be created to frame the
 
 ## Testing
 
-The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. Security is evaluated through automated vulnerability scanning and SAST during continuous integration and warns the developers of vulnerabilities without failing the build.
+The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. Security is evaluated through automated [vulnerability scanning and SAST](../../product-engineering/engineering/cloud/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during continuous integration.
 
 If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
 
