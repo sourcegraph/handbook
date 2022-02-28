@@ -13,7 +13,7 @@ code_reuse:
   link: /strategy-goals/strategy/use_cases/code_reuse
   sponsors:
     product: taylor_sperry
-    engineering: jason_yavorska
+    engineering: robert_lin
     design: jason_yavorska
 
 code_health:
