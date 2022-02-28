@@ -28,7 +28,7 @@ After [determining a managed instance is what a customer/prospect wants](https:/
 
 ## SLAs for managed instances
 
-Support SLAs for Sev 1 and Sev 2 can be found [here](https://handbook.sourcegraph.com/departments/support/#slas). Other engineering SLAs are listed below
+Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/index.md#slas). Other engineering SLAs are listed below
 
 |                                               | Description                                            | Response time                                  | Provide LOE                                                      | Resolution time                                                 |
 | --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
