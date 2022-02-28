@@ -1471,6 +1471,19 @@
           49.18813918271655
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michelle Veronese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.548271,
+          -121.988571
+        ]
+      }
     }
   ]
 }

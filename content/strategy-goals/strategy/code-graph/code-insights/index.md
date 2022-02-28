@@ -2,17 +2,19 @@
 
 Code Insights is an upcoming product that lets you track and understand what's in your code and how it changes over time.
 
-This page outlines the vision, strategy, and goals of the Code Insights team.
+This page outlines the vision, strategy, and goals of the Code Insights team over the next year or so.
 
 Quick links:
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) (private until GA)
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - Latest demo – private since the product is in beta; slack the #code-insights team or email feedback@sourcegraph.com if you're curious!
 - [Product Marketing Brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) (internal only)
 - Documentation - ask in #code-insights (internal) or your Sourcegraph contact (external)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Code+insights%22)
 
 ## Mission, Vision, and Guiding Principles
 
@@ -123,11 +125,11 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ## Where we are now
 
-Code Insights is a [Beta Feature](../../../../departments/product-engineering/product/process/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will likely launch to General Availability in FY23Q1.
+Code Insights is a [Beta Feature](../../../../departments/product-engineering/product/process/beta_and_experimental_feature_labels.md). It entered Beta in August 2021, and will launch to General Availability in FY23Q1.
 
 This means that the Code Insights team is singularly focused on bringing Code Insights into general availability. To reach that goal, Code Insights will be building stability, features, and core product experiences based on the feedback we get from our beta participants.
 
-During the Beta, we are also evaluating pricing and packaging options. It is likely Code Insights will be a standalone feature with its own pricing. The current pricing and packaging proposal is [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
+After the Beta, Code Insights will be a standalone feature with its own pricing. The pricing and packaging details are [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
 
 For what we have learned so far and how we are operationalizing those learnings, see [Strategy](#strategy-and-plans).
 
@@ -145,7 +147,7 @@ There are no other products that can efficiently and effectively provide the dee
 
 There may be one-off instances of companies that have glued together in-house solutions to answer some of the same problems, but we have already validated (thus far) every one of those companies would prefer to use Code Insights.
 
-While Code Insights is in Beta, you can find a detailed breakdown of "similar" products in the original [Product Document for Code Insights](https://docs.google.com/document/d/1d34gCpt_rUOMAun8phcjNsFofGaaA_N_8znmgaugdKw/edit#bookmark=id.pobwla63lsa7). At some moment pre-GA launch, the product and marketing team will create more standard competitive resources based on the GA product features and merge them into this page.
+While Code Insights is in Beta, you can find a detailed breakdown of "similar" products in the original [Product Document for Code Insights](https://docs.google.com/document/d/1d34gCpt_rUOMAun8phcjNsFofGaaA_N_8znmgaugdKw/edit#bookmark=id.pobwla63lsa7). During the launch process, the product and marketing team will create more standard competitive resources based on the GA product features and merge them into this page.
 
 ## Detailed Strategy and Plans
 
@@ -155,9 +157,9 @@ The next six months are focused on building a product that can quickly prove out
 
 ### Goals
 
-#### FY22q4
+These are the goals we plan to fully complete by the end of Q1 FY23:
 
-- KR 1: 1 customer is committed to paying for Code Insights at launch
+- KR 1: 10 customers have purchased Code Insights in FY23Q1
 
 _See also [completed goals](../../../../departments/product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
 
@@ -171,7 +173,7 @@ We will:
 
 - Continue abstracting complexity (example: views vs tables) unless necessary to expose it
 - Build new setup features to make it easier to track a variety of other use cases, like with regex capture groups
-- Explore what quick-to-set-up insights might be possible the first moment a customer uses insights
+- Explore what quick-to-set-up insights might be possible the first moment a customer uses insights with templates
 
 #### Tracking Use Case Needs
 

@@ -2,15 +2,13 @@
 
 ## Support
 
-Support for Delivery is in a state of transition. In in doubt about the process, please do ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
-
-The following is true as of 2021-10-06.
+If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
 ### Requesting our support
 
 Feel free to direct simple questions to us in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) in Slack.
 
-- This channel _is_ regularly checked and well monitored
+- This channel _is_ regularly checked and well-monitored
 - So please do **NOT** directly message or CC an engineer—this is to try and protect their focus
 - Instead, if it’s urgent, please @ either the PM or the EM in the question in the channel and we'll ensure it gets the best response
 
@@ -51,9 +49,15 @@ We still work in 2 week cycles, and have the following ceremonies:
 3. Retro (biweekly)
    - A review of what we did for learing purposes
 
+### On-Call Rotation
+
+The Delivery team has a weekly on-call rotation where the Engineer On-Duty will respond to managed instance alerts, monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
+
+More information about the [Delivery Team's On-Call Rotation can be found here](./on-call.md).
+
 ## Issue tracking
 
-The [Delivery GitHub project](https://github.com/orgs/sourcegraph/projects/205) is the single source of truth. Our Kanban board on GitHub projects consists of the following columes
+The [Delivery GitHub project](https://github.com/orgs/sourcegraph/projects/205) is the single source of truth. Our Kanban board on GitHub projects consists of the following columns:
 
 - [Needs More Info](#needs-more-info)
 - [Icebox](#icebox)

@@ -6,10 +6,10 @@ Tech Ops will source the current trade-in or fair market value of the device and
 
 Steps for processing a purchase:
 
-1. Sumbit a [buyback request form](https://docs.google.com/forms/d/e/1FAIpQLScOHJDHYHdmbggRni0NWcg-vn_h0XYc6GrdM4RYlcjxhtirEg/viewform)
+1. Submit a [buyback request form](https://docs.google.com/forms/d/e/1FAIpQLScOHJDHYHdmbggRni0NWcg-vn_h0XYc6GrdM4RYlcjxhtirEg/viewform)
 2. Tech Ops will inform you of the total cost and your portion
 3. Submit payment (via check or Paypal)
 4. Sign a document accepting ownership of the device ‘as-is’
-5. Tech Ops will remote wiping the device with Workspace One
+5. Tech Ops will remote wipe the device with Workspace One
 
 All devices must be fully wiped by the last day of employment. If teammates are refreshing their laptops we ask that this process, including a full wipe, is completed within two weeks of receiving a new device.

@@ -16,13 +16,11 @@ If you haven't done so already please configure your laptop in accordance with o
 
 **How to Enroll in Workspace One for MacOS and Windows**
 
-You will receive an email invite from **Airwatch** with steps on how to enroll in Workspace One. Below is a short summary of what you’ll need to do. If you do not receive an invitation from Airwatch please reach out in the #it-tech-ops Slack channel.
-
-1. Click the link to download and install the WS One client in the email invite you receive.
-2. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
-3. You should then be prompted for your Okta credentials.
-4. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
-5. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
+1. Go to [getwsone.com](https://getwsone.com/)
+1. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
+1. You should then be prompted for your Okta credentials.
+1. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
+1. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
 
 **What Workspace One Hub will automatically install on the device**
 
@@ -39,13 +37,7 @@ The Hub app will look for a certain set of applications on your computer and pus
 The steps for enrolling your device in WS1 & CB are more manual. Please reach out to Tech Ops for more information.
 
 **Installing Workspace One and Carbon Black on a personal computer**
-You may enroll Workspace One and Carbon Black on as many devices as necessary to ensure our company and client data is protected, including personal devices as long as they are used only as a temporary measure.
-
-1. Go to [getwsone.com](https://getwsone.com/)
-1. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.
-1. You should then be prompted for your Okta credentials.
-1. Follow along with the prompts you receive in WS One to complete the installation. Multiple profiles will be installed on your computer.
-1. After it signs you in, you’ll be brought to a main app page and your work is done! Our antivirus software, Carbon Black, will then begin to download and install in the background.
+You may enroll Workspace One and Carbon Black on as many devices as necessary to ensure our company and client data is protected, including personal devices.
 
 **Removing Workspace One and Carbon Black from a personal computer**
 

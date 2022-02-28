@@ -12,7 +12,7 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
 
 ## Making a referral
 
-Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page.
+Current employees can refer a candidate in Greenhouse by following [these instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page.
 
 ## Preparing for an interview
 
@@ -81,6 +81,7 @@ Once a hiring decision in made, the Hiring Manager is responsible for communicat
 - Post a note in the role's private Slack channel.
 - Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
 - Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
+- Should we proceed to an offer, the Recruiter will then paste that note in the offer details.
 
 If we are _moving forward_ with an offer, the Recruiter will submit the offer details for approval and will schedule and offer summary call.
 

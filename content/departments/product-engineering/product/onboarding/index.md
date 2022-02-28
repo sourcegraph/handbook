@@ -48,7 +48,6 @@ Remember:
 
 - Schedule individual meetings with each person on the [Product team](../team/index.md#current-team)
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
-- Schedule a meeting with the [Head of Customer Support](../../../../team/index.md#virginia-ulrich)
 - Get up to speed on what your team is working on
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
@@ -56,8 +55,6 @@ Remember:
     - [Product design](../design/index.md)
     - [Product process](../process/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
-  - Team sync docs
-    - Your calendar will be automatically populated with your team’s meetings. In the meeting invites, you will find corresponding docs that you should read for context.
 
 ### Set up the basics
 
@@ -80,7 +77,7 @@ Remember:
 ### Get to know our customers
 
 - Watch the [demo videos](../../../ce/onboarding/education.md#trainings-and-demos) & recent Chorus.AI recordings with customers
-- Familiarize yourself with [customer feedback channels](../process/responding_to_user_feedback.md):
+- Familiarize yourself with [customer feedback channels](../process/product_feedback_rotation.md):
   - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions) surveys
   - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
   - Twitter

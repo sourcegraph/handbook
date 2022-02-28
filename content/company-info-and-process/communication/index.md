@@ -3,6 +3,7 @@
 We're an [all-remote](../remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
 - [Decision making at Sourcegraph](decisions.md)
+- [Glossary of terms](../onboarding/glossary.md) we use
 
 ## Sources of truth
 

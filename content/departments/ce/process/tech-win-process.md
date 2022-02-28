@@ -252,10 +252,10 @@ If there are additional questions, the Product Team member can request a synchro
 
 - Responsible for creating the Technical Design Document (TDD) for each new customer.
 - Responsible for identifying any non-standard or high-risk requirements.
+- Responsible for registering Product Gaps against non-standard or high-risk requirements as required.
 - Responsible for communicating with their AE when non-standard or high risk requirements emerge.
 - Responsible for initiating the process to get the TDD reviewed prior to the deal progressing toward deployment or trial.
 - If a request is made for a synchronous review, the CE will schedule and facilitate.
-- Product, Engineering, and Support
 
 ##### Product, Engineering and Support
 

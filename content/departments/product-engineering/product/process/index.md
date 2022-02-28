@@ -4,40 +4,26 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning process](../../process/planning.md) - how we do planning and the artifacts we use to plan.
+- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Surfacing feedaback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
-- [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
+- [The product feedback rotation](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Keeping strategy up to date
+## Product data
 
-Sourcegraph has a top-level [strategy page](../../../../strategy-goals/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
-
-#### OKR and roadmap tracking
-
-See the [Product & Engineering handbook on sharing progress](../../process/reporting-progress.md) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
-
-#### Per-team strategy pages
-
-We also use [per-team strategy pages](../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
-
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../../company-info-and-process/communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
-
-We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
-
-#### Product data
-
-The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).
+Teams should review and update the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/) monthly, in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).
 
 Part of the product data is a (internal-only) list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be manually reviewed and updated as feature capabilities evolve.
 
 ## Glossary
+
+There is also a [company-wide glossary of terms](../../../../company-info-and-process/onboarding/glossary.md) we use, the below are specific to the product team.
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
@@ -48,7 +34,7 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
 - Early access enrollment: Referring to the process of enabling early access for customers or prospects so they can begin using an [Experimental or Beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features) feature.
-- First experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
+- New user experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
 

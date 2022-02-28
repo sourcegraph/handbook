@@ -85,7 +85,7 @@ In order to handle problems with the CI, the following elements are necessary:
          1. [Open a GitHub issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=testing%2Cflake&template=flaky_test.md&title=Flake%3A+%24TEST_NAME+disabled) mentioning the build and the context to explain to the team owning that test what happened.
          1. Checkout the PR branch.
          1. Rebase it so it includes the changes that broke it when merged in the `main` branch.
-         1. Rename the branch to `main-dry-run/your-branch` in order to get the CI to run the same exact checks it does on the `main` branch.
+         1. Create a build using `sg ci build main-dry-run` in order to get the CI to run the same exact checks it does on the `main` branch.
       1. No, but it seems to fail in step or code from another team.
          1. Reach out a member of the team responsible for that test.
          2. go for a. or b. from the previous points.

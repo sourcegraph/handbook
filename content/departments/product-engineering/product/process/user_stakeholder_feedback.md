@@ -35,7 +35,7 @@ The product team can access recordings using [Chorus AI](https://chorus.ai/). Yo
 ### CE feedback
 
 - **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
+- **Owner:** CE owns raising customer or prospect feedback as [product gaps](surfacing_product_feedback.md). Product owns triaging those product gaps, and keeping CE updated about prioritisation decisions, if the items ends up on the roadmap.
 - **Pipeline:** Each time a product gap submission is added to salesforce, it is posted in #feedback, @-mentioning the PM of the relevant product area. This is powered by a [Zap](https://zapier.com/app/editor/145738791).
 
 Other resources (internal only) the CE team owns:
@@ -68,7 +68,7 @@ We have a few different email lists that are used to send us feedback.
 ### GitHub issues
 
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](responding_to_user_feedback.md) is responsible for labelling with the right team.
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](product_feedback_rotation.md) is responsible for labelling with the right team.
 
 See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
@@ -80,7 +80,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
+- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](product_feedback_rotation.md) owns routing and logging this feedback.
 
 ### Support tickets
 
@@ -92,13 +92,13 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 #### NPS Survey
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
-- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/64689250). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack.
+- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding NPS feedback.
+- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/64689250). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack. The CE owner of the deal is also mentioned if they have added their handle to [this spreadhseet](https://docs.google.com/spreadsheets/d/1OnRw9PSuHkw3PdS9DcTFExNEbdUFbjhcSr2iEgGi39k/edit).
 
 #### Happiness widget
 
 - **Purpose:** Users can submit feedback from the `Feedback` button of the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding happiness widget feedback.
+- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding happiness widget feedback.
 - **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/113508746). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains specific keywords, the PM of the relevant area will be automatically @-mentioned on slack.
 
 #### Browser Extension Uninstall Feedback

@@ -220,6 +220,10 @@ search_based_code_intelligence:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: ga
 
 precise_code_intelligence_go:
   title: Precise Code Intelligence for Go
@@ -244,6 +248,10 @@ precise_code_intelligence_go:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: ga
 
 precise_code_intelligence_jsts:
   title: Precise Code Intelligence for JavaScript/TypeScript
@@ -268,6 +276,10 @@ precise_code_intelligence_jsts:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: partial_ga
+    managed_instance: partial_ga
+    cloud: partial_ga
 
 precise_code_intelligence_java_scala_kotlin:
   title: Precise Code Intelligence for Java, Scala & Kotlin
@@ -292,6 +304,10 @@ precise_code_intelligence_java_scala_kotlin:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: ga
 
 precise_code_intelligence_c_cpp:
   title: Precise Code Intelligence for C/C++
@@ -316,6 +332,10 @@ precise_code_intelligence_c_cpp:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: partial_ga
+    managed_instance: partial_ga
+    cloud: partial_ga
 
 precise_code_intelligence_python:
   title: Precise Code Intelligence for Python
@@ -332,6 +352,15 @@ precise_code_intelligence_ruby:
   product_team: code_intelligence
   maturity: not_implemented
 
+precise_code_intelligence_auto_indexing:
+  title: Precise Code Intelligence auto-indexing
+  product_team: code_intelligence
+  maturity: experimental
+  deployment:
+    self_hosted: experimental
+    managed_instance: experimental
+    cloud: not_implemented
+
 batch_changes:
   title: Batch Changes
   product_team: batch_changes
@@ -339,6 +368,8 @@ batch_changes:
   documentation_link: https://docs.sourcegraph.com/batch_changes
   use_cases:
     - code_reuse
+    - code_health
+    - incident_response
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -352,12 +383,20 @@ batch_changes:
     gerrit: false
     perforce: false
     cvs: false
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: not_implemented
 
 server_side_batch_changes:
   title: Server side batch changes
   product_team: batch_changes
   maturity: experimental
   documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
+  deployment:
+    self_hosted: experimental
+    managed_instance: experimental
+    cloud: not_implemented
 
 code_insights:
   title: Code Insights
@@ -383,6 +422,10 @@ code_insights:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: beta
+    managed_instance: beta
+    cloud: not_implemented
 
 soc_ii_type_ii:
   title: SOC II Type II

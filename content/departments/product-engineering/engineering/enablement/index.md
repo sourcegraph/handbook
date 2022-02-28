@@ -6,7 +6,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 ## Team
 
-The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
+The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering)). [Michal Vrtiak](../../../../team/index.md#michal-vrtiak) serves as an org-level engineer, reporting into the Director of Engineering, and partners with the teams below.
 
 **[Repo Management](./repo-management/index.md)**
 {{generator:product_team.repo_management}}
@@ -67,7 +67,7 @@ In addition to team-specific channels, we communicate in the following org-wide 
 
 #enablement-social goes into this channel and random conversations, banter, jokes, etc., are all welcome here.
 
-#enablement-leadership: This channel is for the Engineering and Product Managers to discuss higher-level matters impacting the whole org.
+#enablement-staff: This channel is for the Enablement staff to discuss higher-level matters impacting the whole org.
 
 #### Slack acknowledgment
 
@@ -100,12 +100,12 @@ Participation in sharing is voluntary.
 
 Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../tools/engineering-management.md#status-updates) once a month.
 
-#### Leadership sync
+#### Staff sync
 
-To stay aligned as an organization we share our priorities for the week in the #enablement-leadership channel on Mondays. On Fridays a reminder is sent to the same channel prompting the team with the following:
+To stay aligned as an organization we share our priorities for the week in the #enablement-staff channel on Mondays. On Fridays a reminder is sent to the same channel prompting the team with the following:
 
 - What updates do you have on [our OKRs](https://github.com/orgs/sourcegraph/projects/214/views/14?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C188005%2C247470%2C284758%2C253662%2C243177%5D)
 - Any highlights on team accomplishments?
 - Any challenges or risks to call out?
 
-On Thursdays we meet as a leadership team via Zoom to have real-time conversations. We cover one fun question, leadership updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and to drive quick decisions. If we do not have a large enough cohort we will run the meeting async.
+On Thursdays we meet as a leadership staff via Zoom to have real-time conversations. We cover one fun question, staff updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and to drive quick decisions. If we do not have a large enough cohort we will run the meeting async.

@@ -7,10 +7,17 @@
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
   - [Protect company assets and use them properly - Code of conduct](../../../company-info-and-process/communication/code_of_conduct.md#respect-others-and-their-property-and-confidential-information)
 
-## Security requirements for your Sourcegraph computer
+## Setting up your computer
 
-1. Have all our [endpoint standards](../process/internal-security/computer-standards.md) setup on your computer at all times
+1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
 2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)
+3. Check that your warrenty information is reflected on your device
+
+- [Apple](https://support.apple.com/en-us/HT202741)
+- [Lenovo](https://pcsupport.lenovo.com/us/en/warrantylookup#/)
+- [Dell](https://www.dell.com/support/kbdoc/en-us/000132024/how-to-find-warranty-status-and-information-for-your-dell-product)
+
+Note: All devices purchased through our partners will have been purchased with warrenty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warrenty please do so within 30 days.
 
 ## Ordering a Sourcegraph computer
 
@@ -22,9 +29,9 @@ Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-mon
 
 Currently, we are experiencing extensive wait times to receive new laptops due to Apple logistics delays. If you are waiting for your Sourcegraph computer to arrive you can either:
 
-1. Use your personal device as a temporary measure
-1. Request a loaner laptop
-1. Rent a laptop from a local provider, #it-tech-ops can pay for this service
+1. Use your personal device as a temporary measure, as long as the minimum security measures can be instituted
+1. Request a loaner laptop - this is severly limited based on to location and availablity
+1. Rent a laptop from a local provider, #it-tech-ops can pay for this service - this is also limited by location and availability
 
 ## Use of personal devices
 
@@ -45,4 +52,4 @@ If something has happened to your Sourcegraph device please contact #it-tech-ops
 If you have a device that you are having replaced, or you are leaving the company you can either:
 
 1. participate in our [buyback program](../process/buyback.md), where we will transfer ownership to you.
-2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. If you would like to return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you and have a shipping label and box sent to you.
+2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. To return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you.
