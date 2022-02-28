@@ -4,9 +4,9 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 ## Members
 
-Kevin Quigley
-Markie Muldez
-Sam Cregg
+[Kevin Quigley](../../../team/index.md#sts=Kevin%20Quigley)
+[Markie Muldez](../../../team/index.md#sts=Mark%20%E2%80%9CMarkie%E2%80%9D%20Muldez)
+[Sam Cregg](../../../team/index.md#sts=Sam%20Cregg)
 
 ## Quick Links
 
