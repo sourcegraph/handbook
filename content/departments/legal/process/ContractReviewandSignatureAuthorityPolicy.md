@@ -1,6 +1,6 @@
 # Contract review and signature authority policy
 
-Effective and last modified January 27, 2022
+Effective and last modified February 24, 2022
 
 The purpose of this policy is to help you direct your contracts to the right team or teammate to review, approve, and sign.
 
@@ -105,7 +105,7 @@ For Salesforce, complete the opportunity with the following steps: 1) go to the 
 
 ### NDAs (for customers, vendors, partners)
 
-- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines)
+- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
   - Review: None
   - Approve: None
   - Sign: Director of Legal, VP, or Director
@@ -192,8 +192,8 @@ Templates:
 
 Templates:
 
-- [Services contract with a separate SOW](https://drive.google.com/file/d/1zs5DGm1p_ZMjYjBwYDDuf2vITS74qUMC/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
-- [Services contract with pre-populated SOW exhibits](https://drive.google.com/file/d/1rhgTUoaj0BBhACRkCnMom8BAXxaLWYDo/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
+- [Services contract with a separate SOW](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
+- [Services contract with pre-populated SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
 - For software contracts, ask vendor for its template
 
 ### Partner contracts (for product integrations, joint-marketing, and other partnerships with third parties)

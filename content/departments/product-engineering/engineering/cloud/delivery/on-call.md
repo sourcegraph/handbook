@@ -102,7 +102,9 @@ Delivery engineers who are _not_ on-call do not need to respond to questions, in
 
 While the EOC may not provide the final resolution, the expectation is to provide an initial response, triage, and ensure that issues are captured in the [Delivery Github Project](https://github.com/orgs/sourcegraph/projects/205).
 
-If there is a known gap in functionality or extensive work necessary to service a request (e.g., a feature request), escalate to the manager for prioritization.
+> Anything we are not doing today or not documented in our handbook is most likely a feature request.
+
+If there is a known gap in functionality, or extensive work necessary to service a request, (e.g., a feature request), escalate to the manager for prioritization.
 
 The EOC is encouraged to use the [handbook](https://handbook.sourcegraph.com), [docs site](https://docs.sourcegraph.com), [other resources](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/.*%24&patternType=literal), or consulting the larger Delivery team to provide as much context as possible when during triage and providing an initial response.
 

@@ -22,6 +22,7 @@ Make sure to upgrade internal instances before customer instances.
 
 - [ ] Upgrade [devmanaged.sourcegraph.com](https://devmanaged.sourcegraph.com)
 - [ ] Upgrade [demo.sourcegraph.com](https://demo.sourcegraph.com) - contact #ce beforehand and make sure there are no demos scheduled for the hour of the upgrade.
+- [ ] Upgrade [insightstest.sourcegraph.com](https://insightstest.sourcegraph.com/)
 
 ## Upgrade customer managed instances
 

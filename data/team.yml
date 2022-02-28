@@ -5,6 +5,8 @@ quinn_slack:
   role: '[CEO](../../ceo/index.md), Cofounder, Board of Directors'
   location: Mill Valley, CA, USA 🇺🇸
   email: sqs@sourcegraph.com
+  reports_to: none
+  manager_role_slug: ceo
   links: '[slack.org](https://slack.org), [@sqs](https://twitter.com/sqs), [LinkedIn](https://www.linkedin.com/in/quinnslack)'
   pronouns: '[he](http://pronoun.is/he)'
   description: Quinn lives just north of the Golden Gate Bridge with his wife and daughter. Prior to Sourcegraph, Quinn cofounded Blend Labs, an enterprise technology company with ~500 employees dedicated to improving home lending. At Palantir Technologies, he created a technology platform to help two of the top five U.S. banks recover from the housing crisis. He was the first employee and developer at Bleacher Report after graduating from high school. Quinn graduated with a BS in Computer Science from Stanford.
@@ -12,6 +14,7 @@ quinn_slack:
 beyang_liu:
   name: Beyang Liu
   role: CTO, Cofounder, Board of Directors
+  reports_to: ceo
   location: San Francisco, CA, USA 🇺🇸
   email: beyang@sourcegraph.com
   links: '[@beyang](https://twitter.com/beyang), [LinkedIn](https://www.linkedin.com/in/beyang-liu)'
@@ -21,6 +24,7 @@ christina_forney:
   name: Christina Forney
   pronouns: she/her
   role: VP Product
+  reports_to: ceo
   manager_role_slug: vp_product
   location: Woodside, CA, USA 🇺🇸
   github: christinaforney
@@ -76,7 +80,7 @@ eric_fritz:
 eric_brody-moore:
   name: Eric Brody-Moore
   role: Business Operations Manager
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   manager_role_slug: business_operations_manager
   location: Nashville, TN, USA 🇺🇸
   github: ebrodymoore
@@ -134,6 +138,7 @@ nick_snyder:
   pronouns: he/him
   role: VP Engineering
   manager_role_slug: vp_engineering
+  reports_to: vp_product
   location: Belmont, CA, USA 🇺🇸
   github: GitHub
   email: nick@sourcegraph.com
@@ -167,6 +172,7 @@ dan_adler:
   name: Dan Adler
   pronouns: he/him
   role: VP Operations
+  reports_to: ceo
   manager_role_slug: vp_operations
   location: San Francisco, CA, USA 🇺🇸
   github: dadlerj
@@ -197,7 +203,7 @@ geoffrey_gilmore:
 farhan_attamimi:
   name: Farhan Attamimi
   role: Senior Data Operations Analyst
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   location: Singapore 🇸🇬
   github: attfarhan
   email: farhan@sourcegraph.com
@@ -320,7 +326,7 @@ christine_lovett:
   name: Christine Lovett
   pronouns: she/her
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_west
   location: Baltimore MD, USA 🇺🇸
   github: christinelovett
   email: christine@sourcegraph.com
@@ -401,7 +407,7 @@ gregg_stone:
   role: VP of Sales
   manager_role_slug: vp_sales
   location: San Francisco, CA
-
+  reports_to: ceo
   email: gregg@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/stonegregg)'
   description: Gregg lives in San Francisco with his wife Heather and two kids Liv & Gavin. He moved to San Francisco 13 years ago. He started his sales career at Salesforce, before moving on to several startup tech companies. He enjoys spending time with his family, golfing, hiking, swimming, and skiing. He grew up in NC and graduated from NC State with a degree in Finance.
@@ -484,6 +490,7 @@ kacie_jenkins:
   name: Kacie Jenkins
   pronouns: she/her
   role: VP of Marketing
+  reports_to: ceo
   manager_role_slug: vp_marketing
   location: Sea Ranch, CA, USA 🇺🇸
   email: kacie@sourcegraph.com
@@ -494,7 +501,7 @@ jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_west
   location: Seattle, WA, USA 🇺🇸
   github: justdueck
   email: jonah@sourcegraph.com
@@ -504,15 +511,15 @@ jonah_dueck:
 jean_du_plessis:
   name: Jean du Plessis
   pronouns: he/him
-  role: Engineering Manager, Web
+  role: Director of Engineering
   reports_to: vp_engineering
-  manager_role_slug: engineering_manager_web
+  manager_role_slug: director_engineering_enablement
   location: Cape Town, South Africa 🇿🇦
   github: jeanduplessis
   pronunciation: '[ʒɑ̃n dy plɛsi](http://ipa-reader.xyz/?text=%CA%92%C9%91%CC%83n%20dy%20pl%C9%9Bsi&voice=Joey)'
   email: jean@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jeandp), [manager docs](readmes/jean-du-plessis.md),'
-  description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 16 years of which he's been a manager for 7. Prior to Sourcegraph, he was a manager at GitLab."
+  description: "Jean lives with his wife, quadruplet daughters and 3 dogs in Cape Town, South Africa. Their family loves the outdoors, whether it's hiking in the mountains or spending time at the beach. He's been in IT for the past 18 years of which he's been a manager for 8. Prior to Sourcegraph, he was a manager at GitLab."
 
 owen_convey:
   name: Owen Convey
@@ -531,12 +538,19 @@ virginia_ulrich:
   pronouns: she/they
   role: Director of Customer Support
   manager_role_slug: director_customer_support
+  reports_to: vp_engineering
   location: Portland, Oregon, United States 🇺🇸
   github: virginiaulrich
   email: virginia@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/virginiaulrich/)'
   pronunciation: vr ji nyuh oo l ri ch
   description: Virginia lives with her partner (Vinh) and two cats, Little Miss Gable (tuxedo) and Hercules Mulligan (orange tabby). She derives joy from the tiny beautiful moments of human connection, hikes across the city and out in nature, and cooking for others. She studied literature and discovered her love of computer science quite by accident. With many years in customer service in various forms, Virginia can geek out for hours about the philosophy of 👍 customer support, the importance of compassion > empathy, and all things involving people helping other people.
+
+engineering_manager_delivery:
+  name: Virgina Ulrich
+  role: (Interim) Engineering Manager, Delivery
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_delivery
 
 scott_campbell:
   name: Scott Campbell
@@ -662,7 +676,6 @@ tom_ross:
   location: York, North Yorkshire, UK 🇬🇧
   github: umpox
   email: tom@sourcegraph.com
-
   description: Tom lives in York, UK with his girlfriend (also a developer) and their two cats (Gus & Leo). He stumbled upon his love for the web when starting an internship, before realising that he had to support Internet Explorer 8. Since then, Tom has enjoyed building powerful web-applications and, prior to Sourcegraph, has been a developer at DAZN and Sky. In his free time, he enjoys supporting his soccer team Liverpool FC, swimming, and following various forms of motorsport.
 
 greg_bastis:
@@ -880,7 +893,7 @@ alex_fogg:
 
 adeola_akinsiku:
   name: Adeola Akinsiku
-  role: Application Engineer
+  role: Software Engineer
   reports_to: engineering_manager_batch_changes
   location: Atlanta, GA, USA 🇺🇸
   github: adeola-ak
@@ -888,22 +901,10 @@ adeola_akinsiku:
   links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270), [Readme](../../support/bios/adeola-readme.md)'
   description: Adeola joins Sourcegraph fresh out of an engineering bootcamp after years of doing work that she never felt challenged or very excited about. Having studied Finance in undergrad, she knows a thing or two about credit and managing money, but really loves to talk about all things code. Adeola finds life to be awfully boring without purpose and meaning, and strives to become a better person both professionally and personally everyday. Real connections mean a lot to Adeola and she loves to engage with people who feel the same way. Outside of work, she loves going out to eat, watching basketball, sniffing candles, reading and relaxing.
 
-patrick_dubroy:
-  name: Patrick Dubroy
-  pronouns: he/him
-  role: Engineering Manager, Frontend platform
-  reports_to: engineering_manager_web
-  manager_role_slug: engineering_manager_frontend_platform
-  location: Munich, Germany 🇩🇪
-  github: pdubroy
-  email: patrick@sourcegraph.com
-  links: '[Twitter](https://twitter.com/dubroy), [LinkedIn](https://www.linkedin.com/in/pdubroy), [dubroy.com](https://dubroy.com/)'
-  description: "Patrick is a small-town Canadian kid who's been living in Germany for the past 10 years. Previously, he worked on autonomous driving at Lyft, where he was an enthusiastic user of Sourcegraph. Outside of work, he loves to play soccer, watch [Bayern Munich](https://fcbayern.com/) games, and explore the gravel roads around Munich on his bike."
-
 beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
-  role: Application Engineer
+  role: Software Engineer
   reports_to: engineering_manager_growth
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
@@ -935,9 +936,9 @@ sam_cregg:
 indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
-  role: Software Engineer, Core Application
+  role: Software Engineer
   reports_to: software_engineering_manager
-  location: Kolkata, India, 🇮🇳
+  location: Kolkata, India 🇮🇳
   github: indradhanush
   email: indradhanush@sourcegraph.com
   links: '[Twitter](https://twitter.com/indradhanush92), [indradhanush.github.io](https://indradhanush.github.io)'
@@ -971,7 +972,7 @@ kelsey_brown:
   name: Kelsey Brown
   pronouns: she/her
   role: Senior Business Operations Analyst
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   location: Arlington, VA, USA 🇺🇸
   github: kelsey-brown
   email: kelsey@sourcegraph.com
@@ -1022,18 +1023,6 @@ kendrick_morris:
   links: '[Linkedin](https://www.linkedin.com/in/kendrick-morris-cpa-3563b993/)'
   description: Kendrick grew up in Houston, TX and now resides in San Francisco, CA. He graduated with a degree in Economics-Accounting & Government from Claremont McKenna College. Prior to Sourcegraph, Kendrick worked in the Deloitte San Francisco audit practice and currently holds a CPA license in California. He enjoys listening to podcasts, collecting vintage basketball cards, and driving just about anywhere for good barbecue.
 
-christy_haragan:
-  name: Christy Haragan
-  pronouns: she/her
-  role: Director of Customer Engineering - International
-  reports_to: vp_customer_engineering
-  manager_role_slug: director_customer_engineering_international
-  location: London, UK 🇬🇧
-
-  email: christy@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/christy-haragan/)'
-  description: Christy used to enjoy playing football (before Covid lockdown; hopefully she can update this in the future once calmer times occur), skiing, running, and yoga. She has been a CTO and co-founder of an app-startup and has a masters degree in Computer Science from the University of York.
-
 rebecca_dodd:
   name: Rebecca Dodd
   pronouns: she/her
@@ -1050,6 +1039,7 @@ carly_jones:
   name: Carly Jones
   pronouns: she/her
   role: VP, Talent
+  reports_to: ceo
   location: Denver, CO USA 🇺🇸
   github: carlyj0nes
   description: Carly is a Denver native who went to college in Vermont (Middlebury), lived in Washington, DC for 5 years, and has since returned home to Colorado. Prior to Sourcegraph, she gained experience leading talent teams at high growth startups and is passionate about all things talent acquisition. When not working, you can find Carly tackling a DIY project, practicing her golf game, spending time outdoors, and traveling.
@@ -1147,6 +1137,7 @@ aimee_menne:
   name: Aimee Menne
   pronouns: she/her
   role: VP of Customer Engineering
+  reports_to: ceo
   manager_role_slug: vp_customer_engineering
   location: Denver, CO USA 🇺🇸
   github: amenne
@@ -1170,6 +1161,7 @@ devon_coords:
   name: Devon Coords
   pronouns: She/Her
   role: Senior Technical Recruiter, Team Lead
+  reports_to: vp_people
   location: White Plains, NY USA 🇺🇸
   github: devoncoords
   email: devon@sourcegraph.com
@@ -1180,6 +1172,7 @@ trevor_houghton:
   name: Trevor Houghton
   pronouns: he/him
   role: Recruiting Operations Specialist
+  reports_to: vp_people
   location: Austin, TX, USA 🇺🇸
   github: TrevorHoughton
   email: trevor@sourcegraph.com
@@ -1258,7 +1251,7 @@ nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_west
   location: Denver, Colorado, USA 🇺🇸
 
   email: nate.maynard@sourcegraph.com
@@ -1281,6 +1274,7 @@ kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
   role: Corporate Recruiter
+  reports_to: vp_people
   location: Minneapolis, MN USA
   github: kelseynagel
   description: "Kelsey is a North Dakota native living in Minneapolis with her husband and two dogs, Crew and Nash. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
@@ -1432,6 +1426,7 @@ marija_petrovic:
   name: Marija Petrovic
   pronouns: She/Her
   role: Team Lead, Senior Sales Recruiter
+  reports_to: vp_people
   location: Naples, FL USA 🇺🇸
   github: marija.petrovic214
   email: marija.petrovic@sourcegraph.com
@@ -1530,7 +1525,7 @@ rami_hamdan:
   name: Rami Hamdan
   pronouns: they/them
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: director_customer_engineering
   location: Albuquerque, NM from Palestine 🇵🇸
   github: ZrnH
   email: rami@sourcegraph.com
@@ -1564,7 +1559,7 @@ david_rohnow:
   name: David Rohnow
   pronouns: he/him
   role: Sr. Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_west
   location: San Diego, CA USA 🇺🇸
   github: zrnh
   email: david.rohnow@sourcegraph.com
@@ -1597,7 +1592,7 @@ elzanne_wentzel:
   name: Elzanne Wentzel
   pronouns: she/her
   role: Customer Engineer
-  reports_to: director_customer_engineering_international
+  reports_to: director_customer_engineering
   location: Amsterdam, The Netherlands 🇳🇱
   github: elzannewentzel
   email: elzanne.wentzel@sourcegraph.com
@@ -1608,7 +1603,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering_international
+  reports_to: director_customer_engineering
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -1678,7 +1673,7 @@ dan_ryan:
   name: Dan Ryan
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_west
   location: Lehi, UT, United States 🇺🇸
   github: danryan621
   email: dan.ryan@sourcegraph.com
@@ -1766,7 +1761,7 @@ andrew_hsu:
   name: Andrew Hsu
   pronouns: he/him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_west
   location: Los Angeles, California, United States 🇺🇸
   github: superhsu
   email: andrew.hsu@sourcegraph.com
@@ -1809,6 +1804,7 @@ grace_bohl:
   name: Grace Bohl
   pronouns: she/her
   role: Corporate Recruiter
+  reports_to: vp_people
   location: Denver, CO 🇺🇸
   github: gracebohl
   email: you@sourcegraph.com
@@ -1816,7 +1812,7 @@ grace_bohl:
 
 cesar_jimenez:
   name: Cesar Jimenez
-  role: Senior Software Engineer on Code Intelligence
+  role: Software Engineer on Code Intelligence
   reports_to: engineering_manager_code_intelligence
   location: Seattle, WA 🇺🇸
   github: numbers88s
@@ -1870,6 +1866,7 @@ win_yu:
   pronouns: he/his
   role: Technical Talent Sourcer
   location: Yangon, Burma
+  reports_to: vp_people
   github: wysg
   email: win.yu@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
@@ -1889,6 +1886,7 @@ stephanie_zabala:
   pronouns: she/her
   role: Principal Designer, Brand
   location: Brooklyn, NY, United States 🇺🇸
+  reports_to: vp_people
   github: stephzabala
   email: steph.zabala@sourcegraph.com
   description: Steph is a designer based in NYC, originally from WA. She has a deep appreciation for creative work that is authentic, expressive, and artistic, along with a deep appreciation for butter, typography, and breakfast.
@@ -1897,7 +1895,7 @@ crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
   role: Software Engineer, Delivery
-  reports_to: engineering_manager_devops
+  reports_to: engineering_manager_delivery
   location: Ashland, MA, United States 🇺🇸
   github: caugustus-sourcegraph
   email: crystal.augustus@sourcegraph.com
@@ -1908,6 +1906,7 @@ kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
   role: Recruiting Operations Specialist
+  reports_to: vp_people
   location: Austin, TX, United States 🇺🇸
   github: kemperhamilton
   email: kemper.hamilton@sourcegraph.com
@@ -1928,9 +1927,9 @@ marisa_kanemoto:
 bob_roudebush:
   name: Bob Roudebush
   pronouns: he/him
-  role: Customer Engineering Director - Americas
+  role: Customer Engineering Director
   reports_to: vp_customer_engineering
-  manager_role_slug: director_customer_engineering_americas
+  manager_role_slug: director_customer_engineering
   location: Indianapolis, Indiana, United States 🇺🇸
   github: RoudyBob
   email: bob.roudebush@sourcegraph.com
@@ -1942,7 +1941,7 @@ nancy_shah:
   name: Nancy Shah
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering_americas
+  reports_to: director_customer_engineering
   location: Oakton, VA, United States 🇺🇸
   github: nancy4dev
   email: nancy@sourcegraph.com
@@ -1954,6 +1953,7 @@ michal_sennett:
   name: Michal Sennett
   pronouns: she/her
   role: Strategic Projects Manager, Engineering
+  reports_to: vp_people
   location: Dallas, TX, USA 🇺🇸
   github: msennett22
   email: michal.sennett@sourcegraph.com
@@ -1984,6 +1984,7 @@ frey_andersson:
   name: Frey Andersson
   role: Technical Recruiter
   location: Tokyo, Japan 🇯🇵
+  reports_to: vp_people
   github: LordFriccoFro
   email: frey.andersson@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/frey-andersson-781a082a//)'
@@ -1993,7 +1994,7 @@ simon_waterer:
   name: Simon Waterer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering_international
+  reports_to: director_customer_engineering
   location: London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   github: simoncwaterer
   email: simon.waterer@sourcegraph.com
@@ -2024,7 +2025,7 @@ devon_thompson:
   name: DeVon Thompson
   pronouns: she/her
   role: Customer Engineer
-  reports_to: director_customer_engineering_americas
+  reports_to: director_customer_engineering
   location: Baltimore, MD, US 🇺🇸
   github: Deethompson
   email: devon.thompson@sourcegraph.com
@@ -2067,7 +2068,7 @@ jordan_plahn:
   name: Jordan Plahn
   pronouns: he/him
   role: Engineering Manager
-  reports_to: engineering_manager_web
+  reports_to: director_engineering_enablement
   manager_role_slug: software_engineering_manager
   location: Seattle, WA, USA 🇺🇸
   github: jplahn
@@ -2090,6 +2091,7 @@ erin_laio:
   name: Erin Laio
   pronouns: she/her
   role: Senior Executive Business Partner
+  reports_to: ceo
   location: Andover, MA, USA
   github: erinlaio
   email: erin.laio@sourcegraph.com
@@ -2142,7 +2144,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering_americas
+  reports_to: senior_manager_customer_engineering_west
   location: Whitefish, MT
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -2154,7 +2156,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering_americas
+  reports_to: director_customer_engineering
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -2164,7 +2166,7 @@ kevin_wojkovich:
   github: kevinwojo
   pronouns: he/him
   role: Software Engineer, Delivery
-  reports_to: engineering_manager_devops
+  reports_to: engineering_manager_delivery
   location: Chicago, IL, USA 🇺🇸
   description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
 
@@ -2206,8 +2208,14 @@ director_design:
 engineering_manager_content_platform:
   name: Jean du Plessis
   role: (Interim) Engineering Manager, Content Platform
-  reports_to: engineering_manager_web
+  reports_to: director_engineering_enablement
   manager_role_slug: engineering_manager_content_platform
+
+engineering_manager_frontend_platform:
+  name: Jean du Plessis
+  role: (Interim) Engineering Manager, Frontend Platform
+  reports_to: director_engineering_enablement
+  manager_role_slug: engineering_manager_frontend_platform
 
 Daniel_Gwyn:
   name: Daniel Gwyn
@@ -2243,6 +2251,7 @@ dominique_cole:
   name: Dominique "Dom" Cole
   pronouns: he/him
   role: Technical Recruiter
+  reports_to: vp_people
   location: Austin, TX, USA 🇺🇸
   email: dom.cole@sourcegraph.com
   github: domcole
@@ -2264,6 +2273,7 @@ veronica_bueno:
   name: Veronica Bueno
   pronouns: she/her
   role: Technical Recruiter
+  reports_to: vp_people
   location: Austin, TX, USA 🇺🇸
   email: veronica.bueno@sourcegraph.com
   github: vernbueno
@@ -2298,8 +2308,9 @@ greg_seador:
   links: '[LinkedIn](https://www.linkedin.com/in/gseador/)'
   github: gseador
   pronouns: he/him
-  role: Manager, Customer Engineering
-  reports_to: director_customer_engineering_americas
+  role: Senior Manager, US - West and APAC
+  manager_role_slug: senior_manager_customer_engineering_west
+  reports_to: director_customer_engineering
   location: Austin, TX, USA 🇺🇸
   description: Greg lives in Austin, TX. In his free time he's usually out golfing, trying a new restaurant, adding to his burger spreadsheet, tackling a home improvement project, or listening to a podcast.
 
@@ -2340,7 +2351,7 @@ isuru_fonseka:
   name: Isuru Fonseka
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering_international
+  reports_to: senior_manager_customer_engineering_west
   location: Sydney, Australia 🇦🇺
   github: Isuru-F
   email: isuru.fonseka@sourcegraph.com
@@ -2380,14 +2391,15 @@ rohan_gupta:
 
 david_veszelovszki:
   name: David Veszelovszki
-  role: Software Engineer
+  pronunciation: '[ˈdeɪvɪd ˈveselovski](http://ipa-reader.xyz/?text=%CB%88de%C9%AAv%C9%AAd%20%CB%88veselovski&voice=Joey'
+  role: Software Engineer, Growth and Integrations
   reports_to: director_engineering
   location: Budapest, Hungary 🇭🇺
   pronouns: he/him
   email: david.veszelovszki@sourcegraph.com
   github: vdavid
   links: '[LinkedIn](https://www.linkedin.com/in/veszelovszki/)'
-  description: David is a developer with 150+ coding projects behind him, an expert at web development, i18n, and refactoring 🧑‍💻. He enjoys doing research and experimenting with new technologies. He has 9 siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
+  description: David is a developer with 150+ coding projects behind him, specializing in web development, i18n, and refactoring 🧑‍💻. He’s a very organized person with spreadsheets on a scary amount of aspects of his life. He loves doing research and playing with new technologies. He has nine siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘 with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
 
 riana_shahid:
   name: Riana Shahid
@@ -2458,7 +2470,7 @@ prakash_durgani:
 kristen_stretch:
   name: Kristen Stretch
   role: Engineering Manager, Developer Experience
-  reports_to: engineering_manager_web
+  reports_to: director_engineering_enablement
   manager_role_slug: engineering_manager_developer_experience
 
 feroz_salam:
@@ -2507,6 +2519,7 @@ connor_obrien:
   role: Chief of Staff to CEO
   pronouns: he/him
   github: connoro13c
+  reports_to: ceo
   links: '[LinkedIn](https://www.linkedin.com/in/connorob/)'
   location: San Franciso, CA, USA 🇺🇸
   description: Connor lives in the Lonely Mountain neighborhood in SF, 1 block away from Golden Gate Park with his wife, daughter, two dogs, and pet Crawdad. Prior to Sourcegraph, Connor worked at Anaplan for 7.5 years where he played critical roles across PreSales, Ops, and Sales where he helped craft and execute GTM strategy. Before Anaplan, Connor was running a small IT Consulting company and worked in the United States Senate. Connor and his wife love challenging, outdoorsy activities like scuba diving, hiking, and long-distance running, biking, and swimming. The fastest way to my heart is through the Denver Nuggets.
@@ -2526,8 +2539,8 @@ michael_lin:
   name: Michael Lin
   pronouns: he/him
   location: Richmond, BC, Canada 🇨🇦
-  role: Software Engineer, DevOps
-  reports_to: engineering_manager_devops
+  role: Software Engineer, Delivery
+  reports_to: engineering_manager_delivery
   email: michael.lin@sourcegraph.com
   github: michaellzc
   links: '[LinkedIn](https://www.linkedin.com/in/mlzc/), [@_mlzc](https://twitter.com/_mlzc)'
@@ -2535,7 +2548,7 @@ michael_lin:
     Michael lives in Richmond, BC with his partner, their bunny [Muse](https://instagram.com/bossbunnymuse), and their standard poodle [Marley](https://instagram.com/marleythemagicpoodle).
     He graduated from the University of Alberta with a BSc in Computer Science.
     Prior to Sourcegraph, he worked on Kubernetes and web stuff at IBM.
-    He is passionate about building tools for developers and has contributed to open source projects such as Linkerd, Percona and better-opn.
+    He is passionate about building tools for developers and has contributed to open source projects such as Linkerd, Percona, vscode-hadolint, and better-opn.
 
 petri_last:
   name: Petri-Johan Last
@@ -2613,7 +2626,7 @@ michal_vrtiak:
   github: vrto
   pronouns: he/him
   role: Software Engineer
-  reports_to: director_engineering
+  reports_to: director_engineering_enablement
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
   description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
@@ -2631,6 +2644,7 @@ ryan_scott:
 
 felix_kling:
   name: Felix Kling
+  reports_to: software_engineering_manager
   role: Software Engineer
   github: fkling
 
@@ -2696,3 +2710,45 @@ maureen_loughrey:
   reports_to: tech_ops_manager
   location: Austin, TX, USA 🇺🇸
   description: Maureen lives in Austin, TX with her partner, two shih tzus, and two loveable goldfish. When not tinkering with computers she can often be found recreating recipes from the Great British Bake Off or meandering about the Austin library.
+
+lauren_anderson:
+  name: Lauren Anderson
+  email: lauren.anderson@sourcegraph.com
+  github: andersonlauren
+  pronouns: she/her
+  role: Director of Data & Analytics
+  reports_to: vp_operations
+  manager_role_slug: director_data_analytics
+  location: Pacifica, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/laurenaanderson1/)'
+  description: Lauren lives at the beach in Pacifica, CA with her husband, daugther, and dog.  She has a passion for all things data and has spent most of her career building data warehouses and reporting platforms.  Lauren likes to listen to music, cook, travel, and spend time outdoors (especially at the beach) and loves to combine the latter two by spending as much time at the beach in Southern Baja California.
+
+madison clark:
+  name: Madison Clark
+  email: madison.clark@sourcegraph.com
+  github: madisongclark
+  pronouns: she/her
+  role: Senior Manager, Internal Communications
+  reports_to: director_global_communications
+  location: San Francisco, CA, USA 🇺🇸
+  description: Madison lives in San Francisco, CA, with her partner Julian and two very floofy cats, Loaf and Grandpa. She works on the Sourcegraph communications team, focused on building effective internal communication strategies that inform, engage, and inspire our global team. Outside of work, you can find Madison testing new recipes/making cooking videos, exploring new cafes and restaurants, and taking excercise classes on her Peloton bike.
+
+michael mcmahan:
+  name: Michael McMahan
+  email: michael.mcmahan@sourcegraph.com
+  github: mjmcmahan
+  pronouns: he/him
+  role: Enterprise Account Executive
+  reports_to: vp_sales_western_region
+  location: Austin, TX, USA 🇺🇸
+  description: Michael lives in Austin with his partner Danielle and their two dogs Lucy and Lady. He has spent the last 3 years of his career helping build A Cloud Guru, a cloud focused edtech startup. He is passionate about self development and loves to learn about technology, fitness, and investing. Outside of work and self improvement Michael can be found enjoying live music around Austin or watching his Pacers/Colts/Hoosiers play.
+
+justin dorfman:
+  name: Justin Dorfman
+  role: Open Source Program Manager
+  reports_to: director_community
+  location: Los Angeles, CA, USA 🇺🇸
+  github: jdorfman
+  email: justin.dorfman@sourcegraph.com
+  links: '[Twitter](https://twitter.com/jdorfman), [LinkTree](https://linktr.ee/jdorfman)'
+  description: Justin is responsible for fostering the adoption of universal code search in the open source community. Previously, he led similar initiatives for Curifense (a CNCF project), Gitcoin, & MaxCDN. He has contributed to Bootstrap, Font Awesome, jQuery, Nginx, GNU Bash, and many more. He also serves on the Open Source Collective board of directors. In 2017, he co-founded SustainOSS, which hosts events and podcasts for Open Source Software Sustainers.
