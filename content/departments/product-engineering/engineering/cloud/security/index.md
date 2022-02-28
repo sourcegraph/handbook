@@ -256,4 +256,4 @@ and the underlying [risk management process](security-risk-management-process.md
 
 # Misc Links
 
-- [Code Ownership Matrix] - (../../process/engineering_ownership.md)
+- [Code Ownership Matrix](../../process/engineering_ownership.md)
