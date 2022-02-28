@@ -49,6 +49,6 @@ To help us understand if we’re going in the right direction and to measure the
 
 ### Next (6–12 months)
 
-#### Standardize testing, logging, metrics, and code checks
+#### [Standardize testing, logging, metrics, and code checks](https://github.com/sourcegraph/sourcegraph/issues/30552)
 
 #### Improve incident detection on Sourcegraph Cloud
