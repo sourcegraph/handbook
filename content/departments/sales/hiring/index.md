@@ -48,7 +48,7 @@ Interviewing an AE from the Sourcegraph side? Check out the [AE Interview Cookbo
 1. You apply.
 2. 30-minute **Recruiter screen**: you meet with a Recruiter on the talent team. Click [here](../../talent/process/types_of_interviews.md#recruiter-screen) to see what to expect during a Recruiter screen.
 3. 30-minute **Hiring manager screen**: during this initial call, the Head of Sales Development will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you. You can read more about our Hiring Manager screens [here](../../talent/process/types_of_interviews.md#hiring-manager-screen).
-5. We schedule 3-hours of **remote interviews** over Zoom.
+4. We schedule 3-hours of **remote interviews** over Zoom.
    - Part 1 (2 hours):
      - 1-hour **Resume deep-dive**: we take a deep dive into your background, past to present. Learn more about the resume deep dive [here](../../talent/process/types_of_interviews.md#resume-deep-dive).
      - 1-hour **Panel Interview**: You meet with our Head of Sales Development, an SDR on the team, an Enterprise Account Executive and an Enterprise Leader and present your plan if you were to come on board. Learn more about the presentation [here](../../talent/process/types_of_interviews.md#sdr-mock-cold-call).
@@ -56,5 +56,5 @@ Interviewing an AE from the Sourcegraph side? Check out the [AE Interview Cookbo
      - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](../../talent/process/types_of_interviews.md#values-interview).
    - Part 3 (30-minutes):
      - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
-6. We check your references.
-7. We make you a job offer.
+5. We check your references.
+6. We make you a job offer.
