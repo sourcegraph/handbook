@@ -1,14 +1,14 @@
 # Data & Analytics FAQs
 
-Below are answers to common questions teammates at Sourcegraph have. 
+Below are answers to common questions teammates at Sourcegraph have.
 
 ### Current seat limit, ARR, company type, and more are outdated on the [Server Instances Overview](https://sourcegraph.looker.com/dashboards/167). How can we get this updated?
 
-Looker only populates this information from Salesforce for customers, and Looker and Salesforce both are not connected to our licensing system, so trials as a `Company Type` can't be picked up. The Data & Analytics team can't update any of this information - instead, please update the relevant information in Salesforce and it'll be updated in Looker within 24 hours. 
+Looker only populates this information from Salesforce for customers, and Looker and Salesforce both are not connected to our licensing system, so trials as a `Company Type` can't be picked up. The Data & Analytics team can't update any of this information - instead, please update the relevant information in Salesforce and it'll be updated in Looker within 24 hours.
 
 ### My account's [insert metric] went from really high to really low week over week. What happened?
 
-It's likely they have multiple instances (such as a separate instances for staging and production) and our data pipelines picked up the low data point from their staging instance. Unfortunately fixing this is very difficult and not among our top priorities, so please reach out in #analytics to confirm specific pieces of information. 
+It's likely they have multiple instances (such as a separate instances for staging and production) and our data pipelines picked up the low data point from their staging instance. Unfortunately fixing this is very difficult and not among our top priorities, so please reach out in #analytics to confirm specific pieces of information.
 
 ### I want to know which users did this action in Amplitude. Can I pull their email addresses?
 
@@ -16,7 +16,7 @@ If you're looking for signed-in users, we can do this. There are no emails avail
 
 ### Do we collect [insert event]?
 
-1. Enable Developer mode 
+1. Enable Developer mode
 2. Show JavaScript Console
 3. Go to sourcegraph.com
 4. Enter `localStorage.eventLogDebug = "true"` in the JS console
@@ -30,5 +30,4 @@ Assuming you know there are users on the instance, there's a chance they've disa
 
 ### Are there plans to help Sourcegraph admins understand how their users use Sourcegraph?
 
-This should be a product request - please submit your feedback to #feedback and it'll get sent to the product team to prioritize. We can trigger automated PDFs of Looker dashboards to any AE/CE to send off to your contact for a short-term fix! Reach out in #analytics if you'd like to do this. 
-
+This should be a product request - please submit your feedback to #feedback and it'll get sent to the product team to prioritize. We can trigger automated PDFs of Looker dashboards to any AE/CE to send off to your contact for a short-term fix! Reach out in #analytics if you'd like to do this.
