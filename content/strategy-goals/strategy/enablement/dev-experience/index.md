@@ -39,16 +39,18 @@ To help us understand if we’re going in the right direction and to measure the
 
 ### FY23 Q1
 
-#### [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
+- #### [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
 
-#### [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
+- #### [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
 
-#### [Improve engineering onboarding: tooling](https://github.com/sourcegraph/sourcegraph/issues/31005)
+- #### [Improve engineering onboarding: tooling](https://github.com/sourcegraph/sourcegraph/issues/31005)
 
-#### [Improve support for application developer experience](https://github.com/sourcegraph/sourcegraph/issues/31006)
+- #### [Improve support for application developer experience](https://github.com/sourcegraph/sourcegraph/issues/31006)
 
 ### Next (6–12 months)
 
-#### [Standardize testing, logging, metrics, and code checks](https://github.com/sourcegraph/sourcegraph/issues/30552)
+- #### [Standardize logging, metrics, and errors](https://github.com/sourcegraph/sourcegraph/issues/30552)
 
-#### Improve incident detection on Sourcegraph Cloud
+- #### Standardize code checks and testing 
+
+- #### Improve incident detection on Sourcegraph Cloud
