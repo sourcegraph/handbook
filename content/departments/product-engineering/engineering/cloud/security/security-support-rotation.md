@@ -27,9 +27,10 @@ Finally, it's your responsibility to ensure a smooth transition to the next engi
 
 ### Channels to keep an eye on
 
-The following channels/boards should be check at least _once a day_:
+The following channels/boards should be checked at least _once a day_:
 
 - #security
+- #security-monitoring
 - #security-internal
 - Messages that tag @security-team or @security-support
 - GitHub notifications tagging @security
