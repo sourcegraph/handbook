@@ -18,7 +18,7 @@ We publicly document our interview process for each of the different sales roles
      - 30-minute **Peer interview**: you meet with two members of the SDR team to learn more about what they look for in a peer, and what it’s like to work at Sourcegraph. Learn more about the peer interview [here](../../talent/process/types_of_interviews.md#peer-interview).
      - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](../../talent/process/types_of_interviews.md#values-interview).
    - Part 3 (30-minutes):
-     - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
+     - 30-minute **Leadership interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
 6. We check your references.
 7. We make you a job offer.
 
@@ -35,7 +35,7 @@ We know the above process looks like a lot, but we promise **we move quickly**! 
      - 30-minute **Team-collaboration interview**: you meet with an Enterprise sales leader. This person manages the Account Executives to whom you’ll provide lead gen support.
      - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](../../talent/process/types_of_interviews.md#values-interview).
    - Part 2:
-     - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
+     - 30-minute **Leadership interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
 5. We check your references.
 6. We make you a job offer.
 
@@ -54,6 +54,6 @@ Interviewing an AE from the Sourcegraph side? Check out the [AE Interview Cookbo
      - 1-hour **Panel Interview**: You meet with our Head of Sales Development, an SDR on the team, an Enterprise Account Executive and an Enterprise Leader and present your plan if you were to come on board. Learn more about the presentation [here](https://docs.google.com/presentation/d/1lde8KqAuviNyIhQnyedBLtkcku0N0p-6WllNTF-4pvs/edit#slide=id.g9288fdfdea_0_109).
    - Part 2 (1 hour):
      - 30-minute **Values interview**: you meet with two people outside of the sales department and discuss our values and how your views and experiences align with them. Learn more about our values interview [here](../../talent/process/types_of_interviews.md#values-interview).
-     - 30-minute **Department head interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
+     - 30-minute **Leadership interview:** you will meet with our Head of Sales to learn more about our sales vision and get any final questions you have answered.
 5. We check your references.
 6. We make you a job offer.
