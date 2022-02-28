@@ -6,7 +6,7 @@ developer_onboarding:
   sponsors:
     product: ben_venker
     engineering: robert_lin
-    design: 
+    design:
 
 code_reuse:
   title: Code Reuse
@@ -14,28 +14,28 @@ code_reuse:
   sponsors:
     product: taylor_sperry
     engineering: robert_lin
-    design: 
+    design:
 
 code_health:
   title: Code Health
   link: /strategy-goals/strategy/use_cases/code_health
   sponsors:
     product: malo_marrec
-    engineering: 
-    design: 
+    engineering:
+    design:
 
 fixing_security_vulnerabilities:
   title: Fixing Security Vulnerabilities
   link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
   sponsors:
-    product: 
+    product:
     engineering: tomás_senart
-    design: 
+    design:
 
 incident_response:
   title: Incident Response
   link: /strategy-goals/strategy/use_cases/incident_response
   sponsors:
-    product: 
+    product:
     engineering: tomás_senart
-    design: 
+    design:
