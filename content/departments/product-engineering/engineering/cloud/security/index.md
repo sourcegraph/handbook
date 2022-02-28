@@ -188,14 +188,6 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Growth
-   </td>
-   <td>Mohammad
-   </td>
-  </tr>
-  <tr>
-   <td>Cloud
-   </td>
    <td>Growth and Integrations
    </td>
    <td>David
@@ -256,4 +248,4 @@ and the underlying [risk management process](security-risk-management-process.md
 
 # Misc Links
 
-- [Code Ownership Matrix] - (../../process/engineering_ownership.md)
+- [Code Ownership Matrix](../../process/engineering_ownership.md)
