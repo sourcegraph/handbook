@@ -31,35 +31,24 @@ We inherit Sourcegraph's [engineering principles and practices](../../../../depa
 
 To help us understand if we’re going in the right direction and to measure the progress we’re making, we want to use the following indicators:
 
-- 🎯 Increased developer satisfaction in the surveys, tangible examples in the happiness logs
-- 🎯 TTFPR: time to first PR for new engineers (10th Pr, etc.)
-- 🎯 We maintain or improve our NPS rating in Q3 & Q4 / or aim to keep it above 60 as a baseline.
-- 🎯 Total number of contributors to the DX ecosystem
-- 🎯 Mean Time To Change
+- 🎯 The main pipeline is consistently green for at least 23 hours/day
+- 🎯 Red builds on the pipeline are caused by legitimate test failures, not the lower level infrastructure they're running on
+- 🎯 Total build time on main is within ~5 minuts of previous deployment model
 
 ## Roadmap
 
-### Now (3 months)
+### FY23 Q1
 
-Our high-level roadmap is blurry; we aim to work on the most impactful problems.
+#### [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
 
-- **Make the CI pipeline reliable, understandable, and actionable in case of failures.**
-  - Tactic: Get back to Green and disable flakey tests.
-  - Tactic: Lower the entry barrier to interacting with CI: pare down pipeline complexity, papercuts, improve documentation and tooling, pipeline output investment, etc.
-  - OKR1: 95% green builds on main
-  - OKR2: decrease mean build time for pull requests
-- **Most obvious and immediate pain points impacting the onboarding are fixed.**
-  - Tactic: Groom arbitrary list, focus on low hanging fruits,actively contribute to sg setup effort.
-  - OKR: Improved NPS, Time To Tenth PR
-- **DX is observable**
-  - Tactic: Find reliable metrics that we can start monitoring with low prior engineering efforts.
-  - Tactic: Evaluate and decide if we continue with OkayHQ.
-  - OKR: Those metrics are sufficient to corroborate existing DX hypotheses (or invalidate them).
+#### [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
+
+#### [Improve engineering onboarding: tooling](https://github.com/sourcegraph/sourcegraph/issues/31005)
+
+#### [Improve support for application developer experience](https://github.com/sourcegraph/sourcegraph/issues/31006)
 
 ### Next (6–12 months)
 
-We are currently drafting opportunities and projects we plan to explore over next year in our [strategy draft document](https://docs.google.com/document/d/1IrIe7NUEr_0RscvWDuvtjAKFRIp4agpc_in1_6T5WBQ/edit#).
+#### Standardize testing, logging, metrics, and code checks
 
-### Later
-
-We are currently drafting future bets in our [strategy draft document](https://docs.google.com/document/d/1IrIe7NUEr_0RscvWDuvtjAKFRIp4agpc_in1_6T5WBQ/edit#).
+#### Improve incident detection on Sourcegraph Cloud
