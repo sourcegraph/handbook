@@ -58,4 +58,4 @@ We created these videos as an intro to educate the team on our product. The goal
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/57d9f13d65664d68be9a1f107ea3b837" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-[Read more about this team's goals and priorities here](https://handbook.sourcegraph.com/strategy-goals/strategy/cloud/cloud-saas/) 
+[Read more about this team's goals and priorities here](https://handbook.sourcegraph.com/strategy-goals/strategy/cloud/cloud-saas/)
