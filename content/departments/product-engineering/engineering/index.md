@@ -43,11 +43,13 @@ Welcome to Engineering!
 ## Org chart
 
 Engineering is organized in three orgs:
+
 - [Cloud](cloud)
 - [Code graph](code-graph)
 - [Enablement](enablement)
 
 Also see:
+
 - [Full org chart](team/index.md).
 - [Roles and responsibilities](roles/index.md)
 
