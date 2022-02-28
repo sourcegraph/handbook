@@ -6,6 +6,7 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 - [Data tools/tech stack](#data-tools)
 - [Using Looker](#using-looker)
 - [Amplitude](../tools/amplitude.md)
+- [Analytics FAQs](/faqs.md)
 
 ## Data sources
 
