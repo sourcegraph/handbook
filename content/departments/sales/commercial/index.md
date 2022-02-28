@@ -8,7 +8,6 @@ Kevin Quigley
 Markie Muldez
 Sam Cregg
 
-
 ## Quick Links
 
 - [Role Requirements](#role-requirements)
@@ -24,7 +23,6 @@ Sam Cregg
   - [Order Forms](#order-forms)
   - [Forecasting](#forecasting)
 - [Film Study](#film-study)
-
 
 ## Role Requirements
 
@@ -155,14 +153,13 @@ If you need an exception to the norm for your order form, please see the [order 
    - Early Pipeline means that you're only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on; any deal that is not forecasted to close in quarter should fall into this category
 6. Make sure to check your math. Closed/Won should have the smallest amount and Best Case should have the largest amount. Closed/Won to Best Case are all possibilities of what could happen within the quarter. Early Pipeline, by definition, is not forecasted for the quarter so you don't need to add the previous numbers up since the forecast is quarterly.
 
-
-
 ## Film Study
 
 Athletes hone their craft by watching film, practicing, and preparing for the next game/match, etc. Similarly, sales team members can continue to improve their performance by observing "film" in the form of recorded customer calls with Chorus. A key point here is that **team members should expect to learn just as much from viewing the film of others to give feedback as they should by having their film reviewed to receive feedback**.
 
 Workflow as of 2022-03-01
-1. Every week pick two Chorus calls that you would like feedback on. 
+
+1. Every week pick two Chorus calls that you would like feedback on.
 2. Assign one Chorus call to a teammate; since there are currently three of you, you will each receive feedback from two people and give feedback to two people.
 3. Please post each call that you would like feedback on in the film-review Slack channel in the format "Thread: 'Chorus Call Title'", where the title is a hyper link to the Chorus call that you want feedback for. An example of this exists at the top of the Slack channel, Thread: Ironclad.
 4. @mention the person in the thread that you'd like to give you feedback for the call.
@@ -171,6 +168,6 @@ Workflow as of 2022-03-01
    - For each piece of feedback please use a "+" for positive, "-" for constructive, or "=" for noteworthy though not necessarily good or bad at the beginning of the feedback
    - Provide feedback by:
      - Be specific, describe exctly what happened that was noteworthy at the time noted
-     - For constructive feedback: 
+     - For constructive feedback:
        - Be sure to answer the question 'why' you are choosing to make a critique
        - After answering the 'why' question, make a suggestion on how it might be handled differently
