@@ -1,6 +1,6 @@
 # Repo Management Internship Info
 
-Welcome to our internship page! We hope you will find useful information about internships on the Repo Management team, our hiring process, and what you can expect us an intern with us!
+Welcome to our internship page! We hope you will find useful information about internships on the Repo Management team, our hiring process, and what you can expect as an intern with us!
 
 ## Open Intern Roles
 
