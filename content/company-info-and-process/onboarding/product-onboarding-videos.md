@@ -35,6 +35,7 @@ We created these videos as an intro to educate the team on our product. The goal
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eRwvO8Qyerk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Read more about this team's strategy, mission, and competitive landscape here](../../strategy-goals/strategy/code-graph/search/index.md)
+
 ## Repo Management Video
 
 <div style="position: relative; padding-bottom: 67.67295597484278%; height: 0;"><iframe src="https://www.loom.com/embed/8892ac51a8304d39baa9d76dc41741b6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
