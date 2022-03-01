@@ -2,12 +2,10 @@
 
 The Customer Engineering organization at Sourcegraph is oriented around the technical success of our customers. Our team is made up of Customer Engineers (CEs) and Customer Training Engineers (CTEs). This page contains information relevant to the CE organization as a whole, and each of the links below will take you to subteam-specific pages.
 
-
 ## Functional Teams
 
 - [Customer Engineers](ce.md)
 - [Customer Training Engineers](cte.md)
-
 
 ## Team Members
 
