@@ -53,7 +53,6 @@ To get the correct repo in `gitserver` you will need to get it's `shard_id` by r
 
 `SELECT shard_id FROM gitserver_repos where repo_id = <$id_of_the_repo>`
 
-
 ## Verifying the repository was removed from the database
 
 Exec into `gitserver` by running;
@@ -69,7 +68,6 @@ and then;
 1. `cd` into `/data/repos/`
 2. Navigate (`cd`) into the codehost/repo-owner
 3. Run `rm -rf $repo_name`
-
 
 or
 
