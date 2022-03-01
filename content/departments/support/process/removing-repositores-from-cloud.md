@@ -33,24 +33,28 @@ Exec into `pgsql` with either;
 
 then;
 
-- **Option 1**
+- **Option 1 ('Hard' delete)**
+
+Note: A hard delete leaves no trace of the repository in the database
 
 1. If you know the name of the repo by it's URI get the id of the repo that you would like to delete by running: `SELECT id FROM repo WHERE name LIKE 'example.com/example/repo';` or `SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo'; `
 2. Delete the repo by running: `DELETE FROM repo WHERE id=<$id_of_the_repo>;`
 
-- **Option 2**
+- **Option 2 ('Soft' delete)**
+
+Note: A soft delete does not permanently delete a repository in the database. What a soft delete means is that a repository can be un-deleted in the future.
 
 1. Get the id of the repo by running: `SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo'; `
-2. Update the `deleted_at` column of the repo by running: `UPDATE repo SET deleted_at = 'YYYY-MM-DD HH:MM:SS' WHERE id=<$id_of_the_repo>;`
+2. Rename the repo by running: `UPDATE repo SET name = soft_deleted_repository_name(name), deleted_at = transaction_timestamp() WHERE deleted_at IS NULL AND id = <$id_of_the_repo>`
+3. Update the `deleted_at` column of the repo by running: `UPDATE repo SET deleted_at = 'YYYY-MM-DD HH:MM:SS' WHERE id=<$id_of_the_repo>;`
 
-- **Option 3**
+Note: Deleting a repository from the database does not automatically delete the data on disk (in `gitserver`). This requires additional steps.
+To get the correct repo in `gitserver` you will need to get it's `shard_id` by running the following command in the database;
 
-1. Confirm the name of the repo by running: `SELECT name FROM repo WHERE id=<$id_of_the_repo>;`
-2. Update the `name` column of the repo by running: `UPDATE repo SET name = 'DELETED-example.com/example/repo' WHERE id=<$id_of_the_repo>;`
+`SELECT shard_id FROM gitserver_repos where repo_id = <$id_of_the_repo>`
 
-You also can;
 
-- **Option 3**
+## Verifying the repository was removed from the database
 
 Exec into `gitserver` by running;
 
@@ -66,16 +70,6 @@ and then;
 2. Navigate (`cd`) into the codehost/repo-owner
 3. Run `rm -rf $repo_name`
 
-## Verifying the repository was removed
-
-To confirm if the repository was removed, either;
-
-1. Exec into `gitserver` by running;
-
-   - `kubectl exec -it $GITSERVER_POD sh` on Kubernetes
-   - `docker exec -it $GITSERVER_CONTAINER` sh on Docker then;
-
-2. `cd` into `/data/repos/$codehost/` to confirm that it is in fact deleted.
 
 or
 
@@ -83,3 +77,7 @@ or
 2. `SELECT FROM repo WHERE name LIKE 'example.com/example/repo';`
 
 Both instances should return null results to help confirm deletion.
+
+## WIP - Removing repositories from disk
+
+This section will guide you on the steps for removing repositories from `gitserver`
