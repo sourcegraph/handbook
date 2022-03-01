@@ -41,11 +41,11 @@ To help us understand if we’re going in the right direction and to measure the
 
 - [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
 
-- #### [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
+- [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
 
-- #### [Improve engineering onboarding: tooling](https://github.com/sourcegraph/sourcegraph/issues/31005)
+- [Improve engineering onboarding: tooling](https://github.com/sourcegraph/sourcegraph/issues/31005)
 
-- #### [Improve support for application developer experience](https://github.com/sourcegraph/sourcegraph/issues/31006)
+- [Improve support for application developer experience](https://github.com/sourcegraph/sourcegraph/issues/31006)
 
 ### Next (6–12 months)
 
