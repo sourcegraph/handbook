@@ -61,7 +61,7 @@ kubectl delete sts gitserver --cascade=orphan -n prod
 8. Modify and deploy StatefulSet with extended disk sizes (change `storage` to `<new size>` in this example):
 
 - in [StatefulSet](https://k8s.sgdev.org/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/base/gitserver/gitserver.StatefulSet.yaml?L148)
-- in persistent volumes files: https://k8s.sgdev.org/github.com/sourcegraph/deploy-sourcegraph-cloud/-/tree/base/gitserver (all files with `repos-gitserver-[NUMBER].PersistentVolume.yaml` names)
+- in [PersistentVolumes](https://k8s.sgdev.org/github.com/sourcegraph/deploy-sourcegraph-cloud/-/tree/base/gitserver) (all files with `repos-gitserver-[NUMBER].PersistentVolume.yaml` names)
 - deploy via [buildkite job](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud)
 
 9. Delete StatefulSet pods one by one (optional)

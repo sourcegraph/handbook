@@ -74,7 +74,7 @@ During the trial, CE is enabling and educating the customer on how to use Source
 
 ## Security Reviews
 
-Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](security-reviews.md)
+Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](../process/security-reviews.md)
 
 The current CE Security SMEs are [Max Wiederholt](../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
 
@@ -82,7 +82,7 @@ The current CE Security SMEs are [Max Wiederholt](../../../team/index.md#max-wie
 
 CEs are the team responsible for generating and maintaining license keys for customers. Here's some useful resources on how to do that:
 
-- [Creating and maintaining license keys for customers](license_keys.md)
+- [Creating and maintaining license keys for customers](../process/license_keys.md)
 - [Recording of creating a new key for demo.sourcegraph.com](https://drive.google.com/file/d/1fYsBqdzdBLd0mzAu2FJxrWznRX0k-iqr/view?usp=sharing)
 
 # Post-Sales Customer Touchpoints
@@ -190,7 +190,7 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 ## CE Technical Win Management
 
-CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
+CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](../process/tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
 
 ## Red Accounts
 
@@ -214,7 +214,7 @@ Both the AE and CE are responsible for participating in the creation of the acti
 
 ## Tech Reviews
 
-Tech Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).
+Tech Reviews are documented as part of the [CE Technical Win Management Process](../process/tech-win-process.md).
 
 ## Account Planning
 
