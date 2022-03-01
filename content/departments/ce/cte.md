@@ -22,18 +22,18 @@ Some probable or potential milestones include: trial enablement program, new cus
 ### Initial Success Metrics
 As the Customer Training program is rolled out, success will be quantified by measurable outcomes and future iterations dictated based on metrics. It will be important to consider and have these metrics in mind so that as systems are being put into place, metrics can be established for reporting and tracking purposes.
 
-### Longer Term Vision (1+ year out)
+## Longer Term Vision (1+ year out)
 While year 1 is focused on establishing our external-facing Customer Training program, and building out internal training and enablement for the CE team, year 2 and beyond will focus on scale and self-service capabilities. A desired future state is one where our customers are able to self-service the majority of their needs without a dedicated, named Customer Engineer assigned to them. 
 
 Success measurements for the Customer Training team long-term will orient around combining training related metrics with customer health data for direct analysis and correlation between how training activities subsequently impact certain behaviors, such as specific usage patterns, higher adoption, overall NPS, and ultimately customer retention.
 
 An important aspect of the longer term vision of the Customer Training team will be an established customer-facing training team that may be utilized to do paid training engagements.
 
-### Team Culture & Norms
+## Team Culture & Norms
 - Team Norms (WIP)
 - How we work in support of customers (WIP)
 - How we work with other teams (WIP)
 
-### Internal Team Resources
+## Internal Team Resources
 - New CTE Onboarding (WIP)
 - Career Development (WIP)
