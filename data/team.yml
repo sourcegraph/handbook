@@ -2785,3 +2785,11 @@ bolaji_olajide:
   email: bolaji.olajide@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/bolaji-olajide/)'
   description: 'Bolaji grew up in Lagos, Nigeria and studied Computer Science at a university in Nigeria. Outside of work, he enjoys gaming, listening to music and watching football. He is also an avid contributor to OSS.'
+
+todd_herskovitz:
+  name: Todd Herskovitz
+  role: Strategic Account Executive
+  reports_to: vp_sales_western_region
+  location: San Francisco, CA, USA 🇺🇸
+  github: toddherskovitz
+  email: todd@sourcegraph.com
