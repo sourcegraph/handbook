@@ -24,10 +24,10 @@ The continuity that a CE provides means we give customers consistent and high-qu
 
 ## Reference Resources
 
-### Team Norms & Process
+### Team Culture & Norms
 
 - [Team Norms](team-culture/team-norms.md)
-- [How we work in support of customers](process/working-with-customers.md)
+- [How we work in support of customers](team-culture/working-with-customers.md)
 - [How we work with other teams](team-culture/index.md)
 
 ### Internal Team Resources
