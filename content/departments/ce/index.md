@@ -21,7 +21,7 @@ More details about our team members in [our team READMEs](readmes.md).
 
 ## Goals
 
-Refer to our [OKRs](https://handbook.sourcegraph.com/strategy-goals/goals/2023_q1/#customer-engineering) for the CE team’s full quarter OKRs.
+Refer to our [OKRs](../../strategy-goals/goals/2023_q1/#customer-engineering) for the CE team’s full quarter OKRs.
 
 ## How to Reach Us
 
