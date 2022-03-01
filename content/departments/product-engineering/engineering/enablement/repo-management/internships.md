@@ -40,7 +40,7 @@ Once you clear the Recruiter and Hiring Manager screens, we will ask you to coll
 2. Code that is working correctly
 3. Code that is easy to understand, maintain, extend in the future
 4. Someone that can explain the code and their thought process to fellow developers
-5. Someone that can communicate well and positively reacts to feedback
+5. Someone that can communicate well and reacts to feedback positively
 
 We have two different interview prompts, detailed below with a few specifics revealed during the interview itself.
 
