@@ -11,6 +11,7 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
+- [SLAs for managed instances](#slas-for-managed-instaces)
 - [Creating a managed instance](creation_process.md)
 - [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
@@ -23,8 +24,18 @@ Please first read [the customer-facing managed instance documentation](https://d
 After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
 
 1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
-2. Add the issue to the "[Delivery](https://github.com/orgs/sourcegraph/projects/205/views/1)" board in GitHub (leave the status blank)
-3. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
+2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
+
+## SLAs for managed instances
+
+Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/index.md#slas). Other engineering SLAs are listed below
+
+|                                               | Description                                            | Response time                                  | Provide LOE                                                      | Resolution time                                                 |
+| --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort)                  | Within 10 working days from agreement                           |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             |                                                                  | Within 1 week after latest release                              |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release                    |
 
 ## Technical details
 
@@ -46,15 +57,14 @@ With that said, Docker Compose deployments can scale up to the largest GCP insta
 
 The main limitation of this model is that an underlying GCP infrastructure outage could result in downtime, i.e. is it not a HA deployment.
 
-See also: [Dev FAQ: Why did we choose Docker Compose over Kubernetes deployments?](#dev-faq-why-did-we-choose-docker-compose-over-kubernetes-deployments)
-
 ### Security
 
 - **Isolation**: Each managed instance is created in an isolated GCP project with heavy gcloud access ACLs and network ACLs for security reasons.
 - **Admin access**: Both the customer and Sourcegraph personnel will have access to an application-level admin account.
 - **VM/SSH access**: Only Sourcegraph personnel will have access to the actual GCP VM, this is done securely through GCP IAP TCP proxy access only. Sourcegraph personnel can make changes or provide data from the VM upon request by the customer.
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
-- **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
+- **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
+  Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
 
 ### Access
 
@@ -77,32 +87,6 @@ All customer credentials, secrets, site configuration, app and user configuratio
 No, this is required in order for Sourcegraph to access the instance and debug issues through the initial admin account.
 
 However, it does not need to be used by the customer or their users at all. The default login method can be configured to their SSO provider of choice.
-
-### FAQ: Why did we choose Docker Compose over Kubernetes deployments?
-
-Managed instances is an interim solution to having the Sourcegraph.com Cloud natively support multi-tenant private repositories. The thinking has been that:
-
-1. Managed instances are a good interim solution because Sourcegraph.com Cloud native support for private repositories is several quarters out, at least.
-2. Managed instances are something we can not invest in at all until we see customer traction, and we can tailor how much we invest based on customer traction.
-3. Managed instances are something with little ongoing maintenance burden to us as long as we keep them simple, and automate as much as possible when we begin to see traction.
-
-Because of these reasons, and due to this being an interrupt to our regularly scheduled work, a few things with Kubernetes managed instances did not make sense at our current point in time:
-
-- We would need to set up multi-machine backup infrastructure and processes for restoration—substantially harder to do on a moments notice.
-- Managing network ACLs in a Kubernetes deployment was substantially harder to do:
-  - Need static NAT IPs for prospective customers to allow access to their code host which may be behind a corporate firewall.
-  - Need to integrate something like GCP load balancer for SSL termination _with_ IP allow-listing (to restrict access to customer's VPN only)
-- Performing upgrades in Kubernetes deployments is substantially more time consuming:
-  - Being confident about addressing merge conflicts on upgrades and having them not result in unwanted changes has been difficult for us and customers.
-  - We do not have proper automation in place for Kubernetes upgrades, and automating Docker Compose upgrades seemed much more straightforward.
-
-Additionally, we noted the following:
-
-- Docker-Compose deployments have suited companies up to 25k repos & ~3000 devs well in the past (and, frankly, beyond that..)
-- We have a proper production Kubernetes deployment (sourcegraph.com) but lacked a proper Docker-Compose production deployment—this could act as that and ensure we do even more proper diligence with that deployment type and keep it functioning well for the many customers out there running it today.
-- For the first customer requesting managed instances, we had a spin-up time of approx ~3d only.
-
-None of this is to say that we will not consider switching said managed instances to Kubernetes in the future under different circumstances—it is just to say we are not doing that today.
 
 ### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
 
