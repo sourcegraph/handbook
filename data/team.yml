@@ -1558,7 +1558,7 @@ milan_freml:
 david_rohnow:
   name: David Rohnow
   pronouns: he/him
-  role: Sr. Customer Engineer
+  role: Senior Customer Engineer
   reports_to: senior_manager_customer_engineering_west
   location: San Diego, CA USA 🇺🇸
   github: zrnh
@@ -1927,7 +1927,7 @@ marisa_kanemoto:
 bob_roudebush:
   name: Bob Roudebush
   pronouns: he/him
-  role: Customer Engineering Director
+  role: Director, Customer Engineering
   reports_to: vp_customer_engineering
   manager_role_slug: director_customer_engineering
   location: Indianapolis, Indiana, United States 🇺🇸
@@ -2308,7 +2308,7 @@ greg_seador:
   links: '[LinkedIn](https://www.linkedin.com/in/gseador/)'
   github: gseador
   pronouns: he/him
-  role: Senior Manager, US - West and APAC
+  role: Senior Manager, Enterprise US - West and APAC
   manager_role_slug: senior_manager_customer_engineering_west
   reports_to: director_customer_engineering
   location: Austin, TX, USA 🇺🇸
@@ -2758,7 +2758,7 @@ andy_price:
   email: andy.price@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/andy-price-169427aa/)'
   pronouns: he/him
-  role: Senior Manager, US Enterprise - East and US Commercial
+  role: Senior Manager, Enterprise - US East and US Commercial
   manager_role_slug: senior_manager_customer_engineering_east
   reports_to: director_customer_engineering
   location: Arlington, VA, USA 🇺🇸
