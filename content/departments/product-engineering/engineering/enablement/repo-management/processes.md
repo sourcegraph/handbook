@@ -36,10 +36,14 @@ More involved support requests follow the below process:
 
 1. Requester sends a message to [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) and links to the issue they created on https://github.com/sourcegraph/customer/issues (the customer issue should include the label team/repo-management).
 2. The IC on the weekly support rotation acknowledges the message in Slack, asks any follow up questions, and provides an ETA for us to review the issue. If the issue is p1, we review immediately.
-3. The IC on support will review the request in more detail and create an issue on our [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1) and add it to the Support Issues list.
+3. The IC on support will review the request in more detail and create an issue on our [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1) and add it to the `Support Issues` list.
 4. If the request is not trivial, the IC will loop in the the EM and PM to triage with the requester on relative priority and timing.
 5. Once we’re ready to work on the issue, the IC will either personally work on the request or work with the team to identify the right owner.
 6. Whoever takes the issue will own it until completion and communicate directly with the requester.
+
+### Stale issues
+
+To effectively manage our focus, if an issue has not received an update to a follow up for 10 days we will remove it from the `Support Issues` list of the [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1). This helps us know what is the most important issue that requires the attention of the `@repo-management-support` engineer without having to constantly sift through a number of issues that might be waiting on our customers to respond. If there is an update to the issue after it has been removed from the `Support Issues` list, please tag `@repo-management-support` in the [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) Slack channel. `@repo-management-support` engineer will review the update and add it back to the `Suport Issues` list.
 
 ## How we work
 
