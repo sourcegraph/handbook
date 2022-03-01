@@ -39,7 +39,7 @@ To help us understand if we’re going in the right direction and to measure the
 
 ### FY23 Q1
 
-- #### [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
+- [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
 
 - #### [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
 
