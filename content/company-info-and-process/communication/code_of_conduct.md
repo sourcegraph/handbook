@@ -1,5 +1,7 @@
 # Code of conduct
 
+Last updated: January 24, 2022
+
 Related: see "[Diversity, equity, and inclusion](dei.md)"
 
 The purpose of this Code is to promote responsible and ethical conduct in the way we run our business. We want this Code to help you respond to common ethical dilemmas and avoid pitfalls.
@@ -16,7 +18,7 @@ We care about the safety and comfort of everyone in our community, including col
 
 ## Team member philosophy
 
-If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#Raising concerns).
+If you work at Sourcegraph or participate in our projects and community, you are important to us. If for any reason you don't feel that, [please let us know](#raising-concerns).
 
 Your ultimate success with Sourcegraph will be a function of your personal agency and the environment we create as a team. We want that environment to set you up for success and enable you to thrive while realizing your professional goals and dreams.
 
@@ -77,7 +79,7 @@ Leadership has the right and responsibility to remove, edit, or reject comments,
 
 We provide equal employment opportunities for all who work at and apply to work at Sourcegraph. We are committed to providing an environment free of harassment and discrimination of all types.
 
-Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. See the Reporting violations section.
+Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. See the [Raising concerns](#raising-concerns) section.
 
 We must comply with all applicable labor laws. We do not use or tolerate the use of forced, involuntary, or child labor.
 
@@ -145,21 +147,19 @@ Here are some areas where conflicts of interest could arise:
 
 - **Outside employment, advisory, or board service**
 
-You want to work for or provide services to a third party that (a) impairs your ability to do your work for Sourcegraph or (b) otherwise creates a conflict of interest. If you are unsure or have a borderline scenario, get written approval from your manager first.
-
-A conflict is especially likely if the third party is (i) an actual or potential competitor or (ii) a supplier or contractor with which Sourcegraph does a material amount of business, such as the equivalent of $10,000 USD or more per year.
+  - You want to work for or provide services to a third party that (a) impairs your ability to do your work for Sourcegraph or (b) otherwise creates a conflict of interest. If you are unsure or have a borderline scenario, get written approval from your manager first.
+  - A conflict is especially likely if the third party is (i) an actual or potential competitor or (ii) a supplier or contractor with which Sourcegraph does a material amount of business, such as the equivalent of $10,000 USD or more per year.
 
 - **Financial interest and investments**
 
-You have an undisclosed material financial interest or want to make a material investment (such as greater than 1% ownership in a company) in (i) an actual or potential competitor or (ii) a supplier or contractor with which Sourcegraph does a material amount of business, such as the equivalent of $10,000 USD or more per year.
+  - You have an undisclosed material financial interest or want to make a material investment (such as greater than 1% ownership in a company) in (i) an actual or potential competitor or (ii) a supplier or contractor with which Sourcegraph does a material amount of business, such as the equivalent of $10,000 USD or more per year.
 
 - **Business with related parties**
 
-You want to place company business with a firm owned or controlled by you or your family. “Family members” include spouses, parents, children, siblings, and in-laws.
+  - You want to place company business with a firm owned or controlled by you or your family. “Family members” include spouses, parents, children, siblings, and in-laws.
 
 - **Personal relationships**
-
-You want to hire or supervise a family member or closely related person.
+  - You want to hire or supervise a family member or closely related person.
 
 ## No bribery
 
@@ -171,17 +171,16 @@ Globally, many countries have laws that prohibit bribery, kickbacks, and other i
 1. Kickbacks are agreements to return a sum of money to another party in exchange for making or arranging a business transaction.
 1. A bribe is defined as directly or indirectly offering “anything of value” to influence or induce action, or to secure an improper advantage.
 1. “Anything of value” is very broadly defined and can include such things as:
-
-- Cash
-- Gifts
-- Meals
-- Entertainment
-- Travel and lodging
-- Personal services
-- Charitable donations
-- Business opportunities
-- Favors
-- Offers of employment
+   - Cash
+   - Gifts
+   - Meals
+   - Entertainment
+   - Travel and lodging
+   - Personal services
+   - Charitable donations
+   - Business opportunities
+   - Favors
+   - Offers of employment
 
 ### Government officials
 
@@ -204,7 +203,7 @@ Exchanging gifts can help build relationships but can also create a conflict of 
 
 Reach out to the Legal Team with any questions about whether you should give or accept a gift.
 
-### FAQs
+### Gifts FAQs
 
 Q: What should you do if you receive a gift that does not meet all the above criteria?
 

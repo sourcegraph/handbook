@@ -1,6 +1,7 @@
 {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+    {
       "type": "Feature",
       "properties": {
         "name": "Thorsten Ball"
@@ -385,7 +386,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.723960,
+          39.72396,
           47.210317
         ]
       }
@@ -1401,8 +1402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.212680,
-          40.818130
+          -73.21268,
+          40.81813
         ]
       }
     },
@@ -1414,8 +1415,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.789800,
-          45.070740
+          11.7898,
+          45.07074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petri-Johan Last"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.860151,
+          -33.932106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "name": "Jeff Wayman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.24863052368164,
+          27.962035105066086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quinlan Sparks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.14605712890625,
+          41.77950486590359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michal Vrtiak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.60324662923813,
+          49.18813918271655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michelle Veronese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.548271,
+          -121.988571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leo Papaloizos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.127758,
+          51.507351
         ]
       }
     }

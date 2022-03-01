@@ -53,6 +53,7 @@ There are some test environments created specifically for the CS team to run tes
 - [Dogfood Perforce instance](../process/p4-enablement.md)
 
 > NOTE: You can find all the login credentials for the test instances in your 1Password account.
+> NOTE: It is not advised to use a personal AWS account for testing. Reach out to #delivery to be added to the Sourcegraph org on AWS
 
 ## Troubleshooting
 

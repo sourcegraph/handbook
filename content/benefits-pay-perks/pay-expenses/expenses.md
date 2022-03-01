@@ -2,19 +2,21 @@
 
 ## Approvals
 
-Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../benefits-perks/spending-company-money.md)). However, if you intend to spend >$500 on a single purchase (or, depending on your position, above higher limits), please see our [spending limits](../../departments/finance/process/payables.md#limits). For all expense related questions, feel free to email us at ap@sourcegraph.com or post in Slack at #expense-inquiries.
+Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../benefits-perks/spending-company-money.md)). Approvals for spend are routed based on amount and department in Airbase, please see our [spending limits](../../departments/finance/process/payables.md#limits). For all expense related questions, feel free to email us at ap@sourcegraph.com or post in Slack at #expense-inquiries.
 
 ## Submit expenses every month
 
-Teammates should submit expenses at the end of every month, ideally in a single report (if US based) or invoice (if based outside the US) for the full month.
+Teammates should submit expenses at the end of every month.
 
-Our accountants prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses before the month ends simplifies their jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
+We prepare unaudited financial statements every month based on the prior month's spending. Submitting expenses before the month ends simplifies our jobs, makes the financial reports we rely on for planning more accurate, helps our finance team track and ensure that each teammate is in compliance with our monthly expense limits, and helps you get your money back faster!
 
-Any expenses more than 90 days old require approval by People Ops and Finance.
+Any expenses more than 90 days old require approval by Finance.
 
 ## US based teammates
 
-You will receive an invitation via email to our Expensify organization during your first week, please sign up using that link. (Please do not sign up manually, this will create an account but it will not be associated with the proper organization or expense policy and will result in delayed reimbursements). If you do not have an invite to Expensify within your first week, please contact People Ops. You will need to link a bank account to Expensify.
+Reimbursement requests are processed on Airbase, which can be accessed via Okta. You will need to add your banking information into Airbase. All expenses will first be routed to your direct manager and then to Accounting for approval. Expect a 7-10 day turn around on receiving reimbursements.
+
+[Reimbursements Help](https://help.airbase.com/hc/en-us/articles/360057207871-Overview-of-Reimbursements-)
 
 ## Teammates using Velocity Global
 
@@ -31,7 +33,7 @@ Team members using Velocity Global will receive an email invitation to our Expen
   - Some frequently asked questions about categories include:
   - Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
   - Computer purchases and other hardware (monitor, headphones, etc.) should be categorized as "Computer & Related"
-  - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Furniture & Office"
+  - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Desk Setup Stipend"
   - Team building event purchases should be categorized under "Team Morale"
   - Co-Working space bills should be categorized as Rental & Co-Working Space
   - There is no designated "home office setup" category in Expensify. Each expensed item should be categorized individually. So even though we have one home office setup budget, it spans across multiple categories.

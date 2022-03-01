@@ -21,7 +21,7 @@ You completed your first week—great job! The first week is always a whirlwind 
 
 Here’s where you’ll spend your time in week 2:
 
-- **Pair with your buddy on your work:** Your onboarding buddy will pair with you on one or more tasks from our [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1). These will be tasks that we’ve previously evaluated as being good for new hires to tackle (and ship to production!)
+- **Pair with your buddy on your work:** Your onboarding buddy will pair with you on one or more tasks from our [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1?filterQuery=onboarding+). These will be tasks that we’ve previously evaluated as being good for new hires to tackle (and ship to production!)
 - **Pair with a different team member on their work:** Now let’s switch things up!. Set up time with a different repo management team member and help them with something they’re currently working on. Ask plenty of questions to understand how things fit together (and why).
 - **Take a service tour:** We’ve created service tours for important services that we interact with regularly. Choose one of them, use the links in the supporting documentation to explore the code, and then discuss what you learned with your onboarding buddy.
 

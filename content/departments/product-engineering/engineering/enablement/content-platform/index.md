@@ -6,8 +6,6 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 {{generator:product_team.content_platform}}
 
-- Mate Gyorffy (Contractor)
-
 ## Our Strategy
 
 [Mission & Vision](../../../../../strategy-goals/strategy/enablement/content-platform/index.md)
@@ -28,7 +26,7 @@ The current existing content platforms include:
 
 ### Requests
 
-The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Requests to the content platform team can be made through a Slack workflow:
+The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Note that if you're comfortable making changes to one of these sites, you don't have to put in a request for the Content Platform Team. We are happy to serve as a review on your PR, but no need to put in a request unless you need us to complete the work for you. Requests to the content platform team can be made through a Slack workflow:
 
 1. In the #content-platform channel in Slack, click the + icon, then “Content Platform Request”
 
@@ -36,6 +34,15 @@ The content platform team helps with updates or changes to the various [sites we
 
 2. This will prompt you to fill out a form with relevant details.
 3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
+   - **Note:** You'll see a condensed version of your request appear in the #content-platform channel instead of the full text you entered. Your full request will be sent directly to the PM via Slackbot, and they will follow up with questions as needed.
+
+#### Service level agreements (SLAs)
+
+- **Initial response:** all requests will be (triaged)[#triaging-incoming-requests] within one business day.
+  - **Urgent requests:** If your request is urgent, flag it in the #content-platform channel or contact the CPT [Product Manager](#members) directly so they can respond as soon as possible. Urgent requests are issues impacting customers' ability to interact with our sites, issues blocking an essential part of a current marketing campaign, or potentially other requests defined on a case-by-case basis.
+- **Resolution:**
+  - **Non-urgent requests** will be resolved by a due date agreed upon by the CPT and the requestor as part of triage.
+  - **Urgent** requests will be worked until the issue is resolved or no longer in an urgent state.
 
 ## Principles
 
@@ -56,10 +63,14 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 ### Creating Issues
 
 - Anyone can [create an issue in the repos](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) we work in:
-  - [Sourcegraph/About](https://github.com/sourcegraph/about/labels/blog)
-  - Includes marketing site, blog, docs
-  - [Sourcegraph/Handbook](https://github.com/sourcegraph/handbook)
-  - [Sourcegraph/Learn](https://github.com/sourcegraph/learn)
+  - [About](https://github.com/sourcegraph/about/issues/new)
+    - [Blog](https://github.com/sourcegraph/about/issues/new?labels=about-blog)
+    - [Legal Docs](https://github.com/sourcegraph/about/issues/new?labels=legal)
+  - [Learn](https://github.com/sourcegraph/learn/issues/new/choose)
+  - [Handbook](https://github.com/sourcegraph/handbook/issues/new/choose)
+  - Docs:
+    - [Docs](https://github.com/sourcegraph/sourcegraph/issues/new?labels=docs) for content level
+    - [Docsite](https://github.com/sourcegraph/docsite/issues/new) for application level
   - Note: After issues are created, they must be added to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1) to be prioritized
 - Anyone can request help from the content platform team according to [this process](#requests)
   - Issues are then [triaged](#triaging-incoming-requests) and added to the proper repo in Github (and to the [Content Platform Work project](https://github.com/orgs/sourcegraph/projects/227/views/1))
@@ -87,10 +98,9 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
   - **Blocked/Paused:** Work is currently paused on this issue. If possible, please add details about why the issue is blocked or paused. If you’re blocked, tag your PM for help.
   - **Done:** Work is complete, PR is merged (if applicable), and no further action is needed on this issue.
   - **Not Planned:** Issue has been triaged, but not prioritized with current work. This may mean it will be prioritized in the future when it aligns with the roadmap.
-  - **Not Doing/Cancelled:** Issue has been resolved another way, meaning no work is needed on this issue. Or, we have decided not to work on this issue. Either way, the reason for moving to this status should be explained in a comment.
 - **Automation:**
-  - When an issue or PR is added to the project, its status is set to **Needs Triage**.
-  - When an issue or PR is reopened, its status is set to **Needs Triage**.
+  - When an issue or PR is added to the project, its status is set to **Backlog**.
+  - When an issue or PR is reopened, its status is set to **Ready for Development**.
   - When an issue or PR is closed, its status is changed to **Done**.
     - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
   - When a PR is merged, its status is changed to **Done**.

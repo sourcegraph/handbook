@@ -10,7 +10,7 @@ Our top-level strategy for pricing can be found on the [company strategy page](.
 
 ## Pricing tiers
 
-We have three pricing tiers, Free, Team, and Enterprise. Our Free tier allows users to try the product in a self-service way before they buy, and our Team and Enterprise tiers allow us to charge our users in a fair, understandable way once they see the value.
+We have two pricing tiers: Free and Enterprise. Our Free tier allows users to try the product in a self-service way before they buy, and our Enterprise tier allow us to charge our users in a fair, understandable way once they see the value.
 
 ## Add-on features
 

@@ -47,19 +47,21 @@ In the next six months, we will focus primarily on improving the self-service ab
 
 ### Goals
 
-#### FY22 Q4
-
-- Establish a scalable process for marketing web requests for the Content Platform team—Until the sites are more self-service, the Content Platform team will make the changes on behalf of the marketing team.
-- Establish a unified technical strategy to drive all content platforms forward
-- Deliver the implementation of the redesigned blog
-
 #### FY23 Q1
 
 - Convert the marketing site to use our preferred tech stack
-- Implement Contentful CMS on marketing site
+- Establish a unified technical strategy to drive all content platforms forward
+- Convert the blog to user our preferred tech stack
+- Deliver the implementation of the redesigned blog
+- Establish and document an incident response strategy for the sites owned by CPT
+
+#### FY23 Q2
+
+- Implement Contentful CMS on marketing site and blog
 - [Marketing website redesign](https://docs.google.com/document/u/0/d/1_LOCIwHGb8A42wqWjZzT6s75_aY6qFK4gMSHLa5YPPE/edit)
 
 #### Longer-term
 
 - Build a library of re-usable UI and functional components across our content platforms
 - Convert the docs site to use our preferred tech stack
+- Perform a design audit on the docs site and make changes accordingly

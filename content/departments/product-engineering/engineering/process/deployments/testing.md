@@ -4,7 +4,7 @@ This section documents testing clusters and deployments.
 
 ## Create a project in the "Engineering Projects" folder
 
-Create a folder with your name [here](https://console.cloud.google.com/projectselector2/home/dashboard?orgonly=true&supportedpurview=project&project=&folder=795981974432) following our [naming conventions](../../tools/infrastructure/gcp.md#Engineering-Projects)
+Create a folder with your name [here](https://console.cloud.google.com/projectselector2/home/dashboard?orgonly=true&supportedpurview=project&project=&folder=795981974432) following our [naming conventions](../../tools/infrastructure/gcp.md#Engineering-Projects). If you are an Application Engineer wishing to start your own project, ask for one to be created in the #cloud-devops channel on slack. When you are done with the project, let #delivery know in the same thread you started in #cloud-devops so that they know it is safe to take it down.
 
 ## How to manually start a test cluster in your test project in GCP
 
@@ -138,21 +138,22 @@ Again, please delete your test project when done. Click on the upper right corne
 
 If you need to build Docker images on Buildkite for testing purposes, e.g. you
 have a PR with a fix and want to deploy that fix to a test instance, you can
-push the branch to the special `docker-images-patch` and
-`docker-images-patch-notest` branches. You shouldn't need to resolve merge conflicts, instead you can simply force-push.
+push the branch to the special [`docker-images-patch`](https://docs.sourcegraph.com/dev/background-information/ci/reference#patch-image) and [`docker-images-patch-notest`](https://docs.sourcegraph.com/dev/background-information/ci/reference#patch-image-without-testing) branches.
+[Learn more about pipeline run types](https://docs.sourcegraph.com/dev/background-information/ci/reference).
 
-Example: you want to build a new Docker image for `frontend` and `gitserver`
-based on the branch `my_fix`.
+To request a build with to build images, you can use [`sg`](https://docs.sourcegraph.com/dev/background-information/sg):
 
-```
-git push -f origin my_fix:docker-images-patch-notest/frontend
-git push -f origin my_fix:docker-images-patch-notest/gitserver
-git push -f origin my_fix:docker-images-patch-notest/$(Docker_image_to_build)
+```sh
+sg ci build [docker-images-patch|docker-images-patch-no-test]
 ```
 
-This will trigger two builds on Buildkite for these branches:
+Example: You want to build a new Docker image for `frontend` and `gitserver` based on your currently checked out branch. You would like to test `gitserver` as well, but the changes to `frontend` are trivial and don't need to be tested again. The commands you would run are:
 
-- https://buildkite.com/sourcegraph/sourcegraph/builds?branch=docker-images-patch-notest%2Ffrontend
-- https://buildkite.com/sourcegraph/sourcegraph/builds?branch=docker-images-patch-notest%2Fgitserver
+```sh
+sg ci build docker-images-patch gitserver
+sg ci build docker-images-patch-notest frontend
+```
 
-And the end of the build you can find the name of the newly built Docker image.
+> NOTE: You can simply force-push if you would like to re-use a branch name with `--force`.
+
+This will trigger two builds on Buildkite that will publish newly built Docker images.

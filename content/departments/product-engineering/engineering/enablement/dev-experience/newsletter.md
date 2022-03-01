@@ -8,6 +8,177 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./index.md#newsletter) for preparing a newsletter.
 
+## Feb 24, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
+
+### SOC2 compliance processes
+
+A new bot, `pr-auditor`, is now live in `sourcegraph/sourcegraph` and is rolling out to [a number of other repositories](https://k8s.sgdev.org/users/robert/batch-changes/pr-auditor-rollout) that houses code that reaches customers. `pr-auditor` will add status checks on your pull requests when you edit descriptions to indicate whether or not it has detected a "test plan" within your pull request description. If a "test plan" is not provided by the time a PR is merged, an issue will be created in [the `sec-pr-audit-trail` repository](https://github.com/sourcegraph/sec-pr-audit-trail/issues) requesting that the PR author document a test plan, or provide a reason for the exception. This serves as an audit log to help us achieve these two SOC2 control points:
+
+> **GN-104** Code changes are systematically required to be peer-reviewed and approved prior to merging code into the main branch.
+
+<span class="virtual-br">
+
+> **GN-105** Application and infrastructure changes are required to undergo functional, security, unit, integration, smoke, regression, and SAST testing prior to release to production.
+
+**What is a test plan?** A test plan is denoted by content following `# Test plan`, `Test plan:`, `### Test Plan:`, etc. within a pull request description. All pull requests must provide test plans that indicate what has been done to test the changes being introduced. Testing methodologies could include:
+
+- [Automated testing](https://docs.sourcegraph.com/dev/background-information/testing_principles#automated-tests), such as unit tests or integration tests
+- [Other testing strategies](https://docs.sourcegraph.com/dev/background-information/testing_principles#other-testing-strategies), such as manual testing, providing observability measures, or implementing a feature flag that can easibly be toggled to limit impact
+
+**Pull request reviews are now also required by default**. Branch protections have been enabled in `sourcegraph/sourcegraph`. In other repositories with `pr-auditor` review checks must be opted out of by including `No review required: ...` within a pull request's test plan.
+
+To learn more, refer to [our updated testing guidance](https://docs.sourcegraph.com/dev/background-information/testing_principles). You can find DevX SOC compliance documentation by control point in [this search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=). If you have any questions or feedback, please do not hesitate to reach out in #dev-experience or in our [GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)!
+
+### Internal tools and libraries
+
+#### Database migrations update
+
+We have now eradicated two classes of errors related to database migrations:
+
+1. On the site-administrator and ops side, we no longer spuriously mark the database as dirty and give up any attempt at migrations at the first sign of trouble. We no longer immediately fail an upgrade because of the mere presence of an empty table or a concurrently created index. Now we only fail for **actual** reasons.
+2. On the development side, we no longer have to worry about two independently created migrations clashing only after both are merged into `main`. That was very annoying to me and now it will never, ever happen again. Check out the help page for the new `sg migration` to check out the new tooling.
+
+See the [migrator docs](https://docs.sourcegraph.com/admin/how-to/manual_database_migrations) for additional info.
+
+#### New `lib/errors` package and `MultiErrors` type
+
+_All_ errors in Sourcegraph backend services should now use the new `github.com/sourcegraph/sourcegraph/internals/errors` package. This consolidation helps us restrict and control the ways that we can create, consume, and compare errors, and will allows us to control library behavior clashes more easily in the future. [#30558](https://github.com/sourcegraph/sourcegraph/pull/30558)
+
+Additionally, all usages of the old `MultiError` type has been replaced with a new, custom multi-error implementation ([#31466](https://github.com/sourcegraph/sourcegraph/pull/31466), [#698](https://github.com/sourcegraph/src-cli/pull/698)). This new error type is an interface that behaves much more closely to regular errors, prevents errors from disappearing due to library conflicts as was previously the case, and supports introspection with `errors.Is`, `errors.As`, and friends much more consistently.
+
+```go
+var err errors.MultiError
+for _, fn := range thingsToDo {
+  err = errors.Append(err, fn())
+}
+return err
+```
+
+Check out the source code [in `lib/errors`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/errors).
+
+#### Actor propagation reminder
+
+Unified actor propagation was introduced a few months ago as part of an effort to enable the implementation of [sub-repository permissions](https://github.com/sourcegraph/sourcegraph/issues/27916) across all Sourcegraph features.
+There have been gradual efforts to roll out this actor propagation to more services, which may cause behavioural changes that impact how permissions are handled if, for example, `internal` actors are not set explicitly.
+When implementing new features please ensure that actors are correctly set and read from contexts.
+
+To learn more, check out the [intro to actor propagation search notebook](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6OTI=).
+
+#### New `teams` package
+
+There is now a unified library for interacting with Sourcegraph teammates for whatever fun integrations you want to build! It leverages [`team.yaml`](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) data as well as additional GitHub and Slack metadata:
+
+```go
+import "github.com/sourcegraph/sourcegraph/dev/internal/team"
+
+func main() {
+  // Neither a GitHub client nor a Slack client is required, but each enables more ways
+  // to query for users and/or get additional metadata about a user.
+  teammates := team.NewTeammateResolver(githubClient, slackClient)
+  tm, _ := teammates.ResolveByName(ctx, "Robert")
+  println(tm.SlackID)
+  println(tm.HandbookLink)
+  println(tm.Role)
+  // etc.
+}
+```
+
+`sg teammate`, branch lock notifications, and Buidlkite failure mentions are [all powered by this API](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+f:dev+ResolveBy...%28...%29+-f:test%7Cmock&patternType=structural).
+
+### Continuous integration
+
+#### Slack mention notifications
+
+We now generate notifications for failed builds based on the author of each commit (using the [new teams package](#new-teams-package)).
+Make sure to set up your [`teams.yaml` entry with your GitHub handle](https://github.com/sourcegraph/handbook/blob/main/data/team.yml) to get notified when your changes fail in `main`!
+
+#### Pipeline readability improvements
+
+Pipeline operations can now be configured into groups with `operations.NewNamedSet` ([#30381](https://github.com/sourcegraph/sourcegraph/pull/30381)). The result looks like this:
+
+![Grouped operations](https://user-images.githubusercontent.com/23356519/151649399-247b9507-3d2e-48b3-9f10-48bea69872c8.png)
+
+`sg ci preview` also leverages this grouping to improve readability of pipeline steps, as well as now leveraging a terminal Markdown renderer to generate nicer output! ([#30724](https://github.com/sourcegraph/sourcegraph/pull/30724))
+
+#### Build traces are now uploaded to Honeycomb
+
+Build traces are now uploaded to Honeycomb to dive into the performance of each command that gets run in a pipeline!
+A link to the uploaded build trace is added as an annotation on the results of each Buildkite build.
+
+![Trace example](https://user-images.githubusercontent.com/23356519/154169455-9d484f0f-7aac-4310-ac62-1551696765ff.png)
+
+To learn more, check out the [Pipeline command tracing docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-command-tracing).
+
+#### Test analytics preview
+
+We have started rolling out Buildkite test analytics support for Go tests and a subset of frontend tests that get run in continuous integration. This is still an experimental Buildkite feature, but you can learn more about it in our [Test analytics docs](https://docs.sourcegraph.com/dev/background-information/continuous_integration#test-analytics).
+
+#### Pipeline documentation
+
+A new command, `sg ci docs`, can now render a full, up-to-date reference of various run types that our pipeline can generate as well as example pipelines of each, such as what gets run with various diff types.
+You can also see a web version of this in the [Pipeline types reference](https://docs.sourcegraph.com/dev/background-information/ci/reference).
+
+Our [pipeline development guide](https://docs.sourcegraph.com/dev/background-information/continuous_integration#pipeline-development) has also been refereshed with updated content, featuring a series of embedded search notebooks! This includes new guidance on:
+
+- [Creating pipeline annotations](https://docs.sourcegraph.com/dev/background-information/continuous_integration#creating-annotations) (using a new API introduced in [#30951](https://github.com/sourcegraph/sourcegraph/pull/30951))
+- [Caching build artefacts](https://docs.sourcegraph.com/dev/how-to/cache_ci_artefacts) (only available on [stateless agents](#coming-soon-stateless-buildkite-agents))
+- [Pipeline observability features](https://docs.sourcegraph.com/dev/background-information/continuous_integration#observability)
+
+#### Generate builds using run types
+
+`sg ci build` now supports an additional argument to automatically generate a Buildkite build using a specified run type ([#30932](https://github.com/sourcegraph/sourcegraph/pull/30932)). For example, to create a `main` dry run build:
+
+```sh
+sg ci build main-dry-run
+```
+
+This now also supports run types that require arguments, such as `docker-images-patch` - learn more in [#31193](https://github.com/sourcegraph/sourcegraph/pull/31193).
+
+![sg ci build](https://user-images.githubusercontent.com/23356519/153933687-110f3657-543b-4d95-b01b-21b6b9e28514.png)
+
+#### Coming soon: stateless Buildkite agents
+
+We will soon be rolling out stateless Buildkite agents to all pipeline builds.
+These should improve the stability and reliability of all pipelines by removing any issues that might be caused by lingering state from other builds.
+Learn more in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c40213922476f9)! ([#31003](https://github.com/sourcegraph/sourcegraph/issues/31003))
+
+#### Optimizations
+
+- **Improvements on the `server` and `gitserver` Docker images building:** after the addition of `p4-fusion` artifacts, the `gitserver` Docker image build time increased to 4 minutes to complete, which also impacted the `server` image. It has been fixed by caching the resulting binary, which brought the build time for `gitserver` down to about 40 seconds, thanks to [#31317](https://github.com/sourcegraph/sourcegraph/pull/31317).
+- **`go-mockgen` is now much faster:** a misconfiguration was causing `go-mockgen` to be downloaded multiple times throughout a `go generate` run. This has been fixed, and run times for `go generate` is now much faster ([#31597](https://github.com/sourcegraph/sourcegraph/pull/31597)).
+
+### Local development
+
+#### Log entries now link to source in VS Code
+
+Each log entry now prints an iTerm link that links to each log statement's source file:line in VS Code ([#30439](https://github.com/sourcegraph/sourcegraph/pull/30439)).
+
+#### Workaround for MacOS firewalls
+
+A new `-add-to-macos-firewall` flag, [enabled by default on MacOS](https://github.com/sourcegraph/sourcegraph/pull/31299), is now available on `sg start` and `sg run` to avoid all those pop-up prompts you get in MacOS when firewalls are enabled. [#30747](https://github.com/sourcegraph/sourcegraph/pull/30747)
+
+If this causes issues for you, the behaviour can be disabled with `-add-to-macos-firewall=false`.
+
+#### `sg` highlights
+
+You can now see what has changed as part of your fresh `sg` installation with the `sg version changelog` command! You can also use it to see what's coming up next with `sg version changelog -next`. [#30697](https://github.com/sourcegraph/sourcegraph/pull/30697)
+
+`sg start` now waits for all commands to install before starting them ([#29760](https://github.com/sourcegraph/sourcegraph/pull/29760)).
+
+M1 macs no longer require _any_ additional workarounds ([#29815](https://github.com/sourcegraph/sourcegraph/pull/29815)).
+
+`sg checks docker` now features a custom Dockerfile parser to enable more powerful checks, such as validating `apk add` arguments as well as also running more existing checks.
+It now powers the Docker check in CI as well! ([#31217](https://github.com/sourcegraph/sourcegraph/pull/31217))
+
+`sg setup` now features an overhauled checks system to make sure your dev environment is ready to go ([#29849](https://github.com/sourcegraph/sourcegraph/pull/31055)).
+
+`sg setup` now supports Ubuntu as a first class citizen and provides automated installation ([#31312](https://github.com/sourcegraph/sourcegraph/pull/31312)).
+
 ## Jan 10, 2022
 
 Happy new year, and welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)! It's been a little while since the last issue, so this is going to be a long one 😄 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).

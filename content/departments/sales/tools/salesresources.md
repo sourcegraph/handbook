@@ -29,7 +29,7 @@ The following templates are currently available:
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
-- [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239)
+- [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
 - [First Call Deck](https://docs.google.com/presentation/d/1-LW97oT-VU4Zu3MXB1Wgbu_bSoAkdfOCfUfx7MWO9lo/)
 
 ### Updating Templates
@@ -42,6 +42,7 @@ To update a template place the new template in the main Sales Template folder, n
 - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
 - [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
+- [GDPR Prospecting Guidelines](https://docs.google.com/document/d/1p1w7YYWoOkiSBbCZBeTJZUkst8vX8GnG1jivtQ9wYBo/edit)
 
 ## Customer Notes
 

@@ -1,6 +1,6 @@
 # Contract review and signature authority policy
 
-Effective and last modified June 21, 2021
+Effective and last modified February 24, 2022
 
 The purpose of this policy is to help you direct your contracts to the right team or teammate to review, approve, and sign.
 
@@ -17,15 +17,19 @@ If you are not sure where to direct a contract for review, approval, or signatur
 
 Legal:
 
-- [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or
-- #legal slack channel
+- [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
+- For general legal requests or questions, please use the #legal slack channel.
+- For Customer Contracts, please submit requests via the #deal-desk slack channel.
+- For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
 
 Give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don’t hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time.
 
 Finance:
 
 - [finance@sourcegraph.com](mailto:finance@sourcegraph.com) or
-- #finance slack channel
+- For general finance requests or questions, please use the #finance slack channel.
+- For Customer Contracts, please submit requests via the #deal-desk slack channel.
+- For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
 
 If you submit a request via #legal or #finance slack channels, no need to duplicate your request in each channel. You can just post your request in one channel and tag the other team.
 
@@ -101,7 +105,7 @@ For Salesforce, complete the opportunity with the following steps: 1) go to the 
 
 ### NDAs (for customers, vendors, partners)
 
-- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines)
+- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
   - Review: None
   - Approve: None
   - Sign: Director of Legal, VP, or Director
@@ -150,23 +154,46 @@ Templates:
 
   - Review: None
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
-  - Sign: VP Budget Owner
+  - Sign: VP Budget Owner or VP Finance/Operations
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
   - Review: (a) Finance for changes to fees, termination, or tax terms and (b) Legal for any other changes
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
-  - Sign: VP Budget Owner
+  - Sign: VP Budget Owner or VP Finance/Operations
 
-- Vendor Form (including online click-through agreements)
-  - Review: (a) Legal and (b) Finance for payment terms such as fees, termination, and tax terms
+- Vendor Form (including online click-through agreements):
+
+  - Review: (a) Legal (if necessary, based on the below Legal Review Workflow) and (b) Finance for payment terms such as fees, termination, and tax terms
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
-  - Sign: VP Budget Owner
+  - Sign: VP Budget Owner or VP Finance/Operations
+
+### Legal Review Workflow for Vendor Contracts:
+
+- Is legal review necessary?
+  - If (1) no personal data or sensitive data and (2) annual contract spend is projected to be <$100,000 per year, no legal review.
+- Does the vendor access, collect, or receive any customer data (including customer code, repo names, pings or personal data of customer personnel)?
+  - Get a DPA
+  - Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
+- Does the vendor access, collect, or receive any personal data of Sourcegraph personnel (for example, will our teammates create an account to log in)?
+  - Personal data typically includes usernames or email addresses, but can also include any other information that can be used to identify an individual: name, title, personal address, location data, physical characteristics, etc.
+  - Get a DPA
+- Does the vendor access one of the following types of sensitive data?
+  - Sensitive security information (e.g. incident data, security logs, authentication)
+  - Core IT infrastructure (e.g. GCP, AWS, customer data storage)
+- IF ANY OF THE ABOVE, legal to review and negotiate
+  - Indemnification for data breach/confidentiality breach
+  - Uncapped liability for indemnification
+  - Sample language is available in our [Vendor Review Playbook](https://docs.google.com/document/d/1RxuOmvrw8Khe7sbMoNcFkrASoTdh4a0MsqWrg4FWqpw/edit)
+- Examples of contract types that generally do not require legal review
+  - One-off team trainings that do not involve the provision of personal data
+  - Events and conferences
+  - Hotels
 
 Templates:
 
-- [Services contract with a separate SOW](https://drive.google.com/file/d/1zs5DGm1p_ZMjYjBwYDDuf2vITS74qUMC/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
-- [Services contract with pre-populated SOW exhibits](https://drive.google.com/file/d/1rhgTUoaj0BBhACRkCnMom8BAXxaLWYDo/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
+- [Services contract with a separate SOW](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
+- [Services contract with pre-populated SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
 - For software contracts, ask vendor for its template
 
 ### Partner contracts (for product integrations, joint-marketing, and other partnerships with third parties)

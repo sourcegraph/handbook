@@ -67,10 +67,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 #### [Product](departments/product-engineering/product/index.md)
 
-- [Strategy](strategy-goals/strategy/index.md)
-- [Product](departments/product-engineering/product/index.md)
-  - [Product Management](departments/product-engineering/product/process/index.md)
-  - [Product Design](departments/product-engineering/product/design/index.md)
+- [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
+- [Process](departments/product-engineering/product/process/index.md)
+- [Design](departments/product-engineering/product/design/index.md)
 
 #### [Engineering](departments/product-engineering/engineering/index.md)
 
@@ -102,7 +101,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Resources for Candidates](departments/talent/index.md)
 - [Resources for Hiring Manager](departments/talent/index.md)
-- [Resources for Teammaates](departments/talent/index.md)
+- [Resources for Teammates](departments/talent/index.md)
 - [Resources for Recruiters](departments/talent/index.md)
 
 ### [Business Operations & Strategy](departments/bizops/index.md)
@@ -116,6 +115,6 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Tech Ops](departments/tech-ops/index.md)
 
-- [Internal security](departments/tech-ops/process/internal_security.md)
+- [Internal security](departments/tech-ops/process/internal-security/index.md)
 - [Device usage and privacy](departments/tech-ops/process/team_device_usage_privacy.md)
 - [Systems list and guides](departments/tech-ops/tools/index.md)

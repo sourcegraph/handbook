@@ -19,8 +19,10 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Virginia [README](virginia-readme.md)
 - Riana [README](riana-readme.md)
 - Shawnteé [README](shawntee-readme.md)
+- Quinlan [README](quin-readme.md)
+- Sarah [README](sarah-readme.md)
 
-The format, style, order, etc is up to each of us. Just make sure to include the following:
+The format, style, order, etc is up to each of us. Just make sure to include the following to the degree you feel at ease to do so; feel free to add/remove as you see fit:
 
 - Individual view on customer service/support
 - Preferred learning styles
@@ -34,10 +36,10 @@ The format, style, order, etc is up to each of us. Just make sure to include the
 - How do you feel about getting messages after/outside of hours that are meant for you to see and respond to during active hours
 - How folks can best show up for us when we seem off (give space, ask if work is the right place for us to be today, etc)
 - Things you are aware of that trigger anxious feelings/feelings of less than at work
-- Technical areas of knowledge
-- Technical areas of interest to learn
+- Areas of knowledge
+- Areas of interest to learn
 - Current personal project
 - Something you fear
 - A quote you like
 - How you eat fries (with or without ketchup (ketchup on the fries or on the side), etc)
-- Your sun, moon, and rising signs
+- Your sun, moon, and rising signs (if you are into this kind of thing)

@@ -11,7 +11,7 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 - Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
 - Only asking our customers and teammates things we can’t do or answer ourselves
 - Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](process/enablement/root-cause.md) for inspiration)
-- Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication) (see [an open letter about staying a step ahead](process/enablement/step-ahead.md)
+- Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication) (see [an open letter about staying a step ahead](process/enablement/step-ahead.md))
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
 
@@ -34,10 +34,11 @@ We always want the following to be true:
 - **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
-- **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.**
-  - [FY22Q2 OKR plan](strategy-goals/FY22Q2-OKR-Plan.md)
-  - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
+- **We complete our OKRs:**
+  - [FY23Q1 OKR plan](strategy-goals/FY23Q1-OKR-Plan.md)
   - [FY22Q4 OKR plan](strategy-goals/FY22Q4-OKR-Plan.md)
+  - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
+  - [FY22Q2 OKR plan](strategy-goals/FY22Q2-OKR-Plan.md)
 
 ### As an individual application engineer...
 

@@ -11,8 +11,8 @@ The code insights team is responsible for building and delivering code insights 
 
 ## Quick Resources
 
-- [Product docs](https://docs.sourcegraph.com/code_insights)
-- [Development docs](https://docs.sourcegraph.com/dev/background-information/insights)
+- Product docs - ask in #code-insights (internal) or your Sourcegraph contact (external)
+- Development docs - ask in #code-insights
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
 - [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)

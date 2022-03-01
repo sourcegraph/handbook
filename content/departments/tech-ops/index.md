@@ -1,14 +1,24 @@
 # Tech Operations (Tech Ops)
 
-The Tech Ops team helps implement, build, integrate, upgrade, and maintain all of our enterprise and internal applications. Tech Ops empowers the rest of the business to reach their goals by owning the systems that they rely on every day.
+The Tech Ops team helps implement, build, integrate, upgrade, and maintain all of our internal applications Tech Ops empowers the rest of the business to reach their goals by owning the systems that they rely on every day. Additionally, Tech Ops protects, manages, troubleshoots, and procures Sourcegraph teammates' devices. Providing protective measures to secure our machines proactively protects our teammates privacy and Sourcegraph and our client's data.
 
-As we scale our team and our customer list, we need help with all of the applications and internal tools that are straining to keep up. From making it easier to onboard new teammates with single sign-on software, to developing custom GitHub and Slack bots, to configuring and maintaining Salesforce, to identifying gaps in our internal [processes](process/index.md) and recommending system improvements, the Tech Ops team is an essential part of keeping Sourcegraph running smoothly.
+Tech Ops is excited to announce that we will also be adding a compliance function to the team soon.
+
+## Our Team
+
+{{generator:reporting_structure.tech_ops_manager}}
+
+### Roles
+
+We are hiring for positions in Tech Ops! See our [careers page](https://boards.greenhouse.io/sourcegraph91) to see all roles.
 
 ## Goals
 
 - Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](tools/index.md))
 - Provide global support for all team members who need assistance with hardware and application support
 - Keep Sourcegraph’s internal systems secure and compliant with legal requirements while maintaining transparency
+- Provide processes
+- Capture data so that we can identify gaps in our existing processes and common issues with our systems
 
 ### How we intend to get there
 
@@ -17,19 +27,16 @@ As we scale our team and our customer list, we need help with all of the applica
 - Create a robust IT support team that can manage global response and ensure the security of our software
 - Maintain a comprehensive systems architecture and asset register
 
-### Current Major Initiatives
+### Tools
 
-- [Okta SSO Implementation](tools/Okta.md)
-- [Internal Security](process/internal_security.md)
+- [Okta SSO implementation](tools/Okta.md)
 - [Vendr](tools/Vendr/index.md)
-- [Computer Setup](tools/computer_setup.md)
+- [Zoom](tools/zoom.md)
+- [Workspace One & Carbon Black](tools/endpoint-antivirus.md)
 
-## Team
+### Processes
 
-### Members
-
-{{generator:reporting_structure.tech_ops_manager}}
-
-### Roles
-
-We are hiring for positions in Tech Ops! See our [careers page](https://boards.greenhouse.io/sourcegraph91) to see all roles.
+- [Device usage & privacy](process/team_device_usage_privacy.md)
+- [Internal security](process/internal-security/index.md)
+- [Computer setup](tools/computer-setup.md)
+- [Computer buyback program](process/buyback.md)

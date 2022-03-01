@@ -52,7 +52,6 @@ A couple of notes before to help you get started in figuring out which team will
 
 - In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Delivery, Repo Management, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
 - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging product + engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all. Also, for these features we're still figuring out how users expect them to work, so often "bugs" are informative to understand product or education gaps in the feature – you're helping the team by surfacing them directly).
-  `
 
 ### Deployment
 
@@ -97,7 +96,7 @@ Any questions about user authentication should be routed to the Repository Manag
 
 ### Code intelligence
 
-**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
+**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
 Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../product-engineering/engineering/code-graph/code-intelligence/index.md).
 
@@ -142,6 +141,14 @@ Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../..
 **Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
 
 Any questions about Code Insights should be routed to the [Code Insights Team](../../product-engineering/engineering/code-graph/code-insights/index.md)
+
+### Docs site availability
+
+**Keywords**: `docs`, `documentation`, `sourcegraph.com`,
+
+The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our technical writing team).
+
+If the docs site is unavilable, route to the [Content Platform team](../../product-engineering/engineering/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
 
 ## Step 4: File a Github issue
 

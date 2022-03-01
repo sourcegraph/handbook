@@ -12,12 +12,14 @@ A full time position may be possible depending on performance and what roles are
 
 ## Open Positions:
 
-We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found here:
-COMING SOON
+We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
-### College Job Boards we’re Using:
+### Job Boards we’re Using:
 
-- Handshake
+- Handshake (Coming Soon)
+- [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
+- [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
+- [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fqti3gmuu2b6800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 
 ## Compensation:
 

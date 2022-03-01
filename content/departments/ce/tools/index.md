@@ -19,3 +19,4 @@ List of commonly used and recommended tooling for Customer Engineers.
 
 - [Krisp](https://krisp.ai/)
 - [Productboard](https://sourcegraph.productboard.com/)
+- Being [notified](../../product-engineering/product/process/user_stakeholder_feedback.md##nps-survey) of NPS score submissions

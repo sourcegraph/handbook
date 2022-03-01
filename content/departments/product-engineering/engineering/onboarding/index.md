@@ -16,6 +16,8 @@ You'll have to get some basics set up in your first few days:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)
 - If you need access to Percy for visual testing, ask on #dev-chat for an invitation to our org.
+- If you did not receive your invitation to the `sourcegraph` GitHub organization, reach out to our Tech Ops team in `#it-tech-ops` in Slack.
+- If you need access to any additional tool or are having issues with any of them such as, reach out to our Tech Ops team in `#it-tech-ops` in Slack.
 
 ## Manager checklist
 
@@ -29,7 +31,7 @@ Your manager should complete the following steps when you join:
     - Invite to relevant GitHub teams, including @sourcegraph/everyone.
   - [Productboard](https://sourcegraph.productboard.com)
   - [Figma](https://figma.com)
-  - Add the user to the `gcp-engineering` [group](https://console.cloud.google.com/iam-admin/groups?orgonly=true&project=&folder=&organizationId=1006954638239&supportedpurview=organizationId) so they have access to our [Google Cloud Platform](../tools/infrastructure/gcp.md).
+  - For GCP access, request Tech Ops to add the user to the team specific gcp group, usually gcp-{team-name}. This will provide the user with necessary access to our [Google Cloud Platform](../tools/infrastructure/gcp.md)..
 - Grant access to necessary services.
 
   - [Sourcegraph organization on Sourcegraph.com](https://sourcegraph.com/organizations/sourcegraph/settings/members)

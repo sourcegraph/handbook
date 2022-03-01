@@ -13,7 +13,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../team/index.md#sara-lee" target="_blank" rel="noopener">
+          <a href="/team#sara-lee" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/sara.png" alt="Picture of Sara Lee" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -24,7 +24,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../team/index.md#murat-sutunc" target="_blank" rel="noopener">
+          <a href="/team#murat-sutunc" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -35,7 +35,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../team/index.md#beatrix-woo" target="_blank" rel="noopener">
+          <a href="/team#beatrix-woo" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/beatrix.png" alt="Picture of Beatrix Woo" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -46,7 +46,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../team/index.md#erzhan-torokulov" target="_blank" rel="noopener">
+          <a href="/team#erzhan-torokulov" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/erzhan.png" alt="Picture of Erzhan Torokulov" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -57,7 +57,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="../../../../team/index.md#tharuntej-kandala" target="_blank" rel="noopener">
+          <a href="/team#tharuntej-kandala" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
           </a>
         </div>
@@ -68,30 +68,93 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          <a href="/team#philipp-spiess" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of Philipp Spiess" style="background: transparent; width:128px;"/>
+          </a>
         </div>
-        <div style="text-align: center;">P.S.</div>
+        <div style="text-align: center;">Philipp Spiess</div>
         <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-        <div style="text-align: center; font-size: 12px;">(starting 01/10)</div>
       </div>
     </div>
-
-<div class="col" style="flex: 1;">
+  </div>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/rob-rhyne.png" alt="Picture of Rob Rhyne" style="background: transparent; width:128px;"/>
+          <a href="/team#rob-rhyne" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/rob-rhyne.png" alt="Picture of Rob Rhyne" style="background: transparent; width:128px;"/>
+          </a>
         </div>
         <div style="text-align: center;">Rob Rhyne</div>
-        <div style="text-align: center; font-size: 12px;">Temporary product manager and product designer, growth</div>
+        <div style="text-align: center; font-size: 12px;">Temporary Product Manager and Product Designer (Growth)</div>
       </div>
     </div>
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/stephen-gutekanst.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          <a href="/team#stephen-gutekanst" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/stephen-gutekanst.png" alt="Picture of Stephen Gutekanst" style="background: transparent; width:128px;"/>
+          </a>
         </div>
-        <div style="text-align: center;">Stephen Gutekanst </div>
-        <div style="text-align: center; font-size: 12px;">Software Engineer (growth)</div>
+        <div style="text-align: center;">Stephen Gutekanst</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#david-veszelovszki" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of David Veszelovszki" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">David Veszelovszki</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#taras-yemets" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/taras.png" alt="Picture of Taras Yemets" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Taras Yemets</div>
+        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+          <a href="/team#ryan-scott" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/ryan.png" alt="Picture of Ryan Scott" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Ryan Scott</div>
+        <div style="text-align: center; font-size: 12px;">Product Manager (Integrations)</div>
+      </div>
+    </div>
+    <div class="col" style="flex: 1;">
+      <div>
+        <div>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of N.K." style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">N.K.</div>
+        <div style="text-align: center; font-size: 12px;">Engineer</div>
+        <div style="text-align: center; font-size: 12px;">(starting 04/11)</div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="display:flex;">
+    <div class="col" style="flex: 1;">
+      <div>
+        <div style="text-align: center;">
+          <a href="https://boards.greenhouse.io/sourcegraph91/jobs/4068101004?t=c685479c4us" target="_blank" rel="noopener">
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png" alt="Picture with CTA: Join Us" style="background: transparent; width:128px;"/>
+          </a>
+        </div>
+        <div style="text-align: center;">Join Us!</div>
+        <div style="text-align: center; font-size: 12px;">Product Manager (Growth)</div>
       </div>
     </div>
   </div>
@@ -170,6 +233,7 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
 - [Role of sourcegraph.com/search in revenue generation](sourcegraph.com-and-revenue.md)
 - [Defining ‘growth team’](what-is-a-growth-team.md)
 - [Team history](team-history.md)
+- [Onboarding](onboarding.md)
 
 ## Tech stack
 

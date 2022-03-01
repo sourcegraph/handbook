@@ -2,7 +2,7 @@
 
 This page is a list of profiles for IC5 roles at Sourcegraph. The IC5 level is defined through these profiles, acknowledging that impact at IC5 and beyond varies between individuals. As they form the level definition, these profiles can be used in career growth conversations between ICs and EMs, and in [calibration](../talent-review-process.md#calibration-meeting) discussions between EMs and directors.
 
-We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material.
+We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material. Caveat: While many of the traits of various Staff Engineers in Will Larson’s book align with how we are thinking of IC5s at Sourcegraph, we do not currently have titles within Engineering at Sourcegraph and do not call IC5s Staff Engineers.
 
 ## Common traits of IC5 profiles
 
@@ -26,4 +26,13 @@ If the new IC5 profile represents the promotion of an existing teammate, the EM 
 
 ## Profiles
 
-There are no IC5 profiles at Sourcegraph today.
+- [Enablement Org](./enablement-org.md)
+- [Code Intelligence](./code-intelligence.md)
+- [Code Intelligence - Indexing](./code-intelligence-indexing.md)
+- [Code Intelligence - Platform](./code-intelligence-platform.md)
+- [Search Core](./search-core.md)
+- [Search Product](./search-product.md)
+
+## Reporting structure
+
+The nature of some IC5 roles may impact their reporting structure. For instance, an IC5 dedicated to problem-solving at the org level, who frequently navigates between teams, may report to the org's Director rather than to an Engineering Manager. Conversely, IC5s focused on a deeply technical problem area will still report to the Engineering Manager of the owning team for the problem area.

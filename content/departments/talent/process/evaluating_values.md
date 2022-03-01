@@ -81,7 +81,7 @@ We are in a candidate driven market. Candidates have many different opportunitie
 - We have incredible leadership who set the example for trust and open communication.
 - We have endless growth opportunities and we invest in our employees' professional development.
 
-**Part 4**: Provide feedback
+## Providing feedback
 
 - Please fill out your Greenhouse Scorecard following the interview.
 - To ensure that bias doesn't impact your decision-making, please be sure to fill out your scorecard before discussing with anyone.
@@ -108,6 +108,11 @@ Once the values team has been selected, the Recruiter is responsible for sending
 
 Please let me know if this is something you're both willing to participate in and I'll add you to the interview plan. And if you have any questions or would like to practice in advance of the interview, let me know and I'll send a calendar invite!"
 
-# Resources for candidates
+## Feedback scenarios
 
-Coming soon
+- If both interviewers select `yes` or `strong yes`, no further debrief is needed and we can move forward to offer stage if the Hiring Team is aligned.
+- If one or both interviewer select `no`, but the rest of the interview team is `yes` or `strong yes`, then a debrief is needed and the below steps need to be followed before moving to an offer:
+  - **Step 1**: the Recruiter Slacks the Hiring Manager and the VP Talent that the candidate got a `no` on values. The Recruiter asks the Hiring Manager to review the feedback form and the Brighthire to see if they are aligned with the feedback, or if they would like to investigate further.
+  - Example Slack message: "Hi `Hiring Manager` - I wanted to flag that `candidate name` got a `no` / `neutral` during the values interview. As a next step, would you mind reviewing `this feedback` and `this Brighthire video`? We can then make a final determination whether or not to move forward."
+  - **Step 2**: if the Hiring Manager reviews the feedback and Brighthire and is still interested in moving forward to offer stage, the Hiring Manager sends the below Slack to the values interviewer, the VP Talent, and the Recruiter:
+  - Example Slack message: "Hey team! Thank you so much for interviewing `candidate name`for the values interview.  We know it's outside of your day-to-day responsibilities are are super grateful. We noticed you gave a `no`, so before making a final decision, I wanted to circle back to better understand your score. Essentially, I am wondering if you are a firm `no`, or if you came out of the values interview noticing "yellow flags" that need to be investigated further.  Some questions: 1. What flags do I need to dig in further before making a decision? 2. Do you have any serious concerns in moving forward from a values standpoint?  In other words, if I dig on the flags and feel comfortable moving forward, would you be supportive? Thank you again for taking the time to provide your feedback (which I greatly value) to help me better understand any discrepancies before making a final call!"

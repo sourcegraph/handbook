@@ -16,12 +16,13 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 
 #### Tasks
 
+> If you need access to any system, reach out to your peers in `#delivery-internal` on Slack.
+
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
   - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects)
   - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects).
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../../../team/index.md) in Handbook
 - Read our [Delivery handbook pages](index.md)
 - Join the distribution Slack channels
   - #delivery
@@ -29,6 +30,8 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
   - #dev-ops
   - #dev-chat
   - #dev-accounce
+- Make sure you are added to the [Delivery](https://github.com/orgs/sourcegraph/teams/delivery) team in Sourcegraph GitHub org.
+- Ask for access to the [Managed Instances](https://console.cloud.google.com/projectselector2/home/dashboard?folder=206339056180&orgonly=true&supportedpurview=project) project group on [GCP] in `#delivery-internal` channel.
 
 ### Week 2
 
@@ -87,3 +90,5 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 
 - Develop any new material required to help others level up and understand our product
 - Add to the teams planning and OKRs
+
+[gcp]: https://console.cloud.google.com

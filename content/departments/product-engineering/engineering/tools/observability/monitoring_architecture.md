@@ -104,8 +104,9 @@ _Rationale for an all-in-one Prometheus image with prom-wrapper_: This allows us
 
 ## Custom additions
 
-There is currently no process defining how custom additions should be made to our monitoring stack (for example, to accomodate Cloud-specific needs).
+To add custom dashboards for Cloud-specific needs, see [Creating Cloud-only Grafana dashboards](#creating-cloud-only-grafana-dashboards).
 
+There is currently no process defining how custom alerts should be added.
 [RFC 208](https://docs.google.com/document/d/1ub1xsrKTdjA5n-4MAk4AZXtInmgJlMwJ0pI1opkq5mo/) / https://github.com/sourcegraph/sourcegraph/issues/12396 is an ongoing discussion on what custom additions might look like.
 
 ## Sourcegraph Cloud
@@ -132,7 +133,3 @@ Prometheus scrapes Blackbox Exporter every 30s, which will send a request to end
 Alerts are configured separately via the [`deploy-sourcegraph-dotcom` prometheus ConfigMap for `sourcegraph_dotcom_rules.yml`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/prometheus/prometheus.ConfigMap.yaml#L511)
 
 _Rationale for Blackbox Exporter_: Site24x7 has been a source of flaky alerts, outlined in #10742 and more broadly in #11966. In an effort increase reliablity and broaden the scope of our monitoring, Blackbox Exporter was selected as it integrates well into our existing Prometheus and Alertmanager stack.
-
-### Cloudflare Analytics
-
-[Cloudflare Analytics](https://www.cloudflare.com/analytics/) is used to extract useful data about the performance of our WAF, as well as the overall traffic distribution to our instances. Note that the retention of analytics data is relatively short due to the [limits](https://developers.cloudflare.com/analytics/graphql-api/limits) on our plan. See [our Cloudflare developer guide](./cloudflare.md) for more details on how to use the analytics API.

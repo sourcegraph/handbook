@@ -135,3 +135,37 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
 3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
+
+## Support rotation
+
+The team currently follows a support rotation that is intended to allow a single engineer to dedicate time towards supporting customer issues. This support rotation will automatically update based on an [OpsGenie schedule](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/72b2d9c8-8e48-4681-8914-908ead78dd8c) and can be contacted with the @code-insights-support Slack tag. This support rotation is currently intended to be a work hours rotation, instead of on-call.
+
+If the teammate on support duty has time off during their turn, someone else on the team will swap with them or cover. OpsGenie allows to add an override in these cases.
+It's the support engineer's responsibility to reach out proactively, find someone to swap with or cover and add the override.
+
+The engineer assigned to the support rotation is responsible for:
+
+1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md)
+2. Performing a best-effort resolution of the issue
+   1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
+   2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem
+   3. As a reminder, it is better to reach a high quality resolution for our customers, even in high priority escalations. It is acceptable (and expected) to push back on support escalations if you need more time to understand and formulate an answer.
+3. Updating any documentation that may help others understand and solve the issue
+
+### Issue cleanup
+
+To try and reduce the entropy of our backlog, the engineer on support rotation is expected to spend a small amount of time (less than 1 hour per rotation) curating and cleaning up issues. We choose to attach this work to the support rotation since this engineer is already expected to dedicate some time to support, it should be possible to fit this in the allocated time.
+
+This issue cleanup should perform tasks such as:
+
+1. Closing obviously completed issues
+2. Raising questions to the engineering team if something seems unnecessary
+3. Following up on old issues without activity
+4. Assigning missing labels as necessary
+5. Merging duplicate issues
+
+It is important to make a best effort attempt to clean up as much as possible on your own, even if you don't have all of the context. When in doubt, here are some guidelines:
+
+1. Prefer to leave issues open if it isn't clear it should be closed
+2. Prefer to tag people in the issues rather than open new discussions in something like Slack
+3. Leave notes when closing an issue with a short description (ex. "I am closing this issue as a cleanup effort since we already did this work")

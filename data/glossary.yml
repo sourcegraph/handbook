@@ -1,0 +1,201 @@
+# yaml-language-server: $schema=../schema/glossary.schema.json
+
+technical:
+  - term: GQL
+    definition: GraphQL (a type of API, sort of like HTTP or Rest APIs)
+  - term: VSCE
+    definition: VS Code Extension, referring to either the Sourcegraph integration extension for the VS Code IDE, or the Microsoft tool called 'vsce' used to publish extensions
+  - term: Bext
+    definition: Brower extension, sometimes pronounced literally as "bext" or "baxt"
+  - term: LSIF
+    definition: Language Server index Format, a specification created by Microsoft which Sourcegraph uses to provide code intelligence.
+  - term: RFC
+    definition: Request for comments
+  - term: RFH
+    definition: Request for help
+  - term: RCE
+    definition: Remote code execution (a security vulnerability)
+  - term: SSRF
+    definition: Server side request forgery (a security vulnerability)
+  - term: SEO
+    definition: Search engine optimization, making Google understand our web pages better
+  - term: SSBC
+    definition: Server-side batch changes. Large scale code refactoring that runs as part of the Sourcegraph server, rather than on a developer's laptop.
+  - term: POC
+    definition: Proof of concept
+  - term: PR
+    definition: Pull request, where code is sent to be reviewed before becoming a part of the product
+  - term: TODO
+    definition: A note left in the code as a comment indicating something we should do
+  - term: DFS
+    definition: Damn Fine Source code
+  - term: Easy stamp, stamp please
+    definition: Change that needs approval but not review
+  - term: CI
+    definition: Continuous Integration, a server that runs our tests and ensures things are not broken. Often stated as "CI is failing" and "CI is slow"
+  - term: Dogfood
+    definition: Either k8s.sgdev.org (the "dogfood" instance) or just saying "we should try what we built" in general
+  - term: dev
+    definition: Someone who can barely write code, but does so professionally
+  - term: k8s
+    definition: Kubernetes, a thing for deploying software across multiple computers
+  - term: a11y
+    definition: Accessibility, the "11" is because there are 11 characters between the letter A and Y. a`ccessibilit`y
+  - term: i18n
+    definition: Internationalization, like having the UI show in multiple languages.
+  - term: GCP
+    definition: Servers hosted on Google's cloud
+  - term: AWS
+    definition: Servers hosted on Amazon's cloud
+  - term: SMTP
+    definition: or IMAP Email server protocols
+  - term: IDE
+    definition: The text editor people use to write code
+  - term: HG
+    definition: Horse Graph
+  - term: Standup
+    definition: Everyone sits down for 15/30/60m and says what they are doing. Sometimes they just type it.
+  - term: pgsql/psql
+    definition: Postgres database
+  - term: MVP
+    definition: Minimum viable product, the bare minimum needed to see a feature working for example. Think "very early stages, experimental"
+  - term: MVC
+    definition: Model-View-Controller frontend/JavaScript pattern. React. Google "MVC"
+  - term: TDD
+    definition: Test driven development, you write the tests before you write the code that would pass the tests.
+  - term: API
+    definition: Application programming interface; like when your browser makes a request to your bank's web server to send money
+  - term: DOM
+    definition: Document Object Model, a tree of buttons/text/etc that are displayed in browsers. "The DOM" refers to all the stuff making up the web page.
+  - term: LOC
+    definition: Lines of code
+  - term: LOE
+    definition: Level of effort
+
+business:
+  - term: CAC
+    definition: Customer acquisition cost (how much $ spent to win a new customer)
+  - term: ICP
+    definition: Ideal customer profile (the hypothetical perfect customer for your organization; lists all of the qualities that make them the best fit for the solutions you provide.)
+  - term: LCV
+    definition: Lifetime customer value (the total revenue a customer will generate for a business throughout the relationship)
+  - term: B2B
+    definition: Business to business, i.e. we sell to other businesses
+  - term: B2C
+    definition: Business to consumer, i.e. we sell directly to individual consumers
+  - term: GA
+    definition: General availability, either "lol we shipped to prod" (unusual?) or "it was approved by marketing, legal, product, there were design docs, etc."
+  - term: ROI
+    definition: Return on investment
+  - term: WoW
+    definition: Week over week, "We currently have 2% WoW revenue growth" means that last week had 2% more revenue than the previous week.
+  - term: KR
+    definition: Key result, just means "goal we will measure"
+  - term: OKR
+    definition: Objective key result, just means "goal we will measure"
+  - term: Q1
+    definition: First quarter of the year. THIS MEANS [FISCAL YEAR](../../departments/finance#fiscal-years) IN SOURCEGRAPH
+  - term: FY22
+    definition: Fiscal Year 2022. BEWARE - FY22 Q1 means the first quarter of _2021_ not _2022_
+  - term: NPS score
+    definition: One of those "please rate our product on a scale of 1-10" things. Google it for more info.
+  - term: ARR
+    definition: Annual Recurring Revenue - if we have a contract with a customer over any timeframe, how much we get in a one year period.
+  - term: IARR
+    definition: The change in ARR from one period to another.
+  - term: New IARR
+    definition: IARR, but only including new customers
+  - term: Expansion IARR
+    definition: IARR from customers who we already had at the start of the period
+  - term: Booking
+    definition: A customer committed to paying us money, a new customer signing a contract, a contract signed to expand the number of seats, etc.
+  - term: AP
+    definition: Accounts Payable, i.e. our own bills we can pay right now
+  - term: AR
+    definition: Accounts Receivable, [bills customers should pay to us](../../departments/finance/process/ar.md)
+  - term: Cash, AR, AP, Accruals, and Deferred Revenue
+    definition: Very specific terms defined [here](../../departments/finance#financial-planning-and-financial-statement-review)
+  - term: CLA
+    definition: Contributor license agreement, non-employees must sign this before contributing code
+  - term: UX
+    definition: User experience, the experience a user would have going through a flow for example
+  - term: UI
+    definition: User interface, how buttons look, the layout, etc.
+  - term: SaaS
+    definition: Software as a service
+  - term: PQL
+    definition: '[Product Qualified lead](../../departments/bizops/process/product_led_growth.md)'
+  - term: PLG
+    definition: '[Product led growth](../../departments/bizops/process/product_led_growth.md)'
+  - term: MQL
+    definition: '[Marketing qualified lead](../../departments/bizops/process/product_led_growth.md)'
+  - term: SLA
+    definition: Service level agreement
+
+role:
+  - term: AE
+    definition: Account executive - responsible for maintaining an enterprise customer account and our relationship with them
+  - term: AE
+    definition: Application engineer
+  - term: SDR
+    definition: Sales Development reps - focused on reaching out to customers, determining if they're good leads to follow up on
+  - term: MBA
+    definition: Master of Business Administration - a degree, not to be confused with the NBA which is a basketball team
+  - term: GTM
+    definition: Go to market
+  - term: CS
+    definition: Customer Support
+  - term: EM
+    definition: Engineering manager
+  - term: PM
+    definition: Product manager
+  - term: PD
+    definition: Product designer
+  - term: PO
+    definition: Purchase order
+  - term: CSE
+    definition: Customer Support Engineer, someone who can debug issues for example - no longer used, Application Engineer is preferred
+  - term: CE
+    definition: Customer Engineer, e.g. helps customers deploy software and resolve their technical issues
+  - term: IC
+    definition: Individual contributor, not managing other people. Still works on a team with other ICs.
+  - term: Release Guild
+    definition: A captain of releasing the product, drives releases, gathers and informs others about the release, helps test the release, fixes and discovers issues in the release before it goes out.
+  - term: DevRel
+    definition: Developer relations, they post on Hacker News, Reddit, and Twitter about how cool we are. They give talks and go to conferences
+  - term: DevExp
+    definition: Developer experience, improving lives of devs working on sourcegraph
+  - term: devx
+    definition: Developer experience, improving lives of devs working on sourcegraph
+  - term: dx
+    definition: Developer experience, improving lives of devs working on sourcegraph
+  - term: People ops
+    definition: The HR department, scheduling interviews etc.
+  - term: Biz ops
+    definition: Business operations, like financial modeling, managing legal aspects, etc
+  - term: IT tech ops
+    definition: IT team, if you have laptop issues or need to order a computer
+  - term: Ops
+    definition: Operations (includes Finance, Accounting, Legal, People, Data & Analytics, Strategy, and Tech Ops)
+  - term: DRI
+    definition: Directly responsible individual, the "one true owner" of something
+
+general:
+  - term: PTAL
+    definition: Please take a look
+  - term: LGTM
+    definition: Looks good to me
+  - term: SGTM
+    definition: Sounds good to me
+  - term: IIUC
+    definition: If I understand correctly
+  - term: ICYMI
+    definition: In case you missed it
+  - term: NBD
+    definition: No big deal / not a big deal
+  - term: AFAIK
+    definition: As far as I know
+  - term: LFG
+    definition: Looking for Gutekanst - sometimes Looking for Group
+  - term: YAGNI
+    definition: You aren't gonna need it

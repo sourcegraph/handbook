@@ -15,7 +15,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Sample interview questions](process/types_of_interviews.md)
   - [Candidate FAQ](tools/resources_for_candidates.md#candidate-faq)
   - [Providing interview feedback](tools/resources_for_candidates.md#sharing-interview-feedback)
-- [The offer process](process/extending_an_offer.md))
+- [The offer process](process/extending_an_offer.md)
   - [Reference checks](process/reference_check_questions.md)
   - [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 
@@ -170,7 +170,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../team#veronica-bueno" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/VeronicaBitmoji.jpg"
                 alt="Picture of Veronica Bueno" style="background: transparent; width:128px;" />
             </a>
           </div>

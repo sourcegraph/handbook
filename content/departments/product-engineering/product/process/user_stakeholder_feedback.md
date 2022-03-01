@@ -8,6 +8,8 @@ _This page is most relevant to product team members. If you want to know how to 
 
 - [Tracking & sharing user & stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
   - [Sources of feedback](#sources-of-feedback)
+    - [Sales feedback](#salesce-feedback)
+    - [CE feedback](#ce-feedback)
     - [Email lists](#email-lists)
       - [hi@sourcegraph.com](#hisourcegraphcom)
       - [feedback@sourcegraph.com](#feedbacksourcegraphcom)
@@ -16,14 +18,33 @@ _This page is most relevant to product team members. If you want to know how to 
     - [Twitter](#twitter)
     - [Slack](#slack)
     - [Support tickets](#support-tickets)
-    - [Sales/CE feedback](#salesce-feedback)
     - [Hubspot forms](#hubspot-forms)
       - [NPS Survey](#nps-survey)
       - [Browser Extension Uninstall Feedback](#browser-extension-uninstall-feedback)
-    - [CE feedback](#ce-feedback)
   - [Productboard](#productboard)
     - [Adding feedback to productboard](#adding-feedback-to-productboard)
   - [Sharing user feedback](#sharing-user-feedback)
+
+### Sales feedback
+
+- **Purpose:** Customers and prospects often give product feedback on calls with sales members.
+- **Owner:** The Sales team owns feedback from sales calls.
+
+The product team can access recordings using [Chorus AI](https://chorus.ai/). You can find relevant calls using Chorus's search and [tracker](https://docs.chorus.ai/hc/en-us/articles/360036206813-How-to-Create-Trackers) features, which allow you to use keywords to explore call transcripts.
+
+### CE feedback
+
+- **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
+- **Owner:** CE owns raising customer or prospect feedback as [product gaps](surfacing_product_feedback.md). Product owns triaging those product gaps, and keeping CE updated about prioritisation decisions, if the items ends up on the roadmap.
+- **Pipeline:** Each time a product gap submission is added to salesforce, it is posted in #feedback, @-mentioning the PM of the relevant product area. This is powered by a [Zap](https://zapier.com/app/editor/145738791).
+
+Other resources (internal only) the CE team owns:
+
+- The [product gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HH53EAG/view) tracks features that are impacting deals.
+- [Account overview dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HSnLEAW/view).
+- [Account plan documents](https://drive.google.com/drive/folders/1EoKl4lFeR8VvM6LyubMocxN4Z4OHPoNl?usp=sharing) provide the business context for the accounts.
+- [Technical Design Documents](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC?usp=sharing) reflect what the latest state of the customers’ environment.
+- [Customer notes](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0?usp=sharing) are running notes from customer Chorus calls.
 
 ### Email lists
 
@@ -46,8 +67,8 @@ We have a few different email lists that are used to send us feedback.
 
 ### GitHub issues
 
-- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests) is often a developer's default place to leave feedback.
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](responding_to_user_feedback.md) is responsible for labelling with the right team.
+- **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](product_feedback_rotation.md) is responsible for labelling with the right team.
 
 See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
@@ -59,36 +80,31 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns [routing and logging this feedback](responding_to_user_feedback.md#slack-feedback-channel).
+- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](product_feedback_rotation.md) owns routing and logging this feedback.
 
 ### Support tickets
 
 - **Purpose:** A path for existing customers to get responsive support.
 - **Owner:** CS team owns support tickets in Zendesk. If product team members want more insight into the support feedback, they can review [the support dashboard](https://sourcegraph.looker.com/dashboards-next/177) or scan the [customer issues repo](https://github.com/sourcegraph/customer/issues), and cross-reference both with slack searches in support channels. Additionally, at the end of every quarter, the Head of Customer Support provides the product team with [a qualitative summary](https://drive.google.com/drive/folders/12kZOFbnXX8vfzLvso1hO-lf-t-HzJIr-?usp=sharing) and links to details of the major support trends from the prior three months.
 
-### Sales/CE feedback
-
-- **Purpose:** Customers and prospects often give product feedback on calls with sales members.
-- **Owner:** The Sales team owns feedback from sales calls.
-
-The Sales and CE teams also provide a [product gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HH53EAG/view) (internal only) that tracks features that are impacting deals.
-
 ### Hubspot forms
 
 #### NPS Survey
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](responding_to_user_feedback.md#feedback-rotation) owns responding to or forwarding NPS feedback.
+- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding NPS feedback.
+- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/64689250). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack. The CE owner of the deal is also mentioned if they have added their handle to [this spreadhseet](https://docs.google.com/spreadsheets/d/1OnRw9PSuHkw3PdS9DcTFExNEbdUFbjhcSr2iEgGi39k/edit).
+
+#### Happiness widget
+
+- **Purpose:** Users can submit feedback from the `Feedback` button of the Sourcegraph UI.
+- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding happiness widget feedback.
+- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/113508746). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains specific keywords, the PM of the relevant area will be automatically @-mentioned on slack.
 
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
 - **Owner:** The browser extension product manager (currently the [Growth and Integrations team product manager](../../engineering/cloud/growth-and-integrations/index.md#members)) owns responding to this feedback.
-
-### CE feedback
-
-- **Purpose:** CE teammates work closely with customers and often collect explicit customer feedback, general patterns of feedback they notice with a customer(s), and feedback from using the product themselves.
-- **Owner:** CE owns putting this feedback in the #feedback slack channel the [same way](surfacing_product_feedback.md) we ask of other teammates, at which point the product team then owns the feedback.
 
 ## Productboard
 

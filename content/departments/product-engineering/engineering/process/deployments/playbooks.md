@@ -54,7 +54,13 @@ Note: sample for `2021-08-19` code freeze.
 **Image build**
 
 To ensure stability during a [code freeze](https://en.wikipedia.org/wiki/Freeze_%28software_engineering%29), a separate `release/YYYY-MM-dd` branch will be created from `main`, with only approved commits to be `cherry-picked` onto `release/YYYY-MM-dd` branch for release. To ensure any compability between the `main` and `release/YYYY-MM-dd` branches, **ALL** commits must first be merged to `main` and pass [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main) for being `cherry-picked`. All tests will be run on the `release/YYYY-MM-dd` branch and must pass before docker images are published to docker hub.
-When creating a hotfix PR in `sourcegraph/sourcegraph`, it is important to create a branch with prefix `main-dry-run/` (it enables CI pipeline similar to the pipeline which is run against every commit in main branch). More about [run types](https://docs.sourcegraph.com/dev/background-information/continuous_integration#run-types).
+When creating a hotfix PR in `sourcegraph/sourcegraph`, it is important to create a branch with prefix `main-dry-run/` (it enables CI pipeline similar to the pipeline which is run against every commit in main branch). This can be done with:
+
+```sh
+sg ci build main-dry-run
+```
+
+More about [pipeline run types](https://docs.sourcegraph.com/dev/background-information/ci/reference).
 
 **Deploy**
 

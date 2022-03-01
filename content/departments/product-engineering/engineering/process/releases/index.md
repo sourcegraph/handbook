@@ -4,6 +4,8 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
+> As of Feb 3, 2022, the role of Release Captain is now rotation-based within the [Cloud](../../cloud/index.md) org, [learn more](https://sourcegraph.slack.com/archives/C0EPTDE9L/p1643915838386829). If you need assistance with releases, please reach out to [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). The [Delivery] team is more than happy to help you through the process.
+
 ### Releases
 
 **Sourcegraph releases are monthly.**
@@ -38,13 +40,9 @@ These releases **never** require any manual migration steps.
 On rare occasions we may decide to increase the major version number (e.g. `2.13.x` -> `3.0.0`).
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
-## Release process
+## Key concepts and components
 
 This section documents the process used to create releases at Sourcegraph.
-
-### Goal
-
-The goal of our release process is to make releases boring, regular, and eventually, automated.
 
 ### Release captain
 
@@ -52,11 +50,17 @@ The release captain is _responsible_ for managing the release process and ensuri
 
 The release captain should create a tracking issue using the [release issue template](release_issue_template.md) at the beginning of the release cycle.
 
-Release captain responsibilities are currently owned by the [Distribution team](../../distribution/index.md).
+Release captain responsibilities are currently owned by the [Release guild](release_guild.md).
+
+#### Release Retrospective
+
+The release captain is responsible to start an async release retrospective for every release. Typically this will be in a google document located in the [Release Guild folder in Google Drive](https://drive.google.com/drive/folders/1KMGL2iS8yuBHU-fJsTqb8lIqyHcO75nB?usp=sharing). We perform these retrospectives so that we can understand and grow. The long term vision is to improve this release process, and to do so we need to gather information about each release.
+
+The retrospective document should be shared in #release-guild.
 
 ### Release tooling
 
-The [Sourcegraph release tool](../../tools/release.md) is used to generate releases as associated materials (such as tracking issues).
+The [Sourcegraph release tool] is used to generate releases as associated materials (such as tracking issues).
 It leverages the following issue templates, which list all individual steps that needs to be performed, for each type of release:
 
 - [Release issue template](release_issue_template.md)
@@ -120,6 +124,60 @@ The release captain has unlimited power to make changes to the release branch to
 
 Most issues are non-blocking. Fixes to non-blocking issues can be fixed in `main` by the code owner who can then `git cherry-pick` those commits into the release branch with the approval of the release captain. Alternatively, broken features can be reverted out of the release branch or disabled via feature flags if they aren't ready or are too buggy.
 
+### CHANGELOG.md
+
+When releasing a new version, the Release Captain may need to manually update the [CHANGELOG.md]. Follow the instruction below:
+
+- [ ] Check past entries in [CHANGELOG.md] to understand the changelog format.
+- [ ] Create a new H2 title named `{major}.{minor}.{patch}` (the new version) after the `Unreleased` section if it doesn't already exist.
+- [ ] Copy all changelog entries of the commits belong to this patch release into the new H2 title `## {major}.{minor}.{patch}`, grouped into the types they were originally in (e.g. `### Added`, `### Changed`, `### Fixed`, `### Removed`).
+
+## Minor release process
+
+### 1) Start a minor release
+
+Major and minor releases are released on a fixed schedule, see [when we release](#when-we-release).
+
+### 2) Minor release tracking issue
+
+The tracking issue for the current minor release is created as a part of the post-release step from the previous minor release. Learn more from the [release issue template].
+
+The Release Captain should review and follow the instruction in the release tracking release for the next steps. At a high level, it includes the following steps:
+
+- Build a release candidate and verify CI passes
+- Publish final images
+- Update documentation
+- Update references of the image tag to the new version using batch change
+
+### 3) Wrapping up
+
+Follow the instruction from post-release in the release tracking issue to wrap up the release and schedule the next minor release.
+
+## Patch release process
+
+You can reference our [patch release process recording](https://drive.google.com/drive/u/1/folders/1SUp3732AewIKTFcn5cqfvyf5_7d2HyUX) on Google Drive.
+
+### 1) Kickstart a patch release using the [Sourcegraph release tool]
+
+CE or the products team will start requesting a patch release by submitting a [patch release request]. Learn more from the [patch release issue template].
+
+Upon the Delivery team or the Release Captain receives the patch release request and we have decided to roll out a new patch release, the Release Captain should follow the instruction in the [patch release request] issue to kickstart the patch release process. The instruction is located at the bottom of the [patch release request].
+
+### 2) Patch release tracking issue
+
+The [Sourcegraph release tool] creates a patch release tracking issue which contains a list of action items the Release Captain has to perform. Learn more from the [patch release issue template].
+
+The Release Captain should review and follow the instruction in the patch release tracking release for the next steps. At a high level, it includes the following steps:
+
+- Build a release candidate and verify CI passes
+- Publish final images
+- Update documentation and changelog
+- Update references of the image tag to the new version using batch change
+
+### 3) Revisit patch request issue
+
+Now it's a good time to go back to the original [patch release request] and close it.
+
 ## FAQ
 
 ### Why the 20th?
@@ -135,3 +193,15 @@ This is because:
 - We haven't built the automated testing and update infrastructure to make continuous customer releases reliable.
 
 In the future, we may introduce continuous releases if these issues become surmountable.
+
+[patch release request]: https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=
+[revert poor onboarding ux change]: https://github.com/sourcegraph/sourcegraph/issues/30197
+[release-config.jsonc]: https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc
+[sourcegraph release tool]: ../../tools/release.md
+[sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
+[sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
+[delivery]: ../../cloud/delivery/index.md
+[release issue template]: release_issue_template.md
+[patch release issue template]: patch_release_issue_template.md
+[upgrade managed instances issue template]: upgrade_managed_issue_template.md
+[changelog.md]: https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md

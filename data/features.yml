@@ -5,6 +5,12 @@ literal_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -24,6 +30,12 @@ regexp_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -43,6 +55,12 @@ structural_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -62,6 +80,12 @@ diff_commit_search:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -81,6 +105,10 @@ code_monitoring:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -100,6 +128,10 @@ code_monitoring_email_notifications:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_monitoring
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -118,12 +150,18 @@ code_monitoring_webhooks:
   title: Code Monitoring Webhooks
   product_team: search_product
   maturity: not_implemented
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - code_reuse
 
 saved_searches:
   title: Saved Searches
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#saved-searches
+  use_cases:
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -143,6 +181,8 @@ search_contexts:
   product_team: search_product
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_search/explanations/features#search-contexts
+  use_cases:
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -162,6 +202,11 @@ search_based_code_intelligence:
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -175,12 +220,21 @@ search_based_code_intelligence:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: ga
 
 precise_code_intelligence_go:
   title: Precise Code Intelligence for Go
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -194,12 +248,21 @@ precise_code_intelligence_go:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: ga
 
 precise_code_intelligence_jsts:
   title: Precise Code Intelligence for JavaScript/TypeScript
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -213,12 +276,21 @@ precise_code_intelligence_jsts:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: partial_ga
+    managed_instance: partial_ga
+    cloud: partial_ga
 
 precise_code_intelligence_java_scala_kotlin:
   title: Precise Code Intelligence for Java, Scala & Kotlin
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -232,12 +304,21 @@ precise_code_intelligence_java_scala_kotlin:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: ga
 
 precise_code_intelligence_c_cpp:
   title: Precise Code Intelligence for C/C++
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -251,6 +332,10 @@ precise_code_intelligence_c_cpp:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: partial_ga
+    managed_instance: partial_ga
+    cloud: partial_ga
 
 precise_code_intelligence_python:
   title: Precise Code Intelligence for Python
@@ -267,11 +352,24 @@ precise_code_intelligence_ruby:
   product_team: code_intelligence
   maturity: not_implemented
 
+precise_code_intelligence_auto_indexing:
+  title: Precise Code Intelligence auto-indexing
+  product_team: code_intelligence
+  maturity: experimental
+  deployment:
+    self_hosted: experimental
+    managed_instance: experimental
+    cloud: not_implemented
+
 batch_changes:
   title: Batch Changes
   product_team: batch_changes
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/batch_changes
+  use_cases:
+    - code_reuse
+    - code_health
+    - incident_response
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -285,12 +383,32 @@ batch_changes:
     gerrit: false
     perforce: false
     cvs: false
+  deployment:
+    self_hosted: ga
+    managed_instance: ga
+    cloud: not_implemented
+
+server_side_batch_changes:
+  title: Server side batch changes
+  product_team: batch_changes
+  maturity: experimental
+  documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
+  deployment:
+    self_hosted: experimental
+    managed_instance: experimental
+    cloud: not_implemented
 
 code_insights:
   title: Code Insights
   product_team: code_insights
   maturity: beta
-  documentation_link: https://docs.sourcegraph.com/code_insights
+  documentation_link: https://docs.sourcegraph.com/
+  use_cases:
+    - code_health
+    - fixing_security_vulnerabilities
+    - incident_response
+    - code_reuse
+    - developer_onboarding
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
@@ -304,6 +422,10 @@ code_insights:
     gerrit: true
     perforce: true
     cvs: true
+  deployment:
+    self_hosted: beta
+    managed_instance: beta
+    cloud: not_implemented
 
 soc_ii_type_ii:
   title: SOC II Type II
@@ -312,7 +434,7 @@ soc_ii_type_ii:
 
 repository_syncing:
   title: Repository Syncing
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   compatibility:
     gitlab_com: true
@@ -330,7 +452,7 @@ repository_syncing:
 
 repository_permissions:
   title: Repository Permissions
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/repo/permissions
   compatibility:
@@ -349,7 +471,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: repository_management
+  product_team: cloud_saas
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   compatibility:
@@ -368,7 +490,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: repository_management
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   compatibility:
@@ -387,7 +509,7 @@ browser_extension:
 
 native_integration:
   title: Native Integration
-  product_team: repository_management
+  product_team: repo_management
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration
   compatibility:
@@ -406,7 +528,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: deployment
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   compatibility:
@@ -425,7 +547,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: deployment
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   compatibility:
@@ -444,7 +566,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: deployment
+  product_team: devops
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   compatibility:
@@ -463,7 +585,7 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: Pre-built Extensions
-  product_team: extensions
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
   compatibility:
@@ -482,7 +604,7 @@ prebuilt_extensions:
 
 custom_extensions:
   title: Custom Extensions
-  product_team: extensions
+  product_team: growth_and_integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
   compatibility:

@@ -342,43 +342,12 @@ The agenda for the meeting will go as follows:
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes—whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
-The [CE](../../ce/index.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../ce/process/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 
-### Assignments
-
-- See more about coding exercises [here](../../product-engineering/engineering/hiring/software-engineer-coding-exercise.md)
-
-### Technical Interview: General
-
-- Interviewers: two members of the engineering department
-- Duration: 60-minutes.
-- Details: during this stage in the interview process, we will get an understanding of the technical depth of your experience and how you would contribute to our engineering culture. We will ask you about your past work and accomplishments in depth, how you worked with others, decisions you made, and what you'd do differently today.
-
-### Technical Interview: Coding Skills
-
-- Interviewers: two members of the engineering team
-- Duration: 60-minutes.
-- Details: An engineer from the team will pair with you to work on an API Client implementation. The goal is to work on the problem together like you would with a fellow engineer. We plan to use this interview to determine your coding ability and technical communication.
-
-### Technical Interview: Architecture
-
-- Interviewers: two members of the team you are interviewing for
-- Duration: 60-minutes.
-- Details: Two engineers from the team will work with you by verbally discussing how you would design a new system from scratch. We will work with you in this collaborative session to think about and design the system together, looking for your natural intuition about building systems and problem-solving as we throw various wrenches into the system.
-
-### Pairing Exercise
-
-- Interviewer(s): two members of the engineering department
-- Duration: 60-minutes.
-- Details: during this stage in the interview process, we will give you an open problem statement and you will walk us through how you would solve the problem.
-
-## Technical Interview: Complex Problems Deep Dive
-
-- Interviewers: two members of the team you are interviewing for
-- Duration: 60-minutes
-- Details: We will discuss 1–3 of the most complex problems you have solved with code or the most complex codebases you have worked with.
+- [Resources for Candidates](engineering_interview_process_candidates.md)
+- [Resources for Hiring Managers and Teammates](engineering_interview_process.md)
 
 ## Marketing
 

@@ -11,6 +11,15 @@
 
   <dt>Calibration meeting</dt>
   <dd>Meeting with EMs and directors of a group to evaluate each IC for the purposes of determining promotions and ensuring we are all well-calibrated to the engineering levels.</dd>
+
+  <dt>Performance category</dt>
+  <dd>The performance that a teammate is attaining against the expectation of their current level<br/>
+    <ul>
+      <li><em>Needs improvement</em> - falls short on some of the expectations at the indicated level, but performs strong enough not to be classified at a lower level.</li>
+      <li><em>Meeting expectations</em> - meeting all the requirements of the expectations at the identified level</li>
+      <li><em>Exceeding expectations</em> - performing at a very high level at the identified level and possibly showing some signs of starting to perform at the next level</li>
+    </ul>
+  </dd>
 </dl>
 
 ## Cadence

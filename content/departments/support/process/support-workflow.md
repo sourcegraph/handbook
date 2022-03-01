@@ -58,7 +58,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
     1. New = the case has not yet been triaged
     2. Open = an application engineer has not yet taken responsibility (it's a new case) or an application engineer is accountable for the next step
     3. Pending = the customer is accountable for the next step
-    4. On-hold = it's a defect and we are waiting for engineering to fix it
+    4. On-hold = there is no further action with the customer and the next step is internal only OR (in very rare cases), when the customer asks us to hold off due to leave, etc
     5. Solved = the issue is resolved as described above
     6. Closed = the final state (solved tickets move to this status automatically after 16 business hours)
 
@@ -103,7 +103,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### support@ email
 
@@ -115,7 +115,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** An email that is sometimes included in forms we send customers (for example, our NPS forms). It may not be used frequently, but when it is used, we want to be sure nothing falls through the cracks.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### Support contracts
 
@@ -133,7 +133,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 
