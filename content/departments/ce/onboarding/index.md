@@ -99,7 +99,7 @@ After day 90, your role expectations will then align to the predefined CE career
 
 ## CE Demo Certification
 
-Each CE is expected to receive demo certification _before_ being allowed to lead their first customer demo. Certification means passing against [this rubric scoring guide](https://docs.google.com/document/d/1qZ4ctMFcjzDN8fdfKXO3_LcLjRb6UHG6WOWGEbrMmLE/edit). 
+Each CE is expected to receive demo certification _before_ being allowed to lead their first customer demo. Certification means passing against [this rubric scoring guide](https://docs.google.com/document/d/1qZ4ctMFcjzDN8fdfKXO3_LcLjRb6UHG6WOWGEbrMmLE/edit).
 
 As onboarding progresses to around weeks 4 and 5, a new CE should begin practicing their use-case based demo scripts with their mentor and manager 1:1. When a CE and their mentor feel they have progressed enough in demo practice, the onboarding CE should schedule a demo review with their mentor and manager for agreed approval that the onboarding CE can lead customer calls. From this point of approval, an onboarding CE is ready to lead a customer demo.
 
