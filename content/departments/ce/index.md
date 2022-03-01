@@ -19,7 +19,7 @@ More details about our team members in [our team READMEs](team/readmes.md).
 
 ## Goals
 
-Refer to our [OKRs](../../strategy-goals/goals/2023_q1/#customer-engineering) for the CE team’s full quarter OKRs.
+Refer to our [OKRs](../../strategy-goals/goals/2023_Q1.md#customer-engineering) for the CE team’s full quarter OKRs.
 
 ## Resources
 
