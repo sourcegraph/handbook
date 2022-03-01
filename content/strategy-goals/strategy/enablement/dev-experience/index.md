@@ -51,6 +51,6 @@ To help us understand if we’re going in the right direction and to measure the
 
 - [Standardize logging, metrics, and errors](https://github.com/sourcegraph/sourcegraph/issues/30552)
 
-- #### Standardize code checks and testing
+- Standardize code checks and testing
 
 - #### Improve incident detection on Sourcegraph Cloud
