@@ -325,7 +325,7 @@ mark_muldez:
 christine_lovett:
   name: Christine Lovett
   pronouns: she/her
-  role: Customer Engineer
+  role: Principal Customer Engineer
   reports_to: senior_manager_customer_engineering_west
   location: Baltimore MD, USA 🇺🇸
   github: christinelovett
@@ -591,8 +591,8 @@ cecily_black:
 mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
-  role: Customer Engineer
-  reports_to: vp_customer_engineering
+  role: Principal Customer Engineer
+  reports_to: senior_manager_customer_engineering_east
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -884,7 +884,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -1415,7 +1415,7 @@ bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
   email: bill.caplan@sourcegraph.com
@@ -1437,7 +1437,7 @@ shawn_king:
   name: Shawn King
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Rochester, MN USA 🇺🇸
   github: shawnplusplus
   email: shawn@sourcegraph.com
@@ -1470,7 +1470,7 @@ max_wiederholt:
   name: Max Wiederholt
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Mountain View, CA, USA 🇺🇸
   github: maaaaaaaax
   email: max.wiederholt@sourcegraph.com
@@ -2025,7 +2025,7 @@ devon_thompson:
   name: DeVon Thompson
   pronouns: she/her
   role: Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Baltimore, MD, US 🇺🇸
   github: Deethompson
   email: devon.thompson@sourcegraph.com
@@ -2156,7 +2156,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -2752,3 +2752,13 @@ justin dorfman:
   email: justin.dorfman@sourcegraph.com
   links: '[Twitter](https://twitter.com/jdorfman), [LinkTree](https://linktr.ee/jdorfman)'
   description: Justin is responsible for fostering the adoption of universal code search in the open source community. Previously, he led similar initiatives for Curifense (a CNCF project), Gitcoin, & MaxCDN. He has contributed to Bootstrap, Font Awesome, jQuery, Nginx, GNU Bash, and many more. He also serves on the Open Source Collective board of directors. In 2017, he co-founded SustainOSS, which hosts events and podcasts for Open Source Software Sustainers.
+
+andy_price:
+  name: Andy Price
+  email: andy.price@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/andy-price-169427aa/)'
+  pronouns: he/him
+  role: Senior Manager, US Enterprise - East and US Commercial
+  manager_role_slug: senior_manager_customer_engineering_east
+  reports_to: director_customer_engineering
+  location: Arlington, VA, USA 🇺🇸
