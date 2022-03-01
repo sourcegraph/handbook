@@ -59,3 +59,4 @@ We also have a set of [guiding principles](../../../../../strategy-goals/strateg
 ## Other
 
 - [Operational rotation](operational-rotation.md)
+- [Internships](internships.md)
