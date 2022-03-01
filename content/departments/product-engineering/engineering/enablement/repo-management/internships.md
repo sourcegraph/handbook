@@ -44,7 +44,7 @@ Once you clear the Recruiter and Hiring Manager screens, we will ask you to coll
 
 We have two different interview prompts, detailed below with a few specifics revealed during the interview itself.
 
-#### Pairing Interview #1
+#### Pairing Interview 1
 
 We're going to ask you to build a client library for a publicly available HTTP API that responds in JSON. We will ask you to write different methods that interact with the API, tests to confirm the methods work correctly, and error handling for edge cases. We will make requests using your client from the command line. We may chat about potential ways to improve the implementation for the future, e.g. making it production ready.
 
@@ -55,7 +55,7 @@ We're going to ask you to build a client library for a publicly available HTTP A
 3.  A way to make HTTP requests (e.g. http for Go, Requests for Python)
 4.  A way to parse JSON responses from the API
 
-#### Pairing Interview #2
+#### Pairing Interview 2
 
 We're going to ask you to incrementally add a new set of features to an existing code base. The catch? The codebase is low-quality. Refactoring is definitely required before any new features can be added on. The codebase includes support for multiple languages and includes a test suite, which helps provide quick feedback as the candidate iterates on their solution.
 
