@@ -53,4 +53,4 @@ To help us understand if we’re going in the right direction and to measure the
 
 - Standardize code checks and testing
 
-- #### Improve incident detection on Sourcegraph Cloud
+- Improve incident detection on Sourcegraph Cloud
