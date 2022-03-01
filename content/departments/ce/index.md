@@ -13,7 +13,7 @@ The Customer Engineering organization at Sourcegraph is oriented around the tech
 
 {{generator:reporting_structure.vp_customer_engineering}}
 
-More details about our team members in [our team READMEs](readmes.md).
+More details about our team members in [our team READMEs](team/readmes.md).
 
 ## Open Roles
 
