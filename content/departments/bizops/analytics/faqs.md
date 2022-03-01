@@ -2,7 +2,7 @@
 
 Below are answers to common questions teammates at Sourcegraph have.
 
-### Current seat limit, ARR, company type, and more are outdated on the [Server Instances Overview](https://sourcegraph.looker.com/dashboards/167). How can we get this updated?
+### ARR, company type, and more are outdated on the [Server Instances Overview](https://sourcegraph.looker.com/dashboards/167). How can we get this updated?
 
 Looker only populates this information from Salesforce for customers, and Looker and Salesforce both are not connected to our licensing system, so trials as a `Company Type` can't be picked up. The Data & Analytics team can't update any of this information - instead, please update the relevant information in Salesforce and it'll be updated in Looker within 24 hours.
 
