@@ -49,7 +49,7 @@ To help us understand if we’re going in the right direction and to measure the
 
 ### Next (6–12 months)
 
-- #### [Standardize logging, metrics, and errors](https://github.com/sourcegraph/sourcegraph/issues/30552)
+- [Standardize logging, metrics, and errors](https://github.com/sourcegraph/sourcegraph/issues/30552)
 
 - #### Standardize code checks and testing
 
