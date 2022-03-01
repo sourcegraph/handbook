@@ -21,11 +21,10 @@ More details about our team members in [our team READMEs](team/readmes.md).
 
 Refer to our [OKRs](../../strategy-goals/goals/2023_q1/#customer-engineering) for the CE team’s full quarter OKRs.
 
+## Resources
+- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
+
 ## How to Reach Us
 
 You can reach us at the #ce channel or @ce on Slack. Customer Engineering represents the voice of our customers so if you're curious about something customer-related, particularly as it relates to how Sourcegraph brings customers value, we're the team to reach out to!
-
-### Customer Use Cases
-
-- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
