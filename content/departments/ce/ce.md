@@ -3,7 +3,8 @@
 ## Who we are
 
 Customer Engineers wear three hats. We are:
-1. Sales engineers 
+
+1. Sales engineers
 2. Solution architects
 3. Technical success managers
 
@@ -17,10 +18,9 @@ We show up for our customers, open source users, and teammates by living up to o
 
 ## Why CE is both pre- and post-sales
 
-The CE team is both "pre-sales" and "post-sales" because the moment that a sale occurs doesn't usually change what our customers need from us. Most organizations have deployed Sourcegraph and rolled it out (sometimes widely, sometimes to a limited proof-of-concept group) by the time they become a paying customer. This is different from many other enterprise software products, where the software isn't actually used (for real) until the contract is signed. 
+The CE team is both "pre-sales" and "post-sales" because the moment that a sale occurs doesn't usually change what our customers need from us. Most organizations have deployed Sourcegraph and rolled it out (sometimes widely, sometimes to a limited proof-of-concept group) by the time they become a paying customer. This is different from many other enterprise software products, where the software isn't actually used (for real) until the contract is signed.
 
 The continuity that a CE provides means we give customers consistent and high-quality service and technical advocacy from the moment we meet them. We minimize handoffs, which is good for customers and helps our team take pride in seeing their work through.
-
 
 ## Reference Resources
 
