@@ -62,7 +62,7 @@ export PROJECT_PREFIX=sourcegraph-managed
 # Found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 # currently live instance
-export OLD_DEPLOYMENT=$(gcloud compute instances list --project=${PROJECT_PREFIX}-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+export OLD_DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 # the instance we will create
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 ```
@@ -93,7 +93,7 @@ There is a ~1h two-part screencast available by @slimsag walks through this whol
 # version to upgrade to - MUST be in format 'v$MAJOR.$MINOR.$PATCH'
 export NEW_VERSION=v<sourcegraph_version>
 # old version used to verify upgrade
-export OLD_VERSION=$(cat ${CUSTOMER}\/${OLD_DEPLOYMENT}\/VERSION)
+export OLD_VERSION=$(cat $CUSTOMER\/$OLD_DEPLOYMENT\/VERSION)
 ```
 
 Validate all variables are set:
@@ -208,7 +208,7 @@ For each reference, ensure that the _entire_ service entry is up to date (i.e. n
 You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
@@ -366,6 +366,10 @@ Note that maintainence is being performed:
 
 Then, [mark the database as read-only](#2-mark-the-database-as-ready-only).
 
+```sh
+../util/set-db-readonly.sh $OLD_DEPLOYMENT true
+```
+
 Create a snapshot:
 
 ```sh
@@ -426,6 +430,10 @@ git add . && git commit -m "$CUSTOMER: init targetted $NEW_DEPLOYMENT deployment
 
 [Make the database on the new deployment writeable](#5-make-the-database-on-the-new-deployment-writable).
 
+```sh
+../util/set-db-readonly.sh $NEW_DEPLOYMENT false
+```
+
 If you changed the disk size, make sure to [resize the disk](#4-a-resize-the-disk).
 
 #### 4.a) Resize the disk
@@ -473,9 +481,27 @@ For reference, the above steps were adapted from [Working with persistent disks]
 ### 5) Wrap up the upgrade
 
 1. [Confirm instance health](#8-confirm-instance-health).
-2. [Switch the load balancer target](#9-switch-the-load-balancer-target) - when prompted to apply, exit the command (do not apply the changes) and continue to the next step. This will prevent Terraform from attempting to apply resource changes to the old machine - instead, we just update the load balancer and remove the old instance at the same time.
+2. [Switch the load balancer target](#9-switch-the-load-balancer-target) - **⚠️ when prompted to apply, exit the command (do not apply the changes) and continue to the next step. ⚠️** This will prevent Terraform from attempting to apply resource changes to the old machine - instead, we just update the load balancer and remove the old instance at the same time.
+
+```sh
+../util/retarget-load-balancer.ts $NEW_DEPLOYMENT
+git add . && git commit -m "$CUSTOMER: switch load balancer to new target"
+```
+
 3. [Take down the old deployment](#10-take-down-the-old-deployment)
+
+```sh
+../util/drop-deployment.ts $OLD_DEPLOYMENT drop-disk
+rm -rf $OLD_DEPLOYMENT/
+git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
+```
+
 4. [Remove the maintainence banner](#11-remove-the-banner-indicating-maintenance-is-in-progress)
+
+```sh
+../util/set-notice.sh none
+```
+
 5. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
 
 ## In-place updates
@@ -531,7 +557,7 @@ git --no-pager diff $NEW_DEPLOYMENT
 Check for old version references or merge conflicts:
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 

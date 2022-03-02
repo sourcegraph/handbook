@@ -80,7 +80,7 @@ eric_fritz:
 eric_brody-moore:
   name: Eric Brody-Moore
   role: Business Operations Manager
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   manager_role_slug: business_operations_manager
   location: Nashville, TN, USA 🇺🇸
   github: ebrodymoore
@@ -203,7 +203,7 @@ geoffrey_gilmore:
 farhan_attamimi:
   name: Farhan Attamimi
   role: Senior Data Operations Analyst
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   location: Singapore 🇸🇬
   github: attfarhan
   email: farhan@sourcegraph.com
@@ -325,7 +325,7 @@ mark_muldez:
 christine_lovett:
   name: Christine Lovett
   pronouns: she/her
-  role: Customer Engineer
+  role: Principal Customer Engineer
   reports_to: senior_manager_customer_engineering_west
   location: Baltimore MD, USA 🇺🇸
   github: christinelovett
@@ -591,8 +591,8 @@ cecily_black:
 mike_mclaughlin:
   name: Mike McLaughlin
   pronouns: he/him
-  role: Customer Engineer
-  reports_to: vp_customer_engineering
+  role: Principal Customer Engineer
+  reports_to: senior_manager_customer_engineering_east
   location: Chicago, IL, USA 🇺🇸
   github: mike-r-mclaughlin
   email: mike@sourcegraph.com
@@ -884,7 +884,7 @@ alex_fogg:
   name: Alex Fogg
   pronouns: he/him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
   email: afogg@sourcegraph.com
@@ -972,7 +972,7 @@ kelsey_brown:
   name: Kelsey Brown
   pronouns: she/her
   role: Senior Business Operations Analyst
-  reports_to: vp_operations
+  reports_to: director_data_analytics
   location: Arlington, VA, USA 🇺🇸
   github: kelsey-brown
   email: kelsey@sourcegraph.com
@@ -1415,7 +1415,7 @@ bill_caplan:
   name: Bill Caplan
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Raleigh, NC USA 🇺🇸
   github: billCaplan
   email: bill.caplan@sourcegraph.com
@@ -1437,7 +1437,7 @@ shawn_king:
   name: Shawn King
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Rochester, MN USA 🇺🇸
   github: shawnplusplus
   email: shawn@sourcegraph.com
@@ -1470,7 +1470,7 @@ max_wiederholt:
   name: Max Wiederholt
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: vp_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Mountain View, CA, USA 🇺🇸
   github: maaaaaaaax
   email: max.wiederholt@sourcegraph.com
@@ -1558,7 +1558,7 @@ milan_freml:
 david_rohnow:
   name: David Rohnow
   pronouns: he/him
-  role: Sr. Customer Engineer
+  role: Senior Customer Engineer
   reports_to: senior_manager_customer_engineering_west
   location: San Diego, CA USA 🇺🇸
   github: zrnh
@@ -1591,8 +1591,9 @@ ellie_dawson:
 elzanne_wentzel:
   name: Elzanne Wentzel
   pronouns: she/her
-  role: Customer Engineer
-  reports_to: director_customer_engineering
+  role: Engineering Manager - Content Platform
+  reports_to: director_engineering_enablement
+  manager_role_slug: engineering_manager_content_platform
   location: Amsterdam, The Netherlands 🇳🇱
   github: elzannewentzel
   email: elzanne.wentzel@sourcegraph.com
@@ -1627,7 +1628,7 @@ erzhan_torokulov:
   pronouns: he/him
   role: Software Engineer
   reports_to: engineering_manager_growth
-  location: St. Petersburg, Russia 🇷🇺
+  location: Bishkek, Kyrgyzstan 🇰🇬
   github: erzhtor
   email: erzhan.torokulov@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/erzhtor/), [erzhtor.com](https://erzhtor.com/)'
@@ -1927,7 +1928,7 @@ marisa_kanemoto:
 bob_roudebush:
   name: Bob Roudebush
   pronouns: he/him
-  role: Customer Engineering Director
+  role: Director, Customer Engineering
   reports_to: vp_customer_engineering
   manager_role_slug: director_customer_engineering
   location: Indianapolis, Indiana, United States 🇺🇸
@@ -2025,7 +2026,7 @@ devon_thompson:
   name: DeVon Thompson
   pronouns: she/her
   role: Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Baltimore, MD, US 🇺🇸
   github: Deethompson
   email: devon.thompson@sourcegraph.com
@@ -2156,7 +2157,7 @@ carson_hopkins:
   github: hopkinscl
   pronouns: she/her
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: senior_manager_customer_engineering_east
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
@@ -2308,7 +2309,7 @@ greg_seador:
   links: '[LinkedIn](https://www.linkedin.com/in/gseador/)'
   github: gseador
   pronouns: he/him
-  role: Senior Manager, US - West and APAC
+  role: Senior Manager, Enterprise US - West and APAC
   manager_role_slug: senior_manager_customer_engineering_west
   reports_to: director_customer_engineering
   location: Austin, TX, USA 🇺🇸
@@ -2372,11 +2373,11 @@ nicolas_hernandez:
   name: Nick Hernandez
   role: Enterprise Account Executive - Sales
   reports_to: regional_director_sales_east
-  location: New York City, NY, USA 🇺🇸
+  location: Miami, FL, USA 🇺🇸
   email: nick.hernandez@sourcegraph.com
   github: fryster66
-  links: '[LinkedIn](https://www.linkedin.com/in/nicolas-hernandez-70242033/), [@HiDoctorNico](https://twitter.com/hidoctornico), [Why I Joined Sourcegraph](https://medium.com/@doktanick/why-i-am-joining-sourcegraph-99fba51df985)'
-  description: Nick grew up in San Francisco and is currently in NYC. He graduated from Stanford where he studied Comp Lit and then took a fellowship to study law in Germany. He started his career in Enteprise Software at MuleSoft where he held a number of different sales roles. After that, he built the sales team at Vivian, a healthcare labor marketplace owned by IAC. Nick likes to read books, drink tea, and explore on foot. He is taking music recommendations.
+  links: '[LinkedIn](https://www.linkedin.com/in/nicolas-hernandez-70242033/), [Why I Joined Sourcegraph](https://medium.com/@doktanick/why-i-am-joining-sourcegraph-99fba51df985)'
+  description: Nick grew up in San Francisco and is currently in Miami. He graduated from Stanford where he studied Comp Lit and then took a fellowship to study law in Germany. He started his career in Enteprise Software at MuleSoft where he held a number of different sales roles. After that, he built the sales team at Vivian, a healthcare labor marketplace owned by IAC. Nick likes to read books, drink tea, and explore on foot. He is taking music recommendations.
 
 rohan_gupta:
   name: Rohan Gupta
@@ -2391,14 +2392,15 @@ rohan_gupta:
 
 david_veszelovszki:
   name: David Veszelovszki
-  role: Software Engineer
+  pronunciation: '[ˈdeɪvɪd ˈveselovski](http://ipa-reader.xyz/?text=%CB%88de%C9%AAv%C9%AAd%20%CB%88veselovski&voice=Joey'
+  role: Software Engineer, Growth and Integrations
   reports_to: director_engineering
   location: Budapest, Hungary 🇭🇺
   pronouns: he/him
   email: david.veszelovszki@sourcegraph.com
   github: vdavid
   links: '[LinkedIn](https://www.linkedin.com/in/veszelovszki/)'
-  description: David is a developer with 150+ coding projects behind him, an expert at web development, i18n, and refactoring 🧑‍💻. He enjoys doing research and experimenting with new technologies. He has 9 siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
+  description: David is a developer with 150+ coding projects behind him, specializing in web development, i18n, and refactoring 🧑‍💻. He’s a very organized person with spreadsheets on a scary amount of aspects of his life. He loves doing research and playing with new technologies. He has nine siblings, an amazing wife, and a baby daughter 👶. He snowboards 🏂, does freediving 🐚, slacklines 🌴____🕺____🌴, used to paraglide 🪂, and is a divemaster 🤿. He's a meditator 🧘 with three 10-day vipassana courses spent in complete silence and once served for ten days as a volunteer. Besides coding, he's enthusiastic about online education 🧑‍🏫 and indoor vertical farming 👨‍🌾.
 
 riana_shahid:
   name: Riana Shahid
@@ -2710,14 +2712,16 @@ maureen_loughrey:
   location: Austin, TX, USA 🇺🇸
   description: Maureen lives in Austin, TX with her partner, two shih tzus, and two loveable goldfish. When not tinkering with computers she can often be found recreating recipes from the Great British Bake Off or meandering about the Austin library.
 
-lauren anderson:
+lauren_anderson:
   name: Lauren Anderson
   email: lauren.anderson@sourcegraph.com
   github: andersonlauren
   pronouns: she/her
   role: Director of Data & Analytics
   reports_to: vp_operations
+  manager_role_slug: director_data_analytics
   location: Pacifica, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/laurenaanderson1/)'
   description: Lauren lives at the beach in Pacifica, CA with her husband, daugther, and dog.  She has a passion for all things data and has spent most of her career building data warehouses and reporting platforms.  Lauren likes to listen to music, cook, travel, and spend time outdoors (especially at the beach) and loves to combine the latter two by spending as much time at the beach in Southern Baja California.
 
 madison clark:
@@ -2749,3 +2753,44 @@ justin dorfman:
   email: justin.dorfman@sourcegraph.com
   links: '[Twitter](https://twitter.com/jdorfman), [LinkTree](https://linktr.ee/jdorfman)'
   description: Justin is responsible for fostering the adoption of universal code search in the open source community. Previously, he led similar initiatives for Curifense (a CNCF project), Gitcoin, & MaxCDN. He has contributed to Bootstrap, Font Awesome, jQuery, Nginx, GNU Bash, and many more. He also serves on the Open Source Collective board of directors. In 2017, he co-founded SustainOSS, which hosts events and podcasts for Open Source Software Sustainers.
+
+andy_price:
+  name: Andy Price
+  email: andy.price@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/andy-price-169427aa/)'
+  pronouns: he/him
+  role: Senior Manager, Enterprise - US East and US Commercial
+  manager_role_slug: senior_manager_customer_engineering_east
+  reports_to: director_customer_engineering
+  location: Arlington, VA, USA 🇺🇸
+
+leo_papaloizos:
+  name: Leo Papaloizos
+  pronunciation: '/[lio papalɔizɔs](http://ipa-reader.xyz/?text=lio%20papal%C9%94iz%C9%94s&voice=Amy)/'
+  pronouns: she/her
+  role: Backend Software Engineer
+  reports_to: engineering_manager_code_insights
+  location: London, UK 🇬🇧
+  github: leonore
+  email: leo.p@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/leonore-p-99bb0b170/)'
+  description: 'Leo grew up in France and studied Computer Science in Glasgow, and is now based in London. Outside of work, she enjoys podcasts, collecting fun facts, playing football, and more recently, knitting.'
+
+bolaji_olajide:
+  name: Bolaji Olajide
+  pronouns: he/him
+  role: Full Stack Engineer - Batch Changes
+  reports_to: engineering_manager_batch_changes
+  location: Lagos, Nigeria 🇳🇬
+  github: BolajiOlajide
+  email: bolaji.olajide@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/bolaji-olajide/)'
+  description: 'Bolaji grew up in Lagos, Nigeria and studied Computer Science at a university in Nigeria. Outside of work, he enjoys gaming, listening to music and watching football. He is also an avid contributor to OSS.'
+
+todd_herskovitz:
+  name: Todd Herskovitz
+  role: Strategic Account Executive
+  reports_to: vp_sales_western_region
+  location: San Francisco, CA, USA 🇺🇸
+  github: toddherskovitz
+  email: todd@sourcegraph.com

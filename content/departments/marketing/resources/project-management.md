@@ -218,6 +218,14 @@ Going back to [Step 1](#bookmark=id.tkr1hgyuz3ox) (assigning roles and responsib
 - When decision making slows down or stalls: this often happens when there isn’t clarity on who the approver is.
 - When teammates/the company aren’t sure what’s going on: Are all the people that should be informed informed?
 
+### Close the thread
+
+As a project moves into execution and review, expect conversations and sub-deliverables to come up along the way that may create new roles and responsibilities. "Closing the thread" means not leaving these conversations without a clear resolution, action items if they exist, and who's responsible.
+
+- If you're closing the thread and taking an action item, this could look like: "Confirming that I will be reviewing the proposed copy changes and will follow up with feedback in this channel tomorrow by 3p UTC."
+- If you're closing the thread and an action it is not being taking, this might look like: ""Based on this thread and our conversation today (link to notes here), I'm confirming that there are no further actions to be taken. This project has been moved to the backlog here (Asana link).
+- It's also entirely appropriate to confirm if someone else should be taking an action item from the conversation. This could sound like, "To confirm, Sam is on point for moving this forward and will be delivering a draft of the brief by EOW. Is that right?"
+
 ### Avoid making decisions by consensus
 
 While it’s important to get feedback from key stakeholders, it’s equally important to have the right person make a given decision. This [handbook page](../../../company-info-and-process/communication/decisions.md) is a great resource for making decisions at Sourcegraph.
