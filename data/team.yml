@@ -1591,8 +1591,9 @@ ellie_dawson:
 elzanne_wentzel:
   name: Elzanne Wentzel
   pronouns: she/her
-  role: Customer Engineer
-  reports_to: director_customer_engineering
+  role: Engineering Manager - Content Platform
+  reports_to: director_engineering_enablement
+  manager_role_slug: engineering_manager_content_platform
   location: Amsterdam, The Netherlands 🇳🇱
   github: elzannewentzel
   email: elzanne.wentzel@sourcegraph.com
