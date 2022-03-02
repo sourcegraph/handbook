@@ -1160,7 +1160,7 @@ nicholas_gage:
 devon_coords:
   name: Devon Coords
   pronouns: She/Her
-  role: Senior Technical Recruiter, Team Lead
+  role: Director, Technical Recruiting
   reports_to: vp_people
   location: White Plains, NY USA 🇺🇸
   github: devoncoords
@@ -1628,7 +1628,7 @@ erzhan_torokulov:
   pronouns: he/him
   role: Software Engineer
   reports_to: engineering_manager_growth
-  location: St. Petersburg, Russia 🇷🇺
+  location: Bishkek, Kyrgyzstan 🇰🇬
   github: erzhtor
   email: erzhan.torokulov@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/erzhtor/), [erzhtor.com](https://erzhtor.com/)'
