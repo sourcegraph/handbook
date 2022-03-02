@@ -2794,3 +2794,14 @@ todd_herskovitz:
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
+
+ryan_stott:
+  name: Ryan Stott
+  pronouns: he/him
+  role: Enterprise Account Exective
+  reports_to: vp_sales_western_region
+  location: Salt Lake City, UT, USA 🇺🇸
+  github: r-stott
+  email: ryan.stott@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/rayden8/)'
+  description: 'Ryan lives in Salt Lake City where he enjoys the outdoor lifestyle. He has a diverse range of passions, including snowboarding, climbing, guitar, wildlife photography, and travel.  He has a goal of seeing all 7 continents, all 63 national parks and 60 countries.'
