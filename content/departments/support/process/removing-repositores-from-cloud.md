@@ -74,8 +74,9 @@ and then;
 2. `SELECT FROM repo WHERE name LIKE 'example.com/example/repo';`
 
 ## Verifying the repository was removed from disk
+
 1. `cd` into `/data/repos/`
 2. Navigate (`cd`) into the codehost/repo-owner
-3. Grep for the repo 
+3. Grep for the repo
 
 Both instances should return null results to help confirm deletion.
