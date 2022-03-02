@@ -13,7 +13,7 @@ Amplitude is a product analytics tool specializing in turning event data into ac
 
 ### Why aren't we using Looker for this?
 
-Looker is very flexible in that we can set it up for any purpose we'd like. The downside is that to provide a great self-service experience for questions about product usage, setting up Looker would take a *lot* of work. We get these capabilities out of the box with Amplitude.
+Looker is very flexible in that we can set it up for any purpose we'd like. The downside is that to provide a great self-service experience for questions about product usage, setting up Looker would take a _lot_ of work. We get these capabilities out of the box with Amplitude.
 
 ### What is in Looker vs. Amplitude?
 
@@ -122,9 +122,9 @@ To find what a button, page view, or action is named
 
 There are three levels to where you can save a chart:
 
-1. To create a *private* chart, uncheck 'Make Discoverable' in the chart's dropdown ("More").
-2. To create a chart that is *discoverable* by other teammates but not as easily accessible unless they search (or you send them a link), just create a chart. This is Amplitude's default.
-3. Add charts to Team Spaces if you want them to be *easily accessible* to teammates.
+1. To create a _private_ chart, uncheck 'Make Discoverable' in the chart's dropdown ("More").
+2. To create a chart that is _discoverable_ by other teammates but not as easily accessible unless they search (or you send them a link), just create a chart. This is Amplitude's default.
+3. Add charts to Team Spaces if you want them to be _easily accessible_ to teammates.
 
 ### What are Team Spaces?
 
