@@ -18,7 +18,7 @@ We consider the following kinds of repositories;
 
 1. Public forks of private repositories,
 2. Public repositories that are made private,
-3. Public repositories added by other users or organizations other than the owner of the repository
+3. Public repositories added by other users or organizations other than the owner of the repository,
 4. Private repositories.
 
 The removal process is the same across all the visibility types listed above.
@@ -46,14 +46,13 @@ Note: A soft delete does not permanently delete a repository in the database. Wh
 
 1. Get the id of the repo by running: `SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo'; `
 2. Rename the repo by running: `UPDATE repo SET name = soft_deleted_repository_name(name), deleted_at = transaction_timestamp() WHERE deleted_at IS NULL AND id = <$id_of_the_repo>`
-3. Update the `deleted_at` column of the repo by running: `UPDATE repo SET deleted_at = 'YYYY-MM-DD HH:MM:SS' WHERE id=<$id_of_the_repo>;`
 
 Note: Deleting a repository from the database does not automatically delete the data on disk (in `gitserver`). This requires additional steps.
 To get the correct repo in `gitserver` you will need to get it's `shard_id` by running the following command in the database;
 
 `SELECT shard_id FROM gitserver_repos where repo_id = <$id_of_the_repo>`
 
-## Verifying the repository was removed from the database
+## Removing the repository from disk
 
 Exec into `gitserver` by running;
 
@@ -69,13 +68,14 @@ and then;
 2. Navigate (`cd`) into the codehost/repo-owner
 3. Run `rm -rf $repo_name`
 
-or
+## Verifying the repository was removed from the database
 
 1. Exec into `pgsql` and then;
 2. `SELECT FROM repo WHERE name LIKE 'example.com/example/repo';`
 
+## Verifying the repository was removed from disk
+1. `cd` into `/data/repos/`
+2. Navigate (`cd`) into the codehost/repo-owner
+3. Grep for the repo 
+
 Both instances should return null results to help confirm deletion.
-
-## WIP - Removing repositories from disk
-
-This section will guide you on the steps for removing repositories from `gitserver`
