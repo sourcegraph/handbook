@@ -1484,6 +1484,19 @@
           -121.988571
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leo Papaloizos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.127758,
+          51.507351
+        ]
+      }
     }
   ]
 }
