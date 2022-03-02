@@ -5,3 +5,4 @@ Sourcegraph ensures that new code and infrastructure changes, before being deplo
 ## Actual state of preprod
 
 [Documentation](https://docs.google.com/document/d/1yGYsFIkvhPrsq4THW1TTnDJlx5vCM2AC4lJK0xpgz24)
+[RFC 592 - Introduce Staging Environment](https://docs.google.com/document/d/13kVYJSoTWYgyeBFXeJnasF3WU7SHyOjhSNpp9yV_pvY)
