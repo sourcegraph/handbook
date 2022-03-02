@@ -14,7 +14,7 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 
 The below actions must take place before we begin interviewing candidates.
 
-**Step 1**: The Hiring Manager confirms the role is in the board-approved headcount plan on the `open roles (greehouse report)` tab in [this google sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933).  
+**Step 1**: The Hiring Manager confirms the role is in the board-approved headcount plan on the `open roles (greehouse report)` tab in [this google sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933).
 
 If you wish to change the title, scope of role, or target start date of a role, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/viewform?usp=sf_link).
 
