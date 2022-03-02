@@ -8,7 +8,6 @@ This page records goals completed by the Frontend platform team historically (st
 ## FY2022
 
 - [Design refresh](https://about.sourcegraph.com/blog/introducing-sourcegraphs-new-ui/) gives Sourcegraph a more modern look and feel and a better user experience by adding refined search results design, renewing focus on code, improving layouts, unifying headers and navigation, and promoting extensibility.
-- Make it easier to onboard and contribute to our frontend codebase
 - [Wildcard Component Library](https://storybook.sgdev.org/?path=/story/wildcard-alert--alerts) provides a base for growth, helps maintain consistency, enables faster FE development, and pays off technical debt.
 - [UI performance improvements](https://github.com/sourcegraph/sourcegraph/issues/24869) enhance both actual and perceived page rendering performance.
 
