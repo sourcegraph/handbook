@@ -64,7 +64,7 @@ These status labels help to provide more context for readers. They’re most hel
 We have a set of status labels we’ve found helpful in the past:
 
 - **WIP**: The author is still drafting the RFC and it’s not ready for review.
-- **Reviewing problem**: The Reviewing problem label is used when the RFC has a firm problem statement and is ready to confirm that the problem definition is correct.
+- **Reviewing problem**: The Reviewing problem label is used when the RFC has a firm problem statement, and reviews should focus on confirming that the problem definition is correct.
 - **Reviewing solution**: The Reviewing solution label is used when the problem is well understood, and a proposal has been written that solves it that is ready for review.
 - **Approved**: When the RFC is for the purpose of making a decision, the Approved label indicates that the decision has been made.
 - **Implemented**: When the RFC is for the purpose of making a decision, the Implemented label indicates that the RFC’s proposal has been implemented.
