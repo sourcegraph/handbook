@@ -52,6 +52,8 @@ When you receive your Sourcegraph device and will no longer be working from a pe
 - Carbon Black affects Ethernet connections on Mac OS
 - Carbon Black affects the iPad Sidecar functionality on Mac OS
 
+If these affect you, you may notify the it-tech-ops team and use `sudo /Applications/VMware\ Carbon\ Black\ Cloud/VMware\ CBCloud.app/Contents/MacOS/VMware\ CBCloud -nd` (with permission) to disable Carbon Black.
+
 ## Related
 
 - [Computer requirements](../tools/computer-setup.md)
