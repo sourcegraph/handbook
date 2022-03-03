@@ -64,7 +64,7 @@ Our [career development framework](framework.md) defines the levels that exist a
 
 ## Promotion requests
 
-During the [talent review calibration meeting](#calibration-meeting) managers indicate which teammates they would like to considered for promotion. These teammates are then evaluated against their peers at the level they might get promoted to so that the manager can confirm they are indeed performing at the right level for promotion.
+During the [talent review calibration meeting](#calibration-meeting) managers indicate which teammates they would like considered for promotion. These teammates are then evaluated against their peers at the level they might get promoted to so that the manager can confirm they are indeed performing at the right level for promotion.
 
 If the manager believes the candidate is ready for promotion, a promotion request is made following the [talent review calibration meeting](#calibration-meeting).
 
