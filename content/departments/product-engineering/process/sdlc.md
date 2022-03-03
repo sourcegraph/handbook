@@ -2,7 +2,7 @@
 
 <span class="badge badge-note">SOC2/GN-98</span>
 
-Sourcegraph uses three types of approaches to drive changes (either a new feature or extending an existing one).
+Sourcegraph uses three types of approaches to drive changes.
 
 - [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
 - [Request For Comments](../../../company-info-and-process/communication/rfcs/index.md) to communicate technical problems or specific solutions in response to a Product Document.
@@ -47,4 +47,4 @@ Sourcegraph uses two different mechanisms to deploy its changes in production:
 
 ## Maintenance and monitoring
 
-The Product Manager and the owning team are in charge of ensuring that the newly introduced feature are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn't met, they write corrective changes to fix those issues.
+The Product Manager and the owning team are in charge of ensuring that the newly introduced changes are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn't met, they write corrective changes to fix those issues.
