@@ -57,7 +57,7 @@ DELETE FROM repo WHERE id=<$id_of_the_repo>;
 
 **Option 2 ('Soft' delete)**
 
-A soft delete does not permanently delete a repository in the database. What a soft delete means is that a repository can be un-deleted in the future.
+A soft delete does not permanently delete a repository in the database and allows it to be un-deleted in the future.
 
 1. Get the id of the repo:
 
