@@ -5,7 +5,7 @@ developer_onboarding:
   link: /strategy-goals/strategy/use_cases/dev-onboarding
   sponsors:
     product: ben_venker
-    engineering:
+    engineering: marek_zaluski
 
 code_reuse:
   title: Code Reuse
