@@ -64,13 +64,19 @@ Our [career development framework](framework.md) defines the levels that exist a
 
 ## Promotion requests
 
-Promotion requests are made immediately following the [talent review calibration meeting](#calibration-meeting).
+During the [talent review calibration meeting]](#calibration-meeting) managers indicate which teammates they would like to considered for promotion. These teammates are then evaluated against their peers at the level they might get promoted to so that the manager can confirm they are indeed performing at the right level for promotion.
 
-The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval.
+If the manager believes the candidate is ready for promotion, a promotion request is made following the [talent review calibration meeting](#calibration-meeting).
 
-Following approval from the relevant decision-makers (EM, Director, VP), the promotion request is forwarded to the relevant teammates in PeopleOps (refer to [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)) for confirmation. Once confirmed by PeopleOps the promotion can be communicated to the teammate using the [promotion confirmation template](https://docs.google.com/document/d/1mkdJI6cSXWIHthSN_KQKBFSfxs9RQUg_4VCvwmk8FJQ/edit).
+The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval in the #eng-managers-private Slack channel.
 
-Decisions regarding promotions are prioritized by the decision-makers, and made quickly. Promotions are communicated back to the ICs in a timely manner.
+While all EMs are invited to review and comment on the promotion request, the Directors are the final decision-makers. The expected turn-around on a promotion request for approval is 7 calendar days.
+
+Once approved by the Directors, the promotion needs to be submitted to PeopleOps for execution by completing the [](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) form.
+
+Once confirmed by PeopleOps the promotion can be communicated to the teammate using the [promotion confirmation template](https://docs.google.com/document/d/1mkdJI6cSXWIHthSN_KQKBFSfxs9RQUg_4VCvwmk8FJQ/edit).
+
+Decisions regarding promotions are prioritized, and made quickly, and communicated back to the ICs in a timely manner.
 
 ### Considerations for promotion
 
