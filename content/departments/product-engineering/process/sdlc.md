@@ -12,17 +12,17 @@ Sourcegraph follows an agile process, which means that the teams go through repe
 
 ## Design
 
-Designing at Sourcegraph starts with a design document, which can be either a formal PD or RFC, or an informal GitHub Issue or Google Doc that gets formalized into an RFC or PD as the explorative work requirements gathering progresses. 
+Designing at Sourcegraph starts with a design document, which can be either a formal PD or RFC, or an informal GitHub Issue or Google Doc that gets formalized into an RFC or PD as the explorative work requirements gathering progresses.
 
 The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
-When an RFC or PD reaches the [REVIEW](../product/process/product_documents/index.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements. 
+When an RFC or PD reaches the [REVIEW](../product/process/product_documents/index.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
 
 A detailed version of the [design process](../product/design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
 
 ## Implementation
 
-With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](../engineering/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../engineering/cloud/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements. 
+With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](../engineering/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../engineering/cloud/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
 
 Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document or RFC, though an Engineering Manager or Engineer can also lead the work.
 
@@ -47,4 +47,4 @@ Sourcegraph uses two different mechanisms to deploy its changes in production:
 
 ## Maintenance and monitoring
 
-The Product Manager and the owning team are in charge of ensuring that the newly introduced feature are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn't met, they write corrective changes to fix those issues. 
+The Product Manager and the owning team are in charge of ensuring that the newly introduced feature are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn't met, they write corrective changes to fix those issues.
