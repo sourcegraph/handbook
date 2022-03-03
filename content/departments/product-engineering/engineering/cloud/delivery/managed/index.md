@@ -37,6 +37,10 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/inde
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             |                                                                  | Within 1 week after latest release                              |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release                    |
 
+### Incident Response
+
+Incidents which affect managed instances handled according to our [incidents](../../../process/incidents/index.md) process.
+
 ## Technical details
 
 ![architecture](https://storage.googleapis.com/sourcegraph-assets/managed-instance-architecture.png)
