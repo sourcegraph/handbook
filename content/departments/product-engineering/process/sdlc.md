@@ -2,7 +2,7 @@
 
 <span class="badge badge-note">SOC2/GN-98</span>
 
-Sourcegraph uses three types of approaches to drive changes.
+Sourcegraph uses three types of approaches to drive changes:
 
 - [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
   - See also the [product process](../product/process/index.md).
