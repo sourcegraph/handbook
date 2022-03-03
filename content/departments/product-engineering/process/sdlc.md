@@ -22,7 +22,7 @@ A detailed version of the [design process](../product/design/design_process.md) 
 
 ## Implementation
 
-With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](../process/tracking_issues/index.md). Embedding security in the developement process, [security ambassadors](../engineering/cloud/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements. 
+With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](../engineering/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../engineering/cloud/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements. 
 
 Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document or RFC, though an Engineering Manager or Engineer can also lead the work.
 
