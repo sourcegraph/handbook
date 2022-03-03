@@ -46,6 +46,8 @@ All Sourcegraph teammates are required to have, and to work from, a company mach
 
 ### Ordering your laptop:
 
+### Full-time teammates
+
 Because of Apple manufacturing and global shipping delays, our recommended models can take anywhere from 4-12 weeks to arrive so we ask that once your contract is signed, please place an order for your Sourcegraph computer immediately. You are responsible for ordering your laptop through one of the following ways:
 
 **US/Canada/Europe-based teammates (not Russia)**
@@ -58,6 +60,9 @@ Because of Apple manufacturing and global shipping delays, our recommended model
 Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required depending on your role, please see below for necessary specs corresponding to your role.
+
+### Interns
+Please fill out this form [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and Tech Ops will get you a Sourcegraph device. While we will do everything we can to get you the same specifications as below, availability will depend on the stock of devices we have available and the particular responsibilities of the work you will be doing during your internship. Typically, these devices are an older models than what we order new.
 
 ### Customer Engineering team laptops:
 
