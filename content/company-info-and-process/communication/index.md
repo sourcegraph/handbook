@@ -23,7 +23,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Looker](http://sourcegraph.looker.com/)
 - [Customer legal contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)
 - [BambooHR](https://sourcegraph.bamboohr.com/) (org chart and teammate data)
-- [Exec Team Decision Log](content/company-info-and-process/communication/exec-team-decision-log.md)
+- [Exec Team Decision Log](company-info-and-process/communication/content/company-info-and-process/communication/exec-team-decision-log.md)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 
