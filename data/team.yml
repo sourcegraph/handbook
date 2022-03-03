@@ -2530,7 +2530,7 @@ brady_garrett:
   email: brady.garrett@sourcegraph.com
   github: brady-garrett
   pronouns: he/him
-  role: Sr. Data Analyst
+  role: Senior Data Analyst
   reports_to: business_operations_manager
   location: Queen Creek, AZ, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/bradygarrett11/)'
@@ -2805,3 +2805,14 @@ ryan_stott:
   email: ryan.stott@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/rayden8/)'
   description: 'Ryan lives in Salt Lake City where he enjoys the outdoor lifestyle. He has a diverse range of passions, including snowboarding, climbing, guitar, wildlife photography, and travel.  He has a goal of seeing all 7 continents, all 63 national parks and 60 countries.'
+
+sander_ginn:
+  name: Sander Ginn
+  email: sander.ginn@sourcegraph.com
+  github: sanderginn
+  pronouns: he/him
+  role: Cloud DevOps engineer
+  reports_to: engineering_manager_devops
+  location: Amsterdam, The Netherlands 🇳🇱
+  links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
+  description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
