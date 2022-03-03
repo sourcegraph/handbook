@@ -121,7 +121,7 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
     }
 
     // Rewrite links on non-index pages to be relative
-    if (parsedUrl.pathname && !isOnIndexPage) {
+    if (parsedUrl.pathname && !isOnIndexPage && !parsedUrl.pathname.startsWith('/team')) {
         parsedUrl.pathname = `../${parsedUrl.pathname}`
     }
 
