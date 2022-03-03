@@ -17,7 +17,7 @@ Designing at Sourcegraph starts with a design document, which can be either a fo
 
 The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
-When an RFC or PD reaches the [REVIEW](../product/process/product_documents/index.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
+When a RFC or PD reaches the [REVIEW](../product/process/product_documents/index.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
 
 A detailed version of the [design process](../product/design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
 
