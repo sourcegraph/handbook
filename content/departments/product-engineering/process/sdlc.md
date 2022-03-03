@@ -17,7 +17,7 @@ Designing at Sourcegraph starts with a design document, which can be either a fo
 
 The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
-When a RFC or PD reaches the [REVIEW](../product/process/product_documents/index.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
+When a RFC or PD reaches the [REVIEW](../product/process/product_documents.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
 
 A detailed version of the [design process](../product/design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
 
@@ -33,7 +33,7 @@ If complex problems surface during this step, an RFC can be created to frame the
 
 The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. The solution is scrutized to evaluate if the requirements stated in the design phase are met.
 
-Security is evaluated through automated [vulnerability scanning and SAST](../../product-engineering/engineering/cloud/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during continuous integration.
+Security is evaluated through automated [vulnerability scanning and SAST](../../product-engineering/engineering/cloud/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
 
 If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
 
