@@ -146,6 +146,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
 - #best-timezone - Hangout channel for the European time zone. GIFs allowed!
 - #books - Read books recommended by teammates and discuss them.
+- #cars - For all things cars!
 - #chess - For all chess lovers
 - #clothing - Chit-chatting about clothes
 - #coffee - For the love of coffee
