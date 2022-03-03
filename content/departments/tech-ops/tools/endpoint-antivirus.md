@@ -47,6 +47,13 @@ Workspace One and Carbon Black should never be removed from a Sourcegraph comput
 
 When you receive your Sourcegraph device and will no longer be working from a personal device, please reach out to the Tech Ops team and we can unenroll your personal device from Carbon Black.
 
+### Known issues with Carbon Black
+
+- Carbon Black affects Ethernet connections on Mac OS
+- Carbon Black affects the iPad Sidecar functionality on Mac OS
+
+If these affect you, you may notify the it-tech-ops team and use `sudo /Applications/VMware\ Carbon\ Black\ Cloud/VMware\ CBCloud.app/Contents/MacOS/VMware\ CBCloud -nd` (with permission) to disable Carbon Black.
+
 ## Related
 
 - [Computer requirements](../tools/computer-setup.md)
