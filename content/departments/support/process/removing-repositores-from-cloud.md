@@ -6,7 +6,7 @@ This document is a guide on how to completely remove repositories from Sourcegra
 
 The user should have privileged access to be able to perform this on Sourcegraph cloud.
 
-⚠️ WARNING: Be careful to make sure everything checks out as per the removal request.
+⚠️ **WARNING:** Be careful to make sure everything checks out as per the removal request.
 
 ## Process of removing repositories
 
