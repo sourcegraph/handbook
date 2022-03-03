@@ -60,8 +60,7 @@ Before you start, please make sure you've [configured your Google Calendar setti
 - When creating the Google Calendar event:
   - Use the "Find a Time" feature to see when you and other meeting attendees are all available.
   - Add a [Zoom video call](#video-calls).
-  - Add a Google Doc link to the event description for taking notes during the meeting.
-        - If the meeting is recurring, use the same Google Doc for all meetings.
+  - Add a Google Doc link to the event description for taking notes during the meeting. - If the meeting is recurring, use the same Google Doc for all meetings.
 
 #### Structured meetings
 
