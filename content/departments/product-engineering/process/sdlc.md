@@ -12,7 +12,7 @@ Sourcegraph follows an agile process, which means that the teams go through repe
 
 ## Design
 
-Designing at Sourcegraph starts with a design document, which can be either a formal PD or RFC, or an informal GitHub Issue or Google Doc that gets formalized into an RFC or PD as the explorative work requirements gathering progresses.
+Designing at Sourcegraph starts with a design document, which can be either a formal PD or RFC, or an informal GitHub Issue or Google Doc that gets formalized into an RFC or PD as the explorative work and gathering of requirements progresses.
 
 The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
