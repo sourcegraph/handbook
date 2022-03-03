@@ -218,7 +218,7 @@ Tech Reviews are documented as part of the [CE Technical Win Management Process]
 
 ## Account Planning
 
-Account Planning is critical to the success of our customers.  The account planning process is where an account team (AE & CE) comes together to review the current status of their customers (Usage, Health, ect.) on a quarterly basis and sets new goals for the next quarter, focusing on customer health, retention, and expansion.
+Account Planning is critical to the success of our customers. The account planning process is where an account team (AE & CE) comes together to review the current status of their customers (Usage, Health, ect.) on a quarterly basis and sets new goals for the next quarter, focusing on customer health, retention, and expansion.
 
 A [video version](https://www.loom.com/share/b18f6a43fa6243a38affe0a25c068f6d) of this has also been recorded.
 
@@ -274,7 +274,7 @@ Regardless of tier, each account plan should include clear next steps that will 
 
 What is the difference between the Account Plan and the Technical Design Document?
 
-- The Account Plan is not meant to be a technical document, it is meant to be a single place for someone to look for the business and health information around an account.  The Technical Design Document is meant to be the single place for someone to look for technical details around a customer's implementation of Sourcegraph
+- The Account Plan is not meant to be a technical document, it is meant to be a single place for someone to look for the business and health information around an account. The Technical Design Document is meant to be the single place for someone to look for technical details around a customer's implementation of Sourcegraph
 
 How do I find out what tier my customers are?
 
