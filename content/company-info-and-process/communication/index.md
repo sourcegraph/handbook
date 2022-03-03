@@ -23,6 +23,7 @@ These places are the source of truth for information at Sourcegraph. Information
 - [Looker](http://sourcegraph.looker.com/)
 - [Customer legal contracts](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)
 - [BambooHR](https://sourcegraph.bamboohr.com/) (org chart and teammate data)
+- [Exec Team Decision Log](exec-team-decision-log.md)
 
 ### Scratchpads and ephemeral information (non-sources of truth)
 
@@ -60,7 +61,7 @@ Before you start, please make sure you've [configured your Google Calendar setti
   - Use the "Find a Time" feature to see when you and other meeting attendees are all available.
   - Add a [Zoom video call](#video-calls).
   - Add a Google Doc link to the event description for taking notes during the meeting.
-    - If the meeting is recurring, use the same Google Doc for all meetings.
+        - If the meeting is recurring, use the same Google Doc for all meetings.
 
 #### Structured meetings
 
