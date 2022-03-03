@@ -68,7 +68,7 @@ During the [talent review calibration meeting]](#calibration-meeting) managers i
 
 If the manager believes the candidate is ready for promotion, a promotion request is made following the [talent review calibration meeting](#calibration-meeting).
 
-The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval in the #eng-managers-private Slack channel.
+The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval in the #eng-managers-private Slack channel tagging the `@eng-directors` group.
 
 While all EMs are invited to review and comment on the promotion request, the Directors are the final decision-makers. The expected turn-around on a promotion request for approval is 7 calendar days.
 
