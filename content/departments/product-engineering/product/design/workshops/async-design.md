@@ -30,7 +30,7 @@ See [this example of a complete agenda](#example-agenda) for how you might struc
 
 ## Deliverables
 
-On the non-offset days, it's important to structure your deliverables so that they can be shared easily. Written tends to be ideal, but videos are also good. So, if you're planning on doing some problem validation, you might have everyone record a short video of problems they are aware of with the product today.
+On the non-offset days, it's important to structure your deliverables so that they can be shared easily. Simple is best - letting people share off the cuff thoughts in the Slack channel has the lowest barrier to entry, and will encourage the most participation. Beyond that, written tends to be ideal, but videos are also good. So, if you're planning on doing some problem validation, you might have everyone record a short video of problems they are aware of with the product today.
 
 These are easily watchable by everyone, and it's also easy to organize them into groupings the next day and vote on them.
 
