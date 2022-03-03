@@ -73,7 +73,7 @@ UPDATE repo SET name = soft_deleted_repository_name(name), deleted_at = transact
 
 Note: Deleting a repository from the database does not automatically delete the data on disk (in `gitserver`). This requires an additional step.
 
-To get the correct repo in `gitserver` you will need to get it's `shard_id` by running the following command in the database;
+3. To get the correct repo in `gitserver` you will need to get it's `shard_id` by running the following command in the database:
 
 ```
 SELECT shard_id FROM gitserver_repos where repo_id = <$id_of_the_repo>
