@@ -66,7 +66,7 @@ Being iterative allows us to work efficiently in an async-first setting. As long
 
 We should avoid iterating in a way where it requires change management or large company-wide communication (for example, changing planning processes in the middle of planning).
 
-Because we're a [handbook first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, anyone can rapidly get caught up on recent changes by reading the handbook page. 
+Because we're a [handbook first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, anyone can rapidly get caught up on recent changes by reading the handbook page.
 
 ### High quality
 
