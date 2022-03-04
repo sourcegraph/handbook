@@ -37,14 +37,14 @@ See [Product use case sponsorship guide](../../departments/product-engineering/p
 
 ## How do use cases fit within our platform?
 
-Companies have different workflows for each use case, for example how they monitor and fix security vulnerabilities. In turn, our platform provides products and features that collectively create solutions for each use case. Our customers leverage Sourcegraph in innovative ways to solve for use cases they care about, that's how we deliver value. This is how it fits together:
+Companies have different workflows for each theme, for example how they monitor and fix security vulnerabilities differs depending on industry, code size and distribution. In turn, our platform provides products and features that collectively create solutions for each use case. Our customers leverage Sourcegraph in innovative ways to solve for use cases they care about, that's how we deliver value! This is how it fits together:
 
 - Platform : the overall Sourcegraph offering
 - Product : one of the vertical products in our offering (e.g. search, code monitor, code insights, batch changes)
 - Feature : a capability within a product
 - Solution : any collection of products and features that solve a problem or use case
 
-If a customer cares about Code Health, they may use Code Monitoring differently than one that cares about monitoring for Security Vulnerabilities. Our focus is to enrich our offering in each one of these products to support solving for each use case. This will make it easier for our users to recognize where Sourcegraph could provide value in their workflows.
+If a customer cares about code health, they may use code monitoring differently than one that cares about monitoring for Security Vulnerabilities. Our focus is to enrich our offering in each one of these products to support solving for each use case. This will make it easier for our users to recognize where Sourcegraph could prove useful within their workflows.
 
 ## How do we apply them when we build products and features?
 
@@ -56,12 +56,12 @@ We aim to increase the relevancy of our product for technology organizations tha
 
 ## Are these the only use cases?
 
-We are being intentional so we can develop depth to our solutions and choosing common themes the majority of them face continuously. Although these five problem spaces are the ones we’ve chosen to focus on at this time, we will continue to discover ways to support our customers and every technology organization out there. We are not only focusing on the individual developer workflows, we’re looking at the bigger picture and tackling code quality, developer productivity and happiness within organizations. We are well positioned to truly revolutionize how software is developed and give super-powers to those developing it.
+No, there are many challenges and themes in the software development space! We are being intentional in choosing five common use cases where we can partner and innovate with our customers by developing depth in our solutions. Although these five problem spaces are the ones we’ve chosen to focus on at this time, we will continue to discover ways to support our users and every technology organization out there. We are not only focusing on the individual developer workflows, we’re looking at the bigger picture and tackling code quality, developer productivity and happiness within organizations. We are well positioned to truly revolutionize how software is developed and give super-powers to those developing it.
 
 ## What will we do this quarter?
 
-This is a shift in how we think about developing products for our users and customers so we want to spend this quarter getting better at practicing this across our org. We've commited to this in our [OKRs](../goals/2023_Q1.md). We already have products and features that create a ton of value here AND we want to become an embedded solution for our customers in these five use cases. In the near term we aim to create the narrative under the Use Case umbrella: what are the features that make managing code health more efficient and improving dev onboarding easier, as well as how/where and when do our customers expect to interact with them. Since each use case is serving a higher level need, we will define the user experience that makes access to this value easier and faster. We will collaborate across the business to tell the story of how Sourcegraph helps organizations manage each of these use cases. We believe this will pave the way for scaling our features in a way that’s super relevant and grows our business faster.
+This is a shift in how we think about developing products for our users and customers so we want to spend this quarter getting better at practicing this across our org. We've commited to this in our [OKRs](../goals/2023_Q1.md). We already have products and features that create a ton of value here AND we want to become an embedded solution for our customers in these five use cases. In the near term we aim to create the narrative under the Use Case umbrella: (for example) what are the features that make managing [code health](../strategy/use-cases/code-health.md) more efficient and making dev onboarding more efficient so new devs can be productive faster. How, where and when do our users expect to interact with our solutions within their work? Since each use case is serving a higher level need, we will define the user experience that makes access to this value easier and faster. We will collaborate across the business to tell the story of how Sourcegraph helps organizations manage each of these use cases. We believe this will pave the way for scaling our features in a way that’s super relevant and grows our business faster.
 
 # What will we do this year?
 
-Our [company strategy](../strategy/index.md) this year is centered around leveraging these 5 use cases for existing customers to grow ARR. We will continue to build empathy for our enterprise customers and their challenges within these problem spaces. Inevitably we will discover more, different opportunities where Sourcegraph can bring forth solutions and iterate on our product-market fit.
+Our [company strategy](../strategy/index.md) this year is centered around leveraging 5 use cases for existing customers to grow ARR. We will continue to build empathy for our enterprise partners and their challenges within these problem spaces. Inevitably we will discover more, different opportunities where Sourcegraph can bring forth solutions and iterate on our product-market fit.

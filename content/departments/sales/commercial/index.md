@@ -4,7 +4,11 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 ## Members
 
-Links TBD
+[Kevin Quigley](../../../team/index.md#sts=Kevin%20Quigley)
+
+[Markie Muldez](../../../team/index.md#sts=Mark%20%E2%80%9CMarkie%E2%80%9D%20Muldez)
+
+[Sam Cregg](../../../team/index.md#sts=Sam%20Cregg)
 
 ## Quick Links
 
@@ -13,6 +17,7 @@ Links TBD
 - [How to Sell Cloud](sellcloud.md)
 - [Price and Incentives](https://docs.google.com/document/d/1jGzr_kERkn397X8v2Juyf0JSYvI6uQCZihN7dYjoO8w/edit?usp=sharing)
 - [Best Practices](#best-practices)
+  - [Customer Engagment Process](#customer-engagement-process)
   - [Meetings](#meetings)
   - [Keys to Discovery](#keys-to-discovery)
   - [Mutual Action Plan (MAP)](#mutual-action-plan)
@@ -20,6 +25,7 @@ Links TBD
 - [Day-to-Day Activities](#day-to-day-activities)
   - [Order Forms](#order-forms)
   - [Forecasting](#forecasting)
+- [Film Study](#film-study)
 
 ## Role Requirements
 
@@ -48,6 +54,10 @@ Links TBD
 
 ## Best Practices
 
+### Customer Engagement Process
+
+The [Customer Engagement Process (CEP)](https://docs.google.com/spreadsheets/d/1BEs9Bi0Bdi7tsPHX22G4WVZnMBhrEFslhJpkCkEOZvI/edit?usp=sharing) details what is required for a deal to be forecasted in a given stage. Please make note of this as you forecast your deals. You will be held to account for it.
+
 ### Meetings
 
 1. Before the first meeting:
@@ -63,6 +73,7 @@ Links TBD
 
    - Does the customer have a valuable problem they want to solve and are they willing to work with you via a planned next step to solve it?
      - If so, send an calendar invite with an agenda for the next meeting
+     - If so, bump the opp to Stage to "2 - Qualification" or create an opp; in either case format the name of the opp as follows: "Company Name - UserCount Self-Hosted/Cloud/Managed Instance"
      - If not, kick it back to the SDR to schedule any additional meetings that may subsequently create a SAO
    - Make sure to put in the _iARR_ and _amount_ for each deal. The _iARR_ is the incremental amount over what the previous contract value. In the case of new accounts, _iARR_ and _amount_ are the same.
      - Please calculate the amount for a deal as follows:
@@ -78,6 +89,7 @@ Links TBD
        - Update the 3 Why's; make note of anything that you can not satisfactorily address as you will need to find answers on the next call
      - Execute your next steps, calendar invite, summary email and agenda etc.
    - If you send a calendar invite, make sure to include an agenda for the meeting.
+   - Should you update the stage of the deal? Please make sure your deal is aligned with the [Commercial Customer Engagement Process](https://docs.google.com/spreadsheets/d/1BEs9Bi0Bdi7tsPHX22G4WVZnMBhrEFslhJpkCkEOZvI/edit?usp=sharing)
 
 ### Keys to Discovery
 
@@ -148,3 +160,22 @@ If you need an exception to the norm for your order form, please see the [order 
    - Best Case are for deals that have engagement but without the clarity provided by a MAP; these deals may include those that you have a 'gut' feel for
    - Early Pipeline means that you're only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on; any deal that is not forecasted to close in quarter should fall into this category
 6. Make sure to check your math. Closed/Won should have the smallest amount and Best Case should have the largest amount. Closed/Won to Best Case are all possibilities of what could happen within the quarter. Early Pipeline, by definition, is not forecasted for the quarter so you don't need to add the previous numbers up since the forecast is quarterly.
+
+## Film Study
+
+Athletes hone their craft by watching film, practicing, and preparing for the next game/match, etc. Similarly, sales team members can continue to improve their performance by observing "film" in the form of recorded customer calls with Chorus. A key point here is that **team members should expect to learn just as much from viewing the film of others to give feedback as they should by having their film reviewed to receive feedback**.
+
+Workflow as of 2022-03-01
+
+1. Every week pick two Chorus calls that you would like feedback on.
+2. Assign one Chorus call to a teammate; since there are currently three of you, you will each receive feedback from two people and give feedback to two people.
+3. Please post each call that you would like feedback on in the film-review Slack channel in the format "Thread: 'Chorus Call Title'", where the title is a hyper link to the Chorus call that you want feedback for. An example of this exists at the top of the Slack channel, Thread: Ironclad.
+4. @mention the person in the thread that you'd like to give you feedback for the call.
+5. Post feedback on the call in the Slack thread. You can see the format in the example, Thread: Ironclad. Details to note:
+   - For each piece of feedback, make note of the time in the video that your feedback applies
+   - For each piece of feedback please use a "+" for positive, "-" for constructive, or "=" for noteworthy though not necessarily good or bad at the beginning of the feedback
+   - Provide feedback by:
+     - Be specific, describe exctly what happened that was noteworthy at the time noted
+     - For constructive feedback:
+       - Be sure to answer the question 'why' you are choosing to make a critique
+       - After answering the 'why' question, make a suggestion on how it might be handled differently

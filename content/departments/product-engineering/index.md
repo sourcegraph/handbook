@@ -12,8 +12,9 @@
 Reference:
 
 - [Current strategy](strategy-goals/index.md)
-- [Current team](team/index.md)
+- [Current roadmap (private)](https://github.com/orgs/sourcegraph/projects/214/views/21)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
+- [Current team](team/index.md)
 - [Department Meeting](team-culture/department-meeting.md)
 - [Team rituals](team-culture/index.md)
 - [Processes](process/index.md)
