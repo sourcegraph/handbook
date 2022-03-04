@@ -1160,13 +1160,13 @@ nicholas_gage:
 devon_coords:
   name: Devon Coords
   pronouns: She/Her
-  role: Senior Technical Recruiter, Team Lead
+  role: Director, Technical Recruiting
   reports_to: vp_people
   location: White Plains, NY USA 🇺🇸
   github: devoncoords
   email: devon@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/devonelliscoords)'
-  description: "Devon loves spending time with her husband (Andrew), daughter (Madison), dog (Bailey), and cat (Gato). Prior to Sourcegraph, Devon was the Managing Director of a tech recruiting agency in New York City and has ~9 years' experience in the industry. When not working, Devon tries to spend most of her time outside, doing home renovation projects, cooking, trying to keep her plants alive, and traveling."
+  description: 'Devon loves spending time with her husband (Andrew), daughter (Madison), dog (Bailey), and cat (Gato). Prior to Sourcegraph, Devon was the Managing Director of a tech recruiting agency in New York City and has a decade of experience in the industry. When not working, Devon tries to spend most of her time outside, trying to keep her plants alive, doing home renovation projects, cooking, and watching any Real Housewives franchise.'
 
 trevor_houghton:
   name: Trevor Houghton
@@ -2530,7 +2530,7 @@ brady_garrett:
   email: brady.garrett@sourcegraph.com
   github: brady-garrett
   pronouns: he/him
-  role: Sr. Data Analyst
+  role: Senior Data Analyst
   reports_to: business_operations_manager
   location: Queen Creek, AZ, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/bradygarrett11/)'
@@ -2794,3 +2794,25 @@ todd_herskovitz:
   location: San Francisco, CA, USA 🇺🇸
   github: toddherskovitz
   email: todd@sourcegraph.com
+
+ryan_stott:
+  name: Ryan Stott
+  pronouns: he/him
+  role: Enterprise Account Exective
+  reports_to: vp_sales_western_region
+  location: Salt Lake City, UT, USA 🇺🇸
+  github: r-stott
+  email: ryan.stott@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/rayden8/)'
+  description: 'Ryan lives in Salt Lake City where he enjoys the outdoor lifestyle. He has a diverse range of passions, including snowboarding, climbing, guitar, wildlife photography, and travel.  He has a goal of seeing all 7 continents, all 63 national parks and 60 countries.'
+
+sander_ginn:
+  name: Sander Ginn
+  email: sander.ginn@sourcegraph.com
+  github: sanderginn
+  pronouns: he/him
+  role: Cloud DevOps engineer
+  reports_to: engineering_manager_devops
+  location: Amsterdam, The Netherlands 🇳🇱
+  links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
+  description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
