@@ -20,7 +20,7 @@ Drawbacks:
 
 ## Scheduling considerations
 
-Because this is an activity that takes a little bit of attention each day over a few days or a week, its' good to avoid scheduling at the same time as the release is wrapping up, or another heavyweight organizational activity like planning is going on.
+Because this is an activity that takes a little bit of attention each day over a few days or a week, it's good to avoid scheduling at the same time as the release is wrapping up, or another heavyweight organizational activity like planning is going on.
 
 ## Offsetting days
 
