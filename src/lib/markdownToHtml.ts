@@ -122,7 +122,7 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
 
     // Rewrite links on non-index pages to be relative, excluding intentionally absolute oness
     if (parsedUrl.pathname && !isOnIndexPage) {
-        if (parsedUrl.pathname[0] !== '/') {
+        if (!parsedUrl.pathname.startsWith('/')) {
             parsedUrl.pathname = `../${parsedUrl.pathname}`
         }
     }
