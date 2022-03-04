@@ -4,7 +4,7 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-There are currently seven levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+There are currently six levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Proficiency
 - Execution
@@ -112,10 +112,10 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     padding: 2.5rem;
   }
   /*
-  Safari doesn't make the two IC6/IC7 rows equal size automatically, so give them explicit heights
+  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
   Note that min-height also doesn't work.
   */
-  th#ic6, th#ic7 {
+  th#ic6 {
     height: 11rem;
   }
 </style>
@@ -345,7 +345,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
       <td colspan="3" class="level-summary">
         A particularly experienced, impactful contributor.<br>
-        IC4 is the highest level that an engineer can get to based solely on their impact. The availability of positions beyond IC4 is based on both impact and business need.
+        IC4 is the highest level that an engineer can get to based solely on their performance. The availability of positions beyond IC4 is based on both impact and business need.
       </td>
     </tr>
     <tr class="category-summaries-row">

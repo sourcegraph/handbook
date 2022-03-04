@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "leader": {
+        "type": "string"
+      }
+    },
+    "required": ["title", "members"]
+  }
+}

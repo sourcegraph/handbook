@@ -31,7 +31,8 @@ We love our swag, and know you will, too! You will be receiving an email from so
 
 ### 🪑 **Start getting your home office set up**
 
-If you feel like starting to get ready before your start date, feel free to begin ordering the supplies you'll need to be successful on day one. We provide new teammates with a budget of up to $2000 to spend on their office setup. This can include a new chair, desk, monitor, headphones, and more. You can read about our desk set-up guidelines[ here](../../benefits-pay-perks/benefits-perks/spending-company-money.md).
+If you feel like starting to get ready before your start date, feel free to begin ordering the supplies you'll need to be successful on day one. We provide new teammates with a budget of up to $2000 to spend on their office setup. This can include a new chair, desk, monitor, headphones, and more. For interns, we provide a budget of up to $925, which includes only electronic items mentioned [here](../../benefits-pay-perks/benefits-perks/spending-company-money.md).
+You can read about our desk set-up guidelines[ here](../../benefits-pay-perks/benefits-perks/spending-company-money.md#desk-items).
 
 ### 💥 **Benefits and Perks**
 

@@ -6,6 +6,8 @@ chartered to act through Q1 and Q2 of FY23; however, there is no current sunset 
 
 The release guild can be found in the slack channel #release-guild.
 
+{{generator:guild_roster.release_guild}}
+
 ## Release captain selection
 
 For the time being, captains are selected on a volunteer basis. The guild will decide on a format going forward as soon as possible.

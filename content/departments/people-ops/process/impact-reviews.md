@@ -79,7 +79,10 @@ After you’ve moved through each of your three [Onboarding Feedback Milestones]
 
 Timeline of stages:
 
--**Peer selection:** 5 business days -**Self, peer, and upwards reviews:** 7 business days -**Manager reviews:** 5 business days, then manager will release feedback packet to you -**Meet with manager to discuss feedback packet:** after your cycle concludes
+- **Peer selection:** 5 business days
+- **Self, peer, and upwards reviews:** 7 business days
+- **Manager reviews:** 5 business days, then manager will release feedback packet to you
+- **Meet with manager to discuss feedback packet:** after your cycle concludes
 
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
