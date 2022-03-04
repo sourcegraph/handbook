@@ -717,7 +717,7 @@ signup_flow:
   title: Sign up flow
   type: Product
   product_org: cloud
-  product_team: growth
+  product_team: growth_and_integrations
   ownership_model: Owner
   product_lifecycle: Mature
 
@@ -726,7 +726,7 @@ onboarding_flow:
   title: Post sign up / onboarding flow / product tour / in-product guidance
   type: Product
   product_org: cloud
-  product_team: growth
+  product_team: growth_and_integrations
   ownership_model: Owner
   product_lifecycle: Introduction
 
