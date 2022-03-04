@@ -1,5 +1,7 @@
 ## **Search Recruiting Team Alignment by Department**
 
+You can see the board-approved headcount plan, and the corresponding assigned recruiter, on the `open roles (greehouse report)` tab in [this google sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933).
+
 <table>
   <tr>
    <td><strong><span style="text-decoration:underline;">Department</span></strong>
