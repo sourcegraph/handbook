@@ -19,7 +19,7 @@ code_health:
   link: /strategy-goals/strategy/use_cases/code_health
   sponsors:
     product: malo_marrec
-    engineering:
+    engineering: joe_chen
 
 fixing_security_vulnerabilities:
   title: Fixing Security Vulnerabilities
