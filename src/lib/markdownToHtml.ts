@@ -120,9 +120,11 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         return
     }
 
-    // Rewrite links on non-index pages to be relative
+    // Rewrite links on non-index pages to be relative, excluding intentionally absolute oness
     if (parsedUrl.pathname && !isOnIndexPage) {
-        parsedUrl.pathname = `../${parsedUrl.pathname}`
+        if (!parsedUrl.pathname.startsWith('/')) {
+            parsedUrl.pathname = `../${parsedUrl.pathname}`
+        }
     }
 
     // Rewrite index.md references to point to the directory
