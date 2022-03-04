@@ -64,7 +64,7 @@ Being iterative helps us have high agency, because small steps are easier to tak
 
 Being iterative allows us to work efficiently in an async-first setting. As long as we are aligned on our vision and strategy, being iterative reduces the need for heavy coordination, because we are mostly taking small reversible steps. It reduces communication bandwidth, because in many case we can share concrete artifacts (a PR, customer feedback on an iteration, a proposal) instead of sharing larger plans.
 
-We should avoid iterating in a way where it requires change management or large company-wide communication (for example, changing planning processes in the middle of planning).
+We should avoid iterating in a way where it requires change management or large company-wide communication (for example, changing planning processes in the middle of planning). You can do this by either waiting until the end of the process, or by making it clear that the changes will take effect next time.
 
 Because we're a [handbook first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, anyone can rapidly get caught up on recent changes by reading the handbook page.
 
