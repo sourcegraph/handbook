@@ -90,7 +90,7 @@ The finance team reviews the AR aging schedule on a monthly basis and assesses c
 
 ### Churned/contraction IARR
 
-Churned/contraction IARR is from customers who do not renew their contract (churn) or whose contract decreases in ARR (contraction). This results in a decrease in ARR for the business. 
+Churned/contraction IARR is from customers who do not renew their contract (churn) or whose contract decreases in ARR (contraction). This results in a decrease in ARR for the business.
 
 ### Booking
 
@@ -102,11 +102,11 @@ A booking is when a customer commits to pay us money. This includes when:
 
 ### Net dollar retention
 
-Net dollar retention (NDR) is measures how much revenue a cohort is generating (expansion - churn) in a given period relative to its original size (dollar amount). 
+Net dollar retention (NDR) is measures how much revenue a cohort is generating (expansion - churn) in a given period relative to its original size (dollar amount).
 
 Calculation: (Beginning period ARR + existing customer expansion - churn/contraction) / beginning period ARR
 
-For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%. 
+For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%.
 
 ## Financial Planning and Financial Statement Review
 
