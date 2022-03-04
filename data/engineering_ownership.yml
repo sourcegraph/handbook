@@ -119,6 +119,14 @@ web_app:
   product_team: frontend_platform
   ownership_model: Owner
 
+resource_esimtator:
+  category: Application Interface
+  title: Resource Estimator
+  type: Product
+  product_org: cloud
+  product_team: delivery
+  ownership_model: Owner
+
 diff_commit_search:
   category: Client - Core Feature
   title: Diff / commit search
@@ -709,18 +717,16 @@ signup_flow:
   title: Sign up flow
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: growth_and_integrations
   ownership_model: Owner
   product_lifecycle: Mature
 
 onboarding_flow:
   category: Web App - Core Feature
-  title: Post sign up / onboarding flow
+  title: Post sign up / onboarding flow / product tour / in-product guidance
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: growth_and_integrations
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -749,6 +755,15 @@ code_search:
   type: Product
   product_org: code_graph
   product_team: search_product
+  slack_channels: '#search'
+  ownership_model: Owner
+
+open_source_search:
+  category: Web App - Core Feature
+  title: Open Source (OSS) Code Search
+  type: Product
+  product_org: code_graph
+  product_team: search_core
   slack_channels: '#search'
   ownership_model: Owner
 
