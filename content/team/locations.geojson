@@ -1500,3 +1500,15 @@
     }
   ]
 }
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Ryan Stott"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            <-111.810516>,
+            <40.616310>
+        ]
+    }
