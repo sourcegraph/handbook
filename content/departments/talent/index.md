@@ -26,6 +26,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
+  - [Open headcount - change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/viewform?usp=sf_link)
 - [Identifying candidates](process/identifying_candidates.md)
   - [How we find candidates](process/identifying_candidates.md)
   - [Where we advertise our jobs](process/identifying_candidates.md)
