@@ -22,4 +22,4 @@ As we attempt for SOC2 certification we are also acknowledging that we are more 
 
 [Device usage & privacy policy](../team_device_usage_privacy.md)
 
-[Computer Setup Requirements](../../tools/computer-setup.md)
+[Computer setup Rrequirements](../../tools/computer-setup.md)
