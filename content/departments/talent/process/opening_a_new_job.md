@@ -14,7 +14,9 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 
 The below actions must take place before we begin interviewing candidates.
 
-**Step 1**: The Hiring Manager sends a Slack #Hiring to confirm your role is in the board-approved headcount plan and to confirm which Recruiter will be working on your search.
+**Step 1**: The Hiring Manager confirms the role is in the board-approved headcount plan on the `open roles (greehouse report)` tab in [this google sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933).
+
+If you wish to change the title, scope of role, or target start date of a role, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/viewform?usp=sf_link).
 
 **Step 2**: The Hiring Manager creates a job description & interview plan using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). We recognize that this step is time consuming, yet it is a critical step in setting our search up for success. Creating a well-thought out job description and interview plan 1) ensures alignment between the Hiring Manager, the hiring team, and the Recruiter and 2) ensures that all candidates are receiving a fair and consistent interview experience. Creating a strong plan upfront is also proven to reduce time-to-fill, meaning that we will make a hire faster, on average.
 

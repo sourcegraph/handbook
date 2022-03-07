@@ -30,8 +30,9 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
   - #dev-ops
   - #dev-chat
   - #dev-accounce
-- Make sure you are added to the [Delivery](https://github.com/orgs/sourcegraph/teams/delivery) team in Sourcegraph GitHub org.
-- Ask for access to the [Managed Instances](https://console.cloud.google.com/projectselector2/home/dashboard?folder=206339056180&orgonly=true&supportedpurview=project) project group on [GCP] in `#delivery-internal` channel.
+- Make sure you are added to the [Delivery](https://github.com/orgs/sourcegraph/teams/delivery) team in Sourcegraph GitHub org. Reach out to [#delivery-internal] if you're not.
+- Ask to be added to `gcp-engineering` and `gcp-delivery` Google Group in [#it-tech-ops]
+- Ask to be added to our team on [geekbot](https://app.geekbot.com/dashboard/standup/90421/manage?members) in [#delivery-internal] channel.
 
 ### Week 2
 
@@ -92,3 +93,5 @@ Welcome to the Delivery team! This document will guide you through delivery-spec
 - Add to the teams planning and OKRs
 
 [gcp]: https://console.cloud.google.com
+[#it-tech-ops]: https://sourcegraph.slack.com/archives/C01CSS3TC75
+[#delivery-internal]: https://sourcegraph.slack.com/archives/C02VDNKBWDU

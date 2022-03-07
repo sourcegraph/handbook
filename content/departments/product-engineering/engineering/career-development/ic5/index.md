@@ -26,4 +26,13 @@ If the new IC5 profile represents the promotion of an existing teammate, the EM 
 
 ## Profiles
 
-[Enablement Org](./enablement-org.md)
+- [Enablement Org](./enablement-org.md)
+- [Code Intelligence](./code-intelligence.md)
+- [Code Intelligence - Indexing](./code-intelligence-indexing.md)
+- [Code Intelligence - Platform](./code-intelligence-platform.md)
+- [Search Core](./search-core.md)
+- [Search Product](./search-product.md)
+
+## Reporting structure
+
+The nature of some IC5 roles may impact their reporting structure. For instance, an IC5 dedicated to problem-solving at the org level, who frequently navigates between teams, may report to the org's Director rather than to an Engineering Manager. Conversely, IC5s focused on a deeply technical problem area will still report to the Engineering Manager of the owning team for the problem area.

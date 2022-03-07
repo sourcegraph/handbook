@@ -1,5 +1,6 @@
 ---
 data_source: [/data/engineering_ownership.yml, engineering ownership]
+hide_sidebar: true
 ---
 
 # Engineering Ownership

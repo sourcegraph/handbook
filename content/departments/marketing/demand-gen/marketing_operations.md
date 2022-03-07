@@ -62,18 +62,11 @@ Hubspot Roles have been created to standardize company-wide access, as well as t
 - Standard Admin: Pared-down admin access to our Hubspot instance. Ability to change Hubspot settings, import data, bulk delete, and edit/delete workflows has been disabled.
 - User - Edit Access: Basic access to our Hubspot instance with added ability to edit objects, export data, create forms/lists/files, read/write ads, campaigns, blogs, landing pages, and URL redirects, and create/edit reports.
 - User - Read Access: Basic 'read only' access to our Hubspot instance.
+- User - Sales Access: Basic 'read only' access to Hubspot, with added persmissions to view the Hubspot widget within SFDC.
 
-As we continue to grow, users will also be added to our Hubspot instance. In order to keep a level of consistency, roles will be automatically assigned to teams. If a member of the team needs to have upgraded access, please reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com).
+As new teammates join Sourcegraph, all non-sales users will be added to our Hubspot instance with a 'User - Read Access' role (sales will be added with a 'User - Sales Access' role). If a member of your team needs to have upgraded access, please reach out to [Greg Bouton](mailto:greg.bouton@sourcegraph.com).
 
-- People Ops: User - Read Access
-- Product: User - Edit Access
-- Engineering: User - Edit Access
-- Customer Support: User - Read Access
-- Customer Engineering: User - Edit Access
-- Marketing: User - Edit Access
-- Sales: User - Read Access
-- Talent: User - Read Access
-- Operations: User - Read Access
+**Please read:** - All forms are to be created by a member of the MarketingOps Team. To request a form, please post in the [#demand-gen-internal](https://sourcegraph.slack.com/archives/C020273JHJ6) channel and tag [Greg Bouton](mailto:greg.bouton@sourcegraph.com) and CC [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com). Once a form is created and is set live by MarketingOps, the Growth & Integrations Team can make edits and create A/B tests, however the MarketingOps team must be informed of the changes.
 
 ### Request for Email Send via Hubspot
 
