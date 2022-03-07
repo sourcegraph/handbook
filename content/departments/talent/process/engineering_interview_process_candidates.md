@@ -24,7 +24,16 @@ We want to find engineers who are:
 - Can tailor the technical depth and scope of a conversation dependent on the audience.
 - Can effectively teach and share their knowledge.
 
-### Types of Interviews
+### Standard Interview Process
+- (30m) [Recruiter Screen](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#recruiter-screen)
+- (30m-60m) [Hiring Manager Screen](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#hiring-manager-screen)
+- (60m) Technical Interview
+- (60m) Technical Interview
+- 960m) [Cross-functional Team Collaboration](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
+- (30m) [Values Interview](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#values-interview)
+- (30m) [Leadership Interview](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#leadership-interview)
+
+### Types of Technical Interviews
 
 #### Architecture
 
