@@ -25,6 +25,7 @@ We want to find engineers who are:
 - Can effectively teach and share their knowledge.
 
 ### Standard Interview Process
+
 - (30m) [Recruiter Screen](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#recruiter-screen)
 - (30m-60m) [Hiring Manager Screen](https://handbook.sourcegraph.com/departments/talent/process/types_of_interviews/#hiring-manager-screen)
 - (60m) Technical Interview
