@@ -62,7 +62,7 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>Form submission (any other than demo request, pricing inquiry, or feedback - includes product sign-up or install)
+   <td>Form submission (any other than demo request, pricing inquiry, or feedback)
    </td>
    <td>10 points
    </td>

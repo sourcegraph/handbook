@@ -19,13 +19,6 @@ function createBioLink(name) {
   return `${bioLinkUrlPrefix}${String(createValidTeamAnchor(name))}`
 }
 
-function createRelativeProductLink(link) {
-  if (link.startsWith('http')) {
-    return link
-  }
-  return `../../../..${String(link)}`
-}
-
 export async function generateMaturityDefinitions() {
   const maturityLevels = await readYamlFile('data/maturity_levels.yml')
   let pageContent = ''
@@ -46,13 +39,12 @@ export async function generateFeatureMaturityLevels() {
     let featureCount = 0
     let areaContent = `\n### ${String(productTeam.title)}\n`
     if (productOrgs[productTeam.product_org].strategy_link) {
-      const strategyUrl = createRelativeProductLink(productOrgs[productTeam.product_org].strategy_link)
-      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(strategyUrl)}) | `
+      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
+        productOrgs[productTeam.product_org].strategy_link
+      )}) | `
     }
     if (productTeam.strategy_link) {
-      areaContent += `[${String(productTeam.title)} Strategy](${String(
-        createRelativeProductLink(productTeam.strategy_link)
-      )}))\n`
+      areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
     if (productTeam.pm) {
       const bioLink = createBioLink(teamMembers[productTeam.pm].name)
@@ -66,8 +58,7 @@ export async function generateFeatureMaturityLevels() {
       if (feature.product_team === productTeamName) {
         featureCount++
         if (feature.documentation_link) {
-          const url = createRelativeProductLink(feature.documentation_link)
-          areaContent += `|[${String(feature.title)}](${String(url)})`
+          areaContent += `|[${String(feature.title)}](${String(feature.documentation_link)})`
         } else {
           areaContent += `|${String(feature.title)}`
         }
@@ -93,13 +84,12 @@ export async function generateFeatureCodeHostCompatibilities() {
     let areaContent = `\n### ${String(productTeam.title)}\n`
     const productOrg = productOrgs[productTeam.product_org]
     if (productOrg.strategy_link) {
-      const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
-      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(strategyUrl)}) | `
+      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
+        productOrg.strategy_link
+      )}) | `
     }
     if (productTeam.strategy_link) {
-      areaContent += `[${String(productTeam.title)} Strategy](${String(
-        createRelativeProductLink(productTeam.strategy_link)
-      )}))\n`
+      areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
     if (productTeam.pm) {
       const bioLink = createBioLink(teamMembers[productTeam.pm].name)
@@ -121,9 +111,7 @@ export async function generateFeatureCodeHostCompatibilities() {
       let featureContent = ''
       if (feature.product_team === productTeamName && feature.compatibility !== undefined) {
         if (feature.documentation_link) {
-          featureContent += `|[${String(feature.title)}](${String(
-            createRelativeProductLink(feature.documentation_link)
-          )})`
+          featureContent += `|[${String(feature.title)}](${String(feature.documentation_link)})`
         } else {
           featureContent += `|${String(feature.title)}`
         }
@@ -241,7 +229,7 @@ export async function generateProductTeamsList() {
   for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
     pageContent += `\n### ${String(productOrg.title)} org\n\n`
     if (productOrg.strategy_link) {
-      pageContent += `- [Strategy Page](${String(createRelativeProductLink(productOrg.strategy_link))})\n`
+      pageContent += `- [Strategy Page](${String(productOrg.strategy_link)})\n`
     }
     if (productOrg.strategy_link) {
       const bioLinkPM = createBioLink(teamMembers[productOrg.pm].name)
@@ -253,7 +241,7 @@ export async function generateProductTeamsList() {
       if (productTeam.product_org === productOrgName) {
         pageContent += `\n\n#### ${String(productTeam.title)} team\n`
         if (productTeam.strategy_link) {
-          pageContent += `- [Strategy Page](${String(createRelativeProductLink(productTeam.strategy_link))})\n`
+          pageContent += `- [Strategy Page](${String(productTeam.strategy_link)})\n`
         }
         if (productTeam.pm) {
           const bioLink = createBioLink(teamMembers[productTeam.pm].name)
@@ -352,6 +340,34 @@ export async function generateUseCaseFeatureList(use_case) {
   }
   if (featureCount === 0) {
     pageContent += '- None'
+  }
+  return pageContent
+}
+
+export async function generateUseCaseSponsorsList(use_case) {
+  const useCases = await readYamlFile('data/use_cases.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+  let pageContent = ''
+  if (useCases[use_case].sponsors) {
+    if (useCases[use_case].sponsors.engineering) {
+      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.engineering].name)
+      pageContent += `- Engineering: [${String(teamMembers[useCases[use_case].sponsors.engineering].name)}](${String(
+        bioLink
+      )})\n`
+    }
+    if (useCases[use_case].sponsors.product) {
+      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.product].name)
+      pageContent += `- Product: [${String(teamMembers[useCases[use_case].sponsors.product].name)}](${String(
+        bioLink
+      )})\n`
+    }
+    if (useCases[use_case].sponsors.design) {
+      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.design].name)
+      pageContent += `- Design: [${String(teamMembers[useCases[use_case].sponsors.design].name)}](${String(bioLink)})\n`
+    }
+  }
+  if (pageContent === '') {
+    pageContent += '- None\n'
   }
   return pageContent
 }
@@ -455,13 +471,12 @@ export async function generateDeploymentOptions() {
     let areaContent = `\n### ${String(productTeam.title)}\n`
     const productOrg = productOrgs[productTeam.product_org]
     if (productOrg.strategy_link) {
-      const strategyUrl = createRelativeProductLink(productOrg.strategy_link)
-      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(strategyUrl)}) | `
+      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
+        productOrg.strategy_link
+      )}) | `
     }
     if (productTeam.strategy_link) {
-      areaContent += `[${String(productTeam.title)} Strategy](${String(
-        createRelativeProductLink(productTeam.strategy_link)
-      )}))\n`
+      areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
     if (productTeam.pm) {
       const bioLink = createBioLink(teamMembers[productTeam.pm].name)
@@ -482,7 +497,7 @@ export async function generateDeploymentOptions() {
       if (feature.product_team === productTeamName && feature.deployment !== undefined) {
         featureCount++
         if (feature.documentation_link) {
-          areaContent += `|[${String(feature.title)}](${String(createRelativeProductLink(feature.documentation_link))})`
+          areaContent += `|[${String(feature.title)}](${String(feature.documentation_link)})`
         } else {
           areaContent += `|${String(feature.title)}`
         }
@@ -515,17 +530,16 @@ export async function generateGuildRoster(guildReference) {
 
   pageContent += '## Members\n'
   const leaderReference = guild.leader
-  const teamLinkPrefix = '../../../../../'
   if (leaderReference) {
     const name = teamMembers[leaderReference].name
-    pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))}) - Guild Leader\n`
+    pageContent += `- [${String(name)}](${String(createBioLink(name))}) - Guild Leader\n`
   }
   for (const memberReference of guild.members) {
     if (memberReference === leaderReference) {
       continue
     }
     const name = teamMembers[memberReference].name
-    pageContent += `- [${String(name)}](${teamLinkPrefix}${String(createBioLink(name))})\n`
+    pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
   }
 
   return pageContent
