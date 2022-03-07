@@ -8,7 +8,7 @@ VMWare’s Workspace One is an Endpoint Management system that provides Tech Ops
 
 **What is Carbon Black?**
 
-VMWare’s Carbon Black is an antivirus software that we are deploying to Sourcegraph devices (laptops). Carbon Black monitors for malicious software and adware that may present security risks.
+VMWare’s Carbon Black is an antivirus software that we are deploying to all eligible Sourcegraph devices (laptops). Carbon Black monitors for malicious software and adware that may present security risks.
 
 **What you can do prior to Workspace One Enrollment**:
 
