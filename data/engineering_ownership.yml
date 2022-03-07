@@ -119,7 +119,7 @@ web_app:
   product_team: frontend_platform
   ownership_model: Owner
 
-resource_esimtator:
+resource_estimator:
   category: Application Interface
   title: Resource Estimator
   type: Product
