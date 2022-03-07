@@ -25,12 +25,8 @@ fixing_security_vulnerabilities:
   title: Fixing Security Vulnerabilities
   link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
   sponsors:
-    product:
     engineering: tomás_senart
 
 incident_response:
   title: Incident Response
   link: /strategy-goals/strategy/use_cases/incident_response
-  sponsors:
-    product:
-    engineering:
