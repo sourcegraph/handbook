@@ -865,7 +865,7 @@ List of product names:
 - Use Sourcegraph universal code search to...
 - With code insights you can...
 - Here’s how to use code intelligence.
-  - Here’s how to use code search.
+- Here’s how to use code search.
 
 </div>
 </div>
