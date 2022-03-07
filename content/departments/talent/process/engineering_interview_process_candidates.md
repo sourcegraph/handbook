@@ -26,13 +26,13 @@ We want to find engineers who are:
 
 ### Standard Interview Process
 
-- (30m) [Recruiter Screen](../../types_of_interviews/#recruiter-screen)
-- (30m-60m) [Hiring Manager Screen](../../types_of_interviews/#hiring-manager-screen)
+- (30m) [Recruiter Screen](types_of_interviews/.md#recruiter-screen)
+- (30m-60m) [Hiring Manager Screen](types_of_interviews/.md#hiring-manager-screen)
 - (60m) Technical Interview
 - (60m) Technical Interview
-- 960m) [Cross-functional Team Collaboration](../../types_of_interviews/#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
-- (30m) [Values Interview](../../types_of_interviews/#values-interview)
-- (30m) [Leadership Interview](../../types_of_interviews/#leadership-interview)
+- 960m) [Cross-functional Team Collaboration](types_of_interviews/.md#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
+- (30m) [Values Interview](types_of_interviews/.md#values-interview)
+- (30m) [Leadership Interview](types_of_interviews/.md#leadership-interview)
 
 ### Types of Technical Interviews
 
