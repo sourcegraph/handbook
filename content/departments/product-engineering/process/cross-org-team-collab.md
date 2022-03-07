@@ -10,7 +10,7 @@ To avoid this, as an open core company we can look to open source to see how thi
 2. Similarly, if you're submitting code, they own the merge decision for changes to areas they maintain.
 3. When it comes to go-to-market, they also determine pricing and how it fits in with their product area.
 
-The earlier you engage with the maintainer the more likely you are to be successful, and avoid a situation where you've gotten ahead of yourself and might need to redo work. Unlike open source, there is no forking the project to make your own version. In situations where the ownership is unclear, it might represent a new category, or things are otherwise fuzzy, you should reach out to #prod-eng-directors for help.
+The earlier you engage with the maintainer the more likely you are to be successful, and avoid a situation where you've gotten ahead of yourself and might need to redo work: unlike open source, there is no forking the project to make your own version. In situations where the ownership is unclear, it might represent a new category, or things are otherwise fuzzy, you should reach out to #prod-eng-directors for help.
 
 Through these simple rules of engagement we can foster innovation at the company, avoid turf wars, and take advantage of the fact that we're a tool "by engineers, for engineers" and welcome everyone's contributions to improve the product while avoiding negative outcomes.
 
