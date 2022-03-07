@@ -29,7 +29,7 @@ Sourcegraph anchors onboarding inside engineering organizations and enables engi
 
 <!-- Describe in as much detail as you can how the product enables this use case today. You can include customer quotes, textual walkthroughs, and this is also a great place to link to demo videos. This is perhaps the most important single section in this document, so don't be afraid to add too much - if you feel this section is getting long, consider summarizing here and linking out to other pages in the handbook with details. -->
 
-Today we do not specifically focus on solving this problem, however we know from speaking with existing customers they use Sourcegraph to enhance developer onboarding. Below are case studies further elaborating these notions.
+Today we do not specifically focus on solving this problem, however we know from speaking with existing customers they use Sourcegraph to enhance developer onboarding and initial velocity. Below are case studies further elaborating these notions.
 
 [Convoy improved on-boarding](https://about.sourcegraph.com/case-studies/convoy-improved-on-boarding/)
 
