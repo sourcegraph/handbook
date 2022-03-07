@@ -34,7 +34,7 @@ There is also a [company-wide glossary of terms](../../../../company-info-and-pr
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
 - Early access enrollment: Referring to the process of enabling early access for customers or prospects so they can begin using an [Experimental or Beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features) feature.
-- First experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
+- New user experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
 
@@ -66,9 +66,9 @@ There are some classes of questions that occasionally require an executive level
 - Prioritization across org/department boundaries
 - Decisions when values conflict
 
-The goal is for these to be documented in the handbook in more detail so that decisions can be made without an escalation, but until then the procedure is for the team who needs clarity around any of these kinds of items to write a proposal with how they would like to proceed. This can be presented directly to the executive team member(s) who makes the decision, or if that is unknown or they are not responding in a timely manner, then Christina will either make the decision herself or find the responsible exec team member and ensure it is followed up on. Be sure it's clear when making this request that you're asking for active help.
+The procedure is for the team who needs clarity around any of these kinds of items to write a proposal with how they would like to proceed, which can be added to the [executive decision log](https://docs.google.com/document/d/14snvXSR_SosGfO9GFZHZ4GPy94omcEuDUUKrLdqUQuw/edit#).
 
-It's important to keep in mind that when multiple parties are involved to lean in with empathy: [escalate cleanly](../../../../company-info-and-process/communication/conflicts.md#clean-escalation) and ensure everyone understands each others views. You won't always come to an agreement because of different priorities/contexts, but you should always be able to come to a mutual understanding of the trade-offs that you can present together.
+It's important to keep in mind that, when multiple parties are disagreeing on the path forward, it's important to lean in with empathy ([escalate cleanly](../../../../company-info-and-process/communication/conflicts.md#clean-escalation)) and ensure everyone understands each others views. You won't always come to an agreement because of different priorities/contexts, but you should always be able to come to a mutual understanding of the trade-offs that you can present together for a decision.
 
 ### Product Management & Marketing
 

@@ -22,13 +22,9 @@ We've launched [Notebooks](https://sourcegraph.com/notebooks?tab=explore) in pub
 
 #### Goals
 
-<<<<<<< HEAD
 Sourcegraph needs to continue to differentiate its core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search. We must provide compelling solutions for the most pressing use cases of our customers. Our goal is to ensure the base Sourcegraph platform (currently Search, Notebooks, and Code monitors) continues to become more compelling and differentiated and supports future innovation from our team and across Sourcegraph.
-=======
 
 Expand the core platform functionality with products and features that address our core [use cases](../../../strategy/use-cases/index.md). Sourcegraph needs to continue to differentiate its core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search. We must provide compelling solutions for the most pressing use cases of our customers. Our goal is to ensure the base Sourcegraph platform (currently Search, Notebooks, and Code monitors) continues to become more compelling and differentiated and supports future innovation from our team and across Sourcegraph.
-
-> > > > > > > 11725f6c92f1c6891b91e19d3420f39311d35a72
 
 - Support customers in onboarding new developers and sharing best practices, via Notebooks
 - Enable more connectivity to Sourcegraph via webhooks and Slack integration
