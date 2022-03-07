@@ -35,7 +35,7 @@ We have identified five key use cases for our universal code search platform:
 1. [Fixing security vulnerabilities](use-cases/fixing-security-vulnerabilities.md)
 1. [Incident Response](use-cases/incident-response.md)
 
-(There is no explicit mention of developer velocity in these use case titles, because they all improve developer velocity.)
+There is no explicit mention of developer velocity in these use case titles, because they all improve developer velocity.
 
 There are also several related resources:
 
