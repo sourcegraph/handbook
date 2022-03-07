@@ -1,6 +1,8 @@
 # Cross-org/team collaboration
 
-Sometimes, ideas (and even code) for something for your team can come from other teams, orgs, or even departments at Sourcegraph. That's a good thing because it means everyone can contribute to the innovation and success of the product we all use - the more we do of that sort of thing, the more of a flywheel we're generating for improvements and is one of the real advantages of being a software development company that makes products for software developers. That said, if the collaboration part of this is not handled well, you can end up in situations where we create duplicative product features, or waste time building things that eventually will need to be reworked, or even shut down.
+Sometimes, ideas (and even code) for something your team owns comes from other teams, orgs, or even departments at Sourcegraph. That's a good thing because everyone can contribute to the innovation and success of the product we all use, and the more we do of that sort of thing, the more of a flywheel we're generating for improvements and is one of the real advantages of being a software development company that makes products for software developers. 
+
+That said, if the collaboration part of this is not handled well, you can end up in situations where we create duplicative product features, or waste time building things that eventually will need to be reworked, or even shut down.
 
 To avoid this, as an open core company we can look to open source to see how this kind of situation is handled:
 
