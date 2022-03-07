@@ -55,7 +55,7 @@ The outcome of this practice would be that each application engineer:
 
 ## Putting it all together
 
-The long-term (ongoing) outcome of having both these practices in place would be that each application engineer would receive a minimum of four (4) peer reviews (two for a start) and two (2) self-review and manager reviews each month. This, I believe would set the team up nicely to achieve [Key Result 1](<../strategy-goals/FY22Q4-OKR-Plan.md#:~:text=Anyone%20on%20the%20team%20will%20be%20able%20to%20review%20all%20open%20cases%20and%20say%20%E2%80%9Cyes%E2%80%9D%20we%20are%20honoring%20our%20guiding%20principles%20and%20definitions%20of%20success%20at%20least%2095%25%20of%20the%20time%20(first%20test%20of%20this%20will%20be%202021-12-09%20and%20weekly%20from%20there).>>) from our FY22Q4 [OKRs](../strategy-goals/FY22Q4-OKR-Plan.md).
+The long-term (ongoing) outcome of having both these practices in place would be that each application engineer would receive a minimum of four (4) peer reviews (two for a start) and two (2) self-review and manager reviews each month. This, I believe would set the team up nicely to achieve [Key Result 1](../strategy-goals/FY22Q4-OKR-Plan.md#kr1) from our FY22Q4 [OKRs](../strategy-goals/FY22Q4-OKR-Plan.md).
 
 ## Next Steps
 
