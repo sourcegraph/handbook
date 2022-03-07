@@ -23,8 +23,7 @@ When setting up your Sourcegraph device please ensure the following steps have b
    - [Enabling Automatic Updates on MacOS](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac)
    - [Enabline Automatic Updates on Windows](https://support.microsoft.com/en-us/windows/keep-your-pc-up-to-date-de79813c-7919-5fed-080f-0871c7bd9bde)
 
-
-Additionally, all machines should be set up with our an antivirus. 
+Additionally, all machines should be set up with our an antivirus.
 
 Complete steps for setting up your computer are [here](../../tools/computer-setup.md).
 
