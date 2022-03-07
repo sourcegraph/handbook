@@ -6,7 +6,7 @@ This page provides a strategic introduction to one of our [company use cases](..
 
 <!-- Beyond imagining a future in the above section, talk more about why this future is important and why we are going after it. -->
 
-One of the fundamental principles of developer onboarding relates to confidence, and confidence comes from understanding. There are many other factors that form part of the overall effectiveness of developer onboarding, however, as far as what Sourcegraph’s role is in relation to it, we will constrain it to the idea of understanding code.
+One of the fundamental principles of developer onboarding and initial velocity relates to confidence, and confidence comes from understanding. There are many other factors that form part of the overall effectiveness of developer onboarding, however, as far as what Sourcegraph’s role is in relation to it, we will constrain it to the idea of understanding code.
 
 If we unpack this a bit further, understanding relates to:
 
