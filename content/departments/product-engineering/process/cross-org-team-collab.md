@@ -16,4 +16,4 @@ Through these simple rules of engagement we can foster innovation at the company
 
 ## Contributions from the public
 
-We're an open core company, so we can also get code, ideas, and bugs from outside parties. The same guidance applies for their contributions as well.
+We're an open core company, so we can also get code, ideas, and bug reports from outside parties. The same guidance applies for their contributions as well.
