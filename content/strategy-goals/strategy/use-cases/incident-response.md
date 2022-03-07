@@ -1,6 +1,16 @@
+---
+data_source: [/data/use_cases.yml, use cases]
+---
+
 # Incident response use case
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
+
+## Sponsors
+
+This use case has sponsors who [help maintain it](../working-with-use-cases.md). If you have questions or suggestions, you can reach out to them.
+
+{{generator:use_case_sponsors.incident_response}}
 
 ## Overall vision
 
@@ -40,7 +50,7 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 
 ## Features that enable this use case
 
-{{generator:use_case_feature_list.incident_responses}}
+{{generator:use_case_feature_list.incident_response}}
 
 ## Additional resources
 

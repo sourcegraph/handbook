@@ -75,10 +75,11 @@ The following list includes examples of the types of plays or tactical actions u
 > - Intent data report (requires targeted ads)
 > - Direct mail campaigns
 > - Email marketing
-> - Custom campaigns
+> - Virtual
+> - Event
 > - 3rd-Party initiatives
 
-> **Roadmap: Coming soon..**
+> **Roadmap: Future goals**
 >
 > - Free trial incentives
 > - Custom content

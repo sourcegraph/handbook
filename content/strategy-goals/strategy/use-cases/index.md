@@ -1,4 +1,4 @@
-### Use cases
+# Use cases
 
 We have identified five key use cases for our universal code search platform:
 

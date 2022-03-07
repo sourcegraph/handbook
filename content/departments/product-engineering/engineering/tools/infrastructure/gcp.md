@@ -21,7 +21,7 @@ These projects contain per-project permissions.
 
 Contains projects used by individual engineers. Engineers are expected to remove all their resources once they are done testing. All projects must be prefixed with `$name-` (the name of the owner).
 
-Generally, these projects should be short-lived and shutdown by the engineer when it is no longer needed (this will delete all resources in the project). Longer lived projects should be put in another folder and distribution should be contacted for review.
+Generally, these projects should be short-lived and shutdown by the engineer when it is no longer needed (this will delete all resources in the project). Longer lived projects should be put in another folder and cloud-devops should be contacted for review. Short term projects do not need to be added via Terraform but longer term projects should be stood up via Terraform in the infrastructure repo.
 
 _Note: Customer Support team members should provision clusters within the cse-k8s project._
 

@@ -1,6 +1,7 @@
 ---
 data_source: [/data/features.yml, features]
 data_source_2: [/data/deployment_options.yml, deployment options]
+hide_sidebar: true
 ---
 
 # Features available by deployment option
