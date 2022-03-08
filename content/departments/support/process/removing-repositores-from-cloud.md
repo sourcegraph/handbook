@@ -40,12 +40,6 @@ A hard delete leaves no trace of the repository in the database
 1. If you know the name of the repo by it's URI get the id:
 
 ```
-SELECT id FROM repo WHERE name LIKE 'example.com/example/repo';
-```
-
-or
-
-```
 SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo';
 ```
 
