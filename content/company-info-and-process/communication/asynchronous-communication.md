@@ -129,7 +129,7 @@ Finally, remember Slack is _not_ a source of truth. Something said or mentioned 
 We've talked above about how to do things async, but sometimes you might need (or think you need) a sync meeting. This section can help.
 
 <center>
-<object role="document" width="1133" height="1889" title="One pager: Async versus sync communication" data="onepager-async.svg" style="width: 80%"></object>
+<img width="1133" height="1889" title="One pager: Async versus sync communication" src="/static/onepager-async.svg" style="width: 80%"></img>
 </center>
 
 #### Deciding between sync and async

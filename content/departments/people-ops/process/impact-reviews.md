@@ -95,7 +95,7 @@ _Best practice tip: We recognize that to make an impact, you must first develop 
 
 These cycles will run concurrently with your [Onboarding Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) on the following cadence:
 
-<object role="image" data="impact_review_infographic.svg" width="960" height="540" aria-label="Infographic describing cadence of Impact review cycle from start date to cycle launches"></object>
+<img src="/static/impact_review_infographic.svg" width="960" height="540" aria-label="Infographic describing cadence of Impact review cycle from start date to cycle launches"></img>
 
 ### Selecting a peer reviewer
 

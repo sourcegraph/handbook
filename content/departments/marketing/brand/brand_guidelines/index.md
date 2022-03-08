@@ -13,7 +13,7 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
 
 ## Contents
 
-<object role="img" data="how_we_express_our_brand.svg" style="float: right; margin-left: 2rem; max-width: 30rem"></object>
+<img src="/static/how_we_express_our_brand.svg" style="float: right; margin-left: 2rem; max-width: 30rem"></img>
 
 - Introduction
   - [Brand Expression](brand-expression.md)
