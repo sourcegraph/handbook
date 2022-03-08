@@ -57,12 +57,7 @@ Multiple `sourcegraph-managed-$name` projects, one for each our managed deployme
 Compute Engine lets you purchase committed use contracts in return for deeply discounted prices for VM usage. These discounts are referred to as committed use discounts.
 
 ### Current commitments
-
-- Period: 1 Year
-- End Date: August 1, 2021
-- CPU: `1200`
-- Memory: `3500`
-- Report: [GCP Commitment Proposal July 2020](https://docs.google.com/document/d/1G_p8eiWqmRmnrgA0U-lcJHfKQhAQTGr5ROuLoNeQ59s)
+We do not have any ongoing commitments as of right now since the most recent commitment expired. The [Cloud DevOps](../../cloud/devops/index.md) team is currently investigating resource usage as part of an effort to rightsize GCP consumption.
 
 ### Assessing commitments
 
@@ -72,9 +67,9 @@ We will review the previous commitments and our billing reports to identify new 
 
 Review previous commitments and utilization reports to asses if we can increase or supplement our commitments.
 
-- Sign in to **Cloud Billing** in the Google Cloud Console
+- Sign in to **Billing** in the Google Cloud Console
 - From the Billing navigation menu, select **Commitments**
-- Change the `Scope -> Time` range to "Year to date"
+- To the predefined filters <kbd>State: Active</kbd> <kbd>OR</kbd> <kbd>State: Inactive</kbd>, add <kbd>OR</kbd> <kbd>State: Expired</kbd>
 - Review VCPU, RAM and other commitments over the last year
 
 #### Billing reports
