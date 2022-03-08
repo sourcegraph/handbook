@@ -37,12 +37,12 @@ colors, and logomark styles.
 </style>
 
 <table class="old-logos-table" style="width: auto; margin: auto">
-  <tr><td><img src="./logo/history/2013.svg"></td> <td>2013</td></tr>
-  <tr><td><img src="./logo/history/2014.svg"></td> <td>2014</td></tr>
-  <tr><td><img src="./logo/history/2015.1.svg"></td> <td>2015</td></tr>
-  <tr><td><img src="./logo/history/2015.2.svg"></td> <td>2015</td></tr>
-  <tr><td><img src="./logo/history/2017.svg"></td> <td>2017</td></tr>
-  <tr><td><img src="./logo/history/2020.svg"></td> <td>2020</td></tr>
+  <tr><td><img src="/static/logo/history/2013.svg"></td> <td>2013</td></tr>
+  <tr><td><img src="/static/logo/history/2014.svg"></td> <td>2014</td></tr>
+  <tr><td><img src="/static/logo/history/2015.1.svg"></td> <td>2015</td></tr>
+  <tr><td><img src="/static/logo/history/2015.2.svg"></td> <td>2015</td></tr>
+  <tr><td><img src="/static/logo/history/2017.svg"></td> <td>2017</td></tr>
+  <tr><td><img src="/static/logo/history/2020.svg"></td> <td>2020</td></tr>
 </table>
 
 ## Our logo
@@ -54,7 +54,7 @@ A wildcard is a kind of placeholder represented by a single character, such as a
 Since Sourcegraph’s core product and feature set is related to universal code search, this symbol ties back to our company’s founding and the contributions we’re making to software development. For further reading, see this [article on wildcard characters](https://en.wikipedia.org/wiki/Wildcard_character).
 
 <div class="flex-center" style="padding: 3rem">
-  <img src="./logo/versions/Sourcegraph_Logo_FullColor_light.svg" style="max-width: 400px" alt="Current Sourcegraph logo">
+  <img src="/static/logo/versions/Sourcegraph_Logo_FullColor_light.svg" style="max-width: 400px" alt="Current Sourcegraph logo">
 </div>
 
 ## Logo versions
@@ -86,28 +86,28 @@ To accommodate all environments where the Sourcegraph logo may appear, we’ve c
     <h4>Horizontal logo</h4>
     <p class="logo-version-description">This is our primary logo and is for use on most backgrounds including white and gray.</p>
     <div class="logo-version-container bg-light-gray">
-      <img src="./logo/versions/Sourcegraph_Logo_FullColor_light.svg" alt="Full horizontal Sourcegraph logo">
+      <img src="/static/logo/versions/Sourcegraph_Logo_FullColor_light.svg" alt="Full horizontal Sourcegraph logo">
     </div>
   </div>
   <div class="logo-version" style="width: 12rem">
     <h4>Logomark — the Star</h4>
     <p class="logo-version-description">For use within an already established context of the brand.</p>
     <div class="logo-version-container bg-light-gray">
-      <img src="./logo/versions/Sourcegraph_Logomark_Color.svg" style="max-width: 50px" alt="Sourcegraph logomark">
+      <img src="/static/logo/versions/Sourcegraph_Logomark_Color.svg" style="max-width: 50px" alt="Sourcegraph logomark">
     </div>
   </div>
   <div class="logo-version">
     <h4>Wordmark</h4>
     <p class="logo-version-description">Used sparingly: in instances where space is limited, or for creative purposes where the Star is shown separately.</p>
     <div class="logo-version-container bg-light-gray">
-      <img src="./logo/versions/Sourcegraph_Wordmark_BLK.svg" alt="Sourcegraph wordmark without logo">
+      <img src="/static/logo/versions/Sourcegraph_Wordmark_BLK.svg" alt="Sourcegraph wordmark without logo">
     </div>
   </div>
   <div class="logo-version">
     <h4>Reversed logo</h4>
     <p class="logo-version-description">The reversed logos are for use on dark backgrounds or imagery.</p>
     <div class="logo-version-container" style="background: #242427">
-      <img src="./logo/versions/Sourcegraph_Logo_FullColor_dark.svg" alt="Sourcegraph logo with white font">
+      <img src="/static/logo/versions/Sourcegraph_Logo_FullColor_dark.svg" alt="Sourcegraph logo with white font">
     </div>
   </div>
   <div class="logo-version" style="max-width: 40rem">
@@ -115,12 +115,12 @@ To accommodate all environments where the Sourcegraph logo may appear, we’ve c
     <p class="logo-version-description">The one-color logo should be used with backgrounds that contrast with the colors in the full-color logomark. Use black on lighter colors, white on darker. These versions should be used sparingly though, because our logo color combination is a key source of recognition for our brand.</p>
     <div style="display: flex; flex-wrap: wrap; gap: 1rem">
       <div class="logo-version-container bg-gradient-venus" style="flex: 1 1 calc(50% - 0.5rem)">
-        <img src="./logo/versions/Sourcegraph_Logo_1c_black.svg" alt="Sourcegraph one-color logo in black">
-        <img src="./logo/versions/Sourcegraph_Logomark_BLK.svg" style="max-width: 50px" alt="Sourcegraph one-color logomark in black">
+        <img src="/static/logo/versions/Sourcegraph_Logo_1c_black.svg" alt="Sourcegraph one-color logo in black">
+        <img src="/static/logo/versions/Sourcegraph_Logomark_BLK.svg" style="max-width: 50px" alt="Sourcegraph one-color logomark in black">
       </div>
       <div class="logo-version-container bg-gradient-aurora" style="flex: 1 1 calc(50% - 0.5rem)">
-        <img src="./logo/versions/Sourcegraph_Logo_1c_white.svg" alt="Sourcegraph one-color logo in black">
-        <img src="./logo/versions/Sourcegraph_Logomark_WHT.svg" style="max-width: 50px" alt="Sourcegraph one-color logomark in black">
+        <img src="/static/logo/versions/Sourcegraph_Logo_1c_white.svg" alt="Sourcegraph one-color logo in black">
+        <img src="/static/logo/versions/Sourcegraph_Logomark_WHT.svg" style="max-width: 50px" alt="Sourcegraph one-color logomark in black">
       </div>
     </div>
   </div>
@@ -138,19 +138,19 @@ To ensure proper legibility the logo minimum size should not go below 0.9 inches
   <div style="flex: 1 1 30%">
     <h4>Clear space</h4>
     <div class="bg-light-gray flex-center" style="padding: 1rem; height: 10rem">
-      <img src="./logo/logo_placement.svg" style="max-width: 20rem" alt="Sourcegraph logo with zeros on each side to demonstrate proper use of clear space">
+      <img src="/static/logo/logo_placement.svg" style="max-width: 20rem" alt="Sourcegraph logo with zeros on each side to demonstrate proper use of clear space">
     </div>
   </div>
   <div style="flex: 1 1 30%">
     <h4>Minimum digital size</h4>
     <div class="bg-light-gray flex-center" style="padding: 1rem; height: 10rem">
-      <img src="./logo/minimum_digital_logo_size.svg" style="max-width: 20rem; height: 30px" alt="Sourcegraph logo with 30px height">
+      <img src="/static/logo/minimum_digital_logo_size.svg" style="max-width: 20rem; height: 30px" alt="Sourcegraph logo with 30px height">
     </div>
   </div>
   <div style="flex: 1 1 30%">
     <h4>Minimum print size</h4>
     <div class="bg-light-gray flex-center" style="padding: 1rem; height: 10rem">
-      <img src="./logo/minimum_print_logo_size.svg" style="max-width: 0.9in" alt="Sourcegraph logo with 9 inches width">
+      <img src="/static/logo/minimum_print_logo_size.svg" style="max-width: 0.9in" alt="Sourcegraph logo with 9 inches width">
     </div>
   </div>
 </div>

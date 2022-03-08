@@ -147,7 +147,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     <div class="color color-sm" style="--color: var(--sg-vermillion); color: white">
       <code>#ff5543</code>
       <small>Vermillion</small>
-      <div><img src="logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
+      <div><img src="/static/logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
     </div>
     <div class="color color-sm" style="--color: #ed2e20; color: white">
       <code>#ed2e20</code>
@@ -178,7 +178,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     <div class="color color-sm" style="--color: var(--sg-vivid-violet); color: white">
       <code>#a112ff</code>
       <small>Vivid Violet</small>
-      <div><img src="logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
+      <div><img src="/static/logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
     </div>
     <div class="color color-sm" style="--color: #820dde; color: white">
       <code>#820dde</code>
@@ -210,7 +210,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     <div class="color color-sm" style="--color: var(--sg-sky-blue)">
       <code>#00cbec</code>
       <small>Sky Blue</small>
-      <div><img src="logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
+      <div><img src="/static/logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
     </div>
     <div class="color color-sm" style="--color: #00a1c7; color: white">
       <code>#00a1c7</code>
