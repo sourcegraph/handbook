@@ -122,9 +122,10 @@ In order to mimic the same workflow that we tell our customers to follow:
 1. Check the deployment is healthy afterwards (`kubectl get pods` should show all healthy, searching should work).
 
 ## Sourcegraph Cloud
+
 As [Sourcegraph Cloud](instances.md#sourcegraph-cloud) has matured into a core product it's needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Cloud DevOps](../../cloud/devops/index.md) team.
 
-Similarly, the code-release process for Sourcegraph Cloud has changed. Unlike customer instances, Sourcegraph Cloud operates a continuous release cycle and code changes are deployed multiple times a day. To help facilitate this rapid release cycle while still maintaining operation stability, a [preprod environment](../../cloud/devops/preprod) has been integrated into the workflow that closely mirrors the deployment of Sourcegraph Cloud. 
+Similarly, the code-release process for Sourcegraph Cloud has changed. Unlike customer instances, Sourcegraph Cloud operates a continuous release cycle and code changes are deployed multiple times a day. To help facilitate this rapid release cycle while still maintaining operation stability, a [preprod environment](../../cloud/devops/preprod) has been integrated into the workflow that closely mirrors the deployment of Sourcegraph Cloud.
 
 ### Continuous Deployment Process
 
@@ -142,4 +143,3 @@ The automatic release process works as follows:
 1. The PR is merged and a final [Buildkite](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.buildkite/pipeline.yaml#L37:L43) pipeline is triggered to deploy the changes to production
 
 All infrastructure changes should first be branched off `preprod` and merged into the `preprod` environment first before being manually merged (via PR) to `release`.
-
