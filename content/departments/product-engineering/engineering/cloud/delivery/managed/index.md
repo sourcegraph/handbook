@@ -17,6 +17,7 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [Upgrading a managed instance](upgrade_process.md)
 - [Suspending a managed instance](suspend_process.md)
 - [Resuming a managed instance](resume_process.md)
+- [Enable executors][enable_executors_process.md]
 - [FAQ](#faq)
 
 ## Requesting a managed instance
