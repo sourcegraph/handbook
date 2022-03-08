@@ -11,7 +11,7 @@ The change to terraform will be done by Batch Change team. Batch Change team wil
 
 ## Setup billing alert
 
-As of 2022-03-08, we give customers $500 compute credits for executors usage, so we need to setup billing alert.
+As of 2022-03-08, we give customers a fixed amount (e.g. $500) of computing credits for executors usage, so we need to setup billing alerts.
 
 At a high level, we will create a new monitoring alerting channel (via email) in the GCP project, and configure a budget alert in our organization billing account. All billing alerts will be delivered to [#wg-shipping-executors](https://sourcegraph.slack.com/archives/C02MR5PPMKJ).
 
