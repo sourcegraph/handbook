@@ -7,7 +7,7 @@ Enabling executor on a managed instances is initiated by "?". There are a few lo
 
 ## Update the managed instances terraform
 
-The change to terraform will be done by Batch Change team. Batch Change teamm will ping us the Pull Request for the changes and Delivery team will apply the change.
+The change to terraform will be done by Batch Change team. Batch Change team will ping Delivery on the Pull Request for the changes and Delivery team will apply the change.
 
 ## Setup billing alert
 
