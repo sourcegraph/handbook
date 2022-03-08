@@ -58,6 +58,10 @@ Plans need to be feasible. A plan is feasible only if we can achieve it accounti
 
 The right level of capacity to plan to depends on the team (size, health, maturity of the ownership area), but a good default is to plan to 80% capacity and reserve 20% capacity for reactive work (responding to bugs, incidents, customer requests). Planned work should contain an appropriate balance of [multiple kinds of work](#plans-balance-multiple-kinds-of-work).
 
+## Everyone can contribute to planning
+
+Good ideas and code can come from anywhere; other teams, other orgs, even other departments or from open-source contributors. Be sure you're [welcoming to contributions from outside of your team](cross-org-team-collab.md).
+
 ## Plans balance multiple kinds of work
 
 There are three different kinds of work to consider when planning work: feature work, scale work, and risk work.

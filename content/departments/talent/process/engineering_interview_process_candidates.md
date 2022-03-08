@@ -24,7 +24,18 @@ We want to find engineers who are:
 - Can tailor the technical depth and scope of a conversation dependent on the audience.
 - Can effectively teach and share their knowledge.
 
-### Types of Interviews
+### Standard Interview Process
+
+- (30m) [Recruiter Screen](types_of_interviews.md#recruiter-screen)
+- (30m-60m) [Hiring Manager Screen](types_of_interviews.md#hiring-manager-screen)
+- Team Interview
+  - (60m) Technical Interview
+  - (60m) Technical Interview
+  - (60m) [Cross-functional Team Collaboration](types_of_interviews.md#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
+- (30m) [Values Interview](types_of_interviews.md#values-interview)
+- (30m) [Leadership Interview](types_of_interviews.md#leadership-interview)
+
+### Types of Technical Interviews
 
 #### Architecture
 
@@ -92,6 +103,6 @@ We want to find engineers who are:
 
 - **Duration:** 60-minutes
 
-- **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise will use CodeSandbox and Figma. If you prefer not to use your accounts we have it set up so you don't have to.
+- **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise will use CodeSandbox and Figma, and will be done in React. If you prefer not to use your accounts we have it set up so you don't have to.
 
 - **Preparation:** Not Mandatory, since we can set up the exercise without it - Create (free) accounts on https://www.figma.com/ and https://codesandbox.io/.

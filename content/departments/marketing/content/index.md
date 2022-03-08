@@ -15,6 +15,16 @@ At Sourcegraph, we define **content marketing** as generating awareness, buildin
 - [Blog Hackathon](editorial/blog_hackathon.md)
 - [Web series](web_series.md)
 
+## How to work with us
+
+If you need help with content, please fill out our [Content Team Request form](https://form.asana.com/?k=tFSAq7KHovKBKJfzIS4KfA&d=7195383522959).
+
+If you have an idea for content, especially for the blog, please submit a [Content Proposal](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959).
+
+Both forms will create an Asana task that our team will review. One of our team will be in touch with you as soon as possible.
+
+We do ask that requests for the current quarter be submitted by halfway through the quarter if at all possible, to help us balance content needs for current and upcoming quarters.
+
 ## Purpose, mission, and vision
 
 Our purpose, mission, and vision explain why we create, who we create it for, and what we strive to achieve.
