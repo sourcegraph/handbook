@@ -6,7 +6,7 @@ That said, if the collaboration part of this is not handled well, you can end up
 
 To avoid this, as an open core company we can look to open source to see how this kind of situation is handled:
 
-1. There should always be a clear Product & Engineering team `maintainer` who makes the final decision of whether to accept a suggestion/code from another team. You can refer to the [ownership chart](../engineering/process/engineering_ownership.md) to determine who the maintainer is, and they are the first person you should go to to discuss your idea. In cases where the question isn't directly dependent on or modifying existing code, you should refer to the "Vision" sections of [team strategy pages](https://handbook.sourcegraph.com/strategy-goals/strategy/#team-strategy-pages) to determine if there is already a `maintainer` of features related to the job-to-be-done you are pursuing.
+1. There should always be a clear Product & Engineering team `maintainer` who makes the final decision of whether to accept a suggestion/code from another team. You can refer to the [ownership chart](../engineering/process/engineering_ownership.md) to determine who the maintainer is, and they are the first person you should go to to discuss your idea. In cases where the question isn't directly dependent on or modifying existing code, you should refer to the "Vision" sections of [team strategy pages](../../../strategy-goals/strategy/index.md#team-strategy-pages) to determine if there is already a `maintainer` of features related to the job-to-be-done you are pursuing.
 2. Similarly, if you're submitting code, they own the merge decision for changes to areas they maintain.
 3. When it comes to go-to-market, they also determine pricing and how it fits in with their product area.
 
