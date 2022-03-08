@@ -2817,14 +2817,13 @@ sander_ginn:
   links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
   description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
 
-mary_belzer:
-  name: Mary Belzer
-  email: mary.belzer@sourcegraph.com
-  github: sanderginn
+jeff_belzer:
+  name: Jeff Belzer
+  email: jeff.belzer@sourcegraph.com
+  github: jeffbelzer
   pronouns: he/him
   role: Cloud DevOps engineer
   reports_to: engineering_manager_devops
   location: Amsterdam, The Netherlands 🇳🇱
-  links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
-  description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
-
+  links: '[LinkedIn](https://www.linkedin.com/in/jeffbelzer/)'
+  description: 'Jeff is a cat.'
