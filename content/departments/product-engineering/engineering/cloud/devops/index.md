@@ -31,7 +31,6 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
   <<<<<<< Updated upstream
 - # [Large release (rollout release) process](deploy-code-change.md#large-releases-to-cloud-rollup-releases)
 - [Large-release-(rollout-release)-process](<deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>)
-  > > > > > > > Stashed changes
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
