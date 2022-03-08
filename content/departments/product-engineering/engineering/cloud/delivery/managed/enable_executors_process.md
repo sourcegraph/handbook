@@ -9,6 +9,8 @@ Enabling executor on a managed instances is initiated by "?". There are a few lo
 
 The change to terraform will be done by Batch Change team. Batch Change team will ping Delivery on the Pull Request for the changes and Delivery team will apply the change.
 
+For Delivery team, you should learn more from this [thread](https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/311#issuecomment-1049794731) before running `terraform apply`.
+
 ## Setup billing alert
 
 As of 2022-03-08, we give customers a fixed amount (e.g. $500) of computing credits for executors usage, so we need to setup billing alerts.
