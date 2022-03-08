@@ -2816,3 +2816,14 @@ sander_ginn:
   location: Amsterdam, The Netherlands 🇳🇱
   links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
   description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
+
+sally_voisen:
+  name: Sally Voisen
+  email: sally.voisen@sourcegraph.com
+  github: stvoisen
+  pronouns: she/her
+  role: Senior Executive Business Partner
+  reports_to: CEO
+  location: San Rafael, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/sally-voisen/)'
+  description: 'Sally lives in the Terra Linda area of San Rafael, CA with her husband, son, daughter, and cat named Bella Momo Cat. An East Coast transplant, Sally grew up in Philadelphia but has called the Bay Area her home since 2007. Prior to Sourcegraph, Sally was at Autodesk and Adobe. Outside of work, Sally enjoys a good pour-over coffee, cooking/baking, and hiking.'
