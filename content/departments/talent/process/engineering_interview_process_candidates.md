@@ -24,7 +24,18 @@ We want to find engineers who are:
 - Can tailor the technical depth and scope of a conversation dependent on the audience.
 - Can effectively teach and share their knowledge.
 
-### Types of Interviews
+### Standard Interview Process
+
+- (30m) [Recruiter Screen](types_of_interviews.md#recruiter-screen)
+- (30m-60m) [Hiring Manager Screen](types_of_interviews.md#hiring-manager-screen)
+- Team Interview
+  - (60m) Technical Interview
+  - (60m) Technical Interview
+  - (60m) [Cross-functional Team Collaboration](types_of_interviews.md#cross-functional-team-collaboration-interview) with 1 Product Manager + 1 Designer
+- (30m) [Values Interview](types_of_interviews.md#values-interview)
+- (30m) [Leadership Interview](types_of_interviews.md#leadership-interview)
+
+### Types of Technical Interviews
 
 #### Architecture
 
