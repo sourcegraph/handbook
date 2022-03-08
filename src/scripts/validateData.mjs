@@ -108,6 +108,11 @@ for (const useCase of Object.values(useCases)) {
                 errors += `Use case contains unknown design sponsor: ${JSON.stringify(useCase)}`
             }
         }
+        if (useCase.sponsors.marketing) {
+            if (!Object.prototype.hasOwnProperty.call(teamMembers, useCase.sponsors.marketing)) {
+                errors += `Use case contains unknown marketing sponsor: ${JSON.stringify(useCase)}`
+            }
+        }
     }
 }
 
