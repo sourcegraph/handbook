@@ -57,6 +57,7 @@ Multiple `sourcegraph-managed-$name` projects, one for each our managed deployme
 Compute Engine lets you purchase committed use contracts in return for deeply discounted prices for VM usage. These discounts are referred to as committed use discounts.
 
 ### Current commitments
+
 We do not have any ongoing commitments as of right now since the most recent commitment expired. The [Cloud DevOps](../../cloud/devops/index.md) team is currently investigating resource usage as part of an effort to rightsize GCP consumption.
 
 ### Assessing commitments
