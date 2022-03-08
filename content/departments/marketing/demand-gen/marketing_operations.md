@@ -8,8 +8,8 @@ Our goal is to make sure the systems support the strategy! For any questions rel
 
 Our most important MarTech tools are as follows:
 
-- **Salesforce-** Hubspot passes lead and marketing touchpoint data over to Salesforce so that sales can follow up on individuals interested in Sourcegraph. 
-- **Hubspot-** Marketing automation tool used to run email marketing campaigns, track prospect engagement, and connects tools to our martech stack. 
+- **Salesforce-** Hubspot passes lead and marketing touchpoint data over to Salesforce so that sales can follow up on individuals interested in Sourcegraph.
+- **Hubspot-** Marketing automation tool used to run email marketing campaigns, track prospect engagement, and connects tools to our martech stack.
 - **Drift (go-live date TBD)-** Chatbot that will be launched on about.sourcegraph.com. We'll be partnering with sales to drive revenue acceleration by helping folks that hit our website find what they are looking for faster via this chat tool.
 - **Postal.io-** This account-based marketing tool is how we send gifts and mailings out to prospects. The integration with Hubspot allows us to automate email messaging workflows before or after gifts are sent or received. Today, we are not running any automated email messaging via this integration.
 - **Triblio-** This account-based marketing tool is how we target specific accounts for digital advertising. The integration with Hubspot allows us to create target lists within Hubspot and share them with Triblio.
