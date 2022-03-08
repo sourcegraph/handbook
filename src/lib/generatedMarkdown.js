@@ -365,6 +365,12 @@ export async function generateUseCaseSponsorsList(use_case) {
       const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.design].name)
       pageContent += `- Design: [${String(teamMembers[useCases[use_case].sponsors.design].name)}](${String(bioLink)})\n`
     }
+    if (useCases[use_case].sponsors.marketing) {
+      const bioLink = createBioLink(teamMembers[useCases[use_case].sponsors.marketing].name)
+      pageContent += `- Marketing: [${String(teamMembers[useCases[use_case].sponsors.marketing].name)}](${String(
+        bioLink
+      )})\n`
+    }
   }
   if (pageContent === '') {
     pageContent += '- None\n'
