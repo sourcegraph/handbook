@@ -865,6 +865,7 @@ List of product names:
 - Use Sourcegraph universal code search to...
 - With code insights you can...
 - Here’s how to use code intelligence.
+- Here’s how to use code search.
 
 </div>
 </div>
@@ -880,7 +881,6 @@ We don't capitalize features or integrations.
 
 - Use the Phabricator integration to...
 - Want to use this in your code review tool? Use Sourcegraph’s <a href="#_" aria-disabled="true">GitHub integration</a>.
-- Here’s how to use code search.
 
 </div>
 <div class="item no">
@@ -889,7 +889,6 @@ We don't capitalize features or integrations.
 
 - Use the Phabricator Integration to... _(the capital “I” makes it into a proper noun, which implies it’s a product.”)_
 - Want to use this in your code review tool? Use <a href="#_" aria-disabled="true">Sourcegraph for GitHub</a>. _(Implies that “Sourcegraph for GitHub” is an official product name.)_
-- Here’s how to use Code Search.
 
 </div>
 </div>

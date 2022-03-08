@@ -37,8 +37,8 @@ Being handbook-first means using the handbook as the source of truth for answers
 
 To be handbook-first, we must:
 
-- Default to the handbook when looking for information about a business process or policy.
-- Rely on the handbook being accurate and up-to-date.
+- Rely on the handbook being a reliable source of truth: accurate and up-to-date.
+- Default to the handbook when looking for information about a business process or policy, not just when we read about it the first time, but as a habit every time because we expect it to keep evolving.
 - Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
 ## Handbook Usage
