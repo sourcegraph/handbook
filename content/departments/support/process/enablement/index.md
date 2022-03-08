@@ -13,7 +13,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 | Go Programming Language         | [Go Here](https://go.dev/tour/welcome/1)                                                                                                                                              |          |
 | GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing)                                                                       |          |
 | Kubernetes migration            | [Go here](k8-migration.md)                                                                                                                                                            |          |
-| Marketplace extensions          | [Go here](https://www.loom.com/share/ccee20f548c54b328951427bb00874e6) & [here](https://docs.google.com/presentation/d/1pxMoWaVUbFg80_YpnHZRNZ3kzJzaNs0FHAH9QvIVcz8/edit?usp=sharing) |          
+| Marketplace extensions          | [Go here](https://www.loom.com/share/ccee20f548c54b328951427bb00874e6) & [here](https://docs.google.com/presentation/d/1pxMoWaVUbFg80_YpnHZRNZ3kzJzaNs0FHAH9QvIVcz8/edit?usp=sharing) |
 
 ## Docs
 
