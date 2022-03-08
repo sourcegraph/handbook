@@ -31,3 +31,5 @@ fixing_security_vulnerabilities:
 incident_response:
   title: Incident Response
   link: /strategy-goals/strategy/use_cases/incident_response
+  sponsors:
+    product: ryan_scott
