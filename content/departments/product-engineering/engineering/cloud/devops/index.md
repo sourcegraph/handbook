@@ -28,12 +28,13 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 ## Content
 
 - [How to deploy a code change to the Cloud](deploy-code-change.md)
-- [Large-release-(rollout-release)-process](<deploy-code-change.md#Large-releases-to-Cloud-(Rollup-releases)>>)
+- [Large release (rollout release) process](deploy-code-change.md#large-releases-to-cloud-rollup-releases)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
 - [Disaster Recovery](disaster-recovery.md)
 - [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
+- [How to use preprod aka staging](preprod.md)
 
 ## How to contact the team and ask for help
 

@@ -21,6 +21,16 @@ We still work in 2 week cycles, and have the following ceremonies:
 2. Retro (biweekly)
    - A review of what we did for learing purposes
 
+### Daily Standup (async)
+
+We use [geekbot](https://app.geekbot.com/dashboard/standup/90421/manage?basic) to keep others informed of what's going on asynchronously. This is a good time to share your progress and ask for help to remove any blockers. If you do not have access, reach out to [#delivery-internal] for help.
+
+The `@geekbot` will prompt all participates at 10 AM local time (you may override it) on weekday to provide status update.
+
+- What did you do since {last_report_date}?
+- What will you do today?
+- Anything blocking your progress?
+
 ### On-Call Rotation
 
 The Delivery team has a weekly on-call rotation where the Engineer On-Duty will respond to managed instance alerts, monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
@@ -84,3 +94,5 @@ Examples:
 ### Complete
 
 All work on this ticket that needs to be done by the Delivery team has been successfully completed.
+
+[#delivery-internal]: https://sourcegraph.slack.com/archives/C02VDNKBWDU
