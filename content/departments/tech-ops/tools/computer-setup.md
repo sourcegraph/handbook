@@ -10,7 +10,7 @@
 ## Setting up your computer
 
 1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
-2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)
+2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)if your machine is eligible. 
 3. Check that your warrenty information is reflected on your device
 
 - [Apple](https://support.apple.com/en-us/HT202741)
