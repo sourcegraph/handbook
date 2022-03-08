@@ -120,9 +120,11 @@ function rewriteLinkUrl(match: UrlMatch, contextUrlPath: string, isOnIndexPage: 
         return
     }
 
-    // Rewrite links on non-index pages to be relative
+    // Rewrite links on non-index pages to be relative, excluding intentionally absolute oness
     if (parsedUrl.pathname && !isOnIndexPage) {
-        parsedUrl.pathname = `../${parsedUrl.pathname}`
+        if (!parsedUrl.pathname.startsWith('/')) {
+            parsedUrl.pathname = `../${parsedUrl.pathname}`
+        }
     }
 
     // Rewrite index.md references to point to the directory
@@ -221,6 +223,9 @@ const replaceMatchedProductTeam = async (match: string, group1: string, group2: 
 const replaceMatchedUseCaseFeatureList = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateUseCaseFeatureList(group2)
 
+const replaceMatchedUseCaseSponsors = async (match: string, group1: string, group2: string): Promise<string> =>
+    generatedMarkdown.generateUseCaseSponsorsList(group2)
+
 const replaceMatchedProductTeamUseCaseList = async (match: string, group1: string, group2: string): Promise<string> =>
     generatedMarkdown.generateProductTeamUseCaseList(group2)
 
@@ -276,6 +281,11 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
         markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
+        markdown = await replaceAsync(
+            markdown,
+            /({{generator:use_case_sponsors.)(\w+)(}})/gi,
+            replaceMatchedUseCaseSponsors
+        )
         markdown = await replaceAsync(markdown, /({{generator:product_team.)(\w+)(}})/gi, replaceMatchedProductTeam)
         markdown = await replaceAsync(
             markdown,

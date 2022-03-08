@@ -3,19 +3,33 @@
 developer_onboarding:
   title: Developer Onboarding
   link: /strategy-goals/strategy/use_cases/dev-onboarding
+  sponsors:
+    product: ben_venker
+    engineering: marek_zaluski
 
 code_reuse:
   title: Code Reuse
   link: /strategy-goals/strategy/use_cases/code_reuse
+  sponsors:
+    product: taylor_sperry
+    engineering: robert_lin
 
 code_health:
   title: Code Health
   link: /strategy-goals/strategy/use_cases/code_health
+  sponsors:
+    product: malo_marrec
+    engineering: joe_chen
 
 fixing_security_vulnerabilities:
   title: Fixing Security Vulnerabilities
   link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
+  sponsors:
+    product: joel_kwartler
+    engineering: tomás_senart
 
 incident_response:
   title: Incident Response
   link: /strategy-goals/strategy/use_cases/incident_response
+  sponsors:
+    product: ryan_scott
