@@ -129,7 +129,7 @@ Similarly, the code-release process for Sourcegraph Cloud has changed. Unlike cu
 
 ### Continuous Deployment Process
 
-Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to preprod within 10 minutes where a series of smoke tests will be performed. If successful, the images will be promoted and automatically promoted to production within a few hours.In the normal use-case, the deployment process should be invisible. If a manual or urgent change is needed, refer to the [Deploying a code change to Sourcegraph Cloud](../../cloud/devops/deploy-code-change) document.
+Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to preprod within 10 minutes where a series of smoke tests will be performed. If successful, the images will be promoted and automatically promoted to production within a few hours.In the normal use-case, the deployment process should be invisible. If a manual or urgent change is needed, refer to the [Deploying a code change to Sourcegraph Cloud](../../cloud/devops/deploy-code-change.md) document.
 
 The automatic release process works as follows:
 
