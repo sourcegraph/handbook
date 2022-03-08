@@ -69,7 +69,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="/team#philipp-spiess" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of Philipp Spiess" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/philipp.png" alt="Picture of Philipp Spiess" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">Philipp Spiess</div>
@@ -104,7 +104,7 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
       <div>
         <div>
           <a href="/team#david-veszelovszki" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/silhouette.png" alt="Picture of David Veszelovszki" style="background: transparent; width:128px;"/>
+            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/david.png" alt="Picture of David Veszelovszki" style="background: transparent; width:128px;"/>
           </a>
         </div>
         <div style="text-align: center;">David Veszelovszki</div>
