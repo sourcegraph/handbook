@@ -284,11 +284,15 @@ We regularly implement and update procedures to prevent us from violating intern
 
 ## Raising concerns
 
-If you have a question or concern about a violation of the Code, speak up. Contact your manager, the People Team at people-ops@sourcegraph.com or jonathan.ayers@sourcegraph.com, or the Legal Team at legal@sourcegraph.com or tammy@sourcegraph.com. You can also use Slack, set up a meeting, or call them directly.
+All of us here at Sourcegraph are expected to perform our jobs ethically. If you have any questions or concerns about a violation of our Code of Conduct, we ask that you please come forward.
 
-If you want to remain anonymous, you can report your observations, concerns, and any suspected violations through our 24/7 third-party helpline, [Convercent](https://www.convercent.com/data-privacy-trust), via our [Convercent landing page](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296). Convercent will share your report with limited members of the People and Legal Teams so we can look into and respond to your concerns.
+You can come forward by contacting the People Team at people-ops@sourcegraph.com or jonathan.ayers@sourcegraph.com, the Legal Team at legal@sourcegraph.com or tammy@sourcegraph.com, your manager, or any leader at the company. You can also use Slack, set up a meeting, or call them directly.
 
-**To report an issue, follow these instructions:**
+You will have our full support any time that you come forward, and we want everyone to feel confident reaching out to our People Partners to help resolve any issues or concerns that they may have.
+
+We do understand, however, that not everyone will feel comfortable coming forward to our People Partners in every situation. In such a case, you can use [Convercent](https://www.convercent.com/data-privacy-trust), a 24/7 third-party helpline that offers an anonymous way to reach out to us. Convercent will anonymously share your report with limited members of the People and Legal Teams so we can look into and respond to your concerns.
+
+**To report an issue using Convercent, follow these instructions:**
 
 1. Go to our [Convercent landing page](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296)
 2. Under the “Report an Incident” section, click the **Get Started** button
