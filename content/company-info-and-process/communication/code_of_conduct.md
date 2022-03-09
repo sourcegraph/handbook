@@ -1,6 +1,6 @@
 # Code of conduct
 
-Last updated: January 24, 2022
+Last updated: March 9, 2022
 
 Related: see "[Diversity, equity, and inclusion](dei.md)"
 
