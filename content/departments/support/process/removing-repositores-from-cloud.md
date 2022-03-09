@@ -1,6 +1,6 @@
 # Removing repositores from cloud
 
-This document is a guide on how to completely remove repositories from Sourcegraph cloud.
+This document is a guide on how to completely remove repositories from Sourcegraph Cloud.
 
 ## Prerequisites
 
