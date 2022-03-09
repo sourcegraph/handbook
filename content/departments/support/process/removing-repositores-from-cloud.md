@@ -59,7 +59,7 @@ A soft delete does not permanently delete a repository in the database and allow
 SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo';
 ```
 
-2. Rename the repo:
+2. Soft delete the repo:
 
 ```
 UPDATE repo SET name = soft_deleted_repository_name(name), deleted_at = transaction_timestamp() WHERE deleted_at IS NULL AND id = <id_of_the_repo>;
