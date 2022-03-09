@@ -286,11 +286,9 @@ We regularly implement and update procedures to prevent us from violating intern
 
 All of us here at Sourcegraph are expected to perform our jobs ethically. If you have any questions or concerns about a violation of our Code of Conduct, we ask that you please come forward.
 
-You can come forward by contacting the People Team at people-ops@sourcegraph.com or jonathan.ayers@sourcegraph.com, the Legal Team at legal@sourcegraph.com or tammy@sourcegraph.com, your manager, or any leader at the company. You can also use Slack, set up a meeting, or call them directly.
+You can report an issue by contacting the People Team at people-ops@sourcegraph.com or jonathan.ayers@sourcegraph.com, the Legal Team at legal@sourcegraph.com or tammy@sourcegraph.com, your manager, or any leader at the company. You can also use Slack, set up a meeting, or call them directly.
 
-You will have our full support any time that you come forward, and we want everyone to feel confident reaching out to our People Partners to help resolve any issues or concerns that they may have.
-
-We do understand, however, that not everyone will feel comfortable coming forward to our People Partners in every situation. In such a case, you can use [Convercent](https://www.convercent.com/data-privacy-trust), a 24/7 third-party helpline that offers an anonymous way to reach out to us. Convercent will anonymously share your report with limited members of the People and Legal Teams so we can look into and respond to your concerns.
+If you feel more comfortable coming forward anonymously, you can use [Convercent](https://www.convercent.com/data-privacy-trust), a 24/7 third-party helpline, as an anonymous way to reach out to us.
 
 **To report an issue using Convercent, follow these instructions:**
 
