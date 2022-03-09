@@ -31,7 +31,7 @@ We maintain a collection of code hosts for testing purposes defined in our [infr
 
 ### Phabricator
 
-- URL: http://phabricator.sgdev.org/
+- URL: https://phabricator.sgdev.org/
 - Credentials: [1Password](https://my.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/bmanarlwknhl5p635wkgxfyd2i)
 
 ### Gitolite
