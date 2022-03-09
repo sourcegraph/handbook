@@ -47,7 +47,7 @@ ryan_slade:
   name: Ryan Slade
   pronouns: he/him
   role: Software Engineer
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_repo
   location: Valencia, Spain 🇪🇸
   email: rslade@sourcegraph.com
   github: ryanslade
@@ -253,7 +253,7 @@ asdine_el_hrychy:
   name: Asdine El Hrychy
   pronunciation: First name is pronounced _as-deen_, last name _el-ree-tchee_
   role: Software Engineer
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_repo
   location: Ajaccio, France 🇫🇷/ Dubai, UAE 🇦🇪
   github: asdine
   email: asdine@sourcegraph.com
@@ -937,7 +937,7 @@ indradhanush_gupta:
   name: Indradhanush Gupta
   pronouns: he/him
   role: Software Engineer
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_repo
   location: Kolkata, India 🇮🇳
   github: indradhanush
   email: indradhanush@sourcegraph.com
@@ -2070,7 +2070,7 @@ jordan_plahn:
   pronouns: he/him
   role: Engineering Manager
   reports_to: director_engineering_enablement
-  manager_role_slug: software_engineering_manager
+  manager_role_slug: engineering_manager_repo
   location: Seattle, WA, USA 🇺🇸
   github: jplahn
   email: jordan.plahn@sourcegraph.com
@@ -2233,7 +2233,7 @@ molly_weitzel:
   links: '[LinkedIn](https://www.linkedin.com/in/mollyweitzel/)'
   github: mollylogue
   role: Software Engineer
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_repo
   location: Boulder, CO, USA
   description: Molly lives in Boulder, CO with her husband Matthew. In her free time she enjoys outdoor activities such as rock climbing, running, hiking, and skiing.
 
@@ -2241,7 +2241,7 @@ alex_ostrikov:
   name: Alexander Ostrikov
   pronouns: he/him
   role: Software Engineer
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_repo
   location: St. Petersburg, Russia 🇷🇺
   github: sashaostrikov
   email: alex.ostrikov@sourcegraph.com
@@ -2645,7 +2645,7 @@ ryan_scott:
 
 felix_kling:
   name: Felix Kling
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_search
   role: Software Engineer
   github: fkling
 
@@ -2686,7 +2686,7 @@ idan_varsano:
   github: varsanojidan
   pronouns: he/him
   role: Software Engineer
-  reports_to: software_engineering_manager
+  reports_to: engineering_manager_repo
   location: Toronto, Canada 🇨🇦
   links: '[GitHub](https://github.com/varsanojidan)'
   description: Idan is software enginerr living in Toronto Canada. He enjoys working out, spending time with friends and family, and looking for new fried chicken/donut places to try out. Feel free to chat to him about anything gaming or garbage reality TV related.
@@ -2816,3 +2816,14 @@ sander_ginn:
   location: Amsterdam, The Netherlands 🇳🇱
   links: '[LinkedIn](https://www.linkedin.com/in/sanderginn/)'
   description: 'Sander is both an outdoors lover and a city slicker. He enjoys the food scene, nightlife, and vibrancy of his hometown Amsterdam. To make up for the lack of imposing nature in the Netherlands, he frequently seeks out the varied landscapes of Europe and beyond. He loves to cook – nothing beats good food and wine with friends and family!'
+
+sally_voisen:
+  name: Sally Voisen
+  email: sally.voisen@sourcegraph.com
+  github: stvoisen
+  pronouns: she/her
+  role: Senior Executive Business Partner
+  reports_to: ceo
+  location: San Rafael, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/sally-voisen/)'
+  description: 'Sally lives in the Terra Linda area of San Rafael, CA with her husband, son, daughter, and cat named Bella Momo Cat. An East Coast transplant, Sally grew up in Philadelphia but has called the Bay Area her home since 2007. Prior to Sourcegraph, Sally was at Autodesk and Adobe. Outside of work, Sally enjoys a good pour-over coffee, cooking/baking, and hiking.'
