@@ -15,6 +15,7 @@ in the group are in Do Not Disturb. Multiple people can be in the rotation at on
 - Under the Teams tab in Opsgenie, select Add Team.
 - On the page for your new team, use the On-call tab to update the rotation with participants from your Slack User Group.
 - Use the Integration tab to connect the rotation to Slack.
+- **Ensure rotation is working** Check the buildkite job [here](https://buildkite.com/sourcegraph/background-jobs-slackgenie) to ensure the rotation is working
 
 ### Helpful tips
 
