@@ -308,7 +308,7 @@ If you feel more comfortable coming forward anonymously, you can use [Convercent
    - You will use this and the password you created (step #5) to anonymously communicate with us after submitting your report
 8. Check the status of your report and anonymously communicate with us after the fact by using your access number and the password you created (step #5) via our [Convercent landing page](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296) under the "Check Status" section
 
-**If you would prefer to report an issue via phone call**, follow the instructions under the “Call Us” section of our [Convercent landing page](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296). If you have any questions, please reach out to the People Team at people-ops@sourcegraph.com
+If you would prefer to anonymously report an issue via phone call, follow the instructions under the “Call Us” section of our [Convercent landing page](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296). If you have any questions, please reach out to the People Team at people-ops@sourcegraph.com.
 
 ### Confidentiality
 
