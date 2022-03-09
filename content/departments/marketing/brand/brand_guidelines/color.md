@@ -418,7 +418,7 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
         <div><code>#c7ffff</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Green Violet</h5>
+        <h5>Sourcegraph Green Mist</h5>
         <div><code>#c4ffe8</code></div>
       </div>
     </div>
