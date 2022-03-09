@@ -50,7 +50,13 @@ The release captain is _responsible_ for managing the release process and ensuri
 
 The release captain should create a tracking issue using the [release issue template](release_issue_template.md) at the beginning of the release cycle.
 
-Release captain responsibilities are currently owned by the [Distribution team](../../distribution/index.md).
+Release captain responsibilities are currently owned by the [Release guild](release_guild.md).
+
+#### Release Retrospective
+
+The release captain is responsible to start an async release retrospective for every release. Typically this will be in a google document located in the [Release Guild folder in Google Drive](https://drive.google.com/drive/folders/1KMGL2iS8yuBHU-fJsTqb8lIqyHcO75nB?usp=sharing). We perform these retrospectives so that we can understand and grow. The long term vision is to improve this release process, and to do so we need to gather information about each release.
+
+The retrospective document should be shared in #release-guild.
 
 ### Release tooling
 

@@ -90,13 +90,21 @@ cloud_saas:
     - team/cloud-saas
 
 devops:
-  title: DevOps (and Delivery)
-  strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
+  title: DevOps
+  strategy_link: /departments/product-engineering/engineering/cloud/devops/#goals
   product_org: cloud
   pm: bill_creager
   em: jennifer_mitchell
   issue_labels:
     - team/devops
+
+delivery:
+  title: Delivery
+  strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
+  product_org: cloud
+  pm: dan_mckean
+  em: engineering_manager_delivery
+  issue_labels:
     - team/delivery
 
 dev_experience:
@@ -113,7 +121,7 @@ frontend_platform:
   strategy_link: /strategy-goals/strategy/enablement/frontend-platform
   product_org: enablement
   pm: taylor_sperry
-  em: jean_du_plessis
+  em: engineering_manager_frontend_platform
   design: alicja_suska
   issue_labels:
     - team/frontend-platform

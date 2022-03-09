@@ -57,8 +57,12 @@ export CUSTOMER=<customer_or_instance_name>
 export SRC_ENDPOINT=http://localhost:4444
 # see 1password "$CUSTOMER admin account", under "token" field
 export SRC_ACCESS_TOKEN=$TOKEN
+# should match GCP project prefix - typically the default is correct
+export PROJECT_PREFIX=sourcegraph-managed
+# Found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 # currently live instance
-export OLD_DEPLOYMENT=$(gcloud compute instances list --project=sourcegraph-managed-${CUSTOMER} | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+export OLD_DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
 # the instance we will create
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 ```
@@ -89,7 +93,7 @@ There is a ~1h two-part screencast available by @slimsag walks through this whol
 # version to upgrade to - MUST be in format 'v$MAJOR.$MINOR.$PATCH'
 export NEW_VERSION=v<sourcegraph_version>
 # old version used to verify upgrade
-export OLD_VERSION=$(cat ${CUSTOMER}\/${OLD_DEPLOYMENT}\/VERSION)
+export OLD_VERSION=$(cat $CUSTOMER\/$OLD_DEPLOYMENT\/VERSION)
 ```
 
 Validate all variables are set:
@@ -115,7 +119,7 @@ Also refer to the [upgrade notes](https://docs.sourcegraph.com/admin/updates/doc
 Set up access to the frontend by copying this output and running it in another shell:
 
 ```sh
-echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
+echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER"
 ```
 
 Note that an upgrade is being performed:
@@ -204,7 +208,8 @@ For each reference, ensure that the _entire_ service entry is up to date (i.e. n
 You can list references like so (if nothing shows up, you should be good to go):
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
 Commit and apply the upgrade:
@@ -227,10 +232,24 @@ git add . && git commit -m "$CUSTOMER: restart $NEW_DEPLOYMENT"
 
 ### 8) Confirm instance health
 
-Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
+- Wait until the instance has fully started with the new versions:
 
 ```sh
-gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${NEW_VERSION#v}"
+```
+
+You'll receive errors or no results for several minutes while the instance finishes running the startup script.
+
+- Ensure that no containers with the wrong version are still running:
+
+```sh
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
+```
+
+- Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
+
+```sh
+gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER
 ```
 
 If you run into an error like:
@@ -241,10 +260,16 @@ ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: 'fai
 
 This might indicate that the instance is not fully set up yet—try again in a minute.
 
-Ensure that no containers with the wrong version are still running:
+- Ensure that all containers are healthy (in particular, look for anything that says Restarting):
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
+../util/ssh-exec.sh "docker ps"
+```
+
+- Check frontend container logs and confirm there are no recent errors:
+
+```sh
+../util/ssh-exec.sh "docker logs sourcegraph-frontend-0"
 ```
 
 ### 9) Switch the load balancer target
@@ -280,7 +305,7 @@ git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 Set up access to new frontend by copying this output and running it in another shell:
 
 ```sh
-echo "gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
+echo "gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER"
 ```
 
 Remove the notice previously added to the global user settings:
@@ -330,7 +355,7 @@ cd $CUSTOMER
 Set up access to the frontend by copying this output and running it in another shell:
 
 ```sh
-echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project sourcegraph-managed-$CUSTOMER"
+echo "gcloud compute start-iap-tunnel default-$OLD_DEPLOYMENT-instance 80 --local-host-port=localhost:4444 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER"
 ```
 
 Note that maintainence is being performed:
@@ -340,6 +365,10 @@ Note that maintainence is being performed:
 ```
 
 Then, [mark the database as read-only](#2-mark-the-database-as-ready-only).
+
+```sh
+../util/set-db-readonly.sh $OLD_DEPLOYMENT true
+```
 
 Create a snapshot:
 
@@ -401,6 +430,10 @@ git add . && git commit -m "$CUSTOMER: init targetted $NEW_DEPLOYMENT deployment
 
 [Make the database on the new deployment writeable](#5-make-the-database-on-the-new-deployment-writable).
 
+```sh
+../util/set-db-readonly.sh $NEW_DEPLOYMENT false
+```
+
 If you changed the disk size, make sure to [resize the disk](#4-a-resize-the-disk).
 
 #### 4.a) Resize the disk
@@ -448,9 +481,27 @@ For reference, the above steps were adapted from [Working with persistent disks]
 ### 5) Wrap up the upgrade
 
 1. [Confirm instance health](#8-confirm-instance-health).
-2. [Switch the load balancer target](#9-switch-the-load-balancer-target) - when prompted to apply, exit the command (do not apply the changes) and continue to the next step. This will prevent Terraform from attempting to apply resource changes to the old machine - instead, we just update the load balancer and remove the old instance at the same time.
+2. [Switch the load balancer target](#9-switch-the-load-balancer-target) - **⚠️ when prompted to apply, exit the command (do not apply the changes) and continue to the next step. ⚠️** This will prevent Terraform from attempting to apply resource changes to the old machine - instead, we just update the load balancer and remove the old instance at the same time.
+
+```sh
+../util/retarget-load-balancer.ts $NEW_DEPLOYMENT
+git add . && git commit -m "$CUSTOMER: switch load balancer to new target"
+```
+
 3. [Take down the old deployment](#10-take-down-the-old-deployment)
+
+```sh
+../util/drop-deployment.ts $OLD_DEPLOYMENT drop-disk
+rm -rf $OLD_DEPLOYMENT/
+git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
+```
+
 4. [Remove the maintainence banner](#11-remove-the-banner-indicating-maintenance-is-in-progress)
+
+```sh
+../util/set-notice.sh none
+```
+
 5. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
 
 ## In-place updates
@@ -506,7 +557,7 @@ git --no-pager diff $NEW_DEPLOYMENT
 Check for old version references or merge conflicts:
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep ${OLD_VERSION#v}
+cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
@@ -526,7 +577,7 @@ This will only update the instance metadata and not affect the running deploymen
 Apply changes to the running deployment by copying the docker-compose file to the instance and re-running docker-compose:
 
 ```sh
-gcloud compute scp --project "sourcegraph-managed-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
+gcloud compute scp --project "$PROJECT_PREFIX-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
 ../util/ssh-exec.sh "cd /deployment/docker-compose && docker-compose up -d"
 ```
 

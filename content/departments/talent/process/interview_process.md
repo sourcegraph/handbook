@@ -81,6 +81,7 @@ Once a hiring decision in made, the Hiring Manager is responsible for communicat
 - Post a note in the role's private Slack channel.
 - Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
 - Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
+- Should we proceed to an offer, the Recruiter will then paste that note in the offer details.
 
 If we are _moving forward_ with an offer, the Recruiter will submit the offer details for approval and will schedule and offer summary call.
 
