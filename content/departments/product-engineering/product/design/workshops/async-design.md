@@ -36,7 +36,7 @@ In cases where you do want a very specifically formatted output (for example, so
 
 ## Coordination
 
-You can coordinate the activity via a Slack channel. It is recommended to use a new, temporary channel for this purpose to avoid confusion from mixing messages. It can be helpful to have multiple facilitators spread across time zones to ensure someone is always around to answer any questions that come up.
+You can coordinate the activity via a Slack channel. GitHub Discussions are also a good tool channel for discussion as it makes ideas public, and is a better support for having long-running conversations and voting on topics than Slack. It is recommended to use a new, temporary channel for this purpose to avoid confusion from mixing messages. It can be helpful to have multiple facilitators spread across time zones to ensure someone is always around to answer any questions that come up.
 
 Each day, a summary of the activities and deliverables for that day should be shared by someone in one of the early time zones. This will ensure everyone is always aware of what's expected of them that day.
 
