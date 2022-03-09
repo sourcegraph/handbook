@@ -43,7 +43,7 @@ A hard delete leaves no trace of the repository in the database
 SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo';
 ```
 
-2 . Delete the repo:
+2. Delete the repo:
 
 ```
 DELETE FROM repo WHERE id=<$id_of_the_repo>;
