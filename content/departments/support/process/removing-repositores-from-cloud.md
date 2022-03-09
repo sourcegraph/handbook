@@ -62,7 +62,7 @@ SELECT id FROM repo WHERE uri LIKE 'example.com/example/repo';
 2. Rename the repo:
 
 ```
-UPDATE repo SET name = soft_deleted_repository_name(name), deleted_at = transaction_timestamp() WHERE deleted_at IS NULL AND id = <id_of_the_repo>
+UPDATE repo SET name = soft_deleted_repository_name(name), deleted_at = transaction_timestamp() WHERE deleted_at IS NULL AND id = <id_of_the_repo>;
 ```
 
 Note: Deleting a repository from the database does not automatically delete the data on disk (in `gitserver`). This requires an additional step.
