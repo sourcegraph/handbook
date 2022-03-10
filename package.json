@@ -123,7 +123,7 @@
     "ajv-cli": "^5.0.0",
     "chalk": "^4.1.2",
     "eslint": "^7.32.0",
-    "jest": "^27.4.5",
+    "jest": "^27.5.1",
     "line-column": "^1.0.2",
     "markdown-link-check": "^3.8.7",
     "next-sitemap": "^1.6.203",
