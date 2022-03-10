@@ -1,8 +1,15 @@
 # Diversity, Equity, and Inclusion
 
-## How we create an environment where everyone feels welcome and has equal opportunity
+## Resources
 
-> At Sourcegraph, we want to make it so [everyone can code](../../strategy-goals/strategy/index.md), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
+- [Gender Diversity Allies and ERG](./gender-diversity.md)
+- [Personal pronouns](./personal-pronouns.md)
+
+## Strategy
+
+### How we create an environment where everyone feels welcome and has equal opportunity
+
+> At Sourcegraph, we want to make it so [everyone can code](../../strategy-goals/strategy/index.md#purpose), so that technology's benefits reach the whole world. To do that, and to even understand what's necessary to do that, our team needs to represent a diverse set of perspectives, experiences, and backgrounds. We also believe that talent is equally distributed, so we strive for our team to demonstrate that by being inclusive of and equitable toward all people. This page describes our efforts and commitments to work toward these outcomes, and we expect to improve and expand our plans here as we learn and grow.
 
 — Quinn Slack (CEO/co-founder)
 
