@@ -16,7 +16,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Productboard
   - Looker
   - Amplitude
-- Suggest several product people the new teammate should create a 1:1 with 
+- Suggest several product people the new teammate should create a 1:1 with
 - Schedule a recurring [1-1](../../../../company-info-and-process/communication/1-1.md).
 - Schedule check-ins for the first and second weeks at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
 - Create a 1-1 doc and add initial discussion items
