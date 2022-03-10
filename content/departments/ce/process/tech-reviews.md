@@ -2,7 +2,7 @@
 
 ## Background / Context
 
-In Q4, we initiated a [technical review process](../ce/process/tech-win-process.md#tech-review-process) to enable collaboration between CE, Sales and Engineering, Product, Support (EPS) around non-standard or high-risk customer technical requirements. This effort directly impacted our ability to positively influence our revenue goals as a company and drive deals to successful closure.
+In Q4, we initiated a [technical review process](tech-win-process.md#tech-review-process) to enable collaboration between CE, Sales and Engineering, Product, Support (EPS) around non-standard or high-risk customer technical requirements. This effort directly impacted our ability to positively influence our revenue goals as a company and drive deals to successful closure.
 
 As part of the pre-sales process, CEs capture the technical requirements and design of a customers’ intended architecture in the Technical Design Doc. For any Sales-designated Key Prospects or any prospective customers with non-standard or high risk requirements, the TDD is sent through the Tech Review process for review by EPS (Engineering, Product, Support) before initiating a Trial. Subsequently, prior to Production deployment, the TDD is then updated and reviewed by EPS for any Key Prospect or prospective customers with non-standard or high risk requirements intended for their Production Infrastructure.
 
@@ -12,7 +12,7 @@ As part of the pre-sales process, this has proven to be a success in gaining int
 
 With respect to concerns about asks that customer facing teams may have or work that may be required to make our customers successful after the sale is complete, additional technical needs may arise from time to time at different points in their partnership with Sourcegraph.
 
-Today, where a customer need falls outside of what exists or is supported in our Product, CE logs [Product Gaps](../ce/process/tech-win-process.md#surfacing-product-feedback) in Salesforce to surface these requests to Product for consideration onto the [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/21). If / when added to the Roadmap, CE and Sales can track progress from the Roadmap.
+Today, where a customer need falls outside of what exists or is supported in our Product, CE logs [Product Gaps](tech-win-process.md#surfacing-product-feedback) in Salesforce to surface these requests to Product for consideration onto the [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/21). If / when added to the Roadmap, CE and Sales can track progress from the Roadmap.
 
 Where we uncover that, in order to make a customer successful technically, they require EPS resources / effort that is unplanned and unprioritized, the account CE is expected to write up the details: capture the clear asks (concern / problem statement / etc), provide context if it impacts any other customers, and provide any other business context in order to raise the request through the technical review process employed for pre-sales opportunities today. This allows for transparent alignment and collaborative decision making between Sales, CE, and EPS.
 
