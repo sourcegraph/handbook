@@ -41,6 +41,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [General office information](company-info-and-process/about-sourcegraph/general-office-info.md)
 - [All-remote](company-info-and-process/remote/index.md)
 - [Values](company-info-and-process/values/index.md)
+- [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
 - [Communication](company-info-and-process/communication/index.md)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [RFCs](company-info-and-process/communication/rfcs/index.md)
