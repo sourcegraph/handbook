@@ -95,6 +95,16 @@ The different time periods are used depending on the length of the relevant cont
 | DAU/WAU    | The ratio of average DAUs over a week to the number of WAUs in the corresponding week. If the ratio is 0.4 or 40%, the average active user used Sourcegraph 2.8 days per week (7 days \* .4 = 2.8).                                                |
 | Saturation | The ratio of the number of specific feature users to the total number users with access to the feature. If a feature's ratio is 0.2 or 20%, the saturation for the feature means that 1 in 5 users (in the cohort and timeframe) used the feature. |
 
+## Net Promotor Score (NPS)
+
+Submission buckets for `How likely is it that you would recommend Sourcegraph to a friend?` on a scale of 0 to 10:
+
+- 0-6: Detractor
+- 7-8: Passive/Neutral
+- 9-10: Promotor
+
+NPS score = % promotors of total submissions - % detractors of total submissions
+
 ## Customer Health Score
 
 The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:

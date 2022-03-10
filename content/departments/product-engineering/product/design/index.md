@@ -90,5 +90,5 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 ## Other
 
-- [Design team onboarding](./onboarding/index.md) (Coming soon)
+- [Design team onboarding](./onboarding/index.md)
 - [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))

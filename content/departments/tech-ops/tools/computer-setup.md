@@ -10,14 +10,14 @@
 ## Setting up your computer
 
 1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
-2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)
+2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md) if your machine is eligible.
 3. Check that your warrenty information is reflected on your device
 
 - [Apple](https://support.apple.com/en-us/HT202741)
 - [Lenovo](https://pcsupport.lenovo.com/us/en/warrantylookup#/)
 - [Dell](https://www.dell.com/support/kbdoc/en-us/000132024/how-to-find-warranty-status-and-information-for-your-dell-product)
 
-Note: All devices purchased through our partners will have been purchased with warrenty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warrenty please do so within 30 days.
+Note: All devices purchased through our partners will have been purchased with warranty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warranty please do so within 30 days.
 
 ## Ordering a Sourcegraph computer
 
@@ -52,4 +52,9 @@ If something has happened to your Sourcegraph device please contact #it-tech-ops
 If you have a device that you are having replaced, or you are leaving the company you can either:
 
 1. participate in our [buyback program](../process/buyback.md), where we will transfer ownership to you.
-2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. To return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you.
+2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. To return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you, we with the following information:
+
+- Serial number of the device and specs of the device
+- Are there any issues with the laptop?
+- Would you like a box and a label shipped to you or just the label (this will be emailed)?
+- Address and phone number for the shipping
