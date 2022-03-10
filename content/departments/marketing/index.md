@@ -88,3 +88,9 @@ The table below breaks down the capabilities of each team within Marketing. Once
 ## Open Roles
 
 See the [marketing roles](roles/index.md) for open positions.
+
+## Career development
+
+Our career development framework is here to help you understand the expectations of your role, and to provide a common language for you and your manager to discuss and plan your career growth. It is also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.
+
+Check out this [doc](https://docs.google.com/document/d/1MQiF1DY9io2znXXWnr3m9eudx--k3i1ST227z3pDu-w/edit) for details on the expectations of your role.

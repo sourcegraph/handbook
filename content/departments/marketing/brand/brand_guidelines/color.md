@@ -414,11 +414,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Venus</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-venus)">
       <div>
-        <h5>Sourcegraph Sky Blue</h5>
+        <h5>Sourcegraph Blue Mist</h5>
         <div><code>#c7ffff</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Vivid Violet</h5>
+        <h5>Sourcegraph Green Mist</h5>
         <div><code>#c4ffe8</code></div>
       </div>
     </div>
