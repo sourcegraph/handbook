@@ -3,7 +3,7 @@
 The following happens at the company level:
 
 - Every 6 months, People Ops updates salary bands for each level to ensure Sourcegraph remains above market rate
-- Every March and September, every team is expect to calibrate and put forth folks for promotion
+- Every March and September, every team is expected to calibrate and put forth folks for promotion
 - There will always be off-cycle exceptions
 
 In support of the Sourcegraph overall approach, the Customer Support team honors this cadence and supplements with a quarterly review (vs twice yearly) to keep career growth and impact top of mind.
