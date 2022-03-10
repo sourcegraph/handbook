@@ -20,9 +20,19 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [Enable executors][enable_executors_process.md]
 - [FAQ](#faq)
 
+## When to offer a Managed Instance
+
+Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
+
+They currently carry a heavy cost in terms of engineering time (which is not negated by the markup in cost since more money doens't equal more time). As a result, they aren't the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
+
+See below for the SLAs and Technical implementation details (including Security) related to managed instances.
+
+Please message [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX/p1646784843000319) for any answers or information missing from this page.
+
 ## Requesting a managed instance
 
-After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
+After ruling out a self-hosted, and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
 
 1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
 2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
