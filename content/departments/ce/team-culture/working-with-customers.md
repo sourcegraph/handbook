@@ -215,6 +215,7 @@ Both the AE and CE are responsible for participating in the creation of the acti
 ## Tech Reviews
 
 Tech Reviews are employed in both pre-sales scenarios and post-sales scenarios.
+
 - Tech reviews in pre-sales situations are documented as part of the [CE Technical Win Management Process](../process/tech-win-process.md).
 - Tech reviews in post-sales situations are documented as part of the [Customer Success Process](../process/customer-success.md).
 
