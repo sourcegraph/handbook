@@ -1,44 +1,39 @@
 # Async design workshop
 
-If you want to avoid sync meetings and want to have a design workshop activity that can involve a large group of people you can consider an async design workshop.
-
-The activities you do on a given day are flexible with this approach, so you can do problem validation, solution validation, brainstorming, and more; the important part is making it a multi-day activity with offsetting days for content creation and evaluation/voting, with a date boundary in between.
+If you want to avoid sync meetings you can consider an async design workshop. This is where you use a Slack channel to run a workshop over a period of several days, with no sync time required.
 
 Benefits:
 
-- Supports async work
-- More flexibility when people are in lots of time zones
-- Can support quite large groups
-- Self-documenting
-- Allows time for reflection and "shower thoughts" to be included
+- Supports working async
+- More flexibility across time zones
+- Works with quite large groups
+- Allows time for reflection and "shower thoughts"
 
 Drawbacks:
 
 - Plays out slower than if everyone was in a live session together
-- Not as engaging for people who are inspired by real-time communication
-- Requires lots of written communication
+- Not as engaging for people who are motivated by real-time communication
+- Requires more written communication
 
-## Scheduling considerations
+## Concept
 
-Because this is an activity that takes a little bit of attention each day over a few days or a week, it's good to avoid scheduling at the same time as the release is wrapping up, or another heavyweight organizational activity like planning is going on.
-
-## Offsetting days
-
-The first thing you should do when planning the workshop is identify the list of activities you want to complete. Then, order them across multiple days with one day doing the activity, and the next day summarizing and voting. This rhythm of having a day for producing information and a day for summarizing it/voting on it keeps the team making forward progress, and supports people participating in all time zones. It also is highly tolerant of people joining late or dropping out early.
+The first thing you should do when planning the workshop is identify the list of activities you want to complete. Then, start the first activity on the first day, use the next day for summarizing and voting on the results so far, then repeat with the second activity (and so on). This rhythm of having a day for producing information and a day for summarizing it keeps the team making forward progress without needing sync time. It's also highly tolerant of people joining late or dropping out early.
 
 See [this example of a complete agenda](#example-agenda) for how you might structure something like this in detail.
 
-## Deliverables
-
-On the non-offset days, it's important to structure your deliverables so that they can be shared easily. Simple is best - letting people share off the cuff thoughts in the Slack channel has the lowest barrier to entry, and will encourage the most participation. Beyond that, written tends to be ideal, but videos are also good. So, if you're planning on doing some problem validation, you might have everyone record a short video of problems they are aware of with the product today. These are easily watchable by everyone, and it's also easy to organize them into groupings the next day and vote on them.
-
-In cases where you do want a very specifically formatted output (for example, solution specifications) you should include a template that you want the team to use. Just be mindful that this increases the barrier for entry and may reduce the number of submissions, although sometimes it is necessary.
-
 ## Coordination
 
-You can coordinate the activity via a Slack channel. GitHub Discussions are also a good tool channel for discussion as it makes ideas public, and is a better support for having long-running conversations and voting on topics than Slack. It is recommended to use a new, temporary channel for this purpose to avoid confusion from mixing messages. It can be helpful to have multiple facilitators spread across time zones to ensure someone is always around to answer any questions that come up.
+You can coordinate the activity via a Slack channel. GitHub Discussions are also a good tool channel for discussion as it makes ideas public, and provides a better support for having long-running conversations and voting on topics than Slack. If you use Slack, it is recommended to use a new, temporary channel for this purpose to avoid confusion. It can be helpful to have multiple facilitators spread across time zones to ensure someone is always around to answer any questions that come up.
 
-Each day, a summary of the activities and deliverables for that day should be shared by someone in one of the early time zones. This will ensure everyone is always aware of what's expected of them that day.
+Each day, a summary of the activities and deliverables for that day should be shared by someone as a reminder for the participants of what to expect.
+
+## Deliverables
+
+It's important to clearly define the deliverables each day so that they can be shared easily. As simple as possible (i.e., comments in Slack) is often best since it will encourage more contributions. Beyond that more structured writing works well, but videos are also good. In cases where you want a specifically formatted output (for example, detailed solution specifications) you should include a template that you want everyone to use; just be mindful that this increases the barrier for entry and may reduce the number of submissions, although sometimes it is necessary.
+
+## Scheduling considerations
+
+Because this is an activity that takes a little bit of attention each day over a few days or a week, it's good to avoid scheduling at the same time as the release is wrapping up, or another heavyweight organizational activity like planning or a hackathon is going on.
 
 ## Additional options
 
@@ -46,9 +41,7 @@ Some people are inspired by working together sync, and may miss having real-time
 
 ## Example agenda
 
-This is an example of a real agenda that was used using this methodology. We ran two concurrent workshops (we were focused on iterating on use cases) and created two Slack channels to run them.
-
-This ended up being a little overcomplicated - a lesson learned was to keep each day as simple and straightforward as possible to encourage participation - but it is here as an example.
+This is an example of a real agenda that was used using this methodology. We ran two concurrent workshops (we were focused on iterating on use cases) and created two Slack channels to run them. This ended up being a little overcomplicated - a lesson learned was to keep each day as simple and straightforward as possible to encourage participation - but it is here as an example.
 
 > If you’re interested in participating in this workshop, the first step is to choose which use cases you'd like to work on; you can sign up for one or both. You can participate individually, or as a group if you’d like to collaborate with a few others; in that case, you’ll prepare each day as a group and can have live sessions if you like. To join, head over to #workshop-use-case-onboarding #workshop-use-case-code-health (or both).
 >
