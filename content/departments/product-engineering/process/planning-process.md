@@ -8,7 +8,7 @@ On a quarterly basis Product & Engineering review our strategy, goals (OKRs) and
 - Changes/updates to OKRs can and should be made throughout the quarter when necessary
 - Creation of roadmap items or updates to existing roadmap is owned by individual teams
 - We rely on the EM & PM to communicate any significant changes in scope of work or delivery of work to the appropriate stakeholders
-- We have a dedicated facilitator for planning in each quarter; for FY23 Q2, it will be [Serina Clark](../team/index.md#serina-clark)
+- We have a dedicated facilitator for planning in each quarter; for FY23 Q2, it will be [Serina Clark](../../../team/index.md#serina-clark)
 
 We also have clear guidelines for things like planning [artifacts](#artifacts), [cadence](#cadence), and [how to make mid-quarter adjustments](#mid-quarter-adjustments). First, though, it's worth familiarizing yourself with the [strategy](#strategy), [goals](#goals-okrs), and [roadmap](#roadmap) concepts.
 
@@ -125,7 +125,7 @@ Prod/eng directors review the following quarter roadmap items to ensure what is 
 
 #### 3 weeks before
 
-[Christina Forney](../team/index.md#christina-forney) shares the Draft OKRs with company leadership, confirming **exec team feedback & directional alignment** on objectives, key results and planned roadmap items.
+[Christina Forney](../../../team/index.md#christina-forney) shares the Draft OKRs with company leadership, confirming **exec team feedback & directional alignment** on objectives, key results and planned roadmap items.
 
 #### 2 weeks before
 
@@ -139,7 +139,7 @@ Prod/eng directors work closely with teams on roadmap items ensuring planned wor
 
 #### Quarter boundary
 
-**Publish OKRs** - [Christina Forney](../team/index.md#christina-forney):
+**Publish OKRs** - [Christina Forney](../../../team/index.md#christina-forney):
 
 - Get exec team buy in and approve OKRs
 - OKRs added to the handbook
@@ -154,7 +154,7 @@ Prod/eng directors work closely with teams on roadmap items ensuring planned wor
 
 #### First week of new quarter
 
-**Kick off new quarter** - [Christina Forney](../team/index.md#christina-forney) & [Nick Snyder](../team/index.md#nick-snyder)
+**Kick off new quarter** - [Christina Forney](../../../team/index.md#christina-forney) & [Nick Snyder](../../../team/index.md#nick-snyder)
 
 - Share previous quarter OKR scorecard to Product/eng department
 - Communicate department OKRs
@@ -183,8 +183,8 @@ During the retrospective we will vote on what topics we want to discuss and then
 ### Annual prod/eng strategy
 
 - **Purpose:** Provide direction and context on what we are planning on doing this year and why
-- **Drivers:** [Christina Forney](../team/index.md#christina-forney) & [Nick Snyder](../team/index.md#nick-snyder)
-- **Approvers:** [Quinn Slack](../team/index.md#quinn-slack)
+- **Drivers:** [Christina Forney](../../../team/index.md#christina-forney) & [Nick Snyder](../../../team/index.md#nick-snyder)
+- **Approvers:** [Quinn Slack](../../../team/index.md#quinn-slack)
 - **Key input providers:** Prod/eng directors
 - **Due date:** Provided in mid Q4 of previous FY (should be ready by Jan)
 - **Form of artifact:**
@@ -195,7 +195,7 @@ During the retrospective we will vote on what topics we want to discuss and then
 
 - **Purpose:** Track and communicate our strategic prod/eng goals
 - **Drivers:** Prod/eng directors
-- **Approvers:** [Christina Forney](../team/index.md#christina-forney) & [Nick Snyder](../team/index.md#nick-snyder)
+- **Approvers:** [Christina Forney](../../../team/index.md#christina-forney) & [Nick Snyder](../../../team/index.md#nick-snyder)
 - **Key input providers:** EMs, Customer Support Managers, & PMs
 - **Due date:** By start of quarter the final department OKRs are updated in the artifacts below as well as communicated in #product-eng-directors; [6 weeks prior to the quarter boundary](#6-weeks-before) prod/eng OKRs are drafted
 - **Form of artifact:**
