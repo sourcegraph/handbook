@@ -233,7 +233,8 @@ kai_passo:
 rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
-  role: Senior Product Designer, Batch Changes and Search
+  manager_role_slug: design_manager_code_graph
+  role: Design Manager, Code Graph
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -336,7 +337,7 @@ christine_lovett:
 
 alicja_suska:
   name: Alicja Suska
-  reports_to: director_design
+  reports_to: design_manager_code_graph
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
   role: Product Designer, Frontend Platform, Growth and Integrations, and Code Insights
@@ -1917,7 +1918,7 @@ kemper_hamilton:
 
 marisa_kanemoto:
   name: Marisa Kanemoto
-  reports_to: director_design
+  reports_to: design_manager_code_graph
   pronouns: she/her
   role: Product Designer, Search
   location: Berkeley, California, United States 🇺🇸
@@ -2202,7 +2203,7 @@ amy_johnson:
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
 
 director_design:
-  name: Christina Forney
+  name: Christina Forney, Jason Yavorska (Code Graph only)
   role: (Interim) Director of Design
   reports_to: vp_product
   manager_role_slug: director_design
