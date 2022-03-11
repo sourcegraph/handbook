@@ -10,14 +10,14 @@
 ## Setting up your computer
 
 1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
-2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)
+2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md) if your machine is eligible.
 3. Check that your warrenty information is reflected on your device
 
 - [Apple](https://support.apple.com/en-us/HT202741)
 - [Lenovo](https://pcsupport.lenovo.com/us/en/warrantylookup#/)
 - [Dell](https://www.dell.com/support/kbdoc/en-us/000132024/how-to-find-warranty-status-and-information-for-your-dell-product)
 
-Note: All devices purchased through our partners will have been purchased with warrenty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warrenty please do so within 30 days.
+Note: All devices purchased through our partners will have been purchased with warranty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warranty please do so within 30 days.
 
 ## Ordering a Sourcegraph computer
 
