@@ -8,7 +8,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 
 - Visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
 - Create an onboarding Google doc for the new teammate
-  - Link to this page and relevant team specific pages such as [designer onboarding](/departments/product-engineering/product/design/onboarding/)
+  - Link to this page and relevant team specific pages such as [designer onboarding](../design/onboarding/index.md)
   - Customize your teammates onboarding tasks as required
   - Update the onboarding doc with initial projects for weeks 2–4
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
@@ -99,7 +99,7 @@ Remember:
 - Looker
   - [How Sourcegraph uses Looker](../../../bizops/analytics/index.md#using-looker)
 - Amplitude
-  - We use Amplitude for analytics on Sourcegraph Cloud. [More on Amplitude here](/departments/bizops/tools/amplitude/).
+  - We use Amplitude for analytics on Sourcegraph Cloud. [More on Amplitude here](../../../bizops/tools/amplitude.md).
 - UserTesting.com
   - Walk through UserTesting.com with one of the designers on the team
 

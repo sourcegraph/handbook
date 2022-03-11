@@ -36,9 +36,9 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
   - code editors: [VS Code](https://code.visualstudio.com/) (and other IDEs like [IntelliJ](https://www.jetbrains.com/idea/) and [Atom](https://atom.io/))
   - similar products: [grepp.app](https://grep.app/) and [cs.opensource.google](https://cs.opensource.google)
 - Read the [Product Design team handbook](../index.md), especially:
-  - [User research](/departments/product-engineering/product/design/research/)
-  - [Analytics and product design](/departments/product-engineering/product/design/metrics/)
-  - [Wildcard design system](/departments/product-engineering/product/design/wildcard_design_system/)
+  - [User research](../research/)
+  - [Analytics and product design](../metrics/)
+  - [Wildcard design system](../wildcard_design_system/)
 
 ### Set up your design environment
 
