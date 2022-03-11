@@ -233,7 +233,7 @@ kai_passo:
 rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
-  manager_role_slug: design_manager_code_graph
+  manager_role_slug: director_design
   role: Design Manager, Code Graph
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
