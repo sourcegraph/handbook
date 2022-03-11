@@ -39,7 +39,7 @@ Our current process is as follows:
 
   - On the **Thursday before the next iteration begins**, we have a brief synchronous meeting to finalize our planning for the iteration on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4) that we conducted asynchronously as described above. Depending on our needs, this meeting may cover: questions about priority, clarity, or edge cases of specific features for the next iteration; refining plans for the following Monday iteration start; surfacing any missing GitHub issues (for known items) ahead of the Monday kickoff so they can be made before Monday. This meeting is also an opportunity to review the status of our _current_ iteration and examine if any issues should be carried over to the next iteration.
 
-- During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteraton" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
+- During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
 
@@ -109,7 +109,7 @@ Teammates can find the rotation schedule at the top of the [retrospective docume
 
 ## Code reviews
 
-The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/code_reviews) with the following addition:
+The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/pull_request_reviews#reviewing-pull-requests) with the following addition:
 
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
@@ -124,7 +124,7 @@ It's the support engineer's responsibility to reach out proactively, find someon
 
 The engineer assigned to the support rotation is responsible for:
 
-1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md)
+1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md))
 2. Performing a best-effort resolution of the issue
    1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem
