@@ -128,7 +128,7 @@ While asynchronous communication is a core attribute of remote work, key moments
 - Process
   - A GitHub issue should be created to track the work
   - Designs are produced in Figma
-  - Let others know about your designs in your team Slack channel
+  - Let others know about your designs in your team Slack channel and in the product-design channel and other places of interest
   - Link to your designs in the GitHub issue before they are complete to promote designing in the open
   - Ensure designs meet the visual design checklist:
   - Ensure spacing is consistent and matches the 8pt grid system
