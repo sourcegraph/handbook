@@ -16,14 +16,14 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Productboard
   - Looker
   - Amplitude
-- Suggest product people the new teammate should create a 1:1 with
+- Suggest people the new teammate should create a 1:1 with
 - Schedule check-ins for the first and second weeks at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
 - Create a 1-1 doc and add initial discussion items. Some suggestions:
-  - Onboarding doc - YAYYYYYYYYYY WELCOME!!!!! 🎉
-    - Your onboarding doc is to help outline the projects and tasks you have over your first 30 days.
-    - This 1-1 doc will be where we take notes on discussions, set goals, and make sure you’re on track.
+  - This 1-1 doc will be where we take notes on discussions, set goals, and make sure you’re on track.
   - 1-1 meetings - What format do you like? What is most helpful to you for these meetings?
   - How do you like to receive feedback?
+  - Link the onboarding doc - YAYYYYYYYYYY WELCOME!!!!! 🎉
+    - Your onboarding doc is to help outline the projects and tasks you have over your first 30 days.
 
 ## Week 1 - Getting started
 
@@ -35,6 +35,8 @@ Remember:
   - One of our values is to be [open and transparent](../../../../company-info-and-process/values/index.md#open-and-transparent)
   - Good reasons for things to be private: sensitive customer information, sensitive personal information
   - If you see a "request permission" page for some doc or other resource, it is a mistake. Just ask to be granted access to it (and make a PR to update the handbook so the next person starting is granted access to that system).
+  - When you have a question, try to ask publically. Other people probably have the same question.
+  - In a DM a teammate might say: "Do you mind asking this publically? I'll answer there". You can use this phrase too to help generate open conversations.
 - Unlike at many companies, it is OK (and important) to call out when we did something poorly or when something doesn't go well (e.g., a sales pitch falls flat). That helps us be real and do it better in the future.
 
 ### Day 1
