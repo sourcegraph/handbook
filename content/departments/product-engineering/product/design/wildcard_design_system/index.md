@@ -21,7 +21,6 @@ Colors:
 - Of these groups, the Semantic colors are the ones to be used in day-to-day design work.
   - Semantic colors control things like background colors, borders, links, and input styles
 
-
 Spacing:
 
 - Sourcegraph uses an 8-point grid. Modify your [nudge settings](https://help.figma.com/hc/en-us/articles/4404575206295-Set-small-and-big-nudge-values) accordingly!

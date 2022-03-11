@@ -21,7 +21,6 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
   - Their product team
 - In their 1-1 doc introduce the designer to a few Figma files that are relevant to their team
 
-
 ## Designer checklist
 
 - Join the design-related Slack channels:
@@ -47,5 +46,5 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
 - Consider using the [Project Template](https://www.figma.com/file/JzufQnpTQtreyfnA3qpmfz/Project-Template?node-id=246%3A11) (read more in [Documents and Templates](../documents_templates/index.md))
   - This project doesn't fit all working styles or projects. If it doesn't work for you, consider trying to standardize on the following conventions:
     - Name pages consistently, use emojis to help indicate purpose
-    - Use  a cover page and cover component to help with readibly
+    - Use a cover page and cover component to help with readibly
     - Use an About section to help others know what the file/page/section does
