@@ -36,9 +36,9 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
   - code editors: [VS Code](https://code.visualstudio.com/) (and other IDEs like [IntelliJ](https://www.jetbrains.com/idea/) and [Atom](https://atom.io/))
   - similar products: [grepp.app](https://grep.app/) and [cs.opensource.google](https://cs.opensource.google)
 - Read the [Product Design team handbook](../index.md), especially:
-  - [User research](https://handbook.sourcegraph.com/departments/product-engineering/product/design/research/)
-  - [Analytics and product design](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/)
-  - [Wildcard design system](https://handbook.sourcegraph.com/departments/product-engineering/product/design/wildcard_design_system/)
+  - [User research](/departments/product-engineering/product/design/research/)
+  - [Analytics and product design](/departments/product-engineering/product/design/metrics/)
+  - [Wildcard design system](/departments/product-engineering/product/design/wildcard_design_system/)
 
 ### Set up your design environment
 
@@ -50,7 +50,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
   - Download [Figma](https://www.figma.com)
   - (Optional) Set nudge to 8px in preferences > nudge amount
   - Install Figma plugins:
-    - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker) - handy tool to check if your designs meet our [accessibility standards](../design/design-and-interaction-guidelines.md#accessibility-standards)
+    - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker) - handy tool to check if your designs meet our [accessibility standards](../../design/design-and-interaction-guidelines.md#accessibility-standards)
     - [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify) - We use the material design icons which can be searched and included with this plugin
     - [Style organizer](https://www.figma.com/community/plugin/816627069580757929/Style-Organizer) - helps us manage color
   - Other helpful plugins:
