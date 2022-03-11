@@ -124,6 +124,10 @@ Be mindful:
 
 Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It should follow the process of being discussed as an artifact and merged to a source of truth like any other decision.
 
+### Workshops
+
+The design team has a framework for running [large, async workshops](../../departments/product-engineering/product/design/workshops/async-design.md) that could be adapted to other purposes.
+
 ### When to use sync meetings
 
 We've talked above about how to do things async, but sometimes you might need (or think you need) a sync meeting. This section can help.
