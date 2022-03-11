@@ -14,7 +14,6 @@
 | [Open pipeline](../../sales/index.md#open-pipeline)                 | Salesforce (current quarter and current fiscal year)                                                                             | Sales/Finance           |
 | [Qualified pipeline](../../sales/index.md#qualified-pipeline)       | [Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HHICEA4/edit)                             | Sales/Marketing/Finance |
 | [Weighted pipeline](../../sales/index.md#weighted-pipeline)         | [Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O5b000005HcTpEAK/view)                             | Sales/Marketing/Finance |
-
 | [Average sales price](../../finance/index.md#average-sales-price) | [ARR tracker](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=272783233) | Sales/Finance |
 | [Average revenue per user](../../finance/index.md#average-revenue-per-user) | | Sales/Finance |
 | [Close rate](../../sales/index.md#close-rate) | | Sales |
