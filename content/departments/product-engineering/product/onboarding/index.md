@@ -37,7 +37,7 @@ Remember:
   - One of our values is to be [open and transparent](../../../../company-info-and-process/values/index.md#open-and-transparent)
   - Good reasons for things to be private: sensitive customer information, sensitive personal information
   - If you see a "request permission" page for some doc or other resource, it is a mistake. Just ask to be granted access to it (and make a PR to update the handbook so the next person starting is granted access to that system).
-  - When you have a question, try to ask publically. Other people probably have the same question.
+  - When you have a question, try to ask publicly. Other people probably have the same question.
   - In a DM a teammate might say: "Do you mind asking this publically? I'll answer there". You can use this phrase too to help generate open conversations.
 - Unlike at many companies, it is OK (and important) to call out when we did something poorly or when something doesn't go well (e.g., a sales pitch falls flat). That helps us be real and do it better in the future.
 
