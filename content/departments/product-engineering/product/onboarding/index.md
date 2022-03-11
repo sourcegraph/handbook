@@ -114,6 +114,7 @@ Remember:
 - **Screenshot/GIF making software**: See the [handbook](../../../marketing/process/adding_screenshots_screen_recording.md) for guidelines about software. Expense the program that works for you when you need it.
 - [Product documentation guidelines](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md)
 - [Docs to Markdown add-on for Google Docs](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
+
 ## Week 2–3 - initial projects
 
 - The goal is to give you a handful of projects that will help you familiarize yourself with the product, and get some quick wins in your first weeks.
