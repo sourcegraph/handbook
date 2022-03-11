@@ -1,4 +1,4 @@
-# Product Educacation - RFC assignment [1-2hr (async)]
+# Product Education - RFC assignment [1-2hr (async)]
 
 This step of our interview process is to have you complete a take home writing exercise in the form of a [Request for comments (RFC)](../../../../../../company-info-and-process/communication/rfcs/index.md).
 
@@ -39,5 +39,3 @@ Key competencies:
 Note that this exercise is intended more to result in an early-stage RFC that focuses primarily on communicating the product vision and why it’s an important problem to solve.
 
 Should the candidate move forward to the followup, review call, the focus will be on what collaboration would look like, how they would talk about the RFC, and how they’d work through getting it implemented.
-
-- Experience writing about or using modern deployment/containerization (Docker, Kubernetes, and others) and/or cloud (AWS, GCP, or others) tooling and technologies
