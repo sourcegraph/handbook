@@ -43,6 +43,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Values](company-info-and-process/values/index.md)
 - [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
   - [Gender Diversity Allies and ERG](company-info-and-process/diversity-equity-and-inclusion/gender-diversity.md)
+- [Mentorship](company-info-and-process/mentorship/index.md)
 - [Communication](company-info-and-process/communication/index.md)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [RFCs](company-info-and-process/communication/rfcs/index.md)
