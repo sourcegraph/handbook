@@ -91,15 +91,13 @@ While asynchronous communication is a core attribute of remote work, key moments
   - Announce results in slack
   - Create a GitHub issue to address items in the test results
 - Tools
-  - Maze.design
-  - UserTesting.org
+  - UserTesting.com
 
 ### Visual design
 
-- Visual design should utilize the Sourcegraph’s Figma based component system
+- Product design should utilize the [Wildcard Design System](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0)
 - Dark compositions will be created for each major design
 - If new components are required, the following process should be followed:
-
   - Design component in the Figma file which requires it
     - If creating a component make sure it is prefaced by '\_' so that it is not used while in review
   - Create a proposal frame with the following items:
@@ -123,14 +121,14 @@ While asynchronous communication is a core attribute of remote work, key moments
   - Does the language in the UI map to the language in the CLI?
   - Does the documentation reflect the change?
   - Light mode / Dark mode
-  - Enterprise / Cloud
-  - Signed in vs. anonymous user
+  - Server / Cloud
+  - If Cloud: Signed in vs. anonymous users
   - User permissions
-  - Interactive mode / plain text mode
 - Process
   - A GitHub issue should be created to track the work
   - Designs are produced in Figma
-  - Designs will be announced in Slack and linked in the GitHub issue well before they are complete for review
+  - Let others know about your designs in your team Slack channel
+  - Linked to your designs in the GitHub issue before they are complete to promote designing in the open
   - Ensure designs meet the visual design checklist:
   - Ensure spacing is consistent and matches the 8pt grid system
   - Ensure text, colors and other styles match existing styles, if possible.

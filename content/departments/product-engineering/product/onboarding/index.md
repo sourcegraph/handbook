@@ -16,11 +16,9 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Productboard
   - Looker
   - Amplitude
-- Grant access to necessary services.
-  - UserTesting.com
 - Schedule a recurring [1-1](../../../../company-info-and-process/communication/1-1.md).
 - Schedule check-ins for the first and second weeks at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
-- Create a 1-1 doc and add initial discussion items
+- Create a 1-1 doc and add initial discussion items. Some suggestions:
   - Onboarding doc - YAYYYYYYYYYY WELCOME!!!!! 🎉
     - Your onboarding doc is to help outline the projects and tasks you have over your first 30 days.
     - This 1-1 doc will be where we take notes on discussions, set goals, and make sure you’re on track.
@@ -43,7 +41,7 @@ Remember:
 
 - Complete [Process st onboarding](https://app.process.st/reports/)
   - Keep the [guiding principles](../../../../company-info-and-process/onboarding/index.md#guiding-principles) from the general onboarding page in mind - we are here to support you and you should act like an owner!
-- Write your 30–60–90 day objectives in your 1:1 doc with Christina
+- Write your 30–60–90 day objectives in your 1:1 doc with your manager
 
 ### Get to know the team
 
@@ -60,6 +58,7 @@ Remember:
 ### Set up the basics
 
 - [Configure your GitHub notifications.](../../../../company-info-and-process/onboarding/git-intro/github-notifications/index.md)
+  - Make sure that your Name is set to your First and Last name on GitHub so that other teammates can easily indentify you. Go to GitHub -> Your profile -> Edit profile -> Fill out the ‘Name field’ -> Save
 - Familiarize yourself with our [team chat](../../../../company-info-and-process/communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../../company-info-and-process/communication/team_chat.md#product).
 - Set up your [local development environment](https://docs.sourcegraph.com/dev/setup). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
   - You will need to run Sourcegraph locally to test and validate work that engineering is doing, to provide early feedback, or to review the UX of recently implemented work.
