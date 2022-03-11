@@ -98,6 +98,7 @@ While asynchronous communication is a core attribute of remote work, key moments
 - Product design should utilize the [Wildcard Design System](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0)
 - Dark compositions will be created for each major design
 - If new components are required, the following process should be followed:
+
   - Design component in the Figma file which requires it
     - If creating a component make sure it is prefaced by '\_' so that it is not used while in review
   - Create a proposal frame with the following items:
