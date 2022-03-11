@@ -15,6 +15,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Figma
   - Productboard
   - Looker
+  - Amplitude
 - Grant access to necessary services.
   - UserTesting.com
 - Schedule a recurring [1-1](../../../../company-info-and-process/communication/1-1.md).

@@ -50,7 +50,7 @@ See [tooling](./tooling/index.md) for a list of active tools we use.
 ## How we ensure that we release our product without high or critical vulnerabilities
 
 - We scan our containers and IaC as defined in the CI/CD Pipeline Vulnerability Scanning section below.
-- As part of the release process, we will conduct a full manual scan of our product using Trivy and Checkov.
+- As part of the release process, we will conduct a full scan of our product using Trivy and Checkov.
 - Any high and critical vulnerabilities will need to be addressed before releasing.
 - The artifacts from the scans are then archived.
 

@@ -132,8 +132,8 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 
 ## DEI
 
-- [Diversity, equity, and inclusion](../../company-info-and-process/communication/dei.md)
-- [Personal Pronouns](../../company-info-and-process/communication/personal-pronouns.md)
+- [Diversity, equity, and inclusion](../../company-info-and-process/diversity-equity-and-inclusion/index.md)
+- [Personal Pronouns](../../company-info-and-process/diversity-equity-and-inclusion/personal-pronouns.md)
 
 ## Wellbeing
 
