@@ -67,6 +67,8 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Product & Engineering](departments/product-engineering/index.md)
 
+- [Planning process](departments/product-engineering/process/planning-process.md)
+
 #### [Product](departments/product-engineering/product/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
