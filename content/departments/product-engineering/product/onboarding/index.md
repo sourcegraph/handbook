@@ -7,8 +7,8 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 ## Manager checklist
 
 - Visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
-- Create onboarding Google doc and copy in this page to customize week 2–4 tasks and have a personal checklist for the new teammate.
-- Update onboarding doc Week 2–4 with initial projects.
+- Create an onboarding Google doc for the new teammate
+- Update the onboarding doc with initial projects for weeks 2–4
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
   - Invite to GitHub teams, including @sourcegraph/everyone
@@ -16,8 +16,6 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Productboard
   - Looker
   - Amplitude
-<<<<<<< HEAD
-=======
 - Suggest product people the new teammate should create a 1:1 with
 - Schedule check-ins for the first and second weeks at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
 - Create a 1-1 doc and add initial discussion items. Some suggestions:
