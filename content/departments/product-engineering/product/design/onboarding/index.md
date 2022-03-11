@@ -2,7 +2,7 @@
 
 Welcome to the Design Team!
 
-Having gone though [the Process St onboarding](https://app.process.st/reports/) and [the Product onboarding](../../onboarding/index.md), it's time for the Design onboarding!
+Having gone though [the Process St onboarding](https://app.process.st/reports/) and [product onboarding](../../onboarding/index.md), it's time for the design onboarding!
 
 Your perspective as both a new user of Sourcegraph and a new teammate is very valuable to us. Please keep notes on any issues you encounter as you are onboarding and learning the product. We’ll use those notes to improve the product and process.
 
@@ -39,7 +39,6 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
   - [User research](https://handbook.sourcegraph.com/departments/product-engineering/product/design/research/)
   - [Analytics and product design](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/)
   - [Wildcard design system](https://handbook.sourcegraph.com/departments/product-engineering/product/design/wildcard_design_system/)
-- Set up Figma
 
 ### Set up your design environment
 
@@ -72,7 +71,7 @@ You'll find we have a strong base to work from, but we are in the early stages o
 ## Creating your first Figma project
 
 - Consider using the [Project Template](https://www.figma.com/file/JzufQnpTQtreyfnA3qpmfz/Project-Template?node-id=246%3A11) (read more in [Documents and Templates](../documents_templates/index.md))
-  - This project doesn't fit all working styles or projects. If it doesn't work for you, consider trying to standardize on the following conventions:
+  - This template doesn't fit all working styles or projects. If it doesn't work for you, consider try to standardize on the following conventions:
     - Name pages consistently, use emojis to help indicate purpose
     - Use a cover page and cover component to help with readibly
     - Use an About section to help others know what the file/page/section does
