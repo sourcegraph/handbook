@@ -71,6 +71,8 @@ A customer is an organization with a Sourcegraph subscription contract that has 
 
 ### Qualified pipeline
 
+### Weighted pipeline
+
 ### Win rate
 
 Win rate is the percentage of deals closed that were `Closed Won` (the prospect converted to a paying customer).
