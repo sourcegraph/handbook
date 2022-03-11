@@ -4,11 +4,11 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan.
+- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan. See also [design workshops](../design/workshops/index.md) and our [user research page](user_research/index.md) for design and research activities that can contribute to planning.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
-- [Surfacing feedaback to the product team](surfacing_product_feedback.md)
+- [Surfacing feedback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [The product feedback rotation](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
