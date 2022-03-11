@@ -96,6 +96,8 @@ Remember:
   - Read [Figma developers guide](https://www.smashingmagazine.com/2020/09/figma-developers-guide/)
 - Looker
   - [How Sourcegraph uses Looker](../../../bizops/analytics/index.md#using-looker)
+- Amplitude
+  - We use Amplitude for analytics on Sourcegraph Cloud. [More on Amplitude here](https://handbook.sourcegraph.com/departments/bizops/tools/amplitude/).
 - UserTesting.com
   - Walk through UserTesting.com with one of the designers on the team
 
@@ -112,39 +114,6 @@ Remember:
 - **Screenshot/GIF making software**: See the [handbook](../../../marketing/process/adding_screenshots_screen_recording.md) for guidelines about software. Expense the program that works for you when you need it.
 - [Product documentation guidelines](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/doc/dev/documentation.md)
 - [Docs to Markdown add-on for Google Docs](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
-
-### Set up your design environment
-
-If you are a designer on the team, use the following resources to get up to speed on design at Sourcegraph.
-
-You'll find we have a strong base to work from, but we are in the early stages of creating our program. Your input will be critical to our success, so take notes about everything you experience while onboarding. We'll use them to help us improve our process and the product!
-
-- Set up Figma
-  - Download [Figma](https://www.figma.com)
-  - (Optional) Set nudge to 8px in preferences > nudge amount
-  - Install Figma plugins:
-    - [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker) - handy tool to check if your designs meet our [accessibility standards](../design/design-and-interaction-guidelines.md#accessibility-standards)
-    - [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify) - We use the material design icons which can be searched and included with this plugin
-    - [Style organizer](https://www.figma.com/community/plugin/816627069580757929/Style-Organizer) - helps us manage color
-    - [Data lab](https://www.figma.com/community/plugin/740286071386014712/Data-Lab) - populates layers with data. This helps us provide more accurate designs and avoid tedious text generation
-    - [Data for design](https://drive.google.com/drive/folders/1UPxQ4Ln_JH7KNBVGP6ZepSK5WiGWfVDO)
-    - [Lorem Ipsum](https://www.figma.com/community/plugin/736000994034548392/Lorem-ipsum) - simple text generator
-    - Suggest plugins to help make us more efficient!
-  - Install the font SF PRO, which can be found in the [drive type folder](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ)
-  - Review the [component library](https://www.figma.com/files/project/14326173/%F0%9F%93%9ADesign-system)
-  - Review the [Project Tools](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/Project-Tools?node-id=0%3A1)
-  - Take a moment to add some inspiring design to the Figma [styleboards](https://www.figma.com/files/project/10712517/Styleboards)
-- UserTesting.com
-  - Get a tour of UserTesting.com from another designer on the team.
-  - Review a few [usability studies](https://drive.google.com/drive/folders/1WcvPUtdVH2XE3Hak6tutoPWRCuEXPvCd) to get an idea of how you will use the product.
-- As you learn the product, if you come across a quick win for better usability based on general heuristics, create a GitHub issue identifying the problem and proposing a quick solution, and tag it with 'UX'.
-- Suggest a tool you love to the team in the #design channel on Slack!
-- Storybook houses our React component library. We use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to easily access and collaborate on the components. You can access the React components library in two ways:
-  1.  Log in to Chromatic with your GitHub account and open Sourcegraph library
-  1.  from the root of your local development environment run storybook: `yarn storybook`.
-- Explore and favorite the [Google Drive design folder](https://drive.google.com/drive/folders/1ow-19Yd4AFtT8HjVZ9ln_nEGpCzQ2CTf)
-- Review the [Potential UX projects document](https://docs.google.com/document/d/1LemO13R3f0Ku88WK8tFr7_Qo4teDA0Bebs8Y2TGkS3U/edit)
-
 ## Week 2–3 - initial projects
 
 - The goal is to give you a handful of projects that will help you familiarize yourself with the product, and get some quick wins in your first weeks.
