@@ -1,5 +1,7 @@
 # Find a mentor, Be a mentor!
 
+> NOTE: This is a **preview** for the upcoming Sourcegraph mentorship program. The full program launch details will be announced in Slack in the coming weeks.
+
 ## Introduction
 
 At Sourcegraph, we want to promote a culture where everyone feels empowered to [continously grow](../values/index.md#continuously-grow) by asking for and receiving help, and one of the clearest ways to foster this is with a formal mentorship program. We believe that mentorship is a key part of our culture, and through this program, we are committed to providing resources to make it easy to _Find a mentor, Be a mentor_.
