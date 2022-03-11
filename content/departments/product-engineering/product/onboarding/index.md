@@ -16,8 +16,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
   - Productboard
   - Looker
   - Amplitude
-- Grant access to necessary services.
-  - UserTesting.com
+- Suggest product people the new teammate should create a 1:1 with
 - Schedule a recurring [1-1](../../../../company-info-and-process/communication/1-1.md).
 - Schedule check-ins for the first and second weeks at Sourcegraph to keep up with onboarding and to create space for answering any questions that might come up.
 - Create a 1-1 doc and add initial discussion items
@@ -47,7 +46,7 @@ Remember:
 
 ### Get to know the team
 
-- Schedule individual meetings with each person on the [Product team](../team/index.md#current-team)
+- Schedule individual meetings with the [Product team](../team/index.md#current-team) members suggested by your manager
 - Schedule individual meetings with each person on the engineering team you'll be working most closely with ( this will be in your specific onboarding docs)
 - Get up to speed on what your team is working on
   - Team handbook page(s), to learn about the team and its internal processes
