@@ -1484,6 +1484,31 @@
           -121.988571
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leo Papaloizos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.127758,
+          51.507351
+        ]
+      }
     }
   ]
 }
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Ryan Stott"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            <-111.810516>,
+            <40.616310>
+        ]
+    }

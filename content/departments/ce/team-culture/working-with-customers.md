@@ -74,7 +74,7 @@ During the trial, CE is enabling and educating the customer on how to use Source
 
 ## Security Reviews
 
-Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](security-reviews.md)
+Often during a customer’s technical validation process for our product, they will have security-related questions about either Sourcegraph or the manner in which Sourcegraph is deployed (Cloud, Managed Instance, Self-Hosted). The process for handling customer security reviews and questionnaires is detailed here: [Responding to Customer Security Reviews](../process/security-reviews.md)
 
 The current CE Security SMEs are [Max Wiederholt](../../../team/index.md#max-wiederholt) for US West / APAC and [Shawn King](../../../team/index.md#shawn-king) for US East / EMEA. We occasionally rotate team members in this role.
 
@@ -82,7 +82,7 @@ The current CE Security SMEs are [Max Wiederholt](../../../team/index.md#max-wie
 
 CEs are the team responsible for generating and maintaining license keys for customers. Here's some useful resources on how to do that:
 
-- [Creating and maintaining license keys for customers](license_keys.md)
+- [Creating and maintaining license keys for customers](../process/license_keys.md)
 - [Recording of creating a new key for demo.sourcegraph.com](https://drive.google.com/file/d/1fYsBqdzdBLd0mzAu2FJxrWznRX0k-iqr/view?usp=sharing)
 
 # Post-Sales Customer Touchpoints
@@ -190,7 +190,7 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 ## CE Technical Win Management
 
-CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
+CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](../process/tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
 
 ## Red Accounts
 
@@ -214,11 +214,14 @@ Both the AE and CE are responsible for participating in the creation of the acti
 
 ## Tech Reviews
 
-Tech Reviews are documented as part of the [CE Technical Win Management Process](tech-win-process.md).
+Tech Reviews are employed in both pre-sales scenarios and post-sales scenarios.
+
+- Tech reviews in pre-sales situations are documented as part of the [CE Technical Win Management Process](../process/tech-win-process.md).
+- Tech reviews in post-sales situations are documented as part of the [Customer Success Process](../process/tech-reviews.md).
 
 ## Account Planning
 
-Account Planning is critical to the success of our customers, ensuring that both CE's and AE's are on the same page and that any concerns can be properly surfaced to leadership.
+Account Planning is critical to the success of our customers. The account planning process is where an account team (AE & CE) comes together to review the current status of their customers (Usage, Health, ect.) on a quarterly basis and sets new goals for the next quarter, focusing on customer health, retention, and expansion.
 
 A [video version](https://www.loom.com/share/b18f6a43fa6243a38affe0a25c068f6d) of this has also been recorded.
 
@@ -271,6 +274,10 @@ For Tier 2 and Tier 3 customers, the account plan will be shared with your CE le
 Regardless of tier, each account plan should include clear next steps that will be added in Salesforce to the _Notes / Next Steps_ field on the account. A link to the account plan should also be included in the _Account Plan Link_ field.
 
 ### Additional Questions
+
+What is the difference between the Account Plan and the Technical Design Document?
+
+- The Account Plan is not meant to be a technical document, it is meant to be a single place for someone to look for the business and health information around an account. The Technical Design Document is meant to be the single place for someone to look for technical details around a customer's implementation of Sourcegraph
 
 How do I find out what tier my customers are?
 

@@ -71,9 +71,7 @@ We view equity and inclusion as foundational elements to our culture, our succes
 - We all have unconscious biases we need to confront.
 - Good people can say and do biased or racist things (and this doesn’t automatically make them bad people).
 - Diversity supports our moral values and practical goals and we cannot truly have diversity without also having equity and inclusion.
-- We consider a focus on diversity, equity, and inclusion a critical job function of all leaders at Sourcegraph.
-
-For more information, see our "[Diversity, equity, and inclusion](../communication/dei.md)".
+- We consider a focus on [diversity, equity, and inclusion](../diversity-equity-and-inclusion/index.md) a critical job function of all leaders at Sourcegraph.
 
 ### Open and transparent
 

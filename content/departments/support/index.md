@@ -132,6 +132,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Tools](tools/index.md)
 - [Assigned application engineers](team/assigned-app-eng.md)
 - [Permanently deleting user data](process/permanently_deleting_user_data.md)
+- [Removing repositories from cloud](process/removing-repositores-from-cloud.md)
 - [Business continuity](process/business-continuity-plan.md)
 
 ## SLAs
