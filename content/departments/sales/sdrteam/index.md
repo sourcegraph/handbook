@@ -204,15 +204,16 @@ This above process is the template for progression from SDR to Commercial AE. Fu
 
 ## SDR ramp and quota structure
 
-SDRs at Sourcegraph are most often the first people to interact with engineers and developers at companies across the globe. Learning to articulate and position the power of code search is a core component of the role. The ramp period accommodates the learning and practice necessary to engage with engineering organizations and provide value. The ramp period will be four months. The first month begins your first whole month after an SDR’s start date (e.g., the start date is 2/17, the first month of ramp begins 3/1). 
+SDRs at Sourcegraph are most often the first people to interact with engineers and developers at companies across the globe. Learning to articulate and position the power of code search is a core component of the role. The ramp period accommodates the learning and practice necessary to engage with engineering organizations and provide value. The ramp period will be four months. The first month begins your first whole month after an SDR’s start date (e.g., the start date is 2/17, the first month of ramp begins 3/1).
 
 **First three weeks:**
-- Meet lots of people, start building relationships internally 
+
+- Meet lots of people, start building relationships internally
 - Learn Sourcegraph offerings
 - Understand the use cases that Sourcegraph solves for
 - Practice using the systems used by SDRs every day
-- Conduct demonstrations of different components of the Sourcegraph offering 
-- Begin engaging with engineers and developers 
+- Conduct demonstrations of different components of the Sourcegraph offering
+- Begin engaging with engineers and developers
 
 **Mont 1 of ramp:**
 Inbound- 2 SAO
@@ -229,5 +230,3 @@ Outbound- 5 SAOs
 **Fully ramped monthly target:**
 Inbound- 10 SAOs
 Outbound- 5 SAOs
-
-
