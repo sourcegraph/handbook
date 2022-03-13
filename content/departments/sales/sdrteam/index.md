@@ -19,7 +19,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
   - [Tech Stack](#tech-stack)
   - [SDR Promotion Process](#sdr-promotion-process)
   - [Reccomended SDR Team readings & podcasts](#recommended-sdr-team-reads--podcasts)
-  - [SDR Ramp and quota structure]
+  - [SDR Ramp and quota structure](#sdr-ramp-and-quota-structure)
 
 ## Inbound Workflow
 
@@ -216,17 +216,17 @@ SDRs at Sourcegraph are most often the first people to interact with engineers a
 - Begin engaging with engineers and developers
 
 **Mont 1 of ramp:**
-Inbound- 2 SAO
-Outbound- 1 SAOs
+- Inbound- 2 SAO
+- Outbound- 1 SAOs
 **Month 2:**
-Inbound- 4 SAOs
-Outbound- 2 SAOs
+- Inbound- 4 SAOs
+- Outbound- 2 SAOs
 **Month 3:**
-Inbound- 6 SAOs
-Outbound- 3 SAOs
+- Inbound- 6 SAOs
+- Outbound- 3 SAOs
 **Month 4:**
-Inbound- 10 SAOs
-Outbound- 5 SAOs
+- Inbound- 10 SAOs
+- Outbound- 5 SAOs
 **Fully ramped monthly target:**
-Inbound- 10 SAOs
-Outbound- 5 SAOs
+- Inbound- 10 SAOs
+- Outbound- 5 SAOs
