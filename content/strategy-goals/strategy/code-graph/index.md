@@ -12,7 +12,7 @@ Our mission is to **make discovering, learning, and editing code easier, no matt
 
 ## Current theme(s)
 
-Apart from simply delivering great features that make our mission possible, across Code Graph we're particularly focused at the moment on improving the **discoverability and ease-of-use** around our [use cases](../index.md#use-cases). Focusing on these ensures we're prioritizing areas where people get real value out of the product, reducing time-to-value reduces the chance of people giving up on our features because they are too complicated or are not intuitive, and building cross-team capabilities helps us build better features that are more than the sum of their parts (as opposed to shipping our org chart).
+Apart from the work each of our teams do for our mission, across Code Graph we're particularly focused now on improving the **discoverability and ease-of-use** around our [use cases](../index.md#use-cases). Focusing on these ensures we're prioritizing areas where people get real value out of the product, reducing time-to-value reduces the chance of people giving up on our features because they are too complicated/not intuitive, and building cross-team capabilities helps us deliver features that are more than the sum of their parts (as opposed to shipping our org chart).
 
 Because these org-level concepts intentionally bridge team boundaries, we are especially mindful of following our [collaboration principles](../../../departments/product-engineering/process/cross-org-team-collab.md).
 
