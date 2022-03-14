@@ -163,7 +163,7 @@ If you need an exception to the norm for your order form, please see the [order 
      - this may apply to any deal that has a mutual action plan (MAP) where the close date is in quarter
      - the may apply to cloud deals that onboarded the month before the final month in the quarter
      - during the first month of the quarter, this should also apply to 1/3 of your existing pipeline for best case and early pipeline deals
-   - Best Case are for deals that have engagement but without the clarity provided by a MAP; 
+   - Best Case are for deals that have engagement but without the clarity provided by a MAP;
      - these deals may include those that you have a 'gut' feel for
      - to be "Best Case", a deal must be forecasted no later than the first day of the first month of the next quarter
    - Early Pipeline means that the deal is not forecast in the quarter, it is be definition forecast for a date later than the 1st day of the next quarter; you're likely only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on
