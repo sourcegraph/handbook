@@ -113,13 +113,13 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 
 - _Overview:_ Weekly call with all the teammates to discuss the work in progress and review upcoming priorities. Opportunity to surface dependencies on each other and other sources.
 - _Goal:_ connect as a team, ensure we are all clear on status of inflight work and next priorities
-- _When:_ Mondays at 19:00 UTC.
+- _When:_ Tuesdays at 14:00 UTC.
 
 ### Retrospectives
 
 - _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
 - _Goal:_ To ensure we improve as a team to become more efficient and effective.
-- _When:_ Every second Thursday at 20:00 UTC.
+- _When:_ Every second Thursday at 14:00 UTC.
 
 ### Engaging with Other Teams
 
