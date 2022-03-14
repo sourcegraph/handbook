@@ -15,6 +15,10 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Gender Diversity Allies and ERG](diversity-equity-and-inclusion/gender-diversity.md)
 - [Personal pronouns](diversity-equity-and-inclusion/personal-pronouns.md)
 
+## [Mentorship](mentorship/index.md)
+
+- [Program operations](mentorship/operations.md)
+
 ## [Communication](communication/index.md)
 
 - [Announcements](communication/announcements.md)

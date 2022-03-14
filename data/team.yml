@@ -233,7 +233,8 @@ kai_passo:
 rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
-  role: Senior Product Designer, Batch Changes and Search
+  manager_role_slug: design_manager_code_graph
+  role: Design Manager, Code Graph
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -336,7 +337,7 @@ christine_lovett:
 
 alicja_suska:
   name: Alicja Suska
-  reports_to: director_design
+  reports_to: design_manager_code_graph
   pronouns: she/her
   pronunciation: /aˈlʲit͡s.ja/
   role: Product Designer, Frontend Platform, Growth and Integrations, and Code Insights
@@ -1917,7 +1918,7 @@ kemper_hamilton:
 
 marisa_kanemoto:
   name: Marisa Kanemoto
-  reports_to: director_design
+  reports_to: design_manager_code_graph
   pronouns: she/her
   role: Product Designer, Search
   location: Berkeley, California, United States 🇺🇸
@@ -2631,7 +2632,7 @@ michal_vrtiak:
   reports_to: director_engineering_enablement
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
-  description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
+  description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs.
 
 ryan_scott:
   name: Ryan Scott
