@@ -15,7 +15,7 @@ Our mission is to **make discovering, learning, and editing code easier, no matt
 Apart from the work each of our teams do for our mission, across Code Graph we're particularly focused now on improving the **discoverability and ease-of-use** around our [use cases](../index.md#use-cases). There are a few key reasons why this is important:
 
 - Focusing on use cases ensures we're prioritizing areas where people get real value out of the product.
-- Reducing time-to-value reduces the chance of people giving up on our features because they are too complicated/not intuitive
+- Improving discoverability reduces the chance of people giving up on our features because they are too complicated/not intuitive
 - Building cross-team capabilities helps us deliver features that are more than the sum of their parts (as opposed to shipping our org chart)
 
 Because this theme intentionally bridges team boundaries, we are especially mindful of following our [collaboration principles](../../../departments/product-engineering/process/cross-org-team-collab.md).
