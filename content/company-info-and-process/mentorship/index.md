@@ -21,7 +21,7 @@ Are you interested in becoming a mentor or offering yourself as a resource for o
 
 ### What happens next?
 
-That’s it for now! An interested mentee will reach out to you directly over slack if they’d be interested in working with you, at which point you can arrange an [initial session](#the-initial-session) with them.
+That’s it for now! An interested mentee will reach out to you directly over Slack if they’d be interested in working with you, at which point you can arrange an [initial session](#the-initial-session) with them.
 
 If your availability changes or you want to update your areas of experience for mentoring, "update" your profile by [editing your survey response](https://forms.gle/CUWbzL9KMLuXFzhv5) at any time.
 
@@ -48,7 +48,7 @@ Mentorship is a two-way street, and it’s important that any mentoring relation
    - For example, someone who is interested in a lot of 1:1 pair programming time would want to look for a mentor in a similar time zone to them with at least a couple of hours of availability per week, whereas someone who is looking for occasional asynchronous feedback while preparing a talk for a conference could choose someone from a very different timezone with more limited availability.
    - Bear in mind that the areas of overlap do not need to be exact, and matching areas or timezones is only one component of determining if a mentor/mentee relationship is a good fit.
 
-3. Reach out and introduce yourself to your prospective mentor over slack.
+3. Reach out and introduce yourself to your prospective mentor over Slack.
 
    - If you haven’t met them before or don’t know them well, start by introducing who you are, what your role is, and why you’re contacting them (“I saw your profile on the mentors bulletin board, and I’m seeking mentorship in one of the areas you listed having experience with.”). If you already know them pretty well, you can probably skip this sub-step!
    - Share the areas and type of mentorship support you are looking for that you came up with for step 1. If you have a specific goal in mind already, share that, too! At this stage, the more context, the better!
