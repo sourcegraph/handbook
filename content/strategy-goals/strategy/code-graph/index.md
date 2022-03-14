@@ -10,7 +10,7 @@ If you're new to our strategy pages, this video walkthrough (last updated Feb 20
 
 Our mission is to **make discovering, learning, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are.**
 
-## Current theme(s)
+## Themes
 
 Apart from the work each of our teams do for our mission, across Code Graph we're particularly focused now on improving the **discoverability and ease-of-use** around our [use cases](../index.md#use-cases). Focusing on these ensures we're prioritizing areas where people get real value out of the product, reducing time-to-value reduces the chance of people giving up on our features because they are too complicated/not intuitive, and building cross-team capabilities helps us deliver features that are more than the sum of their parts (as opposed to shipping our org chart).
 
