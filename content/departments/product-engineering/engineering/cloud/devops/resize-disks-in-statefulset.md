@@ -36,8 +36,8 @@ kubectl describe sc sourcegraph | grep ReclaimPolicy
 Note: do it for ALL persistent volumes used by StatefulSet!
 
 ```
-for i in $(kubectl get pvc -n prod -l app=gitserver | awk '{print $1}'); do
-  kubectl patch pvc "$i" -n prod -p '{ "spec": { "resources": { "requests": { "storage": "${NEW_STORAGE_SIZE}" }}}}'
+for i in $(kubectl get pvc -n prod --no-headers -l app=gitserver | awk '{print $1}'); do
+  kubectl patch pvc "$i" -n prod -p '{ "spec": { "resources": { "requests": { "storage": "YOUR STORAGE VALUE" }}}}'
 done
 
 ```
