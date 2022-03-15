@@ -8,7 +8,7 @@ Quick links:
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
-- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) 
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
@@ -125,36 +125,36 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ### Code Insights is a product _with graphs_, not a _graphing product_
 
-The primary value of Code Insights comes from the questions it can answer for its users in service of [Sourcegraph use cases](../../index.md#use-cases). While Code Insights will continue to add graph UI features as customers demonstrate need and value –- or even just desire -- we will primarily focus on building new insight types or graph flows (such as monitoring, cross-feature integrations, and filtering/drilldown ability) rather than new chart types or especially fancy charting customizations. 
+The primary value of Code Insights comes from the questions it can answer for its users in service of [Sourcegraph use cases](../../index.md#use-cases). While Code Insights will continue to add graph UI features as customers demonstrate need and value –- or even just desire -- we will primarily focus on building new insight types or graph flows (such as monitoring, cross-feature integrations, and filtering/drilldown ability) rather than new chart types or especially fancy charting customizations.
 
-**What this looks like:** 
+**What this looks like:**
 
-- Even in rarer cases when we don't have user feedback to differentiate the priority of two features, we'll prioritize features that let you answer more types of questions, or answer them more specifically, rather than features that let you change the graph display for aesthetic purposes 
-- We sometimes delay "standard" graphing UI features, such as persisted re-orderable dashboard displays, because they won't best unlock value for our users relative to other work 
+- Even in rarer cases when we don't have user feedback to differentiate the priority of two features, we'll prioritize features that let you answer more types of questions, or answer them more specifically, rather than features that let you change the graph display for aesthetic purposes
+- We sometimes delay "standard" graphing UI features, such as persisted re-orderable dashboard displays, because they won't best unlock value for our users relative to other work
 
-**What this does not look like:** 
+**What this does not look like:**
 
-- Code Insights will still prioritize adding new chart types if they _do_ enable insights to answer new questions, such as a heatmap chart type to visualize changes in a non-Cartesian coordinates way. 
+- Code Insights will still prioritize adding new chart types if they _do_ enable insights to answer new questions, such as a heatmap chart type to visualize changes in a non-Cartesian coordinates way.
 
 ## Where we are now
 
 Code Insights is generally available and a paid add-on feature. The pricing and packaging details are [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
 
-This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users. 
+This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users.
 
 For what we have learned so far and how we are operationalizing those learnings, see [Strategy](#strategy-and-plans).
 
 ### Top customer, support, sales and marketing issues
 
-- The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for [Current Limitations of Code Insights](https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights). 
-- The main sales task for Code Insights is focusing on repeatability of our early Insights sales 
+- The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for [Current Limitations of Code Insights](https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights).
+- The main sales task for Code Insights is focusing on repeatability of our early Insights sales
 - The main marketing task for Code Insights is building demand generation pipelines around our Code Insights content and public assets
 
 ### Competitive landscape
 
 While there are many devtool products that use some version of the word "Insights," and a handful of others that do high level information about code, there are **no known direct competitors to Code Insights**.
 
-For the Sales-focused competitive breakdown and responses, see the (Field Enablement training recording from 56:32-1:01:00)[https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE] and the [accompanying slides](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit). You can also find a detailed breakdown of "similar" products in the original [Product Document for Code Insights](https://docs.google.com/document/d/1d34gCpt_rUOMAun8phcjNsFofGaaA_N_8znmgaugdKw/edit#bookmark=id.pobwla63lsa7). 
+For the Sales-focused competitive breakdown and responses, see the (Field Enablement training recording from 56:32-1:01:00)[https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE] and the [accompanying slides](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit). You can also find a detailed breakdown of "similar" products in the original [Product Document for Code Insights](https://docs.google.com/document/d/1d34gCpt_rUOMAun8phcjNsFofGaaA_N_8znmgaugdKw/edit#bookmark=id.pobwla63lsa7).
 
 Overall: there are no other products that can efficiently and effectively provide the deep historical and realtime analysis that Code Insights can provide, largely because any product that wanted to compete with Sourcegraph Code Insights would first have to catch up to the product moat of Sourcegraph Search (which powers Code Insights), and then also build out a Code Insights-like product.
 
@@ -182,7 +182,7 @@ Our biggest pre-beta learning was that a nice GUI and quick flow to creating a u
 
 We will:
 
-- Continue abstracting complexity (example: views vs tables) until a user chooses to expose it 
+- Continue abstracting complexity (example: views vs tables) until a user chooses to expose it
 - Build new setup features to make it easier to track a variety of other use cases, like we did with regex capture groups, based on new computation abilities
 
 #### Tracking needs
@@ -194,8 +194,8 @@ We will:
 - Explore additional chart visualizations that are helpful
 - Explore integrations with Search Contexts to limit repository sets
 - Explore integrations with Code Monitoring
-- Explore early integrations with Batch Changes 
-- Work to unify our permissions model across other Sourcegraph features in support of these explorations, and so it's easy to add tracking Insights to other features (like Notebooks) 
+- Explore early integrations with Batch Changes
+- Work to unify our permissions model across other Sourcegraph features in support of these explorations, and so it's easy to add tracking Insights to other features (like Notebooks)
 
 #### Exploration needs
 
@@ -205,7 +205,7 @@ We will:
 
 - Explore new types of filters and drilldowns
 - Build support for clicking into insights to see the code changes behind them
-- Explore integrating streaming search endpoints so that Insights load in realtime 
+- Explore integrating streaming search endpoints so that Insights load in realtime
 
 #### Stability and performance
 
@@ -218,18 +218,19 @@ We will:
 
 #### Future big bets: new data sources, locations, and operations
 
-Now that Code Insights is a GA product, we'll continue executing on the above themes at the same time we start early user research exploration around what other data features may add value to Code Insights. 
+Now that Code Insights is a GA product, we'll continue executing on the above themes at the same time we start early user research exploration around what other data features may add value to Code Insights.
 
-We will explore: 
+We will explore:
+
 - Adding third-party data sources directly to Code Insights, possibly via Sourcegraph extensions
-- Exporting Code Insights directly to other tools 
+- Exporting Code Insights directly to other tools
 - Building new insight types powered by new computation features of Sourcegraph
 
 ### What we're not working on & why
 
 In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following:
 
-- Code Insights is GA on Cloud: due to the multi-tenant nature of cloud, there's additional backend work we'll do in FY23 or FY24 to make Insights GA on Cloud. Optimizations we plan to make in FY23 will help us quickly plan and support Code Insights on Cloud, but we won't have time for that until FY23H2 or later. 
+- Code Insights is GA on Cloud: due to the multi-tenant nature of cloud, there's additional backend work we'll do in FY23 or FY24 to make Insights GA on Cloud. Optimizations we plan to make in FY23 will help us quickly plan and support Code Insights on Cloud, but we won't have time for that until FY23H2 or later.
 - Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all Code Insights users first. (However, we are exploring early integrations.)
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
 
@@ -237,10 +238,11 @@ In order to focus on what drives the most user value, the Code Insights team is 
 
 This section lists use cases that are related to this product team, along with the specific relevant features.
 
-Some resources that other teammates have also found very helpful: 
-- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) 
+Some resources that other teammates have also found very helpful:
+
+- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Code Insights x FY23 Use Cases](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit#slide=id.g1161442b32e_0_787) section of the sales enablement presentation
-- Live dashboards of example insights sorted by use case and maintained by the Code Insights team: 
+- Live dashboards of example insights sorted by use case and maintained by the Code Insights team:
   - [Code Reuse](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzN30=)
   - [Code Health](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzNn0=)
   - [Fixing Vulnerabilities](https://demo.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3NDUzOH0=)
