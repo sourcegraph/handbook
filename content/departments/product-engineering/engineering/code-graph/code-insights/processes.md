@@ -25,7 +25,7 @@ We use an intentional list of statuses on our project board:
 - **Backlog**: we are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
 - **On deck**: these issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
 - **Proposed for iteration**: these are a select group of issues proposed for a specific iteration. They should have an iteration milestone attached. TODO @felix could we enforce that?
-- **Todo**: this is the small set of issues that are planned for our current iteration. 
+- **Todo**: this is the small set of issues that are planned for our current iteration.
 - **In Progress**: issues currently being worked on in the iteration.
 - **In Review**: issues that have PRs in review.
 - **Done**: all closed issues, including "won't do" issues.
@@ -46,7 +46,6 @@ Our current process is as follows:
       - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
         - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
 
-
   - As much as possible, the proposer **involves the necessary stakeholders _asynchronously_ to get agreement** on whether the issue should be worked on in the next iteration before the [Thursday iteration planning](#fortnightly-iteration-planning). For example, the PM or EM might ping engineers in GitHub or Slack on whether an issue seems feasible, or engineers might ping their EM and PM to get buy-in whether the issue fits into our goals.<br>
     If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning).
 
@@ -66,7 +65,7 @@ Every two weeks, usually on the Thursday before the next iteration begins, we ho
 
 This is primarily a review of already-selected issues with a **Todo** status, and not deciding which issues belong in **Todo**. This meeting is also an opportunity to review the status of our current iteration and examine if any issues should be carried over to the next iteration.
 
-Our goal is to begin the next iteration with a correctly-sized **Todo** list, and all issues have **assignees**, and **order**. As a rule of thumb, the sum of estimates for each individual should not exceed the baseline posted to slack  so we have enough buffer, time to reply to asks from other teams, to plan the next iteration's projects, and self-organized slack time.
+Our goal is to begin the next iteration with a correctly-sized **Todo** list, and all issues have **assignees**, and **order**. As a rule of thumb, the sum of estimates for each individual should not exceed the baseline posted to slack so we have enough buffer, time to reply to asks from other teams, to plan the next iteration's projects, and self-organized slack time.
 
 ### Releases
 
