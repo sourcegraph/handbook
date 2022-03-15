@@ -55,10 +55,11 @@ To deliver the strategy, here are the themes we want to focus on for the next ye
 
 ### Enterprise scale
 
-We have the overarching goal to [level up our enterprise-ready features](../index.md#level-up-our-enterprise-ready-features). Batch Changes is successfully adopted by very large companies, with 10,000s of repositories. They face two limitations in practice:
+We have the overarching goal to [level up our enterprise-ready features](../index.md#level-up-our-enterprise-ready-features). Batch Changes is successfully adopted by very large companies, with 10,000s of repositories. They face three limitations in practice:
 
 - Creating changesets locally takes too long to be practical for very large-scale changes.
-- Navigation in the UI when there are 100s of batch changes and 10,000s of changesets is cumbersome
+- Navigation in the UI when there are 100s of batch changes and 10,000s of changesets is cumbersome.
+- Batch Changes's permission model is minimalistic and insufficient for some large enterprises.
 
 To drive enterprise success and stickiness, we need to:
 
