@@ -1,4 +1,4 @@
-# Quarterly CS Impact Review Practice
+# Quarterly CS Impact Check-in Practice
 
 The following happens at the company level:
 

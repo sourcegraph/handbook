@@ -15,9 +15,7 @@ If you see an area that is missing or has no owner and you need an answer, conta
 
 ## Owners files
 
-Whenever possible, it is preferred to document code ownership via an OWNERS file in the relevant directory, rather than a row in the table above. (Support for OWNERS files in sourcegraph/sourcegraph was [added on 2022-01-31](https://github.com/sourcegraph/sourcegraph/pull/30395), so it's a work in progress.)
-
-Owners files work exactly like the CODENOTIFY files that we use currently:
+Owners files work exactly like the CODENOTIFY files that we use currently, and can also help you find the owner of a certain bit of code:
 
 - An OWNERS file can appear in any directory.
 - Owners files are recursive, so an OWNERS file in a directory also applies to all subdirectories.
