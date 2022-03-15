@@ -14,7 +14,7 @@ We have committed to overall headcount numbers for the fiscal year with the assu
 
 The source of truth for comitted current and future product and engineering headcount is the [open roles tab of this spreadsheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933). Headcount with the `Placeholder` prefix is not guaranteed to any particular team.
 
-## How do I get headcount as a engineering hiring manager?
+## How do I get headcount as an engineering hiring manager?
 
 If you want to request engineering headcount for a future quarter, please add your request to [this document](https://docs.google.com/document/d/1Ggln2Jweb95ID6-aU8T5kM4D3QaAgLOUgyuOynAQzBc/edit#).
 
