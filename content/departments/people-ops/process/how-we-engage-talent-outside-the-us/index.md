@@ -118,7 +118,6 @@ For candidates in need of sponsorship that require a new visa, we will agree to 
 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
 
-
 ### Countries where we cannot currently support employment or contracting
 
 We cannot support or employ candidates or teammates in any of these countries due to U.S. embargoes and sanctions.
