@@ -118,4 +118,19 @@ For candidates in need of sponsorship that require a new visa, we will agree to 
 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
 
+
+### Countries where we cannot currently support employment or contracting
+
+We cannot support or employ candidates or teammates in any of these countries due to U.S. embargoes and sanctions.
+
+- Cuba
+- Iran
+- North Korea
+- Sudan
+- Syria
+- Crimea
+- China (case by case - notify People Ops)
+- Russia (case by case - notify People Ops)
+- Ukraine (case by case - notify People Ops)
+
 Any questions? Contact the People Ops team in #people-ops on Slack or people-ops@sourcegraph.com via email!
