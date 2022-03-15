@@ -2840,3 +2840,14 @@ daniel_marques:
   email: daniel.marquespt@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/danielmarquespt/)'
   description: 'Daniel is Product Designer based in Portugal. He is very passionate about everything related with technology, internet, eletronics and geek stuff. Besides that he loves the going outside, walking trails, riding his motorcycle or just chilling with friends watching the sunset.'
+
+thomas_hughes:
+  name: Thomas Hughes
+  pronouns: he/him
+  role: Senior Customer Training Engineering
+  reports_to: vp_customer_engineering
+  location: Austin, TX USA 🇺🇸
+  github: iamhughes
+  email: thomas.hughes@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/thomasshughes/)'
+  description: 'Thomas Hughes is a passionate engineer with experience in development, DevOps, Customer Success, and Developer Relations, and currently resides in Austin, TX. When not working, Thomas enjoys scuba diving, language learning, traveling, kayaking, and hiking.'
