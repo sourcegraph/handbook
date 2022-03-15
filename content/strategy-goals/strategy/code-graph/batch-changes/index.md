@@ -17,11 +17,11 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 ### 3-year vision
 
-**Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.** 
+**Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.**
 
 ### 10-year vision
 
-**Automated code changes are a common practice for all developers.** Making that happen requires two layers. First, making it easy to run code to create changesets across many repositories and codehosts, provided you know how to write code that changes code, our 3-year vision. Second, writing code that changes code, or more generally making describing code changes easier. 
+**Automated code changes are a common practice for all developers.** Making that happen requires two layers. First, making it easy to run code to create changesets across many repositories and codehosts, provided you know how to write code that changes code, our 3-year vision. Second, writing code that changes code, or more generally making describing code changes easier.
 
 By lowering the cost and effort required to change code at scale, we’ll make it commonplace to do small, incremental codebase health operations, instead of postponing to another day. We will know we have achieved this when it is as intuitive to change code across the entire codebase as in an IDE.
 
@@ -75,9 +75,9 @@ The key [success metric](../../../../departments/product-engineering/engineering
 Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding batch change.
 
 We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We measure success here by tracking:
+
 - the number of Batch Changes MAUs per active customer
 - the batch changes success rate (number of batch changes that get applied / number of batch changes that stay in preview)
-
 
 ### Discoverability and end to end use cases
 
