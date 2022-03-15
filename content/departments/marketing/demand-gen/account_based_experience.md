@@ -10,9 +10,9 @@ _Account Based Experience (ABX) focuses on using a variety of best marketing pra
 
 Supporting our _ABX Program_ are four pillars used to help create a baseline program structure.
 
-| Target                                                                                                                                                      | Engage                                                                                                                                             | Activate                                                                                                                                                                                                                                                            | Measure                                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Identify which accounts should be considered Strategic Accounts. These accounts will help us prioritize where we will focus our time, resources, and spend. | Focus our efforts on tried and true orchestration campaigns to help us understand how our platform can best serve current and potential customers. | Combine timely data and visibility to enable meaningful conversation at the right time. If an account has clicked on many of our ads and spent a lot of time learning on our site, this is the great time for a team member to reach out and see how they can help. | Standardized campaign performance metrics, revenue attribution, and everything in between will be tracked to measure success and reported to marketing and sales leadership. |
+| Target                                                                                                                                                      | Engage                                                                                                                                             | Activate                                                                                                                                                                                                                                                            | Measure                                                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identify which accounts should be considered Strategic Accounts. These accounts will help us prioritize where we will focus our time, resources, and spend. | Focus our efforts on tried and true orchestration campaigns to help us understand how our platform can best serve current and potential customers. | Combine timely data and visibility to enable meaningful conversation at the right time. If an account has clicked on many of our ads and spent a lot of time learning on our site, this is the great time for a team member to reach out and see how they can help. | Standardized campaign performance metrics, revenue attribution, and everything in between to measure success and report to marketing and sales leadership. |
 
 ### Roles & Responsibilities 👥
 
@@ -32,7 +32,7 @@ _Meet the team_
 
 ### Program Summary 📢
 
-ABX is broken up into two program types: **Strategic** and **Programmatic**. By breaking down target accounts into tiers we can prioritize alignment between sales and marketing and provide a scalable personalized focus to a subset of sales nominated accounts while ensuring lighter personalized air cover to the rest of our target list.
+ABX is broken up into two program types: **Strategic** and **Programmatic**. By breaking down target accounts into tiers, we can prioritize alignment between sales and marketing. We can also provide a scalable personalized focus to a subset of sales-nominated accounts, while ensuring lighter personalized air cover to the rest of our target list.
 
 #### Recurring Meetings
 
@@ -40,17 +40,17 @@ ABX is broken up into two program types: **Strategic** and **Programmatic**. By 
 
 > **Bi-Weekly Review** Activation discussion, program check-in, and metrics review.
 
-> **ABX Spring Session** This is an optional monthly AMA session where intent data, metrics, and current performance will be shared with anyone who attends. This meeting will give Sales reps a chance to ask questions and share highlights.
+> **ABX Spring Session** This is an optional monthly AMA session where intent data, metrics, and current performance will be shared with anyone who attends. This meeting will give sales reps a chance to ask questions and share highlights.
 
 #### Account Types
 
 > **Strategic ABX (1:1)** are a subset of target accounts nominated by sales. These accounts include accounts with stronger strategic value and needed investment. _**Currently limited to 8 accounts**_.
 
-> **Programmatic ABX (1:Few, 1:Many)** are all accounts from the target account list not part of Strategix ABX.
+> **Programmatic ABX (1:Few, 1:Many)** are all accounts from the target account list not part of Strategic ABX.
 
 **Strategic ABX**
 
-Each Strategic Account will be placed into a custom marketing plan. This plan will be agreed upon and created by both the Sales account executive and Demand Gen team. Each plan will be created individually by sales and marketing. Plans are divided into three parts: reach, personalize, and measure.
+Each Strategic Account will be placed into a custom marketing plan. This plan will be agreed upon and created by both the sales account executive and demand gen team. Each plan will be created individually by sales and marketing. Plans are divided into three parts: reach, personalize, and measure.
 
 | Reach                                                                                                                                                                                      | Personalize                                                                                                                          | Measure                                                                                                                                                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,7 +58,7 @@ Each Strategic Account will be placed into a custom marketing plan. This plan wi
 
 **Programmatic ABX**
 
-All target accounts not part of Strategic ABX will receive light personalized ads based on content pillar use cases and current programs. These ads will differ from generic ad campaigns being tailored to helping potential customers more closely identify team and organizational needs, get direct access to our platform, and receive more opportunities for hands-on experiences and customer engineer workflows.
+All target accounts not part of Strategic ABX will receive light personalized ads based on content pillar use cases and current programs. These ads will differ from generic ad campaigns, as they will be tailored to help potential customers more closely identify team and organizational needs, get direct access to our platform, and receive more opportunities for hands-on experiences and customer engineer workflows.
 
 > **Roadmap**
 > Segmented campaigns by region, vertical, persona, etc.
@@ -75,10 +75,11 @@ The following list includes examples of the types of plays or tactical actions u
 > - Intent data report (requires targeted ads)
 > - Direct mail campaigns
 > - Email marketing
-> - Custom campaigns
+> - Virtual
+> - Event
 > - 3rd-Party initiatives
 
-> **Roadmap: Coming soon..**
+> **Roadmap: Future goals**
 >
 > - Free trial incentives
 > - Custom content
@@ -91,13 +92,13 @@ The following list includes examples of the types of plays or tactical actions u
 
 #### Step 1: Nominate
 
-The nomination period will begin two-weeks prior for the upcoming quarter. Invites will be sent to Sales to begin this process and accounts will be reviewed by sales leadership and marketing to determine top priorities.
+The nomination period will begin two weeks prior to the upcoming quarter. Invites will be sent to sales to begin this process and accounts will be reviewed by sales leadership and marketing to determine top priorities.
 
-Fill out the [Account Nomination Sheet](https://docs.google.com/spreadsheets/d/1WCU_XXs0M4z9EZ4j4tcPmwYesAVqH8ooLWRG5j96KOY/edit?usp=sharing) **[internal-only]**
+Fill out the [Account Nomination Sheet](https://docs.google.com/spreadsheets/d/1WCU_XXs0M4z9EZ4j4tcPmwYesAVqH8ooLWRG5j96KOY/edit?usp=sharing). **[internal-only]**
 To be completed by Sales rep for reveiw by Sales leadership and Demand Generation.
 
 **What type of account should I nominate?**
-Account is high priority for Sales and meets at least one criteria below:
+Account is high priority for sales and meets at least one criteria below:
 
 - Account has a champion willing to drive awareness
 - History of engagement and responsiveness from multiple team members
@@ -115,7 +116,7 @@ An intent report will be generated for each strategic account for the initial ki
 
 ### How do we measure success? 📶
 
-Our first measurement of success if by bridging the gap that occurs frequently between Sales and Marketing. If we're holding regular meetings and reporting on what's working and what's not, we're on the right track. For more tangible date, we will look at traditional pipeline measurements such as creation, velocity, deal size, revenue etc..
+Our first measurement of success if by bridging the gap that occurs frequently between Sales and Marketing. If we're holding regular meetings and reporting on what's working and what's not, we're on the right track. For more tangible data, we will look at traditional pipeline measurements such as creation, velocity, deal size, revenue etc..
 
 **Metrics**
 
@@ -125,6 +126,6 @@ Our first measurement of success if by bridging the gap that occurs frequently b
 - Revenue
 - Avg. Deal Size
 - Velocity
-- Increase in Iarr
+- Increase in IARR
 
 #### Note: This page is a constantly evolving guide to ABX at Sourcegraph. We will continue to add more and update as the program grows! If you have a suggestion or improvement or just want to talk ABX strategy, please email [Jake Sorensen](mailto:jake@sourcegraph.com)

@@ -34,6 +34,7 @@ The content platform team helps with updates or changes to the various [sites we
 
 2. This will prompt you to fill out a form with relevant details.
 3. Completed forms will be sent to the content platform product manager, who will [triage](#triaging-incoming-requests) and update you with more information.
+   - **Note:** You'll see a condensed version of your request appear in the #content-platform channel instead of the full text you entered. Your full request will be sent directly to the PM via Slackbot, and they will follow up with questions as needed.
 
 #### Service level agreements (SLAs)
 
@@ -97,10 +98,9 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
   - **Blocked/Paused:** Work is currently paused on this issue. If possible, please add details about why the issue is blocked or paused. If you’re blocked, tag your PM for help.
   - **Done:** Work is complete, PR is merged (if applicable), and no further action is needed on this issue.
   - **Not Planned:** Issue has been triaged, but not prioritized with current work. This may mean it will be prioritized in the future when it aligns with the roadmap.
-  - **Not Doing/Cancelled:** Issue has been resolved another way, meaning no work is needed on this issue. Or, we have decided not to work on this issue. Either way, the reason for moving to this status should be explained in a comment.
 - **Automation:**
-  - When an issue or PR is added to the project, its status is set to **Needs Triage**.
-  - When an issue or PR is reopened, its status is set to **Needs Triage**.
+  - When an issue or PR is added to the project, its status is set to **Backlog**.
+  - When an issue or PR is reopened, its status is set to **Ready for Development**.
   - When an issue or PR is closed, its status is changed to **Done**.
     - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
   - When a PR is merged, its status is changed to **Done**.
@@ -113,13 +113,13 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 
 - _Overview:_ Weekly call with all the teammates to discuss the work in progress and review upcoming priorities. Opportunity to surface dependencies on each other and other sources.
 - _Goal:_ connect as a team, ensure we are all clear on status of inflight work and next priorities
-- _When:_ Mondays at 19:00 UTC.
+- _When:_ Tuesdays at 14:00 UTC.
 
 ### Retrospectives
 
 - _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
 - _Goal:_ To ensure we improve as a team to become more efficient and effective.
-- _When:_ Every second Thursday at 20:00 UTC.
+- _When:_ Every second Thursday at 14:00 UTC.
 
 ### Engaging with Other Teams
 

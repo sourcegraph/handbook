@@ -4,6 +4,12 @@ There are several pages in the handbook that contain generated content. For exam
 
 This page describes how this generation functionality is implemented in case you need to modify it.
 
+## Embedded notebooks
+
+Search Notebooks can be embedded on a handbook page using a `notebook:id` directive inside of double curly braces. This is implemented in [/src/lib/markdownToHtml.ts](https://github.com/sourcegraph/handbook/blob/main/src/lib/markdownToHtml.ts). The ID of the notebook is the portion of the URL that looks like `Tm90ZWJvb2s6MQ==`.
+
+Note that this integration only works with public notebooks on sourcegraph.com.
+
 ## Data files
 
 The data that drives the various pages is located in [/data](https://github.com/sourcegraph/handbook/tree/main/data) and is stored in the YAML format. Each contains a list of entries, with those entries containing various fields, and those fields containing strings or pointers to other elements (for example, the name of a person as a string, or a pointer for a team to a member of that team via the id.) For example, here is a sample org where the title and strategy links are strings, and the pm and em are pointers to people:

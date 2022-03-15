@@ -44,11 +44,11 @@ To see how individual teams fit into the flywheel, please see [the full deck](ht
 
 # Lead Scoring at Sourcegraph
 
-Lead scoring is a framework we have put in place across HubSpot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase.
+Lead scoring is a framework we have put in place across HubSpot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase. If you have any questions or feedback on anything pertaining to lead scoring, please post them in the #lead-lifecycle channel in Slack.
 
 Sourcegraph’s current two-pronged approach to lead scoring separately measures intent and product engagement and is described in further detail below.
 
-**Marketing Qualified Lead (MQL)**
+## Marketing Qualified Lead (MQL)
 
 A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to Marketing’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).
 
@@ -62,7 +62,7 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>Form submission (any other than demo request, pricing inquiry, or feedback - includes product sign-up or install)
+   <td>Form submission (any other than demo request, pricing inquiry, or feedback)
    </td>
    <td>10 points
    </td>
@@ -133,13 +133,13 @@ Where / how do we track MQLs at Sourcegraph:
 - Demand Gen / Marketing: tracks new MQLs generated over time across multiple dashboards
 - [BizOps](https://docs.google.com/spreadsheets/d/1iV2xWABopIXRQPBw8MCeDR-HGSHneyVKHb8s07BXTUw/edit#gid=0): tracks new MQLs generated over time as well as qualified opportunity conversion rates by First Touchpoint
 
-**Product Qualified Lead (PQL)**
+## Product Qualified Lead (PQL)
 
 A product qualified lead (PQL) is a prospect who has used the product and completed pre-defined actions that signify strong engagement and resonance with our core value proposition. This will be a separate grade solely ascribed to leads that sign up for a cloud account or install a private instance. The goal of this score is to act as a relative indicator of active use / engagement for our non-paying users post-sign up, which looks very different from how we evaluate this for current enterprise customers.
 
 Our product engagement scoring inputs, which we view as different between cloud accounts and private installs, can be found below:
 
-**Cloud Account**
+### Cloud Account
 
 <table>
   <tr>

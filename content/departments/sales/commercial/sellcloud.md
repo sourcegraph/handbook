@@ -8,7 +8,9 @@ Sourcegraph launched the Cloud Beta in December. Since then hundreds of companie
    - AE discovery: These companies are found to qualify for the Cloud Beta through a discovery call with an AE. To determine if a company can participate in the Cloud Beta, please ask the following questions:
      - Where do you store your code? The answer must be the cloud versions of Github or GitLab
      - How many developers do they have? We do not support teams > 50 users
-     - Are they okay without Code Insights or Batch Changes? Batch Change customers are high value. It’s probably best to keep them in the self-hosted process as long as possible so they can evaluate their need for Batch Changes independent of price considerations.
+     - Are they okay without Code Insights or Batch Changes? Make sure to evaluate the need for these capabilities before referring the customer to the Cloud
+     - Do you have security requirements that favor a self-hosted solution
+     - Do you need SSO
 
    If all is good, get their username and desired org name! Share this information with Ryan and he will onboard the new account in the Cloud Beta.
 

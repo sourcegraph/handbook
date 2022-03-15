@@ -42,9 +42,10 @@ Our current process is as follows:
 
   - We plan our iterations with point baselines such that factor in time off, life events, and support across prior iterations. We calibrate these point baselines via temperature checks in retros and manual adjustment. Roughly 80% of our iteration capacity is planned by the PM as the decider, and ~20% of the capacity is explicitly left for engineers to prioritize, taking into account our [goals and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md), technical roadmap, estimates, workloads on individuals, and release dates (the 20th of every month).<br> The PM will choose issues among all proposed issues – engineers and designers should still propose issues, even if they are not the planning decider.
 
-    - The issue should also have its **_Estimate_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropiate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the [Monday sync](#weekly-sync) to distribute workload.
+    - The issue should also have its **_Size_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropriate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the Thursday iteration planning meeting to distribute workload.
       - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
         - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
+
 
   - As much as possible, the proposer **involves the necessary stakeholders _asynchronously_ to get agreement** on whether the issue should be worked on in the next iteration before the [Thursday iteration planning](#fortnightly-iteration-planning). For example, the PM or EM might ping engineers in GitHub or Slack on whether an issue seems feasible, or engineers might ping their EM and PM to get buy-in whether the issue fits into our goals.<br>
     If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning).
@@ -55,7 +56,7 @@ Our current process is as follows:
 
   - We hold a [fortnightly synchronous iteration planning](#fortnightly-iteration-planning), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4).
 
-- During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteraton" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
+- During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
 
@@ -133,7 +134,7 @@ Teammates can find the rotation schedule at the top of the [retrospective docume
 
 ## Code reviews
 
-The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/code_reviews) with the following addition:
+The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/pull_request_reviews#reviewing-pull-requests) with the following addition:
 
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label **merge-on-any-approve**
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label **merge-on-all-approve**
@@ -148,7 +149,7 @@ It's the support engineer's responsibility to reach out proactively, find someon
 
 The engineer assigned to the support rotation is responsible for:
 
-1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md)
+1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md))
 2. Performing a best-effort resolution of the issue
    1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem

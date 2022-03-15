@@ -37,8 +37,8 @@ Being handbook-first means using the handbook as the source of truth for answers
 
 To be handbook-first, we must:
 
-- Default to the handbook when looking for information about a business process or policy.
-- Rely on the handbook being accurate and up-to-date.
+- Rely on the handbook being a reliable source of truth: accurate and up-to-date.
+- Default to the handbook when looking for information about a business process or policy, not just when we read about it the first time, but as a habit every time because we expect it to keep evolving.
 - Share responsibility for keeping the handbook accurate and up-to-date. If you notice something is missing or inaccurate, it is your responsibility to propose a change. This takes a lot more time than just doing things and not writing things down. But being handbook-first is worth it because it yields better processes and helps us work together efficiently as we grow.
 
 ## Handbook Usage
@@ -65,13 +65,9 @@ The handbook consists of Markdown files in the Git repository at github.com/sour
 
 ## Handbook Support
 
-### Handbook support in Slack
+### Slack
 
 Contact @handbook-support in the #handbook channel for help with the Handbook. @handbook-support is a volunteer-based group of Sourcegraph teammates that are passionate about the Handbook and eager to help. Join the @handbook-support group in Slack if you're interested in helping in this capacity.
-
-### Handbook Hacking Hours
-
-Handbook Hacking Hours are held every other Monday at 15:00 UTC, open to all Sourcegraph teammates to work on the Handbook website. We usually work through [Handbook Issues](https://github.com/sourcegraph/handbook/projects/1). The goal is to create some dedicated time to talk handbook, try things out, make it better, fail at things together, etc.
 
 ## Handbook feedback
 

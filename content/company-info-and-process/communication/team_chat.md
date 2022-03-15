@@ -90,6 +90,7 @@ If teams require additional channels they should follow the convention of prefix
 - #handbook - Updates to and discussion of [this handbook](../../index.md)
 - #handbook-updates - Github updates from the Handbook repo.
 - #handbook-announce - Announcement of important changes to the Handbook.
+- #wine-beer-spirits - A place to share stuff about ethanol in its many forms.
 
 ### Employee Resource/Identity
 
@@ -145,6 +146,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
 - #best-timezone - Hangout channel for the European time zone. GIFs allowed!
 - #books - Read books recommended by teammates and discuss them.
+- #cars - For all things cars!
 - #chess - For all chess lovers
 - #clothing - Chit-chatting about clothes
 - #coffee - For the love of coffee
@@ -161,6 +163,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.
 - #music - Share your tunes.
 - #nomad-life - For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
+- #peloton - For conversation around bikes that don't move
 - #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
 - #photography-chat - For photo-takey types
 - #plants-of-sourcegraph - 🌲🌻

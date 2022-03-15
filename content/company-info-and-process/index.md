@@ -10,6 +10,15 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 - [Customer-first](values/customer-first.md)
 
+## [Diversity, Equity, and Inclusion](diversity-equity-and-inclusion/index.md)
+
+- [Gender Diversity Allies and ERG](diversity-equity-and-inclusion/gender-diversity.md)
+- [Personal pronouns](diversity-equity-and-inclusion/personal-pronouns.md)
+
+## [Mentorship](mentorship/index.md)
+
+- [Program operations](mentorship/operations.md)
+
 ## [Communication](communication/index.md)
 
 - [Announcements](communication/announcements.md)
@@ -18,12 +27,10 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 - [Conflicts](communication/conflicts.md)
 - [Content Guidelines](communication/content_guidelines/index.md)
 - [Customer ethics](communication/customer_ethics.md)
-- [Diversity, Equity, Inclusion](communication/dei.md)
 - [Feedback](communication/seeking-and-giving-feedback.md)
 - Meetings
   - [1-1](communication/1-1.md)
   - [Company meeting](communication/company_meeting.md)
-- [Personal Pronouns](communication/personal-pronouns.md)
 - [Retrospectives](communication/retrospectives.md)
 - [RFCs](communication/rfcs/index.md)
 - [Slack](communication/team_chat.md)

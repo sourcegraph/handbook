@@ -41,6 +41,9 @@ The handbook is a living document and we expect every teammate to propose improv
 - [General office information](company-info-and-process/about-sourcegraph/general-office-info.md)
 - [All-remote](company-info-and-process/remote/index.md)
 - [Values](company-info-and-process/values/index.md)
+- [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
+  - [Gender Diversity Allies and ERG](company-info-and-process/diversity-equity-and-inclusion/gender-diversity.md)
+- [Mentorship](company-info-and-process/mentorship/index.md)
 - [Communication](company-info-and-process/communication/index.md)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [RFCs](company-info-and-process/communication/rfcs/index.md)
@@ -67,10 +70,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 #### [Product](departments/product-engineering/product/index.md)
 
-- [Strategy](strategy-goals/strategy/index.md)
-- [Product](departments/product-engineering/product/index.md)
-  - [Product Management](departments/product-engineering/product/process/index.md)
-  - [Product Design](departments/product-engineering/product/design/index.md)
+- [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
+- [Process](departments/product-engineering/product/process/index.md)
+- [Design](departments/product-engineering/product/design/index.md)
 
 #### [Engineering](departments/product-engineering/engineering/index.md)
 
