@@ -77,7 +77,6 @@ Batch Changes is a powerful product with a steep learning curve. The main fricti
 
 We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We measure success here by tracking:
 
-- the number of Batch Changes MAUs per active customer
 - the batch changes success rate (number of batch changes that get applied / number of batch changes that stay in preview)
 
 ### Discoverability and end to end use cases
