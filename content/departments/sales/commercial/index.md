@@ -150,9 +150,9 @@ If you need an exception to the norm for your order form, please see the [order 
 2. Every week on Thursday you will receive an email with a title format as follows: **20XX-QX Your Name - Region Week X has not been completed. Please provide your updates.**
 3. The notes should be staged as follows with headings of _Closed/Won_, _Commit_, _Call_, _Best Case_, and _Early Pipeline_.
    - For "Commit", "Call" and "Best Case", the total dollar amounts are additive so:
-     - the amount for "Commit" is additive of the deals in "Closed/Won"
-     - the amount for "Call" is additive of the deals in "Commit" and "Closed/Won"
-     - the amount for "Best Case" is additive of the deals in "Call", "Commit" and "Closed/Won"
+     - the amount for "Commit" is additive of the deals in "Closed/Won"; early in the quarter you may expect to close more deals than those that currently qualify for "Commit" and therefore it's ok to have a higher "Commit" than the sum of the value of the deals in "Commit"; as the quarter evolves you may expect to evolve your "Commit" to intersect your "Closed/Won" and if there are no more deals pending by the last week of the quarter it should be the same as your "Closed/Won"
+     - the amount for "Call" is additive of the deals in "Commit" and "Closed/Won"; early in the quarter you may expect to close more deals than those that currently qualify for "Call" and therefore it's ok to have a higher "Call" than the sum of the value of the deals in "Call"; as the quarter evolves you may expect to evolve your "Call" to intersect your "Commit" and if there are no more deals pending by the last week of the quarter it should be the same as your "Closed/Won"
+     - the amount for "Best Case" is additive of the "Call", "Commit" and "Closed/Won";
      - the amount for "Early Pipeline" is all deals that fall outside the quarter
    - Put the title of the opp along with the amount of the opp under the heading
 4. For efficiency, copy and paste notes from the week before and just add updates to the notes as is fitting.
