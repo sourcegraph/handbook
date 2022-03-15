@@ -885,7 +885,7 @@ vova_kulikov:
 alex_fogg:
   name: Alex Fogg
   pronouns: he/him
-  role: Customer Engineer
+  role: Senior Customer Engineer
   reports_to: senior_manager_customer_engineering_east
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
@@ -2829,3 +2829,14 @@ sally_voisen:
   location: San Rafael, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/sally-voisen/)'
   description: 'Sally lives in the Terra Linda area of San Rafael, CA with her husband, son, daughter, and cat named Bella Momo Cat. An East Coast transplant, Sally grew up in Philadelphia but has called the Bay Area her home since 2007. Prior to Sourcegraph, Sally was at Autodesk and Adobe. Outside of work, Sally enjoys a good pour-over coffee, cooking/baking, and hiking.'
+
+daniel_marques:
+  name: Daniel Marques
+  reports_to: design_manager_code_graph
+  pronouns: he/him
+  role: Product Designer, Batch Changes
+  location: Leiria, Portugal 🇵🇹
+  github: danielmarquespt
+  email: daniel.marquespt@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/danielmarquespt/)'
+  description: 'Daniel is Product Designer based in Portugal. He is very passionate about everything related with technology, internet, eletronics and geek stuff. Besides that he loves the going outside, walking trails, riding his motorcycle or just chilling with friends watching the sunset.'

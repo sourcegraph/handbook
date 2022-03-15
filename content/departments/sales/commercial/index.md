@@ -37,9 +37,11 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
      - A close date on the 1st implies that your best guess is that the close date will be either 30 days before or after this date.
      - A close date on the 1st implies that you don’t have alignment with the customer on the close date timing.
      - This date is easily moved.
+     - Unless the deal is expected to close on the first of the month, no commit deal should be forecast with this date.
    - Once you have alignment with the customer, you may move the close date to the last day of the month you believe the deal will close.
-     - This date should push <10% of the time
+     - This date should push <10% of the time.
      - You may move this date forward to the actual day a deal closes if it is before the last day of the month when you have closed/won the deal.
+     - If the date is not on the 1st day of the month, it is by definition part of your commit.
 
 2. Next Steps:
 
@@ -147,18 +149,24 @@ If you need an exception to the norm for your order form, please see the [order 
 1. Please complete forecasting by close of business on Friday.
 2. Every week on Thursday you will receive an email with a title format as follows: **20XX-QX Your Name - Region Week X has not been completed. Please provide your updates.**
 3. The notes should be staged as follows with headings of _Closed/Won_, _Commit_, _Call_, _Best Case_, and _Early Pipeline_.
-   - For each heading include the total dollar amount for that heading; each subsequent heading is additive so the amount for "Commit" is additive of the deals in Commit and Close/Won
+   - For "Commit", "Call" and "Best Case", the total dollar amounts are additive so:
+     - the amount for "Commit" is additive of the deals in "Closed/Won"; early in the quarter you may expect to close more deals than those that currently qualify for "Commit" and therefore it's ok to have a higher "Commit" than the sum of the value of the deals in "Commit"; as the quarter evolves you may expect to evolve your "Commit" to intersect your "Closed/Won" and if there are no more deals pending by the last week of the quarter it should be the same as your "Closed/Won"
+     - the amount for "Call" is additive of the deals in "Commit" and "Closed/Won"; early in the quarter you may expect to close more deals than those that currently qualify for "Call" and therefore it's ok to have a higher "Call" than the sum of the value of the deals in "Call"; as the quarter evolves you may expect to evolve your "Call" to intersect your "Commit" and if there are no more deals pending by the last week of the quarter it should be the same as your "Closed/Won"
+     - the amount for "Best Case" is additive of the "Call", "Commit" and "Closed/Won";
+     - the amount for "Early Pipeline" is all deals that fall outside the quarter
    - Put the title of the opp along with the amount of the opp under the heading
 4. For efficiency, copy and paste notes from the week before and just add updates to the notes as is fitting.
 5. How to determine stage:
-   - Closed/Won is defined by business that has been Closed/Won in salesforce; I should not see these deals as open opps anymore
+   - Closed/Won is defined by business that has been Closed/Won in salesforce; These deals should be listed as open opps anymore
    - Commit means that you have switched the close date to the last day of the month that it will close in; these things are synonomous and you should not have one without the other
    - Call is for deals that you believe will come in during the quarter
      - this may apply to any deal that has a mutual action plan (MAP) where the close date is in quarter
      - the may apply to cloud deals that onboarded the month before the final month in the quarter
      - during the first month of the quarter, this should also apply to 1/3 of your existing pipeline for best case and early pipeline deals
-   - Best Case are for deals that have engagement but without the clarity provided by a MAP; these deals may include those that you have a 'gut' feel for
-   - Early Pipeline means that you're only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on; any deal that is not forecasted to close in quarter should fall into this category
+   - Best Case are for deals that have engagement but without the clarity provided by a MAP;
+     - these deals may include those that you have a 'gut' feel for
+     - to be "Best Case", a deal must be forecasted no later than the first day of the first month of the next quarter
+   - Early Pipeline means that the deal is not forecast in the quarter, it is be definition forecast for a date later than the 1st day of the next quarter; you're likely only a meeting or two in and you don't have strong engagmeent from the customer yet, many outbound deals will fall into this category early on
 6. Make sure to check your math. Closed/Won should have the smallest amount and Best Case should have the largest amount. Closed/Won to Best Case are all possibilities of what could happen within the quarter. Early Pipeline, by definition, is not forecasted for the quarter so you don't need to add the previous numbers up since the forecast is quarterly.
 
 ## Film Study
