@@ -104,22 +104,21 @@ First Touchpoint is a custom marketing field we have created in Hubspot.. This f
 
 Marketing dashboards that are specific to Marketing intiatives are mostly created in Tableau, to access - you will need to use this [OnePassword](https://team-sourcegraph.1password.com/vaults/dnrhbauihkhjs5ag6vszsme45a/allitems/467npo7pkmnty4gmyt5crmmmga). If you have any questions or requests please reach out to Adam Greenhalgh.
 
-To check on marketing performance to OKR's and pipeline performance visit [Marketing Dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/workbooks/958874/views) 
+To check on marketing performance to OKR's and pipeline performance visit [Marketing Dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/workbooks/958874/views)
 
 Individual Page Overview
 
 [Marketing Dashboard](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/MarketingDashboard) - Marketing team performance to OKRs, specifically pipeline and MQL performance - associated [loom](https://www.loom.com/share/1ae4b3725ea24097a6024a365324f9e2)
 
-[Marketing Results](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Marketingresults) - A dynamic breakdown of lead funnel by relevant marketing program. You can break down the funnel by source,content,campaigns, and more. Use filters on right to change time frames and view, the metrics are cohorted based on the relevant 'date filter' you choose. For example, if wanting to see how leads have converted downstream, choose lead date. If wanting to see when MQLs became an MQL in a specific time frame choose MQL. 
+[Marketing Results](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Marketingresults) - A dynamic breakdown of lead funnel by relevant marketing program. You can break down the funnel by source,content,campaigns, and more. Use filters on right to change time frames and view, the metrics are cohorted based on the relevant 'date filter' you choose. For example, if wanting to see how leads have converted downstream, choose lead date. If wanting to see when MQLs became an MQL in a specific time frame choose MQL.
 
-[Metrics over time](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Metricsovertime?:iid=4) - A funnel view of metrics broken out by volume per time period, this dashboard allows you to see volume of metrics compared to previous time periods. Use filters as mentioned in the marketing results page. 
+[Metrics over time](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Metricsovertime?:iid=4) - A funnel view of metrics broken out by volume per time period, this dashboard allows you to see volume of metrics compared to previous time periods. Use filters as mentioned in the marketing results page.
 
-[Quarter Funnel](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Quarterfunnel) - A high level breakdown of leads, MQLs,converted opps,qualified opps, and Iarr. This dashboard shows a non - cohorted view, and bases volume off of each metric to it's own date filter. I.e. lead =  'created date', MQL = 'MQL date', converted = 'Converted date', and qualified = 'Qualified date'.  You can also use the filter 'MQL or Not' to break down by type of lead. 
+[Quarter Funnel](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Quarterfunnel) - A high level breakdown of leads, MQLs,converted opps,qualified opps, and Iarr. This dashboard shows a non - cohorted view, and bases volume off of each metric to it's own date filter. I.e. lead = 'created date', MQL = 'MQL date', converted = 'Converted date', and qualified = 'Qualified date'. You can also use the filter 'MQL or Not' to break down by type of lead.
 
-[Dynamic Funnel](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Dyanmicfunnel?:iid=6) - This is a cohorted funnel conversion dashboard based on whatever date filter you choose. 
+[Dynamic Funnel](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/Dyanmicfunnel?:iid=6) - This is a cohorted funnel conversion dashboard based on whatever date filter you choose.
 
-[ABX dash](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/ABXEvents?:iid=7) - A dashboard to display current year event and abx campaigns, it will highlight how many leads and contacts per campaign, as well how much open pipeline is expected to attend, or did attend. 
-
+[ABX dash](https://10ay.online.tableau.com/#/site/sourcegraphdemandgen/views/MarketingDashboard/ABXEvents?:iid=7) - A dashboard to display current year event and abx campaigns, it will highlight how many leads and contacts per campaign, as well how much open pipeline is expected to attend, or did attend.
 
 Important notes on dashboard - Marketing Sourced pipeline and MQL goals are stretch goals that are created and agreed upon at an executive level.
 
