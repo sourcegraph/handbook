@@ -142,15 +142,18 @@ You should also join channels mentioned in [your team's documentation](../../dep
 
 These are some of our social channels. Feel free to whichever calls you.
 
+- #3dprinting - Discussiong and photos about your three-dimensional creations
 - #anime - All things related to anime
 - #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
 - #best-timezone - Hangout channel for the European time zone. GIFs allowed!
+- #bikes - For all your cycling-related conversations and ride photos.
 - #books - Read books recommended by teammates and discuss them.
 - #cars - For all things cars!
 - #chess - For all chess lovers
 - #clothing - Chit-chatting about clothes
 - #coffee - For the love of coffee
 - #cooking - All things cooking and food
+- #desksetup - Discussion about your WFH setup, show off your desk!
 - #fantasyfootball
 - #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
 - #gaming - For all gamers
@@ -158,6 +161,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #great-bandname - “That’s a great bandname” — all the things we find that would make a great bandname
 - #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
 - #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
+- #knitting - For knitting, crocheting or general yarn enthusiasts
 - #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!
 - #mixology - To talk about the art of making drinks/drinks we enjoy
 - #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.
@@ -167,8 +171,13 @@ These are some of our social channels. Feel free to whichever calls you.
 - #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
 - #photography-chat - For photo-takey types
 - #plants-of-sourcegraph - 🌲🌻
+- #seattle-gang - For any Sourcegraphers in, around, and visiting the Seattle area
+- #sourcegraph-cascadia - Hangout channel for everyone in the beautiful region of Cascadia (from northern California to British Columbia)
+- #sourcegraph-latam - Hangout channel for anyone in or from Latin America
 - #side-project - Working on a cool/challenging/fun side project? Tell us all about it here!
 - #ted-talks - Share impactful ted talks here, with a brief description and time of the talk
 - #today-i-learned - Anything you learn or think is fascinating, please share.
 - #trash-tv - For discussing TV and movies, but especially the stuff that's not good.
+- #us-personal-finance - Discussions related to personal finance topics in the US
 - #virtual-coworking - 60 minute sessions to work quietly in tandem
+- #yelling - FOR WHEN YOU NEED A PLACE TO VENT
