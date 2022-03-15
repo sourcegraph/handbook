@@ -171,7 +171,7 @@ These are some of our social channels. Feel free to whichever calls you.
 - #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
 - #photography-chat - For photo-takey types
 - #plants-of-sourcegraph - 🌲🌻
-- #seattle-gang - For any Sourcegraphs in, around, and visiting the Seattle area
+- #seattle-gang - For any Sourcegraphers in, around, and visiting the Seattle area
 - #sourcegraph-cascadia - Hangout channel for everyone in the beautiful region of Cascadia (from northern California to British Columbia)
 - #sourcegraph-latam - Hangout channel for anyone in or from Latin America
 - #side-project - Working on a cool/challenging/fun side project? Tell us all about it here!
