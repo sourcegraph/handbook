@@ -1,23 +1,20 @@
 # Product/Engineering headcount planning
 
-The source of truth for current and future product and engineering headcount is [this spreadsheet](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0).
+Our headcount planning philosophy balances three things:
+* Our need to have a stable financial plan for the fiscal year
+* Our desire to be flexible so we can respond to changing business needs as the fiscal year progresses
+* The lead time we need to make a great hire for a specific role
 
-Access is currently restricted to product/eng directors, engineering managers, and relevant people in people ops, talent, and finance.
+## FY23 philosophy
 
-## Philosophy
+This section documents how we are approaching headcount in FY23. This may change for FY24.
 
-Our goal is to have an approximate 1 year rolling headcount plan for budgeting and high-level planning purposes.
+We have committed to overall headcount numbers for the fiscal year with the assumption that we want to avoid making additional headcount requests throughout the fiscal year. To arrive at these overall numbers, we built a model that estimated growth per team. With the overall headcount numbers approved, we are treating future headcount as shared pool across engineering. The model we built is not a commitment to fund any particular team. Instead, headcount is confirmed to specific teams on a quarter by quarter basis.
 
-Department level headcount totals need to be approved by the board of directors, so any headcount that has not been approved is merely a forecast.
+The source of truth for comitted current and future product and engineering headcount is the [open roles tab of this spreadsheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933). Headcount with the `Placeholder` prefix is not guaranteed to any particular team.
 
-Even after headcount is approved by the board of directors, it is subject to reallocation within product and engineering subject to our evolving needs and priorities. Our goal is to start hiring for roles 3 months before we want someone to start, so we will finalize team allocations of approved headcount 1 quarter in advance.
+## How do I get headcount as a hiring manager?
 
-In general, the lifecycle of a headcount is: unapproved -> approved -> ready to start hiring.
+If you want to request headcount for a future quarter, please add your request to [this document](https://docs.google.com/document/d/1Ggln2Jweb95ID6-aU8T5kM4D3QaAgLOUgyuOynAQzBc/edit#).
 
-While it is possible to request new headcount from the board throughout the year, our goal is to not have to do that so that we have a stable financial plan we can operate against.
-
-## Process
-
-When a new quarter is about to start, hiring managers should be prepared to provide brief/lightweight justifications for headcount increases (any roles we want to start hiring for) for the quarter after the quarter that is about to start. This includes justifications for headcount that has already been tentatively allocated.
-
-After the board meeting (generally ~3 weeks into the new quarter), headcount allocations will be finalized and hiring managers can work with the talent team to open hiring pipelines for the following quarter (the quarter after the one that just started).
+To give our talent team enough lead time, and so that we can holistically evaluate needs across the entire engineering organization given a finite amount of headcount to allocate each quarter, headcount requests for a specific quarter need to be logged 15 weeks in advance of the start of that quarter.
