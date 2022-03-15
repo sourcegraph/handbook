@@ -1,4 +1,4 @@
-# Quarterly CS Talent Review Practice
+# Quarterly CS Impact Check-in Practice
 
 The following happens at the company level:
 
@@ -6,7 +6,7 @@ The following happens at the company level:
 - Every March and September, every team is expect to calibrate and put forth folks for promotion
 - There will always be off-cycle exceptions
 
-In support of the Sourcegraph overall approach, the Customer Support team honors this cadence and supplements with a quarterly review (vs twice yearly) to keep career growth top of mind.
+In support of the Sourcegraph overall approach, the Customer Support team honors this cadence and supplements with a quarterly review (vs twice yearly) to keep career growth and impact top of mind.
 
 Concretely, this is what happens depending on when:
 
@@ -23,7 +23,7 @@ Concretely, this is what happens depending on when:
 
 The outcome of this part of the practice is for each individual on the team to have an aligned understanding with their manager about their performance. It happens in 3 steps over a two week period, via asynchronous work and a synchronous conversation.
 
-1. Each individual reviews the level framework to self-assess their performance, being able to answer the following questions (with evidence):
+1. Each individual reviews the level framework to self-assess their impact, being able to answer the following questions (with evidence):
 
    - Am I meeting expectations?
      - Yes, I have evidence to demonstrate that I show-up consistently (multiple examples over at least a 6 month period) at my current level
@@ -47,6 +47,7 @@ The outcome of this part of the practice is for each individual on the team to h
 - Review peer case review notes
 - Review handbook and docs PRs
 - Review solved cases and relevant Github issues
+- Technical competency matrix
 
 ## How managers put forth any relevant promotions/salary adjustment recommendations
 

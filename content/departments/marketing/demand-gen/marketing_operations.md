@@ -1,18 +1,39 @@
 # Marketing Operations
 
-The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable. Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, reach out to [Rebecca Rissinger](mailto:rebecca.rissinger@sourcegraph.com).
+The Marketing Operations Team at Sourcegraph is focused on the mechanics of how we find and track our end users and customers. We are a subset of the Demand Generation team that oversees the MartTech stack, corporate email marketing strategy, lead management, and marketing analytics. We take on the technical work of maintaining systems across the marketing department to ensure our results are scalable and repeatable.
+
+Our goal is to make sure the systems support the strategy! For any questions related to marketing operations, you can find us in the [#demand-gen-internal slack channel](https://sourcegraph.slack.com/archives/C020273JHJ6).
 
 ## MarTech Stack
 
-As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today. Martech login details can be [found here](https://docs.google.com/spreadsheets/d/1LhvprlawDG2sNa_ozO_BBQWroOropudoyVVRiqhBNLo/edit#gid=274864472).
+Our most important MarTech tools are as follows:
 
-## Lead Management
+- **Salesforce-** Hubspot passes lead and marketing touchpoint data over to Salesforce so that sales can follow up on individuals interested in Sourcegraph.
+- **Hubspot-** Marketing automation tool used to run email marketing campaigns, track prospect engagement, and connects tools to our martech stack.
+- **Drift (go-live date TBD)-** Chatbot that will be launched on about.sourcegraph.com. We'll be partnering with sales to drive revenue acceleration by helping folks that hit our website find what they are looking for faster via this chat tool.
+- **Postal.io-** This account-based marketing tool is how we send gifts and mailings out to prospects. The integration with Hubspot allows us to automate email messaging workflows before or after gifts are sent or received. Today, we are not running any automated email messaging via this integration.
+- **Triblio-** This account-based marketing tool is how we target specific accounts for digital advertising. The integration with Hubspot allows us to create target lists within Hubspot and share them with Triblio.
+- **Typeform-** This marketing tool is how we create forms, surveys, and quizzes for our prospects. The integration with Hubspot allows us to send prospect answers and data into fields in Hubspot. Setting up this data flow lets us capture important information about our prospects, increase their intent scores based on responses, and surface important prospect responses to Sales when appropriate. As long as your Typeform asks for a person's email address, we can send responses to Hubspot. Reach out to us if you are interested in integrating forms, surveys, or quizzes with Hubspot.
+- **Orbit-** This marketing tool is how we understand our community's interactions with Sourcegraph. The integration with Hubspot allows us to create user activities in Orbit when community members take specific actions. Today, anytime someone submits their information on our [Dev Tool Time page](https://info.sourcegraph.com/dev-tool-time), an activity is created for that person in Orbit.
+- **Utm.io-** This tool is a way for us to standardize how we build, share, and sync our UTMs/URLs for marketing touchpoint tracking across our teams. By being on the same page with how we build our URLs, we're able to capture where folks are converting across our different digital platforms. If you are interested in learning more, you can check out this [demo video](https://www.loom.com/share/cb85b29198644100ac697437931beac8).
+- **Demio-** This is webinar platform that will help marketing run webinar programs to drive MQLs and PQLs and increase product awareness.
+- **Calibermind (go-live date TBD)-** This is a marketing tool we're implimenting that will help marketing understand the prospect journey. By connecting our ad spend platforms and Salesforce with Calibermind, we'll be able to see the full prospect through customer journey at the Account level.
 
-This section encompasses how marketing qualified leads inbound as well as how we manage the lead lifecycle in partnership with Sales Operations.
+As a marketing organization we’re always implementing new technologies so we can be sure we’re staying on top of the latest trends. Please see the [attached google sheet](https://docs.google.com/spreadsheets/d/1GLpfnwF6QxutxEvLtiorgfFUyHtPbMbzDFiYQ_pjU8c/edit?usp=sharing) to learn about the technologies we have in place today.
+
+## Lead/MQL/PQL Definitions
+
+There are a couple of different sections across BizOps and SalesOps that discuss lead/mql/pql management. In it's simplist form here are the definitions linked out to supporting documentation:
+
+- **Leads** are individuals that have not been qualified yet which is why they are not associated with accounts or opportunities in Salesforce. It's important to note that these individuals are not surfaced to the SDR team just yet.
+
+- **Marketing Qualified Leads (MQL)** inbound generated leads that reach a Hubspot Score of 15 points signifiying that they are ready for sales outreach. These MQLs are surfaced to the SDR team with the Lead Lifecycle Stage of MQL. For a more granular/technical view of our lead scoring set up you can view that in our working [lead scoring model here](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=0).
+
+- **Product Qualified Leads (PQL)** product generated leads that receive an A or B product usage grade that signifies strong engagement with our products. These PQLs are surfaced to the SDR team with the Lead Lifecycle stage of PQL.
 
 ### Lead Creation
 
-Marketing leads inbound in the following ways:
+Leads inbound in the following ways:
 
 #### Contact Us Forms:
 
@@ -23,24 +44,19 @@ Marketing leads inbound in the following ways:
 
 - [Sourcegraph - Schedule a Batch Changes demo](https://about.sourcegraph.com/contact/request-batch-changes-demo/)
 - [Sourcegraph - Schedule a Sourcegraph demo](https://about.sourcegraph.com/contact/request-demo/)
+- [Sourcegraph - Request a Demo (CTA on top right of about site)](https://info.sourcegraph.com/demo-request)
 
-#### Big Code Survey:
+#### Product (Private Install or Sourcegraph.com Account) Sign Ups\*
 
-- [The Emergence of Big Code - download the free report](https://info.sourcegraph.com/emergence-of-big-code-2020-survey)
+\*These leads are fed to Hubspot by an API key via a process set up by BizOps/CustomerOps that passes prospect email address and tracking/sourcing data
 
-#### Product (Private Install or Sourcegraph.com Account Sign Ups) Email- Only Leads\*
+- **Sourcegraph Self-Hosted-** This lead is created when a prospect copies and pastes the code from the [“Install Sourcegraph Locally” CTA](https://about.sourcegraph.com/get-started/self-hosted) and runs it on their machine, we capture an email address and share it with sales.
+- **Sourcegraph.com Account (Cloud)-** This lead is created when a prospect [creates a cloud account using GitHub, GitLab, or via an email address.](https://about.sourcegraph.com/get-started/cloud)
 
-\*(Backend web code set up by BizOps/CustomerOps passes prospect email address and tracking/sourcing data via API key from the product into Hubspot)
+#### Third-party Vendors
 
-- Private/Local Install
-  This lead is created when a prospect copies and pastes the code from the “Search Your Own Code” CTA on the “Get Started” page and runs it on their machine, we capture an email address and share it with sales.
-- Sourcegraph.com Account (Cloud)
-  This lead is created when a prospect clicks on our CTA that says “Try Sourcegraph Cloud now” from the about.sourcegraph site. They are then taken to our product which is sourcegraph.com/search. If they click “Sign Up” on the top right of that page and create an account, we capture an email address and share it with sales.
-
-### Lead Qualification by Intent Score
-
-The activities above automatically generate leads. However, we also have a scoring model that takes into account prospects who interact with landing pages and other marketing content. If a prospect interacts with Sourcegraph in multiple places, you may also see them score enough to trip the marketing qualified/intent threshold and be passed to the inbound SDR team. We also apply scoring when actions are taken within the product. When someone trips a threshold for product actions they are considered a product qualified lead.
-You can see the specifics of our intent and product lead scoring in our working [lead scoring model here](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=0) .
+- **SimplyDIRECT-** This vendor generates MQLs via survey based demand generation. When a prospect fills out a survey, their results are captured and sent to Salesforce via a web-to-lead form. SDRs will be notified when these MQLs enter into their queue. The survey results and other specific details will show up in the Lead Marketing Info section in Salesforce. They will also be added to the corresponding [ABX | SimplyDirect FY23Q1 Salesforce campaign](https://sourcegraph2020.lightning.force.com/lightning/r/Campaign/7015b000005hCmfAAE/view).
+- **Banzai-** This vendor drives webinar attendance. Once the webinar is over, the attendees of the webinar will become MQLs.
 
 ### Lead Lifecycle
 
@@ -71,18 +87,6 @@ As new teammates join Sourcegraph, all non-sales users will be added to our Hubs
 ### Request for Email Send via Hubspot
 
 If you are interested in getting an email sent through Hubspot to existing opt-in email addresses, please be sure to fill out our [Hubspot Email Send Request Form](https://form.asana.com?k=_YtJFC_Eo-NG8iOSEdNgVA&d=7195383522959). Once we receive your request, we will assess our email send schedule to see if we can accommodate your request and provide options and recommendations if it is a request that cannot be accommodated.
-
-### Hubspot Integrations
-
-- Salesforce: This is how we pass lead and marketing data over to the sales organization.
-
-- Postal.io: This account-based marketing tool is how we send gifts and mailings out to prospects. The integration with Hubspot allows us to automate email messaging workflows before or after gifts are sent or received. Today, we are not running any automated email messaging via this integration.
-
-- Triblio: This account-based marketing tool is how we target specific accounts for digital advertising. The integration with Hubspot allows us to create target lists within Hubspot and share them with Triblio.
-
-- Typeform: This marketing tool is how we create forms, surveys, and quizzes for our prospects. The integration with Hubspot allows us to send prospect answers and data into fields in Hubspot. Setting up this data flow lets us capture important information about our prospects, increase their intent scores based on responses, and surface important prospect responses to Sales when appropriate. As long as your Typeform asks for a person's email address, we can send responses to Hubspot. Reach out to us if you are interested in integrating forms, surveys, or quizzes with Hubspot.
-
-- Orbit: This marketing tool is how we understand our community's interactions with Sourcegraph. The integration with Hubspot allows us to create user activities in Orbit when community members take specific actions. Today, anytime someone submits their information on our [Dev Tool Time page](https://info.sourcegraph.com/dev-tool-time), an activity is created for that person in Orbit.
 
 ### Hubspot Technical Resources
 
