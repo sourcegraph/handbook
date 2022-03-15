@@ -1,9 +1,10 @@
 # Product/Engineering headcount planning
 
 Our headcount planning philosophy balances three things:
-* Our need to have a stable financial plan for the fiscal year
-* Our desire to be flexible so we can respond to changing business needs as the fiscal year progresses
-* The lead time we need to make a great hire for a specific role
+
+- Our need to have a stable financial plan for the fiscal year
+- Our desire to be flexible so we can respond to changing business needs as the fiscal year progresses
+- The lead time we need to make a great hire for a specific role
 
 ## FY23 philosophy
 
