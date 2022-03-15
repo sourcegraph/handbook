@@ -8,7 +8,7 @@ To define a metric, designers should use a [metric card](https://www.figma.com/f
 
 Follow the [guidelines for naming events](../../../../bizops/tools/amplitude.md#adding-events-to-amplitude) when defining an event.
 
-- If a large number of events are being collected, consider creating a Metrics page in Figma ([example](https://www.figma.com/file/LfQUGTLvfYWxyuFoyQsptB/?node-id=251%3A7408)) to identify the locations and interactions where events will be collected.
+- If a large number of events are being collected, consider creating a Metrics page in Figma ([example](https://www.figma.com/file/9KUQex1haXP6BpC2wDgtXC/Inviting-collaborators?node-id=783%3A6859)) to identify the locations and interactions where events will be collected.
 - Metrics review: consider requesting a review of your metrics definitions from the analytics team before the project goes to development.
 
 ## Tracking events across domains or products
