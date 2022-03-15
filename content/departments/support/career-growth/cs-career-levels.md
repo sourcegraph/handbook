@@ -24,7 +24,7 @@ In line with our _continuously grow_ company value, we expect you to understand 
 
 Promotion discussions occur when your manager can make the case that you’ve had at least 6 months of consistent high performance at your current level, and at least 3 months performing consistently at the next level, in all three of the categories. Again, it takes time to demonstrate the “consistently” implicit in the expectations and we want to ensure that you are set up for success to perform at your current level.
 
-Promotions from one level to another are considered in our quarterly talent review conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
+Promotions from one level to another are considered in [our quarterly impact check-in](cs-impact-review-practice.md) conducted by CS leadership in collaboration with you individually. An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
 <style>
   .container {

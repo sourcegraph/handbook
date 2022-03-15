@@ -5,7 +5,7 @@ There is no such thing as a team without processes, only teams with undocumented
 We share the [Developer Insights org's processes](../index.md#processes), plus the following for our team.
 We use our [bi-weekly retrospective](#retrospectives) to identify any tweaks we should make that would improve our process.
 
-## Weekly Sync
+## Weekly sync
 
 The team holds weekly syncs.
 
@@ -19,6 +19,17 @@ Attendees are encouraged to add comments on talking points asynchronously before
 We plan and track our day-to-day work on our [GitHub board](https://github.com/orgs/sourcegraph/projects/200/views/1).
 The project is separated into multiple views: **Current iteration**, **Next iteration** (both grouped by issue status) and **All iterations** (grouped by milestone).
 
+We use an intentional list of statuses on our project board:
+
+- **No Status**: Status is not assigned. These issues need triage.
+- **Backlog**: we are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
+- **On deck**: these issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
+- **Proposed for iteration**: these are a select group of issues proposed for a specific iteration. They should have an iteration milestone attached. TODO @felix could we enforce that?
+- **Todo**: this is the small set of issues that are planned for our current iteration.
+- **In Progress**: issues currently being worked on in the iteration.
+- **In Review**: issues that have PRs in review.
+- **Done**: all closed issues, including "won't do" issues.
+
 Our current process is as follows:
 
 - We work in **2-week iterations**. Every iteration has a GitHub milestone, which is created at least one iteration in advance.
@@ -27,24 +38,34 @@ Our current process is as follows:
 
 - **While an iteration is ongoing, we plan the next iteration**. This is a mostly asynchronous process.
 
-  - Engineers, designer, PM and EM **_propose_ issues to be worked on** the week _before_ the mid-iteration [Monday sync](#weekly-sync) by adding them to the next iteration milestone and setting "Status" to "Proposed". This is done considering our [higher-level goals and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md).
+  - Engineers, designer, PM and EM can **_propose_ issues to be worked on** _before_ the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning) by adding them to the next iteration milestone and setting "Status" to **Proposed**. This is done considering our [higher-level goals and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md).
 
-    - The issue should also have its **_Estimate_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropiate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the [Monday sync](#weekly-sync) to distribute workload.
+  - We plan our iterations with point baselines such that factor in time off, life events, and support across prior iterations. We calibrate these point baselines via temperature checks in retros and manual adjustment. Roughly 80% of our iteration capacity is planned by the PM as the decider, and ~20% of the capacity is explicitly left for engineers to prioritize, taking into account our [goals and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md), technical roadmap, estimates, workloads on individuals, and release dates (the 20th of every month).<br> The PM will choose issues among all proposed issues – engineers and designers should still propose issues, even if they are not the planning decider.
+
+    - The issue should also have its **_Size_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropriate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the Thursday iteration planning meeting to distribute workload.
       - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
         - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
 
-  - As much as possible, the proposer **involves the necessary stakeholders _asynchronously_ to get agreement** on whether the issue should be worked on in the next iteration before the [Monday sync](#weekly-sync). For example, the PM or EM might ping engineers in GitHub or Slack on whether an issue seems feasible, or engineers might ping their EM and PM to get buy-in whether the issue fits into our goals.<br>
-    If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Monday sync](#weekly-sync).
+  - As much as possible, the proposer **involves the necessary stakeholders _asynchronously_ to get agreement** on whether the issue should be worked on in the next iteration before the [Thursday iteration planning](#fortnightly-iteration-planning). For example, the PM or EM might ping engineers in GitHub or Slack on whether an issue seems feasible, or engineers might ping their EM and PM to get buy-in whether the issue fits into our goals.<br>
+    If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning).
 
   - Teammates can **_reorder_ proposed issues** on the ["Next iteration" board](https://github.com/orgs/sourcegraph/projects/200/views/4) before the mid-iteration sync to their liking. The order at the time of the mid-iteration Monday sync is the _proposed order_.
 
-  - At the mid-iteration [Monday sync](#weekly-sync), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4) to **reach agreement** on the **set** of iteration issues, their **assignees**, and **order**, taking into account our [goals and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md), technical aspects, estimates, workloads on individuals, and release dates (the 20th of every month).<br>
-    As a rule of thumb, the sum of estimates for each individual should not exceed **8 days** (out of a 10-work-day iteration) so we have enough buffer, time to reply to asks from other teams, to plan the next iteration's projects, and self-organized slack time.
-  - On the Thursday before the next iteration begins, we have a brief synchronous meeting to finalize our planning for the iteration. Depending on our needs, this meeting may cover: questions about priority, clarity, or edge cases of specific features for the next iteration; refining plans for the following Monday iteration start; surfacing any missing GitHub issues (for known items) ahead of the Monday kickoff so they can be made before Monday. This meeting is also an opportunity to review the status of our current iteration and examine if any issues should be carried over to the next iteration. This meeting is in **experimental** stage – we will try this process through mid-February 2022 and then decide if it's consistently worth the time.
+  - The PM is in charge of moving issues from **Proposed** to **Todo** before the [fortnightly synchronous iteration planning](#fortnightly-iteration-planning).
 
-- During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteraton" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
+  - We hold a [fortnightly synchronous iteration planning](#fortnightly-iteration-planning), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4).
+
+- During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
+
+### Fortnightly iteration planning
+
+Every two weeks, usually on the Thursday before the next iteration begins, we hold an iteration planning. This is a short sync meeting to answer questions or align on the priority of issues planned for the next iteration. This includes: questions about priority, clarity, or edge cases of specific features for the next iteration; refining plans for the following Monday iteration start; surfacing any missing GitHub issues (for known items) ahead of the Monday kickoff so they can be made before Monday.
+
+This is primarily a review of already-selected issues with a **Todo** status, and not deciding which issues belong in **Todo**. This meeting is also an opportunity to review the status of our current iteration and examine if any issues should be carried over to the next iteration.
+
+Our goal is to begin the next iteration with a correctly-sized **Todo** list, and all issues have **assignees**, and **order**. As a rule of thumb, the sum of estimates for each individual should not exceed the baseline posted to slack so we have enough buffer, time to reply to asks from other teams, to plan the next iteration's projects, and self-organized slack time.
 
 ### Releases
 
@@ -82,7 +103,7 @@ This means a teammate may have to think at most about 2 projects at any given ti
 To track projects that span multiple iterations, we make use of a distinct project specific label and a separate tab of the [GitHub project board](https://github.com/orgs/sourcegraph/projects/200).
 The project specific label is created by any of the teammates, and should be descriptive enough to clearly indicate which project it is for, e.g. <span class="badge bg-info">insights-dashboards-v1</span> (milestones are not used for this, as they are used for iterations).
 
-Suffixes like `v1` can be used to communicate we are aiming for an initial, well-defined scope to avoid scope creep.
+Suffixes like **v1** can be used to communicate we are aiming for an initial, well-defined scope to avoid scope creep.
 Further improvements are either tracked as individual tasks in iterations, or if a new, larger, multi-iteration improvement, a new project is created with a new label.
 
 Individual tasks of the project are assigned to iterations using milestones.
@@ -112,10 +133,10 @@ Teammates can find the rotation schedule at the top of the [retrospective docume
 
 ## Code reviews
 
-The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/code_reviews) with the following addition:
+The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/pull_request_reviews#reviewing-pull-requests) with the following addition:
 
-1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
-2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
+1. If the author would like any of the requested reviewers to merge the PR after approval they add the label **merge-on-any-approve**
+2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label **merge-on-all-approve**
 3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
 
 ## Support rotation
@@ -127,7 +148,7 @@ It's the support engineer's responsibility to reach out proactively, find someon
 
 The engineer assigned to the support rotation is responsible for:
 
-1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md)
+1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../support/index.md), or [security](../../cloud/security/index.md))
 2. Performing a best-effort resolution of the issue
    1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem
