@@ -201,15 +201,6 @@ geoffrey_gilmore:
   email: geoffrey@sourcegraph.com
   description: Geoffrey is an MIT graduate who enjoys kicking people in his spare time.
 
-farhan_attamimi:
-  name: Farhan Attamimi
-  role: Senior Data Operations Analyst
-  reports_to: director_data_analytics
-  location: Singapore 🇸🇬
-  github: attfarhan
-  email: farhan@sourcegraph.com
-  description: Farhan writes code to pass the time while impatiently waiting for Manchester United to return to glory.
-
 erik_seliger:
   name: Erik Seliger
   role: Software Engineer
