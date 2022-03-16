@@ -38,10 +38,12 @@ Go to **Confirm health of Sourcegraph.com**
 1. Check to see if the `velero` namespace exists. `kubectl get ns velero`
 1. If it does not, you likely need to install an configure Velero.
 
-   ```
-   SERVICE_ACCOUNT_EMAIL=$(gcloud iam service-accounts list \
-   --filter="displayName:Velero service account" \
-   --format 'value(email)')
+    ```
+    gcloud config set project sourcegraph-dev
+
+    SERVICE_ACCOUNT_EMAIL=$(gcloud iam service-accounts list \
+    --filter="displayName:Velero service account" \
+    --format 'value(email)')
 
    gcloud iam service-accounts keys create credentials-velero \
    --iam-account $SERVICE_ACCOUNT_EMAIL
