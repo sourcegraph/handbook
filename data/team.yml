@@ -2842,7 +2842,7 @@ thomas_hughes:
   email: thomas.hughes@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/thomasshughes/)'
   description: 'Thomas Hughes is a passionate engineer with experience in development, DevOps, Customer Success, and Developer Relations, and currently resides in Austin, TX. When not working, Thomas enjoys scuba diving, language learning, traveling, kayaking, and hiking.'
-  
+
 eugenia_fernandez:
   name: Eugenia Fernandez
   reports_to: product_director_code_graph
@@ -2852,4 +2852,3 @@ eugenia_fernandez:
   email: eugenia.fernandez@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
   description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
-
