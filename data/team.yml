@@ -2851,3 +2851,14 @@ thomas_hughes:
   email: thomas.hughes@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/thomasshughes/)'
   description: 'Thomas Hughes is a passionate engineer with experience in development, DevOps, Customer Success, and Developer Relations, and currently resides in Austin, TX. When not working, Thomas enjoys scuba diving, language learning, traveling, kayaking, and hiking.'
+
+brock_perko:
+  name: Brock Perko
+  pronouns: he/him
+  role: Regional Sales Director, West
+  reports_to: vp_sales_western_region
+  location: Mill Valley, CA USA 🇺🇸
+  github: 0xPerko
+  email: brock_perko@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/brock-perko-5094349/)'
+  description: 'Brock lives in Mill Valley, CA with his wife and cat. A Bay Area native, he's built a career in Sales working at startups Eventbrite, Slack, and Productiv previously. Outside of work, Brock enjoys getting outdoors for hikes in Marin and the California Coast, golf, live music, and nights out in San Francisco at his favorite restaurants. He's big into cryptocurrencies and Web3 technology, with a personal goal of opening a local deli someday.'
