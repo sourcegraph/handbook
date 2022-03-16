@@ -201,15 +201,6 @@ geoffrey_gilmore:
   email: geoffrey@sourcegraph.com
   description: Geoffrey is an MIT graduate who enjoys kicking people in his spare time.
 
-farhan_attamimi:
-  name: Farhan Attamimi
-  role: Senior Data Operations Analyst
-  reports_to: director_data_analytics
-  location: Singapore 🇸🇬
-  github: attfarhan
-  email: farhan@sourcegraph.com
-  description: Farhan writes code to pass the time while impatiently waiting for Manchester United to return to glory.
-
 erik_seliger:
   name: Erik Seliger
   role: Software Engineer
@@ -2862,3 +2853,14 @@ brock_perko:
   email: brock_perko@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/brock-perko-5094349/)'
   description: 'Brock lives in Mill Valley, CA with his wife and cat. A Bay Area native, he has built a career in Sales working at startups Eventbrite, Slack, and Productiv previously. Outside of work, Brock enjoys hiking in Marin and the California Coast, golf, live music, and nights out in San Francisco at his favorite restaurants. He is also a big fan of cryptocurrencies and Web3 technology, with a personal goal of opening a local deli someday.'
+
+eugenia_fernandez:
+  name: Eugenia Fernandez
+  reports_to: product_director_code_graph
+  role: Product Manager, Search Core
+  location: Sao Paulo, Brazil 🇧🇷
+  github: eugeniaft
+  email: eugenia.fernandez@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
+  description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
+
