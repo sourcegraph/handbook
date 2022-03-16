@@ -11,7 +11,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Members
 
-{{generator:reporting_structure.vp_operations}}
+{{generator:reporting_structure.director_data_analytics}}
 
 ## Resources
 
