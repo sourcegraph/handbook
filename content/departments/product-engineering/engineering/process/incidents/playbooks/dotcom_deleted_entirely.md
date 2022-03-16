@@ -20,7 +20,6 @@ We use Terraform to manage our infrastructure
 1. **From snapshots**, goto [restore the disks from snapshots](#restore-disks-from-snapshots)
 1. Go to **Confirm health of Sourcegraph.com**
 
-
 ## Recreating Kubernetes objects
 
 1. [Navigate to the `cloud` cluster on the Google Cloud console](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev) and click `Connect`, run the `gcloud command it gives you.
@@ -39,32 +38,33 @@ Go to **Confirm health of Sourcegraph.com**
 1. Check to see if the `velero` namespace exists. `kubectl get ns velero`
 1. If it does not, you likely need to install an configure Velero.
 
-    ```
-    SERVICE_ACCOUNT_EMAIL=$(gcloud iam service-accounts list \
-    --filter="displayName:Velero service account" \
-    --format 'value(email)')
+   ```
+   SERVICE_ACCOUNT_EMAIL=$(gcloud iam service-accounts list \
+   --filter="displayName:Velero service account" \
+   --format 'value(email)')
 
-    gcloud iam service-accounts keys create credentials-velero \
-    --iam-account $SERVICE_ACCOUNT_EMAIL
+   gcloud iam service-accounts keys create credentials-velero \
+   --iam-account $SERVICE_ACCOUNT_EMAIL
 
-    velero install \
-    --provider gcp \
-    --plugins velero/velero-plugin-for-gcp:v1.4.0 \
-    --bucket  \
-    --secret-file ./credentials-velero
-    ```
+   velero install \
+   --provider gcp \
+   --plugins velero/velero-plugin-for-gcp:v1.4.0 \
+   --bucket  \
+   --secret-file ./credentials-velero
+   ```
+
 1. Following the velero restore [documents](https://velero.io/docs/v1.8/disaster-case/) steps.
-    a. First, patch the backup location
-    ```
-    kubectl patch backupstoragelocation default \
-    --namespace velero \
-    --type merge \
-    --patch '{"spec":{"accessMode":"ReadOnly"}}'
-    ```
-    b. Find the most recent backup with `velero backup get` and run `velero restore create --from-backup <BACKUPNAME>`
-    c. Finally, revert the accessMode
-    ```
-    kubectl patch backupstoragelocation default \
+   a. First, patch the backup location
+   ```
+   kubectl patch backupstoragelocation default \
+   --namespace velero \
+   --type merge \
+   --patch '{"spec":{"accessMode":"ReadOnly"}}'
+   ```
+   b. Find the most recent backup with `velero backup get` and run `velero restore create --from-backup <BACKUPNAME>`
+   c. Finally, revert the accessMode
+   ```
+   kubectl patch backupstoragelocation default \
    --namespace velero \
    --type merge \
    --patch '{"spec":{"accessMode":"ReadWrite"}}'
