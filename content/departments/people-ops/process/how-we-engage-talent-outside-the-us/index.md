@@ -112,10 +112,24 @@ For candidates or teammates that do not currently hold a visa or permanent resid
 
 For teammates that do not currently hold a visa but are looking to initiate a case for a visa or other immigration assistance (e.g. permanent residency) for personal reasons, Sourcegraph will agree to initiate and sponsor the case for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating the visa or permanent residency petition. The candidate or teammate would carry the cost of transferring and sponsoring the case.
 
-#### Sourcegraph will not initiate new petitions or cases for candidates unless they would be filling a difficult-to-hire role as mentioned above.
+#### Sourcegraph will not consider initiating new petitions prior to their 1-year mark
 
-For candidates in need of US sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition.
+For candidates in need of sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition and given that we have the ability to sponsor said visa.
 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
+
+### Countries where we cannot currently support employment or contracting
+
+We cannot support or employ candidates or teammates in any of these countries due to U.S. embargoes and sanctions.
+
+- Cuba
+- Iran
+- North Korea
+- Sudan
+- Syria
+- Crimea
+- China (case by case - notify People Ops)
+- Russia (case by case - notify People Ops)
+- Ukraine (case by case - notify People Ops)
 
 Any questions? Contact the People Ops team in #people-ops on Slack or people-ops@sourcegraph.com via email!

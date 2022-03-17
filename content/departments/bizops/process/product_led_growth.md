@@ -62,7 +62,7 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>Form submission (any other than demo request, pricing inquiry, or feedback - includes product sign-up or install)
+   <td>Form submission (any other than demo request, pricing inquiry, or feedback)
    </td>
    <td>10 points
    </td>
@@ -92,19 +92,7 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-   <td>Target account match  
-   </td>
-   <td>5 points
-   </td>
-  </tr>
-  <tr>
-   <td>Target title match
-   </td>
-   <td>5 points
-   </td>
-  </tr>
-  <tr>  
-    <td>Page view (pricing, use cases, case studies)
+   <td>Page view (pricing, use cases, case studies)
    </td>
    <td>5 points
    </td>

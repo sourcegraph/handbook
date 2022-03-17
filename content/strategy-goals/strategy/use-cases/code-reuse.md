@@ -1,6 +1,16 @@
+---
+data_source: [/data/use_cases.yml, use cases]
+---
+
 # Code Reuse use case
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
+
+## Sponsors
+
+This use case has sponsors who [help maintain it](../working-with-use-cases.md). If you have questions or suggestions, you can reach out to them.
+
+{{generator:use_case_sponsors.code_reuse}}
 
 ## Overall vision
 
@@ -74,3 +84,4 @@ Additionally, the "platform team" (a central team that mains many or most librar
 - [Use case index](../index.md#use-cases)
 - [Productboard code reuse (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482292/detail)
 - [Drive innovation by enabling innersource](https://drive.google.com/file/d/1hiyTxBA_n43LsZjhuE3YOMiWZdAOHcTn/view?usp=sharing), Gartner. Analyst research that cites Sourcegraph as a key resource for enabling innersource and code reuse.
+- [Related issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ause-case%2Fcode-reuse)

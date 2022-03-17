@@ -8,11 +8,14 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Team
 
-- [Alicja Suska](../../../../team/index.md#alicja-suska) (she/her)
-- [Rob Rhyne](../../../../team/index.md#rob-rhyne) (he/him)
-- [Quinn Keast](../../../../team/index.md#quinn-keast) (he/him) – [ReadMe](https://quinnkeast.com/readme)
-- [Sara Lee](../../../../team/index.md#sara-lee) (she/her)
-- [Marisa Kanemoto](../../../../team/index.md#marisa-kanemoto) (she/her)
+- [Christina Forney](../../../../team/#sts=Christina%20Forney) Interim Director of Design
+  - [Rob Rhyne](../../../../team/index.md#rob-rhyne) Code Graph Design Manager (he/him)
+    - [Alicja Suska](../../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
+    - [Marisa Kanemoto](../../../../team/index.md#marisa-kanemoto) Product Designer, Search Product (she/her)
+    - [D.M. (starting soon)] Product Designer, Batch Chnages
+  - [Christina Forney](../../../../team/#sts=Christina%20Forney) Interim Cloud Design Manager
+    - [Quinn Keast](../../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
+    - [Sara Lee](../../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -90,5 +93,5 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 ## Other
 
-- [Design team onboarding](./onboarding/index.md) (Coming soon)
+- [Design team onboarding](./onboarding/index.md)
 - [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))

@@ -7,6 +7,7 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 - [Using Looker](#using-looker)
 - [Amplitude](../tools/amplitude.md)
 - [Analytics FAQs](faqs.md)
+- [Sources of truth](sources-of-truth.md)
 
 ## Data sources
 

@@ -1,6 +1,16 @@
+---
+data_source: [/data/use_cases.yml, use cases]
+---
+
 # Code Health use case
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
+
+## Sponsors
+
+This use case has sponsors who [help maintain it](../working-with-use-cases.md). If you have questions or suggestions, you can reach out to them.
+
+{{generator:use_case_sponsors.code_health}}
 
 ## Overall vision
 
@@ -59,3 +69,4 @@ The following are real, anonymized quotes from customers today on how we're alre
 - [Productboard code health (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482293/detail)
 - [Code Health unpacked](https://diff.wikimedia.org/2017/10/11/mediawiki-code-health-group/)
 - [Technical debt value case (internal only)](https://docs.google.com/document/d/1SwEvwqUuaX66T7RN_wPp7BMi95O3CcTHVqxkPQMF4Cg/edit)
+- [Related issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ause-case%2Fcode-health+)
