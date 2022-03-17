@@ -15,6 +15,8 @@ Exceptions:
 - #it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
 - #sales-prospecting retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
 - #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
+- #sales-customer channels messages retain for 18 months for historical context on key customers and deal cycles
+- #sales-wins and #sales-losses retains message history for 18 months to share key learnings with our cross functional teams 
 - #sales-resources retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
 - All channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages for 5 years to preserve context for support or audit-related purposes.
 - #marketintel retains messages for 5 years to keep a long term overview of market information around the field of developer tools.
