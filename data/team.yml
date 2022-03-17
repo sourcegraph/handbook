@@ -2863,3 +2863,13 @@ eugenia_fernandez:
   email: eugenia.fernandez@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
   description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
+
+chris_warwick:
+  name: Chris Warwick
+  role: Software Engineer
+  reports_to: engineering_manager_code_insights
+  location: Philadelphia, PA United States 🇺🇸
+  github: chwarwick
+  email: christopher.warwick@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/warwickc)'
+  description: 'Chris is a software engineer based near Philadelphia, PA where he lives with his wife and three children. He has spent a number of years building mobile and web applications. When not working he enjoys spending time outside and running.'
