@@ -1503,6 +1503,17 @@ luke_taylor:
   links: '[LinkedIn](https://www.linkedin.com/in/iamluketaylor/)'
   description: "Working on the EMEA Sales Team. A Brit based out of beautiful Amsterdam. After bouncing around tiny start ups for a few years in London, I did 5 years at Optimizely, working with a bunch of folks here (James Clifford, Greg Bastis, Jon Kishpaugh, Khoshal Wial and co.). Outside of work my day-to-day is mostly just filler, killing time in between meals. When I'm not eating I love to train, play hockey, surf (badly), play my bass guitar and game (PC). I am also always trying to find new ways to grow and develop myself - happiness is the goal! Always down to talk about all things personal and professional growth."
 
+james_ghaedi:
+  name: James Ghaedi
+  pronouns: He/Him
+  role: Enterprise Account Executive
+  reports_to: Head of International Sales
+  location: London, United Kingdom
+  github: jamesghaedi
+   email: james.ghaedi@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jamesghaedi/)'
+  description: "I work on the EMEA Sales Team, reporting to Khoshal Wial. After 4 amazing years living in sunny Barcelona, I recently moved back to London to spend time with family and close friends. I previously worked at VMware as an Enterprise Account Executive, but the value proposition, culture and vision of Sourcegraph was too hard not to turn down (exciting times ahead)! In my spare time I like playing rugby, tennis, hiking and kayaking. Meditation is something I picked up recently and I’m loving it! I really value personal and professional development and I’d love to meet you all whether it be in person, or over Zoom!"
+
 anna_mikhova:
   name: Anna Mikhova
   reports_to: vp_product
