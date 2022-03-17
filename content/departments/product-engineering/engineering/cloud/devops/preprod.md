@@ -1,6 +1,6 @@
 # Cloud preprod environment (aka staging)
 
-Preprod is live and deployed at https://preivew.sgdev.dev.
+Preprod is live and deployed at https://preview.sgdev.dev.
 
 Sourcegraph ensures that new code and infrastructure changes, before being deployed to [production cloud](https://sourcegraph.com), are also deployed and tested on preprod environment.
 
