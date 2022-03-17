@@ -8,7 +8,7 @@ If you're new to our strategy pages, this video walkthrough (last updated Feb 20
 
 ## Mission
 
-Our mission is to **make discovering, learning, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are.**
+Our mission is to **make discovering, learning, analyzing, and editing code easier, no matter how complex it is, where it's stored, or how experienced you are.**
 
 ## Themes
 
