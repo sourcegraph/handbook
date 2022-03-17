@@ -138,7 +138,7 @@ The primary value of Code Insights comes from the questions it can answer for it
 
 ## Where we are now
 
-Code Insights is generally available and a paid add-on feature. The pricing and packaging details are [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
+[Code Insights is generally available](https://about.sourcegraph.com/code-insights/) and a paid add-on feature. The pricing and packaging details are [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
 
 This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users.
 
