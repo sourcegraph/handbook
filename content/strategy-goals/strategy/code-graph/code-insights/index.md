@@ -33,7 +33,7 @@ We bring **the best practices of big data to challenges of big code**, turning a
 To deliver on our mission, we will:
 
 - First, build a robust Code Insights product offering that is configurable yet simple enough to answer many different engineering leaders' specific questions
-- Always continually track usage and feedback to grow the product in its most valuable directions
+- Continually track usage and feedback to grow the product in its most valuable directions
 - Then, build in key cross-product pathways that enable more steps of our [Sourcegraph use cases](../../index.md#use-cases) flows
 - Next, build new features that integrate new computation ability and new types of data to answer ever more questions about a codebase
 - Eventually, build new major features or sub-products that help answer the second- and third-stage level of questions about a codebase
