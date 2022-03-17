@@ -168,6 +168,13 @@ Templates:
   - Approve: (a) VP Budget Owner and (b) Finance for any purchases outside of the team budget and any contracts requiring Finance approval per [Paying Bills](../../finance/process/payables.md)
   - Sign: VP Budget Owner or VP Finance/Operations
 
+Templates:
+
+- [Services contract - no SOW exhibits](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
+- [Services contract - with SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
+- [Services contract for individuals - with SOW exhibits](https://docs.google.com/document/d/1mG5t2c0oLqSZJySXtJKB-WYTYN3aoe9G/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true)
+- For software contracts, ask vendor for its template
+
 ### Legal Review Workflow for Vendor Contracts:
 
 - Is legal review necessary?
@@ -189,12 +196,6 @@ Templates:
   - One-off team trainings that do not involve the provision of personal data
   - Events and conferences
   - Hotels
-
-Templates:
-
-- [Services contract with a separate SOW](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
-- [Services contract with pre-populated SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
-- For software contracts, ask vendor for its template
 
 ### Partner contracts (for product integrations, joint-marketing, and other partnerships with third parties)
 
