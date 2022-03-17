@@ -2,6 +2,10 @@
 
 Zoom tips and tricks.
 
+## Recording a Zoom meeting when you don't have permissions 
+
+If you need to record a Zoom meeting when you don't have permission to, create a *new* Zoom meeting where you are the host and have everyone use that one instead. 
+
 ## Configuring Zoom to send recordings to Slack automatically
 
 Zoom can be set up to automatically post recordings of meetings to Slack after the meeting is held:
