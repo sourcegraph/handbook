@@ -18,6 +18,7 @@ Read about Sales onboarding Mentor program:
   - Docusign
   - Outreach (Optional)
   - Looker
+  - Clari (Request access to Clari our forecasting tool by reaching out to #it-tech-ops on slack).
 - [Join all customer calls](joining_customer_calls.md) during this period that you can
 
 ### Handbook pages and links to check out
