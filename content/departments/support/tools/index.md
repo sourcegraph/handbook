@@ -99,9 +99,10 @@ Creating customized scripts can help automate a repetitive task for the team and
 [Link to GitHub Repository for Scripts](https://github.com/sourcegraph/support-scripts)
 
 ### Sourcegraph logging, services, and observability
-[An Application Engineers guide](support-logging-guide.md) 
 
-Designed to be an overview of Sourcegraph services and  architecture. Topics include observability resources and logging. Covers when, what and how to to gather logs. Includes log interpretation examples.
+[An Application Engineers guide](support-logging-guide.md)
+
+Designed to be an overview of Sourcegraph services and architecture. Topics include observability resources and logging. Covers when, what and how to to gather logs. Includes log interpretation examples.
 
 ## Zendesk
 
