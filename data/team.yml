@@ -2864,6 +2864,16 @@ eugenia_fernandez:
   links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
   description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
 
+marcos_serna:
+  name: Marcos Serna
+  role: Enterprise Account Executive
+  location: Austin, TX, USA 🇺🇸
+  email: marcos.serna@sourcegraph.com
+  reports_to: vp_sales_western_region
+  links: '[Linkedin](https://www.linkedin.com/in/marcosserna/)'
+  pronouns: '[he/him](http://pronoun.is/he)'
+  description: 'Marcos grew up in Albuquerque, NM and currently resides in Austin, TX. Prior to Sourcegraph, Marcos helped build out the Corporate Sales team at Okta and was a 4X AE of the quarter and AE of the year in 2021. Marcos graduated as Valedictorian with a dual major in Finance and Entrepreneurship from the University of New Mexico. Outside of work, Marcos can be found running, cycling or swimming in Austin (he was a Pro Triathlete for 2 years), interviewing someone for his SalesLife podcast or wood carving.'
+
 chris_warwick:
   name: Chris Warwick
   role: Software Engineer
