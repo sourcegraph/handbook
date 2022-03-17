@@ -33,7 +33,7 @@ Go to **Confirm health of Sourcegraph.com**
 ## Restore disks from snapshots
 
 1. We use [Velero](https://velero.io/docs/v1.8/index.html) to manage our disaster recovery process.
-1. [Navigate to the `cloud` cluster on the Google Cloud console](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev) and click `Connect`, run the `gcloud command it gives you.
+1. [Navigate to the `cloud` cluster on the Google Cloud console](https://console.cloud.google.com/kubernetes/list?project=sourcegraph-dev) and click `Connect`, run the `gcloud` command it gives you.
 1. Ensure you have Velero installed locally (`brew install velero`)
 1. Check to see if the `velero` namespace exists. `kubectl get ns velero`
 1. If it does not, you need to install and configure Velero.
