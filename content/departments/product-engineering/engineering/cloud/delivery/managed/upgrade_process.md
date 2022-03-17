@@ -527,7 +527,7 @@ export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
 
 Validate all variables are set:
 
-> Are you upgrading to a release candiate build? It's expected to see any error from this script
+> Are you upgrading to a release candidate build? It's expected to see some errors from this script
 > Use your best judgement to decide whether you're missing something or not
 
 ```sh
