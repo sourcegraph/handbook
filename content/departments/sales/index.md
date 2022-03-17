@@ -83,7 +83,7 @@ Calculation: # of deals closed won / (# of deals closed won + # of qualified dea
 
 Close rate is the ratio of deals that were `Closed Won` to deals qualified within the same period.
 
-Calculation: # of deals closed won / # of deals qualified in the period 
+Calculation: # of deals closed won / # of deals qualified in the period
 
 ### Sales Accepted Opportunity (SAO)
 
