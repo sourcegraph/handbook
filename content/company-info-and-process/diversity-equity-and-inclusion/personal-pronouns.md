@@ -4,9 +4,9 @@ To help make everyone feel welcome at Sourcegraph, we ask everyone to use people
 
 Some may choose to use singular “they” pronouns, e.g.:
 
-- "X would probably love these extra adorable pictures I took of my cat today, I should send them some!""
-- "X deleted all the databases and their backups!? How did they even do that?
-- "I should ask X to make me a playlist, their music is always so groovy!""
+- "X would probably love these extra adorable pictures I took of my cat today, I should send them some!"
+- "X deleted all the databases and their backups!? How did they even do that?"
+- "I should ask X to make me a playlist, their music is always so groovy!"
 
 Other [enby](https://www.dictionary.com/e/gender-sexuality/enby/) pronouns include: ze/hir, co/cos, xe/xem/xyr, hy/hym/hys, or no pronoun and using that person’s name instead.
 

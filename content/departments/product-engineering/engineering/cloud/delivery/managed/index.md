@@ -17,6 +17,7 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [Upgrading a managed instance](upgrade_process.md)
 - [Suspending a managed instance](suspend_process.md)
 - [Resuming a managed instance](resume_process.md)
+- [Enable executors](enable_executors_process.md)
 - [FAQ](#faq)
 
 ## Requesting a managed instance
@@ -36,6 +37,10 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/inde
 | New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             |                                                                  | Within 1 week after latest release                              |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release                    |
+
+### Incident Response
+
+Incidents which affect managed instances handled according to our [incidents](../../../process/incidents/index.md) process.
 
 ## Technical details
 

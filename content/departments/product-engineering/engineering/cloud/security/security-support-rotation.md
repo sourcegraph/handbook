@@ -62,7 +62,8 @@ For every email to security@ with a Bug Bounty report, do the following:
 
 1. Reply acknowledging the report and that we will look into it. Please ensure security@sourcegraph.com remains CC'd during the bounty communication process (often it can get removed by defaulting to "Reply" rather than "Reply to all").
 2. Within 3 days max (but ideally asap) triage the report and confirm whether it's real and its impact. If confirmed, create an issue in the security-issues repository. If not, reply to the reporter explaining why the report is invalid. More information can be found in the Triage section of the Vulnerability Management Process doc.
-3. If the issue is confirmed, reply to the reporter and ask for their PayPal information (email, name, mobile number, and country) in case a bounty is due. Then email finance@sourcegraph.com (CCing security@) saying the bounty value and contact information for the payment.
+3. If the issue is confirmed, reply to the reporter and ask for their bank details in case a bounty is due. We send payments via ACH, international wire, or check – look through previous correspondence to see what details are required from the reporter.
+4. Once you have the reporter's bank details, email ap@sourcegraph.com (Accounts Payable), CCing security@, saying the bounty value and contact information for the payment.
 
 If you feel unsure about triaging a vulnerability, get help as soon as possible since there are SLAs involved.
 

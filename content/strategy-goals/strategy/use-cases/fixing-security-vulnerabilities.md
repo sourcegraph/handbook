@@ -1,6 +1,16 @@
+---
+data_source: [/data/use_cases.yml, use cases]
+---
+
 # Fixing security vulnerabilities use case
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
+
+## Sponsors
+
+This use case has sponsors who [help maintain it](../working-with-use-cases.md). If you have questions or suggestions, you can reach out to them.
+
+{{generator:use_case_sponsors.fixing_security_vulnerabilities}}
 
 ## Overall vision
 
@@ -63,6 +73,7 @@ The following are real, anonymized quotes from customers today on how we’re al
 - [Productboard fixing security vulnerabilities (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482297/detail)
 - [Tackling Log4j with Sourcegraph](https://about.sourcegraph.com/blog/log4j-log4shell-0-day)
 - [Cloudflare case study](https://about.sourcegraph.com/case-studies/cloudflare-accelerates-debugging-and-improves-security/)
+- [Related issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ause-case%2Fdev-onboarding+label%3Ause-case%2Ffix-vulnerabilities)
 
 ### Log4j search notebook
 

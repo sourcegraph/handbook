@@ -18,6 +18,8 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
   - [Best Practices](#best-practices)
   - [Tech Stack](#tech-stack)
   - [SDR Promotion Process](#sdr-promotion-process)
+  - [Reccomended SDR Team readings & podcasts](#recommended-sdr-team-reads--podcasts)
+  - [SDR Ramp and quota structure](#sdr-ramp-and-quota-structure)
 
 ## Inbound Workflow
 
@@ -199,3 +201,41 @@ This above process is the template for progression from SDR to Commercial AE. Fu
 - This Week in Startups
 - A Time Shared
 - 30 Minutes to President's Club
+
+## SDR ramp and quota structure
+
+SDRs at Sourcegraph are most often the first people to interact with engineers and developers at companies across the globe. Learning to articulate and position the power of code search is a core component of the role. The ramp period accommodates the learning and practice necessary to engage with engineering organizations and provide value. The ramp period will be four months. The first month begins your first whole month after an SDR’s start date (e.g., the start date is 2/17, the first month of ramp begins 3/1).
+
+**First three weeks:**
+
+- Meet lots of people, start building relationships internally
+- Learn Sourcegraph offerings
+- Understand the use cases that Sourcegraph solves for
+- Practice using the systems used by SDRs every day
+- Conduct demonstrations of different components of the Sourcegraph offering
+- Begin engaging with engineers and developers
+
+**Mont 1 of ramp:**
+
+- Inbound- 2 SAO
+- Outbound- 1 SAOs
+
+  **Month 2:**
+
+- Inbound- 4 SAOs
+- Outbound- 2 SAOs
+
+  **Month 3:**
+
+- Inbound- 6 SAOs
+- Outbound- 3 SAOs
+
+  **Month 4:**
+
+- Inbound- 10 SAOs
+- Outbound- 5 SAOs
+
+  **Fully ramped monthly target:**
+
+- Inbound- 10 SAOs
+- Outbound- 5 SAOs

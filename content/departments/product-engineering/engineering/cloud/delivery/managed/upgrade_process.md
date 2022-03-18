@@ -235,7 +235,7 @@ git add . && git commit -m "$CUSTOMER: restart $NEW_DEPLOYMENT"
 - Wait until the instance has fully started with the new versions:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${NEW_VERSION#v}"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep $NEW_VERSION#v"
 ```
 
 You'll receive errors or no results for several minutes while the instance finishes running the startup script.
@@ -243,7 +243,7 @@ You'll receive errors or no results for several minutes while the instance finis
 - Ensure that no containers with the wrong version are still running:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep $OLD_VERSION#v"
 ```
 
 - Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
