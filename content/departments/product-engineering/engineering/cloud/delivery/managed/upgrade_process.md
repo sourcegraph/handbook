@@ -196,6 +196,14 @@ First check that thew new version requires no manual migration steps in [docker-
 
 Then, to upgrade the new `$NEW_DEPLOYMENT` deployment to `$NEW_VERSION`:
 
+> Upgrading to a release candidate build? Run this instead
+>
+> ```sh
+> VERSION=master ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
+> go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+> git --no-pager diff $NEW_DEPLOYMENT
+> ```
+
 ```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
 git --no-pager diff $NEW_DEPLOYMENT
@@ -519,6 +527,9 @@ export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
 ```
 
 Validate all variables are set:
+
+> Are you upgrading to a release candidate build? It's expected to see some errors from this script
+> Use your best judgement to decide whether you're missing something or not
 
 ```sh
 ./util/validate-env.ts
