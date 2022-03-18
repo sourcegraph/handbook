@@ -138,8 +138,8 @@ The automatic release process works as follows:
 1. Renovate will create a Pull Request to the `preprod` branch of the `sourcegraph/deploy-sourcegraph-cloud` repository with the new container images
 1. The PR will be automatically merged by Renovate
 1. On commit to the `preprod` branch, another Buildkite [pipeline](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/preprod/.buildkite/pipeline.yaml#L33:L40) will deploy the changes
-1. Once deployed, a series of [smoke-tests](citation needed) will execute against the preprod environment to determine if the changes were successful
-1. A [cron-job](citation needed) will attempt to create a PR to merge `preprod` to `release` on a fixed schedule. This PR will be merged in if `preprod` is stable and the smoke tests pass
+1. Once deployed, a series of [smoke-tests](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/smoke-tests) will execute against the preprod environment to determine if the changes were successful
+1. A [scheduled action](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.github/workflows/release-preprod.yaml) will attempt to create a PR to merge `preprod` to `release` on a fixed schedule. This PR will be merged in if `preprod` is stable and the smoke tests pass
 1. The PR is merged and a final [Buildkite](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.buildkite/pipeline.yaml#L37:L43) pipeline is triggered to deploy the changes to production
 
 All infrastructure changes should first be branched off `preprod` and merged into the `preprod` environment first before being manually merged (via PR) to `release`.

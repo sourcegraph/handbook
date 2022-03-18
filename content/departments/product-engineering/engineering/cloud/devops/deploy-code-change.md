@@ -45,7 +45,7 @@ All changes deployed to Cloud should be staged and tested in `preprod` first bef
 1. (Optional) View the CI run on the branch to ensure CI successfully rolls out the change.
 1. Once deployed, verify change is live and successful in [preprod](https://preview.sgdev.dev)
 
-Changes deployed to `preprod` will be automatically released to production on a fixed schedule. If a change is urgent and needs to be deployed to production quickly:
+Changes deployed to `preprod` will be automatically released to production on a [fixed schedule](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.github/workflows/release-preprod.yaml#L4). If a change is urgent and needs to be deployed to production quickly:
 
 1. Create a branch off the `release` branch of the cloud repo
 1. Create a pull request against the `release` branch of the cloud repo
