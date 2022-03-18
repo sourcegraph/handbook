@@ -172,7 +172,7 @@ Templates:
 
 - [Services contract - no SOW exhibits](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if vendor has already prepared a separate SOW with payment amounts and due dates
 - [Services contract - with SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates
-- [Services contract for individuals - with SOW exhibits](https://docs.google.com/document/d/1mG5t2c0oLqSZJySXtJKB-WYTYN3aoe9G/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true)
+- [Services contract for individuals - with SOW exhibits](https://docs.google.com/document/d/1mG5t2c0oLqSZJySXtJKB-WYTYN3aoe9G/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true) - use this form if you want to engage a consultant or contractor on a short-term, part-time basis
 - For software contracts, ask vendor for its template
 
 ### Legal Review Workflow for Vendor Contracts:

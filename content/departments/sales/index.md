@@ -77,9 +77,13 @@ A customer is an organization with a Sourcegraph subscription contract that has 
 
 Win rate is the percentage of deals closed that were `Closed Won` (the prospect converted to a paying customer).
 
-Calculation: Deals closed won / (# deals closed won + # qualified deals closed lost)
+Calculation: # of deals closed won / (# of deals closed won + # of qualified deals closed lost)
 
 ### Close rate
+
+Close rate is the ratio of deals that were `Closed Won` to deals qualified within the same period.
+
+Calculation: # of deals closed won / # of deals qualified in the period
 
 ### Sales Accepted Opportunity (SAO)
 
