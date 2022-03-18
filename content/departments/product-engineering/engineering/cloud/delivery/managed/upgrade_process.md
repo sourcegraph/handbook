@@ -196,11 +196,11 @@ First check that thew new version requires no manual migration steps in [docker-
 
 Then, to upgrade the new `$NEW_DEPLOYMENT` deployment to `$NEW_VERSION`:
 
-> Upgrading to a release candiate build? Run this instead
+> Upgrading to a release candidate build? Run this instead
 >
 > ```sh
 > VERSION=master ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
-> go run ../util/enforce-tags.go x.y.z-rc.a $NEW_DEPLOYMENT/docker-compose/.
+> go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
 > git --no-pager diff $NEW_DEPLOYMENT
 > ```
 
