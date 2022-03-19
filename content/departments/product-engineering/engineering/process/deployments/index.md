@@ -11,7 +11,9 @@ For a complete list of Sourcegraph instances we manage, see our [instances docum
   - [deploy-sourcegraph](#deploy-sourcegraph)
     - [Merging changes from deploy-sourcegraph](#merging-changes-from-deploy-sourcegraph)
   - [Relationship between deploy-sourcegraph repositories](#relationship-between-deploy-sourcegraph-repositories)
-    - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-cloud`](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-cloud)
+    - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph` forks](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-forks)
+  - [Sourcegraph Cloud](#sourcegraph-cloud)
+    - [Sourcegraph Cloud release process](#continuous-deployment-process)
 
 Additional resources:
 
@@ -25,7 +27,7 @@ Additional resources:
 
 Changes to [the main `sourcegraph/sourcegraph` repository](https://github.com/sourcegraph/sourcegraph) are automatically built as [images](#images).
 
-- [Sourcegraph Cloud](instances.md#sourcegraph-cloud) will eventually pick up the same changes on a schedule via [Renovate](#renovate)
+- [Sourcegraph Cloud](instances.md#sourcegraph-cloud) will eventually pick up the same changes on a schedule via [Renovate](#renovate). Changes will first be deployed to [preprod](https://preview.sgdev.dev) and eventually released to [production](https://sourcegraph.com/search)
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) will deploy the changes via [ArgoCD](#argocd)
 
 ### Images
@@ -65,49 +67,34 @@ For documentation about developing `deploy-sourcegraph` and cutting releases, re
 
 ### Merging changes from [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
 
-We have two Sourcegraph Kubernetes cluster installations that we manage ourselves:
+We have three Sourcegraph Kubernetes cluster installations that we manage ourselves:
 
-- [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
-- [deploy-sourcegraph-dogfood-k8s-2](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s-2)
+- [deploy-sourcegraph-cloud@preprod](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/preprod)
+- [deploy-sourcegraph-cloud@release](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release)
+- [deploy-sourcegraph-dogfood-k8s](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s)
 
 This section describes how to merge changes from [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
-(referred to as upstream) into `deploy-sourcegraph-cloud`. The `deploy-sourcegraph-dogfood-k8s-2` configuration is [automatically updated with the latest `deploy-sourcegraph` changes](instances.md#k8s-sgdev-org).
+(referred to as upstream) into a fork. The `deploy-sourcegraph-dogfood-k8s` configuration is [automatically updated with the latest `deploy-sourcegraph` changes](instances.md#k8s-sgdev-org).
 
 The process is similar to the [process](https://docs.sourcegraph.com/admin/install/kubernetes/configure#fork-this-repository)
 we recommend our customers use to merge changes from upstream. The differences in process originate from the dual purpose
-of these two installations: they are genuine installations used by us and outside users (in the case of dot-com) and in addition
+of these two installations: they are genuine installations used by us and outside users and in addition
 to that they are test installations for new changes in code and in deployment. For that reason they are not pinned down to a version
 and the docker images are automatically updated to the latest builds.
 
-> Note: What is said about `deploy-sourcegraph-cloud` also applies to `deploy-sourcegraph-dogfood-k8s` unless otherwise specified.
-
 ## Relationship between deploy-sourcegraph repositories
 
-1. [`deploy-sourcegraph-cloud@master`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/master) strictly tracks the upstream https://github.com/sourcegraph/deploy-sourcegraph/tree/master.
-1. [`deploy-sourcegraph-cloud@release`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release) _only_ contains the customizations required to deploy/document sourcegraph.com from the base deployment of Sourcegraph.
-   - This is the default branch for this repository, since all customizations to sourcegraph.com should be merged into this branch (like we tell our customers to).
-
-These steps ensure that the diff between [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud) and [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) is as small as possible so that the changes are easy to review.
+These steps ensure that the diff between a `deploy-sourcegraph` fork and [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph) is as small as possible so that the changes are easy to review.
 
 In order to mimic the same workflow that we tell our customers to follow:
 
-- Customizations / documentation changes that **apply to all customers (not just sourcegraph.com)** should be:
+- Customizations / documentation changes that **apply to all customers** should be merged into [`deploy-sourcegraph@master`](https://github.com/sourcegraph/deploy-sourcegraph/tree/master) (note that this will also [automatically update k8s.sgdev.org](instances.md#k8s-sgdev-org))
 
-  1. Merged into [`deploy-sourcegraph@master`](https://github.com/sourcegraph/deploy-sourcegraph/tree/master) (note that this will also [automatically update k8s.sgdev.org](instances.md#k8s-sgdev-org))
-  1. Pulled into [`deploy-sourcegraph-cloud@master`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/master):
-  <pre>
-  git checkout master
-  git fetch upstream
-  git merge upstream/master
-  </pre>
+- Customizations / documentation changes that **apply to only sourcegraph.com** can be simply merged into the [`deploy-sourcegraph-cloud@preprod`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/preprod) branch.
 
-  1. Merged into [`deploy-sourcegraph-cloud@release`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release) by merging from[`deploy-sourcegraph-cloud@master`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/master)—see [merging upstream](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-cloud) for more details.
+### Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph` forks
 
-- Customizations / documentation changes that **apply to only sourcegraph.com** can be simply merged into the [`deploy-sourcegraph-cloud@release`](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release) branch.
-
-### Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph-cloud`
-
-1. Clone this repository and `cd` into it.
+1. Clone your fork or create a new fork and `cd` into it.
 1. If you have not already, `git remote add upstream https://github.com/sourcegraph/deploy-sourcegraph`
 1. `git checkout master && git pull upstream/master`
    - `master` of this repository strictly tracks `master` of `deploy-sourcegraph`, so there should be no merge conflicts.
@@ -116,13 +103,12 @@ In order to mimic the same workflow that we tell our customers to follow:
 1. `git merge upstream/master` to merge `deploy-sourcegraph@master` into `merge_upstream`
    - This will give you conflicts which you should address manually:
      - On docker image tags conflicts (`image:`), choose the `insiders` tag to allow renovate to deploy new builds.
-     - On script conflicts (`create-new-cluster.sh`, `kubectl-apply-all.sh`, etc.), look for comments like `This is a custom script for dot-com` that indicate you should choose the current state over incoming changes.
    - If new services have been added (these generally show up as created files in `base/`), make sure that:
      - `namespace: prod` is applied to all new resource metadata.
    - Use `kubectl apply --dry-run --validate --recursive -f base/` to validate your work.
    - **Before you commit**, ensure the commit message indicates which files had conflicts for reviewers to look at.
      - Using the default merge commit message, you can copy or uncomment the lines following `Conflicts`.
-1. Send a PR to this repository for merging `merge_upstream` into `release`.
+1. Send a PR to this repository for merging `merge_upstream`.
 1. Reviewers should review:
    - The conflicting files.
    - If there are any risks associated with merging that should be watched out for / addressed,
@@ -134,3 +120,26 @@ In order to mimic the same workflow that we tell our customers to follow:
    - In general, it might be a good idea to avoid doing this at the end of a PDT workday - if something goes wrong, it is easier to get help if other people are around.
 1. Watch CI, which will deploy the change automatically.
 1. Check the deployment is healthy afterwards (`kubectl get pods` should show all healthy, searching should work).
+
+## Sourcegraph Cloud
+
+As [Sourcegraph Cloud](instances.md#sourcegraph-cloud) has matured into a core product it's needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Cloud DevOps](../../cloud/devops/index.md) team.
+
+Similarly, the code-release process for Sourcegraph Cloud has changed. Unlike customer instances, Sourcegraph Cloud operates a continuous release cycle and code changes are deployed multiple times a day. To help facilitate this rapid release cycle while still maintaining operation stability, a [preprod environment](../../cloud/devops/preprod.md) has been integrated into the workflow that closely mirrors the deployment of Sourcegraph Cloud.
+
+### Continuous Deployment Process
+
+Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to preprod within 10 minutes where a series of smoke tests will be performed. If successful, the images will be promoted and automatically promoted to production within a few hours.In the normal use-case, the deployment process should be invisible. If a manual or urgent change is needed, refer to the [Deploying a code change to Sourcegraph Cloud](../../cloud/devops/deploy-code-change.md) document.
+
+The automatic release process works as follows:
+
+1. Code changes are committed to the mono repo `sourcegraph/sourcegraph@main` following standard procedure
+1. On commit, Buildkite will build candidate images
+1. Renovate will create a Pull Request to the `preprod` branch of the `sourcegraph/deploy-sourcegraph-cloud` repository with the new container images
+1. The PR will be automatically merged by Renovate
+1. On commit to the `preprod` branch, another Buildkite [pipeline](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/preprod/.buildkite/pipeline.yaml#L33:L40) will deploy the changes
+1. Once deployed, a series of [smoke-tests](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/smoke-tests) will execute against the preprod environment to determine if the changes were successful
+1. A [scheduled action](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.github/workflows/release-preprod.yaml) will attempt to create a PR to merge `preprod` to `release` on a fixed schedule. This PR will be merged in if `preprod` is stable and the smoke tests pass
+1. The PR is merged and a final [Buildkite](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.buildkite/pipeline.yaml#L37:L43) pipeline is triggered to deploy the changes to production
+
+All infrastructure changes should first be branched off `preprod` and merged into the `preprod` environment first before being manually merged (via PR) to `release`.

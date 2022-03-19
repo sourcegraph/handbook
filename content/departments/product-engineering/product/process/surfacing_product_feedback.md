@@ -25,7 +25,7 @@ If you have gotten a specific feedback request that a customer(s) would like to 
 
 To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity, whether it's a net new opp or a renewal. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. A gap submission should include the following:
 
-- Severity - P0, P1, P2
+- Severity - P0: Dealbreaker, P1: Significant Pain Point, P2: Nice to Have
 - Use Case - _if relevant_ tie your submission to one or multiple core use cases to help with prioritization
 - Description
 - Impact
