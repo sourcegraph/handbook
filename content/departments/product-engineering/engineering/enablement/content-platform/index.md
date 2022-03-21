@@ -20,9 +20,16 @@ The current existing content platforms include:
 - [Handbook](https://handbook.sourcegraph.com)
 - [Docs](https://docs.sourcegraph.com)
 
+## Principles
+
+We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
+
 ## Contact
 
 - #content-platform and @content-platform-team on Slack
+
+## Processes
+
 
 ### Requests
 
@@ -43,12 +50,6 @@ The content platform team helps with updates or changes to the various [sites we
 - **Resolution:**
   - **Non-urgent requests** will be resolved by a due date agreed upon by the CPT and the requestor as part of triage.
   - **Urgent** requests will be worked until the issue is resolved or no longer in an urgent state.
-
-## Principles
-
-We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
-
-## Processes
 
 ### Triaging Incoming Requests
 
