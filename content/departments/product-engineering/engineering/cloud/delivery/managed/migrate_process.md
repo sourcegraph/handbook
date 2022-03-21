@@ -161,10 +161,9 @@ Take a snapshot at this point to preserve the state of the instance before proce
 Sourcegraph must be upgraded 1 minor version at a time.
 <<<<<<< HEAD
 
-1. [Perform in-place upgrades](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/upgrade_process/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
-=======
+1. # [Perform in-place upgrades](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/upgrade_process/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
 1. [Perform in-place upgrades](./upgrade_process/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
->>>>>>> 9f195f3bc (Relative links)
+   > > > > > > > 9f195f3bc (Relative links)
 
 Repeat in-place upgrade process for upgrade path (Glovo’s listed below)
 3.35.1
@@ -178,11 +177,12 @@ Repeat in-place upgrade process for upgrade path (Glovo’s listed below)
 Take a snapshot after resolving any critical alerts or site configuration issues. This will provide a known starting point before transferring over to the customer. If the customer makes a mistake between the time of handover and the next automated snapshot, a restore point will be available.
 
 ## 8. Handover to Customer
+
 <<<<<<< HEAD
 
 - Notify CE that managed instance is ready for customer.
-- Notify CS that migration has been completed for customer, CS updates their notes.
-=======
+- # Notify CS that migration has been completed for customer, CS updates their notes.
+
 * Notify CE that managed instance is ready for customer.
 * Notify CS that migration has been completed for customer, CS updates their notes.
->>>>>>> 9f195f3bc (Relative links)
+  > > > > > > > 9f195f3bc (Relative links)
