@@ -11,7 +11,7 @@ All demos are:
 - Features, changes, small bug fixes, or behind the scenes engineering work that are **merged** into main and are **live** (i.e. on [Sourcegraph Cloud](https://sourcegraph.com/search) or [k8s.sgdev.org](https://k8s.sgdev.org)).
 - Presented (ideally) by one of the teammates who built it.
 - Between 3-5 mins. Live demos can be longer than 3 minutes to account for additional setup time (& you get extra SG points)!
-- Can be recorded ahead of time and will be played for attendees (optional). If recorded, please limit the video to 3 minutes or less. 
+- Can be recorded ahead of time and will be played for attendees (optional). If recorded, please limit the video to 3 minutes or less.
 
 We are here to help and support you as you prepare for your demo. Kylie or your team's PM will work with you to make sure that you can articulate in the simplest way possible why this new feature is awesome for our community and customers.
 
@@ -49,4 +49,5 @@ Here are some examples of great demos previously shared:
 - [API docs page/updates](https://drive.google.com/file/d/126LLrQanXH7rHr0d8d_qvmnSpdefBa2V/view) with Stephen Gutenkast
 
 ## How to get scheduled
+
 We will keep track of and organize the schedule in [this demo day schedule](https://docs.google.com/spreadsheets/d/1Te8HQXbUP-LZzoeSG90sN_dWyRgvZEB96uJoKPNbZqg/edit?usp=sharing).
