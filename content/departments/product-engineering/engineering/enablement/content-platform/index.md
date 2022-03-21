@@ -30,7 +30,6 @@ We inherit Sourcegraph's [engineering principles and practices](../../process/pr
 
 ## Processes
 
-
 ### Requests
 
 The content platform team helps with updates or changes to the various [sites we are responsible for](#responsibilities). Note that if you're comfortable making changes to one of these sites, you don't have to put in a request for the Content Platform Team. We are happy to serve as a review on your PR, but no need to put in a request unless you need us to complete the work for you. Requests to the content platform team can be made through a Slack workflow:
