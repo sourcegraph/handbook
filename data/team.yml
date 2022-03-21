@@ -201,15 +201,6 @@ geoffrey_gilmore:
   email: geoffrey@sourcegraph.com
   description: Geoffrey is an MIT graduate who enjoys kicking people in his spare time.
 
-farhan_attamimi:
-  name: Farhan Attamimi
-  role: Senior Data Operations Analyst
-  reports_to: director_data_analytics
-  location: Singapore 🇸🇬
-  github: attfarhan
-  email: farhan@sourcegraph.com
-  description: Farhan writes code to pass the time while impatiently waiting for Manchester United to return to glory.
-
 erik_seliger:
   name: Erik Seliger
   role: Software Engineer
@@ -885,7 +876,7 @@ vova_kulikov:
 alex_fogg:
   name: Alex Fogg
   pronouns: he/him
-  role: Customer Engineer
+  role: Senior Customer Engineer
   reports_to: senior_manager_customer_engineering_east
   location: Philadelphia, PA, USA 🇺🇸
   github: alexfogg
@@ -1279,7 +1270,7 @@ kelsey_nagel:
   reports_to: vp_people
   location: Minneapolis, MN USA
   github: kelseynagel
-  description: "Kelsey is a North Dakota native living in Minneapolis with her husband and two dogs, Crew and Nash. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
+  description: "Kelsey is a North Dakota native living in Minneapolis, Minnesota. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
 
 gabe_torres:
   name: Gabe Torres
@@ -1874,15 +1865,6 @@ win_yu:
   email: win.yu@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
   description: After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
-
-sam_jones:
-  name: Sam Jones
-  role: Senior Corporate & Commercial Counsel
-  reports_to: director_legal
-  location: Oakland, CA, United States 🇺🇸
-  github: srj427
-  email: sam.jones@sourcegraph.com
-  description: Sam is a San Francisco Bay Area native. Prior to joining Sourcegraph, Sam represented technology companies and investment firms in corporate transactional work including commercial contracts, M&A and corporate financings as both an in-house counsel and external advisor. He loves hiking and running with his dog Gigi, cooking and playing golf. Sam is also learning to brew beer and maintain a garden in his free time.
 
 stephanie_zabala:
   name: Stephanie Zabala
@@ -2583,7 +2565,7 @@ sarah_briggs:
   email: sarah.briggs@sourcegraph.com
   github: 5arahBrigg5
   pronouns: she/her
-  role: Program Manager, Customer Support
+  role: Program Manager
   reports_to: director_customer_support
   location: Portland, OR, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/sarah-briggs-3b690330/)'
@@ -2632,7 +2614,7 @@ michal_vrtiak:
   reports_to: director_engineering_enablement
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
-  description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs. Michal loves ice hockey and has been rooting for the Washington Capitals since the mid 90s.
+  description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs.
 
 ryan_scott:
   name: Ryan Scott
@@ -2829,3 +2811,76 @@ sally_voisen:
   location: San Rafael, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/sally-voisen/)'
   description: 'Sally lives in the Terra Linda area of San Rafael, CA with her husband, son, daughter, and cat named Bella Momo Cat. An East Coast transplant, Sally grew up in Philadelphia but has called the Bay Area her home since 2007. Prior to Sourcegraph, Sally was at Autodesk and Adobe. Outside of work, Sally enjoys a good pour-over coffee, cooking/baking, and hiking.'
+
+daniel_marques:
+  name: Daniel Marques
+  reports_to: design_manager_code_graph
+  pronouns: he/him
+  role: Product Designer, Batch Changes
+  location: Leiria, Portugal 🇵🇹
+  github: danielmarquespt
+  email: daniel.marques@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/danielmarquespt/)'
+  description: 'Daniel is Product Designer based in Portugal. He is very passionate about everything related with technology, internet, eletronics and geek stuff. Besides that he loves the going outside, walking trails, riding his motorcycle or just chilling with friends watching the sunset.'
+
+thomas_hughes:
+  name: Thomas Hughes
+  pronouns: he/him
+  role: Senior Customer Training Engineering
+  reports_to: vp_customer_engineering
+  location: Austin, TX USA 🇺🇸
+  github: iamhughes
+  email: thomas.hughes@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/thomasshughes/)'
+  description: 'Thomas Hughes is a passionate engineer with experience in development, DevOps, Customer Success, and Developer Relations, and currently resides in Austin, TX. When not working, Thomas enjoys scuba diving, language learning, traveling, kayaking, and hiking.'
+
+brock_perko:
+  name: Brock Perko
+  pronouns: he/him
+  role: Regional Sales Director, West
+  reports_to: vp_sales_western_region
+  location: Mill Valley, CA USA 🇺🇸
+  github: 0xPerko
+  email: brock_perko@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/brock-perko-5094349/)'
+  description: 'Brock lives in Mill Valley, CA with his wife and cat. A Bay Area native, he has built a career in Sales working at startups Eventbrite, Slack, and Productiv previously. Outside of work, Brock enjoys hiking in Marin and the California Coast, golf, live music, and nights out in San Francisco at his favorite restaurants. He is also a big fan of cryptocurrencies and Web3 technology, with a personal goal of opening a local deli someday.'
+
+eugenia_fernandez:
+  name: Eugenia Fernandez
+  reports_to: product_director_code_graph
+  role: Product Manager, Search Core
+  location: Sao Paulo, Brazil 🇧🇷
+  github: eugeniaft
+  email: eugenia.fernandez@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
+  description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
+
+marcos_serna:
+  name: Marcos Serna
+  role: Enterprise Account Executive
+  location: Austin, TX, USA 🇺🇸
+  email: marcos.serna@sourcegraph.com
+  reports_to: vp_sales_western_region
+  links: '[Linkedin](https://www.linkedin.com/in/marcosserna/)'
+  pronouns: '[he/him](http://pronoun.is/he)'
+  description: 'Marcos grew up in Albuquerque, NM and currently resides in Austin, TX. Prior to Sourcegraph, Marcos helped build out the Corporate Sales team at Okta and was a 4X AE of the quarter and AE of the year in 2021. Marcos graduated as Valedictorian with a dual major in Finance and Entrepreneurship from the University of New Mexico. Outside of work, Marcos can be found running, cycling or swimming in Austin (he was a Pro Triathlete for 2 years), interviewing someone for his SalesLife podcast or wood carving.'
+
+chris_warwick:
+  name: Chris Warwick
+  role: Software Engineer
+  reports_to: engineering_manager_code_insights
+  location: Philadelphia, PA United States 🇺🇸
+  github: chwarwick
+  email: christopher.warwick@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/warwickc)'
+  description: 'Chris is a software engineer based near Philadelphia, PA where he lives with his wife and three children. He has spent a number of years building mobile and web applications. When not working he enjoys spending time outside and running.'
+
+becca_steinbrecher:
+  name: Becca Steinbrecher
+  reports_to: engineering_manager_content_platform
+  role: Software Engineer
+  location: Mesa County, CO, USA 🇺🇸
+  github: st0nebraker
+  email: becca.steinbrecher@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/becca-steinbrecher/)'
+  description: 'Becca grew up in San Diego and has been in Colorado since 2017. In her free time she enjoys rock climbing, practicing yoga, playing piano, eating, riding bikes, snowboarding, and trying new things.'
