@@ -51,3 +51,7 @@ Here are some examples of great demos previously shared:
 ## How to get scheduled
 
 We will keep track of and organize the schedule in [this demo day schedule](https://docs.google.com/spreadsheets/d/1Te8HQXbUP-LZzoeSG90sN_dWyRgvZEB96uJoKPNbZqg/edit?usp=sharing).
+
+## Got feedback?
+
+Tell us what you're loving and what we can improve on [in this feedback survey](https://forms.gle/Povb3KtiDz5LFBXZ9).
