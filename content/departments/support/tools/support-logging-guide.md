@@ -186,4 +186,5 @@ TODO: Need another doc, etc pointing to how to provision Sourcegraph more better
 
 TODO: ADD anymore cool links
 
-- https://docs.sourcegraph.com/admin/privileges#impersonate-regular-users
+- [Sourcegraph administrator special privileges](https://docs.sourcegraph.com/admin/privileges#impersonate-regular-users)
+- [Feature request - Add better log messaging around services successfully starting](https://github.com/sourcegraph/sourcegraph/issues/22106)
