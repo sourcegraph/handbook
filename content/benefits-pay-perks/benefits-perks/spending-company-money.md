@@ -42,38 +42,62 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 ## Computers
 
-Once your contract is signed, you will need to get your Sourcegraph computer. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
+All Sourcegraph teammates are required to have, and to work from, a company machine that is set up accoring to our [device requirements](../../departments/tech-ops/tools/computer-setup.md). Computers are considered property of the company.
 
-**US/Canada/EU-based teammates** need to place their order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+Please see below how to get your computer and which specs to get depending on your role.
 
-**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md). If this poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
+### Ordering your laptop:
+
+### Full-time teammates
+
+Because of Apple manufacturing and global shipping delays, our recommended models can take anywhere from 4-12 weeks to arrive so we ask that once your contract is signed, please place an order for your Sourcegraph computer immediately. You are responsible for ordering your laptop through one of the following ways:
+
+**US/Canada/Europe-based teammates (not Russia)**
+
+1. You can purchase a device that is in stock or to be ordered through a local store and be reimbursed by Sourcegraph. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md).
+2. You can place an order via [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and our Tech Ops team will purchase them through CDW US/CA or our partner in the UK. (Please note there is nothing we can do about wait times and will update you when the order has been placed and when we have any more information about shipping dates).
+
+**Teammates based in other countries** are responsible for purchasing and expensing their Sourcegraph computer. Computers and laptop insurance (this includes Apple Care if you purchase a Mac as your work computer) are fully reimbursable outside of the [desk setup total estimate above](#desk-set-up). You can find information on how to expense computers [here](../pay-expenses/expenses.md).
+
+Note: If purchasing a device poses a financial hardship in any way, please let the onboarding team know and they will pay for it via our company card.
 
 Different specs are required depending on your role, please see below for necessary specs corresponding to your role.
 
-### Customer Engineering team laptops:
+### Interns
+
+Please fill out this form [this form](https://forms.gle/8T41EQmxcH8JN2Fx9) and Tech Ops will get you a Sourcegraph device. While we will do everything we can to get you the same specifications as below, availability will depend on the stock of devices we have available and the particular responsibilities of the work you will be doing during your internship. Typically, these devices are an older models than what we order new. Interns should adhear to our [computer requirements](../../departments/tech-ops/tools/computer-setup.md) for setting up their Sourcegraph device.
+
+### Laptop Specs
+
+#### Customer Engineering team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Product team laptops:
+#### Product team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
-  - [See product in CDW for reference]()
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Engineering team laptops:
+#### Engineering team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 64 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-mbp-16-m1m-10c32c-64-1tb-sg/6740562?enkwrd=6740562)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Customer Support team laptops:
+#### Customer Support team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 
-### All other teams laptops:
+#### Data & Analytics team laptops:
+
+- Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
+  - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
+
+#### All other teams laptops:
 
 - Apple MacBook Pro - 14.2" M1 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-14-apple-m1-pro-chip-16-gb-ram-512-gb-ssd-spac/6738971?enkwrd=6738971)
@@ -81,11 +105,13 @@ Different specs are required depending on your role, please see below for necess
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-512-gb-ssd-us/6738963?enkwrd=6738963)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-If you need to update any specs, please reach out to your manager and [People Ops](mailto:people-ops@sourcegraph.com) for approval.
-
-### Other computer
+#### Other computer
 
 - If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
+
+### Temporary laptop options
+
+If you have ordered your laptop but it is not expected to arrive by your start date please refer to the [computer setup](../../departments/tech-ops/tools/computer-setup.md#what-to-do-if-you-are-waiting-for-your-sourcegraph-computer-to-arrive) page for some recommendations of what to do in the interium.
 
 ### Laptop upgrade
 
@@ -103,7 +129,7 @@ If you would like to upgrade to the new M1 Pro but you have had your current lap
 - **Cell phone plan:** $75/month
 - **Wellness:** $100/month
 
-**Co-working/office space:** $300-500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space. This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included.
+**Co-working/office space:** $300–500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space. This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included.
 
 You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a _day-to-day drop in basis_ or a _month-to-month basis_ for ease of monthly reimbursement. The Company will not cover the cost of a co-working space deposit or sign for coworking space contracts. Additionally, if you would like to setup a group co-working space with pooled teammate funds, please send a message to People Ops and Finance stating Name(s) and Team Role(s), Location of space, and estimated monthly cost. For group rentals, we recommend one person submit a monthly invoice and tag all attendees.
 

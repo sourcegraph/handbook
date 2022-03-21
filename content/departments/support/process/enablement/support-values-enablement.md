@@ -34,17 +34,17 @@ Agenda for session 1:
 - (15 min) Sharing round robin 3: What makes you feel even a small amount of discomfort or uncertainty?
 - (20 min) Open Q&A -- anything goes; if the facilitator doesn’t know the answer, they own following up after
 - (5 min) For session 2 (this is also posted in the Slack channel and the facilitator posts a reminder a few days before the next session, too)...
-  - Read Part 1 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 1-4) and make note of any questions that come to mind as you read.
-  - Complete the worksheets at the end of each chapter (pages 30-33, 44-46, 57-60, and 69-71) and again make note of any questions that come to mind as you complete the worksheets.
-  - Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+  - Read Part 1 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 1–4) and make note of any questions that come to mind as you read.
+  - Complete the worksheets at the end of each chapter (pages 30–33, 44–46, 57–60, and 69–71) and again make note of any questions that come to mind as you complete the worksheets.
+  - Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 ### Part 2 - Session 2
 
 Pre-work to be done **before** session 2:
 
-- Read Part 1 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 1-4) and make note of any questions that come to mind as you read.
-- Complete the worksheets at the end of each chapter (pages 30-33, 44-46, 57-60, and 69-71) and again make note of any questions that come to mind as you complete the worksheets.
-- Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+- Read Part 1 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 1–4) and make note of any questions that come to mind as you read.
+- Complete the worksheets at the end of each chapter (pages 30–33, 44–46, 57–60, and 69–71) and again make note of any questions that come to mind as you complete the worksheets.
+- Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 The purpose of this session is to reinforce the reading, allow for group discussion, ensure folks are getting questions answered, to help normalize talking about such things that often feel heavy, and for the facilitator to identify any follow-up conversations needed
 
@@ -56,17 +56,17 @@ Agenda for session 2:
 - (30 minutes) Sharing round robin 2: What questions came up for you during the reading/worksheets that are still open and you’d like to discuss?
 - (15 minutes): Open Q&A -- anything goes; if the facilitator doesn’t know the answer, they own following up after
 - (5 minutes): For session 3 (this is also posted in the Slack channel and the facilitator posts a reminder a few days before the next session, too)...
-  - Read Part 2 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 5-8) and make note of any questions that come to mind as you read.
-  - Complete the worksheets at the end of each chapter (pages 91-94, 103-105, 115-118, and 132-135) and again make note of any questions that come to mind as you complete the worksheets.
-  - Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+  - Read Part 2 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 5–8) and make note of any questions that come to mind as you read.
+  - Complete the worksheets at the end of each chapter (pages 91–94, 103–105, 115–118, and 132–135) and again make note of any questions that come to mind as you complete the worksheets.
+  - Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 ### Part 2 - Session 3
 
 Pre-work to be done **before** session 3:
 
-- Read Part 2 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 5-8) and make note of any questions that come to mind as you read.
-- Complete the worksheets at the end of each chapter (pages 91-94, 103-105, 115-118, and 132-135) and again make note of any questions that come to mind as you complete the worksheets.
-- Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+- Read Part 2 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 5–8) and make note of any questions that come to mind as you read.
+- Complete the worksheets at the end of each chapter (pages 91–94, 103–105, 115–118, and 132–135) and again make note of any questions that come to mind as you complete the worksheets.
+- Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 The purpose of this session is to reinforce the reading, allow for group discussion, ensure folks are getting questions answered, to help normalize talking about such things that often feel heavy, and for the facilitator to identify any follow-up conversations needed
 
@@ -78,17 +78,17 @@ Agenda for session 3
 - (30 minutes) Sharing round robin 2: What questions came up for you during the reading/worksheets that are still open and you’d like to discuss?
 - (15 minutes): Open Q&A -- anything goes; if the facilitator doesn’t know the answer, they own following up after
 - (5 minutes): For session 4 (this is also posted in the Slack channel and the facilitator posts a reminder a few days before the next session, too)...
-  - Read Part 3 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 9-13) and make note of any questions that come to mind as you read.
-  - Complete the worksheets at the end of each chapter (pages 148-149, 158-160, 172-174, 185-187, and 196-199) and again make note of any questions that come to mind as you complete the worksheets.
-  - Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+  - Read Part 3 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 9–13) and make note of any questions that come to mind as you read.
+  - Complete the worksheets at the end of each chapter (pages 148–149, 158–160, 172–174, 185–187, and 196–199) and again make note of any questions that come to mind as you complete the worksheets.
+  - Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 ### Part 2 - Session 4
 
 Pre-work to be done **before** session 4:
 
-- Read Part 3 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 9-13) and make note of any questions that come to mind as you read.
-- Complete the worksheets at the end of each chapter (pages 148-149, 158-160, 172-174, 185-187, and 196-199) and again make note of any questions that come to mind as you complete the worksheets.
-- Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+- Read Part 3 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 9–13) and make note of any questions that come to mind as you read.
+- Complete the worksheets at the end of each chapter (pages 148–149, 158–160, 172–174, 185–187, and 196–199) and again make note of any questions that come to mind as you complete the worksheets.
+- Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 The purpose of this session is to reinforce the reading, allow for group discussion, ensure folks are getting questions answered, to help normalize talking about such things that often feel heavy, and for the facilitator to identify any follow-up conversations needed
 
@@ -100,17 +100,17 @@ Agenda for session 4
 - (30 minutes) Sharing round robin 2: What questions came up for you during the reading/worksheets that are still open and you’d like to discuss?
 - (15 minutes): Open Q&A -- anything goes; if the facilitator doesn’t know the answer, they own following up after
 - (5 minutes): For session 5 (this is also posted in the Slack channel and the facilitator posts a reminder a few days before the next session, too)...
-  - Read Part 4 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 14-16 + Conclusion) and make note of any questions that come to mind as you read.
-  - Complete the worksheets at the end of each chapter (pages 224-225, 235-236, 246-247, and 255-256) and again make note of any questions that come to mind as you complete the worksheets.
-  - Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+  - Read Part 4 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 14–16 + Conclusion) and make note of any questions that come to mind as you read.
+  - Complete the worksheets at the end of each chapter (pages 224–225, 235–236, 246–247, and 255–256) and again make note of any questions that come to mind as you complete the worksheets.
+  - Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 ### Part 2 - Session 5
 
 Pre-work to be done **before** session 5:
 
-- Read Part 4 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 14-16 + Conclusion) and make note of any questions that come to mind as you read.
-- Complete the worksheets at the end of each chapter (pages 224-225, 235-236, 246-247, and 255-256) and again make note of any questions that come to mind as you complete the worksheets.
-- Reflect on what you feel you gained from reading these chapters. Make note of 2-3 things you gained.
+- Read Part 4 of Pamela Fuller’s book The Leader’s Guide to Unconscious Bias (chapters 14–16 + Conclusion) and make note of any questions that come to mind as you read.
+- Complete the worksheets at the end of each chapter (pages 224–225, 235–236, 246–247, and 255–256) and again make note of any questions that come to mind as you complete the worksheets.
+- Reflect on what you feel you gained from reading these chapters. Make note of 2–3 things you gained.
 
 The purpose of this session is to reinforce the reading, allow for group discussion, ensure folks are getting questions answered, to help normalize talking about such things that often feel heavy, for the facilitator to identify any follow-up conversations needed, and to reinforce that this work is always ongoing
 

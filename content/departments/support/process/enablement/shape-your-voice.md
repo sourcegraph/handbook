@@ -52,7 +52,7 @@ During the call, when something comes up that you don't know, usually with devel
 After the call, share a summary of what you did and what the next steps are.
 After the call, follow through on your next steps.
 
-Bonus: It often also goes better when you are the one to initiate the call vs waiting for a case to be going on so long the customer asks after 2-3 weeks and is already frustrated. And remember, it is 100% okay and encouraged to initiate a #rfh (request for help) with engineering via our usual workflow and in it, request that engineering join you on a call if you feel it will help you all resolve the customer’s issue faster.
+Bonus: It often also goes better when you are the one to initiate the call vs waiting for a case to be going on so long the customer asks after 2–3 weeks and is already frustrated. And remember, it is 100% okay and encouraged to initiate a #rfh (request for help) with engineering via our usual workflow and in it, request that engineering join you on a call if you feel it will help you all resolve the customer’s issue faster.
 
 ## Understand you are the authority (even when you don’t feel you are)
 

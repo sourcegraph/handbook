@@ -3,6 +3,7 @@
 We're an [all-remote](../remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
 - [Decision making at Sourcegraph](decisions.md)
+- [Glossary of terms](../onboarding/glossary.md) we use
 
 ## Sources of truth
 
@@ -37,9 +38,9 @@ The following places are not sources of truth. Treat documents and conversations
 
 ## Meetings
 
-- [Company meeting](company_meeting.md) (Mondays 8:00-8:30am PST/PDT)
+- [Company meeting](company_meeting.md) (Mondays 8:00–8:30 am PST/PDT)
 - [Social calendar](../remote/social_calendar.md) meetings
-- [One on One](1-1.md)meetings
+- [One on One](1-1.md) meetings
 
 ### Internal meetings
 
@@ -67,7 +68,7 @@ You may try this approach for more effective meetings. The goals are to surface 
 
 This assumes that currently the meeting has a Google Doc with notes that people sometimes write in advance and sometimes don't. This is better than nothing, but we can do even better.
 
-1. Everyone uses the first 5-15 minutes of the meeting to write down what they would like to communicate (e.g., updates on their progress, topics they would like to discuss, problems they've encountered, etc.). Then the rest is discussing and deciding in order.
+1. Everyone uses the first 5–15 minutes of the meeting to write down what they would like to communicate (e.g., updates on their progress, topics they would like to discuss, problems they've encountered, etc.). Then the rest is discussing and deciding in order.
    - Use this for a few weeks, and then...
 1. Everyone writes down their items _before_ the meeting. A topic that isn't written down can't be discussed. Spend the first 5 minutes of the meeting reading what other people wrote down, then discussing and deciding in order.
    - Use this for a few weeks, and then...
@@ -82,7 +83,7 @@ Structured meetings are great, but it's important to have casual, unscheduled, f
 - Join meetings early or on time.
 - End meetings on time.
 - Be patient for external folks who are running late to our meetings.
-  - For customers, prospects, and users, wait on the line for at least 10 minutes (and send them a friendly reminder after 3-5 minutes).
+  - For customers, prospects, and users, wait on the line for at least 10 minutes (and send them a friendly reminder after 3–5 minutes).
 
 ## Video calls
 
@@ -93,14 +94,17 @@ Most meetings at Sourcegraph are video calls. We prefer [Zoom](https://zoom.us) 
 1. In your [Zoom settings](https://zoom.us/profile/setting), enable "Join before host". (It is enabled by default in our Zoom organization account, but you may have overridden it previously.) This lets the meeting get started even if you aren't there.
 1. Set Zoom meetings to be recorded to the cloud so that you and other teammates can refer back to them later.
    - If any participant doesn't feel comfortable with the meeting being recorded, it is fine to not record it.
+   - All Zoom recordings saved to the cloud are deleted automatically after 30 days. Deleted Zoom recordings will be placed in the meeting host's trash for an additional 30 days. After this time the recordings will be permanently deleted.
+   - Due to issues of privacy and compliance, Zoom recordings should only be downloaded and kept beyond 30 days if there is an explicit business use for doing so.
+   - In the event that you need to download and store Zoom recordings Sourcegraph’s Google Drive should be used as the default location.
 
 ## [1-1 meetings](1-1.md)
 
-See "[1-1 meetings](1-1.md)".
+See [1-1 meetings](1-1.md).
 
 ## [Announcements](announcements.md)
 
-See "[Announcements](announcements.md)".
+See [Announcements](announcements.md).
 
 ## Shortening URLs
 
@@ -172,7 +176,7 @@ If you have an idea for a session, add an event to the calendar and invite the e
 
 ![image](https://user-images.githubusercontent.com/3173176/79911585-73112e80-83d5-11ea-85b3-929c20de72d6.png)
 
-2. Make the first line e.g. **Tommy Pesavento** (he/him)
+2. Make the first line your name, e.g. **Tommy Pesavento** (he/him)
 3. Make the second line your role, include any additional information you like on subsequent lines (socials, etc.)
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://user-images.githubusercontent.com/3173176/115082082-2d892380-9eba-11eb-9606-6c4b9c4eb465.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!

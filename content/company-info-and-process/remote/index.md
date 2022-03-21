@@ -44,14 +44,14 @@ The fundamentals of supporting teammates (regardless of their experience level) 
 
 Some people prefer to work in a really flexible way, which can sometimes mean that they want to hack on something on a Saturday instead of a Friday afternoon, for example. Others prefer a set schedule. Both are valid options. Moreover, due to our global team one person's weekend can be someone else's weekday.
 
-There is **no** expectation that people will be responsive over the weekend/vacation/evening/etc except some circumstances that do require this, but generally there will be early/predictable notice — e.g., on-call duty.
+There is **no** expectation that people will be responsive over the weekend/vacation/evening/etc except some circumstances that do require this, but generally there will be early/predictable notice—e.g., on-call duty.
 
 Tip: [Configure](../onboarding/git-intro/github-notifications/index.md#custom-routing) GitHub notifications to send Sourcegraph related ones to your work email.
 After that it is just a matter of not checking your work email (or Slack) at times that you don’t want to do work. Slack has settings to pause notifications, and you can remove work email from your phone if that would help you not check it during non-work times.
 
 ## Remote hackathons
 
-Just because we're remote, does not mean we don't have hackathons. Teams, organizations, and departments across Sourcegraph – including product + engineering, business operations, and customer engineering – have held [remote hackathons](remote_hackathons.md).
+Just because we're remote, does not mean we don't have hackathons. Teams, organizations, and departments across Sourcegraph—including product + engineering, business operations, and customer engineering – have held [remote hackathons](remote_hackathons.md).
 
 ## Helpful links
 

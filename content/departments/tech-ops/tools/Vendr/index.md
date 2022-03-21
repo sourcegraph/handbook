@@ -14,7 +14,7 @@
 
 ## What we hope to achieve through a partnership with Vendr:
 
-- Cost savings of at least 36K in the first year (Sept 2021 - Sept 2022)
+- Cost savings of at least 36K in the first year (Sept 2021–Sept 2022)
 - Time back for system owners (time previously spent negotiating with vendors)
 - Streamlined process for negotiated contracts
 - Organization of existing and future contracts
@@ -25,7 +25,7 @@
 - SaaS contract support
   - [Negotiations:](Supplier_Facing.md) A Vendr Executive Buyer negotiates on Sourcegraph’s behalf directly with the supplier. This includes routing contract components to Sourcegraph Legal, Security, and Finance for sign off
   - [Background support:](background_support.md) Vendr works with the Sourcegraph owner in the background to provide strategic guidance, supplier-specific insights, and positioning.
-- [Renewal reminders](Renewals.md) (90 - 120 days before expiration)
+- [Renewal reminders](Renewals.md) (90–120 days before expiration)
 - [Competitive market intelligence](Market_Intel.md)
 
 ## Who can use Vendr:

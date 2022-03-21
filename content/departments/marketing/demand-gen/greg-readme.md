@@ -16,7 +16,7 @@ When collaborating with others, I tend to shift my style to whatever the other p
 
 ### How I manage my calendar
 
-Because of family life, my working hours are the typical 9am - 5pm ET. I try to block off 'focus time' to make sure that I have time to hunker down and get stuff done! That being said, if you see focus time on my calendar, feel free to invite me to a meeting and I'll accept or decline based on what I'm working on. I often check in via Slack once my daughter is sleeping and we've eaten dinner, however I'll typically only respond if it's an emergency or pressing issue that needs a response ASAP or if it excites me.
+Because of family life, my working hours are the typical 9am–5pm ET. I try to block off 'focus time' to make sure that I have time to hunker down and get stuff done! That being said, if you see focus time on my calendar, feel free to invite me to a meeting and I'll accept or decline based on what I'm working on. I often check in via Slack once my daughter is sleeping and we've eaten dinner, however I'll typically only respond if it's an emergency or pressing issue that needs a response ASAP or if it excites me.
 
 ### Preferred way to collaborate
 

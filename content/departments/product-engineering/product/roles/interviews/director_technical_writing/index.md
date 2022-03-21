@@ -1,6 +1,6 @@
 # Director of Technical Writing interview process
 
-Total interview time: 6 hrs
+Total interview time: 5 hrs
 
 1. [30 min] **[Initial screen](../initial_screen.md)**: We chat with you about Sourcegraph and to find out what you are looking for in your next role.
 1. [30 min] **[Hiring manager screen](../hm_intro_call.md)**: with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product to elaborate on your previous experiences.

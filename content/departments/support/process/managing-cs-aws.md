@@ -20,18 +20,18 @@ To access the CS-AWS server and run Docker commands you'll need to create a Secu
 Now that you've set up your SSH access credentials you can use the following command from inside the directory containing the `cse-aws.pem`:
 
 ```
-ssh -i "cse-aws.pem" ec2-user@ec2-3-140-200-76.us-east-2.compute.amazonaws.com
+ssh -i "cse-aws.pem" ec2-user@ec2-3-133-49-142.us-east-2.compute.amazonaws.com
 ```
 
 You may also add the pem key to a `.ssh` directory and use the following command:
 
 ```
-ssh -i .ssh/cse-aws.pem ec2-user@ec2-3-140-200-76.us-east-2.compute.amazonaws.com
+ssh -i .ssh/cse-aws.pem ec2-user@ec2-3-133-49-142.us-east-2.compute.amazonaws.com
 ```
 
 ## Upgrading CS-AWS
 
-Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/DaedalusG/deploy-sourcegraph-docker).
+Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws).
 
 **Note: When connection to the EC2 server via SSH your user does not have permissions to run many git commands, you'll need to run git commands with `sudo` or switch to the root user with `sudo su`**
 
@@ -80,3 +80,7 @@ caddy:
     - sourcegraph
   restart: always
 ```
+
+## DNS
+
+DNS for cse-aws is handled by our GCP terraform infrastructure: [https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338](https://github.com/sourcegraph/infrastructure/blob/main/dns/sgdev.tf#L332-L338) application of changes here requires `terraform apply` to take effect on our GCP infrastructure

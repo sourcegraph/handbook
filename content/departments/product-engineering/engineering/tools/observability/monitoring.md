@@ -20,9 +20,17 @@ For general documentation on finding monitoring, refer to [how to find monitorin
 
 For documentation on how site administrators find monitoring, refer to the [Sourcegraph observability documentation](https://docs.sourcegraph.com/admin/observability).
 
+### Metrics
+
+To view metrics, built-in Grafana dashboards are available in [https://sourcegraph.com/-/debug/grafana](https://sourcegraph.com/-/debug/grafana/). Learn about these dashboards in the [customer-facing Grafana documentation](https://docs.sourcegraph.com/admin/observability/metrics#grafana), and more about how metrics and alerting work in [monitoring architecture](./monitoring_architecture.md)
+
+[Custom dashboards](#creating-cloud-only-grafana-dashboards) are also available via the Grafana interface's dashboards browser.
+
+> WARNING: Metrics are not yet available in Grafana Cloud, and the built-in dashboards are only available to site admins in Sourcegraph Cloud. We are currently investigating avenues for making these dashboards available without requiring site admin access: [sourcegraph/sourcegraph#25407](https://github.com/sourcegraph/sourcegraph/issues/25407)
+
 ### Alerts
 
-This section describes where Sourcegraph employees can find active alerts for Sourcegraph instances.
+This section describes where Sourcegraph employees can find active alerts for Sourcegraph instances. Learn about these alerting in the [customer-facing alerting documentation](https://docs.sourcegraph.com/admin/observability/alerting), and more about how metrics and alerting work in [monitoring architecture](./monitoring_architecture.md)
 
 #### Sourcegraph instances
 
@@ -47,7 +55,7 @@ If you wish, you can set up Slack alerts for your own team on various instances 
   ]
 ```
 
-To silence an alert on a Sourcegraph instance you need to edit the deployed ConfigMap. For example, for Sourcegraph Cloud you need to edit [this file](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml) and push to the `release` branch.
+To silence an alert on a Sourcegraph instance you need to edit the deployed ConfigMap. For example, for Sourcegraph Cloud you need to edit [this file](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/base/frontend/sourcegraph-frontend.ConfigMap.yaml) and push to the `release` branch.
 
 #### Customer instances
 
@@ -80,8 +88,8 @@ While all dashboards required to troubleshoot our product should be shipped to c
 - When the additional dashboard is not ready yet to graduate to customers
 - When the additional dashboard applies only to our Cloud deployment
 
-Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in [deploy-sourcegraph-dot-com](https://github.com/sourcegraph/deploy-sourcegraph-dot-com).
-To learn more, reference the [dashboard generator documentation](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/tree/release/dashboards).
+Dashboards can be deployed to our Cloud deployment by adding them in `json` format to `dashboards/files` in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud).
+To learn more, reference the [dashboard generator documentation](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/dashboards).
 
 Once the dashboard is ready to be shipped to customers, we will need to port it to the [monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator) to be included in our next Sourcegraph release.
 Custom dashboards cannot be added to the `sourcegraph/grafana` except through the generator.
@@ -90,22 +98,12 @@ You can use a [local Grafana](#connecting-grafana-to-a-remote-prometheus-instanc
 
 - Open "Dashboard Settings" (top right cog).
 - Select "JSON Model".
-- Select the JSON content and save to a `.json` file in `sourcegraph/deploy-sourcegraph-dot-com/dashboards/files`.
+- Select the JSON content and save to a `.json` file in `sourcegraph/deploy-sourcegraph-cloud/dashboards/files`.
 - Create a new Pull Request with your changes.
 
 Once deployed, you should be able to see your changes in [sourcegraph.com](https://sourcegraph.com/-/debug/grafana).
 
 > **Warning**: Sourcegraph's Grafana UI does not allow direct changes due to a CSRF issue (sourcegraph/sourcegraph#6075).
-
-## Grafana
-
-Sourcegraph uses a custom Grafana image, [`sourcegraph/grafana`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/grafana), which contains minor changes from the vanilla Grafana image.
-Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-grafana), and also see the dev documentation [here](https://docs.sourcegraph.com/dev/background-information/observability/grafana).
-
-## Prometheus and Alertmanager
-
-Sourcegraph uses a custom Prometheus image, [`sourcegraph/prometheus`](https://github.com/sourcegraph/sourcegraph/tree/master/docker-images/prometheus), that bundles Alertmanager and a wrapper program for managing configuration changes.
-Learn more about its role in our overall monitoring architecture [here](./monitoring_architecture.md#sourcegraph-prometheus), and also see the dev documentation [here](https://docs.sourcegraph.com/dev/background-information/observability/prometheus).
 
 ## Additional reading
 

@@ -52,13 +52,12 @@ A couple of notes before to help you get started in figuring out which team will
 
 - In some cases, questions can span multiple teams. For example, a question about how to scale up indexed search to serve a large set of repositories could cover the Delivery, Repo Management, and Search teams. In such cases, start where you think is best and our teammates in engineering will help us figure out if we need to go to another engineering team.
 - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging product + engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all. Also, for these features we're still figuring out how users expect them to work, so often "bugs" are informative to understand product or education gaps in the feature – you're helping the team by surfacing them directly).
-  `
 
 ### Deployment
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`
 
-Any questions about deployment should be routed to the [Delivery team](../../product-engineering/engineering/enablement/delivery/index.md).
+Any questions about deployment should be routed to the [Delivery team](../../product-engineering/engineering/cloud/delivery/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -66,7 +65,7 @@ Any questions about deployment should be routed to the [Delivery team](../../pro
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance should be routed to the [Delivery team](../../product-engineering/engineering/enablement/delivery/index.md).
+Any other questions about monitoring and performance should be routed to the [Delivery team](../../product-engineering/engineering/cloud/delivery/index.md).
 
 ### Code host connections
 
@@ -81,7 +80,7 @@ EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 - `CVS` should be routed to the [Batch Changes team](../../product-engineering/engineering/code-graph/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../../product-engineering/engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Extensibility team](../../product-engineering/engineering/cloud/extensibility/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
 
 ### Repository permissions
 
@@ -97,7 +96,7 @@ Any questions about user authentication should be routed to the Repository Manag
 
 ### Code intelligence
 
-**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
+**Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
 Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../product-engineering/engineering/code-graph/code-intelligence/index.md).
 
@@ -115,13 +114,13 @@ In GitHub issues search-core and search-product should be flagged via team/searc
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Extensibility team](../../product-engineering/engineering/cloud/extensibility/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Extensibility team](../../product-engineering/engineering/cloud/extensibility/index.md).
+Any questions about Sourcegraph extensions should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
 
 ### Batch Changes
 
@@ -143,6 +142,14 @@ Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../..
 
 Any questions about Code Insights should be routed to the [Code Insights Team](../../product-engineering/engineering/code-graph/code-insights/index.md)
 
+### Docs site availability
+
+**Keywords**: `docs`, `documentation`, `sourcegraph.com`,
+
+The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our technical writing team).
+
+If the docs site is unavilable, route to the [Content Platform team](../../product-engineering/engineering/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
+
 ## Step 4: File a Github issue
 
 It can seem duplicative, but it's just as important when we need help as it is when we file a defect to file a Github issue. This allows us to understand how we are doing toward our goal of being a self-sustaining team, as well as trends over time that impact the customer experience, engineering workload planning, and our team's experience.
@@ -159,7 +166,7 @@ When in doubt, file in the private repo—issues can be moved over to the public
 - Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
-- Include name of the extension along with the extension version number when filing issues with the extensibility team.
+- Include name of the extension along with the extension version number when filing issues with the growth and integrations team.
 - Include customer quotes in markdown using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh (request for help from CS)`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.

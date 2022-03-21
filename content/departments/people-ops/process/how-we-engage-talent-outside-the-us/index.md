@@ -26,8 +26,6 @@ Sourcegraph subsidiary employees go through team-specific onboarding.
 
 In countries where we don’t have a subsidiary, we will see if our current partner and third-party PEO (Professional Employer Organization) or EOR (Employer of Record), [Remote](https://remote.com/), is available to employ a teammate outside the US as a PEO employee.
 
-Currently, we use PEOs in the following countries: the UK and the Netherlands. We will provide updates as we adopt PEO structures for more teammates in more countries.
-
 The Talent team and hiring managers carefully assess these exceptional cases where a PEO/EOR may be required, and engage the People Ops team to chat about the merit of the case early on, as our current partner, Remote, may not be able to support us in all countries.
 
 ### Contracts
@@ -106,18 +104,32 @@ In cases where a candidate or teammate's role within Sourcegraph would require t
 
 #### For personal reasons
 
-Since our teammates can generally work from anywhere in the world, we do not cover sponsorship and visa assistance costs for candidates and teammates who plan to move to or remain in a country where they require sponsorship or immigration assistance. However, if there is a role that is considered difficult to fill and a person posseses a unique skillset and/or particular experience level that is needed, the People Team, Talent Team, and Hiring Manager will make a decision on a case by case basis and may consider covering costs in some cases.
+Since our teammates can generally work from anywhere in the world, we do not cover sponsorship and visa assistance costs for candidates and teammates who plan to move to or remain in a country where they require sponsorship or immigration assistance. However, if there is a role that is considered difficult to fill and a person possesses a unique skillset and/or particular experience level that is needed, the People Team, Talent Team, and Hiring Manager will make a decision on a case by case basis and may consider covering costs in some cases.
 
 For candidates or teammates that currently hold a visa and prefer to keep their status in a particular country for personal reasons, Sourcegraph may be able to sponsor the visa depending on whether we or our partner PEO have the ability to support it. The candidate or teammate would carry the cost of transferring and sponsoring the visa.
 
-For candidates or teammates that do not currently hold a visa or permanent residency for the country they plan to live in or move to, but have an exitisting or in-process case, Sourcegraph may be able to transfer and take over the case (depending on the visa, the country, and whether we have the ability to support it directly or via our PEO partner). The candidate or teammate would carry the cost of transferring and sponsoring the case.
+For candidates or teammates that do not currently hold a visa or permanent residency for the country they plan to live in or move to, but have an existing or in-process case, Sourcegraph may be able to transfer and take over the case (depending on the visa, the country, and whether we have the ability to support it directly or via our PEO partner). The candidate or teammate would carry the cost of transferring and sponsoring the case.
 
 For teammates that do not currently hold a visa but are looking to initiate a case for a visa or other immigration assistance (e.g. permanent residency) for personal reasons, Sourcegraph will agree to initiate and sponsor the case for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating the visa or permanent residency petition. The candidate or teammate would carry the cost of transferring and sponsoring the case.
 
-#### Sourcegraph will not initiate new petitions or cases for candidates unless they would be filling a difficult-to-hire role as mentioned above.
+#### Sourcegraph will not consider initiating new petitions prior to their 1-year mark
 
-For candidates in need of US sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition.
+For candidates in need of sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition and given that we have the ability to sponsor said visa.
 
 Any visas sponsored by Sourcegraph must be compatible with an all-remote work setting.
+
+### Countries where we cannot currently support employment or contracting
+
+We cannot support or employ candidates or teammates in any of these countries due to U.S. embargoes and sanctions.
+
+- Cuba
+- Iran
+- North Korea
+- Sudan
+- Syria
+- Crimea
+- China (case by case - notify People Ops)
+- Russia (case by case - notify People Ops)
+- Ukraine (case by case - notify People Ops)
 
 Any questions? Contact the People Ops team in #people-ops on Slack or people-ops@sourcegraph.com via email!

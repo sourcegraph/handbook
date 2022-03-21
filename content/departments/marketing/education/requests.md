@@ -41,7 +41,7 @@ and [process](process.md) guidelines. The [issue](https://github.com/sourcegraph
 
 ## Feature requests
 
-For features on the [Sourcegraph Learn](https://learn.sourcegraph.com) site, please feel free to file an [Feature request issue](https://github.com/sourcegraph/learn/issues/new?assignees=&labels=&template=feature_request.md&title=). All of our work is tracked on [Jira](https://sourcegraph.atlassian.net/jira/software/projects/DEVED/boards/9), please check to make sure your feature request is not currently in development.
+For features on the [Sourcegraph Learn](https://learn.sourcegraph.com) site, please feel free to file a [Feature request issue](https://github.com/sourcegraph/learn/issues/new?assignees=&labels=&template=feature_request.md&title=). All of our work is tracked on [Jira](https://sourcegraph.atlassian.net/jira/software/projects/DEVED/boards/9), please check to make sure your feature request is not currently in development.
 
 If you would like to build a feature or otherwise contribute, feel free to start the conversation with us with an [issue](https://github.com/sourcegraph/learn/issues/new?assignees=&labels=&template=feature_request.md&title=) or on [Slack](https://app.slack.com/client/T02FSM7DL/C026GJE9DDX?cdn_fallback=1).
 
@@ -49,4 +49,4 @@ If you would like to build a feature or otherwise contribute, feel free to start
 
 File a [Bug report issue](https://github.com/sourcegraph/learn/issues/new?assignees=&labels=&template=bug_report.md&title=) if you find a bug on our platform.
 
-If you notice another issue, feel free to use the bug report issue (if it is ok for this to be a public), or contact us on [Slack](https://app.slack.com/client/T02FSM7DL/C026GJE9DDX?cdn_fallback=1) for internal concerns.
+If you notice another issue, feel free to use the bug report issue (if it is ok for this to be public), or contact us on [Slack](https://app.slack.com/client/T02FSM7DL/C026GJE9DDX?cdn_fallback=1) for internal concerns.

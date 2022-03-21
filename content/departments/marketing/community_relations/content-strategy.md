@@ -22,6 +22,13 @@ Developer advocates are expected to use their own judgement to choose topics tha
 
 The goal is to provide the best educational resources in short and long form that developers from all levels across the world will find useful in their daily work, demos, startups, and projects.
 
+Some good ideas for content are:
+
+- Find interesting use cases of Sourcegraph for things that hit the front page of [Hacker News](https://news.ycombinator.com), showcasing features like code search, batch changes, insights, and search notebooks to walk through source code for cool new OSS projects or help with things like CVE impact analysis/remediations
+- Technical deep dives into our technical philosophy (why we chose to use the architecture/algos/data structures we're using for code search, code intel, batch changes, code insights)
+
+When selecting a topic, you can also take advantage of our [keyword research](https://docs.google.com/document/d/1InVOqWkB6EIsVD0pP-qhtqAjC1-1SYYKOXpAD6IEmFU/edit) (internal only) insights to select a topic with high impact.
+
 ## Collaboration with other teams
 
 The Community Relations team often collaborates with other teams to support programs, initiatives, and events. Content requests should be made with at least 2 weeks anticipation notice.

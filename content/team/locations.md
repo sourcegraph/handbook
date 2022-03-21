@@ -13,7 +13,7 @@ Note: this is optional! If you elect to add your location to the map, follow the
 
 To add your own location:
 
-1. Copy the contents of [`locations.geojson`](https://raw.githubusercontent.com/sourcegraph/handbook/main/content/company/team/locations.geojson)
+1. Copy the contents of [`locations.geojson`](https://raw.githubusercontent.com/sourcegraph/handbook/main/content/team/locations.geojson)
 1. Paste it in [geojson.io](https://geojson.io)
 1. Click the map pin icon (looks like a google map location) on the right side of the map, and drop it in your location.
 1. Scroll to the bottom of the text that you pasted in, where your new pin will appear.
@@ -33,7 +33,7 @@ To add your own location:
        }
    }
    ```
-1. Copy the new JSON from the right side of the page with your updated info included, and use it to generate a PR for [this file](https://github.com/sourcegraph/handbook/blob/main/content/company/team/locations.geojson).
+1. Copy the new JSON from the right side of the page with your updated info included, and use it to generate a PR for [this file](https://github.com/sourcegraph/handbook/blob/main/content/team/locations.geojson).
 
 ### Option 2
 
@@ -54,5 +54,5 @@ To add your own location:
        }
    }
    ```
-1. Edit [this file](https://github.com/sourcegraph/handbook/blob/main/content/company/team/locations.geojson). Paste in your JSON above the final two lines of the file, leaving the `] }` below what you pasted in.
+1. Edit [this file](https://github.com/sourcegraph/handbook/blob/main/content/team/locations.geojson). Paste in your JSON above the final two lines of the file, leaving the `] }` below what you pasted in.
 1. Open a PR for the file and assign a teammate to review.

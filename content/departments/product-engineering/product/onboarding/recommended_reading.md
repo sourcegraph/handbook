@@ -1,6 +1,6 @@
 # Product recommended reading
 
-Here are some books that folks on the team have read and recommend. If you haven't read these, use your education budget and read them!
+Here are some books that folks on the team have read and recommend. If you haven't read these, use your education budget and read them! (They are not required reading).
 
 ## Product management
 
@@ -23,6 +23,7 @@ Here are some books that folks on the team have read and recommend. If you haven
 - [Radical Candor](https://www.radicalcandor.com/the-book/)
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
 - [Multipliers](https://www.amazon.com/Multipliers-Revised-Updated-Leaders-Everyone/dp/0062663070/)
+- [The Culture Map](https://erinmeyer.com/books/the-culture-map/)
 
 ## Wildcard
 

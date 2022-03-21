@@ -2,7 +2,7 @@
 
 ## Know the responsibilities of a Sourcer
 
-- A sourcer is responsible for sourcing passive and active candidates for open roles. A Sourcer partners extensively with Recruiters and Hiring Managers to identify, attract, and message appropriate candidates.
+- A sourcer is responsible for sourcing passive and active candidates for open roles. A Sourcer partners extensively with Recruiters and Hiring Managers to [identify](identifying_candidates.md), attract, and message appropriate candidates.
 
 ## How to partner with Recruiters
 

@@ -9,7 +9,9 @@
 
 ## Branded swag
 
-Welcome to our Gifting Guidelines Page! Have a request for swag? Use the [Swag Request Form](https://app.asana.com/0/1200419124213353/list).
+Welcome to our Gifting Guidelines Page! Have a request to send branded swag as an external gift?\* Use the [Swag Request Form](https://form.asana.com/?k=ysBKSzSA2xjRifqqEvFbJQ&d=7195383522959).
+
+> \*Requests for branded swag as internal gifts cannot be supported at this time. See our policies for sending internal gifts [here](../../../benefits-pay-perks/benefits-perks/celebrate.md).
 
 > Note that adding new items to our inventory can take around 8+ weeks if a custom design is being created and applied to the item vs our standard branding and logo applications.
 
@@ -31,7 +33,7 @@ All items in our inventory are the same ones found in our new hire kits, but not
 
 ## How to send a gift
 
-1. Fill in the [Swag Requests](https://app.asana.com/0/1200419124213353/list) form. You will need:
+1. Fill in the [Swag Requests](https://form.asana.com/?k=ysBKSzSA2xjRifqqEvFbJQ&d=7195383522959) form. You will need:
 
 - Name of the recipient
 - Email of the recipient

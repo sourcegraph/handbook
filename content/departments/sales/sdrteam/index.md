@@ -4,27 +4,7 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
 
 ## Members
 
-- [Nicholas Gage](../../../team/index.md#nicholas-gage), Head of Sales Development
-  - West Outbound SDRs
-    - [Kevin "Quigs" Quiqley](../../../team/index.md#kevin-quigley)
-    - [Brannon Rouse](../../../team/index.md#brannon-rouse)
-    - [Carter Jaenichen](../../../team/index.md#carter-jaenichen)
-    - Open
-  - East Outbound SDRs
-    - [Sam Cregg](../../../team/index.md#sam-cregg)
-    - [Ellie Dawson](../../../team/index.md#ellie-dawson)
-    - [Daniel Gwyn]
-    - Open
-  - Inbound SDRs
-    - [Mark "Markie" Muldez](../../../team/index.md#mark-markie-muldez)
-    - Open
-  - EMEA SDRs
-    - [Jagna Feierabend](../../../team/index.md#jagna-feierabend)
-    - Open
-  - APAC SDRs
-    - Open
-  - Commercial SDRs
-    - Open
+{{generator:reporting_structure.head_sales_development}}
 
 ## Quick Links
 
@@ -38,6 +18,8 @@ The SDR team at Sourcegraph is built to source high quality pipeline for the bro
   - [Best Practices](#best-practices)
   - [Tech Stack](#tech-stack)
   - [SDR Promotion Process](#sdr-promotion-process)
+  - [Reccomended SDR Team readings & podcasts](#recommended-sdr-team-reads--podcasts)
+  - [SDR Ramp and quota structure](#sdr-ramp-and-quota-structure)
 
 ## Inbound Workflow
 
@@ -123,12 +105,12 @@ See [SDR/AE Meeting ROE](https://docs.google.com/document/d/1KP1ao_UBZS80s4o0lOM
 
 ## Tech Stack
 
-- Salesforce - Customer Relationship Management
-- Outreach.io - Sales Engagement Platform
-- Linkedin Sales Navigator - Prospecting Tool
-- Zoominfo - Data Intelligence Tool
-- LeadiQ - Data Intelligence Tool
-- Postal.Io - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
+- **Salesforce** - Customer Relationship Management
+- **Outreach.io** - Sales Engagement Platform
+- **Linkedin Sales Navigator** - Prospecting Tool
+- **Zoominfo** - Data Intelligence Tool
+- **LeadiQ** - Data Intelligence Tool
+- **Postal.Io** - B2B Gifting Tool [link](https://drive.google.com/file/d/1qxd23iXgOiiHjAEHFbN5Z8Ojp119Lg4O/view?usp=sharing)
 
 ## SDR Promotion Process
 
@@ -162,7 +144,7 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
   - CE leader (Engineering Leader)
   - Current manager (no role, observer only)
 - 1 Hour presentation that covers the following:
-  - Why are you ready to be an AE at Sourcegraph? 1-2 slides (5 mins)
+  - Why are you ready to be an AE at Sourcegraph? 1–2 slides (5 mins)
     - About you
     - Why sales?
   - Performance in SDR role to date 2~ slides (10 mins)
@@ -180,12 +162,80 @@ The SDR promotion path and process is designed to serve as a pipeline of top tal
 
 **Scoring Criteria for Presentation:**
 
-- Communication- candidate presentation is paced well, transitions are smooth, concepts are clear, everyone is included and heard, filler words are minimal, confidence is apparent
-- Problem Discovery - candidate uses active listening and curiosity to uncover customer pain points
-- Solution Mapping - candidate aligns specific aspects of the Sourcegraph solution to expressed customer needs with an eye towards collecting information that will inform a subsequent demo
-- Objection handling- candidate clarifies and responds to objections without derailing the presentation
-- Next Steps - candidate concludes with next steps that overcome objections and initiates a process that will conclude with a timely close.
+- **Communication** - candidate presentation is paced well, transitions are smooth, concepts are clear, everyone is included and heard, filler words are minimal, confidence is apparent
+- **Problem Discovery** - candidate uses active listening and curiosity to uncover customer pain points
+- **Solution Mapping** - candidate aligns specific aspects of the Sourcegraph solution to expressed customer needs with an eye towards collecting information that will inform a subsequent demo
+- **Objection handling** - candidate clarifies and responds to objections without derailing the presentation
+- **Next Steps** - candidate concludes with next steps that overcome objections and initiates a process that will conclude with a timely close.
 
 [Example prompt and call recordings are located here.](https://docs.google.com/document/d/1SbXuR_Eo42KOXJZBAICr84dXQrBFKHE5Q8ZQFsRlLvE/edit?usp=sharing)
 
 This above process is the template for progression from SDR to Commercial AE. Further iterations will be forthcoming and outlined in this section of the handbook. This page also serves as a framework for the SDR promotion process into other parts of the business (e.g. Marketing).
+
+## Recommended SDR Team Reads & Podcasts
+
+**Books**
+
+- Never Split the Difference
+- The Infinite Game
+- Leaders Eat Last
+- Challenger Sale
+- Blockchain Revolution
+- GAP Selling
+- PLG- Product Led Growth
+- GRIT
+- Start with Why
+- Turning the Flywheel
+- The New Kingmakers
+- The Compound Effect
+- Smarter, Faster, Better
+- So Good They Can't Ignore You
+- Think Again
+- Give and Take
+- The Most Excellent Way to Lead
+- Seven Habits of Highly Successful People
+- How to Win Friends and Influence People
+
+**Podcasts**
+
+- This Week in Startups
+- A Time Shared
+- 30 Minutes to President's Club
+
+## SDR ramp and quota structure
+
+SDRs at Sourcegraph are most often the first people to interact with engineers and developers at companies across the globe. Learning to articulate and position the power of code search is a core component of the role. The ramp period accommodates the learning and practice necessary to engage with engineering organizations and provide value. The ramp period will be four months. The first month begins your first whole month after an SDR’s start date (e.g., the start date is 2/17, the first month of ramp begins 3/1).
+
+**First three weeks:**
+
+- Meet lots of people, start building relationships internally
+- Learn Sourcegraph offerings
+- Understand the use cases that Sourcegraph solves for
+- Practice using the systems used by SDRs every day
+- Conduct demonstrations of different components of the Sourcegraph offering
+- Begin engaging with engineers and developers
+
+**Mont 1 of ramp:**
+
+- Inbound- 2 SAO
+- Outbound- 1 SAOs
+
+  **Month 2:**
+
+- Inbound- 4 SAOs
+- Outbound- 2 SAOs
+
+  **Month 3:**
+
+- Inbound- 6 SAOs
+- Outbound- 3 SAOs
+
+  **Month 4:**
+
+- Inbound- 10 SAOs
+- Outbound- 5 SAOs
+
+  **Fully ramped monthly target:**
+
+- Inbound- 10 SAOs
+- Outbound- 5 SAOs

@@ -26,7 +26,11 @@ Unfortunately, we cannot legally provide personal financial or tax advice. Pleas
 
 ### Are there any non-standard liquidity preferences (anything greater than 1x) on the preferred shares?
 
-Unfortunately, we cannot answer this question publicly due to confidentiality provisions in our fundraising agreements. Sourcegraph teammates, however, can find the answer at https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs.
+Unfortunately, we cannot answer this question publicly due to confidentiality provisions in our fundraising agreements. Sourcegraph teammates, however, can find the answer at [Sourcegraph Stock Options FAQ](https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs).
+
+### Is there a good primer to learn the basics of equity?
+
+Carta offers an [Equity Education Center](https://carta.com/equity/) that teammates who are new to equity have found helpful.
 
 ### How much time do I have to exercise the stock options that have vested if I leave?
 
@@ -43,7 +47,7 @@ Since Sourcegraph’s stock isn’t actively or publicly traded, there is unfort
 
 However, that is a flawed view. Because our stock _can’t_ be sold today, we have to make predictions about what it could be worth in the future. This is why we present a range of outcomes in offer presentations instead of just using the latest value (but of course, even using scenarios is imprecise, due to unknowns like future dilution and tax rates).
 
-Importantly, because Sourcegraph is a growing startup, looking at the latest value in our offer presentation leaves out a lot of important nuance. You could go work at a larger, more established company, and get an equity grant worth more "today", but the upside may be lower (and of course the downside may also be lesser). Volatility, or the expectation of change in the future, is fundamentally valuable when it comes to options.
+Importantly, because Sourcegraph is a growing startup, looking at the latest value in our offer presentation leaves out a lot of important nuances. You could go work at a larger, more established company, and get an equity grant worth more "today", but the upside may be lower (and of course the downside may also be lesser). Volatility, or the expectation of change in the future, is fundamentally valuable when it comes to options.
 
 So while it’s easy to plug our recent numbers into one of several calculators, it’s just not that simple. We believe that a view of different future scenarios like we provide in offer letters is the best way to communicate a range of outcomes. The People Ops team can provide this calculation for you if you are ever interested.
 
@@ -67,7 +71,7 @@ Timing your exercises can have tax implications or benefits.
 
 Unfortunately, we cannot provide personal financial or tax advice. Please speak to your own tax advisor.
 
-### If I early exercise my options, should I file an 83(b) election?
+### If I exercise my options early, should I file an 83(b) election?
 
 If you are a US taxpayer, you must download your 83(b) elections from Carta and file them with the IRS within thirty (30) days of the date of your early exercise if you want to avoid owing additional taxes on any subsequent gains in the value of your options upon vesting.
 
@@ -89,7 +93,7 @@ You can find more information about 83(b) elections [here](https://carta.com/blo
 
 ### What percentage of the company does each share represent, including common stock, restricted stock, outstanding options, etc.?
 
-We do not share this number publicly, but Sourcegraph teammates can find the current count of fully-diluted shares outstanding at https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs.
+We do not share this number publicly. Sourcegraph teammates can view the current count of fully-diluted shares outstanding [here](https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs).
 
 Every time we raise money from investors, this total amount increases (and it can increase for a variety of other reasons as well, such as increasing the number of options that can be granted), so there is no guarantee that it will stay the same, and there is no limit on the number of shares that could come into play.
 

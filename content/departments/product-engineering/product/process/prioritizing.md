@@ -86,7 +86,7 @@ Sometimes, we need to prioritize changes to our product on _very_ short notice d
 However, extenuating circumstances exist that would encourage us to break this rule (all subject to interpretation):
 
 - A bug that is significantly impacting Sourcegraph Cloud.
-- A bug that is significantly impacting a managed or on-premise instance.
+- A bug that is significantly impacting a managed or on-premises instance.
 - A bug that is significantly impacting a prospective customer.
 - Critical, time-sensitive opportunities.
 
@@ -114,11 +114,11 @@ Features are no different than products in their need to acquire visitors, activ
 
 To improve prioritization so that teams consider these stages as part of feature development, some product teams are experimenting with Dave McClure's pirate framework. This framework condenses these phases into an easy to remember (if not comical sounding) mnemonic:
 
-- Acquisition - grow the number of users using the feature
-- Activation - improve the number of users who see value
-- Retention - ensure activated users come back to the feature
-- Referral - ensure your users invite other users
-- Revenue - understand how the feature contributes back to the business.
+- **Acquisition** - grow the number of users using the feature
+- **Activation** - improve the number of users who see value
+- **Retention** - ensure activated users come back to the feature
+- **Referral** - ensure your users invite other users
+- **Revenue** - understand how the feature contributes back to the business.
 
 Learn more about the framework with this [introduction](https://medium.com/@ginoarendsz/an-introduction-to-the-aarrr-framework-b8570d6ae0d2) or Dave McClure's [slide deck on the topic](https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version).
 

@@ -1,6 +1,6 @@
 # Developer Education
 
-At Sourcegraph, we want to make it so everyone can code — not just ~0.1% of the world population — so that we can see faster and more broadly beneficial technological progress. The Developer Education team will be collaborating across the organization to empower developers and support their growth.
+At Sourcegraph, we want to make it so everyone can code—not just ~0.1% of the world population—so that we can see faster and more broadly beneficial technological progress. The Developer Education team will be collaborating across the organization to empower developers and support their growth.
 
 ## Mission and vision
 

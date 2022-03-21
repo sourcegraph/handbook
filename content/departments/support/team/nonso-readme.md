@@ -2,7 +2,7 @@
 
 ### My view on customer support
 
-At its core, support is really about what most of us were taught as kids - be kind to starngers, do all you can to help people and give your best every single time.
+At its core, support is really about what most of us were taught as kids—be kind to strangers, do all you can to help people and give your best every single time.
 
 ### Preferred learning styles
 
@@ -26,11 +26,11 @@ I am a little uncomfortable about being praised publicly but only because it put
 
 ### Thoughts/feelings/preferences when it comes to asking for help
 
-I am happy to ask for help - but only after I've first tried to find the answer myself without success.
+I am happy to ask for help—but only after I've first tried to find the answer myself without success.
 
 ### What I find enjoyable at work
 
-Metting people, learning new things, solving problems and sharing what I have learned.
+Meeting people, learning new things, solving problems and sharing what I have learned.
 
 ### What kind of work do I find easiest to do when
 

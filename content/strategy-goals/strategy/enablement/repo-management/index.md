@@ -8,108 +8,98 @@ This page outlines the vision, strategy, and goals of the [Repository Management
 
 ## Mission
 
-Our mission is to maintain and evolve the methods by which code is pulled into Sourcegraph from code hosts, in a way that supports all required functionality while maximizing performance, reliability, and ease of use.
-
-We also have temporary custody of Authentication, with the aspiration being to split the team to give auth a dedicated team to own it. As a result, unless otherwise specified, the rest of this page relates to Repo Management and code host work.
+Our mission (which we do choose to accept) is to ensure that Sourcegraph’s most critical prerequisite to providing awesome customer value—access to code—is robust, stable and meets the needs of our customers, both directly and in how it underpins everything else in Sourcegraph.
 
 ## Vision
 
 ### 1 Year vision
 
-> Sourcegraph provides the means to simply, easily, and reliably connect to all common code management systems, allowing you to use any of Sourcegraph’s brilliant functionality with any of your code, regardless of its storage system. Our support of different code hosts scales to the biggest companies with minimal customizations.
+> Our support of currently supported code hosts scales to the biggest companies with minimal customization or friction.
 
-> Sourcegraph’s own engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization.
+> Sourcegraph engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization.
 
 ### 3 Year vision
 
 > Sourcegraph is easily set up to access any code management system, regardless of type. Sourcegraph functionality works with any code, from anywhere.
 
-## Guiding principles
+## Mental Model
 
-- We aim to support code hosts consistently
-- We prioritize work that supports the majority of customers (current and future), sometimes compromising what we can offer to individual customers whose needs are not aligned with our strategic decisions
-- Sourcegraph users, ranging from individual developers to central administrators (often called “site admins”) get value from our work as it is utilized to set up code host connections
-- Many customers utilize more than one code management system and do not want to have to take code host differences into account, so we aim to make the setup, management, and capabilities of our code host support consistent, despite the technical differences between them
-- We aim to ensure our setup of code hosts is simple enough for any engineer but also ensure that we provide documentation that is sufficiently clear that any user could follow it to set up code hosts
-- Many customers have a large number of repos. Performance, scalability, reliability, and resilience are as important as the ease of setup
-- Our Sourcegraph engineering team uses the code host connections and replicated code to provide their own functionality. As such, we aim to make sure that the support of code hosts is as consistent as the different code hosts allow in terms of facilitating the functionality Sourcegraph offers
+Repo Management is both an externally and internally facing team, as we not only have to balance the direct needs of customers who directly set up and engage with the functionality we provide, but we also underpin most of Sourcegraph’s featuresby providing them access to customers’ code.
 
-## Top customer, support, sales and marketing issues
+Our vision is therefore derived from customer insights and awareness of market trends, but is also coupled to the vision of all other teams within Sourcegraph: we are only successful if we’re enabling the maximum number of teams to hit their goals. Our roadmap is therefore comprised of direct customer needs, functional gaps in the product, as well as preempting work in support of other Sourcegraph teams’ roadmaps.
 
-Note that these are order by approximate known revenue impacted - but that the figures are likely not to be representive of the total value, and so the order in which these get address may not correlate with the order here. Click on the product gap link to find out the up to date impacted revenue amount.
+We avoid blocking other teams by delivering new features and performance improvements before those teams and our customers feel their need. We identify potential upcoming bottlenecks by partnering with other Sourcegraph teams, current customers, and future customers to understand their vision and where Repo Management may block them from achieving their own visions.
 
-#### Perforce support
+Building a multi-year product vision is hard, but Repo Management can’t effectively serve our customers if we don’t know where they want to be in the future. Every team in Sourcegraph depends on Repo Management and we can’t achieve our goals without building a technical strategy that best supports the maximum number of our customers.
 
-- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkT1nEAF/view)
+We believe that solving our big rocks is non-trivial and our strategic projects are technically complex implementations that can take multiple engineering months to complete. This means we need to start working now on features that teams and customers need in 6 months. For example, if Batch Changes wants to deliver feature X in Q1 2024 and feature X depends on feature Y from Repo Management, then Repo Management may need to begin work at least as early as Q3 2023 to avoid becoming a blocker.
 
-#### Gerrit Permissions syncing
+We solve problems in a way that increases our support exponentially, instead of delivering value linearly. This means that, where possible, we design solutions that scale to multiple use cases: we would rather design sub-repo permissions in a way that supports all code hosts, instead of designing and delivering a solution for git, then Perforce, then CVS.
 
-- **Why** Lack of support for Gerrit permissions
-- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000Il6IFEAZ/view)
+## How We Plan
 
-#### [Phabricator support](https://github.com/sourcegraph/sourcegraph/issues/25111)
+We prioritize work across two delivery streams:
 
-- **Why:** Phabricator support within Sourcegraph was never properly implemented, resulting in limited support.
-- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxK8EAJ/view)
+1.  Product Engineering: Unblocking new and existing customers and other engineering teams by delivering new functionality or expanding coverage of existing features
+1.  Performance Engineering: Strategic investments to improve the performance, scalability and reliability of our infrastructure to stay ahead of Sourcegraph’s growth curve
 
-#### [Bitbucket Cloud permission syncing](https://github.com/sourcegraph/sourcegraph/issues/19782)
+We prioritize work differently depending on the delivery stream.
 
-- **Why:** Atlassian are ending support for BitBucket Server and staring moving all customers to the Cloud. But Sourcegraph doesn't currently support native permission syncing for BitBucket Cloud.
-- [Approximate revenue impacted](https://sourcegraph2020.lightning.force.com/lightning/r/a1B3t00000IkxMkEAJ/view)
+### Product Engineering
+
+We prioritize work in the product engineering delivery stream using one metric: (I)ARR. We work with customer engineering and sales to assign all projects an expected revenue impact within a set timeframe. Sometimes, when the timeframe stretches beyond the sales pipeline, the value is entirely speculative.
+
+We can deliver the expected revenue impact in two ways:
+Directly deliver functionality that unblocks a new customer or expansion of an existing customer (e.g. launch native SVN support to unblock the revenue linked to specific prospects)
+Unblock feature launches from other Sourcegraph engineering teams by delivering services that have a dependency on (e.g. need good example)
+
+While revenue is the primary metric for prioritization, we do accommodate work that underpins critical company goals, and other metrics are taken into account, such as the severity of the the customers need (i.e a large amount of revenue not blocked by a “nice to have” request is unlikely to supercede even a moderate amount of blocked revenue).
+
+> In FY23, our focus and effort is going to be guided far more on the basis of our existing customers, on the basis that they and their needs are representative of our target market. For now, we will therefore be focusing on rounding out and strengthening our offering, rather than trying to stretch to expand into the long tail of code hosts.
+
+### Performance Engineering
+
+We prioritize work in the performance engineering delivery stream by using our deep system knowledge to identify future scaling, performance, or scalability concerns. These concerns are judged against the benchmark of our largest customers and prospects - but with the aim to significant exceed current needs, in order to satisfy unpredictable future need. Sometimes we undertake work that, rather than being directly customer impacting, is instead related to our future ability to deliver customer value - such as rearchitecting the system to unblock faster development or future system enhancements. These projects may not directly impact ARR, but they drive long-term improvements to our systems, ensuring we don’t negatively impact customers or other teams in the future.
+
+## Product Gaps
+
+[This document](https://docs.google.com/document/d/14P-QtLBjd264I9-p70wL6rP36_GltAGsF18sMWawzGc/edit#heading=h.vki1iuq1jfl1) is an analysis of all currently recorded product gaps linked to our team.
 
 # Strategy and plans
 
 ## What's next and why
 
-Note that the time periods are rolling time periods and the plans here are reviewed and updated monthly.
+> ℹ️ [Full list of the tracking issues for Repo Management](https://github.com/orgs/sourcegraph/projects/214/views/21?filterQuery=label%3A%22team%2Frepo-management%22)
 
-### Short term (3m)
+### FY23 Q1
 
-#### Monorepo support
+#### Sub-repository permissions
 
-- **Current status:** In progress
-- **Expected effort:** <5% team time (our role is largely in support of the [Search team](../../code-graph/search) who owns this work)
-- **Why:** Monorepos are commonplace but exert a huge toll on systems like ours - so much so that customers feel a significant ammount of pain and with
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31226
 
-#### [GitServer HA](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
+#### Implement native Gerrit support
 
-- **Current status:** In progress
-- **Expected effort:** ~50% team time
-- **Why:** Code host connectivity, scalability and reliability is at the heart of our product, underpinning literally all other features. As we scale the size of customers we’re trying to win and delight, we cannot avoid tactical work to expand our functional coverage (which code hosts we support and how completely), but we also need to ensure Sourcegraph can handle the current and future challenges that the largest customers will throw at it with regards to the size of their repos, number of repos and performance required. This is partially in aid of monorepo support, and partly system resilience.
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31227
 
-- [ ] Current work is related to replacing the hashing algorithm to prevent the redistribution (rebalancing) of repos across the available Gitservers when a Gitserver is added or removed.
-- [ ] Next step is to trial repo duplication (copies on more than one Gitserver) in Sourcegraph.com
-- [ ] After that, making control of the replication factor customer editable (likely not in Q3)
-- [ ] Future work (Not within Q3) - sharding monorepos across multiple Gitservers
+#### Provide CVS Support via Explicit Permissions API
 
-#### Perforce support
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31405
 
-- **Current status:** In progress
-- **Expected effort:** ~10% team time
-- **Why:** Support our largest customers in a robust and reliable way, no matter how many repos and what size.
+#### Simplified method to trigger per-repo sync for more up to date results
 
-- [x] Support Perforce wildcard permission syncing (completed by the Distribution team - [docs](https://docs.sourcegraph.com/admin/repo/perforce#wildcards))
-- [ ] Improved git-p4 repo syncing performance
-  - Close collaboration between Distribution team and [large customer](https://github.com/sourcegraph/accounts/issues/6716)
-  - We were able to make massive headway updating git-p4, but the customer have produced an even faster C++ version
-  - Currently in the process of adopting this into our product for use behind a feature flag - [GH Issue](https://github.com/sourcegraph/sourcegraph/issues/25583)
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31228
 
-### Mid term (6m)
+#### Revised hashing algorithm
 
-#### [GitServer HA Cont.](https://docs.google.com/document/d/1U5KmrVRezD1wjs1g2dBkeCJIfGTJ4dzZ8zXudJaDNNU/edit#)
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31229
 
-- **Why:** Support our largest customers in a robust and reliable way, no matter how many repos and what size.
-- **What:** Better support for monorepos, likely through better utilization of ability to replicate or shard monorepos across multiple GitServer instances within Sourcegraph
+#### Architectural planning
 
-#### Gerrit Permissions syncing
+**Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31230
 
-- **Why:** Needed to unblock at least 1 [customer](https://github.com/sourcegraph/accounts/issues/246). We are currently [investigating](https://github.com/sourcegraph/sourcegraph/issues/23563) the value to other customers who are known Gerrit users, and the depth of support needed.
-- **What:** Gerrit supports permissions more granular than just repo-level. Since this is needed to properly (in a long term way) support Perforce too, we're expecting to do work to change our internal model to support more granualr permissions, then add Gerrit support properly on top of this.
+### FY23 Q2
 
-#### [BB Cloud permissions](https://github.com/sourcegraph/sourcegraph/issues/19782)
-
-- **Why:** Currently blocking expansion for at least [one large customer](https://github.com/sourcegraph/customer/issues/288) as well as being strategically valuable as Atlassian have announce EOL for BB Server, meaning many other BB Server customers will likely move to BB Cloud and want this support.
-- **What:** Support permissions syncing for BitBucket Cloud.
+TBD
 
 ## What we're not working on
 
@@ -117,3 +107,9 @@ Note that the time periods are rolling time periods and the plans here are revie
 
 - **Current status:** Under investigation
 - Currently under investigation to try and ID customer need in light of upcoming Phabricator deprication.
+
+## Related use cases
+
+This section lists use cases that are related to this product team, along with the specific relevant features.
+
+{{generator:product_team_use_case_list.repository_management}}

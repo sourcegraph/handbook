@@ -12,7 +12,7 @@ Headings and subheadings in our interfaces have three goals:
 
 Some specific guidelines for writing headings and subheadings:
 
-- **Be concise.** Headings and subheadings should be scannable and use only as many words are needed to convey their meaning.
+- **Be concise.** Headings and subheadings should be scannable and use only as many words as needed to convey their meaning.
 - **Write in sentence case.** Sentence case makes it feel less stiff and formal.
 - **Don’t use punctuation** like periods or semicolons.
 
@@ -289,7 +289,7 @@ Links in full sentences shouldn’t link the whole sentence, but instead only th
 
 ### Outside of sentences
 
-Links that aren’t in full sentences should be treated similarly to buttons, and use the `verb` + `noun` pattern. Don’t punctuate, except with questions marks.
+Links that aren’t in full sentences should be treated similarly to buttons, and use the `verb` + `noun` pattern. Don’t punctuate, except with question marks.
 
 <div class="usage">
 <div class="item yes">
@@ -599,3 +599,17 @@ This is particularly important for helper messages on input fields.
 
 </div>
 </div>
+
+### Writing about use cases
+
+When prompting users about or writing about our 5 company uses cases, we can't assume that users are familiar with our terminology: a developer does not necessarily have in mind that they are using Sourcegraph for “Code Health”.
+
+Instead we can use this more intuitive (but less accurate) language:
+
+| Sourcegraph use case                                                                                             | "You are using Sourcegraph to..."     |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| [Developer Onboarding](../../../strategy-goals/strategy/use-cases/dev-onboarding.md)                             | Understand a new part of the codebase |
+| [Code Health](../../../strategy-goals/strategy/use-cases/code-health.md)                                         | Improve codebase quality              |
+| [Code Reuse](../../../strategy-goals/strategy/use-cases/code-reuse.md)                                           | Find code to reuse                    |
+| [Incident response](../../../strategy-goals/strategy/use-cases/incident-response.md)                             | Respond to incidents                  |
+| [Fixing security vulnerabilities](../../../strategy-goals/strategy/use-cases/fixing-security-vulnerabilities.md) | Fix security vulnerabilities          |

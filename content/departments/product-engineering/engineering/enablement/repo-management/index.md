@@ -4,19 +4,11 @@ The Repo Management team is part of the [Enablement](../index.md) org.
 
 ## Mission
 
-Our mission is to maintain and evolve the methods by which code is pulled into Sourcegraph from code hosts, in a way that supports all required functionality while maximizing performance, reliability, and ease of use.
-
-We also have temporary custody of Authentication, with the aspiration being to split the team to give auth a dedicated team to own it.
+Our mission (which we do choose to accept) is to ensure that Sourcegraph’s most critical prerequisite to providing awesome customer value—access to code—is robust, stable and meets the needs of our customers, both directly and in how it underpins everything else in Sourcegraph.
 
 ## Members
 
-- [Dan Mckeen](../../../../../team/index.md#dan-mckean) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Jordan Plahn](../../../../../team/index.md#jordan-plahn) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Ryan Slade](../../../../../team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../../../team/index.md#indradhanush-gupta)
-  - [Molly Weitzel](../../../../../team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../../../team/index.md#alexander-ostrikov)
-  - [Asdine El Hrychy](../../../../../team/index.md#asdine-el-hrychy)
+{{generator:product_team.repo_management}}
 
 ## Strategy
 
@@ -63,3 +55,8 @@ We also have a set of [guiding principles](../../../../../strategy-goals/strateg
 ## Internal
 
 [Internal page](internal.md) geared towards Repo Management team members.
+
+## Other
+
+- [Operational rotation](operational-rotation.md)
+- [Internships](internships.md)

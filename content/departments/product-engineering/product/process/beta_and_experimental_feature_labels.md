@@ -2,11 +2,11 @@
 
 We use a hierarchy of feature labels to set expectations with our users and internally: `Experimental` ➡️ `Beta` ➡️ GA.
 
-[GA ("General Availability")](https://www.productplan.com/glossary/general-availability/) has no in-product label and is the default user assumption for an unlabelled feature.
+[GA ("General Availability")](https://www.productplan.com/glossary/general-availability/) has no in-product label and is the default user assumption for an unlabeled feature.
 
 ## Why we use these labels:
 
-Labelling features correctly lets us move quickly and release early in order to validate our direction. An `Experimental` or `Beta` label and its [corresponding user-facing documentation](https://docs.sourcegraph.com/admin/beta_and_prototype_features):
+Labeling features correctly lets us move quickly and release early in order to validate our direction. An `Experimental` or `Beta` label and its [corresponding user-facing documentation](https://docs.sourcegraph.com/admin/beta_and_prototype_features):
 
 - Set expectations so users are more forgiving of bugs
 - Make users less likely to assume the overall quality of Sourcegraph is as brittle as an early feature might be

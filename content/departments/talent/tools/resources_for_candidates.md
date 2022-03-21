@@ -2,11 +2,15 @@
 
 # How to apply
 
-The source-of-truth for our open positions is [our careers page](https://boards.greenhouse.io/sourcegraph91).
+The source-of-truth for our open positions is [our careers page](https://about.sourcegraph.com/jobs/).
 
 We want to build a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, please apply anyway. We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 
-We are growing rapidly and post new jobs on a weekly basis. We encourage you to check our [our careers page](https://boards.greenhouse.io/sourcegraph91) regularly to see if there is a match.
+We are growing rapidly and post new jobs on a weekly basis. We encourage you to check our [our careers page](https://about.sourcegraph.com/jobs/) regularly to see if there is a match.
+
+### Policy for candidates re-applying to roles
+
+Candidates are able to re-apply for roles at any time. The hiring team will review all relevant information, including past interviews, when considering a person's candidacy.
 
 # Working at Sourcegraph
 
@@ -29,7 +33,7 @@ We know that interviewing can be stressful and that a lot of time and energy is 
 Specifically, we aim to provide a positive candidate experience by...
 
 - Treating all candidates with respect at all stages, regardless of hiring outcome.
-- Writing our job descriptions as clearly as possible to ensure you have a good understanding of the job and the impact you would make in the role. All job descriptions are written in an [inclusive format](../process/interview_process.md#creating-a-job-description), encouraging candidates from all walks of life to apply.
+- Writing our job descriptions as clearly as possible to ensure you have a good understanding of the job and the impact you would make in the role. All job descriptions are written in an [inclusive format](../process/interview_process.md#creating-a-job-description), encouraging candidates from all walks of life to apply. Each job description focuses on the impact a candidate will make vs. a list of requirements. Our team contains highly motivated and productive members who've joined immediately after high school/university or after 10+ years of working at some of the best companies. You can read more about our job description philosophy [here](../process/opening_a_new_job.md). We want a diverse, global team, with a broad range of experience and perspectives. If a job sounds great, but you’re not sure if you qualify, apply anyway! We carefully consider every application, and will either move forward with you, find another team that might be a better fit, keep in touch for future opportunities, or thank you for your time.
 - Ensuring that our interview process is structured, that all interview questions [are planned](../process/interview_process.md#creating-an-interview-plann) in advance of all interviews.
 - [Recording our interviews](../tools/guide_to_using_brighthire.md) to ensure we are focused on what you are saying, and not on taking notes.
 - Providing candidates with the tools to be successful in an interview, including transparency around our [interview process](../process/interview_process.md), information about what to expect at a given [stage of the interview](../process/types_of_interviews.md), and resources on [how to prepare](../process/how_to_prepare_for_candidates.md) for the interview.
@@ -41,18 +45,14 @@ Specifically, we aim to provide a positive candidate experience by...
 
 Interviewing requires time and effort, both for Sourcegraph teammates and for our candidates. The hiring manager is responsible for monitoring feedback during the interview phase, and if it becomes obvious that we won't be moving forward with a candidate, then the hiring manager should cancel any remaining interviews to be respectful of both the candidate's and interviewers' time.
 
-### Policy for candidates re-applying to roles
-
-Candidates are welcome to re-apply for roles at any time. The talent team will review all relevant information, including past interview feedback, when considering a person's candidacy.
-
 ### Early-career Engineering Hiring
 
-Our goal to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../../product-engineering/engineering/hiring/early-career-engineers.md)
+Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../../product-engineering/engineering/hiring/early-career-engineers.md).
 
 # Interviewing at Sourcegraph
 
-- [Our interview process](../process/interview_process.md).
-- [Types of interviews](../process//types_of_interviews.md).
+- [Our interview process](../process/interview_process.md)
+- [Types of interviews](../process//types_of_interviews.md)
 
 # How to prepare for an interview
 
@@ -76,9 +76,24 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 ### Types of interviews
 
-- We encourage you to read about the [different types of interviews](../process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
+We encourage you to read about the [different types of interviews](../process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
 
-### Helpful links
+# What to expect after an interview
+
+### When you'll hear back
+
+- We do our best to provide a decision (whether we're moving forward or not moving forward) within 5 business days of the interview. If you want an update on the status of your application, please email recruiting@sourcegraph.com
+
+### Sharing interview feedback
+
+We don't share specific reasons or feedback if we decide not to move forward in our hiring process with a candidate. It would be nice if we could give feedback like this, but we don't do this today. Why?
+
+- The written feedback that we collect during our interview process is intended for an internal audience. We don't ask our interviewers to spend time and effort packaging their feedback in a way that can be delivered directly to candidates.
+- Adequately summarizing all interview feedback for a candidate is challenging and time consuming. We choose to spend our time focusing on delivering developmental feedback to our existing teammates.
+- If any interviewer is asked by a candidate for interview feedback, they may respond with the following message:
+  > I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it.
+
+# Helpful links
 
 - We are a [transparent](../../marketing/process/messaging.md) company and everything we do lives in our [Handbook](https://about.sourcegraph.com/handbook). We encourage you to read through it prior to your interview.
 - Our [messaging and definitions](../../marketing/process/messaging.md) should help you better understand what Sourcegraph does.
@@ -91,7 +106,20 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 - Q: How is Sourcegraph doing from a financial standpoint?
 
-  - A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions). To learn more about our company financials, click [here](../process/index.md#sharing-company-financials).
+  - A: Choosing to join a company is a significant commitment. We want people to have an accurate view of Sourcegraph's financial and business position before they join. (Every Sourcegraph team member after they join has regular access to this information on our Google Drive, and they can ask the CEO directly if they have any other questions.)
+
+> Hiring managers: If you're asked a question like this and you aren't 100% confident about the answer, please pass the question to the VP Talent and VP Operations.
+
+1. What is the company's latest valuation? (We share this when we give you the offer.)
+1. What percentage of the company does my option grant represent? (We share this when we give you the offer.)
+1. What is the total number of fully diluted shares? (You can calculate this from the number of options in your grant and the percentage that represents, but we're also happy to share this number.)
+1. Other details about options. (These are covered in the employment paperwork you will receive.)
+
+Here are some other questions that candidates have asked (e.g., in the [CEO interview](../../../team/ceo/index.md#interviews-with-me)):
+
+1. What is the current runway and the monthly burn rate?
+1. How much cash does the company have in the bank?
+1. Other [questions about Sourcegraph's internal financial metrics](../../../team/ceo/index.md#questions-about-sourcegraph).
 
 - Q: Can I work from anywhere?
 
@@ -110,10 +138,6 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 - Q: Does Sourcegraph check references?
 
   - A: References can be requested by the hiring manager on a case-by-case basis. If we choose to conduct a reference check, we will send you a reference request form via Greenhouse, and we will never check your references without your explicit consent. You can read more about our reference check process [here](../process/reference_check_questions.md).
-
-- Q: Does Sourcegraph provide feedback to candidates who don't receive an offer?
-
-  - A: We do not provide feedback to candidates at this time. We encourage you to read more about our [philosophy regarding sharing candidate feedback](../process/index.md#sharing-interview-feedback).
 
 - Q: Do you provide Visa sponsorship?
 

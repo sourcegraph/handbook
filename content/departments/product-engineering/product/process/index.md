@@ -1,42 +1,29 @@
-# Product Management
+# Product Management Process
 
 This page contains information that is relevant for how to do well at your job as a product manager. For information that is relevant to the whole company, including all product managers, check the index at the [product home](../index.md) page.
 
 ## Product process
 
-- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan.
+- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan. See also [design workshops](../design/workshops/index.md) and our [user research page](user_research/index.md) for design and research activities that can contribute to planning.
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
+- [Surfacing feedback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
-- [Responding to user feedback](responding_to_user_feedback.md) - how we respond to user feedback for the feedback channels the product team owns.
+- [The product feedback rotation](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
 
-### Keeping strategy up to date
+## Product data
 
-Sourcegraph has a top-level [strategy page](../../../../strategy-goals/strategy/index.md) that describes at a high level where our product is headed and why. Everyone contributes to this page, and it's important to be familiar with its contents. In addition to this shared content, each team has a set of non-overlapping sources of truth that they should review and update regularly:
-
-#### OKR and roadmap tracking
-
-See the [Product & Engineering handbook on sharing progress](../../process/planning-process.md#sharing-progress) for weekly, monthly, and quarterly steps needed for tracking progress on OKRs and the roadmap.
-
-#### Per-team strategy pages
-
-We also use [per-team strategy pages](../../../../strategy-goals/strategy/index.md#per-team-strategy-pages) as a [narrative framework](https://www.mindtheproduct.com/the-importance-of-narrative/) for prioritization, to document trade-offs between goals, and to communicate strategy outwardly. Because this is a longer outlook, they tend to not change much each month but should be reviewed. Be sure to @ mention your engineering, design, product marketing, and any other important partners for feedback in your monthly update PR.
-
-Engineering should feel empowered to bring up that they feel strongly about in conversations with product. [We want to push decisions down to people closest to those problems](../../../../company-info-and-process/communication/decisions.md#what-makes-an-effective-decision). It is product's responsibility to help give insight into customer pains and feedback, strategic priorities, and to ensure consistency across the product.
-
-We ask that teams leverage the [Strategy page template](https://github.com/sourcegraph/handbook/blob/main/page_templates/strategy_template.md) when creating and updating content.
-
-#### Product data
-
-The last thing teams should review and update monthly are the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/), in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).
+Teams should review and update the product [data files](https://github.com/sourcegraph/handbook/blob/main/data/) monthly, in particular the [features.yml](https://github.com/sourcegraph/handbook/blob/main/data/features.yml) in case the feature has reached a new maturity, delivered new code host compatibility, or otherwise updated any information displayed on the automatically generated [product team and feature reference pages](../index.md##product-team-and-feature-matrices).
 
 Part of the product data is a (internal-only) list of [what's supported](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279), which contains extended product information for our Sales and Support teams. This should also be manually reviewed and updated as feature capabilities evolve.
 
 ## Glossary
+
+There is also a [company-wide glossary of terms](../../../../company-info-and-process/onboarding/glossary.md) we use, the below are specific to the product team.
 
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
@@ -45,12 +32,45 @@ Part of the product data is a (internal-only) list of [what's supported](https:/
 - Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
+- Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
+- Early access enrollment: Referring to the process of enabling early access for customers or prospects so they can begin using an [Experimental or Beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features) feature.
+- New user experience: Referring to the user journey of a new user of Sourcegraph in and around the product.
 
 Launch tier levels (L1, L2, and L3) are also an important term to be aware of, and the definitions as well as process/source of truth are documented on the [marketing launch page](../../../marketing/product-marketing/marketing_launch_tiers.md).
+
+## Use case sponsorship
+
+Our [use cases](../../../../strategy-goals/strategy/use-cases/index.md) help us align our platform, products, features, and roadmap to the most important value drivers for our customers. The use cases are problems that our customers encounter that our product helps solve, and in Product and Engineering we’re building for these scenarios, demonstrating a clear progression of solving our customers' (and potential customers') pain points over time. When we talk about what’s coming next on the roadmap, we think about how we’re enhancing the product to better solve these use cases. They provide general alignment and focus that the team is constantly thinking about, across the organization and within our product teams and features. When we package together Sourcegraph’s products like search, code insights, code intelligence, batch changes, notebooks - we’re able to create a cohesive and compelling narrative and solution in a particular use case for the end-user.
+
+To support the ongoing maintenance and improvement of each use case, each can have a designated product, design, and engineering sponsor. That group is responsible for:
+
+- Working just like a team-based design/product/engineering triad, but with a focus on a specific use case
+- Being a point of contact for people with product, design, and/or engineering ideas/questions about the use case
+- Facilitating flow of ideas to owning teams backlogs as necessary
+- Including designers and researchers as needed to make sure that the features for use cases have a coherent flow and user experience, and that the voice of the customer is properly included.
+- Maintaining the use case strategy pages, including ensuring they are ready for planning. This can include talking to customers, internal teams, stakeholders or other kinds of research. This does NOT include maintaining a use case backlog, but just making sure ideas, trends, and important product/design/engineering concepts associated with the use case are documented on (or linked to from) the strategy page and captured in an actionable format (i.e., RFC, PD).
+
+The assigned sponsors for each use case are listed on the individual [use case pages](../../../../strategy-goals/strategy/use-cases/index.md).
 
 ## Collaboration
 
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
+
+Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-org-team-collab.md).
+
+### Executive decisions
+
+There are some classes of questions that occasionally require an executive level in order to proceed, usually because they are part of a high level strategic decision or because they require making tradeoffs between different organizations or departments within the company. Some examples of these in the past which have gotten stuck are:
+
+- Pricing strategy
+- Upgrade strategy
+- Competitive strategy
+- Prioritization across org/department boundaries
+- Decisions when values conflict
+
+The procedure is for the team who needs clarity around any of these kinds of items to write a proposal with how they would like to proceed, which can be added to the [executive decision log](https://docs.google.com/document/d/14snvXSR_SosGfO9GFZHZ4GPy94omcEuDUUKrLdqUQuw/edit#).
+
+It's important to keep in mind that, when multiple parties are disagreeing on the path forward, it's important to lean in with empathy ([escalate cleanly](../../../../company-info-and-process/communication/conflicts.md#clean-escalation)) and ensure everyone understands each others views. You won't always come to an agreement because of different priorities/contexts, but you should always be able to come to a mutual understanding of the trade-offs that you can present together for a decision.
 
 ### Product Management & Marketing
 
@@ -79,7 +99,7 @@ Since we have the same goal of launching products that drive adoption and revenu
 
 ### Feature roll-outs
 
-Communications around feature roll-out are especially important, and are documented on[the rollout process](./rollout_process.md#communications) page.
+Communications around feature roll-out are especially important, and are documented on [the rollout process](./rollout_process.md#communications) page.
 
 ### Talking to customers and stakeholders
 

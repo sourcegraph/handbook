@@ -26,7 +26,7 @@ Learning resources on Sourcegraph Learn must go through a review process, both a
 
 When a piece is in the "In progress" column, it is not ready for review.
 
-Content should be written in markdown, self-reviewed, and then passed to the **Review** column when it is in a state that is virtually ready to be a pull request. Headings should be in place and all links should be added (there should be no `TODO`s). This is necessary so that there are no errors, broken links, test failures, or other surprises before publication. Currently, we are using Google Docs as a collaboration tool as it provides a level of granularity that is not possible on GitHub. Documents should be shared for **editing** access across the Sourcegraph team (preferrable) or **commenting** access.
+Content should be written in markdown, self-reviewed, and then passed to the **Review** column when it is in a state that is virtually ready to be a pull request. Headings should be in place and all links should be added (there should be no `TODO`s). This is necessary so that there are no errors, broken links, test failures, or other surprises before publication. Currently, we are using Google Docs as a collaboration tool as it provides a level of granularity that is not possible on GitHub. Documents should be shared for **editing** access across the Sourcegraph team (preferable) or **commenting** access.
 
 When a piece is moved to the **Reviewing** stage, it is being reviewed. The piece should not be worked on by anyone other than the reviewer at this time. Reviewers should be in **commenting** mode, provide holistic feedback, and explain suggestions throughout.
 
@@ -44,4 +44,4 @@ Prior to contributing new code, the team must review functionality, perform test
 
 All code must be tested locally by the reviewer before it is marked as approved.
 
-For requests outside of the team, please review [Developer Education requets](requests.md).
+For requests outside of the team, please review [Developer Education requests](requests.md).

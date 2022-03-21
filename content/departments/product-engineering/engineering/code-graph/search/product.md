@@ -23,13 +23,7 @@ To learn more about our goals, see the [Search Product strategy](../../../../../
 
 ## Team members
 
-- [Ben Venker](../../../../../team/index.md#rob-rhyne) and [Quinn Keast](../../../../../team/index.md#quinn-keast) ([Product Designers](../../../product/roles/index.md#product-designer))
-- [Loïc Guychard](../../../../../team/index.md#loïc-guychard) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#search-product-eng} <!-- this anchor is used to render the eng org chart -->
-  - [Rijnard van Tonder](../../../../../team/index.md#rijnard-van-tonder)
-  - [Juliana Peña](../../../../../team/index.md#juliana-peña)
-  - [Rok Novosel](../../../../../team/index.md#rok-novosel)
-  - [Camden Cheek](../../../../../team/index.md#camden-cheek)
-  - [Felix Kling](https://sourcegraph.slack.com/team/U0223UPMWLF)
+{{generator:product_team.search_product}}
 
 ## Processes
 

@@ -5,6 +5,8 @@ Sourcegraph is an [all-remote](../../../company-info-and-process/remote/index.md
 ## Travel Planning Guidelines
 
 - Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager.
+- **Book refundable travel only** and make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responbility of the teammate.
+- Our high agency value works because we all make responsible decisions in the best interests of the whole team and the business — **please treat company money how you would treat your own**.
 - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
 - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
 - All meetups are to remain completely optional for all attendees.
@@ -47,11 +49,11 @@ This travel budget is intended for teammates to attend company-wide meetups, arr
 
 Each team is allocated $4,000 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
-_9am-12pm: Breakfast + Team collaboration time
-12pm-1pm: Team lunch
-1-4pm: Team bonding activities
-5-6pm: Solo time
-6-8pm: Team dinner_
+_9am–12pm: Breakfast + Team collaboration time
+12pm–1pm: Team lunch
+1–4pm: Team bonding activities
+5–6pm: Solo time
+6–8pm: Team dinner_
 
 Factor in as much time to spend together during the trip and leave room for solo-exploring/recharging separate from the group.
 
@@ -161,11 +163,11 @@ We advise spending within reason for the location you are visiting, with a $300 
     - [Getaround](https://www.getaround.com/)
     - [Zipcar](https://www.zipcar.com/)
 
-### Dining and your per diem:
+### Dining expenses:
 
 We ask you to use your best judgment when traveling and spending company money. Don’t go overboard with spending on food and drinks. Always ask for receipts for expenses over $25 USD and keep them organized.
 
-- All teammates will receive a [per diem](https://www.merriam-webster.com/words-at-play/what-does-per-diem-mean) while they travel:
+- All teammates will be able to spend a maximum of:
   - $80 per day for all 3 meals, alcoholic beverages included.
   - Any additional spending for food or drinks will come out of your own pocket.
 - Please note that this is money that is available to be reimbursed, and you will not roll over any unused money to the next day. We encourage you to use this set amount, as your daily per diem amount will reset the following day.
@@ -196,3 +198,82 @@ For any additional questions, please reach out to #finance and #people-ops at tr
 ## Budget Template
 
 We have provided an easy-to-complete travel budget calculator for your next team trip. See our [Travel Budget Example](https://docs.google.com/spreadsheets/d/1az1m-V9ddhwlZ_jSHnoMtK0J4VO1Aeph0mKDNf6SsEY/edit#gid=0) for ideas when submitting requests.
+
+# COVID-19 protocol for in-person company-sponsored travel
+
+As a fully distributed and global company, we want all of our teammates to have the opportunity to build connections with their fellow teammates and as part of that, we offer generous travel benefits to be able to do so. Along with these benefits, we also expect teammates to exercise high-empathy and consider the obligation they have towards their own health and safety, as well as the health and safety of their teammates and local communities when traveling and meeting up in-person.
+
+To help us all do our part to keep each other safe, please review and abide by the following health and safety protocols when attending any company-sponsored meet-ups:
+
+# General guidance for all in-person meet-ups
+
+**_Number of attendees: As of January 14th, 2022, we are only allowing meetups with a maximum number of 10 teammates physically present._**
+
+- This is to ensure the safety of teammates who have voluntarily chosen to travel and is based on our Teammmate Travel survey responses. _30% of teammates do not feel fully comfortable traveling at this time, but 70% of our teammates feel comfortable with meetups of 10 attendees or less._ We will revisit our travel stance on a monthly basis and will only make changes based on downwards trends in cases driven by data.
+
+This category of guidance includes casual, local meet-ups that are company-sponsored _(e.g. dinners/lunches, happy hours, coworking etc.)_ We encourage each group to apply high agency over their meet-up and activities, but we require the following protocols for any in-person meet-up:
+
+- **_If you’re feeling sick (or have been confirmed to have, or exposed to people who have COVID-19), stay home_**. We have a **zero-tolerance policy** for allowing teammates to attend company-sponsored events if they are sick, or feeling like they will be sick with any type of illness. Communicate with your group if you feel unwell before your meetup, and please decline the invite if this is the case. Your health, and the health of your teammates is our top priority.
+
+- **_All in-person meet-ups are, and will continue to be 100% optional._** Every person has different circumstances in their homes and lives which may allow or not allow them to travel. Be respectful of all comfort levels.
+
+- **Gauge your own personal comfort level when choosing to attend an in-person meet-up, whether a local meetup or a meetup involving travel.** Don't feel pressured; remember, these are optional events and there will be more.
+
+- **Practice good respiratory hygiene.** When coughing and sneezing, cover your mouth and nose with flexed elbow or tissue. Use hand sanitizer and wash your hands frequently.
+- **Choose outdoor meet-ups and activities instead of indoor, if applicable.** Minimize indoor events when possible, and if your group is indoors, masks must be worn.
+
+- **Wear a mask.** Please use a mask when using public transit, commuting through airports, and when applicable, in indoor
+  environments, and around large crowds.
+- **Respect physical boundaries.** Ask permission for touching/greeting types. It is safe to assume that when you see people you likely won’t
+  engage in physical greetings such as a handshake or high five.
+
+# Guidance for meet-ups which require travel
+
+All of the above guidelines still apply for team travel and meet-ups, but we will be taking additional precautions for meet-ups that require travel.
+
+Note that these guidelines are not inclusive of all travel requirements that are specific to the locations you may be travelling to or the activities you may engage in as part of your meet-up. The Sherpa feature on TripActions can be helpful in your planning stages.
+
+### In-person meet-ups which require travel
+
+**_Number of attendees: As of January 14th, 2022, we are only allowing meetups with a maximum number of 10 teammates physically present._**
+
+- This is to ensure the safety of teammates who have voluntarily chosen to travel and is based on our Teammmate Travel survey responses. _30% of teammates do not feel fully comfortable traveling at this time, but 70% of our teammates feel comfortable with meetups of 10 attendees or less._ We will revisit our travel stance on a monthly basis and will only make changes based on downwards trends in cases driven by data.
+
+Please respect your peers wishes, and _lead with empathy_ when planning remote and hybrid meetups. Everyone should have equal and accessibility to any event that is planned. For trips that meet the maximum 10-person threshold, the following protocols must be taken:
+
+- Assign a coordinator for your trip. This coordinator will need to gauge teammate comfort before planning begins. If no coordinator is formally assigned, the most senior person in the trip group will own driving the survey below:
+
+  - [Please have your team fill out this survey](https://docs.google.com/forms/d/e/1FAIpQLSehRRDbve17yN83ciEvRjKI9NsH2sS4ss65b_i2xOaiZw8SNg/viewform). A member of PeopleOps will reach out to coordinators once the team has completed it to give them a heads up on how to should proceed with trip planning.
+
+- Get tested (PCR or rapid test).
+
+  - If you will be travelling and/or attending any type of meetup, as a safety precaution, please arrange a COVID-19 test prior to your travel within 72 hours of your travel date. (This applies even if you are fully vaccinated.)
+  - Testing will be reimbursed before, during, and after your meetup. You may expense the cost of your COVID test for any travel you do on behalf of Sourcegraph.
+
+- Remember: there will to be future opportunities to travel.
+
+  - If you are unable to attend an offsite for whatever reason, know that there will be other opportunities to travel. Our goal is to continue to plan different types of opportunities to travel and meet with teammates throughout the year.
+
+# Protocol for potential COVID-19 exposure
+
+If you or anyone attending an in-person company event suspects COVID-19 exposure (prior to, during, or after an event) please do the following:
+
+- Notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Jonathan Ayers immediately so that they can advise on next steps for notifying other potentially affected teammates. _Note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
+
+  - **Information to share with People Ops:**
+
+    - Date symptoms began
+    - Dates of company event and travel
+    - List of company event attendees/potentially exposed teammates
+
+- Please postpone or cancel your travel. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we’d be traveling to. Reach out to People Ops and they will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
+
+- Please arrange to get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
+
+- Take any necessary additional precautions.
+
+- Prevent spread _(please cancel or postpone any upcoming travel or in-person events in the following 2 weeks)_.
+
+- Monitor your symptoms and quarantine based on CDC guidelines.
+
+If you have any questions or concerns, please reach out to #people-ops on Slack. Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.

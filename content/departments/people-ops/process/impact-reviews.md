@@ -9,43 +9,45 @@ At Sourcegraph, we aim for ongoing, real-time career conversations so you feel e
 
 ## Why call them Impact reviews?
 
-[High agency](../../../company-info-and-process/values/index.md#high-agency), [high quality](../../../company-info-and-process/values/index.md#high-quality), and [continuous growth](../../../company-info-and-process/values/index.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success - all resulting in continuous growth for each individual.
+[High agency](../../../company-info-and-process/values/index.md#high-agency), [high quality](../../../company-info-and-process/values/index.md#high-quality), and [continuous growth](../../../company-info-and-process/values/index.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success—all resulting in continuous growth for each individual.
 
 Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
 
-Ultimately, these cycles are referred to as “Impact reviews” because they reveal the impact that you are making on a company-wide level, at a team level, and most importantly, at a personal level.
+Ultimately, these cycles are referred to as “Impact reviews” because they reveal the impact that you are making on a company-wide level, at a team level, and most importantly, at a personal level!
 
 ## What’s new with our Impact review cycles?
 
 ### 360 Impact review cycle cadence:
 
-Instead of running everyone's impact reviews synchronously twice a year, your Impact reviews will be launched automatically on your 6-month anniversary, and your one-year anniversary, setting you up for two review cycles per year, in accordance with your start date.
+Instead of running everyone's reviews synchronously twice a year, your Impact reviews will be launched automatically on your 6-month anniversary, and your one-year anniversary, setting you up for two review cycles per year, in accordance with your start date. We encourage all temmates to add a recurring "every 6 months" calendar reminder to their calendar and their manager's calendar to track when their Impact reviews will be! If this date falls on a weekend, it will start the following Monday.
 
 _In these review cycles, you will be asked to give and receive the following reviews:_
 
 - **Self-review:** reflect on your own contribution to your team and how you’ve made an impact.
-- **Peer review**: select 2-3 stakeholders who you’ve collaborated with on projects to give feedback on the impact you’ve made and how you’ve lived our values while collaborating.
+- **Peer review**: select 2–3 stakeholders who you’ve collaborated with on projects to give feedback on the impact you’ve made and how you’ve lived our values while collaborating.
 - **Upwards review:** review your manager, how they’ve supported your development, and what they can do to support you more effectively.
 - **Your manager reviewing you:** your manager will reflect on your contribution to your team and how you’ve made an impact and lived our values.
 
 ### Timing:
 
-Each review cycle will last two weeks from start to finish for each individual going through their 360. This means that reviews will be happening in real time, at different points for all of us during each calendar year. As our company standard, our review cycles run on UTC. The review cycle completes at 12:00pm midnight UTC on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
+Each review cycle will last three weeks from start to finish. This means that reviews will be happening in real-time, at different points for all of us during each calendar year. As our company standard, our review cycles run on UTC. The review cycle completes at midnight UTC on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
 
 We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
 
 Feedback is important, and we should be intentional about setting aside time to give it and give it well. In doing so, we can work together to elevate each other’s successes, share blind spots, and take the time to articulate feedback thoughtfully.
 
-As the last step in this cycle, managers will write their own review for their direct report, have time to review their direct report’s feedback, and will release the feedback packets through Lattice once reviewed.
+As the last step in this cycle, managers will write their own review for their direct report, have time to review their direct report’s feedback, and will release the feedback packets through Lattice once reviewed. If your direct reports peers haven't given feedback and your window to submit feedback as a manager has closed, simply Slack #impact-reviews and a member of People Ops will be able to reopen your feedback submission window.
 
 #### Instances where timing may not align with your planned leave:
 
-With any type of review cycle, we know that no cycle is perfect. You may find that the timing intersects with formal upcoming leave that you may have planned. If you have any of these types of leave that you know will intersect with your 2-week Impact review cycle, please email people-ops@sourcegraph.com for an exception:
+With any type of review cycle, we know that no cycle is perfect. You may find that the timing intersects with formal upcoming leave that you may have planned. If you have any of these types of leave that you know will intersect with your 3-week Impact review cycle, please email people-ops@sourcegraph.com for an exception:
 
 - Paid time off (PTO)
 - Parental bonding leave
 - Bereavement leave
 - A medical leave of absence
+
+People Ops needs adequate time _before_ your cycle launches to make any changes to it, and once it has launched, they are unable to edit the cadence of your Impact review.
 
 ### A note on the "10%" questions:
 
@@ -53,15 +55,23 @@ You may have noticed the question "Tell me what I can do 10% more of or better" 
 
 Stepping back from the bigger picture of your work and seeing where you can make slight changes can help empower you and will create gradual change at a pace that feels manageable.
 
+### A note on the Values-based questions:
+
+You may have noticed questions around which values you embody the most, and which values you can work on to embody more of. These questions were created to embed more of our values-driven culture into our Impact reviews. This is meant to be a nod to the fact that our values are living, breathing things - and all teammates should actively work on inserting these values in how we show up for eachother each day.
+
+If you find yourself stuck in choosing one value over another, you can simply select the value that most aligns with the area you chose for this teammate (whether it is something they excel at, or need to work on), and elaborate about other values in the comment box. Similarly to the 10% question above, we focus on selecting one value here as to not overwhelm the 'feedback receiver' with a laundry list of things to change before their next review cycle begins. Making tiny, incremental changes in the way we work can have a large impact over time!
+
 ### Continuous feedback:
 
-We’re shifting how we think about feedback as a company and moving into the mindset of giving continuous feedback. What does this mean? We value feedback being shared in real-time, whether right after a meeting or in the moment. Feedback is a gift, and flexing it requires building up your feedback muscles.
+We’ve shifted how we think about feedback as a company and moved into the mindset of giving continuous feedback. _What does this mean?_ We value feedback being shared in real-time, whether right after a meeting or in the moment. Feedback is a gift, and flexing it requires building up your feedback muscles.
 
 There are three different types of feedback: giving, receiving, and seeking feedback. In-between flexing your feedback muscle by giving it and learning how to pause when you receive it, you should also practice actively seeking out feedback from your peers. This can be as simple as sending a Slack message to ask how your presentation in a meeting went, or as thorough as setting aside time with an agenda of the situation to cover where you’d like feedback.
 
-To start this company-wide shift, we’d like all managers and their direct reports to include an element of feedback in their weekly or bi-weekly 1:1’s. These should be a safe space to give, receive and seek both positive and constructive feedback! As a best practice, we recommend keeping your 1:1’s with your managers/direct reports on a consistent cadence. The more you practice feedback and lead with radical candor, the easier it becomes to create an open, authentic, and transparent work environment.
+All managers and their direct reports should include an element of feedback in their weekly or bi-weekly 1:1’s. These should be a safe space to give, receive and seek both positive and constructive feedback! As a best practice, People Ops recommends keeping your 1:1’s with your managers/direct reports on a consistent cadence. The more you practice feedback and lead with radical candor, the easier it becomes to create an open, authentic, and transparent work environment.
 
-To help get you started, we will be hosting an interactive Sourcegraph Fundamentals class called Feedback 101 in October 2021 to help you unpack, understand, and practice giving, receiving, and seeking feedback. Stay tuned for a sign-up link here and for the post-class recording to be posted on this page as well.
+To help get you started, we have created Sourcegraph Fundamentals class called _Feedback 101_ to help you unpack, understand, and practice giving, receiving, and seeking feedback. Check it out here:
+
+<iframe src="https://drive.google.com/file/d/18nMVWqrLj-I2uvX0KyNvAH_YpXK1l0lP/preview" width="1920" height="1080" allow="autoplay"></iframe>
 
 ## Impact review stages
 
@@ -69,12 +79,15 @@ After you’ve moved through each of your three [Onboarding Feedback Milestones]
 
 Timeline of stages:
 
--**Peer selection:** 5 business days -**Self, peer, and upwards reviews:** 7 business days -**Manager reviews:** 5 business days, then manager will release feedback packet to you -**Meet with manager to discuss feedback packet:** after your cycle concludes
+- **Peer selection:** 5 business days
+- **Self, peer, and upwards reviews:** 7 business days
+- **Manager reviews:** 5 business days, then manager will release feedback packet to you
+- **Meet with manager to discuss feedback packet:** after your cycle concludes
 
 The 360 Impact review process covers a few key types of feedback as mentioned above:
 
 - **Self-review:** you will review yourself
-- **Peer review**: 2-3 stakeholders will review you
+- **Peer review**: 2–3 stakeholders will review you
 - **Upwards review:** you will review your manager
 - **Manager review:** your manager will review you
 
@@ -86,9 +99,9 @@ These cycles will run concurrently with your [Onboarding Feedback Milestones](..
 
 ### Selecting a peer reviewer
 
-**Teammates**: All teammates will select 2-3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
+**Teammates**: All teammates will select 2–3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
 
-When you choose these 2-3 reviewers, you should consider:
+When you choose these 2–3 reviewers, you should consider:
 
 - Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
 - Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
@@ -101,11 +114,11 @@ Managers will have the ability to edit the reviewers after teammates submit thei
 
 As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
 
-**Managers**: People managers will only need to select 1-2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
+**Managers**: People managers will only need to select 1–2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
 
-Each review should take an average of 30-45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
+Each review should take an average of 30–45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
 
-_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to Cassie Melani on Slack or reach out on our #impact-reviews Slack channel.
+_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to our #impact-reviews Slack channel for help!
 
 ### Submitting feedback as a manager
 
@@ -115,15 +128,15 @@ _As a note_: For any managers who have inherited a new direct report and are not
 
 Note on completing the cycles in the given windows: We encourage you to make every effort to complete reviews that are assigned to you during these two weeks, as extending individual cycles can be an arduous administrative process, and we’d like each teammate to receive their feedback sooner than later.
 
-### Informal Impact review cycles (in use until February 2022)
+### Informal Impact review cycles
 
-As we move into a new cadence of 360 Impact review cycles, you may find that the timeline for your review may have just recently passed, or that your next review is too far in the future, leaving you without helpful feedback that you could easily apply to make small changes to the way you work. Consider the option of including an informal Impact review as a pulse check for learning: how you are showing up in your working relationships, where you are driving impact for your team, and obtaining more self-awareness of your working style.
+You may find that the timeline for your review may have just recently passed, or that your next review is too far in the future, leaving you without helpful feedback that you could easily apply to make small changes to the way you work. Consider the option of including an informal Impact review as a pulse check for learning: how you are showing up in your working relationships, where you are driving impact for your team, and obtaining more self-awareness of your working style.
 
 In the event that you’d like to conduct an informal Impact review, [use this resource to learn about holding an informal cycle for yourself](https://docs.google.com/document/d/1YrsjivLAKZ4SQKvXNM0riZn7aiyJTupb0ce6UFRvIog/edit) and [use this resource as a template to document your reviews](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit).
 
 There are three components to feedback: giving it to others, receiving it yourself, and seeking it out. Keep in mind that feedback is a muscle, and works best when you regularly strengthen it by giving and receiving it often. The concept you will be using in this informal review process is around “seeking feedback” which will help you inform your own working style, positive trends, and areas for improvement.
 
-We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2-3 peers as 30-45 minute calendar invites.
+We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2–3 peers as 30-45 minute calendar invites.
 
 In all instances, we recommend documenting these items in [this Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) or your 1:1 GoogleDoc which you share with your manager:
 
@@ -135,13 +148,11 @@ After you have documented your informal Impact review, this process will be comp
 
 You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
 
-\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews - the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
-
-Additionally, our Informal Impact reviews will be phased out by February 2022 as all teammates will have gone through at least one review cycle by that point in time. We will keep the templates live for you to seek feedback inbetween future cycles.
+\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews—the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
 
 ## How to use Lattice
 
-Log into Lattice using your Sourcegraph Google authenticator. You will be prompted to write different types of reviews through qualitative and quantitative questions on your dashboard.
+Log into Lattice using your Sourcegraph Okta authenticator. You will be prompted to write different types of reviews on your home page dashboard. If you have any issues and cannot see reviews that you have been assigned to, please Slack #impact-reviews with a screenshot of your homepage dashboard for help.
 
 <video controls crossorigin>
   <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/lattice_demo.mp4" />
@@ -214,4 +225,4 @@ For more information on how to use SBI and giving great feedback, [check out thi
 
 ## Questions?
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews or reach out directly to Cassie Melani.
+For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews! Happy reviewing.

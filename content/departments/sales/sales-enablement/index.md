@@ -11,9 +11,8 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 
 ### Members
 
-- [Dudley Nostrand](../../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-- TBD (hiring a Sr. Advisor of Value Engineering)
-- [Trey Sizemore](../../../team/index.md#trey-sizemore) (Sales Enablement Manager)
+{{generator:reporting_structure.senior_manager_value_engineering}}
+
 - [VE & SE roles - open positions](https://sourcegraph.com/careers)
 
 ### Value Engineering Team Charter
@@ -34,7 +33,7 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 
 ### Sales Enablement Team Charter
 
-- Provide the Sales team with the resources they need to generate and close more deals - including content, tools, knowledge, and information to effectively sell to our prospects and customers.
+- Provide the Sales team with the resources they need to generate and close more deals—including content, tools, knowledge, and information to effectively sell to our prospects and customers.
 - Manage the Sales Onboarding Program and continually update based on current trends and content
 - More to come…..
 

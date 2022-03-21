@@ -30,7 +30,7 @@ Below are steps to help you get set up with your TripActions account.
 
 ## Dynamic Pricing
 
-We setup our bookings policy within TripActions as a benchmark based on the market prices for selected destination and travel dates. For any accomodation search, TripAction looks at all reasonable results and then calculates a Median Price, or fair price, for the search called the "Price to Beat." For bookings under the "Price to Beat," the Company provides rewards points (i.e. Amazon gift card) as shown within TripActions.
+We set up our bookings policy within TripActions as a benchmark based on the market prices for selected destinations and travel dates. For any accomodation search, TripAction looks at all reasonable results and then calculates a Median Price, or fair price, for the search called the "Price to Beat." For bookings under the "Price to Beat," the Company provides rewards points (i.e. Amazon gift card) as shown within TripActions.
 
 ## Booking shows Out of Policy
 

@@ -8,12 +8,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 ## Members
 
-- [Diego Comas](../../../../../team/index.md#diego-comas)
-  - [André Eleuterio](../../../../../team/index.md#andré-eleuterio)
-  - [Mohammad Umer Alam](../../../../../team/index.md#mohammad-umer-alam)
-  - [Lauren Chapman](../../../../../team/index.md#lauren-chapman)
-  - [David Sandy](../../../../../team/index.md#david-sandy)
-  - FY2022 security engineer
+{{generator:product_team.security}}
 
 ## Contact
 
@@ -29,6 +24,10 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 ## Onboarding
 
 - New members [onboarding guide](./security-onboarding.md)
+
+## Security Tooling
+
+See [tooling](./tooling/index.md) for a list of active tools we use.
 
 ---
 
@@ -48,6 +47,13 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 ---
 
+## How we ensure that we release our product without high or critical vulnerabilities
+
+- We scan our containers and IaC as defined in the CI/CD Pipeline Vulnerability Scanning section below.
+- As part of the release process, we will conduct a full scan of our product using Trivy and Checkov.
+- Any high and critical vulnerabilities will need to be addressed before releasing.
+- The artifacts from the scans are then archived.
+
 ## How we are improving and investing in product security
 
 - We are growing our security team to expand, develop and mature the security program
@@ -55,12 +61,6 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 - We are improving our internal security training for developers
 - We have a security ambassador program where a security engineer is involved in the early stages of the design of new features to give input and help identifying potential weaknesses of the product
 - We have developed a new vulnerability management process which will limit the number of open vulnerabilities as we will have a much closer follow up with a new SLA
-
----
-
-## CI/CD Pipeline Vulnerability Scanning
-
-- We are currently using Checkov.io to [scan our IaC](./checkov.md)
 
 ## How to work with us
 
@@ -70,7 +70,7 @@ We're here to help so reach out to us at security@sourcegraph.com with any quest
 
 We're always happy for teams to [request security code reviews](secure-code-review.md).
 
-Security questionnaires for new and existing customers should [follow the process here](../../../../sales/process/salessecurity.md) - feel free to message us on #security too.
+Security questionnaires for new and existing customers should [follow the process here](../../../../sales/process/salessecurity.md)—feel free to message us on #security too.
 
 ### Questions and Support Requests
 
@@ -188,15 +188,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Growth
-   </td>
-   <td>Mohammad
-   </td>
-  </tr>
-  <tr>
-   <td>Cloud
-   </td>
-   <td>Extensibility
+   <td>Growth and Integrations
    </td>
    <td>David
    </td>
@@ -223,5 +215,37 @@ In an effort to work closely with our teammates and shift security focus more in
 
 ## How we work
 
-[Read about our methodology and process.](process.md)
-[Security Support Rotation](security-support-rotation.md)
+- [Read about our methodology and process.](process.md)
+- [Security Support Rotation](security-support-rotation.md)
+
+## Slack acknowledgement
+
+It is essential to remove assumptions/uncertainty around whether teammates have seen, understood, or acted on a message in an async-first communication environment.
+To assist in this regard, we provide the following guideline for teammates to follow when communicating and responding in Slack.
+
+**The most important thing to remember is not which emoji to use, but rather to remember to acknowledge and do it unambiguously.**
+
+_When acknowledging a request:_
+
+- `:thumbsup:` (👍) = I see the request and will action it
+- `:white_check_mark:` (✅) = I have completed my action on the request
+
+_When acknowledging a statement:_
+
+- `:thumbsup:` 👍 = I agree with the statement or I have taken note of it
+- `:thumbsdown:` 👎 = I disagree with a statement—encouraged to always follow up with a written response
+
+_When acknowledging a question:_
+
+You should provide a written response unless it's a simple yes/no question, in which case `:thumbs-up:` (👍)/`:thumbs-down:` (👎) is acceptable.
+
+## Risk management
+
+The Security team manages risk via the [Information Security Risk Management Policy][0]
+and the underlying [risk management process](security-risk-management-process.md).
+
+[0]: https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit
+
+# Misc Links
+
+- [Code Ownership Matrix](../../process/engineering_ownership.md)

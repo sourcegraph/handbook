@@ -78,7 +78,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 #### Impact of org and role changes
 
-Process Street allows users to use conditional logic - we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist.
+Process Street allows users to use conditional logic—we hide or show content depending on a person’s responsibilities, title, role, and/or start date, so changes to any of these mean that Process Street needs to be updated. This allows new teammates to view their onboarding checklist properly, instead of missing their role-specific onboarding or being served the wrong type of onboarding checklist.
 
 Managers assigned to teammates also need to be updated and sometimes even the content needs to be too.
 
@@ -123,19 +123,22 @@ Other tools that need to be updated when there is an org change (including manag
 ## Managing a Role Change
 
 Please complete [this form](https://forms.gle/XUQLbGbhPAs1W2jh7) with the changes that are happening. This will notify People Ops.
-If you have any questions, please contact #people-ops in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). If the change implies someone changing team or manager, the new manager is the one who should complete the form.
+If you have any questions, please contact [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or send an email to [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com). **Please note** that if the change involves someone changing team or manager, the new manager is the one who should complete the form.
 
-When to complete this form?
+**When to complete this form?**
 
 - If someone in your team has a change in:
+
   - title
   - compensation
   - manager
-  - becomes a manager.
-- If someone in your team is changing to a different team.
-- If you are planning to restructure your team or org.
-- If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change).
+  - becomes a manager
 
-### Process for a Role Change
+- If someone in your team is changing to a different team
+- If you are planning to restructure your team or org
+- If someone in your team has a change in the type of contract (for example, if they are a US teammate and move internationally, they will need their contract to change)
+- If there is a structural change due to a manager taking parental leave
 
-1. Update the `reports_to` field on the [team page](../../../team/index.md) to reflect the change.
+### Additional Process for a Role Change
+
+- Update the `reports_to` field on the [team page](../../../team/index.md) to reflect the change.

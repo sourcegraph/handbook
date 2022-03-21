@@ -7,6 +7,7 @@
   - [Team vision and principles](#team-vision-and-principles)
   - [What we do](#what-we-do)
   - [Working with other teams](#working-with-other-teams)
+  - [Marketing launch calendar](#marketing-launch-calendar)
   - [Meet the team](#meet-the-team)
   - [Product launch templates and resources](#product-launch-templates-and-resources)
   - [Resources](#resources)
@@ -21,7 +22,7 @@
 
 ## What we do
 
-Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible - there will certainly be times when other teams drive these initiatives.
+Tactically, here are the activities Product Marketing will drive and contribute to. This list is not exhaustive and is flexible—there will certainly be times when other teams drive these initiatives.
 
 | Drive                                                       | Contribute                                                             |
 | :---------------------------------------------------------- | :--------------------------------------------------------------------- |
@@ -41,12 +42,13 @@ Tactically, here are the activities Product Marketing will drive and contribute 
 | **Sales/CE**            | Messaging and positioning, use cases and value drivers, buyer personas, creating external collateral (pitch decks, one sheeters, case studies), product training, competitive intelligence, synthesizing and sharing customer feedback | PMM primarily focuses on “one:many” communication, whereas Sales/CE primarily focus on “one:one” communication. There may be times that PMM is brought in to support a strategic customer or prospect, but the team is not big enough to support every deal. |
 | **Marketing**           | Messaging and positioning, buyer personas, content development and review, subject matter expertise, marketing campaigns and programs                                                                                                  | Given that many members of the marketing team are relatively new, we’ll figure this out together as we work on key initiatives that span across the entire marketing org.                                                                                    |
 
+## Marketing launch calendar
+
+Add [this](https://calendar.google.com/calendar/u/0?cid=Y19wdjFza2M4MGkxdHNoMGNscW05aTdrNGlyc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar to your Google account for details on upcoming launches!
+
 ## Meet the team
 
-- [Andy Schumeister](../../../team/index.md#andy-schumeister), Director of Product Marketing
-- [Alex Isken](../../../team/index.md#alex-isken), Product Marketing Manager, Emerging Products
-- [Victoria Yunger](../../../team/index.md#victoria-yunger), Product Marketing Lead, Enterprise
-- Hiring: [Senior Customer Marketing Manager](https://boards.greenhouse.io/sourcegraph91/jobs/4096458004)
+{{generator:reporting_structure.director_product_marketing}}
 
 To learn more about the team, check out our individual [READMEs](product-marketing-bios.md)
 

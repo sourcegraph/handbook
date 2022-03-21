@@ -25,11 +25,11 @@ The following templates are currently available:
 
 - [Enterprise License Agreement and Order Form (On Prem)](https://drive.google.com/u/0/uc?id=1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv&export=download)
 - [Enterprise License Agreement and Order Form (Offline)](https://drive.google.com/u/0/uc?id=18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b&export=download)
-- [Enterprise Services Agreement and Order Form (Managed Instance)](https://docs.google.com/u/0/uc?id=1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A&export=download)
+- [Enterprise Services Agreement and Order Form (Cloud and Managed Instance)](https://docs.google.com/u/0/uc?id=1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A&export=download)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
-- [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239)
+- [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
 - [First Call Deck](https://docs.google.com/presentation/d/1-LW97oT-VU4Zu3MXB1Wgbu_bSoAkdfOCfUfx7MWO9lo/)
 
 ### Updating Templates
@@ -42,15 +42,16 @@ To update a template place the new template in the main Sales Template folder, n
 - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
 - [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
+- [GDPR Prospecting Guidelines](https://docs.google.com/document/d/1p1w7YYWoOkiSBbCZBeTJZUkst8vX8GnG1jivtQ9wYBo/edit)
 
 ## Customer Notes
 
 Where to Store Customer Notes and Documents:
 
 - Create Folder in the ['Customer Notes' Shared Folder Here](https://drive.google.com/drive/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0)
-- Naming Convention for Folder: "Customer/Prospect Name" - - then # customer or # prospect (see folder for examples)
+- Naming Convention for Folder: "Customer/Prospect Name"—then # customer or # prospect (see folder for examples)
 - Within that folder, add all of your documents and notably, your running notes google document (which you'll link to the Salesforce opportunity in the designated field)
-- If you'd like to save this folder into your own drive, that's simple and welcomed. Simply right click on the folder, then select 'Add Shortcut to Drive' - - then choose the preferred destination where you'd like this to land within your 'My Drive'
+- If you'd like to save this folder into your own drive, that's simple and welcomed. Simply right click on the folder, then select 'Add Shortcut to Drive'—then choose the preferred destination where you'd like this to land within your 'My Drive'
 
 Note: Salesforce is the communication and document source of truth for our Sales Team. Upload all docs (contracts, etc) to Salesforce and the customer's folder in the [Custome contracts folder on GDrive](https://drive.google.com/drive/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) as well.
 

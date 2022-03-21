@@ -13,7 +13,7 @@
 - [Holidays](benefits-perks/holidays.md)
 - [Team Gatherings and Celebrations](benefits-perks/celebrate.md)
 
-## Pay and Expenses
+## [Pay and Expenses](pay-expenses/index.md)
 
 - [Compensation](pay-expenses/compensation/index.md)
   - [Equity FAQ](pay-expenses/compensation/equity-faq.md)

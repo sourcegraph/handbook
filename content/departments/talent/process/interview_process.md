@@ -5,13 +5,14 @@ This page includes all information a Talent Team member, Hiring Manager, or Team
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
+- [Identifying candidates](identifying_candidates.md)
 - **You are here:** the interview process
 - [How to extend an offer ](./extending_an_offer.md)
 - [How to onboard a new hire after offer acceptance](./after_the_offer.md)
 
 ## Making a referral
 
-Current employees can refer a candidate in Greenhouse [here](https://tracking.cirrusinsight.com/5ae92f4c-b2ab-4851-852d-32a879d5bc4b/player-vimeo-com-video-163888438). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page.
+Current employees can refer a candidate in Greenhouse by following [these instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse. If the referred candidate is a duplicate, the Recruiter will merge the records together and keep the referral candidate page as the primary candidate page.
 
 ## Preparing for an interview
 
@@ -29,7 +30,7 @@ Current employees can refer a candidate in Greenhouse [here](https://tracking.ci
 
 **Selling Sourcegraph:**
 
-- COMING SOON
+- [Click here](../../marketing/process/messaging.md#sourcegraph-value-proposition) to view our Marketing page that describes what Sourcegraph does in different message lengths.
 
 ## The interview stage
 
@@ -41,11 +42,13 @@ The Recruiter conducts an initial recruiter screen with eligible candidates. Sam
 
 - To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
 - COMING SOON: how to schedule with Calendly
-- To decline a candidate, follow [these steps]COMING SOON. All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
+- To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
+
+If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
 
 The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Manager expresses interest in the profile, the Recruiter asks the Recruiting Coordinator to schedule the Hiring Manager screen by posting in the `#talent-scheduling-and-offers` Slack channel.
 
-- COMING SOON: click here to learn more about scheduling interviews at Sourcegraph.
+- [Click here](../tools/resources_for_recruiting_operations.md#interview-scheduling) to learn more about scheduling interviews at Sourcegraph.
 
 ### The hiring manager screen stage
 
@@ -53,6 +56,7 @@ If the Hiring Manager chooses to advance a candidate following the Hiring Manage
 
 - COMING SOON: link to instructions on how we schedule interviews
 - Interview process and sample interview questions for each department [here](interview_process.md)
+- If the candidate does not show up for the interview in the first 5 minutes, the Hiring Manager will send a message in the private Slack channel for the position and tag the Recruiter and Recruiting Coordinator. If the candidate does not show up for over 5 minutes, the Hiring Manager will end the interview.
 
 ### The "onsite" stage
 
@@ -64,9 +68,9 @@ The Recruitment Operations specialist will schedule all remaining interviews in 
 
 Following your interview, please provide interview feedback immediately, no later than 24-hours after your interview, to ensure we are able to move quickly and provide a positive candidate experience.
 
-- COMING SOON: how to provide interview feedback
-- COMING SOON: interview feedback definitions
-- COMING SOON: how to keep your interview feedback legal
+- [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback)
+- We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback)
+- [How to keep your interview feedback legal](../process/interview_process.md#keeping-your-feedback-legal)
 
 ### The decision making stage
 
@@ -77,6 +81,7 @@ Once a hiring decision in made, the Hiring Manager is responsible for communicat
 - Post a note in the role's private Slack channel.
 - Your note should provide context for why we've decided to hire someone, or why we've decided _not_ to hire someone.
 - Once it's been posted in Slack, paste your note into Greenhouse so it lives on the candidate page forever.
+- Should we proceed to an offer, the Recruiter will then paste that note in the offer details.
 
 If we are _moving forward_ with an offer, the Recruiter will submit the offer details for approval and will schedule and offer summary call.
 
@@ -90,11 +95,11 @@ If we are _declining_ the candidate, the Recruiter will call the candidate.
 
 It is our goal to fill our openings as quickly as possible while maintaining a high quality bar and a strong candidate experience. Our time-to-fill goal is an average of 45 days. This means that the timespan from intake meeting to candidate offer acceptance (when a candidate signs their offer letter) should be, on average, 45 days or less.
 
-- (45 days time-to-fill) + (2-4 weeks notice period) + (1-2 weeks vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts.
-- All roles should be kicked off 2-3 months prior to our target start date to ensure we're taking a proactive, rather than reactive, recruitment approach.
+- (45 days time-to-fill) + (2–4 weeks notice period) + (1-2 weeks vacation in between jobs) = 3 months from the time we kick off the job to when our new teammate starts.
+- All roles should be kicked off 2–3 months prior to our target start date to ensure we're taking a proactive, rather than reactive, recruitment approach.
 - Once a candidate begins the interview process with us, we should aim to complete the interview process in **2-weeks** or less.
 
-Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles. This document is updated in real time and adjusts as the needs of our business change. If you see that you have an upcoming role in the next 2-3 months, please follow the below steps to kick off a search.
+Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles. This document is updated in real time and adjusts as the needs of our business change. If you see that you have an upcoming role in the next 2–3 months, please follow the below steps to kick off a search.
 
 ## **Sourcing best practices**
 
@@ -112,7 +117,7 @@ We are flexible when it comes to scheduling interviews because we are all-remote
 
 Even if candidates prefer to batch all their interviews together, it might not be possible due to the timezones of available interviewers.
 
-If interviews are spread over multiple days and it is clear from the initial feedback that we won't be moving forward, we will cancel the remaining scheduled interviews to save our teammates' and the candidate's time.
+We will schedule interviews in stages. If it is clear from the feedback that we won't be moving forward, we will reject and not move forward with additional stages.
 
 To schedule an interview with a candidate, please work with your recruiter or Slack @hiring. You can see a [list of Recruiters](../index.md#talent-team-members).
 
@@ -136,7 +141,9 @@ Please leverage the below **definitions** when rating candidates:
 
 `Yes` You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
 
-`No` You are neutral or have doubts about whether this person would make our team better.
+`Neutral` You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended. To indicate that you're neutral, please **do not select any score** and press submit.
+
+`No` You have doubts about whether this person would make our team better.
 
 `Strong No` You are very confident that we should not hire this person because they would not be successful on our team.
 

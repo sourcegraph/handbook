@@ -28,7 +28,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. When and where do I get my Carta invite?
 
-- [Carta](https://carta.com/) houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1-3 weeks after the board meeting to process.
+- [Carta](https://carta.com/) houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1–3 weeks after the board meeting to process.
 
 ### Q. Who do I contact regarding questions about Carta and/or my option grant?
 
@@ -92,13 +92,25 @@ This page is meant as a resource to find answers to questions frequently asked b
 **US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. You can also reference these PDFs below:
 
 - **Health insurance:**
-  - [Blue Shield Platinum PPO](https://drive.google.com/file/d/1adF3Scor7G9Arzk6yuscgihLp4MTO3eg/view?usp=sharing) (higher Blue Shield coverage)
-  - [Blue Shield Gold PPO](https://drive.google.com/file/d/1dssU_Mtb4jzqlN8QgU3FHzIdMO0czDJI/view?usp=sharing) (lower Blue Shield coverage)
-  - [Kaiser Permanente Platinum HMO](https://drive.google.com/file/d/1QguoQ8xw-N8wpHMdbX7c3vqVW6ERtM4u/view?usp=sharing) (**Note:** For California teammates only)
+  - UnitedHealthcare EPO
+    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1BsvNoewWmrM3qc9aNN7A6UPVeBt12wDE/view?usp=sharing)
+    - [Plan Summary](https://drive.google.com/file/d/1ZsLNhMQ1FBMlsHWRswh7XWW0zDAH8sAu/view?usp=sharing)
+  - UnitedHealthcare PPO 250
+    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1GgWZjukPEtcVit_07_MDD75ZKTFtr4Es/view?usp=sharing)
+    - [Plan Summary](https://drive.google.com/file/d/1ikczSsErm7rGO5QLaCLhOk1DHimAVsDE/view?usp=sharing)
+  - UnitedHealthcare HSA 1400
+    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/15DY9I2qm903iJ9ShlmJLVguWK3z3j6SX/view?usp=sharing)
+    - [Plan Summary](https://drive.google.com/file/d/16pzdyUH4AXJ5Lb3qzCiLMIu8EtIvc5EE/view?usp=sharing)
+  - Kaiser HMO
+    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1ZY1TGB3wawTpjTM1LDfrG902RtB3m3jD/view?usp=sharing)
+    - [Plan Summary](https://drive.google.com/file/d/1nHjrhKMyifQJHdjH6ZQq-F5DbMvre6AE/view?usp=sharing)
+  - Kaiser HSA 2800
+    - [Summary of Benefits and Coverage](https://drive.google.com/file/d/1aEEszv62rnxflUklSpDefAQv-ylc3kaG/view?usp=sharing)
+    - [Plan Summary](https://drive.google.com/file/d/1WVCj7HEuyiGqIwDFLp6uXUOtiDX_jtbK/view?usp=sharing)
 - **Dental insurance:**
-  - [Delta Dental](https://drive.google.com/file/d/1Ob2r6zSs_AyAkoFG06iRcdHEsebSNlE0/view?usp=sharing)
+  - [Cigna DPPO](https://drive.google.com/file/d/1srWmxhMrCtfLVso48qbjUYehj8eAg7vl/view?usp=sharing)
 - **Vision insurance:**
-  - [Beam VSP](https://drive.google.com/file/d/1zR_LVTJXaOQWnfG7L-us4q4HEmNlKK7-/view?usp=sharing) (**Note:** our vision insurance provider is Beam _Dental_ VSP, but don’t let that confuse you! Beam VSP is our provider for vision insurance _only_, not dental.)
+  - [Equitable Vision](https://drive.google.com/file/d/18hsyxSJqwI2Uyoy0iS1xk2k0AiY88zNb/view?usp=sharing)
 
 **Non-US teammates:**
 
@@ -128,7 +140,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **US teammates:**
 
-- Your insurance benefits will become active on the first day of the month following your start date if you start between the 1st and 24th. If you start between the 25th and 31st, however, your insurance benefits will not be active the first day of the following month, but rather the first day of the month after that. (For example, if your start date is on May 24th, your benefits will begin June 1st. However, if you start May 25th, your benefits will not be available until July 1st.)
+- Your insurance benefits will become active on your start date.
 
 **Non-US teammates:**
 
@@ -136,7 +148,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 #### When will I receive my insurance member IDs?
 
-- You will receive your insurance member IDs at your personal email and in [Rippling](https://app.rippling.com/insurance/employee/overview/home) after you enroll in insurance. You should have access to your insurance member IDs within 1 month of your insurance eligibility date.
+- You can access your virtual insurance member IDs in the Lumity mobile app within a few days after you enroll in insurance. You will receive your physical insurance member ID cards via mail 2-4 weeks after you enroll in insurance.
   - If you have not received your insurance member IDs, please post in the [#people-ops](https://sourcegraph.slack.com/archives/C01UPE3LV8S) Slack channel.
 
 **Non-US teammates:**

@@ -14,7 +14,7 @@ Communicate – Explain the benefits of our products and the value of our missio
 
 _Start with why._
 
-In order to prioritize, we should always look for the why behind any new requests. Does it ladder up to existing OKRs? What’s the anticipated impact? How will we measure success? What tier does this fall into? Additionally, think of the end user. Sometimes there may be a bigger picture to the puzzle piece we are being asked to produce. We should always think of the person or people who make up the audience being communicated to (developers, designers, prototypers, researchers, engineering managers, product managers, CTOs, etc.) and commit to doing our best work for them.
+In order to prioritize, we should always look for the why behind any new requests. Does it ladder up to existing OKRs? What’s the anticipated impact? How will we measure success? What tier does this fall into? Additionally, think of the end-user. Sometimes there may be a bigger picture to the puzzle piece we are being asked to produce. We should always think of the person or people who make up the audience being communicated to (developers, designers, prototypers, researchers, engineering managers, product managers, CTOs, etc.) and commit to doing our best work for them.
 
 _Always add value._
 
@@ -30,7 +30,7 @@ When an internal partner, whether from Ops, Product, or inside our own Marketing
 
 _Be honest and direct (with kindness)._
 
-All of the previous values are focused on delivering great content with a great attitude. This one is no different but adds a layer of courage to have difficult conversations. As bad as disagreements and conflict can sometimes be, it’s even worse to let things sit below the surface and grow worse over time. If someone on our team isn’t delivering to expectations, or if you are struggling with a stakeholder or internal partner, it’s best to sit down (sometimes with an unbiased moderator) and work things out in person, face-to-face. Surprisingly these interactions actually make relationships stronger, so while we don’t want to overdo it with facing conflict, we shouldn’t shy away from these moments either. Remain professional at all times and remember we all have the same goals for our users.
+All of the previous values are focused on delivering great content with a great attitude. This one is no different but adds a layer of courage to have difficult conversations. As bad as disagreements and conflict can sometimes be, it’s even worse to let things sit below the surface and grow worse over time. If someone on our team isn’t delivering to expectations, or if you are struggling with a stakeholder or internal partner, it’s best to sit down (sometimes with an unbiased moderator) and work things out in person, face-to-face. Surprisingly these interactions actually make relationships stronger, so while we don’t want to overdo it when facing conflict, we shouldn’t shy away from these moments either. Remain professional at all times and remember we all have the same goals for our users.
 
 _Define (and celebrate) success._
 
@@ -42,7 +42,7 @@ We should always assume that Sourcegraph is bringing in the best people it can f
 
 _Think scrappy, then scale._
 
-It’s true Sourcegraph is a startup. It’s also true we have large goals and want to grow into a game-changing fundamental tool used by millions of developers worldwide and make it so everyone can code. While it’s important for us to move fast, we also need to think about if what we’re doing will scale when we have hundreds (or thousands) of teammates, or millions of users. That means if a process does not exist, we should create one. If something can be templatized without compromising quality, let’s try it. We want to test our ideas quickly and in real time, but also be thinking of ways to streamline areas that need to be able to grow. In other words, if there is a way to set up a process, tool, program, or system that is going to lay strong foundations for future use cases (even if it takes a little bit of extra time now), it’s worth the investment to be able to grow in a healthy way. Your future self (and team) will thank you.
+It’s true Sourcegraph is a startup. It’s also true we have large goals and want to grow into a game-changing fundamental tool used by millions of developers worldwide and make it so everyone can code. While it’s important for us to move fast, we also need to think about if what we’re doing will scale when we have hundreds (or thousands) of teammates, or millions of users. That means if a process does not exist, we should create one. If something can be templatized without compromising quality, let’s try it. We want to test our ideas quickly and in real-time, but also be thinking of ways to streamline areas that need to be able to grow. In other words, if there is a way to set up a process, tool, program, or system that is going to lay strong foundations for future use cases (even if it takes a little bit of extra time now), it’s worth the investment to be able to grow in a healthy way. Your future self (and team) will thank you.
 
 ## Additional Resources:
 

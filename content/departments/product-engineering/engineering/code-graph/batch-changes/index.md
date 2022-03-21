@@ -19,7 +19,7 @@
 
 - Each day, Slack reminds us to do our text check-in, which consists of a _short_ message (it shouldn't take longer than a minute to write) in the reminder's thread. This should be a recap of what we have finished that day.
 
-- One Big Thing: Each sprint, each engineer gets one big thing to work on — one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning board](https://github.com/orgs/sourcegraph/projects/216) into the current sprint to work on (or P1 if there are no P0s).
+- One Big Thing: Each sprint, each engineer gets one big thing to work on—one significant chunk of work scoped to be doable in a single sprint (leaving some slack in the sprint for customer support and other unexpected issues). When it is completed, engineers will pull P0 items from [our planning board](https://github.com/orgs/sourcegraph/projects/216) into the current sprint to work on (or P1 if there are no P0s).
 
 - Support rotation: Each sprint, one engineer will assume the role of support engineer, serving as the primary point of contact for customer questions or issues with Batch Changes that are escalated by CE and CS. The support rotation schedule is laid out in our [team sync agenda doc](https://docs.google.com/document/d/1opVINuZ1PfNZCx3zJP3BwlXAEG5SYt8HIIdGab115j8/edit#), and customer GitHub issues on our team's radar are tracked on [our support board](https://github.com/orgs/sourcegraph/projects/218). Any engineer is always welcome to jump in on support requests, but it is the responsibility of the support engineer to ensure that issues that come in are not ignored or lost.
   - At the beginning of a new sprint, the incoming support engineer should update the @batcher-support "user group" in Slack to remove the previous support engineer and add themselves.
@@ -54,18 +54,11 @@ The Batch Changes team is the current owner of [src-cli](https://github.com/sour
 
 ## Members
 
-- [Malo Marrec](../../../../../team/index.md#malo-marrec) ([Product Manager](../../../product/roles/index.md#product-manager))
-- [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Chris Pine](../../../../../team/index.md#chris-pine) ([Engineering Manager](../../roles/index.md#engineering-manager))
-  - [Thorsten Ball](../../../../../team/index.md#thorsten-ball)
-  - [Adam Harvey](../../../../../team/index.md#adam-harvey)
-  - [Erik Seliger](../../../../../team/index.md#erik-seliger)
-  - [Kelli Rockwell](../../../../../team/index.md#kelli-rockwell)
-  - [Adeola Akinsiku](../../../../../team/index.md#adeola-akinsiku)
+{{generator:product_team.batch_changes}}
 
 ## Growth plan
 
-We are looking to add one [experienced full-stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4179711004) to our team to help us grow our product in FY22 Q4.
+We are looking to add one [experienced full-stack engineer](https://boards.greenhouse.io/sourcegraph91/jobs/4179711004) to our team to help us grow our product in FY23 Q1.
 
 ## Onboarding
 
@@ -87,7 +80,9 @@ This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either
 - Update PR templates across many repositories.
 - Standardize versions of tools across many repositories by updating .tool-versions files. [Search](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph+file:%5E%5C.tool-versions+shfmt&patternType=literal&case=yes) (private)
 - Update CI configuration across several repositories. [Blog post](https://unknwon.io/posts/211110_sourcegraph_batch_changes/)
+- Update CI to use system python ([spec](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes/use-system-python-in-ci?tab=spec&visible=2))
 - Tracking release changesets.
+- Add test plans to all PR templates ([example changeset](https://github.com/sourcegraph/terraform-google-executors/pull/35))
 
 ## Related links
 

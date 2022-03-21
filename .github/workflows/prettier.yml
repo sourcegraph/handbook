@@ -47,7 +47,7 @@ jobs:
         with:
           # Take prettier version from package.json to stay in sync and support upgrades through Renovate
           prettier_version: ${{steps.prettier_version.outputs.prop}}
-          prettier_options: --write **/*.{js,css,scss,ts,tsx,md,html,yml,yaml,json}
+          prettier_options: --write **/*.{js,mjs,css,scss,ts,tsx,md,html,yml,yaml,json}
           commit_message: squash! Prettier
         env:
           GITHUB_TOKEN: ${{ secrets.WRITE_ACCESS_GITHUB_TOKEN }}

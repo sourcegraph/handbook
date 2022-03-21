@@ -38,7 +38,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 We are an early-stage company, and every team member can have a huge impact on our success. We want to make sure that everyone has a financial stake in the success and that contributions are rewarded.
 
-See [Equity FAQ](equity-faq.md).
+- See [Equity FAQ](equity-faq.md).
+- See [How and when stock option grants are calculated](equity-timing.md).
 
 ### Benefits and perks
 
@@ -64,8 +65,6 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-ops/index.md) before making them.
 
-Everyone's compensation is reviewed (and updated if necessary) regularly as part of our [review cycle](../../../departments/people-ops/process/impact-reviews.md) process.
-
 ### Negotiating should not be needed
 
 We believe that opening up offers to negotiations can lead to inequitable and biased compensation in the long-term. We strive to reduce the impact of negotiations on offers and raises as much as possible. Our philosophy to make offers that are fair and generous is designed to ensure candidates feel appropriately valued and aren't forced to negotiate to get to something fair.
@@ -80,16 +79,19 @@ We provide variable compensation in the form of commissions for roles that are m
 
 However, managers can occasionally grant ad hoc bonuses (cash and equity are both possible) for strong performance. In such cases, they are expected to make the case for the bonus and tie it to the bands for their organization.
 
+As a note, our [Impact reviews](../../../departments/people-ops/process/impact-reviews.md#360-impact-review-cycles) are one of the many data points managers can use when determining the reward of a compensation change or promotion. There is no direct correlation between the two, and Impact reviews should be viewed independently of a merit change, and as a singular data point. There was great intention in creating our Impact reviews to view them as markers of personal development rather than reviews that result in a change of pay or titles.
+
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department. These bands are updated twice per year based on updated external benchmarks (from Option Impact).
+Internal compensation bands are maintained by the [People Ops](../../../departments/people-ops/index.md) team for each department.
 
-- [Sales compensation bands](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
-- [Marketing compensation bands](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
-- [Engineering compensation bands](https://docs.google.com/spreadsheets/d/1ywMdWxL8jCpGRXvEIY-bCVD4d4OZNRvz6-Gn4Spg4XU)
-- [Product compensation bands](https://docs.google.com/spreadsheets/d/1crngPVeZI-UcIzAmJphUhx-7eAOAm8kFbyOKs3GPFv4)
-- [Customer Engineering compensation bands](https://docs.google.com/spreadsheets/d/1UVQ20MWjjRkOxJifQR-9OrgbJzih3mcYvAHMeMhd03Q)
-- [Operations compensation bands](https://docs.google.com/spreadsheets/d/1x-MnymL9uw6xvyKQCX331W5w778rTwYAw3AJ_picnvU)
+- [Sales compensation bands (last updated 2022-01-07)](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
+- [Marketing compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
+- [Engineering compensation bands (last updated 2021-11-01)](https://docs.google.com/spreadsheets/d/1ywMdWxL8jCpGRXvEIY-bCVD4d4OZNRvz6-Gn4Spg4XU)
+- [Product compensation bands (last updated 2021-11-01)](https://docs.google.com/spreadsheets/d/1crngPVeZI-UcIzAmJphUhx-7eAOAm8kFbyOKs3GPFv4)
+- [Customer Engineering compensation bands (last updated 2021-10-14)](https://docs.google.com/spreadsheets/d/1UVQ20MWjjRkOxJifQR-9OrgbJzih3mcYvAHMeMhd03Q)
+- [Operations compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1x-MnymL9uw6xvyKQCX331W5w778rTwYAw3AJ_picnvU)
+- [Talent compensation bands (last updated 2021-12-01)](https://docs.google.com/spreadsheets/d/1Ri6MKZUwSprCqJ-7ncBDcdO9SERwUEH2xo0_xvU5Mbk/edit#gid=0)
 
 If you would like access to these spreadsheets, please contact your manager or the People Ops team. For now, these spreadsheets are only available to department heads (who may choose to share with hiring managers on their teams).
 
@@ -97,7 +99,7 @@ If you would like access to these spreadsheets, please contact your manager or t
 
 Our compensation bands are brought together by the People Ops team from multiple inputs. The process is described below:
 
-- First, the People Ops team pulls raw benchmark data from Option Impact every 6 months. This data provides benchmarks for each level and position at multiple percentiles. We use the following criteria for filtering the data we pull from Option Impact:
+- First, the People Ops team pulls raw benchmark data from Option Impact. This data provides benchmarks for each level and position at multiple percentiles. We use the following criteria for filtering the data we pull from Option Impact:
   - Location: All US Regions
   - Industry: Enterprise
   - Founding Status: Non-Founders

@@ -11,13 +11,7 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 ## Team members
 
 - We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../../team/index.md#jason-yavorska) is involved in the meantime.
-- [Rob Rhyne](../../../../../team/index.md#rob-rhyne) ([Product Designer](../../../product/roles/index.md#product-designer))
-- [Jeff Warner](../../../../../team/index.md#jeff-warner) ([Engineering Manager](../../roles/index.md#engineering-manager)) {#search-core-eng}
-  - [Keegan Carruthers-Smith](../../../../../team/index.md#keegan-carruthers-smith)
-  - [Stefan Hengl](../../../../../team/index.md#stefan-hengl)
-  - [Ryan Hitchman](../../../../../team/index.md#ryan-hitchman)
-  - [Tomás Senart](../../../../../team/index.md#tomás-senart)
-  - [Geoffrey Gilmore](../../../../../team/index.md#geoffrey-gilmore)
+  {{generator:product_team.search_core}}
 
 ## Contact
 
@@ -34,30 +28,43 @@ The support rotation can be viewed on OpsGenie: [search core schedule](https://s
 
 Should an engineer be unable to fulfill support responsibilities for any reason (for example, due to upcoming time off), they should swap with a teammate.
 
+We track support issues from customers on this [board](https://github.com/orgs/sourcegraph/projects/166)
+
 ## Planning
 
-The search core team plans its work continuously (we don't do sprints/iterations).
+- The search core team plans its work continuously (we don't do sprints/iterations).
+- Supporting existing customers is critical to our success and can be prioritized ahead of roadmap work.
+- Our [OKR and status updates are tracked using GitHub](https://github.com/orgs/sourcegraph/projects/214/views/11) under the Code Graph tab.
 
-**Team syncs, plans and updates:**
+## Team syncs, plans and updates:
 
-- The teams holds syncs thrice weekly (M, W, F).
+- The teams holds syncs twice weekly (Mon, Thu).
 - Before team syncs, teammates add their status and plans to the [team sync meeting notes](https://docs.google.com/document/d/1cTdGC4jBK7aEnb9ChzCLYHVGBpRRMNYGdUUPYVPIWHo/edit#).
 - The team discusses the updates live during the sync.
 - Updates should be in prose and communicate progress made and pain points.
 
-**Backlog**
+## Backlog
 
 We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/204/views/3?layout=board) to capture work items we've identified.
 
-**Retrospective**
+## Retrospective
 
-The first Monday of every month we hold an informal retrospective. This is a time for us to look back at the last month and discuss progress and process.
+- We have a retrospective every two weeks, on Monday. This is a time for us to look back and discuss progress and consider changes to process.
+- Our [action plans and learnings are capture in a document](https://docs.google.com/document/d/1qCSVyu0IU9_w0mpHic3mFS2yqwI1CzZwM9HUp2ySrU4/edit) and we use a Jamboard to capture everyone's thoughts. The theme for the Jamboard rotates.
+
+## Our Repositories
+
+- [Zoekt](https://github.com/sourcegraph/zoekt) the Zoekt search engine we support and use.
+- [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product
+- [Scratchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
 
 ## On Boarding
 
 Public resources are available here:
 
 - [Learning Go](https://go.dev)
+- [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
+- [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
@@ -65,10 +72,11 @@ Public resources are available here:
   - https://www.youtube.com/watch?v=_-KTAvgJYdI
   - https://about.sourcegraph.com/blog/tackling-the-long-tail-of-tiny-repos-with-shard-merging/
   - https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/
+  - https://swtch.com/~rsc/regexp/regexp4.html
+  - https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/
 
 Our private resources are available [in the Google doc](https://docs.google.com/document/d/10SNzhuA5dmRJ5Na3PMnuShlPmtGGVIz3P2GA4RtfaGo/edit)
 
 ## Misc
 
-- [lab journal (private)](https://github.com/sourcegraph/search-scratch/blob/master/2021/journal.org)
 - [iteration log (deprecated)](./iteration_log.md)

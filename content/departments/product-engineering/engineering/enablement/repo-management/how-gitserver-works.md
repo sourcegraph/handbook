@@ -33,7 +33,7 @@ One repository-related responsibility _not_ handled by gitserver is the scheduli
 
 ### Production instances
 
-There are currently [20 gitserver instances](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-dot-com@ec7effbc9491e3ee0c77c3d70ac3f2eb8cb34837/-/blob/base/frontend/sourcegraph-frontend.Deployment.yaml?L104-105) in production on Sourcegraph Cloud. This is a static list made available via the `SRC_GIT_SERVERS` environment variable.
+There are currently [20 gitserver instances](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud@ec7effbc9491e3ee0c77c3d70ac3f2eb8cb34837/-/blob/base/frontend/sourcegraph-frontend.Deployment.yaml?L104-105) in production on Sourcegraph Cloud. This is a static list made available via the `SRC_GIT_SERVERS` environment variable.
 
 At the moment, we shard repositories across gitserver instances using a [modular hashing strategy](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/gitserver/client.go?L118-124) based on the repository name. This is the responsibility of the [gitserver client](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/internal/gitserver/client.go).
 
@@ -53,7 +53,7 @@ There are two different command timeout checks in gitserver: the [short timeout]
 
 Each gitserver instance will perform various [background cleanup tasks](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/gitserver/server/cleanup.go?L76-85) to ensure that repositories remain healthy, or are removed if they are found to be corrupt.
 
-Additionally, gitserver may remove repositories if the instance's disk is under heavy pressure. The [least recently used](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/gitserver/server/cleanup.go?L436-442) repositories will be removed first, until a [sufficient amount of space](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/gitserver/server/cleanup.go?L370-434) has been reclaimed.
+Additionally, gitserver may remove repositories if the instance's disk is under heavy pressure. The [least recently used](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/gitserver/server/cleanup.go?L436-442) repositories will be removed first, until a [sufficient amount of space](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@737e98fe5a1c329fd2b8f1366f931941042b5671/-/blob/cmd/gitserver/server/cleanup.go?L370-434) has been reclaimed. This will **only** trigger if the free disk space available is [lower than the threshold](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@98ddc7c6c4c0ff757d3c0430abcc8770eba5c6b7/-/blob/cmd/gitserver/server/cleanup.go?L354-358&subtree=true) set in the environment variable `SRC_REPOS_DESIRED_PERCENT_FREE`, set to `10%` by [default](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@98ddc7c6c4c0ff757d3c0430abcc8770eba5c6b7/-/blob/cmd/gitserver/main.go?L51&subtree=true).
 
 ### Useful metrics
 

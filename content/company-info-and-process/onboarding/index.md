@@ -17,13 +17,13 @@ New teammates are paired with someone to connect that can share their experience
 
 ### Everyone is here to support you as you onboard
 
-Joining a new company can be overwhelming — there's a lot to learn! As you navigate your first few weeks at Sourcegraph, we want you to know that everyone on the team is here to help and will gladly drop anything to answer any question you have.
+Joining a new company can be overwhelming—there's a lot to learn! As you navigate your first few weeks at Sourcegraph, we want you to know that everyone on the team is here to help and will gladly drop anything to answer any question you have.
 
-Every time you're curious or confused about something — just ask! When you do so, use [public discussion channels](../communication/team_chat.md#avoid_private_messages) as much as possible.
+Every time you're curious or confused about something—just ask! When you do so, use [public discussion channels](../communication/team_chat.md#avoid_private_messages) as much as possible.
 
 ### Think and act like an owner
 
-At Sourcegraph, we don't think of teammates as resources — we think of them as owners of their work, who constantly reevaluate how to use their talents to be as impactful as possible. We value your opinions and ideas. You should always feel empowered to identify potential improvements and act upon them, whether they be improvements to processes (like onboarding), our handbook and general documentation, our codebase and tooling, or our product.
+At Sourcegraph, we don't think of teammates as resources—we think of them as owners of their work, who constantly reevaluate how to use their talents to be as impactful as possible. We value your opinions and ideas. You should always feel empowered to identify potential improvements and act upon them, whether they be improvements to processes (like onboarding), our handbook and general documentation, our codebase and tooling, or our product.
 
 Never assume that a problem is somebody else's to fix!
 
@@ -105,6 +105,7 @@ You will be able to submit an expense reimbursement for the computer and desk eq
 - Watch Dan's [Sourcegraph Demo](https://drive.google.com/file/d/1VUZ0rnZQpNgjtGDI0tMC-h-OtL0Czz8H/view)
 - Learn how we can (and cannot) [reference our customers externally](../../departments/sales/index.md#customer)
 - Learn your [Sourcegraph teammates' favorite productivity hacks and shortcuts](../remote/teammate-recommended_productivity_hacks.md).
+- Watch our [product onboarding videos](product-onboarding-videos.md)
 
 Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn background to the [Sourcegraph banner](https://drive.google.com/file/d/1Fgrn_vaVVHVcKTaX9g5fDh9_Bwk9jL3E/view?usp=sharing)!
 

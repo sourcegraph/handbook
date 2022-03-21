@@ -1,6 +1,6 @@
 # Adding a community landing page
 
-Sourcegraph hosts community landing pages to help open source community members discover, onboard, and search their code. Good examples include the [kubernetes](https://sourcegraph.com/kubernetes) and [stanford](https://sourcegraph.com/stanford) landing pages. The pages are based on search contexts (a named collection of repositories and revisions).
+Sourcegraph hosts community landing pages to help open source community members discover, onboard, and search their code. Good examples include the [Kubernetes](https://sourcegraph.com/kubernetes) and [Stanford](https://sourcegraph.com/stanford) landing pages. The pages are based on search contexts (a named collection of repositories and revisions).
 
 ## How to create a community landing page on Sourcegraph Cloud
 
@@ -12,12 +12,12 @@ First, create the search context:
   - Select the "Global owner" option from the Owner dropdown (this will make the context available to all users on Cloud)
   - Enter the context name (e.g. `stanford`, `cncf`)
   - Enter a description (Markdown is supported)
-  - Select the "Public" visiblity
+  - Select the "Public" visibility
   - Enter the repositories as a JSON config (see [Stanford edit page](https://sourcegraph.com/contexts/stanford/edit) for example configuration)
   - Click "Test configuration" to check if the configuration is in the correct format and that all of the entered repositories exist
   - Finally, you can create the search context
 
-Second, create the corresponding community search context page in the main sourcegraph repository. This is a temporary measure and will be automated in the future.
+Second, create the corresponding community search context page in the main Sourcegraph repository. This is a temporary measure and will be automated in the future.
 Steps:
 
 - Copy an existing page config (e.g. [Stanford](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@675e5129031b75998ffa2823782f5e354390edfb/-/blob/client/web/src/communitySearchContexts/Stanford.tsx)) and adjust the necessary data

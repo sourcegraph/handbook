@@ -3,7 +3,7 @@
 The goal of these content guidelines is to help us to:
 
 - **Create consistency** across our product, marketing material, documentation, and handbook.
-- **Empower our team** to make easier for anyone to write clear, effective, and useful content.
+- **Empower our team** to make it easier for anyone to write clear, effective, and useful content.
 - **Drive positive change** in language standards to create compassionate, inclusive, and respectful products.
 
 ## Sections

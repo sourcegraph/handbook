@@ -2,7 +2,7 @@
 
 The Developer Education team maintains a platform of content and code at [learn.sourcegraph.com](https://learn.sourcegraph.com).
 
-_This document is a living and collaborative document and will be iterated upon and expanded._
+_This is a living and collaborative document and will be iterated upon and expanded._
 
 ## Educational resources
 
@@ -31,7 +31,7 @@ Sourcegraph Learn tutorials and other resources have the following characteristi
     - Links to further reading if not everything can be covered in one document
   - Use compelling, realistic examples
     - If possible, use concrete examples from open source projects
-  - Avoid using placeholder names that are meaningless, like `foo` and `bar`
+  - Avoid using meaningless placeholder names, like `foo` and `bar`
   - Code and writing is logically structured and helps the reader all the way through
 - Original and well researched
   - Resources are original and not syndicated from elsewhere
@@ -47,7 +47,7 @@ Sourcegraph Learn tutorials and other resources have the following characteristi
   - Authentic developer voice that is welcoming and inclusive
   - Conversational but not informal
   - Tends towards objectivity
-  - Avoids making value judgements (for example, "This tool is great!")
+  - Avoids making value judgments (for example, "This tool is great!")
   - Can make substantiated recommendations
 - Language
   - Clear language
@@ -71,7 +71,7 @@ Sourcegraph Learn is building a library of several different resource types. Dif
 | Procedural tutorial      | A how-to or similar procedural article which takes a reader through an entire technical process from start to finish. Readers should be able to copy and paste code snippets. These resources will front-load any assumptions made in a prerequisites section and will provide context along the way.              | [How To Add Private Code Repositories to Sourcegraph](https://learn.sourcegraph.com/how-to-add-private-code-repositories-to-sourcegraph) |
 | Conceptual guide         | A high-level technical guide that introduces concepts to readers without providing procedural examples.                                                                                                                                                                                                            | _Coming soon_                                                                                                                            |
 | Educational repo         | An educational repository of a demo or sample app may tie into procedural tutorials or other educational resources but will live on GitHub with Sourcegraph’s other open source projects. The repo will leverage branches to make use of several states of the project.                                            | [LifeCounter](https://github.com/sourcegraph-community/LifeCounter)                                                                      |
-| Troubleshooting tutorial | Troubleshooting tutorials provide technical guidance, supporting a developer who is running into problems. These tutorials will include error messages and provide information for how to resolve the error.                                                                                                       | [How to troubleshoot Python ZeroDivisionError](https://learn.sourcegraph.com/how-to-troubleshoot-python-zerodivisionerror)               |
+| Troubleshooting tutorial | Troubleshooting tutorials provide technical guidance, supporting a developer who is running into problems. These tutorials will include error messages and provide information on how to resolve the error.                                                                                                        | [How to troubleshoot Python ZeroDivisionError](https://learn.sourcegraph.com/how-to-troubleshoot-python-zerodivisionerror)               |
 | Cheat sheet              | Cheat sheets are less contextualized than other tutorials, supporting developers in recalling syntax with code examples that work. These guides will assume familiarity with the technology and are for more experienced developers who need to remember how to do something in a given programming language, etc. | [How To Search Code with Sourcegraph — A Cheat Sheet](https://learn.sourcegraph.com/sourcegraph-cheat-sheet)                             |
 | Quickstart video         | A short-form video on a self-contained procedural topic demonstrated through video and audio with closed captioning and transcript.                                                                                                                                                                                | [Three Ways to Search with Sourcegraph (Video)](https://learn.sourcegraph.com/three-ways-to-search-video)                                |
 
@@ -82,7 +82,7 @@ Our written resources should follow a consistent approach to structure. There sh
 Generally, procedural tutorials should follow the following format:
 
 - **Title**, H1 heading: Often following a _How to_ title format, though there are exceptions
-- **Introductory paragraphs**, no heading: Should explain in 1-3 paragraphs why the reader may find this tutorial valuable, and what to expect to have completed by the end of the tutorial
+- **Introductory paragraphs**, no heading: Should explain in 1–3 paragraphs why the reader may find this tutorial valuable, and what to expect to have completed by the end of the tutorial
 - **Steps**, H2 headings: Often following a _Step 1 — Do something_ format, this is the body of the tutorial and where most of the procedure that the reader is following is documented
 - **Secondary steps**, H3 headings: Nested headings should only be used when needed, and may refer to the same step on a different operating system, or closely related and more granular steps of a procedural process
 - **Concluding section**, H2 heading: Can be _Next steps_ or *Further resources* — here is an opportunity to reiterate what the reader has accomplished and provide them with additional links to learn more

@@ -8,7 +8,7 @@ Why? Read the [FAQ](#FAQ).
 
 We designed this exercise to measure your understanding of callbacks and asynchronous execution.
 
-- You will choose a two hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
+- You will choose a two-hour timeframe to independently work on the exercise. You can choose any day and time; we just schedule an email.
 - At your chosen date and time, we will send you a zipped TypeScript project that contains instructions and some unit tests.
 - TypeScript is a superset of JavaScript, so if you are comfortable with JavaScript and have experience reading any typed language, then you should be fine. We recommend reading through the [TypeScript docs](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) if you aren't already familiar with TypeScript.
 - You should have Node.js (>=8.16.0) installed on your computer.
@@ -22,7 +22,7 @@ If we decide to move forward, we will schedule a 30-minute followup call to disc
 
 We designed this exercise to measure your understanding of building web UIs.
 
-- We will schedule a 90-minute timeframe to work with a Sourcegraph engineer.
+- We will schedule a 60- or 90-minute timeframe (depending on the position) to work with a Sourcegraph engineer.
 - The exercise asks you to implement a UI in a scaffold TypeScript **React** app.
 - We provide you with the code of the scaffold app, the URL of a working **backend API** to fetch data from and a link to a **Figma design** for the UI.
 - The backend exposes data over both a RESTful interface.
@@ -91,7 +91,7 @@ We designed [this synchronous](https://github.com/sourcegraph/interviews/blob/ma
 - You may use the language of your choice.
 - You can use your own development environment, and look up documentation on the internet.
 - You can use any open-source libraries.
-- We will be working in a paried setting, as if you would work in pair with a fellow engineer. We do not expect you to single handedly do all the work.
+- We will be working in a paired setting, as if you would work in pair with a fellow engineer. We do not expect you to single handedly do all the work.
 
 If we decide to move forward, we will schedule interviews with team members.
 
@@ -104,11 +104,11 @@ We designed this exercise to measure your skills at integrating build and deploy
 - You should have a recent version of Go (≥ 1.13) installed on your computer.
 - You should have a simple Kubernetes local cluster ([kind](https://kind.sigs.k8s.io/), [k3d](https://github.com/rancher/k3d), [minikube](https://minikube.sigs.k8s.io/docs/start/))
 - You can look up documentation on the internet while you are coding.
-- After three hours, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
+- After finishing up, you will email us your solution as a zip file and we will get back to you on next steps within 2 business days.
 
-If we decide to move forward, we will schedule a 30-minute followup call to discuss your code.
+If we decide to move forward, we will schedule interviews with team members.
 
-## Extensibility team coding exercise
+## Growth and Integrations team coding exercise
 
 We designed this exercise to measure your ability to show logical thinking and apply that thinking towards a code implementation. There's no frontend UI work involved.
 

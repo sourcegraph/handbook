@@ -23,7 +23,7 @@ It does _not_ include:
 - Significant detail about what went wrong or the ability to identify individual problem cases: the goal is just to direct the site admin to the next step.
 - Solving a problem end-to-end: after looking at monitoring, admins MUST go elsewhere to solve the problem.
 
-Because of this, monitoring is just one piece of Sourcegraph's observability - see the [observability developer guide](index.md) for more information.
+Because of this, monitoring is just one piece of Sourcegraph's observability—see the [observability developer guide](index.md) for more information.
 
 ## Long-term vision
 
@@ -51,7 +51,7 @@ Before the recommendations we make start to make sense, you need to understand t
 - It has been impossible/painful for site admins to define meaningful alerting for Sourcegraph. Many admins would fall back to poor external checks like "does a search query work and is it fast?"
 - It has been impossible for us to debug customer's instances through monitoring, and often we would just write one-off Prometheus queries for customers to run.
 
-We can and should do better with monitoring than we have in the past, so we introduce strict restrictions on how we develop monitoring. This helps keep the entire engineering team aligned with what our customers and users need from us -- even if monitoring is often an afterthought or the last thing an engineer working on some feature adds.
+We can and should do better with monitoring than we have in the past, so we introduce strict restrictions on how we develop monitoring. This helps keep the entire engineering team aligned with what our customers and users need from us—even if monitoring is often an afterthought or the last thing an engineer working on some feature adds.
 
 You can think of the restrictions we impose as a linter for preventing the issues described above. And, in many cases, our tooling does already prevent these issues by imposing these restrictions!
 

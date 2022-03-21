@@ -8,7 +8,7 @@ To take this quiz:
 1. Schedule time with your manager to review your answers.
    - Your manager will also ask related questions to help make sure you understand the subject matter beyond the written answers.
 
-When formulating your answer, assume the audience is a new Sourcegraph teammate who is asking you the question on their first day. The goal of this quiz is to test your actual knowledge of these topics, not to demonstrate sales or pitching abilities. Most of these questions can be answered in 1-2 sentences.
+When formulating your answer, assume the audience is a new Sourcegraph teammate who is asking you the question on their first day. The goal of this quiz is to test your actual knowledge of these topics, not to demonstrate sales or pitching abilities. Most of these questions can be answered in 1–2 sentences.
 
 This quiz is not a high-stakes pass-or-fail test. Try your best, and when you review your answers with your manager, be open about where you're confused or unsure. If your answers are incorrect, your manager will help you learn the necessary background information to get the answer correct.
 

@@ -3,13 +3,13 @@
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
 - [Engineering management](tools/engineering-management.md)
+- [Policies](policies/index.md)
 - RFCs (requests for comment)
   - [All RFC documents](https://drive.google.com/drive/folders/1zP3FxdDlcSQGC1qvM9lHZRaHH4I9Jwwa) (Google Drive)
   - [How we use RFCs](../../../company-info-and-process/communication/rfcs/index.md)
 - [Tracking issues](process/tracking_issues.md)
 - [Engineering ownership](process/engineering_ownership.md) - who owns what
 - Practices & Philosophy
-  - [Planning](process/planning.md)
   - [Customer Issues](../../support/process/engaging-other-teams.md)
   - [Incidents](process/incidents/index.md)
   - [Product documentation](process/product_documentation.md)
@@ -19,6 +19,7 @@
   - [External contributions](process/external_contributions.md)
   - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
+  - [IAM model for GCP](process/engineering_iam_model.md)
 - [Tooling](tools/index.md)
   - [Slackgenie](tools/slackgenie.md)
 - Infrastructure
@@ -32,11 +33,24 @@
 - [Career development](career-development/index.md)
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
-- [Core Application Operational Rotation](core-application/operational-rotation.md)
+- [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
+
+Welcome to Engineering!
+
+<video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
 
 ## Org chart
 
-- [How engineering is organized](team/index.md).
+Engineering is organized in three orgs:
+
+- [Cloud](cloud)
+- [Code graph](code-graph)
+- [Enablement](enablement)
+
+Also see:
+
+- [Full org chart](team/index.md).
 - [Roles and responsibilities](roles/index.md)
 
 ## Communication

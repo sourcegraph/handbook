@@ -2,6 +2,7 @@
 
 The Sales team represents us and our values to customers, bringing back dollars and feedback to help us grow.
 
+- [Commercial Sales](commercial/index.md)
 - [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
 - [Pricing](https://about.sourcegraph.com/pricing)
 - [Price List](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
@@ -15,6 +16,9 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [Sales Resources](tools/salesresources.md)
 - [Engaging with Legal](process/saleslegal.md)
 - [Engaging with Security](process/salessecurity.md)
+- [Use cases](../../strategy-goals/strategy/index.md#use-cases)
+- [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
+- [Process docs](process/index.md)
 
 ## Pipeline, data, and models
 
@@ -30,29 +34,7 @@ Find the Sales (and the rest of the company's) FY22 OKRs [here](https://docs.goo
 
 Not all team members are reflected here yet. If you see yourself missing, please add yourself!
 
-- [Gregg Stone](../../team/index.md#gregg-stone) (VP of Sales)
-- [Dudley Nostrand](../../team/index.md#dudley-nostrand) (Sr. Manager, Value Engineering & Sales Enablement)
-  - [Trey Sizemore](../../team/index.md#trey-sizemore) (Sales Enablement Manager)
-- [Scott Cambell](../../team/index.md#scott-campbell) (Regional Director of East)
-  - [Kai Passo](../../team/index.md#kai-passo)
-  - [Bill Kolman](../../team/index.md#bill-kolman)
-  - [Eli Rothschild](../../team/index.md#eli-rothschild)
-  - [Scott Cambell](../../team/index.md#scott-campbell)
-  - [Caitlin Moran](../../team/index.md#caitlin-moran)
-  - [Ken Mills](../../team/index.md#ken-mills)
-  - [Brady Hermann](../../team/index.md#brady-herrmann)
-- [Greg Bastis](../../team/index.md#greg-bastis) (Regional VP of West)
-  - [Owen Brennan](../../team/index.md#owen-brennan)
-  - [Chris Surdi](../../team/index.md#chris-surdi)
-  - Will Camp
-  - [Jon Kishpaugh](../../team/index.md#jon-kishpaugh)
-  - [James Clifford](../../team/index.md#james-clifford)
-  - [Natalie Khoury](../../team/index.md#natalie-khoury)
-  - [Rashad Bartholomew](../../team/index.md#rashad-bartholomew)
-  - [Cory Dobson](../../team/index.md#cory-dobson)
-- Prakash Durgani (Head of International Sales)
-  - Khoshal Wial
-  - Suki Randhawa(../../team/index.md#suki-randhawa)
+{{generator:reporting_structure.vp_sales}}
 
 ### Roles
 
@@ -60,10 +42,15 @@ See [roles](roles/index.md) page.
 
 ## How sales works with other Sourcegraph teams
 
-### [Customer engineering](../support/index.md) (for customer support)
+### [Customer engineering](../support/index.md)
+
+- [How CE supports sales](../ce/team-culture#sales)
+- [Creating and maintaining license keys for customers](../ce/process/license_keys.md)
+
+### [Customer Support](../support/index.md)
 
 - [How to request support (for customers)](../support/index.md#how-to-get-support-for-customers)
-- [Creating and maintaining license keys for customers](../ce/process/license_keys.md)
+- [Support SLAs](../support/index.md#slas)
 
 ### [Team members who want to join calls](onboarding/joining_customer_calls.md)
 
@@ -79,6 +66,24 @@ A customer is an organization with a Sourcegraph subscription contract that has 
    - Customers mentioned on [about.sourcegraph.com](https://about.sourcegraph.com/) (by logo and/or case study) are referenceable.
    - If in doubt about whether another customer is referenceable by name, ask in #sales.
 1. If an organization's contract will start in the future, they are still considered a customer. (This can happen when we agree to have a contract start on the next 1st of the month because that makes life easier for a customer, for example.)
+
+### Open pipeline
+
+### Qualified pipeline
+
+### Weighted pipeline
+
+### Win rate
+
+Win rate is the percentage of deals closed that were `Closed Won` (the prospect converted to a paying customer).
+
+Calculation: # of deals closed won / (# of deals closed won + # of qualified deals closed lost)
+
+### Close rate
+
+Close rate is the ratio of deals that were `Closed Won` to deals qualified within the same period.
+
+Calculation: # of deals closed won / # of deals qualified in the period
 
 ### Sales Accepted Opportunity (SAO)
 

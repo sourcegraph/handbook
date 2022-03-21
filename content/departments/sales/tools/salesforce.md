@@ -18,7 +18,9 @@ Jump to:
 
 ## Salesforce access
 
-Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation. To request access, tag @sales-operations in #it-tech-ops.
+Sales, marketing and finance teams have access to Salesforce. Access for those on other teams can be reviewed on a case-by-case basis, usually dependent on how frequently one needs to view customer communcation.
+
+To access Salesforce you will need to log in using your [Okta](https://sourcegraph.okta.com/app/UserHome) credentials. To request access, tag @sales-operations in #it-tech-ops.
 
 ## About Salesforce objects
 
@@ -32,9 +34,9 @@ Opportunities begin at the [interest](index.md#interest) stage.
 
 Leads are single individuals that have not been qualified yet, and therefore are not associated with an account or opportunity. Leads can be created in Salesforce in a few different ways:
 
-- Inbound Marketing Lead - automatically created via Hubspot when a user takes an action on our website
-- SDR Created - SDR either manually creates a new lead or uploads a list
-- Other Offline Sources - list uploaded from marketing event, webinar, etc.
+- **Inbound Marketing Lead** - automatically created via Hubspot when a user takes an action on our website
+- **SDR Created** - SDR either manually creates a new lead or uploads a list
+- **Other Offline Sources** - list uploaded from marketing event, webinar, etc.
 
 ### Lead Source
 
@@ -42,12 +44,12 @@ Every Lead should have a value in the Lead Source field. The Lead Source value i
 
 Lead Source values include:
 
-- Inbound - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
-- Referral - any lead that was referred by a partner, investor, customer, employee, etc.
-- SDR Created - any lead created by an SDR
-- Event - lead attended an event, webinar, or similar
-- Feedback Form - NPS Form Submissions
-- Other
+- **Inbound** - any inbound lead generated from a Contact Form, Demo Request, Trial Request, Sourcegraph.com Account Setup, Install, etc.
+- **Referral** - any lead that was referred by a partner, investor, customer, employee, etc.
+- **SDR Created** - any lead created by an SDR
+- **Event** - lead attended an event, webinar, or similar
+- **Feedback Form** - NPS Form Submissions
+- **Other**
 
 ### First Touchpoint
 
@@ -72,15 +74,15 @@ Lead Status indicates the stage of a lead in the workflow process.
 
 Lead Status values include:
 
-- New
-- Working - SDR is actively engaging new lead
-- Nurture - lead has potential, but is not ready to be converted
-- Self-Service - lead is best served by our self-service offering
-- Unqualified - lead is unqualified for our services, used for job candidates, students, etc.
-- Bad-Data
-- Converted - auto-set upon conversion of lead
-- Replied - lead responded from an Outreach sequence
-- Unresponsive - lead has not responded to an Outreach sequence
+- **New**
+- **Working** - SDR is actively engaging new lead
+- **Nurture** - lead has potential, but is not ready to be converted
+- **Self-Service** - lead is best served by our self-service offering
+- **Unqualified** - lead is unqualified for our services, used for job candidates, students, etc.
+- **Bad-Data**
+- **Converted** - auto-set upon conversion of lead
+- **Replied** - lead responded from an Outreach sequence
+- **Unresponsive** - lead has not responded to an Outreach sequence
 
 ### Lead Assignment
 
@@ -133,43 +135,6 @@ If a Lead meets the “Target Opportunity Profile” criteria, we use the follow
 - AE has a closed opp within the past 90 days on the account
 
 **NOTE:** just being a target account / owned by an AE does not mean you automatically get an inbound lead, you have to be working the account
-
-## Account Object
-
-### Requesting to Add, Remove, or Exchange your Target Accounts
-
-##### To add an account to your Target Accounts (assumes you are not at your maximum targets):
-
-1. Find the Account in Salesforce.
-2. Using the Button Bar at the top right, select “Change Target Account”.
-3. It will display the number of Target Accounts you have out of your total allowed. Click Next.
-4. Confirm the Request and click Next.
-5. The request has been submitted to your manager for approval. Click Finish.
-6. Once your manager approves the change, the Account will be added to your name and marked as a Target Account.
-
-- [Add Account Video Example](https://screenrec.com/share/4NxOzujFbT)
-
-##### To remove an account to your Target Accounts:
-
-1. Find the Account in Salesforce.
-2. Using the Button Bar at the top right, select “Change Target Account”.
-3. It will display the number of Target Accounts you have out of your total allowed. Click Next.
-4. Confirm the Request and click Next.
-5. The request has been submitted to your manager for approval. Click Finish.
-6. Once your manager approves the change, the Account will be removed from your name and unmarked as a Target Account.
-
-- [Remove Account Video Example](https://screenrec.com/share/IMZG1ntb85)
-
-##### To exchange an account from your Target Accounts (exchanging is only necessary if you are at your max of 25 accounts):
-
-1. Find the Account in Salesforce.
-2. Using the Button Bar at the top right, select “Change Target Account”.
-3. It will display the number of Target Accounts you have out of your total allowed and ask you to provide the Name of the Account you are giving up in order to add the new Account. It is important that you provide the exact name of the Account to be given up. After entering the surrendered Account’s name, click Next.
-4. Confirm the Request and click Next.
-5. The request has been submitted to your manager for approval. Click Finish.
-6. Once your manager approves the change, the surrendered Account will be removed from your name and unmarked as a Target Account while the new Account will be added to your name and marked as a Target Account.
-
-- [Exchange Account Video Example](https://screenrec.com/share/dxoK5HG1iR)
 
 ## Opportunity Object
 
@@ -240,6 +205,7 @@ Any update on the lead/contact in Salesforce will sync back to HubSpot (name, em
 
 - All leads are put into an automated round robin process when they are converted in order to identify the AE owner
   - There are seperate queues for Inbound leads (by Region) and unassigned Outbound leads (by SDR / AE pairing)
+  - To be eligible for the round robin, a rep must first pass the [demo certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/)
 - Round robin spots are used when a meeting with a lead is scheduled, the outcome of the meeting does not matter
 - Consultants should not count in the round robin, and the SDR team should not convert consultant leads into the round robin queue
   - If a consultant does slip through, the scenario will be assessed on a one-off basis by Sales Ops and Sales Management

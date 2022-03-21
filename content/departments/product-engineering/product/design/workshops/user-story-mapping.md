@@ -84,7 +84,7 @@ You may find that there’s duplicate stories for different user types. This is 
 
 #### Create lanes
 
-At this point, all of the user stories will be piled up in their columns. Our next activity is about breaking these stories into clear iterative groups. It's helpful to create 3-4 lanes at the beginning of this phase, and label them 1, 2, 3, or X, X+1, X+2, etc. Then, I explain how to approach breaking down the stories into separate steps.
+At this point, all of the user stories will be piled up in their columns. Our next activity is about breaking these stories into clear iterative groups. It's helpful to create 3–4 lanes at the beginning of this phase, and label them 1, 2, 3, or X, X+1, X+2, etc. Then, I explain how to approach breaking down the stories into separate steps.
 
 > We have a fantastic collection of user stories for each of these steps now. This is really helpful, because we can see all the different things we’ll need to achieve to deliver this effort. But you can also see that there’s a lot of stuff here, and we can’t do it all at once. There’s some things that are dependent on other things, and there’s certain things we really need to do versus would like to do to be able to deliver a great minimum lovable product. For this last step, we’re going to take about ten minutes to look at these user stories and move them up and down into the lanes you see here. Each lane represents one iteration. This’ll help us to figure out when each story should be done, and think about it how it relates to all the other stories across the user journey. I’ve added a few lanes to get us started, but we can add or remove them as we need. If you think of a new story that should be added along the way, please go right ahead!
 

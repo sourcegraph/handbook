@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "link": {
+        "type": "string"
+      },
+      "sponsors": {
+        "type": "object",
+        "properties": {
+          "engineering": {
+            "type": "string"
+          },
+          "product": {
+            "type": "string"
+          },
+          "design": {
+            "type": "string"
+          },
+          "marketing": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "required": ["title", "link"]
+  }
+}

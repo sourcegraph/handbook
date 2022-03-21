@@ -6,10 +6,9 @@ The finance & accounting team is responsible for helping Sourcegraph acquire and
 
 ### Members
 
-- [Dan Adler](../../team/index.md#dan-adler), VP Operations
-- [Tommy O Donnell](../../team/index.md#tommy-o-donnell), Manager, Financial Planning & Analysis
-- [Kendrick Morris](../../team/index.md#kendrick-morris), Finance & Operations Analyst
-- [Keely Aguayo](../../team/index.md#keely-aguayo), Payroll Manager
+{{generator:reporting_structure.manager_financial_planning}}
+
+{{generator:reporting_structure.financial_controller}}
 
 ### Roles
 
@@ -48,10 +47,10 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ### Fiscal year 2022
 
-- **FY22 Q1**: 01 February, 2021 - 30 April, 2021
-- **FY22 Q2**: 01 May, 2021 - 31 July, 2021
-- **FY22 Q3**: 01 August, 2021 - 31 October, 2021
-- **FY22 Q4**: 01 November, 2021 - 31 January, 2022
+- **FY22 Q1**: 01 February, 2021–30 April, 2021
+- **FY22 Q2**: 01 May, 2021–31 July, 2021
+- **FY22 Q3**: 01 August, 2021–31 October, 2021
+- **FY22 Q4**: 01 November, 2021–31 January, 2022
 
 ### Sources of truth
 
@@ -89,6 +88,10 @@ If within a single period a new customer signs a contract which then grows in AR
 
 The finance team reviews the AR aging schedule on a monthly basis and assesses customer collectability risk. If an existing customer signs a contract but holds an outstanding bill which the Finance team has deemed a high probability to be uncollectible, the Company will not recognize Expansion IARR until the full amount of the outstanding invoice is paid.
 
+### Churned/contraction IARR
+
+Churned/contraction IARR is from customers who do not renew their contract (churn) or whose contract decreases in ARR (contraction). This results in a decrease in ARR for the business.
+
 ### Booking
 
 A booking is when a customer commits to pay us money. This includes when:
@@ -97,7 +100,15 @@ A booking is when a customer commits to pay us money. This includes when:
 - An existing customer (depending on their contract) takes an action that increases the amount of revenue we will earn from them (such as growing usage or using more premium features)
 - An existing customer renews (including when the renewal is for the same ARR as the previous period)
 
-### Financial Planning and Financial Statement Review
+### Net dollar retention
+
+Net dollar retention (NDR) is measures how much revenue a cohort is generating (expansion - churn) in a given period relative to its original size (dollar amount).
+
+Calculation: (Beginning period ARR + existing customer expansion - churn/contraction) / beginning period ARR
+
+For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%.
+
+## Financial Planning and Financial Statement Review
 
 We update our financial plan on a quarterly basis. Our plan covers a twelve-month period and is focused on providing insights into working capital management, as well as predicting and understanding key trends within our business.
 
@@ -107,9 +118,13 @@ Following month two of every quarter, we complete a detailed dive in the current
 
 We also complete a balance sheet review. This review is focused on providing analysis on key financial statement line items such as Cash, AR, AP, Accruals, and Deferred Revenue. We have a number of methods for analyzing the activity on these accounts.
 
+### Process
+
+See our [process docs](process/index.md).
+
 ## Accounting
 
-We work with an outsourced accounting firm named [Officengine](https://officengine.com/). They close the books monthly and produce our financial statements, and provide support in processing payables, preparing taxes, filing corporate registrations, and more.
+Our internal Accounting team closes the books monthly and produces our financial statements. We also process payables, prepare taxes, file corporate registrations, and more.
 
 Reach out to the [Finance team](#team) for an introduction if needed.
 

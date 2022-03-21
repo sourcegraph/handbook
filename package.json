@@ -15,9 +15,9 @@
     "prettier": "prettier '**/{*.{?(m)[tj]s?(x),json,md,scss},.*.js?(on)}' --write --list-different",
     "prettier-check": "yarn -s run prettier --write=false",
     "eslint": "eslint 'src/**/*.?(m)[jt]s?(x)'",
-    "test": "echo \"it works fine on my computer\" && exit 1",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "copy-assets": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node src/scripts/copy-assets.ts",
-    "validate-data": "find data -name *.yml | sed -E \"s/data\\/(.*).yml/\\1/\" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text"
+    "validate-data": "find data -name *.yml | sed -E \"s/data\\/(.*).yml/\\1/\" | xargs -I '{}' ajv -d data/{}.yml -s schema/{}.schema.json --errors=text && node src/scripts/validateData.mjs"
   },
   "repository": {
     "type": "git",
@@ -76,7 +76,6 @@
     "chrono-node": "^2.3.2",
     "date-fns": "^2.25.0",
     "execa": "^5.1.1",
-    "fathom-client": "^3.2.0",
     "gitlog": "^4.0.4",
     "gray-matter": "^4.0.3",
     "hast": "^1.0.0",
@@ -119,11 +118,12 @@
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
     "@types/line-column": "1.0.0",
-    "@types/react": "17.0.37",
+    "@types/react": "17.0.39",
     "@types/relateurl": "0.2.29",
     "ajv-cli": "^5.0.0",
     "chalk": "^4.1.2",
     "eslint": "^7.32.0",
+    "jest": "^27.4.5",
     "line-column": "^1.0.2",
     "markdown-link-check": "^3.8.7",
     "next-sitemap": "^1.6.203",

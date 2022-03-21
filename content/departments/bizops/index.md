@@ -11,13 +11,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Members
 
-- [Dan Adler](../../team/index.md#dan-adler), VP Operations
-- [Eric Brody-Moore](../../team/index.md#eric-brody-moore), Business Operations Manager
-- [Farhan Attamimi](../../team/index.md#farhan-attamimi), Senior Data Operations Analyst
-- [Steph Hay](../../team/index.md#steph-hay), Senior Business Operations Analyst
-- [Kelsey Brown](../../team/index.md#kelsey-brown), Senior Business Operations Analyst
-- **Hiring**: [Director of Data and Analytics](https://boards.greenhouse.io/sourcegraph91/jobs/4084968004)
-- **Hiring**: [Data Analyst](https://boards.greenhouse.io/sourcegraph91/jobs/4155296004)
+{{generator:reporting_structure.director_data_analytics}}
 
 ## Resources
 
@@ -29,23 +23,17 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [Guide to user journey mapping](../../departments/product-engineering/product/process/user_journey_maps.md)
 - [Guide to product-led growth](process/product_led_growth.md)
 - [Customer data policy](process/customer_data_policy.md)
+- [Team processes](process/index.md)
 
 ## Goals
 
-See the [Operations OKRs](../../strategy-goals/goals/2022_Q4.md#operations-bizops-finance-techops-legal) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
+See the [Operations OKRs](../../strategy-goals/goals/2023_Q1.md#operations-bizops-finance-techops-legal-peopleops) for the Ops team's full OKRs. Below are the BizOps-specific OKRs:
 
-- **KR:** Complete a migration off of BigQuery for ETLs (to dbt, Airflow, or similar)
-- **KR:** Every product team, go-to-market team and company-wide has at least one automated KPI dashboard sent into Slack
-- **KR:** Build a scalable marketing data infrastructure to support ROI analysis (and specifically, have a system in place for tracking multi-touch attribution of leads)
-- **KR:** Every L2 and above product or feature release and update is measured as successful or not, beyond just being delivered on time
-- **KR:** TBD: Institute a cleaner, more thoughtful data architecture with documentation
-- **KR:** TBD: Working on getting sales insights and recommendations scoped so we list specific things to be delivered
+OBJECTIVE: Empower the business through better visibility of data
 
-**Note:** TBD KRs are not fully scoped and therefore intentionally vague, but are on this list because it's something we will likely spend time on in Q4
-
-### Goals roadmap
-
-We also work on projects outside of our specific key results that fall within overall themes of our OKRs (Upgrade systems and automate processes, Proactively help the business make better decisions, Build an operational foundation to prepare for Sourcegraph Cloud). The full list of non-ad-hoc projects and timelines can be found on the [BizOps roadmap](https://docs.google.com/spreadsheets/d/1xowFAuRQfQTnJ6ntoznVFE-MjtIwAzsLK_9asoIyGis/edit#gid=0).
+- KR: Multi-touch attribution is in place
+- KR: Understanding of what customer attributes and Sourcegraph actions drive higher close/renewal rates or adoption/consumption, and for CE to put those findings into practice
+- KR: Understanding of what user actions drive Cloud account setups (or retention), and for Product and Commercial Sales to put those findings into practice
 
 ## How to work with us
 

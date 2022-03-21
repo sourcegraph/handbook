@@ -7,9 +7,6 @@ For general observability development, please refer to the [observability develo
 > NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability), and for Cloud-specific documentation see the [Cloud monitoring documentation](./cloud.md).
 
 - [**Sourcegraph Cloud observability**](./cloud.md)
-- [Monitoring developer guide](monitoring.md)
-  - [Monitoring pillars](monitoring_pillars.md)
-  - [Monitoring architecture](./monitoring_architecture.md)
-- [Cloudflare logging](cloudflare.md)
-- Distributed tracing developer guide (coming soon)
-- Logging developer guide (coming soon)
+  - [Sourcegraph monitoring guide](monitoring.md)
+    - [Monitoring pillars](monitoring_pillars.md)
+    - [Monitoring architecture](./monitoring_architecture.md)

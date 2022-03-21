@@ -13,7 +13,7 @@ As a result of the 3.30 bug, Sourcegraph is committing to numerous changes to en
 #### Pre-release process (development, release prep, & cutting)
 
 - Introduce improved test instances to ensure we trust the signals while testing future releases.
-- Continue to encourage a “raise a flag” culture - when something _feels_ off, Sourcegraph engineers need to be encouraged to raise a flag and slow the process down. Customers are okay with the release coming a week late.
+- Continue to encourage a “raise a flag” culture—when something _feels_ off, Sourcegraph engineers need to be encouraged to raise a flag and slow the process down. Customers are okay with the release coming a week late.
 - Continue sharing knowledge across timezones to ensure we are not limited by any knowledge gaps in the event of future incidents.
 - Routinely use amcheck to see if Postgres can self-report corruption issues. The tool cannot guarantee corruption is absent, but can prove existence when present.
 - Work to migrate existing customers and set a standard for new customers to utilize managed external databases in their cloud providers (i.e. CloudSQL, RDS, Aurora, Aiven, etc)

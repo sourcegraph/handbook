@@ -45,6 +45,10 @@ It’s expected that these points will change over the period heading towards la
 
 1. All customer-facing/public comms should be reviewed by marketing for L1 launches.
 
+## Field enablement
+
+Beyond coordinating with marketing on the different launch levels above, when you are launching a new feature it's important to work with [sales enablement](../../../sales/sales-enablement/index.md) to arm the sales, support, and CS teams with the resources they need to successfully get your new features into the hands of customers. This can be simple and straightforward for small features, or quite detailed for large L1 feature launches. An example of a highly complex launch done extremely well is this [field enablement deck for Code Insights](https://docs.google.com/presentation/d/1xQNsieWSEgMFRxSOIttuMQZksubvwo7THqURC88pmRk/edit?usp=sharing) (internal only).
+
 ## Sourcegraph Cloud
 
 Sourcegraph Cloud is continuously deployed with all new updates to master. We maintain a [releasability contract](../../engineering/tools/continuous_releasability.md) and require all new features to be released behind a feature flag to ensure that functionality can be turned off if a problem arises.
@@ -61,7 +65,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 1. **Gather internal feedback:** Enable the feature flag in the [Sourcegraph organization settings](https://sourcegraph.com/organizations/sourcegraph/settings) to enable your feature for all Sourcegraph team members. Be sure to leave enough time for folks to experience the feature in their workflows and provide feedback.
 1. **Analytics:** Validate logging is working for critical flows
-1. **Approvals:** Recieve approval from key stakeholders.
+1. **Approvals:** Receive approval from key stakeholders.
 1. **Bug Tracking:** Keep track of all feedback.
    - Track and ensure high priority bugs in GitHub issues. Ensure they are closed before launch.
    - Track all lower priority bugs that have to be fixed soon.
@@ -70,7 +74,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 1. **Enable for all Sourcegraph Cloud users**
    - Follow the steps in this [document](../../engineering/cloud/devops/update_sg_website_config.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
-   - In the PR that pushes changes live, add everyone who gave appproval for launch as reviewers.
+   - In the PR that pushes changes live, add everyone who gave approval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 
@@ -99,7 +103,7 @@ Features that are specific to Sourcegraph Server and can't be tested on Sourcegr
 
 ## Browser and IDE Extensions
 
-Sourcegraph Browser Extensions and IDE Extensions are released every two weeks on Mondays. Once a release is made, there will be a brief external review period. This external review period usually takes no longer than 2 days. The release status will be communicated and updated on our Slack channel (#extensibility) as mentioned below.
+Sourcegraph Browser Extensions and IDE Extensions are released every two weeks on Mondays. Once a release is made, there will be a brief external review period. This external review period usually takes no longer than 2 days. The release status will be communicated and updated on our Slack channel (#growth-and-integrations) as mentioned below.
 
 ### Before merge
 
@@ -119,11 +123,11 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 ### Launch
 
 1. **Release Process**
-   - Release process is different for each product. Please refer to [Browser Extensions](../../engineering/cloud/extensibility/browser-extensions) & [IDE Extensions](../../engineering/cloud/extensibility/ide-extensions) page for more details.
+   - Release process is different for each product. Please refer to the [Browser Extensions](../../engineering/cloud/growth-and-integrations/browser-extensions) & [IDE Extensions](../../engineering/cloud/growth-and-integrations/ide-extensions) pages for more details.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 
 ### Post-launch
 
-1. **Notify partners:** Share the release status with partners on the #extensibility channel.
+1. **Notify partners:** Share the release status with partners on the #growth-and-integrations channel.
 1. **Metrics:** continue to track metrics to ensure expected outcomes are achieved.

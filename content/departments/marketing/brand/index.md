@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Building a Strong Brand]/building_a_strong_brand.md)
+1. [Building a Strong Brand](building_a_strong_brand.md)
 2. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
 3. [The Team](#the-team)
 4. [Capabilities](#capabilities)
@@ -15,24 +15,24 @@
 
 ## Function, Vision, Mission, and Values
 
-Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to drive awareness and affinity for our brand to our audience. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, connecting brand vision to business strategy, and bringing our brand to life across every touchpoint at every level of our company. We also protect and evolve the Sourcegraph brand identity to ensure consistency, congruency, and recognizeability amongst our larger audience.
+Built as a multidisciplinary in-house agency, the Sourcegraph Brand Team exists to drive awareness and affinity for our brand to our audience. We make this possible by serving as a strategic creative partner to cross-functional stakeholders, connecting brand vision to business strategy, and bringing our brand to life across every touchpoint at every level of our company. We also protect and evolve the Sourcegraph brand identity to ensure consistency, congruency, and recognizability amongst our larger audience.
 
 In addition to improving awareness and perception of our own brand, we strive to amplify the voices of our users and partners, by conceptualizing and producing best-in-class creative that leans heavily on storytelling and narrative to drive engagement and sharing. Our primary goal is to _build and strengthen the connection between our brand and our audience, by providing an amazing, consistent brand experience across all of our touchpoints_.
 
 We value: <br>
 
-- Efficiency - We are a small but mighty team that leverages vendors and contractors to scale support <br>
-- Agility - We move fast, adapt, and can change directions easily based on the market and business goals <br>
-- Creativity - We don't settle for "status quo" and look for opportunities to surprise and delight our audience <br>
-- Measurement - We strive for quantifiable results and outsized impact; everything we do has a “why” behind it <br>
+- **Efficiency** - We are a small but mighty team that leverages vendors and contractors to scale support <br>
+- **Agility** - We move fast, adapt, and can change directions easily based on the market and business goals <br>
+- **Creativity** - We don't settle for "status quo" and look for opportunities to surprise and delight our audience <br>
+- **Measurement** - We strive for quantifiable results and outsized impact; everything we do has a “why” behind it <br>
 
 Projects are categorized on a 5-tier basis based on strategy, scope, and visibility. These tiers are broken down in more detail [here](brand_and_creative_team_requests.md#project-tiers).
 
-- Tier 1 - Large-scale, high-priority external projects that require creative strategy development
-- Tier 2 - Externally-facing but lower-priority; previously-approved concept but new deliverable; new concept internal projects
-- Tier 3 - Templated/formulaic work, or testing revisions to an existing asset or campaign
-- Tier 4 - Production design and brand management
-- Tier 5 - Self-serve and process-guided needs teammates can do on their own
+- **Tier 1** - Large-scale, high-priority external projects that require creative strategy development
+- **Tier 2** - Externally-facing but lower-priority; previously-approved concept but new deliverable; new concept internal projects
+- **Tier 3** - Templated/formulaic work, or testing revisions to an existing asset or campaign
+- **Tier 4** - Production design and brand management
+- **Tier 5** - Self-serve and process-guided needs teammates can do on their own
 
 The Brand Team works closely with XFN teams at every level of the organization, and is a key stakeholder in overall company messaging, strategy, and engagement initiatives, as well as internally-facing messaging and branded programs or experiences.
 
@@ -66,7 +66,7 @@ To be hired:
 
 ## Capabilities
 
-We deliver agency-caliber creative and results in support of Sourcegraph business goals to drive awareness, engagement, and affinity for our brand.
+We deliver agency-caliber creativity and results in support of Sourcegraph's business goals to drive awareness, engagement, and affinity for our brand.
 
 The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand champion and creative partner for all internal teams and programs. With such a broad area of collaboration, we sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](production_process.md#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
 
@@ -125,10 +125,10 @@ _Copy_
 
 ## Final thoughts
 
-This handbook entry isn’t meant to have ALL the answers; rather, it’s meant to to be a living document that can change and adapt over time, while providing some frameworks and operational processes that help ensure smooth collaboration and successful partnering internally. Some of the typical questions that arise before starting a new project include:
+This handbook entry isn’t meant to have ALL the answers; rather, it’s meant to be a living document that can change and adapt over time, while providing some frameworks and operational processes that help ensure smooth collaboration and successful partnering internally. Some of the typical questions that arise before starting a new project include:
 
 - Is it more efficient to handle the request in-house or bring an agency on board?
-- Using the RAID framework, who has final aproval of the requested work?
+- Using the RAID framework, who has final approval of the requested work?
 - If our team doesn't directly produce a campaign or asset, what is the best process for Brand review?
 - How do we measure success/effectiveness of the requested project or asset?
 - How do we ensure this project is laddering up to overarching business strategy?

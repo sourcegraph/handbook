@@ -4,19 +4,87 @@
 
 ### People Ops team members
 
-- [Debbie Johnstone](../../team/index.md#debbie-johnstone), VP of People
-- [Noemi Mercado](../../team/index.md#noemi-mercado), People Operations Manager
-- [Inés Roitman](../../team/index.md#ines-roitman), Onboarding and Training Manager
-- [Cassie Melani](../../team/index.md#cassie-melani), Teammate Success Manager
-- [Cecily Black](../../team/index.md#cecily-black), People Operations Coordinator
+ <section>
+    <div class="row" style="display:flex;">
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#debbie-johnstone" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Debbie.png"
+                alt="Picture of Debbie Johnstone" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Debbie Johnstone</div>
+          <div style="text-align: center; font-size: 12px;">VP of People</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#noemi-mercado" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Noem.png"
+                alt="Picture of Noemi Mercado" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Noemi Mercado</div>
+          <div style="text-align: center; font-size: 12px;">People Operations Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Ines.png"
+                alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Inés Roitman</div>
+          <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#cassie-melani" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Cassie.png"
+                alt="Picture of Cassie Melani" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Cassie Melani</div>
+          <div style="text-align: center; font-size: 12px;">Teammate Success Manager</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#cecily-Black" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Cecily.png"
+                alt="Picture of Cecily Black" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Cecily Black</div>
+          <div style="text-align: center; font-size: 12px;">People Operations Coordinator</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/JonAyers.png"
+                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Jon Ayers</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+      </div>
+    </div>
+   </section>
 
-### People Ops team READMEs
+#### People Ops team READMEs
 
 [People Ops READMEs](team/index.md)
-
-### Open roles
-
-See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
 
 ### How to reach the right member of the People Ops team
 
@@ -24,7 +92,11 @@ If you encounter a question at any point, we're here to help!
 
 Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)** will help you understand which aliases to use for your questions. It will also ensure you get the right attention, from the right team member, faster. In the spirit of transparency, for any questions which might apply to others, feel free to post in the Slack channels we listed in the matrix.
 
-### People Ops frequently asked questions (FAQs)
+### Open roles
+
+See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open roles on the People Ops team.
+
+## People Ops frequently asked questions (FAQs)
 
 [People Ops FAQs](tools/people-ops-faqs.md)
 
@@ -60,8 +132,8 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 
 ## DEI
 
-- [Diversity, equity, and inclusion](../../company-info-and-process/communication/dei.md)
-- [Personal Pronouns](../../company-info-and-process/communication/personal-pronouns.md)
+- [Diversity, equity, and inclusion](../../company-info-and-process/diversity-equity-and-inclusion/index.md)
+- [Personal Pronouns](../../company-info-and-process/diversity-equity-and-inclusion/personal-pronouns.md)
 
 ## Wellbeing
 
@@ -75,5 +147,5 @@ This section currently includes resources that were specifically created to help
 - [Manager accounts guide](tools/manager-guide.md)
 
 - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
-
-  - [How to notify People Ops of an org and role change section](tools/manager-guide.md##how-to-notify-people-ops-of-an-org-and-role-change)
+- [How to notify People Ops of an org and role change section](tools/manager-guide.md#managing-a-role-change)
+- [Tools overview](tools/index.md)

@@ -92,18 +92,18 @@ Additionally, here are some other tips we've found work well:
 - **Summarize**. If your documentation ends up being too long, consider adding a summary, in the beginning, to help people consider if this is what they are looking for.
 - **Consider which tool to use**. Think about what you are working on and which is the best tool to discuss it, iterate and communicate.
 - **Know when _not_ to meet**. Ask yourself: is this meeting necessary or could we work on it asynchronously?
-- **Don’t be afraid to cancel or reject meetings**. Hopping on to meetings is easy and we tend to find it easy, however, they are also very disrupting and demanding. It’s completely okay to ask someone to cancel a meeting and use that time to communicate asyncly what they wanted to share with you. You’ll find some time to come back to them with your opinion and ideas.
+- **Don’t be afraid to cancel or reject meetings**. Hopping on to meetings is easy and we tend to find it easy, however, they are also very disrupting and demanding. It’s completely okay to ask someone to cancel a meeting and use that time to communicate asynchronously what they wanted to share with you. You’ll find some time to come back to them with your opinion and ideas.
 - **Meetings must start and end on time**. We must be conscious of our and other people’s time.
 - **Innovate**. Try out new things. Talk to your team and let them know you’ll conduct an asynchronous pilot. You won’t assist all or some of your weekly meetings and come back to them at the end of the week with your discoveries. Share them with the team and think of ways to make that experience better in the future.
 - **Invest in your writing**. It takes more time, but it gives people time to read/think about what you said versus react immediately and it is scalable.
 - **Set timing expectations**. Add parameters like response time and due dates to ensure progress.
-- **Give yourself time**. Give yourself time to adjust to this new way of working - and to do this type of work. Thoughtfully crafting, reading, and responding to async communication takes longer (in the upfront) than the rapid back-and-forth of real-time conversation.
+- **Give yourself time**. Give yourself time to adjust to this new way of working—and to do this type of work. Thoughtfully crafting, reading, and responding to async communication takes longer (in the upfront) than the rapid back-and-forth of real-time conversation.
 - Sometimes, an initial team-building sync at the start of a project can be extremely helpful and be the starting point for an iteration of asynchronous activities and interactions. The goal of this synchronous meeting should be clear and recorded for teammates who cannot join.
-- **Not getting much feedback is ok**. It's important that you solicit feedback in the appropriate places, but sometimes you don't hear much back in return. This can be because you hit the nail on the head the first time, or maybe even just that people are busy and didn't get a chance to review it. You shouldn't block on this, or everything will grind to a halt. An exception to this is when making a [one way door decision](https://www.inc.com/jeff-haden/amazon-founder-jeff-bezos-this-is-how-successful-people-make-such-smart-decisions.html), which are big decisions that are hard to reverse - in that case you should be sure to get confirmation from the right people to go ahead.
+- **Not getting much feedback is ok**. It's important that you solicit feedback in the appropriate places, but sometimes you don't hear much back in return. This can be because you hit the nail on the head the first time, or maybe even just that people are busy and didn't get a chance to review it. You shouldn't block on this, or everything will grind to a halt. An exception to this is when making a [one way door decision](https://www.inc.com/jeff-haden/amazon-founder-jeff-bezos-this-is-how-successful-people-make-such-smart-decisions.html), which are big decisions that are hard to reverse—in that case you should be sure to get confirmation from the right people to go ahead.
 - **Share what changed**. If a decision was made async, it's important to get the word out. Although it can feel like oversharing, especially for a remote company it's important to repeat yourself and hit the important communication channels with the news. Otherwise, it's easy to miss.
 - **Rely on the handbook as the source of truth**. A lot of decisions we make (perhaps nearly all of them) should end up with updating the handbook. If all of us maintain the handbook, it will remain a wonderful resource to find out the latest thinking on any topic. If we let it go, people will lose trust, and it will no longer be an effective way to document decisions. If you see something out of date or that we no longer practice in the handbook, prioritize updating it.
 
-Each team should also have a section to explain how they do x, y and z asyncly. Define processes and communication channels. For example, how does the design team work? What is the decision making process?
+Each team should also have a section to explain how they do x, y and z asynchronously. Define processes and communication channels. For example, how does the design team work? What is the decision making process?
 
 #### Working with Slack
 
@@ -112,6 +112,7 @@ Slack is our [team chat](../communication/team_chat.md) and a big part of our da
 - You don’t have to join every open channel available, but if you do, be mindful of what to pay attention to and how much time you spend reading threads that might not be helpful to you or your work. This takes some time and we recommend talking to teammates to understand what works best for you.
 - Slack can feel like a synchronous way of communication and people might feel they need to respond right away, but remember we are remote and async. Teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for them, and they are also free to read messages whenever is convenient for them. There is no expectation that people will be immediately responsive.
 - A good practice is to send one message with your request directly, instead of sending “[Hey, how’s it going](https://www.nohello.com/)?” and waiting for the other person to reply to send the actual message. That interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously.
+- Slack can be a black hole where it feels like messages go out, but it is unclear if anyone saw or engaged with it. Not everything needs a thread, but when nobody replies does that mean everyone saw it and agrees? Does it mean that nobody saw it? Or that people saw it and are choosing not to engage? You can help mitigate this lack of clarity by leaving reaction emojis even if you don't plan to reply. A checkmark, thank you, heart, thumbs up/down, or one of the values emojis (`:value-*:`) are good ways to indicate you saw the message and what you thought about it without having to reply. Within a team you can also think of setting more explicit meanings as the [Enablement group has done here](../../departments/product-engineering/engineering/enablement/index.md#slack-acknowledgment).
 
 Be mindful:
 
@@ -122,6 +123,10 @@ Be mindful:
 - [Default to using public channels for work-related discussion](../communication/team_chat.md#avoid-private-messages). Even if you intend a message for someone specific, other team members may benefit from reading the discussion or may be able to contribute to it. If you have a question, you may get an answer more quickly from someone in your own time zone than if you DM someone outside of their working hours.
 
 Finally, remember Slack is _not_ a source of truth. Something said or mentioned in Slack, does not automatically make it true. It should follow the process of being discussed as an artifact and merged to a source of truth like any other decision.
+
+### Workshops
+
+The design team has a framework for running [large, async workshops](../../departments/product-engineering/product/design/workshops/async-design.md) that could be adapted to other purposes.
 
 ### When to use sync meetings
 

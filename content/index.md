@@ -9,6 +9,10 @@ The Sourcegraph handbook describes how we (Sourcegraph teammates) work. It's pub
 
 The handbook is a living document and we expect every teammate to propose improvements, changes, additions, and fixes to keep it continuously up-to-date and accurate. Learn more about the handbook [here](handbook/index.md).
 
+## We're Hiring!
+
+- View open positions [here](https://about.sourcegraph.com/jobs/)
+
 ## Benefits, Pay, Perks
 
 - [Overview](benefits-pay-perks/benefits-perks/index.md)
@@ -26,7 +30,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Team bios](team/index.md)
 - [CEO](team/ceo/index.md)
 
-## Sourcegraph Strategy and Goals
+## [Sourcegraph Strategy and Goals](strategy-goals/index.md)
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
@@ -37,11 +41,15 @@ The handbook is a living document and we expect every teammate to propose improv
 - [General office information](company-info-and-process/about-sourcegraph/general-office-info.md)
 - [All-remote](company-info-and-process/remote/index.md)
 - [Values](company-info-and-process/values/index.md)
+- [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
+  - [Gender Diversity Allies and ERG](company-info-and-process/diversity-equity-and-inclusion/gender-diversity.md)
+- [Mentorship](company-info-and-process/mentorship/index.md)
 - [Communication](company-info-and-process/communication/index.md)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
   - [RFCs](company-info-and-process/communication/rfcs/index.md)
   - [Asynchronous communication](company-info-and-process/communication/asynchronous-communication.md)
 - [Community](company-info-and-process/community/index.md)
+- [Policies](company-info-and-process/policies/index.md)
 
 ## Using the Handbook
 
@@ -62,10 +70,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 #### [Product](departments/product-engineering/product/index.md)
 
-- [Strategy](strategy-goals/strategy/index.md)
-- [Product](departments/product-engineering/product/index.md)
-  - [Product Management](departments/product-engineering/product/process/index.md)
-  - [Product Design](departments/product-engineering/product/design/index.md)
+- [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
+- [Process](departments/product-engineering/product/process/index.md)
+- [Design](departments/product-engineering/product/design/index.md)
 
 #### [Engineering](departments/product-engineering/engineering/index.md)
 
@@ -95,6 +102,11 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Talent](departments/talent/index.md)
 
+- [Resources for Candidates](departments/talent/index.md)
+- [Resources for Hiring Manager](departments/talent/index.md)
+- [Resources for Teammates](departments/talent/index.md)
+- [Resources for Recruiters](departments/talent/index.md)
+
 ### [Business Operations & Strategy](departments/bizops/index.md)
 
 - [Data operations](departments/bizops/data-operations/index.md)
@@ -105,3 +117,7 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Legal](departments/legal/index.md)
 
 ### [Tech Ops](departments/tech-ops/index.md)
+
+- [Internal security](departments/tech-ops/process/internal-security/index.md)
+- [Device usage and privacy](departments/tech-ops/process/team_device_usage_privacy.md)
+- [Systems list and guides](departments/tech-ops/tools/index.md)

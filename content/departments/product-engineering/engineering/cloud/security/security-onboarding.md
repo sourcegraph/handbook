@@ -40,7 +40,7 @@ We are an all-remote company and favor asynchronous communication, it is importa
 
 It's much easier to test and debug code locally. Follow the below guide to get Sourcegraph up and running!
 
-- [SG local Setup](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/getting-started/index.md) [_If you encounter any issues, ask for help in #dev-chat and then update the documentation to reflect the resolution (so the next engineer that we hire doesn’t run into the same problem)_]
+- [SG local Setup](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/setup/quickstart.md) [_If you encounter any issues, ask for help in #dev-chat and then update the documentation to reflect the resolution (so the next engineer that we hire doesn’t run into the same problem)_]
 
 ### Sourcegraph - Browser Search Engine
 
@@ -98,7 +98,7 @@ It’s a common ask of the Security team to rotate or help rotate production sec
 The goal is rotating two production secrets. You can choose any in these categories:
 
 - <strong>A secret in [sourcegraph.com](http://sourcegraph.com/) site-config</strong>: Sourcegraph instances may contain secrets such as OAuth creds in the site-config file. Choose one secret from dotcom’s site-config and rotate. Hint: Avoid the GitLab OAuth creds - go for GitHub OAuth or SMTP credentials.
-- <strong>Any secret in our production pods or CI</strong>: Besides site-config, it’s important to know how to rotate secrets that we use as env vars in our pods. Look for any secrets that you think are a good idea to rotate in the <code>deploy-sourcegraph-dotcom</code> or <code>infrastructure</code> repositories. [This search ](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/%28deploy-sourcegraph-dot-com%7Cinfrastructure%29+file:%28base%7Cbuildkite%29+file:%5C.Deployment%5C.yaml%24+secretKeyRef&patternType=regexp)can serve as a starting point to find some secrets to rotate.
+- <strong>Any secret in our production pods or CI</strong>: Besides site-config, it’s important to know how to rotate secrets that we use as env vars in our pods. Look for any secrets that you think are a good idea to rotate in the <code>deploy-sourcegraph-dotcom</code> or <code>infrastructure</code> repositories. [This search ](https://k8s.sgdev.org/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/%28deploy-sourcegraph-cloud%7Cinfrastructure%29+file:%28base%7Cbuildkite%29+file:%5C.Deployment%5C.yaml%24+secretKeyRef&patternType=regexp)can serve as a starting point to find some secrets to rotate.
 
 **Note:** This requires having completed the set up part of your Security onboarding. Dig through our code, GCP, 1Password and especially the Secret Management doc.
 

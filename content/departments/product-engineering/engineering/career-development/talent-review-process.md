@@ -11,6 +11,15 @@
 
   <dt>Calibration meeting</dt>
   <dd>Meeting with EMs and directors of a group to evaluate each IC for the purposes of determining promotions and ensuring we are all well-calibrated to the engineering levels.</dd>
+
+  <dt>Performance category</dt>
+  <dd>The performance that a teammate is attaining against the expectation of their current level<br/>
+    <ul>
+      <li><em>Needs improvement</em> - falls short on some of the expectations at the indicated level, but performs strong enough not to be classified at a lower level.</li>
+      <li><em>Meeting expectations</em> - meeting all the requirements of the expectations at the identified level</li>
+      <li><em>Exceeding expectations</em> - performing at a very high level at the identified level and possibly showing some signs of starting to perform at the next level</li>
+    </ul>
+  </dd>
 </dl>
 
 ## Cadence
@@ -55,13 +64,19 @@ Our [career development framework](framework.md) defines the levels that exist a
 
 ## Promotion requests
 
-Promotion requests are made immediately following the [talent review callibration meeting](#calibration-meeting).
+During the [talent review calibration meeting](#calibration-meeting) managers indicate which teammates they would like considered for promotion. These teammates are then evaluated against their peers at the level they might get promoted to so that the manager can confirm they are indeed performing at the right level for promotion.
 
-The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit) and submit it for approval.
+If the manager believes the candidate is ready for promotion, a promotion request is made following the [talent review calibration meeting](#calibration-meeting).
 
-Following approval from the relevant decision-makers (EM, Director, VP), the promotion request is forwarded to the relevant teammates in PeopleOps (refer to [People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)) for confirmation. Once confirmed by PeopleOps the promotion can be communicated to the teammate using the [promotion confirmation template](https://docs.google.com/document/d/1mkdJI6cSXWIHthSN_KQKBFSfxs9RQUg_4VCvwmk8FJQ/edit).
+The Engineering Manager will complete a promotion request using the [promotion request template](https://docs.google.com/document/d/1DHyPtIooi0J2426iemzzTqLle9UBasrqLZPGET1O7Sc/edit), upload it to the [Promotion documents](https://drive.google.com/drive/folders/1h3DLJrr2LhxbBMHkOpsqn4SbYMUVBwL8) folder, and submit it for approval in the #eng-managers-private Slack channel tagging the `@eng-directors` group.
 
-Decisions regarding promotions are prioritized by the decision-makers, and made quickly. Promotions are communicated back to the ICs in a timely manner.
+While all EMs are invited to review and comment on the promotion request, the Directors are the final decision-makers. The expected turn-around on a promotion request for approval is 7 calendar days.
+
+Once approved by the Directors, the promotion needs to be submitted to PeopleOps for execution by completing the [changes to role and compensation](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) form.
+
+Once confirmed by PeopleOps the promotion can be communicated to the teammate using the [promotion confirmation template](https://docs.google.com/document/d/1mkdJI6cSXWIHthSN_KQKBFSfxs9RQUg_4VCvwmk8FJQ/edit).
+
+Decisions regarding promotions are prioritized, and made quickly, and communicated back to the ICs in a timely manner.
 
 ### Considerations for promotion
 

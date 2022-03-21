@@ -18,11 +18,11 @@ observer, open to ideas, selfless
 
 ### Approach to problems
 
-try to spend time to solve a problem - but not too long so i dont get inside my head, then speak with someone who can explain, then revisit the topic on my own to form my own understanding
+try to spend time to solve a problem—but not too long so i dont get inside my head, then speak with someone who can explain, then revisit the topic on my own to form my own understanding
 
 ### Preferred way to be recognized
 
-honest recognition - however the person chooses
+honest recognition—however the person chooses
 
 ### What I enjoy at work
 

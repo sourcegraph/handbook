@@ -22,11 +22,7 @@ Playing an active role in broadening our reach in the community, building authen
 
 ## Team
 
-- [Samson Goddy](../../../team/index.md#samson-goddy), Director of Community
-- [Prosper Otemuyiwa](../../../team/index.md#prosper-otemuyiwa), Staff Developer Evangelist
-- [Vanesa Ortiz](../../../team/index.md#vanesa-ortiz), Community Advocate
-- Amarachi Emmanuela Azubuike, Social Media Community Manager
-- [Erika Heidi](../../../team/index.md#erika-heidi), Senior Developer Advocate
+{{generator:reporting_structure.director_community}}
 
 ## Contact
 

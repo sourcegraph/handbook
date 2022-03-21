@@ -4,7 +4,7 @@ An overview of the tools we use for CustomerOps, with some useful links.
 
 ## HubSpot
 
-Hubspot is a customer relationship management (CRM) software. We use HubSpot primarily for marketing operations. Any marketing activity that generates leads will funnel leads into HubSpot. In order to capture these leads, we embed HubSpot forms onto our marketing websites (about.sourcegraph.com, info.sourcegraph.com), and use HubSpot landing pages.
+HubSpot is a customer relationship management (CRM) software. We use HubSpot primarily for marketing operations. Any marketing activity that generates leads will funnel leads into HubSpot. In order to capture these leads, we embed HubSpot forms onto our marketing websites (about.sourcegraph.com, info.sourcegraph.com), and use HubSpot landing pages.
 
 **[Contacts](https://app.hubspot.com/contacts/2762526/contacts/list/view/all/)**: all generated leads are turned into HubSpot Contacts.
 
@@ -56,13 +56,13 @@ How to get data into Looker:
   - Make sure the script to pull data is added to the [ETL script](https://github.com/sourcegraph/analytics/tree/master/HubSpot%20ETL)
 
 - ETL script is run every 24 hours via this [Buildkite pipeline](https://buildkite.com/sourcegraph/analytics)
-- Tables under hubspot in BigQuery database are updated: [HubSpot contacts table](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&p=telligentsourcegraph&page=table&d=hubspot&t=contacts)
+- Tables under HubSpot in BigQuery database are updated: [HubSpot contacts table](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&p=telligentsourcegraph&page=table&d=hubspot&t=contacts)
 - Create a scheduled query that creates a table with the data you want: [first search by HubSpot Original Source](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/60fef56b-0000-21c2-996c-089e0826838c/runs?project=telligentsourcegraph)
 - [Create a view in Looker from the BigQuery table](https://sourcegraph.looker.com/projects/sourcegraph_events/files/first_search_by_contact.view.lkml)
 
 ## Salesforce (SFDC)
 
-Salesforce is also a CRM. This is what our sales team uses and relies on heavily, and is the source of truth for our customer interactions and data. Our marketing team uses this as well, in a limited capacity. The best people to speak to about Salesforce are Joe Kirsher (Sales Ops) and Seth Hoover (Salesforce Admin).
+Salesforce is also a CRM. This is what our sales team uses and relies on heavily, and is the source of truth for our customer interactions and data. Our marketing team uses this as well, in a limited capacity. The best people to speak to about Salesforce are Joe Kirsher (Sales Ops) and Seth Hoover (Salesforce Admin). For access please contact #it-tech-ops. Access is granted through Okta.
 
 **Customer ops reporting in SFDC**
 
@@ -178,7 +178,7 @@ It's often useful to include a customer or prospect name in a public RFC, GitHub
 
 To use it, copy a link to the issue that represents the customer you want to reference. For example, if the customer was "Sourcegraph", you might write: "We heard from [this customer](https://github.com/sourcegraph/accounts/issues/8194) that...".
 
-For now, the list of accounts is maintained manually by @malomarrec. In the near future it will be automatically populated from Salesforce.
+This list of account is automatically populated from salesforce by Zapier [automation](https://zapier.com/app/zaps/folder/1166872). @malomarrec maintains this, please reach out if you notice an issue.
 
 ### How to find all tickets related to a customer
 
@@ -193,3 +193,5 @@ More useful links for the HubSpot to Salesforce integration:
 - [HubSpot to Salesforce data flow spreadsheet](https://docs.google.com/spreadsheets/d/1Jw-t7y0Rmni-vR9gy28Ewy6IVzwu9JyJjW2pwDQOPJk/edit#gid=0)
 - [Sync settings](https://app.hubspot.com/integrations-settings/2762526/installed/salesforce/syncsettings)
 - [Marketing conversion actions spreadsheet](https://docs.google.com/spreadsheets/d/1tKRToLb2WRhVKJojTMQIj28TaLQfB58F57QQh5IICbU/edit#gid=0)
+
+See [here](index.md) for info on other tools.

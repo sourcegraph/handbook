@@ -35,7 +35,7 @@ Developing a component system leads to a consistent user experience, faster deli
 
 Enable Sourcegraph customers and prospects to easily access the value our product provides without experiencing friction during the install & upgrade process. Ensure Sourcegraph can be run by any user with a standard engineering background at scale and with ease. Set clear expectations with customers / prospects on the environment requirements necessary to manage Sourcegraph at the scale they seek.
 
-- FY22Q4 Key Result - 3 customers have provisioned production-ready solutions in less than a week
+- FY22Q4 Key Result - 3 customers have validated an automated deployment method within a production quality environment in less than 8 hours of technical effort
 
 ### Enrich education and documentation systems
 
@@ -63,7 +63,6 @@ Code host connectivity, scalability, and reliability underpin all other features
 ## Team specific pages
 
 - [Repo Management](../../../departments/product-engineering/engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
-- [Delivery](../../../departments/product-engineering/engineering/enablement/delivery/index.md) - [Strategy page](delivery/index.md)
 - [Dev Experience](../../../departments/product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
 - [Frontend Platform](../../../departments/product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
-- [Handbook Strategy Page](handbook/index.md)
+- [Contennt Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)

@@ -12,17 +12,17 @@ A/B testing is a good fit when there are several competing valid options with no
 
 #### Impact
 
-A/B tests take time and resources, and we can only run a few A/B tests at a time to avoid interferences between tests. We should keep A/B testing for high-impact metrics optimization, that match the other conditions here.
+A/B tests take time and resources, and we can only run a few A/B tests at a time to avoid interferences between tests. We should keep A/B testing for high-impact metrics optimization that match the other conditions here.
 
 #### Uncertainty
 
 A/B testing is useful when there are several options to choose from, possibly with competing explanations on why they would work, but no clear winner.
 
-It’s no use A/B testing versions if we already know the result with high probability. Sometimes though, we will want to use A/B testing for things we know are important just to _quantify_ impact (is it worth maintaining this?), as opposed to just _validate_ (yes/no) impact.
+It’s not useful A/B testing versions if we already know the result with high probability. Sometimes though, we will want to use A/B testing for things we know are important just to _quantify_ impact (is it worth maintaining this?), as opposed to just _validate_ (yes/no) impact.
 
 #### Measurement
 
-A/B testing requires a clear quantitative way to measure what is "better". A common advise is to pick a single, clear metric so that there is no ambiguity in deciding if the change `passed` or `failed`.
+A/B testing requires a clear quantitative way to measure what is "better". Common advice is to pick a single, clear metric so that there is no ambiguity in deciding if the change `passed` or `failed`.
 
 #### Volume of users to reach statistical significance
 
@@ -66,7 +66,8 @@ Communicate good candidates with any relevant parties. This could include other 
   - Define the length of the test, depending on the number of users you need, and check for statistical significance with a calculator ([example](https://www.optimizely.com/sample-size-calculator/)). Let BizOps know if you need to understand how much existing traffic there is to determine the expected length of the test
   - Pick a feature flag name for your A/B test (eg. `w0-signup-optimisation`)
   - Set up the exact methodology (write the query, build the chart) for how this will be evaluated before the test launches to not introduce any bias in the evaluation
-- Label all the issues that will go into that A/B test with `AB-test/<flag-name>`. That way anyone can see what change are in a given A/B test, and what the name of the feature flag is. It will also make it easier to cleanup the flag when the test ends. [Example](https://github.com/orgs/sourcegraph/projects/181?card_filter_query=label%3Aab-test%2Fw0-signup-optimisation).
+- Label the parent issue of the test with `AB-test` so anyone can see a list of the A/B tests that have been or are being run
+- Label all the issues that will go into the test `AB-test/<flag-name>`. That way anyone can see what changes are in a given A/B test, and what the name of the feature flag is. It will also make it easier to clean up the flag when the test ends. [Example](https://github.com/orgs/sourcegraph/projects/181?card_filter_query=label%3Aab-test%2Fw0-signup-optimisation).
 - **_WIP: Follow the naming conventions when adding events_**
 
 ### Setup the A/B test
@@ -83,7 +84,12 @@ We use this [calculator](https://neilpatel.com/ab-testing-calculator/) to evalua
 
 ### Cleanup
 
-You should book some time for cleaning up after the A/B test. That can be either [removing the flag](https://docs.sourcegraph.com/dev/how-to/use_feature_flags#disable-or-delete-the-feature-flag) and rolling out the changes, or removing the changes altogether. You can create a ticket for this when defining the test if useful.
+Book some time for cleaning up after the A/B test. It's best to create a ticket for cleanup when starting the test. In particular:
+
+- **Remove the feature flag:**
+  - In case of a _successful_ experiment, [remove the flag](https://docs.sourcegraph.com/dev/how-to/use_feature_flags#disable-or-delete-the-feature-flag) and roll out the changes.
+  - In case of a _failed_ experiment, remove both the changes and the feature flag.
+- **Remove data from pings:** if the experiment used data in pings, and it failed, remove the data. We are [very selective](https://docs.sourcegraph.com/dev/background-information/adding_ping_data#ping-philosophy) on what to include in our pings. Remove any data from pings that is not needed anymore.
 
 ## Resources
 

@@ -6,39 +6,16 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 ## Team
 
-The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering))
+The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering)). [Michal Vrtiak](../../../../team/index.md#michal-vrtiak) serves as an org-level engineer, reporting into the Director of Engineering, and partners with the teams below.
 
-- [Repo Management](repo-management/index.md)
-  - [Jordan Plahn](../../../../team/index.md#jordan-plahn) ([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
-  - [Ryan Slade](../../../../team/index.md#ryan-slade)
-  - [Indradhanush Gupta](../../../../team/index.md#indradhanush-gupta)
-  - [Molly Weitzel](../../../../team/index.md#molly-weitzel)
-  - [Alex Ostrikov](../../../../team/index.md#alexander-ostrikov)
-  - [Asdine El Hrychy](../../../../team/index.md#asdine-el-hrychy)
-- [Delivery](delivery/index.md)
-  - [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Acting [Engineering Manager](../roles/index.md#engineering-manager))
-  - [Dan Mckean](../../../../team/index.md#dan-mckean) ([Product Manager](../../product/roles/index.md#product-manager))
-  - TBH ([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Crystal Augustus](../../../../team/index.md#crystal-augustus)
-  - [Kevin Wojkovich](../../../../team/index.md#kevin-wojkovich)
-- [Dev Experience](dev-experience/index.md)
-  - [Kristen Stretch](../../../../team/index.md#kristen-stretch)([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [JH Chabran](../../../../team/index.md#jh-chabran)
-  - [Robert Lin](../../../../team/index.md#robert-lin)
-  - [Dave Try](../../../../team/index.md#dave-try)
-- [Frontend Platform](frontend-platform/index.md)
-  - [Alicja Suska](../../../../team/index.md#alicja-suska) ([Product Designer](../../product/roles/index.md#product-designer))
-  - [Patrick Dubroy](../../../../team/index.md#patrick-dubroy) ([Engineering Manager](../roles/index.md#engineering-manager))
-  - [Taylor Sperry](../../../../team/index.md#taylor-sperry) (Technical [Product Manager](../../product/roles/index.md#product-manager))
-  - [Tom Ross](../../../../team/index.md#tom-ross)
-  - [Valery Bugakov](../../../../team/index.md#valery-bugakov)
-  - [Oleg Gromov](../../../../team/index.md#oleg-gromov)
-- [Engineering Education](engineering-education/index.md)
-  - [Marek Zaluski](../../../../team/index.md#marek-zaluski)
-- Sourcegraph Handbook
-  - [Mary Belzer](../../../../team/index.md#mary-belzer) ([Product Manager](../../product/roles/index.md#product-manager))
+**[Repo Management](./repo-management/index.md)**
+{{generator:product_team.repo_management}}
+**[Dev Experience](./dev-experience/index.md)**
+{{generator:product_team.dev_experience}}
+**[Frontend Platform](./frontend-platform/index.md)**
+{{generator:product_team.frontend_platform}}
+**[Content Platform](./content-platform/index.md)**
+{{generator:product_team.content_platform}}
 
 ## Principles and practices
 
@@ -48,7 +25,7 @@ In addition to the [engineering principles and practices](../process/principles-
 
 Suppose a teammate is blocked by you on a question, your approval, or a pull request review. In that case, your top priority is always to unblock them, either directly or by helping them find someone else who can, even if this takes time away from your own or your team's priorities. If you're the one who is blocked, be sure to communicate that so that others can prioritize appropriately.
 
-Typically, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g., a new PR that depends on the first one). However, it's important to get a review ASAP in some scenarios — e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
+Typically, waiting for a PR review does not mean you are blocked: it's expected that you can start working on something else (e.g., a new PR that depends on the first one). However, it's important to get a review ASAP in some scenarios—e.g., to fix a regression or a broken CI pipeline. In those cases, you should communicate the urgency and expect that your teammates will prioritize unblocking you.
 
 Even when a teammate is not _blocked_ but _inconvenienced_ (because of follow-up work), please don't leave them hanging for extended periods. You should generally budget some amount of time every day for doing reviews.
 
@@ -90,7 +67,7 @@ In addition to team-specific channels, we communicate in the following org-wide 
 
 #enablement-social goes into this channel and random conversations, banter, jokes, etc., are all welcome here.
 
-#enablement-leadership: This channel is for the Engineering and Product Managers to discuss higher-level matters impacting the whole org.
+#enablement-staff: This channel is for the Enablement staff to discuss higher-level matters impacting the whole org.
 
 #### Slack acknowledgment
 
@@ -107,7 +84,7 @@ _When acknowledging a request:_
 _When acknowledging a statement:_
 
 - `:thumbsup:` 👍 = I agree with the statement or I have taken note of it
-- `:thumbsdown:` 👎 = I disagree with a statement - encouraged to always follow up with a written response
+- `:thumbsdown:` 👎 = I disagree with a statement—encouraged to always follow up with a written response
 
 _When acknowledging a question:_
 
@@ -121,25 +98,14 @@ Participation in sharing is voluntary.
 
 #### Status updates
 
-Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../tools/engineering-management.md#status-updates) by the Monday following their team's retrospective. This should happen at least once a month.
+Each Engineering Manager of the teams in the org is responsible for sending out a [status update](../tools/engineering-management.md#status-updates) once a month.
 
-#### Leadership sync
+#### Staff sync
 
-To stay aligned as an organization on Monday we share our priorities for the week in the #enablement-leadership channel. On Friday a reminder is sent to the same channel prompting the team with the following:
+To stay aligned as an organization we share our priorities for the week in the #enablement-staff channel on Mondays. On Fridays a reminder is sent to the same channel prompting the team with the following:
 
 - What updates do you have on [our OKRs](https://github.com/orgs/sourcegraph/projects/214/views/14?visibleFields=%5B%22Title%22%2C%22Assignees%22%2C%22Status%22%2C188005%2C247470%2C284758%2C253662%2C243177%5D)
 - Any highlights on team accomplishments?
 - Any challenges or risks to call out?
 
-On Thursday we meet as a leadership team via zoom to have real time conversation. We cover one fun question, leadership updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and drive to quick decisions. If we do not have a large enough cohort we will run the meeting async.
-
-### Health reports
-
-The engineering managers are responsible for compiling a weekly health report ([see example](https://docs.google.com/spreadsheets/d/1PnRPydNYLF2Als3KpVuIYO8dXeqckp_sbowVkvkdkeE/edit)) for their team.
-
-The report is a confidential update between the Director and the Engineering Managers and serves the following purpose:
-
-1. Updates the Director on how things are going at a high level in the team
-1. Identifies areas of concern that could lead to proactive intervention to mitigate concerns
-
-The report is not used for judging the team's performance or the manager, and its intention is solely to inform and trigger dialogue. Managers are not expected to provide exhaustive notes but rather a high-level summary.
+On Thursdays we meet as a leadership staff via Zoom to have real-time conversations. We cover one fun question, staff updates, and hot topics. This time gives us space to catch up on topics that are better discussed live and to drive quick decisions. If we do not have a large enough cohort we will run the meeting async.

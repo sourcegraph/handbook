@@ -18,11 +18,11 @@ What reactions mean in this channel:
 
 👍 An update has been provided that doesn’t require an action, but the social media manager is now aware.
 
-#social-media-posts: In spirit of being open and transparent, you can use this channel to see Sourcegraph social media posts that have published.
+#social-media-posts: In the spirit of being open and transparent, you can use this channel to see Sourcegraph social media posts that have been published.
 
 ## Shaping Social @ Sourcegraph
 
-Social @ Sourcegraph to date has not had a formal strategy when it comes to the social media content, reporting, or campaigns. So it is important to note that this will be a year full of experimentation, learning, and testing. The Social Media Team aims to create a more strategic, effective, and streamlined presence on social to increase brand awareness, and follower and engagement growth. It is our mission to grow the code search and Sourcegraph conversations.
+Social @ Sourcegraph to date has not had a formal strategy when it comes to social media content, reporting, or campaigns. So it is important to note that this will be a year full of experimentation, learning, and testing. The Social Media Team aims to create a more strategic, effective, and streamlined presence on social to increase brand awareness, and follower and engagement growth. It is our mission to grow the code search and Sourcegraph conversations.
 
 Organic social promotion is sought after by many teams, programs, and campaigns so it is important to create an understanding that Social @ Sourcegraph has its own goals and tactics. We will take requests from other teams but understand that:
 
@@ -30,7 +30,7 @@ Organic social promotion is sought after by many teams, programs, and campaigns 
 - Our social interactions put our community, and the wider developer community- first.
 - We celebrate milestones, and contributions shared by team members and Sourcegraph users.
 - Organic social is a top-of-funnel activity driving impressions, engagements, conversations and link clicks. What we share should move users further down the funnel. But the next team needs to pick up the conversion.
-- We enable and amplify our developer advocates, always. They are evangelizing code search. A connection is felt to be stronger, and more authentic when conversation is between humans, not a brand. So we lean on the personal presence of our advocates first. And amplify those interactions when we see fit.
+- We enable and amplify our developer advocates, always. They are evangelizing code search. A connection is felt to be stronger, and more authentic when a conversation is between humans, not a brand. So we lean on the personal presence of our advocates first. And amplify those interactions when we see fit.
 
 ## Brand Social Channels
 
@@ -42,7 +42,7 @@ These channels are owned and operated by Sourcegraph as a company in the care of
 
 [Twitch](https://www.twitch.tv/sourcegraph) and [YouTube](https://www.youtube.com/c/sourcegraph) are a testament to building community. Community enthusiasts stream live on these platforms. And then the brand channels promote events like Dev Tool Time and the Sourcegraph podcast.
 
-Although these channels serve different purposes for us in our social media landscape and are opperated by DRI's- they still hold the company name as part of the profile page. The core social media team will partners with those who produce the content versus actually producing the content. The social media team can provide metrics of success. We can also amplify to expand the reach of this content. But the social media team will never actually produce the live streams. These are left to our developer advocates, team members, etc.
+Although these channels serve different purposes for us in our social media landscape and are operated by DRI's- they still hold the company name as part of the profile page. The core social media team partners with those who produce the content versus actually producing the content. The social media team can provide metrics of success. We can also amplify to expand the reach of this content. But the social media team will never actually produce the live streams. These are left to our developer advocates, team members, etc.
 
 ## Calendaring
 
@@ -50,44 +50,44 @@ Sourcegraph is a global and also all-remote brand. That means on our social medi
 
 Content calendars are scheduled in advance and are most often than not- at “full capacity”.
 
-1-2x on LinkedIn per day
+1–2x on LinkedIn per day
 
-1-3x on Twitter per day
+1–3x on Twitter per day
 
-Sourcegraph has a variety of content deemed valuable. And organic social is being used to drive traffic our website, and specific pieces of content.
+Sourcegraph has a variety of content deemed valuable. And organic social is being used to drive traffic to our website, and specific pieces of content.
 
 ## Sharing blog posts
 
 The content team should create a task under the Social Media Requests: Organic Asana project. The DRI can use [this template](https://app.asana.com/0/1200960005454857/1200974621451675/f). To consolidate tasks, the managing editor of the blog will create a monthly parent task of upcoming blogs. As blog posts are scheduled, the editor of a post will create a subtask for it and attach it to the parent task. It is under the subtask where the social media manager will collaborate with the editor of the post and provide suggested social campaigns. Once the editor approves, the social media manager schedules the posts under drafts in Sprout Social. Once the blog is published live, they should notify the social media manager via Slack signaling to push drafts to the calendar.
 
-On a quarterly basis the social media team will identify the best performing blogs. The top 2-3 blogs will then be reintroduced and scheduled to publish on Sourcegraph Brand Social Channels.
+On a quarterly basis the social media team will identify the best performing blogs. The top 2–3 blogs will then be reintroduced and scheduled to publish on Sourcegraph Brand Social Channels.
 
 ## Requesting Social Promotion
 
-Many requests for social media coverage could sound like one ask, but ultimately have different end-user objectives or where we'll need to promote different assets or links. It is important to recorgnize that rach piece of content delivered to the social media manager is appraoched thoughtfully and strategically. We adhere to our high quality value by default. And don't see social media posts as a one off request, rather a well thoughtout organic social campaign that extends the life of each piece of content. Here's how you can request social media coverage:
+Many requests for social media coverage could sound like one ask, but ultimately have different end-user objectives or where we'll need to promote different assets or links. It is important to recognize that each piece of content delivered to the social media manager is approached thoughtfully and strategically. We adhere to our high-quality value by default. And don't see social media posts as a one-off request, rather a well-thought-out organic social campaign that extends the life of each piece of content. Here's how you can request social media coverage:
 
 Join the [Social Media Requests: Organic project](https://app.asana.com/0/1200960005454857/1200960005454857) in Asana.
 
-Fill out the [Social Media Promotion Request Form](https://form.asana.com/?k=MBmYt-RY9jAX1kiC0Bb86Q&d=7195383522959) in Asana . This is where you will be asked a series of questions to help the social media manager complete your request.
+Fill out the [Social Media Promotion Request Form](https://form.asana.com/?k=MBmYt-RY9jAX1kiC0Bb86Q&d=7195383522959) in Asana. This is where you will be asked a series of questions to help the social media manager complete your request.
 
 ## Things to remember about social media requests
 
-- For an anything to get promoted on social, there must be a dedicated task that was opened in Asana.
+- For anything to get promoted on social, there must be a dedicated task opened in Asana.
 - If the need is urgent, send a message to the #social_media_action Slack Channel.
 - Sometimes it is not possible to schedule posts when desired due to any number of reasons, but the social team will work with you to make sure you're supported.
 - The social team reserves the right to not publish for a number of reasons: crisis moments, calendar priorities, and other elements.
 
-## Urgent requests, priority, and last minute asks
+## Urgent requests, priority, and last-minute asks
 
-As mentioned, social media supports each marketing function at Sourcegraph so there needs to be a defined level of priority due to the sheer volume of requests. There are few situations where requests will be delivered immediately, and only if there is priority. The social media team manages a calendar of pre scheduled posts. So adding additional social posts without warning and asking for immediate priority is an issue. And every single time that occurs, the social media manager has to manually move and adjust the calendar around like a puzzle while still ensuring proper timing of each post and taking into consideration each specific algorithm of channels. It simply is not good use of our calendar or our time to rely on live updates. That said, the social media manager should still ultimately publish content at the “best times of day” to ensure the most eyes are on our social updates while considering urgent requests.
+As mentioned, social media supports each marketing function at Sourcegraph so there needs to be a defined level of priority due to the sheer volume of requests. There are few situations where requests will be delivered immediately, and only if there is priority. The social media team manages a calendar of pre-scheduled posts. So adding additional social posts without warning and asking for immediate priority is an issue. And every single time that occurs, the social media manager has to manually move and adjust the calendar around like a puzzle while still ensuring proper timing of each post and taking into consideration each specific algorithm of channels. It simply is not a good use of our calendar or our time to rely on live updates. That said, the social media manager should still ultimately publish content at the “best times of day” to ensure the most eyes are on our social updates while considering urgent requests.
 
 Dev Tool Time has a live component to its promotion so the updates before going live on Twitch will always take precedence over other posts being asked to publish on a streaming day.
 
-If the Corporate Communications team provides media coverage with positive sentiment, this will take priority over already scheduled posts that do not have time sensitive requirements.
+If the Corporate Communications team provides media coverage with positive sentiment, this will take priority over already scheduled posts that do not have time-sensitive requirements.
 
-Commenting on current and trending events allow our brand to become relevant not to just our community- but everyone else too. That said, our brand social Twitter channel should prioritize engaging in conversations. By simply sharing owned content- our social media presence becomes just another communications channel. Social media was intended to foster conversations and build digital relationships. That’s why the algorithms actually deliver 1:1 conversation to feeds over your published post. So if you are not engaging with people, or getting people to engage with you- the algorithm essentially hides you from the feed. Through this practice, we can inspire conversation and start showing up in the world in a delightful and strategic way.
+Commenting on current and trending events allows our brand to become relevant not to just our community - but to everyone else too. That said, our brand social Twitter channel should prioritize engaging in conversations. By simply sharing owned content- our social media presence becomes just another communications channel. Social media was intended to foster conversations and build digital relationships. That’s why the algorithms actually deliver 1:1 conversation to feeds over your published post. So if you are not engaging with people, or getting people to engage with you- the algorithm essentially hides you from the feed. Through this practice, we can inspire conversation and start showing up in the world in a delightful and strategic way.
 
-A last minute ask does not mean it will take priority. Slack is not the single source of truth for social media management at Sourcegraph. All requests that require substance, thoughtfullness, or a campaign- should be submitted by [filling out this form in Asana.](https://form.asana.com/?k=MBmYt-RY9jAX1kiC0Bb86Q&d=7195383522959)If you are simply asking for a like, comment, or reshare by the brand social channels, that is an appropriate last minute request that can be completed immediately.
+A last minute ask does not mean it will take priority. Slack is not the single source of truth for social media management at Sourcegraph. All requests that require substance, thoughtfulness, or a campaign- should be submitted by [filling out this form in Asana.](https://form.asana.com/?k=MBmYt-RY9jAX1kiC0Bb86Q&d=7195383522959) If you are simply asking for a like, comment, or reshare by the brand social channels, that is an appropriate last minute request that can be completed immediately.
 
 ## Sharing content from behind a paywall
 
@@ -107,7 +107,7 @@ _Any other event_ will not receive promotion from the brand channels and here is
 
 _An event that has only booth or attendance_ will only receive an enablement kit, and engagement from the brand channels. That means during the event the social media manager will engage with any brand mentions. And suggested posts for Sourcegraph team members will be provided. Basically, if your only request is “We have a booth and want people to find us” then the appropriate route of promotion is through personal profiles, and paid social advertising.
 
-_Field events hosted by Sourcegraph present a major challenge for organic social channels._ Geo-targetting is very limited. And our existing followers are located across the globe. So that means an original post on the brand channels may not be warranted. The best way to promote a field event is through paid social advertising. Note that this is probably more specific to in-person events.
+_Field events hosted by Sourcegraph present a major challenge for organic social channels._ Geo-targeting is very limited. And our existing followers are located across the globe. So that means an original post on the brand channels may not be warranted. The best way to promote a field event is through paid social advertising. Note that this is probably more specific to in-person events.
 
 ## Sharing 3rd party events on organic brand channels where a team member is speaking
 

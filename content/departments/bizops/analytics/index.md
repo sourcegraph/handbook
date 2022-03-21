@@ -6,6 +6,8 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 - [Data tools/tech stack](#data-tools)
 - [Using Looker](#using-looker)
 - [Amplitude](../tools/amplitude.md)
+- [Analytics FAQs](faqs.md)
+- [Sources of truth](sources-of-truth.md)
 
 ## Data sources
 
@@ -20,6 +22,7 @@ We collect data from the following:
 - Sourcegraph.com Site-admin pages: customer subscriptions and license keys
 - [Pings](https://docs.sourcegraph.com/admin/pings) from self-hosted Sourcegraph instances containing anonymous and aggregated information. There are [specific guidelines](https://docs.sourcegraph.com/dev/background-information/adding_ping_data) that must be followed for teams to add ping data.
 - [Event logger: custom tool to track events](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). On Sourcegraph.com, this sends events directly to BigQuery. On customer instances, this sends events to the `EventLogs` database, which is then used to populate pings.
+- Sourcegraph production database: we query a few particular tables from the production database via terraform to access data for Sourcegraph cloud.
 - [Prometheus dashboards](https://sourcegraph.com/-/debug/grafana/?orgId=1) show high-level insight into the health of a Sourcegraph instance to admins. Sourcegraph teammates can see the health of Sourcegraph.com.
 - [Customer Environment Questions](../process/customer_environment_questions.md)
 
@@ -39,7 +42,13 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 
 #### Google BigQuery
 
-Most "data pipelines" are SQL queries that turn raw ping data into clean datasets for
+- Most "data pipelines" are SQL queries that turn raw ping data into clean datasets for analysis.
+- Data pipeline from Sourcegraph's [postgres database](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md) to BigQuery runs via Terraform. To schedule/update these queries:
+  - Create a pull request with the necessary update [here](https://github.com/sourcegraph/infrastructure/blob/main/telligent/terraform.tfvars) and a member of the cloud-devops team will review and deploy the changes
+  - Update the scheduled query in BigQuery. Note that that the query needs to be run by the service account, otherwise it will encounter permissions errors. To do so, use the following command in the [BigQuery CLI](https://cloud.google.com/bigquery/docs/bq-command-line-tool):
+  ```
+  gcloud config set project <analytics-proj> && bq update --transfer_config --update_credentials --service_account_name=<desired_sa> projects/xxxxxxxx/locations/us/transferConfigs/xxxxxx
+  ```
 
 #### HubSpot
 
@@ -63,19 +72,19 @@ Most "data pipelines" are SQL queries that turn raw ping data into clean dataset
 ### Things to know about using Looker
 
 - By clicking `Explore from here` or changing a filter on a dashboard, you _will not_ change the underlying dashboard. Unless you explicitly click `Edit`, you are considered to be on your own temporary branch and will not change anything (even for yourself the next time you open the dashboard).
-- When creating and editing dashboards, save individual tables and charts as [looks](https://docs.looker.com/exploring-data/saving-and-editing-looks) instead of tiles directly to the dashboard. Looks can be added to multiple dashboards while tiles cannot be, and when look is edited, the changes will apply to dashboards that look exists.
+- When creating and editing dashboards, save individual tables and charts as [looks](https://docs.looker.com/exploring-data/saving-and-editing-looks) instead of tiles directly to the dashboard. Looks can be added to multiple dashboards while tiles cannot be, and when look is edited, the changes will apply to dashboards where that look exists.
 
 ### Downsides of Looker (and our plans to address them)
 
 - **Discoverability of data**: Bookmarking, favoriting or adding the sales/customer engineering board, product/engineering board and server instances overview look (or some combination of them) to your Looker instance is the best solution right now. These are all kept up-to-date with the most relevant data for all teams.
-- **Speed**: Looker’s UI makes it easy to analyze data, but the result really complex SQL query that take awhile to run (especially on dashboards that are compiled of many separate queries). Fixing the performance issues is not currently a priority, but is something that we’ll get to when we grow the team out.
+- **Speed**: Looker’s UI makes it easy to analyze data, but the result is a really complex SQL query that take awhile to run (especially on dashboards that are compiled of many separate queries). Fixing the performance issues is not currently a priority, but is something that we’ll get to when we grow the team out.
 - **Naming conventions**: We’re slowly working on making naming conventions of dashboards, graphs, data points, etc... more obvious. If you come across anything that isn’t clear, let us know!
 
 ### Looker administration
 
 When adding a user to Looker, they need to be in both the group and role:
 
-- Marketing, customer support, people ops, talent users = View
+- Engineering, marketing, customer support, people ops, talent users = View
 - CE, sales, product users = ‘All internal users, view and edit’
 - Any other teams not listed should default to 'View'
-- Generally, CE, sales, product, customer support and marketing receive accounts when joining the company
+- Generally, CE, sales, product, customer support, engineering, and marketing receive accounts when joining the company

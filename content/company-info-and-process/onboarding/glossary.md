@@ -1,10 +1,20 @@
-# Developer lingo for non-developers: a guide
+---
+data_source: [/data/glossary.yml, glossary]
+---
 
-_This guide is made to define and explain many of the terms that are commonplace in conversations at the Sourcegraph office but not necessarily outside of it. The goal of this guide is to break down these terms in a way that your average person can comprehend, at least at very high level. Think of this as an "intro to dev-speak"_ :)
+# Glossary of terms
+
+This is a glossary of terms you might hear working at Sourcegraph. Although we try to minimize the use of acronyms, they do appear from time to time and this can be a helpful resource to figure out what people are talking about. In your day to day, try to avoid using them, or at least explain them the first time you use them.
+
+{{generator:glossary}}
+
+## Developer lingo for non-developers: a guide
+
+_This guide is made to define and explain many of the terms that are commonplace in conversations at the Sourcegraph office but not necessarily outside of it. The goal of this guide is to break down these terms in a way that your average person can comprehend, at least at a very high level. Think of this as an "intro to dev-speak"_ :)
 
 ### Binary
 
-The simplest form of computer code or programming data. It is a series of 1s and 0s that makes up the “language” that computers understand. It's also used to refer to a pre-compiled executable program. Source code is generally compiled into a binary to be executed on an specific operating systems.
+The simplest form of computer code or programming data. It is a series of 1s and 0s that makes up the “language” that computers understand. It's also used to refer to a pre-compiled executable program. Source code is generally compiled into a binary to be executed on specific operating systems.
 
 ### Code
 
@@ -64,7 +74,7 @@ A report of a possible problem with a project or piece of software. (Just like a
 
 ### Pull Request (AKA "PR")
 
-A request in GitHub for someone else to review your work for any possible errors or flaws before finalizing changes. For example, if you had written an article, and you were almost ready to publish it but first you want someone else to review it. They would have the option to provide feedback through comments or approve it for publishing.
+A request in GitHub for someone else to review your work for any possible errors or flaws before finalizing changes. For example, if you had written an article, and you were almost ready to publish it but first you wanted someone else to review it. They would have the option to provide feedback through comments or approve it for publishing.
 
 ### Merge
 
@@ -118,4 +128,4 @@ An API allows a piece of software to interact with another piece of software.
 
 ### Server
 
-A computer (virtual or physical) that runs services and/or "serves information" to other computers. Its could also refer to an instance of a computer program. There are several different kinds of servers (application server, web server, cloud server, etc.).
+A computer (virtual or physical) that runs services and/or "serves information" to other computers. It could also refer to an instance of a computer program. There are several different kinds of servers (application server, web server, cloud server, etc.).

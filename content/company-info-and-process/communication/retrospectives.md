@@ -44,7 +44,7 @@ Share your screen which has the retrospective document open and a [timer](https:
 
 #### Begin
 
-Begin by asking one of the participants to read the [The Prime Directive](http://retrospectivewiki.org/index.php?title=The_Prime_Directive) out loud.
+Begin by asking one of the participants to read [The Prime Directive](http://retrospectivewiki.org/index.php?title=The_Prime_Directive) out loud.
 
 > "Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand."
 > --Norm Kerth, Project Retrospectives: A Handbook for Team Review
@@ -57,7 +57,7 @@ Review the action items from the previous retrospective and discuss the current 
 
 #### Vote (5 min)
 
-Ask each participant vote on the items that they deem most important. Make sure that participants understand the rules for voting:
+Ask each participant to vote on the items that they deem most important. Make sure that participants understand the rules for voting:
 
 - Each person has ten votes (+1s).
 - Each person can vote for a topic more than once (e.g. +2, +3).
@@ -73,7 +73,7 @@ The discussion is the main part of any retrospective and where real value is ext
 
 This phase lasts for the rest of the scheduled meeting.
 
-Based on the vote distribution, choose which topics are going to be discussed and the time limit for each topic. 10 minutes is a good default. Enforce the time limit! You can always return to a topic at the end if there is extra time, or continue the converation on Slack.
+Based on the vote distribution, choose which topics are going to be discussed and the time limit for each topic. 10 minutes is a good default. Enforce the time limit! You can always return to a topic at the end if there is extra time, or continue the conversation on Slack.
 
 Ensure you ask everyone what their thoughts on each topic are. Everyone is different; some people are loud and very outspoken. Some are quiet and observe more. It's important to capture everyone's opinions.
 
@@ -81,20 +81,20 @@ For each topic, if necessary, ensure there's a written down actionable commitmen
 
 ## Engineering milestone retrospectives
 
-For an engineering milestone retrospective, the organizer (often the [engineering manager](../../departments/product-engineering/engineering/roles/index.md#engineering-manager)) asks everyone to review the previous milestone tracking issue, the planned work assigned to you, what got done, what didn’t. To facilitate this meeting, use the Start/Stop/Continue format, although its possible to other formats as required.
+For an engineering milestone retrospective, the organizer (often the [engineering manager](../../departments/product-engineering/engineering/roles/index.md#engineering-manager)) asks everyone to review the previous milestone tracking issue, the planned work assigned to you, what got done, what didn’t. To facilitate this meeting, use the Start/Stop/Continue format, although it's possible to use other formats as required.
 
 ### Start
 
 _Ideas that the team should be doing but are not doing, new ideas worth discussing to address current problems._
 
-- A new person has joined team. What project would you suggest he should work on?
+- A new person has joined the team. What project would you suggest they work on?
 - The deadline for project X was removed. What extra features would you add to project X?
 - What went well? What did you like?
 - What do you wish you had done differently?
 
 ### Stop
 
-_Ideas that are not delivering results or task which require a lot of time for little return._
+_Ideas that are not delivering results or tasks which require a lot of time for little return._
 
 - What would you cut from your workday if you had to leave early for vacation?
 - Have you ever noticed an area of your job that consistently gets bumped to the next day or even next month? What is that and why is it so easy to defer until a later date?
@@ -105,6 +105,6 @@ _Ideas that are not delivering results or task which require a lot of time for l
 
 _Ideas that are creating value or we should continue to explore as they are showing positive results._
 
-- What ideas or projects seems to be going in the right direction but need more time?
+- What ideas or projects seem to be going in the right direction but need more time?
 - Which responsibilities do you personally find most fulfilling?
 - What is something that our customer loves us doing?

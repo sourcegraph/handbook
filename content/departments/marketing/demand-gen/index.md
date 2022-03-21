@@ -30,12 +30,6 @@ The **Operations group** is responsible for systems and analytics which support 
 
 ## Meet the team
 
-- Sarah Reece - Director, Demand Generation
-- Rebecca Rissinger - Manager, Marketing Operations
-- Greg Bouton - Senior Email + Automation Manager
-- Adam Greenhalgh - Marketing Operations Analyst
-- Jake Sorensen - Program Lead, Demand Gen Campaigns
-- Erica Freckelton - Senior Digital Marketing Manager
-- (TBH) Program Marketing Manager
+{{generator:reporting_structure.director_demand_generation}}
 
 For information about teammate preferences, check out our individual [READMEs](demand-gen-bios.md).

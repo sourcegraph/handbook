@@ -51,7 +51,7 @@ Here's a screen recording of the steps (written out below) for macOS:
 
 1. Download and install [GitHub Desktop](https://desktop.github.com/).
 1. Launch GitHub Desktop and sign into it using your GitHub username.
-1. Clone the `sourcegraph/about` repository (assuming to the `~/Documents/GitHub/about` folder on your computer).
+1. Clone the `sourcegraph/handbook` repository (assuming to the `~/Documents/GitHub/handbook` folder on your computer).
 
 Optional:
 
@@ -59,11 +59,11 @@ Optional:
 
 #### Steps
 
-1. In GitHub Desktop, open the `about` repository that you cloned previously.
+1. In GitHub Desktop, open the `handbook` repository that you cloned previously.
 1. In **Current Branch**, select `main` if it's not already selected.
 1. Press the **Fetch Origin** button to get the latest contents of the repository.
 1. In **Current Branch**, create a new branch with a short name (like `add-travel-guidelines`, no spaces or punctuation).
-1. Edit files in the `~/Documents/GitHub/about/handbook` folder on your computer.
+1. Edit files in the `~/Documents/GitHub/handbook` folder on your computer.
 1. When you've edited the files and saved your changes, GitHub Desktop will show you the changed files in the left sidebar. Confirm that your changes look good by viewing the diffs for each file.
 1. In the bottom left `Summary (required)` text field, type your commit message (a one-line description of the change) and a longer `Description` below.
 1. Press the **Commit to add-travel-guidelines** button (where `add-travel-guidelines` is the branch name you chose earlier).

@@ -1,3 +1,3 @@
 # Resources for teammates
 
-Coming soon!
+This page is old and will be deleted soon.

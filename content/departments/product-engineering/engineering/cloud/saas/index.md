@@ -10,7 +10,7 @@ TBA. More can be found in our [Cloud Vision](../index.md#vision)
 
 Our detailed Sourcegraph Cloud roadmap is currently internal-only until our public announcement later this year. Our Q4 OKRs are publicly available [here](../index.md#okrs-fy22q4).
 
-Beyond Q4, our goals over the next 12-24 months include:
+Beyond Q4, our goals over the next 12–24 months include:
 
 - Provide a delightful self-service onboarding and self-service payments capabilities for new developers and new teams to enable a true Software-as-a-Service experience for customers who prefer it
 - Provide in-depth administration capabilities to unlock adoption of Sourcegraph Cloud by large enterprises
@@ -66,14 +66,7 @@ The list below contains features and services that already exist, and the Cloud 
 
 ## Team
 
-- [Ryan Phillips](../../../../../team/index.md#ryan-phillips) (he/him) - [Product Manager](../../../product/roles/index.md#product-manager)
-- [Quinn Keast](../../../../../team/index.md#quinn-keast) (he/him) - [Product Designer](../../../product/roles/index.md#product-designer)
-- [Rafal Leszczynski](../../../../../team/index.md#rafal-leszczynski) (he/him) - [Engineering Manager](../../roles/index.md#engineering-manager)
-  - [Joe Chen](../../../../../team/index.md#joe-chen) (he/him)
-  - [Artem Ruts](../../../../../team/index.md#artem-ruts) (he/him)
-  - [Milan Freml](../../../../../team/index.md#milan-freml) (he/him)
-  - [Rafal Gajdulewicz](../../../../../team/index.md#rafal-gajdulewicz) (he/him)
-  - P. R. (he/him) - starting 2022.01
+{{generator:product_team.cloud_saas}}
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 
@@ -81,9 +74,8 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 The Cloud SaaS team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
-- [Cloud Growth](../growth)
 - [Cloud DevOps](../devops)
-- [Extensibility](../extensibility)
+- [Growth and Integrations](../growth-and-integrations)
 - [Security](../security)
 
 ## News and updates
@@ -104,7 +96,7 @@ We are committed to sending a monthly newsletter to the entire Product and Engin
 ### How to contact the team and ask for help
 
 - For cloud users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for Cloud SaaS Team`.
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud-saas`.
 - For internal Sourcegraph teammates, join us in [#cloud-saas](https://sourcegraph.slack.com/archives/cloud-saas) to ask questions or request help from our team.
 - For cloud users with feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `Cloud Feature Request:` in your subject line.
 
@@ -173,8 +165,8 @@ Use comments in Figma to ask questions and share feedback. If a decision or miss
 
 Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
 
-- Public Information - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
-- Information internal to Sourcegraph - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
+- **Public Information** - Convert it to a handbook section/page linked from the main Cloud SaaS team handbook page once
+- **Information internal to Sourcegraph** - Create Google Doc within the [Cloud SaaS Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the Cloud SaaS Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
 Please read [this](../../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
 
@@ -219,9 +211,10 @@ We review the [backlog of action items](https://sourcegraph.atlassian.net/browse
 
 To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. [Agile Poker Jira addon](https://marketplace.atlassian.com/apps/700473/agile-poker-for-jira-planning-estimation?tab=overview&hosting=cloud) is our tool of choice, and we are running our groomings session based on the following schedule:
 
-- Each Monday, the new async grooming session should be created within [Agile Poker app](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.spartez.jira.plugins.jiraplanningpoker__poker-project-page#!/board/11/sessions-management?type=async)
+- Each Monday, the new async grooming session should be created within [Agile Poker app](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.spartez.jira.plugins.jiraplanningpoker__poker-project-page#!/board/11/sessions-management?type=async).
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
-- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer
+- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
+- Each story point represents a single developer day.
 
 #### Team calendar
 
@@ -232,7 +225,8 @@ All team events and reminders should be added to the [team calendar](https://cal
 
 #### Making pull requests and asking for code reviews
 
-TBD
+- Everyone (including engineers, EM, PM, PD) should set up a reliable way to receive pull request review notifications, examples are emails, Slack notifications (through GitHub Scheduled reminders). In some cases, direct pinging required reviewers could inform reviewers about the urgency and may help expedite receiving reviews.
+- Pull requests in the draft state indicate work in progress and not ready for review, while occasionally the author may ask for early feedback in explicit forms, examples are direct pings, mentioned on the pull requests.
 
 #### Definition of done (DoD)
 
@@ -260,24 +254,79 @@ TBD
 
 Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
-## Playbooks and procedures
+## [Playbooks](playbooks/index.md) and procedures
 
 - [Getting a list of cloud users](playbooks/getting-a-list-of-cloud-users.md)
 
-## Hiring and onboarding
-
-### Hiring
+## [Hiring](hiring/index.md)
 
 This section contains links to Cloud SaaS specific interview types.
 
 - [Architectural Interview](hiring/cloud-saas-software-engineer-architectural-interview.md)
 - [Pairing Coding Interview](../../hiring/software-engineer-coding-exercise.md#cloud-saas-team-coding-exercise)
 
-### Onboarding
+## Onboarding
 
-TBD
+### Onboarding goals and milestones
 
-## Useful Links
+Your onboarding will take up to three months. During this time, you should acquire the necessary domain knowledge and experience that will allow you to succeed in the role of [software engineer](../../roles#software-engineer) within your [seniority level](../../career-development/framework.md#levels). This process is a team effort, and your success depends not only on your actions, but also on full support from your team and manager.
+
+We are applying 30/60/90 day patterns and breaking down the onboarding process into three milestones, each with defined themes and outcomes to keep things organized and clarify what you should expect.
+
+#### First month
+
+The central theme for the first month is **learning**. During these 30 days, your goal is to acquire the **foundational domain knowledge** about our product, processes, architecture, and codebase to help you **feel comfortable and effective in a software engineer's role** in the Cloud SaaS team.
+
+You will be exposed to a ton of new information - you will meet many people, read multiple documents, and, most importantly, solve small, well-defined technical challenges. We understand this might feel overwhelming, so please relax and do not stress. This first month is the time for [learning and growth](../../../../../company-info-and-process/values#continuously-grow).
+
+#### Second month
+
+We will give you more **ownership** and opportunities to make an impact. While learning will still be the central theme, you can expect more complex problems to solve. You will also get your **first project assigned**, requiring you to collaborate with other teams, think about planning, execution, risk management, technical design, and other factors.
+
+With the domain knowledge and business context you have acquired so far, it's an excellent opportunity to **start making an impact on the team**. We expect your honest **feedback** about our current processes, tooling, architecture, code base, product goals etc. Please be [proactive in sharing your ideas](../../../../../company-info-and-process/values#high-agency) on how we can improve in the spirit of **continuous improvement**.
+
+#### Third month
+
+Time is running fast, and you learned a lot. You feel productive and autonomous, and your contributions make a real impact on the team. It's time to provide you with more **technical leadership** opportunities.
+
+We would like you to take the role of a **Directly Responsible Individual (DRI)** for a given project. DRIs are empowered and accountable for the success of the initiative they lead. The scope and complexity of the problem will depend on your seniority level. While you likely won't be the only person working on this project, it's up to you to make sure it gets done and that you have all resources necessary. Being a DRI might sound challenging and stressful, especially during your first months at Sourcegraph. Don't worry; your buddy, peers, and team's triad (Project Manager, Project Designer, and Engineering Manager) are here to help and support you. The goal is to give you the sense of responsibility, ownership, and experience of wearing different hats.
+
+Finally, we would like you to start **shadowing** your team members during **on-call rotation** and participate in responding to and resolving production incidents. This experience will prepare you for performing on-call duty once you finish your onboarding process.
+
+### Questions that you might come up with during your onboarding
+
+Here you can find a list of questions asked by other team members during their onboarding. As a distributed, async-first team, our goal is to provide you with the answers to all these questions in an asynchronous form.
+
+If the answer is not available below, your buddy and the whole team will share their knowledge with you. We highly encourage you to contribute to this list and add tasks to our [Onboarding Improvements Jira epic](https://sourcegraph.atlassian.net/browse/CLOUD-236) to continuously improve the Cloud SaaS team domain knowledge database and onboarding process.
+
+- How Sourcegraph is designed? - Deep dive into our [architecture](https://docs.sourcegraph.com/dev/background-information/architecture)
+- On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the Cloud SaaS team?
+- Life of a commit - How does my code end up in production?
+  - [Current Software Development Life Cycle](../../../process/sdlc.md)
+  - [Cloud CI pipeline](https://docs.sourcegraph.com/dev/background-information/continuous_integration)
+  - Video from Dave Try about [CI pipeline](https://www.loom.com/share/601c226a8a93429890c40213922476f9)
+  - [CI/CD slides](https://docs.google.com/presentation/d/1ML71MPM4n9EHW-57p8ks9GktJdKqrcQnWhBiU2qQGpI)
+  - [Deployment to production](../../process/deployments/index.md#deployment-basics)
+  - [How to deploy during a freeze](../devops/deploy-code-change.md)
+- Decisions/trade-offs we accepted in our development process:
+  - Why do we have a single repo for all services?
+  - Why do we have a distributed monolith?
+  - How does our continuous deployment model work?
+  - Why we are using GraphQL API?
+- Overview of the Cloud infrastructure setup.
+- Overview of the frontend/UI layer at Sourcegraph.
+- [Overview of the GraphQL API layer at Sourcegraph](https://docs.google.com/document/d/1urMZCQ4ZRqHqGvYoKXgLG7EfBEZa_foIilJEhA9Es28/edit#)
+- I am debugging an issue on production - where can I find logs, metrics, events, and traces?
+- What is the difference between login connection and code host connection? How do we authenticate and authorize users on the Cloud?
+- Authorization of GraphQL calls - how do we know the call was made by a legitimate user?
+- [How do we add repositories to Sourcegraph, and how does the repository state management work?](https://docs.google.com/document/d/1BS-gd3oU-sl3B2Mu6CoERl452kP7hlH1z1fbIBotXic/edit#heading=h.kelnla4sqwyv)
+- [How do we fetch, sync, and enforce code host repository permissions?](https://docs.google.com/document/d/17xYmDqSfOUZuqwH8OA-mh0DRieZedA0JkHGffgvzSBw/edit#heading=h.kelnla4sqwyv)
+- [How does subscription and license management work?](https://docs.google.com/document/d/1ytTm57Oaf1Hr3cUtzIotnezG_I2OEKBoamtkcqlXefk/edit#)
+- Database schema overview
+- [How do we deal with incidents?](../../process/incidents/index.md)
+- What is our on-call strategy?
+
+## Useful links
 
 - [Cloud SaaS Team Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
 - [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)

@@ -1,8 +1,8 @@
-# Gain access to the cluster
+# Gain access to a cluster
 
 We use GCP to provide cluster access. Install the `gcloud` cli tool from here: <https://cloud.google.com/sdk/gcloud>. Ensure that the cli install folder is on your path. It installs other tools like `kubectl` that we use.
 
-## Cloud Cluster
+## Cloud cluster
 
 Next, open a new terminal and set two environment variables for ergonomics for this tutorial.
 
@@ -39,7 +39,7 @@ dogfood-server    Active   77d
 ...
 ```
 
-## CI Cluster
+## CI cluster
 
 If you want to access the CI cluster instead of Dogfood, you can run the following commands instead:
 
@@ -79,6 +79,8 @@ kube-system       Active   407d
 
 Now, change to the `buildkite` namespace via `kubectl config set-context --current --namespace=buildkite` to work with workloads in that namespace.
 Note: You do not need to switch the namespace to access workloads in other namespaces, you can use `-n ${NAMESPACE}` with your command to access other namespaces.
+
+The relevant Buildkite CI infrastructure is in [`sourcegraph/infrastructure`](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/README.md).
 
 ## Describe a pod
 

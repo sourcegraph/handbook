@@ -26,7 +26,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
    10. To find which Sourcegraph version a company is running, visit the [instances Looker dashboard](https://sourcegraph.looker.com/looks/436), find the row for the customer's instance, and look at the version number in the row's **Latest Version** column. Some customer instances are offline or only [provide critical telemtry](https://docs.sourcegraph.com/admin/pings#critical-telemetry). The [full list is in Google Drive](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit). If you don't see a customer in the Looker dashboard or the Google list, ask in #analytics on Slack.
    11. Depending on where the case originated, we may need to check with our internal teammates to ensure we have full context. For example, again, a quick check with the CE might yield invaluable information. If the issue is from marketing, we should see if they have any considerations for our response.
 
-   Spend 10-15 minutes just orienting to that customer before even looking at the details of the issue.
+   Spend 10–15 minutes just orienting to that customer before even looking at the details of the issue.
 
 6. **The application engineer does two extra things ASAP if the ticket originated from Slack.** Our trial- and support- channels are where our enterprise customers can work with anyone at Sourcegraph. This means not everything that comes into Zendesk via this medium will be for us (we use a Zapier integration that creates a new Zendesk ticket for each new post in a channel) -- you can see more details about our triage process [here](customer-support-triaging.md).
 
@@ -50,7 +50,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
    2. We identify a workaround to get the customer on their way `AND` we file a defect or product improvement (in the public GitHub tracker) to address the underlying root cause (read [an open letter about root cause](enablement/root-cause.md) for inspiration) and share the link with the customer.
    3. We help the customer figure out what they need to do and they stop responding. After a couple of attempts, if we are confident the issue would be solved, `AND` we complete any internal tasks born from working on the ticket (like updating documentation), we go ahead and consider it resolved. Often in these situations we give the CE a heads-up of our decision.
    4. We identify a defect, engineering fixes it, the customer confirms the issue is resolved `OR` we share the public defect link with the customer (always do this when possible instead of keeping the case open) `AND` we complete any internal tasks born from working on the ticket (like updating documentation). Until then, we consider the case open and while engineering prioritizes the defect for a fix, we place the case "on-hold" in Zendesk.
-   5. We confirm the "issue" is a feature request and tag in the CE to handle the request if there is a CE assigned to the customer `OR` file it in the public repo (for customers without a CE assigned) and share the link with the customer `AND` we complete any internal tasks born from working on the ticket (like updating documentation).
+   5. We confirm the issue is a feature request and tag in the CE to handle the request if there is a CE assigned to the customer. Otherwise, you can file the issue yourself. Before doing so, however, make sure that the request you're making does not reveal any security vulnerabilities. If we are unsure, we start a thread in #customer-support-internal and ask. If the issue does NOT reveal a security vulnerability, we file the issue in the [public repo](https://github.com/sourcegraph/sourcegraph) and share the link with the customer `AND` we complete any internal tasks born from working on the ticket (like updating documentation). If the issue DOES reveal a security vulnerability, file the issue in [the security-issues repository](https://github.com/sourcegraph/security-issues). We do not share security issues with the customer, but we do inform them that the issue has been filed.
    6. If we are still working on finding the answer and the customer stops responding, we email a couple more times to see if they had a chance to look at our last response. If they still don't respond, and they have a CE, talk with them to see if they have another way to get in touch and see what's going on. If not, or if the customer does not have a CE, `AND` we complete any internal tasks born from working on the ticket (like updating documentation), then it's okay to close the ticket at this point.
 
 10. **While we work, we keep Zendesk, Slack, and/or Salesforce up-to-date.** If a ticket originates in Slack, you'll still need to keep Zendesk up to date. Switch the requestor to the person asking for help in Slack so that the issue ties to the right customer. Use the internal notes function in Zendesk to leave notes for yourself to track your progress and decisions (these will also appear in Salesforce for others to see). A summary of what happened should be obvious in Zendesk even if all the work happened in Slack. Also, we will often learn details about a customer's environment, etc that we should keep in Salesforce. We update and enter new such data in Salesforce as we learn it via a Google Form as outlined [here](../../bizops/process/customer_environment_questions.md) and/or the account info doc in [the customer notes folder](https://drive.google.com/drive/u/0/folders/1gjXWQ1l0Fnt2pVS2ohx3w0cw-gaJ_Ez0), if one exists (be sure to talk to the CE as part of updating it, in the event that what you are updating ends up being invaluable information to them for what else may be happening with the account). This data is then rendered in Zendesk so we don't have to ask the customer for it again. Zendesk also always reflects where we are at in our process by using the status function:
@@ -58,7 +58,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
     1. New = the case has not yet been triaged
     2. Open = an application engineer has not yet taken responsibility (it's a new case) or an application engineer is accountable for the next step
     3. Pending = the customer is accountable for the next step
-    4. On-hold = it's a defect and we are waiting for engineering to fix it
+    4. On-hold = there is no further action with the customer and the next step is internal only OR (in very rare cases), when the customer asks us to hold off due to leave, etc
     5. Solved = the issue is resolved as described above
     6. Closed = the final state (solved tickets move to this status automatically after 16 business hours)
 
@@ -103,7 +103,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### support@ email
 
@@ -115,7 +115,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** An email that is sometimes included in forms we send customers (for example, our NPS forms). It may not be used frequently, but when it is used, we want to be sure nothing falls through the cracks.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### Support contracts
 
@@ -133,7 +133,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/responding_to_user_feedback.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 

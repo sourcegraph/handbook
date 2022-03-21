@@ -23,7 +23,7 @@ Should I create a new directory (also called a folder) or add my new content to 
 - **If yes**, it should go in the same directory as its companion content.
 - **If no**, you may want to create a new directory. It's helpful to create a directory rather than just a single file in case you want to add more related files later. See [where should my content go](#where-should-my-content-go) for help with deciding where that new directory should go.
 
-Reach out to the [content curators](#content-curators) for help if you're unsure.
+Reach out for (help)[#content-help] if you're unsure.
 
 ## Where should my file or directory go?
 
@@ -35,9 +35,15 @@ To determine where your content should go:
 
 Reach out for [content help](#content-help) for help if you're unsure.
 
+## Naming your page
+
+When naming your markdown file, use hyphens rather than underscores in place of spaces. For example: `some-page-name.md` instead of `some_page_name.md`.
+
+You can always change your page name later, so choose something that makes sense for now. If the content changes in the future, you can rename your page.
+
 ## Page structure and use of headings
 
-We don't currently have page templates for most areas of the handbook, though this is something we would like to work towards in FY23.
+We don't currently have page templates for most areas of the handbook.
 
 In terms of structure, favor using headings to break up your page. This helps visually break up the page for the viewer, and assists in searchability of content. Headings are weighted heavier in handbook search results, so using a descriptive heading will likely help viewers get to your content more quickly.
 

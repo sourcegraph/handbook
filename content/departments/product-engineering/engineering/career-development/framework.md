@@ -4,7 +4,7 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-There are currently seven levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+There are currently six levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 - Proficiency
 - Execution
@@ -112,10 +112,10 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     padding: 2.5rem;
   }
   /*
-  Safari doesn't make the two IC6/IC7 rows equal size automatically, so give them explicit heights
+  Safari doesn't make the IC6 row equal size automatically, so give it explicit height.
   Note that min-height also doesn't work.
   */
-  th#ic6, th#ic7 {
+  th#ic6 {
     height: 11rem;
   }
 </style>
@@ -343,7 +343,10 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <!-- IC4 -->
     <tr>
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
-      <td colspan="3" class="level-summary">A particularly experienced, impactful contributor.</td>
+      <td colspan="3" class="level-summary">
+        A particularly experienced, impactful contributor.<br>
+        IC4 is the highest level that an engineer can get to based solely on their performance. The availability of positions beyond IC4 is based on both impact and business need.
+      </td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
@@ -398,68 +401,28 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <!-- IC5 -->
     <tr>
-      <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
+      <th id="ic5" scope="row" rowspan="2" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
-        A different IC role from levels 1-4, with a focus on technical leadership.<br>
-        This level is equivalent in impact to an <a href="../roles#engineering-manager">Engineering Manager</a>.<br>
-        What impact at this level looks like may vary more between individuals than at preceding levels.<br>
-        We recommend <a href="https://drive.google.com/drive/folders/1fnw5gmlLDDZb9wDodY3KfcTaM3OOQL7G" target="_blank" rel="noopener noreferrer">our company’s copy of “Staff Engineer” by Will Larson</a> as reading material.
+        IC5 is a different role from levels 1–4.<br>
+        What impact looks like at this level varies between individuals.<br>
       </td>
     </tr>
-    <tr class="category-summaries-row">
-      <td class="category-summary proficiency">
-        <div class="wrapper">
-          A respected technical leader, on and off their team.
-        </div>
-      </td>
-      <td class="category-summary execution">
-        <div class="wrapper">
-          Defines cross-team goals that align with top level company goals, and ensures delivery to meet business needs.
-        </div>
-      </td>
-      <td class="category-summary teamwork">
-        <div class="wrapper">
-          An extremely strong communicator doing outstanding stakeholder management.
-        </div>
-      </td>
-    </tr>
-    <tr class="behaviors-row">
-      <td class="behaviors proficiency">
-        <ul>
-          <li>Sets the technical vision for their team, and influences the broader technical vision.</li>
-          <li>Initiates and drives cross-team projects that enable higher quality work.</li>
-          <li>Provides oversight, coaching, and guidance through code and design reviews, both on and off the team.</li>
-          <li>Acts as a trusted advisor, drawing on functional expertise to inform customer-first strategy.</li>
-        </ul>
-      </td>
-      <td class="behaviors execution">
-        <ul>
-          <li>Proactively identifies areas for improvement at the org level. Suggests process and methodology improvements.</li>
-          <li>Works closely with Engineering/Product leadership to validate alignment of team roadmaps within their org.</li>
-          <li>Independently scopes, designs, and delivers solutions for large, complex challenges.</li>
-        </ul>
-      </td>
-      <td class="behaviors teamwork">
-        <ul>
-          <li>Provides technical expertise internally and externally, informing what can be achieved.</li>
-          <li>Guides others on effective collaboration, conflict resolution and improved communication.</li>
-          <li>Regularly shares knowledge and willingly presents to large and/or senior audiences.</li>
-          <li>Persuades and challenges clients and internal stakeholders, using valid expertise and respectful communication.</li>
-        </ul>
+    <tr>
+      <td colspan="3" class="tbd">
+        <p>
+          Rather than being solely defined through proficiency, execution and teamwork, IC5 is differentiated from levels 1-4 by a specific <strong>business need</strong> for the role. The creation of an IC5 role is contingent on the existence of this business need, and the business need will bring an associated set of expectations for proficiency, execution and teamwork. To acknowledge this specificity, the level is defined through the <a href="./ic5/index.md">profiles of IC5 roles at Sourcegraph today</a>.
+        </p>
       </td>
     </tr>
     <!-- IC6 -->
     <tr>
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
-      <td colspan="3" rowspan="2" class="tbd">
+      <td colspan="3" class="tbd">
         <p>
-          While we haven't yet finalized the descriptions of these levels at Sourcegraph, they would be equivalent in impact to a <a href="../roles#director-of-engineering">Director of Engineering</a> and <a href="../roles#vp-engineering">VP of Engineering</a>, respectively.
-          Like <a href="#ic5">IC5</a>, these are different <strong>roles</strong> than the levels preceding it based not only on performance, but also company need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
+          We haven't yet finalized the description of this level at Sourcegraph.
+          Like <a href="#ic5">IC5</a>, this is a different <strong>role</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
         </p>
       </td>
-    </tr>
-    <tr>
-      <th id="ic7" scope="row" class="level"><a class="anchor" href="#ic7"></a><abbr title="Individual Contributor">IC</abbr>7</th>
     </tr>
   </tbody>
 

@@ -1,6 +1,8 @@
 # Security infrastructure playbooks
 
-Contains playbooks for GCP project deployments, GKE project deployments,
+Contains playbooks for GCP project deployments and GKE project deployments.
+
+⭐ AWS Instances MUST NOT hold ANY customer data.
 
 ## GKE deployment playbooks
 
@@ -60,13 +62,14 @@ This requires multiple steps to properly configure. Most of these are going to b
 ##### From scratch
 
 1. Configure the `sourcegraph-security-logging` project by running `terraform apply` from `/security/logging`.
-2. Configure the pub/sub logging sinks, as well as GKE workload audit logs in cloud and dogfood by running `terraform apply` from `/cloud` and `/dogfood`
+2. Manually create the SCC Notification Config for SCC Slack notifications (due to a known terraform bug https://github.com/hashicorp/terraform-provider-google/issues/10534 this isn't easily done via terraform) `gcloud scc notifications create "scc-findings-config" --organization "<org_id>" --description "Writes SCC findings to scc_findings pubsub topic" --pubsub-topic "projects/sourcegraph-security-logging/topics/scc_findings" --filter "state = \"ACTIVE\""`
+3. Configure the pub/sub logging sinks, as well as GKE workload audit logs in cloud and dogfood by running `terraform apply` from `/cloud` and `/dogfood`
    1. This would only be needed on config changes for the logging sinks or the audit log module.
-3. [Create a service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) for the subscriber `pubsubbeat-subscriber@sourcegraph-security-logging.iam.gserviceaccount.com` in the `sourcegraph-security-logging` project.
-4. [Create our elastic instance](#elastic-cloud-logging).
+4. [Create a service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) for the subscriber `pubsubbeat-subscriber@sourcegraph-security-logging.iam.gserviceaccount.com` in the `sourcegraph-security-logging` project.
+5. [Create our elastic instance](#elastic-cloud-logging).
    1. Note that the following instructions are part of creating the Elastic instance, since pubsubbeats perform some Elastic configuration
-5. [Encrypt elastic secrets](#encrypt-deployment-secrets) and add them to the repository.
-6. [Deploy pubsubbeats](#deploy-pubsubbeats).
+6. [Encrypt elastic secrets](#encrypt-deployment-secrets) and add them to the repository.
+7. [Deploy pubsubbeats](#deploy-pubsubbeats).
 
 #### Encrypt deployment secrets
 
@@ -332,3 +335,13 @@ If `terraform plan` or `terraform apply` fails on acquiring state lock, look at 
 
 - If the `who` field is obviously a developer, they're probably also running `terraform plan` or `terraform apply` on the same GCP resources. You'll probably have a merge conflict at some point, so it's a good idea to sync with them on what the two of you are doing, and how it could interact.
 - If the `who` field is buildkite, then we may have a stuck pipeline. A good heuristic is to see if the lock was created more than ~10 minutes ago. If it was, it's a good idea to start hunting through PRs on the infrastructure repo for a stuck pipeline so you can ping the PR author, or to ping #distributrioneers if you can't find the source. You may need to force unlock the state after killing the stuck pipeline.
+
+During a `terraform init` if you get the below error that means there was an issue pulling the terraform state from Cloud storage. Running `gcloud auth application-default login` to refresh your default auth token should resolve it (`gcloud auth login` will not recreate the token).
+
+```
+Error: Failed to get existing workspaces: querying Cloud Storage failed: Get "https://www.googleapis.com/storage/v1/b/sourcegraph-tfstate/o?alt=json&delimiter=%2F&pageToken=&prefix=infrastructure%2Fpentest%2F&prettyPrint=false&projection=full&versions=false": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+```

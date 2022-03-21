@@ -2,19 +2,19 @@
 
 ## Support
 
-Repo management handles our support without a rota - that is to say there is no dedicated engineer on support duties, instead work is picked up by anyone in the team.
+The Repo Management team primarily receives support requests from the Customer Engineering (CE) and Sales orgs. The requests vary from customer identified bugs to simple questions to deep dives into product gaps. CE and Sales work on behalf of Sourcegraph customers and, as a result, their support requests are high priority for our team.
 
-### Requesting our support
+We also receive support requests from other engineering teams because our ownership impacts many areas within Sourcegraph.
 
-**Simple questions guidelines:**
+### Requesting Support
 
-Feel free to direct simple questions to us in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) in Slack
+We provide two primary ways of requesting support from Repo Management:
 
-- This channel is regularly checked
-- So please do **NOT** directly message or CC an engineer - this is to try and protect their focus
-- Instead, if it's urgent, please @ either [the PM or the EM](index.md#members) in the question in the channel
+1. The [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) channel in Slack is our preferred method of receiving support requests. If your support request is a simple question, post in the channel. You don’t have to provide a GitHub issue or any other artifact. If your support request is more than a question (e.g. customer bug, deep dive required, high priority ask), follow the support [request guidelines](#support-request-guidelines) below.
 
-**Support request guidelines:**
+2. If you are unsure whether Repo Management is the right team, or it impacts multiple teams, you can post in the [#ask-product-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W) channel. We recommend posting in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) instead if you are confident that Repo Management is the right owner as we do not review the #ask-product-eng channel as quickly.
+
+### Support Request Guidelines
 
 Support requests related to our [areas of ownership](index.md#responsibilities) should follow this process:
 
@@ -23,26 +23,23 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
    - A more detailed explanation of the background, the context and the challenge that needs solving
    - Any guidance related to the impact this is having
    - Any extra information that could help us solve or prioritize this
-2. Ensure lable `team/repo-management` is added to the issue
-3. Ensure that the issue is added to the "[Repo Management](https://github.com/orgs/sourcegraph/projects/209)" board in GitHub
-4. This board is checked weekly - so this is enough for feature requests or less urgent issues
-5. If you think this needs eyes 👀 sooner, please message in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) in Slack and CC [the PM or the EM](index.md#members)
+2. Ensure label `team/repo-management` is added to the issue
+   . Send a message to [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) in Slack to notify the team that you have created the issue
 
-**Support request process:**
+### How We Handle Support
 
-1. The issue lands on our [Repo Management](https://github.com/orgs/sourcegraph/projects/209) board
-2. It automatically appears with NO status - that indicates it needs triage
-3. The issue get triaged by the EM or PM - this can happen as a result of a frequent check or a message about a specific issue
-4. As part of triage, the EM or PM...
-   1. Considers the impact or value to the customer(s) and our business
-   2. Assesses the cost of the work
-   3. Compares the cost and benefit to everything else
-   4. Moves the issue to the correct column on the board
-5. Either immeadiate (as a result of triage) or at a later date, the issue is moved into "Todo"
-6. The team pick up issues from the Todo in a top down order
-7. The issue gets worked on
+Each week one member from the Repo Management team is on support rotation according to [repo-management-support](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/b553cefc-2466-4ad2-ad0c-66937c790bbf) schedule in OpsGenie. The user is also added to the Slack User Group `@repo-management-support` by [Slackgenie](https://github.com/sourcegraph/background-jobs/tree/main/slackgenie). Feel free to tag `@repo-management-support` for your support requests on Slack.
 
-> ℹ️ The team do not directly look at anything that's not in the working columns on the board, and things only make it to those columns through triage by the EM or PM. Only the EM or PM will make the call to interupt in-progress work for an issue, with the exception of [incidents](../../process/incidents/index.md).
+For simple questions in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) or [#ask-product-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W), we will review and respond on a daily basis.
+
+More involved support requests follow the below process:
+
+1. Requester sends a message to [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) and links to the issue they created on https://github.com/sourcegraph/customer/issues (the customer issue should include the label team/repo-management).
+2. The IC on the weekly support rotation acknowledges the message in Slack, asks any follow up questions, and provides an ETA for us to review the issue. If the issue is p1, we review immediately.
+3. The IC on support will review the request in more detail and create an issue on our [Kanban board](https://github.com/orgs/sourcegraph/projects/209/views/1) and add it to the Support Issues list.
+4. If the request is not trivial, the IC will loop in the the EM and PM to triage with the requester on relative priority and timing.
+5. Once we’re ready to work on the issue, the IC will either personally work on the request or work with the team to identify the right owner.
+6. Whoever takes the issue will own it until completion and communicate directly with the requester.
 
 ## How we work
 
@@ -50,9 +47,11 @@ We're currently working in a Kanban style. It suits the fact that support work o
 
 Kanban means we maintain a backlog of work we want to complete, prioritized in such a way that the team picks up the next highest priority thing.
 
-This allows us to be flexible about what's up next, but still protect the sanctity of concentration and focus, by avoiding (as much as we can) in-flight work from being dropped in favor of something else.
+This allows us to be flexible about what's up next, but still protect the sanctity of concentration and focus by avoiding (as much as we can) in-flight work from being dropped in favor of something else.
 
-We still work in 2 week cycles, and have the following ceremonies:
+For larger pieces of work we utilise [tracking issues](../../process/tracking_issues.md), for [example](https://github.com/sourcegraph/sourcegraph/issues/27916).
+
+We work in 2 week cycles, and have the following ceremonies:
 
 1. Planning (biweekly)
    - This is more of a "line up a queue of work in priority" exercise than it would be with sprints
@@ -62,3 +61,9 @@ We still work in 2 week cycles, and have the following ceremonies:
    - This happens on the weeks we don't have planning, and is a check in on the plans and anything new
 3. Retro (biweekly)
    - A review of what we did for learing purposes
+
+### How we structure our work
+
+We split our time between project work, support, and ad-hoc requests. We always have one person dedicated to support requests and the remaining engineers are split between our two delivery streams as outlined in our [strategy page](../../../../../strategy-goals/strategy/enablement/repo-management/index.md#how-we-plan). In an ideal week, everyone who is not on support is focusing solely on either the performance engineering track or the product engineering trakc. But, we often receive ad-hoc requests for items that don't fit our definition of a support issue.
+
+We plan for ad-hoc requests on a case by case basis, taking into account team availability, the size of the request, skills/knowledge required, and the urgency of the request. We pull the ad-hoc request into our 2 week cycle if we have the right people available to deliver it efficiently and with high quality. This approach ensures we spread ad-hoc work evenly across all teammates.

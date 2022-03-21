@@ -8,8 +8,7 @@ The Sales strategy & operations (Sales Ops) team is responsible for helping our 
 
 ### Members
 
-- [Joe Kirscher](../../../team/index.md#joe-kirscher), Sales Strategy & Operations Manager
-- [Seth Hoover](../../../team/index.md#seth-hoover), Senior Salesforce Administrator
+{{generator:reporting_structure.strategy_operations_manager}}
 
 ### Roles
 

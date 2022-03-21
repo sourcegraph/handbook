@@ -1,1030 +1,788 @@
-- Category: '???'
-  Thing: 'Client - Customer scripts'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'AuthN/AuthZ'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'Cloud SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Multi-tenancy'
-  Type: 'Tech'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Application Architecture'
-  Thing: 'Rate limiting'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Analytics'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Feature flagging / AB testing'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Gating system and license key management'
-  Type: ''
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'RBAC'
-  Type: ''
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Auditlogs'
-  Type: ''
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Caching systems & Queues'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Architecture'
-  Thing: 'Event streaming'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Application Interface'
-  Thing: 'src-cli'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Batch Changes'
-  Domain experts: 'Batch Changes'
-  Slack channels: '#batch-changes'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Mature'
-- Category: 'Application Interface'
-  Thing: 'Browser Extensions'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'Extensibility'
-  Domain experts: ''
-  Slack channels: '#extensibility'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Growth'
-- Category: 'Application Interface'
-  Thing: 'Native Integrations'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'Extensibility'
-  Domain experts: ''
-  Slack channels: '#extensibility'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Mature'
-- Category: 'Application Interface'
-  Thing: 'Editor Extension'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'Extensibility'
-  Domain experts: ''
-  Slack channels: '#extensibility'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Application Interface'
-  Thing: 'Web App'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Client - Core Feature'
-  Thing: 'Diff / commit search'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Search Product'
-  Domain experts: 'Camden Cheek, Rijnard van Tonder'
-  Slack channels: '#search'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Mature'
-- Category: 'Client - Core Feature'
-  Thing: 'Structural search'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Search Product'
-  Domain experts: 'Rijnard van Tonder'
-  Slack channels: '#search'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Mature'
-- Category: 'Client - Table stakes'
-  Thing: 'Admin Experience'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Client - Table stakes'
-  Thing: 'Terms and conditions'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Continuous Integration'
-  Thing: 'CI infra - docker/GKE images, ASG config, etc.'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Delivery?'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Continuous Integration'
-  Thing: 'Buildkite'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Dev Experience'
-  Domain experts: ''
-  Slack channels: '#dev-experience, #buildkite-main'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Continuous Integration'
-  Thing: 'CI service - pipeline gen, monitoring, etc.'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Dev Experience'
-  Domain experts: 'Delivery'
-  Slack channels: '#dev-experience, #buildkite-main'
-  Ownership model: 'Owner'
-  Health: 'Yellow'
-  Product lifecycle: ''
-- Category: 'Continuous Integration'
-  Thing: 'Webpack build config'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: '#frontend-platform'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: ''
-- Category: 'Continuous Integration'
-  Thing: 'Code host QA instances (GitHub, GitLab, BBS)'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: 'Dev Experience'
-  Slack channels: ''
-  Ownership model: 'Not owned'
-  Health: 'Red'
-  Product lifecycle: ''
-- Category: 'Datastore'
-  Thing: 'CodeIntel DB'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Code Intelligence'
-  Domain experts: 'Code Intelligence'
-  Slack channels: '#code-intel'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Mature'
-- Category: 'Datastore'
-  Thing: 'Frontend DB'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Datastore'
-  Thing: 'Database'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Datastore'
-  Thing: 'ETL and data mechanisims'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Datastore'
-  Thing: 'Data warehouse'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Datastore'
-  Thing: 'Data archive'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Dependency'
-  Thing: 'Zoekt'
-  Type: 'Tech'
-  Org: 'Code Graph'
-  Team: 'Search Core'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Deployments'
-  Thing: 'Deployment methods'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Deployments'
-  Thing: 'Enterprise deployments'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Deployments'
-  Thing: 'Deployment documentation'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Deployments'
-  Thing: 'Orchestration: Helm, Kustomize, Teraform'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'sg tool'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Batch Changes/Dev Ex'
-  Domain experts: 'Thorsten, Erik Seliger'
-  Slack channels: '#dev-experience'
-  Ownership model: 'Caretaker'
-  Health: 'Green'
-  Product lifecycle: 'Introduction'
-- Category: 'Developer Experience'
-  Thing: 'Wildcard component library'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: '#frontend-platform, #component-system-updates'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Introduction'
-- Category: 'Developer Experience'
-  Thing: 'Frontend coding standards (TS, HTML, CSS)'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: '#frontend-platform'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'Frontend testing libraries'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: '#frontend-platform'
-  Ownership model: 'Caretaker'
-  Health: 'Yellow'
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'CI tooling'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'Testing infrastructure and tooling'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'Backend testing libraries'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'Observability standards and tooling'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'Analytics libs and tooling'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'API standards'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Developer Experience'
-  Thing: 'Common libs'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'DevOps'
-  Thing: 'Alerting and monitoring'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Google Cloud Platform'
-  Thing: 'GCP - Test environments'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Delivery'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Google Cloud Platform'
-  Thing: 'GCP - Managed Instances'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Delivery'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Google Cloud Platform'
-  Thing: 'GCP - Sourcegraph.com'
-  Type: 'Tech'
-  Org: 'Cloud'
-  Team: 'DevOps'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Google Cloud Platform'
-  Thing: 'GCP - Permissions'
-  Type: 'Tech'
-  Org: 'Cloud'
-  Team: 'Security'
-  Domain experts: ''
-  Slack channels: '#security'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: ''
-- Category: 'Infrastructure'
-  Thing: 'DNS'
-  Type: 'Tech'
-  Org: 'Enablement'
-  Team: 'Delivery'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: 'Caretaker'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Infrastructure'
-  Thing: 'Orchestration: Infrastructure as Code'
-  Type: 'Tech'
-  Org: 'Cloud'
-  Team: 'Cloud Devops'
-  Domain experts: ''
-  Slack channels: '#cloud-devops, #dev-ops'
-  Ownership model: 'Caretaker'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Infrastructure'
-  Thing: 'Networking ingress/egress'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Infrastructure'
-  Thing: 'CDN (Cloudflare)'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'WAF (Cloudflare)'
-  Type: 'Tech'
-  Org: 'Cloud'
-  Team: 'Security'
-  Domain experts: ''
-  Slack channels: '#security'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Introduction'
-- Category: 'Security & Compliance'
-  Thing: 'Compliance'
-  Type: 'Tech'
-  Org: 'Cloud'
-  Team: 'Security'
-  Domain experts: ''
-  Slack channels: '#security'
-  Ownership model: 'Caretaker'
-  Health: 'Green'
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'Application security'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'Security automation'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'Security research'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'External security comms'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'Red team (offensive) / pen testing'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'Security incident response (SIRT)'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: '3rd party security vendor relationships'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: 'Customer risk management'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Security & Compliance'
-  Thing: '3rd party risk management'
-  Type: ''
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Syntax Highlighter'
-  Type: 'Product'
-  Org: 'Code Graph?'
-  Team: 'Code Intel?'
-  Domain experts: 'Stephen Gutekanst'
-  Slack channels: '?'
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Blob storage'
-  Type: 'Tech'
-  Org: 'Code Graph'
-  Team: 'Code Intelligence'
-  Domain experts: ''
-  Slack channels: '#code-intel'
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Executors'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Code Intelligence/Batch Changes'
-  Domain experts: 'Code Intelligence, Batch Changes'
-  Slack channels: '#code-intel, #batch-changes'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Introduction'
-- Category: 'Sub-system'
-  Thing: 'Repo updater'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Repo Management'
-  Domain experts: ''
-  Slack channels: '#repo-management'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Decline'
-- Category: 'Sub-system'
-  Thing: 'Gitserver Service'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Repo Management'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Code host syncing (Github, Gitlab, Bitbucket)'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Repo Management'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Search indexing'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Search Core'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: 'Growth'
-- Category: 'Sub-system'
-  Thing: 'Searcher'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Search Core'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Frontend service'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Redis'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'Github Proxy Service'
-  Type: 'Tech'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'GraphQL API'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Sub-system'
-  Thing: 'CVS import tool'
-  Type: 'Tech'
-  Org: 'Code Graph'
-  Team: 'Batch Changes'
-  Domain experts: 'Adam Harvey'
-  Slack channels: '#tmp-cvs-support'
-  Ownership model: 'Caretaker'
-  Health: 'Yellow'
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Add-on Feature'
-  Thing: 'Web App - Batch changes'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Batch Changes'
-  Domain experts: ''
-  Slack channels: '#batch-changes'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Add-on Feature'
-  Thing: 'Web App - Code Insights'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Code Insights'
-  Domain experts: ''
-  Slack channels: '#code-insights'
-  Ownership model: 'Owner'
-  Health: 'Green'
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Add-on Feature'
-  Thing: 'Web App - Extensions registry'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'Extensibility'
-  Domain experts: ''
-  Slack channels: '#extensibility'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Add-on Feature'
-  Thing: 'Sourcegraph Extensions'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'Extensibility'
-  Domain experts: ''
-  Slack channels: '#extensibility'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Growth'
-- Category: 'Web App - Add-on Feature'
-  Thing: 'Web App - Code monitoring'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Search Product'
-  Domain experts: ''
-  Slack channels: '#search'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Billing'
-  Thing: 'Subscription Management'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Billing'
-  Thing: 'Pricing and packeging'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Billing'
-  Thing: 'Usage reporting / entitlements limits'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Billing'
-  Thing: 'Payments / Billing'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Billing'
-  Thing: 'On-prem licencing model'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'Settings page'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: '#frontend-platform'
-  Ownership model: 'Caretaker'
-  Health: 'Yellow'
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'Feedback prompts'
-  Type: 'Product'
-  Org: 'Enablement'
-  Team: 'Frontend Platform'
-  Domain experts: ''
-  Slack channels: '#frontend-platform'
-  Ownership model: 'Caretaker'
-  Health: 'Green'
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'Organisations'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Core Feature'
-  Thing: 'User profile / settings'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Mature'
-- Category: 'Web App - Core Feature'
-  Thing: 'Sign up flow'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Mature'
-- Category: 'Web App - Core Feature'
-  Thing: 'Post sign up / onboarding flow'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Core Feature'
-  Thing: 'User notifications'
-  Type: 'Product'
-  Org: 'Cloud'
-  Team: 'SaaS'
-  Domain experts: ''
-  Slack channels: '#cloud-saas'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: 'Introduction'
-- Category: 'Web App - Core Feature'
-  Thing: 'Homepage'
-  Type: 'Product'
-  Org: ''
-  Team: 'Search Product'
-  Domain experts: ''
-  Slack channels: '#search'
-  Ownership model: 'Caretaker'
-  Health: 'Green'
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'Code search'
-  Type: 'Product'
-  Org: 'Code Graph'
-  Team: 'Search Product'
-  Domain experts: ''
-  Slack channels: '#search'
-  Ownership model: 'Owner'
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'Repository page'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'File tree'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'File blob'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
-- Category: 'Web App - Core Feature'
-  Thing: 'Webhooks'
-  Type: 'Product'
-  Org: ''
-  Team: ''
-  Domain experts: ''
-  Slack channels: ''
-  Ownership model: ''
-  Health: ''
-  Product lifecycle: ''
+# yaml-language-server: $schema=../schema/engineering_ownership.schema.json
+
+client_customer_scripts:
+  category: Unknown
+  title: Client - Customer scripts
+
+authn_authz:
+  category: Application Architecture
+  title: AuthN/AuthZ
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+
+multi_tenancy:
+  category: Application Architecture
+  title: Multi-tenancy
+  type: Tech
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+rate_limiting:
+  category: Application Architecture
+  title: Rate limiting
+
+analytics:
+  category: Application Architecture
+  title: Analytics
+
+feature_flagging_ab_testing:
+  category: Application Architecture
+  title: Feature flagging / AB testing
+
+gating_system_license_key_management:
+  category: Application Architecture
+  title: Gating system and license key management
+  product_org: cloud
+  product_team: cloud_saas
+
+rbac:
+  category: Application Architecture
+  title: RBAC
+  product_org: cloud
+  product_team: cloud_saas
+
+audit_logs:
+  category: Application Architecture
+  title: Auditlogs
+  product_org: cloud
+  product_team: cloud_saas
+
+caching_system_queues:
+  category: Application Architecture
+  title: Caching systems & Queues
+
+event_streaming:
+  category: Application Architecture
+  title: Event streaming
+
+cloud_kms_encryption:
+  category: Application Architecture
+  title: Cloud KMS encryption
+  type: Tech
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+
+src_cli:
+  category: Application Interface
+  title: src-cli
+  type: Product
+  product_org: code_graph
+  product_team: batch_changes
+  domain_experts: Batch Changes
+  slack_channels: '#batch-changes'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Mature
+
+browser_extensions:
+  category: Application Interface
+  title: Browser Extensions
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  slack_channels: '#growth-and-integrations'
+  ownership_model: Owner
+  product_lifecycle: Growth
+
+native_integrations:
+  category: Application Interface
+  title: Native Integrations
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  slack_channels: '#growth-and-integrations'
+  ownership_model: Owner
+  product_lifecycle: Mature
+
+editor_extension:
+  category: Application Interface
+  title: Editor Extension
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  slack_channels: '#growth-and-integrations'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+web_app:
+  category: Application Interface
+  title: Web App
+  type: Product
+  product_org: enablement
+  product_team: frontend_platform
+  ownership_model: Owner
+
+resource_estimator:
+  category: Application Interface
+  title: Resource Estimator
+  type: Product
+  product_org: cloud
+  product_team: delivery
+  ownership_model: Owner
+
+diff_commit_search:
+  category: Client - Core Feature
+  title: Diff / commit search
+  type: Product
+  product_org: code_graph
+  product_team: search_product
+  domain_experts: Camden Cheek, Rijnard van Tonder
+  slack_channels: '#search'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Mature
+
+structural_search:
+  category: Client - Core Feature
+  title: Structural search
+  type: Product
+  product_org: code_graph
+  product_team: search_product
+  domain_experts: Rijnard van Tonder
+  slack_channels: '#search'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Mature
+
+admin_experience:
+  category: Client - Table stakes
+  title: Admin Experience
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+
+terms_conditions:
+  category: Client - Table stakes
+  title: Terms and conditions
+  type: Product
+
+ci_infra:
+  category: Continuous Integration
+  title: CI infra - Docker/GKE images, ASG config, etc.
+  type: Tech
+  product_org: enablement
+  product_team: devops
+
+buildkite:
+  category: Continuous Integration
+  title: Buildkite - agents, agent images, and agent infrastructure
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  slack_channels: '#dev-experience, #buildkite-main'
+  ownership_model: Owner
+
+ci_service:
+  category: Continuous Integration
+  title: CI service - pipeline gen, tools, monitoring, etc.
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  slack_channels: '#dev-experience, #buildkite-main'
+  ownership_model: Owner
+  health: Yellow
+
+webpack_build_config:
+  category: Continuous Integration
+  title: Webpack build config
+  type: Tech
+  product_org: enablement
+  product_team: frontend_platform
+  slack_channels: '#frontend-platform'
+  ownership_model: Owner
+  health: Green
+
+code_host_qa:
+  category: Continuous Integration
+  title: Code host QA instances (GitHub, GitLab, Bitbucket Server)
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  domain_experts: Dev Experience
+  slack_channels: '#dev-experience'
+  ownership_model: Owner
+  health: Red
+
+codeintel_db:
+  category: Datastore
+  title: CodeIntel DB
+  type: Product
+  product_org: code_graph
+  product_team: code_intelligence
+  domain_experts: Code Intelligence
+  slack_channels: '#code-intel'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Mature
+
+frontend_db:
+  category: Datastore
+  title: Frontend DB
+  type: Product
+
+database:
+  category: Datastore
+  title: Database
+  type: Tech
+
+etl_data_mechanisms:
+  category: Datastore
+  title: ETL and data mechanisims
+  type: Tech
+
+data_warehouse:
+  category: Datastore
+  title: Data warehouse
+  type: Tech
+
+data_archive:
+  category: Datastore
+  title: Data archive
+  type: Tech
+
+zoekt:
+  category: Dependency
+  title: Zoekt
+  type: Tech
+  product_org: code_graph
+  product_team: search_core
+  ownership_model: Owner
+
+deployment_methods:
+  category: Deployments
+  title: Deployment methods
+  type: Tech
+
+enterprise_deployments:
+  category: Deployments
+  title: Enterprise deployments
+  type: Tech
+
+deployment_documentation:
+  category: Deployments
+  title: Deployment documentation
+  type: Tech
+
+orchestration:
+  category: Deployments
+  title: Orchestration - Helm, Kustomize, Teraform
+  type: Tech
+
+sg_tool:
+  category: Developer Experience
+  title: sg tool
+  type: Product
+  product_org: code_graph
+  product_team: dev_experience
+  domain_experts: Thorsten, Erik Seliger
+  slack_channels: '#dev-experience'
+  ownership_model: Caretaker
+  health: Green
+  product_lifecycle: Introduction
+
+wildcard_component_library:
+  category: Developer Experience
+  title: Wildcard component library
+  type: Product
+  product_org: enablement
+  product_team: frontend_platform
+  slack_channels: '#frontend-platform, #component-system-updates'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Introduction
+
+frontend_coding_standards:
+  category: Developer Experience
+  title: Frontend coding standards (TypeScript, HTML, CSS)
+  type: Tech
+  product_org: enablement
+  product_team: frontend_platform
+  slack_channels: '#frontend-platform'
+  ownership_model: Owner
+  health: Green
+
+frontend_testing_libraries:
+  category: Developer Experience
+  title: Frontend testing libraries
+  type: Tech
+  product_org: enablement
+  product_team: frontend_platform
+  slack_channels: '#frontend-platform'
+  ownership_model: Caretaker
+  health: Yellow
+
+ci_tooling:
+  category: Developer Experience
+  title: CI tooling
+  type: Tech
+
+testing_infra_tooling:
+  category: Developer Experience
+  title: Testing infrastructure and tooling
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  slack_channels: '#dev-experience'
+  ownership_model: Caretaker
+
+backend_testing_libraries:
+  category: Developer Experience
+  title: Backend testing libraries
+  type: Tech
+
+oberservability:
+  category: Developer Experience
+  title: Observability standards and tooling
+  type: Tech
+
+analytics_libs_tooling:
+  category: Developer Experience
+  title: Analytics libs and tooling
+  type: Tech
+
+api_standards:
+  category: Developer Experience
+  title: API standards
+  type: Tech
+
+common_libs:
+  category: Developer Experience
+  title: Common libs
+  type: Tech
+
+alerting_monitoring:
+  category: DevOps
+  title: Alerting and monitoring
+  type: Tech
+
+gcp_test_envs:
+  category: Google Cloud Platform
+  title: GCP - Test environments
+  type: Tech
+  product_org: enablement
+  product_team: devops
+
+gcp_managed_instances:
+  category: Google Cloud Platform
+  title: GCP - Managed Instances
+  type: Tech
+  product_org: enablement
+  product_team: devops
+
+gcp_sourcegraph_com:
+  category: Google Cloud Platform
+  title: GCP - Sourcegraph.com
+  type: Tech
+  product_org: cloud
+  product_team: devops
+
+gcp_permissions:
+  category: Google Cloud Platform
+  title: GCP - Permissions
+  type: Tech
+  product_org: cloud
+  product_team: security
+  slack_channels: '#security'
+  ownership_model: Owner
+  health: Green
+
+dns:
+  category: Infrastructure
+  title: DNS
+  type: Tech
+  product_org: enablement
+  product_team: devops
+  ownership_model: Caretaker
+
+infrastructure_as_code:
+  category: Infrastructure
+  title: Orchestration - Infrastructure as Code
+  type: Tech
+  product_org: cloud
+  product_team: devops
+  slack_channels: '#cloud-devops, #dev-ops'
+  ownership_model: Caretaker
+
+network_ingress_egress:
+  category: Infrastructure
+  title: Networking ingress/egress
+
+cdn:
+  category: Infrastructure
+  title: CDN (Cloudflare)
+
+waf:
+  category: Security & Compliance
+  title: WAF (Cloudflare)
+  type: Tech
+  product_org: cloud
+  product_team: security
+  slack_channels: '#security'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Introduction
+
+compliance:
+  category: Security & Compliance
+  title: Compliance
+  type: Tech
+  product_org: cloud
+  product_team: security
+  slack_channels: '#security'
+  ownership_model: Caretaker
+  health: Green
+
+application_security:
+  category: Security & Compliance
+  title: Application security
+
+security_automation:
+  category: Security & Compliance
+  title: Security automation
+
+security_research:
+  category: Security & Compliance
+  title: Security research
+
+external_security_comms:
+  category: Security & Compliance
+  title: External security comms
+
+red_team_pen_testing:
+  category: Security & Compliance
+  title: Red team (offensive) / pen testing
+
+security_incident_response:
+  category: Security & Compliance
+  title: Security incident response (SIRT)
+
+third_party_security_vendor_relationships:
+  category: Security & Compliance
+  title: 3rd party security vendor relationships
+
+customer_risk_management:
+  category: Security & Compliance
+  title: Customer risk management
+
+third_party_risk_management:
+  category: Security & Compliance
+  title: 3rd party risk management
+
+syntax_highlighter:
+  category: Sub-system
+  title: Syntax Highlighter
+  type: Product
+  product_org: code_graph
+  product_team: code_intelligence
+  domain_experts: Stephen Gutekanst
+
+blob_storage:
+  category: Sub-system
+  title: Blob storage
+  type: Tech
+  product_org: code_graph
+  product_team: code_intelligence
+  slack_channels: '#code-intel'
+
+executors:
+  category: Sub-system
+  title: Executors
+  type: Product
+  product_org: code_graph
+  product_team: code_intelligence
+  domain_experts: Code Intelligence, Batch Changes
+  slack_channels: '#code-intel, #batch-changes'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Introduction
+
+repo_updater:
+  category: Sub-system
+  title: Repo updater
+  type: Product
+  product_org: enablement
+  product_team: repo_management
+  slack_channels: '#repo-management'
+  ownership_model: Owner
+  product_lifecycle: Decline
+
+gitserver_service:
+  category: Sub-system
+  title: Gitserver Service
+  type: Product
+  product_org: enablement
+  product_team: repo_management
+  slack_channels: '#repo-management'
+  ownership_model: Owner
+
+code_host_syncing:
+  category: Sub-system
+  title: Code host syncing (GitHub, GitLab, Bitbucket Server)
+  type: Product
+  product_org: enablement
+  product_team: repo_management
+  slack_channels: '#repo-management'
+  ownership_model: Owner
+
+search_indexing:
+  category: Sub-system
+  title: Search indexing
+  type: Product
+  product_org: code_graph
+  product_team: search_core
+  product_lifecycle: Growth
+
+searcher:
+  category: Sub-system
+  title: Searcher
+  type: Product
+  product_org: code_graph
+  product_team: search_core
+
+frontend_service:
+  category: Sub-system
+  title: Frontend service
+  type: Product
+
+redis:
+  category: Sub-system
+  title: Redis
+  type: Tech
+
+github_proxy_service:
+  category: Sub-system
+  title: Github Proxy Service
+  type: Tech
+
+graphql_api:
+  category: Sub-system
+  title: GraphQL API
+  type: Product
+
+cvs_import_tool:
+  category: Sub-system
+  title: CVS import tool
+  type: Tech
+  product_org: code_graph
+  product_team: batch_changes
+  domain_experts: Adam Harvey
+  slack_channels: '#tmp-cvs-support'
+  ownership_model: Caretaker
+  health: Yellow
+  product_lifecycle: Introduction
+
+batch_changes:
+  category: Web App - Add-on Feature
+  title: Web App - Batch changes
+  type: Product
+  product_org: code_graph
+  product_team: batch_changes
+  slack_channels: '#batch-changes'
+  ownership_model: Owner
+
+code_insights:
+  category: Web App - Add-on Feature
+  title: Web App - Code Insights
+  type: Product
+  product_org: code_graph
+  product_team: code_insights
+  slack_channels: '#code-insights'
+  ownership_model: Owner
+  health: Green
+  product_lifecycle: Introduction
+
+extensions_registry:
+  category: Web App - Add-on Feature
+  title: Web App - Extensions registry
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  slack_channels: '#growth-and-integrations'
+  ownership_model: Owner
+
+extensions:
+  category: Web App - Add-on Feature
+  title: Sourcegraph Extensions
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  slack_channels: '#growth-and-integrations'
+  ownership_model: Owner
+  product_lifecycle: Growth
+
+code_monitoring:
+  category: Web App - Add-on Feature
+  title: Web App - Code monitoring
+  type: Product
+  product_org: code_graph
+  product_team: search_product
+  slack_channels: '#search'
+  ownership_model: Owner
+
+subscription_management:
+  category: Web App - Billing
+  title: Subscription Management
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+pricing_packaging:
+  category: Web App - Billing
+  title: Pricing and packeging
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+usage_reporting_entitlements:
+  category: Web App - Billing
+  title: Usage reporting / entitlements limits
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+payments_billing:
+  category: Web App - Billing
+  title: Payments / Billing
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+on_prem_licensing:
+  category: Web App - Billing
+  title: On-prem licencing model
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+
+settings_page:
+  category: Web App - Core Feature
+  title: Settings page
+  type: Product
+  product_org: enablement
+  product_team: frontend_platform
+  slack_channels: '#frontend-platform'
+  ownership_model: Caretaker
+  health: Yellow
+
+feedback_prompts:
+  category: Web App - Core Feature
+  title: Feedback prompts
+  type: Product
+  product_org: enablement
+  product_team: frontend_platform
+  slack_channels: '#frontend-platform'
+  ownership_model: Caretaker
+  health: Green
+
+organisations:
+  category: Web App - Core Feature
+  title: Organisations
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+user_profile_settings:
+  category: Web App - Core Feature
+  title: User profile / settings
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Mature
+
+signup_flow:
+  category: Web App - Core Feature
+  title: Sign up flow
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  ownership_model: Owner
+  product_lifecycle: Mature
+
+onboarding_flow:
+  category: Web App - Core Feature
+  title: Post sign up / onboarding flow / product tour / in-product guidance
+  type: Product
+  product_org: cloud
+  product_team: growth_and_integrations
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+user_notifications:
+  category: Web App - Core Feature
+  title: User notifications
+  type: Product
+  product_org: cloud
+  product_team: cloud_saas
+  slack_channels: '#cloud-saas'
+  ownership_model: Owner
+  product_lifecycle: Introduction
+
+homepage:
+  category: Web App - Core Feature
+  title: Homepage
+  type: Product
+  product_team: search_product
+  slack_channels: '#search'
+  ownership_model: Caretaker
+  health: Green
+
+code_search:
+  category: Web App - Core Feature
+  title: Code search
+  type: Product
+  product_org: code_graph
+  product_team: search_product
+  slack_channels: '#search'
+  ownership_model: Owner
+
+open_source_search:
+  category: Web App - Core Feature
+  title: Open Source (OSS) Code Search
+  type: Product
+  product_org: code_graph
+  product_team: search_core
+  slack_channels: '#search'
+  ownership_model: Owner
+
+repository-page:
+  category: Web App - Core Feature
+  title: Repository page
+  type: Product
+
+file_tree:
+  category: Web App - Core Feature
+  title: File tree
+  type: Product
+
+file_blob:
+  category: Web App - Core Feature
+  title: File blob
+  type: Product
+
+webhooks:
+  category: Web App - Core Feature
+  title: Webhooks
+  type: Product

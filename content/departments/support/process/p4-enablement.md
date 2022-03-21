@@ -190,6 +190,70 @@ pass12349ers
 
 (Note the value listed is from the dockerfile arg declaration)
 
-### GUI tools
+## GUI tools
 
 You can download the [Helix Admin Tool](https://www.perforce.com/downloads/administration-tool) which makes it easier to configure users, permissions, etc.
+
+## Testing sub-repo permissions
+
+Sub-repo permissions are still experimental and below are the steps required to start testing them locally against our dogfood perforce server.
+
+Add this configuration to your external service configuration in dev private
+
+```json
+"PERFORCE":
+  [
+    {
+      "p4.port": "perforce.sgdev.org:1666",
+      "p4.user": "admin",
+      "p4.passwd": "REDACTED",
+      "depots": ["//test-perms/"],
+      "repositoryPathPattern": "perforce/{depot}",
+      "authorization": { "subRepoPermissions": true },
+    },
+  ]
+```
+
+You can get the `P4.passwd` token above from running `p4 -u admin login -p -a` using the admin password from 1password. It expires every day so you’ll need to regenerate it occasionally.
+
+Updated your local SG user to include the verified e-mail address of one of the users configured on the dogfood instance, for example `alice@perforce.sgdev.org`. Alice is a user in the our dogfood instance with permissions set against the `//test-perms` instance.
+
+_NOTE_: Don’t modify the permissions in Perforce since they are used for integration testing.
+
+You'll also need Perforce and sub-repo permissions enabled in your site config under the `experimentalFeatures` section:
+
+```json
+"experimentalFeatures": {
+  "perforce": "enabled",
+  "subRepoPermissions": { "enabled": true }
+}
+```
+
+In order to not have to wait for a permissions sync to complete, you can force one with this mutation:
+
+```graphql
+mutation {
+  scheduleUserPermissionsSync(user: "YOUR_ID") {
+    alwaysNil
+  }
+}
+```
+
+Your can find your user id with this query:
+
+```graphql
+query {
+  currentUser {
+    id
+  }
+}
+```
+
+Once the permissions sync has completed you should see something like this in your local database:
+
+```
+sourcegraph=# select repo_id, user_id, path_includes, path_excludes from sub_repo_permissions;
+ repo_id | user_id |   path_includes   |       path_excludes
+---------+---------+-------------------+----------------------------
+     238 |       1 | {**} | {Security/**}
+```

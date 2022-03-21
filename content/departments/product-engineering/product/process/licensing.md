@@ -11,7 +11,7 @@ Sourcegraph's software [license](https://sourcegraph.com/github.com/sourcegraph/
 
 ### Sourcegraph OSS
 
-As described [in the open source FAQ](../../../../company-info-and-process/community/faq.md#is-all-of-sourcegraph-open-source), users can use Sourcegrah OSS without agreeing to any enterprise licensing terms by building their own server image. If they do so, no code from our enterprise licensed features will be included in their Sourcegraph deployment.
+As described [in the open source FAQ](../../../../company-info-and-process/community/faq.md#is-all-of-sourcegraph-open-source), users can use Sourcegraph OSS without agreeing to any enterprise licensing terms by building their own server image. If they do so, no code from our enterprise licensed features will be included in their Sourcegraph deployment.
 
 In practice, Sourcegraph OSS involves:
 
@@ -35,7 +35,7 @@ If someone is talking to Sales or CE and says they’re using the OSS version, t
 
 ### Sourcegraph Enterprise
 
-Most users, however, will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images — with or without a paid plan — are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
+Most users, however, will use our prebuilt images, which include code licensed under our [enterprise license](https://github.com/sourcegraph/sourcegraph/blob/main/LICENSE.enterprise), and require agreeing to our [terms of service](https://about.sourcegraph.com/terms/) and [privacy policy](https://about.sourcegraph.com/privacy). Users who use these images—with or without a paid plan—are agreeing to be bound by the terms of the enterprise license in addition to the terms of the Apache License.
 
 If someone follows the install instructions for our Docker, Docker Compose, or Kubernetes options ([reference](https://docs.sourcegraph.com/admin/install)), they will install Sourcegraph Enterprise.
 
@@ -67,7 +67,7 @@ To prevent confusion, avoid using "License" or "Free user". Instead, say:
 - a **license key** for the **Team/Enterprise plan** of **Sourcegraph Enterprise**
 - **Sourcegraph Cloud** is a SaaS offering of Sourcegraph Enterprise, one of the many ways to [deploy Sourcegraph](../../../ce/onboarding/deployment-methods.md)
 
-The only case where "license" alone is appropriate is when someone asks "What's the license of Sourcegraph?". The answer to that is Apache 2.0 for Sourcegraph OSS, and the enteprise license for Sourcegraph Enterprise.
+The only case where "license" alone is appropriate is when someone asks "What's the license of Sourcegraph?". The answer to that is Apache 2.0 for Sourcegraph OSS, and the enterprise license for Sourcegraph Enterprise.
 
 ## Summary
 

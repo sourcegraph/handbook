@@ -20,7 +20,7 @@ We believe:
 
 ## How we set goals
 
-- For annual planning, instead of OKRs (which imply an unrealistic level of certainty for the next year), we will set a small number of goals with a clear primary one and a written 1-3-5-year vision.
+- For annual planning, instead of OKRs (which imply an unrealistic level of certainty for the next year), we will set a small number of goals with a clear primary one and a written 1–3–5-year vision.
 - We set company-wide OKRs for each quarter.
 - Also, each team sets its own OKRs for each quarter.
 - Quarterly OKRs are set just before the quarter starts. (We don't try to set them too far in advance.)
@@ -43,7 +43,7 @@ To make OKRs across the company easy to understand, we have a few rules:
 
 - Objectives need to be concise and memorable. It's like a title, not a definition.
   - If an objective is precise, it's probably too long. Put the precision in the key results.
-- Each objective can have 1-5 key results.
+- Each objective can have 1–5 key results.
   - A key result is how you know if you've achieved the objective.
   - Avoid tasks as key results (such as `Implement performance review process`). Find a measurable business outcome instead, or frame the result in terms of acceptance or participation (`All team members participate in the performance review process`).
 
@@ -57,7 +57,7 @@ See the most recent OKRs doc for good, relevant examples.
 1. Pick goals where failure would be painful.
 1. Pick goals where you can influence the outcome. Avoid using a lagging indicator as a goal.
 1. Set key results to be ambitious but achievable, so that they convey your aims and what you could achieve if things go well.
-   - Achieving 90-100% is on track. 75-90% is falling behind. Less than 75% is at risk or missing.
+   - Achieving 90–100% is on track. 75–90% is falling behind. Less than 75% is at risk or missing.
    - Goals are not the 99.99% likelihood outcome or the 1% moonshot outcome.
 1. Goals are for communication and alignment (everyone knowing what's important, why, and how it'll get done), **not** for estimation, scheduling, or promising/committing.
    - Setting a goal for _X_ is not the same as _committing_ to shipping _X_ to customers. We are much more conservative in setting expectations with customers about firm ship dates than we are in setting goals.

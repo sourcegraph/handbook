@@ -4,6 +4,8 @@ We ask candidates to complete a time-bound asynchronous code review exercise so 
 
 Why? Read the [FAQ](#FAQ).
 
+👉 _Sourcegraph teammates: see the [internal documentation for this exercise](https://github.com/sourcegraph/interviews/tree/master/engineering/code-review)._
+
 ## Frontend code review exercise
 
 We designed this exercise to measure your understanding of HTML/CSS/React/TypeScript best-practices.

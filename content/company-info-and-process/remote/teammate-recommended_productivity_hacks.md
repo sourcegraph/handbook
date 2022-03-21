@@ -30,8 +30,8 @@ You might think of this page as a remote version of "the clever workflows and sh
 - **Disable their WYSIWYG editor if you prefer markdown.** Go to Preferences > Advanced > Check "Format messages with markup."
 - **Show only unread channels in your channel sections.** Right-click on a channel section or the "Channels" header, then select "Show" > "Unread channels only."
 - **Set up [Slack keywords](https://slack.com/slack-tips/get-notified-when-someone-mentions-a-topic-you-care-about) to get notified about relevant threads you aren't tagged in.** Go to Preferences > Notifications > My keywords and add your list of keywords separated by commas. You'll get notified whenever someone uses them.
-- **Use [Slackbot's reminder feature](https://slack.com/help/articles/208423427-Set-a-reminder#set-a-reminder-for-a-message) to get reminded of threads later on without leaving them as unread** Hover on any Slack message > Select "More actions" in the tool bar > Select "Remind me about this" and choose when you'd like to be reminded. Slackbot will keep your pending messages backlog, you can mark items as Complete when you've gone through them.
-- **Search for Slack channel.** Anyone else got too many Slack channels & can't find the one you want? Command K lets you search for Slack channel by name.
+- **Use [Slackbot's reminder feature](https://slack.com/help/articles/208423427-Set-a-reminder#set-a-reminder-for-a-message) to get reminded of threads later on without leaving them as unread** Hover on any Slack message > Select "More actions" in the toolbar > Select "Remind me about this" and choose when you'd like to be reminded. Slackbot will keep your pending messages backlog, you can mark items as Complete when you've gone through them.
+- **Search for Slack channel.** Anyone else got too many Slack channels and can't find the one you want? Command K lets you search for a Slack channel by name.
 
 ### Popular app integrations
 
@@ -61,11 +61,11 @@ You might think of this page as a remote version of "the clever workflows and sh
 - [Kap](https://getkap.co/) open source screen recorder for MacOS
 - [CleanShot X](https://cleanshot.com/) is a paid but incredibly good screenshot/GIF/video recording tool for macOS.
 - [Screenflow](http://www.telestream.net/screenflow/overview.htm) is a paid video recording product that allows you to record your screen and webcam at the same time.
-- [Clocker](https://apps.apple.com/us/app/clocker/id1056643111?mt=12) for Mac makes it easy to see multiple timezones from your clock.
-- [Alfred](https://www.alfredapp.com/) is a macOS productivity tool that allows you to set up shortcuts via hotkeys or keywords, create reusable text snippets, build workflows for things you commonly do on your laptop, and has offers a multi-day clipboard history.
+- [Clocker](https://apps.apple.com/us/app/clocker/id1056643111?mt=12) for Mac makes it easy to see multiple time zones from your clock.
+- [Alfred](https://www.alfredapp.com/) is a macOS productivity tool that allows you to set up shortcuts via hotkeys or keywords, create reusable text snippets, build workflows for things you commonly do on your laptop, and offers a multi-day clipboard history.
 
 ## Miscellaneous
 
 - **Learn the keyboard shortcut to pull up your emoji keyboard:** now you can emoji-react places beyond Slack, or use emojis for visual distinction in titles/comments in all your other tools. On Mac it's `command`+`control`+`space`.
-- **Use Lattice to quiz yourself on teammmate faces and names.** Log in to [Lattice](https://sourcegraph.latticehq.com/) and scroll to the bottom of the page; on the left, click [Play Office Party](https://sourcegraph.latticehq.com/office-party) to run through a quiz to see how many faces you can match to names.
+- **Use Lattice to quiz yourself on teammate faces and names.** Log in to [Lattice](https://sourcegraph.latticehq.com/) and scroll to the bottom of the page; on the left, click [Play Office Party](https://sourcegraph.latticehq.com/office-party) to run through a quiz to see how many faces you can match to names.
 - **Use these keyboard shortcuts to reduce mouse clicks. Quickly close tabs or programs, and open new tabs in a program.** On Mac `command`+`t` will open a new tab in web browsers, many IDE's, and Mac terminal. On Mac `command`+`w` will close the current existing tab.

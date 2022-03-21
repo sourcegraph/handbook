@@ -12,30 +12,16 @@ As an all-remote company, we want everyone to feel included and connected, regar
 
 ## Anniversaries
 
-We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! You can easily access all teammate anniversaries by checking your Bamboo HR homepage.
+We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
 
-**Here are our best practices for celebrating your teammate’s anniversaries:**
+To celebrate anniversaries, managers can send gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
-- **Starting January 2022** managers can send Loop & Tie collections to teammates on their anniversary each year. To create a Loop & Tie account, please reach out to Fabiana Castellanos at fabiana@sourcegraph.com or brand@sourcegraph.com if Fabiana is not available. **Please note:**
+- Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts\*. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or if Cecily is not available, the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note:**
 
-  - **Through December 2021** People Ops will send a branded Sourcegraph gift to teammates on their anniversary.
-  - There are both US and international Loop & Tie collections, please be mindful to choose the correct collection when sending these out.
-  - As a manager you can choose a different anniversary gift for your direct report as long as it abides by the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
+  - \*Requests for changes or additions to inventory cannot be facilitated at this time. This is being reviewed and updates will be posted!
+  - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
 
-- Managers to create a [Kudoboard](https://www.kudoboard.com/) for their teammate to gather signatures and well wishes in an email deliverable card. We have an annual subscription to Kudoboard. You can find our Sourcegraph credentials in 1Password under Kudoboard or by searching ‘_kudoboard_’ or ‘_birthday_’.
-- When creating the Kudoboard, the format should include:
-
-  - [ ] **Title**: Happy [insert number of year(s)] Anniversary, [first name of teammate]!
-
-  - [ ] **Delivery** **date**: set delivery of the Kudoboard to the day of their anniversary in the morning before work during their time zone. _(This is so they have something nice waiting in their inbox when they start work!)_
-
-- Manager to pass Kudoboard along to the following people:
-
-  - [ ] Immediate team members
-
-  - [ ] Anyone who teammate regularly works with
-
-## Gift amount policy for anniversaries
+### Gift amount policy for anniversaries
 
 Anniversary gifts should not exceed the following amounts per teammate and per year:
 
@@ -49,7 +35,7 @@ Anniversary gifts should not exceed the following amounts per teammate and per y
 
 ## Birthdays
 
-Sourcegraph encourages team members to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If your celebration happens to fall over a weekend please be sure to take an alternate day such as the Friday prior or the Monday after.
+Sourcegraph encourages teammates to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If your celebration happens to fall over a weekend please be sure to take an alternate day such as the Friday prior or the Monday after.
 
 We’d also like to be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will consult their team on an appropriate gift / gift card for the employee and can expense this using Expensify.
 
@@ -72,9 +58,23 @@ _Need a little help on what to get? Here’s a few of our favorite things:_
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
 - [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
-## Gift amount policy for birthdays
+### Gift amount policy for birthdays
 
 Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+
+## Other personal milestones
+
+Other personal milestones such as promotion, marriage, baby announcement, and so forth, can be celebrated at the discretion of teammates. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
+
+## Branded swag
+
+**Internal requests:**
+
+- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. This is being reviewed and updates will be posted! If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
+
+**External requests:**
+
+- Requests for branded swag for external use can be fulfilled by following [these instructions](../../departments/marketing/brand/gifting_guidelines.md#branded-swag) on the Gifting Guidelines page. If you have any questions, please reach out via the [#marketing](https://sourcegraph.slack.com/archives/CNC4YAL1E) channel.
 
 ## Sending gifts via mail
 
@@ -84,4 +84,4 @@ _Happy celebrating!_
 
 ---
 
-For any additional questions, feel free to reach out to *people-ops@sourcegraph.com* or Slack **@people-ops**
+For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel.

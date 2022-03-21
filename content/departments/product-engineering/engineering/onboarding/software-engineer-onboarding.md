@@ -1,6 +1,6 @@
 # Software engineer onboarding
 
-## Weeks 1-3
+## Weeks 1–3
 
 ### Learn about our culture and values
 
@@ -20,10 +20,10 @@ As you're working on these tasks:
 
 - Optimize for learning: your priority is to soak up as much context as possible, not to ship something as fast as possible.
 - Aim to be as incremental as possible:
-  - Open a pull request as soon as you feel like you're ready for feedback or input on your code — you can make it a draft pull request if your code is still a work in progress.
-  - Favour splitting up your work in multiple pull requests every time it makes sense — shipping frequently is important.
+  - Open a pull request as soon as you feel like you're ready for feedback or input on your code—you can make it a draft pull request if your code is still a work in progress.
+  - Favour splitting up your work in multiple pull requests every time it makes sense—shipping frequently is important.
   - Ask yourself what tests are appropriate for the change you're tackling, and add them!
-- If you need help, remember everyone is here to [answer any question](../../../../company-info-and-process/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard) — ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
+- If you need help, remember everyone is here to [answer any question](../../../../company-info-and-process/onboarding/index.md#everyone-is-here-to-support-you-as-you-onboard)—ask for help in your team's channel (or any appropriate channel), and add the answer to our docs or the handbook if you feel like it can help future teammates.
 
 As you complete these tasks, share your accomplishments in #progress 🙂
 
@@ -31,7 +31,7 @@ As you complete these tasks, share your accomplishments in #progress 🙂
 
 Reach out to every member of your direct team, and set up a two-hour pairing session with them. These sessions will be an opportunity to get to know your teammates, understand what they're working on and why, and learn more about our codebase and development flows!
 
-Take the first 20-30 minutes of the session to have an unstructured, introductory chat. Then, start hacking! Your teammate will set up a [live share](https://visualstudio.microsoft.com/services/live-share/) and walk you through what they're currently working on. Ask as many questions as possible, to try to understand:
+Take the first 20–30 minutes of the session to have an unstructured, introductory chat. Then, start hacking! Your teammate will set up a [live share](https://visualstudio.microsoft.com/services/live-share/) and walk you through what they're currently working on. Ask as many questions as possible, to try to understand:
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
@@ -47,10 +47,11 @@ Take the first 20-30 minutes of the session to have an unstructured, introductor
 We have many resources available to help you onboard and gain context:
 
 - Read through our [architecture overview](https://docs.sourcegraph.com/dev/background-information/architecture).
+- To complement the architecture overview docs, watch the [architecture video (10 minutes)](https://www.youtube.com/watch?v=LiBtt1IeqFY).
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../../strategy-goals/goals/index.md).
 - Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
-- Watch this [high-level overview of the Sourcegraph repository on Github](https://drive.google.com/file/d/1Godo2cFIIEBfKg23SOygta1cbSccpICE/view?usp=sharing).
+- Watch this [high-level overview of the Sourcegraph codebase and repositories on Github (13 minutes)](https://www.youtube.com/watch?v=3OewJAaX4KI).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.
   - More concrete documentation and troubleshooting help for when you're running, writing or debugging your first tests can be found in the dev docs page [Testing the Sourcegraph main repo](https://docs.sourcegraph.com/dev/how-to/testing). This is mainly as reference (you don't need to read this all now) but useful information to have in hand.
 - For Frontend Engineers:
@@ -60,7 +61,7 @@ We have many resources available to help you onboard and gain context:
   - Read our [Styling UI](https://docs.sourcegraph.com/dev/background-information/web/styling) documentation to understand our CSS stack and the constraints we work within when styling UI. We highly recommend reading this before you start working on a frontend task, as it will make you more effective.
   - Read our [TypeScript programming patterns](https://docs.sourcegraph.com/dev/background-information/languages/typescript#typescript-programming-patterns) to understand what TypeScript patterns we follow that are not easily detected with lint rules.
 
-## Weeks 4-6
+## Weeks 4–6
 
 ### Reading
 
@@ -79,8 +80,8 @@ By now, you'll have shipped multiple improvements, paired with all members of yo
 - Discuss your plan with the team and your manager.
 - Get hacking!
 
-At Sourcegraph, you'll be expected to own the problems your team is solving, and work with the team to define solutions and plan your work — we think it's important that you start doing this early on!
+At Sourcegraph, you'll be expected to own the problems your team is solving, and work with the team to define solutions and plan your work—we think it's important that you start doing this early on!
 
 ## Give feedback on your onboarding
 
-You should be discussing your onboarding progress every week with your manager. At the end of week 6 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully — your answers will be very important to make sure our onboarding process is even better for future hires!
+You should be discussing your onboarding progress every week with your manager. At the end of week 6 at Sourcegraph, spend one hour summarizing your onboarding experience (what has gone well, what was challenging, what would help you moving forward). Write down your thoughts and discuss them in your next 1-1 with your manager. Take your time to answer thoughtfully—your answers will be very important to make sure our onboarding process is even better for future hires!

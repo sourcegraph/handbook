@@ -68,7 +68,7 @@ We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linke
 - [Big Code Survey](https://info.sourcegraph.com/emergence-of-big-code-2020-survey) (PDF download - served to individual developers/managers at Target Accounts)
 - [Better onboarding](https://about.sourcegraph.com/blog/better-onboarding-how-to-prevent-codebase-overwhelm/) (blog post - served to individual developers at Target Accounts)
 
-Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 0-3.
+Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 0–3.
 
 Details for all the above programs/campaigns can be found in [Google drive](https://docs.google.com/spreadsheets/d/1IQbXQYKkwbGvG0ZN2YNLcfpkHGsbxnyl9EDbd7GXmew/edit?usp=sharing) (internal link only).
 

@@ -8,15 +8,19 @@ Slack is not a [source of truth](index.md#sources-of-truth) which means it shoul
 
 Exceptions:
 
-- #distributioneers retains messages indefinitely because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
+- #security-monitoring retains messages for 5 years for auditing purposes in our security monitoring tooling.
 - #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
-- #feedback retains messages indefinitely because it provides a good source of user testimonials.
-- #engaging-external-engineers retains indefinitely because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn't make sense to try to make this more organized.
-- #sales-prospecting retains indefinitely to support the education of new teammates about how to communicate with customers and prospects.
-- #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages indefinitely to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
-- #sales-resources retains messages indefinitely to serve as a library of quickly evolving sales collateral and tools.
-- All channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages indefinitely to preserve context for support or audit-related purposes.
-- #marketintel retains messages indefinitely to keep a longterm overview of market information around the field of developer tools.
+- #feedback retains messages for 5 years because it provides a good source of user testimonials.
+- #engaging-external-engineers retains for 5 years because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn't make sense to try to make this more organized.
+- #it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
+- #sales-prospecting retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
+- #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
+- #sales-customer channels messages retain for 18 months for historical context on key customers and deal cycles
+- #sales-wins and #sales-losses retains message history for 18 months to share key learnings with our cross functional teams
+- #sales-resources retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
+- All channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages for 5 years to preserve context for support or audit-related purposes.
+- #marketintel retains messages for 5 years to keep a long term overview of market information around the field of developer tools.
+- #seo retains messages for 5 years to keep a record of historical SEO efforts, numbers & screenshots, etc.
 
 [Historical archive of Slack messages prior to 2019-11-09](https://drive.google.com/file/d/1FUbOEsMM4fWRpxymgNHZCAssOPEFDelJ/view?usp=sharing): unzip and open `sourcegraph-slack-archive-to-20191109/index.html` to view. If you consult this, please be sure to add whatever information you learn to a source of truth so we reduce our reliance on this archive.
 
@@ -44,9 +48,10 @@ Private channels will automatically be created for the following categories of c
 - Recruiting: Channels used for discussing specific positions where private candidate feedback and details will be discussed.
 - Management: Channels where managers can communicate about specific private or sensitive team situations.
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
+- Affinity groups: Channels for affinity groups that prefer a private space.
 - Internal: While we strongly encourage that every team keep these public by default and to use our `{$TEAMNAME}-internal` [naming convention](#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step to have one more conversation about why a channel should be made private - ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals' privacy.
 
 ## Send (and read) messages any time
 
@@ -87,6 +92,7 @@ If teams require additional channels they should follow the convention of prefix
 - #handbook - Updates to and discussion of [this handbook](../../index.md)
 - #handbook-updates - Github updates from the Handbook repo.
 - #handbook-announce - Announcement of important changes to the Handbook.
+- #wine-beer-spirits - A place to share stuff about ethanol in its many forms.
 
 ### Employee Resource/Identity
 
@@ -138,14 +144,18 @@ You should also join channels mentioned in [your team's documentation](../../dep
 
 These are some of our social channels. Feel free to whichever calls you.
 
+- #3dprinting - Discussiong and photos about your three-dimensional creations
 - #anime - All things related to anime
 - #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
 - #best-timezone - Hangout channel for the European time zone. GIFs allowed!
+- #bikes - For all your cycling-related conversations and ride photos.
 - #books - Read books recommended by teammates and discuss them.
+- #cars - For all things cars!
 - #chess - For all chess lovers
 - #clothing - Chit-chatting about clothes
 - #coffee - For the love of coffee
 - #cooking - All things cooking and food
+- #desksetup - Discussion about your WFH setup, show off your desk!
 - #fantasyfootball
 - #football-soccer - General banter about the beautiful game ⚽️ (not this one 🏈)
 - #gaming - For all gamers
@@ -153,16 +163,23 @@ These are some of our social channels. Feel free to whichever calls you.
 - #great-bandname - “That’s a great bandname” — all the things we find that would make a great bandname
 - #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
 - #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
+- #knitting - For knitting, crocheting or general yarn enthusiasts
 - #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!
 - #mixology - To talk about the art of making drinks/drinks we enjoy
 - #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.
 - #music - Share your tunes.
 - #nomad-life - For folks who use our async remote culture to travel around, whether just for a few weeks or as a lifestyle
+- #peloton - For conversation around bikes that don't move
 - #pets-of-sourcegraph - Sometimes you need pictures of floof(s) to get through the day.
 - #photography-chat - For photo-takey types
 - #plants-of-sourcegraph - 🌲🌻
+- #seattle-gang - For any Sourcegraphers in, around, and visiting the Seattle area
+- #sourcegraph-cascadia - Hangout channel for everyone in the beautiful region of Cascadia (from northern California to British Columbia)
+- #sourcegraph-latam - Hangout channel for anyone in or from Latin America
 - #side-project - Working on a cool/challenging/fun side project? Tell us all about it here!
 - #ted-talks - Share impactful ted talks here, with a brief description and time of the talk
 - #today-i-learned - Anything you learn or think is fascinating, please share.
 - #trash-tv - For discussing TV and movies, but especially the stuff that's not good.
+- #us-personal-finance - Discussions related to personal finance topics in the US
 - #virtual-coworking - 60 minute sessions to work quietly in tandem
+- #yelling - FOR WHEN YOU NEED A PLACE TO VENT

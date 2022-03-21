@@ -22,7 +22,7 @@ Workplaces are a version of a community. In any community where you want people 
 
 Candidates are brand ambassadors, regardless of whether we hire them or not and candidate experience should be a top priority. We want to ensure we're hiring people who are going to enhance our values, and who believe in them the way that we do. On the flip side, it provides a really great candidate experience and it allows our candidates to truly realize that we don't just put values in our handbook, but we actually live them and breed them.
 
-The Values Interview is also important for the candidate for a couple of reasons. Not only does it give candidates direct exposure to our DNA, our makeup, and why our values are important - it also gives them the opportunity to meet people outside of the respective department for which they're interviewing. For example, if somebody is interviewing for a sales role, they could meet with somebody from the marketing and/or finance team. Not only does the candidate have the opportunity to see that our values are really important, but they also have the opportunity to meet a diverse set of teammates. They have the opportunity to ask why people outside of their respective departments work at Sourcegraph.
+The Values Interview is also important for the candidate for a couple of reasons. Not only does it give candidates direct exposure to our DNA, our makeup, and why our values are important—it also gives them the opportunity to meet people outside of the respective department for which they're interviewing. For example, if somebody is interviewing for a sales role, they could meet with somebody from the marketing and/or finance team. Not only does the candidate have the opportunity to see that our values are really important, but they also have the opportunity to meet a diverse set of teammates. They have the opportunity to ask why people outside of their respective departments work at Sourcegraph.
 
 ## Why is the values interview important to YOU?
 
@@ -48,7 +48,7 @@ You can see more information about our interview stages [here](types_of_intervie
 
 As we all know, interviewing can be stressful. The priority is to develop rapport, get the candidate at ease, and make them feel comfortable. We should ask them how they're doing, make sure they have a glass of water, and answer any initial questions they have. We always want to introduce ourselves and set an agenda.
 
-Sample script: Hi [candidate name], thank you so much for joining us today!  We know you have been through several other stages of the interview process, and everyone has really enjoyed getting to know you thus far.  For the next 30-minutes, we're excited to spend time together discussing our values, which we believe are the principles and beliefs that help us achieve our goals and vision.  We'd like to start with introductions.  We will then ask a series of questions related to our values, and we'll be sure to leave 5-10 minutes at the end for questions from you.  Does this sound good?
+Sample script: Hi [candidate name], thank you so much for joining us today!  We know you have been through several other stages of the interview process, and everyone has really enjoyed getting to know you thus far.  For the next 30-minutes, we're excited to spend time together discussing our values, which we believe are the principles and beliefs that help us achieve our goals and vision.  We'd like to start with introductions.  We will then ask a series of questions related to our values, and we'll be sure to leave 5–10 minutes at the end for questions from you.  Does this sound good?
 
 - 1st interviewer: my name is [name], my role is [position], and I have been at Sourcegraph for [length of time].
 - 2nd interviewer: my name is [name], my role is [position], and I have been at Sourcegraph for [length of time].
@@ -81,7 +81,7 @@ We are in a candidate driven market. Candidates have many different opportunitie
 - We have incredible leadership who set the example for trust and open communication.
 - We have endless growth opportunities and we invest in our employees' professional development.
 
-**Part 4**: Provide feedback
+## Providing feedback
 
 - Please fill out your Greenhouse Scorecard following the interview.
 - To ensure that bias doesn't impact your decision-making, please be sure to fill out your scorecard before discussing with anyone.
@@ -101,13 +101,18 @@ Once the values team has been selected, the Recruiter is responsible for sending
 
 "Hi team! As you know, our [values interview](evaluating_values.md) is critical to ensuring that our new hires embody our values, and we need your help! The two of you have been nominated to serve as the values team for our [role title] opening. I recognize that this is outside of your day-to-day responsibilities, so please let me know if you're willing to participate (and if you're too busy right now, no worries! We can always add you to another team when your schedule allows). If you both agree to opt in, below are some helpful details:
 
-- The two of you will conduct a 30-minute values interview for all [role title] finalists. We anticipate 3-5 total interviews (so this would be a 1.5-2.5 hour commitment) and will be spread out over multiple days.
+- The two of you will conduct a 30-minute values interview for all [role title] finalists. We anticipate 3–5 total interviews (so this would be a 1.5–2.5 hour commitment) and will be spread out over multiple days.
 - One of you will need to opt in as the lead (this person is the one who begins the introduction and asks the first question).
 - [Here](evaluating_values.md) is a resource to help you in the interview.
 - All structured interview questions are listed in your Greenhouse scorecard, found in the interview prep link in your interview calendar invite.
 
 Please let me know if this is something you're both willing to participate in and I'll add you to the interview plan. And if you have any questions or would like to practice in advance of the interview, let me know and I'll send a calendar invite!"
 
-# Resources for candidates
+## Feedback scenarios
 
-Coming soon
+- If both interviewers select `yes` or `strong yes`, no further debrief is needed and we can move forward to offer stage if the Hiring Team is aligned.
+- If one or both interviewer select `no`, but the rest of the interview team is `yes` or `strong yes`, then a debrief is needed and the below steps need to be followed before moving to an offer:
+  - **Step 1**: the Recruiter Slacks the Hiring Manager and the VP Talent that the candidate got a `no` on values. The Recruiter asks the Hiring Manager to review the feedback form and the Brighthire to see if they are aligned with the feedback, or if they would like to investigate further.
+  - Example Slack message: "Hi `Hiring Manager` - I wanted to flag that `candidate name` got a `no` / `neutral` during the values interview. As a next step, would you mind reviewing `this feedback` and `this Brighthire video`? We can then make a final determination whether or not to move forward."
+  - **Step 2**: if the Hiring Manager reviews the feedback and Brighthire and is still interested in moving forward to offer stage, the Hiring Manager sends the below Slack to the values interviewer, the VP Talent, and the Recruiter:
+  - Example Slack message: "Hey team! Thank you so much for interviewing `candidate name`for the values interview.  We know it's outside of your day-to-day responsibilities are are super grateful. We noticed you gave a `no`, so before making a final decision, I wanted to circle back to better understand your score. Essentially, I am wondering if you are a firm `no`, or if you came out of the values interview noticing "yellow flags" that need to be investigated further.  Some questions: 1. What flags do I need to dig in further before making a decision? 2. Do you have any serious concerns in moving forward from a values standpoint?  In other words, if I dig on the flags and feel comfortable moving forward, would you be supportive? Thank you again for taking the time to provide your feedback (which I greatly value) to help me better understand any discrepancies before making a final call!"

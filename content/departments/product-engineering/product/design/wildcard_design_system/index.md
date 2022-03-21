@@ -2,7 +2,7 @@
 
 We use [Wildcard](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0), Sourcegraph’s design system, to create visual design artifacts in Figma. Designers utilize components from Wildcard whenever possible to ensure consistent design across Sourcegraph and efficient development time. We also use [Chromatic](https://www.chromatic.com/library?appId=5f0f381c0e50750022dc6bf7) to manage our storybook.
 
-## Libraries
+## Figma libraries
 
 The [Wildcard Design System](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/Wildcard-Design-System?node-id=891%3A0) is the primary library to use in order to have access to all of our components and styles. The [Helpers and Tooling](https://www.figma.com/file/8qNcDzOXLj1hcOM76WDPN9/%F0%9F%9B%A0Project-Tools?node-id=72%3A20) also contains useful components like redlines and annotation.
 
@@ -12,22 +12,22 @@ Text:
 
 - We use SF Pro for all text. [Download SF Pro](https://drive.google.com/drive/folders/1X1hwQr4lGGVn5BDe4f09q_xRqboQZpsQ) and install it on your system.
   - You may also need the [Figma font installer](https://www.figma.com/downloads/) if you use Figma in the browser instead of on desktop.
-- All text styles are available through Wildcard text styles.
-- The style definitions for our text styles are in the Sticker Sheet.
+- All text styles are available through Wildcard [text styles page](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=5601%3A65477)
 
 Colors:
 
 - There are four groups of colors used in Wildcard: Root, Semantic, Brand, and Open Color (OC).
+  - They can be found on the [colors page](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=5123%3A64178)
 - Of these groups, the Semantic colors are the ones to be used in day-to-day design work.
-- The style defitions for the Root and Semantic color styles are in the Sticker Sheet. The Open Color definitions are in the Colors page.
+  - Semantic colors control things like background colors, borders, links, and input styles
 
-Space:
+Spacing:
 
-- Sourcegraph uses an 8-point grid.
+- Sourcegraph uses an 8-point grid. Modify your [nudge settings](https://help.figma.com/hc/en-us/articles/4404575206295-Set-small-and-big-nudge-values) accordingly!
 
 ## Adding a component
 
-When a new component is required, the designer who uncovered the gap is responsible for expanding Wildcard with the following process:
+When a new component is required, the designer who discovered the gap is responsible for expanding Wildcard with the following process:
 
 - Create component in the Figma file that requires the new component. Preface the name of the component with '\_' so that it is not used while in review
 - Create a proposal frame with the following items:

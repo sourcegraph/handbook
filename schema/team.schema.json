@@ -35,11 +35,8 @@
       },
       "description": {
         "type": "string"
-      },
-      "hide_on_team_page": {
-        "type": "boolean"
       }
     },
-    "required": ["name", "role"]
+    "required": ["name", "role", "reports_to"]
   }
 }

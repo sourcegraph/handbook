@@ -11,7 +11,7 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 - Demonstrating profound compassion for the people with whom our paths cross and the problems/questions we help them solve, meeting them where they are
 - Only asking our customers and teammates things we can’t do or answer ourselves
 - Persistently working toward and/or seeking resolution that works equally for our customers and us (see [an open letter about root cause](process/enablement/root-cause.md) for inspiration)
-- Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication) (see [an open letter about staying a step ahead](process/enablement/step-ahead.md)
+- Staying at least a step ahead (summarizing current status, giving clear next steps, and setting expectations in every communication) (see [an open letter about staying a step ahead](process/enablement/step-ahead.md))
 - Being flexible and open, maintaining a first principles thinking approach, and always confronting and growing past our biases
 - Outgrowing ourselves, the way we work, and continuously improving
 
@@ -21,24 +21,7 @@ For additional context, check out [RFC 274](https://docs.google.com/document/d/1
 
 ## The team
 
-[Virginia Ulrich](../../team/index.md#virginia-ulrich), Head of Customer Support - reporting to Beyang Liu, CTO
-
-- [Brielle Collins](../../team/index.md#brielle-collins), Manager
-  - [Gabe Torres](../../team/index.md#team#gabe-torres)
-  - [Kelvin Lee](../../team/index.md#kelvin-lee)
-  - [Mariam Adedeji](../../team/index.md#mariam-adedeji)
-  - [Michael Bali](../../team/index.md#michael-bali)
-  - RS (starting 2021-12-20)
-  - [Warren Gifford](../../team/index.md#warren-gifford)
-  - TBH
-- [Nonso Obiano](../../team/index.md#nonso-obiano), Manager
-  - [Alex Jean-Baptiste](../../team/index.md#alex-jean-baptiste)
-  - [Amber Furbush](../../team/index.md#amber-furbush)
-  - [Ben Gordon](../../team/index.md#team#ben-gordon)
-  - [Don Ellison](../../team/index.md#donavon-ellison)
-  - [Giselle Northy](../../team/index.md#giselle-northy)
-  - [Jason Harris](../../team/index.md#jason-harris)
-  - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa)
+{{generator:reporting_structure.director_customer_support}}
 
 More details about each team member in [our team READMEs](team/index.md).
 
@@ -51,17 +34,18 @@ We always want the following to be true:
 - **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
-- **We complete any [FY22 OKRs](https://docs.google.com/document/d/18d3sX38O6ephNuoHqZT9BwU1m1_FGuRfsTwYbc8lMV8/edit#heading=h.obnaanj0svtb) (or quarterly) assigned to our team.**
-  - [FY22Q2 OKR plan](strategy-goals/FY22Q2-OKR-Plan.md)
-  - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
+- **We complete our OKRs:**
+  - [FY23Q1 OKR plan](strategy-goals/FY23Q1-OKR-Plan.md)
   - [FY22Q4 OKR plan](strategy-goals/FY22Q4-OKR-Plan.md)
+  - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
+  - [FY22Q2 OKR plan](strategy-goals/FY22Q2-OKR-Plan.md)
 
 ### As an individual application engineer...
 
 As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
 
 1. I enact our company values and team guiding principles in all of my work (customer communication, workflow, internal communication, etc)
-2. I take an average of at least 1 new case each day (5-7 a week); as volume allows
+2. I take an average of at least 1 new case each day (5–7 a week); as volume allows
 3. I provide an initial response to each case for which I take responsibility within 1 hour of the customer requesting help
 4. I remain responsive to our customers throughout, aiming to reply within minutes to each reply they send me and letting no more than a day (counted as 24 hours) pass between my replies (being sure that I have set expectations with the customer on when they will hear from me again and what I am doing in the meantime)
 5. I resolve the cases for which I am responsible in 7 days or less (on average)
@@ -130,7 +114,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 
 - [Application engineer onboarding](onboarding/customer-support-onboarding.md)
 - [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
-- [Career levels](career-growth/cs-career-levels.md)
+- [Career growth](career-growth/index.md)
 - [Team README](team/index.md)
 - [Team schedule](process/support-schedule.md)
 - [Organizational structure](team/support-org-structure.md)
@@ -140,20 +124,23 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Prioritization](process/support-prioritization.md)
 - [Customer exceptions](process/customer-exceptions.md)
 - [Engaging other teams](process/engaging-other-teams.md)
-- [Serving as messenger during incidents](../product-engineering/engineering/process/incidents/index.md)
+- [Serving as messenger during incidents](process/serving-as-a-messenger-during-incidents.md)
 - [Triaging](process/customer-support-triaging.md)
+- [Support capacity levels and contingencies](process/support-capacity-levels-and-contingencies.md)
 - [Case reviews](process/case-reviews.md)
 - [Enablement](process/enablement/index.md)
 - [Tools](tools/index.md)
 - [Assigned application engineers](team/assigned-app-eng.md)
 - [Permanently deleting user data](process/permanently_deleting_user_data.md)
+- [Removing repositories from cloud](process/removing-repositores-from-cloud.md)
 - [Business continuity](process/business-continuity-plan.md)
+- [Cloud Maintenance Window Process](process/cloud-maintenance-window.md)
 
 ## SLAs
 
 Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
 
-- We aim to respond to all customers on all issues within 1 hour between 9:00-0:00 UTC (2am-5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
+- We aim to respond to all customers on all issues within 1 hour between 9:00–0:00 UTC (2am–5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
 - We aim to resolve all issues within an average of no more than one week.
 
 #### For customers with on-premises/self-hosted Sourcegraph instances:

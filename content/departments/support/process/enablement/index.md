@@ -6,20 +6,14 @@ The following is available to help us honor our [ethos and guiding principles](.
 
 This table correlates to our [technical competency matrix](https://docs.google.com/spreadsheets/d/1npAo9c_yDGreh1KlUgG0qlG6nTNwW39sl4vTmAvwQu0/edit#gid=0) and offers enablement materials meant to help folks reach sentiment level 3 for each area.
 
-| Competency                      | Crash course | Hands-on |
-| ------------------------------- | ------------ | -------- |
-| CodeIntel                       | Go here      |          |
-| Code insights                   | Go here      |          |
-| Docker/docker-compose deploy    | Go here      |          |
-| Docker/docker-compose migration | Go here      |          |
-| GraphQL                         | Go here      |          |
-| Kubernetes deploy               | Go here      |          |
-| Kubernetes migration            | Go here      |          |
-| Marketplace extensions          | Go here      |          |
-| Prometheus                      | Go here      |          |
-| Perforce                        | Go here      |          |
-| RDS databases                   | Go here      |          |
-| Scaling                         | Go here      |          |
+| Competency                      | Crash course                                                                                                                                                                          | Hands-on |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Code Intel                      | [Go here](https://docs.google.com/presentation/d/1DpKx6lW6kFwOv9BJVS9u69cA93EHiXMmzeSVbA1xzgE/edit?usp=sharing)                                                                       |          |
+| Docker/docker-compose migration | [Go Here](docker-compose-migrations.md)                                                                                                                                               |          |
+| Go Programming Language         | [Go Here](https://go.dev/tour/welcome/1)                                                                                                                                              |          |
+| GraphQL                         | [Go here](https://docs.google.com/presentation/d/1qgid2A0D0ycNidRfzsl2YrmjKTPiG_W8HPoECdgXwLE/edit?usp=sharing)                                                                       |          |
+| Kubernetes migration            | [Go here](k8-migration.md)                                                                                                                                                            |          |
+| Marketplace extensions          | [Go here](https://www.loom.com/share/ccee20f548c54b328951427bb00874e6) & [here](https://docs.google.com/presentation/d/1pxMoWaVUbFg80_YpnHZRNZ3kzJzaNs0FHAH9QvIVcz8/edit?usp=sharing) |
 
 ## Docs
 
@@ -32,11 +26,14 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to deploy Sourcegraph to GCP with Kubernetes](gcp-sg-k8s.md)
 - [How to run a Kubernetes instance locally using minikube](minikube.md)
 - [How to Write Case Summaries for Resolved Tickets](zendesk-ticket-exporter.md)
+- [How to Migrate Sourcegraph from one Cluster to another](k8-migration.md)
 - [Kubernetes and Docker](k8s-resources.md)
 - [Determining root cause](root-cause.md)
+- [Using code insights to monitor recently resolved tickets](keeping-up-with-resolved-issues.md)
 
 ## Videos
 
+- [Sourcegraph Codebase Tour](https://www.youtube.com/watch?v=3OewJAaX4KI)
 - [High level overview created with CS in mind](https://drive.google.com/file/d/1Veat9m5gb8O0fL37b-lD5rl5fKToTmb6/view?usp=sharing) ([_timestamps_](high-level-overview-index.md))
 - [Intro to Jaeger & Tracing](https://drive.google.com/file/d/17mnCqJWJ1C855hl73hV1Y5S-1EOzusgX/view?usp=sharing)
 - [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))
@@ -48,6 +45,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to fix a database corruption on a Kubernetes instance](https://drive.google.com/file/d/1NlAA6nKp4W_iKU9TWga1OtUje3Ua85n0/view?usp=sharing)
 - [How to deploy Sourcegraph locally with minikube](https://drive.google.com/file/d/1t4lFa6PwPkkXFiGVrS3ST-NnkH99OqOL/view?usp=sharing)
 - [Intro to Overlays](https://drive.google.com/file/d/1S82jOsrNu4zUegj5Fich9njcav80vLVd/view?usp=sharing)
+- [Redis Crash Course](https://www.youtube.com/watch?v=jgpVdJB2sKQ)
 
 ## Informational Pages
 

@@ -1,16 +1,14 @@
 # Sourcegraph Cloud observability
 
-We provide some tooling to make [Sourcegraph Cloud](../../process/deployments/instances.md#sourcegraph-cloud) easier to monitor and observe. This includes observability for relevant critical infrastructure such as CI/CD pipeline.
+We provide some tooling to make [Sourcegraph Cloud](../../process/deployments/instances.md#sourcegraph-cloud) easier to monitor and observe. This includes observability for relevant critical infrastructure such as our [CI/CD pipelines](#ci-logs).
 
 For general observability development, please refer to the [observability development documentation](https://docs.sourcegraph.com/dev/background-information/observability) instead, which includes links to useful how-to guides.
 
 > NOTE: Looking for _how to monitor Sourcegraph?_ See the [observability documentation](https://docs.sourcegraph.com/admin/observability).
 
-## Built-in dashboards
+## Monitoring
 
-To view metrics, built-in Grafana dashboards are available in [https://sourcegraph.com/-/debug/grafana](https://sourcegraph.com/-/debug/grafana/). Learn about how these dashboards in the [Grafana documentation](https://docs.sourcegraph.com/admin/observability/metrics#grafana).
-
-> WARNING: These are only available to site admins on Cloud - see [Metrics](#metrics).
+For metrics and alerting, see the [Sourcegraph monitoring guide](./monitoring.md).
 
 ## Grafana Cloud
 
@@ -28,7 +26,7 @@ Loki allows you to easily query for logs, filter for fields within structured lo
 
 #### Cloud logs
 
-The Loki instance in Grafana Cloud is currently configured to ingest logs from Sourcegraph Cloud pushed from [`grafana-agent`'s Loki configuration](https://github.com/sourcegraph/deploy-sourcegraph-dot-com/blob/release/configure/grafana-agent/grafana-agent.ConfigMap.yaml#L58). To query these, you can start with a LogQL query like:
+The Loki instance in Grafana Cloud is currently configured to ingest logs from Sourcegraph Cloud pushed from [`grafana-agent`'s Loki configuration](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/configure/grafana-agent/grafana-agent.ConfigMap.yaml#L58). To query these, you can start with a LogQL query like:
 
 ```logql
 {deploy="sourcegraph",app="sourcegraph-frontend"}
@@ -45,10 +43,42 @@ The `sourcegraph/sourcegraph` CI pipeline also [uploads pipeline logs using `sg`
   |~ "FAILED:"
 ```
 
-Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) for more examples - just select a panel and click "Explore" to see the underlying query.
+Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) for more examples—just select a panel and click "Explore" to see the underlying query.
 
-### Metrics
+## Cloudflare
 
-Metrics are not yet available in Grafana Cloud. We are currently investigating avenues for making these dashboards available without requiring site admin access: [sourcegraph/sourcegraph#25407](https://github.com/sourcegraph/sourcegraph/issues/25407)
+[Cloudflare Analytics](https://www.cloudflare.com/analytics/) is used to extract useful data about the performance of our WAF, as well as the overall traffic distribution to our instances. Note that the retention of analytics data is relatively short due to the [limits](https://developers.cloudflare.com/analytics/graphql-api/limits) on our plan.
 
-> NOTE: Some metrics can also be derived from logs - see [Logs](#logs)
+This section gives a quick overview of how to access Cloudflare analytics, and how to interface with their GraphQL API. Note that in most cases, you'll be able to get much richer metrics by accessing our [existing monitoring dashboards](monitoring.md) on our own internal monitoring.
+
+### GraphQL API
+
+Cloudflare Analytics provides a somewhat [limited](https://developers.cloudflare.com/analytics/graphql-api/limits) API for retrieving monitoring data. Note that you can only retrieve relatively recent data, and have a limited number of operations.
+
+### Tools
+
+Cloudflare recommends using [GraphiQL](https://www.electronjs.org/apps/graphiql), a lightweight electron app, to interface with their API due to its relative ease of use. Configuration instructions are [here](https://developers.cloudflare.com/analytics/graphql-api/getting-started). The auth key and email can be found [here](https://github.com/sourcegraph/infrastructure/blob/main/dns/providers.tf). The tool also helps enumerate the available parameters, and is quite useful for exploring the API.
+
+### Available data
+
+The Cloudflare API mainly contains network layer information about communications to and from the service. The entire list of datasets is enumerated [here](https://developers.cloudflare.com/analytics/graphql-api/features/data-sets). For an example, the number of requests and page views per minute, along with the number of unique accessors can be found with the following query. Note that the results are ordered by `datetimeMinute_ASC`, since the default response ordering does not rely on time.
+
+```{
+viewer {
+    zones(filter: {zoneTag: [ZONE_TAG]}) {
+      httpRequests1mGroups(limit: 10000,  filter: {datetime_gt: "2020-10-29T10:00:00Z", datetime_lt: "2020-10-29T20:10:00Z"}, orderBy: [datetimeMinute_ASC]) {
+        sum {
+          requests
+          pageViews
+        }
+        uniq {
+          uniques
+        }
+        dimensions {
+          datetimeMinute
+        }
+      }
+    }
+  }
+}
+```

@@ -10,6 +10,7 @@ Our processes are in a period of change, so if in doubt, please reach out to us 
   - [Process Overview](#process-overview)
     - [Planning & Roadmap](#planning--roadmap)
     - [Execution](#execution)
+    - [Vulnerability Management](./vulnerability-management-process.md)
 
 ## Principles
 

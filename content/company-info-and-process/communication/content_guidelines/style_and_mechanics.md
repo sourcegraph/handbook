@@ -199,7 +199,7 @@ Avoid any instructions or language that requires the user to see the layout or d
 
 ## Numbers
 
-- Spell out numbers 1-9 except for percentages and ranges.
+- Spell out numbers 1–9 except for percentages and ranges.
 - Use numerals for 10 upwards.
 - Always use the numeral for ordinals (numbers that tell the position of something in a list).
 
@@ -566,7 +566,7 @@ Use an en dash (–) to indicate a [range or span](#ranges-and-spans), without s
 </div>
 </div>
 
-Use an em (—) dash without spaces to separate clauses in paragraph copy.
+Use an em dash (—) without spaces to separate clauses in paragraph copy.
 
 <div class="usage">
 <div class="item yes">
@@ -865,6 +865,7 @@ List of product names:
 - Use Sourcegraph universal code search to...
 - With code insights you can...
 - Here’s how to use code intelligence.
+- Here’s how to use code search.
 
 </div>
 </div>
@@ -880,7 +881,6 @@ We don't capitalize features or integrations.
 
 - Use the Phabricator integration to...
 - Want to use this in your code review tool? Use Sourcegraph’s <a href="#_" aria-disabled="true">GitHub integration</a>.
-- Here’s how to use code search.
 
 </div>
 <div class="item no">
@@ -889,7 +889,6 @@ We don't capitalize features or integrations.
 
 - Use the Phabricator Integration to... _(the capital “I” makes it into a proper noun, which implies it’s a product.”)_
 - Want to use this in your code review tool? Use <a href="#_" aria-disabled="true">Sourcegraph for GitHub</a>. _(Implies that “Sourcegraph for GitHub” is an official product name.)_
-- Here’s how to use Code Search.
 
 </div>
 </div>
@@ -1160,8 +1159,8 @@ Don’t use examples to compensate for poor documentation. Avoid “cutesy” ex
 
 For consistency, all examples should use the following names (as appropriate).
 
-- **People:** Logan, Morgan, Jordan, Riley (gender-neutral first names)
-- **Usernames:** `logan`, `morgan`, `jordan`, `riley`
+- **People:** Logan, Morgan, Jordan, Riley, Cris, Cami, Dani, Alex, Chidi, Akira, Sam (or other [gender-neutral first names](https://en.wikipedia.org/wiki/Unisex_name), instead of the traditional Alice, Bob, Charles...)
+- **Usernames:** `logan`, `morgan`, `jordan`, `riley`, `cris`, `cami`, `dani`, `alex`, `chidi`, `akira`, `sam`
 - **Hostnames:** example.com and subdomains of example.com (avoid using real names such as `mycompany.com`)
 - **Email addresses:** logan@example.com, morgan@example.com
 - **URLs:** https://sourcegraph.example.com (assume HTTPS)

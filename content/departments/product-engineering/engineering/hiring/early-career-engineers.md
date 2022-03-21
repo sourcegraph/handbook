@@ -6,9 +6,9 @@ To combat the perception that the only viable solution for a fast-growing startu
 
 ## Definition and expectation of an early-career engineer
 
-An early-career engineer is anyone who has no prior or limited (loosely defined as less than 12-24 months) professional work experience in an engineering-focused role. An early-career engineer could be someone who recently entered or reentered the job market, just finished their studies, or is transitioning into a new career.
+An early-career engineer is anyone who has no prior or limited (loosely defined as less than 12–24 months) professional work experience in an engineering-focused role. An early-career engineer could be someone who recently entered or reentered the job market, just finished their studies, or is transitioning into a new career.
 
-The initial expectations of a fully-onboarded early-career engineer are [defined in the IC1 career level](https://docs.google.com/document/d/1Zb7zCZUFkxP6vS_H5Y24wPK7MajA51DqV6gpsvDMMnU/edit#). In addition to these, we also expect all engineers to exhibit [our values](../../../../company-info-and-process/values/index.md).
+The initial expectations of a fully-onboarded early-career engineer are [defined in the IC1 career level](../career-development/framework.md#ic1). In addition to these, we also expect all engineers to exhibit [our values](../../../../company-info-and-process/values/index.md).
 
 ## When should a team consider an early-career engineer?
 
@@ -105,11 +105,11 @@ A possible challenge with early-career candidates is that there is often not muc
 
 Here are some aspects that you might want to consider when identifying suitable candidates:
 
-- Passion - do they show a keen interest in their chosen career, the company, and technology.
-- Learnability - are they constantly looking to expand their knowledge and capability.
-- Grit - do they have the ability to persevere in the face of adversity and push through to achieve success.
-- Problem Solving and Critical Thinking - are they able to break down problems and think analytically about them.
-- Initiative - have they made the extra effort to further their career development? This comes in the form of classes, bootcamps, or taking on a project outside of work.
+- **Passion** - do they show a keen interest in their chosen career, the company, and technology.
+- **Learnability** - are they constantly looking to expand their knowledge and capability.
+- **Grit** - do they have the ability to persevere in the face of adversity and push through to achieve success.
+- **Problem Solving and Critical Thinking** - are they able to break down problems and think analytically about them.
+- **Initiative** - have they made the extra effort to further their career development? This comes in the form of classes, bootcamps, or taking on a project outside of work.
 
 What you are looking for is a candidate with the right attributes so that with the proper guidance and experience, they are likely to be a high-performing teammate.
 
@@ -167,6 +167,10 @@ To further train your bias-catching muscle, check out [Pamela Fuller's The Leade
 - Practice giving an interview in advance, and seek feedback from #hiring on any questions or topics you're not sure about covering!
 
 ## Set up early-career teammates for success
+
+### Resources for onboarding and beyond
+
+- [PR Checklist](../onboarding/pr-checklist.md)
 
 ### Define what success looks like
 

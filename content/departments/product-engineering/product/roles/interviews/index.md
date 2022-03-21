@@ -8,4 +8,4 @@ Interview processes:
 - [Product Manager](./product_manager/index.md)
 - [Product Designer](./product_designer/index.md)
 - [Director of Technical Writing](./director_technical_writing/index.md)
-- [Technical Writer](./technical_writer/index.md)
+- [Sr. Product Education Engineer](./technical_writer/index.md)

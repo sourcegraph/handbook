@@ -54,13 +54,13 @@ Meetings are to be scheduled by the mentor. Feel free to schedule more meetings 
 
 ### 4th meeting (early in the week):
 
-- Zendesk walkthrough - taking a ticket, Email vs. Slack, ticket fields for closing..etc.
+- Zendesk walkthrough—taking a ticket, Email vs. Slack, ticket fields for closing..etc.
 - Explain current tickets you are working on
 - Pair on tickets, calls, CE meetings etc.
 - Go through good learning examples of solved tickets in your arsenal
 - Talk through strategies for solving tickets and best practices
 - Pair together to overview the enablement section and go over some items together (enablement can be a little intimidating to go through all of these at once alone) or provide tips on a strategy for tackling these items
-- Talk about our test instances - show how they can be used
+- Talk about our test instances—show how they can be used
 - Talk about managed instances
 - Do you have any questions?
 

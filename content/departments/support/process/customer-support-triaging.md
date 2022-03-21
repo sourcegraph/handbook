@@ -9,7 +9,7 @@ What this means is that the customer issue needs to be understood before it’s 
 
 In order to set-up the team for success meeting our internal 1-hour SLA, it is critical that the triage team triages every ticket that comes in within ~10 minutes of it coming in.
 
-That said, there may be times when we have unusally large amount of work or more folks are out than normal and it is fine customers have to wait. In such [situations](<support-prioritization.md#:~:text=When%20we%20have%20an%20unusually%20large%20amount%20of%20work%20or%20more%20folks%20are%20out%20than%20normal%2C%20it%20is%20fine%20if%20customers%20(including%20pre-sales)%20have%20to%20wait.%20In%20such%20situations%2C%20we%20will%20communicate%20proactively%2C%20letting%20them%20know%20that%20we%20have%20team%20members%20arriving%20in%20another%20few%20hours%20who%20will%20be%20able%20to%20help%20them.>), the person triaging can help set expectations and invite the customer to share whether there is more urgency than may be immediately apparent.
+That said, there may be times when we have unusually large amount of work or more folks are out than normal and it is fine customers have to wait. In such situations, we follow [support capacity levels and contingencies](support-capacity-levels-and-contingencies.md). It is part of triage's role to understand the team's capacity and facilitate accordingly.
 
 ## How to triage like a pro
 
@@ -27,6 +27,7 @@ That said, there may be times when we have unusally large amount of work or more
 
   - troubleshoot
   - explain how a feature works in the product/how to do something in the product
+  - handle incident customer communication
   - handle anything related to security for a customer without a CE
   - handle a feature request for a customer without a CE
 
@@ -50,7 +51,7 @@ That said, there may be times when we have unusally large amount of work or more
 
 - **Step 7:** On the left panel, under the _Select Assignee_ tab, pick _Assign to this group_ and submit the ticket as open -- this will make sure the ticket lands in the _Unassigned queue_ (which requires that ticket have the tag “triaged,” status of “open” and assignee of the Support group).
 
-- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take.
+- **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take. Remember to facilitate if necessary, @ mentioning folks who have capacity to take it if we are at level 2 capacity.
 
 - **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
@@ -58,9 +59,10 @@ That said, there may be times when we have unusally large amount of work or more
 
 ### 1. Whose responsible for triaging?
 
-Nonso 08:00 - 14:00 UTC (Stompy as backup)
-Stompy 14:00 - 15:00 UTC (Tamar, Brielle, Nonso as backup)
-Virginia 15:00 - 24:00 UTC (Tamar, Brielle as backup)
+- Nonso 08:00–14:00 UTC (Stompy as backup)
+- Shawnteé 14:00–19:00 UTC (Virginia, Brielle as backup)
+- Shawnteé and Sarah 19:00-20:00 UTC (Virginia, Brielle as backup)
+- Sarah 20:00–01:00 UTC (Virginia, Warren as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
@@ -80,6 +82,38 @@ Yes, we have a few customers listed in our [Customer Exception list](customer-ex
 
 We also look at the queues of anyone who is out that day to see if someone needs to fill-in (the original CSE keeps responsibility) -- great for when the CSE is out a day or two -- or we if we need to transition the case to another CSE --great for when the CSE is out a longer period of time.
 
+We should be creating tickets when the post is from someone at the customer, even if the end result is no action for CS. We can skip things from our internal teammates.
+
+And finally, we are also brought into every new incident channel to be there if it requires customer communication and ensure we have a team member available to serve as a messenger.
+
 ### 6. What do I do when I see a company update in the triage queue?
 
 We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perspective, please go ahead and delete them.
+
+### 7.What if we are close to missing SLA?
+
+When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
+
+### 8. What to do when it is an AER first day taking cases?
+
+When it's an AER first day take to take cases, they will get the first one that comes through the queue. After that, they will have the first right of refusal. The goal is for them to have 3 cases by the end of the week.
+
+### 9. How to Triage Post Customer Support
+
+When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](customer-exceptions.md)
+
+### 10. Customer Request on Custom Scripts
+
+Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
+
+### 11. How to Handle Follow Up Tickets
+
+When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
+
+### 12. External Communities
+
+There are a couple of external slack communities that customers can ask questions in. If you do not have access to these, you can be invited by any team member with access. Please post in our internal slack channel to ask for access.
+
+### 13. Slack Channels
+
+When slack channels have 'support-' they will automatically trigger Zendesk to create tickets. If you see a Zendesk ticket that comes in like this please reach out to the appropiate slack channel and ask if they would be able to change the dash to a an underscore or some other symbol. You can then delete the Zendesk ticket.

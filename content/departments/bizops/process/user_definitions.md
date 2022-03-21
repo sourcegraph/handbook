@@ -4,19 +4,20 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 ## User states
 
-People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases - a user can be both registered, activated and churned at the same time.
+People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases—a user can be both registered, activated and churned at the same time.
 
-| Metric                               | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
-| [Visitor](#visitor)                  | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           | Activity       |
-| [Active (Cloud)](#active-user)       | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     | Activity       |
-| [Activated (Cloud)](#activated-user) | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
-| [Registered](#registered-user)       | A user with a created an account                                                                  | ✔️    | ✔️      | `site_activity.MAU.RegisteredUserCount` | Characteristic |
-| Retained                             | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
-| Churned                              | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
-| Resurrected                          | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
-| Created                              | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
-| Deleted                              | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
+| Metric                                       | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
+| [Visitor](#visitor)                          | Anyone who accessed the product                                                                   | ✔️    | ✔️      | `site_activity.MAU.UserCount`           | Activity       |
+| [Active (Cloud)](#active-user-cloud)         | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     | Activity       |
+| [Activated (Cloud)](#activated-user-cloud)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
+| [Registered (Cloud)](#registered-user-cloud) | A user with an account on Cloud                                                                   | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
+| [Account Setup](#account-setup)              | A Registered user OR team on either Cloud or Private Install                                      | ✔️    | ✔️      |                                         | Characteristic |
+| Retained                                     | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
+| Churned                                      | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
+| Resurrected                                  | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
+| Created                                      | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
+| Deleted                                      | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
 
 \***_Types_**
 
@@ -26,7 +27,7 @@ People using Sourcegraph can be segmented into a number of different states, the
 
 ### Visitor
 
-A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure success of our features that are intended to convert them into an active user.
+A visitor is a unique person who showed up on the site and did anything, even just viewing the page. Currently a unique person cannot be identified between our on-premises & cloud solution; in other words, when aggregating data across our deployment solution one person could be counted as a "unique person" twice. It is important to measure unique visitors because each of these visitors is potentially an active user. It is equally important that we don't count anyone who visits the product as an active user so that we can measure the success of our features that are intended to convert them into an active user.
 
 ### Active user (Cloud)
 
@@ -47,11 +48,7 @@ Qualifying events are not intended to be difficult, or prove that someone is a h
 
 For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph is a way to correlate registered users who have a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
-### Registered user
-
-Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
-
-### Activated user
+### Activated user (Cloud)
 
 Unlike **active** users, which is a term meaningful within a specific time period, **activated** is a special state that is permanent once triggered.
 
@@ -60,6 +57,25 @@ An activated user is defined as anyone who has ever done a specific series of ac
 Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active).
 
 **Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention.
+
+### Registered user (Cloud)
+
+Active users can be further optionally segmented into **registered** or **non-registered** users, which indicates they are logged in.
+
+### Account Setup
+
+This identifies users or teams either on Cloud or private install and are not yet customers.
+
+#### Individual Account Setup
+
+- Signed up for Cloud OR
+- Added Admin email on private install OR
+- Added user to private install
+
+#### Team Account Setup
+
+- Signed up and onboarded to Cloud beta account and added team members OR
+- Set up private install and added users
 
 ## Time periods
 
@@ -78,6 +94,16 @@ The different time periods are used depending on the length of the relevant cont
 | DAU/MAU    | The ratio of average DAUs over a month to the number of MAUs in the corresponding month. If the ratio is 0.4 or 40%, the average active user used Sourcegraph 12 days per month (30 days \* .4 = 12).                                              |
 | DAU/WAU    | The ratio of average DAUs over a week to the number of WAUs in the corresponding week. If the ratio is 0.4 or 40%, the average active user used Sourcegraph 2.8 days per week (7 days \* .4 = 2.8).                                                |
 | Saturation | The ratio of the number of specific feature users to the total number users with access to the feature. If a feature's ratio is 0.2 or 20%, the saturation for the feature means that 1 in 5 users (in the cohort and timeframe) used the feature. |
+
+## Net Promotor Score (NPS)
+
+Submission buckets for `How likely is it that you would recommend Sourcegraph to a friend?` on a scale of 0 to 10:
+
+- 0-6: Detractor
+- 7-8: Passive/Neutral
+- 9-10: Promotor
+
+NPS score = % promotors of total submissions - % detractors of total submissions
 
 ## Customer Health Score
 
@@ -104,7 +130,7 @@ In each ping, instances will send a site_activity.DAUs, site_activity.WAUs, and 
 
 ### In-app site admin [usage stats page](https://sourcegraph.com/site-admin/usage-statistics)
 
-In the site admin panel, we have a Usage stats page that displays number of MAUs. This pulls data from Redis, which gets populated by our `usagestatsdeprecated` package. This was an old way of collecting data, and is not reliable. This is a known issue, and will be fixed to use the `event_logs` table.
+In the site admin panel, we have a Usage stats page that displays the number of MAUs. This pulls data from Redis, which gets populated by our `usagestatsdeprecated` package. This was an old way of collecting data, and is not reliable. This is a known issue, and will be fixed to use the `event_logs` table.
 
 ## How are metrics calculated
 

@@ -12,4 +12,4 @@ This page documents the team that reports to the VP of Engineering.
 
 ## VPE team sync
 
-Team meets 8-9am PT every Wednesday to discuss [agenda items](https://docs.google.com/document/d/1tM8HEKY7_RcBKKIlMZnYXTiVwPAoAFGFzouaEMuGOpk/edit) and review the [engineering tracker](https://github.com/orgs/sourcegraph/projects/214/views/16).
+Team meets 8–9am PT every Wednesday to discuss [agenda items](https://docs.google.com/document/d/1tM8HEKY7_RcBKKIlMZnYXTiVwPAoAFGFzouaEMuGOpk/edit) and review the [engineering tracker](https://github.com/orgs/sourcegraph/projects/214/views/16).
