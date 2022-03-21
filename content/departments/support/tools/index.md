@@ -41,7 +41,7 @@ Read more about working with managed instances [here](../process/support-managed
 
 There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
 
-> NOTE: Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) if you are testing, experimenting or upgrading cse-k8s or cse-aws-test. 
+> NOTE: Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) if you are testing, experimenting or upgrading cse-k8s or cse-aws-test.
 
 - [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
 - [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
