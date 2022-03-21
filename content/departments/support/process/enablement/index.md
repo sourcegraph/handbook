@@ -30,6 +30,7 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [Kubernetes and Docker](k8s-resources.md)
 - [Determining root cause](root-cause.md)
 - [Using code insights to monitor recently resolved tickets](keeping-up-with-resolved-issues.md)
+- [Application Engineers guide to getting started with Sourcegraph logging, services, and observability](../../tools/support-logging-guide.md)
 
 ## Videos
 
