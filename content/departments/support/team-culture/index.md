@@ -35,7 +35,7 @@ An occasional challenge of being async by default is there can be a lot to read 
 - #customer-support: We stay attentive as this is where we collaborate with everyone outside of support. If there is a question/request, you have the agency to assist. We are a fully remote team and it is our responsibility to ensure our teammates feel supported.
   Leadership note: If there is a specific @cs-leadership mention an online member of the leadership team is expected to respond within 24 hours (this time frame is for each thread)
 - #customer-support-internal: We read EVERY single thread even those that are posted when we are not working within 24 hours of it being posted to stay aligned with our teammates and emoji react accordingly so we all have confirmation we are on the same page.
-- #general: We read every single thread by the end of each week to stay informed of what is happening more broadly across the entire organization.
+- #announcements: We read every single thread by the end of each week to stay informed of what is happening more broadly across the entire organization.
 - #customer-support-triage: whoever is responsible pays close attention to that channel, as well as the manual triage channels, and actively asks for coverage if needing to be AFK.
 - #prod-eng-announce: We read every single thread by the end of the week to stay informed of what is happening across the product/engineering organization.
 
