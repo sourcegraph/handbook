@@ -46,7 +46,6 @@ There are some test environments created specifically for the CS team to run tes
 - [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
-- [GitLab Enterprise test instance ](https://gitlab.sgdev.org)
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
 - [Phabricator test instance ](https://phabricator.sgdev.org/)
@@ -97,6 +96,12 @@ Creating customized scripts can help automate a repetitive task for the team and
 > WARNING: This is a **public** repository. Please \*_do not_ add any private information to any part of the repository, including the names of our customers.
 
 [Link to GitHub Repository for Scripts](https://github.com/sourcegraph/support-scripts)
+
+### Sourcegraph logging, services, and observability
+
+[An Application Engineers guide](support-logging-guide.md)
+
+Designed to be an overview of Sourcegraph services and architecture. Topics include observability resources and logging. Covers when, what and how to to gather logs. Includes log interpretation examples.
 
 ## Zendesk
 
