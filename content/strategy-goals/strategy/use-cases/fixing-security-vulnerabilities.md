@@ -73,6 +73,7 @@ The following are real, anonymized quotes from customers today on how we’re al
 - [Productboard fixing security vulnerabilities (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482297/detail)
 - [Tackling Log4j with Sourcegraph](https://about.sourcegraph.com/blog/log4j-log4shell-0-day)
 - [Cloudflare case study](https://about.sourcegraph.com/case-studies/cloudflare-accelerates-debugging-and-improves-security/)
+- [Related issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ause-case%2Fdev-onboarding+label%3Ause-case%2Ffix-vulnerabilities)
 
 ### Log4j search notebook
 

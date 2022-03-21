@@ -42,9 +42,9 @@ Our current process is as follows:
 
   - We plan our iterations with point baselines such that factor in time off, life events, and support across prior iterations. We calibrate these point baselines via temperature checks in retros and manual adjustment. Roughly 80% of our iteration capacity is planned by the PM as the decider, and ~20% of the capacity is explicitly left for engineers to prioritize, taking into account our [goals and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md), technical roadmap, estimates, workloads on individuals, and release dates (the 20th of every month).<br> The PM will choose issues among all proposed issues – engineers and designers should still propose issues, even if they are not the planning decider.
 
-    - The issue should also have its **_Size_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropriate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the Thursday iteration planning meeting to distribute workload.
-      - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
-        - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
+    - The issue should also have its **_Size_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropiate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the [Monday sync](#weekly-sync) to distribute workload. See below for information on issue sizing.
+    - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
+    - Estimations **include the testing time necessary** to fully test an issue against test plans or test cases defined in the issue.
 
   - As much as possible, the proposer **involves the necessary stakeholders _asynchronously_ to get agreement** on whether the issue should be worked on in the next iteration before the [Thursday iteration planning](#fortnightly-iteration-planning). For example, the PM or EM might ping engineers in GitHub or Slack on whether an issue seems feasible, or engineers might ping their EM and PM to get buy-in whether the issue fits into our goals.<br>
     If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning).
@@ -58,6 +58,24 @@ Our current process is as follows:
 - During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
+
+## How we think about issue sizes
+
+When sizing an issue please keep in mind the size includes the entire lifecycle of the issue. The coding, any testing both automated and manual, as well as PR reviews and documentation.
+
+When thinking about the size of an issue we try to stay away from actual time estimates. Generally, 1 and 2 sizes should be considered small. 3 and 5 are medium issues. 8 and 13 can be considered large issues. Any number larger than 13 can be considered significantly large, and possibly could represent a small project.
+
+While there is no "maximum" number, once we get higher than a 13 in size it will probably prompt some discussion or at least need some explanation in the issue.
+
+### Examples
+
+- 1: A small issue that you completely know the entire solution and are 100% confident in the scope. You have no questions and no dependencies on other teammates. There aren't any tests that need writing. Fixing a typo, updating copy, or very minor CSS changes would most likely all be 1s.
+- 2: You still know the full scope of your solution and have no dependencies. But the change is more logic-based than a simple text update. Something like removing a feature flag and all accompanying code. This could be a simple change but may take more effort in asserting the change is successful. i.e. manually testing the change.
+- 3: The scope is still generally understood, but some discovery may need to happen during coding. Any tests already exist for this section of code and only need basic updates if any. The resulting PR is pretty small and could be reviewed quickly by a teammate.
+- 5: Like 3, but may need more discovery. Or maybe there are no tests for this part of the code yet so you have to start from scratch.
+- 8: The solution is vaguer and may need some input from outside of your own personal domain. For example, a change to the UI requires more data from the backend. Now we need some input from several domains (frontend and backend) plus resulting tests and approvals.
+- 13: At this point, the solution probably requires multiple domains and possibly multiple teams. The solution may need a great deal of discovery or follow-up activities. Maybe we need a full E2E test to have confidence or large volumes of documentation. PR reviews at this size will probably take multiple hours for teammates to review.
+- Beyond size 13 the issue probably needs to be broken down more or given a spike. But not always! Some problems are just hard and that's ok, but we document the reasoning behind it so that everyone understands why.
 
 ### Fortnightly iteration planning
 

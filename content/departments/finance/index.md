@@ -88,6 +88,10 @@ If within a single period a new customer signs a contract which then grows in AR
 
 The finance team reviews the AR aging schedule on a monthly basis and assesses customer collectability risk. If an existing customer signs a contract but holds an outstanding bill which the Finance team has deemed a high probability to be uncollectible, the Company will not recognize Expansion IARR until the full amount of the outstanding invoice is paid.
 
+### Churned/contraction IARR
+
+Churned/contraction IARR is from customers who do not renew their contract (churn) or whose contract decreases in ARR (contraction). This results in a decrease in ARR for the business.
+
 ### Booking
 
 A booking is when a customer commits to pay us money. This includes when:
@@ -96,7 +100,15 @@ A booking is when a customer commits to pay us money. This includes when:
 - An existing customer (depending on their contract) takes an action that increases the amount of revenue we will earn from them (such as growing usage or using more premium features)
 - An existing customer renews (including when the renewal is for the same ARR as the previous period)
 
-### Financial Planning and Financial Statement Review
+### Net dollar retention
+
+Net dollar retention (NDR) is measures how much revenue a cohort is generating (expansion - churn) in a given period relative to its original size (dollar amount).
+
+Calculation: (Beginning period ARR + existing customer expansion - churn/contraction) / beginning period ARR
+
+For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%.
+
+## Financial Planning and Financial Statement Review
 
 We update our financial plan on a quarterly basis. Our plan covers a twelve-month period and is focused on providing insights into working capital management, as well as predicting and understanding key trends within our business.
 

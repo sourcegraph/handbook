@@ -127,13 +127,8 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 
 #### Collaborating with Marketing
 
-- Marketing will [submit requests](#requests) as needed. They will then be [triaged](#triaging-incoming-requests) and prioritized against other work
-- All work follows a [specific process](https://docs.google.com/spreadsheets/d/1tOSgIJ7cg50zha5iSgYhL1exd7f3w4H_yCkOEdnWD4g/edit#gid=215222) created in collaboration with marketing.
-  - Sharing the design with a developer step:
-    - Developer will review design async and provide feedback on the feasibility of the design. They should always have access to all figma files and be notified of design changes that may increase the lead time.
-      - Use [PERT](https://www.techrepublic.com/blog/it-consultant/use-pert-technique-for-more-accurate-estimates/#:~:text=PERT%20is%20an%20estimating%20technique,up%20with%20a%20final%20estimate.&text=The%20resulting%20PERT%20estimate%20is,as%20the%20other%20two%20values.) technique for estimation.
-        - Estimation should include 3 days for QA to give plenty of time for feedback and corrections.
-      - Fabiana will share with Mary when ready, who will assign a developer who is likely to work on the page or feature.
+- Marketing will [submit requests](#requests) as needed. They will then be [triaged](#triaging-incoming-requests) and prioritized against other work.
+- Figma is always the source of truth for design and copy.
 - Marketing will continue to track work in Asana, while the Content Platform team is tracking work in Github. Details of how this will work:
   - Fabiana is responsible for keeping Asana up to date.
   - Mary is responsible for keeping Github up to date.

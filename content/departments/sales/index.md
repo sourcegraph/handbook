@@ -67,6 +67,24 @@ A customer is an organization with a Sourcegraph subscription contract that has 
    - If in doubt about whether another customer is referenceable by name, ask in #sales.
 1. If an organization's contract will start in the future, they are still considered a customer. (This can happen when we agree to have a contract start on the next 1st of the month because that makes life easier for a customer, for example.)
 
+### Open pipeline
+
+### Qualified pipeline
+
+### Weighted pipeline
+
+### Win rate
+
+Win rate is the percentage of deals closed that were `Closed Won` (the prospect converted to a paying customer).
+
+Calculation: # of deals closed won / (# of deals closed won + # of qualified deals closed lost)
+
+### Close rate
+
+Close rate is the ratio of deals that were `Closed Won` to deals qualified within the same period.
+
+Calculation: # of deals closed won / # of deals qualified in the period
+
 ### Sales Accepted Opportunity (SAO)
 
 Sales Accepted Opportunities are where ALL of the following are true:
