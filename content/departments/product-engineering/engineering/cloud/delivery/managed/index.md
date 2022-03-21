@@ -59,6 +59,8 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/inde
 | New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependenant on the request                    |
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
+| Self-Hosted to Managed Migration                         | Spin up new instance for a new customer and load instance with self-hosted data provided by customer               | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort)                  | Within 10 working days from agreement                           |
+
 
 ### Incident Response
 
