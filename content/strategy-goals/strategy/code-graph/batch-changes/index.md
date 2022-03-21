@@ -73,7 +73,7 @@ The key [success metric](../../../../departments/product-engineering/engineering
 
 ### Time-to-value
 
-Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding batch change.
+Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to batch changes.
 
 We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We measure success here by tracking:
 
