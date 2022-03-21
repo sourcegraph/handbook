@@ -46,7 +46,6 @@ There are some test environments created specifically for the CS team to run tes
 - [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
-- [GitLab Enterprise test instance ](https://gitlab.sgdev.org)
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
 - [Phabricator test instance ](https://phabricator.sgdev.org/)

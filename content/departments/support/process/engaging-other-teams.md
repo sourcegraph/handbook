@@ -82,19 +82,13 @@ EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 
 Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
 
-### Repository permissions
+### Repository Management
 
-**Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`
+**Keywords**: `indexing`, `gitserver`, `code host syncing`, `repo updates`
 
-Any questions about repository permissions should be routed to the Repository Management team.
+Any questions about repository updating, indexing, or code host syncing should be routed to the [Repository Management team](../../product-engineering/engineering/enablement/repo-management/index.md).
 
-### User authentication (SSO)
-
-**Keywords**: `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
-
-Any questions about user authentication should be routed to the Repository Management team.
-
-### Code intelligence
+### Code Intelligence
 
 **Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
@@ -130,9 +124,11 @@ Any questions about Batch Changes should be routed to the [Batch Changes team](.
 
 ### Cloud
 
-**Keywords**: `cloud`, `Open Source Search`, `sourcegraph.com`,
+**Keywords**: `cloud`, `Open Source Search`, `sourcegraph.com`, `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
 The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling our cloud presence. Today, the team is the DRI for all things cloud including DevOps/infra for cloud, new feature development, and early-access/waitlist programs for cloud.
+
+The cloud team is also responsible for all matters authentication and authorization within Sourcegraph.
 
 Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../../product-engineering/engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
 
@@ -149,6 +145,8 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our technical writing team).
 
 If the docs site is unavilable, route to the [Content Platform team](../../product-engineering/engineering/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
+
+For a more detailed breakdown of codebase ownership please see the [Engineering Ownership](../../product-engineering/engineering/process/engineering_ownership.md) matrix
 
 ## Step 4: File a Github issue
 
