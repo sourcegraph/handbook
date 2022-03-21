@@ -13,12 +13,15 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
   - Design sync meeting (both meetings!)
   - Design retro meeting (first Wednesday of the month)
   - Add the designer to the relevant meetings for their team (if not handled by email groups)
-- Notify people ops to include the new designer on the following GitHub groups:
-  - @sourcegraph/design
-- Notify people ops to include the new designer on the following Slack groups:
-  - @design-team
-  - @product-team
-  - Their product team
+- Notify people ops to include the new designer to the following:
+  - GitHub groups:
+    - @sourcegraph/design
+  - Google groups:
+    - product-design@sourcegraph.com
+  - Slack groups:
+    - @design-team
+    - @product-team
+    - Their product team's groups
 - In their 1-1 doc introduce the designer to a few Figma files that are relevant to their team
 
 ## Designer checklist
