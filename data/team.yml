@@ -1866,15 +1866,6 @@ win_yu:
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
   description: After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
 
-sam_jones:
-  name: Sam Jones
-  role: Senior Corporate & Commercial Counsel
-  reports_to: director_legal
-  location: Oakland, CA, United States 🇺🇸
-  github: srj427
-  email: sam.jones@sourcegraph.com
-  description: Sam is a San Francisco Bay Area native. Prior to joining Sourcegraph, Sam represented technology companies and investment firms in corporate transactional work including commercial contracts, M&A and corporate financings as both an in-house counsel and external advisor. He loves hiking and running with his dog Gigi, cooking and playing golf. Sam is also learning to brew beer and maintain a garden in his free time.
-
 stephanie_zabala:
   name: Stephanie Zabala
   pronouns: she/her
@@ -2828,7 +2819,7 @@ daniel_marques:
   role: Product Designer, Batch Changes
   location: Leiria, Portugal 🇵🇹
   github: danielmarquespt
-  email: daniel.marquespt@sourcegraph.com
+  email: daniel.marques@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/danielmarquespt/)'
   description: 'Daniel is Product Designer based in Portugal. He is very passionate about everything related with technology, internet, eletronics and geek stuff. Besides that he loves the going outside, walking trails, riding his motorcycle or just chilling with friends watching the sunset.'
 
@@ -2863,3 +2854,45 @@ eugenia_fernandez:
   email: eugenia.fernandez@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
   description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
+
+marcos_serna:
+  name: Marcos Serna
+  role: Enterprise Account Executive
+  location: Austin, TX, USA 🇺🇸
+  email: marcos.serna@sourcegraph.com
+  reports_to: vp_sales_western_region
+  links: '[Linkedin](https://www.linkedin.com/in/marcosserna/)'
+  pronouns: '[he/him](http://pronoun.is/he)'
+  description: 'Marcos grew up in Albuquerque, NM and currently resides in Austin, TX. Prior to Sourcegraph, Marcos helped build out the Corporate Sales team at Okta and was a 4X AE of the quarter and AE of the year in 2021. Marcos graduated as Valedictorian with a dual major in Finance and Entrepreneurship from the University of New Mexico. Outside of work, Marcos can be found running, cycling or swimming in Austin (he was a Pro Triathlete for 2 years), interviewing someone for his SalesLife podcast or wood carving.'
+
+chris_warwick:
+  name: Chris Warwick
+  role: Software Engineer
+  reports_to: engineering_manager_code_insights
+  location: Philadelphia, PA United States 🇺🇸
+  github: chwarwick
+  email: christopher.warwick@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/warwickc)'
+  description: 'Chris is a software engineer based near Philadelphia, PA where he lives with his wife and three children. He has spent a number of years building mobile and web applications. When not working he enjoys spending time outside and running.'
+
+becca_steinbrecher:
+  name: Becca Steinbrecher
+  reports_to: engineering_manager_content_platform
+  role: Software Engineer
+  location: Mesa County, CO, USA 🇺🇸
+  github: st0nebraker
+  email: becca.steinbrecher@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/becca-steinbrecher/)'
+  description: 'Becca grew up in San Diego and has been in Colorado since 2017. In her free time she enjoys rock climbing, practicing yoga, playing piano, eating, riding bikes, snowboarding, and trying new things.'
+
+laura_hacker:
+  name: Laura Hacker
+  pronouns: she/her
+  role: Frontend Engineer, Frontend Platform
+  reports_to: engineering_manager_frontend_platform
+  location: Grand Rapids, MI, USA 🇺🇸
+  github: lrhacker
+  pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'
+  email: laura.hacker@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
+  description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'

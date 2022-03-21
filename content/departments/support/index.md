@@ -134,6 +134,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Permanently deleting user data](process/permanently_deleting_user_data.md)
 - [Removing repositories from cloud](process/removing-repositores-from-cloud.md)
 - [Business continuity](process/business-continuity-plan.md)
+- [Cloud Maintenance Window Process](process/cloud-maintenance-window.md)
 
 ## SLAs
 
