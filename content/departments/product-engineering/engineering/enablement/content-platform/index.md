@@ -57,7 +57,7 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 1. Verify all necessary information is in the request
 1. Determine urgency and priority against other work
 1. Set expectations with stakeholder/requester
-1. Create a Github issue (may automate this, TBD)
+1. Create a Github issue (may automate this, TBD) and link the issue in the request thread in the #content-platform channel. You can see an example [here](https://sourcegraph.slack.com/archives/C02PSJF0QLU/p1647386134658749).
 1. If applicable, assign to a developer. Otherwise put into the team [Kanban board](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22) according to priority determined in step 2.
 
 ### Creating Issues
@@ -130,11 +130,10 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 - Marketing will [submit requests](#requests) as needed. They will then be [triaged](#triaging-incoming-requests) and prioritized against other work.
 - Figma is always the source of truth for design and copy.
 - Marketing will continue to track work in Asana, while the Content Platform team is tracking work in Github. Details of how this will work:
-  - Fabiana is responsible for keeping Asana up to date.
-  - Mary is responsible for keeping Github up to date.
-  - We are using a [Github + Asana integration](https://asana.com/apps/github) to link Github PRs in Asana
+  - Marketing Project Manager is responsible for keeping Asana up to date.
+  - CPT Product Manager is responsible for keeping Github up to date.
+  - Github issue contains a link to the Asana card, and Asana card contains a link to Github issue.
   - Content Platform Team provides updates to their work in Github, including but no limited to:
     - QA links
     - Questions for stakeholders
     - Progress updates as needed
-  - Mary and Fabiana will be working closely to ensure relevant information is present in both Asana and Github as needed. At the beginning this will feel like duplication of work, but we want to start doing this manually while we figure out our way of working, instead of over-engineering up front. Will look into further automation/syncing options in the future as needed.
