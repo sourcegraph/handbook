@@ -2884,3 +2884,15 @@ becca_steinbrecher:
   email: becca.steinbrecher@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/becca-steinbrecher/)'
   description: 'Becca grew up in San Diego and has been in Colorado since 2017. In her free time she enjoys rock climbing, practicing yoga, playing piano, eating, riding bikes, snowboarding, and trying new things.'
+
+laura_hacker:
+  name: Laura Hacker
+  pronouns: she/her
+  role: Frontend Engineer, Frontend Platform
+  reports_to: engineering_manager_frontend_platform
+  location: Grand Rapids, MI, USA 🇺🇸
+  github: lrhacker
+  pronunciation: '/[ˈlɔːɹə hækəɹ](http://ipa-reader.xyz/?text=%CB%88l%C9%94%CB%90%C9%B9%C9%99%20h%C3%A6k%C9%99%C9%B9&voice=)/'
+  email: laura.hacker@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
+  description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
