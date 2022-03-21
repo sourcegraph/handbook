@@ -58,7 +58,7 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 1. Determine urgency and priority against other work
 1. Set expectations with stakeholder/requester
 1. Create a Github issue (may automate this, TBD) and link the issue in the request thread in the #content-platform channel. You can see an example [here](https://sourcegraph.slack.com/archives/C02PSJF0QLU/p1647386134658749).
-1. If this is a marketing requests, add the `marketing-request` tag to the Github issue.
+1. If this is a marketing request, add the `marketing-request` tag to the Github issue.
 1. If applicable, assign to a developer. Otherwise put into the team [Kanban board](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22) according to priority determined in step 2.
 
 ### Creating Issues
