@@ -1523,6 +1523,19 @@
                39.15988184949157
             ]
          }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Laura Hacker"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -85.668083,
+               42.963360
+            ]
+         }
       }
    ]
 }
