@@ -28,6 +28,8 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
 
 The source of truth for current OKRs and status of those OKRs is in our [private issue tracker](https://github.com/sourcegraph/product-engineering-tracker/labels/summary). This is private because KRs frequently contain sensitive business metrics and customer names. The sanitized public version of our OKRs are [here in the handbook](../../../strategy-goals/goals/index.md). Each KR has an associated GitHub issue following [this template](https://github.com/sourcegraph/product-engineering-tracker/issues/new?template=product-engineering-kr.md).
 
+Note that we do not expect every team to have an OKR (they are not a status reporting mechanism), or that all work aligns to some OKR (they are intended only to represent the most important objectives and key results).
+
 ## Roadmap
 
 _See also [strategy artifact definitions](#roadmap-tracker)_
