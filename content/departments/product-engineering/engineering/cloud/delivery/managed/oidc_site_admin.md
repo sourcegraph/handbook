@@ -1,12 +1,13 @@
 # Purpose and Background
 
-An increasing number of customers have tight security controls and requirements for Sourcegraph Managed Instances. Sourcegraph Teammates may have the need for Site Admin access to a customer's Managed Instance. This was accomplished in the past by using a shared service user account using the `built-in` auth provider. This auth provider method lacks two-factor authentication (2FA) and has been considered unacceptable by a few customers.
-
 [RFC 576: Allow disabling sign-up for OpenID Connect auth providers](https://docs.google.com/document/d/1Op6jum_SQJSU5KeJlJJEED1QYFdXOO30botb3BgEO6U/edit) provided the necessary changes to allow Sourcegraph to use their internal Okta Auth provider as a way to grant Site Admin access to managed instances. Okta provides 2FA enforcement and audit logs which help improve the security posture of Managed Instance access.
 
 # Procedure
 
 These instructions are adapted from [Sourcegraph Docs Site - User authentication (SSO) instructions](https://docs.sourcegraph.com/admin/auth#openid-connect).
+
+## Adjusting License for increase seat count
+Ask `#ce` to increase the number of seats included in the customer's license by 10 to accommodate the seats used by internal Sourcegraph teammates with Site Admin access.
 
 ## Accessing the managed instance
 
@@ -98,6 +99,6 @@ Edit the initial account username to follow the “`sourcegraph-management-<firs
 Add Sourcegraph Teammates as required. Use the convention for usernames and use their corresponding @sourcegraph.com email address.
 
 - Customer Support - Application Engineers
-- Customer Engineers
+  - A subset of Application Engineers have access to managed instances. [They are listed in the Support Process page for Managed Instances](../../../../../support/process/support-managed-instances.md#accessing-managed-instances)
 - Delivery Team
-  - All members, for on-call rotation
+  - [All software engineers for on-call rotation](../../delivery/index.md#members)
