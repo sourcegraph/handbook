@@ -1,5 +1,16 @@
 # Deleting a managed instance
 
+## How to request
+
+1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-teardown.md&title=)
+2. Notify Delivery in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, linking to the issue
+
+SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
+
+---
+
+## Deletion guidance for engineering
+
 Deleting a managed instance is initiated by a CE team member by creating an teardown request. There are a few logical steps to follow.
 
 1.  Confirm the request with the CE Team. Data is not able to be recovered after this process is performed.
