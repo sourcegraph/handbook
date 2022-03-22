@@ -5,7 +5,7 @@
 1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)
 2. Notify Delivery in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, linking to the issue
 
-SLAs for this can be found with our other [managed instance SLAs](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/#slas-for-managed-instances).
+SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
 
 ---
 
