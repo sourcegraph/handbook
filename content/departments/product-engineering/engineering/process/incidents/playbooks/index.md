@@ -189,7 +189,7 @@ You can also perform these commands from the [Google Cloud SQL UI](https://conso
 
 ### Restore database using point-in-time recovery (creates new database clone!)
 
-🚨 You should open an incident (unless it is already open) and notify the #dev-ops channel if a situation arises when a point-in-time recovery is required.
+🚨 You should open an incident (unless it is already opened) and notify the #dev-ops channel if a situation arises when a point-in-time recovery is required.
 
 Explanation of [CloudSQL PostgreSQL point in time recovery](https://cloud.google.com/sql/docs/postgres/backup-recovery/pitr)
 
