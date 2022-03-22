@@ -7,6 +7,7 @@
 These instructions are adapted from [Sourcegraph Docs Site - User authentication (SSO) instructions](https://docs.sourcegraph.com/admin/auth#openid-connect).
 
 ## Adjusting License for increase seat count
+
 Ask `#ce` to increase the number of seats included in the customer's license by 10 to accommodate the seats used by internal Sourcegraph teammates with Site Admin access.
 
 ## Accessing the managed instance
