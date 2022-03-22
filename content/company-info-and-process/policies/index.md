@@ -11,7 +11,7 @@
 - [Cryptography Policy](../../departments/product-engineering/engineering/cloud/security/cryptography-policy.md)
 - [Data Management Policy](https://docs.google.com/document/d/1EteK_ftNhF8B_2G8BdSrW7xlehba_6yq)
 - [Security Incident Response Policy](../../departments/product-engineering/engineering/cloud/security/security-incident-response.md)
-- [Information Security Policy](https://docs.google.com/document/d/1FUwPGTWUYWJJ2VpTIXR8ZPIOaUS3e904/edit?usp=sharing)
+- [Information Security Policy](../policies/information-security-policy.md)
 - [Information Security Roles and Responsibilities](https://docs.google.com/document/d/1lW8bdjeuefI4HLDwzgPxpejh5D020MWj)
 - [Information Security Risk Management Policy](https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit?usp=sharing)
 - [Secure Development Policy](https://docs.google.com/document/d/1gbE38vc0zwWQMkO-UaoKZUWdNvoFcDl0)
