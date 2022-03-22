@@ -8,13 +8,15 @@ We track revenue associated with add-on features in this (private) [dashboard](h
 
 ## Key usage metrics
 
-We track success metrics in a (private) [Looker dashboard](https://sourcegraph.looker.com/dashboards-next/174).
+We track key usage metrics in this private [Looker dashboard](https://sourcegraph.looker.com/dashboards/279). We also track more granular metrics in this private [drilldown looker dashboard](https://sourcegraph.looker.com/dashboards-next/174).
 
-| Outcome                                            | Metric                                                                 |
-| -------------------------------------------------- | ---------------------------------------------------------------------- |
-| Are developers using Batch Changes?                | number of batch changes created, number of changesets published        |
-| Are batch changes successful?                      | merge rate of batch changes (changesets merged / changesets published) |
-| Is Batch Changes being adopted [broadly](#Vision)? | number of monthly MAUs and monthly visitors                            |
+| Outcome                                                    | Metric                                                                       |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Are batch changes customers active?                        | number of active batch changes customers / number of batch changes customers |
+| How much value are customers getting out of batch changes? | number of batch changes merged                                               |
+| Are batch changes successful?                              | merge rate of batch changes (changesets merged / changesets published)       |
+| Is Batch Changes being adopted broadly?                    | Batch Changes MAUs / Sourcegraph MAUs                                        |
+| Time to value                                              | TBD                                                                          |
 
 ## Definitions
 
