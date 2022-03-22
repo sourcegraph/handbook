@@ -7,7 +7,7 @@
 
 SLAs for this can be found with our other [managed instance SLAs](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/#slas-for-managed-instances).
 
-----
+---
 
 ## Deletion guidance for engineering
 
