@@ -567,7 +567,7 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 - Interviewer(s): Two Product Designers.
 - Duration: 1 hour
-- Details: In this interview, we will be looking for you to give some insight into a problem you were solving as part of a project you’ve worked on. You can present a real-life project or an exercise project you've created for your portfolio. We would like you to lead us through this problem and case study in detail. We’ll look to understand the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team (if applicable). We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. 
+- Details: In this interview, we will be looking for you to give some insight into a problem you were solving as part of a project you’ve worked on. You can present a real-life project or an exercise project you've created for your portfolio. We would like you to lead us through this problem and case study in detail. We’ll look to understand the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team (if applicable). We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
 
 ## Sales
 
