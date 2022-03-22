@@ -31,12 +31,14 @@ After [determining a managed instance is what a customer/prospect wants](https:/
 
 Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/index.md#slas). Other engineering SLAs are listed below
 
-|                                               | Description                                            | Response time                                  | Provide LOE                                                      | Resolution time                                                 |
-| --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort)                  | Within 10 working days from agreement                           |
-| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
-| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             |                                                                  | Within 1 week after latest release                              |
-| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release                    |
+|                                               | Description                                            | Response time                                  | Resolution time                                                 |
+| --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need  | Within 15 working days from agreement                           |
+| Existing instance suspension | Suspend an existing managed instance temporarily | Within 24 hours of becoming aware of the need  | Within 15 working days from agreement                           |
+| Existing instance deletion/teardown | Decommission/delete and existing managed instance | Within 24 hours of becoming aware of the need  | Within 15 working days from agreement                           |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need  | Dependenant on the request |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             | Within 1 week after latest release                              |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA | Within 1 week after patch / emergency release                    |
 
 ### Incident Response
 
