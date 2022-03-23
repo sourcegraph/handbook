@@ -46,13 +46,15 @@ With agency comes responsibility; teammates are expected to take initiative and 
 
 While [decisions should be made eagerly](../communication/decisions.md), this doesn't mean that you should make unilateral decisions when others should be involved. As an [open company](../about-sourcegraph/index.md#open-company), we value open discussion on important topics, and think that collaboration should be a large part of making things better. It is not a bad outcome if your proposal is not accepted or replaced with a better solution, because you took the initiative, started the conversation, and either reaffirmed that our current solution is good, or implemented an even better one! We're a startup, and if we take the safe path, we will most likely fail.
 
-#### Be iterative
+### High quality through iteration
 
-We try to ship small things fast, instead of big things slowly. Being iterative allows us to avoid unnecessarily long planning, avoid deadlocks, and derisk what we do faster, increasing the value we create for customers. Postponing shipping things leads to them being outdated, creates complexity in managing what's not been shipped, and delays learning.
+You are responsible for finding out what high-quality work looks like and delivering that high-quality work iteratively.
 
-Discussions around large changes tend to be slow and deadlock, whereas small steps are much more likely to lead to a decision. Bundling lots of problems together in the hope that you can fix them all at once is attractive, but it rarely works and as you increase the complexity of your proposal it becomes more and more likely that the whole thing will get stuck. It's also always easier to re-evaluate after we have learnt by taking a first step.
+We try to ship small things fast, instead of big things slowly. Being iterative allows us to avoid unnecessarily long planning, avoid deadlocks, and derisk what we do faster, increasing the value we create for customers. Postponing shipping things leads to them being outdated, creates complexity in managing what's not been shipped, and delays learning what high quality is.
 
-Having a strong vision and strategy allows us to be iterative: it gives us the framework that we need to move in the right direction, and allows us to plan less and iterate faster instead.
+Discussions around large changes tend to be slow and deadlock, whereas small steps are much more likely to lead to a decision. Bundling lots of problems together in the hope that you can fix them all at once is attractive, but it rarely works. That's because as you increase the complexity of your proposal it becomes more and more likely that the whole thing will get stuck, and because finding out what high quality is for a bundle of problems is much harder and vague. It's also always easier to re-evaluate after we have learnt by taking a first step.
+
+Having a strong vision and strategy allows us to deliver quality iteratively: it gives us the framework that we need to move in the right direction, and allows us to plan less and iterate faster instead.
 
 In practice this means we:
 
@@ -61,26 +63,11 @@ In practice this means we:
 - start a proposal, instead of waiting to organize a meeting to collect input
 - try to make reversible decisions, that allow us to change our mind if we need to
 
-Being iterative helps us have high agency, because small steps are easier to take and don't require approval. This is why it is a sub-principle of high agency. It also allows us to be more open and transparent, because we can learn in public by constantly shipping small improvements.
-
 Being iterative allows us to work efficiently in an async-first setting. As long as we are aligned on our vision and strategy, being iterative reduces the need for heavy coordination, because we are mostly taking small reversible steps. It reduces communication bandwidth, because in many case we can share concrete artifacts (a PR, customer feedback on an iteration, a proposal) instead of sharing larger plans.
 
 We should avoid iterating in a way where it requires change management or large company-wide communication (for example, changing planning processes in the middle of planning). You can do this by either waiting until the end of the process, or by making it clear that the changes will take effect next time.
 
 Because we're a [handbook first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, anyone can rapidly get caught up on recent changes by reading the handbook page.
-
-### High quality
-
-You are responsible for finding out what high-quality work looks like and delivering that high-quality work iteratively.
-
-- If you don’t know what high quality looks like, it's your responsibility to find out (for example, by asking teammates and stakeholders).
-- If you don’t have the time to produce high-quality work, then it's your responsibility to take more time or cut scope (and communicate this), so that you can produce high-quality work.
-- If you don’t have the skills to produce high-quality work, then it's your responsibility to acquire those skills (for example: learn them yourself, make use of [Sourcegraph's education budget](../../benefits-pay-perks/benefits-perks/travel/index.md#5-professional-development-stipend-and-educational-travel), delegate to an existing teammate with the necessary skills, or hire a new teammate with those skills).
-- If you need help producing high-quality work, it is your responsibility to get that help.
-
-If we discover that we've produced something that does not meet our quality bar, we'll roll it back (for example, revert a commit, roll back a deployment, or unpublish content) until we can make it high quality. If that's not possible, we'll prioritize improving it.
-
-High-quality isn't the opposite of iterative. You can keep quality high while still being iterative by narrowing the scope (for example, by solving a smaller problem at first, or by solving it only for certain customers initially).
 
 ### Be welcoming and inclusive
 
