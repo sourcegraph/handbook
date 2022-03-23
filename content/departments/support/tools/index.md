@@ -5,7 +5,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 ## Internal collaboration
 
 - Slack is our primary communication tool.
-- Github is where our handbook lives.
+- GitHub is where our handbook lives.
 - Zoom is how we connect synchronously.
 - Gmail is mostly for notifications.
 - Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
@@ -22,7 +22,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 - Slack is where we interact with most customers.
 - Salesforce is our source of truth for customer data.
 - Looker is our data warehouse so we can connect different data sources and analyze anything we need to.
-- ProductBoard is where collect all feedback about the product.
+- ProductBoard is where we collect all feedback about the product.
 - Calendly is useful when you need to schedule a call with a customer.
 - Krisp quiets background noise when on Zoom.
 - Grammarly and Hemingwayapp help us say what we intend and catch any typos we don't see.
@@ -40,11 +40,23 @@ Read more about working with managed instances [here](../process/support-managed
 ## Test Environments
 
 There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
+#### Sourcegraph Instances
+Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) to the Global settings if you are testing, experimenting or upgrading [cse-k8s](https://cse-k8s.sgdev.org) or [cse-aws-test](https://cse-aws-test.sgdev.org).
+```
+"notices": [
+    {
+        "location": "top",
+        "message": "This instance is down for maintenance."
+    },
+```
 
 - [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
 - [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
-- [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
+- [Sourcegraph on Single-container Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
+- [Sourcegraph on Docker Compose for local testing](https://docs.sourcegraph.com/admin/install/docker-compose)
+- [Sourcegraph on Kubernetes for local testing](https://docs.sourcegraph.com/admin/install/kubernetes/configure#minikube-overlay)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
+#### Code Host Instances
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
@@ -52,15 +64,16 @@ There are some test environments created specifically for the CS team to run tes
 - [Dogfood Perforce instance](../process/p4-enablement.md)
 
 > NOTE: You can find all the login credentials for the test instances in your 1Password account.
+
 > NOTE: It is not advised to use a personal AWS account for testing. Reach out to #delivery to be added to the Sourcegraph org on AWS
 
 ## Troubleshooting
 
 ### GitHub Repository for Support Tools
 
-The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private and you are welcome to add your projects to this repository, but please speak to Virginia about your ideas and plans before development starts to aviod possible conflicts.
+The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private, and you are welcome to add your projects to this repository, but please speak to Virginia about your ideas and plans before development starts to avoid possible conflicts.
 
-> NOTE: Please aviod working directly on main branch.
+> NOTE: Please avoid working directly on main branch.
 
 [Link to Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal)
 
