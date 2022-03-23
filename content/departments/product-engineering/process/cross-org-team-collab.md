@@ -15,7 +15,8 @@ The earlier you engage with the maintaining team, the more likely you are to avo
 Through these simple rules of engagement we can foster innovation at the company, avoid turf wars, and take advantage of the fact that we're a tool "by engineers, for engineers" and welcome everyone's contributions to improve the product while avoiding negative outcomes.
 
 ### Cross org and team projects
-* [New user experience](new-user-experience.md)
+
+- [New user experience](new-user-experience.md)
 
 ## Contributions from the public
 
