@@ -6,7 +6,7 @@ No one team or organization can effectively own this entire experience, so caref
 
 ## Cloud responsibilities
 
-### Growth
+### Growth & Integrations
 
 The Growth team will own the initial journeys of both new unauthenticated and authenticated users take to discover key functionality and use cases. Typically these journeys will provide an introduction to major product differentiators and features that factor heavily in user activation and retention. This includes the unauthenticated homepage, product tour and/or quick start flows, sign-up flows, and the post sign-up flow.
 
