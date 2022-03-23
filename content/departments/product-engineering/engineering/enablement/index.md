@@ -19,12 +19,12 @@ The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Dire
 
 [Michal Vrtiak](../../../../team/index.md#michal-vrtiak) serves as an org-level engineer, reporting into the Director of Engineering, and partners with the individual teams in the following modes:
 
-|Team Name|Partnership mode|
-|---|---|
-|Repo Management|coordinator, collaborator, advisor|
-|Dev Experience|coordinator, collaborator, advisor|
-|Frontend Platform|advisor|
-|Content Platform|advisor|
+| Team Name         | Partnership mode                   |
+| ----------------- | ---------------------------------- |
+| Repo Management   | coordinator, collaborator, advisor |
+| Dev Experience    | coordinator, collaborator, advisor |
+| Frontend Platform | advisor                            |
+| Content Platform  | advisor                            |
 
 The collaboration modes are described in the [profile role description](../career-development/ic5/enablement-org.md#partnership-modes).
 
