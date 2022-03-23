@@ -12,6 +12,6 @@
 - [Permanently deleting user data](permanently_deleting_user_data.md)
 - [Quarterly planning](quarterly-planning.md)
 - [Managed instances](support-managed-instances.md)
-- [Prioritizatin](support-prioritization.md)
+- [Prioritization](support-prioritization.md)
 - [Schedule](support-schedule.md)
 - [Workflow](support-workflow.md)

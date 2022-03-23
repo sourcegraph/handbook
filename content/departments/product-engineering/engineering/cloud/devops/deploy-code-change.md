@@ -12,7 +12,7 @@ Cloud, visit the [deployments](../../process/deployments/index.md) documentation
 
 - [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
   - [Assumptions](#assumptions)
-  - [Deploying the image to Cloud](#deploying-the-image-to-cloud)
+  - [Manually Deploying an image to Cloud](#manually-deploying-an-image-to-cloud)
   - [Large releases to Cloud (Rollup releases)](#large-releases-to-cloud-rollup-releases)
 
 ### Assumptions
@@ -24,7 +24,9 @@ that has the code change. CI builds images that are merged to main
 In extreme circumstances, you can follow the steps [here](../../process/deployments/testing.md#building-docker-images-for-a-specific-branch)
 to build an image that bypasses tests.
 
-### Deploying the image to Cloud
+### Manually deploying an image to Cloud
+
+All changes deployed to Cloud should be staged and tested in `preprod` first before releasing to production.
 
 1. Find the image by either going to the [buildkite CI logs](https://buildkite.com/sourcegraph/sourcegraph) on [Sourcegraph](https://github.com/sourcegraph/sourcegraph) or searching [Dockerhub](https://hub.docker.com/u/sourcegraph) for the correct tag.
 1. The Sourcegraph tag format is `[build_number]_[date]_[short git SHA1]`
@@ -33,14 +35,30 @@ to build an image that bypasses tests.
 
    - Typically, the image will need to be updated in an `deployment` or `statefulset` file
 
-1. Create a pull request against the `release` branch of the cloud repo.
+1. Create a pull request against the `preprod` branch of the cloud repo
 1. Request a review from the cloud-devops github team (preferable) or
 
    - another member of the Cloud organization.
-   - _In the future, 1 approval may be required before merging_
+   - Note: _1 approval is required before merging_
 
 1. Merge the pull request
 1. (Optional) View the CI run on the branch to ensure CI successfully rolls out the change.
+1. Once deployed, verify change is live and successful in [preprod](https://preview.sgdev.dev)
+
+Changes deployed to `preprod` will be automatically released to production on a [fixed schedule](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.github/workflows/release-preprod.yaml#L4). If a change is urgent and needs to be deployed to production quickly:
+
+1. Create a branch off the `release` branch of the cloud repo
+1. Create a pull request against the `release` branch of the cloud repo
+1. Request a review from the cloud-devops github team (preferable) or
+
+   - another member of the Cloud organization.
+   - Note: _1 approval is required before merging_
+
+1. Merge the pull request
+1. Once built and deployed verify change was successful
+1. Then create a branch off `preprod`
+1. Cherry-pick your changes onto this branch
+1. Submit a PR to merge those changes to `preprod`. Note in the PR that the changes are already live on Cloud.
 
 ## Large releases to Cloud (Rollup releases)
 

@@ -33,7 +33,7 @@ ssh -i .ssh/cse-aws.pem ec2-user@ec2-3-133-49-142.us-east-2.compute.amazonaws.co
 
 Upgrading CS-AWS follows the [standard procedure](https://docs.sourcegraph.com/admin/install/docker-compose/operations#upgrade) for upgrading a compose instance. The EC2 instance points at a [fork of deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-cse-aws).
 
-**Note: When connection to the EC2 server via SSH your user does not have permissions to run many git commands, you'll need to run git commands with `sudo` or switch to the root user with `sudo su`**
+**Note: When connection to the EC2 server via SSH your user does not have permissions to run many git commands, you'll need to run git commands with `sudo` or switch to the root user with `sudo su`, also note that `docker-compose` is not available to the root user, use `exit` to switch back to `ec2-user` and run compose commands.**
 
 CS-AWS is a standard Sourcegraph Docker Compose deployment. Its only divergence from the standard repo can be found in its Caddy configuration. In Docker Compose deployments Caddy is used to manage HTTPS certificate generation. The below code block is a snippet of the `docker-compose.yaml` found in `deploy-sourcegraph-docker/docker-compose`. **You'll need to make sure the caddy container specification in `docker-compose.yaml` matchs the code below after checking out the most recent release tag.**
 
