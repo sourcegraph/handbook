@@ -55,6 +55,7 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 
 - [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
 - [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
+#### Local Sourcegraph Instances
 - [Sourcegraph on Single-container Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
 - [Sourcegraph on Docker Compose for local testing](https://docs.sourcegraph.com/admin/install/docker-compose)
 - [Sourcegraph on Kubernetes for local testing](https://docs.sourcegraph.com/admin/install/kubernetes/configure#minikube-overlay)
