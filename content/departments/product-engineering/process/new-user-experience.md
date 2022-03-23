@@ -8,7 +8,7 @@ No one team or organization can effectively own this entire experience, so caref
 
 ### Growth
 
-The Growth team will own the initial journeys of both new unauthenticated and authenticated users take to discover key functionality and use cases. Typically these journeys will typically provide an introduction to major product differentiators and features that factor heavily in user activation and retention. This includes the unauthenticated homepage, product tour and/or quick start flows, sign-up flows, and the post sign-up flow.
+The Growth team will own the initial journeys of both new unauthenticated and authenticated users take to discover key functionality and use cases. Typically these journeys will provide an introduction to major product differentiators and features that factor heavily in user activation and retention. This includes the unauthenticated homepage, product tour and/or quick start flows, sign-up flows, and the post sign-up flow.
 
 From time to time, the Growth team will need to alter these user journeys to accommodate advances in product functionality.
 
