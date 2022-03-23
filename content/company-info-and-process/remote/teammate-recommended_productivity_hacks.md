@@ -53,6 +53,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 - **Log in to be let into meetings.** Generally if you've been stuck in a waiting room, it's because you're not logged in to Zoom, even if Zoom is displaying your name. Go to Zoom.us in the menu bar > Sign in to sign in and see if you're allowed in to the meeting.
 - **Set a personal meeting link.** By default, your Zoom link is long and hard to remember. Set a human-memorable one on the Zoom site, by going to [your profile](https://zoom.us/profile) and updating the "personal link" field.
 - **Set a profile picture in your Zoom account.** That way, even when your video is off, teammates can see the avatar they recognize you from from Slack. Set it [on your profile page](https://zoom.us/profile).
+- **Connect your Google calendar** so that your Zoom client displays all your upcoming meetings. To do this, go to your [web profile](https://zoom.us/profile), scroll down to `Calendar and Contacts Integration` and follow the steps there.
 
 ## Other tools
 
