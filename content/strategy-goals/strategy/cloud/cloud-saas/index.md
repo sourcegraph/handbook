@@ -19,3 +19,7 @@
 ## Roadmap
 
 The Cloud project roadmap is tracked in [productboard](https://sourcegraph.productboard.com/feature-board/2119755-cloud)
+
+## New user experience
+
+The Cloud SaaS team also works on the [new user experience](../../../../departments/product-engineering/process/new-user-experience.md) using our [cross-team collaboration principles](../../../../departments/product-engineering/process/cross-org-team-collab.md).
