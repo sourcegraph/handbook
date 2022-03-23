@@ -40,13 +40,23 @@ Read more about working with managed instances [here](../process/support-managed
 ## Test Environments
 
 There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
-
-> NOTE: Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) if you are testing, experimenting or upgrading cse-k8s or cse-aws-test.
+#### Sourcegraph Instances
+Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) to the Global settings if you are testing, experimenting or upgrading [cse-k8s](https://cse-k8s.sgdev.org) or [cse-aws-test](https://cse-aws-test.sgdev.org).
+```
+"notices": [
+    {
+        "location": "top",
+        "message": "This instance is down for maintenance."
+    },
+```
 
 - [Test instance deployed with Docker Compose](https://cse-aws-test.sgdev.org/) ([_management doc_](../process/managing-cs-aws.md))
 - [Test instance deployed with Kubernetes](https://cse-k8s.sgdev.org/) ([_management doc_](../process/managing-cs-k8s.md))
-- [Single Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
+- [Sourcegraph on Single-container Docker for local testing](https://docs.sourcegraph.com/admin/install/docker)
+- [Sourcegraph on Docker Compose for local testing](https://docs.sourcegraph.com/admin/install/docker-compose)
+- [Sourcegraph on Kubernetes for local testing](https://docs.sourcegraph.com/admin/install/kubernetes/configure#minikube-overlay)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
+#### Code Host Instances
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
@@ -54,6 +64,7 @@ There are some test environments created specifically for the CS team to run tes
 - [Dogfood Perforce instance](../process/p4-enablement.md)
 
 > NOTE: You can find all the login credentials for the test instances in your 1Password account.
+
 > NOTE: It is not advised to use a personal AWS account for testing. Reach out to #delivery to be added to the Sourcegraph org on AWS
 
 ## Troubleshooting
