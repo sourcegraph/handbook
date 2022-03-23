@@ -2885,3 +2885,14 @@ laura_hacker:
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
   description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
+
+ana_lavongtheung:
+  name: Ana Lavongtheung
+  email: ana.lavongtheung@sourcegraph.com
+  github: ana-lavongtheung
+  pronouns: she/her
+  role: Sales Development Representative
+  reports_to: head_sales_development
+  location: Claremont, CA, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/ana-lavongtheung/)'
+  description: Originally from Maui, Hawaii, Ana now lives in Claremont, CA with her weiner dog, Leo. She loves being outside and is always looking for her next adventure. In her free time, you can find her being active – whether it be playing rugby, pickleball or at the gym. Prior to Sourcegraph, Ana worked in the HR tech space. 
