@@ -41,7 +41,7 @@ Read more about working with managed instances [here](../process/support-managed
 
 There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
 
-#### Sourcegraph Instances
+#### External DNS Sourcegraph Instances
 
 Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) to the Global settings if you are testing, experimenting or upgrading [cse-k8s](https://cse-k8s.sgdev.org) or [cse-aws-test](https://cse-aws-test.sgdev.org).
 
