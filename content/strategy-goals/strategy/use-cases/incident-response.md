@@ -61,3 +61,4 @@ Sourcegraph is essential to how the Cloudflare security team addresses security 
 - [Productboard incident response (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482291/detail)
 - [Google SRE books](https://sre.google/books/)
 - [Cloudflare case study](https://about.sourcegraph.com/case-studies/cloudflare-accelerates-debugging-and-improves-security/)
+- [Related issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ause-case%2Fdev-onboarding+label%3Ause-case%2Fincident-response)
