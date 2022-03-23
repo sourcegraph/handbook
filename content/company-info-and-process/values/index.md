@@ -48,7 +48,7 @@ While [decisions should be made eagerly](../communication/decisions.md), this do
 
 ### High quality through iteration
 
-You are responsible for finding out what high-quality work looks like and delivering that high-quality work iteratively.
+You are responsible for defining and building high quality work iteratively.
 
 We try to ship small things fast, instead of big things slowly. Being iterative allows us to avoid unnecessarily long planning, avoid deadlocks, and derisk what we do faster, increasing the value we create for customers. Postponing shipping things leads to them being outdated, creates complexity in managing what's not been shipped, and delays learning what high quality is.
 
