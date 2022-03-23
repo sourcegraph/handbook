@@ -54,18 +54,18 @@ We try to ship small things fast, instead of big things slowly. Being iterative 
 
 Discussions around large changes tend to be slow and deadlock, whereas small steps are much more likely to lead to a decision. Bundling lots of problems together in the hope that you can fix them all at once is attractive, but it rarely works. That's because as you increase the complexity of your proposal it becomes more and more likely that the whole thing will get stuck, and because finding out what high quality is for a bundle of problems is much harder and vague. It's also always easier to re-evaluate after we have learnt by taking a first step.
 
-Having a strong vision and strategy allows us to deliver quality iteratively: it gives us the framework that we need to move in the right direction, and allows us to plan less and iterate faster instead.
+Having a strong vision and strategy allows us define and deliver high quality iteratively: it gives us the framework that we need to move in the right direction, and allows us to plan less and iterate faster instead.
 
 In practice this means we:
 
 - cut scope to get things out faster
 - don't hide work in progress from customers as long as the change is better than the previous state
 - start a proposal, instead of waiting to organize a meeting to collect input
-- try to make reversible decisions, that allow us to change our mind if we need to
+- try to make reversible decisions, that allow us to change our mind if we change our definition of success
 
 Being iterative allows us to work efficiently in an async-first setting. As long as we are aligned on our vision and strategy, being iterative reduces the need for heavy coordination, because we are mostly taking small reversible steps. It reduces communication bandwidth, because in many case we can share concrete artifacts (a PR, customer feedback on an iteration, a proposal) instead of sharing larger plans.
 
-We should avoid iterating in a way where it requires change management or large company-wide communication (for example, changing planning processes in the middle of planning). You can do this by either waiting until the end of the process, or by making it clear that the changes will take effect next time.
+We should avoid iterating in a way that requires change management or large company-wide communication (for example, changing planning processes in the middle of planning). You can do this by either waiting until the end of the process, or by making it clear that the changes will take effect next time.
 
 Because we're a [handbook first](../../handbook/index.md#what-does-it-mean-to-be-handbook-first) company, anyone can rapidly get caught up on recent changes by reading the handbook page.
 
