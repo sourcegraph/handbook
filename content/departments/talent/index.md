@@ -20,7 +20,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
 - [Non-US candidate resources]
   - [How we engage](../people-ops/process/how-we-engage-talent-outside-the-us.md)
-  - [How we pay](../people-ops/process/how-we-engage-talent-outside-the-us/#payments-2.md)
+  - [How we pay](../people-ops/process/how-we-engage-talent-outside-the-us.md#payments-2)
 
 ## Resources for Hiring Managers
 
