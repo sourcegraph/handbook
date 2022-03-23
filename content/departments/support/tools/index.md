@@ -40,8 +40,11 @@ Read more about working with managed instances [here](../process/support-managed
 ## Test Environments
 
 There are some test environments created specifically for the CS team to run tests on when helping customers. They allow the team to reproduce and debug issues without affecting our production instances.
+
 #### Sourcegraph Instances
+
 Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#notices) to the Global settings if you are testing, experimenting or upgrading [cse-k8s](https://cse-k8s.sgdev.org) or [cse-aws-test](https://cse-aws-test.sgdev.org).
+
 ```
 "notices": [
     {
@@ -56,7 +59,9 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 - [Sourcegraph on Docker Compose for local testing](https://docs.sourcegraph.com/admin/install/docker-compose)
 - [Sourcegraph on Kubernetes for local testing](https://docs.sourcegraph.com/admin/install/kubernetes/configure#minikube-overlay)
 - [Installation guide for Local Development](https://docs.sourcegraph.com/dev)
+
 #### Code Host Instances
+
 - [GitHub Enterprise test instance ](https://ghe.sgdev.org/)
 - [Gerrit test instance ](https://gerrit.sgdev.org/)
 - [Bitbucket test instance ](https://bitbucket.sgdev.org/)
