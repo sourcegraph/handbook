@@ -57,7 +57,7 @@ We are not providing the interview ahead of time to ensure all candidates have e
 #### We will evaluate the following:
 
 - Can the candidate lead the room, keep the group focused, and facilitate the exercise.
-- How does the candidate explore new problems and get the information necessary to complete a task
+- How does the candidate explore new problems and get the information necessary to complete a task?
 - How does the candidate handle conflict and deal with adversity?
 - Does the candidate help participants structure their feedback and generate consensus?
 - Do they summarize the outcomes of the discussion?
