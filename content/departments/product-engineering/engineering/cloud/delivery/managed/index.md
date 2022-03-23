@@ -24,7 +24,7 @@ Please first read [the customer-facing managed instance documentation](https://d
 
 Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
 
-They currently carry a heavy cost in terms of engineering time (which is not negated by the markup in cost since more money doesn't equal more time). As a result, they aren't the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
+As of 2022-03-10, managed instance is not the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
