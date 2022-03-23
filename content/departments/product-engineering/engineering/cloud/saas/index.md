@@ -31,6 +31,10 @@ In addition to the organization-level management capabilities, we are also respo
 
 While managing code host connections and repositories as a domain is owned by the Repository Management team, we identify this area as crucial for supporting organizations collaborating on the cloud. It’s also impacted by the transition from single to multi-tenant architecture. Because of both, we acknowledge the lack of clear boundaries between the domains and the need for close collaboration between both teams in this problem space.
 
+#### New user experience
+
+User journeys which help new unauthenticated and authenticated users set up Sourcegraph and discovery key functionality and use cases. These flows cover major product differentiators and features that factor in activation and retention, but do not extend to onboarding of specific product functionality such as the specifics of how to search, use batch changes, or create code insights.
+
 #### Subscription management
 
 The end-to-end experience of managing customers’ subscription lifecycle includes the subscription as the entity, its changes over time, and the impact on Sourcegraph product offering and AAR. This includes both providing transparency to the customers and internal tooling to support Customer Engineering and Finance and Sales teams.
