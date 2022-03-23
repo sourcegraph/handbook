@@ -75,7 +75,7 @@ Please fill out this form [this form](https://forms.gle/8T41EQmxcH8JN2Fx9) and T
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-#### Product team laptops:
+#### Product & Design team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
