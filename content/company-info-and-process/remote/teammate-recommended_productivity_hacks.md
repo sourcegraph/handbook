@@ -31,7 +31,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 - **Show only unread channels in your channel sections.** Right-click on a channel section or the "Channels" header, then select "Show" > "Unread channels only."
 - **Set up [Slack keywords](https://slack.com/slack-tips/get-notified-when-someone-mentions-a-topic-you-care-about) to get notified about relevant threads you aren't tagged in.** Go to Preferences > Notifications > My keywords and add your list of keywords separated by commas. You'll get notified whenever someone uses them.
 - **Use [Slackbot's reminder feature](https://slack.com/help/articles/208423427-Set-a-reminder#set-a-reminder-for-a-message) to get reminded of threads later on without leaving them as unread** Hover on any Slack message > Select "More actions" in the toolbar > Select "Remind me about this" and choose when you'd like to be reminded. Slackbot will keep your pending messages backlog, you can mark items as Complete when you've gone through them.
-- **Search for Slack channel.** Anyone else got too many Slack channels and can't find the one you want? Command K lets you search for a Slack channel by name.
+- **Search for Slack channel.** Anyone else got too many Slack channels and can't find the one you want? `cmd`+`k` lets you search for a Slack channel by name.
 
 ### Popular app integrations
 
@@ -53,6 +53,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 - **Log in to be let into meetings.** Generally if you've been stuck in a waiting room, it's because you're not logged in to Zoom, even if Zoom is displaying your name. Go to Zoom.us in the menu bar > Sign in to sign in and see if you're allowed in to the meeting.
 - **Set a personal meeting link.** By default, your Zoom link is long and hard to remember. Set a human-memorable one on the Zoom site, by going to [your profile](https://zoom.us/profile) and updating the "personal link" field.
 - **Set a profile picture in your Zoom account.** That way, even when your video is off, teammates can see the avatar they recognize you from from Slack. Set it [on your profile page](https://zoom.us/profile).
+- **Connect your Google calendar** so that your Zoom client displays all your upcoming meetings. To do this, go to your [web profile](https://zoom.us/profile), scroll down to `Calendar and Contacts Integration` and follow the steps there.
 
 ## Other tools
 
