@@ -12,7 +12,7 @@ The Growth team will own the initial journeys of both new unauthenticated and au
 
 From time to time, the Growth team will need to alter these user journeys to accommodate advances in product functionality.
 
-The scope of Growth's efforts should not extend the specifics of how to use individual product features, that would be up to the team that owns that feature.
+The scope of Growth's efforts should not extend the specifics of how to use individual product features, that would be up to the team that owns that feature. The Growth team is welcome of course to provide feedback to the teams where feature journeys are incomplete.
 
 ### Cloud SaaS
 
