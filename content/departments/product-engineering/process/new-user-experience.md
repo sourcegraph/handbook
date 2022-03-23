@@ -20,4 +20,4 @@ The Cloud team will own user journeys related to the onboarding of teams. This i
 
 ## Code Graph responsibilities
 
-Search, Batch Changes, Code Insights, and Code Intelligence will own user education for their specific product areas. They will collaborate with other code graph teams to promote feature discovery in places like search results, repository pages, and other areas of the site where integration opportunities exist.
+Search Core, Search Product, Batch Changes, Code Insights, and Code Intelligence will own user education for their specific product areas. They will collaborate with other code graph teams to promote feature discovery in places like search results, repository pages, and other areas of the site where integration opportunities exist.
