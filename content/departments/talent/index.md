@@ -18,7 +18,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [The offer process](process/extending_an_offer.md)
   - [Reference checks](process/reference_check_questions.md)
   - [Offer letter FAQ](tools/resources_for_candidates.md#candidate-faq)
-- [Non-US candidate resources](../people-ops/process/how-we-engage-talent-outside-the-us.md)
+- [Non-US candidate resources]
   - [How we engage](../people-ops/process/how-we-engage-talent-outside-the-us.md)
   - [How we pay](../people-ops/process/how-we-engage-talent-outside-the-us/#payments-2.md)
 
