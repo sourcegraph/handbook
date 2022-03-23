@@ -18,4 +18,4 @@ The scope of Growth's efforts should not extend the specifics of how to use indi
 The Cloud team will own user journeys related to the onboarding of teams. This includes flows related to team creation, user invites, and administration. 
 
 ## Code Graph responsibilities
-Search, Batch Changes, Code Insights, and Code Intelligence will own user education for their specific product areas. They will  collaborate with other code graph teams to promote feature discovery in places like search results, repository pages, and other areas of the site where opportunities exist for integrations.
+Search, Batch Changes, Code Insights, and Code Intelligence will own user education for their specific product areas. They will  collaborate with other code graph teams to promote feature discovery in places like search results, repository pages, and other areas of the site where integration opportunities exist.
