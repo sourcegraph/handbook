@@ -6,7 +6,7 @@ Our mission is to provide technical foundations critical to the business, our cu
 
 ## Team
 
-The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering)). [Michal Vrtiak](../../../../team/index.md#michal-vrtiak) serves as an org-level engineer, reporting into the Director of Engineering, and partners with the teams below.
+The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering)).
 
 **[Repo Management](./repo-management/index.md)**
 {{generator:product_team.repo_management}}
@@ -16,6 +16,17 @@ The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Dire
 {{generator:product_team.frontend_platform}}
 **[Content Platform](./content-platform/index.md)**
 {{generator:product_team.content_platform}}
+
+[Michal Vrtiak](../../../../team/index.md#michal-vrtiak) serves as an org-level engineer, reporting into the Director of Engineering, and partners with the individual teams in the following modes:
+
+| Team Name         | Partnership mode                   |
+| ----------------- | ---------------------------------- |
+| Repo Management   | coordinator, collaborator, advisor |
+| Dev Experience    | coordinator, collaborator, advisor |
+| Frontend Platform | advisor                            |
+| Content Platform  | advisor                            |
+
+The collaboration modes are described in the [profile role description](../career-development/ic5/enablement-org.md#partnership-modes).
 
 ## Principles and practices
 
