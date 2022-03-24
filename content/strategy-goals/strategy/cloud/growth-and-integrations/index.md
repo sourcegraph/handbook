@@ -50,3 +50,7 @@ The below items are the team's current focus areas in order of delivery quarter.
 | Browser Extension handles both Sourcegraph.com and a private instance       | Integration maintenance | Q3                      |
 | All code host integrations natively support Bitbucket Cloud and Data Center | Integration maintenance | Q4                      |
 | Identify barriers to integration adoption                                   | Integration adoption    | Q4                      |
+
+## New user experience
+
+The Growth & Integration team also works on the [new user experience](../../../../departments/product-engineering/process/new-user-experience.md) using our [cross-team collaboration principles](../../../../departments/product-engineering/process/cross-org-team-collab.md).
