@@ -2885,3 +2885,13 @@ laura_hacker:
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
   description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
+
+jordan_bushong:
+  name: Jordan Bushong
+  role: Senior Manager Sales Development Representative
+  reports_to: head_sales_development
+  location: Saint Louis, MO, USA 🇺🇸
+  github: jbushong88
+  email: jordan.bushong@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/jordan-bushong-b0204590/)'
+  description: Jordan lives in Saint Louis, MO with his wife, two kids and four dogs. In his spare time Jordan enjoys DIY projects, hiking, rowing, chess, video games (before he had children) and going to new resteraunts.
