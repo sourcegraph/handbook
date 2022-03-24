@@ -35,7 +35,6 @@ Customer Engineers (CE) or Sales may request that to:
  - **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=)]
    - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
    - For new customers or prospects who currently do not have a managed instance.
-   - Guidance on [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed)
  - **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)]
    - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
  - **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-teardown.md&title=)]
