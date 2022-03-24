@@ -515,13 +515,13 @@ native_integration:
   compatibility:
     gitlab_com: true
     gitlab_enterprise: true
-    github_com: false
-    github_enterprise: false
+    github_com: true
+    github_enterprise: true
     bitbucket_server: true
-    bitbucket_cloud: false
+    bitbucket_cloud: true
     phabricator: true
     codecommit: false
-    gitolite: false
+    gitolite: true
     gerrit: false
     perforce: false
     cvs: false
