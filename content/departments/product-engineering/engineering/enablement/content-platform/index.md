@@ -138,3 +138,4 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
     - QA links
     - Questions for stakeholders
     - Progress updates as needed
+- All marketing requests go through our [QA process](qa-process.md).
