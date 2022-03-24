@@ -32,7 +32,7 @@ Please message [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX/p1
 
 ## Managed Instance Requests
 
-Customer Engineers (CE) or Sales may request that to:
+Customer Engineers (CE) or Sales may request to:
 
 - **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
