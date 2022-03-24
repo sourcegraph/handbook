@@ -2885,3 +2885,14 @@ laura_hacker:
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
   description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
+
+collette_tesauro:
+  name: Collette Tesauro
+  email: collette@sourcegraph.com
+  github: collettesg
+  pronouns: she/her
+  role: Senior Legal Counsel - Privacy & Employment
+  reports_to: director_legal
+  location: Laurel Springs, NJ, USA 🇺🇸
+  links: ‘[LinkedIn](https://www.linkedin.com/in/ctesauro)'
+  description: Collette is a New Jersey native, and currently resides there after a nine-year hiatus in San Diego, CA. Prior to joining Sourcegraph, Collette spent years working as both in-house and external employment and privacy counsel. In her non-working time, Collette enjoys playing video games with friends 🎮, reading (and collecting books she plans to read) 📚, and spending time with her husband.
