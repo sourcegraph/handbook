@@ -29,10 +29,13 @@ This table correlates to our [technical competency matrix](https://docs.google.c
 - [How to Migrate Sourcegraph from one Cluster to another](k8-migration.md)
 - [Kubernetes and Docker](k8s-resources.md)
 - [Determining root cause](root-cause.md)
+- [Using code insights to monitor recently resolved tickets](keeping-up-with-resolved-issues.md)
+- [Application Engineers guide to getting started with Sourcegraph logging, services, and observability](../../tools/support-logging-guide.md)
 
 ## Videos
 
 - [Sourcegraph Codebase Tour](https://www.youtube.com/watch?v=3OewJAaX4KI)
+- [Sourcegraph Codebase Tour v2](https://www.youtube.com/watch?v=VXaUXwMLzjg)
 - [High level overview created with CS in mind](https://drive.google.com/file/d/1Veat9m5gb8O0fL37b-lD5rl5fKToTmb6/view?usp=sharing) ([_timestamps_](high-level-overview-index.md))
 - [Intro to Jaeger & Tracing](https://drive.google.com/file/d/17mnCqJWJ1C855hl73hV1Y5S-1EOzusgX/view?usp=sharing)
 - [Kubernetes crash course](https://drive.google.com/file/d/1mmD3NZaxAGiIwGLvYxK80DjuQco7z5JL/view?usp=sharing) (and the [slides](https://docs.google.com/presentation/d/155SXUleQP8X7tvhaxudkdxHuFXgFKy2d0AAu0GLUc1o/edit?usp=sharing))

@@ -38,19 +38,21 @@ technical:
   - term: dev
     definition: Someone who can barely write code, but does so professionally
   - term: k8s
-    definition: Kubernetes, a thing for deploying software across multiple computers
+    definition: Kubernetes, a thing for deploying software across multiple computers. The "8" is because there are 8 characters between the letter K and s. K`ubernete`s
   - term: a11y
     definition: Accessibility, the "11" is because there are 11 characters between the letter A and Y. a`ccessibilit`y
   - term: i18n
     definition: Internationalization, like having the UI show in multiple languages.
   - term: GCP
-    definition: Servers hosted on Google's cloud
+    definition: Google Cloud Platform, servers hosted on Google's cloud
   - term: AWS
-    definition: Servers hosted on Amazon's cloud
+    definition: Amazon Web Services, servers hosted on Amazon's cloud
   - term: SMTP
-    definition: or IMAP Email server protocols
+    definition: Simple Mail Transfer Protocol, email server protocol
+  - term: IMAP
+    definition: Internet Message Access Protocol, email server protocol
   - term: IDE
-    definition: The text editor people use to write code
+    definition: Integrated Developer Environment, the text editor people use to write code
   - term: HG
     definition: Horse Graph
   - term: Standup

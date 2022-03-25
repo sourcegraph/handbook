@@ -49,7 +49,6 @@ Our company values can be found [here](../../../company-info-and-process/values/
 - Sruti Dhulipala - Senior Manager, Global Brand Strategy
 - Jessie Char - Senior Manager, Events & Experiences
 - Steph Zabala - Principal Designer, Brand
-- Brett Hayes – Senior Web Developer, Brand
 
 To be hired:
 

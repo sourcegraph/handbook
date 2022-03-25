@@ -1,5 +1,16 @@
 # Suspending a managed instance
 
+## How to request
+
+1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)
+2. Notify Delivery in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, linking to the issue
+
+SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
+
+---
+
+## Engineering instructions
+
 This page documents how suspension of managed instances are done for [managed instances](./index.md). This is useful when Sales team would like to re-engage a customer at a later date and they already have a managed instance provisioned. We will tear down most resources while still keeping the persistent data (disk snapshot) around.
 
 Managed instances configuration is tracked in [`deploy-sourcegraph-managed-instances`](https://github.com/sourcegraph/deploy-sourcegraph-managed).

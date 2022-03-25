@@ -17,26 +17,48 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [Upgrading a managed instance](upgrade_process.md)
 - [Suspending a managed instance](suspend_process.md)
 - [Resuming a managed instance](resume_process.md)
-- [Enable executors][enable_executors_process.md]
+- [Enable executors](enable_executors_process.md)
 - [FAQ](#faq)
 
-## Requesting a managed instance
+## When to offer a Managed Instance
 
-After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
+Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
 
-1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
-2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
+As of 2022-03-10, managed instance is not the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
+
+See below for the SLAs and Technical implementation details (including Security) related to managed instances.
+
+Please message [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX/p1646784843000319) for any answers or information missing from this page.
+
+## Managed Instance Requests
+
+Customer Engineers (CE) or Sales may request to:
+
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=)]
+  - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
+  - For new customers or prospects who currently do not have a managed instance.
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)]
+  - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-teardown.md&title=)]
+  - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+
+### Workflow
+
+1.  Submit a request to the Delivery team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+2.  Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
 ## SLAs for managed instances
 
 Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/index.md#slas). Other engineering SLAs are listed below
 
-|                                               | Description                                            | Response time                                  | Provide LOE                                                      | Resolution time                                                 |
-| --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort)                  | Within 10 working days from agreement                           |
-| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need  | Within 2 weeks to provide LOE (level of effort) from engineering | Use commercially reasonable efforts to develop a product update |
-| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                             |                                                                  | Within 1 week after latest release                              |
-| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | Within 24 hours of becoming aware of the patch | Within 1 week after patch / emergency release                    |
+|                                               | Description                                            | Response time                                 | Resolution time                               |
+| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependenant on the request                    |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 
 ### Incident Response
 

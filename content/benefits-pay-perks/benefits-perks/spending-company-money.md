@@ -42,7 +42,9 @@ The estimated spend for interns is **$925\*** and includes only the electronic i
 
 ## Computers
 
-All Sourcegraph teammates are required to have, and to work from, a company machine. Computers are considered property of the company. Please see below how to get your computer and which specs to get depending on your role.
+All Sourcegraph teammates are required to have, and to work from, a company machine that is set up accoring to our [device requirements](../../departments/tech-ops/tools/computer-setup.md). Computers are considered property of the company.
+
+Please see below how to get your computer and which specs to get depending on your role.
 
 ### Ordering your laptop:
 
@@ -63,37 +65,39 @@ Different specs are required depending on your role, please see below for necess
 
 ### Interns
 
-Please fill out this form [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and Tech Ops will get you a Sourcegraph device. While we will do everything we can to get you the same specifications as below, availability will depend on the stock of devices we have available and the particular responsibilities of the work you will be doing during your internship. Typically, these devices are an older models than what we order new.
+Please fill out this form [this form](https://forms.gle/8T41EQmxcH8JN2Fx9) and Tech Ops will get you a Sourcegraph device. While we will do everything we can to get you the same specifications as below, availability will depend on the stock of devices we have available and the particular responsibilities of the work you will be doing during your internship. Typically, these devices are an older models than what we order new. Interns should adhear to our [computer requirements](../../departments/tech-ops/tools/computer-setup.md) for setting up their Sourcegraph device.
 
-### Customer Engineering team laptops:
+### Laptop Specs
+
+#### Customer Engineering team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Pro - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Product team laptops:
+#### Product & Design team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Engineering team laptops:
+#### Engineering team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 64 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-mbp-16-m1m-10c32c-64-1tb-sg/6740562?enkwrd=6740562)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Customer Support team laptops:
+#### Customer Support team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 
-### Data & Analytics team laptops:
+#### Data & Analytics team laptops:
 
 - Apple MacBook Pro - 16.2" M1 Max - 32 GB RAM, 1 TB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-max-32-gb-ram-1-tb-ssd-us/6738961?enkwrd=6738961)
 
-### All other teams laptops:
+#### All other teams laptops:
 
 - Apple MacBook Pro - 14.2" M1 Pro - 16 GB RAM, 512 GB SSD
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-14-apple-m1-pro-chip-16-gb-ram-512-gb-ssd-spac/6738971?enkwrd=6738971)
@@ -101,7 +105,7 @@ Please fill out this form [this form](https://forms.gle/1PVxXwLJ9WFJvref9) and T
   - [See product in CDW for reference](https://www.cdw.com/product/apple-macbook-pro-16.2-m1-pro-16-gb-ram-512-gb-ssd-us/6738963?enkwrd=6738963)
 - Any other laptop that is of equal or lesser value than the pre-approved laptop.
 
-### Other computer
+#### Other computer
 
 - If you want something different please contact [Tech Ops](mailto:tech-ops@sourcegraph.com), but if it is more expensive than the laptops listed above please have managerial or [People Ops](mailto:people-ops@sourcegraph.com) approval before requesting.
 
