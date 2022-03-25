@@ -10,7 +10,6 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 
 ## Team members
 
-- We're hiring a [Product Manager](../../../product/roles/index.md#product-manager) ([apply here](https://boards.greenhouse.io/sourcegraph91/jobs/4013257004)) for this role. [Jason Yavorska](../../../../../team/index.md#jason-yavorska) is involved in the meantime.
   {{generator:product_team.search_core}}
 
 ## Contact
@@ -65,6 +64,7 @@ Public resources are available here:
 - [Learning Go](https://go.dev)
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
+- [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
