@@ -62,7 +62,7 @@ Control and management of individual user passwords is the responsibility of all
 
 Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password.
 
-[This](https://handbook.sourcegraph.com/departments/tech-ops/process/internal_security#laptop-setup-standards) is guidance for setting passwords to Sourcegraph-managed accounts. These are strongly recommended and will be enforced at the organizational level when available.
+[This](../../departments/tech-ops/process/internal_security.md#laptop-setup-standards) is guidance for setting passwords to Sourcegraph-managed accounts. These are strongly recommended and will be enforced at the organizational level when available.
 
 **System and Application Access**
 
