@@ -3,7 +3,7 @@
 This section of the Handbook holds all documentation related to specific departments. Processes used company-wide can be found in [Company Info and Processes](../company-info-and-process/index.md).
 
 - [Business Operations](bizops/index.md)
-- [CEO Team](ceo team/index.md)
+- [CEO Team](ceo-team/index.md)
 - [Customer Engineering](ce/index.md)
 - [Finance](finance/index.md)
 - [Legal](legal/index.md)
