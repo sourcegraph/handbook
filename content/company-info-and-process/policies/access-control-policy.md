@@ -62,7 +62,6 @@ Control and management of individual user passwords is the responsibility of all
 
 Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password.
 
-
 **System and Application Access**
 
 ## **Information Access Restriction**
