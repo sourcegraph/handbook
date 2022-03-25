@@ -1,6 +1,6 @@
 # Product documentation
 
-These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/doc). See [editing the handbook](../../../../handbook/editing/index.md) for how to contribute handbook content.
+These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/main/doc). See [editing the handbook](../../../../handbook/editing/index.md) for how to contribute handbook content.
 
 ## Contributing
 
@@ -10,13 +10,15 @@ The developer who made the code change is also [responsible](../roles/index.md#s
 
 For documentation changes that introduce new HTML/CSS/JS patterns to the docs site, the author should tag `@frontend-devs` as an additional reviewer on the pull request.
 
+The [changelog](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) should also be updated for any changes that impact the user.
+
 It's the [responsibility of the Product Manager](../../product/roles/index.md#product-manager) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
 
 We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a changelog checklist to ensure everything is documented.
 
 ### Local development of documentation only
 
-For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/). The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md), is not required.
+For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/main/). The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/local_development.md), is not required.
 
 After saving any changes or updates, documentation can be previewed locally with the following commands:
 
