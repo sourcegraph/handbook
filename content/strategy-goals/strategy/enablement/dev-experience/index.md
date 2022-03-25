@@ -33,7 +33,7 @@ Discoverability does not absolve anyone from writing documentation, but instead 
 
 #### CI steps are first class citizens and have owners
 
-Linking a step to what scripts are run should not be a tedious task that requires squinting the eyes at a myriad of log lines. As an engineer working on a particular domain, adding or updating a step should be straightforward to me, even if I'm not familiar with the CI.
+Linking a step to any scripts that may be run, should not be a tedious task that requires squinting at a myriad of log lines. As an engineer working on a particular domain, adding or updating a step should be straightforward, even if there is no familiarity with the CI.
 
 #### CI is predictable, then fast
 
