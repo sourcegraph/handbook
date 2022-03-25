@@ -10,7 +10,7 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 
 ## Team members
 
-  {{generator:product_team.search_core}}
+{{generator:product_team.search_core}}
 
 ## Contact
 
