@@ -723,7 +723,7 @@ signup_flow:
 
 onboarding_flow:
   category: Web App - Core Feature
-  title: Post sign up / onboarding flow / product tour / in-product guidance
+  title: Post sign up / onboarding flow / product tour / in-product guidance / new user experience (NUE)
   type: Product
   product_org: cloud
   product_team: growth_and_integrations

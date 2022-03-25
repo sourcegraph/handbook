@@ -21,16 +21,10 @@ Full org chart:
 - [Product org chart](../product/team/index.md)
 - [Engineering org chart](../engineering/team/index.md)
 
-## CTO team sync
-
-The CTO, the CTOs direct reports, Kylie, and Michal meet every Monday 1–1:30pm PT to discuss agenda items.
-
 ## VP team sync
 
 The product and engineering VPs and their direct reports meet every Monday 8–9am PT.
 
 Agenda:
 
-- Review [OKR tracker slides](#okr-tracker-slides).
-- Review metrics in the [product and engineering KPI dashboard](https://sourcegraph.looker.com/dashboards-next/217).
 - Discuss [agenda items](https://docs.google.com/document/d/1wxPfAGE-WbPo4Bx4C1cRPu9qpgooxOWomavNHaWg8iE/edit#heading=h.opj5ynmxw7w0).
