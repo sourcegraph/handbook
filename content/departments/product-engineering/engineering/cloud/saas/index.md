@@ -21,6 +21,10 @@ Beyond Q4, our goals over the next 12–24 months include:
 
 Service management is a broad area of ownership. To provide more clarity into what its stands for, we will break this down based on product domains. We will also provide a list of features and services from a technical engineering ownership perspective.
 
+### New user experience
+
+The Growth & Integration team also works on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
+
 ### Product domains
 
 #### Administration experience and teams management
