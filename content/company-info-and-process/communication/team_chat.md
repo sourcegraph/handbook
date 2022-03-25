@@ -56,7 +56,7 @@ Make sure to set up Slack to only send you notifications when you want to see th
 
 ### Slack Best Practices
 
-   **1. Engage with messages by following emoji norms**
+**1. Engage with messages by following emoji norms**
 
 Use these emoji reactions to quickly engage with messages in Slack and help with asynchronous alignment:
 
@@ -69,7 +69,7 @@ Use these emoji reactions to quickly engage with messages in Slack and help with
 
 ####
 
-  **2. Default to public channels**
+**2. Default to public channels**
 
 - When using Slack for work-related purposes, avoid private messages. Use a public channel and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
 - Move work-related private messages to public channels. . The process might look something like this:
@@ -78,20 +78,20 @@ Use these emoji reactions to quickly engage with messages in Slack and help with
 
 ####
 
-   **3. Use threads to keep conversations focused**
+**3. Use threads to keep conversations focused**
 
 - While working in a Slack channel, use the “thread” feature to reply to messages instead of replying directly in the channel. This keeps the signal-to-noise ratio in the channel high. ​​When a thread reached a point where a decision is made and that information would be useful to the entire channel you can check the “also send to #channel” button to make that message visible to the main channel.
 - If you need to start a new topic of conversation, post directly in the channel to start a new thread.
 
 ####
 
-   **4. Share complete thoughts**
+**4. Share complete thoughts**
 
 - Rather than sending a stream of consciousness through multiple messages in a row, collect your thoughts and share one clear message. Doing this protects your teammates’ workflow.
 
 ####
 
-   **5. Follow Naming Conventions**
+**5. Follow Naming Conventions**
 
 **Profile Name:**
 
@@ -107,7 +107,7 @@ As an asynchronous-first company, there are many public Slack channels at Source
 
 ####
 
-   **6. Archive old and unused channels**
+**6. Archive old and unused channels**
 
 To keep the Sourcegrpah workspace on Slack organized, easy to navigate, and up to date, archive channels when they are no longer needed. First, send a final message in the channel notifying its members that you are going to archive the channel, allow 24 hours for any objections, then archive the channel.
 
