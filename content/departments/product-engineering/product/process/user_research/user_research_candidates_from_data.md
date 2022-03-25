@@ -13,9 +13,11 @@ A couple thoughts from teammates on what to think about when considering whether
 
 ## Legalities
 
-Legally, we can reach out to individual cloud users (but not cloud users within an organization) because individual users agree to our Privacy Policy when they sign up. Our Privacy Policy allows us to reach out to users for marketing purposes and product improvement purposes.
+### Cloud
 
-Users within an organization are different because we don't have their consent to reach out to them for marketing or product improvement. We may want to check with a user's site admin or our contact for their written consent.
+We can reach out to individual cloud users who are *not* a part of an organization because individual users agree to our Privacy Policy when they sign up. Our Privacy Policy allows us to reach out to users for marketing purposes and product improvement purposes.
+
+To reach out to individuals who are part of an organization, we need to check with their admin or contact for their written consent. 
 
 ## Process
 
