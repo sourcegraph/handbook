@@ -42,7 +42,7 @@ Private channels will automatically be created for the following categories of c
 - Management: Channels where managers can communicate about specific private or sensitive team situations.
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
 - Affinity groups: Channels for affinity groups that prefer a private space.
-- Internal: While we strongly encourage that every team keep these public by default and to use our {$TEAMNAME}-internal [naming convention](team_chat/.md#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
+- Internal: While we strongly encourage that every team keep these public by default and to use our "TEAMNAME-internal" naming convention to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
 If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting [#it-tech-ops](https://sourcegraph.slack.com/archives/it-tech-ops) to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals’ privacy.
 
