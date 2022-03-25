@@ -15,9 +15,9 @@ A couple thoughts from teammates on what to think about when considering whether
 
 ### Cloud
 
-We can reach out to individual cloud users who are *not* a part of a Cloud organization because individual users agree to our Privacy Policy when they sign up. Our Privacy Policy allows us to reach out to users for marketing purposes and product improvement purposes.
+We can reach out to individual cloud users who are _not_ a part of a Cloud organization because individual users agree to our Privacy Policy when they sign up. Our Privacy Policy allows us to reach out to users for marketing purposes and product improvement purposes.
 
-To reach out to individuals who are part of a Cloud organization, we need to check with their admin or contact for their written consent. 
+To reach out to individuals who are part of a Cloud organization, we need to check with their admin or contact for their written consent.
 
 ## Process
 
