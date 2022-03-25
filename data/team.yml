@@ -2895,3 +2895,14 @@ jordan_bushong:
   email: jordan.bushong@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/jordan-bushong-b0204590/)'
   description: Jordan lives in Saint Louis, MO with his wife, two kids and four dogs. In his spare time Jordan enjoys DIY projects, hiking, rowing, chess, video games (before he had children) and going to new resteraunts.
+
+collette_tesauro:
+  name: Collette Tesauro
+  email: collette@sourcegraph.com
+  role: Senior Legal Counsel - Privacy & Employment
+  pronouns: she/her
+  reports_to: director_legal
+  location: Laurel Springs, NJ, USA 🇺🇸
+  github: collettesg
+  links: '[LinkedIn](https://www.linkedin.com/in/ctesauro)'
+  description: Collette is a New Jersey native, and currently resides there after a nine-year hiatus in San Diego, CA. Prior to joining Sourcegraph, Collette spent years working as both in-house and external employment and privacy counsel. In her non-working time, Collette enjoys playing video games with friends 🎮, reading (and collecting books she plans to read) 📚, and spending time with her husband.
