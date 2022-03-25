@@ -18,7 +18,7 @@ _All teammates should join these channels and check them regularly_
 
 ### Slack Retention
 
-Slack is not a [source of truth](https://handbook.sourcegraph.com/company-info-and-process/communication/#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://handbook.sourcegraph.com/company-info-and-process/communication/#sources-of-truth). To enforce this, only 90 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels. Exceptions to this rule include the following channels:
+Slack is not a [source of truth](index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](index.md#sources-of-truth). To enforce this, only 90 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels. Exceptions to this rule include the following channels:
 
 - [#security-monitoring](https://sourcegraph.slack.com/archives/security-monitoring) retains messages for 5 years for auditing purposes in our security monitoring tooling.
 - [#customer-updates](https://sourcegraph.slack.com/archives/customer-updates) similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
@@ -34,7 +34,7 @@ Slack is not a [source of truth](https://handbook.sourcegraph.com/company-info-a
 
 ### Use of private channels
 
-By default all Slack channels are public. This is in line with our company's[ value to be open and transparent](https://handbook.sourcegraph.com/company-info-and-process/values/#open-and-transparent) and facilitates collaboration and [async learning](https://handbook.sourcegraph.com/company-info-and-process/communication/asynchronous-communication). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who’s already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
+By default all Slack channels are public. This is in line with our company's[ value to be open and transparent](../values/index.md#open-and-transparent) and facilitates collaboration and [async learning](asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who’s already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
 
 Private channels will automatically be created for the following categories of conversations:
 
@@ -42,15 +42,15 @@ Private channels will automatically be created for the following categories of c
 - Management: Channels where managers can communicate about specific private or sensitive team situations.
 - Legal: Channels with legally sensitive information, such as acquisition discussions or communication with outside parties where we have a legal requirement to keep information sharing limited.
 - Affinity groups: Channels for affinity groups that prefer a private space.
-- Internal: While we strongly encourage that every team keep these public by default and to use our {$TEAMNAME}-internal [naming convention](https://handbook.sourcegraph.com/company-info-and-process/communication/team_chat/#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
+- Internal: While we strongly encourage that every team keep these public by default and to use our {$TEAMNAME}-internal [naming convention](team_chat/.md#channel-naming-convention) to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
 If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting [#it-tech-ops](https://sourcegraph.slack.com/archives/it-tech-ops) to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals’ privacy.
 
 ### Send (and read) messages any time
 
-Because Sourcegraph is a global, [all-remote company](https://handbook.sourcegraph.com/company-info-and-process/remote/) with [flexible work hours](https://handbook.sourcegraph.com/company-info-and-process/remote/#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
+Because Sourcegraph is a global, [all-remote company](../remote/index.md) with [flexible work hours](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends), teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for the other party (or parties) involved.
 
-In turn, you are free to read your message whenever it is convenient for you. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](https://handbook.sourcegraph.com/company-info-and-process/remote/#is-there-an-expectation-to-work-over-the-weekends).
+In turn, you are free to read your message whenever it is convenient for you. There is no expectation that people will be responsive over the [weekend/vacation/evening/etc.](../remote/index.md#is-there-an-expectation-to-work-over-the-weekends).
 
 Make sure to set up Slack to only send you notifications when you want to see them!
 
@@ -188,8 +188,8 @@ All teammates in Operations should join the following channels (feel free to adj
 
 All teammates in Sales and Marketing should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- [#marketing](https://sourcegraph.slack.com/archives/marketing) - [Marketing](https://handbook.sourcegraph.com/departments/marketing/)
-- [#sales](https://sourcegraph.slack.com/archives/sales) - [Sales](https://handbook.sourcegraph.com/departments/sales/)
+- [#marketing](https://sourcegraph.slack.com/archives/marketing) - [Marketing](../../departments/marketing/index.md)
+- [#sales](https://sourcegraph.slack.com/archives/sales) - [Sales](../../departments/sales/index.md)
 - [#customer-updates](https://sourcegraph.slack.com/archives/customer-updates) - Updates on the status of customers
 - [#ce](https://sourcegraph.slack.com/archives/ce) - Helping devs use Sourcegraph effectively
 
@@ -207,7 +207,7 @@ All engineers should join the following channels (feel free to adjust your notif
 - [#bots-production](https://sourcegraph.slack.com/archives/bots-production) - Kubernetes bot notifications.
 - [#alerts-external](https://sourcegraph.slack.com/archives/alerts-external) - External system notifications which might impact our deployments.
 
-You should also join channels mentioned in [your team’s documentation](https://handbook.sourcegraph.com/departments/product-engineering/engineering/#teams)
+You should also join channels mentioned in [your team’s documentation](../../departments/product-engineering/engineering/index.md#teams)
 
 ### More on #exec-ama
 
