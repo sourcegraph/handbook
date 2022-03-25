@@ -9,4 +9,5 @@ Welcome to the Sourcegraph Security Knowledge Base. The knowledge base is a repo
 ## [KB-SEC-1] Side-channel - Access Managment Controls
 
 ### Description
+
 A side-channel vulnerability is where data / responses can be analyzed to accurately guess data that followss specific patterns.
