@@ -17,8 +17,6 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 - Streamline Sourcegraph’s internal system architecture. This includes the procurement, consolidation, implementation, and management of all internal software ([Systems List](tools/index.md))
 - Provide global support for all team members who need assistance with hardware and application support
 - Keep Sourcegraph’s internal systems secure and compliant with legal requirements while maintaining transparency
-- Provide processes
-- Capture data so that we can identify gaps in our existing processes and common issues with our systems
 
 ### How we intend to get there
 
@@ -32,7 +30,7 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 - [Okta SSO implementation](tools/Okta.md)
 - [Vendr](tools/Vendr/index.md)
 - [Zoom](tools/zoom.md)
-- [Workspace One & Carbon Black](tools/endpoint-antivirus.md)
+- [Endpoint & Antivirus](tools/endpoint-antivirus.md)
 
 ### Processes
 

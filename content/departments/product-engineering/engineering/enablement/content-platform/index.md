@@ -20,9 +20,15 @@ The current existing content platforms include:
 - [Handbook](https://handbook.sourcegraph.com)
 - [Docs](https://docs.sourcegraph.com)
 
+## Principles
+
+We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
+
 ## Contact
 
 - #content-platform and @content-platform-team on Slack
+
+## Processes
 
 ### Requests
 
@@ -44,12 +50,6 @@ The content platform team helps with updates or changes to the various [sites we
   - **Non-urgent requests** will be resolved by a due date agreed upon by the CPT and the requestor as part of triage.
   - **Urgent** requests will be worked until the issue is resolved or no longer in an urgent state.
 
-## Principles
-
-We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
-
-## Processes
-
 ### Triaging Incoming Requests
 
 The Content Platform Product Manager triages and prioritizes requests on a daily basis. They will:
@@ -57,7 +57,8 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 1. Verify all necessary information is in the request
 1. Determine urgency and priority against other work
 1. Set expectations with stakeholder/requester
-1. Create a Github issue (may automate this, TBD)
+1. Create a Github issue (may automate this, TBD) and link the issue in the request thread in the #content-platform channel. You can see an example [here](https://sourcegraph.slack.com/archives/C02PSJF0QLU/p1647386134658749).
+1. If this is a marketing request, add the `marketing-request` label to the Github issue.
 1. If applicable, assign to a developer. Otherwise put into the team [Kanban board](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22) according to priority determined in step 2.
 
 ### Creating Issues
@@ -127,19 +128,13 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
 
 #### Collaborating with Marketing
 
-- Marketing will [submit requests](#requests) as needed. They will then be [triaged](#triaging-incoming-requests) and prioritized against other work
-- All work follows a [specific process](https://docs.google.com/spreadsheets/d/1tOSgIJ7cg50zha5iSgYhL1exd7f3w4H_yCkOEdnWD4g/edit#gid=215222) created in collaboration with marketing.
-  - Sharing the design with a developer step:
-    - Developer will review design async and provide feedback on the feasibility of the design. They should always have access to all figma files and be notified of design changes that may increase the lead time.
-      - Use [PERT](https://www.techrepublic.com/blog/it-consultant/use-pert-technique-for-more-accurate-estimates/#:~:text=PERT%20is%20an%20estimating%20technique,up%20with%20a%20final%20estimate.&text=The%20resulting%20PERT%20estimate%20is,as%20the%20other%20two%20values.) technique for estimation.
-        - Estimation should include 3 days for QA to give plenty of time for feedback and corrections.
-      - Fabiana will share with Mary when ready, who will assign a developer who is likely to work on the page or feature.
+- Marketing will [submit requests](#requests) as needed. They will then be [triaged](#triaging-incoming-requests) and prioritized against other work.
+- Figma is always the source of truth for design and copy.
 - Marketing will continue to track work in Asana, while the Content Platform team is tracking work in Github. Details of how this will work:
-  - Fabiana is responsible for keeping Asana up to date.
-  - Mary is responsible for keeping Github up to date.
-  - We are using a [Github + Asana integration](https://asana.com/apps/github) to link Github PRs in Asana
+  - Marketing Project Manager is responsible for keeping Asana up to date.
+  - CPT Product Manager is responsible for keeping Github up to date.
+  - Github issue contains a link to the Asana card, and Asana card contains a link to Github issue.
   - Content Platform Team provides updates to their work in Github, including but no limited to:
     - QA links
     - Questions for stakeholders
     - Progress updates as needed
-  - Mary and Fabiana will be working closely to ensure relevant information is present in both Asana and Github as needed. At the beginning this will feel like duplication of work, but we want to start doing this manually while we figure out our way of working, instead of over-engineering up front. Will look into further automation/syncing options in the future as needed.
