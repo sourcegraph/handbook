@@ -81,17 +81,6 @@ Note: It is expected that this team will split into two teams in FY23. As such, 
     <div class="col" style="flex: 1;">
       <div>
         <div>
-          <a href="/team#rob-rhyne" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/rob-rhyne.png" alt="Picture of Rob Rhyne" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Rob Rhyne</div>
-        <div style="text-align: center; font-size: 12px;">Temporary Product Manager and Product Designer (Growth)</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div>
           <a href="/team#stephen-gutekanst" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/stephen-gutekanst.png" alt="Picture of Stephen Gutekanst" style="background: transparent; width:128px;"/>
           </a>

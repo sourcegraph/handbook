@@ -81,7 +81,7 @@ We prioritize work in the performance engineering delivery stream by using our d
 
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31227
 
-#### Implement native CVS support
+#### Provide CVS Support via Explicit Permissions API
 
 **Tracking issue:** https://github.com/sourcegraph/sourcegraph/issues/31405
 

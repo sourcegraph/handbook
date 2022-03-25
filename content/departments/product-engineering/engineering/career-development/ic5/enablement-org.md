@@ -44,3 +44,11 @@ If a particular challenge is predominantly in a specific team’s domain the eng
 - Effectively able to communicate technological needs and strategy to drive alignment in multi-team/stakeholder situations.
 - Proactively identify areas for improvement, beyond the scope of the org, and contribute meaningfully to solutions while continuing to deliver on the org’s goals.
 - Invest in technology, tools, and processes that benefit the entire engineering department.
+
+### Partnership modes
+
+**Advisor** - Available to review artifacts, consult changes or designs, inject engineering context for PMs and EMs.
+
+**Collaborator** - Available for all of the above, plus can be temporarily plugged into the team and work as any other member, respect meetings, standups, and whatever is required in order to drive the project(s) in question to completion.
+
+**Coordinator** - all of the above, plus can own engineering issues spanning multiple teams.
