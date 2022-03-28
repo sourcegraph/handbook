@@ -6,7 +6,7 @@ These guidelines are for contributing documentation to the [sourcegraph reposito
 
 Whenever a feature is changed, updated, introduced, or [deprecated](../../product/process/deprecation_process.md), the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
 
-The developer who made the code change is also [responsible](../roles/index.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
+The developer who made the code change is also [responsible](../roles/index.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. This includes updating [the changelog as well](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/CHANGELOG.md). At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
 
 For documentation changes that introduce new HTML/CSS/JS patterns to the docs site, the author should tag `@frontend-devs` as an additional reviewer on the pull request.
 
