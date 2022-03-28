@@ -15,29 +15,9 @@ What we would like to learn:
 
 Send the following prompt to the candidate to prepare for this interview:
 
-> Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn't. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
->
-> Part 2: (~60 min) We will give you a specific problem to solve for [Sourcegraph](https://sourcegraph.com/search) and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
+(~60 min) We will give you a specific problem to solve for [Sourcegraph](https://sourcegraph.com) and would like you to walk us through the design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
 
-## Exercise 1 (15 min): Pick a developer application
-
-### Purpose
-
-This exercise tests the candidate's ability to articulate design problems, design decisions, how they would improve a tool, get a taste of their process, and how they would collaborate cross-functionally. The goal is to test their core role knowledge about design, to understand their technical knowledge, and how they think about information architecture.
-
-### Questions
-
-Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn't.
-
-Ask follow up questions:
-
-- Why do you think this was done this way?
-- What works well?
-- Pick two critical user journeys, one that works well for you as a user, one that doesn't.
-- How would you change it?
-- Continue asking why repeatedly.
-
-## Exercise 2 (~60 min): Sourcegraph exercise
+## Exercise (~75 min): Sourcegraph exercise
 
 ### Purpose/goal
 

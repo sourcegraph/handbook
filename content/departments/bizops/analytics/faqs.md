@@ -28,6 +28,10 @@ Alternatively, you can always search in Amplitude when creating a chart for what
 
 Assuming you know there are users on the instance, there's a chance they've disabled non-critical telemetry (in which case we only get a few necessary pieces of data for billing and administration, such as total user accounts and MAUs) or fully turned off all telemetry (in which we won't get anything). It's up to the individual AE/CE for how they want to proceed with their account's contacts in this case.
 
+### I can't find a customer's instance anywhere in Looker. What's going on?
+
+It's possible that the customer has an offline (or air-gapped) instance. Check this [document](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit), which lists all customers we know to be offline, to see if the customer you're looking for is on there. If not, reach out to #analytics to determine what might be the cause.
+
 ### Are there plans to help Sourcegraph admins understand how their users use Sourcegraph?
 
 This should be a product request - please submit your feedback to #feedback and it'll get sent to the product team to prioritize. We can trigger automated PDFs of Looker dashboards to any AE/CE to send off to your contact for a short-term fix! Reach out in #analytics if you'd like to do this.
