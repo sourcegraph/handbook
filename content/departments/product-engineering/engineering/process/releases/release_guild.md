@@ -13,6 +13,7 @@ The release guild can be found in the slack channel #release-guild.
 For the time being, captains are selected on a volunteer basis. The guild will decide on a format going forward as soon as possible.
 
 ## Guild Leader Responsibilities
+
 - Ensure release captains are identified for minor and patch releases
 - Organizing and adminstrating the release guild, such as establishing policies, procedures, and documenting how we work
 - Being a point of contact for the guild, and being responsible for overall communications to the rest of the guild
