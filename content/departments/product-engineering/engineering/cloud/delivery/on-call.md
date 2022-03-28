@@ -128,8 +128,9 @@ OpsGenie is configured with team-based escalations. OpsGenie will page the sched
 should be considered a priority and follow the guidelines for [Response Times](#response-times-and-slas).
 
 OpsGenie is configured to page the EOC when:
- - A managed instance uptime incident is created by GCP Uptime Alerts
- - A Sourcegraph teammate engages OpsGenie to page the EOC.
+
+- A managed instance uptime incident is created by GCP Uptime Alerts
+- A Sourcegraph teammate engages OpsGenie to page the EOC.
 
 ### Maintaining On-Call Handoff Notes
 
