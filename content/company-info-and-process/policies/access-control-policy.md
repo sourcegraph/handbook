@@ -1,22 +1,22 @@
-# **Access Control Policy**
+# **Access Control & Credentials Management Policy**
 
 **Policy Owner**: Tech Ops
 
-**Effective Date**: Feb 1, 2022
+**Effective Date**: April 1, 2022
 
-**Last Updated Date**: Jan 25, 2022
+**Last Updated Date**: March 25, 2022
 
-1. **Purpose**
+1. **Purpose **
 
-To limit access to information, information processing systems, and networks to authorized parties in order to protect our customers, team members, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Our intention in publishing this policy is to outline information security guidelines intended to protect Sourcegraph’s assets, not to impose restrictions.
+The purpose of this policy is to limit access to information, information processing systems, and networks to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets as application of poor credentials in service and system can lead to disclosure of sensitive information and in some cases compromise Sourcegraph’s entire network. Our intention in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose restrictions.
 
-2. **Scope**
+2. **Scope **
 
-This policy applies to all teammates and contractors of Sourcegraph and to all external parties with access to Sourcegraph engineering networks and system resources.
+This policy applies to all employees and contractors of Sourcegraph and to all external parties with access to Sourcegraph networks and system resources.
 
 3. **Policy**
 
-Access to information computing resources is limited to personnel with a business requirement for such access. Access rights shall be granted or revoked in accordance with this Access Control Policy.
+Access to information and information processing systems is limited to employees with a business requirement for such access. Access rights shall be granted or revoked in accordance with this Access Control Policy.
 
 4. **Business Requirements of Access Control**
 
@@ -24,9 +24,7 @@ Access to information computing resources is limited to personnel with a busines
 
 Sourcegraph shall determine the type and level of access granted to individual users based on the “principle of least privilege.” This principle states that users are only granted the level of access absolutely required to perform their job functions, and is dictated by Sourcegraph’s business and security requirements. Permissions and access rights not expressly granted shall be, by default, prohibited.
 
-Sourcegraph’s primary method of assigning and maintaining consistent access controls and access rights shall be through the implementation of Role-Based Access Control (RBAC). Wherever feasible, rights and restrictions shall be allocated to groups. Individual user accounts may be granted additional permissions as needed with approval from the system owner or authorized party.
-
-All privileged access to production systems should use Multi-Factor Authentication (MFA).
+Sourcegraph’s primary method of assigning and maintaining consistent access controls and access rights shall be through the implementation of Role-Based Access Control (RBAC). Wherever feasible, rights and restrictions shall be allocated to groups. Individual user accounts may be granted additional permissions with a request stating “business need” and approval by the asset/system owner. .
 
 5. **User Access Management**
 
@@ -34,15 +32,13 @@ Sourcegraph requires that all personnel have a unique user identifier for system
 
 ## **User Registration and Deregistration**
 
-Only authorized administrators shall be permitted to create new user IDs, and may only do so upon receipt of a documented request from authorized parties. User provisioning requests must include approval from data owners or Sourcegraph management authorized to grant system access. User IDs shall be promptly disabled or removed when users leave the organization or contract work ends. User IDs shall not be re-used.
+Only authorized administrators shall be permitted to create new user IDs, and may only do so upon receipt of a documented request from authorized parties. User provisioning requests must be submitted to the Tech-Ops team and include approval from the line manager of the employee requesting additional access. User IDs shall be promptly disabled or removed when users leave the organization or contract work ends. User IDs shall not be re-used.
 
 ## **User Access Provisioning**
 
-- New employees and/or contractors are not to be granted access to any Sourcegraph production systems until after they have completed all HR mandatory on-boarding tasks, which may include but is not limited to signed employment agreements, intellectual property agreements, and information security policy
 - Access should be restricted to only what is necessary to perform job duties
-- No access may be granted earlier than the official employee start date, unless otherwise approved by People Ops and VP level or higher. A ticket will be submitted to Tech Ops documenting that this approval has been given prior to access being granted.
-- Access requests and rights modifications shall be documented in an access request ticket, Slack thread, or email. No permissions shall be granted without approval from the system or data owner or management.
-- Records of all permission and privilege changes shall be maintained for no less than one year
+- No access may be granted earlier than the official employee start date, unless otherwise approved by People Ops and VP level or higher. A request will be submitted to Tech Ops documenting that this approval has been given prior to access being granted.
+- Access requests and rights modifications shall be documented. Permissions to confidential information or information systems that process such data shall be granted only with approval from the data owner.
 
 ## **Management of Privileged Access**
 
@@ -50,27 +46,21 @@ Granting of administrative rights shall be strictly controlled, and requires app
 
 ## **User Access Reviews**
 
-Administrators shall perform access rights reviews of user, administrator, and service accounts on a quarterly basis to verify that user access is limited to systems that are required for their job function. Access reviews shall be documented.
+System owners shall perform access rights reviews of user, administrator, and service accounts on an annual basis to verify that user access is limited to systems that are required for their job function. Access reviews shall be documented.
 
-Access reviews may include group membership as well as evaluations of any specific or exception-based permission. Access rights shall also be reviewed as part of any job role change, including promotion, demotion, or transfer within the company. Tech Ops is notified of these changes through Process St.
+Access reviews may include group membership as well as evaluations of any specific or exception-based permission. Access rights shall also be reviewed as part of any job role change, including promotion, demotion, or transfer within the company.
 
 ## **Removal & Adjustment of Access Rights**
 
-The access rights of all users shall be promptly removed upon termination of their employment or contract, or when rights are no longer needed due to a change in job function or role. In the case of a separation from the company, all access will be deprovisioned within 5 business days from the date on which the offboarding request is submitted unless otherwise specified.
-
-**Access Provisioning, Deprovisioning, and Change Procedure**
-
-The Access Management Procedure for Sourcegraph systems can be found in Appendix A to this policy.
+The access rights of all users shall be promptly removed upon termination of their employment or contract, or when rights are no longer needed due to a change in job function or role. In the case of a separation from the company, all access will be deprovisioned within the same day the offboarding request is submitted unless otherwise specified.
 
 6. **User Responsibility for the Management of Secret Authentication Information**
 
-Control and management of individual user passwords is the responsibility of all Sourcegraph personnel and third-party users. Users shall protect secret authentication information in accordance with the Information Security Policy.
+Control and management of individual user passwords is the responsibility of all Sourcegraph personnel and third-party users. Users shall protect secret authentication information in accordance with this policy.
 
-7. **Password Policy**
+7. **Credentials Management Policy**
 
 Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password.
-
-We have guidance for setting passwords to Sourcegraph-managed accounts. These are strongly recommended and will be enforced at the organizational level when available.
 
 **System and Application Access**
 
@@ -103,7 +93,7 @@ Multi-factor authentication will be enforced whenever possible.
 
 Systems for managing passwords should be interactive and assist Sourcegraph personnel in maintaining password standards by enforcing password strength criteria including minimum length, and password complexity where feasible.
 
-All storage and transmission of passwords is to be protected using appropriate cryptographic protections, either through hashing or encryption. All Sourcegraph employees will be given access to 1Password to create and manage complex passwords.
+All storage and transmission of passwords is to be protected using appropriate cryptographic protections, either through hashing or encryption. All Sourcegraph employees will be given access to a password manager to create and manage complex passwords.
 
 ## **Use of Privileged Utility Programs**
 
@@ -123,4 +113,6 @@ Requests for an exception to this Policy must be submitted to the Tech Ops Manag
 
 9. **Violations & Enforcement**
 
-Any known violations of this policy should be reported to the Tech Ops Manager. Violations of this policy can result in immediate withdrawal or suspension of system and network privileges and/or disciplinary action in accordance with company procedures up to and including termination of employment.
+Any known violations of this policy should be reported to [report-policy-violation@sourcegraph.com](mailto:report-policy-violation@sourcegraph.com). Failure to follow this policy can result in disciplinary action, up to and including termination.
+
+**Policy Owner & Approver: **VP Operations
