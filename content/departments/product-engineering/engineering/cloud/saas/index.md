@@ -220,6 +220,8 @@ To support the globally distributed nature of our team, we are doing our groomin
 - Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
 - Each story point represents a single developer day.
 
+The "grooming" label is used for marking tickets to be included in the upcoming grooming session.
+
 #### Team calendar
 
 All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com&ctz=Europe%2FWarsaw). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
