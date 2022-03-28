@@ -6,12 +6,7 @@ Welcome! We're excited to have you join the team. This document outlines the str
 
 You'll have to get some basics set up in your first few days:
 
-- Complete [general onboarding](../../../../company-info-and-process/onboarding/index.md#general-onboarding-checklist)
-- [Configure your GitHub notifications.](../../../../company-info-and-process/onboarding/git-intro/github-notifications/index.md)
-- Join #prod-eng-announce, #dev-chat, and your team's channel on Slack, as well as any other channels you find interesting. [Team chat documentation](../../../../company-info-and-process/communication/team_chat.md#engineering)
-- Set up your [local development environment](https://docs.sourcegraph.com/dev/setup/quickstart). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next engineer that we hire doesn't run into the same problem).
-- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../process/deployments/instances.md#k8s-sgdev-org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
-- Read through your team's handbook page, to learn about the team and its internal processes.
+- Read the [general onboarding](../../../../company-info-and-process/onboarding/index.md#general-onboarding-checklist) page
 - Complete the onboarding for your role:
   - [Software engineer onboarding](software-engineer-onboarding.md)
   - [Engineering manager onboarding](engineering-manager-onboarding.md)
@@ -26,7 +21,7 @@ For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../..
 Your manager should complete the following steps when you join:
 
 - Schedule a recurring [1-1](../../../../company-info-and-process/communication/1-1.md).
-- Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
+- Notify Tech Ops on the tools needed by day one
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
     - Invite to relevant GitHub teams, including @sourcegraph/everyone.
   - [Productboard](https://sourcegraph.productboard.com)
