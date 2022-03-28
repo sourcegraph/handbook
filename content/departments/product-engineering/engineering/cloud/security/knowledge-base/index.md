@@ -13,20 +13,20 @@ Before adding to the knowledge base consider the following:
 
 ## Guiding Best Practices
 
-| **HTTPS Everywhere** |
-| :------------------: |
+|                                                                                                                                        **HTTPS Everywhere**                                                                                                                                         |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Encrypted secure communications - while not always required for non-sensative information - are largely recognized as an industry best practice to ensure data is protected. HTTPS should be used throughout Sourcegraph as well as enforced for outgoing connections in features where applicable. |
-| It's generally easier to consistently require secure communications everywhere then it is to have special cases where encryption is not used. |
+|                                                                            It's generally easier to consistently require secure communications everywhere then it is to have special cases where encryption is not used.                                                                            |
 
-| **Principle of Least Privledge (PoLP)** |
-| :-------------------------------------: |
+|                                                                                                                                                                                            **Principle of Least Privledge (PoLP)**                                                                                                                                                                                            |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | PoLP refers to the practice of ensuring systems, processes, networks, users etc. only have access / permissions that they absolutely require to perform their functions. This needs to be considered at design time of new features and when updating existing features. This is important as our product is changing fast and becoming more complex - therefore it's easy to introduce cases of unnecessary elevated access. |
-| While it can take more time to gather the required context to understand the consequences of changes - especially in cases where code is being relocated - it's an important step to reduce the impact of discovered vulnerabilities within Sourcegraph. |
+|                                                                                   While it can take more time to gather the required context to understand the consequences of changes - especially in cases where code is being relocated - it's an important step to reduce the impact of discovered vulnerabilities within Sourcegraph.                                                                                    |
 
-| **Data Validation & Sanitization** |
-| :--------------------------------: |
+|                                                                                                                                                                                                               **Data Validation & Sanitization**                                                                                                                                                                                                                |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Data validation and sanitization are critical steps in application security hygene. For a malicious actor the door of entry in to an application often begins with user controlled fields such as: form fields, search boxes, GET/POST parameters, the URL etc. Taking steps using built-in libraries to validate and sanitize data entering the application ensures only quality data / expected data gets to the stage of being processed by the application. |
-| Frontend validation should be seen as a convenience to the end user - informing them of what kind of data is expected. Backend validation can also be used to inform them of expected data - however the main priority of this validation is to ensure only expected data makes it through to be processed by the application. |
+|                                                                 Frontend validation should be seen as a convenience to the end user - informing them of what kind of data is expected. Backend validation can also be used to inform them of expected data - however the main priority of this validation is to ensure only expected data makes it through to be processed by the application.                                                                  |
 
 ## Table of Contents
 
