@@ -1,4 +1,8 @@
+> **NOTE:** As of 3-28-2022, we do not formally offer this service to our customers. This page is a product of a proof-of-concept.
+
 # Migrate a Self-Hosted Installation to Managed Instance
+This page describes the process of migrating a self-hosted Sourcegraph deployment to a Managed Instance. A team member from the Customer Engineering (CE) team
+may request a migration on behalf of a customer. The technical steps are carried out by the Delivery Team.
 
 ## Workflow
 
@@ -20,7 +24,7 @@ Within the Customer Migration issue provided by CE, add the following informatio
 
 ## 2. Create the Managed Instance
 
-[Create a Managed Instance](./creation_process.md) using the `VERSION` of the customer's self-hosted installation. This is provided in the migration request.
+[Create a Managed Instance](creation_process.md) using the `VERSION` of the customer's self-hosted installation. This is provided in the migration request.
 
 ## 3. Perform the data load
 
@@ -135,13 +139,7 @@ Some customers may only provide the "pgsql" or frontend database dump. If the cu
 Edit the Site Configuration JSON file provided by the customer.
 
 - Set the `externalUrl` to the new value matching the convention `<slug>.sourcegraph.com`
-- Configure the alerts similarly to Step 27 in the [Creating a managed instance](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/creation_process/) procedure.
-
-Copy this file into frontend containers:
-
-```
-
-```
+- Configure the alerts similarly to Step 27 in the [Creating a managed instance](creation_process.md) procedure.
 
 ### N) Start Sourcegraph
 
@@ -159,18 +157,16 @@ Take a snapshot at this point to preserve the state of the instance before proce
 ## 5. Upgrade to the latest version
 
 Sourcegraph must be upgraded 1 minor version at a time.
-<<<<<<< HEAD
 
-1. # [Perform in-place upgrades](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/delivery/managed/upgrade_process/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
-1. [Perform in-place upgrades](./upgrade_process/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
-   > > > > > > > 9f195f3bc (Relative links)
+1. [Perform in-place upgrades](upgrade_process/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
 
 Repeat in-place upgrade process for upgrade path (Glovo’s listed below)
-3.35.1
-3.36.3
-3.37.0
+ - 3.35.1
+ - 3.36.3
+ - 3.37.0
 
 ## 6. Reconcile Site Health
+This will require interpretation and will be unique for every migration. Use your best judgement, however it may be helpful to evaluate site health by examining the Grafana dashboard for any existing alerts, examine service logs.
 
 ## 7. Take a final Snapshot
 
@@ -178,11 +174,6 @@ Take a snapshot after resolving any critical alerts or site configuration issues
 
 ## 8. Handover to Customer
 
-<<<<<<< HEAD
-
 - Notify CE that managed instance is ready for customer.
-- # Notify CS that migration has been completed for customer, CS updates their notes.
+- Notify CS that migration has been completed for customer, CS updates their notes.
 
-* Notify CE that managed instance is ready for customer.
-* Notify CS that migration has been completed for customer, CS updates their notes.
-  > > > > > > > 9f195f3bc (Relative links)
