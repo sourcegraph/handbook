@@ -21,7 +21,7 @@ For Hiring Managers, visit the [Onboarding process for Hiring Managers](../../..
 Your manager should complete the following steps when you join:
 
 - Schedule a recurring [1-1](../../../../company-info-and-process/communication/1-1.md).
-- Notify Tech Ops on the tools needed by day one 
+- Notify Tech Ops on the tools needed by day one
   - [Sourcegraph organization on GitHub](https://github.com/orgs/sourcegraph/people)
     - Invite to relevant GitHub teams, including @sourcegraph/everyone.
   - [Productboard](https://sourcegraph.productboard.com)
