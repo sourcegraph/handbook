@@ -2186,12 +2186,6 @@ engineering_manager_content_platform:
   reports_to: director_engineering_enablement
   manager_role_slug: engineering_manager_content_platform
 
-engineering_manager_frontend_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Frontend Platform
-  reports_to: director_engineering_enablement
-  manager_role_slug: engineering_manager_frontend_platform
-
 Daniel_Gwyn:
   name: Daniel Gwyn
   email: daniel.gwyn@sourcegraph.com
@@ -2896,6 +2890,19 @@ jordan_bushong:
   email: jordan.bushong@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/jordan-bushong-b0204590/)'
   description: Jordan lives in Saint Louis, MO with his wife, two kids and four dogs. In his spare time Jordan enjoys DIY projects, hiking, rowing, chess, video games (before he had children) and going to new resteraunts.
+
+jason_gornall:
+  name: Jason Gornall
+  pronouns: he/him
+  role: Engineering Manager, Frontend Platform
+  reports_to: director_engineering_enablement
+  manager_role_slug: engineering_manager_frontend_platform
+  location: San Marcos, CA, USA 🇺🇸
+  github: jasongornall
+  email: jason.gornall@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jasongornall)'
+  description: Jason lives in San Diego, CA with his wife and cat Siren. He has lived in several cities in the USA including Atlanta, San Francisco, LA, Boston, and NYC. Jason loves ridiculously spicy foods and always enjoys a good pun. Jason's cat is named Siren but because he called her kitten for the majority of her early life she doesn't respond to her name at all and as a result we tend to call her Mitten because it is close enough to kitten and she can't tell the difference.  
+
 
 collette_tesauro:
   name: Collette Tesauro
