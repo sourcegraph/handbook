@@ -121,19 +121,19 @@ When reviewing and finalizing our plan, we met with our investors and leveraged 
 
 The FY23 plan was built at a departmental level. We have 9 departments:
 
-| Department                 | Department (Budget owner)   |
-| -------------------------- | --------------------------- |
-| R&D Engineering            | Nick Snyder                 | 
-| R&D Product                | Christina Forney            | 
-| Marketing                  | Kacie Jenkins               | 
-| Sales                      | Gregg Stone                 | 
-| Customer Support           | Virginia Ulrich             | 
-| Customer Engineering       | Aimee Menne                 | 
-| Operations                 | Dan Adler                   | 
-| Talent & People-ops        | Carly Jones                 | 
-| Exec                       | Connor O' Brien             | 
+| Department           | Department (Budget owner) |
+| -------------------- | ------------------------- |
+| R&D Engineering      | Nick Snyder               |
+| R&D Product          | Christina Forney          |
+| Marketing            | Kacie Jenkins             |
+| Sales                | Gregg Stone               |
+| Customer Support     | Virginia Ulrich           |
+| Customer Engineering | Aimee Menne               |
+| Operations           | Dan Adler                 |
+| Talent & People-ops  | Carly Jones               |
+| Exec                 | Connor O' Brien           |
 
-Within each department, there are also cost centers. The cost center structure can be viewed within Bamboo. The FY23 plan was built by allocating and reviewing costs at the cost center level. This structure allowed us to be more detailed and analytical in our investment plan. 
+Within each department, there are also cost centers. The cost center structure can be viewed within Bamboo. The FY23 plan was built by allocating and reviewing costs at the cost center level. This structure allowed us to be more detailed and analytical in our investment plan.
 
 **How we will monitor performance versus plan**
 
@@ -148,7 +148,7 @@ Following each month end at FY23, the finance team will share a reporting pack w
 
 The above information will be shared via Google slides on business Day +8 following the monthly financial close. As part of this review process, Finance and Department leads will also evaluate our investments for the remainder of the fiscal year and determine if any adjustments are required. There are a number of scenarios that could require us to make an adjustment that would deviate from the plan. Some of these might include:
 
-- A marketing program has generated a significant amount of opportunities beyond expectation. 
+- A marketing program has generated a significant amount of opportunities beyond expectation.
 - We want to allocate more dollars to this program.
 - Our Engineering and Product team believe that there is an opportunity to invest in a feature that will have a meaningful impact on our ARR growth.
 - We see inbound activity beyond what was planned and we need to adjust the hiring plan for the sales team.
@@ -158,10 +158,10 @@ The monthly review that will take place between Finance and Department leads sho
 
 **Adjustments to investment plan outside of monthly review cycle**
 
-Our goal is to ensure financial discipline, however, as a Finance team, we also do not want to constrain growth, or be slow to react when we determine that a team is lacking resources and is under prolonged pressure. We understand that there will be certain occasions where department leads may wish to make an adjustment to their budget.  When a department lead determines that it is necessary to complete an off cycle adjustment to the budget, please provide the following detail:
+Our goal is to ensure financial discipline, however, as a Finance team, we also do not want to constrain growth, or be slow to react when we determine that a team is lacking resources and is under prolonged pressure. We understand that there will be certain occasions where department leads may wish to make an adjustment to their budget. When a department lead determines that it is necessary to complete an off cycle adjustment to the budget, please provide the following detail:
 
 - If headcount related, please provide the following information:
-  - complete the [headcount change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/formResponse) 
+  - complete the [headcount change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/formResponse)
 - If non- headcount related, please provide the following information:
   - What is the product, service that we are looking to purchase?
   - What is the purpose of this product or service?
@@ -169,10 +169,7 @@ Our goal is to ensure financial discipline, however, as a Finance team, we also 
   - What is the business need for the adjustment to the budget?
   - What is the opportunity loss if we do not proceed with this adjustment?
 
-For non Headcount related requests, the above detail should be provided to the finance team via the [slack vendor request channel](https://join.slack.com/share/enQtMzMxMDA2OTA2NDMyMy0zNjI2NmZmZjk5YmQ1MzFmODNkM2EwNDE0MmFiYzAzOWIzOTBmZThiZmMzZWMwMjc5NzRlZjJkYWRmYzdhMzE3). The finance team will commit to respond within 24 hours. 
-
-
-
+For non Headcount related requests, the above detail should be provided to the finance team via the [slack vendor request channel](https://join.slack.com/share/enQtMzMxMDA2OTA2NDMyMy0zNjI2NmZmZjk5YmQ1MzFmODNkM2EwNDE0MmFiYzAzOWIzOTBmZThiZmMzZWMwMjc5NzRlZjJkYWRmYzdhMzE3). The finance team will commit to respond within 24 hours.
 
 ### Process
 
