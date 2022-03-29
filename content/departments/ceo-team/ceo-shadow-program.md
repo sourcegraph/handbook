@@ -115,9 +115,11 @@ Some content will be selected for external use (with your approval, of course) b
 Working with Quinn is great. As with all people, we have our preferences for communication and working styles. In order to make your and Quinn’s time the most efficient, here are a few guidelines to consider when working directly with Quinn.
 
 ### Writing Style
+
 Writing style. You can find a comprehensive writing style guide for Quinn here: [SQS Style Guide](https://docs.google.com/document/d/1Q7FS1O7a3K_kVvLPuAxLXmVMraXYBFRRzN0_eOscO8M/edit). You may be asked to write some content / copy for Quinn. Use this as a guide to help reduce editing.
 
 ### Speaking and Communication
+
 - Quinn’s in-person style mirrors his writing style closely. When engaging with Quinn, brevity, honesty, and directness are preferred.
 - Don’t be afraid to share candid feedback.
 - Quinn really values thoughtful discussions and debates. He will push and challenge you and he expects you to do the same.
