@@ -14,7 +14,7 @@ The CEO Shadow Program is a 2-week, temporary rotation for all [eligible employe
 
 The CEO Shadow will give [eligible employees](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#eligibility) an up-close look at the day-to-day life of the Sourcegraph [CEO](https://handbook.sourcegraph.com/team/ceo/), Sourcegraph’s business strategies at work, and decision-making at the top. This rotation, if done right, should increase transparency and visibility into how Sourcegraph is run while better enabling the CEO Shadow to work cross-functionally and better align their core work to company strategies.
 
-In addition, this program is designed to humanize the [CEO](https://handbook.sourcegraph.com/team/ceo/) (and the executive team) so that teammates are more confident and comfortable collaborating and providing direct feedback to the [CEO](https://handbook.sourcegraph.com/team/ceo/) and exec team after the rotation is over.
+In addition, this program is designed to humanize the [CEO](../../team/ceo/index.md) (and the executive team) so that teammates are more confident and comfortable collaborating and providing direct feedback to the [CEO](../../team/ceo/index.md) and exec team after the rotation is over.
 
 ## What the CEO shadow program is NOT
 
@@ -66,11 +66,11 @@ Lodging during the CEO shadow program is provided by the company and will only c
 
 If the CEO Shadow is traveling from outside the United States, accommodations will be extended to include the weekend prior to your scheduled rotation allow for CEO Shadows to adjust to the new time zone, get settled into a new country, etc.
 
-Lodging is booked in accordance with our [company travel policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/travel/). We use [TripActions](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/travel/tripactions/). Please use these two documents to book your lodging.
+Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use [TripActions](../../benefits-pay-perks/benefits-perks/travel/tripactions/.md). Please use these two documents to book your lodging.
 
 #### Airfare
 
-Airfare is booked in accordance with our [company travel policy](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/travel/). We use [TripActions](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/travel/tripactions/). Please use these two documents to book your lodging.
+Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use [TripActions](../../benefits-pay-perks/benefits-perks/travel/tripactions/.md). Please use these two documents to book your lodging.
 
 #### Transportation to / from the airport
 
