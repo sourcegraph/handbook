@@ -2,10 +2,15 @@
 
 - All full-time teammates must have a Sourcegraph computer
 - All teammates must work from their Sourcegraph computer
+- All teammates must use their Sourcegraph computer for accessing any company data 
 - All teammates should adhear to our related usage and access policies:
   - [Device useage and privacy policy](../process/team_device_usage_privacy.md)
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
   - [Protect company assets and use them properly - Code of conduct](../../../company-info-and-process/communication/code_of_conduct.md#respect-others-and-their-property-and-confidential-information)
+
+# Company data
+
+Company data is any personal, confidential, or sensitive teammate or client information. This would include (but is not limited to): customer data and metadata, Sourcegraph IP, audit logs, security incidents, contracts, personal information about clients or teammates, and internal communications, such as email and Slack. 
 
 ## Setting up your computer
 
