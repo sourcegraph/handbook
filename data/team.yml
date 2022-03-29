@@ -2929,3 +2929,12 @@ tracey_johnson:
   location: Fort Worth, TX 🤠
   links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
   description: Tracey is a Brand Designer and mom of 3. Before coming to Sourcegraph, she was a designer at a full-service digital marketing agency serving B2B tech-SaaS clients. She is passionate about brand consistency and empathetic design. She spends her freetime doing puzzles, knitting, playing video games, and brunching!
+
+tim_zielonko:
+  name: Tim Zielonko
+  email: tim.zielonko@sourcegraph.com
+  github: zlonko
+  role: Software Engineer
+  reports_to: engineering_manager_content_platform
+  location: Saint Louis, MO, USA 🇺🇸
+  description: 'Tim is a software engineer supporting the Content Platform team. He joins Sourcegraph from Saint Louis, Missouri, where he lives with his partner, Alex, and their dog, Otto.'
