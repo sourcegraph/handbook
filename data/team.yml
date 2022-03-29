@@ -712,6 +712,7 @@ malo_marrec:
   role: Product Manager, Batch Changes
   location: Paris, France 🇫🇷
   email: malo@sourcegraph.com
+  github: malomarrec
   links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
   description: Malo lives in Paris, France after some time in the Bay Area. Prior to Sourcegraph, he bounced around a few early stage startups building infrastucture and developer tools. Malo graduated with an MS from Stanford, and an MS from Ecole Centrale Paris. Outside of work, he kite surfs and reads a ton of books.
 
@@ -1436,17 +1437,6 @@ shawn_king:
   email: shawn@sourcegraph.com
   description: "Originally from Fargo, ND, Shawn lives in Rochester with his wife Katie, son Harrison, and two dogs Tucker and Charlie. His careeer goal is to make technology more accessible and easy to understand for everyone. When he's not working, he can be found at the lake in the summer with his family, reading a book, and in the long Minnesota winters, doing all things hockey."
 
-kristen_sundberg:
-  name: Kristen Sundberg
-  pronouns: She/Her
-  role: Senior Social Media Manager
-  reports_to: director_global_communications
-  location: Boston, MA USA 🇺🇸
-  github: kristen-sundberg
-  email: kristen@sourcegraph.com
-  links: '[Twitter](https://twitter.com/thisiskris_s), [LinkedIn](https://www.linkedin.com/in/kristensundberg/)'
-  description: "Kristen is a New England native that resides in a small town outside of Boston, MA. She has a knack for making brands loveable. And has been managing social media for tech and software brands the majority of her career. She's a Stonehill College alumni, who speaks passionately about chronic illness, remote work, and social media best practices. When away from the keyboard, you will find Kristen on an adventure with [Leo the Samoyed](https://www.instagram.com/ladyandleolife/), crafting with her Cricut, or watching true crime documentaries and BravoTV."
-
 amie_rotherham:
   name: Amie Rotherham
   pronouns: She/Her
@@ -2045,7 +2035,7 @@ lauren_chapman:
   reports_to: security_engineering_manager
   location: New Brunswick, Canada 🇨🇦
   github: deflncha
-  email: lauren.chapman@sourcegraph.com
+  email: lauren@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/chapman-lauren-202/)'
   description: "Lauren lives in eastern Canada in the small province of New Brunswick with her two kitties Piper & Momo 🐱. Prior to Sourcegraph she worked as a Software Developer, Application Support Specialist, and Application Security Specialist - wearing many different 'hats' over her career. In her free time shes loves board games (Catan, Forbidden Island, Pandemic) and to read personal biographies. Lauren also loves to talk about and advocate for mental health, therapy, and meditation 🪴 - all of which have been instrumental in her life."
 
@@ -2896,3 +2886,46 @@ laura_hacker:
   email: laura.hacker@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lrhacker)'
   description: 'Laura lives in Michigan with her husband and their torbie cat, Freya. In her spare time, she enjoys a variety of activities, including drawing, baking, playing video and tabletop games, and making custom polyhedral dice. She also enjoys taking hiking trips to explore new scenery - especially in the mountains!'
+
+jordan_bushong:
+  name: Jordan Bushong
+  role: Senior Manager Sales Development Representative
+  reports_to: head_sales_development
+  location: Saint Louis, MO, USA 🇺🇸
+  github: jbushong88
+  email: jordan.bushong@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/jordan-bushong-b0204590/)'
+  description: Jordan lives in Saint Louis, MO with his wife, two kids and four dogs. In his spare time Jordan enjoys DIY projects, hiking, rowing, chess, video games (before he had children) and going to new resteraunts.
+
+collette_tesauro:
+  name: Collette Tesauro
+  email: collette@sourcegraph.com
+  role: Senior Legal Counsel - Privacy & Employment
+  pronouns: she/her
+  reports_to: director_legal
+  location: Laurel Springs, NJ, USA 🇺🇸
+  github: collettesg
+  links: '[LinkedIn](https://www.linkedin.com/in/ctesauro)'
+  description: Collette is a New Jersey native, and currently resides there after a nine-year hiatus in San Diego, CA. Prior to joining Sourcegraph, Collette spent years working as both in-house and external employment and privacy counsel. In her non-working time, Collette enjoys playing video games with friends 🎮, reading (and collecting books she plans to read) 📚, and spending time with her husband.
+
+david_james_johnson:
+  name: David James Johnson
+  email: davidjames.johnson@sourcegraph.com
+  role: Enterprise Account Executive
+  pronouns: he/him
+  reports_to: regional_director_sales_east
+  location: Atlanta, GA, USA 🇺🇸
+  github: davidjamesjohnson
+  links: '[LinkedIn](https://www.linkedin.com/in/david-james-johnson)'
+  description: David James lives in Atlanta with his cat (Luna) and dog (Hugo). He aims to help customers solve complex problems while exceeding their sales process expectations. During his free time, David James enjoys cooking while listening to jazz, soul, or bluegrass music, and traveling whenever possible. He loves to visit New Orleans and New York, and hopes to one day go to New Zealand - he hates old places.
+
+tracey_johnson:
+  name: Tracey Johnson
+  email: tracey.johnson@sourcegraph.com
+  github: traceyljohnson
+  pronouns: she/her
+  role: Brand Designer
+  reports_to: vp_product
+  location: Fort Worth, TX 🤠
+  links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
+  description: Tracey is a Brand Designer and mom of 3. Before coming to Sourcegraph, she was a designer at a full-service digital marketing agency serving B2B tech-SaaS clients. She is passionate about brand consistency and empathetic design. She spends her freetime doing puzzles, knitting, playing video games, and brunching!

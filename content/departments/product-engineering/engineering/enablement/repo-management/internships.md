@@ -4,7 +4,7 @@ Welcome to our internship page! We hope you will find useful information about i
 
 ## Open Intern Roles
 
-We are currently hiring one intern for Summer 2022.
+We don't currently have any open internship roles.
 
 ## Hiring Process
 
