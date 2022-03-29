@@ -2918,3 +2918,14 @@ david_james_johnson:
   github: davidjamesjohnson
   links: '[LinkedIn](https://www.linkedin.com/in/david-james-johnson)'
   description: David James lives in Atlanta with his cat (Luna) and dog (Hugo). He aims to help customers solve complex problems while exceeding their sales process expectations. During his free time, David James enjoys cooking while listening to jazz, soul, or bluegrass music, and traveling whenever possible. He loves to visit New Orleans and New York, and hopes to one day go to New Zealand - he hates old places.
+
+tracey_johnson:
+  name: Tracey Johnson
+  email: tracey.johnson@sourcegraph.com
+  github: traceyljohnson
+  pronouns: she/her
+  role: Brand Designer
+  reports_to: vp_product
+  location: Fort Worth, TX 🤠
+  links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
+  description: Tracey is a Brand Designer and mom of 3. Before coming to Sourcegraph, she was a designer at a full-service digital marketing agency serving B2B tech-SaaS clients. She is passionate about brand consistency and empathetic design. She spends her freetime doing puzzles, knitting, playing video games, and brunching!
