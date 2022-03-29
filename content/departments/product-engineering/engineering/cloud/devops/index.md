@@ -35,6 +35,7 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [Disaster Recovery](disaster-recovery.md)
 - [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
 - [How to use preprod aka staging](preprod.md)
+- [Persistent disk backup schedule](persistent-disk-backup-schedule.md)
 
 ## How to contact the team and ask for help
 

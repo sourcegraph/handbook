@@ -123,7 +123,7 @@ Additionally, providing the precise code intelligence data layer sets the founda
 
 - **Adding precise C# and Ruby language support:** Based on our team's bandwidth and skill set, we are not planning to work on these languages this quarter. However, to support our [Grow ARR and Iterate with existing customers first](../../index.md#this-year-fy23) goals, we are working towards prioritizing these languages later this year based on current customer language share and associated ARR.
 
-- **Add support for a wider set of package hosts:** We currently support Maven packages and are finalizing work to support NPM packages. In the near future we want to expand our support to cover PyPi, NuGet and RubyGems. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
+- **Add support for a wider set of package hosts:** We currently support Maven packages and are finalizing work to support npm packages. In the near future we want to expand our support to cover PyPi, NuGet and RubyGems. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
 
 - **Auto-indexing on prem goes GA:** Once we've validated adoption in Beta phase focus on identifying feedback patterns and solving issues to make the auto-indexing generally available to all customers.
 

@@ -2,10 +2,12 @@
 
 Sourcegraph is an [all-remote](../../../company-info-and-process/remote/index.md) company. This means we all need to make an effort to travel to meet up in person and spend quality time with other team members all around the world.
 
+Travel budgets are for full time teammates.
+
 ## Travel Planning Guidelines
 
 - Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager.
-- **Book refundable travel only** and make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responbility of the teammate.
+  -Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responbility of the teammate.
 - Our high agency value works because we all make responsible decisions in the best interests of the whole team and the business — **please treat company money how you would treat your own**.
 - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
 - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
@@ -40,14 +42,11 @@ Travel budgets are not transferable between types and are based on our [fiscal c
 
 ### 1. Company-wide travel
 
-This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammate has two fully-paid trips (flights, lodging, food, transportation) to the chosen locations of company meet-ups each year.
-
-- Winter party _(typically held in San Francisco)_
-- Spring/summer event
+This travel budget is intended for teammates to attend company-wide meetups, arranged by the company. Each teammate has one fully-paid trip (flights, lodging, food, transportation) to the chosen locations of company meet-ups each year.
 
 ### 2. Team travel
 
-Each team is allocated $4,000 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
+Each team is allocated $5,500 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
 _9am–12pm: Breakfast + Team collaboration time
 12pm–1pm: Team lunch
@@ -180,7 +179,7 @@ Please see below for a complete summary of spend limit, per diem, and hotel budg
 | Trip Category     | Total Spend Limit | Per Diem?                        | Hotel Budget?                    |
 | ----------------- | ----------------- | -------------------------------- | -------------------------------- |
 | Company-wide      | N/A               | Yes                              | Yes                              |
-| Team              | $4,000            | Recommended if under budget only | Recommended if under budget only |
+| Team              | $5,500            | Recommended if under budget only | Recommended if under budget only |
 | Individual        | $2,500            | Recommended if under budget only | Recommended if under budget only |
 | Business/Customer | N/A               | Yes                              | Yes                              |
 | Education         | $1,000            | Recommended if under budget only | Recommended if under budget only |

@@ -5,21 +5,28 @@ build on Buildkite automatically because we want to review the code before it
 runs on our CI infrastructure. Please review the PR to ensure it doesn’t make
 any malicious changes to our build scripts.
 
+Also see: [Accepting external contributions](https://docs.sourcegraph.com/dev/contributing/accepting_contribution).
+
 ## Triggering a build
 
 There are two options to trigger a build.
 
 ## Option 1: On the command line
 
-Pull the PR branch locally, and push it upstream:
+Run the following commands:
 
-```
-git fetch origin pull/<PR-NUMBER>/head:<LOCAL-BRANCH-NAME-YOU-CHOOSE>
-git push origin <LOCAL-BRANCH-NAME-YOU-CHOOSE>
+```sh
+gh pr checkout $PR_NUMBER
+sg ci build
 ```
 
-If the PR changes, pull changes into the branch, and then push it upstream
-again.
+If the PR changes, pull changes into the branch, and run the above command again.
+
+Alternatively, you can directly request a build for a specific commit:
+
+```sh
+sg ci build --commit $COMMIT
+```
 
 ## Option 2: In the Buildkite web interface
 

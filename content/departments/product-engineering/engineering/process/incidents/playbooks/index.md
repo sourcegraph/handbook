@@ -175,6 +175,33 @@ Open the alert UI to click on the check URL that was failing and verify it's now
 
 We provide two sets of instructions here, shell commands and PostgreSQL commands to be run inside a `psql` instance. PostgreSQL commands are denoted by the prompt `sg=#` in this documentation; the actual prompt corresponds to the postgres user name.
 
+### Backing up & restoring a Cloud SQL instance (production databases)
+
+Before any potentially risky operation you should ensure the databases have recent ( < 1 hour) backups. We currently have daily backups enabled.
+
+You can create a backup of a Cloud SQL instance via `gcloud sql backups create --instance=${instance_name} --project=sourcegraph-dev` or choose from existing backups via `gcloud sql backups list --instance=${instance_name}`.
+
+To restore a Cloud SQL instance to a previous revision you can use `gcloud sql backups restore $BACKUP_ID --restore-instance=${instance_name}`
+
+You can also perform these commands from the [Google Cloud SQL UI](https://console.cloud.google.com/sql/instances?project=sourcegraph-dev)
+
+🚨 You should notify the #dev-ops channel if an situation arises when a restore my be required. It should also be filed in our ops-incident log.
+
+### Restore database using point-in-time recovery (creates new database clone!)
+
+🚨 You should open an incident (unless it is already opened) and notify the #dev-ops channel if a situation arises when a point-in-time recovery is required.
+
+Explanation of [CloudSQL PostgreSQL point in time recovery](https://cloud.google.com/sql/docs/postgres/backup-recovery/pitr)
+
+⚠️ **WARNING:** Before starting restoring to point in time, ensure that previous step with restore via daily backup is not possible - point in time operation has to create a new database instance and all applications have to be reconfigured to use new instance!
+
+You can create a clone of the instance from point in time via `gcloud sql instances clone ${instance_name} ${clone_instance_name} --point-in-time '2022-03-21T19:30:00.000Z'` (UTC timezone for the source instance in RFC 3339 format).
+
+You have to create a PR which modifies all CloudSQL Proxy conigurations to point to new instance in [base folder of the repository](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/base)
+i.e. `sourcegraph-dev:us-central1:${instance_name}` -> `sourcegraph-dev:us-central1:${clone_instance_name}`
+
+After PR is approved and merged, applications are redeployed and use new instance.
+
 ### Shell commands
 
 These commands assume you're on a local machine, and trying to access the live systems. Also refer to the [deployment page's Kubernetes section](../../deployments/index.md#kubernetes) for kubectl tips.

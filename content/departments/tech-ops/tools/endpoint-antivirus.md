@@ -50,7 +50,10 @@ When you receive your Sourcegraph device and will no longer be working from a pe
 ### Known issues with Carbon Black
 
 - Carbon Black affects Ethernet connections on Mac OS
+- Carbon Black silently blocks connections to some public WiFi networks and personal hotspots
 - Carbon Black affects the iPad Sidecar functionality on Mac OS
+
+If you are experiencing any of these issues, some teammates have had success following [these resolution steps](https://community.carbonblack.com/t5/Knowledge-Base/Carbon-Black-Cloud-Network-is-Slow-or-Disconnects-after-Sensor/ta-p/109745).
 
 ## Related
 
