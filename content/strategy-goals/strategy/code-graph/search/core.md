@@ -22,7 +22,7 @@ In **FY22Q4**, we conducted discovery work to better understand the bottlenecks 
 
 #### Goals
 
-- **Monorepo performance**: At a P75 level, a synthetic repo of 15GB will index in less than 30 minutes, indexed searches complete in < 2s and unindexed searches complete in < 10s
+- **Monorepo performance**: At a P75 level, gigarepo will index in less than 30 minutes, indexed searches complete in < 2s and unindexed searches complete in < 10s. Gigarepo is a representative monorepo with a HEAD working copy size of 15GB.
 - **Ranking**: We start tracking ranking quality, using selected search results as a proxy.
 - **Code host coverage**: Sourcegraph Cloud indexes public repositories globally from the most popular package hosts.
 
