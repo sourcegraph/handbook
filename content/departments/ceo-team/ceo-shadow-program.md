@@ -4,7 +4,7 @@
 
 This is an overview of the CEO Shadow Program. Please feel free to contact the [Chief of Staff](mailto:connor.obrien@sourcegraph.com) or [Executive Business Partner to the CEO](mailto:sally.voisen@sourcegraph.com) with any questions, comments, feedback, or concerns.
 
-The CEO Shadow Program is a 2-week, temporary rotation for all [eligible employees](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#eligibility) where they are provided the opportunity to learn about the various functions of Sourcegraph from the perspective of the CEO. As part of the rotation, the CEO Shadow can expect to:
+The CEO Shadow Program is a 2-week, temporary rotation for all [eligible employees](../../ceo-shadow-program.md#eligibility) where they are provided the opportunity to learn about the various functions of Sourcegraph from the perspective of the CEO. As part of the rotation, the CEO Shadow can expect to:
 
 - Interact with every function of the business.
 - Act as a “thoughtful sounding board” to the CEO.
@@ -12,7 +12,7 @@ The CEO Shadow Program is a 2-week, temporary rotation for all [eligible employe
 
 ## Goal and intention of the program
 
-The CEO Shadow will give [eligible employees](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#eligibility) an up-close look at the day-to-day life of the Sourcegraph [CEO](https://handbook.sourcegraph.com/team/ceo/), Sourcegraph’s business strategies at work, and decision-making at the top. This rotation, if done right, should increase transparency and visibility into how Sourcegraph is run while better enabling the CEO Shadow to work cross-functionally and better align their core work to company strategies.
+The CEO Shadow will give [eligible employees](../../../ceo-shadow-program.md#eligibility) an up-close look at the day-to-day life of the Sourcegraph [CEO](../../team/ceo/index.md), Sourcegraph’s business strategies at work, and decision-making at the top. This rotation, if done right, should increase transparency and visibility into how Sourcegraph is run while better enabling the CEO Shadow to work cross-functionally and better align their core work to company strategies.
 
 In addition, this program is designed to humanize the [CEO](../../team/ceo/index.md) (and the executive team) so that teammates are more confident and comfortable collaborating and providing direct feedback to the [CEO](../../team/ceo/index.md) and exec team after the rotation is over.
 
