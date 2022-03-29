@@ -169,7 +169,7 @@ Our goal is to ensure financial discipline, however, as a Finance team, we also 
   - What is the business need for the adjustment to the budget?
   - What is the opportunity loss if we do not proceed with this adjustment?
 
-For non Headcount related requests, the above detail should be provided to the finance team via the [slack vendor request channel](https://join.slack.com/share/enQtMzMxMDA2OTA2NDMyMy0zNjI2NmZmZjk5YmQ1MzFmODNkM2EwNDE0MmFiYzAzOWIzOTBmZThiZmMzZWMwMjc5NzRlZjJkYWRmYzdhMzE3). The finance team will commit to respond within 24 hours.
+For non Headcount related requests, the above detail should be provided to the finance team via the slack #vendor-request channel. The finance team will commit to respond within 24 hours.
 
 ### Process
 
