@@ -16,6 +16,8 @@ _All teammates should join these channels and check them regularly_
 - [#thanks](https://sourcegraph.slack.com/archives/thanks) - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
 - [#handbook-announce](https://sourcegraph.slack.com/archives/handbook-announce) - Announcements of important changes to the Handbook.
 
+If you'd like to add a channel to the company-wide list, please reach out to the Tech Ops team in #it-tech-ops.
+
 ### Slack Retention
 
 Slack is not a [source of truth](index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](index.md#sources-of-truth). To enforce this, only 90 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels. Exceptions to this rule include the following channels:
