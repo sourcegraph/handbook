@@ -64,10 +64,10 @@ Factor in as much time to spend together during the trip and leave room for solo
 
 ### 3. Individual travel
 
-Each teammate has one fully-paid trip per year to meet up with an individual or a group. The intention for this travel is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with a teammate from another team, with whom you work closely or with whom a personal meeting may be beneficial.
+Each teammate has a $2,500 budget per year to meet up with an individual Sourcegraph team mate or a group. The intention for this travel is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
 
-- People Ops and Finance may approve trips in excess of $2,500 for certain circumstances.
-- This trip is _in addition_ to the other benefits mentioned on this page.
+- This budget is _in addition_ to the other benefits mentioned on this page.
+- Budgets cannot be "mixed and matched", for example you cannot spend $1k from your invidivual team budget in order to add the remaining $1.5k to a team travel.
 
 ### 4. Business/customer travel
 
