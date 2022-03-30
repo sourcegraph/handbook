@@ -1583,6 +1583,12 @@ elzanne_wentzel:
   links: '[Linkedin](https://www.linkedin.com/in/l-zanne-wentzel/)'
   description: Elzanne grew up in the wine lands of Paarl and studied Digital Design in Cape Town. After a 2 year stint as a designer she taught herself to code ActionScript and never looked back. She crafted her development skills over the next 15 years at Stonewall+, Saatchi & Saatchi @Play and Quirk and then decided to join the land of cyclists and no mountains to pursue a career as Product Owner at Lobster Ink, an online learning company. She loves that Sourcegraph gives her the oppurtunity to combine all her skills! She also adores her cats and plants, enjoys a good thriller, loves arts and crafts and exploring the world with her partner.
 
+project_manager_content_platform:
+  name: Elzanne Wentzel
+  role: (Interim) Project Manager - Content Platform
+  reports_to: director_engineering_enablement
+  manager_role_slug: project_manager_content_platform
+
 ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
@@ -2179,12 +2185,6 @@ director_design:
   role: (Interim) Director of Design
   reports_to: vp_product
   manager_role_slug: director_design
-
-engineering_manager_content_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Content Platform
-  reports_to: director_engineering_enablement
-  manager_role_slug: engineering_manager_content_platform
 
 jason_gornall:
   name: Jason Gornall

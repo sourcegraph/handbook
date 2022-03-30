@@ -139,8 +139,7 @@ content_platform:
   title: Content Platform Team
   strategy_link: /strategy-goals/strategy/enablement/content-platform
   product_org: enablement
-  pm: mary_belzer
-  em: engineering_manager_content_platform
-  design: stephanie_zabala
+  pm: project_manager_content_platform
+  em: elzanne_wentzel
   issue_labels:
     - team/content-platform
