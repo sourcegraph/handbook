@@ -42,32 +42,14 @@ Our company values can be found [here](../../../company-info-and-process/values/
 
 ## The Team
 
-- Tommy Pesavento - Brand Director
-- Fabiana Castellanos - Project Manager, Brand
-- Mustafa Ulker ~ a.k.a Moose - Senior Creative Lead, Brand
-- Kristen Sundberg - Senior Manager, Social Media
-- Sruti Dhulipala - Senior Manager, Global Brand Strategy
-- Jessie Char - Senior Manager, Events & Experiences
-- Steph Zabala - Principal Designer, Brand
+- Tracey Johnson - Brand Designer
 
-To be hired:
-
-- Brand Planner
-- Senior Brand Designer
-- Brand Designer
-- Creative Producer
-- Motion Designer/Animator
-- Multimedia Specialist
-- Copywriter, Brand
-- Digital Experience Manager/TPM
-- Web Designer (UX/UI)
-- UX Researcher
 
 ## Capabilities
 
 We deliver agency-caliber creativity and results in support of Sourcegraph's business goals to drive awareness, engagement, and affinity for our brand.
 
-The Brand Team is nested in the Marketing department of Sourcegraph, serving as cross-functional brand champion and creative partner for all internal teams and programs. With such a broad area of collaboration, we sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](production_process.md#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
+The Brand Team is nested in the Product department of Sourcegraph, serving as cross-functional brand champion and creative partner for all internal teams and programs. With such a broad area of collaboration, we sometimes partner with external agencies, freelancers, contractors, consultants, and other vendors as necessary to multiply our efforts or for when deep, subject-matter expertise is needed. This is called our [Preferred Vendor Network](production_process.md#sourcegraph-preferred-vendor-network-aka-the-network), or simply The Network.
 
 Connect with us if you have questions about any of the following. If we aren't able to support directly, we can at least serve as an advisory partner and connect you with a trusted vendor to help you get what you need:
 
