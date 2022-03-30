@@ -108,17 +108,17 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 
 ### Pull Requests
 
-All PR's made by the CPT go through a creation and QA process.
+All PRs made by the CPT go through a creation and QA process.
 
-**Authors for PR's should include:**
+**Authors for PRs should include:**
 
 1. Context in the description on what the PR achieves. This includes which issues it refers to, if any, using [closing keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to automate issue closing.
 2. A list of tasks as a Test Plan that a reviewer should test to ensure the proposed changes work as intended.
 3. At least 1 reviewer to review, provide feedback if necessary, and approve, in order to increase code health and prevent accidental bugs and changes from being snuck in after an approval has been made.
       - Note that the `/docs`, `/blogposts`, and `/podcasts` directories in our [About repo](https://github.com/sourcegraph/about) dismiss approvals for our Legal and Content Marketing teams to reduce friction. However, other changes propsed for the rest of the codebase requires an approval.
 4. Setting yourself as the assignee to keep track of your work.
-5. Any relevant labels including the required `team/content-platform` label.
-6. Tagging the **Content Platform Work** project, setting the apropriate status through the stages of work: In Progress and In Review, to keep everyone informed.
+5. Any relevant labels, including the required `team/content-platform` label.
+6. Tagging the **Content Platform Work** project and setting the apropriate status through the stages of work: In Progress and In Review, to keep everyone informed.
 7. Any relevant Milestones.
 8. Any optional comments to lines of code to point out specific context for reviewers.
 
@@ -131,7 +131,7 @@ All PR's made by the CPT go through a creation and QA process.
 
 ### Planning
 
-We plan using a Kanban workflow in a [Github project](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22).
+We currently plan using Sprints and include issues to work on in a bi-weekly basis. You can view our [Current Sprint](https://github.com/orgs/sourcegraph/projects/227/views/18) on GitHub.
 
 #### Weekly Planning Meeting
 
