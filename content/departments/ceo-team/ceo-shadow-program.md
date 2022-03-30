@@ -47,7 +47,9 @@ As a CEO Shadow, you are expected to be in-person with the CEO for 2 weeks. Allo
 
 This program is a break from our async culture, but given the [goal and intention](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#goal-and-intention-of-the-program) of the program, the CEO Shadow program is an exception. As such, efforts will be made to ensure this program is as inclusive as possible. Please reach out to the [Chief of Staff](mailto:connor.obrien@sourcegraph.com) or [Executive Business Partner to the CEO](mailto:sally.voisen@sourcegraph.com) if you have extenuating circumstances that are keeping you from participating and we’ll see what can be done to accommodate.
 
-### How to apply
+Participation in the CEO Shadow Program is not additive work to your day job. Participating in the CEO Shadow program means you are taking a 2-week leave from your core job and responsibilites to focus on being a CEO Shadow. Participation in the CEO Shadow program will not draw down from your available PTO as you will still be working, but in a different capacity. 
+
+## How to apply
 
 1. Work with your manager to find a rotation [(see available dates here)](https://docs.google.com/spreadsheets/u/0/d/1HqcXD5qZ6drKp1OEvGRM_o8tUuzydvzQJzcaOz-kMNs/edit) that can be accommodated by your team.
 2. Put your name in the yellow cell to claim a rotation slot in the aforementioned document.
@@ -58,19 +60,20 @@ This program is a break from our async culture, but given the [goal and intentio
 
 The CEO Shadow program will run in 2-week cycles. The new Shadow CEO will reach out to the existing Shadow CEO on the 2nd Wednesday of the existing rotation (the week before the start of the new rotation) to begin the handover.
 
-###Travel & Expenses
+### Travel & Expenses
+The CEO Shadow Program is designed to provide a unique and compelling opportunity to any and all Sourcegraph teammates. It's aim is to be as inclusive as possible so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](lways be relative. Replace this URL with "../../benefits-pay-perks/benefits-perks/travel.md#3-individual-travel.md). 
 
 #### Lodging
 
-Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. It is expected that CEO Shadows will stay the weekend between their first and second weeks so loding will be covered for that weekend only.
+Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. It is expected that CEO Shadows will stay the weekend between their first and second week. If you are traveling within the United States, lodging will be covered for that weekend only.
 
-If the CEO Shadow is traveling from outside the United States, accommodations will be extended to include the weekend prior to your scheduled rotation allow for CEO Shadows to adjust to the new time zone, get settled into a new country, etc.
+If the CEO Shadow is traveling from outside the United States, accommodations will be extended to include the weekend prior to your scheduled rotation to allow for CEO Shadows to adjust to the new time zone, get settled into a new country, etc.
 
-Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions. Please use these two documents to book your lodging.
+Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions. 
 
 #### Airfare
 
-Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions. Please use these two documents to book your lodging.
+Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions. 
 
 #### Transportation to / from the airport
 
@@ -88,23 +91,23 @@ Childcare is covered during the active shadowing period and will be reimbursed v
 
 The CEO shadow will accompany the CEO on any and all business travel.
 
-### Off-sites and Board Meetings
+## Off-sites and Board Meetings
 
 The CEO Shadow will not participate in Exec Team Off-site or Board meetings. Should a rotation fall over one of those events, the CEO Shadow rotation will split the weeks to fall before and after the off-sites / board meetings.
 
-### Blog post / interview
+## Blog post / interview
 
 Part of your job as a CEO Shadow is to create a blog post / interview about your time as the CEO Shadow.
 
-#### When is your content due?
+### When is your content due?
 
 Your content must be completed within 1 week of the completion of your rotation.
 
-#### How is content submitted?
+### How is content submitted?
 
 All content must be completed within 1 week of your CEO Shadow rotation. When it is ready, upload to the CEO Shadow Content google drive and @ mention Amie Rotherham, Director of Global Communications.
 
-#### What can you write / discuss?
+### What can you write / discuss?
 
 You can write or interview about anyone or anything you want. All content will be shared, unabridged, with the company and stored in the [CEO Shadow Content](https://drive.google.com/open?id=1gbL9f0h0aGe8F5ul-6YCDjpG5TTmMV8D) drive folder after submission.
 
