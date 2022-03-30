@@ -94,7 +94,7 @@ Sales Accepted Opportunities are where ALL of the following are true:
 - Contact can be a potential champion or coach for the specific use case(s)
 - Company has >50 Developers **OR** Company is a Commercial account ( <500 employees)
 - Company/contact agrees to a specific/objective next step
-Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
+  Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
 - For examples of the above criteria, please see [this presentation](https://docs.google.com/presentation/d/1pfQSZdoN9rbKidx8lfaDO8-G6PRyQ3X5f2aynvw2FRE/edit?usp=sharing)
 
 ### Multiple Sales Accepted Opportunities (SAOs) within the same account:
