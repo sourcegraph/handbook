@@ -1856,16 +1856,6 @@ win_yu:
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
   description: After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
 
-stephanie_zabala:
-  name: Stephanie Zabala
-  pronouns: she/her
-  role: Principal Designer, Brand
-  location: Brooklyn, NY, United States 🇺🇸
-  reports_to: vp_people
-  github: stephzabala
-  email: steph.zabala@sourcegraph.com
-  description: Steph is a designer based in NYC, originally from WA. She has a deep appreciation for creative work that is authentic, expressive, and artistic, along with a deep appreciation for butter, typography, and breakfast.
-
 crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
@@ -2179,12 +2169,6 @@ director_design:
   role: (Interim) Director of Design
   reports_to: vp_product
   manager_role_slug: director_design
-
-engineering_manager_content_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Content Platform
-  reports_to: director_engineering_enablement
-  manager_role_slug: engineering_manager_content_platform
 
 jason_gornall:
   name: Jason Gornall
