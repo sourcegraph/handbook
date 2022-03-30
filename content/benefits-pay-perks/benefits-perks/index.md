@@ -4,6 +4,8 @@ We want our teammates to be happy, healthy, and productive. In order to best sup
 
 ## Perks
 
+The perks outlined in this section are available to all teammates, regardless of the country they're based in.
+
 ### 🏡 All remote
 
 We are an [all-remote team](../../company-info-and-process/remote/index.md) so you have flexible work hours, work with the best people worldwide, and never waste time commuting. We give you a [budget to work from a coworking space and a budget to set up your home office](spending-company-money.md).
@@ -49,6 +51,8 @@ We offer our teammates a $300–500 [monthly budget](spending-company-money.md#r
 Whether you are relocating to join us or simply moving to a new place after you have already joined, we offer a yearly $1,000 reimbursement for hiring professional movers to reduce the stress associated with moving. Should you choose to move yourself, you may use this reimbursement for purchasing/renting moving boxes, packing materials, and if needed, a moving van/truck. Receipts for any expense over $25 are required.
 
 ## Benefits
+
+The benefits outlined in this section are currently only available to US-based teammates.
 
 ### 🏥 Medical
 

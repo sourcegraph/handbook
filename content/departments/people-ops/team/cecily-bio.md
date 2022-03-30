@@ -38,7 +38,7 @@ The random socializing that comes from sharing a space (this is hard without a p
 
 ### What kind of work do I find easiest to do when
 
-I focus best and prefer to do solo work in the morning, and tend to prefer having meetings in the late morning/early afternoon.
+I tend to prefer having meetings in the mornings, and focus best and prefer to do solo work in the afternoons.
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 

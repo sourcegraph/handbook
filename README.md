@@ -13,7 +13,7 @@ All content is in [Markdown](https://www.markdownguide.org/getting-started/#what
 You need NodeJS and Yarn installed. How to do so can vary from machine to machine, but as an example on Ubuntu 20.04:
 
 1. Install `nvm` from https://github.com/nvm-sh/nvm
-1. Run `nvm install` from the current directory
+1. Run `nvm install` from the current directory (if you already have nvm make sure you are using a node version >= v16.14.2)
 1. Run `npm install -g yarn` from the current directory
 
 Install dependencies:
