@@ -54,7 +54,7 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
     - A [Prod/Eng dashboard slide](https://docs.google.com/presentation/d/1KUOElUkrH-29teXmZBmgmIgLngf-I_6Ikixub1SR0yM/edit#slide=id.g1122c1a30bf_10_0) in the Exec OKR Google Slide deck which is used to signal any critical updates on a weekly basis. An OKR progress review is done monthly
     - The [handbook OKR page](../../../strategy-goals/goals/index.md) is the sanitized public version of our OKRs. It captures a distilled version of our department OKRs and does not include status updates
 
-Our philosophy on goal setting as well as a view into our history of goals is [published in our handbook](../../../strategy-goals/goals/index.md).
+Our company wide philosophy on goal setting as well as a view into our history of goals is [published in our handbook](../../../strategy-goals/goals/index.md).
 
 ### Roadmap
 
