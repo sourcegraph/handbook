@@ -30,19 +30,19 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
 ### Quarterly department OKRs
 
 - **Purpose:** set directional strategy with clear outcomes for what our department will achieve. They communicate to our department and cross-functionally what we view as the most important themes we are focused on as a department this quarter.
- - Objectives: 
-  - Are high impact outcomes that we need to achieve for the business
-  - Are inspiring
-  - Are specific enough to provide alignment and context to make decisions, and also broad enough that multiple teams can contribute to it
-  - Allow us to prioritize the work that is most important
- - KRs:
-  - Are how we know we have achieved the objective
-  - Are supported by a list of all the things that we will do in order to achieve the outcome we desire, including directly responsible individuals for each item
- - Objectives and KRs:
-  - Are not necessarily meant to reflect commitments to other departments
-  - Are not necessarily always cross-functional
-  - Do not need to be relevant for ALL teams/orgs
-  - Do not need to represent the sum of what everyone is doing
+- Objectives:
+- Are high impact outcomes that we need to achieve for the business
+- Are inspiring
+- Are specific enough to provide alignment and context to make decisions, and also broad enough that multiple teams can contribute to it
+- Allow us to prioritize the work that is most important
+- KRs:
+- Are how we know we have achieved the objective
+- Are supported by a list of all the things that we will do in order to achieve the outcome we desire, including directly responsible individuals for each item
+- Objectives and KRs:
+- Are not necessarily meant to reflect commitments to other departments
+- Are not necessarily always cross-functional
+- Do not need to be relevant for ALL teams/orgs
+- Do not need to represent the sum of what everyone is doing
 - **Drivers:** Prod/eng directors
 - **Approvers:** [Christina Forney](../../../team/index.md#christina-forney) & [Nick Snyder](../../../team/index.md#nick-snyder)
 - **Key input providers:** EMs, Customer Support Managers, & PMs
