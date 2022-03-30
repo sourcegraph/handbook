@@ -130,7 +130,7 @@ All PR's made by the CPT go through a creation and QA process.
 
 ### Planning
 
-We plan using a Kanban workflow in a [Github project](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22). We do not work in iterations or sprints.
+We plan using a Kanban workflow in a [Github project](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22).
 
 #### Weekly Planning Meeting
 
