@@ -47,7 +47,7 @@ As a CEO Shadow, you are expected to be in-person with the CEO for 2 weeks. Allo
 
 This program is a break from our async culture, but given the [goal and intention](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#goal-and-intention-of-the-program) of the program, the CEO Shadow program is an exception. As such, efforts will be made to ensure this program is as inclusive as possible. Please reach out to the [Chief of Staff](mailto:connor.obrien@sourcegraph.com) or [Executive Business Partner to the CEO](mailto:sally.voisen@sourcegraph.com) if you have extenuating circumstances that are keeping you from participating and we’ll see what can be done to accommodate.
 
-Participation in the CEO Shadow Program is not additive work to your day job. Participating in the CEO Shadow program means you are taking a 2-week leave from your core job and responsibilites to focus on being a CEO Shadow. Participation in the CEO Shadow program will not draw down from your available PTO as you will still be working, but in a different capacity. 
+Participation in the CEO Shadow Program is not additive work to your day job. Participating in the CEO Shadow program means you are taking a 2-week leave from your core job and responsibilites to focus on being a CEO Shadow. Participation in the CEO Shadow program will not draw down from your available PTO as you will still be working, but in a different capacity.
 
 ## How to apply
 
@@ -61,7 +61,8 @@ Participation in the CEO Shadow Program is not additive work to your day job. Pa
 The CEO Shadow program will run in 2-week cycles. The new Shadow CEO will reach out to the existing Shadow CEO on the 2nd Wednesday of the existing rotation (the week before the start of the new rotation) to begin the handover.
 
 ### Travel & Expenses
-The CEO Shadow Program is designed to provide a unique and compelling opportunity to any and all Sourcegraph teammates. It's aim is to be as inclusive as possible so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/travel.md#3-individual-travel.md). 
+
+The CEO Shadow Program is designed to provide a unique and compelling opportunity to any and all Sourcegraph teammates. It's aim is to be as inclusive as possible so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](https://handbook.sourcegraph.com/benefits-pay-perks/benefits-perks/travel.md#3-individual-travel.md).
 
 #### Lodging
 
@@ -69,11 +70,11 @@ Lodging during the CEO shadow program is provided by the company and will only c
 
 If the CEO Shadow is traveling from outside the United States, accommodations will be extended to include the weekend prior to your scheduled rotation to allow for CEO Shadows to adjust to the new time zone, get settled into a new country, etc.
 
-Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions. 
+Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions.
 
 #### Airfare
 
-Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions. 
+Airfare is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions.
 
 #### Transportation to / from the airport
 
