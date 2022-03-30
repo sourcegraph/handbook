@@ -17,6 +17,7 @@ Are you the birthing caregiver or non-birthing caregiver?
 Which country and state will you be based in during your leave?
 Do you plan on taking 16 weeks (or more/less)?
 Will you be taking your leave consecutively or non-consecutively?
+Are there any questions or concerns you have for the People Ops team regarding your leave?
 
 ### Notify your manager
 
