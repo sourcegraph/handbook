@@ -23,24 +23,24 @@ This page describes how we define & continuously refine our product/engineering 
   - While we are collaborating on the annual prod/eng strategy we will use a Google doc
   - Once the strategy is finalized it is added to the [Prod/Engineering Strategy page](../strategy-goals/index.md)
 
-Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/index.md) that describes in [narrative form](https://www.mindtheproduct.com/the-importance-of-narrative/) where the company is headed and why, what we want the product to be at the end of the year, trade-offs, and how we plan to achieve that strategically.  This strategy is used to drive our annual prod/eng strategy
+Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/index.md) that describes in [narrative form](https://www.mindtheproduct.com/the-importance-of-narrative/) where the company is headed and why, what we want the product to be at the end of the year, trade-offs, and how we plan to achieve that strategically. This strategy is used to drive our annual prod/eng strategy
 
 ### Quarterly department OKRs
 
 - **Purpose:** set directional strategy with clear outcomes for what our department will achieve. They communicate to our department and cross-functionally what we view as the most important themes we are focused on as a department this quarter.
- - Objectives
-  - Are high impact outcomes that we need to achieve for the business
-  - Are inspiring
-  - Are specific enough to provide alignment and context to make decisions, and also broad enough that multiple teams can contribute to it 
-  - Allow us to prioritize the work that is most important
- - KRs:
-  - Are how we know we have achieved the objective
-  - Are supported by a list of all the things that we will do in order to achieve the outcome we desire, including directly responsible individuals for each item
- - Objectives and KRs:
-  - Are not necessarily meant to reflect commitments to other departments
-  - Are not necessarily always cross-functional 
-  - Do not need to be relevant for ALL teams/orgs
-  - Do not need to represent the sum of what everyone is doing
+- Objectives
+- Are high impact outcomes that we need to achieve for the business
+- Are inspiring
+- Are specific enough to provide alignment and context to make decisions, and also broad enough that multiple teams can contribute to it
+- Allow us to prioritize the work that is most important
+- KRs:
+- Are how we know we have achieved the objective
+- Are supported by a list of all the things that we will do in order to achieve the outcome we desire, including directly responsible individuals for each item
+- Objectives and KRs:
+- Are not necessarily meant to reflect commitments to other departments
+- Are not necessarily always cross-functional
+- Do not need to be relevant for ALL teams/orgs
+- Do not need to represent the sum of what everyone is doing
 - **Drivers:** Prod/eng directors
 - **Approvers:** [Christina Forney](../../../team/index.md#christina-forney) & [Nick Snyder](../../../team/index.md#nick-snyder)
 - **Key input providers:** EMs, Customer Support Managers, & PMs
@@ -52,7 +52,7 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
     - A [Prod/Eng dashboard slide](https://docs.google.com/presentation/d/1KUOElUkrH-29teXmZBmgmIgLngf-I_6Ikixub1SR0yM/edit#slide=id.g1122c1a30bf_10_0) in the Exec OKR Google Slide deck which is used to signal any critical updates on a weekly basis. An OKR progress review is done monthly
     - The [handbook OKR page](../../../strategy-goals/goals/index.md) is the sanitized public version of our OKRs. It captures a distilled version of our department OKRs and does not include status updates
 
-Our philosophy on goal setting as well as a view into our history of goals is [published in our handbook](../../../strategy-goals/goals/index.md). 
+Our philosophy on goal setting as well as a view into our history of goals is [published in our handbook](../../../strategy-goals/goals/index.md).
 
 ### Roadmap
 
@@ -92,6 +92,7 @@ Prod/eng directors align on the **planning process** through review, adjustments
 Prod/eng directors begin collaboarting on **the first iteration of OKRs** based on long term product vision and strategy.
 
 #### 5 weeks before
+
 Prod/eng directors review draft OKRs with VPs and their teams to solicit feedback and share context on how team roadmaps might need to be adjusted.
 
 Engineer Managers & Product Managers make **first pass adjustments to future roadmap items** taking into consideration 1) the draft OKRs and 2) their team’s current work in progress 3) our long term strategy
@@ -159,10 +160,11 @@ During the retrospective we will vote on what topics we want to discuss and then
 
 When we discover OKRs or roadmap items are not aligned with our most pressing ambitions and most critical outcomes, we should rethink and rearticulate our focus to ensure our teams are working on the most important things.
 
-Signs that we should consider changing our plan: 
- - We are getting distracted by things which feel more important but aren’t supporting our plan
- - We received new information that feel in opposition to our plan
- - We baselined a metric and it becomes less clear how to have an impact.
+Signs that we should consider changing our plan:
+
+- We are getting distracted by things which feel more important but aren’t supporting our plan
+- We received new information that feel in opposition to our plan
+- We baselined a metric and it becomes less clear how to have an impact.
 
 We shouldn’t be afraid to have these important discussions and question whether or not we are focusing on the most important things. If we do decide to make any changes (tweak a target, reword/replace something, or drop an item entirely), we will treat this as a valuable learning exercise and opportunity to improve alignment with our teams and stakeholders
 
@@ -170,7 +172,7 @@ To change something material mid quarter here are the steps:
 
 - Raise the discussion in our #product-eng-directors slack channel to discuss async
 - When an async conversation is no longer moving a decision along schedule a synchronous conversation with all impacted stakeholders
-- If the change is to an OKR: 
+- If the change is to an OKR:
   - Gather feedback and consensus from rest of team and determine if we want to change the OKR or completely remove it
   - Gain approval from Nick/Christina; if necessary, gain alignment or simply bring awareness to change at Exec Meeting
 - Update the associated artifact and communicate change in appropriate Slack channels #prod-eng-announce, etc.
@@ -186,7 +188,7 @@ Team newsletters communicate a high-level narrative/summary to the rest of the c
   - Consider sharing wins, challenges, risks, plans, lessons learned.
   - Inline relevant screenshots/demos/gifs/charts when possible so it isn't just a wall of text.
   - Be creative and have fun with it! Jokes and random fun facts are welcome.
- 
+
 ### Monthly plan reviews
 
 An important part of keeping planning simple is to make incremental updates throughout each quarter.
@@ -212,7 +214,3 @@ Updates and highlights of what has changed are shared in #prod-eng-announce Slac
   - Clear next steps and owners.
   - Any other helpful information (ex: risks, requests for help).
 - VP Product and VP Eng review and ask questions async and then anything that needs discussion is added to [VP team sync agenda](../team/index.md#vp-team-sync).
-
-
-
-
