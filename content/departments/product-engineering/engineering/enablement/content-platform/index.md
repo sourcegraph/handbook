@@ -114,10 +114,11 @@ All PR's made by the CPT go through a creation and QA process.
 
 1. Context in the description on what the PR achieves. This includes which issues it refers to, if any, using [closing keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to automate issue closing.
 2. A list of tasks as a Test Plan that a reviewer should test to ensure the proposed changes work as intended.
-3. At least 1 reviewer to review, provide feedback if necessary, and approve, in order to increase code health. Note that the `/docs` and `/blogposts` directories in our [About repo](https://github.com/sourcegraph/about) dismiss approvals for our Legal and Content Marketing teams to reduce friction.
+3. At least 1 reviewer to review, provide feedback if necessary, and approve, in order to increase code health and prevent accidental bugs and changes from being snuck in after an approval has been made.
+      - Note that the `/docs`, `/blogposts`, and `/podcasts` directories in our [About repo](https://github.com/sourcegraph/about) dismiss approvals for our Legal and Content Marketing teams to reduce friction. However, other changes propsed for the rest of the codebase requires an approval.
 4. Setting yourself as the assignee to keep track of your work.
 5. Any relevant labels including the required `team/content-platform` label.
-6. Tagging the **Content Platform Work** project, setting the apropriate status through all the stages of work: Ready for Development, In Progress, In Review, etc. to keep everyone informed.
+6. Tagging the **Content Platform Work** project, setting the apropriate status through the stages of work: In Progress and In Review, to keep everyone informed.
 7. Any relevant Milestones.
 8. Any optional comments to lines of code to point out specific context for reviewers.
 
