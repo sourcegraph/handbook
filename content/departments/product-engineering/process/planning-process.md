@@ -12,6 +12,8 @@ This page describes how we define & continuously refine our product/engineering 
 
 ## Artifacts
 
+Following are the key artifacts we use to represent the work we are doing.
+
 ### Annual prod/eng strategy
 
 - **Purpose:** Provide direction and context on what we are planning on doing this year and why
@@ -28,7 +30,7 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
 ### Quarterly department OKRs
 
 - **Purpose:** set directional strategy with clear outcomes for what our department will achieve. They communicate to our department and cross-functionally what we view as the most important themes we are focused on as a department this quarter.
-- Objectives
+- Objectives:
 - Are high impact outcomes that we need to achieve for the business
 - Are inspiring
 - Are specific enough to provide alignment and context to make decisions, and also broad enough that multiple teams can contribute to it
@@ -140,7 +142,7 @@ Prod/eng directors incorporate executive feedback into the and **complete and co
 - Communicate department OKRs
 - Highlighting changes/additions to the roadmap for upcoming quarter at Company kick off
 
-### Quarterly retrospective
+#### Quarterly retrospective
 
 Near the end of each quarter, the product/engineering VPs and Directors will get together for a retrospective. The purpose of this retrospective is to create a shared safe space for celebrating wins, learning, and improvement.
 
@@ -156,7 +158,7 @@ Before the retrospective we will:
 
 During the retrospective we will vote on what topics we want to discuss and then discuss those topics, and after the retrospective, we will share notes and action items in a public channel for transparency.
 
-#### Mid-quarter adjustments
+### Mid-quarter adjustments
 
 When we discover OKRs or roadmap items are not aligned with our most pressing ambitions and most critical outcomes, we should rethink and rearticulate our focus to ensure our teams are working on the most important things.
 
