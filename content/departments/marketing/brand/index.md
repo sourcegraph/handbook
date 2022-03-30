@@ -44,7 +44,6 @@ Our company values can be found [here](../../../company-info-and-process/values/
 
 - Tracey Johnson - Brand Designer
 
-
 ## Capabilities
 
 We deliver agency-caliber creativity and results in support of Sourcegraph's business goals to drive awareness, engagement, and affinity for our brand.
