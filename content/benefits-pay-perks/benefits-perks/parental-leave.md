@@ -10,14 +10,14 @@ You may take the 16 weeks consecutively, or you may choose to use them non-conse
 
 ### Notify the People team
 
-Notify People Ops via email (people-ops@sourcegraph.com) as soon as you can (no later than 1 month prior to your leave date) with answers to the following questions:
-What date are you planning on starting your leave?
-What is the due date?
-Are you the birthing caregiver or non-birthing caregiver?
-Which country and state will you be based in during your leave?
-Do you plan on taking 16 weeks (or more/less)?
-Will you be taking your leave consecutively or non-consecutively?
-Are there any questions or concerns you have for the People Ops team regarding your leave?
+- Notify People Ops via email (people-ops@sourcegraph.com) as soon as you can (no later than 1 month prior to your leave date) with answers to the following questions:
+- What date are you planning on starting your leave?
+- What is the due date?
+- Are you the birthing caregiver or non-birthing caregiver?
+- Which country and state will you be based in during your leave?
+- Do you plan on taking 16 weeks (or more/less)?
+- Will you be taking your leave consecutively or non-consecutively?
+- Are there any questions or concerns you have for the People Ops team regarding your leave?
 
 ### Notify your manager
 
