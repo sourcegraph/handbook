@@ -2,9 +2,9 @@
 
 ## Parental leave benefit
 
-Sourcegraph ensures you are paid 100% of your salary for up to 16 weeks (covering the difference between the amount your state parental leave covers and your full salary).
-You may take more or less than 16 weeks, depending on your needs and preferences (anything over 16 weeks is unpaid).
-You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of the delivery date).
+- Sourcegraph ensures you are paid 100% of your salary for up to 16 weeks (covering the difference between any country or state-sponsored benefits and your full salary).
+- You may take more or less than 16 weeks, depending on your needs and preferences (anything over 16 weeks is unpaid).
+- You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial leave date).
 
 ## Communicating and logging your parental leave
 
