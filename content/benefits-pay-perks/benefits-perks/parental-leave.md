@@ -17,7 +17,9 @@
 - Which country and state will you be based in during your leave?
 - Do you plan on taking 16 weeks (or more/less)?
 - Will you be taking your leave consecutively or non-consecutively?
-- Are there any questions or concerns you have for the People Ops team regarding your leave?
+- Are there any questions or concerns you have for the People team regarding your leave?
+
+Once you've notified the People team via email, someone from the People team will follow up with next steps!
 
 ### Notify your manager
 
