@@ -390,7 +390,7 @@ export async function generateTeamOrgChart(team) {
   const productTeam = productTeams[team]
   if (productTeam.pm) {
     const bioLink = createBioLink(teamMembers[productTeam.pm].name)
-    pageContent += await generateReportingStructure(teamMembers[productTeam.pm].manager_role_slug)
+    pageContent += `- [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)}), Product Manager\n`
   }
   if (productTeam.em) {
     const bioLink = createBioLink(teamMembers[productTeam.em].name)
