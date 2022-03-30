@@ -90,12 +90,12 @@ Calculation: # of deals closed won / # of deals qualified in the period
 Sales Accepted Opportunities are where ALL of the following are true:
 
 - We have completed an intro call/meeting with the company/contact
-- Company/contact has expressed some form of interest/need in Sourcegraph
-- Contact can be a potential champion or coach
-- Company has >50 Developers **OR** Company is a Commercial account ( <250 employees)
-- We have next steps
-
+- Company/contact has identified at least one application of a core use case tied to a ‘why now’ event
+- Contact can be a potential champion or coach for the specific use case(s)
+- Company has >50 Developers **OR** Company is a Commercial account ( <500 employees)
+- Company/contact agrees to a specific/objective next step
 Any Opportunity that is moved into the Qualification Stage or beyond is automatically tagged as Sales Accepted Opportunity in Salesforce
+- For examples of the above criteria, please see [this presentation](https://docs.google.com/presentation/d/1pfQSZdoN9rbKidx8lfaDO8-G6PRyQ3X5f2aynvw2FRE/edit?usp=sharing)
 
 ### Multiple Sales Accepted Opportunities (SAOs) within the same account:
 
