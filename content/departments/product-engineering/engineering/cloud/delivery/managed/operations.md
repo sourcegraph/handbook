@@ -80,6 +80,8 @@ You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) 
 2. `cd` to the `/deployment/docker-compose` folder and run:
 3. `docker compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal`
 
+> NOTE: Only restart a managed instance AFTER coordinating with the customer involved and its deemed necessary
+
 ### Port-forwarding
 
 Locate the GCP instance you'd like to access (usually either `default-red-instance` or `default-black-instance`), and then:
