@@ -2,15 +2,14 @@
 
 Welcome to digital marketing at Sourcegraph! We’re thrilled you’ve stumbled upon our humble corner of the handbook. Let us show you around…
 
-In FY23, it’s all about **use cases**. (If this is news to you, [start here first](https://handbook.sourcegraph.com/strategy-goals/strategy/#use-cases), then come back – it’ll make more sense.) 
+In FY23, it’s all about **use cases**. (If this is news to you, [start here first](https://handbook.sourcegraph.com/strategy-goals/strategy/#use-cases), then come back – it’ll make more sense.)
 
-Digital campaigns all start with a project brief to ensure campaign strategy aligns with our overall marketing strategy and [company strategy](https://handbook.sourcegraph.com/strategy-goals/strategy/#this-year-fy23). We have two kinds of campaign brief templates: 
+Digital campaigns all start with a project brief to ensure campaign strategy aligns with our overall marketing strategy and [company strategy](https://handbook.sourcegraph.com/strategy-goals/strategy/#this-year-fy23). We have two kinds of campaign brief templates:
 
-* [Project brief template (***make a copy***)](https://docs.google.com/document/d/1tu9TcDCsSIIjZnSndThVKPhd4C99YVlhU1MUTEoq8Qo/edit?usp=sharing)
-* [Webinar promo campaign brief template (***make a copy***)](https://docs.google.com/document/d/1FglACbmPHs0enGEg6oqLzNEUyIUvv89oIRrnjy1l3f8/edit?usp=sharing)
+- [Project brief template (**_make a copy_**)](https://docs.google.com/document/d/1tu9TcDCsSIIjZnSndThVKPhd4C99YVlhU1MUTEoq8Qo/edit?usp=sharing)
+- [Webinar promo campaign brief template (**_make a copy_**)](https://docs.google.com/document/d/1FglACbmPHs0enGEg6oqLzNEUyIUvv89oIRrnjy1l3f8/edit?usp=sharing)
 
-All campaign briefs live in the [Digital campaign project briefs](https://drive.google.com/drive/folders/1MzzMWne-TPuSJjBmsoNWxSB8pVy-c6AG?usp=sharing) folder. If you’re creating a new project brief, check to make sure it ends up in the correct spot! 
-
+All campaign briefs live in the [Digital campaign project briefs](https://drive.google.com/drive/folders/1MzzMWne-TPuSJjBmsoNWxSB8pVy-c6AG?usp=sharing) folder. If you’re creating a new project brief, check to make sure it ends up in the correct spot!
 
 ### Strategy
 
@@ -47,9 +46,9 @@ Audiences are heavily informed by [personas](https://handbook.sourcegraph.com/de
 
 ### Channels
 
-We run (or have run) ads/sponsorships on a number of channels in order to raise awareness of Sourcegraph in the developer community, and the list is continually evolving. Have a suggestion? Send it our way in the #digital-campaigns channel. 
+We run (or have run) ads/sponsorships on a number of channels in order to raise awareness of Sourcegraph in the developer community, and the list is continually evolving. Have a suggestion? Send it our way in the #digital-campaigns channel.
 
-A sampling of the types of channels we advertise on: 
+A sampling of the types of channels we advertise on:
 
 #### Developer-Facing Ad Networks
 
@@ -63,14 +62,13 @@ Have a suggestion? We're all ears! Send it to #digital-campaigns in Slack.
 
 - Coming soon: a podcast sponsorship landing page to maximize our sponsorship investment! WIP, [Asana card](https://app.asana.com/0/1201980328042972/1201980328042972)
 
-
 ### Paid Search and Display Campaigns
 
 We run search ads (text and display) on both Google and Bing. Our display ads run as part of Intent campaigns (serving ads to those who have searched on our core keywords) and Remarketing campaigns (serving ads to those who have visited our website).
 
 ### Paid Social Campaigns
 
-LinkedIn lead gen forms are our most successful paid social campaign type to-date, and are 4x more likely to convert than typical gated content. Our Q1 focus centered around developer onbording, with planned follow-up content for both developer onboarding and fixing vulnerabilities use cases. 
+LinkedIn lead gen forms are our most successful paid social campaign type to-date, and are 4x more likely to convert than typical gated content. Our Q1 focus centered around developer onbording, with planned follow-up content for both developer onboarding and fixing vulnerabilities use cases.
 
 We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linkedin.com/company/sourcegraph/posts/?feedView=ads&viewAsMember=true), using the following content offers, among others:
 
@@ -120,9 +118,8 @@ Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using 
 
 1. For ad networks, podcasts, newsletters, or any other advertising partner that doesn't auto-bill monthly: Invoices are received via email from our advertising partners.
 2. We send invoices to <finance@sourcegraph.com>, and include a copy of the signed insertion order as backup for the invoice.
-  
-  
-  - Google Ads and Microsoft Advertising are both on monthly auto-billing. Demand generation uploads receipts to Airbase. 
+
+- Google Ads and Microsoft Advertising are both on monthly auto-billing. Demand generation uploads receipts to Airbase.
 
 ### Reporting
 
