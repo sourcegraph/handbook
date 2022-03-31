@@ -16,7 +16,6 @@ We will be hiring for interns across various business departments. Recruiting wi
 
 ### Job Boards we’re Using:
 
-- Handshake (Coming Soon)
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fqti3gmuu2b6800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
