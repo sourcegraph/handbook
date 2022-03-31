@@ -4,7 +4,7 @@ The Security team has a dedicated member on a weekly support rotation. This docu
 
 - Incoming inquiries from other teams
 - PR reviews
-- Bug bounty reports
+- Bug bounty reports on HackerOne
 - Security questionnaires
 - Cloudflare WAF blocks
 - Vulnerability board
@@ -34,6 +34,7 @@ The following channels/boards should be checked at least _once a day_:
 - #security-monitoring
 - Messages that tag @security-team or @security-support
 - GitHub notifications tagging @security
+- HackerOne reports
 - security@sourcegraph.com email
 - [Jira vulnerability board](https://sourcegraph.atlassian.net/jira/software/c/projects/VUL/boards/10)
 
@@ -50,22 +51,28 @@ Our team gets tagged for reviewing PRs in the @security team in GitHub. PR revie
 
 ### Bug Bounty reports
 
-We receive Bug Bounty reports through security@sourcegraph.com. We're looking into moving to a managed platform soon but until then we manage the full circle from initial communications through arranging the payment.
+We receive reports into our HackerOne program. Make sure that:
 
-Relevant links:
+* You have an account on HackerOne
+* You have notifications set up to receive emails reports from the platform
 
-- [Bug bounty policy](reporting-vulnerabilities.md)
-- [Vulnerability Management Process](https://docs.google.com/document/d/1kz_OPNjbwGAdCOmFAj2l6RkweFqJQNwV9pLfrzMhD-o/edit#heading=h.xi1of12kq9by)
-- [Vulnerability Management Policy](https://docs.google.com/document/d/1kz_OPNjbwGAdCOmFAj2l6RkweFqJQNwV9pLfrzMhD-o/edit#heading=h.xi1of12kq9by)
+You should be able to view the HackerOne inbox for Sourcegraph [here](https://hackerone.com/bugs).
 
-For every email to security@ with a Bug Bounty report, do the following:
+When HackerOne receives new bounty reports, they will do the first stage of trigge
+themselves, and come to a conclusion about the report. They will then move the
+report to the 'Pending review' stage, which is where you will be expected to
+confirm that their work was correct.
 
-1. Reply acknowledging the report and that we will look into it. Please ensure security@sourcegraph.com remains CC'd during the bounty communication process (often it can get removed by defaulting to "Reply" rather than "Reply to all").
-2. Within 3 days max (but ideally asap) triage the report and confirm whether it's real and its impact. If confirmed, create an issue in the security-issues repository. If not, reply to the reporter explaining why the report is invalid. More information can be found in the Triage section of the Vulnerability Management Process doc.
-3. If the issue is confirmed, reply to the reporter and ask for their bank details in case a bounty is due. We send payments via ACH, international wire, or check – look through previous correspondence to see what details are required from the reporter.
-4. Once you have the reporter's bank details, email ap@sourcegraph.com (Accounts Payable), CCing security@, saying the bounty value and contact information for the payment.
+If you feel unsure about their conclusion on a vulnerability, get help as soon
+as possible, since there are SLAs involved.
 
-If you feel unsure about triaging a vulnerability, get help as soon as possible since there are SLAs involved.
+We may continue to receive bounty reports to security@sourcegraph.com, the email
+address for our old public bounty program. Keep an eye on these. In most cases,
+we will not consider such reports for a bounty, but in case we receive a particularly
+good report, we might consider the reporter for an invite to our HackerOne program.
+Discuss any reports which you feel might qualify for an invite with the team before
+responding to the reporter – we should be using our invites sparingly and only
+for the best reports.
 
 ### Security questionnaires
 
