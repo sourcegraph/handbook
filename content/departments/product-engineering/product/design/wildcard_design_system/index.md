@@ -25,10 +25,10 @@ Spacing:
 
 - Sourcegraph uses an 8-point grid. Modify your [nudge settings](https://help.figma.com/hc/en-us/articles/4404575206295-Set-small-and-big-nudge-values) accordingly!
 
-## Components 
+## Components
 
-Read more about adding and modifying components in [using components](./using-components.md). 
+Read more about adding and modifying components in [using components](./using-components.md).
 
 ## User interface patterns
 
-Read more about different user interface patterns in [user interface patterns](./user-interface-patterns.md). 
+Read more about different user interface patterns in [user interface patterns](./user-interface-patterns.md).
