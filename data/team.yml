@@ -2944,3 +2944,12 @@ tim_zielonko:
   reports_to: engineering_manager_content_platform
   location: Saint Louis, MO, USA 🇺🇸
   description: 'Tim is a software engineer supporting the Content Platform team. He joins Sourcegraph from Saint Louis, Missouri, where he lives with his partner, Alex, and their dog, Otto.'
+
+mason_manorothkul:
+  name: Mason Manorothkul
+  email: mason.manorothkul@sourcegraph.com
+  github: masonmanorothkul
+  role: Senior Analyst
+  reports_to: senior_manager_finance
+  location: San Francisco, CA, USA 🇺🇸
+  description: 'Mason is a Senior Analyst on the Finance team. He lives in San Francisco, California with his partner and two cats. In his free time, he enjoys rock climbing, traveling, playing video games, and trading stocks/crypto.'
