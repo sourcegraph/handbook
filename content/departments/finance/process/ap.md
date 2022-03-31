@@ -56,7 +56,9 @@ The table below presents the approval levels required for expenditure, based on 
 
 For procurement that exceeds the equivalent of 5,000 USD, a Purchase Order (PO) will be required in Airbase. Please attach the quote, estimate, or contractual draft to the PO prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](./ap.md#contractual-execution) section below.
 
-**PO Process**
+POs are not required for our FT international teammates, but will be required for any temporary contractors.
+
+**PO Steps**
 
 1. Obtain quote or estimate from vendor
 2. Create PO to align with quote or estimate (dates for PO should match the service dates, amount should be for the entirety of the service or goods)
