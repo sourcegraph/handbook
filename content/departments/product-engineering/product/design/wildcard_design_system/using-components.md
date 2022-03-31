@@ -1,4 +1,5 @@
 # Using components
+
 In Figma, components are reusable items like icons, navigation, and inputs that are shared across a team. You can read more about Figma components in [Figma's documentation.](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-Components-in-Figma). React, which our frontend is written in, also has a concept of components.
 
 ## Adding a component
