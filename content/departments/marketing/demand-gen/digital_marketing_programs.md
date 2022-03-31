@@ -7,10 +7,13 @@ Paid digital programs at Sourcegraph generate demand through awareness and acqui
 - Awareness – get the message out about Sourcegraph and our products to developers worldwide
 - Acquisition – deliver value through product sign-ups, demos, and other high-impact offers
 
+For a full campaign calendar see the FY23 Digital Campaigns Calendar in [Asana](https://app.asana.com/read-only/FY23-Digital-Campaigns-Calendar/7195383522959/aba601d4ac814ddb65d0049cf5a45757/calendar) **[internal-only]** 
+
 ### Offers
 
 We use a variety of CTAs, including:
 
+- Gated content [Continuous Developer Onboarding](https://about.sourcegraph.com/guides/continuous-developer-onboarding) – designed to educate, move buyers through the buyer journey, and get new users into the Sourcegraph marketing universe
 - Product trials [Search Code](https://sourcegraph.com/search), [Deploy Locally](https://about.sourcegraph.com/#get-started), [Sign-up for Sourcegraph](https://sourcegraph.com/sign-up) – these are designed to increase product use, especially among new users, for both the local install and Cloud product
 - [Blog content](https://about.sourcegraph.com/blog/) – these campaigns offer educational content from the Sourcegraph blog to enable developers to increase their skills and think of Sourcegraph as a developer resource
 - Testimonial content & [case studies](https://about.sourcegraph.com/case-studies/) – testimonial quotes from customers and case study offers provide third-party credibility for both individual developers and their managers
@@ -70,10 +73,35 @@ We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linke
 
 Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 0–3.
 
-Details for all the above programs/campaigns can be found in [Google drive](https://docs.google.com/spreadsheets/d/1IQbXQYKkwbGvG0ZN2YNLcfpkHGsbxnyl9EDbd7GXmew/edit?usp=sharing) (internal link only).
+### What makes for good paid social content/campaigns?
 
+* We can develop some clear audience targeting parameters based on the content piece, and they map back to our key accounts or target personas (for example, we know we can target on LinkedIn by profiles of former Google employees, as well as those with interests in adjacent topics)
+* It’s something written in a way that puts our audience/key personas and their problems first, and lead with their problems. But, it’s capable of looping back to our business goals with a product tie or demo request!
+* Sometimes: depending on the campaign and what else is going on, I like to put paid spend behind less “newsworthy” posts that topically support broader initiatives to prime an audience or are one in a series of smaller posts that lead up to something bigger like an upcoming event, research report, feature release, etc.
+* A bonus here: We know a similar, ungated piece generated a ton of engagement, so we’ve got confirmation there’s a large, active audience
 We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See [more details](../process/ad_conversion_flows.md).
 
+### Understanding LinkedIn Ad Formats
+
+* **Single image:** Promote your message directly in the LinkedIn feed. Single Image Ads can be targeted to a specific audience across desktop and mobile.
+* **Carousel image:** Tell an interactive story with a swipeable series of cards in the LinkedIn feed. You can customize the content and landing URL for each card.
+* **Video ad:** Engage your audience with interactive content directly in their LinkedIn feed, across desktop and mobile.
+* **Text ad:** Add a compelling headline, brief description, and even an optional image. Text Ads appear at the top of the page or in the right column of desktop view. 
+* **Dynamic ad:** Boost conversion rates with these ads automatically personalized to each member based on LinkedIn profile data. Dynamic Ads appear in the right column of desktop view.
+* **Sponsored messaging:** available in two formats: Message Ad and Conversation Ad. Ads are delivered in LinkedIn messenger only when members are active to ensure higher conversion.
+* **Message ad:** Send direct messages to spark immediate action. Deliver a targeted message with a single call-to-action.
+* **Conversation ad:** Start quality conversations with your audience through a choose-your-own-path experience.
+
+## The unique strengths of each & matching intent behind each ad type
+|Objective|Marketing Goal|Supporting Ad Formats|
+|----------|----------|----------|
+|Brand awareness|“I want more people to learn about my business”|<li>Single image ad<li>Dynamic ad<li>Text ad<li>Carousel ad<li>Video ad|
+|Website visits|“I want people to visit a website destination off LinkedIn”|<li>Single image ad<li>Carousel ad<li>Video ad<li>Dynamic ad
+|Video views|“I want more people to watch my videos”|<li>Video ad|
+|Lead generation|“I want more quality leads on LinkedIn”|<li>Single image ad<li>Carousel ad<li>Video ad<li>Dynamic ad<li>Sponsored messaging|
+|Website conversions|“I want more purchases, downloads, or registrations”|<li>Single image ad<li>Carousel ad<li>Video ad<li>Dynamic ad|
+|Job seekers|“I want to promote job opportunities at my company”|<li>Single image ad<li>Dynamic ad|
+  
 ### Insertion Order Process
 
 1. We negotiate insertion orders/contracts for our advertising placements with our media partners
