@@ -71,17 +71,51 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
   - The [PMM deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) will be updated at the quarter boundary to include changes in messaging as a result of planning.
   - [Team strategy pages](../../../strategy-goals/strategy/index.md#team-strategy-pages) are updated monthly to reflect the team’s strategic intent. In line with the monthly cadence these pages will be updated at the quarterly boundary to reflect any material changes to a team direction.
 
+## Q2 Planning due dates and artifacts 
+The following timeline gives due dates for KR and roadmap planning as a reference and source of truth for this quarter. This section will be kept up-to-date then deleted or updated for the next quarter.  
+
+2022-04-11 Monday
+- Company OKRs finalized
+- Dept KR review
+- DUE: Team roadmaps up to date, with broad strokes and alignment to use cases and company objectives (Needed for CAB roadmap session dry run)
+
+2022-04-18 Monday
+- Dept KR review
+
+2022-04-22 Friday
+- DUE: Final draft Dept KRs to [Christina Forney](../../../team/index.md#christina-forney)
+- DUE: Team roadmaps solidified for Q2, with high level Q3 & Q4
+
+2022-04-25 Monday
+- DUE: Final draft Dept KRs due to Exec team
+
+2022-04-26 Tuesday
+- DUE: Public roadmap published
+- Final OKR signoff by [Quinn Slack](../../../team/index.md#quinn-slack)
+
+2022-05-03 Tuesday
+- Q2 Company kickoff
+
+**Expectations of planning process**
+- Ask teams to discuss “What can we do in support of these objectives?”
+- Directors gather input from teams and cross-functional partners
+- Directors synthesize input to write KRs; collaborating to reach final alignment on Dept KRs
+- Teams ensure roadmaps are updated in support of annual strategy, cross-functional input,  and to achieve our KRs
+- Directors ensure that across teams, the collective work of our teams (roadmaps) will deliver on our strategy and OKRs
+
 ## Cadence
 
 Planning is made up of activities that happen on quarterly, mothly, & weekly basis.
 
-### Quarterly planning
+### Quarterly planning 
+
+**NOTE: The following section will be updated to reflect changes to the planning process for next quarter. It is currently under construction**
 
 The main planning activity has several milestones oriented around the quarter boundary. To streamline communication on deliverables in this timeline we:
 
-- Use the #product-eng-directors to initiate collaboration on planning activities
+- Use the #product-eng-planning to initiate collaboration on planning activities
 - We will leverage collaboration tools native to each artifacts system of record to collaborate on content
-- When we deliver drafts that need communicated for broad review / awareness we will post to #prod-eng-announce
+- When we deliver drafts that need communicated for broad review / awareness we will post to #product-eng-announce
 
 All milestone dates are **relative to the first day of the quarter for which planning is happening**. Several milestones in the cadence refer to artifacts that are defined in the [artifacts secion of this page](#artifacts).
 
