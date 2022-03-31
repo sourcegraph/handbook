@@ -1,4 +1,4 @@
-# Security Knowledge Base :lock:
+# Security Knowledge Base 🔒
 
 Welcome to the Sourcegraph Security Knowledge Base.
 

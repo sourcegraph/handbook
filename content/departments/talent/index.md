@@ -24,14 +24,19 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 ## Resources for Hiring Managers
 
-- [Opening a new job](process/opening_a_new_job.md)
+- [How to make a change to my headcount plan](https://forms.gle/6dQmnRjsXDEjB4y7A)
+  - [How to change a role's start date (pulling a role forward or pushing it back in the board-approved headcount plan)](https://forms.gle/6dQmnRjsXDEjB4y7A)
+  - [How to add a net-new role to the headcount plan (not already approved by the board)](https://forms.gle/6dQmnRjsXDEjB4y7A)
+  - [How to delete a role from the plan (with no plans to re-allocate the headcount to another role or department)](https://forms.gle/6dQmnRjsXDEjB4y7A)
+  - [How to change the scope of a role (ie title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
+- [How to open a new job search](process/opening_a_new_job.md)
   - [Who is my recruiter?](process/teamalignment.md)
+  - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
   - [Open headcount - change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/viewform?usp=sf_link)
-- [Identifying candidates](process/identifying_candidates.md)
-  - [How we find candidates](process/identifying_candidates.md)
+- [How we find candidates](process/identifying_candidates.md)
   - [Where we advertise our jobs](process/identifying_candidates.md)
   - [How we source passive candidates](process/identifying_candidates.md)
   - [Using recruitment agencies](process/identifying_candidates.md)
@@ -41,10 +46,11 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
+  - [Resume Deep Dive](process/types_of_interviews.md#resume-deep-dive)
   - [Scheduling an interview](process/interview_process.md)
   - [Interviewing internal candidates](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
   - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
-- [Extending an offer](process/extending_an_offer.md)
+- [How to extend an offer](process/extending_an_offer.md)
   - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
@@ -70,6 +76,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruiting Tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+- [Recruitment branding](process/recruitment_branding.md)
 - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
@@ -155,18 +162,6 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
             </a>
           </div>
           <div style="text-align: center;">Frey Andersson</div>
-          <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../team#dominique-dom-cole" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Dom-Bitmoji.jpg"
-                alt="Picture of Dom Cole" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Dom Cole</div>
           <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
         </div>
       </div>
