@@ -46,6 +46,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
+  - [Resume Deep Dive](process/types_of_interviews.md#resume-deep-dive) 
   - [Scheduling an interview](process/interview_process.md)
   - [Interviewing internal candidates](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
   - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
@@ -75,6 +76,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruiting Tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+- [Recruitment branding](process/recruitment_branding.md)
 - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
