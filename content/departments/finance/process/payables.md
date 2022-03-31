@@ -36,7 +36,7 @@ If you have a purchase that you’d like to explain/clarify post about it in the
 
 ## Getting invoices paid
 
-As of April 1, 202022, all spend over $5,000 requires a PO prior to processing the invoices. Failure to have a PO will results in a delayed payment to your vendor. 
+As of April 1, 202022, all spend over $5,000 requires a PO prior to processing the invoices. Failure to have a PO will results in a delayed payment to your vendor.
 
 If you intend to make a purchase that will be paid by invoice (e.g., if it's too large to pay by credit card), send it to [ap@sourcegraph.com](mailto:ap@sourcegraph.com) with the vendor's W-9 (if a new vendor). It is the responsibility of the purchaser to obtain the vendor W-9. Invoices will not be paid without this.
 
