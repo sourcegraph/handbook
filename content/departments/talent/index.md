@@ -161,18 +161,6 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team#dominique-dom-cole" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Dom-Bitmoji.jpg"
-                alt="Picture of Dom Cole" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Dom Cole</div>
-          <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
             <a href="../../../team#veronica-bueno" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/VeronicaBitmoji.jpg"
                 alt="Picture of Veronica Bueno" style="background: transparent; width:128px;" />
