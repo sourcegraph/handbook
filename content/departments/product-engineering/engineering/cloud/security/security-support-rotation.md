@@ -53,8 +53,8 @@ Our team gets tagged for reviewing PRs in the @security team in GitHub. PR revie
 
 We receive reports into our HackerOne program. Make sure that:
 
-* You have an account on HackerOne
-* You have notifications set up to receive emails reports from the platform
+- You have an account on HackerOne
+- You have notifications set up to receive emails reports from the platform
 
 You should be able to view the HackerOne inbox for Sourcegraph [here](https://hackerone.com/bugs).
 
