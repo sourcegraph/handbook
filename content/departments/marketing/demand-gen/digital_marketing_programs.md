@@ -2,9 +2,9 @@
 
 Welcome to digital marketing at Sourcegraph! We’re thrilled you’ve stumbled upon our humble corner of the handbook. Let us show you around…
 
-In FY23, it’s all about **use cases**.
+In FY23, it’s all about **use cases**. (If this is news to you, [start here first](../../../strategy-goals/strategy/index.md#use-cases), then come back – it’ll make more sense.)
 
-Digital campaigns all start with a project brief to ensure campaign strategy aligns with our overall marketing strategy and company strategy. We have two kinds of campaign brief templates:
+Digital campaigns all start with a project brief to ensure campaign strategy aligns with our overall marketing strategy and [company strategy](../../../strategy-goals/strategy/index.md#this-year-fy23). We have two kinds of campaign brief templates:
 
 - [Project brief template (**_make a copy_**)](https://docs.google.com/document/d/1tu9TcDCsSIIjZnSndThVKPhd4C99YVlhU1MUTEoq8Qo/edit?usp=sharing)
 - [Webinar promo campaign brief template (**_make a copy_**)](https://docs.google.com/document/d/1FglACbmPHs0enGEg6oqLzNEUyIUvv89oIRrnjy1l3f8/edit?usp=sharing)
@@ -31,7 +31,7 @@ We use a variety of CTAs, including:
 
 ### Audiences
 
-Audiences are heavily informed by personas and target account research, and campaign briefs ensure we don’t lose the plot along the way. We’re continually evolving how we segment and message audiences, testing and learning from microexperiments, particularly around use cases messaging. Want to know more about audiences, segmentation, or targeting? Ask the demand gen team!
+Audiences are heavily informed by [personas](../process/personas.md) and target account research, and campaign briefs ensure we don’t lose the plot along the way. We’re continually evolving how we segment and message audiences, testing and learning from microexperiments, particularly around use cases messaging. Want to know more about audiences, segmentation, or targeting? Ask the demand gen team!
 
 > **For developer-focused campaigns**, we speak directly to individual practitioners who are trying to solve specific problems that Sourcegraph can address (better code search, better code reviews, finding & fixing bugs faster, etc.)
 
@@ -82,7 +82,7 @@ Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using 
 
 - We can develop some clear audience targeting parameters based on the content piece, and they map back to our key accounts or target personas (for example, we know we can target on LinkedIn by profiles of former Google employees, as well as those with interests in adjacent topics)
 - It’s something written in a way that puts our audience/key personas and their problems first, and lead with their problems. But, it’s capable of looping back to our business goals with a product tie or demo request!
-- Sometimes: depending on the campaign and what else is going on, we might paid spend behind less “newsworthy” posts that topically support broader initiatives to prime an audience or are one in a series of smaller posts that lead up to something bigger like an upcoming event, research report, feature release, etc.
+- Sometimes: depending on the campaign and what else is going on, we might put paid spend behind less “newsworthy” posts that topically support broader initiatives to prime an audience or are one in a series of smaller posts that lead up to something bigger like an upcoming event, research report, feature release, etc.
 - A bonus: We know a similar, ungated piece generated a ton of engagement, so we’ve got confirmation there’s a large, active audience
   We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See [more details](../process/ad_conversion_flows.md) on tracking ad conversions.
 
