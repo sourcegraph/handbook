@@ -1,6 +1,6 @@
 # Mentorship Program Operations
 
-Surveys and other forms related to the _Find a mentor, Be a mentor_ program live in a [mentorship](https://drive.google.com/drive/folders/12DxFq8hWuTS7E0t5jGEQXGqCaMbLloDz?usp=sharing) folder.
+Surveys and other forms related to the _Find a mentor, Be a mentor_ program live in a [mentorship](https://drive.google.com/drive/folders/0AJBgOCi3aBydUk9PVA) folder. If you need collaborator access to an item in this folder, contact a program champion to add you.
 
 ## Champions
 
