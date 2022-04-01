@@ -46,21 +46,14 @@ Audiences are heavily informed by [personas](../process/personas.md) and target 
 
 ### Channels
 
-We run (or have run) ads/sponsorships on a number of channels in order to raise awareness of Sourcegraph in the developer community, and the list is continually evolving. Have a suggestion? Send it our way in the #digital-campaigns channel.
+We run (or have run) ads/sponsorships on a number of channels in order to raise awareness of Sourcegraph in the developer community, and the list is continually evolving. Have a suggestion? We're all ears! Send it our way in the #digital-campaigns channel.
 
 A sampling of the types of channels we advertise on:
 
-#### Developer-Facing Ad Networks
-
-#### Developer-Facing Blogs/Websites/Newsletters
-
-Have a suggestion? We're all ears! Send it to #digital-campaigns in Slack.
-
-#### Developer-Facing Podcasts
-
-Have a suggestion? We're all ears! Send it to #digital-campaigns in Slack.
-
-- Coming soon: a podcast sponsorship landing page to maximize our sponsorship investment! WIP, [Asana card](https://app.asana.com/0/1201980328042972/1201980328042972)
+- Developer-Facing Ad Networks
+- Developer-Facing Blogs/Websites/Newsletters
+- Developer-Facing Podcasts
+  - Coming soon: a podcast sponsorship landing page to maximize our sponsorship investment! WIP, [Asana card](https://app.asana.com/0/1201980328042972/1201980328042972)
 
 ### Paid Search and Display Campaigns
 
@@ -73,7 +66,7 @@ LinkedIn lead gen forms are our most successful paid social campaign type to-dat
 We have run multiple [Sponsored Content campaigns on LinkedIn](https://www.linkedin.com/company/sourcegraph/posts/?feedView=ads&viewAsMember=true), using the following content offers, among others:
 
 - [Better onboarding](https://about.sourcegraph.com/blog/better-onboarding-how-to-prevent-codebase-overwhelm/) (blog post - served to individual developers at Target Accounts)
-- - [Ex-Googler’s Guide to Dev Tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/) (blog post - served to ex-Googler individual developers)
+- [Ex-Googler’s Guide to Dev Tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/) (blog post - served to ex-Googler individual developers)
 - [Big Code Survey](https://info.sourcegraph.com/emergence-of-big-code-2020-survey) (PDF download - served to individual developers/managers at Target Accounts)
 
 Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using testimonial quotes and case study content) that is served to engineers/managers at companies in Salesforce deal stages 0–3.
