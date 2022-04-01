@@ -17,6 +17,7 @@ The code insights team is responsible for building and delivering code insights 
 - [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
 - [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)
 - [Sourcegraph.com/insights page stats](https://analytics.amplitude.com/sourcegraph/dashboard/ci2xvv2)
+- [(Internal) framework for thinking about success when we close new sales](https://docs.google.com/document/d/1xt_HmXIc7bd5ItINSZWIjpDvf1n_-GRVE1KDQS2qtcM/edit)
 
 ## Members
 
