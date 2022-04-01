@@ -28,7 +28,7 @@ The org chart is generated automatically from data files in the handbook reposit
 
 ## [Business Operations & Strategy](../departments/bizops/index.md#members)
 
-{{generator:reporting_structure.vp_operations}}
+{{generator:reporting_structure.director_data_analytics}}
 
 ## [Finance & Accounting](../departments/finance/index.md#members)
 
