@@ -48,13 +48,16 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
   - [Resume Deep Dive](process/types_of_interviews.md#resume-deep-dive)
   - [Scheduling an interview](process/interview_process.md)
-  - [Interviewing internal candidates](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
   - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
 - [How to extend an offer](process/extending_an_offer.md)
   - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
+- [How to hire a teammate into a new role]
+  - [Scenario: you want to interview a teammate for a role on a different team](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+  - [Scenario: you want to promote someone into a new level band]COMING SOON
+  - [Scenario: you want to give someone a raise]COMING SOON
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
