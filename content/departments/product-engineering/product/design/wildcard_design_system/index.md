@@ -33,6 +33,6 @@ Read more about adding and modifying components in [using components](./using-co
 
 Read more about different user interface patterns in [user interface patterns](./user-interface-patterns.md).
 
-## Using Figma 
+## Using Figma
 
-If you're new to using Figma, there are some instructions and tips in [using figma](./using-figma.md). 
+If you're new to using Figma, there are some instructions and tips in [using figma](./using-figma.md).
