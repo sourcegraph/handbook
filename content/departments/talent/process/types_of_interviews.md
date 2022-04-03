@@ -12,14 +12,15 @@ We strive for consistency across all interviews.
 - **Recruiter Screen**
 - **Hiring Manager Screen**
 - Assignment, if applicable
-- In-depth Interview stage:
+- Team Interview stage:
   - Resume Deep Dive
   - Assignment review/working session, if applicable
   - Technical Interview, if applicable
   - **Cross-functional Team Collaboration Interview**
   - **Peer Interview**
-  - Leadership Interview
+- Final Interview stage:
   - **Values Interview**
+  - Leadership Interview
 - Reference checks / offer
 
 ## Structured interview questions

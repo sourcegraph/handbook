@@ -21,6 +21,10 @@ Beyond Q4, our goals over the next 12–24 months include:
 
 Service management is a broad area of ownership. To provide more clarity into what its stands for, we will break this down based on product domains. We will also provide a list of features and services from a technical engineering ownership perspective.
 
+### New user experience
+
+The Growth & Integration team also works on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
+
 ### Product domains
 
 #### Administration experience and teams management
@@ -215,6 +219,8 @@ To support the globally distributed nature of our team, we are doing our groomin
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
 - Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
 - Each story point represents a single developer day.
+
+The "grooming" label is used for marking tickets to be included in the upcoming grooming session.
 
 #### Team calendar
 

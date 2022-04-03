@@ -20,12 +20,32 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [Enable executors](enable_executors_process.md)
 - [FAQ](#faq)
 
-## Requesting a managed instance
+## When to offer a Managed Instance
 
-After [determining a managed instance is what a customer/prospect wants](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
+Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
 
-1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
-2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
+As of 2022-03-10, managed instance is not the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
+
+See below for the SLAs and Technical implementation details (including Security) related to managed instances.
+
+Please message [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX/p1646784843000319) for any answers or information missing from this page.
+
+## Managed Instance Requests
+
+Customer Engineers (CE) or Sales may request to:
+
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=)]
+  - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
+  - For new customers or prospects who currently do not have a managed instance.
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)]
+  - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-teardown.md&title=)]
+  - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+
+### Workflow
+
+1.  Submit a request to the Delivery team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+2.  Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
 ## SLAs for managed instances
 
@@ -72,6 +92,7 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
   Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
+- **Cloudflare protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF.
 
 ### Access
 

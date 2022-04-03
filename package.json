@@ -118,7 +118,7 @@
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
     "@types/line-column": "1.0.0",
-    "@types/react": "17.0.39",
+    "@types/react": "17.0.43",
     "@types/relateurl": "0.2.29",
     "ajv-cli": "^5.0.0",
     "chalk": "^4.1.2",
@@ -127,7 +127,7 @@
     "line-column": "^1.0.2",
     "markdown-link-check": "^3.8.7",
     "next-sitemap": "^1.6.203",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.1",
     "sass": "^1.43.4",
     "strip-ansi": "^7.0.1",
     "typescript": "^4.4.4"
