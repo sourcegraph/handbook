@@ -2180,12 +2180,6 @@ director_design:
   reports_to: vp_product
   manager_role_slug: director_design
 
-engineering_manager_content_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Content Platform
-  reports_to: director_engineering_enablement
-  manager_role_slug: engineering_manager_content_platform
-
 jason_gornall:
   name: Jason Gornall
   pronouns: he/him
