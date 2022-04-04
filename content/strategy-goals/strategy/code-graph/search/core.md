@@ -14,7 +14,7 @@ Quicklinks:
 
 In **FY22Q3**, we grew the Sourcegraph Cloud global index to 2.1M repositories, including all repositories with 5 stars or more. Importantly, the changes we’ve made to reach this state have not been cloud-specific, and yielded trickle-down benefits to all Sourcegraph deployments (for instance, [significant reductions](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usage of Zoekt, our trigram-based indexed search backend).
 
-In **FY22Q4**, we conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (>6GB working directory). We also started growing our search index to include repositories from more non-GitHub.com and GitLab.com code hosts: for instance, you can now search [34k repositories from src.fedoraproject.org on sourcegraph.com](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal).
+In **FY22Q4**, we conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (>6GB working directory). We also started growing our search index to include repositories from more non-GitHub.com and GitLab.com code hosts: for instance, you can now search [34k repositories from src.fedoraproject.org on sourcegraph.com](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal) ([read blog post](https://fedoramagazine.org/using-sourcegraph-to-search-34000-fedora-repositories/)).
 
 ## What's next and why
 
