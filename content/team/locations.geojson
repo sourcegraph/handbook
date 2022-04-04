@@ -1562,6 +1562,19 @@
             32.755489
         ]
     }
-}
-   ]
+},
+   {
+      "type": "Feature",
+      "properties": {
+        "name": "Nicole Comber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.473615646362305,
+          -34.52202731922037
+        ]
+      }
+    }
+  ]
 }
