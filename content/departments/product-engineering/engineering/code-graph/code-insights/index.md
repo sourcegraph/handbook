@@ -4,19 +4,20 @@ The code insights team is responsible for building and delivering code insights 
 
 <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/code_insights/screenshot.svg" alt="Screenshot of a code insights dashboard with graphs" width="1141" height="391" style="width: 100%; height: auto" />
 
+## Quick Resources
+
+- [Code Insights go-to-market resources](go_to_market.md) for **sales, customer engineers, and marketing**
+- [Product docs](https://docs.sourcegraph.com/code_insights)
+- [Development](https://docs.sourcegraph.com/dev/background-information/insights)
+- [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
+- [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)
+- [Sourcegraph.com/insights page stats](https://analytics.amplitude.com/sourcegraph/dashboard/ci2xvv2)
+
 ## Handbook Pages
 
 - [Processes](processes.md)
 - [Strategy, goals, and roadmap](../../../../../strategy-goals/strategy/code-graph/code-insights/index.md)
-
-## Quick Resources
-
-- Product docs - ask in #code-insights (internal) or your Sourcegraph contact (external)
-- Development docs - ask in #code-insights
-- [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
-- [Usage Pings - all instances](https://sourcegraph.looker.com/dashboards/199)
-- [Usage Pings - individual instance](https://sourcegraph.looker.com/dashboards-next/208?Instance=)
-- [Sourcegraph.com/insights page stats](https://analytics.amplitude.com/sourcegraph/dashboard/ci2xvv2)
+- [Code Insights go-to-market resources](go_to_market.md)
 - [(Internal) framework for thinking about success when we close new sales](https://docs.google.com/document/d/1xt_HmXIc7bd5ItINSZWIjpDvf1n_-GRVE1KDQS2qtcM/edit)
 
 ## Members
