@@ -2,8 +2,8 @@
 
 - All full-time teammates must have a Sourcegraph computer
 - All teammates must work from their Sourcegraph computer
-- All teammates must only use their Sourcegraph computer for accessing company data
-- Sourcegraph approves the use of Apple MacOs only (you may work with Windows and Linux devices for work that does not involve company data such as open source coding
+- All teammates must only use their Sourcegraph computer for accessing [company data](#company-data)
+- Sourcegraph approves the use of Apple MacOs only (you may work with Windows and Linux devices for work that does not involve company data, such as open source coding)
 - All teammates should adhere to our related usage and access policies:
   - [Device usage and privacy policy](../process/team_device_usage_privacy.md)
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
