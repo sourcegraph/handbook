@@ -71,7 +71,19 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
   - The [PMM deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) will be updated at the quarter boundary to include changes in messaging as a result of planning.
   - [Team strategy pages](../../../strategy-goals/strategy/index.md#team-strategy-pages) are updated monthly to reflect the team’s strategic intent. In line with the monthly cadence these pages will be updated at the quarterly boundary to reflect any material changes to a team direction.
 
-## Q2 Planning due dates and artifacts
+## Cadence
+
+Planning is made up of activities that happen on quarterly, mothly, & weekly basis.
+
+### Quarterly planning
+
+The main planning activity has several milestones oriented around the quarter boundary. To streamline communication on deliverables in this timeline we:
+
+- Use the #product-eng-planning to initiate collaboration on planning activities
+- We will leverage collaboration tools native to each artifacts system of record to collaborate on content
+- When we deliver drafts that need communicated for broad review / awareness we will post to #product-eng-announce
+
+**FY23-Q2 planning due dates and artifacts**
 
 The following timeline gives due dates for KR and roadmap planning as a reference and source of truth for this quarter. This section will be kept up-to-date then deleted or updated for the next quarter.
 
@@ -79,7 +91,7 @@ The following timeline gives due dates for KR and roadmap planning as a referenc
 
 - Company OKRs finalized
 - Dept KR review
-- DUE: Team roadmaps up to date, with broad strokes and alignment to use cases and company objectives (Needed for CAB roadmap session dry run)
+- DUE: Team roadmaps up to date, with broad strokes and alignment to use cases and company objectives (needed for CAB roadmap session dry run)
 
 2022-04-18 Monday
 
@@ -105,63 +117,11 @@ The following timeline gives due dates for KR and roadmap planning as a referenc
 
 **Expectations of planning process**
 
-- Ask teams to discuss “What can we do in support of these objectives?”
+- Discussion by teams: “What can we do in support of these objectives?”
 - Directors gather input from teams and cross-functional partners
 - Directors synthesize input to write KRs; collaborating to reach final alignment on Dept KRs
 - Teams ensure roadmaps are updated in support of annual strategy, cross-functional input, and to achieve our KRs
 - Directors ensure that across teams, the collective work of our teams (roadmaps) will deliver on our strategy and OKRs
-
-## Cadence
-
-Planning is made up of activities that happen on quarterly, mothly, & weekly basis.
-
-### Quarterly planning
-
-**NOTE: The following section will be updated to reflect changes to the planning process for next quarter. It is currently under construction**
-
-The main planning activity has several milestones oriented around the quarter boundary. To streamline communication on deliverables in this timeline we:
-
-- Use the #product-eng-planning to initiate collaboration on planning activities
-- We will leverage collaboration tools native to each artifacts system of record to collaborate on content
-- When we deliver drafts that need communicated for broad review / awareness we will post to #product-eng-announce
-
-All milestone dates are **relative to the first day of the quarter for which planning is happening**. Several milestones in the cadence refer to artifacts that are defined in the [artifacts secion of this page](#artifacts).
-
-#### 7 weeks before
-
-Prod/eng directors align on the **planning process** through review, adjustments, and final agreement on planning timelines and deliverables.
-
-#### 6 weeks before
-
-Prod/eng directors begin collaboarting on **the first iteration of OKRs** based on long term product vision and strategy.
-
-#### 5 weeks before
-
-Prod/eng directors review draft OKRs with VPs and their teams to solicit feedback and share context on how team roadmaps might need to be adjusted.
-
-Engineer Managers & Product Managers make **first pass adjustments to future roadmap items** taking into consideration 1) the draft OKRs and 2) their team’s current work in progress 3) our long term strategy
-
-#### 4 weeks before
-
-Prod/eng directors review the following quarter roadmap items to ensure what is tentatively planned drives towards our strategy. This review should identify gaps and dependencies between teams.
-
-#### 3 weeks before
-
-Continue collaboration on refining our departement level OKRs incorporating feedback from Engineering Manager, Product Managers & VPs
-
-#### 2 weeks before
-
-[Christina Forney](../../../team/index.md#christina-forney) shares the Draft OKRs with company leadership, **soliciting feedback & directional alignment** on objectives, key results and planned roadmap items.
-
-#### 1 week before
-
-Individual teams review, update, and make any **final roadmap updates** as needed.
-
-Prod/eng directors work closely with teams on roadmap items ensuring planned work aligns with the strategic direction of the company and the quarterly objectives.
-
-Prod/eng directors incorporate executive feedback into the and **complete and communicate the final draft of OKRs** to team members.
-
-#### Quarter boundary
 
 **Publish OKRs** - [Christina Forney](../../../team/index.md#christina-forney):
 
