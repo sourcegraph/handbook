@@ -6,7 +6,7 @@ We use a hierarchy of feature labels to set expectations with our users and inte
 
 ## Why we use these labels:
 
-Labeling features correctly lets us move quickly and release early in order to validate our direction. An `Experimental` or `Beta` label and its [corresponding user-facing documentation](https://docs.sourcegraph.com/admin/beta_and_prototype_features):
+Labeling features correctly lets us move quickly and release early in order to validate our direction. An `Experimental` or `Beta` label and its [corresponding user-facing documentation](https://docs.sourcegraph.com/admin/beta_and_experimental_features):
 
 - Set expectations so users are more forgiving of bugs
 - Make users less likely to assume the overall quality of Sourcegraph is as brittle as an early feature might be
