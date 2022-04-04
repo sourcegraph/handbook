@@ -9,7 +9,6 @@ What we would like to learn:
 - Their facilitation strategy
 - How they approach a problem, and what considerations they make
 - Can they communicate in an organized way? Can they explain their reasoning?
-- See purpose section for each exercise
 
 ## Prompt
 
@@ -28,11 +27,11 @@ Our goal with this segment of the interview is to approach a problem as if it we
 - Determine a project plan for the design aspects of the project
 - Explore solutions for selecting repositories in a fidelity and design tool of the candidate’s choice.
 
-#### Please note:
+#### Please note: 
 
-The chosen problem has been implemented, so interviewers will need to role-play their involvement slightly. Our goal is to make the exercise as close to a collaborative working session as possible. This does not mean our solution is the right or best solution, and we are not evaluating the outcomes of this session against what we’ve done in the past.
+It is very important to everyone at Sourcegraph that no exploitation of designer's time occurs during this interview stage. However, we do feel that working on a realistic problem is the best way for the candidate and teams to get to know each other. To solve for this delima, we have chosen a problem we have already researched, designed, implemented, and the focus of our exercise is on collaboration, not the outcome. 
 
-We are not providing the interview ahead of time to ensure all candidates have equal time to devote to the problem, regardless of external commitments. This means the session will be contrary to our typically async method of working, but we feel it is more important to respect the candidate’s time than to replicate our process exactly.
+Additionally, we are not providing the interview ahead of time to ensure all candidates have equal time to devote to the problem, regardless of external commitments. This means the session will be contrary to our typically async method of working, but we feel it is more important to respect the candidate’s time than to replicate our process exactly.
 
 #### We will evaluate the following:
 
