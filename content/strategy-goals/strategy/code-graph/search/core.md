@@ -38,7 +38,11 @@ In **FY22Q4**, we conducted discovery work to better understand the bottlenecks 
 
 ##### Scaling sourcegraph.com to repositories with 2 stars or more
 
-We had a previous goal to scale the Sourcegraph Cloud global index to include every GitHub.com + GitLab.com repository with 2 stars or more (“more than one star”). While working to achieve this goal, we realized that growing the global index past our current scale wouldn’t have made a meaningful difference to the usability, universality or completeness of Sourcegraph Cloud. Firstly, most OSS code search use cases were already well-serviced at our current scale. Second, the repositories in the 2 to 3 star bucket included a large number of low-quality repositories, with content only tangentially related to code, and indexing them would have negatively affected relevance of search results and performance. Lastly, by indexing these 2 to 3 stars repositories we will not be achieving the promise of letting users search their own code since this would only be attained by additionally indexing all 0 to 1 star repositories, a much larger number of repositories which we are currently not ready to support.
+We had a previous goal to scale the Sourcegraph Cloud global index to include every GitHub.com + GitLab.com repository with 2 stars or more (“more than one star”). While working to achieve this goal, we realized that growing the global index past our current scale wouldn’t have made a meaningful difference to the usability, universality or completeness of Sourcegraph Cloud.
+
+- Firstly, most OSS code search use cases were already well-serviced at our current scale.
+- Second, the repositories in the 2 to 3 star bucket included a large number of low-quality repositories, with content only tangentially related to code, and indexing them would have negatively affected relevance of search results and performance.
+- Lastly, by indexing these 2 to 3 stars repositories we will not be achieving the promise of letting users search their own code since this would only be attained by additionally indexing all 0 to 1 star repositories, a much larger number of repositories which we are currently not ready to support.
 
 We’ve chosen instead to make progress towards [indexing the entire OSS universe](https://about.sourcegraph.com/blog/why-index-the-oss-universe/) by indexing repositories from different code hosts as well as adding support for package host integrations. By focusing on this, we strive to make Sourcegraph.com a truly universal code search engine.
 
