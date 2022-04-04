@@ -70,9 +70,10 @@ If you have a device that you are having [upgraded](../../../benefits-pay-perks/
 - Address and phone number for the shipping
 
 ## What if I have a business need for Windows or Linux
+
 - For those devices where a business need is required for a Windows environment (i.e. to run certain applications), we will create a virtual environment through the use of [Amazon Workspaces](https://aws.amazon.com/workspaces/) and show each user how they can use this on the Apple device.
 - We can create a similar Linux environment for those wishing to have this capability on their Apple devices.
-- These environments are compliant with the many certifications we are aiming to get not just SOC 2, can be better managed and more easily audited than individual devices 
+- These environments are compliant with the many certifications we are aiming to get not just SOC 2, can be better managed and more easily audited than individual devices
 
 ## Why did we standardize to MacOS
 
