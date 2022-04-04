@@ -6,7 +6,7 @@ This is the source of truth list of go-to-market resources for the sales, custom
 
 ### Code Insights enablement training _internal_
 
-In the [Google drive folder](https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE): the [zoom recording](<(https://drive.google.com/file/d/1B1RX_Vn1sWVcv6iZajcMlcYhw5jwMtjp/view)>), the [slide deck](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit#slide=id.g115ca1be0be_3_654), and the [followup Q&A](https://docs.google.com/document/d/1r22Q7D801c1W6sNB0UAXk_VFlG-BgFgxk0sByZ7hR2E/edit).
+In the [Google drive folder](https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE): the [zoom recording](https://drive.google.com/file/d/1B1RX_Vn1sWVcv6iZajcMlcYhw5jwMtjp/view), the [slide deck](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit#slide=id.g115ca1be0be_3_654), and the [followup Q&A](https://docs.google.com/document/d/1r22Q7D801c1W6sNB0UAXk_VFlG-BgFgxk0sByZ7hR2E/edit).
 
 This is an exhaustive resource from March 2022 containing all you need to know to effectively generate, demo, support, and close Code Insights sales, including:
 
