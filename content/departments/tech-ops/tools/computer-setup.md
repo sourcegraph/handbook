@@ -50,11 +50,17 @@ Tech Ops has a number of previously used computers available to be allocated in 
 
 ## Damaged computers
 
-If something has happened to your Sourcegraph device please contact #it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care or some form of warranty. For repairs under warranty, a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warranty please contact  #it-tech-ops to have it sent to ComputerCare to be evaluated and repaired/replaced.
+If something has happened to your Sourcegraph device please contact #it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care or some form of warranty. 
+
+For repairs under warranty in the US, a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warranty please contact  #it-tech-ops to have it sent to ComputerCare to be evaluated and repaired/replaced. 
+
+For repairs outside of the US, a teammate should only go to an Apple store directly or a certified Apple repair center.
+
+All devices being sent for repair need to be wiped of all data, this should be done by Tech Ops through Workspace One prior to dropping the device off.
 
 ## Used computers
 
-If you have a device that you are having replaced, or you are leaving the company you can either:
+If you have a device that you are having refreshed after 2 years, or you are leaving the company you can either:
 
 1. participate in our [buyback program](../process/buyback.md), where we will transfer ownership to you.
 2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. To return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you, we with the following information:
