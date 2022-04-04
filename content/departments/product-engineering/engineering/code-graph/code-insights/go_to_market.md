@@ -1,51 +1,51 @@
 # Code Insights go-to-market resources
 
-This is the source of truth list of go-to-market resources for the sales, customer engineering, and marketing teams. 
+This is the source of truth list of go-to-market resources for the sales, customer engineering, and marketing teams.
 
-## Sales and customer engineering 
+## Sales and customer engineering
 
 ### Code Insights enablement training _internal_
 
-In the [Google drive folder](https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE): the [zoom recording]((https://drive.google.com/file/d/1B1RX_Vn1sWVcv6iZajcMlcYhw5jwMtjp/view)), the [slide deck](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit#slide=id.g115ca1be0be_3_654), and the [followup Q&A](https://docs.google.com/document/d/1r22Q7D801c1W6sNB0UAXk_VFlG-BgFgxk0sByZ7hR2E/edit). 
+In the [Google drive folder](https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE): the [zoom recording](<(https://drive.google.com/file/d/1B1RX_Vn1sWVcv6iZajcMlcYhw5jwMtjp/view)>), the [slide deck](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit#slide=id.g115ca1be0be_3_654), and the [followup Q&A](https://docs.google.com/document/d/1r22Q7D801c1W6sNB0UAXk_VFlG-BgFgxk0sByZ7hR2E/edit).
 
-This is an exhaustive resource from March 2022 containing all you need to know to effectively generate, demo, support, and close Code Insights sales, including: 
+This is an exhaustive resource from March 2022 containing all you need to know to effectively generate, demo, support, and close Code Insights sales, including:
 
 - Code Insights to FY23 Use Case mappings
-- Discovery questions 
-- Demo paths 
+- Discovery questions
+- Demo paths
 - Demo tips
 - Objection handling
-- Competitive market overview 
-- Business Value drivers 
+- Competitive market overview
+- Business Value drivers
 - Interpreting usage stats
-- Pricing 
-- Closing sales 
+- Pricing
+- Closing sales
 
-### Individual instance usage dashboards 
+### Individual instance usage dashboards
 
-[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1Uih3dWJbg5vuMefqXqmKNGZf40JtnxMY/view?usp=sharing) explains how to interpret this data. 
+[Per-instance dashboard](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian) to see detailed usage. This [loom video](https://drive.google.com/file/d/1Uih3dWJbg5vuMefqXqmKNGZf40JtnxMY/view?usp=sharing) explains how to interpret this data.
 
 ### Customer-facing Code Insights [pitch slides](https://docs.google.com/presentation/d/1EXKLG_Bk7L95EvWmAWzE3XQs_eV5QASELG2Sgppd278/edit)
 
-You can use these as a starting point for Code Insights presentations. 
+You can use these as a starting point for Code Insights presentations.
 
-### Pricing 
+### Pricing
 
-#### [Primary pricing document for AEs](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#) _internal_ 
+#### [Primary pricing document for AEs](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#) _internal_
 
 The go-to place when you need to price Code Insights for a proposal: includes how to price, common FAQs, and a running list of closed sales.
 
-#### [Full pricing logic](https://docs.google.com/document/d/1uItRIIzujoCCaZkDg73ZV8lguhux-D75zjqVr6zTnRI/edit#bookmark=id.i02vq75zxjxu) _internal_ 
+#### [Full pricing logic](https://docs.google.com/document/d/1uItRIIzujoCCaZkDg73ZV8lguhux-D75zjqVr6zTnRI/edit#bookmark=id.i02vq75zxjxu) _internal_
 
-The full deep dive into the justifications behind the pricing. 
+The full deep dive into the justifications behind the pricing.
 
-### How to demo Code Insights on public prospect repos 
+### How to demo Code Insights on public prospect repos
 
 If you want to run Code Insights over a public prospect's repo, [follow these steps](https://drive.google.com/file/d/1fOrEPLS91-4CTNwihOQi7w0Q_nOIEd0X/view?usp=sharing) to connect those repos to demo.sourcegraph.com. Since it's unlikely you're a site admin on demo.sourcegraph.com, you can tag @ce-sdr-collab in the #CE channel to ask them to temporarily connect the repos you need. Note: you should ensure you use **demo.sourcegraph.com** and **not** sourcegraph.com
 
 ### [Book the PM to help set up insights](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.g1022f279394_0_1348)
 
-To book the product manager to help a customer or prospect set up insights, or to understand in what situations that's useful. 
+To book the product manager to help a customer or prospect set up insights, or to understand in what situations that's useful.
 
 ## Marketing
 
@@ -53,7 +53,7 @@ To book the product manager to help a customer or prospect set up insights, or t
 
 An overview of the target audience, problem, solution, and go-to-market strategy.
 
-### [How Sourcegraph uses Code Insights: case study blog post](https://about.sourcegraph.com/blog/migrating-to-css-modules-with-codemods-and-code-insights/) 
+### [How Sourcegraph uses Code Insights: case study blog post](https://about.sourcegraph.com/blog/migrating-to-css-modules-with-codemods-and-code-insights/)
 
 ### [About.sourcegraph.com landing page](https://about.sourcegraph.com/code-insights/)
 
@@ -61,6 +61,6 @@ An overview of the target audience, problem, solution, and go-to-market strategy
 
 ### [Announcement blog post from CEO Quinn Slack](https://about.sourcegraph.com/blog/announcing-code-insights/)
 
-### [Launch FAQ](https://docs.google.com/document/d/1Vb9M-92GzHJeMEHRJzASRTX_LXfFgBmUOLqKTRFTKI8/edit)  _internal_
+### [Launch FAQ](https://docs.google.com/document/d/1Vb9M-92GzHJeMEHRJzASRTX_LXfFgBmUOLqKTRFTKI8/edit) _internal_
 
-FAQ-style responses to launch-related questions. 
+FAQ-style responses to launch-related questions.
