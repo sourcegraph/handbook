@@ -69,7 +69,7 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
 - **Form of artifact:**
   - Internal tactical roadmap: The source of truth for our roadmap with the tactical work is [this GitHub project](https://github.com/orgs/sourcegraph/projects/214). Each roadmap item should link to an issue that follows [this template](https://github.com/sourcegraph/sourcegraph/issues/new?template=roadmap-issue.md), and teams should keep the delivery plan portion of the template up-to-date and post updates to the issue anytime something important happens (ex: milestone achieved, plan changed).
   - WIP public strategic roadmap: we are working on a public roadmap that is more strategic and higher level.
-     - [Team strategy pages](../../../strategy-goals/strategy/index.md#team-strategy-pages) are updated monthly to reflect the team’s strategic intent. In line with the monthly cadence these pages will be updated at the quarterly boundary to reflect any material changes to a team direction.
+    - [Team strategy pages](../../../strategy-goals/strategy/index.md#team-strategy-pages) are updated monthly to reflect the team’s strategic intent. In line with the monthly cadence these pages will be updated at the quarterly boundary to reflect any material changes to a team direction.
   - The [PMM deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) will be updated at the quarter boundary to include changes in messaging as a result of planning.
 
 ## Cadence
