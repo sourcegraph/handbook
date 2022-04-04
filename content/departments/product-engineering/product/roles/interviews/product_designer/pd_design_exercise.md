@@ -27,9 +27,9 @@ Our goal with this segment of the interview is to approach a problem as if it we
 - Determine a project plan for the design aspects of the project
 - Explore solutions for selecting repositories in a fidelity and design tool of the candidate’s choice.
 
-#### Please note: 
+#### Please note:
 
-It is very important to everyone at Sourcegraph that no exploitation of designer's time occurs during this interview stage. However, we do feel that working on a realistic problem is the best way for the candidate and teams to get to know each other. To solve for this delima, we have chosen a problem we have already researched, designed, implemented, and the focus of our exercise is on collaboration, not the outcome. 
+It is very important to everyone at Sourcegraph that no exploitation of designer's time occurs during this interview stage. However, we do feel that working on a realistic problem is the best way for the candidate and teams to get to know each other. To solve for this delima, we have chosen a problem we have already researched, designed, implemented, and the focus of our exercise is on collaboration, not the outcome.
 
 Additionally, we are not providing the interview ahead of time to ensure all candidates have equal time to devote to the problem, regardless of external commitments. This means the session will be contrary to our typically async method of working, but we feel it is more important to respect the candidate’s time than to replicate our process exactly.
 
