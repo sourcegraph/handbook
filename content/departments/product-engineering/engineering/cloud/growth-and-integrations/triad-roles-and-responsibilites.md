@@ -37,7 +37,7 @@
 #### Progress reporting/tracking on OKRs
 
 - **Responsible**: PM / Team
-- **Responsible**: Team (DRI (?) (Directly Responsible Individual))
+- **Responsible**: Team
 - **Expectations**: The PM ensures that we are reporting on updates to our roadmap items and the impact on our OKRs on time. The updates for each roadmap item are compiled and completed by each lead of that project.
 
 ### Backlog
@@ -59,7 +59,7 @@
 #### Categorizing feedback
 
 - **Accountable**: PM
-- **Responsible**: PM, Team
+- **Responsible**: PM / Team
 - **Expectations**: The PM is accountable for ensuring that feedback is acquired, shared, stored and categorized in a way that can be used to inform future decisions. This includes storing it in ProductBoard, adding any associated labels, features and ensuring everyone knows how to do this. The team should feel empowered to add any feedback they encounter from any sources they see.
 
 #### Identifying areas needing research
@@ -97,7 +97,7 @@
 #### Creation of mockups
 
 - **Accountable**: PD
-- **Responsible**: PD/Team
+- **Responsible**: PD / Team
 - **Expectations**: The PD is accountable for the creation of mockups ranging from low to high fidelity. The team is encouraged to provide feedback and suggestions to mockups when the PD has opened up mockups for review. For features where we have agreed as a team that the PD just needs to provide a final review, individuals in the team may be in charge of creating and proposing a design.
 
 #### User testing with customers and users
@@ -123,7 +123,7 @@
 #### Determining iteration goal
 
 - **Accountable**: PM
-- **Responsible**: EM/Team
+- **Responsible**: EM / Team
 - **Expectations**: PM is accountable for making sure the teams iterations are aligned with high level goals
 
 #### Providing guidance on prioritization
@@ -155,7 +155,7 @@
 #### Check-in with engineers on capacity
 
 - **Accountable**: EM
-- **Responsible**: EM/PM
+- **Responsible**: EM / PM
 - **Expectations**: The EM is accountable for ensuring that engineers have enough on their plate. Changes to the iteration/roadmap should be communicated as fast as possible to ensure constant progress towards our goals.
 
 #### Supporting engineers (scope, design support, technical support)
@@ -164,10 +164,10 @@
 - **Responsible**: Team
 - **Expectations**: The EM is accountable to ensure everyone is delivering on their promises.
 
-#### Progress reporting (technical?)
+#### Progress reporting
 
 - **Accountable**: EM
-- **Responsible**: EM/Engineers
+- **Responsible**: EM / Engineers
 - **Expectations**: The EM is responsible for communicating technical progress report across the organization to communicate changes made once an iteration has been completed.
 
 ### Support
