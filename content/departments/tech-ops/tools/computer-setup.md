@@ -8,7 +8,7 @@
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
   - [Protect company assets and use them properly - Code of conduct](../../../company-info-and-process/communication/code_of_conduct.md#respect-others-and-their-property-and-confidential-information)
 
-# Company data
+## Company data
 
 Company data is any personal, confidential, or sensitive teammate or client information. This would include (but is not limited to): customer data and metadata, Sourcegraph IP, audit logs, security incidents, contracts, personal information about clients or teammates, and internal communications, such as email and Slack.
 
