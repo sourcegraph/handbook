@@ -113,8 +113,9 @@ vanesa_ortiz:
   name: Vanesa Ortiz
   pronouns: she/her
   pronunciation: '/[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
-  role: Community Advocate
-  reports_to: director_community
+  role: Community and Developer Relations Manager
+  reports_to: vp_marketing
+  manager_role_slug: community_devrel_manager
   location: San Francisco, CA, USA 🇺🇸
   github: vanesa
   email: vanesa@sourcegraph.com
@@ -983,18 +984,6 @@ bill_creager:
   links: '[Linkedin](https://www.linkedin.com/in/bill-creager-8055911a/)'
   description: "If he isn't in front of this computer, Bill can usually be found doing one of the following: eating some BBQ in Austin, riding his bike or running, watching his kids play soccer, camping with the family, or working with his hands (building furniture, building and playing guitars). He grew up in Phoenix, AZ and went to Northern Arizona University in Flagstaff, AZ where he studied computer science (after a quick detour in Environmental Engineering, it wasn't for him). Prior to Sourcegraph he worked at Procore, Spiceworks, and Demand Media and has been living in Texas for 11 years (he got there as quick as he could)!"
 
-samson_goddy:
-  name: Samson Goddy
-  pronouns: he/him
-  role: Director of Community
-  reports_to: vp_marketing
-  manager_role_slug: director_community
-  location: Port Harcourt, Nigeria 🇳🇬
-  github: samswag
-  email: samson@sourcegraph.com
-  links: '[@samson_goddy](https://twitter.com/Samson_Goddy),[LinkedIn](https://linkedin.com/in/samsongoddy)'
-  description: Samson, a software developer who believes in creating something iconic. An open source advocate who has been sustaining projects with his diverse experiences. He maintains tools, desktops and likes contributing back to the large OSS ecosystem. Building communities is something he passionate about, and he currently runs Open Source Community Africa, a non-profit org that promotes and educates everything open source. He loves playing console games, mobile photography and eating jollof rice.
-
 fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
@@ -1177,7 +1166,7 @@ prosper_otemuyiwa:
   name: Prosper Otemuyiwa
   pronouns: he/him
   role: Staff Developer Evangelist
-  reports_to: director_community
+  reports_to: vp_marketing
   location: Lagos, Nigeria 🇳🇬
   github: unicodeveloper
   email: prosper@sourcegraph.com
@@ -1948,7 +1937,7 @@ erika_heidi:
   name: Erika Heidi
   pronouns: she/her
   role: Senior Developer Advocate, Community
-  reports_to: director_community
+  reports_to: vp_marketing
   location: The Hague, Netherlands 🇳🇱
   github: erikaheidi
   email: erika.heidi@sourcegraph.com
@@ -2727,7 +2716,7 @@ michael mcmahan:
 justin dorfman:
   name: Justin Dorfman
   role: Open Source Program Manager
-  reports_to: director_community
+  reports_to: vp_marketing
   location: Los Angeles, CA, USA 🇺🇸
   github: jdorfman
   email: justin.dorfman@sourcegraph.com
