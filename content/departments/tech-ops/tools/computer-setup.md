@@ -50,9 +50,9 @@ Tech Ops has a number of previously used computers available to be allocated in 
 
 ## Damaged computers
 
-If something has happened to your Sourcegraph device please contact #it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care or some form of warranty. 
+If something has happened to your Sourcegraph device please contact #it-tech-ops and we can assist you in fixing your device, getting you a loaner while your device is getting fixed, or helping you send your device to be evaluated and repaired/replaced. All Sourcegraph computers should be purchased with Apple Care or some form of warranty.
 
-For repairs under warranty in the US, a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warranty please contact  #it-tech-ops to have it sent to ComputerCare to be evaluated and repaired/replaced. 
+For repairs under warranty in the US, a teammate can either send it to our partner, ComputerCare, to be fixed or else go to their local Apple store. For repairs not under warranty please contact  #it-tech-ops to have it sent to ComputerCare to be evaluated and repaired/replaced.
 
 For repairs outside of the US, a teammate should only go to an Apple store directly or a certified Apple repair center.
 
