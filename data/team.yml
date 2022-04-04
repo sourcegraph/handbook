@@ -2938,3 +2938,14 @@ tim_zielonko:
   reports_to: engineering_manager_content_platform
   location: Saint Louis, MO, USA 🇺🇸
   description: 'Tim is a software engineer supporting the Content Platform team. He joins Sourcegraph from Saint Louis, Missouri, where he lives with his partner, Alex, and their dog, Otto.'
+
+yoway_buorn:
+  name: Yoway Buorn
+  pronouns: he/him
+  role: Senior Customer Engineer, EMEA
+  reports_to: director_customer_engineering
+  location: İstanbul, Türkiye 🇹🇷🇸
+  github: yowayb
+  email: yoway.buorn@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
+  description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
