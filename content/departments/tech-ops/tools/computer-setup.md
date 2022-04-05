@@ -3,7 +3,7 @@
 - All full-time teammates must have a Sourcegraph computer
 - All teammates must work from their Sourcegraph computer
 - All teammates must only use their Sourcegraph computer for accessing [company data](#company-data)
-- Sourcegraph approves the use of Apple MacOs only (you may work with Windows and Linux devices for work that does not involve company data, such as open source coding)
+- Sourcegraph approves the use of Apple MacOs only (you may work with Windows and Linux devices for work that does not involve internal, private or confidential company data, such as open source coding)
 - All teammates should adhere to our related usage and access policies:
   - [Device usage and privacy policy](../process/team_device_usage_privacy.md)
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
@@ -13,12 +13,12 @@
 
 Company data is any personal, confidential, or sensitive teammate or client information. This would include (but is not limited to): customer data and metadata, Sourcegraph IP, audit logs, security incidents, contracts, personal information about clients or teammates, and internal communications, such as email and Slack.
 
-We are currently working on defining our data classification policy which will further identify our data into groups and outline exceptions to this policy, such as the use of mobile phones/tablets. You may continue to access Gmail, calendar, and Slack on your mobile device as long as it is password protected, screen lock enabled, updated with the latest software, and is not jailbroken.
+We are currently improving our [Acceptable Use Policy], which will give further details on data handling expectations and device usage, such as use of mobile phones/tablets. You may continue to access Gmail, calendar, and Slack on your mobile device as long as it is password protected, screen lock enabled, updated with the latest software, and is not jailbroken.
 
 ## Setting up your computer
 
 1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
-2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md) if your machine is eligible.
+2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md) 
 3. Check that your warrenty information is reflected on your [Apple device](https://support.apple.com/en-us/HT202741)
 
 Note: All devices purchased through our partners will have been purchased with a warranty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warranty please do so within 30 days.
@@ -73,7 +73,7 @@ If you have a device that you are having [upgraded](../../../benefits-pay-perks/
 
 - For those devices where a business need is required for a Windows environment (i.e. to run certain applications), we will create a virtual environment through the use of [Amazon Workspaces](https://aws.amazon.com/workspaces/) and show each user how they can use this on the Apple device.
 - We can create a similar Linux environment for those wishing to have this capability on their Apple devices.
-- These environments are compliant with the many certifications we are aiming to get not just SOC 2, can be better managed and more easily audited than individual devices
+- We can manage and monitor these environments remotely hence we can make sure they are compliant with our policies.
 
 ## Why did we standardize to MacOS
 
