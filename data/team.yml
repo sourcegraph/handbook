@@ -2949,3 +2949,15 @@ yoway_buorn:
   email: yoway.buorn@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
   description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
+
+Nicky_Comber:
+  name: Nicole Comber
+  pronouns: she/her
+  role: Deal Desk Manager
+  reports_to: financial_controller
+  location: Buenos Aires, Argentina 🇦🇷 
+  github: nickycomber
+  email: nicky.comber@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/nicole-comber-65219024)'
+  description: 'Nicole lives in Buenos Aires with her partner Pablo and her daughter Juana. In her free time, she enjoys cooking, practicing yoga, travelling and spending time with family and friends.'
+  
