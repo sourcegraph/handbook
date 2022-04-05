@@ -147,3 +147,11 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 ### Fixed Assets
 
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)
+
+## Deal Desk
+
+Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components. We coordinate internal approvals of paperwork with other internal stakeholders in order to deliver compliant documents and we support throughout the deal closing process.
+
+- All requests and questions should be submitted to the #deal-desk slack channel.
+- SLA: 1 business day.
+- See [Sales Resources Templates](../../sales/tools/salesresources.md#sales-templates)
