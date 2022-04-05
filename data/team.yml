@@ -1229,18 +1229,6 @@ nicky_van_maanen:
   links: '[LinkedIn](https://www.linkedin.com/in/nvanmaanen/)'
   description: Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
 
-debbie_johnstone:
-  name: Debbie Johnstone
-  pronouns: she/her
-  role: VP of People
-  reports_to: vp_operations
-  manager_role_slug: vp_people
-  location: Amsterdam, Netherlands 🇳🇱
-
-  email: debbie@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/debbie-johnstone-58901a1b/)'
-  description: "Originally from Cape Town, South Africa, Debbie is still adjusting to the climate in Amsterdam, where she relocated two years ago with her grumpy 13-year old cocker Spaniel, Mercy. You'll find her either hopping from country to country, or riding a bike to do yoga or meet friends in Vondelpark. Debbie is an avid student of the Enneagram, so chat to her about it if you've ever done one!"
-
 nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
@@ -2180,12 +2168,6 @@ director_design:
   reports_to: vp_product
   manager_role_slug: director_design
 
-engineering_manager_content_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Content Platform
-  reports_to: director_engineering_enablement
-  manager_role_slug: engineering_manager_content_platform
-
 jason_gornall:
   name: Jason Gornall
   pronouns: he/him
@@ -2955,3 +2937,24 @@ yoway_buorn:
   email: yoway.buorn@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
   description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
+
+Nicky_Comber:
+  name: Nicole Comber
+  pronouns: she/her
+  role: Deal Desk Manager
+  reports_to: financial_controller
+  location: Buenos Aires, Argentina 🇦🇷
+  github: nickycomber
+  email: nicky.comber@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/nicole-comber-65219024)'
+  description: 'Nicole lives in Buenos Aires with her partner Pablo and her daughter Juana. In her free time, she enjoys cooking, practicing yoga, travelling and spending time with family and friends.'
+
+dora_grgic:
+  name: Dora Grgic
+  email: dora.grgic@sourcegraph.com
+  github: doragrgic
+  pronouns: she/her
+  role: Compliance Manager
+  location: Salzburg, Austria
+  links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
+  description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
