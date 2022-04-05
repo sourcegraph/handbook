@@ -798,22 +798,6 @@
          "type": "Feature",
          "properties": {
             "marker-color": "#7e7e7e",
-            "name": "Debbie Johnstone",
-            "marker-size": "medium",
-            "marker-symbol": ""
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               4.686126261949539,
-               50.162324321993545
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "marker-color": "#7e7e7e",
             "marker-size": "medium",
             "marker-symbol": "",
             "name:": "Dan Mckean"
