@@ -125,8 +125,7 @@ noemi_mercado:
   name: Noemi Mercado
   pronouns: she/her
   role: People Operations Manager
-  reports_to: vp_talent_people
-  manager_role_slug: people_operations_manager
+  reports_to: senior_people_partner
   location: San Francisco, CA (Ramaytush Ohlone land)
   github: mercadon
   email: noemi@sourcegraph.com
@@ -574,7 +573,7 @@ cecily_black:
   name: Cecily Black
   pronouns: she/her
   role: People Operations Coordinator
-  reports_to: people_operations_manager
+  reports_to: senior_people_partner
   location: San Jose, California, United States 🇺🇸
   github: CecilyBee
   email: cecily@sourcegraph.com
@@ -2207,6 +2206,7 @@ jonathan_ayers:
   role: Senior People Partner
   reports_to: vp_talent_people
   location: Seattle, WA, USA 🇺🇸
+  manager_role_slug: senior_people_partner
   email: jonathan.ayers@sourcegraph.com
   github: jonathanayers
   links: '[LinkedIn](https://www.linkedin.com/in/jonayershr/)'
