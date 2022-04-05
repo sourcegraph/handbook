@@ -152,6 +152,7 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 
 Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components. We coordinate internal approvals of paperwork with other internal stakeholders in order to deliver compliant documents and we support throughout the deal closing process.
 
-- All requests and questions should be submitted to the #deal-desk slack channel.
+- All requests should be submitted to the #deal-desk slack channel.
 - SLA: 1 business day.
-- Additional information: [Sales Resources](https://handbook.sourcegraph.com/departments/sales/tools/salesresources/#sales-templates)
+- Additional information: [Sales Resources](../sales/tools/salesresources/#sales-templates.md)
+- For questions, please email us at: dealdesk@sourcegraph.com
