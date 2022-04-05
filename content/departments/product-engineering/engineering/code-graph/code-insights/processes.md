@@ -55,6 +55,8 @@ Our current process is as follows:
 
   - We hold a [fortnightly synchronous iteration planning](#fortnightly-iteration-planning), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4).
 
+- Larger issues that involve multiple domains may benefit from a "feature owner". A feature owner assumes full responsibility for gathering all requirements to complete an issue. The feature owner is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task. 
+
 - During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
