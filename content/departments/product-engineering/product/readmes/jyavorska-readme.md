@@ -24,6 +24,7 @@ These are some of my favorite product principles.
 - I like to follow the [reasonable person principle](http://www.cs.cmu.edu/~weigand/staff/).
 - I have learned that working on things [iteratively](https://about.gitlab.com/handbook/values/#iteration) tends to get the best results.
 - Talking to customers in a way where they tell you the truth about what they actually are willing to pay for is a subtle skill. This [video](https://www.youtube.com/watch?v=MT4Ig2uqjTc) and [book](http://momtestbook.com/) can help you learn to do that better.
+- Organizations really are [like slime molds](https://komoroske.com/slime-mold/). This ties into this [Twitter thread](https://twitter.com/jmwind/status/1493569303030816770) also linked above.
 
 ## Management Style
 
