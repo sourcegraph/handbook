@@ -40,15 +40,14 @@ Will the candidate be successful in our all-remote environment in which the majo
 
 Should the candidate move forward to the followup, review call, the focus will be on what collaboration would look like, how they would talk about the RFC, and how they’d work through getting it implemented. Here are a few of the questions the team may ask about your RFC:
 
-Walk us through the RFC from how the idea/need was identified to the final outcome of the project. 
+Walk us through the RFC from how the idea/need was identified to the final outcome of the project.
 
 Why was this project important from a technical communication or education perspective?
 
-How did you collaborate with subject matter experts (SMEs), especially those from other teams for this project, and what successes/challenges did you encounter? 
+How did you collaborate with subject matter experts (SMEs), especially those from other teams for this project, and what successes/challenges did you encounter?
 
-Did anything go wrong with this project, or did you experience any challenges? 
+Did anything go wrong with this project, or did you experience any challenges?
 
-Was the project successful, and how did you know? 
+Was the project successful, and how did you know?
 
-How would you improve this if you were to do it again? 
-
+How would you improve this if you were to do it again?
