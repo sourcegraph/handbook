@@ -18,7 +18,7 @@ We are currently improving our [Acceptable Use Policy], which will give further 
 ## Setting up your computer
 
 1. Set up Sourcegraph's [endpoint standards](../process/internal-security/computer-standards.md)
-2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md) 
+2. Install [Workspace One & Carbon Black](../tools/endpoint-antivirus.md)
 3. Check that your warrenty information is reflected on your [Apple device](https://support.apple.com/en-us/HT202741)
 
 Note: All devices purchased through our partners will have been purchased with a warranty. If it is not reflected please reach out to Tech Ops. If you purchased the device yourself and forgot to include a warranty please do so within 30 days.
