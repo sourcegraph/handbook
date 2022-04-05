@@ -1,6 +1,7 @@
 # Company wide directives and policies
 
 ## Directives
+
 - [Teammate privacy and trust](../../departments/tech-ops/process/team_device_usage_privacy.md)
 - [Computer requirements](../../departments/tech-ops/tools/computer-setup.md)
 
