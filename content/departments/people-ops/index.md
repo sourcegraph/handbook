@@ -9,13 +9,13 @@
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../team/index.md#debbie-johnstone" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps/Debbie.png"
-                alt="Picture of Debbie Johnstone" style="background: transparent; width:128px;" />
+            <a href="../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Carly-Bitmoji.png"
+                alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
             </a>
           </div>
-          <div style="text-align: center;">Debbie Johnstone</div>
-          <div style="text-align: center; font-size: 12px;">VP of People</div>
+          <div style="text-align: center;">Carly Jones</div>
+          <div style="text-align: center; font-size: 12px;">VP of Talent</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
