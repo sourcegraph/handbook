@@ -106,9 +106,32 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
     - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
   - When a PR is merged, its status is changed to **Done**.
 
+### Pull Requests
+
+All PRs made by the CPT go through a creation and QA process.
+
+**Authors for PRs should include:**
+
+1. Context in the description on what the PR achieves. This includes which issues it refers to, if any, using [closing keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to automate issue closing.
+2. A list of tasks as a Test Plan that a reviewer should test to ensure the proposed changes work as intended.
+3. At least 1 reviewer to review, provide feedback if necessary, and approve, in order to increase code health and prevent accidental bugs and changes from being snuck in after an approval has been made.
+   - Note that the `/docs`, `/blogposts`, and `/podcasts` directories in our [About repo](https://github.com/sourcegraph/about) dismiss approvals for our Legal and Content Marketing teams to reduce friction. However, other changes proposed for the rest of the codebase require an approval.
+4. Setting yourself as the assignee to keep track of your work.
+5. Any relevant labels, including the required `team/content-platform` label.
+6. Tagging the **Content Platform Work** project and setting the apropriate status through the stages of work: In Progress and In Review, to keep everyone informed.
+7. Any relevant Milestones.
+8. Any optional comments to lines of code to point out specific context for reviewers.
+
+**The QA Process should go as follows:**
+
+1. Create a draft PR if your PR is still work in progress (WIP).
+2. Assign a reviewer once your PR is ready to be reviewed and is no longer WIP.
+3. If there are changes requested, push your changes and resolve conversations as they are fixed. You can optionally leave conversations unresolved if more conversation is necessary.
+4. Once approved, the Author merges and the branch is deleted.
+
 ### Planning
 
-We plan using a Kanban workflow in a [Github project](https://github.com/orgs/sourcegraph/projects/227/views/5?layout=board&filterQuery=label%3A%22%F0%9F%8F%97+Handbook+website%22). We do not work in iterations or sprints.
+We currently plan using Sprints and include issues to work on in a bi-weekly basis. You can view our [Current Sprint](https://github.com/orgs/sourcegraph/projects/227/views/18) on GitHub.
 
 #### Weekly Planning Meeting
 
@@ -138,3 +161,4 @@ We plan using a Kanban workflow in a [Github project](https://github.com/orgs/so
     - QA links
     - Questions for stakeholders
     - Progress updates as needed
+- All marketing requests go through our [Marketing QA process](qa-process.md) and inherit our [Pull Requests](#pull-requests) process.

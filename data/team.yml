@@ -712,6 +712,7 @@ malo_marrec:
   role: Product Manager, Batch Changes
   location: Paris, France 🇫🇷
   email: malo@sourcegraph.com
+  github: malomarrec
   links: '[Linkedin](https://www.linkedin.com/in/malo-marrec)'
   description: Malo lives in Paris, France after some time in the Bay Area. Prior to Sourcegraph, he bounced around a few early stage startups building infrastucture and developer tools. Malo graduated with an MS from Stanford, and an MS from Ecole Centrale Paris. Outside of work, he kite surfs and reads a ton of books.
 
@@ -1227,18 +1228,6 @@ nicky_van_maanen:
   email: nicky@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nvanmaanen/)'
   description: Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
-
-debbie_johnstone:
-  name: Debbie Johnstone
-  pronouns: she/her
-  role: VP of People
-  reports_to: vp_operations
-  manager_role_slug: vp_people
-  location: Amsterdam, Netherlands 🇳🇱
-
-  email: debbie@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/debbie-johnstone-58901a1b/)'
-  description: "Originally from Cape Town, South Africa, Debbie is still adjusting to the climate in Amsterdam, where she relocated two years ago with her grumpy 13-year old cocker Spaniel, Mercy. You'll find her either hopping from country to country, or riding a bike to do yoga or meet friends in Vondelpark. Debbie is an avid student of the Enneagram, so chat to her about it if you've ever done one!"
 
 nate_maynard:
   name: Nate Maynard
@@ -2179,17 +2168,17 @@ director_design:
   reports_to: vp_product
   manager_role_slug: director_design
 
-engineering_manager_content_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Content Platform
-  reports_to: director_engineering_enablement
-  manager_role_slug: engineering_manager_content_platform
-
-engineering_manager_frontend_platform:
-  name: Jean du Plessis
-  role: (Interim) Engineering Manager, Frontend Platform
+jason_gornall:
+  name: Jason Gornall
+  pronouns: he/him
+  role: Engineering Manager, Frontend Platform
   reports_to: director_engineering_enablement
   manager_role_slug: engineering_manager_frontend_platform
+  location: San Marcos, CA, USA 🇺🇸
+  github: jasongornall
+  email: jason.gornall@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jasongornall)'
+  description: Jason lives in San Diego, CA with his wife and cat Siren. He has lived in several cities in the USA including Atlanta, San Francisco, LA, Boston, and NYC. Jason loves ridiculously spicy foods and always enjoys a good pun. Jason's cat is named Siren but because he called her kitten for the majority of her early life she doesn't respond to her name at all and as a result we tend to call her Mitten because it is close enough to kitten and she can't tell the difference.
 
 Daniel_Gwyn:
   name: Daniel Gwyn
@@ -2895,3 +2884,77 @@ jordan_bushong:
   email: jordan.bushong@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/jordan-bushong-b0204590/)'
   description: Jordan lives in Saint Louis, MO with his wife, two kids and four dogs. In his spare time Jordan enjoys DIY projects, hiking, rowing, chess, video games (before he had children) and going to new resteraunts.
+
+collette_tesauro:
+  name: Collette Tesauro
+  email: collette@sourcegraph.com
+  role: Senior Legal Counsel - Privacy & Employment
+  pronouns: she/her
+  reports_to: director_legal
+  location: Laurel Springs, NJ, USA 🇺🇸
+  github: collettesg
+  links: '[LinkedIn](https://www.linkedin.com/in/ctesauro)'
+  description: Collette is a New Jersey native, and currently resides there after a nine-year hiatus in San Diego, CA. Prior to joining Sourcegraph, Collette spent years working as both in-house and external employment and privacy counsel. In her non-working time, Collette enjoys playing video games with friends 🎮, reading (and collecting books she plans to read) 📚, and spending time with her husband.
+
+david_james_johnson:
+  name: David James Johnson
+  email: davidjames.johnson@sourcegraph.com
+  role: Enterprise Account Executive
+  pronouns: he/him
+  reports_to: regional_director_sales_east
+  location: Atlanta, GA, USA 🇺🇸
+  github: davidjamesjohnson
+  links: '[LinkedIn](https://www.linkedin.com/in/david-james-johnson)'
+  description: David James lives in Atlanta with his cat (Luna) and dog (Hugo). He aims to help customers solve complex problems while exceeding their sales process expectations. During his free time, David James enjoys cooking while listening to jazz, soul, or bluegrass music, and traveling whenever possible. He loves to visit New Orleans and New York, and hopes to one day go to New Zealand - he hates old places.
+
+tracey_johnson:
+  name: Tracey Johnson
+  email: tracey.johnson@sourcegraph.com
+  github: traceyljohnson
+  pronouns: she/her
+  role: Brand Designer
+  reports_to: vp_product
+  location: Fort Worth, TX 🤠
+  links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
+  description: Tracey is a Brand Designer and mom of 3. Before coming to Sourcegraph, she was a designer at a full-service digital marketing agency serving B2B tech-SaaS clients. She is passionate about brand consistency and empathetic design. She spends her freetime doing puzzles, knitting, playing video games, and brunching!
+
+tim_zielonko:
+  name: Tim Zielonko
+  email: tim.zielonko@sourcegraph.com
+  github: zlonko
+  role: Software Engineer
+  reports_to: engineering_manager_content_platform
+  location: Saint Louis, MO, USA 🇺🇸
+  description: 'Tim is a software engineer supporting the Content Platform team. He joins Sourcegraph from Saint Louis, Missouri, where he lives with his partner, Alex, and their dog, Otto.'
+
+yoway_buorn:
+  name: Yoway Buorn
+  pronouns: he/him
+  role: Senior Customer Engineer, EMEA
+  reports_to: director_customer_engineering
+  location: İstanbul, Türkiye 🇹🇷🇸
+  github: yowayb
+  email: yoway.buorn@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
+  description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
+
+Nicky_Comber:
+  name: Nicole Comber
+  pronouns: she/her
+  role: Deal Desk Manager
+  reports_to: financial_controller
+  location: Buenos Aires, Argentina 🇦🇷
+  github: nickycomber
+  email: nicky.comber@sourcegraph.com
+  links: '[Linkedin](https://www.linkedin.com/in/nicole-comber-65219024)'
+  description: 'Nicole lives in Buenos Aires with her partner Pablo and her daughter Juana. In her free time, she enjoys cooking, practicing yoga, travelling and spending time with family and friends.'
+
+dora_grgic:
+  name: Dora Grgic
+  email: dora.grgic@sourcegraph.com
+  github: doragrgic
+  pronouns: she/her
+  role: Compliance Manager
+  location: Salzburg, Austria
+  links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
+  description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'

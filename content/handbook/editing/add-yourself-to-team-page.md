@@ -29,7 +29,7 @@ marie_curie:
   description: I am a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. I was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields. My husband, Pierre Curie, was a co-winner on her first Nobel Prize, making us the first ever married couple to win the Nobel Prize and launching the Curie family legacy of five Nobel Prizes. I was, in 1906, the first woman to become a professor at the University of Paris.
 ```
 
-All fields except `name` and `role` are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`; any fields using markdown should be quoted (i.e., surrounded with single or double quotes), just like the `links` example below.
+All fields except `name`, `role` and `reports_to` are optional, and you can use markdown and emojis inside all the fields except `name`, `github`, and `email`; any fields using markdown should be quoted (i.e., surrounded with single or double quotes), just like the `links` example below.
 
 The order of fields doesn't matter. If you aren't comfortable with markdown, you can check out our [tips and tricks page](markdown-resources.md). If you receive errors during the build, check the [handbook check failures page](handbook-check-failures.md).
 

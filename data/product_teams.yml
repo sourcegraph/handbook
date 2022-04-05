@@ -16,7 +16,7 @@ search_core:
   title: Search Core
   product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/search/core/index.md
-  pm: loïc_guychard
+  pm: eugenia_fernandez
   em: jeff_warner
   design: rob_rhyne
   pmm: alex_isken
@@ -121,7 +121,7 @@ frontend_platform:
   strategy_link: /strategy-goals/strategy/enablement/frontend-platform
   product_org: enablement
   pm: taylor_sperry
-  em: engineering_manager_frontend_platform
+  em: jason_gornall
   design: alicja_suska
   issue_labels:
     - team/frontend-platform
@@ -139,8 +139,7 @@ content_platform:
   title: Content Platform Team
   strategy_link: /strategy-goals/strategy/enablement/content-platform
   product_org: enablement
-  pm: mary_belzer
-  em: engineering_manager_content_platform
-  design: stephanie_zabala
+  pm: elzanne_wentzel
+  em: elzanne_wentzel
   issue_labels:
     - team/content-platform

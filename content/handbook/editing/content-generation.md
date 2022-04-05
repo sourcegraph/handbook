@@ -45,6 +45,8 @@ data_source_2: [/data/product_teams.yml, product teams]
 ---
 ```
 
-The page supports up to two data sources (the second is optional).
+The header supports optionally adding up to two data sources.
 
 This particular example will show, underneath "Edit this page" on the right hand side, "Edit code hosts data" and "Edit product teams data" (the first entry is the path, the second is what to display visually). This is implemented in [/src/components/EditSection.tsx](https://github.com/sourcegraph/handbook/blob/main/src/components/EditSection.tsx).
+
+This can also be a good way to figure out what data sources are driving a page, if the author has added them.
