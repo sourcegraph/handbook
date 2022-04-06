@@ -4,7 +4,7 @@
 
 [RFC](https://docs.google.com/document/d/1xnAgloZB8sEkyhecjml2ByQl-aUCrJdWDYOBj3asA9g)
 
-Its purpose it not to replace existing [monitoring and alerting](../../../engineering/tools/observability/monitoring.md), but to extend it with more options including:
+Its purpose is not to replace existing [monitoring and alerting](../../../engineering/tools/observability/monitoring.md), but to extend it with more options including:
 
 - metrics
 - logs
@@ -12,7 +12,7 @@ Its purpose it not to replace existing [monitoring and alerting](../../../engine
 - RUM (real user monitoring)
 - etc.
 
-## Content
+# Content
 
 - [Login to Datadog](#login)
 - [Use cases for Datadog](#use-cases)
@@ -23,13 +23,13 @@ Its purpose it not to replace existing [monitoring and alerting](../../../engine
   - [Syntetict (browser) tests](#syntectic-tests)
   - [Real User Monitoring](#real-user-monitoring)
 
-# Login
+## Login
 
 Datadog can be accessed through Okta at [this link](https://app.datadoghq.com/)
 
 # Use cases
 
-## Dasboards
+### Dasboards
 
 [Datadog documentation](https://docs.datadoghq.com/dashboards/)
 
@@ -37,24 +37,24 @@ All available dashboards can be access [here](https://app.datadoghq.com/dashboar
 
 DevOps team is using [Cloud Uptime](https://app.datadoghq.com/dashboard/xjm-eb6-rdn/cloud-uptime) as overall Cloud Production overview.
 
-## Metrics
+### Metrics
 
 [Datadog documentation](https://docs.datadoghq.com/metrics/)
 
-## Logs
+### Logs
 
 [Datadog documentation](https://docs.datadoghq.com/logs/explorer/)
 
-## APM and traces
+### APM and traces
 
 [Datadog documentation](https://docs.datadoghq.com/tracing/#explore-datadog-apm)
 
-## Syntectic tests
+### Syntectic tests
 
 [Datadog documentation](https://docs.datadoghq.com/synthetics/)
 
-[Cloud production Smoke tests example](https://app.datadoghq.com/synthetics/details/iis-dve-hzw)
+[Sourcegraph Cloud production Smoke tests example](https://app.datadoghq.com/synthetics/details/iis-dve-hzw)
 
-## Real User Monitoring
+### Real User Monitoring
 
 [Datadog documentation](https://docs.datadoghq.com/real_user_monitoring/)
