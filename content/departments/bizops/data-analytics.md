@@ -72,7 +72,7 @@ Partner with the organization to build scalable data solutions and insights to h
 
 **Communications/Asking a Question**
 
-The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook page: [Analytics Handbook Page](https://handbook.sourcegraph.com/departments/bizops/). Don’t see what you are looking for? Ask a question in one of our Slack channels.
+The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook page: [Analytics Handbook Page](index.md). Don’t see what you are looking for? Ask a question in one of our Slack channels.
 
 - [#business-ops](https://sourcegraph.slack.com/archives/business-ops) to interact with the Business Operations team (e.g. questions you know are specifically for us)
 - [#business-ops-internal](https://sourcegraph.slack.com/archives/business-ops-internal) for internal BizOps communication
