@@ -332,7 +332,7 @@ Amplitude tracks Sourcegraph cloud usage.
 
 **Amplitude Enablement**
 
-[Onboarding to Amplitude](https://handbook.sourcegraph.com/departments/bizops/tools/amplitude/)
+[Onboarding to Amplitude](tools/amplitude/.md)
 
 **BigQuery**
 
