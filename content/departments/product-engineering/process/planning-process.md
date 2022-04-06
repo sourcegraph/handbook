@@ -8,7 +8,6 @@ This page describes how we define & continuously refine our product/engineering 
 - Changes/updates to OKRs can and should be made throughout the quarter when necessary
 - Creation of roadmap items or updates to existing roadmap is owned by individual teams
 - We rely on the EM & PM to communicate any significant changes in scope of work or delivery of work to the appropriate stakeholders
-- We have a dedicated facilitator for planning in each quarter; for FY23 Q2, it will be [Serina Clark](../../../team/index.md#serina-clark)
 
 ## Artifacts
 

@@ -1,6 +1,6 @@
 # Business Operations & Strategy
 
-The Business Operations & Strategy (BizOps) team is made up of Business Operations, Data Operations, and Analytics. This page contains information that is relevant to the whole company, and each of the links below will take you to subteam-specific information. There are plans to split up the Business Operations and Data and Analytics teams, which will happen sometime after the [Director of Data and Analytics](https://boards.greenhouse.io/sourcegraph91/jobs/4084968004) position is filled. At this point, everything in this section applies to all functional areas.
+The Business Operations & Strategy (BizOps) team is made up of Business Operations, Data Analytics, and Data Engineering. This page contains information that is relevant to the whole company, and each of the links below will take you to subteam-specific information. As the Analytics and Engineering functions are further built out, this page will contain information for all of business operations and strategy and the functional specific pages will contain information for each area.
 
 ## Functional areas
 
