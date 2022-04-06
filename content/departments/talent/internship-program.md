@@ -20,11 +20,11 @@ We will be hiring for interns across various business departments. Recruiting wi
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fqti3gmuu2b6800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 
-## Compensation and Equipment:
+## Compensation, Perks, and Equipment:
 
 - Varies by role, not location and will be discussed with your recruiter
 - [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
-- We will provide each intern with a laptop for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day.
+- We will provide each intern with a [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day.
 
 ## Helpful Links:
 
