@@ -39,7 +39,7 @@ SCHEDULE COMING SOON!
 
 ## Future Internship Cohorts
 
-While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. 
+While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts.
 
 ### How to request an intern for your team
 
