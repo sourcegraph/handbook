@@ -1,8 +1,13 @@
 # Helm
 
-This page documents resources and troubleshooting tips related to the [Helm chart](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-helm) prototype.
+<div style="background-color:#d4ebf2">
+All documentaion on this page is written here in preparation for the GA (General Availability) support of Helm.
+ 
+At the time of writing, this is planned for towards the end of April 2022.
 
-As the project moves out of beta, some of these resources may move to the official docs.
+If you're unsure if this has occured, please ask for confimation in [#Delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) (and let us know this intro text needs updating 😉)
+
+<div>
 
 ## Resources
 
