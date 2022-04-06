@@ -7,7 +7,7 @@ At the time of writing, this is planned for towards the end of April 2022.
 
 If you're unsure if this has occured, please ask for confimation in [#Delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) (and let us know this intro text needs updating 😉)
 
-<div>
+</div>
 
 ## Resources
 
