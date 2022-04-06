@@ -4,7 +4,7 @@
 
 [RFC](https://docs.google.com/document/d/1xnAgloZB8sEkyhecjml2ByQl-aUCrJdWDYOBj3asA9g)
 
-Its purpose it not to replace existing [monitoring and alerting](../../../engineering/tools/observability/monitoring/), but to extend it with more options including:
+Its purpose it not to replace existing [monitoring and alerting](../../../engineering/tools/observability/monitoring.md), but to extend it with more options including:
 
 - metrics
 - logs
