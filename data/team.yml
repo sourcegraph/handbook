@@ -125,7 +125,7 @@ noemi_mercado:
   name: Noemi Mercado
   pronouns: she/her
   role: People Operations Manager
-  reports_to: vp_people
+  reports_to: vp_talent
   manager_role_slug: people_operations_manager
   location: San Francisco, CA (Ramaytush Ohlone land)
   github: mercadon
@@ -720,7 +720,7 @@ inés_roitman:
   name: Inés Roitman
   pronouns: she/her
   role: Onboarding and Training Manager
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Buenos Aires, Argentina 🇦🇷 / Barcelona, Spain 🇪🇸
   github: InesRoitman
   email: ines@sourcegraph.com
@@ -1024,7 +1024,6 @@ rebecca_dodd:
   reports_to: director_content_strategy
   manager_role_slug: senior_managing_editor
   location: Bristol, UK 🇬🇧
-
   email: rebecca@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/rebecca-lee-dodd/)'
   description: "Originally from Cape Town, South Africa, Rebecca started her career in journalism before finding her way into tech via content marketing. Prior to Sourcegraph she worked at GitLab for over four years and managed their company blog. An enthusiastic traveller, Rebecca has a custom Google Map of every city she's ever visited, complete with colour-coded pins of the best coffee shops and restaurants. Ask her for recommendations!"
@@ -1033,6 +1032,7 @@ carly_jones:
   name: Carly Jones
   pronouns: she/her
   role: VP, Talent
+  manager_role_slug: vp_talent
   reports_to: ceo
   location: Denver, CO USA 🇺🇸
   github: carlyj0nes
@@ -1077,7 +1077,7 @@ cassie_melani:
   name: Cassie Melani
   pronouns: she/her
   role: Teammate Success Manager
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Seattle, Washington, USA 🇺🇸🌲
   email: cassie@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/cassandralira/), [README](../../people-ops/cassie-bio.md)'
@@ -1155,7 +1155,8 @@ devon_coords:
   name: Devon Coords
   pronouns: She/Her
   role: Director, Technical Recruiting
-  reports_to: vp_people
+  reports_to: vp_talent
+  manager_role_slug: director_technical_recruiting
   location: White Plains, NY USA 🇺🇸
   github: devoncoords
   email: devon@sourcegraph.com
@@ -1166,7 +1167,7 @@ trevor_houghton:
   name: Trevor Houghton
   pronouns: he/him
   role: Recruiting Operations Specialist
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Austin, TX, USA 🇺🇸
   github: TrevorHoughton
   email: trevor@sourcegraph.com
@@ -1229,18 +1230,6 @@ nicky_van_maanen:
   links: '[LinkedIn](https://www.linkedin.com/in/nvanmaanen/)'
   description: Currently, Nicky is enjoying the ocean and eucalyptus trees with her family in Southern California but her heart remains in the commotion and sounds of New York City. She has a BA in Anthropology from Scripps College and an MS in Public Policy from Carnegie Mellon University. Prior to Sourcegraph, Nicky has held numerous jobs from Selling Mini Coopers to working in the Computer Forensic Unit at the Manhattan DAs office.
 
-debbie_johnstone:
-  name: Debbie Johnstone
-  pronouns: she/her
-  role: VP of People
-  reports_to: vp_operations
-  manager_role_slug: vp_people
-  location: Amsterdam, Netherlands 🇳🇱
-
-  email: debbie@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/debbie-johnstone-58901a1b/)'
-  description: "Originally from Cape Town, South Africa, Debbie is still adjusting to the climate in Amsterdam, where she relocated two years ago with her grumpy 13-year old cocker Spaniel, Mercy. You'll find her either hopping from country to country, or riding a bike to do yoga or meet friends in Vondelpark. Debbie is an avid student of the Enneagram, so chat to her about it if you've ever done one!"
-
 nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
@@ -1268,7 +1257,7 @@ kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
   role: Corporate Recruiter
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Minneapolis, MN USA
   github: kelseynagel
   description: "Kelsey is a North Dakota native living in Minneapolis, Minnesota. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
@@ -1420,7 +1409,7 @@ marija_petrovic:
   name: Marija Petrovic
   pronouns: She/Her
   role: Team Lead, Senior Sales Recruiter
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Naples, FL USA 🇺🇸
   github: marija.petrovic214
   email: marija.petrovic@sourcegraph.com
@@ -1552,7 +1541,7 @@ david_rohnow:
 scott_bailey:
   name: Scott Bailey
   pronouns: he/him
-  role: Technical Content Research Manager
+  role: Senior Manager, Content Strategy
   reports_to: director_content_strategy
   location: Raleigh, NC, USA 🇺🇸
   github: csbailey5t
@@ -1788,7 +1777,7 @@ grace_bohl:
   name: Grace Bohl
   pronouns: she/her
   role: Corporate Recruiter
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Denver, CO 🇺🇸
   github: gracebohl
   email: you@sourcegraph.com
@@ -1850,7 +1839,7 @@ win_yu:
   pronouns: he/his
   role: Technical Talent Sourcer
   location: Yangon, Burma
-  reports_to: vp_people
+  reports_to: director_technical_recruiting
   github: wysg
   email: win.yu@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
@@ -1861,7 +1850,7 @@ stephanie_zabala:
   pronouns: she/her
   role: Principal Designer, Brand
   location: Brooklyn, NY, United States 🇺🇸
-  reports_to: vp_people
+  reports_to: vp_product
   github: stephzabala
   email: steph.zabala@sourcegraph.com
   description: Steph is a designer based in NYC, originally from WA. She has a deep appreciation for creative work that is authentic, expressive, and artistic, along with a deep appreciation for butter, typography, and breakfast.
@@ -1881,7 +1870,7 @@ kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
   role: Recruiting Operations Specialist
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Austin, TX, United States 🇺🇸
   github: kemperhamilton
   email: kemper.hamilton@sourcegraph.com
@@ -1928,7 +1917,7 @@ michal_sennett:
   name: Michal Sennett
   pronouns: she/her
   role: Strategic Projects Manager, Engineering
-  reports_to: vp_people
+  reports_to: vp_engineering
   location: Dallas, TX, USA 🇺🇸
   github: msennett22
   email: michal.sennett@sourcegraph.com
@@ -1959,7 +1948,7 @@ frey_andersson:
   name: Frey Andersson
   role: Technical Recruiter
   location: Tokyo, Japan 🇯🇵
-  reports_to: vp_people
+  reports_to: director_technical_recruiting
   github: LordFriccoFro
   email: frey.andersson@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/frey-andersson-781a082a//)'
@@ -2222,22 +2211,11 @@ alex_ostrikov:
   links: '[LinkedIn](https://www.linkedin.com/in/alexander-ostrikov-a4027810b/)'
   description: Alexander (but you can also call him Alex or Sasha) lives in St. Petersburg, Russia with his fiancée Olga and their cat (with a _brilliant_ name — Kot ("cat" in Russian)). When not coding, he likes spending his time learning all the memes in the world, listening to music, singing (in fact mostly screaming) some metal songs, playing drums (once in a blue moon, to be honest), but his favourite pastime is making endless wallpapers with photos of Kot being weirdly zoomed into and cropped.
 
-dominique_cole:
-  name: Dominique "Dom" Cole
-  pronouns: he/him
-  role: Technical Recruiter
-  reports_to: vp_people
-  location: Austin, TX, USA 🇺🇸
-  email: dom.cole@sourcegraph.com
-  github: domcole
-  links: '[LinkedIn](https://www.linkedin.com/in/dominiquecole/)'
-  description: Dom lives in Austin, TX with his wife (Alicia), son (Caden), and dog (Omega). He enjoys playing and watching sports (basketball & football), barbecuing, traveling, and spending time with family and friends.
-
 jonathan_ayers:
   name: Jonathan Ayers
   pronouns: he/him
   role: Senior People Partner
-  reports_to: vp_people
+  reports_to: vp_talent
   location: Seattle, WA, USA 🇺🇸
   email: jonathan.ayers@sourcegraph.com
   github: jonathanayers
@@ -2248,7 +2226,7 @@ veronica_bueno:
   name: Veronica Bueno
   pronouns: she/her
   role: Technical Recruiter
-  reports_to: vp_people
+  reports_to: director_technical_recruiting
   location: Austin, TX, USA 🇺🇸
   email: veronica.bueno@sourcegraph.com
   github: vernbueno
@@ -2960,3 +2938,14 @@ Nicky_Comber:
   email: nicky.comber@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/nicole-comber-65219024)'
   description: 'Nicole lives in Buenos Aires with her partner Pablo and her daughter Juana. In her free time, she enjoys cooking, practicing yoga, travelling and spending time with family and friends.'
+
+dora_grgic:
+  name: Dora Grgic
+  email: dora.grgic@sourcegraph.com
+  github: doragrgic
+  pronouns: she/her
+  role: Compliance Manager
+  reports_to: tech_ops_manager
+  location: Salzburg, Austria
+  links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
+  description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
