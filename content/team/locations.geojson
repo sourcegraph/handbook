@@ -225,6 +225,19 @@
       {
          "type": "Feature",
          "properties": {
+            "name": "Jason Gornall"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -117.161148,
+               33.139469
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
             "name": "Quinn Keast"
          },
          "geometry": {
@@ -778,22 +791,6 @@
             "coordinates": [
                -122.19268798828126,
                47.616346999837226
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "marker-color": "#7e7e7e",
-            "name": "Debbie Johnstone",
-            "marker-size": "medium",
-            "marker-symbol": ""
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               4.686126261949539,
-               50.162324321993545
             ]
          }
       },
@@ -1549,6 +1546,19 @@
             32.755489
         ]
     }
-}
-   ]
+},
+   {
+      "type": "Feature",
+      "properties": {
+        "name": "Nicole Comber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.473615646362305,
+          -34.52202731922037
+        ]
+      }
+    }
+  ]
 }

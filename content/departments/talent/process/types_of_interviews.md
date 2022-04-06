@@ -12,14 +12,15 @@ We strive for consistency across all interviews.
 - **Recruiter Screen**
 - **Hiring Manager Screen**
 - Assignment, if applicable
-- In-depth Interview stage:
+- Team Interview stage:
   - Resume Deep Dive
   - Assignment review/working session, if applicable
   - Technical Interview, if applicable
   - **Cross-functional Team Collaboration Interview**
   - **Peer Interview**
-  - Leadership Interview
+- Final Interview stage:
   - **Values Interview**
+  - Leadership Interview
 - Reference checks / offer
 
 ## Structured interview questions
@@ -439,7 +440,7 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 - The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
 - First, we'd like to cover some general stuff:
   - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me and Debbie, etc.)
+  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me, etc.)
 - Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60–90 minute Q1 kickoff this February.
 - Q1 company kickoff
 - This of course takes hours of planning, but we’re just looking for a 60 minute conversation total (including the general stuff above). _You don't need to put together a full plan!_

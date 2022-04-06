@@ -243,13 +243,18 @@ ROLE_PERMISSIONS=(
 7. Create role for velero.server:
 
 ```
-gcloud iam roles create velero.server     --project $PROJECT_ID     --title "Velero Server"     --permissions "$(IFS=","; echo "${ROLE_PERMISSIONS[*]}")"
+gcloud iam roles create velero.server \
+  --project $PROJECT_ID \
+  --title "Velero Server" \
+  --permissions "$(IFS=","; echo "${ROLE_PERMISSIONS[*]}")"
 ```
 
 8. Connect Velero ServiceAccount with Velero server role:
 
 ```
-gcloud projects add-iam-policy-binding $PROJECT_ID     --member serviceAccount:$SERVICE_ACCOUNT_EMAIL     --role projects/$PROJECT_ID/roles/velero.server
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+  --member serviceAccount:$SERVICE_ACCOUNT_EMAIL \
+  --role projects/$PROJECT_ID/roles/velero.server
 ```
 
 9. Add Velero ServiceAccount permissions to the snapshot bucket:
@@ -267,7 +272,25 @@ gcloud iam service-accounts keys create credentials-velero --iam-account $SERVIC
 11. Install Velero on GKE Kubernetes:
 
 ```
-velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.4.0     --bucket sg-velero-preprod-backup     --secret-file ./credentials-velero
+velero install \
+  --provider gcp \
+  --plugins velero/velero-plugin-for-gcp:v1.4.0 \
+  --bucket sg-velero-preprod-backup \
+  --secret-file ./credentials-velero \
+  --velero-pod-cpu-limit=1 \
+  --velero-pod-cpu-request=1 \
+  --velero-pod-mem-limit=512Mi \
+  --velero-pod-mem-request=512Mi
+```
+
+12. To prevent Velero from blocking cluster autoscaling, the pod should be deployed with a QoS of `Guaranteed`. To achieve this, the initContainer needs to have its resources set as well, which cannot be done with CLI flags, so patch the deployment:
+
+```
+kubectl patch deploy velero -n velero --type json -p='[
+{"op": "replace", "path": "/spec/template/spec/initContainers/0/resources/requests/memory", "value":"512Mi"},
+{"op": "replace", "path": "/spec/template/spec/initContainers/0/resources/limits/memory", "value":"512Mi"},
+{"op": "replace", "path": "/spec/template/spec/initContainers/0/resources/requests/cpu", "value":"1"},
+{"op": "replace", "path": "/spec/template/spec/initContainers/0/resources/limits/cpu", "value":"1"}]'
 ```
 
 Note: installation instructions for [Velero cli](https://velero.io/docs/v1.8/basic-install/)
