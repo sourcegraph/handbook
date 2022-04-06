@@ -8,29 +8,51 @@ Its purpose it not to replace existing [monitoring and alerting](../../../engine
 
 - metrics
 - logs
-- APM
-- traces
+- APM & traces
 - RUM (real user monitoring)
 - etc.
 
+## Content
+
+- [Login to Datadog](#login)
 - [Use cases for Datadog](#use-cases)
-  - [Metrics and dashbords](#metrics)
+  - [Dashboards](#dasboards)
+  - [Metrics](#metrics)
   - [Explore logs](#logs)
-  - [APM](#apm)
-  - [Traces](#traces)
+  - [APM and traces](#apm-and-traces)
   - [Syntetict tests](#syntectic-tests)
   - [Real User Monitoring](#real-user-monitoring)
 
-## Use cases
+# Login
+
+Datadog can be accessed through Okta at [this link](https://app.datadoghq.com/)
+
+# Use cases
+
+## Dasboards
+
+[Datadog documentaion](https://docs.datadoghq.com/dashboards/)
+
+All available dashboards can be access [here](https://app.datadoghq.com/dashboard/lists).
+
+DevOps team is using [Cloud Uptime](https://app.datadoghq.com/dashboard/xjm-eb6-rdn/cloud-uptime) as overall Cloud Production overview.
 
 ## Metrics
 
+[Datadog documentaion](https://docs.datadoghq.com/metrics/)
+
 ## Logs
 
-## APM
+[Datadog documentaion](https://docs.datadoghq.com/logs/explorer/)
 
-## Traces
+## APM and traces
+
+[Datadog documentaion](https://docs.datadoghq.com/tracing/#explore-datadog-apm)
 
 ## Syntectic tests
 
+[Datadog documentaion](https://docs.datadoghq.com/synthetics/)
+
 ## Real User Monitoring
+
+[Datadog documentaion](https://docs.datadoghq.com/real_user_monitoring/)
