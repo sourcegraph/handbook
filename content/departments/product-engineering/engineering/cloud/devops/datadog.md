@@ -22,6 +22,7 @@ Its purpose is not to replace existing [monitoring and alerting](../../../engine
   - [APM and traces](#apm-and-traces)
   - [Syntetict (browser) tests](#syntectic-tests)
   - [Real User Monitoring](#real-user-monitoring)
+  - [Alerting](#monitors)
 
 ## Login
 
@@ -58,3 +59,11 @@ DevOps team is using [Cloud Uptime](https://app.datadoghq.com/dashboard/xjm-eb6-
 ### Real User Monitoring
 
 [Datadog documentation](https://docs.datadoghq.com/real_user_monitoring/)
+
+### Monitors
+
+Monitors are used to notify teams and manage alerts at a glance on the Alerting platform.
+
+[Datadog documentation](https://docs.datadoghq.com/monitors/)
+
+[Sample Smoke tests monitor](https://app.datadoghq.com/monitors/61774211)
