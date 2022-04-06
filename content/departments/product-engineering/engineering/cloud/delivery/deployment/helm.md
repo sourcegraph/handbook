@@ -46,9 +46,6 @@ In the event you need assistance from Delivery, please gather the following info
 - Content of override files: The customer can redact sensitive information if there's any
 - Any other logs or helpful information you think it's helpful
 
-[deployments]: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
-[statefulsets]: https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
-
 ## Helm GA Q&A
 
 #### What does GA mean here?
