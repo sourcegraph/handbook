@@ -2,13 +2,19 @@
 
 Hello, I’m Jason Yavorska and I’m the Product Director for Code Graph. You can also see my [bio on the team page](../../../../team/index.md#jason-yavorska) for more info about me.
 
-## Logistics
+## How and when to get my help
 
-- When managing Product Managers, I see myself in a coach/mentoring role with them with them as the visible experts. What I'll spend the rest of my time on is connecting dots (so I can inform my team), making sure we collaborate efficiently, and otherwise building/hiring a great group of people. This means that I'll typically work behind the scenes and avoid taking over; if you think it's helpful for me to do that in a specific situation, it's not a problem at all but please be direct and let me know.
-- I tend to be good at unblocking, helping break down problems into iterations, and generally helping move things forward—let me know if I can ever help you.
-- I always appreciate direct feedback, so don't worry about upsetting me and feel free to share bad news early.
-- I'm more likely to be optimistic than not, with a plan that we'll figure it out what we need to when we need to, so feel free bring me back to reality.
-- I tend to debate different perspectives to solve problems, including playing "Devil's Advocate". If that puts you off that's fine—just tell me and we’ll use another approach.
+I'm here to help multiply your efforts and streamline your workloads effectively. This [Twitter thread](https://twitter.com/jmwind/status/1493569303030816770) summarizes how I think about this very nicely and I'd encourage you to read it if you report to me. I also wrote [this summary](https://about.gitlab.com/handbook/product/product-leadership/#product-managerleader-collaboration) when I was at GitLab, which I still stand by. A few key points, though:
+
+- When managing Product Managers, I see myself in a coach/mentoring role with them with them as the visible experts. What I'll spend the rest of my time on is connecting dots, alignment, making sure we collaborate efficiently, and otherwise building/hiring a great group of people. This means that I'll typically work behind the scenes and avoid taking over. If you think it is helpful for me to do that in a specific situation, it's not a problem at all but please be direct and let me know.
+- There’s nothing that will bother me or I won’t think you’re doing your job if you ask me to help with. This includes handing basic things you own when you’re overloaded for example. I just need you to clearly ask, and from my side we don’t need to have pre-agreed on topics where I’ll be available to help.
+- Possibly the single most important thing that we work on together each month is our strategy page updates - this is where we "pair program" on our strategy together, and it is how we maintain alignment on what's important. See the Twitter thread linked above for more information on why alignment on strategy is so important.
+- I tend to be good at unblocking, helping break down problems into iterations, and generally helping move things forward—let me know if I can ever help with this.
+- I'm also good at helping with escalations; preparing for them, facilitating them, or heading them off.
+- I'm also responsible for sharing any information I hear from the leadership team, I typically do this in #code-graph-em-pm-design.
+- My [goals and time breakdown](https://docs.google.com/document/d/1wulP_lPfoCLTIpIqcGDJIocHRDsmS3hPqQ-exkyIdSs/edit?pli=1#) are public, and if you have something that fits in with those you can reach out any time. This includes things like proactively unblocking, coaching, hiring, and more.
+
+In general, when working with me I always appreciate direct feedback so don't worry about upsetting me and feel free to share bad news early. I'm also more likely to be optimistic than not, with a plan that we'll figure it out what we need to when we need to, so feel free bring me back to reality. Finally, I tend to debate different perspectives to solve problems, including playing "Devil's Advocate". If that puts you off that's fine—just tell me and we’ll use another approach.
 
 ## Reference
 
@@ -18,6 +24,7 @@ These are some of my favorite product principles.
 - I like to follow the [reasonable person principle](http://www.cs.cmu.edu/~weigand/staff/).
 - I have learned that working on things [iteratively](https://about.gitlab.com/handbook/values/#iteration) tends to get the best results.
 - Talking to customers in a way where they tell you the truth about what they actually are willing to pay for is a subtle skill. This [video](https://www.youtube.com/watch?v=MT4Ig2uqjTc) and [book](http://momtestbook.com/) can help you learn to do that better.
+- Organizations really are [like slime molds](https://komoroske.com/slime-mold/). This ties into this [Twitter thread](https://twitter.com/jmwind/status/1493569303030816770) also linked above on why alignment is so important.
 
 ## Management Style
 
