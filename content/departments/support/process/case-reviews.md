@@ -7,7 +7,7 @@ These practices are:
 - Peer reviews (similar to the idea of code reviews)
 - Manager reviews (which include self-review)
 
-## Peer reviews (Weekly cadence, bi-weekly at inception)
+## Peer reviews (bi-weekly cadence)
 
 This is similar to the idea of code reviews in the sense that application engineers would review cases for their teammates based on our [guiding principles](../index.md#guiding-principles) and the [individual measures of success](../index.md#as-an-individual-application-engineer) for the role.
 
@@ -56,11 +56,3 @@ The outcome of this practice would be that each application engineer:
 ## Putting it all together
 
 The long-term (ongoing) outcome of having both these practices in place would be that each application engineer would receive a minimum of four (4) peer reviews (two for a start) and two (2) self-review and manager reviews each month. This, I believe would set the team up nicely to achieve [Key Result 1](../strategy-goals/FY22Q4-OKR-Plan.md#kr1) from our FY22Q4 [OKRs](../strategy-goals/FY22Q4-OKR-Plan.md).
-
-## Next Steps
-
-Below are the next steps I anticipate on the journey to kicking off these practices.
-
-- Kickoff practice (bi-weekly peer review cycle) on Monday, 2021-12-13
-- Review practice during CS Planning/Retro of Wednesday on, 2022-01-19
-- Decide kickoff date (weekly peer review cycle) based on feedback from retro
