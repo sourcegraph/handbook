@@ -20,7 +20,7 @@ Its purpose it not to replace existing [monitoring and alerting](../../../engine
   - [Metrics](#metrics)
   - [Explore logs](#logs)
   - [APM and traces](#apm-and-traces)
-  - [Syntetict tests](#syntectic-tests)
+  - [Syntetict (browser) tests](#syntectic-tests)
   - [Real User Monitoring](#real-user-monitoring)
 
 # Login
@@ -52,6 +52,8 @@ DevOps team is using [Cloud Uptime](https://app.datadoghq.com/dashboard/xjm-eb6-
 ## Syntectic tests
 
 [Datadog documentaion](https://docs.datadoghq.com/synthetics/)
+
+[Cloud production Smoke tests example](https://app.datadoghq.com/synthetics/details/iis-dve-hzw)
 
 ## Real User Monitoring
 
