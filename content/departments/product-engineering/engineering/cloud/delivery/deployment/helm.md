@@ -80,7 +80,11 @@ Not only is this much better for deployment as it’s much simpler than forking 
 
 #### How should we position Helm to customers?
 
-We recommend Helm as _**the**_ best method for deploying Sourcegraph.
+We recommend Helm as _**the**_ best method for deploying Sourcegraph. However, it's still early for Sourcegraph and Helm, so if a customer is unfamiliar with Helm and more comfortable with our other deployment/configuration methods, we suggest not pushing hard for them to use Helm. 
+
+There is the possibility that customers will find that the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/values.yaml) file lacks the customizations they need (though worth reiterating that editing that file is not the method for customizing - [see here](https://docs.sourcegraph.com/admin/install/kubernetes/helm#configuration)). So it's strongly recommended that CE familiarize themselves with what _is_ currently covered, and try to identify anything outside of it (and let Delivery know) as early as possible in the scoping process.
+
+In the event we can't add the required customization to the chart, we do support two methods of configuration that offer an alternative to forking the repo – these are using Kustomize on top of Helm, or creating a sub chart. [Read more about both here](https://docs.sourcegraph.com/admin/install/kubernetes/helm#advanced-configuration)
 
 If a customer is willing and able to use Helm, the configuration, deployment and upgrade processes are all easier and more straightforward than with either Kustomize, plain Kubernetes, or Docker Compose.
 
@@ -141,9 +145,9 @@ If a customer needs additional features not included in the chart, it needs to b
 
 Not yet, but it’s planned for FY23-Q2/3.
 
-Instead, it should be used on a new installation if a customer really wished to move to Helm.
+Instead, it should be used on a new installation if a customer really wishes to move to Helm.
 
-If a customer wishes to try and convert themselves, any customizations will need to be converted to a override file ([see here for more info](https://docs.sourcegraph.com/admin/install/kubernetes/helm#configuration)). The [sourcegraph/examples folder](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-helm/-/tree/charts/sourcegraph/examples) in the deploy-sourcegraph-helm repo has some samples of commonly modified values that can be used as a starting point.
+We strongly recommend against customers trying to undertake the conversion themselves. There are breaking changes between Kustomize and Helm (especially if they aren't already using the non-privileged overlay). 
 
 #### Can a customer who’s written their own Helm chart migrate to ours?
 
@@ -161,4 +165,6 @@ Yes - with the helm deployment, the Sourcegraph cluster defaults to running as n
 
 That’s very dependent on customer requests, but the ones we have in mind include:
 
-- TODO
+No specific customizations are currently planned—customer feedback here is going to direct most of our efforts—though we are considering some general improvements to the usability of the chart - i.e., automatically setting environment variables based on different settings. For example, automating the configuration in https://docs.sourcegraph.com/admin/external_services/object_storage.
+
+Please let us know **_any and all_** feedback you get!
