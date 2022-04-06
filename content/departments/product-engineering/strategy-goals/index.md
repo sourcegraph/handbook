@@ -53,6 +53,8 @@ One difference between this year and last is that we anticipate more competition
 - Leaning into our use cases not only helps us reach new devs, but also helps demonstrate the unique value of Sourcegraph relative to other entrants into the market.
 - Competition should inspire us to do even better by our customers. There's no shame in copying (our competitors are definitely copying us!), but we won't copy for copying's sake—everything we do must be with an eye toward providing the greatest value for our customers.
 
+For those particularly interested in understanding more about competitive frameworks as they apply to Sourcegraph, there is also [this internal document](https://docs.google.com/document/d/1BahpQNdVtg2guhoZ9Jvv0yhhENIQm5dTNjsKMCc7r4k/edit#heading=h.9dsgkokut1e1). 
+
 ## See also
 
 - [Company strategy for FY23](../../../strategy-goals/strategy/index.md#this-year-fy23)
