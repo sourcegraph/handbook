@@ -23,6 +23,8 @@ Its purpose is not to replace existing [monitoring and alerting](../../../engine
   - [Syntetict (browser) tests](#syntectic-tests)
   - [Real User Monitoring](#real-user-monitoring)
   - [Alerting](#monitors)
+- [Managing Datadog resources](#managing-datadog-resources)
+- [FAQ](#faq)
 
 ## Login
 
@@ -46,6 +48,9 @@ DevOps team is using [Cloud Uptime](https://app.datadoghq.com/dashboard/xjm-eb6-
 
 [Datadog documentation](https://docs.datadoghq.com/logs/explorer/)
 
+[Facets](https://docs.datadoghq.com/logs/explorer/facets/) are are user-defined tags and attributes from indexed logs.
+They allow to query, group and aggregate logs by faceted fields.
+
 ### APM and traces
 
 [Datadog documentation](https://docs.datadoghq.com/tracing/#explore-datadog-apm)
@@ -67,3 +72,12 @@ Monitors are used to notify teams and manage alerts at a glance on the Alerting 
 [Datadog documentation](https://docs.datadoghq.com/monitors/)
 
 [Sample Smoke tests monitor](https://app.datadoghq.com/monitors/61774211)
+
+## Managing Datadog resources
+
+The idea is to use [terraform datadog provider](https://registry.terraform.io/providers/DataDog/datadog/latest/docs) to persist state of all resources.
+
+### FAQ
+
+1. Cannot search and group logs by field from the log.
+   - Ensure that field is a [facet](https://docs.datadoghq.com/logs/explorer/facets/#create-facets).
