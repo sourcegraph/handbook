@@ -31,7 +31,7 @@ Datadog can be accessed through Okta at [this link](https://app.datadoghq.com/)
 
 ## Dasboards
 
-[Datadog documentaion](https://docs.datadoghq.com/dashboards/)
+[Datadog documentation](https://docs.datadoghq.com/dashboards/)
 
 All available dashboards can be access [here](https://app.datadoghq.com/dashboard/lists).
 
@@ -39,22 +39,22 @@ DevOps team is using [Cloud Uptime](https://app.datadoghq.com/dashboard/xjm-eb6-
 
 ## Metrics
 
-[Datadog documentaion](https://docs.datadoghq.com/metrics/)
+[Datadog documentation](https://docs.datadoghq.com/metrics/)
 
 ## Logs
 
-[Datadog documentaion](https://docs.datadoghq.com/logs/explorer/)
+[Datadog documentation](https://docs.datadoghq.com/logs/explorer/)
 
 ## APM and traces
 
-[Datadog documentaion](https://docs.datadoghq.com/tracing/#explore-datadog-apm)
+[Datadog documentation](https://docs.datadoghq.com/tracing/#explore-datadog-apm)
 
 ## Syntectic tests
 
-[Datadog documentaion](https://docs.datadoghq.com/synthetics/)
+[Datadog documentation](https://docs.datadoghq.com/synthetics/)
 
 [Cloud production Smoke tests example](https://app.datadoghq.com/synthetics/details/iis-dve-hzw)
 
 ## Real User Monitoring
 
-[Datadog documentaion](https://docs.datadoghq.com/real_user_monitoring/)
+[Datadog documentation](https://docs.datadoghq.com/real_user_monitoring/)
