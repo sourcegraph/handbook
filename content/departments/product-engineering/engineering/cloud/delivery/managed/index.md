@@ -46,7 +46,7 @@ Customer Engineers (CE) or Sales may request to:
 
 1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
 2.  If approved, then CE submits a request to the Delivery team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
-4.  Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
+3.  Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
 
 ## SLAs for managed instances
 
