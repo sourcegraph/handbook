@@ -106,7 +106,7 @@ For changes to the Helm chart (for example, a customer wants to customize someth
 - Product category: Cloud
 - Subcategory: Delivery - Customer Deployments
 
-We do want a separare gap for each customization/change, as that allows us to prioritize each individually. Please do search and see if there's already a gap aligned with the customers needs. 
+We do want a separare gap for each customization/change, as that allows us to prioritize each individually. Please do search and see if there's already a gap aligned with the customers needs.
 
 It's also worth pinging us in [#Delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) if a product gap is time-sensitive - but please tag our PM (we're getting a new one on May 9th - so check [here](..) for who that is if unsure) and not the team (they don't have Salesforce access).
 
