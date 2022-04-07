@@ -112,9 +112,8 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Business Operations & Strategy](departments/bizops/index.md)
 
 - [Data and Analytics](departments/bizops/data-analytics.md)
-  - [Analytics](departments/bizops/analytics/index.md)  
+  - [Analytics](departments/bizops/analytics/index.md)
   - [Data Engineering](departments/bizops/data-engineering/index.md)
-
 
 ### [Finance & Accounting](departments/finance/index.md)
 
