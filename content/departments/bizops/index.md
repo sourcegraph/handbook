@@ -7,7 +7,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 - [Data and Analytics](../../departments/bizops/data-analytics.md)
 
   - [Analytics](analytics/index.md)
-  - [Data Operations](data-operations/index.md)
+  - [Data Engineering](data-engineering/index.md)
 
 - [Business Operations (BizOps)](business-operations/index.md)
 
