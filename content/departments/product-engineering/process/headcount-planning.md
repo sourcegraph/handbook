@@ -19,3 +19,7 @@ The source of truth for comitted current and future product and engineering head
 If you want to request engineering headcount for a future quarter, please add your request to [this document](https://docs.google.com/document/d/1Ggln2Jweb95ID6-aU8T5kM4D3QaAgLOUgyuOynAQzBc/edit#).
 
 To give our talent team enough lead time, and so that we can holistically evaluate needs across the entire engineering organization given a finite amount of headcount to allocate each quarter, headcount requests for a specific quarter need to be logged 15 weeks in advance of the start of that quarter.
+
+## Customer support
+
+While Customer Support adheres to these principles, headcount planning happens separate from this process given the dependency on our overall sales performance to necessitate most additional headcount.
