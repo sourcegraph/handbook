@@ -219,6 +219,7 @@ In pursuit of goals related to growth, the team will own or contribute to the fo
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
   - [IDE Extensions](ide-extensions/index.md)
+- [Triad Roles and Responsibilities](triad-roles-and-responsibilites.md)
 - [Role of sourcegraph.com/search in revenue generation](sourcegraph.com-and-revenue.md)
 - [Defining ‘growth team’](what-is-a-growth-team.md)
 - [Team history](team-history.md)

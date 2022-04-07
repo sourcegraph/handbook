@@ -28,9 +28,8 @@ Outreach and questions for the finance team can be asked in the #finance Slack c
 
 ## Goals
 
-### FY'22
+### FY'23
 
-- Introduce a financial forecasting and close process that allows for timely and accurate reporting
 - Introduce financial reporting tools / software that will support long term value to our financial reporting process
 - Continuously monitor and evaluate our financial reporting metrics to understand key trends, and determine if new metrics need to be introduced as the company grows
 - Become a trusted business partner to all non Finance team members at Sourcegraph
@@ -45,12 +44,12 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 **Fiscal years that don't align with calendar years (such as our fiscal year) are referred to by the year in which the period ends**.
 
-### Fiscal year 2022
+### Fiscal year 2023
 
-- **FY22 Q1**: 01 February, 2021–30 April, 2021
-- **FY22 Q2**: 01 May, 2021–31 July, 2021
-- **FY22 Q3**: 01 August, 2021–31 October, 2021
-- **FY22 Q4**: 01 November, 2021–31 January, 2022
+- **FY23 Q1**: 01 February, 2022–30 April, 2022
+- **FY23 Q2**: 01 May, 2022–31 July, 2022
+- **FY23 Q3**: 01 August, 2022–31 October, 2022
+- **FY23 Q4**: 01 November, 2022–31 January, 2023
 
 ### Sources of truth
 
@@ -58,9 +57,9 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 - Metrics
   - Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
   - [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
-  - [Annualized net retention](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
-  - [Payback period & CAC efficiency](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
-  - [Burn ratio & ARR per employee](https://docs.google.com/spreadsheets/d/1mO0Sx8hv-RKZkwgF-6HWjQnCbGmowdvej9DuntKleNs/edit#gid=0)
+  - Annualized net retention - Refer to latest board meeting material
+  - Payback period & CAC efficiency - Refer to latest board meeting material
+  - Burn ratio & ARR per employee- Refer to latest board meeting material
 
 ## Definitions
 
@@ -108,15 +107,69 @@ Calculation: (Beginning period ARR + existing customer expansion - churn/contrac
 
 For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%.
 
-## Financial Planning and Financial Statement Review
+## FY23 Budget
 
-We update our financial plan on a quarterly basis. Our plan covers a twelve-month period and is focused on providing insights into working capital management, as well as predicting and understanding key trends within our business.
+The FY23 plan was communicated, and approved, by the Board, at January 22, 2022. You can see the details of the plan [Here](https://docs.google.com/presentation/d/1lpLVcSnMQxtShbrB2w4GfX_V70mPkiS12lFHsRDCGgk/edit#slide=id.g7d2aea8729_0_0). At the time of completing this plan, the expected company headcount as of year end FY22 was 252. The plan approved for an addition of 130 heads in FY23 meaning that we will exit FY23 with 382. The plan also captures significant growth for year on year investment in our marketing program spend, software spend, and professional services spend. The plan was built following detailed consultation and input from our Leadership team. We focused on the key questions:
 
-We work with the head of each department in order to update the financial plan.
+- Where do we need to invest dollars in order to deliver incremental ARR?
+- Where do we need to invest dollars in order to stay ahead of our competition?
+- What other investments do we need to make in order to ensure that the business can operate efficiently and effectively, whilst maintaining ambitious growth targets?
 
-Following month two of every quarter, we complete a detailed dive in the current quarter actuals versus plan. Our philosophy is to compare our forecasts to results, so that we can constantly improve our forecasting methodologies and approaches to hold ourselves accountable. Additionally, this process drives accountability to the business owners of the budget. We focus on variances that exceed both 5% and $20k thresholds. We use this exercise to determine completeness over our financial statement close process, and also to understand if there is any activity causing fluctuations that we will need to revise on a go-forward basis. This exercise is completed at week 3 and 4 of the Month 3, in a given quarter. Once the quarter is closed, we also complete a detailed review of our plan vs. actual results. This analysis is completed at both a departmental level and a GL account level. We provide detailed explanations for variances that exceed both 5% and $20k thresholds.
+When reviewing and finalizing our plan, we met with our investors and leveraged benchmark guidance that they were able to provide on companies who are experiencing similar growth, opportunities and challenges. We used these benchmarks to gauge our growth and spend versus this peer group.
 
-We also complete a balance sheet review. This review is focused on providing analysis on key financial statement line items such as Cash, AR, AP, Accruals, and Deferred Revenue. We have a number of methods for analyzing the activity on these accounts.
+**How the plan was built**
+
+The FY23 plan was built at a departmental level. We have 9 departments:
+
+| Department           | Department (Budget owner) |
+| -------------------- | ------------------------- |
+| R&D Engineering      | Nick Snyder               |
+| R&D Product          | Christina Forney          |
+| Marketing            | Kacie Jenkins             |
+| Sales                | Gregg Stone               |
+| Customer Support     | Virginia Ulrich           |
+| Customer Engineering | Aimee Menne               |
+| Operations           | Dan Adler                 |
+| Talent & People-ops  | Carly Jones               |
+| Exec                 | Connor O' Brien           |
+
+Within each department, there are also cost centers. The cost center structure can be viewed within Bamboo. The FY23 plan was built by allocating and reviewing costs at the cost center level. This structure allowed us to be more detailed and analytical in our investment plan.
+
+**How we will monitor performance versus plan**
+
+Following each month end at FY23, the finance team will share a reporting pack with the head of each department that will outline the following:
+
+- Cost (on a $ basis) versus plan for that month and for that quarter to date
+- Updated forecast for the remainder of fiscal quarter, and year, versus plan
+- Headcount versus plan
+- Company level metrics
+  - ARR vs plan
+  - Burn vs plan
+
+The above information will be shared via Google slides on business Day +8 following the monthly financial close. As part of this review process, Finance and Department leads will also evaluate our investments for the remainder of the fiscal year and determine if any adjustments are required. There are a number of scenarios that could require us to make an adjustment that would deviate from the plan. Some of these might include:
+
+- A marketing program has generated a significant amount of opportunities beyond expectation.
+- We want to allocate more dollars to this program.
+- Our Engineering and Product team believe that there is an opportunity to invest in a feature that will have a meaningful impact on our ARR growth.
+- We see inbound activity beyond what was planned and we need to adjust the hiring plan for the sales team.
+- Our pace of growth is negatively impacted by adverse macroeconomic conditions. We determine that spending refinements are required in order to manage and maintain our forecasted cash position.
+
+The monthly review that will take place between Finance and Department leads should identify the gaps and opportunities that exist. Any adjustments will be documented and provided to the VP of Operations who will provide final sign-off.
+
+**Adjustments to investment plan outside of monthly review cycle**
+
+Our goal is to ensure financial discipline, however, as a Finance team, we also do not want to constrain growth, or be slow to react when we determine that a team is lacking resources and is under prolonged pressure. We understand that there will be certain occasions where department leads may wish to make an adjustment to their budget. When a department lead determines that it is necessary to complete an off cycle adjustment to the budget, please provide the following detail:
+
+- If headcount related, please provide the following information:
+  - complete the [headcount change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/formResponse)
+- If non- headcount related, please provide the following information:
+  - What is the product, service that we are looking to purchase?
+  - What is the purpose of this product or service?
+  - Who from Sourcegraph will manage the vendor relationship?
+  - What is the business need for the adjustment to the budget?
+  - What is the opportunity loss if we do not proceed with this adjustment?
+
+For non Headcount related requests, the above detail should be provided to the finance team via the slack #vendor-request channel. The finance team will commit to respond within 24 hours.
 
 ### Process
 
@@ -147,3 +200,12 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 ### Fixed Assets
 
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)
+
+## Deal Desk
+
+Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components. We coordinate internal approvals of paperwork with other internal stakeholders in order to deliver compliant documents and we support throughout the deal closing process.
+
+- All requests should be submitted to the #deal-desk slack channel.
+- SLA: 1 business day.
+- Additional information: [Sales Resources](../../departments/sales/tools/salesresources.md)
+- For questions, please email us at: dealdesk@sourcegraph.com
