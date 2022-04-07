@@ -1,12 +1,13 @@
 # Data Engineering
 
 ## Current Capabilities
-  - Data Engineering
-  - Data Architecture
-  - Data Transformation
-  - Maintenance
-  - Tool Administration
-  - Monitoring/Alerts
+
+- Data Engineering
+- Data Architecture
+- Data Transformation
+- Maintenance
+- Tool Administration
+- Monitoring/Alerts
 
 ## Data sources
 
