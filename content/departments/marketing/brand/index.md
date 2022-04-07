@@ -20,9 +20,8 @@ We value: <br>
 
 - **Consistency** - Presenting Sourcegraph in a unified way amplifies our voice <br>
 - **Agility** - Moving fast, delegating, and adapting will bring us to our goals quickly <br>
-- **Creativity** - Having a strong Brand Foundation enables us explore new concepts that delight our audience  <br>
+- **Creativity** - Having a strong Brand Foundation enables us explore new concepts that delight our audience <br>
 - **Measurement** - Everything we do has a “why” behind it <br>
-
 
 The Brand Team works closely with teams at every level of the organization, and is a key stakeholder in overall company messaging, strategy, and engagement initiatives, as well as internally-facing messaging and branded programs or experiences.
 
@@ -57,14 +56,12 @@ _Design Strategy & Review_
 - Presentation graphics, layout and design
 - Print design and production, marketing collateral, swag
 
-
 _Website/Digital Experience Strategy & Review_
 
 - Website design, page design, campaign and landing pages, microsites
 - Interactive design, incl. data visualization and infographics
 - Email design and copywriting review
 - Digital creative strategy
-
 
 ## Brand Request Forms
 
