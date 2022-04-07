@@ -49,6 +49,8 @@ To book the product manager to help a customer or prospect set up insights, or t
 
 ## Marketing
 
+### [Quick list of how Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#heading=h.xern6pnzakek)
+
 ### [Product marketing brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) _internal_
 
 An overview of the target audience, problem, solution, and go-to-market strategy.
