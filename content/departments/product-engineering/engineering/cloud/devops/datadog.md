@@ -77,6 +77,8 @@ Monitors are used to notify teams and manage alerts at a glance on the Alerting 
 
 The idea is to use [terraform datadog provider](https://registry.terraform.io/providers/DataDog/datadog/latest/docs) to persist state of all resources.
 
+[Terraform implementation](https://github.com/sourcegraph/infrastructure/pull/3211) (in progress)
+
 ### FAQ
 
 1. Cannot search and group logs by field from the log.
