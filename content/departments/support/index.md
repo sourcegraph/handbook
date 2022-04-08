@@ -72,6 +72,8 @@ We are a [customer-first company](../../company-info-and-process/values/customer
 
 ### Customer Engineers (CEs)
 
+See [this FAQ](process/ce-faq.md) for guidance for specific situations.
+
 - **How support adds value to CE:** Support helps customers both pre- and post-sales, and allowing CEs to do more proactive work by taking on the reactive technical troubleshooting work when customers experience issues.
 - **How CE adds value to support:** CE has nuanced context that is valuable to how support works with a customer; CE can also help clarify / remind customers we need information (during regularly scheduled calls) on the more tricky issues.
 - **Collaboration overview:** We can think of CE and support as work best friends, working closely together every day, primarily communicating in Slack. CEs (or others -- including customers -- but primarily CEs) may engage support at any point during the pre-sales and post-sales process to share context to help support best serve our customers.
@@ -136,6 +138,7 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Business continuity](process/business-continuity-plan.md)
 - [Cloud Maintenance Window Process](process/cloud-maintenance-window.md)
 - [Change Management Checklist](process/change-management-checklist.md)
+- [FAQ for CEs](process/ce-faq.md)
 
 ## SLAs
 
