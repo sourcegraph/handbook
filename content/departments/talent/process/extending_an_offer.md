@@ -14,7 +14,7 @@
 
 - Learn more about our reference check philosophy [here](../process/reference_check_questions.md)
 
-**Step 2**: the Recruiter confirms level and compensation.
+**Step 2**: the Recruiter confirms level and compensation via Slack with Hiring Manager, Department Head, and Director, Technical Recruiting (if applicable).
 
 - [Compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation).
 
