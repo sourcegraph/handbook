@@ -87,7 +87,7 @@ This month, you will also switch to active participation in operational rotation
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
-- [How gitserver works](../enablement/repo-management/how-gitserver-works)
+- [How gitserver works](https://handbook.sourcegraph.com/departments/product-engineering/engineering/enablement/repo-management/how-gitserver-works/)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
