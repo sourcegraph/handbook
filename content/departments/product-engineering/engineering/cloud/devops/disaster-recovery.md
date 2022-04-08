@@ -280,7 +280,8 @@ velero install \
   --velero-pod-cpu-limit=1 \
   --velero-pod-cpu-request=1 \
   --velero-pod-mem-limit=512Mi \
-  --velero-pod-mem-request=512Mi
+  --velero-pod-mem-request=512Mi \
+  --pod-annotations "cluster-autoscaler.kubernetes.io/safe-to-evict"="true"
 ```
 
 12. To prevent Velero from blocking cluster autoscaling, the pod should be deployed with a QoS of `Guaranteed`. To achieve this, the initContainer needs to have its resources set as well, which cannot be done with CLI flags, so patch the deployment:
