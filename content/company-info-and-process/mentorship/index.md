@@ -1,8 +1,6 @@
 # Find a mentor, Be a mentor!
 
-> NOTE: The mentorship program will officially open to all Sourcegraph employees on **Monday, April 11th**.
->
-> **Call for mentors.** Anyone can be a mentor! Consider submitting a _[mentor profile](https://forms.gle/CUWbzL9KMLuXFzhv5)_ for yourself to appear on our mentors bulletin board.
+> NOTE: The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK), or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
 
 ## Introduction
 
@@ -46,8 +44,6 @@ You can reach the mentorship program champions by tagging @mentorship-champions 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 
 ## For mentees
-
-> NOTE: The mentorship program will officially open for prospective mentees on **Monday, April 11th**.
 
 _If you are seeking **sponsorship**, such as to transition teams or roles within Sourcegraph, it’s important to bear in mind that while every mentor can offer guidance and encouragement, not every mentor can offer advocacy or opportunity. We recommend that you start a conversation with your manager, first, and talk with a potential mentor about your goals before committing to anything long-term._
 
