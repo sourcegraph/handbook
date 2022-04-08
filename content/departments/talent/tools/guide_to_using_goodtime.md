@@ -2,4 +2,4 @@
 
 ## What is GoodTime?
 
-(Coming soon) 
+(Coming soon)
