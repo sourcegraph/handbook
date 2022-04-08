@@ -60,7 +60,7 @@
 
 - **Accountable**: PM
 - **Responsible**: PM / Team
-- **Expectations**: The PM is accountable for ensuring that feedback is acquired, shared, stored, and categorized in a way that can be used to inform future decisions. This includes storing it in ProductBoard, adding any associated labels, features, and ensuring everyone know how to do this. The team should feel empowered to add any feedback they encounter from any sources they see.
+- **Expectations**: The PM is accountable for ensuring that feedback is acquired, shared, stored, and categorized in a way that can be used to inform future decisions. This includes storing it in ProductBoard, adding any associated labels, features, and ensuring everyone knows how to do this. The team should feel empowered to add any feedback they encounter from any sources they see.
 
 #### Identifying areas needing research
 
@@ -130,25 +130,25 @@
 
 - **Accountable**: PM
 - **Responsible**: Team
-- **Expectations**: PM is accountable for ensuring we align with high-level company goals. EM is expected to work closely with PM to ensure we progress towards it and inform on technical details. The team should be proposing issues and priorities for an iteration.
+- **Expectations**: PM is accountable for ensuring we align with high-level company goals. The EM is expected to work closely with PM to ensure we progress towards it and inform on technical details. The team should be proposing issues and priorities for an iteration.
 
 #### Capacity planning
 
 - **Accountable**: EM
 - **Responsible**: Team
-- **Expectations**: EMs are accountable for making sure we balance the roadmap items and passive items (backlog/tech debt) with engineering capacity
+- **Expectations**: The EM is accountable for making sure we balance the roadmap items and passive items (backlog/tech debt) with engineering capacity
 
 #### Ticket refinement (scoping, measures of success)
 
 - **Accountable**: EM
 - **Responsible**: PM
-- **Expectations**: EMs are accountable for ensuring the GitHub issues have all the required information for engineers to pick up and get started.
+- **Expectations**: The EM are accountable for ensuring that GitHub issues have all the required information for engineers to pick up and get started.
 
 #### Dependency management / logistics
 
 - **Accountable**: PM
 - **Responsible**: EM
-- **Expectations**: On simple cross-team engineering dependencies, EMs working with other EMs generally work just fine. On larger roadmap impacting items, the PMs should lead the coordination efforts as they are accountable for the corresponding teams' roadmap.
+- **Expectations**: On simple cross-team engineering dependencies, the EM working with other EMs generally work just fine. On larger roadmap impacting items, the PM should lead the coordination efforts as they are accountable for the corresponding teams' roadmap.
 
 ### Iteration Execution
 
@@ -216,7 +216,7 @@
 
 - **Accountable**: EM
 - **Responsible**: EM
-- **Expectations**: EM is responsible for the career development of all the engineers. PMs proactively sharing feedback regarding areas of growth and observations is highly encouraged.
+- **Expectations**: EM is responsible for the career development of all the engineers. The PM proactively sharing feedback regarding areas of growth and observations is highly encouraged.
 
 #### Team morale
 
