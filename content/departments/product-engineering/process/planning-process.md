@@ -8,7 +8,6 @@ This page describes how we define & continuously refine our product/engineering 
 - Changes/updates to OKRs can and should be made throughout the quarter when necessary
 - Creation of roadmap items or updates to existing roadmap is owned by individual teams
 - We rely on the EM & PM to communicate any significant changes in scope of work or delivery of work to the appropriate stakeholders
-- We have a dedicated facilitator for planning in each quarter; for FY23 Q2, it will be [Serina Clark](../../../team/index.md#serina-clark)
 
 ## Artifacts
 
@@ -45,7 +44,7 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
     - Do not need to represent the sum of what everyone is doing
 - **Drivers:** Prod/eng directors
 - **Approvers:** [Christina Forney](../../../team/index.md#christina-forney) & [Nick Snyder](../../../team/index.md#nick-snyder)
-- **Key input providers:** EMs, Customer Support Managers, & PMs
+- **Key input providers:** Engineering Managers, Customer Support Managers, Product Design Managers, and Product Managers
 - **Due date:** By start of quarter the final department OKRs are updated in the artifacts below as well as communicated in #product-eng-directors; [6 weeks prior to the quarter boundary](#6-weeks-before) we begin drafting OKRs for the following quarter
 - **Form of artifact:**
   - While we are collaborating on quarterly department OKRs we will use a Google doc
