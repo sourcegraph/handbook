@@ -63,7 +63,7 @@ Your onboarding experience is expected to take three months, after which you wil
 
 ### First Month
 
-The theme for the first month is learning about your team. Primarily your teammates and domain knowledge. We operate as a team and having 1:1s with team members, learning your way around our Slack channels and the handbook are important to your success. Make sure you finish up your Process Street tasks as well. The domain knowledge includes getting Sourcegraph up and running as well as learing the architecture of Zoekt and our application. There will be a video session for the architecture. Domain knowledge also includes processes and getting familiar with our code base. Use Sourecegraph to learn more about our software (use case [developer onboarding](https://handbook.sourcegraph.com/strategy-goals/strategy/use-cases/dev-onboarding))! Build and share out a notebook, update our onboarding page with what you learn and make it better for the next person. You will also get a story that you will complete, either solo or by pairing, and commit to our code base.
+The theme for the first month is learning about your team. Primarily your teammates and domain knowledge. We operate as a team and having 1:1s with team members, learning your way around our Slack channels and the handbook are important to your success. Make sure you finish up your Process Street tasks as well. The domain knowledge includes getting Sourcegraph up and running as well as learing the architecture of Zoekt and our application. There will be a video session for the architecture. Domain knowledge also includes processes and getting familiar with our code base. Use Sourecegraph to learn more about our software (use case [developer onboarding](../../../../../strategy-goals/strategy/use-cases/dev-onboarding.md))! Build and share out a notebook, update our onboarding page with what you learn and make it better for the next person. You will also get a story that you will complete, either solo or by pairing, and commit to our code base.
 
 ### Second Month
 
@@ -87,7 +87,7 @@ This month, you will also switch to active participation in operational rotation
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
-- [How gitserver works](https://handbook.sourcegraph.com/departments/product-engineering/engineering/enablement/repo-management/how-gitserver-works)
+- [How gitserver works](../enablement/repo-management/how-gitserver-works)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
