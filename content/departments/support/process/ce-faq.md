@@ -1,6 +1,6 @@
 # FAQ for CE about how support works at Sourcegraph
 
-This page is for new members of our CE organization. It expands on the snippet summaries of how CE and CS work together found in [the CE section of the handbook](../../../departments/ce/team-culture), as well as [the CS section](index.md#how-we-intersect-with-other-teams). It translates [the support workflow](process/support-workflow.md) to something more relevant for the CE perspective. It is written question-answer style to make it a useful reference document beyond the onboarding phase.
+This page is for new members of our CE organization. It expands on the snippet summaries of how CE and CS work together found in [the CE section of the handbook](../../../departments/ce/team-culture), as well as [the CS section](index.md#how-we-intersect-with-other-teams). It translates [the support workflow](support-workflow.md) to something more relevant for the CE perspective. It is written question-answer style to make it a useful reference document beyond the onboarding phase.
 
 ## A customer needs help, which team should help them?
 
