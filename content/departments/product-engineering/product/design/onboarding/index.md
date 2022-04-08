@@ -35,7 +35,7 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
   - hallway-testing
 - Add yourself as a designer to the handbook pages of the teams you're working with. You can also add those teams to your Slack profile description, for ex. 'Product Designer (Code Insights)'
 - Get familiar with the products that we use as inspirations for reference in the developer tools industry:
-  - code hosts: [GitHub](https://github.com/) and [GitLab] (https://gitlab.com/)
+  - code hosts: [GitHub](https://github.com/) and [GitLab](https://gitlab.com/)
   - code editors: [VS Code](https://code.visualstudio.com/) (and other IDEs like [IntelliJ](https://www.jetbrains.com/idea/) and [Atom](https://atom.io/))
   - similar products: [grepp.app](https://grep.app/) and [cs.opensource.google](https://cs.opensource.google)
 - Read the [Product Design team handbook](../index.md), especially:
