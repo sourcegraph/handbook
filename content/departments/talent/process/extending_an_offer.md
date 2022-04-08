@@ -25,9 +25,9 @@
 **Step 4**: the Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
 
 - The offer start date **must** align with a [cohort start date](https://calendar.google.com/calendar/u/0?cid=Y182OTdwMnZyMnA3cmJnYzNrMTRiODAwc2gxZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), which take place every 2-weeks.
-  - If you need to start a Teammate on a non-cohort date, you must receive approval from Head of Talent and HR. To receive approval, please send a Slack to Head of Talent, Noemi and Ines with business case for starting on a non-cohort date.
+  - If you need to start a Teammate on a non-cohort date, you must receive approval from VP Talent. To receive approval, please send a Slack to VP Talent, Noemi and Ines with business case for starting on a non-cohort date.
 - Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
-- Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
+- Approval chain: Director, Technical Recruiting (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations and/or Manager, Financial Planning & Analysis.
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` or `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
   - If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 
@@ -35,7 +35,7 @@
 
 - Attendees: Recruiter, Hiring Manager, Candidate.
 - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
-- Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager and Talent Team Manager (if applicable) for review.
+- Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
 - Offer Summary call agenda:
   - The Hiring Manager kicks off the call to give the candidate feedback and tell why we’re excited about them.
   - The Recruiter then shares their screen to display the offer summary document.
@@ -44,7 +44,7 @@
   - Before ending the call, be sure to 1) determine a potential start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops) and 2) schedule a follow-up call to answer any questions.
 - COMING SOON: offer summary call script
 
-**Step 6**: following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager and VP Talent.
+**Step 6**: following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
 
 **Step 7**: once the candidate verbally accepts the offer, the Recruiter follows the below steps:
 
