@@ -1,11 +1,4 @@
-# Company wide directives and policies
-
-## Directives
-
-- [Teammate privacy and trust](../../departments/tech-ops/process/team_device_usage_privacy.md)
-- [Computer requirements](../../departments/tech-ops/tools/computer-setup.md)
-
-## List of policies
+# Company wide policies
 
 - [Access control policy](../policies/access-control-policy.md)
 - [Asset management policy](../policies/asset-management-policy.md)
@@ -13,6 +6,7 @@
 - [Code of conduct](../communication/code_of_conduct.md)
 - [Cryptography policy](../../departments/product-engineering/engineering/cloud/security/cryptography-policy.md)
 - [Data management policy](https://docs.google.com/document/d/1EteK_ftNhF8B_2G8BdSrW7xlehba_6yq)
+- [Device requirements](../../departments/tech-ops/tools/computer-setup.md)
 - [Security incident response policy](../../departments/product-engineering/engineering/cloud/security/security-incident-response.md)
 - [Information security policy](../policies/information-security-policy.md)
 - [Information security roles and responsibilities](https://docs.google.com/document/d/1lW8bdjeuefI4HLDwzgPxpejh5D020MWj)
