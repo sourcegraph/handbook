@@ -753,7 +753,7 @@ tj_devries:
 manuel_ucles:
   name: Manuel Ucles
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
+  reports_to: engineering_manager_devops
   location: Phoenix, AZ, USA 🇺🇸
   github: mucles
   email: manuel@sourcegraph.com
