@@ -7,8 +7,9 @@
 3. [Capabilities](#capabilities)
 4. [Brand Guidelines](brand_guidelines/index.md)
 5. [Brand Request Form](https://form.asana.com/?k=y-FQv_fKOOjQ5uRFmNXOFg&d=7195383522959)
-6. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
-7. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
+6. [Brand Asana Board](https://app.asana.com/0/1199711242382929/1199711242382929)
+7. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
+8. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
 
 ## Function, Vision, Mission, and Values
 
@@ -65,7 +66,7 @@ _Website/Digital Experience Strategy & Review_
 
 ## Brand Request Forms
 
-- [Brand Request Form](https://form.asana.com/?k=y-FQv_fKOOjQ5uRFmNXOFg&d=7195383522959)
+- [Brand Request Form](https://form.asana.com/?k=Zv_DWGDitZCYr0FXY3bvHg&d=7195383522959)
 
 ## Final thoughts
 
