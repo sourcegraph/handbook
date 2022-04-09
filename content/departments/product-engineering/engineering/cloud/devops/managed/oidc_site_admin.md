@@ -102,4 +102,4 @@ Add Sourcegraph Teammates as required. Use the convention for usernames and use 
 - Customer Support - Application Engineers
   - A subset of Application Engineers have access to managed instances. [They are listed in the Support Process page for Managed Instances](../../../../../support/process/support-managed-instances.md#accessing-managed-instances)
 - Delivery Team
-  - [All software engineers for on-call rotation](../../delivery/index.md#members)
+  - [All software engineers for on-call rotation](../../devops/index.md#members)

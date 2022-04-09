@@ -2,7 +2,7 @@
 
 ## How to calculate the cost of a managed instance
 
-> ⚠️ **IMPORTANT:** This provides a _rough estimate_ to the best of our ability, infrastructure pricing estimates are not trivial to do accurately and actual costs are always subject to change. The goal of this is to give you a rough estimate of costs, not an exact amount.<br><br>ℹ️ If unsure about anything with pricing for a managed instance, message `@delivery-support` in the [#delivery slack channel](https://sourcegraph.slack.com/archives/C02E4HE42BX) – ensure you include all the information needed for the resource calculator and any extra information about why you need help.
+> ⚠️ **IMPORTANT:** This provides a _rough estimate_ to the best of our ability, infrastructure pricing estimates are not trivial to do accurately and actual costs are always subject to change. The goal of this is to give you a rough estimate of costs, not an exact amount.<br><br>ℹ️ If unsure about anything with pricing for a managed instance, message `@devops-support` in the [#cloud-devops] – ensure you include all the information needed for the resource calculator and any extra information about why you need help.
 
 Several data points are needed to work out the cost:
 
@@ -63,3 +63,4 @@ The following summarizes the infrastructure costs incurred for a managed instanc
 | $6/mo + $0.75/million requests | [Cloud Armor](https://cloud.google.com/vpc/network-pricing#armor-pricing), one policy, one rule, and user-activity requests.                                                                                                      |
 | $1.42/GB                       | [Cloud Proxy](https://cloud.google.com/vpc/network-pricing#proxy-instance-charge), 3 are required.                                                                                                                                |
 | $0.12/GB                       | [Internet egress traffic](https://cloud.google.com/vpc/network-pricing#internet_egress) from `us-central1`.                                                                                                                       |
+[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG
