@@ -21,7 +21,7 @@ This team is responsible for
 
 - Continuous deployment of Sourcegraph.com
 - Cloud monitoring infrastructure (Prometheus / Grafana)
-- [Managed instances]((./managed/index.md))
+- [Managed instances](./managed/index.md)
 
 ## Members
 
