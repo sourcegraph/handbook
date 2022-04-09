@@ -113,9 +113,9 @@ All customer credentials, secrets, site configuration, app and user configuratio
 
 ### FAQ: Can customers disable the "Builtin username-password authentication"?
 
-No, this is required in order for Sourcegraph to access the instance and debug issues through the initial admin account.
+Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, it does not need to be used by the customer or their users at all. The default login method can be configured to their SSO provider of choice.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
 
 ### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
 
