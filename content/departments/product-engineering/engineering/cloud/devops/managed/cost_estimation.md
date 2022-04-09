@@ -63,4 +63,5 @@ The following summarizes the infrastructure costs incurred for a managed instanc
 | $6/mo + $0.75/million requests | [Cloud Armor](https://cloud.google.com/vpc/network-pricing#armor-pricing), one policy, one rule, and user-activity requests.                                                                                                      |
 | $1.42/GB                       | [Cloud Proxy](https://cloud.google.com/vpc/network-pricing#proxy-instance-charge), 3 are required.                                                                                                                                |
 | $0.12/GB                       | [Internet egress traffic](https://cloud.google.com/vpc/network-pricing#internet_egress) from `us-central1`.                                                                                                                       |
+
 [#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG
