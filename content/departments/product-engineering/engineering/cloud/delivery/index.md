@@ -78,4 +78,4 @@ We also have a set of [guiding principles](../../../../../strategy-goals/strateg
 - [Customers](customers/index.md)
 - [What we need from our directors](delivery-directors.md)
 
-[DevOps]: ../devops/index.md
+[devops]: ../devops/index.md
