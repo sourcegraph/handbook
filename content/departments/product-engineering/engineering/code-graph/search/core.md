@@ -60,7 +60,7 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 
 ## Living the Async Life
 
-Our team is geographically and timezone diverse. The handbook has a [large page dedicated to it](https://handbook.sourcegraph.com/company-info-and-process/communication/asynchronous-communication/) and it is worth reading. This section is intended to augment the handbook. Since our team works across many timezones, setting boundaries for notifications becomes really important to protect your free time. You are empowered to do this and here are a couple of suggestions:
+Our team is geographically and timezone diverse. The handbook has a [large page dedicated to it](../../../../../company-info-and-process/communication/asynchronous-communication.md) and it is worth reading. This section is intended to augment the handbook. Since our team works across many timezones, setting boundaries for notifications becomes really important to protect your free time. You are empowered to do this and here are a couple of suggestions:
 
 1. Set your working hours in Google. This makes it easier for your teammates to see when you are normally online.
 2. Set your [notification schedule in Slack](https://slack.com/help/articles/214908388-Pause-notifications-with-Do-Not-Disturb).
