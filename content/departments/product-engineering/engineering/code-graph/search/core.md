@@ -5,6 +5,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Indexed and unindexed search (Zoekt & Searcher)
 - Diff/commit search
 - Result ranking
+- Open source indexing, current at over 2.5M repos! 
 
 To learn more about our goals, see the [Search Core strategy](../../../../../strategy-goals/strategy/code-graph/search/core.md) page.
 
@@ -56,6 +57,20 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 - [Zoekt](https://github.com/sourcegraph/zoekt) the Zoekt search engine we support and use.
 - [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product
 - [Scratchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
+
+## Living the Async Life
+
+Our team is geographically and timezone diverse. The handbook has a [large page dedicated to it](https://handbook.sourcegraph.com/company-info-and-process/communication/asynchronous-communication/) and it is worth reading. This section is intended to augment the handbook. Since our team works across many timezones, setting boundaries for notifications becomes really important to protect your free time. You are empowered to do this and here are a couple of suggestions:
+
+1. Set your working hours in Google. This makes it easier for your teammates to see when you are normally online.
+2. Set your [notification schedule in Slack](https://slack.com/help/articles/214908388-Pause-notifications-with-Do-Not-Disturb).
+3. When you need focus time, enable Mac Focus time and/or set Slack to Do not Disturb.
+4. Google Calendar supports focus time. Block out time on your calendar in 2, 4 or 6 hour intervals where you only work on a particular task. Enable your Focus time (F6 key on Mac keyboard) and set Slack to DND.
+5. Enable Google Calendar in Slack to sync up your Slack status with your Google Calendar.
+6. Setup email filters for GitHub notifications.
+7. Mute conversations in Slack to reduce notifications or leave the channel.
+8. The Slack notification pane on the left side has an option to only show channels that are unread. This hides the channels with no new content and speeds up catching up in Slack.
+9. If things like Google Mail and Calendar are not cutting it for you, try other tools. Some people really like using Spark for email and Fantastical for their calendar. To do list tools like Things and ToDoist are popular and also integration tools like Zapier can be really helpful. Ask in Slack, you will get suggestions.
 
 ## On Boarding
 
