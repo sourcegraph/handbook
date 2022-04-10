@@ -5,7 +5,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Indexed and unindexed search (Zoekt & Searcher)
 - Diff/commit search
 - Result ranking
-- Open source indexing, current at over 2.5M repos! 
+- Open source indexing, current at over 2.5M repos!
 
 To learn more about our goals, see the [Search Core strategy](../../../../../strategy-goals/strategy/code-graph/search/core.md) page.
 
