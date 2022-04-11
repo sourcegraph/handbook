@@ -34,7 +34,8 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 1. Close Dates:
 
    - When setting up an opportunity it should be the 15th day two months out; any opp opened in February will having a starting close date of April 15th.
-     - A close date on the 15th implies that your best guess is that the close date will be either the month before the close date or the current month of the close date. 
+
+     - A close date on the 15th implies that your best guess is that the close date will be either the month before the close date or the current month of the close date.
      - By definition of forecasting in quarter, a call or best case deal can't have a close date later than the 15th of the first month of the next quarter
      - Early pipeline will always have a close date on the 15th; by the last month of the quarter, anything in early pipeline should be forecast at least as late as the 15th of the second month of the next quarter
      - A close date on the 15th implies that you don’t have alignment with the customer on the close date. A close date of the 15th provides us with a best guest range of when the deal might close.
@@ -45,7 +46,6 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
      - This date should push <10% of the time.
      - You may move this date forward to the actual day a deal closes if it is before the last day of the month when you have closed/won the deal.
      - If the date is not on the 15th day of the month, it is by definition part of your commit.
-
 
 2. Next Steps:
 
