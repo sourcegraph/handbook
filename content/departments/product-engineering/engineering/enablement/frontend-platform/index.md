@@ -1,6 +1,6 @@
 # Frontend Platform team
 
-The Frontend Platform team is part of the [Enablement](../index.md) org. )
+The Frontend Platform team is part of the [Enablement](../index.md) org.
 
 ## Mission
 
