@@ -5,7 +5,7 @@ These values are the beliefs and principles that help us achieve our [goals](../
 - [**Customer-first**](#customer-first): You earn and keep the trust of our customers by putting their interests first.
 - [**Work as a team**](#work-as-a-team): You work collaboratively with your peers, cross-functional teammates, and leadership to create shared success, trust, and belonging.
 - [**High agency**](#high-agency): You have the power and the responsibility to improve Sourcegraph as a company and as a product. You deliver regardless of the circumstances.
-- [**High quality**](#high-quality): You are responsible for finding out what high-quality work looks like and producing that high-quality work iteratively.
+- [**High quality through iteration**](#high-quality-through-iteration): You are responsible for defining and building high quality work iteratively.
 - [**Be welcoming and inclusive**](#be-welcoming-and-inclusive): You make people from all groups and backgrounds feel comfortable belonging to our team and community.
 - [**Open and transparent**](#open-and-transparent): You proactively communicate in an open and transparent way.
 - [**Continuously grow**](#continuously-grow): You strive to continuously grow and learn by genuinely soliciting feedback early and often, and humbly reflecting on your past mistakes.
