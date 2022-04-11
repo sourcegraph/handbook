@@ -16,10 +16,10 @@ Sourcegraph is essentially built from many different **services** that are deplo
 
 ### Site administrators
 
-Currently, most Sourcegraph customers deploy **"on premise"** through one of our supported deployment methods: **docker-compose** or **kubernetes**. TODO: Add deployment link.
+Currently, most Sourcegraph customers deploy **"on premise"** through one of our supported deployment methods: **docker-compose** or **kubernetes**.
 They deploy to a variety of places such as AWS, GCP, and bare metal.
 
-**Key concept**: You will encounter exceptions to supported deployments, so refer to customer organization notes and exceptions.\* TODO: Add link to exceptions doc?
+**Key concept**: You will encounter exceptions to supported deployments, so refer to customer organization notes and exceptions.\*
 
 When Sourcegraph is deployed **"on premise"**, that means system administrators at the customers organization manage the installation and configuration of their Sourcegraph instance. A system administrator is both a job title and infers level of access to Sourcegraph configurations and logs.
 
@@ -32,9 +32,8 @@ Get there by appending the page to a Sourcegraph URL like so https://sourcegraph
 - `/-/debug/grafana/` View the Sourcegraph built in Grafana and alerts dashboard
 - Jaeger
 
-TODO: add link to or create additional doc explaining what above pages are for, tips to use
 
-Application Engineers (AER's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Application Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to AER level of access so Refer to customer organization notes and exceptions. TODO LINK
+Application Engineers (AER's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Application Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to AER level of access so Refer to customer organization notes and exceptions.
 
 ### It's log, log, log!
 
@@ -53,12 +52,11 @@ Extrapolating on API's, this is why knowing which **External service code host(s
 
 Completed HTTP requests and responses will have a time record associated with them. This time (usually milliseconds or seconds) starts when the request is sent from the Sourcegraph service and ends when the service receives a response from the other service.
 
-Generally speaking, not all requests will be captured or timed due to an observability concept called **sampling**. Requests are sampled because if we were to gather _every_ request, that would increase data storage, CPU and memory requirements. TODO: _To extent to which Sourcegraph samples or not and where needs further exploration as this author is not sure._
+Generally speaking, not all requests will be captured or timed due to an observability concept called **sampling**. Requests are sampled because if we were to gather _every_ request, that would increase data storage, CPU and memory requirements. _To extent to which Sourcegraph samples or not and where needs further exploration as this author is not sure._
 
 When a request is logged, it's essentially a record that was _a request_ when it is _slower than_ whatever the _threshhold time variable is configured to be._
 
 For Sourcegraph logs and alerting, these thresholds, log severity like `warn`, `critical`, and their **metrics queries** are _hard coded_ into our codebase in the form of Prometheus logging metrics. Prometheus metrics are what populate our built in Grafana dashboards and built in alerting.
-TODO: Add example link to Sourcegraph metrics.go code page and maybe some links to what Prometheus is and Grafana.
 
 ### Context, clues and considering the bigger picture
 
@@ -82,7 +80,7 @@ Look for clues in the logs that a service can successfully send and receive requ
 
 ### Gathering logs and their levels
 
-Logs are very useful in the right situations! Having an intuition for when to ask for them builds over time, and ideally you would have them and have attempted to interpret them before escalating a case. TODO add link to RFH stuff
+Logs are very useful in the right situations! Having an intuition for when to ask for them builds over time, and ideally you would have them and have attempted to interpret them before escalating a case.
 So before asking a customer for logs, consider a few things:
 
 Urgency of the request...
@@ -92,11 +90,11 @@ Urgency of the request...
 Less urgent...
 
 - Not every user you talk to has the ability to gather logs. Was the case reported by someone that appears to be a **site administrator**?
-- Gathering logs and sharing them with AER's takes customer time and effort. Does it sound like logs are the only place to find the answer? Or are there other places to check like Grafana or in the Sourcegraph site-admin pages? TODO Link to this section ### Site administrators
+- Gathering logs and sharing them with AER's takes customer time and effort. Does it sound like logs are the only place to find the answer? Or are there other places to check like Grafana or in the Sourcegraph site-admin pages?
 
 Blockers to sharing logs...
 
-- Sometimes customer security restrictions dictate what they can and cannot share. Airgapped customers are more likely to restrict what information they can share. In cases like this, can the customer be guided to which services to check in the logs or observability pages? Consider testing out commands in one of our TODO add AER test instance doc or local instance.
+- Sometimes customer security restrictions dictate what they can and cannot share. Airgapped customers are more likely to restrict what information they can share. In cases like this, can the customer be guided to which services to check in the logs or observability pages? Consider testing out commands in one of our AER test instances or local test instance.
 
 Reported symptoms do not sound like Sourcegraph is 'broken'...
 
@@ -106,7 +104,6 @@ Reported symptoms do not sound like Sourcegraph is 'broken'...
 
 The way to access logs depends on the deployment method and which service you need logs for. For quick reference see the [Support command generator tool](https://sourcegraph.github.io/support-generator/)
 
-TODO: Add more specifics on commands to gather logs by deployment type, etc
 
 [Logging levels are set as an environmental variable `SRC_LOG_LEVEL`.](https://docs.sourcegraph.com/admin/observability/logs) The default logging level in cluster deployments is `dbug`, and in docker it is `warn`. **Site administrators** may have changed the logging level to _more_ or _less_ verbose. The most verbose logging level is `dbug` and the least is `crit`. See this doc for [how to set environment variables.](https://docs.sourcegraph.com/admin/install/docker-compose/operations#set-environment-variables)
 
@@ -173,14 +170,11 @@ Breaking it down:
 - `msg="slow http request"` indicates it was marked as slow because it met the threshold criteria for a slow request
 - `method=POST url=/.api/graphql?CodeIntelSearch` indicates the frontend received a POST request from a client (users browser), to the CodeIntelSearch service endpoint.
 - `code=200` The request was successful
-- `duration=1m0.148358041s` TODO: confirm this is actually over a minute
+- `duration=1m0.148358041s`
 - `x_forwarded_for="172.25.23.216, 172.18.0.1" user=14191` The IP the request was sent to, and the user ID.
 
 We can extrapolate that the user performed an action in Sourcegraph that used CodeIntel (hover tool tips?) and the request completed, but was slow and the user probably saw it 'take awhile to load the tooltip.' This _could_ indicate Sourcegraph is under-provisioned and could use more resources. Or it could indicate a particular user is having issues. Check for clues like are the slow requests being sent to one user or many? Note: the `user` value can be looked up in the pgsql database table!
 
-TODO: Add more log examples and how to interpret?
-
-TODO: Need another doc, etc pointing to how to provision Sourcegraph more better and provide guidance to site-administrators, considering deployment types, repo type, etc
 
 ### Further reading
 
