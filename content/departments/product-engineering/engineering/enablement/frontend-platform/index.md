@@ -39,7 +39,7 @@ We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other
 - #frontend-platform channel, @frontendplatform, or @frontend-platform-support in Slack.
 - [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and @sourcegraph/frontend-platform team on GitHub.
 
-For more information on how to contact us for support or raise an issue, please see our [processes](../processes.md).
+For more information on how to contact us for support or raise an issue, please see our [processes](processes.md).
 
 ## Growth plan
 
