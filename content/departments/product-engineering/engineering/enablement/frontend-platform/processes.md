@@ -11,6 +11,7 @@ If you have a question that relates to our [areas of ownership](../../process/en
 ### Raising an issue
 
 If you think Frontend Platform is the right team to address a bug or other request, please file an issue. The issue should include:
+
 - A short description of the ask
 - A more detailed explanation of the background, context, and challenge that needs solving
 - Any guidance related to the impact of this issue
