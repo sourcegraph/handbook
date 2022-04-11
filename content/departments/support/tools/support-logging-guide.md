@@ -32,7 +32,6 @@ Get there by appending the page to a Sourcegraph URL like so https://sourcegraph
 - `/-/debug/grafana/` View the Sourcegraph built in Grafana and alerts dashboard
 - Jaeger
 
-
 Application Engineers (AER's) normally **do not** have direct access to **"on premise"** installations, so troubleshooting is a working relationship between Application Engineers, other Sourcegraph folks, and the **site administrator(s).** There are exceptions to AER level of access so Refer to customer organization notes and exceptions.
 
 ### It's log, log, log!
@@ -104,7 +103,6 @@ Reported symptoms do not sound like Sourcegraph is 'broken'...
 
 The way to access logs depends on the deployment method and which service you need logs for. For quick reference see the [Support command generator tool](https://sourcegraph.github.io/support-generator/)
 
-
 [Logging levels are set as an environmental variable `SRC_LOG_LEVEL`.](https://docs.sourcegraph.com/admin/observability/logs) The default logging level in cluster deployments is `dbug`, and in docker it is `warn`. **Site administrators** may have changed the logging level to _more_ or _less_ verbose. The most verbose logging level is `dbug` and the least is `crit`. See this doc for [how to set environment variables.](https://docs.sourcegraph.com/admin/install/docker-compose/operations#set-environment-variables)
 
 At `dbug` level, you will see _all_ the logs. Theoretically you won't miss anything that was logged at the time of log collection. However, you will see everything which can include logs that are not relevant nor indicative of problems.
@@ -174,7 +172,6 @@ Breaking it down:
 - `x_forwarded_for="172.25.23.216, 172.18.0.1" user=14191` The IP the request was sent to, and the user ID.
 
 We can extrapolate that the user performed an action in Sourcegraph that used CodeIntel (hover tool tips?) and the request completed, but was slow and the user probably saw it 'take awhile to load the tooltip.' This _could_ indicate Sourcegraph is under-provisioned and could use more resources. Or it could indicate a particular user is having issues. Check for clues like are the slow requests being sent to one user or many? Note: the `user` value can be looked up in the pgsql database table!
-
 
 ### Further reading
 
