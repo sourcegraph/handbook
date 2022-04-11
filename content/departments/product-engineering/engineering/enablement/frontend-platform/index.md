@@ -1,14 +1,18 @@
 # Frontend Platform team
 
-The Frontend Platform team (part of the [Enablement](../index.md) org) defines and maintains the standards and tools for web development at Sourcegraph.
+The Frontend Platform team is part of the [Enablement](../index.md) org. )
+
+## Mission
+
+Our mission is to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
 
 ## Members
 
 {{generator:product_team.frontend_platform}}
 
-## Our Strategy
+## Strategy
 
-[Mission & Vision](../../../../../strategy-goals/strategy/enablement/frontend-platform/index.md)
+[Find out about the Frontend Platform team's mission, vision, and strategic plans.](../../../../../strategy-goals/strategy/enablement/frontend-platform/index.md)
 
 ## Responsibilities
 
@@ -32,12 +36,14 @@ We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other
 
 ## Contact
 
-- #frontend-platform, @frontendplatform, or @frontend-platform-support in Slack.
+- #frontend-platform channel, @frontendplatform, or @frontend-platform-support in Slack.
 - [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform) label and @sourcegraph/frontend-platform team on GitHub.
+
+For more information on how to contact us for support or raise an issue, please see our [processes](../processes.md).
 
 ## Growth plan
 
-[Come work with us!](https://boards.greenhouse.io/sourcegraph91/jobs/4079706004) We're hiring an early-career frontend engineer to join our team.
+We aren't currently hiring to expand our team.
 
 ## Tech stack
 
@@ -56,6 +62,8 @@ Here are some of the technologies we use to deliver on our goals:
 We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices). In addition, we have a few processes and practices specific to the Frontend Platform team:
 
 ## Processes
+
+Read more about how this team works.
 
 ### Planning and prioritization
 
