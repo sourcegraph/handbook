@@ -63,7 +63,7 @@ Mentorship is a two-way street, and it’s important that any mentoring relation
   - For example, someone who is interested in a lot of 1:1 pair programming time would want to look for a mentor in a similar time zone to them with at least a couple of hours of availability per week, whereas someone who is looking for occasional asynchronous feedback while preparing a talk for a conference could choose someone from a very different timezone with more limited availability.
 - Bear in mind that the areas of overlap do not need to be exact, and matching areas or timezones is only one component of determining if a mentor/mentee relationship is a good fit.
 
-#### 3. Reach out and introduce yourself.
+#### 3. Reach out and introduce yourself
 
 - If you haven’t met them before or don’t know them well, start by introducing who you are, what your role is, and why you’re contacting them (“I saw your profile on the mentors bulletin board, and I’m seeking mentorship in one of the areas you listed having experience with.”). If you already know them pretty well, you can probably skip this sub-step!
 - Double-check their availability.
