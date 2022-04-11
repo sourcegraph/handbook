@@ -49,6 +49,10 @@ We inherit Sourcegraph's [engineering principles and practices](../../process/pr
 
 Read more about [how this team works](processed.md).
 
+## Useful resources
+
+- [Frontend Platform RFCs and PDs](https://docs.google.com/document/d/12CJP9T360GzxQJpJuJgtRid3uKpyIWPo1XpvkXG3P9M/edit)
+
 ## Growth plan
 
 We aren't currently hiring to expand our team.
