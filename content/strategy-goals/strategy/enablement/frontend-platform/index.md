@@ -41,7 +41,7 @@ See also our [completed goals](../../../../departments/product-engineering/engin
 
 - [Investigate alternatives to Percy/Chromatic for regression testing](https://github.com/sourcegraph/sourcegraph/issues/33740)
 
-- [Wildcard Design System as a product](https://github.com/sourcegraph/sourcegraph/issues/33747) 
+- [Wildcard Design System as a product](https://github.com/sourcegraph/sourcegraph/issues/33747)
 
 - [WCAG 2.1 AA Accessibility - Comprehensive audit and response](https://github.com/sourcegraph/sourcegraph/issues/33743)
 
