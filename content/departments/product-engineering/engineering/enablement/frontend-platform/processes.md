@@ -1,5 +1,33 @@
 # Frontend Platform Processes
 
+## Support
+
+The Frontend Platform team primarily receives support requests from internal Sourcegraph engineers, though we also monitor customer requests in the product gap dashboards maintained by the Customer Engineering (CE) and Sales organization.
+
+### Requesting support
+
+If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. If something requires our immediate attention, tag the @frontend-platform-support handle and our on-call teammate will jump in.
+
+### Raising an issue
+
+If you think Frontend Platform is the right team to address a bug or other request, please file an issue. The issue should include:
+- A short description of the ask
+- A more detailed explanation of the background, context, and challenge that needs solving
+- Any guidance related to the impact of this issue
+- Any extra information that will help us solve or prioritize the issue
+- The label `team/frontend-platform`
+
+### Getting cross-team feedback on RFC
+
+- Create an issue for the RFC tracking on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144).
+- [Lock conversation](https://docs.github.com/en/github/building-a-strong-community/locking-conversations): RFC should be discussed in the Google doc.
+- Add _rfc/tracking_ and _team/frontend-platform_ labels to the RFC issue.
+- Once RFC is ready for review, move it to the _In review_ column and assign _sourcegraph/frontend-devs_ or individual developers to the issue.
+- Github integration will notify _@web_ in #frontend-platform-rfc-feed that the RFC is ready for review.
+- Once approved, link the RFC issue to the tracking issue [if required](#tracking-issues).
+
+## How we work
+
 ### Planning and prioritization
 
 We plan and track our day-to-day work with [Github projects](https://github.com/orgs/sourcegraph/projects/222/views/1). Our current process (last updated 2021-12-09) is as follows:
@@ -37,19 +65,6 @@ We have several Code Insights dashboards on [k8s.sgdev.org](https://k8s.sgdev.or
   - The insight title should contain the GitHub issue number (where applicable).
   - For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
 - [Frontend Platform: Wildcard Usage](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcxMzd9).
-
-### Getting cross-team feedback on RFC
-
-- Create an issue for the RFC tracking on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144).
-- [Lock conversation](https://docs.github.com/en/github/building-a-strong-community/locking-conversations): RFC should be discussed in the Google doc.
-- Add _rfc/tracking_ and _team/frontend-platform_ labels to the RFC issue.
-- Once RFC is ready for review, move it to the _In review_ column and assign _sourcegraph/frontend-devs_ or individual developers to the issue.
-- Github integration will notify _@web_ in #frontend-platform-rfc-feed that the RFC is ready for review.
-- Once approved, link the RFC issue to the tracking issue [if required](#tracking-issues).
-
-### Product Feedback
-
-Specific product feedback about well-defined, small features can be found directly in the backlog boards. More general product feedback that applies to larger features, or that needs more research and planning to be actionable, is kept in [Productboard](https://sourcegraph.productboard.com/feature-board/2330177-web-frontend-platform)
 
 ### Code reviews
 
