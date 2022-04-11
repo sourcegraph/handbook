@@ -2,8 +2,8 @@
 
 ## How to request
 
-1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)
-2. Notify Delivery in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, linking to the issue
+1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-suspend.md&title=)
+2. Notify Delivery in [#cloud-devops] channel, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
 
@@ -121,3 +121,5 @@ git add . && git commit -m "$CUSTOMER: suspend instance" && git push origin HEAD
 And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person touching the instance will have a very bad time.
+
+[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG

@@ -18,6 +18,7 @@ If you're unsure if this has occured, please ask for confimation in [#Delivery](
 - [Helm PD (Product Doc)](https://docs.google.com/document/d/1J6jKunfDkO0VsHjezC9vWCdMCVo2Xp33vs8OR8TnrTQ)
 - [High-level informational videos](https://www.loom.com/team-videos/Helm) introducing Helm and how the Sourcegraph chart works
 - [Comparisons between kustomize and helm implementations](https://github.com/sourcegraph/customer-helm-demo)
+- [Internal Helm how-to videos](https://www.loom.com/looms/folders/Helm-d543b6f887ed438ab1b3836ab3a3422e)
 
 ## Troubleshooting guide for CSE
 
