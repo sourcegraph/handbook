@@ -13,11 +13,11 @@ People using Sourcegraph can be segmented into a number of different states, the
 | [Activated (Cloud)](#activated-user-cloud)   | Users who have completed a specific series of actions that indicate they have developed the habit | ✔️    | n/a     | n/a                                     | Characteristic |
 | [Registered (Cloud)](#registered-user-cloud) | A user with an account on Cloud                                                                   | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
 | [Account Setup](#account-setup)              | A Registered user OR team on either Cloud or Private Install                                      | ✔️    | ✔️      |                                         | Characteristic |
-| Retained                                     | Users who were active last month _and_ this month                                                 | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
-| Churned                                      | Users who were active last month but not this month                                               | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
-| Resurrected                                  | Users who were _not_ active last month but are active this month                                  | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
-| Created                                      | Users whose account was created this month                                                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
-| Deleted                                      | Users whose account was deleted this month                                                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
+| Retained                                     | Users who were active last period _and_ this period                                               | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
+| Churned                                      | Users who were active last period but not this period                                             | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
+| Resurrected                                  | Users who were _not_ active last period but are active this period                                | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
+| Created                                      | Users whose account was created this period                                                       | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
+| Deleted                                      | Users whose account was deleted this period                                                       | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
 
 \***_Types_**
 
@@ -37,12 +37,13 @@ Qualifying events are not intended to be difficult, or prove that someone is a h
 
 | Metric            | What                                                                       | Events                                                                                                          |
 | ----------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Search            | Viewed search results, receive a code monitoring/saved search notification | `SearchResultsFetched` `CodeMonitorEmailLinkClicked` `Saved Search Notification Sent` `SavedSearchEmailClicked` |
-| Navigation        | View a file/repository/tree                                                | `ViewBlob` `ViewRepository` `ViewTree` `ViewSearchNotebookPage`                                                 |
-| Code intelligence | Hovered                                                                    | `hover`                                                                                                         |
+| Search            | Search Submitted, Viewed search results, 
+                      receive a code monitoring/saved search notification                        | `SearchSubmitted``SearchResultsFetched`              `CodeMonitorEmailLinkClicked` `Saved Search |Notification Sent` `SavedSearchEmailClicked` 
+| Navigation        | View a file/repository/tree                                                | `ViewBlob` `ViewRepository` `ViewTree` `ViewSearchNotebookPage`                                 |
+| Code intelligence | Hovered                                                                    | `hover`                                                                                                          |
 | API docs          | Using Sourcegraph outside of the app                                       | `ViewRepositoryDocs`                                                                                            |
-| Batch changes     | Created or viewed a batch change                                           | TBD                                                                                                             |
-| Code insights     | Created or viewed a code insight                                           | TBD                                                                                                             |
+| Batch changes     | Created or viewed a batch change                                           | TBD                                                                                                              |
+| Code insights     | Created or viewed a code insight                                           | TBD                                                                                                              |
 
 #### Unique Sourcegraph active users
 
