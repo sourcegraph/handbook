@@ -1,4 +1,4 @@
-# Datadog monitoring at Sourcregraph
+# Datadog monitoring at Sourcegraph
 
 [Datadog](https://app.datadoghq.com/) is external tool used for monitoring.
 
@@ -12,19 +12,23 @@ Its purpose is not to replace existing [monitoring and alerting](../../../engine
 - RUM (real user monitoring)
 - etc.
 
+See a short demo of our Datadog [integration](https://www.loom.com/share/27ae324f095a4a0f8a25261a86274ba4)
+
 # Content
 
-- [Login to Datadog](#login)
-- [Use cases for Datadog](#use-cases)
-  - [Dashboards](#dasboards)
-  - [Metrics](#metrics)
-  - [Explore logs](#logs)
-  - [APM and traces](#apm-and-traces)
-  - [Syntetict (browser) tests](#syntectic-tests)
-  - [Real User Monitoring](#real-user-monitoring)
-  - [Alerting](#monitors)
-- [Managing Datadog resources](#managing-datadog-resources)
-- [FAQ](#faq)
+- [Datadog monitoring at Sourcegraph](#datadog-monitoring-at-sourcegraph)
+- [Content](#content)
+  - [Login](#login)
+- [Use cases](#use-cases)
+    - [Dashboards](#dashboards)
+    - [Metrics](#metrics)
+    - [Logs](#logs)
+    - [APM and traces](#apm-and-traces)
+    - [Synthetic tests](#synthetic-tests)
+    - [Real User Monitoring](#real-user-monitoring)
+    - [Monitors](#monitors)
+  - [Managing Datadog resources](#managing-datadog-resources)
+    - [FAQ](#faq)
 
 ## Login
 
@@ -32,7 +36,7 @@ Datadog can be accessed through Okta at [this link](https://app.datadoghq.com/)
 
 # Use cases
 
-### Dasboards
+### Dashboards
 
 [Datadog documentation](https://docs.datadoghq.com/dashboards/)
 
@@ -55,7 +59,7 @@ They allow to query, group and aggregate logs by faceted fields.
 
 [Datadog documentation](https://docs.datadoghq.com/tracing/#explore-datadog-apm)
 
-### Syntectic tests
+### Synthetic tests
 
 [Datadog documentation](https://docs.datadoghq.com/synthetics/)
 
