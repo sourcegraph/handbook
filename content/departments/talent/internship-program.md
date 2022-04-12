@@ -8,11 +8,11 @@ We do not limit our internships to just students - we welcome all qualified appl
 
 A full time position may be possible depending on performance and what roles are open at the end of the internship, but it is not guaranteed.
 
-### Open Positions:
+### Open Positions
 
 We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
-#### Job Boards we’re Using:
+#### Job Boards we’re Using
 
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
@@ -20,13 +20,13 @@ We will be hiring for interns across various business departments. Recruiting wi
 
 ## Information for Candidates
 
-### Compensation, Perks, and Equipment:
+### Compensation, Perks, and Equipment
 
 - Varies by role, not location. Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
 - [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
 - We will provide each intern with a [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day.
 
-### Internship Events:
+### Internship Events
 
 In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience.
 
@@ -36,7 +36,7 @@ SCHEDULE COMING SOON!
 
 COMING SOON!
 
-### Helpful Links:
+### Helpful Links
 
 - [Resources for Candidates](tools/resources_for_candidates.md)
 - [How to Apply](tools/resources_for_candidates.md#how-to-apply)
