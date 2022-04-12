@@ -93,6 +93,7 @@ During the first part of trial period, terraform will be only importing changes 
 ## Running Datadog
 
 To run the agent locally, you can run the agent in docker with the following command:
+
 ```
 docker run -d --cgroupns host \
               -v /var/run/docker.sock:/var/run/docker.sock:ro \
