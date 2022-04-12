@@ -75,4 +75,4 @@ To provide the customer access to the instance:
 
 ## Configuring License, SSO, and repositories
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a delivery team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.

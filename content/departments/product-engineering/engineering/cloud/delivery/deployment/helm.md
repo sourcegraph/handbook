@@ -18,6 +18,7 @@ If you're unsure if this has occured, please ask for confimation in [#Delivery](
 - [Helm PD (Product Doc)](https://docs.google.com/document/d/1J6jKunfDkO0VsHjezC9vWCdMCVo2Xp33vs8OR8TnrTQ)
 - [High-level informational videos](https://www.loom.com/team-videos/Helm) introducing Helm and how the Sourcegraph chart works
 - [Comparisons between kustomize and helm implementations](https://github.com/sourcegraph/customer-helm-demo)
+- [Internal Helm how-to videos](https://www.loom.com/looms/folders/Helm-d543b6f887ed438ab1b3836ab3a3422e)
 
 ## Troubleshooting guide for CSE
 
@@ -86,6 +87,8 @@ We recommend Helm as _**the**_ best method for deploying Sourcegraph. However, i
 
 There is the possibility that customers will find that the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/values.yaml) file lacks the customizations they need (though worth reiterating that editing that file is not the method for customizing - [see here](https://docs.sourcegraph.com/admin/install/kubernetes/helm#configuration)). So it's strongly recommended that CE familiarize themselves with what _is_ currently covered, and try to identify anything outside of it (and let Delivery know) as early as possible in the scoping process.
 
+See the next question for how to log a request for new supported customizations.
+
 In the event we can't add the required customization to the chart, we do support two methods of configuration that offer an alternative to forking the repo – these are using Kustomize on top of Helm, or creating a sub chart. [Read more about both here](https://docs.sourcegraph.com/admin/install/kubernetes/helm#advanced-configuration)
 
 If a customer is willing and able to use Helm, the configuration, deployment and upgrade processes are all easier and more straightforward than with either Kustomize, plain Kubernetes, or Docker Compose.
@@ -94,7 +97,21 @@ The upgrade process especially (namely the lack of conflicts and simplicity ([se
 
 Read below for lots more information on how it compares.
 
-#### Why will customers like it?
+#### How should we log a request for changes to the Helm chart?
+
+Bugs (things that should work but don't) should be raised in the same way as normal - rasie an issue, document recreation steps and impact, add the "team/delivery" label, then message us in [#Delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX).
+
+For changes to the Helm chart (for example, a customer wants to customize something currently missing from the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/values.yaml) and/or the docs) please log a product gap with the following details:
+
+- Gap name: "Helm Customization - <short description>"
+- Product category: Cloud
+- Subcategory: Delivery - Customer Deployments
+
+We do want a separare gap for each customization/change, as that allows us to prioritize each individually. Please do search and see if there's already a gap aligned with the customers needs.
+
+It's also worth pinging us in [#Delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) if a product gap is time-sensitive - but please tag our PM (we're getting a new one on May 9th - so check [here](..) for who that is if unsure) and not the team (they don't have Salesforce access).
+
+#### Why will customers like Helm?
 
 - They’re likely to already be using helm for other application deployments, it should be a familiar experience to customize and deploy. They may even already have CI or other infrastructure in place to handle helm charts.
 - It’s easier to maintain - no need to create a fork of the deploy-sourcegraph repository, all your customizations can be kept as separate files that are untouched during upgrades and so won’t conflict with the chart.
