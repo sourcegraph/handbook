@@ -75,9 +75,10 @@ Monitors are used to notify teams and manage alerts at a glance on the Alerting 
 
 ## Managing Datadog resources
 
-The idea is to use [terraform datadog provider](https://registry.terraform.io/providers/DataDog/datadog/latest/docs) to persist state of all resources.
+The long term idea is to use [terraform datadog provider](https://registry.terraform.io/providers/DataDog/datadog/latest/docs) to persist state of all resources.
+During the first part of trial period, terraform will be only importing changes made via UI, to allow people explore Datadog capabilities.
 
-[Terraform implementation](https://github.com/sourcegraph/infrastructure/pull/3211) (in progress)
+[Terraform implementation](https://github.com/sourcegraph/infrastructure/tree/main/datadog)
 
 ### FAQ
 
