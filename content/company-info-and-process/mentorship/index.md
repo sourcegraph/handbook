@@ -1,6 +1,6 @@
 # Find a mentor, Be a mentor!
 
-> NOTE: This is a **preview** for the upcoming Sourcegraph mentorship program. The full program launch details will be announced in Slack in the coming weeks.
+> NOTE: The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK), or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
 
 ## Introduction
 
@@ -17,11 +17,21 @@ The purpose of this document is to inform prospective mentors and mentees how th
 
 ## For mentors
 
-Are you interested in becoming a mentor or offering yourself as a resource for others? Great! To make it easier for mentee-hopefuls to find and connect with you, we ask you to post a short profile of yourself using [this form](https://forms.gle/CUWbzL9KMLuXFzhv5) on our [mentors bulletin board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing), where prospective mentees can look for someone who would be a good match.
+A mentorship program is nothing without its mentor volunteers, and all sorts of experiences can create new value when shared with mentees. Have you mentored before, are you mentoring now, or would you consider mentoring in the future? Fill out a _[mentor profile](https://forms.gle/CUWbzL9KMLuXFzhv5)_ for yourself to appear on our _[mentors bulletin board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing)_. Posting a profile will let prospective mentees know what you're able to mentor in and whether or not your available to connect with them.
 
-### What happens next?
+There are no minimum requirements necessary to become a mentor, and there is also no "deadline" to sign up -- partnerships will form on a rolling basis as initiated by the prospective mentee. Furthermore, becoming a mentor does not bar you from also participating in the program as a mentee.
 
-That’s it for now! An interested mentee will reach out to you directly over Slack if they’d be interested in working with you, at which point you can arrange an [initial session](#the-initial-session) with them.
+Still not sure about signing up?
+
+- **One of the best ways to learn is by teaching others.** In what’s dubbed [“The Protégé Effect”](https://ideas.time.com/2011/11/30/the-protege-effect/), studies show that those who teach others understand the material they are teaching better than those who only learn for themselves.
+- **Challenge yourself with new perspectives.** Get a fresh take on something you’ve spent a lot of time with and see how it looks through the eyes of someone just learning it.
+- **Pay it forward.** Think of the teachers, coaches, or mentors in your life who said or did something that has stuck with you or changed your path for the better. This is an opportunity to do that for someone else!
+- **Retain full control of your hours.** Creating a profile doesn’t commit you to anything: there’s no minimum time commitment to becoming a mentor, and you can mark yourself as “unavailable” at any time if you don’t have sufficient bandwidth to take on a new mentee.
+- **BYOMS (Bring Your Own Mentoring Style!)** With our loose, non-prescriptive framework for mentorship, you and your mentee(s) have full agency over your partnership, but we also maintain more concrete suggestions and advice throughout the rest of this document for you to take inspiration from.
+
+### I submitted my profile; what happens next?
+
+That’s it for now! Unlike many traditional mentorship programs at sync-first companies, there's no single timeline or match-making system for mentors and mentees at Sourcegraph. Instead, an interested mentee can reach out to you directly over Slack if they’d be interested in working with you, at which point you can both arrange an [initial session](#the-initial-session) and set your own timelines.
 
 If your availability changes or you want to update your areas of experience for mentoring, "update" your profile by [editing your survey response](https://forms.gle/CUWbzL9KMLuXFzhv5) at any time.
 
@@ -29,7 +39,7 @@ Did you already strike something up informally with someone you’re already wor
 
 ### What if I have questions or run into a problem not addressed here?
 
-You can reach the mentorship program champions at [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK) with questions, concerns, feedback, or anything else mentoring-related.
+You can reach the mentorship program champions by tagging @mentorship-champions or posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK) with questions, concerns, feedback, or anything else mentoring-related.
 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 
@@ -37,31 +47,39 @@ We understand that sometimes the nature of these issues can be more sensitive. W
 
 _If you are seeking **sponsorship**, such as to transition teams or roles within Sourcegraph, it’s important to bear in mind that while every mentor can offer guidance and encouragement, not every mentor can offer advocacy or opportunity. We recommend that you start a conversation with your manager, first, and talk with a potential mentor about your goals before committing to anything long-term._
 
-Mentorship is a two-way street, and it’s important that any mentoring relationship starts with commitment from both sides. Using the [mentors bulletin board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing), it’s easy to see who at Sourcegraph is willing to offer mentorship and in what areas, but it’s up to you to take the first step to reach out to a potential mentor, introduce yourself, and see if you can work something out together. Here’s some advice on how:
+Mentorship is a two-way street, and it’s important that any mentoring relationship starts with commitment from both sides. Unlike many traditional mentorship programs at sync-first companies, there's no single timeline or match-making system for mentors and mentees at Sourcegraph. Instead, we ask mentees to take the first step of contacting a mentor by looking at profiles and availability on the [mentors bulletin board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing), and if it seems like a good match, setting your own, independent timeline.
 
-1. Reflect on what areas you are interested in mentorship for, and what sort of support or engagement would help you grow in those areas. Write these down -- it’ll help for your future mentor to know!
+### Using the mentors bulletin board to find a mentor
 
-   - It’s okay if you don’t fully know, or if you’re flexible! Understanding where to explore or what to try next can also be something a mentor can help you with.
+#### 1. Determine your objective
 
-2. Browse the list of available mentors on the [bulletin board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing) to identify someone whose areas of experience overlap with your areas of interest, and whose availability would be conducive to the type of support you are looking for.
+- Reflect on what areas you are interested in mentorship for, and what sort of support or engagement would help you grow in those areas.
+- Write these down -- it’ll help for your future mentor to know!
+- It’s okay if you don’t fully know, or if you’re flexible! Understanding where to explore or what to try next can also be something a mentor can help you with.
 
-   - For example, someone who is interested in a lot of 1:1 pair programming time would want to look for a mentor in a similar time zone to them with at least a couple of hours of availability per week, whereas someone who is looking for occasional asynchronous feedback while preparing a talk for a conference could choose someone from a very different timezone with more limited availability.
-   - Bear in mind that the areas of overlap do not need to be exact, and matching areas or timezones is only one component of determining if a mentor/mentee relationship is a good fit.
+#### 2. Browse the [mentors bulletin board](https://docs.google.com/spreadsheets/d/14QhKfpJmqpwEN3HoxFap_SJqG5Ilc2XJf5E1juwY63g/edit?usp=sharing)
 
-3. Reach out and introduce yourself to your prospective mentor over Slack.
+- Start by trying to identify someone whose areas of experience overlap with your areas of interest, and whose availability would be conducive to the type of support you are looking for.
+  - For example, someone who is interested in a lot of 1:1 pair programming time would want to look for a mentor in a similar time zone to them with at least a couple of hours of availability per week, whereas someone who is looking for occasional asynchronous feedback while preparing a talk for a conference could choose someone from a very different timezone with more limited availability.
+- Bear in mind that the areas of overlap do not need to be exact, and matching areas or timezones is only one component of determining if a mentor/mentee relationship is a good fit.
 
-   - If you haven’t met them before or don’t know them well, start by introducing who you are, what your role is, and why you’re contacting them (“I saw your profile on the mentors bulletin board, and I’m seeking mentorship in one of the areas you listed having experience with.”). If you already know them pretty well, you can probably skip this sub-step!
-   - Share the areas and type of mentorship support you are looking for that you came up with for step 1. If you have a specific goal in mind already, share that, too! At this stage, the more context, the better!
+#### 3. Reach out and introduce yourself
 
-4. If you and the mentor agree that it seems like a good fit, determine a time for your first official meeting. You don’t need to establish a full schedule at this stage.
+- If you haven’t met them before or don’t know them well, start by introducing who you are, what your role is, and why you’re contacting them (“I saw your profile on the mentors bulletin board, and I’m seeking mentorship in one of the areas you listed having experience with.”). If you already know them pretty well, you can probably skip this sub-step!
+- Double-check their availability.
+- Share the areas and type of mentorship support you are looking for that you came up with for step 1. If you have a specific goal in mind already, share that, too! At this stage, the more context, the better!
 
-   - **Both you and your mentor are allowed to say no.** If your mentor says no, don’t take it personally! They may have their hands full or feel like they can’t commit to the level or type of mentorship you want, or they may not have the sort of experience that aligns with what they think you’re looking for. The quality of mentorship you receive depends largely on the quality of the fit, so it’s important that your mentor has a say in that, too, as not to waste anyone’s time.
+#### 4. Schedule an [initial session](#the-initial-session)
+
+- If you and the mentor agree that it seems like a good fit, determine a time to meet with them over Zoom.
+- You don’t need to establish a full schedule at this stage.
+- **Both you and your mentor are allowed to say no.** If your mentor says no, don’t take it personally! They may have their hands full or feel like they can’t commit to the level or type of mentorship you want, or they may not have the sort of experience that aligns with what they think you’re looking for. The quality of mentorship you receive depends largely on the quality of the fit, so it’s important that your mentor has a say in that, too, as not to waste anyone’s time.
 
 ### What if I didn’t find a good fit for my mentor, they’re not responsive, or I’m having another problem?
 
 If there isn’t a good mentor available for the areas you are interested in, or if you are just having a hard time getting something to work out, the mentorship program champions are here to help!
 
-For these and any other issues you may run into with the mentorship program, you can always reach the mentorship program champions by posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK).
+For these and any other issues you may run into with the mentorship program, you can always reach the mentorship program champions by tagging @mentorship-champions or posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK).
 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 

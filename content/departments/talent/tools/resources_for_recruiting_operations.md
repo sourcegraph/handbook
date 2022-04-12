@@ -76,7 +76,8 @@ Please reach out to the following Executive Business Partners directly if you ha
 - [Christina Forney](../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../team/index.md#kylie-fligstein)
 - [Kacie Jenkins](../../../team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../../../team/index.md#amber-furbush)
 - [Gregg Stone](../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../team/index.md#amber-smokowski)
-- [Nick Snyder](../../../team/index.md#nick-snyder), VP Engineering: Mahal
+- [Nick Snyder](../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../team/index.md#kylie-fligstein) in the meantime)
+- [Quinn Slack](../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../team/index.md#sally-voisen)
 
 ### How to Select a Values Interview Panel:
 

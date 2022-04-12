@@ -12,7 +12,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
   - [Rob Rhyne](../../../../team/index.md#rob-rhyne) Code Graph Design Manager (he/him)
     - [Alicja Suska](../../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
     - [Marisa Kanemoto](../../../../team/index.md#marisa-kanemoto) Product Designer, Search Product (she/her)
-    - [D.M. (starting soon)] Product Designer, Batch Chnages
+    - [Daniel Marques](../../../../team/index.md#daniel-marques) Product Designer, Batch Chnages (he/him)
   - [Christina Forney](../../../../team/#sts=Christina%20Forney) Interim Cloud Design Manager
     - [Quinn Keast](../../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
     - [Sara Lee](../../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)

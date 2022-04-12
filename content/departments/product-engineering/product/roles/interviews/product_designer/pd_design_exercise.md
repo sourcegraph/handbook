@@ -9,35 +9,14 @@ What we would like to learn:
 - Their facilitation strategy
 - How they approach a problem, and what considerations they make
 - Can they communicate in an organized way? Can they explain their reasoning?
-- See purpose section for each exercise
 
 ## Prompt
 
 Send the following prompt to the candidate to prepare for this interview:
 
-> Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn't. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
->
-> Part 2: (~60 min) We will give you a specific problem to solve for [Sourcegraph](https://sourcegraph.com/search) and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
+(~60 min) We will give you a specific problem to solve for [Sourcegraph](https://sourcegraph.com) and would like you to walk us through the design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mocks.
 
-## Exercise 1 (15 min): Pick a developer application
-
-### Purpose
-
-This exercise tests the candidate's ability to articulate design problems, design decisions, how they would improve a tool, get a taste of their process, and how they would collaborate cross-functionally. The goal is to test their core role knowledge about design, to understand their technical knowledge, and how they think about information architecture.
-
-### Questions
-
-Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn't.
-
-Ask follow up questions:
-
-- Why do you think this was done this way?
-- What works well?
-- Pick two critical user journeys, one that works well for you as a user, one that doesn't.
-- How would you change it?
-- Continue asking why repeatedly.
-
-## Exercise 2 (~60 min): Sourcegraph exercise
+## Exercise (~75 min): Sourcegraph exercise
 
 ### Purpose/goal
 
@@ -50,9 +29,9 @@ Our goal with this segment of the interview is to approach a problem as if it we
 
 #### Please note:
 
-The chosen problem has been implemented, so interviewers will need to role-play their involvement slightly. Our goal is to make the exercise as close to a collaborative working session as possible. This does not mean our solution is the right or best solution, and we are not evaluating the outcomes of this session against what we’ve done in the past.
+It is very important to everyone at Sourcegraph that no exploitation of designer's time occurs during this interview stage. However, we do feel that working on a realistic problem is the best way for the candidate and teams to get to know each other. To solve for this delima, we have chosen a problem we have already researched, designed, and implemented. Additionally, we place the focus of our exercise on collaboration, not the final outcome.
 
-We are not providing the interview ahead of time to ensure all candidates have equal time to devote to the problem, regardless of external commitments. This means the session will be contrary to our typically async method of working, but we feel it is more important to respect the candidate’s time than to replicate our process exactly.
+Additionally, we are not providing the interview ahead of time to ensure all candidates have equal time to devote to the problem, regardless of external commitments. This means the session will be contrary to our typically async method of working, but we feel it is more important to respect the candidate’s time than to replicate our process exactly.
 
 #### We will evaluate the following:
 

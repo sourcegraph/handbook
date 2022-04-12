@@ -1,15 +1,15 @@
 # Mentorship Program Operations
 
-Surveys and other forms related to the _Find a mentor, Be a mentor_ program live in a [mentorship](https://drive.google.com/drive/folders/12DxFq8hWuTS7E0t5jGEQXGqCaMbLloDz?usp=sharing) folder.
+Surveys and other forms related to the _Find a mentor, Be a mentor_ program live in a [mentorship](https://drive.google.com/drive/folders/0AJBgOCi3aBydUk9PVA) folder. If you need collaborator access to an item in this folder, contact a program champion to add you.
 
 ## Champions
 
 The committee of mentorship program champions are the designated owners and maintainers of the [_Find a mentor, Be a mentor_ program](./index.md). As it is inherently cross-functional, the committee is composed of representatives from engineering, product, CS, and people ops. The current representatives are:
 
-- Bio link (CS)
+- [Stompy Mwendwa](../../team/index.md#stompy-mwendwa) (CS)
 - [Kelli Rockwell](../../team/index.md#kelli-rockwell) (Engineering)
-- Bio link (Engineering)
-- Bio link (Product)
+- [Joe Chen](../../team/index.md#joe-chen) (Engineering)
+- [Marisa Kanemoto](../../team/index.md#marisa-kanemoto) (Product)
 - [Inés Roitman](../../team/index.md#inés-roitman) (People Ops)
 
 The responsibilities of the mentorship program champions are 3-fold:

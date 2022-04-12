@@ -24,7 +24,7 @@ While these pages still remain (due to a lot of useful resources that have yet t
 
 - [Observability at Sourcegraph](../tools/observability/index.md)
 - [Observability developer guide](https://docs.sourcegraph.com/dev/background-information/observability)
-- [Managed instances](../cloud/delivery/managed/index.md)
+- [Managed instances](../cloud/devops/managed/index.md)
 - [Collecting and inspecting metrics dumps](metrics_dumps.md)
 - [How to set up a separate website maintained by Sourcegraph](separate_website.md)
 - [How to simulate k8s admin security restrictions](k8s_admin_custom_policy.md)

@@ -3,6 +3,7 @@
 - [Brighthire](guide_to_using_brighthire.md)
 - [Greenhouse](guide_to_using_greenhouse.md)
 - [Talentwall](guide_to_using_talentwall.md)
+- [GoodTime](guide_to_using_goodtime.md)
 - [Interview Training](interview_training.md)
 - [Resources for Candidates](resources_for_candidates.md)
 - [Resources for Hiring Managers](resources_for_hiring_managers.md)

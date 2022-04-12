@@ -28,14 +28,25 @@ As of 2022-03-10, managed instance is not the recommended deployment method for 
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX/p1646784843000319) for any answers or information missing from this page.
+Please message [#cloud-devops] for any answers or information missing from this page.
 
-## Requesting a managed instance
+## Managed Instance Requests
 
-After ruling out a self-hosted, and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed), Customer Engineers should:
+Customer Engineers (CE) or Sales may request to:
 
-1. Submit a request to the Delivery team via the [Managed Instance Request](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=new_managed_instance.md&title=) issue template in the sourcegraph/customer repo
-2. Message the team in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=new_managed_instance.md&title=)]
+  - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
+  - For new customers or prospects who currently do not have a managed instance.
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-suspend.md&title=)]
+  - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)]
+  - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+
+### Workflow
+
+1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
+2.  If approved, then CE submits a request to the Delivery team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+3.  Message the team in [#cloud-devops].
 
 ## SLAs for managed instances
 
@@ -82,6 +93,7 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
   Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
+- **Cloudflare protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF.
 
 ### Access
 
@@ -101,9 +113,9 @@ All customer credentials, secrets, site configuration, app and user configuratio
 
 ### FAQ: Can customers disable the "Builtin username-password authentication"?
 
-No, this is required in order for Sourcegraph to access the instance and debug issues through the initial admin account.
+Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, it does not need to be used by the customer or their users at all. The default login method can be configured to their SSO provider of choice.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
 
 ### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
 
@@ -116,3 +128,5 @@ Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400:
 Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
 
 To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
+
+[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG

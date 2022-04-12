@@ -1,14 +1,16 @@
 # Product documentation
 
-These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/doc). See [editing the handbook](../../../../handbook/editing/index.md) for how to contribute handbook content.
+These guidelines are for contributing documentation to the [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/main/doc). See [editing the handbook](../../../../handbook/editing/index.md) for how to contribute handbook content.
 
 ## Contributing
 
 Whenever a feature is changed, updated, introduced, or [deprecated](../../product/process/deprecation_process.md), the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
 
-The developer who made the code change is also [responsible](../roles/index.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
+The developer who made the code change is also [responsible](../roles/index.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. This includes updating [the changelog as well](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/CHANGELOG.md). At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
 
 For documentation changes that introduce new HTML/CSS/JS patterns to the docs site, the author should tag `@frontend-devs` as an additional reviewer on the pull request.
+
+The [changelog](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) should also be updated for any changes that impact the user.
 
 It's the [responsibility of the Product Manager](../../product/roles/index.md#product-manager) to ensure all features are shipped with documentation (i.e., that nothing slips through), whether is a small or big change.
 
@@ -16,7 +18,7 @@ We use the [monthly release blog post](https://about.sourcegraph.com/blog) as a 
 
 ### Local development of documentation only
 
-For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/). The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/master/doc/dev/local_development.md), is not required.
+For local development of documentation, clone the main [sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/main/). The development environment for Sourcegraph, detailed in [Getting started with developing Sourcegraph](https://github.com/sourcegraph/sourcegraph/blob/main/doc/dev/local_development.md), is not required.
 
 After saving any changes or updates, documentation can be previewed locally with the following commands:
 
@@ -49,7 +51,7 @@ For large images and other binary assets, upload them to the `sourcegraph-assets
 This advice currently pertains to [Sourcegraph administration documentation](https://docs.sourcegraph.com/admin) and [Distribution documentation](../distribution/index.md).
 
 - Try to avoid repeating information. Instead, find the most relevant home for a piece of information, and link to it from where you want it so that the information can be easily found and referenced from other places.
-  - e.g. [Deployments playbooks](deployments/playbooks.md), [Managed instances operations](../cloud/delivery/managed/operations.md), [Docker Compose operations guides](https://docs.sourcegraph.com/admin/install/docker-compose/operations)
+  - e.g. [Deployments playbooks](deployments/playbooks.md), [Managed instances operations](../cloud/devops/managed/operations.md), [Docker Compose operations guides](https://docs.sourcegraph.com/admin/install/docker-compose/operations)
 - Instead of adding an FAQ item, try to add the information in a more agnostic format to the relevant documents first, so that it can easily be found and referenced from other places.
   - e.g. instead of "How do I do X when Y for Z?", try "Do X" with a section for "Y" situation in the relevant documents for "Z"
   - If a FAQ item still feels prudent, link to the guide from the FAQ instead of repeating the information.

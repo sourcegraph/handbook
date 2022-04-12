@@ -437,6 +437,36 @@ _TARGET_DISK_SIZE has to be equal or larger than the original source disk._
 
 There is an [alias command](https://cloud.google.com/sdk/gcloud/reference/compute/disks/move) that performs the `snapshot -> restore` operation automatically to switch regions, but it fails on big disks.
 
+## Changing Persistent Volume disk or other immutable parameters (PV replacement)
+
+As changing i.e. `gcePersistenDisk` or most PVs parameters are not allowed, steps to replace the PV with minimal downtime period:
+
+1. Prepare new disk - use `Changing a GCE disk zone or type` paragraph above.
+2. Create new PV yaml file:
+
+- for production - [sample here](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/base/indexed-search)
+- for preprod - [sample here](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/overlays/preprod/indexed-search). For preprod, also add new PV to the [kustomization resources list](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/overlays/preprod/indexed-search/kustomization.yaml#L7)
+
+3. Apply new changes via opening, approving and merging PR to `release`(production)/ `preprod`(preprod) branches.
+4. Check if new PV is available - `kubectl get pv -n prod`.
+5. Prepare PR with old PV removal - for prod, should be deleted in [base folder](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/base), from preprod, in [overlays](https://github.com/sourcegraph/deploy-sourcegraph-cloud/tree/release/overlays/preprod).
+6. Delete PV and PVC which should be replaced - via `kubectl`.
+
+```
+kubectl delete pv <PV-to-be-removed>
+kubectl delete pvc <PVC-to-be-replaced> -n prod
+```
+
+7. Merge PR from step 5 - this will invoke deploy again, to recreate PVC:
+
+- via [buildkite job](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud) - branch `release` for production, branch `preprod` for preprod.
+
+8. Verify that new PV is used (should be in `Bound` status):
+
+```
+kubectl get pv
+```
+
 ## Linking a PV/PVC to a GCE disk
 
 When we need to re-link a disk to a PersistentVolume and its associated PersistentVolumeClaim because we are restoring a disks from a snapshot or for some other reasons, we will need to adapt the Kubernetes resource definitions to link the existing GCE disk to GKE.
