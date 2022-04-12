@@ -47,7 +47,7 @@ We inherit Sourcegraph's [engineering principles and practices](../../process/pr
 
 ## Processes
 
-Read more about [how this team works](processed.md).
+Read more about [how this team works](processes.md).
 
 ## Useful resources
 
