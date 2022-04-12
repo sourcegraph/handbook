@@ -1,4 +1,4 @@
-# Frontend Platform Goals and Roadmap
+# Frontend Platform strategy
 
 The Frontend Platform team, by the nature of their purpose, does not follow a traditional product roadmap and instead focuses on high-impact projects aligned with the company's OKRs.
 
