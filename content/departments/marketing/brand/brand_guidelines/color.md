@@ -117,7 +117,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <code>#ffc247</code>
       <small>Orange</small>
     </div>
-    <div class="color color-sm" style="--color: #ff9933; color: white;">
+    <div class="color color-sm" style="--color: #ff9933; color: white">
       <code>#ff9933</code>
       <small>Carrot</small>
     </div>
