@@ -29,6 +29,7 @@ See a short demo of our Datadog [integration](https://www.loom.com/share/27ae324
   - [Monitors](#monitors)
   - [Managing Datadog resources](#managing-datadog-resources)
     - [FAQ](#faq)
+  - [Running Datadog](#running-datadog)
 
 ## Login
 
@@ -88,3 +89,33 @@ During the first part of trial period, terraform will be only importing changes 
 
 1. Cannot search and group logs by field from the log.
    - Ensure that field is a [facet](https://docs.datadoghq.com/logs/explorer/facets/#create-facets).
+
+## Running Datadog
+
+To run the agent locally, you can run the agent in docker with the following command:
+```
+docker run -d --cgroupns host \
+              -v /var/run/docker.sock:/var/run/docker.sock:ro \
+              -v /proc/:/host/proc/:ro \
+              -v /sys/fs/cgroup/:/host/sys/fs/cgroup:ro \
+              -p 127.0.0.1:8126:8126/tcp \
+              -e DD_API_KEY=<DD_API_KEY>     \
+              -e DD_APM_ENABLED=true \
+            gcr.io/datadoghq/agent:latest
+```
+
+You will also need to modify the site-config (typically dev-private) to specify the other tracer
+
+```patch
+   "observability.tracing": {
+     "sampling": "selective",
+-    "type": "opentracing"
++    "type": "datadog"
+   },
+```
+
+Lastly, run Sourcegraph with the following command:
+`DD_ENV=dev DD_PROFILE_ALL=true sg start`
+These env vars are need to ensure Zoekt uses the Datadog agent.
+
+You can access the traces the same way as specified [here](https://docs.sourcegraph.com/admin/observability/tracing)
