@@ -25,7 +25,6 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 - New members [onboarding guide](./security-onboarding.md)
 
-
 ## Security infrastructure and tooling
 
 See [tooling](./tooling/index.md) for a list of active tools we use and
