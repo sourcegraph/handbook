@@ -11,3 +11,7 @@ In other words, pick the workflow you want, as long as you implement this interf
 - **teams have a Backlog column on their board**
 
 Note that customers are not expected to follow this process and cannot label issues. The [PM on feedback rotation](../product/process/ product_feedback_rotation) makes sure that issues submitted by users outside Sourcegraph get labeled properly, so that they get on the owning team's radar.
+
+#### Surfacing issues to the design team
+
+Issues that need design work can be tagged with the `needs-design` label.
