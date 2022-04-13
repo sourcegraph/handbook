@@ -67,6 +67,8 @@ Different specs are required depending on your role, please see below for necess
 
 Please fill out this form [this form](https://forms.gle/8T41EQmxcH8JN2Fx9) and Tech Ops will get you a Sourcegraph device. While we will do everything we can to get you the same specifications as below, availability will depend on the stock of devices we have available and the particular responsibilities of the work you will be doing during your internship. Typically, these devices are an older models than what we order new. Interns should adhear to our [computer requirements](../../departments/tech-ops/tools/computer-setup.md) for setting up their Sourcegraph device.
 
+All devices will need to be shipped back to Sourcegraph at the end of the internship. Please contact #it-tech-ops to arrange returns.
+
 ### Laptop Specs
 
 #### Customer Engineering team laptops:
@@ -129,9 +131,13 @@ If you would like to upgrade to the new M1 Pro but you have had your current lap
 - **Cell phone plan:** $75/month
 - **Wellness:** $100/month
 
-**Co-working/office space:** $300–500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space. This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included.
+**Co-working/office space:** $300–500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space.
 
-You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a _day-to-day drop in basis_ or a _month-to-month basis_ for ease of monthly reimbursement. The Company will not cover the cost of a co-working space deposit or sign for coworking space contracts. Additionally, if you would like to setup a group co-working space with pooled teammate funds, please send a message to People Ops and Finance stating Name(s) and Team Role(s), Location of space, and estimated monthly cost. For group rentals, we recommend one person submit a monthly invoice and tag all attendees.
+This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included. When submitting for transportation reimbursement for coworking space a **receipt must be included regardless of amount**.
+
+You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a _day-to-day drop in basis_ or a _month-to-month basis_ for ease of monthly reimbursement.
+
+The Company will not cover the cost of a co-working space deposit or sign for coworking space contracts. Additionally, if you would like to setup a group co-working space with pooled teammate funds, please send a message to People Ops and Finance stating Name(s) and Team Role(s), Location of space, and estimated monthly cost. For group rentals, we recommend one person submit a monthly invoice and tag all attendees.
 
 > Note: This budget is meant to be an average cost of co-working spaces,
 > and serves as a recommendation. It should be dependent on the average

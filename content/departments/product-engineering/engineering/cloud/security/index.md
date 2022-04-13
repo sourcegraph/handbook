@@ -4,7 +4,7 @@
   <img src="https://storage.googleapis.com/sourcegraph-assets/security-team-logo.jpg" width="50%" alt="Shielding Sourcegraph from attackers">
 </div>
 
-We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and increasing our security stance over time.
+We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and improving our security stance over time.
 
 ## Members
 
@@ -13,7 +13,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 ## Contact
 
 - [security@sourcegraph.com](mailto:security@sourcegraph.com)
-- #security channel Slack.
+- #security channel on Slack.
 - @sourcegraph/security on GitHub.
 - [report a vulnerability](reporting-vulnerabilities.md)
 
@@ -25,9 +25,11 @@ See [security goals and priorities](../../../../../strategy-goals/strategy/cloud
 
 - New members [onboarding guide](./security-onboarding.md)
 
-## Security Tooling
+## Security infrastructure and tooling
 
-See [tooling](./tooling/index.md) for a list of active tools we use.
+See [tooling](./tooling/index.md) for a list of active tools we use and
+[infrastructure](./infrastructure/index.md) for more information on the infrastructure
+that we maintain.
 
 ---
 
@@ -40,7 +42,6 @@ See [tooling](./tooling/index.md) for a list of active tools we use.
   - https://github.com/sourcegraph/security-issues
 - Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
   - https://github.com/sourcegraph/sourcegraph/security/code-scanning
-  - [Infrastructure information](./infrastructure/index.md)
   - [Security tooling](./tooling/index.md)
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 - Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
@@ -158,7 +159,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
    <td>Repo management
    </td>
-   <td>David
+   <td>Feroz
    </td>
   </tr>
   <tr>
@@ -190,7 +191,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
    <td>Growth and Integrations
    </td>
-   <td>David
+   <td>Feroz
    </td>
   </tr>
   <tr>
@@ -206,7 +207,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
    <td>Cloud Saas
    </td>
-   <td>David
+   <td>Feroz
    </td>
   </tr>
   </table>
