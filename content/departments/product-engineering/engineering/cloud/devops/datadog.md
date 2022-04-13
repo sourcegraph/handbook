@@ -20,13 +20,13 @@ See a short demo of our Datadog [integration](https://www.loom.com/share/27ae324
 - [Content](#content)
   - [Login](#login)
 - [Use cases](#use-cases)
-    - [Dashboards](#dashboards)
-    - [Metrics](#metrics)
-    - [Logs](#logs)
-    - [APM and traces](#apm-and-traces)
-    - [Synthetic tests](#synthetic-tests)
-    - [Real User Monitoring](#real-user-monitoring)
-    - [Monitors](#monitors)
+  - [Dashboards](#dashboards)
+  - [Metrics](#metrics)
+  - [Logs](#logs)
+  - [APM and traces](#apm-and-traces)
+  - [Synthetic tests](#synthetic-tests)
+  - [Real User Monitoring](#real-user-monitoring)
+  - [Monitors](#monitors)
   - [Managing Datadog resources](#managing-datadog-resources)
   - [FAQ](#faq)
     - [Running Datadog](#running-datadog)
@@ -133,4 +133,5 @@ To enable Datadog on Cloud, you need to:
      "type": "datadog"
    },
 ```
+
 1. Set the env var "DD_ENV" on the indexed-search service. This should be set to the environment its being deployed to, ie "dev", "staging", "prod".
