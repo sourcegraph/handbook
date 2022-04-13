@@ -23,7 +23,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
   - [Mutual Action Plan (MAP)](#mutual-action-plan)
   - [Return on Investment (ROI)](#return-on-investment)
 - [Day-to-Day Activities](#day-to-day-activities)
-  - [Order Forms and NDAs](#order-forms-and-NDAs)
+  - [Order Forms and NDAs](#order-forms-and-ndas)
   - [Forecasting](#forecasting)
 - [Film Study](#film-study)
 
