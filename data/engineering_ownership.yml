@@ -786,3 +786,30 @@ webhooks:
   category: Web App - Core Feature
   title: Webhooks
   type: Product
+
+github:
+  category: Tooling
+  title: GitHub
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  slack_channels: '#dev-experience'
+  ownership_model: Owner
+
+github_applications:
+  category: Tooling
+  title: GitHub Applications (incl. 3rd party apps)
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  slack_channels: '#dev-experience'
+  ownership_model: Owner
+
+cla_bot:
+  category: Tooling
+  title: Contributor Licence Agreement Bot (cla-bot)
+  type: Tech
+  product_org: enablement
+  product_team: dev_experience
+  slack_channels: '#dev-experience'
+  ownership_model: Owner
