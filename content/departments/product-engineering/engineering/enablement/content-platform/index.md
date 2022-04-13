@@ -44,7 +44,7 @@ The Content Platform team helps with updates or changes to the various [sites we
 
 #### Service level agreements (SLAs)
 
-- **Initial response:** All requests will be (triaged)[#triaging-incoming-requests] within one business day. 
+- **Initial response:** All requests will be (triaged)[#triaging-incoming-requests] within one business day.
   - **Urgent requests:** If your request is urgent, flag it in the #content-platform channel or contact the Content Platform [Product Manager](#members) directly so they can respond as soon as possible. Urgent requests are issues impacting customers' ability to interact with our sites, issues blocking an essential part of a current marketing campaign, or potentially other requests defined on a case-by-case basis.
 - **Resolution:**
   - **Non-urgent requests** will be resolved by a due date agreed upon by the team and the requestor as part of triage.
@@ -138,7 +138,7 @@ You can view our [Current Sprint](https://github.com/orgs/sourcegraph/projects/2
 
 - _Overview:_ Bi-weekly call with all the teammates to plan the next sprint.
 - _Goal:_ Plan and estimate the issues for the next sprint based on priorities and define a sprint goal.
-- _When:_ Monday 
+- _When:_ Monday
 
 #### Bi-weekly Sync Meeting
 
