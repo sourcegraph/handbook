@@ -1976,16 +1976,6 @@ adam_greenhalgh:
   email: you@sourcegraph.com
   description: Adam is from Park City, Utah and has lived in a few different cities since including New York City,Los Angeles, and currently - Salt Lake city. Adam received an MBA from the University of Utah in 2017 and has 4 years of experience in marketing strategy,analytics and operations. Adam likes to travel and enjoys finding new restaurants. He also has picked up a bunch of Hobbies since returning to Utah that include Mountain Biking, Hiking, Skiing/Snowboarding and golfing. He is excited about a side project he is working on that involves growing a quality crewneck sweatshirt business.
 
-david_sandy:
-  name: David Sandy
-  pronouns: he/him
-  role: Security Engineer
-  reports_to: security_engineering_manager
-  location: St. Paul, MN, US 🇺🇸
-  github: david-sandy
-  email: david.sandy@sourcegraph.com
-  description: David spends his time playing video games, watching Netflix/Hulu, playing chess, MTG, reading World War II history and performing other mandatory nerd related activites.
-
 devon_thompson:
   name: DeVon Thompson
   pronouns: she/her
