@@ -23,7 +23,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
   - [Mutual Action Plan (MAP)](#mutual-action-plan)
   - [Return on Investment (ROI)](#return-on-investment)
 - [Day-to-Day Activities](#day-to-day-activities)
-  - [Order Forms](#order-forms)
+  - [Order Forms and NDAs](#order-forms-and-NDAs)
   - [Forecasting](#forecasting)
 - [Film Study](#film-study)
 
@@ -142,11 +142,16 @@ In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/sp
 
 ## Day-to-Day Activities
 
-### Order Forms
+### Order Forms and NDAs
 
 You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fAgfP1bWT3IimI3/view) on where order forms are, how to fill them out, how to docusign the form and how to close a deal once you have a signed order.
 
+Walkthrough Edits:
+  - For the Customer field, the first field in the top left of the order form, when you are setting up the docusign, please use the "Company" field and not the "Name" field. The customer should put the company name in this field, not the signer's name.
+
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
+
+[Follow this flow to get a NDA signed by a customer](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239). If it's your first time, please follow [Tammy's NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view). 
 
 ### Forecasting
 
