@@ -114,7 +114,7 @@ For teammates that do not currently hold a visa but are looking to initiate a ca
 
 #### Sourcegraph will not consider initiating new petitions prior to their 1-year mark
 
-For candidates in need of sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition and given that we have the ability to sponsor said visa. 
+For candidates in need of sponsorship that require a new visa, we will agree to sponsor new visas for teammates so long as they have worked at Sourcegraph a minimum of 12 consecutive months prior to initiating a visa petition and given that we have the ability to sponsor said visa.
 
 Sourcegraph does not have the ability to sponsor F-1 extension visas (OPT).
 
