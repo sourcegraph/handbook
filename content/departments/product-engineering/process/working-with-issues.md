@@ -6,4 +6,3 @@ Product-engineering teams are free to adopt the workflow they want for planning 
 - **the only thing needed to surface an issue to a team is to add its team label to the issue** (eg. `team/batchers`). It's the responsibility of each team to setup the right process or [automation](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to make that happen. Note that this does not guarantee that this issue will be prioritized and worked on, just that it will be on the team's radar.
 - **teams have a Triage column on their board**, where everybody (including automation) can add things for prioritization
 - **teams have a Backlog column on their board**
-
