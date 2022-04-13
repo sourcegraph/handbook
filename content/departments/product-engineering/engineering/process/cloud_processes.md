@@ -37,3 +37,7 @@ DELETE * FROM settings WHERE org_id = $ORG_ID;
 ```sql
 DELETE * FROM orgs WHERE id = $ORG_ID;
 ```
+
+### Other useful queries
+
+A list of useful DB queries can be found in this Google Sheet: https://docs.google.com/spreadsheets/d/1Z1-7uJwtF2etZFeqTcJS4z9WcAjKlkCxt8HQ931D3dA
