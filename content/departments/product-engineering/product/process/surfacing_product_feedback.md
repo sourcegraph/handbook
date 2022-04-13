@@ -69,5 +69,5 @@ If you are uncomfortable posting feedback directly for any reason at all, you ar
 
 ## Surfacing internal feedback or requests
 
-- Any teammate can open an issue for consideration by a product-engineering team, and assign the team's label. Product-engineering teams each have their own workflow for triaging issues, but use [common principles](../../working-with-issues.md)
+- Any teammate can open an issue for consideration by a product-engineering team, and assign the team's label. Product-engineering teams each have their own workflow for triaging issues, but use [common principles](../../process/working-with-issues.md)
 - The #wg-dogfood is currently working on improving this process.
