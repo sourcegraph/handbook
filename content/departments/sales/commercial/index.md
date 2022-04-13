@@ -149,6 +149,7 @@ You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fA
 Walkthrough Edits:
 
 - For the Customer field, the first field in the top left of the order form, when you are setting up the docusign, please use the "Company" field and not the "Name" field. The customer should put the company name in this field, not the signer's name.
+- For the email fields near the top of the first page of the order form, please use the "Text" field in docusign when labeling them for customer inputs.
 
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
 
