@@ -55,7 +55,7 @@ Read more about [how this team works](processes.md).
 
 ## Growth plan
 
-We aren't currently hiring to expand our team.
+We're hiring a Product Designer to join our team. [Come work with us!](https://boards.greenhouse.io/sourcegraph91/jobs/4340040004?t=c685479c4us)
 
 ## Tech stack
 
