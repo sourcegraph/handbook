@@ -1,6 +1,11 @@
 # Product and Engineering planning philosophy
 
-We're a rapidly growing company so [our planning processes](planning-process.md) will continuously evolve. These principles and philosophy guide us as we build and evolve our processes.
+We're a rapidly growing company so [our planning processes](planning-process.md) will continuously evolve. These principles and philosophy guide us as we build and evolve our processes. Some of the foundational elements that we believe enable good planning are:
+
+- Perform incremental planning throughout the year, rather than "big bang" quarterly or yearly planning sprints
+- Provide clear timelines and deliverables for teams around OKR setting and roadmap changes
+- Involve the right people at the right time in key planning decisions
+- Create more time and space to focus on our strategic business objectives
 
 ## A good strategy provides focus
 

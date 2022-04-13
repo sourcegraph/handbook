@@ -2,8 +2,8 @@
 
 ## How to request
 
-1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-teardown.md&title=)
-2. Notify Delivery in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, linking to the issue
+1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
+2. Notify Delivery in [#cloud-devops] channel, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
 
@@ -279,3 +279,5 @@ This [Github Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aope
 
 The teardown request ticket should now have references back to the pull requests showing the necessary changes.
 At this time the teardown request ticket from CE can be marked as Completed.
+
+[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG

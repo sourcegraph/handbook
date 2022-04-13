@@ -21,7 +21,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
   - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
-- [Managed instances](./managed/index.md)
+- ~[Managed instances](../devops/managed/index.md)~ managed instances are owned by the [DevOps] team
 - ~~[Sourcegraph releases](../../process/releases/index.md)~~ releases are owned by the [Release Guild](../../process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact
@@ -77,3 +77,5 @@ We also have a set of [guiding principles](../../../../../strategy-goals/strateg
 - [Onboarding](onboarding.md)
 - [Customers](customers/index.md)
 - [What we need from our directors](delivery-directors.md)
+
+[devops]: ../devops/index.md
