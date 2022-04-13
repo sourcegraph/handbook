@@ -2950,3 +2950,14 @@ sarah_dunn:
   reports_to: vp_sales_western_region
   location: Bellingham, WA
   description: Sarah lives in Bellingham, WA with her husband and dog. Prior to Sourcegraph, Sarah gained experience working at Xactly, Lessonly, and Salesloft helping organizations transform and accelerate their go-to-market motions. When not working, Sarah can be found outside biking, skiing, running, hiking and swimming.
+
+naman_kumar:
+  name: Naman Kumar
+  email: naman.kumar@sourcegraph.com
+  github: thenamankumar
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_growth
+  location: New Delhi, IN
+  links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
+  description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Source Graph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
