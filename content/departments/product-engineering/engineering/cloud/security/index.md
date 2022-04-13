@@ -158,7 +158,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
    <td>Repo management
    </td>
-   <td>David
+   <td>Feroz
    </td>
   </tr>
   <tr>
@@ -190,7 +190,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
    <td>Growth and Integrations
    </td>
-   <td>David
+   <td>Feroz
    </td>
   </tr>
   <tr>
@@ -206,7 +206,7 @@ In an effort to work closely with our teammates and shift security focus more in
    </td>
    <td>Cloud Saas
    </td>
-   <td>David
+   <td>Feroz
    </td>
   </tr>
   </table>
