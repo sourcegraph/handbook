@@ -9,3 +9,6 @@ In other words, pick the workflow you want, as long as you implement this interf
 - **the only thing needed to surface an issue to a team is to add its team label to the issue** (eg. `team/batchers`). It's the responsibility of each team to setup the right process or [automation](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to make that happen. Note that this does not guarantee that this issue will be prioritized and worked on, just that it will be on the team's radar.
 - **teams have a Triage column on their board**, where everybody (including automation) can add things for prioritization
 - **teams have a Backlog column on their board**
+
+
+Note that customers are not expected to follow this process and cannot label issues. The [PM on feedback rotation](../product/process/ product_feedback_rotation) makes sure those issues get labeled properly, so that they get on the owning team's radar.
