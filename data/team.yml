@@ -2950,3 +2950,17 @@ sarah_dunn:
   reports_to: vp_sales_western_region
   location: Bellingham, WA
   description: Sarah lives in Bellingham, WA with her husband and dog. Prior to Sourcegraph, Sarah gained experience working at Xactly, Lessonly, and Salesloft helping organizations transform and accelerate their go-to-market motions. When not working, Sarah can be found outside biking, skiing, running, hiking and swimming.
+
+josé_taylor:
+  name: José Taylor
+  email: jose.taylor@sourcegraph.com
+  github: josetaylor06
+  pronouns: he/him
+  role: Senior Customer Engineer
+  reports_to: senior_manager_customer_engineering_west
+  location: San Antonio, TX
+  links: '[Personal Website](https://iamjosetaylor.com), [LinkedIn](https://www.linkedin.com/in/josetaylor06/)'
+  pronunciation: Hose-a
+  description:  José has 5+ years experience in account management, customer success and strategic planning. As a non-traditional student, he appreciates others who come from a diverse background and are passionate about what they do. Outside of work, he enjoys the outdoors, challenging himself by trying new/different things, motivating others and being a father. Feel free to recommend any music you listen to at work or collaborate on a playlist.
+  
+  
