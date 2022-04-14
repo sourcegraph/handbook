@@ -34,7 +34,11 @@ SCHEDULE COMING SOON!
 
 ### VISAs We Accept
 
-COMING SOON!
+#### F1 Student VISA
+
+If you are on a current F1 Student VISA and eligible to work in the US for the duration of the internship program, we will gladly still consider you for our internship roles. If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. Any other VISA requirements will need to be handled between you and your university.
+
+Read more about our VISA policies for full-time employees here.
 
 ### Helpful Links
 
