@@ -1,6 +1,6 @@
 # Cohort for LGBTQUIA2s+
 
-_Known informally by the name of the group’s private Slack channel, #queer._ 
+_Known informally by the name of the group’s private Slack channel, #queer._
 
 ## What is the cohort?
 
