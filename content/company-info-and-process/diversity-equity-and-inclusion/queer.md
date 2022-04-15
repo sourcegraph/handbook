@@ -4,7 +4,7 @@ _Known informally by the name of the group’s private Slack channel, #queer._
 
 ## What is the cohort?
 
-The cohort is an employee-led opt-in group for fostering inclusivity, community, and connectedness amongst members of the LGBTQIA2S+ community. The cohort fits the traditional definition of an “Employee Resource Group (ERG)” (a network of employees who share certain characteristics, background, or experiences that is sponsored by the organization they work for), but for the purposes of keeping the group’s methodology light and unrestrictive, we prefer in most settings to refer to it as a “cohort” instead.
+The cohort is an employee-led opt-in group for fostering inclusivity, community, and connectedness amongst members of the LGBTQIA2S+ (Lesbian, Gay, Bisexual, Transgender, Queer, Questioning, Intersex, Asexual, 2 Spirit, and others) community. The cohort fits the traditional definition of an “Employee Resource Group (ERG)” (a network of employees who share certain characteristics, background, or experiences that is sponsored by the organization they work for), but for the purposes of keeping the group’s methodology light and unrestrictive, we prefer in most settings to refer to it as a “cohort” instead.
 
 ## Who can join the cohort?
 
