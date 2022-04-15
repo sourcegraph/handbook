@@ -161,6 +161,8 @@ In addition to the company-wide channels that are outlined at the top of this pa
 
 #### Employee Resource/Identity
 
+- #gender-diversity-allies - ([group page](../diversity-equity-and-inclusion/gender-diversity.md)) For folks who do not identify as cisgender male. Allies welcome!
+- #gender-diversity-internal - Private counterpart to the above. We ask allies refrain from joining. Submit your email address to [this form](https://forms.gle/71YXaxz8WX1Mmbkw5) to be automatically added.
 - #queer - ([group page](../diversity-equity-and-inclusion/queer.md)) For LGBTQIA2+ folks—questioning welcome! Submit your email address to [this form](https://forms.gle/JABVzFYqkFkpU21u5) to be automatically added.
 
 #### Product
