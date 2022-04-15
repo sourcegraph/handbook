@@ -1565,6 +1565,19 @@
         ]
     }
 },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "José Taylor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4492,
+          -98.4595
+        ]
+      }
+    },
    {
       "type": "Feature",
       "properties": {
