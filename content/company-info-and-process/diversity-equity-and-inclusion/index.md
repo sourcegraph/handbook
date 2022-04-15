@@ -3,6 +3,7 @@
 ## Resources
 
 - [Gender Diversity Allies and ERG](./gender-diversity.md)
+- [Queer and Trans ERG](./queer.md)
 - [Personal pronouns](./personal-pronouns.md)
 
 ## Strategy
