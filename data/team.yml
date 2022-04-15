@@ -1514,7 +1514,7 @@ yink_teo:
   github: yinquanteo
   email: yink@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/yinquanteo/), [@yinquanteo](https://twitter.com/yinquanteo)'
-  description: 'Yink is a Singapore🇸🇬 native and lives in San Francisco with his wife and [cat](http://instagram.com/maotheexplorer). He occassionally works on the road in his campervan. Before Sourcegraph, Yink held leadership roles at big and small tech companies and the Singapore military. Most recently, he led a product infrastructure org in Twitter Ads where he joined via an acquisition. He loves putting on sunblock to wakeboard, paddleboard, or kiteboard. If you come visit, he will probably make you a chirashi-don and matcha crème brûlée. Just bring some good 🍶/🍷/🧋. He dreams of the day Arsenal Football Club winning the Premier League. Yink has a B.S. in Electrical and Computer Engineering from Duke University.'
+  description: 'Yink is a Singapore🇸🇬 native and lives in San Francisco with his wife and [cat](http://instagram.com/maotheexplorer). He occassionally works on the road in his campervan. Before Sourcegraph, Yink held leadership roles at big and small tech companies and the Singapore military. Most recently, he led a product infrastructure org in Twitter Ads where he joined via an acquisition. He loves to wakeboard, paddleboard, or kiteboard. If you come visit, he will probably make you a chirashi-don and matcha crème brûlée. Just bring some good 🍶/🍷/🧋. He dreams of the day Arsenal Football Club winning the Premier League. Yink has a B.S. in Electrical and Computer Engineering from Duke University.'
 
 milan_freml:
   name: Milan Freml
@@ -2961,3 +2961,26 @@ naman_kumar:
   location: New Delhi, IN
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
   description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Source Graph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
+
+josé_taylor:
+  name: José Taylor
+  email: jose.taylor@sourcegraph.com
+  github: josetaylor06
+  pronouns: he/him
+  role: Senior Customer Engineer
+  reports_to: senior_manager_customer_engineering_west
+  location: San Antonio, TX
+  links: '[Personal Website](https://iamjosetaylor.com), [LinkedIn](https://www.linkedin.com/in/josetaylor06/)'
+  pronunciation: Hose-a
+  description: José has 5+ years experience in account management, customer success and strategic planning. As a non-traditional student and IT professional, he appreciates others who come from a diverse background and are passionate about what they do. Outside of work, he enjoys the outdoors, travelling, challenging himself by trying new/different things, motivating/mentoring others and being a father. Feel free to recommend any music you listen to at work or collaborate on a playlist.
+
+paulo_almeida:
+  name: Paulo Almeida
+  reports_to: design_manager_code_graph
+  pronouns: he/him
+  role: Product Designer, Search
+  location: São Paulo, Brazil 🇧🇷
+  github: almeidapaulooliveira
+  links: '[Website](https://paulo.digital), [LinkedIn](https://www.linkedin.com/in/paul--almeida/)'
+  email: paulo.almeida@sourcegraph.com
+  description: 'Paulo is a designer that endeavors to produce unique experiences and elegant designs. He worked in branding, packaging, and graphic design and has been dedicated to UX disciplines in the last decade, from strategy to visual and interface design. Paulo is also a coding designer who thinks end-to-end the entire process. When not working, he is running on some adventure traveling the world. As a restless observer of the human being, he is always excited about developing thoughtful products that enhance life, work, and play.'
