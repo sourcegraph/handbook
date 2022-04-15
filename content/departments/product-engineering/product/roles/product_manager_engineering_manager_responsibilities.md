@@ -120,6 +120,7 @@ A quick crash course for anyone unfamiliar:
         <li>Make sure iteration goals align with team goals</li>
         <li>Set the iteration goals in consultation with the team</li>
         <li>Prioritize the work for the iteration</li>
+        <li>Make sure features are built in an iterative manner where possible</li>
       </ul>
     </td>
     <td>
