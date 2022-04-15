@@ -107,6 +107,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #fff2cf">
       <code>#fff2cf</code>
+      <small>Yellow Mist</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-lemon)">
       <code>#ffdb45</code>
@@ -114,14 +115,17 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #ffc247">
       <code>#ffc247</code>
+      <small>Orange</small>
     </div>
     <div class="color color-sm" style="--color: #ff9933; color: white">
       <code>#ff9933</code>
+      <small>Carrot</small>
     </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #ffc9c9">
       <code>#ffc9c9</code>
+      <small>Red Mist</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-vermillion); color: white">
       <code>#ff5543</code>
@@ -130,14 +134,17 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #ed2e20; color: white">
       <code>#ed2e20</code>
+      <small style="font-size: 85%">Pomegranate</small>
     </div>
     <div class="color color-sm" style="--color: #c22626; color: white">
       <code>#c22626</code>
+      <small>Poppy</small>
     </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #ffd1f2">
       <code>#ffd1f2</code>
+      <small>Pink Mist</small>
     </div>
     <div class="color color-sm" style="--color: #d62687; color: white">
       <code>#d62687</code>
@@ -145,14 +152,17 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #c4147d; color: white">
       <code>#c4147d</code>
+      <small>Red Violet</small>
     </div>
     <div class="color color-sm" style="--color: #9e1769; color: white">
       <code>#9e1769</code>
+      <small>Disco</small>
     </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #e8d1ff">
       <code>#e8d1ff</code>
+      <small>Violet Mist</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-vivid-violet); color: white">
       <code>#a112ff</code>
@@ -161,14 +171,17 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #820dde; color: white">
       <code>#820dde</code>
+      <small>Electric Violet</small>
     </div>
     <div class="color color-sm" style="--color: #6112a3; color: white">
       <code>#6112a3</code>
+      <small>Seance</small>
     </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #bfbfff">
       <code>#bfbfff</code>
+      <small>Plum Mist</small>
     </div>
     <div class="color color-sm" style="--color: #6b59ed; color: white">
       <code>#6b59ed</code>
@@ -180,11 +193,13 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #3826cc; color: white">
       <code>#3826cc</code>
+      <small>Persian Blue</small>
     </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #c7ffff">
       <code>#c7ffff</code>
+      <small>Blue Mist</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-sky-blue)">
       <code>#00cbec</code>
@@ -193,14 +208,17 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #00a1c7; color: white">
       <code>#00a1c7</code>
+      <small>Pacific Blue</small>
     </div>
     <div class="color color-sm" style="--color: #005482; color: white">
       <code>#005482</code>
+      <small>Orient</small>
     </div>
   </div>
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #c4ffe8">
       <code>#c4ffe8</code>
+      <small>Green Mist</small>
     </div>
     <div class="color color-sm" style="--color: #8fedcf">
       <code>#8fedcf</code>
@@ -208,9 +226,11 @@ Primary logo colors have been marked. The secondary colors, along with shades an
     </div>
     <div class="color color-sm" style="--color: #17ab52; color: white">
       <code>#17ab52</code>
+      <small>Mountain Meadow</small>
     </div>
     <div class="color color-sm" style="--color: #1f7d45; color: white">
       <code>#1f7d45</code>
+      <small>Eucalyptus</small>
     </div>
   </div>
 </div>
@@ -223,32 +243,56 @@ Use supporting colors for added tonality and awareness within website UI.
   <div class="color color-lg" style="--color: var(--sg-light-gray)">
     <h5>Sourcegraph Light Gray</h5>
     <p>Our light gray can add tonality to and create space within layouts.</p>
-    <div><code>#f4f7fb</code></div>
+    <div>
+      <code>#f4f7fb</code>
+      <br />
+      <small>Alice Blue</small>
+    </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-dark-gray); color: white">
     <h5>Sourcegraph Dark Gray</h5>
     <p>Our dark gray can add tonality and depth to layouts.</p>
-    <div><code>#6c757d</code></div>
+    <div>
+      <code>#6c757d</code>
+      <br />
+      <small>Pale Sky</small>
+    </div>
   </div>
   <div class="color color-lg" style="--color: black; color: white">
     <h5>Sourcegraph Space Black</h5>
     <p>Our black is a true black to provide maximum contrast.</p>
-    <div><code>#000000</code></div>
+    <div>
+      <code>#000000</code>
+      <br />
+      <small>Black</small>
+    </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-blurple); color: white">
     <h5>Sourcegraph Blurple</h5>
     <p>Use for button and CTA messages in website UI.</p>
-    <div><code>#5033e1</code></div>
+    <div>
+      <code>#5033e1</code>
+      <br />
+      <small>Blurple</small>
+    </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-action-green); color: white">
     <h5>Sourcegraph Action Green</h5>
     <p>Use for check marks and to signal positive messages in website UI.</p>
-    <div><code>#17ab52</code></div>
+    <div>
+      <code>#17ab52</code>
+      <br />
+      <small>Mountain Meadow</small>
+    </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-alert-red); color: white">
     <h5>Sourcegraph Alert Red</h5>
     <p>Use for alerts and to signal error messages in website UI.</p>
-    <div><code>#ed2e20</code></div>
+    <div>
+      <code>#ed2e20</code>
+      <br />
+      <small>Pomegranate</small>
+    </div>
   </div>
 </div>
 

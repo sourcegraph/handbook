@@ -5,6 +5,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Indexed and unindexed search (Zoekt & Searcher)
 - Diff/commit search
 - Result ranking
+- Open source indexing, current at over 2.5M repos!
 
 To learn more about our goals, see the [Search Core strategy](../../../../../strategy-goals/strategy/code-graph/search/core.md) page.
 
@@ -49,7 +50,9 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 ## Retrospective
 
 - We have a retrospective every two weeks, on Monday. This is a time for us to look back and discuss progress and consider changes to process.
-- Our [action plans and learnings are capture in a document](https://docs.google.com/document/d/1qCSVyu0IU9_w0mpHic3mFS2yqwI1CzZwM9HUp2ySrU4/edit) and we use a Jamboard to capture everyone's thoughts. The theme for the Jamboard rotates.
+- Our [action plans and learnings are capture in a document](https://docs.google.com/document/d/1qCSVyu0IU9_w0mpHic3mFS2yqwI1CzZwM9HUp2ySrU4/edit) is where we capture our action items and discussion.
+- If we are going to have a sync retrospective, we use a Jamboard to capture everyone's thoughts. The theme for the Jamboard can rotate.
+- If we are going to have a async retrospective, we use the Google Doc above to capture our retro.
 
 ## Our Repositories
 
@@ -57,14 +60,34 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 - [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product
 - [Scratchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
 
-## On Boarding
+## Living the Async Life
 
-Public resources are available here:
+Our team is geographically and timezone diverse. The handbook has a [large page dedicated to it](../../../../../company-info-and-process/communication/asynchronous-communication.md) and it is worth reading. This section is intended to augment the handbook. Since our team works across many timezones, setting boundaries for notifications becomes really important to protect your free time. You are empowered to do this and here are a couple of suggestions:
+
+1. Set your working hours in Google. This makes it easier for your teammates to see when you are normally online.
+2. Set your [notification schedule in Slack](https://slack.com/help/articles/214908388-Pause-notifications-with-Do-Not-Disturb).
+3. When you need focus time, enable Mac Focus time and/or set Slack to Do not Disturb.
+4. Google Calendar supports focus time. Block out time on your calendar in 2, 4 or 6 hour intervals where you only work on a particular task. Enable your Focus time (F6 key on Mac keyboard) and set Slack to DND.
+5. Enable Google Calendar in Slack to sync up your Slack status with your Google Calendar.
+6. Setup email filters for GitHub notifications.
+7. Mute conversations in Slack to reduce notifications or leave the channel.
+8. The Slack notification pane on the left side has an option to only show channels that are unread. This hides the channels with no new content and speeds up catching up in Slack.
+9. If things like Google Mail and Calendar are not cutting it for you, try other tools. Some people really like using Spark for email and Fantastical for their calendar. To do list tools like Things and ToDoist are popular and also integration tools like Zapier can be really helpful. Ask in Slack, you will get suggestions.
+
+## How We Work
+
+- For support rotation picking up incidental work. Tasks in support backlog to capture this, more intentional work around support and papercuts versus trying to work normally and getting interupted.
+- Focus on more feature flag driven development to simplify on-premise changes and speed up MTTR for Cloud.
+
+## On Boarding - [visit the page](./onboarding.md)
+
+### Public resources are available here:
 
 - [Learning Go](https://go.dev)
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
+- [How gitserver works](../../enablement/repo-management/how-gitserver-works.md)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html

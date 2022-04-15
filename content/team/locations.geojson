@@ -1,6 +1,24 @@
 {
    "type": "FeatureCollection",
    "features": [
+     {
+       "type": "FeatureCollection",
+       "features": [
+         {
+           "type": "Feature",
+           "properties": {
+             "name": "Naman Kumar"
+           },
+           "geometry": {
+             "type": "Point",
+             "coordinates": [
+               77.20710754394531,
+               28.615870539671818
+             ]
+           }
+         }
+       ]
+     },
       {
          "type": "Feature",
          "properties": {
@@ -798,22 +816,6 @@
          "type": "Feature",
          "properties": {
             "marker-color": "#7e7e7e",
-            "name": "Debbie Johnstone",
-            "marker-size": "medium",
-            "marker-symbol": ""
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               4.686126261949539,
-               50.162324321993545
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "marker-color": "#7e7e7e",
             "marker-size": "medium",
             "marker-symbol": "",
             "name:": "Dan Mckean"
@@ -1562,6 +1564,32 @@
             32.755489
         ]
     }
-}
-   ]
+},
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "José Taylor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4492,
+          -98.4595
+        ]
+      }
+    },
+   {
+      "type": "Feature",
+      "properties": {
+        "name": "Nicole Comber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.473615646362305,
+          -34.52202731922037
+        ]
+      }
+    }
+  ]
 }

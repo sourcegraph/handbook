@@ -140,6 +140,6 @@ content_platform:
   strategy_link: /strategy-goals/strategy/enablement/content-platform
   product_org: enablement
   pm: elzanne_wentzel
-  em: engineering_manager_content_platform
+  em: elzanne_wentzel
   issue_labels:
     - team/content-platform

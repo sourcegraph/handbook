@@ -1,10 +1,6 @@
 # Find a mentor, Be a mentor!
 
-> NOTE: The mentorship program will officially open to all Sourcegraph employees on **Monday, April 11th**.
->
-> **Call for mentors.** Anyone can be a mentor! Consider submitting a _[mentor profile](https://forms.gle/CUWbzL9KMLuXFzhv5)_ for yourself to appear on our mentors bulletin board.
->
-> **Call for program champions.** We are building out a small team of representatives from different orgs to own and maintain the program and its [operations](./operations.md) as it matures. If the mission of our program speaks to you, consider filling out our [champions interest form](https://forms.gle/pPzaS8UVWMz5iKze9) before Wednesday, April 6th.
+> NOTE: The mentorship program is officially live! 🎉 Got feedback? We'd love to hear it! Find us in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK), or submit private feedback using [this form](https://forms.gle/Pma3Vguhz7knkWeR9).
 
 ## Introduction
 
@@ -43,13 +39,11 @@ Did you already strike something up informally with someone you’re already wor
 
 ### What if I have questions or run into a problem not addressed here?
 
-You can reach the mentorship program champions at [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK) with questions, concerns, feedback, or anything else mentoring-related.
+You can reach the mentorship program champions by tagging @mentorship-champions or posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK) with questions, concerns, feedback, or anything else mentoring-related.
 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 
 ## For mentees
-
-> NOTE: The mentorship program will officially open for prospective mentees on **Monday, April 11th**.
 
 _If you are seeking **sponsorship**, such as to transition teams or roles within Sourcegraph, it’s important to bear in mind that while every mentor can offer guidance and encouragement, not every mentor can offer advocacy or opportunity. We recommend that you start a conversation with your manager, first, and talk with a potential mentor about your goals before committing to anything long-term._
 
@@ -69,7 +63,7 @@ Mentorship is a two-way street, and it’s important that any mentoring relation
   - For example, someone who is interested in a lot of 1:1 pair programming time would want to look for a mentor in a similar time zone to them with at least a couple of hours of availability per week, whereas someone who is looking for occasional asynchronous feedback while preparing a talk for a conference could choose someone from a very different timezone with more limited availability.
 - Bear in mind that the areas of overlap do not need to be exact, and matching areas or timezones is only one component of determining if a mentor/mentee relationship is a good fit.
 
-#### 3. Reach out and introduce yourself.
+#### 3. Reach out and introduce yourself
 
 - If you haven’t met them before or don’t know them well, start by introducing who you are, what your role is, and why you’re contacting them (“I saw your profile on the mentors bulletin board, and I’m seeking mentorship in one of the areas you listed having experience with.”). If you already know them pretty well, you can probably skip this sub-step!
 - Double-check their availability.
@@ -85,7 +79,7 @@ Mentorship is a two-way street, and it’s important that any mentoring relation
 
 If there isn’t a good mentor available for the areas you are interested in, or if you are just having a hard time getting something to work out, the mentorship program champions are here to help!
 
-For these and any other issues you may run into with the mentorship program, you can always reach the mentorship program champions by posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK).
+For these and any other issues you may run into with the mentorship program, you can always reach the mentorship program champions by tagging @mentorship-champions or posting in [#mentorship](https://sourcegraph.slack.com/archives/C0374C9PRKK).
 
 We understand that sometimes the nature of these issues can be more sensitive. While we hope that anyone here feels empowered to speak directly about issues they are facing with those involved, we know that this isn’t always possible, and both the mentorship program champions and People Ops are here to support you in those cases. To privately contact the members of the committee to help you while keeping matters in confidence, you can fill out [this form](https://forms.gle/Pma3Vguhz7knkWeR9). [Inés Roitman](../../team/index.md#inés-roitman) is our program’s advocate from within People Ops.
 
