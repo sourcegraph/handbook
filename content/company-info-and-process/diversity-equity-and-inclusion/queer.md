@@ -8,7 +8,7 @@ The cohort is an employee-led opt-in group for fostering inclusivity, community,
 
 ## Who can join the cohort?
 
-Employees that fall under the umbrella of the LGBTQIA2S+ category are welcome to join. The group aims not to be prescriptive about membership categories, so if employees are interested in joining, they are welcome to do so. (The group does not audit identification with a particularly queer identity, and leaves employees to decide if the group is appropriate for them.) The group defaults to a big tent posture.
+Employees that fall under the umbrella of the LGBTQIA2S+ category are welcome to join. The group aims not to be prescriptive about membership categories, so if employees are interested in joining, they are welcome to do so. (The group does not audit identification with a particular queer identity, and leaves employees to decide if the group is appropriate for them.) The group defaults to a big tent posture.
 
 As with anything here, anyone who participates in the cohort is expected to abide by Sourcegraph’s [code of conduct](../communication/code_of_conduct.md).
 
