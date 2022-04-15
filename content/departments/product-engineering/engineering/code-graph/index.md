@@ -2,7 +2,7 @@
 
 The Code Graph org's mission is to make discovering, learning, analyzing, and editing code easier, no matter how complex it is, where it’s stored, or how experienced you are.
 
-An overview of our strategy can be found [here](/strategy-goals/strategy/code-graph/).
+An overview of our strategy can be found [here](../../../../strategy-goals/strategy/code-graph/).
 
 You can find our roadmap [here](https://github.com/orgs/sourcegraph/projects/214/views/34).
 
