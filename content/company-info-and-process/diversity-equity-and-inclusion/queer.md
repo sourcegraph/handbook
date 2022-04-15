@@ -14,7 +14,7 @@ As with anything here, anyone who participates in the cohort is expected to abid
 
 ## What is the mission of the cohort?
 
-The cohort is intended as a gathering place for queer Sourcegraphers to meet and socialize, as well as discussing issues (gender-affirming medical care, same-sex partner benefits, government policies which impact queer and trans people, etc.) that may impact members particularly.
+The cohort is intended as a gathering place for queer Sourcegraphers to meet and socialize, as well as discuss issues (gender-affirming medical care, same-sex partner benefits, government policies which impact queer and trans people, etc.) that may impact members particularly.
 
 ## How is the cohort operated?
 
