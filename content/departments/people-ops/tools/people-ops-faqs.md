@@ -221,7 +221,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **US teammates:**
 
-- You will update your home address **and** work address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init).
+- You will update your address in [BambooHR](https://help.bamboohr.com/hc/en-us/articles/227321928-Employee-Access-Manual#:~:text=How%20do%20I%20update%20my%20information%3F) and in [Rippling](https://app.rippling.com/insurance/employee/qle/init).
   - **Note:** please submit your change of address _within seven calendar days_ of your move and _at least seven calendar days_ before the following payroll date to make sure your change is reflected in time and to ensure you are taxed correctly.
   - **Note:** California-based teammates, if you were on the Kaiser Permanente insurance plan in California and have moved out of state, you will also need to re-enroll in health benefits (Blue Shield) via [Rippling](https://app.rippling.com/insurance/employee/qle/init).
 
