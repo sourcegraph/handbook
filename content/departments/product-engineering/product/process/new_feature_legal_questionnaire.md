@@ -1,6 +1,6 @@
-# New Feature Legal Questionnaire 
+# New Feature Legal Questionnaire
 
-At the new feature inception and pre-beta launch, share following info with legal by copying the below sections into a Google doc and then sharing the completed document in #legal: 
+At the new feature inception and pre-beta launch, share following info with legal by copying the below sections into a Google doc and then sharing the completed document in #legal:
 
 1. Any new data collected by this product
 1. Any new uses of data collected by this product
