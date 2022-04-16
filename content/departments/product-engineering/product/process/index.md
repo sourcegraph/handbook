@@ -11,6 +11,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Surfacing feedback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
 - [The product feedback rotation](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
+- [New feature legal questionnaire](new_feature_legal_questionnaire.md) - how we share relevant information about new features with our legal team. 
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
