@@ -1578,6 +1578,19 @@
         ]
       }
     },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Paulo Almeida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.932924,
+          -47.073845
+        ]
+      }
+    },
    {
       "type": "Feature",
       "properties": {
