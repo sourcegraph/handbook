@@ -190,3 +190,9 @@ See [PDF](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=22
 ### Wordmark use
 
 See [PDF](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=23)
+
+## Logo usage rights
+
+Displaying the Sourcegraph logo on your website or other digital asset is only allowed with express permission and usually governed through the vendor contract (refer to [Sourcegraph's procurement policy](/departments/finance/process/ap/#commercial-negotiations)).
+
+Startup companies, who's product or service we use and who we don't have a formal vendor contact with, that would like to showcase the Sourcegraph logocan request approval as long as their company conforms to the general criteria of a startup: VC-backed, pre-IPO and under 200 people employed. Written permission can be obtained from the primary contact for the account.
