@@ -50,13 +50,14 @@ Our current process is as follows:
     If a task needs synchronous discussion with a smaller group than the whole team, teammates are encouraged to meet synchronously in a smaller group to have more clarity before the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning).
 
   - Teammates can **_reorder_ proposed issues** on the ["Next iteration" board](https://github.com/orgs/sourcegraph/projects/200/views/4) before the mid-iteration sync to their liking. The order at the time of the mid-iteration Monday sync is the _proposed order_.
-  
-  - Often, planning work involves RFCs or designs that require engineering input. For this process: 
-      -  The goal of a product-manager-created RFC is to arrive at scoped outcomes for either designs or engineering: this is collected in a "Decisions for Design" or "Decisions for Engineering" section. 
-      -  At this point, the engineering project lead or designer becomes the driver for taking the work through its next stage. For engineering, this may optionally involve an engineering RFC or new implementation discussion among engineers on the existing RFC. For design, this usually involves figma mocks. From those stages, the respective project lead or designer and engineers can create github issues to put into proposed. 
-      -  Although discussions and project scope can vary, the rough average goal timeline for this process is: 
-        - 0.5-1 week: product RFC and discussion 
-        - 1-1.5 weeks: designs or engineering implementation discussion and issue creation 
+
+  - Often, planning work involves RFCs or designs that require engineering input. For this process:
+
+    - The goal of a product-manager-created RFC is to arrive at scoped outcomes for either designs or engineering: this is collected in a "Decisions for Design" or "Decisions for Engineering" section.
+    - At this point, the engineering project lead or designer becomes the driver for taking the work through its next stage. For engineering, this may optionally involve an engineering RFC or new implementation discussion among engineers on the existing RFC. For design, this usually involves figma mocks. From those stages, the respective project lead or designer and engineers can create github issues to put into proposed.
+    - Although discussions and project scope can vary, the rough average goal timeline for this process is:
+    - 0.5-1 week: product RFC and discussion
+    - 1-1.5 weeks: designs or engineering implementation discussion and issue creation
 
   - The PM is in charge of moving issues from **Proposed** to **Todo** before the [fortnightly synchronous iteration planning](#fortnightly-iteration-planning).
 
