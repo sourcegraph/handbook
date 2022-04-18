@@ -22,8 +22,18 @@ We will be hiring for interns across various business departments. Recruiting wi
 
 ### Compensation, Perks, and Equipment
 
-- Varies by role, not location. Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
-- [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
+#### Compensation
+
+Varies by role, not location. Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
+
+#### Perks
+
+- 🎧 [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
+- 🌐 Internet - A fixed reimbursement for $50 of internet expenses monthly
+- 📱 Mobile phone - A fixed reimbursement for $75 of mobile phone expenses monthly
+
+#### Equipment
+
 - We will provide each intern with a [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day.
 
 ### Internship Events
