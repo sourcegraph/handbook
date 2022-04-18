@@ -18,7 +18,6 @@ Reimbursement requests are processed on Airbase, which can be accessed via Okta.
 
 [Reimbursements Help](https://help.airbase.com/hc/en-us/articles/360057207871-Overview-of-Reimbursements-)
 
-
 ## Teammates based outside of the US
 
 Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](invoices.md). Once the expenses are approved, the full invoice can be paid.
