@@ -77,7 +77,7 @@ As Sourcegraph becomes an increasingly powerful developer tool, Code Insights wi
 **What this looks like:**
 
 - Code Insights will be extensible and integrate with other Sourcegraph features
-- Code Insights will develop and reuse permissions models used across Sourcegraph's features 
+- Code Insights will develop and reuse permissions models used across Sourcegraph's features
 
 **What this does _not_ look like:**
 
@@ -140,7 +140,7 @@ The primary value of Code Insights comes from the questions it can answer for it
 
 [Code Insights is generally available](https://about.sourcegraph.com/code-insights/) and a paid add-on feature. The pricing and packaging details are [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
 
-This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users. Other things equal, Code Insights is primarily focused on expanding the number of jobs it can do for our customers, before improving on all of those with polish-type features.  
+This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users. Other things equal, Code Insights is primarily focused on expanding the number of jobs it can do for our customers, before improving on all of those with polish-type features.
 
 For what we have learned so far and how we are operationalizing those learnings, see [Strategy](#strategy-and-plans).
 
@@ -230,7 +230,7 @@ We will explore:
 
 In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following:
 
-- Code Insights on Cloud: the current Cloud architecture strategy will bring Cloud in parity with managed and on-prem instances, so Code Insights will become available on Cloud without additional work on our part. 
+- Code Insights on Cloud: the current Cloud architecture strategy will bring Cloud in parity with managed and on-prem instances, so Code Insights will become available on Cloud without additional work on our part.
 - Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all Code Insights users first. (However, we are exploring early integrations.)
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
 
