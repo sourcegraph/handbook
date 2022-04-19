@@ -45,6 +45,6 @@ We are currently deployed using this [deploy-sourcegraph-cse-k8s repository](htt
 
 Video on how upgrading the instance looks like: [https://drive.google.com/file/d/1aWsXejG2qeFKGrY5BGzpSabwGuU1gLM3/view](https://drive.google.com/file/d/1aWsXejG2qeFKGrY5BGzpSabwGuU1gLM3/view)
 
-
 ### Related Topics
+
 - Basic functions and commands (e.g. how to view the names of services and get their logs) can be viewed [here](https://sourcegraph.github.io/support-generator/).
