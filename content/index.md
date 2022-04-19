@@ -43,6 +43,7 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Values](company-info-and-process/values/index.md)
 - [Diversity, Equity, and Inclusion](company-info-and-process/diversity-equity-and-inclusion/index.md)
   - [Gender Diversity Allies and ERG](company-info-and-process/diversity-equity-and-inclusion/gender-diversity.md)
+  - [Queer and Trans ERG](company-info-and-process/diversity-equity-and-inclusion/queer.md)
 - [Mentorship](company-info-and-process/mentorship/index.md)
 - [Communication](company-info-and-process/communication/index.md)
   - [Content guidelines](company-info-and-process/communication/content_guidelines/index.md)
@@ -67,6 +68,8 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Goals](departments/people-ops/index.md#goals)
 
 ### [Product & Engineering](departments/product-engineering/index.md)
+
+- [Planning process](departments/product-engineering/process/planning-process.md)
 
 #### [Product](departments/product-engineering/product/index.md)
 
@@ -109,8 +112,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Business Operations & Strategy](departments/bizops/index.md)
 
-- [Data operations](departments/bizops/data-operations/index.md)
-- [Analytics](departments/bizops/analytics/index.md)
+- [Data and Analytics](departments/bizops/data-analytics.md)
+  - [Analytics](departments/bizops/analytics/index.md)
+  - [Data Engineering](departments/bizops/data-engineering/index.md)
 
 ### [Finance & Accounting](departments/finance/index.md)
 

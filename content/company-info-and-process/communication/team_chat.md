@@ -8,29 +8,31 @@ We use Slack for team chat and real-time announcements. While Slack isn’t a so
 
 _All teammates should join these channels and check them regularly_
 
-- [#announcements](https://sourcegraph.slack.com/archives/general) - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
+- #announcements - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
   - Note: Posting permissions are limited to keep the signal-to-noise ratio high. Teammates should use emojis and threads to engage with content.
-  - If you need access to post in #announcements, please send a message to [#internal-comms. ](https://sourcegraph.slack.com/archives/C02K3HXGZTL)
-- [#exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) - This channel makes it easy to ask Sourcegraph leadership any question and get an answer. Responses will be shared within 48 hours. [Follow these instructions ](https://github.com/sourcegraph/handbook/edit/main/content/company-info-and-process/communication/team_chat.md#more-on-exec-ama)when submitting a question.
-- [#progress](https://sourcegraph.slack.com/archives/progress) - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
-- [#thanks](https://sourcegraph.slack.com/archives/thanks) - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
-- [#handbook-announce](https://sourcegraph.slack.com/archives/handbook-announce) - Announcements of important changes to the Handbook.
+  - If you need access to post in #announcements, please send a message to #internal-comms.
+- #exec-ama - This channel makes it easy to ask Sourcegraph leadership any question and get an answer. Responses will be shared within 48 hours. [Follow these instructions ](https://github.com/sourcegraph/handbook/edit/main/content/company-info-and-process/communication/team_chat.md#more-on-exec-ama)when submitting a question.
+- #progress - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
+- #thanks - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
+- #handbook-announce - Announcements of important changes to the Handbook.
+
+If you'd like to add a channel to the company-wide list, please reach out to the Tech Ops team in #it-tech-ops.
 
 ### Slack Retention
 
 Slack is not a [source of truth](index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](index.md#sources-of-truth). To enforce this, only 90 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels. Exceptions to this rule include the following channels:
 
-- [#security-monitoring](https://sourcegraph.slack.com/archives/security-monitoring) retains messages for 5 years for auditing purposes in our security monitoring tooling.
-- [#customer-updates](https://sourcegraph.slack.com/archives/customer-updates) similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
-- [#feedback](https://sourcegraph.slack.com/archives/feedback) retains messages for 5 years because it provides a good source of user testimonials.
-- [#engaging-external-engineers](https://sourcegraph.slack.com/archives/engaging-external-engineers) retains for 5 years because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn’t make sense to try to make this more organized.
-- [#it-tech-ops](https://sourcegraph.slack.com/archives/it-tech-ops) retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
-- [#sales-prospecting](https://sourcegraph.slack.com/archives/sales-prospecting) retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
-- [#west_sales_news_and_prospecting](https://sourcegraph.slack.com/archives/west_sales_news_and_prospecting) and [#east_sales_news_and_prospecting](https://sourcegraph.slack.com/archives/east_sales_news_and_prospecting) retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
-- [#sales-resources](https://sourcegraph.slack.com/archives/sales-resources) retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
-- All channels that we share with customers or prospects (typically containing the prefixes [#trial-](https://sourcegraph.slack.com/archives/trial-) or [#support-](https://sourcegraph.slack.com/archives/support-)) retain messages for 5 years to preserve context for support or audit-related purposes.
-- [#marketintel](https://sourcegraph.slack.com/archives/marketintel) retains messages for 5 years to keep a long-term overview of market information around the field of developer tools.
-- [#seo](https://sourcegraph.slack.com/archives/seo) retains messages for 5 years to keep a record of historical SEO efforts, numbers & screenshots, etc.
+- #security-monitoring retains messages for 5 years for auditing purposes in our security monitoring tooling.
+- #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
+- #feedback retains messages for 5 years because it provides a good source of user testimonials.
+- #engaging-external-engineers retains for 5 years because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn’t make sense to try to make this more organized.
+- #it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
+- #sales-prospecting retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
+- #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
+- #sales-resources retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
+- All channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages for 5 years to preserve context for support or audit-related purposes.
+- #marketintel retains messages for 5 years to keep a long-term overview of market information around the field of developer tools.
+- #seo retains messages for 5 years to keep a record of historical SEO efforts, numbers & screenshots, etc.
 
 ### Use of private channels
 
@@ -44,7 +46,7 @@ Private channels will automatically be created for the following categories of c
 - Affinity groups: Channels for affinity groups that prefer a private space.
 - Internal: While we strongly encourage that every team keep these public by default and to use our "TEAMNAME-internal" naming convention to help other teams understand that it is an internal chat, if a team is feeling pressured or uncomfortable they can ask to make the channel private.
 
-If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting [#it-tech-ops](https://sourcegraph.slack.com/archives/it-tech-ops) to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals’ privacy.
+If you would like a channel to be made private, and it does not fit in the categories above, please acquire pre-approval from your manager before contacting #it-tech-ops to make a channel private. The intention of this additional step is to have one more conversation about why a channel should be made private—ensuring we are doing everything we can to adhere to our company values while respecting individuals’ privacy.
 
 ### Send (and read) messages any time
 
@@ -73,7 +75,7 @@ Use these emoji reactions to quickly engage with messages in Slack and help with
 
 - When using Slack for work-related purposes, avoid private messages. Use a public channel and if you know who will likely have the answer, mention that person directly. This ensures it is easy for other people to chime in if they have the answer, and helps other people observe and learn.
 - Move work-related private messages to public channels. . The process might look something like this:
-  - In the private message: “Thanks for reaching out. That’s a great question/idea that I think the rest of the team could benefit from. I’m going to move this to [#public-channel](https://sourcegraph.slack.com/archives/public-channel). Is that okay with you?”
+  - In the private message: “Thanks for reaching out. That’s a great question/idea that I think the rest of the team could benefit from. I’m going to move this to #public-channel. Is that okay with you?”
   - In the appropriate public channel: “@person asked “question” via a DM and I’m sharing it here in case others have input to add.”
 
 ####
@@ -159,53 +161,57 @@ In addition to the company-wide channels that are outlined at the top of this pa
 
 #### Employee Resource/Identity
 
-- [#queer](https://sourcegraph.slack.com/archives/queer) - Channel for LGBTQIA2+ folks—questioning welcome! Submit your email address to [this form](https://forms.gle/JABVzFYqkFkpU21u5) to be automatically added.
+- #gender-diversity-allies - ([group page](../diversity-equity-and-inclusion/gender-diversity.md)) For folks who do not identify as cisgender male. Allies welcome!
+- #gender-diversity-internal - Private counterpart to the above. We ask allies refrain from joining. Submit your email address to [this form](https://forms.gle/71YXaxz8WX1Mmbkw5) to be automatically added.
+- #queer - ([group page](../diversity-equity-and-inclusion/queer.md)) For LGBTQIA2+ folks—questioning welcome! Submit your email address to [this form](https://forms.gle/JABVzFYqkFkpU21u5) to be automatically added.
 
 #### Product
 
 All Product teammates should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- [#design](https://sourcegraph.slack.com/archives/design) - How Sourcegraph looks visually
-- [#feedback](https://sourcegraph.slack.com/archives/feedback) - Feedback directly from our users & customers
-- [#product](https://sourcegraph.slack.com/archives/product) - Product questions, ideas, and thoughts
-- [#prod-eng-announce](https://sourcegraph.slack.com/archives/prod-eng-announce) - Announcements that are relevant to all of Product or all of engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
+- #design - How Sourcegraph looks visually
+- #feedback - Feedback directly from our users & customers
+- #product - Product questions, ideas, and thoughts
+- #prod-eng-announce belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 
 #### Operations
 
 All teammates in Operations should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- [#business-ops](https://sourcegraph.slack.com/archives/business-ops) - Strategy, operations, and project management support
-- [#people-ops](https://sourcegraph.slack.com/archives/people-ops) - Onboarding, team satisfaction, reviews, and much more
-- [#hiring](https://sourcegraph.slack.com/archives/hiring) - Candidate hiring
-- [#it-tech-ops](https://sourcegraph.slack.com/archives/it-tech-ops) - IT, software, and access questions
-- [#finance](https://sourcegraph.slack.com/archives/finance) - Dollars and cents
-- [#legal](https://sourcegraph.slack.com/archives/legal) - Legal questions
-- [#marketintel](https://sourcegraph.slack.com/archives/marketintel) - Market and industry intelligence - products, funding, competition
-- [#payments](https://sourcegraph.slack.com/archives/payments) - Customer payment notifications
-- [#analytics](https://sourcegraph.slack.com/archives/analytics) - All things data
+- #business-ops - Strategy, operations, and project management support
+- #people-ops - Onboarding, team satisfaction, reviews, and much more
+- #hiring - Candidate hiring
+- #it-tech-ops - IT, software, and access questions
+- #finance - Dollars and cents
+- #legal - Legal questions
+- #marketintel - Market and industry intelligence - products, funding, competition
+- #payments - Customer payment notifications
+- #analytics - All things data
 
 #### Go-to-market
 
 All teammates in Sales and Marketing should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- [#marketing](https://sourcegraph.slack.com/archives/marketing) - [Marketing](../../departments/marketing/index.md)
-- [#sales](https://sourcegraph.slack.com/archives/sales) - [Sales](../../departments/sales/index.md)
-- [#customer-updates](https://sourcegraph.slack.com/archives/customer-updates) - Updates on the status of customers
-- [#ce](https://sourcegraph.slack.com/archives/ce) - Helping devs use Sourcegraph effectively
+- #marketing - [Marketing](../../departments/marketing/index.md)
+- #sales - [Sales](../../departments/sales/index.md)
+- #customer-updates - Updates on the status of customers
+- #ce - Helping devs use Sourcegraph effectively
 
 #### Engineering
 
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- [#prod-eng-announce](https://sourcegraph.slack.com/archives/prod-eng-announce) - Announcements that are relevant to all of Product or all of Engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
-- [#dev-chat](https://sourcegraph.slack.com/archives/dev-chat) - Anything related to Sourcegraph development :).
-- [#dev-ops](https://sourcegraph.slack.com/archives/dev-ops) - Discussing incidents and any other ops-related work.
-- [#buildkite](https://sourcegraph.slack.com/archives/buildkite) - Notifications about Buildkite / CI failures.
-- [#opsgenie](https://sourcegraph.slack.com/archives/opsgenie) - Pager notifications get sent to Slack.
-- [#alerts-cloud](https://sourcegraph.slack.com/archives/alerts-cloud) - Alertmanager alerts and warnings for our Cloud deployment.
-- [#alerts-dogfood-k8s](https://sourcegraph.slack.com/archives/alerts-dogfood-k8s) - Alertmanager alerts and warnings for our Dogfood deployment.
-- [#bots-production](https://sourcegraph.slack.com/archives/bots-production) - Kubernetes bot notifications.
-- [#alerts-external](https://sourcegraph.slack.com/archives/alerts-external) - External system notifications which might impact our deployments.
+- #prod-eng-announce - Announcements that are relevant to all of Product or all of Engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
+- #dev-chat - Anything generally related to Sourcegraph development.
+- #dev-frontend - Anything related to frontend development.
+- #dev-backend - Anything related to backend development.
+- #dev-ops - Discussing incidents and any other ops-related work.
+- #buildkite - Notifications about Buildkite / CI failures.
+- #opsgenie - Pager notifications get sent to Slack.
+- #alerts-cloud - Alertmanager alerts and warnings for our Cloud deployment.
+- #alerts-dogfood-k8s - Alertmanager alerts and warnings for our Dogfood deployment.
+- #bots-production - Kubernetes bot notifications.
+- #alerts-external - External system notifications which might impact our deployments.
 
 You should also join channels mentioned in [your team’s documentation](../../departments/product-engineering/engineering/index.md#teams)
 
@@ -218,7 +224,7 @@ Transparency is a core company value at Sourcegraph, that’s why Sourcegraph te
 #### Instructions
 
 1. Check the[ AMA Log](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit) to see if your question has already been asked/answered.
-2. If you have a new question, navigate to [#exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) and select the “attachments and shortcuts” button and choose “submit a question”.
+2. If you have a new question, navigate to #exec-ama and select the “attachments and shortcuts” button and choose “submit a question”.
 3. Type your question, and (if applicable) identify who you’d like to have answer the question. Once ready, hit “submit”.
 4. A member of the leadership team will review your question and approve it so it appears in the channel.
 5. Expect to see a reply via thread within 48 hours, and feel free to continue the conversation in the thread.
