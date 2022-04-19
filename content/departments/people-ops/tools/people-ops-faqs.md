@@ -116,6 +116,25 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 - Not applicable.
 
+### Q. When will my benefits become active?
+
+**US teammates:**
+
+- Your insurance benefits will become active on your start date.
+
+**Non-US teammates:**
+
+- Not applicable.
+
+#### When will I receive my insurance member IDs?
+
+- You can access your virtual insurance member IDs in the [Lumity](https://www.lumity.com/) mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
+  - If you have not received your insurance member IDs, please post in the [#people-ops](https://sourcegraph.slack.com/archives/C01UPE3LV8S) Slack channel.
+
+**Non-US teammates:**
+
+- Not applicable.
+
 ### Q. When can I enroll in insurance?
 
 **US teammates:**
@@ -131,25 +150,6 @@ This page is meant as a resource to find answers to questions frequently asked b
 **US teammates:**
 
 - You can waive your insurance coverage through [Rippling](https://help.rippling.com/s/article/360056300693). Insurance coverage is automatically waived for any teammate who doesn’t select insurance during their first 30 days.
-
-**Non-US teammates:**
-
-- Not applicable.
-
-### Q. When will my benefits become active?
-
-**US teammates:**
-
-- Your insurance benefits will become active on your start date.
-
-**Non-US teammates:**
-
-- Not applicable.
-
-#### When will I receive my insurance member IDs?
-
-- You can access your virtual insurance member IDs in the Lumity mobile app within a few days after you enroll in insurance. You will receive your physical insurance member ID cards via mail 2-4 weeks after you enroll in insurance.
-  - If you have not received your insurance member IDs, please post in the [#people-ops](https://sourcegraph.slack.com/archives/C01UPE3LV8S) Slack channel.
 
 **Non-US teammates:**
 
