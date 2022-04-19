@@ -64,14 +64,14 @@ Factor in as much time to spend together during the trip and leave room for solo
 
 ### 3. Individual travel
 
-Each teammate has one fully-paid trip per year to meet up with an individual or a group. The intention for this travel is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with a teammate from another team, with whom you work closely or with whom a personal meeting may be beneficial.
+Each teammate has a $2,500 budget per year to meet up with individual Sourcegraph teammates or a group. The intention for this budget is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
 
-- People Ops and Finance may approve trips in excess of $2,500 for certain circumstances.
-- This trip is _in addition_ to the other benefits mentioned on this page.
+- This budget is _in addition_ to the other benefits mentioned on this page.
+- Budgets cannot be "mixed and matched", for example you cannot spend $1k from your invidivual team budget in order to add the remaining $1.5k to a team travel.
 
 ### 4. Business/customer travel
 
-For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](https://about-docsite.sourcegraph.com/handbook/people-ops/celebrate#teammate-in-person-gatherings) with Category 4 trips. We would include the following types of meetups in Category 4:
+For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](../celebrate.md#teammate-in-person-gatherings) with Category 4 trips. We would include the following types of meetups in Category 4:
 
 - Customer Champion meetups
 - Director to Executive level meetups (no approval required)
@@ -206,11 +206,11 @@ To help us all do our part to keep each other safe, please review and abide by t
 
 # General guidance for all in-person meet-ups
 
-**_Number of attendees: As of January 14th, 2022, we are only allowing meetups with a maximum number of 10 teammates physically present._**
+**_Number of attendees: As of March 8th, 2022, we have opened up meet ups to groups of any size._**
 
-- This is to ensure the safety of teammates who have voluntarily chosen to travel and is based on our Teammmate Travel survey responses. _30% of teammates do not feel fully comfortable traveling at this time, but 70% of our teammates feel comfortable with meetups of 10 attendees or less._ We will revisit our travel stance on a monthly basis and will only make changes based on downwards trends in cases driven by data.
+- _What does this mean?_ The size of your meetup - and the restrictions you need to adhere to will be governed by the local guidelines of your location, but in respect to teammates who may not be comfortable or able to attend meetups in person, we ask that managers and teams gauge comfort levels within their teams prior to planning to ensure everyone is included (whether virtually or in-person) and feels safe attending. Travel budgets and guidelines as per our handbook continue to apply.
 
-This category of guidance includes casual, local meet-ups that are company-sponsored _(e.g. dinners/lunches, happy hours, coworking etc.)_ We encourage each group to apply high agency over their meet-up and activities, but we require the following protocols for any in-person meet-up:
+This category of guidance also includes casual, local meet-ups that are company-sponsored _(e.g. dinners/lunches, happy hours, coworking etc.)_ We encourage each group to apply high agency and responsibility over their meet-up and activities, but we require the following protocols for any in-person meet-up:
 
 - **_If you’re feeling sick (or have been confirmed to have, or exposed to people who have COVID-19), stay home_**. We have a **zero-tolerance policy** for allowing teammates to attend company-sponsored events if they are sick, or feeling like they will be sick with any type of illness. Communicate with your group if you feel unwell before your meetup, and please decline the invite if this is the case. Your health, and the health of your teammates is our top priority.
 
@@ -234,24 +234,19 @@ Note that these guidelines are not inclusive of all travel requirements that are
 
 ### In-person meet-ups which require travel
 
-**_Number of attendees: As of January 14th, 2022, we are only allowing meetups with a maximum number of 10 teammates physically present._**
+**_Number of attendees: As of March 8th, 2022, we have opened up meet ups to groups of any size._**
 
-- This is to ensure the safety of teammates who have voluntarily chosen to travel and is based on our Teammmate Travel survey responses. _30% of teammates do not feel fully comfortable traveling at this time, but 70% of our teammates feel comfortable with meetups of 10 attendees or less._ We will revisit our travel stance on a monthly basis and will only make changes based on downwards trends in cases driven by data.
+Please respect your peers wishes, and _lead with empathy_ when planning remote and hybrid meetups. Everyone should have equal and accessibility to any event that is planned. For trips that exceed the 10 teammates, please take the following protocols:
 
-Please respect your peers wishes, and _lead with empathy_ when planning remote and hybrid meetups. Everyone should have equal and accessibility to any event that is planned. For trips that meet the maximum 10-person threshold, the following protocols must be taken:
-
-- Assign a coordinator for your trip. This coordinator will need to gauge teammate comfort before planning begins. If no coordinator is formally assigned, the most senior person in the trip group will own driving the survey below:
-
-  - [Please have your team fill out this survey](https://docs.google.com/forms/d/e/1FAIpQLSehRRDbve17yN83ciEvRjKI9NsH2sS4ss65b_i2xOaiZw8SNg/viewform). A member of PeopleOps will reach out to coordinators once the team has completed it to give them a heads up on how to should proceed with trip planning.
+- Assign a coordinator for your trip. This coordinator will need to gauge teammate comfort before planning begins. If no coordinator is formally assigned, the most senior person in the trip group will drive the process to gauge comfort levels across the team. We recommend creating a survey for your trip, and sending it to all teammates with a "Yes / No / Maybe" attendance question, surveying different locations, and explaining in the survey what safety precautions will be taken as a group. If you need help formulating one, ask #people-ops.
 
 - Get tested (PCR or rapid test).
 
   - If you will be travelling and/or attending any type of meetup, as a safety precaution, please arrange a COVID-19 test prior to your travel within 72 hours of your travel date. (This applies even if you are fully vaccinated.)
-  - Testing will be reimbursed before, during, and after your meetup. You may expense the cost of your COVID test for any travel you do on behalf of Sourcegraph.
 
-- Remember: there will to be future opportunities to travel.
+  - Testing will be reimbursed before, during, and after your meetup. You may expense the cost of your COVID test for any travel you do on behalf of Sourcegraph. The average cost of a COVID test is around $35 USD.
 
-  - If you are unable to attend an offsite for whatever reason, know that there will be other opportunities to travel. Our goal is to continue to plan different types of opportunities to travel and meet with teammates throughout the year.
+- Remember: there will to be future opportunities to travel. If your travel plans don't work out, there will be more opportunities to meet teammates and teams alike. Our goal is to continue to plan different types of opportunities to travel and meet with teammates throughout the year.
 
 # Protocol for potential COVID-19 exposure
 
