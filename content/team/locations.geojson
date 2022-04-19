@@ -1,6 +1,24 @@
 {
    "type": "FeatureCollection",
    "features": [
+     {
+       "type": "FeatureCollection",
+       "features": [
+         {
+           "type": "Feature",
+           "properties": {
+             "name": "Naman Kumar"
+           },
+           "geometry": {
+             "type": "Point",
+             "coordinates": [
+               77.20710754394531,
+               28.615870539671818
+             ]
+           }
+         }
+       ]
+     },
       {
          "type": "Feature",
          "properties": {
@@ -1334,8 +1352,8 @@
          "geometry": {
             "type": "Point",
             "coordinates": [
-               30.315871238708496,
-               59.97563121816456
+               55.14013409614563,
+               25.07495849177065
             ]
          }
       },
@@ -1547,6 +1565,19 @@
         ]
     }
 },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "José Taylor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4492,
+          -98.4595
+        ]
+      }
+    },
    {
       "type": "Feature",
       "properties": {
@@ -1557,6 +1588,19 @@
         "coordinates": [
           -58.473615646362305,
           -34.52202731922037
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "Paulo Almeida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.932924,
+          -47.073845
         ]
       }
     }

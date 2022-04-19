@@ -113,8 +113,9 @@ vanesa_ortiz:
   name: Vanesa Ortiz
   pronouns: she/her
   pronunciation: '/[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
-  role: Community Advocate
-  reports_to: director_community
+  role: Developer Community Manager
+  reports_to: vp_marketing
+  manager_role_slug: dev_community_manager
   location: San Francisco, CA, USA 🇺🇸
   github: vanesa
   email: vanesa@sourcegraph.com
@@ -983,18 +984,6 @@ bill_creager:
   links: '[Linkedin](https://www.linkedin.com/in/bill-creager-8055911a/)'
   description: "If he isn't in front of this computer, Bill can usually be found doing one of the following: eating some BBQ in Austin, riding his bike or running, watching his kids play soccer, camping with the family, or working with his hands (building furniture, building and playing guitars). He grew up in Phoenix, AZ and went to Northern Arizona University in Flagstaff, AZ where he studied computer science (after a quick detour in Environmental Engineering, it wasn't for him). Prior to Sourcegraph he worked at Procore, Spiceworks, and Demand Media and has been living in Texas for 11 years (he got there as quick as he could)!"
 
-samson_goddy:
-  name: Samson Goddy
-  pronouns: he/him
-  role: Director of Community
-  reports_to: vp_marketing
-  manager_role_slug: director_community
-  location: Port Harcourt, Nigeria 🇳🇬
-  github: samswag
-  email: samson@sourcegraph.com
-  links: '[@samson_goddy](https://twitter.com/Samson_Goddy),[LinkedIn](https://linkedin.com/in/samsongoddy)'
-  description: Samson, a software developer who believes in creating something iconic. An open source advocate who has been sustaining projects with his diverse experiences. He maintains tools, desktops and likes contributing back to the large OSS ecosystem. Building communities is something he passionate about, and he currently runs Open Source Community Africa, a non-profit org that promotes and educates everything open source. He loves playing console games, mobile photography and eating jollof rice.
-
 fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
@@ -1173,17 +1162,6 @@ trevor_houghton:
   email: trevor@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/trevorhoughton/)'
   description: Trevor grew up in Portland, OR before attending Colorado College, where he played NCAA soccer and majored in International Political Economy. He has sinced moved to Austin, TX and gained sales experience at Emergo and talent acquisition experience at Indeed.com. Outside of work, Trevor enjoys coaching, playing piano, skiing, traveling, and losing at chess.
-
-prosper_otemuyiwa:
-  name: Prosper Otemuyiwa
-  pronouns: he/him
-  role: Staff Developer Evangelist
-  reports_to: director_community
-  location: Lagos, Nigeria 🇳🇬
-  github: unicodeveloper
-  email: prosper@sourcegraph.com
-  links: '[@unicodeveloper](https://twitter.com/unicodeveloper)'
-  description: Prosper was born and raised in Lagos, Nigeria. A software engineer who has worked on biometric, health and developer tools. He is a seasoned developer advocate, veteran conference speaker and a firm open source hacker who believes immensely in the intersection of people & technology. He co-founded and leads forloop, the largest developer community in Africa. He loves travelling, playing football and tinkering with the fire emoji.
 
 kevin_quigley:
   name: Kevin Quigley
@@ -1514,7 +1492,7 @@ yink_teo:
   github: yinquanteo
   email: yink@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/yinquanteo/), [@yinquanteo](https://twitter.com/yinquanteo)'
-  description: 'Yink is a Singapore🇸🇬 native and lives in San Francisco with his wife and [cat](http://instagram.com/maotheexplorer). He occassionally works on the road in his campervan. Before Sourcegraph, Yink held leadership roles at big and small tech companies and the Singapore military. Most recently, he led a product infrastructure org in Twitter Ads where he joined via an acquisition. He loves putting on sunblock to wakeboard, paddleboard, or kiteboard. If you come visit, he will probably make you a chirashi-don and matcha crème brûlée. Just bring some good 🍶/🍷/🧋. He dreams of the day Arsenal Football Club winning the Premier League. Yink has a B.S. in Electrical and Computer Engineering from Duke University.'
+  description: 'Yink is a Singapore🇸🇬 native and lives in San Francisco with his wife and [cat](http://instagram.com/maotheexplorer). He occassionally works on the road in his campervan. Before Sourcegraph, Yink held leadership roles at big and small tech companies and the Singapore military. Most recently, he led a product infrastructure org in Twitter Ads where he joined via an acquisition. He loves to wakeboard, paddleboard, or kiteboard. If you come visit, he will probably make you a chirashi-don and matcha crème brûlée. Just bring some good 🍶/🍷/🧋. He dreams of the day Arsenal Football Club winning the Premier League. Yink has a B.S. in Electrical and Computer Engineering from Duke University.'
 
 milan_freml:
   name: Milan Freml
@@ -1934,17 +1912,6 @@ keely_aguayo:
   email: keely.aguayo@sourcegraph.com
   description: 'Keely lives in New Orleans with her husband, Chris, their four sons: Sullivan, Anderson, Miller, and Wilder, and a 14 year old Bichon Frise named Elle.'
 
-erika_heidi:
-  name: Erika Heidi
-  pronouns: she/her
-  role: Senior Developer Advocate, Community
-  reports_to: director_community
-  location: The Hague, Netherlands 🇳🇱
-  github: erikaheidi
-  email: erika.heidi@sourcegraph.com
-  links: '[Twitter](https://twitter.com/erikaheidi), [LinkedIn](https://www.linkedin.com/in/erikaheidi/)'
-  description: Erika is a Brazilian living in The Hague (Netherlands) with her husband and one daughter. With a background in Linux systems and software engineering, Erika is passionate about open source, online communities, and the intersections of art and code. Erika loves writing, teaching, and creating. Apart from coding, Erika enjoys tinkering with 3D printers, drawing and painting, and going for a bike ride when the weather is good.
-
 frey_andersson:
   name: Frey Andersson
   role: Technical Recruiter
@@ -1990,12 +1957,12 @@ taylor_sperry:
   name: Taylor Sperry
   reports_to: product_director_enablement
   pronouns: she/her
-  role: Technical Product Manager, Frontend Platform & Dev Experience
+  role: Product Manager, Frontend Platform & Dev Experience
   location: Denver, CO, USA 🇺🇸
   github: taylorsperry
   email: taylor.sperry@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/taylor-sperry/)'
-  description: "Taylor spent many years as a book editor in NYC before quitting her job with absolutely no plan and landing at the Turing School of Software and Design in her hometown of Denver, CO. She joins Sourcegraph after a stint helping build enterprise software as an engineer at Workiva. She's happiest in a kitchen full of people (always a sous chef, never the chef), or outside with her nose in a book, a podcast in her ears, or skis on her feet."
+  description: "Taylor spent many years as a book editor in NYC before quitting her job with absolutely no plan and landing at the Turing School of Software and Design in her hometown of Denver, CO. She joined Sourcegraph after a stint helping build enterprise software as an engineer at Workiva. She's happiest in a kitchen full of people (always a sous chef, never the chef), or outside with her nose in a book, a podcast in her ears, or skis on her feet."
 
 rafal_gajdulewicz:
   name: Rafal Gajdulewicz
@@ -2196,11 +2163,11 @@ alex_ostrikov:
   pronouns: he/him
   role: Software Engineer
   reports_to: engineering_manager_repo
-  location: St. Petersburg, Russia 🇷🇺
+  location: Dubai, UAE 🇦🇪
   github: sashaostrikov
   email: alex.ostrikov@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/alexander-ostrikov-a4027810b/)'
-  description: Alexander (but you can also call him Alex or Sasha) lives in St. Petersburg, Russia with his fiancée Olga and their cat (with a _brilliant_ name — Kot ("cat" in Russian)). When not coding, he likes spending his time learning all the memes in the world, listening to music, singing (in fact mostly screaming) some metal songs, playing drums (once in a blue moon, to be honest), but his favourite pastime is making endless wallpapers with photos of Kot being weirdly zoomed into and cropped.
+  description: Alexander (but you can also call him Alex or Sasha) lives in Dubai, UAE where he moved from St. Petersburg, Russia with his fiancée Olga and their cat (with a _brilliant_ name — Kot ("cat" in Russian)). When not coding, he likes spending his time learning all the memes in the world, listening to music, singing (in fact mostly screaming) some metal songs, playing drums (once in a blue moon, to be honest), but his favourite pastime is making endless wallpapers with photos of Kot being weirdly zoomed into and cropped.
 
 jonathan_ayers:
   name: Jonathan Ayers
@@ -2690,7 +2657,7 @@ michael mcmahan:
 justin dorfman:
   name: Justin Dorfman
   role: Open Source Program Manager
-  reports_to: director_community
+  reports_to: vp_marketing
   location: Los Angeles, CA, USA 🇺🇸
   github: jdorfman
   email: justin.dorfman@sourcegraph.com
@@ -2939,7 +2906,7 @@ dora_grgic:
   reports_to: tech_ops_manager
   location: Salzburg, Austria
   links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
-  description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
+  description: 'Dora is an experienced Information Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her hometown Salzburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Traveling is one of her favorite hobbies as well as spending time with family and friends.'
 
 sarah_dunn:
   name: Sarah Dunn
@@ -2950,3 +2917,37 @@ sarah_dunn:
   reports_to: vp_sales_western_region
   location: Bellingham, WA
   description: Sarah lives in Bellingham, WA with her husband and dog. Prior to Sourcegraph, Sarah gained experience working at Xactly, Lessonly, and Salesloft helping organizations transform and accelerate their go-to-market motions. When not working, Sarah can be found outside biking, skiing, running, hiking and swimming.
+
+naman_kumar:
+  name: Naman Kumar
+  email: naman.kumar@sourcegraph.com
+  github: thenamankumar
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_growth
+  location: New Delhi, IN
+  links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
+  description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Source Graph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
+
+josé_taylor:
+  name: José Taylor
+  email: jose.taylor@sourcegraph.com
+  github: josetaylor06
+  pronouns: he/him
+  role: Senior Customer Engineer
+  reports_to: senior_manager_customer_engineering_west
+  location: San Antonio, TX
+  links: '[Personal Website](https://iamjosetaylor.com), [LinkedIn](https://www.linkedin.com/in/josetaylor06/)'
+  pronunciation: Hose-a
+  description: José has 5+ years experience in account management, customer success and strategic planning. As a non-traditional student and IT professional, he appreciates others who come from a diverse background and are passionate about what they do. Outside of work, he enjoys the outdoors, travelling, challenging himself by trying new/different things, motivating/mentoring others and being a father. Feel free to recommend any music you listen to at work or collaborate on a playlist.
+
+paulo_almeida:
+  name: Paulo Almeida
+  reports_to: design_manager_code_graph
+  pronouns: he/him
+  role: Product Designer, Search
+  location: São Paulo, Brazil 🇧🇷
+  github: almeidapaulooliveira
+  links: '[Website](https://paulo.digital), [LinkedIn](https://www.linkedin.com/in/paul--almeida/)'
+  email: paulo.almeida@sourcegraph.com
+  description: 'Paulo is a designer that endeavors to produce unique experiences and elegant designs. He worked in branding, packaging, and graphic design and has been dedicated to UX disciplines in the last decade, from strategy to visual and interface design. Paulo is also a coding designer who thinks end-to-end the entire process. When not working, he is running on some adventure traveling the world. As a restless observer of the human being, he is always excited about developing thoughtful products that enhance life, work, and play.'

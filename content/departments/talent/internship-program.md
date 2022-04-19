@@ -22,8 +22,18 @@ We will be hiring for interns across various business departments. Recruiting wi
 
 ### Compensation, Perks, and Equipment
 
-- Varies by role, not location. Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
-- [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
+#### Compensation
+
+Varies by role, not location. Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
+
+#### Perks
+
+- 🎧 [Desk Set Up](../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
+- 🌐 Internet - A fixed reimbursement for $50 of internet expenses monthly
+- 📱 Mobile phone - A fixed reimbursement for $75 of mobile phone expenses monthly
+
+#### Equipment
+
 - We will provide each intern with a [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day.
 
 ### Internship Events
@@ -34,7 +44,13 @@ SCHEDULE COMING SOON!
 
 ### VISAs We Accept
 
-COMING SOON!
+#### F1 Student VISA
+
+If you are on a current F1 Student VISA and eligible to work in the US for the duration of the internship program, we will gladly still consider you for our internship roles. If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. Any other VISA requirements will need to be handled between you and your university.
+
+Sourcegraph does not have the ability to support F-1 extensions (OPT).
+
+Read more about our VISA policies for full-time employees [here](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance).
 
 ### Helpful Links
 
