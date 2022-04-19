@@ -15,8 +15,9 @@ Quicklinks:
 Search is the foundation of the overall product and the team is focused on making search universal, fast, and relevant.
 
 We have worked toward the goal of indexing open source code to make our search universal:
+
 - The Sourcegraph Cloud global index has now 2.6M repositories representing all repositories with 5 stars or more from GitHub.com and GitLab.com. While working towards this goal, we have made changes that have yielded trickle-down benefits to all Sourcegraph deployments, for instance, we accomplished a [5x reduction](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usage of Zoekt, our trigram-based indexed search backend.
-- We have made progress towards expanding code host coverage to include repositories from non-GitHub.com and GitLab.com code hosts: you can now search more than [34k repositories](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal) from src.fedoraproject.org on sourcegraph.com. 
+- We have made progress towards expanding code host coverage to include repositories from non-GitHub.com and GitLab.com code hosts: you can now search more than [34k repositories](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal) from src.fedoraproject.org on sourcegraph.com.
 - We have released the beta version of [dependencies search](https://docs.sourcegraph.com/code_search/how-to/dependencies_search) enabling search through the dependencies of your repositories for Go and npm.
 
 We conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (those with a working directory > 6GB) and started work on some prototypes to address our customers' most pressing needs. We established a baseline and created a synthetic gigarepo to measure progress towards our goal. Our synthetic gigarepo is a representative monorepo with a HEAD working copy size of 15GB.
