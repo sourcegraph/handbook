@@ -46,8 +46,8 @@ Customer Engineers (CE) or Sales may request to:
 
 1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
 2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
-    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Delivery team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
-    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Delivery team.
+    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
 3.  Message the team in [#cloud-devops].
 
 ## SLAs for managed instances
