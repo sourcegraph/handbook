@@ -31,7 +31,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 ## Support
 
-If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). Delivery teammates shold consult our [on-call rotation](./processes.md#on-call-rotation) guide to handle inquiries.
+If in doubt about the process, please ask in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). Delivery teammates shold consult our [support-rotation](./processes.md#support-rotation) guide to handle inquiries.
 
 ### Requesting our support
 
