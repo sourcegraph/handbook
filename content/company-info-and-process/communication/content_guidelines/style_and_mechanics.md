@@ -854,7 +854,7 @@ List of product names:
 - With Sourcegraph Universal Code Search you can...
 - You can search across all your repositories with Universal Code Search.
 - Companies benefit from a universal code search tool because...
-- Sourcegraph Batch Changes are... Batch Changes allow you to...
+- Sourcegraph Batch Changes is... Batch Changes allows you to...
 - To create a batch change...
 
 </div>
@@ -893,21 +893,22 @@ We don't capitalize features or integrations.
 </div>
 </div>
 
-Use the natural plural/singular form. If a product or feature name is a plural noun, treat it as a plural noun.
+If a product name is a plural noun, treat it as a singular noun. If a feature is a plural noun, treat it as a plural noun. When referencing products generically or in context of taking an action, use the natural plural/singular form
 
 <div class="usage">
 <div class="item yes">
 
 ##### Yes
 
-- Batch Changes are available.
+- Batch Changes is available.
+- Code Insights is now available.  
 
 </div>
 <div class="item no">
 
 ##### No
 
-- Batch Changes is available.
+- Batch Changes are available.
 
 </div>
 </div>
@@ -919,7 +920,7 @@ Refer to the natural noun of the product or feature directly.
 
 ##### Yes
 
-- Batch Changes are available.
+- Batch Changes is available.
 
 </div>
 <div class="item no">
