@@ -25,7 +25,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 ### Interns
 
-The estimated spend for interns is **$925\*** and includes only the electronic items in the "Desk set-up" section.
+The estimated spend for interns is **$925\***.
 
 ### Desk items
 
