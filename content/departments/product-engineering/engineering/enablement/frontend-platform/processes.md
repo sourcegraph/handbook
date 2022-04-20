@@ -14,13 +14,11 @@ As of 2022-04-20, we use Github projects and Code Insights to keep track of our 
 
 #### Product and Engineering roadmap project
 
-Our quarterly roadmap items are defined in [tracking issues](../../process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these roadmap tracking issues keep track of the smaller issues that contribute to the execution of the roadmap item. In this way, the roadmap issue reflects a high-level view of our progress on a given roadmap item.
+Our quarterly roadmap items are defined in [tracking issues](../../process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these tracking issues collate the smaller issues that contribute to the execution of our roadmap. In this way, they reflect a high-level view of our progress on a given roadmap item.
 
 #### Frontend Platform project
 
-For a lower level view of our day-to-day progress, we use the [Frontend Platform Github project](https://github.com/orgs/sourcegraph/projects/222/views/1). Each issue in the project should have a status.
-
-Here is what statuses mean today:
+For a lower level view of our day-to-day progress, we use the [Frontend Platform Github project](https://github.com/orgs/sourcegraph/projects/222/views/1). We are currently exploring ways to refine our processes around triaging incoming requests, scheduling work, and measuring progress. Today, we mainly rely on `Status` labels:
 
 - `Needs input`: We need input from someone outside of our team and the issue is blocked.
 - `On deck`: This issue should be picked up within the next two weeks. It’s what’s next after the person assigned to the issue completes their current work.
@@ -47,7 +45,7 @@ If you have a question that relates to our [areas of ownership](../../process/en
 
 ### Raising an issue
 
-If you think Frontend Platform is the right team to address a bug or other request, please file an issue. The issue should include:
+If you think Frontend Platform is the right team to address a bug or other request, please create an issue. The issue should include:
 
 - A short description of the ask
 - A more detailed explanation of the background, context, and problem that needs solving
@@ -57,13 +55,13 @@ If you think Frontend Platform is the right team to address a bug or other reque
 
 ## Team Roles
 
-### Technical lead
-
-For each roadmap item, we assign an engineer to be technical lead. Technical leads are responsible for working with the EM/PM to articulate the problem space, proposed solution, and measures of success. They also scope a delivery plan and create issues to be tracked in the roadmap tracking issue. They are not solely responsible for executing on the work, which is a team effort. At our weekly team syncs, they share a status update (On track, At risk, Won’t Do) with the team.
-
 ### Support rotation
 
 We use OpsGenie to manage a support rotation that changes weekly. The person on-call will be pinged when someone tags `@frontend-platform-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
+
+### Technical lead
+
+For each roadmap item, we assign an engineer to be technical lead. Technical leads are responsible for working with the EM/PM to articulate the problem space, proposed solution, and measures of success. They also scope a delivery plan and create issues to be tracked in the roadmap tracking issue. They are **not** solely responsible for executing on the work, which is a team effort. At our weekly team syncs, they share a status update (`On track`, `At risk`, `Won’t Do`) with the team.
 
 ## Team Meetings
 
@@ -83,9 +81,7 @@ We connect bi-weekly to celebrate wins from the past two weeks, give cheers to o
 
 ### Frontend Crew
 
-The Frontend Platform team uses this [agenda](https://docs.google.com/document/d/1el48U_HejMzoUjQ_l2glyPSFkuqTCr_IvIvkfu2zNNY/edit#heading=h.i5plvdwlbjoi) to run a bi-weekly, technically-focused meeting open to all frontend devs (and anyone else who’s interested!) at Sourcegraph. The idea is similar to a “guild” in the Spotify model:
-
-A Guild is a more organic and wide-reaching “community of interest,” a group of people that want to share knowledge, tools, code, and practices.
+The Frontend Platform team uses this [agenda](https://docs.google.com/document/d/1el48U_HejMzoUjQ_l2glyPSFkuqTCr_IvIvkfu2zNNY/edit#heading=h.i5plvdwlbjoi) to run a bi-weekly, technically-focused meeting open to all frontend devs (and anyone else who’s interested!) at Sourcegraph. The idea is similar to a “guild” in the Spotify model: “A Guild is a more organic and wide-reaching _community of interest_, a group of people that want to share knowledge, tools, code, and practices.”
 
 ## Housekeeping chores
 
