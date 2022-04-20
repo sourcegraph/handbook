@@ -901,7 +901,7 @@ If a product name is a plural noun, treat it as a singular noun. If a feature is
 ##### Yes
 
 - Batch Changes is available.
-- Code Insights is now available.  
+- Code Insights is now available.
 
 </div>
 <div class="item no">
