@@ -21,6 +21,7 @@ Our quarterly roadmap items are defined in [tracking issues](../../process/track
 For a lower level view of our day-to-day progress, we use the [Frontend Platform Github project](https://github.com/orgs/sourcegraph/projects/222/views/1). Each issue in the project should have a status.
 
 Here is what statuses mean today:
+
 - `Needs input`: We need input from someone outside of our team and the issue is blocked.
 - `On deck`: This issue should be picked up within the next two weeks. It’s what’s next after the person assigned to the issue completes their current work.
 - `Waiting`: The issue is dependent on something else and is blocked.
@@ -47,6 +48,7 @@ If you have a question that relates to our [areas of ownership](../../process/en
 ### Raising an issue
 
 If you think Frontend Platform is the right team to address a bug or other request, please file an issue. The issue should include:
+
 - A short description of the ask
 - A more detailed explanation of the background, context, and problem that needs solving
 - Any guidance related to the impact of this issue
@@ -66,8 +68,9 @@ We use OpsGenie to manage a support rotation that changes weekly. The person on-
 ## Team Meetings
 
 We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
-- Meeting leaders rotate weekly, and the leader should prepare the agenda at least 24 hours ahead of time. 
-- All teammates should add items to the agenda before the meeting begins. 
+
+- Meeting leaders rotate weekly, and the leader should prepare the agenda at least 24 hours ahead of time.
+- All teammates should add items to the agenda before the meeting begins.
 - Any action items that come out of meetings should be considered a high priority.
 
 ### Team Sync
