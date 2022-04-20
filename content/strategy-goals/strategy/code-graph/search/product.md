@@ -11,6 +11,7 @@ Quicklinks:
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+product%22)
 
 ## Goals
+
 - Continue to differentiate the core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search
 
 - Provide compelling solutions for the most pressing use cases of our customers
@@ -26,27 +27,33 @@ The Search Product team has the dual mission of increasing the value of the core
 In addition to the core search experience, Search Product team's scope includes [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore). Today, all products and features in Search Product's scope are included in every Sourcegraph contract.
 
 ## What's next and why
+
 Over the next quarter, Search Product will focus on foundational work in critical product areas and conduct research to inform an improved search experience.
 
 ### Foundational work
+
 Our planned foundational work falls broadly into two buckets: generalizing the search backend to make it more usable and powerful for internal consumers, and taking a fresh look at the core search UX.
 
 #### Search backend
+
 Over the past year, we’ve spent a significant amount of time cleaning up and improving the search backend. These efforts include, but are not limited to:
+
 - Implementing streaming across backends to minimize latency and memory usage
 - Partitioning search code into different domains and stages to manage complexity
 - Simplifying and unifying search result types
 
-The primary goal of these efforts has been to push the backend to a state where it will be maintainable in the face of new features. This is an ongoing process, but we’ve gained significant ground. 
+The primary goal of these efforts has been to push the backend to a state where it will be maintainable in the face of new features. This is an ongoing process, but we’ve gained significant ground.
 
 Q2's work will start to shift the focus of backend work from maintainability to capability and flexibility. This means thinking of “search” more as an API that we provide for internal consumers that exposes all the information needed to build features on top of it. Though search is an API, it's not yet flexible enough to solve all the use cases presented by, for example, Code Insights, and some other proposed user-facing query features. This work is important because it enables development of high-value roadmap items, and the ability to conceive of novel features that weren't possible before.
 
 #### Search UX
+
 In light of new search capabilities, we believe there's a big opportunity to create an outstanding search experience, which is vital to Sourcegraph's continued dominance in the code search market.
 
 This foundational work will have design and technical components. Design will focus on digesting user feedback, conducting user research, and iterating on UI and UX solutions. Engineering will focus on enabling and collaborating with design to determine the execution path, specify a development roadmap, and start development.
 
 ### Research
+
 Our research efforts will consist of establishing a baseline for UX issues by conducting a UX audit and building an estimated and prioritized design debt and UX roadmap. We will also conduct user research on Notebooks usage to inform its future roadmap.
 
 Despite being research, there will be some delivery related to this work. We plan to release an incremental improvement to the logged-in homepage, refactor the search results UI components, and execute on technical work related to our migration off of the Monaco editor.
@@ -54,6 +61,7 @@ Despite being research, there will be some delivery related to this work. We pla
 We're also making a bet on natural language search, exploring how we might incorporate ML models to generate query suggestions from user input. This is an interesting approach because, rather than training a model to semantically classify code, we'll be training it to generate a valid Sourcegraph query from natural language input.
 
 For example, if a user enters:
+
 > Python function for k-means clustering
 
 We'd want to see the model generate a query like:
