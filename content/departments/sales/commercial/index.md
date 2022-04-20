@@ -23,7 +23,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
   - [Mutual Action Plan (MAP)](#mutual-action-plan)
   - [Return on Investment (ROI)](#return-on-investment)
 - [Day-to-Day Activities](#day-to-day-activities)
-  - [Order Forms](#order-forms)
+  - [Order Forms and NDAs](#order-forms-and-ndas)
   - [Forecasting](#forecasting)
 - [Film Study](#film-study)
 
@@ -33,15 +33,19 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 1. Close Dates:
 
-   - When setting up an opportunity it should be the 1st day two months out; any opp opened in February will having a starting close date of April 1st.
-     - A close date on the 1st implies that your best guess is that the close date will be either 30 days before or after this date.
-     - A close date on the 1st implies that you don’t have alignment with the customer on the close date timing.
+   - When setting up an opportunity it should be the 15th day two months out; any opp opened in February will having a starting close date of April 15th.
+
+     - A close date on the 15th implies that your best guess is that the close date will be either the month before the close date or the current month of the close date.
+     - By definition of forecasting in quarter, a call or best case deal can't have a close date later than the 15th of the first month of the next quarter
+     - Early pipeline will always have a close date on the 15th; by the last month of the quarter, anything in early pipeline should be forecast at least as late as the 15th of the second month of the next quarter
+     - A close date on the 15th implies that you don’t have alignment with the customer on the close date. A close date of the 15th provides us with a best guest range of when the deal might close.
      - This date is easily moved.
-     - Unless the deal is expected to close on the first of the month, no commit deal should be forecast with this date.
+     - Unless the deal is expected to close on the 15th of the month, no commit deal should be forecast with this date.
+
    - Once you have alignment with the customer, you may move the close date to the last day of the month you believe the deal will close.
      - This date should push <10% of the time.
      - You may move this date forward to the actual day a deal closes if it is before the last day of the month when you have closed/won the deal.
-     - If the date is not on the 1st day of the month, it is by definition part of your commit.
+     - If the date is not on the 15th day of the month, it is by definition part of your commit.
 
 2. Next Steps:
 
@@ -138,11 +142,18 @@ In stage 3 or stage 4 you should put together a [ROI](https://docs.google.com/sp
 
 ## Day-to-Day Activities
 
-### Order Forms
+### Order Forms and NDAs
 
 You can [get a walkthrough](https://drive.google.com/file/d/17_bjpKrCp6y-KTby2fAgfP1bWT3IimI3/view) on where order forms are, how to fill them out, how to docusign the form and how to close a deal once you have a signed order.
 
+Walkthrough Edits:
+
+- For the Customer field, the first field in the top left of the order form, when you are setting up the docusign, please use the "Company" field and not the "Name" field. The customer should put the company name in this field, not the signer's name.
+- For the email fields near the top of the first page of the order form, please use the "Text" field in docusign when labeling them for customer inputs.
+
 If you need an exception to the norm for your order form, please see the [order form reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing) document.
+
+[Follow this flow to get a NDA signed by a customer](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239). If it's your first time, please follow [Tammy's NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view).
 
 ### Forecasting
 
@@ -161,7 +172,7 @@ If you need an exception to the norm for your order form, please see the [order 
    - Commit means that you have switched the close date to the last day of the month that it will close in; these things are synonomous and you should not have one without the other
    - Call is for deals that you believe will come in during the quarter
      - this may apply to any deal that has a mutual action plan (MAP) where the close date is in quarter
-     - the may apply to cloud deals that onboarded the month before the final month in the quarter
+     - this may apply to cloud deals that onboarded the month before the final month in the quarter
      - during the first month of the quarter, this should also apply to 1/3 of your existing pipeline for best case and early pipeline deals
    - Best Case are for deals that have engagement but without the clarity provided by a MAP;
      - these deals may include those that you have a 'gut' feel for

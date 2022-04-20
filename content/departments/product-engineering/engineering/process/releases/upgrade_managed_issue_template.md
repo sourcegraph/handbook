@@ -11,9 +11,9 @@ Arguments:
 
 # $MAJOR.$MINOR.$PATCH managed instances upgrade
 
-These [managed instances](../../cloud/delivery/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
+These [managed instances](../../cloud/devops/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process](../../cloud/delivery/managed/upgrade_process.md).
+To perform these upgrades, follow the [managed instances upgrade process](../../cloud/devops/managed/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
 
 ---
@@ -40,7 +40,4 @@ Make sure to upgrade internal instances before customer instances.
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8282
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8285
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/581
-- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/6857
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/605
-- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/5057
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/537

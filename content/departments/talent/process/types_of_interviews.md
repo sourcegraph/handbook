@@ -12,14 +12,15 @@ We strive for consistency across all interviews.
 - **Recruiter Screen**
 - **Hiring Manager Screen**
 - Assignment, if applicable
-- In-depth Interview stage:
+- Team Interview stage:
   - Resume Deep Dive
   - Assignment review/working session, if applicable
   - Technical Interview, if applicable
   - **Cross-functional Team Collaboration Interview**
   - **Peer Interview**
-  - Leadership Interview
+- Final Interview stage:
   - **Values Interview**
+  - Leadership Interview
 - Reference checks / offer
 
 ## Structured interview questions
@@ -439,7 +440,7 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 - The goal of the working session is to give us all a sense of what it'd be like to work together and make sure we have a shared understanding of the role and goals. This is not meant to be stressful or require a lot of preparation.
 - First, we'd like to cover some general stuff:
   - Your 20-second Sourcegraph pitch: Imagine a senior eng at your current company asked you what Sourcegraph is. We don't expect this to be super polished or even 100% correct - we want to hear your spin on what we're selling and the value proposition.
-  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me and Debbie, etc.)
+  - What do you need to be successful? (tools, resources/special budget for anything, specific commitments from other teams, anything from me, etc.)
 - Then we'd like to hear, at a high level, how you would approach putting together Sourcegraph’s 60–90 minute Q1 kickoff this February.
 - Q1 company kickoff
 - This of course takes hours of planning, but we’re just looking for a 60 minute conversation total (including the general stuff above). _You don't need to put together a full plan!_
@@ -568,6 +569,26 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 - Interviewer(s): Two Product Designers.
 - Duration: 1 hour
 - Details: In this interview, we will be looking for you to give some insight into a problem you were solving as part of a project you’ve worked on. You can present a real-life project or an exercise project you've created for your portfolio. We would like you to lead us through this problem and case study in detail. We’ll look to understand the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team (if applicable). We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made.
+
+### User Researcher
+
+#### Research RFC Project
+
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Duration: ~1 hour
+- Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
+
+#### Research Interview
+
+- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Duration: 1 hour
+- Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
+
+#### Research: Cross-functional Team Collaboration Interview
+
+- Interviewer(s): Engineering Manager and a Business Analyst
+- Duration: 30 minutes
+- Details: During this stage of the interview process, you will meet with members of another team with whom you would partner regularly. The goal of this interview is to understand how you communicate and collaborate with cross-functional partners within Sourcegraph. We are particularly interested in how you educate others regarding research practices. We are also interested in understanding how you collaborate with Business Analysts to ensure quality of analysis, particularly around quantitative research.
 
 ## Sales
 

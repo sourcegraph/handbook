@@ -58,10 +58,10 @@ We aim to increase the relevancy of our product for technology organizations tha
 
 No, there are many challenges and themes in the software development space! We are being intentional in choosing five common use cases where we can partner and innovate with our customers by developing depth in our solutions. Although these five problem spaces are the ones we’ve chosen to focus on at this time, we will continue to discover ways to support our users and every technology organization out there. We are not only focusing on the individual developer workflows, we’re looking at the bigger picture and tackling code quality, developer productivity and happiness within organizations. We are well positioned to truly revolutionize how software is developed and give super-powers to those developing it.
 
-## What will we do this quarter?
+## What will we do in FY23 Q1?
 
 This is a shift in how we think about developing products for our users and customers so we want to spend this quarter getting better at practicing this across our org. We've commited to this in our [OKRs](../goals/2023_Q1.md). We already have products and features that create a ton of value here AND we want to become an embedded solution for our customers in these five use cases. In the near term we aim to create the narrative under the Use Case umbrella: (for example) what are the features that make managing [code health](../strategy/use-cases/code-health.md) more efficient and making dev onboarding more efficient so new devs can be productive faster. How, where and when do our users expect to interact with our solutions within their work? Since each use case is serving a higher level need, we will define the user experience that makes access to this value easier and faster. We will collaborate across the business to tell the story of how Sourcegraph helps organizations manage each of these use cases. We believe this will pave the way for scaling our features in a way that’s super relevant and grows our business faster.
 
-# What will we do this year?
+# What will we do in FY23?
 
 Our [company strategy](../strategy/index.md) this year is centered around leveraging 5 use cases for existing customers to grow ARR. We will continue to build empathy for our enterprise partners and their challenges within these problem spaces. Inevitably we will discover more, different opportunities where Sourcegraph can bring forth solutions and iterate on our product-market fit.
