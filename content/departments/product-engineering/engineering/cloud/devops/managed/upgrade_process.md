@@ -66,8 +66,8 @@ export OLD_DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX
 # the instance we will create
 export NEW_DEPLOYMENT=$([ "$OLD_DEPLOYMENT" = "red" ] && echo "black" || echo "red")
 # cf origin cert
-export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access 1 --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)
-export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access 1 --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)
+export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)
+export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)
 ```
 
 Make sure your copy of the [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository is up to date:

@@ -16,8 +16,8 @@ For basic operations like accessing an instance for these steps, see [managed in
 - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
 - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
   - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
-- `export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access 1 --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)`
-- `export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access 1 --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)`
+- `export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)`
+- `export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)`
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
