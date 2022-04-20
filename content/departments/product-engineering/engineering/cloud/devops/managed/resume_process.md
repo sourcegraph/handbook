@@ -38,6 +38,9 @@ export CURRENT_DEPLOYMENT=$(gcloud compute snapshots list --format json --sort-b
 # The value can be found in the Managed Instances vault
 # https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m
 export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
+
+export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access 1 --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)
+export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access 1 --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)
 ```
 
 Make sure your copy of the [deploy-sourcegraph-managed]() repository is up to date:
