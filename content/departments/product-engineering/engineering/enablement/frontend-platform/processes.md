@@ -6,112 +6,102 @@ The Frontend Platform team primarily receives support requests from internal Sou
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. If something requires our immediate attention, tag the @frontend-platform-support handle and our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-support-handle` if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 ### Raising an issue
 
 If you think Frontend Platform is the right team to address a bug or other request, please file an issue. The issue should include:
 
 - A short description of the ask
-- A more detailed explanation of the background, context, and challenge that needs solving
+- A more detailed explanation of the background, context, and problem that needs solving
 - Any guidance related to the impact of this issue
 - Any extra information that will help us solve or prioritize the issue
 - The label `team/frontend-platform`
 
-### Getting cross-team feedback on RFC
-
-- Create an issue for the RFC tracking on our [Kanban board](https://github.com/orgs/sourcegraph/projects/144).
-- [Lock conversation](https://docs.github.com/en/github/building-a-strong-community/locking-conversations): RFC should be discussed in the Google doc.
-- Add _rfc/tracking_ and _team/frontend-platform_ labels to the RFC issue.
-- Once RFC is ready for review, move it to the _In review_ column and assign _sourcegraph/frontend-devs_ or individual developers to the issue.
-- Github integration will notify _@web_ in #frontend-platform-rfc-feed that the RFC is ready for review.
-- Once approved, link the RFC issue to the tracking issue [if required](#tracking-issues).
-
 ## How we work
 
-### Planning and prioritization
+### Tracking our work
 
-We plan and track our day-to-day work with [Github projects](https://github.com/orgs/sourcegraph/projects/222/views/1). Our current process (last updated 2021-12-09) is as follows:
+As of 2022-04-20, we use Github projects and Code Insights to keep track of our work.
 
-- Incoming tickets (e.g., from other teams) must have the `team/frontend-platform` label applied. As part of our [triage process](#triage), these tickets are investigated and prioritized by the designated teammate.
-- Work is scheduled by assigning issues a status of _Backlog_ and a target of _This iteration_, _Next iteration_, _This quarter_ or _Not planned_.
-- The [Current work](https://github.com/orgs/sourcegraph/projects/222/views/1) view reflects work that is actively in progress.
-  - By EOD Monday (in advance of our Tuesday sync), devs should update issues and assign a status of _On deck_ to the work they plan to pick up.
-  - Once work on an issue has begun, it should have a status of _In progress_.
-- The [All issues by target](https://github.com/orgs/sourcegraph/projects/222/views/22) view represents a higher level view of the work we have planned (or not planned).
+#### Product and Engineering roadmap project
 
-### Triage
+Our quarterly roadmap items are defined in [tracking issues](../../process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these roadmap tracking issues keep track of the smaller issues that contribute to the execution of the roadmap item. In this way, the roadmap issue reflects a high-level view of our progress on a given roadmap item.
 
-We have a weekly rotation for triaging and refining issues. During their week on rotation, the on-duty teammate is responsible for triaging and clarifying any new issues that have been reported. We aim to do the following on a daily basis:
+#### Frontend Platform project
 
-1. Go to the [All issues by status tab on the Frontend Platform board](https://github.com/orgs/sourcegraph/projects/222/views/7), and find the _No status_ section. This is where untriaged issues appear. (If you don't see "No Status", it means that there are no untriaged issues.)
-2. For each issue in that section, consider the following:
-   - Is it clear what needs to be done? If not, ask for clarification on the ticket, apply an appropriate label (e.g., `needs-more-info` or `awaiting-reply`), and change the status to _Needs input_.
-   - Is it clearly something that should be done by the Frontend Platform team? If not, tag other teams (using the appropriate `team/xyz` label) and have a discussion about which is the best team to own the issue. Or you can add the `needs-discussion` label and discuss it with the team at an upcoming meeting (e.g. Frontend Platform sync or FPT coffee).
-   - Is there an obvious owner on the Frontend Platform team (e.g., if it relates to a feature)? If so, assign the appropriate teammate.
-   - Is it ready for development? If required, add the `needs-design` label, assign the issue to the Product Designer, and set the status to _Waiting_.
-   - If it's ready for development and you know how to prioritize it correctly, set the status to _Backlog_ and give it an appropriate target. If you don't know how to prioritize it, add the `needs-prioritization` label and ask your teammates for help.
+For a lower level view of our day-to-day progress, we use the [Frontend Platform Github project](https://github.com/orgs/sourcegraph/projects/222/views/1). Each issue in the project should have a status.
 
-At the end of the week, aim for the _No status_ section to be empty, or almost empty.
+Here is what statuses mean today:
 
-### Tracking Issues
+`Needs input`: We need input from someone outside of our team and the issue is blocked.
+`On deck`: This issue should be picked up within the next two weeks. It’s what’s next after the person assigned to the issue completes their current work.
+`Waiting`: The issue is dependent on something else and is blocked.
+`In progress`: The issue is actively in progress.
+`Done`: PRs associated with this issue have been merged to main and the issue is closed.
+`Backlog`: We don’t have any immediate plans to pick up this issue.
 
-The team makes use of [tracking issues](../../process/tracking_issues.md) for tracking progress on the implementation of new features. The teammates should ensure that a tracking issue is created when starting work on features that are expected to take longer than a few days (or require multiple PRs) to deliver.
-
-### Code Insights
+#### Code Insights
 
 We have several Code Insights dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
 
-- [Frontend Platform: Migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTF9) tracks long-running code migrations (e.g., global CSS → CSS modules).
-  - The insight title should contain the GitHub issue number (where applicable).
-  - For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
-- [Frontend Platform: Wildcard Usage](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcxMzd9).
+[Frontend Platform: Migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTF9) tracks long-running code migrations (e.g., global CSS → CSS modules).
 
-### Code reviews
+- The insight title should contain the GitHub issue number (where applicable).
+- For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
 
-The team follows the [default code review guidelines](https://docs.sourcegraph.com/dev/background-information/code_reviews) with the following addition:
+[Frontend Platform: Wildcard Usage](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcxMzd9).
 
-1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
-2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
-3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
+### Planning
+
+We use the [FPT Planning](https://docs.google.com/document/d/1Y_1t9fPWn7VfARcLKj4KEV4FJoMHsGzG8flJH2V54QA/edit) document to asynchronously discuss our quarterly roadmap according to the [cadences outlined in the handbook](../../../process/planning-process.md). Our [Strategy](../../../../../../content/strategy-goals/strategy/enablement/frontend-platform/index.md) page is updated monthly to reflect our team’s plans.
+
+We collect our team’s important planning documents in [Frontend Platform RFCs and PDs](https://docs.google.com/document/d/12CJP9T360GzxQJpJuJgtRid3uKpyIWPo1XpvkXG3P9M/edit).
+
+### Roles
+
+#### Technical lead
+
+For each roadmap item, we assign an engineer to be technical lead. Technical leads are responsible for working with the EM/PM to articulate the problem space, proposed solution, and measures of success. They also scope a delivery plan and create issues to be tracked in the roadmap tracking issue. They are not solely responsible for executing on the work, which is a team effort. At our weekly team syncs, they share a status update (On track, At risk, Won’t Do) with the team.
+
+#### Support rotation
+
+We use OpsGenie to manage a support rotation that changes weekly. The person on-call will be pinged when someone tags `@frontend-platform-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
 ### Meetings
 
 We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
-- Meeting agenda:
-  - The meeting leader prepares the agenda at least 24 hours in advance in a shared Google document.
-  - Participants write down their items at least 12 hours before the meeting. There can always be last-minute additions, but early preparation is encouraged.
-  - If the discussion point is expected to take a considerable amount of time, an estimate in minutes should be added.
-  - Participants ensure that each topic includes important details and relevant references.
-  - Participants review agenda details before the meeting starts.
-  - During the meeting, we follow the agenda and fill in notes along the way.
-- Timing:
-  - The meeting leader always starts discussion on time, even if some participants are late. (And try not to be late.)
-  - The meeting leader ensures that the meeting ends on time (or early).
-- Action items:
-  - We capture and assign action items to individual teammates.
-  - We review action items from the previous meeting to make sure they get completed.
+Meeting leaders rotate weekly, and the leader should prepare the agenda at least 24 hours ahead of time. All teammates should add items to the agenda before the meeting begins. Any action items that come out of meetings should be considered a high priority.
 
-### Retrospectives
+#### Team Sync
 
-Every two weeks, we hold a review/retrospective meeting to reflect on the past two weeks. We use this meeting to:
+We connect weekly to discuss any topics that are best addressed in person. The [agenda](https://docs.google.com/document/d/1_wptyMfAjLagJKPjIhPt_miXoEpYuyo_64PBCTTr5h0/edit) includes a “sprint” kickoff or midpoint check-in (we loosely operate in two-week cycles), review of any unplanned work, and updates on roadmap progress. Technical leads should update roadmap items ahead of time with a status of `On track`, `At risk`, or `Won’t do` and any other relevant details.
 
-- Give _Shoutouts!_ to teammates to show appreciation for something they did that we appreciated
-- Discuss things that went well in the past two weeks and that we should do more of / invest more into it
-- Discuss the things that could have gone better and what we can learn from it to improve
-- Talk about processes that we should revisit/refine/propose to improve our efficiency.
+#### Team Retro
 
-Teammates should consider action items coming out of the retrospective as a very high priority.
+We connect bi-weekly to celebrate wins from the past two weeks, give cheers to our teammates, and reflect on what we’ve liked, not liked, and learned for going forward. The focus of the [agenda](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit) for this meeting is team health, as opposed to day-to-day work.
 
-Teammates contribute to the retrospective asynchronously during the iteration by adding their thoughts to our [retrospective document](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit).
+#### Frontend Crew
 
-We rotate who leads the retrospective to allow all teammates an opportunity to lead the session. Teammates can find the rotation schedule at the top of the [retrospective document](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit).
+The Frontend Platform team uses this [agenda](https://docs.google.com/document/d/1el48U_HejMzoUjQ_l2glyPSFkuqTCr_IvIvkfu2zNNY/edit#heading=h.i5plvdwlbjoi) to run a bi-weekly, technically-focused meeting open to all frontend devs (and anyone else who’s interested!) at Sourcegraph. The idea is similar to a “guild” in the Spotify model:
 
-### Weekly Sync
+A Guild is a more organic and wide-reaching “community of interest,” a group of people that want to share knowledge, tools, code, and practices.
 
-The team holds weekly syncs.
+### Housekeeping chores
 
-The meeting notes of team syncs can be found [in this doc](https://docs.google.com/document/d/1_wptyMfAjLagJKPjIhPt_miXoEpYuyo_64PBCTTr5h0/edit).
+#### Weekly reminders
 
-Before team syncs, teammates and stakeholders should write down under "Agenda" in the meeting notes document anything that they'd like to bring up for discussion with the whole team. During the sync, we dedicate time to discussing any tickets on our board that have the `needs-discussion` label.
+At the start of each week, the PM posts a reminder in `#frontend-platform-internal` indicating who is on support and who is leading meetings.
+
+#### Updating the Frontend Platform project board
+
+All engineers update the board in advance of the weekly sync.
+
+#### Updating the Product and Engineering roadmap
+
+The PM owns the roadmap issues and solicits input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct. The PM updates these issues weekly, after getting the roadmap progress reports in the team sync.
+
+#### Updating our Strategy page
+
+The PM updates this page at the start of each month.
