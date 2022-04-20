@@ -25,9 +25,11 @@ If you think Frontend Platform is the right team to address a bug or other reque
 As of 2022-04-20, we use Github projects and Code Insights to keep track of our work.
 
 #### Product and Engineering roadmap project
+
 Our quarterly roadmap items are defined in [tracking issues](../../process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these roadmap tracking issues keep track of the smaller issues that contribute to the execution of the roadmap item. In this way, the roadmap issue reflects a high-level view of our progress on a given roadmap item.
 
 #### Frontend Platform project
+
 For a lower level view of our day-to-day progress, we use the [Frontend Platform Github project](https://github.com/orgs/sourcegraph/projects/222/views/1). Each issue in the project should have a status.
 
 Here is what statuses mean today:
@@ -44,8 +46,9 @@ Here is what statuses mean today:
 We have several Code Insights dashboards on [k8s.sgdev.org](https://k8s.sgdev.org/) which we use to track progress:
 
 [Frontend Platform: Migrations](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjY0OTF9) tracks long-running code migrations (e.g., global CSS → CSS modules).
-  - The insight title should contain the GitHub issue number (where applicable).
-  - For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
+
+- The insight title should contain the GitHub issue number (where applicable).
+- For completed migrations, the insight title should beging with "DONE: " (e.g. "DONE: Consolidation of React Testing Libraries (#24986)") and the insight should be moved to the bottom row.
 
 [Frontend Platform: Wildcard Usage](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcxMzd9).
 
@@ -58,9 +61,11 @@ We collect our team’s important planning documents in [Frontend Platform RFCs 
 ### Roles
 
 #### Technical lead
-For each roadmap item, we assign an engineer to be technical lead. Technical leads are responsible for working with the EM/PM to articulate the problem space, proposed solution, and measures of success. They also scope a delivery plan and create issues to be tracked in the roadmap tracking issue. They are not  solely responsible for executing on the work, which is a team effort. At our weekly team syncs, they share a status update (On track, At risk, Won’t Do) with the team.
+
+For each roadmap item, we assign an engineer to be technical lead. Technical leads are responsible for working with the EM/PM to articulate the problem space, proposed solution, and measures of success. They also scope a delivery plan and create issues to be tracked in the roadmap tracking issue. They are not solely responsible for executing on the work, which is a team effort. At our weekly team syncs, they share a status update (On track, At risk, Won’t Do) with the team.
 
 #### Support rotation
+
 We use OpsGenie to manage a support rotation that changes weekly. The person on-call will be pinged when someone tags `@frontend-platform-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
 ### Meetings
@@ -70,26 +75,33 @@ We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-pr
 Meeting leaders rotate weekly, and the leader should prepare the agenda at least 24 hours ahead of time. All teammates should add items to the agenda before the meeting begins. Any action items that come out of meetings should be considered a high priority.
 
 #### Team Sync
+
 We connect weekly to discuss any topics that are best addressed in person. The [agenda](https://docs.google.com/document/d/1_wptyMfAjLagJKPjIhPt_miXoEpYuyo_64PBCTTr5h0/edit) includes a “sprint” kickoff or midpoint check-in (we loosely operate in two-week cycles), review of any unplanned work, and updates on roadmap progress. Technical leads should update roadmap items ahead of time with a status of `On track`, `At risk`, or `Won’t do` and any other relevant details.
 
 #### Team Retro
+
 We connect bi-weekly to celebrate wins from the past two weeks, give cheers to our teammates, and reflect on what we’ve liked, not liked, and learned for going forward. The focus of the [agenda](https://docs.google.com/document/d/1SRhrTRJFGAEtTyhOqaO7TxsMQeBgIhUXRCDOEcv1EB8/edit) for this meeting is team health, as opposed to day-to-day work.
 
 #### Frontend Crew
+
 The Frontend Platform team uses this [agenda](https://docs.google.com/document/d/1el48U_HejMzoUjQ_l2glyPSFkuqTCr_IvIvkfu2zNNY/edit#heading=h.i5plvdwlbjoi) to run a bi-weekly, technically-focused meeting open to all frontend devs (and anyone else who’s interested!) at Sourcegraph. The idea is similar to a “guild” in the Spotify model:
 
-  A Guild is a more organic and wide-reaching “community of interest,” a group of people that want to share knowledge, tools, code, and practices.
+A Guild is a more organic and wide-reaching “community of interest,” a group of people that want to share knowledge, tools, code, and practices.
 
 ### Housekeeping chores
 
 #### Weekly reminders
+
 At the start of each week, the PM posts a reminder in `#frontend-platform-internal` indicating who is on support and who is leading meetings.
 
 #### Updating the Frontend Platform project board
+
 All engineers update the board in advance of the weekly sync.
 
 #### Updating the Product and Engineering roadmap
+
 The PM owns the roadmap issues and solicits input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct. The PM updates these issues weekly, after getting the roadmap progress reports in the team sync.
 
 #### Updating our Strategy page
+
 The PM updates this page at the start of each month.
