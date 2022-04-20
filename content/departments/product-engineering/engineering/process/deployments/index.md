@@ -143,3 +143,34 @@ The automatic release process works as follows:
 1. The PR is merged and a final [Buildkite](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.buildkite/pipeline.yaml#L37:L43) pipeline is triggered to deploy the changes to production
 
 All infrastructure changes should first be branched off `preprod` and merged into the `preprod` environment first before being manually merged (via PR) to `release`.
+
+## Deployment observability
+
+> NOTE: This section is a work in progres!
+
+### Deployment traces
+
+Traces are emitted by [`deployment-notifier`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/dev/deployment-notifier/trace.go) to [HoneyComb.io](https://www.honeycomb.io/) when a deployment happens. The generated traces are structured roughly as follows:
+
+```none
+deploy/env ---------
+  pr/1 -------------
+  -------- service/1
+  -------- service/2
+      pr/2 ---------
+      ---- service/1
+      ---- service/2
+                 ...
+```
+
+The following fields are important in each event:
+
+- `service.name` denotes the type of the span (`deploy/$env`, `pull_request`, `service`)
+- `name` denotes an identifying string for the span in the context of `service.name` (e.g. pull request number, Sourcegraph service name)
+- `environment` denotes the deploy environment the span is related to (e.g. `preprod`, `cloud`)
+
+Based on these traces, we can create dashboards to monitor the metrics related to how long changes take to roll out from the time a PR is merged, to each service in each environment.
+
+You can see our current dashboards in Honeycomb: [Deployments](https://ui.honeycomb.io/sourcegraph/board/ev4yWqP5h3u/Deployments)
+
+This tooling is operated by the [DevX team](../../enablement/dev-experience/index.md).
