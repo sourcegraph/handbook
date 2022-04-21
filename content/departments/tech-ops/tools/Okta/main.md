@@ -44,7 +44,7 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 ## Which MFA options are available?
 
-- Okta Verify is available on iOS, and Android devices. You can use 1Password’s one-time passcode feature to host your MFA codes. 
+- Okta Verify is available on iOS, and Android devices. You can use 1Password’s one-time passcode feature to host your MFA codes.
 - YubiKeys
 
 For YubiKey set up:
