@@ -1,0 +1,41 @@
+# Guiding principles for teamwork on Search Product
+
+This document outlines some guiding principles we seek to follow when welcoming engineers onto the Search Product team. It also serves as shared vocabulary on the team, when we talk about the culture we try to foster.
+
+## You're trusted by default
+
+The notion that one must "earn the trust" of their peers or manager is extremely limiting for newcomers, who are faced with this arbitrary "bar of trust" they must meet before they can deploy agency.
+
+On this team, trust is a given. Your teammates will value the opinions, questions, ideas and concerns you will bring forward from day zero. When we ask you questions, it's out of genuine interest for what you might have to answer, not as a test of your worth, and your answers will not be judged.
+
+## Liberating ability through context
+
+We trust in your skills and ability; this is why you are on this team. But raw ability must be coupled with context on the team's technical domain and its goals in order to produce impact.
+
+Our job as you onboard is to give you this context, so that you can liberate your ability. As a result, your job as you onboard is to focus on absorbing context, rather than attempting to demonstrate ability through immediate execution. This doesn't mean operating solely in the abstract, as of course part of absorbing context will entail tackling some practical problems.
+
+## We'll provide direction, not tasks
+
+While we will provide you with some initial tasks that will help you absorb context, the eventual end goal is that you are able to identify the work you should tackle to produce impact towards team and company goals. This impact can be direct or indirect. An example of direct impact is building functionality that will directly unblock a user outcome. An example of indirect impact is ensuring we have a solid foundation to build upon, so that we can build functionality that unblocks user outcomes.
+
+Our job is to help provide context and clarity on direction: what problems are we seeking to solve as a team, as a company? Why do these problems matter? What are north star outcomes? As you absorb this direction, and understand how it relates to your domain of expertise, you will be empowered to directly identify and break down the work that should happen to make progress towards north star outcomes. As you wrap up a work item, you should feel empowered to ask yourself: "what should I work on next? why?", and to bring your answers to the team. In your first few months, you may find that we end up asking you these questions ("what do _you_ think you should work on next?"), to encourage this practice.
+
+## Your scope can be arbitrarily wide
+
+While you may naturally gravitate towards the types of problems you have the most expertise solving, and while we will pick initial tasks that match your expertise, you do not need special permission to tackle problems outside of this scope. A practical example could be a backend-leaning engineer tackling frontend-leaning tasks. However, scope extends beyond the technical realm here: you should feel empowered to, for instance, suggest improvements to our team processes, challenge or clarify our team strategy, or bring forward opportunities to collaborate with other teams.
+
+We trust you to leverage this freedom with discernment, keeping good forward momentum towards the outcomes you, the team and the company are targeting. We can help you identify the best strategies to do so.
+
+## Keep plenty of breathing room
+
+We have found the team to be most effective when teammates keep plenty of breathing room: the team is more relaxed, has room for creativity, the quality of our work improves, and we end up making faster overall progress towards roadmap outcomes. Breathing room or slack time is traditionally hard to quantify, but as a ballpark idea try to cap roadmap commitments to 50-60% of your total bandwidth. We trust you with how you employ the rest of your bandwidth.
+
+You may find yourself using this breathing room to
+
+- Absorb an occasional underestimated task without straining your schedule
+- Be able to pursue codebase health improvements that you identify as you work towards roadmap outcomes
+- Grow your skills and scope
+- Develop and explore ideas you're passionate about
+- Or, sometimes, simply to breathe.
+
+Having and using this much breathing room may require an adjustment. Don't hesitate to talk to your teammates about their experience organizing their time and bandwidth.
