@@ -40,6 +40,8 @@ All Sourcegraph team members have an Okta account set up as part of their onboar
 
 Expect the sign-up process to take around 10 minutes. You will need to create login credentials, and set up Okta Verify on your mobile and/or desktop device for MFA.
 
+Visit [this page](okta-activation-steps.md) to follow the steps to activate your Okta account.
+
 ## Which MFA options are available?
 
 - Okta Verify is available on iOS, Android, and Windows devices.
