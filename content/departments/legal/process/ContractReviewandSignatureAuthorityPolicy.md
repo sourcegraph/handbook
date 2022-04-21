@@ -20,7 +20,7 @@ Legal:
 - [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
 - For general legal requests or questions, please use the #legal slack channel.
 - For Customer contracts, please submit request via the #deal-desk slack channel.
-- For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
+- For Vendor contracts, please submit requests via the #vendor-requests slack channel.
 
 Give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don’t hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time.
 
@@ -53,6 +53,8 @@ SLAs—Turnaround time for legal review:
 
 ### Customer contracts
 
+#### Order forms
+
 1. Link to document in GDrive
 2. Customer Name
 3. Product Sold (Search, batch changes, etc.)
@@ -67,6 +69,19 @@ SLAs—Turnaround for Deal Desk review:
 - Sourcegraph Form: 1 business days
 - Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
 - EOQ: Deal Desk will attempt to expedite reviews in the last week of the quarter
+
+#### MSAs
+
+1. Deployment method: On Prem, Cloud, Managed instance, or Offline
+1. Deal value: annual contract value
+1. Logo rights: are you negotiating for logo rights?
+1. Timeline: flag any special timing needs
+
+SLAs—Turnaround for Legal review:
+
+- Sourcegraph Form: 3 business days
+- Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
+- EOQ: Legal will expedite reviews at end of quarter. Priority to higher ACV deals.
 
 ### Vendor contracts
 
