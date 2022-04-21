@@ -9,12 +9,16 @@ For basic operations like accessing an instance for these steps, see [managed in
    - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
-   - `export VERSION=vMAJOR.MINOR.PATH`
-   - `export COMPANY=$COMPANY`
-   - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
-   - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
-   - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
-     - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+
+- `export VERSION=vMAJOR.MINOR.PATH`
+- `export COMPANY=$COMPANY`
+- `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
+- `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
+- `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
+  - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+- `export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)`
+- `export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)`
+
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate/gcp-tfstate.tf` according to the TODO comments within, commit the result.
@@ -75,4 +79,4 @@ To provide the customer access to the instance:
 
 ## Configuring License, SSO, and repositories
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a delivery team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.

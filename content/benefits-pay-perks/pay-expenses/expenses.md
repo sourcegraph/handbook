@@ -18,34 +18,13 @@ Reimbursement requests are processed on Airbase, which can be accessed via Okta.
 
 [Reimbursements Help](https://help.airbase.com/hc/en-us/articles/360057207871-Overview-of-Reimbursements-)
 
-## Teammates using Velocity Global
-
-Team members using Velocity Global will receive an email invitation to our Expensify organization during your first week. Please sign up using that link and do not sign up manually, this will create an account but it will not be associated with the proper organization or expense policy and will result in delayed reimbursements. Reimbursement via Velocity Global will not be paid upon approval as it is aligned with payroll cycles.
-
-### When submitting an expense via Expensify
-
-- Create a report and add individual expenses to that report.
-- Upload receipts for each expense (required for all expenses above $25).
-- Ensure the date and description fields are properly filled out.
-  - The date listed on your expense should be the date of purchase (not the date of submission).
-  - The description field should list exactly what item is being expensed.
-- Ensure that each expense is properly categorized.
-  - Some frequently asked questions about categories include:
-  - Software purchases or subscriptions should be categorized as "Software and SaaS <$1000"
-  - Computer purchases and other hardware (monitor, headphones, etc.) should be categorized as "Computer & Related"
-  - Home office set-up purchases (chairs, desks, etc.) should be categorized as "Desk Setup Stipend"
-  - Team building event purchases should be categorized under "Team Morale"
-  - Co-Working space bills should be categorized as Rental & Co-Working Space
-  - There is no designated "home office setup" category in Expensify. Each expensed item should be categorized individually. So even though we have one home office setup budget, it spans across multiple categories.
-  - Onboarding teammates may receive a $2000 maximum limit notice when expensing computer & equipment. Please note that first-time computer purchases are considered an exception to this policy.
-
 ## Teammates based outside of the US
 
 Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](invoices.md). Once the expenses are approved, the full invoice can be paid.
 
 ## Internet, phone, and wellness benefits
 
-- For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Expensify.
+- For US based teammates: these fringe benefits are automatically added to your paycheck (the total amount is split up over both paychecks for the month), there is no need to submit them via Airbase.
 - For teammates based outside the US: you can have these as fixed line items on your invoices and you will be paid for the full amount every month (receipts are not required for these fixed line items).
 - Fringe benefit amount (per month):
   - Internet: $50

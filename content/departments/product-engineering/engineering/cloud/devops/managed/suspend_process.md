@@ -2,8 +2,8 @@
 
 ## How to request
 
-1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdelivery&template=managed-instance-suspend.md&title=)
-2. Notify Delivery in [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel, linking to the issue
+1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-suspend.md&title=)
+2. Notify Delivery in [#cloud-devops] channel, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
 
@@ -47,6 +47,9 @@ export CURRENT_DEPLOYMENT=$(gcloud compute instances list --project=${PROJECT_PR
 # The value can be found in the Managed Instances vault
 # https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m
 export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
+
+export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)
+export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)
 ```
 
 Make sure your copy of the [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository is up to date:
@@ -121,3 +124,5 @@ git add . && git commit -m "$CUSTOMER: suspend instance" && git push origin HEAD
 And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person touching the instance will have a very bad time.
+
+[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG

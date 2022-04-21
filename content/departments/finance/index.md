@@ -200,3 +200,13 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 ### Fixed Assets
 
 - [Fixed Asset Policy](https://docs.google.com/document/d/155anVJgInRempR92LiiOwOIf2JJB5jj3b9ktrp8nznY/edit)
+
+## Deal Desk
+
+Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components. We coordinate internal approvals of paperwork with other internal stakeholders in order to deliver compliant documents and we support throughout the deal closing process.
+
+- All requests should be submitted to the #deal-desk slack channel.
+- SLA: 1 business day.
+- Additional information: [Sales Resources](../../departments/sales/tools/salesresources.md)
+- Information for Customer Questionnaires: [Corporate Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
+- For questions, please email us at: dealdesk@sourcegraph.com

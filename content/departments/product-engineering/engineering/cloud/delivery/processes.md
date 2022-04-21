@@ -31,11 +31,11 @@ The `@geekbot` will prompt all participates at 10 AM local time (you may overrid
 - What will you do today?
 - Anything blocking your progress?
 
-### On-Call Rotation
+### Support Rotation
 
-The Delivery team has a weekly on-call rotation where the Engineer On-Duty will respond to managed instance alerts, monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
+The Delivery team has a weekly support rotation where the Engineer On-Duty will monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
 
-More information about the [Delivery Team's On-Call Rotation can be found here](./on-call.md).
+More information about the [Delivery Team's Support Rotation can be found here](./on-call.md).
 
 ## Issue tracking
 
@@ -88,7 +88,6 @@ Items in here are either complete or are waiting on Customer/Internal feedback.
 
 Examples:
 
-- We have created a managed instance but we want to confirm the customer is able to log in.
 - We have completed work that needs to also be confirmed and worked on by other teams.
 
 ### Complete

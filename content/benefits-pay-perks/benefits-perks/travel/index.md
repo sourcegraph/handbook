@@ -59,15 +59,14 @@ Factor in as much time to spend together during the trip and leave room for solo
 - This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
 - This budget can be used for travel _(airfare, trains, etc.)_, lodging _(hotels, rental homes, etc.)_, events, meals and entertainment.
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
-- If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 
 ### 3. Individual travel
 
-Each teammate has one fully-paid trip per year to meet up with an individual or a group. The intention for this travel is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with a teammate from another team, with whom you work closely or with whom a personal meeting may be beneficial.
+Each teammate has a $2,500 budget per year to meet up with individual Sourcegraph teammates or a group. The intention for this budget is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
 
-- People Ops and Finance may approve trips in excess of $2,500 for certain circumstances.
-- This trip is _in addition_ to the other benefits mentioned on this page.
+- This budget is _in addition_ to the other benefits mentioned on this page.
+- Budgets cannot be "mixed and matched", for example you cannot spend $1k from your invidivual team budget in order to add the remaining $1.5k to a team travel.
 
 ### 4. Business/customer travel
 

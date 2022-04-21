@@ -1,6 +1,6 @@
 # Contract review and signature authority policy
 
-Effective and last modified February 24, 2022
+Effective and last modified April 21, 2022
 
 The purpose of this policy is to help you direct your contracts to the right team or teammate to review, approve, and sign.
 
@@ -19,16 +19,22 @@ Legal:
 
 - [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
 - For general legal requests or questions, please use the #legal slack channel.
-- For Customer Contracts, please submit requests via the #deal-desk slack channel.
+- For Customer contracts, please submit request via the #deal-desk slack channel.
 - For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
 
 Give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don’t hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time.
+
+Deal Desk:
+
+-[dealdesk@sourcegraph.com](mailto:dealdesk@sourcegraph.com)
+-For Customer Contracts (OF, MSA and other approvals), please submit requests via the #deal-desk slack channel.
+-For process guidance or deal structuring information, please use the #deal-desk channel or contact us through email.
 
 Finance:
 
 - [finance@sourcegraph.com](mailto:finance@sourcegraph.com) or
 - For general finance requests or questions, please use the #finance slack channel.
-- For Customer Contracts, please submit requests via the #deal-desk slack channel.
+- For Customer contracts, please submit request via the #deal-desk slack channel.
 - For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
 
 If you submit a request via #legal or #finance slack channels, no need to duplicate your request in each channel. You can just post your request in one channel and tag the other team.
@@ -47,15 +53,20 @@ SLAs—Turnaround time for legal review:
 
 ### Customer contracts
 
-1. What are you selling (on prem, managed instance, offline ("air-gapped"))
-1. Approximate contract value
-1. Any other relevant context
+1. Link to document in GDrive
+2. Customer Name
+3. Product Sold (Search, batch changes, etc.)
+4. Deployment Method (On Prem, Cloud, Offline, M.Inst.)
+5. Contract Type (New deal, Renewal, Expansion)
+6. Approximate contract value
+7. Required timing for review
+8. Other helpful context
 
-SLAs—Turnaround time for legal review:
+SLAs—Turnaround for Deal Desk review:
 
-- Sourcegraph Form: 3 business days
+- Sourcegraph Form: 1 business days
 - Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
-- EOQ: Legal will attempt to expedite reviews in the last week of the quarter
+- EOQ: Deal Desk will attempt to expedite reviews in the last week of the quarter
 
 ### Vendor contracts
 
@@ -105,7 +116,7 @@ For Salesforce, complete the opportunity with the following steps: 1) go to the 
 
 ### NDAs (for customers, vendors, partners)
 
-- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (no redlines) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
+- [Sourcegraph Form - Standard Terms](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) (watch this [3-min Powerform NDA Tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing)) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing) (no redlines)
   - Review: None
   - Approve: None
   - Sign: Director of Legal, VP, or Director
@@ -133,20 +144,21 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
-  - Review: (a) Legal and (b) Customer Engineer (CE) for security addenda or questionnaires
-  - Approve: (a) Legal and (b) Finance for any non-standard payment terms including termination
+  - Review: (a) Deal Desk who may escalate to Legal, Finance and Customer Engineer for review as required.
+  - Approve: (a) Deal Desk who may escalate to Legal and Finance for approval as required.
   - Sign: Director of Legal or VP Finance/Operations
 
 - Customer Form
 
-  - Review: (a) Legal and (b) Customer Engineer (CE) for security addenda or questionnaires
-  - Approve: (a) Legal and (b) Finance for any non-standard payment terms including termination
+  - Review: (a) Legal (b) Deal Desk and (c) Customer Engineer (CE) for security addenda or questionnaires
+  - Approve: (a) Legal (b) Deal Desk and (c) Finance for any non-standard payment terms including termination
   - Sign: Director of Legal or VP Finance/Operations
 
 Templates:
 
 - See [Sales Resources Templates](../../sales/tools/salesresources.md#sales-templates)
-- For other templates, reach out to Legal
+- See our [Order Form Review](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) file to review our Approval Matrix and a list of our non-standard terms.
+- For other templates, reach out to Deal Desk
 
 ### Vendor contracts (Sourcegraph pays a third party for products or services)
 
