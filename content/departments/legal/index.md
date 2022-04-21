@@ -45,6 +45,12 @@ Legal training for managers on performance management
 - [Video](https://drive.google.com/file/d/1d_UXOd6mkmhKIWc5yrHIZOXOlYH-H9IZ/view?usp=sharing)
 - [Slides](https://drive.google.com/file/d/11wgGGg10JJnd4z4Ajx0rx7aVte2FDiOY/view?usp=sharing)
 
+Legal onboarding for account executives
+
+- [Video](https://drive.google.com/file/d/1sPrO9xyN1TOvpQqctsKeyS4Wg1r6p33a/view?usp=sharing)
+- [Slides](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing)
+- [Quiz](https://forms.gle/zVCaDM8UyMVehEch8)
+
 ## Outside counsel
 
 Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
