@@ -44,8 +44,7 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 
 ## Which MFA options are available?
 
-- Okta Verify is available on iOS, Android, and Windows devices.
-- You can always use 1Password’s one-time passcode feature to host your MFA codes
+- Okta Verify is available on iOS, and Android devices. You can use 1Password’s one-time passcode feature to host your MFA codes. 
 - YubiKeys
 
 For YubiKey set up:
@@ -93,10 +92,6 @@ Being locked out of Okta will also mean you are locked out of Google and Slack. 
 ## Why isn't an application I need available in Okta?
 
 Most likely because that system doesn't offer an SSO option or because we need to upgrade in order to enable the feature. Please feel free to ask us about it in the #it-tech-ops channel.
-
-## I have an application that uses a shared password for my team, can I move this to Okta?
-
-Yes you can! More on this later...
 
 ## I'm getting asked to MFA authenticate a lot, is that normal?
 
