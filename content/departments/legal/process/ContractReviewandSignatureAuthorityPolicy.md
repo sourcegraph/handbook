@@ -157,7 +157,7 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 Templates:
 
 - See [Sales Resources Templates](../../sales/tools/salesresources.md#sales-templates)
-- See our [Order Form Review](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) file to review our Approval Matrix and a list of our non-standard terms.  
+- See our [Order Form Review](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) file to review our Approval Matrix and a list of our non-standard terms.
 - For other templates, reach out to Deal Desk
 
 ### Vendor contracts (Sourcegraph pays a third party for products or services)
