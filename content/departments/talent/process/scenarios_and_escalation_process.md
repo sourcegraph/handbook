@@ -1,4 +1,4 @@
-# Common Interview Scenarios and Escalation Process
+# Common interview scenarios and escalation process
 
 ## Cancellations
 
