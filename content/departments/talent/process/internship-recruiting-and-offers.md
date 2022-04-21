@@ -9,7 +9,7 @@ The Recruiting and Offer processeses for internship positions are sightly differ
 
 ### Opening an Intern role
 
-**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then Leadership + VP Talent will finalize which internship roles we will hire for and assign a recruiter to each role. 
+**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then Leadership + VP Talent will finalize which internship roles we will hire for and assign a recruiter to each role.
 
 **Step 2:** The recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The hiring manager will be required to develop a job description following the [steps in the handbook](opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
 
@@ -20,11 +20,13 @@ _… Once the Hiring Manager completes the above steps, the Recruiter takes the 
 **Step 3:** The Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
 
 **Step 4:** The recruiter then sets up the role in Greenhouse and posts it to our [Careers Page](https://about.sourcegraph.com/jobs/).
+
 - Copy the “Template” job.
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the interview plan directly into each interview stage.
 - All interview stages should use the standard interview titles, found here. When adding Interview Steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 
 **Step 5:** The Recruiter creates a Slack channel with the Interview Team and starts the Slack Kick-Off Process:
+
 - Create a new channel slack channel named: “team-hiring_position_recruiter-name”
   - Example: “product-hiring_product-design-intern_recruiter-kemper”
 - Invite the entire interview panel plus VP Talent, Recruiting Coordinator & Sourcer to the channel
@@ -44,6 +46,7 @@ As a next step, please:
 - Please review our Guide to Using BrightHire and ensure you download the BrightHire Chrome extension.
 
 Interview process / hiring team:
+
 - [30m] [Recruiter screen:](types_of_interviews.md#recruiter-screen)
 - [30–60m] [Hiring Manager Screen:](types_of_interviews.md#hiring-manager-screen)
 - Assignment, if applicable:
@@ -53,10 +56,11 @@ Interview process / hiring team:
   - [60–120m] Technical interview, if applicable:
   - [30–60m] [Cross-functional Team Collaboration:](types_of_interviews.md#cross-functional-team-collaboration-interview)
   - [30m] [Peer Interview:](types_of_interviews.md#peer-interview)
-- [30m]  [Values Interview:](types_of_interviews.md#values-interview)
+- [30m] [Values Interview:](types_of_interviews.md#values-interview)
 - [15–30m] [Leadership Interview:](types_of_interviews.md#leadership-interview)
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
+
 - Why is this position open:
 - The ideal candidate:
 - Level:
@@ -65,7 +69,6 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Target start date:”
 
 **Step 6:** The Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](interview_process.md).
-
 
 ### Extending an Internship Offer
 
