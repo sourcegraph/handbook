@@ -124,20 +124,20 @@ If a new hire needs to change their start date, the Recruiter follows the below 
 **Step 3**: Send email to candidate (reply all to the `"welcome email from recruiter"`) confirming their new start date.
 
 ## Actioning a Revoked Offer
+
 If a new hire decides not to join us _after being marked as Hired in Greenhouse_ but _before their start date_, these are the steps to follow.
 
 **Step 1:** The recruiter will inform the following people that the new hire will no longer be joining Sourcegraph and provide any information/reasoning as to why the new hire made this decision:
+
 - The Hiring Manager via a direct slack message
-- The PeopleOps team via our people-talent private slack channel 
-**Step 2:** The recruiter will also inform the TechOps team that the new hire is no longer joining the team and confirm whether the laptop has been ordered and shipped already.
+- The PeopleOps team via our people-talent private slack channel
+  **Step 2:** The recruiter will also inform the TechOps team that the new hire is no longer joining the team and confirm whether the laptop has been ordered and shipped already.
 - If the laptop has been shipped, the TechOps team will own the laptop retrieval process.
 - If the laptop has not been shipped, no action is needed from the recruiter.
-**Step 3:** The recruiter will discuss next steps with the Hiring Manager. Were there other finalists the team was excited about that they would like to extend the offer to now? Were there any other candidates in-process that we’d like to loop back in to complete interviews? If not, the recruiter will begin sourcing and recruiting to rebuild the pipeline.
-**Step 4:** The recruiter will re-open the role in Greenhouse.
-- Use the “Unhire” function on the candidate profile. 
-- After the candidate has been unhired, action the candidate out of the pipeline. Mark as “Withdrew” and add notes explaining why. 
+  **Step 3:** The recruiter will discuss next steps with the Hiring Manager. Were there other finalists the team was excited about that they would like to extend the offer to now? Were there any other candidates in-process that we’d like to loop back in to complete interviews? If not, the recruiter will begin sourcing and recruiting to rebuild the pipeline.
+  **Step 4:** The recruiter will re-open the role in Greenhouse.
+- Use the “Unhire” function on the candidate profile.
+- After the candidate has been unhired, action the candidate out of the pipeline. Mark as “Withdrew” and add notes explaining why.
 - Re-open the req. in GH by searching for the req using the “Closed” job filter, then selecting “Open as Draft” and request approval.
-**Step 5:** If the hiring team wants to rebuild the pipeline and accept new applicants, make sure the role is posted to our job board and begin recruiting as normal. Do not create a new requisition number for the role that needs to be refilled. 
+  **Step 5:** If the hiring team wants to rebuild the pipeline and accept new applicants, make sure the role is posted to our job board and begin recruiting as normal. Do not create a new requisition number for the role that needs to be refilled.
   - If extending the offer to a different finalist instead of accepting new applications, there is no need to make the role visible on our job board. Simply connect with the candidate to confirm they’re still interested in the role and excited to potentially join Sourcegraph, and schedule any other necessary conversations with the hiring manager/team (optional). Then, create a new offer for approval. Follow [Extending an Offer](extending_an_offer.md/#extending-an-offer) steps as normal from here.
-
-
