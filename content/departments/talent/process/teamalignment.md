@@ -682,6 +682,23 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Product
 
    </td>
+   <td>User Research
+
+   </td>
+   <td>Veronica Bueno
+
+   </td>
+   <td>Win Yu
+
+   </td>
+   <td>Kemper Hamilton
+
+   </td>
+  </tr>
+  <tr>
+   <td>Product
+
+   </td>
    <td>Technical Writing
 
    </td>
