@@ -2,14 +2,73 @@
 
 The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
-- Opening an Intern role
-- Extending an Internship offer
-- After the Internship offer acceptance
-- Actions to complete prior to the internship start date
+- [Opening an Intern role](internship-recruiting-and-offers.md#opening-and-intern-role)
+- [Extending an Internship offer](internship-recruiting-and-offers.md#extending-an-internship-offer)
+- [After the Internship offer acceptance](internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
+- [Actions to complete prior to the internship start date](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
 
-### Opening and Intern role
+### Opening an Intern role
 
-COMING SOON
+**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then Leadership + VP Talent will finalize which internship roles we will hire for and assign a recruiter to each role.
+
+**Step 2:** The recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The hiring manager will be required to develop a job description following the [steps in the handbook](opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
+
+Note: For Internship interview plans, the only required steps are Recruiter Screen, Hiring Manager Screen, Peer Interview, and Values Interview. Typically, 1 Talent team member will conduct each intern values interview.
+
+_… Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:_
+
+**Step 3:** The Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
+
+**Step 4:** The recruiter then sets up the role in Greenhouse and posts it to our [Careers Page](https://about.sourcegraph.com/jobs/).
+
+- Copy the “Template” job.
+- Build out the interview plan, adding all behavioral-based, structured questions (found in the interview plan directly into each interview stage.
+- All interview stages should use the standard interview titles, found here. When adding Interview Steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
+
+**Step 5:** The Recruiter creates a Slack channel with the Interview Team and starts the Slack Kick-Off Process:
+
+- Create a new channel slack channel named: “team-hiring_position_recruiter-name”
+  - Example: “product-hiring_product-design-intern_recruiter-kemper”
+- Invite the entire interview panel plus VP Talent, Recruiting Coordinator & Sourcer to the channel
+- Tag VP Talent to make the channel private
+- Once private, send kick off note using the below template:
+
+“Hi team! We are excited to kick off our [hyperlink job description] opening and I appreciate all of you participating in the interview process. I thought it would be helpful to create a Slack channel to stay aligned as we begin interviewing candidates!
+
+As a next step, please:
+
+- Review the below interview process and qualifications
+- Please share this post to social media to help drive applicants to the role
+- Please review these pages in the handbook:
+  - Interview training
+  - The interview process
+  - Feedback definitions
+- Please review our Guide to Using BrightHire and ensure you download the BrightHire Chrome extension.
+
+Interview process / hiring team:
+
+- [30m] [Recruiter screen:](types_of_interviews.md#recruiter-screen)
+- [30–60m] [Hiring Manager Screen:](types_of_interviews.md#hiring-manager-screen)
+- Assignment, if applicable:
+- In-depth Interview Stage:
+  - [1h] [Resume Deep Dive:](types_of_interviews.md#resume-deep-dive)
+  - [30m] Assignment review/working session, if applicable:
+  - [60–120m] Technical interview, if applicable:
+  - [30–60m] [Cross-functional Team Collaboration:](types_of_interviews.md#cross-functional-team-collaboration-interview)
+  - [30m] [Peer Interview:](types_of_interviews.md#peer-interview)
+- [30m] [Values Interview:](types_of_interviews.md#values-interview)
+- [15–30m] [Leadership Interview:](types_of_interviews.md#leadership-interview)
+
+At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
+
+- Why is this position open:
+- The ideal candidate:
+- Level:
+- Deal breakers:
+- Selling points:
+- Target start date:”
+
+**Step 6:** The Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](interview_process.md).
 
 ### Extending an Internship Offer
 
@@ -29,7 +88,7 @@ using the below offer data
 Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
 
 We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` and `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
-If the candidate received a `no` during the values interview, follow [these steps].
+If the candidate received a `no` during the values interview, follow [these steps](evaluating_values.md#resources-for-recruiters).
 
 **Step 3:** Once the offer is fully approved in Greenhouse, Recruiter schedules an offer call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
 
@@ -98,6 +157,10 @@ This should be sent within 24-hours of acceptance.
 **Step 9:** The People Operations team then works with the candidate to onboard them and get them set up for their first day!
 The Tech Ops team will assist with the laptop ordering process.
 
+#### How to Action a Revoked Offer
+
+If an intern decides not to join us after being marked as Hired in Greenhouse but before their start date, follow [these steps](after_the_offer.md#actioning-a-revoked-offer).
+
 ### Actions to complete prior to the internship start date
 
 The Internship Program manager needs to complete the following actions prior to the internship start date
@@ -107,7 +170,7 @@ The Internship Program manager needs to complete the following actions prior to 
   - Inés will onboard
   - Cecily will order welcome boxes
   - Tech Ops will ship laptops
-- Work with Inés and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day.
+- Work with Inés and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
 - Work with TechOps team to ensure system access is set up for the interns
 - Confirm with Legal team that the [manager training doc](https://docs.google.com/document/d/1r2MFGEefMqRWitk_qdvl9VPK8m7dfjM19h56-ERSjDw/edit) is still sufficient for the upcoming cohort
 - Confirm with PeopleOps that avatars have been created for each intern
