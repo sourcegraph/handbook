@@ -28,11 +28,13 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 - COMING SOON: how to edit source information
 
-**Step 4**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
+**Step 4**: the Recruiter confirms that the candidate's profile name in Greenhouse matches their legal first & last name, which can be found on the signature page of their signed offer letter.
+
+**Step 5**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
 
 - COMING SOON: how to decline candidates
 
-**Step 5**: the Recruiter marks the candidate as "hired" in Greenhouse.
+**Step 6**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
 - Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile
 - Select Close Reason: "hire-new headcount" or "hire-backfill"
@@ -45,13 +47,13 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
   - VP of Talent
   - Hiring Manager
 
-**Step 6**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
+**Step 7**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
 
-**Step 7**: the Recruiter archives the Channel after people respond
+**Step 8**: the Recruiter archives the Channel after people respond
 
-**Step 8**: the Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #Hiring channel.
+**Step 9**: the Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #Hiring channel.
 
-**Step 8**: the People Operations team then works with the candidate to onboard them and get them set up for their first day!
+**Step 10**: the People Operations team then works with the candidate to onboard them and get them set up for their first day!
 
 ## Onboarding process for PEO hires
 
@@ -77,9 +79,11 @@ After the candidate formally signs the offer letter (contract) generated through
 
 **Step 3**: the Recruiter confirms the candidate source information is accurate, ensuring accurate source data.
 
-**Step 4**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
+**Step 4**: the Recruiter confirms that the candidate's profile name in Greenhouse matches their legal first & last name, which can be found on the signature page of their signed offer letter.
 
-**Step 5**: the Recruiter marks the candidate as "hired" in Greenhouse.
+**Step 5**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
+
+**Step 6**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
 - Click the "Mark Candidate as Hired" button found in the "Offer Details" section of the candidate's profile
 - Select Close Reason: "hire-new headcount" or "hire-backfill"
@@ -92,13 +96,13 @@ After the candidate formally signs the offer letter (contract) generated through
   - VP of Talent
   - Hiring Manager
 
-**Step 6**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
+**Step 7**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
 
-**Step 7**: the Recruiter archives the Channel after people respond
+**Step 8**: the Recruiter archives the Channel after people respond
 
-**Step 8**: the Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #Hiring channel.
+**Step 9**: the Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #Hiring channel.
 
-**Step 8**: The PEO team then works with the candidate to onboard them from a compliance perspective and our People Ops will ensure we get them set up for their first day!
+**Step 10**: The PEO team then works with the candidate to onboard them from a compliance perspective and our People Ops will ensure we get them set up for their first day!
 
 **Note**: Any questions or status updates regarding the status of a PEO contract or onboarding details will be communicated with the PEO provider slack channel.
 
