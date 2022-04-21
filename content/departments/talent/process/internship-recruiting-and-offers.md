@@ -51,7 +51,8 @@ Offer Summary call agenda:
 
 - If US-based candidate: make a formal request in the Slack channel talent-scheduling-and-offers for the ‘US Offer Letter - Intern’ letter to be sent via DocuSign.
 - If a non-US based candidate: make a formal request in the Slack channel talent-scheduling-and-offers for a ‘Int'l Offer Letter - Intern’ offer letter to be sent via DocuSign.
-  The Recruiting Operations Specialist will need to generate the offer template, download it to their computer, update the yellow fields using Microsoft Word, then reupload the offer template into Greenhouse before Sending with Docusign.
+
+The Recruiting Operations Specialist will need to generate the offer template, download it to their computer, update the yellow fields using Microsoft Word, then reupload the offer template into Greenhouse before Sending with Docusign.
 
 All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
 
