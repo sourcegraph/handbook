@@ -563,7 +563,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Engineering
 
    </td>
-   <td>Repo Management
+   <td>Repository Management
 
    </td>
    <td>Frey Andersson
@@ -597,7 +597,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Engineering
 
    </td>
-   <td>DevEx
+   <td>Developer Experience
 
    </td>
    <td>Frey Andersson
