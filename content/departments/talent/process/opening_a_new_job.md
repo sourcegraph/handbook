@@ -114,3 +114,6 @@ Hi team! We're excited to announce that we're kicking off a new search on the [d
 - What we're looking for: ask Hiring Manager to write a brief exciting description
 
 **Step 6**: the Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
+
+## How to open an internship role
+COMING SOON
