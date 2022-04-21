@@ -115,6 +115,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Onboarding process](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding via PEO](process/after_the_offer.md#onboarding-process-for-peo-hires)
   - [Changing start dates](process/after_the_offer.md#changing-a-new-hires-start-date)
+  - Actioning a Revoked Offer
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
