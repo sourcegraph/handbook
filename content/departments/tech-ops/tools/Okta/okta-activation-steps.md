@@ -1,3 +1,5 @@
+# How to activate Okta
+
 On your first day, you will find an email from **Okta** on your personal account. This email includes a link to your Sourcegraph’s Okta sign-in page and your username (your Sourcegraph email address). You need this information to set up your account. 
 
 ![Okta email](https://storage.googleapis.com/sourcegraph-assets/handbook/Okta-activation-steps/step1.png)
