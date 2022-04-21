@@ -72,17 +72,16 @@ SLAs—Turnaround for Deal Desk review:
 
 #### MSAs
 
-1. Deployment method:  On Prem, Cloud, Managed instance, or Offline
-1. Deal value:  annual contract value
-1. Logo rights:  are you negotiating for logo rights?
-1. Timeline:  flag any special timing needs
+1. Deployment method: On Prem, Cloud, Managed instance, or Offline
+1. Deal value: annual contract value
+1. Logo rights: are you negotiating for logo rights?
+1. Timeline: flag any special timing needs
 
 SLAs—Turnaround for Legal review:
 
 - Sourcegraph Form: 3 business days
 - Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
 - EOQ: Legal will expedite reviews at end of quarter. Priority to higher ACV deals.
-
 
 ### Vendor contracts
 
