@@ -10,7 +10,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
 
-- `export VERSION=vMAJOR.MINOR.PATH`
+- `export VERSION=v<MAJOR.MINOR.PATCH>`
 - `export COMPANY=$COMPANY`
 - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
 - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
