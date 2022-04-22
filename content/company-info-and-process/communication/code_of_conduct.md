@@ -1,6 +1,6 @@
 # Code of conduct
 
-Last updated: January 24, 2022
+Last updated: April 20, 2022
 
 Related: see "[Diversity, equity, and inclusion](../diversity-equity-and-inclusion/index.md)"
 
@@ -159,7 +159,7 @@ Here are some areas where conflicts of interest could arise:
   - You want to place company business with a firm owned or controlled by you or your family. “Family members” include spouses, parents, children, siblings, and in-laws.
 
 - **Personal relationships**
-  - You want to hire or supervise a family member or closely related person.
+  - You want to hire or supervise a family member or closely related person. A conflict is likely if family members or closely related people are in direct or indirect supervisory or stakeholder relationships.
 
 ## No bribery
 

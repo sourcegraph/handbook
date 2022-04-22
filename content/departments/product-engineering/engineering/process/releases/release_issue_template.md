@@ -66,7 +66,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post in #delivery channel asking for release candidate to be deployed to a test managed instance
+- [ ] Post in #cloud-devops channel asking for release candidate to be deployed to a test managed instance
 
 ## Release Day ($RELEASE_DATE)
 

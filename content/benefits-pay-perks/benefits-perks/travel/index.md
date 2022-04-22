@@ -59,7 +59,6 @@ Factor in as much time to spend together during the trip and leave room for solo
 - This is designed to allow each team to hold at least one event every six months (in addition to the company-wide events above).
 - This budget can be used for travel _(airfare, trains, etc.)_, lodging _(hotels, rental homes, etc.)_, events, meals and entertainment.
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
-- If one individual is a member of multiple teams, they will receive the same amount for each of their teams.
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 
 ### 3. Individual travel

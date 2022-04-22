@@ -1,9 +1,9 @@
-# Delivery Team On-Call Rotation
+# Delivery Team Support Rotation
 
-The Delivery Team maintains an on-call rotation where an engineer is dedicated to providing support to our
-internal teams and managed instances for a term of 1 week.
+The Delivery Team maintains a support rotation where an engineer is dedicated to providing support to our
+internal teams for a term of 1 week.
 
-The on-call schedule is captured in OpsGenie. The on-call rotation consists of an Engineer On-Call (EOC), a Secondary Engineer On-Call (SEOC), and a technical manager (TM).
+The support rotation schedule is captured in OpsGenie. The support rotation consists of an Engineer On-Call (EOC) and a technical manager (TM).
 
 On-Call duties transfer automatically Mondays at 10am Central Time according to the schedule within OpsGenie.
 
@@ -16,7 +16,7 @@ The Delivery team aims to provide timely responses that are proportional to the 
 The Engineer On-Call (EOC) is responsible for a 24 hour x 7 period shift where an initial response or acknowledgement
 is expected within 10 minutes.
 
-After 10 minutes, the Secondary Engineer On-Call (SEOC) is paged and expected to provide an initial response or acknowledgement within 5 minutes.
+After 10 minutes, the Technical Manager is paged and expected to provide an initial response or acknowledgement within 5 minutes.
 
 This is designed to ensure that an initial response is produced within 20 minutes of the page.
 
@@ -30,31 +30,27 @@ The Delivery team aims to facilitate and uphold the [SLAs maintained by the Cust
 
 ### Incoming Engineer On-Call (IEOC)
 
-The engineer that is starting their on-call rotation.
+The engineer that is starting their support rotation.
 
 ### Outgoing Engineer On-Call (OEOC)
 
-The engineer that is ending their on-call rotation.
+The engineer that is ending their support rotation.
 
 ### Engineer On-Call (EOC)
 
-The engineer that is currently on-call.
-
-### Secondary Engineer On-Call (SEOC)
-
-The engineer that serves as an escalation if the Engineer On-Call is not available.
+The engineer that is currently support rotation.
 
 ### Technical Manager
 
-The manager of the Delivery team exists as the terminal escalation for the on-call rotation.
+The manager of the Delivery team exists as the terminal escalation for the support rotation.
 
 ---
 
-# Delivery Team On-Call Playbook
+# Delivery Team Support Rotation Playbook
 
-## Starting On-Call Rotation
+## Starting the Support Rotation
 
-At the start of their shift, the Incoming Engineer On-Call (IEOC) will prepare to take over on-call duties from the Outgoing Engineer On-Call.
+At the start of their shift, the Incoming Engineer On-Call (IEOC) will prepare to take over support rotation duties from the Outgoing Engineer On-Call.
 
 ### Review Hand-off Notes
 
@@ -76,14 +72,13 @@ OpsGenie has documentation that describes [how to setup Notification Preferences
 
 The following Slack channels should be monitored during your shift. There is no expectation to actively monitor these channels 24/7 during your support week, but you should serve as the designated point of contact during your working hours.
 
-| Channel Name                                                                    | Description                                                                                                     | What to look for                                                                                                                                                                                                                                                            |
-| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)                 | Public channel where Sourcegraph teammates can ask questions, provide information, and escalate support issues. | Questions from other teams, request for help, and other Delivery-related information.                                                                                                                                                                                       |
-| [#alerts-managed-instances](https://sourcegraph.slack.com/archives/C017SLJGA2Z) | Application-level webhook alerts from Managed Instances.                                                        | Alerts that indicate service degradation or disruption of our customer-facing instances.                                                                                                                                                                                    |
-| [#incidents](https://sourcegraph.slack.com/archives/C027D0VLZDM)                | Company-wide incident feed.                                                                                     | Incidents that may affect on-prem/managed instance deployments.                                                                                                                                                                                                             |
-| [#prod-eng-announcements](https://sourcegraph.slack.com/archives/C0EPTDE9L)     | Product Engineering Announcements.                                                                              | Monitor for release-related items or larger feature roll-outs that may affect on-prem / managed instance deployments.                                                                                                                                                       |
-| [#ask-prod-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W)             | Company-wide forum to discuss Product Engineering topics.                                                       | Generally questions are tagged with "[Delivery]"                                                                                                                                                                                                                            |
-| [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ)           | Information about BuildKite CI.                                                                                 | The [build checker](../../process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch) will occasionally lock the main branch when the main build fails to build. When serving as a release captain it may be helpful to know the current state of the build. |
+| Channel Name                                                                | Description                                                                                                     | What to look for                                                                                                                                                                                                                                                            |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX)             | Public channel where Sourcegraph teammates can ask questions, provide information, and escalate support issues. | Questions from other teams, request for help, and other Delivery-related information.                                                                                                                                                                                       |
+| [#incidents](https://sourcegraph.slack.com/archives/C027D0VLZDM)            | Company-wide incident feed.                                                                                     | Incidents that may affect on-prem/managed instance deployments.                                                                                                                                                                                                             |
+| [#prod-eng-announcements](https://sourcegraph.slack.com/archives/C0EPTDE9L) | Product Engineering Announcements.                                                                              | Monitor for release-related items or larger feature roll-outs that may affect on-prem / managed instance deployments.                                                                                                                                                       |
+| [#ask-prod-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W)         | Company-wide forum to discuss Product Engineering topics.                                                       | Generally questions are tagged with "[Delivery]"                                                                                                                                                                                                                            |
+| [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ)       | Information about BuildKite CI.                                                                                 | The [build checker](../../process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch) will occasionally lock the main branch when the main build fails to build. When serving as a release captain it may be helpful to know the current state of the build. |
 
 #### The `@delivery-support` Slack handle
 
@@ -92,13 +87,13 @@ important topics in Slack that may or may not include incidents or P1 customer s
 
 While an immediate response is not necessarily required, use your best judgement to determine an appropriate response.
 
-## On-Call Duties
+## Support Rotation Duties
 
-This is section is not designed to be prescriptive. You should use your best judgement on how to handle your on-call duties. This is by no means an exhaustive list but some notes of things to check while on-duty.
+This is section is not designed to be prescriptive. You should use your best judgement on how to handle your support rotation duties. This is by no means an exhaustive list but some notes of things to check while on-duty.
 
 ### Responding to Issues
 
-Delivery engineers who are _not_ on-call do not need to respond to questions, instead they should defer to the Engineer On-Call (EOC). This is intended to promote knowledge transfer from subject matter experts (SMEs) to the rest of the Delivery team.
+Delivery engineers who are _not_ support rotation do not need to respond to questions, instead they should defer to the Engineer On-Call (EOC). This is intended to promote knowledge transfer from subject matter experts (SMEs) to the rest of the Delivery team.
 
 While the EOC may not provide the final resolution, the expectation is to provide an initial response, triage, and ensure that issues are captured in the [Delivery Github Project](https://github.com/orgs/sourcegraph/projects/205).
 
@@ -115,13 +110,6 @@ You are not expected to monitor slack 24/7. During your working hours periodical
 
 More urgent Slack messages are usually tagged with `@delivery-support`.
 
-### Managed Instance Alerts
-
-The `#alerts-managed-instances` channel will occasionally receive webhook alerts from our managed instances. The alerts
-are generated by the Sourcegraph application and may require some interpretation before taking any action.
-
-**If a managed instance is determined to be in a degraded state or unavailable to the customer, [declare an incident using the Incident Playbook](../../process/incidents/index.md#process).**
-
 ### OpsGenie
 
 OpsGenie is configured with team-based escalations. OpsGenie will page the scheduled Engineer On-Call. Pages from OpsGenie
@@ -129,7 +117,6 @@ should be considered a priority and follow the guidelines for [Response Times](#
 
 OpsGenie is configured to page the EOC when:
 
-- A managed instance uptime incident is created by GCP Uptime Alerts
 - A Sourcegraph teammate engages OpsGenie to page the EOC.
 
 ### Maintaining On-Call Handoff Notes
@@ -138,7 +125,7 @@ Keep notes about any incidents, alerts, and priority support issues during your 
 
 ## Ending On-Call Rotation
 
-Having a formal end to your on-call shift is intended to provide a way to debrief and promote a healthy relationship with on-call duties to reduce burnout.
+Having a formal end to your support rotation shift is intended to provide a way to debrief and promote a healthy relationship with support rotation duties to reduce burnout.
 
 While not prescriptive, you should take measures to reduce disruptions so you may focus on your project work.
 
@@ -146,7 +133,6 @@ While not prescriptive, you should take measures to reduce disruptions so you ma
 
 Reduce disruptions while you are no longer on-duty!
 
-- `#alerts-managed-instances`
 - `#incidents`
 
 You will be automatically unsubscribed from the `@delivery-support` Slack handle.
@@ -157,4 +143,4 @@ As the Outgoing Engineer On-Call, your responsibility to ensure the [Delivery On
 
 ### Take time off
 
-If you responded to an incident or had an eventful on-call shift, consider taking a day off to recover and prevent burnout. Sourcegraph has an [unlimited PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md#paid-time-off-for-rest).
+If you responded to an incident or had an eventful support rotation, consider taking a day off to recover and prevent burnout. Sourcegraph has an [unlimited PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md#paid-time-off-for-rest).
