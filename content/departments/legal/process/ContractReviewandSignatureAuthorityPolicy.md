@@ -20,15 +20,15 @@ Legal:
 - [legal@sourcegraph.com](mailto:legal@sourcegraph.com)
 - For general legal requests or questions, please use the #legal slack channel.
 - For Customer contracts, please submit request via the #deal-desk slack channel.
-- For Vendor Contracts, please submit requests via the #vendor-requests slack channel.
+- For Vendor contracts, please submit requests via the #vendor-requests slack channel.
 
 Give us about 1 business day to acknowledge receipt and give you an estimated turnaround time. If you don’t hear back from us in about 1 business day, follow up to make sure we saw your request. If your request is time-sensitive, let us know the ideal turnaround time.
 
 Deal Desk:
 
--[dealdesk@sourcegraph.com](mailto:dealdesk@sourcegraph.com)
--For Customer Contracts (OF, MSA and other approvals), please submit requests via the #deal-desk slack channel.
--For process guidance or deal structuring information, please use the #deal-desk channel or contact us through email.
+- [dealdesk@sourcegraph.com](mailto:dealdesk@sourcegraph.com)
+- For Customer Contracts (OF, MSA and other approvals), please submit requests via the #deal-desk slack channel.
+- For process guidance or deal structuring information, please use the #deal-desk channel or contact us through email.
 
 Finance:
 
@@ -53,6 +53,8 @@ SLAs—Turnaround time for legal review:
 
 ### Customer contracts
 
+#### Order forms
+
 1. Link to document in GDrive
 2. Customer Name
 3. Product Sold (Search, batch changes, etc.)
@@ -67,6 +69,19 @@ SLAs—Turnaround for Deal Desk review:
 - Sourcegraph Form: 1 business days
 - Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
 - EOQ: Deal Desk will attempt to expedite reviews in the last week of the quarter
+
+#### MSAs
+
+1. Deployment method: On Prem, Cloud, Managed instance, or Offline
+1. Deal value: annual contract value
+1. Logo rights: are you negotiating for logo rights?
+1. Timeline: flag any special timing needs
+
+SLAs—Turnaround for Legal review:
+
+- Sourcegraph Form: 3 business days
+- Customer Form: not accepted, requires a legal-to-legal call if customer pushes back
+- EOQ: Legal will expedite reviews at end of quarter. Priority to higher ACV deals.
 
 ### Vendor contracts
 
@@ -151,13 +166,13 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 - Customer Form
 
   - Review: (a) Legal (b) Deal Desk and (c) Customer Engineer (CE) for security addenda or questionnaires
-  - Approve: (a) Legal (b) Deal Desk and (c) Finance for any non-standard payment terms including termination
+  - Approve: (a) Legal (b) Deal Desk and (c) Finance for any non-standard terms
   - Sign: Director of Legal or VP Finance/Operations
 
 Templates:
 
 - See [Sales Resources Templates](../../sales/tools/salesresources.md#sales-templates)
-- See our [Order Form Review](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) file to review our Approval Matrix and a list of our non-standard terms.
+- See our [Order Form Review](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) file to check our Approval Matrix and a list of our non-standard terms.
 - For other templates, reach out to Deal Desk
 
 ### Vendor contracts (Sourcegraph pays a third party for products or services)
