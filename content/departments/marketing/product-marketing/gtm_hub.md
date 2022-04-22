@@ -1,6 +1,6 @@
 # GTM Hub
 
-This is the central page for product-based, go-to-market resources.
+This is the central page for product-centric, go-to-market resources.
 
 ## Code Insights
 
