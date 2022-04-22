@@ -68,6 +68,8 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## Giving the customer access
 
+**Before providing access to the customer, make sure that the GCP alerting policy has been created!**
+
 To provide the customer access to the instance:
 
 1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
