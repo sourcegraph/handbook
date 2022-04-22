@@ -157,7 +157,32 @@ To ensure proper legibility the logo minimum size should not go below 0.9 inches
 
 ### Primary logo placement
 
-See [PDF](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=15)
+<div style="display: flex; flex-wrap: wrap; gap: 3rem; font-size: 1rem;font-weight: 400;">
+  <div style="display: flex;flex-direction: column;">
+        <h4>Preferred placement</h4>
+        <img src="./logo/logo_preferred_placement.svg" style="width:20rem;max-width: 17rem">
+        <div style="display: flex;flex-direction: column;">
+            <b>Upper left corner</b>
+            Typically seen as introductory.
+        </div>
+  </div>
+  <div>
+    <h4>Allowable placement</h4>
+    <div>
+      <img src="./logo/logo_allowable_placement_1.svg" style="max-width: 20rem">
+      <div style="display: flex;flex-direction: column;padding-bottom: 3rem;">
+      <b>Lower left corner</b>
+      Use if upper left corner is unavailable.
+    </div>
+    <div style="display: flex;flex-direction: column;">
+      <img src="./logo/logo_allowable_placement_2.svg" style="max-width: 20rem;padding-bottom:8px">
+      <img src="./logo/logo_allowable_placement_3.svg" style="max-width: 20rem;" alt="Sourcegraph logo with zeros on each side to demonstrate proper use of clear space">
+      <div style="display: flex;flex-direction: column;">
+      <b>Centered</b>
+      Only when all content is centered.
+    </div>
+  </div>
+</div></div></div>
 
 ### Primary logo alignment
 
