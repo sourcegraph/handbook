@@ -14,6 +14,12 @@ Many more engineering teams and developers suffer from the same Big-Code-related
 
 In order to achieve our ARR growth goal in FY23, our central challenge is to make Sourcegraph useful and accessible for a much larger set of engineering teams and developers, as well as to increase value and engagement at existing customers, by focusing our product development specifically on these target use cases.
 
+To distill this down into themes:
+
+- It to be obvious to users how to use Sourcegraph to solve for the **5 use cases**.
+- We need to improve the **admin experience** of Sourcegraph - making upgrades, deployment, observability, and configuration much better.
+- We are also building towards an enterprise SaaS solution. Any organization should be able to choose a Sourcegraph managed Cloud solution for trial or production, so users can start searching as quickly as possible.
+
 ### What
 
 Our answer to the question of how to enable many more devs and eng orgs to discover the value of Sourcegraph is to make the [5 company use cases](../../../strategy-goals/strategy/index.md#use-cases) shine.
@@ -61,6 +67,7 @@ For those particularly interested in understanding more about competitive framew
 
 - [Company strategy for FY23](../../../strategy-goals/strategy/index.md#this-year-fy23)
 - [Product/Engineering OKRs for Q1 FY23](https://docs.google.com/presentation/d/1KUOElUkrH-29teXmZBmgmIgLngf-I_6Ikixub1SR0yM/edit#slide=id.g1014ebc164b_0_137) (internal only)
+- [Product roadmap](./roadmap.md)
 
 ## FY23 Q2 focus
 

@@ -118,7 +118,7 @@ Other tools that need to be updated when there is an org change (including manag
 - **Rippling**
   Rippling pulls salary data directly from BambooHR, which is why it’s especially crucial that compensation changes are communicated to People Ops in a timely manner so that all payroll changes can be handled with ample time to avoid payroll discrepancies.
 - **Assemble**
-- **Expensify**
+- **[Airbase](../../finance/process/payables.md)**
 
 ## Managing a Role Change
 
