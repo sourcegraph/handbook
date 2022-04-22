@@ -3,6 +3,7 @@
 The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
 - [Opening an Intern role](internship-recruiting-and-offers.md#opening-and-intern-role)
+- Recruiting for Intern roles
 - [Extending an Internship offer](internship-recruiting-and-offers.md#extending-an-internship-offer)
 - [After the Internship offer acceptance](internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
 - [Actions to complete prior to the internship start date](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
@@ -69,6 +70,10 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Target start date:”
 
 **Step 6:** The Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](interview_process.md).
+
+### Recruiting for Intern roles
+
+COMING SOON
 
 ### Extending an Internship Offer
 
@@ -185,4 +190,3 @@ The Internship Program manager needs to complete the following actions prior to 
   - Welcome the intern
   - Explain what to expect for their first week
   - Review the [manager training doc](https://docs.google.com/document/d/1r2MFGEefMqRWitk_qdvl9VPK8m7dfjM19h56-ERSjDw/edit) to go over compliance information \*This must be done on Day 1!
-- Start working on internship SWAG
