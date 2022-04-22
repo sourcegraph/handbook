@@ -6,7 +6,7 @@ This document outlines some guiding principles we seek to follow when welcoming 
 
 The notion that one must "earn the trust" of their peers or manager is extremely limiting for newcomers, who are faced with this arbitrary "bar of trust" they must meet before they can deploy agency.
 
-On this team, trust is a given. Your teammates will value the opinions, questions, ideas and concerns you will bring forward from day zero. When we ask you questions, it's out of genuine interest for what you might have to answer, not as a test of your worth, and your answers will not be judged.
+On this team, trust is a given. Your teammates will value the opinions, questions, ideas and concerns you will bring forward from day zero. When we ask you questions, it's out of genuine interest for what you might have to answer, not as a test of your worth. You will not be judged or dismissed for bringing your thoughts forward.  
 
 ## Liberating ability through context
 
