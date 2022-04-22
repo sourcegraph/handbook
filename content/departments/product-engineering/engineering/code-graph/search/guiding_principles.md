@@ -22,7 +22,7 @@ Our job is to help provide input and clarity on direction: what problems are we 
 
 ## Your scope can be arbitrarily wide
 
-While you may naturally gravitate towards the types of problems you have the most expertise solving, and while we will pick initial tasks that match your expertise, you do not need special permission to tackle problems outside of this scope. A practical example could be a backend-leaning engineer tackling frontend-leaning tasks. However, scope extends beyond the technical realm here: you should feel empowered to, for instance, suggest improvements to our team processes, challenge or clarify our team strategy, or bring forward opportunities to collaborate with other teams.
+It's natural to gravitate towards the types of problems you have the most expertise solving, and initially we'll suggest tasks that match your expertise. But you do not need special permission to tackle problems outside of this scope! A practical example could be a backend-leaning engineer tackling frontend-leaning tasks. However, scope extends beyond the technical realm here: you should feel empowered to, for instance, suggest improvements to our team processes, challenge or clarify our team strategy, or bring forward opportunities to collaborate with other teams.
 
 We trust you to leverage this freedom with discernment, keeping good forward momentum towards the outcomes you, the team and the company are targeting. We can help you identify the best strategies to do so.
 
