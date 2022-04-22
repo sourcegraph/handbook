@@ -6,7 +6,7 @@ This document outlines some guiding principles we seek to follow when welcoming 
 
 The notion that one must "earn the trust" of their peers or manager is extremely limiting for newcomers, who are faced with this arbitrary "bar of trust" they must meet before they can deploy agency.
 
-On this team, trust is a given. Your teammates will value the opinions, questions, ideas and concerns you will bring forward from day zero. When we ask you questions, it's out of genuine interest for what you might have to answer, not as a test of your worth. You will not be judged or dismissed for bringing your thoughts forward.  
+On this team, trust is a given. Your teammates will value the opinions, questions, ideas and concerns you will bring forward from day zero. When we ask you questions, it's out of genuine interest for what you might have to answer, not as a test of your worth. You will not be judged or dismissed for bringing your thoughts forward.
 
 ## Liberating ability through context
 
@@ -28,7 +28,7 @@ We trust you to leverage this freedom with discernment, keeping good forward mom
 
 ## Keep plenty of breathing room
 
-Breathing room, or slack time, means leaving a portion of your total work schedule unallocated to specific tasks. This portion is traditionally hard to quantify, but you should aim for a ballpark 50-60% of your total bandwidth. We trust you with how you employ this breathing room. We have found the team to be most effective when teammates keep plenty of breathing room: the team is more relaxed, has room for creativity, the quality of our work improves, and we end up making faster overall progress towards roadmap outcomes. 
+Breathing room, or slack time, means leaving a portion of your total work schedule unallocated to specific tasks. This portion is traditionally hard to quantify, but you should aim for a ballpark 50-60% of your total bandwidth. We trust you with how you employ this breathing room. We have found the team to be most effective when teammates keep plenty of breathing room: the team is more relaxed, has room for creativity, the quality of our work improves, and we end up making faster overall progress towards roadmap outcomes.
 
 You may find yourself using this breathing room to
 
