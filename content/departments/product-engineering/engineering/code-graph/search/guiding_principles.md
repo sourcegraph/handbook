@@ -38,4 +38,4 @@ You may find yourself using this breathing room to
 - Develop and explore ideas you're passionate about
 - Or, sometimes, simply to breathe.
 
-Having and using this much breathing room may require an adjustment. Don't hesitate to talk to your teammates about their experience organizing their time and bandwidth.
+It may take time to adjust to having more breathing room in your schedule. Don't hesitate to talk to your teammates about their experience organizing their time and bandwidth.
