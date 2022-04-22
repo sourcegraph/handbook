@@ -36,7 +36,7 @@ As a first step towards improving the ranking of results, we have enabled [zoekt
 
 #### Details
 
-**Monorepo performance**: Is a recurrent pain point for large enterprise customers. Having replicated large monorepo setups, we identified that unindexed monorepo performance is still poor and several facets of search on large monorepos cause significant load on gitserver. To address this, we have been working on an incremental indexing prototype and a Searcher prototype to better handle unindexed searches.
+**Monorepo performance**: This is a recurrent pain point for large enterprise customers. Having replicated large monorepo setups, we identified that unindexed monorepo performance is still poor and several facets of search on large monorepos cause significant load on gitserver. To address this, we have been working on an incremental indexing prototype and a Searcher prototype to better handle unindexed searches.
 
 **Ranking**: As a first step towards improving the ranking of our search results, we will start tracking the quality of search results using the index of user-selected results as a proxy metric. Having this tracking in place will help measure the success of future improvements. We will also conduct discovery of customers needs and pain points to drive the areas of ranking we choose to focus on.
 
