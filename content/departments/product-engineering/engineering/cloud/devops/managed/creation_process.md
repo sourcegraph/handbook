@@ -27,27 +27,27 @@ For basic operations like accessing an instance for these steps, see [managed in
    > :information: You can safely ignore the warnings from `terraform apply`.
 6. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` and `GOMAXPROCS=8` if the instance size is larger than "n1-standard-8".
    > :warning: what is the purpose of `GOMAXPROCS=8`? Currently it is only added to 1 deployment.
-8. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform plan && terraform apply`
-9. Access the instance over SSH and confirm all containers are healthy ([instructions](operations.md#ssh-access)). You may find `docker ps` reports no containers, that indicates it is still installing Docker, etc. To watch this progress see [debugging startup scripts](operations.md#debugging-startup-scripts), it usually takes <10m.
-10. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
-11. Confirm all containers come up healthy (`docker ps` should report them as such)
-12. Create a PR for review.
-13. Create admin credentials in 1password:
+7. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform plan && terraform apply`
+8. Access the instance over SSH and confirm all containers are healthy ([instructions](operations.md#ssh-access)). You may find `docker ps` reports no containers, that indicates it is still installing Docker, etc. To watch this progress see [debugging startup scripts](operations.md#debugging-startup-scripts), it usually takes <10m.
+9. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
+10. Confirm all containers come up healthy (`docker ps` should report them as such)
+11. Create a PR for review.
+12. Create admin credentials in 1password:
     - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (ask @stephen, @bill, or @beyang to grant you access)
     - **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
       - **User:** `managed+$COMPANY@sourcegraph.com`
       - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
-14. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
-15. Set up the initial admin account (for use by the Sourcegraph team only)
+13. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
+14. Set up the initial admin account (for use by the Sourcegraph team only)
     - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
     - Username: `sourcegraph-admin`
     - Password: Use the password previously created and stored in 1password.
-16. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` and add it as "token" under the 1password entry for the admin account.
-17. Navigate to Grafana and confirm the instance looks healthy.
-18. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
-19. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
-20. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
-21. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
+15. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` and add it as "token" under the 1password entry for the admin account.
+16. Navigate to Grafana and confirm the instance looks healthy.
+17. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
+18. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
+19. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
+20. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
     ```
       "observability.alerts": [
         {
@@ -60,11 +60,11 @@ For basic operations like accessing an instance for these steps, see [managed in
         },
       ],
     ```
-22. In the site configuration, configure password reset emails to expire after 24 hours (instead of the default 4 hours). This allows more time for the customer to set up their initial account and gain access to the instance.
+21. In the site configuration, configure password reset emails to expire after 24 hours (instead of the default 4 hours). This allows more time for the customer to set up their initial account and gain access to the instance.
     ```
     "auth.passwordResetLinkExpiry": 86400, // 24 hours
     ```
-23. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
+22. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 
