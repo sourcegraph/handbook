@@ -79,7 +79,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 ## Giving the customer access
 
 | ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created! |
-|------------------------------------------------------------------------------------------------------|
+| ---------------------------------------------------------------------------------------------------- |
 
 To provide the customer access to the instance:
 
