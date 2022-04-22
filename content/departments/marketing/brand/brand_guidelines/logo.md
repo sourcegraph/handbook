@@ -176,7 +176,7 @@ To ensure proper legibility the logo minimum size should not go below 0.9 inches
     </div>
     <div style="display: flex;flex-direction: column;">
       <img src="./logo/logo_allowable_placement_2.svg" style="max-width: 20rem;padding-bottom:8px">
-      <img src="./logo/logo_allowable_placement_3.svg" style="max-width: 20rem;" alt="Sourcegraph logo with zeros on each side to demonstrate proper use of clear space">
+      <img src="./logo/logo_allowable_placement_3.svg" style="max-width: 20rem;">
       <div style="display: flex;flex-direction: column;">
       <b>Centered</b>
       Only when all content is centered.
