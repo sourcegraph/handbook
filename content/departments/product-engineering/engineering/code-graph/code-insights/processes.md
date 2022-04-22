@@ -55,11 +55,27 @@ Our current process is as follows:
 
   - We hold a [fortnightly synchronous iteration planning](#fortnightly-iteration-planning), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4).
 
-- Larger issues that involve multiple domains may benefit from a "project lead". A project lead assumes full responsibility for gathering all requirements to complete an issue. The project lead is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task.
-
 - During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
+
+## Project Leads
+
+Larger issues that involve multiple domains may benefit from a "project lead". A project lead assumes full responsibility for gathering all requirements to complete an issue. The project lead is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task.
+
+### Time commitment
+
+Being a project lead takes a bit more time than just working on a single issue. If you are a project lead then your capacity will be reduced. Project leads should make sure to take this into consideration when planning other iteration work.
+
+### Responsibilities
+
+1. Have a full understanding of the requirements and the work that needs to be done across the frontend and backend. The main benefit here is catching any misunderstandings or integration issues before they happen.
+1. Keep an eye on progress and be proactive about raising blockers or delays.
+1. Help define the testing plan.
+
+### Tracking project leads
+
+A project requiring a lead will most likely require multiple issues to complete. The project lead should create a tracking issue for these and clearly state who the lead is in the issue.
 
 ## How we think about issue sizes
 
