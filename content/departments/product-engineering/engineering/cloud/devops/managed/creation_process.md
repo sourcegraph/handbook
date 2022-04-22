@@ -21,14 +21,17 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
-1. Open and edit `terraform.tfvars` according to the TODO comments within and commit the result.  
+1. Open and edit `terraform.tfvars` according to the TODO comments within and commit the result.
+
    | ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed! |
    |---|
 1. Ensure you are using the version of Terraform indicated in `.tool-versions` using `tfenv`
-1. In `gcp-tfstate` run `terraform init && terraform apply -var-file=../terraform.tfvars && git add . && git commit -m 'initialize GCP tfstate bucket'`  
+1. In `gcp-tfstate` run `terraform init && terraform apply -var-file=../terraform.tfvars && git add . && git commit -m 'initialize GCP tfstate bucket'`
+
    | ℹ️ You can safely ignore the warnings from `terraform apply`. |
    |---|
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` and `GOMAXPROCS=8` if the instance size is larger than "n1-standard-8".  
+
    | ❓️ what is the purpose of `GOMAXPROCS=8`? Currently it is only added to 1 deployment. |
    |---|
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform plan && terraform apply`
