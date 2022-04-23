@@ -12,7 +12,7 @@ On this team, trust is a given. Your teammates will value the opinions, question
 
 We trust in your skills and ability; this is why you are on this team. But raw ability must be coupled with context on the team's technical domain and its goals in order to produce impact.
 
-Our job as you onboard is to give you this context, so that you can liberate your ability. As a result, your job as you onboard is to focus on absorbing context, rather than attempting to demonstrate ability through immediate execution. This doesn't mean operating solely in the abstract, as of course part of absorbing context will entail tackling some practical problems.
+As you onboard, our focus is to equip you to do your best work. For us, this means providing extra care to help you understand how the team works and  communicates, what our goals and priorities are, and any other useful information (technical bigger picture, historical decisions, etc.). During these first few weeks, your focus should be on learning, not executing. We believe that you'll be in the best position to execute if you have a good grasp of tying tasks back to this wider context.
 
 ## We'll provide direction, not tasks
 
