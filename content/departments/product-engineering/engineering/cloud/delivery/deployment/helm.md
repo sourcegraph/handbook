@@ -32,7 +32,7 @@ No change is required, you can apply the same troubleshooting process for the Ku
 
 > This is also applicable to `codeinsights-db` and `codeintel-db`.
 
-As a rule of thumnb, change all references to `deployment` resource type to `statefulset`.
+As a rule of thumb, change all references to `deployment` resource type to `statefulset`.
 
 You may used to run `kubectl get pods -l app=pgsql` to get the exact `pgsql` pod name, this is still applicable. However, this is no longer neccessary, because the pod name will always be `pgsql-0`.
 
@@ -51,6 +51,40 @@ In the event you need assistance from Delivery, please gather the following info
 - Installed chart version: If the customer already had our chart installed, include the output of `helm list`. If the customer is having trouble doing a fresh install, include the output of `helm show chart sourcegraph/sourcegraph`
 - Content of override files: The customer can redact sensitive information if there's any
 - Any other logs or helpful information you think it's helpful
+
+## Development
+
+### Helm Chart Repositories
+
+The helm charts are published to a GCS bucket managed in the [infrastructure repo](https://github.com/sourcegraph/infrastructure/tree/main/helm).
+
+There are two chart repositories:
+
+### release
+
+Monthly and patch releases are published here. This is the official repo and should be used for most deployments.
+
+To access these charts, run:
+
+```
+helm add repo sourcegraph https://helm.sourcegraph.com/release
+helm repo update
+helm search repo sourcegraph
+```
+
+### insiders
+
+Charts are published to the insiders chart repository on every commit to the main branch in the deploy-sourcegraph-helm git repo. These changes are often unstable and should only be used for internal testing.
+
+Charts are tagged with `<chart version>-insiders-{short sha}`. This doesn't strictly follow semver according to helm so versions won't show up in a search unless you add the `--devel` flag.
+
+To access these charts, run:
+
+```
+helm add repo insiders https://helm.sourcegraph.com/insiders
+helm repo update
+helm search repo insiders --devel
+```
 
 ## Helm GA Q&A
 
