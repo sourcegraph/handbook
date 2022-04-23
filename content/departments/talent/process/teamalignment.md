@@ -362,7 +362,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>NA
 
    </td>
-   <td>Dom Cole
+   <td>Frey Andersson
 
    </td>
    <td>NA
@@ -481,7 +481,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Search Core
 
    </td>
-   <td>Dom Cole
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -498,7 +498,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Search Product
 
    </td>
-   <td>Dom Cole
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -515,7 +515,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Batch Changes
 
    </td>
-   <td>Dom Cole
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -532,7 +532,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Code Intel
 
    </td>
-   <td>Dom Cole
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -549,7 +549,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Code Insights
 
    </td>
-   <td>Dom Cole
+   <td>Frey Andersson
 
    </td>
    <td>Win Yu
@@ -666,6 +666,23 @@ You can see the board-approved headcount plan, and the corresponding assigned re
 
    </td>
    <td>Product Design
+
+   </td>
+   <td>Veronica Bueno
+
+   </td>
+   <td>Win Yu
+
+   </td>
+   <td>Kemper Hamilton
+
+   </td>
+  </tr>
+  <tr>
+   <td>Product
+
+   </td>
+   <td>User Research
 
    </td>
    <td>Veronica Bueno

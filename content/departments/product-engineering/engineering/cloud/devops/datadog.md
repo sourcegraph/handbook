@@ -28,8 +28,9 @@ See a short demo of our Datadog [integration](https://www.loom.com/share/27ae324
   - [Real User Monitoring](#real-user-monitoring)
   - [Monitors](#monitors)
   - [Managing Datadog resources](#managing-datadog-resources)
-    - [FAQ](#faq)
-  - [Running Datadog](#running-datadog)
+  - [FAQ](#faq)
+    - [Running Datadog](#running-datadog)
+    - [Enabling Datadog on Cloud](#enabling-datadog-on-cloud)
 
 ## Login
 
@@ -85,12 +86,12 @@ During the first part of trial period, terraform will be only importing changes 
 
 [Terraform implementation](https://github.com/sourcegraph/infrastructure/tree/main/datadog)
 
-### FAQ
+## FAQ
 
 1. Cannot search and group logs by field from the log.
    - Ensure that field is a [facet](https://docs.datadoghq.com/logs/explorer/facets/#create-facets).
 
-## Running Datadog
+### Running Datadog
 
 To run the agent locally, you can run the agent in docker with the following command:
 
@@ -120,3 +121,17 @@ Lastly, run Sourcegraph with the following command:
 These env vars are need to ensure Zoekt uses the Datadog agent.
 
 You can access the traces the same way as specified [here](https://docs.sourcegraph.com/admin/observability/tracing)
+
+### Enabling Datadog on Cloud
+
+To enable Datadog on Cloud, you need to:
+
+1. Configure the site-config to contain the following:
+
+```
+   "observability.tracing": {
+     "type": "datadog"
+   },
+```
+
+1. Set the env var "DD_ENV" on the indexed-search service. This should be set to the environment its being deployed to, ie "dev", "staging", "prod".
