@@ -1,6 +1,6 @@
 # Frontend Platform strategy
 
-The [Frontend Platform team](../../../../../frontend-platform/, by the nature of their purpose, does not follow a traditional product roadmap and instead focuses on high-impact projects aligned with the company's OKRs.
+The [Frontend Platform team](../../../../../frontend-platform/), by the nature of their purpose, does not follow a traditional product roadmap and instead focuses on high-impact projects aligned with the company's OKRs.
 
 ## Mission
 
