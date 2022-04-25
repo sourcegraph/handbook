@@ -16,6 +16,10 @@ It also owns a subset of features built on top of Sourcegraph search:
 
 To learn more about our goals, see the [Search Product strategy](../../../../../strategy-goals/strategy/code-graph/search/product.md) page.
 
+## Teammate experience: guiding principles
+
+We seek to follow a set of [guiding principles](./guiding_principles.md) when welcoming new teammates and working as a team.
+
 ## Contact
 
 - #search channel or @search-product on Slack.

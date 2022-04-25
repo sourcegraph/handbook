@@ -34,6 +34,12 @@ We are currently deployed using this [deploy-sourcegraph-cse-k8s repository](htt
 2. `cd` into the newly cloned directory.
 3. Make sure you are on the main branch: `git checkout master`
 4. Get the latest version of Sourcegraph from the [upstream](https://github.com/sourcegraph/deploy-sourcegraph/) by running `git fetch upstream`
+   > _Note: you may need to set the upstream origin on your master branch_
+
+```
+ git remote add upstream https://github.com/sourcegraph/deploy-sourcegraph
+```
+
 5. Merge the latest update from upstream to the release branch: `git checkout release`
 6. Choose which version you want to deploy from the [Sourcegraph release page](https://github.com/sourcegraph/deploy-sourcegraph/releases) then run: `git merge $NEW_VERSION`.
 7. After merging, you're likely to encounter some merge conflicts. Please resolve them(most of them require clicking on `Accept Incoming Change` - if you're using MS Studio as your code editor.
