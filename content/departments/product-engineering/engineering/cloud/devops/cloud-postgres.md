@@ -1,4 +1,3 @@
-
 # Cloud Postgres
 
 This serves as an informal description of changes to the Postgres database for
@@ -7,4 +6,4 @@ pre-prod environment before being made on the production environment.
 
 ## Changes
 
-*MM/DD/YYYY Reason for change*
+_MM/DD/YYYY Reason for change_
