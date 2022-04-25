@@ -16,6 +16,13 @@ This diagram provides a high-level overview of the tools we use:
 
 For more info on our data stack tools, see the [analytics page](../analytics/index.md).
 
+## Product <> sales data architecture
+
+![image](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/Data_architecture_20220422)
+
+Visit the [live Miro board](https://miro.com/app/board/uXjVO8CCnZU=/) for links. 
+
+
 ### Pings information
 
 Pings are the telemetry we receive from on-prem instances.
