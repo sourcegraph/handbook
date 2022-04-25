@@ -20,8 +20,7 @@ For more info on our data stack tools, see the [analytics page](../analytics/ind
 
 ![image](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/Data_architecture_20220422)
 
-Visit the [live Miro board](https://miro.com/app/board/uXjVO8CCnZU=/) for links. 
-
+Visit the [live Miro board](https://miro.com/app/board/uXjVO8CCnZU=/) for links.
 
 ### Pings information
 
