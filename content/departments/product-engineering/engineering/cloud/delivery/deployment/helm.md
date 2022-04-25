@@ -221,3 +221,6 @@ That’s very dependent on customer requests, but the ones we have in mind inclu
 No specific customizations are currently planned—customer feedback here is going to direct most of our efforts—though we are considering some general improvements to the usability of the chart - i.e., automatically setting environment variables based on different settings. For example, automating the configuration in https://docs.sourcegraph.com/admin/external_services/object_storage.
 
 Please let us know **_any and all_** feedback you get!
+  
+[deployments]: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+[statefulsets]: https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
