@@ -9,7 +9,6 @@ For basic operations like accessing an instance for these steps, see [managed in
    - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
-
 - `export VERSION=v<MAJOR.MINOR.PATCH>`
 - `export COMPANY=$COMPANY`
 - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
@@ -18,7 +17,6 @@ For basic operations like accessing an instance for these steps, see [managed in
   - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 - `export TF_VAR_cf_origin_cert_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_CERT" | base64)`
 - `export TF_VAR_cf_origin_private_key_base64=$(gcloud secrets versions access latest --project=sourcegraph-dev --secret="SOURCEGRAPH_WILDCARD_KEY" | base64)`
-
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `terraform.tfvars` according to the TODO comments within and commit the result.
@@ -33,7 +31,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    | ------------------------------------------------------------- |
 
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
-1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform plan && terraform apply`
+1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
 1. Access the instance over SSH and confirm all containers are healthy ([instructions](operations.md#ssh-access)). You may find `docker ps` reports no containers, that indicates it is still installing Docker, etc. To watch this progress see [debugging startup scripts](operations.md#debugging-startup-scripts), it usually takes <10m. Confirm all containers come up healthy (`docker ps` should report them as such)
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
 1. Create a PR for review.
@@ -52,7 +50,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
 1. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
 1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
-1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform plan && terraform apply`.
+1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
    ```
      "observability.alerts": [
