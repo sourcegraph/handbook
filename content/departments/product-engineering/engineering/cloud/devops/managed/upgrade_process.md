@@ -331,7 +331,11 @@ Remove the notice previously added to the global user settings:
 git push origin HEAD
 ```
 
-And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
+And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed). Or use [gh](https://github.com/cli/cli):
+
+```sh
+gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "## Test plan No review required: normal upgrade"
+```
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person upgrading the instance will have a very bad time.
 
