@@ -32,11 +32,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    | ℹ️ You can safely ignore the warnings from `terraform apply`. |
    | ------------------------------------------------------------- |
 
-1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` and `GOMAXPROCS=8` if the instance size is larger than "n1-standard-8".
-
-   | ❓️ what is the purpose of `GOMAXPROCS=8`? Currently it is only added to 1 deployment. |
-   | -------------------------------------------------------------------------------------- |
-
+1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform plan && terraform apply`
 1. Access the instance over SSH and confirm all containers are healthy ([instructions](operations.md#ssh-access)). You may find `docker ps` reports no containers, that indicates it is still installing Docker, etc. To watch this progress see [debugging startup scripts](operations.md#debugging-startup-scripts), it usually takes <10m. Confirm all containers come up healthy (`docker ps` should report them as such)
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
