@@ -66,17 +66,25 @@ security:
   issue_labels:
     - team/security
 
-growth_and_integrations:
-  title: Growth and Integrations
+integrations:
+  title: Integrations
   product_org: cloud
-  strategy_link: /strategy-goals/strategy/cloud/growth-and-integrations/index.md
+  strategy_link: /strategy-goals/strategy/cloud/integrations/index.md
   pm: ryan_scott
   design: sara_lee
   em: murat_sutunc
   pmm: alex_isken
   issue_labels:
-    - team/extensiblity
-    - team/cloud-growth
+    - team/integrations
+
+growth:
+  title: Growth
+  product_org: cloud
+  strategy_link: /strategy-goals/strategy/cloud/growth/index.md
+  em: murat_sutunc
+  pmm: alex_isken
+  issue_labels:
+    - team/growth
 
 cloud_saas:
   title: Cloud SaaS
