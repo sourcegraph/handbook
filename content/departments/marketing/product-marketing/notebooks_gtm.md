@@ -16,7 +16,7 @@ This is the source of truth for Notebooks go-to-market resources.
 
 Notebooks is a core platform feature, and is available for use by all Sourcegraph users at no additional cost.
 
-## Marketing _internal_
+## Marketing
 
 ### Positioning _internal_
 
