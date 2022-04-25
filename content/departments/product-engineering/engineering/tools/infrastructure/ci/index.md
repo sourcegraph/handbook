@@ -31,4 +31,4 @@ We have several different types of agents availables. We recommend explicitly de
 The currently available queues:
 
 - `standard`: our default Buildkite agents, currently Docker-in-Docker agents running in Kubernetes
-- `baremetal`: special Buildkite agents running on standalone machines
+- `vagrant`: special Buildkite agents desgined to run resource intensive test on docker deployments.
