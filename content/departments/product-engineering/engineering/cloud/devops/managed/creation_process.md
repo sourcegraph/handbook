@@ -45,7 +45,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
    - Username: `sourcegraph-admin`
    - Password: Use the password previously created and stored in 1password.
-1. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` with `site-admin:sudo` checked and add it as "token" under the 1password entry for the admin account.
+1. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` with `user:all` (i.e. the default) checked and add it as "token" under the 1password entry for the admin account.
 1. Navigate to Grafana under `/-/debug/grafana` and confirm the instance looks healthy.
 1. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
 1. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
