@@ -6,4 +6,6 @@ pre-prod environment before being made on the production environment.
 
 ## Changes
 
+04/25/2022 Enabled `pageinspect` extension to analyze BRIN index layout and efficiency for the `lsif_uploads_audit_logs` table.
+
 _MM/DD/YYYY Reason for change_
