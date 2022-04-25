@@ -65,4 +65,4 @@ Code host connectivity, scalability, and reliability underpin all other features
 - [Repo Management](../../../departments/product-engineering/engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
 - [Dev Experience](../../../departments/product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
 - [Frontend Platform](../../../departments/product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
-- [Contennt Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)
+- [Content Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)
