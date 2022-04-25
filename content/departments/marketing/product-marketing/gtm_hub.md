@@ -8,8 +8,8 @@ This is the central page for product-centric, go-to-market resources.
 
 ## Batch Changes
 
-[Batch Changes messaging and positioning](batch_changes_positioning.md)
+[Batch Changes messaging and positioning](/content/departments/marketing/product-marketing/batch_changes_positioning.md)
 
 ## Notebooks
 
-[Notebooks go-to-market resources](notebooks_gtm.md)
+[Notebooks go-to-market resources](/content/departments/marketing/product-marketing/notebooks_gtm.md)
