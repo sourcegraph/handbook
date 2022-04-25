@@ -59,7 +59,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 Any questions about self-hosted deployment should be routed to the [Delivery team](../../product-engineering/engineering/cloud/delivery/index.md).
 
-Any questions about managed insteance deployment should be routed to the [DevOps team](../../product-engineering/engineering/cloud/devops/index.md).
+Any questions about managed instance deployment should be routed to the [DevOps team](../../product-engineering/engineering/cloud/devops/index.md).
 
 ### Monitoring, management, and performance optimization
 
