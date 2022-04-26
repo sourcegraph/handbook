@@ -22,11 +22,11 @@ At Sourcegraph, application security engineers:
 
 ## We want to find engineers who are:
 
-* Good communicators.
-* Confident in identifying application security weaknesses that stem from
-  a variety of sources. 
-* Creative and pragmatic about finding solutions to these issues.
-* Able to advocate for better security practices across the organization.
+- Good communicators.
+- Confident in identifying application security weaknesses that stem from
+  a variety of sources.
+- Creative and pragmatic about finding solutions to these issues.
+- Able to advocate for better security practices across the organization.
 
 ## The process
 
