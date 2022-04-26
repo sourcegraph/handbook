@@ -1,4 +1,4 @@
-# Frontend Engineer interview process for [Growth and Integrations team](../cloud/growth-and-integrations/index.md)
+# Frontend Engineer interview process for [Integrations team](../cloud/integrations/index.md)
 
 1. You [apply](https://boards.greenhouse.io/sourcegraph91).
 1. [30 min] Recruiter screen
