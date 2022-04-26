@@ -61,7 +61,7 @@ Our current process is as follows:
 
 ## Project Leads
 
-Larger issues, especially ones that involve multiple domains, may benefit from a "project lead". A project lead assumes full responsibility for gathering all requirements to complete an issue. The project lead is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task.
+Larger projects, especially ones that involve multiple domains, may benefit from a "project lead". A project lead assumes full responsibility for gathering all requirements to complete a project. The project lead is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task.
 
 ### Time commitment
 
