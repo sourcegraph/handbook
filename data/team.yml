@@ -2348,12 +2348,6 @@ desene_sterling:
   reports_to: vp_operations
   manager_role_slug: financial_controller
 
-prakash_durgani:
-  name: Prakash Durgani
-  role: Head of International Sales
-  reports_to: vp_sales
-  manager_role_slug: head_international_sales
-
 kristen_stretch:
   name: Kristen Stretch
   role: Engineering Manager, Developer Experience
