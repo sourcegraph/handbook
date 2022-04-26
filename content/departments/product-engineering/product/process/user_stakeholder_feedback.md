@@ -93,7 +93,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI.
 - **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding NPS feedback.
-- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/64689250). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack. The CE owner of the deal is also mentioned if they have added their handle to [this spreadhseet](https://docs.google.com/spreadsheets/d/1OnRw9PSuHkw3PdS9DcTFExNEbdUFbjhcSr2iEgGi39k/edit).
+- **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/64689250). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack. The CE and AE owners of the deal are also mentioned if they have added their handle to [this spreadhseet](https://docs.google.com/spreadsheets/d/1RPiuhuyEpqJ6MHFyzf5WOfx1DA00iW6_mEgAHbJffeQ/edit#gid=334520408).
 
 #### Happiness widget
 
