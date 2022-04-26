@@ -13,15 +13,16 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
+
+
+We use:
+- _code rewrite steps_ as a catch all term for what's also known as codemods or code transform steps. This includes running sed, comby, a bash script, or a complex AST-based tool such as [fastmod](https://github.com/facebookincubator/fastmod) to fix or improve code.
+
+- _changesets_ as a more generic term for pull requests, merge requests, patches.
+
 ## Vision
 
-### 3-year vision
-
-**Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.**
-
-### 10-year vision
-
-**Automated code changes are a common practice for all developers.** Making that happen requires two layers. First, making it easy to run code to create changesets across many repositories and codehosts, provided you know how to write code that changes code, our 3-year vision. Second, writing code that changes code, or more generally making describing code changes easier.
+**Automated code changes are a common practice for all developers.** Making that happen requires two layers. First, making it easy to run code rewrite steps to create changesets across many repositories and codehosts, provided you know how to write those code rewrite steps. Second, making it easy to discover, use, reuse and write code rewrite steps.
 
 By lowering the cost and effort required to change code at scale, we’ll make it commonplace to do small, incremental codebase health operations, instead of postponing to another day. We will know we have achieved this when it is as intuitive to change code across the entire codebase as in an IDE.
 
@@ -29,17 +30,15 @@ By lowering the cost and effort required to change code at scale, we’ll make i
 
 ### Mission
 
-We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and heavy project management, as these steps are painful and time consuming, which encourages keeping old code around. We also help developers find, build and share the code rewrite scripts they need to achieve their goals. We do this because we think developer's time is better spent shipping products than building plumbing and doing project management, and because having a frictionless way to make code changes will encourage all developers to keep the codebase quality high over time.
+We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and heavy project management, as these steps are painful and time consuming, which encourages keeping old code around. We also help developers find, build and share the code rewrite steps they need to achieve their goals. We do this because we think developer's time is better spent shipping products than building plumbing and doing project management, and because having a frictionless way to make code changes will encourage all developers to keep the codebase quality high over time.
 
 ### Strategy
 
 To deliver our vision, we will:
 
 - First, get adopted by the Sourcegraph customer base, including large enterprises. We will target customers with advanced practices and workflow, and collaborate with them to build a category-defining product that all other companies will use. This is what we are doing today.
-- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged).
-- Then, create low time-to-value entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a [use case](../../use-cases/index.md). Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
-- Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
-- Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
+- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged). One way we'll do this is by decreasing time-to-value for Batch Changes, allowing users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a [use case](../../use-cases/index.md), possibly without writing code.
+- Eventually, address the problem end to end by becoming the go-to place for discovering, using, building and sharing code rewrite steps.
 
 ## Competitive landscape
 
@@ -73,10 +72,11 @@ The key [success metric](../../../../departments/product-engineering/engineering
 
 ### Time-to-value
 
-Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to batch changes.
+Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **code rewrite steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to Batch Changes.
 
-We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We measure success here by tracking:
+We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We will measure success here by tracking:
 
+- time to value ([#32664](https://github.com/sourcegraph/sourcegraph/issues/32664))
 - the batch changes success rate (number of batch changes that get applied / number of batch changes that stay in preview)
 
 ### Discoverability and end to end use cases
