@@ -51,6 +51,14 @@ Our current process is as follows:
 
   - Teammates can **_reorder_ proposed issues** on the ["Next iteration" board](https://github.com/orgs/sourcegraph/projects/200/views/4) before the mid-iteration sync to their liking. The order at the time of the mid-iteration Monday sync is the _proposed order_.
 
+  - Often, planning work involves RFCs or designs that require engineering input. For this process:
+
+    - The goal of a product-manager-created RFC is to arrive at scoped outcomes for either designs or engineering: this is collected in a "Decisions for Design" or "Decisions for Engineering" section.
+    - At this point, the engineering project lead or designer becomes the driver for taking the work through its next stage. For engineering, this may optionally involve an engineering RFC or a new implementation discussion among engineers on the existing RFC. For design, this usually involves Figma mocks. From those stages, the respective project lead or designer and engineers can create GitHub issues to put into proposed.
+    - Although discussions and project scope can vary, the rough average goal timeline for this process is:
+    - 0.5-1 week: product RFC and discussion
+    - 1-1.5 weeks: designs or engineering implementation discussion and issue creation
+
   - The PM is in charge of moving issues from **Proposed** to **Todo** before the [fortnightly synchronous iteration planning](#fortnightly-iteration-planning).
 
   - We hold a [fortnightly synchronous iteration planning](#fortnightly-iteration-planning), we take a look at the proposed issues together on the ["Next iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/4).
@@ -58,6 +66,25 @@ Our current process is as follows:
 - During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
+
+## Project Leads
+
+Larger projects, especially ones that involve multiple domains, may benefit from a "project lead". A project lead assumes full responsibility for gathering all requirements to complete a project. The project lead is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task.
+
+### Time commitment
+
+Being a project lead takes a bit more time than just working on a single issue. If you are a project lead then your capacity will be reduced. Project leads should make sure to take this into consideration when planning other iteration work.
+
+### Responsibilities
+
+1. Be the first point of engineering contact for product and design
+1. Have a full understanding of the requirements and the work that needs to be done across the frontend and backend. The main benefit here is catching any misunderstandings or integration issues before they happen.
+1. Keep an eye on progress and be proactive about raising blockers or delays.
+1. Help define the testing plan.
+
+### Tracking project leads
+
+A project requiring a lead will most likely require multiple issues to complete. The project lead should create a tracking issue for these and clearly state who the lead is in the issue.
 
 ## How we think about issue sizes
 

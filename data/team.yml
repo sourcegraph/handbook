@@ -474,7 +474,7 @@ joe_kirscher:
   name: Joe Kirscher
   pronouns: he/him
   role: Strategy & Operations Manager
-  reports_to: vp_sales
+  reports_to: director_sales_ops
   manager_role_slug: strategy_operations_manager
   location: Mountain View, CA, USA 🇺🇸
   email: joe.kirscher@sourcegraph.com
@@ -1076,7 +1076,7 @@ rebecca_rissinger:
   name: Rebecca Rissinger
   pronouns: she/her
   role: Manager, Marketing Operations
-  reports_to: director_demand_generation
+  reports_to: director_sales_ops
   manager_role_slug: manager_marketing_operations
   location: Red Bank, New Jersey, USA
   github: rebecca-rissinger
@@ -2678,7 +2678,7 @@ leo_papaloizos:
   name: Leo Papaloizos
   pronunciation: '/[lio papalɔizɔs](http://ipa-reader.xyz/?text=lio%20papal%C9%94iz%C9%94s&voice=Amy)/'
   pronouns: she/her
-  role: Backend Software Engineer
+  role: Software Engineer
   reports_to: engineering_manager_code_insights
   location: London, UK 🇬🇧
   github: leonore
@@ -2951,3 +2951,15 @@ paulo_almeida:
   links: '[Website](https://paulo.digital), [LinkedIn](https://www.linkedin.com/in/paul--almeida/)'
   email: paulo.almeida@sourcegraph.com
   description: 'Paulo is a designer that endeavors to produce unique experiences and elegant designs. He worked in branding, packaging, and graphic design and has been dedicated to UX disciplines in the last decade, from strategy to visual and interface design. Paulo is also a coding designer who thinks end-to-end the entire process. When not working, he is running on some adventure traveling the world. As a restless observer of the human being, he is always excited about developing thoughtful products that enhance life, work, and play.'
+
+ajay_uppaluri:
+  name: Ajay Uppaluri
+  email: ajay.uppaluri@sourcegraph.com
+  github: auppaluri1
+  pronouns: He/Him
+  role: Director, Sales Strategy & Operations
+  manager_role_slug: director_sales_ops
+  reports_to: vp_sales
+  location: San Diego, CA
+  links: '[LinkedIn](www.linkedin.com/in/ajay-uppaluri)'
+  description: Ajay was born & raised in Miami, FL. After receiving his MBA from Emory University in Atlanta, GA, Ajay spent several years in management consulting and GTM strategy. He resides in San Diego with his wife, young daughter & golden retriever. In his highly limited spare time, Ajay usually enjoys a good cocktail and loves to play boardgames with friends & family
