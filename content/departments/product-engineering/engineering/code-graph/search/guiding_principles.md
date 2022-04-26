@@ -28,7 +28,7 @@ We trust you to leverage this freedom with discernment, keeping good forward mom
 
 ## Keep plenty of breathing room
 
-Breathing room, or slack time, means leaving a portion of your total work schedule unallocated to specific tasks. This portion is traditionally hard to quantify, but you should aim for a ballpark 50-60% of your total bandwidth. We trust you with how you employ this breathing room. We have found the team to be most effective when teammates keep plenty of breathing room: the team is more relaxed, has room for creativity, the quality of our work improves, and we end up making faster overall progress towards roadmap outcomes.
+Breathing room, or slack time, means leaving a portion of your total work schedule unallocated to specific tasks. This portion is traditionally hard to quantify, but you should aim for a ballpark 50% of your total bandwidth. We trust you with how you employ this breathing room. We have found the team to be most effective when teammates keep plenty of breathing room: the team is more relaxed, has room for creativity, the quality of our work improves, and we end up making faster overall progress towards roadmap outcomes.
 
 You may find yourself using this breathing room to:
 
