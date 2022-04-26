@@ -117,7 +117,7 @@ We keep hearing user requests for [mounting files on batch change steps containe
 
 This quarter, we will:
 - Continue our investment in making Batch Changes valuable and usable at [enterprise scale](#enterprise-scale). To do so, we are planning to move running batch changes server-side to [Beta](https://github.com/sourcegraph/sourcegraph/issues/30817) for self-hosted instances.
-- Start to iterate on lowering time-to-value. To do so, we will first define and implement a time to value measurement ([#32664](https://github.com/sourcegraph/sourcegraph/issues/32664)). We will also do a first iteration on making it easy for users to get started from scratch, by building a minimum viable iteration of a library of batch changes ([#32687](https://github.com/sourcegraph/sourcegraph/issues/32687)).
+- Start to iterate on lowering time-to-value. We will define and implement a time to value measurement ([#32664](https://github.com/sourcegraph/sourcegraph/issues/32664)). We will also do a first iteration on making it easy for users to get started from scratch, by building a minimum viable iteration of a library of batch changes ([#32687](https://github.com/sourcegraph/sourcegraph/issues/32687)).
 - Iterate on discoverability low-hanging fruits ([#22352](https://github.com/sourcegraph/sourcegraph/issues/22352)).
 
 ### Discovery
