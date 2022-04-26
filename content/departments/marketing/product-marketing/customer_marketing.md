@@ -29,3 +29,5 @@ Check out these resources to learn more about the program and takeaways from pas
 - [CAB member roster](https://docs.google.com/document/d/1o19rw1D4Ip6u5zf2qXTBlroB84m2eJF-nU2QIq5Wleg/edit#)
 - [2021-06-22 meeting resources](https://drive.google.com/drive/folders/15fZ4AqzqYkmz_dEOZGvcUhUehBg2DcDH?usp=sharing): This folder contains the meeting agenda, notes, and takeaways from the 2021-06-22 CAB meeting.
 - [2021-10-19 meeting resources](https://drive.google.com/drive/folders/1aiRsbhaBCUlbTomFza9_kFCWZqQoK6vs?usp=sharing): This folder contains the meeting agenda, notes, and takeaways from the 2021-10-19 CAB meeting.
+- [2022-04-21 meeting resources](https://drive.google.com/drive/folders/17PLeCDrZHiKJvf3P5RjnrC8OdA4j8Ur4?usp=sharing): This folder contains the meeting agenda, notes, and takeaways from the 2022-04-21 CAB meeting.
+-
