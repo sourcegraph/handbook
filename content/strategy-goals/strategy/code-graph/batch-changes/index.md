@@ -13,9 +13,10 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
-
+## Definitions
 
 We use:
+
 - _code rewrite steps_ as a catch all term for what's also known as codemods or code transform steps. This includes running sed, comby, a bash script, or a complex AST-based tool such as [fastmod](https://github.com/facebookincubator/fastmod) to fix or improve code.
 
 - _changesets_ as a more generic term for pull requests, merge requests, patches.
