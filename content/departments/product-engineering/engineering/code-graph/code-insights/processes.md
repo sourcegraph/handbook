@@ -67,6 +67,25 @@ Our current process is as follows:
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
 
+## Project Leads
+
+Larger projects, especially ones that involve multiple domains, may benefit from a "project lead". A project lead assumes full responsibility for gathering all requirements to complete a project. The project lead is expected to have full understanding of the issue and pull in any resources or team members needed to complete the task.
+
+### Time commitment
+
+Being a project lead takes a bit more time than just working on a single issue. If you are a project lead then your capacity will be reduced. Project leads should make sure to take this into consideration when planning other iteration work.
+
+### Responsibilities
+
+1. Be the first point of engineering contact for product and design
+1. Have a full understanding of the requirements and the work that needs to be done across the frontend and backend. The main benefit here is catching any misunderstandings or integration issues before they happen.
+1. Keep an eye on progress and be proactive about raising blockers or delays.
+1. Help define the testing plan.
+
+### Tracking project leads
+
+A project requiring a lead will most likely require multiple issues to complete. The project lead should create a tracking issue for these and clearly state who the lead is in the issue.
+
 ## How we think about issue sizes
 
 When sizing an issue please keep in mind the size includes the entire lifecycle of the issue. The coding, any testing both automated and manual, as well as PR reviews and documentation.
