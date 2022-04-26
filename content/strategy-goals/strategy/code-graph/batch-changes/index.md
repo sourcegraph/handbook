@@ -23,9 +23,9 @@ We use:
 
 ## Vision
 
-**Automated code changes are a common practice for all developers.** Making that happen requires two layers. First, making it easy to run code rewrite steps to create changesets across many repositories and codehosts, provided you know how to write those code rewrite steps. Second, making it easy to discover, use, reuse and write code rewrite steps.
+**Automated code changes are a common practice for all developers.** By lowering the cost and effort required to change code at scale, we’ll make it commonplace to do small, incremental codebase health operations, instead of postponing to another day. We will know we have achieved this when it is as intuitive to change code across the entire codebase as in an IDE.
 
-By lowering the cost and effort required to change code at scale, we’ll make it commonplace to do small, incremental codebase health operations, instead of postponing to another day. We will know we have achieved this when it is as intuitive to change code across the entire codebase as in an IDE.
+Making that happen requires two layers. First, making it easy to run code rewrite steps to create changesets across many repositories and codehosts, provided you know how to write those code rewrite steps. Second, making it easy to discover, use, reuse and write code rewrite steps.
 
 ## Mission & Strategy
 
