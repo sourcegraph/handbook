@@ -69,6 +69,7 @@ Being a project lead takes a bit more time than just working on a single issue. 
 
 ### Responsibilities
 
+1. Be the first point of engineering contact for product and design
 1. Have a full understanding of the requirements and the work that needs to be done across the frontend and backend. The main benefit here is catching any misunderstandings or integration issues before they happen.
 1. Keep an eye on progress and be proactive about raising blockers or delays.
 1. Help define the testing plan.
