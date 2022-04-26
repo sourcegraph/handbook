@@ -106,7 +106,7 @@ We have five main learnings from the first year of Batch Changes:
 
 The top product gaps are:
 
-- running batch changes at a large scale, which is addressed by running batch changes server-side (moving in Beta in Q2)
+- running batch changes at a large scale, which is addressed by running batch changes server-side (moving to Beta in Q2)
 - permissions and access control
 
 We keep hearing user requests for [mounting files on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851), and for [improved monorepo support](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU) from monorepo users.
@@ -133,6 +133,8 @@ In Q2, we want to scope out those two problems to allow for running batch change
 ## What we are not working on
 
 - **Windows support** ([#24849](https://github.com/sourcegraph/sourcegraph/issues/24849)): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
+
+- **Permissions and access control** is not a focus for Q2, as we are still collecting feedback and we want to focus on running batch changes server-side. It's very likely to be a focus area for Q3.
 
 In general, we tend to focus on features that we can build for multiple codehosts in a relatively homogenous manner, and avoid codehost-specific features.
 
