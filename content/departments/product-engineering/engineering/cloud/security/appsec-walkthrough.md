@@ -25,8 +25,8 @@ At Sourcegraph, application security engineers:
 * Good communicators.
 * Confident in identifying application security weaknesses that stem from
   a variety of sources. 
-* Are creative and pragmatic about finding solutions to these issues.
-* Are able to advocate for better security practices across the organization.
+* Creative and pragmatic about finding solutions to these issues.
+* Able to advocate for better security practices across the organization.
 
 ## The process
 
