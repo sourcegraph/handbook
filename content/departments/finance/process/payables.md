@@ -1,4 +1,10 @@
-# Paying bills
+# Airbase
+
+## What is Airbase?
+
+Airbase is an all-in-one spend maangement platform. At Sourcegraph we use Airbase for Purchase Orders, vendor and international contractor invoice processing, vendor and international contractor payments, physical credit cards for our worldwide team, virtual cards for our worldwide team, and expense reimbursements for our US team. Essentially any spend you do on behalf of Sourcegraph will run through Airbase!
+
+Airbase gives our department leads and Finance visibilty into spend in real time on the Airbase platform. Additionally we are able to route all expenses through the proper approvals to make sure we are in compliance for audits.
 
 ## Airbase Limits
 
@@ -36,7 +42,7 @@ If you have a purchase that you’d like to explain/clarify post about it in the
 
 ## Getting invoices paid
 
-As of April 1, 202022, all spend over $5,000 requires a PO prior to processing the invoices. Failure to have a PO will results in a delayed payment to your vendor.
+As of April 1, 202022, all spend over $5,000 requires a [PO](ap.md#policy-objectives) prior to processing the invoices. Failure to have a PO will results in a delayed payment to your vendor.
 
 If you intend to make a purchase that will be paid by invoice (e.g., if it's too large to pay by credit card), send it to [ap@sourcegraph.com](mailto:ap@sourcegraph.com) with the vendor's W-9 (if a new vendor). It is the responsibility of the purchaser to obtain the vendor W-9. Invoices will not be paid without this.
 

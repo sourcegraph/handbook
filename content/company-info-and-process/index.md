@@ -13,6 +13,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 ## [Diversity, Equity, and Inclusion](diversity-equity-and-inclusion/index.md)
 
 - [Gender Diversity Allies and ERG](diversity-equity-and-inclusion/gender-diversity.md)
+- [Queer and Trans ERG](diversity-equity-and-inclusion/queer.md)
 - [Personal pronouns](diversity-equity-and-inclusion/personal-pronouns.md)
 
 ## [Mentorship](mentorship/index.md)

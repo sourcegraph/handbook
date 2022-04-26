@@ -7,7 +7,6 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Ben [README](ben-readme.md)
 - Don [README](Don-readme.md)
 - Gabe [README](gabe-readme.md)
-- Giselle [README](giselle-readme.md)
 - Jason [README](jason-readme.md)
 - Kelvin Lee [README](kelvin-lee-readme.md)
 - Mariam [README](mariam-readme.md)

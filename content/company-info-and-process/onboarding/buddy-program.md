@@ -41,6 +41,8 @@ Thank you for accepting being an onboarding buddy! You are an essential part of 
 
 - **Talk about day to day routines.** It’s hard to get the hang of an all remote job if you’ve never done it before. Talk about your experience at Sourcegraph, how you manage asynchronous communication and flexible working hours (we have unlimited vacation and flexible schedules, what has this looked like in practice for you and others?). You can also share some [Tips for working remotely](../remote/tips.md).
 
+- **Role Related Artifacts** While Sourcegraph is a handbook first organization, the handbook itself is ever evolving and dynamic. Part of a successful onboarding journey is for the paired buddy to provide essential role related artifacts that may be helpful to the new team member. This may include things from G Drive templates, Saleforce reports, Looker statistics and more for example.
+
 - **Slack.** Who to ask for what. Talk about how we use Slack channels and that we actually mean that we are transparent. Try to emphasize that asking questions is a good thing and highly encouraged (if you have a question, chances are, someone else has the same one!). There is no such thing as a stupid question.
 
 - **Their role.** You might get someone who starts working on your team as a buddy, which means they’ll probably like to know what they need to be successful. Try thinking of tips, ideas, suggestions to answer the question ”What should they be studying/learning/focusing on?”. Particularly during their first weeks while they are getting used to the company and their role.

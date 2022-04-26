@@ -79,8 +79,9 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 The Cloud SaaS team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
 - [Cloud DevOps](../devops)
-- [Growth and Integrations](../growth-and-integrations)
-- [Security](../security)
+- [Integrations](../integrations)
+- [Growth](../growth-team)
+- [Security](../security) - Team ambassador: [Feroz Salam](../../../../../team/index.md#feroz-salam)
 
 ## News and updates
 

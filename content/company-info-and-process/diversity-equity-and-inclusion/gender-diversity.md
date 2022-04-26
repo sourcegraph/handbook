@@ -4,7 +4,7 @@ _Known informally by the name of the group’s public Slack channel, [#gender-di
 
 ## What is the cohort?
 
-The cohort is an employee-led opt-in group for fostering inclusivity, community, and connectedness amongst the members of engineering and engineering-adjacent organizations here at Sourcegraph who do not identify as cisgender male. The cohort fits the traditional definition of an “Employee Resource Group (ERG)” (a network of employees who share certain characteristics, background, or experiences that is sponsored by the organization they work for), but for the purposes of keeping the group’s methodology light and unrestrictive, we prefer in most settings to refer to it as a “cohort” instead.
+The cohort is an employee-led opt-in group for fostering inclusivity, community, and connectedness amongst individuals at Sourcegraph who do not identify as cisgender male. The cohort fits the traditional definition of an “Employee Resource Group (ERG)” (a network of employees who share certain characteristics, background, or experiences that is sponsored by the organization they work for), but for the purposes of keeping the group’s methodology light and unrestrictive, we prefer in most settings to refer to it as a “cohort” instead.
 
 ## Who can join the cohort?
 

@@ -17,9 +17,11 @@ The Cloud DevOps team is responsible for the infrastructure used to host Sourceg
 This team works closely with the other teams in the Cloud org to ensure sourcegraph.com is available and functional for our users.
 Notably, this team has the ability to slow or stop rollouts to Sourcegraph.com if needed to improve stability.
 
-This team is responsible for the continuous deployment of Sourcegraph.com
+This team is responsible for
 
-Our Cloud monitoring infrastructure (Prometheus / Grafana)
+- Continuous deployment of Sourcegraph.com
+- Cloud monitoring infrastructure (Prometheus / Grafana)
+- [Managed instances](./managed/index.md)
 
 ## Members
 
@@ -30,12 +32,15 @@ Our Cloud monitoring infrastructure (Prometheus / Grafana)
 - [How to deploy a code change to the Cloud](deploy-code-change.md)
 - [Large release (rollout release) process](deploy-code-change.md#large-releases-to-cloud-rollup-releases)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
+- [Datadog monitoring](datadog.md)
 - [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
 - [Disaster Recovery](disaster-recovery.md)
 - [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
 - [How to use preprod aka staging](preprod.md)
 - [Persistent disk backup schedule](persistent-disk-backup-schedule.md)
+- [Silencing Alerts](silencing-alerts.md)
+- [Cloud Postgres](cloud-postgres.md)
 
 ## How to contact the team and ask for help
 
