@@ -57,13 +57,14 @@ Ask yourself:
 ### General Availability (GA) features
 
 We use the term GA to refer to features that are complete and ready for broad use. GA features:
-- Are stable and can be used across our entire customer base 
+
+- Are stable and can be used across our entire customer base
 - Are high-quality with no known bugs or issues
 - Are commercially ready for customers to adopt (and purchase if it's an add-on product or feature)
 - Have established product-market fit
-- Have clear pricing and packaging 
+- Have clear pricing and packaging
 
-For [L1 product launches](departments/marketing/product-marketing/marketing_launch_tiers/#l1-launch), the PM and PMM for the product should work together to establish GA criteria before the launch happens and should mutually decide when the product is ready for GA. 
+For [L1 product launches](departments/marketing/product-marketing/marketing_launch_tiers/#l1-launch), the PM and PMM for the product should work together to establish GA criteria before the launch happens and should mutually decide when the product is ready for GA.
 
 ## When we use an entirely different label
 
