@@ -29,7 +29,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 
 ## sourcegraph.com admin access
 
-In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Giselle, Stompy, and/or Warren. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Stompy and/or Warren. One of them can help!
 
 ## Managed instance access
 
