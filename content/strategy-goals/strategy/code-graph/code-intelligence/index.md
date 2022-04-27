@@ -112,7 +112,7 @@ Our next step is helping customers set up, monitor and weed out any issues that 
 
 We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements. From a design perspective, we have plans to conduct research that helps us understand adoption drivers and pain points, with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
 
-**Code intelligence platform API** 
+**Code intelligence platform API**
 
 Several recent efforts have shown an increasing need to unify the [code intelligence data platform](https://docs.google.com/document/d/1AjZ_d0nJVHbV75IH3jZRkrGXhsv_AXp2kS4nrw2SAQ8). These efforts show an immediate need to be able to correlate and aggregate data from different sources within an API boundary (instead of re-implemented on several clients). This will set precedent for where code goes in relation to code intelligence domains and will establish clear ownership boundaries for other product teams to build on top of.
 
