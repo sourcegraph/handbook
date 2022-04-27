@@ -474,7 +474,7 @@ joe_kirscher:
   name: Joe Kirscher
   pronouns: he/him
   role: Strategy & Operations Manager
-  reports_to: vp_sales
+  reports_to: director_sales_ops
   manager_role_slug: strategy_operations_manager
   location: Mountain View, CA, USA 🇺🇸
   email: joe.kirscher@sourcegraph.com
@@ -851,18 +851,6 @@ valery_bugakov:
   pronunciation: '[Pronounce my name 🔊](https://www.pronouncenames.com/search?name=Valery)'
   description: "Valery is a product-centric software engineer. He joins Sourcegraph after years of helping various early-stage startups to build web products and scale frontend engineering teams. Open-source enthusiast and avid traveler he can't wait for the open borders to explore new places. In his free time, he enjoys snowboarding, especially freeriding in the winter, and basketball + surfing in the summer."
 
-giselle_northy:
-  name: Giselle Northy
-  pronouns: she/her
-  role: Application Engineer
-  reports_to: customer_support_manager_2
-  location: Sherwood, OR, USA 🇺🇸
-  github: northyg
-  email: giselle@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/giselle-northy/)'
-  pronunciation: '[Pronounce my name 🔊](https://www.pronouncenames.com/search?name=Giselle)'
-  description: Giselle is a long time nerd who has dabbled in coding and PC games for many years. She started her tech career after several twists and turns, followed by a short stint in Sales & Marketing. At work her passions include automating the boring, creating an amazing customer experience, leveling up coding skills, and learning something new every day! Outside of work, she enjoys spending time with family, her fur children Odin the dog, cats Ben & Jerry, exercise, gardening and nature walks.
-
 vova_kulikov:
   name: Vova Kulikov
   pronouns: he/him
@@ -1076,7 +1064,7 @@ rebecca_rissinger:
   name: Rebecca Rissinger
   pronouns: she/her
   role: Manager, Marketing Operations
-  reports_to: director_demand_generation
+  reports_to: director_sales_ops
   manager_role_slug: manager_marketing_operations
   location: Red Bank, New Jersey, USA
   github: rebecca-rissinger
@@ -2450,8 +2438,8 @@ michael_lin:
   name: Michael Lin
   pronouns: he/him
   location: Richmond, BC, Canada 🇨🇦
-  role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
+  role: Software Engineer, DevOps
+  reports_to: engineering_manager_devops
   email: michael.lin@sourcegraph.com
   github: michaellzc
   links: '[LinkedIn](https://www.linkedin.com/in/mlzc/), [@_mlzc](https://twitter.com/_mlzc)'
@@ -2678,7 +2666,7 @@ leo_papaloizos:
   name: Leo Papaloizos
   pronunciation: '/[lio papalɔizɔs](http://ipa-reader.xyz/?text=lio%20papal%C9%94iz%C9%94s&voice=Amy)/'
   pronouns: she/her
-  role: Backend Software Engineer
+  role: Software Engineer
   reports_to: engineering_manager_code_insights
   location: London, UK 🇬🇧
   github: leonore
@@ -2906,7 +2894,18 @@ dora_grgic:
   reports_to: tech_ops_manager
   location: Salzburg, Austria
   links: '[LinkedIn](https://www.linkedin.com/in/doragrgic/)'
-  description: 'Dora is an experienced Information Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her hometown Salzburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Traveling is one of her favorite hobbies as well as spending time with family and friends.'
+  description: 'Dora is an experienced Informaiton Security and Compliance professional. She lived and worked in London, UK for the past decade and just moved back to her home town Salburg in Austria. She is an avid skier but also loves to spend quality time on the beach during the warm weather. Travelling is one of her favourite hobbies as well as spending time with family and friends.'
+
+victoria_fitoussi:
+  name: Victoria Fitoussi
+  email: victoria.fitoussi@sourcegraph.com
+  github: vfitoussi
+  pronouns: she/her
+  role: Senior Content Marketing Manager
+  reports_to: director_content_strategy
+  location: Santa Barbara, California
+  links: '[LinkedIn](https://www.linkedin.com/in/victoriafitoussi/)'
+  description: 'Victoria  is a Senior Content Marketing Manager. After 10 years moving between San Francisco and Paris she and her partner now call Santa Barbara home thanks to the addition of Juno, their husky. She has a background in producing, content and editorial strategy, and video marketing. In her day to day she is practicing yoga, playing beach volleyball, working in her yard, practicing Italian, or gearing up for the next big trip abroad. '
 
 sarah_dunn:
   name: Sarah Dunn
@@ -2951,3 +2950,15 @@ paulo_almeida:
   links: '[Website](https://paulo.digital), [LinkedIn](https://www.linkedin.com/in/paul--almeida/)'
   email: paulo.almeida@sourcegraph.com
   description: 'Paulo is a designer that endeavors to produce unique experiences and elegant designs. He worked in branding, packaging, and graphic design and has been dedicated to UX disciplines in the last decade, from strategy to visual and interface design. Paulo is also a coding designer who thinks end-to-end the entire process. When not working, he is running on some adventure traveling the world. As a restless observer of the human being, he is always excited about developing thoughtful products that enhance life, work, and play.'
+
+ajay_uppaluri:
+  name: Ajay Uppaluri
+  email: ajay.uppaluri@sourcegraph.com
+  github: auppaluri1
+  pronouns: He/Him
+  role: Director, Sales Strategy & Operations
+  manager_role_slug: director_sales_ops
+  reports_to: vp_sales
+  location: San Diego, CA
+  links: '[LinkedIn](www.linkedin.com/in/ajay-uppaluri)'
+  description: Ajay was born & raised in Miami, FL. After receiving his MBA from Emory University in Atlanta, GA, Ajay spent several years in management consulting and GTM strategy. He resides in San Diego with his wife, young daughter & golden retriever. In his highly limited spare time, Ajay usually enjoys a good cocktail and loves to play boardgames with friends & family

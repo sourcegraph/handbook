@@ -60,6 +60,7 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 
 ## Resources
 
+- [GTM Hub (go-to-market resources)](gtm_hub.md)
 - [Product marketing hierarchy](product_marketing_hierarchy.md)
 - [Product marketing roadmap](product-marketing-roadmap.md)
 - [Batch Changes positioning](batch_changes_positioning.md)
