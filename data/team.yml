@@ -2388,8 +2388,8 @@ michael_lin:
   name: Michael Lin
   pronouns: he/him
   location: Richmond, BC, Canada 🇨🇦
-  role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
+  role: Software Engineer, DevOps
+  reports_to: engineering_manager_devops
   email: michael.lin@sourcegraph.com
   github: michaellzc
   links: '[LinkedIn](https://www.linkedin.com/in/mlzc/), [@_mlzc](https://twitter.com/_mlzc)'
