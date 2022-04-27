@@ -76,6 +76,7 @@ To provide the customer access to the instance:
    1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values. (The email address should be in the original managed instance Issue created by CE.)
    1. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
    1. Go to `/site-admin/users` and promote the created account to site admin.
+1. Reach out to the CE responsible for this customer and provide them the link
 
 ## Configuring License, SSO, and repositories
 
