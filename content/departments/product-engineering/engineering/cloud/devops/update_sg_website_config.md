@@ -14,7 +14,7 @@ To update the non-sensitive configuration, follow these steps:
 
 1. After your PR is approved, merge it with the "release" branch.
 1. Wait until the Buildkite [build](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds) is green, so your changes are successfully deployed.
-1. Your changes will be result in the frontend being redeployed with a unique hash for the configuration change.
+1. Your changes will be result in the frontend being redeployed with a unique hash for the configuration change. See [ConfigMapGeneration](https://github.com/kubernetes-sigs/kustomize/blob/master/examples/configGeneration.md#configmap-generation-and-rolling-updates)
 
 1. Go to https://sourcegraph.com/site-admin/configuration to confirm that the non-sensitive configuration changes are live.
 
