@@ -43,6 +43,7 @@ Managed instances configuration is tracked in [`deploy-sourcegraph-managed`](htt
 
 First, ensure you have the prerequisites installed and up-to-date:
 
+- [Sourcegraph CLI](https://docs.sourcegraph.com/cli/quickstart)
 - [Terraform CLI](https://www.terraform.io/)
 - [Deno CLI](https://deno.land/) (used for scripting upgrades)
 - [Comby CLI](https://comby.dev/) (used for rewriting configuration)
