@@ -210,7 +210,6 @@ Then, to upgrade the new `$NEW_DEPLOYMENT` deployment to `$NEW_VERSION`:
 
 ```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
-go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
 git --no-pager diff $NEW_DEPLOYMENT
 ```
 
@@ -223,6 +222,12 @@ You can list references like so (if nothing shows up, you should be good to go):
 ```sh
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
+```
+
+Ensure all images are pinned to `$NEW_VERSION`
+
+```sh
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
 ```
 
 Commit and apply the upgrade:
@@ -567,7 +572,6 @@ Update version references:
 
 ```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
-go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
 git --no-pager diff $NEW_DEPLOYMENT
 ```
 
@@ -579,6 +583,12 @@ cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
 Resolve any merge conflicts that have arisen.
+
+Ensure all images are pinned to `$NEW_VERSION`
+
+```sh
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+```
 
 ### 3) Apply changes to instance
 
