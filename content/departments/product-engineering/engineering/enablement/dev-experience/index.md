@@ -14,7 +14,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
 
 - General
   - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx)
-  - [Developer experience support](/processes.md#support)
+  - [Developer experience support](processes.md#support)
   - [Developer experience newsletter](./newsletter.md)
 - Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
@@ -38,7 +38,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../../../departments/product-engineering/engineering/process/principles-and-practices.md) and [Enablement org's principles and practices](../../../../departments/product-engineering/engineering/enablement/index.md#principles-and-practices). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
+We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
 
 - **We don't own the developer experience at Sourcegraph – we simply focus on it.** Sourcegraph engineers own the developer experience as a collective.
 - **We ship open products.** Our products are open to contributions to anyone in the company, documented, and provide migration paths if necessary. Our decisions are clearly and publicly communicated for everyone to understand our reasoning. We want to make it simple for everyone to benefit from and work on Sourcegraph’s developer experience.
