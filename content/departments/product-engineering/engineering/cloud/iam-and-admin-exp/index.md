@@ -87,7 +87,7 @@ The Cloud SaaS team works alongside several other teams within the Cloud organiz
 
 ### Weekly team updates
 
-Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about Cloud SaaS Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
+Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM & Admin Exp Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
 
 ### Newsletter
 
@@ -100,16 +100,16 @@ We are committed to sending a monthly newsletter to the entire Product and Engin
 
 ### How to contact the team and ask for help
 
-- For cloud users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud-saas`.
-- For internal Sourcegraph teammates, join us in [#cloud-saas](https://sourcegraph.slack.com/archives/cloud-saas) to ask questions or request help from our team.
-- For cloud users with feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `Cloud Feature Request:` in your subject line.
+- For users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam-and-admin-exp`.
+- For internal Sourcegraph teammates, join us in [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/iam-and-admin-exp) to ask questions or request help from our team.
+- For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM & Admin Exp Feature Request:` in your subject line.
 
 ### Planning, execution, and issue tracking
 
-The Cloud SaaS team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
+The IAM & Admin Exp team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
 
-We are using [Jira](https://www.atlassian.com/software/jira) as our project tracking tool. While you will need access to Sourcegraph Atlassian account to view the [Cloud SaaS project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-73&issueLimit=100) the [list view of all the issues](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/issues/) within this project is publicly available.
+We are using [Jira](https://www.atlassian.com/software/jira) as our project tracking tool. While you will need access to Sourcegraph Atlassian account to view the [IAM & Admin Exp project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-73&issueLimit=100) the [list view of all the issues](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/issues/) within this project is publicly available.
 
 #### How we use Jira
 
@@ -140,7 +140,7 @@ We use a shared [Sourcegraph Cloud Research calendar](https://calendar.google.co
 
 #### Decision log
 
-[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the Cloud SaaS team in chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
+[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the IAM & Admin Exp team in chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
 
 #### Team internal communication
 
@@ -249,9 +249,10 @@ TBD
 
 ### Team slack channels
 
-- [#cloud-saas-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for Cloud SaaS team for all day to day communication within the team
-- [#cloud-saas](https://sourcegraph.slack.com/archives/C025BKWFPDY) - external channel for Cloud SaaS team where other Sourcegraphers can ask for help or leave questions for the team
-- [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with Cloud SaaS Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
+- [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM & Admin Exp team for all day to day communication within the team
+- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C025BKWFPDY) - external channel for IAM & Admin Exp team where other Sourcegraphers can ask for help or leave questions for the team
+<!-- TODO: slack channel name needs to be updated  first-- will this maybe break  the integration with JIRA?  -->
+- [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with IAM & Admin Exp Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
 - [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization
 - [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
 - [#cloud-research](https://sourcegraph.slack.com/archives/C02DU382HM4) - public channel for all the updates about user research related to Sourcegraph Cloud
@@ -259,7 +260,7 @@ TBD
 
 ## Product and technical documentation
 
-Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
+Please go to [IAM & Admin Exp Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
 ## [Playbooks](playbooks/index.md) and procedures
 
@@ -269,8 +270,8 @@ Please go to [Cloud SaaS Team Google Drive](https://drive.google.com/drive/u/0/f
 
 This section contains links to Cloud SaaS specific interview types.
 
-- [Architectural Interview](hiring/cloud-saas-software-engineer-architectural-interview.md)
-- [Pairing Coding Interview](../../hiring/software-engineer-coding-exercise.md#cloud-saas-team-coding-exercise)
+- [Architectural Interview](hiring/iam-and-admin-exp-software-engineer-architectural-interview.md)
+- [Pairing Coding Interview](../../hiring/software-engineer-coding-exercise.md#iam-and-admin-exp-team-coding-exercise)
 
 ## Onboarding
 
