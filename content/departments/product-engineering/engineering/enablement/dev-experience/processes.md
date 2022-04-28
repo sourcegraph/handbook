@@ -23,7 +23,7 @@ Our quarterly roadmap items are defined in [tracking issues](../../process/track
 
 ### Dev Experience project
 
-For a lower level view of our day-to-day progress, we use the [Dev Experience Github project]. This board automatically imports issues with the `dx` or `team/devx` labels.
+For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212/views/32). This board automatically imports issues with the `dx` or `team/devx` labels.
 
 ### Google Drive
 
@@ -33,11 +33,11 @@ We collect meeting notes and planning artifacts in a shared [Google Drive folder
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), te #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 ### Raising an issue
 
-If you think DevExperience is the right team to address a bug or other request, please create an issue. The issue should include:
+If you think Dev Experience is the right team to address a bug or other request, please create an issue. The issue should include:
 
 - A short description of the ask
 - A more detailed explanation of the background, context, and problem that needs solving
@@ -74,7 +74,7 @@ We use OpsGenie to manage a support rotation that changes weekly. The person on-
 
 ### Work leads
 
-For each major body of work, we assign an engineer to be a **work lead**. Work leads are responsible for working with the PM/EM to articulate the problem space, requirements, proposed solution, key results, and measure of success. They also scope a delivery plan and create issues to be tracked in the tracking issue. The work lead helps answer questions about priority order, scope change, etc., and provides updates at team syncs. They are **not** solely responsible for executing on the work, which is a team effort.
+For each major body of work, we assign an engineer to be a **work lead**. Work leads are responsible for working with the PM/EM to articulate the problem space, requirements, proposed solution, key results, and measures of success. They also scope a delivery plan and create issues to be tracked in the tracking issue. The work lead helps answer questions about priority order, scope change, etc., and provides updates at team syncs. They are **not** solely responsible for executing on the work, which is a team effort.
 
 The work lead should:
 
@@ -84,7 +84,7 @@ The work lead should:
   - Identify any applicable "Non-Functional Requirements", such as testing, monitoring, and documentation.
   - Identify stakeholders to consult and/or dependencies on other work.
 - Create a delivery plan with issues to be tracked in the roadmap issue.
-  - Issues should be labeled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)), other metadata where helpful, and a rough order of operation and outline of what can be parallelized.
+  - Issues should be labeled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)), other metadata where helpful, a rough order of operations, and outline of what can be parallelized.
 - Maintain an understanding of the progress of the work.
   - Have a clear picture of what's being executed, what's coming up, and overall timelines.
   - Ensure required tasks are delegated.
