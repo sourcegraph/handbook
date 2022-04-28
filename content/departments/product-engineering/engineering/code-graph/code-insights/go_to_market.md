@@ -67,7 +67,7 @@ An overview of the target audience, problem, solution, and go-to-market strategy
 
 FAQ-style responses to launch-related questions.
 
-### [April 2022 Code Insights Webinar: How to track what really matters to you and your team]
+### April 2022 Code Insights Webinar: How to track what really matters to you and your team
 
 - [Slides](https://docs.google.com/presentation/d/1d-A7HwARbLKOjreGXsQ5eA9W4oO7Qb_5LXaOw6k2Tic/edit#slide=id.p) (for internal use or explicit repurposing – don't share directly)
 - [Figma flow chart](https://www.figma.com/file/8U0dOvt368voozlCMvmvPA/Tracking-what-matters-in-your-code-webinar?node-id=5%3A44)
