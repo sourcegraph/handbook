@@ -86,8 +86,8 @@ browser_extensions:
   title: Browser Extensions
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
-  slack_channels: '#growth-and-integrations'
+  product_team: integrations
+  slack_channels: '#integrations'
   ownership_model: Owner
   product_lifecycle: Growth
 
@@ -96,8 +96,8 @@ native_integrations:
   title: Native Integrations
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
-  slack_channels: '#growth-and-integrations'
+  product_team: integrations
+  slack_channels: '#integrations'
   ownership_model: Owner
   product_lifecycle: Mature
 
@@ -106,8 +106,8 @@ editor_extension:
   title: Editor Extension
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
-  slack_channels: '#growth-and-integrations'
+  product_team: integrations
+  slack_channels: '#integrations'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -603,8 +603,8 @@ extensions_registry:
   title: Web App - Extensions registry
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
-  slack_channels: '#growth-and-integrations'
+  product_team: integrations
+  slack_channels: '#integrations'
   ownership_model: Owner
 
 extensions:
@@ -612,8 +612,8 @@ extensions:
   title: Sourcegraph Extensions
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
-  slack_channels: '#growth-and-integrations'
+  product_team: integrations
+  slack_channels: '#integrations'
   ownership_model: Owner
   product_lifecycle: Growth
 
@@ -717,7 +717,8 @@ signup_flow:
   title: Sign up flow
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
+  product_team: growth
+  slack_channels: '#growth'
   ownership_model: Owner
   product_lifecycle: Mature
 
@@ -726,7 +727,8 @@ onboarding_flow:
   title: Post sign up / onboarding flow / product tour / in-product guidance / new user experience (NUE)
   type: Product
   product_org: cloud
-  product_team: growth_and_integrations
+  product_team: growth
+  slack_channels: '#growth'
   ownership_model: Owner
   product_lifecycle: Introduction
 

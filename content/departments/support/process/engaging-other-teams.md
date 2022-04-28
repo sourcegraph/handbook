@@ -59,7 +59,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 Any questions about self-hosted deployment should be routed to the [Delivery team](../../product-engineering/engineering/cloud/delivery/index.md).
 
-Any questions about managed insteance deployment should be routed to the [DevOps team](../../product-engineering/engineering/cloud/devops/index.md).
+Any questions about managed instance deployment should be routed to the [DevOps team](../../product-engineering/engineering/cloud/devops/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -84,7 +84,7 @@ EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 - `CVS` should be routed to the [Batch Changes team](../../product-engineering/engineering/code-graph/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../../product-engineering/engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../product-engineering/engineering/cloud/integrations/index.md).
 
 ### Repository Management
 
@@ -112,13 +112,13 @@ In GitHub issues search-core and search-product should be flagged via team/searc
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Integrations team](../../product-engineering/engineering/cloud/integrations/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Growth and Integrations team](../../product-engineering/engineering/cloud/growth-and-integrations/index.md).
+Any questions about Sourcegraph extensions should be routed to the [Integrations team](../../product-engineering/engineering/cloud/integrations/index.md).
 
 ### Batch Changes
 
@@ -168,7 +168,7 @@ When in doubt, file in the private repo—issues can be moved over to the public
 - Navigate to the correct issue repo from the links above; once there, click the "new issue" button (if you are using the private repo, this will show you some templates -- use the CS New Issue template
 - Provide all information required for troubleshooting that you gathered in the previous steps, including the customer deployment doc and/or the account doc, if available
 - Include Sourcegraph version number.
-- Include name of the extension along with the extension version number when filing issues with the growth and integrations team.
+- Include name of the extension along with the extension version number when filing issues with the integrations team.
 - Include customer quotes in markdown using a quote block. For example, `> quote goes here.`
 - Label it with `customer/$name` and `rfh (request for help from CS)`.
 - Assign the issue to the appropriate team you identified in the previous step by adding the team via their team label.

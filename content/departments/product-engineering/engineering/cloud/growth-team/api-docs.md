@@ -2,10 +2,6 @@
 
 API docs is a core component of a company-wide initiative to help Sourcegraph become the standard tool for searching and understanding public code.
 
-## Goals
-
-[Goals and roadmap](../../../../../strategy-goals/strategy/cloud/growth-and-integrations/api-docs.md)
-
 ## The API docs vision
 
 It is hard for developers to get good answers to API-related questions today, they lack easy access to solid tooling, docs, formatting and examples from public (and private) code. Some languages are better served than others (e.g. [Go is served well](https://pkg.go.dev)), but nearly all languages lack an excellent way to answer:
