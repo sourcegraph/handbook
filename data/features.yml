@@ -490,7 +490,7 @@ user_authentication:
 
 browser_extension:
   title: Browser Extension
-  product_team: growth_and_integrations
+  product_team: integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/integration/browser_extension
   compatibility:
@@ -585,7 +585,7 @@ kubernetes_deployment:
 
 prebuilt_extensions:
   title: Pre-built Extensions
-  product_team: growth_and_integrations
+  product_team: integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions
   compatibility:
@@ -604,7 +604,7 @@ prebuilt_extensions:
 
 custom_extensions:
   title: Custom Extensions
-  product_team: growth_and_integrations
+  product_team: integrations
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/extensions/authoring
   compatibility:

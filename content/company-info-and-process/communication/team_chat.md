@@ -121,6 +121,7 @@ In addition to the company-wide channels that are outlined at the top of this pa
 
 - #3dprinting - Discussion and photos about your three-dimensional creations
 - #anime - All things related to anime
+- #art-and-crafting - For teammates to share and discuss their artistics and crafting endeavors!
 - #basketball - All things hoops (NBA, NCAA, FIBA, etc.)
 - #best-timezone - Hangout channel for the European time zone. GIFs allowed!
 - #bikes - For all your cycling-related conversations and ride photos.
@@ -138,7 +139,6 @@ In addition to the company-wide channels that are outlined at the top of this pa
 - #great-bandname - “That’s a great band name” — all the things we find that would make a great band name
 - #keyboards-of-sourcegraph - clack clack CLACK clack clack CLACK cl
 - #kids-of-sourcegraph - A place to share photos of our Mini-Sourcegraphers and share advice on parenting.
-- #knitting - For knitting, crocheting, or general yarn enthusiasts
 - #memes-and-motivations - Sometimes a funny meme or a powerful motivational video is good for the soul!
 - #mixology - To talk about the art of making drinks/drinks we enjoy
 - #motorsport - For those that like the smell of fuel or burning rubber, or blissful silence of the electric motor.

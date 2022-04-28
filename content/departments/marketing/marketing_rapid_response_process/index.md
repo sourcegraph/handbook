@@ -22,9 +22,9 @@ While each response will be a custom plan, the rapid response team may include t
 - Communications & Social: Amie Rotherham
 - PMM: Andy Schumeister(and specific PMM depending on situation)
 - Product: Christina Forney
-- Content: Rebecca Dodd
-- Community: Samson Goddy
-- Content Platform: Jean du Plessis
+- Content: Scott Bailey
+- Community: Vanesa Ortiz and Justin Dorfman
+- Content Platform: Elzanne Wentzel
 - Customer Support: Virginia Ulrich
 - Customer Engineering: Aimee Menne
 - Legal: Tammy Zhu

@@ -15,7 +15,6 @@ Our schedule is reflected in the working hours set in our calendars.
 | Ben         | 9am–5pm     | 15:00–23:00 | 7am–3pm       |
 | Don         | 10am–6pm    | 15:00–23:00 | 7am–3pm       |
 | Gabe        | 9am–5pm     | 17:00–01:00 | 9am–5pm       |
-| Giselle     | 8am–4pm     | 16:00–24:00 | 8am–4pm       |
 | Jason       | 9am–5pm     | 15:00–23:00 | 7am–3pm       |
 | Kelvin      | 11am–7pm    | 19:00–03:00 | 11am–7pm      |
 | Mariam      | 9am–5pm     | 09:00–17:00 | 1am–9am       |
