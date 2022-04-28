@@ -1,6 +1,6 @@
 # Enablement strategy
 
-The Enablement organization teams work on the technical foundation for developing our product and supporting digital assets. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual strategy page that describes what they are working on and why in more detail.
+The [Enablement organization]("(../../../departments/product-engineering/engineering/enablement/index.md) teams work on the technical foundation for developing our product and supporting digital assets. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual strategy page that describes what they are working on and why in more detail.
 
 ## Mission
 
