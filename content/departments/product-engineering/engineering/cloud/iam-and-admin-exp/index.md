@@ -27,13 +27,17 @@ The Growth & Integration team also works on the [new user experience](../../../p
 
 ### Product domains
 
+#### Identity and access management
+
+We own both authentication and authorization to Sourcegraph, including login and sign-up flow and user management for on-prem and managed instances.
+
+Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
+
 #### Administration experience and teams management
 
-Capabilities that provide customers with transparency and access control to how Sourcegraph Cloud is used within their organizations. This means changing the Sourcegraph product from a single to multi-tenant architecture that will enable multiple customers to operate on a single shared cloud instance securely. On the other side, it’s all about providing functionalities to support organizations collaborating on the cloud. This includes but is not limited to team management, role-based access control, and other features targeted towards admins on our customer’s side.
+Capabilities that provide customers with transparency and access control to how Sourcegraph is used within their organizations. This includes but is not limited to team management, role-based access control, and other features targeted towards admins on our customer’s side.
 
 In addition to the organization-level management capabilities, we are also responsible for individual users' administration experience.
-
-While managing code host connections and repositories as a domain is owned by the Repository Management team, we identify this area as crucial for supporting organizations collaborating on the cloud. It’s also impacted by the transition from single to multi-tenant architecture. Because of both, we acknowledge the lack of clear boundaries between the domains and the need for close collaboration between both teams in this problem space.
 
 #### Subscription management
 
@@ -47,12 +51,6 @@ Both technical and presentational sides of pricing. This includes both the prese
 
 The end-to-end self-service process on paying for Sourcegraph subscription on the cloud.
 
-#### Identity and access management
-
-We own both authentication and authorization to Sourcegraph.com, including both login and sign-up flow and user management on the cloud.
-
-Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
-
 #### Usage reporting and entitlement enforcement
 
 Customer-facing and internal tools and features that provide transparency to how customers consume entitlements within their current subscription, including entitlements limiting enforcing capabilities.
@@ -61,10 +59,8 @@ Customer-facing and internal tools and features that provide transparency to how
 
 The list below contains features and services that already exist, and the Cloud SaaS team is responsible for keeping the light on them.
 
-- Organizations
-- Multi-tenancy
-- User profile and settings
 - Sign up flow
+- User profile and settings
 - Post sign up and onboarding flow
 - User notifications
 
