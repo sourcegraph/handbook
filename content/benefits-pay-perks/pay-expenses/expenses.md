@@ -4,6 +4,8 @@
 
 Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../benefits-perks/spending-company-money.md)). Approvals for spend are routed based on amount and department in Airbase, please see our [spending limits](../../departments/finance/process/payables.md#limits). For all expense related questions, feel free to email us at ap@sourcegraph.com or post in Slack at #expense-inquiries.
 
+If you are submitting an expense for a gift, meal, or entertainment with a prospective customer, vendor, or other external business partner, consult the Gifts policy in our [Code of conduct](https://handbook.sourcegraph.com/company-info-and-process/communication/code_of_conduct/#gifts) and submit a form for any gifted items, meals, or entertainment with market value above $50. 
+
 ## Submit expenses every month
 
 Teammates should submit expenses at the end of every month.
