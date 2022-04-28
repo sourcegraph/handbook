@@ -567,6 +567,7 @@ Update version references:
 
 ```sh
 VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
 git --no-pager diff $NEW_DEPLOYMENT
 ```
 
