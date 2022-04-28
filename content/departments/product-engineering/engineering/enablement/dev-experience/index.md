@@ -8,7 +8,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Strategy
 
-Find out more about the Dev Experience team's mission, vision, and strategic plans.(../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
+Find out more about the Dev Experience team's mission, vision, and strategic plans in our [Strategy page](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md).
 
 ## Responsibilities
 
@@ -51,7 +51,7 @@ We inherit Sourcegraph's [engineering principles and practices](../../process/pr
 
 ## Processes
 
-Read more about [how this team works](/processes.md).
+Read more about [how this team works](./processes.md).
 
 ## Useful resources
 

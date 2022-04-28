@@ -66,7 +66,7 @@ The team leading the investigation should either fix the issue directly, or if t
 
 For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles).
 
-## Team Roles
+## Team roles
 
 ### Support rotation
 
@@ -94,7 +94,7 @@ The work lead should:
 
 > NOTE: An updated and well-documented planning issue makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with planning efforts.
 
-## Team Meetings and Communication
+## Team meetings and communication
 
 We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
@@ -102,15 +102,15 @@ We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-pr
 - All teammates should add items to the agenda before the meeting begins.
 - Any action items that come out of meetings should be considered a high priority.
 
-### Team Sync
+### Team sync
 
 We connect weekly to discuss any topics that are best addressed in person. Our notes are available [here](https://docs.google.com/document/d/1Lm6GT-F4v9OTa5wxa1-AKLtNwlDkORbbeGjqVd9kWPg/edit).
 
-### Team Retro
+### Team retrospective
 
 We connect bi-weekly to celebrate wins from the past two weeks, give cheers to our teammates, and reflect on what we’ve liked, not liked, and learned for going forward. The focus of the [agenda](https://docs.google.com/document/d/1QR1It6KGccwWRpASH16J64QNkpHtngI4o2ttrGpVCwU/edit#) for this meeting is team health, as opposed to day-to-day work.
 
-### Coffee
+### Coffee break
 
 Every week we hold an informal, totally optional coffee break to connect socially and hang out together as humans.
 
