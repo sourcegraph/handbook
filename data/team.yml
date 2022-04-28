@@ -963,8 +963,8 @@ bill_creager:
 fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
-  role: Project Manager, Demand Generation
-  reports_to: director_demand_generation
+  role: Creative Operations Manager
+  reports_to: vp_marketing
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
   email: fabiana@sourcegraph.com
@@ -1115,6 +1115,12 @@ nicholas_gage:
   email: ngage@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/nicholas-g-4a0b6948/)'
   description: Nick grew up on the East Coast in the greater Boston area. After spending many years in the southeast working as an account executive for AT&T, Nick made the move to San Francisco to work with Box. Nick is passionate about development, both personal and professional. When outside of work, Nick enjoys spending time with his wife, Grace, and their dog, Rocky. Whether hiking, skimboarding, golfing, or skiing, Nick loves spending time outdoors (preferably in the sun!).
+
+director_demand_generation:
+  name: Nicholas Gage
+  role: Director, Demand Generation
+  reports_to: vp_sales
+  manager_role_slug: director_demand_generation
 
 devon_coords:
   name: Devon Coords
@@ -1891,8 +1897,8 @@ simon_waterer:
 adam_greenhalgh:
   name: Adam Greenhalgh
   pronouns: he/him
-  role: Marketing Operations Analyst
-  reports_to: manager_marketing_operations
+  role: Marketing Strategy and Analytics
+  reports_to: vp_marketing
   location: Salt Lake City, Utah, United States
   github: Adammaxla
   email: you@sourcegraph.com
