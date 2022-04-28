@@ -127,4 +127,4 @@ At a minimum, we can share the first draft of the post in the description of the
 
 By suggesting Twitter copy we have a better chance of the post being promoted on the day of publishing.
 
-After publishing the blog post, there is a task for the editor to share the live URL in #social-media-action. 
+After publishing the blog post, there is a task for the editor to share the live URL in #social-media-action.
