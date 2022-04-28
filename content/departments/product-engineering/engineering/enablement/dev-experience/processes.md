@@ -1,6 +1,6 @@
 # Dev Experience Processes
 
-## How we plan and track our work
+## Planning and tracking work
 
 ### Planned work
 
