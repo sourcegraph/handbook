@@ -57,7 +57,7 @@ Customer-facing and internal tools and features that provide transparency to how
 
 ### Engineering ownership
 
-The list below contains features and services that already exist, and the Cloud SaaS team is responsible for keeping the light on them.
+The list below contains features and services that already exist, and the IAM & Admin Exp team is responsible for keeping the light on them.
 
 - Sign up flow
 - User profile and settings
