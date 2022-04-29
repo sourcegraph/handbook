@@ -282,7 +282,7 @@ You must comply with export controls, economic sanctions, and other restrictions
 
 We regularly implement and update procedures to prevent us from violating international trade restrictions, but if you notice or suspect a violation, raise it to the Legal Team.
 
-## Raising concerns
+### **Raising Concerns**
 
 If you have a question or concern about a violation of the Code, please directly contact any of the below teammates via Slack, an email, a meeting, or a phone call. We will do our best to respond to you immediately to confirm receipt, no later than 24 hours after you submit your question or concern.
 
@@ -292,7 +292,7 @@ If you have a question or concern about a violation of the Code, please directly
 
 Please keep in mind that if you make a report to an individual and they are out of working hours or on PTO, it may take longer for you to get a response. In these cases, if you want a faster response, we recommend that you report to the People Team directly to ensure we address your report as quickly as possible.
 
-If you have a concern and would like to remain confidential, please contact our 24/7 third-party helpline, Convercent. Convercent will anonymously share your report with limited members of the People Team and/or the Legal team so that we can look into and respond to your concerns. You can find more details on how to escalate your concerns here: [Raising concerns escalation process](../../communication/code_of_conduct.md)
+If you have a concern and would like to remain confidential, please contact our 24/7 third-party helpline, Convercent. Convercent will anonymously share your report with limited members of the People Team and/or the Legal team so that we can look into and respond to your concerns. You can find more details on how to escalate your concerns here: [Raising concerns escalation process](../../communication/raising-concerns-escalation-process.md)
 
 #### **Confidentiality**
 
