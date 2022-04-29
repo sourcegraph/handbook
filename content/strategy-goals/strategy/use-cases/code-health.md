@@ -56,6 +56,15 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Tie to higher retainment of engineers when they work in healthy code environments
 - Increased productivity, quicker builds
 
+
+## Competitive positioning
+
+As we position on the code health and [fixing security vulnerabilities](fixing-security-vulnerabilities.md) use cases, static analysis products such as Sonarqube and semgrep come up in customer conversations. The expressivity of structural search coupled with Batch Changes, for example, is a powerful approach to find and fix a code smell or vulnerability, which is also something static analysis is good at. The more general question is **what is the role of search vs static analysis** for those use cases? Each has their own merit and areas of use:
+- **static analysis** is typically harder to write, but is accurate and unambiguous. Static analysis products tend to orient towards **exhaustivity out of the box**: make sure known best practices are in place or make sure to scan for all common security vulnerabilities.
+- **universal code search** is easier to use and easy to iterate with to answer any question aboute the codebase. It may not be as accurate or unambiguous: describing something unambiguously is not always possible or easy. But search can be used by any developer to very quickly express relatively complicated statemements.
+
+As we increase our focus on those use cases we are not orienting towards exhaustivity: we will not be a product that out of the box scans for all CVEs or automatically applies basic linting rules. However, Sourcegraph will provide templates to solve for common use cases, and more importantly, the expressibity and flexibility of search allows all the developers of our customers to search, fix and understand code.
+
 ## Features that enable this use case
 
 {{generator:use_case_feature_list.code_health}}
