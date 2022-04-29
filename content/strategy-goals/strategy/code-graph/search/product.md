@@ -26,7 +26,7 @@ The Search Product team has a dual mission:
 - Increasing the value of the search as a platform for other teams to build upon (Code Insights, Batch Changes), with these other team's goals in mind.
 - Building differentiated user-facing products and features of its own.
 
-In addition to the core search experience, Search Product team's scope includes [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore). Today, all products and features in Search Product's scope are included in every Sourcegraph contract.
+In addition to the core search experience, the Search Product team's scope includes [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore). Today, all products and features in Search Product's scope are included in every Sourcegraph contract.
 
 ## What's next and why
 
