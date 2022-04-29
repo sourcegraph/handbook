@@ -24,8 +24,13 @@
 
 ## Cadence
 
-**Talent review is performed in the first month of each fiscal quarter (February, May, August, November).** More frequent than quarterly is not enough time for significant growth to occur for most ICs, and is thus not a good use of <a href="../roles#engineering-manager"><abbr title="Engineering Manager">EM</abbr></a> effort: too much cost for not enough benefit.
-Less frequent than quarterly raises the stakes too high: “I just started this new role right before Talent Review. If it’s not enough time for me to demonstrate my increased impact, I’ll have to wait another 6 months before I’m considered again!”
+_We're in the process of standardizing our talent review process across the company. Here is where we expect to end up:_
+
+**Talent review is performed every 6 months (February, August).** This will be aligned with a refresh of our comp data and lattice reviews.
+
+We expect it to be rare, but we can consider off-cycle promotions and we will deal with these exceptions on a case by case basis.
+
+Unless we have made a mistake in someone’s compensation, we won’t make non-promotion compensation changes outside of the normal 6 month cycle.
 
 ## Pre-work
 

@@ -151,7 +151,7 @@ Some useful marketing-related Salesforce links:
 
 We use Google Analytics on our marketing site to capture high-level aggregated usage data and traffic. We can measure things like overall traffic, [traffic by country](https://analytics.google.com/analytics/web/#/report/visitors-geo/a40540747w150533180p155508056/), [referral sources](https://analytics.google.com/analytics/web/#/report/trafficsources-overview/a40540747w150533180p155508056/) etc. We also have [Goals](https://analytics.google.com/analytics/web/#/a40540747w150533180p155508056/admin/goals/table) set up so that we can measure basic [website conversion performance](https://analytics.google.com/analytics/web/#/report/conversions-goals-overview/a40540747w150533180p155508056/_u.date00=20210101&_u.date01=20210309/). We sync basic traffic data to BigQuery.
 
-GA integrates closely with Google Ads/AdWords. Google Ad performance is determined by the number of users who click an ad and convert via a goal we define in GA. Talk to Lori (Digital Marketing) to find out more about Ads.
+GA integrates closely with Google Ads/AdWords. Google Ad performance is determined by the number of users who click an ad and convert via a goal we define in GA.
 
 ## Google Tag Manager (GTM)
 

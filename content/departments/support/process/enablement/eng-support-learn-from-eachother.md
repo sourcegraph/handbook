@@ -83,4 +83,3 @@ Our [Frontend Platform team](../../../product-engineering/engineering/enablement
 8. Explore [Frontend Platform GitHub issues](https://github.com/sourcegraph/sourcegraph/labels/team%2Ffrontend-platform)
 9. Start with issues with the `good first issue` label
 10. Chat with your manager about your plan
-11. Let Patrick (engineering manager of the team) know which ticket you’d like to work on
