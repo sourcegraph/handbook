@@ -296,7 +296,7 @@ You can also use Slack, set up a meeting, or call them directly.
 
 You can expect an initial response to your report within 24-hours. Please keep in mind that if you make a report to an individual and they are out of working hours or on PTO, it may take longer for you to get a response. If you want a faster response, we recommend that you report to the People Team directly to ensure we address your report as quickly as possible.
 
-If you have a concern and would like to [remain anonymous](#confidentiality), please contact our 24/7 third-party helpline, Convercent. Convercent will anonymously share your report with limited members of the People Team and/or the Legal team so that we can look into and respond to your concerns. You can find more details on how to use Convercent [here](./convercent/).
+If you have a concern and would like to [remain anonymous](#confidentiality), please contact our 24/7 third-party helpline, Convercent. Convercent will anonymously share your report with limited members of the People Team and/or the Legal team so that we can look into and respond to your concerns. You can find more details on how to use Convercent [here](convercent.md).
 
 ### Confidentiality
 
