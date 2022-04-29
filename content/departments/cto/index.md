@@ -1,6 +1,6 @@
 # CTO
 
-Mandate: Conduct experiments that support the company's mission but don't fit well into the priorities of Product and Engineering.
+Mandate: Build experiments that support the company's mission but don't fit well into the priorities of Product and Engineering.
 
 ## Experiment proposals
 
@@ -10,8 +10,8 @@ Successful experiments should aspirationally aim to "graduate" into the product 
 
 ## FAQ
 
-**Q:** Who approves projects in the CTO?
-**A:** Beyang will approve projects, with sign-off from Christina or Nick to ensure there isn't a conflict with the product roadmap.
+**Q:** How are experiments proposed and approved?
+**A:** Just DM Beyang with your idea, but bear in mind the earlier note about bandwidth. Beyang will approve experiments, with sign-off from Christina or Nick to ensure there isn't a conflict with the product roadmap.
 
 **Q:** How many people are working on this?
 **A:** Beyang and Stephen.
@@ -20,4 +20,4 @@ Successful experiments should aspirationally aim to "graduate" into the product 
 **A:** No, part of our culture at Sourcegraph is to make bold bets on new products and features that will benefit our customers. We have some great precedents (Batch Changes, Code Insights, Search Notebooks, Compute), and we expect and desire the bulk of these efforts to continue to happen within Product and Engineering. CTO experiments are those that don't align well with Product priorities, and we're allocating only a small amount of bandwidth and resources to pursuing these.
 
 **Q:** How should I think about and engage with projects this team is working on?
-**A:** Treat this almost like a separate company. We're not asking for or expecting engagement from anyone, but if folks think it's interesting and want to chat about it, we're open to sharing. If you think what we're doing is compelling, go ahead and copycat—unlike a completely separate company, we would be eager to partner and help you build upon any good ideas from our work.
+**A:** Treat this almost like a separate company. We're not asking for or expecting engagement from anyone, but if folks think it's interesting and want to chat about it, we're open to sharing. If you think what we're doing is compelling, go ahead and copycat—unlike a completely separate company, we would be eager to partner and help you build upon any good ideas from our work. Ongoing discussion on doctree is happening in the [#doctree channel](https://app.slack.com/client/T02FSM7DL/C03BPE4EGUF).
