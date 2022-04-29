@@ -75,7 +75,7 @@ If successful, this effort would have implications beyond Code Search. Imagine b
 
 #### What we're not working on and why
 
-This quarter, we are largely deferring feature work in favor of foundational and research efforts. Q1 was a hugely productive quarter for the team, and we want to let the new products and features that shipped get some usage and garner feedback.
+This quarter, we are largely deferring launching new user-facing features in favor of foundational and research efforts. Q1 was a hugely productive quarter for the team, and we want to let the new products and features that shipped get some usage and garner feedback.
 
 ## Related use cases
 
