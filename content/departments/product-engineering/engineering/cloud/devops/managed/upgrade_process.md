@@ -224,6 +224,12 @@ cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
+Ensure all images are pinned to `$NEW_VERSION`
+
+```sh
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+```
+
 Commit and apply the upgrade:
 
 ```sh
@@ -332,7 +338,11 @@ Remove the notice previously added to the global user settings:
 git push origin HEAD
 ```
 
-And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
+And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed). Or use [gh](https://github.com/cli/cli):
+
+```sh
+gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "## Test plan No review required: normal upgrade"
+```
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person upgrading the instance will have a very bad time.
 
@@ -577,6 +587,12 @@ cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
 Resolve any merge conflicts that have arisen.
+
+Ensure all images are pinned to `$NEW_VERSION`
+
+```sh
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+```
 
 ### 3) Apply changes to instance
 

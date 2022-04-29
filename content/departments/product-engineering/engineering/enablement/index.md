@@ -1,9 +1,5 @@
 # Enablement org
 
-## Mission
-
-Our mission is to provide technical foundations critical to the business, our customers, and our products. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers when using or developing Sourcegraph. For a deep dive into our mission see our [strategy page](../../../../strategy-goals/strategy/enablement/index.md)
-
 ## Team
 
 The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Director of Product](../../product/roles/index.md#director-of-product)) and [Jean du Plessis](../../../../team/index.md#jean-du-plessis) ([Director of Engineering](../roles/index.md#director-of-engineering)).
@@ -27,6 +23,10 @@ The org is lead by [Serina Clark](../../../../team/index.md#serina-clark) ([Dire
 | Content Platform  | advisor                            |
 
 The collaboration modes are described in the [profile role description](../career-development/ic5/enablement-org.md#partnership-modes).
+
+## Mission / Vision / Strategy
+
+For a deep dive into our mission, vision & strategy see our [strategy page](../../../../strategy-goals/strategy/enablement/index.md)
 
 ## Principles and practices
 
