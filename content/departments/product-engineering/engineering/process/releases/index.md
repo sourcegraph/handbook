@@ -43,6 +43,7 @@ the release guild is unable to release a patch, the responsibility to do so will
 #### Release guild SLA
 
 The release guild operates with the following SLA:
+
 1. 2 working days after patch request to accept or deny the patch release responsibility
 2. 3 working days after accepting responsibility to perform the patch release
 
@@ -52,10 +53,10 @@ The release guild operates with the following SLA:
 
 1. To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
 2. Notify the release guild (#release-guild). One of the guild members will respond within 2 working days and confirm if the guild is
-able to perform the patch release.
+   able to perform the patch release.
    1. If the guild SLA is too long or otherwise insufficient, the patch requestor is free to notify the guild and perform the patch as long as the patch meets the overall requirements for a Sourcegraph patch.
-   We require that the guild still be notified about any patch requests to be aware of any patches that are currently in progress.
-> In most cases, waiting until the next [full release](#releases) is the best approach.
+      We require that the guild still be notified about any patch requests to be aware of any patches that are currently in progress.
+      > In most cases, waiting until the next [full release](#releases) is the best approach.
 
 #### Patch request process
 
@@ -65,7 +66,6 @@ will be:
 
 1. No significant disruption to the overall customer upgrade experience
 2. Enough internal experience in the release guild such that the guild can be a resource to help with patches (aiming for at least 1 more patch captain)
-
 
 ### Other
 
