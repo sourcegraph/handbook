@@ -1936,7 +1936,7 @@ rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
+  reports_to: director_engineering
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com

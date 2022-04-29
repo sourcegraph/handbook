@@ -1,21 +1,14 @@
-# Cloud Software-as-a-Service Team
+# IAM and Admin Experience Team
 
-The Cloud Software-as-a-Service (SaaS) Team is responsible for the **service management** part of the Sourcegraph Cloud product. The team provides both **customer-facing and internal capabilities that enable our customers to use the Sourcegraph Cloud product as a service**.
+Note: The IAM and Admin Experience team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
 
 ## Vision
 
-TBA. More can be found in our [Cloud Vision](../index.md#vision)
+The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-Our detailed Sourcegraph Cloud roadmap is currently internal-only until our public announcement later this year. Our Q4 OKRs are publicly available [here](../index.md#okrs-fy22q4).
-
-Beyond Q4, our goals over the next 12–24 months include:
-
-- Provide a delightful self-service onboarding and self-service payments capabilities for new developers and new teams to enable a true Software-as-a-Service experience for customers who prefer it
-- Provide in-depth administration capabilities to unlock adoption of Sourcegraph Cloud by large enterprises
-- Enable full multi-tenancy for Sourcegraph, both cloud and on-prem, providing additional security for customers who prefer it
-- Create a culture that focuses on launching and landing features by verifying user love of each new feature we release
+The Goals and Roadmap of the IAM is TBA.
 
 ## Areas of Ownership
 
@@ -59,7 +52,6 @@ Customer-facing and internal tools and features that provide transparency to how
 
 The list below contains features and services that already exist, and the IAM & Admin Exp team is responsible for keeping the light on them.
 
-- Sign up flow
 - User profile and settings
 - Post sign up and onboarding flow
 - User notifications
@@ -84,13 +76,6 @@ The Cloud SaaS team works alongside several other teams within the Cloud organiz
 ### Weekly team updates
 
 Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM & Admin Exp Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
-
-### Newsletter
-
-We are committed to sending a monthly newsletter to the entire Product and Engineering org summarising our progress towards current goals, challenges, opportunities, learning, and important team updates. You can find all the previous entries in the links below:
-
-- [2021.10.13 monthly update](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/3p0Pj2-RfVY?hl=en)
-- [2021.11.30 monthly update](https://groups.google.com/a/sourcegraph.com/g/engineering-team-status/c/Ro2YHUT1tEw?hl=en)
 
 ## How we work
 
@@ -127,10 +112,6 @@ Research is typically planned, organized, and executed by the product team.
 Anyone on the team can join a research session as an observer and notetaker. Observing and notetaking during user interviews and testing sessions is an amazing way to get a first-hand look at how others use our products and ideas, and your role as a notetaker is a huge help for the team.
 
 See "[So you’re about to help us with user testing](../../../product/process/user_research/user_research_observer.md)" to learn what to expect during user research sessions and how to take great notes.
-
-#### User research calendar
-
-We use a shared [Sourcegraph Cloud Research calendar](https://calendar.google.com/calendar/u/0?cid=Y185ZG9oYmJxOW5mYW50cDVva2t1dHBpMnJha0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to schedule and surface research activities. When new research sessions are scheduled, they will be automatically duplicated to the Cloud SaaS team calendar, and the Cloud SaaS team invited as attendees (note that attendance is always optional, but we haven’t found a way to reflect this in the automatic event).
 
 ### Working agreements
 
@@ -231,11 +212,11 @@ All team events and reminders should be added to the [team calendar](https://cal
 - Everyone (including engineers, EM, PM, PD) should set up a reliable way to receive pull request review notifications, examples are emails, Slack notifications (through GitHub Scheduled reminders). In some cases, direct pinging required reviewers could inform reviewers about the urgency and may help expedite receiving reviews.
 - Pull requests in the draft state indicate work in progress and not ready for review, while occasionally the author may ask for early feedback in explicit forms, examples are direct pings, mentioned on the pull requests.
 
-#### Definition of done (DoD)
+#### Definition of Done (DoD)
 
 TBD
 
-#### Definition of ready (DoR)
+#### Definition of Ready (DoR)
 
 TBD
 

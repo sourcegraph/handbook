@@ -95,7 +95,8 @@ iam_admin_experience:
   em: rafal_leszczynski
   pmm: alex_isken
   issue_labels:
-    - team/iam-admin-exp
+    - team/iam
+    - team/admin-exp
 
 devops:
   title: DevOps
