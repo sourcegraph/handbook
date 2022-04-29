@@ -22,7 +22,9 @@ Quicklinks:
 
 Sourcegraph is the leading code intelligence platform in the market, used by tens of thousands of developers across enterprises of all sizes. The engine powering the platform is Code Search, which has advanced, novel search capabilities such as [structural search](https://learn.sourcegraph.com/how-to-use-structural-search-in-sourcegraph) and [diff/commit search](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTI=).
 
-The Search Product team has the dual mission of increasing the value of the core platform by developing best-in-class capabilities for use by all product teams, and building differentiated products and features of its own.
+The Search Product team has a dual mission:
+- Increasing the value of the search as a platform for other teams to build upon (Code Insights, Batch Changes), with these other team's goals in mind.
+- Building differentiated user-facing products and features of its own.
 
 In addition to the core search experience, Search Product team's scope includes [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore). Today, all products and features in Search Product's scope are included in every Sourcegraph contract.
 
