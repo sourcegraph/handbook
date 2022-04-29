@@ -46,7 +46,7 @@ Over the past year, we’ve spent a significant amount of time cleaning up and i
 
 The primary goal of these efforts has been to push the backend to a state where it will be maintainable in the face of new features. This is an ongoing process, but we’ve gained significant ground.
 
-Q2's work will start to shift the focus of backend work from maintainability to capability and flexibility. This means thinking of “search” more as an API that we provide for internal consumers that exposes all the information needed to build features on top of it. Though search is an API, it's not yet flexible enough to solve all the use cases presented by, for example, Code Insights, and some other proposed user-facing query features. This work is important because it enables development of high-value roadmap items, and the ability to conceive of novel features that weren't possible before.
+In Q2, we will start to shift the focus of backend work from maintainability to capability and flexibility. This means thinking of “search” more as an API that we provide for internal consumers that exposes all the information needed to build features on top of it. Though search is an API, it's not yet flexible enough to solve all the use cases presented by, for example, Code Insights, and some other proposed user-facing query features. This work is important because it enables development of high-value roadmap items, and the ability to conceive of novel features that weren't possible before.
 
 #### Search UX
 
