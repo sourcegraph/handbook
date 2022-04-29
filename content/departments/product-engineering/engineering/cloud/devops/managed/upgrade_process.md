@@ -247,7 +247,7 @@ git add . && git commit -m "$CUSTOMER: restart $NEW_DEPLOYMENT"
 - Wait until the instance has fully started with the new versions:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep $NEW_VERSION#v"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${NEW_VERSION#v}"
 ```
 
 You'll receive errors or no results for several minutes while the instance finishes running the startup script.
@@ -255,7 +255,7 @@ You'll receive errors or no results for several minutes while the instance finis
 - Ensure that no containers with the wrong version are still running:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep $OLD_VERSION#v"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
 ```
 
 - Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
@@ -286,7 +286,7 @@ This might indicate that the instance is not fully set up yet—try again in a m
 
 ### 9) Switch the load balancer target
 
-Connect to the new instance using the SOCKS5 proxy and confirm you can access it and view the old version at https://company.sourcegraph.com/site-admin/updates.
+Connect to the new instance using the [SOCKS5 proxy](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/devops/managed/operations/#access-through-the-gcp-load-balancer-as-a-user-would) and confirm you can access it and view the old version at https://company.sourcegraph.com/site-admin/updates.
 Switch over the load balancer:
 
 ```sh
