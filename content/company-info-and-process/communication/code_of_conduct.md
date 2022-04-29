@@ -1,6 +1,6 @@
 # Code of conduct
 
-Last updated: April 20, 2022
+Last updated: April 29, 2022
 
 Related: see "[Diversity, equity, and inclusion](../diversity-equity-and-inclusion/index.md)"
 
@@ -284,13 +284,23 @@ We regularly implement and update procedures to prevent us from violating intern
 
 ## Raising concerns
 
-If you have a question or concern about a violation of the Code, speak up. Contact your manager, the People Team at people-ops@sourcegraph.com or jonathan.ayers@sourcegraph.com, or the Legal Team at legal@sourcegraph.com or tammy@sourcegraph.com. You can also use Slack, set up a meeting, or call them directly.
+If you have a question or concern about a violation of the Code, speak up. Please contact any of the below: 
 
-If you want to remain anonymous, you can report your observations, concerns, and any suspected violations through our 24/7 third-party hotline at (toll free, 24/7 accessible phone number pending) or (website pending). The third-party hotline will share your report with limited members of the People and Legal Teams so we can look into and respond to your concerns.
+* Your Manager 
+* The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) 
+* The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
+
+You can also use Slack, set up a meeting, or call them directly.
+
+**Please note:** if you escalate a concern through your Manager, they will need to share your concerns with limited members of the People Team or the Legal Team for proper investigation.
+
+You can expect an initial response to your report within 24-hours. Please keep in mind that if you make a report to an individual and they are out of working hours or on PTO, it may take longer for you to get a response. If you want a faster response, we recommend that you report to the People Team directly to ensure we address your report as quickly as possible.
+
+If you have a concern and would like to [remain anonymous](https://handbook.sourcegraph.com/company-info-and-process/communication/code_of_conduct/#confidentiality), please contact our 24/7 third-party helpline, Convercent. Convercent will anonymously share your report with limited members of the People Team and/or the Legal team so that we can look into and respond to your concerns. You can find more details on how to use Convercent [here](content/company-info-and-process/communication/convercent.md).
 
 ### Confidentiality
 
-We keep all reports confidential, except to the extent needed to investigate a report or to comply with laws.
+When you make a report, we make best efforts to keep your identity confidential, except to the extent needed to investigate a report or to comply with laws. If you are concerned about remaining anonymous, it is better to make an anonymous report through Convercent, than not to report at all.
 
 ### Investigation
 
