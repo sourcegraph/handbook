@@ -64,6 +64,8 @@ More about [pipeline run types](https://docs.sourcegraph.com/dev/background-info
 
 **Deploy**
 
+<!--  TODO: line 69: should we remove CloudSaas and keep just CLoudDevops? -->
+
 During the code freeze, [Renovate](#renovate) will be disabled on **YYYY-MM-dd 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge (requires approval from either [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md)) a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/YYYY-MM-dd` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
 Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds?branch=release).
@@ -81,9 +83,13 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
 1. Check out the `release` branch
 1. Create a new branch
 1. Run the `update-images.py` script using the image URL from step 3. For example:
+
    ```
    ./update-images.py index.docker.io/sourcegraph/gitserver:118059_2021-11-29_05fcc11@sha256:0c8a862e7977a830e2fa8a690ac243eea1255c150766a44b6c6c86df959d224f
    ```
+
+   <!--  TODO: line 93: should we remove CloudSaas and keep just CLoudDevops? -->
+
 1. Commit, push your changes and have them reviewed either by [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md)
 1. Once merged, the CD process will take over and deploy the image(s) you've updated
 
