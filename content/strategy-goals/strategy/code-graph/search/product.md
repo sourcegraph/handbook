@@ -35,7 +35,7 @@ We will also actively promote our experimental project, Compute, internally to S
 
 ## What's next and why
 
-Over the next quarter, Search Product will focus on foundational work in critical product areas and conduct research to inform an improved search experience.
+Over the next quarter, Search Product will focus on foundational work (generalizing the search backend to make it more powerful for internal consumers, and taking a fresh look at the core search UX) and conducting research to inform an improved search experience.
 
 ### Foundational work
 
