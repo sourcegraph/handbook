@@ -292,7 +292,7 @@ This might indicate that the instance is not fully set up yet—try again in a m
 
 ### 9) Switch the load balancer target
 
-Connect to the new instance using the [SOCKS5 proxy](operations/.md#access-through-the-gcp-load-balancer-as-a-user-would) and confirm you can access it and view the old version at https://company.sourcegraph.com/site-admin/updates.
+Connect to the new instance using the [SOCKS5 proxy](operations.md#access-through-the-gcp-load-balancer-as-a-user-would) and confirm you can access it and view the old version at https://company.sourcegraph.com/site-admin/updates.
 Switch over the load balancer:
 
 ```sh
