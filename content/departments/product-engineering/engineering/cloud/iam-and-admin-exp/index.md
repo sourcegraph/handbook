@@ -22,7 +22,7 @@ The Growth & Integration team also works on the [new user experience](../../../p
 
 #### Identity and access management
 
-We own both authentication and authorization to Sourcegraph, including login and sign-up flow and user management for on-prem and managed instances.
+We own both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
 
 Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
 
