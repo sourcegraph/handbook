@@ -59,7 +59,7 @@ Our research efforts will consist of establishing a baseline for UX issues by co
 
 Despite being research, there will be some delivery related to this work. We plan to release an incremental improvement to the logged-in homepage, refactor the search results UI components, and execute on technical work related to our migration off of the Monaco editor.
 
-We're also making a bet on natural language search, exploring how we might incorporate ML models to generate query suggestions from user input. This is an interesting approach because, rather than training a model to semantically classify code, we'll be training it to generate a valid Sourcegraph query from natural language input.
+We'll also start to explore usage of ML models to enable natural language search, whether through generating query suggestions from natural language, or directly building a natural language search backend. We'll evaluate both approaches, and spike out the work required to get them in front of users. We expect this to be a long-term effort, and as such we are not targeting actual integration into the Sourcegraph product this quarter.
 
 For example, if a user enters:
 
