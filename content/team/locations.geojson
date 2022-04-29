@@ -308,19 +308,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Elizabeth Stirling"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.3493,
-               47.6205
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Juliana Peña"
          },
          "geometry": {
@@ -341,19 +328,6 @@
             "coordinates": [
                -79.99589,
                40.44062
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Alex Russell-Saw"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -0.12574,
-               51.50853
             ]
          }
       },
@@ -581,19 +555,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Shaan Sheth"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -118.242766,
-               34.053691
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Owen Brennan"
          },
          "geometry": {
@@ -627,45 +588,6 @@
             "coordinates": [
                -122.420174,
                37.780079
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Quin Keough"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -112.074142,
-               33.448437
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Sarah Reecee"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -78.639099,
-               35.780398
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Tia Wucher"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -93.265469,
-               44.9773
             ]
          }
       },
@@ -763,32 +685,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "John Harwell"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -84.56686,
-               34.144132
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Christy Haragan"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               0.47103881835937494,
-               50.84323737103244
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Rebecca Dodd"
          },
          "geometry": {
@@ -825,22 +721,6 @@
             "coordinates": [
                -2.1917724609375,
                51.004681939880314
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "marker-color": "#7e7e7e",
-            "marker-size": "medium",
-            "marker-symbol": "",
-            "name": "Nate Tang"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -117.61731147766113,
-               33.438926308946805
             ]
          }
       },
@@ -912,19 +792,6 @@
             "coordinates": [
                -117.92734265327452,
                33.673845318635735
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Carl Hicks"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -77.036873,
-               38.907192
             ]
          }
       },
@@ -1113,19 +980,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Mary Belzer"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -104.99025,
-               39.739235
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Ryan Slade"
          },
          "geometry": {
@@ -1178,19 +1032,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Tamar Joyeux"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.402641,
-               45.585678
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Cesar Jimenez"
          },
          "geometry": {
@@ -1211,32 +1052,6 @@
             "coordinates": [
                -81.73553466796875,
                41.38299120166604
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "David Sandy"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -81.73553466796875,
-               41.38299120166604
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Erika Heidi"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               4.3007,
-               52.070499
             ]
          }
       },
