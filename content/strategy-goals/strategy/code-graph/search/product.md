@@ -29,6 +29,12 @@ The Search Product team has a dual mission:
 
 In addition to the core search experience, the Search Product team's scope includes [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore). Today, all products and features in Search Product's scope are included in every Sourcegraph contract.
 
+Over the past year, we’ve spent a significant amount of time cleaning up and improving the search backend. These efforts include, but are not limited to:
+
+- Implementing streaming across backends to minimize latency and memory usage
+- Partitioning search code into different domains and stages to manage complexity
+- Simplifying and unifying search result types
+
 Having just launched [Notebooks](https://docs.sourcegraph.com/notebooks) at the end of Q1, we anticipate to actively engage with new customers who purchased Sourcegraph because of them. We plan to take advantage of customer enthusiasm to create tight feedback loops between them and the team.
 
 We will also actively promote our experimental project, Compute, internally to Sales and Marketing and partner with them to engage with customers and get early product direction from the market.
@@ -42,12 +48,6 @@ Over the next quarter, Search Product will focus on foundational work (generaliz
 Our planned foundational work falls broadly into two buckets: generalizing the search backend to make it more usable and powerful for internal consumers, and taking a fresh look at the core search UX.
 
 #### Search backend
-
-Over the past year, we’ve spent a significant amount of time cleaning up and improving the search backend. These efforts include, but are not limited to:
-
-- Implementing streaming across backends to minimize latency and memory usage
-- Partitioning search code into different domains and stages to manage complexity
-- Simplifying and unifying search result types
 
 The primary goal of these efforts has been to push the backend to a state where it will be maintainable in the face of new features. This is an ongoing process, but we’ve gained significant ground.
 
