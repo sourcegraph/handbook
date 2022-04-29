@@ -284,11 +284,11 @@ We regularly implement and update procedures to prevent us from violating intern
 
 ## Raising concerns
 
-If you have a question or concern about a violation of the Code, please directly contact any of the below teammates via Slack, an email, a meeting, or a phone call. We will do our best to respond to you immediately to confirm receipt, no later than 24 hours after you submit your question or concern. 
+If you have a question or concern about a violation of the Code, please directly contact any of the below teammates via Slack, an email, a meeting, or a phone call. We will do our best to respond to you immediately to confirm receipt, no later than 24 hours after you submit your question or concern.
 
-* Your Manager 
-* The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) 
-* The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
+- Your Manager
+- The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
+- The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
 
 Please keep in mind that if you make a report to an individual and they are out of working hours or on PTO, it may take longer for you to get a response. In these cases, if you want a faster response, we recommend that you report to the People Team directly to ensure we address your report as quickly as possible.
 
