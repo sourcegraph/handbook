@@ -8,7 +8,7 @@ You can raise your concerns directly with the People Team at [people-ops@sourceg
 
 Our People Partners are here to help you work through changes, issues, and concerns. Their purpose is to provide all Sourcegraph teammates an avenue to express workplace concerns and to resolve conflicts in a safe and unbiased forum, without fear of retaliation.
 
-If you feel another channel is more appropriate, you can also Slack, e-mail, or call:
+If you feel another channel is more appropriate, you can also Slack, e-mail, set up a meeting with, or call:
 
 - Your manager
 - The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
