@@ -19,7 +19,7 @@ With MAUs being removed as a top-level goal, nothing changes for product-led gro
 
 - Shift focus towards high quality users (those who are likely to convert to revenue)
 - Improve our design and messaging towards properly educating users on the problems Sourcegraph solves and the value it provides to them (orient around use cases), and guide them to the deployment option that is right for them
-- Continue to build out virality and monetization capabilities (Cloud SaaS team)
+- Continue to build out virality and monetization capabilities
 - Continue to improve on the complete user experience through product enhancements, onboarding, email marketing, etc on both self-hosted and cloud
 
 ## The Flywheel
@@ -80,7 +80,7 @@ In most mature organizations, typically only those inbound leads formally meetin
    </td>
   </tr>
   <tr>
-    <td>In-product trial request 
+    <td>In-product trial request
    </td>
    <td>15 points
    </td>
@@ -330,10 +330,6 @@ Growth:
 
 - [Product-Led Growth for Cloud](https://docs.google.com/document/u/0/d/1dAqjVUV8p6I-T1epDdUjNzOsFocFg9ZJVik941ISvGw/edit)
 - [If we had a growth team one pager](https://docs.google.com/document/u/0/d/1lz0qBKs753Ytt9SHl17EM0CK_VUnVMAcSZMDef5Tl00/edit)
-
-Cloud SaaS:
-
-- [Sourcegraph SaaS Vision](https://docs.google.com/presentation/u/0/d/1c5ByMM9dLZZF0oi6i9Hnshvo8S4xbHIqLCUOP9tjQyc/edit)
 
 Growth and Integrations:
 

@@ -2,7 +2,6 @@
 
 This directory contains strategy documents for all teams within the Cloud org:
 
-- [Cloud SaaS](cloud-saas/index.md)
 - [IAM and Admin Experience](IAM-Admin/index.md)
 - [Integrations](integrations/index.md)
 - [Growth](growth-team/index.md)
