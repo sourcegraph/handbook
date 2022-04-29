@@ -1,6 +1,6 @@
 # Code of conduct
 
-Last updated: April 20, 2022
+Last updated: April 29, 2022
 
 Related: see "[Diversity, equity, and inclusion](../diversity-equity-and-inclusion/index.md)"
 
@@ -282,15 +282,21 @@ You must comply with export controls, economic sanctions, and other restrictions
 
 We regularly implement and update procedures to prevent us from violating international trade restrictions, but if you notice or suspect a violation, raise it to the Legal Team.
 
-## Raising concerns
+### **Raising Concerns**
 
-If you have a question or concern about a violation of the Code, speak up. Contact your manager, the People Team at people-ops@sourcegraph.com or jonathan.ayers@sourcegraph.com, or the Legal Team at legal@sourcegraph.com or tammy@sourcegraph.com. You can also use Slack, set up a meeting, or call them directly.
+If you have a question or concern about a violation of the Code, please directly contact any of the below teammates via Slack, an email, a meeting, or a phone call. We will do our best to respond to you immediately to confirm receipt, no later than 24 hours after you submit your question or concern.  
 
-If you want to remain anonymous, you can report your observations, concerns, and any suspected violations through our 24/7 third-party hotline at (toll free, 24/7 accessible phone number pending) or (website pending). The third-party hotline will share your report with limited members of the People and Legal Teams so we can look into and respond to your concerns.
+* Your Manager 
+* The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) 
+* The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
 
-### Confidentiality
+Please keep in mind that if you make a report to an individual and they are out of working hours or on PTO, it may take longer for you to get a response. In these cases, if you want a faster response, we recommend that you report to the People Team directly to ensure we address your report as quickly as possible.
 
-We keep all reports confidential, except to the extent needed to investigate a report or to comply with laws.
+If you have a concern and would like to remain confidential, please contact our 24/7 third-party helpline, Convercent. Convercent will anonymously share your report with limited members of the People Team and/or the Legal team so that we can look into and respond to your concerns. You can find more details on how to escalate your concerns here: [Raising concerns escalation process](../../communication/raising-concerns-escalation-process.md)
+
+#### **Confidentiality**
+
+When you make a report, we make best efforts to keep your identity confidential, except to the extent needed to investigate a report or to comply with laws. If you are concerned about remaining anonymous, it is better to make an anonymous report through Convercent, than not to report at all.
 
 ### Investigation
 
