@@ -20,7 +20,7 @@ Quicklinks:
 
 ## Where we are now
 
-Sourcegraph is the leading code intelligence platform in the market, used by tens of thousands of developers across enterprises of all sizes. The engine powering the platform is Code Search, which has advanced, novel search capabilities, such as [structural search](https://learn.sourcegraph.com/how-to-use-structural-search-in-sourcegraph) and [diff/commit search](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTI=).
+Sourcegraph is the leading code intelligence platform in the market, used by tens of thousands of developers across enterprises of all sizes. The engine powering the platform is Code Search, which has advanced, novel search capabilities such as [structural search](https://learn.sourcegraph.com/how-to-use-structural-search-in-sourcegraph) and [diff/commit search](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTI=).
 
 The Search Product team has the dual mission of increasing the value of the core platform by developing best-in-class capabilities for use by all product teams, and building differentiated products and features of its own.
 
