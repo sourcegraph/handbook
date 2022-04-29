@@ -284,11 +284,11 @@ We regularly implement and update procedures to prevent us from violating intern
 
 ## Raising concerns
 
-If you have a question or concern about a violation of the Code, speak up. Please contact any of the below: 
+If you have a question or concern about a violation of the Code, speak up. Please contact any of the below:
 
-* Your Manager 
-* The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) 
-* The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
+- Your Manager
+- The People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)
+- The Legal Team at [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or [tammy@sourcegraph.com](mailto:tammy@sourcegraph.com)
 
 You can also use Slack, set up a meeting, or call them directly.
 
