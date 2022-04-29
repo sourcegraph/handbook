@@ -11,7 +11,7 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
-- [SLAs for managed instances](#slas-for-managed-instaces)
+- [SLAs for managed instances](#slas-for-managed-instances)
 - [Creating a managed instance](creation_process.md)
 - [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
@@ -45,7 +45,9 @@ Customer Engineers (CE) or Sales may request to:
 ### Workflow
 
 1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
-2.  If approved, then CE submits a request to the Delivery team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
+    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
 3.  Message the team in [#cloud-devops].
 
 ## SLAs for managed instances

@@ -49,6 +49,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Resume Deep Dive](process/types_of_interviews.md#resume-deep-dive)
   - [Scheduling an interview](process/interview_process.md)
   - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
+  - [Interview scenarios & escalation process](process/scenarios_and_escalation_process.md)
 - [How to extend an offer](process/extending_an_offer.md)
   - [Reference checks](process/extending_an_offer.md#offer-stage)
   - [Offer approval process](process/extending_an_offer.md)
@@ -76,6 +77,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
   - [Values interview](process/evaluating_values.md)
   - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
+  - [Interview scenarios & escalation process](process/scenarios_and_escalation_process.md)
 - [Recruiting Tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
@@ -115,6 +117,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Onboarding process](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding via PEO](process/after_the_offer.md#onboarding-process-for-peo-hires)
   - [Changing start dates](process/after_the_offer.md#changing-a-new-hires-start-date)
+  - [Actioning a Revoked Offer](process/after_the_offer.md#actioning-a-revoked-offer)
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
@@ -125,6 +128,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 - [Internship Program](internship-program.md)
+- [Internship Recruiting and Offer Processes](process/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
 ## Talent Team Members
 

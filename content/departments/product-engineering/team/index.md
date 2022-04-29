@@ -3,7 +3,6 @@
 ## Members
 
 - [Beyang Liu](../../../team/index.md#beyang-liu), CTO
-  - [Erin Laio](../../../team/index.md#erin-laio), Executive Business Partner
   - [Christina Forney](../../../team/index.md#christina-forney), VP Product
     - [Anna Mikhova](../../../team/index.md#anna-mikhova), Director of Product - Cloud
     - [Serina Clark](../../../team/index.md#serina-clark), Director of Product - Enablement

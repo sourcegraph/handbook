@@ -1,68 +1,57 @@
 # Enablement strategy
 
-The Enablement organization comprises teams working on the technical foundations for developing our product. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual strategy page that describes what they are working on and why in more detail. Our strategy home page details our strategies as well as indexes individual team strategy pages.
+The [Enablement organization](../../../departments/product-engineering/engineering/enablement/index.md) teams work on the technical foundation for developing our product and supporting digital assets. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual strategy page that describes what they are working on and why in more detail.
 
 ## Mission
 
-Our mission is to provide the right technical foundations critical to the success of our customers and product development. We do this by ensuring we have the best tools, processes, and services in place, for use by both customers and our own engineers.
+Our mission is to provide the right technical foundations to enable the successful development and support of our product and websites. We do this by ensuring we have the right tools, processes, and services that Sourcegraph’s engineers (software, application, and customer engineers) easily understand and use.
+
+We also support Marketing, Sales, and all Sourcegraph employees that contribute to our handbook, docs, and website continuously improving our technical solutions so that team members can self-serve on these platforms.
 
 ## Vision
 
-### One year vision
+Our one-year vision states that we want to reduce friction through better processes and tooling such that Sourcegraph’s teammates can provide greater value to our customers more reliably and with improved quality.
 
-> Reduced friction through better processes and tooling, such that both Sourcegraph engineers and Sourcegraph users are able to provide greater value to our customers more reliably and with improved quality.
+Realizing this vision is vital in enabling other teams at Sourcegraph to deliver on our Product/Engineering strategy for FY23.
 
-### Three year vision
+More recently, issues with supporting enterprise customers and providing value to them faster have highlighted opportunities to provide our teams with better tools, processes, and services.
 
-> A frictionless experience developing and utilizing Sourcegraph, such that we can iterate on and release more product value rapidly, in turn enabling customers to experience the value Sourcegraph offers effortlessly.
+Through our efforts we expect the following to be true at the end of FY23
 
-### Ten year vision
+- The Sourcegraph application, its runtime environment, and build and deploy pipelines are all highly observable.
+- Our CI pipeline is fast and consistent.
+- Our software testing processes inspire confidence in our engineers when shipping code.
+- Our code authoring and review processes ensures we raise the bar for shipping high quality code.
+- Our codebase and development tooling is more consistent and well understood, reducing ramp up time and increasing productivity of our engineers.
+- Our codebase is easy to onboard, easy to navigate, and reflects the boundaries of general work streams.
+- Sourcegraph teammate can easily contribute to our website through our content management system
 
-> Sourcegraph is a thought leader in developing and delivering developer tooling, whether SaaS or self-hosted, and we are regularly copied or consulted to advise on our best practices for rapidly shipping easily accessible and high-value products.
+## Strategy
 
-## Focus Areas
+To achieve our vision of FY23 we will undertake initiatives across the themes listed below.
 
-We are focused on several themes to help make our one-year vision a reality. They are not listed in priority order, as we are pursuing all of them. To see how these play into what any particular product team is delivering, take a look at the individual team strategy pages, as indexed on our [strategy home page](../index.md#enablement)
+With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and and understanding what the data tells us from each of these initiatives to ensure we don’t just blindly follow our roadmap, but treat each initiative as a decision point to re-evaluate the path forward.
 
-### Make it easier to contribute to our frontend codebase
+### Developer Productivity & Happiness
 
-Developing a component system leads to a consistent user experience, faster delivery, and more inclusive design. To ensure better adoption and customer satisfaction with our product we are also focused on improving page rendering performance and perceived performance when a user interacts with the application.
+One of the keys to reliably pushing code into the wild is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
+Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standarde our test tooling and measure and monitor test effectiveness.
 
-- FY22Q4 Key Result - All reusable components from the [Wildcard Sticker Sheet](https://www.figma.com/file/NIsN34NH7lPu04olBzddTw/?node-id=908%3A0) are implemented and documented. At the beginning of FY22Q4 there were 12 components implemented.
-- FY22Q4 Key Result - Our developers confirm a high productivity rating (4+ average) when using the Wildcard component library. There is no baseline today.
+### Observability improvements
 
-### Reduce friction in deployment and upgrade
+Enable our engineers (software, application, and customer engineers) to answer arbitrary questions about a specific Sourcegraph instance without having to know ahead of time what they would need to ask. We need to ensure that our application is built deliberately with rich instrumentation providing clear insight into the running of the application. Customers will also be able to leverage this telementry for their own trouble shooting.
 
-Enable Sourcegraph customers and prospects to easily access the value our product provides without experiencing friction during the install & upgrade process. Ensure Sourcegraph can be run by any user with a standard engineering background at scale and with ease. Set clear expectations with customers / prospects on the environment requirements necessary to manage Sourcegraph at the scale they seek.
-
-- FY22Q4 Key Result - 3 customers have validated an automated deployment method within a production quality environment in less than 8 hours of technical effort
-
-### Enrich education and documentation systems
-
-Our company, as well as our user base, is growing rapidly. We want to see all people in our ecosystem succeed, and to do so, we need enriched education and documentation systems.
-
-- FY22Q4 Key Result - Time to 10th pull request(TT10PR) merged by new engineers in sourcegraph/sourcegraph is less than 30 days. There is no baseline today.
-- FY22Q4 Key Result - Increase the number of click-throughs on the Handbook search results to 90%. Today the click-through rate on search results is roughly 25%
-
-### Improve our continuous integration pipeline
-
-When our CI pipeline breaks we need clear indications and rich observability of what is causing the failures so that we can quickly take action on resolving the issues.
-
-- FY22Q4 Key Result - Main branch is red for less than 1h per day for sourcegraph/sourcegraph.
-
-### Strengthen support of code management systems
-
-As we broaden our reach, prospects and customers look to us to support a large variety of source code management (SCM) systems, in a way that is robust and scalable. We want to provide our user base the means to simply, easily, and reliably connect to all common SCMs.
-
-### Improve the reliablity and performance of our code host connections and code storage
+### Enhanced User Experience
 
 Code host connectivity, scalability, and reliability underpin all other features within Sourcegraph. We need to ensure Sourcegraph can handle the size and quantity of repositories that future customers own and ensure we can meet any performance requirements customers have that impact code host connections and code storage.
 
-- FY22Q4 Key Result - Key customer gets to a technical win in Q4
+### Accessibility
+
+Today, the Sourcegraph web application does not comply with current WCAG guidelines. Ensuring our web application becomes--and stays--compliant is essential not just because we have current contractual obligations to do so, but also because: 1) We believe in the value of making our application compliant in furthering our mission 2) Compliance be a requirement of future clients and can be a unique selling point.
 
 ## Team specific pages
 
 - [Repo Management](../../../departments/product-engineering/engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
 - [Dev Experience](../../../departments/product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
 - [Frontend Platform](../../../departments/product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
-- [Contennt Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)
+- [Content Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)

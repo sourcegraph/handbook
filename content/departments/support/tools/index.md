@@ -11,7 +11,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 - Google calendar is for your calendar, as well as shared calendars (like the CS team calendar).
 - Asana is for our project tracking as a team
 - Gsuite is for drafts, slide decks, and spreadsheets.
-- Lattice is to facilitate our for our twice yearly [review cycles](../../people-ops/process/impact-reviews.md).
+- Lattice is to facilitate our twice yearly [review cycles](../../people-ops/process/impact-reviews.md).
 - Greenhouse is for hiring.
 - Grammarly and Hemingwayapp help us say what we intend.
 - Otter.ai makes it easier for everyone to follow along during Zoom calls.
@@ -29,7 +29,7 @@ When you first start in support, the list of tools to set-up can feel like a lot
 
 ## sourcegraph.com admin access
 
-In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Giselle, Stompy, and/or Warren. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of the team has admin access to sourcegraph.com. If you need to help a customer and it requires such access, post in our #customer-support-internal Slack channel and @ mention Stompy and/or Warren. One of them can help!
 
 ## Managed instance access
 

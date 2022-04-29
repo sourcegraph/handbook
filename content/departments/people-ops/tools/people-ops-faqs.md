@@ -74,7 +74,7 @@ This page is meant as a resource to find answers to questions frequently asked b
   - **Velocity:**
     - No, your expense report reimbursements are processed separately from your paycheck.
 
-### Q. When and where do I get my Expensify invite? (US and Velocity Global teammates)
+### Q. When and where do I get my Expensify invite? (Velocity Global teammates)
 
 **US and Velocity Global teammates:**
 

@@ -40,6 +40,7 @@ This team is responsible for
 - [How to use preprod aka staging](preprod.md)
 - [Persistent disk backup schedule](persistent-disk-backup-schedule.md)
 - [Silencing Alerts](silencing-alerts.md)
+- [Cloud Postgres](cloud-postgres.md)
 
 ## How to contact the team and ask for help
 

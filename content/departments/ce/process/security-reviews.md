@@ -95,3 +95,7 @@ The Customer Engineering organization leverages Google Sheets to track all of th
 </table>
 
 CE Security SMEs will periodically review the data and the results of this data collection will be shared with CE Leadership and Security Team leadership. CE Security SMEs will produce and share a report with the appropriate teams going forward on a quarterly basis, covering the prior quarter’s data.
+
+## Sharing Evidence of Attestations or Certifications
+
+When a customer, prospect or business partner requests evidence of our attestations or certification the CE will check if an NDA has been signed with the requesting party. If no NDA is in place the CE will reach out to Sourcegraph’s legal team via their slack channel #legal and obtain the appropriate NDA template (Please do not share the attestation or certification reports without an NDA in place as they hold sensitive information about Sourcegraph). Once the NDA is signed, the CE will make an entry into the [dissamination tracker](https://docs.google.com/spreadsheets/d/1nAC1zg3W8hy39gn2C4PLFXMpNbe72_7g3-zZYjD3Mnk/edit#gid=0) providing all the necessary information. Subsequently, a copy of the attestation or certification (which can be found [here](https://drive.google.com/drive/folders/1QGw5vJphiRgcY2-nufd_723e-z_0RwYf)) can be shared with the requestor.

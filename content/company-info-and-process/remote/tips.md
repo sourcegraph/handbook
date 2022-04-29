@@ -5,7 +5,7 @@ Welcome to our growing distributed team! We're excited to have you along for the
 ## Home office and desk setup
 
 - **Separate work and home:** Try working in a separate space to where you relax/sleep - Keegan and Loic
-- **Ergonomics are key:** Consider getting an ergo friendly chair and standing desk – Julia and Christina
+- **Ergonomics are key:** Consider getting an ergo friendly chair and standing desk – Christina
 - **Change the scenery:** Try working "offsite" at a coffee shop, library, or friend's house once a week - Loic
 - **Get a loud keyboard:** You can use a loud keyboard, unlike in an office environment - Keegan
 
