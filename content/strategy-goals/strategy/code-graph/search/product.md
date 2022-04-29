@@ -50,7 +50,7 @@ Q2's work will start to shift the focus of backend work from maintainability to 
 
 #### Search UX
 
-In light of new search capabilities, we believe there's a big opportunity to create an outstanding search experience, which is vital to Sourcegraph's continued dominance in the code search market.
+Our search language, capabilities and interface have evolved a lot over the past year, as we introduced search predicates, Compute, the search reference, among others. Following these evolutions, we want to take a holistic look at our core search experience. Ensuring our core search experience is high-quality, cohesive and intuitive is vital to Sourcegraph's continued dominance in the code search market.
 
 This foundational work will have design and technical components. Design will focus on digesting user feedback, conducting user research, and iterating on UI and UX solutions. Engineering will focus on enabling and collaborating with design to determine the execution path, specify a development roadmap, and start development.
 
