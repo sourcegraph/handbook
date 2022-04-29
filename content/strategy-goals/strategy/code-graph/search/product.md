@@ -10,7 +10,7 @@ Quicklinks:
 - [Search Product backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-product/)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+product%22)
 
-## Goals
+## Guiding principles
 
 - Continue to differentiate the core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search
 
