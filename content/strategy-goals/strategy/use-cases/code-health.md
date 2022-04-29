@@ -56,7 +56,6 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Tie to higher retainment of engineers when they work in healthy code environments
 - Increased productivity, quicker builds
 
-
 ## Competitive positioning
 
 As we position on the code health and [fixing security vulnerabilities](fixing-security-vulnerabilities.md) use cases, static analysis products such as Sonarqube and semgrep come up in customer conversations. The expressivity of structural search coupled with Batch Changes, for example, is a powerful approach to find and fix a code smell or vulnerability, which is also something static analysis is good at. So **what is the role of search vs static analysis** for those use cases? Each has their own merit and areas of use:
