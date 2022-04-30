@@ -59,8 +59,8 @@ Use for changes to commission (variable pay) only. Use cases include: market (co
 
 Use for changes impacting role only. Use cases include: title changes, manager changes, department changes. When filling out the form, you only need to edit the field(s) that need updating, you can leave other fields as is.
 
-| **Form field: Role**                | **How to fill out**                                                                                                                                                                         
-| ----------------------------------- | ------------------------------------|
+| **Form field: Role**                | **How to fill out**                                                                                                                                                                          |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 | **Effective Date**                  | The effective date should reflect the date that the role change is taking effect.                                                                                                            |
 | **Location**                        | Remote                                                                                                                                                                                       |
 | **Department**                      | Select new department (if applicable)                                                                                                                                                        |
