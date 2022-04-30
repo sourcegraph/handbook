@@ -15,7 +15,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
-- [Unofficial product sales metrics definitions](unofficial_product_sales_metrics_definitions) - how we unofficially talk about per-product sales metrics until we have more standardized reporting.
+- [Unofficial product sales metrics definitions](unofficial_product_sales_metrics_definitions.md) - how we unofficially talk about per-product sales metrics until we have more standardized reporting.
 
 ## Product data
 
