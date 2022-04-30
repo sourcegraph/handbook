@@ -131,9 +131,9 @@ If you would like to upgrade to the new M1 Pro but you have had your current lap
 - **Cell phone plan:** $75/month
 - **Wellness:** $100/month
 
-**Co-working/office space:** $300–500/month for renting your space, including parking up to $20 per day while you are working from your designated co-working space.
+**Co-working/office space:** up to $500/month for renting your space.
 
-This budget also includes public transportation and rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included. When submitting for transportation reimbursement for coworking space a **receipt must be included regardless of amount**.
+This budget also includes parking, public transportation, and/or rideshare to and from co-working spaces up to $20 per day. Gas reimbursement is not included. When submitting for transportation reimbursement for coworking space a **receipt must be included regardless of amount**.
 
 You will not need permission for choosing which co-working space you’d like to sign up for. We trust that you will pick a co-working space which both benefits you and is within budgetary reason. Our only recommendation is that you pick a co-working space on a _day-to-day drop in basis_ or a _month-to-month basis_ for ease of monthly reimbursement.
 
@@ -142,10 +142,10 @@ The Company will not cover the cost of a co-working space deposit or sign for co
 > Note: This budget is meant to be an average cost of co-working spaces,
 > and serves as a recommendation. It should be dependent on the average
 > cost of co-working spaces in your particular geo-location. If your
-> co-working space is more than $500 USD, please get approval from People Ops
+> co-working space is more than $500 USD, please get approval from the People Team
 > and Finance via email.
 
-**Education and professional development (conferences, courses):** $1000 USD/year (if your professional development conference, event, or purchase exceeds this amount, simply notify People Ops & Finance via email with the anticipated cost to obtain approval). If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance, but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval prior to booking.
+**Education and professional development (conferences, courses):** $1,000 USD/year (if your professional development conference, event, or purchase exceeds this amount, simply notify People Ops & Finance via email with the anticipated cost to obtain approval). If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance, but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval prior to booking.
 
 **Moving (moving, packing, shipping, etc.):** $1000/year
 
