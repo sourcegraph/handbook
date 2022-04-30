@@ -120,7 +120,7 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 - [How we structure compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
   - [How to create an offer](../talent/process/index.md#making-an-offer)
   - [Equity and stock options FAQ](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
-  - [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+  - [Compensation change approvals](process/compensation-role-changes.md)
 - [Benefits and perks we offer](../../benefits-pay-perks/benefits-perks/index.md)
 - [Guidelines for travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
 - [Paid time off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
@@ -146,6 +146,6 @@ This section currently includes resources that were specifically created to help
 
 - [Manager accounts guide](tools/manager-guide.md)
 
-- [Compensation change approvals](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+- [Compensation change approvals](process/compensation-role-changes.md)
 - [How to notify People Ops of an org and role change section](tools/manager-guide.md#managing-a-role-change)
 - [Tools overview](tools/index.md)
