@@ -44,7 +44,7 @@ rbac:
   category: Application Architecture
   title: RBAC
   product_org: cloud
-  product_team: iam-and-admin-exp
+  product_team: iam_and_admin_exp
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
@@ -155,7 +155,7 @@ admin_experience:
   title: Admin Experience
   type: Product
   product_org: cloud
-  product_team: iam-and-admin-exp
+  product_team: iam_and_admin_exp
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
@@ -647,7 +647,7 @@ usage_reporting_entitlements:
   title: Usage reporting / entitlements limits
   type: Product
   product_org: cloud
-  product_team: iam-and-admin-exp
+  product_team: iam_and_admin_exp
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction

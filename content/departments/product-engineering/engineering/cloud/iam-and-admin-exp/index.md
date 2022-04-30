@@ -54,7 +54,7 @@ For a detailed list of features and services owned by the IAM and Admin Exp team
 
 ## Team
 
-{{generator:product_team.cloud_saas}}
+{{generator:product_team.iam_and_admin_exp}}
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 
@@ -95,7 +95,7 @@ We are using [Jira](https://www.atlassian.com/software/jira) as our project trac
 - We use [components](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/components) to track different service or engineering ownership areas. This for example, helps us understand what the cost of operations with each area we own is.
 - To track GitHub PRs automatically in JIRA, use the JIRA ticket number anywhere in the branch name. So for example, if the ticket number is `CLOUD-42` and you name your branch `the-answer-to-everything-CLOUD-42`, the resulting PR from this branch will automatically be associated with the JIRA ticket. The same goes for commits and PRs - all will be linked to a Jira issue as long as you keep the issue id within the commit message or PR title.
 - We use [Agile Poker](https://confluence.spartez-software.com/display/JPP/Agile+Poker+for+Jira+Cloud) addon for [groomings and estimation sessions which we run asynchronously](#groomings).
-- You can use Jira issue ID (exp. `CLOUD-123`) within the messages on the [#cloud-saas-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) Slack channel to automatically create a link to Jira issue. We are also pushing all status changes to our Jira project to [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) Slack channel.
+- You can use Jira issue ID (exp. `CLOUD-123`) within the messages on the [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) Slack channel to automatically create a link to Jira issue. We are also pushing all status changes to our Jira project to [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) Slack channel.
 
 ### User research
 
@@ -123,7 +123,7 @@ We are a globally distributed team with 16+ hours of time zone difference. Async
 
 ###### Slack
 
-While the team is following [multiple Slack channels](#team-slack-channels), [#cloud-saas-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, Jira, Handbook, Google docs, etc.) and reference them on Slack via links. It’s worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
+While the team is following [multiple Slack channels](#team-slack-channels), [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, Jira, Handbook, Google docs, etc.) and reference them on Slack via links. It’s worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
 
 ###### Jira
 
@@ -200,7 +200,7 @@ The "grooming" label is used for marking tickets to be included in the upcoming 
 
 All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com&ctz=Europe%2FWarsaw). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
 
-- Please add `cloud-saas-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
+- Please add `iam-and-admin-exp-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
 - For reminders, you don’t need to add participants
 
 #### Making pull requests and asking for code reviews
@@ -224,7 +224,6 @@ TBD
 
 - [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Exp team for all day to day communication within the team
 - [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Exp team where other Sourcegraphers can ask for help or leave questions for the team
-<!-- TODO: slack channel name needs to be updated  first-- will this maybe break  the integration with JIRA?  -->
 - [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with IAM and Admin Exp Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
 - [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization
 - [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.

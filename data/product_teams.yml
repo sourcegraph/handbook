@@ -86,7 +86,7 @@ growth:
   issue_labels:
     - team/growth
 
-iam_admin_experience:
+iam_and_admin_exp:
   title: IAM and Admin Experience
   product_org: cloud
   strategy_link: /strategy-goals/strategy/cloud/iam-admin/index.md
