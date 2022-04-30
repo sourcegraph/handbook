@@ -55,7 +55,7 @@ Use for changes to commission (variable pay) only. Use cases include: market (co
 | **Commission Comments**          | Elaborate on reason for commission increase                                                                                                                                   |
 | **Comment for the Approver(s)**  | Include any additional notes for Finance/People Ops, if any                                                                                                                   |
 
-## Requesting a role change
+## Requesting a role change (role changes only)
 
 Use for changes impacting role only. Use cases include: title changes, manager changes, department changes. When filling out the form, you only need to edit the field(s) that need updating, you can leave other fields as is.
 
