@@ -73,8 +73,8 @@ Use for changes impacting role only. Use cases include: title changes, manager c
 
 ## Requesting a promotion
 
-Use for promotions only– promotions include changes impacting compensation and role. When filling out the form, you only need to edit the field(s) that need updating, you can leave other fields as is.
-**Promotion workflow** \_(combination of cash + commission + equity + role change workflows).
+Use for promotions only– promotions include changes impacting compensation _and_ role. When filling out the form, you only need to edit the field(s) that need updating, you can leave other fields as is.
+**Promotion workflow** _(combination of cash + commission + equity + role change workflows)_.
 
 - The promotion workflow in BambooHR is a single workflow combining the 4 workflows outlined above into a single one for convenience.
 - You only need to edit the field(s) that need updating, you can leave other fields that are not applicable as is or leave them blank.
