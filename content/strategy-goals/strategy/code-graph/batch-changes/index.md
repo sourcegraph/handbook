@@ -75,7 +75,7 @@ The key [success metric](../../../../departments/product-engineering/engineering
 
 Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **code rewrite steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to Batch Changes.
 
-We want to decrease time to value and make it easier for any developer to get value out of Batch Changes for a use case. We will measure success here by tracking:
+We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We will measure success here by tracking:
 
 - time to value ([#32664](https://github.com/sourcegraph/sourcegraph/issues/32664))
 - the batch changes success rate (number of batch changes that get applied / number of batch changes that stay in preview)
