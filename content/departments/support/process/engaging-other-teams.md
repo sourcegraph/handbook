@@ -136,7 +136,7 @@ Any questions about Sourcegraph cloud should be routed to the [Cloud organizatio
 
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM and Admin Exp team](../../product-engineering/engineering/cloud/iam-and-admin-exp/index.md) via the [#iam-and-admin-exp slack channel]().
+Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM and Admin Exp team](../../product-engineering/engineering/cloud/iam-and-admin-exp/index.md) via the [#iam-and-admin-exp slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
 
 ### Code Insights
 

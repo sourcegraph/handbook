@@ -223,7 +223,7 @@ TBD
 ### Team slack channels
 
 - [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Exp team for all day to day communication within the team
-- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C025BKWFPDY) - external channel for IAM and Admin Exp team where other Sourcegraphers can ask for help or leave questions for the team
+- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Exp team where other Sourcegraphers can ask for help or leave questions for the team
 <!-- TODO: slack channel name needs to be updated  first-- will this maybe break  the integration with JIRA?  -->
 - [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with IAM and Admin Exp Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
 - [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization
