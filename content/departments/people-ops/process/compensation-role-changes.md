@@ -59,17 +59,17 @@ Use for changes to commission (variable pay) only. Use cases include: market (co
 
 Use for changes impacting role only. Use cases include: title changes, manager changes, department changes. When filling out the form, you only need to edit the field(s) that need updating, you can leave other fields as is.
 
-| **Form field: Role**                | **How to fill out**                                                                                                                                                                          |
-| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| **Effective Date**                  | The effective date should reflect the date that the role change is taking effect.                                                                                                            |
-| **Location**                        | Remote                                                                                                                                                                                       |
-| **Department**                      | Select new department (if applicable)                                                                                                                                                        |
-| **Division**                        | Select new division/“team” (if applicable)                                                                                                                                                   |
-| **Job Title**                       | Select new title (if applicable). If the title you’re looking for isn’t available in the dropdown, please reach out to people-ops@sourcegraph.com or @people-team in Slack to have it added. |     |
-| **Reports To**                      | Select new manager (if applicable)                                                                                                                                                           |
-| **People Manager**                  | Select “Yes” if this person will be a People Manager or “No” if they will not be a People Manager.                                                                                           |
-| **Compensation Category and Level** | Select category and level associated with this compensation band (if not available, leave blank).                                                                                            |
-| **Cost Center**                     | Select the organization corresponding to the teammate’s new division/team (if applicable).                                                                                                   |
+|  **Form field: Role**  | **How to fill out**  |
+|---|---|
+| **Effective Date**   |  The effective date should reflect the date that the role change is taking effect.   |
+| **Location**      | Remote    |
+| **Department**   |Select new department (if applicable)   |
+|**Division**     | Select new division/“team” (if applicable)   |
+| **Job Title**  | Select new title (if applicable). If the title you’re looking for isn’t available in the dropdown, please reach out to people-ops@sourcegraph.com or @people-team in Slack to have it added.  |
+| **Reports To**    | Select new manager (if applicable)  |
+|  **People Manager**  | Select “Yes” if this person will be a People Manager or “No” if they will not be a People Manager.   |
+| **Compensation Category and Level**  | Select category and level associated with this compensation band (if not available, leave blank).  |
+|**Cost Center**   | Select the organization corresponding to the teammate’s new division/team (if applicable).   |
 
 ## Requesting a promotion
 
