@@ -93,6 +93,8 @@ Coming Soon!
 
 #### For For IAM and Admin Exp Technical Interviews Only
 
+<!-- TODO: Will this still be the same with the IAM and Admin Experience team? -->
+
 When scheduling a IAM and Admin Exp Technical Interview, you will also need to schedule a prep email to be sent to the candidate 2 hours prior to the interview by completing the following steps:
 
 1. Select the "Email [Candidate Name]" button under ‘Tools’ on the right side of the Candidate’s greenhouse profile, which will open an email window.
