@@ -68,5 +68,3 @@ In Q3, we'll expand on the previous quarter's observability effort by completing
 - [All Sourcegraph components can export standardized traces](https://github.com/sourcegraph/sourcegraph/issues/34796)
 
 - [Complete migrations for error monitoring](https://github.com/sourcegraph/sourcegraph/issues/34795)
-
-
