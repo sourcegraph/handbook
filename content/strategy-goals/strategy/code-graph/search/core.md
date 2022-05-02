@@ -1,6 +1,6 @@
 # Search Core strategy
 
-This page outlines the strategy and goals of the [Search Core team](../../../../departments/product-engineering/engineering/code-graph/search/core.md) over the next year.
+This page outlines the strategy and goals of the [Search Core team](../../../../departments/product-engineering/engineering/code-graph/search/core.md) over the next year or so.
 
 For context on the mission, vision, and guiding principles of Search, see the top-level [search strategy](index.md) page.
 
@@ -8,31 +8,39 @@ Quicklinks:
 
 - [Search overall strategy](../index.md)
 - [Search Core backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-core)
-- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+core%22)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/21?filterQuery=quarter%3A%22FY23+Q2%22+owning-team%3A%22Search+core%22+)
 
 ## Where we are now
 
-In **FY22Q3**, we grew the Sourcegraph Cloud global index to 2.1M repositories, including all repositories with 5 stars or more. Importantly, the changes we’ve made to reach this state have not been cloud-specific, and yielded trickle-down benefits to all Sourcegraph deployments (for instance, [significant reductions](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usage of Zoekt, our trigram-based indexed search backend).
+Search is the foundation of the overall product and the team is focused on making search universal, fast, and relevant.
 
-In **FY22Q4**, we conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (>6GB working directory). We also started growing our search index to include repositories from more non-GitHub.com and GitLab.com code hosts: for instance, you can now search [34k repositories from src.fedoraproject.org on sourcegraph.com](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal).
+We have recently worked toward the goal of indexing open source code to make our search universal:
+
+- The Sourcegraph Cloud global index has now 2.6M repositories representing all repositories with 5 stars or more from GitHub.com and GitLab.com. While working towards this goal, we have made changes that have yielded trickle-down benefits to all Sourcegraph deployments, for instance, we accomplished a [5x reduction](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usage of Zoekt, our trigram-based indexed search backend.
+- We have made progress towards expanding code host coverage to include repositories from non-GitHub.com and GitLab.com code hosts: you can now search more than [34k repositories](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal) from src.fedoraproject.org on sourcegraph.com.
+- We have released the beta version of [dependencies search](https://docs.sourcegraph.com/code_search/how-to/dependencies_search) enabling search through the dependencies of your repositories for Go and npm.
+
+We conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (those with a working directory > 6GB) and started work on some prototypes to address our customers' most pressing needs. We established a baseline and created a synthetic gigarepo to measure progress towards our goal. Our synthetic gigarepo is a representative monorepo with a HEAD working copy size of 15GB.
+
+As a first step towards improving the ranking of results, we have enabled [zoekt results ranking](https://docs.sourcegraph.com/dev/background-information/architecture/indexed-ranking#result-ranking) to further rank results within repositories.
 
 ## What's next and why
 
-### FY23Q1
+### FY23Q2
 
 #### Goals
 
-- **Monorepo performance**: At a P75 level, gigarepo will index in less than 30 minutes, indexed searches complete in < 2s and unindexed searches complete in < 10s. Gigarepo is a representative monorepo with a HEAD working copy size of 15GB.
-- **Ranking**: We start tracking ranking quality, using selected search results as a proxy.
-- **Code host coverage**: Sourcegraph Cloud indexes public repositories globally from the most popular package hosts.
+- **Monorepo performance**: At a P75 level, synthetic gigarepo will index in less than 30 minutes, indexed searches will complete in < 2s and unindexed searches will complete in < 10s.
+- **Ranking**: Understand customer pain points and establish a baseline for future improvements.
+- **Dependencies Search**: Expand support for dependencies search to Python and JVM and implement `repo:dependents(...)`.
 
 #### Details
 
-**Monorepo performance**: is a recurrent pain point for large enterprise customers. Having replicated large monorepo setups, we identified that unindexed monorepo performance is still poor and several facets of search on large monorepos cause significant load on gitserver.
+**Monorepo performance**: This is a recurrent pain point for large enterprise customers. Having replicated large monorepo setups, we identified that unindexed monorepo performance is still poor and several facets of search on large monorepos cause significant load on gitserver. To address this, we have been working on an incremental indexing prototype and a Searcher prototype to better handle unindexed searches.
 
-**Ranking**: As a first step towards improving the ranking of our search results, we will start tracking the quality of search results using the index of user-selected results as a proxy metric. Having this tracking in place will help measure the success of future improvements and drive the areas of ranking we choose to focus on.
+**Ranking**: As a first step towards improving the ranking of our search results, we will start tracking the quality of search results using the index of user-selected results as a proxy metric. Having this tracking in place will help measure the success of future improvements. We will also conduct discovery of customers needs and pain points to drive the areas of ranking we choose to focus on.
 
-**Code host coverage**: as we seek to keep expanding the code we index to include more non-GitHub.com or GitLab.com code hosts, we will add support for package host integrations (PyPi, Rubygems, NuGet, Crates, proxy.golang.org). This will not only increase our code host coverage, but also be a stepping stone towards unblocking [use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#).
+**Dependencies Search**: We will expand support for dependencies search to include Python and JVM and implement `repo:dependents(...)` allowing users to search which repositories depend on a specific package. This will be particularly relevant for the fixing security vulnerabilities use case.
 
 #### What we're not working on and why
 

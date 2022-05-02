@@ -12,13 +12,15 @@ Our mission is to **make discovering, learning, analyzing, and editing code easi
 
 ## Themes
 
-Apart from the work each of our teams do for our mission, across Code Graph we're particularly focused now on improving the **discoverability** and **ease-of-use** around our [use cases](../index.md#use-cases). There are a few reasons why this is important:
+Apart from the work each of our teams do for our mission, across Code Graph we're particularly focused now on improving the **discoverability** and **ease-of-use** around our [use cases](../index.md#use-cases), with a particular focus on how long it takes to find and get value from them (what we're calling time-to-value). There are a few reasons why this is important:
 
 - Focusing on use cases ensures we're prioritizing areas where people get real value out of the product
 - Improving discoverability increases feature adoption because it brings users into features at moments when the features would be most useful
 - Building cross-team capabilities helps us deliver features that are more than the sum of their parts (as opposed to shipping our org chart)
 
 Because this theme intentionally bridges team boundaries, we are especially mindful of following our [collaboration principles](../../../departments/product-engineering/process/cross-org-team-collab.md), which also includes details on how we collaborate with the [Growth](../cloud/growth-team/index.md) team on our [new user experience](../../../departments/product-engineering/process/new-user-experience.md).
+
+For Q2 FY23 (the current quarter) we plan to have special focus on the [fixing security vulnerabilities](../use-cases/fixing-security-vulnerabilities.md) use case.
 
 ## Principles
 
