@@ -15,7 +15,7 @@
             </a>
           </div>
           <div style="text-align: center;">Carly Jones</div>
-          <div style="text-align: center; font-size: 12px;">VP of Talent</div>
+          <div style="text-align: center; font-size: 12px;">VP of Talent & People</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
