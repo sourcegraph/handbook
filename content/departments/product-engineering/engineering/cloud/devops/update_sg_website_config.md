@@ -8,7 +8,8 @@ Site configuration for sourcegraph.com is split into two files. One contains non
 
 ### Non-sensitive configurations
 
-Non-sensitive configurations and env vars are stored in an [overlay](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-cloud%24+file:%5Eoverlays/prod/frontend&patternType=literal).
+Non-sensitive configurations and env vars are stored in an [overlay](https://sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-cloud/-/blob/overlays/prod/frontend/files/site.json).
+Other config files can be found in the [overlay folder](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/deploy-sourcegraph-cloud%24+file:%5Eoverlays/prod/frontend&patternType=literal)
 
 To update the non-sensitive configuration, follow these steps:
 
