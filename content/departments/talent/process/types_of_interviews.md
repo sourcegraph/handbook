@@ -250,9 +250,11 @@ We’ll conduct the interview in the following format:
 - 10 minutes: general Q&A with customer engineer
   - Ask anything you want! It’s your chance to learn about the team, the role, and the company from a peer!
 
-### Working Session: Customer Scenarios Interview, Live Working Session Instructions
+### Customer Scenarios Interview, Live Working Session Instructions
 
-For this interview round, you will have an hour-long working session with a Customer Engineer on the team and one of the CE leaders. This working session is intended to help us understand how you approach customers and customer meetings. The working session will cover 4 prompts, spending approximately 10–12 minutes on each of them. It is recommended you take time to prepare in advance based on the details below.
+For this interview round, you will have an hour-long working session with a Customer Engineer on the team and one of the CE leaders. This working session is intended to help us understand how you approach customers and customer meetings. The working session will cover 4 prompts, spending approximately 10–12 minutes on each of them.
+
+**Important note:** Please make a copy of [this deck](https://docs.google.com/presentation/d/1oekh2p6lULZl9JeTCA0qpjpKycr_v6U3Z2u5Usph4os/edit#slide=id.g9288fdfdea_0_109) and use it to present on the details below.
 
 A summary of the 4 prompts are provided below:
 
