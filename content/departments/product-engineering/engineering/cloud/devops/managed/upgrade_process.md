@@ -43,6 +43,7 @@ Managed instances configuration is tracked in [`deploy-sourcegraph-managed`](htt
 
 First, ensure you have the prerequisites installed and up-to-date:
 
+- [Sourcegraph CLI](https://docs.sourcegraph.com/cli/quickstart)
 - [Terraform CLI](https://www.terraform.io/)
 - [Deno CLI](https://deno.land/) (used for scripting upgrades)
 - [Comby CLI](https://comby.dev/) (used for rewriting configuration)
@@ -223,6 +224,12 @@ cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
 cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
+Ensure all images are pinned to `$NEW_VERSION`
+
+```sh
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+```
+
 Commit and apply the upgrade:
 
 ```sh
@@ -246,7 +253,7 @@ git add . && git commit -m "$CUSTOMER: restart $NEW_DEPLOYMENT"
 - Wait until the instance has fully started with the new versions:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep $NEW_VERSION#v"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${NEW_VERSION#v}"
 ```
 
 You'll receive errors or no results for several minutes while the instance finishes running the startup script.
@@ -254,7 +261,7 @@ You'll receive errors or no results for several minutes while the instance finis
 - Ensure that no containers with the wrong version are still running:
 
 ```sh
-../util/ssh-exec.sh "docker ps --format {{.Image}} | grep $OLD_VERSION#v"
+../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
 ```
 
 - Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
@@ -285,7 +292,7 @@ This might indicate that the instance is not fully set up yet—try again in a m
 
 ### 9) Switch the load balancer target
 
-Connect to the new instance using the SOCKS5 proxy and confirm you can access it and view the old version at https://company.sourcegraph.com/site-admin/updates.
+Connect to the new instance using the [SOCKS5 proxy](operations.md#access-through-the-gcp-load-balancer-as-a-user-would) and confirm you can access it and view the old version at https://company.sourcegraph.com/site-admin/updates.
 Switch over the load balancer:
 
 ```sh
@@ -331,7 +338,11 @@ Remove the notice previously added to the global user settings:
 git push origin HEAD
 ```
 
-And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed).
+And click the provided link to open a pull request in [`deploy-sourcegraph-managed`](https://github.com/sourcegraph/deploy-sourcegraph-managed). Or use [gh](https://github.com/cli/cli):
+
+```sh
+gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "## Test plan No review required: normal upgrade"
+```
 
 **IMPORTANT: DO NOT FORGET TO GET YOUR PR APPROVED AND MERGED**, if you forget then the next person upgrading the instance will have a very bad time.
 
@@ -576,6 +587,12 @@ cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
 ```
 
 Resolve any merge conflicts that have arisen.
+
+Ensure all images are pinned to `$NEW_VERSION`
+
+```sh
+go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+```
 
 ### 3) Apply changes to instance
 

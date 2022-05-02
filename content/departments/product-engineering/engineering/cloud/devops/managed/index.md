@@ -11,7 +11,7 @@ Please first read [the customer-facing managed instance documentation](https://d
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
-- [SLAs for managed instances](#slas-for-managed-instaces)
+- [SLAs for managed instances](#slas-for-managed-instances)
 - [Creating a managed instance](creation_process.md)
 - [Managed instances operations](operations.md)
 - [Upgrading a managed instance](upgrade_process.md)
