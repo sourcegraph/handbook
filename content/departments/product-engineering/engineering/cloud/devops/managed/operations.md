@@ -165,6 +165,15 @@ To increase the disk size:
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
 
+## Changing the instance
+
+The state of managed instances infrastructure and deployment artifact are stored in the following repositories
+
+- [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure)
+- [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
+
+We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
+
 ## Instance technicalities
 
 ### Impact of recreating the instance via Terraform
