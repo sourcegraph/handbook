@@ -155,21 +155,21 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 
   - Review: None
   - Approve: None
-  - Sign: Financial Controller
+  - Sign: Financial Controller (Back-Up Signers: Director of Legal and VP Operations)
   - Stamp: Deal Desk
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
   - Review: (a) Deal Desk who may escalate to Legal, Finance and Customer Engineer for review as required.
   - Approve: (a) Deal Desk who may escalate to Legal and Finance for approval as required.
-  - Sign: Financial Controller
+  - Sign: Financial Controller (Back-Up Signers: Director of Legal and VP Operations)
   - Stamp: Deal Desk
 
 - Customer Form
 
   - Review: (a) Legal (b) Deal Desk and (c) Customer Engineer (CE) for security addenda or questionnaires
   - Approve: (a) Legal (b) Deal Desk and (c) Finance for any non-standard terms
-  - Sign: Financial Controller
+  - Sign: Financial Controller (Back-Up Signers: Director of Legal and VP Operations)
   - Stamp: Deal Desk
 
 Templates:

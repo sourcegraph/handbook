@@ -36,7 +36,7 @@ Convercent will anonymously share your report with limited members of the People
 
 You can expect an initial response within 24-hours. Please keep in mind that if you make a report outside of working hours, it may take longer for you to get a response.
 
-### **Is Convercent truly anonymous?**
+### Is Convercent truly anonymous?
 
 You can review Convercent’s Data Privacy and Trust information [here](https://www.convercent.com/data-privacy-trust). We have opted to not include Convercent in our Okta SSO dashboard to further protect your anonymity, except to the extent needed to investigate a report or comply with laws.
 
