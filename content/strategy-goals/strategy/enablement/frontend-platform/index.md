@@ -21,6 +21,8 @@ See also our [completed goals](../../../../departments/product-engineering/engin
 
 ### FY23 Q1
 
+The main focus for Q1 is laying the groundwork to meet our contractual WCAG compliance requirements by the end of FY2023. We also want to 1) Reduce the flakiness of E2E tests by refactoring them, assigning ownership, and providing guidance for writing better tests and 2) Finish up implementing and migrating React components to the Wildcard Component Library, which streamlines the "look and feel" of the Sourcegraph platform and makes it easier for frontend devs to do their work.
+
 - [Complete V2 of Wildcard Component Library](https://github.com/sourcegraph/sourcegraph/issues/31204)
 
 - [Refactor E2E testing](https://github.com/sourcegraph/sourcegraph/issues/31206)
@@ -28,6 +30,8 @@ See also our [completed goals](../../../../departments/product-engineering/engin
 - [Documentation and planning on WCAG 2.1 AA compliance](https://github.com/sourcegraph/sourcegraph/issues/31200)
 
 ### FY23 Q2
+
+In Q2 we'll tackle the meat of our WCAG accessibility requirements by working with frontend teams to audit and improve their areas of ownership. Because quarterly DevX surveys report "codebase inconsistency" as a contributor to poor developer experience at Sourcegraph, we'll focus on migrations that standardize our frontend code and setup automations to prevent regressions. Finally, we'll work with backend teams to introduce more actionable observability tooling that helps teams know how to find problems and fix them quickly.
 
 - [Improve consistency in Sourcegraph's frontend codebase](https://github.com/sourcegraph/sourcegraph/issues/33123)
 

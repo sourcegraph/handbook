@@ -24,7 +24,7 @@ Notebooks is a core platform feature, and is available for use by all Sourcegrap
 
 ### Customer-facing assets
 
-[How Sourcegraph uses Notebooks: Dogfooding blog post]()
+[How we used Notebooks to make our CI more accessible (blog post)](https://about.sourcegraph.com/blog/notebooks-ci/)
 
 [Sourcegraph.com landing page](https://sourcegraph.com/notebooks)
 

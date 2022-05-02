@@ -41,7 +41,7 @@ The Frontend Platform team primarily receives support requests from internal Sou
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-support-handle` if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 ### Raising an issue
 
@@ -83,7 +83,7 @@ We connect bi-weekly to celebrate wins from the past two weeks, give cheers to o
 
 The Frontend Platform team uses this [agenda](https://docs.google.com/document/d/1el48U_HejMzoUjQ_l2glyPSFkuqTCr_IvIvkfu2zNNY/edit#heading=h.i5plvdwlbjoi) to run a bi-weekly, technically-focused meeting open to all frontend devs (and anyone else who’s interested!) at Sourcegraph. The idea is similar to a “guild” in the Spotify model: “A Guild is a more organic and wide-reaching _community of interest_, a group of people that want to share knowledge, tools, code, and practices.”
 
-## Housekeeping chores
+## Housekeeping
 
 ### Weekly reminders
 
