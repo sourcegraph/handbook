@@ -35,9 +35,9 @@ We collect meeting notes and planning artifacts in a shared [Google Drive folder
 
 If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
-### Raising an issue
+#### Raising an issue
 
-If you think Dev Experience is the right team to address a bug or other request, please create an issue. The issue should include:
+If you think Dev Experience is the right team to address a bug or other request, please [create an issue](https://github.com/sourcegraph/sourcegraph/issues). The issue should include:
 
 - A short description of the ask
 - A more detailed explanation of the background, context, and problem that needs solving
@@ -45,7 +45,18 @@ If you think Dev Experience is the right team to address a bug or other request,
 - Any extra information that will help us solve or prioritize the issue
 - The label `team/devx`
 
+### Providing support
+
+This section documents tips for teammates on support, which is handled via our [support rotation](#support-rotation).
+General tips:
+
+1. We are not responsible for every issue in CI - see [build pipeline support](#build-pipeline-support) and [CI support responsibilities](#ci-support-responsibilities).
+2. `git rebase` is very easy for teammates unfamiliar with `git` to do incorrect - if a branch update is required, err towards recommending a [`git merge`](https://git-scm.com/docs/git-merge) (e.g. `git pull origin main`).
+3. Make sure to [update devx-scratch](#devx-scratch) for any notable support efforts.
+
 #### Build pipeline support
+
+> NOTE: The DevX team is _not_ responsible for all the tools and tests that run in Sourcegraph's CI infrastructure. Learn more: [CI reponsibilities](#ci-support-responsibilities)
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration). The goal of this process is to identify the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 
@@ -70,7 +81,7 @@ For a higher-level understanding of our responsibilities, see our [guiding princ
 
 ### Support rotation
 
-We use OpsGenie to manage a support rotation that changes weekly. The person on-call will be pinged when someone tags `@dev-experience-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
+We use OpsGenie to manage a [support](#support) rotation that changes weekly. The person on-call will be pinged when someone tags `@dev-experience-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
 ### Work leads
 
@@ -78,7 +89,7 @@ For each major body of work, we assign an engineer to be a **work lead**. Work l
 
 The work lead should:
 
-- Work with the PM/EM to create the roadmap tracking issue.
+- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../process/tracking_issues.md).
   - Articulate the problem space, requirements, proposed solution, key results, and measures of success.
   - Scope the work to a manageable size for one team to deliver in one quarter.
   - Identify any applicable "Non-Functional Requirements", such as testing, monitoring, and documentation.
@@ -134,11 +145,21 @@ At the start of each week, the PM posts a reminder in `#dev-experience-internal`
 
 ### Updating the Dev Experience project board
 
-All engineers update the board in advance of the weekly sync.
+All engineers update the [Dev Experience project board](https://github.com/orgs/sourcegraph/projects/212) in advance of the weekly sync.
+
+The status field for each issue in the project board roughly represents the following:
+
+- **Unplanned**: No concrete plans to tackle yet
+- **Next iteration**: Something to consider for next iteration
+- **Planned**: On somebody's immediate plans (i.e. will be tackled roughly within this iteration)
+- **In progress**: Actively being worked on
+- **Blocked**: No progress can be made due to a dependency
+- **External**: DX-related work being handled by other teams
+- **Done**: That's a wrap!
 
 ### Updating the Product and Engineering roadmap
 
-The PM and work leads own the roadmap issues. They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
+The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
 
 ### Updating our Strategy page
 
@@ -157,3 +178,10 @@ To prepare a new issue of the newsletter, create a PR for the latest newsletter 
 Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the rendered newsletter from the handbook (you can set this up locally with `yarn dev`) into a draft newsletter. You will need to remove the background color from the pasted content, but the formatting should otherwise just work.
 
 Verify the output looks good, and email it to engineering-team@sourcegraph.com.
+
+### devx-scratch
+
+We maintain a repository with experiments and notes from the DevX team, [`sourcegraph/devx-scratch`](https://github.com/sourcegraph/devx-scratch), in an effort to improve knowledge-sharing and log our explorations and trends.
+We encourage you to log anything you want in this repository, particularly insights from pairing sessions and so on!
+
+Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/devx-scratch/blob/main/2022/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).
