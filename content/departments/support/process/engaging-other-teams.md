@@ -132,11 +132,11 @@ Any questions about Batch Changes should be routed to the [Batch Changes team](.
 
 Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../product-engineering/engineering/cloud/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
 
-### IAM and Admin Exp
+### IAM and Admin Experience
 
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM and Admin Exp team](../../product-engineering/engineering/cloud/iam-and-admin-exp/index.md) via the [#iam-and-admin-exp slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
+Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM and Admin Experience team](../../product-engineering/engineering/cloud/iam-and-admin-exp/index.md) via the [#iam-and-admin-exp slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
 
 ### Code Insights
 

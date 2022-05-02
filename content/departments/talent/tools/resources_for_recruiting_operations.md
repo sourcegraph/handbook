@@ -91,14 +91,14 @@ Coming Soon!
 3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../team/index.md).
 4. Send Email
 
-#### For For IAM and Admin Exp Technical Interviews Only
+#### For For IAM and Admin Experinece Technical Interviews Only
 
 <!-- TODO: Will this still be the same with the IAM and Admin Experience team? -->
 
-When scheduling a IAM and Admin Exp Technical Interview, you will also need to schedule a prep email to be sent to the candidate 2 hours prior to the interview by completing the following steps:
+When scheduling a IAM and Admin Experience Technical Interview, you will also need to schedule a prep email to be sent to the candidate 2 hours prior to the interview by completing the following steps:
 
 1. Select the "Email [Candidate Name]" button under ‘Tools’ on the right side of the Candidate’s greenhouse profile, which will open an email window.
-2. Select the ‘Send - Interview Prep - IAM and Admin Exp’ email template
+2. Select the ‘Send - Interview Prep - IAM and Admin Experience’ email template
 3. Select ‘Pick a custom time’ in the ‘Send Email When’ dropdown and schedule the email to be sent 2 hours prior to the Technical Interview.
 4. Send Email.
 

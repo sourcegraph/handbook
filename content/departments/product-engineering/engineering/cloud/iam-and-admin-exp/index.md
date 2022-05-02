@@ -50,7 +50,7 @@ Customer-facing and internal tools and features that provide transparency to how
 
 ### Engineering ownership
 
-For a detailed list of features and services owned by the IAM and Admin Exp team, check out the [Engineering Owership page](../../../../../../data/engineering_ownership.yml).
+For a detailed list of features and services owned by the IAM and Admin Experience team, check out the [Engineering Owership page](../../../../../../data/engineering_ownership.yml).
 
 ## Team
 
@@ -60,7 +60,7 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 ## Partner Teams
 
-The IAM and Admin Exp team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
+The IAM and Admin Experience team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
 - [Cloud DevOps](../devops)
 - [Integrations](../integrations)
@@ -71,7 +71,7 @@ The IAM and Admin Exp team works alongside several other teams within the Cloud 
 
 ### Weekly team updates
 
-Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM and Admin Exp Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
+Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM and Admin Experience Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
 
 ## How we work
 
@@ -80,13 +80,13 @@ Each Friday, we send weekly team updates to the rest of the Cloud org to keep th
 - For users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam-and-admin-exp`.
 - For internal Sourcegraph teammates, join us in [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/iam-and-admin-exp) to ask questions or request help from our team.
-- For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM and Admin Exp Feature Request:` in your subject line.
+- For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM and Admin Experience Feature Request:` in your subject line.
 
 ### Planning, execution, and issue tracking
 
-The IAM and Admin Exp team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
+The IAM and Admin Experience team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
 
-We are using [Jira](https://www.atlassian.com/software/jira) as our project tracking tool. While you will need access to Sourcegraph Atlassian account to view the [IAM and Admin Exp project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-73&issueLimit=100) the [list view of all the issues](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/issues/) within this project is publicly available.
+We are using [Jira](https://www.atlassian.com/software/jira) as our project tracking tool. While you will need access to Sourcegraph Atlassian account to view the [IAM and Admin Experience project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-73&issueLimit=100) the [list view of all the issues](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/issues/) within this project is publicly available.
 
 #### How we use Jira
 
@@ -222,9 +222,9 @@ TBD
 
 ### Team slack channels
 
-- [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Exp team for all day to day communication within the team
-- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Exp team where other Sourcegraphers can ask for help or leave questions for the team
-- [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with IAM and Admin Exp Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
+- [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Experience team for all day to day communication within the team
+- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Experience team where other Sourcegraphers can ask for help or leave questions for the team
+- [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with IAM and Admin Experience Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
 - [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization
 - [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
 - [#cloud-research](https://sourcegraph.slack.com/archives/C02DU382HM4) - public channel for all the updates about user research related to Sourcegraph Cloud
@@ -232,7 +232,7 @@ TBD
 
 ## Product and technical documentation
 
-Please go to [IAM and Admin Exp Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
+Please go to [IAM and Admin Experience Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 
 ## [Playbooks](playbooks/index.md) and procedures
 
@@ -255,7 +255,7 @@ We are applying 30/60/90 day patterns and breaking down the onboarding process i
 
 #### First month
 
-The central theme for the first month is **learning**. During these 30 days, your goal is to acquire the **foundational domain knowledge** about our product, processes, architecture, and codebase to help you **feel comfortable and effective in a software engineer's role** in the IAM and Admin Exp team.
+The central theme for the first month is **learning**. During these 30 days, your goal is to acquire the **foundational domain knowledge** about our product, processes, architecture, and codebase to help you **feel comfortable and effective in a software engineer's role** in the IAM and Admin Experience team.
 
 You will be exposed to a ton of new information - you will meet many people, read multiple documents, and, most importantly, solve small, well-defined technical challenges. We understand this might feel overwhelming, so please relax and do not stress. This first month is the time for [learning and growth](../../../../../company-info-and-process/values#continuously-grow).
 
