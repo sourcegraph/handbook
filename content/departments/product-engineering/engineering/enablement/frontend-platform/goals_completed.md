@@ -6,8 +6,6 @@ This page records goals completed by the Frontend platform team historically (st
 - [**FY2022**](#fy2022)
 - [**FY2021**](#fy2021)
 
-
-
 ## FY2023
 
 ### Q1
