@@ -50,7 +50,7 @@ Communication deadlocks, too many processes.
 
 ## Technical areas of knowledge
 
-Java, dot net, oracle, sql server, power builder, linux and many other tools used in support. I am not an expert but I know how to solve problems :) 
+Java, dot net, oracle, sql server, power builder, linux and many other tools used in support. I am not an expert but I know how to solve problems :)
 
 ## Technical interests to learn
 
@@ -67,7 +67,7 @@ Free Fall.
 
 ## Favorite quote
 
- “If you want to walk fast, walk alone. But if you want to walk far, walk together.” -Ratan Tata
+“If you want to walk fast, walk alone. But if you want to walk far, walk together.” -Ratan Tata
 
 ## How I eat fries
 
