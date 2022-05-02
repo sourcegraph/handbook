@@ -54,6 +54,18 @@ Ask yourself:
 - Are users more likely to give feedback on the "how I interact with this" or "I _also_ want" rather than the "what is this" level?
 - Are we ready to collect broad usage feedback in order to build our sales, pricing, or marketing strategy?
 
+### General Availability (GA) features
+
+We use the term GA to refer to features that are complete and ready for broad use. GA features:
+
+- Are stable and can be used across our entire customer base
+- Are high-quality with no known bugs or issues
+- Are commercially ready for customers to adopt (and purchase if it's an add-on product or feature)
+- Have established product-market fit
+- Have clear pricing and packaging
+
+For [L1 product launches](../../../marketing/product-marketing/marketing_launch_tiers.md/#l1-launch), the PM and PMM for the product should work together to establish GA criteria before the launch happens and should mutually decide when the product is ready for GA.
+
 ## When we use an entirely different label
 
 **Rarely**, sometimes we use a different label when a feature is in `Beta` in order to benefit from limiting initial rollout without invoking users' connotations with the word "Beta."
