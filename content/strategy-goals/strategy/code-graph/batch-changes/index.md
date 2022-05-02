@@ -132,9 +132,9 @@ Currently, if managed instances customers want to run batch changes server-side,
 
 Our tentative plan so far:
 
-- Q2: allow a free tier for executors on managed instances. That will allow customers to use batch changes server-side in a limited fashion during the beta. If customers exceed the free tier, they can still setup executors on their own infrastructure as a workaround. We cannot bill customers for additional compute beyond the free tier.
+- Q2: allow a free tier for executors on managed instances. That will allow customers to use batch changes server-side in a limited fashion during the beta. If customers exceed the free tier, they can still setup executors on their own infrastructure as a workaround. We cannot bill customers for additional compute beyond the free tier. Validate pricing and billing model with customers.
 - Q2 or Q3: work with Cloud DevOps to scale executor deployment (timeline TBD depending on their roadmap). See [RFC 666 WIP: Executors on managed instances](https://docs.google.com/document/d/1lq1oyB4I3v8fqXSs4AI7pWUyXBya4a3_VlX-XtGu-f0/edit).
-- Q3: Monitor usage and assess investing in usage based billing.
+- Q3: Monitor usage. Continue validating pricing model with customers. Assess investing in usage based billing.
 - Q4/Q1-FY23: running batch changes is GA on managed instances at any scale
 
 ## What we are not working on
