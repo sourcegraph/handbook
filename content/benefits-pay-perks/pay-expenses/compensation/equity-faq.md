@@ -30,7 +30,7 @@ On your last day.
 
 ### If I am moving out of the US, will my equity continue to vest?
 
-Your options will continue to vest, assuming that you will continue to perform work without a gap in service. After 90 days, your ISOs may lose their ISO status and become NSOs, but they will continue to vest. 
+Your options will continue to vest, assuming that you will continue to perform work without a gap in service. After 90 days, your ISOs may lose their ISO status and become NSOs, but they will continue to vest.
 
 ### Are there any non-standard liquidity preferences (anything greater than 1x) on the preferred shares?
 
