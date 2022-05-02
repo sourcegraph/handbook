@@ -31,7 +31,6 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
     - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
   - [Continuous integration infrastructure](../../tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
   - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
-  - [Continuous integration changelog](../../tools/infrastructure/ci/changelog.md)
 - Other
   - [Developer experience newsletter](./newsletter.md)
   - [`sg` hack hour](processes.md#sg-hack-hour)
