@@ -14,7 +14,7 @@ Criticize in private, praise in public. I will always want to know the "why" beh
 
 ### Preferred way to collaborate
 
-Give me a list of tasks you need from me and let me go off and produce a first draft that we can then iterate on. 
+Give me a list of tasks you need from me and let me go off and produce a first draft that we can then iterate on.
 
 ### Time of day where I’m most productive
 
@@ -42,11 +42,11 @@ I try to be direct and stay focused on outcomes; I enjoy coaching people, partic
 
 ### What I find enjoyable at work
 
-Feeling like I am solving real problems for people whose work is valuable. 
+Feeling like I am solving real problems for people whose work is valuable.
 
 ### What kind of work do I find easiest to do when
 
-I produce high-quality written content quickly, and am happiest when allowed to do so. I enjoy presenting to groups. 
+I produce high-quality written content quickly, and am happiest when allowed to do so. I enjoy presenting to groups.
 
 ### How do I feel about getting messages after/outside of hours that are meant for me to see and respond to during active hours
 
@@ -84,7 +84,7 @@ Trying to hit a 200 lbs squat.
 
 ### Something I fear
 
-Making work a larger part of my life than warrented. 
+Making work a larger part of my life than warrented.
 
 ### A quote I find powerful
 
