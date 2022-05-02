@@ -14,15 +14,13 @@ The Goals and Roadmap of the IAM is TBA.
 
 Service management is a broad area of ownership. To provide more clarity into what its stands for, we will break this down based on product domains. We will also provide a list of features and services from a technical engineering ownership perspective.
 
-### New user experience
-
-The Growth & Integration team also works on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
-
 ### Product domains
 
 #### Identity and access management
 
-We own both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
+The IAM and Admin Experience team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
+
+While the IAM and Admin Experience team owns the underliying layer for AuthN and AuthZ, the Growth & Integration team is responsible for the UI and UX for sign-in and sign-up. The Growth & Integration team also works on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
 
 Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
 
@@ -42,7 +40,7 @@ Both technical and presentational sides of pricing. This includes both the prese
 
 #### Billing, invoicing, and payments
 
-The end-to-end self-service process on paying for Sourcegraph subscription on the cloud.
+The process on paying for Sourcegraph subscription.
 
 #### Usage reporting and entitlement enforcement
 
