@@ -55,11 +55,11 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
 - **Grading:** At the end of the quarter we grade both KRs and Objectives.
   - We grade KRs based on how they are worded at the end of the quarter. If our understanding of what success looks like changes throughout the quarter, then we need to update KR definitions before the end of the quarter.
   - After we grade the KRs individually, we review whether we subjectively achieved the objectives or not.
-  - Rubric 
+  - Rubric
     | Status | Description |
     | ------------- | -------------------------------------------- |
-    | 🟢 | We achieved success (90-100% completion for non-binary outcomes)  |
-    | ⚠️ | We achieved partial success (75–89% completion for non-binary outcomes)  |
+    | 🟢 | We achieved success (90-100% completion for non-binary outcomes) |
+    | ⚠️ | We achieved partial success (75–89% completion for non-binary outcomes) |
     | 🛑 | We did not achieve success (<75% completion for non-binary outcomes) |
 
 Our philosophy on goal setting as well as a view into our history of goals is [published in our handbook](../../../strategy-goals/goals/index.md).
@@ -215,12 +215,13 @@ Updates and highlights of what has changed are shared in #prod-eng-announce Slac
 ### Weekly OKR updates
 
 The DRI (directly responsible individaul) for each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. To post an update, create a new comment with the following details:
-  - Forecasted grade for the KR at the end of the quarter: 🟢, ⚠️, 🛑.
-  - Short description of why the forecast is what it is. Here are some example questions to consider (not every question here is relevant to every update):
-    - What gives us confidence we're on track?
-    - What recent progress have we made? 
-    - For numeric goals, what is the current state of the metric and the trend line?
-    - What has slowed us down?
-    - What are the risks looking ahead?
-    - What are next steps (and who is owning those steps)?
-    - What can be done to get this KR back on track?
+
+- Forecasted grade for the KR at the end of the quarter: 🟢, ⚠️, 🛑.
+- Short description of why the forecast is what it is. Here are some example questions to consider (not every question here is relevant to every update):
+  - What gives us confidence we're on track?
+  - What recent progress have we made?
+  - For numeric goals, what is the current state of the metric and the trend line?
+  - What has slowed us down?
+  - What are the risks looking ahead?
+  - What are next steps (and who is owning those steps)?
+  - What can be done to get this KR back on track?
