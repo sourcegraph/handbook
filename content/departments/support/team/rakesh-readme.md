@@ -1,4 +1,4 @@
-# Rakesh Joshi 
+# Rakesh Joshi
 
 ## View on customer support
 
@@ -6,7 +6,7 @@ I believe customer support is an important department which helps in generating 
 
 ## Preferred learning style
 
-I believe learning while you work stays for long , I am more into practical learning than theory. 
+I believe learning while you work stays for long , I am more into practical learning than theory.
 
 ## Communication style
 
@@ -18,7 +18,7 @@ I work best in one-on-one situations or in _small_ groups, preferably over Zoom 
 
 ## Approach to problems
 
-I read the problem statement carefully, pay attention to keywords and try to use my experience/expertise to replicate the problem and identify the root cause. If I am completely unaware of the topic, I use different channels available internally or externally like Google, Stack Overflow or internal wiki, case history etc. 
+I read the problem statement carefully, pay attention to keywords and try to use my experience/expertise to replicate the problem and identify the root cause. If I am completely unaware of the topic, I use different channels available internally or externally like Google, Stack Overflow or internal wiki, case history etc.
 
 ## Preferred way to be recognized
 
