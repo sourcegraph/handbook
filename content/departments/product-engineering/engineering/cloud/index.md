@@ -13,7 +13,7 @@ Our mission is to provide the fastest, most seamless way for development teams t
 - [SaaS](./saas/index.md) is bringing our _Cloud for Teams_ product to market
 - [Security](./security/index.md) ensures _proactive Security_ on our platform
 - [Integrations](./integrations/index.md) is bringing the value of Sourcegraph _closer to our users_
-- [Growth](./growth-team/index.md)
+- [Growth](./growth-team/index.md) ensures new users understand Sourcegraph and continue actively using it.
 - [DevOps](./devops/index.md) ensures world class _reliability and availability_ for our Cloud SaaS platform
 - [Delivery](./delivery) brings Sourcegraph to our prospects and customers environments
 

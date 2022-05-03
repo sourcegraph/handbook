@@ -105,16 +105,8 @@ At a minimum, we can share a summary and/or the first draft of the post in the i
 
 There is an Asana task for social promotion of new blog posts in the blog post task template. You need to add this to the [Social Media Requests: Organic](https://app.asana.com/0/1200960005454857/1200960005454857) project, as a subtask of the monthly blog posts task.
 
-At a minimum, we can share the first draft of the post in the description of the social promotion task. This will help Kristen draft initial posts about the blog post. Ideally, we can help her further with suggested copy or other ideas about how to promote (graphic assets we will have, possible polls or other opportunities for engagement).
+At a minimum, we can share the first draft of the post in the description of the social promotion task.
 
 By suggesting Twitter copy we have a better chance of the post being promoted on the day of publishing.
 
-After publishing the blog post, there is a task for the editor to share the live URL in #social-media-action. This will alert Kristen that she can proceed with social promotion.
-
-### Working with external contributors
-
-We work with external writers and editors in a few different capacities:
-
-#### Freelance writers
-
-We engage freelance writers on an assignment basis. This could be a single blog post or a series.
+After publishing the blog post, there is a task for the editor to share the live URL in #social-media-action.

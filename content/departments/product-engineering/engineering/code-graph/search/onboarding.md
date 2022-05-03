@@ -1,6 +1,6 @@
 # On Boarding
 
-Your onboarding experience is expected to take three months, after which you will feel more confident in your ability to have impact on our team and within Sourcegraph. This process will require your both your High Agency on our commitment to support you through the process. The timeline is broken down into 30, 60 and 90 days.
+Your onboarding experience is expected to take three months, after which you will feel more confident in your ability to have impact on our team and within Sourcegraph. This process will require both your High Agency and our commitment to support you through the process. The timeline is broken down into 30, 60 and 90 days.
 
 ## First Month
 
@@ -14,7 +14,7 @@ Expect to spend some time to learn about troubleshooting and shadowing operation
 
 ## Third Month
 
-During the third month, you will contine to develop and learn. In additional to working on more complicated projects, you are also expected to understand search core's roadmap and participate in discussions around it. Since our tool is for software engineers, you have a great context on how our tools can make an impact for other engineers. We expect your honest feedback about our current processes, tooling architecture, code base and roadmap. Please be proactive in sharing how we can improve.
+During the third month, you will continue to develop and learn. In additional to working on more complicated projects, you are also expected to understand search core’s roadmap and participate in discussions around it. Since our tool is for software engineers, you have a great context on how our tools can make an impact for other engineers. We expect your honest feedback about our current processes, tooling architecture, code base and roadmap. Please be proactive in sharing how we can improve.
 
 By now you will have also experienced multiple company meetings and engineering demos. Take advantage of these opportunies to develop your business context and knowledge about what other teams are working on. We are a small startup and _you_ can make an impact.
 
