@@ -5,7 +5,6 @@
 - Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted in the relevant team's channel (optional).
 - Any teammate can open an issue for consideration by a product-engineering team, and assign the team's label. Product-engineering teams each have their own workflow for triaging issues, but use [common principles](../../process/working-with-issues.md)
 
-
 ## Surfacing customer feedback
 
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../support/process/engaging-other-teams.md).
