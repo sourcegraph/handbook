@@ -16,13 +16,12 @@ Realizing this vision is vital in enabling other teams at Sourcegraph to deliver
 
 More recently, issues with supporting enterprise customers and providing value to them faster have highlighted opportunities to provide our teams with better tools, processes, and services.
 
-Through our efforts we expect the following to be true at the end of FY23
+By the end of FY23 we intend to reduce the ramp time for new engineers and increase efficacy of all engineers in our team by making the following true:
 
-- The Sourcegraph application, its runtime environment, and build and deploy pipelines are all highly observable.
+- The Sourcegraph application, its runtime environment, and build and deploy pipelines are easily observable.
 - Our CI pipeline is fast and consistent.
-- Our software testing processes inspire confidence in our engineers when shipping code.
 - Our code authoring and review processes ensures we raise the bar for shipping high quality code.
-- Our codebase and development tooling is more consistent and well understood, reducing ramp up time and increasing productivity of our engineers.
+- Our codebase, testing processes, and development tooling is more consistent and well understood.
 - Our codebase is easy to onboard, easy to navigate, and reflects the boundaries of general work streams.
 - Sourcegraph teammate can easily contribute to our website through our content management system
 
@@ -30,9 +29,9 @@ Through our efforts we expect the following to be true at the end of FY23
 
 To achieve our vision of FY23 we will undertake initiatives across the themes listed below.
 
-With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and and understanding what the data tells us from each of these initiatives to ensure we don’t just blindly follow our roadmap, but treat each initiative as a decision point to re-evaluate the path forward.
+With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and understanding what the data tells us from each of these initiatives to ensure we don’t just blindly follow our roadmap, but treat each initiative as a decision point to re-evaluate the path forward.
 
-### Developer Productivity & Happiness
+### Developer Happinessv & Efficacy
 
 One of the keys to reliably pushing code into the wild is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
 Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standarde our test tooling and measure and monitor test effectiveness.
