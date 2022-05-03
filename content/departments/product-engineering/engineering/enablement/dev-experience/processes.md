@@ -53,6 +53,8 @@ General tips:
 1. We are not responsible for every issue in CI - see [build pipeline support](#build-pipeline-support) and [CI support responsibilities](#ci-support-responsibilities).
 2. `git rebase` is very easy for teammates unfamiliar with `git` to do incorrect - if a branch update is required, err towards recommending a [`git merge`](https://git-scm.com/docs/git-merge) (e.g. `git pull origin main`).
 3. Make sure to [update devx-scratch](#devx-scratch) for any notable support efforts.
+4. Be wary of issues achieving joke/meme status: it often means that it is actually quite a disruptive issue, and warrants a closer look.
+5. Be liberal in asking for a video or screen recording to demonstrate DX issues: this can help us understand and emphathise with DX pains.
 
 #### Build pipeline support
 
