@@ -10,37 +10,76 @@ Quicklinks:
 - [Search Product backlog](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateam%2Fsearch-product/)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Search+product%22)
 
+## Guiding principles
+
+- Continue to differentiate the core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search
+
+- Provide compelling solutions for the most pressing use cases of our customers
+
+- Maintain room for experimentation and exploratory work that creates meaningful business value
+
 ## Where we are now
 
-Sourcegraph is the leading code search product in the market, used by tens of thousands of developers across enterprises of all sizes. It has advanced, novel search capabilities, such as [structural search](https://learn.sourcegraph.com/how-to-use-structural-search-in-sourcegraph) and [diff/commit search](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTI=), as well as capabilities that extend search, such as [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore).
+Sourcegraph is the leading code intelligence platform in the market, used by tens of thousands of developers across enterprises of all sizes. The engine powering the platform is Code Search, which has advanced, novel search capabilities such as [structural search](https://learn.sourcegraph.com/how-to-use-structural-search-in-sourcegraph) and [diff/commit search](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6MTI=).
 
-<!-- TODO: fix up docs link to go to Notebooks when docs PR is merged -->
+The Search Product team has a dual mission:
 
-We've launched [Notebooks](https://sourcegraph.com/notebooks?tab=explore) in public beta. You can create and share Notebooks with a free Sourcegraph cloud account. Read more about Notebooks in the [docs](https://docs.sourcegraph.com). This quarter will also see a [Code monitors](https://sourcegraph.com/code-monitoring?visible=4) release featuring a 10,000 repository limit on monitors (a 200x increase), major peformance improvements, multiple actions per monitor, Slack integration, and webhook support.
+- Increasing the value of the search as a platform for other teams to build upon (Code Insights, Batch Changes), with these other team's goals in mind.
+- Building differentiated user-facing products and features of its own.
+
+In addition to the core search experience, the Search Product team's scope includes [Code monitors](https://docs.sourcegraph.com/code_monitoring) and [Notebooks](https://sourcegraph.com/notebooks?tab=explore). Today, all products and features in Search Product's scope are included in every Sourcegraph contract.
+
+Over the past year, we’ve spent a significant amount of time cleaning up and improving the search backend. These efforts include, but are not limited to:
+
+- Implementing streaming across backends to minimize latency and memory usage
+- Partitioning search code into different domains and stages to manage complexity
+- Simplifying and unifying search result types
+
+Having just launched [Notebooks](https://docs.sourcegraph.com/notebooks) at the end of Q1, we anticipate to actively engage with new customers who purchased Sourcegraph because of them. We plan to take advantage of customer enthusiasm to create tight feedback loops between them and the team.
+
+We will also actively promote our experimental project, Compute, internally to Sales and Marketing and partner with them to engage with customers and get early product direction from the market.
 
 ## What's next and why
 
-#### Goals
+Over the next quarter, Search Product will focus on foundational work (generalizing the search backend to make it more powerful for internal consumers, and taking a fresh look at the core search UX) and conducting research to inform an improved search experience.
 
-Sourcegraph needs to continue to differentiate its core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search. We must provide compelling solutions for the most pressing use cases of our customers. Our goal is to ensure the base Sourcegraph platform (currently Search, Notebooks, and Code monitors) continues to become more compelling and differentiated and supports future innovation from our team and across Sourcegraph.
+### Foundational work
 
-Expand the core platform functionality with products and features that address our core [use cases](../../../strategy/use-cases/index.md). Sourcegraph needs to continue to differentiate its core platform beyond code search. Search will always power our platform, but to remain competitive we need to become more than the world's best code search. We must provide compelling solutions for the most pressing use cases of our customers. Our goal is to ensure the base Sourcegraph platform (currently Search, Notebooks, and Code monitors) continues to become more compelling and differentiated and supports future innovation from our team and across Sourcegraph.
+Our planned foundational work falls broadly into two buckets: generalizing the search backend to make it more usable and powerful for internal consumers, and taking a fresh look at the core search UX.
 
-- Support customers in onboarding new developers and sharing best practices, via Notebooks
-- Enable more connectivity to Sourcegraph via webhooks and Slack integration
-- Continue to improve our core platform experience by continuing to invest in the existing products and features, performance, and experimental R&D efforts that leverage our core search competency.
+#### Search backend
 
-#### Details
+The primary goal of these efforts has been to push the backend to a state where it will be maintainable in the face of new features. This is an ongoing process, but we’ve gained significant ground.
 
-**Notebooks** achieve product market fit and enable individual developers and teams to easily document codebases and share best practices across an organization by enhancing Notebooks with sharing and duplication functionality, novel Notebook creation tools, and useful templates. Developers can already embed search results, code snippets and more, in a markdown-based notebook that creates more robust documentation. For example, by using structural search to persistently capture a function and its contents, even if it's moved in the codebase.
+In Q2, we will start to shift the focus of backend work from maintainability to capability and flexibility. This means thinking of “search” more as an API that we provide for internal consumers that exposes all the information needed to build features on top of it. Though search is an API, it's not yet flexible enough to solve all the use cases presented by, for example, Code Insights, and some other proposed user-facing query features. This work is important because it enables development of high-value roadmap items, and the ability to conceive of novel features that weren't possible before.
 
-**Code monitor integrations** will provide the ability to integrate Code monitors with any service that supports webhooks, and will enable multiple actions to be triggered by a Code monitor, including Slack notifications. We've also lifted the current fifty repository limit on monitors to 1,000 repositories, soon to be over 10,000.
+#### Search UX
 
-**Core platform investments** like Notebooks and Code monitoring integrations are how we plan to position Sourcegraph as the code search platform. We need to express the power of our code search through multiple avenues so it's clear why best-in-class code search is a prerequisite for fostering engineering capability. Extending and integrating the core platform products and features to servve our use cases will help the market see both how essential great code search is, and that it's a _part_ of Sourcegraph's value proposition, not its only value proposition.
+Our search language, capabilities and interface have evolved a lot over the past year, as we introduced search predicates, Compute, the search reference, among others. Following these evolutions, we want to take a holistic look at our core search experience. Ensuring our core search experience is high-quality, cohesive and intuitive is vital to Sourcegraph's continued dominance in the code search market.
+
+### Research
+
+Our research efforts will consist of establishing a baseline for UX issues by conducting a UX audit and building an estimated and prioritized design debt and UX roadmap. We will also conduct user research on Notebooks usage to inform its future roadmap.
+
+Despite being research, there will be some delivery related to this work. We plan to release an incremental improvement to the logged-in homepage, refactor the search results UI components, and execute on technical work related to our migration off of the Monaco editor.
+
+We'll also start to explore usage of ML models to enable natural language search, whether through generating query suggestions from natural language, or directly building a natural language search backend. We'll evaluate both approaches, and spike out the work required to get them in front of users. We expect this to be a long-term effort, and as such we are not targeting actual integration into the Sourcegraph product this quarter.
+
+For example, if a user enters:
+
+> Python function for k-means clustering
+
+We'd want to see the model generate a query like:
+
+`file:.\py$ kmeans select:symbol.function`
+
+Learning Sourcegraph's query language is a struggle for many users, to the point that they simply never go beyond using literal search. Anything we can do to reduce the learning curve and improve result quality will have a big impact on user experience and potentially drive more usage.
+
+If successful, this effort would have implications beyond Code Search. Imagine being able to create a Code Insight or a Batch Change with natural language.
 
 #### What we're not working on and why
 
-While we have R&D efforts in various areas, we have no implementation plans for machine learning-based ranking or relevance improvements. ML applications in code search remain a challenge. If we were to invest in this area it would likely be closer to semantic searching than a product like GitHub Copilot. While there's a lot of value in high quality semantic code search, there are also many unique applications that can be unlocked by staying focused on–and continuing to extend–our distinctive approach to code search.
+This quarter, we are largely deferring launching new user-facing features in favor of foundational and research efforts. Q1 was a hugely productive quarter for the team, and we want to let the new products and features that shipped get some usage and garner feedback.
 
 ## Related use cases
 

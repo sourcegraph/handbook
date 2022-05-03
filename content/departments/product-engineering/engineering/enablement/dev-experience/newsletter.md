@@ -376,7 +376,7 @@ Between Sep 21th and Sep 24th, our main branch builds were failing. Due to the d
 
 You can find the detailed report in[Postmortem REVIEW: INC-21 Builds failing on main](https://docs.google.com/document/d/1QlosBcYayKqSeMpVuj-TXrFyxmFsiUyZZ_AM5nUz9OU/edit#), which is now in a reviewable state and open to feedback and any inputs.
 
-We'd like to thank dearly all of those who helped to fix this: [Patrick Dubroy](mailto:patrick@sourcegraph.com), Robert Lin, Eric Fritz, Valery Bugakov, Tomás Senart, [Thorsten Ball](mailto:thorsten@sourcegraph.com), [Dax McDonald](mailto:dax@sourcegraph.com), Geoffrey Gilmore, [Erik Seliger](mailto:erik@sourcegraph.com), [Dave Try](mailto:dave@sourcegraph.com)and JH. With the actions we've proposed in the postmortem, we don't expect such an event to happen in the future.
+We'd like to thank dearly all of those who helped to fix this: Patrick Dubroy, Robert Lin, Eric Fritz, Valery Bugakov, Tomás Senart, [Thorsten Ball](mailto:thorsten@sourcegraph.com), [Dax McDonald](mailto:dax@sourcegraph.com), Geoffrey Gilmore, [Erik Seliger](mailto:erik@sourcegraph.com), [Dave Try](mailto:dave@sourcegraph.com) and JH. With the actions we've proposed in the postmortem, we don't expect such an event to happen in the future.
 
 ### Pipeline improvements
 

@@ -34,7 +34,7 @@ We track support issues from customers on this [board](https://github.com/orgs/s
 
 - The search core team plans its work continuously (we don't do sprints/iterations).
 - Supporting existing customers is critical to our success and can be prioritized ahead of roadmap work.
-- Our [OKR and status updates are tracked using GitHub](https://github.com/orgs/sourcegraph/projects/214/views/11) under the Code Graph tab.
+- Our [OKR and status updates are tracked using GitHub](https://github.com/orgs/sourcegraph/projects/214) under the Code Graph tab.
 
 ## Team syncs, plans and updates:
 
@@ -50,14 +50,14 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 ## Retrospective
 
 - We have a retrospective every two weeks, on Monday. This is a time for us to look back and discuss progress and consider changes to process.
-- Our [action plans and learnings are capture in a document](https://docs.google.com/document/d/1qCSVyu0IU9_w0mpHic3mFS2yqwI1CzZwM9HUp2ySrU4/edit) is where we capture our action items and discussion.
+- Our [action plans and learnings are captured in a document](https://docs.google.com/document/d/1qCSVyu0IU9_w0mpHic3mFS2yqwI1CzZwM9HUp2ySrU4/edit).
 - If we are going to have a sync retrospective, we use a Jamboard to capture everyone's thoughts. The theme for the Jamboard can rotate.
-- If we are going to have a async retrospective, we use the Google Doc above to capture our retro.
+- If we are going to have an async retrospective, we use the Google Doc above to capture our retro.
 
 ## Our Repositories
 
 - [Zoekt](https://github.com/sourcegraph/zoekt) the Zoekt search engine we support and use.
-- [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product
+- [Sourcegraph](https://github.com/sourcegraph/sourcegraph) our product.
 - [Scratchpad](https://github.com/sourcegraph/search-scratch) A place to capture research, thoughts, and ideas.
 
 ## Living the Async Life
@@ -76,7 +76,7 @@ Our team is geographically and timezone diverse. The handbook has a [large page 
 
 ## How We Work
 
-- For support rotation picking up incidental work. Tasks in support backlog to capture this, more intentional work around support and papercuts versus trying to work normally and getting interupted.
+- For support rotation picking up incidental work. Tasks in support backlog to capture this, more intentional work around support and papercuts versus trying to work normally and getting interrupted.
 - Focus on more feature flag driven development to simplify on-premise changes and speed up MTTR for Cloud.
 
 ## On Boarding - [visit the page](./onboarding.md)

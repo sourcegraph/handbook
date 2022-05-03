@@ -51,6 +51,16 @@ Legal onboarding for account executives
 - [Slides](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing)
 - [Quiz](https://forms.gle/zVCaDM8UyMVehEch8)
 
+## Policy updates
+
+### Privacy policy
+
+At least annually, with regular monitoring throughout the year, Legal assesses the need for updates to our [Privacy policy](https://about.sourcegraph.com/privacy), to reflect changes in applicable laws and our data collection, use, storage, and sharing practices. Legal will loop relevant stakeholders into this process.
+
+**Have a Privacy policy update?** Want to document a change in data collection, use, or sharing?
+
+- Add your proposed update in “suggest change” mode on this [staging version](https://docs.google.com/document/d/1dXLuK8sYyZiqpG8iADEgXWqDRtzlkPDgbJAe1jb1Ff0/edit#) and tag our privacy counsel in a comment.
+
 ## Outside counsel
 
 Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
