@@ -210,13 +210,11 @@ More details: https://cloud.google.com/compute/docs/startupscript
 
 Containers logs are persisted in [GCP Logging](https://cloud.google.com/logging) by utilizing the [GCP Logging Driver](https://docs.docker.com/config/containers/logging/gcplogs/).
 
-Let's say you want to check the logs of `sourcegraph-frontend-0` contain.
+Let's say you want to check the logs of `sourcegraph-frontend-0`.
 
-Visit [https://console.cloud.google.com/logs] and ensure you've in the right GCP project. Then you may write the following query
+Visit https://console.cloud.google.com/logs and ensure you're in the right GCP project. Then you may write the following query:
 
 > There's a `Show query` toggle at the top right corner, turn it on
-
-> Learn more about the [query language syntax](https://cloud.google.com/logging/docs/view/building-queries)
 
 ```
 resource.type="gce_instance"
@@ -224,7 +222,7 @@ log_name="projects/sourcegraph-managed-dev/logs/gcplogs-docker-driver"
 jsonPayload.container.name : sourcegraph-frontend-0
 ```
 
-### Fix corrupted repo on `gitserver`
+> Learn more about the [query language syntax](https://cloud.google.com/logging/docs/view/building-queries)
 
 Context of why this exists:
 
@@ -233,19 +231,20 @@ Context of why this exists:
 
 A broken repo can be identified by
 
-- Checking https://sourcegraph.example.com.com/site-admin/repositories?status=failed-fetch
+- Checking https://sourcegraph.example.com/site-admin/repositories?status=failed-fetch
 - `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
 
-Once you have identified a repo is constantly failing to be updated/fetched, run the following script
+Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
 
-Set up env vars
+1. Set up env vars
 
-```sh
-export PROJECT_PREFIX=sourcegraph-managed
-export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
-export CUSTOMER=<customer_or_instance_name>
-```
+   ```sh
+   export PROJECT_PREFIX=sourcegraph-managed
+   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+   export CUSTOMER=<customer_or_instance_name>
+   ```
+2. Run the following script
 
-```sh
-./util/fix-dirty-repo.sh github.com/org/repo
-```
+   ```sh
+   ./util/fix-dirty-repo.sh github.com/org/repo
+   ```
