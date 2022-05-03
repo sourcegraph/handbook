@@ -21,10 +21,13 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
   - [CLA bot](https://github.com/sourcegraph/clabot-config)
   - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
-- Core libraries
+- Backend platform
   - [`lib/errors`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/errors): error types for Sourcegraph backend services
   - [`lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log): standardized logging for Sourcegraph backend services + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_logging)
   - [`internal/observation`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/observation): all-in-one operation-oriented observability primitives + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_observability)
+  - Supporting test standards and infrastructure
+  - Packaging infrastructure (e.g. base Docker images)
+  - [SOC2 compliance](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=) regarding software development lifecycles, testing, and continuous integration
 - Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
     - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
