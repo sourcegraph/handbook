@@ -25,7 +25,7 @@ If you have an idea to submit but you don't want to write it, you can still subm
 1. When you are ready, please @ mention the Content team members listed in the issue template. An editor will be assigned and will give you feedback on your idea.
 1. Next we'll decide on a timeline together and discuss any images or graphics that you want to include so we can organize design work.
 1. First draft is submitted by the first draft deadline.
-1. An editor and/or peer reviewer is completed by the first draft review deadline. Please reference the [peer review template](https://docs.google.com/document/d/1KHFMIGmbmDPsE8EYPAf4DPD6kek_1dRnKf49wG5foU0/edit) when conducting your review. You do not need to answer every reflection question. This is a guide to help you provide useful and actionable feedback to the author.
+1. An editor and/or peer reviewer is completed by the first draft review deadline. The peer reviewer should focus on the coherence, technical accuracy, and impact of the post.
 1. A second draft is submitted. This may be your final draft. If there are still issues to resolve, your editor may request a third draft.
 1. The editor does a final copyedit.
 1. Once the final draft is approved by you and your editor, it will be staged and/or scheduled for release.
