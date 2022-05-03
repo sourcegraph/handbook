@@ -32,7 +32,7 @@ To achieve our vision of FY23 we will undertake initiatives across the themes li
 
 With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and and understanding what the data tells us from each of these initiatives to ensure we don’t just blindly follow our roadmap, but treat each initiative as a decision point to re-evaluate the path forward.
 
-### Developer Productivity & Happiness
+### Developer Happinessv & Efficacy
 
 One of the keys to reliably pushing code into the wild is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
 Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standarde our test tooling and measure and monitor test effectiveness.
