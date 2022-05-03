@@ -205,3 +205,21 @@ sudo google_metadata_script_runner --script-type startup --debug
 WARNING: Running our startup script twice is a potentially harmful action, as it is usually only ran once.
 
 More details: https://cloud.google.com/compute/docs/startupscript
+
+### Viewing container logs
+
+Containers logs are persisted in [GCP Logging](https://cloud.google.com/logging) by utilizing the [GCP Logging Driver](https://docs.docker.com/config/containers/logging/gcplogs/).
+
+Let's say you want to check the logs of `sourcegraph-frontend-0` contain.
+
+Visit [https://console.cloud.google.com/logs] and ensure you've in the right GCP project. Then you may write the following query
+
+> There's a `Show query` toggle at the top right corner, turn it on
+
+> Learn more about the [query language syntax](https://cloud.google.com/logging/docs/view/building-queries)
+
+```
+resource.type="gce_instance"
+log_name="projects/sourcegraph-managed-dev/logs/gcplogs-docker-driver"
+jsonPayload.container.name : sourcegraph-frontend-0
+```
