@@ -16,7 +16,7 @@ Realizing this vision is vital in enabling other teams at Sourcegraph to deliver
 
 More recently, issues with supporting enterprise customers and providing value to them faster have highlighted opportunities to provide our teams with better tools, processes, and services.
 
-By the end of FY23 we intend to reduce the ramp time for new engineers and increase efficacy of all engineers in our team by making the following true: 
+By the end of FY23 we intend to reduce the ramp time for new engineers and increase efficacy of all engineers in our team by making the following true:
 
 - The Sourcegraph application, its runtime environment, and build and deploy pipelines are easily observable.
 - Our CI pipeline is fast and consistent.
