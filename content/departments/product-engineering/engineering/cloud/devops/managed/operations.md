@@ -223,3 +223,29 @@ resource.type="gce_instance"
 log_name="projects/sourcegraph-managed-dev/logs/gcplogs-docker-driver"
 jsonPayload.container.name : sourcegraph-frontend-0
 ```
+
+### Fix corrupted repo on `gitserver`
+
+Context of why this exists:
+
+- https://github.com/sourcegraph/sourcegraph/issues/25264
+- https://github.com/sourcegraph/customer/issues/887
+
+A broken repo can be identified by
+
+- Checking https://sourcegraph.example.com.com/site-admin/repositories?status=failed-fetch
+- `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
+
+Once you have identified a repo is constantly failing to be updated/fetched, run the following script
+
+Set up env vars
+
+```sh
+export PROJECT_PREFIX=sourcegraph-managed
+export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+export CUSTOMER=<customer_or_instance_name>
+```
+
+```sh
+./util/fix-dirty-repo.sh github.com/org/repo
+```
