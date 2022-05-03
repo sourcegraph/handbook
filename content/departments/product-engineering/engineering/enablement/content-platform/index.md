@@ -29,7 +29,6 @@ The Content Platform team has the following customers:
 1. Product department: The docs site
 1. Docs team: The docs site
 
-
 ## Principles
 
 We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
