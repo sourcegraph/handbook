@@ -16,7 +16,6 @@ The current existing content platforms include:
 - [Handbook](https://handbook.sourcegraph.com)
 - [Docs](https://docs.sourcegraph.com)
 
-
 ## Roadmap
 
 In the next six months, we will focus primarily on improving the self-service ability of the marketing site and blog for the Marketing department.
