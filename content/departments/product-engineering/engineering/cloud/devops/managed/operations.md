@@ -224,6 +224,8 @@ jsonPayload.container.name : sourcegraph-frontend-0
 
 > Learn more about the [query language syntax](https://cloud.google.com/logging/docs/view/building-queries)
 
+### Fix corrupted repo on `gitserver`
+
 Context of why this exists:
 
 - https://github.com/sourcegraph/sourcegraph/issues/25264
