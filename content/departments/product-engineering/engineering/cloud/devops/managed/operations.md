@@ -243,6 +243,7 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    export CUSTOMER=<customer_or_instance_name>
    ```
+
 2. Run the following script
 
    ```sh
