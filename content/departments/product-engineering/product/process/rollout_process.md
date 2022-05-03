@@ -61,7 +61,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 ### After merge, before launch
 
-1. **Gather internal feedback:** Enable the feature flag in the [Sourcegraph organization settings](https://sourcegraph.com/organizations/sourcegraph/settings) to enable your feature for all Sourcegraph team members. Be sure to leave enough time for folks to experience the feature in their workflows and provide feedback. the #feedback-dogfood channel is a great place to ask for internal feedback.
+1. **Gather internal feedback:** Enable the feature flag in the [Sourcegraph organization settings](https://sourcegraph.com/organizations/sourcegraph/settings) to enable your feature for all Sourcegraph team members. Be sure to leave enough time for folks to experience the feature in their workflows and provide feedback. The #feedback-dogfood channel is a great place to ask for internal feedback.
 1. **Analytics:** Validate logging is working for critical flows
 1. **Approvals:** Receive approval from key stakeholders.
 1. **Bug Tracking:** Keep track of all feedback.
