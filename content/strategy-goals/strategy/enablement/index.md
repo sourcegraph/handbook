@@ -36,15 +36,19 @@ With each initiative we undertake we expect to learn more about what the right s
 One of the keys to reliably pushing code into the wild is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
 Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standarde our test tooling and measure and monitor test effectiveness.
 
-### Observability improvements
+### Customer Driven Quality
+
+When our customers interact with our product as an end user or administrator they immediately feel the impact of our core development practices and framework.  We want to ensure our customer's experience with our product is the best it can be and therefore we rely heavily on having quality engineering practices.  This year we are focused on improving in the following three key areas.
+
+#### Observability Improvements
 
 Enable our engineers (software, application, and customer engineers) to answer arbitrary questions about a specific Sourcegraph instance without having to know ahead of time what they would need to ask. We need to ensure that our application is built deliberately with rich instrumentation providing clear insight into the running of the application. Customers will also be able to leverage this telementry for their own trouble shooting.
 
-### Enhanced User Experience
+#### Enhanced User Experience
 
 Code host connectivity, scalability, and reliability underpin all other features within Sourcegraph. We need to ensure Sourcegraph can handle the size and quantity of repositories that future customers own and ensure we can meet any performance requirements customers have that impact code host connections and code storage.
 
-### Accessibility
+#### Accessibility
 
 Today, the Sourcegraph web application does not comply with current WCAG guidelines. Ensuring our web application becomes--and stays--compliant is essential not just because we have current contractual obligations to do so, but also because: 1) We believe in the value of making our application compliant in furthering our mission 2) Compliance be a requirement of future clients and can be a unique selling point.
 
