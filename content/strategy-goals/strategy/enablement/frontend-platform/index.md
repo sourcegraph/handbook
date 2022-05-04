@@ -19,15 +19,11 @@ Using and developing Sourcegraph is effortless.
 
 See also our [completed goals](../../../../departments/product-engineering/engineering/enablement/frontend-platform/goals_completed.md).
 
-### FY23 Q1
+### FY23 Q2
+
+In Q2 we'll tackle the meat of our WCAG accessibility requirements by working with frontend teams to audit and improve their areas of ownership. Because quarterly DevX surveys report "codebase inconsistency" as a contributor to poor developer experience at Sourcegraph, we'll focus on migrations that standardize our frontend code (including bringing WCL over the finish line!) and setup automations to prevent regressions. Finally, we'll work with backend teams to introduce more actionable observability tooling that helps teams know how to find problems and fix them quickly.
 
 - [Complete V2 of Wildcard Component Library](https://github.com/sourcegraph/sourcegraph/issues/31204)
-
-- [Refactor E2E testing](https://github.com/sourcegraph/sourcegraph/issues/31206)
-
-- [Documentation and planning on WCAG 2.1 AA compliance](https://github.com/sourcegraph/sourcegraph/issues/31200)
-
-### FY23 Q2
 
 - [Improve consistency in Sourcegraph's frontend codebase](https://github.com/sourcegraph/sourcegraph/issues/33123)
 

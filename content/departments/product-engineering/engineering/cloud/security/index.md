@@ -21,6 +21,10 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 
 See [security goals and priorities](../../../../../strategy-goals/strategy/cloud/security/index.md)
 
+## Interviews
+
+- [Application security walkthrough](./appsec-walkthrough.md)
+
 ## Onboarding
 
 - New members [onboarding guide](./security-onboarding.md)
@@ -205,7 +209,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Cloud Saas
+   <td>IAM and Admin Experience
    </td>
    <td>Feroz
    </td>

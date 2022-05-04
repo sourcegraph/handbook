@@ -2,43 +2,39 @@
 
 ## Who we are
 
-Customer Training Engineers (CTE), within Customer Engineering (CE), will be responsible for defining, creating, delivering, and subsequently overseeing through continuous iteration the way we train, onboard, and enable our customers to help them achieve long term success with Sourcegraph.
+Customer Training Engineers (CTE), within Customer Engineering (CE), are specialized experts focused first and foremost on customer training and enablement. Our team will define, build, and maintain all aspects of external training, starting with our Enterprise customers first. This includes the definition (and continued iteration) of the strategy and standardization of our customer-facing training methodology and curriculum to support that strategy.
 
-This team will train our CEs on how to deliver customers with consistent, relevant, and timely training and enablement materials, in addition to hosting webinars and training sessions themselves.
+Customer Training resides within the larger CE organization but is not aligned to a particular region, market, or segment. Our work seeks to impact the global CE org and eventually, every single customer.
 
-Finally, this team will establish how we onboard new CEs and continuously train and enable our existing team in an ongoing manner.
-
-## Team Composition
-
-To establish a scalable, successful training team and program for our customers and our CE team there’s a combination of strategic and tactical activities that are necessary. The initial team will lay the foundation for long term success by combining experience and perspective directly building, implementing, and delivering a training curriculum for developers with in-depth knowledge of Sourcegraph and our customers as a subject matter expert. No single person possesses all of these critical attributes, and success is deeply dependent on inputs from the broader CE organization. Rather than straining our team with competing priorities, limited resources, and missing inputs, the most ideal structure will have a few individuals fully focused on building this program with complementary skill sets: subject matter expertise and technical training philosophies.
-
-As this team / initiative takes off, there are some parallel efforts or low hanging fruit that may be achievable in the near term as a milestone 0. Some potential initial activities include: formation of customer education / customer experience guild; team / program charter definition; collating collateral across the company (from CE, Sales, Marketing, Product) whose intended audience is our developer users; stakeholder interviews to collect needs; reviving ongoing customer webinars.
-
-The CTE team will publish a roadmap and have OKRs for transparent reporting out.
-
-## Year 1 Vision & Milestones
-
-The roadmap will include a combination of both near-term and long-term activities required to establish a successful, scalable Training program in support of our CEs and our customers.
-
-Some probable or potential milestones include: trial enablement program, new customer onboarding, ongoing enablement (self-service and synchronous), established mechanism for feedback / results, metrics definition and subsequent measurement & reporting system, new CE onboarding, ongoing CE enablement. Each milestone will have a single DRI (directly responsible individual) associated with it and that DRI is the overall owner and accountable party for decisions and delivery on that milestone.
-
-### Initial Success Metrics
-
-As the Customer Training program is rolled out, success will be quantified by measurable outcomes and future iterations dictated based on metrics. It will be important to consider and have these metrics in mind so that as systems are being put into place, metrics can be established for reporting and tracking purposes.
-
-## Longer Term Vision (1+ year out)
-
-While year 1 is focused on establishing our external-facing Customer Training program, and building out internal training and enablement for the CE team, year 2 and beyond will focus on scale and self-service capabilities. A desired future state is one where our customers are able to self-service the majority of their needs without a dedicated, named Customer Engineer assigned to them.
-
-Success measurements for the Customer Training team long-term will orient around combining training related metrics with customer health data for direct analysis and correlation between how training activities subsequently impact certain behaviors, such as specific usage patterns, higher adoption, overall NPS, and ultimately customer retention.
-
-An important aspect of the longer term vision of the Customer Training team will be an established customer-facing training team that may be utilized to do paid training engagements.
+As an extension of the way we train and enable users, this team will secondarily focus on internal training and enablement of Customer Engineers in support of our customers’ experience. We will train our CEs on how to provide customers with consistent, relevant, repeatable, and timely training and enablement materials (train the trainers) that increase use-case adoption and enables admins and end-users, in addition to occasionally hosting webinars and training sessions ourselves. In time, we expect dedicated Trainers to conduct Enterprise customer training.
 
 ## Team Culture & Norms
 
-- Team Norms (WIP)
-- How we work in support of customers (WIP)
-- How we work with other teams (WIP)
+### Team Norms
+
+Given the team’s small (but mighty) size, the team has an initial focus on self-directed, high-agency work. Teammates are empowered to build connections within the organization in pursuit of aligned goals and are empowered to structure their workday in whatever manner allows them to hit assigned objectives.
+
+The team has a weekly team meeting at which to discuss updates and make decisions that are best handled synchronously. Otherwise, the team makes an effort to default to async communication. The team can be reached using the `@cte` alias in Slack if needed, and uses the `#customer-training` Slack channel.
+
+The team endeavors to come to a clear consensus on the decision-maker for all projects where an identified decision-maker is appropriate and operates from a “disagree and commit” stance (feedback is solicited, but the final decision rests with the identified decision-maker and is committed to by the team, even if individuals disagree with the choice).
+
+The team defaults to direct, private, written feedback.
+
+### How we work in support of customers
+
+Though the CTE org works alongside the CEs and likely will do a significant amount of CE team training internally, the core focus and the goal that that training is intended to drive is improved Enterprise customer outcomes. The metrics associated with improved outcomes are defined by the larger business (following the same ARR north star as other departments unless that changes), but individual projects may be hypothesized to move other metrics in service of the north star. Projects should have an identified metric to evaluate success against (even if qualitative feedback is the metric, it should be collected pre/post).
+
+The team has a primarily strategic focus. Strategic activities include curriculum building, customer education as a whole, and maintaining an open-source repository of documentation, scripts, and more to help customers and CE self-serve. The initial focus for the team will be related to standardizing existing training assets for synchronous webinar trainings conducted by the CEs, and internal enablement for the CE team around delivering these trainings.
+
+Unlike CEs, CTEs are not aligned to specific customers. Work is focused across the Enterprise customer base.
+
+### How we work with other teams
+
+The team can be reached using the `@cte` alias or the [`#customer-training` channel](https://sourcegraph.slack.com/archives/C03EAECEMUZ). The team is also in the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV), however, the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV) is more focused on the actual Customer Engineers, not the CTE sub-team.
+
+The CTE team is part of the [`#user-education-guild`](https://sourcegraph.slack.com/archives/C03AQ3SQ1C0), where they align on customer-facing educational projects from different teams (Marketing, Docs, etc.).
+
+The CTE team is open to requests from the CE team for assets, trainings, etc. that would be useful. CTE will take the requests into account and may choose to assist as time permits, but will primarily be focused on strategic work and may not be available for the generation of one-off assets. In that case, the CE is encouraged to make the asset themselves and share it with the CTE team and the CE team. Requests should be shared in the [`#customer-training` channel](https://sourcegraph.slack.com/archives/C03EAECEMUZ).
 
 ## Internal Team Resources
 

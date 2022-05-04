@@ -7,7 +7,6 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Ben [README](ben-readme.md)
 - Don [README](Don-readme.md)
 - Gabe [README](gabe-readme.md)
-- Giselle [README](giselle-readme.md)
 - Jason [README](jason-readme.md)
 - Kelvin Lee [README](kelvin-lee-readme.md)
 - Mariam [README](mariam-readme.md)
@@ -21,6 +20,7 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Shawnteé [README](shawntee-readme.md)
 - Quinlan [README](quin-readme.md)
 - Sarah [README](sarah-readme.md)
+- Rakesh [README](rakesh-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following to the degree you feel at ease to do so; feel free to add/remove as you see fit:
 

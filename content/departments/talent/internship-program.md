@@ -6,25 +6,25 @@ This will be a 12 week internship program beginning May 16, 2022 and ending Augu
 
 We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
-A full time position may be possible depending on performance and what roles are open at the end of the internship, but it is not guaranteed.
+## Information for Candidates
 
 ### Open Positions
 
 We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
-#### Job Boards we’re Using
+### Job Boards we’re Using
 
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fqti3gmuu2b6800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 
-## Information for Candidates
-
 ### Compensation, Perks, and Equipment
 
 #### Compensation
 
-Varies by role, not location. Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
+Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
+
+We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills. Internships will be paid and follow the same logic as our standard [Compensation Philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md#philosophy).
 
 #### Perks
 
@@ -34,7 +34,7 @@ Varies by role, not location. Prior to opening internship roles, our compensatio
 
 #### Equipment
 
-- We will provide each intern with a [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day.
+- We will provide each intern with a loaner [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
 
 ### Internship Events
 
@@ -46,11 +46,17 @@ SCHEDULE COMING SOON!
 
 #### F1 Student VISA
 
-If you are on a current F1 Student VISA and eligible to work in the US for the duration of the internship program, we will gladly still consider you for our internship roles. If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. Any other VISA requirements will need to be handled between you and your university.
+If you are on a current F1 Student VISA and eligible to work in the US for the duration of the internship program, we will gladly consider you for our internship roles.
+
+If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. All other VISA requirements, including obtaining an I-20 form to authorize CPT work authorization, will need to be handled between you and your university.
 
 Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
 Read more about our VISA policies for full-time employees [here](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance).
+
+### Hiring after the internship
+
+At the end of an internship, a full time position is not guaranteed, but may be possible depending on performance and what roles are open at that time. If the internship does not end with joining Sourcegraph in a full-time position, our team will happily stay in touch with you in case another opportunity arises in the future.
 
 ### Helpful Links
 
@@ -63,7 +69,7 @@ Read more about our VISA policies for full-time employees [here](../people-ops/p
 
 ### Future Internship Cohorts
 
-While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts.
+While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of the internship.
 
 ### How to request an intern for your team
 

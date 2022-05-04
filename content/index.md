@@ -120,6 +120,8 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [Legal](departments/legal/index.md)
 
+### [CTO](departments/cto/index.md)
+
 ### [Tech Ops](departments/tech-ops/index.md)
 
 - [Internal security](departments/tech-ops/process/internal-security/index.md)
