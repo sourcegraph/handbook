@@ -38,7 +38,7 @@ Throughout this year we will work to refine Sourcegraph’s software testing phi
 
 ### Customer Driven Quality
 
-When our customers interact with our product as an end user or administrator they immediately feel the impact of our core development practices and framework.  We want to ensure our customer's experience with our product is the best it can be and therefore we rely heavily on having quality engineering practices.  This year we are focused on improving in the following three key areas.
+When our customers interact with our product as an end user or administrator they immediately feel the impact of our core development practices and framework. We want to ensure our customer's experience with our product is the best it can be and therefore we rely heavily on having quality engineering practices. This year we are focused on improving in the following three key areas.
 
 #### Observability Improvements
 
