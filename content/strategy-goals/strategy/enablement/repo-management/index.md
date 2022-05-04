@@ -12,16 +12,18 @@ Our mission (which we do choose to accept) is to ensure that Sourcegraph’s mos
 
 ## Vision
 
-> Our support of code hosts scales to the biggest companies with minimal customization or friction. Sourcegraph engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization.  Sourcegraph is easily set up to access any code management system, regardless of type. Sourcegraph functionality works with any code, from anywhere.
+> Our support of code hosts scales to the biggest companies with minimal customization or friction. Sourcegraph engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization. Sourcegraph is easily set up to access any code management system, regardless of type. Sourcegraph functionality works with any code, from anywhere.
 
 # Roadmap
 
 [Full list of the tracking issues for Repo Management](https://github.com/orgs/sourcegraph/projects/214/views/21?filterQuery=label%3A%22team%2Frepo-management%22)
 
 ## FY23 Q2
+
 Complete implementation and test the work to support Perforce. Research and validate plans for webhook repo updates, CVS permissions support and Gerrit support. Progress the work on the revised hashing algorithm which will make our repo syncing faster.
 
 ## FY23 Q3
+
 Implement Gerrit & CVS support, release the revised hashing algorithm, complete support for GitHub internal repos, and implement support for webhook repo updates.
 
 # Product Gaps
