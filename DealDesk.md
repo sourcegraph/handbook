@@ -1,6 +1,6 @@
 # Deal Desk
 
-Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components in order to deliver compliant 
+Deal Desk supports Sales on non-standard deal structures, offering collaborative support and guidance on contract components in order to deliver compliant
 documents:
 
 - We coordinate internal approvals of paperwork with other internal stakeholders
