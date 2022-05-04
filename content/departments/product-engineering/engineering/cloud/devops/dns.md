@@ -7,14 +7,14 @@ owned DNS records you should make the change to the code in Terraform in our [so
 1. Navigate to the `dns` folder
 1. Create a file, add the record near the most relevant DNS entries, or modify the existing record
 
-    1. For domains with a large number of TXT records like
+   1. For domains with a large number of TXT records like
       Sourcegraph.com, we typically create a file `sourcegraph.$TXT_PROVIDER.tf`
 
 1. Create a pull request in the repo with your changes
 1. Open [Buildkite](https://buildkite.com/sourcegraph/infrastructure)
 
-    1. Check status of `ci/terraform.sh dns` job and it should pass without error.
-    1. If there is any error, you should consult the logs or reach out to `#cloud-devops`
+   1. Check status of `ci/terraform.sh dns` job and it should pass without error.
+   1. If there is any error, you should consult the logs or reach out to `#cloud-devops`
 
 1. Wait for Buildkite to finish your build
 1. Get approve from the cloud-devops team
