@@ -2,7 +2,7 @@
 
 ## Who we are
 
-Customer Training Engineers (CTE), within Customer Engineering (CE), are specialized experts focused first and foremost on customer training and enablement. Our team will define, build, and maintain all aspects of external training, starting with our Enterprise customers first. This includes the definition (and continued iteration) of the strategy and standardization of our customer-facing training methodology and curriculum to support that strategy.
+Customer Training Engineers (CTE), within Customer Engineering (CE), are specialized experts focused first and foremost on customer training and enablement. Our team will define, build, and maintain all aspects of external training, starting with our Enterprise customers first. This includes the definition (and continued iteration) of the strategy and standardization of our  customer-facing training methodology and curriculum to support that strategy. 
 
 Customer Training resides within the larger CE organization but is not aligned to a particular region, market, or segment. Our work seeks to impact the global CE org and eventually, every single customer.
 
@@ -11,7 +11,6 @@ As an extension of the way we train and enable users, this team will secondarily
 ## Team Culture & Norms
 
 ### Team Norms
-
 Given the team’s small (but mighty) size, the team has an initial focus on self-directed, high-agency work. Teammates are empowered to build connections within the organization in pursuit of aligned goals and are empowered to structure their workday in whatever manner allows them to hit assigned objectives.
 
 The team has a weekly team meeting at which to discuss updates and make decisions that are best handled synchronously. Otherwise, the team makes an effort to default to async communication. The team can be reached using the `@cte` alias in Slack if needed, and uses the `#customer-training` Slack channel.
@@ -26,15 +25,15 @@ Though the CTE org works alongside the CEs and likely will do a significant amou
 
 The team has a primarily strategic focus. Strategic activities include curriculum building, customer education as a whole, and maintaining an open-source repository of documentation, scripts, and more to help customers and CE self-serve. The initial focus for the team will be related to standardizing existing training assets for synchronous webinar trainings conducted by the CEs, and internal enablement for the CE team around delivering these trainings.
 
-Unlike CEs, CTEs are not aligned to specific customers. Work is focused across the Enterprise customer base.
+Unlike CEs, CTEs are not aligned to specific customers. Work is focused across the Enterprise customer base. 
 
 ### How we work with other teams
 
-The team can be reached using the `@cte` alias or the [`#customer-training` channe](https://sourcegraph.slack.com/archives/C03EAECEMUZ). The team is also in the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV), however, the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV) is more focused on the actual Customer Engineers, not the CTE sub-team.
+The team can be reached using the `@cte` alias or the [`#customer-training` channel](https://sourcegraph.slack.com/archives/C03EAECEMUZ). The team is also in the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV), however, the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV) is more focused on the actual Customer Engineers, not the CTE sub-team.
 
-The CTE team is part of the [`#user-education-guild`](https://sourcegraph.slack.com/archives/C03AQ3SQ1C0), where they align on customer-facing educational projects from different teams (Marketing, Docs, etc.).
+The CTE team is part of the [`#user-education-guild`](https://sourcegraph.slack.com/archives/C03AQ3SQ1C0), where they align on customer-facing educational projects from different teams (Marketing, Docs, etc.). 
 
-The CTE team is open to requests from the CE team for assets, trainings, etc. that would be useful. CTE will take the requests into account and may choose to assist as time permits, but will primarily be focused on strategic work and may not be available for the generation of one-off assets. In that case, the CE is encouraged to make the asset themselves and share it with the CTE team and the CE team. Requests should be shared in the [`#customer-training` channe](https://sourcegraph.slack.com/archives/C03EAECEMUZ).
+The CTE team is open to requests from the CE team for assets, trainings, etc. that would be useful. CTE will take the requests into account and may choose to assist as time permits, but will primarily be focused on strategic work and may not be available for the generation of one-off assets. In that case, the CE is encouraged to make the asset themselves and share it with the CTE team and the CE team. Requests should be shared in the [`#customer-training` channel](https://sourcegraph.slack.com/archives/C03EAECEMUZ).
 
 ## Internal Team Resources
 
