@@ -167,27 +167,23 @@ See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561
 
 **Note**: This method only permits read-only access
 
-### Restarting about.sourcegraph.com and docs.sourcegraph.com
+### Restarting docs.sourcegraph.com
 
-To restart the services powering about.sourcegraph.com and docs.sourcegraph.com:
+To restart the services powering docs.sourcegraph.com:
 
-1. List the active pods with `kubectl get pods`. This should produce a list that includes items like the following:
+Configure kubectl context to the dotcom cluster
 
-   ```
-   NAME                                     READY   STATUS      RESTARTS   AGE
-   about-sourcegraph-com-74f96c659b-t6lqp   1/1     Running     0          7m49s
-   docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s
-   ```
+```sh
+gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev
+```
 
-   The exact names will differ, but the general format will be the same.
+Rollout a restart
 
-1. Delete the pods, being careful to copy the exact names from the output in the previous step. For example, with that output, you would run:
+```sh
+kubectl -n default rollout restart deploy docs-sourcegraph-com
+```
 
-   ```
-   kubectl delete pod about-sourcegraph-com-74f96c659b-t6lqp docs-sourcegraph-com-5f97dd5db-7wrxm
-   ```
-
-1. Wait a moment, and check https://about.sourcegraph.com/ and https://docs.sourcegraph.com/.
+Wait a moment, and check https://docs.sourcegraph.com/.
 
 ### Creating banners for maintenance tasks
 
