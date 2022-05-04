@@ -4,7 +4,7 @@ This page outlines the vision, strategy, and goals of the [Dev Experience team](
 
 ## Mission
 
-Make it so that every developer feels empowered to be productive in contributing to the Sourcegraph application.
+Empower every developer to be productive in contributing to the Sourcegraph application.
 
 ## Vision
 
@@ -39,43 +39,32 @@ Linking a step to any scripts that may be run, should not be a tedious task that
 
 What is being run, how and when must be very clear. Otherwise, it introduces friction that prevents new engineers from debugging existing steps, which puts pressure on the engineers who have been around longer.
 
-## Guiding principles
-
-We inherit Sourcegraph's [engineering principles and practices](../../../../departments/product-engineering/engineering/process/principles-and-practices.md) and [Enablement org's principles and practices](../../../../departments/product-engineering/engineering/enablement/index.md#principles-and-practices). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
-
-- **We don't own the developer experience at Sourcegraph – we simply focus on it.** Sourcegraph engineers own the developer experience as a collective.
-- **We ship open products.** Our products are open to contributions to anyone in the company, documented, and provide migration paths if necessary. Our decisions are clearly and publicly communicated for everyone to understand our reasoning. We want to make it simple for everyone to benefit from and work on Sourcegraph’s developer experience.
-- **We bandage first, then plan for surgery.** Fix local problems first, then generalize if and only if it makes sense.
-  - What we cannot take upon right now, we make its status clear and provide stewardship.
-    - We should never refuse to fix a "now" problem in favour of a long-term solution, only to cancel the fix because the priorities changed in between. More than not addressing the issue at hand, it prevents our users from fixing the problem for themselves in the meantime.
-  - We deliver small and iterative experiments and collect feedback. We communicate regularly on their status to enable others to provide inputs. We should reap the benefits of what we work on as we go, not at the end.
-- **We listen and observe.** Our users often know best what's immediately good for them because they are the ones experiencing it every day.
-  We are not a dependency. We actively seek to avoid blocking product teams. We focus on improving and expediting progress, not being critical to it.
-
-## Measuring success
-
-To help us understand if we’re going in the right direction and to measure the progress we’re making, we want to use the following indicators:
-
-- 🎯 The main pipeline is consistently green for at least 23 hours/day
-- 🎯 Red builds on the pipeline are caused by legitimate test failures, not the lower level infrastructure they're running on
-- 🎯 Total build time on main is within ~5 minuts of previous deployment model
-
 ## Roadmap
 
-### FY23 Q1
+[Full list of roadmap issues for Dev Experience](https://github.com/orgs/sourcegraph/projects/214/views/14?filterQuery=owning-org%3AEnablement+owning-team%3A%22Dev+Experience%22)
 
-- [Improve CI stability](https://github.com/sourcegraph/sourcegraph/issues/31003)
+See also our [completed goals](../../../../departments/product-engineering/engineering/enablement/dev-experience/goals_completed.md).
 
-- [SOC2 Compliance](https://github.com/sourcegraph/sourcegraph/issues/31008)
+### FY23 Q2
+
+Improved observability tooling is a major, company-wide priority in Q2 and we'll be focusing the majority of our efforts on standardized logging and error monitoring. For this quarter, we largely aim to agree and begin implementation on the best path forward. Deliverables include: documented consensus on the preferred logging and error packages, guidance on conventions and usage, and complete migration of at least one service. We'll also be wrapping up the CI/CD pipeline observability work that is 83% complete as of the end of Q1.
+
+- [CI/CD pipeline steps are all observable and measurable](https://github.com/sourcegraph/product-engineering-tracker/issues/74)
+
+- [CI key result metrics are centralized and aggregated in reports](https://github.com/sourcegraph/sourcegraph/issues/33242)
 
 - [Improve engineering onboarding: tooling](https://github.com/sourcegraph/sourcegraph/issues/31005)
 
-- [Improve support for application developer experience](https://github.com/sourcegraph/sourcegraph/issues/31006)
+- [All Sourcegraph components can export uniform, structured logs](https://github.com/sourcegraph/sourcegraph/issues/33192)
 
-### Next (6–12 months)
+- [All Sourcegraph components can easily raise runtime errors for debugging](https://github.com/sourcegraph/sourcegraph/issues/33240)
 
-- [Standardize logging, metrics, and errors](https://github.com/sourcegraph/sourcegraph/issues/30552)
+### FY23 Q3
 
-- Standardize code checks and testing
+In Q3, we'll expand on the previous quarter's observability effort by completing logging and error monitoring migrations and introducing similar packages for metrics and traces.
 
-- Improve incident detection on Sourcegraph Cloud
+- [All Sourcegraph components can export standardized sets of metrics](https://github.com/sourcegraph/sourcegraph/issues/33241)
+
+- [All Sourcegraph components can export standardized traces](https://github.com/sourcegraph/sourcegraph/issues/34796)
+
+- [Complete migrations for error monitoring](https://github.com/sourcegraph/sourcegraph/issues/34795)

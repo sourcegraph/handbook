@@ -5,6 +5,8 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Aimee Menne [README](aimee-readme.md)
 - Bob Roudebush [README](bob-readme.md)
 - Greg Seador [README](greg-readme.md)
+- Emily Chapman [README](emily-readme.md)
+- Thomas Hughes [README](thomas-readme.md)
 
 The format, style, order, etc is up to each of us. Just make sure to include the following:
 

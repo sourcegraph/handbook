@@ -205,3 +205,49 @@ sudo google_metadata_script_runner --script-type startup --debug
 WARNING: Running our startup script twice is a potentially harmful action, as it is usually only ran once.
 
 More details: https://cloud.google.com/compute/docs/startupscript
+
+### Viewing container logs
+
+Containers logs are persisted in [GCP Logging](https://cloud.google.com/logging) by utilizing the [GCP Logging Driver](https://docs.docker.com/config/containers/logging/gcplogs/).
+
+Let's say you want to check the logs of `sourcegraph-frontend-0`.
+
+Visit https://console.cloud.google.com/logs and ensure you're in the right GCP project. Then you may write the following query:
+
+> There's a `Show query` toggle at the top right corner, turn it on
+
+```
+resource.type="gce_instance"
+log_name="projects/sourcegraph-managed-dev/logs/gcplogs-docker-driver"
+jsonPayload.container.name : sourcegraph-frontend-0
+```
+
+> Learn more about the [query language syntax](https://cloud.google.com/logging/docs/view/building-queries)
+
+### Fix corrupted repo on `gitserver`
+
+Context of why this exists:
+
+- https://github.com/sourcegraph/sourcegraph/issues/25264
+- https://github.com/sourcegraph/customer/issues/887
+
+A broken repo can be identified by
+
+- Checking https://sourcegraph.example.com/site-admin/repositories?status=failed-fetch
+- `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
+
+Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
+
+1. Set up env vars
+
+   ```sh
+   export PROJECT_PREFIX=sourcegraph-managed
+   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+   export CUSTOMER=<customer_or_instance_name>
+   ```
+
+2. Run the following script
+
+   ```sh
+   ./util/fix-dirty-repo.sh github.com/org/repo
+   ```

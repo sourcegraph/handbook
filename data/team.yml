@@ -17,6 +17,7 @@ beyang_liu:
   reports_to: ceo
   location: San Francisco, CA, USA 🇺🇸
   email: beyang@sourcegraph.com
+  github: beyang
   links: '[@beyang](https://twitter.com/beyang), [LinkedIn](https://www.linkedin.com/in/beyang-liu)'
   description: Beyang Liu is CTO and cofounder of Sourcegraph. Prior to Sourcegraph, Beyang was a software engineer at Palantir Technologies, where he developed new data analysis software on a small, customer-facing team working with Fortune 500 companies. Beyang studied Computer Science at Stanford, where he published research in probabilistic graphical models and computer vision at the Stanford AI Lab and thoroughly enjoyed his compilers course.
 
@@ -2732,16 +2733,6 @@ eugenia_fernandez:
   links: '[LinkedIn](https://www.linkedin.com/in/eugeniafernandez/)'
   description: 'Eugenia grew up in Uruguay and currently lives in Sao Paulo, Brazil with her husband. She worked as a data scientist for a number of years before making the switch to product manager. Outside of work, she enjoys cooking and baking, reading books, and traveling.'
 
-marcos_serna:
-  name: Marcos Serna
-  role: Enterprise Account Executive
-  location: Austin, TX, USA 🇺🇸
-  email: marcos.serna@sourcegraph.com
-  reports_to: vp_sales_western_region
-  links: '[Linkedin](https://www.linkedin.com/in/marcosserna/)'
-  pronouns: '[he/him](http://pronoun.is/he)'
-  description: 'Marcos grew up in Albuquerque, NM and currently resides in Austin, TX. Prior to Sourcegraph, Marcos helped build out the Corporate Sales team at Okta and was a 4X AE of the quarter and AE of the year in 2021. Marcos graduated as Valedictorian with a dual major in Finance and Entrepreneurship from the University of New Mexico. Outside of work, Marcos can be found running, cycling or swimming in Austin (he was a Pro Triathlete for 2 years), interviewing someone for his SalesLife podcast or wood carving.'
-
 chris_warwick:
   name: Chris Warwick
   role: Software Engineer
@@ -2936,3 +2927,13 @@ rakesh_joshi:
   pronouns: He/Him
   links: '[LinkedIn](https://www.linkedin.com/in/rakesh-joshi-62a56416)'
   description: Rakesh is an application support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
+
+maxim_pimenov:
+  name: Maxim Pimenov
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_search_core
+  location: Moscow, Russia 🇷🇺
+  github: mpimenov
+  email: maxim.pimenov@sourcegraph.com
+  description: Prior to Sourcegraph, Maxim helped building the best mobile app for offline maps. Apart from programming at work, he enjoys programming during his spare time.
