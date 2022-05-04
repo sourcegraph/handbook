@@ -20,6 +20,8 @@ This will involve coordinating with multiple teams to get all the data deleted f
 
 1a. If the request is for a Sourcegraph.com account, engage [one of your teammates who has access](../tools/index.md#sourcegraphcom-admin-access) (it requires site admin). Inform the customer that you can only remove the username associated with the email they submitted the request from.
 
+_If no teammates with site admin access are available, then notify the customer that the account will be deleted by the end of the week/the end of next week (depending on when the request is made). Engage one of your teammates when possible and confirm with the customer once the account is deleted._
+
 1b. If the request is for a customers' on-prem instance, the site admin of that instance is the only one who can perform that action and they will need to follow the steps outlined here.
 
 2. Look up the username associated with the email address using [this GraphQL query](<https://sourcegraph.com/api/console#%7B%22query%22%3A%22%7B%5Cn%20%20user(email%3A%20%5C%22somebody%40somewhere.com%5C%22)%20%7B%5Cn%20%20%20%20username%5Cn%20%20%20%20emails%20%7B%5Cn%20%20%20%20%20%20email%5Cn%20%20%20%20%20%20verified%5Cn%20%20%20%20%7D%5Cn%20%20%7D%5Cn%7D%5Cn%22%7D>).
