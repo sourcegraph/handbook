@@ -130,11 +130,13 @@ Any questions about Batch Changes should be routed to the [Batch Changes team](.
 
 **Keywords**: `cloud`, `Open Source Search`, `sourcegraph.com`, `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-The cloud team is a newly formed team at Sourcegraph focused on rapidly scaling our cloud presence. Today, the team is the DRI for all things cloud including DevOps/infra for cloud, new feature development, and early-access/waitlist programs for cloud.
+Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../product-engineering/engineering/cloud/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
 
-The cloud team is also responsible for all matters authentication and authorization within Sourcegraph.
+### IAM and Admin Experience
 
-Any questions about Sourcegraph cloud should be routed to the [Cloud SaaS](../../product-engineering/engineering/cloud/saas/index.md) via the [#cloud-saas slack channel](https://sourcegraph.slack.com/archives/C025BKWFPDY).
+**Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
+
+Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM and Admin Experience team](../../product-engineering/engineering/cloud/iam-and-admin-exp/index.md) via the [#iam-and-admin-exp slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
 
 ### Code Insights
 

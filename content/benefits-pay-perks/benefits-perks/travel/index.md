@@ -150,7 +150,6 @@ We advise spending within reason for the location you are visiting, with a $300 
 - Economy class is recommended for booking all travel. _(If you need any higher tier of booking, reach out to Finance/People Ops for approval.)_
 - Travelers must book flights at least 30 days in advance to avoid premium airfare pricing. _(If you need to book a flight on short notice, reach out to Finance/People Ops for approval.)_
 - Book from travel providers that offer flexible cancellation policies and refundable rates, should your plans change at any time.
-- We strongly encourage obtaining travel insurance, especially in the Covid environment.
 - Sourcegraph will pay for flight to and from locations. Any changes made to your itinerary to extend your trip and change your flight itinerary will be out of pocket expenses.
 - At this time, we do not reimburse airport traveler programs, such as TSA-Pre, Global Entry, or Clear.
 - Gas and parking would be considered reimbursable within the applicable budget (Category 2,3,5) travel.

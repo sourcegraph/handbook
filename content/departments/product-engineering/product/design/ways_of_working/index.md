@@ -6,7 +6,7 @@ Generally speaking, these can be described as working as embedded designers, and
 
 ## Working as embedded designers
 
-We prefer to work as embedded designers whenever possible. In this way of working, a product designer is a member of a given cross-disciplinary team (like Batch changes, Search product, Growth and Integrations, or Cloud SaaS). Each team has members from engineering, product management, and product design. This team collaborates closely day-by-day to move closer to achieving the team’s goals and long-term vision.
+We prefer to work as embedded designers whenever possible. In this way of working, a product designer is a member of a given cross-disciplinary team (like Batch changes, Search product, Growth and Integrations, or IAM and Admin Experience). Each team has members from engineering, product management, and product design. This team collaborates closely day-by-day to move closer to achieving the team’s goals and long-term vision.
 
 Working as an embedded designer is the best way for us to collaborate end-to-end across our design process.
 When working as an embedded designer in a cross-disciplinary team(s), we join that team’s syncs, planning, retros, and other rituals as needed, and also participate in defining and reaching the team’s OKRs.
