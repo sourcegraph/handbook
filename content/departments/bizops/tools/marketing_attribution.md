@@ -4,18 +4,15 @@
 
 We utilize enhanced touchpoint tracking fields in Hubspot and Salesforce to provide clarity on each marketing campaign (e.g., demo requests, gated content form fills, free product sign-ups, etc.) and where its members were originally sourced from.
 
-Given that each lead can participate in an unlimited number of campaigns and all of these campaign memberships are tracked, we have elected to explicitly record data on only the first and most recent touchpoints within the lead record in Salesforce.  
+Given that each lead can participate in an unlimited number of campaigns and all of these campaign memberships are tracked, we have elected to explicitly record data on only the first and most recent touchpoints within the lead record in Salesforce.
 
+- First Touchpoint fields hold info about the first marketing interaction a prospect has taken
+  - The only time these fields should be blank is when a lead or contact has not had any interactions with marketing content (e.g., an SDR uses LeadIQ to import leads from a target account into SFDC for outreach, etc.). We leave First Touchpoint blank for these leads to account for any future marketing site interactions taken after initial sales outreach.
+- Most Recent Touchpoint fields hold info about the most recent marketing interaction a prospect has taken.
+  - When a lead or contact has only had one interaction with a marketing form, Most Recent Touchpoint fields will match First Touchpoint fields.
+  - Given that Most Recent Touchpoint fields reset with each incremental new marketing form interaction, we currently lose access to previous enhanced touchpoint tracking data once more than two interactions take place (i.e., First Touchpoint will always remain the same but Most Recent Touchpoint will only display the latest action taken and its associated sourcing). The Data and Analytics team is in the process of determining the best way to retain this data through Fivetran, CaliberMind, and BigQuery and this note will be updated once any change is implemented.
 
-
-* First Touchpoint fields hold info about the first marketing interaction a prospect has taken
-    * The only time these fields should be blank is when a lead or contact has not had any interactions with marketing content (e.g., an SDR uses LeadIQ to import leads from a target account into SFDC for outreach, etc.). We leave First Touchpoint blank for these leads to account for any future marketing site interactions taken after initial sales outreach.
-* Most Recent Touchpoint fields hold info about the most recent marketing interaction a prospect has taken. 
-    * When a lead or contact has only had one interaction with a marketing form, Most Recent Touchpoint fields will match First Touchpoint fields. 
-    * Given that Most Recent Touchpoint fields reset with each incremental new marketing form interaction, we currently lose access to previous enhanced touchpoint tracking data once more than two interactions take place (i.e., First Touchpoint will always remain the same but Most Recent Touchpoint will only display the latest action taken and its associated sourcing). The Data and Analytics team is in the process of determining the best way to retain this data through Fivetran, CaliberMind, and BigQuery and this note will be updated once any change is implemented. 
-
-See below for an overview of our current First and Most Recent Touchpoint types: 
-
+See below for an overview of our current First and Most Recent Touchpoint types:
 
 <table>
   <tr>
@@ -84,9 +81,7 @@ Example: SimplyDirect Survey- These prospects filled out a survey offered by Sim
   </tr>
 </table>
 
-
-See below for the enhanced touchpoint tracking fields we collect for each of these categories:  
-
+See below for the enhanced touchpoint tracking fields we collect for each of these categories:
 
 <table>
   <tr>
@@ -157,15 +152,13 @@ Example: use_case_dev_onboarding_guide
   </tr>
 </table>
 
-
 #### CaliberMind Attribution
 
-While the above enhanced touchpoint tracking fields give us insight into which sources drive traffic to our owned sites, Salesforce functionality limits how extensively we can attach these insights to opportunities. For example, in Salesforce, we can only attribute a new qualified opportunity to the one contact that was converted to the opp, leading us to miss out on the many other leads and contacts that often touch an account in its lifecycle. As a result, we have historically had a materially limited view into which specific traffic sources drive new pipeline and ARR.    
+While the above enhanced touchpoint tracking fields give us insight into which sources drive traffic to our owned sites, Salesforce functionality limits how extensively we can attach these insights to opportunities. For example, in Salesforce, we can only attribute a new qualified opportunity to the one contact that was converted to the opp, leading us to miss out on the many other leads and contacts that often touch an account in its lifecycle. As a result, we have historically had a materially limited view into which specific traffic sources drive new pipeline and ARR.
 
-We have implemented CaliberMind in an effort to supplement this limited Salesforce visibility. CaliberMind is a software platform that aggregates all inbound and outbound activities into one place; comprehensive data on contacts, leads, and accounts - as well as the campaigns, channels, and sources that landed, converted, or closed them - provides a comprehensive view into exactly which activities are best performing at generating and closing new deals.  
+We have implemented CaliberMind in an effort to supplement this limited Salesforce visibility. CaliberMind is a software platform that aggregates all inbound and outbound activities into one place; comprehensive data on contacts, leads, and accounts - as well as the campaigns, channels, and sources that landed, converted, or closed them - provides a comprehensive view into exactly which activities are best performing at generating and closing new deals.
 
 Key terms and concepts are defined below:
-
 
 <table>
   <tr>
@@ -227,6 +220,5 @@ opportunity, but not sourced it.
    </td>
   </tr>
 </table>
-
 
 Note: The Data and Analytics team is working on getting this data into BigQuery and our data visualization tools and will update this section with links to sources once that effort is complete.
