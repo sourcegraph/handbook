@@ -16,10 +16,6 @@ While comprehensive training on individual product features is the domain and re
 
 At times, the broad nature of the Growth team's mandate will require that it work within other teams' domains. When this need arises, the Growth team will work with the impacted team by contacting the PM to request reviews of artifacts such as product documents, RFCs, and designs. Additionally, engineers from the affected team should be added as reviewers on any resulting PRs.
 
-### Cloud SaaS
-
-The Cloud team will own user journeys related to the onboarding of teams. This includes flows related to team creation, user invites, and administration.
-
 ## Code Graph responsibilities
 
 Search Core, Search Product, Batch Changes, Code Insights, and Code Intelligence will own user education for their specific product areas. They will collaborate within Code Graph to promote feature discovery in places like search results, repository pages, and other areas of the application where integration opportunities exist.
