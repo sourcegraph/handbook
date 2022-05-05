@@ -1,4 +1,4 @@
-# Headcount Changes
+# Headcount changes
 
 ## How to make a change to headcount plan
 
@@ -13,4 +13,4 @@ In order to do this, the Hiring Manager must get alignment from their department
 
 Once the form has been received, the Recruiter will tag Finance, VP Talent, and Department Head in [Responses: HC Change Form](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=790175108) tab.
 
-Once approved, the Recruiter will make the necessary changes in Greenhouse.
+Once approved, the Recruiter will make the necessary changes in Greenhouse. However, the Recruiter will **not** change the Quarter start date (board plan) or Start date (board plan)
