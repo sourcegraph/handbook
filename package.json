@@ -125,7 +125,7 @@
     "eslint": "^7.32.0",
     "jest": "^27.4.5",
     "line-column": "^1.0.2",
-    "markdown-link-check": "^3.8.7",
+    "markdown-link-check": "^3.10.2",
     "next-sitemap": "^1.6.203",
     "prettier": "^2.6.2",
     "sass": "^1.43.4",
