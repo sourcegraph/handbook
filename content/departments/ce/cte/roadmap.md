@@ -1,6 +1,6 @@
 # Customer Training FY23 Roadmap
 
-Our FY23 focus is to build a world class customer training experience focused on our Enterprise customers. By creating a foundation of consistent training materials and formatting, we will empower the CE org to better serve our Enterprise customer base and our customers to see the most value out of Sourcegraph. 
+Our FY23 focus is to build a world class customer training experience focused on our Enterprise customers. By creating a foundation of consistent training materials and formatting, we will empower the CE org to better serve our Enterprise customer base and our customers to see the most value out of Sourcegraph.
 
 ## FY23 Q2: Foundations
 
@@ -14,7 +14,7 @@ Q2 will be focused on building a strong foundation for our future work. As such,
 
   - How: We’ll establish a shared training repository in GitHub, a template for training materials to follow, and then transfer existing 101, 102, and admin training concepts floating around the team into standard flows. The team will be trained on how to deliver these trainings using a train the trainer model. The Code Security training will be created and added to the demo repo and the CEs will be enabled on it using a train the trainer model, with other use cases to follow.
 
-  - Business Outcomes: 
+  - Business Outcomes:
 
     - 100% of CE team is trained (via train-the-trainer) on foundational user and admin onboarding training block. (DRI: [Emily Chapman](mailto:emily@sourcegraph.com))
     - Ship (and enable 100% of CE via train-the-trainer) on code security training with Sourcegraph. (DRI: [Thomas Hughes](mailto:thomas.hughes@sourcegraph.com))
@@ -27,19 +27,19 @@ Q2 will be focused on building a strong foundation for our future work. As such,
 
   - How: We will create or modify existing playbooks for Kubernetes (without Helm) installs and for high-security environment installs based on known customer challenges. If time permits, we will create or modify existing playbooks for Kubernetes with Helm and Docker Compose installs. We will store these in the standard artifact repository and enable the CEs on them.
 
-  - Business Outcome: 
+  - Business Outcome:
 
     - 5 customers receive admin-specific enablement prior to production set up (DRI: [Thomas Hughes](mailto:thomas.hughes@sourcegraph.com))
 
 - CE enablement
 
-  - What: The CTE team will provide reusable assets for CEs focused on resolving shared, identified needs in service of the CTE team’s overall goals. 
+  - What: The CTE team will provide reusable assets for CEs focused on resolving shared, identified needs in service of the CTE team’s overall goals.
 
   - Why: Though CE enablement isn’t the core focus of the team, there is obvious overlap between CE enablement and a world-class customer training experience for our Enterprise customers. Providing reusable resources which can serve both goals furthers the overall CE org’s agenda.
 
   - How: Within the asset repo, create and share email templates for kickoff of the post-sales onboarding process, share useful sample scripts/cheat sheets/handouts that might accompany a training, and generate other assets as time allows.
 
-  - Business Outcome: 
+  - Business Outcome:
 
     - Produce and deliver at least 3 CE-requested assets in Q2. (DRI: [Emily Chapman](mailto:emily@sourcegraph.com))
 
@@ -48,6 +48,7 @@ Q2 will be focused on building a strong foundation for our future work. As such,
 Q3/Q4 will be focused on continuing to build upon the foundation set in Q2, expanding to the full onboarding experience of customers post-sale closing. We’ll focus on the 90 days after a sale is closed and providing collateral and training as needed based on feedback from the customer’s usage. This collateral and training content will be used by the CE team to continue enabling their customers.
 
 - Create initial 90 day customer enablement onboarding plan
+
   - What: We’ll be building a standard plan of onboarding a customer post-sale close to include which trainings to deliver in which order and use-case specific training
   - Why: There is not currently a standardized onboarding experience for customers. While trainings have existed for Sourcegraph 101, 102, admin, etc: These have not been formally presented in a roll-out plan for a customer to adopt and be officially “onboarded” and move into a more “ongoing” status. Standardizing this process gives a more clear picture of “onboarding” versus “ongoing” and lays a plan out to the customer to achieve their kick-off goals.
   - How: Collaborating with CE management, the CTE team will introduce an enablement plan template that outlines the trainings and outcomes expected for a 90 day roll out plan to a customer.
@@ -59,13 +60,9 @@ Q3/Q4 will be focused on continuing to build upon the foundation set in Q2, expa
   - How: Collateral and training will be made and updated as needed to support ongoing and customer-usage based training needs through an established feedback mechanism from CE to CTE.
   - Measure of Success: CEs are enabled to know which training exists, how to gather and provide feedback on trainings, and when to utilize trainings based on customer feedback and usage data. CTE measures feedback and effectiveness of the trainings.
 
-
-
 ## Near-term Goals
 
 Near term, the Customer Training organization will support the mission of training and enablement opportunities for our enterprise customers. CTEs will formalize the structure and process for course creation, training enablement and delivery, and will begin to staff for delivering formalized training from the CTE org itself, off-loading this from the CE team.
-
-
 
 We anticipate the following initiatives:
 
@@ -82,8 +79,6 @@ We anticipate the following initiatives:
 ## Longer-term Goals
 
 Going forward, the Customer Training organization will continue to support the company’s larger goals and metrics surrounding training and enablement opportunities. CTEs will continue to gather feedback and metrics on the impact of trainings against customer usage and adoption rates, and support the Customer Engineering team in their efforts to enable, onboard, and assist in rolling out Sourcegraph to their customers at scale to all customer segments, in a self-service and automated manner. This will continue to be driven through a world-class training experience through a formal learning management system (LMS), certifications, and more.
-
-
 
 We anticipate the following larger initiatives:
 

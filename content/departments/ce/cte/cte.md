@@ -1,6 +1,6 @@
 # Customer Training Engineers
 
-*For FY23 roadmap and goals, see [our roadmap](roadmap.md).*
+_For FY23 roadmap and goals, see [our roadmap](roadmap.md)._
 
 ## Who we are
 
