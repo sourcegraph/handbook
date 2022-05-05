@@ -28,6 +28,8 @@ The team has a primarily strategic focus. Strategic activities include curriculu
 
 Unlike CEs, CTEs are not aligned to specific customers. Work is focused across the Enterprise customer base.
 
+CTEs are focused on enabling the CEs around customer training, not role-related ("how to be a CE") enablement. The CTE team is not an internal enablement team. Internal enablement and skill-building around the core CE function continues to be owned by CE managers.
+
 ### How we work with other teams
 
 The team can be reached using the `@cte` alias or the [`#customer-training` channel](https://sourcegraph.slack.com/archives/C03EAECEMUZ). The team is also in the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV), however, the [`#ce channel`](https://sourcegraph.slack.com/archives/CU93UDUBV) is more focused on the actual Customer Engineers, not the CTE sub-team.
