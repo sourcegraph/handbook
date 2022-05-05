@@ -1,5 +1,7 @@
 # Customer Training Engineers
 
+*For FY23 roadmap and goals, see [our roadmap](roadmap.md).*
+
 ## Who we are
 
 Customer Training Engineers (CTE), within Customer Engineering (CE), are specialized experts focused first and foremost on customer training and enablement. Our team will define, build, and maintain all aspects of external training, starting with our Enterprise customers first. This includes the definition (and continued iteration) of the strategy and standardization of our customer-facing training methodology and curriculum to support that strategy.
