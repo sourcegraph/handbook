@@ -10,11 +10,11 @@ We also support Marketing, Sales, and all Sourcegraph employees that contribute 
 
 ## Vision
 
-We want to reduce friction through better processes and tooling such that Sourcegraph’s teammates can provide greater value to our customers more reliably and with improved quality.  Realizing this vision is vital in enabling other teams at Sourcegraph to deliver on our Product/Engineering strategy.
+We want to reduce friction through better processes and tooling such that Sourcegraph’s teammates can provide greater value to our customers more reliably and with improved quality. Realizing this vision is vital in enabling other teams at Sourcegraph to deliver on our Product/Engineering strategy.
 
 ## Strategy
 
-With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and understanding what the data tells us to ensure we don’t just blindly follow our roadmap.  The two key themes we are focused on in Enablement are Developer Happiness & Efficacy & Customer driven quality.
+With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and understanding what the data tells us to ensure we don’t just blindly follow our roadmap. The two key themes we are focused on in Enablement are Developer Happiness & Efficacy & Customer driven quality.
 
 ### Developer Happiness & Efficacy
 
