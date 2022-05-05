@@ -10,24 +10,26 @@ We also support Marketing, Sales, and all Sourcegraph employees that contribute 
 
 ## Vision
 
-Our one-year vision states that we want to reduce friction through better processes and tooling such that Sourcegraph’s teammates can provide greater value to our customers more reliably and with improved quality.
+We want to reduce friction through better processes and tooling such that Sourcegraph’s teammates can provide greater value to our customers more reliably and with improved quality.
 
-Realizing this vision is vital in enabling other teams at Sourcegraph to deliver on our Product/Engineering strategy for FY23.
+Realizing this vision is vital in enabling other teams at Sourcegraph to deliver on our Product/Engineering strategy.
 
-More recently, issues with supporting enterprise customers and providing value to them faster have highlighted opportunities to provide our teams with better tools, processes, and services.
+### Focus for FY23
 
-By the end of FY23 we intend to reduce the ramp time for new engineers and increase efficacy of all engineers in our team by making the following true:
+Our business startegy and focus on the enterprise customer has highlighted key areas of focus to provide Sourcegraph's teams with better tools, processes, and services that will allow us to provide value to our customer faster and with improved quality.
+
+To deliver on this focus our aim is to make the following true by the end of FY23:
 
 - The Sourcegraph application, its runtime environment, and build and deploy pipelines are easily observable.
 - Our CI pipeline is fast and consistent.
 - Our code authoring and review processes ensures we raise the bar for shipping high quality code.
 - Our codebase, testing processes, and development tooling is more consistent and well understood.
 - Our codebase is easy to onboard, easy to navigate, and reflects the boundaries of general work streams.
-- Sourcegraph teammate can easily contribute to our website through our content management system
+- Sourcegraph teammates can easily contribute to our website through our content management system
 
 ## Strategy
 
-To achieve our vision of FY23 we will undertake initiatives across the themes listed below.
+To achieve the outcomes we want to see in FY23 we will undertake initiatives across the themes listed below.
 
 With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and understanding what the data tells us from each of these initiatives to ensure we don’t just blindly follow our roadmap, but treat each initiative as a decision point to re-evaluate the path forward.
 
