@@ -86,16 +86,17 @@ growth:
   issue_labels:
     - team/growth
 
-cloud_saas:
-  title: Cloud SaaS
+iam_and_admin_exp:
+  title: IAM and Admin Experience
   product_org: cloud
-  strategy_link: /strategy-goals/strategy/cloud/cloud-saas/index.md
+  strategy_link: /strategy-goals/strategy/cloud/iam-admin/index.md
   pm: ryan_phillips
   design: quinn_keast
   em: rafal_leszczynski
   pmm: alex_isken
   issue_labels:
-    - team/cloud-saas
+    - team/iam
+    - team/admin-exp
 
 devops:
   title: DevOps
