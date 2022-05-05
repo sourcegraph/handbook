@@ -123,7 +123,7 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
 
 - **What to look for:** At a high level, this is what we are evaluating our candidates for:
 
-  - How the candidate approaches troubleshooting -  where do they get stuck, what avenues do they explore?
+  - How the candidate approaches troubleshooting - where do they get stuck, what avenues do they explore?
   - Clear explanations of ideas and decisions.
   - Frequent communication while pairing.
   - Keeping the other engineer in the loop while driving.

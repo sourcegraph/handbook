@@ -126,38 +126,38 @@ We want to find engineers who are:
   <details>
     <summary>deployment.yaml</summary>
 
-    ```yaml
-    apiVersion: apps/v1
-    kind: Deployment
-    metadata:
-      name: webserver
-    spec:
-      replicas: 1
-      selector:
-        matchLabels:
+  ```yaml
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: webserver
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: www-server
+    template:
+      metadata:
+        labels:
           app: www-server
-      template:
-        metadata:
-          labels:
-            app: www-server
-        spec:
-          containers:
-            - name: webserver
-              image: docker.io/library/nginx:alpine
-              imagePullPolicy: "IfNotPresent"
-              ports:
-                - name: http
-                  containerPort: 80
-                  protocol: TCP
-              livenessProbe:
-                httpGet:
-                  path: /
-                  port: http
-              readinessProbe:
-                httpGet:
-                  path: /
-                  port: http
-              resources: {}
-    ```
+      spec:
+        containers:
+          - name: webserver
+            image: docker.io/library/nginx:alpine
+            imagePullPolicy: 'IfNotPresent'
+            ports:
+              - name: http
+                containerPort: 80
+                protocol: TCP
+            livenessProbe:
+              httpGet:
+                path: /
+                port: http
+            readinessProbe:
+              httpGet:
+                path: /
+                port: http
+            resources: {}
+  ```
 
   </details>
