@@ -18,7 +18,7 @@ With each initiative we undertake we expect to learn more about what the right s
 
 ### Developer Happiness & Efficacy
 
-One of the keys to effectively putting valuable product into our customer's hands is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
+One of the keys to putting valuable product into our customer's hands is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
 Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standarde our test tooling and measure and monitor test effectiveness.
 
 ### Customer Driven Quality
