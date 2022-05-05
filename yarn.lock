@@ -794,10 +794,10 @@
   resolved "https://registry.yarnpkg.com/@sourcegraph/tsconfig/-/tsconfig-4.0.1.tgz#5965ec41771d2ac5b23b6e0d919cee3e70485840"
   integrity sha512-G/xsejsR84G5dj3kHJ7svKBo9E5tWl96rUHKP94Y2UDtA7BzUhAYbieM+b9ZUpIRt66h3+MlYbG5HK4UI2zDzw==
 
-"@stefanprobst/rehype-extract-toc@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@stefanprobst/rehype-extract-toc/-/rehype-extract-toc-2.1.1.tgz#32f2fa82f5ac7939e184f132e1e4ef35e8236d4c"
-  integrity sha512-eXdm+HJGhKjZbqSjE4sr9NjAU5fpQ+EtZOoNlb8t87l8RmOVKxQFopdNwhi0KFxqh4dJ81FRSqFzxZU80y1Q4g==
+"@stefanprobst/rehype-extract-toc@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@stefanprobst/rehype-extract-toc/-/rehype-extract-toc-2.1.3.tgz#3e97ed48d899a68d34d5c89468b681541811ae60"
+  integrity sha512-rUMtMuj6spxKqlBwKvoqDFI5W5I9TEtlvmSfi83VLvkE3EqTKgw1/iV2Q6N+tNO/js9Ur7YzTG96Ysfx7wNoFA==
   dependencies:
     estree-util-is-identifier-name "^2.0.0"
     estree-util-value-to-estree "^1.3.0"
