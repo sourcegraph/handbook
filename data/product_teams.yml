@@ -152,3 +152,14 @@ content_platform:
   em: elzanne_wentzel
   issue_labels:
     - team/content-platform
+
+code_security_tiger_team:
+  title: Code Security tiger team
+  product_org: code_graph
+  strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
+  pm: malo_marrec
+  em: engineering_manager_code_security_tiger_team
+  design: quinn_keast
+  pmm: alex_isken
+  issue_labels:
+    - team/code-security-tiger-team
