@@ -3216,14 +3216,14 @@ hast-to-hyperscript@^10.0.0:
     unist-util-is "^5.0.0"
     web-namespaces "^2.0.0"
 
-hast-util-find-and-replace@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/hast-util-find-and-replace/-/hast-util-find-and-replace-4.0.0.tgz#356a9b1b650ce58f972a56bb0f88ab2729c9858e"
-  integrity sha512-2RLkp/t+pfBsW4hKCSdZfGt8GX6/y0WpVt5yy9wHWG7SJnhOR1HWSRMHwflJ1ZvfwQunE4h9XK2JDWKFJUfUZQ==
+hast-util-find-and-replace@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/hast-util-find-and-replace/-/hast-util-find-and-replace-4.1.0.tgz#9c518a52b3289b20dd6f3ad9cfd350289f12d23b"
+  integrity sha512-An+TI3jlLh9kvMRZthrorxpJTRFg89NsNP0M18qamtCQR9taM4RyTqjbYOcjwLvPj/FE96mcZfaL5p69GeY7ig==
   dependencies:
     escape-string-regexp "^5.0.0"
     hast-util-is-element "^2.0.0"
-    unist-util-visit-parents "^4.0.0"
+    unist-util-visit-parents "^5.0.0"
 
 hast-util-from-parse5@^7.0.0:
   version "7.1.0"
