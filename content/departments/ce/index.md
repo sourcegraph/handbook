@@ -5,7 +5,7 @@ The Customer Engineering organization at Sourcegraph is oriented around the tech
 ## Functional Teams
 
 - [Customer Engineers](ce.md)
-- [Customer Training Engineers](cte.md)
+- [Customer Training Engineers](cte/cte.md)
 
 ## Team Members
 
