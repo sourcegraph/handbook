@@ -2,6 +2,10 @@
 
 The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tiger_team) is to iterate quickly with customers over new user flows addressing the [Fixing security vulnerabilities use case](../../../../../strategy-goals/strategy/use-cases/fixing-security-vulnerabilities.md) over FY23Q2.
 
+## Workflow
+
+See our [sync doc](https://docs.google.com/document/d/1r7wiK8F8AQvvnv5YMRAeqNLDS4WkDSvGvbGQVsX1xis/edit#)
+
 ## Strategy
 
 See [strategy page](../../../../../strategy-goals/strategy/code-graph/code-security-tiger-team/index.md)
