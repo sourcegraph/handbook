@@ -120,7 +120,7 @@ We want to find engineers who are:
   Expert Kubernetes knowledge is not a requirement! We place focus on your ability to troubleshoot and collaborate with teammates.
 
 - **How to prepare:**
-  This exercise is designed to explore your approach to troubleshooting and does not require any advance prepation. You may wish to set up a test Kubernetes cluster and run the application yourself. This step is not required but can be useful during both stages of the interview. Options for a local cluster include: [kind](https://kind.sigs.k8s.io/), [k3d](https://github.com/rancher/k3d) or [minikube](https://minikube.sigs.k8s.io/docs/start/)).
+  This exercise is designed to explore your approach to troubleshooting and does not require any advance preparation. You may wish to set up a test Kubernetes cluster and run the application yourself. This step is not required but can be useful during both stages of the interview. Options for a local cluster include: [kind](https://kind.sigs.k8s.io/), [k3d](https://github.com/rancher/k3d) or [minikube](https://minikube.sigs.k8s.io/docs/start/).
 
   The application used for this exercise is below:
   <details>
