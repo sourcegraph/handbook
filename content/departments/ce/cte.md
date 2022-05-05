@@ -14,11 +14,11 @@ As an extension of the way we train and enable users, this team will secondarily
 
 Given the team’s small (but mighty) size, the team has an initial focus on self-directed, high-agency work. Teammates are empowered to build connections within the organization in pursuit of aligned goals and are empowered to structure their workday in whatever manner allows them to hit assigned objectives.
 
-The team has a weekly team meeting at which to discuss updates and make decisions that are best handled synchronously. Otherwise, the team makes an effort to default to async communication. The team can be reached using the `@cte` alias in Slack if needed, and uses the `#customer-training` Slack channel.
+The team has a weekly team meeting at which to discuss updates and make decisions that are best handled synchronously. Otherwise, the team makes an effort to default to async communication. The team can be reached using the `@cte` alias in Slack if needed, and uses the [`#customer-training`](https://sourcegraph.slack.com/archives/C03EAECEMUZ) Slack channel.
 
-The team endeavors to come to a clear consensus on the decision-maker for all projects where an identified decision-maker is appropriate and operates from a “disagree and commit” stance (feedback is solicited, but the final decision rests with the identified decision-maker and is committed to by the team, even if individuals disagree with the choice).
+The team endeavors to come to a clear consensus on the directly responsible individual (DRI) for all OKRs and projects where an identified DRI is appropriate and operates from a “disagree and commit” stance (feedback is solicited, but the final decision rests with the identified DRI and is committed to by the team, even if individuals disagree with the choice). The DRI is responsible for being the primary point of contact for reporting, gaining buy-in and alignment from the team, etc.
 
-The team defaults to direct, private, written feedback.
+The team defaults to direct, private, written, actionable feedback.
 
 ### How we work in support of customers
 
