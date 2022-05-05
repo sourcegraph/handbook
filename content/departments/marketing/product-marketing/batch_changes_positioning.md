@@ -40,6 +40,7 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 - **Painpoint**: When shipping new internal library versions with breaking changes, getting other teams to upgrade takes a lot of time and effort.
 - **Product use case**: When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories.
 - **Sponsor**: developer experience team
+- [Examples](https://sourcegraph.productboard.com/feature-board/2104383-batch-changes/features/12303097/insights)
 
 ### Playbook 2
 
