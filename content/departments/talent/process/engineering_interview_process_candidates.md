@@ -106,3 +106,58 @@ We want to find engineers who are:
 - **Details:** This is a live interview to assess your approach to Code and to the UI/UX design. One interviewer will lead the interview and one interviewer will shadow. The exercise will use CodeSandbox and Figma, and will be done in React. If you prefer not to use your accounts we have it set up so you don't have to.
 
 - **Preparation:** Not Mandatory, since we can set up the exercise without it - Create (free) accounts on https://www.figma.com/ and https://codesandbox.io/.
+
+#### Delivery: Pairing Exercise
+
+- **Interviewers:** one engineer on the Delivery team
+
+- **Length:** 60-minutes
+
+- **Details:** This interview consists of two activities that are designed to understand how you work within a collaborative technical environment. They are representative of the types of activities that are found in the day-to-day of the Delivery team.
+
+  During the pairing session, we will ask you to troubleshoot an issue a customer reported when they deployed an application to Kubernetes. Next, you will extend the deployment to accommodate a feature request in a collaborative pairing session environment. The deployment manifest used for both scenarios is referenced below.
+
+  Expert Kubernetes knowledge is not a requirement! We place focus on your ability to troubleshoot and collaborate with teammates.
+
+- **How to prepare:**
+  This exercise is designed to explore your approach to troubleshooting and does not require any advance prepation. You may wish to set up a test Kubernetes cluster and run the application yourself. This step is not required but can be useful during both stages of the interview. Options for a local cluster include: [kind](https://kind.sigs.k8s.io/), [k3d](https://github.com/rancher/k3d) or [minikube](https://minikube.sigs.k8s.io/docs/start/)).
+
+  The application used for this exercise is below:
+  <details>
+    <summary>deployment.yaml</summary>
+
+    ```yaml
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: webserver
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          app: www-server
+      template:
+        metadata:
+          labels:
+            app: www-server
+        spec:
+          containers:
+            - name: webserver
+              image: docker.io/library/nginx:alpine
+              imagePullPolicy: "IfNotPresent"
+              ports:
+                - name: http
+                  containerPort: 80
+                  protocol: TCP
+              livenessProbe:
+                httpGet:
+                  path: /
+                  port: http
+              readinessProbe:
+                httpGet:
+                  path: /
+                  port: http
+              resources: {}
+    ```
+
+  </details>

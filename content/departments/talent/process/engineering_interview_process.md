@@ -112,3 +112,21 @@ The Source of Truth for all interviews is Greenhouse. If you would like to make 
   How did the candidate approach the code? Think about CSS, React, error handling, tests. If there was anything they struggled with, did they communicate their intentions well?
   How did the candidate approach the UI/UX. Did they generally follow what the design specified? Did they consider loading and error states? Did they consider accessibility?
   Follow up questions based on the candidates implementation
+
+#### Delivery: Pairing Exercise
+
+- **Interviewers:** one engineer on the Delivery team
+
+- **Length:** 60-minutes
+
+- **Details:** This interview consists of two activities that are designed to understand how the candidate works within a collaborative technical environment. The interviewer will play the role of a customer and provide information to the candidate so they can effectively troubleshoot a problem with an application running in Kubernetes, then collaborate with the candidate to add a new feature to the deployment.
+
+- **What to look for:** At a high level, this is what we are evaluating our candidates for:
+
+  - How the candidate approaches troubleshooting -  where do they get stuck, what avenues do they explore?
+  - Clear explanations of ideas and decisions.
+  - Frequent communication while pairing.
+  - Keeping the other engineer in the loop while driving.
+  - Healthy responses to feedback.
+
+- **Before the interview:** The engineer leading the pairing exercise should carefully review the full interview instructions [here](https://docs.google.com/document/d/1Gn7oF4N8okjWdUJL_csNAeDpq3IbMSGuu0kvZqA6dC8/edit?usp=sharing) - this is a collaborative interview and will need to provide some information detailed in the prompt. The engineer should also set up a local Kubernetes cluster and deploy the broken manifest from the first activity so they can be prepared to run troubleshooting commands provided by the candidate.
