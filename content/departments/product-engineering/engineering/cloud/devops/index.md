@@ -27,13 +27,19 @@ This team is responsible for
 
 {{generator:product_team.devops}}
 
+## Contact & Support Guideline
+
+- The best way to contact the `cloud-devops` team is in the #cloud-devops slack channel. If it is urgent, please cc `@devops-support` in your message.
+- Issues with `team/devops` labels and [@team/cloud-devops](https://github.com/orgs/sourcegraph/teams/cloud-devops) team on GitHub
+- Please do not `@cloud-devops-team` or directly message individual teammates - this is to try and protect their focus
+
 ## Content
 
+- [Onboarding](onboarding.md)
 - [How to deploy a code change to the Cloud](deploy-code-change.md)
 - [Large release (rollout release) process](deploy-code-change.md#large-releases-to-cloud-rollup-releases)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
 - [Datadog monitoring](datadog.md)
-- [Onboarding](onboarding.md)
 - [How to add or modify DNS Records](dns.md)
 - [Disaster Recovery](disaster-recovery.md)
 - [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
@@ -41,14 +47,38 @@ This team is responsible for
 - [Persistent disk backup schedule](persistent-disk-backup-schedule.md)
 - [Silencing Alerts](silencing-alerts.md)
 - [Cloud Postgres](cloud-postgres.md)
+- [Managed instances operation](./managed/index.md)
 
-## How to contact the team and ask for help
+## How we work
 
-The best way to contact the cloud-devops team is in the #cloud-devops slack channel.
+### Issue tracking
+
+[The DevOps GitHub Project board](https://github.com/orgs/sourcegraph/projects/220/views/23) is the single source of truth.
+
+### Planning, Sync & Retro
+
+We don't have sprint or cycles. We are mostly task-driven under the quarterly goals.
+
+1. Planning/Sync (weekly)
+
+   - This is the good time to call out issues you would like to discuess with everyone
+   - Review our GitHub Project board to prioritize tasks for the week
+
+1. Retro (bi-weekly)
+
+   - A review of what we did for learing purposes
+
+### Standup (async)
+
+We use [geekbot](https://app.geekbot.com/dashboard/standup/97887/view) to keep others informed of what’s going on asynchronously. This is a good time to share your progress and ask for help to remove any blockers.
 
 ## Goals
 
-### Q4 Goals
+### FY23Q2 Goals
+
+**TODO**
+
+### FY22Q4 Goals
 
 - Assist the Cloud-SaaS team with [RFC 525](https://docs.google.com/document/d/1FgrB6VIFT9eNQHmL4C0zipS9Vr8jfQ5n5IASy17gT7c/edit#heading=h.trqab8y0kufp)
 - Stabilize our CD environment
