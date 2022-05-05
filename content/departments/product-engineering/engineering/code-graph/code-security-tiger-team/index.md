@@ -10,7 +10,7 @@ See [strategy page](../../../../../strategy-goals/strategy/code-graph/code-secur
 
 [`#code-security-tiger-team`](https://sourcegraph.slack.com/archives/C03DWADAG8M) or `@code-security-tiger-team` on Slack
 
-[`team/code-security-tiger-team`](https://github.com/orgs/sourcegraph/teams/code-security-tiger-team) on GithUb
+[`sourcegraph/code-security-tiger-team`](https://github.com/orgs/sourcegraph/teams/code-security-tiger-team) on GithUb
 
 ## Members
 
