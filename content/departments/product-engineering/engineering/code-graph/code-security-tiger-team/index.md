@@ -16,6 +16,7 @@ See [strategy page](../../../../../strategy-goals/strategy/code-graph/code-secur
 
 {{generator:product_team.code_security_tiger_team}}
 
+- [André Eleuterio](../../../../../team/index.md#andré-eleuterio), Security Engineer
 - [Ryan Scott](../../../../../team/index.md#ryan-scott), Product Manager
 - [Dan Diemer](../../../../../team/index.md#dan-diemer), Customer Engineer
 - [Thorsten Ball](../../../../../team/index.md#thorsten-ball), Software Engineer
