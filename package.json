@@ -121,7 +121,7 @@
     "@types/react": "18.0.0",
     "@types/relateurl": "0.2.29",
     "ajv-cli": "^5.0.0",
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.1",
     "eslint": "^7.32.0",
     "jest": "^27.4.5",
     "line-column": "^1.0.2",
