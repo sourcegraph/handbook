@@ -17,6 +17,7 @@ beyang_liu:
   reports_to: ceo
   location: San Francisco, CA, USA 🇺🇸
   email: beyang@sourcegraph.com
+  github: beyang
   links: '[@beyang](https://twitter.com/beyang), [LinkedIn](https://www.linkedin.com/in/beyang-liu)'
   description: Beyang Liu is CTO and cofounder of Sourcegraph. Prior to Sourcegraph, Beyang was a software engineer at Palantir Technologies, where he developed new data analysis software on a small, customer-facing team working with Fortune 500 companies. Beyang studied Computer Science at Stanford, where he published research in probabilistic graphical models and computer vision at the Stanford AI Lab and thoroughly enjoyed his compilers course.
 
@@ -1936,7 +1937,7 @@ rafal_gajdulewicz:
   name: Rafal Gajdulewicz
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
+  reports_to: director_engineering
   location: Warsaw, Poland 🇵🇱
   github: rafax
   email: rafal.gajdulewicz@sourcegraph.com
@@ -2926,3 +2927,13 @@ rakesh_joshi:
   pronouns: He/Him
   links: '[LinkedIn](https://www.linkedin.com/in/rakesh-joshi-62a56416)'
   description: Rakesh is an application support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
+
+maxim_pimenov:
+  name: Maxim Pimenov
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_search_core
+  location: Moscow, Russia 🇷🇺
+  github: mpimenov
+  email: maxim.pimenov@sourcegraph.com
+  description: Prior to Sourcegraph, Maxim helped building the best mobile app for offline maps. Apart from programming at work, he enjoys programming during his spare time.

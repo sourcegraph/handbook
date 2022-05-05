@@ -1,5 +1,7 @@
 # Dev Experience team
 
+<img align="right" src="https://user-images.githubusercontent.com/23356519/166327839-472252c9-e3aa-460e-8c11-5655b0451ae2.png" height="300" alt="Sourcegraph dev experience temporary team logo"></img>
+
 The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph as part of the [Enablement](../index.md) org.
 
 ## Members
@@ -13,26 +15,37 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
 ## Responsibilities
 
 - General
-  - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx)
-  - [Developer experience support](processes.md#support)
-  - [Developer experience newsletter](./newsletter.md)
-- Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
-  - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
-  - [Continuous integration infrastructure](../../tools/infrastructure/ci/index.md)
-  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
-  - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
-  - [Buildkite agents](../../tools/infrastructure/index.md#buildkite-agents)
+  - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx) and [project board](processes.md#updating-the-dev-experience-project-board)
+  - [Dev experience support](processes.md#support)
 - Tooling
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
-    - [`sg` hack hour](#sg-hack-hour)
-  - [Monitoring generator](https://docs.sourcegraph.com/dev/background-information/observability/monitoring-generator)
+  - [CLA bot](https://github.com/sourcegraph/clabot-config)
+  - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
+- Backend platform
+  - [`lib/errors`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/errors): error types for Sourcegraph backend services
+  - [`lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log): standardized logging for Sourcegraph backend services + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_logging)
+  - [`internal/observation`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/observation): all-in-one operation-oriented observability primitives + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_observability)
+  - Supporting test standards and infrastructure
+  - Packaging infrastructure (e.g. base Docker images)
+  - [SOC2 compliance](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=) regarding software development lifecycles, testing, and continuous integration
+- Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
+  - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
+    - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
+    - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
+  - [Continuous integration infrastructure](../../tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
+  - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
+- Other
+  - [Developer experience newsletter](./newsletter.md)
+  - [`sg` hack hour](processes.md#sg-hack-hour)
+
+Also see [org-wide areas of ownership](../../process/engineering_ownership.md) and our [team processes](processes.md).
 
 ## Contact
 
 - **Discussions and questions**: #dev-experience channel, @dev-experience, and [developer experience GitHub discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience)
-- **[Support](#support)**: `@dev-experience-support` in Slack
+- **[Support](processes.md#support)**: `@dev-experience-support` in Slack
 - **GitHub**: [team/dev-experience](https://github.com/sourcegraph/sourcegraph/labels/team%2Fdev-experience) label and @sourcegraph/dev-experience team.
-  - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](https://github.com/orgs/sourcegraph/projects/212).
+  - We also monitor and track issues with the [dx](https://github.com/sourcegraph/sourcegraph/labels/dx) label in our [GitHub project](processes.md#dev-experience-project).
 
 > NOTE: When referring to this team, prefer to use _Dev Experience_ or _DevX_ - only use _developer experience_ or _dx_ when referring to developer experience in general.
 
@@ -55,13 +68,17 @@ Read more about [how this team works](./processes.md).
 
 ## Useful resources
 
-- Tools and languages updates feed is available in #dev-experience-notification
+- Tools and languages updates feed is available in #dev-experience-notifications
 - GitHub issues and pull-requests feed is available in #dx-github-feed
+- Alerts in #dev-experience-alerts
+- [DevX initiatives code insights](https://k8s.sgdev.org/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjo3MjcyNTV9)
+- [devx-scratch](processes.md#devx-scratch)
 
 ## Growth plan
 
-Come work with us! We're hiring software engineers to join our team in Q3 and Q4.
+Come work with us! We're hiring software engineers to join our team in Q3 and Q4 - check out our [careers page](https://about.sourcegraph.com/jobs/)!
 
 ## Tech stack
 
-TODO
+We primarily build tools and libraries in Go, with a dash of bash scripting in between.
+We also operate [CI infrastructure](../../tools/infrastructure/ci/index.md) with Kubernetes and Terraform.

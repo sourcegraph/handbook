@@ -67,7 +67,7 @@ We have a set of status labels we’ve found helpful in the past:
 - **Reviewing problem**: The Reviewing problem label is used when the RFC has a firm problem statement, and reviews should focus on confirming that the problem definition is correct.
 - **Reviewing solution**: The Reviewing solution label is used when the problem is well understood, and a proposal has been written that solves it that is ready for review.
 - **Approved**: When the RFC is for the purpose of making a decision, the Approved label indicates that the decision has been made.
-- **Implemented**: When the RFC is for the purpose of making a decision, the Implemented label indicates that the RFC’s proposal has been implemented.
+- **Implemented**: When the RFC is for the purpose of making a decision, the Implemented label indicates that the RFC’s proposal has been implemented. If an important code change has happened due to implementing this RFC, we recommend capturing that in an [Architecture Decision Record - ADR](https://docs.sourcegraph.com/dev/adr) and linking the RFC in question in the ADR.
 - **Closed**: When the RFC is for the purpose of collaboration or discussion but not necessarily to make a decision or propose a specific outcome that will eventually become Implemented, the Closed label indicates that the RFC is no longer an active collaborative artifact.
 - **Abandoned**: When the RFC is for the purpose of making a decision, and there are no plans to move forward with the RFC’s proposal, the Abandoned label indicates that the RFC has been purposefully set aside.
 
