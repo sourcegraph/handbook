@@ -13,11 +13,11 @@ It’s important to have a publishing schedule so that we can deliver relevant c
 
 ## Guidelines for contributing to Sourcegraph’s blog
 
-Start by submitting your proposal via a [GitHub issue using the blog post template](https://github.com/sourcegraph/about/issues/new?template=blog_post.md). You can submit a rough draft at the same time if you want to.
+Start by submitting your proposal via a [GitHub issue using the blog post template](https://github.com/sourcegraph/about/issues/new?template=blog-post-proposal.md). You can submit a rough draft at the same time if you want to.
 
 ### Just submit an idea
 
-If you have an idea to submit but you don't want to write it, you can still submit the idea via the [GitHub issue template](https://github.com/sourcegraph/about/issues/new?template=blog_post.md), just make a note that you are not proposing to write the post yourself.
+If you have an idea to submit but you don't want to write it, you can still submit the idea via the [GitHub issue template](https://github.com/sourcegraph/about/issues/new?template=blog-post-proposal.md), just make a note that you are not proposing to write the post yourself.
 
 ### Once you have submitted a proposal
 
