@@ -16,6 +16,6 @@ We are in customer discovery phase, and will define a success metric later on. O
 
 #### Plan
 
-- [Our goal](FY23Q2 Objective 2: Make Sourcegraph a must-have for code security teams) (private)
+- [Our goal](https://docs.google.com/document/d/1wh8enIZs8mDEoBs_HiPP4v9SIF2gFuhtMFAhbROe2EI/edit#heading=h.tsga00gx9kb8) (private)
 - [Planning document](https://docs.google.com/document/d/1LtdwXVKYTw5VhIdSul_-eLgm-PtM1EOKVMbpdAHFSmk/edit) (private)
 - [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
