@@ -127,6 +127,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [How to make a change to headcount plan](process/headcount_changes.md)
 - [Internship Program](internship-program.md)
 - [Internship Recruiting and Offer Processes](process/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
