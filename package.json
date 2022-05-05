@@ -95,7 +95,7 @@
     "rehype-autolink-headings": "^6.1.0",
     "rehype-highlight": "^5.0.0",
     "rehype-raw": "^6.1.0",
-    "rehype-slug": "^5.0.0",
+    "rehype-slug": "^5.0.1",
     "rehype-stringify": "^9.0.2",
     "rehype-url-inspector": "^2.0.2",
     "relateurl": "^0.2.7",
