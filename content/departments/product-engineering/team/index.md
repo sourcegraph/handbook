@@ -6,7 +6,6 @@
   - [Christina Forney](../../../team/index.md#christina-forney), VP Product
     - [Anna Mikhova](../../../team/index.md#anna-mikhova), Director of Product - Cloud
     - [Serina Clark](../../../team/index.md#serina-clark), Director of Product - Enablement
-    - [Jason Yavorska](../../../team/index.md#jason-yavorska), Director of Product - Code Graph
     - [Kylie Fligstein](../../../team/index.md#kylie-fligstein), Product operations specialist
   - [Nick Snyder](../../../team/index.md#nick-snyder), [VP Engineering](../engineering/roles/index.md#vp-engineering)
     - [Bill Creager](../../../team/index.md#bill-creager), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), Cloud

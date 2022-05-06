@@ -1,5 +1,7 @@
 # Customer Training Engineers
 
+_For FY23 roadmap and goals, see [our roadmap](roadmap.md)._
+
 ## Who we are
 
 Customer Training Engineers (CTE), within Customer Engineering (CE), are specialized experts focused first and foremost on customer training and enablement. Our team will define, build, and maintain all aspects of external training, starting with our Enterprise customers first. This includes the definition (and continued iteration) of the strategy and standardization of our customer-facing training methodology and curriculum to support that strategy.
@@ -14,11 +16,11 @@ As an extension of the way we train and enable users, this team will secondarily
 
 Given the team’s small (but mighty) size, the team has an initial focus on self-directed, high-agency work. Teammates are empowered to build connections within the organization in pursuit of aligned goals and are empowered to structure their workday in whatever manner allows them to hit assigned objectives.
 
-The team has a weekly team meeting at which to discuss updates and make decisions that are best handled synchronously. Otherwise, the team makes an effort to default to async communication. The team can be reached using the `@cte` alias in Slack if needed, and uses the `#customer-training` Slack channel.
+The team has a weekly team meeting at which to discuss updates and make decisions that are best handled synchronously. Otherwise, the team makes an effort to default to async communication. The team can be reached using the `@cte` alias in Slack if needed, and uses the [`#customer-training`](https://sourcegraph.slack.com/archives/C03EAECEMUZ) Slack channel.
 
-The team endeavors to come to a clear consensus on the decision-maker for all projects where an identified decision-maker is appropriate and operates from a “disagree and commit” stance (feedback is solicited, but the final decision rests with the identified decision-maker and is committed to by the team, even if individuals disagree with the choice).
+The team endeavors to come to a clear consensus on the directly responsible individual (DRI) for all OKRs and projects where an identified DRI is appropriate and operates from a “disagree and commit” stance (feedback is solicited, but the final decision rests with the identified DRI and is committed to by the team, even if individuals disagree with the choice). The DRI is responsible for being the primary point of contact for reporting, gaining buy-in and alignment from the team, etc.
 
-The team defaults to direct, private, written feedback.
+The team defaults to direct, private, written, actionable feedback.
 
 ### How we work in support of customers
 
@@ -27,6 +29,8 @@ Though the CTE org works alongside the CEs and likely will do a significant amou
 The team has a primarily strategic focus. Strategic activities include curriculum building, customer education as a whole, and maintaining an open-source repository of documentation, scripts, and more to help customers and CE self-serve. The initial focus for the team will be related to standardizing existing training assets for synchronous webinar trainings conducted by the CEs, and internal enablement for the CE team around delivering these trainings.
 
 Unlike CEs, CTEs are not aligned to specific customers. Work is focused across the Enterprise customer base.
+
+CTEs are focused on enabling the CEs around customer training, not role-related ("how to be a CE") enablement. The CTE team is not an internal enablement team. Internal enablement and skill-building around the core CE function continues to be owned by CE managers.
 
 ### How we work with other teams
 
