@@ -22,6 +22,7 @@ We are in customer discovery phase, and will define a success metric later on. O
 ### Customer discovery
 
 We are currently running customer discovery about the security needs of Sourcegraph customers. We use lookback for running sessions.
+
 - Read our [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
 - View [insights collected from interviews](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide)
 - We are looking for insights! If there's someone we should be talking to, [submit them here](https://airtable.com/shrEbXnkA6pmkTJWL)
@@ -30,9 +31,8 @@ We are currently running customer discovery about the security needs of Sourcegr
 
 We are currently analyzing our competitive positioning as well as identifying potential partners in [this document](https://docs.google.com/document/d/1FlKYLUuSNLp34yY3F3dNBPeC9icFaoD-pZOILGWrxEI/edit#) (private).
 
-
 ### Reading list
 
 - https://increment.com/security/
 - The [log4j cheatsheet](https://snyk.io/blog/log4shell-remediation-cheat-sheet/) gives a good overview of common steps when responding to an incident
-- 
+-
