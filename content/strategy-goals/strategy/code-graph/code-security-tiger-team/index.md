@@ -30,9 +30,3 @@ We are currently running customer discovery about the security needs of Sourcegr
 ### Competitive positioning
 
 We are currently analyzing our competitive positioning as well as identifying potential partners in [this document](https://docs.google.com/document/d/1FlKYLUuSNLp34yY3F3dNBPeC9icFaoD-pZOILGWrxEI/edit#) (private).
-
-### Reading list
-
-- https://increment.com/security/
-- The [log4j cheatsheet](https://snyk.io/blog/log4shell-remediation-cheat-sheet/) gives a good overview of common steps when responding to an incident
--
