@@ -28,7 +28,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [How to change a role's start date (pulling a role forward or pushing it back in the board-approved headcount plan)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to add a net-new role to the headcount plan (not already approved by the board)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to delete a role from the plan (with no plans to re-allocate the headcount to another role or department)](https://forms.gle/6dQmnRjsXDEjB4y7A)
-  - [How to change the scope of a role (ie title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
+  - [How to change the scope of a role (ie type of role, title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
 - [How to open a new job search](process/opening_a_new_job.md)
   - [Who is my recruiter?](process/teamalignment.md)
   - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
