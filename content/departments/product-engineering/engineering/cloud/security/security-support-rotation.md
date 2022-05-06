@@ -74,6 +74,18 @@ Discuss any reports which you feel might qualify for an invite with the team bef
 responding to the reporter – we should be using our invites sparingly and only
 for the best reports.
 
+To assign a bounty to a reporter:
+
+1. Go to the HackerOne inbox linked above
+2. Find the relevant report using the search bar on the left-hand side of the page
+3. Scroll to the bottom of the report
+4. Click on the dropdown that says 'Add comment' and select 'Set award'
+5. In the field that pops up to the right, enter the agreed dollar amount
+6. Add a message thanking the reporter for their effort, and click 'Set award'
+   on the bottom right of the page
+
+Still unsure? Watch [this video](https://www.loom.com/share/52371e6d43b9421da1faf7ca712b47e2).
+
 ### Security questionnaires
 
 We support Sales in filling out security questionnaires for customers. Sales does a first pass and we review it. These requests come in through the #security channel Security Questions workflow. The CE will list customer name, deployment type, link to the questionnaire and any other information.
