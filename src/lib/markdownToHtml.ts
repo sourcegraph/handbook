@@ -171,13 +171,10 @@ const remarkSpecialNoteBlocks: Plugin<[], MdastRoot> = () =>
     function (tree) {
         visit(tree, (node, index, parent) => {
             if (isSpecialNoteBlockquote(node)) {
-                console.log('Should work..')
                 // TODO: This overwrites the `hProperties` to add the class
                 // name. Improve it by adding the class name while respecting
                 // existing `hProperties` or existing classes.
-                console.log(node)
                 node.data = { ...node.data, hName: 'aside', hProperties: { class: 'note' } }
-                console.log(node)
             }
         })
     }
@@ -200,13 +197,9 @@ function isSpecialNoteBlockquote(node: MdastContent): boolean {
         return false
     }
     const child = node.children[0]
-    console.log('Is blockquote')
     if (child.type === 'paragraph') {
-        console.log('Is paragraph')
         const text = child.children[0]
-        console.log(text)
         if (text.type === 'text') {
-            console.log('Is text')
             return text.value.startsWith('NOTE:')
         }
     }
