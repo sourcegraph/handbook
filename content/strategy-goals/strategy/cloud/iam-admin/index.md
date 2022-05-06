@@ -5,6 +5,7 @@ This page outlines the short-term strategy for the IAM and Admin Experience Team
 ## Q2 Objective and Key Results
 
 ### Problem Area: Align on Team Vision
+
 Today, the IAM and Admin Experience team is less than two weeks old and does not yet have a long-term mission or vision that aligns with the company vision.
 
 - Key Result 1: An updated handbook page for the IAM and Admin Experience team including mission, vision, and team working agreements.
@@ -13,6 +14,7 @@ Today, the IAM and Admin Experience team is less than two weeks old and does not
 **Product and Engineering OKR Alignment:** This does not align to product & engineering OKRs. It is necessary due to the formation of a new team.
 
 ### Problem Area: Unifying Feature Permissions
+
 Today, nearly all Sourcegraph features (Code insights, batch changes, search notebooks, etc) have unique, custom permissions models, creating confusion for users and preventing cross-feature use cases from being developed.
 
 - Key Result 1: A detailed product & technical plan for implementing a unified permissions model
@@ -20,12 +22,15 @@ Today, nearly all Sourcegraph features (Code insights, batch changes, search not
 - Key Result 3: Robust documentation for feature teams to adopt this updated permissions mode
 
 Within this area, in Q2 we are not working on:
+
 - Implementing RBAC for administrators
 - Updating features to respect our permissions, this will be owned by each feature team
 
 **Product and Engineering OKR Alignment:** Objective #2: Focus on time-to-value for a single use-case (Fixing Vulnerabilities). With a single permissions model, Sourcegraph feature teams will be able to enable cross-feature experiences for our customers to fix vulnerabilities. For example, setting up a code monitor to ensure a vulnerability is not re-introduced after fixing with a batch change.
 
+
 ### Problem Area: Improve Admin Analytics
+
 Today, Sourcegraph Admins do not have a clear understanding of how their team is using (or not using) Sourcegraph. This information is valuable to help administrators (1) convey the value of Sourcegraph to executives and (2) make key decisions required to do their job effectively, such as monitoring remaining licenses.
 
 - Key Result 1: Identify and deliver an improved usage analytics experience for admins.
@@ -33,6 +38,7 @@ Today, Sourcegraph Admins do not have a clear understanding of how their team is
 **Product and Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, enterprise admins have very little visibility into usage within their organization. They are forced to rely on the basic stats provided by Sourcegraph or anecdotal reviews from their team. Introducing more fine grained analytics will enable admins to easily quantify value to their team and aid Sourcegraph AE/CE in driving upsell conversations based on usage within the org.
 
 ### Problem Area: Allow admins to control sign-ups via externally defined groups
+
 Today, Sourcegraph does not provide administrators the ability to specify who can and cannot sign up for Sourcegraph, yet this functionality is critical for customers who want to adopt a land-and-expand strategy for adoption within their organization.
 
 - Key Result 1: Unblock deployment for blocked customers
