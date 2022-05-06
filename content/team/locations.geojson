@@ -1418,6 +1418,19 @@
           -47.073845
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nathan Downs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.512328,
+          -122.592757
+        ]
+      }
     }
   ]
 }
