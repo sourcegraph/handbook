@@ -195,6 +195,7 @@ If you run into errors like:
 This might indicate that the instance is not fully set up yet—try again in a minute.
 
 ### 6a) Set correct GCP logging settings for deployments using the Terraform module
+
 > NOTE: This step only applies to Managed Instances that have been created using the [Terraform module](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/modules/terraform-managed-instance). If this module is not called in `$CUSTOMER/infrastructure.tf`, go to step 6b.
 
 We have moved to centralised logging in GCP for our Managed Instances. This is enabled in the [startup scripts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance/black-startup-script.sh.tftpl#L74) of the deployments. To prevent the running deployment from being recreated due to changes in the startup script, a variable `disable_gcp_logging_on_running_deployment` needs to be set correctly on the module block in `$CUSTOMER/infrastructure.tf`.
