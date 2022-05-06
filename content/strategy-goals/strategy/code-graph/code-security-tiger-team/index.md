@@ -18,4 +18,15 @@ We are in customer discovery phase, and will define a success metric later on. O
 
 - [Our goal](https://docs.google.com/document/d/1wh8enIZs8mDEoBs_HiPP4v9SIF2gFuhtMFAhbROe2EI/edit#heading=h.tsga00gx9kb8) (private)
 - [Planning document](https://docs.google.com/document/d/1LtdwXVKYTw5VhIdSul_-eLgm-PtM1EOKVMbpdAHFSmk/edit) (private)
-- [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
+
+### Customer discovery
+
+We are currently running customer discovery about the security needs of Sourcegraph customers. We use lookback for running sessions.
+
+- Read our [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
+- View [insights collected from interviews](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) (private)
+- We are looking for insights! If there's someone we should be talking to, [submit them here](https://airtable.com/shrEbXnkA6pmkTJWL)
+
+### Competitive positioning
+
+We are currently analyzing our competitive positioning as well as identifying potential partners in [this document](https://docs.google.com/document/d/1FlKYLUuSNLp34yY3F3dNBPeC9icFaoD-pZOILGWrxEI/edit#) (private).
