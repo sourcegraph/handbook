@@ -24,7 +24,7 @@ We are in customer discovery phase, and will define a success metric later on. O
 We are currently running customer discovery about the security needs of Sourcegraph customers. We use lookback for running sessions.
 
 - Read our [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
-- View [insights collected from interviews](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide)
+- View [insights collected from interviews](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) (private)
 - We are looking for insights! If there's someone we should be talking to, [submit them here](https://airtable.com/shrEbXnkA6pmkTJWL)
 
 ### Competitive positioning
