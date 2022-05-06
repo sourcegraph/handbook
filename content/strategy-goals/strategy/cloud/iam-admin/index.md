@@ -28,7 +28,6 @@ Within this area, in Q2 we are not working on:
 
 **Product and Engineering OKR Alignment:** Objective #2: Focus on time-to-value for a single use-case (Fixing Vulnerabilities). With a single permissions model, Sourcegraph feature teams will be able to enable cross-feature experiences for our customers to fix vulnerabilities. For example, setting up a code monitor to ensure a vulnerability is not re-introduced after fixing with a batch change.
 
-
 ### Problem Area: Improve Admin Analytics
 
 Today, Sourcegraph Admins do not have a clear understanding of how their team is using (or not using) Sourcegraph. This information is valuable to help administrators (1) convey the value of Sourcegraph to executives and (2) make key decisions required to do their job effectively, such as monitoring remaining licenses.
