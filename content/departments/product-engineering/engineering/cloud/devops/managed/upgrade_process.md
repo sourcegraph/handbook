@@ -195,8 +195,7 @@ If you run into errors like:
 This might indicate that the instance is not fully set up yet—try again in a minute.
 
 ### 6a) Set correct GCP logging settings for deployments using the Terraform module
-
-> ℹ️ This step only applies to Managed Instances that have been created using the [Terraform module](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/modules/terraform-managed-instance). If this module is not called in `$CUSTOMER/infrastructure.tf`, go to step 6b.
+> NOTE: This step only applies to Managed Instances that have been created using the [Terraform module](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/modules/terraform-managed-instance). If this module is not called in `$CUSTOMER/infrastructure.tf`, go to step 6b.
 
 We have moved to centralised logging in GCP for our Managed Instances. This is enabled in the [startup scripts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance/black-startup-script.sh.tftpl#L74) of the deployments. To prevent the running deployment from being recreated due to changes in the startup script, a variable `disable_gcp_logging_on_running_deployment` needs to be set correctly on the module block in `$CUSTOMER/infrastructure.tf`.
 Out of the three described scenarios, determine which applies to the upgrade you are performing and apply the step.
@@ -209,7 +208,7 @@ Out of the three described scenarios, determine which applies to the upgrade you
 
 - **`disable_gcp_logging_on_running_deployment` is set to `false`:** this means the transition to GCP logging has been completed and no further action is needed. Leave the variable as is to indicate the switch does not need to be performed again.
 
-> Once the in-place upgrade process has been implemented, we can remove this logic from the startup script.
+> NOTE: Once the in-place upgrade process has been implemented, we can remove this logic from the startup script.
 
 ### 6b) Upgrade the new deployment
 
