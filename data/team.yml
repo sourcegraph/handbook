@@ -2932,3 +2932,14 @@ maxim_pimenov:
   github: mpimenov
   email: maxim.pimenov@sourcegraph.com
   description: Prior to Sourcegraph, Maxim helped building the best mobile app for offline maps. Apart from programming at work, he enjoys programming during his spare time.
+
+nathan_downs:
+  name: Nathan Downs
+  email: nathan.downs@sourcegraph.com
+  github: nathan-downs
+  pronouns: he/him
+  role: Lead Data Engineer
+  reports_to: director_data_analytics
+  location: Portland, OR
+  description: When he isn't tackling data engineering challenges, Nathan enjoys home improvement and woodworking projects. Originally from the East Coast, the allure of the Pacific Northwest outdoors and delicious vegan food of Portland were too strong a draw to ignore!
+  
