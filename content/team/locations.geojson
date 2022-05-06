@@ -1,24 +1,24 @@
 {
    "type": "FeatureCollection",
    "features": [
-     {
-       "type": "FeatureCollection",
-       "features": [
-         {
-           "type": "Feature",
-           "properties": {
-             "name": "Naman Kumar"
-           },
-           "geometry": {
-             "type": "Point",
-             "coordinates": [
-               77.20710754394531,
-               28.615870539671818
-             ]
-           }
-         }
-       ]
-     },
+      {
+         "type": "FeatureCollection",
+         "features": [
+            {
+               "type": "Feature",
+               "properties": {
+                  "name": "Naman Kumar"
+               },
+               "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                     77.20710754394531,
+                     28.615870539671818
+                  ]
+               }
+            }
+         ]
+      },
       {
          "type": "Feature",
          "properties": {
@@ -993,19 +993,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Jason Yavorska"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               4.497871398925781,
-               52.156452747510045
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "JH Chabran"
          },
          "geometry": {
@@ -1367,70 +1354,70 @@
             ]
          }
       },
-       {
-    "type": "Feature",
-    "properties": {
-        "name": "Tracey Johnson"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            -97.330765,
-            32.755489
-        ]
-    }
-},
-     {
-      "type": "Feature",
-      "properties": {
-        "name": "José Taylor"
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Tracey Johnson"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -97.330765,
+               32.755489
+            ]
+         }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          29.4492,
-          -98.4595
-        ]
-      }
-    },
-   {
-      "type": "Feature",
-      "properties": {
-        "name": "Nicole Comber"
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "José Taylor"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               29.4492,
+               -98.4595
+            ]
+         }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.473615646362305,
-          -34.52202731922037
-        ]
-      }
-    },
-     {
-      "type": "Feature",
-      "properties": {
-        "name": "Paulo Almeida"
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Nicole Comber"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -58.473615646362305,
+               -34.52202731922037
+            ]
+         }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -22.932924,
-          -47.073845
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Nathan Downs"
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Paulo Almeida"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -22.932924,
+               -47.073845
+            ]
+         }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          45.512328,
-          -122.592757
-        ]
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Nathan Downs"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               45.512328,
+               -122.592757
+            ]
+         }
       }
-    }
-  ]
+   ]
 }
