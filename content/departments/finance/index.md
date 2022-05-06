@@ -207,6 +207,5 @@ Deal Desk supports Sales on non-standard deal structures, offering collaborative
 
 - All requests should be submitted to the #deal-desk slack channel.
 - SLA: 1 business day.
-- Additional information: [Sales Resources](../../departments/sales/tools/salesresources.md)
-- Information for Customer Questionnaires: [Corporate Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
+- Additional information: [Deal Desk Site](deal-desk.md)
 - For questions, please email us at: dealdesk@sourcegraph.com
