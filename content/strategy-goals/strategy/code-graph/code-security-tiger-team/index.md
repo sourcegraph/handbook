@@ -26,6 +26,7 @@ We are currently running customer discovery about the security needs of Sourcegr
 - Read our [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
 - View [insights collected from interviews](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) (private)
 - We are looking for insights! If there's someone we should be talking to, [submit them here](https://airtable.com/shrEbXnkA6pmkTJWL)
+- Meanwhile, we keep track of [assumptions here](https://docs.google.com/document/d/1tnPDKvwbQr0yiu2fWRgsJ8H8gvkQ8erlIS17-_MyEIY/edit#)
 
 ### Competitive positioning
 
