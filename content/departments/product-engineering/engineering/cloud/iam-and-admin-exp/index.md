@@ -8,7 +8,7 @@ The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-The Goals and Roadmap of the IAM is TBA.
+The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/cloud/iam-admin/index.md).
 
 ## Areas of Ownership
 
