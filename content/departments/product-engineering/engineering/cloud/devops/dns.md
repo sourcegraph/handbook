@@ -18,7 +18,7 @@ owned DNS records you should make the change to the code in Terraform in our [so
 
 1. Wait for Buildkite to finish your build
 1. Get approve from the cloud-devops team
-1. `terraform apply` the PR or ask a member of the devops team to do this
+1. `terraform apply` the PR or drop a message in #cloud-devops and DevOps team will apply it for you (if you're not a DevOps or Security teammate, you most likely don't have sufficient access to apply the `dns` terraform module)
 1. Merge the PR **after** the apply succeeds
 
 ## FAQ
