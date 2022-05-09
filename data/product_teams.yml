@@ -111,7 +111,7 @@ delivery:
   title: Delivery
   strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
   product_org: cloud
-  pm: dan_mckean
+  pm: brienne_mcnally
   em: engineering_manager_delivery
   issue_labels:
     - team/delivery
