@@ -2946,3 +2946,13 @@ randell_callahan:
   reports_to: engineering_manager_batch_changes
   location: Denver, CO, USA 🇺🇸
   description: Randell is a Colorado Native. He grew up in a small mountain town before getting a culture shock in Boulder, Colorado. Randell enjoys going for runs (when it is not snowing), playing with his daughter, and throwing the ball for his little Yorkie.
+
+brienne_mcnally:
+  name: Brie McNally
+  email: brie.mcnally@sourcegraph.com
+  github: briemcnally
+  pronouns: she/hers
+  role: Product Manager
+  reports_to: product_director_cloud
+  location: Denver, CO, USA 🇺🇸
+  description: Brie is a nurse turned software engineer turned product manager. Brie loves thinking through complex problems to determine ways to delight customers and releive pain points. Outside of product management, Brie loves spending times outdoors with her husband and miniature Australian shepherd. She loves hiking, biking, snowboarding, paddle boarding, and exploring new destinations, restuarants, and bars.
