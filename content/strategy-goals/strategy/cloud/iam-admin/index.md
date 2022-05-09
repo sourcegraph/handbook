@@ -37,7 +37,7 @@ Today, Sourcegraph Admins do not have a clear understanding of how their team is
 
 **Product and Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, enterprise admins have very little visibility into usage within their organization. They are forced to rely on the basic stats provided by Sourcegraph or anecdotal reviews from their team. Introducing more fine grained analytics will enable admins to easily quantify value to their team and aid Sourcegraph AE/CE in driving upsell conversations based on usage within the org.
 
-### Problem Area: Allow admins to control sign-ups via externally defined groups
+### Problem Area: Allow Admins to Control Sign-ups via Externally Defined Groups
 
 Today, Sourcegraph does not provide administrators the ability to specify who can and cannot sign up for Sourcegraph, yet this functionality is critical for customers who want to adopt a land-and-expand strategy for adoption within their organization.
 
