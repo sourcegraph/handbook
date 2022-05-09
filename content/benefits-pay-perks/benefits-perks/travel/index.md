@@ -7,7 +7,7 @@ Travel budgets are for full time teammates.
 ## Travel Planning Guidelines
 
 - Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager.
-  -Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responbility of the teammate.
+- Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responbility of the teammate.
 - Our high agency value works because we all make responsible decisions in the best interests of the whole team and the business — **please treat company money how you would treat your own**.
 - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
 - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
@@ -48,11 +48,11 @@ This travel budget is intended for teammates to attend company-wide meetups, arr
 
 Each team is allocated $5,500 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
-_9am–12pm: Breakfast + Team collaboration time
-12pm–1pm: Team lunch
-1–4pm: Team bonding activities
-5–6pm: Solo time
-6–8pm: Team dinner_
+- _9am–12pm: Breakfast + Team collaboration time_
+- _12pm–1pm: Team lunch_
+- _1–4pm: Team bonding activities_
+- _5–6pm: Solo time_
+- _6–8pm: Team dinner_
 
 Factor in as much time to spend together during the trip and leave room for solo-exploring/recharging separate from the group.
 
@@ -71,7 +71,8 @@ Each teammate has a $2,500 budget per year to meet up with individual Sourcegrap
 
 ### 4. Business/customer travel
 
-For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](../celebrate.md#teammate-in-person-gatherings) with Category 4 trips. We would include the following types of meetups in Category 4:
+For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](../celebrate.md#teammate-in-person-gatherings) with 
+4 trips. We would include the following types of meetups in Category 4:
 
 - Customer Champion meetups
 - Director to Executive level meetups (no approval required)
@@ -96,7 +97,7 @@ _This professional development budget includes:_
 - **Conferences**: Attending conferences relevant to your role (the attendance and travel fees associated with them
 - **Leadership/professional coaching:** obtaining certified professional coaching outside of our organization or continuing to work with your Modern Health coach beyond our given 10 annual coaching credits
 
-**\*Best practice tip:** Request budget approval from your manager before booking any professional development opportunities.\*
+**Best practice tip:** Request budget approval from your manager before booking any professional development opportunities.
 
 If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval PRIOR to booking.
 
@@ -108,19 +109,19 @@ This section will inform you how to obtain manager approval and get sign-off for
 
 _The applicant is responsible for collecting the information below (where applicable), and each cost must be estimated in USD:_
 
-- [ ] Event name and link to the website:
-- [ ] Event Location (city, country):
-- [ ] Duration of stay (days, nights):
-
-- [ ] Is quarantine required for travel? If so, for how long:
-- [ ] Registration fee:
-- [ ] Airfare:
-- [ ] Ground transportation:
-- [ ] Hotel and lodging:
-- [ ] Meals:
-- [ ] Total cost:
-
-- [ ] Additional information (if applicable):
+> - Event name and link to the website:
+> - Event Location (city, country):
+> - Duration of stay (days, nights):
+>
+> - Is quarantine required for travel? If so, for how long:
+> - Registration fee:
+> - Airfare:
+> - Ground transportation:
+> - Hotel and lodging:
+> - Meals:
+> - Total cost:
+>
+> - Additional information (if applicable):
 
 #### Approvals Process:
 
@@ -137,7 +138,7 @@ For any anticipated spending over $1,000 USD, please follow the above steps and 
 
 We advise spending within reason for the location you are visiting, with a $300 USD per night maximum spend limit (including taxes, fees, and parking).
 
-> Spending over $300 USD per night requires additional approvals from
+> NOTE: Spending over $300 USD per night requires additional approvals from
 > Finance / People Ops.
 >
 > _Please send travel@sourcegraph.com an email with your manager and
@@ -153,8 +154,8 @@ We advise spending within reason for the location you are visiting, with a $300 
 - Book from travel providers that offer flexible cancellation policies and refundable rates, should your plans change at any time.
 - Sourcegraph will pay for flight to and from locations. Any changes made to your itinerary to extend your trip and change your flight itinerary will be out of pocket expenses.
 - At this time, we do not reimburse airport traveler programs, such as TSA-Pre, Global Entry, or Clear.
-- Gas and parking would be considered reimbursable within the applicable budget (Category 2,3,5) travel.
-- When driving a personal vehicle to a company-sponsored event (Category 1, 4), the Company will reimburse based on current IRS standard mileage rate of $0.56 per mile for 2021. This reimbursement per mile incorporates not only the cost of the fuel, but also maintenance and wear and tear of the vehicle. Upon expense submission, please provide a calculation of miles driven to and from the event.
+- Gas and parking would be considered reimbursable within the applicable budget (Category [2](#2-team-travel), [3](#3-individual-travel), [5](#5-professional-development-stipend-and-educational-travel)) travel.
+- When driving a personal vehicle to a company-sponsored event (Category [1](#1-company-wide-travel), [4](#4-businesscustomer-travel)), the Company will reimburse based on current IRS standard mileage rate of $0.56 per mile for 2021. This reimbursement per mile incorporates not only the cost of the fuel, but also maintenance and wear and tear of the vehicle. Upon expense submission, please provide a calculation of miles driven to and from the event.
 - Ride-shares (Uber, Lyft, etc.) are encouraged whenever possible instead of renting a car.
   - If you’re in the US and would like to rent a car, we recommend checking with the following companies before booking your car rental elsewhere:
     - [Turo](https://turo.com/)
