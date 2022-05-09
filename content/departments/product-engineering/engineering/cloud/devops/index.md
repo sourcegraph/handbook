@@ -31,7 +31,7 @@ This team is responsible for
 
 - The best way to contact the `cloud-devops` team is in the #cloud-devops slack channel. If it is urgent, please cc `@devops-support` in your message.
 - Issues with `team/devops` labels and [@team/cloud-devops](https://github.com/orgs/sourcegraph/teams/cloud-devops) team on GitHub
-- Please do not `@cloud-devops-team` or directly message individual teammates - this is to try and protect their focus
+- Please do not `@cloud-devops-team` or directly message individual teammates - this is to try and protect their focus. Instead, use the `@devops-support` handle, and the On-Call DevOps teammate will be notified.
 
 ## Content
 
