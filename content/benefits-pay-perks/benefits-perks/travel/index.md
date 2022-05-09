@@ -71,8 +71,8 @@ Each teammate has a $2,500 budget per year to meet up with individual Sourcegrap
 
 ### 4. Business/customer travel
 
-For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](../celebrate.md#teammate-in-person-gatherings) with 
-4 trips. We would include the following types of meetups in Category 4:
+For teammates with business-related travel requirements aligned with Company goals, trips will be fully paid pending manager/director approval in addition to above budgets. Please note you cannot combine the [Teammate In-person Gathering budget](../celebrate.md#teammate-in-person-gatherings) with 4 trips.
+We would include the following types of meetups in Category 4:
 
 - Customer Champion meetups
 - Director to Executive level meetups (no approval required)
