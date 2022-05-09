@@ -131,7 +131,7 @@ COMING SOON: how to use Brighthire for feedback
 
 ### Overall hiring recommendation
 
-In addition to providing written feedback, you are asked to choose an overall recommendation. You are given 4 feedback options in Greenhouse: 1. `Strong Yes` 2. `Yes` 3. `No` 4. `Strong No`. It is important that we are calibrated as a team and that we assess candidates using the same scale.
+In addition to providing written feedback, you are asked to choose an overall recommendation. You are given 5 feedback options in Greenhouse: 1. `Strong Yes` 2. `Yes` 3. `Neutral` 4. `No` 5. `Strong No`. It is important that we are calibrated as a team and that we assess candidates using the same scale.
 
 - Feedback is required immediately (no later than 24 hours after the interview) to ensure we're able to move candidates through our process quickly.
 
@@ -141,7 +141,7 @@ Please leverage the below **definitions** when rating candidates:
 
 `Yes` You observed only positive signs that this person would be a good fit for our team, but you don't feel strongly about hiring them.
 
-`Neutral` You are neutral or are unsure if they have, or don't have, this attribute. More digging and interviewing is recommended. To indicate that you're neutral, please **do not select any score** and press submit.
+`Neutral` You are neutral or are unsure if this person would be a good fit for our team. More digging and interviewing is recommended. To indicate that you're neutral, please **do not select any score** and press submit.
 
 `No` You have doubts about whether this person would make our team better.
 
