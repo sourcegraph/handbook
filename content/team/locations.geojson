@@ -1418,6 +1418,19 @@
                -122.592757
             ]
          }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Randell Callahan"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               39.739235,
+               -104.990250
+            ]
+         }
       }
    ]
 }
