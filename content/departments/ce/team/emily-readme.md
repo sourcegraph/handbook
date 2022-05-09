@@ -72,7 +72,7 @@ Also poor meeting management.
 
 ### My areas of knowledge
 
-Customer support, REST API support, troubleshooting, SCIM, SAML, enterprise authentication, unicode, public speaking, cusotmer training, the sweet potato emoji.
+Customer support, REST API support, troubleshooting, SCIM, SAML, enterprise authentication, unicode, public speaking, customer training, the sweet potato emoji, bog bodies.
 
 ### Areas of interest to learn
 
