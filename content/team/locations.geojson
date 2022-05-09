@@ -1431,6 +1431,19 @@
                -104.990250
             ]
          }
+      },
+     {
+         "type": "Feature",
+         "properties": {
+            "name": "Brienne McNally"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               39.739235,
+               -104.990250
+            ]
+         }
       }
    ]
 }
