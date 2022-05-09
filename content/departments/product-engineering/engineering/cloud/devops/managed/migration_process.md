@@ -22,6 +22,7 @@ Within the Customer Migration issue provided by CE, add the following informatio
 # Migration Procedure
 
 ## 1. Gathering Necessary Information
+
 This information should be contained in the managed instance request template. Reach out to the CE for more details if needed.
 
 ## 2. Create the Managed Instance
@@ -92,10 +93,10 @@ mv pgsql_dump.sql /tmp/pgsql_dump.sql
 Edit `docker-compose.yaml` to mount the PostgresSQL dump into the container
 add the following line to the `volumes:` stanza for `pgsql`.
 
- ```
- volumes:
-   - /tmp/pgsql_dump:/tmp/pgsql_dump
- ```
+```
+volumes:
+  - /tmp/pgsql_dump:/tmp/pgsql_dump
+```
 
 ### I) Start the database container
 
