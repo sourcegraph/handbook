@@ -178,6 +178,9 @@ The Internship Program manager needs to complete the following actions prior to 
 - Work with Inés and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
 - Work with TechOps team to ensure system access is set up for the interns
 - Confirm with Legal team that the [manager training doc](https://docs.google.com/document/d/1r2MFGEefMqRWitk_qdvl9VPK8m7dfjM19h56-ERSjDw/edit) is still sufficient for the upcoming cohort
+- Confirm with each intern who is currently on a F1 Student Visa that they:
+  - Have obtained an I-20 form from their university - This can take a couple of weeks, so please reach out to the interns at least 2-3 weeks prior to their start date
+  - Are prepared to show one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of their I-9 check within their first 2 days.
 - Confirm with PeopleOps that avatars have been created for each intern
 - Work with our external video partner to create the interns’ new hire video compilation. If the interns are not starting on a [cohort start date](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0), the intern program manager will send their video compilation in the #teammateannounce slack channel on their first day.
 - Finalize the social events and learning opportunities that will be included in the internship program

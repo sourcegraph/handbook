@@ -56,6 +56,15 @@ The following are real, anonymized quotes from customers today on how we're alre
 - Tie to higher retainment of engineers when they work in healthy code environments
 - Increased productivity, quicker builds
 
+## Competitive positioning
+
+As we position on the code health and [fixing security vulnerabilities](fixing-security-vulnerabilities.md) use cases, static analysis products such as Sonarqube and semgrep come up in customer conversations. The expressivity of structural search coupled with Batch Changes, for example, is a powerful approach to find and fix a code smell or vulnerability, which is also something static analysis is good at. So **what is the role of search vs static analysis** for those use cases? Each has their own merit and areas of use:
+
+- **static analysis** is typically harder to write, but is accurate and unambiguous. Static analysis products tend to orient towards **exhaustivity out of the box**: make sure known best practices are in place or make sure to scan for all common security vulnerabilities. They cannot easily be used to iterate on a new or ad hoc question about the codebase, and typically require previous experience with static analysis. Furthermore, because they need to be unambiguous and universal, static analysis is typically used the way a linter might be – catching smaller-scoped issues and papercuts rather than capturing the top priorities of a company's unique codebase and organizational goals.
+- **universal code search** is easier to use and easy to iterate with to answer any question about the codebase. For example, when a new code health issue arises, it's easy to quickly explore what code it impacts and write a batch change to fix it. It may not be as accurate or unambiguous: describing something unambiguously is not always possible or easy. But search can be used by any developer to very quickly solve many classes of problems, without requiring the help of someone with experience with static analysis. It's also universal (across your entire codebase and all repositories), whereas static analysis tools usually require more complex work per-repository to configure.
+
+As we increase our focus on those use cases we are not orienting towards exhaustivity: we will not be a product that out of the box scans for all CVEs or automatically applies basic linting rules. However, Sourcegraph will provide templates to solve for common use cases and lower the barrier to learning our features. The purpose of our templates is primarily to provide a starting point that may require small modifications to achieve a valuable impact, rather than something that is usable out of the box without any modifications. Importantly, the expressibility and flexibility of search are what allow any developer to easily modify our templates.
+
 ## Features that enable this use case
 
 {{generator:use_case_feature_list.code_health}}

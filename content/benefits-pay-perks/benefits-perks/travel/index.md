@@ -60,6 +60,7 @@ Factor in as much time to spend together during the trip and leave room for solo
 - This budget can be used for travel _(airfare, trains, etc.)_, lodging _(hotels, rental homes, etc.)_, events, meals and entertainment.
 - Teams are expected to use discretion about what events are appropriate for team outings. Be inclusive of all of the groups interests.
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
+- Visit the [Sample Team Offsites](sample-team-offsites.md) handbook page to view offsite itineraries used by other teams in the past.
 
 ### 3. Individual travel
 
@@ -150,7 +151,6 @@ We advise spending within reason for the location you are visiting, with a $300 
 - Economy class is recommended for booking all travel. _(If you need any higher tier of booking, reach out to Finance/People Ops for approval.)_
 - Travelers must book flights at least 30 days in advance to avoid premium airfare pricing. _(If you need to book a flight on short notice, reach out to Finance/People Ops for approval.)_
 - Book from travel providers that offer flexible cancellation policies and refundable rates, should your plans change at any time.
-- We strongly encourage obtaining travel insurance, especially in the Covid environment.
 - Sourcegraph will pay for flight to and from locations. Any changes made to your itinerary to extend your trip and change your flight itinerary will be out of pocket expenses.
 - At this time, we do not reimburse airport traveler programs, such as TSA-Pre, Global Entry, or Clear.
 - Gas and parking would be considered reimbursable within the applicable budget (Category 2,3,5) travel.
