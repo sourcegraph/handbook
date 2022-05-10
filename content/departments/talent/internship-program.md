@@ -56,7 +56,7 @@ SCHEDULE COMING SOON!
 
 ### Internship Projects
 
-Prior to the end of the internship, each intern will complete a final project. 
+Prior to the end of the internship, each intern will complete a final project.
 
 DETAILS COMING SOON!
 
