@@ -189,7 +189,7 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 
 ### Travel & Expenses
 
-- [Submitting reimbursable expenses](../../benefits-pay-perks/pay-expenses/expenses.md)
+- [Submitting reimbursable expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
 - [Spending Company Money](../../benefits-pay-perks/benefits-perks/spending-company-money.md)
 - [Travel Policy](../../benefits-pay-perks/benefits-perks/travel/index.md)
 

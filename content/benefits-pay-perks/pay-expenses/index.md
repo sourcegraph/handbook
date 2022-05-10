@@ -4,4 +4,4 @@
   - [Equity FAQ](compensation/equity-faq.md)
   - [Compensation Change Approvals](compensation/compensation-change-approvals.md)
 - [Invoices](invoices.md)
-- [Expenses](expenses.md)
+- [Expenses](expenses/index.md)
