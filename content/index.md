@@ -17,7 +17,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Overview](benefits-pay-perks/benefits-perks/index.md)
 - [Compensation](benefits-pay-perks/pay-expenses/compensation/index.md)
-- [Submitting expenses](benefits-pay-perks/pay-expenses/expenses.md)
+- [Submitting expenses](benefits-pay-perks/pay-expenses/expenses/index.md)
   - [Spending company money - what's covered](benefits-pay-perks/benefits-perks/spending-company-money.md)
 - [Travel benefits](benefits-pay-perks/benefits-perks/travel/index.md)
 - [Time off](benefits-pay-perks/benefits-perks/time-off/index.md)
