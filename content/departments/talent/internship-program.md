@@ -36,12 +36,6 @@ We pay competitively because we want to hire the best people and we want our tea
 
 - We will provide each intern with a loaner [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
 
-### Internship Events
-
-In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience.
-
-SCHEDULE COMING SOON!
-
 ### VISAs We Accept
 
 #### F1 Student VISA
@@ -53,6 +47,18 @@ If you are hired, we will need to verify your employment within your first 2 day
 Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
 Read more about our VISA policies for full-time employees [here](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance).
+
+### Internship Events
+
+In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience.
+
+SCHEDULE COMING SOON!
+
+### Internship Projects
+
+Prior to the end of the internship, each intern will complete a final project. 
+
+DETAILS COMING SOON!
 
 ### Hiring after the internship
 
