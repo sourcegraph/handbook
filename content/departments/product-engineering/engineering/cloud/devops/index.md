@@ -75,10 +75,11 @@ We use [geekbot](https://app.geekbot.com/dashboard/standup/97887/view) to keep o
 ### On-call
 
 We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main). Reponsibilities of the teammate who is on-call include:
-* Acknowledging incoming alerts
-* Initiating incident procedures
-* Publishing postmortems
-* Adding issues to the DevOps GitHub board with the label `devops/support` for external support requests, such as Slack messages addressed to `@devops-support`
+
+- Acknowledging incoming alerts
+- Initiating incident procedures
+- Publishing postmortems
+- Adding issues to the DevOps GitHub board with the label `devops/support` for external support requests, such as Slack messages addressed to `@devops-support`
 
 #### Issue handover
 
