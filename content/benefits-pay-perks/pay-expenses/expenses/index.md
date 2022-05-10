@@ -37,4 +37,4 @@ Reimbursement requests are processed on Airbase, which can be accessed via Okta.
 
 ## Other invoices
 
-For bills above $1,000, or for bills that require invoicing (versus using a personal credit card and expensing), please refer to the finance handbook's guide for [getting invoices paid](../../departments/finance/process/payables.md#getting-invoices-paid).
+For bills above $1,000, or for bills that require invoicing (versus using a personal credit card and expensing), please refer to the finance handbook's guide for [getting invoices paid](../../../departments/finance/process/payables.md#getting-invoices-paid).
