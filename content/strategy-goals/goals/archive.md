@@ -1,6 +1,6 @@
 # Archive of Sourcegraph goals and OKRs
 
-## FY2022 (current)
+## FY2022
 
 - Timeline: 2021-02-01 to 2022-01-31
 
