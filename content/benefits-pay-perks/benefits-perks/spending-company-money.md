@@ -155,4 +155,4 @@ The Company will not cover the cost of a co-working space deposit or sign for co
 
 **Travel expenses:** please see our page on [travel budgets](travel/index.md).
 
-Find out how to submit your expenses [here](../pay-expenses/expenses.md).
+Find out how to submit your expenses [here](../pay-expenses/expenses/index.md).
