@@ -19,4 +19,4 @@
   - [Equity FAQ](pay-expenses/compensation/equity-faq.md)
   - [Compensation Change Approvals](pay-expenses/compensation/compensation-change-approvals.md)
 - [Invoices](pay-expenses/invoices.md)
-- [Expenses](pay-expenses/expenses.md)
+- [Expenses](pay-expenses/expenses/index.md)

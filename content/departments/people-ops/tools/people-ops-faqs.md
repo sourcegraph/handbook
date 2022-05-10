@@ -38,7 +38,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. How do I submit expense reports?
 
-- You can find information on how to submit expenses for reimbursement [here](../../../benefits-pay-perks/pay-expenses/expenses.md). **Note:** there are different processes for expensing depending on your employment structure.
+- You can find information on how to submit expenses for reimbursement [here](../../../benefits-pay-perks/pay-expenses/expenses/index.md). **Note:** there are different processes for expensing depending on your employment structure.
   - For further information on expenses, please use our [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) channel, or contact [Finance](../../finance/index.md) if you require additional information.
 
 ### Q. Do I have to expense perks or are these already added to my pay?
