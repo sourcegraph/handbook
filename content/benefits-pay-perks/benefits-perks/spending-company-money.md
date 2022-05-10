@@ -6,7 +6,7 @@ We want to make sure you have what you need to be productive and happy in your r
 - You likely won't need every single item on this list—please use your best judgment and buy when you need them. Remember, Sourcegraph doesn't have unlimited funds—spend this money as if it was your own.
   - For example, if you intend to work out of a coworking space most of the time, you may not need a fully equipped home office as well.
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
-- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](../pay-expenses/expenses.md) for additional help.
+- Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](../pay-expenses/expenses/index.md) for additional help.
 
 ## Desk set-up
 
@@ -125,7 +125,7 @@ If you would like to upgrade to the new M1 Pro but you have had your current lap
 
 **Software/SaaS/cloud:** please check with the appropriate team and manager to ask if we already have a subscription or licenses to the software. If not, please get @sourcegraph/people-ops's approval for software or a subscription that would cost more than $500 per year.
 
-**[Internet, phone, and wellness](../pay-expenses/expenses.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
+**[Internet, phone, and wellness](../pay-expenses/expenses/index.md#internet-phone-and-wellness-benefits):** The following items are automatically added to your pay, and they don't need to be expensed.
 
 - **Internet/WiFi plan:** $50/month
 - **Cell phone plan:** $75/month
