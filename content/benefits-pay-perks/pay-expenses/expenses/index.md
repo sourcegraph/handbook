@@ -22,7 +22,9 @@ Reimbursement requests are processed on Airbase, which can be accessed via Okta.
 
 ## Teammates based outside of the US
 
-Contractors should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](invoices.md). Once the expenses are approved, the full invoice can be paid.
+**Contractors** should also submit expense reports promptly at the end of each month, and include the expenses in their [monthly invoices](invoices.md). Once the expenses are approved, the full invoice can be paid.
+
+**PEO teammates under Deel** should use their dashboard in Deel.com to do so. You can follow instructions [here](expenses-through-deel.md). 
 
 ## Internet, phone, and wellness benefits
 
