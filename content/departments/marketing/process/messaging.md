@@ -99,10 +99,6 @@ See how Sourcegraph compares with and integrates to other solutions:
 
 Sourcegraph is a company that creates software to help every organization build software with the quality and efficiency of today's elite technology companies.
 
-## Press release boilerplate
-
-Sourcegraph helps companies solve [Big Code problems](https://about.sourcegraph.com/press-release/big-code-survey-2020/) so developers can innovate faster. [Sourcegraph’s Universal Code Search](https://info.sourcegraph.com/universal-code-search-ebook-req) is the only solution that empowers developers to easily find and understand code and fix problems across the entire codebase. Companies using Sourcegraph benefit from accelerated software iteration, improved code quality, faster bug fixes and incident response times, more effective remote coding collaboration, safer legacy code deprecation, better coding insights and [more](https://info.sourcegraph.com/universal-code-search-ebook-req). Sourcegraph’s customers include many of the world’s leading companies, such as Amazon, PayPal, Uber, Lyft, Yelp, Atlassian, and Indeed. The all-remote company is backed by Sequoia Capital, Craft Ventures, Redpoint Ventures, and Goldcrest Capital.
-
 ## Definitions
 
 - **Code search** - Essential task for all developers to quickly find, understand, and change all of the code that they are responsible for. Includes the activities of code discovery, code intelligence, and code change management.
