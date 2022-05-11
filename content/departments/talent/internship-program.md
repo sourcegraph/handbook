@@ -50,9 +50,24 @@ Read more about our VISA policies for full-time employees [here](../people-ops/p
 
 ### Internship Events
 
-In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience.
+In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
 
-SCHEDULE COMING SOON!
+- 5/16 Welcome Meeting with HR
+- 5/19 Meet the Founders
+- 5/25 Virtual Game Event
+- 5/31 Cohort Meeting
+- 6/1	Exec Q&A- Carly Jones
+- 6/8	LinkedIn Workshop
+- 6/14 Yoga/Meditation
+- 6/21 Cohort Meeting
+- 6/22 Exec Q&A - Christina/Nick
+- 6/29 Exec Q&A - Kacie
+- 7/6	Interviewing Workshop
+- 7/14 Virtual Escape Room
+- 7/19 Cohort Meeting
+- 7/20 Optional Q&A - Ben Horowitz 
+- 7/27 Exec Q&A - Gregg/Aimee
+- 8/3	Virtual Cooking Class
 
 ### Internship Projects
 
