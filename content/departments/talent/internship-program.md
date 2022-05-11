@@ -36,12 +36,6 @@ We pay competitively because we want to hire the best people and we want our tea
 
 - We will provide each intern with a loaner [laptop](../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
 
-### Internship Events
-
-In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience.
-
-SCHEDULE COMING SOON!
-
 ### VISAs We Accept
 
 #### F1 Student VISA
@@ -53,6 +47,33 @@ If you are hired, we will need to verify your employment within your first 2 day
 Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
 Read more about our VISA policies for full-time employees [here](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance).
+
+### Internship Events
+
+In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
+
+- 5/16 Welcome Meeting with HR
+- 5/19 Meet the Founders
+- 5/25 Virtual Game Event
+- 5/31 Cohort Meeting
+- 6/1 Exec Q&A- Carly Jones
+- 6/8 LinkedIn Workshop
+- 6/14 Yoga/Meditation
+- 6/21 Cohort Meeting
+- 6/22 Exec Q&A - Christina/Nick
+- 6/29 Exec Q&A - Kacie
+- 7/6 Interviewing Workshop
+- 7/14 Virtual Escape Room
+- 7/19 Cohort Meeting
+- 7/20 Optional Q&A - Ben Horowitz
+- 7/27 Exec Q&A - Gregg/Aimee
+- 8/3 Virtual Cooking Class
+
+### Internship Projects
+
+Prior to the end of the internship, each intern will complete a final project.
+
+DETAILS COMING SOON!
 
 ### Hiring after the internship
 

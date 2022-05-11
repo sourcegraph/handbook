@@ -73,6 +73,19 @@ We don't have sprint or cycles. We are mostly task-driven under the quarterly go
 
 We use [geekbot](https://app.geekbot.com/dashboard/standup/97887/view) to keep others informed of what’s going on asynchronously. This is a good time to share your progress and ask for help to remove any blockers.
 
+### On-call
+
+We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main). Reponsibilities of the teammate who is on-call include:
+
+- Acknowledging incoming alerts
+- Initiating incident procedures
+- Publishing postmortems
+- Adding issues to the DevOps GitHub board with the label `devops/support` for external support requests, such as Slack messages addressed to `@devops-support`
+
+#### Issue handover
+
+If the on-call teammate reaches the end of their shift with unresolved issues, they inform the rest of the team in #cloud-devops-internal.
+
 ## Goals
 
 ### FY23Q2 Goals

@@ -2964,5 +2964,38 @@ jean-paul_bezuidenhout:
   pronouns: he/him
   role: Senior Product Education Engineer
   reports_to: head_of_technical_writing
-  Location: Cape Town, South Africa 🇿🇦
+  location: Cape Town, South Africa 🇿🇦
+  links: '[LinkedIn](www.linkedin.com/in/jeanpaulbezuidenhout)'
   description: Jean-Paul lives in Cape Town, South Africa. He is a writer and business practitioner. He spends his free time with his wife and two boys gardening or exploring Cape Town's forests, mountains and beaches. He also enjoys rainy days at home tinkering with tech. He keeps tropical fish and aquarium plants (and a fair bit of unwanted algae).
+
+joe_johnson:
+  name: Joe Johnson
+  email: joe.johnson@sourcegraph.com
+  github: blvckcoffee
+  pronouns: he/him
+  role: Senior Product Education Engineer
+  reports_to: head_of_technical_writing
+  location: Birmingham, AL, USA 🇺🇸
+  description: Joe started his career as an educator and loves demystifying complex topics. He studied teaching and Computer Science at Florida State University. Prior to Sourcegraph, he designed learning experiences in the specialty coffee, eLearning, and AI industries. He lives in Birmingham with his wife, Steph, and spends his free time adjusting coffee brew ratios, reading, and hiking the foothills of the Appalachian Mountains.
+
+william_bezuidenhout:
+  name: William Bezuidenhout
+  email: william.bezuidenhout@sourcegraph.com
+  github: burmudar
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_developer_experience
+  location: Cape Town, South Africa 🇿🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/williambezuidenhout/), [Twitter](https://twitter.com/BurmudarFTL)'
+  description: William lives in the beautiful Cape Town, South Africa. He enjoys running and moutain biking and when the weather permits (and his motivation) he can be out riding some trail at a wine farm or taking a leisure run. Besides the outdoor stuff, he loves to tinker and can often be found working on one of his side projects and reading up a storm on either tech, sci-fi, or fantasy! He loves animals and can easily be distracted by a dog.
+
+aditya_kalie:
+  name: Aditya Kalia
+  email: aditya.kalia@sourcegraph.com
+  github: akalia25
+  pronouns: he/him
+  role: Data Engineer
+  reports_to: director_data_analytics
+  location: San Jose, California 🇺🇸/ Toronto, Canada 🇨🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/aditya-kalia/)'
+  description: Aditya is a data enthusiast who enjoys solving big data problems and connecting data from A to B. Previously, he led data engineering at a health-focused startup, enabling consumers to shop for their dietary preferences on retailer websites. Outside of work, Aditya enjoys staying active and playing sports with friends. He likes to split his time between Canada and USA to spend time with his close friends and family in both countries.
