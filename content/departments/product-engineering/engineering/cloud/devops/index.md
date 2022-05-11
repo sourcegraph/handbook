@@ -48,6 +48,7 @@ This team is responsible for
 - [Silencing Alerts](silencing-alerts.md)
 - [Cloud Postgres](cloud-postgres.md)
 - [Managed instances operation](./managed/index.md)
+- [Opsgenie](opsgenie.md)
 
 ## How we work
 
