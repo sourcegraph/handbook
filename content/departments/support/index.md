@@ -35,6 +35,7 @@ We always want the following to be true:
 - **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
 - **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
 - **We complete our OKRs:**
+  - [FY23Q2 OKR plan](strategy-goals/FY23Q2-OKR-plan.md)
   - [FY23Q1 OKR plan](strategy-goals/FY23Q1-OKR-Plan.md)
   - [FY22Q4 OKR plan](strategy-goals/FY22Q4-OKR-Plan.md)
   - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
