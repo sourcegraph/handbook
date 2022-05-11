@@ -11,7 +11,7 @@ To accomplish this:
 3. Nonso will facilitate a workgroup of folks willing to raise their hand to continue building our enablement library.
 4. Virginia will launch a collaborative effort with our other engineering teams to move to customer calls faster in our process to reduce resolution time. We move to calls readily, but we need to have full buy-in with our partners on other engineering teams for when they are needed on calls, too.
 5. Sarah / Shawnteé will launch a support-focused feedback survey we can send customers to solicit their thoughts on how we can further reduce resolution time/improve the customer experience when a support issue arises.
-6. Sarah / Shawnteé will solicit feedback from PMs/EMs on how we can iterate and improve on our quarterly insights report to consistently and proactively provide insights to improve the customer experience. 
+6. Sarah / Shawnteé will solicit feedback from PMs/EMs on how we can iterate and improve on our quarterly insights report to consistently and proactively provide insights to improve the customer experience.
 7. Sarah / Shawnteé will facilitate a workgroup to create a Zendesk add-on that lets triage automate customer-specific internal notes to set-up the AER responsible for success (ie, notes about technical exceptions, etc).
 8. Alex will continue to collaborate with #delivery as-needed as they work to make improvements to the resource estimator.
 9. Warren will collaborate with #repo-management to scope our one-click data export tool meant to include as much relevant troubleshooting information as possible.
