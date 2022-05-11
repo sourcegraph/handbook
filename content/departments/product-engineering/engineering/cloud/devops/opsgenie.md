@@ -3,7 +3,6 @@
 Our current on-call alerting system is run via Opsgenie. This system will send notifications via voice call, SMS, email, and Slack.
 Teams at Sourcegraph that have production systems where they need to alerted to potential issues should have an Opsgenie rotation.
 
-
 ## Creating an Opsgenie team
 
 Admins are able to view the [current Opsgenie teams](https://sourcegraph.app.opsgenie.com/teams/list) and create new teams.
@@ -16,11 +15,10 @@ See the [official Opsgenie docs](https://support.atlassian.com/opsgenie/docs/man
 Ensure that the first escalation after the on-call engineer is to "Alert the entire team".
 Ensure that the final escalation policy is set to "Send to the DevOps team" or "Send to all teams" bases on severity.
 
-
-
 ## Alerts on Cloud
 
 Opsgenie alerts on Cloud are configured in the following way:
+
 - The site-config
 - The Opsgenie team
 - The [ObservableOwner](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24+ObservableOwner&patternType=literal)
