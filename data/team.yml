@@ -2977,3 +2977,14 @@ joe_johnson:
   reports_to: head_of_technical_writing
   location: Birmingham, AL, USA 🇺🇸
   description: Joe started his career as an educator and loves demystifying complex topics. He studied teaching and Computer Science at Florida State University. Prior to Sourcegraph, he designed learning experiences in the specialty coffee, eLearning, and AI industries. He lives in Birmingham with his wife, Steph, and spends his free time adjusting coffee brew ratios, reading, and hiking the foothills of the Appalachian Mountains.
+
+william_bezuidenhout:
+  name: William Bezuidenhout
+  email: william.bezuidenhout@sourcegraph.com
+  github: burmudar
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_developer_experience
+  location: Cape Town, South Africa 🇿🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/williambezuidenhout/), [Twitter](https://twitter.com/BurmudarFTL)'
+  description: William lives in the beautiful Cape Town, South Africa. He enjoys running and moutain biking and when the weather permits (and his motivation) he can be out riding some trail at a wine farm or taking a leisure run. Besides the outdoor stuff, he loves to tinker and can often be found working on one of his side projects and reading up a storm on either tech, sci-fi, or fantasy! He loves animals and can easily be distracted by a dog.
