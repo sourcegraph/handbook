@@ -65,6 +65,8 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ### ARR
 
+[Topline Metrics Definitions](content/departments/finance/topline definitions.md)
+
 Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
 
 ARR includes committed [bookings](#booking) with contract start dates that fall in the first 15 days of the following calendar month. This allows Sourcegraph sales team members to get credit for renewals and expansions that may fall in the (near) future. Exceptions to this require written approval from the VP of Operations and the VP of Sales. Please see [ARR timing examples](https://docs.google.com/document/d/1SdUzcW8UUUgSjawIdjPw2bDBJ-j0Fjo3Et0r6yOnikE/edit).
