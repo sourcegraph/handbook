@@ -9,13 +9,14 @@ A build system understands the relations between different files, [modules][#mod
 In the context of Code Intel, for out-of-the-box support, an [indexer](#indexer) needs to invoke the build system in the right way. (TODO: Clarify this!)
 
 Examples:
-* Bazel, Buck, Pants, Meson: Support many languages.
-* Maven, Gradle, Ant: Primarily used for Java, Kotlin and Scala.
-* CMake: Primarily used for C and C++, but also used for other projects. Strictly speaking, CMake is a "meta build system"; it generates build instructions which are executed by another build system (such as Make or Ninja).
+
+- Bazel, Buck, Pants, Meson: Support many languages.
+- Maven, Gradle, Ant: Primarily used for Java, Kotlin and Scala.
+- CMake: Primarily used for C and C++, but also used for other projects. Strictly speaking, CMake is a "meta build system"; it generates build instructions which are executed by another build system (such as Make or Ninja).
 
 ### Code Intel
 
-Shorthand for "Code Intelligence". Used as a broad term for describing knowledge about  code that forms the core building block for rich [code navigation](#code-navigation) (as of 2022 Apr 08), and hopefully a lot more cool functionality in the future. 😄
+Shorthand for "Code Intelligence". Used as a broad term for describing knowledge about code that forms the core building block for rich [code navigation](#code-navigation) (as of 2022 Apr 08), and hopefully a lot more cool functionality in the future. 😄
 
 Divided into two types: [search-based code intel](#search-based-code-intel) and [precise code intel](#precise-code-intel). However, this distinction is becoming increasingly blurry, as some code intel can be a mix of precise and search-based.
 
@@ -24,9 +25,10 @@ For example, as of 2022 Apr 08, GitHub's code navigation accuracy falls somewher
 ### Code Intel popover
 
 A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code intel](#precise-code-intel). Depending on the context, it may have (as of 2022 Apr 08):
-* The [doc comment](#doc-comment) for the [symbol](#symbol) corresponding to the identifier.
-* Buttons for [code navigation](#code-navigation).
-* A label describing if the code intel is search-based or precise.
+
+- The [doc comment](#doc-comment) for the [symbol](#symbol) corresponding to the identifier.
+- Buttons for [code navigation](#code-navigation).
+- A label describing if the code intel is search-based or precise.
 
 ### code navigation
 
@@ -37,11 +39,12 @@ Umbrella term for functionality such as [Go to definition](#go-to-definition), [
 Roughly speaking, compilation is the process of taking code in a text based form to a binary format that can be run on a computer.
 
 Usually, compilation is split into a few layers conceptually.
-* [parsing](#parsing)
-* [name resolution](#name-resolution)
-* [type checking](#type-checking)
-* optimization
-* code generation
+
+- [parsing](#parsing)
+- [name resolution](#name-resolution)
+- [type checking](#type-checking)
+- optimization
+- code generation
 
 Depending on the language, name resolution and type checking may be interleaved. Together, these two phases are called [semantic analysis](#semantic-analysis).
 
@@ -54,19 +57,21 @@ A set of one or more files that are compiled together to produce build artifacts
 The size (number of files + size of each file) of a compilation unit is tied to the speed of [incremental compilation](#incremental-compilation), which in turn limits the speed of [incremental indexing](#incremental-indexing). In particular, if a compilation unit spans multiple files, it is not possible (in the general) to perform incremental indexing at the granularity of files.
 
 Different languages have different terms for a compilation unit. For example:
-* [package](#package) (multiple files): Go, Java, Kotlin, Scala.
-* [module](#module) (multiple files): Swift.
-* [module](#module) (single file): TypeScript, Python, Haskell, OCaml.
-* crate (multiple files): Rust.
+
+- [package](#package) (multiple files): Go, Java, Kotlin, Scala.
+- [module](#module) (multiple files): Swift.
+- [module](#module) (single file): TypeScript, Python, Haskell, OCaml.
+- crate (multiple files): Rust.
 
 ### compiler
 
 A tool that performs [compilation](#compilation).
 
 Examples:
-* Clang, GCC and MSVC are compilers for C and C++. Clang also supports Objective-C.
-* Javac is a compiler for Java.
-* Dotty is a compiler for Scala.
+
+- Clang, GCC and MSVC are compilers for C and C++. Clang also supports Objective-C.
+- Javac is a compiler for Java.
+- Dotty is a compiler for Scala.
 
 Many languages have only one (major) compiler. In such a situation, the compiler is sometimes referred to as "the (Language) compiler" instead of by its actual name.
 
@@ -77,9 +82,10 @@ A dependency is conceptually a pair consisting of a name and a version. Dependen
 Since the terms [module](#module) and [package](#package) carry different meanings in different languages, we prefer using the term dependency instead if possible in contexts pertaining to more than one language.
 
 Dependencies are sometimes further divided into:
-* Core dependencies (⚠️ non-standard terminology): These are the dependencies of the core app/library code.
-* Test dependencies: These are the dependencies of the code used for testing the core app/library code.
-* Development (dev) dependencies: These include things like formatters, linters, test runners etc., which aren't strictly required for the main code or the tests, but are useful in day-to-day development.
+
+- Core dependencies (⚠️ non-standard terminology): These are the dependencies of the core app/library code.
+- Test dependencies: These are the dependencies of the code used for testing the core app/library code.
+- Development (dev) dependencies: These include things like formatters, linters, test runners etc., which aren't strictly required for the main code or the tests, but are useful in day-to-day development.
 
 ### directed acylic graph
 
@@ -100,7 +106,7 @@ In code, these are often written directly above or below an entity's definition,
 ```typescript
 /// toCelsius converts temperature from Farenheit to Celsius.
 function toCelsius(temperature: number): number {
-  return (temperature - 32) * 5 / 9
+  return ((temperature - 32) * 5) / 9
 }
 ```
 
@@ -125,8 +131,9 @@ A description of the syntax of a (programming) language, usually in a machine-re
 Same as [syntax definition](#syntax-definition).
 
 Examples:
-* [tree-sitter grammar for Go](https://github.com/tree-sitter/tree-sitter-go/blob/master/grammar.js)
-* [Sublime Text grammar for Ruby](https://github.com/sublimehq/Packages/blob/master/Ruby/Ruby.sublime-syntax)
+
+- [tree-sitter grammar for Go](https://github.com/tree-sitter/tree-sitter-go/blob/master/grammar.js)
+- [Sublime Text grammar for Ruby](https://github.com/sublimehq/Packages/blob/master/Ruby/Ruby.sublime-syntax)
 
 ### hover tooltip
 
@@ -141,11 +148,13 @@ TODO
 A string representing the name for an entity in a programming language.
 
 For example,
+
 ```typescript
 function myFunction(myParameter: MyType) {}
 function myOtherFunction(myParameter: MyType) {}
 ```
-has 4 unique identifiers: `myFunction`, `myOtherFunction`, `myParameter`  and `MyType`. `function` is not an identifier; it is a [keyword](#keyword).
+
+has 4 unique identifiers: `myFunction`, `myOtherFunction`, `myParameter` and `MyType`. `function` is not an identifier; it is a [keyword](#keyword).
 
 Usually, identifiers consist of alphanumeric characters and underscores. However, many languages allow "raw identifiers", which ~essentially can include arbitrary strings. Languages using prefix notation also allow nearly any non-bracket character in an identifier.
 
@@ -261,11 +270,12 @@ function myOtherFunction(myParameter: MyType) {}
 ```
 
 has 5 unique symbols (assuming `MyType` is a [type](#type) defined elsewhere):
-* `myFunction`
-* `myOtherFunction`
-* `myParameter` in `myFunction`
-* `myParameter` in `myOtherFunction` (which is logically separate from the identically named parameter in `myFunction` due to scoping rules)
-* and `MyType`.
+
+- `myFunction`
+- `myOtherFunction`
+- `myParameter` in `myFunction`
+- `myParameter` in `myOtherFunction` (which is logically separate from the identically named parameter in `myFunction` due to scoping rules)
+- and `MyType`.
 
 Recall from the [identifier](#identifier) description that this code snippet has 4 unique identifiers. The identifier `myParameter` corresponds to two different symbols in two different contexts.
 
@@ -296,22 +306,25 @@ Example: [JSON files are syntax highlighted by GitHub](https://github.com/source
 An tree-like data structure generated from [parsing](#parsing), which is better suited for tasks like [syntax highlighting](#syntax-highlighting) compared to plain text. Does not strictly need to be a tree; can sometimes be a directed acylic graph (DAG), or a tree + some auxiliary tables.
 
 Usually divided into two kinds:
-* Abstract syntax tree (AST): A syntax tree representing the essential syntactic elements of code, which are useful for [semantic analysis](#semantic-analysis). Conventionally excludes information about whitespace and comments. This means that it is not always possible to reconstruct the original code from an AST, making it unsuitable for tools like code formatters and syntax highlighters.
-* Concrete syntax tree (CST): A syntax tree that maintains full information about whitespace and comments, allowing one to reconstruct the original source code if needed. This means that a CST is generally not as well-suited for performing [semantic analysis](#semantic-analysis) as an AST, as it can require paying attention to semantically irrelevant details.
-   Sometimes called a "Lossless syntax tree" or "Lossless AST."
+
+- Abstract syntax tree (AST): A syntax tree representing the essential syntactic elements of code, which are useful for [semantic analysis](#semantic-analysis). Conventionally excludes information about whitespace and comments. This means that it is not always possible to reconstruct the original code from an AST, making it unsuitable for tools like code formatters and syntax highlighters.
+- Concrete syntax tree (CST): A syntax tree that maintains full information about whitespace and comments, allowing one to reconstruct the original source code if needed. This means that a CST is generally not as well-suited for performing [semantic analysis](#semantic-analysis) as an AST, as it can require paying attention to semantically irrelevant details.
+  Sometimes called a "Lossless syntax tree" or "Lossless AST."
 
 AST is a much more popular term, and is sometimes colloquially used in place of CST.
 
 ### toolchain
 
 A set of developer tools that ships together, which can be used to develop code in some programming language. Toolchains commonly include:
-* a [compiler](#compiler) or a standalone [type checker](#type-checker)
-* a [package manager](#package-manager)
-* a [build system](#build-system)
+
+- a [compiler](#compiler) or a standalone [type checker](#type-checker)
+- a [package manager](#package-manager)
+- a [build system](#build-system)
 
 Some example of toolchains:
-* Xcode includes a toolchain for Swift, Objective-C, C and C++.
-* The Rust toolchain includes the Rust compiler (rustc), and a package manager + build system (cargo).
+
+- Xcode includes a toolchain for Swift, Objective-C, C and C++.
+- The Rust toolchain includes the Rust compiler (rustc), and a package manager + build system (cargo).
 
 Not all languages have proper toolchains; rather they have an assortment of different tools from which one can pick an choose. For example, in the TypeScript ecosystem, the compiler ships separately and is developed independently of package management tools like npm/Yarn/pnpm.
 
@@ -346,7 +359,7 @@ Sometimes spelled with a hyphen ("type-checker") or without a space ("typechecke
 The process of checking if the [type](#type)s in a program are mutually consistent. For example, something like this would be a type error:
 
 ```typescript
-const x: string = "A"
+const x: string = 'A'
 const y: number = x // type error: cannot assign a string ('x') to a number ('y')
 ```
 
