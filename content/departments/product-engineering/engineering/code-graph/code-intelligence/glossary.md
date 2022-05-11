@@ -16,6 +16,8 @@ Examples:
 
 ### Code Intel
 
+⚠: This term is an internal abbreviation and not recommended when talking to external people.
+
 Shorthand for "Code Intelligence". Used as a broad term for describing knowledge about code that forms the core building block for rich [code navigation](#code-navigation) (as of 2022 Apr 08), and hopefully a lot more cool functionality in the future. 😄
 
 Divided into two types: [search-based code intel](#search-based-code-intel) and [precise code intel](#precise-code-intel). However, this distinction is becoming increasingly blurry, as some code intel can be a mix of precise and search-based.
