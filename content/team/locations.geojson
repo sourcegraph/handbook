@@ -1444,6 +1444,32 @@
                -104.990250
             ]
          }
+      },
+     {
+          "type": "Feature",
+          "properties": {
+            "name": "Jean-Paul Bezuidenhout"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              18.439610,
+              -34.062710
+            ]
+         }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "William Bezuidenhout"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              18.519208,
+              -33.930634
+            ]
+         }
       }
    ]
 }
