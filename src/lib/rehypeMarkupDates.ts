@@ -29,15 +29,15 @@ const fiscalQuarterPattern = /F?Q([1-4])/
 
 const datePattern = new RegExp(
     '\\b(' +
-    [
-        monthPattern.source,
-        weekPattern.source,
-        timePattern.source,
-        dateTimePattern.source,
-        fiscalYearPattern.source,
-        fiscalQuarterPattern.source,
-    ].join('|') +
-    ')\\b',
+        [
+            monthPattern.source,
+            weekPattern.source,
+            timePattern.source,
+            dateTimePattern.source,
+            fiscalYearPattern.source,
+            fiscalQuarterPattern.source,
+        ].join('|') +
+        ')\\b',
     'g'
 )
 
