@@ -6,7 +6,7 @@ A tool that is used to transform code into a format where it can be executed, us
 
 A build system understands the relations between different files, [modules][#module] and [packages][#package].
 
-In the context of Code Intel, for out-of-the-box support, an [indexer](#indexer) needs to invoke the build system in the right way. (TODO: Clarify this!)
+In the context of Code Intelligence, for out-of-the-box support, an [indexer](#indexer) needs to invoke the build system in the right way. (TODO: Clarify this!)
 
 Examples:
 
