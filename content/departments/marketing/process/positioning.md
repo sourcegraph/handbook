@@ -12,7 +12,7 @@
 
 **Boilerplate:** Sourcegraph is a code intelligence platform that unlocks developer efficiency, helping engineers and engineering leaders understand, fix, and automate across their entire codebase. Over one million engineers use Sourcegraph to improve code security, efficiently onboard developers, promote code reuse, resolve incidents, and boost code health. Code intelligence is a critical capability that increases enterprise engineering velocity, software quality and stability, and team health. Leading companies like Amazon, PayPal, Uber, Lyft, Reddit, GE, and Dropbox, rely on Sourcegraph to build the products we all rely on. Sourcegraph is an all-remote company backed by Andreessen Horowitz, Sequoia Capital, Craft Ventures, Redpoint Ventures, and Goldcrest Capital.
 
-Note: always check this [doc](https://docs.google.com/document/d/1jvE52dR4wsOhbKnJTghb0cHo-XdtWKF6ghPRZ4FWl1M/edit#) for the latest boilerplate. 
+Note: always check this [doc](https://docs.google.com/document/d/1jvE52dR4wsOhbKnJTghb0cHo-XdtWKF6ghPRZ4FWl1M/edit#) for the latest boilerplate.
 
 ![platform positioning](https://storage.googleapis.com/sourcegraph-assets/Platform%20positioning.png)
 
