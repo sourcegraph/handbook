@@ -10,7 +10,7 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
 
 - Join the design-related Slack channels:
   - design
-  - product-design-internal
+  - design-internal
   - accessibility
   - analytics-review
   - wildcard-components-library-wcl
