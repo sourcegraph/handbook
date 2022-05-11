@@ -1,4 +1,4 @@
-# Code Intel Glossary
+# Code Intelligence Glossary
 
 ### build system
 
