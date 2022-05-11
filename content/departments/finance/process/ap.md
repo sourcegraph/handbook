@@ -104,7 +104,7 @@ The best practice is to share and sign our [NDA](https://drive.google.com/file/d
 
 ##### Is a DPA required?
 
-If the vendor will receive any personal data from us, ask for the vendor's DPA. Personal data includes any **teammate personal data** (including account login email/pw, addresses, DOB, etc.) and any **customer content** (such as sourcecode metadata, which contains usernames and emails). If the vendor is a SaaS solution, then yes, we need a DPA. 
+If the vendor will receive any personal data from us, ask for the vendor's DPA. Personal data includes any **teammate personal data** (including account login email/pw, addresses, DOB, etc.) and any **customer content** (such as sourcecode metadata, which contains usernames and emails). If the vendor is a SaaS solution, then yes, we need a DPA.
 
 ###### What if the vendor asks us to provide a DPA?
 
