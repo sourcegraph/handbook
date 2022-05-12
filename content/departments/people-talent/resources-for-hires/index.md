@@ -1,4 +1,4 @@
-# Resources for teammates
+# Resources for New Hires
 
 ## Before you join
 
