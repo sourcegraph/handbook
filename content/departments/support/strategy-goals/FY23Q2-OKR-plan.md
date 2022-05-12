@@ -1,8 +1,9 @@
 # FY23Q2 OKR plan
 
-In support of our company level OKR to provide a world-class admin experience, we will:
-Lower support resolution time from 8.4 days on average to 7 days or less.
-Increase our internal enablement library from 6 courses to 11.
+In support of our company level OKR to _provide a world-class admin experience_, we will:
+
+- Lower support resolution time from 8.4 days on average to 7 days or less.
+- Increase our internal enablement library from 6 courses to 11.
 
 To accomplish this:
 
