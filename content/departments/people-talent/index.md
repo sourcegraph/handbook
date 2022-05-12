@@ -9,7 +9,7 @@ TODO
 
 - [Resources for Candidates]
 - Resources for Interns
-- [Resources for New hires](resources-for-hires.md)
+- [Resources for New hires](resources-for-hires/index.md)
 - Resources for Teammates
 - Resources for Managers
 
