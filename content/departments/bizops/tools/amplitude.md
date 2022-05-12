@@ -132,4 +132,4 @@ Team Spaces are a collection of charts, dashboards and notebooks that are releva
 
 ### Are there "official" or "approved" dashboards?
 
-Yes! Select dashboards are reviewed by the Data & Analytics team and are marked as ```Official Content```. You can view all this content by simply opening the search bar and selecting the ```Official Content``` checkbox. 
+Yes! Select dashboards are reviewed by the Data & Analytics team and are marked as `Official Content`. You can view all this content by simply opening the search bar and selecting the `Official Content` checkbox.
