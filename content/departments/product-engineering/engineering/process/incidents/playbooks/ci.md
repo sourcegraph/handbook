@@ -137,15 +137,7 @@ In order to handle problems with the CI, the following elements are necessary:
 #### Actions
 
 1. Escalate by creating an incident (`/incident` on Slack).
-1. Get some help.
-1. Downscale the agents to be able to observe exactly what's going on.
-   1. Update the `autoscaler` manifest to run a single agent
-      1. `cd sourcegraph/infrastructure`
-      2. Edit the [manifest](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-job-dispatcher/buildkite-job-dispatcher.Deployment.yaml?L57-58) to set `1` on both maximum and mininimum agent count.
-      3. `cd buildkite/kubernetes/buildkite-autoscaler`
-      4. Run `kubectl apply -n buildkite -f buildkite-autoscaler.Deployment.yaml`
-      5. Use`kubectl get pods -n buildkite -w` to observe the currently running agents (`k9s` works here too).
-   2. From there, any change and build will run on a single agent, allowing you to observe the behaviour live.
+1. Get some help by pinging `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
 
 ### Spotted a flake
 
