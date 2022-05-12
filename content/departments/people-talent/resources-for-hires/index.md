@@ -16,7 +16,7 @@
   - [Onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md)
   - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
   - [Onboarding events](../../../company-info-and-process/onboarding/onboarding-events.md)
-  - [Onboarding check ins]
+  - [Onboarding check ins](../../../company-info-and-process/onboarding/onboarding-check-ins.md)
     - [Onboarging Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
 - [Tools we use](tools-we-use.md)
