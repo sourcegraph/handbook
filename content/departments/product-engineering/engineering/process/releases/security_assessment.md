@@ -18,7 +18,7 @@ applied to Sourcegraph Container Images before the release is published.
 See [RFC 678](https://docs.google.com/document/d/1v0TXVLPCNA42cQwIYeGLICoy6zfK9KprMRpMa2Fn6IE/edit#) for more information.
 
 The Security Team should use **this** issue to communicate and coordinate
-actions to meet our obligations under the [Vulerability Management Process](https://handbook.sourcegraph.com/departments/product-engineering/engineering/cloud/security/vulnerability-management-process/).
+actions to meet our obligations under the [Vulerability Management Process](../../cloud/security/vulnerability-management-process.md).
 
 After all items are resolved, this issue can be closed an the release should be
 considered unblocked by the Security Assessment.
