@@ -1,6 +1,6 @@
 # Resources for Candidates
 
-# How to apply
+## How to apply
 
 The source-of-truth for our open positions is [our careers page](https://about.sourcegraph.com/jobs/).
 
@@ -12,7 +12,7 @@ We are growing rapidly and post new jobs on a weekly basis. We encourage you to 
 
 Candidates are able to re-apply for roles at any time. The hiring team will review all relevant information, including past interviews, when considering a person's candidacy.
 
-# Working at Sourcegraph
+## Working at Sourcegraph
 
 ### Sourcegraph's culture
 
@@ -49,12 +49,13 @@ Interviewing requires time and effort, both for Sourcegraph teammates and for ou
 
 Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../product-engineering/engineering/hiring/early-career-engineers.md).
 
-# Interviewing at Sourcegraph
+## Interviewing at Sourcegraph
 
 - [Our interview process](talent/process/interview_process.md)
-- [Types of interviews](talent/process//types_of_interviews.md)
+- [Types of interviews](talent/process/types_of_interviews.md)
+- [The offer process](talent/process/extending_an_offer.md)
 
-# How to prepare for an interview
+## How to prepare for an interview
 
 We know that interviewing can be stressful, so we want to provide you as much information as possible to help you feel prepared. If we are missing any advice or resources that would be helpful, please email recruiting@sourcegraph.com.
 
@@ -78,7 +79,7 @@ Using BrightHire is optional for both our interviewers and our candidates. We wi
 
 We encourage you to read about the [different types of interviews](talent/process/types_of_interviews.md) a candidate can expect while going through the interview process. This page has a lot of information on the purpose of each interview stage, as well as sample questions you may be asked.
 
-# What to expect after an interview
+## What to expect after an interview
 
 ### When you'll hear back
 
@@ -93,7 +94,7 @@ We don't share specific reasons or feedback if we decide not to move forward in 
 - If any interviewer is asked by a candidate for interview feedback, they may respond with the following message:
   > I understand the desire to receive feedback from our interview process, but unfortunately we are not in a position to give it.
 
-# Helpful links
+## Helpful links
 
 - We are a [transparent](../marketing/process/messaging.md) company and everything we do lives in our [Handbook](https://about.sourcegraph.com/handbook). We encourage you to read through it prior to your interview.
 - Our [messaging and definitions](../marketing/process/messaging.md) should help you better understand what Sourcegraph does.
@@ -102,7 +103,7 @@ We don't share specific reasons or feedback if we decide not to move forward in 
 - [Strategy](../../strategy-goals/strategy/index.md).
 - [Asynchronous communication at Sourcegraph](../../company-info-and-process/communication/asynchronous-communication.md)
 
-# Candidate FAQs
+## Candidate FAQs
 
 - Q: How is Sourcegraph doing from a financial standpoint?
 
@@ -145,7 +146,7 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
 
   - A: You can learn more about our Visa policy [here](../people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md#work-visas). If you have any questions, please email recruiting@sourcegraph.com.
 
-# Offer Letter FAQs
+## Offer Letter FAQs
 
 - Q: If I create or work on a personal project or invention outside working hours, will Sourcegraph own those under the contract?
 
