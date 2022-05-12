@@ -33,10 +33,12 @@
 - Once approved, the user is then added to a pre defined group that has escalated permissions
 - This is done via a workflow that recognizes the temporary nature of the escalation and hence a time limit is set for this access.
 - At the end of the time limit, either the user gets new approval for extension of their permissions or they are automatically removed from this group, hence deescalating their permissions to the original ones assigned per their job responsibilities.
+
 #### Escalation Request Procedure:
- - Request to be added to gcp-admin-escalated@sourcegraph.com google group via #it-tech-ops
- - Provide a time frame that you will need the escalated permissions. Make it reasonable, 1hr or 2hrs etc
- - Tag your manager for approval
+
+- Request to be added to gcp-admin-escalated@sourcegraph.com google group via #it-tech-ops
+- Provide a time frame that you will need the escalated permissions. Make it reasonable, 1hr or 2hrs etc
+- Tag your manager for approval
 
 ## Prevent Permission Creep:
 
