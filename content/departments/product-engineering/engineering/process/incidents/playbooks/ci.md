@@ -117,14 +117,13 @@ In order to handle problems with the CI, the following elements are necessary:
         - **Yes**: Do you know how to fix it? If **no** escalate by creating an incident (`/incident` on Slack).
         - **No**: escalate by creating an incident (`/incident` on Slack).
    - **No**, it's an internal failure:
-     1. Is it involving faulty state in the agents? (a given tool is not found where it should have been present, or have incorrect version)
+     1. Is it involving a faulty build environment in the agents? (a given tool is not found where it should have been present, or have incorrect version)
         - See the [SSH into an agent scenario](#ssh-into-an-agent)
-     1. Try to find an agent that recently successfully ran the faulty step (look for a green build on the `main` branch)
+     2. Try to find an agent that recently successfully ran the faulty step (look for a green build on the `main` branch)
         1. Can you see a difference? If **yes** take note.
-     1. Do you know how to fix it?
+     3. Do you know how to fix it?
         - **Yes**: apply the fix.
-        - **No**: Restart the agents to see if it fixes the problem. See [Restarting the agents](#restarting-the-agents)
-          - Does it fix the problem? If no, escalate by creating an incident (`/incident` on Slack).
+        - **No**: escalate by creating an incident (`/incident` on Slack).
 
 ### Build are failing on the `main` branch with different errors
 
@@ -132,7 +131,6 @@ In order to handle problems with the CI, the following elements are necessary:
 - Impact: no commits are being deployed on DogFood and `sourcegraph.com` until the problem is resolved. Cutting a release is impossible.
 - Possible causes:
   - A previous Pull Request introduced a change that causes a test to fail.
-  - A previous Pull Request introduced a change that modified state in an unexpected way and broke the CI.
   - An external dependency is not available anymore and is causing builds to fail under certain conditions.
   - Some rate limiting API is throttling us and causing builds to fail.
 
@@ -143,11 +141,11 @@ In order to handle problems with the CI, the following elements are necessary:
 1. Downscale the agents to be able to observe exactly what's going on.
    1. Update the `autoscaler` manifest to run a single agent
       1. `cd sourcegraph/infrastructure`
-      1. Edit the [manifest](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-autoscaler/buildkite-autoscaler.Deployment.yaml?L32-35) to set `1` on both maximum and mininimum agent count.
-      1. `cd buildkite/kubernetes/buildkite-autoscaler`
-      1. Run `kubectl apply -n buildkite -f buildkite-autoscaler.Deployment.yaml`
-      1. Use`kubectl get pods -n buildkite -w` to observe the currently running agents (`k9s` works here too).
-   1. From there, any change and build will run on a single agent, allowing you to observe the behaviour live.
+      2. Edit the [manifest](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-job-dispatcher/buildkite-job-dispatcher.Deployment.yaml?L57-58) to set `1` on both maximum and mininimum agent count.
+      3. `cd buildkite/kubernetes/buildkite-autoscaler`
+      4. Run `kubectl apply -n buildkite -f buildkite-autoscaler.Deployment.yaml`
+      5. Use`kubectl get pods -n buildkite -w` to observe the currently running agents (`k9s` works here too).
+   2. From there, any change and build will run on a single agent, allowing you to observe the behaviour live.
 
 ### Spotted a flake
 
@@ -157,7 +155,6 @@ In order to handle problems with the CI, the following elements are necessary:
   - Tests relying on timing.
   - Race conditions.
   - End to end tests are delicate by nature and can fail randomly due to the complexity of all involved components.
-  - State dependent test is not properly teared down and fails.
 
 #### Actions
 
@@ -183,7 +180,6 @@ In order to handle problems with the CI, the following elements are necessary:
 - **Yes**: ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
   - If nodoby is online to help:
     - Reach out for help in [#dev-chat](https://sourcegraph.slack.com/archives/C07KZF47K)
-    - Try [Restarting the agents](#restarting-the-agents) and restart the build.
 
 1. Is that flake related to the code:
 
@@ -197,7 +193,6 @@ In order to handle problems with the CI, the following elements are necessary:
   - Tests relying on timing.
   - Race conditions.
   - End to end tests are delicate by nature and can fail randomly due to the complexity of all involved components.
-  - State dependent test is not properly teared down and fails.
 
 #### Actions
 
@@ -216,22 +211,6 @@ In order to handle problems with the CI, the following elements are necessary:
      1. 💡 Double check that you're looking at that the same step by inspecting the labels of message (click on the line to make them visible)
      1. **Yes**, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
    - **No**: it's not a flake, reach out the team owning those tests.
-
-### Restarting the agents
-
-- Gravity: _minor_
-- Impact: May fail ongoing builds, but that's fine.
-- Possible causes:
-  - Manual restart by an engineer.
-  - Newer version of the agents needs to be deployed.
-
-#### Actions
-
-1. Use `kubectl get pods -n buildkite -w` to observe the currently running agents (`k9s` works here too).
-1. In a different terminal, run `kubectl -n buildkite rollout restart deployment buildkite-agent`.
-1. Wait a bit to see the agents restarting completely.
-1. Restart the faulty build and observe it the problem is fixed or not.
-   - If necessary: escalate by creating an incident (`/incident` on Slack).
 
 ### SSH into an agent
 
