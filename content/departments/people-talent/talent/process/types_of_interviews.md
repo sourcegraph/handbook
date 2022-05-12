@@ -103,7 +103,7 @@ Read more about our values interview [here](evaluating_values.md).
 
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
-- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../company-info-and-process/values/index.md).
+- Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
 - Example questions:
   - We will ask behavioral-based, open-ended questions directly related to our values.
 
@@ -135,7 +135,7 @@ Our advice:
 
 Some background info:
 
-- Team org: [Sales team](../../sales/index.md) and [Marketing team](../../marketing/index.md)
+- Team org: [Sales team](../../../sales/index.md) and [Marketing team](../../../marketing/index.md)
 - [Publicly referenceable customer logos](https://about.sourcegraph.com/customers/)
 - Everything at [Sourcegraph](https://about.sourcegraph.com/) and our [handbook](https://handbook.sourcegraph.com) should be assumed to be accurate and up to date.
 
@@ -345,7 +345,7 @@ The agenda for the meeting will go as follows:
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes—whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
-The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+The [CE](../../../ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../../ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 
@@ -483,7 +483,7 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 #### Design research & managing success
 
-- Interviewer(s): [Two Product Designers](../../product-engineering/product/team/index.md)
+- Interviewer(s): [Two Product Designers](../../../product-engineering/product/team/index.md)
 - Duration: 1 hour
 - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
@@ -491,13 +491,13 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 #### Working session
 
-- Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
+- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
 - Duration: 1 hour
 - Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
 
 #### Meet your team
 
-- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../product-engineering/product/index.md#product).
+- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../../product-engineering/product/index.md#product).
 - Duration: 45 min
 - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
 
@@ -511,33 +511,33 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 #### Async strategy and writing project
 
-- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
+- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
 - Duration: ~1 hour
 - Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
 
 #### Working session on strategy & Leadership
 
-- Interviewer(s): [Christina Forney](../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
+- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
 - Duration: 1 hour
 - Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
 
 #### Cross-functional interview
 
-- Interviewer: [Emily Chapman](../../../team/index.md#emily-chapman) and [Quinn Keast](../../../team/index.md#quinn-keast)
+- Interviewer: [Emily Chapman](../../../../team/index.md#emily-chapman) and [Quinn Keast](../../../../team/index.md#quinn-keast)
 - Duration: 60 mins
 - Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
 
 ### Product manager
 
-#### Async writing project [(RFC Project)](../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
+#### Async writing project [(RFC Project)](../../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
-- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
+- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product-engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -551,15 +551,15 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 #### Portfolio review
 
-- Interviewer(s): [Two Product Designers](../../product-engineering/product/index.md).
+- Interviewer(s): [Two Product Designers](../../../product-engineering/product/index.md).
 - Duration: 1 hour
-- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../product-engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
+- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../../product-engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
 
 #### Design exercise
 
-- Interviewer(s): [Product Manager, Product Designers](../../product-engineering/product/index.md), and a Frontend engineer.
+- Interviewer(s): [Product Manager, Product Designers](../../../product-engineering/product/index.md), and a Frontend engineer.
 - Duration: 2 hours
-- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
+- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
 - The interview is in 2 parts. Below is the prompt:
 - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
 - Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
@@ -576,13 +576,13 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../product-engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 
@@ -594,7 +594,7 @@ The [CE](../../ce/ce.md) organization is pre- and post-sales oriented to the ove
 
 ## Sales
 
-Read more about our sales interview processes [here](../../sales/hiring/index.md).
+Read more about our sales interview processes [here](../../../sales/hiring/index.md).
 
 ### **Sales Development Representative:**
 

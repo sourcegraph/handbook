@@ -1,6 +1,6 @@
 # Resources for Recruiting Operations
 
-The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../../../company-info-and-process/values/index.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
+The Talent team at Sourcegraph is on a mission to create an incredible candidate experience, hire the best talent, and uphold our [company values](../../../../company-info-and-process/values/index.md). This wouldn’t be possible without our Recruiting Operations Specialists! This page will explain the Recruiting Operations Specialist role and outline the best practices for coordinating interviews.
 
 ## Who We Work With:
 
@@ -65,7 +65,7 @@ NOTE: Follow the same scheduling steps for internal candidates that you would fo
   - However, there are exceptions to the rule. The recruiter will tell you which sections are needed and if a specific order is required. Typically the [Leadership Interview(s)](../process/types_of_interviews.md#leadership-interview) are saved for last.
 - Confirm that all interviews scheduled within the next 24 hours have been accepted by interviewers and confirmed by candidates.
   - You can quickly confirm in Google Calendar by opening the “Interviews” calendar, clicking on each interview, and ensuring that all the panelists have a green checkmark next to their name.
-- Utilize tools like [TextExpander](../../../company-info-and-process/remote/teammate-recommended_productivity_hacks.md#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often
+- Utilize tools like [TextExpander](../../../../company-info-and-process/remote/teammate-recommended_productivity_hacks.md#other-tools) or [Text Blaze](https://blaze.today/) for things you tend to type or hyperlink often
 - Always seek to improve!
   - Look for opportunities to make your workflow more efficient and if someone has an idea, listen.
 
@@ -73,11 +73,11 @@ NOTE: Follow the same scheduling steps for internal candidates that you would fo
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../team/index.md#kylie-fligstein)
-- [Kacie Jenkins](../../../team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../../../team/index.md#amber-furbush)
-- [Gregg Stone](../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../team/index.md#amber-smokowski)
-- [Nick Snyder](../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../team/index.md#kylie-fligstein) in the meantime)
-- [Quinn Slack](../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../team/index.md#sally-voisen)
+- [Christina Forney](../../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../../team/index.md#kylie-fligstein)
+- [Kacie Jenkins](../../../../team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../../../../team/index.md#amber-furbush)
+- [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../../team/index.md#amber-smokowski)
+- [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../../team/index.md#kylie-fligstein) in the meantime)
+- [Quinn Slack](../../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../../team/index.md#sally-voisen)
 
 ### How to Select a Values Interview Panel:
 
@@ -88,7 +88,7 @@ Coming Soon!
 1. Once you’ve sent out all of the interview invitations to the appropriate Sourcegraph panelists, refresh the candidate’s Greenhouse profile.
 2. Click “Send Interview Confirmation” above the candidate’s availability.
    1. If you receive a candidate’s availability outside of Greenhouse (phone, text, email, etc.), you may not see an option to “send interview confirmation email” in Greenhouse. In these cases, simply click “not requested” or “not received” next to availability and update it to “availability received”. You should then see the option to “send interview confirmation email.”
-3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../team/index.md).
+3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md).
 4. Send Email
 
 #### For For IAM and Admin Experinece Technical Interviews Only
@@ -125,7 +125,7 @@ NOTE: If you're removing the interviewer who is set as the zoom meeting host, yo
 2. Click “Resend Interview Confirmation” above the candidate’s availability.
 3. The email template will auto-populate again. 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d
 4. Adjust the subject line to include “UPDATED”
-5. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../team/index.md)
+5. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md)
 6. Send Email
 
 ## How to Generate an Offer Letter

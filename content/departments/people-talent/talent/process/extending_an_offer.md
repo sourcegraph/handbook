@@ -16,7 +16,7 @@
 
 **Step 2**: the Recruiter confirms level and compensation via Slack with Hiring Manager, Department Head, and Director, Technical Recruiting (if applicable).
 
-- [Compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation).
+- [Compensation philosophy](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation).
 
 **Step 3**: the Recruiter has a pre-closing conversation with the candidate to confirm mutual-interest. It is very important that the Recruiter makes no offer promises or commitments to the candidate until the offer has been formally approved in Greenhouse.
 
