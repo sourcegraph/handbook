@@ -18,7 +18,8 @@ To accomplish this:
 9. Alex will continue to collaborate with #delivery as-needed as they work to make improvements to the resource estimator.
 10. Warren will collaborate with #repo-management to scope our one-click data export tool meant to include as much relevant troubleshooting information as possible.
 11. Consistently rally to as quickly as possible resolve any issues that impact JPMC, Goldman, AMD, Pinterest, Allegro, and Carrier (the 6 customers who signed by the start of Q2 and need to be production complete with active users by end of quarter).
-12. Fulfill any review requests from other teams for deployment documentation improvements and/or other review work in support of improving the admin experience.
+12. Continuously assess and brainstorm ways to improve the customer experience, whether in the support workflow or suggestions for other teams to consider.
+13. Fulfill any review requests from other teams for deployment documentation improvements and/or other review work in support of improving the admin experience.
 
 Additionally:
 
