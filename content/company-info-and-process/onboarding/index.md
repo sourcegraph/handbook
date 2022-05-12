@@ -68,6 +68,7 @@ _Onboarding format and presentation - Survey questions:_
 [Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
 
 ## Onboarding check-ins
+
 There are different instances of [onboarding check ins](onboarding-check-ins.md).
 
 ### One month check-in

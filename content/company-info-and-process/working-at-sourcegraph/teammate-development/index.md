@@ -1,7 +1,3 @@
 # Teammate development
 
-TODO
-    - [Training](training/index.md)
-    - [How to switch teams](../switching-teams.md)
-    - [How to get promoted](promotion.md)
-    - [Impact reviews](people-ops/process/impact-reviews.md)
+TODO - [Training](training/index.md) - [How to switch teams](../switching-teams.md) - [How to get promoted](promotion.md) - [Impact reviews](people-ops/process/impact-reviews.md)

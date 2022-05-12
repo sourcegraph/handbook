@@ -7,6 +7,6 @@
 - [Leaving](leaving.md)
 - [Before your start date](before-start.md)
 - [Teammate development](teammate-development/index.md)
-    - [Training](teammate-development/training/index.md)
-    - [Getting promoted](teammate-development/promotion.md)
+  - [Training](teammate-development/training/index.md)
+  - [Getting promoted](teammate-development/promotion.md)
 - [Recognition program](recognition-program.md)
