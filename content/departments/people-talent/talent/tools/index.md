@@ -5,7 +5,7 @@
 - [Talentwall](guide_to_using_talentwall.md)
 - [GoodTime](guide_to_using_goodtime.md)
 - [Interview Training](interview_training.md)
-- [Resources for Candidates](resources_for_candidates.md)
+- [Resources for Candidates](../../resources_for_candidates.md)
 - [Resources for Hiring Managers](resources_for_hiring_managers.md)
 - [Resources for Recruiters](resources_for_recruiters.md)
 - [Resources for Recruiting Ops](resources_for_recruiting_operations.md)

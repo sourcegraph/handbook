@@ -1,7 +1,7 @@
 # Recruitment Branding
 
-Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../tools/resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../../company-info-and-process/values/index.md).
-This page outlines recruitment branding tips and information to tell the story of what it's like to [work at Sourcegraph](../tools/resources_for_candidates.md#working-at-sourcegraph).
+Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../../resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../../company-info-and-process/values/index.md).
+This page outlines recruitment branding tips and information to tell the story of what it's like to [work at Sourcegraph](../../resources_for_candidates.md#working-at-sourcegraph).
 
 We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages.
 
@@ -36,8 +36,8 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 - [Sourcegraph Universal Code Search](https://www.youtube.com/watch?v=GQj5jXdON3A)
 - [Dev Tool Time](https://www.youtube.com/playlist?list=PL6zLuuRVa1_iDEP4EicZ8972RgyccCRGF) - Sourcegraph's bi-weekly virtual event series in which guest developers share their favorite dev tools and productivity hacks.
 - [Perks, Benefits, & Compensation](../../../../benefits-pay-perks/benefits-perks/index.md)
-- [Careers page & open positions](../tools/resources_for_candidates.md#how-to-apply)
-- [Company values](../tools/resources_for_candidates.md#our-company-values)
+- [Careers page & open positions](../../resources_for_candidates.md#how-to-apply)
+- [Company values](../../resources_for_candidates.md#our-company-values)
 - [All-remote](../../../../company-info-and-process/remote/index.md)
 - [Asynchronous communication](../../../../company-info-and-process/communication/asynchronous-communication.md)
 

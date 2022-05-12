@@ -81,10 +81,10 @@ At the end of an internship, a full time position is not guaranteed, but may be 
 
 ### Helpful Links
 
-- [Resources for Candidates](tools/resources_for_candidates.md)
-- [How to Apply](tools/resources_for_candidates.md#how-to-apply)
-- [Interviewing at Sourcegraph](tools/resources_for_candidates.md#interviewing-at-sourcegraph)
-- [Candidate FAQs](tools/resources_for_candidates.md#candidate-faqs)
+- [Resources for Candidates](../resources_for_candidates.md)
+- [How to Apply](../resources_for_candidates.md#how-to-apply)
+- [Interviewing at Sourcegraph](../resources_for_candidates.md#interviewing-at-sourcegraph)
+- [Candidate FAQs](../resources_for_candidates.md#candidate-faqs)
 
 ## Information for Sourcegraph Teammates
 
