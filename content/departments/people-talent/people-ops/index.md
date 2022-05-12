@@ -120,7 +120,7 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 
 - [New teammate onboarding](../../../company-info-and-process/onboarding/index.md)
 - [Are you switching teams?](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- [Are you leaving us?](../../../company-info-and-process/working-at-sourcegraph/leaving.md)
+- [Are you leaving us?](process/leaving.md)
 - [How we manage remote work](../../../company-info-and-process/remote/index.md)
 - [Impact review cycles](process/impact-reviews.md)
 
