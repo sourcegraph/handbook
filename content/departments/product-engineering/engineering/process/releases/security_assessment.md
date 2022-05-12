@@ -12,7 +12,7 @@ Arguments:
 # $MAJOR.$MINOR.$PATCH Security Review: Container Images
 
 This is a Release Blocker issue to nudge the Release Captain to check
-with the Security Team whether there are any security patches that must be 
+with the Security Team whether there are any security patches that must be
 applied to Sourcegraph Container Images before the release is published.
 
 See [RFC 678](https://docs.google.com/document/d/1v0TXVLPCNA42cQwIYeGLICoy6zfK9KprMRpMa2Fn6IE/edit#) for more information.
