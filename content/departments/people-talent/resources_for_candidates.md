@@ -12,7 +12,6 @@ We are growing rapidly and post new jobs on a weekly basis. We encourage you to 
 
 Candidates are able to re-apply for roles at any time. The hiring team will review all relevant information, including past interviews, when considering a person's candidacy.
 
-
 ## Working at Sourcegraph
 
 ### Sourcegraph's culture
@@ -103,7 +102,6 @@ We don't share specific reasons or feedback if we decide not to move forward in 
 - [Teammates bios](../../team/index.md).
 - [Strategy](../../strategy-goals/strategy/index.md).
 - [Asynchronous communication at Sourcegraph](../../company-info-and-process/communication/asynchronous-communication.md)
-
 
 ## Candidate FAQs
 
