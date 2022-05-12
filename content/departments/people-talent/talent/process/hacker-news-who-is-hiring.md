@@ -1,6 +1,6 @@
 # Hacker News Who is Hiring
 
-This is the comment that [Nick](../../../team/index.md#nick-snyder) posts to the monthly "Ask HN: Who is hiring?" thread ([example](https://news.ycombinator.com/item?id=23394377)).
+This is the comment that [Nick](../../../../team/index.md#nick-snyder) posts to the monthly "Ask HN: Who is hiring?" thread ([example](https://news.ycombinator.com/item?id=23394377)).
 
 > Sourcegraph (https://sourcegraph.com) | Software Engineer (frontend, backend, security), Product Manager, Director of Engineering, Director of Product | ALL REMOTE
 >
@@ -20,9 +20,9 @@ This is the comment that [Nick](../../../team/index.md#nick-snyder) posts to the
 >
 > Other useful links...
 >
-> [Our mission](../../../strategy-goals/strategy/index.md)
+> [Our mission](../../../../strategy-goals/strategy/index.md)
 >
-> [Our values](../../../company-info-and-process/values/index.md)
+> [Our values](../../../../company-info-and-process/values/index.md)
 >
 > Our customers: https://about.sourcegraph.com/customers/
 >

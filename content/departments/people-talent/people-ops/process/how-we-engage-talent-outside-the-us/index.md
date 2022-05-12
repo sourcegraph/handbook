@@ -62,7 +62,7 @@ Contractors are not eligible for all employee benefits (e.g. healthcare, life in
 
 ### Payments
 
-Contractors submit an invoice at the end of each month (including any reimbursable and recurring expenses) via email to our accounting team, [ap@sourcegraph.comp](mailto:ap@sourcegraph.com). All invoices will be paid through [Airbase](../../../finance/process/payables.md). You should have it in your Okta dashboard.
+Contractors submit an invoice at the end of each month (including any reimbursable and recurring expenses) via email to our accounting team, [ap@sourcegraph.comp](mailto:ap@sourcegraph.com). All invoices will be paid through [Airbase](../../../../finance/process/payables.md). You should have it in your Okta dashboard.
 
 ### Onboarding
 
@@ -82,7 +82,7 @@ Due to their classification as temporary contractors, they are not eligible for 
 
 ### Payments
 
-Temporary contractors submit an invoice at the end of each month (including any reimbursable and recurring expenses) via email to our accounting team, [ap@sourcegraph.comp](mailto:ap@sourcegraph.com). All invoices will be paid through [Airbase](../../../finance/process/payables.md). You should have it in your Okta dashboard.
+Temporary contractors submit an invoice at the end of each month (including any reimbursable and recurring expenses) via email to our accounting team, [ap@sourcegraph.comp](mailto:ap@sourcegraph.com). All invoices will be paid through [Airbase](../../../../finance/process/payables.md). You should have it in your Okta dashboard.
 
 ### Onboarding
 

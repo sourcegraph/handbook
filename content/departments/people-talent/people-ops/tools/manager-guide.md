@@ -47,7 +47,7 @@ BambooHR is integrated with multiple systems (Lattice, Rippling, Okta). If Bambo
 
 [Lattice](https://sourcegraph.latticehq.com/login?message=session) is the system we use for formal feedback such as:
 
-- [Onboarding feedback milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
+- [Onboarding feedback milestones](../../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md), which are used to track your new direct reports' onboarding progress on a monthly basis during their first three months.
 - [360 Impact reviews](../process/impact-reviews.md), which are automatically launched every six months following a teammate's start date in order to complete a 360 impact review cycle.
 
 Note: if you are a new manager and require access to past review history for your direct reports, please contact People Ops.
@@ -74,7 +74,7 @@ These are automatic, so they will be set to the current manager of the new teamm
 
 **Resources:**
 
-- [Onboarding checklist](../../../company-info-and-process/onboarding/index.md)
+- [Onboarding checklist](../../../../company-info-and-process/onboarding/index.md)
 
 #### Impact of org and role changes
 
@@ -92,7 +92,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 - [Roots Manager overview](https://docs.google.com/document/d/1yP1gwuGnCIS7BlSqTV8wJKmRH0WeOVHDvsJbVNpYWb4/edit)
 
-- [Sourcegraph PTO policy](../../../benefits-pay-perks/benefits-perks/time-off/index.md)
+- [Sourcegraph PTO policy](../../../../benefits-pay-perks/benefits-perks/time-off/index.md)
 
 ### TripActions
 
@@ -100,7 +100,7 @@ Please note: we do _not_ use BambooHR's PTO request system. If your direct repor
 
 **Resources:**
 
-- [Booking travel through TripActions](../../../benefits-pay-perks/benefits-perks/travel/TripActions.md#booking-travel-through-tripactions)
+- [Booking travel through TripActions](../../../../benefits-pay-perks/benefits-perks/travel/TripActions.md#booking-travel-through-tripactions)
 
 ### Assemble [WIP]
 
@@ -118,7 +118,7 @@ Other tools that need to be updated when there is an org change (including manag
 - **Rippling**
   Rippling pulls salary data directly from BambooHR, which is why it’s especially crucial that compensation changes are communicated to People Ops in a timely manner so that all payroll changes can be handled with ample time to avoid payroll discrepancies.
 - **Assemble**
-- **[Airbase](../../finance/process/payables.md)**
+- **[Airbase](../../../finance/process/payables.md)**
 
 ## Managing a Role Change
 
@@ -141,4 +141,4 @@ If you have any questions, please contact [#people-ops](https://sourcegraph.slac
 
 ### Additional Process for a Role Change
 
-- Update the `reports_to` field on the [team page](../../../team/index.md) to reflect the change.
+- Update the `reports_to` field on the [team page](../../../../team/index.md) to reflect the change.

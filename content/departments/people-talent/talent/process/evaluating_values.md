@@ -1,12 +1,12 @@
 # The values interview
 
-We expect every teammate, team, and our company to live up to the [Sourcegraph values](../../../company-info-and-process/values/index.md). It is therefore important that we evaluate every candidate on the values to determine how successful they will be within Sourcegraph. Because of this, **all candidates,** regardless of level or role, go through a [values interview](types_of_interviews.md#values-interview) as part of their interview process with Sourcegraph.
+We expect every teammate, team, and our company to live up to the [Sourcegraph values](../../../../company-info-and-process/values/index.md). It is therefore important that we evaluate every candidate on the values to determine how successful they will be within Sourcegraph. Because of this, **all candidates,** regardless of level or role, go through a [values interview](types_of_interviews.md#values-interview) as part of their interview process with Sourcegraph.
 
 ## What is the values interview?
 
 - Interviewers: two teammates outside of the department for which a candidate is interviewing.
 - Duration: 30-minutes. We should allow five minutes for the introduction, 20 minutes for the screen, and 5 minutes at the end for questions.
-- Details: this interview is focused entirely on our values and how a candidate’s views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../company-info-and-process/values/index.md).
+- Details: this interview is focused entirely on our values and how a candidate’s views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
 
 ## Purpose of the values interview
 
