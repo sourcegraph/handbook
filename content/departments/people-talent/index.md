@@ -7,9 +7,9 @@ TODO
 
 ## Resources
 
-- [Resources for Candidates](resources-for-candidates.md)
+- [Resources for Candidates]
 - Resources for Interns
-- Resources for New hires
+- [Resources for New hires](resources-for-hires.md)
 - Resources for Teammates
 - Resources for Managers
 
