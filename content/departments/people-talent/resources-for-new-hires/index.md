@@ -6,7 +6,7 @@
 - [Types of employment](../../people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md)
 - [Company values](../../../company-info-and-process/values/index.md)
 - What do we do
-- [How we wotk asynchronously](../../../company-info-and-process/communication/asynchronous-communication.md)
+- [How we work asynchronously](../../../company-info-and-process/communication/asynchronous-communication.md)
 
 ## Once you've decided to join us
 
