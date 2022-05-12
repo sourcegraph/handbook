@@ -1,6 +1,7 @@
 # Resources for Teammates
 
 ## Teammate Sentiment
+
 - [Engagement survey](people-ops/process/teammate-sentiment/engagement-survey.md)
 - [Pulse survey](people-ops/process/teammate-sentiment/pulse-survey.md)
 - [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
@@ -30,6 +31,7 @@
   - [Impact reviews](people-ops/process/impact-reviews.md)
 - [Recognition program](../../company-info-and-process/working-at-sourcegraph/recognition-program.md)
 - How we measure our culture:
+
   - [Engagement survey](people-ops/process/teammate-sentiment/engagement-survey.md)
   - [Pulse survey](people-ops/process/teammate-sentiment/pulse-survey.md)
   - [Candidate experience feedback](people-ops/process/teammate-sentiment/candidate-experience-feedback.md)
@@ -39,32 +41,34 @@
 
   ## Benefits, Perks and Pay
 
-    
-    [General overview](../../benefits-pay-perks/benefits-perks/index.md)
+  [General overview](../../benefits-pay-perks/benefits-perks/index.md)
 
-    ### Pay & Expenses
-    - [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
-        - [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-        - [Equity](../../benefits-pay-perks/pay-expenses/compensation/index.md#sts=Equity)      
-    - [Submitting expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
+  ### Pay & Expenses
 
-    ### Perks
-    - [Paid Time Off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
-    - [Travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
-    - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
-    - [Wellbeing](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
-    - [Celebrating teammates](../../benefits-pay-perks/benefits-perks/celebrate.md)
-    - [Charity matching](../../benefits-pay-perks/benefits-perks/charity-matching.md)
-    - [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
-    
-    ### Benefits
-    - Leave of absence
-    - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
-    - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
-    - [Benefits available for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
+  - [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
+    - [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
+    - [Equity](../../benefits-pay-perks/pay-expenses/compensation/index.md#sts=Equity)
+  - [Submitting expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
+  ### Perks
+
+  - [Paid Time Off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
+  - [Travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
+  - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
+  - [Wellbeing](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
+  - [Celebrating teammates](../../benefits-pay-perks/benefits-perks/celebrate.md)
+  - [Charity matching](../../benefits-pay-perks/benefits-perks/charity-matching.md)
+  - [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
+
+  ### Benefits
+
+  - Leave of absence
+  - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
+  - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
+  - [Benefits available for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
 
 ## People Processes & Tools
+
 - [Impact reviews](people-ops/process/impact-reviews.md)
 - [Employment verification](people-ops/process/employment_verification.md)
 - [Moving to a new location](people-ops/process/moving.md)
@@ -72,6 +76,7 @@
 - [Tools we use](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools.md)
 
 ## Talent Processes & Tools
+
 - [How to refer a candidate](talent/process/identifying_candidates.md)
 - [The interview process](talent/process/interview_process.md)
 - [Types of interviews](talent/process/types_of_interviews.md)
