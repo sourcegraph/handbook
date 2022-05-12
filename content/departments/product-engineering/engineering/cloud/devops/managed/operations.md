@@ -167,12 +167,24 @@ Running these commands will have no impact on a running deployment and can be sa
 
 ## Changing the instance
 
+> SOC2/CI-98
+
 The state of managed instances infrastructure and deployment artifact are stored in the following repositories
 
 - [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure)
 - [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
+
+## Avaiability of the instance
+
+> SOC2/CI-87
+
+We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
+
+### Uptime Checks
+
+We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
 ## Instance technicalities
 
