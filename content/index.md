@@ -64,6 +64,7 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [People & Talent](departments/people-talent/index.md)
 
 #### [People team](departments/people-talent/people-ops/index.md)
+
 #### [Talent](departments/people-talent/talent/index.md)
 
 - [Resources for Candidates](departments/people-talent/talent/index.md)
