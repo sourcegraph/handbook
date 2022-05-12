@@ -56,7 +56,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
 - [How to hire a teammate into a new role]
-  - [Scenario: you want to interview a teammate for a role on a different team](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+  - [Scenario: you want to interview a teammate for a role on a different team](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
   - [Scenario: you want to promote someone into a new level band]COMING SOON
   - [Scenario: you want to give someone a raise]COMING SOON
 - [Recruiting tools](process/index.md#recruiting-tools)
@@ -82,7 +82,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [Recruitment branding](process/recruitment_branding.md)
-- [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
 ## Resources for Talent Team
 
@@ -126,7 +126,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
 - [Recruitment branding](process/recruitment_branding.md)
 - [Recruitment metrics](process/talent_metrics.md)
-- [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 - [How to make a change to headcount plan](process/headcount_changes.md)
 - [Internship Program](internship-program.md)
 - [Internship Recruiting and Offer Processes](process/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
@@ -140,7 +140,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Carly-Bitmoji.png"
                 alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
             </a>
@@ -152,7 +152,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#devon-coords-sheher" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Devon-Bitmoji.jpg"
                 alt="Picture of Devon Coords" style="background: transparent; width:128px;" />
             </a>
@@ -164,7 +164,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#frey-andersson" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202022-01-06%20at%208.52.17%20AM.png"
                 alt="Picture of Frey Andersson" style="background: transparent; width:128px;" />
             </a>
@@ -176,7 +176,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team#veronica-bueno" target="_blank" rel="noopener">
+            <a href="../../../../team#veronica-bueno" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/VeronicaBitmoji.jpg"
                 alt="Picture of Veronica Bueno" style="background: transparent; width:128px;" />
             </a>
@@ -188,7 +188,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#win-yu" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#win-yu" target="_blank" rel="noopener">
               <img
                 src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202021-12-02%20at%204.52.42%20PM.png"
                 alt="Picture of Win Yu" style="background: transparent; width:128px;" />
@@ -203,7 +203,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#kemper-hamilton-sheher" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/KemperBitmoji.png"
                 alt="Picture of Kemper Hamilton" style="background: transparent; width:128px;" />
             </a>
@@ -215,7 +215,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#kelsey-nagel-sheher" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Kelsey-%20Bitmoji.jpg"
                 alt="Picture of Kelsey Nagel" style="background: transparent; width:128px;" />
             </a>
@@ -227,7 +227,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex:1;">
         <div>
           <div>
-            <a href="../../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#marija-petrovic-sheher" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Marija-Bitmoji.png"
                 alt="Picture of Marija Petrovic" style="background: transparent; width:128px;" />
             </a>
@@ -239,7 +239,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#grace-bohl-sheher" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Grace-%20Bitmoji.jpg"
                 alt="Picture of Grace Bohl" style="background: transparent; width:128px;" />
             </a>
@@ -251,7 +251,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#trevor-houghton-hehim" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Trevor-%20Bitmoji.jpg"
                 alt="Picture of Trevor Houghton" style="background: transparent; width:128px;" />
             </a>

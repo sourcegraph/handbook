@@ -30,7 +30,7 @@ Current employees can refer a candidate in Greenhouse by following [these instru
 
 **Selling Sourcegraph:**
 
-- [Click here](../../marketing/process/messaging.md#sourcegraph-value-proposition) to view our Marketing page that describes what Sourcegraph does in different message lengths.
+- [Click here](../../../marketing/process/messaging.md#sourcegraph-value-proposition) to view our Marketing page that describes what Sourcegraph does in different message lengths.
 
 ## The interview stage
 
