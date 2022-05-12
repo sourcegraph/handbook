@@ -136,7 +136,7 @@ See how we manage project and updates [here](process/people-ops-project-manageme
 - [Paid time off](../../../benefits-pay-perks/benefits-perks/time-off/index.md)
 - [Working hours](../../../company-info-and-process/working-at-sourcegraph/working-hours.md)
   - [Submitting time off](../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
-- [Bank and public holidays](../../../benefits-pay-perks/benefits-perks/holidays.md)
+- [Bank and public holidays](../../../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Teammate Gatherings and Celebrations](../../../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Employment verification](process/employment_verification.md)
 
