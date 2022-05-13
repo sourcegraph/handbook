@@ -13,33 +13,33 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
+## Definitions
+
+We use:
+
+- _code rewrite steps_ as a catch all term for what's also known as codemods or code transform steps. This includes running sed, comby, a bash script, or a complex AST-based tool such as [fastmod](https://github.com/facebookincubator/fastmod) to fix or improve code.
+
+- _changesets_ as a more generic term for pull requests, merge requests, patches.
+
 ## Vision
 
-### 3-year vision
+**Automated code changes are a common practice for all developers.** By lowering the cost and effort required to change code at scale, we’ll make it commonplace to do small, incremental codebase health operations, instead of postponing to another day. We will know we have achieved this when it is as intuitive to change code across the entire codebase as in an IDE.
 
-**Developers can easily run code to create changesets across many repositories and codehosts, and track them to completion.**
-
-### 10-year vision
-
-**Automated code changes are a common practice for all developers.** Making that happen requires two layers. First, making it easy to run code to create changesets across many repositories and codehosts, provided you know how to write code that changes code, our 3-year vision. Second, writing code that changes code, or more generally making describing code changes easier.
-
-By lowering the cost and effort required to change code at scale, we’ll make it commonplace to do small, incremental codebase health operations, instead of postponing to another day. We will know we have achieved this when it is as intuitive to change code across the entire codebase as in an IDE.
+Making that happen requires two layers. First, making it easy to run code rewrite steps to create changesets across many repositories and codehosts, provided you know how to write those code rewrite steps. Second, making it easy to discover, use, reuse and write code rewrite steps.
 
 ## Mission & Strategy
 
 ### Mission
 
-We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and heavy project management, as these steps are painful and time consuming, which encourages keeping old code around. We also help developers find, build and share the code rewrite scripts they need to achieve their goals. We do this because we think developer's time is better spent shipping products than building plumbing and doing project management, and because having a frictionless way to make code changes will encourage all developers to keep the codebase quality high over time.
+We allow developers to focus on changing their code, without having to do any plumbing (building scripts to interact with codehosts and integrate with other tools and workflow). We help them drive changesets to completion without having to rely on spreadsheets and heavy project management, as these steps are painful and time consuming, which encourages keeping old code around. We also help developers find, build and share the code rewrite steps they need to achieve their goals. We do this because we think developer's time is better spent shipping products than building plumbing and doing project management, and because having a frictionless way to make code changes will encourage all developers to keep the codebase quality high over time.
 
 ### Strategy
 
 To deliver our vision, we will:
 
 - First, get adopted by the Sourcegraph customer base, including large enterprises. We will target customers with advanced practices and workflow, and collaborate with them to build a category-defining product that all other companies will use. This is what we are doing today.
-- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged).
-- Then, create low time-to-value entry points into Batch Changes, and allow users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a [use case](../../use-cases/index.md). Make onboarding Batch Changes self-serve for most users, to help our customers be successful and prepare for launching on Cloud.
-- Then, release Batch Changes on Sourcegraph Cloud, and test and learn how we can serve individuals and smaller teams.
-- Eventually, address the problem end to end by becoming the go-to place for code change tools and recipes.
+- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged). One way we'll do this is by decreasing time-to-value for Batch Changes, allowing users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a [use case](../../use-cases/index.md), possibly without writing code.
+- Eventually, address the problem end to end by becoming the go-to place for discovering, using, building and sharing code rewrite steps.
 
 ## Competitive landscape
 
@@ -73,13 +73,14 @@ The key [success metric](../../../../departments/product-engineering/engineering
 
 ### Time-to-value
 
-Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to batch changes.
+Batch Changes is a powerful product with a steep learning curve. The main friction point is that Batch Changes requires users to write **code rewrite steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to Batch Changes.
 
-We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We measure success here by tracking:
+We want to decrease time to value and make it easier for any developer to get value out of Batch Changes. We will measure success here by tracking:
 
+- time to value ([#32664](https://github.com/sourcegraph/sourcegraph/issues/32664))
 - the batch changes success rate (number of batch changes that get applied / number of batch changes that stay in preview)
 
-### Discoverability and end to end use cases
+### Discoverability
 
 Getting the most out of our product can take time as you get up to speed with what’s possible, and Code Graph features can feel disconnected. We want to make it easier for users to understand how Batch Changes and other Sourcegraph features can help with use cases.
 
@@ -89,7 +90,7 @@ Success here means creating end-to-end usage paths that use Batch Changes as wel
 
 Batch Changes has proven early product/market fit with high-growth scale-ups and medium to large technology companies. We are now working on expanding into more traditional enterprises. We see anecdotal early evidence of market fit across other segments ([Batch Changes dashboard](https://sourcegraph.looker.com/dashboards-next/174)).
 
-Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/marketing/product-marketing/batch_changes_positioning.md#go-to-market-playbook)
+Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) and [Code Health](../../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/marketing/product-marketing/batch_changes_positioning.md#go-to-market-playbook)
 
 We have five main learnings from the first year of Batch Changes:
 
@@ -103,42 +104,44 @@ We have five main learnings from the first year of Batch Changes:
 
 ### Top customer, support, sales, and marketing issues
 
-The top product gaps are running batch changes at large scale (solved by server-side batch changes) and Bitbucket Cloud support. Both are on our Q1 roadmap.
+The top product gaps are:
+
+- running batch changes at a large scale, which is addressed by running batch changes server-side (moving to Beta in Q2)
+- permissions and access control
 
 We keep hearing user requests for [mounting files on batch change steps containers](https://github.com/sourcegraph/sourcegraph/issues/14851), and for [improved monorepo support](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU) from monorepo users.
 
-## FY 2023 Q1 goals
+## FY 2023 Q2 goals
 
-### Execution
+### Roadmap
 
-This quarter, we are primarily focusing on improving the value and usability of Batch Changes at [enterprise scale](#enterprise-scale).
+This quarter, we will:
 
-1. Move [server side Batch Changes](https://docs.sourcegraph.com/batch_changes/explanations/server_side) (SSBC) currently an [experimental](https://docs.sourcegraph.com/batch_changes/explanations/server_side) feature, to beta. We can move to beta ([#26919](https://github.com/sourcegraph/sourcegraph/issues/26919)) after we:
-   - Onboard three early customers, and get positive feedback
-   - Train sales CE, CS and sales to sell and support SSBC.
-   - Make sure that the upgrade process for SSBC is scalable (upgrading Sourcegraph + SSBC takes no more than twice the time required to upgrade Sourcegraph).
-   - Create a unified experience, that is clear regardless of if you have executors connected or not.
-1. Bitbucket Cloud is frequently requested by [customers](https://sourcegraph2020.lightning.force.com/lightning/r/Product_Gap__c/a1B3t00000IkxMjEAJ/view), and it's likely that we will see more and more requests as Bitbucket server approaches [EOL](https://www.atlassian.com/migration/assess/journey-to-cloud). We plan to add support for Bitbucket Cloud this quarter ([#24199](https://github.com/sourcegraph/sourcegraph/issues/24199)).
-1. We recently onboarded a few monorepo customers that highlighted the limitations of our (experimental) monorepo support in Batch Changes. We plan to address those limitations and move monorepo support to GA ([RFC](https://docs.google.com/document/d/1o3fNI-itoU0LOwY29luutkw3L8IEfoVPYEGsD7kotmU), [#28246](https://github.com/sourcegraph/sourcegraph/issues/28246)).
-1. Batch Changes's minimalist permission model is limiting adoption in the traditional enterprise segment. In particular, customers report they want to control who can run batch changes at all. We plan to make a first iteration to solve this problem.
-1. Every customer is different and uses a broad set of tooling. We plan to design outgoing webhooks that allow customers to easily integrate Batch Changes into their workflow. Better integration allows customers, for example, to build notification systems around batch changes changesets, and achieve a better merge rate which is critical at [enterprise scale](#enterprise-scale). We aim to experiment with a customer on this ([#26790](https://github.com/sourcegraph/sourcegraph/issues/26790)).
+- Continue our investment in making Batch Changes valuable and usable at [enterprise scale](#enterprise-scale). To do so, we are planning to move running batch changes server-side to [Beta](https://github.com/sourcegraph/sourcegraph/issues/30817) for self-hosted instances.
+- Start to iterate on lowering time-to-value. We will define and implement a time to value measurement ([#32664](https://github.com/sourcegraph/sourcegraph/issues/32664)). We will also do a first iteration on making it easy for users to get started from scratch, by building a minimum viable iteration of a library of batch changes ([#32687](https://github.com/sourcegraph/sourcegraph/issues/32687)).
+- Iterate on discoverability low-hanging fruits ([#22352](https://github.com/sourcegraph/sourcegraph/issues/22352)).
 
-### Discovery
+### Running Batch Changes server-side on managed instances
 
-This quarter, we want to run discovery on a few threads, including to clear dependencies on other teams:
+During the experimental phase of running batch changes server-side, we got some demand from managed instances customers. Our [strategy](../../../index.md) is to deliver the same product experience regardless of the deployment mode.
 
-1. Server-side batch changes is not available yet on managed instances, because we have no way to bill for variable compute costs. By the end of the quarter, we want to have a plan and timeline to address that. ([Private RFC](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18/edit#heading=h.trqab8y0kufp))
-1. Getting changesets merged is critical to our [enterprise scale](#enterprise-scale) theme. We are currently investigating how to improve this [#31691](https://github.com/sourcegraph/sourcegraph/issues/31691).
-1. We want to start discovery and planning for integrating Batch Changes with another feature (eg. create a batch change from a search result, a Code Insight, or a Code Monitor), to set the stage for a full-fledged workflow next quarter.
-1. We are collecting detailed data on what batch changes customers run, in order to inform creating sample batch changes specs, or potentially codemod tooling. See (private) [insights](https://sourcegraph.productboard.com/feature-board/2104383-batch-changes)
+Currently, if managed instances customers want to run batch changes server-side, they need to setup executors on their own infratructure. The reason we cannot provide this as a managed service yet are:
+
+- we don't have a way to bill for the variable costs generated by executors (also see: [RFC 563 PRIVATE WIP: Executors pricing and billing for managed instances](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18/edit#heading=h.trqab8y0kufp))
+- deploying executors is manual and creates unsustainable work for the cloud devops team (also see [RFC 666 WIP: Executors on managed instances](https://docs.google.com/document/d/1lq1oyB4I3v8fqXSs4AI7pWUyXBya4a3_VlX-XtGu-f0/edit#heading=h.trqab8y0kufp))
+
+Our tentative plan so far:
+
+- Q2: allow a free tier for executors on managed instances. That will allow customers to use batch changes server-side in a limited fashion during the beta. If customers exceed the free tier, they can still setup executors on their own infrastructure as a workaround. We cannot bill customers for additional compute beyond the free tier. Validate pricing and billing model with customers.
+- Q2 or Q3: work with Cloud DevOps to scale executor deployment (timeline TBD depending on their roadmap). See [RFC 666 WIP: Executors on managed instances](https://docs.google.com/document/d/1lq1oyB4I3v8fqXSs4AI7pWUyXBya4a3_VlX-XtGu-f0/edit).
+- Q3: Monitor usage. Continue validating pricing model with customers. Assess investing in usage based billing.
+- Q4/Q1-FY23: running batch changes is GA on managed instances at any scale
 
 ## What we are not working on
 
 - **Windows support** ([#24849](https://github.com/sourcegraph/sourcegraph/issues/24849)): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
 
-- **Education material about code change tools:** Helping our customers find and select a code change tool that suits their needs is a very common ask, and something we think could drive adoption. We don’t have bandwidth for this this quarter though.
-
-- **Batch Changes on Cloud:** Making [Batch Changes available on Cloud](https://docs.google.com/document/d/1tcl5Zs_0NCYieya9weTyelxPxoif0VfxAq8UIV4JDjA/edit#heading=h.g0gjwch98szj) is not on our roadmap for FY23, and is tentatively planned for FY24.
+- **Permissions and access control** is not a focus for Q2, as we are still collecting feedback and we want to focus on running batch changes server-side. It's very likely to be a focus area for Q3 as efforts from other teams (IAM and admin experience) land.
 
 In general, we tend to focus on features that we can build for multiple codehosts in a relatively homogenous manner, and avoid codehost-specific features.
 

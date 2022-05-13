@@ -9,7 +9,7 @@ This document explains how Sourcegraph handles user data and information.
 | [Ping telemetry](https://docs.sourcegraph.com/admin/pings) |                   | ✔️          | Delete data for any instance that’s been offline for over 3 years. All active instance data are kept | All Sourcegraph teammates       |
 | Monitoring and observability tools (Sentry, Honeycomb)     | ✔️                |             | 90 days (Sentry) and 60 days (Honeycomb)                                                             | Engineering teams               |
 | Sourcegraph Cloud Postgres database                        | ✔️                |             | Retain indefinitely unless deletion request is received                                              | Analytics and engineering teams |
-| Sourcegraph.com event logs                                 | ✔️                |             | Retain data for 1 year                                                                               | All Sourcegraph teammates       |
+| Sourcegraph.com event logs                                 | ✔️                |             | 10 years                                                                                             | All Sourcegraph teammates       |
 | Amplitude                                                  | ✔️                |             | Retain indefinitely                                                                                  | All Sourcegraph teammates       |
 | Google Analytics                                           | ✔️                |             | Retain indefinitely                                                                                  | All Sourcegraph teammates       |
 

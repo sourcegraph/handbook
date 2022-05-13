@@ -18,7 +18,7 @@ The data that drives the various pages is located in [/data](https://github.com/
 code_graph:
   title: Code Graph
   strategy_link: /company/strategy/code-graph/index.md
-  pm: jason_yavorska
+  pm: anna_mikhova
   em: yink_teo
 ```
 

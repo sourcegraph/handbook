@@ -21,14 +21,12 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Open and edit `terraform.tfvars` according to the TODO comments within and commit the result.
 
-   | ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed! |
-   | --------------------------------------------------------------------------------------------------------------------------------------- |
+   > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
 
 1. Ensure you are using the version of Terraform indicated in `.tool-versions` using `tfenv`
 1. In `gcp-tfstate` run `terraform init && terraform apply -var-file=../terraform.tfvars && git add . && git commit -m 'initialize GCP tfstate bucket'`
 
-   | ℹ️ You can safely ignore the warnings from `terraform apply`. |
-   | ------------------------------------------------------------- |
+   > NOTE: You can safely ignore the warnings from `terraform apply`.
 
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
@@ -49,7 +47,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Navigate to Grafana under `/-/debug/grafana` and confirm the instance looks healthy.
 1. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
 1. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
-1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
+1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
    ```
@@ -68,12 +66,12 @@ For basic operations like accessing an instance for these steps, see [managed in
    ```
    "auth.passwordResetLinkExpiry": 86400, // 24 hours
    ```
+1. Enable metrics collection and GCP alerts for created Managed Instance via [this action](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
 1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 
-| ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created! |
-| ---------------------------------------------------------------------------------------------------- |
+> NOTE: ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created!
 
 To provide the customer access to the instance:
 
