@@ -220,4 +220,17 @@ Company Forecast and related records are generated automatically at 6pm Pacific 
 
 ### AE/SDR Teams
 
-When the SDR field on the User is updated to a new SDR (or from blank), all Accounts owned by the User will have that SDR added to them.
+Outbound SDRs are paired with AEs.
+
+SDRs are automatically assigned as the SDR on any account when an AE is on the account.
+
+If an account becomes unassigned for any reason, the SDR can stay on the account until another AE owns the account.
+Any leads / meetings sourced by the SDR for an unowned account will enter the Round Robin, the same as a new inbound lead.
+
+If an account is transferred to another AE who has a different SDR pair
+A notification will be sent to both SDRs involved
+All existing leads on the account will be transferred to the new SDR
+The previous SDR has 14 days to generate a new SAO on any transferred lead, after 14 days any SAO generated will belong to the new SDR.
+If an SAO is generated after the lead transfer, but before 14 days has passed, the previous SDR who generated that lead must notify #Sales-Ops, who will verify that the SAO will belong to the previous SDR instead of the new SDR on the account.
+
+Note that notifications will only be generated when an SDR is being removed from an account - a new greenfield account being picked up by an AE/SDR pair or a transfer between AEs with the same SDR will not generate a notification to the SDR.

@@ -26,7 +26,7 @@ Understanding how to mitigate vulnerabilities in information systems is an intim
 
 Existing tooling doesn’t enable teams to be agile and effective in their response to security vulnerabilities:
 
-- Finding the vulnerabilities across scattered codebase takes expensive time and resources
+- Finding the vulnerabilities across scattered codebases takes expensive time and resources
 - Making changes to many repositories requires spreadsheets and manual labor to track and manage pull requests to completion
 - Internal library authors need to enable and sometimes force upgrades
 - The process is cumbersome, unclear, and painful to all involved

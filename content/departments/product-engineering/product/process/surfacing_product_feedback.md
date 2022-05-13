@@ -1,5 +1,10 @@
 # Surfacing feedback to the product team
 
+## Surfacing internal feedback
+
+- Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted (optional) in the relevant team's channel.
+- Any teammate can open an issue for consideration by a product-engineering team, and assign the team's label. Product-engineering teams each have their own workflow for triaging issues, but use [common principles](../../process/working-with-issues.md)
+
 ## Surfacing customer feedback
 
 > If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../support/process/engaging-other-teams.md).
@@ -66,8 +71,3 @@ There are no exceptions to the above process! Please do post all ARR-impacting p
 ### If you are uncomfortable posting the feedback
 
 If you are uncomfortable posting feedback directly for any reason at all, you are very welcome to DM it on Slack to any [member of the product team](index.md#members). They will make sure it reaches the right folks. In some cases, this may mean they post the feedback to slack after removing any possible connection to you.
-
-## Surfacing internal feedback or requests
-
-- Any teammate can open an issue for consideration by a product-engineering team, and assign the team's label. Product-engineering teams each have their own workflow for triaging issues, but use [common principles](../../process/working-with-issues.md)
-- The #wg-dogfood is currently working on improving this process.
