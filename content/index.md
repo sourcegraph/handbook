@@ -21,7 +21,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Spending company money - what's covered](benefits-pay-perks/benefits-perks/spending-company-money.md)
 - [Travel benefits](benefits-pay-perks/benefits-perks/travel/index.md)
 - [Time off](benefits-pay-perks/benefits-perks/time-off/index.md)
-  - [Company holidays](benefits-pay-perks/benefits-perks/holidays.md)
+  - [Company holidays](company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Mental health](benefits-pay-perks/benefits-perks/mental-health/index.md)
 
 ## The Sourcegraph Team
