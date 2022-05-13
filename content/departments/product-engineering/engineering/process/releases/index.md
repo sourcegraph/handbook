@@ -64,7 +64,7 @@ The release guild will evaluate this patch process at the end of Q2 FY23 with th
 the first and primary party responsible to cut the patch ([read more in RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit)). Some critiera that we will use to measure success
 will be:
 
-1. No significant disruption to the overall customer upgrade experience
+1. Only include absolute necessary changes to address issues introduced in the corresponding minor release, and no disruption to the overall customer upgrade experience.
 2. Enough internal experience in the release guild such that the guild can be a resource to help with patches (aiming for at least 1 more patch captain)
 
 ### Other
