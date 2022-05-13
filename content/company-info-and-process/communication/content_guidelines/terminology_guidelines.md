@@ -17,6 +17,7 @@ We describe ourselves with a few different names depending on context, and we sh
   - Sourcegraph(’s) Chrome extension
   - Sourcegraph(’s) Firefox add-on
 - **Sourcegraph OSS**: When referring to the build result of the open source repository.
+- **Code intelligence platform**: Use when referring to our category or our entire suite of products and features.
 
 You don't need to use the full name of the product each time you refer to it, but don't use a shortened name that could be confused with an official name.
 
