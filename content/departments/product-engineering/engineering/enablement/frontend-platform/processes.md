@@ -41,7 +41,7 @@ The Frontend Platform team primarily receives support requests from internal Sou
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-platform-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 ### Raising an issue
 
