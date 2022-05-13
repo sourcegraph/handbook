@@ -45,7 +45,7 @@ If you have a question that relates to our [areas of ownership](../../process/en
 
 ### Raising an issue
 
-If you think Frontend Platform is the right team to address a bug or other request, please use the [Frontend Platform issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Ffrontend-platform&template=frontend_platform_issue.yaml) template to create an issue. 
+If you think Frontend Platform is the right team to address a bug or other request, please use the [Frontend Platform issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Ffrontend-platform&template=frontend_platform_issue.yaml) template to create an issue.
 
 ## Team Roles
 
