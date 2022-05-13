@@ -10,7 +10,7 @@ TODO
 - [Resources for Candidates](resources_for_candidates.md)
 - Resources for Interns
 - [Resources for New hires](resources-for-new-hires/index.md)
-- Resources for Teammates
+- [Resources for Teammates](resources-for-teammates.md)
 - Resources for Managers
 
 ## Internal Resources
