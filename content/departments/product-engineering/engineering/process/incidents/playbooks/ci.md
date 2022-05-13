@@ -229,7 +229,6 @@ In order to handle problems with the CI, the following elements are necessary:
 
 1. Refer to the instructions [here](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-agent-stateless/README.md#dispatched-agents) to remove currently deployed agents. The [buildkite-job-dispatcher](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/docker-images/buildkite-job-dispatcher) will deploy jobs with any updated config.
 
-
 ### Agent availability issues
 
 - Gravity: _major_
