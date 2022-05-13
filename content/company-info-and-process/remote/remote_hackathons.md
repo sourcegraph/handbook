@@ -2,8 +2,6 @@
 
 This page describes processes and tips for holding remote hackathons. Everything on this page should be taken as a suggestion – you can decide whether or not something should apply to an individual future hackathon.
 
-See also [Blog Hackathon](../../departments/marketing/content/editorial/blog_hackathon.md) which describes how the content team has run hackathons.
-
 ## Size
 
 A hackathon of any size is possible, but we've found that having 10–20 participants works well. In a hackathon of ~16 product/engineering/design teammates, 11/11 survey respondents felt this size was "just right" and neither "too small" nor "too large."
