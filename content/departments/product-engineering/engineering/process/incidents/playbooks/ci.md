@@ -218,6 +218,18 @@ In order to handle problems with the CI, the following elements are necessary:
    2. From a Buildkite build page, click the "Timeline" tab of a job and see the entry for "Accepted Job". The "Host name" in the entry is also the name of the pod that the job was assigned to.
 2. Use `kubectl exec -n buildkite -it buildkite-agent-xxxxxxxxxx-yyyyy -- bash` to open a shell on the Buildkite agent.
 
+### Replacing Agents
+
+- Gravity: _minor_
+- Impact: May fail ongoing builds, but that's fine.
+- Possible causes:
+  - Newer version of the agents needs to be deployed.
+
+#### Actions
+
+1. Refer to the instructions [here](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/buildkite/kubernetes/buildkite-agent-stateless/README.md#dispatched-agents) to remove currently deployed agents. The [buildkite-job-dispatcher](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/docker-images/buildkite-job-dispatcher) will deploy jobs with any updated config.
+
+
 ### Agent availability issues
 
 - Gravity: _major_
