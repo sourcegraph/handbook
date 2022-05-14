@@ -22,4 +22,3 @@ Coming soon
 ## Types of interviews
 
 - We encourage you to read about the [different types of interviews](types_of_interviews.md) a candidate can expect while going through the interview process.
-
