@@ -34,27 +34,30 @@ Our first meaningful insight is about gaps in software supply chain, in particul
 
 We are currently validating that need with customers, and iterating on the problem. You can read more in the [problem brief](https://docs.google.com/document/d/1vAmdh-N5QABXznKCq7wJr7vYB87FdwNEPDoug90r2Z8/edit#).
 
-
 We are currently **exploring and validating** the following Jobs To Be Done:
 
 1. As a security engineer, determine if the codebase uses a given open source dependency reported in a CVE either as a direct or transitive dependency. Identify if the codebase actuall calls a vulnerable function, not just imports a dependency.
-  - Determine what repositories use it, and trace down the line of code.
-  - Determine what application/service is impacted by that code, and if it is running in production.
-  - List out the most used functions from this package.
+
+- Determine what repositories use it, and trace down the line of code.
+- Determine what application/service is impacted by that code, and if it is running in production.
+- List out the most used functions from this package.
+
 1. As a security engineer, determine the optimal sequence of build/publish/deploy required to remedy the dependency safely in the shortest amount of time, even when the dependency is very deep in the graph.
-  - Be able to query a dependency graph of what is running. From a [customer](https://airtable.com/appNsjegbsi2XumCg/tblBc12PKMuKuo40E/viw0rEcIMXmoAQVVF/recaGJm5nzt7bs9lB?blocks=hide):
-  >"Ultimately, we want to know: If Log4Shell happened again, what is the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time? Since log4j is included (very) indirectly for us, that involves a series of intermediate library publishes to do safely”
+
+- Be able to query a dependency graph of what is running. From a [customer](https://airtable.com/appNsjegbsi2XumCg/tblBc12PKMuKuo40E/viw0rEcIMXmoAQVVF/recaGJm5nzt7bs9lB?blocks=hide):
+  > "Ultimately, we want to know: If Log4Shell happened again, what is the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time? Since log4j is included (very) indirectly for us, that involves a series of intermediate library publishes to do safely”
 
 1. Then takes steps so that it gets fixed:
-  - Determine who owns this application/service/repository
-  - Flag it to the owning team and/or automate a fix.
-  - Keep a traceable record of the fix
+
+- Determine who owns this application/service/repository
+- Flag it to the owning team and/or automate a fix.
+- Keep a traceable record of the fix
+
 1. Lastly, as a security engineer lead, produce an SBOM to send to customers or auditors for compliance purposes.
 
 We are also looking at adjacent Jobs To Be Done:
 
-1. As a security engineer, from a (library name/path) find all dependent repositories in the codebase that uses it and the most prevalent versions,  in order to assess heterogeneity and work required to reduce version spread and improve security posture. This was validated by users at [#565](https://github.com/sourcegraph/accounts/issues/565) and [#544](https://github.com/sourcegraph/accounts/issues/544).
-
+1. As a security engineer, from a (library name/path) find all dependent repositories in the codebase that uses it and the most prevalent versions, in order to assess heterogeneity and work required to reduce version spread and improve security posture. This was validated by users at [#565](https://github.com/sourcegraph/accounts/issues/565) and [#544](https://github.com/sourcegraph/accounts/issues/544).
 
 ### Competitive positioning
 
@@ -64,7 +67,6 @@ We are currently analyzing our competitive positioning as well as identifying po
 
 The sofwtare supply chain is currently top-of-mind for many customers and industry leaders. Attacks have been [increasing](https://thestack.technology/docker-software-bill-of-materials/?amp)
 
->  Attacks on the software supply chain surged 650% in a year, according to a late 2021 eport by Sonatype that tracked 12,000 software supply chain attacks over the past year, compared to just 929 in 2019-2020.
+> Attacks on the software supply chain surged 650% in a year, according to a late 2021 eport by Sonatype that tracked 12,000 software supply chain attacks over the past year, compared to just 929 in 2019-2020.
 
 and there was an executive order on [securing the software supply chain](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/02/24/executive-order-on-americas-supply-chains/). Recently, "White House officials, The Linux Foundation, OpenSSF and CISOs from 37 privae sector companies announced a 10-point open source and software supply chain mobilisation plan and $150 million of funding over two year" ([article](https://thestack.technology/10-point-open-source-software-security-mobilization-plan/?amp=1))
-
