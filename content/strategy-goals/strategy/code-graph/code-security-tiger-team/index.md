@@ -42,22 +42,22 @@ We are currently **exploring and validating** the following Jobs To Be Done:
 - Determine what application/service is impacted by that code, and if it is running in production.
 - List out the most used functions from this package.
 
-1. As a security engineer, determine the optimal sequence of build/publish/deploy required to remedy the dependency safely in the shortest amount of time, even when the dependency is very deep in the graph.
+2. As a security engineer, determine the optimal sequence of build/publish/deploy required to remedy the dependency safely in the shortest amount of time, even when the dependency is very deep in the graph.
 
 - Be able to query a dependency graph of what is running. From a [customer](https://airtable.com/appNsjegbsi2XumCg/tblBc12PKMuKuo40E/viw0rEcIMXmoAQVVF/recaGJm5nzt7bs9lB?blocks=hide):
   > "Ultimately, we want to know: If Log4Shell happened again, what is the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time? Since log4j is included (very) indirectly for us, that involves a series of intermediate library publishes to do safely”
 
-1. Then takes steps so that it gets fixed:
+3. Then takes steps so that it gets fixed:
 
 - Determine who owns this application/service/repository
 - Flag it to the owning team and/or automate a fix.
 - Keep a traceable record of the fix
 
-1. Lastly, as a security engineer lead, produce an SBOM to send to customers or auditors for compliance purposes.
+4. Lastly, as a security engineer lead, produce an SBOM to send to customers or auditors for compliance purposes.
 
 We are also looking at adjacent Jobs To Be Done:
 
-1. As a security engineer, from a (library name/path) find all dependent repositories in the codebase that uses it and the most prevalent versions, in order to assess heterogeneity and work required to reduce version spread and improve security posture. This was validated by users at [#565](https://github.com/sourcegraph/accounts/issues/565) and [#544](https://github.com/sourcegraph/accounts/issues/544).
+5. As a security engineer, from a (library name/path) find all dependent repositories in the codebase that uses it and the most prevalent versions, in order to assess heterogeneity and work required to reduce version spread and improve security posture. This was validated by users at [#565](https://github.com/sourcegraph/accounts/issues/565) and [#544](https://github.com/sourcegraph/accounts/issues/544).
 
 ### Competitive positioning
 
