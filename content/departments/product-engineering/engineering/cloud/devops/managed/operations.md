@@ -167,7 +167,7 @@ Running these commands will have no impact on a running deployment and can be sa
 
 ## Changing the instance
 
-> SOC2/CI-98
+<span class="badge badge-note">SOC2/CI-98</span>
 
 The state of managed instances infrastructure and deployment artifact are stored in the following repositories
 
@@ -178,7 +178,7 @@ We are aligned with the [company-wide testing philosophy](https://docs.sourcegra
 
 ## Avaiability of the instance
 
-> SOC2/CI-87
+<span class="badge badge-note">SOC2/CI-87</span>
 
 We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
 
