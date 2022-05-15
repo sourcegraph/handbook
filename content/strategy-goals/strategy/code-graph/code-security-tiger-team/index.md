@@ -59,3 +59,12 @@ We are also looking at adjacent Jobs To Be Done:
 ### Competitive positioning
 
 We are currently analyzing our competitive positioning as well as identifying potential partners in [this document](https://docs.google.com/document/d/1FlKYLUuSNLp34yY3F3dNBPeC9icFaoD-pZOILGWrxEI/edit#) (private).
+
+### Market updates
+
+The sofwtare supply chain is currently top-of-mind for many customers and industry leaders. Attacks have been [increasing](https://thestack.technology/docker-software-bill-of-materials/?amp)
+
+>  Attacks on the software supply chain surged 650% in a year, according to a late 2021 eport by Sonatype that tracked 12,000 software supply chain attacks over the past year, compared to just 929 in 2019-2020.
+
+and there was an executive order on [securing the software supply chain](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/02/24/executive-order-on-americas-supply-chains/). Recently, "White House officials, The Linux Foundation, OpenSSF and CISOs from 37 privae sector companies announced a 10-point open source and software supply chain mobilisation plan and $150 million of funding over two year" ([article](https://thestack.technology/10-point-open-source-software-security-mobilization-plan/?amp=1))
+
