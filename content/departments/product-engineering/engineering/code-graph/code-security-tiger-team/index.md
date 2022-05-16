@@ -43,8 +43,6 @@ If you are interested in the space but don't know where to start, here's a few i
 
 ## Glossary
 
-#### Glossary
-
 We try not to use acronyms at Sourcegaph, but there's a lot of them in security. Here's a list that could be useful to Sourcegraphers new to the field:
 
 - **NTIA**: National Telecommunications and Information Administration. A US agency that advises the US president on telecommunication policy, and contributes to developing frameworks and standards.
