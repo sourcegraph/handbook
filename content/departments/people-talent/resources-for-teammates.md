@@ -61,7 +61,7 @@
   - [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
 
   ### Benefits
-  
+
   - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
   - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
   - [Benefits available for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
