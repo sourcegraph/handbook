@@ -10,7 +10,7 @@ We sync weekly on Wednesday. See our [sync doc](https://docs.google.com/document
 
 ### Customer discovery
 
-We use lookback for customer discovery sessions and [airtable](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) for collecting insihgts.
+We use [lookback](https://lookback.io/org/sourcegraph/projects/code-security/rounds) for customer discovery sessions and [airtable](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) for collecting insihgts.
 
 ## Strategy
 
