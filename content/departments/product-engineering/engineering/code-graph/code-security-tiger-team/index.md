@@ -10,7 +10,7 @@ We sync weekly on Wednesday. See our [sync doc](https://docs.google.com/document
 
 ### Customer discovery
 
-We use lookback for customer discovery sessions and [airtable](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) for collecting insihgts.
+We use [lookback](https://lookback.io/org/sourcegraph/projects/code-security/rounds) for customer discovery sessions and [airtable](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) for collecting insihgts.
 
 ## Strategy
 
@@ -40,3 +40,16 @@ If you are interested in the space but don't know where to start, here's a few i
 - Software supply chain is a key area of interest:
   - [Allan Friedman - someone set us up the SBOM](https://www.youtube.com/watch?v=9j1KYLfklMQ)
   - [SBOMs explained](https://guides.sonatype.com/foundations/devops/sboms-explained/)
+
+## Glossary
+
+We try not to use acronyms at Sourcegaph, but there's a lot of them in security. Here's a list that could be useful to Sourcegraphers new to the field:
+
+- **NTIA**: National Telecommunications and Information Administration. A US agency that advises the US president on telecommunication policy, and contributes to developing frameworks and standards.
+- **OWASP**: The Open Web Application Security Project. A nonprofit foundation that works to improve the security of software.
+- **SBOM**: Software Bill Of Material. The two most common SBOM standards are [SPDX](https://spdx.dev/) (developed by ISO) and OWASP's [CycloneDX](https://cyclonedx.org/) (developed by OWASP).
+- **SLSA**: Supply chain Levels for Software Artifacts, or SLSA (salsa). A security framework and set of standards for improving software supply chain integrity and security.
+- **SCA**: Software Composition Analysis. An automated process to identify dependencies of a software. SCA tools analyzes the application's **dependencies** for potential vulnerabilities.
+- **SAST**: Static Application Security Testing. SAST tools analyzes the the application's **code** for potential vulnerabilities, based on a set of predefined rules. Some SAST tools also suggest fixes.
+- **DAST**: Dynamic Application Security Testing. DAST tools **interact directly with the application** to identify vulnerabilities by performing attacks, without having access to the source code.
+- **NVD**: National Vulnerability Database. A US-government maintained repository of vulnerabilities.
