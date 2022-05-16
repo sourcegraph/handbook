@@ -4,6 +4,18 @@ If you need your employment at Sourcegraph verified for any reason (such as for 
 
 Truework allows you to [generate a letter yourself](https://app.truework.com/letter) or, in cases where verification needs to come directly from Sourcegraph, allows requesters to do so via our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/).
 
+## When should you use Truework?
+
+Anytime you need any sort of employment verification! If you require employment verification for any of the following:
+
+- Home loans
+- Mortgages
+- Visa sponsorship
+- Verification of employment and income
+- Travel sponsorship (like ESTA applications)
+
+## Generating a letter
+
 To generate a letter, please follow the steps below:
 
 - **Self-serve:**
