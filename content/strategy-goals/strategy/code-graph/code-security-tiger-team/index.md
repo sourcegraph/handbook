@@ -30,8 +30,8 @@ We are currently running customer discovery to identify critical code security n
 
 Our first meaningful insight is about gaps in software supply chain, in particular how security users can answer the following problem statement:
 
->“If you learn that a code pattern in library x version y is vulnerable, how do you determine if you're actually exposed to it? How do you trace it down to the actual line of code?”
->Note that here, being exposed to a code pattern means _actually calling it_ and not just importing a dependency.
+> “If you learn that a code pattern in library x version y is vulnerable, how do you determine if you're actually exposed to it? How do you trace it down to the actual line of code?”
+> Note that here, being exposed to a code pattern means _actually calling it_ and not just importing a dependency.
 
 We are currently validating that need with customers, and iterating on the problem. You can read more in the [problem brief](https://docs.google.com/document/d/1vAmdh-N5QABXznKCq7wJr7vYB87FdwNEPDoug90r2Z8/edit#).
 
@@ -46,7 +46,7 @@ We are currently **exploring and validating** the following Jobs To Be Done:
 2. As a security engineer, determine the optimal sequence of build/publish/deploy required to remedy the dependency safely in the shortest amount of time, even when the dependency is very deep in the graph.
 
 - Be able to query a dependency graph of what is running. From a [customer](https://airtable.com/appNsjegbsi2XumCg/tblBc12PKMuKuo40E/viw0rEcIMXmoAQVVF/recaGJm5nzt7bs9lB?blocks=hide):
->“Ultimately, we want to know: If Log4Shell happened again, what is the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time? Since log4j is included (very) indirectly for us, that involves a series of intermediate library publishes to do safely”
+  > “Ultimately, we want to know: If Log4Shell happened again, what is the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time? Since log4j is included (very) indirectly for us, that involves a series of intermediate library publishes to do safely”
 
 3. Then takes steps so that it gets fixed:
 
