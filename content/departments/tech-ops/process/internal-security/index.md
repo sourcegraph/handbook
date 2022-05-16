@@ -6,7 +6,7 @@ As we attempt for SOC2 certification we are also acknowledging that we are more 
 
 ## Required security measures for all full-time teammates, interns, and temporary contractors:
 
-- Setup up your computer with the appropriate [device standards](../internal-security/computer-standards.md)
+- Setup up your computer according to our [requirements](../../tools/computer-setup.md)
 - Follow [password guidelines](../internal-security/passwords.md) for accessing/administering systems as well as for protecting your devices
 - Attend security training (in work)
 
