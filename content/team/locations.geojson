@@ -1483,6 +1483,19 @@
               37.29520563333924
             ]
          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "Gronk"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              53.581907,
+              9.981746
+            ]
+         }
       }
    ]
 }
