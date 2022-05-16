@@ -52,5 +52,5 @@ We try not to use acronyms at Sourcegaph, but there's a lot of them in security.
 - **SBOM**: Software Bill Of Material. The two most common SBOM standards are [SPDX](https://spdx.dev/) (developed by ISO) and OWASP's [CycloneDX](https://cyclonedx.org/) (developed by OWASP).
 - **SLSA**: Supply chain Levels for Software Artifacts, or SLSA (salsa). A security framework and set of standards for improving software supply chain integrity and security.
 - **SCA**: Software Composition Analysis. An automated process to identify dependencies of a software. SCA tools analyzes the application's **dependencies** for potential vulnerabilities.
-- **SAST**: Static Application Security Testing. SAST tools analyzes the the application's **code** for potential vulnerabilities, based on a set of predefined rules. Some SAST tools also suggest fixes. 
+- **SAST**: Static Application Security Testing. SAST tools analyzes the the application's **code** for potential vulnerabilities, based on a set of predefined rules. Some SAST tools also suggest fixes.
 - **DAST**: Dynamic Application Security Testing. DAST tools **interact directly with the application** to identify vulnerabilities by performing attacks, without having access to the source code.
