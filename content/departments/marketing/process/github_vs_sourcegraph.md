@@ -4,8 +4,7 @@
 
 - [GitHub integration with Sourcegraph](https://docs.sourcegraph.com/integration/github) (Sourcegraph documentation)
 
-Sourcegraph teammates: See this [doc](https://drive.google.com/file/d/1HcKd-elBGGYccWoPsp7ZaVH17VytWW7l/view) for a detailed comparison. This doc can be shared directly with prospects and existing customers. 
-
+Sourcegraph teammates: See this [doc](https://drive.google.com/file/d/1HcKd-elBGGYccWoPsp7ZaVH17VytWW7l/view) for a detailed comparison. This doc can be shared directly with prospects and existing customers.
 
 ## Code search
 
