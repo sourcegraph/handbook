@@ -19,13 +19,12 @@ We consider the following kinds of repositories:
 
 The removal process is the same across all the visibility types listed above.
 
-
 Depending on the environment, exec into `pgsql` following the steps below:
 
 For Cloud:
 
-  Follow the steps [here](../../product-engineering/engineering/process/deployments/postgresql.md#connecting-to-postgres)
-  to connect to the database for Sourcegraph Cloud.
+Follow the steps [here](../../product-engineering/engineering/process/deployments/postgresql.md#connecting-to-postgres)
+to connect to the database for Sourcegraph Cloud.
 
 For docker-compose deployments:
 
