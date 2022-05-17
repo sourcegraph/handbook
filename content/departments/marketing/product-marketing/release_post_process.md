@@ -15,7 +15,7 @@ Here is an overview of the release post process:
 - If visual assets aren't ready by this date, PMs add a placeholder for expected assets.
 
 **1-2 days before the release is cut**
-— Product Marketing to work with the CE team to review the changelog and determine 5-7 major items that should be featured in the release post changelog.
+- Product Marketing to work with the CE team to review the changelog and determine 5-7 major items that should be featured in the release post changelog.
 
 - It is easier to do this closer to when the release is cut so that the changelog is mostly final.
 
