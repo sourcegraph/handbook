@@ -16,13 +16,15 @@ Here is an overview of the release post process:
 
 **1-2 days before the release is cut**
 — Product Marketing to work with the CE team to review the changelog and determine 5-7 major items that should be featured in the release post changelog.
-  - It is easier to do this closer to when the release is cut so that the changelog is mostly final.
+
+- It is easier to do this closer to when the release is cut so that the changelog is mostly final.
 
 **When the release is cut (24 hours before release ships)**
 
 You can tell when the release is cut by following along in #progress.
 
 - The marketing release post owner adds the changelog to the release post file.
+
   - They run the command to generate the changelog (being sure to replace the version number in the command), and then pastes the output at the end of the release post ([loom guide](https://www.loom.com/share/59da6bc1784a48e9b6af4d9e620ee4df)): `go run ./bin/generate_changelog_items.go -versions 3.28 -i ../sourcegraph/CHANGELOG.md`.
   - Make sure that you get the latest in the Sourcegraph repo before running this command. If your repo is in a different location than `../sourcegraph`, you'll need to update the command line above.
   - If for some reason the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
@@ -42,7 +44,7 @@ You can tell when the release is cut by following along in #progress.
 - PMM shares the release post in #progress.
 
 ## Content notes
- 
+
 For any images added to the release post, include the `blog-image` class as follows, and be sure to add an `alt` and `title` description for hover and/or screen readers:
 
 ```html
