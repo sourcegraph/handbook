@@ -67,6 +67,13 @@ _Onboarding format and presentation - Survey questions:_
 
 [Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
 
+## Onboarding checklist
+Before your first day, we will share your onboarding checklist. This will serve as a guide for you to navigate your first weeks with us. You will be provided tasks, context, and will be pointed to the right resources. 
+
+We don't expect you to know everything by the time stated in each task. We know this is a process. But we want you to have the resources available and to know where the information is for you to come back to them later.
+
+For the most part, this is a self paced process, tasks and content is presented in sequence, but you are free to organize your own time. However, some tasks are mandatory. Please see [this handbook page](onboarding-checklist.md) to understand more about the checklist and the mandatory tasks.
+
 ## Onboarding check-ins
 
 There are different instances of [onboarding check ins](onboarding-check-ins.md).
