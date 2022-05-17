@@ -33,8 +33,11 @@ Add a blog post by creating a Markdown file in one of the `blogposts` child dire
 ---
 title: The title
 description: A 300 character limit field for describing your post. Use this is you want to specially craft the excerpt shown on the index page. Uses the first 300 characters of text from your post if this field does not exist.
-author: The author name
-authorUrl: https://example.com/
+authors:
+  - name: The author name
+    url: https://example.com/
+  - name: Second authors name (optional)
+    url: https://example-2.com/
 publishDate: YYYY-MM-DDT10:00-07:00
 tags: [blog]
 slug: the-blog-slug
@@ -50,7 +53,7 @@ Your markdown content goes here
 The data between the `---` is called front matter and is used to provide post metadata. Important to note about this metadata, is that:
 
 - The `description` field is optional and only needed if you want to craft the description for your post on the blog the index page.
-- The `authorUrl` field is optional but recommended.
+- The `authors` field is for any author of the blog. The `url` field is optional but recommended. * The indentations on this field are important to keep matching the example.
 - The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
