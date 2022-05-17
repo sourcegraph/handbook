@@ -53,7 +53,7 @@ Your markdown content goes here
 The data between the `---` is called front matter and is used to provide post metadata. Important to note about this metadata, is that:
 
 - The `description` field is optional and only needed if you want to craft the description for your post on the blog the index page.
-- The `authors` field is for any author of the blog. The `url` field is optional but recommended. * The indentations on this field are important to keep matching the example.
+- The `authors` field is for any author of the blog. The `url` field is optional but recommended. \* The indentations on this field are important to keep matching the example.
 - The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
