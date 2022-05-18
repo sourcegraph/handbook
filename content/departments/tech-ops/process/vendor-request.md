@@ -98,7 +98,7 @@ Please see below the responsibilities of a system/relationship owner:
 
 ### Procurement Partner
 
-You are encouraged to use our procurement partner Vendr to secure advantageous pricing when negotiating with vendors and help with certain commercial aspects. More information on when to engage Vendr and what type of support they offer can be found [here](https://handbook.sourcegraph.com/departments/tech-ops/tools/vendr/).
+You are encouraged to use our procurement partner Vendr to secure advantageous pricing when negotiating with vendors and help with certain commercial aspects. More information on when to engage Vendr and what type of support they offer can be found [here](../tools/vendr.md).
 
 **_However, using Vendr for vendor procurements does NOT replace our internal vendor request processes. Please make sure to raise a Vendor Request for any vendor engagements through the process described here. _**
 
@@ -115,7 +115,7 @@ Our due diligence involves the following reviews:
 
 (Please note: reviews happen in parallel and hence the longest SLA is 10 business days)
 
-- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](https://handbook.sourcegraph.com/departments/legal/process/contractreviewandsignatureauthoritypolicy/#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services) for rules on contract signing.
+- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/contractreviewandsignatureauthoritypolicy.md/#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services) for rules on contract signing.
 - If any issues are found during the reviews and the approvers deem the vendor to be too risky to engage with further, any existing engagement will be terminated and the vendor will be offboarded (new vendor request to be raised for ‘Offboarding’) and the new vendor will not be onboarded.
 
 ### Budget
