@@ -2068,12 +2068,6 @@ amy_johnson:
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
 
-director_design:
-  name: Steve Fisher
-  role: Head of Design
-  reports_to: vp_product
-  manager_role_slug: director_design
-
 jason_gornall:
   name: Jason Gornall
   pronouns: he/him
@@ -3021,6 +3015,6 @@ steve_fisher:
   location: Sechelt, BC, Canada 🇨
   github: hellofisher
   email: steve.fisher@sourcegraph.com
-  links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/), [manager docs](readmes/nick.md)'
+  links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
   pronunciation: '[pronounce my name](https://www.pronouncenames.com/search?name=Steve+Fisher)'
   description: Steve has led multiple high performing design organizations in agency, enterprise, and startup settings. Steve also lives on the edge of the ocean and mountains and loves exploring both. You can often catch up with him while he's traveling and working from his camper van with his wife and two doggos.
