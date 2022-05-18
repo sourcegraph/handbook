@@ -39,6 +39,16 @@
     - [Scenario: you want to promote someone into a new level band]COMING SOON
     - [Scenario: you want to give someone a raise]COMING SOON
 
+## Managing people
+
+- [Onboarding direct reports as hiring manager](../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md)
+    - There's a trip planned and I want my soon to be direct report to come: [Guest TripAction invite](../../benefits-pay-perks/benefits-perks/travel/TripActions.md#new-teammates-joining-trips)
+    - [2022 Cohort calendar start dates](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0)
+
+- [Holidays we celebrate](../../benefits-pay-perks/benefits-perks/holidays.md)
+- [Working hours & PTO](../../company-info-and-process/working-at-sourcegraph/working-hours.md)
+- [Teammate gathering and celebrations](../../benefits-pay-perks/benefits-perks/celebrate.md)
+- [Swag]
 
 
 ## Tools
@@ -49,3 +59,4 @@
 - [Talent Wall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md)
 
 ### People team tools
+- [Tools for managers](people-ops/tools/manager-guide.md)
