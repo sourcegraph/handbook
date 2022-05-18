@@ -1,5 +1,5 @@
-| Metric                          | Definition                                                                                                                                                                                            |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| Metric                          | Definition                                |
+| ------------------------------- | ------------------------------------------|
 | New Business IARR               | IARR from a customer paying for products and/or service for the first time. This includes IARR from customers who may have canceled service in the past                                               |
 | Expansion IARR                  | IARR from existing customers. Expansion IARR occurs either via a customer buying more of the same product (up-sell) or a new product (cross-sell)                                                     |
 | Cross-sell IARR                 | IARR generated from existing customers buying new products                                                                                                                                            |     |     |
