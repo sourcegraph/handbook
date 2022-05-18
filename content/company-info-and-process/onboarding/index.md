@@ -9,7 +9,7 @@ New teammates are paired with someone to connect that can share their experience
 ### Links of interest
 
 - [Onboarding process for Hiring Managers](onboarding-for-hiring-managers.md) page.
-- Cohort calendar ([2021](https://docs.google.com/spreadsheets/d/1jJY3E7j31ZD7J-ouf3Gf-uioHCAXxe-0bBVLEmdtVGQ/edit#gid=0) & [2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) start dates)
+- Cohort calendar ([2022](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0) start dates)
 - [Onboarding buddy program](./buddy-program.md)
 - [Onboarding Feedback Milestones](./onboarding-feedback-milestones.md)
 
