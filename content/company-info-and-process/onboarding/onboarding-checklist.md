@@ -14,7 +14,8 @@ No due date.
 - Confirm BambooHR information: number of options and vesting date
 
 **Security**
-Due date: one month after start date. If not completed, there will be a warning via email and we expect you to do it in the two weeks following the warning.
+Due date: one month after start date.
+If the task was not completed by the due date you will receive a reminder alert via email. The grace period for completing the task will be two weeks after the original due date. In the event the task is not completed by the end of the grace period an escalation notification will be sent to your manager and the People Ops team. 
 
 - Watch Security Awareness training
 - Complete Security Awareness training assessment (form)
