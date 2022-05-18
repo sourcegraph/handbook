@@ -115,12 +115,12 @@ Our due diligence involves the following reviews:
 
 (Please note: reviews happen in parallel and hence the longest SLA is 10 business days)
 
-- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](content/departments/legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing.
+- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing.
 - If any issues are found during the reviews and the approvers deem the vendor to be too risky to engage with further, any existing engagement will be terminated and the vendor will be offboarded (new vendor request to be raised for ‘Offboarding’) and the new vendor will not be onboarded.
 
 ### Budget
 
-The budget discussion and approval sit outside this process. They should be pre-approved before submitting a vendor request. No vendor requests should be submitted before budget approval has been secured. More details on how to secure budget approval can be found [here](../finance/process/ap.md/#procurement-process).
+The budget discussion and approval sit outside this process. They should be pre-approved before submitting a vendor request. No vendor requests should be submitted before budget approval has been secured. More details on how to secure budget approval can be found [here](../../finance/process/ap.md).
 
 ### Annual Reviews
 
