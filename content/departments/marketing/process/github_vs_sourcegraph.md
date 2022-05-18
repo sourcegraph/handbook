@@ -4,6 +4,8 @@
 
 - [GitHub integration with Sourcegraph](https://docs.sourcegraph.com/integration/github) (Sourcegraph documentation)
 
+Sourcegraph teammates: See this [doc](https://drive.google.com/file/d/1HcKd-elBGGYccWoPsp7ZaVH17VytWW7l/view) for a detailed comparison. This doc can be shared directly with prospects and existing customers.
+
 ## Code search
 
 GitHub offers [code search](https://help.github.com/en/articles/searching-code), which is acceptable for smaller teams using GitHub with simple/infrequent code search needs. The main pain points we hear are lack of support for literal/regexp queries and filters, and that the UI is not optimized for searching across multiple repositories. For medium and large organizations, Sourcegraph is a better alternative to GitHub's built-in code search.

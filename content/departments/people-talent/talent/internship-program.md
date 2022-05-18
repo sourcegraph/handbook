@@ -26,6 +26,8 @@ Prior to opening internship roles, our compensation offers are approved and fina
 
 We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills. Internships will be paid and follow the same logic as our standard [Compensation Philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#philosophy).
 
+Our interns will use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
+
 #### Perks
 
 - 🎧 [Desk Set Up](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
@@ -59,10 +61,12 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 6/1 Exec Q&A- Carly Jones
 - 6/8 LinkedIn Workshop
 - 6/14 Yoga/Meditation
+- 6/15 Exec Q&A - Dan Adler
 - 6/21 Cohort Meeting
 - 6/22 Exec Q&A - Christina/Nick
 - 6/29 Exec Q&A - Kacie
 - 7/6 Interviewing Workshop
+- 7/13 Q&A - Connor O'Brien
 - 7/14 Virtual Escape Room
 - 7/19 Cohort Meeting
 - 7/20 Optional Q&A - Ben Horowitz
@@ -71,9 +75,10 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
 ### Internship Projects
 
-Prior to the end of the internship, each intern will complete a final project.
+Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
 
-DETAILS COMING SOON!
+- The video submission is due to Kemper on July 18th, 2022.
+- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB August 1, 2022.
 
 ### Hiring after the internship
 
@@ -81,10 +86,10 @@ At the end of an internship, a full time position is not guaranteed, but may be 
 
 ### Helpful Links
 
-- [Resources for Candidates](tools/resources_for_candidates.md)
-- [How to Apply](tools/resources_for_candidates.md#how-to-apply)
-- [Interviewing at Sourcegraph](tools/resources_for_candidates.md#interviewing-at-sourcegraph)
-- [Candidate FAQs](tools/resources_for_candidates.md#candidate-faqs)
+- [Resources for Candidates](../resources_for_candidates.md)
+- [How to Apply](../resources_for_candidates.md#how-to-apply)
+- [Interviewing at Sourcegraph](../resources_for_candidates.md#interviewing-at-sourcegraph)
+- [Candidate FAQs](../resources_for_candidates.md#candidate-faqs)
 
 ## Information for Sourcegraph Teammates
 
@@ -104,4 +109,14 @@ If your team is selected to have an intern, the recruiter will reach out via sla
 
 ### What does managing an intern require?
 
-Compliance, 1:1s, and feedback information COMING SOON
+1:1 Meetings
+
+- Consistent feedback is crucial to a successful internship. We expect managers to conduct a weekly 1:1 with their intern(s) for the duration of the internship program. The internship program manager will share a 1:1 template and a weekly project tracker with each intern manager prior to the internship start date.
+
+Internship Plans
+
+- Prior to the internship start date, each intern manager will create an Internship Plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer.
+
+Wage and Hour Guidelines
+
+- Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.

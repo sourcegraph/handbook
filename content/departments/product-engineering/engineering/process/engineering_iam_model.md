@@ -18,6 +18,12 @@
 - Our automated workflow then assigns this user to specific permission groups based on this designation
 - The backend recognizes the user’s group and associates the permissions with the users of that group.
 
+### Permission Matrix by Dept
+
+- Permissions based on departments have been determined via use cases in each team
+- These permissions can be found [here](https://docs.google.com/document/d/1B4KbeJO085m7fD1nmuCxEDmyd9vi8gZFm6BmCJO4wAw/edit?usp=sharing)
+- The Matrix will be updated as depts and their scope changes
+
 ### User changing departments
 
 - This process would associate the user with the correct groups once their role has been updated in the HR tool.
@@ -34,6 +40,12 @@
 - This is done via a workflow that recognizes the temporary nature of the escalation and hence a time limit is set for this access.
 - At the end of the time limit, either the user gets new approval for extension of their permissions or they are automatically removed from this group, hence deescalating their permissions to the original ones assigned per their job responsibilities.
 
+#### Escalation Request Procedure:
+
+- Request to be added to gcp-admin-escalated@sourcegraph.com google group via #it-tech-ops
+- Provide a time frame that you will need the escalated permissions. Make it reasonable, 1hr or 2hrs etc
+- Tag your manager for approval
+
 ## Prevent Permission Creep:
 
 - How do we prevent permission creep from this setup?
@@ -46,3 +58,10 @@
 - The code has the baseline of what permissions should be assigned to which group
 - If there are any changes made outside of this code, they will be reverted back at the next execution of this code.
 - The code is kept in a repository so all changes to it are auditable and approved before being merged.
+
+## Current Implementation:
+
+- Infrastruture-as-code has been setup in our [Infra repo](https://github.com/sourcegraph/infrastructure/tree/main/gcp/org)
+- IAM bindings have been incoporated from the organization level, folder level and project level
+- Custom roles have been created to provide least privilege access
+- Any changes to the bindings must pass PR review before being incoporated into our setup

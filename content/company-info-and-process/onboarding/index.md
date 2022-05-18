@@ -67,11 +67,15 @@ _Onboarding format and presentation - Survey questions:_
 
 [Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
 
-#### Mid-onboarding check-in
+## Onboarding check-ins
+
+There are different instances of [onboarding check ins](onboarding-check-ins.md).
+
+### One month check-in
 
 People Ops sets up individual meetings to collect live feedback and address any questions or concerns from every new teammate at the 1-month mark.
 
-## Onboarding Feedback Milestones
+### Onboarding Feedback Milestones
 
 The People Ops team wants to help managers support their teammates better, in order for them to avoid burnout, better clarify expectations, give feedback on progress and stimulate confidence in new teammates in the first few months, thereby enhancing performance and wellbeing.
 
