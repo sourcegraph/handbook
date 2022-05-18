@@ -40,39 +40,40 @@ We define the following vendor request types:
 **Step 1:** Visit our [service desk portal](https://sourcegraph.atlassian.net/servicedesk/customer/portal/6)
 
 **Step 2:** Choose the correct request Type
-    	_Options:_ New Vendor, Offboarding, Annual Review, Other
+_Options:_ New Vendor, Offboarding, Annual Review, Other
 
 **Step 3:** provide as much information as possible into the Jira ticket fields
-    _Attention_:  System owner - this is by default the requester except otherwise indicated
+_Attention_: System owner - this is by default the requester except otherwise indicated
 
 **Step 4:** Submit the request
 
-**Optional Step:** 
+**Optional Step:**
 
 **Step 5:** Contact Vendr to assist with vendor price negotiations
 
 **Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
 
-**Step 7:** 
->If ‘Approved’ - 
->
->New vendor: get the contract (details here) and attach it to the Jira ticket.
->
->Offboarding: no further actions required
->
->Annual review: continue using the vendor
->
->Others: resign the contract (details here) and attach it to the Jira ticket.
+**Step 7:**
 
->If ‘Rejected’ -
+> If ‘Approved’ -
 >
->New vendor: research and submit vendor request for alternative vendors
+> New vendor: get the contract (details here) and attach it to the Jira ticket.
 >
->Offboarding: contact Legal and Compliance directly for next steps forward
+> Offboarding: no further actions required
 >
->Annual review: create a new vendor request type ‘Offboarding’ for this vendor
+> Annual review: continue using the vendor
 >
->Others: create a new vendor request type ‘Offboarding’ for this vendor
+> Others: resign the contract (details here) and attach it to the Jira ticket.
+
+> If ‘Rejected’ -
+>
+> New vendor: research and submit vendor request for alternative vendors
+>
+> Offboarding: contact Legal and Compliance directly for next steps forward
+>
+> Annual review: create a new vendor request type ‘Offboarding’ for this vendor
+>
+> Others: create a new vendor request type ‘Offboarding’ for this vendor
 
 ### System/Relationship Owner Responsibilities
 
