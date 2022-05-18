@@ -8,6 +8,65 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./index.md#newsletter) for preparing a newsletter.
 
+## May 20, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+It has been quiet a while since the last newsletter, so this edition will focus on more recent changes and highlights.
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+### Logs, logs, logs 🗃️
+
+A brand new logging package is now available in [`github.com/sourcegraph/sourcegraph/lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log). This library outputs a [OpenTelemetry-compliant log format](https://docs.sourcegraph.com/admin/observability/logs#opentelemetry) in JSON mode, paving the way towards enabling customers to more easily ingest and leverage logs, and also offers a performant, strongly-typed interface for providing log fields. The library also encodes a number of best practices:
+
+1. No global loggers - it is no longer possible to instantiate a logger at compile time, and users should hold their own references to loggers, so that fields can be attached and log output can be more useful with additional context, and pass Logger instances to components as required.
+2. Loggers are attached to scopes - this helps orient log entries within a larger codebase. For example, when creating a GitHub V3 client for making a auth provider to make requests, one might use `log.Scoped("provider.github.v3", "provider github client")`.
+
+This library will also be the target of many observability improvements going forward, such as [automated error reporting](https://github.com/sourcegraph/sourcegraph/issues/33240#issuecomment-1129104807), [improved test output](https://github.com/sourcegraph/sourcegraph/pull/35430), and more.
+To learn more, check out the new [How to add logging](https://docs.sourcegraph.com/dev/how-to/add_logging) guide.
+
+We've also extended the existing [`internal/observation`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/observation) package, which aims to provide all-in-one logging, tracing, and monitoring primitives, to integrate logging throughout all levels of an observation.
+This enables you to easily write logs that includes helpful context like traces, metadata, observation context, and more.
+To learn more, check out [How to add observability](https://docs.sourcegraph.com/dev/how-to/add_observability).
+
+The DevX team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #dev-experience for feedback and questions!
+
+### ~Developer~ `sg` experience ✨
+
+The [`sg`](https://docs.sourcegraph.com/dev/background-information/sg) experience has been a major focus for the DevX team and we have been working towards a variety of improvements for both users and contributers of `sg`!
+
+First up, usage improvements:
+
+- `sg` now supports autocompletions that you can trigger using the <kbd>Tab</kbd> key to help you type out long command names and flags faster, and to help you learn `sg` commands faster! To get started, make sure you've run `sg setup`.
+- Many `sg` flags now have short aliases (such as `sg run -d enterprise-frontend`),and commands can declare shorter aliases too (such as `sg ci st`) to save you on some extra keystrokes.
+- Misspelled a command? `sg` will now prompt you with some suggestions.
+- Help text is much improved, with `sg help` now rendering commands by category.
+- `sg lint` has seen a variety of improvements, and now powers all linters that we run in CI, which means you can easily replicate linter runs locally for debugging and enabling developers to customize linter output with much more granularity.
+- `sg test frontend-e2e` can now be used to run Sourcegraph's E2E tests with ease!
+- `sg`'s autoupdate mechanism has gone through a number of iterations and should now be reliably auto-updating your `sg` installation seamlessly whenever you run `sg`.
+
+For developers wanting to streamline their developer experience with `sg` functionality, we've also made a lot of internal improvements:
+
+- Linters are easier than ever to build with the updated [`lint.Runner`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/sg/internal/lint/lint.go?L13:6#tab=references) interface, which now also provides you an easy way to get changed files and iterate over added lines to perform incremental linting. To get started, just head on over to the [`dev/sg/linters`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/sg/linters/linters.go) package!
+- The migration to a new CLI library, [`urfave/cli`](https://pkg.go.dev/github.com/urfave/cli/v2), includes features like:
+  - A much nicer API for defining flags and fetching them without declaring global variables, and convenience functions for safely getting arguments: [example](https://github.com/urfave/cli/blob/main/docs/v2/manual.md#flags).
+  - Developers can implement custom completions for their commands with the [`BashComplete: completeOptions(...)`](https://sourcegraph.com/search?q=context:%40sourcegraph/all+r:%5Egithub%5C.com/sourcegraph/sourcegraph%24+BashComplete:+completeOptions%28...%29+&patternType=structural) API.
+  - Flags and commands can now have short aliases!
+- `sg.config.yaml` can now leverage external secrets (we currently support `gcloud` only) with the new `secrets:` field and [`secretsStore.GetExternal(...)` API](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9d34772e9d1156c8b0738d1b0b831089d9e45833/-/blob/dev/sg/sg_analytics.go?L37:29-37:40).
+- The output API has been overhauled to be centralized in `std.Out`, which now centralizes the exports of a variety of `sg`-specific utilities for incorporating ✨ _fancy_ ✨ output for some added bling.
+- Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevX team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go.
+
+### Following your code from PR to production 🚢
+
+TODO(@jhchabran)
+
+### Smoke testing ☁️
+
+TODO(@jhchabran)
+
+### Learning resources 🎥
+
+TODO(@marekweb)
+
 ## Feb 24, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
