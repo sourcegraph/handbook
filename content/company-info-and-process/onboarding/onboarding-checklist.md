@@ -25,7 +25,8 @@ If the task was not completed by the due date you will receive a reminder alert 
 - Enable 2FA on GSuite
 
 **Code of Conduct**
-Due date: one month after start date. If not completed, there will be a warning and we expect you to do it in the two weeks following the warning.
+Due date: one month after start date.
+If the task was not completed by the due date you will receive a reminder alert via email. The grace period for completing the task will be two weeks after the original due date. In the event the task is not completed by the end of the grace period an escalation notification will be sent to your manager and the People Ops team.
 
 - Review the code of conduct
 
