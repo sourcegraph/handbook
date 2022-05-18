@@ -52,7 +52,6 @@
 - [Teammate gathering and celebrations](../../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Swag]
 
-
 ## Tools
 
 ### Recruiting tools
@@ -65,4 +64,3 @@
 ### People team tools
 
 - [Tools for managers](people-ops/tools/manager-guide.md)
-
