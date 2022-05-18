@@ -76,9 +76,7 @@ You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) 
 
 #### Restarting for configuration updates
 
-1. [SSH into the relevant instance](#ssh-access)
-2. `cd` to the `/deployment/docker-compose` folder and run:
-3. `docker compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal`
+1. `go run ./util/cmd/. --customer $CUSTOMER reload-config`
 
 ### Port-forwarding
 
