@@ -13,6 +13,9 @@
     - Project permissions
       - Used for granular permissions granted on per project basis
 - Modify the terraform in the relevant file
+  - If the role you are trying to gain access to already has a resorce block, add yourself to it
+  - If it doesnt, create a new resource block and follow the naming convention in the file
+    - Resource name: projectname_rolename
 - Run terraform init and then terraform plan to review changes
   - If terraform plan is changing more than what is expected, reach out to security team to review the unexpected changes
   - If terraform plan output is expected, create a PR
