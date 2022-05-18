@@ -1,27 +1,14 @@
-### Net dollar retention
-
-Net dollar retention (NDR) is measures how much revenue a cohort is generating (expansion - churn) in a given period relative to its original size (dollar amount).
-
-Calculation: (Beginning period ARR + existing customer expansion - churn/contraction) / beginning period ARR
-
-For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%.
-
-### Customer Count
-
-Number of customers with an _active_ contractual financial commitment at a point in time.
-
-### Average Sales Price (ASP)
-
-The average initial contract price per new business (calculated as New Business IARR / New Logo Count over a given period). Excludes any service or one time revenue.
-
-### Average Revenue per User (ARPU)
-
-Measures how much ARR is generated per user account.
-
-Calculation: ARR / Total number of committed users
-
-### Gross Renewal Rate
-
-Gross Renewal Rate is the percentage of ARR renewed in a given period and is a key ARR forecast input assumption. Helps assess renewal strategy performance and future loss of revenue.
-
-Calculation: $ amount of ARR renewed / Total $ amount of ARR up for renewal (excludes any expansion IARR and MTM deals)
+| Metric                            | Definition                |
+| --------------------              | ------------------------- |
+| New Business IARR                 | IARR from a customer paying for products and/or service for the first time. This includes IARR from customers who may have canceled service in the past|
+| Expansion IARR                    | IARR from existing customers. Expansion IARR occurs either via a customer buying more of the same product (up-sell) or a new product (cross-sell)|
+| Cross-sell IARR                   | IARR generated from existing customers buying new products| | |
+| Upsell IARR                       | IARR generated from existing customers purchasing more of the same product under contract (net of volume discounts, pricing tiers)|
+| Churn IARR                        | A decrease in ARR from our existing customer base occurring from either a downsize in commitment or cancellation of a subscription|
+| Downsize IARR                     | The negative change in IARR values for customers who spend less money with us but do not cancel|
+| Cancelled IARR                    | Decrease in IARR that results in a customer ending their contractual relationship with Sourcegraph|
+| Customer Count                    | Number of customers with an active contractual financial commitment at a point in time|
+| Average Sales Price (ASP)         | The average initial contract price per new logo (calculated as New Logo IARR / New Logo Count over a given period). Excludes any service or one time revenue|
+| Average Revenue Per User (ARPU)   | ARR / Total number of committed users in a given period|
+| Gross Renewal Rate %              | The $ amount of ARR renewed divided by the total $ amount of ARR up for renewal in a given period; excluding expansion IARR|
+| Net Dollar Retention (NDR %)      | Dividing ARR balance at the end of a period by the ARR balance of the same group of customers at the beginning of the period, net of downsizes and cancellations and excluding ARR from new customers|
