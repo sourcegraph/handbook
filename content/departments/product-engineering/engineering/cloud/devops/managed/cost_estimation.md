@@ -56,6 +56,7 @@ The following summarizes the infrastructure costs incurred for a managed instanc
 | $85/mo min. / $0.340/GB        | Data disk, SSD/regional, 250G minimum—exact size depends on customer's repository sizes.                                                                                                                                          |
 | $34/mo                         | Boot disk, SSD/regional, 100G fixed size.                                                                                                                                                                                         |
 | $85/mo / $0.026/GB             | 13 weekly snapshots (taken weekly, retained for 90d)                                                                                                                                                                              |
+| $85/mo / $0.026/GB             | daily snapshots (taken daily, retained for 90d)                                                                                                                                                                                   |
 | $78/mo / $0.026/GB             | 12 monthly upgrade data disk snapshots (taken once per month as part of upgrade, retained for 1yr).                                                                                                                               |
 | $36/mo                         | [Cloud Load Balancing](https://cloud.google.com/vpc/network-pricing#lb), two rules required.                                                                                                                                      |
 | $12/mo                         | [External IP address](https://cloud.google.com/vpc/network-pricing#ipaddress), four required.                                                                                                                                     |
@@ -63,5 +64,25 @@ The following summarizes the infrastructure costs incurred for a managed instanc
 | $6/mo + $0.75/million requests | [Cloud Armor](https://cloud.google.com/vpc/network-pricing#armor-pricing), one policy, one rule, and user-activity requests.                                                                                                      |
 | $1.42/GB                       | [Cloud Proxy](https://cloud.google.com/vpc/network-pricing#proxy-instance-charge), 3 are required.                                                                                                                                |
 | $0.12/GB                       | [Internet egress traffic](https://cloud.google.com/vpc/network-pricing#internet_egress) from `us-central1`.                                                                                                                       |
+
+### Cloud SQL usage
+
+Cloud SQL sizing is depending on number of repos
+
+1-500 repos
+
+`db-custom-4-6144`, 100G, $180.26/mo
+
+500-2000 repos
+
+`db-custom-4-10240`, 100G, $200.70/mo
+
+2000+ repos
+
+`db-custom-4-12288`, 100G, $210.92/mo
+
+### Google Cloud Storage (GCS)
+
+If the customer does not enable LSIF, the usage of GCS will be zero. If they do, we don't have a clear understanding how much it cost, so we will just ignore it for now (the cost is most likely negligible)
 
 [#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG
