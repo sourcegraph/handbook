@@ -30,8 +30,3 @@ If the task was not completed by the due date you will receive a reminder alert 
 
 - Review the code of conduct
 
-**Sexual Harrassment**
-Due date: three months after start date. This currently applies only to California teammates.
-
-- Complete training
-- Send certificate completion to People team
