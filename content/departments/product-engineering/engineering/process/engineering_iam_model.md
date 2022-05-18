@@ -61,4 +61,5 @@
 - Any changes to the bindings must pass PR review before being incoporated into our setup
 
 ## GCP Access Request Process
+
 - To gain access to resources in GCP, following the process highlighted [here](gcp_access_process.md)
