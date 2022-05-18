@@ -2068,12 +2068,6 @@ amy_johnson:
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
 
-director_design:
-  name: Christina Forney
-  role: (Interim) Director of Design
-  reports_to: vp_product
-  manager_role_slug: director_design
-
 jason_gornall:
   name: Jason Gornall
   pronouns: he/him
@@ -2999,3 +2993,28 @@ aditya_kalie:
   location: San Jose, California 🇺🇸/ Toronto, Canada 🇨🇦
   links: '[LinkedIn](https://www.linkedin.com/in/aditya-kalia/)'
   description: Aditya is a data enthusiast who enjoys solving big data problems and connecting data from A to B. Previously, he led data engineering at a health-focused startup, enabling consumers to shop for their dietary preferences on retailer websites. Outside of work, Aditya enjoys staying active and playing sports with friends. He likes to split his time between Canada and USA to spend time with his close friends and family in both countries.
+
+gronk:
+  name: Ralf 'gronk' Gronkowski
+  email: gronk@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/ralf-gronkowski-b74a90/)'
+  github: gronk-sg
+  pronouns: he/him
+  role: Manager, Enterprise EMEA
+  manager_role_slug: manager_customer_engineering_emea
+  reports_to: director_customer_engineering
+  location: Hamburg, Germany 🇩🇪
+  description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
+
+steve_fisher:
+  name: Steve Fisher
+  pronouns: he/him
+  role: Head of Design
+  manager_role_slug: director_design
+  reports_to: vp_product
+  location: Sechelt, BC, Canada 🇨
+  github: hellofisher
+  email: steve.fisher@sourcegraph.com
+  links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
+  pronunciation: '[pronounce my name](https://www.pronouncenames.com/search?name=Steve+Fisher)'
+  description: Steve has led multiple high performing design organizations in agency, enterprise, and startup settings. Steve also lives on the edge of the ocean and mountains and loves exploring both. You can often catch up with him while he's traveling and working from his camper van with his wife and two doggos.

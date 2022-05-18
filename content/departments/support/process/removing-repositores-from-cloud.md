@@ -19,19 +19,22 @@ We consider the following kinds of repositories:
 
 The removal process is the same across all the visibility types listed above.
 
-Depending on the environment, exec into `pgsql` with:
+Depending on the environment, exec into `pgsql` following the steps below:
 
-**Kubernetes**
+For Cloud:
 
-```
-kubectl exec -ti $PGSQL_POD -- psql -U sg
-```
+Follow the steps [here](../../product-engineering/engineering/process/deployments/postgresql.md#connecting-to-postgres)
+to connect to the database for Sourcegraph Cloud.
+
+For docker-compose deployments:
 
 **Docker**
 
 ```
 docker exec -it $PGSQL_CONTAINER -- psql -U sg
 ```
+
+> 🔥 You are directly interfacing with productions databases. If you are unsure of any commands, please reach out in #dev-chat or #dev-ops.
 
 **Option 1 ('Hard' delete)**
 
@@ -105,3 +108,7 @@ and then
 2. `ls $repo_name`
 
 Both instances should return null results to help confirm deletion.
+
+### DMCA process
+
+Our DMCA policy for cloud is [here](https://about.sourcegraph.com/terms-cloud/#10-Copyright-infringement-and-DMCA-policy)
