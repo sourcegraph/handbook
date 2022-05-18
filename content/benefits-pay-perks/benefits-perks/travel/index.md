@@ -250,24 +250,26 @@ Please respect your peers wishes, and _lead with empathy_ when planning remote a
 
 # Protocol for potential COVID-19 exposure
 
-If you or anyone attending an in-person company event suspects COVID-19 exposure (prior to, during, or after an event) please do the following:
+If you or anyone attending a company-sponsored event suspects a COVID-19 exposure (before, during, or after an event) please take the following precautions:
 
-- Notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Jonathan Ayers immediately so that they can advise on next steps for notifying other potentially affected teammates. _Note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
 
-  - **Information to share with People Ops:**
+**Before:**
+If you contract COVID-19 before company-sponsored travel, in addition to self-isolating:
+- Please postpone or cancel your travel through TripActions. 
+	- Your safety is our number one priority. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we travel to. 
+	- Reach out to #people-ops or Cassie Melani directly and we will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
+- Get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
+- Please cancel or postpone any upcoming travel or in-person events in the following 2 weeks to prevent spread.
+- Monitor your symptoms and quarantine based on current CDC guidelines.
 
+**During/After:**
+If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately afterwards:
+- You must notify People Ops ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Jonathan Ayers directly so that we can advise on next steps for notifying other potentially affected teammates. _Please note that no personal names will be shared with teammates in regards to any communications around COVID-19 exposures._
+  - **Information to share:**
     - Date symptoms began
-    - Dates of company event and travel
+    - Start and end date of company event and or company travel
     - List of company event attendees/potentially exposed teammates
+    - If you are still onsite at your hotel and have tested positive before returning home, please include Cassie Melani on your email; we will reach out to you and book any extended stays for you through TripActions.
+- If you need to take additional time off work to recover, first and foremost: we hope you feel better soon! Please submit your time off under 'Wellbeing leave' in Roots (though Slack); this will trigger a notification to your manager. We recommend talking through your time off plan with them in case you need a longer recovery time than expected.
 
-- Please postpone or cancel your travel. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we’d be traveling to. Reach out to People Ops and they will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
-
-- Please arrange to get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
-
-- Take any necessary additional precautions.
-
-- Prevent spread _(please cancel or postpone any upcoming travel or in-person events in the following 2 weeks)_.
-
-- Monitor your symptoms and quarantine based on CDC guidelines.
-
-If you have any questions or concerns, please reach out to #people-ops on Slack. Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
+If you have any questions or concerns, please reach out to #people-ops on Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
