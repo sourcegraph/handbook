@@ -52,6 +52,25 @@
 - [Teammate gathering and celebrations](../../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Swag]
 
+## Manager processes
+
+- Management training
+- [How to promote someone](people-ops/process/promotion.md)
+- BambooHR
+  - How to run a report
+  - [Requesting changes in BambooHR (compensation, role, spot bonuses)]
+- [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
+  - [How to give a merit increase](people-ops/process/compensation-and-leveling/index.md)
+  - [Offers](people-ops/process/compensation-and-leveling/index.md)
+  - [Approvals](people-ops/process/compensation-and-leveling/index.md)
+- [Performance coaching](people-ops/process/performance-coaching/index.md)
+  - [Coaching conversations](people-ops/process/performance-coaching/coaching.md)
+  - [PIP process](people-ops/process/performance-coaching/pip.md)
+  - [Exit interview](people-ops/process/performance-coaching/exit-interview.md)
+    - Lattice
+    - Questions we ask live
+    - [Exit survey]
+
 ## Tools
 
 ### Recruiting tools
