@@ -73,7 +73,9 @@ Before your first day, we will share your onboarding checklist. This will serve 
 
 We don't expect you to know everything by the time stated in each task. We know this is a process. But we want you to have the resources available and to know where the information is for you to come back to them later.
 
-For the most part, this is a self paced process, tasks and content is presented in sequence, but you are free to organize your own time. However, some tasks are mandatory. Please see [this handbook page](onboarding-checklist.md) to understand more about the checklist and the mandatory tasks.## Onboarding check-ins
+For the most part, this is a self paced process, tasks and content is presented in sequence, but you are free to organize your own time. However, some tasks are mandatory. Please see [this handbook page](onboarding-checklist.md) to understand more about the checklist and the mandatory tasks.
+
+## Onboarding check-ins
 
 There are different instances of [onboarding check ins](onboarding-check-ins.md).
 
