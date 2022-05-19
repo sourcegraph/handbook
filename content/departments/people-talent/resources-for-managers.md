@@ -47,7 +47,7 @@
   - There's a trip planned and I want my soon to be direct report to come: [Guest TripAction invite](../../benefits-pay-perks/benefits-perks/travel/TripActions.md#new-teammates-joining-trips)
   - [2022 Cohort calendar start dates](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0)
 
-- [Holidays we celebrate](../../benefits-pay-perks/benefits-perks/holidays.md)
+- [Holidays we celebrate]
 - [Working hours & PTO](../../company-info-and-process/working-at-sourcegraph/working-hours.md)
 - [Teammate gathering and celebrations](../../benefits-pay-perks/benefits-perks/celebrate.md)
 - [Swag]
@@ -58,7 +58,7 @@
 - [How to promote someone](people-ops/process/promotion.md)
 - BambooHR
   - How to run a report
-  - [Requesting changes in BambooHR (compensation, role, spot bonuses)](people-ops/process/compensation-role-changes.md)
+  - [Requesting changes in BambooHR (compensation, role, spot bonuses)]
 - [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
   - [How to give a merit increase](people-ops/process/compensation-and-leveling/index.md)
   - [Offers](people-ops/process/compensation-and-leveling/index.md)
