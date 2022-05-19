@@ -27,7 +27,7 @@ Your new account is now available in the Okta Verify app.
 
 ## Second enroll your laptop to Workspace One
 
-After setting up your Okta password you then need to enroll your Sourcegraph laptop in our endpoint management system, Workspace One. To install WS1 on your device navigate to [getwsone.com](getwsone.com) and once that installs you can sign in with your newly created Okta credentials to register your device. More info on this can be found [here](../endpoint-antivirus.md#what-is-workspace-one).
+After setting up your Okta password you then need to enroll your Sourcegraph laptop in our endpoint management system, Workspace One. To install WS1 on your device navigate to [getwsone.com](www.getwsone.com) and once that installs you can sign in with your newly created Okta credentials to register your device. More info on this can be found [here](../endpoint-antivirus.md#what-is-workspace-one).
 
 ## Third open the Okta Dashboard
 
