@@ -69,7 +69,7 @@
   - [Exit interview](people-ops/process/performance-coaching/exit-interview.md)
     - Lattice
     - Questions we ask live
-    - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
+    - [Exit survey]
 
 ## Tools
 
