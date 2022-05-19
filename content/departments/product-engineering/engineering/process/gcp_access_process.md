@@ -16,9 +16,9 @@
   - If the role you are trying to gain access to already has a resource block, add yourself to it
   - If it doesnt, create a new resource block and follow the naming convention in the file
     - Resource name: projectname_rolename
-- Run terraform init and then terraform plan to review changes
-  - If terraform plan is changing more than what is expected, reach out to security team to review the unexpected changes
-  - If terraform plan output is expected, create a PR
+- Run `terraform init` and then `terraform plan` to review changes
+  - If `terraform plan` is changing more than what is expected, reach out to security team to review the unexpected changes
+  - If `terraform plan` output is expected, create a PR
     - Tag security for review
 - Once approved, run terraform apply
 
@@ -40,6 +40,6 @@
 - Request access as follows
   - Google group to be added to: [gcp-admin-oncall@sourcegraph.com](mailto:gcp-admin-escalated@sourcegraph.com)
   - Time frame access is needed
-  - Approvals from incident lead, manager or security team
+  - Approvals from manager or security team
 - Tech Ops will add you to the google group
 - You will automatically lose access at the end of the time frame unless you renew with approvals
