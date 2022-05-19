@@ -5,7 +5,7 @@ The #feedback-dogfood channel is a community focused on [surfacing](../product/p
 
 Our company is made of developers building developer tools.
 Nobody is more available to provide immediate, honest, and direct feedback to improve our product than ourselves.
-Our vision on how well we improve each of the 5 use cases for our customers certainly applies to us internally at Sourcegraph.
+Our vision on how well we improve each of the [5 use cases](../../../strategy-goals/strategy/index.md#use-cases) for our customers certainly applies to us internally at Sourcegraph.
 
 ## Vision
 
