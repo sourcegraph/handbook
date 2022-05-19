@@ -5,37 +5,26 @@ publish = "out"
 # https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
 # If skip_processing = true, all other settings are ignored
 [build.processing]
-  skip_processing = false
+skip_processing = false
 [build.processing.css]
-  bundle = false
-  minify = false
+bundle = false
+minify = false
 [build.processing.js]
-  bundle = false
-  minify = false
+bundle = false
+minify = false
 [build.processing.html]
-  pretty_urls = true
+pretty_urls = true
 [build.processing.images]
-  compress = false
-
-[[plugins]]
-package = "@netlify/plugin-nextjs"
-
-[[plugins]]
-package = "@algolia/netlify-plugin-crawler"
-[plugins.inputs]
-branches = ['main']
-mainBranch = 'main'
-customDomain = "handbook.sourcegraph.com"
-renderJavaScript = false
+compress = false
 
 [functions]
 node_bundler = "esbuild"
 external_node_modules = ["@ampproject/toolbox-optimizer"]
 
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = """\
+for = "/*"
+[headers.values]
+Content-Security-Policy = """\
       script-src 'self' *.netlify.com *.netlify.app *.app.netlify.com *.swiftypecdn.com *.segment.com *.segment.io plausible.io 'sha256-JcUwlbcTNdtwp5Szxufx3JIsjsem70t6DXyfcgTcAnQ=' 'sha256-MEya+PLw9XU1WNgiMij94hmgncY4GS+aQhjC2zqaAz4=' 'sha256-ETVmFY/pVNIiyKhDh3yPNf+mlhV1Z32Ax232eJ+ES7o=';\
       style-src 'self' 'unsafe-inline' *.swiftypecdn.com unpkg.com fonts.googleapis.com;\
       font-src 'self' fonts.gstatic.com;\
