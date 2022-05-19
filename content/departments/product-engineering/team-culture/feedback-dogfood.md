@@ -14,7 +14,7 @@ Create a larger shift in the company towards using our own products at Sourcegra
 ## How to participate
 
 Anyone is welcome to participate, no matter what team or department you are in!
-Feedback about *any* part of Sourcegraph is also welcome, whether it be product features, thoughts about the user interface, or documentation.
+Feedback about _any_ part of Sourcegraph is also welcome, whether it be product features, thoughts about the user interface, or documentation.
 To get started, all you need to do post a message in the #feedback-dogfood channel.
 If you know which specific team might own actioning a particular piece feedback, you can also cross-post the message to the team's channel, but this is entirely optional.
 
