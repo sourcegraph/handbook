@@ -107,7 +107,7 @@ The vendor management process will be supported by our [‘Vendor Management’ 
 
 ## Request type
 
-There are four types of request tickets that we support: 
+There are four types of request tickets that we support:
 
 
 
@@ -161,7 +161,7 @@ From a vendor management perspective we base our review requirements  on the sen
 
 * **Restricted:** Security, Legal, Tech Ops
 * **Private:** Security, Legal, Tech Ops 
-* **Internal: **Security, Tech Ops 
+* **Internal:** Security, Tech Ops 
 * **Public:** Tech Ops
 
 From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request: 
@@ -259,9 +259,8 @@ Each reviewer team has the responsibility to create and maintain their own prede
 
 Security approval - information needed and reviewed:
 
-
-
     * What type of information is being shared with the vendor: customer data, sourcegraph data, both?
+    
     * Security compliance certifications like ISO27001 or SOC 2.
     * Encryption standards of data at rest and in transit (transport layer security).
     * Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
