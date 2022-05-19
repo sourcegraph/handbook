@@ -12,7 +12,7 @@ For all vendor contracts or any product that touches Sourcegraph data and/or cli
 
 (This would include Saas products and services such as, free plug-ins/extensions, individual licenses, multi-seat Saas contracts, consulting/professional services with individuals or a company, procurement partnerships, and event rentals.)
 
-**_Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here. _**
+**Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
 
 ### What counts as a Vendor?
 
@@ -33,52 +33,47 @@ We define the following vendor request types:
 
 ### How do I submit a request?
 
-#### **_Prerequisite_: Budget approval **
+#### _Prerequisite_: Budget approval
 
 (Note: If you have not secured budget approval yet please do **not** raise a vendor request ticket as Sourcegraph resources are potentially being wasted for reviews, etc. in case the budget request is denied)
 
 **Step 1:** Visit our [service desk portal](https://sourcegraph.atlassian.net/servicedesk/customer/portal/6)
 
 **Step 2:** Choose the correct request Type
+_Options:_ New Vendor, Offboarding, Annual Review, Other
 
-    	_Options:_ New Vendor, Offboarding, Annual Review, Other
-
-Step 3: provide as much information as possible into the Jira ticket fields
-
-    _Attention_:  System owner - this is by default the requester except otherwise indicated
+**Step 3:** provide as much information as possible into the Jira ticket fields
+_Attention_: System owner - this is by default the requester except otherwise indicated
 
 **Step 4:** Submit the request
 
-**_Optional Step: _**
+**Optional Step:**
 
-Step 5: Contact Vendr to assist with vendor price negotiations
+**Step 5:** Contact Vendr to assist with vendor price negotiations
 
-**Step 6: **Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
+**Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
 
-**Step 7:** If ‘Approved’ -
+**Step 7:**
 
-      New vendor: get the contract (details here) and attach it to the Jira ticket.
-      Offboarding: no further actions required
+> If ‘Approved’ -
+>
+> New vendor: get the contract (details here) and attach it to the Jira ticket.
+>
+> Offboarding: no further actions required
+>
+> Annual review: continue using the vendor
+>
+> Others: resign the contract (details here) and attach it to the Jira ticket.
 
-
-      Annual review: continue using the vendor
-
-
-    Others: resign the contract (details here) and attach it to the Jira ticket.
-
-    If ‘Rejected’ -
-
-
-    New vendor: research and submit vendor request for alternative vendors
-
-
-    Offboarding: contact Legal and Compliance directly for next steps forward
-
-
-    Annual review: create a new vendor request type ‘Offboarding’ for this vendor
-
-
-    Others: create a new vendor request type ‘Offboarding’ for this vendor
+> If ‘Rejected’ -
+>
+> New vendor: research and submit vendor request for alternative vendors
+>
+> Offboarding: contact Legal and Compliance directly for next steps forward
+>
+> Annual review: create a new vendor request type ‘Offboarding’ for this vendor
+>
+> Others: create a new vendor request type ‘Offboarding’ for this vendor
 
 ### System/Relationship Owner Responsibilities
 
@@ -100,7 +95,7 @@ Please see below the responsibilities of a system/relationship owner:
 
 You are encouraged to use our procurement partner Vendr to secure advantageous pricing when negotiating with vendors and help with certain commercial aspects. More information on when to engage Vendr and what type of support they offer can be found [here](../tools/Vendr/index.md).
 
-**_However, using Vendr for vendor procurements does NOT replace our internal vendor request processes. Please make sure to raise a Vendor Request for any vendor engagements through the process described here. _**
+**However, using Vendr for vendor procurements does NOT replace our internal vendor request processes. Please make sure to raise a Vendor Request for any vendor engagements through the process described here.**
 
 ### Due Diligence
 
