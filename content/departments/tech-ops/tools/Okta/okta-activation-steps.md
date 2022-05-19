@@ -1,6 +1,6 @@
 # How to activate Okta
 
-## First set your Okta account
+## First: set your Okta account
 
 On your first day, you will find an email from **Okta** on your personal account. This email includes a link to your Sourcegraph’s Okta sign-in page and your username (your Sourcegraph email address). You need this information to set up your account.
 
@@ -25,11 +25,11 @@ Open Okta Verify and follow the instructions.
 
 Your new account is now available in the Okta Verify app.
 
-## Second enroll your laptop to Workspace One
+## Second: enroll your laptop to Workspace One
 
 After setting up your Okta password you then need to enroll your Sourcegraph laptop in our endpoint management system, Workspace One. To install WS1 on your device navigate to [getwsone.com](https://getwsone.com) and once that installs you can sign in with your newly created Okta credentials to register your device. More info on this can be found [here](../endpoint-antivirus.md#what-is-workspace-one).
 
-## Third open the Okta Dashboard
+## Third: open the Okta Dashboard
 
 Once signed in to your Okta Account, you will be taken to the Apps Dashboard (shown below). You can access your Sourcegraph Google Workspace Account (to view your Sourcegraph email inbox) and other assigned applications from this page.
 
