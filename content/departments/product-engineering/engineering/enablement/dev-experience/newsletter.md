@@ -51,7 +51,7 @@ For developers wanting to streamline their developer experience with `sg` functi
   - A much nicer API for defining flags and fetching them without declaring global variables, and convenience functions for safely getting arguments: [example](https://github.com/urfave/cli/blob/main/docs/v2/manual.md#flags).
   - Developers can implement custom completions for their commands with the [`BashComplete: completeOptions(...)`](https://sourcegraph.com/search?q=context:%40sourcegraph/all+r:%5Egithub%5C.com/sourcegraph/sourcegraph%24+BashComplete:+completeOptions%28...%29+&patternType=structural) API.
   - Flags and commands can now have short aliases!
-- `sg.config.yaml` can now leverage external secrets (we currently support `gcloud` only) with the new `secrets:` field and [`secretsStore.GetExternal(...)` API](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9d34772e9d1156c8b0738d1b0b831089d9e45833/-/blob/dev/sg/sg_analytics.go?L37:29-37:40).
+- `sg.config.yaml` can now leverage external secrets (we currently support `gcloud` only) with the new `secrets:` field, and `sg` commands can use the [`secretsStore.GetExternal(...)` API](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9d34772e9d1156c8b0738d1b0b831089d9e45833/-/blob/dev/sg/sg_analytics.go?L37:29-37:40).
 - The output API has been overhauled to be centralized in `std.Out`, which now centralizes the exports of a variety of `sg`-specific utilities for incorporating ✨ _fancy_ ✨ output for some added bling.
 - Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevX team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go.
 
@@ -66,6 +66,16 @@ TODO(@jhchabran)
 ### Learning resources 🎥
 
 TODO(@marekweb)
+
+### Architecture decision records
+
+The idea behind architecture decision records, or ADRs, is to have small documents that are part of the codebase, not an external artifact that you have to be aware of like an RFC.
+
+We encourage the use of Architecture Decision Records (ADRs) for logging decisions that have notable architectural impact on our codebase. Since we’re a high-agency company, we encourage any contributor to commit an ADR if they’ve made an architecturally significant decision.
+
+Note that ADRs are _not_ meant to replace our current RFC process but to complement it by capturing decisions made in RFCs. However, ADRs do not need to come out of RFCs only. GitHub issues or pull requests, PoCs, team-wide discussions, and similar processes may result in an ADR as well.
+
+To learn more, check out the [ADR index page](https://docs.sourcegraph.com/dev/adr) and [ADR 1: Record architecture decisions](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions).
 
 ### TEMP
 
