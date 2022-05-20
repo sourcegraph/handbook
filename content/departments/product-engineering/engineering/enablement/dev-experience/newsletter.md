@@ -58,13 +58,13 @@ For developers wanting to streamline their developer experience with `sg` functi
 
 ### Following your code from PR to production 🚢
 
-Deployments are now announced over Slack, in [#alerts-preprod-cloud](https://sourcegraph.slack.com/archives/C039JKERFBN) for the preprod and in [#deployments-cloud](https://sourcegraph.slack.com/archives/C03BGBR796H) for Cloud deployments. If you want to receive a mention on those announcement when your PR is getting deployed, you can use the `notify-on-deploy` label. If the label is present when the PR is deployed you'll receive the notification. 
+Deployments are now announced over Slack, in [#alerts-preprod-cloud](https://sourcegraph.slack.com/archives/C039JKERFBN) for the preprod and in [#deployments-cloud](https://sourcegraph.slack.com/archives/C03BGBR796H) for Cloud deployments. If you want to receive a mention on those announcement when your PR is getting deployed, you can use the `notify-on-deploy` label. If the label is present when the PR is deployed you'll receive the notification.
 
-Deployements schedules can be observed in [Honeycomb Dashboard](https://ui.honeycomb.io/sourcegraph/board/ev4yWqP5h3u/Deployments) which tracks how much time elapsed from the moment a PR being merged to the moment it got deployed. 
+Deployements schedules can be observed in [Honeycomb Dashboard](https://ui.honeycomb.io/sourcegraph/board/ev4yWqP5h3u/Deployments) which tracks how much time elapsed from the moment a PR being merged to the moment it got deployed.
 
 ### Smoke testing ☁️
 
-Every ten minutes, smoke tests are being run against https://sourcegraph.com, first making basic infrastructure tests then performing a quick search to ensure that the application is up. And it's for real this time, [#16589](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16589) turns failures into an automated incident being created. 
+Every ten minutes, smoke tests are being run against https://sourcegraph.com, first making basic infrastructure tests then performing a quick search to ensure that the application is up. And it's for real this time, [#16589](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16589) turns failures into an automated incident being created.
 
 ### Learning resources 🎥
 
@@ -91,15 +91,15 @@ And for some added bling, both of the new commands have been beautified! ([#3572
 
 ### Buildkite foundations ⛵
 
-Since the end of march, 100% of our CI builds are now run on stateless agents. It means that by design, it's now guaranteed that a given build cannot impact following ones. This enabled to roll out our own [autoscaler](https://github.com/sourcegraph/infrastructure/blob/main/docker-images/buildkite-autoscaler/buildkite-autoscaler.go) and [job dispatcher](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-job-dispatcher). This resulted in a 30% decrease of our CI spending on GCP in April. 
+Since the end of march, 100% of our CI builds are now run on stateless agents. It means that by design, it's now guaranteed that a given build cannot impact following ones. This enabled to roll out our own [autoscaler](https://github.com/sourcegraph/infrastructure/blob/main/docker-images/buildkite-autoscaler/buildkite-autoscaler.go) and [job dispatcher](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-job-dispatcher). This resulted in a 30% decrease of our CI spending on GCP in April.
 
 As a result and because of their short lifespan, it has enabled to roll out [spot vms](https://cloud.google.com/spot-vms) which are cheaper than the previous instances that were used to power the agents in the past. The current forecast for our CI spending indicates that it should decrease by another 35% for May.
 
-### Buildkite goodies ✂️ 
+### Buildkite goodies ✂️
 
-ASDF caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well. 
+ASDF caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well.
 
-Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build. 
+Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build.
 
 ## Feb 24, 2022
 
