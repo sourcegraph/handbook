@@ -4,9 +4,11 @@ The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tige
 
 ## Workflow
 
+
 ### Sync
 
-We sync weekly on Wednesday. See our [sync doc](https://docs.google.com/document/d/1r7wiK8F8AQvvnv5YMRAeqNLDS4WkDSvGvbGQVsX1xis/edit#)
+We sync weekly on Wednesday. See our [sync doc](https://docs.google.com/document/d/1r7wiK8F8AQvvnv5YMRAeqNLDS4WkDSvGvbGQVsX1xis/edit#).
+Progress can be tracked in our [updates tracker](https://github.com/sourcegraph/code-graph/issues/21).
 
 ### Customer discovery
 
