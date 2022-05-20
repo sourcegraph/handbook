@@ -40,4 +40,4 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 - [Computer buyback program](process/buyback.md)
 - [Application Access Requests](process/application_access_request.md)
 - [Vendor Request Process](process/vendor-request.md)
-- [Vendor Management Reviewer Guide]()
+- [Vendor Management Reviewer Guide](process/vendor-reviewer-guide.md)

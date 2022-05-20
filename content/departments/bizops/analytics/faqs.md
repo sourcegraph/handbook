@@ -12,7 +12,7 @@ It's likely they have multiple instances (such as a separate instances for stagi
 
 ### I can't find a customer's instance anywhere in Looker. What's going on?
 
-It's possible that the customer has an offline (or air-gapped) instance. Check this [document](https://docs.google.com/document/d/18q-xbHl53hg_y_0xX-buZpD04vMv3vJrqiXd9IeeE64/edit), which lists all customers we know to be offline, to see if the customer you're looking for is on there. If not, reach out to #analytics to determine what might be the cause.
+It's possible that the customer has an offline (or air-gapped) instance. Check this [document](https://docs.google.com/spreadsheets/d/17zh57kElBPCr71d2gIjao773u_ZNt7JgjIlv7wLKYhY/edit#gid=1979843091), which lists all customers we know to be offline, to see if the customer you're looking for is on there. If not, reach out to #analytics to determine what might be the cause.
 
 ### I'm not seeing any telemetry/data on my account except for MAUs and total user accounts. What's going on?
 
