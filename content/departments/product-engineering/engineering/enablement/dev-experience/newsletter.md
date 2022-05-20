@@ -109,7 +109,7 @@ Since the end of march, 100% of our CI builds are now run on stateless agents. I
 
 As a result and because of their short lifespan, it has enabled to roll out [spot vms](https://cloud.google.com/spot-vms) which are cheaper than the previous instances that were used to power the agents in the past. The current forecast for our CI spending indicates that it should decrease by another 35% for May.
 
-In addition to spot nodes, we have also enabled [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s.
+In addition to spot nodes, we have also enabled in [#3296](https://github.com/sourcegraph/infrastructure/pull/3296) [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s.
 
 ### Buildkite goodies ✂️
 
