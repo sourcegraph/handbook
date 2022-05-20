@@ -78,17 +78,14 @@ Note that ADRs are _not_ meant to replace our current RFC process but to complem
 
 To learn more, check out the [ADR index page](https://docs.sourcegraph.com/dev/adr) and [ADR 1: Record architecture decisions](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions).
 
-### Database migration tooling
+### Database migration tooling 🗃️
 
 There are two new goodies for database tooling available via `sg migration` locally and via the `migrator` binary shipped with every Sourcegraph instance.
 
-- New [describe command](https://github.com/sourcegraph/sourcegraph/pull/35641) provides a formatted version of your database's current schema
-- New [drift command](https://github.com/sourcegraph/sourcegraph/pull/32472) provides a diff of the expected schema and your database's current schema
+- New [`describe` command](https://github.com/sourcegraph/sourcegraph/pull/35641) provides a formatted version of your database's current schema
+- New [`drift` command](https://github.com/sourcegraph/sourcegraph/pull/32472) provides a diff of the expected schema and your database's current schema
 
-And for some bling:
-
-- The new describe command has been [beautified](https://github.com/sourcegraph/sourcegraph/pull/35722)
-- The new drift has been [beautified](https://github.com/sourcegraph/sourcegraph/pull/35735)
+And for some added bling, both of the new commands have been beautified! ([#35722](https://github.com/sourcegraph/sourcegraph/pull/35722), [#](https://github.com/sourcegraph/sourcegraph/pull/35735))
 
 ## Feb 24, 2022
 
