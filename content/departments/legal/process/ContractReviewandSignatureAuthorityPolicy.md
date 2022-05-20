@@ -87,7 +87,7 @@ SLAs—Turnaround for Legal review:
 
 ### Vendor contracts
 
-Please see our [Vendor Request Process](../../tech-ops/process/vendor-request.md) page for more details on how to raise a vendor request. 
+Please see our [Vendor Request Process](../../tech-ops/process/vendor-request.md) page for more details on how to raise a vendor request.
 
 ### Partner contracts
 
