@@ -126,13 +126,7 @@ From a vendor management perspective we base our review requirements on the sens
 - **Internal:** Security, Tech Ops
 - **Public:** Tech Ops
 
-From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request:
-
-- **5k:** no fiance review
-
-- **5k:** finance review
-
-- **100k:** legal review
+From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request.
 
 _<span style="text-decoration:underline;">Note:</span>_ Any budget approvals and discussions sit outside the vendor management process. They are a part of the [procurement process](../../finance/process/ap.md) and are a prerequisite for vendor requests.
 
