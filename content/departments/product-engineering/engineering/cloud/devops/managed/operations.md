@@ -167,12 +167,24 @@ Running these commands will have no impact on a running deployment and can be sa
 
 ## Changing the instance
 
+<span class="badge badge-note">SOC2/CI-98</span>
+
 The state of managed instances infrastructure and deployment artifact are stored in the following repositories
 
 - [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure)
 - [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
+
+## Avaiability of the instance
+
+<span class="badge badge-note">SOC2/CI-87</span>
+
+We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
+
+### Uptime Checks
+
+We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
 ## Instance technicalities
 
@@ -251,3 +263,17 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
    ```
+
+## Troubleshooting
+
+### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
+
+If `terraform apply` is giving you:
+
+```
+Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400: The network_endpoint_group resource 'projects/sourcegraph-managed-$COMPANY/zones/us-central1-f/networkEndpointGroups/default-neg' is already being used by 'projects/sourcegraph-managed-$COMPANY/global/backendServices/default-backend-service', resourceInUseByAnotherResource
+```
+
+Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
+
+To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.

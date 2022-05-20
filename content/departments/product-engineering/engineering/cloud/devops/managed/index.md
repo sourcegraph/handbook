@@ -28,13 +28,18 @@ As of 2022-03-10, managed instance is not the recommended deployment method for 
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message [#cloud-devops] for any answers or information missing from this page.
+Please message #cloud-devops for any answers or information missing from this page.
+
+When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
+
+- [ ] Customers are comfortable with [security implication](#security) of using a managed instance
+- [ ] Customers's code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. (Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)
 
 ## Managed Instance Requests
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=new_managed_instance.md&title=)]
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi&template=new_managed_instance.md&title=)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
 - **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-suspend.md&title=)]
@@ -48,7 +53,7 @@ Customer Engineers (CE) or Sales may request to:
 2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
     - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
     - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
-3.  Message the team in [#cloud-devops].
+3.  Message the team in #cloud-devops.
 
 ## SLAs for managed instances
 
@@ -95,13 +100,7 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
   Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
-- **Cloudflare protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF.
-
-### Access
-
-- To perform the steps outlined in these docs you will need to be a member of:
-  - The google group [gcp-managed](https://groups.google.com/a/sourcegraph.com/g/gcp-managed/members)
-  - 1Password Vaults `Customer managed instances` & `Internal managed instances`
+- **Web Application Firewall (WAF) protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF. Notes: Cloudflare WAF is not applicable when inbound network access is restricted to an allowlist of IP addresses only.
 
 Access can be requested in #it-tech-ops WITH manager approval.
 
@@ -118,17 +117,3 @@ All customer credentials, secrets, site configuration, app and user configuratio
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
 However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
-
-### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
-
-If `terraform apply` is giving you:
-
-```
-Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400: The network_endpoint_group resource 'projects/sourcegraph-managed-$COMPANY/zones/us-central1-f/networkEndpointGroups/default-neg' is already being used by 'projects/sourcegraph-managed-$COMPANY/global/backendServices/default-backend-service', resourceInUseByAnotherResource
-```
-
-Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
-
-To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
-
-[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG

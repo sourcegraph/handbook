@@ -1,8 +1,18 @@
 # Employment verification
 
-If you need your employment at Sourcegraph verified for any reason (such as for home loans, mortgages, visa sponsorship, or travel sponsorship), you can use [Truework](https://www.truework.com/). Truework is a platform that we’ve integrated with our HRIS system, [BambooHR](https://sourcegraph.bamboohr.com/login.php?r=%2Fhome%2F), to provide quick and easy employment verification.
+You can use [Truework](https://www.truework.com/) if you need your employment at Sourcegraph verified for any reason. Truework is a platform that we've integrated with our HRIS system, [BambooHR](https://sourcegraph.bamboohr.com/login.php?r=%2Fhome%2F), to allow you to quickly and easily generate employment verification letters.
 
-Truework allows you to [generate a letter yourself](https://app.truework.com/letter) or, in cases where verification needs to come directly from Sourcegraph, allows requesters to do so via our [Truework landing page](https://www.truework.com/verifications/sourcegraph-employment-verification/).
+## When should you use Truework?
+
+Anytime you need any sort of employment verification, such as:
+
+- Home loans
+- Mortgages
+- Visa sponsorship
+- Travel sponsorship (like ESTA applications)
+- Verification of employment and income
+
+## How do I generate a letter?
 
 To generate a letter, please follow the steps below:
 
