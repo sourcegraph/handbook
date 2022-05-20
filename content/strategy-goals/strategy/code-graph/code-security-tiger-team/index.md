@@ -1,5 +1,12 @@
 # Code Security tiger team strategy
 
+#### Quick links
+
+- [Team page](../../../../departments/product-engineering/engineering/code-graph/code-security-tiger-team/index.md)
+- [Updates tracker](https://github.com/sourcegraph/code-graph/issues/21)
+
+#### Purpose
+
 The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tiger_team) is to iterate quickly with customers over new user flows addressing the [Fixing security vulnerabilities use case](../../use-cases/fixing-security-vulnerabilities.md) over FY23Q2.
 
 Our strategy is work in progress, but we will focus heavily on running customer discovery in May.
