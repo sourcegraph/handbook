@@ -44,6 +44,18 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Blog Hackathon](content/editorial/blog_hackathon.md)
   - [Web series](content/web_series.md)
 
+- [Community Relations](community_relations/index.md)
+
+  - [Public projects using Sourcegraph](process/public_projects_using_sourcegraph.md)
+  - [Adding a community landing page](process/oss_community_pages.md)
+  - [How to become a Sourcegraph Champion](process/becoming_a_sourcegraph_champion.md)
+
+- Creative Operations
+  - Requesting creative assets 
+  - Marketing swag
+  - See our brand guidelines
+  - Download our brand kit
+
 - [Demand Gen](demand-gen/index.md)
 
   - [Account Based Experience](demand-gen/account_based_experience.md)
@@ -58,11 +70,6 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Team Process](education/process.md)
   - [DevEd Council](education/dev-ed-council.md)
 
-- [Community Relations](community_relations/index.md)
-
-  - [Public projects using Sourcegraph](process/public_projects_using_sourcegraph.md)
-  - [Adding a community landing page](process/oss_community_pages.md)
-  - [How to become a Sourcegraph Champion](process/becoming_a_sourcegraph_champion.md)
 
 - [Brand](brand/index.md)
 
@@ -71,6 +78,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Brand and Creative Requests](brand/brand_and_creative_team_requests.md)
   - [Naming Process for Products, Features and Programs](brand/naming_process_for_products_features_and_programs.md)
   - [Working with Us](brand/production_process.md)
+
 
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 
