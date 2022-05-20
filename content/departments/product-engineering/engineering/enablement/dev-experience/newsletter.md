@@ -103,7 +103,6 @@ ASDF caching has been used to speed up the installation process of all languages
 
 Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build.
 
-
 ## Feb 24, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md) of notable changes since the Jan 10th issue!
