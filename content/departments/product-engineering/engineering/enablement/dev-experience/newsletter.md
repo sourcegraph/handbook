@@ -76,7 +76,7 @@ The idea behind architecture decision records, or ADRs, is to have small documen
 
 We encourage the use of Architecture Decision Records (ADRs) for logging decisions that have notable architectural impact on our codebase. Since we’re a high-agency company, we encourage any contributor to commit an ADR if they’ve made an architecturally significant decision.
 
-Note that ADRs are _not_ meant to replace our current RFC process but to complement it by capturing decisions made in RFCs. However, ADRs do not need to come out of RFCs only. GitHub issues or pull requests, PoCs, team-wide discussions, and similar processes may result in an ADR as well.
+Note that ADRs are _not_ meant to replace our current RFC process but to complement it by capturing decisions made in RFCs. However, ADRs do not need to come out of RFCs only. GitHub issues or pull requests, PoCs, team-wide discussions, and similar processes may result in an ADR as well, allowing to keep everyone in touch.
 
 To learn more, check out the [ADR index page](https://docs.sourcegraph.com/dev/adr) and [ADR 1: Record architecture decisions](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions).
 
