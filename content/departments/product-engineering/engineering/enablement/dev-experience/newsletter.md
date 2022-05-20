@@ -64,21 +64,15 @@ Deployements schedules can be observed in [Honeycomb Dashboard](https://ui.honey
 
 ### Smoke testing ☁️
 
-Every ten minutes, smoke tests are being run against https://sourcegraph.com, first making basic infrastructure tests then performing a quick search to ensure that the application is up. And it's for real this time, [#16589](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16589) turns failures into an automated incident being created.
+Every ten minutes, smoke tests are being run against [Sourcegraph CLoud](https://sourcegraph.com), first making basic infrastructure tests then performing a quick search to ensure that the application is up. And it's for real this time, [#16589](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16589) turns failures into an automated incident being created.
 
 ### Learning resources 🎥
 
-Here's a selection of some of our recent learning resources.
+Check out this selection of some of our recently published learning resources!
 
 - The [Sourcegraph Codebase Tour video](https://youtu.be/VXaUXwMLzjg) gives an overview of our main repository and what's in it.
 - The [Tour of Secondary Repositories](https://youtu.be/WR5yOdzJWdo) goes over some of the secondary repositories at Sourcegraph.
 - [Local development with sg setup](https://youtu.be/K3-wRqYs4sc) is a video demonstrating how to use `sg setup` to set up your local development environment.
-
-### Tech Radar
-
-[Thoughtworks tech radar](https://www.thoughtworks.com/radar) is a well known source for getting a sense of where the technology landscape is going. What really makes it stand out is how it surfaces Thoughtworks opinions in a format that is really easy to process. What if we had if we used the same medium to keep everyone in the loop within Sourcegraph on [our various initiatives on the engineering front](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fsourcegraph%2Fsourcegraph%2Fdba63f5f45cf236bc80d1909fbdffcfb841bfda2%2Fdoc%2Fdev%2Fradar%2Ftech-radar.csv)?
-
-Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's an ongoing exploration that could potentially help all of us to stay in touch with all the ongoing initiatives at Sourcegraph in the blink of an eye. Feedback and ideas are welcomed on the PR!
 
 ### Architecture decision records 📰
 
@@ -99,7 +93,7 @@ There are two new goodies for database tooling available via `sg migration` loca
 
 And for some added bling, both of the new commands have been beautified! ([#35722](https://github.com/sourcegraph/sourcegraph/pull/35722), [#35735](https://github.com/sourcegraph/sourcegraph/pull/35735))
 
-### Preprod 🔬
+### Preproduction environment 🔬
 
 Before going out into production on Cloud, all changes are going throuh the preprod environment. The preprod environment is running in DotCom mode with a smaller dataset but with similar resources. Notably, it's running some services which are sharded in production, but not within CI, at the miminum size that enables to exercise all code paths. This opened the path to increase our confidence toward changes through automated testing that weren't previously possible.
 
@@ -109,17 +103,25 @@ As a result, [#16301](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pu
 
 ### Buildkite foundations ⛵
 
-Since the end of march, 100% of our CI builds are now run on stateless agents. It means that by design, it's now guaranteed that a given build cannot impact following ones. This enabled to roll out our own [autoscaler](https://github.com/sourcegraph/infrastructure/blob/main/docker-images/buildkite-autoscaler/buildkite-autoscaler.go) and [job dispatcher](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-job-dispatcher). This resulted in a 30% decrease of our CI spending on GCP in April.
+Since the end of March, 100% of our CI builds are now run on stateless agents. It means that by design, it's now guaranteed that a given build cannot impact following ones. This enabled to roll out our own [autoscaler](https://github.com/sourcegraph/infrastructure/blob/main/docker-images/buildkite-autoscaler/buildkite-autoscaler.go) backed by an in-house [buildkite-job-dispatcher](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-job-dispatcher). This resulted in a whopping **30% decrease** of our CI spending on GCP in April!
 
-As a result and because of their short lifespan, it has enabled to roll out [spot vms](https://cloud.google.com/spot-vms) which are cheaper than the previous instances that were used to power the agents in the past. The current forecast for our CI spending indicates that it should decrease by another 35% for May.
+To try and maintain parity with the stateful agents of old, we have implemented a variety of measures to keep CI times down:
 
-In addition to spot nodes, we have also enabled in [#3296](https://github.com/sourcegraph/infrastructure/pull/3296) [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s.
+- [Cross-node git repository mirrors](https://github.com/sourcegraph/devx-scratch/blob/main/2022/stateless-agents/log.snb.md#2022-04-08-repository-clone-optimization) means that repository cloning is consistently just as fast - if not faster! - than stateful builds.
+- `asdf` caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well.
+- We have enabled [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s, which means lower wait times for your CI builds. ([infrastructure#3296](https://github.com/sourcegraph/infrastructure/pull/3296))
 
-### Buildkite goodies ✂️
+Some other CI goodies include:
 
-ASDF caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well.
+- Many linting steps have been rolled into a new CI step powered by `sg lint`, which now generates output that is actually readable compared to the "Misc linters" step of old! If you run into issues, (hopefully) helpful annotations will also be added to your build summary. ![image](https://user-images.githubusercontent.com/23356519/169623817-cf76e231-75d8-4f80-9302-332725a59c0c.png)
+- Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build.
+- Changes to the client app now render app previews running against [k8s.sgdev.org](https://k8s.sgdev.org)! Learn more in the Sourcegraph docs: [Exploring client changes with PR previews](https://docs.sourcegraph.com/dev/how-to/client_pr_previews)
 
-Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build.
+### Tech Radar 💡
+
+[Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) is a well known source for getting a sense of where the technology landscape is going. What really makes it stand out is how it surfaces Thoughtworks opinions in a format that is really easy to process. What if we had if we used the same medium to keep everyone in the loop within Sourcegraph on [our various initiatives on the engineering front](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fsourcegraph%2Fsourcegraph%2Fdba63f5f45cf236bc80d1909fbdffcfb841bfda2%2Fdoc%2Fdev%2Fradar%2Ftech-radar.csv)?
+
+Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's an ongoing exploration that could potentially help all of us to stay in touch with all the ongoing initiatives at Sourcegraph in the blink of an eye. Feedback and ideas are welcomed on the PR!
 
 ## Feb 24, 2022
 
