@@ -254,7 +254,7 @@ Tech Ops approval - information needed and reviewed:
 
 Finance approval - information needed and reviewed:
 
-- Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables/#airbase-limits)
+- Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables.md/#airbase-limits)
 - Contract & commercial terms
 - W-9
 
