@@ -95,11 +95,14 @@ Since the end of march, 100% of our CI builds are now run on stateless agents. I
 
 As a result and because of their short lifespan, it has enabled to roll out [spot vms](https://cloud.google.com/spot-vms) which are cheaper than the previous instances that were used to power the agents in the past. The current forecast for our CI spending indicates that it should decrease by another 35% for May.
 
+In addition to spot nodes, we have also enabled [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s.
+
 ### Buildkite goodies ✂️
 
 ASDF caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well.
 
 Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build.
+
 
 ## Feb 24, 2022
 
