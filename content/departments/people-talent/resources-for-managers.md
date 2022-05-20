@@ -35,7 +35,7 @@
   - Offer approval process
   - The offer summary
   - The offer letter
-- [How to hire a teammate into a new role]
+- [How to hire a teammate into a new role](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
   - [Scenario: you want to interview a teammate for a role on a different team - Internal transfer process](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
   - [Scenario: you want to promote someone into a new level band]COMING SOON
   - [Scenario: you want to give someone a raise]COMING SOON
@@ -47,10 +47,29 @@
   - There's a trip planned and I want my soon to be direct report to come: [Guest TripAction invite](../../benefits-pay-perks/benefits-perks/travel/TripActions.md#new-teammates-joining-trips)
   - [2022 Cohort calendar start dates](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0)
 
-- [Holidays we celebrate]
+- [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Working hours & PTO](../../company-info-and-process/working-at-sourcegraph/working-hours.md)
 - [Teammate gathering and celebrations](../../benefits-pay-perks/benefits-perks/celebrate.md)
-- [Swag]
+- [Swag](swag.md)
+
+## Manager processes
+
+- Management training
+- [How to promote someone](people-ops/process/promotion.md)
+- BambooHR
+  - How to run a report
+  - [Requesting changes in BambooHR (compensation, role, spot bonuses)](people-ops/process/compensation-and-leveling/compensation-role-changes.md)
+- [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
+  - [How to give a merit increase](people-ops/process/compensation-and-leveling/index.md)
+  - [Offers](people-ops/process/compensation-and-leveling/index.md)
+  - [Approvals](people-ops/process/compensation-and-leveling/index.md)
+- [Performance coaching](people-ops/process/performance-coaching/index.md)
+  - [Coaching conversations](people-ops/process/performance-coaching/coaching.md)
+  - [PIP process](people-ops/process/performance-coaching/pip.md)
+  - [Exit interview](people-ops/process/performance-coaching/exit-interview.md)
+    - Lattice
+    - Questions we ask live
+    - [Exit survey](people-ops/process/teammate-sentiment/exit-survey.md)
 
 ## Tools
 
