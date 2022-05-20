@@ -50,9 +50,8 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Adding a community landing page](process/oss_community_pages.md)
   - [How to become a Sourcegraph Champion](process/becoming_a_sourcegraph_champion.md)
 
-- Creative Operations
+- [Creative Operations](creative-ops.md)
 
-  - Requesting creative assets
   - Marketing swag
   - See our brand guidelines
   - Download our brand kit
