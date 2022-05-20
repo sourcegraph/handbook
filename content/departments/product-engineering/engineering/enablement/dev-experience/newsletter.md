@@ -68,7 +68,11 @@ Every ten minutes, smoke tests are being run against https://sourcegraph.com, fi
 
 ### Learning resources 🎥
 
-TODO(@marekweb)
+Here's a selection of some of our recent learning resources.
+
+- The [Sourcegraph Codebase Tour video](https://youtu.be/VXaUXwMLzjg) gives an overview of our main repository and what's in it.
+- The [Tour of Secondary Repositories](https://youtu.be/WR5yOdzJWdo) goes over some of the secondary repositories at Sourcegraph.
+- [Local development with sg setup](https://youtu.be/K3-wRqYs4sc) is a video demonstrating how to use `sg setup` to set up your local development environment.
 
 ### Tech Radar
 
