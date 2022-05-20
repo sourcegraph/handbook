@@ -51,7 +51,8 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [How to become a Sourcegraph Champion](process/becoming_a_sourcegraph_champion.md)
 
 - Creative Operations
-  - Requesting creative assets 
+
+  - Requesting creative assets
   - Marketing swag
   - See our brand guidelines
   - Download our brand kit
@@ -70,7 +71,6 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Team Process](education/process.md)
   - [DevEd Council](education/dev-ed-council.md)
 
-
 - [Brand](brand/index.md)
 
   - [Building a Strong Brand](brand/building_a_strong_brand.md)
@@ -78,7 +78,6 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Brand and Creative Requests](brand/brand_and_creative_team_requests.md)
   - [Naming Process for Products, Features and Programs](brand/naming_process_for_products_features_and_programs.md)
   - [Working with Us](brand/production_process.md)
-
 
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 
