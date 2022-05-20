@@ -128,3 +128,8 @@ When we decide to terminate our contract with a vendor, the system/partnership o
 ### Vendor Risk Assessment
 
 As part of our Third Party Risk Management Program, we rate our suppliers in order of their supply chain risk to our business. As part of each completed ‘New vendor’ request, Compliance will perform a vendor risk assessment that will rate each of our vendors according to our predefined ‘Criticality’ scale. This risk assessment is reviewed annually during the ‘Annual review’ process in order to keep accurate records of our most critical suppliers and any risk profile changes within our vendor collection.
+
+
+### Questions & Contact
+
+For any questions around the vendor request process please use our #vendor-requests slack channel or reach out to the Tech Ops team. 
