@@ -283,6 +283,22 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    ./util/fix-dirty-repo.sh github.com/org/repo
    ```
 
+## Disaster Recovery and Business Continuity Plan
+
+<span class="badge badge-note">SOC2/CI-110</span>
+
+**TODO**
+
+<!-- https://github.com/sourcegraph/security-issues/issues/246 -->
+
+## Post-deployment instance health check
+
+<span class="badge badge-note">SOC2/CI-109</span>
+
+**TODO**
+
+<!-- https://github.com/sourcegraph/security-issues/issues/245 -->
+
 ## Troubleshooting
 
 ### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
