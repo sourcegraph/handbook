@@ -95,13 +95,13 @@ There are two new goodies for database tooling available via `sg migration` loca
 
 And for some added bling, both of the new commands have been beautified! ([#35722](https://github.com/sourcegraph/sourcegraph/pull/35722), [#35735](https://github.com/sourcegraph/sourcegraph/pull/35735))
 
-### Preprod 🔬 
+### Preprod 🔬
 
-Before going out into production on Cloud, all changes are going throuh the preprod environment. The preprod environment is running in DotCom mode with a smaller dataset but with similar resources. Notably, it's running some services which are sharded in production, but not within CI, at the miminum size that enables to exercise all code paths. This opened the path to increase our confidence toward changes through automated testing that weren't previously possible. 
+Before going out into production on Cloud, all changes are going throuh the preprod environment. The preprod environment is running in DotCom mode with a smaller dataset but with similar resources. Notably, it's running some services which are sharded in production, but not within CI, at the miminum size that enables to exercise all code paths. This opened the path to increase our confidence toward changes through automated testing that weren't previously possible.
 
-Because tests on the prepod requires to put the application in a specific state to perform testing, [state is being restored based on a snapshot](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds/207988#4ff1072f-db01-427e-b0ac-d30cee25c5c4) which makes deterministic ([#16249](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16249))  
+Because tests on the prepod requires to put the application in a specific state to perform testing, [state is being restored based on a snapshot](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds/207988#4ff1072f-db01-427e-b0ac-d30cee25c5c4) which makes deterministic ([#16249](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16249))
 
-As a result, [#16301](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16301) the code intel QA test suite is [now running in preprod](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds/207988#29dfa087-fcda-434b-94a0-537fff4299c6), and others will follow shortly. 
+As a result, [#16301](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16301) the code intel QA test suite is [now running in preprod](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds/207988#29dfa087-fcda-434b-94a0-537fff4299c6), and others will follow shortly.
 
 ### Buildkite foundations ⛵
 
