@@ -37,7 +37,7 @@ The [`sg`](https://docs.sourcegraph.com/dev/background-information/sg) experienc
 First up, usage improvements:
 
 - `sg` now supports autocompletions that you can trigger using the <kbd>Tab</kbd> key to help you type out long command names and flags faster, and to help you learn `sg` commands faster! To get started, make sure you've run `sg setup`. ([#33817](https://github.com/sourcegraph/sourcegraph/pull/33817))
-[![Autocompletions demo](https://cdn.loom.com/sessions/thumbnails/1e58993d4456479b8048090052c00aa2-1649801857411-with-play.gif)](https://www.loom.com/share/1e58993d4456479b8048090052c00aa2)
+  [![Autocompletions demo](https://cdn.loom.com/sessions/thumbnails/1e58993d4456479b8048090052c00aa2-1649801857411-with-play.gif)](https://www.loom.com/share/1e58993d4456479b8048090052c00aa2)
 - Many `sg` flags now have short aliases (such as `sg run -d enterprise-frontend`),and commands can declare shorter aliases too (such as `sg ci st`) to save you on some extra keystrokes.
 - Misspelled a command? `sg` will now prompt you with some suggestions! ([#33943](https://github.com/sourcegraph/sourcegraph/pull/33943)) <img src="https://user-images.githubusercontent.com/23356519/163476445-62bde286-2dd2-4032-ac90-fdd9e931a8ab.png" width="50%">
 - Help text is much improved, with `sg help` now rendering commands by category.
