@@ -30,18 +30,18 @@ To learn more, check out [How to add observability](https://docs.sourcegraph.com
 
 The DevX team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #dev-experience for feedback and questions!
 
-### ~Developer~ `sg` experience ✨
+### `sg` experience ✨
 
 The [`sg`](https://docs.sourcegraph.com/dev/background-information/sg) experience has been a major focus for the DevX team and we have been working towards a variety of improvements for both users and contributers of `sg`!
 
 First up, usage improvements:
 
-- `sg` now supports autocompletions that you can trigger using the <kbd>Tab</kbd> key to help you type out long command names and flags faster, and to help you learn `sg` commands faster! To get started, make sure you've run `sg setup`.
+- `sg` now supports autocompletions that you can trigger using the <kbd>Tab</kbd> key to help you type out long command names and flags faster, and to help you learn `sg` commands faster! To get started, make sure you've run `sg setup`. ([#33817](https://github.com/sourcegraph/sourcegraph/pull/33817))
+[![Autocompletions demo](https://cdn.loom.com/sessions/thumbnails/1e58993d4456479b8048090052c00aa2-1649801857411-with-play.gif)](https://www.loom.com/share/1e58993d4456479b8048090052c00aa2)
 - Many `sg` flags now have short aliases (such as `sg run -d enterprise-frontend`),and commands can declare shorter aliases too (such as `sg ci st`) to save you on some extra keystrokes.
-- Misspelled a command? `sg` will now prompt you with some suggestions.
+- Misspelled a command? `sg` will now prompt you with some suggestions! ([#33943](https://github.com/sourcegraph/sourcegraph/pull/33943)) <img src="https://user-images.githubusercontent.com/23356519/163476445-62bde286-2dd2-4032-ac90-fdd9e931a8ab.png" width="50%">
 - Help text is much improved, with `sg help` now rendering commands by category.
 - `sg lint` has seen a variety of improvements, and now powers all linters that we run in CI, which means you can easily replicate linter runs locally for debugging and enabling developers to customize linter output with much more granularity.
-- `sg test frontend-e2e` can now be used to run Sourcegraph's E2E tests with ease!
 - `sg`'s autoupdate mechanism has gone through a number of iterations and should now be reliably auto-updating your `sg` installation seamlessly whenever you run `sg`.
 
 For developers wanting to streamline their developer experience with `sg` functionality, we've also made a lot of internal improvements:
@@ -52,8 +52,9 @@ For developers wanting to streamline their developer experience with `sg` functi
   - Developers can implement custom completions for their commands with the [`BashComplete: completeOptions(...)`](https://sourcegraph.com/search?q=context:%40sourcegraph/all+r:%5Egithub%5C.com/sourcegraph/sourcegraph%24+BashComplete:+completeOptions%28...%29+&patternType=structural) API.
   - Flags and commands can now have short aliases!
 - `sg.config.yaml` can now leverage external secrets (we currently support `gcloud` only) with the new `secrets:` field, and `sg` commands can use the [`secretsStore.GetExternal(...)` API](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9d34772e9d1156c8b0738d1b0b831089d9e45833/-/blob/dev/sg/sg_analytics.go?L37:29-37:40).
-- The output API has been overhauled to be centralized in `std.Out`, which now centralizes the exports of a variety of `sg`-specific utilities for incorporating ✨ _fancy_ ✨ output for some added bling.
-- Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevX team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go.
+  - This is used by `sg test frontend-e2e`, which you can use to run Sourcegraph's E2E tests with ease! ([#34627](https://github.com/sourcegraph/sourcegraph/pull/34627))
+- The output API has been overhauled to be centralized in `std.Out`, which now centralizes the exports of a variety of `sg`-specific utilities for incorporating ✨ _fancy_ ✨ output for some added bling. ([#35269](https://github.com/sourcegraph/sourcegraph/pull/35269))
+- Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevX team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go. ([#35417](https://github.com/sourcegraph/sourcegraph/pull/35417))
 
 ### Following your code from PR to production 🚢
 
@@ -67,7 +68,7 @@ TODO(@jhchabran)
 
 TODO(@marekweb)
 
-### Architecture decision records
+### Architecture decision records 📰
 
 The idea behind architecture decision records, or ADRs, is to have small documents that are part of the codebase, not an external artifact that you have to be aware of like an RFC.
 
