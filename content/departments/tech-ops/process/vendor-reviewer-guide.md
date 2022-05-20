@@ -147,7 +147,7 @@ From a procurement standpoint, we have an additional decision factor of ‘budge
 - &lt;5k: finance review
 - > 100k: legal review
 
-_<span style="text-decoration:underline;">Note:</span>_ Any budget approvals and discussions sit outside the vendor management process. They are a part of the [procurement process](https://handbook.sourcegraph.com/departments/finance/process/ap/) and are a prerequisite for vendor requests.
+_<span style="text-decoration:underline;">Note:</span>_ Any budget approvals and discussions sit outside the vendor management process. They are a part of the [procurement process](../../finance/process/ap.md) and are a prerequisite for vendor requests.
 
 Please see below matrix for review requirements for ANY type of vendor:
 
