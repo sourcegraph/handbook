@@ -263,3 +263,17 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
    ```
+
+## Troubleshooting
+
+### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
+
+If `terraform apply` is giving you:
+
+```
+Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400: The network_endpoint_group resource 'projects/sourcegraph-managed-$COMPANY/zones/us-central1-f/networkEndpointGroups/default-neg' is already being used by 'projects/sourcegraph-managed-$COMPANY/global/backendServices/default-backend-service', resourceInUseByAnotherResource
+```
+
+Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
+
+To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
