@@ -7,6 +7,7 @@ Operations guides for [managed instances](./index.md).
 - To delete a managed instance, see [managed instances deletion process](delete_process.md).
 - To suspend a managed instance, see [managed instances suspense process](suspend_process.md).
 - To resume a managed instance, see [managed instances resume process](resume_process.md).
+- To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
 
 * [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
@@ -175,6 +176,24 @@ The state of managed instances infrastructure and deployment artifact are stored
 - [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
+
+## Instance environments
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+We have two types of managed instances, internal and customers. The list of currently maintained instances can be found [here](../../../process/releases/upgrade_managed_issue_template.md).
+
+### Internal instances
+
+Internal instances are created for various testing purposes:
+
+- testing changes prior to the montly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
+- testing siginificant opertional changes prior applying to customer instances
+- short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
+
+### Customer instances
+
+All customer instances are considered production enviornment and all changes applied to these customers should be well-tested in internal environment.
 
 ## Avaiability of the instance
 

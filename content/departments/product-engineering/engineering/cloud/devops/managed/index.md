@@ -4,6 +4,8 @@ This documentation details how the Distribution team at Sourcegraph internally h
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
+For opertaion guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
@@ -12,12 +14,6 @@ Please first read [the customer-facing managed instance documentation](https://d
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
 - [SLAs for managed instances](#slas-for-managed-instances)
-- [Creating a managed instance](creation_process.md)
-- [Managed instances operations](operations.md)
-- [Upgrading a managed instance](upgrade_process.md)
-- [Suspending a managed instance](suspend_process.md)
-- [Resuming a managed instance](resume_process.md)
-- [Enable executors](enable_executors_process.md)
 - [FAQ](#faq)
 
 ## When to offer a Managed Instance
