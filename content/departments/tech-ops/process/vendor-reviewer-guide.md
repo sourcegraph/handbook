@@ -24,16 +24,12 @@ This procedure applies to all third party providers that access, store, process 
 <ul>
 
 <li>Maintain a mechanism to intake and respond to vendor requests
-<ul>
 
-<li>Perform system setup with internal access control mechanism 
-<ul>
+<li>Perform system setup with internal access control mechanism
 
 <li>Inform requester/system owner of result of vendor assessment
 </li>
-</ul>
 </li>
-</ul>
 </li>
 </ul>
    </td>
@@ -43,18 +39,13 @@ This procedure applies to all third party providers that access, store, process 
    </td>
    <td>
 <ul>
-
-<li>Perform due diligence as requested by routing logic 
-<ul>
+<li>Perform due diligence as requested by routing logic
 
 <li>Work with the system owner/requestor to get all vendor information necessary for the review
-<ul>
 
 <li>Maintain a set of evaluation standards for the review
 </li>
-</ul>
 </li>
-</ul>
 </li>
 </ul>
    </td>
@@ -66,16 +57,12 @@ This procedure applies to all third party providers that access, store, process 
 <ul>
 
 <li>Describe the nature of the Vendor Relationship and provide details for the request
-<ul>
 
 <li>Work with the review teams to facilitate the assessment review
-<ul>
 
 <li>Ensure the responsiveness of the vendor as part of the review requirements
 </li>
-</ul>
 </li>
-</ul>
 </li>
 </ul>
    </td>
@@ -119,8 +106,6 @@ Our process captures the baseline information needed to process vendor requests 
 - System/Relationship Owner
 - Documentation (incl. DPA, MSA, etc.)
 
-**Please see Appendix for full list of data fields in the request ticket. **
-
 As we improve our process, additional information will be captured during the ticket creation that will facilitate due diligence reviews (for instance requestors will be asked for specific security review related information at time of vendor request creation)
 
 ## Reviewer Teams
@@ -143,9 +128,11 @@ From a vendor management perspective we base our review requirements on the sens
 
 From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request:
 
-- > 5k: no fiance review
-- &lt;5k: finance review
-- > 100k: legal review
+- **5k:** no fiance review
+
+- **5k:** finance review
+
+- **100k:** legal review
 
 _<span style="text-decoration:underline;">Note:</span>_ Any budget approvals and discussions sit outside the vendor management process. They are a part of the [procurement process](../../finance/process/ap.md) and are a prerequisite for vendor requests.
 
@@ -230,53 +217,46 @@ Each reviewer team has the responsibility to create and maintain their own prede
 
 Security approval - information needed and reviewed:
 
-    * What type of information is being shared with the vendor: customer data, sourcegraph data, both?
-
-    * Security compliance certifications like ISO27001 or SOC 2.
-    * Encryption standards of data at rest and in transit (transport layer security).
-    * Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
-    * Clear process in case of a security incident and the reporting to Sourcegraph.
-    * Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
-    * Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
+- What type of information is being shared with the vendor: customer data, sourcegraph data, both?
+- Security compliance certifications like ISO27001 or SOC 2.
+- Encryption standards of data at rest and in transit (transport layer security).
+- Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
+- Clear process in case of a security incident and the reporting to Sourcegraph.
+- Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
+- Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.
 
 ## Legal
 
-\_ \_
-
 Legal approval - information needed and reviewed:
 
-    * DPA (word doc)
-    * MSA (word doc)
-    * Order form or SOW (word doc)
-    * Depending on the data store, transmitted and/or processed Legal will do the following:
-        * Confirm whether the vendor will receive or access the following:
-            * customer data (including customer code, repo names, pings or personal data of customer personnel)
-            * If so, ask vendor for a DPA and attach for legal review
-            * Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
-        * teammate data (including logins), or
-            * If so, ask vendor for a DPA and attach for legal review
-        * other sensitive data (including incident data, security logs, core IT infrastructure or data storage)
+- DPA (word doc)
+- MSA (word doc)
+- Order form or SOW (word doc)
+- Depending on the data store, transmitted and/or processed Legal will do the following:
+  - Confirm whether the vendor will receive or access the following:
+    - customer data (including customer code, repo names, pings or personal data of customer personnel)
+    - If so, ask vendor for a DPA and attach for legal review
+    - Flag to legal@sourcegraph.com or the #legal Slack channel to update the subprocessor list and notify customers who have signed up for updates of new subprocessor
+    - teammate data (including logins), or
+    - If so, ask vendor for a DPA and attach for legal review
+    - other sensitive data (including incident data, security logs, core IT infrastructure or data storage)
 
 Please also see our handbook page on vendor contracts [here](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#vendor-contracts).
 
 ## Tech Ops
 
-    Tech Ops approval - information needed and reviewed:
+Tech Ops approval - information needed and reviewed:
 
-
-
-    * Okta provisioning and/or SAML available?
-    * If no, how is access protected
+- Okta provisioning and/or SAML available?
+- If no, how is access protected
 
 ## Finance
 
-    Finance approval - information needed and reviewed:
+Finance approval - information needed and reviewed:
 
-
-
-    * Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables/#airbase-limits)
-    * Contract & commercial terms
-    * W-9
+- Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables.md/#airbase-limits)
+- Contract & commercial terms
+- W-9
 
 # Vendr
 
