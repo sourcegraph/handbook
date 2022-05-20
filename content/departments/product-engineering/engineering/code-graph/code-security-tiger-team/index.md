@@ -4,7 +4,6 @@ The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tige
 
 ## Workflow
 
-
 ### Sync
 
 We sync weekly on Wednesday. See our [sync doc](https://docs.google.com/document/d/1r7wiK8F8AQvvnv5YMRAeqNLDS4WkDSvGvbGQVsX1xis/edit#).
