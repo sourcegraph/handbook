@@ -8,7 +8,7 @@
 
 > Replace `x.y.z` with the target version
 
-1. `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.x.y.z.yaml docker-compose.yaml && cd ../../`
+1. `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.x.y.z.yaml docker-compose.yaml && rm ../VERSION && cd ../../`
 
 1. Commit the result
 
