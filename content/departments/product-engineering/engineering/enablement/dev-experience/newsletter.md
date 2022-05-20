@@ -72,9 +72,9 @@ TODO(@marekweb)
 
 ### Tech Radar
 
-[Thoughtworks tech radar](https://www.thoughtworks.com/radar) is a well known source for getting a sense of where the technology landscape is going. What really makes it stand out is how it surfaces Thoughtworks opinions in a format that is really easy to process. What if we had if we used the same medium to keep everyone in the loop within Sourcegraph on [our various initiatives on the engineering front](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fsourcegraph%2Fsourcegraph%2Fdba63f5f45cf236bc80d1909fbdffcfb841bfda2%2Fdoc%2Fdev%2Fradar%2Ftech-radar.csv)? 
+[Thoughtworks tech radar](https://www.thoughtworks.com/radar) is a well known source for getting a sense of where the technology landscape is going. What really makes it stand out is how it surfaces Thoughtworks opinions in a format that is really easy to process. What if we had if we used the same medium to keep everyone in the loop within Sourcegraph on [our various initiatives on the engineering front](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fsourcegraph%2Fsourcegraph%2Fdba63f5f45cf236bc80d1909fbdffcfb841bfda2%2Fdoc%2Fdev%2Fradar%2Ftech-radar.csv)?
 
-Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's an ongoing exploration that could potentially help all of us to stay in touch with all the ongoing initiatives at Sourcegraph in the blink of an eye. Feedback and ideas are welcomed on the PR! 
+Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's an ongoing exploration that could potentially help all of us to stay in touch with all the ongoing initiatives at Sourcegraph in the blink of an eye. Feedback and ideas are welcomed on the PR!
 
 ### Architecture decision records 📰
 
