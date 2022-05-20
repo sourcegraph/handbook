@@ -6,12 +6,12 @@ To have your updates highlighted here, please tag your PR or issue with the `dx-
 
 To learn more about components of Sourcegraph's developer experience, check out the [developer documentation](https://docs.sourcegraph.com/dev).
 
-> NOTE: For authors, refer to [this guide](./index.md#newsletter) for preparing a newsletter.
+> NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
 ## May 20, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
-It has been quiet a while since the last newsletter, so this edition will focus on more recent changes and highlights.
+It has been quite a while since the last newsletter, so this edition will focus on more recent changes and highlights.
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
 ### Logs, logs, logs 🗃️
