@@ -70,6 +70,8 @@ Incidents which affect managed instances handled according to our [incidents](..
 
 ## Technical details
 
+> As of 2022-05-20, new managed instances are using the v1.1 architecture, [learn more](./v1.1/index.md)
+
 ![architecture](https://storage.googleapis.com/sourcegraph-assets/managed-instance-architecture.png)
 
 ### Deployment type and scaling
