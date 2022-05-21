@@ -13,7 +13,7 @@ This is where Creative Ops comes in. In simple words, Creative Ops exists to ope
 
 Creative Ops is a cross-functional brand champion and creative partner for all internal teams and programs. With such a broad area of collaboration, we partner with external agencies and vendors to fulfill our goals.
 
-Our in-house Brand Design team provides the direction for all the design work we produce, and our Content Platform Team enables all our front-end initiatives.
+Our in-house Brand Design team provides the direction for all the design work we produce, and our [Content Platform Team](content-platform.md) enables all our front-end initiatives.
 
 ### Functions
 
@@ -26,12 +26,12 @@ We divide our functions into two categories: production and strategy
 - Swag. Coordinate the production and shipping of public-facing swag (events, customers and champions)
 - Brand review. Oversee all customer-facing assets to monitor adherence to our brand guidelines
 
-**Strategic**
+**Strategy**
 
-Creative strategy framework. Facilitate workshops that promote design backed by strategic thinking
-Brainstorming sessions. Facilitate brainstorming sessions between the Marketing team and our in-house designer or design partners.  
-Frontend projects. Partner with the Content Platform Team to influence frontend initiatives that increase the efficiency and quality of our webpages
+- Creative strategy framework. Facilitate workshops that promote design backed by strategic thinking
+- Brainstorming sessions. Facilitate brainstorming sessions between the Marketing team and our in-house designer or design partners.  
+- Frontend projects. Partner with the Content Platform Team to influence frontend initiatives that increase the efficiency and quality of our webpages
 
 ## Contact us
 
-Contact us in [#creative-ops to request](https://sourcegraph.slack.com/archives/C03F6TFAF62) creative assets, review your existing assets or simply share a fun idea for swag!
+Contact us in [#creative-ops](https://sourcegraph.slack.com/archives/C03F6TFAF62) to request creative assets, review your existing assets or simply share a fun idea for swag!
