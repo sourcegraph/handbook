@@ -76,8 +76,6 @@ Each manager can put their own spin on the planning/retro they facilitate. Each 
 
 If any all-team wide ad hoc meetings are also needed, this same model will be used, where the managers each facilitate a session and participants opt into which times work and are randomly identified for one of the sessions that works for them.
 
-Virginia will attend as-needed and when needed, will attend all sessions.
-
 ## Team announcements/initiatives
 
 Whenever there is an announcement that will impact the entire team, the leadership team will default to asynchronous communication and any member of the leadership team may take responsibility for the communication in #customer-support-internal. Where the announcement benefits from synchronous communication, the leadership team will decide whether it’s something that is best shared in the weekly planning/retro or during 1:1s.
@@ -98,10 +96,6 @@ We will continue to have several optional ways for the team to engage socially:
 - Synchronously 1:1 via the random #weekly #customer-support-weekly pairing donut app pairing
 - Synchronously on Friday via two afternoon/end of day social sessions that are scheduled at 15:00 UTC and 21:00 UTC. Everyone is invited as optional and whoever shows up for the session gets to decide how they want to enjoy each other’s company.
 - Asynchronously and/or synchronously during quarterly virtual events (until we are able to move to consistent in-person)
-
-## Quarterly check-ins
-
-Every quarter, Virginia will check-in with each member of the team to catch-up, see how things are going, gather perspectives, and validate the team is headed and/or operating the way we want.
 
 ## Performance management
 
