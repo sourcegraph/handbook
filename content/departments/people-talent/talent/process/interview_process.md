@@ -36,7 +36,7 @@ Current employees can refer a candidate in Greenhouse by following [these instru
 
 ### **The recruiter screen**
 
-The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](../onboarding/index.md) before interviewing candidates.
+The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding]() before interviewing candidates.
 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
