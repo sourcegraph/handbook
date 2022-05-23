@@ -222,4 +222,5 @@ opportunity, but not sourced it.
 </table>
 
 <strong>CaliberMind Data</strong>
+
 Currently, we do not have access to CaliberMind data directly in our BigQuery database. Instead, CaliberMind users can access Sourcegraph's instance of CaliberMind data in BigQuery [here](https://my.calibermind.com/settings/account/dw) and [here](https://console.cloud.google.com/bigquery?project=sourcegraph-ad8e). CaliberMind fields and their definitions can be found [here](https://docs.google.com/spreadsheets/d/1uDl-BSPXCWh118GnhjiS7POsDPO_zi6X40f6LdTWS_Y/edit#gid=2034580537). If you do not have access to any of these links, please reach out to #wg-attribution in Slack. Once accessed, this data can be transferred first into Google Sheets and later into Looker for more extensive analysis and manipulation.
