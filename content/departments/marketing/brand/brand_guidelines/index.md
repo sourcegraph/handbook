@@ -21,21 +21,20 @@ Everything defined in our brand guide—from typeface, to color, to texture—is
     - [Brand story](brand-expression.md#brand-story)
     - [Brand voice](brand-expression.md#brand-voice)
 - Brand elements
-  - [Our logo](logo.md)
-  - [Color](color.md)
-  - [Typography](typography.md)
-  - [Iconography (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=46)
-  - [Photography (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=54)
-  - [Data visualization (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=57)
+  - [Our logo](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Brand-UI-DLS?node-id=3778%3A41269)
+  - [Color](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Brand-UI-DLS?node-id=18%3A101)
+  - [Typography](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Brand-UI-DLS?node-id=7324%3A48301)
+  - [Iconography](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Brand-UI-DLS?node-id=7341%3A49026)
+  - [Backgrounds](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Brand-UI-DLS?node-id=7338%3A48183)
+  - [Data visualization (UNDER REVIEW)]
 - Application
-  - [Social media (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=66)
-  - [Business templates (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=69)
-  - [Partnership branding (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=73)
-  - [Internal branding (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=77)
-  - [Branded items (PDF)](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf#page=79)
+  - [Social media (UNDER REVIEW)]
+  - [Business templates (UNDER REVIEW)]
+  - [Partnership branding (UNDER REVIEW)]
+  - [Internal branding (UNDER REVIEW)]
+  - [Branded items (UNDER REVIEW)]
 
 ## Downloads
 
-- [Download our Brand Guidelines as PDF](https://sourcegraphstatic.com/Sourcegraph_Brand_Guidelines.pdf)
-- [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip, includes full Brand Guidelines PDF, plus logos, fonts, color palettes, and more)
+- [View/Download assets from the Sourcegraph Brand Design System (WIP)](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Brand-UI-DLS?node-id=916%3A5781)
 - [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
