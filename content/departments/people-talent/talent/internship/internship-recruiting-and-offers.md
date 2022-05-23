@@ -48,17 +48,17 @@ As a next step, please:
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen:](types_of_interviews.md#recruiter-screen)
-- [30–60m] [Hiring Manager Screen:](types_of_interviews.md#hiring-manager-screen)
+- [30m] [Recruiter screen:](../process/types_of_interviews.md#recruiter-screen)
+- [30–60m] [Hiring Manager Screen:](../process/types_of_interviews.md#hiring-manager-screen)
 - Assignment, if applicable:
 - In-depth Interview Stage:
-  - [1h] [Resume Deep Dive:](types_of_interviews.md#resume-deep-dive)
+  - [1h] [Resume Deep Dive:](../process/types_of_interviews.md#resume-deep-dive)
   - [30m] Assignment review/working session, if applicable:
   - [60–120m] Technical interview, if applicable:
-  - [30–60m] [Cross-functional Team Collaboration:](types_of_interviews.md#cross-functional-team-collaboration-interview)
-  - [30m] [Peer Interview:](types_of_interviews.md#peer-interview)
-- [30m] [Values Interview:](types_of_interviews.md#values-interview)
-- [15–30m] [Leadership Interview:](types_of_interviews.md#leadership-interview)
+  - [30–60m] [Cross-functional Team Collaboration:](../process/types_of_interviews.md#cross-functional-team-collaboration-interview)
+  - [30m] [Peer Interview:](../process/types_of_interviews.md#peer-interview)
+- [30m] [Values Interview:](../process/types_of_interviews.md#values-interview)
+- [15–30m] [Leadership Interview:](../process/types_of_interviews.md#leadership-interview)
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
 
@@ -69,7 +69,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:”
 
-**Step 6:** The Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](interview_process.md).
+**Step 6:** The Recruiter begins [generating a candidate pool](../process/identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](../process/interview_process.md).
 
 ### Recruiting for Intern roles
 
@@ -93,7 +93,7 @@ using the below offer data
 Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
 
 We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` and `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
-If the candidate received a `no` during the values interview, follow [these steps](evaluating_values.md#resources-for-recruiters).
+If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 
 **Step 3:** Once the offer is fully approved in Greenhouse, Recruiter schedules an offer call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
 
@@ -164,7 +164,7 @@ The Tech Ops team will assist with the laptop ordering process.
 
 #### How to Action a Revoked Offer
 
-If an intern decides not to join us after being marked as Hired in Greenhouse but before their start date, follow [these steps](after_the_offer.md#actioning-a-revoked-offer).
+If an intern decides not to join us after being marked as Hired in Greenhouse but before their start date, follow [these steps](../process/after_the_offer.md#actioning-a-revoked-offer).
 
 ### Actions to complete prior to the internship start date
 
