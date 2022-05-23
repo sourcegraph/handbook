@@ -32,15 +32,15 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
-1. Check if instance is ready
-
-```
-mg check
-```
-
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
 1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
 1. Create a PR for review, apply and merge
+1. Check if all is running
+
+```
+go run ./util/cmd/ --customer=$COMPANY check
+```
+
 1. In created GCP project create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY)
 
 - name: `managed-instance-$COMPANY`
