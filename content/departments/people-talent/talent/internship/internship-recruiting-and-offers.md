@@ -12,7 +12,7 @@ The Recruiting and Offer processeses for internship positions are sightly differ
 
 **Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then Leadership + VP Talent will finalize which internship roles we will hire for and assign a recruiter to each role.
 
-**Step 2:** The recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The hiring manager will be required to develop a job description following the [steps in the handbook](opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
+**Step 2:** The recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The hiring manager will be required to develop a job description following the [steps in the handbook](../process/opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
 
 Note: For Internship interview plans, the only required steps are Recruiter Screen, Hiring Manager Screen, Peer Interview, and Values Interview. Typically, 1 Talent team member will conduct each intern values interview.
 
