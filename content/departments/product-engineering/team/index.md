@@ -12,7 +12,6 @@
     - [Jean du Plessis](../../../team/index.md#jean-du-plessis), [Director of Engineering](../engineering/roles/index.md#engineering-manager), Enablement
     - [Yink Teo](../../../team/index.md#yink-teo), [Director of Engineering](../engineering/roles/index.md#director-of-engineering), [Code Graph](../engineering/code-graph/index.md)
     - [Michal Sennett](../../../team/index.md#michal-sennett), Strategic Project Manager
-  - [Virginia Ulrich](../../../team/index.md#virginia-ulrich), Head of Customer Support
 
 Full org chart:
 
