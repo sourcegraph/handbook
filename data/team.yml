@@ -3018,3 +3018,16 @@ steve_fisher:
   links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
   pronunciation: '[pronounce my name](https://www.pronouncenames.com/search?name=Steve+Fisher)'
   description: Steve has led multiple high performing design organizations in agency, enterprise, and startup settings. Steve also lives on the edge of the ocean and mountains and loves exploring both. You can often catch up with him while he's traveling and working from his camper van with his wife and two doggos.
+
+lori_colston:
+  name: Lori Colston
+  email: lori.colston@sourcegraph.com
+  github: lcolston08
+  pronouns: she/her
+  role: Product Marketing Lead
+  reports_to: director_product_marketing
+  location: Denver, Colorado
+  links: '[LinkedIn](https://www.linkedin.com/in/loricolston/)'
+  description: Lori lives in sunny Denver, Colorado with her husband and two young children. Lori was a Senior Product Marketing Manager at Stack Overflow before joining Sourgraph, and she enjoys working towards a common goal with teammates across product, sales, and engineering. Outside of work, Lori can be found hiking, rafting, biking, and snowboarding with her family.
+
+  
