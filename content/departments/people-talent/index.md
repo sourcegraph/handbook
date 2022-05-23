@@ -2,6 +2,7 @@
 
 TODO
 
+- [Onboarding the People & Talent team](onboarding/index.md)
 - [People team](people-ops/index.md)
 - [Talent](talent/index.md)
 
@@ -15,5 +16,6 @@ TODO
 
 ## Internal Resources
 
-- Resources for People team
-- Resources for Talent team
+- [People & Talent internal resources](people-talent-resources.md)
+  - Resources for People team
+  - Resources for Talent team
