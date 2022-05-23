@@ -9,8 +9,8 @@ authn_authz:
   title: AuthN/AuthZ
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
 multi_tenancy:
@@ -18,9 +18,6 @@ multi_tenancy:
   title: Multi-tenancy
   type: Tech
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
-  ownership_model: Owner
   product_lifecycle: Introduction
 
 rate_limiting:
@@ -39,19 +36,21 @@ gating_system_license_key_management:
   category: Application Architecture
   title: Gating system and license key management
   product_org: cloud
-  product_team: cloud_saas
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
+  ownership_model: Owner
 
 rbac:
   category: Application Architecture
   title: RBAC
   product_org: cloud
-  product_team: cloud_saas
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
+  ownership_model: Owner
 
 audit_logs:
   category: Application Architecture
   title: Auditlogs
-  product_org: cloud
-  product_team: cloud_saas
 
 caching_system_queues:
   category: Application Architecture
@@ -66,8 +65,8 @@ cloud_kms_encryption:
   title: Cloud KMS encryption
   type: Tech
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
 
 src_cli:
   category: Application Interface
@@ -156,7 +155,9 @@ admin_experience:
   title: Admin Experience
   type: Product
   product_org: cloud
-  product_team: cloud_saas
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
+  ownership_model: Owner
 
 terms_conditions:
   category: Client - Table stakes
@@ -631,8 +632,8 @@ subscription_management:
   title: Subscription Management
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -640,19 +641,14 @@ pricing_packaging:
   category: Web App - Billing
   title: Pricing and packeging
   type: Product
-  product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
-  ownership_model: Owner
-  product_lifecycle: Introduction
 
 usage_reporting_entitlements:
   category: Web App - Billing
   title: Usage reporting / entitlements limits
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -661,8 +657,8 @@ payments_billing:
   title: Payments / Billing
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -671,7 +667,9 @@ on_prem_licensing:
   title: On-prem licencing model
   type: Product
   product_org: cloud
-  product_team: cloud_saas
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
+  ownership_model: Owner
 
 settings_page:
   category: Web App - Core Feature
@@ -697,18 +695,14 @@ organisations:
   category: Web App - Core Feature
   title: Organisations
   type: Product
-  product_org: cloud
-  product_team: cloud_saas
-  ownership_model: Owner
-  product_lifecycle: Introduction
 
 user_profile_settings:
   category: Web App - Core Feature
   title: User profile / settings
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Mature
 
@@ -737,8 +731,8 @@ user_notifications:
   title: User notifications
   type: Product
   product_org: cloud
-  product_team: cloud_saas
-  slack_channels: '#cloud-saas'
+  product_team: iam_and_admin_exp
+  slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
 

@@ -13,22 +13,22 @@ The guidelines here are based on Sourcegraph’s [existing guidelines around our
 
 All candidates (internal or external) will need to complete the same set of interviews for open manager roles. This provides for fairness and consistency for all candidates. As internal candidates have already completed the Sourcegraph Values Interview, they will be granted an exception and not need to complete that step a second time.
 
-### [Cross Functional Leader Interview](../../talent/process/types_of_interviews.md#cross-functional-collaboration-with-a-peer)
+### [Cross Functional Leader Interview](../../people-talent/talent/process/types_of_interviews.md#cross-functional-collaboration-with-a-peer)
 
 - This interview focuses on your ability to build and maintain strong relationships cross-functionally and how to communicate, manage change and overcome challenges between and among teams.
 - Major areas of focus: building relationships, standing up processes and aligning with other teams, communicating and handling escalations between teams.
 
-### [Sourcegraph Values Interview](../../talent/process/evaluating_values.md)
+### [Sourcegraph Values Interview](../../people-talent/talent/process/evaluating_values.md)
 
 - Not applicable for internal candidates.
 
-### [Customer Engineer Interview](../../talent/process/types_of_interviews.md#leadership--team-management-with-2-ic-ces)
+### [Customer Engineer Interview](../../people-talent/talent/process/types_of_interviews.md#leadership--team-management-with-2-ic-ces)
 
 - This interview will be with a senior-level CE peer and/or member(s) of the Sourcegraph CE leadership team at the hiring manager’s discretion and focuses heavily on your approach to managing a team.
 - For internal candidates who do not have formal management experience, the focus will be on relevant experience they have had as a team lead, heading a project or working on rolling out initiatives within a team or organization. The candidate will also be asked to respond as to what their approach might be in certain situations, not on actual experience in those situations.
 - Major areas of focus: management style, building relationships with direct reports, hiring strategies, and onboarding.
 
-### [Leadership Scenarios Interview](../../talent/process/types_of_interviews.md#working-session-leadership-scenarios-interview-live-working-session-instructions)
+### [Leadership Scenarios Interview](../../people-talent/talent/process/types_of_interviews.md#working-session-leadership-scenarios-interview-live-working-session-instructions)
 
 - This interview will be conducted by three members of the Sourcegraph CE leadership team. The candidate will prepare talking points around four prompts and lead an interactive discussion around them.
 - Major areas of focus: how you would approach managing the team day-to-day, handling escalations, managing through change and what your 30/60/90 day play would look like for the role.

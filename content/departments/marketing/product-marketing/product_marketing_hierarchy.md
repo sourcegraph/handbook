@@ -4,6 +4,6 @@ A product hierarchy is a way of organizing our products and features. As we evol
 
 Only L1 products that are Generally Available (GA) will have dedicated product landing pages and inclusion on the about site homepage.
 
-Our product hierarchy will be updated as we launch new products and features. Here is the current hierarchy as of 2021-04-08:
+Our product hierarchy will be updated as we launch new products and features. Here is the current hierarchy as of 2021-05-09:
 
-![Product Hierarchy](https://user-images.githubusercontent.com/20098595/114071417-b2df5900-9866-11eb-897c-7b0438e62c46.jpg)
+![Product Hierarchy](https://storage.googleapis.com/sourcegraph-assets/Product%20Hierarchy.png)

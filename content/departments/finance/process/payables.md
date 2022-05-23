@@ -10,7 +10,7 @@ Airbase gives our department leads and Finance visibilty into spend in real time
 
 Generally, you should feel free to spend in ways that are in the best interest of the business (see our philosophy in [spending company money](../../../benefits-pay-perks/benefits-perks/spending-company-money.md)).
 
-Specific categories of purchases that are listed on the [spending company money page](../../../benefits-pay-perks/benefits-perks/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](../../../benefits-pay-perks/pay-expenses/expenses.md) directly.
+Specific categories of purchases that are listed on the [spending company money page](../../../benefits-pay-perks/benefits-perks/spending-company-money.md) (e.g. laptops, home office setup, etc.) do not need to follow the approval process below. They are pre-approved and can be [submitted for reimbursement](../../../benefits-pay-perks/pay-expenses/expenses/index.md) directly.
 
 However, if you intend to make any other purchase that falls above the limits below, please refer to our [Company accounts payable policy](ap.md).
 
@@ -42,7 +42,7 @@ If you have a purchase that you’d like to explain/clarify post about it in the
 
 ## Getting invoices paid
 
-As of April 1, 202022, all spend over $5,000 requires a [PO](ap.md#policy-objectives) prior to processing the invoices. Failure to have a PO will results in a delayed payment to your vendor.
+As of April 1, 2022, all spend over $5,000 requires a [PO](ap.md#policy-objectives) prior to processing the invoices. Failure to have a PO will results in a delayed payment to your vendor.
 
 If you intend to make a purchase that will be paid by invoice (e.g., if it's too large to pay by credit card), send it to [ap@sourcegraph.com](mailto:ap@sourcegraph.com) with the vendor's W-9 (if a new vendor). It is the responsibility of the purchaser to obtain the vendor W-9. Invoices will not be paid without this.
 

@@ -20,11 +20,11 @@ A healthy mind and body is imperative to doing your best work and living a healt
 
 ### 👪 Family planning support
 
-We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing). Receipts for any expense over $25 are required.
+We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth or adoption of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing, morning after pill, abortion services, etc). Receipts for any expense over $25 are required.
 
 ### 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly reimbursement for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../departments/people-ops/process/impact-reviews.md) for all teammates. Receipts for any expense over $25 are required.
+In addition to on-the-job training, we offer a $1,000 yearly reimbursement for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../departments/people-talent/people-ops/process/impact-reviews.md) for all teammates. Receipts for any expense over $25 are required.
 
 ### ✈️ Travel
 
