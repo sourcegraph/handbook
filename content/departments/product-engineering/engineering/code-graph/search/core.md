@@ -13,6 +13,10 @@ To learn more about our goals, see the [Search Core strategy](../../../../../str
 
 {{generator:product_team.search_core}}
 
+## Teammate experience: guiding principles
+
+We seek to follow a set of [guiding principles](./guiding_principles_core.md) when welcoming new teammates and working as a team.
+
 ## Contact
 
 - #search channel or @search-core on Slack.
