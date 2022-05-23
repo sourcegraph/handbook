@@ -53,7 +53,7 @@ Example topics to cover during intake meeting:
 **Step 2**: the Recruiter opens the job in Greenhouse:
 
 - Copy the "Template" job.
-- Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit) directly into each interview stage.
+- Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan]).(https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit) directly into each interview stage.
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding Interview Steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 
 **Step 3**: the Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
@@ -62,7 +62,7 @@ Example topics to cover during intake meeting:
 
 **Step 4**: the Recruiter creates a Slack channel with the Interview Team and starts the Slack Kick-Off Process:
 
-1. Create a new channel slack channel named: “team-hiring_position_recruiter-name”
+1. Create a new channel Slack channel named: “team-hiring_position_recruiter-name”
 
 - Example: “ops-hiring_handbook-product-manager_recruiter-kelsey”
 
