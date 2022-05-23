@@ -79,7 +79,7 @@ Add a maintenance [notice](https://docs.sourcegraph.com/admin/config/settings#no
 
 ### GitHub Repository for Support Tools
 
-The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private, and you are welcome to add your projects to this repository, but please speak to Virginia about your ideas and plans before development starts to avoid possible conflicts.
+The [Support Tools GitHub Repository](https://github.com/sourcegraph/support-tools-internal) contains tools built by the CS team that provide values when supporting our customers. This repository is private, and you are welcome to add your projects to this repository, but please speak to the Support Team Director (TBD) about your ideas and plans before development starts to avoid possible conflicts.
 
 > NOTE: Please avoid working directly on the main branch.
 
@@ -132,7 +132,6 @@ This section captures our Zendesk protocol and configuration decisions.
 
 - Application engineers have agent access
 - CS leadership and Tech Ops have admin access
-- Only Virginia can modify billing related items
 - We have an admin level service account application engineers can use for integration work with Zendesk. If you want to do anything with this account, please check with @cs-leadership in our #customer-support-internal Slack channel first (they will help make sure what you want to do won't interrupt other workflow settings); similarly, this account should not used to make configuration changes without checking with the leadership team who is responsible for Zendesk configuration
 - Tickets are also rendered via an iFrame in Salesforce for CE and sales access.
 
