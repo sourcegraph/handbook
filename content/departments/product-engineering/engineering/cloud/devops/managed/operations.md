@@ -205,6 +205,32 @@ We are aligned with the [company-wide incident response playbook](../../../proce
 
 We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
+## Confirm instance health
+
+<span class="badge badge-note">SOC2/CI-109</span>
+
+The primary tool that monitors releases post-deployment are through a variety of uptime monitors and system performance metrics. These metrics are covered in documentation related to `SOC/CI-87`.
+
+There is no automatic deployment of Sourcegraph in managed instances. Following a release upgrade, we will perform additional manul check to confirm instance health.
+
+Run command below and inspect the output to ensure that all containers are healthy (in particular, look for anything that says Restarting):
+
+```sh
+mg check
+```
+
+Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
+
+```sh
+mg forward grafana
+```
+
+Check frontend logs and there are no recent errors
+
+```sh
+mg ssh-exec docker logs sourcegraph-frontend-0
+```
+
 ## Instance technicalities
 
 ### Impact of recreating the instance via Terraform
@@ -290,14 +316,6 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 **TODO**
 
 <!-- https://github.com/sourcegraph/security-issues/issues/246 -->
-
-## Post-deployment instance health check
-
-<span class="badge badge-note">SOC2/CI-109</span>
-
-**TODO**
-
-<!-- https://github.com/sourcegraph/security-issues/issues/245 -->
 
 ## Troubleshooting
 
