@@ -11,7 +11,7 @@ GCP-managed services.
 
 ### Postgres
 
-<span class="badge badge-note">SOC2/CI-98</span>
+<span class="badge badge-note">SOC2/CI-79</span>
 
 Postgres database now uses a single [Cloud SQL] instance, which is a fully managed service by GCP. It provides fully automated daily backup with point-in-time-recovery and retains for 7 days. We also have on-demand backup prior to upgrade to provide fallback plan for unanticipated events.
 
