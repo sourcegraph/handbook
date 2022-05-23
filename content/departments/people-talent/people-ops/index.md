@@ -75,8 +75,8 @@
                 alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
             </a>
           </div>
-          <div style="text-align: center;">Alex Mathison</div>
-          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+          <div style="text-align: center;">Jonathan Ayers</div>
+          <div style="text-align: center; font-size: 12px;">Director, People</div>
         </div>
          <div>
             <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
