@@ -2,11 +2,11 @@
 
 The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
-- [Opening an Intern role](internship-recruiting-and-offers.md#opening-and-intern-role)
+- [Opening an Intern role](../internship/internship-recruiting-and-offers.md#opening-and-intern-role)
 - Recruiting for Intern roles
-- [Extending an Internship offer](internship-recruiting-and-offers.md#extending-an-internship-offer)
-- [After the Internship offer acceptance](internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
-- [Actions to complete prior to the internship start date](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
+- [Extending an Internship offer](../internship/internship-recruiting-and-offers.md#extending-an-internship-offer)
+- [After the Internship offer acceptance](../internship/internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
+- [Actions to complete prior to the internship start date](../internship/internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
 
 ### Opening an Intern role
 
