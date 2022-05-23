@@ -25,7 +25,7 @@ While each response will be a custom plan, the rapid response team may include t
 - Content: Scott Bailey
 - Community: Vanesa Ortiz and Justin Dorfman
 - Content Platform: Elzanne Wentzel
-- Customer Support: Virginia Ulrich
+- Customer Support: TBD
 - Customer Engineering: Aimee Menne
 - Legal: Tammy Zhu
 
