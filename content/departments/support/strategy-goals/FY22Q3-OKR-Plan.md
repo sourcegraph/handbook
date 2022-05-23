@@ -12,8 +12,8 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../../..
 | 6   | ✅     | Michael     | Create [a database type solution](../process/enablement/zendesk-ticket-exporter.md) to make it easy and reliable for application engineers to learn from past tickets |
 | 7   | 🚫     | Alex        | Streamline key steps in CS workflow                                                                                                                                   |
 | 8   | 🚫     | Carl        | 5 folks complete kubernetes certification                                                                                                                             |
-| 9   | 🚫     | Virginia    | Implement retro practice for all tickets that take longer than X days to solve                                                                                        |
-| 10  | 🚫     | Virginia    | Provide enablement in how to navigate difficult conversations with customers                                                                                          |
+| 9   | 🚫     | TBD         | Implement retro practice for all tickets that take longer than X days to solve                                                                                        |
+| 10  | 🚫     | TBD         | Provide enablement in how to navigate difficult conversations with customers                                                                                          |
 | 11  | ✅     | Adeola      | [CS Onboarding updates V3](../onboarding/cs-onboard-mentor.md)                                                                                                        |
 
 ## Task details
@@ -74,14 +74,14 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../../..
 
 ### 9 Long running issue retros
 
-- Workgroup: Virginia, Alex
+- Workgroup: Alex
 - Channel: #wg-cse-long-running-case-retro-practice
 - Details: Implement practice to have CS, CE, Eng retros on all cases that take longer than X days to resolve
 - [Working notes document](https://docs.google.com/document/d/1RG2phsY5Ql2XP8qqf08asPnXA7MtAyWq_LevPouoOtA/edit)
 
 ### 10 Hard convo enablement
 
-- Workgroup: Virginia
+- Workgroup: (TBD)
 - Details: Provide enablement in how to navigate difficult conversations with customers (delivering hard to hear news, keeping calls productive and on time, etc)
 
 ### 11 CSE Onboarding updates V3
