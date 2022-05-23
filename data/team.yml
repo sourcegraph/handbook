@@ -534,25 +534,6 @@ owen_convey:
   links: '[LinkedIn](https://www.linkedin.com/in/owenconvey/)'
   description: "Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza."
 
-virginia_ulrich:
-  name: Virginia Ulrich
-  pronouns: she/they
-  role: Director of Customer Support
-  manager_role_slug: director_customer_support
-  reports_to: vp_engineering
-  location: Portland, Oregon, United States 🇺🇸
-  github: virginiaulrich
-  email: virginia@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/virginiaulrich/)'
-  pronunciation: vr ji nyuh oo l ri ch
-  description: Virginia lives with her partner (Vinh) and two cats, Little Miss Gable (tuxedo) and Hercules Mulligan (orange tabby). She derives joy from the tiny beautiful moments of human connection, hikes across the city and out in nature, and cooking for others. She studied literature and discovered her love of computer science quite by accident. With many years in customer service in various forms, Virginia can geek out for hours about the philosophy of 👍 customer support, the importance of compassion > empathy, and all things involving people helping other people.
-
-engineering_manager_delivery:
-  name: Virginia Ulrich
-  role: (Interim) Engineering Manager, Delivery
-  reports_to: director_engineering
-  manager_role_slug: engineering_manager_delivery
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
@@ -1641,7 +1622,7 @@ greg_bouton:
 nonso_obiano:
   name: Nonso Obiano
   role: Customer Support Manager
-  reports_to: director_customer_support
+  reports_to: vp_engineering
   manager_role_slug: customer_support_manager_2
   location: Lagos, Nigeria 🇳🇬
   github: Cyberwhiz5000
@@ -1652,7 +1633,7 @@ nonso_obiano:
 brielle_collins:
   name: Brielle Collins
   role: Customer Support Manager
-  reports_to: director_customer_support
+  reports_to: vp_engineering
   manager_role_slug: customer_support_manager_1
   location: Chicago, Illinois 🇺🇸
   github: Brielle-C
@@ -1796,7 +1777,8 @@ crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
   role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_delivery
   location: Ashland, MA, United States 🇺🇸
   github: caugustus-sourcegraph
   email: crystal.augustus@sourcegraph.com
@@ -2331,7 +2313,7 @@ feroz_salam:
 shawntee_harris:
   name: Shawnteé Harris
   email: shawntee.harris@sourcegraph.com
-  reports_to: director_customer_support
+  reports_to: vp_engineering
   github: shawnteeharris
   pronouns: she/her
   role: Program Manager
@@ -2427,7 +2409,7 @@ sarah_briggs:
   github: 5arahBrigg5
   pronouns: she/her
   role: Program Manager
-  reports_to: director_customer_support
+  reports_to: vp_engineering
   location: Portland, OR, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/sarah-briggs-3b690330/)'
   description: 'Sarah lives in Portland, Oregon with her partner Alo and their many pets. Her background in hospitality is the foundation of her work as a project manager and why she loves to be a host. When she is not at work, you can find her cooking, hiking, or checking out the newest restaurant in PDX. She has a minor addiction to sparkling water, an obsession with all things Harry Potter, and a reputation for playing Robyn on repeat.'
@@ -2903,7 +2885,7 @@ ajay_uppaluri:
 rakesh_joshi:
   name: Rakesh Joshi
   role: Application Engineer
-  reports_to: director_customer_support
+  reports_to: vp_engineering
   location: Melbourne, Australia
   email: rakesh.joshi@sourcegraph.com
   github: rakeshjosh2003
