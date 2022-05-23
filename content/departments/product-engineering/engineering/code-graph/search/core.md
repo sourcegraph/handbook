@@ -99,7 +99,6 @@ Our team is geographically and timezone diverse. The handbook has a [large page 
   - https://www.youtube.com/watch?v=_-KTAvgJYdI
   - https://about.sourcegraph.com/blog/tackling-the-long-tail-of-tiny-repos-with-shard-merging/
   - https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/
-  - https://swtch.com/~rsc/regexp/regexp4.html
   - https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/
 
 Our private resources are available [in the Google doc](https://docs.google.com/document/d/10SNzhuA5dmRJ5Na3PMnuShlPmtGGVIz3P2GA4RtfaGo/edit)
