@@ -18,17 +18,19 @@ For basic operations like accessing an instance for these steps, see [managed in
      - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
-1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
+1. Ensure the target version of docker-compose file is in the golden directory, it should be named `docker-compose.x.y.z.yaml`
+1. ` ./util/create-managed-instance-new.sh $COMPANY` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
+1. Replace base `docker-compose.yaml` to use golden symlink: `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.$VERSION.yaml docker-compose.yaml && rm ../VERSION && cd ../../`
 1. Open and edit `terraform.tfvars` according to the TODO comments within and commit the result.
 
    > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
 
 1. Ensure you are using the version of Terraform indicated in `.tool-versions` using `tfenv`
-1. In `gcp-tfstate` run `terraform init && terraform apply -var-file=../terraform.tfvars && git add . && git commit -m 'initialize GCP tfstate bucket'`
+1. In `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate` run `terraform init && terraform apply -var-file=../terraform.tfvars && git add . && git commit -m 'initialize GCP tfstate bucket'`
 
    > NOTE: You can safely ignore the warnings from `terraform apply`.
 
-1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
+1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
 1. Check if instance is ready
 
