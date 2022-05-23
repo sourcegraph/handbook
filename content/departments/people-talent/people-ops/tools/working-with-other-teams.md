@@ -3,6 +3,7 @@
 TODO
 
 ## Hiring Process
+
 - Talent
 - Legal
 - Payroll

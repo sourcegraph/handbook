@@ -1,10 +1,12 @@
 # Internal resources for the People & Talent team
 
 ## Resources for the People Team
+
 - [Onboarding the People & Talent team](onboarding/index.md)
 - Hiring Process
-    - [Working with other teams during hiring process and onboarding](people-ops/tools/working-with-other-teams.md)
-    - [Types of employment](people-ops/tools/types-of-employment.md)
+
+  - [Working with other teams during hiring process and onboarding](people-ops/tools/working-with-other-teams.md)
+  - [Types of employment](people-ops/tools/types-of-employment.md)
 
 - [Onboarding Process](people-ops/tools/internal-onboarding.md)
 - Compensation & Leveling
@@ -13,10 +15,10 @@
 - [Compliance](people-ops/tools/compliance.md)
 - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
 - Swag
-- [Avatar creation](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit) 
-
+- [Avatar creation](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit)
 
 ### People Team Tools
+
 - [Assemble](people-ops/tools/assemble.md)
 - [BambooHR](people-ops/tools/bamboohr.md)
 - [Continu](people-ops/tools/continu.md)
@@ -32,7 +34,7 @@
 - [Sparrow](people-ops/tools/sparrow.md)
 - [TrueWorks](people-ops/tools/trueworks.md)
 - Fertility vendor
-- Background check vendor 
+- Background check vendor
 
 ## Resources for the Talent Team
 
@@ -53,7 +55,6 @@
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 - [Internship Program](talent/internship/index.md)
 - [Internship Recruiting and Offer Processes](talent/internship/internship-recruiting-and-offers.md)
-
 
 ### Talent Team Tools
 

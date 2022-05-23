@@ -3,5 +3,5 @@
 TODO
 
 Vendor management
-Add / maintain content 
+Add / maintain content
 Running a checklist
