@@ -7,28 +7,6 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
    - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details. If you customize the `sourcegraph-managed` prefix, make sure to update the PROJECT_PREFIX variable in the below instructions.
    - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
-1. In created GCP project create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY)
-
-- name: `managed-instance-$COMPANY`
-- Authorized redirect URIs: `https://$COMPANY.sourcegraph.com/.auth/callback`
-
-1. Create [secret for OIDC login](https://console.cloud.google.com/security/secret-manager/create?project=sourcegraph-managed-dev) (used by Sourcegraph employees):
-
-- name: `OIDC_JSON`
-- scret value:
-
-```
-{
-  "allowSignup": false,
-  "clientID": "<CLIENT_ID_FROM_OAUTH_CREDENTIALS>",
-  "clientSecret": "<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>",
-  "displayName": "Sourcegraph Management",
-  "issuer": "https://accounts.google.com",
-  "requireEmailDomain": "sourcegraph.com",
-  "type": "openidconnect"
-}
-```
-
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
 
@@ -61,6 +39,28 @@ mg check
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
 1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
 1. Create a PR for review, apply and merge
+1. In created GCP project create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY)
+
+- name: `managed-instance-$COMPANY`
+- Authorized redirect URIs: `https://$COMPANY.sourcegraph.com/.auth/callback`
+
+1. Create [secret for OIDC login](https://console.cloud.google.com/security/secret-manager/create?project=sourcegraph-managed-dev) (used by Sourcegraph employees):
+
+- name: `OIDC_JSON`
+- scret value:
+
+```
+{
+  "allowSignup": false,
+  "clientID": "<CLIENT_ID_FROM_OAUTH_CREDENTIALS>",
+  "clientSecret": "<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>",
+  "displayName": "Sourcegraph Management",
+  "issuer": "https://accounts.google.com",
+  "requireEmailDomain": "sourcegraph.com",
+  "type": "openidconnect"
+}
+```
+
 1. Initialise instance
 
 ```
