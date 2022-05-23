@@ -28,7 +28,6 @@ Our schedule is reflected in the working hours set in our calendars.
 | Shawnteé    | 8am–4pm        | 14:00–22:00 | 6am–2pm       |
 | Brielle     | 9am–5pm        | 15:00–23:00 | 7am–3pm       |
 | Nonso       | 9am–5pm        | 09:00–16:00 | 12am–8am      |
-| Virginia    | 8am–5pm        | 16:00–01:00 | 8am–5pm       |
 
 We list pacific hours here in support of our contractual SLAs being listed in pacific hours.
 
@@ -42,7 +41,7 @@ Fridays are covered in 3 time blocks:
 | 7am-12pm                                | Don             | 10am-3pm                            | 15:00-20:00 |
 | 12pm-5pm                                | Kelvin          | 12pm-5pm                            | 20:00-01:00 |
 
-Mariam also covers triage during the first time block. Brielle, Sarah, Shawnteé, and Virginia rotate who covers triage during the rest of the day (reflected each week on the team calendar).
+Mariam also covers triage during the first time block. Brielle, Sarah, and Shawnteé rotate who covers triage during the rest of the day (reflected each week on the team calendar).
 
 When those covering Friday need time off and/or when those observing the focus day need anyone to fill-in, we follow the guidance written in our [rituals](../team-culture/index.md).
 
