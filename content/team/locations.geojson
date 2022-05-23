@@ -620,19 +620,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Virginia Ulrich"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.658722,
-               45.51223
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Adeola Akinsiku"
          },
          "geometry": {
