@@ -53,16 +53,16 @@ That said, there may be times when we have unusually large amount of work or mor
 
 - **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take. Remember to facilitate if necessary, @ mentioning folks who have capacity to take it if we are at level 2 capacity.
 
-- **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
+- **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to (TBD), which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
 
 ## FAQs
 
 ### 1. Whose responsible for triaging?
 
 - Nonso 08:00–14:00 UTC (Stompy as backup)
-- Shawnteé 14:00–19:00 UTC (Virginia, Brielle as backup)
-- Shawnteé and Sarah 19:00-20:00 UTC (Virginia, Brielle as backup)
-- Sarah 20:00–01:00 UTC (Virginia, Warren as backup)
+- Shawnteé 14:00–19:00 UTC (Brielle as backup)
+- Shawnteé and Sarah 19:00-20:00 UTC (Brielle as backup)
+- Sarah 20:00–01:00 UTC (Warren as backup)
 
 ### 2. What should I do when I see a ticket originating from Slack with an internal user as the post owner?
 
