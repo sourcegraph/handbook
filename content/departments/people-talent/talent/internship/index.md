@@ -1,8 +1,8 @@
-## Sourcegraph Internship Program
+# Sourcegraph Internship Program
 
 We are rolling out our first-ever internship program in Q2 FY23!
 
-This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../../company-info-and-process/remote/index.md).
+This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
 We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
@@ -24,19 +24,19 @@ We will be hiring for interns across various business departments. Recruiting wi
 
 Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
 
-We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills. Internships will be paid and follow the same logic as our standard [Compensation Philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md#philosophy).
+We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills. Internships will be paid and follow the same logic as our standard [Compensation Philosophy](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#philosophy).
 
 Our interns will use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
 
 #### Perks
 
-- 🎧 [Desk Set Up](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
+- 🎧 [Desk Set Up](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
 - 🌐 Internet - A fixed reimbursement for $50 of internet expenses monthly
 - 📱 Mobile phone - A fixed reimbursement for $75 of mobile phone expenses monthly
 
 #### Equipment
 
-- We will provide each intern with a loaner [laptop](../../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
+- We will provide each intern with a loaner [laptop](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
 
 ### VISAs We Accept
 
@@ -48,7 +48,7 @@ If you are hired, we will need to verify your employment within your first 2 day
 
 Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
-Read more about our VISA policies for full-time employees [here](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance).
+Read more about our VISA policies for full-time employees [here](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
 ### Internship Events
 
@@ -86,10 +86,10 @@ At the end of an internship, a full time position is not guaranteed, but may be 
 
 ### Helpful Links
 
-- [Resources for Candidates](../resources_for_candidates.md)
-- [How to Apply](../resources_for_candidates.md#how-to-apply)
-- [Interviewing at Sourcegraph](../resources_for_candidates.md#interviewing-at-sourcegraph)
-- [Candidate FAQs](../resources_for_candidates.md#candidate-faqs)
+- [Resources for Candidates](../../resources_for_candidates.md)
+- [How to Apply](../../resources_for_candidates.md#how-to-apply)
+- [Interviewing at Sourcegraph](../../resources_for_candidates.md#interviewing-at-sourcegraph)
+- [Candidate FAQs](../../resources_for_candidates.md#candidate-faqs)
 
 ## Information for Sourcegraph Teammates
 

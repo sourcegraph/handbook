@@ -89,7 +89,7 @@ In order to assess the return on investment for any given job board, it is criti
 - [AngelList](https://angel.co/company/sourcegraph)
 - [Diversify Tech](https://www.diversifytech.co/job-board)
 
-[Click here](../internship-program.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
+[Click here](../internship/index.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
 
 ### Job boards and coding bootcamps we have posted to in the past:
 

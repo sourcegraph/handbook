@@ -19,7 +19,7 @@
   - [Onboarding check ins](../../../company-info-and-process/onboarding/onboarding-check-ins.md)
     - [Onboarging Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
-- [Tools we use](tools-we-use.md)
+- [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)
 - [Swag](../swag.md)
 - [Glossary & Definitions](../../../company-info-and-process/onboarding/glossary.md)
 - [How we communicate at Sourcegraph](../../../company-info-and-process/communication/index.md)
