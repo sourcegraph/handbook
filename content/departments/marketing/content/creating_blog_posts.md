@@ -103,7 +103,7 @@ Uses Bootstrap for responsive sizing and adequate whitespace between adjacent el
   <iframe
     className="embed-responsive-item"
     src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
-    allowFullScreen=""
+    allowfullscreen=""
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     frameborder="0"
   ></iframe>
@@ -115,11 +115,7 @@ Uses Bootstrap for responsive sizing and adequate whitespace between adjacent el
 Inserts HubSpot form wherever the `targetId` div tag is placed.
 
 ```html
-<EmbeddedHubSpot
-  portalId='2762526'
-  formId='your-form-id'
-  targetId='#your-target-id'
-/>
+<EmbeddedHubSpot portalId="2762526" formId="your-form-id" targetId="#your-target-id" />
 <div id="your-target-id"></div>
 ```
 
