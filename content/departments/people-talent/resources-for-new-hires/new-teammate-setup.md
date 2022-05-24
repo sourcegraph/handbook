@@ -30,13 +30,30 @@
 
 ![Modifying Google Calendar event settings](https://sourcegraphstatic.com/handbook/google-calendar-event-settings.png)
 
+
 - **Add multiple timezones to your Calendar sidebar.** This will show two time columns. This is very useful when you work closely with people in another time zone. Go to **Settings > General > Time zone** and select the **Display secondary time zone** box. Choose the time zones you want and label them.
 
-- Get the Zoom Add On for Google Calendar. Go to your calendar, and click the + button on the right bar. This will let you pick from different apps you can integrate into your calendar. Choose _Zoom for GSuite_ and follow the instructions. This will allow you to add a Zoom call in every calendar meeting you create or have edit permissions.
-  ![Click on the plus Get Add-ons button](https://storage.googleapis.com/sourcegraph-assets/handbook/zoomcalendar.png)
+- Get the Zoom Add On for Google Calendar. Go to your calendar, and click the + button on the right bar. This will let you pick from different apps you can integrate into your calendar. Choose *Zoom for GSuite* and follow the instructions. This will allow you to add a Zoom call in every calendar meeting you create or have edit permissions. 
+![Click on the plus Get Add-ons button](https://storage.googleapis.com/sourcegraph-assets/handbook/zoomcalendar.png)
 
 - Join the Sourcegraph events calendar by copying `sourcegraph.com_9cd67o8p3gs0rtpj73bt326psk@group.calendar.google.com` into your [add calendar field](https://calendar.google.com/calendar/u/0/r/settings/addcalendar?)
 
 - Also join the [social calendar](../../../company-info-and-process/remote/social_calendar.md)
 
 - See the Communication handbook for [more on scheduling meetings](../../../company-info-and-process/communication/index.md#scheduling-meetings-with-google-calendar).
+
+
+
+## Slack
+
+Slack is one of the tools we use the most for communication, this is why having a full profile helps everyone to identify each other and our working hours easily. Click on the icon to the right top of the app and configure the following:
+
+- **Full name**: Set your Slack full name as First Name (or preferred name) Last Name.
+- **Display name**: To avoid confusion, set your Slack display name as First Name (or preferred name) Last Name.
+- **What I do**: Add your role title
+- **Pronouns**: To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. You can read more about this here.
+- **Time zone**: This makes async work a lot easier.
+
+And of course, any other field you wish to complete.
+
+You will soon find out that Slack has a lot of channels and it is very active. Please take some time to read [how we use Slack at Sourcegraph](../../../company-info-and-process/communication/team_chat.md) as it will be a very useful resource for you.
