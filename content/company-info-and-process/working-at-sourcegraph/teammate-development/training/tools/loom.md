@@ -2,11 +2,11 @@
 
 Loom is a video messaging tool that helps you get your message across through instantly shareable videos. With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom.
 
-We consider Loom a great tool to foster our [asynchronous communications](https://handbook.sourcegraph.com/company-info-and-process/communication/asynchronous-communication/) because
+We consider Loom a great tool to foster our [asynchronous communications](../../../../communication/asynchronous-communication.md) because
 
 It allows users to express thoughts at work in less time, share quick feedback, and communicate across different timezones effectively. Viewers can interact, comment, and respond to videos, to create an instant human connection.
 
-We now have enterprise Loom, which means we have a Sourcegraph workspace. You should use [Okta](https://handbook.sourcegraph.com/departments/tech-ops/tools/okta/main/) to log in, you can find Loom as one of the apps in your Okta dashboard too.
+We now have enterprise Loom, which means we have a Sourcegraph workspace. You should use [Okta](../../../../../departments/tech-ops/tools/Okta/main.md) to log in, you can find Loom as one of the apps in your Okta dashboard too.
 
 ## Training
 
