@@ -1,6 +1,6 @@
 ## Computer standards
 
-When setting up your Sourcegraph device please ensure the following steps have been completed to ensure your computer is secure and compliant with our SOC2 controls.
+When setting up your computer device please ensure the following steps have been completed to ensure your device is secure and compliant with our SOC2 controls. No Sourcegraph data should be accessed without these standards in place.
 
 1. Create a complex laptop password that meets our [password requirements.](../internal-security/passwords.md)
 

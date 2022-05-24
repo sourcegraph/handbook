@@ -24,7 +24,7 @@ Complete implementation and test the work to support Perforce. Research and vali
 
 ## FY23 Q3
 
-Implement Gerrit & CVS support, release the revised hashing algorithm, complete support for GitHub internal repos, and implement support for webhook repo updates.
+Heavy focus on the admin experience - mainly around identifying ways to improve the clarity of how the system **should** work and how it **is** working through better observability, monitoring and docs. Implemetnation of GitHub Apps connections to improve security and simplicity.
 
 # Product Gaps
 

@@ -8,7 +8,7 @@ The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-The Goals and Roadmap of the IAM is TBA.
+The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/cloud/iam-admin/index.md).
 
 ## Areas of Ownership
 
@@ -200,6 +200,12 @@ All team events and reminders should be added to the [team calendar](https://cal
 
 - Please add `iam-and-admin-exp-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
 - For reminders, you don’t need to add participants
+
+#### Paid Time Off
+
+Our team tracks paid time off (PTO) using our [a shared Google Doc](https://docs.google.com/spreadsheets/d/1TelNUYufAcYe6pq4NtmmnlaNji_OCq70qklkHoiRIDE/edit?usp=sharing). This transparency ensures that we accurately plan sprints and on-call rotations. We encourage team members to add their PTO to this calendar as early as possible. Please make sure you [submit PTO via Roots](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) as well.
+
+We encourage our team to take as much time off to feel refreshed and energized at work, as outlined in our [benefits section](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md). Sick days and other urgent PTO does not need to be added to this document.
 
 #### Making pull requests and asking for code reviews
 
