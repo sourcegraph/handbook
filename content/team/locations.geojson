@@ -1409,6 +1409,19 @@
       {
          "type": "Feature",
          "properties": {
+            "name": "Justin Dorfman"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -118.848740,
+               34.176079
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
             "name": "Nathan Downs"
          },
          "geometry": {
