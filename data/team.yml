@@ -1059,7 +1059,7 @@ cassie_melani:
   reports_to: vp_talent
   location: Seattle, Washington, USA 🇺🇸🌲
   email: cassie@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/cassandralira/), [README](../../people-ops/cassie-bio.md)'
+  links: '[LinkedIn](https://www.linkedin.com/in/cassandralira/), [README](../../people-talent/people-ops/cassie-bio.md)'
   description: Cassie was born and raised in sunny southern California and moved up to the Bay Area for college, where she found her love of microclimates. Experiencing four seasons in a day kept her happy in San Francisco for exactly five years, but then she decided she wanted gloomier weather. She recently moved up to the rainy and beautiful Pacific Northwest with her husband, Will. Together, they have two mischievous cats, Lola and Sterling, and a dashingly handsome puppy named Oliver. In her spare time, Cassie enjoys challenging spin classes, traveling to tropical locations, cooking Molly Baz recipes, and learning how not to kill her new garden.
 
 rebecca_rissinger:
@@ -2068,12 +2068,6 @@ amy_johnson:
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
 
-director_design:
-  name: Christina Forney
-  role: (Interim) Director of Design
-  reports_to: vp_product
-  manager_role_slug: director_design
-
 jason_gornall:
   name: Jason Gornall
   pronouns: he/him
@@ -2792,7 +2786,7 @@ tracey_johnson:
   github: traceyljohnson
   pronouns: she/her
   role: Brand Designer
-  reports_to: vp_product
+  reports_to: director_design
   location: Fort Worth, TX 🤠
   links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
   description: Tracey is a Brand Designer and mom of 3. Before coming to Sourcegraph, she was a designer at a full-service digital marketing agency serving B2B tech-SaaS clients. She is passionate about brand consistency and empathetic design. She spends her freetime doing puzzles, knitting, playing video games, and brunching!
@@ -2964,5 +2958,74 @@ jean-paul_bezuidenhout:
   pronouns: he/him
   role: Senior Product Education Engineer
   reports_to: head_of_technical_writing
-  Location: Cape Town, South Africa 🇿🇦
+  location: Cape Town, South Africa 🇿🇦
+  links: '[LinkedIn](www.linkedin.com/in/jeanpaulbezuidenhout)'
   description: Jean-Paul lives in Cape Town, South Africa. He is a writer and business practitioner. He spends his free time with his wife and two boys gardening or exploring Cape Town's forests, mountains and beaches. He also enjoys rainy days at home tinkering with tech. He keeps tropical fish and aquarium plants (and a fair bit of unwanted algae).
+
+joe_johnson:
+  name: Joe Johnson
+  email: joe.johnson@sourcegraph.com
+  github: blvckcoffee
+  pronouns: he/him
+  role: Senior Product Education Engineer
+  reports_to: head_of_technical_writing
+  location: Birmingham, AL, USA 🇺🇸
+  description: Joe started his career as an educator and loves demystifying complex topics. He studied teaching and Computer Science at Florida State University. Prior to Sourcegraph, he designed learning experiences in the specialty coffee, eLearning, and AI industries. He lives in Birmingham with his wife, Steph, and spends his free time adjusting coffee brew ratios, reading, and hiking the foothills of the Appalachian Mountains.
+
+william_bezuidenhout:
+  name: William Bezuidenhout
+  email: william.bezuidenhout@sourcegraph.com
+  github: burmudar
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_developer_experience
+  location: Cape Town, South Africa 🇿🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/williambezuidenhout/), [Twitter](https://twitter.com/BurmudarFTL)'
+  description: William lives in the beautiful Cape Town, South Africa. He enjoys running and moutain biking and when the weather permits (and his motivation) he can be out riding some trail at a wine farm or taking a leisure run. Besides the outdoor stuff, he loves to tinker and can often be found working on one of his side projects and reading up a storm on either tech, sci-fi, or fantasy! He loves animals and can easily be distracted by a dog.
+
+aditya_kalie:
+  name: Aditya Kalia
+  email: aditya.kalia@sourcegraph.com
+  github: akalia25
+  pronouns: he/him
+  role: Data Engineer
+  reports_to: director_data_analytics
+  location: San Jose, California 🇺🇸/ Toronto, Canada 🇨🇦
+  links: '[LinkedIn](https://www.linkedin.com/in/aditya-kalia/)'
+  description: Aditya is a data enthusiast who enjoys solving big data problems and connecting data from A to B. Previously, he led data engineering at a health-focused startup, enabling consumers to shop for their dietary preferences on retailer websites. Outside of work, Aditya enjoys staying active and playing sports with friends. He likes to split his time between Canada and USA to spend time with his close friends and family in both countries.
+
+gronk:
+  name: Ralf 'gronk' Gronkowski
+  email: gronk@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/ralf-gronkowski-b74a90/)'
+  github: gronk-sg
+  pronouns: he/him
+  role: Manager, Enterprise EMEA
+  manager_role_slug: manager_customer_engineering_emea
+  reports_to: director_customer_engineering
+  location: Hamburg, Germany 🇩🇪
+  description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
+
+steve_fisher:
+  name: Steve Fisher
+  pronouns: he/him
+  role: Head of Design
+  manager_role_slug: director_design
+  reports_to: vp_product
+  location: Sechelt, BC, Canada 🇨
+  github: hellofisher
+  email: steve.fisher@sourcegraph.com
+  links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
+  pronunciation: '[pronounce my name](https://www.pronouncenames.com/search?name=Steve+Fisher)'
+  description: Steve has led multiple high performing design organizations in agency, enterprise, and startup settings. Steve also lives on the edge of the ocean and mountains and loves exploring both. You can often catch up with him while he's traveling and working from his camper van with his wife and two doggos.
+
+lori_colston:
+  name: Lori Colston
+  email: lori.colston@sourcegraph.com
+  github: lcolston08
+  pronouns: she/her
+  role: Product Marketing Lead
+  reports_to: director_product_marketing
+  location: Denver, Colorado
+  links: '[LinkedIn](https://www.linkedin.com/in/loricolston/)'
+  description: Lori lives in sunny Denver, Colorado with her husband and two young children. Lori was a Senior Product Marketing Manager at Stack Overflow before joining Sourgraph, and she enjoys working towards a common goal with teammates across product, sales, and engineering. Outside of work, Lori can be found hiking, rafting, biking, and snowboarding with her family.

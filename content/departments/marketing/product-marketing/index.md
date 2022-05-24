@@ -60,6 +60,7 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 
 ## Resources
 
+- [Approved assets](https://drive.google.com/drive/folders/15lb62hLLYM-mKEOrlg32bmSgIhNcvKFh?usp=sharing): GIFs, videos, and images that are externally shareable
 - [GTM Hub (go-to-market resources)](gtm_hub.md)
 - [Product marketing hierarchy](product_marketing_hierarchy.md)
 - [Product marketing roadmap](product-marketing-roadmap.md)

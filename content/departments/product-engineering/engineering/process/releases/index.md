@@ -4,17 +4,22 @@ This document describes how we release Sourcegraph.
 
 ## Release policies
 
-> As of Feb 3, 2022, the role of Release Captain is now rotation-based within the [Cloud](../../cloud/index.md) org, [learn more](https://sourcegraph.slack.com/archives/C0EPTDE9L/p1643915838386829). If you need assistance with releases, please reach out to [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX). The [Delivery] team is more than happy to help you through the process.
+> As of [RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit) the ownership of the release process has changed.
+> The [Release Guild](./release_guild.md) is now the entity that owns the release process. Read more details about release
+> responsibilities in the [Releases](./index.md#Releases) section below.
 
 ### Releases
 
-**Sourcegraph releases are monthly.**
+**Sourcegraph minor releases are monthly.**
 A _release_ refers to a minor version increase of Sourcegraph (e.g. `3.0.0` -> `3.1.0`).
 We create releases by 10am US Pacific Time on the 20th day of each month. ([why?](#why-the-20th))
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
 These releases always ship on time, even if they're missing features or bug fixes we hoped to get in ([why?](https://about.gitlab.com/2015/12/07/why-we-shift-objectives-and-not-release-dates-at-gitlab/)).
+
+Minor releases are the responsibility of the [Release Guild](./release_guild.md), and are performed by a release captain
+selected from the guild.
 
 ### When we release
 
@@ -31,9 +36,36 @@ A _patch release_ refers to a patch version increase of Sourcegraph (e.g. `3.0.0
 
 These releases **never** require any manual migration steps.
 
+Patch releases are ultimately the responsibility of the requesting entity (for example a feature team). The release guild will coordinate
+and facilitate any internal communications required, and will make a best effort to perform the patch release. If for some reason
+the release guild is unable to release a patch, the responsibility to do so will fall back to the requestor.
+
+#### Release guild SLA
+
+The release guild operates with the following SLA:
+
+1. 2 working days after patch request to accept or deny the patch release responsibility
+2. 3 working days after accepting responsibility to perform the patch release
+
 > NOTE: Patch releases are not free, and we currently enforce certain requirements before a patch release is conducted.
-> To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
-> In most cases, waiting until the next [full release](#releases) is the best approach.
+
+#### Requesting a patch
+
+1. To request a patch release, please fill out a [patch release request](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution%2Cpatch-release-request&template=request_patch_release.md&title=).
+2. Notify the release guild (#release-guild). One of the guild members will respond within 2 working days and confirm if the guild is
+   able to perform the patch release.
+   1. If the guild SLA is too long or otherwise insufficient, the patch requestor is free to notify the guild and perform the patch as long as the patch meets the overall requirements for a Sourcegraph patch.
+      We require that the guild still be notified about any patch requests to be aware of any patches that are currently in progress.
+      > In most cases, waiting until the next [full release](#releases) is the best approach.
+
+#### Patch request process
+
+The release guild will evaluate this patch process at the end of Q2 FY23 with the goal to make the patch requestor
+the first and primary party responsible to cut the patch ([read more in RFC 612](https://docs.google.com/document/d/1Gecnsk4mnmf_p9SO4ExICSTC_op-eL2I_kwutHvwSmU/edit)). Some critiera that we will use to measure success
+will be:
+
+1. Only include absolute necessary changes to address issues introduced in the corresponding minor release, and no disruption to the overall customer upgrade experience.
+2. Enough internal experience in the release guild such that the guild can be a resource to help with patches (aiming for at least 1 more patch captain)
 
 ### Other
 

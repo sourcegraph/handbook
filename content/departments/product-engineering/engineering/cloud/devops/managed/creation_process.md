@@ -47,7 +47,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Navigate to Grafana under `/-/debug/grafana` and confirm the instance looks healthy.
 1. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
 1. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
-1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](#access-through-the-gcp-load-balancer-as-a-user-would).
+1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
    ```
@@ -66,6 +66,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    ```
    "auth.passwordResetLinkExpiry": 86400, // 24 hours
    ```
+1. Enable metrics collection and GCP alerts for created Managed Instance via [this action](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
 1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access

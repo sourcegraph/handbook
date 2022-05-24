@@ -69,4 +69,4 @@ Nothing happens at Sourcegraph without strong collaboration with others. A succe
 
 ### Values Interview
 
-See [Values Interview](../../../../talent/process/evaluating_values.md) !
+See [Values Interview](../../../../people-talent/talent/process/evaluating_values.md) !

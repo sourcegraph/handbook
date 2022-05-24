@@ -21,7 +21,7 @@ The handbook is a living document and we expect every teammate to propose improv
   - [Spending company money - what's covered](benefits-pay-perks/benefits-perks/spending-company-money.md)
 - [Travel benefits](benefits-pay-perks/benefits-perks/travel/index.md)
 - [Time off](benefits-pay-perks/benefits-perks/time-off/index.md)
-  - [Company holidays](benefits-pay-perks/benefits-perks/holidays.md)
+  - [Company holidays](company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Mental health](benefits-pay-perks/benefits-perks/mental-health/index.md)
 
 ## The Sourcegraph Team
@@ -61,11 +61,16 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ## Information by Department
 
-### [People Ops](departments/people-ops/index.md)
+### [People & Talent](departments/people-talent/index.md)
 
-- [People Ops](departments/people-ops/index.md)
-  - [Team](departments/people-ops/index.md#team)
-  - [Goals](departments/people-ops/index.md#goals)
+#### [People team](departments/people-talent/people-ops/index.md)
+
+#### [Talent](departments/people-talent/talent/index.md)
+
+- [Resources for Candidates](departments/people-talent/talent/index.md)
+- [Resources for Hiring Manager](departments/people-talent/talent/index.md)
+- [Resources for Teammates](departments/people-talent/talent/index.md)
+- [Resources for Recruiters](departments/people-talent/talent/index.md)
 
 ### [Product & Engineering](departments/product-engineering/index.md)
 
@@ -102,13 +107,6 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Sales](departments/sales/index.md)
 
 - [Sales strategy & operations](departments/sales/sales-ops/index.md)
-
-### [Talent](departments/talent/index.md)
-
-- [Resources for Candidates](departments/talent/index.md)
-- [Resources for Hiring Manager](departments/talent/index.md)
-- [Resources for Teammates](departments/talent/index.md)
-- [Resources for Recruiters](departments/talent/index.md)
 
 ### [Business Operations & Strategy](departments/bizops/index.md)
 
