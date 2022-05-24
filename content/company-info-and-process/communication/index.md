@@ -169,4 +169,3 @@ Brain Food meetings are our internal knowledge sharing sessions. These meetings 
 - Preparing an external talk
 
 If you have an idea for a session, add an event to the calendar and invite the engineering-team@sourcegraph.com
-
