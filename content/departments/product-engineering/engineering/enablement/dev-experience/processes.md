@@ -81,11 +81,12 @@ For a higher-level understanding of our responsibilities, see our [guiding princ
 
 ## Software development life cycle
 
-At a high level, we follow the Software devolpement life cycle outlined in the Sourcegraph docs, but we have the following processes specific to our team: 
-- Because part of the DevX team's responsibility is to unblock engineers on other teams, much of work comes from Slack requests that ping the `dev-experience-support` handle, and relevant code changes will be pushed from the team asking for help and will follow their own SDLC practices. 
+At a high level, we follow the Software devolpement life cycle outlined in the Sourcegraph docs, but we have the following processes specific to our team:
+
+- Because part of the DevX team's responsibility is to unblock engineers on other teams, much of work comes from Slack requests that ping the `dev-experience-support` handle, and relevant code changes will be pushed from the team asking for help and will follow their own SDLC practices.
 - For planned DevX work, we use the DevX Planning document to discuss and refine our roadmap. Planned roadmap items have a Github roadmap issue that outlines the scope of the work, includes relevant RFCs (Requests for Comment) or other artifacts, and tracks Github issues related to it. Tracked issues are closed when a PR has been submitted to Github, reviewed, and approved by at least one teammate.
 - Planned work, whether or not it's directly related to our roadmap, will appear on our Github project board, where Github issues with the `team/devx` label can be viewed by status, iteration, or contributor.
-   
+
 ## Team roles
 
 ### Support rotation
