@@ -43,10 +43,11 @@ go run ./util/cmd/ --customer=$COMPANY check
 
 1. In created GCP project create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY)
 
+- type: Web Application
 - name: `managed-instance-$COMPANY`
 - Authorized redirect URIs: `https://$COMPANY.sourcegraph.com/.auth/callback`
 
-1. Create [secret for OIDC login](https://console.cloud.google.com/security/secret-manager/create?project=sourcegraph-managed-dev) (used by Sourcegraph employees):
+1. Create [secret for OIDC login](https://console.cloud.google.com/security/secret-manager/create?project=sourcegraph-managed-$COMPANY) (used by Sourcegraph employees):
 
 - name: `OIDC_JSON`
 - scret value:
