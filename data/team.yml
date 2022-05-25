@@ -547,12 +547,6 @@ virginia_ulrich:
   pronunciation: vr ji nyuh oo l ri ch
   description: Virginia lives with her partner (Vinh) and two cats, Little Miss Gable (tuxedo) and Hercules Mulligan (orange tabby). She derives joy from the tiny beautiful moments of human connection, hikes across the city and out in nature, and cooking for others. She studied literature and discovered her love of computer science quite by accident. With many years in customer service in various forms, Virginia can geek out for hours about the philosophy of 👍 customer support, the importance of compassion > empathy, and all things involving people helping other people.
 
-engineering_manager_delivery:
-  name: Virginia Ulrich
-  role: (Interim) Engineering Manager, Delivery
-  reports_to: director_engineering
-  manager_role_slug: engineering_manager_delivery
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
@@ -1795,7 +1789,7 @@ win_yu:
 crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
-  role: Software Engineer, Delivery
+  role: Engineering Manager, Delivery
   reports_to: director_engineering
   manager_role_slug: engineering_manager_delivery
   location: Ashland, MA, United States 🇺🇸
