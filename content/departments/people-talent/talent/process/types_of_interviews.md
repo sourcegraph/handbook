@@ -35,7 +35,7 @@ All departments are likely to have some or all of the below universal interview 
 
 - Interviewer: the assigned recruiter for the role.
 - Duration: 30-minutes.
-- Details: the goal of the recruiter screen is to learn more about your background and interest in Sourcegraph. In addition to learning about you, the Recruiter will also tell you about Sourcegraph, the role, compensation/benefits, the interview process, and answer any questions you have.
+- Details: the goal of the recruiter screen is to learn more about your background and interest in Sourcegraph. In addition to learning about you, the recruiter will also tell you about Sourcegraph, the role, compensation/benefits, the interview process, and answer any questions you have.
 - Example questions:
   - Tell me about your work experience, past to present.
   - Why are you looking for something new?
@@ -104,8 +104,9 @@ Read more about our values interview [here](evaluating_values.md).
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
-- Example questions:
-  - We will ask behavioral-based, open-ended questions directly related to our values.
+- Example questions: We will ask behavioral-based, open-ended questions directly related to our values.
+  -Tell us about a time when you advocated for someone else
+  -Tell us about a project you are most proud of completing
 
 # Department specific interviews
 
@@ -665,7 +666,7 @@ A great resource on structure (including some great walkthrough videos) from [Be
 - Interviewer(s): NA—this is a take home assignment.
 - Duration: we expect this to take no more than 1 hour.
 - Details: we want to ensure we understand your approach to proactively reaching out to and engaging with passive talent. Instructions:
-- **Step 1.** You are the newly assigned Recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
+- **Step 1.** You are the newly assigned recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
 - **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you targeting them specifically?
 - **Step 3.** As we know, rarely do we hear back from a candidate after our 1st message or call. Pick one of the above profiles and please describe your outreach "campaign." What steps will you take to engage with this candidate? Please 1) include example inmails, emails, voicemails etc, and 2) please explain your approach and why you chose to craft your outreach campaign in this way. Your ultimate goal is to secure a call with the candidate.
 - **Step 4.** Good news! The candidate you messaged in step 3 is interested in having an exploratory conversation. How do you describe/sell Sourcegraph to them?
