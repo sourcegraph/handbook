@@ -109,6 +109,7 @@ Access can be requested in #it-tech-ops WITH manager approval.
 
 Each managed instance is created in an isolated GCP project.
 System performance metrics are configured and collected in [scoped project](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring).
+All metrics can be seen in [scoped projects dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring).
 
 Every customer managed instance has alerts configured:
 
