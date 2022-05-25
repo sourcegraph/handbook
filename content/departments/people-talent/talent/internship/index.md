@@ -125,4 +125,3 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 7/20 Optional Q&A - Ben Horowitz
 - 7/27 Exec Q&A - Gregg/Aimee
 - 8/3 Virtual Cooking Class
-
