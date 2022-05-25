@@ -50,66 +50,86 @@ Sourcegraph’s current two-pronged approach to lead scoring separately measures
 
 ## Marketing Qualified Lead (MQL)
 
-A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to Marketing’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).
+A visitor’s interactions with our marketing content represent the foundation of our top of funnel inbound lead generation capabilities. The quantitative ranking of these behaviors by their indication of potential intent to purchase through a Marketing Qualified Lead (MQL) score enables inbound SDRs to efficiently manage and prioritize leads according to the Demand Generation team’s viewpoint on which measures of intent correlate with a higher conversion to a Sales Accepted Opportunity (SAO).
 
-In most mature organizations, typically only those inbound leads formally meeting the intent score threshold to be classified as MQLs are handed over to SDRs to work. While we do think the amount of leads coming in through marketing content will eventually warrant this automatic gating, we are not proposing this limitation at this stage of our demand generation engine. As a result, we propose the following intent / MQL scoring system to aid in lead prioritization for inbound SDRs:
+Only those inbound leads formally meeting the intent score threshold to be classified as MQLs are handed over to SDRs to work. See below for the current list of prospect interactions with campaigns that result in MQL designation within Hubspot/Salesforce:
 
 <table>
   <tr>
-   <td><strong>Action</strong>
+   <td><strong>Campaign</strong>
    </td>
-   <td><strong>Incremental lead score points</strong>
+   <td><strong>Campaign Member Status</strong>
    </td>
-  </tr>
-  <tr>
-   <td>Form submission (any other than demo request, pricing inquiry, or feedback)
-   </td>
-   <td>10 points
+   <td><strong>Description</strong>
    </td>
   </tr>
   <tr>
-   <td>Demo request
+   <td>Contact/demo request/pricing inquiry
    </td>
-   <td>15 points
+   <td>Submitted
    </td>
-  </tr>
-  <tr>
-   <td>Pricing inquiry (i.e., contact sales)
-   </td>
-   <td>15 points
+   <td>Any contact sales/demo request on any page
    </td>
   </tr>
   <tr>
-    <td>In-product trial request
+   <td>High Value offers 
    </td>
-   <td>15 points
+   <td>Responded
    </td>
-  </tr>
-  <tr>
-   <td>Private Install or Sourcegraph.com Sign up
-   </td>
-   <td>10 points
+   <td>SimplyDirect survey offering free jacket for responders
    </td>
   </tr>
   <tr>
-   <td>Page view (pricing page)
+   <td>Any High Value in-person event  
    </td>
-   <td>5 points
+   <td>Registered
    </td>
-  </tr>
-  <tr>
-   <td>Page view (any other than pricing)
-   </td>
-   <td>1 point per view
+   <td>Rangers/Giants game 
    </td>
   </tr>
   <tr>
-   <td><strong>MQL Classification</strong>
+   <td>Other in-person events
    </td>
-   <td><strong>15+ points</strong>
+   <td>Attended
+   </td>
+   <td>Tradeshow booth visit
+   </td>
+  </tr>
+  <tr>
+   <td>Webinars (bulk attendees)
+   </td>
+   <td>Attended/viewed on-demand 
+   </td>
+   <td>Finding and fixing vulnerabilities webinar
+   </td>
+  </tr>
+  <tr>
+   <td>Exclusive webinars (limited attendees)
+   </td>
+   <td>Registered
+   </td>
+   <td>Above the Code 
+   </td>
+  </tr>
+  <tr>
+   <td>Gated content
+   </td>
+   <td>Downloaded
+   </td>
+   <td>Dev Onboarding <a href="https://about.sourcegraph.com/guides/continuous-developer-onboarding">Guide</a>
+   </td>
+  </tr>
+  <tr>
+   <td>Drift (online chat)
+   </td>
+   <td>Meeting requested
+   </td>
+   <td>Chatbot utilized to book meeting
    </td>
   </tr>
 </table>
+
+See this [doc](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=213581155) for more details on specific campaign names receiving MQL designation.
 
 Where does MQL data live within Salesforce (relevant to leads and contacts only):
 
