@@ -16,7 +16,7 @@ Please note: we do not use BambooHR’s PTO request system. If your direct repor
 
 📆  Make sure to sync your calendar (on the home page of "PTO by Roots" app in Slack) to ensure that all your PTO events also sync to your and your manager's Google Calendar.
 
-*Keep in mind that Roots creates a day event and not an OOO event*. This means that your events won't be canceled or rejected. Once you've submitted your time off via Roots, go to your calendar and create an OOO event for the days you'll be out.
+_Keep in mind that Roots creates a day event and not an OOO event_. This means that your events won't be canceled or rejected. Once you've submitted your time off via Roots, go to your calendar and create an OOO event for the days you'll be out.
 We also recommend you invite your team to the event Roots created.
 
 ### Roots training
