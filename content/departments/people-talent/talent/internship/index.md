@@ -1,4 +1,4 @@
-## Sourcegraph Internship Program
+# Sourcegraph Internship Program
 
 We are rolling out our first-ever internship program in Q2 FY23!
 
@@ -33,6 +33,9 @@ Our interns will use [Rippling](https://www.rippling.com/) to track and report t
 - 🎧 [Desk Set Up](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
 - 🌐 Internet - A fixed reimbursement for $50 of internet expenses monthly
 - 📱 Mobile phone - A fixed reimbursement for $75 of mobile phone expenses monthly
+- 🧘 Well-being Leave - We trust you to practice agency over your wellbeing, and we provide wellbeing leave to take if you are ill (sick) or need time away from work to regulate your mental or physical wellbeing. If you are sick or need time away, please alert your Manager and the People Team via Slack.
+- 🏖️ PTO - We offer flexible Paid Time Off (PTO). Given that this is a 3-month internship, we expect that on average, interns will not take anymore than a week off in total. If you need PTO, please work with your Manager and the People Team via Slack before confirming your travel details.
+  - As a global company, we're not prescriptive about offering "Company-wide holidays" because the holidays are vastly different in every country! We empower our teammates to use their high agency and decide which days they'd like to use their PTO for.
 
 #### Equipment
 
