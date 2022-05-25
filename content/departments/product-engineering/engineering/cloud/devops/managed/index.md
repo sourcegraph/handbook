@@ -107,7 +107,10 @@ Access can be requested in #it-tech-ops WITH manager approval.
 
 <span class="badge badge-note">SOC2/CI-86</span>
 
-Each managed instance is created in an isolated GCP project and is monitored and alerted via:
+Each managed instance is created in an isolated GCP project.
+System performance metrics are configured and collected in [scoped project](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring).
+
+Every customer managed instance has alerts configured:
 
 - [uptime check](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L553) configured in dedicated GCP managed instance project
 - [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
@@ -121,9 +124,9 @@ Alerting flow:
 
 2. From Opsgenie, alert is sent to [on-call DevOps](../index.md#on-call) and Slack channels (#opsgenie, #cloud-devops).
 
-3. On-call DevOps has to decide, what is the alert type and if [incident](../../../../engineering/process/incidents/index.md) should be opened and follow the procedure to perform the incident. On-call DevOps should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
+3. On-call DevOps has to decide, what is the alert type and if [incident](../../../../engineering/process/incidents/index.md) should be opened and follow [the procedure](../../../../engineering/process/incidents/#process) to perform the incident. On-call DevOps should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
 
-4. When alert is closed via incident resolution, post-mortem actions has to be assigned and performed.
+4. When alert is closed via incident resolution, [post-mortem actions](../../../../engineering/process/incidents/#post-mortem) has to be assigned and performed.
 
 Sample managed instance incident - [customer XXX is down](https://app.incident.io/incidents/102).
 
