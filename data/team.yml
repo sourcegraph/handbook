@@ -1789,7 +1789,7 @@ win_yu:
 crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
-  role: Software Engineer, Delivery
+  role: Engineering Manager, Delivery
   reports_to: director_engineering
   manager_role_slug: engineering_manager_delivery
   location: Ashland, MA, United States 🇺🇸
