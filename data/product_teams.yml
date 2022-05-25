@@ -112,7 +112,7 @@ delivery:
   strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
   product_org: cloud
   pm: brienne_mcnally
-  em: engineering_manager_delivery
+  em: crystal_augustus
   issue_labels:
     - team/delivery
 

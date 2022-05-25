@@ -16,7 +16,7 @@ In order to help attract top global talent, Recruiting Operations Specialists al
 - [BrightHire](guide_to_using_brighthire.md)
 - [Slack](https://slack.com/): To communicate with the Talent team and the rest of the Sourcegraph team
 - [Calendly](https://calendly.com/)
-- Talent Wall (page coming soon)
+- [Talent Wall](guide_to_using_talentwall.md)
 
 ## How to Submit an Interview Scheduling Request
 

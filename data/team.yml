@@ -547,12 +547,6 @@ virginia_ulrich:
   pronunciation: vr ji nyuh oo l ri ch
   description: Virginia lives with her partner (Vinh) and two cats, Little Miss Gable (tuxedo) and Hercules Mulligan (orange tabby). She derives joy from the tiny beautiful moments of human connection, hikes across the city and out in nature, and cooking for others. She studied literature and discovered her love of computer science quite by accident. With many years in customer service in various forms, Virginia can geek out for hours about the philosophy of 👍 customer support, the importance of compassion > empathy, and all things involving people helping other people.
 
-engineering_manager_delivery:
-  name: Virginia Ulrich
-  role: (Interim) Engineering Manager, Delivery
-  reports_to: director_engineering
-  manager_role_slug: engineering_manager_delivery
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
@@ -1795,8 +1789,9 @@ win_yu:
 crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
-  role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
+  role: Engineering Manager, Delivery
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_delivery
   location: Ashland, MA, United States 🇺🇸
   github: caugustus-sourcegraph
   email: crystal.augustus@sourcegraph.com
@@ -3038,9 +3033,10 @@ lily_schurra:
   role: Commercial Counsel
   reports_to: director_legal
   location: Easton, Pennsylvania
-  links: '[LinkedIn](www.linkedin.com/in/c-lily-schurra)'
+  links: '[LinkedIn](https://www.linkedin.com/in/c-lily-schurra)'
   description: Lily is an experienced contracts attorney, having supported the sales and data acquisition teams at Dun & Bradstreet prior to joining Sourcegraph. Professionally, she is happiest when she has regular opportunities to learn new things (like coding to add herself to the Handbook - eek!). Personally, she is happiest practicing yoga or taking Peloton classes on her DIY Peloton, but nothing beats spending time with her husband, daughter, and their two cats.
 
+<<<<<<< HEAD
 dulani_wallace:
   name: Dulani Wallace
   pronouns: he/him/él
@@ -3051,3 +3047,15 @@ dulani_wallace:
   github: dulanism
   links: '[LinkedIn](https://www.linkedin.com/in/dulaniwallace)'
   description: Dulani lives in Northeast Washington, DC. He started developing written manuals and guides for products in the entertainment industry. Eventually he was able to diversify into domains like software supply chain and cybersecurity. From there, he began building educational presentations and courses designed to ease technical pain points. Influenced by writers and educators like Chinua Achebe, Kathy Sierra, and Mihaly Csikszentmihalyi, Dulani aims to find the empathetic sweet spot to motivate people to learn. On his spare time, he enjoys reading, music production, camping, and spending time with his wife and daughter.
+=======
+anna_bergevin:
+  name: Anna Bergevin
+  email: anna.bergevin@sourcegraph.com
+  github: a-bergevin
+  pronouns: she/her
+  role: Product Manager - Growth
+  reports_to: product_director_cloud
+  location: Salt Lake City, UT, USA 🇺🇸
+  links: '[Linkedin](https://www.linkedin.com/in/annabergevin/)'
+  description: Anna lives in Utah with her husband, two young girls, and a very spoiled shihtzu named Sherlock. After a long career in analytics, she made the leap to product - a change which has been both the most challenging and most rewarding stage of her career. Anna is passionate about data driven product development, improving equity and access in the tech industry, and experimenting with processes and systems that help facilitate effective collaboration.  She most recently comes from Pluralsight where she worked as a PM in the Platfrom Team building communications capabilities in and outside of the app. Outside of work she enjoys traveling with her family, working in her garden, and maxing out her library card.
+>>>>>>> origin/main
