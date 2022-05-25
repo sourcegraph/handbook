@@ -29,15 +29,15 @@ const fiscalQuarterPattern = /F?Q([1-4])/
 
 const datePattern = new RegExp(
     '\\b(' +
-        [
-            monthPattern.source,
-            weekPattern.source,
-            timePattern.source,
-            dateTimePattern.source,
-            fiscalYearPattern.source,
-            fiscalQuarterPattern.source,
-        ].join('|') +
-        ')\\b',
+    [
+        monthPattern.source,
+        weekPattern.source,
+        timePattern.source,
+        dateTimePattern.source,
+        fiscalYearPattern.source,
+        fiscalQuarterPattern.source,
+    ].join('|') +
+    ')\\b',
     'g'
 )
 
@@ -124,17 +124,8 @@ function parseFiscalInterval(input: string): { start: string; end: string } | nu
         startFiscalYearString = '20' + startFiscalYearString
     }
 
-    let endYear
-    let startYear
-
-    if (input.includes('Q4') || !input.includes('Q')) {
-        endYear = parseInt(startFiscalYearString, 10)
-        startYear = endYear - 1
-    } else {
-        // start & end year are the same if evaluating any Q that isn't Q4
-        endYear = parseInt(startFiscalYearString, 10) - 1
-        startYear = endYear
-    }
+    const startYear = parseInt(startFiscalYearString, 10)
+    const endYear = Math.floor(startYear + (startMonth + durationMonths) / 12)
 
     return {
         start: `${formatInt(startYear, 4)}-${formatInt(startMonth, 2)}-01`,
