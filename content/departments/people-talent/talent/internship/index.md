@@ -53,36 +53,6 @@ Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
 Read more about our VISA policies for full-time employees [here](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
-### Internship Events
-
-In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
-
-- 5/16 Welcome Meeting with HR
-- 5/19 Meet the Founders
-- 5/25 Virtual Game Event
-- 5/31 Cohort Meeting
-- 6/1 Exec Q&A- Carly Jones
-- 6/8 LinkedIn Workshop
-- 6/14 Yoga/Meditation
-- 6/15 Exec Q&A - Dan Adler
-- 6/21 Cohort Meeting
-- 6/22 Exec Q&A - Christina/Nick
-- 6/29 Exec Q&A - Kacie
-- 7/6 Interviewing Workshop
-- 7/13 Q&A - Connor O'Brien
-- 7/14 Virtual Escape Room
-- 7/19 Cohort Meeting
-- 7/20 Optional Q&A - Ben Horowitz
-- 7/27 Exec Q&A - Gregg/Aimee
-- 8/3 Virtual Cooking Class
-
-### Internship Projects
-
-Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
-
-- The video submission is due to Kemper on July 18th, 2022.
-- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB August 1, 2022.
-
 ### Hiring after the internship
 
 At the end of an internship, a full time position is not guaranteed, but may be possible depending on performance and what roles are open at that time. If the internship does not end with joining Sourcegraph in a full-time position, our team will happily stay in touch with you in case another opportunity arises in the future.
@@ -123,3 +93,35 @@ Internship Plans
 Wage and Hour Guidelines
 
 - Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
+
+## 2022 Internship Cohort
+
+### Internship Projects
+
+Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
+
+- The video submission is due to Kemper on July 18th, 2022.
+- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB August 1, 2022.
+
+### Internship Events
+
+In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
+
+- 5/16 Welcome Meeting with HR
+- 5/19 Meet the Founders
+- 5/25 Virtual Game Event
+- 5/31 Cohort Meeting
+- 6/1 Exec Q&A- Carly Jones
+- 6/8 LinkedIn Workshop
+- 6/14 Yoga/Meditation
+- 6/15 Exec Q&A - Dan Adler
+- 6/21 Cohort Meeting
+- 6/22 Exec Q&A - Christina/Nick
+- 6/29 Exec Q&A - Kacie
+- 7/6 Interviewing Workshop
+- 7/13 Q&A - Connor O'Brien
+- 7/14 Virtual Escape Room
+- 7/19 Cohort Meeting
+- 7/20 Optional Q&A - Ben Horowitz
+- 7/27 Exec Q&A - Gregg/Aimee
+- 8/3 Virtual Cooking Class
