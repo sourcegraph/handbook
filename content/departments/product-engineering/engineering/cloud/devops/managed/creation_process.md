@@ -47,21 +47,10 @@ go run ./util/cmd/ --customer=$COMPANY check
 - name: `managed-instance-$COMPANY`
 - Authorized redirect URIs: `https://$COMPANY.sourcegraph.com/.auth/callback`
 
-1. Create [secret for OIDC login](https://console.cloud.google.com/security/secret-manager/create?project=sourcegraph-managed-$COMPANY) (used by Sourcegraph employees):
-
-- name: `OIDC_JSON`
-- scret value:
+1. Create GCP secret for OIDC Auth
 
 ```
-{
-  "allowSignup": false,
-  "clientID": "<CLIENT_ID_FROM_OAUTH_CREDENTIALS>",
-  "clientSecret": "<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>",
-  "displayName": "Sourcegraph Management",
-  "issuer": "https://accounts.google.com",
-  "requireEmailDomain": "sourcegraph.com",
-  "type": "openidconnect"
-}
+mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
 ```
 
 1. Initialise instance
