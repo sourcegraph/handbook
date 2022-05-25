@@ -22,15 +22,15 @@ However, if you intend to make any other purchase that falls above the limits be
 
 ## Airbase Corporate credit cards
 
-Managers and above are eligible to receive corporate credit cards for team purchases. We use [Airbase](https://dashboard.airbase.io/home), which allows you to receive a physical card, or to use a vendor specific virtual card if desired.
+We offer corporate credit cards for team purchases. We use [Airbase](https://dashboard.airbase.io/home), which allows you to receive a physical card, or to use a vendor specific virtual card if desired.
 
-Just [contact the finance team](../index.md#contact) if you believe you are eligible for one and would like to have one. By default, the following monthly limits apply, but they can be raised if requested.
+Just [contact the finance team](../index.md#contact) if you believe you are eligible for one and would like to have one. By default, the following monthly limits apply, but they can be raised if requested. Please email AP@sourcegraph.com for any card requests and include your manager for approval (if applicable).
 
-| Role                                       | Default monthly credit limit |
-| ------------------------------------------ | ---------------------------- |
-| Department leads (VP-level or above)       | $10,000                      |
-| Managers and Directors                     | $1,000                       |
-| Analyst and Senior Analyst (with approval) | $500                         |
+| Role                                 | Default monthly credit limit |
+| ------------------------------------ | ---------------------------- |
+| Department leads (VP-level or above) | $10,000                      |
+| Managers and Directors               | $1,000                       |
+| IC's (with approval)                 | $500                         |
 
 **Physical Credit Cards**: For corporate purchases on Airbase cards $25, please provide receipts. As a cardholder you will be responsible for providing the correct expense categories in Airbase and uploading receipts for all purchases. Failure to do so after warnings will result in your card being cancelled. Items purchased on a company credit should not be added to invoices or expense reports. Note that these cards take 7 days to ship within the US and longer for international addresses. These cards are tied to a specific teammate rather than a specific vendor. **All charges must be categorized and receipts added by the last day of the month in order to allow us to close the books**.
 
