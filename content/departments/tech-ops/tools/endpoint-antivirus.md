@@ -1,4 +1,4 @@
-### **Workspace One (WS1)**
+# **Workspace One (WS1)**
 
 ### **What is Workspace One?**
 
