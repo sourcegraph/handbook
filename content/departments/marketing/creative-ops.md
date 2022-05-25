@@ -29,7 +29,7 @@ We divide our functions into two categories: production and strategy
 **Strategy**
 
 - Creative strategy framework. Facilitate workshops that promote design backed by strategic thinking
-- Brainstorming sessions. Facilitate brainstorming sessions between the Marketing team and our in-house designer or design partners.  
+- Brainstorming sessions. Facilitate brainstorming sessions between the Marketing team and our in-house designer or design partners.
 - Frontend projects. Partner with the Content Platform Team to influence frontend initiatives that increase the efficiency and quality of our webpages
 
 ## Contact us
