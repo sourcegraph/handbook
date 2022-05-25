@@ -1796,7 +1796,8 @@ crystal_augustus:
   name: Crystal Augustus
   pronouns: she/her
   role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
+  reports_to: director_engineering
+  manager_role_slug: engineering_manager_delivery
   location: Ashland, MA, United States 🇺🇸
   github: caugustus-sourcegraph
   email: crystal.augustus@sourcegraph.com
