@@ -2,7 +2,7 @@
 
 ## Recording paid time off via Roots
 
-We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack. 
+We submit and record all PTO using [Roots](https://www.tryroots.io/pto), which allows you to submit all PTO events directly in Slack.
 
 Visit [this page](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md) to read more about Roots and how it works.
 
@@ -40,9 +40,5 @@ You can turn it on and off, select the range of days, change the email subject a
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/7a012a30c4b048b8bf1644d5298d9898" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 You can read more about [vacation responder here](https://support.google.com/mail/answer/25922?hl=en)
-
-
-
-
 
 **For more information on our PTO philosophy and policy, please see [Paid time off](index.md).**
