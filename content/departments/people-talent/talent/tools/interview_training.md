@@ -11,8 +11,8 @@ Here at Sourcegraph, we believe that interviewing is a company-wide effort. This
 ## Checklist for new interviewers
 
 - Review interview training below
-- Review [guide to using brighthire] page
-- Review [guide to using Greenhouse] page
+- Review [guide to using brighthire](guide_to_using_brighthire.md)
+- Review [guide to using Greenhouse](guide_to_using_greenhouse.md)
   - How to see your interview questions
   - How to provide feedback
   - Interview feedback definitions
