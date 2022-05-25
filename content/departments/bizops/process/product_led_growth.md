@@ -54,7 +54,6 @@ A visitor’s interactions with our marketing content represent the foundation o
 
 Only those inbound leads formally meeting the intent score threshold to be classified as MQLs are handed over to SDRs to work. See below for the current list of prospect interactions with campaigns that result in MQL designation within Hubspot/Salesforce:
 
-
 <table>
   <tr>
    <td><strong>Campaign</strong>
@@ -129,7 +128,6 @@ Only those inbound leads formally meeting the intent score threshold to be class
    </td>
   </tr>
 </table>
-
 
 See this [doc](https://docs.google.com/spreadsheets/d/1mAa2bueT8BrVjd5H5PQjKb7QMVFYObHYwg18ox02vsk/edit#gid=213581155) for more details on specific campaign names receiving MQL designation.
 
