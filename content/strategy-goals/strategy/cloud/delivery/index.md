@@ -13,7 +13,7 @@ Our goal is to ensure any Sourcegraph prospect or customer to use Sourcegraph in
 - Key Result 1: Reduce the number of support tickets raised to Delivery team about deployment resourcing needs by shipping improved documentation for Resource Estimation based on customer product usage.
 - Key Result 2: Define a data metric inventory and cross-functional DRIs required for long term Resource Estimator tooling improvements.
 - Key Result 3: Complete an RFC for a proposal to establish a centralized location to store data about customer architecture and resourcing needs.
-- Key Result 4: Interview 5 or more eneterpise customers who have either deployed Sourcegraph to production or ran an upgrade in the last 3 quarters to understand their pain points
+- Key Result 4: Interview 5 or more enterprise customers who have either deployed Sourcegraph to production or ran an upgrade in the last 3 quarters to understand their pain points
 - Key Result 4: Ship customer research insights document synthesizing customer research findings.
 
 Within this area, in Q2 we are not working on:
