@@ -98,6 +98,9 @@ Wage and Hour Guidelines
 
 ## 2022 Internship Cohort
 
+![Internship Cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
+
+
 ### Internship Projects
 
 Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
