@@ -23,7 +23,7 @@ Within this area, in Q2 we are not working on:
 
 ### Problem Area: Build customer trust by improving internal troubleshooting processes
 
-We want to streamline our troubleshooting processes for our Customer Engineering and Customer Support teams to ensure we can reduce any friction customers may face during setup, upgrade, or maintenance of a self-hosted Sourcegraph instance. Our goal is to help immprove the customer experience and reduce the time to resolve issues.
+We want to streamline our troubleshooting processes for our Customer Engineering and Customer Support teams to ensure we can reduce any friction customers may face during setup, upgrade, or maintenance of a self-hosted Sourcegraph instance. Our goal is to help improve the customer experience and reduce the time to resolve issues.
 
 - Key Result 1: 80% of Github issues escalated to Delivery for customer issues are using the Delivery team escalation template in Github which includes standardized peocesses for troubleshooting.
 - Key Result 2: Publish reference architecture to Sourcegraph docs based off a modified and generalized architecture built for Stripe POC
