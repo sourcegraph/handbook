@@ -39,50 +39,31 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Create a PR for review, apply and merge
 1. Check if all is running
 
-```
-go run ./util/cmd/ --customer=$COMPANY check
-```
-
-1. In created GCP project create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY)
-
-- type: Web Application
-- name: `managed-instance-$COMPANY`
-- Authorized redirect URIs: `https://$COMPANY.sourcegraph.com/.auth/callback`
-
-1. Create GCP secret for OIDC Auth
-
-```
-mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
-```
-
-1. Initialise instance
-
-```
-mg init-instance $CUSTOMER_ADMIN_EMAIL
-```
-
-1. Navigate to Grafana under `/-/debug/grafana` and confirm the instance looks healthy.
-1. In the **global user settings** (not site config), set `"alerts.showPatchUpdates": false`
-1. In the site configuration, configure alerting to go to our #alerts-managed-instances Slack channel, for example (replace `$COMPANY` with the actual company name, and `$WEBHOOK_URL` with the actual webhook URL from 1password **Managed instances** > `#alerts-managed-instances Slack webhook URL`):
+   ```bash
+   mg --customer=$COMPANY check
    ```
-     "observability.alerts": [
-       {
-         "level": "critical",
-         "notifier": {
-           "type": "slack",
-           "username": "$COMPANY",
-           "url": "$WEBHOOK_URL"
-         }
-       },
-     ],
+
+1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
+
+   - type: Web Application
+   - name: `managed-instance-$COMPANY`
+   - Authorized redirect URIs: `https://$COMPANY.sourcegraph.com/.auth/callback`
+
+1. Create a GCS secret to be used by OIDC authentication
+
+   ```bash
+   mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
    ```
-1. In the site configuration, configure password reset emails to expire after 24 hours (instead of the default 4 hours). This allows more time for the customer to set up their initial account and gain access to the instance.
+
+1. Initialise the instance and copy the password reset link that is generated
+
+   ```bash
+   mg init-instance $CUSTOMER_ADMIN_EMAIL
    ```
-   "auth.passwordResetLinkExpiry": 86400, // 24 hours
-   ```
+
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
-1. Enable metrics collection and GCP alerts for created Managed Instance via [this action](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
-1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
+1. Enable metrics collection and GCP alerts for the new instance by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
+1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 
@@ -91,8 +72,11 @@ mg init-instance $CUSTOMER_ADMIN_EMAIL
 To provide the customer access to the instance:
 
 1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
-1. Prepare the initial admin account for the customer:
-   1. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
+2. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Inform the CE this link will expire after 24 hours. If the link expires before the customer was able to sign up, you can generate a new link with
+   ```bash
+   mg reset-customer-password --email <customer admin email>
+   ```
+3. Ask the CE to add 10 extra seats to the license, as we currently do not exclude DevOps admin accounts from the license usage.
 
 ## Configuring License, SSO, and repositories
 
