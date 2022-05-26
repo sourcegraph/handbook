@@ -6,7 +6,9 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
    - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details. If you customize the `sourcegraph-managed` prefix, make sure to update the PROJECT_PREFIX variable in the below instructions.
-   - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
+   - Due to the amount of service APIs that are defined in this project, run Terraform with increased parallelism to prevent waiting a long time for the plan to form:
+     `terraform apply -parallelism=100`
+   - Ensure that you commit and push the `terraform.tfstate` file to GitHub after running Terraform!
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
 
