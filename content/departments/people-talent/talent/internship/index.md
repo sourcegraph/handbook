@@ -72,7 +72,7 @@ While this is our first internship program, it won’t be our last! We welcome q
 
 ### How to request an intern for your team
 
-Intern positions for the first cohort (May-August 2022) have been finalized. More info coming soon about how to request an intern for future cohorts.
+Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
 
 Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 
