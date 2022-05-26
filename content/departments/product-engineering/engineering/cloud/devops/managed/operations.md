@@ -211,12 +211,12 @@ We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks
 
 The primary tool that monitors releases post-deployment are through a variety of uptime monitors and system performance metrics. These metrics are covered in documentation related to `SOC/CI-87`.
 
-There is no automatic deployment of Sourcegraph in managed instances. Following a release upgrade, we will perform additional manul check to confirm instance health.
+Following a release upgrade, in addition to automated instance health checks, we will perform additional manul check to confirm instance health.
 
 Run command below and inspect the output to ensure that all containers are healthy (in particular, look for anything that says Restarting):
 
 ```sh
-mg check
+mg --customer $CUSTOMER check
 ```
 
 Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
