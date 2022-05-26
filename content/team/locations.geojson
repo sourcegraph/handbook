@@ -503,19 +503,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Will Camp"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -97.743057,
-               30.267153
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Eric Brody-Moore"
          },
          "geometry": {
@@ -607,32 +594,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Giselle Northy"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.841766,
-               45.355389
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Virginia Ulrich"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.658722,
-               45.51223
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Adeola Akinsiku"
          },
          "geometry": {
@@ -685,19 +646,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Rebecca Dodd"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -0.127758,
-               51.507351
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Kelli Rockwell"
          },
          "geometry": {
@@ -705,22 +653,6 @@
             "coordinates": [
                -122.19268798828126,
                47.616346999837226
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "marker-color": "#7e7e7e",
-            "marker-size": "medium",
-            "marker-symbol": "",
-            "name:": "Dan Mckean"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -2.1917724609375,
-               51.004681939880314
             ]
          }
       },
@@ -1409,6 +1341,19 @@
       {
          "type": "Feature",
          "properties": {
+            "name": "Justin Dorfman"
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               -118.848740,
+               34.176079
+            ]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
             "name": "Nathan Downs"
          },
          "geometry": {
@@ -1483,6 +1428,18 @@
               37.29520563333924
             ]
          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "Lily Schurra"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -75.21240234375,
+              40.68896903762434
+            ]
+         }
       }
-   ]
-}
+] }

@@ -1,7 +1,7 @@
 # Training
 
-- [Tools we use]
-- [Compliance]
+- [Tools we use](tools/index.md)
+- [Compliance training]
 - [Manager enablement]
 
 TODO

@@ -1,4 +1,4 @@
-## Internship Recruiting and Offer Processes
+# Internship Recruiting and Offer Processes
 
 The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 

@@ -7,7 +7,7 @@ search_product:
   pm: ben_venker
   em: loïc_guychard
   design: marisa_kanemoto
-  pmm: alex_isken
+  pmm: lori_colston
   issue_labels:
     - team/search-product
     - team/search
@@ -19,7 +19,7 @@ search_core:
   pm: eugenia_fernandez
   em: jeff_warner
   design: rob_rhyne
-  pmm: alex_isken
+  pmm: lori_colston
   issue_labels:
     - team/search-core
     - team/search
@@ -42,7 +42,7 @@ batch_changes:
   pm: malo_marrec
   em: chris_pine
   design: rob_rhyne
-  pmm: victoria_yunger
+  pmm: lori_colston
   issue_labels:
     - team/batchers
 
@@ -112,7 +112,7 @@ delivery:
   strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
   product_org: cloud
   pm: brienne_mcnally
-  em: engineering_manager_delivery
+  em: crystal_augustus
   issue_labels:
     - team/delivery
 

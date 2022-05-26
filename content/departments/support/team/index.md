@@ -15,7 +15,6 @@ Our README expands on our profile in [the company team directory](../../../team/
 - Warren [README](warren-readme.md)
 - Brielle [README](brielle-readme.md)
 - Nonso [README](nonso-readme.md)
-- Virginia [README](virginia-readme.md)
 - Riana [README](riana-readme.md)
 - Shawnteé [README](shawntee-readme.md)
 - Quinlan [README](quin-readme.md)

@@ -72,7 +72,7 @@
 - [Employment verification](people-ops/process/employment_verification.md)
 - [Moving to a new location](people-ops/process/moving.md)
 - [Leaving Sourcegraph](people-ops/process/leaving.md)
-- [Tools we use](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools.md)
+- [Tools we use](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)
 
 ## Talent Processes & Tools
 
