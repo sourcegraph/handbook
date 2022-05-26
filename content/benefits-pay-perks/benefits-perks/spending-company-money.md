@@ -155,4 +155,6 @@ The Company will not cover the cost of a co-working space deposit or sign for co
 
 **Travel expenses:** please see our page on [travel budgets](travel/index.md).
 
+**Virtual and in-person (local) teammate gatherings:** Each teammate has a budget of $150/quarter for virtual team gatherings and $150/quarter for local teammate gatherings. [Please see the Teammate Gatherings and Celebrations page for more details.](celebrate.md)
+
 Find out how to submit your expenses [here](../pay-expenses/expenses/index.md).
