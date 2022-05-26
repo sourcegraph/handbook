@@ -106,8 +106,8 @@ Wage and Hour Guidelines
 
 - [Collette](https://handbook.sourcegraph.com/team/#collette-tesauro) - for legal questions
 - [Keely](https://handbook.sourcegraph.com/team/#keely-aguayo) - for payroll questions
-- [Inés](https://handbook.sourcegraph.com/team/#inés-roitman) - for onboarding questions 
-- [Kemper](https://handbook.sourcegraph.com/team/#kemper-hamilton) - for all other internship program questions 
+- [Inés](https://handbook.sourcegraph.com/team/#inés-roitman) - for onboarding questions
+- [Kemper](https://handbook.sourcegraph.com/team/#kemper-hamilton) - for all other internship program questions
 
 ## 2022 Internship Cohort
 
