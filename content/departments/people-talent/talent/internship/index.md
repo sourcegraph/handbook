@@ -86,7 +86,7 @@ The process for referring an intern is the same process as referring a full time
 
 If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
 
-### Managing an intern 
+### Managing an intern
 
 #### What does managing an intern require?
 
@@ -103,8 +103,8 @@ Wage and Hour Guidelines
 - Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
 
 #### Point of contact
-- [Collette](../../../../../../team.md#collette-tesauro)
 
+- [Collette](../../../../../../team.md#collette-tesauro)
 
 ## 2022 Internship Cohort
 
