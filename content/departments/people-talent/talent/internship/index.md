@@ -104,10 +104,10 @@ Wage and Hour Guidelines
 
 #### Point of contact
 
-- [Collette](https://handbook.sourcegraph.com/team/#collette-tesauro) - for legal questions
-- [Keely](https://handbook.sourcegraph.com/team/#keely-aguayo) - for payroll questions
-- [Inés](https://handbook.sourcegraph.com/team/#inés-roitman) - for onboarding questions
-- [Kemper](https://handbook.sourcegraph.com/team/#kemper-hamilton) - for all other internship program questions
+- [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
+- [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
+- [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
+- [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
 
 ## 2022 Internship Cohort
 
