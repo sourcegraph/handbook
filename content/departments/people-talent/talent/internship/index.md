@@ -104,7 +104,7 @@ Wage and Hour Guidelines
 
 #### Point of contact
 
-- [Collette](../../../../../team.md)
+- [Collette](../../../../../team/index.md)
 
 ## 2022 Internship Cohort
 
