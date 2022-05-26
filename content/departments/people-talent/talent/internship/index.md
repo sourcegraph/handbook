@@ -111,7 +111,7 @@ Wage and Hour Guidelines
 
 ## 2022 Internship Cohort
 
-### Meet the members 
+### Meet the members
 
 ![Internship Cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
 
