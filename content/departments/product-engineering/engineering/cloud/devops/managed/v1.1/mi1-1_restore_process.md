@@ -55,13 +55,13 @@ Does the VM still exist?
     - Yes, [re-create the VM with existing data disk](##re-create-the-vm-with-existing-data-disk)
     - No, [re-create the VM with a new data disk from disk snapshot](##re-create-the-vm-with-new-data-disk-from-disk-snapshot)
 
-- Yes, follow [operation guides](./operations.md) to troubleshoot services condition. If unable to recover running services on the VM, fallback to the recovery plan above.
+- Yes, follow [operation guides](../operations.md) to troubleshoot services condition. If unable to recover running services on the VM, fallback to the recovery plan above.
 
 ### Re-create the VM with existing data disk
 
 1. Open [sourcegraph/deploy-sourcegraph-managed] and check out to the `$CUSTOMER` directory
 1. Run `terraform apply` to reconcile the infrastructure to its definition in code.
-1. Follow [confirm instance health](./operations.md#confirm-instance-health)
+1. Follow [confirm instance health](../operations.md#confirm-instance-health)
 
 ### Re-create the VM with new data disk from disk snapshot
 
@@ -76,7 +76,7 @@ Does the VM still exist?
    ```
 
 1. Run `terraform apply` to reconcile the infrastructure to its definition in code.
-1. Follow [confirm instance health](./operations.md#confirm-instance-health)
+1. Follow [confirm instance health](../operations.md#confirm-instance-health)
 1. Commit your changes and open a Pull Request
 
 [sourcegraph/deploy-sourcegraph-managed]: https://github.com/sourcegraph/deploy-sourcegraph-managed
