@@ -2,6 +2,8 @@
 
 <span class="badge badge-note">SOC2/CI-110</span>
 
+> Are you experiencing a zonal failure? Follow the [failover process](./mi1-1_failover_process.md)
+
 In MI v1.1, we now have resources running outside the VM, i.e Cloud SQL, hence the restoration comes with multiple stages. Perform the restoration in the following order.
 
 ## Restoring Cloud SQL
