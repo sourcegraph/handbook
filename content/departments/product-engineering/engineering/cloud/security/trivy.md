@@ -3,6 +3,7 @@
 [Trivy](https://github.com/aquasecurity/trivy) is a container image scanner. It breaks down a container image into components and alerts on components with CVEs. We scan our container images for Critical and High severity CVEs.
 
 We currently run Trivy in two ways:
+
 - Daily as a [CronJob](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/security/tooling/trivy/README.md) in the security-tooling kubernetes cluster.
 - In our CI on image builds.
 
@@ -12,12 +13,14 @@ The CI scan is used to catch CVEs in new components. It acts on non-blocking mod
 
 ## Running Trivy locally
 
-Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/): 
+Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/):
+
 ```
 brew install aquasecurity/trivy/trivy
 ```
 
 Once Trivy is installed running scans on images is easy:
+
 ```
 trivy image --severity "HIGH,CRITICAL" <IMAGE>:insiders
 ```
@@ -30,11 +33,12 @@ Trivy finds many vulnerabilities that are either false positives (where we are n
 
 ## For Security engineers
 
-Trivy runs  When a new vulnerability is found by Trivy it's the resposibility of the security engineer on support rotation to triage and fix it. 
+Trivy runs When a new vulnerability is found by Trivy it's the resposibility of the security engineer on support rotation to triage and fix it.
 
 ### Triaging
 
 To triage a Trivy vulnerability and confirm its risk to our environment confirm the vulnerable versions on the official vulnerability source and the component by running:
+
 ```
 trivy image --severity "HIGH,CRITICAL" -f json {IMAGE}
 ```
@@ -46,12 +50,15 @@ grep the results and you will find the exact version of the component the image 
 If a component or base image has a CVE we decide whether to patch it based on the risk of the vulnerability and of the patch. For example, if we have a High severity CVE but that actually does not present risk to our application and the upgrade is of several major versions we may choose to not upgrade. On the other hand, if the patches are available for minor versions we should always patch regardless of the vulnerability risk.
 
 Most docker images we create have build scripts that can be run locally. In case the CI does not build the image when changes are committed to a PR, you can force an image build with:
+
 ```
 sg ci build docker-images-patch <image>
 ```
+
 More information [here](../../process/deployments/testing.md/#building-docker-images-for-a-specific-branch)
 
 A recommended process to test patches is:
+
 1. Run a trivy scan on the current published image.
 2. Make any changes to the Dockerfile.
 3. Build the image locally.
