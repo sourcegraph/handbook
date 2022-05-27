@@ -28,6 +28,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 Our interns will use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
 
+Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis on [Rippling](https://www.rippling.com/). If an intern makes a mistake logging their hours, they can go back and edit their time entry.
+
 #### Perks
 
 - 🎧 [Desk Set Up](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
@@ -53,6 +55,71 @@ Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
 Read more about our VISA policies for full-time employees [here](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
+### Hiring after the internship
+
+At the end of an internship, a full time position is not guaranteed, but may be possible depending on performance and what roles are open at that time. If the internship does not end with joining Sourcegraph in a full-time position, our team will happily stay in touch with you in case another opportunity arises in the future.
+
+### Helpful Links
+
+- [Resources for Candidates](../../resources_for_candidates.md)
+- [How to Apply](../../resources_for_candidates.md#how-to-apply)
+- [Interviewing at Sourcegraph](../../resources_for_candidates.md#interviewing-at-sourcegraph)
+- [Candidate FAQs](../../resources_for_candidates.md#candidate-faqs)
+
+## Information for Sourcegraph Teammates
+
+### Future Internship Cohorts
+
+While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of the internship.
+
+### How to request an intern for your team
+
+Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
+
+Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
+
+### How to refer an intern
+
+The process for referring an intern is the same process as referring a full time employee. The instructions for doing so are documented [here](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse.
+
+### My intern request was approved, now what?
+
+If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
+
+### Managing an intern
+
+#### What does managing an intern require?
+
+1:1 Meetings
+
+- Consistent feedback is crucial to a successful internship. We expect managers to conduct a weekly 1:1 with their intern(s) for the duration of the internship program. The internship program manager will share a 1:1 template and a weekly project tracker with each intern manager prior to the internship start date.
+
+Internship Plans
+
+- Prior to the internship start date, each intern manager will create an Internship Plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer.
+
+Wage and Hour Guidelines
+
+- Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
+
+#### Point of contact
+
+- [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
+- [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
+- [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
+- [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
+
+## 2022 Internship Cohort
+
+![Internship Cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
+
+### Internship Projects
+
+Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
+
+- The video submission is due to Kemper on July 18th, 2022.
+- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB August 1, 2022.
+
 ### Internship Events
 
 In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
@@ -75,51 +142,3 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 7/20 Optional Q&A - Ben Horowitz
 - 7/27 Exec Q&A - Gregg/Aimee
 - 8/3 Virtual Cooking Class
-
-### Internship Projects
-
-Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
-
-- The video submission is due to Kemper on July 18th, 2022.
-- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB August 1, 2022.
-
-### Hiring after the internship
-
-At the end of an internship, a full time position is not guaranteed, but may be possible depending on performance and what roles are open at that time. If the internship does not end with joining Sourcegraph in a full-time position, our team will happily stay in touch with you in case another opportunity arises in the future.
-
-### Helpful Links
-
-- [Resources for Candidates](../../resources_for_candidates.md)
-- [How to Apply](../../resources_for_candidates.md#how-to-apply)
-- [Interviewing at Sourcegraph](../../resources_for_candidates.md#interviewing-at-sourcegraph)
-- [Candidate FAQs](../../resources_for_candidates.md#candidate-faqs)
-
-## Information for Sourcegraph Teammates
-
-### Future Internship Cohorts
-
-While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of the internship.
-
-### How to request an intern for your team
-
-Intern positions for the first cohort (May-August 2022) have been finalized. More info coming soon about how to request an intern for future cohorts.
-
-Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
-
-### My intern request was approved, now what?
-
-If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
-
-### What does managing an intern require?
-
-1:1 Meetings
-
-- Consistent feedback is crucial to a successful internship. We expect managers to conduct a weekly 1:1 with their intern(s) for the duration of the internship program. The internship program manager will share a 1:1 template and a weekly project tracker with each intern manager prior to the internship start date.
-
-Internship Plans
-
-- Prior to the internship start date, each intern manager will create an Internship Plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer.
-
-Wage and Hour Guidelines
-
-- Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
