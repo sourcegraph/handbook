@@ -38,4 +38,4 @@ We identify candidates using a variety of channels:
 
 ### How a Recruiter partners with their Sourcer
 
-COMING SOON
+COMING SOON!
