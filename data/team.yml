@@ -15,6 +15,7 @@ beyang_liu:
   name: Beyang Liu
   role: CTO, Cofounder, Board of Directors
   reports_to: ceo
+  manager_role_slug: cto
   location: San Francisco, CA, USA 🇺🇸
   email: beyang@sourcegraph.com
   github: beyang
@@ -935,17 +936,6 @@ kendrick_morris:
   email: kendrick@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/kendrick-morris-cpa-3563b993/)'
   description: Kendrick grew up in Houston, TX and now resides in San Francisco, CA. He graduated with a degree in Economics-Accounting & Government from Claremont McKenna College. Prior to Sourcegraph, Kendrick worked in the Deloitte San Francisco audit practice and currently holds a CPA license in California. He enjoys listening to podcasts, collecting vintage basketball cards, and driving just about anywhere for good barbecue.
-
-rebecca_dodd:
-  name: Rebecca Dodd
-  pronouns: she/her
-  role: Senior Managing Editor
-  reports_to: director_content_strategy
-  manager_role_slug: senior_managing_editor
-  location: Bristol, UK 🇬🇧
-  email: rebecca@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/rebecca-lee-dodd/)'
-  description: "Originally from Cape Town, South Africa, Rebecca started her career in journalism before finding her way into tech via content marketing. Prior to Sourcegraph she worked at GitLab for over four years and managed their company blog. An enthusiastic traveller, Rebecca has a custom Google Map of every city she's ever visited, complete with colour-coded pins of the best coffee shops and restaurants. Ask her for recommendations!"
 
 carly_jones:
   name: Carly Jones
