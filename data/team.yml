@@ -115,7 +115,7 @@ vanesa_ortiz:
   pronouns: she/her
   pronunciation: '/[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
   role: Developer Community Manager
-  reports_to: vp_marketing
+  reports_to: cto
   manager_role_slug: dev_community_manager
   location: San Francisco, CA, USA 🇺🇸
   github: vanesa
@@ -608,7 +608,7 @@ andy_schumeister:
   name: Andy Schumeister
   pronouns: he/him
   role: Director of Product Marketing
-  reports_to: vp_marketing
+  reports_to: ceo
   manager_role_slug: director_product_marketing
   location: Minneapolis, MN, USA 🇺🇸
   github: abschu
@@ -918,7 +918,7 @@ fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
   role: Creative Operations Manager
-  reports_to: vp_marketing
+  reports_to: ceo
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
   email: fabiana@sourcegraph.com
@@ -1297,7 +1297,7 @@ amie_rotherham:
   name: Amie Rotherham
   pronouns: She/Her
   role: Director of Global Communications
-  reports_to: vp_marketing
+  reports_to: ceo
   manager_role_slug: director_global_communications
   location: Toronto, Canada 🇨🇦
   github: amieroth
@@ -1778,7 +1778,7 @@ adam_greenhalgh:
   name: Adam Greenhalgh
   pronouns: he/him
   role: Marketing Strategy and Analytics
-  reports_to: vp_marketing
+  reports_to: ceo
   location: Salt Lake City, Utah, United States
   github: Adammaxla
   email: you@sourcegraph.com
@@ -1874,7 +1874,7 @@ carter_jaenichen:
 amber_smokowski:
   name: Amber Smokowski
   role: Executive Business Partner, Sales and Marketing
-  reports_to: vp_marketing
+  reports_to: vp_sales
   location: From Longmont, CO, USA currently in Austin, TX, USA
   github: ambersmo
   email: amber.smokowski@sourcegraph.com
@@ -2452,7 +2452,7 @@ michael mcmahan:
 justin dorfman:
   name: Justin Dorfman
   role: Open Source Program Manager
-  reports_to: vp_marketing
+  reports_to: cto
   location: Los Angeles, CA, USA 🇺🇸
   github: jdorfman
   email: justin.dorfman@sourcegraph.com
