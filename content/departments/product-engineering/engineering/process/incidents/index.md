@@ -15,6 +15,9 @@ Additionally, on big announcement days (funding, product launch, campaign launch
 
 All incidents are announced in the #incidents channel automatically through incident.<unlink></unlink>io, and past incidents are available in the [incidents.io dashboard](https://app.incident.io/incidents) and our [past incident postmortems](#past-incident-post-mortems).
 
+All incidents are opened by a team member and closed by a team member. We currently have no automated process for incident creation
+or closing. This is a deliberate decision such a that a human must declare an incident and must declare it resolved.
+
 ## Process
 
 ### Identification
