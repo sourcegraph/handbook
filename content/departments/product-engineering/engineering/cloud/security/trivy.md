@@ -1,26 +1,69 @@
-# Trivy Container vulnerability scanning
+# Trivy container vulnerability scanning
 
-## What is it?
+[Trivy](https://github.com/aquasecurity/trivy) is a container image scanner. It breaks down a container image into components and alerts on components with CVEs. We scan our container images for Critical and High severity CVEs.
 
-We have added [Trivy](https://github.com/aquasecurity/trivy) to our Sourcegraph pipeline to help us identify security vulnerabilities in our Containers.
+We currently run Trivy in two ways:
+- Daily as a [CronJob](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/security/tooling/trivy/README.md) in the security-tooling kubernetes cluster.
+- In our CI on image builds.
 
-## How does this impact you?
+The daily scan is meant to catch new CVEs in our existing components. It also sends alerts to the security team on new vulnerabilities. The results are sent to a [GCP bucket](https://console.cloud.google.com/storage/browser/trivy-results) and stored for compliance purposes.
 
-Any finding reported by Trivy will need to corrected. If it cannot be corrected immediately, a security-issue will need to be created, the proper suppression created, the #security slack channel needs to be alerted,
-and then please tag the security in the PR.
-Please see [these instruction](https://aquasecurity.github.io/trivy/v0.23.0/vulnerability/examples/filter/) on suppressing a vulnerability for Trviy.
+The CI scan is used to catch CVEs in new components. It acts on non-blocking mode in the CI.
 
-## If Trivy finds vulnerabilities will it fail the pipeline?
+## Running Trivy locally
 
-Not at the moment. Once we finish optimizing the results and have the neccessary procedures in place, this will be begin failing.
+Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/): 
+```
+brew install aquasecurity/trivy/trivy
+```
 
-## I have a vulnerability that is a false positive, or one that we will not fix. Can I make Trivy ignore it?
+Once Trivy is installed running scans on images is easy:
+```
+trivy image --severity "HIGH,CRITICAL" <IMAGE>:insiders
+```
 
-Yes. Simply follow the instructions in [filtering vulnerabilities](https://aquasecurity.github.io/trivy/v0.23.0/vulnerability/examples/filter/) and then tag the security team to review the PR.
+This scans an image for High/Critical CVEs. The `-f json` flag can be used to output data in JSON format, which includes a lot more information on the vulnerable components and versions.
 
-## Are there any IDE Plugins for Trivy?
+## Accepted vulnerabilities and false positives
 
-Yes. Trivy is available as a plugin for VSCode:
+Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
 
-- [VSCode](https://marketplace.visualstudio.com/items?itemName=AquaSecurityOfficial.trivy-vulnerability-scanner)
-- Also Trivy can be installed locally on macOS via homebrew: `$ brew install aquasecurity/trivy/trivy`
+## For Security engineers
+
+Trivy runs  When a new vulnerability is found by Trivy it's the resposibility of the security engineer on support rotation to triage and fix it. 
+
+### Triaging
+
+To triage a Trivy vulnerability and confirm its risk to our environment confirm the vulnerable versions on the official vulnerability source and the component by running:
+```
+trivy image --severity "HIGH,CRITICAL" -f json {IMAGE}
+```
+
+grep the results and you will find the exact version of the component the image has. It's often useful to exec into a running container with the image and run the binary to check versions.
+
+### Fixing
+
+If a component or base image has a CVE we decide whether to patch it based on the risk of the vulnerability and of the patch. For example, if we have a High severity CVE but that actually does not present risk to our application and the upgrade is of several major versions we may choose to not upgrade. On the other hand, if the patches are available for minor versions we should always patch regardless of the vulnerability risk.
+
+Most docker images we create have build scripts that can be run locally. In case the CI does not build the image when changes are committed to a PR, you can force an image build with:
+```
+sg ci build docker-images-patch <image>
+```
+More information [here](../../process/deployments/testing.md/#building-docker-images-for-a-specific-branch)
+
+A recommended process to test patches is:
+1. Run a trivy scan on the current published image.
+2. Make any changes to the Dockerfile.
+3. Build the image locally.
+4. Run a trivy scan on the local image and confirm the CVE is patched.
+5. Push changes to a branch and fix any CI failures.
+6. If the image is built during tests scan the published image. If not, use `sg ci build` to run a build with tests.
+7. Merge the PR.
+
+## For Release Guild members
+
+For each release there is a release-blocking issue ([example](https://github.com/sourcegraph/sourcegraph/issues/35774) where we need to confirm that all open CVEs are documented and accepted. The release captain may check the last Trivy results in [GCP](https://console.cloud.google.com/storage/browser/trivy-results) and check if the open CVEs are already tracked [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy). If so, the issue may be closed. If there are any non-documented open CVEs please contact the Security team.
+
+## For Sourcegraph engineers
+
+If you got a CI warning for a Trivy vulnerability _**it is not your responsibility**_ to patch it. To encourage our High Agency value we encourage engineers to look into CVEs and providing patches where feasible. Please note that we don't expect to fix all CVEs, and accepted vulnerabilities are tracked [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
