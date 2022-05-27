@@ -10,12 +10,12 @@ Kanban means we maintain a backlog of work we want to complete, prioritized in s
 
 This allows us to be flexible about what's up next, but still protect the sanctity of concentration and focus, by avoiding (as much as we can) in-flight work from being dropped in favor of something else.
 
-We still work in 2 week cycles, and have the following ceremonies:
+We work in 1 week cycles, and have the following ceremonies:
 
 <!-- TODO (2022-02-27): we should update this in the upcoming weeks when things are more planned out for FY23Q1  -->
 
 1. Planning/Sync (weekly)
-   - This is more of a "line up a queue of work in priority" exercise than it would be with sprints
+   - This meeting is used to define the queue of work by priority and measure our status against our quarterly OKRs 
    - By default, we make no time-based commitments, instead favouring a balance of strategic (long term) and tactical (short term repsonsive) work
    - This does not (and isn't intended to) prevent newly identified work from superceding what gets "planned"
 2. Retro (biweekly)
@@ -69,14 +69,14 @@ These are for any tickets that we cannot move forward on. Either they rely on ot
 
 ### Backlog
 
-> The items in here are ordered by importance. Top is the most important.
+> The items in here are ordered by importance where the most important issues are at the top.
 
 These are items that we want to work on in the near future.
 
 ### Up Next
 
-If you have completed the ticket that you are working on and need your next task, take it from here. These items have been looked over and are ready to be worked on.
-Note: The items in here are ordered by importance. Top is most important.
+If you have completed the ticket that you are working on and need your next task, take it from here. These items have been reviewed and are ready to be worked on.
+Note: The items in here are ordered by importance where the most important issues are at the top.
 
 ### In Progress
 
