@@ -15,7 +15,7 @@ We work in 1 week cycles, and have the following ceremonies:
 <!-- TODO (2022-02-27): we should update this in the upcoming weeks when things are more planned out for FY23Q1  -->
 
 1. Planning/Sync (weekly)
-   - This meeting is used to define the queue of work by priority and measure our status against our quarterly OKRs 
+   - This meeting is used to define the queue of work by priority and measure our status against our quarterly OKRs
    - By default, we make no time-based commitments, instead favouring a balance of strategic (long term) and tactical (short term repsonsive) work
    - This does not (and isn't intended to) prevent newly identified work from superceding what gets "planned"
 2. Retro (biweekly)
