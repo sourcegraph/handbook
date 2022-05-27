@@ -46,11 +46,14 @@ I learn best by reading and writing and my retention for data share this way is 
 
 ### What kind of work do you find easiest to do when (for example, some folks write best at night or can focus more easily in the afternoon)
 
+I tend to have the best focus in the morning. During this part of the day I like to spend my time writing documents and conducting research. I do prefer to have most of my meetings in the afternoon, although I am extremely flexible given the number of timezones our teammates are working from. During the afternoon I will also be most responsive on Slack and responding in documents. If I get behind, I will usually take a few hours after work to read through anything I didn't get through during the day. 
+
 ### Things I struggle with 
+As a quiet leader and someone who likes to absorb information before commenting, I tend to be on the quieter side of meetings. I've been getting better with this over time and feeling more comfortable speaking out in groups. Because this is something I struggle with I will reiterate that I do best when meetings have clear agenda and pre-reads. 
 
 ### What you find enjoyable at work
+Making work more efficient 
 
 ### Things I love outside of work
-
-## Other things to know about me
+I love all things outdoors: hiking, snowboarding, biking, baddleboard etc. My husband and I moved to Colorado in 2020 to be closer to activities like these that we love. I also love reading. My personal goal is to read 40+ books this year, and planning on increasing that goal next year. If you have a good book recommendation I'd love to hear it. I have two sisters in Colorado who I am very close with. On my spare time I love spending time with my family, my husband and my dog Colby. I have an obsession with Australian Shepherds. When I need a pick me up I will usually scroll through the #aussiesdoingthings instagram account. 
 
