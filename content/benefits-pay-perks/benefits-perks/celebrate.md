@@ -4,11 +4,11 @@ Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings
 
 ## Team Virtual Gatherings
 
-In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $150 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com).
+In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $150 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com). This can be expensed under the "Team Travel" categories.
 
 ## Teammate In-Person Gatherings
 
-As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. As such, each teammate has $150 per person per quarter to spend on a gathering of their choice (in addition to travel budgets). This budget can be used for a wide array of activities including meals, transportation, etc. We will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts.
+As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. As such, each teammate has $150 per person per quarter to spend on a gathering of their choice (in addition to travel budgets). This budget can be used for a wide array of activities including meals, transportation, etc. We will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts. This can be expensed under the "Team Travel" categories.
 
 ## Anniversaries
 

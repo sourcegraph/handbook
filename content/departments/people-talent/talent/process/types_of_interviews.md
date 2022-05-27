@@ -94,8 +94,7 @@ All departments are likely to have some or all of the below universal interview 
 - Interviewer: a member of the leadership team for the department.
 - Duration: 30–45 minutes.
 - Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values. They will also answer any final questions you may have! This is generally the last stage in our interview process.
-- Example questions:
-  - Coming soon
+- Leadership interviews tend to vary by department, role, and leader. Your recruiter will prepare you and answer any questions you may have prior to the interview.
 
 ## Values Interview
 

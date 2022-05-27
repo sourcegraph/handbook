@@ -28,6 +28,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 Our interns will use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
 
+Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis on [Rippling](https://www.rippling.com/). If an intern makes a mistake logging their hours, they can go back and edit their time entry.
+
 #### Perks
 
 - 🎧 [Desk Set Up](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
@@ -72,15 +74,21 @@ While this is our first internship program, it won’t be our last! We welcome q
 
 ### How to request an intern for your team
 
-Intern positions for the first cohort (May-August 2022) have been finalized. More info coming soon about how to request an intern for future cohorts.
+Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
 
 Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
+
+### How to refer an intern
+
+The process for referring an intern is the same process as referring a full time employee. The instructions for doing so are documented [here](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse.
 
 ### My intern request was approved, now what?
 
 If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
 
-### What does managing an intern require?
+### Managing an intern
+
+#### What does managing an intern require?
 
 1:1 Meetings
 
@@ -94,7 +102,16 @@ Wage and Hour Guidelines
 
 - Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
 
+#### Point of contact
+
+- [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
+- [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
+- [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
+- [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
+
 ## 2022 Internship Cohort
+
+![Internship Cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
 
 ### Internship Projects
 
