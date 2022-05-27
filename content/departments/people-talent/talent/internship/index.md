@@ -133,12 +133,12 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 6/14 Yoga/Meditation
 - 6/15 Exec Q&A - Dan Adler
 - 6/21 Cohort Meeting
-- 6/22 Exec Q&A - Christina/Nick
-- 6/29 Exec Q&A - Kacie
+- 6/22 Exec Q&A - Christina Forney and Nick Snyder
+- 6/29 Exec Q&A - Aimee Menne
 - 7/6 Interviewing Workshop
 - 7/13 Q&A - Connor O'Brien
 - 7/14 Virtual Escape Room
 - 7/19 Cohort Meeting
 - 7/20 Optional Q&A - Ben Horowitz
-- 7/27 Exec Q&A - Gregg/Aimee
+- 7/27 Exec Q&A - Gregg Stone
 - 8/3 Virtual Cooking Class
