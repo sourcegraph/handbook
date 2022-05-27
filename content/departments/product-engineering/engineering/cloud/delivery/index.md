@@ -10,7 +10,7 @@ Enable any Sourcegraph customer or user to trial or run (in production) Sourcegr
 
 {{generator:product_team.delivery}}
 
-For more detailed information on the Delivery team members, check out our [README page](./team/index.md) which expands on our profile. 
+For more detailed information on the Delivery team members, check out our [README page](./team/index.md) which expands on our profile.
 
 ## Strategy
 

@@ -6,9 +6,9 @@
 
 ### When I work
 
-### Where I work 
+### Where I work
 
-### What I do 
+### What I do
 
 ### Communication style
 
@@ -18,7 +18,7 @@
 
 ### What kind of work do you find easiest to do when (for example, some folks write best at night or can focus more easily in the afternoon)
 
-### Things I struggle with 
+### Things I struggle with
 
 ### What you find enjoyable at work
 
