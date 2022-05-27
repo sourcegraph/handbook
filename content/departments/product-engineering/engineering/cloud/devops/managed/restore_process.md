@@ -2,6 +2,8 @@
 
 <span class="badge badge-note">SOC2/CI-110</span>
 
+**For MI 1.1, see the new process [here](v1.1/mi1-1_restore_process.md).**
+
 ## Assess what is deleted
 
 Navigate to `sourcegraph-managed-$CUSTOMER` project, and look at existing compute instance. Does the VM still exist?
