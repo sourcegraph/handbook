@@ -4,7 +4,7 @@ The following steps are required to update the version of [p4-fusion](https://gi
 
 1. Find the desired [release](https://github.com/salesforce/p4-fusion/releases)
 2. Update the version [here](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@a7d2e70a89294ef57f23681df1e12c94b9ad5bac/-/blob/cmd/gitserver/p4-fusion-install-alpine.sh?L41)
-3. From within `cmd/gitserver`, build the image, which will build the binary. *NOTE*: On M1 macs you'll need to build for amd64, see details below
+3. From within `cmd/gitserver`, build the image, which will build the binary. _NOTE_: On M1 macs you'll need to build for amd64, see details below
 
 ```sg
 docker build -t p4-fusion --target=p4-fusion .
@@ -15,7 +15,7 @@ docker build -t p4-fusion --target=p4-fusion .
 ```sh
 docker create p4-fusion
 # This will output a container hash
-docker cp CONTAINER_HASH:/usr/local/bin/p4-fusion ./ 
+docker cp CONTAINER_HASH:/usr/local/bin/p4-fusion ./
 ```
 
 5. Compute the sha256 sum of the binary
@@ -38,4 +38,3 @@ You'll need to configure docker so that the images build for amd64, not arm64.
 docker buildx create --use
 docker buildx build -t p4-fusion --platform linux/amd64 --target=p4-fusion .
 ```
-
