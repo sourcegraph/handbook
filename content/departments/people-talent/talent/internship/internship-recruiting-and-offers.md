@@ -71,9 +71,9 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 **Step 6:** The Recruiter begins [generating a candidate pool](../process/identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](../process/interview_process.md).
 
-### Recruiting for Intern roles
+### Identifying Candidates 
 
-COMING SOON
+Information on where we find our candidates can be found [here.](../process/identifying_candidates.md#where-we-find-our-candidates)
 
 ### Extending an Internship Offer
 
