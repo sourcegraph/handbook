@@ -36,9 +36,24 @@ Commit your change and open a Pull Request.
 Validate this actualy works
 -->
 
-- Modify the Terraform infrastructure zone variable to refer to a new zone.
-- Modify the zone for manual snapshots to refer to the existing zone.
-- Follow the normal managed instance upgrade process to create a replacement instance. If the live disk is inaccessible, restore from a historical snapshot instead.
+Configure env var
+
+```sh
+eval (mg --customer $CUSTOMER workon)
+export PROJECT_ID=$PROJECT_PREFIX-$CUSTOMER
+export INSTANCE_NAME=default-$OLD_DEPLOYMENT-instance
+```
+
+Locate the most recent snaphost of the **current** data disk, note the name of the snaphost as `SNAPSHOT_NAME`
+
+```sh
+gcloud compute snapshots list --project $PROJECT_ID
+```
+
+Follow [the machine upgrade process](./mi1-1_machine_upgrade_process.md) to complete the failover while making the below changes
+
+- `NEW_DEPLOYMENT` instance should be created from the latest `$SNAPSHOT_NAME`
+- Change `zone` to a working zone
 - The GCP backend service resource needs to be temporarily modified to stop referencing the existing network endpoint resource, so it can be moved to a new zone
 
 [sourcegraph/deploy-sourcegraph-managed]: https://github.com/sourcegraph/deploy-sourcegraph-managed
