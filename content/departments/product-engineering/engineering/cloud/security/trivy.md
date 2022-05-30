@@ -33,7 +33,7 @@ Trivy finds many vulnerabilities that are either false positives (where we are n
 
 ## For Security engineers
 
-Trivy runs When a new vulnerability is found by Trivy it's the resposibility of the security engineer on support rotation to triage and fix it.
+When a new vulnerability is found by Trivy it's the resposibility of the security engineer on support rotation to triage and fix it.
 
 ### Triaging
 
