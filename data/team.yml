@@ -103,9 +103,9 @@ keegan_carruthers-smith:
 
 joe_chen:
   name: Joe Chen
+  pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
-  location: Boston, MA, USA 🇺🇸
+  reports_to: engineering_manager_iam_and_admin_exp
   github: unknwon
   email: joe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
@@ -950,9 +950,9 @@ carly_jones:
 rafal_leszczynski:
   name: Rafal Leszczynski
   pronouns: he/him
-  role: Engineering Manager, Cloud SaaS
+  role: Engineering Manager, IAM and Admin Experience
   reports_to: director_engineering
-  manager_role_slug: engineering_manager_cloud_saas
+  manager_role_slug: engineering_manager_iam_and_admin_exp
   location: Jelonek (Poznan), Poland 🇵🇱
   github: RafLeszczynski
   email: rafal@sourcegraph.com
@@ -1377,7 +1377,7 @@ milan_freml:
   name: Milan Freml
   pronouns: He/Him
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
+  reports_to: engineering_manager_iam_and_admin_exp
   location: Ružomberok, Žilinský, Slovakia 🇸🇰
   github: kopancek
   email: milan.freml@sourcegraph.com
@@ -2218,7 +2218,7 @@ pietro_rosa:
   location: Rovigo Italy, IT 🇮🇹
   role: Software Engineer
   links: '[LinkedIn](https://www.linkedin.com/in/pietrorosa77)'
-  reports_to: engineering_manager_cloud_saas
+  reports_to: engineering_manager_iam_and_admin_exp
   description: Pietro lives in a small city called [Rovigo](https://goo.gl/maps/bFK7n4quTGk5MJBu7) in Italy with his wife and 2 kids. Pietro previously worked in Microsoft, Auth0 and NearForm as a senior full stack engineer. He loves playing football ⚽ (nowadays only 5 aside letting the ball doing most of the job...), hiking 🥾 and wild mushrooms gathering 🍄.
 
 lindsay_murphy:
@@ -2273,7 +2273,7 @@ petri_last:
   name: Petri-Johan Last
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
+  reports_to: engineering_manager_iam_and_admin_exp
   location: Stellenbosch, Western Cape, South Africa 🇿🇦
   github: pjlast
   pronunciation: '[pɪətʁɪ lɑst](http://ipa-reader.xyz/?text=p%C9%AA%C9%99t%CA%81%C9%AA%20l%C9%91st&voice=Joey)'
@@ -2392,7 +2392,7 @@ michelle_veronese:
   github: miveronese
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_cloud_saas
+  reports_to: engineering_manager_iam_and_admin_exp
   location: Fremont, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/michelleveronese)'
   description: Michelle lives in the San Francisco Bay Area with her husband, Herval, and Frodo, a shih tzu dog that loves adventures. She grew up in Brazil and, before becoming a software engineer, worked as a journalist. In her free time, she likes reading, hiking and cooking Northeastern Brazilian recipes such as cuscuz and tapioca.

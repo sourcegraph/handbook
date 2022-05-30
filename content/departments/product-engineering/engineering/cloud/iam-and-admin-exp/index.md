@@ -1,6 +1,6 @@
 # IAM and Admin Experience Team
 
-Note: The IAM and Admin Experience team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
+> NOTE: The IAM and Admin Experience team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
 
 ## Vision
 
@@ -20,7 +20,7 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 The IAM and Admin Experience team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
 
-While the IAM and Admin Experience team owns the underliying layer for AuthN and AuthZ, the Growth & Integration team is responsible for the UI and UX for sign-in and sign-up. The Growth & Integration team also works on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
+While the IAM and Admin Experience team owns the underliying layer for authentication and authorization, Integrations and Growth teams are responsible for the UI and UX for sign-in and sign-up. Integrations and Growth teams also work on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
 
 Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
 
@@ -48,7 +48,7 @@ Customer-facing and internal tools and features that provide transparency to how
 
 ### Engineering ownership
 
-For a detailed list of features and services owned by the IAM and Admin Experience team, check out the [Engineering Owership page](../../../../../../data/engineering_ownership.yml).
+For a detailed list of features and services owned by the IAM and Admin Experience team, check out the [Engineering Ownership page](../../../engineering/process/engineering_ownership.md).
 
 ## Team
 
@@ -84,16 +84,15 @@ Each Friday, we send weekly team updates to the rest of the Cloud org to keep th
 
 The IAM and Admin Experience team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
 
-We are using [Jira](https://www.atlassian.com/software/jira) as our project tracking tool. While you will need access to Sourcegraph Atlassian account to view the [IAM and Admin Experience project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-73&issueLimit=100) the [list view of all the issues](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/issues/) within this project is publicly available.
+We are using [GitHub Projects (Beta)](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) as our project tracking tool. The [list view of backlog](https://github.com/orgs/sourcegraph/projects/259/views/10) is publicly available in our team project.
 
-#### How we use Jira
+#### How we use GitHub Projects (Beta)
 
-- Jira is the single source of truth for our backlog. Please use descriptions, comments under Jira issues, and different categorization options to keep all the issues up to date. Comments are also the best place for asking questions about the issue itself. That way, we keep all the context in a single place.
-- We use [versions/releases](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page) for milestones (usually connected with the quarterly goals) and group issues for given initiatives/projects into epics.
-- We use [components](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/components) to track different service or engineering ownership areas. This for example, helps us understand what the cost of operations with each area we own is.
-- To track GitHub PRs automatically in JIRA, use the JIRA ticket number anywhere in the branch name. So for example, if the ticket number is `CLOUD-42` and you name your branch `the-answer-to-everything-CLOUD-42`, the resulting PR from this branch will automatically be associated with the JIRA ticket. The same goes for commits and PRs - all will be linked to a Jira issue as long as you keep the issue id within the commit message or PR title.
-- We use [Agile Poker](https://confluence.spartez-software.com/display/JPP/Agile+Poker+for+Jira+Cloud) addon for [groomings and estimation sessions which we run asynchronously](#groomings).
-- You can use Jira issue ID (exp. `CLOUD-123`) within the messages on the [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) Slack channel to automatically create a link to Jira issue. We are also pushing all status changes to our Jira project to [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) Slack channel.
+- The GitHub project for the team is the single source of truth for our backlog. Please use descriptions, comments under GitHub issues, and different categorization options to keep all the issues up to date. Comments are also the best place for asking questions about the issue itself. That way, we keep all the context in a single place.
+- We use GitHub milestones (usually connected with the quarterly goals) and custom fields to group issues for given initiatives/projects into epics, and to track different service or engineering ownership areas. This for example, helps us understand what the cost of operations with each area we own is.
+- We use [keyword or manually](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) linking pull requests to issues automatically in GitHub.
+- We use [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) for [groomings and estimation sessions which we run asynchronously](#groomings).
+- You can paste a link to GitHub in any Slack messages to have a rendered attachment automatically.
 
 ### User research
 
@@ -111,7 +110,7 @@ See "[So you’re about to help us with user testing](../../../product/process/u
 
 #### Decision log
 
-[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the and Admin Exp team in chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
+[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the IAM and Admin Experience team in reverse-chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
 
 #### Team internal communication
 
@@ -121,15 +120,13 @@ We are a globally distributed team with 16+ hours of time zone difference. Async
 
 ###### Slack
 
-While the team is following [multiple Slack channels](#team-slack-channels), [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, Jira, Handbook, Google docs, etc.) and reference them on Slack via links. It’s worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
-
-###### Jira
-
-[Jira](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog?selectedIssue=CLOUD-144&issueLimit=100) is the IAM and Admin Experience team's single source of truth for team backlog, work planning, and execution. Please include all tasks related to status updates and questions within Jira issues and keep the state of the sprint board up to date.
+While the team is following [multiple Slack channels](#team-slack-channels), [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
 
 ###### GitHub
 
-Please keep all discussions related to ongoing code changes within GitHub pull requests. You will find more guidelines for making PRs and asking for code review in the [Making pull requests and asking for code reviews](#making-pull-requests-and-asking-for-code-reviews) section.
+[GitHub](https://github.com/orgs/sourcegraph/projects/259/views/10) is the IAM and Admin Experience team's single source of truth for team backlog, work planning, and execution. Please include all tasks related to status updates and questions within GitHub issues and keep the state of the sprint board up to date.
+
+Please keep all discussions related to ongoing code changes within GitHub pull requests. You will find more guidelines for making pull requests and asking for code review in the [Making pull requests and asking for code reviews](#making-pull-requests-and-asking-for-code-reviews) section.
 
 ###### Figma
 
@@ -144,7 +141,7 @@ Google doc is a great choice for kicking off async collaboration, proposing RFC,
 - **Public Information** - Convert it to a handbook section/page linked from the main IAM and Admin Experience team handbook page once
 - **Information internal to Sourcegraph** - Create Google Doc within the [IAM and Admin Experience Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the IAM and Admin Experience Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
-Please read [this](../../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
+Please refer to our values of [open and transparent](../../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
 
 ###### Loom
 
@@ -179,17 +176,17 @@ The team is doing retrospectives on a biweekly basis at the end of each sprint. 
 
 ##### Retrospective action items
 
-The action items from the retrospective are [migrated to Jira](https://sourcegraph.atlassian.net/browse/CLOUD-92) and usually have an owner assigned responsible for leading the action to its completion. The retrospective actions Jira issues that require engineering effort are going through team's [regular grooming process](#groomings) and later are part of a sprint scope.
+The action items from the retrospective are migrated to GitHub and usually have an owner assigned responsible for leading the action to its completion. The retrospective actions GitHub issues that require engineering effort are going through team's [regular grooming process](#groomings) and later are part of a sprint scope.
 
-We review the [backlog of action items](https://sourcegraph.atlassian.net/browse/CLOUD-92) during each [sprint review](#sprint-reviews). We discuss the outcomes of the items from this list completed in given sprint and the team makes recommendations about what action items should be added to the next iteration.
+We review the backlog of action items during each [sprint review](#sprint-reviews). We discuss the outcomes of the items from this list completed in given sprint and the team makes recommendations about what action items should be added to the next iteration.
 
 #### Groomings
 
-To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. [Agile Poker Jira addon](https://marketplace.atlassian.com/apps/700473/agile-poker-for-jira-planning-estimation?tab=overview&hosting=cloud) is our tool of choice, and we are running our groomings session based on the following schedule:
+To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
 
-- Each Monday, the new async grooming session should be created within [Agile Poker app](https://sourcegraph.atlassian.net/projects/CLOUD?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.spartez.jira.plugins.jiraplanningpoker__poker-project-page#!/board/11/sessions-management?type=async).
+- Each Monday, the new async grooming session should be created within [ZenHub board](https://app.zenhub.com/workspaces/iam-and-admin-experience-627aebcc9f8b7c00128a8ab6/board).
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
-- Thursday and Friday are reserved for the whole team async estimation based on the Agile Poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
+- Thursday and Friday are reserved for the whole team async estimation based on the planning poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
 - Each story point represents a single developer day.
 
 The "grooming" label is used for marking tickets to be included in the upcoming grooming session.
@@ -226,17 +223,15 @@ TBD
 
 ### Team slack channels
 
-- [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Experience team for all day to day communication within the team
-- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Experience team where other Sourcegraphers can ask for help or leave questions for the team
-- [#cloud-saas-jira](https://sourcegraph.slack.com/archives/C02FDFTBATA) - integration with IAM and Admin Experience Jira project, all changes to the project including new issues, or issue status changes are automatically reported to this channel
-- [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization
+- [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Experience team for all day to day communication within the team.
+- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Experience team where other Sourcegraphers can ask for help or leave questions for the team.
+- [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization.
 - [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
-- [#cloud-research](https://sourcegraph.slack.com/archives/C02DU382HM4) - public channel for all the updates about user research related to Sourcegraph Cloud
 - [#cloud-gtm](https://sourcegraph.slack.com/archives/C025T3B3NAH) - a place to discuss Sourcegraph Gloud go to market strategy, including pricing, packaging, customers, and more!
 
 ## Product and technical documentation
 
-Please go to [IAM and Admin Experience Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
+Please go to [IAM and Admin Experience Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true).
 
 ## [Playbooks](playbooks/index.md) and procedures
 
@@ -281,16 +276,16 @@ Finally, we would like you to start **shadowing** your team members during **on-
 
 Here you can find a list of questions asked by other team members during their onboarding. As a distributed, async-first team, our goal is to provide you with the answers to all these questions in an asynchronous form.
 
-If the answer is not available below, your buddy and the whole team will share their knowledge with you. We highly encourage you to contribute to this list and add tasks to our [Onboarding Improvements Jira epic](https://sourcegraph.atlassian.net/browse/CLOUD-236) to continuously improve the IAM and Admin Experience team domain knowledge database and onboarding process.
+If the answer is not available below, your buddy and the whole team will share their knowledge with you. We highly encourage you to contribute to this list and add tasks to our [onboarding improvements](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateammate-onboarding) to continuously improve the IAM and Admin Experience team domain knowledge database and onboarding process.
 
 - How Sourcegraph is designed? - Deep dive into our [architecture](https://docs.sourcegraph.com/dev/background-information/architecture)
 - On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the IAM and Admin Experience team?
 - Life of a commit - How does my code end up in production?
   - [Current Software Development Life Cycle](../../../process/sdlc.md)
   - [Cloud CI pipeline](https://docs.sourcegraph.com/dev/background-information/continuous_integration)
-  - Video from Dave Try about [CI pipeline](https://www.loom.com/share/601c226a8a93429890c40213922476f9)
-  - [CI/CD slides](https://docs.google.com/presentation/d/1ML71MPM4n9EHW-57p8ks9GktJdKqrcQnWhBiU2qQGpI)
-  - [Deployment to production](../../process/deployments/index.md#deployment-basics)
+    - Video from Dave Try about [CI pipeline](https://www.loom.com/share/601c226a8a93429890c40213922476f9)
+    - [CI/CD slides](https://docs.google.com/presentation/d/1ML71MPM4n9EHW-57p8ks9GktJdKqrcQnWhBiU2qQGpI)
+    - [Deployment to production](../../process/deployments/index.md)
   - [How to deploy during a freeze](../devops/deploy-code-change.md)
 - Decisions/trade-offs we accepted in our development process:
   - Why do we have a single repo for all services?
@@ -306,13 +301,13 @@ If the answer is not available below, your buddy and the whole team will share t
 - [How do we add repositories to Sourcegraph, and how does the repository state management work?](https://docs.google.com/document/d/1BS-gd3oU-sl3B2Mu6CoERl452kP7hlH1z1fbIBotXic/edit#heading=h.kelnla4sqwyv)
 - [How do we fetch, sync, and enforce code host repository permissions?](https://docs.google.com/document/d/17xYmDqSfOUZuqwH8OA-mh0DRieZedA0JkHGffgvzSBw/edit#heading=h.kelnla4sqwyv)
 - [How does subscription and license management work?](https://docs.google.com/document/d/1ytTm57Oaf1Hr3cUtzIotnezG_I2OEKBoamtkcqlXefk/edit#)
-- Database schema overview
+- [Database schema overview](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md)
 - [How do we deal with incidents?](../../process/incidents/index.md)
 - What is our on-call strategy?
 
 ## Useful links
 
-- [IAM and Admin Experience Team Jira Project](https://sourcegraph.atlassian.net/jira/software/c/projects/CLOUD/boards/11/backlog)
+- [IAM and Admin Experience Team GitHub Project](https://github.com/orgs/sourcegraph/projects/259)
 - [IAM and Admin Experience Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 - [IAM and Admin Experience Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
 - [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/219)
