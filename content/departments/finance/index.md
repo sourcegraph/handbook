@@ -128,9 +128,9 @@ The FY23 plan was built at a departmental level. We have 9 departments:
 | -------------------- | ------------------------- |
 | R&D Engineering      | Nick Snyder               |
 | R&D Product          | Christina Forney          |
-| Marketing            | Kacie Jenkins             |
+| Marketing            |                           |
 | Sales                | Gregg Stone               |
-| Customer Support     | Virginia Ulrich           |
+| Customer Support     |                           |
 | Customer Engineering | Aimee Menne               |
 | Operations           | Dan Adler                 |
 | Talent & People-ops  | Carly Jones               |
