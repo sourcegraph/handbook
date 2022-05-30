@@ -6,7 +6,7 @@ The following steps are required to update the version of [p4-fusion](https://gi
 2. Update the version [here](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@a7d2e70a89294ef57f23681df1e12c94b9ad5bac/-/blob/cmd/gitserver/p4-fusion-install-alpine.sh?L41)
 3. From within `cmd/gitserver`, build the image, which will build the binary. _NOTE_: On M1 macs you'll need to build for amd64, see details below
 
-```sg
+```sh
 docker build -t p4-fusion --target=p4-fusion .
 ```
 
