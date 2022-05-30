@@ -20,7 +20,7 @@ docker cp CONTAINER_HASH:/usr/local/bin/p4-fusion ./
 
 5. Compute the sha256 sum of the binary
 
-```
+```sh
 cat p4-fusion | sha256sum
 ```
 
