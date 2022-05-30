@@ -286,11 +286,11 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. When will I receive my onboarding swag?
 
-- You will receive a link to order your onboarding swag at your personal email from Cecily Black at [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com). The link will take you to a form that you will need to fill out to order your onboarding swag pack.
+- You will receive a link to order your onboarding swag at your personal email. The link will take you to a form that you will need to fill out to order your onboarding swag pack.
 
 ### Q. Who do I contact if I have questions about swag?
 
 - **Onboarding swag:**
-  - Please contact Cecily Black at [cecily@sourcegraph.com](mailto:cecily@sourcegraph.com).
+  - Please contact the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
 - **All other swag:**
   - Please post in [#swag](https://sourcegraph.slack.com/archives/C01SVQUPDAN).

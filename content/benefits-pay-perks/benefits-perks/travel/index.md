@@ -256,7 +256,7 @@ If you contract COVID-19 before company-sponsored travel, in addition to self-is
 
 - Please postpone or cancel your travel through TripActions.
   - Your safety is our number one priority. There will be other opportunities to travel and meet up with teammates and we want to be mindful of the health and safety of other attending teammates as well as the communities we travel to.
-  - Reach out to #people-ops or Cassie Melani directly and we will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
+  - Reach out to the People team in #ask-people-team and we will work with you to get your travel rescheduled/cancelled and identify future opportunities for connecting with teammates in person.
 - Get a COVID-19 test as soon as possible. You may expense testing for you and your immediate family.
 - Please cancel or postpone any upcoming travel or in-person events in the following 2 weeks to prevent spread.
 - Monitor your symptoms and quarantine based on current CDC guidelines.
@@ -269,7 +269,7 @@ If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately
     - Date symptoms began
     - Start and end date of company event and or company travel
     - List of company event attendees/potentially exposed teammates
-    - If you are still onsite at your hotel and have tested positive before returning home, please include Cassie Melani on your email; we will reach out to you and book any extended stays for you through TripActions.
+    - If you are still onsite at your hotel and have tested positive before returning home, please let us know; we will reach out to you and book any extended stays for you through TripActions.
 - If you need to take additional time off work to recover, first and foremost: we hope you feel better soon! Please submit your time off under 'Wellbeing leave' in Roots (though Slack); this will trigger a notification to your manager. We recommend talking through your time off plan with them in case you need a longer recovery time than expected.
 
 If you have any questions or concerns, please reach out to #people-ops on Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
