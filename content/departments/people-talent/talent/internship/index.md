@@ -134,7 +134,6 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 6/15 Exec Q&A - Dan Adler
 - 6/21 Cohort Meeting
 - 6/22 Exec Q&A - Christina/Nick
-- 6/29 Exec Q&A - Kacie
 - 7/6 Interviewing Workshop
 - 7/13 Q&A - Connor O'Brien
 - 7/14 Virtual Escape Room

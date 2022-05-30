@@ -68,9 +68,9 @@ Also, sometimes we wake up not feeling well and we don't have it in us to line t
 For those who cover Fridays, we also need to ask that someone cover our Friday responsibilities. When you need to take a Friday off planned or unplanned, you can lean on @cs-leadership to help make sure you have coverage. We can also rely on @cs-leadership to track who has covered a Friday to make sure this doesn't always fall to the same person:
 
 - For SLA Pacific hour time block 2am-7am the following folks can cover for Mariam: Michael or Stompy
-- For SLA Pacific hour time block 7am-12pm the following folks can cover for Don: Alex, Ben, Jason, Riana, and Quinlan (Riana and Quinlan once they reach 90 days)
+- For SLA Pacific hour time block 7am-12pm the following folks can cover for Don: Alex, Ben, Jason, and Riana (Riana once they reach 90 days)
 - For SLA Pacific hour time block 12pm-5pm the following folks can cover for Kelvin: Amber, Gabe, and Warren (Amber when she returns from leave)
-- For SLA Pacific hour triage coverage from 7am-5pm, Brielle, Sarah, Shawnteé, and Virginia work together to handle any exceptions needed to the schedule (which is maintained on the team calendar).
+- For SLA Pacific hour triage coverage from 7am-5pm, Brielle, and Shawnteé work together to handle any exceptions needed to the schedule (which is maintained on the team calendar).
 
 Optionally, when we are out for more than a day or two, we can create a "what did I miss" doc in our [shared drive folder](https://drive.google.com/drive/u/1/folders/1w-4j9T1z1GxnpvSbr_o5VRVxkct7w27O) for our teammates to populate with things we need to catch-up, be aware of when we return.
 
