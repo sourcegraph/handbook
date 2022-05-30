@@ -43,7 +43,7 @@ The full deep dive into the justifications behind the pricing.
 
 ### [Code Insights closed sales trends and analysis](https://docs.google.com/presentation/d/1xEMucmt6E3hXl-k1bRp5nsfFyEVI1zqkFlVj-Fn4Jt8/edit#slide=id.g12fb793a505_0_36)
 
-Analysis of closed sales through FY23Q1. 
+Analysis of closed sales through FY23Q1.
 
 ### How to demo Code Insights on public prospect repos
 
