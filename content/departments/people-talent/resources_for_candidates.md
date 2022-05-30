@@ -61,7 +61,7 @@ We know that interviewing can be stressful, so we want to provide you as much in
 
 ### Zoom
 
-We leverage Zoom for our video interviews. Please make sure to test Zoom prior to the interview to ensure you don't have any technical difficulties.
+We leverage [Zoom](https://zoom.us/) for our video interviews. Please make sure to test Zoom prior to the interview to ensure you don't have any technical difficulties.
 
 ### Interview recording
 
@@ -132,9 +132,7 @@ Here are some other questions that candidates have asked (e.g., in the [CEO inte
 
 - Q: Why does Sourcegraph record interviews?
 
-  - A: We use [BrightHire](talent/tools/guide_to_using_brighthire.md
-    #what-is-brighthire), an interview recording tool, to record all interviews. We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. Have questions? To read our FAQ, [click here](talent/tools/guide_to_using_brighthire.md
-    #candidate-faq).
+  - A: We use [BrightHire](talent/tools/guide_to_using_brighthire.md#what-is-brighthire), an interview recording tool, to record all interviews. We do this because we believe that candidates should be assessed based on merit, not our memory (did you know that one hour after an interview, memory recall of the conversation declines to 44%?). BrightHire allows us to revisit key details, revise initial impressions, and replace implicit bias with explicit evidence. It brings structure and consistency to each interview and ensures that every candidate gets the opportunity they deserve. Have questions? To read our FAQ, [click here](talent/tools/guide_to_using_brighthire.md#candidate-faq).
 
 - Q: What should I wear to an interview?
   - A: We are a casual company and we encourage you to dress comfortably!

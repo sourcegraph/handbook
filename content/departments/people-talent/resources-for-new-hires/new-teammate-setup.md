@@ -2,7 +2,7 @@
 
 ## Computer set up
 
-Follow the instructions [here](../../tech-ops/tools/endpoint-antivirus.md) to set up WorkSpace 1.
+Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the requirements to set up your computer.
 
 ## Google Workspace
 
