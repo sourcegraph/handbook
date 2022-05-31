@@ -656,14 +656,6 @@
             ]
          }
       },
-      {
-         "type": "Feature",
-         "properties": {
-            "marker-color": "#7e7e7e",
-            "marker-size": "medium",
-            "marker-symbol": "",
-            "name": "Cassie Melani"
-         },
          "geometry": {
             "type": "Point",
             "coordinates": [
@@ -737,19 +729,6 @@
             "coordinates": [
                -87.62420654296875,
                41.87582421126483
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Donavon Ellison"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -84.61172103881836,
-               34.1109517943943
             ]
          }
       },
@@ -1192,19 +1171,6 @@
             "coordinates": [
                -82.24863052368164,
                27.962035105066086
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Quinlan Sparks"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -88.14605712890625,
-               41.77950486590359
             ]
          }
       },

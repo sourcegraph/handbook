@@ -18,4 +18,4 @@ If you've been employeed via Deel, follow these steps to submit an expense for r
 
 ![You can now sww your expense](https://storage.googleapis.com/sourcegraph-assets/handbook/expenses/step4.png)
 
-If you have any questions, please reach out to [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A)
+If you have any questions, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack

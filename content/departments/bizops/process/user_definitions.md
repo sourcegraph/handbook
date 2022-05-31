@@ -40,7 +40,6 @@ Qualifying events are not intended to be difficult, or prove that someone is a h
 | Search            | Search Submitted, Viewed search results,receive a code monitoring/saved search notification | `SearchSubmitted` `SearchResultsFetched` `CodeMonitorEmailLinkClicked` `SavedSearchNotificationSent` `SavedSearchEmailClicked` |
 | Navigation        | View a file/repository/tree                                                                 | `ViewBlob` `ViewRepository` `ViewTree` `ViewSearchNotebookPage`                                                                |
 | Code intelligence | Hovered                                                                                     | `hover`                                                                                                                        |
-| API docs          | Using Sourcegraph outside of the app                                                        | `ViewRepositoryDocs`                                                                                                           |
 | Batch changes     | Created or viewed a batch change                                                            | TBD                                                                                                                            |
 | Code insights     | Created or viewed a code insight                                                            | TBD                                                                                                                            |
 
