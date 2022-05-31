@@ -10,11 +10,12 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [License Keys](#license-keys)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
   - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
+  - [New User Onboarding (adoption)](#user-onboarding)
   - [Webinars / Trainings / Q&A Sessions](#webinars--trainings--qa-sessions)
   - [Check-in calls](#check-in-calls)
   - [QBRs](#qbrs)
   - [Expansions and Renewals](#expansions-and-renewals)
-  - [Ongoing Customer Support](#ongoing-customer-support)
+  - [Ongoing Customer Nurture](#ongoing-customer-nurture)
   - [Account Management](#account-management)
 - [Playbooks](#playbooks)
   - [Customer Discovery](#customer-discovery)
@@ -107,6 +108,21 @@ On the kickoff call we plan our ongoing engagement with the customer. Different 
 - [Post-Sales Kickoff Deck Template](https://docs.google.com/presentation/d/1eTis1XiS3U1M1M1a35wBw5qwTnJSMozXcz_gXJcGXhk/edit)
 - [Sample Chorus Recording](https://chorus.ai/meeting/066B000C659C4F1D83AA465576444924)
 
+## User Onboarding
+
+A critical part of the customer experience is user onboarding. After deal close, once the customers' production infrastructure is setup and confifured, CEs are responsible for driving adoption of users onto Sourcegraph. During engagement kick-off, CE works with our customer stakeholders to create a plan to onboard their users.
+
+We measure adoption as the number of Monthly Active Users (MAUs) / Total Number of Seats Purchased. 
+
+Our adoption targets are as follows:
+- Post-production infrastructure complete (day 0 - day 90): 25% consumption
+- Day 91 - 180: 50% consumption
+- Day 181 - 270: 75% consumption
+- Day 271+: 75% consumption
+
+### Resources
+- [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
+
 ## Webinars / Trainings / Q&A Sessions
 
 The webinar you will most-often run is a Sourcegraph 101/102 (basically a longer and more in-depth version of the typical demo flow). It's important to relate use cases to customer needs.
@@ -147,9 +163,9 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 
 Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. It could also include a trial for a new user group or with that new feature. A basic renewal or seat expansion may not involve CE beyond generating a new license key.
 
-## Ongoing Customer Support
+## Ongoing Customer Nurture
 
-While our CS team is primarily responsible for reactive technical support, we help keep an eye out on Slack for any questions or issues that come through. You can view any support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
+While our CS team is primarily responsible for reactive technical support, CE helps keep an eye out on Slack for any questions or issues that come through. CE can view any support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
 
 At times a customer may raise a feature request or provide product feedback. It is our responsibility as CEs to gather that feedback and share with the product teams.
 
