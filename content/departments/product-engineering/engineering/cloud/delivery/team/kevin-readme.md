@@ -1,4 +1,4 @@
-## Kevin Wojkovich
+## Kevin Wojkovich (Coming Soon...)
 
 [Bio on team page](../../../../../../../content/team/index.md#kevin-wojkovich)
 
