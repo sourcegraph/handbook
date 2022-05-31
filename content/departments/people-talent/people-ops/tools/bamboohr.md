@@ -2,14 +2,12 @@
 
 TODO
 
-Vendor management
-Automation and workflow creation
+## Vendor management
+## Automation and workflow creation
 
 ## How to create a profile
 
-BambooHR proficel are created automatically when someone is marked as hired in Greenhouse via integration. However, here are the steps to create one manually.
-
-step 1
+BambooHR profiles are created automatically when someone is marked as hired in Greenhouse via integration. However, here are the steps to create one manually:
 
 ### Creating a Job Title
 
@@ -20,11 +18,13 @@ This action is not always needed. We need to create a Job Title only when it is 
 3. **Job Title**
 4. Write the new title on the field and click **Add**
 
+![Steps to creating a Job Title](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/BambooStep1.png)
+
 ## Creating a profile
 
 On the Home page, click on New → New Employee top right of the screen.
 
-step 2
+![Steps to creating a profile](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/BambooStep2.png)
 
 Complete as many of the fields possible. Look at the next section to know which fields we complete and how. Keep in minf that when creating a profile manually, the Options and Commission fields don't appear. You will need to go to the profile after it's been created to complete those missing fields.
 
@@ -54,13 +54,14 @@ Here are all the fields in a profile and how we must complete them:
 | Region            | Europe; North America - East; North America - West | People team/Integration | Teammates are grouped in these three regions. North america includes USA and Canada. All other countries fall under Europe.                              |
 
 In the image below, you can see in red the fields the People Team must complete before someone starts:
-Profile 1
+
+![Fields that must be completed in the basic information section](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Profile1.png)
 
 #### Address & Mailing Address
 
 These two sections must be completed by the teammate. Both sections have to be filled out, even if the information is repeted.
 
-#### Address & Mailing Address
+#### Contact
 
 - **Phone**: Completed by teammate
 - **Email**: Completed by People
@@ -80,7 +81,8 @@ Leave blank
 - **Computer Serial Number**: Completed by teammate
 
 In the image below, you can see in red the fields the People Team must complete before someone starts:
-Profil2
+
+![Fields that must be completed in the contact and social links section](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Profile2.png)
 
 ### Job Tab
 
@@ -95,12 +97,90 @@ Profil2
 | Disability status  | Teammate               |
 | People Manager     | People team            | Complete before start date                                |
 
-Integrations
+In the image below, you can see in red the fields the People Team must complete before someone starts:
+
+![Fields that must be completed in the jobhttps://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png) section](
+
+#### Employee status
+
+All three fields need to be complete before start date:
+- **Effective date**: Same as start date
+- **Employee Status**: Each teammates should be one of either:
+  -  Contractor: Not used
+  -  Full-Time Contractors (Non-US Teammate)
+  -  Full-Time Contractors (Non-US Teammate) - Intern
+  -  Full-Time Employee (US Teammate)
+  -  Full-Time Employee (US Teammate) - Intern
+  -  Full-Time PEO Employee (Non-US Teammate)
+  -  Furloughed: Not used
+  -  Part-Time Contractor: Part time contractor (external people we contract their services for a defined amount of time)
+  -  Temporaty Contractor: Full time contractor (external people we contract their services for a defined amount of time)
+- **Comment**
+
+#### Compensation
+
+Complete before start date:
+
+- **Effective date**: Same as start date
+- **Pay Schedule**:
+  - Monthly: Non US teammates
+  - Twice Monthly: US teammates 
+- **Pay Type**: This field is linked to Lattice, so it's important to give the right type
+  - Salary (gets Lattice access)
+  - Hourly (for Interns, Temporary  & Part time contractors - they don't get access to Lattice)
+  - Commission Only (not used)
+- **Pay Rate**: Compensation. Make sure it is in USD. Cadance will be per Year for all teammates and hourly for Interns, Temporary  & Part time contractors.
+- **Overtime Status**: Exempt for all teammates and Non-Exempt for Interns, Temporary  & Part time contractors. Make sure to add the correct cost of extra hours.
+- **Change reason**: Complete
+- **Comment**: Add insight
+- **Compensation Category and Level**: Confirm with Talent if you don't know.
+
+#### Job Information
+
+All of the following must be complete before start date:
+
+- **Effective date**: Same as start date
+- **Location**: Remote
+- **Division**
+- **Department**
+- **Job Title**: if it doesn't exist, follow the instructions above in [Creating a Job Title](#creating-a-job-title)
+- **Reports to**
+
+#### Options
+
+Complete before start date:
+
+- **Status**: 
+  - Proposed, Not Yet Granted: before Sourcegraph's Board of Directors approves them
+  - Granted: after Sourcegraph's Board of Directors approves them
+ If you are not sure, contact the Legal team.
+- **Number of options**
+- **Vesting Date**: Same as start date
+ Leave the rest blank until they are approved by the Board.
+ 
+ #### Commission
+
+Not all roles have commissions. For those who do, all of these must be completed before start date:
+
+- **Commission date**: same as start date
+- **Commission amount**: in USD
+- **Paid per**: Year
+- **Commission Pay Type**: Commission
+- **Pay Schedule**: Monthly
+- **Overtime Status**: Exempt
+- **Commision Change Reason**
+- **Comments**
+
+#### Bonus
+
+This is rarely used. When needed, complete all field.
+
+## Integrations
 Fields access to other tools (lattice)
-Permissions
-Approving changes
+## Permissions
+## Approving changes
 Personal information
 Role/Compensation/Promotion/Spot Bonus
-Reports for Management (setup)
-Data audit and hygeine
-General reporting for partners/customers
+## Reports for Management (setup)
+## Data audit and hygeine
+## General reporting for partners/customers
