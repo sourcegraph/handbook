@@ -16,7 +16,7 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 To celebrate anniversaries, managers can send gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
-- Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts\*. To create a Loop & Tie account, please reach out to Cecily Black at cecily@sourcegraph.com or if Cecily is not available, the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note:**
+- Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts\*. To create a Loop & Tie account, please reach out to the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note:**
 
   - \*Requests for changes or additions to inventory cannot be facilitated at this time. This is being reviewed and updates will be posted!
   - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
@@ -70,7 +70,7 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 
 **Internal requests:**
 
-- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. This is being reviewed and updates will be posted! If you have any questions, please reach out via the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel or people-ops@sourcegraph.com.
+- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. This is being reviewed and updates will be posted! If you have any questions, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com.
 
 **External requests:**
 
@@ -84,4 +84,4 @@ _Happy celebrating!_
 
 ---
 
-For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel.
+For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel in Slack.

@@ -264,4 +264,4 @@ More information on Vendr can be found [here](../tools/Vendr/index.md).
 
 Please see ‘How To Do A Vendor Request’ handbook documentation [here](../process/vendor-request.md).
 
-Please see a short Loom video guide on how to use Jira to review vendors (TBD).
+Please see a short [Loom video guide](https://www.loom.com/share/2bdd2a7ee2d549a9b15acdd74072da32) on how to use Jira to review vendors.

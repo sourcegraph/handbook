@@ -30,7 +30,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../../..
 
 ### 3 Retro key Q2 tickets
 
-- Workgroup: Giselle, Gabe, Alex
+- Workgroup: Gabe, Alex
 - Channel: #wg-q2-ticket-retro
 - Details: The goal is to see what we can change within CS and/or if we have requests of any other teams
   - Go through [sourcegraph/customer](https://github.com/sourcegraph/customer/issues) May 1, 2021 - July 31, 2021
@@ -46,13 +46,13 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../../..
 
 ### 5 Command generator
 
-- Workgroup: Beatrix, Jason, Stompy, Adeola, Mariam, Kelvin
+- Workgroup: Beatrix, Jason, Stompy, Adeola, Mariam
 - Details: Make the [command generator](https://sourcegraph.github.io/support-tools/command-generator/beta/) customer-facing and scalable. The goal is to develop a tool that can be later expanded to another tool seamlessly.
 - Project completed and deployed at [https://sourcegraph.github.io/support-generator](https://sourcegraph.github.io/support-generator)
 
 ### 6 CSE "database"
 
-- Workgroup: Michael, Jason, Ben, Gabe, Warren, Don
+- Workgroup: Michael, Jason, Ben, Gabe, Warren
 - Channel: #wg-post-aux
 - Details: Having a Guide/pool/database of all resolved tickets with specific keywords to easily identify what the troubleshooting steps are talking about, especially for frequent or complex cases where we can easily make reference to for faster customer resolution. Having a well documented case note( outlining thought process, and steps towards resolution) would really go a long way in achieving this.
   - Place for documenting known historic bugs indexed to versions (thinking an md file in our github page), I don’t think the changelog is sufficient for this nor the upgrade pages on Docs.
@@ -61,7 +61,7 @@ In support of our product/engineering Q3 objective (see all OKRs [here](../../..
 
 ### 7 Streamline key steps in CSE workflow
 
-- Workgroup: Alex, Kelvin, Carl, Warren
+- Workgroup: Alex, Carl, Warren
 - Channel: #wg-cse-automation
 - Details: How can we improve the experience of writing an issue summary for our Slack thread, writing an issue summary for Zendesk, and writing an issue summary for Github, could we make this more DRY? Easier to search?
   - [Working notes document](https://docs.google.com/document/d/1D5_o08GFNZ318trY1hZkZHclBtXkzZrdNKn29a2_Uhc/edit#)
