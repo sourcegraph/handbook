@@ -53,16 +53,15 @@ Unlike **active** users, which is a term meaningful within a specific time perio
 
 Cloud:
 Becoming activated as user is based on a sequence of events. We found that this sequence of events correlates to longer term retention and usage.  
-Signup and account registration completed 
-Code host connected 
-Search Submitted across code - 3x 
+Signup and account registration completed
+Code host connected
+Search Submitted across code - 3x
 View search results - 3x
 
-As a part of this sequence of events we also developed a new metric. The first two steps of the sequence is Account Setup. 
+As a part of this sequence of events we also developed a new metric. The first two steps of the sequence is Account Setup.
 
-On-Prem and Managed: 
+On-Prem and Managed:
 Work is currently being done to inform the activated metric for on-prem and managed customers. We expect to have this definition informed by the end of June 2022.
-
 
 ### Registered user (Cloud)
 
@@ -71,9 +70,10 @@ Active users can be further optionally segmented into **registered** or **non-re
 ### Account Setup
 
 This identifies users or teams either on Cloud or private install and are not yet customers.
-Account Setup is considered having taken place once the following conditions are met: 
-- Signup and account registration completed 
-- Code host connected 
+Account Setup is considered having taken place once the following conditions are met:
+
+- Signup and account registration completed
+- Code host connected
 
 #### Individual Account Setup
 
