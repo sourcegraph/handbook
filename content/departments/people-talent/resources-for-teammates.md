@@ -70,7 +70,6 @@
 - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 
-
 ## People Processes & Tools
 
 - [Impact reviews](people-ops/process/impact-reviews.md)
