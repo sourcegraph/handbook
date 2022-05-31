@@ -41,6 +41,10 @@ The go-to place when you need to price Code Insights for a proposal: includes ho
 
 The full deep dive into the justifications behind the pricing.
 
+### [Code Insights closed sales trends and analysis](https://docs.google.com/presentation/d/1xEMucmt6E3hXl-k1bRp5nsfFyEVI1zqkFlVj-Fn4Jt8/edit#slide=id.g12fb793a505_0_36)
+
+Analysis of closed sales through FY23Q1.
+
 ### How to demo Code Insights on public prospect repos
 
 If you want to run Code Insights over a public prospect's repo, [follow these steps](https://drive.google.com/file/d/1fOrEPLS91-4CTNwihOQi7w0Q_nOIEd0X/view?usp=sharing) to connect those repos to demo.sourcegraph.com. Since it's unlikely you're a site admin on demo.sourcegraph.com, you can tag @ce-sdr-collab in the #CE channel to ask them to temporarily connect the repos you need. Note: you should ensure you use **demo.sourcegraph.com** and **not** sourcegraph.com
