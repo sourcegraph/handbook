@@ -23,12 +23,15 @@ The CE team is both "pre-sales" and "post-sales" because the moment that a sale 
 The continuity that a CE provides means we give customers consistent and high-quality service and technical advocacy from the moment we meet them. We minimize handoffs, which is good for customers and helps our team take pride in seeing their work through.
 
 ## Team KPIs / Measures of Success
+
 CE is responsible for overall customer health. Two important dimensions of Customer Health are: Adoption and Usage. These contribute to overall customer retention and satisfaction.
 
 ### Adoption
-We measure adoption as the number of Monthly Active Users (MAUs) / Total Number of Seats Purchased. 
+
+We measure adoption as the number of Monthly Active Users (MAUs) / Total Number of Seats Purchased.
 
 Currently, our adoption targets are as follows, based on the completion date of production environment setup/configuration (not contract date):
+
 - Day 0 - Day 90: 25% consumption
 - Day 91 - 180: 50% consumption
 - Day 181 - 270: 75% consumption
@@ -37,11 +40,12 @@ Currently, our adoption targets are as follows, based on the completion date of 
 In the future, we intend for our customers to have a functioning production environment ready at deal close / signature so that we can begin user onboarding from Day 1 of of contract. Coupled with customer training being built at-scale, a desired future state for adoption will be to achieve 75% consumption by Day 180 of of contract.
 
 ### Usage
+
 We measure usage as the number of Daily Active Users (DAU) / Mothly Active Users (MAU).
 
 Currently, we view healthy usage as DAU / MAU exceeding 30%.
 
-In the future, we intend to correlate usage with feature consumption based on customer use cases. 
+In the future, we intend to correlate usage with feature consumption based on customer use cases.
 
 ## Team Reference Resources
 
