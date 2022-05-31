@@ -136,9 +136,9 @@ Please see below matrix for review requirements for ANY type of vendor:
   <tr>
    <td>
    </td>
-   <td><strong>=0k</strong>
+   <td><strong>Cost = 0</strong>
    </td>
-   <td><strong>>0K</strong>
+   <td><strong>>Cost > 0</strong>
    </td>
   </tr>
   <tr>
