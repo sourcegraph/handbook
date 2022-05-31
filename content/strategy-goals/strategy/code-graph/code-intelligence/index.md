@@ -55,7 +55,7 @@ Recent key learnings:
 Top feedback patterns we're hearing from customers and prospects across the board (also captured in our internal [Product Gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view?reportFilters=%5B%7B%22operator%22%3A%22equals%22%2C%22value%22%3A%22Intelligence%22%2C%22column%22%3A%22Product_Gap_Submission__c.Product_Category__c%22%7D%5D)):
 
 - Requests for adding precise support for more languages (often including the addition of cross-repository and cross-dependency navigation features).
-- Current manual setup is not straightforward, customers run into issues while setting up LSIF for their repositories. This varies per indexer maturity and language ecosystem complexity.
+- Current manual setup is not straightforward, customers run into issues while setting up precise code intelligence for their repositories. This varies per indexer maturity and language ecosystem complexity.
 - There have been reports about performance and scaling issues when indexing large monorepos.
 - Requests for the ability to visualize the code graph and its dependencies.
 
@@ -86,35 +86,34 @@ We believe this is emerging as an additional killer feature. Most developers thi
 
 The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on). Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
+- Make Sourcegraph a must-have for code security teams by [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections.
 - Accelerating [Developer onboarding](../../use-cases/dev-onboarding.md) by enabling the ability to search over the full transitive dependency graph.
 - Monitor [Code Health](../../use-cases/code-health.md) by creating Code Insights that track deprecated dependency usages and version drift.
-- [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections.
-
 - Encourage [Code Reuse](../../use-cases/code-reuse.md) by making precise navigation the obvious way to find references to relevant usage examples.
 
 These are all currently in early stages of development and discussion. Read more about how we're thinking about the dependency graph in [RFC 593: Unlocking use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#heading=h.trqab8y0kufp).
 
 **Ship precise language support**
 
-We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). We're currently working on adding precise cross-repository Python support and PyPi package support.
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). Increasing precise support contributes to push forward any security features we choose to implement as it makes compiler-accurate metadata available for all our product verticals. We're currently working on adding precise cross-repository Python support and PyPi package support.
 
 **Auto-indexing on-prem goes into Beta:**
 
 Strategically we're favoring accuracy over availability and actively recommend customers to set up precise code intelligence. This comes at a cost, as the current precise set up experience can be cumbersome and isn't scalable for customers with a large amount of repositories given it requires manual set up for each individual repository we want to enable precise code intelligence for.
 
-Enabling auto-indexing means a lower barrier for entry, a seamless experience and more engineers using precise code intelligence. Setting up [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) is also a requirement for Sourcegraph to be able to index dependency packages.
+Enabling auto-indexing means a lower barrier for entry, improving the admin experience and more engineers using precise code intelligence. Setting up [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) is also a requirement for Sourcegraph to be able to index dependency packages.
 
-Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
+Building the code graph also means we need to generate and store increased amounts of data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
 
 Our next step is helping customers set up, monitor and weed out any issues that might arise from our first trials to move auto-indexing into Beta. At this point we’ll be aiming to roll it out to a larger number of customers.
 
 **Make code navigation feel fast and reliable**
 
-We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements. From a design perspective, we have plans to conduct research that helps us understand adoption drivers and pain points, with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
+We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements with the aim of increasing code navigation usage. 
 
 **Code intelligence platform API**
 
-Several recent efforts have shown an increasing need to unify the [code intelligence data platform](https://docs.google.com/document/d/1AjZ_d0nJVHbV75IH3jZRkrGXhsv_AXp2kS4nrw2SAQ8). These efforts show an immediate need to be able to correlate and aggregate data from different sources within an API boundary (instead of re-implemented on several clients). This will set precedent for where code goes in relation to code intelligence domains and will establish clear ownership boundaries for other product teams to build on top of.
+Several recent efforts have shown an increasing need to unify the [code intelligence data platform](https://docs.google.com/document/d/1AjZ_d0nJVHbV75IH3jZRkrGXhsv_AXp2kS4nrw2SAQ8). These efforts show an immediate need to be able to correlate and aggregate data from different sources within an API boundary (instead of re-implemented on several clients). This will set precedent for where code goes in relation to code intelligence domains and will establish clear ownership boundaries for other product teams to build on top of. We see this engineering milestone as a large enabler for every product vertical, thus indirectly impacting usage in the mid term.
 
 ### How do these all tie together?
 
