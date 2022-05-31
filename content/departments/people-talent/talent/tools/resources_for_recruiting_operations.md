@@ -80,7 +80,7 @@ Please reach out to the following Executive Business Partners directly if you ha
 
 ### How to Select a Values Interview Panel:
 
-Coming Soon!
+When creating the interview plan in Greenhouse, the talent team will select 2 values interviewers to participate in the interview process for each role. The talent team aims to include two teammates outside of the department for which a candidate is interviewing.
 
 ### How to Send a Candidate Interview Confirmation Email
 
