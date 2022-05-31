@@ -19,6 +19,8 @@ We have the following rules for which a vendor request needs to be raised:
 
 **\*Online** - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
 
+Please see our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) on further information on data classification and examples.
+
 **Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
 
 ### What counts as a Vendor?
