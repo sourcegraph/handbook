@@ -8,6 +8,7 @@ Operations guides for [managed instances](./index.md).
 - To suspend a managed instance, see [managed instances suspense process](suspend_process.md).
 - To resume a managed instance, see [managed instances resume process](resume_process.md).
 - To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
+- To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
 * [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
@@ -313,7 +314,7 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 
 <span class="badge badge-note">SOC2/CI-110</span>
 
-**TODO**
+Follow [restore process](./restore_process.md)
 
 <!-- https://github.com/sourcegraph/security-issues/issues/246 -->
 
