@@ -4,7 +4,7 @@ This section of the Handbook holds all documentation related to specific departm
 
 - [Business Operations](bizops/index.md)
 - [CEO Team](ceo-team/index.md)
-- [Customer Engineering and Support](ces/index.md)
+- [Customer Engineering and Support](ce-support/index.md)
 - [Finance](finance/index.md)
 - [Legal](legal/index.md)
 - [Marketing](marketing/index.md)
