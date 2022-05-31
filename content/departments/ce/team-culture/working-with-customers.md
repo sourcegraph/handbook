@@ -10,7 +10,7 @@ A CE, being both a pre-sales engineer and a post-sales technical account manager
   - [License Keys](#license-keys)
 - [Post-Sales Customer Touchpoints](#post-sales-customer-touchpoints)
   - [Post-Sales Engagement Kickoff](#post-sales-engagement-kickoff)
-  - [New User Onboarding (adoption)](#user-onboarding)
+  - [New User Onboarding](#user-onboarding)
   - [Webinars / Trainings / Q&A Sessions](#webinars--trainings--qa-sessions)
   - [Check-in calls](#check-in-calls)
   - [QBRs](#qbrs)
@@ -111,15 +111,6 @@ On the kickoff call we plan our ongoing engagement with the customer. Different 
 ## User Onboarding
 
 A critical part of the customer experience is user onboarding. After deal close, once the customers' production infrastructure is setup and confifured, CEs are responsible for driving adoption of users onto Sourcegraph. During engagement kick-off, CE works with our customer stakeholders to create a plan to onboard their users.
-
-We measure adoption as the number of Monthly Active Users (MAUs) / Total Number of Seats Purchased.
-
-Our adoption targets are as follows:
-
-- Post-production infrastructure complete (day 0 - day 90): 25% consumption
-- Day 91 - 180: 50% consumption
-- Day 181 - 270: 75% consumption
-- Day 271+: 75% consumption
 
 ### Resources
 
