@@ -9,6 +9,8 @@ Don't ever feel pressured to know everything when you're a mentor. If you are as
 
 Remember, being an onboarding mentee is not a chore or something that is “taking up your time.” This is something we all need to do to support each other. The more you can be there for your mentee, the stronger the CS team will continue to be. If you feel you cannot be an effective mentee for whatever reason, let management know ahead of time.
 
+You can read more about [Onboarding Mentors here](../../../company-info-and-process/onboarding/onboarding-mentor.md)
+
 # Meeting cadence and guidelines:
 
 Meetings are to be scheduled by the mentor. Feel free to schedule more meetings as you deem necessary in between or after. The following guide demonstrates what meetings are advised at a minimum.
