@@ -8,4 +8,4 @@
 - [Resources for Candidates](../../resources_for_candidates.md)
 - Resources for Hiring Managers
 - [Resources for Recruiting Ops](resources_for_recruiting_operations.md)
-- [Resources for Teammates](../../resources_for_teammates.md)
+- [Resources for Teammates](../../../../../departments/people_talent/resources_for_teammates.md)
