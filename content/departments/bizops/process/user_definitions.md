@@ -52,11 +52,12 @@ For some of our metrics we want to identify unique users across on-prem and clou
 Unlike **active** users, which is a term meaningful within a specific time period, **activated** is a special state that is permanent once triggered.
 
 Cloud:
-Becoming activated as user is based on a sequence of events. We found that this sequence of events correlates to longer term retention and usage.  
-Signup and account registration completed
-Code host connected
-Search Submitted across code - 3x
-View search results - 3x
+Becoming activated as user is based on a sequence of events. We found that this sequence of events correlates to longer term retention and usage.
+
+- Signup and account registration completed
+- Code host connected
+- Search Submitted across code - 3x
+- View search results - 3x
 
 As a part of this sequence of events we also developed a new metric. The first two steps of the sequence is Account Setup.
 
