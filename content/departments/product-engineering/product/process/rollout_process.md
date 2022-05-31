@@ -2,7 +2,7 @@
 
 Features come in many different sizes and shapes, and the process for introducing new functionality ranges with these differences. For large or significantly impactful changes or changes that simply need a bit more time to bake, it is encouraged that the following rollout process is followed.
 
-Some features have a [beta or experimental label](beta_and_experimental_feature_labels.md). 
+Some features have a [beta or experimental label](beta_and_experimental_feature_labels.md).
 
 [Pricing features](pricing.md) is a complicated topic and has its own page.
 
