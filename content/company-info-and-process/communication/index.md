@@ -2,6 +2,7 @@
 
 We're an [all-remote](../remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
+- [Internal Comms Plan Teamplate](https://docs.google.com/document/d/1oIljeqkrJJQm4FCeOodHTFU4yb3RYTbn2HqemrSgz18/edit)
 - [Decision making at Sourcegraph](decisions.md)
 - [Glossary of terms](../onboarding/glossary.md) we use
 
@@ -38,7 +39,7 @@ The following places are not sources of truth. Treat documents and conversations
 
 ## Meetings
 
-- [Company meeting](company_meeting.md) (Mondays 8:00–8:30 am PST/PDT)
+- [Company meeting](company_meeting.md) (Every other Tuesday 3:00-3:45pm UT)
 - [Social calendar](../remote/social_calendar.md) meetings
 - [One on One](1-1.md) meetings
 
