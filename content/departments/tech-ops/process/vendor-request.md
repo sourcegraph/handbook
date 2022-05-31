@@ -8,18 +8,16 @@ In order for us to be able to evaluate, maintain and monitor vendor relationship
 
 ### When should I use this process?
 
-We have the following rules for which a vendor request needs to be raised: 
+We have the following rules for which a vendor request needs to be raised:
 
-- If **cost = 0**  and classification is **PUBLIC** or **INTERNAL**  -> no ticket needs to be raised 
-- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED**  but **LOCALLY*** -> no ticket needs to be raised 
-- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED**  but **ONLINE*** ->  raise a ticket 
+- If **cost = 0** and classification is **PUBLIC** or **INTERNAL** -> no ticket needs to be raised
+- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED** but **LOCALLY\*** -> no ticket needs to be raised
+- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED** but **ONLINE\*** -> raise a ticket
 - If **cost >0** and classification is **PUBLIC** or **INTERNAL** or **PRIVATE** or **RESTRICTED** -> raise a ticket
 
+**\*Locally** - meaning the data is not leaving your laptop (for instance text editor)
 
-***Locally** - meaning the data is not leaving your laptop (for instance text editor)
-
-***Online** - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
-
+**\*Online** - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
 
 **Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
 
