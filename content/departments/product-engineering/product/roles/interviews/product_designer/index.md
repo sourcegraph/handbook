@@ -7,12 +7,12 @@ _Total interview time: 6 hours_
    - Two of our Product Designers
 1. [30 min] **[Hiring manager screen](../hm_intro_call.md)**: We discuss your background & get to know you.
 1. [1 hr] **[Resume deep dive](../../../../../people-talent/talent/process/types_of_interviews.md#resume-deep-dive)**: We go through your background in great detail with the hiring manager.
-1. [2 hrs] **[Design exercise](./pd_design_exercise.md)**: We give you a problem statement and you walk us through your design process in a 2 hour block.
+1. [1.5 hrs] **[Design Working Session](./pd_design_exercise.md)**: We give you a problem statement and you walk us through your design process in a 1.5 hour block.
    - One of our Product managers
    - One of our Product designers
    - One of our Frontend engineers
 1. [30 min] **[Values interview](../../../../../people-talent/talent/process/evaluating_values.md)** with someone from another Sourcegraph team (Marketing, Customer Support, Engineering, BizOps)
-1. [30 min] **Final interview** with [Beyang Liu](../../../../../../team/index.md#beyang-liu), CTO
+1. [30 min] **Final interview** with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product
 1. We make you a job offer!
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
