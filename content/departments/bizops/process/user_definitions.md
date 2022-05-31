@@ -47,15 +47,22 @@ Qualifying events are not intended to be difficult, or prove that someone is a h
 
 For some of our metrics we want to identify unique users across on-prem and cloud instances. For this purpose, unique users of Sourcegraph is a way to correlate registered users who have a common email address across any number of instances. For example, a@b.com on an on-prem instance and a@b.com on Sourcegraph.com would be considered the same user for the purposes of this metric. Note that most measures don't have this constraint, and any that do will include the term "Unique Sourcegraph Users" in the name of the metric.
 
-### Activated user (Cloud)
+### Activated user
 
 Unlike **active** users, which is a term meaningful within a specific time period, **activated** is a special state that is permanent once triggered.
 
-An activated user is defined as anyone who has ever done a specific series of actions that ends in habit creation using Sourcegraph within their workflows. This can be broken down further into the setup moment (actions done to set up for the core value prop, such as signing up and adding personal repositories), aha moment (experienced the core value prop the first time, such as an active user's first search over their personal search context) and habit moment (when the habit around the core value proposition is finally established).
+Cloud:
+Becoming activated as user is based on a sequence of events. We found that this sequence of events correlates to longer term retention and usage.  
+Signup and account registration completed 
+Code host connected 
+Search Submitted across code - 3x 
+View search results - 3x
 
-Activation is this entire journey, and our current definition is that someone has performed a search or code intelligence action [as defined in Amplitude](https://analytics.amplitude.com/sourcegraph/govern/project/333976/events?filter=all&event=ce%3ABecome%20active).
+As a part of this sequence of events we also developed a new metric. The first two steps of the sequence is Account Setup. 
 
-**Note**: There can be a ton of improvement in this definition. It will be more like they've completed 20 searches across repositories they've added to Sourcegraph, but we need to do some research into what correlates highly with retention.
+On-Prem and Managed: 
+Work is currently being done to inform the activated metric for on-prem and managed customers. We expect to have this definition informed by the end of June 2022.
+
 
 ### Registered user (Cloud)
 
@@ -64,6 +71,9 @@ Active users can be further optionally segmented into **registered** or **non-re
 ### Account Setup
 
 This identifies users or teams either on Cloud or private install and are not yet customers.
+Account Setup is considered having taken place once the following conditions are met: 
+- Signup and account registration completed 
+- Code host connected 
 
 #### Individual Account Setup
 
