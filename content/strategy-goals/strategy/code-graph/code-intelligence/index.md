@@ -109,7 +109,7 @@ Our next step is helping customers set up, monitor and weed out any issues that 
 
 **Make code navigation feel fast and reliable**
 
-We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements with the aim of increasing code navigation usage. 
+We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements with the aim of increasing code navigation usage.
 
 **Code intelligence platform API**
 
