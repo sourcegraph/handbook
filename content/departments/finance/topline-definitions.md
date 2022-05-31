@@ -1,5 +1,5 @@
-| Metric                          | Definition                                |
-| ------------------------------- | ------------------------------------------|
+| Metric                          | Definition                                                                                                                                                                                            |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | New Business IARR               | IARR from a customer paying for products and/or service for the first time. This includes IARR from customers who may have canceled service in the past                                               |
 | Expansion IARR                  | IARR from existing customers. Expansion IARR occurs either via a customer buying more of the same product (up-sell) or a new product (cross-sell)                                                     |
 | Cross-sell IARR                 | IARR generated from existing customers buying new products                                                                                                                                            |
@@ -10,5 +10,5 @@
 | Customer Count                  | Number of customers with an active contractual financial commitment at a point in time                                                                                                                |
 | Average Sales Price (ASP)       | The average initial contract price per new logo (calculated as New Logo IARR / New Logo Count over a given period). Excludes any service or one time revenue                                          |
 | Average Revenue Per User (ARPU) | ARR / Total number of committed users in a given period                                                                                                                                               |
-| Gross Renewal Rate %            | The dollar amount of ARR renewed divided by the total dollar amount of ARR up for renewal in a given period; excluding expansion IARR                                                                           |
+| Gross Renewal Rate %            | The dollar amount of ARR renewed divided by the total dollar amount of ARR up for renewal in a given period; excluding expansion IARR                                                                 |
 | Net Dollar Retention (NDR %)    | Dividing ARR balance at the end of a period by the ARR balance of the same group of customers at the beginning of the period, net of downsizes and cancellations and excluding ARR from new customers |
