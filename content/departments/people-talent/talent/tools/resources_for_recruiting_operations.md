@@ -129,7 +129,7 @@ NOTE: If you're removing the interviewer who is set as the zoom meeting host, yo
 
 ## How to Generate an Offer Letter
 
-Offer letters are generated and sent by Recruiting Coordinators or Recruiting Operations Specialists. 
+Offer letters are generated and sent by Recruiting Coordinators or Recruiting Operations Specialists.
 
 To generate a US Offer Letter, watch and follow [these steps.](https://share.vidyard.com/watch/DKevdnBPCfK26jgQgyzX2x)
 
