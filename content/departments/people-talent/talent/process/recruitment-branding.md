@@ -10,12 +10,14 @@ We post about hiring initiatives and Sourcegraph culture content on our company 
 We also welcome teammates to share our open roles with their personal networks. We've put together these enablement resources so you can easily share our career opportunities with your LinkedIn and Twitter networks.
 
 Sample Tweets
+
 - [Click to tweet](https://ctt.ac/k23tL)
 - [Click to tweet](https://ctt.ac/dxqE5)
 
 LinkedIn Sample Posts:
+
 - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! #WereHiring #RemoteWork https://srcgr.ph/32pe8gC
-- At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC #WereHiring #RemoteWork 
+- At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC #WereHiring #RemoteWork
 
 ### Posting Best Practices
 
