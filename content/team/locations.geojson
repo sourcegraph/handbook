@@ -656,14 +656,6 @@
             ]
          }
       },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.34887838363649,
-               47.65703408702765
-            ]
-         }
-      },
       {
          "type": "Feature",
          "properties": {
@@ -1407,5 +1399,19 @@
               40.68896903762434
             ]
          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "Dulani Wallace"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -76.997570,
+              38.947710
+            ]
+         }
       }
-] }
+   ]
+}
