@@ -3,6 +3,7 @@
 TODO
 
 ## Vendor management
+
 ## Automation and workflow creation
 
 ## How to create a profile
@@ -104,17 +105,18 @@ In the image below, you can see in red the fields the People Team must complete 
 #### Employee status
 
 All three fields need to be complete before start date:
+
 - **Effective date**: Same as start date
 - **Employee Status**: Each teammates should be one of either:
-  -  Contractor: Not used
-  -  Full-Time Contractors (Non-US Teammate)
-  -  Full-Time Contractors (Non-US Teammate) - Intern
-  -  Full-Time Employee (US Teammate)
-  -  Full-Time Employee (US Teammate) - Intern
-  -  Full-Time PEO Employee (Non-US Teammate)
-  -  Furloughed: Not used
-  -  Part-Time Contractor: Part time contractor (external people we contract their services for a defined amount of time)
-  -  Temporaty Contractor: Full time contractor (external people we contract their services for a defined amount of time)
+  - Contractor: Not used
+  - Full-Time Contractors (Non-US Teammate)
+  - Full-Time Contractors (Non-US Teammate) - Intern
+  - Full-Time Employee (US Teammate)
+  - Full-Time Employee (US Teammate) - Intern
+  - Full-Time PEO Employee (Non-US Teammate)
+  - Furloughed: Not used
+  - Part-Time Contractor: Part time contractor (external people we contract their services for a defined amount of time)
+  - Temporaty Contractor: Full time contractor (external people we contract their services for a defined amount of time)
 - **Comment**
 
 #### Compensation
@@ -124,13 +126,13 @@ Complete before start date:
 - **Effective date**: Same as start date
 - **Pay Schedule**:
   - Monthly: Non US teammates
-  - Twice Monthly: US teammates 
+  - Twice Monthly: US teammates
 - **Pay Type**: This field is linked to Lattice, so it's important to give the right type
   - Salary (gets Lattice access)
-  - Hourly (for Interns, Temporary  & Part time contractors - they don't get access to Lattice)
+  - Hourly (for Interns, Temporary & Part time contractors - they don't get access to Lattice)
   - Commission Only (not used)
-- **Pay Rate**: Compensation. Make sure it is in USD. Cadance will be per Year for all teammates and hourly for Interns, Temporary  & Part time contractors.
-- **Overtime Status**: Exempt for all teammates and Non-Exempt for Interns, Temporary  & Part time contractors. Make sure to add the correct cost of extra hours.
+- **Pay Rate**: Compensation. Make sure it is in USD. Cadance will be per Year for all teammates and hourly for Interns, Temporary & Part time contractors.
+- **Overtime Status**: Exempt for all teammates and Non-Exempt for Interns, Temporary & Part time contractors. Make sure to add the correct cost of extra hours.
 - **Change reason**: Complete
 - **Comment**: Add insight
 - **Compensation Category and Level**: Confirm with Talent if you don't know.
@@ -150,15 +152,15 @@ All of the following must be complete before start date:
 
 Complete before start date:
 
-- **Status**: 
+- **Status**:
   - Proposed, Not Yet Granted: before Sourcegraph's Board of Directors approves them
   - Granted: after Sourcegraph's Board of Directors approves them
- If you are not sure, contact the Legal team.
+    If you are not sure, contact the Legal team.
 - **Number of options**
 - **Vesting Date**: Same as start date
- Leave the rest blank until they are approved by the Board.
- 
- #### Commission
+  Leave the rest blank until they are approved by the Board.
+
+#### Commission
 
 Not all roles have commissions. For those who do, all of these must be completed before start date:
 
@@ -176,11 +178,18 @@ Not all roles have commissions. For those who do, all of these must be completed
 This is rarely used. When needed, complete all field.
 
 ## Integrations
+
 Fields access to other tools (lattice)
+
 ## Permissions
+
 ## Approving changes
+
 Personal information
 Role/Compensation/Promotion/Spot Bonus
+
 ## Reports for Management (setup)
+
 ## Data audit and hygeine
+
 ## General reporting for partners/customers
