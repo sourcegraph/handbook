@@ -12,7 +12,7 @@ _Total interview time: 6 hours_
    - One of our Product designers
    - One of our Frontend engineers
 1. [30 min] **[Values interview](../../../../../people-talent/talent/process/evaluating_values.md)** with someone from another Sourcegraph team (Marketing, Customer Support, Engineering, BizOps)
-1. [30 min] **Final interview** with [Christina Forney](https://handbook.sourcegraph.com/team/#christina-forney), VP Product
+1. [30 min] **Final interview** with [Christina Forney](../../../../../../team/index.md#christina-forney), VP Product
 1. We make you a job offer!
 
 We want to ensure Sourcegraph is an environment that suits your working style and empowers you to do your best work, so we are eager to answer any questions that you have about us at any point in the interview process.
