@@ -134,7 +134,7 @@ If the Manager accepts trade/Account will be transferred to AE. AE’s SDR will 
 
 See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
 
-See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/)
+See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsheets/d/1nhxUAkooEx1JZV4ZAwyN0Ck9BrK-VUzObNp_IRAf_OE/edit#gid=0)
 
 ### Maintaining customer spreadsheets
 

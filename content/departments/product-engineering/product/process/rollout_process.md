@@ -105,7 +105,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 
 ### Before merge
 
-- Run hallway tests with internal users, leveraging the #feedback-dogfood channel.
+- Run hallway tests with internal users, leveraging [the #feedback-dogfood channel](../../team-culture/feedback-dogfood.md).
 - Complete a final [design review](../design/design_process.md#final-review)
 - Review documentation
 - Review analytics and ensure desired metrics have been added to the feature

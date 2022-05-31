@@ -137,7 +137,7 @@ To learn more about contributing to `sg`, check out the [contribution guide](htt
 
 ### Slack
 
-Teammates communicate in #dev-experience, #dev-experience-internal, and #dev-experience-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view/insights) in #dev-experience-updates.
+Teammates communicate in #dev-experience, #dev-experience-internal, and #dev-experience-private, and post daily updates [Geekbot](https://app.geekbot.com/dashboard/standup/90468/view) in #dev-experience-updates.
 
 ## Housekeeping
 

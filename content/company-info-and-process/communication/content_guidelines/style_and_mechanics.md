@@ -793,6 +793,7 @@ We describe ourselves with a few different names depending on context, and we sh
   - Sourcegraph(’s) Chrome extension
   - Sourcegraph(’s) Firefox add-on
 - **Sourcegraph OSS**: When referring to the build result of the open source repository.
+- **Code intelligence platform**: Use when referring to our category or our entire suite of products and features.
 
 You don't need to use the full name of the product each time you refer to it, but don't use a shortened name that could be confused with an official name.
 
@@ -844,19 +845,22 @@ List of product names:
 - Batch Changes
 - Code Insights
 - Code Intelligence
-- Universal Code Search
+- Code Search
+
+We do not capitalize our category name (code intelligence platform) or platform positioning.
 
 <div class="usage">
 <div class="item yes">
 
 ##### Yes
 
-- With Sourcegraph Universal Code Search you can...
+- With Sourcegraph Code Search you can...
 - You can search across all your repositories with Universal Code Search.
 - Companies benefit from a universal code search tool because...
 - Sourcegraph Batch Changes is... Batch Changes allows you to...
 - To create a batch change...
 - You can create batch changes for various purposes, such as upgrading dependencies across...
+- Sourcegraph is a code intelligence platform that enables you to understand, fix, and automate across your entire codebase.
 
 </div>
 <div class="item no">
@@ -867,6 +871,7 @@ List of product names:
 - With code insights you can...
 - Here’s how to use code intelligence.
 - Here’s how to use code search.
+- Our Code Intelligence Platform enables you to understand, fix, and automate across your entire codebase.
 
 </div>
 </div>

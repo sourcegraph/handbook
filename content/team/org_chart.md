@@ -22,7 +22,7 @@ The org chart is generated automatically from data files in the handbook reposit
 
 {{generator:reporting_structure.vp_marketing}}
 
-## [People Ops](../departments/people-ops/index.md#people-ops-team-members)
+## [People Ops](../departments/people-talent/people-ops/index.md#people-ops-team-members)
 
 {{generator:reporting_structure.vp_people}}
 

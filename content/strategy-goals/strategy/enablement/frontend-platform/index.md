@@ -25,13 +25,13 @@ In Q2 we'll tackle the meat of our WCAG accessibility requirements by working wi
 
 - [Complete V2 of Wildcard Component Library](https://github.com/sourcegraph/sourcegraph/issues/31204)
 
-- [Improve consistency in Sourcegraph's frontend codebase](https://github.com/sourcegraph/sourcegraph/issues/33123)
-
 - [Improve client-side observability on Sourcegraph Cloud](https://github.com/sourcegraph/sourcegraph/issues/26570)
 
 - WCAG 2.1 AA Accessibility [auditing user journeys](https://github.com/sourcegraph/sourcegraph/issues/31475) and [fixing known issues](https://github.com/sourcegraph/sourcegraph/issues/31476)
 
 ### FY23 Q3
+
+- [Improve consistency in Sourcegraph's frontend codebase](https://github.com/sourcegraph/sourcegraph/issues/33123)
 
 - [Review and remove unnecessary RxJs in our codebase](https://github.com/sourcegraph/sourcegraph/issues/33124)
 

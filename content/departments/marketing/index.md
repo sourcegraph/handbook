@@ -44,6 +44,19 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Blog Hackathon](content/editorial/blog_hackathon.md)
   - [Web series](content/web_series.md)
 
+- [Community Relations](community_relations/index.md)
+
+  - [Public projects using Sourcegraph](process/public_projects_using_sourcegraph.md)
+  - [Adding a community landing page](process/oss_community_pages.md)
+  - [How to become a Sourcegraph Champion](process/becoming_a_sourcegraph_champion.md)
+
+- Creative Operations
+
+  - Requesting creative assets
+  - Marketing swag
+  - See our brand guidelines
+  - Download our brand kit
+
 - [Demand Gen](demand-gen/index.md)
 
   - [Account Based Experience](demand-gen/account_based_experience.md)
@@ -57,12 +70,6 @@ The table below breaks down the capabilities of each team within Marketing. Once
   - [Learn Platform Style](education/style.md)
   - [Team Process](education/process.md)
   - [DevEd Council](education/dev-ed-council.md)
-
-- [Community Relations](community_relations/index.md)
-
-  - [Public projects using Sourcegraph](process/public_projects_using_sourcegraph.md)
-  - [Adding a community landing page](process/oss_community_pages.md)
-  - [How to become a Sourcegraph Champion](process/becoming_a_sourcegraph_champion.md)
 
 - [Brand](brand/index.md)
 

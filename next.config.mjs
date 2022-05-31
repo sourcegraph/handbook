@@ -19,6 +19,10 @@ const nextConfig = {
     },
     swcMinify: true,
     trailingSlash: true,
+    eslint: {
+        // We don't rely on linting errors to break to stop the Neltify build
+        ignoreDuringBuilds: true,
+    },
 }
 
 export default nextConfig

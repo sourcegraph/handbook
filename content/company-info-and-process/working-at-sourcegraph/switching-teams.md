@@ -8,11 +8,11 @@ This page focuses on the _process_ of moving from one team or department to anot
 - The interview process for internal teammates
 - Alerting People Ops / making the change official
 
-For teammates interested in a new role on a new team, please reach out to your Manager (or the Talent or [People Ops team](../../departments/people-ops/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
+For teammates interested in a new role on a new team, please reach out to your Manager (or the [Talent team](../../departments/people-talent/talent/index.md) or [People Ops team](../../departments/people-talent/people-ops/index.md) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
 
 If you are interested in staying in the same department or team, or working for the same manager, but switching your focus (e.g. switching from frontend to backend software development), then this page is not needed—simply speak to your manager and see if adjustments can be made to our current role, that align with the team's success.
 
-If you are a Manager, please visit this page to learn [how to notify People Ops of an org change](../../departments/people-ops/tools/manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
+If you are a Manager, please visit this page to learn [how to notify People Ops of an org change](../../departments/people-talent/people-ops/tools/manager-guide.md#how-to-notify-people-ops-of-an-org-and-role-change).
 
 ## Eligibility
 
@@ -24,8 +24,8 @@ For now, any member of the Sourcegraph team is eligible to request to take on a 
 
 Whether hiring an internal candidate (someone who already works at Sourcegraph) or an external candidate, we always want to follow best practice. What does that mean?
 
-- All candidates go through the same [interview process](../../departments/talent/process/interview_process.md), regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
-- The role should be kicked off following the steps outlined [here](../../departments/talent/process/opening_a_new_job.md). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
+- All candidates go through the same [interview process](../../departments/people-talent/talent/process/interview_process.md), regardless of whether they are an internal teammate or external applicant. The only difference is: internal candidates can skip the Values Interview, given that we have a pulse on this already.
+- The role should be kicked off following the steps outlined [here](../../departments/people-talent/talent/process/opening_a_new_job.md). The role and expectations for the role need to be clearly defined and written down in the form of a job description using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit).
 - The team and interviewers are aligned on role expectations and how we are going to measure those things. An interview plan must be created and predetermined structured interview questions should be asked to all candidates.
 - We ensure that the person we hire meets the expectations of the role.
 
@@ -47,7 +47,7 @@ If a hiring manager from a team would like to invite someone from another team t
 1. In order to also ensure an equitable process and account for the reality that no one hiring manager would know the career ambitions of everyone at Sourcegraph, the hiring manager should post in #hiring that they are hiring for a role and, as with any role, we are happy to consider internal candidates, and that anyone interested should let them and their current manager know.
 1. If you, as a hiring manager, have a specific teammate in mind for the role, the next step is to schedule time with the person’s existing manager to confirm 1) that they are supportive, 2) ensure they are in good standing, and 3) align on transition timing plan assuming the teammate is offered the new job.
 1. Alert the talent team and ask them to set up time with the teammate to discuss the role in further detail.
-1. The talent team will schedule them for all [remaining interview steps](../../departments/talent/process/interview_process.md) (with the exception of the values interview) just as they would with any other candidate.
+1. The talent team will schedule them for all [remaining interview steps](../../departments/people-talent/talent/process/interview_process.md) (with the exception of the values interview) just as they would with any other candidate.
 
 ## Considerations
 
@@ -65,7 +65,7 @@ The teammate must accept that the new role may come with different compensation 
 
 ## Announcing a teammate transfer
 
-Once the offer is official, the **new** Hiring Manager follows the below steps. You can read more about the internal transfer process [here](../../departments/people-ops/tools/manager-guide.md#managing-a-role-change)
+Once the offer is official, the **new** Hiring Manager follows the below steps. You can read more about the internal transfer process [here](../../departments/people-talent/people-ops/tools/manager-guide.md#managing-a-role-change)
 
 1. Announces the news in #Teammate-announce.
 1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdpsqWn5acbU2LMCzizpxJBnGDgNoP8Qvj9P3FROO9g5C3yHA/viewform) to alert People Ops of the change and ensure that the teammate's new team & manager are listed accurately in Bamboo.

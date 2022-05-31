@@ -26,7 +26,7 @@ Perform these steps the day before the release date to generate a stable release
 
 ### Prepare release
 
-- [ ] Post a release status update to Slack - review all release-blocking issues, and ensure someone is resolving each.
+- [ ] Post a release status update to Slack - [review all release-blocking issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-blocker), and ensure someone is resolving each.
   ```sh
   yarn release release:status
   ```

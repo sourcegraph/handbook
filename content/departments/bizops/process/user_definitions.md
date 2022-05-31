@@ -35,14 +35,13 @@ An active user is differentiated from a visitor by performing a qualifying event
 
 Qualifying events are not intended to be difficult, or prove that someone is a heavy/power user of the product. They are carefully selected to represent activities that indicate realized value from Sourcegraph.
 
-| Metric            | What                                                                                        | Events                                                                                                                          |
-| ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Search            | Search Submitted, Viewed search results,receive a code monitoring/saved search notification | ` SearchSubmitted``SearchResultsFetched ` `CodeMonitorEmailLinkClicked` `SavedSearchNotificationSent` `SavedSearchEmailClicked` |
-| Navigation        | View a file/repository/tree                                                                 | `ViewBlob` `ViewRepository` `ViewTree` `ViewSearchNotebookPage`                                                                 |
-| Code intelligence | Hovered                                                                                     | `hover`                                                                                                                         |
-| API docs          | Using Sourcegraph outside of the app                                                        | `ViewRepositoryDocs`                                                                                                            |
-| Batch changes     | Created or viewed a batch change                                                            | TBD                                                                                                                             |
-| Code insights     | Created or viewed a code insight                                                            | TBD                                                                                                                             |
+| Metric            | What                                                                                        | Events                                                                                                                         |
+| ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Search            | Search Submitted, Viewed search results,receive a code monitoring/saved search notification | `SearchSubmitted` `SearchResultsFetched` `CodeMonitorEmailLinkClicked` `SavedSearchNotificationSent` `SavedSearchEmailClicked` |
+| Navigation        | View a file/repository/tree                                                                 | `ViewBlob` `ViewRepository` `ViewTree` `ViewSearchNotebookPage`                                                                |
+| Code intelligence | Hovered                                                                                     | `hover`                                                                                                                        |
+| Batch changes     | Created or viewed a batch change                                                            | TBD                                                                                                                            |
+| Code insights     | Created or viewed a code insight                                                            | TBD                                                                                                                            |
 
 #### Unique Sourcegraph active users
 

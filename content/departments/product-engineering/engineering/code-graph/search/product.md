@@ -1,5 +1,15 @@
 # Search product team
 
+```
+      🤠
+　  🔍🔍🔍
+　🔎  🔎  🔎
+👇  🔍　🔍  👇
+ 　 🔎　🔎
+ 　 🔍　🔍
+ 　 👢　👢
+```
+
 The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results:
 
 - Search field

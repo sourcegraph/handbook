@@ -156,7 +156,7 @@ Example: use_case_dev_onboarding_guide
 
 While the above enhanced touchpoint tracking fields give us insight into which sources drive traffic to our owned sites, Salesforce functionality limits how extensively we can attach these insights to opportunities. For example, in Salesforce, we can only attribute a new qualified opportunity to the one contact that was converted to the opp, leading us to miss out on the many other leads and contacts that often touch an account in its lifecycle. As a result, we have historically had a materially limited view into which specific traffic sources drive new pipeline and ARR.
 
-We have implemented CaliberMind in an effort to supplement this limited Salesforce visibility. CaliberMind is a software platform that aggregates all inbound and outbound activities into one place; comprehensive data on contacts, leads, and accounts - as well as the campaigns, channels, and sources that landed, converted, or closed them - provides a comprehensive view into exactly which activities are best performing at generating and closing new deals.
+We have implemented CaliberMind in an effort to supplement this limited Salesforce visibility. CaliberMind is a software platform that aggregates all inbound and outbound activities into one place; comprehensive data on contacts, leads, and accounts - as well as the campaigns, channels, and sources that landed, converted, or closed them - provides a comprehensive view into exactly which activities are best performing at generating and closing new deals. If you do not currently have access to CaliberMind but would like to request it, please reach out in the #wg-attribution channel in Slack and someone on the team with follow up with you.
 
 Key terms and concepts are defined below:
 
@@ -221,4 +221,6 @@ opportunity, but not sourced it.
   </tr>
 </table>
 
-Note: The Data and Analytics team is working on getting this data into BigQuery and our data visualization tools and will update this section with links to sources once that effort is complete.
+<strong>CaliberMind Data</strong>
+
+Currently, we do not have access to CaliberMind data directly in our BigQuery database. Instead, CaliberMind users can access Sourcegraph's instance of CaliberMind data in BigQuery [here](https://my.calibermind.com/settings/account/dw) and [here](https://console.cloud.google.com/bigquery?project=sourcegraph-ad8e). CaliberMind fields and their definitions can be found [here](https://docs.google.com/spreadsheets/d/1uDl-BSPXCWh118GnhjiS7POsDPO_zi6X40f6LdTWS_Y/edit#gid=2034580537). If you do not have access to any of these links, please reach out to #wg-attribution in Slack. Once accessed, this data can be transferred first into Google Sheets and later into Looker for more extensive analysis and manipulation.
