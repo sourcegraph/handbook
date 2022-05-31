@@ -44,7 +44,7 @@ export PROJECT_ID=$PROJECT_PREFIX-$CUSTOMER
 export INSTANCE_NAME=default-$OLD_DEPLOYMENT-instance
 ```
 
-Locate the most recent snaphost of the **current** data disk, note the name of the snaphost as `SNAPSHOT_NAME`
+Locate the most recent snapshot of the **current** data disk, note the name of the snapshot as `SNAPSHOT_NAME`. We are using a blue/green model for some infra changes, so it is possible to have snapshot of data disk of the previous instance. It's important to use the snapshot of the last active instance.
 
 ```sh
 gcloud compute snapshots list --project $PROJECT_ID

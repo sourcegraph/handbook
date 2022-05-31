@@ -14,7 +14,7 @@ Navigate to `sourcegraph-managed-$CUSTOMER` project, and look at existing comput
     - Yes, [re-create the VM with existing data disk](##re-create-the-vm-with-existing-data-disk)
     - No, [re-create the VM with a new data disk from disk snapshot](##re-create-the-vm-with-new-data-disk-from-disk-snapshot)
 
-- Yes, follow [operation guides](./operations.md) to troubleshoot services condition. If unable to recover running services on the VM, fallback to the recovery plan above.
+- Yes, follow [operation guides](./operations.md) to troubleshoot services condition. If unable to recover running services on the VM, fallback to [re-create the VM with a new data disk from disk snapshot](##re-create-the-vm-with-new-data-disk-from-disk-snapshot).
 
 ## Re-create the VM with existing data disk
 
@@ -24,7 +24,7 @@ Navigate to `sourcegraph-managed-$CUSTOMER` project, and look at existing comput
 
 ## Re-create the VM with new data disk from disk snapshot
 
-1. Go to https://console.cloud.google.com/compute/snapshots (make sure you select the right project) and find the latest snapshot, note the name
+1. Run `gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER --sort-by="~creationTimestamp" --limit=5 --format="table(name,creationTimestamp)"` and copy the name of the latest snapshot
 1. Go to [sourcegraph/deploy-sourcegraph-managed] and create a new branch `$CUSTOMER/restore-instance`
 1. Edit `$CUSTOMER/terraform.tfvars`. NOTES: the key could be `black` depending on the current active instance
 

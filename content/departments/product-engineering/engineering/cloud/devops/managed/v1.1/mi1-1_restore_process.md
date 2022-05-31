@@ -31,7 +31,9 @@ List all backups, note the name of the latest (or the one right before database 
 gcloud sql backups list --instance $SQL_INSTANCE --project $PROJECT_ID
 ```
 
-Restore the backup to the current instance. **IMPORTANT** This will override all current data with the backup.
+Restore the backup to the current instance.
+
+> NOTE: **IMPORTANT** This will override all current data with the backup.
 
 ```sh
 gcloud sql backups restore $SQL_BACKUP_ID --restore-instance $SQL_INSTANCE --project $PROJECT_ID
@@ -67,8 +69,9 @@ Does the VM still exist?
 
 ### Re-create the VM with new data disk from disk snapshot
 
-1. Go to https://console.cloud.google.com/compute/snapshots (make sure you select the right project) and find the latest snapshot, note the name
+1. Run `gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER --sort-by="~creationTimestamp" --limit=5 --format="table(name,creationTimestamp)"` and copy the name of the latest snapshot
 1. Go to [sourcegraph/deploy-sourcegraph-managed] and create a new branch `$CUSTOMER/restore-instance`
+1. `cd $CUSTOMER`
 1. Edit `$CUSTOMER/terraform.tfvars`. NOTES: the key could be `black` depending on the current active instance
 
    ```tf
