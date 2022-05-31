@@ -107,7 +107,7 @@ While asynchronous communication is a core attribute of remote work, key moments
     - Link to a Sourcegraph search showing affected areas of the product
     - Screenshots of current product usage
     - A design that represents the suggested change
-    - A clear verbal discrpiption of the suggested changes
+    - A clear verbal description of the suggested changes
   - @ mention a frontend engineer requesting an addition or change to the component system
     - Engineering will approve, requests changes, or request that the designer uses an existing component
   - @ mention a designer and request a review
@@ -139,13 +139,13 @@ While asynchronous communication is a core attribute of remote work, key moments
     - Color blind check
     - Contrast check should meet AA standard for small text
   - Schedule and conduct a design presentation meeting if the size of the project requires
-  - Receive signoff from stakeholders
+  - Receive sign-off from stakeholders
   - If components were created in the visual design process, when the designs are signed off on, those components will be moved to the Sourcegraph component system
   - Prepare redlines or an interaction delivery writeup for the engineers. Consider the following:
     - Margin and padding
     - Animation
     - Links and hover states
-  - Describe expected behavior of layout for tablet and moble screensizes
+  - Describe expected behavior of layout for tablet and mobile screen-sizes
   - Due to the low number of mobile and table visitors (< 3%) design comps for these sizes are generally not required
   - Schedule a meeting with engineers to discuss the interaction
 - Tools
