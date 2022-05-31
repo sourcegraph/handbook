@@ -22,7 +22,7 @@ By the end of their first week:
 - Spend 30 minutes going over our 3 primary use cases and explain how we add value
 - Talk about the CE team (pre- and post-sales) and what we do at a high-level
 
-## Week Two
+### Week Two
 
 During new teammate's second week they are focused on the following:
 
@@ -36,7 +36,7 @@ What this means for the mentor in week two is:
 - Explain our "pre-sales" process and "post-sales" engagement
 - Put feelers out to other CEs and identify 3 customer calls during week 2 and 3 for the mentee to attend.
 
-## Week Three
+### Week Three
 
 Week Three is the meat of the onboarding! This week the mentee is doing all things product so your involvement in this week is increased.
 
@@ -63,7 +63,7 @@ Focused conversations on:
 
 Mentors must make sure there's more customer meetings set up for their mentee to shadow this week and into week 4.
 
-## Week Four
+### Week Four
 
 Week four intends to take what the mentee has learned about the Sourcegraph product and explore how our features and products differentiate from others.
 
@@ -81,7 +81,7 @@ In the check-in's during week 4, mentors should focus on confirming any misconce
 - Mentee familiar with Grep and how we are different
 - Mentee familiar with OpenGrok and how we are different
 
-## Week Five
+### Week Five
 
 The mentee's onboarding is nearing completion meaning they are ready to start putting things together and preparing for their first customer call. That means this week mentors should be doing a full demo flow with them end-to-end focused on our features. They should encourage them to practice with others on the team too.
 
@@ -96,7 +96,7 @@ For this week mentors must make sure to:
 
 - Watch their mentee demo live twice (early in the week, late in the week)
 
-## Week Six and beyond
+### Week Six and beyond
 
 After week 5, it's now time to support their mentee as they progress towards their demo certification.
 
