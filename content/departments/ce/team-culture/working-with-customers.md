@@ -112,15 +112,17 @@ On the kickoff call we plan our ongoing engagement with the customer. Different 
 
 A critical part of the customer experience is user onboarding. After deal close, once the customers' production infrastructure is setup and confifured, CEs are responsible for driving adoption of users onto Sourcegraph. During engagement kick-off, CE works with our customer stakeholders to create a plan to onboard their users.
 
-We measure adoption as the number of Monthly Active Users (MAUs) / Total Number of Seats Purchased. 
+We measure adoption as the number of Monthly Active Users (MAUs) / Total Number of Seats Purchased.
 
 Our adoption targets are as follows:
+
 - Post-production infrastructure complete (day 0 - day 90): 25% consumption
 - Day 91 - 180: 50% consumption
 - Day 181 - 270: 75% consumption
 - Day 271+: 75% consumption
 
 ### Resources
+
 - [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
 
 ## Webinars / Trainings / Q&A Sessions
