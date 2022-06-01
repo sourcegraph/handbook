@@ -17,7 +17,7 @@ Note that this is an optional process; some teams use tracking issues and some t
 
 An open tracking issue is populated and kept up to date with the GitHub issues and pull requests labeled the same as the tracking issue (minus the `tracking` label) that belong to any repositories of the `sourcegraph` organization. Optionally, a milestone can also be set. The tracking issue will be updated as these issues and pull requests are opened, changed, closed, merged, etc.
 
-This is done automatically by the [tracking-issue tool](#contributing-to-the-tracking-issue-tool) which [runs in response to GitHub issue events](https://github.com/sourcegraph/sourcegraph/blob/master/.github/workflows/tracking-issue.yml#L6) happening in [https://github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph).
+This is done automatically by the [tracking-issue tool](#contributing-to-the-tracking-issue-tool) which [runs in response to GitHub issue events](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/tracking-issue.yml#L6) happening in [https://github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph).
 
 ### Rendering
 
@@ -87,4 +87,4 @@ Roadmap items may take more than an iteration to implement. As such please link 
 
 ## Contributing to the tracking issue tool
 
-The code for the tracking-issue tool [lives in the main Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/tracking-issue).
+The code for the tracking-issue tool [lives in the main Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/tree/main/internal/cmd/tracking-issue).
