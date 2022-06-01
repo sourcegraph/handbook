@@ -40,4 +40,4 @@ We identify candidates using a variety of channels:
 
 - A sourcer is responsible for sourcing passive and active candidates for open roles. A Sourcer partners extensively with Recruiters and Hiring Managers to identify, attract, and message appropriate candidates.
 
-[Here's](how_to_be_a_sourcer_at_sourcegraph.md) a guide on how a sourcer partners with recruiters and hiring managers. 
+[Here's](how_to_be_a_sourcer_at_sourcegraph.md) a guide on how a sourcer partners with recruiters and hiring managers.
