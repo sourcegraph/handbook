@@ -42,7 +42,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Using recruitment agencies](process/identifying_candidates.md)
   - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
 - [The interview process](process/interview_process.md)
-  - [First time interviewer resources]COMING SOON
+  - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Hiring Manager screen](process/types_of_interviews.md#hiring-manager-screen)
@@ -70,7 +70,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [How to refer a candidate](process/identifying_candidates.md)
   - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)
 - [The interview process](process/interview_process.md)
-  - [First time interviewer resources]COMING SOON
+  - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
   - [Interview training & best practices](tools/interview_training.md)
   - [Types of interviews](process/types_of_interviews.md)
   - [Peer interview](process/types_of_interviews.md#peer-interview)
