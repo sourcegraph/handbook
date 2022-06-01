@@ -16,4 +16,4 @@ Notify following teams 4 weeks before launch, so teammates can set up contractin
 
 1. legal
 1. sales ops
-1. finance 
+1. finance
