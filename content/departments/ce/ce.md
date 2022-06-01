@@ -34,8 +34,7 @@ Currently, our adoption targets are as follows, based on the completion date of 
 
 - Day 0 - Day 90: 25% consumption
 - Day 91 - 180: 50% consumption
-- Day 181 - 270: 75% consumption
-- Day 271+: 75% consumption
+- Day 181+: 75% consumption
 
 In the future, we intend for our customers to have a functioning production environment ready at deal close / signature so that we can begin user onboarding from Day 1 of of contract. Coupled with customer training being built at-scale, a desired future state for adoption will be to achieve 75% consumption by Day 180 of of contract.
 
