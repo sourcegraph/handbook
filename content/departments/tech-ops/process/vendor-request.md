@@ -21,7 +21,12 @@ We have the following rules for which a vendor request needs to be raised:
 
 Please see our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) on further information on data classification and examples.
 
-**Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
+<br>
+  
+>**Important: Please check our [Vendor/Systems Inventory](https://docs.google.com/spreadsheets/d/1tzP64dj2CrddDLTZuLFWmpXoNB9lUaOstRUj3FaN_Rs/edit#gid=0) before raising a request in order to avoid duplicate requests and effort.**
+<br>
+
+**Please be aware** that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.
 
 ### What counts as a Vendor?
 
