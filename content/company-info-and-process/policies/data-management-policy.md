@@ -29,15 +29,15 @@
    - Production secrets
    - Private customer repository names
    - Teammate and Customer Personal Data, including:
-   - Data about a person that would reasonably be expected to be kept confidential
-   - Government identifiers (social security number, national ID number)
-   - Full date of birth
-   - Performance, payroll, and other employment-related personal data
-   - Demographic data, like race, religion, political views
-   - Medical and/or health information
-   - Data related to claims, reports, and investigations
-   - Customer personal data
-   - Combinations of any personal data that put someone at risk for identity theft or reputational harm
+     - Data about a person that would reasonably be expected to be kept confidential
+     - Government identifiers (social security number, national ID number)
+     - Full date of birth
+     - Performance, payroll, and other employment-related personal data
+     - Demographic data, like race, religion, political views
+     - Medical and/or health information
+     - Data related to claims, reports, and investigations
+     - Customer personal data
+     - Combinations of any personal data that put someone at risk for identity theft or reputational harm
    - Privileged legal materials (e.g Employment contracts)
    - Security issues
 
