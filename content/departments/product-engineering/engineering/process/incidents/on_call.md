@@ -89,4 +89,4 @@ data from.
 - Is it a service level metric that already exists or you could add to the
   Sourcegraph codebase? eg p95 open connections to pgsql. Then see [adding monitoring](../../tools/observability/monitoring.md#adding-monitoring).
 - Do you need to validate a core user flow? Use
-  [e2etest](https://github.com/sourcegraph/sourcegraph/blob/master/test/e2e/README.md)
+  [e2etest](https://github.com/sourcegraph/sourcegraph/blob/main/test/e2e/README.md)
