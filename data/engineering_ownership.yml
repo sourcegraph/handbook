@@ -818,4 +818,3 @@ package_repositories:
   product_team: code_intel
   slack_channels: '#code-intel'
   ownership_model: Caretaker
-  
