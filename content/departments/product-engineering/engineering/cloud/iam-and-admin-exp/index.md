@@ -91,7 +91,7 @@ We are using [GitHub Projects (Beta)](https://docs.github.com/en/issues/trying-o
 - The GitHub project for the team is the single source of truth for our backlog. Please use descriptions, comments under GitHub issues, and different categorization options to keep all the issues up to date. Comments are also the best place for asking questions about the issue itself. That way, we keep all the context in a single place.
 - We use GitHub milestones (usually connected with the quarterly goals) and custom fields to group issues for given initiatives/projects into epics, and to track different service or engineering ownership areas. This for example, helps us understand what the cost of operations with each area we own is.
 - We use [keyword or manually](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) linking pull requests to issues automatically in GitHub.
-- We use [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) for [groomings and estimation sessions which we run asynchronously](#groomings).
+- We use [planning poker in ZenHub](https://help.zenhub.com/ce-support/support/solutions/articles/43000620555-planning-poker-in-zenhub) for [groomings and estimation sessions which we run asynchronously](#groomings).
 - You can paste a link to GitHub in any Slack messages to have a rendered attachment automatically.
 
 ### User research
@@ -182,7 +182,7 @@ We review the backlog of action items during each [sprint review](#sprint-review
 
 #### Groomings
 
-To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
+To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/ce-support/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
 
 - Each Monday, the new async grooming session should be created within [ZenHub board](https://app.zenhub.com/workspaces/iam-and-admin-experience-627aebcc9f8b7c00128a8ab6/board).
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.

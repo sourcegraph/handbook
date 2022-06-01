@@ -39,7 +39,7 @@ The `NAME` value indicates the currently active instance (`red` or `black`). Dur
 
 ## Accessing the instance
 
-For CSE's, also refer to [Accessing Managed Instances](../../../../../support/process/support-managed-instances.md).
+For CSE's, also refer to [Accessing Managed Instances](../../../../../ce-support/support/process/support-managed-instances.md).
 
 ### SSH access
 
