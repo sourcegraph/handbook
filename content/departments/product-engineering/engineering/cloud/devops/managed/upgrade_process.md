@@ -539,8 +539,6 @@ Only use this approach for low-risk patch upgrades or docker-compose container r
 
 ### 0) Upgrade setup
 
-**Follow the [general setup](#general-setup) guide.** Then redefine the NEW_DEPLOYMENT variable to match the existing deployment:
-
 ```sh
 export CUSTOMER=<CUSTOMER_FOLDER_NAME>
 export PROJECT_PREFIX=sourcegraph-managed
