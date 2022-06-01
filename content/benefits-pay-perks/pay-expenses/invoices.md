@@ -32,7 +32,10 @@
 ## Invoice Submission Timing
 
 - A number of teammates are on a contracting structure and will need to submit an invoice once a month for payment.
-- Submit monthly invoices as early as the 20th of the current month. Keep in mind that payment processing can take up to 7 days. Accounting will process payment twice a week for invoices received in this period.
+- Submit monthly invoices as early as the 20th of the current month.
+- Once submitted invoices will be routed to your direct manager for approval.
+- Accounting will track that managers are approving invoices and will approve after the manager approves.
+- Keep in mind that payment processing can take up to 7 days. Accounting will process payment twice a week for invoices received in this period.
 
 ## Teammates with PEOs
 

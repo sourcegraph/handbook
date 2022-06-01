@@ -126,7 +126,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Marketing
    </td>
-   <td>Kacie, Jenkins, Erica Lindberg, Nick Gage, Andy Schumeister
+   <td>Nick Gage, Andy Schumeister
    </td>
    <td>TBH
    </td>
@@ -134,7 +134,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Customer Support
    </td>
-   <td>Virginia Ulrich
+   <td>
    </td>
    <td>Kelsey Brown
    </td>

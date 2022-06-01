@@ -7,6 +7,18 @@ This page outlines recruitment branding tips and information to tell the story o
 
 We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages.
 
+We also welcome teammates to share our open roles with their personal networks. We've put together these enablement resources so you can easily share our career opportunities with your LinkedIn and Twitter networks.
+
+Sample Tweets
+
+- [Click to tweet](https://ctt.ac/k23tL)
+- [Click to tweet](https://ctt.ac/dxqE5)
+
+LinkedIn Sample Posts:
+
+- We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! #WereHiring #RemoteWork https://srcgr.ph/32pe8gC
+- At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC #WereHiring #RemoteWork
+
 ### Posting Best Practices
 
 Linked In
@@ -15,10 +27,6 @@ Linked In
 - If you're looking for Sourcegraph content to promote to your network, view the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph). There you will find recent updates and articles.
 - Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin profiles as well. Thank you for helping us attract and hire the best talent!
 - [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
-
-Twitter
-
-- Coming Soon!
 
 Company content to share:
 

@@ -285,11 +285,7 @@ You'll receive errors or no results for several minutes while the instance finis
 ../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
 ```
 
-- Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
-
-```sh
-gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER
-```
+Follow steps [here](./operations.md#confirm-instance-health)
 
 If you run into an error like:
 
@@ -298,18 +294,6 @@ ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: 'fai
 ```
 
 This might indicate that the instance is not fully set up yet—try again in a minute.
-
-- Ensure that all containers are healthy (in particular, look for anything that says Restarting):
-
-```sh
-../util/ssh-exec.sh "docker ps"
-```
-
-- Check frontend container logs and confirm there are no recent errors:
-
-```sh
-../util/ssh-exec.sh "docker logs sourcegraph-frontend-0"
-```
 
 ### 9) Switch the load balancer target
 

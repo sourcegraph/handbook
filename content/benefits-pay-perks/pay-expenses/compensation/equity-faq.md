@@ -107,4 +107,4 @@ Every time we raise money from investors, this total amount increases (and it ca
 
 ### Who should I go to if I have questions?
 
-For now, [Dan](../../../team/index.md#dan-adler) can help answer any questions about your options. The entire People Ops team is available to provide support as well.
+Drop by the #stock-options-equity channel. If your question is sensitive or personal, reach out to your People Partner or any finance or legal team member in the #stock-options-equity channel.

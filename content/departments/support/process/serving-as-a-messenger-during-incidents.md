@@ -36,7 +36,7 @@ To serve as a messenger successfully, follow the steps outlined here in the exac
 14. Solicit review of the draft customer communications from your buddy, CS leadership, the incident lead, security lead (if relevant), marketing, legal (if relevant – this is decided between you and CS leadership), and simultaneously inform your CS teammates and the CE team using [these templates](#draft-communication-review-requests). Note that you will put forth a recommendation to CS leadership on whether to use the status page, so think through that for that review request.
     - Seek review from your buddy and CS leadership via a post in #customer-support-internal
     - Seek review from the incident lead and (if relevant) the security lead in the incident channel/thread
-    - Seek review from marketing by posting in #marketing and @ mentioning @marketing-incident, @kacie, @amie
+    - Seek review from marketing by posting in #marketing and @ mentioning @marketing-incident, @amie
     - Seek review from legal (if agreed this is necessary with CS leadership) by posting in #legal and @ mentioning @legal-team
     - Inform your CE teammates by posting in #ce
 15. Incorporate edits and finalize the customer communications. There may be lots of comments and changes. That’s okay! The template was just a starting point and this is the step where we capture all of the nuance – what if this is the 3rd incident for this customer, etc.
@@ -136,7 +136,7 @@ Hey @ce, I am working on our plan to inform customers about incident #inc-##. I�
 
 #### Seeking review from marketing
 
-@marketing-incident @kacie @amie I am messenger for #inc-##[slack channel]. You can see the details in the communication plan[link to it]. If you would like to review the draft communications or have any questions, let me know. As always, your review/participation is at your discretion. Thank you!
+@marketing-incident @amie I am messenger for #inc-##[slack channel]. You can see the details in the communication plan[link to it]. If you would like to review the draft communications or have any questions, let me know. As always, your review/participation is at your discretion. Thank you!
 
 #### Seeking review from legal
 
