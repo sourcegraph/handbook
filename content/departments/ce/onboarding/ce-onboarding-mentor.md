@@ -83,7 +83,7 @@ In the check-in's during week 4, mentors should focus on confirming any misconce
 
 ### Week Five
 
-The mentee's onboarding is nearing completion meaning they are ready to start putting things together and preparing to lead customer calls. That means this week mentors will be working with mentee's to kick off the CE demo certification process. CEs should be able to do a 10-15min introductory demo for each of the 5 primary use cases for Sourcegraph. Once a CE has received a score of "satisfactorily demonstrated" or higher from their manager for each use case, they will be considered demo certified. 
+The mentee's onboarding is nearing completion meaning they are ready to start putting things together and preparing to lead customer calls. That means this week mentors will be working with mentee's to kick off the CE demo certification process. CEs should be able to do a 10-15min introductory demo for each of the 5 primary use cases for Sourcegraph. Once a CE has received a score of "satisfactorily demonstrated" or higher from their manager for each use case, they will be considered demo certified.
 
 Some resources that you should share with the CE mentee include the [Demo Certification Rubric Guidance](https://docs.google.com/document/d/1qZ4ctMFcjzDN8fdfKXO3_LcLjRb6UHG6WOWGEbrMmLE/edit) which outlines the characteristics of a satisfactory demo as well as demo shells for each of the five use cases:
 
