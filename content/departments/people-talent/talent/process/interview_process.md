@@ -103,7 +103,9 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## **Sourcing best practices**
 
-- COMING SOON: to source passive candidates, the Recruiter & Hiring Manager follows best sourcing practices in LinkedIn Recruiter
+- To source passive candidates, the Recruiter and Hiring Manager follows best sourcing practices in LinkedIn Recruiter.
+
+Click [here](how_to_be_a_sourcer_at_sourcegraph.md) to read about sourcing best practices and how a sourcer partners with a Recruiter and Hiring Manager.
 
 ## **Outreach best practices**
 
