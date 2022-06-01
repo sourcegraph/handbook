@@ -1,6 +1,6 @@
 # Vendor Request Process
 
-At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
+At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to personal, Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
 
 ### Why should I use this process?
 

@@ -132,12 +132,12 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 2022-06-08 LinkedIn Workshop
 - 2022-06-14 Yoga/Meditation
 - 2022-06-15 Exec Q&A - Dan Adler
-- 2022-06-21 Cohort Meeting
 - 2022-06-22 Exec Q&A - Christina/Nick
+- 2022-07-05 Cohort Meeting
 - 2022-07-06 Interviewing Workshop
 - 2022-07-13 Q&A - Connor O'Brien
 - 2022-07-14 Virtual Escape Room
-- 2022-07-19 Cohort Meeting
+- 2022-07-26 Cohort Meeting
 - 2022-07-20 Optional Q&A - Ben Horowitz
 - 2022-07-27 Exec Q&A - Gregg/Aimee
 - 2022-08-03 Virtual Cooking Class
