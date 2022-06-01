@@ -52,6 +52,13 @@ This team is responsible for
 
 ## How we work
 
+We primarily work within the following repositories:
+
+- [sourcegraph/sourcegraph/monitoring](https://github.com/sourcegraph/sourcegraph/tree/main/monitoring)
+- [infrastructure](https://github.com/sourcegraph/infrastructure)
+- [Our Cloud GitOps repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
+- [Managed Instance configuration repo](https://github.com/sourcegraph/deploy-sourcegraph-managed)
+
 ### Issue tracking
 
 [The DevOps GitHub Project board](https://github.com/orgs/sourcegraph/projects/220/views/23) is the single source of truth.

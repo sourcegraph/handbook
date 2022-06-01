@@ -129,7 +129,7 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
     - [IAM and Admin Experience](cloud/iam-admin/index.md)
     - [Integrations](cloud/integrations/index.md)
     - [Growth](cloud/growth-team/index.md)
-    - [Security](cloud/security/index.md)
+    - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
     - DevOps/SRE
     - [Delivery](cloud/delivery/index.md)
 
