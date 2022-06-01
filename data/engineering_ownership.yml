@@ -815,6 +815,6 @@ package_repositories:
   title: Package repositories
   type: Product
   product_org: code_graph
-  product_team: code_intel
+  product_team: code_intelligence
   slack_channels: '#code-intel'
   ownership_model: Caretaker
