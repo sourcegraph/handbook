@@ -19,7 +19,7 @@ During new teammate's first week they are focused on the following:
 
 By the end of their first week:
 
-- Spend 30 minutes going over our 3 primary use cases and explain how we add value
+- Spend 30 minutes going over our 5 primary use cases and explain how we add value
 - Talk about the CE team (pre- and post-sales) and what we do at a high-level
 
 ### Week Two
@@ -83,9 +83,17 @@ In the check-in's during week 4, mentors should focus on confirming any misconce
 
 ### Week Five
 
-The mentee's onboarding is nearing completion meaning they are ready to start putting things together and preparing for their first customer call. That means this week mentors should be doing a full demo flow with them end-to-end focused on our features. They should encourage them to practice with others on the team too.
+The mentee's onboarding is nearing completion meaning they are ready to start putting things together and preparing to lead customer calls. That means this week mentors will be working with mentee's to kick off the CE demo certification process. CEs should be able to do a 10-15min introductory demo for each of the 5 primary use cases for Sourcegraph. Once a CE has received a score of "satisfactorily demonstrated" or higher from their manager for each use case, they will be considered demo certified.
 
-Mentros must check in with the mentee's manager and share feedback on their progress and make necessary adjustments.
+Some resources that you should share with the CE mentee include the [Demo Certification Rubric Guidance](https://docs.google.com/document/d/1qZ4ctMFcjzDN8fdfKXO3_LcLjRb6UHG6WOWGEbrMmLE/edit) which outlines the characteristics of a satisfactory demo as well as demo shells for each of the five use cases:
+
+- [Code Security Demo Shell](https://docs.google.com/document/d/1PFwiTp2nWHJon1Ov_qAxIY9E2mHpB9pZ9mKKs1noXv0/edit)
+- [Developer Onboarding](https://docs.google.com/document/d/1T-huauKyb_g2_UilNaqI7gY0relltIS_r1Lrd8pRcZc/edit)
+- [Code Health](https://docs.google.com/document/d/13unxMc_3GCgXhoijzrkAotbo6Zm2Y6pv-MypW57C-Vw/edit)
+- [Code Reuse](https://docs.google.com/document/d/1imSKse0-0QLqsx4hDgKcwxWTwcPXs_wGthbBNKQZvKA/edit)
+- [Incident Response](https://docs.google.com/document/d/1cdp6ZYGKdyJOPygX5VknPzSkOR4vXdhkA_4j0PJ2C-M/edit)
+
+Mentors should walk through each of the demo flows with them from end-to-end to help them undestand "what good looks like". Mentees should be encouraged to practice their deliver with others on the team too! Please check in with the mentee's manager and share feedback on their progress and make necessary adjustments.
 
 Expectations for their demo:
 
@@ -94,7 +102,9 @@ Expectations for their demo:
 
 For this week mentors must make sure to:
 
-- Watch their mentee demo live twice (early in the week, late in the week)
+- Share the demo certification resources with thier mentee
+- Watch at least a few of their mentee's demo certification attempts and provide feedback
+- Reach out to the mentee's manager and let them know they're beginning to work on their demo certification
 
 ### Week Six and beyond
 
