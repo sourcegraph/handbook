@@ -37,7 +37,7 @@ It is highly recommended to enable mentors with tools, resources and even checkl
 
 You can find team specific Onboarding Mentor Checklists here:
 
-- [Customer Support Onboarding Mentor](../../departments/support/onboarding/cs-onboard-mentor.md)
+- [Customer Support Onboarding Mentor](../../departments/ce-support/support/onboarding/cs-onboard-mentor.md)
 - [Account Executive Onboarding Mentor](../../departments/sales/onboarding/ae-onboarding-mentor.md)
 - [SDR to AE Onboarding Mentor](../../departments/sales/onboarding/transition-ae-onboarding-mentor.md)
-- [Customer Engineering Onboarding Mentor](../../departments/ce/onboarding/ce-onboarding-mentor.md)
+- [Customer Engineering Onboarding Mentor](../../departments/ce-support/ce/onboarding/ce-onboarding-mentor.md)

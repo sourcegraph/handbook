@@ -7,7 +7,7 @@
 
 ## Surfacing customer feedback
 
-> If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../support/process/engaging-other-teams.md).
+> If you're working with a specific customer on a bug or issue and need to directly involve a product engineering team, please refer to [engaging other teams](../../../ce-support/support/process/engaging-other-teams.md).
 
 CEs, application engineers (CS), Sales, Marketing, Engineering, and other teammates that interact directly with Sourcegraph users and/or Sourcegraph itself should share product feedback or feature requests with the product team.
 
