@@ -79,14 +79,14 @@ The `description` field is used as an excerpt for your post on the blog the inde
   - Note: You may need to request permission to upload files to the GCP bucket. If you see an error message that additional permissions are required, you can ask for help in #it-tech-ops on Slack.
 - Please use lower case letters and hyphens instead of spaces in folder and image names:
 
-<div class="usage">
-<div class="item yes">
+<div className="usage">
+<div className="item yes">
 <h5>Yes</h5>
 <ul>
 <li>api-docs-hero.png</li>
 </ul>
 </div>
-<div class="item no">
+<div className="item no">
 <h5>No</h5>
 <ul>
 <li>API docs hero.png</li>
@@ -153,7 +153,7 @@ Fixing, editing, and updating a blog post on [about.sourcegraph.com](https://abo
 
 This video shows the process from start to finish, although only those with repository push access will be able to squash and merge the change.
 
-<p class="container">
+<p className="container">
   <div style={{ padding: '56.25% 0 0 0', position: 'relative'}}>
     <iframe src="https://www.youtube-nocookie.com/embed/15hE2BCyMCQ" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} frameBorder="0" webkitAllowFullscreen="" mozAllowFullScreen="" allowFullScreen=""></iframe>
   </div>
