@@ -209,7 +209,7 @@ We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks
 
 ### Performance Checks
 
-We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critial metrics that are representation on the overal system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to invesitiage and ensure we reach to a resolution.
+We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critical metrics that are representation on the overall system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to investigate and ensure we reach to a resolution.
 
 A list of critial metrics that will be routed to Opsgenie:
 
