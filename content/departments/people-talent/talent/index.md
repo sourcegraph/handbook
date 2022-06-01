@@ -7,7 +7,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 ## Resources for Candidates
 
 - [Careers page & open positions](../resources_for_candidates.md#how-to-apply)
-- [Internship Program](internship-program.md)
+- [Internship Program](internship/index.md)
 - [Company values](../resources_for_candidates.md#our-company-values)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](../resources_for_candidates.md)
@@ -86,7 +86,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 ## Resources for Talent Team
 
-- [Recruiter onboarding resources](onboarding/index.md)
+- [Recruiter onboarding resources](../onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
@@ -128,8 +128,8 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruitment metrics](process/talent_metrics.md)
 - [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 - [How to make a change to headcount plan](process/headcount_changes.md)
-- [Internship Program](internship-program.md)
-- [Internship Recruiting and Offer Processes](process/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
+- [Internship Program](internship/index.md)
+- [Internship Recruiting and Offer Processes](internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
 ## Talent Team Members
 

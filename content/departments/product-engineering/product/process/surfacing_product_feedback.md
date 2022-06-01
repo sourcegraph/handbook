@@ -2,7 +2,7 @@
 
 ## Surfacing internal feedback
 
-- Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted (optional) in the relevant team's channel.
+- Internal feedback should be shared in [the #feedback-dogfood channel](../../team-culture/feedback-dogfood.md), and cross-posted (optional) in the relevant team's channel.
 - Any teammate can open an issue for consideration by a product-engineering team, and assign the team's label. Product-engineering teams each have their own workflow for triaging issues, but use [common principles](../../process/working-with-issues.md)
 
 ## Surfacing customer feedback
@@ -30,7 +30,7 @@ It is vitally important when creating a product gap, and a submission record (to
 
 If you have gotten a specific feedback request that a customer(s) would like to track the progress of you should log that feedback as a Product Gap in Salesforce. Doing so allows full transparency to CEs and Product Eng on how many customers are impacted by an issue and what teams are responsible.
 
-To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity, whether it's a net new opp or a renewal. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. A gap submission should include the following:
+To create a Product Gap, navigate to the impacted customer(s) most recent Opportunity that is relevant to the product gap. If the most recent Opportunity is related to an expansion product (Code Insights or Batch Changes), but the product gap feedback is not, do not use that Opportunity and instead use the overall renewal or expansion Opportunity. When viewing the Opportunity, you should see a related list labeled "Product Gap Submissions". Create a new Submission, and search in the field Product Gap to see if a gap already exists for what you wish to log. If no gap exists, create one, and then continue creating your submission that will tie your customer to the Product Gap. A gap submission should include the following:
 
 - Severity - P0: Dealbreaker, P1: Significant Pain Point, P2: Nice to Have
 - Use Case - _if relevant_ tie your submission to one or multiple core use cases to help with prioritization

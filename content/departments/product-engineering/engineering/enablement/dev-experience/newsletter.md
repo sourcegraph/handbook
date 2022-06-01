@@ -6,7 +6,122 @@ To have your updates highlighted here, please tag your PR or issue with the `dx-
 
 To learn more about components of Sourcegraph's developer experience, check out the [developer documentation](https://docs.sourcegraph.com/dev).
 
-> NOTE: For authors, refer to [this guide](./index.md#newsletter) for preparing a newsletter.
+> NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
+
+## May 20, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+It has been quite a while since the last newsletter, so this edition will focus on more recent changes and highlights.
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+### Logs, logs, logs 🗃️
+
+A brand new logging package is now available in [`github.com/sourcegraph/sourcegraph/lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log). This library outputs a [OpenTelemetry-compliant log format](https://docs.sourcegraph.com/admin/observability/logs#opentelemetry) in JSON mode, paving the way towards enabling customers to more easily ingest and leverage logs, and also offers a performant, strongly-typed interface for providing log fields. The library also encodes a number of best practices:
+
+1. No global loggers - it is no longer possible to instantiate a logger at compile time, and users should hold their own references to loggers, so that fields can be attached and log output can be more useful with additional context, and pass Logger instances to components as required.
+2. Loggers are attached to scopes - this helps orient log entries within a larger codebase. For example, when creating a GitHub V3 client for making a auth provider to make requests, one might use `log.Scoped("provider.github.v3", "provider github client")`.
+
+This library will also be the target of many observability improvements going forward, such as [automated error reporting](https://github.com/sourcegraph/sourcegraph/issues/33240#issuecomment-1129104807), [improved test output](https://github.com/sourcegraph/sourcegraph/pull/35430), and more.
+To learn more, check out the new [How to add logging](https://docs.sourcegraph.com/dev/how-to/add_logging) guide.
+
+We've also extended the existing [`internal/observation`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/observation) package, which aims to provide all-in-one logging, tracing, and monitoring primitives, to integrate logging throughout all levels of an observation.
+This enables you to easily write logs that includes helpful context like traces, metadata, observation context, and more.
+To learn more, check out [How to add observability](https://docs.sourcegraph.com/dev/how-to/add_observability).
+
+The DevX team has been collaborating with teams to help migrations to the new logging library - we encourage everyone to start incrementally migrating their existing logging, and to reach out to #dev-experience for feedback and questions!
+
+### `sg` experience ✨
+
+The [`sg`](https://docs.sourcegraph.com/dev/background-information/sg) experience has been a major focus for the DevX team and we have been working towards a variety of improvements for both users and contributers of `sg`!
+
+First up, usage improvements:
+
+- `sg` now supports autocompletions that you can trigger using the <kbd>Tab</kbd> key to help you type out long command names and flags faster, and to help you learn `sg` commands faster! To get started, make sure you've run `sg setup`. ([#33817](https://github.com/sourcegraph/sourcegraph/pull/33817))
+  [![Autocompletions demo](https://cdn.loom.com/sessions/thumbnails/1e58993d4456479b8048090052c00aa2-1649801857411-with-play.gif)](https://www.loom.com/share/1e58993d4456479b8048090052c00aa2)
+- Many `sg` flags now have short aliases (such as `sg run -d enterprise-frontend`),and commands can declare shorter aliases too (such as `sg ci st`) to save you on some extra keystrokes.
+- Misspelled a command? `sg` will now prompt you with some suggestions! ([#33943](https://github.com/sourcegraph/sourcegraph/pull/33943)) <img src="https://user-images.githubusercontent.com/23356519/163476445-62bde286-2dd2-4032-ac90-fdd9e931a8ab.png" width="50%">
+- Help text is much improved, with `sg help` now rendering commands by category.
+- `sg lint` has seen a variety of improvements, and now powers all linters that we run in CI, which means you can easily replicate linter runs locally for debugging and enabling developers to customize linter output with much more granularity.
+- `sg`'s autoupdate mechanism has gone through a number of iterations and should now be reliably auto-updating your `sg` installation seamlessly whenever you run `sg`.
+
+For developers wanting to streamline their developer experience with `sg` functionality, we've also made a lot of internal improvements:
+
+- Linters are easier than ever to build with the updated [`lint.Runner`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/sg/internal/lint/lint.go?L13:6#tab=references) interface, which now also provides you an easy way to get changed files and iterate over added lines to perform incremental linting. To get started, just head on over to the [`dev/sg/linters`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/sg/linters/linters.go) package!
+- The migration to a new CLI library, [`urfave/cli`](https://pkg.go.dev/github.com/urfave/cli/v2), includes features like:
+  - A much nicer API for defining flags and fetching them without declaring global variables, and convenience functions for safely getting arguments: [example](https://github.com/urfave/cli/blob/main/docs/v2/manual.md#flags).
+  - Developers can implement custom completions for their commands with the [`BashComplete: completeOptions(...)`](https://sourcegraph.com/search?q=context:%40sourcegraph/all+r:%5Egithub%5C.com/sourcegraph/sourcegraph%24+BashComplete:+completeOptions%28...%29+&patternType=structural) API.
+  - Flags and commands can now have short aliases!
+- `sg.config.yaml` can now leverage external secrets (we currently support `gcloud` only) with the new `secrets:` field, and `sg` commands can use the [`secretsStore.GetExternal(...)` API](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@9d34772e9d1156c8b0738d1b0b831089d9e45833/-/blob/dev/sg/sg_analytics.go?L37:29-37:40).
+  - This is used by `sg test frontend-e2e`, which you can use to run Sourcegraph's E2E tests with ease! ([#34627](https://github.com/sourcegraph/sourcegraph/pull/34627))
+- The output API has been overhauled to be centralized in `std.Out`, which now centralizes the exports of a variety of `sg`-specific utilities for incorporating ✨ _fancy_ ✨ output for some added bling. ([#35269](https://github.com/sourcegraph/sourcegraph/pull/35269))
+- Writing scripts? We strongly recommend everyone to start writing scripts in Go within `sg`, which gives us more code-sharing opportunities, better cross-platform compatibility, and more advanced features such as better output management. To enable this, the DevX team has started developing a new command execution library, [`github.com/sourcegraph/run`](https://pkg.go.dev/github.com/sourcegraph/run), aimed at providing a seamless way to execute commands and manipulate its output in Go. ([#35417](https://github.com/sourcegraph/sourcegraph/pull/35417))
+
+### Following your code from PR to production 🚢
+
+Deployments are now announced over Slack, in [#alerts-preprod-cloud](https://sourcegraph.slack.com/archives/C039JKERFBN) for the preprod and in [#deployments-cloud](https://sourcegraph.slack.com/archives/C03BGBR796H) for Cloud deployments. If you want to receive a mention on those announcement when your PR is getting deployed, you can use the `notify-on-deploy` label. If the label is present when the PR is deployed you'll receive the notification.
+
+Deployements schedules can be observed in [Honeycomb Dashboard](https://ui.honeycomb.io/sourcegraph/board/ev4yWqP5h3u/Deployments) which tracks how much time elapsed from the moment a PR being merged to the moment it got deployed.
+
+### Smoke testing ☁️
+
+Every ten minutes, smoke tests are being run against [Sourcegraph CLoud](https://sourcegraph.com), first making basic infrastructure tests then performing a quick search to ensure that the application is up. And it's for real this time, [#16589](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16589) turns failures into an automated incident being created.
+
+### Learning resources 🎥
+
+Check out this selection of some of our recently published learning resources!
+
+- The [Sourcegraph Codebase Tour video](https://youtu.be/VXaUXwMLzjg) gives an overview of our main repository and what's in it.
+- The [Tour of Secondary Repositories](https://youtu.be/WR5yOdzJWdo) goes over some of the secondary repositories at Sourcegraph.
+- [Local development with sg setup](https://youtu.be/K3-wRqYs4sc) is a video demonstrating how to use `sg setup` to set up your local development environment.
+
+### Architecture decision records 📰
+
+The idea behind architecture decision records, or ADRs, is to have small documents that are part of the codebase, not an external artifact that you have to be aware of like an RFC.
+
+We encourage the use of Architecture Decision Records (ADRs) for logging decisions that have notable architectural impact on our codebase. Since we’re a high-agency company, we encourage any contributor to commit an ADR if they’ve made an architecturally significant decision.
+
+Note that ADRs are _not_ meant to replace our current RFC process but to complement it by capturing decisions made in RFCs. However, ADRs do not need to come out of RFCs only. GitHub issues or pull requests, PoCs, team-wide discussions, and similar processes may result in an ADR as well, allowing to keep everyone in touch.
+
+To learn more, check out the [ADR index page](https://docs.sourcegraph.com/dev/adr) and [ADR 1: Record architecture decisions](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions).
+
+### Database migration tooling 🗃️
+
+There are two new goodies for database tooling available via `sg migration` locally and via the `migrator` binary shipped with every Sourcegraph instance.
+
+- New [`describe` command](https://github.com/sourcegraph/sourcegraph/pull/35641) provides a formatted version of your database's current schema
+- New [`drift` command](https://github.com/sourcegraph/sourcegraph/pull/32472) provides a diff of the expected schema and your database's current schema
+
+And for some added bling, both of the new commands have been beautified! ([#35722](https://github.com/sourcegraph/sourcegraph/pull/35722), [#35735](https://github.com/sourcegraph/sourcegraph/pull/35735))
+
+### Preproduction environment 🔬
+
+Before going out into production on Cloud, all changes are going throuh the preprod environment. The preprod environment is running in DotCom mode with a smaller dataset but with similar resources. Notably, it's running some services which are sharded in production, but not within CI, at the miminum size that enables to exercise all code paths. This opened the path to increase our confidence toward changes through automated testing that weren't previously possible.
+
+Because tests on the prepod requires to put the application in a specific state to perform testing, [state is being restored based on a snapshot](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds/207988#4ff1072f-db01-427e-b0ac-d30cee25c5c4) which makes deterministic ([#16249](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16249))
+
+As a result, [#16301](https://github.com/sourcegraph/deploy-sourcegraph-cloud/pull/16301) the code intel QA test suite is [now running in preprod](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds/207988#29dfa087-fcda-434b-94a0-537fff4299c6), and others will follow shortly.
+
+### Buildkite foundations ⛵
+
+Since the end of March, 100% of our CI builds are now run on stateless agents. It means that by design, it's now guaranteed that a given build cannot impact following ones. This enabled to roll out our own [autoscaler](https://github.com/sourcegraph/infrastructure/blob/main/docker-images/buildkite-autoscaler/buildkite-autoscaler.go) backed by an in-house [buildkite-job-dispatcher](https://github.com/sourcegraph/infrastructure/tree/main/docker-images/buildkite-job-dispatcher). This resulted in a whopping **30% decrease** of our CI spending on GCP in April!
+
+To try and maintain parity with the stateful agents of old, we have implemented a variety of measures to keep CI times down:
+
+- [Cross-node git repository mirrors](https://github.com/sourcegraph/devx-scratch/blob/main/2022/stateless-agents/log.snb.md#2022-04-08-repository-clone-optimization) means that repository cloning is consistently just as fast - if not faster! - than stateful builds.
+- `asdf` caching has been used to speed up the installation process of all languages and tools needed to run our CI builds as we have now been running all builds on stateless agents. It has been extracted into a [plugin](https://github.com/sourcegraph/asdf-cache-buildkite-plugin), making it available for other pipelines as well.
+- We have enabled [image streaming](https://cloud.google.com/blog/products/containers-kubernetes/introducing-container-image-streaming-in-gke) for our CI cluster, which has reduced the time to pull an image and start it from 1m50s to ~2s, which means lower wait times for your CI builds. ([infrastructure#3296](https://github.com/sourcegraph/infrastructure/pull/3296))
+
+Some other CI goodies include:
+
+- Many linting steps have been rolled into a new CI step powered by `sg lint`, which now generates output that is actually readable compared to the "Misc linters" step of old! If you run into issues, (hopefully) helpful annotations will also be added to your build summary. ![image](https://user-images.githubusercontent.com/23356519/169623817-cf76e231-75d8-4f80-9302-332725a59c0c.png)
+- Sending out a Slack mention when a specific step failed is also available as a [plugin](https://github.com/sourcegraph/step-slack-notify-buildkite-plugin), which is also useful to make sure to notice a failure on a single step independently of the build result. For example, this is being used to alert the Code Intel team if their test suite fails on a preprod build.
+- Changes to the client app now render app previews running against [k8s.sgdev.org](https://k8s.sgdev.org)! Learn more in the Sourcegraph docs: [Exploring client changes with PR previews](https://docs.sourcegraph.com/dev/how-to/client_pr_previews)
+
+### Tech Radar 💡
+
+[Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) is a well known source for getting a sense of where the technology landscape is going. What really makes it stand out is how it surfaces Thoughtworks opinions in a format that is really easy to process. What if we had if we used the same medium to keep everyone in the loop within Sourcegraph on [our various initiatives on the engineering front](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fsourcegraph%2Fsourcegraph%2Fdba63f5f45cf236bc80d1909fbdffcfb841bfda2%2Fdoc%2Fdev%2Fradar%2Ftech-radar.csv)?
+
+Thanks to [#35538](https://github.com/sourcegraph/sourcegraph/pull/35538), it's an ongoing exploration that could potentially help all of us to stay in touch with all the ongoing initiatives at Sourcegraph in the blink of an eye. Feedback and ideas are welcomed on the PR!
 
 ## Feb 24, 2022
 

@@ -4,20 +4,17 @@ This documentation details how the Distribution team at Sourcegraph internally h
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
+For opertaion guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
+  - [Monitoring and alerting](#monitoring-and-alerting)
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
 - [SLAs for managed instances](#slas-for-managed-instances)
-- [Creating a managed instance](creation_process.md)
-- [Managed instances operations](operations.md)
-- [Upgrading a managed instance](upgrade_process.md)
-- [Suspending a managed instance](suspend_process.md)
-- [Resuming a managed instance](resume_process.md)
-- [Enable executors](enable_executors_process.md)
 - [FAQ](#faq)
 
 ## When to offer a Managed Instance
@@ -28,7 +25,12 @@ As of 2022-03-10, managed instance is not the recommended deployment method for 
 
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message [#cloud-devops] for any answers or information missing from this page.
+Please message #cloud-devops for any answers or information missing from this page.
+
+When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
+
+- [ ] Customers are comfortable with [security implication](#security) of using a managed instance
+- [ ] Customers's code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. (Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)
 
 ## Managed Instance Requests
 
@@ -48,7 +50,7 @@ Customer Engineers (CE) or Sales may request to:
 2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
     - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
     - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
-3.  Message the team in [#cloud-devops].
+3.  Message the team in #cloud-devops.
 
 ## SLAs for managed instances
 
@@ -68,6 +70,8 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/inde
 Incidents which affect managed instances handled according to our [incidents](../../../process/incidents/index.md) process.
 
 ## Technical details
+
+> As of 2022-05-20, new managed instances are using the v1.1 architecture, [learn more](./v1.1/index.md)
 
 ![architecture](https://storage.googleapis.com/sourcegraph-assets/managed-instance-architecture.png)
 
@@ -95,15 +99,37 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
   Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
-- **Cloudflare protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF.
-
-### Access
-
-- To perform the steps outlined in these docs you will need to be a member of:
-  - The google group [gcp-managed](https://groups.google.com/a/sourcegraph.com/g/gcp-managed/members)
-  - 1Password Vaults `Customer managed instances` & `Internal managed instances`
+- **Web Application Firewall (WAF) protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF. Notes: Cloudflare WAF is not applicable when inbound network access is restricted to an allowlist of IP addresses only.
 
 Access can be requested in #it-tech-ops WITH manager approval.
+
+### Monitoring and alerting
+
+<span class="badge badge-note">SOC2/CI-86</span>
+
+Each managed instance is created in an isolated GCP project.
+System performance metrics are configured and collected in [scoped project](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring).
+All metrics can be seen in [scoped projects dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring).
+
+Every customer managed instance has alerts configured:
+
+- [uptime check](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L553) configured in dedicated GCP managed instance project
+- [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
+
+Alerting flow:
+
+1. When alert is triggered, it is sent to Opsgenie channel:
+
+- [uptime check channel](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L557)
+- [metrics monitoring channel](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf#L24)
+
+2. From Opsgenie, alert is sent to [on-call DevOps](../index.md#on-call) and Slack channels (#opsgenie, #cloud-devops).
+
+3. On-call DevOps has to decide, what is the alert type and if [incident](../../../../engineering/process/incidents/index.md) should be opened and follow [the procedure](../../../../engineering/process/incidents/#process) to perform the incident. On-call DevOps should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
+
+4. When alert is closed via incident resolution, [post-mortem actions](../../../../engineering/process/incidents/#post-mortem) has to be assigned and performed.
+
+Sample managed instance incident - [customer XXX is down](https://app.incident.io/incidents/102).
 
 ### Configuration management
 
@@ -118,17 +144,3 @@ All customer credentials, secrets, site configuration, app and user configuratio
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
 However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
-
-### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
-
-If `terraform apply` is giving you:
-
-```
-Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400: The network_endpoint_group resource 'projects/sourcegraph-managed-$COMPANY/zones/us-central1-f/networkEndpointGroups/default-neg' is already being used by 'projects/sourcegraph-managed-$COMPANY/global/backendServices/default-backend-service', resourceInUseByAnotherResource
-```
-
-Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
-
-To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
-
-[#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG

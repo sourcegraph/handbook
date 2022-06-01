@@ -126,13 +126,7 @@ From a vendor management perspective we base our review requirements on the sens
 - **Internal:** Security, Tech Ops
 - **Public:** Tech Ops
 
-From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request:
-
-- **5k:** no fiance review
-
-- **5k:** finance review
-
-- **100k:** legal review
+From a procurement standpoint, we have an additional decision factor of ‘budget’, which determines if a finance review happens as part of the vendor request.
 
 _<span style="text-decoration:underline;">Note:</span>_ Any budget approvals and discussions sit outside the vendor management process. They are a part of the [procurement process](../../finance/process/ap.md) and are a prerequisite for vendor requests.
 
@@ -142,9 +136,9 @@ Please see below matrix for review requirements for ANY type of vendor:
   <tr>
    <td>
    </td>
-   <td><strong>=0k</strong>
+   <td><strong>Cost = 0</strong>
    </td>
-   <td><strong>>0K</strong>
+   <td><strong>>Cost > 0</strong>
    </td>
   </tr>
   <tr>
@@ -182,9 +176,9 @@ Finance
   <tr>
    <td><strong>Internal</strong>
    </td>
-   <td>Security
+   <td>N/a
 <p>
-Tech Ops
+
    </td>
    <td>Security
 <p>
@@ -198,7 +192,7 @@ Finance
   <tr>
    <td><strong>Public</strong>
    </td>
-   <td>Tech Ops
+   <td>N/a
    </td>
    <td>Tech Ops
 <p>
@@ -270,4 +264,4 @@ More information on Vendr can be found [here](../tools/Vendr/index.md).
 
 Please see ‘How To Do A Vendor Request’ handbook documentation [here](../process/vendor-request.md).
 
-Please see a short Loom video guide on how to use Jira to review vendors (TBD).
+Please see a short [Loom video guide](https://www.loom.com/share/2bdd2a7ee2d549a9b15acdd74072da32) on how to use Jira to review vendors.

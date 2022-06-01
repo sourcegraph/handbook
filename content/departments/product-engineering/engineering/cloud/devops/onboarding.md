@@ -16,6 +16,8 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 
 > If you need access to any system, reach out to your peers in #cloud-devops-internal on Slack.
 
+> If access has to be granted by #it-tech-ops, please cc DevOps EM for approval
+
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
@@ -33,6 +35,7 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
   - #prod-eng-announce
   - #alerts-cloud
 - Request access to [Opsgenie](https://sourcegraph.app.opsgenie.com) in #it-tech-ops (cc DevOps EM for approval) and ask to be added to `devops` team in #cloud-devops-internal
+- Request access to `Customer managed instances` and `Internal managed instances` 1password vault in #ite-tech-ops
 - Request access to [Cloud DevOps](https://team-sourcegraph.1password.com/vaults/qxzajcksgc3givogl3r6qjbimu/allitems) 1password vault in #cloud-devops-internal
 - Request access to [cloud-devops@sourcegraph.com](https://groups.google.com/u/0/a/sourcegraph.com/g/cloud-devops) Google Group in #cloud-devops-internal
 - Request access to [geekbot](https://app.geekbot.com/dashboard/standup/97887/view) in #cloud-devops-internal
