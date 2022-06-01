@@ -80,7 +80,7 @@ Please reach out to the following Executive Business Partners directly if you ha
 
 ### How to Select a Values Interview Panel:
 
-Coming Soon!
+When creating the interview plan in Greenhouse, the talent team will select 2 values interviewers to participate in the interview process for each role. The talent team aims to include two teammates outside of the department for which a candidate is interviewing.
 
 ### How to Send a Candidate Interview Confirmation Email
 
@@ -129,7 +129,11 @@ NOTE: If you're removing the interviewer who is set as the zoom meeting host, yo
 
 ## How to Generate an Offer Letter
 
-Coming soon!
+Offer letters are generated and sent by Recruiting Coordinators or Recruiting Operations Specialists.
+
+To generate a US Offer Letter, watch and follow [these steps.](https://share.vidyard.com/watch/DKevdnBPCfK26jgQgyzX2x)
+
+To generate a non-US Offer letter, watch and follow [these steps.](https://share.vidyard.com/watch/BjoopiomMjB85aJabQPdwu)
 
 ## Other Recruiting Operations Responsibilities:
 
