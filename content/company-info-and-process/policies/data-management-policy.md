@@ -14,46 +14,47 @@
    Information systems and applications shall be classified according to the highest classification of data that they store or process.
 
 4. ## Data Classification
+
    To help Sourcegraph and its employees easily understand the level of security to be used for all types of information, the company has created these categories under which data can fall:
 
-### Restricted: limited number of people can access, only under break-glass scenarios.
+   ### Restricted: limited number of people can access, only under break-glass scenarios.
 
-- Customer private code
-- Private code on sourcegraph.com
-- Individual (non-shared) account passwords
+   - Customer private code
+   - Private code on sourcegraph.com
+   - Individual (non-shared) account passwords
 
-### Private: limited number of people can access
+   ### Private: limited number of people can access
 
-- Other customer non-personal data
-- Production secrets
-- Teammate and Customer Personal Data, including:
-  - Data about a person that would reasonably be expected to be kept confidential
-  - Government identifiers (social security number, national ID number)
-  - Full date of birth
-  - Performance, payroll, and other employment-related personal data
-  - Demographic data, like race, religion, political views
-  - Medical and/or health information
-  - Data related to claims, reports, and investigations
-  - Customer personal data
-  - Combinations of any personal data that put someone at risk for identity theft or reputational harm
-- Private repository names
-- Privileged legal materials
-- Company financials
-- Security issues
+   - Other customer non-personal data
+   - Production secrets
+   - Private customer repository names
+   - Teammate and Customer Personal Data, including:
+   - Data about a person that would reasonably be expected to be kept confidential
+   - Government identifiers (social security number, national ID number)
+   - Full date of birth
+   - Performance, payroll, and other employment-related personal data
+   - Demographic data, like race, religion, political views
+   - Medical and/or health information
+   - Data related to claims, reports, and investigations
+   - Customer personal data
+   - Combinations of any personal data that put someone at risk for identity theft or reputational harm
+   - Privileged legal materials (e.g Employment contracts)
+   - Security issues
 
-### Internal: Sourcegraph teammates have access
+   ### Internal: Sourcegraph teammates have access
 
-- Sourcegraph private code (infrastructure, deploy-\* repositories)
-- Private RFCs
-- Internal policies or processes containing sensitive business, teammate, or customer information
-- Teammate Personal Data, including data that teammates share internally (such as in open Slack channels), and that does not fall within the Private data category.
+   - Sourcegraph private code (infrastructure, deploy-\* repositories)
+   - Private RFCs
+   - Company financials
+   - Internal policies or processes containing sensitive business, teammate, or customer information
+   - Teammate Personal Data, including data that teammates share internally (such as in open Slack channels), and that does not fall within the Private data category.
 
-### Public:
+   ### Public:
 
-- Sourcegraph public Source code
-- Public RFCs
-- Personal data that teammates share publicly (such as in public Handbook pages, like this one).
-- We default to public unless information belongs to one of the above categories
+   - Sourcegraph public source code
+   - Public RFCs
+   - Personal data that teammates share publicly (such as in public Handbook pages).
+   - We default to public unless information belongs to one of the above categories
 
 5. ## Labeling
 
@@ -118,4 +119,4 @@ No special protection or handling controls are required for public data. Public 
 13. ## Violations & Enforcement
     Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
-Policy Owner: Compliance Manager
+### Policy Owner: **Compliance Manager**
