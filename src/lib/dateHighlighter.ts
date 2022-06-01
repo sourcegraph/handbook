@@ -27,7 +27,7 @@ function formatDateTime(dateTime: string): string {
 
     // Handle MM-DD reference
     if (/^\d\d-\d\d$/.test(dateTime)) {
-        return new Date(`${new Date().getFullYear()}-${dateTime}`).toLocaleString(undefined, {
+        return new Date(`${new Date().getFullYear()}-${dateTime}T00:00:00`).toLocaleString(undefined, {
             month: 'long',
             day: 'numeric',
         })
