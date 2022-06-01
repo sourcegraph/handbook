@@ -29,6 +29,6 @@ The generated report contains the following columns of note:
 
 - the reporter currently only looks for VM instances, disks, and clusters—if a resource is not one of these types, the reporter will not pick it up
 - the reporter only looks for _active_ resources—if a resource was created and destroyed before the reporter runs, it won't report it
-- the reporter can only see what it has permissions to see - make sure that the `resources-report` IAM is provided the [appropriate permissions](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/resources-report#authentication)
+- the reporter can only see what it has permissions to see - make sure that the `resources-report` IAM is provided the [appropriate permissions](https://github.com/sourcegraph/sourcegraph/tree/main/internal/cmd/resources-report#authentication)
 
 To troubleshoot, refer to the [run logs](https://github.com/sourcegraph/sourcegraph/actions?query=workflow:%22Resources+Report%22) or try [running it directly](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/internal/cmd/resources-report/README.md) to reproduce the issue.
