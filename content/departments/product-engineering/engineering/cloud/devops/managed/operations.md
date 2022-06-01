@@ -199,12 +199,26 @@ All customer instances are considered production enviornment and all changes app
 ## Avaiability of the instance
 
 <span class="badge badge-note">SOC2/CI-87</span>
+<span class="badge badge-note">SOC2/CI-25</span>
 
 We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
 
 ### Uptime Checks
 
 We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
+
+### Performance Checks
+
+We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critical metrics that are representation on the overall system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to investigate and ensure we reach to a resolution.
+
+A list of critial metrics that will be routed to Opsgenie:
+
+- [postgres: usage_connections_percentage](https://docs.sourcegraph.com/admin/observability/alert_solutions#postgres-usage-connections-percentage)
+- [gitserver: disk_space_remaining](https://docs.sourcegraph.com/admin/observability/alert_solutions#gitserver-disk-space-remaining)
+- [repo-updater: perms_syncer_perms](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-perms-syncer-perms)
+- [repo-updater: perms_syncer_stale_perms](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-perms-syncer-stale-perms)
+- [frontend: 99th_percentile_search_request_duration](https://docs.sourcegraph.com/admin/observability/alert_solutions#frontend-99th-percentile-search-request-duration)
+- [frontend: 99th_percentile_search_codeintel_request_duration](https://docs.sourcegraph.com/admin/observability/alert_solutions#frontend-99th-percentile-search-codeintel-request-duration)
 
 ## Confirm instance health
 
