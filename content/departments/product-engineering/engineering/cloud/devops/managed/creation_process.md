@@ -107,4 +107,4 @@ cd $CUSTOMER
 terraform output
 ```
 
-Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses. 
+Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses.
