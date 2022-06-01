@@ -54,7 +54,7 @@ Customer Engineers (CE) or Sales may request to:
 
 ## SLAs for managed instances
 
-Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/index.md#slas). Other engineering SLAs are listed below
+Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../ce-support/support/index.md#slas). Other engineering SLAs are listed below
 
 |                                               | Description                                            | Response time                                 | Resolution time                               |
 | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |

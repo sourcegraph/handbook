@@ -30,7 +30,7 @@ We identify candidates using a variety of channels:
 
 # Sourcing best practices
 
-[Here](how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices) is a link to our sourcing best practices.
+[Here](linkedin.md) is a guide to using LinkedIn Recruiter to source candidates and [here](how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices) is a link to our sourcing best practices
 
 ### How we source passive candidates
 
