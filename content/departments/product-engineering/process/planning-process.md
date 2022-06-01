@@ -66,7 +66,7 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
 
 ### Roadmap
 
-- **Purpose:** The purpose of our roadmap is to communicate to our team and our customers the story of what we plan to deliver to acheive our our annual vision and quarterly OKRs. Expectations around roadmap items depend on how far in the future we expect them to happen. Our goal is to have high confidence and fidelity in our roadmap for the next 3 months on a rolling basis, and for it to contain our best approximation for the biggest milestones we want to hit over the next 12 months on a rolling basis. The roadmap should always reflect the realistic expectations of the team:
+- **Purpose:** The purpose of our roadmap is to communicate to our team and our customers the story of what we plan to deliver to achieve our our annual vision and quarterly OKRs. Expectations around roadmap items depend on how far in the future we expect them to happen. Our goal is to have high confidence and fidelity in our roadmap for the next 3 months on a rolling basis, and for it to contain our best approximation for the biggest milestones we want to hit over the next 12 months on a rolling basis. The roadmap should always reflect the realistic expectations of the team:
   - Don't invent roadmap items that the team has low confidence in just to fill space on the roadmap (at the same time it is important for teams to challenge themselves to think about what they want to aim to accomplish over a time horizon longer than one quarter).
   - Don't provide false precision on dates (if you can only place items into a quarter or month, that is fine)
   - Don't include stretch roadmap items (just adjust the timeline out so you don't feel the need to label something as "stretch")
@@ -82,7 +82,7 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
 
 ## Cadence
 
-Planning is made up of activities that happen on quarterly, mothly, & weekly basis.
+Planning is made up of activities that happen on quarterly, monthly, & weekly basis.
 
 ### Quarterly planning
 
@@ -214,7 +214,7 @@ Updates and highlights of what has changed are shared in #prod-eng-announce Slac
 
 ### Weekly OKR updates
 
-The DRI (directly responsible individaul) for each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. To post an update, create a new comment with the following details:
+The DRI (directly responsible individual) for each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. To post an update, create a new comment with the following details:
 
 - Forecasted grade for the KR at the end of the quarter: 🟢, ⚠️, 🛑.
 - Short description of why the forecast is what it is. Here are some example questions to consider (not every question here is relevant to every update):

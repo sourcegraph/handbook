@@ -74,14 +74,13 @@ NOTE: Follow the same scheduling steps for internal candidates that you would fo
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
 - [Christina Forney](../../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../../team/index.md#kylie-fligstein)
-- [Kacie Jenkins](../../../../team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../../../../team/index.md#amber-furbush)
 - [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../../team/index.md#amber-smokowski)
 - [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../../team/index.md#kylie-fligstein) in the meantime)
 - [Quinn Slack](../../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../../team/index.md#sally-voisen)
 
 ### How to Select a Values Interview Panel:
 
-Coming Soon!
+When creating the interview plan in Greenhouse, the talent team will select 2 values interviewers to participate in the interview process for each role. The talent team aims to include two teammates outside of the department for which a candidate is interviewing.
 
 ### How to Send a Candidate Interview Confirmation Email
 
@@ -130,7 +129,11 @@ NOTE: If you're removing the interviewer who is set as the zoom meeting host, yo
 
 ## How to Generate an Offer Letter
 
-Coming soon!
+Offer letters are generated and sent by Recruiting Coordinators or Recruiting Operations Specialists.
+
+To generate a US Offer Letter, watch and follow [these steps.](https://share.vidyard.com/watch/DKevdnBPCfK26jgQgyzX2x)
+
+To generate a non-US Offer letter, watch and follow [these steps.](https://share.vidyard.com/watch/BjoopiomMjB85aJabQPdwu)
 
 ## Other Recruiting Operations Responsibilities:
 
