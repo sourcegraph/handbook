@@ -12,7 +12,7 @@ This email contains all relevant information that we need to complete the person
 
 **Teammate Tracking Spreadsheet**
 
-In order to make sure we are using the correct and most updated data we use the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311). Even though the source of truth is *always* BambooHR, it is an easy way to keep track on what we have and are missing. Once we receive the Greenhouse summary email, we need to addd a line for the person joining with the information needed.
+In order to make sure we are using the correct and most updated data we use the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311). Even though the source of truth is _always_ BambooHR, it is an easy way to keep track on what we have and are missing. Once we receive the Greenhouse summary email, we need to addd a line for the person joining with the information needed.
 
 The second tab in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311) contains the responses to the [pre onboarding form](https://forms.gle/V7HyGf2WUdQNvzXd9) sent to teammates on the **Welcome email**. We use the information in that form for Payroll purposes, tool setup and more.
 
@@ -46,7 +46,7 @@ Keep in mind that the person's email won't exist yet, but we can add it to the c
 
 **Payroll**
 
-As a next step, a week before their start date, we send Payroll an email with all US teammates starting, see the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#). 
+As a next step, a week before their start date, we send Payroll an email with all US teammates starting, see the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#).
 
 All other teammates get access to Deel (if applicable) and Airbase via Okta.
 
@@ -58,9 +58,9 @@ Managers should work with Tech Ops so that new hires have the necessary tools by
 
 Hiring managers should tell the onboarding team who the teammate's [buddy](../../../../company-info-and-process/onboarding/buddy-program.md) and [mentor](../../../../company-info-and-process/onboarding/onboarding-mentor.md) (for relevant teams) are. We must complete the onboarding checklist with the correct names so they populate for the new teammate.
 
-**Avatar** 
+**Avatar**
 
-Before someone starts, we use the image provided by them [here](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit#gid=1270378260) to create an avatar. For each person, we create a folder in the [Automated Avatars folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA) called "YYYY-MM *Preferred Name+Surname* Avatar" that contains the original image and three versions of the avatar. You can follow the instructions [here to create an avatar](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit).
+Before someone starts, we use the image provided by them [here](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit#gid=1270378260) to create an avatar. For each person, we create a folder in the [Automated Avatars folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA) called "YYYY-MM _Preferred Name+Surname_ Avatar" that contains the original image and three versions of the avatar. You can follow the instructions [here to create an avatar](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit).
 
 Teammates are encouraged to create a new one or change the background color themselves if they want to.
 
@@ -68,7 +68,7 @@ Teammates are encouraged to create a new one or change the background color them
 
 We use Printfection for onboarding swag. You can read more about how we order [swag here](internal-swag.md).
 
-We send a link to teammates in the Welcome email thread, that allows them to order the type of swag they want (unisex or form-fitted) and put the address they want for shipping. You can see the email in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#). 
+We send a link to teammates in the Welcome email thread, that allows them to order the type of swag they want (unisex or form-fitted) and put the address they want for shipping. You can see the email in the [onboarding email templates doc](https://docs.google.com/document/d/1kX_6c4WPs530pWjAx7R5MGPFGiYCgmVbh78S-K3kHfc/edit#).
 
 #### After email creation
 
@@ -76,7 +76,7 @@ Once the email is created, there are several things we need to do.
 
 **Notify the company**
 
-We send a message to [#teammate-announce](https://sourcegraph.slack.com/archives/C01UPDNPGP4) letting  everyone know that new teammate are joining and that their emails are now live. The sooner we do this the better. Here is a template message:
+We send a message to [#teammate-announce](https://sourcegraph.slack.com/archives/C01UPDNPGP4) letting everyone know that new teammate are joining and that their emails are now live. The sooner we do this the better. Here is a template message:
 
         Hello everyone! :tada:
         New teammates are starting next week and their emails are now live:
@@ -89,23 +89,27 @@ We send a message to [#teammate-announce](https://sourcegraph.slack.com/archives
 **Hiring Manager**
 
 Hiring managers should:
+
 - Create recurring 1:1 with new teammate
 - Add new teammate to any team/role specific meetings and calls
 
 **Calendar**
 
 Because they will be added to Google Groups by Tech Ops, they will be automatically added to company events and team specific ones. We should schedule some events in the new teammate's calendar:
-- Schedule 15min meeting on 1 month mark (with Inés)
-    - Invite description:
 
-        Hi! I've created this meeting to catch up and talk about how your first month at Sourcegraph went. Feel free to change the time of the meeting.
-        
-        Feedback is super important for us. Please take some time before the meeting to think of the highlights and lowlights of your onboarding process.
-        Have a great day!
+- Schedule 15min meeting on 1 month mark (with Inés)
+
+  - Invite description:
+
+    Hi! I've created this meeting to catch up and talk about how your first month at Sourcegraph went. Feel free to change the time of the meeting.
+
+    Feedback is super important for us. Please take some time before the meeting to think of the highlights and lowlights of your onboarding process.
+    Have a great day!
+
 - Add all new teammates in cohort to:
-    - the next "Meet the Founders" event - in the Events calendar (just once)
-    - the next "Meet the People Team" event - in the Events calendar (just once)
-    - the next "Meet & Greet" event - in the Events calendar (just once). This event should happen the day after start date (Tuesday)
+  - the next "Meet the Founders" event - in the Events calendar (just once)
+  - the next "Meet the People Team" event - in the Events calendar (just once)
+  - the next "Meet & Greet" event - in the Events calendar (just once). This event should happen the day after start date (Tuesday)
 - Schedule a 15min i-9 meeting for US teammates on their first or second day.
 
 **Welcome email**
@@ -114,20 +118,19 @@ The Friday before someone starts, we send the Friday email in the Welcome email 
 
 **Slack channel**
 
-We create a channel for the cohort. We add all new teammates, the onboarding team and payroll. 
+We create a channel for the cohort. We add all new teammates, the onboarding team and payroll.
 
 - Channel name: new-teammate-cohort-monthday (example: new-teammate-cohort-may12)
 - Channel description: A channel for teammates joining MONTH DAY to get to know each other, ask questions and share experiences :tada:
-- Welcome message: Schedule send the message for Monday morning (7am UTC). 
-    - Message: Hi @here! Welcome! :blob-dancer:
-Please use this channel to connect with other teammates starting today, ask any question you have and even share information.
-I will be here all week, and then leave this channel for you
+- Welcome message: Schedule send the message for Monday morning (7am UTC). - Message: Hi @here! Welcome! :blob-dancer:
+  Please use this channel to connect with other teammates starting today, ask any question you have and even share information.
+  I will be here all week, and then leave this channel for you
 
 ## Onboarding
 
 **i-9s**
 
-US teammates need to get their i9 berification done by their third day with us.  Someone in the People Team will schedule a meeting with them on their first or second day. 
+US teammates need to get their i9 berification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
 
 Teammates must have the elegible documents available for us to corroborate their identity. [Here are the acceptable documents](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents)
 
@@ -147,9 +150,9 @@ If the teammate needs to change a start date, the recruiter must follow the inst
 
 If Hiring Managers need to bring forward a start date, they need to request for the change at least 5 business days before the new starts date.
 
-If someone needs to start *outside of a cohort date* the recruiter and Hiring Manager need to talk to Tech Ops, Payroll and Onboarding. They must provide a valid business case for it.
+If someone needs to start _outside of a cohort date_ the recruiter and Hiring Manager need to talk to Tech Ops, Payroll and Onboarding. They must provide a valid business case for it.
 
-*It is important to always confirm these changes with the Hiring Manager before and after accepting the change*
+_It is important to always confirm these changes with the Hiring Manager before and after accepting the change_
 
 #### Change updates
 
@@ -158,4 +161,3 @@ We must notify the manager and update the start date in BambooHR. This is critic
 Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
 
 ## Recinding offer
-
