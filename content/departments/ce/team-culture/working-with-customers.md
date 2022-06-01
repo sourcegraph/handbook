@@ -118,13 +118,22 @@ A critical part of the customer experience is user onboarding. After deal close,
 
 ## Webinars / Trainings / Q&A Sessions
 
-The webinar you will most-often run is a Sourcegraph 101/102 (basically a longer and more in-depth version of the typical demo flow). It's important to relate use cases to customer needs.
+A standard customer engagmeent should include three core trainings, as well as optional topics customized to customer needs or requests, or demos of new features or use cases that are relevant to the team. These webinars may be run repeatedly if, for example, you're expanding into a new business unit within an existing customer. 
 
-We may also hold specific topic trainings or Q&A sessions, depending on customer need.
+### Standard trainings
+
+* [Sourcegraph 101](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-101) - The basic "how to use Sourcegraph search" webinar. This should take a new users from 0 to able to use the tool competently. The repo includes a fully scripted talk track, a lesson plan version of the talk track for those who prefer that format to a script, a Slack follow up message to send to customers, test exercises for customers to run, and the content formatted for inclusion in a customer's LMS for self-directed learning.
+* Sourcegraph 102 - Currently in progress with ETA for completion of EOQ Q2FY23. This should take a customer from being a general Sourcegraph user through being able to use the majority of Sourcegraph's advanced search features. 
+* Admin training webinar - Currently in progress with ETA for completion of EOQ Q2FY23. This should take an admin for the instance through all of the elements of the admin area of the app, and leave them feeling confident with instance and user management training.
+
+### Other trainings
+
+* Security use case training - Currently in progress with ETA for completion of EOQ Q2FY23. This should walk customers thorugh how to use Sourcegraph for the [security use case](https://about.sourcegraph.com/use-cases#find-and-fix-security-vulnerabilities). 
 
 ### Resources
 
 - [Training Webinar Recording](https://chorus.ai/meeting/8FEAE02538644AA3ABB22149750E6308?)
+- [Customer Training Engineer repo](https://github.com/sourcegraph/customer-training/tree/main/trainings)
 
 ## Check-in calls
 
