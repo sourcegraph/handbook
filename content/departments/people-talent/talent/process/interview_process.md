@@ -52,9 +52,9 @@ The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Mana
 
 ### The hiring manager screen stage
 
-If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](../tools/interview_training.md#2-structured-interviewing) and Guide to Using Brighthire before conducting interviews.
+If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](../tools/interview_training.md#2-structured-interviewing) and [Guide to Using Brighthire](../tools/guide_to_using_brighthire.md#guide-to-using-brighthire) before conducting interviews.
 
-- COMING SOON: link to instructions on how we schedule interviews
+- [How we schedule interviews](../tools/resources_for_recruiting_operations.md#How-to-Schedule-an-Interview)
 - Interview process and sample interview questions for each department [here](interview_process.md)
 - If the candidate does not show up for the interview in the first 5 minutes, the Hiring Manager will send a message in the private Slack channel for the position and tag the Recruiter and Recruiting Coordinator. If the candidate does not show up for over 5 minutes, the Hiring Manager will end the interview.
 
@@ -107,7 +107,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## **Outreach best practices**
 
-- Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
+- Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and/or content at touch points delivered to a targeted candidate at predefined intervals.
 
 [Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.
 

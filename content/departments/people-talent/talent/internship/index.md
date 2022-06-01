@@ -1,6 +1,6 @@
 # Sourcegraph Internship Program
 
-We are rolling out our first-ever internship program in Q2 FY23!
+We are rolling out our first-ever internship program in FY23 Q2!
 
 This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
@@ -28,6 +28,8 @@ We pay competitively because we want to hire the best people and we want our tea
 
 Our interns will use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
 
+Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis on [Rippling](https://www.rippling.com/). If an intern makes a mistake logging their hours, they can go back and edit their time entry.
+
 #### Perks
 
 - 🎧 [Desk Set Up](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns)
@@ -47,41 +49,11 @@ Our interns will use [Rippling](https://www.rippling.com/) to track and report t
 
 If you are on a current F1 Student VISA and eligible to work in the US for the duration of the internship program, we will gladly consider you for our internship roles.
 
-If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the documents listed [here](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. All other VISA requirements, including obtaining an I-20 form to authorize CPT work authorization, will need to be handled between you and your university.
+If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the [acceptable documents listed by USCIS](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. All other VISA requirements, including obtaining an I-20 form to authorize CPT work authorization, will need to be handled between you and your university.
 
 Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
-Read more about our VISA policies for full-time employees [here](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
-
-### Internship Events
-
-In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
-
-- 5/16 Welcome Meeting with HR
-- 5/19 Meet the Founders
-- 5/25 Virtual Game Event
-- 5/31 Cohort Meeting
-- 6/1 Exec Q&A- Carly Jones
-- 6/8 LinkedIn Workshop
-- 6/14 Yoga/Meditation
-- 6/15 Exec Q&A - Dan Adler
-- 6/21 Cohort Meeting
-- 6/22 Exec Q&A - Christina/Nick
-- 6/29 Exec Q&A - Kacie
-- 7/6 Interviewing Workshop
-- 7/13 Q&A - Connor O'Brien
-- 7/14 Virtual Escape Room
-- 7/19 Cohort Meeting
-- 7/20 Optional Q&A - Ben Horowitz
-- 7/27 Exec Q&A - Gregg/Aimee
-- 8/3 Virtual Cooking Class
-
-### Internship Projects
-
-Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
-
-- The video submission is due to Kemper on July 18th, 2022.
-- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB August 1, 2022.
+Read more about our [VISA policies for full-time employees](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
 ### Hiring after the internship
 
@@ -102,15 +74,21 @@ While this is our first internship program, it won’t be our last! We welcome q
 
 ### How to request an intern for your team
 
-Intern positions for the first cohort (May-August 2022) have been finalized. More info coming soon about how to request an intern for future cohorts.
+Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
 
 Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
+
+### How to refer an intern
+
+The process for referring an intern is the same process as referring a full time employee. The instructions for doing so are documented [here](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals). There is no need for your referral to apply through our careers page once you have referred them in Greenhouse.
 
 ### My intern request was approved, now what?
 
 If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
 
-### What does managing an intern require?
+### Managing an intern
+
+#### What does managing an intern require?
 
 1:1 Meetings
 
@@ -123,3 +101,43 @@ Internship Plans
 Wage and Hour Guidelines
 
 - Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
+
+#### Point of contact
+
+- [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
+- [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
+- [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
+- [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
+
+## 2022 Internship Cohort
+
+![Internship Cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
+
+### Internship Projects
+
+Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
+
+- The video submission is due to Kemper on 2022-07-18.
+- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB 2022-08-01.
+
+### Internship Events
+
+In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
+
+- 2022-05-16 Welcome Meeting with HR
+- 2022-05-19 Meet the Founders
+- 2022-05-25 Virtual Game Event
+- 2022-05-31 Cohort Meeting
+- 2022-06-01 Exec Q&A - Carly Jones
+- 2022-06-08 LinkedIn Workshop
+- 2022-06-14 Yoga/Meditation
+- 2022-06-15 Exec Q&A - Dan Adler
+- 2022-06-22 Exec Q&A - Christina/Nick
+- 2022-07-05 Cohort Meeting
+- 2022-07-06 Interviewing Workshop
+- 2022-07-13 Q&A - Connor O'Brien
+- 2022-07-14 Virtual Escape Room
+- 2022-07-26 Cohort Meeting
+- 2022-07-20 Optional Q&A - Ben Horowitz
+- 2022-07-27 Exec Q&A - Gregg/Aimee
+- 2022-08-03 Virtual Cooking Class

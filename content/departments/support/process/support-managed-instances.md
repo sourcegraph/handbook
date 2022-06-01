@@ -1,10 +1,10 @@
 # Accessing managed instances
 
-In order to have good security and risk mitigation practices, only a subset of our application engineers have access to managed instances. If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Don, Jason, Mariam, and Kelvin. One of them can help!
+In order to have good security and risk mitigation practices, only a subset of our application engineers have access to managed instances. If you need to access logs for these customers, post in our #customer-support-internal Slack channel and @ mention Jason, and Mariam. One of them can help!
 
 A quick note before reading the rest of this page: Customers with managed instances cannot pull their own logs, and in many cases, the customer we're dealing with is not a site-admin, so they can't access site-admin priveleges either.
 
-Please make absolute sure regardless of the customer, that they are not working with a managed instance. If they are, and you are unaware, asking for logs may end up sounding like a silly question to them, and cause the customer to lose confidence in our ability as Application Engineers. If you are unsure after looking through salesforce and looker whether a customer does or does not have a managed instance, please reach out to Don, Jason, Mariam or Kelvin and they will be able to confirm for you.
+Please make absolute sure regardless of the customer, that they are not working with a managed instance. If they are, and you are unaware, asking for logs may end up sounding like a silly question to them, and cause the customer to lose confidence in our ability as Application Engineers. If you are unsure after looking through salesforce and looker whether a customer does or does not have a managed instance, please reach out toJason or Mariam and they will be able to confirm for you.
 
 If you are an application engineer being trained to work with managed instances, read ahead.
 
@@ -14,7 +14,7 @@ To fully access managed instances, follow these [docs](../../product-engineering
 
 ## Set up a tutorial session
 
-After you've followed the docs in the 'required access' section and received the access to all necessary credentials, reach out to Dom, Mariam, Kelvin or Jason to set up a thirty minute tutorial that will take you through the most important aspects of accessing managed instances.
+After you've followed the docs in the 'required access' section and received the access to all necessary credentials, reach out to Jason or Mariam to set up a thirty minute tutorial that will take you through the most important aspects of accessing managed instances.
 
 If all of us happen to be outside of working hours when you need a tutorial, [watch this video](https://drive.google.com/file/d/1JdC-OEfng-X0tBKYjsrFn0XNHTbhE2pB/view?usp=sharing) as a supplement. That said, it would still be good to schedule some time to meet with one of us when we're back online.
 
@@ -38,6 +38,6 @@ Should you find yourself in a situation where you need to login to a customer's 
 
 ## Requesting Help
 
-It is important to do everything we can to solve issues with managed instances ourselves, but realistically, this won't always be the case. As a general reminder, if you are stuck on an issue, always engage your CS teammates first. Specifically, reach out to Don, Jason, Mariam, or Kelvin and request help. If they can't figure out what's going on, work with them to engage the cloud-devops team in the way they've asked [here](engaging-other-teams.md).
+It is important to do everything we can to solve issues with managed instances ourselves, but realistically, this won't always be the case. As a general reminder, if you are stuck on an issue, always engage your CS teammates first. Specifically, reach out to Jason or Mariam and request help. If they can't figure out what's going on, work with them to engage the cloud-devops team in the way they've asked [here](engaging-other-teams.md).
 
 To be clear, there is nothing wrong with engaging the cloud-devops team, as long as it is the last step in our process towards finding a solution, and that it only be taken when absolutely necessary.

@@ -71,9 +71,9 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 
 **Step 6:** The Recruiter begins [generating a candidate pool](../process/identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](../process/interview_process.md).
 
-### Recruiting for Intern roles
+### Identifying Candidates
 
-COMING SOON
+Information on where we find our candidates can be found [here.](../process/identifying_candidates.md#where-we-find-our-candidates)
 
 ### Extending an Internship Offer
 
@@ -171,9 +171,8 @@ If an intern decides not to join us after being marked as Hired in Greenhouse bu
 The Internship Program manager needs to complete the following actions prior to the internship start date
 
 - Send PeopleOps and TechOps the final list of intern names, teams, managers, and locations (by Country)
-  - Noemi will add to Bamboo
+  - Greenhouse integration will add to Bamboo
   - Inés will onboard
-  - Cecily will order welcome boxes
   - Tech Ops will ship laptops
 - Work with Inés and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
 - Work with TechOps team to ensure system access is set up for the interns

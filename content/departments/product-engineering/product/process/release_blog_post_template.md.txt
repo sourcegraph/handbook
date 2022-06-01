@@ -55,7 +55,7 @@ New feature section. Good if you have screenshots or diagrams and even better if
   Copy and paste the changelog for this release here and link, and replace the `{VERSION}` placeholder in the below changelog link.
 -->
 
-The [changelog for this and previous releases](https://github.com/sourcegraph/sourcegraph/blob/master/CHANGELOG.md#{VERSION}) is available on GitHub.
+The [changelog for this and previous releases](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md#{VERSION}) is available on GitHub.
 
 ## Thank you
 

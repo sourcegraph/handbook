@@ -52,3 +52,4 @@ Landing zone for team technical documentation (e.g. RFCs, videos, other handbook
 1. [Sub-repo permissions RFC](https://docs.google.com/document/d/1d8j-6VC_nk8HXEDT6U2_s-_9uSzgzHWZzrJjII9pKEE/edit)
 1. [Hexagonal Architecture for Repo Management](https://docs.google.com/document/d/1sxHpZIqKGi66evDQl6sN1FAJObbHAIkdl49EKOy7aUs/edit)
 1. [Adding support for a new code host](./support-new-code-host.md)
+1. [Upgrading p4-fusion](./upgrade-p4-fusion.md)

@@ -60,7 +60,7 @@ code_insights:
 security:
   title: Security
   product_org: cloud
-  strategy_link: /strategy-goals/strategy/cloud/security/index.md
+  strategy_link: https://github.com/orgs/sourcegraph/projects/257/views/3
   pm: diego_comas
   em: diego_comas
   issue_labels:
@@ -112,7 +112,7 @@ delivery:
   strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
   product_org: cloud
   pm: brienne_mcnally
-  em: engineering_manager_delivery
+  em: crystal_augustus
   issue_labels:
     - team/delivery
 

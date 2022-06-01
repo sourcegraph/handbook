@@ -1,6 +1,6 @@
 # Vendor Request Process
 
-At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
+At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to personal, Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
 
 ### Why should I use this process?
 
@@ -8,11 +8,25 @@ In order for us to be able to evaluate, maintain and monitor vendor relationship
 
 ### When should I use this process?
 
-For all vendor contracts or any product that touches Sourcegraph data and/or client’s data.
+We have the following rules for which a vendor request needs to be raised:
 
-(This would include Saas products and services such as, free plug-ins/extensions, individual licenses, multi-seat Saas contracts, consulting/professional services with individuals or a company, procurement partnerships, and event rentals.)
+- If **cost = 0** and classification is **PUBLIC** or **INTERNAL** -> no ticket needs to be raised
+- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED** but **LOCALLY\*** -> no ticket needs to be raised
+- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED** but **ONLINE\*** -> raise a ticket
+- If **cost >0** and classification is **PUBLIC** or **INTERNAL** or **PRIVATE** or **RESTRICTED** -> raise a ticket
 
-**Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
+**\*Locally** - meaning the data is not leaving your laptop (for instance text editor)
+
+**\*Online** - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
+
+Please see our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) on further information on data classification and examples.
+
+<br>
+  
+>**Important: Please check our [Vendor/Systems Inventory](https://docs.google.com/spreadsheets/d/1tzP64dj2CrddDLTZuLFWmpXoNB9lUaOstRUj3FaN_Rs/edit#gid=0) before raising a request in order to avoid duplicate requests and effort.**
+<br>
+
+**Please be aware** that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.
 
 ### What counts as a Vendor?
 
