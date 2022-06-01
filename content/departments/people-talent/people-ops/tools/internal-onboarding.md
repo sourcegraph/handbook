@@ -160,4 +160,4 @@ We must notify the manager and update the start date in BambooHR. This is critic
 
 Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
 
-## Recinding offer
+## Rescinding offer
