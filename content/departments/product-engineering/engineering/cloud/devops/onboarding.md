@@ -40,6 +40,7 @@ Welcome to the DevOps team! This document will guide you through DevOps-specific
 - Request access to [cloud-devops@sourcegraph.com](https://groups.google.com/u/0/a/sourcegraph.com/g/cloud-devops) Google Group in #cloud-devops-internal
 - Request access to [geekbot](https://app.geekbot.com/dashboard/standup/97887/view) in #cloud-devops-internal
 - Request access to [Excalidraw](https://excalidraw.com/) in #it-tech-ops
+- Request access to [Cloudflare](https://cloudflare.com/) in #it-tech-ops
 
 ### Week 2
 
