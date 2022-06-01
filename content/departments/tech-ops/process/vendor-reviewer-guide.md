@@ -136,9 +136,9 @@ Please see below matrix for review requirements for ANY type of vendor:
   <tr>
    <td>
    </td>
-   <td><strong>=0k</strong>
+   <td><strong>Cost = 0</strong>
    </td>
-   <td><strong>>0K</strong>
+   <td><strong>>Cost > 0</strong>
    </td>
   </tr>
   <tr>
@@ -176,9 +176,9 @@ Finance
   <tr>
    <td><strong>Internal</strong>
    </td>
-   <td>Security
+   <td>N/a
 <p>
-Tech Ops
+
    </td>
    <td>Security
 <p>
@@ -192,7 +192,7 @@ Finance
   <tr>
    <td><strong>Public</strong>
    </td>
-   <td>Tech Ops
+   <td>N/a
    </td>
    <td>Tech Ops
 <p>

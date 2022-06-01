@@ -183,6 +183,7 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label **merge-on-any-approve**
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label **merge-on-all-approve**
 3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
+4. If there are any user-facing UI changes the author requests a review from the designer.
 
 ## Support rotation
 
