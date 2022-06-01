@@ -92,8 +92,8 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
 - [Identifying candidates](process/identifying_candidates.md)
   - [How we find candidates](process/identifying_candidates.md)
-  - [Where we advertise our jobs](process/identifying_candidates.md)
-  - [How we source passive candidates]
+  - [Where we advertise our jobs](process/recruitment_branding.md)
+  - [How we source passive candidates](process/identifying_candidates.md#sourcing-best-practices)
   - [Partnering with your Sourcer](process/identifying_candidates.md)
   - [Using external recruiting agencies](process/identifying_candidates.md)
   - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
