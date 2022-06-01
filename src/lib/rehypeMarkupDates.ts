@@ -124,7 +124,7 @@ function parseFiscalInterval(input: string): { start: string; end: string } | nu
         startFiscalYearString = '20' + startFiscalYearString
     }
 
-    const startYear = parseInt(startFiscalYearString, 10)
+    const startYear = parseInt(startFiscalYearString, 10) - 1
     const endYear = Math.floor(startYear + (startMonth + durationMonths) / 12)
 
     return {
