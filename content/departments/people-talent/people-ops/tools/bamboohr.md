@@ -27,7 +27,7 @@ On the Home page, click on New → New Employee top right of the screen.
 
 ![Steps to creating a profile](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/BambooStep2.png)
 
-Complete as many of the fields possible. Look at the next section to know which fields we complete and how. Keep in minf that when creating a profile manually, the Options and Commission fields don't appear. You will need to go to the profile after it's been created to complete those missing fields.
+Complete as many of the fields possible. Look at the next section to know which fields we complete and how. Keep in mind that when creating a profile manually, the Options and Commission fields don't appear. You will need to go to the profile after it's been created to complete those missing fields.
 
 ## Profile Fields and how to complete them
 
