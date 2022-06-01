@@ -809,3 +809,13 @@ cla_bot:
   product_team: dev_experience
   slack_channels: '#dev-experience'
   ownership_model: Owner
+
+package_repositories:
+  category: Sub-system
+  title: Package repositories
+  type: Product
+  product_org: code_graph
+  product_team: code_intel
+  slack_channels: '#code-intel'
+  ownership_model: Caretaker
+  
