@@ -8,6 +8,7 @@ For opertaion guides (e.g. upgrade process), please see [managed instances opera
 
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
+  - [Environments](#environments)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
   - [Monitoring and alerting](#monitoring-and-alerting)
@@ -82,6 +83,18 @@ Managed instances are Docker Compose deployments only today. We do not currently
 These managed Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU / 360 GB memory which is typically enough for most medium to large enterprises.
 
 We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
+
+### Environments
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
+
+- for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
+- for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
+
+Before performing any changes on customer instances (upgrade, configuration modification etc.), the change is first applied and tested on test instance.
+Upgrade process to new Sourcegraph version is also preceded with upgrading test instances - [upgrade to v3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
 
 ### Known limitations of managed instances
 
