@@ -535,8 +535,7 @@ git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 
 This is the upgrade process for running in-place updates. This approach is riskier than the above processes, because rolling back changes takes significantly longer.
 
-First, ensure that the target version docker-compose manifest is in the `golden` directory. If not, [follow these steps to add it first](v1.1/mi1-1_upgrade_process/#ensure-new-version-of-docker-composeyaml-file-is-in-the-golden-directory).
-
+First, ensure that the target version docker-compose manifest is in the `golden` directory. If not, [follow these steps to add it first](v1.1/mi1-1_upgrade_process.md)
 Only use this approach for low-risk patch upgrades or docker-compose container resource changes. **Do not use if the patch includes a database change.**
 
 ### 0) Upgrade setup
