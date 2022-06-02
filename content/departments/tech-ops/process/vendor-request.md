@@ -61,9 +61,9 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 **Step 4:** Submit the request
 
-**Optional Step:**
+<ins>Optional Step:</ins>
 
-**Step 5:** Contact Vendr to assist with vendor price negotiations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Contact Vendr to assist with vendor price negotiations
 
 **Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
 
@@ -71,7 +71,7 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 > If ‘Approved’ -
 >
-> New vendor: get the contract (details here) and attach it to the Jira ticket.
+> New vendor: get the contract signed ([details on signature requirement](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md)) and [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed) in the correct place.
 >
 > Offboarding: no further actions required
 >
@@ -88,6 +88,9 @@ _Attention_: System owner - this is by default the requester except otherwise in
 > Annual review: create a new vendor request type ‘Offboarding’ for this vendor
 >
 > Others: create a new vendor request type ‘Offboarding’ for this vendor
+
+**Step 8:**
+
 
 ### System/Relationship Owner Responsibilities
 
@@ -124,7 +127,7 @@ Our due diligence involves the following reviews:
 
 (Please note: reviews happen in parallel and hence the longest SLA is 10 business days)
 
-- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing.
+- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing and info on where to [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed).
 - If any issues are found during the reviews and the approvers deem the vendor to be too risky to engage with further, any existing engagement will be terminated and the vendor will be offboarded (new vendor request to be raised for ‘Offboarding’) and the new vendor will not be onboarded.
 
 ### Budget
