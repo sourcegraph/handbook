@@ -17,7 +17,7 @@ Here are some books that multiple people on the team have read and recommend. If
 - [Radical Candor](https://www.radicalcandor.com/the-book/) - How to be a great leader by caring personally and challenging directly.
 - [An Elegant Puzzle](https://lethain.com/elegant-puzzle/) - A field manual on how to do engineering management. Reads like a well structured markdown file.
 - [The Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) - A model of how to think about what makes a highly effective team paired with a fictional story that illustrates the model.
-- [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../../../support/process/enablement/support-values-enablement.md#part-2---deep-dive-on-be-welcoming-and-inclusive).
+- [The Leader’s Guide to Unconscious Bias](https://www.amazon.com/Leaders-Guide-Unconscious-Bias-High-Performing/dp/1982144319) ([facilitated small group discussions](../../../ce-support/support/process/enablement/support-values-enablement.md#part-2---deep-dive-on-be-welcoming-and-inclusive).
 
 ## Promotion and compensation increase requests
 

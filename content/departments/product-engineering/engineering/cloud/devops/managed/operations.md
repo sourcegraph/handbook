@@ -8,6 +8,7 @@ Operations guides for [managed instances](./index.md).
 - To suspend a managed instance, see [managed instances suspense process](suspend_process.md).
 - To resume a managed instance, see [managed instances resume process](resume_process.md).
 - To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
+- To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
 * [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
@@ -38,7 +39,7 @@ The `NAME` value indicates the currently active instance (`red` or `black`). Dur
 
 ## Accessing the instance
 
-For CSE's, also refer to [Accessing Managed Instances](../../../../../support/process/support-managed-instances.md).
+For CSE's, also refer to [Accessing Managed Instances](../../../../../ce-support/support/process/support-managed-instances.md).
 
 ### SSH access
 
@@ -198,12 +199,52 @@ All customer instances are considered production enviornment and all changes app
 ## Avaiability of the instance
 
 <span class="badge badge-note">SOC2/CI-87</span>
+<span class="badge badge-note">SOC2/CI-25</span>
 
 We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
 
 ### Uptime Checks
 
 We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
+
+### Performance Checks
+
+We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critical metrics that are representation on the overall system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to investigate and ensure we reach to a resolution.
+
+A list of critial metrics that will be routed to Opsgenie:
+
+- [postgres: usage_connections_percentage](https://docs.sourcegraph.com/admin/observability/alert_solutions#postgres-usage-connections-percentage)
+- [gitserver: disk_space_remaining](https://docs.sourcegraph.com/admin/observability/alert_solutions#gitserver-disk-space-remaining)
+- [repo-updater: perms_syncer_perms](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-perms-syncer-perms)
+- [repo-updater: perms_syncer_stale_perms](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-perms-syncer-stale-perms)
+- [frontend: 99th_percentile_search_request_duration](https://docs.sourcegraph.com/admin/observability/alert_solutions#frontend-99th-percentile-search-request-duration)
+- [frontend: 99th_percentile_search_codeintel_request_duration](https://docs.sourcegraph.com/admin/observability/alert_solutions#frontend-99th-percentile-search-codeintel-request-duration)
+
+## Confirm instance health
+
+<span class="badge badge-note">SOC2/CI-109</span>
+
+The primary tool that monitors releases post-deployment are through a variety of uptime monitors and system performance metrics. These metrics are covered in documentation related to `SOC/CI-87`.
+
+Following a release upgrade, in addition to automated instance health checks, we will perform additional manul check to confirm instance health.
+
+Run command below and inspect the output to ensure that all containers are healthy (in particular, look for anything that says Restarting):
+
+```sh
+mg --customer $CUSTOMER check
+```
+
+Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
+
+```sh
+mg forward grafana
+```
+
+Check frontend logs and there are no recent errors
+
+```sh
+mg ssh-exec docker logs sourcegraph-frontend-0
+```
 
 ## Instance technicalities
 
@@ -287,17 +328,9 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 
 <span class="badge badge-note">SOC2/CI-110</span>
 
-**TODO**
+Follow [restore process](./restore_process.md)
 
 <!-- https://github.com/sourcegraph/security-issues/issues/246 -->
-
-## Post-deployment instance health check
-
-<span class="badge badge-note">SOC2/CI-109</span>
-
-**TODO**
-
-<!-- https://github.com/sourcegraph/security-issues/issues/245 -->
 
 ## Troubleshooting
 

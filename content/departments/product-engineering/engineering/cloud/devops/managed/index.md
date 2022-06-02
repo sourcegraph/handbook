@@ -10,6 +10,7 @@ For opertaion guides (e.g. upgrade process), please see [managed instances opera
   - [Deployment type and scaling](#deployment-type-and-scaling)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
+  - [Monitoring and alerting](#monitoring-and-alerting)
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
@@ -35,12 +36,12 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi&template=new_managed_instance.md&title=)]
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
-- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-suspend.md&title=)]
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
-- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)]
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
 
 ### Workflow
@@ -53,7 +54,7 @@ Customer Engineers (CE) or Sales may request to:
 
 ## SLAs for managed instances
 
-Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../support/index.md#slas). Other engineering SLAs are listed below
+Support SLAs for Sev 1 and Sev 2 can be found [here](../../../../../ce-support/support/index.md#slas). Other engineering SLAs are listed below
 
 |                                               | Description                                            | Response time                                 | Resolution time                               |
 | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
@@ -101,6 +102,37 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 - **Web Application Firewall (WAF) protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF. Notes: Cloudflare WAF is not applicable when inbound network access is restricted to an allowlist of IP addresses only.
 
 Access can be requested in #it-tech-ops WITH manager approval.
+
+### Monitoring and alerting
+
+<span class="badge badge-note">SOC2/CI-86</span>
+
+Each managed instance is created in an isolated GCP project.
+System performance metrics are configured and collected in [scoped project](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring).
+All metrics can be seen in [scoped projects dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring).
+
+Every customer managed instance has alerts configured:
+
+- [uptime check - version v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L555) configured in dedicated GCP managed instance project
+- [uptime check - version v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529) configured in dedicated GCP managed instance project
+- [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
+
+Alerting flow:
+
+1. When alert is triggered, it is sent to Opsgenie channel:
+
+- [uptime check channel for v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L577)
+- [uptime check channel for v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L552)
+- [metrics monitoring channel](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf#L24)
+
+2. From Opsgenie, alert is sent to [on-call DevOps](../index.md#on-call) and Slack channels (#opsgenie, #cloud-devops).
+
+3. On-call DevOps has to decide, what is the alert type and if [incident](../../../../engineering/process/incidents/index.md) should be opened and follow [the procedure](../../../../engineering/process/incidents/#process) to perform the incident. On-call DevOps should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
+
+4. When alert is closed via incident resolution, [post-mortem actions](../../../../engineering/process/incidents/#post-mortem) has to be assigned and performed.
+
+[Opsgenie alerts](https://sourcegraph.app.opsgenie.com/alert)
+Sample managed instance incident - [customer XXX is down](https://app.incident.io/incidents/102).
 
 ### Configuration management
 

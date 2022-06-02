@@ -43,7 +43,6 @@ There will be a set structure that we apply to each event to create a consistent
 - Host: TJ DeVries, Thorsten Ball
 - Moderator: TBD
 - Directly responsible team: Content marketing
-- Project manager: Jenny Bergen, Manager, Content Marketing
 - Project planning: [Asana Portfolio]
 
 #### Resources

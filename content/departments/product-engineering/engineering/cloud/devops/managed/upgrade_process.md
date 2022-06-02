@@ -285,11 +285,7 @@ You'll receive errors or no results for several minutes while the instance finis
 ../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
 ```
 
-- Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
-
-```sh
-gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER
-```
+Follow steps [here](./operations.md#confirm-instance-health)
 
 If you run into an error like:
 
@@ -298,18 +294,6 @@ ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: 'fai
 ```
 
 This might indicate that the instance is not fully set up yet—try again in a minute.
-
-- Ensure that all containers are healthy (in particular, look for anything that says Restarting):
-
-```sh
-../util/ssh-exec.sh "docker ps"
-```
-
-- Check frontend container logs and confirm there are no recent errors:
-
-```sh
-../util/ssh-exec.sh "docker logs sourcegraph-frontend-0"
-```
 
 ### 9) Switch the load balancer target
 
@@ -547,38 +531,35 @@ git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 
 5. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
 
-## In-place updates
+## In-place updates (recommended)
 
 This is the upgrade process for running in-place updates. This approach is riskier than the above processes, because rolling back changes takes significantly longer.
 
+First, ensure that the target version docker-compose manifest is in the `golden` directory. If not, [follow these steps to add it first](v1.1/mi1-1_upgrade_process.md)
 Only use this approach for low-risk patch upgrades or docker-compose container resource changes. **Do not use if the patch includes a database change.**
 
 ### 0) Upgrade setup
 
-**Follow the [general setup](#general-setup) guide.** Then redefine the NEW_DEPLOYMENT variable to match the existing deployment:
-
 ```sh
+eval $(mg --customer <CUSTOMER> workon)
 export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
-```
-
-Validate all variables are set:
-
-> Are you upgrading to a release candidate build? It's expected to see some errors from this script
-> Use your best judgement to decide whether you're missing something or not
-
-```sh
-./util/validate-env.ts
 ```
 
 Then set up a branch for your changes:
 
 ```sh
-git checkout -b $CUSTOMER/upgrade-$NEW_VERSION-in-place
+git checkout -b $CUSTOMER/upgrade-v<MAJOR.MINOR.PATCH>
 # all the below steps are documented assuming you are in the customer deployment directory
 cd $CUSTOMER
 ```
 
-### 1) Create a snapshot
+### 1) Make DB read-only
+
+```sh
+../util/set-db-readonly.sh $OLD_DEPLOYMENT true
+```
+
+### 2) Create a snapshot
 
 Create a snapshot:
 
@@ -588,52 +569,39 @@ git add . && git commit -m "$CUSTOMER: snapshot deployment"
 ```
 
 This can take anywhere from a minute to several minutes, depending on how large the disk is.
+Snapshot is only prepared as an emergency measure - rolling back to this snapshot risks data loss.
 
-Note that since we are not marking the database as read-only, this snapshot could become out of date with the live deployment. It is only prepared as an emergency measure - rolling back to this snapshot risks data loss.
-
-### 2) Prepare upgraded docker-compose
-
-Update version references:
+### 3) Make DB writeable
 
 ```sh
-VERSION=$NEW_VERSION ../util/update-docker-compose.sh $NEW_DEPLOYMENT/
-git --no-pager diff $NEW_DEPLOYMENT
+../util/set-db-readonly.sh $OLD_DEPLOYMENT false
 ```
 
-Check for old version references or merge conflicts:
+### 4) Switch docker-compose to use proper version
 
 ```sh
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep "$OLD_VERSION#v"
-cat $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml | grep upstream
+cd $NEW_DEPLOYMENT/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.<MAJOR.MINOR.PATCH>.yaml docker-compose.yaml && cd ../..
 ```
 
-Resolve any merge conflicts that have arisen.
-
-Ensure all images are pinned to `$NEW_VERSION`
+### 5) Sync files to customer instance
 
 ```sh
-go run ../util/enforce-tags.go $NEW_VERSION $NEW_DEPLOYMENT/docker-compose/.
+go run ../util/cmd/ sync
+git add . && git commit -m "$CUSTOMER: update docker-compose.yaml symlink"
 ```
 
-### 3) Apply changes to instance
+### 6) Recreate docker-compose on customer instance
 
 ```sh
-git add . && git commit -m "$CUSTOMER: upgrade to $NEW_VERSION in-place"
-terraform apply
+go run ../util/cmd/ ssh-exec "cd /deployment/docker-compose && docker-compose up -d --remove-orphan"
 ```
 
-This will only update the instance metadata and not affect the running deployment.
-
-### 4) Upgrade running deployment
-
-Apply changes to the running deployment by copying the docker-compose file to the instance and re-running docker-compose:
+### 7) Verify instance is working properly
 
 ```sh
-gcloud compute scp --project "$PROJECT_PREFIX-$CUSTOMER" --tunnel-through-iap $NEW_DEPLOYMENT/docker-compose/docker-compose.yaml root@default-$NEW_DEPLOYMENT-instance:/deployment/docker-compose/docker-compose.yaml
-../util/ssh-exec.sh "cd /deployment/docker-compose && docker-compose up -d"
+go run ../util/cmd/ check
 ```
 
-### 5) Wrap up the upgrade
+### 8) Wrap up the upgrade
 
-1. [Confirm instance health](#8-confirm-instance-health).
-2. [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
+[Open a pull request](#13-open-a-pull-request-to-commit-your-changes)

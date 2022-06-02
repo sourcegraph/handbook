@@ -21,7 +21,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 #### Team-specific totals
 
 - We expect new [Design team](../../departments/product-engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
-- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
+- Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/ce-support/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
 
@@ -154,5 +154,7 @@ The Company will not cover the cost of a co-working space deposit or sign for co
 **Laptop repairs:** if your laptop requires repairs, we cover up to $500 a year on repairs. If necessary repairs exceed the yearly budget please reach out to @sourcegraph/people-ops's for approval.
 
 **Travel expenses:** please see our page on [travel budgets](travel/index.md).
+
+**Virtual and in-person (local) teammate gatherings:** Each teammate has a budget of $150/quarter for virtual team gatherings and $150/quarter for local teammate gatherings. [Please see the Teammate Gatherings and Celebrations page for more details.](celebrate.md)
 
 Find out how to submit your expenses [here](../pay-expenses/expenses/index.md).

@@ -136,9 +136,9 @@ Please see below matrix for review requirements for ANY type of vendor:
   <tr>
    <td>
    </td>
-   <td><strong>=0k</strong>
+   <td><strong>Cost = 0</strong>
    </td>
-   <td><strong>>0K</strong>
+   <td><strong>>Cost > 0</strong>
    </td>
   </tr>
   <tr>
@@ -176,9 +176,9 @@ Finance
   <tr>
    <td><strong>Internal</strong>
    </td>
-   <td>Security
+   <td>N/a
 <p>
-Tech Ops
+
    </td>
    <td>Security
 <p>
@@ -192,7 +192,7 @@ Finance
   <tr>
    <td><strong>Public</strong>
    </td>
-   <td>Tech Ops
+   <td>N/a
    </td>
    <td>Tech Ops
 <p>
@@ -264,4 +264,4 @@ More information on Vendr can be found [here](../tools/Vendr/index.md).
 
 Please see ‘How To Do A Vendor Request’ handbook documentation [here](../process/vendor-request.md).
 
-Please see a short Loom video guide on how to use Jira to review vendors (TBD).
+Please see a short [Loom video guide](https://www.loom.com/share/2bdd2a7ee2d549a9b15acdd74072da32) on how to use Jira to review vendors.

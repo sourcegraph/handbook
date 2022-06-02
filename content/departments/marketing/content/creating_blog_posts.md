@@ -10,6 +10,7 @@
     - [Sizing images](#sizing-images)
     - [Uploading images](#uploading-images)
     - [YouTube video embed code](#youtube-video-embed-code)
+    - [HubSpot form embed code](#hubspot-form-embed-code)
     - [Adding a screenshot or screen recording](#adding-a-screenshot-or-screen-recording)
   - [Previewing your blog post](#previewing-your-blog-post)
   - [Publishing your post](#publishing-your-post)
@@ -33,8 +34,11 @@ Add a blog post by creating a Markdown file in one of the `blogposts` child dire
 ---
 title: The title
 description: A 300 character limit field for describing your post. Use this is you want to specially craft the excerpt shown on the index page. Uses the first 300 characters of text from your post if this field does not exist.
-author: The author name
-authorUrl: https://example.com/
+authors:
+  - name: The author name
+    url: https://example.com/
+  - name: Second authors name (optional)
+    url: https://example-2.com/
 publishDate: YYYY-MM-DDT10:00-07:00
 tags: [blog]
 slug: the-blog-slug
@@ -49,8 +53,9 @@ Your markdown content goes here
 
 The data between the `---` is called front matter and is used to provide post metadata. Important to note about this metadata, is that:
 
-- The `description` field is optional and only needed if you want to craft the description for your post on the blog the index page.
-- The `authorUrl` field is optional but recommended.
+The `description` field is used as an excerpt for your post on the blog the index page.
+
+- The `authors` field is for any author of the blog. The `url` field is optional but recommended. \* The indentations on this field are important to keep matching the example.
 - The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
@@ -74,35 +79,45 @@ The data between the `---` is called front matter and is used to provide post me
   - Note: You may need to request permission to upload files to the GCP bucket. If you see an error message that additional permissions are required, you can ask for help in #it-tech-ops on Slack.
 - Please use lower case letters and hyphens instead of spaces in folder and image names:
 
-<div class="usage">
-<div class="item yes">
-<h5>Yes</h5>
-<ul>
-<li>api-docs-hero.png</li>
-</ul>
-</div>
-<div class="item no">
-<h5>No</h5>
-<ul>
-<li>API docs hero.png</li>
-</ul>
-</div>
+<div className="usage">
+  <div className="item yes">
+    <h5>Yes</h5>
+    <ul>
+      <li>api-docs-hero.png</li>
+    </ul>
+  </div>
+  <div className="item no">
+    <h5>No</h5>
+    <ul>
+      <li>API docs hero.png</li>
+    </ul>
+  </div>
 </div>
 
 ### YouTube video embed code
 
 Uses Bootstrap for responsive sizing and adequate whitespace between adjacent elements, and that only Sourcegraph videos are shown on the end screen.
 
+<!-- prettier-ignore -->
 ```html
-<div class="container my-4 video-embed embed-responsive embed-responsive-16by9">
+<div className="container my-4 video-embed embed-responsive embed-responsive-16by9">
   <iframe
-    class="embed-responsive-item"
+    className="embed-responsive-item"
     src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
-    allowfullscreen=""
+    allowFullScreen=""
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    frameborder="0"
+    frameBorder="0"
   ></iframe>
 </div>
+```
+
+### HubSpot form embed code
+
+Inserts HubSpot form wherever the `targetId` div tag is placed.
+
+```html
+<EmbeddedHubSpot portalId="2762526" formId="your-form-id" targetId="#your-target-id" />
+<div id="your-target-id"></div>
 ```
 
 ### Adding a screenshot or screen recording
@@ -139,9 +154,11 @@ Fixing, editing, and updating a blog post on [about.sourcegraph.com](https://abo
 
 This video shows the process from start to finish, although only those with repository push access will be able to squash and merge the change.
 
-<p class="container">
-  <div style="padding:56.25% 0 0 0;position:relative;">
-    <iframe src="https://www.youtube-nocookie.com/embed/15hE2BCyMCQ" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<p className="container">
+  <div style={{ padding: '56.25% 0 0 0', position: 'relative'}}>
+    <iframe src="https://www.youtube-nocookie.com/embed/15hE2BCyMCQ" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} frameBorder="0" webkitAllowFullscreen="" mozAllowFullScreen="" allowFullScreen=""></iframe>
   </div>
-  <p style="text-align: center"><a href="https://www.youtube.com/watch?v=15hE2BCyMCQ" target="_blank">Watch on YouTube</a></p>
+  <p style={{ textAlign: 'center' }}>
+    <a href="https://www.youtube.com/watch?v=15hE2BCyMCQ" target="_blank" rel="noreferrer">Watch on YouTube</a>
+  </p>
 </p>

@@ -1,6 +1,6 @@
 # Vendor Request Process
 
-At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
+At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to personal, Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
 
 ### Why should I use this process?
 
@@ -8,11 +8,25 @@ In order for us to be able to evaluate, maintain and monitor vendor relationship
 
 ### When should I use this process?
 
-For all vendor contracts or any product that touches Sourcegraph data and/or client’s data.
+We have the following rules for which a vendor request needs to be raised:
 
-(This would include Saas products and services such as, free plug-ins/extensions, individual licenses, multi-seat Saas contracts, consulting/professional services with individuals or a company, procurement partnerships, and event rentals.)
+- If **cost = 0** and classification is **PUBLIC** or **INTERNAL** -> no ticket needs to be raised
+- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED** but **LOCALLY\*** -> no ticket needs to be raised
+- If **cost = 0** and classification is **PRIVATE** or **RESTRICTED** but **ONLINE\*** -> raise a ticket
+- If **cost >0** and classification is **PUBLIC** or **INTERNAL** or **PRIVATE** or **RESTRICTED** -> raise a ticket
 
-**Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
+**\*Locally** - meaning the data is not leaving your laptop (for instance text editor)
+
+**\*Online** - data is shared with 3rd party (browser extensions that access private or restricted data and are shared back with the service provider)
+
+Please see our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) on further information on data classification and examples.
+
+<br>
+  
+>**Important: Please check our [Vendor/Systems Inventory](https://docs.google.com/spreadsheets/d/1tzP64dj2CrddDLTZuLFWmpXoNB9lUaOstRUj3FaN_Rs/edit#gid=0) before raising a request in order to avoid duplicate requests and effort.**
+<br>
+
+**Please be aware** that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.
 
 ### What counts as a Vendor?
 
@@ -47,9 +61,9 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 **Step 4:** Submit the request
 
-**Optional Step:**
+<ins>Optional Step:</ins>
 
-**Step 5:** Contact Vendr to assist with vendor price negotiations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Contact Vendr to assist with vendor price negotiations
 
 **Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
 
@@ -57,7 +71,7 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 > If ‘Approved’ -
 >
-> New vendor: get the contract (details here) and attach it to the Jira ticket.
+> New vendor: get the contract signed ([details on signature requirement](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md)) and [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed) in the correct place.
 >
 > Offboarding: no further actions required
 >
@@ -74,6 +88,8 @@ _Attention_: System owner - this is by default the requester except otherwise in
 > Annual review: create a new vendor request type ‘Offboarding’ for this vendor
 >
 > Others: create a new vendor request type ‘Offboarding’ for this vendor
+
+**Step 8:**
 
 ### System/Relationship Owner Responsibilities
 
@@ -110,7 +126,7 @@ Our due diligence involves the following reviews:
 
 (Please note: reviews happen in parallel and hence the longest SLA is 10 business days)
 
-- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing.
+- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing and info on where to [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed).
 - If any issues are found during the reviews and the approvers deem the vendor to be too risky to engage with further, any existing engagement will be terminated and the vendor will be offboarded (new vendor request to be raised for ‘Offboarding’) and the new vendor will not be onboarded.
 
 ### Budget
