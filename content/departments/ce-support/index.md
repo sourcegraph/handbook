@@ -10,4 +10,5 @@
 Together, this unified organization operates closely and carefully in support of our customers and learns deeply from each other.
 
 ## Team Members
+
 {{generator:reporting_structure.vp_customer_engineering}}
