@@ -270,6 +270,7 @@ Search for any open upgrade tracking issues, edit the description to remove the 
 This [Github Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-tracking) may be helpful.
 
 ## Close teardown request issue
+
 > NOTE: to ensure auditability of the teardown SLA, it is important to execute these steps directly after tearing down a managed instance.
 
 1. Validate that the teardown request issue has references to the pull requests showing the necessary changes. If any are missing, update the PR descriptions with a link to the teardown request issue.
