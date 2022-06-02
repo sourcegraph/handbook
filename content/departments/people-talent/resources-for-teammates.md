@@ -39,9 +39,7 @@
   - [Skip level]
   - [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
-  ## Benefits, Perks and Pay
-
-  [General overview](../../benefits-pay-perks/benefits-perks/index.md)
+  ## Benefits, Perks and Pay(../../benefits-pay-perks/benefits-perks/index.md)
 
   ### Pay & Expenses
 
@@ -60,7 +58,7 @@
 - [Charity matching](../../benefits-pay-perks/benefits-perks/charity-matching.md)
 - [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
 
-  ### Benefits
+   ### Benefits
 
 - [Benefits available for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
   - What benefit provider do we use? [COMING SOON]
