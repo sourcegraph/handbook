@@ -17,7 +17,7 @@ The percentage of new logos that include an add-on product. When calculating att
 ## Per-product iARR
 
 The dollar value we attribute to the product sale.
-Until we have better tracking in place on the sales and finance side, we use the following heuristics, in order:
+Until we have better tracking in place on the sales and finance side, teams use roughly equivalent ARR metrics (tradeoff of time and information precision). Batch changes uses the % of ARR its sticker price suggests for all Batch Changes deals. Code Insights (since it is newer to market) uses the following heuristics, in order:
 
 1. If the sale was purely an add-on for just that product, we count 100% of the iARR from that close
 2. If the sale was presented to the customer with products broken out per price, we follow that % breakdown of revenue per product
