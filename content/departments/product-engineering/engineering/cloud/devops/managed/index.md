@@ -113,14 +113,16 @@ All metrics can be seen in [scoped projects dashboard](https://console.cloud.goo
 
 Every customer managed instance has alerts configured:
 
-- [uptime check](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L553) configured in dedicated GCP managed instance project
+- [uptime check - version v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L555) configured in dedicated GCP managed instance project
+- [uptime check - version v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529) configured in dedicated GCP managed instance project
 - [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
 
 Alerting flow:
 
 1. When alert is triggered, it is sent to Opsgenie channel:
 
-- [uptime check channel](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L557)
+- [uptime check channel for v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L577)
+- [uptime check channel for v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L552)
 - [metrics monitoring channel](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf#L24)
 
 2. From Opsgenie, alert is sent to [on-call DevOps](../index.md#on-call) and Slack channels (#opsgenie, #cloud-devops).
@@ -129,6 +131,7 @@ Alerting flow:
 
 4. When alert is closed via incident resolution, [post-mortem actions](../../../../engineering/process/incidents/#post-mortem) has to be assigned and performed.
 
+[Opsgenie alerts](https://sourcegraph.app.opsgenie.com/alert)
 Sample managed instance incident - [customer XXX is down](https://app.incident.io/incidents/102).
 
 ### Configuration management
