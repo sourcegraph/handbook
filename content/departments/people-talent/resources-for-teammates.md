@@ -39,9 +39,7 @@
   - [Skip level]
   - [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
-  ## Benefits, Perks and Pay
-
-  [General overview](../../benefits-pay-perks/benefits-perks/index.md)
+  ## Benefits, Perks and Pay(../../benefits-pay-perks/benefits-perks/index.md)
 
   ### Pay & Expenses
 
