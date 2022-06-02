@@ -41,7 +41,8 @@ The first step of an interview process for a candidate is the Recruiter Screen. 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
 - To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
-- COMING SOON: how to schedule with Calendly
+- To use the Calendly template in Greenhouse to schedule, first enable [Calendly integration](https://support.greenhouse.io/hc/en-us/articles/360029359472) in Greenhouse. Then continue to [these steps](https://support.greenhouse.io/hc/en-us/articles/360029686091) to schedule an interview with Calendly.
+
 - To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
 
 If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
@@ -103,7 +104,10 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## **Sourcing best practices**
 
-- COMING SOON: to source passive candidates, the Recruiter & Hiring Manager follows best sourcing practices in LinkedIn Recruiter
+- To source passive candidates, the Recruiter and Hiring Manager follows best sourcing practices in LinkedIn Recruiter.
+
+Click [here](how_to_be_a_sourcer_at_sourcegraph.md) to read about sourcing best practices and how a sourcer partners with a Recruiter and Hiring Manager.
+click [here](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) for a guide on creating a Recruiting Outreach Campaign.
 
 ## **Outreach best practices**
 
