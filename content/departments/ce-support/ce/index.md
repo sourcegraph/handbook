@@ -7,16 +7,6 @@ The Customer Engineering organization at Sourcegraph is oriented around the tech
 - [Customer Engineers](ce.md)
 - [Customer Training Engineers](cte/cte.md)
 
-## Team Members
-
-{{generator:reporting_structure.vp_customer_engineering}}
-
-More details about our team members in [our team READMEs](team/readmes.md).
-
-## Open Roles
-
-- [Join us!](team/open-roles.md)
-
 ## Goals
 
 Refer to our [OKRs](../../../strategy-goals/goals/2023_Q1.md#customer-engineering) for the CE team’s full quarter OKRs.
