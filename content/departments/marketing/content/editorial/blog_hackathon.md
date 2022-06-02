@@ -50,7 +50,7 @@ Don't worry—you don't need to finish your submission on the day and we won't p
 
 - You will have until the end of the following week (2021-09-10) to submit your complete draft.
 - Please have a peer review your draft before you submit it.
-- You can submit in a Google Doc or PR. Please @ mention Rebecca Dodd (@rebeccadee on GitHub) to make sure your submission is counted.
+- You can submit in a Google Doc or PR.
 
 ### Publishing
 
