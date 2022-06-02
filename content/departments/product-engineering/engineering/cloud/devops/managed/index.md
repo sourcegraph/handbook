@@ -97,13 +97,13 @@ For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separa
 
 Internal instances are created for various testing purposes:
 
-- testing changes prior to the montly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
-- testing siginificant opertional changes prior applying to customer instances
+- testing changes prior to the monthly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
+- testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
 
 ### Customer instances
 
-All customer instances are considered production enviornment and all changes applied to these customers should be well-tested in internal environment.
+All customer instances are considered part of the production environment and all changes applied to these customers should be well-tested in the test environment.
 
 Upgrade process to new Sourcegraph version is also preceded with upgrading test instances - [upgrade to v3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
 
