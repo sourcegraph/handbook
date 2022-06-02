@@ -19,12 +19,6 @@ Keeping our reason for existence and guiding principles in mind in all of our wo
 
 For additional context, check out [RFC 274](https://docs.google.com/document/d/1eLJmEVoD4H2s18gw65OCKSEX7ZQiG38FU_jU3UsrBKY/edit#), the starting vision for CS at Sourcegraph.
 
-## The team
-
-{{generator:reporting_structure.director_customer_support}}
-
-More details about each team member in [our team READMEs](team/index.md).
-
 ## We know that we are successful when we …
 
 ### At the team level and at a very high level...
