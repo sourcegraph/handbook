@@ -97,3 +97,14 @@ To provide the customer access to the instance:
 ## Configuring License, SSO, and repositories
 
 Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+
+## Is customers using a private code host?
+
+If the customers' code host is behind a firewall, we will need to provide them the IP of our Cloud NAT
+
+```sh
+cd $CUSTOMER
+terraform output
+```
+
+Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses.

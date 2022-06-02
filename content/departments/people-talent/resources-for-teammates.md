@@ -84,5 +84,5 @@
 - [The interview process](talent/process/interview_process.md)
 - [Types of interviews](talent/process/types_of_interviews.md)
 - [Interview training & best practices](talent/tools/interview_training.md)
-- [Recruitment branding](talent/process/recruitment-branding.md)
+- [Recruitment branding](talent/process/recruitment_branding.md)
 - [Recruiting tools](talent/tools/index.md)

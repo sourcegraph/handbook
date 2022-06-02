@@ -10,6 +10,10 @@ The goal is to provide resources for learning and development in line with Sourc
 
 Join the #dev-learn channel in Slack to share and discuss learning resources. If you come across resources such as links or books that you think would be helpful to others, share them in the channel. You can also feel free to open a handbook PR and add links directly to this page.
 
+## Education budget for Sourcegraph teammates
+
+We provide an education budget for Sourcegraph teammates that can be used for the books and paid courses listed on this page. See the [Education section on the Spending Company Money page](../../../../../benefits-pay-perks/benefits-perks/spending-company-money.md).
+
 ## Recommended books
 
 These are books relevant to engineers and engineering managers and have been recommended.
@@ -43,6 +47,14 @@ We use GraphQL as our API protocol, build on a backend in Go.
 <img src="https://images-na.ssl-images-amazon.com/images/I/31MMS6yrIbS._SX384_BO1,204,203,200_.jpg" style="max-width: 120px"/>
 
 [The Road to GraphQL](https://www.amazon.com/gp/product/1730853935)
+
+## Recommended CSS Course
+
+This course for frontend developers is one of the best comprehensive and detailed CSS resources that we've come across.
+
+<img src="https://css-for-js.dev/og-image-v2.jpg" style="max-width: 200px"/>
+
+[CSS for JavaScript Developers by Josh W. Comeau](https://css-for-js.dev/)
 
 ### Git concepts
 
