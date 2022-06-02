@@ -131,7 +131,12 @@ To schedule an interview with a candidate, please work with your recruiter or Sl
 
 Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](../tools/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback. All feedback must be submitted in Greenhouse **before** discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
-COMING SOON: how to use Brighthire for feedback
+#### How to use BrightHire for feedback
+
+Brighthire’s interview assistant allows you to take time stamped notes while you are interviewing. The notes are formatted into bullets and the question topics are formatted into headers. In interview assistant, you can flag key moments, leave reactions, and use “at mentions” to tag someone. Every note is clickable so as you click it, you can jump right in to replay the moment the note was taken. The bottom of the notes section provides an area to add a general comment that gets tied to the entire interview instead of one specific time point. This is a great place in Brighthire to tag a teammate and pull them in to let them know about next steps. 
+
+At the top of the notes page, you have the link available to jump right into the Greenhouse scorecard or to share the link with someone else. When you go back to Greenhouse to leave feedback, you will see the BrightHire tab at the right side of the screen (enabled with the Chrome extension). Clicking on the tab allows you to watch the entire interview, look over time stamped notes, replay key moments with video and recording, jump into areas where you asked questions, and review flagged moments. With this extension, you can copy and paste all notes formatted with the question topics directly into the Greenhouse scorecard to make it easy to provide written feedback in Greenhouse. 
+
 
 ### Overall hiring recommendation
 
