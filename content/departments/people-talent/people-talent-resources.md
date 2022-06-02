@@ -42,7 +42,6 @@
 - [Interview Training](talent/tools/interview_training.md)
 - [Resources for Candidates](resources_for_candidates.md)
 - [Resources for Hiring Managers](talent/index.md#resources-for-hiring-managers)
-- [Resources for Recruiters](talent/tools/resources_for_recruiters.md)
 - [Resources for Recruiting Ops](talent/tools/resources_for_recruiting_operations.md)
 - [Resources for Teammates](talent/index.md#resources-for-teammates)
 - [Opening a new job](talent/process/opening_a_new_job.md)
