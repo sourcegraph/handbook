@@ -25,7 +25,7 @@
 **Step 4**: the Recruiter [creates an offer in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/200721744-Create-offer)
 
 - The offer start date **must** align with a [cohort start date](https://calendar.google.com/calendar/u/0?cid=Y182OTdwMnZyMnA3cmJnYzNrMTRiODAwc2gxZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t), which take place every 2-weeks.
-  - If you need to start a Teammate on a non-cohort date, you must receive approval from VP Talent. To receive approval, please send a Slack to VP Talent, Noemi and Ines with business case for starting on a non-cohort date.
+  - If you need to start a Teammate on a non-cohort date, you must receive approval from VP Talent. To receive approval, please send a Slack to VP Talent, Jonathan and Ines with business case for starting on a non-cohort date.
 - Recruiter inputs number of equity options into the Stock Option Calculator, and transfers information into offer in Greenhouse.
 - Approval chain: Director, Technical Recruiting (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations and/or Manager, Financial Planning & Analysis.
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` or `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.

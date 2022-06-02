@@ -180,7 +180,7 @@ All Product teammates should join the following channels (feel free to adjust yo
 All teammates in Operations should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
 - #business-ops - Strategy, operations, and project management support
-- #people-ops - Onboarding, team satisfaction, reviews, and much more
+- #ask-people-team - Onboarding, team satisfaction, reviews, and much more
 - #hiring - Candidate hiring
 - #it-tech-ops - IT, software, and access questions
 - #finance - Dollars and cents

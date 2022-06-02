@@ -36,4 +36,4 @@ To generate a letter, please follow the steps below:
 
 If a phone call is required, please share our company phone number, (650) 273-5591, and notify people-ops@sourcegraph.com that you will need a verbal verification of employment.
 
-If you have any questions about Truework, you can reach out to the People Ops team at the [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel or people-ops@sourcegraph.com.
+If you have any questions about Truework, you can reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com.

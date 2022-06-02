@@ -66,6 +66,4 @@ Commit your change and create a pull request
 
 ## Fallback plan
 
-This document the process to recovery the instance to the previous state in the event the upgrade failed
-
-**TODO**
+Follow [restore process](./mi1-1_restore_process.md)
