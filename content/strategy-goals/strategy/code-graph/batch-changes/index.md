@@ -143,6 +143,8 @@ Our tentative plan so far:
 
 - **Permissions and access control** is not a focus for Q2, as we are still collecting feedback and we want to focus on running batch changes server-side. It's very likely to be a focus area for Q3 as efforts from other teams (IAM and admin experience) land.
 
+- **Additional codehosts** we do not plan to add additional codehosts (outside of BitBucket Cloud) this year.
+
 In general, we tend to focus on features that we can build for multiple codehosts in a relatively homogenous manner, and avoid codehost-specific features.
 
 ## Related use cases
