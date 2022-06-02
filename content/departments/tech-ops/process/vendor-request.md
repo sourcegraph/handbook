@@ -91,7 +91,6 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 **Step 8:**
 
-
 ### System/Relationship Owner Responsibilities
 
 Every vendor we use at Sourcegraph has an internal system/relationship owner assigned to them. By assigning a Sourcegraph system owner, we have a designated point of contact for all communication with the vendor, which will facilitate turnaround times on any matters during our engagement with the vendor as well as any internal process that require vendor input/output.
