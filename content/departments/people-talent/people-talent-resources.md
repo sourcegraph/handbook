@@ -41,7 +41,7 @@
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [Interview Training](talent/tools/interview_training.md)
 - [Resources for Candidates](resources_for_candidates.md)
-- [Resources for Hiring Managers](talent/tools/resources_for_hiring_managers.md)
+- [Resources for Hiring Managers](talent/index.md#resources-for-hiring-managers)
 - [Resources for Recruiters](talent/tools/resources_for_recruiters.md)
 - [Resources for Recruiting Ops](talent/tools/resources_for_recruiting_operations.md)
 - [Resources for Teammates](talent/tools/resources_for_teammates.md)
