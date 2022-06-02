@@ -89,9 +89,9 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Engineering](departments/product-engineering/engineering/index.md)
   - [Engineering orgs and teams](departments/product-engineering/engineering/team/index.md)
 
-### [Customer Support](departments/support/index.md)
+### [Customer Support](departments/ce-support/support/index.md)
 
-### [Customer Engineering](departments/ce/index.md)
+### [Customer Engineering](departments/ce-support/ce/index.md)
 
 ### [Marketing](departments/marketing/index.md)
 

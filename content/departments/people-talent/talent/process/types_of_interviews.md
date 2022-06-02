@@ -115,16 +115,16 @@ In addition to the above interviews, some departments have department-specific i
 
 #### Executive Business Partner working session scenario
 
-- Interviewer(s): Gregg Stone, and Kelsey Nagel
+- Interviewer(s): Gregg Stone, VP of Sales
 - Duration: 60-minutes.
 - Details: The goal of this working session is to give us all a sense of what it would be like to work together. Below is a hypothetical situation that we would like to play out during this 60-minute session.
 
-  You are new to the role (30 days) when Kacie and Gregg ask you to meet and discuss organizing an in-person event for the sales/marketing teams. The idea behind this event is to build strong relationships among team members and align on goals.
+  You are new to the role (30 days) when Gregg asks you to meet and discuss organizing an in-person event for the sales/marketing teams. The idea behind this event is to build strong relationships among team members and align on goals.
 
   Your objective in this meeting is to:
 
 1.  Gather all the information that you need in order to be successful at planning and executing this event.
-2.  Provide recommendations, share potential ideas, and discuss solutions with Kacie and Gregg.
+2.  Provide recommendations, share potential ideas, and discuss solutions with Gregg.
 
 Our advice:
 
@@ -348,7 +348,7 @@ The agenda for the meeting will go as follows:
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes—whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
-The [CE](../../../ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../../ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../../ce-support/ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../../ce-support/ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 

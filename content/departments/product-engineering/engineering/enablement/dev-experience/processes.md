@@ -186,4 +186,4 @@ Verify the output looks good, and email it to engineering-team@sourcegraph.com.
 We maintain a repository with experiments and notes from the DevX team, [`sourcegraph/devx-scratch`](https://github.com/sourcegraph/devx-scratch), in an effort to improve knowledge-sharing and log our explorations and trends.
 We encourage you to log anything you want in this repository, particularly insights from pairing sessions and so on!
 
-Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/devx-scratch/blob/main/2022/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).
+Of particular note is the support log ([2022 support log](https://github.com/sourcegraph/devx-scratch/blob/main/2022/ce-support/support/log.md)), which should be update with any notable efforts during [support rotations](#support-rotation).
