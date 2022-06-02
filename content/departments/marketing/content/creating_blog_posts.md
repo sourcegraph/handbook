@@ -80,32 +80,33 @@ The `description` field is used as an excerpt for your post on the blog the inde
 - Please use lower case letters and hyphens instead of spaces in folder and image names:
 
 <div className="usage">
-<div className="item yes">
-<h5>Yes</h5>
-<ul>
-<li>api-docs-hero.png</li>
-</ul>
-</div>
-<div className="item no">
-<h5>No</h5>
-<ul>
-<li>API docs hero.png</li>
-</ul>
-</div>
+  <div className="item yes">
+    <h5>Yes</h5>
+    <ul>
+      <li>api-docs-hero.png</li>
+    </ul>
+  </div>
+  <div className="item no">
+    <h5>No</h5>
+    <ul>
+      <li>API docs hero.png</li>
+    </ul>
+  </div>
 </div>
 
 ### YouTube video embed code
 
 Uses Bootstrap for responsive sizing and adequate whitespace between adjacent elements, and that only Sourcegraph videos are shown on the end screen.
 
+<!-- prettier-ignore -->
 ```html
 <div className="container my-4 video-embed embed-responsive embed-responsive-16by9">
   <iframe
     className="embed-responsive-item"
     src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
-    allowfullscreen=""
+    allowFullScreen=""
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    frameborder="0"
+    frameBorder="0"
   ></iframe>
 </div>
 ```

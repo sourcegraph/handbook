@@ -30,6 +30,8 @@ We identify candidates using a variety of channels:
 
 # Sourcing best practices
 
+[Here](linkedin.md) is a guide to using LinkedIn Recruiter to source candidates and [here](how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices) is a link to our sourcing best practices
+
 ### How we source passive candidates
 
 - Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and/or content at touch points delivered to a targeted candidate at predefined intervals.

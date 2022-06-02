@@ -511,19 +511,6 @@ owen_convey:
   links: '[LinkedIn](https://www.linkedin.com/in/owenconvey/)'
   description: "Owen was born and raised in England and has been residing in Barcelona since 2012. He spends a lot of time watching Rugby, playing with his young daughter and tinkering with his laptop. Prior to Sourcegraph, he was a manager at Help Scout and loves empowering and motivating autonomous engineering teams. His Achilles' heel is most definitely pizza."
 
-virginia_ulrich:
-  name: Virginia Ulrich
-  pronouns: she/they
-  role: Director of Customer Support
-  manager_role_slug: director_customer_support
-  reports_to: vp_engineering
-  location: Portland, Oregon, United States 🇺🇸
-  github: virginiaulrich
-  email: virginia@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/virginiaulrich/)'
-  pronunciation: vr ji nyuh oo l ri ch
-  description: Virginia lives with her partner (Vinh) and two cats, Little Miss Gable (tuxedo) and Hercules Mulligan (orange tabby). She derives joy from the tiny beautiful moments of human connection, hikes across the city and out in nature, and cooking for others. She studied literature and discovered her love of computer science quite by accident. With many years in customer service in various forms, Virginia can geek out for hours about the philosophy of 👍 customer support, the importance of compassion > empathy, and all things involving people helping other people.
-
 scott_campbell:
   name: Scott Campbell
   pronouns: he/him
@@ -836,7 +823,7 @@ adeola_akinsiku:
   location: Atlanta, GA, USA 🇺🇸
   github: adeola-ak
   email: adeola@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270), [Readme](../../support/bios/adeola-readme.md)'
+  links: '[LinkedIn](https://www.linkedin.com/in/adeola-a-b0b6b270), [Readme](../../ce-support/support/bios/adeola-readme.md)'
   description: Adeola joins Sourcegraph fresh out of an engineering bootcamp after years of doing work that she never felt challenged or very excited about. Having studied Finance in undergrad, she knows a thing or two about credit and managing money, but really loves to talk about all things code. Adeola finds life to be awfully boring without purpose and meaning, and strives to become a better person both professionally and personally everyday. Real connections mean a lot to Adeola and she loves to engage with people who feel the same way. Outside of work, she loves going out to eat, watching basketball, sniffing candles, reading and relaxing.
 
 beatrix_woo:
@@ -847,7 +834,7 @@ beatrix_woo:
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/wbeatrix/), [@3eatrix](https://www.twitter.com/3eatrix/), [Readme](../../support/bios/bee-readme.md)'
+  links: '[LinkedIn](https://www.linkedin.com/in/wbeatrix/), [@3eatrix](https://www.twitter.com/3eatrix/), [Readme](../../ce-support/support/bios/bee-readme.md)'
   pronunciation: '[Pronounce my name 🔊](https://www.youtube.com/watch?v=aZWHsV96NqY)'
   description: 'Originally from Hong Kong, Beatrix is now residing in the sunny San Diego with her husband and their Shiba Inu, Goku. She was working as an analyst and has worked for Morgan Stanley and Uber before she picked up her old passion in coding. In her free time, Beatrix likes to spend time with her family, learn about different technologies, build mechanical keyboards, and play [League of Legends](https://na.op.gg/summoner/userName=biues) with friends.'
 
@@ -1513,7 +1500,7 @@ greg_bouton:
 nonso_obiano:
   name: Nonso Obiano
   role: Customer Support Manager
-  reports_to: director_customer_support
+  reports_to: vp_customer_engineering
   manager_role_slug: customer_support_manager_2
   location: Lagos, Nigeria 🇳🇬
   github: Cyberwhiz5000
@@ -1524,7 +1511,7 @@ nonso_obiano:
 brielle_collins:
   name: Brielle Collins
   role: Customer Support Manager
-  reports_to: director_customer_support
+  reports_to: vp_customer_engineering
   manager_role_slug: customer_support_manager_1
   location: Chicago, Illinois 🇺🇸
   github: Brielle-C
@@ -1834,7 +1821,7 @@ varun_gandhi:
   pronouns: he/him
   role: Software Engineer
   reports_to: engineering_manager_code_intelligence
-  location: 'Berkeley, CA, USA / Mumbai, India'
+  location: 'Europe'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
@@ -2204,7 +2191,7 @@ feroz_salam:
 shawntee_harris:
   name: Shawnteé Harris
   email: shawntee.harris@sourcegraph.com
-  reports_to: director_customer_support
+  reports_to: vp_customer_engineering
   github: shawnteeharris
   pronouns: she/her
   role: Program Manager
@@ -2742,7 +2729,7 @@ ajay_uppaluri:
 rakesh_joshi:
   name: Rakesh Joshi
   role: Application Engineer
-  reports_to: director_customer_support
+  reports_to: customer_support_manager_1
   location: Melbourne, Australia
   email: rakesh.joshi@sourcegraph.com
   github: rakeshjosh2003
