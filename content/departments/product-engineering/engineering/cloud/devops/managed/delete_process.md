@@ -1,5 +1,7 @@
 # Deleting a managed instance
 
+<span class="badge badge-note">SOC2/CI-41</span>
+
 ## How to request
 
 1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
@@ -27,7 +29,7 @@ Send a message to the #ce team's Slack channel. An example could be:
 
 ```
 Hello, @ce! The <customer name> managed instance is scheduled for teardown in 1 hour. If this is in error, please notify me immediately.
-Teardown request ticket: <ticket link>
+Teardown request issue: <issue link>
 ```
 
 ## Destroy the managed instance infrastructure
@@ -123,8 +125,9 @@ git push origin HEAD
 
 ### Create the Pull Request
 
-**Title:** CUSTOMER: Teardown Managed Instance
-_Link tear-down request ticket in the description_
+**Title:** managed-instance-$CUSTOMER: Teardown Managed Instance
+
+_Link tear-down request issue in the description_
 
 ## Delete Snapshots
 
@@ -136,7 +139,7 @@ Scheduled snapshots are not managed by Terraform. In order to remove the GCP pro
 gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "data" | awk '{print $1}' | xargs gcloud compute snapshots delete --project=sourcegraph-managed-$CUSTOMER --quiet
 ```
 
-## Remove the GCP Project Entry
+## Remove the GCP Project
 
 ### Checkout the sourcegraph/infrastructure repository and ensure it is up-to-date
 
@@ -183,9 +186,10 @@ git commit -m "managed-instance-${CUSTOMER}: Remove GCP project"
 git push origin HEAD
 ```
 
-For the Pull Request:
-**Title:** managed-instance-customer: Remove GCP Project
-_Link tear-down request ticket in the description_
+Open the PR:
+**Title:** managed-instance-$CUSTOMER: Remove GCP Project
+
+_Link tear-down request issue in the description_
 
 Wait for checks to pass, approval and then merge pull request.
 
@@ -226,9 +230,10 @@ cd ../ # back to the infrastructure/ repo root directory
 git push origin HEAD
 ```
 
-For the Pull Request:
+Open the PR:
 **Title:** managed-instance-$CUSTOMER: Remove DNS entry
-_Link tear-down request ticket in the description_
+
+_Link tear-down request issue in the description_
 
 Wait for checks to pass, approval, and merge pull request.
 
@@ -250,17 +255,6 @@ terraform apply
 cd ../ # back to the repo root directory
 ```
 
-### Remove the GCP project
-
-```
-cd infrastructure/gcp/projects
-cat .tool-versions
-git checkout main
-git pull
-terraform apply
-cd ../ # back to the repo root directory
-```
-
 ## Update documentation to remove references of the managed instance
 
 ### Updating the upgrade template
@@ -275,9 +269,10 @@ Search for any open upgrade tracking issues, edit the description to remove the 
 
 This [Github Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-tracking) may be helpful.
 
-## Close the teardown request ticket
+## Close teardown request issue
+> NOTE: to ensure auditability of the teardown SLA, it is important to execute these steps directly after tearing down a managed instance.
 
-The teardown request ticket should now have references back to the pull requests showing the necessary changes.
-At this time the teardown request ticket from CE can be marked as Completed.
+1. Validate that the teardown request issue has references to the pull requests showing the necessary changes. If any are missing, update the PR descriptions with a link to the teardown request issue.
+1. Close the teardown request issue.
 
 [#cloud-devops]: https://sourcegraph.slack.com/archives/C02KX975BDG
