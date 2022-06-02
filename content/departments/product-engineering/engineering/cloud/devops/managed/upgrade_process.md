@@ -535,22 +535,21 @@ git add . && git commit -m "$CUSTOMER: remove $OLD_DEPLOYMENT deployment"
 
 This is the upgrade process for running in-place updates. This approach is riskier than the above processes, because rolling back changes takes significantly longer.
 
+First, ensure that the target version docker-compose manifest is in the `golden` directory. If not, [follow these steps to add it first](v1.1/mi1-1_upgrade_process/#ensure-new-version-of-docker-composeyaml-file-is-in-the-golden-directory).
+
 Only use this approach for low-risk patch upgrades or docker-compose container resource changes. **Do not use if the patch includes a database change.**
 
 ### 0) Upgrade setup
 
 ```sh
-export CUSTOMER=<CUSTOMER_FOLDER_NAME>
-export PROJECT_PREFIX=sourcegraph-managed
-export TF_VAR_opsgenie_webhook=<FROM_1PASSWORD>
-export OLD_DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+eval $(mg --customer <CUSTOMER> workon)
 export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
 ```
 
 Then set up a branch for your changes:
 
 ```sh
-git checkout -b $CUSTOMER/upgrade-v<MIJOR.MINOR.PATCH>
+git checkout -b $CUSTOMER/upgrade-v<MAJOR.MINOR.PATCH>
 # all the below steps are documented assuming you are in the customer deployment directory
 cd $CUSTOMER
 ```
