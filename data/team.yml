@@ -2888,3 +2888,14 @@ anna_bergevin:
   location: Salt Lake City, UT, USA 🇺🇸
   links: '[Linkedin](https://www.linkedin.com/in/annabergevin/)'
   description: Anna lives in Utah with her husband, two young girls, and a very spoiled shihtzu named Sherlock. After a long career in analytics, she made the leap to product - a change which has been both the most challenging and most rewarding stage of her career. Anna is passionate about data driven product development, improving equity and access in the tech industry, and experimenting with processes and systems that help facilitate effective collaboration.  She most recently comes from Pluralsight where she worked as a PM in the Platfrom Team building communications capabilities in and outside of the app. Outside of work she enjoys traveling with her family, working in her garden, and maxing out her library card.
+
+kalan_chan:
+  name: Kalan Chan
+  pronouns: he/him
+  location: Burnaby, BC, Canada 🇨🇦
+  role: Software Engineer - Cloud DevOps
+  reports_to: engineering_manager_devops
+  email: kalan.chan@sourcegraph.com
+  github: kalanchan
+  links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
+  description: Kalan lives in Burnaby, also known as Vancouver to everyone outside of Metro Vancouver. He graduated from the University of Alberta with an Electrical Engineering degree, but soon after started self learning Software Development when he saw the light. On his spare time when he's not pushing pixels, Kalan enjoys biking, bouldering, reading and plane spotting.

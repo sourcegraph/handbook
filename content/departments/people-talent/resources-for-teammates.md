@@ -39,9 +39,7 @@
   - [Skip level]
   - [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
-  ## Benefits, Perks and Pay
-
-  [General overview](../../benefits-pay-perks/benefits-perks/index.md)
+  ## Benefits, Perks and Pay(../../benefits-pay-perks/benefits-perks/index.md)
 
   ### Pay & Expenses
 
@@ -50,7 +48,7 @@
   - [Equity](../../benefits-pay-perks/pay-expenses/compensation/index.md#sts=Equity)
 - [Submitting expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
-  ### Perks
+  ### Perks(../../benefits-pay-perks/benefits-perks/)
 
 - [Paid Time Off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
 - [Travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
@@ -84,5 +82,5 @@
 - [The interview process](talent/process/interview_process.md)
 - [Types of interviews](talent/process/types_of_interviews.md)
 - [Interview training & best practices](talent/tools/interview_training.md)
-- [Recruitment branding](talent/process/recruitment-branding.md)
+- [Recruitment branding](talent/process/recruitment_branding.md)
 - [Recruiting tools](talent/tools/index.md)

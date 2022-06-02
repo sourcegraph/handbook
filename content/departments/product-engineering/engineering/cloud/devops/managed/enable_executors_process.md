@@ -1,5 +1,7 @@
 # Enabling executors
 
+**For MI 1.1, see the new process [here](v1.1/mi1-1_enable_executors_process.md).**
+
 Enabling executor on a managed instances is initiated by "?". There are a few logical steps to follow.
 
 1. Update the managed instances terraform to include executor modules
