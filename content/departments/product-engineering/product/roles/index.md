@@ -12,7 +12,7 @@ Product Managers work with engineering, sales, marketing, and design to plan, sh
 
 ### Responsibilities
 
-You will **own an area of the product**\* and:
+You will **own an area of the product** and:
 
 - Significantly grow usage and engagement of that area and Sourcegraph as a whole.
 - Collaborate with, support, and motivate their team to plan and build the solutions to customer problems.

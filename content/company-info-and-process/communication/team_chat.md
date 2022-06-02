@@ -15,6 +15,7 @@ _All teammates should join these channels and check them regularly_
 - #progress - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
 - #thanks - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
 - #handbook-announce - Announcements of important changes to the Handbook.
+- #feedback-dogfood - Internal product feeedback! ([learn more](../../departments/product-engineering/team-culture/feedback-dogfood.md))
 
 If you'd like to add a channel to the company-wide list, please reach out to the Tech Ops team in #it-tech-ops.
 
@@ -179,7 +180,7 @@ All Product teammates should join the following channels (feel free to adjust yo
 All teammates in Operations should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
 - #business-ops - Strategy, operations, and project management support
-- #people-ops - Onboarding, team satisfaction, reviews, and much more
+- #ask-people-team - Onboarding, team satisfaction, reviews, and much more
 - #hiring - Candidate hiring
 - #it-tech-ops - IT, software, and access questions
 - #finance - Dollars and cents

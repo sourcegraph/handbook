@@ -10,11 +10,11 @@ The org chart is generated automatically from data files in the handbook reposit
 
 {{generator:reporting_structure.vp_product}}
 
-## [Customer Support](../departments/support/index.md#the-team)
+## [Customer Support](../departments/ce-support/support/index.md#the-team)
 
 {{generator:reporting_structure.director_customer_support}}
 
-## [Customer Engineering](../departments/ce/index.md#current-team-members)
+## [Customer Engineering](../departments/ce-support/ce/index.md#current-team-members)
 
 {{generator:reporting_structure.vp_customer_engineering}}
 
@@ -22,7 +22,7 @@ The org chart is generated automatically from data files in the handbook reposit
 
 {{generator:reporting_structure.vp_marketing}}
 
-## [People Ops](../departments/people-ops/index.md#people-ops-team-members)
+## [People Ops](../departments/people-talent/people-ops/index.md#people-ops-team-members)
 
 {{generator:reporting_structure.vp_people}}
 

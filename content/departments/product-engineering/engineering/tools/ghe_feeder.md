@@ -1,6 +1,6 @@
 # GHE feeder tool
 
-[GHE Feeder](https://github.com/sourcegraph/sourcegraph/tree/master/internal/cmd/ghe-feeder)
+[GHE Feeder](https://github.com/sourcegraph/sourcegraph/tree/main/internal/cmd/ghe-feeder)
 
 Feeds repositories into a destination GHE instance. Input are files with owner/repo strings on each line and/or
 directories containing such files (see below for details about the expected input).

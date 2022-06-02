@@ -5,7 +5,7 @@
 - [Business continuity and disaster recovery plan](https://docs.google.com/document/d/1bFvsrEXeBGbupxihq8wANav-6SKLS7sT)
 - [Code of conduct](../communication/code_of_conduct.md)
 - [Cryptography policy](../../departments/product-engineering/engineering/cloud/security/cryptography-policy.md)
-- [Data management policy](https://docs.google.com/document/d/1EteK_ftNhF8B_2G8BdSrW7xlehba_6yq)
+- [Data management policy](../policies/data-management-policy.md)
 - [Device requirements](../../departments/tech-ops/tools/computer-setup.md)
 - [Security incident response policy](../../departments/product-engineering/engineering/cloud/security/security-incident-response.md)
 - [Information security policy](../policies/information-security-policy.md)

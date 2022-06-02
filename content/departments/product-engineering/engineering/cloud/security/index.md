@@ -17,10 +17,6 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 - @sourcegraph/security on GitHub.
 - [report a vulnerability](reporting-vulnerabilities.md)
 
-## Goals and priorities
-
-See [security goals and priorities](../../../../../strategy-goals/strategy/cloud/security/index.md)
-
 ## Interviews
 
 - [Application security walkthrough](./appsec-walkthrough.md)
@@ -209,7 +205,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>Cloud Saas
+   <td>IAM and Admin Experience
    </td>
    <td>Feroz
    </td>
@@ -220,7 +216,6 @@ In an effort to work closely with our teammates and shift security focus more in
 
 ## How we work
 
-- [Read about our methodology and process.](process.md)
 - [Security Support Rotation](security-support-rotation.md)
 
 ## Slack acknowledgement

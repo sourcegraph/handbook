@@ -43,6 +43,8 @@ If you submit a request via #legal or #finance slack channels, no need to duplic
 
 ### NDAs
 
+Send [Sourcegraph's form NDA](#ndas-for-customers-vendors-partners) whenever possible.
+
 1. Nature of business opportunity (prospective customer, vendor, partner)
 1. Approximate contract value
 
@@ -85,18 +87,7 @@ SLAs—Turnaround for Legal review:
 
 ### Vendor contracts
 
-1. Purpose of the contract (1–2 sentences)
-1. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
-1. Approximate contract value
-1. Budget: Confirm whether the contract is included in the budget. Attach budget file referencing where the spend is listed.
-1. Any other relevant context
-1. Cc the VP Budget Owner
-
-SLAs—Turnaround time for legal review:
-
-- Sourcegraph Form: 5 business days
-- Vendor Form: 7 business days
-- EOQ: expect delays during the last two weeks of each sales quarter
+Please see our [Vendor Request Process](../../tech-ops/process/vendor-request.md) page for more details on how to raise a vendor request.
 
 ### Partner contracts
 
@@ -155,19 +146,22 @@ Check the [NDAs](https://drive.google.com/drive/folders/1kwsephGh0quiOIgvLBE_XU3
 
   - Review: None
   - Approve: None
-  - Sign: Director of Legal or VP Finance/Operations
+  - Sign: Financial Controller (Back-Up Signers: Director of Legal and VP Operations)
+  - Stamp: Deal Desk
 
 - Sourcegraph Form - Non-standard Terms (redlined)
 
   - Review: (a) Deal Desk who may escalate to Legal, Finance and Customer Engineer for review as required.
   - Approve: (a) Deal Desk who may escalate to Legal and Finance for approval as required.
-  - Sign: Director of Legal or VP Finance/Operations
+  - Sign: Financial Controller (Back-Up Signers: Director of Legal and VP Operations)
+  - Stamp: Deal Desk
 
 - Customer Form
 
   - Review: (a) Legal (b) Deal Desk and (c) Customer Engineer (CE) for security addenda or questionnaires
   - Approve: (a) Legal (b) Deal Desk and (c) Finance for any non-standard terms
-  - Sign: Director of Legal or VP Finance/Operations
+  - Sign: Financial Controller (Back-Up Signers: Director of Legal and VP Operations)
+  - Stamp: Deal Desk
 
 Templates:
 

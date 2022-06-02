@@ -24,7 +24,7 @@ This is designed to ensure that an initial response is produced within 20 minute
 
 ### Support Responses
 
-The Delivery team aims to facilitate and uphold the [SLAs maintained by the Customer Support team](../../../../support/index.md#slas). The Delivery team will triage and provide an initial response within 24 hours of receiving a support request or request for help.
+The Delivery team aims to facilitate and uphold the [SLAs maintained by the Customer Support team](../../../../ce-support/support/index.md#slas). The Delivery team will triage and provide an initial response within 24 hours of receiving a support request or request for help.
 
 ## Roles
 

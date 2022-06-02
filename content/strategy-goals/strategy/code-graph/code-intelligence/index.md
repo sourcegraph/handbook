@@ -15,7 +15,7 @@ Quicklinks:
 
 ### Mission
 
-We generate and process rich metadata that powers compiler-accurate code navigation features such as jumping to a symbol's definition and finding where it's referenced across repositories. We help make developers’ lives easier by reducing the time needed to navigate and understand codebases. In the future, we also aim to leverage our metadata to power precise searches, code insights, and batch changes.
+We generate and process rich metadata that powers compiler-accurate code navigation features such as jumping to a symbol's definition and finding where it's referenced across repositories. We help make developers’ lives easier by reducing the time needed to navigate and understand codebases. In the future, we also aim to leverage our metadata to power precise searches, Code Insights, and Batch Changes.
 
 ### Vision
 
@@ -36,27 +36,26 @@ At the moment maturity varies depending on the area of ownership:
 
 - **Language indexers:** Maturity varies widely per language. See [LSIF indexers documentation](https://docs.sourcegraph.com/code_intelligence/references/indexers).
 
-- **Code intelligence platform:** We're currently focusing on delivering an out-of-the-box precise code intelligence solution to a small number of eager customers. This will allow customers to easily set up precise code intelligence for Go, Java, Scala, Kotlin, and soon TS repositories. This feature will also enable automatic indexing of a repository's dependencies, which means users will now be able to navigate and find references across repositories and dependencies alike.
+- **Code intelligence platform:** We're currently focusing on delivering an out-of-the-box precise code intelligence solution to a small number of eager customers. This allows customers to easily set up precise code intelligence for Go, Java, Scala, Kotlin and TypeScript repositories. This also enables automatic indexing of a repository's dependencies, which means users are now be able to navigate and find references across repositories and dependencies alike.
 
 - **Code navigation:** Baseline features are implemented but have a considerable amount of debt and room for improvement. We're currently focusing on researching and implementing features that will make the overall navigation experience faster and more intuitive.
 
 In the last few months we’ve:
 
-- Added precise support for the JVM ecosystem (Java, Scala and Kotlin).
+- Added precise support for Python and revamped our TypeScript support.
+- Improved our search-based navigation experience by implementing efforts like [Rockskip](https://docs.sourcegraph.com/code_intelligence/explanations/rockskip) and [Squirrel] (https://docs.google.com/document/d/10YHHydQXmPODzeDDSAm_audheahdc8NjCqQPBV_wcN0)
 - Shipped the [executors service](https://docs.sourcegraph.com/admin/executors) that powers [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) at on-prem customers that use GCP or AWS.
 
 Recent key learnings:
 
-- We learned that LSIF manual setup is non-trivial and requires various levels of team involvement at enterprise customers. There’s an appetite for a out-of-the-box precise code navigation solution.
-- Investing in platform performance and scalability is critical for the Global code graph vision to become a reality. Cloud is already at 2TB of data at ~40k indices. The global code graph for Java alone is somewhere between 800k to 6 million indices, so anywhere from 40TB to 300TB would be needed for the JVM code graph alone.
-- Establishing a pricing strategy for the executors service proved to be non-trivial for all of our offerings.
+- In alignment to the company's pivot towards managed instances, establishing a pricing strategy for the executors service will be key part of moving Auto-indexing into Beta.
 
 ### Top customer, support, sales and marketing issues
 
 Top feedback patterns we're hearing from customers and prospects across the board (also captured in our internal [Product Gaps dashboard](https://sourcegraph2020.lightning.force.com/lightning/r/Report/00O3t000006WZklEAG/view?reportFilters=%5B%7B%22operator%22%3A%22equals%22%2C%22value%22%3A%22Intelligence%22%2C%22column%22%3A%22Product_Gap_Submission__c.Product_Category__c%22%7D%5D)):
 
 - Requests for adding precise support for more languages (often including the addition of cross-repository and cross-dependency navigation features).
-- Current manual setup is not straightforward, customers run into issues while setting up LSIF for their repositories. This varies per indexer maturity and language ecosystem complexity.
+- Current manual setup is not straightforward, customers run into issues while setting up precise code intelligence for their repositories. This varies per indexer maturity and language ecosystem complexity.
 - There have been reports about performance and scaling issues when indexing large monorepos.
 - Requests for the ability to visualize the code graph and its dependencies.
 
@@ -87,31 +86,34 @@ We believe this is emerging as an additional killer feature. Most developers thi
 
 The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on). Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
+- Make Sourcegraph a must-have for code security teams by [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections.
 - Accelerating [Developer onboarding](../../use-cases/dev-onboarding.md) by enabling the ability to search over the full transitive dependency graph.
 - Monitor [Code Health](../../use-cases/code-health.md) by creating Code Insights that track deprecated dependency usages and version drift.
-- [Fixing security vulnerabilities](../../use-cases/fixing-security-vulnerabilities.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections.
-
 - Encourage [Code Reuse](../../use-cases/code-reuse.md) by making precise navigation the obvious way to find references to relevant usage examples.
 
 These are all currently in early stages of development and discussion. Read more about how we're thinking about the dependency graph in [RFC 593: Unlocking use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#heading=h.trqab8y0kufp).
 
 **Ship precise language support**
 
-We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). We're currently focusing on shipping a revamped version of our JS/TS indexer and building a Python indexer.
+We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). Increasing precise support contributes to push forward any security features we choose to implement as it makes compiler-accurate metadata available for all our product verticals. We're currently working on adding precise cross-repository Python support and PyPi package support.
 
 **Auto-indexing on-prem goes into Beta:**
 
 Strategically we're favoring accuracy over availability and actively recommend customers to set up precise code intelligence. This comes at a cost, as the current precise set up experience can be cumbersome and isn't scalable for customers with a large amount of repositories given it requires manual set up for each individual repository we want to enable precise code intelligence for.
 
-Enabling auto-indexing would mean a lower barrier for entry, a seamless experience and more engineers using precise code intelligence. Setting up [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) is also a requirement for Sourcegraph to be able to index dependency packages.
+Enabling auto-indexing means a lower barrier for entry, improving the admin experience and more engineers using precise code intelligence. Setting up [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) is also a requirement for Sourcegraph to be able to index dependency packages.
 
-Building the code graph also means we need to generate and store increased amounts of LSIF data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
+Building the code graph also means we need to generate and store increased amounts of data that will require scaling our infrastructure in an order of one to two magnitudes. We hypothesize that we'll reach scaling concerns, we want to be proactive in identifying and removing bottlenecks.
 
-Once we have validated our Experimental solution and have proven it’s running successfully at three customers, the next step is monitoring and weeding out any issues that might arise from our first trials to move on-prem auto-indexing into Beta. At this point we’ll be aiming to roll it out to a larger number of customers.
+Our next step is helping customers set up, monitor and weed out any issues that might arise from our first trials to move auto-indexing into Beta. At this point we’ll be aiming to roll it out to a larger number of customers.
 
 **Make code navigation feel fast and reliable**
 
-We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements (see [RFC 542](https://docs.google.com/document/d/1sDDpZaWdGtIaiNLNB8QsLwHTvH10fhEKpEa4qcog5vg/edit) for example). From a design perspective, we have plans to conduct research that helps us understand adoption drivers and pain points, with the aim of identifying concrete improvements to increase discoverability and enhance the navigation experience.
+We receive a significant amount of feedback around papercuts and potential improvements to our navigation experience. We are commited to making our navigation feel fast and reliable to users. Our current focus is in solving low hanging navigation issues while also adding quality of life improvements with the aim of increasing code navigation usage.
+
+**Code intelligence platform API**
+
+Several recent efforts have shown an increasing need to unify the [code intelligence data platform](https://docs.google.com/document/d/1AjZ_d0nJVHbV75IH3jZRkrGXhsv_AXp2kS4nrw2SAQ8). These efforts show an immediate need to be able to correlate and aggregate data from different sources within an API boundary (instead of re-implemented on several clients). This will set precedent for where code goes in relation to code intelligence domains and will establish clear ownership boundaries for other product teams to build on top of. We see this engineering milestone as a large enabler for every product vertical, thus indirectly impacting usage in the mid term.
 
 ### How do these all tie together?
 
@@ -123,18 +125,15 @@ Additionally, providing the precise code intelligence data layer sets the founda
 
 - **Adding precise C# and Ruby language support:** Based on our team's bandwidth and skill set, we are not planning to work on these languages this quarter. However, to support our [Grow ARR and Iterate with existing customers first](../../index.md#this-year-fy23) goals, we are working towards prioritizing these languages later this year based on current customer language share and associated ARR.
 
-- **Add support for a wider set of package hosts:** We currently support Maven packages and are finalizing work to support npm packages. In the near future we want to expand our support to cover PyPi, NuGet and RubyGems. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
+- **Scale the C++ code graph:** Given the fragmented nature of the C/C++ environment we've held off in investing in improving C/C++ language support or scaling in the last year. However, we're currently looking into implementation strategies that will help us uncover the level of effort it would require the team to improve our current support.
+
+- **Add support for a wider set of package hosts:** We currently support Maven and NPM packages (and are working towards adding PyPi). In the near future we want to expand our support to cover NuGet and RubyGems. See [Unlock dependency navigation theme](#themes) for strategic reasoning.
 
 - **Auto-indexing on prem goes GA:** Once we've validated adoption in Beta phase focus on identifying feedback patterns and solving issues to make the auto-indexing generally available to all customers.
 
 ### What we're not working on & why
 
-- **Incremental indexing for large monorepos:** When we ship auto-indexing for enterprise instances, we will likely need to solve incremental indexing to support our customers’ monorepos. This feature has been on our mid-term roadmap for quite some time now, but pain points have been worked through using workarounds like spacing LSIF upload frequencies depending on the customer’s repo size and commit frequency. At this point, incremental indexing could become a clear blocker and would be bumped up on our priority list.
-
-- **Scale the C++ code graph:** Given the fragmented nature of the C/C++ environment we won’t be investing in improving C/C++ language support or scaling. We do however intend to revisit our solution in the future.
-
-- **Auto-indexing available for Cloud customers**
-  Auto-indexing is set up on Sourcegraph Cloud but is not available as a feature for Cloud customers yet. Although this is something we'd like to support in the future, it makes sense for the team to focus on our on prem customers first to support our [Grow ARR and Iterate with existing customers](../../index.md#this-year-fy23) business goals for this year.
+- **Incremental indexing for large monorepos:** This feature has been on our mid-term roadmap for quite some time now, pain points have been worked through workarounds like spacing LSIF upload frequencies depending on the customer’s repo size and commit frequency. We're currently doing the foundational work required to unlock this feature.
 
 ## Related use cases
 

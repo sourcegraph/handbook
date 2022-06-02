@@ -52,12 +52,21 @@ Sourcegraph has a top-level [strategy page](../../../strategy-goals/strategy/ind
     - [OKR Github tracker](https://github.com/sourcegraph/product-engineering-tracker/issues/65) is the source of truth for prod/eng OKRs and is updated weekly with progress. This is private because KRs frequently contain sensitive business metrics and customer names. Each KR has an associated GitHub issue following [this template](https://github.com/sourcegraph/product-engineering-tracker/issues/new?template=product-engineering-kr.md).
     - A [Prod/Eng dashboard slide](https://docs.google.com/presentation/d/1KUOElUkrH-29teXmZBmgmIgLngf-I_6Ikixub1SR0yM/edit#slide=id.g1122c1a30bf_10_0) in the Exec OKR Google Slide deck which is used to signal any critical updates on a weekly basis. An OKR progress review is done monthly
     - The [handbook OKR page](../../../strategy-goals/goals/index.md) is the sanitized public version of our OKRs. It captures a distilled version of our department OKRs and does not include status updates
+- **Grading:** At the end of the quarter we grade both KRs and Objectives.
+  - We grade KRs based on how they are worded at the end of the quarter. If our understanding of what success looks like changes throughout the quarter, then we need to update KR definitions before the end of the quarter.
+  - After we grade the KRs individually, we review whether we subjectively achieved the objectives or not.
+  - Rubric
+    | Status | Description |
+    | ------------- | -------------------------------------------- |
+    | 🟢 | We achieved success (90-100% completion for non-binary outcomes) |
+    | ⚠️ | We achieved partial success (75–89% completion for non-binary outcomes) |
+    | 🛑 | We did not achieve success (<75% completion for non-binary outcomes) |
 
 Our philosophy on goal setting as well as a view into our history of goals is [published in our handbook](../../../strategy-goals/goals/index.md).
 
 ### Roadmap
 
-- **Purpose:** The purpose of our roadmap is to communicate to our team and our customers the story of what we plan to deliver to acheive our our annual vision and quarterly OKRs. Expectations around roadmap items depend on how far in the future we expect them to happen. Our goal is to have high confidence and fidelity in our roadmap for the next 3 months on a rolling basis, and for it to contain our best approximation for the biggest milestones we want to hit over the next 12 months on a rolling basis. The roadmap should always reflect the realistic expectations of the team:
+- **Purpose:** The purpose of our roadmap is to communicate to our team and our customers the story of what we plan to deliver to achieve our our annual vision and quarterly OKRs. Expectations around roadmap items depend on how far in the future we expect them to happen. Our goal is to have high confidence and fidelity in our roadmap for the next 3 months on a rolling basis, and for it to contain our best approximation for the biggest milestones we want to hit over the next 12 months on a rolling basis. The roadmap should always reflect the realistic expectations of the team:
   - Don't invent roadmap items that the team has low confidence in just to fill space on the roadmap (at the same time it is important for teams to challenge themselves to think about what they want to aim to accomplish over a time horizon longer than one quarter).
   - Don't provide false precision on dates (if you can only place items into a quarter or month, that is fine)
   - Don't include stretch roadmap items (just adjust the timeline out so you don't feel the need to label something as "stretch")
@@ -73,7 +82,7 @@ Our philosophy on goal setting as well as a view into our history of goals is [p
 
 ## Cadence
 
-Planning is made up of activities that happen on quarterly, mothly, & weekly basis.
+Planning is made up of activities that happen on quarterly, monthly, & weekly basis.
 
 ### Quarterly planning
 
@@ -205,16 +214,14 @@ Updates and highlights of what has changed are shared in #prod-eng-announce Slac
 
 ### Weekly OKR updates
 
-- The DRI (directly responsible individaul) for each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. To post an update, create a new comment with the following details:
-  - The status of how we are tracking toward the goal (for numeric goals, include the current number we are at).
-    | Status | Description |
-    | ------------- | -------------------------------------------- |
-    | 🟢 On track | 90–100% confidence we will achieve the goal. |
-    | ⚠️ At risk | 75–89% confidence we will achieve the goal. |
-    | 🛑 Off track | <75% confidence we will achieve the goal. |
-    | 🚀 Done | We have achieved the goal! |
-    | ☠️ Cancelled | We are no longer pursuing this goal. |
-  - Description of concrete progress that has been made since the last weekly update.
-  - Clear next steps and owners.
-  - Any other helpful information (ex: risks, requests for help).
-- VP Product and VP Eng review and ask questions async and then anything that needs discussion is added to [VP team sync agenda](../team/index.md#vp-team-sync).
+The DRI (directly responsible individual) for each OKR is responsible for posting an update to the associated tracking issue by 19:00 UTC each Friday. To post an update, create a new comment with the following details:
+
+- Forecasted grade for the KR at the end of the quarter: 🟢, ⚠️, 🛑.
+- Short description of why the forecast is what it is. Here are some example questions to consider (not every question here is relevant to every update):
+  - What gives us confidence we're on track?
+  - What recent progress have we made?
+  - For numeric goals, what is the current state of the metric and the trend line?
+  - What has slowed us down?
+  - What are the risks looking ahead?
+  - What are next steps (and who is owning those steps)?
+  - What can be done to get this KR back on track?

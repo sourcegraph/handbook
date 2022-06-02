@@ -43,15 +43,15 @@ See [roles](roles/index.md) page.
 
 ## How sales works with other Sourcegraph teams
 
-### [Customer engineering](../support/index.md)
+### [Customer engineering](../ce-support/support/index.md)
 
-- [How CE supports sales](../ce/team-culture#sales)
-- [Creating and maintaining license keys for customers](../ce/process/license_keys.md)
+- [How CE supports sales](../ce-support/ce/team-culture#sales)
+- [Creating and maintaining license keys for customers](../ce-support/ce/process/license_keys.md)
 
-### [Customer Support](../support/index.md)
+### [Customer Support](../ce-support/support/index.md)
 
-- [How to request support (for customers)](../support/index.md#how-to-get-support-for-customers)
-- [Support SLAs](../support/index.md#slas)
+- [How to request support (for customers)](../ce-support/support/index.md#how-to-get-support-for-customers)
+- [Support SLAs](../ce-support/support/index.md#slas)
 
 ### [Team members who want to join calls](onboarding/joining_customer_calls.md)
 
@@ -134,7 +134,7 @@ If the Manager accepts trade/Account will be transferred to AE. AE’s SDR will 
 
 See also the [MQL (marketing-qualified lead) definition](../marketing/index.md#mql).
 
-See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsheets/d/1z4LPeKmqCiIi92EchKBZMR8kVIGeTnOwhukYZCX2A0M/)
+See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsheets/d/1nhxUAkooEx1JZV4ZAwyN0Ck9BrK-VUzObNp_IRAf_OE/edit#gid=0)
 
 ### Maintaining customer spreadsheets
 

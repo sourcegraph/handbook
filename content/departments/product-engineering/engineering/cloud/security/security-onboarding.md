@@ -8,11 +8,10 @@ Below you'll find some steps to get your local development enviroment setup, com
 
 ## Useful Slack Channels
 
-Sourcegraph as a whole uses Slack heavily for daily communication. Here are some recommended channels to join to make sure you're kept in the loop.
+Sourcegraph as a whole uses Slack heavily for daily communication - our team also uses a [journal](https://docs.google.com/document/d/1cUI_M5KO7ksl8V3CAUBj0O1IUL7wZQSmjPlZTIe-sg4/edit) to document work progress each week. Here are some recommended channels to join to make sure you're kept in the loop.
 
 - **#security** - This is our public channel where other teams can contact us with questions / support requests.
 - **#security-internal** - This is our teams "private" channel (all channels are visible to all) where our team can collaborate with each other asynchronously, share interesting news, ocassional memes, or to just say hello 😄
-- **#security-team-sync** - Each day an app within Slack called Geekbot asks each teammate for an update on the previous day. This is where the updates are posted.
 - **#security-monitoring** - This is where our automated monitoring alerts are posted.
 - **#incidents** - This is where product incidents are posted. A useful channel if you get engaged for an incident and need context.
 

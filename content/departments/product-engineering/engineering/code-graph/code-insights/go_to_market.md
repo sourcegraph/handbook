@@ -31,6 +31,8 @@ You can use these as a starting point for Code Insights presentations.
 
 ### Pricing
 
+#### [Free tier of Code Insights](https://docs.sourcegraph.com/code_insights/references/license#limited-access)
+
 #### [Primary pricing document for AEs](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#) _internal_
 
 The go-to place when you need to price Code Insights for a proposal: includes how to price, common FAQs, and a running list of closed sales.
@@ -38,6 +40,10 @@ The go-to place when you need to price Code Insights for a proposal: includes ho
 #### [Full pricing logic](https://docs.google.com/document/d/1uItRIIzujoCCaZkDg73ZV8lguhux-D75zjqVr6zTnRI/edit#bookmark=id.i02vq75zxjxu) _internal_
 
 The full deep dive into the justifications behind the pricing.
+
+### [Code Insights closed sales trends and analysis](https://docs.google.com/presentation/d/1xEMucmt6E3hXl-k1bRp5nsfFyEVI1zqkFlVj-Fn4Jt8/edit#slide=id.g12fb793a505_0_36)
+
+Analysis of closed sales through FY23Q1.
 
 ### How to demo Code Insights on public prospect repos
 

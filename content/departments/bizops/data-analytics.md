@@ -102,7 +102,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Product/Engineering
    </td>
-   <td>Christina Forney, Nick Fischer, Anna Mikhova, Serina Clark, Jason Yavorska, Bill Creager, Yink Tao, Jean Du Plessis
+   <td>Christina Forney, Nick Fischer, Anna Mikhova, Serina Clark, Bill Creager, Yink Tao, Jean Du Plessis
    </td>
    <td>Eric Brody-Moore, Brady Garrett
    </td>
@@ -126,7 +126,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Marketing
    </td>
-   <td>Kacie, Jenkins, Erica Lindberg, Nick Gage, Andy Schumeister
+   <td>Nick Gage, Andy Schumeister
    </td>
    <td>TBH
    </td>
@@ -134,7 +134,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Customer Support
    </td>
-   <td>Virginia Ulrich
+   <td>
    </td>
    <td>Kelsey Brown
    </td>

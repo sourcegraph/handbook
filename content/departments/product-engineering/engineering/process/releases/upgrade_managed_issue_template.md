@@ -42,4 +42,7 @@ Make sure to upgrade internal instances before customer instances.
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/581
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/537
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/820
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/814
 - [ ] Upgrade second instance for https://github.com/sourcegraph/customer/issues/820
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/774
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/956

@@ -4,22 +4,6 @@ I (Quinn Slack) am the CEO of Sourcegraph. This page describes my responsibiliti
 
 My personal site is [slack.org](https://slack.org).
 
-## What I'm thinking about
-
-### Spread code search
-
-We want to grow the number of people who use Sourcegraph. This is a leading indicator of progress toward our mission to make it so everyone can code.
-
-### Grow revenue
-
-Revenue, like user adoption, is a leading indicator of progress toward our mission. Revenue earned from a customer is evidence that we're solving a big problem, and it helps us hire more great people so we can solve similar problems for more customers.
-
-> Revenue is a lagging indicator. Something you do today might not yield a dollar of revenue for many months. We could set a top company goal around pipeline, which is a model of future revenue sources that would theoretically give us faster feedback. But we want our top company goals to be well-defined indicators of success, so pipeline (as a model/abstraction that depends on various assumptions) isn't appropriate. Our sales team still does track pipeline, and we'll experiment with using it to recognize other teams' impact (such as an engineer shipping a feature that helps several prospects have successful Sourcegraph roll-outs).
-
-### Accomplish the preceding 2 goals without breaking the company
-
-The previous 2 goals entail fast growth, which is risky for any company to undergo. We don't want to achieve them, or try to achieve them, by doing things that would break the company. We will settle for slower growth if that is needed to preserve our values.
-
 ## Responsibilities
 
 See [Roles of the CEO](roles.md).
@@ -30,7 +14,7 @@ See [Roles of the CEO](roles.md).
 
 If possible, let's talk [asynchronously and publicly](../../company-info-and-process/communication/index.md).
 
-My preferred working hours are 08:00–17:30 US Pacific Time.
+My most common working hours are 07:30–17:30 US Pacific Time, but I am regularly available at times that overlap more with other timezones.
 
 ### Asking for a review from me
 
@@ -82,4 +66,4 @@ I am happy to share internal financial metrics about the health of our business 
 1. What is the company's current revenue growth rate? What are the future plans for growth?
 1. What are the company's exit plans? We intend to remain an independent company and IPO because we are the leader in a big market.
 
-See "[Sharing company financials](../../departments/talent/process/index.md#sharing-company-financials)" for more.
+See "[Sharing company financials](../../departments/people-talent/talent/process/index.md#sharing-company-financials)" for more.

@@ -6,5 +6,6 @@
 - [Messaging](messaging.md)
 - [OSS Community pages](oss_community_pages.md)
 - [Personas](personas.md)
+- [Platform positioning](positioning.md)
 - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
 - [Value drivers](value-drivers.md)

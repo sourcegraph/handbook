@@ -6,36 +6,40 @@ Managed instances configuration is tracked in [`deploy-sourcegraph-managed-insta
 For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
 To create a managed instance, see [managed instances creation process](creation_process.md).
 
-- [General setup](#general-setup)
-- [Sourcegraph upgrade](#sourcegraph-upgrade)
-  - [0) Sourcegraph upgrade setup](#0-sourcegraph-upgrade-setup)
-  - [1) Add a banner indicating upgrade is in progress](#1-add-a-banner-indicating-upgrade-is-in-progress)
-  - [2) Mark the database as ready-only](#2-mark-the-database-as-ready-only)
-  - [3) Create a snapshot of the current deployment](#3-create-a-snapshot-of-the-current-deployment)
-  - [4) Initialize the new production deployment](#4-initialize-the-new-production-deployment)
-  - [5) Make the database on the new deployment writable](#5-make-the-database-on-the-new-deployment-writable)
-  - [6) Upgrade the new deployment](#6-upgrade-the-new-deployment)
-  - [7) Recreate the deployment](#7-recreate-the-deployment)
-  - [8) Confirm instance health](#8-confirm-instance-health)
-  - [9) Switch the load balancer target](#9-switch-the-load-balancer-target)
-  - [10) Take down the old deployment](#10-take-down-the-old-deployment)
-  - [11) Remove the banner indicating maintenance is in progress](#11-remove-the-banner-indicating-maintenance-is-in-progress)
-  - [13) Open a pull request to commit your changes](#13-open-a-pull-request-to-commit-your-changes)
-- [Machine upgrade](#machine-upgrade)
-  - [0) Machine upgrade setup](#0-machine-upgrade-setup)
-  - [1) Prepare for maintainence](#1-prepare-for-maintainence)
-  - [2) Prepare resource changes in Terraform](#2-prepare-resource-changes-in-terraform)
-  - [3) Spin up an upgraded machine](#3-spin-up-an-upgraded-machine)
-  - [4) Prepare the new machine](#4-prepare-the-new-machine)
-    - [4.a) Resize the disk](#4a-resize-the-disk)
-  - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade)
-- [In-place updates](#in-place-updates)
-  - [0) Upgrade setup](#0-upgrade-setup)
-  - [1) Create a snapshot](#1-create-a-snapshot)
-  - [2) Prepare upgraded docker-compose](#2-prepare-upgraded-docker-compose)
-  - [3) Apply changes to instance](#3-apply-changes-to-instance)
-  - [4) Upgrade running deployment](#4-upgrade-running-deployment)
-  - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade)
+**For MI 1.1, see the new process [here](v1.1/mi1-1_upgrade_process.md).**
+
+- [Upgrading a managed instance](#upgrading-a-managed-instance)
+  - [General setup](#general-setup)
+  - [Sourcegraph upgrade](#sourcegraph-upgrade)
+    - [0) Sourcegraph upgrade setup](#0-sourcegraph-upgrade-setup)
+    - [1) Add a banner indicating upgrade is in progress](#1-add-a-banner-indicating-upgrade-is-in-progress)
+    - [2) Mark the database as ready-only](#2-mark-the-database-as-ready-only)
+    - [3) Create a snapshot of the current deployment](#3-create-a-snapshot-of-the-current-deployment)
+    - [4) Initialize the new production deployment](#4-initialize-the-new-production-deployment)
+    - [5) Make the database on the new deployment writable](#5-make-the-database-on-the-new-deployment-writable)
+    - [6a) Set correct GCP logging settings for deployments using the Terraform module](#6a-set-correct-gcp-logging-settings-for-deployments-using-the-terraform-module)
+    - [6b) Upgrade the new deployment](#6b-upgrade-the-new-deployment)
+    - [7) Recreate the deployment](#7-recreate-the-deployment)
+    - [8) Confirm instance health](#8-confirm-instance-health)
+    - [9) Switch the load balancer target](#9-switch-the-load-balancer-target)
+    - [10) Take down the old deployment](#10-take-down-the-old-deployment)
+    - [11) Remove the banner indicating maintenance is in progress](#11-remove-the-banner-indicating-maintenance-is-in-progress)
+    - [13) Open a pull request to commit your changes](#13-open-a-pull-request-to-commit-your-changes)
+  - [Machine upgrade](#machine-upgrade)
+    - [0) Machine upgrade setup](#0-machine-upgrade-setup)
+    - [1) Prepare for maintainence](#1-prepare-for-maintainence)
+    - [2) Prepare resource changes in Terraform](#2-prepare-resource-changes-in-terraform)
+    - [3) Spin up an upgraded machine](#3-spin-up-an-upgraded-machine)
+    - [4) Prepare the new machine](#4-prepare-the-new-machine)
+      - [4.a) Resize the disk](#4a-resize-the-disk)
+    - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade)
+  - [In-place updates](#in-place-updates)
+    - [0) Upgrade setup](#0-upgrade-setup)
+    - [1) Create a snapshot](#1-create-a-snapshot)
+    - [2) Prepare upgraded docker-compose](#2-prepare-upgraded-docker-compose)
+    - [3) Apply changes to instance](#3-apply-changes-to-instance)
+    - [4) Upgrade running deployment](#4-upgrade-running-deployment)
+    - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade-1)
 
 ## General setup
 
@@ -194,7 +198,24 @@ If you run into errors like:
 
 This might indicate that the instance is not fully set up yet—try again in a minute.
 
-### 6) Upgrade the new deployment
+### 6a) Set correct GCP logging settings for deployments using the Terraform module
+
+> NOTE: This step only applies to Managed Instances that have been created using the [Terraform module](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/modules/terraform-managed-instance). If this module is not called in `$CUSTOMER/infrastructure.tf`, go to step 6b.
+
+We have moved to centralised logging in GCP for our Managed Instances. This is enabled in the [startup scripts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance/black-startup-script.sh.tftpl#L74) of the deployments. To prevent the running deployment from being recreated due to changes in the startup script, a variable `disable_gcp_logging_on_running_deployment` needs to be set correctly on the module block in `$CUSTOMER/infrastructure.tf`.
+Out of the three described scenarios, determine which applies to the upgrade you are performing and apply the step.
+
+- **`disable_gcp_logging_on_running_deployment` is not yet defined in the module:** this means you are applying the first upgrade that will use GCP logging. Add the following line at the end of the module block:
+  `disable_gcp_logging_on_running_deployment = true`
+
+- **`disable_gcp_logging_on_running_deployment` is set to `true`:** this means the previous upgrade introduced the switch to GCP logging. To prevent the running deployment (which uses GCP logging) from being recreated due to the startup script disabling GCP logging, set the variable to `false`:
+  `disable_gcp_logging_on_running_deployment = false`
+
+- **`disable_gcp_logging_on_running_deployment` is set to `false`:** this means the transition to GCP logging has been completed and no further action is needed. Leave the variable as is to indicate the switch does not need to be performed again.
+
+> NOTE: Once the in-place upgrade process has been implemented, we can remove this logic from the startup script.
+
+### 6b) Upgrade the new deployment
 
 First check that thew new version requires no manual migration steps in [docker-compose upgrade guide](https://docs.sourcegraph.com/admin/updates/docker_compose)
 
@@ -264,11 +285,7 @@ You'll receive errors or no results for several minutes while the instance finis
 ../util/ssh-exec.sh "docker ps --format {{.Image}} | grep ${OLD_VERSION#v}"
 ```
 
-- Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
-
-```sh
-gcloud compute start-iap-tunnel default-$NEW_DEPLOYMENT-instance 3370 --local-host-port=localhost:4445 --zone us-central1-f --project $PROJECT_PREFIX-$CUSTOMER
-```
+Follow steps [here](./operations.md#confirm-instance-health)
 
 If you run into an error like:
 
@@ -277,18 +294,6 @@ ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: 'fai
 ```
 
 This might indicate that the instance is not fully set up yet—try again in a minute.
-
-- Ensure that all containers are healthy (in particular, look for anything that says Restarting):
-
-```sh
-../util/ssh-exec.sh "docker ps"
-```
-
-- Check frontend container logs and confirm there are no recent errors:
-
-```sh
-../util/ssh-exec.sh "docker logs sourcegraph-frontend-0"
-```
 
 ### 9) Switch the load balancer target
 

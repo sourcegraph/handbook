@@ -65,6 +65,9 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ### ARR
 
+[Topline Metrics Definitions](topline-definitions.md)
+[ARR Definitions](arr-definitions.md)
+
 Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
 
 ARR includes committed [bookings](#booking) with contract start dates that fall in the first 15 days of the following calendar month. This allows Sourcegraph sales team members to get credit for renewals and expansions that may fall in the (near) future. Exceptions to this require written approval from the VP of Operations and the VP of Sales. Please see [ARR timing examples](https://docs.google.com/document/d/1SdUzcW8UUUgSjawIdjPw2bDBJ-j0Fjo3Et0r6yOnikE/edit).
@@ -125,9 +128,9 @@ The FY23 plan was built at a departmental level. We have 9 departments:
 | -------------------- | ------------------------- |
 | R&D Engineering      | Nick Snyder               |
 | R&D Product          | Christina Forney          |
-| Marketing            | Kacie Jenkins             |
+| Marketing            |                           |
 | Sales                | Gregg Stone               |
-| Customer Support     | Virginia Ulrich           |
+| Customer Support     |                           |
 | Customer Engineering | Aimee Menne               |
 | Operations           | Dan Adler                 |
 | Talent & People-ops  | Carly Jones               |
@@ -189,7 +192,7 @@ Reach out to the [Finance team](#team) for an introduction if needed.
 
 ### Travel & Expenses
 
-- [Submitting reimbursable expenses](../../benefits-pay-perks/pay-expenses/expenses.md)
+- [Submitting reimbursable expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
 - [Spending Company Money](../../benefits-pay-perks/benefits-perks/spending-company-money.md)
 - [Travel Policy](../../benefits-pay-perks/benefits-perks/travel/index.md)
 
@@ -207,6 +210,5 @@ Deal Desk supports Sales on non-standard deal structures, offering collaborative
 
 - All requests should be submitted to the #deal-desk slack channel.
 - SLA: 1 business day.
-- Additional information: [Sales Resources](../../departments/sales/tools/salesresources.md)
-- Information for Customer Questionnaires: [Corporate Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
+- Additional information: [Deal Desk Site](deal-desk.md)
 - For questions, please email us at: dealdesk@sourcegraph.com

@@ -8,11 +8,10 @@ Quick links:
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [Go to market resources for Sales, CE, and Marketing](../../../../departments/product-engineering/engineering/code-graph/code-insights/go_to_market.md)
 - [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
-- [Adoption playbook for Sales and Customer Engineering](https://docs.google.com/presentation/d/16PGodWTZkyyxXUCGaY-wMtTSUKOGyRl-4HhNUG8Ubus/edit#slide=id.gfa6e15e548_0_0)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
-- [Product Marketing Brief](https://docs.google.com/document/d/1KH91cjc9Y0BnEKdcsgeSyBqRLEQ5jA7uMA1br5mmZG4/edit) (internal only)
 - [Documentation](https://docs.sourcegraph.com/code_insights)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Code+insights%22)
 
@@ -42,7 +41,7 @@ To deliver on our mission, we will:
 
 #### 1 Year vision
 
-> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search, and export/find/receive this information wherever they need.
+> Any Sourcegraph user can create code insights for their code to answer any question that can be known with a Sourcegraph search or API query, and export/filter/find/receive this information wherever they need.
 
 #### 3 Year vision
 
@@ -78,6 +77,7 @@ As Sourcegraph becomes an increasingly powerful developer tool, Code Insights wi
 **What this looks like:**
 
 - Code Insights will be extensible and integrate with other Sourcegraph features
+- Code Insights will develop and reuse permissions models used across Sourcegraph's features
 
 **What this does _not_ look like:**
 
@@ -112,7 +112,7 @@ For Code Insights to be valuable, it must be precise, exact, and performant. Whe
 
 ### Code Insights builds on top of Sourcegraph's other features
 
-Users do not need to learn a new query language or format to use Code Insights. Nor will Code Insights introduce features that function differently than those same features in other areas of the product, confusing users. Code Insights is built atop Sourcegraph Search and will build with Sourcegraph's other features rather than implement its own versions of any functionality.
+Users do not need to learn a new query language or format to use Code Insights. Nor will Code Insights introduce features that function differently than those same features in other areas of the product, confusing users. Code Insights is built atop Sourcegraph Search and will build with Sourcegraph's other features rather than duplicate functionality.
 
 **What this looks like:**
 
@@ -140,7 +140,7 @@ The primary value of Code Insights comes from the questions it can answer for it
 
 [Code Insights is generally available](https://about.sourcegraph.com/code-insights/) and a paid add-on feature. The pricing and packaging details are [internally available](https://docs.google.com/document/d/11Y5ZDIT_nCwkobGzVgseM7vgmk5Hkt-4UZHvivHwN7A/edit#heading=h.tivmnwrtt3gg).
 
-This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users.
+This means that the Code Insights team is focused on building a valuable product that a growing number of customers pay for. To reach that goal, Code Insights will continue building stability, features, and core product experiences based on the feedback we get from our users. Other things equal, Code Insights is primarily focused on expanding the number of jobs it can do for our customers, before improving on all of those with polish-type features.
 
 For what we have learned so far and how we are operationalizing those learnings, see [Strategy](#strategy-and-plans).
 
@@ -183,7 +183,7 @@ Our biggest pre-beta learning was that a nice GUI and quick flow to creating a u
 We will:
 
 - Continue abstracting complexity (example: views vs tables) until a user chooses to expose it
-- Build new setup features to make it easier to track a variety of other use cases, like we did with regex capture groups, based on new computation abilities
+- Build new setup features to make it easier to serve a variety of other jobs to be done, like we did with regex capture groups, based on new Sourcegraph computation abilities
 
 #### Tracking needs
 
@@ -192,7 +192,7 @@ A major use case for Code Insights is tracking migrations and similar efforts, w
 We will:
 
 - Explore additional chart visualizations that are helpful
-- Explore integrations with Search Contexts to limit repository sets
+- Explore integrations with Search Contexts to filter repository sets
 - Explore integrations with Code Monitoring
 - Explore early integrations with Batch Changes
 - Work to unify our permissions model across other Sourcegraph features in support of these explorations, and so it's easy to add tracking Insights to other features (like Notebooks)
@@ -228,9 +228,9 @@ We will explore:
 
 ### What we're not working on & why
 
-In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following:
+In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following unless new information surfaces:
 
-- Code Insights is GA on Cloud: due to the multi-tenant nature of cloud, there's additional backend work we'll do in FY23 or FY24 to make Insights GA on Cloud. Optimizations we plan to make in FY23 will help us quickly plan and support Code Insights on Cloud, but we won't have time for that until FY23H2 or later.
+- Code Insights on single docker container deployments: Code Insights lives primarily on the unindexed search path, which is substantially more resource intensive in this context. Currently, the experience is unacceptably bad, so we don't support it. The number of customers and leads that use a single docker container deployment is both shrinking and small enough that this is not a priority.
 - Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all Code Insights users first. (However, we are exploring early integrations.)
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
 

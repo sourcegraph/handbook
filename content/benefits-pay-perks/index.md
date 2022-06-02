@@ -10,7 +10,7 @@
   - [Submitting time off](benefits-perks/time-off/submitting-time-off.md)
   - [Working Hours](../company-info-and-process/working-at-sourcegraph/working-hours.md)
 - [Spending Company Money](benefits-perks/spending-company-money.md)
-- [Holidays](benefits-perks/holidays.md)
+- [Holidays](../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Team Gatherings and Celebrations](benefits-perks/celebrate.md)
 
 ## [Pay and Expenses](pay-expenses/index.md)
@@ -19,4 +19,4 @@
   - [Equity FAQ](pay-expenses/compensation/equity-faq.md)
   - [Compensation Change Approvals](pay-expenses/compensation/compensation-change-approvals.md)
 - [Invoices](pay-expenses/invoices.md)
-- [Expenses](pay-expenses/expenses.md)
+- [Expenses](pay-expenses/expenses/index.md)

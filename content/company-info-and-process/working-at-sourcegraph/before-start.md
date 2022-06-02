@@ -50,7 +50,7 @@ As of January 2022, benefit eligibility begins on your first day. Keep in mind t
 
 ### 💸 **Getting Paid**
 
-Sourcegraph is on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](../../departments/people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
+Sourcegraph is on a semi-monthly payroll cycle. Paychecks are the 15th and last day of every month (or the closest business day prior to those dates). You will receive an email from our payroll team, with a link to set up your payroll and benefits through [Rippling](../../departments/people-talent/people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?).
 
 Keep in mind that teammates starting on the day before any given payday will receive their first paycheck on the following payday.
 
@@ -62,4 +62,4 @@ If you will be on a contracting structure where you submit an invoice at the end
 
 ### 🗺 **Talent outside the US**
 
-You can read more about [how we engage talent outside the US here](../../departments/people-ops/process/how-we-engage-talent-outside-the-us/index.md).
+You can read more about [how we engage talent outside the US here](../../departments/people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md).

@@ -25,7 +25,7 @@ Initially, this IC5 profile will operate at the intersection of above areas / co
 
 ## Execution
 
-- Set technical direction for Cloud SaaS and other Cloud Org teams
+- Set technical direction for the Cloud organization
 - Drive evolution of Sourcegraph Cloud architecture to satisfy current and future business goals
 - Own the process of measuring and improving Sourcegraph Cloud operational maturity and availability
 - Adapt Sourcegraph-wide engineering processes to serve the needs of SaaS delivery model

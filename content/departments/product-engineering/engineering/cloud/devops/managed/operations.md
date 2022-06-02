@@ -7,6 +7,8 @@ Operations guides for [managed instances](./index.md).
 - To delete a managed instance, see [managed instances deletion process](delete_process.md).
 - To suspend a managed instance, see [managed instances suspense process](suspend_process.md).
 - To resume a managed instance, see [managed instances resume process](resume_process.md).
+- To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
+- To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
 * [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
@@ -37,7 +39,7 @@ The `NAME` value indicates the currently active instance (`red` or `black`). Dur
 
 ## Accessing the instance
 
-For CSE's, also refer to [Accessing Managed Instances](../../../../../support/process/support-managed-instances.md).
+For CSE's, also refer to [Accessing Managed Instances](../../../../../ce-support/support/process/support-managed-instances.md).
 
 ### SSH access
 
@@ -167,12 +169,82 @@ Running these commands will have no impact on a running deployment and can be sa
 
 ## Changing the instance
 
+<span class="badge badge-note">SOC2/CI-98</span>
+
 The state of managed instances infrastructure and deployment artifact are stored in the following repositories
 
 - [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure)
 - [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
+
+## Instance environments
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+We have two types of managed instances, internal and customers. The list of currently maintained instances can be found [here](../../../process/releases/upgrade_managed_issue_template.md).
+
+### Internal instances
+
+Internal instances are created for various testing purposes:
+
+- testing changes prior to the montly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
+- testing siginificant opertional changes prior applying to customer instances
+- short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
+
+### Customer instances
+
+All customer instances are considered production enviornment and all changes applied to these customers should be well-tested in internal environment.
+
+## Avaiability of the instance
+
+<span class="badge badge-note">SOC2/CI-87</span>
+<span class="badge badge-note">SOC2/CI-25</span>
+
+We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
+
+### Uptime Checks
+
+We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
+
+### Performance Checks
+
+We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critical metrics that are representation on the overall system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to investigate and ensure we reach to a resolution.
+
+A list of critial metrics that will be routed to Opsgenie:
+
+- [postgres: usage_connections_percentage](https://docs.sourcegraph.com/admin/observability/alert_solutions#postgres-usage-connections-percentage)
+- [gitserver: disk_space_remaining](https://docs.sourcegraph.com/admin/observability/alert_solutions#gitserver-disk-space-remaining)
+- [repo-updater: perms_syncer_perms](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-perms-syncer-perms)
+- [repo-updater: perms_syncer_stale_perms](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-perms-syncer-stale-perms)
+- [frontend: 99th_percentile_search_request_duration](https://docs.sourcegraph.com/admin/observability/alert_solutions#frontend-99th-percentile-search-request-duration)
+- [frontend: 99th_percentile_search_codeintel_request_duration](https://docs.sourcegraph.com/admin/observability/alert_solutions#frontend-99th-percentile-search-codeintel-request-duration)
+
+## Confirm instance health
+
+<span class="badge badge-note">SOC2/CI-109</span>
+
+The primary tool that monitors releases post-deployment are through a variety of uptime monitors and system performance metrics. These metrics are covered in documentation related to `SOC/CI-87`.
+
+Following a release upgrade, in addition to automated instance health checks, we will perform additional manul check to confirm instance health.
+
+Run command below and inspect the output to ensure that all containers are healthy (in particular, look for anything that says Restarting):
+
+```sh
+mg --customer $CUSTOMER check
+```
+
+Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
+
+```sh
+mg forward grafana
+```
+
+Check frontend logs and there are no recent errors
+
+```sh
+mg ssh-exec docker logs sourcegraph-frontend-0
+```
 
 ## Instance technicalities
 
@@ -205,3 +277,71 @@ sudo google_metadata_script_runner --script-type startup --debug
 WARNING: Running our startup script twice is a potentially harmful action, as it is usually only ran once.
 
 More details: https://cloud.google.com/compute/docs/startupscript
+
+### Viewing container logs
+
+Containers logs are persisted in [GCP Logging](https://cloud.google.com/logging) by utilizing the [GCP Logging Driver](https://docs.docker.com/config/containers/logging/gcplogs/).
+
+Let's say you want to check the logs of `sourcegraph-frontend-0`.
+
+Visit https://console.cloud.google.com/logs and ensure you're in the right GCP project. Then you may write the following query:
+
+> There's a `Show query` toggle at the top right corner, turn it on
+
+```
+resource.type="gce_instance"
+log_name="projects/sourcegraph-managed-dev/logs/gcplogs-docker-driver"
+jsonPayload.container.name : sourcegraph-frontend-0
+```
+
+> Learn more about the [query language syntax](https://cloud.google.com/logging/docs/view/building-queries)
+
+### Fix corrupted repo on `gitserver`
+
+Context of why this exists:
+
+- https://github.com/sourcegraph/sourcegraph/issues/25264
+- https://github.com/sourcegraph/customer/issues/887
+
+A broken repo can be identified by
+
+- Checking https://sourcegraph.example.com/site-admin/repositories?status=failed-fetch
+- `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
+
+Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
+
+1. Set up env vars
+
+   ```sh
+   export PROJECT_PREFIX=sourcegraph-managed
+   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
+   export CUSTOMER=<customer_or_instance_name>
+   ```
+
+2. Run the following script
+
+   ```sh
+   ./util/fix-dirty-repo.sh github.com/org/repo
+   ```
+
+## Disaster Recovery and Business Continuity Plan
+
+<span class="badge badge-note">SOC2/CI-110</span>
+
+Follow [restore process](./restore_process.md)
+
+<!-- https://github.com/sourcegraph/security-issues/issues/246 -->
+
+## Troubleshooting
+
+### FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"
+
+If `terraform apply` is giving you:
+
+```
+Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400: The network_endpoint_group resource 'projects/sourcegraph-managed-$COMPANY/zones/us-central1-f/networkEndpointGroups/default-neg' is already being used by 'projects/sourcegraph-managed-$COMPANY/global/backendServices/default-backend-service', resourceInUseByAnotherResource
+```
+
+Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
+
+To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.

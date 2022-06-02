@@ -64,7 +64,7 @@ More about [pipeline run types](https://docs.sourcegraph.com/dev/background-info
 
 **Deploy**
 
-During the code freeze, [Renovate](#renovate) will be disabled on **YYYY-MM-dd 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge (requires approval from either [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md)) a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/YYYY-MM-dd` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+During the code freeze, [Renovate](#renovate) will be disabled on **YYYY-MM-dd 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge (requires approval from [CloudDevops](../../cloud/devops/index.md)) a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/YYYY-MM-dd` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
 Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds?branch=release).
 
@@ -75,17 +75,19 @@ Sometimes you need to manually deploy a service to sourcegraph.com instead of re
 Usually you'll know the build from which you'd like to deploy, we'll use a specific build of gitserver as an example:
 
 1. Find the [green build](https://buildkite.com/sourcegraph/sourcegraph/builds/118059) in Buildkite
-1. Find the [step](https://buildkite.com/sourcegraph/sourcegraph/builds/118059#30aa1bb5-084f-47bf-874a-8266fe87ec68) that built the Docker image for your service
-1. Find the image, which will have the format `index.docker.io/sourcegraph/{SERVICE}:{TIMESTAMP}@sha256:{HASH}`
-1. Pull the latest from [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
-1. Check out the `release` branch
-1. Create a new branch
-1. Run the `update-images.py` script using the image URL from step 3. For example:
+2. Find the [step](https://buildkite.com/sourcegraph/sourcegraph/builds/118059#30aa1bb5-084f-47bf-874a-8266fe87ec68) that built the Docker image for your service
+3. Find the image, which will have the format `index.docker.io/sourcegraph/{SERVICE}:{TIMESTAMP}@sha256:{HASH}`
+4. Pull the latest from [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
+5. Check out the `release` branch
+6. Create a new branch
+7. Run the `update-images.py` script using the image URL from step 3. For example:
+
    ```
    ./update-images.py index.docker.io/sourcegraph/gitserver:118059_2021-11-29_05fcc11@sha256:0c8a862e7977a830e2fa8a690ac243eea1255c150766a44b6c6c86df959d224f
    ```
-1. Commit, push your changes and have them reviewed either by [CloudDevops](../../cloud/devops/index.md) or [CloudSaaS](../../cloud/saas/index.md)
-1. Once merged, the CD process will take over and deploy the image(s) you've updated
+
+8. Commit, push your changes and have them reviewed either by [CloudDevops](../../cloud/devops/index.md).
+9. Once merged, the CD process will take over and deploy the image(s) you've updated
 
 ### Rolling back sourcegraph.com
 
@@ -165,27 +167,23 @@ See an [example query](https://console.cloud.google.com/bigquery?sq=527047051561
 
 **Note**: This method only permits read-only access
 
-### Restarting about.sourcegraph.com and docs.sourcegraph.com
+### Restarting docs.sourcegraph.com
 
-To restart the services powering about.sourcegraph.com and docs.sourcegraph.com:
+To restart the services powering docs.sourcegraph.com:
 
-1. List the active pods with `kubectl get pods`. This should produce a list that includes items like the following:
+Configure kubectl context to the dotcom cluster
 
-   ```
-   NAME                                     READY   STATUS      RESTARTS   AGE
-   about-sourcegraph-com-74f96c659b-t6lqp   1/1     Running     0          7m49s
-   docs-sourcegraph-com-5f97dd5db-7wrxm     1/1     Running     0          7m49s
-   ```
+```sh
+gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev
+```
 
-   The exact names will differ, but the general format will be the same.
+Rollout a restart
 
-1. Delete the pods, being careful to copy the exact names from the output in the previous step. For example, with that output, you would run:
+```sh
+kubectl -n default rollout restart deploy docs-sourcegraph-com
+```
 
-   ```
-   kubectl delete pod about-sourcegraph-com-74f96c659b-t6lqp docs-sourcegraph-com-5f97dd5db-7wrxm
-   ```
-
-1. Wait a moment, and check https://about.sourcegraph.com/ and https://docs.sourcegraph.com/.
+Wait a moment, and check https://docs.sourcegraph.com/.
 
 ### Creating banners for maintenance tasks
 

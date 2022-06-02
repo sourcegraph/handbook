@@ -115,7 +115,7 @@ export function buildBacklinks(pages: ParsedPage[]): void {
 
             if (!linkedPage) {
                 // TODO: collect dead links and report them elsewhere.
-                console.error(`Dead link: "${page.slugPath}" -> "${link}"`)
+                // console.error(`Dead link: "${page.slugPath}" -> "${link}"`)
                 continue
             }
             if (!linkedPage.backlinks.includes(page.slugPath)) {

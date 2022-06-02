@@ -9,7 +9,7 @@
 
 ### How to Calculate the Invoice Amount
 
-- Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of transaction. (Do not use the Veem currency converter.)
+- Invoices should be submitted in the currency used in your contract (and USD by default), if expenses were purchased in a different currency, please use this currency converter: https://www1.oanda.com/currency/converter/ and use the date of purchase. (Do not use the Veem currency converter.)
 - Your monthly invoice amount depends on whether you work a full month or a partial month.
   - **Full month**: to find your monthly invoice amount, refer to your contract, which should state the monthly rate (or take your annual pay and divide it by 12 to arrive at the monthly amount). Most months are full months, including when you take PTO or when there are holidays.
   - **Partial month**: use the formula below to prorate partial months. Partial months happen, for example, if your contract starts in the middle of a month.
@@ -32,7 +32,10 @@
 ## Invoice Submission Timing
 
 - A number of teammates are on a contracting structure and will need to submit an invoice once a month for payment.
-- Submit monthly invoices as early as the 20th of the current month. Keep in mind that payment processing can take up to 7 days. Accounting will process payment twice a week for invoices received in this period.
+- Submit monthly invoices as early as the 20th of the current month.
+- Once submitted invoices will be routed to your direct manager for approval.
+- Accounting will track that managers are approving invoices and will approve after the manager approves.
+- Keep in mind that payment processing can take up to 7 days. Accounting will process payment twice a week for invoices received in this period.
 
 ## Teammates with PEOs
 

@@ -24,6 +24,14 @@ Email [our Carta admin](https://docs.google.com/document/d/1i-JS8Vv2uvvUyUqxiW-P
 
 Unfortunately, we cannot legally provide personal financial or tax advice. Please speak to your own tax advisor.
 
+### If I am leaving Sourcegraph, does my equity stop vesting when I give notice, or on my last day?
+
+On your last day.
+
+### If I am moving out of the US, will my equity continue to vest?
+
+Your options will continue to vest, assuming that you will continue to perform work without a gap in service. After 90 days, your ISOs may lose their ISO status and become NSOs, but they will continue to vest.
+
 ### Are there any non-standard liquidity preferences (anything greater than 1x) on the preferred shares?
 
 Unfortunately, we cannot answer this question publicly due to confidentiality provisions in our fundraising agreements. Sourcegraph teammates, however, can find the answer at [Sourcegraph Stock Options FAQ](https://docs.google.com/document/d/1TFBjXM6d3d0Pa90MrcHbRl-PV53f2tBdwm8fh0nsEvs).
@@ -99,4 +107,4 @@ Every time we raise money from investors, this total amount increases (and it ca
 
 ### Who should I go to if I have questions?
 
-For now, [Dan](../../../team/index.md#dan-adler) can help answer any questions about your options. The entire People Ops team is available to provide support as well.
+Drop by the #stock-options-equity channel. If your question is sensitive or personal, reach out to your People Partner or any finance or legal team member in the #stock-options-equity channel.

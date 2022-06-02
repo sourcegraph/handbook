@@ -2,8 +2,19 @@
 
 This page records goals completed by the Frontend platform team historically (started recording in FY-21-Q4). See also our [current goals](../../../../../strategy-goals/strategy/enablement/frontend-platform/index.md).
 
-- [**FY2021**](#fy2021)
+- [**FY2023**](#fy2023)
 - [**FY2022**](#fy2022)
+- [**FY2021**](#fy2021)
+
+## FY2023
+
+### Q1
+
+The main focus for Q1 was laying the groundwork to meet our contractual WCAG compliance requirements by the end of FY2023. We also reduced the flakiness of E2E tests by refactoring them, assigning ownership, and providing guidance for writing better tests.
+
+- [Refactor E2E testing](https://github.com/sourcegraph/sourcegraph/issues/31206)
+
+- [Documentation and planning on WCAG 2.1 AA compliance](https://github.com/sourcegraph/sourcegraph/issues/31200)
 
 ## FY2022
 
@@ -13,4 +24,4 @@ This page records goals completed by the Frontend platform team historically (st
 
 ## FY2021
 
-1. Progress on design debt throughout the web app where the web team owns the design: repo page areas and panels, navigation and headers, general theming, and the blob page (file viewer).
+- Progress on design debt throughout the web app where the web team owns the design: repo page areas and panels, navigation and headers, general theming, and the blob page (file viewer).

@@ -1,6 +1,6 @@
 # Editorial process
 
-This page explains how team members can contribute to Sourcegraph's blog, including pitching ideas and writing posts. The [Editorial team processes](#editorial-team-processes) section covers team-specific processes for planning and organizing work related to the blog.
+This page explains how team members can contribute to Sourcegraph's blog, including proposing ideas and writing posts. The [Editorial team processes](#editorial-team-processes) section covers team-specific processes for planning and organizing work related to the blog.
 
 ### Related handbook pages
 
@@ -13,40 +13,22 @@ It’s important to have a publishing schedule so that we can deliver relevant c
 
 ## Guidelines for contributing to Sourcegraph’s blog
 
-Please follow these guidelines when contributing to Sourcegraph’s blog.
-
-First, decide how you want to contribute:
-
-### Write the draft yourself
-
-If you have an original article idea that you want to write, start by submitting your pitch via this [Asana form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959) so we can triage appropriately. If you prefer to write your first draft and submit that in place of a pitch, please go ahead! It may still take some time for us to review and schedule your post
-
-**OR**
-
-### We interview you
-
-If you are short on time or less comfortable writing, a member of the content team can interview you and use the transcript to start an outline for you to work from. Please mention if you want to go this route when you fill out your [form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959).
-
-**OR**
+Start by submitting your proposal via a [GitHub issue using the blog post template](https://github.com/sourcegraph/about/issues/new?template=blog-post-proposal.md). You can submit a rough draft at the same time if you want to.
 
 ### Just submit an idea
 
-If you have an idea to submit but you don't want to write it, you can still submit the idea via the [Asana form](https://form.asana.com/?k=gU7tdLoh3TyyrSa-w0-pCQ&d=7195383522959), just make a note that you are not proposing to write the post yourself.
+If you have an idea to submit but you don't want to write it, you can still submit the idea via the [GitHub issue template](https://github.com/sourcegraph/about/issues/new?template=blog-post-proposal.md), just make a note that you are not proposing to write the post yourself.
 
-### Once you have submitted a pitch
+### Once you have submitted a proposal
 
-1. The Editorial team triages pitches weekly.
-1. An editor will be assigned and will give you feedback on your idea. At this point we may suggest an alternative channel or content format for your idea (guide/case study/social post/etc.)
-1. If the pitch is approved by you and your editor, next we'll decide on a timeline together.
+1. It's up to you if you want to share your proposal issue with the rest of your team or with other peers for feedback.
+1. When you are ready, please @ mention the Content team members listed in the issue template. An editor will be assigned and will give you feedback on your idea.
+1. Next we'll decide on a timeline together and discuss any images or graphics that you want to include so we can organize design work.
 1. First draft is submitted by the first draft deadline.
-1. An editor and/or peer reviewer is completed by the first draft review deadline. Please reference the [peer review template](https://docs.google.com/document/d/1KHFMIGmbmDPsE8EYPAf4DPD6kek_1dRnKf49wG5foU0/edit) when conducting your review. You do not need to answer every reflection question. This is a guide to help you provide useful and actionable feedback to the author.
-1. A second draft is submitted. This may be your final draft depending on its polish and completeness. If there are major outstanding structural and/or mechanical issues, your editor may request a third draft.
+1. An editor and/or peer reviewer is completed by the first draft review deadline. The peer reviewer should focus on the coherence, technical accuracy, and impact of the post.
+1. A second draft is submitted. This may be your final draft. If there are still issues to resolve, your editor may request a third draft.
 1. The editor does a final copyedit.
 1. Once the final draft is approved by you and your editor, it will be staged and/or scheduled for release.
-
-### What happens if I want to write something on my own, on my own time for Sourcegraph’s blog?
-
-Once you’re ready for an editor’s review, submit your draft in place of a pitch and follow the article submission guidelines. An editor will reach out to you with feedback, requested changes, and publishing options. Please note that immediate publishing may not be available. If you would like to publish on your own schedule, [Medium](https://medium.com/) is a great option for self-publishing.
 
 ## What to write about for the Sourcegraph blog
 

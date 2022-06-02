@@ -2,9 +2,11 @@
 
 Features come in many different sizes and shapes, and the process for introducing new functionality ranges with these differences. For large or significantly impactful changes or changes that simply need a bit more time to bake, it is encouraged that the following rollout process is followed.
 
-Some features have a [beta or experimental label](beta_and_experimental_feature_labels.md), you can read more about how that works there.
+Some features have a [beta or experimental label](beta_and_experimental_feature_labels.md).
 
 [Pricing features](pricing.md) is a complicated topic and has its own page.
+
+New features also have a [legal checklist](new_feature_legal_questionnaire.md), independent of tier and of whether marketing is involved.
 
 ## Launch Tiers
 
@@ -19,7 +21,7 @@ How we communicate about features is important, especially as it relates to feat
 We always aim to communicate clearly about pre-release features so that we do not cause confusion around customers thinking features are generally available, that they aren't going to change, or even that they couldn't be taken away if we find they aren't working.
 
 1. Prior to the official launch of the feature, we should focus on the problems we are solving, rather than that feature x will definitely include scope y and/or be delivered on z date. For example, we can talk about our ultimate goal of making it easy to search and discover open source code and the reason why we are focused on it, or how we’re working on helping teams problems around a specific batch changes use case, and that we're looking for feedback. This can (and should) include some specifics, but that doesn’t need to be the emphasis because people care more about the problems we’re solving anyway.
-1. Whenever communicating publicly about pre-release features, we should use the [beta and experimental labels](beta_and_experimental_feature_labels.md) so we don’t create confusion, and be sure we note that final capabilities of the feature might change. This includes social media, on the website, documentation, release post, changelog, handbook, in the app, or anywhere else. Documentation, as it is long-lived and not tied to a moment in time, should indicate when a feature became generally available.
+1. Whenever communicating publicly about pre-release features, we should use the [beta and experimental labels](beta_and_experimental_feature_labels.md) so we don’t create confusion, and be sure we note that final capabilities of the feature might change. This includes social media, the Sourcegraph website, documentation, release post, changelog, handbook, in the app, or anywhere else. Documentation, as it is long-lived and not tied to a moment in time, should indicate when a feature became generally available.
 
 Public beta testing by its nature involves sharing more detail, showing and letting people use things that are still unreleased, and which can change or even be abandoned before they go live. That’s fine to do, as long as we follow the above principles.
 
@@ -28,7 +30,7 @@ Public beta testing by its nature involves sharing more detail, showing and lett
 L1 launches ([full definition in marketing handbook](../../../marketing/product-marketing/marketing_launch_tiers.md#l1-launch)) are special: we don't do them frequently, but when we do we engage an additional layer of collaboration around them to avoid misunderstandings around how these important features will move from development to general availability.
 
 1. Two months prior to an L1 feature’s planned release date, the PMM for the product should open a collaboration document (using this [planning template](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#)) to be shared with marketing, product, PR, and any other teams who have a role in the launch, depending on the feature.
-1. At the same time, a regular sync should be created for the team. This could be a sync meeting, async Slack channel, a mix or other approach, as long as everyone agrees.
+1. At the same time, a regular sync should be created for the team. This could be a sync meeting, async Slack channel, a mix or other approach, as long as everyone agrees. Regardless of what communication mode you choose, it should allow for teammates to follow async.
 
 Within the document and as part of keeping in sync, you should track the following (linking to other sources of truth as necessary, rather than creating an additional source of truth here):
 
@@ -47,7 +49,7 @@ It’s expected that these points will change over the period heading towards la
 
 ## Field enablement
 
-Beyond coordinating with marketing on the different launch levels above, when you are launching a new feature it's important to work with [sales enablement](../../../sales/sales-enablement/index.md) to arm the sales, support, and CS teams with the resources they need to successfully get your new features into the hands of customers. This can be simple and straightforward for small features, or quite detailed for large L1 feature launches. An example of a highly complex launch done extremely well is this [field enablement deck for Code Insights](https://docs.google.com/presentation/d/1xQNsieWSEgMFRxSOIttuMQZksubvwo7THqURC88pmRk/edit?usp=sharing) (internal only).
+Beyond coordinating with marketing on the different launch levels above, when you are launching a new feature it's important to work with [sales enablement](../../../sales/sales-enablement/index.md) and [value engineering](../../../sales/sales-enablement/index.md) to arm the sales, support, and CS teams with the resources they need to successfully get your new features into the hands of customers and illustrate the value and benefits of the new feature. This can be simple and straightforward for small features, or quite detailed for large L1 feature launches. An example of a highly complex launch done extremely well is this [field enablement deck for Code Insights](https://docs.google.com/presentation/d/1xQNsieWSEgMFRxSOIttuMQZksubvwo7THqURC88pmRk/edit?usp=sharing) (internal only).
 
 ## Sourcegraph Cloud
 
@@ -63,11 +65,11 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 
 ### After merge, before launch
 
-1. **Gather internal feedback:** Enable the feature flag in the [Sourcegraph organization settings](https://sourcegraph.com/organizations/sourcegraph/settings) to enable your feature for all Sourcegraph team members. Be sure to leave enough time for folks to experience the feature in their workflows and provide feedback.
+1. **Gather internal feedback:** Enable the feature flag in the [Sourcegraph organization settings](https://sourcegraph.com/organizations/sourcegraph/settings) to enable your feature for all Sourcegraph team members. Be sure to leave enough time for folks to experience the feature in their workflows and provide feedback. The #feedback-dogfood channel is a great place to ask for internal feedback.
 1. **Analytics:** Validate logging is working for critical flows
 1. **Approvals:** Receive approval from key stakeholders.
 1. **Bug Tracking:** Keep track of all feedback.
-   - Track and ensure high priority bugs in GitHub issues. Ensure they are closed before launch.
+   - Track high priority bugs in GitHub issues. Ensure they are closed before launch.
    - Track all lower priority bugs that have to be fixed soon.
 
 ### Launch
@@ -107,7 +109,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 
 ### Before merge
 
-- Run hallway tests with internal users
+- Run hallway tests with internal users, leveraging [the #feedback-dogfood channel](../../team-culture/feedback-dogfood.md).
 - Complete a final [design review](../design/design_process.md#final-review)
 - Review documentation
 - Review analytics and ensure desired metrics have been added to the feature

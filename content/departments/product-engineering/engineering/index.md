@@ -10,7 +10,7 @@
 - [Tracking issues](process/tracking_issues.md)
 - [Engineering ownership](process/engineering_ownership.md) - who owns what
 - Practices & Philosophy
-  - [Customer Issues](../../support/process/engaging-other-teams.md)
+  - [Customer Issues](../../ce-support/support/process/engaging-other-teams.md)
   - [Incidents](process/incidents/index.md)
   - [Product documentation](process/product_documentation.md)
   - [Continuous releasability](tools/continuous_releasability.md)
@@ -34,7 +34,8 @@
   - [Career development framework](career-development/framework.md)
   - [Talent review process](career-development/talent-review-process.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
-- [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
+  - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
+  - [Dogfood (internal) feedback](../team-culture/feedback-dogfood.md)
 
 Welcome to Engineering!
 
