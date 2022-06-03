@@ -59,7 +59,7 @@ Does the VM still exist?
     - Yes, [re-create the VM with existing data disk](##re-create-the-vm-with-existing-data-disk)
     - No, [re-create the VM with a new data disk from disk snapshot](##re-create-the-vm-with-new-data-disk-from-disk-snapshot)
 
-- Yes, follow [operation guides](../operations.md) to troubleshoot services condition. If unable to recover running services on the VM, fallback to the recovery plan above.
+- Yes, follow [operation guides](../operations.md) to troubleshoot services condition. If unable to recover running services on the VM, fallback to [restore snapshot on a live VM](#restore-snaphost-on-a-live-vm).
 
 ### Re-create the VM with existing data disk
 
@@ -81,6 +81,25 @@ Does the VM still exist?
    ```
 
 1. Run `terraform apply` to reconcile the infrastructure to its definition in code.
+1. Follow [confirm instance health](../operations.md#confirm-instance-health)
+1. Commit your changes and open a Pull Request
+
+### Restore snapshot on a live VM
+
+1. Run `gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER --sort-by="~creationTimestamp" --limit=5 --format="table(name,creationTimestamp)"` and copy the name of the latest snapshot
+1. Go to [sourcegraph/deploy-sourcegraph-managed] and create a new branch `$CUSTOMER/restore-instance`
+1. `cd $CUSTOMER`
+1. Edit `$CUSTOMER/terraform.tfvars`. NOTES: the key could be `black` depending on the current active instance
+
+   ```tf
+   disks = {
+     red = { from_snapshot = "REPLACE_ME_WITH_SNAPSHOT_NAME" }
+   }
+   ```
+
+1. Run `terraform apply` **twice**
+1. Run `gcloud compute instances stop default-$OLD_DEPLOYMENT-instance --project $PROJECT_ID`
+1. Run `gcloud compute instances start default-$OLD_DEPLOYMENT-instance --project $PROJECT_ID`
 1. Follow [confirm instance health](../operations.md#confirm-instance-health)
 1. Commit your changes and open a Pull Request
 
