@@ -39,9 +39,7 @@
   - [Skip level]
   - [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
-  ## Benefits, Perks and Pay
-
-  [General overview](../../benefits-pay-perks/benefits-perks/index.md)
+  ## Benefits, Perks and Pay(../../benefits-pay-perks/benefits-perks/index.md)
 
   ### Pay & Expenses
 
@@ -50,7 +48,7 @@
   - [Equity](../../benefits-pay-perks/pay-expenses/compensation/index.md#sts=Equity)
 - [Submitting expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
-  ### Perks
+  ### Perks(../../benefits-pay-perks/benefits-perks/)
 
 - [Paid Time Off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
 - [Travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
