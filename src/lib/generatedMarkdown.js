@@ -547,6 +547,17 @@ export async function generateGuildRoster(guildReference) {
     const name = teamMembers[memberReference].name
     pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
   }
+  if (guild.leadership_sponsors) {
+    pageContent += '### Leadership Sponsor'
+    if (guild.leadership_sponsors.length > 1) {
+      pageContent += 's'
+    }
+    pageContent += '\n'
 
-  return pageContent
+    for (const reference of guild.leadership_sponsors) {
+      const name = teamMembers[reference].name
+      pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
+    }
+  }
+    return pageContent
 }
