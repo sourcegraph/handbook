@@ -34,7 +34,7 @@ By default, everyone at Sourcegraph is provisioned as a viewer. This means you w
 
 Set the default setting for videos to “Everyone at Sourcegraph”. This means videos will only be viewed by Sourcegraph teammates. As a creator, please take some time to read this page on [Loom’s security setting](https://support.loom.com/hc/en-us/articles/360016527597).
 
-We have the ability to create public links on videos. Please reach out to[ #it-tech-ops ](https://sourcegraph.slack.com/archives/C01CSS3TC75)in Slack to request this.
+Every creator has the ability to share videos publicly. Please be mindful of the sharing setting you select. Please take some time to review how to [share videos](https://support.loom.com/hc/en-us/articles/360002208157-How-to-share-your-recording).
 
 ## Workspace
 
