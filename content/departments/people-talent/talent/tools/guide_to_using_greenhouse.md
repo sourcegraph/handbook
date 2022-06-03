@@ -60,16 +60,15 @@ To add a new agency to Greenhouse, follow [these instructions](https://support.g
 - Why do we use them?
 
   Tags helps us keep track of candidates that we can't currently put in play, but will be relevent for for future headcounts.
-  As our candidate pool is in the 1,000s we need an efficient way to find the right candidates for the top of the funnel when starting a new search. Read [here](https://support.greenhouse.io/hc/en-us/articles/360004149852) for best practices using candidate tags. 
+  As our candidate pool is in the 1,000s we need an efficient way to find the right candidates for the top of the funnel when starting a new search. Read [here](https://support.greenhouse.io/hc/en-us/articles/360004149852) for best practices using candidate tags.
 
 * How do we use them?
-    * [How to create a candidate tag](https://support.greenhouse.io/hc/en-us/articles/360045893411-Create-candidate-tag)
-    * [How to add tag to candidates](https://support.greenhouse.io/hc/en-us/articles/360027904392)
-    * [How to remove tag from candidates](https://support.greenhouse.io/hc/en-us/articles/360028190371)
-
+  - [How to create a candidate tag](https://support.greenhouse.io/hc/en-us/articles/360045893411-Create-candidate-tag)
+  - [How to add tag to candidates](https://support.greenhouse.io/hc/en-us/articles/360027904392)
+  - [How to remove tag from candidates](https://support.greenhouse.io/hc/en-us/articles/360028190371)
 
 For every candidate add at least three tags:
 
-  - Role
-  - Skill (you can add multiple)
-  - Years of experience
+- Role
+- Skill (you can add multiple)
+- Years of experience
