@@ -46,7 +46,7 @@ Granting of administrative rights shall be strictly controlled, and requires app
 
 ## **User Access Reviews**
 
-System owners shall perform access rights reviews of user, administrator, and service accounts on an annual basis to verify that user access is limited to systems that are required for their job function. Access reviews shall be documented.
+System owners for high risk areas of the business (SDLC) shall perform access rights reviews of user, administrator, and service accounts on an annual basis to verify that user access is limited to systems that are required for their job function. Access reviews shall be documented.
 
 Access reviews may include group membership as well as evaluations of any specific or exception-based permission. Access rights shall also be reviewed as part of any job role change, including promotion, demotion, or transfer within the company.
 
