@@ -60,11 +60,11 @@
 
   ### Benefits
 
-- [Benefits available for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
-  - What benefit provider do we use? [COMING SOON]
-  - What benefits do we offer? [COMING SOON]
-  - How to access health, dental, & vision cards [COMING SOON]
-  - Travel insurance [COMING SOON]
+- [Benefits FAQs for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
+  - We offer Health, Dental, and Vision with 100% employer paid premiums for teammates, spouse, and depdenents. We also offer Life insurance for teammates.
+  - Access to Modern Health for 10 coaching and 10 therapy sessions per year
+  - 401K
+  - HSA, FSA, and Dependent Care FSA
 - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 
