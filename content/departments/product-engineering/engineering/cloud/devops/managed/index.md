@@ -8,6 +8,7 @@ For opertaion guides (e.g. upgrade process), please see [managed instances opera
 
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
+  - [Environments](#environments)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
   - [Monitoring and alerting](#monitoring-and-alerting)
@@ -36,12 +37,12 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi&template=new_managed_instance.md&title=)]
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
-- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-suspend.md&title=)]
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
-- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)]
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
 
 ### Workflow
@@ -82,6 +83,29 @@ Managed instances are Docker Compose deployments only today. We do not currently
 These managed Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU / 360 GB memory which is typically enough for most medium to large enterprises.
 
 We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
+
+### Environments
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+### Internal instances
+
+For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
+
+- for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
+- for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
+
+Internal instances are created for various testing purposes:
+
+- testing changes prior to the monthly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
+- testing significant operational changes prior to applying to customer instances
+- short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
+
+### Customer instances
+
+All customer instances are considered part of the production environment and all changes applied to these customers should be well-tested in the test environment.
+
+Upgrade process to new Sourcegraph version is also preceded with upgrading test instances - [upgrade to v3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
 
 ### Known limitations of managed instances
 

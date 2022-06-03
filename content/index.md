@@ -99,7 +99,6 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Content Marketing](departments/marketing/content/index.md)
   - [Editorial](departments/marketing/content/editorial/index.md)
 - [Demand Gen](departments/marketing/demand-gen/index.md)
-- [Developer Education](departments/marketing/education/index.md)
 - [Brand](departments/marketing/brand/index.md)
 - [Social Media](departments/marketing/social-media/index.md)
 - [Community Relations](departments/marketing/community_relations/index.md)
