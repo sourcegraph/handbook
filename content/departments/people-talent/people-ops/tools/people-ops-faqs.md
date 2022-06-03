@@ -89,7 +89,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. What benefits and plans are available to me?
 
-**US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%.  You can also reference these PDFs below:
+**US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
 
 - **Health insurance:**
   - UnitedHealthcare EPO
@@ -166,7 +166,8 @@ This page is meant as a resource to find answers to questions frequently asked b
 **Non-US teammates:**
 
 - Not applicable.
-- 
+-
+
 #### Q. What if I never received an invite to Lumity?
 
 - Please reach out to support@lumity.com or 1-844-2-LUMITY.
@@ -255,7 +256,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. What if I have a question that isn’t answered here?
 
-- Post your question into #ask-people-team 
+- Post your question into #ask-people-team
 
 ## Moving
 
