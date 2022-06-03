@@ -541,7 +541,7 @@ Only use this approach for low-risk patch upgrades or docker-compose container r
 ### 0) Upgrade setup
 
 ```sh
-eval $(mg --customer <CUSTOMER> workon)
+eval $(go run ./util/cmd/ --customer <CUSTOMER> workon)
 export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
 ```
 
