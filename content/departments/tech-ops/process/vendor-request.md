@@ -53,6 +53,9 @@ We define the following vendor request types:
 
 **Step 1:** Visit our [service desk portal](https://sourcegraph.atlassian.net/servicedesk/customer/portal/6)
 
+- You will need to set up an account (username/pw) to submit a ticket
+- [How to submit a Jira Service Desk ticket](https://www.loom.com/share/56924569448f4c8cb63bbaf5bd232d2f) Loom video (including how to set up an account)
+
 **Step 2:** Choose the correct request Type
 _Options:_ New Vendor, Offboarding, Annual Review, Other
 
@@ -66,6 +69,8 @@ _Attention_: System owner - this is by default the requester except otherwise in
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Contact Vendr to assist with vendor price negotiations
 
 **Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
+
+- [Review submitted requests](https://www.loom.com/share/643ceeb88b8c44fea1ea9a713f64d5e5) Loom video
 
 **Step 7:**
 
@@ -88,8 +93,6 @@ _Attention_: System owner - this is by default the requester except otherwise in
 > Annual review: create a new vendor request type ‘Offboarding’ for this vendor
 >
 > Others: create a new vendor request type ‘Offboarding’ for this vendor
-
-**Step 8:**
 
 ### System/Relationship Owner Responsibilities
 
