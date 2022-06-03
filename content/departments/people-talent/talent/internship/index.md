@@ -118,7 +118,7 @@ Wage and Hour Guidelines
 Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
 
 - The video submission is due to Kemper on 2022-07-18.
-- The blog post will be shared from your personal LinkedIn and emailed to Kemper by EOB 2022-08-01.
+- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB 2022-08-01.
 
 ### Internship Events
 
