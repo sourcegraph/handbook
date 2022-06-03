@@ -1,6 +1,6 @@
 # People & Talent
 
-TODO
+TO DO:
 
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [People team](people-ops/index.md)
