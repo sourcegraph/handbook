@@ -22,11 +22,11 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 **Step 2**: the Recruiter confirms that the open, start and hired dates are correct, ensuring accurate time-to-fill data.
 
-- COMING SOON: how to view / edit
+- To view/edit this information in Greenhouse, click 'Job Setup' and then 'Job Info'. This will show you the role details and you can confirm that all of the information is correct.
 
 **Step 3**: the Recruiter confirms the candidate source information is accurate, ensuring accurate source data.
 
-- COMING SOON: how to edit source information
+- To view/edit source information, click the 'Details' tab on the candidate's Greenhouse profile and scroll down to the 'Source and Responsibility' section. Confirm that the Source, Recruiter, and Coordinator are correct and if needed, edit the information by clicking the pencil button beside each field.
 
 **Step 4**: the Recruiter confirms that the candidate's profile name in Greenhouse matches their legal first & last name, which can be found on the signature page of their signed offer letter.
 
