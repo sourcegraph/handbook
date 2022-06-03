@@ -559,5 +559,5 @@ export async function generateGuildRoster(guildReference) {
       pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
     }
   }
-    return pageContent
+  return pageContent
 }
