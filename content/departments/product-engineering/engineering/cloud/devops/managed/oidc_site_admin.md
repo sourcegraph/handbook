@@ -1,3 +1,5 @@
+# Using OpenID Connect for Site Admin Access
+
 # Purpose and Background
 
 [RFC 576: Allow disabling sign-up for OpenID Connect auth providers](https://docs.google.com/document/d/1Op6jum_SQJSU5KeJlJJEED1QYFdXOO30botb3BgEO6U/edit) provided the necessary changes to allow Sourcegraph to use their internal Okta Auth provider as a way to grant Site Admin access to managed instances. Okta provides 2FA enforcement and audit logs which help improve the security posture of Managed Instance access.
