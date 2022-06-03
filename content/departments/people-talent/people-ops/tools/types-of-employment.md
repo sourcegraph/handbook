@@ -1,3 +1,3 @@
 # Different types of employment
 
-TODO
+TO DO:
