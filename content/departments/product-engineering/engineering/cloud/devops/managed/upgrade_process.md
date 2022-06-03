@@ -541,16 +541,16 @@ Only use this approach for low-risk patch upgrades or docker-compose container r
 ### 0) Upgrade setup
 
 ```sh
-eval $(mg --customer <CUSTOMER> workon)
+eval $(go run ./util/cmd/ --customer <CUSTOMER> workon)
 export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
 ```
+
+Note: `eval ...` command will change directory to `$CUSTOMER`.
 
 Then set up a branch for your changes:
 
 ```sh
 git checkout -b $CUSTOMER/upgrade-v<MAJOR.MINOR.PATCH>
-# all the below steps are documented assuming you are in the customer deployment directory
-cd $CUSTOMER
 ```
 
 ### 1) Make DB read-only
@@ -586,7 +586,8 @@ cd $NEW_DEPLOYMENT/docker-compose && rm docker-compose.yaml && ln -s ../../../go
 ### 5) Sync files to customer instance
 
 ```sh
-go run ../util/cmd/ sync
+# if instance is v1.0, add flag: --v1.0
+go run ../util/cmd/ sync [--v1.0]
 git add . && git commit -m "$CUSTOMER: update docker-compose.yaml symlink"
 ```
 
