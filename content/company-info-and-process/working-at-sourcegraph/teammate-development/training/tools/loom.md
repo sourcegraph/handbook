@@ -14,7 +14,7 @@ Here is a quick video on how to use Loom to record videos: [How to get started](
 
 ## Guidelines
 
-Please be mindful of sharing any private or personal information when recording Loom videos. We want to avoid having any sensitive information (classification categories restricted and private as per our [Data Management Policy](../../../../policies/data-management-policy.md)  leaked or corrupted. Furthermore, we have a legal and moral obligation towards our data subjects in regards to how we handle their personal data.
+Please be mindful of sharing any private or personal information when recording Loom videos. We want to avoid having any sensitive information (classification categories restricted and private as per our [Data Management Policy](../../../../policies/data-management-policy.md) leaked or corrupted. Furthermore, we have a legal and moral obligation towards our data subjects in regards to how we handle their personal data.
 
 Best practise:
 
