@@ -2,7 +2,7 @@
 
 quinn_slack:
   name: Quinn Slack
-  role: '[CEO](../../ceo/index.md), Cofounder, Board of Directors'
+  role: '[CEO](../../ceo/index.md), co-founder, Board of Directors'
   location: Mill Valley, CA, USA 🇺🇸
   email: sqs@sourcegraph.com
   reports_to: none
@@ -13,7 +13,7 @@ quinn_slack:
 
 beyang_liu:
   name: Beyang Liu
-  role: CTO, Cofounder, Board of Directors
+  role: CTO, co-founder, Board of Directors
   reports_to: ceo
   manager_role_slug: cto
   location: San Francisco, CA, USA 🇺🇸
