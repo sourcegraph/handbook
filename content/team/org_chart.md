@@ -2,13 +2,18 @@
 
 The org chart is generated automatically from data files in the handbook repository ([need to edit it?](#how-to-edit)). Sourcegraph teammates can see a complete and up-to-date org chart for the entire company in [BambooHR](https://sourcegraph.bamboohr.com/).
 
-## [Engineering](../departments/product-engineering/engineering/team/index.md#current-organization)
+## [Engineering](../departments/product-engineering/index.md)
 
-{{generator:reporting_structure.vp_engineering}}
+{{generator:reporting_structure.eng_lead}}
 
-## [Product](../departments/product-engineering/product/team/index.md#current-team)
+## Cloud
 
-{{generator:reporting_structure.vp_product}}
+{{generator:reporting_structure.engineering_manager_cloud}}
+
+## Security
+
+{{generator:reporting_structure.engineering_manager_security}}
+
 
 ## [Customer Engineering & Support](../departments/ce-support/ce/index.md#current-team-members)
 
