@@ -81,7 +81,7 @@ The table below breaks down the capabilities of each team within Marketing. Once
 
 ## Members
 
-{{generator:reporting_structure.vp_marketing}}
+{{generator:reporting_structure.marketing_lead}}
 
 ## Open Roles
 

@@ -16,6 +16,14 @@ interim_eng_lead:
   reports_to: ceo
   role: Interim Engineering Lead (and CEO)
   manager_role_slug: eng_lead
+  hide_on_team_page: true
+
+interim_marketing_lead:
+  name: Quinn Slack
+  reports_to: ceo
+  role: Interim Marketing Lead (and CEO)
+  manager_role_slug: marketing_lead
+  hide_on_team_page: true
 
 beyang_liu:
   name: Beyang Liu
@@ -600,7 +608,7 @@ andy_schumeister:
   name: Andy Schumeister
   pronouns: he/him
   role: Director of Product Marketing
-  reports_to: ceo
+  reports_to: marketing_lead
   manager_role_slug: director_product_marketing
   location: Minneapolis, MN, USA 🇺🇸
   github: abschu
@@ -910,7 +918,7 @@ fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
   role: Creative Operations Manager
-  reports_to: ceo
+  reports_to: marketing_lead
   manager_role_slug: creative_ops_manager
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
@@ -952,10 +960,11 @@ rafal_leszczynski:
   description: Raf lives with his family outside of Poznan (Poland), surrounded by forests, boars, deers, and other wildlife.
 
 rafal_leszczynski_iam:
-  name: Rafal Leszczynski (temporary)
-  role: Engineering Manager, Identity and Access Management (temporary)
+  name: Rafal Leszczynski (interim)
+  role: Engineering Manager, Identity and Access Management (interim)
   reports_to: director_engineering_adminexp
   manager_role_slug: engineering_manager_iam_and_admin_exp
+  hide_on_team_page: true
 
 kelli_rockwell:
   name: Kelli Rockwell
@@ -1274,7 +1283,7 @@ amie_rotherham:
   name: Amie Rotherham
   pronouns: She/Her
   role: Director of Global Communications
-  reports_to: ceo
+  reports_to: marketing_lead
   manager_role_slug: director_global_communications
   location: Toronto, Canada 🇨🇦
   github: amieroth
