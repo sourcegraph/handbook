@@ -232,7 +232,7 @@ In the future, we may introduce continuous releases if these issues become surmo
 [sourcegraph release tool]: ../../tools/release.md
 [sourcegraph/sourcegraph]: https://github.com/sourcegraph/sourcegraph
 [sourcegraph/deploy-sourcegraph-docker]: https://github.com/sourcegraph/deploy-sourcegraph-docker
-[delivery]: ../../cloud/delivery/index.md
+[delivery]: ../../admin-exp/delivery/index.md
 [release issue template]: release_issue_template.md
 [patch release issue template]: patch_release_issue_template.md
 [upgrade managed instances issue template]: upgrade_managed_issue_template.md

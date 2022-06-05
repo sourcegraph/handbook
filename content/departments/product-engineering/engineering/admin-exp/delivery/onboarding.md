@@ -1,37 +1,38 @@
-# Distribution Engineer Oboarding
+# Delivery Engineer Onboarding
 
-Welcome to the distribution team! This document will guide you through distribution-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../onboarding/index.md).
+Welcome to the Delivery team! This document will guide you through delivery-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../onboarding/index.md).
 
-## Distribution Onboarding Checklist
+## Delivery Onboarding Checklist
 
 ### Week 1
 
 #### Goals
 
-- Clear knowledge of the [company goals](../../../../strategy-goals/goals/index.md), [values](../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../company-info-and-process/communication/code_of_conduct.md), as well as [Distributions’s mission and vision](./index.md).
+- Clear knowledge of the [company goals](../../../../../strategy-goals/goals/index.md), [values](../../../../../company-info-and-process/values/index.md) and [code of conduct](../../../../../company-info-and-process/communication/code_of_conduct.md), as well as [Delivery's mission and vision](./index.md).
 - Know the expected outcome of each Distribution onboarding milestone.
-- Become familiar with Distribution [product](product.md), [tech stack](tech_stack.md)
+- Become familiar with Delivery [responsibilities](index.md#Responsibilities), [tech stack](index.md#tech-stack)
 - Go through [Process St Onboarding](https://app.process.st/reports/)
 - You have a sense of what tools you will be using and for what
 
 #### Tasks
 
+> If you need access to any system, reach out to your peers in `#delivery-internal` on Slack.
+
 - Meet your onboarding buddy
-- Add shared [Distribution calendar](https://calendar.google.com/calendar/embed?src=c_k68fbvdcl42efbnh783mq9b90k%40group.calendar.google.com) to your calendar
-- Attend weekly sync [meeting](https://calendar.google.com/event?action=TEMPLATE&tmeid=OXFyZXRsc21hdDh1MHNkNzQ2aGhqMzg3NmxfMjAyMTA1MjRUMTczMDAwWiBkYXZlQHNvdXJjZWdyYXBoLmNvbQ&tmsrc=dave%40sourcegraph.com&scp=ALL)
+- Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../tools/infrastructure/gcp.md#engineering-projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../tools/infrastructure/gcp.md#engineering-projects).
-- Familiarise yourself with the distribution [internal infrastructure](internal_infrastructure.md) and ownership areas
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../../team/index.md) in Handbook
-- Read our [Distribution handbook pages](index.md)
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Souregraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommend you create a cluster in your own [engineering project](../../tools/infrastructure/gcp.md#engineering-projects).
+- Read our [Delivery handbook pages](index.md)
 - Join the distribution Slack channels
-  - #distributioneers
-  - #distribution-team (private channel, so request an invite from another member of the team!)
+  - #delivery
+  - #delivery-internal
   - #dev-ops
   - #dev-chat
   - #dev-accounce
-  - #alerts-distribution
+- Make sure you are added to the [Delivery](https://github.com/orgs/sourcegraph/teams/delivery) team in Sourcegraph GitHub org. Reach out to [#delivery-internal] if you're not.
+- Ask to be added to `gcp-engineering` and `gcp-delivery` Google Group in [#it-tech-ops]
+- Ask to be added to our team on [geekbot](https://app.geekbot.com/dashboard/standup/90421/manage?members) in [#delivery-internal] channel.
 
 ### Week 2
 
@@ -44,6 +45,8 @@ Welcome to the distribution team! This document will guide you through distribut
 
 #### Tasks
 
+- Familiarise yourself with the [internal infrastructure](../../tools/index.md) at Sourcegraph and ownership areas.
+  - Setup a 1 on 1 meeting with a member of the [cloud](../../admin-exp/devops/index.md#members) and [developer experience](../../enablement/dev-experience/index.md#members)
 - Read through the [deployments types](https://docs.google.com/presentation/d/1u4mbXjubQqV-6WFbuS7Q1b_X6BVh-_GWzzFQMcrAzLw/edit#slide=id.p) presentation
 - Schedule a 1 on 1 meeting with each of the engineers in the team
 - Set up a [local environment](https://docs.sourcegraph.com/dev/getting-started). This will be your other test environment. If you get stuck, just post in the #dev-chat Slack channel. You will often want to run Sourcegraph locally when you are troubleshooting or testing.
@@ -69,12 +72,12 @@ Welcome to the distribution team! This document will guide you through distribut
 
 #### Goals
 
-- You will have assisted [customer engineering](../../../ce-support/ce/index.md) and [customer support](../../../ce-support/support/index.md), taken ownership of any distribution tasks and resolved them.
+- You will have assisted [customer engineering](../../../../ce-support/ce/index.md) and [customer support](../../../../ce-support/support/index.md), taken ownership of any distribution tasks and resolved them.
 - Made improvements to our processes and how we deliver sourcegraph.
 
 #### Tasks
 
-- Take on the @distribution-support rotation and pair with the customer facing teams to resolve issues.
+- Take on the @delivery-support rotation and pair with the customer facing teams to resolve issues.
 - Identify inefficiences and raise issues to fix them
 
 ### By the end of your third month, the following will be true
@@ -88,3 +91,7 @@ Welcome to the distribution team! This document will guide you through distribut
 
 - Develop any new material required to help others level up and understand our product
 - Add to the teams planning and OKRs
+
+[gcp]: https://console.cloud.google.com
+[#it-tech-ops]: https://sourcegraph.slack.com/archives/C01CSS3TC75
+[#delivery-internal]: https://sourcegraph.slack.com/archives/C02VDNKBWDU

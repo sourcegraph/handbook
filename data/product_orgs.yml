@@ -3,13 +3,13 @@
 code_graph:
   title: Code Graph
   strategy_link: /strategy-goals/strategy/code-graph/index.md
-  pm: interim_code_graph_pm_director
+  pm: anna_mikhova
   em: yink_teo
 
-cloud:
-  title: Cloud
-  strategy_link: /strategy-goals/strategy/cloud/index.md
-  pm: anna_mikhova
+adminexp:
+  title: Admin Experience
+  strategy_link: /strategy-goals/strategy/admin-exp/index.md
+  pm: ryan_phillips
   em: bill_creager
 
 enablement:
@@ -17,3 +17,13 @@ enablement:
   strategy_link: /strategy-goals/strategy/enablement/index.md
   pm: serina_clark
   em: jean_du_plessis
+
+security:
+  title: Security
+  em: diego_comas
+  pm: diego_comas
+
+cloud:
+  title: Cloud
+  em: rafal_leszczynski
+  pm: rafal_leszczynski

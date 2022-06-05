@@ -122,16 +122,16 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
   - [Enablement](enablement/index.md)
     - [Dev Experience](enablement/dev-experience/index.md)
     - [Frontend Platform](enablement/frontend-platform/index.md)
-    - [Repo Management](enablement/repo-management/index.md)
     - [Engineering Education](enablement/engineering-education/index.md)
     - [Content Platform](enablement/content-platform/index.md)
-  - [Cloud](cloud/index.md)
-    - [IAM and Admin Experience](cloud/iam-admin/index.md)
-    - [Integrations](cloud/integrations/index.md)
-    - [Growth](cloud/growth-team/index.md)
+  - [Admin Experience](admin-exp/index.md)
+    - [IAM](admin-exp/iam/index.md)
+    - [Integrations](admin-exp/integrations/index.md)
+    - [Growth](admin-exp/growth-team/index.md)
+    - [Repo Management](admin-exp/repo-management/index.md)
     - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
     - DevOps/SRE
-    - [Delivery](cloud/delivery/index.md)
+    - [Delivery](admin-exp/delivery/index.md)
 
 ## Historical strategy
 
