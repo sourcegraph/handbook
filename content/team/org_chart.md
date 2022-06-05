@@ -16,7 +16,9 @@ The org chart is generated automatically from data files in the handbook reposit
 
 ## [Marketing](../departments/marketing/index.md#members)
 
-{{generator:reporting_structure.vp_marketing}}
+{{generator:reporting_structure.director_product_marketing}}
+{{generator:reporting_structure.director_global_communications}}
+{{generator:reporting_structure.creative_ops_manager}}
 
 ## [People Ops](../departments/people-talent/people-ops/index.md#people-ops-team-members)
 
