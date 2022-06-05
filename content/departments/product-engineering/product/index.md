@@ -15,7 +15,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 - [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/21) in GitHub
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
-- [Product/Engineering planning process](../process/planning-process.md)
 
 ## Product team
 
