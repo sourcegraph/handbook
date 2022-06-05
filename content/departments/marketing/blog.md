@@ -1,25 +1,8 @@
-# Creating & editing blog posts with markdown and GitHub
-
-## Table of contents
-
-- [Creating & editing blog posts with markdown and GitHub](#creating--editing-blog-posts-with-markdown-and-github)
-  - [Table of contents](#table-of-contents)
-  - [Process overview](#process-overview)
-  - [Adding a blog post](#adding-a-blog-post)
-  - [Adding images and other media](#adding-images-and-other-media)
-    - [Sizing images](#sizing-images)
-    - [Uploading images](#uploading-images)
-    - [YouTube video embed code](#youtube-video-embed-code)
-    - [HubSpot form embed code](#hubspot-form-embed-code)
-    - [Adding a screenshot or screen recording](#adding-a-screenshot-or-screen-recording)
-  - [Previewing your blog post](#previewing-your-blog-post)
-  - [Publishing your post](#publishing-your-post)
-    - [Troubleshooting: If your blog post is not appearing on the blog index page](#troubleshooting-if-your-blog-post-is-not-appearing-on-the-blog-index-page)
-  - [Editing blog posts](#editing-blog-posts)
+# Creating & editing blog posts with Markdown and GitHub
 
 ## Process overview
 
-> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published. Please start by proposing your blog post idea to the Editorial team. The process is outlined in [the Editorial handbook](../content/editorial/editorial-process.md). When your draft has been reviewed by an editor you can start adding your blog post as follows:
+> NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published.
 
 1. Create the blog post file
 1. Create a pull request
@@ -28,7 +11,7 @@
 
 ## Adding a blog post
 
-Add a blog post by creating a Markdown file in one of the `blogposts` child directories using the following template as a starting point:
+Add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories using the following template as a starting point:
 
 ```markdown
 ---
@@ -122,7 +105,7 @@ Inserts HubSpot form wherever the `targetId` div tag is placed.
 
 ### Adding a screenshot or screen recording
 
-You can read about [embedding GIFs and videos](../process/adding_screenshots_screen_recording.md) here.
+You can read about [embedding GIFs and videos](process/adding_screenshots_screen_recording.md) here.
 
 ## Previewing your blog post
 

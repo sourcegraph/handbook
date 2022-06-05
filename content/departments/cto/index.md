@@ -2,6 +2,8 @@
 
 Mandate: Build experiments that support the company's mission but don't fit well into the priorities of Product and Engineering.
 
+- [Community](community/index.md)
+
 ## Experiment proposals
 
 We will iterate on an approval process for new experiments. We want to enable experiment proposals to come from anywhere within Sourcegraph, but also note that our current bandwidth for experiments is intentionally limited and we don't expect this bandwidth to exceed more than 1% of our overall investment in Product and Engineering. For now, we are working on [doctree](https://docs.google.com/document/d/1YdnF67qBd5ItKSAW5AdfVGkzvR-xozhd3KfNlKh4EA0/edit) and won't have bandwidth to take on additional experiments in Q2.

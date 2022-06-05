@@ -92,12 +92,8 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Marketing](departments/marketing/index.md)
 
 - [Product Marketing](departments/marketing/product-marketing/index.md)
-- [Content Marketing](departments/marketing/content/index.md)
-  - [Editorial](departments/marketing/content/editorial/index.md)
-- [Demand Gen](departments/marketing/demand-gen/index.md)
-- [Brand](departments/marketing/brand/index.md)
-- [Social Media](departments/marketing/social-media/index.md)
-- [Community Relations](departments/marketing/community_relations/index.md)
+- Communications
+- [Creative Ops](departments/marketing/creative-ops.md)
 
 ### [Sales](departments/sales/index.md)
 
@@ -114,6 +110,8 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Legal](departments/legal/index.md)
 
 ### [CTO](departments/cto/index.md)
+
+- [Community](departments/cto/community/index.md)
 
 ### [Tech Ops](departments/tech-ops/index.md)
 
