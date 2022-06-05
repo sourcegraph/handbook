@@ -1,6 +1,6 @@
 # Architectural Interview
 
-[This interview](https://github.com/sourcegraph/interviews/blob/master/engineering/software-engineer/architecture/repo-management/README.md) only applies for engineers who apply to [IAM and Admin Experience](../index.md) team,
+[This interview](https://github.com/sourcegraph/interviews/blob/master/engineering/software-engineer/architecture/repo-management/README.md) only applies for engineers who apply to [IAM](../index.md) team,
 
 The interview consists of open-ended questions, allowing you to describe your mental model of designing a new system from scratch—we want to understand the decisions you are making when designing system architectures. We expect you to ask clarifying questions as the requirements for the system are purposefully ambiguous.
 

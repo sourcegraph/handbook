@@ -47,6 +47,9 @@ export async function generateFeatureMaturityLevels() {
       areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
     if (productTeam.pm) {
+      if (!teamMembers[productTeam.pm]) {
+        throw new Error(`no team member: ${String(productTeam.pm)}`)
+      }
       const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
@@ -232,6 +235,9 @@ export async function generateProductTeamsList() {
       pageContent += `- [Strategy Page](${String(productOrg.strategy_link)})\n`
     }
     if (productOrg.strategy_link) {
+      if (!teamMembers[productOrg.pm]) {
+        throw new Error(`no team member: ${String(productOrg.pm)}`)
+      }
       const bioLinkPM = createBioLink(teamMembers[productOrg.pm].name)
       const bioLinkEM = createBioLink(teamMembers[productOrg.em].name)
       pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLinkPM)})\n`

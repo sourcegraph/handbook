@@ -14,7 +14,7 @@ For more detailed information on the Delivery team members, check out our [READM
 
 ## Strategy
 
-[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../../strategy-goals/strategy/cloud/delivery/index.md)
+[Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../../strategy-goals/strategy/admin-exp/delivery/index.md)
 
 ## Responsibilities
 
@@ -71,7 +71,7 @@ TODO-->
 
 We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md).
 
-We also have a set of [guiding principles](../../../../../strategy-goals/strategy/cloud/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
+We also have a set of [guiding principles](../../../../../strategy-goals/strategy/admin-exp/delivery/index.md#guiding-principles) that help inform our decision making about our stretegic and prioritization choices.
 
 ## Processes
 

@@ -45,9 +45,9 @@ Welcome to Engineering!
 
 Engineering is organized in three orgs:
 
-- [Cloud](cloud)
-- [Code graph](code-graph)
-- [Enablement](enablement)
+- [Code Graph](code-graph/index.md)
+- [Admin Experience](admin-exp/index.md)
+- [Enablement](enablement/index.md)
 
 Also see:
 

@@ -1,6 +1,6 @@
-# IAM and Admin Experience Team
+# Identity and Access Management (IAM) Team
 
-> NOTE: The IAM and Admin Experience team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
+> NOTE: The IAM team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
 
 ## Vision
 
@@ -8,7 +8,7 @@ The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/cloud/iam-admin/index.md).
+The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/admin-exp/iam/index.md).
 
 ## Areas of Ownership
 
@@ -18,9 +18,9 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 #### Identity and access management
 
-The IAM and Admin Experience team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
+The IAM team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
 
-While the IAM and Admin Experience team owns the underliying layer for authentication and authorization, Integrations and Growth teams are responsible for the UI and UX for sign-in and sign-up. Integrations and Growth teams also work on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
+While the IAM team owns the underliying layer for authentication and authorization, Integrations and Growth teams are responsible for the UI and UX for sign-in and sign-up. Integrations and Growth teams also work on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
 
 Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
 
@@ -48,17 +48,17 @@ Customer-facing and internal tools and features that provide transparency to how
 
 ### Engineering ownership
 
-For a detailed list of features and services owned by the IAM and Admin Experience team, check out the [Engineering Ownership page](../../../engineering/process/engineering_ownership.md).
+For a detailed list of features and services owned by the IAM team, check out the [Engineering Ownership page](../../../engineering/process/engineering_ownership.md).
 
 ## Team
 
-{{generator:product_team.iam_and_admin_exp}}
+{{generator:product_team.iam}}
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91/jobs/4101082004).
 
 ## Partner Teams
 
-The IAM and Admin Experience team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
+The IAM team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
 - [Cloud DevOps](../devops)
 - [Integrations](../integrations)
@@ -69,20 +69,20 @@ The IAM and Admin Experience team works alongside several other teams within the
 
 ### Weekly team updates
 
-Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM and Admin Experience Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
+Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
 
 ## How we work
 
 ### How to contact the team and ask for help
 
 - For users with urgent help requests reach out to our support team at [support@sourcegraph.com](mailto:support@sourcegraph.com).
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam-and-admin-exp`.
-- For internal Sourcegraph teammates, join us in [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/iam-and-admin-exp) to ask questions or request help from our team.
-- For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM and Admin Experience Feature Request:` in your subject line.
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for iam`.
+- For internal Sourcegraph teammates, join us in [#iam](https://sourcegraph.slack.com/archives/iam) to ask questions or request help from our team.
+- For feature requests, please reach out to our product manager, Ryan, at [ryphil@sourcegraph.com](mailto:ryphil@sourcegraph.com) and include `IAM Feature Request:` in your subject line.
 
 ### Planning, execution, and issue tracking
 
-The IAM and Admin Experience team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
+The IAM team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1vTEWyiNQLhJYxo99HkgOhtdNyYfSlyyRNuhEnIySMMc/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
 
 We are using [GitHub Projects (Beta)](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) as our project tracking tool. The [list view of backlog](https://github.com/orgs/sourcegraph/projects/259/views/10) is publicly available in our team project.
 
@@ -110,21 +110,21 @@ See "[So you’re about to help us with user testing](../../../product/process/u
 
 #### Decision log
 
-[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the IAM and Admin Experience team in reverse-chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
+[This document](https://docs.google.com/document/d/10ylYWDpDABAlaF-dPi5_hgjNkTmakMeivxxsIz2Q3uQ/edit?usp=sharing) contains all important decisions and agreements done within the IAM team in reverse-chronological order so that they can be tracked over time. Consider this a single source of truth for all the decisions within the team. If you are leading the decision-making process, please update the documents with the details about the decision made. If appropriate, especially for team working agreement, please update the handbook as well.
 
 #### Team internal communication
 
-We are a globally distributed team with 16+ hours of time zone difference. Asynchronous communication is a key for achieving high visibility and close collaboration within the team. In addition to [general Sourcegraph async communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md), we agreed to the following recommendations within the IAM and Admin Experience team.
+We are a globally distributed team with 16+ hours of time zone difference. Asynchronous communication is a key for achieving high visibility and close collaboration within the team. In addition to [general Sourcegraph async communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md), we agreed to the following recommendations within the IAM team.
 
 ##### Team communication channels and how to use them
 
 ###### Slack
 
-While the team is following [multiple Slack channels](#team-slack-channels), [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
+While the team is following [multiple Slack channels](#team-slack-channels), [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) is the place for all work-related discussions, including [status updates](#regular-status-updates), questions, requests for help, team announcements, etc. Please remember that Slack is not a source of truth. To make the relevant information easily discoverable over time, use other channels (for example, GitHub, Handbook, Google docs, etc.) and reference them on Slack via links. It's worth thinking about Slack as a synchronous—rather than asynchronous—communication channel.
 
 ###### GitHub
 
-[GitHub](https://github.com/orgs/sourcegraph/projects/259/views/10) is the IAM and Admin Experience team's single source of truth for team backlog, work planning, and execution. Please include all tasks related to status updates and questions within GitHub issues and keep the state of the sprint board up to date.
+[GitHub](https://github.com/orgs/sourcegraph/projects/259/views/10) is the IAM team's single source of truth for team backlog, work planning, and execution. Please include all tasks related to status updates and questions within GitHub issues and keep the state of the sprint board up to date.
 
 Please keep all discussions related to ongoing code changes within GitHub pull requests. You will find more guidelines for making pull requests and asking for code review in the [Making pull requests and asking for code reviews](#making-pull-requests-and-asking-for-code-reviews) section.
 
@@ -138,18 +138,18 @@ Use comments in Figma to ask questions and share feedback. If a decision or miss
 
 Google doc is a great choice for kicking off async collaboration, proposing RFC, writing a one-pager problem definition, or documenting a decision. To make the context in Google docs more discoverable, we agreed to:
 
-- **Public Information** - Convert it to a handbook section/page linked from the main IAM and Admin Experience team handbook page once
-- **Information internal to Sourcegraph** - Create Google Doc within the [IAM and Admin Experience Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the IAM and Admin Experience Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
+- **Public Information** - Convert it to a handbook section/page linked from the main IAM team handbook page once
+- **Information internal to Sourcegraph** - Create Google Doc within the [IAM Team Google drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true) or if different location is more appropriate (for example RFCs) create a shortcut to this document within the IAM Team Google drive. If you decide to add a link to an internal Google doc directly in the handbook page, please ensure that sensitive information is not exposed in the link title.
 
 Please refer to our values of [open and transparent](../../../../../company-info-and-process/values/index.md#open-and-transparent) for more context about the difference between public and internal information.
 
 ###### Loom
 
-We are using Loom to record short videos for bug reports, demos, and for multimodal communication. This way, we can provide more context to the rest of the IAM and Admin Experience team.
+We are using Loom to record short videos for bug reports, demos, and for multimodal communication. This way, we can provide more context to the rest of the IAM team.
 
 ##### Regular status updates
 
-All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
+All team members, including product manager, engineering manager, and product designer, have agreed to share regular status updates on the [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) Slack channel. The recommended cadence is either daily or every second day, based on the needs and personal preferences. These updates should be focused on current sprint or quarterly goals, risk and blockers, requests for help, and any personal information you would like to share with your team.
 
 To keep the updates standardized, we are using the following template:
 
@@ -168,7 +168,7 @@ Where do I need help:
 
 #### Sprint reviews
 
-Each sprint is followed by a short sprint review meeting on Google Meet. During this meeting, we review the state of sprint goals, demo the features we delivered and discuss topics related to the sprint's scope. We also review the state of our retrospective actions items. This is an open meeting. Our stakeholders and members of other teams at Sourcegraph are always welcome to attend. Each review has a designated facilitator, usually an engineer from the IAM and Admin Experience team, responsible for filling in the [agenda](https://docs.google.com/document/d/14hxy2WrcOpKwpRKqkJ0bvsDc4vRyTolmgBsoOoj2jko/edit) and facilitating the meeting.
+Each sprint is followed by a short sprint review meeting on Google Meet. During this meeting, we review the state of sprint goals, demo the features we delivered and discuss topics related to the sprint's scope. We also review the state of our retrospective actions items. This is an open meeting. Our stakeholders and members of other teams at Sourcegraph are always welcome to attend. Each review has a designated facilitator, usually an engineer from the IAM team, responsible for filling in the [agenda](https://docs.google.com/document/d/14hxy2WrcOpKwpRKqkJ0bvsDc4vRyTolmgBsoOoj2jko/edit) and facilitating the meeting.
 
 #### Retrospectives
 
@@ -184,7 +184,7 @@ We review the backlog of action items during each [sprint review](#sprint-review
 
 To support the globally distributed nature of our team, we are doing our groomings in an asynchronous format. The [planning poker in ZenHub](https://help.zenhub.com/ce-support/support/solutions/articles/43000620555-planning-poker-in-zenhub) is our tool of choice, and we are running our groomings session based on the following schedule:
 
-- Each Monday, the new async grooming session should be created within [ZenHub board](https://app.zenhub.com/workspaces/iam-and-admin-experience-627aebcc9f8b7c00128a8ab6/board).
+- Each Monday, the new async grooming session should be created within [ZenHub board](https://app.zenhub.com/workspaces/iamerience-627aebcc9f8b7c00128a8ab6/board).
 - Every task added to the session should have an owner assigned. The task assignee is responsible for breaking the tasks into meaningful subtasks if applicable and working on description and acceptance criteria to meet the expectations of our DoR. This should be done between Monday and Wednesday.
 - Thursday and Friday are reserved for the whole team async estimation based on the planning poker session settings. We are using Fibonacci numbers and treating one story point as one day of work for a single engineer.
 - Each story point represents a single developer day.
@@ -195,7 +195,7 @@ The "grooming" label is used for marking tickets to be included in the upcoming 
 
 All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com&ctz=Europe%2FWarsaw). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
 
-- Please add `iam-and-admin-exp-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
+- Please add `iam-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
 - For reminders, you don’t need to add participants
 
 #### Paid Time Off
@@ -223,15 +223,15 @@ TBD
 
 ### Team slack channels
 
-- [#iam-and-admin-exp-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM and Admin Experience team for all day to day communication within the team.
-- [#iam-and-admin-exp](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM and Admin Experience team where other Sourcegraphers can ask for help or leave questions for the team.
+- [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM team for all day to day communication within the team.
+- [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
 - [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization.
 - [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
 - [#cloud-gtm](https://sourcegraph.slack.com/archives/C025T3B3NAH) - a place to discuss Sourcegraph Gloud go to market strategy, including pricing, packaging, customers, and more!
 
 ## Product and technical documentation
 
-Please go to [IAM and Admin Experience Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true).
+Please go to [IAM Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true).
 
 ## [Playbooks](playbooks/index.md) and procedures
 
@@ -239,10 +239,10 @@ Please go to [IAM and Admin Experience Team Google Drive](https://drive.google.c
 
 ## [Hiring](hiring/index.md)
 
-This section contains links to IAM and Admin Experience specific interview types.
+This section contains links to IAM specific interview types.
 
-- [Architectural Interview](hiring/iam-and-admin-exp-software-engineer-architectural-interview.md)
-- [Pairing Coding Interview](../../hiring/software-engineer-coding-exercise.md#iam-and-admin-exp-team-coding-exercise)
+- [Architectural Interview](hiring/iam-software-engineer-architectural-interview.md)
+- [Pairing Coding Interview](../../hiring/software-engineer-coding-exercise.md#iam-team-coding-exercise)
 
 ## Onboarding
 
@@ -254,7 +254,7 @@ We are applying 30/60/90 day patterns and breaking down the onboarding process i
 
 #### First month
 
-The central theme for the first month is **learning**. During these 30 days, your goal is to acquire the **foundational domain knowledge** about our product, processes, architecture, and codebase to help you **feel comfortable and effective in a software engineer's role** in the IAM and Admin Experience team.
+The central theme for the first month is **learning**. During these 30 days, your goal is to acquire the **foundational domain knowledge** about our product, processes, architecture, and codebase to help you **feel comfortable and effective in a software engineer's role** in the IAM team.
 
 You will be exposed to a ton of new information - you will meet many people, read multiple documents, and, most importantly, solve small, well-defined technical challenges. We understand this might feel overwhelming, so please relax and do not stress. This first month is the time for [learning and growth](../../../../../company-info-and-process/values#continuously-grow).
 
@@ -276,10 +276,10 @@ Finally, we would like you to start **shadowing** your team members during **on-
 
 Here you can find a list of questions asked by other team members during their onboarding. As a distributed, async-first team, our goal is to provide you with the answers to all these questions in an asynchronous form.
 
-If the answer is not available below, your buddy and the whole team will share their knowledge with you. We highly encourage you to contribute to this list and add tasks to our [onboarding improvements](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateammate-onboarding) to continuously improve the IAM and Admin Experience team domain knowledge database and onboarding process.
+If the answer is not available below, your buddy and the whole team will share their knowledge with you. We highly encourage you to contribute to this list and add tasks to our [onboarding improvements](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Ateammate-onboarding) to continuously improve the IAM team domain knowledge database and onboarding process.
 
 - How Sourcegraph is designed? - Deep dive into our [architecture](https://docs.sourcegraph.com/dev/background-information/architecture)
-- On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the IAM and Admin Experience team?
+- On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the IAM team?
 - Life of a commit - How does my code end up in production?
   - [Current Software Development Life Cycle](../../../process/sdlc.md)
   - [Cloud CI pipeline](https://docs.sourcegraph.com/dev/background-information/continuous_integration)
@@ -307,7 +307,7 @@ If the answer is not available below, your buddy and the whole team will share t
 
 ## Useful links
 
-- [IAM and Admin Experience Team GitHub Project](https://github.com/orgs/sourcegraph/projects/259)
-- [IAM and Admin Experience Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
-- [IAM and Admin Experience Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
+- [IAM Team GitHub Project](https://github.com/orgs/sourcegraph/projects/259)
+- [IAM Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
+- [IAM Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
 - [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/219)

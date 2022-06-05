@@ -91,7 +91,7 @@ Our team is geographically and timezone diverse. The handbook has a [large page 
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
-- [How gitserver works](../../enablement/repo-management/how-gitserver-works.md)
+- [How gitserver works](../../admin-exp/repo-management/how-gitserver-works.md)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
