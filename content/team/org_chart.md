@@ -14,7 +14,6 @@ The org chart is generated automatically from data files in the handbook reposit
 
 {{generator:reporting_structure.engineering_manager_security}}
 
-
 ## [Customer Engineering & Support](../departments/ce-support/ce/index.md#current-team-members)
 
 {{generator:reporting_structure.vp_customer_engineering}}
