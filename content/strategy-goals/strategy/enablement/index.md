@@ -52,7 +52,6 @@ To deliver on this focus our aim is to make the following true by the end of FY2
 
 ## Team specific pages
 
-- [Repo Management](../../../departments/product-engineering/engineering/enablement/repo-management/index.md) - [Strategy page](repo-management/index.md)
 - [Dev Experience](../../../departments/product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
 - [Frontend Platform](../../../departments/product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
 - [Content Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)

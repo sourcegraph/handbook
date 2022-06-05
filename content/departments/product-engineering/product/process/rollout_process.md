@@ -75,7 +75,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 ### Launch
 
 1. **Enable for all Sourcegraph Cloud users**
-   - Follow the steps in this [document](../../engineering/cloud/devops/update_sg_website_config.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
+   - Follow the steps in this [document](../../engineering/admin-exp/devops/update_sg_website_config.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
    - In the PR that pushes changes live, add everyone who gave approval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
@@ -125,7 +125,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 ### Launch
 
 1. **Release Process**
-   - Release process is different for each product. Please refer to the [Browser Extensions](../../engineering/cloud/integrations/browser-extensions) & [IDE Extensions](../../engineering/cloud/integrations/ide-extensions) pages for more details.
+   - Release process is different for each product. Please refer to the [Browser Extensions](../../engineering/admin-exp/integrations/browser-extensions) & [IDE Extensions](../../engineering/admin-exp/integrations/ide-extensions) pages for more details.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 

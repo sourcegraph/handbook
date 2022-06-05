@@ -132,7 +132,7 @@ The power of Sourcegraph is available everywhere that developers read or write c
 ## Additional resources
 
 - [Processes](processes.md)
-- [Goals](../../../../../strategy-goals/strategy/cloud/integrations/index.md)
+- [Goals](../../../../../strategy-goals/strategy/admin-exp/integrations/index.md)
 - Products
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)

@@ -57,9 +57,9 @@ A couple of notes before to help you get started in figuring out which team will
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`
 
-Any questions about self-hosted deployment should be routed to the [Delivery team](../../../product-engineering/engineering/cloud/delivery/index.md).
+Any questions about self-hosted deployment should be routed to the [Delivery team](../../../product-engineering/engineering/admin-exp/delivery/index.md).
 
-Any questions about managed instance deployment should be routed to the [DevOps team](../../../product-engineering/engineering/cloud/devops/index.md).
+Any questions about managed instance deployment should be routed to the [DevOps team](../../../product-engineering/engineering/admin-exp/devops/index.md).
 
 ### Monitoring, management, and performance optimization
 
@@ -67,9 +67,9 @@ Any questions about managed instance deployment should be routed to the [DevOps 
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance for self-hosted customers should be routed to the [Delivery team](../../../product-engineering/engineering/cloud/delivery/index.md).
+Any other questions about monitoring and performance for self-hosted customers should be routed to the [Delivery team](../../../product-engineering/engineering/admin-exp/delivery/index.md).
 
-Any other questions about monitoring and performance for managed insteance deployment should be routed to the [DevOps team](../../../product-engineering/engineering/cloud/devops/index.md).
+Any other questions about monitoring and performance for managed insteance deployment should be routed to the [DevOps team](../../../product-engineering/engineering/admin-exp/devops/index.md).
 
 ### Code host connections
 
@@ -79,18 +79,18 @@ Any questions about code host connections and repository syncing should be route
 
 EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 
-- `Perforce` should be routed to the [Repo Management](../../../product-engineering/engineering/enablement/repo-management/index.md)
-- `permission syncing` should be routed to the [Repo Management](../../../product-engineering/engineering/enablement/repo-management/index.md)
+- `Perforce` should be routed to the [Repo Management](../../../product-engineering/engineering/admin-exp/repo-management/index.md)
+- `permission syncing` should be routed to the [Repo Management](../../../product-engineering/engineering/admin-exp/repo-management/index.md)
 - `CVS` should be routed to the [Batch Changes team](../../../product-engineering/engineering/code-graph/batch-changes/index.md)
 - `license enforcement/management` should be routed to the [Batch Changes team](../../../product-engineering/engineering/code-graph/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../../product-engineering/engineering/cloud/integrations/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../../product-engineering/engineering/admin-exp/integrations/index.md).
 
 ### Repository Management
 
 **Keywords**: `indexing`, `gitserver`, `code host syncing`, `repo updates`
 
-Any questions about repository updating, indexing, or code host syncing should be routed to the [Repository Management team](../../../product-engineering/engineering/enablement/repo-management/index.md).
+Any questions about repository updating, indexing, or code host syncing should be routed to the [Repository Management team](../../../product-engineering/engineering/admin-exp/repo-management/index.md).
 
 ### Code Intelligence
 
@@ -112,13 +112,13 @@ In GitHub issues search-core and search-product should be flagged via team/searc
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Integrations team](../../../product-engineering/engineering/cloud/integrations/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Integrations team](../../../product-engineering/engineering/admin-exp/integrations/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Integrations team](../../../product-engineering/engineering/cloud/integrations/index.md).
+Any questions about Sourcegraph extensions should be routed to the [Integrations team](../../../product-engineering/engineering/admin-exp/integrations/index.md).
 
 ### Batch Changes
 
@@ -130,13 +130,13 @@ Any questions about Batch Changes should be routed to the [Batch Changes team](.
 
 **Keywords**: `cloud`, `Open Source Search`, `sourcegraph.com`, `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../../product-engineering/engineering/cloud/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
+Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../../product-engineering/engineering/admin-exp/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
 
-### IAM and Admin Experience
+### IAM
 
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM and Admin Experience team](../../../product-engineering/engineering/cloud/iam-and-admin-exp/index.md) via the [#iam-and-admin-exp slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
+Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM team](../../../product-engineering/engineering/admin-exp/iam/index.md) via the [#iam slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
 
 ### Code Insights
 

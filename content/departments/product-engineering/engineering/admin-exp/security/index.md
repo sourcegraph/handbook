@@ -205,7 +205,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Cloud
    </td>
-   <td>IAM and Admin Experience
+   <td>IAM
    </td>
    <td>Feroz
    </td>

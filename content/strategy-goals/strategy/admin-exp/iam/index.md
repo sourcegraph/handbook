@@ -1,14 +1,14 @@
-# IAM and Admin Experience Team
+# IAM Team
 
-This page outlines the short-term strategy for the IAM and Admin Experience Team. You can find the overview of Sourcegraph Product and Engineering FY23 Q2 focus [here](../../../../departments/product-engineering/strategy-goals/index.md#fy23-q2-focus)
+This page outlines the short-term strategy for the IAM Team. You can find the overview of Sourcegraph Product and Engineering FY23 Q2 focus [here](../../../../departments/product-engineering/strategy-goals/index.md#fy23-q2-focus)
 
 ## Q2 Objective and Key Results
 
 ### Problem Area: Align on Team Vision
 
-Today, the IAM and Admin Experience team is less than two weeks old and does not yet have a long-term mission or vision that aligns with the company vision.
+Today, the IAM team is less than two weeks old and does not yet have a long-term mission or vision that aligns with the company vision.
 
-- Key Result 1: An updated handbook page for the IAM and Admin Experience team including mission, vision, and team working agreements.
+- Key Result 1: An updated handbook page for the IAM team including mission, vision, and team working agreements.
 - Key Result 2: A GitHub board outlining the key efforts on our 12-month roadmap validated by customer product gaps.
 
 **Product and Engineering OKR Alignment:** This does not align to product & engineering OKRs. It is necessary due to the formation of a new team.

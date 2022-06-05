@@ -12,7 +12,7 @@ Our mission (which we do choose to accept) is to ensure that Sourcegraph’s mos
 
 ## Strategy
 
-[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../../../strategy-goals/strategy/enablement/repo-management/index.md)
+[Find out about the Repo Management team's vision, guiding principles, current status quo, and strategic plans](../../../../../strategy-goals/strategy/admin-exp/repo-management/index.md)
 
 ## Onboarding
 
@@ -89,7 +89,7 @@ Read more about [how this team works](processes.md).
 
 We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
 
-We also have a set of [guiding principles](../../../../../strategy-goals/strategy/enablement/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
+We also have a set of [guiding principles](../../../../../strategy-goals/strategy/admin-exp/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 
 ## Internal
 

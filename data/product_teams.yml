@@ -60,7 +60,7 @@ code_insights:
 integrations:
   title: Integrations
   product_org: adminexp
-  strategy_link: /strategy-goals/strategy/cloud/integrations/index.md
+  strategy_link: /strategy-goals/strategy/admin-exp/integrations/index.md
   pm: ryan_scott
   design: sara_lee
   em: murat_sutunc
@@ -71,7 +71,7 @@ integrations:
 growth:
   title: Growth
   product_org: adminexp
-  strategy_link: /strategy-goals/strategy/cloud/growth-team/index.md
+  strategy_link: /strategy-goals/strategy/admin-exp/growth-team/index.md
   em: murat_sutunc
   pmm: alex_isken
   issue_labels:
@@ -80,7 +80,7 @@ growth:
 iam:
   title: Identity and Access Management (IAM)
   product_org: adminexp
-  strategy_link: /strategy-goals/strategy/cloud/iam-admin/index.md
+  strategy_link: /strategy-goals/strategy/admin-exp/iam-admin/index.md
   pm: ryan_phillips
   design: quinn_keast
   em: rafal_leszczynski_iam
@@ -91,7 +91,7 @@ iam:
 
 devops:
   title: DevOps
-  strategy_link: /departments/product-engineering/engineering/cloud/devops/#goals
+  strategy_link: /departments/product-engineering/engineering/admin-exp/devops/#goals
   product_org: adminexp
   pm: bill_creager
   em: jennifer_mitchell
@@ -100,7 +100,7 @@ devops:
 
 delivery:
   title: Delivery
-  strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
+  strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
   product_org: adminexp
   pm: brienne_mcnally
   em: crystal_augustus
@@ -128,7 +128,7 @@ frontend_platform:
 
 repo_management:
   title: Repo Management
-  strategy_link: /strategy-goals/strategy/enablement/repo-management
+  strategy_link: /strategy-goals/strategy/admin-exp/repo-management
   product_org: adminexp
   em: jordan_plahn
   issue_labels:

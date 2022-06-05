@@ -81,7 +81,7 @@ We designed [this synchronous exercise](https://github.com/sourcegraph/interview
 
 If we decide to move forward, we will schedule interviews with team members.
 
-## IAM and Admin Experience team coding exercise
+## IAM team coding exercise
 
 We designed [this synchronous](https://github.com/sourcegraph/interviews/blob/master/engineering/coding/api-client/README.md) exercise to measure your approach to coding a small API client in a paired setting.
 
