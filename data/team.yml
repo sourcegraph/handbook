@@ -2841,7 +2841,7 @@ steve_fisher:
   pronouns: he/him
   role: Head of Design
   manager_role_slug: director_design
-  reports_to: ceo
+  reports_to: eng_lead
   location: Sechelt, BC, Canada 🇨
   github: hellofisher
   email: steve.fisher@sourcegraph.com
