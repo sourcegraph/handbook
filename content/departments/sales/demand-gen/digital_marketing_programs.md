@@ -31,7 +31,7 @@ We use a variety of CTAs, including:
 
 ### Audiences
 
-Audiences are heavily informed by [personas](../process/personas.md) and target account research, and campaign briefs ensure we don’t lose the plot along the way. We’re continually evolving how we segment and message audiences, testing and learning from microexperiments, particularly around use cases messaging. Want to know more about audiences, segmentation, or targeting? Ask the demand gen team!
+Audiences are heavily informed by [personas](../../marketing/process/personas.md) and target account research, and campaign briefs ensure we don’t lose the plot along the way. We’re continually evolving how we segment and message audiences, testing and learning from microexperiments, particularly around use cases messaging. Want to know more about audiences, segmentation, or targeting? Ask the demand gen team!
 
 > **For developer-focused campaigns**, we speak directly to individual practitioners who are trying to solve specific problems that Sourcegraph can address (better code search, better code reviews, finding & fixing bugs faster, etc.)
 
@@ -77,7 +77,7 @@ Additionally, we have an ongoing LinkedIn campaign promoting Sourcegraph (using 
 - It’s something written in a way that puts our audience/key personas and their problems first, and lead with their problems. But, it’s capable of looping back to our business goals with a product tie or demo request!
 - Sometimes: depending on the campaign and what else is going on, we might put paid spend behind less “newsworthy” posts that topically support broader initiatives to prime an audience or are one in a series of smaller posts that lead up to something bigger like an upcoming event, research report, feature release, etc.
 - A bonus: We know a similar, ungated piece generated a ton of engagement, so we’ve got confirmation there’s a large, active audience
-  We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See [more details](../process/ad_conversion_flows.md) on tracking ad conversions.
+  We capture/measure the results of our paid campaigns using tags in Google Tag Manager that fire events when certain actions are conducted on our site. See [more details](ad_conversion_flows.md) on tracking ad conversions.
 
 #### Understanding LinkedIn Ad Formats
 

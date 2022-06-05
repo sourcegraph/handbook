@@ -111,6 +111,7 @@ The current channels are:
 - #dev-databases
 - #dev-urandom
 - #prod-eng-announce
+- #eng-leads
 
 ## Misc.
 

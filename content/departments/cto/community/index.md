@@ -1,4 +1,4 @@
-# Community Relations
+# Community
 
 At Sourcegraph, our mission is to make it so [everyone can code](../../../strategy-goals/strategy#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community.
 
@@ -39,6 +39,6 @@ Playing an active role in broadening our reach in the community, building authen
 
 ## Read more
 
-- [How to become a Sourcegraph Champion](../process/becoming_a_sourcegraph_champion.md)
-- [Public projects using Sourcegraph](../process/public_projects_using_sourcegraph.md)
-- [Adding a community landing page](../process/oss_community_pages.md)
+- [How to become a Sourcegraph Champion](becoming_a_sourcegraph_champion.md)
+- [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
+- [Adding a community landing page](oss_community_pages.md)

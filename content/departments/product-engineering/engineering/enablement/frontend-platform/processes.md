@@ -4,7 +4,7 @@
 
 ### Planning
 
-We use the [FPT Planning](https://docs.google.com/document/d/1Y_1t9fPWn7VfARcLKj4KEV4FJoMHsGzG8flJH2V54QA/edit) document to asynchronously discuss our quarterly roadmap according to the [cadences outlined in the handbook](../../../process/planning-process.md). Our [Strategy](../../../../../../content/strategy-goals/strategy/enablement/frontend-platform/index.md) page is updated monthly to reflect our team’s plans.
+We use the [FPT Planning](https://docs.google.com/document/d/1Y_1t9fPWn7VfARcLKj4KEV4FJoMHsGzG8flJH2V54QA/edit) document to asynchronously discuss our quarterly roadmap. Our [Strategy](../../../../../../content/strategy-goals/strategy/enablement/frontend-platform/index.md) page is updated monthly to reflect our team’s plans.
 
 We collect our team’s important planning documents in [Frontend Platform RFCs and PDs](https://docs.google.com/document/d/12CJP9T360GzxQJpJuJgtRid3uKpyIWPo1XpvkXG3P9M/edit).
 

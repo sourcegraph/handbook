@@ -41,8 +41,6 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 - [All-remote](../../../../company-info-and-process/remote/index.md)
 - [Asynchronous communication](../../../../company-info-and-process/communication/asynchronous-communication.md)
 
-Learn more about Sourcegraph's [Social Media](../../../marketing/social-media/index.md)
-
 ## Leaving Company Reviews
 
 We encourage teammates to leave honest reviews about their Sourcegraph experience on the following sites:
