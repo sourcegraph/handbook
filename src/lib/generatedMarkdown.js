@@ -192,6 +192,9 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
+    if (teamMember.hide_on_team_page) {
+      continue
+    }
     pageContent += `\n### ${String(teamMember.name)}\n`
     if (teamMember.role) {
       pageContent += `${String(teamMember.role)}`

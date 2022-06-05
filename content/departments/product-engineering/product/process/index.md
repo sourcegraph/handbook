@@ -4,7 +4,8 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Planning process](../../process/planning-process.md) - how we do planning and the artifacts we use to plan. See also [design workshops](../design/workshops/index.md) and our [user research page](user_research/index.md) for design and research activities that can contribute to planning.
+- [Design workshops](../design/workshops/index.md)
+- [User research](user_research/index.md)
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
 - [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.

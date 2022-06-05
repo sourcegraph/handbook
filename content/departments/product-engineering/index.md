@@ -21,7 +21,6 @@ Reference:
 [How to](process/index.md):
 
 - [Headcount planning](process/headcount-planning.md)
-- [Planning](process/planning-process.md)
 - [Submitting a bug report](process/submitting-a-bug-report.md)
 
 ## Handbook organization

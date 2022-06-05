@@ -4,7 +4,7 @@
 
 ### Planned work
 
-We use the [DevX Planning](https://docs.google.com/document/d/1REAHhadAHUyg9DSDpRyoNQZL8jUb0V8pL4ilhVUQ6ps/edit#heading=h.56tkkexago5v) document to asynchronously discuss our quarterly roadmap according to the [cadences outlined in the handbook](../../../process/planning-process.md). Our [Strategy](../../../../../../content/strategy-goals/strategy/enablement/dev-experience/index.md) page is updated monthly to reflect our team’s plans.
+We use the [DevX Planning](https://docs.google.com/document/d/1REAHhadAHUyg9DSDpRyoNQZL8jUb0V8pL4ilhVUQ6ps/edit#heading=h.56tkkexago5v) document to asynchronously discuss our quarterly roadmap. Our [Strategy](../../../../../../content/strategy-goals/strategy/enablement/dev-experience/index.md) page is updated monthly to reflect our team’s plans.
 
 ### Unplanned work
 

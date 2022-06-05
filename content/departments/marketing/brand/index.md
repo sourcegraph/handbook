@@ -27,13 +27,6 @@ The Brand Team works closely with teams at every level of the organization, and 
 
 Our team acts as liaison or point-of-contact with external entities when producing branded content, sponsorships, or partnerships in accordance with [Sourcegraph’s Brand Guidelines](brand_guidelines/index.md).
 
-Our company values can be found [here](../../../company-info-and-process/values/index.md). Our Brand Team Mission and Values can be found [here](brand_and_creative_team_mission_and_values.md).
-
-## The Team
-
-- Tracey Johnson - Brand Designer
-- More to come!
-
 ## Capabilities
 
 We deliver agency-caliber creativity and results in support of Sourcegraph's business goals to drive awareness, engagement, and affinity for our brand.
@@ -45,8 +38,7 @@ Connect with us if you have questions about any of the following:
 _Branding_
 
 - Brand management, brand identity design, logos, lockups, colors, etc.
-- Brand strategy, naming, positioning, packaging, narrative and market research
-  - [See Naming Process Guide](naming_process_for_products_features_and_programs.md) for more information on naming features, products, programs and initiatives
+- Brand strategy, [naming](../product-marketing/naming_guide.md), positioning, packaging, narrative and market research
 - Ownership of the [Sourcegraph Brand Guidelines](brand_guidelines/index.md) and our brand asset library
 
 _Design Strategy & Review_
@@ -54,7 +46,7 @@ _Design Strategy & Review_
 - Graphic design for print and digital media
 - Illustrations, iconography, infographics
 - Presentation graphics, layout and design
-- Print design and production, marketing collateral, swag
+- Print design and production, marketing collateral, [swag](../swag.md)
 
 _Website/Digital Experience Strategy & Review_
 
