@@ -39,9 +39,9 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Product team initiatives
 
-The product team takes on special initiatives that are not strictly tied to product delivery and they are tracked [in GitHub](https://github.com/sourcegraph/product-engineering-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22Product+Initiative%22).
+The product team takes on special initiatives that are not strictly tied to product delivery and they are tracked [in GitHub](https://github.com/sourcegraph/engineering-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22Product+Initiative%22).
 
-To create a new initiative, go to the [new issue screen](https://github.com/sourcegraph/product-engineering-tracker/issues/new/choose) for the [product-engineering-tracker repo](https://github.com/sourcegraph/product-engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
+To create a new initiative, go to the [new issue screen](https://github.com/sourcegraph/engineering-tracker/issues/new/choose) for the [engineering-tracker repo](https://github.com/sourcegraph/engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
 
 ## References
 

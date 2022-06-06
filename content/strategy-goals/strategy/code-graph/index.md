@@ -1,6 +1,6 @@
 # Code Graph strategy
 
-Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together over the next year or so, with each linked page providing a more detailed strategy for that area. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../departments/product-engineering/strategy-goals/index.md) to which all of this is aligned. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/34) (internal only) shows what we're delivering to make this strategy a reality.
+Code Graph comprises teams working on [Search](./search/index.md), [Code Insights](./code-insights/index.md), [Code Intelligence](./code-intelligence/index.md), and [Batch Changes](./batch-changes/index.md); this page describes the mission and strategy that ties them together over the next year or so, with each linked page providing a more detailed strategy for that area. There is also a whole-company [Sourcegraph strategy](../index.md) and [Product & Engineering strategy](../../../departments/engineering/strategy-goals/index.md) to which all of this is aligned. Our [roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/34) (internal only) shows what we're delivering to make this strategy a reality.
 
 If you're new to our strategy pages, this video walkthrough (last updated Feb 2022) will help orient you.
 
@@ -18,7 +18,7 @@ Apart from the work each of our teams do for our mission, across Code Graph we'r
 - Improving discoverability increases feature adoption because it brings users into features at moments when the features would be most useful
 - Building cross-team capabilities helps us deliver features that are more than the sum of their parts (as opposed to shipping our org chart)
 
-Because this theme intentionally bridges team boundaries, we are especially mindful of following our [collaboration principles](../../../departments/product-engineering/process/cross-org-team-collab.md), which also includes details on how we collaborate with the [Growth](../admin-exp/growth-team/index.md) team on our [new user experience](../../../departments/product-engineering/process/new-user-experience.md).
+Because this theme intentionally bridges team boundaries, we are especially mindful of following our [collaboration principles](../../../departments/engineering/process/cross-org-team-collab.md), which also includes details on how we collaborate with the [Growth](../admin-exp/growth-team/index.md) team on our [new user experience](../../../departments/engineering/process/new-user-experience.md).
 
 For Q2 FY23 (the current quarter) we plan to have special focus on the [fixing security vulnerabilities](../use-cases/fixing-security-vulnerabilities.md) use case.
 

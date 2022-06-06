@@ -25,6 +25,6 @@ Reference:
 
 ## Handbook organization
 
-Documentation that is relevant to both product and engineering belongs in the top-level product-engineering folder.
+Documentation that is relevant to both product and engineering belongs in the top-level engineering folder.
 
 Documentation that is primarily or exclusively relevant to product or engineering belongs in the appropriate product or engineering subfolder.
