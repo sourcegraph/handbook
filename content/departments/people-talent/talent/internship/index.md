@@ -76,7 +76,7 @@ While this is our first internship program, it won’t be our last! We welcome q
 
 Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
 
-Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
+The process for requesting an intern for your team and opening an intern role is documented [here](internship-recruiting-and-offers.md#opening-an-intern-role). Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 
 ### How to refer an intern
 
@@ -84,9 +84,17 @@ The process for referring an intern is the same process as referring a full time
 
 ### My intern request was approved, now what?
 
-If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
+If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews. 
+
+**For more detail about the internship recruiting and offer process, click [here](internship-recruiting-and-offers.md).**
 
 ### Managing an intern
+
+#### Prior to the internship
+
+Prior to the internship, the Internship Program Manager needs to complete a [set of steps](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date) before the internship start date. 
+
+#### During the internship 
 
 #### What does managing an intern require?
 
