@@ -41,7 +41,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
    2. If we collectively don't know the answer, then we engage engineering following the steps outlined [here](engaging-other-teams.md).
    3. A few additional tips...
       - If ever an issue seems a bit bigger than helping a customer fix something that isn't working correctly or explaining how something works (for example, the customer needs to make a decision about doing something one way or another), then it's a good idea to loop in the CE and see if they want to offer any additional ideas/thoughts to the customer to help them from a strategic perspective.
-      - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](../../../product-engineering/product#feature-matrices).
+      - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](../../../engineering/product#feature-matrices).
       - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
 
 9. **The application engineer resolves the issue.** We don't consider something resolved unless the customer does/would. Resolution happens in a few ways. Only when one of these is true do we designate a case "closed" in Zendesk -- and if we were working in Slack, we leave that channel.
@@ -72,7 +72,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Monitoring alerts trigger a page to make sure we know immediately about all outages (`about`, /`search` on sourcegraph.com, or `docs` is fully unreachable).
 - **Those involved:** Software engineers > support
-- **Details:** Initial pages trigger for the software engineer who is on-call. If it’s a system outage (about, /search, or docs is fully unreachable), the software developer pages support as outlined in our [on-call practice](../../../product-engineering/engineering/process/incidents/on_call.md). Support will help troubleshoot (gathering information from any customers who report the issue) and handle internal (alerting stakeholders)/external (direct and status page posting) communications as outlined in our [serving as messenger during incidents](../../../product-engineering/engineering/process/incidents/index.md).
+- **Details:** Initial pages trigger for the software engineer who is on-call. If it’s a system outage (about, /search, or docs is fully unreachable), the software developer pages support as outlined in our [on-call practice](../../../engineering/engineering/process/incidents/on_call.md). Support will help troubleshoot (gathering information from any customers who report the issue) and handle internal (alerting stakeholders)/external (direct and status page posting) communications as outlined in our [serving as messenger during incidents](../../../engineering/engineering/process/incidents/index.md).
 
 ### Customer Slack channels #trial-[customer] and #support-[customer]
 
@@ -103,7 +103,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### support@ email
 
@@ -115,7 +115,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** An email that is sometimes included in forms we send customers (for example, our NPS forms). It may not be used frequently, but when it is used, we want to be sure nothing falls through the cracks.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### Support contracts
 
@@ -133,7 +133,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 

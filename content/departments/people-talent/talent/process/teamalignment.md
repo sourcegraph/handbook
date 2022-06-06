@@ -699,7 +699,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Product
 
    </td>
-   <td>Technical Writing
+   <td>Product Education
 
    </td>
    <td>Veronica Bueno

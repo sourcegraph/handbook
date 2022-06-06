@@ -1,10 +1,10 @@
-# Technical writing
+# Product Education
 
 ## Vision
 
-At the end of FY’22 a new team, Technical Writing, was formed within the product organization.
+At the end of FY’22 a new team, Product Education, was formed within the product organization.
 
-The Technical Writing team aims to ensure that users not only understand how features work but why they are important through practical, actionable technical content.
+The Product Education team aims to ensure that users not only understand how features work but why they are important through practical, actionable technical content.
 
 Put another way, this team's primary goal is to educate users and provide them with a path to realized value in Sourcegraph products, as well as help them achieve measurable success in reaching their desired outcomes. We strive to accomplish this through a variety of educational content that goes beyond docs and also includes guides, technical use cases, tutorials, videos, and any other content/mediums/approaches that serve our users and this goal.
 

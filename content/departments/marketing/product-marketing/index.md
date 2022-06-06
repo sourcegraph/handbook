@@ -67,4 +67,4 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 - [Batch Changes positioning](batch_changes_positioning.md)
 - [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
-- [Product Marketing & Product Manager collaboration](../../product-engineering/product/process/index.md#product-management--marketing)
+- [Product Marketing & Product Manager collaboration](../../engineering/product/process/index.md#product-management--marketing)

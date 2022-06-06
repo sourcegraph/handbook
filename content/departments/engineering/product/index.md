@@ -1,6 +1,8 @@
 # Product
 
-The product team at Sourcegraph consists of [product management](process/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md). We strive to make the following true:
+> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
+
+The product team at Sourcegraph consists of [product management](process/index.md), [product design](design/index.md), and [Product Education](product_education/index.md). We strive to make the following true:
 
 - The team is working on the most important things on [our strategy](../../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
 - Each teammate has the customer and product context needed about customer problems, likely future priorities, possible solutions, etc. to perform their work effectively.
@@ -39,9 +41,9 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Product team initiatives
 
-The product team takes on special initiatives that are not strictly tied to product delivery and they are tracked [in GitHub](https://github.com/sourcegraph/product-engineering-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22Product+Initiative%22).
+The product team takes on special initiatives that are not strictly tied to product delivery and they are tracked [in GitHub](https://github.com/sourcegraph/engineering-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22Product+Initiative%22).
 
-To create a new initiative, go to the [new issue screen](https://github.com/sourcegraph/product-engineering-tracker/issues/new/choose) for the [product-engineering-tracker repo](https://github.com/sourcegraph/product-engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
+To create a new initiative, go to the [new issue screen](https://github.com/sourcegraph/engineering-tracker/issues/new/choose) for the [engineering-tracker repo](https://github.com/sourcegraph/engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
 
 ## References
 

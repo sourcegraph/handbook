@@ -1,6 +1,6 @@
 # Enablement strategy
 
-The [Enablement organization](../../../departments/product-engineering/engineering/enablement/index.md) teams work on the technical foundation for developing our product and supporting digital assets. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual strategy page that describes what they are working on and why in more detail.
+The [Enablement organization](../../../departments/engineering/engineering/enablement/index.md) teams work on the technical foundation for developing our product and supporting digital assets. This page describes the overarching mission and strategy that ties these teams together. Each team has an individual strategy page that describes what they are working on and why in more detail.
 
 ## Mission
 
@@ -52,6 +52,6 @@ To deliver on this focus our aim is to make the following true by the end of FY2
 
 ## Team specific pages
 
-- [Dev Experience](../../../departments/product-engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
-- [Frontend Platform](../../../departments/product-engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
-- [Content Platform](../../../departments/product-engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)
+- [Dev Experience](../../../departments/engineering/engineering/enablement/dev-experience/index.md) - [Strategy Page](dev-experience/index.md)
+- [Frontend Platform](../../../departments/engineering/engineering/enablement/frontend-platform/index.md) - [Strategy page](frontend-platform/index.md)
+- [Content Platform](../../../departments/engineering/engineering/enablement/content-platform/index.md) - [Strategy page](content-platform/index.md)

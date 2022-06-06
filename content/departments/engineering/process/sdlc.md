@@ -33,7 +33,7 @@ If complex problems surface during this step, an RFC can be created to frame the
 
 The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. The solution is scrutized to evaluate if the requirements stated in the design phase are met.
 
-Security is evaluated through automated [vulnerability scanning and SAST](../../product-engineering/engineering/admin-exp/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
+Security is evaluated through automated [vulnerability scanning and SAST](../../engineering/engineering/admin-exp/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
 
 If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
 
