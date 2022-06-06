@@ -1,4 +1,4 @@
-# Director of Technical Writing interview process
+# Director of Product Education interview process
 
 Total interview time: 5 hrs
 

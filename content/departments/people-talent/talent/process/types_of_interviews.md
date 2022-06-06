@@ -510,7 +510,7 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 - Duration: 30 mins
 - Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organized plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
 
-### Director of Technical Writing
+### Director of Product Education
 
 #### Async strategy and writing project
 
