@@ -148,7 +148,7 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 
 **Keywords**: `docs`, `documentation`, `sourcegraph.com`,
 
-The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our technical writing team).
+The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our Product Education team).
 
 If the docs site is unavilable, route to the [Content Platform team](../../../product-engineering/engineering/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
 

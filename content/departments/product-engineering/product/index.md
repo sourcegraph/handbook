@@ -1,6 +1,6 @@
 # Product
 
-The product team at Sourcegraph consists of [product management](process/index.md), [product design](design/index.md), and [technical writing](technical_writing/index.md). We strive to make the following true:
+The product team at Sourcegraph consists of [product management](process/index.md), [product design](design/index.md), and [Product Education](product_education/index.md). We strive to make the following true:
 
 - The team is working on the most important things on [our strategy](../../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
 - Each teammate has the customer and product context needed about customer problems, likely future priorities, possible solutions, etc. to perform their work effectively.
