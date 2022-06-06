@@ -10,7 +10,7 @@ This page provides a strategic introduction to one of our [company use cases](..
 
 This use case has sponsors who [help maintain it](../working-with-use-cases.md). If you have questions or suggestions, you can reach out to them.
 
-{{generator:use_case_sponsors.fixing_security_vulnerabilities}}
+{{generator:use_case_sponsors.code_security}}
 
 ## Overall vision
 
@@ -62,7 +62,7 @@ The following are real, anonymized quotes from customers today on how we’re al
 
 ## Features that enable this use case
 
-{{generator:use_case_feature_list.fixing_security_vulnerabilities}}
+{{generator:use_case_feature_list.code_security}}
 
 ## Additional resources
 

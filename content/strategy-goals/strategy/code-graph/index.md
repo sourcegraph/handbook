@@ -20,7 +20,7 @@ Apart from the work each of our teams do for our mission, across Code Graph we'r
 
 Because this theme intentionally bridges team boundaries, we are especially mindful of following our [collaboration principles](../../../departments/engineering/process/cross-org-team-collab.md), which also includes details on how we collaborate with the [Growth](../admin-exp/growth-team/index.md) team on our [new user experience](../../../departments/engineering/process/new-user-experience.md).
 
-For Q2 FY23 (the current quarter) we plan to have special focus on the [Code security](../use-cases/fixing-security-vulnerabilities.md) use case.
+For Q2 FY23 (the current quarter) we plan to have special focus on the [Code security](../use-cases/code-security.md) use case.
 
 ## Principles
 
