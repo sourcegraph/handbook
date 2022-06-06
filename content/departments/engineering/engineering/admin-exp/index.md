@@ -2,11 +2,7 @@
 
 ## Mission
 
-Our mission is to provide the fastest, most seamless way for development teams to bring Sourcegraph into their workflows, wherever they are. We do this by optimizing the processes and tools at those initial touchpoints and bridging our value to our users needs.
-
-- “seamless way” → if Sourcegraph cloud is a method of deploying Sourcegraph, we’re solving the problem of “bringing Sourcegraph in,” not “making code search better.”
-- “development teams” → includes developers themselves, engineering managers, and the intersections with the rest of their org chart. Also steps away from the question of team scale, and encompasses all sizes of customer.
-- “into their workflows” → Sourcegraph cloud is more than sourcegraph.com and code search, and Sourcegraph cloud offers unique opportunities for integration into existing workflows in ways that self-hosted deployments might not be able to support.
+Our mission is to provide the fastest, most seamless way for development teams to bring Sourcegraph into their workflows.  Going form 0 -> 1 with Sourcegraph should be intuitive and straight-forward.  Our persona focus is Sourcegraph admins that deploy, configure, and roll our products and tools out to their organizations
 
 ## Teams
 
@@ -24,4 +20,4 @@ Our mission is to provide the fastest, most seamless way for development teams t
 
 ## Contact
 
-#cloud-org channel in Slack
+#admin-exp-org channel in Slack
