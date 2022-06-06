@@ -32,7 +32,7 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 **Step 5**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
 
-- COMING SOON: how to decline candidates
+- Click [here](interview_process.md#declining-candidates) to learn how to decline candidates. 
 
 **Step 6**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
