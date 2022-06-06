@@ -171,7 +171,6 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 
 `Stop` You are **very** certain that this candidate does not embody this attribute.
 
-
 ## Declining candidates
 
 **Who receives a written rejection:**
@@ -179,13 +178,14 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 - Any candidate who applies to Sourcegraph but doesn't make it to the Recruiter Screen stage.
 - Any candidate who has a Recruiter Screen, but isn't progressed to the Hiring Manager Screen stage.
 
-Follow [these steps](https://support.greenhouse.io/hc/en-us/articles/360025225732-Reject-candidate-or-prospect) on how to send candidates a written rejection using a standardized rejection template in Greenhouse. 
+Follow [these steps](https://support.greenhouse.io/hc/en-us/articles/360025225732-Reject-candidate-or-prospect) on how to send candidates a written rejection using a standardized rejection template in Greenhouse.
 
 **Who receives a phone call rejection:**
 
 - Any candidate who makes it past the Hiring Manager Screen stage.
 
-If you make it to or past the Hiring Manager stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward. 
+If you make it to or past the Hiring Manager stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward.
 
 ### How to keep feedback legal
-### Best practices for giving feedback 
+
+### Best practices for giving feedback
