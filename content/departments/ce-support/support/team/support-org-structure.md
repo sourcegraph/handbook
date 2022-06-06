@@ -76,7 +76,7 @@ Each manager can put their own spin on the planning/retro they facilitate. Each 
 
 If any all-team wide ad hoc meetings are also needed, this same model will be used, where the managers each facilitate a session and participants opt into which times work and are randomly identified for one of the sessions that works for them.
 
-Virginia will attend as-needed and when needed, will attend all sessions.
+Aimee will attend as-needed and when needed, will attend all sessions.
 
 ## Team announcements/initiatives
 
@@ -101,7 +101,7 @@ We will continue to have several optional ways for the team to engage socially:
 
 ## Quarterly check-ins
 
-Every quarter, Virginia will check-in with each member of the team to catch-up, see how things are going, gather perspectives, and validate the team is headed and/or operating the way we want.
+Every quarter, Aimee will check-in with each member of the team to catch-up, see how things are going, gather perspectives, and validate the team is headed and/or operating the way we want.
 
 ## Performance management
 
