@@ -1,6 +1,6 @@
 # Working with issues
 
-Product-engineering teams are free to adopt the workflow they want for planning out sprints and organizing their backlog. However, we need to ensure that there is a clear way to submit issues to a team, and that issues get looked at. To balance the need for flexibility (the workflow that works best for each team) with the need for consistency, each product-engineering team needs to implement a minimum set of constraints.
+Product-engineering teams are free to adopt the workflow they want for planning out sprints and organizing their backlog. However, we need to ensure that there is a clear way to submit issues to a team, and that issues get looked at. To balance the need for flexibility (the workflow that works best for each team) with the need for consistency, each engineering team needs to implement a minimum set of constraints.
 
 In other words, pick the workflow you want, as long as you implement this interface:
 

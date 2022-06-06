@@ -486,7 +486,7 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 #### Design research & managing success
 
-- Interviewer(s): [Two Product Designers](../../../product-engineering/product/team/index.md)
+- Interviewer(s): [Two Product Designers](../../../engineering/product/team/index.md)
 - Duration: 1 hour
 - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
@@ -500,7 +500,7 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 #### Meet your team
 
-- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../../product-engineering/product/index.md#product).
+- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../../engineering/product/index.md#product).
 - Duration: 45 min
 - Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
 
@@ -532,15 +532,15 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 ### Product manager
 
-#### Async writing project [(RFC Project)](../../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
+#### Async writing project [(RFC Project)](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
-- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
+- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -554,15 +554,15 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 #### Portfolio review
 
-- Interviewer(s): [Two Product Designers](../../../product-engineering/product/index.md).
+- Interviewer(s): [Two Product Designers](../../../engineering/product/index.md).
 - Duration: 1 hour
-- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../../product-engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
+- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../../engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
 
 #### Design exercise
 
-- Interviewer(s): [Product Manager, Product Designers](../../../product-engineering/product/index.md), and a Frontend engineer.
+- Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
 - Duration: 2 hours
-- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
+- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
 - The interview is in 2 parts. Below is the prompt:
 - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
 - Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
@@ -579,13 +579,13 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 

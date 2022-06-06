@@ -5,11 +5,11 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 ## Quick links
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
 - [Batch Changes positioning and messaging](../../../../departments/marketing/product-marketing/batch_changes_positioning.md)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
-- [Batch Changes team page](../../../../departments/product-engineering/engineering/code-graph/batch-changes/index.md)
+- [Batch Changes team page](../../../../departments/engineering/engineering/code-graph/batch-changes/index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
@@ -69,7 +69,7 @@ To drive enterprise success and stickiness, we need to:
 
 ### Get changesets merged
 
-The key [success metric](../../../../departments/product-engineering/engineering/code-graph/batch-changes/metrics.md) for batch changes is the number of changesets that get _merged_. In practice, once a user has applied a batch change, they need to spend time tracking and following up with downstream repository owners so that they merge the batch change's changesets. The larger the batch change, the more time-consuming this can be. We want to improve how easy it is for users to get large batch changes over the finish line, as measured by time-to-merge and batch changes merge rate.
+The key [success metric](../../../../departments/engineering/engineering/code-graph/batch-changes/metrics.md) for batch changes is the number of changesets that get _merged_. In practice, once a user has applied a batch change, they need to spend time tracking and following up with downstream repository owners so that they merge the batch change's changesets. The larger the batch change, the more time-consuming this can be. We want to improve how easy it is for users to get large batch changes over the finish line, as measured by time-to-merge and batch changes merge rate.
 
 ### Time-to-value
 

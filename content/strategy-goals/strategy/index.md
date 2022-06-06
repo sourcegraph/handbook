@@ -59,7 +59,7 @@ There are also several related resources:
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../departments/product-engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/engineering/product/design/product_design_principles.md).
 
 ### Assumptions
 
@@ -111,9 +111,9 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
 
 ## Team strategy pages
 
-- [**Product & Engineering**](../../departments/product-engineering/strategy-goals/index.md)
+- [**Product & Engineering**](../../departments/engineering/strategy-goals/index.md)
   - [Highlights of planned features from all teams (currently internal only)](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164)
-  - [Feature areas by maturity, tier, or code host compatibility](../../departments/product-engineering/product/index.md#feature-matrices)
+  - [Feature areas by maturity, tier, or code host compatibility](../../departments/engineering/product/index.md#feature-matrices)
   - [Code Graph](code-graph/index.md)
     - [Search core and Search product](code-graph/search/index.md)
     - [Batch Changes](code-graph/batch-changes/index.md)

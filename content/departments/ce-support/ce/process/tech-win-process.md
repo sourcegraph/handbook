@@ -121,7 +121,7 @@ Store Completed Success Plans <strong>[Here]</strong>
    </td>
    <td>This page is intended as a reference of features by code host compatibility; each item will link to further documentation on the feature.
 <p>
-<a href="https://handbook.sourcegraph.com/departments/product-engineering/product/tools/feature_compatibility">Link to Product Feature Compatibility Page</a>
+<a href="https://handbook.sourcegraph.com/departments/engineering/product/tools/feature_compatibility">Link to Product Feature Compatibility Page</a>
    </td>
    <td>3
    </td>
@@ -133,7 +133,7 @@ Store Completed Success Plans <strong>[Here]</strong>
    </td>
    <td>This page is intended as a reference of features by maturity level; each item will link to further documentation on the feature.
 <p>
-<a href="https://handbook.sourcegraph.com/departments/product-engineering/product/tools/feature_maturity">Link to Product Feature Maturity Page</a>
+<a href="https://handbook.sourcegraph.com/departments/engineering/product/tools/feature_maturity">Link to Product Feature Maturity Page</a>
    </td>
    <td>3
    </td>
@@ -274,7 +274,7 @@ Because CEs work directly with Sourcegraph users in the course of assessing the 
 
 It is important to distinguish all customer feedback CEs receive from what would be considered a product gap. A product gap would be some feedback a CE collects from a prospect during the initial sales cycle, or from an existing customer, that could be within the expected scope of work for the Product and Engineering team. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated into our roadmap. In contrast, a product feature or functionality that does not perform as documented might be a bug and should be handled through Product Support.
 
-All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../product-engineering/product/process/surfacing_product_feedback.md).
+All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../engineering/product/process/surfacing_product_feedback.md).
 
 ### Weekly Tech Win Review
 
