@@ -1,11 +1,15 @@
-# Product and Engineering
+# Engineering
 
-## Purpose
+The Engineering department at Sourcegraph consists of:
 
-[Product](product/index.md) and [Engineering](engineering/index.md) work closely together to create value for our customers by delivering a high quality product that solves their problems.
+- [Engineering](engineering/index.md)
+- [Product Management](product/index.md)
+- [Design](product/design/index.md)
+- [Product Education](product/product_education/index.md)
 
-- Product is responsible for defining, scoping, and prioritizing the problems we want to solve for our customers.
-- Engineering is responsible for determining how to solve the problems. This includes defining, scoping, and prioritizing technical problems engineering needs to solve to deliver high quality solutions to the prioritized customer problems.
+We work together to build a product that developers love and that solves big problems for our customers.
+
+> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on combining and flattening the handbook structure after that change.
 
 ## Links
 
@@ -22,9 +26,3 @@ Reference:
 
 - [Headcount planning](process/headcount-planning.md)
 - [Submitting a bug report](process/submitting-a-bug-report.md)
-
-## Handbook organization
-
-Documentation that is relevant to both product and engineering belongs in the top-level engineering folder.
-
-Documentation that is primarily or exclusively relevant to product or engineering belongs in the appropriate product or engineering subfolder.

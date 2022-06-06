@@ -72,18 +72,19 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Resources for Teammates](departments/people-talent/talent/index.md)
 - [Resources for Recruiters](departments/people-talent/talent/index.md)
 
-#### [Product](departments/engineering/product/index.md)
-
-- [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
-- [Process](departments/engineering/product/process/index.md)
-- [Design](departments/engineering/product/design/index.md)
-
-#### [Engineering](departments/engineering/engineering/index.md)
-
-<!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
+#### [Engineering](departments/engineering/index.md)
 
 - [Engineering](departments/engineering/engineering/index.md)
   - [Engineering orgs and teams](departments/engineering/engineering/team/index.md)
+- [Product Management](departments/engineering/product/index.md)
+  - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
+  - [Process](departments/engineering/product/process/index.md)
+  - [Design](departments/engineering/product/design/index.md)
+- [Design](departments/engineering/product/design/index.md)
+- [Product Education](departments/engineering/product/product_education/index.md)
+
+
+> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 
 ### [Customer Support](departments/ce-support/support/index.md)
 
