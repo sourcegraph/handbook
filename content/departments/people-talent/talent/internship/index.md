@@ -84,7 +84,7 @@ The process for referring an intern is the same process as referring a full time
 
 ### My intern request was approved, now what?
 
-If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews. 
+If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
 
 **For more detail about the internship recruiting and offer process, click [here](internship-recruiting-and-offers.md).**
 
@@ -92,9 +92,9 @@ If your team is selected to have an intern, the recruiter will reach out via sla
 
 #### Prior to the internship
 
-Prior to the internship, the Internship Program Manager needs to complete a [set of steps](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date) before the internship start date. 
+Prior to the internship, the Internship Program Manager needs to complete a [set of steps](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date) before the internship start date.
 
-#### During the internship 
+#### During the internship
 
 #### What does managing an intern require?
 
