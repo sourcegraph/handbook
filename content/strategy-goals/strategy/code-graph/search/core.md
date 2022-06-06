@@ -40,7 +40,7 @@ As a first step towards improving the ranking of results, we have enabled [zoekt
 
 **Ranking**: As a first step towards improving the ranking of our search results, we will start tracking the quality of search results using the index of user-selected results as a proxy metric. Having this tracking in place will help measure the success of future improvements. We will also conduct discovery of customers needs and pain points to drive the areas of ranking we choose to focus on.
 
-**Dependencies Search**: We will expand support for dependencies search to include Python and JVM and implement `repo:dependents(...)` allowing users to search which repositories depend on a specific package. This will be particularly relevant for the fixing security vulnerabilities use case.
+**Dependencies Search**: We will expand support for dependencies search to include Python and JVM and implement `repo:dependents(...)` allowing users to search which repositories depend on a specific package. This will be particularly relevant for the Code security use case.
 
 #### What we're not working on and why
 
