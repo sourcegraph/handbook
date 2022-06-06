@@ -85,8 +85,6 @@ Directors lead, grow, and develop Product Managers.
 - Model, teach, and apply [our values](../../../../company-info-and-process/values/index.md) in everyday interactions.
 - Facilitate and sustain a healthy, inclusive team culture where everyone is set up to do their best work
 
-## Director of Technical Writing
-
 ### Responsibilities
 
 TO DO

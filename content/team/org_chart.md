@@ -4,7 +4,7 @@ The org chart is generated automatically from data files in the handbook reposit
 
 ## [Engineering](../departments/product-engineering/index.md)
 
-Our Engineering department includes design, tech writing, product management, and software engineering.
+Our Engineering department includes design, product education, product management, and software engineering.
 
 {{generator:reporting_structure.eng_lead}}
 

@@ -2276,9 +2276,9 @@ jeff_wayman:
   email: jeff.wayman@sourcegraph.com
   github: jwayman
   pronouns: he/him
-  role: Director, Technical Writing
-  reports_to: ceo
-  manager_role_slug: head_of_technical_writing
+  role: Director, Product Education
+  reports_to: eng_lead
+  manager_role_slug: head_of_product_education
   location: Valrico, FL, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/jeffwayman/)'
   pronunciation: '[dʒɛf weɪmẽə̃n](http://ipa-reader.xyz/?text=d%CA%92%C9%9Bf%20we%C9%AAm%E1%BA%BD%C9%99%CC%83n&voice=Joanna)'
@@ -2787,7 +2787,7 @@ jean-paul_bezuidenhout:
   github: JeanPaulSG
   pronouns: he/him
   role: Senior Product Education Engineer
-  reports_to: head_of_technical_writing
+  reports_to: head_of_product_education
   location: Cape Town, South Africa 🇿🇦
   links: '[LinkedIn](www.linkedin.com/in/jeanpaulbezuidenhout)'
   description: Jean-Paul lives in Cape Town, South Africa. He is a writer and business practitioner. He spends his free time with his wife and two boys gardening or exploring Cape Town's forests, mountains and beaches. He also enjoys rainy days at home tinkering with tech. He keeps tropical fish and aquarium plants (and a fair bit of unwanted algae).
@@ -2798,7 +2798,7 @@ joe_johnson:
   github: blvckcoffee
   pronouns: he/him
   role: Senior Product Education Engineer
-  reports_to: head_of_technical_writing
+  reports_to: head_of_product_education
   location: Birmingham, AL, USA 🇺🇸
   description: Joe started his career as an educator and loves demystifying complex topics. He studied teaching and Computer Science at Florida State University. Prior to Sourcegraph, he designed learning experiences in the specialty coffee, eLearning, and AI industries. He lives in Birmingham with his wife, Steph, and spends his free time adjusting coffee brew ratios, reading, and hiking the foothills of the Appalachian Mountains.
 
@@ -2875,7 +2875,7 @@ dulani_wallace:
   name: Dulani Wallace
   pronouns: he/him/él
   role: Senior Product Education Engineer
-  reports_to: head_of_technical_writing
+  reports_to: head_of_product_education
   location: Washington, DC
   email: dulani.wallace@sourcegraph.com
   github: dulanism
