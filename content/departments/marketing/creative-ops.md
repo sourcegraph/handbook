@@ -7,8 +7,8 @@ This is where Creative Ops comes in. In simple words, Creative Ops exists to ope
 ### Objectives
 
 - Support content creation by producing visuals that spark conversation, drive conversion, and bring visibility to our content and brand
-- Work closely with our Marketing, Sales, and in-house Design team to ensure alignment with our business goals
 - Maintain the creative workflow to make it efficient, productive, and fully scalable
+- Work closely with our Marketing, Sales, and in-house Design team to ensure alignment between design and our business goals
 - Ensure brand consistency across everything we do at Sourcegraph
 
 Creative Ops is a cross-functional creative partner for all customer-facing teams and programs. With such a broad area of collaboration, we partner with external agencies and vendors to fulfill our goals.
@@ -34,4 +34,4 @@ We divide our functions into two categories: production and strategy
 
 ## Contact us
 
-Contact us in [#creative-ops to request](https://sourcegraph.slack.com/archives/C03F6TFAF62) creative assets, review your existing assets or simply share a fun idea for swag!
+Contact us in [#creative-ops](https://sourcegraph.slack.com/archives/C03F6TFAF62) to request creative assets, review your existing assets or simply share a fun idea for swag!
