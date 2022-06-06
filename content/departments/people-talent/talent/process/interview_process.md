@@ -71,7 +71,7 @@ Following your interview, please provide interview feedback immediately, no late
 
 - [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback)
 - We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback)
-- [How to keep your interview feedback legal](../process/interview_process.md#declining-candidates)
+- [How to keep your interview feedback legal](../process/interview_process.md#how-to-keep-feedback-legal)
 
 ### The decision making stage
 
