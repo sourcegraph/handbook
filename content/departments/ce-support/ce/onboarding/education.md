@@ -23,7 +23,7 @@ This page (WIP) provides new and existing CEs alike with important training, dem
 - [Enterprise vs. Open Source Sourcegraph](../onboarding/enterprise-vs-oss.md)
 - [Deployment Methods](deployment-methods.md)
 - [Demo repo contribution](../process/demo-repo-contribution.md)
-- [Code Insights Go to Market content](../../../product-engineering/engineering/code-graph/code-insights/go_to_market.md)
+- [Code Insights Go to Market content](../../../engineering/engineering/code-graph/code-insights/go_to_market.md)
 
 ## CE Tools
 

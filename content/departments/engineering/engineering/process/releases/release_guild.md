@@ -17,7 +17,7 @@ For the time being, captains are selected on a volunteer basis. The guild will d
 - Ensure release captains are identified for minor and patch releases
 - Organizing and adminstrating the release guild, such as establishing policies, procedures, and documenting how we work
 - Being a point of contact for the guild, and being responsible for overall communications to the rest of the guild
-- Regular updates to engineering leadership. Currently, weekly updates to the [release OKR](https://github.com/sourcegraph/product-engineering-tracker/issues/66)
+- Regular updates to engineering leadership. Currently, weekly updates to the [release OKR](https://github.com/sourcegraph/engineering-tracker/issues/66)
 
 ## FAQ
 

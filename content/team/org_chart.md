@@ -2,7 +2,7 @@
 
 The org chart is generated automatically from data files in the handbook repository ([need to edit it?](#how-to-edit)). Sourcegraph teammates can see a complete and up-to-date org chart for the entire company in [BambooHR](https://sourcegraph.bamboohr.com/).
 
-## [Engineering](../departments/product-engineering/index.md)
+## [Engineering](../departments/engineering/index.md)
 
 Our Engineering department includes design, product education, product management, and software engineering.
 

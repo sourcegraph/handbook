@@ -33,7 +33,7 @@ For Sales & CE, a good use case is:
 
 # Applied in Product & Engineering
 
-See [Product use case sponsorship guide](../../departments/product-engineering/product/process/index.md#use-case-sponsorship) for details.
+See [Product use case sponsorship guide](../../departments/engineering/product/process/index.md#use-case-sponsorship) for details.
 
 ## How do use cases fit within our platform?
 
