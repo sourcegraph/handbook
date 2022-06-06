@@ -22,7 +22,7 @@ code_health:
     engineering: joe_chen
 
 fixing_security_vulnerabilities:
-  title: Fixing Security Vulnerabilities
+  title: Code security
   link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
   sponsors:
     product: joel_kwartler

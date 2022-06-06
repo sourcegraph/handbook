@@ -32,7 +32,7 @@ We have identified five key use cases for our universal code search platform:
 1. [Developer onboarding](use-cases/dev-onboarding.md)
 1. [Code reuse](use-cases/code-reuse.md)
 1. [Code health](use-cases/code-health.md)
-1. [Fixing security vulnerabilities](use-cases/fixing-security-vulnerabilities.md)
+1. [Code security](use-cases/fixing-security-vulnerabilities.md)
 1. [Incident Response](use-cases/incident-response.md)
 
 There is no explicit mention of developer velocity in these use case titles, because they all improve developer velocity. Notably, research shows that revenue growth among companies who invest in the velocity of their developers see revenue growth up to 4-5 times faster than those who don’t.

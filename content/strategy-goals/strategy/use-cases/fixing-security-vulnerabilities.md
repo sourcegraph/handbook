@@ -2,7 +2,7 @@
 data_source: [/data/use_cases.yml, use cases]
 ---
 
-# Fixing security vulnerabilities use case
+# Code security use case
 
 This page provides a strategic introduction to one of our [company use cases](../index.md#use-cases). Check that link to find the rest of the use cases and learn how we use them as part of our company strategy.
 
@@ -70,7 +70,7 @@ The following are real, anonymized quotes from customers today on how we’re al
 
 - [Marketing page for Security Vulnerabilities use case](https://about.sourcegraph.com/use-cases/#find-and-fix-security-vulnerabilities)
 - [Use case index](../index.md#use-cases)
-- [Productboard fixing security vulnerabilities (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482297/detail)
+- [Productboard Code security (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases/features/11482297/detail)
 - [Tackling Log4j with Sourcegraph](https://about.sourcegraph.com/blog/log4j-log4shell-0-day)
 - [Cloudflare case study](https://about.sourcegraph.com/case-studies/cloudflare-accelerates-debugging-and-improves-security/)
 - [Related issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Ause-case%2Fdev-onboarding+label%3Ause-case%2Ffix-vulnerabilities)
