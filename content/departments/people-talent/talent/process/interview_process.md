@@ -63,7 +63,7 @@ If the Hiring Manager chooses to advance a candidate following the Hiring Manage
 
 The "onsite" stage is defined as all interviews that take place after the hiring manager screen.
 
-The Recruitment Operations specialist will schedule all remaining interviews in the interview process. It is important that all teammates accept the calendar invite to confirm that you plan to attend to the interview
+The Recruitment Operations specialist will schedule all remaining interviews in the interview process. It is important that all teammates accept the calendar invite to confirm that you plan to attend to the interview.
 
 - If you unable to make an interview, please Slack `#Hiring` immediately so that we can work on finding a replacement interviewer, or reschedule. Please do you best to provide a minimum of 24-hours notice if you are unable to attend.
 
@@ -71,7 +71,7 @@ Following your interview, please provide interview feedback immediately, no late
 
 - [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback)
 - We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback)
-- [How to keep your interview feedback legal](../process/interview_process.md#keeping-your-feedback-legal)
+- [How to keep your interview feedback legal](../process/interview_process.md#declining-candidates)
 
 ### The decision making stage
 
@@ -90,7 +90,7 @@ If we are _moving forward_ with an offer, the Recruiter will submit the offer de
 
 If we are _declining_ the candidate, the Recruiter will call the candidate.
 
-- COMING SOON: policy on declining candidates and giving feedback
+- Click [here](../process/interview_process.md#declining-candidates) for policy on declining candidates and providing feedback.
 
 ## Estimated time-to-hire
 
@@ -107,7 +107,7 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 - To source passive candidates, the Recruiter and Hiring Manager follows best sourcing practices in LinkedIn Recruiter.
 
 Click [here](how_to_be_a_sourcer_at_sourcegraph.md) to read about sourcing best practices and how a sourcer partners with a Recruiter and Hiring Manager.
-click [here](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) for a guide on creating a Recruiting Outreach Campaign.
+Click [here](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) for a guide on creating a Recruiting Outreach Campaign.
 
 ## **Outreach best practices**
 
@@ -171,19 +171,21 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 
 `Stop` You are **very** certain that this candidate does not embody this attribute.
 
-### Keeping your feedback legal
-
-COMING SOON
 
 ## Declining candidates
 
-COMING SOON: how to decline a candidate
-
-Who receives a written rejection:
+**Who receives a written rejection:**
 
 - Any candidate who applies to Sourcegraph but doesn't make it to the Recruiter Screen stage.
 - Any candidate who has a Recruiter Screen, but isn't progressed to the Hiring Manager Screen stage.
 
-Who receives a phone call rejection:
+Follow [these steps](https://support.greenhouse.io/hc/en-us/articles/360025225732-Reject-candidate-or-prospect) on how to send candidates a written rejection using a standardized rejection template in Greenhouse. 
+
+**Who receives a phone call rejection:**
 
 - Any candidate who makes it past the Hiring Manager Screen stage.
+
+If you make it to or past the Hiring Manager stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward. 
+
+### How to keep feedback legal
+### Best practices for giving feedback 
