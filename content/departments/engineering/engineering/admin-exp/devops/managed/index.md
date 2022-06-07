@@ -177,10 +177,6 @@ Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 - [Resume a Managed Instance](./resume_process.md)
 - [Enable Executors](./enable_executors_process.md)
 
-
-
-
-
 ## FAQ
 
 ### FAQ: Can customers disable the "Builtin username-password authentication"?
