@@ -1,7 +1,7 @@
 # Creating a managed instance
 
 Creating a new [managed instance](./index.md) involves following the steps below.
-For basic operations like accessing an instance for these steps, see [managed instances operations](operations.md).
+For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md).
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
@@ -36,7 +36,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$PROJECT_SLUG` to the `default-global-address` (`gcloud compute addresses list --filter="name:( default-global-address )" --project=$PROJECT_ID`) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
-1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
+1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](../operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
 1. Create a PR for review, apply and merge
 1. Check if all is running
 
@@ -66,7 +66,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. Enable metrics collection and GCP alerts for the new instance by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
-1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
+1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 
