@@ -4,7 +4,7 @@ This documentation details how the Distribution team at Sourcegraph internally h
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
-For opertaion guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
 
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
@@ -16,6 +16,7 @@ For opertaion guides (e.g. upgrade process), please see [managed instances opera
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
 - [SLAs for managed instances](#slas-for-managed-instances)
+- [Operations for managed instances](#operations)
 - [FAQ](#faq)
 
 ## When to offer a Managed Instance
@@ -166,16 +167,9 @@ All customer credentials, secrets, site configuration, app and user configuratio
 
 ### Operations
 
-Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
+Please review the Managed Instances v1.0 [operations guide](./operations.md) for instructions.
 
-- [Creating a Managed Instance](./creation_process.md)
-- [Upgrade a Managed Instance](./upgrade_process.md)
-- [Suspend a Managed Instance](./suspend_process.md)
-- [Resume a Managed Instance](./resume_process.md)
-- [Restore a Managed Instance](./restore_process.md)
-- [Delete a Managed Instance](./delete_process.md)
-- [Resume a Managed Instance](./resume_process.md)
-- [Enable Executors](./enable_executors_process.md)
+Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 
 
 
