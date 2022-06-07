@@ -37,5 +37,3 @@ The following processes only apply to Managed Instances v1.1:
 
 [cloud sql]: https://cloud.google.com/sql/postgresql
 [google cloud storage]: https://cloud.google.com/storage
-
-
