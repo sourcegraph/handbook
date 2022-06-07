@@ -4,7 +4,7 @@ This documentation details how the Distribution team at Sourcegraph internally h
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
-For opertaion guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
 
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
@@ -16,6 +16,7 @@ For opertaion guides (e.g. upgrade process), please see [managed instances opera
 - [Cost estimation](cost_estimation.md)
 - [Requesting a managed instance](#requesting-a-managed-instance)
 - [SLAs for managed instances](#slas-for-managed-instances)
+- [Operations for managed instances](#operations)
 - [FAQ](#faq)
 
 ## When to offer a Managed Instance
@@ -163,6 +164,12 @@ Sample managed instance incident - [customer XXX is down](https://app.incident.i
 Terraform is used to maintain all managed instances. You can find this configuration here: https://github.com/sourcegraph/deploy-sourcegraph-managed
 
 All customer credentials, secrets, site configuration, app and user configuration—is stored in Postgres only (i.e. on the encrypted GCP disk). This allows customers to enter their access tokens, secrets, etc. directly into the app through the web UI without transferring them to us elsewhere.
+
+### Operations
+
+Please review the Managed Instances v1.0 [operations guide](./operations.md) for instructions.
+
+Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 
 ## FAQ
 
