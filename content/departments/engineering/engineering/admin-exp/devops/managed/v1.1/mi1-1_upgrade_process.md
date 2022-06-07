@@ -45,6 +45,12 @@ export CUSTOMER=demo
 export VERSION=3.40.0
 ```
 
+Create branch
+
+```
+git checkout -b $CUSTOMER/upgrade-v$VERSION
+```
+
 Upgrade the deployment. At a high level, this will perform the following steps
 
 - update the symbolic link of `$CUSTOMER/$CURRENT_DEPLOYMENT/docker-compose/docker-compose.yaml` to the target golden file `golden/docker-compose.X.Y.Z.yaml`
@@ -60,9 +66,19 @@ mg --customer $CUSTOMER upgrade --target $VERSION
 
 Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
+```
+mg --customer $CUSTOMER check
+```
+
 ### Wrapping up
 
-Commit your change and create a pull request
+Commit your change:
+
+```
+git add . && git commit -m "$CUSTOMER: update docker-compose.yaml"
+```
+
+Create a pull request.
 
 ## Fallback plan
 

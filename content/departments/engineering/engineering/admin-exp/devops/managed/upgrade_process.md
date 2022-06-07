@@ -583,6 +583,8 @@ Snapshot is only prepared as an emergency measure - rolling back to this snapsho
 cd $NEW_DEPLOYMENT/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.<MAJOR.MINOR.PATCH>.yaml docker-compose.yaml && cd ../..
 ```
 
+Note: to avoid invoking command before version is changed, add `#` before pasting the command into the terminal.
+
 ### 5) Sync files to customer instance
 
 ```sh
