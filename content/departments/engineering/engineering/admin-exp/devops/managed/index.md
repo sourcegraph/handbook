@@ -171,10 +171,6 @@ Please review the Managed Instances v1.0 [operations guide](./operations.md) for
 
 Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 
-
-
-
-
 ## FAQ
 
 ### FAQ: Can customers disable the "Builtin username-password authentication"?
