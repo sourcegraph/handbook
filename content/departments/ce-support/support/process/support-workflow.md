@@ -8,7 +8,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
 
 2. **Someone engages the support team for help.** Our customers are able to initiate conversations for help via several methods (Slack channels, support@ email, Twitter, etc -- (more details below). Allowing customers to initiate conversations via several methods increases the likelihood that we become aware of issues, feedback, etc as quickly as possible and can get our customers the help they need. In order to scale this, we use Zendesk. Zendesk simplifies what would otherwise feel complex through out-of-the-box configuration and integrations, allowing us to have almost everything in one place for easy prioritization and powerful data tracking. We get the benefit of everything coming to one place and customers have the lowest barrier possible to interact with us. Our teammates will almost always reach out to us over Slack. The primary exception is when there is an outage (`about`, /`search` on sourcegraph.com, or `docs` is fully unreachable) and engineering pages us via OpsGenie.
 
-3. **An application engineer decides which conversation needs attention next.** As a general rule, we help in the order the request was received and aim to not have anyone waiting more than a couple of hours for a meaningful first response. In situations where we have too much work to honor this, we identify what needs to be handled next by following the "making hard decisions" list in [our prioritization guidance](support-prioritization.md). Virginia is accountable for triaging the queue, and everyone on the team is welcome to do triage when they are ready to take a ticket by following the steps outlined [here](customer-support-triaging.md).
+3. **An application engineer decides which conversation needs attention next.** As a general rule, we help in the order the request was received and aim to not have anyone waiting more than a couple of hours for a meaningful first response. In situations where we have too much work to honor this, we identify what needs to be handled next by following the "making hard decisions" list in [our prioritization guidance](support-prioritization.md). [@CS-triage](https://sourcegraph.slack.com/archives/C02A7A9GM6X) (customer support triage Slack user group) is accountable for triaging the queue, and everyone on the team is welcome to do triage when they are ready to take a ticket by following the steps outlined [here](customer-support-triaging.md).
 
 4. **An application engineer takes accountability for a conversation in Zendesk.** From that moment, the application engineer is accountable for making sure the issue is resolved. How many open, active issues an application engineer can handle simultaneously depends. The team will always have to work together to make sure everyone has the time and space they need to solve issues effectively. If any of us feel overwhelmed, we talk about it together and figure out a solution so that workloads are balanced and allow us to do our best work.
 
@@ -41,7 +41,7 @@ Things happen pretty much in this order...and at every step, our decisions and a
    2. If we collectively don't know the answer, then we engage engineering following the steps outlined [here](engaging-other-teams.md).
    3. A few additional tips...
       - If ever an issue seems a bit bigger than helping a customer fix something that isn't working correctly or explaining how something works (for example, the customer needs to make a decision about doing something one way or another), then it's a good idea to loop in the CE and see if they want to offer any additional ideas/thoughts to the customer to help them from a strategic perspective.
-      - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](../../../product-engineering/product#feature-matrices).
+      - Try to make sure that what you are helping a customer with is fully supported. You can check this by referring to the resources found [here](../../../engineering/product#feature-matrices).
       - For features tagged beta or experimental in our docs, it’s okay to err on the side of engaging engineering sooner rather than later (since we don't yet know if we will want to release these, we keep our docs light in case we opt to remove the feature after all).
 
 9. **The application engineer resolves the issue.** We don't consider something resolved unless the customer does/would. Resolution happens in a few ways. Only when one of these is true do we designate a case "closed" in Zendesk -- and if we were working in Slack, we leave that channel.
@@ -72,7 +72,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Monitoring alerts trigger a page to make sure we know immediately about all outages (`about`, /`search` on sourcegraph.com, or `docs` is fully unreachable).
 - **Those involved:** Software engineers > support
-- **Details:** Initial pages trigger for the software engineer who is on-call. If it’s a system outage (about, /search, or docs is fully unreachable), the software developer pages support as outlined in our [on-call practice](../../../product-engineering/engineering/process/incidents/on_call.md). Support will help troubleshoot (gathering information from any customers who report the issue) and handle internal (alerting stakeholders)/external (direct and status page posting) communications as outlined in our [serving as messenger during incidents](../../../product-engineering/engineering/process/incidents/index.md).
+- **Details:** Initial pages trigger for the software engineer who is on-call. If it’s a system outage (about, /search, or docs is fully unreachable), the software developer pages support as outlined in our [on-call practice](../../../engineering/engineering/process/incidents/on_call.md). Support will help troubleshoot (gathering information from any customers who report the issue) and handle internal (alerting stakeholders)/external (direct and status page posting) communications as outlined in our [serving as messenger during incidents](../../../engineering/engineering/process/incidents/index.md).
 
 ### Customer Slack channels #trial-[customer] and #support-[customer]
 
@@ -103,7 +103,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### support@ email
 
@@ -115,7 +115,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** An email that is sometimes included in forms we send customers (for example, our NPS forms). It may not be used frequently, but when it is used, we want to be sure nothing falls through the cracks.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
 
 ### Support contracts
 
@@ -133,7 +133,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../product-engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 

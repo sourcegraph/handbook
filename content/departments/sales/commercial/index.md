@@ -6,8 +6,6 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 [Kevin Quigley](../../../team/index.md#sts=Kevin%20Quigley)
 
-[Markie Muldez](../../../team/index.md#sts=Mark%20%E2%80%9CMarkie%E2%80%9D%20Muldez)
-
 [Sam Cregg](../../../team/index.md#sts=Sam%20Cregg)
 
 ## Quick Links
@@ -54,9 +52,9 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
    - Always keep the next steps date updated
 
 3. About the 3 Why’s:
-   - Why anything: this is a description of the customer’s business problem; this should be something quantifiable in terms of time or money or pertaining to security
+   - Why anything: this is a description of the customer’s business problem; this should be something quantifiable in terms of increasing revenue, reducing cost or reducing risk
    - Why Sourcegraph: this describes the technical problems that underlie the business problem and how Sourcegraph is uniquely suited to solving these technical problems
-   - Why now: this may come later in discovery but it gives purpose for a timeline / compelling event
+   - Why now: this is an explanation of for a timeline or compelling event that is driving the deal forward and cause for the deal to happen
 
 ## Best Practices
 

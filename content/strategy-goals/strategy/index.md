@@ -32,7 +32,7 @@ We have identified five key use cases for our universal code search platform:
 1. [Developer onboarding](use-cases/dev-onboarding.md)
 1. [Code reuse](use-cases/code-reuse.md)
 1. [Code health](use-cases/code-health.md)
-1. [Fixing security vulnerabilities](use-cases/fixing-security-vulnerabilities.md)
+1. [Code security](use-cases/code-security.md)
 1. [Incident Response](use-cases/incident-response.md)
 
 There is no explicit mention of developer velocity in these use case titles, because they all improve developer velocity. Notably, research shows that revenue growth among companies who invest in the velocity of their developers see revenue growth up to 4-5 times faster than those who don’t.
@@ -59,7 +59,7 @@ There are also several related resources:
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../departments/product-engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/engineering/product/design/product_design_principles.md).
 
 ### Assumptions
 
@@ -111,9 +111,9 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
 
 ## Team strategy pages
 
-- [**Product & Engineering**](../../departments/product-engineering/strategy-goals/index.md)
+- [**Product & Engineering**](../../departments/engineering/strategy-goals/index.md)
   - [Highlights of planned features from all teams (currently internal only)](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164)
-  - [Feature areas by maturity, tier, or code host compatibility](../../departments/product-engineering/product/index.md#feature-matrices)
+  - [Feature areas by maturity, tier, or code host compatibility](../../departments/engineering/product/index.md#feature-matrices)
   - [Code Graph](code-graph/index.md)
     - [Search core and Search product](code-graph/search/index.md)
     - [Batch Changes](code-graph/batch-changes/index.md)
@@ -122,16 +122,16 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
   - [Enablement](enablement/index.md)
     - [Dev Experience](enablement/dev-experience/index.md)
     - [Frontend Platform](enablement/frontend-platform/index.md)
-    - [Repo Management](enablement/repo-management/index.md)
     - [Engineering Education](enablement/engineering-education/index.md)
     - [Content Platform](enablement/content-platform/index.md)
-  - [Cloud](cloud/index.md)
-    - [IAM and Admin Experience](cloud/iam-admin/index.md)
-    - [Integrations](cloud/integrations/index.md)
-    - [Growth](cloud/growth-team/index.md)
+  - [Admin Experience](admin-exp/index.md)
+    - [IAM](admin-exp/iam/index.md)
+    - [Integrations](admin-exp/integrations/index.md)
+    - [Growth](admin-exp/growth-team/index.md)
+    - [Repo Management](admin-exp/repo-management/index.md)
     - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
     - DevOps/SRE
-    - [Delivery](cloud/delivery/index.md)
+    - [Delivery](admin-exp/delivery/index.md)
 
 ## Historical strategy
 

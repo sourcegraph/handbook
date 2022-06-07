@@ -14,6 +14,12 @@
       },
       "leader": {
         "type": "string"
+      },
+      "leadership_sponsors": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
       }
     },
     "required": ["title", "members"]

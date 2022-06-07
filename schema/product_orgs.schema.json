@@ -13,6 +13,6 @@
         "type": "string"
       }
     },
-    "required": ["title", "strategy_link", "pm"]
+    "required": ["title", "pm"]
   }
 }

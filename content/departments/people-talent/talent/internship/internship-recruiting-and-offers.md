@@ -99,7 +99,8 @@ If the candidate received a `no` during the values interview, follow [these step
 
 Attendees: Recruiter, Hiring Manager (optional), Candidate.
 
-COMING SOON: Generating an offer summary for interns
+To generate the offer summary, click “generate” in the Offer Details section of the candidate’s Greenhouse profile, and select the appropriate offer summary.
+Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager for review.
 
 Offer Summary call agenda:
 
