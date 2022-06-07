@@ -26,5 +26,14 @@ Object storage now uses [Google Cloud Storage] (GCS) and it's a managed service 
 _To update this file: goto
 [excalidraw](https://app.excalidraw.com/s/4Dr1S6qmmY7/32zlotHc5bx)_
 
+### Operations
+
+The following processes only apply to Managed Instances v1.1:
+
+- [Upgrade a Managed Instance](./mi1-1_upgrade_process.md)
+- [Restore a Managed Instance](./mi1-1_restore_process.md)
+- [Failover Process](./mi1-1_failover_process.md)
+- [Enable Executors](./mi1-1_enable_executors_process.md)
+
 [cloud sql]: https://cloud.google.com/sql/postgresql
 [google cloud storage]: https://cloud.google.com/storage
