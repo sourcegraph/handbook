@@ -87,4 +87,4 @@ Our voice is informed by our story—because we believe in large scale accessibi
 
 Our voice attributes guide how we articulate our communication. Each message requires differing amounts of each voice attribute, depending on the audience.
 
-See also ["Voice and tone" in our content guidelines](../../../../../communication/content_guidelines/voice_and_tone.md).
+See also ["Voice and tone" in our content guidelines](../../../../../company-info-and-process/communication/content_guidelines/voice_and_tone.md).
