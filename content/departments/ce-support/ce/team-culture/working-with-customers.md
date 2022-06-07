@@ -201,6 +201,20 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 CEs are tightly aligned with the sales team and serve as technical experts, providing strategy and guidance to AEs during the sales cycle. Ultimately it is the CE that owns the “technical win” associated with an opportunity. The [CE Technical Win Management Process](../process/tech-win-process.md) outlines expectations around how Customer Engineering tracks and communicates the status of the technical win as part of all sales opportunities.
 
+## Renewal Process
+
+Finance, CE, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
+
+### Process and Roles & Responsibilities
+
+On a quarterly basis, finance generates and publishes an updated renewal analysis for remaining renewals in the Fiscal Year. On a monthly basis, AE and Sales updates the [Renewals: Health Assessment](https://docs.google.com/spreadsheets/d/1iabZh8JzZc6d05z6xjLkpM-RtpbyG2qb2jXwUj1vlMU/edit#gid=153370473) doc:
+
+- Sales (AE) raises relationship and business needs / challenges that pose a risk for the customers' health
+- CE raises technical and business needs / challeneges that pose a risk for the customers' health
+- The Red Accounts Program is employed to address any challenges raised as part of these health assessments.
+
+90 days prior to the renewal, Value Engineering engages to perform a value realization exercise prior to the first customer renewal call. The AE establishes a plan for the renewal proposal and begins renewal discussions with the Champion / Economic Buyer (EB).
+
 ## Red Accounts
 
 As the team accountable for our customers' technical success, usage, and adoption of our products, CEs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.

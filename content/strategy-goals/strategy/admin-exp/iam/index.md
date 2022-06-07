@@ -30,6 +30,8 @@ Within this area, in Q2 we are not working on:
 
 ### Problem Area: Improve Admin Analytics
 
+> NOTE: This work has been transitioned to the [growth team](../growth-team/index.md) in Q2. The goals remain unchanged.
+
 Today, Sourcegraph Admins do not have a clear understanding of how their team is using (or not using) Sourcegraph. This information is valuable to help administrators (1) convey the value of Sourcegraph to executives and (2) make key decisions required to do their job effectively, such as monitoring remaining licenses.
 
 - Key Result 1: Identify and deliver an improved usage analytics experience for admins.
