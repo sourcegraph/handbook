@@ -26,9 +26,13 @@ Prior to opening internship roles, our compensation offers are approved and fina
 
 We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills. Internships will be paid and follow the same logic as our standard [Compensation Philosophy](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#philosophy).
 
-Our interns will use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
+Payroll
 
-Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis on [Rippling](https://www.rippling.com/). If an intern makes a mistake logging their hours, they can go back and edit their time entry.
+- Our interns use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
+
+- COMING SOON - training for logging hours in Rippling
+
+- Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis. Time entries can be edited prior to submitting them if a mistake has been made.
 
 #### Perks
 
@@ -92,25 +96,30 @@ If your team is selected to have an intern, the recruiter will reach out via sla
 
 #### Prior to the internship
 
-Prior to the internship, the Internship Program Manager needs to complete a [set of steps](internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date) before the internship start date.
-
-#### During the internship
-
-#### What does managing an intern require?
-
-1:1 Meetings
-
-- Consistent feedback is crucial to a successful internship. We expect managers to conduct a weekly 1:1 with their intern(s) for the duration of the internship program. The internship program manager will share a 1:1 template and a weekly project tracker with each intern manager prior to the internship start date.
-
 Internship Plans
 
-- Prior to the internship start date, each intern manager will create an Internship Plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer.
+- Prior to the internship start date, each intern manager will create an Internship Plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer and provide clarity/direction.
+
+Finalizing the onboarding checklist
+
+- Each manager will confirm the necessary onboarding checklist items with Inés to ensure the interns have a smooth and effective remote onboarding experience.
 
 Wage and Hour Guidelines
 
 - Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
 
-#### Point of contact
+#### During the internship
+
+Payroll
+
+- We use Rippling to report/approve internship working hours.
+- COMING SOON - training for approving hours in Rippling
+
+1:1 Meetings
+
+- Consistent feedback is crucial to a successful internship. We expect managers to conduct a weekly 1:1 with their intern(s) for the duration of the internship program. The internship program manager will share a 1:1 template and a weekly project tracker with each intern manager prior to the internship start date.
+
+#### Points of contact
 
 - [Collette](../../../../team/index.md#collette-tesauro) - for legal questions
 - [Keely](../../../../team/index.md#keely-aguayo) - for payroll questions
@@ -137,10 +146,11 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 2022-05-25 Virtual Game Event
 - 2022-05-31 Cohort Meeting
 - 2022-06-01 Exec Q&A - Carly Jones
+- 2022-06-07 Joining early stage companies early in your career
 - 2022-06-08 LinkedIn Workshop
 - 2022-06-14 Yoga/Meditation
-- 2022-06-15 Exec Q&A - Dan Adler
-- 2022-06-22 Exec Q&A - Christina/Nick
+- 2022-06-15 Q&A - Dan Adler
+- 2022-06-22 Q&A - Christina/Nick
 - 2022-07-05 Cohort Meeting
 - 2022-07-06 Interviewing Workshop
 - 2022-07-13 Q&A - Connor O'Brien
