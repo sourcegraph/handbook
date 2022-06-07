@@ -13,7 +13,6 @@ We work together to build a product that developers love and that solves big pro
 
 ## Slack channels
 
-- #eng
 - #eng-announce
 - #eng-leads
 
