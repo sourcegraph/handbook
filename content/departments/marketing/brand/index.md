@@ -3,12 +3,10 @@
 ## Table of Contents
 
 1. [Function, Vision, Mission & Values](#function-vision-mission-and-values)
-2. [The Team](#the-team)
-3. [Capabilities](#capabilities)
-4. [Brand Guidelines](brand_guidelines/index.md)
-5. [Brand Request Form](https://form.asana.com/?k=y-FQv_fKOOjQ5uRFmNXOFg&d=7195383522959)
-6. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
-7. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
+2. [Capabilities](#capabilities)
+3. [Brand Guidelines](brand_guidelines/index.md)
+4. [Download the Sourcegraph Brand Kit](https://f.hubspotusercontent20.net/hubfs/2762526/Brand%20assets/Sourcegraph%20Brand%20Kit%202.2%20-%20May%202021.zip) (.zip)
+5. [Master Slides Template](https://docs.google.com/presentation/d/18ovKYtoPhYV93rITNXEKZ2z5jlT9PSuXeJV3a8XlWuc/edit#slide=id.gd3ef0c1bfc_0_105) (.GSLIDES)
 
 ## Function, Vision, Mission, and Values
 
@@ -54,10 +52,6 @@ _Website/Digital Experience Strategy & Review_
 - Interactive design, incl. data visualization and infographics
 - Email design and copywriting review
 - Digital creative strategy
-
-## Brand Request Forms
-
-- [Brand Request Form](https://form.asana.com/?k=y-FQv_fKOOjQ5uRFmNXOFg&d=7195383522959)
 
 ## Final thoughts
 
