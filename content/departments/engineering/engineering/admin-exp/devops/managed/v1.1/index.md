@@ -28,3 +28,10 @@ _To update this file: goto
 
 [cloud sql]: https://cloud.google.com/sql/postgresql
 [google cloud storage]: https://cloud.google.com/storage
+
+### Operations
+
+- [Upgrade a Managed Instance](./mi1-1_upgrade_process.md)
+- [Restore a Managed Instance](./mi1-1_restore_process.md)
+- [Failover Process](./mi1-1_failover_process.md)
+- [Enable Executors](./mi1-1_enable_executors_process.md)

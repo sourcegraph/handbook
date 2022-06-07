@@ -164,6 +164,23 @@ Terraform is used to maintain all managed instances. You can find this configura
 
 All customer credentials, secrets, site configuration, app and user configuration—is stored in Postgres only (i.e. on the encrypted GCP disk). This allows customers to enter their access tokens, secrets, etc. directly into the app through the web UI without transferring them to us elsewhere.
 
+### Operations
+
+Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
+
+- [Creating a Managed Instance](./creation_process.md)
+- [Upgrade a Managed Instance](./upgrade_process.md)
+- [Suspend a Managed Instance](./suspend_process.md)
+- [Resume a Managed Instance](./resume_process.md)
+- [Restore a Managed Instance](./restore_process.md)
+- [Delete a Managed Instance](./delete_process.md)
+- [Resume a Managed Instance](./resume_process.md)
+- [Enable Executors](./enable_executors_process.md)
+
+
+
+
+
 ## FAQ
 
 ### FAQ: Can customers disable the "Builtin username-password authentication"?
