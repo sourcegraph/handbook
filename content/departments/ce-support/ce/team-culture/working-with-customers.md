@@ -208,12 +208,12 @@ Finance, CE, Sales, and Value Engineering all play a key role in customer renewa
 ### Process and Roles & Responsibilities
 
 On a quarterly basis, finance generates and publishes an updated renewal analysis for remaining renewals in the Fiscal Year. On a monthly basis, AE and Sales updates the [Renewals: Health Assessment](https://docs.google.com/spreadsheets/d/1iabZh8JzZc6d05z6xjLkpM-RtpbyG2qb2jXwUj1vlMU/edit#gid=153370473) doc:
+
 - Sales (AE) raises relationship and business needs / challenges that pose a risk for the customers' health
 - CE raises technical and business needs / challeneges that pose a risk for the customers' health
 - The Red Accounts Program is employed to address any challenges raised as part of these health assessments.
 
-90 days prior to the renewal, Value Engineering engages to perform a value realization exercise prior to the first customer renewal call. The AE establishes a plan for the renewal proposal and begins renewal discussions with the Champion / Economic Buyer (EB). 
-
+90 days prior to the renewal, Value Engineering engages to perform a value realization exercise prior to the first customer renewal call. The AE establishes a plan for the renewal proposal and begins renewal discussions with the Champion / Economic Buyer (EB).
 
 ## Red Accounts
 
