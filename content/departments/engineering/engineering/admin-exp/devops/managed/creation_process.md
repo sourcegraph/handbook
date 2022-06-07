@@ -7,17 +7,19 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
-  - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details. If you customize the `sourcegraph-managed` prefix, make sure to update the PROJECT_PREFIX variable in the below instructions.
-  - Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
+
+- It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details. If you customize the `sourcegraph-managed` prefix, make sure to update the PROJECT_PREFIX variable in the below instructions.
+- Ensure when you run `terraform apply` that you commit and push the `terraform.tfstate` file to github
+
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Set variables:
 
-  - `export VERSION=v<MAJOR.MINOR.PATCH>`
-  - `export COMPANY=$COMPANY`
-  - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
-  - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
-  - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
-    - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+- `export VERSION=v<MAJOR.MINOR.PATCH>`
+- `export COMPANY=$COMPANY`
+- `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
+- `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
+- `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
+  - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. `./util/create-managed-instance.sh $COMPANY/` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
@@ -36,15 +38,19 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$COMPANY.sourcegraph.com` to the `default-global-address` IP (see ["Finding the external load balancer IP"](operations.md#finding-the-external-ips)) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
 1. Create a PR for review.
 1. Create admin credentials in 1password:
-  - Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (if necessary, access can be requested in #it-tech-ops)
-  - **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
-    - **User:** `managed+$COMPANY@sourcegraph.com`
-    - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
+
+- Open the 1password [Managed instances vault](https://my.1password.com/vaults/l35e5xtcfsk5suuj4vfj76hqpy/allitems) (if necessary, access can be requested in #it-tech-ops)
+- **Add** > **Login** > enter **$COMPANY sourcegraph-admin** as the title
+  - **User:** `managed+$COMPANY@sourcegraph.com`
+  - **Password:** Change **length** to 40 and turn on symbols and digits > **Save**
+
 1. Access the Sourcegraph web UI ([instructions for port-forwarding](operations.md#port-forwarding-direct-access-to-caddy-jaeger-and-grafana))
 1. Set up the initial admin account (for use by the Sourcegraph team only)
-  - Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
-  - Username: `sourcegraph-admin`
-  - Password: Use the password previously created and stored in 1password.
+
+- Email: `managed+$COMPANY@sourcegraph.com` (note `+` sign not `-`)
+- Username: `sourcegraph-admin`
+- Password: Use the password previously created and stored in 1password.
+
 1. Create a token for the account under `/users/sourcegraph-admin/settings/tokens` called `managed-instances` with `user:all` (i.e. the default) checked and add it as "token" under the 1password entry for the admin account.
 1. Navigate to Grafana under `/-/debug/grafana` and confirm the instance looks healthy.
 1. Configure `externalURL` in the site configuration, and use SSH to restart the server (`sudo su`, `shutdown -r`) wait for it to come back up and access it again.
@@ -79,9 +85,9 @@ To provide the customer access to the instance:
 
 1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](operations.md).
 1. Prepare the initial admin account for the customer:
-  1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values. (The email address should be in the original managed instance Issue created by CE.)
-  1. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
-  1. Go to `/site-admin/users` and promote the created account to site admin.
+1. Go to `/site-admin/users` and hit "Create user", and fill in the appropriate values. (The email address should be in the original managed instance Issue created by CE.)
+1. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Keep in mind this link will expire after 4 hours.
+1. Go to `/site-admin/users` and promote the created account to site admin.
 
 ## Configuring License, SSO, and repositories
 
