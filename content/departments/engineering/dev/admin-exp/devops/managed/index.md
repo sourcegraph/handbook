@@ -131,6 +131,7 @@ Access can be requested in #it-tech-ops WITH manager approval.
 ### Monitoring and alerting
 
 <span class="badge badge-note">SOC2/CI-86</span>
+<span class="badge badge-note">SOC2/CI-25</span>
 
 Each managed instance is created in an isolated GCP project.
 System performance metrics are configured and collected in [scoped project](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring).
@@ -141,6 +142,7 @@ Every customer managed instance has alerts configured:
 - [uptime check - version v1.0](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/dev/infrastructure.tf#L555) configured in dedicated GCP managed instance project
 - [uptime check - version v1.1](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/terraform-managed-instance-new/infrastructure.tf#L529) configured in dedicated GCP managed instance project
 - [instance performance metric alerts](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/monitoring/alerting.tf) configured in scoped project for all managed instances
+- [application performance metrics](./operations/#performance-checks) - configured via `mg cli` during instance creation
 
 Alerting flow:
 
