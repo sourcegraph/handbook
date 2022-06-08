@@ -34,7 +34,7 @@ Our People/Talent team uses a vendor named [Printfection](https://www.printfecti
 
 ### How to order a welcome kit
 
-After the offer letter has been signed, the People team will email the new hire instructions to order their new hire welcome kit. The email will include a link to submit their order for a New Hire Welcome Kit and they’ll get to choose between the Form-fitted shirt and the Unisex shirt. **It is important for teammates to choose only one and redeem it just once, as the links can be used multiple times. Please do not share the link publicly.**
+After the offer letter has been signed, the People team will email the new hire instructions to order their new hire welcome kit. The email will include a link to submit their order for a New Hire Welcome Kit and they’ll get to choose between the Form-fitted shirt and the Unisex shirt. **It is important for teammates to choose only one and redeem it just once. Please do not share the link publicly.**
 
 Once they click on the link that corresponds to the T-shirt type they want, the new hire will need to follow these two simple steps:
 
