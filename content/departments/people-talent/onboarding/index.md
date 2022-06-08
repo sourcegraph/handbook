@@ -22,10 +22,9 @@ Each new Talent team member is paired with two individuals during their onboardi
 ### Helpful links & resources
 
 - [Learning the product](https://docs.sourcegraph.com/getting-started?_ga=2.146234167.2036706261.1615899491-1328211259.1615899491)
-- [Learning the pitch](../../marketing/process/messaging.md) 
+- [Learning the pitch](../../marketing/process/messaging.md)
 - [Learning how to use our tools](../talent/tools/index.md)
 - [Learning how to extend an offer](../talent/process/extending_an_offer.md)
- 
 
 ## High-level Onboarding Overview
 
