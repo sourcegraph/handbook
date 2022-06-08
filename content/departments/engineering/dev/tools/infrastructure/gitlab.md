@@ -41,6 +41,10 @@ Switch context to `dogfood` cluster
 
 ```sh
 kubectx gke_sourcegraph-dogfood_us-central1-f_dogfood
+
+# or if you don't have kubectx installed
+# also, you should check it out https://github.com/ahmetb/kubectx
+kubectl config set current-context gke_sourcegraph-dogfood_us-central1-f_dogfood
 ```
 
 Clean up cached `charts` directory to avoid stale content
