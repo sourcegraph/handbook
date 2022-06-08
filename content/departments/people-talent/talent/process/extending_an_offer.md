@@ -88,24 +88,20 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
 9. People Ops forwards confirmation for signed employment agreement to Talent
 10. Follow PEO Onboarding Process
 
-## What do to if candidate declines our offer 
+## What do to if candidate declines our offer
 
 If a candidate declines our offer, the Recruiter will follow the processes below.
 
 Note: If the candidate initially signs the offer letter and is marked as hired then revokes the offer, please follow the steps to [Action a Revoked Offer](./after_the_offer.md).
 
-**Step 1:**  The Recruiter will send a Slack in the role’s private hiring channel to inform the Hiring Manager and the Interview team that the candidate has declined the offer and discuss steps. 
-  - Things to consider: What was the reason for the offer decline? Discuss with the Hiring Manager whether we need to adjust anything about the offer, scope of the role, etc.
- 
+**Step 1:** The Recruiter will send a Slack in the role’s private hiring channel to inform the Hiring Manager and the Interview team that the candidate has declined the offer and discuss steps.
+
+- Things to consider: What was the reason for the offer decline? Discuss with the Hiring Manager whether we need to adjust anything about the offer, scope of the role, etc.
+
 **Step 2:** The Recruiter will reject the candidate who declined the offer in Greenhouse and select the most appropriate ‘They Rejected Us’ reason from the drop-down menu. Add details about the situation and reasoning in the Note section.
-  - Example: 
-    - Reason: “Accepted a competing offer ($25K+ higher)” 
-    - Note: “Accepted a competing offer at X company with $X OTE and $X equity" 
-   
-**Step 3:**  The Recruiter will discuss next steps with the Hiring Manager. Were there other finalists the team was excited about that they would like to extend the offer to now? Were there any other candidates in process that we’d like to complete the interviews? If not, the Recruiter will begin sourcing and recruiting to rebuild the pipeline.
 
+- Example:
+  - Reason: “Accepted a competing offer ($25K+ higher)”
+  - Note: “Accepted a competing offer at X company with $X OTE and $X equity"
 
-
-
-
-
+**Step 3:** The Recruiter will discuss next steps with the Hiring Manager. Were there other finalists the team was excited about that they would like to extend the offer to now? Were there any other candidates in process that we’d like to complete the interviews? If not, the Recruiter will begin sourcing and recruiting to rebuild the pipeline.
