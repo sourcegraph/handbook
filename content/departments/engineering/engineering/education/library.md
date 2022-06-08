@@ -1,10 +1,10 @@
 # Educational Resources Library
 
-The Education Resources Library is a collection of resources, books, courses and videos that is curated by [Engineering Education](../../../../../strategy-goals/strategy/enablement/engineering-education/index.md) at Sourcegraph and contributors.
+The Education Resources Library is a collection of resources, books, courses and videos that is curated by [Engineering Education](../../../../strategy-goals/strategy/enablement/engineering-education/index.md) at Sourcegraph and contributors.
 
 The goal is to provide resources for learning and development in line with Sourcegraph company value of continuous growth.
 
-> NOTE: We're building this library iteratively and it's a living resource. New items will be added.
+> NOTE: We're building this library iteratively and it's a living resource.
 
 ## #dev-learn channel
 
@@ -18,11 +18,7 @@ To propose resources to be added, post them in the #dev-learn channel.
 
 ## Education budget for Sourcegraph teammates
 
-We provide an education budget for Sourcegraph teammates that can be used for the books and paid courses listed on this page. See the [Education section on the Spending Company Money page](../../../../../benefits-pay-perks/benefits-perks/spending-company-money.md).
-
-## Education budget for Sourcegraph teammates
-
-We provide an education budget for Sourcegraph teammates that can be used for the books and paid courses listed on this page. See the [Education section on the Spending Company Money page](../../../../../benefits-pay-perks/benefits-perks/spending-company-money.md).
+We provide an education budget for Sourcegraph teammates that can be used for the books and paid courses listed on this page. See the [Education section on the Spending Company Money page](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md).
 
 ## Recommended books
 
@@ -82,51 +78,38 @@ This course for frontend developers is one of the best comprehensive and detaile
 
 [CSS for JavaScript Developers by Josh W. Comeau](https://css-for-js.dev/)
 
-### Git concepts
+### Introduction to Git concepts
 
 This section includes some of our internal Sourcegraph educational resources.
 
 **Branches in Git**
 
-<div style="position: relative; padding-bottom: calc(56.25%/2); height: 0; max-width: 50%;">
-  <iframe
-    src="https://www.youtube.com/embed/7s2oVzeX240"
-    frameborder="0"
-    webkitallowfullscreen
-    mozallowfullscreen
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-  ></iframe>
-</div>
+<p>
+<a href="https://www.youtube.com/watch?v=7s2oVzeX240">
+<strong>Branches in Git</strong>
+<br/>
+<img src="https://i3.ytimg.com/vi/7s2oVzeX240/hqdefault.jpg" style="max-width: 200px">
+</a>
+</p>
 
-**Diffs in Git**
+<p>
+<a href="https://www.youtube.com/watch?v=eRwvO8Qyerk" alt="Git diffs video">
+<strong>Git Diffs</strong>
+<br/>
+<img src="http://i3.ytimg.com/vi/eRwvO8Qyerk/hqdefault.jpg" style="max-width: 200px"/>
+</a>
+</p>
 
-<div style="position: relative; padding-bottom: calc(56.25%/2); height: 0; max-width: 50%;">
-  <iframe
-    src="https://www.youtube.com/embed/eRwvO8Qyerk"
-    frameborder="0"
-    webkitallowfullscreen
-    mozallowfullscreen
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-  ></iframe>
-</div>
-
-**Commits in Git**
-
-<div style="position: relative; padding-bottom: calc(56.25%/2); height: 0; max-width: 50%;">
-  <iframe
-    src="https://www.youtube.com/embed/zXlNqCioxBY"
-    frameborder="0"
-    webkitallowfullscreen
-    mozallowfullscreen
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-  ></iframe>
-</div>
+<p>
+<a href="https://www.youtube.com/watch?v=zXlNqCioxBY" alt="Git commits video">
+<strong>Git Commits</strong>
+<br/>
+<img src="https://i3.ytimg.com/vi/zXlNqCioxBY/hqdefault.jpg" style="max-width: 200px"/>
+</a>
+</p>
 
 ### Fixing merge conflicts
 
 [Fixing merge conflicts in Git (by Varun Gandhi)](https://www.loom.com/share/db386048c55b4d61bf6c02e3f9e51163)
 
-> NOTE: Want to add some resources to the resource library? Contribute by making an edit to this handbook page. See [Editing the Handbook.](../../../../../handbook//editing/index.md)
+> NOTE: Want to add some resources to the resource library? Post in the #dev-learn channel on slack. See anything that needs fixing, like a typo or incorrect link? Contribute by making an edit to this handbook page. See [Editing the Handbook.](../../../../handbook//editing/index.md)
