@@ -30,3 +30,15 @@ Content-Security-Policy = """\
       font-src 'self' fonts.gstatic.com;\
       frame-ancestors 'self' *.continu.co\
     """
+
+[[redirects]]
+  from = "/departments/engineering/engineering/*"
+  to = "/departments/engineering/dev/:splat"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/departments/product-engineering/engineering/*"
+  to = "/departments/engineering/dev/:splat"
+  status = 301
+  force = false
