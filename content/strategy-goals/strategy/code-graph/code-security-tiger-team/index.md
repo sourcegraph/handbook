@@ -12,7 +12,7 @@ Following early customer discovery, we are making a bet on software supply chain
 
 ### Vision
 
-Security scanners have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap bewteen security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities.
+Security scanners have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap between security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities.
 
 In the future, we believe that:
 
