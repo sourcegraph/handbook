@@ -94,7 +94,7 @@ Sourcegraph has a lot of repositories!
 - [devmanaged.sourcegraph.com](https://devmanaged.sourcegraph.com) is a managed instance used for managed instances development.
 - [storybook.sgdev.org](http://storybook.sgdev.org) is a design system built with Storybook.
 - [gerrit.sgdev.org](https://gerrit.sgdev.org) is a Gerrit test instance.
-- [gitlab.sgdev.org](https://gitlab.sgdev.org) is a Gitlab test instance.
+- [gitlab.sgdev.org](./tools/infrastructure/index.md#gitlab) is a Gitlab test instance.
 - [github.sgdev.org](https://github.sgdev.org) is a Github test instance.
 - [bitbucket.sgdev.org](https://bitbucket.sgdev.org) is a Bitbucket test instance.
 

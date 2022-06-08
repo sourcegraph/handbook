@@ -44,3 +44,9 @@ We maintain a collection of code hosts for testing purposes defined in our [infr
 - URL: https://gerrit.sgdev.org
 - Git URL: gerrit-ssh.sgdev.org
 - Credentials: Google Auth
+
+### GitLab
+
+- URL: https://gitlab.sgdev.org
+- Credentials: [learn more](./gitlab.md#access)
+- [Additional information](./gitlab.md)

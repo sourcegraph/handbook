@@ -96,7 +96,7 @@ This section includes some of our internal Sourcegraph educational resources.
 <a href="https://www.youtube.com/watch?v=eRwvO8Qyerk" alt="Git diffs video">
 <strong>Git Diffs</strong>
 <br/>
-<img src="http://i3.ytimg.com/vi/eRwvO8Qyerk/hqdefault.jpg" style="max-width: 200px"/>
+<img src="https://i3.ytimg.com/vi/eRwvO8Qyerk/hqdefault.jpg" style="max-width: 200px"/>
 </a>
 </p>
 
