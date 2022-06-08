@@ -8,7 +8,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 
 - [Careers page & open positions](../resources_for_candidates.md#how-to-apply)
 - [Internship Program](internship/index.md)
-- [Company values](../resources_for_candidates.md#our-company-values)
+- [Company values](../../../company-info-and-process/values/index.md)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](../resources_for_candidates.md)
   - [Types of interviews & sample questions](process/types_of_interviews.md)

@@ -1,14 +1,14 @@
 # Search strategy
 
-Sourcegraph aims to be a platform powered by code search. There are two teams that work together to make this possible: [Search Product](../../../../departments/product-engineering/engineering/code-graph/search/product.md) and [Search Core](../../../../departments/product-engineering/engineering/code-graph/search/core.md), with the Product team focusing primarily on the user-facing aspects of search, and the Core team focusing on backend, relevancy, and performance. This page outlines the vision, strategy and goals that are shared by both teams.
+Sourcegraph aims to be a platform powered by code search. There are two teams that work together to make this possible: [Search Product](../../../../departments/engineering/engineering/code-graph/search/product.md) and [Search Core](../../../../departments/engineering/engineering/code-graph/search/core.md), with the Product team focusing primarily on the user-facing aspects of search, and the Core team focusing on backend, relevancy, and performance. This page outlines the vision, strategy and goals that are shared by both teams.
 
 Quicklinks:
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
+- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
 - [Latest demo](https://www.youtube.com/watch?v=XLfE2YuRwvw)
 - [Documentation](https://docs.sourcegraph.com/code_search/)
-- [Completed goals](../../../../departments/product-engineering/engineering/code-graph/search/goals_completed.md)
+- [Completed goals](../../../../departments/engineering/engineering/code-graph/search/goals_completed.md)
 
 ## Mission
 

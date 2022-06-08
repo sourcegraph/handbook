@@ -14,7 +14,7 @@ Here is a quick video on how to use Loom to record videos: [How to get started](
 
 ## Guidelines
 
-Please be mindful of sharing any private or personal information when recording Loom videos. We want to avoid having any sensitive information leaked or corrupted. Furthermore, we have a legal and moral obligation towards our data subjects in regards to how we handle their personal data.
+Please be mindful of sharing any private or personal information when recording Loom videos. We want to avoid having any sensitive information (classification categories restricted and private as per our [Data Management Policy](../../../../policies/data-management-policy.md) leaked or corrupted. Furthermore, we have a legal and moral obligation towards our data subjects in regards to how we handle their personal data.
 
 Best practise:
 
@@ -22,7 +22,7 @@ Best practise:
 - Use fictitious names/test data when demonstrating a use case
 - If no test examples are available make sure to black out/mask any sensitive information on the screen before recording the session
 
-Please see our [Data Management Policy](https://docs.google.com/document/d/1EteK_ftNhF8B_2G8BdSrW7xlehba_6yq/edit) for more details on data classifications.
+Please see our [Data Management Policy](../../../../policies/data-management-policy.md) for more details on data classifications.
 
 ## Default settings
 
@@ -34,7 +34,7 @@ By default, everyone at Sourcegraph is provisioned as a viewer. This means you w
 
 Set the default setting for videos to “Everyone at Sourcegraph”. This means videos will only be viewed by Sourcegraph teammates. As a creator, please take some time to read this page on [Loom’s security setting](https://support.loom.com/hc/en-us/articles/360016527597).
 
-We have the ability to create public links on videos. Please reach out to[ #it-tech-ops ](https://sourcegraph.slack.com/archives/C01CSS3TC75)in Slack to request this.
+Every creator has the ability to share videos publicly. Please be mindful of the sharing setting you select. Please take some time to review how to [share videos](https://support.loom.com/hc/en-us/articles/360002208157-How-to-share-your-recording).
 
 ## Workspace
 

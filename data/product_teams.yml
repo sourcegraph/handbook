@@ -57,19 +57,10 @@ code_insights:
   issue_labels:
     - team/code-insights
 
-security:
-  title: Security
-  product_org: cloud
-  strategy_link: https://github.com/orgs/sourcegraph/projects/257/views/3
-  pm: diego_comas
-  em: diego_comas
-  issue_labels:
-    - team/security
-
 integrations:
   title: Integrations
-  product_org: cloud
-  strategy_link: /strategy-goals/strategy/cloud/integrations/index.md
+  product_org: adminexp
+  strategy_link: /strategy-goals/strategy/admin-exp/integrations/index.md
   pm: ryan_scott
   design: sara_lee
   em: murat_sutunc
@@ -79,20 +70,20 @@ integrations:
 
 growth:
   title: Growth
-  product_org: cloud
-  strategy_link: /strategy-goals/strategy/cloud/growth-team/index.md
+  product_org: adminexp
+  strategy_link: /strategy-goals/strategy/admin-exp/growth-team/index.md
   em: murat_sutunc
   pmm: alex_isken
   issue_labels:
     - team/growth
 
-iam_and_admin_exp:
-  title: IAM and Admin Experience
-  product_org: cloud
-  strategy_link: /strategy-goals/strategy/cloud/iam-admin/index.md
+iam:
+  title: Identity and Access Management (IAM)
+  product_org: adminexp
+  strategy_link: /strategy-goals/strategy/admin-exp/iam-admin/index.md
   pm: ryan_phillips
   design: quinn_keast
-  em: rafal_leszczynski
+  em: rafal_leszczynski_iam
   pmm: alex_isken
   issue_labels:
     - team/iam
@@ -100,8 +91,8 @@ iam_and_admin_exp:
 
 devops:
   title: DevOps
-  strategy_link: /departments/product-engineering/engineering/cloud/devops/#goals
-  product_org: cloud
+  strategy_link: /departments/engineering/engineering/admin-exp/devops/#goals
+  product_org: adminexp
   pm: bill_creager
   em: jennifer_mitchell
   issue_labels:
@@ -109,8 +100,8 @@ devops:
 
 delivery:
   title: Delivery
-  strategy_link: /strategy-goals/strategy/enablement/delivery/index.md
-  product_org: cloud
+  strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
+  product_org: adminexp
   pm: brienne_mcnally
   em: crystal_augustus
   issue_labels:
@@ -137,9 +128,8 @@ frontend_platform:
 
 repo_management:
   title: Repo Management
-  strategy_link: /strategy-goals/strategy/enablement/repo-management
-  product_org: enablement
-  pm: dan_mckean
+  strategy_link: /strategy-goals/strategy/admin-exp/repo-management
+  product_org: adminexp
   em: jordan_plahn
   issue_labels:
     - team/repo-management
@@ -163,3 +153,13 @@ code_security_tiger_team:
   pmm: alex_isken
   issue_labels:
     - team/code-security-tiger-team
+
+security:
+  title: Security
+  product_org: security
+  em: diego_comas
+
+cloud:
+  title: Cloud
+  product_org: cloud
+  em: rafal_leszczynski
