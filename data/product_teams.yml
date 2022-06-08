@@ -82,9 +82,7 @@ iam:
   product_org: adminexp
   strategy_link: /strategy-goals/strategy/admin-exp/iam-admin/index.md
   pm: ryan_phillips
-  design: quinn_keast
-  em: rafal_leszczynski_iam
-  pmm: alex_isken
+  em: jordan_plahn
   issue_labels:
     - team/iam
     - team/admin-exp
