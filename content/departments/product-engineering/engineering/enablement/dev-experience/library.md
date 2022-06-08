@@ -8,7 +8,13 @@ The goal is to provide resources for learning and development in line with Sourc
 
 ## #dev-learn channel
 
-Join the #dev-learn channel in Slack to share and discuss learning resources. If you come across resources such as links or books that you think would be helpful to others, share them in the channel. You can also feel free to open a handbook PR and add links directly to this page.
+Join the #dev-learn channel in Slack to share and discuss learning resources.
+
+If you come across resources such as links, articles, books, videos or other content that may be useful for learning new topics, post them in #dev-learn to share them with others.
+
+## How do I propose resources to be added to this page?
+
+To propose resources to be added, post them in the #dev-learn channel.
 
 ## Education budget for Sourcegraph teammates
 
@@ -26,7 +32,23 @@ These are books relevant to engineers and engineering managers and have been rec
 
 [The Manager's Path by Camille Fournier](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897)
 
-## TypeScript learning resources
+## Software engineering and software design
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/51o+gQtCIiL._SX258_BO1,204,203,200_.jpg" style="max-width: 120px"/>
+
+[A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/en/book/show/39996759-a-philosophy-of-software-design)
+
+## Go programming language
+
+The authoritative resource for learning Go is this book:
+
+<img src="https://www.gopl.io/cover.png" style="max-width:120px"/>
+
+[The Go Programming Language by Alan A. A. Donovan · Brian W. Kernighan](https://www.gopl.io/)
+
+For a long list of other Go books, see: the [GoBooks](https://github.com/dariubs/GoBooks) repo.
+
+## JavaScript & TypeScript
 
 This O'Reilly book gives a good introduction to TypeScript. It's aimed at readers who are already familiar with JavaScript.
 
