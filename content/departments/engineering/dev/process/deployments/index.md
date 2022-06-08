@@ -49,7 +49,10 @@ Renovate configurations are committed in their respective [`deploy-sourcegraph-*
 ArgoCD is a continuous delivery tool for Kubernetes applications.
 Sourcegraph's ArgoCD instance is available at [argocd.sgdev.org](https://argocd.sgdev.org/).
 
-ArgoCD currently handles deployments for [k8s.sgdev.org](instances.md#k8s-sgdev-org).
+ArgoCD currently handles deployments for
+
+- [k8s.sgdev.org](instances.md#k8s-sgdev-org).
+- [gitlab.sgdev.org](../../tools/infrastructure/index.md#gitlab)
 
 ### Infrastructure
 
