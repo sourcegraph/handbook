@@ -12,10 +12,11 @@ Following early customer discovery, we are making a bet on software supply chain
 
 ### Vision
 
-Security scanners create lots of noise and have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap bewteen security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities. 
+Security scanners create lots of noise and have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap bewteen security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities.
 
 In the future, we believe that:
-- **Triaging vulnerabilities will be fast and transparent.** Security and development teams will be able to rapidly determine the impact of a dependency on a codebase, tracing it down to the actual function call, and understanding what deployable are impacted. They will use a common source of truth for reasoning about dependencies. 
+
+- **Triaging vulnerabilities will be fast and transparent.** Security and development teams will be able to rapidly determine the impact of a dependency on a codebase, tracing it down to the actual function call, and understanding what deployable are impacted. They will use a common source of truth for reasoning about dependencies.
 - **Remediation will be faster, safer, and transparent, even in big nested codebases.** When making remediation decisions, developers can understand the big picture, and take into account the impact of a fix on all the repositories and artifacts. Development teams will be able to determine the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time.
 
 Software Bill of Material products have initially focused on compliance. We think that there is an opportunity for Sourcegraph to realize the value of the SBOM by making dependencies easy to search, understand and fix.
@@ -62,5 +63,6 @@ and there was an executive order on [securing the software supply chain](https:/
 ### What's next
 
 We are iterating on a way to navigate, visualise and search the depenency graph. We are currently iterating on dependency search and reverse dependency search. We think our two next iterations will be:
+
 - Build a first version of reverse dependency search using precise code intel data for Java. That will immediately help users get precise answers to "what repository depends on `repo-x`? Is function `vulnerable` used in dependencies of `repo-x`?". It's also a building block for what's next.
 - Provide a way for users to interactively navigate the dependency graph, one edge at a time. This will improve usability, and create a compelling demo flow.
