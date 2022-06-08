@@ -4,15 +4,15 @@ The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tige
 
 #### Quicklink
 
-- [team page](../../../../departments/engineering/dev/code-graph/code-security-tiger-team/index.md)
+- [Team page](../../../../departments/engineering/dev/code-graph/code-security-tiger-team/index.md)
 - [OKR](https://docs.google.com/document/d/1wh8enIZs8mDEoBs_HiPP4v9SIF2gFuhtMFAhbROe2EI/edit#heading=h.tsga00gx9kb8) (private)
-- [weekly updates](https://github.com/sourcegraph/code-graph/issues/21)
+- [Weekly updates](https://github.com/sourcegraph/code-graph/issues/21)
 
-Following early customer discovery, we are making a bet on software supply chain. We are iterating rapidly, so all what follows may change as we learn. You can also read more in [PD 35 WIP - Dependency Graph for code security](https://docs.google.com/document/d/1Bq2SAx-FXxzW0YFbkIYoPS6bvy-LvlvZMyOTNUI1NV0/edit#heading=h.z5ozjpfzh2yl)
+Following early customer discovery, we are making a bet on software supply chain. We are iterating rapidly, so what follows may change as we learn. You can also read more in [PD 35 WIP - Dependency Graph for code security](https://docs.google.com/document/d/1Bq2SAx-FXxzW0YFbkIYoPS6bvy-LvlvZMyOTNUI1NV0/edit#heading=h.z5ozjpfzh2yl).
 
 ### Vision
 
-Security scanners create lots of noise and have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap bewteen security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities.
+Security scanners have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap bewteen security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities.
 
 In the future, we believe that:
 
