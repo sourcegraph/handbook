@@ -1,6 +1,6 @@
-# Roles on the Engineering team
+# Roles on the Development team
 
-This page lists the roles on our engineering team.
+This page lists the roles on our Development team.
 
 ## Software Engineer
 

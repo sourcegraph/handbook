@@ -47,7 +47,7 @@ Interviewing requires time and effort, both for Sourcegraph teammates and for ou
 
 ### Early-career Engineering Hiring
 
-Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../engineering/engineering/hiring/early-career-engineers.md).
+Our goal is to set up early-career engineers for success, and we aim to equip hiring managers and their teams with the knowledge to source, interview, and integrate early-career engineers successfully. You can read more about our philosophy [here](../engineering/dev/hiring/early-career-engineers.md).
 
 ## Interviewing at Sourcegraph
 

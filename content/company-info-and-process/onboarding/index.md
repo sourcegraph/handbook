@@ -123,7 +123,7 @@ Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn backgroun
 
 ## Team specific onboarding
 
-- [Engineers](../../departments/engineering/engineering/onboarding/index.md)
+- [Engineers](../../departments/engineering/dev/onboarding/index.md)
 - [Customer Engineers](../../departments/ce-support/ce/onboarding/index.md)
 - [Customer Support](../../departments/ce-support/support/onboarding/customer-support-onboarding.md)
 - [Customer Support Managers](../../departments/ce-support/support/onboarding/customer-support-manager-onboarding.md)

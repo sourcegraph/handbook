@@ -48,7 +48,7 @@ Customer-facing and internal tools and features that provide transparency to how
 
 ### Engineering ownership
 
-For a detailed list of features and services owned by the IAM team, check out the [Engineering Ownership page](../../../engineering/process/engineering_ownership.md).
+For a detailed list of features and services owned by the IAM team, check out the [Engineering Ownership page](../../../dev/process/engineering_ownership.md).
 
 ## Team
 

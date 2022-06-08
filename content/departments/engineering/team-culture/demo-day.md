@@ -1,6 +1,6 @@
 # Demo day
 
-Directly following Company Meeting twice per month, Product and Engineering team members present the latest features and improvements to Sourcegraph.
+Directly following Company Meeting twice per month, Engineering department members present the latest features and improvements to Sourcegraph.
 
 Demos should be short and easy to prepare for, so that as many team members as possible are able to participate. Demos are recorded for folks across the company, customers, and future team members to reference.
 

@@ -1,4 +1,4 @@
-# Engineering
+# Development
 
 > NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 
@@ -39,13 +39,11 @@
   - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
   - [Dogfood (internal) feedback](../team-culture/feedback-dogfood.md)
 
-Welcome to Engineering!
-
 <video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
 
 ## Org chart
 
-Engineering is organized in three orgs:
+We are organized in 3 orgs:
 
 - [Code Graph](code-graph/index.md)
 - [Admin Experience](admin-exp/index.md)
