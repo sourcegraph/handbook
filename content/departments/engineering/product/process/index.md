@@ -7,7 +7,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Design workshops](../design/workshops/index.md)
 - [User research](user_research/index.md)
 - [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
-- [Tracking issues](../../engineering/process/tracking_issues.md) - how we keep track of planned and on-going work.
+- [Tracking issues](../../dev/process/tracking_issues.md) - how we keep track of planned and on-going work.
 - [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Surfacing feedback to the product team](surfacing_product_feedback.md)
 - [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.

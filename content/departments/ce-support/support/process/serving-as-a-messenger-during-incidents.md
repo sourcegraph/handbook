@@ -1,6 +1,6 @@
 # Serving as a messenger during incidents
 
-You are here because our engineering teammates need a messenger as they work on addressing [an incident](../../../../departments/engineering/engineering/process/incidents/index.md). And you were either asked by CS leadership or proactively jumped in because you saw a request for messenger in #incidents, #customer-support, or some place else.
+You are here because our engineering teammates need a messenger as they work on addressing [an incident](../../../../departments/engineering/dev/process/incidents/index.md). And you were either asked by CS leadership or proactively jumped in because you saw a request for messenger in #incidents, #customer-support, or some place else.
 
 The messenger is always a member of customer support (whether an application engineer, program manager, or leader) and they are responsible for customer-facing communication about/during an incident and coordinating the necessary folks internally to create/sign-off on our communications. Having support be the team to send these communications allows engineering to focus on fixing the issue and customer engineering to be a point of escalation as customers process what an incident may mean for them. It also more easily allows us to keep Zendesk a system of record.
 

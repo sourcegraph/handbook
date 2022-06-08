@@ -27,7 +27,7 @@ As the VE & SE practice grows here at Sourcegraph, our charter is to help genera
 - Help generate proof-points and customer stories with multiple layers of metrics depth
 - [WIP] Establish a scaled value engineering skillset in the company through incorporation into career ladders and associated learning tracks, in particular for CE teams
 - [WIP] Work with Product teams as early as ideation and Product Requirement Document (PRD) phases to incorporate the language of expected value to delivered from new capabilities / products, and support the team during customer interviews and research
-- [WIP] Provide guidance to Product & Engineering teams on direct & proxy measures that track customer value & success to be incorporated both as tracking capabilities as well as features themselves to allow customers to be exposed to realized value directly in product
+- [WIP] Provide guidance to Engineering on direct & proxy measures that track customer value & success to be incorporated both as tracking capabilities as well as features themselves to allow customers to be exposed to realized value directly in product
 - Contribute to pricing & packaging strategy ensuring that they scale with value delivered to customers, minimizing long term price-to-value challenges as the company grows
 - [WIP] Assist in designing how data should be captured and exchanged between all of the company’s operational systems that are related to customer value, including product analytics, CRM, demand generation, and customer success
 

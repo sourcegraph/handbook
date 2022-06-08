@@ -152,9 +152,9 @@ Alerting flow:
 
 2. From Opsgenie, alert is sent to [on-call DevOps](../index.md#on-call) and Slack channels (#opsgenie, #cloud-devops).
 
-3. On-call DevOps has to decide, what is the alert type and if [incident](../../../../engineering/process/incidents/index.md) should be opened and follow [the procedure](../../../../engineering/process/incidents/#process) to perform the incident. On-call DevOps should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
+3. On-call DevOps has to decide, what is the alert type and if [incident](../../../../dev/process/incidents/index.md) should be opened and follow [the procedure](../../../../dev/process/incidents/#process) to perform the incident. On-call DevOps should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
 
-4. When alert is closed via incident resolution, [post-mortem actions](../../../../engineering/process/incidents/#post-mortem) has to be assigned and performed.
+4. When alert is closed via incident resolution, [post-mortem actions](../../../../dev/process/incidents/#post-mortem) has to be assigned and performed.
 
 [Opsgenie alerts](https://sourcegraph.app.opsgenie.com/alert)
 Sample managed instance incident - [customer XXX is down](https://app.incident.io/incidents/102).

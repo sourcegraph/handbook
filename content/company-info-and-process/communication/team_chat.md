@@ -186,7 +186,7 @@ All teammates in Sales and Marketing should join the following channels (feel fr
 
 All engineers should join the following channels (feel free to adjust your notification preferences for each as you see fit, though):
 
-- #prod-eng-announce - Announcements that are relevant to all of Product or all of Engineering (or both) belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
+- #eng-announce - Announcements that are relevant to all of the Engineering department belong here._You should read every message in here, and messages you post to it should have a high signal-noise ratio._
 - #dev-chat - Anything generally related to Sourcegraph development.
 - #dev-frontend - Anything related to frontend development.
 - #dev-backend - Anything related to backend development.
@@ -198,17 +198,17 @@ All engineers should join the following channels (feel free to adjust your notif
 - #bots-production - Kubernetes bot notifications.
 - #alerts-external - External system notifications which might impact our deployments.
 
-You should also join channels mentioned in [your team’s documentation](../../departments/engineering/engineering/index.md#teams)
+You should also join channels mentioned in [your team’s documentation](../../departments/engineering/dev/index.md#teams)
 
 ### More on #exec-ama
 
 #### Overview:
 
-Transparency is a core company value at Sourcegraph, that’s why Sourcegraph teammates are encouraged to ask questions of leadership to gain clarity on topics they’re interested in hearing more about. Teammates should submit questions via Slack in the[ #exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) channel. The default should be to submit questions using the workflow outlined below. If a teammate doesn’t feel comfortable submitting a question with their name attached, that’s okay, just ask your manager to submit the question on your behalf, or use the [anonymous AMA form](https://docs.google.com/forms/d/144bSx1IT8uohmjJPd026v5yEvqEDrGfwGG2y-T2z37k/edit?ts=620bd841#responses) and a member of the comms team will ask the question on your behalf. Questions will be answered within 48 hours and all answers will also be documented [here](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit#) to allow for long-term documentation.
+Transparency is a core company value at Sourcegraph, that’s why Sourcegraph teammates are encouraged to ask questions of leadership to gain clarity on topics they’re interested in hearing more about. Teammates should submit questions via Slack in the [#exec-ama](https://sourcegraph.slack.com/archives/C0379USFD7E) channel. The default should be to submit questions using the workflow outlined below. If a teammate doesn’t feel comfortable submitting a question with their name attached, that’s okay, just ask your manager to submit the question on your behalf, or use the [anonymous AMA form](https://docs.google.com/forms/d/144bSx1IT8uohmjJPd026v5yEvqEDrGfwGG2y-T2z37k/edit?ts=620bd841#responses) and a member of the comms team will ask the question on your behalf. Questions will be answered within 48 hours and all answers will also be documented [here](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit#) to allow for long-term documentation.
 
 #### Instructions
 
-1. Check the[ AMA Log](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit) to see if your question has already been asked/answered.
+1. Check the [AMA Log](https://docs.google.com/document/d/11hBsMmMMBY9M4whCpXj8F9Q5jaddf_ucpUiBxneXTlI/edit) to see if your question has already been asked/answered.
 2. If you have a new question, navigate to #exec-ama and select the “attachments and shortcuts” button and choose “submit a question”.
 3. Type your question, and (if applicable) identify who you’d like to have answer the question. Once ready, hit “submit”.
 4. A member of the leadership team will review your question and approve it so it appears in the channel.

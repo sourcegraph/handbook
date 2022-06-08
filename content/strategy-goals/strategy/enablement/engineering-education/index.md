@@ -1,10 +1,10 @@
 # Engineering Education strategy
 
-This page outlines the vision, strategy and goals for [Engineering education](../../../../departments/engineering/engineering/enablement/dev-experience/index.md).
+This page outlines the vision, strategy and goals for [Engineering education](../../../../departments/engineering/dev/enablement/dev-experience/index.md).
 
 > "What do we do on a day-to-day-basis? We learn. Why is "learning" a better word than "training"? Training implies passivity; it is done to us. We are trained; we attend training. Learning is active; it is something we do." (L. David Marquet, Turn the Ship Around)
 
-Looking for educational resources? Go to the [Educational Resource Library](../../../../departments/engineering/engineering/education/library.md).
+Looking for educational resources? Go to the [Educational Resource Library](../../../../departments/engineering/dev/education/library.md).
 
 ## Mission, Vision & Guiding Principles
 

@@ -23,7 +23,7 @@ Depending on the environment, exec into `pgsql` following the steps below:
 
 For Cloud:
 
-Follow the steps [here](../../../engineering/engineering/process/deployments/postgresql.md#connecting-to-postgres)
+Follow the steps [here](../../../engineering/dev/process/deployments/postgresql.md#connecting-to-postgres)
 to connect to the database for Sourcegraph Cloud.
 
 For docker-compose deployments:

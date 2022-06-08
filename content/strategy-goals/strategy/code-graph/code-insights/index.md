@@ -8,7 +8,7 @@ Quick links:
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
-- [Go to market resources for Sales, CE, and Marketing](../../../../departments/engineering/engineering/code-graph/code-insights/go_to_market.md)
+- [Go to market resources for Sales, CE, and Marketing](../../../../departments/engineering/dev/code-graph/code-insights/go_to_market.md)
 - [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
@@ -172,7 +172,7 @@ These are the goals we plan to fully complete by the end of Q1 FY23:
 
 - KR 1: 10 customers have purchased Code Insights in FY23Q1
 
-_See also [completed goals](../../../../departments/engineering/engineering/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../../departments/engineering/dev/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 

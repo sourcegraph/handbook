@@ -60,7 +60,7 @@ Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegrap
 In practice:
 
 - Monitor the list of [new issues to triage](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+no%3Alabel+is%3Aopen)
-- If unsure about what team label to use, take a look at [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). The slack channel associated with the team is in the label description. You can refer to the [product teams page](../team/product_teams.md) and to the more detailed [engineering ownership](../../engineering/process/engineering_ownership.md).
+- If unsure about what team label to use, take a look at [list of team labels](https://github.com/sourcegraph/sourcegraph/labels?q=team+%2F). The slack channel associated with the team is in the label description. You can refer to the [product teams page](../team/product_teams.md) and to the more detailed [engineering ownership](../../dev/process/engineering_ownership.md).
 - If you really don't know what team to assign it to, take a shot at assigning to the closest team with a nice message, asking them to re-route it to a more relevant team if necessary. "Hey, this issue has no team label and this _seems_ like it's in your scope. Adding your team label, but feel free to re-route this to another team".
 
 There is no SLA for this, just make sure that all issues are labelled at the end of your rotation.
