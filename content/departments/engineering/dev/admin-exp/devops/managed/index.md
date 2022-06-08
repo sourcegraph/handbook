@@ -89,7 +89,7 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 <span class="badge badge-note">SOC2/CI-100</span>
 
-### Internal instances
+#### Internal instances
 
 For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
 
@@ -98,11 +98,11 @@ For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separa
 
 Internal instances are created for various testing purposes:
 
-- testing changes prior to the monthly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
+- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, DevOps team will follow [managed instances upgrade tracker](../../../process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
 
-### Customer instances
+#### Customer instances
 
 All customer instances are considered part of the production environment and all changes applied to these customers should be well-tested in the test environment.
 
