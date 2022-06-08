@@ -67,5 +67,5 @@ kustomize build --enable-helm ./ | kubectl apply -f -
 
 [argocd]: ../../process/deployments/index.md#argocd
 [sourcegraph/infrastructure]: https://github.com/sourcegraph/infrastructure
-[dogfood/kubernetes/tooling/gitlab]: https://github.com/sourcegraph/infrastructure/tree/06-03-tooling_add_gitlab/dogfood/kubernetes/tooling/gitlab
+[dogfood/kubernetes/tooling/gitlab]: https://github.com/sourcegraph/infrastructure/tree/main/dogfood/kubernetes/tooling/gitlab
 [dogfood/kubernetes/argocd]: https://github.com/sourcegraph/infrastructure/tree/main/dogfood/kubernetes/argocd
