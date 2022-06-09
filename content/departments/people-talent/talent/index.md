@@ -111,7 +111,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
-  - [Counter offer conversations] COMING SOON
+  - [Counter offer conversations](process/extending_an_offer.md#counter-offers-and-how-to-deal-with-them)
 - [After the offer](process/after_the_offer.md)
   - [How to mark a candidate as "hired"](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding process](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
