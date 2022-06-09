@@ -23,8 +23,8 @@ Sourcegraph is committed to continuously keep improving their security posture t
 Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits.
 
 ### Violations & Enforcement
-Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
+Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
 <table>
   <tr>
