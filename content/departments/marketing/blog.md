@@ -29,7 +29,7 @@ heroImage: /blog/thumbnail-image.jpg
 socialImage: Use to set large social image i.e.  https://about.sourcegraph.com/blog/sourcegraph-social-img.png
 canonical: Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
 published: true
-videoID: "dQw4w9WgXcQ"
+videoID: 'dQw4w9WgXcQ'
 ---
 
 Your markdown content goes here
