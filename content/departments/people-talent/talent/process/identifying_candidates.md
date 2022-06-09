@@ -28,7 +28,9 @@ We identify candidates using a variety of channels:
   - Where do we store agency agreements?: The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq).
   - What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate?: please forward any emails from agencies to recruiting@sourcegraph.com.
 
-# Sourcing best practiecs
+# Sourcing best practices
+
+[Here](linkedin.md) is a guide to using LinkedIn Recruiter to source candidates and [here](how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices) is a link to our sourcing best practices
 
 ### How we source passive candidates
 
@@ -36,6 +38,8 @@ We identify candidates using a variety of channels:
 
 [Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.
 
-### How a Recruiter partners with their Sourcer
+### How a Recruiter and/or Hiring Manager partners with their Sourcer
 
-COMING SOON
+- A sourcer is responsible for sourcing passive and active candidates for open roles. A Sourcer partners extensively with Recruiters and Hiring Managers to identify, attract, and message appropriate candidates.
+
+[Here's](how_to_be_a_sourcer_at_sourcegraph.md) a guide on how a sourcer partners with recruiters and hiring managers.

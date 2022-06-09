@@ -2,7 +2,7 @@
 
 We're an [all-remote](../remote/index.md) company, with teammates from all around the world and no primary office. To make this work, we need to be deliberate about how we communicate.
 
-- [Internal Comms Plan Teamplate](https://docs.google.com/document/d/1oIljeqkrJJQm4FCeOodHTFU4yb3RYTbn2HqemrSgz18/edit)
+- [Internal Comms Plan Template](https://docs.google.com/document/d/1oIljeqkrJJQm4FCeOodHTFU4yb3RYTbn2HqemrSgz18/edit)
 - [Decision making at Sourcegraph](decisions.md)
 - [Glossary of terms](../onboarding/glossary.md) we use
 
@@ -107,15 +107,9 @@ See [1-1 meetings](1-1.md).
 
 See [Announcements](announcements.md).
 
-## Shortening URLs
+## Don't use URL shorteners
 
-Using shorter URLs is much easier to fit into small spaces or images than the full link to our page or handbook.
-For example, this will redirect to our home page:
-
-- [srcgr.ph](http://srcgr.ph/)
-
-We also use [srcgr.ph](http://srcgr.ph/) as our Bitly custom URL.
-It is also possible to customise specific sub-paths via Bitly. To do so we use our Bitly account, which is linked to our Twitter account. If you would like to request a shortened link, contact the [Marketing team](mailto:marketing-team@sourcegraph.com).
+Do not use URL shorteners (not even ones that we pay for or that use a custom domain). Devs don't like or trust them.
 
 ## Google Docs
 

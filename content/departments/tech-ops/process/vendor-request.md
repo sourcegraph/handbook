@@ -1,6 +1,6 @@
 # Vendor Request Process
 
-At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
+At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to personal, Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
 
 ### Why should I use this process?
 
@@ -21,7 +21,12 @@ We have the following rules for which a vendor request needs to be raised:
 
 Please see our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) on further information on data classification and examples.
 
-**Please be aware that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.**
+<br>
+  
+>**Important: Please check our [Vendor/Systems Inventory](https://docs.google.com/spreadsheets/d/1tzP64dj2CrddDLTZuLFWmpXoNB9lUaOstRUj3FaN_Rs/edit#gid=0) before raising a request in order to avoid duplicate requests and effort.**
+<br>
+
+**Please be aware** that the >5k rule for vendors from finance only pertains to the payment mechanism for vendors and does NOT exempt the vendor engagement from the vendor request process explained here.
 
 ### What counts as a Vendor?
 
@@ -48,6 +53,9 @@ We define the following vendor request types:
 
 **Step 1:** Visit our [service desk portal](https://sourcegraph.atlassian.net/servicedesk/customer/portal/6)
 
+- You will need to set up an account (username/pw) to submit a ticket
+- [How to submit a Jira Service Desk ticket](https://www.loom.com/share/56924569448f4c8cb63bbaf5bd232d2f) Loom video (including how to set up an account)
+
 **Step 2:** Choose the correct request Type
 _Options:_ New Vendor, Offboarding, Annual Review, Other
 
@@ -56,17 +64,19 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 **Step 4:** Submit the request
 
-**Optional Step:**
+<ins>Optional Step:</ins>
 
-**Step 5:** Contact Vendr to assist with vendor price negotiations
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5: Contact Vendr to assist with vendor price negotiations
 
 **Step 6:** Keep an eye on the due diligence responses in the Jira ticket and respond to any requests from the reviewers
+
+- [Review submitted requests](https://www.loom.com/share/643ceeb88b8c44fea1ea9a713f64d5e5) Loom video
 
 **Step 7:**
 
 > If ‘Approved’ -
 >
-> New vendor: get the contract (details here) and attach it to the Jira ticket.
+> New vendor: get the contract signed ([details on signature requirement](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md)) and [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed) in the correct place.
 >
 > Offboarding: no further actions required
 >
@@ -119,7 +129,7 @@ Our due diligence involves the following reviews:
 
 (Please note: reviews happen in parallel and hence the longest SLA is 10 business days)
 
-- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing.
+- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing and info on where to [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed).
 - If any issues are found during the reviews and the approvers deem the vendor to be too risky to engage with further, any existing engagement will be terminated and the vendor will be offboarded (new vendor request to be raised for ‘Offboarding’) and the new vendor will not be onboarded.
 
 ### Budget

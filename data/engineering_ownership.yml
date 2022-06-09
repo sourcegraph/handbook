@@ -8,8 +8,8 @@ authn_authz:
   category: Application Architecture
   title: AuthN/AuthZ
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
@@ -17,7 +17,7 @@ multi_tenancy:
   category: Application Architecture
   title: Multi-tenancy
   type: Tech
-  product_org: cloud
+  product_org: adminexp
   product_lifecycle: Introduction
 
 rate_limiting:
@@ -35,16 +35,16 @@ feature_flagging_ab_testing:
 gating_system_license_key_management:
   category: Application Architecture
   title: Gating system and license key management
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
 rbac:
   category: Application Architecture
   title: RBAC
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
@@ -64,8 +64,8 @@ cloud_kms_encryption:
   category: Application Architecture
   title: Cloud KMS encryption
   type: Tech
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
 
 src_cli:
@@ -84,7 +84,7 @@ browser_extensions:
   category: Application Interface
   title: Browser Extensions
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -94,7 +94,7 @@ native_integrations:
   category: Application Interface
   title: Native Integrations
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -104,7 +104,7 @@ editor_extension:
   category: Application Interface
   title: Editor Extension
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -122,7 +122,7 @@ resource_estimator:
   category: Application Interface
   title: Resource Estimator
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: delivery
   ownership_model: Owner
 
@@ -154,8 +154,8 @@ admin_experience:
   category: Client - Table stakes
   title: Admin Experience
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
@@ -381,7 +381,7 @@ gcp_sourcegraph_com:
   category: Google Cloud Platform
   title: GCP - Sourcegraph.com
   type: Tech
-  product_org: cloud
+  product_org: adminexp
   product_team: devops
 
 gcp_permissions:
@@ -406,7 +406,7 @@ infrastructure_as_code:
   category: Infrastructure
   title: Orchestration - Infrastructure as Code
   type: Tech
-  product_org: cloud
+  product_org: adminexp
   product_team: devops
   slack_channels: '#cloud-devops, #dev-ops'
   ownership_model: Caretaker
@@ -423,7 +423,7 @@ waf:
   category: Security & Compliance
   title: WAF (Cloudflare)
   type: Tech
-  product_org: cloud
+  product_org: adminexp
   product_team: security
   slack_channels: '#security'
   ownership_model: Owner
@@ -434,7 +434,7 @@ compliance:
   category: Security & Compliance
   title: Compliance
   type: Tech
-  product_org: cloud
+  product_org: adminexp
   product_team: security
   slack_channels: '#security'
   ownership_model: Caretaker
@@ -603,7 +603,7 @@ extensions_registry:
   category: Web App - Add-on Feature
   title: Web App - Extensions registry
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -612,7 +612,7 @@ extensions:
   category: Web App - Add-on Feature
   title: Sourcegraph Extensions
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -631,8 +631,8 @@ subscription_management:
   category: Web App - Billing
   title: Subscription Management
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
@@ -646,8 +646,8 @@ usage_reporting_entitlements:
   category: Web App - Billing
   title: Usage reporting / entitlements limits
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
@@ -656,8 +656,8 @@ payments_billing:
   category: Web App - Billing
   title: Payments / Billing
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction
@@ -666,8 +666,8 @@ on_prem_licensing:
   category: Web App - Billing
   title: On-prem licencing model
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
 
@@ -700,8 +700,8 @@ user_profile_settings:
   category: Web App - Core Feature
   title: User profile / settings
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Mature
@@ -710,7 +710,7 @@ signup_flow:
   category: Web App - Core Feature
   title: Sign up flow
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: growth
   slack_channels: '#growth'
   ownership_model: Owner
@@ -720,7 +720,7 @@ onboarding_flow:
   category: Web App - Core Feature
   title: Post sign up / onboarding flow / product tour / in-product guidance / new user experience (NUE)
   type: Product
-  product_org: cloud
+  product_org: adminexp
   product_team: growth
   slack_channels: '#growth'
   ownership_model: Owner
@@ -730,8 +730,8 @@ user_notifications:
   category: Web App - Core Feature
   title: User notifications
   type: Product
-  product_org: cloud
-  product_team: iam_and_admin_exp
+  product_org: adminexp
+  product_team: iam
   slack_channels: '#iam-and-admin-exp'
   ownership_model: Owner
   product_lifecycle: Introduction

@@ -2,25 +2,27 @@
 
 The org chart is generated automatically from data files in the handbook repository ([need to edit it?](#how-to-edit)). Sourcegraph teammates can see a complete and up-to-date org chart for the entire company in [BambooHR](https://sourcegraph.bamboohr.com/).
 
-## [Engineering](../departments/product-engineering/engineering/team/index.md#current-organization)
+## [Engineering](../departments/engineering/index.md)
 
-{{generator:reporting_structure.vp_engineering}}
+Our Engineering department includes design, product education, product management, and software engineering.
 
-## [Product](../departments/product-engineering/product/team/index.md#current-team)
+{{generator:reporting_structure.eng_lead}}
 
-{{generator:reporting_structure.vp_product}}
+## Cloud
 
-## [Customer Support](../departments/support/index.md#the-team)
+{{generator:reporting_structure.engineering_manager_cloud}}
 
-{{generator:reporting_structure.director_customer_support}}
+## Security
 
-## [Customer Engineering](../departments/ce/index.md#current-team-members)
+{{generator:reporting_structure.engineering_manager_security}}
+
+## [Customer Engineering & Support](../departments/ce-support/ce/index.md#current-team-members)
 
 {{generator:reporting_structure.vp_customer_engineering}}
 
-## [Marketing](../departments/marketing/index.md#members)
+## [Marketing](../departments/marketing/index.md)
 
-{{generator:reporting_structure.vp_marketing}}
+{{generator:reporting_structure.marketing_lead}}
 
 ## [People Ops](../departments/people-talent/people-ops/index.md#people-ops-team-members)
 

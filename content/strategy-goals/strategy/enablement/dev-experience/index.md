@@ -1,6 +1,6 @@
 # Dev Experience team strategy
 
-This page outlines the vision, strategy, and goals of the [Dev Experience team](../../../../departments/product-engineering/engineering/enablement/dev-experience/index.md).
+This page outlines the vision, strategy, and goals of the [Dev Experience team](../../../../departments/engineering/dev/enablement/dev-experience/index.md).
 
 ## Mission
 
@@ -43,13 +43,13 @@ What is being run, how and when must be very clear. Otherwise, it introduces fri
 
 [Full list of roadmap issues for Dev Experience](https://github.com/orgs/sourcegraph/projects/214/views/14?filterQuery=owning-org%3AEnablement+owning-team%3A%22Dev+Experience%22)
 
-See also our [completed goals](../../../../departments/product-engineering/engineering/enablement/dev-experience/goals_completed.md).
+See also our [completed goals](../../../../departments/engineering/dev/enablement/dev-experience/goals_completed.md).
 
 ### FY23 Q2
 
 Improved observability tooling is a major, company-wide priority in Q2 and we'll be focusing the majority of our efforts on standardized logging and error monitoring. For this quarter, we largely aim to agree and begin implementation on the best path forward. Deliverables include: documented consensus on the preferred logging and error packages, guidance on conventions and usage, and complete migration of at least one service. We'll also be wrapping up the CI/CD pipeline observability work that is 83% complete as of the end of Q1.
 
-- [CI/CD pipeline steps are all observable and measurable](https://github.com/sourcegraph/product-engineering-tracker/issues/74)
+- [CI/CD pipeline steps are all observable and measurable](https://github.com/sourcegraph/engineering-tracker/issues/74)
 
 - [CI key result metrics are centralized and aggregated in reports](https://github.com/sourcegraph/sourcegraph/issues/33242)
 

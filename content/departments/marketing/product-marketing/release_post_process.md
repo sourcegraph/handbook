@@ -1,6 +1,6 @@
 # Release Post process
 
-Product Marketing is responsible for creating the monthly release post in collaboration with the product and content teams. The release post is intended to showcase highlights and major updates included in the latest version of Sourcegraph. New versions are typically released on the 20th of each more; you can read more about [the engineering release process here](../../product-engineering/engineering/process/releases/index.md#when-we-release).
+Product Marketing is responsible for creating the monthly release post in collaboration with the product and content teams. The release post is intended to showcase highlights and major updates included in the latest version of Sourcegraph. New versions are typically released on the 20th of each more; you can read more about [the engineering release process here](../../engineering/dev/process/releases/index.md#when-we-release).
 
 Here is an overview of the release post process:
 

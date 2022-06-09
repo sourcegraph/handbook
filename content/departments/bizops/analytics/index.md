@@ -32,6 +32,7 @@ We have [written policies about how we handle customer information](../process/c
 
 - [Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/files/1_home.md): Business intelligence/data visualization tool
 - Google Cloud Platform: BigQuery is our data warehouse and the database Looker runs on top of
+- Fivetran: Fivetran is a no code data integrator that can facilitate syncing data from internal business applications to BigQuery. Current pipelines running with Fivetran: Salesforce, Hubspot, GitHub (coming soon). All Data and Analytics team members have access to create pipelines, please reach out to #analytics to request a new pipeline.
 - Google Sheets: There are a [number of spreadsheets](https://drive.google.com/drive/folders/1LIfVyhjhh_mpc0SNOFvpNfN2h4CmGQmI) that Looker queries (by way of BigQuery).
 - BizOps builds ad-hoc tools to analyze data for various reasons. The projects are in the [Google Drive Analytics folder](https://drive.google.com/drive/folders/1mtrHKsB2Kv0IGQ829zbcRGDSYHQpzkfd) and the source code is available in the [analytics repo](https://github.com/sourcegraph/analytics).
 - For further explanation on how we use these tools, see the [data workflows](../process/data_workflows.md) page

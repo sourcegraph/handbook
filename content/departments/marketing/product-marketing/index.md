@@ -55,7 +55,7 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 ## Product launch templates and resources
 
 - [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#): Messaging and positioning doc for new products/features.
-- [Naming process](../brand/naming_process_for_products_features_and_programs.md): Best practices/process for naming new products/features.
+- [Naming guide](naming_guide.md): Best practices/process for naming new products/features.
 - [Marketing launch tiers](marketing_launch_tiers.md): Guidance for establishing the launch tier for new products/features.
 
 ## Resources
@@ -67,4 +67,4 @@ To learn more about the team, check out our individual [READMEs](product-marketi
 - [Batch Changes positioning](batch_changes_positioning.md)
 - [Release post process](release_post_process.md)
 - [Customer marketing](customer_marketing.md)
-- [Product Marketing & Product Manager collaboration](../../product-engineering/product/process/index.md#product-management--marketing)
+- [Product Marketing & Product Manager collaboration](../../engineering/product/process/index.md#product-management--marketing)

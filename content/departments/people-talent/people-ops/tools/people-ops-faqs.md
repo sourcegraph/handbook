@@ -28,11 +28,11 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. When and where do I get my Carta invite?
 
-- [Carta](https://carta.com/) houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1–3 weeks after the board meeting to process.
+- [Carta](https://carta.com/) houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1–3 weeks after the board meeting to process. Board meetings are typically held 3-4 weeks after fiscal quarter end.
 
 ### Q. Who do I contact regarding questions about Carta and/or my option grant?
 
-- For questions about your option grant, please contact Dan Adler at [dan@sourcegraph.com](mailto:dan@sourcegraph.com).
+- For questions about your option grant, please contact the team at #stock-options-equity
 
 ## Expenses
 
@@ -53,8 +53,8 @@ This page is meant as a resource to find answers to questions frequently asked b
 - **Contractors:**
   - All expensed perks must be added as a separate line item in your monthly invoice. For instructions on how to submit an invoice, visit [this page](../../../../benefits-pay-perks/pay-expenses/invoices.md).
 - **PEO employees:**
-  - **Remote:**
-    - All expensed perks must be submitted via Remote’s platform in order for them to be included in your monthly pay.
+  - **Remote and Deel:**
+    - All expensed perks must be submitted via Remote’s platform in order for them to be included in your monthly pay. Please use allowance type for internet, phone, wellness and reimbursement for all others.
   - **Velocity:**
     - All expensed perks must be submitted via Expensify in order for them to be included in your monthly pay.
 
@@ -76,7 +76,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. When and where do I get my Expensify invite? (Velocity Global teammates)
 
-**US and Velocity Global teammates:**
+**Velocity Global teammates:**
 
 - You will receive an [Expensify](https://www.expensify.com/) invite to your Sourcegraph email by your first week. You will use Expensify to submit receipts for reimbursement.
   - If you do not have an invite to Expensify by your first week, please contact to People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
@@ -89,7 +89,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 ### Q. What benefits and plans are available to me?
 
-**US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. You can also reference these PDFs below:
+**US teammates:** You can use this [Rippling tool](https://app.rippling.com/benefits/preview/or8vgxl35ymgb56b) to review your insurance plan options as PDFs. Premiums for teammates, spouse, and dependents are covered 100%. You can also reference these PDFs below:
 
 - **Health insurance:**
   - UnitedHealthcare EPO
@@ -109,12 +109,30 @@ This page is meant as a resource to find answers to questions frequently asked b
     - [Plan Summary](https://drive.google.com/file/d/1WVCj7HEuyiGqIwDFLp6uXUOtiDX_jtbK/view?usp=sharing)
 - **Dental insurance:**
   - [Cigna DPPO](https://drive.google.com/file/d/1srWmxhMrCtfLVso48qbjUYehj8eAg7vl/view?usp=sharing)
-- **Vision insurance:**
+- **Vision insurance and Life Insurance:**
   - [Equitable Vision](https://drive.google.com/file/d/18hsyxSJqwI2Uyoy0iS1xk2k0AiY88zNb/view?usp=sharing)
+- **HSA, FSA, and Dependent Care FSA:**
+- **401K:**
 
 **Non-US teammates:**
 
 - Not applicable.
+
+### Q. Does Sourcegraph match my 401k?
+
+- Not at this time.
+
+### Q. Who handles our 401k?
+
+- Human Interest. You will receive an invite shortly after enrolling in Rippling.
+
+### Q. Does Sourcegraph offer short term disability and long term disability?
+
+- At this time, Sourcegraph does not offer STD and LTD but we are always evaluating our benefit options.
+
+### Q. Do our health benefits cover us while traveling internationally?
+
+- They do not, we recommend using a travel insurance for the duration of your trip and expensing this. A common one used for US teammates is GeoBlue.
 
 ### Q. When will my benefits become active?
 
@@ -126,14 +144,18 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 - Not applicable.
 
-#### When will I receive my insurance member IDs?
+#### Q. When will I receive my insurance member IDs?
 
 - You can access your virtual insurance member IDs in the [Lumity](https://www.lumity.com/) mobile app within 7-10 business days after you complete enrollment. You will receive your physical insurance member ID cards via mail 2-4 weeks after you complete enrollment.
-  - If you have not received your insurance member IDs, please post in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel.
+  - If you have not received your insurance member IDs, please reach out to Lumity at support@lumity.com or 1-844-2-LUMITY
 
 **Non-US teammates:**
 
 - Not applicable.
+
+#### Q. What is Lumity??
+
+- Lumity is our benefits broker. All health insurance cards and coverage questions are handled by Lumity.
 
 ### Q. When can I enroll in insurance?
 
@@ -144,6 +166,11 @@ This page is meant as a resource to find answers to questions frequently asked b
 **Non-US teammates:**
 
 - Not applicable.
+-
+
+#### Q. What if I never received an invite to Lumity?
+
+- Please reach out to support@lumity.com or 1-844-2-LUMITY.
 
 ### Q. How do I waive insurance?
 
@@ -159,11 +186,15 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **US teammates:**
 
-- You can view your benefits in [Rippling](https://app.rippling.com/insurance/employee/overview/home).
+- You can view your benefits in [Rippling](https://app.rippling.com/insurance/employee/overview/home) or in the Lumity app.
 
 **Non-US teammates:**
 
 - Not applicable.
+
+#### Q. Where can I view my health, dental, and vision insurance cards?
+
+- All cards are located in the Lumity app. You will receive physical medical cards but dental and vision will only be available through the app.
 
 ### Q. Where and when do I receive my Rippling invitation?
 
@@ -195,6 +226,14 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 - Not applicable.
 
+#### Q. What fo I do if my medication or procedure is not covered by our insurance plan?
+
+- Our insurance plan cannot be augmented to cover specific medications. Please work with your healthcare provider and contact Lumity to verify.
+
+#### Q. How can I confirm if something is covered by our insurance plans?
+
+- Please work with your healthcare provider and contact Lumity to verify.
+
 ## Immigration support
 
 ### Q. I need a letter from my employer to obtain a visa, how do I request that?
@@ -214,6 +253,10 @@ This page is meant as a resource to find answers to questions frequently asked b
 ### Q. What will happen if I fall out of status during the renewal process?
 
 - If your employment authorization documents expire, you will need to go on “Unpaid leave” until your documents are renewed. If this is the case, please reach out to People Ops at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com).
+
+### Q. What if I have a question that isn’t answered here?
+
+- Post your question into #ask-people-team
 
 ## Moving
 
