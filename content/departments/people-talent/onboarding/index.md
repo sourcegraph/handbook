@@ -54,79 +54,114 @@ Below are the goals and expectations for each week of your onboarding.
 
 - COMING SOON
 
-## 30 / 60 / 90 Day Plan
+## What will success look like
 
-We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. During your first 90 days, this is what success looks like.
+We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. In the following section details what success looks like within the first year for various roles.
 
 ### Recruitment Operations Specialist (level 2)
 
-#### First 30 days:
+**Within one month, you will…**
 
-- Demonstrate baseline understanding of core product, value proposition, and processes.
-- Successfully deliver initial product demo, covering core functionality.
+- Kick off 1:1s with your boss, peers, and other employees within the business.
+- Learn about the engineering and product interview process and how we hire through shadowing other team members.
+- Provide administrative and logistical support for our high-volume recruiting team, specifically our Technical Recruiters.
+- Gain strong familiarity with Greenhouse, our Applicant Tracking system; be able to successfully navigate the system, create candidate profiles, schedule interviews, and much more.
+- Schedule interviews using Google Calendar and Greenhouse, consistently ensuring an outstanding candidate experience through consistent follow-up communication.
+- Run and analyze recruiting metrics on a weekly basis.
+- Own programs related to: diversity & inclusion, recruitment marketing, summer internship program & campus recruiting; partner with your team on existing programs and identify opportunities for improvement.
+- Organize and maintain documentation in Greenhouse, Google Drive, and our public-facing Handbook.
+- Dive into internal processes and suggest opportunities for improvement; teach us a thing or two we don’t know!
+- Continuously looking for opportunities to improve the recruiting function at Sourcegraph, with a focus on automation and scalability.
 
-#### 30 - 60 days:
+**Within three months, you will...**
 
-- COMING SOON
+- Schedule interviews seamlessly, with candidate experience being at the forefront of your mind at all times.
+- Have Greenhouse optimized and functioning seamlessly.
+- Continue to identify inefficiencies and innovate/improve; you'll never stop having the ability to influence and drive change and process improvement.
 
-#### 60 - 90 days:
+**Within six months, you will...**
 
-- COMING SOON
+- Provide flawless support to the recruiting team, resulting in a continuous positive candidate experience.
+- Serve as a critical member of the recruiting team, with a deep understanding of the team’s talent needs and staying one step ahead of the growth.
+- Provide feedback to leadership and interviewers as to what's working, what's not, and ideas for what to change.
+- Help support the team in achieving the hiring goals; we’ll look to you to deliver month-over-month!
+
+**Within one year, you will...**
+
+- Have a growth mindset and an eye for creating scalable processes, always.
+- Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
+- Identify areas of growth and share them continuously in your 1:1s.
 
 ### Sourcer (level 2)
 
-#### First 30 days:
+**Within one month, you will…**
 
-- Demonstrate baseline understanding of core product, value proposition, and processes.
-- Successfully deliver initial product demo, covering core functionality.
+- Kick off 1:1s with your boss, peers, and other employees within the business.
+- Learn about the interview process and how we hire through shadowing other team members.
+- Partner with Recruiters and Hiring Managers to understand & calibrate ideal profiles across multiple teams, groups, and organizations.
+- Gain strong familiarity with Greenhouse, our Applicant Tracking system; be able to successfully navigate the system, create candidate profiles, schedule interviews, and much more.
+- Schedule technical interviews using Google Calendar and Greenhouse, consistently ensuring an outstanding candidate experience through consistent follow-up communication.
+- Organize and maintain documentation in Greenhouse, Google Drive, and our public-facing Handbook.
+- Dive into internal processes and suggest opportunities for improvement; teach us a thing or two we don’t know!
+- Assist in the implementation of new tools, systems, and processes.
+- Continuously look for opportunities to improve the recruiting function at Sourcegraph, with a focus on automation and scalability.
 
-#### 30 - 60 days:
+**Within three months, you will...**
 
-- COMING SOON
+- Successfully identify strong candidates using your own research, the Sourcegraph referral network, and sourcing campaigns.
+- Have a strong understanding of the talent market, the companies they employ the talent we recruit, and keep a pulse on the talent market.
+- Screen candidates to ensure their qualifications match requirements of open roles.
+- Have a strong grasp on metrics and your pipeline activity to share with stakeholders.
+- Schedule technical interviews seamlessly, with candidate experience being at the forefront of your mind at all times.
+- Have Greenhouse optimized and functioning seamlessly.
+- Continue to identify inefficiencies and innovate/improve; you'll never stop having the ability to influence and drive change and process improvement.
+- Ensure candidates have an excellent interview experience regardless of outcome.
 
-#### 60 - 90 days:
+**Within six months, you will...**
 
-- COMING SOON
+- Provide flawless support to the technical recruiting team, resulting in a continuous positive candidate experience.
+- Serve as a critical member of the recruiting team, with a deep understanding of the team’s talent needs and staying one step ahead of the growth.
+- Provide feedback to leadership and interviewers as to what's working, what's not, and ideas for what to change.
+- Help support the team in achieving the hiring goals; we’ll look to you to deliver month-over-month!
+
+**Within one year, you will...**
+
+- Have a growth mindset and an eye for creating scalable processes, always.
+- Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
+- Identify areas of growth and share them continuously in your 1:1s.
 
 ### Recruiter (level 3)
 
-#### First 30 days:
+**Within one month, you will...**
 
-- Demonstrate baseline understanding of core product, value proposition, and processes.
-- Successfully deliver initial product demo, covering core functionality.
+- Begin 1:1’s with your Manager, understand your 30-60-90 day plan, meet & shadow current members of the Sourcegraph team, and delve into your role
+- Set your OKRs (Objectives and Key Results) with your Manager and develop an action plan to achieve them.
+- Meet key hiring managers and executive leadership you will be supporting - you will be meeting with them weekly and they will be key relationships for you throughout your [role.Begin](http://role.begin/) recruiting on openings and become ingrained in the business with assistance from your team and the VP, Talent.
 
-#### 30 - 60 days:
+**Within three months, you will...**
 
-- COMING SOON
+- Manage the influx of applicants in a timely manner, providing a top-notch candidate experience.
+- Utilize strong sourcing and recruiting methods to proactively identify and attract top-quality passive talent.
+- Have a strong understanding of the business and what makes Sourcegraph unique.
+- Begin to work autonomously through the entire candidate recruitment lifecycle (from application through offer acceptance) and have regular “update meetings” with your hiring managers.
+- Embody a growth mindset and proactively work on projects that help us process improve and develop a scalable foundation on which to grow.
 
-#### 60 - 90 days:
+**Within six months, you will...**
 
-- COMING SOON
+- Be seen as a Subject Matter Expert to the business units you support, guiding hiring managers and executive leadership on selection best practices.
+- Have established relationships with your team hiring managers, and be viewed as a trusted Business Partner throughout the company.
+- Fill roles quickly with quality talent.
+
+**Within one year, you will...**
+
+- Be considered a top-performing Recruiter on the team and a go-to resource for your hiring managers.
+- Provide a candidate experience that is considered to be the best they’ve ever had.
+- Train and develop new team members.
 
 ### Senior Recruiter (level 4)
-
-#### First 30 days:
-
-- COMING SOON
-
-#### 30 - 60 days:
-
-- COMING SOON
-
-#### 60 - 90 days:
 
 - COMING SOON
 
 ### Manager
-
-#### First 30 days:
-
-- COMING SOON
-
-#### 30 - 60 days:
-
-- COMING SOON
-
-#### 60 - 90 days:
 
 - COMING SOON
