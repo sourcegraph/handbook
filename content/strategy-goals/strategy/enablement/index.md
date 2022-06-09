@@ -6,7 +6,7 @@ The [Enablement organization](../../../departments/engineering/dev/enablement/in
 
 Our mission is to provide the right technical foundations to enable the successful development and support of our product and websites. We do this by ensuring we have the right tools, processes, and services that Sourcegraph’s engineers (software, application, and customer engineers) easily understand and use.
 
-We also support Marketing, Sales, and all Sourcegraph employees that contribute to our handbook, docs, and website continuously improving our technical solutions so that team members can self-serve on these platforms.
+We also support all Sourcegraph teammates that contribute to our handbook, docs, and website continuously by improving our technical solutions so that team members can contribute easier on these platforms.
 
 ## Vision
 
@@ -14,12 +14,11 @@ We want to reduce friction through better processes and tooling such that Source
 
 ## Strategy
 
-With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and understanding what the data tells us to ensure we don’t just blindly follow our roadmap. The two key themes we are focused on in Enablement are Developer Happiness & Efficacy & Customer driven quality.
+With each initiative we undertake we expect to learn more about what the right solution looks like at Sourcegraph and therefore will put extra emphasis on capturing and understanding what the data tells us to ensure we don’t just blindly follow our roadmap. The two key themes we are focused on in Enablement are Developer Happiness & Efficacy and Customer driven quality.
 
 ### Developer Happiness & Efficacy
 
-One of the keys to putting valuable product into our customer's hands is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI.
-Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standarde our test tooling and measure and monitor test effectiveness.
+One of the keys to putting valuable product into our customer's hands is a reliable CI pipeline. We are currently working on stateless agents and reducing flakey tasks to ensure CI pipeline stability. Having a fast and reliable CI is only half the battle in giving engineers confidence in shipping code. We need to work on improving our software testing philosophy, development standards and frameworks to all work together with an improved CI. Throughout this year we will work to refine Sourcegraph’s software testing philosophy, set clear testing development standards, standardize our test tooling and measure and monitor test effectiveness.
 
 ### Customer Driven Quality
 
@@ -27,15 +26,14 @@ When our customers interact with our product as an end user or administrator the
 
 #### Observability Improvements
 
-Enable our engineers (software, application, and customer engineers) to answer arbitrary questions about a specific Sourcegraph instance without having to know ahead of time what they would need to ask. We need to ensure that our application is built deliberately with rich instrumentation providing clear insight into the running of the application. Customers will also be able to leverage this telementry for their own trouble shooting.
-
-#### Enhanced User Experience
-
-Code host connectivity, scalability, and reliability underpin all other features within Sourcegraph. We need to ensure Sourcegraph can handle the size and quantity of repositories that future customers own and ensure we can meet any performance requirements customers have that impact code host connections and code storage.
+Enable our engineers (software, application, and customer engineers) to answer arbitrary questions about a specific Sourcegraph instance without having to know ahead of time what they would need to ask. We need to ensure that our application is built deliberately with rich instrumentation providing clear insight into the running of the application. Customers will also be able to leverage this telementry for their own troubleshooting.
 
 #### Accessibility
 
-Today, the Sourcegraph web application does not comply with current WCAG guidelines. Ensuring our web application becomes--and stays--compliant is essential not just because we have current contractual obligations to do so, but also because: 1) We believe in the value of making our application compliant in furthering our mission 2) Compliance be a requirement of future clients and can be a unique selling point.
+Today, the Sourcegraph web application does not comply with current WCAG guidelines. Ensuring our web application becomes--and stays--compliant is essential not just because we have current contractual obligations to do so, but also because:
+
+1. We believe in the value of making our application compliant in furthering our mission.
+1. Compliance can be a requirement of future clients and can be a unique selling point.
 
 ## Focus for FY23
 
@@ -48,7 +46,7 @@ To deliver on this focus our aim is to make the following true by the end of FY2
 - Our code authoring and review processes ensures we raise the bar for shipping high quality code.
 - Our codebase, testing processes, and development tooling is more consistent and well understood.
 - Our codebase is easy to onboard, easy to navigate, and reflects the boundaries of general work streams.
-- Sourcegraph teammates can easily contribute to our website through our content management system
+- Sourcegraph teammates can easily contribute to our website, blog and docs.
 
 ## Team specific pages
 
