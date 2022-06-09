@@ -156,7 +156,6 @@ In addition to the project brief, there are additional/specialized briefs used f
 
 - [Product marketing brief](https://docs.google.com/document/d/1i-n7WKQrAMVAdCaGAX0shW1DbJ70cnnGkkb6yReOOPA/edit#)
 
-
 ### Step 3: Kick the project off and begin planning
 
 The purpose of the kickoff is to ensure everyone who is working on the project understands the strategy, goals, roles and responsibilities, milestones, etc. This can happen via a meeting or async by sharing the project brief.
