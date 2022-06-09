@@ -293,7 +293,7 @@ robert_lin:
 
 marek_zaluski:
   name: Marek Zaluski
-  role: 'Software Engineer, Engineering Education Lead'
+  role: Software Engineer
   reports_to: engineering_manager_developer_experience
   location: Ottawa, Canada 🇨🇦
   github: marekweb
