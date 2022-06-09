@@ -124,11 +124,11 @@ The release process is performed in steps:
 
 - for Instances with version [v1.0](./upgrade_process.md)
   1. Test instances are upgraded - [dev](https://devmanaged.sourcegraph.com/) and [demo](https://demo.sourcegraph.com/)
-  1. Uptime and performence checks are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. [Uptime checks](./upgrade_process.md#8-confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
   1. When test instances are working correctly, DevOps Team performs upgrade of all v1.0 customer instances
 - for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
   1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
-  1. Uptime and performence checks are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. [Uptime checks](./v1.1/mi1-1_upgrade_process#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
   1. When test instance is working correctly, DevOps Team performs upgrade of all v1.1 customer instances
 
 Sample upgrade:
