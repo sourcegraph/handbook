@@ -1,15 +1,14 @@
 # **Information Security Roles and Responsibilities Policy**
+
 ## **Objective**
 
-This policy and associated guidance establish the roles and responsibilities within Sourcegraph, which is critical for effective communication of information security policies and standards. Roles are required within the organization to provide clearly defined responsibilities and an understanding of how the protection of information is to be accomplished. Their purpose is to clarify, coordinate activity, and actions necessary to disseminate security policy, standards, and implementation. 
-
+This policy and associated guidance establish the roles and responsibilities within Sourcegraph, which is critical for effective communication of information security policies and standards. Roles are required within the organization to provide clearly defined responsibilities and an understanding of how the protection of information is to be accomplished. Their purpose is to clarify, coordinate activity, and actions necessary to disseminate security policy, standards, and implementation.
 
 ## **Applicability**
 
 This policy is applicable to all Sourcegraph employees and contractors who are involved with the Information Security Program. This policy applies to all other agents of Sourcegraph with access to Sourcegraph information and network. This includes, but not limited to partners, affiliates, contractors, temporary employees, trainees, guests, and volunteers. The titles will be referred to collectively hereafter as the “Sourcegraph community”.
 
-## **Roles & Responsibilities**  
-
+## **Roles & Responsibilities**
 
 <table>
   <tr>
@@ -39,7 +38,7 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
 
 <li>Solid understand of security risks and potential weak points
 
-<li>Continuously evaluate Sourcegraph’s risk appetite against potential threats 
+<li>Continuously evaluate Sourcegraph’s risk appetite against potential threats
 
 <li>Incorporate security into the company strategy
 
@@ -60,7 +59,7 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
 
 <li>Defines and runs the security program across the organization
 
-<li>Create a in-depth risk and maturity profile for Sourcegraph and utilize it to plan initiatives 
+<li>Create a in-depth risk and maturity profile for Sourcegraph and utilize it to plan initiatives
 
 <li>Responsible for oversight of security policies
 
@@ -122,9 +121,9 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
    <td>
 <ul>
 
-<li>Acting at all times in a manner which does not place at risk Sourcegraph’s assets 
+<li>Acting at all times in a manner which does not place at risk Sourcegraph’s assets
 
-<li>Helping to identify risk as part of the risk management process and implement remediations 
+<li>Helping to identify risk as part of the risk management process and implement remediations
 
 <li>Adhering to company policies and standards of conduct
 
@@ -135,18 +134,16 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
   </tr>
 </table>
 
-
-
 ## **Policy Compliance**
 
-Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits. 
+Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits.
 
 ## **Violations & Enforcement**
 
 Any known violations of this policy should be reported to report-policy-violation@sourcegraph.com. Failure to follow this policy can result in disciplinary action, up to and including termination.
 
-
 ### **History**
+
 <table>
   <tr>
    <td><strong>Version</strong>
@@ -197,4 +194,3 @@ Any known violations of this policy should be reported to report-policy-violatio
    </td>
   </tr>
 </table>
-
