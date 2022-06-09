@@ -112,44 +112,41 @@ Counter-offers are part of the recruitment process and cannot be fully avoided, 
 
 ### What is a counter offer and why do they happen?
 
-A counter-offer is an offer made in response to another offer. In a recruitment scenario, it is when the current employer of the candidate reacts to the candidate’s decision to resign. They do this by making an offer, a counter-offer, usually better than the offer we made. The 3 most common components are: 
+A counter-offer is an offer made in response to another offer. In a recruitment scenario, it is when the current employer of the candidate reacts to the candidate’s decision to resign. They do this by making an offer, a counter-offer, usually better than the offer we made. The 3 most common components are:
+
 - **More money** – Simply an increase in salary
 - **Promotion** – That promotion that the candidate has been chasing
-- **Benefits** – More equity, more vacation etc. 
+- **Benefits** – More equity, more vacation etc.
 
 ### Why make a counter offer?
 
 There are a few reasons why employers make counter offers:
+
 - **The cost of recruitment and training** – Recruiting and training a new employee is expensive
-- **Loss of income** – The candidate is working on something important or the loss of the employee will impact the workload for the remaining team. 
-- **Pride** – Some companies simply do not like losing talent to the competition. 
+- **Loss of income** – The candidate is working on something important or the loss of the employee will impact the workload for the remaining team.
+- **Pride** – Some companies simply do not like losing talent to the competition.
 
 ### Managing a counter offer
 
 How do you manage a counter-offer? There are two important factors:
-- **Build rapport** - As you go through the process, build trust with the candidate. You are the subject expert matter so they will trust your opinion. As you build a relationship, you will learn about their goals, motivations and pain points, and the pull and push factors. This will have a big impact if they either accept or reject the offer. 
-- **Know your business space** - This will help you build trust but also allow you to use market insight to show the candidate that things won’t improve if they stay or to remind them why they wanted to switch roles to begin with. Maybe they are leaving a legacy space that has not seen growth for the last few years. 
 
-It is important to understand that counter offers are not always a bad proposition so understanding both the pull and push factors are very important. You don’t want to focus on the push factors if the candidate is more interested in the career growth potential. 
+- **Build rapport** - As you go through the process, build trust with the candidate. You are the subject expert matter so they will trust your opinion. As you build a relationship, you will learn about their goals, motivations and pain points, and the pull and push factors. This will have a big impact if they either accept or reject the offer.
+- **Know your business space** - This will help you build trust but also allow you to use market insight to show the candidate that things won’t improve if they stay or to remind them why they wanted to switch roles to begin with. Maybe they are leaving a legacy space that has not seen growth for the last few years.
+
+It is important to understand that counter offers are not always a bad proposition so understanding both the pull and push factors are very important. You don’t want to focus on the push factors if the candidate is more interested in the career growth potential.
 
 ### Best practices
 
-- Always make yourself available to speak with the candidate. Be ready to schedule a zoom/phone call. Never do it over email since it is too easy to ignore. 
+- Always make yourself available to speak with the candidate. Be ready to schedule a zoom/phone call. Never do it over email since it is too easy to ignore.
 
-- Listen to what the candidate has to say without dismissing their thoughts. You will use the information they share with you to build your case and make your list of pull and push factors. 
+- Listen to what the candidate has to say without dismissing their thoughts. You will use the information they share with you to build your case and make your list of pull and push factors.
 
-- If they ask for time to think, ask them to schedule time to speak with you before making a decision. If you have built a rapport with them, this should not be a problem. 
+- If they ask for time to think, ask them to schedule time to speak with you before making a decision. If you have built a rapport with them, this should not be a problem.
 
 - Leverage stakeholders. Who did they click with? Find out and leverage them in the conversation or have them speak directly to the candidate.
 
-- Be patient and empathetic. Changing your job is a big decision and some people need more time than others. 
+- Be patient and empathetic. Changing your job is a big decision and some people need more time than others.
 
 - Throughout the interview process always remember ABC: Always Be Closing! Every conversation with the candidate should be a closing conversation. If the process has been done correctly, there should not be any surprises at the end. If there are concerns, we should be ready to address them right away.
 
-- Sometimes you have to let them go. In the end, you want to work with passionate and motivated people. It is good to know when to cut your losses. 
-
-
-
-
-
-
+- Sometimes you have to let them go. In the end, you want to work with passionate and motivated people. It is good to know when to cut your losses.
