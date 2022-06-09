@@ -1,8 +1,6 @@
 ## Operating cadence
 
-
 ## Calendar
-
 
 <table>
   <tr>
@@ -55,18 +53,12 @@
   </tr>
 </table>
 
+## Issues
 
-
-## Issues 
-
-
-
-* [Minimum detail on a ticket](https://github.com/sourcegraph/analytics/issues/new?assignees=&labels=&template=internal.md&title=) (included in issue types in our tracker)
-* Every ticket should be in small enough chunk where it gets done within the sprint
-
+- [Minimum detail on a ticket](https://github.com/sourcegraph/analytics/issues/new?assignees=&labels=&template=internal.md&title=) (included in issue types in our tracker)
+- Every ticket should be in small enough chunk where it gets done within the sprint
 
 ### A guide to Impact/Urgency - P0 - P4
-
 
 <table>
   <tr>
@@ -168,10 +160,7 @@
   </tr>
 </table>
 
-
-
 ### Story points
-
 
 <table>
   <tr>
@@ -239,4 +228,3 @@
    </td>
   </tr>
 </table>
-
