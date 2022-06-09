@@ -66,7 +66,11 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post in #cloud-devops channel asking for release candidate to be deployed to a test managed instance
+- [ ] Post the following message to the #cloud-devops channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
+
+  ```
+  Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.1) to be deployed to a test managed instance. Could someone help here? :ty:
+  ```
 
 ## Release Day ($RELEASE_DATE)
 
