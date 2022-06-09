@@ -119,7 +119,7 @@ The release process is performed in steps:
 
 1. New version is released via [release guild](../../../process/releases/release_guild.md)
 1. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../../process/releases/upgrade_managed_issue_template.md)
-1. Github issue is labeled with `team/devops` and Devops Team is automatically notified to perform Managed Instances upgrade.
+1. Github issue is labeled with `team/devops` and Devops Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 1. DevOps team performs upgrade of all instances in given order:
 
 - for Instances with version [v1.0](./upgrade_process.md)
