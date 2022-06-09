@@ -40,6 +40,7 @@ To create a managed instance, see [managed instances creation process](creation_
     - [3) Apply changes to instance](#3-apply-changes-to-instance)
     - [4) Upgrade running deployment](#4-upgrade-running-deployment)
     - [5) Wrap up the upgrade](#5-wrap-up-the-upgrade-1)
+  - [Upgrade to v1.1](#upgrade-to-v1-1)
 
 ## General setup
 
@@ -608,3 +609,37 @@ go run ../util/cmd/ check
 ### 8) Wrap up the upgrade
 
 [Open a pull request](#13-open-a-pull-request-to-commit-your-changes)
+
+## Upgrade to v1.1
+
+Upgrade process from v1.0 instance to v1.1.
+
+### Enable OIDC
+
+1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
+
+- type: Web Application
+- name: `managed-instance-$COMPANY`
+- Authorized redirect URIs:
+  - Is the instance **public**, then add **only** `https://$PROJECT_SLUG/.auth/callback`
+  - Is the instance **private**, then add **both** `https://$PROJECT_SLUG/.auth/callback` AND `http://localhost/.auth/callback`
+
+1. Create a GCS secret to be used by OIDC authentication
+
+   ```bash
+   mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
+   ```
+
+1. Enable Google Oauth OIDC in instance configuration
+
+```bash
+mg enable-oidc
+```
+
+1. Ask the CE to add 10 extra seats to the license, as we currently do not exclude DevOps admin accounts from the license usage.
+
+1. Add Sourcegraph users
+
+```bash
+mg sync-admins
+```
