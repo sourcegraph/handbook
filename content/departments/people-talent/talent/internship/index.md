@@ -10,8 +10,7 @@ We do not limit our internships to just students - we welcome all qualified appl
 
 ### Why Apply?
 
-As a Sourcegraph intern, you will take initiative on hands-on, impactful projects, work alongside world class talent, and offer unique perspectives and ideas that directly influence Sourcegraph’s products and services. We give all of our interns exceptional support and high agency to drive their career forward in the field of recruiting, engineering, sales, design, and more. In addition to providing real-world work experience, we hold socials, speaker events, and career workshops to promote networking, growth, and professional skill development and set our cohort up for their future careers. Click [here](index.md#internship-events) to see the 2022 cohort internship events. 
-
+As a Sourcegraph intern, you will take initiative on hands-on, impactful projects, work alongside world class talent, and offer unique perspectives and ideas that directly influence Sourcegraph’s products and services. We give all of our interns exceptional support and high agency to drive their career forward in the field of recruiting, engineering, sales, design, and more. In addition to providing real-world work experience, we hold socials, speaker events, and career workshops to promote networking, growth, and professional skill development and set our cohort up for their future careers. Click [here](index.md#internship-events) to see the 2022 cohort internship events.
 
 ### Open Positions
 
