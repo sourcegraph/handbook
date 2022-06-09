@@ -25,6 +25,7 @@
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
+  - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
 - [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
 
 ## Members
