@@ -2,7 +2,7 @@ Talent Team Onboarding
 
 # Onboarding
 
-Welcome to Sourcegraph - we're VERY excited to have you on the Talent team! This page describes the onboarding philosophy and process for new talent team members as they onboard, as well as what success looks like 1 month, 3 months, 6 months, and a year in. 
+Welcome to Sourcegraph - we're VERY excited to have you on the Talent team! This page describes the onboarding philosophy and process for new talent team members as they onboard, as well as what success looks like 1 month, 3 months, 6 months, and a year in.
 
 ## Company-wide and Talent-specific Onboarding
 
