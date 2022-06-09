@@ -74,9 +74,7 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
   - All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
 - For PEO candidates, the candidate will receive all offer documentation via the PEO.
 
-COMING SOON: what to do if the candidate declines our offer
-
-**Offer Process for PEO/EOR contracts**
+### Offer Process for PEO/EOR contracts
 
 1. Confirm if the Country is Eligible for PEO through Remote.com - https://support.remote.com/hc/en-us/articles/4411262104589
 2. If a country does not have an SLA, notify People Ops and Legal to begin the SLA process if at the final or offer stage with a candidate.
@@ -89,3 +87,21 @@ COMING SOON: what to do if the candidate declines our offer
 8. Candidate reviews and signs Employment Agreement (~1-2 days)
 9. People Ops forwards confirmation for signed employment agreement to Talent
 10. Follow PEO Onboarding Process
+
+## What do to if candidate declines our offer
+
+If a candidate declines our offer, the Recruiter will follow the processes below.
+
+Note: If the candidate initially signs the offer letter and is marked as hired then revokes the offer, please follow the steps to [Action a Revoked Offer](./after_the_offer.md).
+
+**Step 1:** The Recruiter will send a Slack in the role’s private hiring channel to inform the Hiring Manager and the Interview team that the candidate has declined the offer and discuss steps.
+
+- Things to consider: What was the reason for the offer decline? Discuss with the Hiring Manager whether we need to adjust anything about the offer, scope of the role, etc.
+
+**Step 2:** The Recruiter will reject the candidate who declined the offer in Greenhouse and select the most appropriate ‘They Rejected Us’ reason from the drop-down menu. Add details about the situation and reasoning in the Note section.
+
+- Example:
+  - Reason: “Accepted a competing offer ($25K+ higher)”
+  - Note: “Accepted a competing offer at X company with $X OTE and $X equity"
+
+**Step 3:** The Recruiter will discuss next steps with the Hiring Manager. Were there other finalists the team was excited about that they would like to extend the offer to now? Were there any other candidates in process that we’d like to complete the interviews? If not, the Recruiter will begin sourcing and recruiting to rebuild the pipeline.
