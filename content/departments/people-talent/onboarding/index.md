@@ -216,49 +216,49 @@ We want everyone to feel certain and comfortable with where they are at currentl
 
 #### People Operations Coordinator
 
-**Within one month,  you will...**
+**Within one month, you will...**
 
-* Start building a trusting relationship with your team and other teammates
-* Understand the what, why, and how of the projects that your team is working on and how those projects contribute to our company goals.
-* Experience our robust onboarding process first-hand, not only for your own development, but to understand how onboarding works within a company like Sourcegraph
-* Begin completing tasks that give you exposure to the operations of a People team
+- Start building a trusting relationship with your team and other teammates
+- Understand the what, why, and how of the projects that your team is working on and how those projects contribute to our company goals.
+- Experience our robust onboarding process first-hand, not only for your own development, but to understand how onboarding works within a company like Sourcegraph
+- Begin completing tasks that give you exposure to the operations of a People team
 
 **Within three months, you will...**
 
-* Own various tasks that are critical to our operations, such as offboarding, critical training and checks
-* Handle questions related to our operations and benefits with confidence and speed
-* Have gained exposure to, and had an opportunity to contribute to, the thinking and implementation of those initiatives and learnt from the outcomes
+- Own various tasks that are critical to our operations, such as offboarding, critical training and checks
+- Handle questions related to our operations and benefits with confidence and speed
+- Have gained exposure to, and had an opportunity to contribute to, the thinking and implementation of those initiatives and learnt from the outcomes
 
 **Within six months, you will...**
 
-* Understand how a People team is structured to support a scaling tech company and how it prioritizes initiatives
-* Make suggestions for how to improve various aspects of our People operations as you see the opportunities to automate and improve our ways of working to be more compliant and respond more effectively
-* Handle questions related to our operations and benefits with confidence and speed, but also acting on trends for common questions, and recommending ways to improve communication and/or access to information
-* Have gained exposure to, and had an opportunity to contribute to, the thinking and implementation of other initiatives in the team
+- Understand how a People team is structured to support a scaling tech company and how it prioritizes initiatives
+- Make suggestions for how to improve various aspects of our People operations as you see the opportunities to automate and improve our ways of working to be more compliant and respond more effectively
+- Handle questions related to our operations and benefits with confidence and speed, but also acting on trends for common questions, and recommending ways to improve communication and/or access to information
+- Have gained exposure to, and had an opportunity to contribute to, the thinking and implementation of other initiatives in the team
 
 **Within one year, you will...**
 
-* Have had robust exposure to all aspects of People Operations and made a significant contribution to how we scale the team and provide a great experience to our teammates 
-* Understand more about what aspects of the People function allow you to apply your strengths, and where you want to learn more, and have the opportunity to expand as the team grows
+- Have had robust exposure to all aspects of People Operations and made a significant contribution to how we scale the team and provide a great experience to our teammates
+- Understand more about what aspects of the People function allow you to apply your strengths, and where you want to learn more, and have the opportunity to expand as the team grows
 
-#### People Partner 
+#### People Partner
 
 **Within one month, you will… **
 
-* Have completed the onboarding process yourself, and understand what it looks like for other parts of the business
-* Build relationships with each member of the team and understand how the team supports the company and works together
-* Understand the team’s quarterly objectives and get an idea of how you contribute to the team
-* Connected with each of the managers in the business to build a relationship and begin to understand their needs
-* Get up to speed with all our guidelines, benefits and ways of working.
+- Have completed the onboarding process yourself, and understand what it looks like for other parts of the business
+- Build relationships with each member of the team and understand how the team supports the company and works together
+- Understand the team’s quarterly objectives and get an idea of how you contribute to the team
+- Connected with each of the managers in the business to build a relationship and begin to understand their needs
+- Get up to speed with all our guidelines, benefits and ways of working.
 
 **Within three months, you will...**
 
-* Have a clear sense of how you contribute to the success of the team and the bigger company
-* Have a solid understanding of all our systems and how they work together
-* Be autonomously helping managers with day-to-day guidance and coaching on their people strategies and initiatives, as well as providing effective coaching and HR support around challenging situations and people dynamics
-* Start contributing new insights to inform People team initiatives, and taking the lead if appropriate
+- Have a clear sense of how you contribute to the success of the team and the bigger company
+- Have a solid understanding of all our systems and how they work together
+- Be autonomously helping managers with day-to-day guidance and coaching on their people strategies and initiatives, as well as providing effective coaching and HR support around challenging situations and people dynamics
+- Start contributing new insights to inform People team initiatives, and taking the lead if appropriate
 
 **Within six months, you will...**
 
-* Be a trusted advisor to your teams, informing their people strategies and connecting this to team initiatives with ease and flow, helping the People team offer an exceptional service to the business.
-* Be leading our in-house manager training and liaising with our L&D function to help ensure that our opportunities touch the right things.
+- Be a trusted advisor to your teams, informing their people strategies and connecting this to team initiatives with ease and flow, helping the People team offer an exceptional service to the business.
+- Be leading our in-house manager training and liaising with our L&D function to help ensure that our opportunities touch the right things.
