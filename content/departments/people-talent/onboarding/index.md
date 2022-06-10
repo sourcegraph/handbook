@@ -183,6 +183,7 @@ Each new People team member is paired with two individuals during their onboardi
 - An onboarding mentor: your onboarding mentor will be someone from the People team with whom you'll have regular check-ins and will be there to help guide you.
 
 ### Helpful links & resources
+
 COMING SOON
 
 ### High-level Onboarding Overview
@@ -190,15 +191,19 @@ COMING SOON
 Below are the goals and expectations for each week of your onboarding.
 
 #### Week 1 Goals:
+
 COMING SOON
 
 #### Week 2 Goals:
+
 COMING SOON
 
 #### Week 3 Goals:
+
 COMING SOON
 
 #### Week 4 Goals:
+
 COMING SOON
 
 ### What will success look like
