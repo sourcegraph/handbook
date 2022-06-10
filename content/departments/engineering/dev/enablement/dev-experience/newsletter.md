@@ -8,6 +8,33 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
+## June TODO, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+### New guides
+
+**Logging**: We've made some updates to our logging guidance around [the new logging library](https://github.com/sourcegraph/log) to include more concrete suggestions and examples around:
+
+- How to use scopes
+- Creating sub-loggers (e.g. those with traces and fields)
+- Writing log messages
+
+You can find the new docs in [How to add logging](https://docs.sourcegraph.com/dev/how-to/add_logging)!
+
+### Observability features
+
+**Sentry errors**: Errors are now automatically reported to Sentry from warning-level and above logs that include an error field, which can be added using the `log.Error` or `log.NamedError` field constructors. Check out this demo to see it in action!
+
+[![Sentry demo](https://cdn.loom.com/sessions/thumbnails/f2010789f6884e72932f6e6a9b091558-with-play.gif)](https://www.loom.com/share/f2010789f6884e72932f6e6a9b091558)
+
+Under the hood, it uses a new "log sinks" mechanism that can easily be extended to accomodate new backends in the future - you can learn more about it in the [package docs](https://pkg.go.dev/github.com/sourcegraph/log/internal/sinkcores/sentrycore)!
+
+### TODO
+
+TODO
+
 ## May 20, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
