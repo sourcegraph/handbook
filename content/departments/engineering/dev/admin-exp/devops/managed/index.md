@@ -9,6 +9,7 @@ For operation guides (e.g. upgrade process), please see [managed instances opera
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
   - [Environments](#environments)
+  - [Release process](#release-process)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
   - [Monitoring and alerting](#monitoring-and-alerting)
@@ -107,6 +108,33 @@ Internal instances are created for various testing purposes:
 All customer instances are considered part of the production environment and all changes applied to these customers should be well-tested in the test environment.
 
 Upgrade process to new Sourcegraph version is also preceded with upgrading test instances - [upgrade to v3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
+
+### Release process
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+Sourcegraph upgrades every test and customer instances according to [SLA](#slas-for-managed-instances).
+
+The release process is performed in steps:
+
+1. New version is released via [release guild](../../../process/releases/release_guild.md)
+1. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../../process/releases/upgrade_managed_issue_template.md)
+1. Github issue is labeled with `team/devops` and Devops Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
+1. DevOps team performs upgrade of all instances in given order:
+
+- for Instances with version [v1.0](./upgrade_process.md)
+  1. Test instances are upgraded - [dev](https://devmanaged.sourcegraph.com/) and [demo](https://demo.sourcegraph.com/)
+  1. [Uptime checks](./upgrade_process.md#8-confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. When test instances are working correctly, DevOps Team performs upgrade of all v1.0 customer instances
+- for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
+  1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
+  1. [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. When test instance is working correctly, DevOps Team performs upgrade of all v1.1 customer instances
+
+Sample upgrade:
+
+- [tracking issue - 3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
+- Github Pull Requests for [3.40.1 upgrade](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls?q=is%3Apr+is%3Aclosed++upgrade+v3.40.1)
 
 ### Known limitations of managed instances
 
