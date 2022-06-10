@@ -1,12 +1,14 @@
-Talent Team Onboarding
+People & Talent Team Onboarding
 
 # Onboarding
 
-Welcome to Sourcegraph - we're VERY excited to have you on the Talent team! This page describes the onboarding philosophy and process for new talent team members as they onboard, as well as what success looks like 1 month, 3 months, 6 months, and a year in.
+Welcome to Sourcegraph - we're VERY excited to have you on the team! This page describes the onboarding philosophy and process for new People and Talent team members as they onboard, as well as what success looks like within each role at the 1 month, 3 month, 6 month, and 1 year mark.
 
-## Company-wide and Talent-specific Onboarding
+## Company-wide and People/Talent-specific Onboarding
 
 Our goal is to have all talent team members fully ramped by the end of your 4th week. During your first 4 weeks, you will complete a variety of activities intended to both introduce you to the company as a whole, as well as provide you with the knowledge, tools, and support necessary to be set up for success.
+
+## Talent Onboarding
 
 ### Onboarding Tooling
 
@@ -26,18 +28,18 @@ Each new Talent team member is paired with two individuals during their onboardi
 - [Learning how to use our tools](../talent/tools/index.md)
 - [Learning how to extend an offer](../talent/process/extending_an_offer.md)
 
-## High-level Onboarding Overview
+### High-level Onboarding Overview
 
 Below are the goals and expectations for each week of your onboarding.
 
-### Week 1 Goals:
+#### Week 1 Goals:
 
 - Complete through General Company-Wide Onboarding activities: our values, our vision, our culture, what it means to be handbook-first, and how we operate as a business
 - Get all necessary access to tools and logistical setup
 - Learn about our purpose and the value we provide to customers: why does Sourcegraph exist, who uses our product, and how do we add value to our customers' business
 - Learn about the Talent org: who are we, who do we work with, what's our vision and why what we do matters
 
-### Week 2 Goals:
+#### Week 2 Goals:
 
 - Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
 - Learn about the product
@@ -46,19 +48,19 @@ Below are the goals and expectations for each week of your onboarding.
 - Listen to assigned Brighthire recordings
 - Beginning week 2, you'll look to lead your first Recruiter Screen, with your onboarding mentor there to support you.
 
-### Week 3 Goals:
+#### Week 3 Goals:
 
 - COMING SOON
 
-### Week 4 Goals:
+#### Week 4 Goals:
 
 - COMING SOON
 
-## What will success look like
+### What will success look like
 
 We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. In the following section details what success looks like within the first year for various roles.
 
-### Recruitment Operations Specialist (level 2)
+#### Recruitment Operations Specialist (level 2)
 
 **Within one month, you will…**
 
@@ -92,7 +94,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
 - Identify areas of growth and share them continuously in your 1:1s.
 
-### Sourcer (level 2)
+#### Sourcer (level 2)
 
 **Within one month, you will…**
 
@@ -130,7 +132,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
 - Identify areas of growth and share them continuously in your 1:1s.
 
-### Recruiter (level 3)
+#### Recruiter (level 3)
 
 **Within one month, you will...**
 
@@ -159,10 +161,14 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Provide a candidate experience that is considered to be the best they’ve ever had.
 - Train and develop new team members.
 
-### Senior Recruiter (level 4)
+#### Senior Recruiter (level 4)
 
 - COMING SOON
 
-### Manager
+#### Manager
 
 - COMING SOON
+
+## People Onboarding
+
+COMING SOON
