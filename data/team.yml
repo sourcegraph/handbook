@@ -1979,6 +1979,7 @@ jonathan_ayers:
   role: Director, People
   reports_to: vp_talent
   location: Seattle, WA, USA 🇺🇸
+  manager_role_slug: director_people
   email: jonathan.ayers@sourcegraph.com
   github: jonathanayers
   links: '[LinkedIn](https://www.linkedin.com/in/jonayershr/)'
@@ -2930,6 +2931,7 @@ carl_robson:
   pronouns: he/him
   location: London, UK 🇬🇧
   role: Senior People Partner
+  reports_to: director_people
   email: carl.robson@sourcegraph.com
   github: carl-robson
   links: '[LinkedIn](https://www.linkedin.com/in/carlrobson/)'
