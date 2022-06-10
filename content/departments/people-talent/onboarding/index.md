@@ -58,7 +58,7 @@ Below are the goals and expectations for each week of your onboarding.
 
 ### What will success look like
 
-We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. In the following section details what success looks like within the first year for various roles.
+We want everyone to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. In the following section details what success looks like within the first year for various roles.
 
 #### Recruitment Operations Specialist (level 2)
 
@@ -171,4 +171,43 @@ We want every CE to feel certain and comfortable with where they are at currentl
 
 ## People Onboarding
 
+### Onboarding Tooling
+
+As a company, we use [Process.st](https://app.process.st/reports/) to guide each individuals' onboarding. Your own custom onboarding plan will be provided to you prior to your first day and will serve as your guide.
+
+### Onboarding Support
+
+Each new People team member is paired with two individuals during their onboarding time. Both of these assignments will be indicated in your Process.st checklist.
+
+- An [onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md): your onboarding buddy is assigned as part of our company-wide onboarding program. For the People team, this will be a peer from an adjacent team with whom you'll work closely.
+- An onboarding mentor: your onboarding mentor will be someone from the People team with whom you'll have regular check-ins and will be there to help guide you.
+
+### Helpful links & resources
+
 COMING SOON
+
+### High-level Onboarding Overview
+
+Below are the goals and expectations for each week of your onboarding.
+
+#### Week 1 Goals:
+
+COMING SOON
+
+#### Week 2 Goals:
+
+COMING SOON
+
+#### Week 3 Goals:
+
+COMING SOON
+
+#### Week 4 Goals:
+
+COMING SOON
+
+### What will success look like
+
+We want everyone to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. In the following section details what success looks like within the first year for various roles.
+
+ROLES COMING SOON
