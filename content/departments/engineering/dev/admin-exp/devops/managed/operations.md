@@ -314,13 +314,13 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
 
-  ```sh
-  mg ssh
-  docker exec -it gitserver-0 sh
-  cd /data/repos/<repo_name>
-  git prune && git fetch
-  # look for errors, no output indicates clean repo
-  ```
+```sh
+mg ssh
+docker exec -it gitserver-0 sh
+cd /data/repos/<repo_name>
+git prune && git fetch
+# look for errors, no output indicates clean repo
+```
 
 1. Run the following script to have repo-updater queue an update
 
