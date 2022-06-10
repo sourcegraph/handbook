@@ -56,7 +56,7 @@
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
               <img 
                  src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
                  alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
