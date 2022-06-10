@@ -10,7 +10,7 @@ Operations guides for [managed instances](./index.md).
 - To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
 - To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
-* [Managed instances operations](#managed-instances-operations)
+- [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
   - [Accessing the instance](#accessing-the-instance)
     - [SSH access](#ssh-access)
@@ -20,10 +20,20 @@ Operations guides for [managed instances](./index.md).
     - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
     - [Finding the external IPs](#finding-the-external-ips)
     - [Resizing Disks](#resizing-disks)
+  - [Changing the instance](#changing-the-instance)
+  - [Avaiability of the instance](#avaiability-of-the-instance)
+    - [Uptime Checks](#uptime-checks)
+    - [Performance Checks](#performance-checks)
+  - [Confirm instance health](#confirm-instance-health)
   - [Instance technicalities](#instance-technicalities)
     - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
     - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
     - [Debugging startup scripts](#debugging-startup-scripts)
+    - [Viewing container logs](#viewing-container-logs)
+    - [Fix corrupted repo on `gitserver`](#fix-corrupted-repo-on-gitserver)
+  - [Disaster Recovery and Business Continuity Plan](#disaster-recovery-and-business-continuity-plan)
+  - [Troubleshooting](#troubleshooting)
+    - [FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"](#faq-googleapi-error-400-the-network_endpoint_group-resource--is-already-being-used)
 
 ## Red/black deployment model
 
@@ -284,11 +294,13 @@ Context of why this exists:
 
 - https://github.com/sourcegraph/sourcegraph/issues/25264
 - https://github.com/sourcegraph/customer/issues/887
+- https://github.com/sourcegraph/customer/issues/1014#issuecomment-1151489754
 
 A broken repo can be identified by
 
 - Checking https://sourcegraph.example.com/site-admin/repositories?status=failed-fetch
 - `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
+- `git prune` and `git fetch` operations failing when run inside gitserver on the repo directly
 
 Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
 
@@ -300,7 +312,17 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    export CUSTOMER=<customer_or_instance_name>
    ```
 
-2. Run the following script
+1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
+
+  ```sh
+  mg ssh
+  docker exec -it gitserver-0 sh
+  cd /data/repos/<repo_name>
+  git prune && git fetch
+  # look for errors, no output indicates clean repo
+  ```
+
+1. Run the following script to have repo-updater queue an update
 
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
