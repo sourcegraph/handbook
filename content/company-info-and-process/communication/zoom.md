@@ -63,13 +63,6 @@ Zoom has a auto-generated closed captions feature, but it's disabled by the defa
 
 <img width="918" alt="Settings" src="https://user-images.githubusercontent.com/64257673/173246420-9594bf2a-9dd4-4f75-b383-349cc0e9aca2.png">
 
-Now The “Cc” button is visible in your live meetings. You can activate it on every  meeting that you’re the host of. 
+Now The “Cc” button is visible in your live meetings. You can activate it on every meeting that you’re the host of.
 
 <img width="445" alt="Cc Button" src="https://user-images.githubusercontent.com/64257673/173246442-3847141f-071d-4dbf-81e7-d075e4a2c9ed.png">
-
-
-
-
-
-
-
