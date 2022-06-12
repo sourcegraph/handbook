@@ -56,7 +56,7 @@ Zoom has a auto-generated closed captions feature, but it's disabled by the defa
 
 ### Enabling live Closed Captions on Zoom
 
-- Access https://sourcegraph.zoom.us/profile/settings
+- Access https://sourcegraph.zoom.us/profile/setting
 - Click on “In Meeting (Advanced)”
 - Scroll to “Automated captions”
 - Enable “Automated captions”, “Full Transcipt” and “Save Captions”
