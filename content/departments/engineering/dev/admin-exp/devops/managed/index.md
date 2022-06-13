@@ -48,7 +48,7 @@ Customer Engineers (CE) or Sales may request to:
 ### Workflow
 
 1.  Sales alerts their CE partner to seek approval from their regional CE Manager
-2.  The Regional CE Manager will review the following criteria: 
+2.  The Regional CE Manager will review the following criteria:
     - Overall, is the deal qualified?
     - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
     - If anything is non-standard, it must pass the tech review process
