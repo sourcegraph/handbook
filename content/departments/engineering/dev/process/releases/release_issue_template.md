@@ -110,7 +110,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 
 ### Post-release
 
-- [ ] Notify the next [release captain](https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/#release-captain) that they are on duty for the next release.
+- [ ] Notify the next release captain that they are on duty for the next release.
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the next release.
   - [ ] Change `upcomingRelease` to the current patch release
   - [ ] Change `previousRelease` to the previous patch release version
