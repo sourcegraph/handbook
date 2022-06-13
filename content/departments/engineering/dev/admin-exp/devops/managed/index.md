@@ -90,7 +90,7 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 #### Internal instances
 
-For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
+For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
 
 - for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
