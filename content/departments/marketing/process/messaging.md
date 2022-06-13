@@ -6,7 +6,7 @@ Developers and technologists play a critical role in the development of new prod
 
 Getting pulled off course can look like encountering a new challenge, getting asked a question from a colleague, or resolving an uncommon error.
 
-Sourcegraph helps the effeciency and velocity of development teams by helping them uderstand, fix, and automate their entire codebase. 
+Sourcegraph helps the effeciency and velocity of development teams by helping them uderstand, fix, and automate their entire codebase.
 
 ## Sourcegraph value proposition
 
@@ -32,7 +32,7 @@ Sourcegraph is a code intelligence platform that unlocks developer velocity by h
 
 Sourcegraph is a code intelligence platform that unlocks developer efficiency, helping engineers and engineering leaders understand, fix, and automate across their entire codebase. Over one million engineers use Sourcegraph to improve code security, efficiently onboard developers, promote code reuse, resolve incidents, and boost code health. Code intelligence is a critical capability that increases enterprise engineering velocity, software quality and stability, and team health. Leading companies like Amazon, Plaid, Uber, Lyft, Reddit, GE, and Dropbox, rely on Sourcegraph to build the products we all rely on. Sourcegraph is an all-remote company backed by Andreessen Horowitz, Sequoia Capital, Craft Ventures, Redpoint Ventures, and Goldcrest Capital.
 
-To learn more about Sourcegraph's positioning, visit [this page](https://handbook.sourcegraph.com/departments/marketing/process/positioning/) 
+To learn more about Sourcegraph's positioning, visit [this page](https://handbook.sourcegraph.com/departments/marketing/process/positioning/)
 
 ## How is Sourcegraph different?
 
