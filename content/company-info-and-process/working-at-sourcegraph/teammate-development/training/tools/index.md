@@ -63,6 +63,7 @@ Zoom is a communications platform that allows users to connect with video, audio
 ### Zoom resources
 
 Here are some resources to get yourself started using Zoom if you've never used it before:
+
 - [What is a Zoom Video Conference?](https://support.zoom.us/hc/en-us/articles/4420426401037-What-is-Zoom-Video-Conferencing-)
 - [Getting started with Zoom Meetings](https://support.zoom.us/hc/en-us/sections/4414472693133-Getting-Started-with-Zoom-Meetings)
 - [Settings and configurations for Zoom Meetings](https://support.zoom.us/hc/en-us/sections/201740116-Settings-and-Configuration-for-Zoom-Meetings)
@@ -109,4 +110,3 @@ You can read more about Okta in our [Okta handbook page](../../../../../departme
 **What is Okta?**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c0r1Rlv3E2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
