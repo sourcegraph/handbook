@@ -24,15 +24,14 @@ If you want to learn how to use Slack you can visit these pages:
 We use Google Workspace (previously known as G Suite) pack for office productivity. These are the main tools we use and helpful resources to learn how to use them effectively:
 
 - [Gmail](https://support.google.com/a/users/answer/9259748#zippy=%2Clearn-email-basics)
-    - Make sure you configure your email properly [here](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#gmail)
+  - Make sure you configure your email properly [here](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#gmail)
 - [Calendar](https://support.google.com/a/users/answer/9247501#zippy=)
-    - Make sure you configure your calendar properly [here](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#google-calendar)
+  - Make sure you configure your calendar properly [here](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#google-calendar)
 - [Drive](https://support.google.com/a/users/answer/9282958)
 - [Docs](https://support.google.com/a/users/answer/9282664)
 - [Sheets](https://support.google.com/a/users/answer/9282959)
 - [Slides](https://support.google.com/a/users/answer/9282488)
 - [Forms](https://support.google.com/a/users/answer/9991170?visit_id=637907124835426610-3948163530&rd=1)
-
 
 ## Loom
 
