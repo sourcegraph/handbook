@@ -2947,3 +2947,15 @@ miles_patton:
   github: milespatton
   links: '[LinkedIn](https://www.linkedin.com/in/miles-g-patton/)'
   description: 'Miles grew up in Falmouth, Maine, and studied at the University of British Columbia in Vancouver, Canada. Now, he lives in Ljubljana, Slovenia where he enjoys everything outdoors - mainly hiking, climbing, sailing, and skiing. He loves to travel and has been to more than 30 countries around the world, discovering new cultures and foods along the way.'
+
+sarah_um:
+  name: Sarah Um
+  pronouns: she/her
+  location: Seattle, WA, USA 🇺🇸
+  role: Senior People Partner
+  reports_to: director_people
+  email: sarah.um@sourcegraph.com
+  github: sarahum
+  links: '[LinkedIn](https://www.linkedin.com/in/sarahum/)'
+  description: 'Sarah is an HR geek through and through. She takes a people-first approach when it comes to supporting the business and is passionate about guiding others along their career journey. Prior to Sourcegraph, Sarah worked at Okta/Auth0 and Accenture. Outside of work, you'll either find Sarah spending time with her family (camping, traveling, running, hiking, skiing) or binge-watching K-dramas.'
+  
