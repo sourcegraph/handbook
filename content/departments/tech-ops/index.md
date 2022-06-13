@@ -29,7 +29,6 @@ We are hiring for positions in Tech Ops! See our [careers page](https://boards.g
 
 - [Okta SSO implementation](tools/Okta/main.md)
 - [Vendr](tools/Vendr/index.md)
-- [Zoom](tools/zoom.md)
 - [Endpoint & Antivirus](tools/endpoint-antivirus.md)
 
 ### Processes
