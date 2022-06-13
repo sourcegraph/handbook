@@ -75,8 +75,7 @@
 
   - (1 min) Recruiter informs the candidate that they will send a copy of the offer summary right after the call and to reach out if any questions come up. Recruiter and Hiring Manager reiterate excitement.
 
-  **For Recruiters**: To see an actual offer summary call script, click [HERE](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing).  
-
+  **For Recruiters**: To see an actual offer summary call script, click [HERE](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing).
 
 **Step 6**: following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
 
