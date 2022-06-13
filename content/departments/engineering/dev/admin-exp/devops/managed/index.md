@@ -24,11 +24,9 @@ For operation guides (e.g. upgrade process), please see [managed instances opera
 
 Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
 
-As of 2022-03-10, managed instance is not the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
-
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message #cloud-devops for any answers or information missing from this page.
+Please message #cloud for any answers or information missing from this page.
 
 When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
 
