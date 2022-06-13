@@ -9,6 +9,7 @@ You can get a quick view of how to use a [Mac laptop here](https://help.apple.co
 [Get started with Mac](https://support.apple.com/en-gb/guide/mac-help/mchl3a2c2cb0/12.0/mac/12.0). We suggest you click on **Table of Contents +** to find the resources you need. "The Mac desktop", "Basics", "Apps" and "Customise your Mac" sections are the main ones to get yourself started if you've never used a Mac before.
 
 Here are a few first step guides that you might find useful:
+
 - [Dock](https://support.apple.com/en-gb/guide/mac-help/mh35859/mac)
 - [Customise your Mac with System Preferences](https://support.apple.com/en-gb/guide/mac-help/mh15217/12.0/mac/12.0)
 - [Notifications](https://support.apple.com/en-gb/guide/mac-help/mh40583/12.0/mac/12.0)
@@ -37,6 +38,7 @@ If you want to learn how to use Slack you can visit these pages:
 If you are a visual learner, we recommend seaching for YouTube videos that show steps on how to use Slack for beginners.
 
 **Be sure to visit**
+
 - **[Slack setup](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#slack) to configure your profile following Sourcegraph's convention**
 - **[How we use Slack at Sourcegraph](../../../../communication/team_chat.md) to understand our internal guidelines**
 
