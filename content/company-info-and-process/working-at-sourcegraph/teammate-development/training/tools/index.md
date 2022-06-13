@@ -1,6 +1,23 @@
 # Tools we use
 
-TODO
+## Computer: Mac
+
+We use Mac as our standarized laptops. You can read more about why [here](../../../../../departments/tech-ops/tools/computer-setup.md).
+
+You can get a quick view of how to use a [Mac laptop here](https://help.apple.com/macOS/high-sierra/mac-basics/#/intro)
+
+[Get started with Mac](https://support.apple.com/en-gb/guide/mac-help/mchl3a2c2cb0/12.0/mac/12.0). We suggest you click on **Table of Contents +** to find the resources you need. "The Mac desktop", "Basics", "Apps" and "Customise your Mac" sections are the main ones to get yourself started if you've never used a Mac before.
+
+Here are a few first step guides that you might find useful:
+- [Dock](https://support.apple.com/en-gb/guide/mac-help/mh35859/mac)
+- [Customise your Mac with System Preferences](https://support.apple.com/en-gb/guide/mac-help/mh15217/12.0/mac/12.0)
+- [Notifications](https://support.apple.com/en-gb/guide/mac-help/mh40583/12.0/mac/12.0)
+- [Trackpad and Mouse](https://support.apple.com/en-gb/guide/mac-help/mh35869/mac)
+- [Finder on Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp2605/mac)
+- [Full screen](https://support.apple.com/en-gb/guide/mac-help/mchl9c21d2be/mac)
+- [Touch ID](https://support.apple.com/en-gb/guide/mac-help/mchl16fbf90a/12.0/mac/12.0)
+
+If you are a visual learner, we recommend seaching for YouTube videos that show steps on how to use Mac computers for beginners.
 
 ## Slack
 
@@ -12,12 +29,16 @@ If you want to learn how to use Slack you can visit these pages:
 
 - [Top 5 tips for getting started in Slack](https://slack.com/resources/using-slack/top-5-tips-for-getting-started-in-slack)
 - [Customize your notifications in Slack](https://slack.com/resources/using-slack/customize-your-notifications-in-slack)
-  - Keep in mind your notifications might not work due to your laptop settings.
+  - Keep in mind your notifications might not work due to your laptop settings. Visit [this page](https://support.apple.com/en-gb/guide/mac-help/mh40583/12.0/mac/12.0) to learn how to change your notifications precerences in Mac.
 - [Tips on how best to use threaded messages](https://slack.com/resources/using-slack/tips-on-how-best-to-use-threaded-messages)
 - [How to organize your Slack channels](https://slack.com/resources/using-slack/how-to-organize-your-slack-channels)
 - [How to use reminders in Slack](https://slack.com/resources/using-slack/how-to-use-reminders-in-slack)
 
-**Be sure to visit [How we use Slack at Sourcegraph](../../../../communication/team_chat.md) to understand our internal guidelines and convensions.**
+If you are a visual learner, we recommend seaching for YouTube videos that show steps on how to use Slack for beginners.
+
+**Be sure to visit**
+- **[Slack setup](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#slack) to configure your profile following Sourcegraph's convention**
+- **[How we use Slack at Sourcegraph](../../../../communication/team_chat.md) to understand our internal guidelines**
 
 ## Google Workspace
 
