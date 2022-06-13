@@ -12,13 +12,13 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Prepare your environment:
 
-- `export VERSION=v<MAJOR.MINOR.PATCH>`
-- `export COMPANY=$COMPANY`
-- `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
-- `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
-- `export PROJECT_SLUG=<prefix>.sourcegraph.com` (the customer issue mentions it)
-- `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
-  - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+    - `export VERSION=v<MAJOR.MINOR.PATCH>`
+    - `export COMPANY=$COMPANY`
+    - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
+    - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
+    - `export PROJECT_SLUG=<prefix>.sourcegraph.com` (the customer issue mentions it)
+    - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
+      - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
 1. Ensure the target version of docker-compose file is in the golden directory, it should be named `docker-compose.x.y.z.yaml`
@@ -46,11 +46,11 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
 
-- type: Web Application
-- name: `managed-instance-$COMPANY`
-- Authorized redirect URIs:
-  - Is the instance **public**, then add **only** `https://$PROJECT_SLUG/.auth/callback`
-  - Is the instance **private**, then add **both** `https://$PROJECT_SLUG/.auth/callback` AND `http://localhost/.auth/callback`
+    - type: Web Application
+    - name: `managed-instance-$COMPANY`
+    - Authorized redirect URIs:
+      - Is the instance **public**, then add **only** `https://$PROJECT_SLUG/.auth/callback`
+      - Is the instance **private**, then add **both** `https://$PROJECT_SLUG/.auth/callback` AND `http://localhost/.auth/callback`
 
 1. Create a GCS secret to be used by OIDC authentication
 
@@ -58,7 +58,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
    ```
 
-1. Initialise the instance and copy the password reset link that is generated
+1. Initialize the instance and copy the password reset link that is generated
 
    ```bash
    mg init-instance $CUSTOMER_ADMIN_EMAIL
