@@ -80,7 +80,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 
 On the day of the release, confirm there are no more release-blocking issues (as reported by the `release:status` command), then proceed with creating the final release:
 
-- [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on `main` and `$MAJOR.$MINOR` are accurate.
+- [ ] Make sure [CHANGELOG entries](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.0**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
 - [ ] Tag the final release:
   ```sh
   yarn release release:create-candidate final
