@@ -2,6 +2,10 @@
 
 Zoom tips and tricks.
 
+## Add Zoom to Google Calendar
+
+You can see [how to add the Zoom Add On for Google Calendar here](../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#google-calendar).
+
 ## Recording a Zoom meeting when you don't have permissions
 
 If you need to record a Zoom meeting when you don't have permission to, create a _new_ Zoom meeting where you are the host and have everyone use that one instead.
