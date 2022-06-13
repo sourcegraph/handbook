@@ -12,6 +12,9 @@ We now have enterprise Loom, which means we have a Sourcegraph workspace. You sh
 
 Here is a quick video on how to use Loom to record videos: [How to get started](https://www.loom.com/share/7c7ced4911904070a5627374ccd84e8c).
 
+Other trainings:
+- [Loom 101](https://www.loom.com/share/c20c683b5e554d9d9969761ab61baaaf?utm_medium=email&_hsmi=215205550&_hsenc=p2ANqtz-9yWjElQi8z-GT6Qoacw4Zx9jEDJCdIHsCJ3QPSIg-NZXffK6Az0GGN5jxp93JYllB-6RTMZmlcmGVWQj5JOvN34Xg0KQ&utm_content=215205550&utm_source=hs_email)
+
 ## Guidelines
 
 Please be mindful of sharing any private or personal information when recording Loom videos. We want to avoid having any sensitive information (classification categories restricted and private as per our [Data Management Policy](../../../../policies/data-management-policy.md) leaked or corrupted. Furthermore, we have a legal and moral obligation towards our data subjects in regards to how we handle their personal data.
