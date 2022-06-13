@@ -4,22 +4,20 @@ TODO
 
 ## Slack
 
-
 Slack is the messaging app we use to connect people to the information they need. Slack organizes conversations into channels, where everyone can come together in one place to share ideas, make decisions and move work forward. It helps teams operate faster and stay in sync, wherever they are. At Sourcegraph, we consider it an async tool (you can read more about [asynchronous work here](../../../../communication/asynchronous-communication.md)) but it can be a very quick synchronous tool too.
 
 ### Slack resources
 
 If you want to learn how to use Slack you can visit these pages:
+
 - [Top 5 tips for getting started in Slack](https://slack.com/resources/using-slack/top-5-tips-for-getting-started-in-slack)
 - [Customize your notifications in Slack](https://slack.com/resources/using-slack/customize-your-notifications-in-slack)
-    - Keep in mind your notifications might not work due to your laptop settings.
+  - Keep in mind your notifications might not work due to your laptop settings.
 - [Tips on how best to use threaded messages](https://slack.com/resources/using-slack/tips-on-how-best-to-use-threaded-messages)
 - [How to organize your Slack channels](https://slack.com/resources/using-slack/how-to-organize-your-slack-channels)
 - [How to use reminders in Slack](https://slack.com/resources/using-slack/how-to-use-reminders-in-slack)
 
-
 **Be sure to visit [How we use Slack at Sourcegraph](../../../../communication/team_chat.md) to understand our internal guidelines and convensions.**
-
 
 ## Loom
 
