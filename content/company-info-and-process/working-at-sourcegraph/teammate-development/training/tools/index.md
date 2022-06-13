@@ -56,6 +56,21 @@ We use Google Workspace (previously known as G Suite) pack for office productivi
 - [Slides](https://support.google.com/a/users/answer/9282488)
 - [Forms](https://support.google.com/a/users/answer/9991170?visit_id=637907124835426610-3948163530&rd=1)
 
+## Zoom
+
+Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. You can read more about how we tend ot configure Zoom at Sourcegraph [here](../../../../communication/zoom.md). You can also see [how to add the Zoom Add On for Google Calendar here](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#google-calendar).
+
+### Zoom resources
+
+Here are some resources to get yourself started using Zoom if you've never used it before:
+
+- [What is a Zoom Video Conference?](https://support.zoom.us/hc/en-us/articles/4420426401037-What-is-Zoom-Video-Conferencing-)
+- [Getting started with Zoom Meetings](https://support.zoom.us/hc/en-us/sections/4414472693133-Getting-Started-with-Zoom-Meetings)
+- [Settings and configurations for Zoom Meetings](https://support.zoom.us/hc/en-us/sections/201740116-Settings-and-Configuration-for-Zoom-Meetings)
+- [Zoom meeting features](https://support.zoom.us/hc/en-us/sections/4415034398477-Zoom-Meeting-Features)
+
+If you are more of a visual learner, you can find several [videos here](https://learn-zoom.us/show-me).
+
 ## Loom
 
 Loom is a video messaging tool that helps us foster our asynchronous communications. Read more about how we use Loom, guidelines for using it properly and a quick training [here](loom.md).
@@ -83,3 +98,15 @@ You can also read the [product overview](https://docs.google.com/document/d/1y-L
 **For more information on our PTO philosophy and policy, please see [Paid time off](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md).**
 
 **For additional information on how to request time off, please see [Submitting time off](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)**
+
+## Okta
+
+Okta is an Identity and Single Sign-On (SSO) solution for applications and Cloud entities. It allows Sourcegraph to consolidate authentication and authorization to applications we use daily through a single dashboard and ensure a consistent, secure, and auditable login experience for all our Sourcegraph team members.
+
+You can read more about Okta in our [Okta handbook page](../../../../../departments/tech-ops/tools/Okta/main.md).
+
+### Okta resources
+
+**What is Okta?**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0r1Rlv3E2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
