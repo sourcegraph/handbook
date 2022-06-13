@@ -4,7 +4,7 @@ Zoom tips and tricks.
 
 ## Add Zoom to Google Calendar
 
-You can see [how to add the Zoom Add On for Google Calendar here](../../../../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#google-calendar).
+You can see [how to add the Zoom Add On for Google Calendar here](../../departments/people-talent/resources-for-new-hires/new-teammate-setup.md#google-calendar).
 
 ## Recording a Zoom meeting when you don't have permissions
 
