@@ -6,6 +6,8 @@ Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the r
 
 ## Google Workspace
 
+You can find resources on how to use each of the main tools [here](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md).
+
 ### Gmail
 
 #### Getting nice email signatures
