@@ -42,7 +42,10 @@
           <div style="text-align: center;">Jonathan Ayers</div>
           <div style="text-align: center; font-size: 12px;">Director, People</div>
         </div>
-         <div>
+        </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
             <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
               <img
                 src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
@@ -52,7 +55,19 @@
           <div style="text-align: center;">Alex Mathison</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
-      </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
+                alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Carl Robson</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
     </div>
    </section>
 

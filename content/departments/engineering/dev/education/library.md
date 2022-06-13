@@ -1,6 +1,6 @@
 # Educational Resources Library
 
-The Education Resources Library is a collection of resources, books, courses and videos that is curated by [Engineering Education](../../../../strategy-goals/strategy/enablement/engineering-education/index.md) at Sourcegraph and contributors.
+The Education Resources Library is a collection of resources, books, courses and videos by team mates at Sourcegraph.
 
 The goal is to provide resources for learning and development in line with Sourcegraph company value of continuous growth.
 

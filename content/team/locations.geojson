@@ -1390,13 +1390,13 @@
       {
           "type": "Feature",
           "properties": {
-            "name": "Dulani Wallace"
+            "name": "Miles Patton"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -76.997570,
-              38.947710
+              46.056946, 
+              14.505752
             ]
          }
       }

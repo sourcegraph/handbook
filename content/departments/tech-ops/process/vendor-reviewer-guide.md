@@ -136,70 +136,115 @@ Please see below matrix for review requirements for ANY type of vendor:
   <tr>
    <td>
    </td>
-   <td><strong>Cost = 0</strong>
+   <td><strong>Cost < 1000</strong>
    </td>
-   <td><strong>Cost > 0</strong>
+   <td><strong>Cost > 1000</strong>
+   </td>
+    <td><strong>Cost > 10 000 </strong>
+
    </td>
   </tr>
   <tr>
-   <td><strong>Restricted</strong>
+  <td><strong>Restricted</strong>
+
    </td>
-   <td><p> - Security
-<p>
-- Tech Ops
+   <td><p>- Security
+     <p> - Tech Ops
+
    </td>
-   <td><p> - Security
-<p>
-- Legal
-<p>
-- Tech Ops
-<p>
-- Finance
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
    </td>
   </tr>
   <tr>
    <td><strong>Private</strong>
+
    </td>
-   <td><p> - Security
-<p>
-- Tech Ops
+   <td><p>- Security
+
+<p>- Tech Ops
+
    </td>
-   <td><p> - Security
-<p>
-- Legal
-<p>
-- Tech Ops
-<p>
-- Finance
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
    </td>
   </tr>
   <tr>
    <td><strong>Internal</strong>
+
    </td>
-   <td>N/a
+   <td><p>- Security
+
+<p>- Tech Ops
+
    </td>
-   <td><p> - Security
-<p>
-- Legal
-<p>
-- Tech Ops
-<p>
-- Finance
+   <td><p>- Security
+
+<p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
    </td>
   </tr>
   <tr>
    <td><strong>Public</strong>
+
    </td>
-   <td>N/a
+   <td><p>- Tech Ops
+
    </td>
-   <td><p> - Legal
-<p>
-- Tech Ops
-  <p>
-- Finance
+   <td><p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Tech Ops
+
+<p>- Legal
+
+<p>- Finance
+
    </td>
   </tr>
-</table>
 
 As we improve the form and capture more details for the request, we will be able to build more sophisticated routing rules and pre-checks for the review teams to minimize manual input, specifically for recurring standard requests.
 

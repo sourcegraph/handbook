@@ -44,6 +44,8 @@ Renovate is a tool for updating dependencies. [`deploy-sourcegraph-*`](#deploy-s
 
 Renovate configurations are committed in their respective [`deploy-sourcegraph-*`](#deploy-sourcegraph) repositories as `renovate.json5`.
 
+Renovate is not behaving as expected? Visit [renovate dashboard](https://app.renovatebot.com/dashboard) and select the target repo to inspect the job logs.
+
 ### ArgoCD
 
 ArgoCD is a continuous delivery tool for Kubernetes applications.

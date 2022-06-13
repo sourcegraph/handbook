@@ -293,7 +293,7 @@ robert_lin:
 
 marek_zaluski:
   name: Marek Zaluski
-  role: 'Software Engineer, Engineering Education Lead'
+  role: Software Engineer
   reports_to: engineering_manager_developer_experience
   location: Ottawa, Canada 🇨🇦
   github: marekweb
@@ -1979,6 +1979,7 @@ jonathan_ayers:
   role: Director, People
   reports_to: vp_talent
   location: Seattle, WA, USA 🇺🇸
+  manager_role_slug: director_people
   email: jonathan.ayers@sourcegraph.com
   github: jonathanayers
   links: '[LinkedIn](https://www.linkedin.com/in/jonayershr/)'
@@ -2254,7 +2255,7 @@ michael_lin:
   github: michaellzc
   links: '[LinkedIn](https://www.linkedin.com/in/mlzc/), [@_mlzc](https://twitter.com/_mlzc)'
   description: |
-    Michael lives in Richmond, BC with his partner, their bunny [Muse](https://instagram.com/bossbunnymuse), and their standard poodle [Marley](https://instagram.com/marleythemagicpoodle).
+    Michael lives in Richmond, BC with his partner, their bunny [Muse](https://instagram.com/bossbunnymuse), and their standard poodle [Marley](https://www.instagram.com/marleymastermind/).
     He graduated from the University of Alberta with a BSc in Computer Science.
     Prior to Sourcegraph, he worked on Kubernetes and web stuff at IBM.
     He is passionate about building tools for developers and has contributed to open source projects such as Linkerd, Percona, vscode-hadolint, and better-opn.
@@ -2903,3 +2904,46 @@ kalan_chan:
   github: kalanchan
   links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
   description: Kalan lives in Burnaby, also known as Vancouver to everyone outside of Metro Vancouver. He graduated from the University of Alberta with an Electrical Engineering degree, but soon after started self learning Software Development when he saw the light. On his spare time when he's not pushing pixels, Kalan enjoys biking, bouldering, reading and plane spotting.
+
+marcos_placona:
+  name: Marcos Placona
+  pronouns: he/him
+  location: Leighton Buzzard, UK 🇬🇧
+  role: Director of DevRel and Community
+  reports_to: cto
+  email: marcos.placona@sourcegraph.com
+  github: mplacona
+  links: '[Twitter](https://twitter.com/marcos_placona), [LinkedIn](https://www.linkedin.com/in/marcosplacona/)'
+  description: 'Marcos grew up in Brazil and studied Computer Science in the UK. He is passionate about community and technology and spends much of his time building apps and often connecting them to physical devices. Before Sourcegraph, he ran DevRel at Twilio for EMEA and LATAM. Marcos is also a great API and developer tools enthusiast and believes they bring peace to the Software Engineering world. Outside of work, he enjoys spending time with his family and playing Magic the Gathering at his local game store.'
+
+quinn_hare:
+  name: Quinn Hare
+  pronouns: she/her
+  location: San Francisco, CA
+  role: Product Manager - Developer Experience
+  reports_to: product_director_enablement
+  email: quinn.hare@sourcegraph.com
+  github: quinnhare
+  links: '[LinkedIn](https://www.linkedin.com/in/quinn-hare-54b76055/)'
+
+carl_robson:
+  name: Carl Robson
+  pronouns: he/him
+  location: London, UK, 🇬🇧
+  role: Senior People Partner
+  reports_to: director_people
+  email: carl.robson@sourcegraph.com
+  github: carl-robson
+  links: '[LinkedIn](https://www.linkedin.com/in/carlrobson/)'
+  description: 'Carl lives in South London with his husband (Augusto) and their ever-growing plant family. His love for travelling, exploring new cultures and learning new languages ensures that he never has a dull day to contend with. Prior to Sourcegraph, Carl worked for a number of Retail and SaaS organisations, helping them transform and thrive in periods of unprecedented growth or change.'
+
+miles_patton:
+  name: Miles Patton
+  pronouns: he/him
+  location: Ljubljana, Slovenia 🇸🇮
+  role: Tech Ops Support Specialist
+  reports_to: tech_ops_manager
+  email: miles.patton@sourcegraph.com
+  github: milespatton
+  links: '[LinkedIn](https://www.linkedin.com/in/miles-g-patton/)'
+  description: 'Miles grew up in Falmouth, Maine, and studied at the University of British Columbia in Vancouver, Canada. Now, he lives in Ljubljana, Slovenia where he enjoys everything outdoors - mainly hiking, climbing, sailing, and skiing. He loves to travel and has been to more than 30 countries around the world, discovering new cultures and foods along the way.'
