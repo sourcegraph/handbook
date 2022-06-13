@@ -47,6 +47,8 @@ Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the r
 
 ## Slack
 
+You can find resources on how to use Slack in [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md). Make sure you visit [How we use Slack at Sourcegraph](../../../company-info-and-process/communication/team_chat.md) to learn our internal guidelines and usage of Slack.
+
 Slack is one of the tools we use the most for communication, this is why having a full profile helps everyone to identify each other and our working hours easily. Click on the icon to the right top of the app and configure the following:
 
 - **Full name**: Set your Slack full name as First Name (or preferred name) Last Name.
