@@ -123,7 +123,7 @@ All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recru
 
 **Step 6:** the candidate receives the offer.
 
-COMING SOON: what to do if the candidate declines our offer
+Reference [here](../process/extending_an_offer.md#what-do-to-if-candidate-declines-our-offer) on what to do if a candidate declines our offer.
 
 ### After the Internship offer acceptance
 
