@@ -2,7 +2,7 @@
 
 ## Mission
 
-Our mission is to provide the fastest, most seamless way for development teams to bring Sourcegraph into their workflows.  Going form 0 -> 1 with Sourcegraph should be intuitive and straight-forward.  Our persona focus is Sourcegraph admins that deploy, configure, and roll our products and tools out to their organizations
+Our mission is to provide the fastest, most seamless way for development teams to bring Sourcegraph into their workflows. Going form 0 -> 1 with Sourcegraph should be intuitive and straight-forward. Our persona focus is Sourcegraph admins that deploy, configure, and roll our products and tools out to their organizations
 
 ## Teams
 
