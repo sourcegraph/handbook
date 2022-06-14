@@ -12,7 +12,6 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 - [How to prepare for your interview](../resources_for_candidates.md)
   - [Types of interviews & sample questions](process/types_of_interviews.md)
-  - [Sample interview questions](process/types_of_interviews.md)
   - [Candidate FAQ](../resources_for_candidates.md#candidate-faq)
   - [Providing interview feedback](../resources_for_candidates.md#sharing-interview-feedback)
 - [The offer process](process/extending_an_offer.md)
