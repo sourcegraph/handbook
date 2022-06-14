@@ -39,16 +39,16 @@
 
   - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
   - Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
-  - Recruiter will check previously discussed start date and make sure it still falls on a Cohort start date. If it does not, before the end of the call the recruiter must be sure to determine a potential alternative start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops)
+  - Recruiter to check previously discussed start date and make sure it still falls on a cohort start date. If the previously discussed date does not fall on a cohort start date, before the end of the call the recruiter must confirm a potential alternative date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops)
   - Recruiting and Hiring Manager calibrate prior to offer call so they are aligned on how best to approach the call.
   - Recruiter and Hiring Manager should pick 3-4 of their favorite quotes about the candidate from scorecards submitted by interviewers during the process to reiterate excitement of the potential of them joining the team.
 
 - Offer Summary call goals:
 
-  - Convey to candidates how excited we are about the prospect of them joining the team and how much value they will add to Sourcegraph.
+  - Convey our excitement about the prospect of them joining the team.
   - Ensure candidates have a good understanding of our compensation philosophy, their salary, perks, travel (and benefits, if applicable) and equity.
-  - Answer any questions the candidate has and gauge how the candidate is feeling about the opportunity.
-  - Determine a start date and schedule a follow-up call to answer any questions.
+  - Determine a potential start date.
+  - Answer any questions the candidate has and schedule a follow-up call if needed.
 
 - Offer Summary Call Walkthrough:
 
@@ -64,16 +64,17 @@
     - **Your Offer - Stock Options**
     - **Hypothetical Stock Option Scenarios**
 
-  - (~10 min) Recruiter will ask the candidate how they are feeling about the offer and opportunity to gauge the chances of closing the candidate. Asks if they feel comfortable to verbally commit.
+  - (~10 min) Recruiter will ask the candidate how they are feeling about the offer and opportunity. Recruiter should ask if candidate feels comfortable verbally committing.
 
-    - If Yes
-      - Recruiter reconfirms with candidate a previously discussed start date.
-      - Recruiter covers following topics (Docusign, Welcome email from People Ops, New Hire Video) etc.
-    - If No
+    - If Yes:
+      - Recruiter confirms that the previously discussed start date works for candidate.
+      - Recruiter gives high level overview of what to expect next (Docusign, Welcome email from People Ops, New Hire Video) etc.
+      
+    - If No:
       - Recruiter will ask to address any concerns on the call.
       - If candidate needs time to think through the offer, Recruiter will schedule a follow up call with candidate within 24 hours.
 
-  - (1 min) Recruiter informs the candidate that they will send a copy of the offer summary right after the call and to reach out if any questions come up. Recruiter and Hiring Manager reiterate excitement.
+  - (1 min) Recruiter informs the candidate that they will send a copy of the offer summary right after the call. Hiring Manager and Recruiter offer candidate the opportunity to reach out via a call or email if any other questions come up.
 
   **For Recruiters**: To see an actual offer summary call script, click [HERE](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing).
 
