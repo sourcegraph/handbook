@@ -77,7 +77,7 @@
 
 ### How to reach the right member of the People Ops team
 
-If you encounter a question at any point, we're here to help! Slack us at #ask-people-team 
+If you encounter a question at any point, we're here to help! Slack us at #ask-people-team
 
 ### Open roles
 
