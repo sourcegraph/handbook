@@ -36,7 +36,7 @@ Payroll
 
 - Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis. Time entries can be edited prior to submitting them if a mistake has been made.
 
-- [Payroll FAQ](../internship/index.md#payroll-FAQs).
+- Payroll FAQ
 
 #### Perks
 
