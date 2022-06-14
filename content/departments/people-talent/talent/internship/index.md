@@ -166,30 +166,31 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
 ### Payroll FAQs
 
-* Q: Is there any way to retroactively update/add working hours for previous days?
-    * A: Yes, you can manually update your hours through submitting change requests or going to “My Time” and changing your hours worked directly. 
+- Q: Is there any way to retroactively update/add working hours for previous days?
 
+  - A: Yes, you can manually update your hours through submitting change requests or going to “My Time” and changing your hours worked directly.
 
-* Q: Am I allowed to work any hours on Saturday or Sunday?
-    * A: Yes as long as you don't go over 40 hours per week and 8 hrs per day!
+- Q: Am I allowed to work any hours on Saturday or Sunday?
 
+  - A: Yes as long as you don't go over 40 hours per week and 8 hrs per day!
 
-* Q: Does our Process St. onboarding count as working hours that we can clock in for?
-    * A: Absolutely!
+- Q: Does our Process St. onboarding count as working hours that we can clock in for?
 
+  - A: Absolutely!
 
-* Q: Is it correct to think that most of the time we'll be logging 40 hour work weeks in Rippling?
-    * A: Yes, we anticipate a consistent 40 hours/week report unless your manager is aware you'll be working _less than_ 40 hours in a certain week and/or unless you have _overtime_ approved by your manager ahead of time.
+- Q: Is it correct to think that most of the time we'll be logging 40 hour work weeks in Rippling?
 
+  - A: Yes, we anticipate a consistent 40 hours/week report unless your manager is aware you'll be working _less than_ 40 hours in a certain week and/or unless you have _overtime_ approved by your manager ahead of time.
 
-* Q: How do interns submit expenses for reimbursement?
-    * A: 
-        * International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/invoices/) is a link to a template. 
-        * US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
+- Q: How do interns submit expenses for reimbursement?
 
-* Q: Do I clock hours into Rippling on PTO? 
-    * A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”  
+  - A:
+    - International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/invoices/) is a link to a template.
+    - US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
+
+- Q: Do I clock hours into Rippling on PTO?
+  - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”
 
 General FYI: **Sourcegraph is not able to give tax-related guidance.**
 
-If you need any additional help with Rippling, [this link](https://help.rippling.com/s/article/1500002980442) may be helpful! 
+If you need any additional help with Rippling, [this link](https://help.rippling.com/s/article/1500002980442) may be helpful!
