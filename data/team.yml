@@ -189,17 +189,6 @@ dan_adler:
   links: '[@DanielNealAdler](https://twitter.com/DanielNealAdler), [LinkedIn](https://www.linkedin.com/in/danielnealadler/)'
   description: 'In his role at Sourcegraph, Dan finally found the perfect mix of IDEs and spreadsheets. After receiving a C.S. degree from Rice U., Dan spent a decade in the business world: consulting, investing, and before Sourcegraph, getting an MBA at Stanford. Dan lives with his fiancé and dog in San Francisco.'
 
-tomás_senart:
-  name: Tomás Senart
-  role: Software Engineer
-  reports_to: engineering_manager_search_core
-  location: Lisbon, Portugal 🇵🇹 / Berlin, Germany 🇩🇪
-  github: tsenart
-  email: tomas@sourcegraph.com
-  links: '[@tsenart](https://twitter.com/tsenart), [LinkedIn](https://www.linkedin.com/in/tsenart/)'
-  pronunciation: '/[to.ˈmas](http://ipa-reader.xyz/?text=to.%CB%88mas&voice=Cristiano)/'
-  description: Tomás started fiddling with computers because he was fascinated with how hackers were depicted in Hollywood movies. He has since moved on to not only build distributed systems but also distributed teams. Before Sourcegraph he’s been at companies like Apple, Mesosphere, Thomson Reuters and Soundcloud. In his free time he likes to spend time with his partner, play Chess and Rocket League, eat great food, hit the gym and read books.
-
 geoffrey_gilmore:
   name: Geoffrey Gilmore
   role: Software Engineer
@@ -312,16 +301,6 @@ adam_harvey:
   links: '[@LGnome](https://twitter.com/LGnome)'
   pronunciation: '[/ˈadəm hˈɑːvi/](http://ipa-reader.xyz/?text=%CB%88ad%C9%99m%20h%CB%88%C9%91%CB%90vi&voice=Brian)'
   description: "Adam plays cricket, yells at hockey teams, and spends an inordinate amount of time convincing his golden retriever to drop things. He started his technology journey with an IBM XT in the 80s, and never looked back once he discovered the GW-BASIC `RENUM` command. Technologically, Adam enjoys programming language design, convincing runtimes to work on hardware they weren't designed to, and deluding himself that abusing CSS animations is exactly what his film degree qualified him to do."
-
-mark_muldez:
-  name: Mark "Markie" Muldez
-  pronouns: he/him
-  role: Commercial Account Executive
-  reports_to: head_sales_development
-  location: Tampa, FL 🇺🇸
-  email: mark@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/mjgmuldz/)'
-  description: "Mark has been working in sales for the past 8 years and he's held various roles such as SDR, AE, and Team Lead. Prior to Sourcegraph, Mark was an SDR (Sales Developement Rep) at Imply.io, where he successfully built a strong and sustainable pipeline for the company. Mark is a Golden State Warriors fan, plays guitar, and can eat endless plates of sushi. He's currently based in Florida, where mosquitoes get really bad in the summer so the best way to avoid them is to hit the beach . And oh btw, spicy mayo is his secret sauce."
 
 christine_lovett:
   name: Christine Lovett
@@ -1157,17 +1136,6 @@ gabe_torres:
   email: gabe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/gabtorres/)'
   description: Gabe is a developer from Los Angeles with a background in design. He enjoys sports, fitness, gaming, reading, exploring new places with his dog Bruno, and staring at art.
-
-suki_randhawa:
-  name: Suki Randhawa
-  pronouns: He/Him
-  role: Enterprise Account Executive
-  reports_to: regional_director_sales_emea
-  location: London, UK 🇬🇧
-  github: suki-randhawa1
-  email: suki@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/suki-randhawa-353526/)'
-  description: Suki is located in West London and is married with two kids. He started his career as a R&D developer, before moving to deploying and then selling software around the world. Suki and his wife founded a clothing brand to help new mums feed their lovely babies outside their home. Suki likes martial arts and all things HIIT related. Suki has a MBA from Henley Business School and a BSc from University of Warwick.
 
 amber_furbush:
   name: Amber Furbush
