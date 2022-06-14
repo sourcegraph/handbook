@@ -47,11 +47,16 @@ Customer Engineers (CE) or Sales may request to:
 
 ### Workflow
 
-1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
-2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
+1.  Sales alerts their CE partner to seek approval from their regional CE Manager
+2.  The Regional CE Manager will review the following criteria:
+    - Overall, is the deal qualified?
+    - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
+    - If anything is non-standard, it must pass the tech review process
+3.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
     - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
     - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
-3.  Message the team in #cloud-devops.
+4.  Message the team in #cloud-devops.
+5.  If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
 ## SLAs for managed instances
 
@@ -90,7 +95,7 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 #### Internal instances
 
-For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
+For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
 
 - for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
