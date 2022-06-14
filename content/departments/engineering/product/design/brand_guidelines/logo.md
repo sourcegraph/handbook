@@ -21,7 +21,6 @@ Our founders Quinn and Beyang opened up the Notes app and started throwing a bun
 Today’s updated version of the palette, with
 a nod to ADA accessibility and the inclusion of a secondary palette for more versatility in design, refers back to this approach to color.
 
-
 ### An iterative past
 
 Over the years the Sourcegraph logo has taken many
@@ -77,7 +76,7 @@ Since Sourcegraph’s core product and feature set is related to universal code 
   </body>
 </html>
 
-  ## Logo versions
+## Logo versions
 
 The relationship between the logomark (the Star) and wordmark (the text) should remain consistent.
 
