@@ -1,4 +1,4 @@
-# Sourcegraph releases
+  # Sourcegraph releases
 
 This document describes how we release Sourcegraph.
 
@@ -11,8 +11,7 @@ This document describes how we release Sourcegraph.
 ### Releases
 
 **Sourcegraph minor releases are monthly.**
-A _release_ refers to a minor version increase of Sourcegraph (e.g. `3.0.0` -> `3.1.0`).
-We create releases by 10am US Pacific Time on the 20th day of each month. ([why?](#why-the-20th))
+A release refers to a minor version increase of Sourcegraph (e.g. 3.0.0 -> 3.1.0).
 
 These releases **may** require [manual migration steps](https://docs.sourcegraph.com/admin/updates).
 
@@ -23,11 +22,15 @@ selected from the guild.
 
 ### When we release
 
-The release branch will be cut on the last working day at 10am PST before the 20th of each month.
+We create releases by 10am US Pacific Time on the 22nd day of each month. If the 22nd falls on a non-working day, the release captain will shift the release earlier to the last working day before the 22nd. The calendar events will reflect this.
 
-If the 20th falls on a non-working day, the release captain will move the release earlier, to the last working day before the 20th, as well as cutting the release branch the day before that. The calendar events will reflect this.
+The release branch will be cut exactly (and no more than) 72 weekday-hours prior to the release date and time (using the commit ledger if necessary). This aims to prevent surprise release cuts and ensure teammates can always know how much time is left until the release branch is prepared.
 
-eg. The 20th of a given month falls on a Sunday, therefore the release will be moved earlier to the last working day before the 20th (the 18th) and the branch will cut the day before that (the 17th).
+For example if the 22nd of the month was on a Thursday, we would cut the build on Monday the 19th.
+
+If the 22nd of the month was on a Monday, the release cut would be on Wednesday the 17th.
+
+If the 22nd of the month was on a Sunday, the release would become the 20th and the release cut would be on Tuesday the 17th.
 
 ### Patch releases
 
@@ -212,9 +215,9 @@ Now it's a good time to go back to the original [patch release request] and clos
 
 ## FAQ
 
-### Why the 20th?
+### Why the 22nd?
 
-There is nothing particularly special about using this date for releases, but it does mean we wrap up a release before many teammates go on vacation during the end of December.
+There is nothing particularly special about using this date for releases. Historically the 20th was release date, which was changed as a result of [RFC 695](https://docs.google.com/document/d/1HedzJIzcNR5Ihy_h0PgEqfdAE0z3sSSyZL5IOw2O8qk/edit#).
 
 ### Why aren't releases continuous?
 
