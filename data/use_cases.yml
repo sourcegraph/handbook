@@ -25,8 +25,8 @@ code_security:
   title: Code security
   link: /strategy-goals/strategy/use_cases/code_security
   sponsors:
-    product: joel_kwartler
-    engineering: tomás_senart
+    product: malo_marrec
+    engineering: thorsten_ball
 
 incident_response:
   title: Incident Response
