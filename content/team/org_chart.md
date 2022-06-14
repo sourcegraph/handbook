@@ -26,7 +26,7 @@ Our Engineering department includes design, product education, product managemen
 
 ## [People Ops](../departments/people-talent/people-ops/index.md#people-ops-team-members)
 
-{{generator:reporting_structure.vp_people}}
+{{generator:reporting_structure.vp_talent}}
 
 ## [Business Operations & Strategy](../departments/bizops/index.md#members)
 
