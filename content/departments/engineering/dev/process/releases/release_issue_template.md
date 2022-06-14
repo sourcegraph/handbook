@@ -114,7 +114,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the next release.
   - [ ] Change `upcomingRelease` to the current patch release
   - [ ] Change `previousRelease` to the previous patch release version
-  - [ ] Change `releaseDate` to the current date (time is optional) along with `oneWorkingDayAfterRelease` and `oneWorkingDayBeforeRelease`
+  - [ ] Change `releaseDate` to the current date (time is optional) along with `oneWorkingDayAfterRelease` and `threeWorkingDaysBeforeRelease`
   - [ ] Change `captainSlackUsername` and `captainGitHubUsername` accordingly
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
