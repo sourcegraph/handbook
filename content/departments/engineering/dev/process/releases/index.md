@@ -1,4 +1,4 @@
-  # Sourcegraph releases
+# Sourcegraph releases
 
 This document describes how we release Sourcegraph.
 
