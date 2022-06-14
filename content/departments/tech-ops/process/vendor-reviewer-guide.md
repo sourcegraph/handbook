@@ -138,9 +138,9 @@ Please see below matrix for review requirements for ANY type of vendor:
    </td>
    <td><strong>Cost < 1000</strong>
    </td>
-   <td><strong>Cost > 1000</strong>
+   <td><strong>Cost >= 1000</strong>
    </td>
-    <td><strong>Cost > 10 000 </strong>
+    <td><strong>Cost >= 10 000 </strong>
 
    </td>
   </tr>
