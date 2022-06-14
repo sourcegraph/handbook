@@ -69,7 +69,6 @@
     - If Yes:
       - Recruiter confirms that the previously discussed start date works for candidate.
       - Recruiter gives high level overview of what to expect next (Docusign, Welcome email from People Ops, New Hire Video) etc.
-      
     - If No:
       - Recruiter will ask to address any concerns on the call.
       - If candidate needs time to think through the offer, Recruiter will schedule a follow up call with candidate within 24 hours.
