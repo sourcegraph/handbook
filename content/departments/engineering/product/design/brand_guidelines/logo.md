@@ -21,6 +21,7 @@ Our founders Quinn and Beyang opened up the Notes app and started throwing a bun
 Today’s updated version of the palette, with
 a nod to ADA accessibility and the inclusion of a secondary palette for more versatility in design, refers back to this approach to color.
 
+
 ### An iterative past
 
 Over the years the Sourcegraph logo has taken many
@@ -57,7 +58,26 @@ Since Sourcegraph’s core product and feature set is related to universal code 
   <img src="./logo/versions/Sourcegraph_Logo_FullColor_light.svg" style="max-width: 400px" alt="Current Sourcegraph logo">
 </div>
 
-## Logo versions
+<html>
+  <head>
+    <style>
+      #content {
+        width: 800px;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fvnpc3bho7pFt1QttgFSi1f%2F%25F0%259F%2591%2589-Sourcegraph-Brand-Guidelines-WIP%3Fnode-id%3D909%253A1749" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
+
+  ## Logo versions
 
 The relationship between the logomark (the Star) and wordmark (the text) should remain consistent.
 
