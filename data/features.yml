@@ -389,13 +389,13 @@ batch_changes:
     cloud: not_implemented
 
 server_side_batch_changes:
-  title: Server side batch changes
+  title: Server-side batch changes
   product_team: batch_changes
-  maturity: experimental
+  maturity: beta
   documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
   deployment:
-    self_hosted: experimental
-    managed_instance: experimental
+    self_hosted: beta
+    managed_instance: beta
     cloud: not_implemented
 
 code_insights:
