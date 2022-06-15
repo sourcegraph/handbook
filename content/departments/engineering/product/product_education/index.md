@@ -12,6 +12,12 @@ While the primary focus of this group will be to create original content, this g
 
 Finally, this group will contribute to shaping the relevant technical platforms in order to drive consistent design, information architecture, functionality, and experience that allows this content to stand out as a competitive differentiator for Sourcegraph.
 
+Team Expectations
+
+We believe that clear expectations lead to success. Because of this, we developed a set of expectations for each team member, as well as expectations a team member can have of their leadership.
+
+Check out our [Team Expectations page](pe-team-expectations.md) for expectations for both indiviudal contributing members of the team and leadership.
+
 ## Contact
 
 @docs-team on Slack
