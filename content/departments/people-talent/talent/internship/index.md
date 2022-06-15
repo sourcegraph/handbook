@@ -94,6 +94,10 @@ The process for referring an intern is the same process as referring a full time
 
 If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
 
+### How to get involved in the internship as a teammate
+
+If you are not directly managing an intern but still want to be involved in the program, there are opportunities to lead or host your own internship events. Our internship events include a mix of social and team building activities, Q&As with our executive team members, and professional workshops. If you have a skill you are interested in teaching, have educational knoweldge that interns may benefit from learning, want to host one of the virtual Q&As with an executive team member, or want to offer a shadowing session for your own role, you can reach out to Kemper directly via Slack. Kemper will survey the interns during their first week to gauge interest and then reach out directly to you to plan and schedule the event throughout the summer.
+
 **For more detail about the internship recruiting and offer process, click [here](internship-recruiting-and-offers.md).**
 
 ### Managing an intern
