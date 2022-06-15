@@ -16,6 +16,8 @@ Note: always check this [doc](https://docs.google.com/document/d/1jvE52dR4wsOhbK
 
 ![platform positioning](https://storage.googleapis.com/sourcegraph-assets/Platform%20positioning.png)
 
+Also see the [FY23 Positioning FAQ](https://docs.google.com/document/d/1_k2m78tDW5mt1141qfD4E_Xwg8e8qGQ1n8Kx7mRQ0H0/edit#heading=h.mowy8zfok0ki) (private).
+
 ## What about universal code search?
 
 Previously, we positioned Sourcegraph as universal code search. While code search will always be essential to what we are as a company and as a product, it doesn't reflect the evolution of Sourcegraph as a company and suite of products that solve 5 compelling use cases.
