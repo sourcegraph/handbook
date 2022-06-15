@@ -66,7 +66,7 @@ Remember:
 - Familiarize yourself with our [team chat](../../../../company-info-and-process/communication/team_chat.md) and join team channels on Slack, as well as any other channels you find interesting. [Product team chat documentation](../../../../company-info-and-process/communication/team_chat.md#product).
 - Set up your [local development environment](https://docs.sourcegraph.com/dev/setup). If you encounter any issues, ask for help in Slack and then update the documentation to reflect the resolution (so the next person that we hire doesn't run into the same problem).
   - You will need to run Sourcegraph locally to test and validate work that engineering is doing, to provide early feedback, or to review the UX of recently implemented work.
-- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../engineering/process/deployments/instances.md#k8s.sgdev.org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
+- [Add Sourcegraph as a browser search engine](https://docs.sourcegraph.com/integration/browser_search_engine). To search our private code, log in to our [internal dogfood instance](../../dev/process/deployments/instances.md#k8s.sgdev.org) ([`k8s.sgdev.org`](https://k8s.sgdev.org)) and add another entry: `https://k8s.sgdev.org/search?q=%s`.
 - Install a text editor of your choice. A lot of the team uses [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Get to know the product
@@ -76,7 +76,7 @@ Remember:
 - Read about [search queries](https://docs.sourcegraph.com/code_search) and perform your first searches.
 - Work through the questions from the [Sales Onboarding Quiz](../../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Record yourself completing the Sales [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit#).
-- [How to make configuration changes to sourcegraph.com](../../engineering/admin-exp/devops/update_sg_website_config.md)
+- [How to make configuration changes to sourcegraph.com](../../dev/admin-exp/devops/update_sg_website_config.md)
 
 ### Get to know our customers
 

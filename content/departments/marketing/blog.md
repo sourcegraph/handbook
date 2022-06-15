@@ -29,6 +29,7 @@ heroImage: /blog/thumbnail-image.jpg
 socialImage: Use to set large social image i.e.  https://about.sourcegraph.com/blog/sourcegraph-social-img.png
 canonical: Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
 published: true
+videoID: 'dQw4w9WgXcQ'
 ---
 
 Your markdown content goes here
@@ -39,11 +40,12 @@ The data between the `---` is called front matter and is used to provide post me
 The `description` field is used as an excerpt for your post on the blog the index page.
 
 - The `authors` field is for any author of the blog. The `url` field is optional but recommended. \* The indentations on this field are important to keep matching the example.
-- The `tags` field should be left as `blog` until we incorporate filtering posts va tags.
+- The `tags` field should be left as `blog` until we incorporate filtering posts via tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
 - The `canonical` field is optional and only required to override the canonical link. Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
 - The `socialImage` field is optional. Use the full path to image in order to be read properly on Twitter and Facebook. Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
+- The `videoID` field is an optional YouTube video ID and will take priority even if the `socialImage` is present. This will generate an inline video preview card when sharing on social media. This is supported for all types of posts; blog, podcast, and release posts.
 
 ## Adding images and other media
 

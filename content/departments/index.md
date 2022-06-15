@@ -10,7 +10,7 @@ This section of the Handbook holds all documentation related to specific departm
 - [Marketing](marketing/index.md)
 - [People & Talent](people-talent/index.md)
 - [Engineering](engineering/index.md)
-  - [Engineering](engineering/engineering/index.md)
+  - [Engineering](engineering/dev/index.md)
   - [Product Management](engineering/product/index.md)
   - [Design](engineering/product/design/index.md)
   - [Product Education](engineering/product/product_education/index.md)

@@ -32,7 +32,7 @@ We have identified five key use cases for our universal code search platform:
 1. [Developer onboarding](use-cases/dev-onboarding.md)
 1. [Code reuse](use-cases/code-reuse.md)
 1. [Code health](use-cases/code-health.md)
-1. [Fixing security vulnerabilities](use-cases/fixing-security-vulnerabilities.md)
+1. [Code security](use-cases/code-security.md)
 1. [Incident Response](use-cases/incident-response.md)
 
 There is no explicit mention of developer velocity in these use case titles, because they all improve developer velocity. Notably, research shows that revenue growth among companies who invest in the velocity of their developers see revenue growth up to 4-5 times faster than those who don’t.
@@ -122,7 +122,6 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
   - [Enablement](enablement/index.md)
     - [Dev Experience](enablement/dev-experience/index.md)
     - [Frontend Platform](enablement/frontend-platform/index.md)
-    - [Engineering Education](enablement/engineering-education/index.md)
     - [Content Platform](enablement/content-platform/index.md)
   - [Admin Experience](admin-exp/index.md)
     - [IAM](admin-exp/iam/index.md)

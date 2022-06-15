@@ -21,12 +21,12 @@ code_health:
     product: malo_marrec
     engineering: joe_chen
 
-fixing_security_vulnerabilities:
-  title: Fixing Security Vulnerabilities
-  link: /strategy-goals/strategy/use_cases/fixing_security_vulnerabilities
+code_security:
+  title: Code security
+  link: /strategy-goals/strategy/use_cases/code_security
   sponsors:
-    product: joel_kwartler
-    engineering: tomás_senart
+    product: malo_marrec
+    engineering: thorsten_ball
 
 incident_response:
   title: Incident Response

@@ -104,7 +104,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
-- **Owner:** The browser extension product manager (currently the [Integrations team product manager](../../engineering/admin-exp/integrations/index.md#members)) owns responding to this feedback.
+- **Owner:** The browser extension product manager (currently the [Integrations team product manager](../../dev/admin-exp/integrations/index.md#members)) owns responding to this feedback.
 
 ## Productboard
 

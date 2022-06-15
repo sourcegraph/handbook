@@ -1,39 +1,27 @@
 # Code Security tiger team strategy
 
-The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tiger_team) is to iterate quickly with customers over new user flows addressing the [Fixing security vulnerabilities use case](../../use-cases/fixing-security-vulnerabilities.md) over FY23Q2.
+The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tiger_team) is to iterate quickly with customers over new user flows addressing the [Code security use case](../../use-cases/code-security.md) over FY23Q2.
 
-Our strategy is work in progress, but we will focus heavily on running customer discovery in May.
+#### Quicklink
 
-#### What success means
+- [Team page](../../../../departments/engineering/dev/code-graph/code-security-tiger-team/index.md)
+- [OKR](https://docs.google.com/document/d/1wh8enIZs8mDEoBs_HiPP4v9SIF2gFuhtMFAhbROe2EI/edit#heading=h.tsga00gx9kb8) (private)
+- [Weekly updates](https://github.com/sourcegraph/code-graph/issues/21)
 
-We are in customer discovery phase, and will define a success metric later on. Our main business goals are:
+Following early customer discovery, we are making a bet on software supply chain. We are iterating rapidly, so what follows may change as we learn. You can also read more in [PD 35 WIP - Dependency Graph for code security](https://docs.google.com/document/d/1Bq2SAx-FXxzW0YFbkIYoPS6bvy-LvlvZMyOTNUI1NV0/edit#heading=h.z5ozjpfzh2yl).
 
-- Close deals faster (with focused, quicker new business lands), and a reduced average sales cycle
-- Attach to a compelling event
-- Fill a meaningful gap in the current security tool landscape
-- Create incremental and meaningful value for our customers
-- Provide a new buyer to land with in target accounts
+### Vision
 
-#### Plan
+Security scanners have a low signal to noise ratio. This means that security and development teams have to spend more and more time triaging and fixing vulnerabilities. This is made more difficult because there is a gap between security and development goals and workflows: security teams want to ensure compliance and reduce risks, while development teams have to make trade-offs between updating dependencies and delivering on other priorities.
 
-- [Our goal](https://docs.google.com/document/d/1wh8enIZs8mDEoBs_HiPP4v9SIF2gFuhtMFAhbROe2EI/edit#heading=h.tsga00gx9kb8) (private)
-- [Planning document](https://docs.google.com/document/d/1LtdwXVKYTw5VhIdSul_-eLgm-PtM1EOKVMbpdAHFSmk/edit) (private)
+In the future, we believe that:
 
-### Customer discovery
+- **Triaging vulnerabilities will be fast and transparent.** Security and development teams will be able to rapidly determine the impact of a dependency on a codebase, tracing it down to the actual function call, and understanding what deployable are impacted. They will use a common source of truth for reasoning about dependencies.
+- **Remediation will be faster, safer, and transparent, even in big nested codebases.** When making remediation decisions, developers can understand the big picture, and take into account the impact of a fix on all the repositories and artifacts. Development teams will be able to determine the optimal sequence of build/publish/deploy actions to perform to universally upgrade safely in the shortest period of time.
 
-We are currently running customer discovery to identify critical code security needs of our customers that Sourcegraph is uniquely positioned to solve.
+Software Bill of Material products have initially focused on compliance. We think that there is an opportunity for Sourcegraph to realize the value of the SBOM by making dependencies easy to search, understand and fix.
 
-- Read our [Customer research plan and interview guide](https://docs.google.com/document/d/13U8WvuDGHi9G3PJIDVJzge9rb-ApuA3PCiotAlshdCk/edit#) (private)
-- View [insights collected from interviews](https://airtable.com/appNsjegbsi2XumCg/tblam1hdUFUSFLzyS/viwTBDtytBqAxoZ40?blocks=hide) (private)
-- We are looking for insights! If there's someone we should be talking to, [submit them here](https://airtable.com/shrEbXnkA6pmkTJWL)
-- Meanwhile, we keep track of [assumptions here](https://docs.google.com/document/d/1tnPDKvwbQr0yiu2fWRgsJ8H8gvkQ8erlIS17-_MyEIY/edit#)
-
-Our first meaningful insight is about gaps in software supply chain, in particular how security users can answer the following problem statement:
-
-> “If you learn that a code pattern in library x version y is vulnerable, how do you determine if you're actually exposed to it? How do you trace it down to the actual line of code?”
-> Note that here, being exposed to a code pattern means _actually calling it_ and not just importing a dependency.
-
-We are currently validating that need with customers, and iterating on the problem. You can read more in the [problem brief](https://docs.google.com/document/d/1vAmdh-N5QABXznKCq7wJr7vYB87FdwNEPDoug90r2Z8/edit#).
+#### Jobs to be done
 
 We are currently **exploring and validating** the following Jobs To Be Done:
 
@@ -71,3 +59,10 @@ The software supply chain is currently top-of-mind for many customers and indust
 > Attacks on the software supply chain surged 650% in a year, according to a late 2021 eport by Sonatype that tracked 12,000 software supply chain attacks over the past year, compared to just 929 in 2019-2020.
 
 and there was an executive order on [securing the software supply chain](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/02/24/executive-order-on-americas-supply-chains/). Recently, "White House officials, The Linux Foundation, OpenSSF and CISOs from 37 private sector companies announced a 10-point open source and software supply chain mobilisation plan and $150 million of funding over two year" ([article](https://thestack.technology/10-point-open-source-software-security-mobilization-plan/?amp=1))
+
+### What's next
+
+We are iterating on a way to navigate, visualise and search the depenency graph. We are currently iterating on dependency search and reverse dependency search. We think our two next iterations will be:
+
+- Build a first version of reverse dependency search using precise code intel data for Java. That will immediately help users get precise answers to "what repository depends on `repo-x`? Is function `vulnerable` used in dependencies of `repo-x`?". It's also a building block for what's next.
+- Provide a way for users to interactively navigate the dependency graph, one edge at a time. This will improve usability, and create a compelling demo flow.
