@@ -66,12 +66,12 @@ export async function generateFeatureMaturityLevels() {
           areaContent += `|${String(feature.title)}`
         }
         areaContent += `|${String(maturityLevels[feature.maturity].title)}|\n`
-        if(feature.note){
+        if (feature.note) {
           notes += `- ${feature.note} \n `
         }
       }
     }
-    if(notes){
+    if (notes) {
       areaContent += `\n Notes: \n ${notes}`
     }
     if (featureCount > 0) {
