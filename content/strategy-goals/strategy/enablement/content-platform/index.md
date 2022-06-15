@@ -18,7 +18,7 @@ The current existing content platforms include:
 
 ## Roadmap
 
-In the next six months, we will focus primarily on improving our tracking ability and to iterate fast on the marketing site and blog for the Marketing department. 
+In the next six months, we will focus primarily on improving our tracking ability and to iterate fast on the marketing site and blog for the Marketing department.
 
 [Full list of roadmap issues for Content Platform team.](https://github.com/orgs/sourcegraph/projects/214/views/14)
 
