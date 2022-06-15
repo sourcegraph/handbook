@@ -4,6 +4,7 @@
 
 - Enablement session recording (TODO)
 - Demo video
+- [Release post](https://github.com/sourcegraph/about/pull/5471)
 
 ## Summary
 
