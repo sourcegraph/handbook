@@ -71,7 +71,7 @@ export async function generateFeatureMaturityLevels() {
         }
       }
     }
-    if(notes){
+    if (notes) {
       areaContent += `\n Notes: \n ${notes}`
     }
     if (featureCount > 0) {
