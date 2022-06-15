@@ -397,6 +397,7 @@ server_side_batch_changes:
     self_hosted: beta
     managed_instance: beta
     cloud: not_implemented
+  note: Server-side batch changes on managed instances requires self-hosting [executors](#executors).
 
 code_insights:
   title: Code Insights
@@ -620,3 +621,13 @@ custom_extensions:
     gerrit: true
     perforce: true
     cvs: true
+
+executors:
+  title: Executors
+  product_team: code_intelligence
+  maturity: experimental
+  documentation_link: https://docs.sourcegraph.com/admin/executors
+  deployment:
+    self_hosted: beta
+    managed_instance: experimental
+    cloud: not_implemented
