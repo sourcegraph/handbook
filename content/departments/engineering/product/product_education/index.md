@@ -20,6 +20,7 @@ Check out our [Team Expectations page](team-expectations.md) for expectations fo
 
 ## Contact
 
-Slack: 
+Slack:
+
 - @product-education or #eng-product-education
 - @docs-team or #docs (for discussions explicitly related to docs)
