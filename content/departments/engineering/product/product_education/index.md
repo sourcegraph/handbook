@@ -16,7 +16,7 @@ Finally, this group will contribute to shaping the relevant technical platforms 
 
 We believe that clear expectations lead to success. Because of this, we developed a set of expectations for each team member, as well as expectations a team member can have of their leadership.
 
-Check out our [Team Expectations page](pe-team-expectations.md) for expectations for both indiviudal contributing members of the team and leadership.
+Check out our [Team Expectations page](team-expectations.md) for expectations for both indiviudal contributing members of the team and leadership.
 
 ## Contact
 
