@@ -54,19 +54,21 @@ Simply join the Zoom meeting URL and it should begin recording automatically. Sa
 
 ![image](https://user-images.githubusercontent.com/3173176/86101192-c3100f80-ba6e-11ea-984c-2955860113e3.png)
 
-## Activating Closed Caption on Zoom meetings
+## Automated Captions in Zoom meetings
 
-Zoom has a auto-generated closed captions feature, but it's disabled by the default. This feature is handy for many Sourcegraphers and make our communication more accessible.
+Zoom has an auto-generated closed captioning feature, which has been enabled for all users by default. This feature is handy for many Sourcegraphers and makes our communication more accessible.
 
-### Enabling live Closed Captions on Zoom
+### Activating Live Closed Captions on Zoom
+
+By default, the “CC” button is visible in your Zoom meetings. You can activate it on every meeting that you’re the host of.
+
+<img width="445" alt="Cc Button" src="https://user-images.githubusercontent.com/64257673/173246442-3847141f-071d-4dbf-81e7-d075e4a2c9ed.png">
+
+If you want to disable this option, you can change it in the advanced meeting settings:
 
 - Access https://sourcegraph.zoom.us/profile/setting
 - Click on “In Meeting (Advanced)”
 - Scroll to “Automated captions”
-- Enable “Automated captions”, “Full Transcipt” and “Save Captions”
+- Disable “Automated captions”, “Full Transcipt” and “Save Captions”
 
 <img width="918" alt="Settings" src="https://user-images.githubusercontent.com/64257673/173246420-9594bf2a-9dd4-4f75-b383-349cc0e9aca2.png">
-
-Now The “Cc” button is visible in your live meetings. You can activate it on every meeting that you’re the host of.
-
-<img width="445" alt="Cc Button" src="https://user-images.githubusercontent.com/64257673/173246442-3847141f-071d-4dbf-81e7-d075e4a2c9ed.png">
