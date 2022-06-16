@@ -6,18 +6,18 @@ _Please follow this [guidance](#contributing-to-this-page) on how to contribute 
 
 This document explains the workflow for driving changes on the Sourcegraph software application.
 
-## Overview 
+## Overview
 
 Sourcegraph uses GitHub issues to track and drive changes to its application. They are the single source of truth, and are structured as following:
 
 - Roadmap items
-  - Tracking issues 
-    - Standard issues 
+  - Tracking issues
+    - Standard issues
 
-### Roadmap items 
+### Roadmap items
 
-At the very top, Sourcegraph uses roadmap items, found in the [product and engineering roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues. 
-Each individual issue is tagged with their owning organization, owning team and assignees, who are in charge of updating the issue during the quarter. 
+At the very top, Sourcegraph uses roadmap items, found in the [product and engineering roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
+Each individual issue is tagged with their owning organization, owning team and assignees, who are in charge of updating the issue during the quarter.
 
 The issue content contains the following sections:
 
@@ -28,7 +28,7 @@ The issue content contains the following sections:
 - Impact on use cases
 - Delivery plan
 
-The purpose of these sections is make the objectives definition and understanding the current status clear for every teammate, regardless of their role. 
+The purpose of these sections is make the objectives definition and understanding the current status clear for every teammate, regardless of their role.
 
 ### Tracking issues
 
@@ -36,7 +36,7 @@ A tracking issue is a GitHub issue that captures the planned and on-going work o
 
 A [detailed guide about tracking issues](../dev/process/tracking_issues.md) is available.
 
-### Standard issues 
+### Standard issues
 
 A standard issue captures a task, a bug or an explocation owned by a team (assigned through a label of the form `team/NAME`). Other expectations toward the issue content and labels are up to its owning team.
 
@@ -44,7 +44,7 @@ A [detailed page about issues](./working-with-issues.md) is available.
 
 ## Additional artefacts
 
-To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues: 
+To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues:
 
 - [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
   - See also the [product process](../product/process/index.md).
@@ -56,7 +56,7 @@ The flow starts with a GitHub issue that will be the single source of truth for 
 
 ### Design
 
-Designing at Sourcegraph starts with a design document: a PD, an RFC or simply a description in the GitHub issue. 
+Designing at Sourcegraph starts with a design document: a PD, an RFC or simply a description in the GitHub issue.
 
 The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
