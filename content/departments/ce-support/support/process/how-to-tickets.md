@@ -4,7 +4,7 @@ As an Application Engineer, you will be confronted with tickets that require you
 
 ### "How To" Tickets
 
-For how-to tickets, you are not required to create a Request for help (RFH) in GitHub. While RFH's are a valuable tool when dealing with complex issues, they introduce overhead and complexity that isn't necessary for "How To" questions. Furthermore, they limit visibility, and collaboration between teams that happens in public, shared channels. 
+For how-to tickets, you are not required to create a Request for help (RFH) in GitHub. While RFH's are a valuable tool when dealing with complex issues, they introduce overhead and complexity that isn't necessary for "How To" questions. Furthermore, they limit visibility, and collaboration between teams that happens in public, shared channels.
 
 For "How To" tickets, follow the procedure below:
 
