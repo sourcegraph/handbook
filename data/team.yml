@@ -919,7 +919,7 @@ kendrick_morris:
 carly_jones:
   name: Carly Jones
   pronouns: she/her
-  role: VP, Talent
+  role: VP, Talent & People
   manager_role_slug: vp_talent
   reports_to: ceo
   location: Denver, CO USA 🇺🇸
@@ -1054,7 +1054,7 @@ trevor_houghton:
   name: Trevor Houghton
   pronouns: he/him
   role: Recruiting Operations Specialist
-  reports_to: vp_talent
+  reports_to: director_recruiting
   location: Austin, TX, USA 🇺🇸
   github: TrevorHoughton
   email: trevor@sourcegraph.com
@@ -1121,7 +1121,7 @@ kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
   role: Corporate Recruiter
-  reports_to: vp_talent
+  reports_to: director_recruiting
   location: Minneapolis, MN USA
   github: kelseynagel
   description: "Kelsey is a North Dakota native living in Minneapolis, Minnesota. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
@@ -1229,7 +1229,8 @@ bill_caplan:
 marija_petrovic:
   name: Marija Petrovic
   pronouns: She/Her
-  role: Team Lead, Senior Sales Recruiter
+  role: Director, Recruiting
+  manager_role_slug: director_recruiting
   reports_to: vp_talent
   location: Naples, FL USA 🇺🇸
   github: marija.petrovic214
@@ -1554,7 +1555,7 @@ grace_bohl:
   name: Grace Bohl
   pronouns: she/her
   role: Corporate Recruiter
-  reports_to: vp_talent
+  reports_to: director_recruiting
   location: Denver, CO 🇺🇸
   github: gracebohl
   email: you@sourcegraph.com
@@ -1822,7 +1823,7 @@ carter_jaenichen:
 amber_smokowski:
   name: Amber Smokowski
   role: Executive Business Partner, Sales and Marketing
-  reports_to: vp_sales
+  reports_to: ebp_lead
   location: From Longmont, CO, USA currently in Austin, TX, USA
   github: ambersmo
   email: amber.smokowski@sourcegraph.com
@@ -2926,3 +2927,19 @@ sarah_um:
   github: sarahum
   links: '[LinkedIn](https://www.linkedin.com/in/sarahum/)'
   description: "Sarah is an HR geek through and through. She takes a people-first approach when it comes to supporting the business and is passionate about guiding others along their career journey. Prior to Sourcegraph, Sarah worked at Okta/Auth0 and Accenture. Outside of work, you'll either find Sarah spending time with her family (camping, traveling, running, hiking, skiing) or binge-watching K-dramas."
+
+megan_standrew:
+  name: Megan St. Andrew
+  pronouns: she/they
+  location: Chicago, IL, USA 🇺🇸
+  role: UX Researcher, Code Graph
+  reports_to: director_design
+  email: megan.standrew@sourcegraph.com
+  github: meglynst
+  links: '[LinkedIn](https://www.linkedin.com/in/meganstandrew/)'
+  description: 'Megan grew up in Michigan and is a proud Anishinaabekwe from the Sault Ste. Marie Tribe of Chippewa Indians (Aanii!👋). She originally studied international studies and digital humanities before shifting to work in UX as a generalist turned researcher. Outside of work, Megan enjoys reading (fiction, non-fiction, poetry, comics, webtoons, basically everything), exploring new cafes in the Chicago area, attempting to learn new languages, and watching K-dramas.'
+
+alex_mathison:
+  name: Alex Mathison
+  role: Senior People Partner
+  reports_to: director_people

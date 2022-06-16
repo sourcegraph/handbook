@@ -376,7 +376,7 @@ batch_changes:
     github_com: true
     github_enterprise: true
     bitbucket_server: true
-    bitbucket_cloud: false
+    bitbucket_cloud: true
     phabricator: false
     codecommit: false
     gitolite: false
