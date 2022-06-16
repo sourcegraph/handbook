@@ -29,6 +29,8 @@ You can find the new docs in [How to add logging](https://docs.sourcegraph.com/d
 
 [![Sentry demo](https://cdn.loom.com/sessions/thumbnails/f2010789f6884e72932f6e6a9b091558-with-play.gif)](https://www.loom.com/share/f2010789f6884e72932f6e6a9b091558)
 
+Because this raises the amount of errors being reported, we're experimenting with sampling the errors, which both prevents to fill our quota too quickly and also ensure that we're not spending too much resources on the reporting itself.
+
 Under the hood, it uses a new "log sinks" mechanism that can easily be extended to accomodate new backends in the future - you can learn more about it in the [package docs](https://pkg.go.dev/github.com/sourcegraph/log/internal/sinkcores/sentrycore)!
 As a byproduct, the codebase doesn't have anymore any explicit reference to Sentry, apart from the optional Sentry sink itself.
 
