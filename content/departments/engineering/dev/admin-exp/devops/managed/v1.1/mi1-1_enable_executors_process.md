@@ -43,7 +43,8 @@ mg executors set-token --token $(terraform output -raw executor_proxy_password)
 
 ### Confirm executors is actually working
 
-Then run the command below, which will 
+Then run the command below, which will
+
 - increase the minimal replica of executors auto scaling group to `1`
 - retry until either the executors are up or a 5 minute timeout has been reached, after which you should check configuration errors if it fails
 - scale auto scaling group back to `0`
