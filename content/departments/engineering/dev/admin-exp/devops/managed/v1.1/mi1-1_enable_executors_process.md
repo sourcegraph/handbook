@@ -138,4 +138,3 @@ sourcegraph-executors-docker-registry-mirror  us-central1-a  n1-standard-2      
 ```
 
 If above all check out, visit the [Compute Engine Console](https://console.cloud.google.com/compute/instances) and check logs of the executor instance for more troubleshooting.
-
