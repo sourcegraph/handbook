@@ -38,7 +38,7 @@ terraform apply
 Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
 ```sh
-mg set-executor-token --token $(terraform output -raw executor_proxy_password)
+mg executors set-token --token $(terraform output -raw executor_proxy_password)
 ```
 
 ### Confirm executors is actually working
