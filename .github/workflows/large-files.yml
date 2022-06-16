@@ -27,6 +27,10 @@ jobs:
             Install-Module PowerGit -Force -ErrorAction Stop
             Install-Module PSGitHub -Force -ErrorAction Stop
 
+            if (-not $env:GITHUB_TOKEN) {
+              throw "No GITHUB_TOKEN env var provided"
+            }
+
             $PSDefaultParameterValues['*:GitHub*'] = ConvertTo-SecureString -String $env:GITHUB_TOKEN -AsPlainText -Force
 
             $baseRef = $github.base_ref
