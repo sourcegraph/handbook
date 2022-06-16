@@ -93,6 +93,10 @@ Sourcegraph uses two different mechanisms to deploy its changes in production:
 
 The Product Manager and the owning team are in charge of ensuring that the newly introduced changes are meeting the requirements, observing the behaviour in the production environments through monitoring, feedback or bug reports from customers. If any incorrect behaviour is found or a requirement isn’t met, they write corrective changes to fix those issues.
 
+## Team specifics
+
+Optionally, teams can specialize this document to further detail their own process, as long as it is compatible with the default SDLC covered in this document by creating a `sdlc.md` page under their own folder and linking toward it in this section, below this paragraph.
+
 ## Contributing to this page
 
 Changes to this pages impacts all teams and therefore must be reviewed by organization leaders as well as the Developer Experience team.
