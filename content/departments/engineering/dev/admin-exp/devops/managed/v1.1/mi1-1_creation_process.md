@@ -107,3 +107,16 @@ terraform output
 ```
 
 Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses.
+
+## `KeyRing` already exists
+
+```
+│ Error: Error creating KeyRing: googleapi: Error 409: KeyRing projects/sourcegraph-managed-$CUSTOMER/locations/global/keyRings/primary-key-ring already exists.
+```
+
+You may be trying to re-create an instance in the same project where KMS is only scheduled for deletion instead of being deleted right away. You will need to manuall import below resources
+
+```sh
+terraform import 'module.managed_instance.google_kms_key_ring.keyring' projects/sourcegraph-managed-$CUSTOMER/locations/global/keyRings/primary-key-ring
+terraform import 'module.managed_instance.google_kms_crypto_key.key' global/primary-key-ring/primary-key
+```
