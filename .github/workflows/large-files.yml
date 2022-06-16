@@ -31,8 +31,8 @@ jobs:
               throw "No GITHUB_TOKEN env var provided"
             }
 
-            $PSDefaultParameterValues['*:GitHub*'] = ConvertTo-SecureString -String $env:GITHUB_TOKEN -AsPlainText -Force
+            $githubToken = ConvertTo-SecureString -String $env:GITHUB_TOKEN -AsPlainText -Force
 
             $baseRef = $github.base_ref
             git branch $BaseRef "origin/$BaseRef"
-            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number
+            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number -Token $githubToken
