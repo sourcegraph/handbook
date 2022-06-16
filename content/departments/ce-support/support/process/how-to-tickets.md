@@ -12,4 +12,4 @@ For how-to tickets, you are not required to create a Request for help (RFH) in G
 
 # All other tickets
 
-If you discern that a customer issue has more complexity than what could be answered by an engineer in a slack post, and you, nor your teammates have a solution, you may then go through the process of creating an RFH with the appropriate engineering team as outlined [here](https://handbook.sourcegraph.com/departments/ce-support/support/process/engaging-other-teams/#requests-for-help-rfhs).
+If you discern that a customer issue has more complexity than what could be answered by an engineer in a slack post, and you, nor your teammates have a solution, you may then go through the process of creating an RFH with the appropriate engineering team as outlined [here](engaging-other-teams.md#requests-for-help-rfhs).
