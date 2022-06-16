@@ -1,6 +1,6 @@
 # Engaging Engineering
 
-As an Application Engineer, you will be confronted with tickets that require you to seek help from engineering. You are encouraged to do so! There are a two ways to enlist the help of engineering, largely depending on the nature of the ticket. 
+As an Application Engineer, you will be confronted with tickets that require you to seek help from engineering. You are encouraged to do so! There are a two ways to enlist the help of engineering, largely depending on the nature of the ticket.
 
 ## "How To" Tickets
 
