@@ -48,7 +48,7 @@ Sync configuration
 ```sh
 mg sync
 ```
- 
+
 Reload worker to catch up with the updated configuration
 
 ```sh
