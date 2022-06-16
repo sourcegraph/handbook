@@ -35,10 +35,10 @@ cd $CUSTOMER
 terraform apply
 ```
 
-Obtain the access token and apply this token to `executors.accessToken` in site-config.
+Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
 ```sh
-terraform show -json | jq '.values.outputs'
+mg set-executor-token --token $(terraform output -raw executor_proxy_password)
 ```
 
 ### Confirm executors is actually working
