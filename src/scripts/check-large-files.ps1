@@ -46,7 +46,7 @@ $largeChanges =
   }
 
 if ($largeChanges) {
-  $existingComment = $repo | Get-GitHubComment -Number $PullRequestNumber | Where-Object { $_.User.type -eq 'Bot' -and $_.Body -match 'large binary files' } | Select-Object -First 1
+  $existingComment = $repo | Get-GitHubComment -Number $PullRequestNumber -Token $GitHubToken | Where-Object { $_.User.type -eq 'Bot' -and $_.Body -match 'large binary files' } | Select-Object -First 1
   $still = if ($existingComment) { 'still' } else { '' }
   $message =
     "There were $still large binary files (over $($limit / 1KB)KB) detected in this pull request.`n" +
@@ -67,7 +67,7 @@ if ($largeChanges) {
     "`n" +
     "Thank you! \\(^-^)/"
 
-  $repo | New-GitHubComment -Number $PullRequestNumber -Body $message
+  $repo | New-GitHubComment -Number $PullRequestNumber -Body $message -Token $GitHubToken
 
   throw $message # fail the GitHub action check
 }
