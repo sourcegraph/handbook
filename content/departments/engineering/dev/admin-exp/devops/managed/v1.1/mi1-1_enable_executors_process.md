@@ -35,10 +35,10 @@ cd $CUSTOMER
 terraform apply
 ```
 
-Obtain the access token and apply this token to `executors.accessToken` in site-config.
+Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
 ```sh
-terraform show -json | jq '.values.outputs'
+mg executors set-token --token $(terraform output -raw executor_proxy_password)
 ```
 
 ### Confirm executors is actually working
@@ -56,7 +56,11 @@ Apply the change
 terraform apply
 ```
 
-Open `https://$COMPANY.sourcegraph.com/site-admin/executors` and you shoule be able to see executors instances showing up
+Then run the check, which will retry until either the executors are up or a 5 minute timeout has been reached, after which you should check configuration errors:
+
+```sh
+mg executors check
+```
 
 Don't forget to scale it down
 
