@@ -1,18 +1,18 @@
 # Engaging Engineering
 
-As an Application Engineer, you will be confronted with tickets that require you to seek help from engineering. You are encouraged to do so! There are a two ways to enlist the help of engineering, largely depending on the nature of the ticket.
+As an Application Engineer, you will be confronted with tickets that require you to seek help from engineering. You are encouraged to do so! There are two ways to do so, largely depending on the nature of the ticket.
 
 ### "How To" Tickets
 
-For how-to tickets, you are not required to create a Request for help (RFH) in GitHub. While RFH's are a valuable tool when dealing with complex issues, they introduce overhead and complexity that isn't necessary for "How To" questions. Furthermore, they limit visibility, and collaboration between teams that happens in public, shared channels.
+For "how-to" tickets, you are not required to create a Request for help (RFH) in GitHub. While RFH's are a valuable tool when dealing with complex issues, they introduce overhead and complexity that isn't necessary for "How-To" questions. Furthermore, they limit visibility, and collaboration between teams that happens in public, shared channels.
 
-For "How To" tickets, follow the procedure below:
+For "How-To" tickets, follow the procedure below:
 
 1. As you normally would, check the [docs](https://docs.sourcegraph.com), and [ticket database](https://github.com/sourcegraph/support-tools-internal/tree/main/resolved-tickets) (searchable on `cse-k8s`) for possible solutions.
 2. If no solution is found, create a new post in the #customer-support-internal channel in Slack. Start the post with "HTQ:" so that it is searchable in the future.
 3. If you still don't have a solution after doing so, create a new post in #ask-engineering in slack. Again, make sure you start the post with "HTQ:" to make it more searchable. Post expiration will be turned off in this channel to accomodate searching for these posts and adding them to "How To" summaries.
 4. If you are not getting a response, raise this to leadership, and they will help move the request forward.
-5. Lastly, once a solution is provided and the ticket is closed, include the Slack thread in your summary, so that AERs can reference those helpful, collaborative posts in the future.
+5. Lastly, once a solution is provided and the ticket is closed, include the Slack thread in your summary, so that AERs (and others) can reference those helpful, collaborative posts in the future.
 
 ### All Other Tickets
 
