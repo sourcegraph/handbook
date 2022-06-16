@@ -56,7 +56,11 @@ Apply the change
 terraform apply
 ```
 
-Open `https://$COMPANY.sourcegraph.com/site-admin/executors` and you shoule be able to see executors instances showing up
+Then run the check, which will retry until either the executors are up or a 5 minute timeout has been reached, after which you should check configuration errors:
+
+```sh
+mg executors check
+```
 
 Don't forget to scale it down
 
