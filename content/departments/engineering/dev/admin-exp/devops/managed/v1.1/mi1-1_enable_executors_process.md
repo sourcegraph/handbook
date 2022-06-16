@@ -127,7 +127,7 @@ $ gcloud compute instance-groups managed describe codeintel--sourcegraph-executo
 }
 ```
 
-Ensure there is an active instance belong to one of the instance group (notes `batches--sourcegraph-executor-rqfs`)
+Ensure there is an active instance belong to one of the instance group (notes the `batches--sourcegraph-executor-rqfs` instance). Sometimes it may take GCP longer to spawn a new instance, so be patient. If no new instance is created for an unreasonable amount of time, consult GCP documentation for next step.
 
 ```sh
 $ gcloud compute instances list --project=$PROJECT
