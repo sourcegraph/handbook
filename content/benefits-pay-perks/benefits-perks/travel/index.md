@@ -154,7 +154,7 @@ We advise spending within reason for the location you are visiting, with a $300 
 - Sourcegraph will pay for flight to and from locations. Any changes made to your itinerary to extend your trip and change your flight itinerary will be out of pocket expenses.
 - At this time, we do not reimburse airport traveler programs, such as TSA-Pre, Global Entry, or Clear.
 - Gas and parking would be considered reimbursable within the applicable budget (Category [2](#2-team-travel), [3](#3-individual-travel), [5](#5-professional-development-stipend-and-educational-travel)) travel.
-- When driving a personal vehicle to a company-sponsored event (Category [1](#1-company-wide-travel), [4](#4-businesscustomer-travel)), the Company will reimburse based on current IRS standard mileage rate of $0.56 per mile for 2021. This reimbursement per mile incorporates not only the cost of the fuel, but also maintenance and wear and tear of the vehicle. Upon expense submission, please provide a calculation of miles driven to and from the event.
+- When driving a personal vehicle to a company-sponsored event (Category [1](#1-company-wide-travel), [4](#4-businesscustomer-travel)), the Company will reimburse based on current IRS standard mileage rate of $0.62 per mile for 2022. This reimbursement per mile incorporates not only the cost of the fuel, but also maintenance and wear and tear of the vehicle. Upon expense submission, please provide a calculation of miles driven to and from the event.
 - Ride-shares (Uber, Lyft, etc.) are encouraged whenever possible instead of renting a car.
   - If you’re in the US and would like to rent a car, we recommend checking with the following companies before booking your car rental elsewhere:
     - [Turo](https://turo.com/)
