@@ -14,7 +14,7 @@
 
 Batch Changes is a way to apply and track code changes to many repositories and codehosts. Batch Changes users develop a code rewrite script, and Batch Changes takes care of applying it on many repos, open changesets, and provide a tracking dashboard.
 
-A key step in this workflow today is that users run their batch change locally thanks to a local command line interface (`src-cli`). For large amounts of repositories or resource-intensive code rewrites, running `src-cli` locally could take an impractical amount of time or be brittle.
+A key step in this workflow today is that users run their batch change locally thanks to a local command line interface (`src-cli`). For large amounts of repositories or resource-intensive code rewrites, running `src-cli` locally could take an impractical amount of time and be brittle.
 
 ![](local-run.png)
 
@@ -37,7 +37,7 @@ This feature mostly benefits end users of Batch Changes.
   - Run large batch changes faster by distributing them across an autoscaled pool of compute instances.
   - For example, a complex Java refactor could take 15 min to run per repository. Running it on a 1000 repositories would take 250 hours, which is an unreasonable amount of time. Distributing that to 20 executors would result in a much more reasonable runtime of 12h30.
 - **Shorter iterations, better development experience**. Get a better debugging experience, with logs being streamed directly into Sourcegraph. Fire and forget: start your batch change run, do something else on your local machine, and get back to it later.
-- Trade-off a little more setup for the Sourcegraph admin, against less setup for users (no local `src-cli`). Many end users get errors due to their local docker setup, slowing them down and requiring their Sourcegraph admin or Developer Experience team to step in. Running batch changes server-side removes that failure mode.
+- **For admins:** Trade-off a little more setup for the Sourcegraph admin, against less setup for users (no local `src-cli`). Many end users get errors due to their local docker setup, slowing them down and requiring their Sourcegraph admin or Developer Experience team to step in. Running batch changes server-side removes that failure mode and let admins provide a better experience to their Sourcegraph users and lighten support load.
 
 ## What customers are most likely to benefit?
 
@@ -53,3 +53,6 @@ This is a free feature for all the customers of the Batch Changes add-on.
 - It is moving to Beta after we got positive feedback from a few early adopters during the `Experimental` phase.
 - Limitations are listed out in the [Running batch changes server-side](https://docs.sourcegraph.com/batch_changes/explanations/server_side#limitations) docs.
 - The main limitation to keep in mind is that we don't offer managed executors. Customers on managed instances can enable this feature, but they will need to self-host executors, and connect them to their manage instance.
+
+## FAQ
+
