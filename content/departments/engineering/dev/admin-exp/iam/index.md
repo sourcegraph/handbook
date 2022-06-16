@@ -58,9 +58,9 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 ## Partner Teams
 
-The IAM team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
+The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
-- [Cloud DevOps](../devops)
+- [DevOps](../devops)
 - [Integrations](../integrations)
 - [Growth](../growth-team)
 - [Security](../security) - Team ambassador: [Feroz Salam](../../../../../team/index.md#feroz-salam)
@@ -69,7 +69,7 @@ The IAM team works alongside several other teams within the Cloud organization a
 
 ### Weekly team updates
 
-Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
+Each Friday, we send weekly team updates to the rest of the Admin Experience org to keep the senior leadership and our partner teams in the loop about IAM team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
 
 ## How we work
 
@@ -225,9 +225,8 @@ TBD
 
 - [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM team for all day to day communication within the team.
 - [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
-- [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization.
-- [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
-- [#cloud-gtm](https://sourcegraph.slack.com/archives/C025T3B3NAH) - a place to discuss Sourcegraph Gloud go to market strategy, including pricing, packaging, customers, and more!
+- [#admin-exp-org](https://sourcegraph.slack.com/archives/C03JA8BAM7C) - public channel for all the members of Admin Experience organization.
+- [#admin-exp-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
 
 ## Product and technical documentation
 
@@ -310,4 +309,3 @@ If the answer is not available below, your buddy and the whole team will share t
 - [IAM Team GitHub Project](https://github.com/orgs/sourcegraph/projects/259)
 - [IAM Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 - [IAM Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
-- [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/219)
