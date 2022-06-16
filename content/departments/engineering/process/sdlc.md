@@ -23,7 +23,7 @@ The issue content contains the following sections:
 
 - Problem definition
 - Measure of success
-- Solution summar
+- Solution summary
 - What specific customers are we iterating on the problem with?
 - Impact on use cases
 - Delivery plan
