@@ -35,4 +35,4 @@ jobs:
 
             $baseRef = $github.base_ref
             git branch $BaseRef "origin/$BaseRef"
-            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number -Token $githubToken
+            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number -GitHubToken $githubToken
