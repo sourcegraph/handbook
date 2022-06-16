@@ -16,13 +16,13 @@ Batch Changes is a way to apply and track code changes to many repositories and 
 
 A key step in this workflow today is that users run their batch change locally thanks to a local command line interface (`src-cli`). For large amounts of repositories or resource-intensive code rewrites, running `src-cli` locally could take an impractical amount of time and be brittle.
 
-![](https://storage.googleapis.com/sourcegraph-assets/enablement-ssbc-beta/local-run.png)
+![](local-run.svg)
 
 For example, a complex Java refactor could take 15 min to run per repository. Running it on a 1000 repositories would take 250 hours, which is an unreasonable amount of time.
 
 [Running batch changes server-side (beta)](https://docs.sourcegraph.com/batch_changes/explanations/server_side) removes the need for running that CLI locally to create the batch changes. Instead, the batch change will be ran on one or multiple separate compute instance.
 
-![](https://storage.googleapis.com/sourcegraph-assets/enablement-ssbc-beta/server-side-run.png)
+![](server-side-run.svg)
 
 This feature requires to setup [executors](https://docs.sourcegraph.com/admin/executors), which Sourcegraph will use to offload expensive tasks. The best way to think about executors is that they're much like CI agents. Executors can also be used to run Code Intelligence [auto-indexing](https://docs.sourcegraph.com/code_intelligence/how-to/enable_auto_indexing) (experimental).
 
