@@ -55,4 +55,3 @@ This is a free feature for all the customers of the Batch Changes add-on.
 - The main limitation to keep in mind is that we don't offer managed executors. Customers on managed instances can enable this feature, but they will need to self-host executors, and connect them to their manage instance.
 
 ## FAQ
-
