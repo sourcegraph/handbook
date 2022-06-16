@@ -6,7 +6,7 @@
 - [Customer exceptions](customer-exceptions.md)
 - [Customer support triaging](customer-support-triaging.md)
 - [Engaging other teams](engaging-other-teams.md)
-- [How To Ticket Procedure](engineering-help.md)
+- [How To Ticket Procedure](how-to-tickets.md)
 - [Managing CS AWS](managing-cs-aws.md)
 - [Managing CS K8s](managing-cs-k8s.md)
 - [P4 Enablement](p4-enablement.md)
