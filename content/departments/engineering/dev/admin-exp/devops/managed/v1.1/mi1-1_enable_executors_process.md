@@ -99,3 +99,43 @@ Link Monitoring email notification channels we created from the terraform module
 ![create-budget-04](https://storage.googleapis.com/sourcegraph-assets/create-executor-budgets-04.png)
 
 ![create-budget-02](https://storage.googleapis.com/sourcegraph-assets/create-executor-budgets-02.png)
+
+## Troubleshooting
+
+Ensure instance groups are there
+
+```sh
+$ gcloud compute instance-groups list --zones=$zone --project=$PROJECT
+NAME                             LOCATION       SCOPE  NETWORK                MANAGED  INSTANCES
+batches--sourcegraph-executor    us-central1-a  zone   sourcegraph-executors  Yes      0
+codeintel--sourcegraph-executor  us-central1-a  zone   sourcegraph-executors  Yes      0
+```
+
+Ensure `minNumReplicas` is greater than `0`
+
+```sh
+$ gcloud compute instance-groups managed describe batches--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
+{
+  "minNumReplicas": 0,
+}
+```
+
+```sh
+$ gcloud compute instance-groups managed describe codeintel--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
+{
+  "minNumReplicas": 0,
+}
+```
+
+Ensure there is an active instance belong to one of the instance group (notes `batches--sourcegraph-executor-rqfs`)
+
+```sh
+$ gcloud compute instances list --project=$PROJECT
+NAME                                          ZONE           MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
+batches--sourcegraph-executor-rqfs            us-central1-a  c2-standard-8  true         10.0.1.58    35.222.34.224   RUNNING
+default-red-instance                          us-central1-a  n2-standard-8               10.2.0.3                     RUNNING
+sourcegraph-executors-docker-registry-mirror  us-central1-a  n1-standard-2               10.0.1.2     35.239.105.148  RUNNING
+```
+
+If above all check out, visit the [Compute Engine Console](https://console.cloud.google.com/compute/instances) and check logs of the executor instance for more troubleshooting.
+
