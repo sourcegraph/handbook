@@ -116,14 +116,14 @@ Ensure `minNumReplicas` is greater than `0`
 ```sh
 $ gcloud compute instance-groups managed describe batches--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
 {
-  "minNumReplicas": 0,
+  "minNumReplicas": 1,
 }
 ```
 
 ```sh
 $ gcloud compute instance-groups managed describe codeintel--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
 {
-  "minNumReplicas": 0,
+  "minNumReplicas": 1,
 }
 ```
 
