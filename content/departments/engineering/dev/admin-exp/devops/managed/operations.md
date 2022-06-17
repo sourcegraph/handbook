@@ -178,7 +178,6 @@ To increase the disk size:
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
 
-
 ### Capturing network traffic for analysis on the instance
 
 In some cases, you may need to capture network traffic for debugging issues on the instance. We use Wireshark and tcpdump to do this.
@@ -196,7 +195,6 @@ Next you need to `scp` this from the instance:
 ```
 
 Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
-
 
 ## Changing the instance
 
