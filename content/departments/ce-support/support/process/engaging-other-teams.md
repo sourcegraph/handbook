@@ -199,6 +199,10 @@ After you file the Github issue, alert the relevant engineering team you did so 
 - When posting for Search, use @search-core-support or @search-product-support ... depending which team within Search you need
 - Whenever we have more work than any one engineering team can handle via their support process, we prioritize issues holistically. We try to catch this before the engineering team has to alert us.
 
+### How To Questions
+
+For How-To procedure go [here](how-to-tickets.md)
+
 ### Defects
 
 If the issue is a defect, we trust our teammates in product and engineering to schedule the fix based on all other priorities they have to consider. The context you provide on urgency in the ticket is useful to them for this. If the customer requires a timeline update, we can talk with the relevant engineering team to get a sense. We never want to make promises, but we can share what we know and make sure the customer doesn't feel left in the dark or like no one cares about their issue.
