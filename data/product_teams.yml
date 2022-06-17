@@ -6,7 +6,7 @@ search_product:
   strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
   pm: ben_venker
   em: loïc_guychard
-  design: paulo_almedia
+  design: paulo_almeida
   pmm: lori_colston
   issue_labels:
     - team/search-product
