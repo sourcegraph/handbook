@@ -11,7 +11,6 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 - [Christina Forney](../../../../team/#sts=Christina%20Forney) Interim Director of Design
   - [Rob Rhyne](../../../../team/index.md#rob-rhyne) Code Graph Design Manager (he/him)
     - [Alicja Suska](../../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
-    - [Marisa Kanemoto](../../../../team/index.md#marisa-kanemoto) Product Designer, Search Product (she/her)
     - [Daniel Marques](../../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
     - [Paulo Almeida](../../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
   - [Christina Forney](../../../../team/#sts=Christina%20Forney) Interim Cloud Design Manager
