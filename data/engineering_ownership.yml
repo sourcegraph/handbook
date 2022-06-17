@@ -10,7 +10,7 @@ authn_authz:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 multi_tenancy:
@@ -37,7 +37,7 @@ gating_system_license_key_management:
   title: Gating system and license key management
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 rbac:
@@ -45,7 +45,7 @@ rbac:
   title: RBAC
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 audit_logs:
@@ -66,7 +66,7 @@ cloud_kms_encryption:
   type: Tech
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
 
 src_cli:
   category: Application Interface
@@ -156,7 +156,7 @@ admin_experience:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 terms_conditions:
@@ -633,7 +633,7 @@ subscription_management:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -648,7 +648,7 @@ usage_reporting_entitlements:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -658,7 +658,7 @@ payments_billing:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -668,7 +668,7 @@ on_prem_licensing:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 settings_page:
@@ -702,7 +702,7 @@ user_profile_settings:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Mature
 
@@ -732,7 +732,7 @@ user_notifications:
   type: Product
   product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
