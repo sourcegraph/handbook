@@ -52,7 +52,7 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ### Logs, logs, logs 🗃️
 
-A brand new logging package is now available in [`github.com/sourcegraph/sourcegraph/lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log). This library outputs a [OpenTelemetry-compliant log format](https://docs.sourcegraph.com/admin/observability/logs#opentelemetry) in JSON mode, paving the way towards enabling customers to more easily ingest and leverage logs, and also offers a performant, strongly-typed interface for providing log fields. The library also encodes a number of best practices:
+A brand new logging package is now available in [`github.com/sourcegraph/log`](https://sourcegraph.com/github.com/sourcegraph/log). This library outputs a [OpenTelemetry-compliant log format](https://docs.sourcegraph.com/admin/observability/logs#opentelemetry) in JSON mode, paving the way towards enabling customers to more easily ingest and leverage logs, and also offers a performant, strongly-typed interface for providing log fields. The library also encodes a number of best practices:
 
 1. No global loggers - it is no longer possible to instantiate a logger at compile time, and users should hold their own references to loggers, so that fields can be attached and log output can be more useful with additional context, and pass Logger instances to components as required.
 2. Loggers are attached to scopes - this helps orient log entries within a larger codebase. For example, when creating a GitHub V3 client for making a auth provider to make requests, one might use `log.Scoped("provider.github.v3", "provider github client")`.
