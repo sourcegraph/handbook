@@ -34,6 +34,12 @@ Because this raises the amount of errors being reported, we're experimenting wit
 Under the hood, it uses a new "log sinks" mechanism that can easily be extended to accomodate new backends in the future - you can learn more about it in the [package docs](https://pkg.go.dev/github.com/sourcegraph/log/internal/sinkcores/sentrycore)!
 As a byproduct, the codebase doesn't have anymore any explicit reference to Sentry, apart from the optional Sentry sink itself.
 
+### CLA bot automation
+
+The process of ensuring an external contributor has signed Sourcegraph's Contributor License Agreement (CLA) is now fully automated. Once a contributor has signed [the CLA form](https://docs.google.com/forms/d/e/1FAIpQLSfxy_9WJptKeTmTsrQ6C-5JeiVs4i1pUiahzgLZta1t6Nls-g/viewform), their provided GitHub handle will now automatically be synchronized to the list of approved users.
+
+You can learn more in the [`clabot-config` repository](https://github.com/sourcegraph/clabot-config) and the [accepting external contributions guide](https://docs.sourcegraph.com/dev/contributing/accepting_contribution).
+
 ### TODO
 
 TODO
