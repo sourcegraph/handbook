@@ -20,6 +20,7 @@ Operations guides for [managed instances](./index.md).
     - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
     - [Finding the external IPs](#finding-the-external-ips)
     - [Resizing Disks](#resizing-disks)
+    - [Capturing network traffic for analysis on the instance](#capturing-network-traffic-for-analysis-on-the-instance)
   - [Changing the instance](#changing-the-instance)
   - [Avaiability of the instance](#avaiability-of-the-instance)
     - [Uptime Checks](#uptime-checks)
@@ -176,6 +177,26 @@ To increase the disk size:
    ```
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
+
+
+### Capturing network traffic for analysis on the instance
+
+In some cases, you may need to capture network traffic for debugging issues on the instance. We use Wireshark and tcpdump to do this.
+First, find the service you are interested in, for example, to capture traffic to/from the `sourcegraph-frontend` service:
+
+```sh
+  sudo tcpdump -i any -s 65535 'port 3080' -w /tmp/sourcegraph-frontend.pcap
+```
+
+Next you need to `scp` this from the instance:
+
+```sh
+   # after eval $(mg workon)
+   gcloud compute scp root@default-$DEPLOYMENT-instance:/tmp/sourcegraph-frontend.pcap . # copy from instance
+```
+
+Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
+
 
 ## Changing the instance
 
