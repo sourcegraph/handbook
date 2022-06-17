@@ -11,8 +11,8 @@ For "how-to" tickets, you are not required to create a Request for help (RFH) in
 3. If you still don't have a solution after doing so, create a new post in #ask-engineering in slack. Again, make sure you start the post with "HTQ:" to make it more searchable.
 4. If you are not getting a response, raise this to leadership, and they will help move the request forward.
 5. Lastly, once a solution is provided and the ticket is closed,
-  1. include the Slack thread in your summary for future AER lookup
-  2. update relevant pages on [docs](https://docs.sourcegraph.com) for future customer questions
+6. include the Slack thread in your summary for future AER lookup
+7. update relevant pages on [docs](https://docs.sourcegraph.com) for future customer questions
 
 ### All Other Tickets
 
