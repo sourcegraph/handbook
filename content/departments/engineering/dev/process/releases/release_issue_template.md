@@ -66,7 +66,11 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post in #cloud-devops channel asking for release candidate to be deployed to a test managed instance
+- [ ] Post the following message to the #cloud-devops channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
+
+  ```
+  Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.1) to be deployed to a test managed instance. Could someone help here? :ty:
+  ```
 
 ## Release Day ($RELEASE_DATE)
 
@@ -76,15 +80,13 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 
 On the day of the release, confirm there are no more release-blocking issues (as reported by the `release:status` command), then proceed with creating the final release:
 
-- [ ] Verify the [CHANGELOG](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) on `main` and `$MAJOR.$MINOR` are accurate.
+- [ ] Make sure [CHANGELOG entries](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
 - [ ] Tag the final release:
   ```sh
   yarn release release:create-candidate final
   ```
 - [ ] Ensure that the following pipelines all pass for the `v$MAJOR.$MINOR.$PATCH` tag:
-
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH)
-
 - [ ] Wait for the `v$MAJOR.$MINOR.$PATCH` release Docker images to be available in [Docker Hub](https://hub.docker.com/r/sourcegraph/server/tags)
 - [ ] Open PRs that publish the new release and address any action items required to finalize draft PRs (track PR status via the [generated release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes)):
   ```sh
@@ -94,12 +96,12 @@ On the day of the release, confirm there are no more release-blocking issues (as
 ### Finalize release
 
 - [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously.
+  - For [sourcegraph](https://github.com/sourcegraph/sourcegraph)
+    - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
-    - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph/releases) has the correct tag
-- [ ] For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
-  - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
-- For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
-  - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
+    - [ ] Ensure the [release tag `v$MAJOR.$MINOR.$PATCH`](https://github.com/sourcegraph/deploy-sourcegraph/tags) has been created
+  - For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
+    - [ ] Ensure the [release tag `v$MAJOR.$MINOR.$PATCH`](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags) has been created
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
@@ -108,8 +110,12 @@ On the day of the release, confirm there are no more release-blocking issues (as
 
 ### Post-release
 
-- [ ] Notify the next [release captain](./index.md#release-captain) that they are on duty for the next release.
+- [ ] Notify the next release captain that they are on duty for the next release.
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the next release.
+  - [ ] Change `upcomingRelease` to the current patch release
+  - [ ] Change `previousRelease` to the previous patch release version
+  - [ ] Change `releaseDate` to the current date (time is optional) along with `oneWorkingDayAfterRelease` and `threeWorkingDaysBeforeRelease`
+  - [ ] Change `captainSlackUsername` and `captainGitHubUsername` accordingly
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:
   ```sh
