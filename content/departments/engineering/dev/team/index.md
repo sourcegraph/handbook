@@ -1,14 +1,5 @@
 # Engineering org
 
-## Current organization
-
-{{generator:reporting_structure.vp_engineering}}
-
-Helpful links:
-
-- [VP Eng team docs](../vpe/index.md)
-- [Engineering team and hiring plan](https://docs.google.com/spreadsheets/d/1CIQYQDN2KFyHMmPEx3FqubapyXyapFp0B_DoDJtWvm8/edit#gid=0) (internal doc)
-
 ## Philosophy
 
 Our engineering organization is divided into mission based teams that contain the necessary cross-functional skillsets to achieve the desired mission. The leader of each team (at every layer) is responsible for ensuring appropriate cross-team collaboration happens when necessary.

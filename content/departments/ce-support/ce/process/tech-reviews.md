@@ -39,3 +39,11 @@ Where an existing customer runs into an issue, Support leads and guides the cust
   - When does the customer need a decision or commitment by, and why (context as to what the timeline impacts)?
   - Is this misalignment based on a new or existing customer requirement - i.e., what prevented us from catching this during technical qualification?
   - What are the customers’ expectations; what happens if we don’t meet this request?
+
+## Decision Making Process
+
+Once a Tech Review has been submitted, the following process will be used to approve/deny requests.
+
+- CE Director will make a yes/no recommendation on the request based on feedback from the account team and ProdEng stakeholders.
+- If we are going to say “no” to a request, we’ll document the reasoning and send to CE VP, VP ProdEng and Sales VP for final decision.
+- If we are going to say “yes”, we will work with CE to craft messaging with the customer to establish they are operating outside of our normal guidelines and the impact of that, etc.

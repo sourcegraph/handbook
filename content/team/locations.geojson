@@ -1399,6 +1399,19 @@
               38.947710
             ]
          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "Miles Patton"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              46.056946, 
+              14.505752
+            ]
+         }
       }
    ]
 }

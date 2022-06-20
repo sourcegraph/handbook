@@ -8,6 +8,10 @@ We do not limit our internships to just students - we welcome all qualified appl
 
 ## Information for Candidates
 
+### Why Apply?
+
+As a Sourcegraph intern, you will take initiative on hands-on, impactful projects, work alongside world class talent, and offer unique perspectives and ideas that directly influence Sourcegraph’s products and services. We give all of our interns exceptional support and high agency to drive their career forward in the field of recruiting, engineering, sales, design, and more. In addition to providing real-world work experience, we hold socials, speaker events, and career workshops to promote networking, growth, and professional skill development and set our cohort up for their future careers. Click [here](index.md#internship-events) to see the 2022 cohort internship events.
+
 ### Open Positions
 
 We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
@@ -30,9 +34,9 @@ Payroll
 
 - Our interns use [Rippling](https://www.rippling.com/) to track and report their daily and weekly hours for payroll. Our Tech Ops team will help each intern get set up and trained on Rippling during the first week of the internship program.
 
-- COMING SOON - training for logging hours in Rippling
-
 - Interns will clock in when they begin their shifts, log their breaks, and clock out at the end of their work day on a daily basis. Time entries can be edited prior to submitting them if a mistake has been made.
+
+- [Payroll FAQ](../internship/index.md#payroll-faqs)
 
 #### Perks
 
@@ -89,6 +93,10 @@ The process for referring an intern is the same process as referring a full time
 ### My intern request was approved, now what?
 
 If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
+
+### How to get involved in the internship as a teammate
+
+If you are not directly managing an intern but still want to be involved in the program, there are opportunities to lead or host your own internship events. Our internship events include a mix of social and team building activities, Q&As with our executive team members, and professional workshops. If you have a skill you are interested in teaching, have educational knoweldge that interns may benefit from learning, want to host one of the virtual Q&As with an executive team member, or want to offer a shadowing session for your own role, you can reach out to Kemper directly via Slack. Kemper will survey the interns during their first week to gauge interest and then reach out directly to you to plan and schedule the event throughout the summer.
 
 **For more detail about the internship recruiting and offer process, click [here](internship-recruiting-and-offers.md).**
 
@@ -150,12 +158,43 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 2022-06-08 LinkedIn Workshop
 - 2022-06-14 Yoga/Meditation
 - 2022-06-15 Q&A - Dan Adler
-- 2022-06-22 Q&A - Christina/Nick
 - 2022-07-05 Cohort Meeting
 - 2022-07-06 Interviewing Workshop
 - 2022-07-13 Q&A - Connor O'Brien
 - 2022-07-14 Virtual Escape Room
+- 2022-07-19 Q&A - Christina/Nick
 - 2022-07-26 Cohort Meeting
 - 2022-07-20 Optional Q&A - Ben Horowitz
 - 2022-07-27 Exec Q&A - Gregg/Aimee
 - 2022-08-03 Virtual Cooking Class
+
+### Payroll FAQs
+
+- Q: Is there any way to retroactively update/add working hours for previous days?
+
+  - A: Yes, you can manually update your hours through submitting change requests or going to “My Time” and changing your hours worked directly.
+
+- Q: Am I allowed to work any hours on Saturday or Sunday?
+
+  - A: Yes as long as you don't go over 40 hours per week and 8 hrs per day.
+
+- Q: Does our Process St. onboarding count as working hours that we can clock in for?
+
+  - A: Absolutely!
+
+- Q: Is it correct to think that most of the time we'll be logging 40 hour work weeks in Rippling?
+
+  - A: Yes, we anticipate a consistent 40 hours/week report unless your manager is aware you'll be working _less than_ 40 hours in a certain week and/or unless you have _overtime_ approved by your manager ahead of time.
+
+- Q: How do interns submit expenses for reimbursement?
+
+  - A:
+    - International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](../../../../benefits-pay-perks/pay-expenses/invoices.md) is a link to a template.
+    - US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
+
+- Q: Do I clock hours into Rippling on PTO?
+  - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”
+
+General FYI: **Sourcegraph is not able to give tax-related guidance.**
+
+If you need any additional help with Rippling, [this link](https://help.rippling.com/s/article/1500002980442) may be helpful!

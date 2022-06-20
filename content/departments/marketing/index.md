@@ -10,7 +10,6 @@
   - [Platform positioning](process/positioning.md)
   - [What is Sourcegraph?](process/messaging.md#sourcegraph-value-proposition)
   - [What problems does Sourcegraph solve?](process/messaging.md#what-problems-does-sourcegraph-solve)
-  - [Batch Changes positioning](product-marketing/batch_changes_positioning.md)
   - [Value drivers](process/value-drivers.md)
 - [Product marketing](product-marketing/index.md)
   - [Marketing launch tiers](product-marketing/marketing_launch_tiers.md)
@@ -25,6 +24,7 @@
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
+  - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
 - [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
 
 ## Members

@@ -4,6 +4,8 @@
 
 We use Slack for team chat and real-time announcements. While Slack isn’t a source of truth, it is an important internal communication tool that helps us stay connected in real-time. All teammates are encouraged to join the following company-wide channels to stay informed on news happening across the company. Read on for best practices, channels to join, and processes we follow as a company.
 
+Visit the [Tools we use](../working-at-sourcegraph/teammate-development/training/index.md) handbook page for resources on how to use Slack.
+
 ### Company-Wide Channels
 
 _All teammates should join these channels and check them regularly_

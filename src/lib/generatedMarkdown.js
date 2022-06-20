@@ -38,6 +38,7 @@ export async function generateFeatureMaturityLevels() {
   for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
     let featureCount = 0
     let areaContent = `\n### ${String(productTeam.title)}\n`
+    let notes = ''
     if (productOrgs[productTeam.product_org].strategy_link) {
       areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
         productOrgs[productTeam.product_org].strategy_link
@@ -56,7 +57,6 @@ export async function generateFeatureMaturityLevels() {
 
     areaContent += '\n|Feature|Maturity|\n'
     areaContent += '|-------|--------|\n'
-
     for (const feature of Object.values(features)) {
       if (feature.product_team === productTeamName) {
         featureCount++
@@ -66,7 +66,13 @@ export async function generateFeatureMaturityLevels() {
           areaContent += `|${String(feature.title)}`
         }
         areaContent += `|${String(maturityLevels[feature.maturity].title)}|\n`
+        if (feature.note) {
+          notes += `- ${String(feature.note)} \n `
+        }
       }
+    }
+    if (notes) {
+      areaContent += `\n Notes: \n ${notes}`
     }
     if (featureCount > 0) {
       pageContent += areaContent

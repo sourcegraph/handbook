@@ -1,6 +1,6 @@
 # Educational Resources Library
 
-The Education Resources Library is a collection of resources, books, courses and videos that is curated by [Engineering Education](../../../../strategy-goals/strategy/enablement/engineering-education/index.md) at Sourcegraph and contributors.
+The Education Resources Library is a collection of resources, books, courses and videos by team mates at Sourcegraph.
 
 The goal is to provide resources for learning and development in line with Sourcegraph company value of continuous growth.
 
@@ -37,6 +37,8 @@ These are books relevant to engineers and engineering managers and have been rec
 <img src="https://images-na.ssl-images-amazon.com/images/I/51o+gQtCIiL._SX258_BO1,204,203,200_.jpg" style="max-width: 120px"/>
 
 [A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/en/book/show/39996759-a-philosophy-of-software-design)
+
+This book focuses on complexity in the code, covering it from a high level perspective so its teachings are applicable regardlessly of which technology the reader is working with. What makes it really interesting is that the author is providing very concrete examples to illustrate his claims and thoroughly describes his reasonings. It gives the reader the tools to think about complexity on their own so they can make their own decisions instead of following a list of good and bad practices.
 
 ## Go programming language
 

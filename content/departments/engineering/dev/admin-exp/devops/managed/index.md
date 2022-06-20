@@ -9,12 +9,13 @@ For operation guides (e.g. upgrade process), please see [managed instances opera
 - [Technical details](#technical-details)
   - [Deployment type and scaling](#deployment-type-and-scaling)
   - [Environments](#environments)
+  - [Release process](#release-process)
   - [Known limitations of managed instances](#known-limitations-of-managed-instances)
   - [Security](#security)
   - [Monitoring and alerting](#monitoring-and-alerting)
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
-- [Requesting a managed instance](#requesting-a-managed-instance)
+- [Requesting a managed instance](#workflow)
 - [SLAs for managed instances](#slas-for-managed-instances)
 - [Operations for managed instances](#operations)
 - [FAQ](#faq)
@@ -23,11 +24,9 @@ For operation guides (e.g. upgrade process), please see [managed instances opera
 
 Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
 
-As of 2022-03-10, managed instance is not the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
-
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message #cloud-devops for any answers or information missing from this page.
+Please message #cloud for any answers or information missing from this page.
 
 When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
 
@@ -48,11 +47,16 @@ Customer Engineers (CE) or Sales may request to:
 
 ### Workflow
 
-1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
-2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
+1.  CE seeks Managed Instance approval from their regional CE Manager
+2.  The Regional CE Manager will review the following criteria:
+    - Overall, is the deal qualified?
+    - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
+    - If anything is non-standard, it must pass the tech review process
+3.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
     - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
     - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
-3.  Message the team in #cloud-devops.
+4.  Message the team in #cloud-devops.
+5.  If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
 ## SLAs for managed instances
 
@@ -81,7 +85,7 @@ Incidents which affect managed instances handled according to our [incidents](..
 
 Managed instances are Docker Compose deployments only today. We do not currently offer Kubernetes managed instances.
 
-These managed Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU / 360 GB memory which is typically enough for most medium to large enterprises.
+These managed Docker Compose deployments can scale up to the largest GCP instance type available, n2-standard-128 with 128 CPU / 512 GB memory which is typically enough for most medium to large enterprises.
 
 We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
 
@@ -89,24 +93,51 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 <span class="badge badge-note">SOC2/CI-100</span>
 
-### Internal instances
+#### Internal instances
 
-For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
+For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
 
 - for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
 
 Internal instances are created for various testing purposes:
 
-- testing changes prior to the monthly upgrade on customer instances, e.g <https://devmanaged.sourcegraph.com>
+- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, DevOps team will follow [managed instances upgrade tracker](../../../process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
 
-### Customer instances
+#### Customer instances
 
 All customer instances are considered part of the production environment and all changes applied to these customers should be well-tested in the test environment.
 
 Upgrade process to new Sourcegraph version is also preceded with upgrading test instances - [upgrade to v3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
+
+### Release process
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+Sourcegraph upgrades every test and customer instances according to [SLA](#slas-for-managed-instances).
+
+The release process is performed in steps:
+
+1. New version is released via [release guild](../../../process/releases/release_guild.md)
+1. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../../process/releases/upgrade_managed_issue_template.md)
+1. Github issue is labeled with `team/devops` and Devops Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
+1. DevOps team performs upgrade of all instances in given order:
+
+- for Instances with version [v1.0](./upgrade_process.md)
+  1. Test instances are upgraded - [dev](https://devmanaged.sourcegraph.com/) and [demo](https://demo.sourcegraph.com/)
+  1. [Uptime checks](./upgrade_process.md#8-confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. When test instances are working correctly, DevOps Team performs upgrade of all v1.0 customer instances
+- for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
+  1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
+  1. [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. When test instance is working correctly, DevOps Team performs upgrade of all v1.1 customer instances
+
+Sample upgrade:
+
+- [tracking issue - 3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
+- Github Pull Requests for [3.40.1 upgrade](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls?q=is%3Apr+is%3Aclosed++upgrade+v3.40.1)
 
 ### Known limitations of managed instances
 
