@@ -2,7 +2,7 @@
 
 ## Quicklinks
 
-- Enablement session recording (TODO)
+- [Enablement session recording](https://sourcegraph.zoom.us/rec/share/09fYEk1hCuhIbVDV2JC2RekqS8uR44y1BrN29lOOp89rlpjQoRlvWI4xgV-SNQys.ZBk8NYM-ZsU6rKDs)
 - Demo video
 - [Release post](https://github.com/sourcegraph/about/pull/5471)
 
