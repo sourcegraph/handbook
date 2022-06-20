@@ -938,9 +938,9 @@ rafal_leszczynski:
   links: '[LinkedIn](https://www.linkedin.com/in/rleszcz/)'
   description: Raf lives with his family outside of Poznan (Poland), surrounded by forests, boars, deers, and other wildlife.
 
-rafal_leszczynski_iam:
-  name: Rafal Leszczynski (interim)
-  role: Engineering Manager, Identity and Access Management (interim)
+jordan_plahn_iam:
+  name: Jordan Plahn
+  role: Engineering Manager
   reports_to: director_engineering_adminexp
   manager_role_slug: engineering_manager_iam_and_admin_exp
   hide_on_team_page: true
