@@ -15,7 +15,7 @@ For operation guides (e.g. upgrade process), please see [managed instances opera
   - [Monitoring and alerting](#monitoring-and-alerting)
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
-- [Requesting a managed instance](#requesting-a-managed-instance)
+- [Requesting a managed instance](#workflow)
 - [SLAs for managed instances](#slas-for-managed-instances)
 - [Operations for managed instances](#operations)
 - [FAQ](#faq)
