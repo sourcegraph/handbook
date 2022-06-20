@@ -8,7 +8,7 @@ This is the central page for product-centric, go-to-market resources.
 
 ## Batch Changes
 
-[Batch Changes go-to-market resources](../../engineering/dev/code-graph/batch-changes/go_to_market.md)
+[Batch Changes go-to-market resources](../../engineering/dev/code-graph/batch-changes/go-to-market/index.md)
 
 ## Notebooks
 
