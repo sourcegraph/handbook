@@ -1,4 +1,4 @@
-# Batch Changes messaging and positioning
+# Batch Changes go-to-market hub
 
 ## Overview
 
@@ -35,7 +35,7 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Playbook 1
 
-- **Use case**: [Code health](../../../strategy-goals/strategy/use-cases/code-health.md)
+- **Use case**: [Code health](../../../../../../strategy-goals/strategy/use-cases/code-health.md)
 - **User persona**: a platform team that is responsible for a framework or platform. Sample teams: Java platform team, client platform team, frontend platform team.
 - **Painpoint**: When shipping new internal library versions with breaking changes, getting other teams to upgrade takes a lot of time and effort.
 - **Product use case**: When updating boilerplate code, internal libraries, or frameworks across a company, use Batch Changes to rollout the upgrade to all consumer repositories.
@@ -44,7 +44,7 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Playbook 2
 
-- **Use case**: [Code reuse](../../../strategy-goals/strategy/use-cases/code-reuse.md) or [Incident response](../../../strategy-goals/strategy/use-cases/incident-response.md)
+- **Use case**: [Code reuse](../../../../../../strategy-goals/strategy/use-cases/code-reuse.md) or [Incident response](../../../../../../strategy-goals/strategy/use-cases/incident-response.md)
 - **User persona**: an infrastructure team, sometimes also responsible for developer experience
 - **Painpoint**: Infrastructure or configuration files have a lot of repetitive / boilerplate code that is very time-consuming to change.
 - **Product use case**: ship updates to configuration across many repositories.
@@ -53,7 +53,7 @@ There are many ways to get value out of Batch Changes, but here are the two appr
 
 ### Other product use cases
 
-- **[Code security](../../../strategy-goals/strategy/use-cases/code-security.md)** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
+- **[Code security](../../../../../../strategy-goals/strategy/use-cases/code-security.md)** When problems occur with critical security updates, every hour that goes by increases risk. Batch Changes enables you to find any place where vulnerabilities exist and then refactor code to replace insecure functions, update vulnerable packages, or modify container configurations across hundreds of repositories.
 - **Refactoring:** Use language-aware tooling of your choice to perform complex refactors like updating an API and its function calls or replacing libraries entirely.
 
 Here is a list of detailed [usage examples](https://github.com/sourcegraph/batch-changes-use-cases) (private).
@@ -75,11 +75,12 @@ If the developer does not know, default to:
 
 ## Resources
 
-- [Batch Changes strategy page](../../../strategy-goals/strategy/code-graph/batch-changes)
+- [Batch Changes strategy page](../../../../../engineering/dev/code-graph/batch-changes/go-to-market/index.md)
 - [Docs](https://docs.sourcegraph.com/batch_changes)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Blog post](https://about.sourcegraph.com/blog/introducing-batch-changes/)
 - (private) AE training [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing) [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
+- [Running batch changes server-side (Beta)](server-side/index.md)
 
 ### Interview guides
 
