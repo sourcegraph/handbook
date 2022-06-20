@@ -63,12 +63,13 @@ If you have any questions, please reach out to the #swag channel.
 
 ### Who to reach out to
 
-When you’re ready to begin an order, please fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform?usp=sf_link) to provide the following information: 
-- What is the occasion you’re ordering swag for? 
+When you’re ready to begin an order, please fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform?usp=sf_link) to provide the following information:
+
+- What is the occasion you’re ordering swag for?
 - What type of swag do you want to order (ex: hats, backpacks, etc.)
 - When do you need the swag in-hand? (We recommend starting the ordering process at least 6-8 prior to the delivery date)
 - What quantity will you need?
-- What countries will you need the swag shipped to? 
+- What countries will you need the swag shipped to?
 - Have you confirmed your team has the budget for this order?
 
 Once you’ve completed the google form, someone from the People team will connect you via email with our custom swag vendor, [Telescope](https://www.telescopestudio.com/), who will facilitate the ordering process.
