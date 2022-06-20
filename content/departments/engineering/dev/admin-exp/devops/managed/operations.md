@@ -209,16 +209,17 @@ We are aligned with the [company-wide testing philosophy](https://docs.sourcegra
 
 ## Availability of the instance
 
+### Uptime Checks
+
 <span class="badge badge-note">SOC2/CI-87</span>
-<span class="badge badge-note">SOC2/CI-25</span>
 
 We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
-
-### Uptime Checks
 
 We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
 ### Performance Checks
+
+<span class="badge badge-note">SOC2/CI-25</span>
 
 We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critical metrics that are representation on the overall system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to investigate and ensure we reach to a resolution.
 
