@@ -54,18 +54,18 @@ This is a free feature for all the customers of the Batch Changes add-on.
 - Limitations are listed out in the [Running batch changes server-side](https://docs.sourcegraph.com/batch_changes/explanations/server_side#limitations) docs.
 - The main limitation to keep in mind is that we don't offer managed executors. Customers on managed instances can enable this feature, but they will need to self-host executors, and connect them to their manage instance.
 
-# FAQ
+## FAQ
 
-### Are there customers currently running batch changes server-side?
+#### Are there customers currently running batch changes server-side?
 
 Yes. You can track this [here](https://github.com/orgs/sourcegraph/projects/232)
 
-### Running batch changes server-side on managed instances requires customers to self-host executors. How much work is that?
+#### Running batch changes server-side on managed instances requires customers to self-host executors. How much work is that?
 
 Self-hosting executors requires customers to provision executors using Terraform modules (on AWS/GCP) and upgrade them monthly at each Sourcegraph release. While this is relatively automated, it still requires a commitment from the site-admin.
 In the current state, we should only offer this feature to self-hosted customers, and to managed instances customers with a clear need to run batch changes at a large scale.
 
-### Will Sourcegraph provide managed executors for managed instances customers at some point?
+#### Will Sourcegraph provide managed executors for managed instances customers at some point?
 
 Yes, this is on our long term roadmap.
 
