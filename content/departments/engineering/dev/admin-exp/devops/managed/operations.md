@@ -12,6 +12,7 @@ Operations guides for [managed instances](./index.md).
 
 - [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
+  - [Create new golden file](#create-new-golden-file)
   - [Accessing the instance](#accessing-the-instance)
     - [SSH access](#ssh-access)
       - [Accessing the Docker containers](#accessing-the-docker-containers)
@@ -47,6 +48,36 @@ default-red-instance  us-central1-f  n1-standard-8               10.2.0.2       
 ```
 
 The `NAME` value indicates the currently active instance (`red` or `black`). During an upgrade, both `default-red-instance` and `default-black-instance` will be present. One being production, the other being the "new" upgraded production instance. When the upgrade is complete, the old one is turned off (red/black swap). Learn more about [managed instances upgrades here](upgrade_process.md).
+
+## Create new golden file
+
+Base deployment files for docker-compose deployments are located in [golden directory](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/golden)
+
+### Add new release candidate file
+
+As release candidates are not published as part of [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags), these steps are required in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository:
+
+- copy latest version to new golden file:
+
+```sh
+cp golden/docker-compose.<OLD_VERSION>.yaml golden/docker-compose.<MAJOR.MINOR.PATCH>-rc.<VERSION>.yaml
+```
+
+- update image tags to latest version
+
+```sh
+go run ./util/enforce-tags.go <MAJOR.MINOR.PATCH>-rc.<VERSION> golden/docker-compose.<MAJOR.MINOR.PATCH>-rc.<VERSION>.yaml
+```
+
+- open a PR to commit the file
+
+### Add new release file
+
+Download the file and open a PR to commit the file in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository
+
+```
+curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml
+```
 
 ## Accessing the instance
 
