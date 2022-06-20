@@ -16,7 +16,7 @@ Batch Changes is a way to apply and track code changes to many repositories and 
 
 A key step in this workflow today is that users run their batch change locally thanks to a local command line interface (`src-cli`). For large amounts of repositories or resource-intensive code rewrites, running `src-cli` locally could take an impractical amount of time and be brittle.
 
-![](local-run.svg)
+<object data="local-run.svg"></object>
 
 For example, a complex Java refactor could take 15 min to run per repository. Running it on a 1000 repositories would take 250 hours, which is an unreasonable amount of time.
 
