@@ -70,7 +70,7 @@ We are looking to add one [experienced full-stack engineer](https://boards.green
   - [CE onboarding](ce-onboarding.md)
 - As a sales team member
   - (private) AE training: [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing), [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
-  - [Batch Changes positioning](../../../../marketing/product-marketing/batch_changes_positioning.md)
+  - [Batch Changes positioning](go-to-market/index.md)
 
 ## Sourcegraphers using Batch Changes
 
