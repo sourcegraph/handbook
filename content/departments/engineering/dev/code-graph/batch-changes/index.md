@@ -89,7 +89,7 @@ This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either
 - [User-facing documentation](https://docs.sourcegraph.com/batch_changes)
 - [Developer documentation](https://docs.sourcegraph.com/dev/background-information/batch_changes)
 - [Batch Changes Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)
-- [Batch Changes Product Marketing Brief](https://docs.google.com/document/d/1yQpCKF50gx8_T-KDnU4s9TjW6fZpMUfWLF2h4xSM8jk)
+- [Batch Changes go-to-market resources](go-to-market/index.md)
 
 ## Attribution
 
