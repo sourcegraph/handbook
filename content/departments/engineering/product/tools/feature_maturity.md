@@ -8,7 +8,7 @@ hide_sidebar: true
 
 This page is intended as a reference of features by maturity level; each item will link you to our documentation,
 and you can also see what level of maturity each feature is currently at.
-You may also be interested in seeing our [feature compatibility](feature_compatibility.md) matrix.
+You may also be interested in seeing our [feature compatibility](feature_compatibility.md) matrix and [availability by deployment options](deployment_options.md).
 
 ## Maturity definitions
 
