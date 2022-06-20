@@ -10,7 +10,6 @@
   - [Platform positioning](process/positioning.md)
   - [What is Sourcegraph?](process/messaging.md#sourcegraph-value-proposition)
   - [What problems does Sourcegraph solve?](process/messaging.md#what-problems-does-sourcegraph-solve)
-  - [Batch Changes positioning](product-marketing/batch_changes_positioning.md)
   - [Value drivers](process/value-drivers.md)
 - [Product marketing](product-marketing/index.md)
   - [Marketing launch tiers](product-marketing/marketing_launch_tiers.md)
