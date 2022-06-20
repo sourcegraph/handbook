@@ -1,4 +1,4 @@
-# Batch Changes messaging and positioning
+# Batch Changes go-to-market hub
 
 ## Overview
 
@@ -80,6 +80,7 @@ If the developer does not know, default to:
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Blog post](https://about.sourcegraph.com/blog/introducing-batch-changes/)
 - (private) AE training [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing) [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
+- [Running batch changes server-side (Beta)](server-side/index.md)
 
 ### Interview guides
 
