@@ -22,7 +22,7 @@ Operations guides for [managed instances](./index.md).
     - [Resizing Disks](#resizing-disks)
     - [Capturing network traffic for analysis on the instance](#capturing-network-traffic-for-analysis-on-the-instance)
   - [Changing the instance](#changing-the-instance)
-  - [Avaiability of the instance](#avaiability-of-the-instance)
+  - [Availability of the instance](#availability-of-the-instance)
     - [Uptime Checks](#uptime-checks)
     - [Performance Checks](#performance-checks)
   - [Confirm instance health](#confirm-instance-health)
@@ -207,7 +207,7 @@ The state of managed instances infrastructure and deployment artifact are stored
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
 
-## Avaiability of the instance
+## Availability of the instance
 
 <span class="badge badge-note">SOC2/CI-87</span>
 <span class="badge badge-note">SOC2/CI-25</span>
