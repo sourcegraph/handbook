@@ -29,4 +29,4 @@ Opsgenie alerts on Cloud are configured in the following way:
 
 Alerts can be sent to specific slack channels using the [Opsgenie slack integration](https://sourcegraph.app.opsgenie.com/settings/slack).
 
-[Slackgenie](https://handbook.sourcegraph.com/departments/engineering/dev/tools/slackgenie) is used to update a slack user group with members of a support rotation - e.g., updating the delivery-support slack handle so that notifications go directly to the on-call user.
+[Slackgenie](../../tools/slackgenie.md) is used to update a slack user group with members of a support rotation - e.g., updating the delivery-support slack handle so that notifications go directly to the on-call user.
