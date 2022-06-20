@@ -1646,17 +1646,6 @@ kemper_hamilton:
   links: '[LinkedIn](https://www.linkedin.com/in/kemperhamilton/)'
   description: Kemper has been an Austinite for ten years and is about to begin a 6 month digital nomad adventure. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, operations, and recruitment.
 
-marisa_kanemoto:
-  name: Marisa Kanemoto
-  reports_to: design_manager_code_graph
-  pronouns: she/her
-  role: Product Designer, Search
-  location: Berkeley, California, United States 🇺🇸
-  github: marisak
-  email: marisa.kanemoto@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/marisa-kanemoto/), [Website](https://marisa-design.com)'
-  description: "Marisa grew up in the Bay Area and happily resides in Berkeley with her partner. She's enthusiastic about reading sci-fi and fantasy novels, and helps to moderate an online figure drawing community. Marisa is eagerly awaiting a Bay Area WNBA team."
-
 bob_roudebush:
   name: Bob Roudebush
   pronouns: he/him
@@ -1823,7 +1812,7 @@ carter_jaenichen:
 amber_smokowski:
   name: Amber Smokowski
   role: Executive Business Partner, Sales and Marketing
-  reports_to: vp_sales
+  reports_to: ebp_lead
   location: From Longmont, CO, USA currently in Austin, TX, USA
   github: ambersmo
   email: amber.smokowski@sourcegraph.com

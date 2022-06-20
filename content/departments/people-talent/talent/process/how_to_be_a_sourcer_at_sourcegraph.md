@@ -16,7 +16,7 @@
   - Sourcers will review the team page in the Handbook and familiarize themselves with the team.
   - Sourcers will review the job description (if completed).
 - After the intake call:
-  - Sourcers will create a LinkedIn Recruiter project and include the Hiring Manager, Recruiter, and any teammates included in the interview plan, and will find 10 relevant candidates.
+  - Sourcer or Recruiter will create a LinkedIn Recruiter project and include the Hiring Manager, Recruiter, relevant Director of the department and any teammates included in the interview plan, and will find 10 relevant candidates.
   - Sourcers will send LinkedIn profiles to the Hiring Manager and Recruiter for review. Once the Hiring Manager adds comments, Sourcer will use the feedback to source more appropriate candidates.
   - Sourcers will continue to add LinkedIn profiles to the project and start an outreach campaign following our Sourcing Outreach Best Practices.
   - Sourcers will read scorecards in Greenhouse to identify more relevant candidates.
