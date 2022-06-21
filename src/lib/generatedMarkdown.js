@@ -38,6 +38,7 @@ export async function generateFeatureMaturityLevels() {
   for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
     let featureCount = 0
     let areaContent = `\n### ${String(productTeam.title)}\n`
+    let notes = ''
     if (productOrgs[productTeam.product_org].strategy_link) {
       areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
         productOrgs[productTeam.product_org].strategy_link
@@ -47,13 +48,15 @@ export async function generateFeatureMaturityLevels() {
       areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
     if (productTeam.pm) {
+      if (!teamMembers[productTeam.pm]) {
+        throw new Error(`no team member: ${String(productTeam.pm)}`)
+      }
       const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
 
     areaContent += '\n|Feature|Maturity|\n'
     areaContent += '|-------|--------|\n'
-
     for (const feature of Object.values(features)) {
       if (feature.product_team === productTeamName) {
         featureCount++
@@ -63,7 +66,13 @@ export async function generateFeatureMaturityLevels() {
           areaContent += `|${String(feature.title)}`
         }
         areaContent += `|${String(maturityLevels[feature.maturity].title)}|\n`
+        if (feature.note) {
+          notes += `- ${String(feature.note)} \n `
+        }
       }
+    }
+    if (notes) {
+      areaContent += `\n Notes: \n ${notes}`
     }
     if (featureCount > 0) {
       pageContent += areaContent
@@ -189,6 +198,9 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
+    if (teamMember.hide_on_team_page) {
+      continue
+    }
     pageContent += `\n### ${String(teamMember.name)}\n`
     if (teamMember.role) {
       pageContent += `${String(teamMember.role)}`
@@ -232,6 +244,9 @@ export async function generateProductTeamsList() {
       pageContent += `- [Strategy Page](${String(productOrg.strategy_link)})\n`
     }
     if (productOrg.strategy_link) {
+      if (!teamMembers[productOrg.pm]) {
+        throw new Error(`no team member: ${String(productOrg.pm)}`)
+      }
       const bioLinkPM = createBioLink(teamMembers[productOrg.pm].name)
       const bioLinkEM = createBioLink(teamMembers[productOrg.em].name)
       pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLinkPM)})\n`
@@ -547,6 +562,17 @@ export async function generateGuildRoster(guildReference) {
     const name = teamMembers[memberReference].name
     pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
   }
+  if (guild.leadership_sponsors) {
+    pageContent += '### Leadership Sponsor'
+    if (guild.leadership_sponsors.length > 1) {
+      pageContent += 's'
+    }
+    pageContent += '\n'
 
+    for (const reference of guild.leadership_sponsors) {
+      const name = teamMembers[reference].name
+      pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
+    }
+  }
   return pageContent
 }

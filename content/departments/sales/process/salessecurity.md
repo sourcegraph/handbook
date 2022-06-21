@@ -16,4 +16,4 @@ Once the first pass is done, sign up for a security questionnaire review in [thi
 
 ### Customer security questions
 
-If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, follow the [guidance here](../../product-engineering/engineering/cloud/security/process.md#how-to-work-with-us) to engage with the Security team.
+If customers have specific security questions, first run them by the #ce slack channel. If nobody has context, or we're unsure of how to phrase things, follow the [guidance here](../../engineering/dev/admin-exp/security/#how-to-work-with-us) to engage with the Security team.

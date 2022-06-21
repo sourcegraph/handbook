@@ -4,11 +4,11 @@ This is the central page for product-centric, go-to-market resources.
 
 ## Code Insights
 
-[Code Insights go-to-market resources](../../product-engineering/engineering/code-graph/code-insights/go_to_market.md)
+[Code Insights go-to-market resources](../../engineering/dev/code-graph/code-insights/go_to_market.md)
 
 ## Batch Changes
 
-[Batch Changes messaging and positioning](batch_changes_positioning.md)
+[Batch Changes go-to-market resources](../../engineering/dev/code-graph/batch-changes/go-to-market/index.md)
 
 ## Notebooks
 

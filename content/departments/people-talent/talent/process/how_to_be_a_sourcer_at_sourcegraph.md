@@ -13,19 +13,19 @@
 
 - Sourcers will join the Hiring Manager and Recruiter on the required intake call.
 - Prior to the intake call:
-- Sourcers will review the team page in the Handbook and familiarize themselves with the team.
-- Sourcers will review the job description (if completed).
+  - Sourcers will review the team page in the Handbook and familiarize themselves with the team.
+  - Sourcers will review the job description (if completed).
 - After the intake call:
-- Sourcers will create a LinkedIn Recruiter project and include the Hiring Manager, Recruiter, and any teammates included in the interview plan, and will find 10 relevant candidates.
-- Sourcers will send LinkedIn profiles to the Hiring Manager and Recruiter for review. Once the Hiring Manager adds comments, Sourcer will use the feedback to source more appropriate candidates.
-- Sourcers will continue to add LinkedIn profiles to the project and start an outreach campaign following our Sourcing Outreach Best Practices.
-- Sourcers will read scorecards in Greenhouse to identify more relevant candidates.
-- When appropriate, Sourcers will send a weekly update in the relevant Slack channels on Wednesdays.
+  - Sourcer or Recruiter will create a LinkedIn Recruiter project and include the Hiring Manager, Recruiter, relevant Director of the department and any teammates included in the interview plan, and will find 10 relevant candidates.
+  - Sourcers will send LinkedIn profiles to the Hiring Manager and Recruiter for review. Once the Hiring Manager adds comments, Sourcer will use the feedback to source more appropriate candidates.
+  - Sourcers will continue to add LinkedIn profiles to the project and start an outreach campaign following our Sourcing Outreach Best Practices.
+  - Sourcers will read scorecards in Greenhouse to identify more relevant candidates.
+  - When appropriate, Sourcers will send a weekly update in the relevant Slack channels on Wednesdays.
 
 ## Sourcing Best Practices
 
 - **Look at candidates with different roles in mind.** After a careful look at their profiles, add them to all relevant projects that you are working on.
 - **Be prepared.** Read the job description. Learn about the team. Listen to Recruiters and Hiring Manager feedback.
 - **Be relationship driven.** Send warm and professional messages to candidates before, during, and after messaging them. Prepare your candidates well, such as offering advice on how to interview better or ways they can improve in the upcoming rounds of interviews.
-- **Have a plan.** Follow the Sourcing Outreach Best Practices.
+- **Have a plan.** Follow the [Sourcing Outreach Best Practices.](linkedin.md#sourcing-and-outreach-best-practices)
 - **Be overly communicative.** We are 100% remote! Explain more than you think is necessary. Be clearer than you think you already are. Triple check before clicking the send button, either internally or externally. Always use {firstName}, instead of writing the person’s first name, when sending your first message on LinkedIn Recruiter to avoid using wrong names. When you are relaying information internally, copy and paste the whole message instead of paraphrasing the candidate’s message.

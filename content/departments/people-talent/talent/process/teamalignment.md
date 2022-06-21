@@ -393,7 +393,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Engineering
 
    </td>
-   <td>SaaS
+   <td>Software Engineering
 
    </td>
    <td>Frey Andersson
@@ -408,244 +408,6 @@ You can see the board-approved headcount plan, and the corresponding assigned re
   </tr>
   <tr>
    <td>Engineering
-
-   </td>
-   <td>Growth
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Security
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Growth and Integrations
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>DevOps
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Search Core
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Search Product
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Batch Changes
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Code Intel
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Code Insights
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Repo Management
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Delivery
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>DevEx
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Engineering
-
-   </td>
-   <td>Frontend Platform
-
-   </td>
-   <td>Frey Andersson
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Product
-
-   </td>
-   <td>Leadership (Manager +)
-
-   </td>
-   <td>Devon Coords
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Product
 
    </td>
    <td>Product Management
@@ -662,27 +424,10 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    </td>
   </tr>
   <tr>
-   <td>Product
+   <td>Engineering
 
    </td>
-   <td>Product Design
-
-   </td>
-   <td>Veronica Bueno
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
-   <td>Product
-
-   </td>
-   <td>User Research
+   <td>Design
 
    </td>
    <td>Veronica Bueno
@@ -696,10 +441,10 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    </td>
   </tr>
   <tr>
-   <td>Product
+   <td>Engineering
 
    </td>
-   <td>Technical Writing
+   <td>Product Education
 
    </td>
    <td>Veronica Bueno
@@ -722,7 +467,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Kelsey Nagel
 
    </td>
-   <td>N/A
+   <td>NA
 
    </td>
    <td>Trevor Houghton
@@ -739,7 +484,7 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    <td>Kelsey Nagel
 
    </td>
-   <td>N/A
+   <td>NA
 
    </td>
    <td>Trevor Houghton

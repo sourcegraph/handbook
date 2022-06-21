@@ -5,11 +5,11 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 ## Quick links
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
-- [Batch Changes positioning and messaging](../../../../departments/marketing/product-marketing/batch_changes_positioning.md)
+- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
+- [Batch Changes positioning and messaging](../../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
-- [Batch Changes team page](../../../../departments/product-engineering/engineering/code-graph/batch-changes/index.md)
+- [Batch Changes team page](../../../../departments/engineering/dev/code-graph/batch-changes/index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
@@ -69,7 +69,7 @@ To drive enterprise success and stickiness, we need to:
 
 ### Get changesets merged
 
-The key [success metric](../../../../departments/product-engineering/engineering/code-graph/batch-changes/metrics.md) for batch changes is the number of changesets that get _merged_. In practice, once a user has applied a batch change, they need to spend time tracking and following up with downstream repository owners so that they merge the batch change's changesets. The larger the batch change, the more time-consuming this can be. We want to improve how easy it is for users to get large batch changes over the finish line, as measured by time-to-merge and batch changes merge rate.
+The key [success metric](../../../../departments/engineering/dev/code-graph/batch-changes/metrics.md) for batch changes is the number of changesets that get _merged_. In practice, once a user has applied a batch change, they need to spend time tracking and following up with downstream repository owners so that they merge the batch change's changesets. The larger the batch change, the more time-consuming this can be. We want to improve how easy it is for users to get large batch changes over the finish line, as measured by time-to-merge and batch changes merge rate.
 
 ### Time-to-value
 
@@ -90,7 +90,7 @@ Success here means creating end-to-end usage paths that use Batch Changes as wel
 
 Batch Changes has proven early product/market fit with high-growth scale-ups and medium to large technology companies. We are now working on expanding into more traditional enterprises. We see anecdotal early evidence of market fit across other segments ([Batch Changes dashboard](https://sourcegraph.looker.com/dashboards-next/174)).
 
-Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) and [Code Health](../../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/marketing/product-marketing/batch_changes_positioning.md#go-to-market-playbook)
+Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) and [Code Health](../../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md#go-to-market-playbook)
 
 We have five main learnings from the first year of Batch Changes:
 
@@ -142,6 +142,8 @@ Our tentative plan so far:
 - **Windows support** ([#24849](https://github.com/sourcegraph/sourcegraph/issues/24849)): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
 
 - **Permissions and access control** is not a focus for Q2, as we are still collecting feedback and we want to focus on running batch changes server-side. It's very likely to be a focus area for Q3 as efforts from other teams (IAM and admin experience) land.
+
+- **Additional codehosts** we do not plan to add additional codehosts (outside of BitBucket Cloud), or code review tool integrations (Gerrit, Phabricator) this year.
 
 In general, we tend to focus on features that we can build for multiple codehosts in a relatively homogenous manner, and avoid codehost-specific features.
 

@@ -14,7 +14,7 @@
 
 # Sourcegraph: open product, open company, open source
 
-As part of making Sourcegraph open source, we build Sourcegraph with a public ([ strategy](../../strategy-goals/strategy/index.md) and [issues](http://github.com/sourcegraph/sourcegraph/issues/)). As an **open product**, and **open company**, our [website](https://github.com/sourcegraph/about) and [documentation](https://github.com/sourcegraph/sourcegraph/tree/master/doc) is now open source which holds product- and company-related docs.
+As part of making Sourcegraph open source, we build Sourcegraph with a public ([strategy](../../strategy-goals/strategy/index.md) and [issues](http://github.com/sourcegraph/sourcegraph/issues/)). As an **open product**, and **open company**, our [website](https://github.com/sourcegraph/about) and [documentation](https://github.com/sourcegraph/sourcegraph/tree/main/doc) is now open source which holds product- and company-related docs.
 
 Here's how we define these terms:
 

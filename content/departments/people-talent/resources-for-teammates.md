@@ -39,32 +39,34 @@
   - [Skip level]
   - [Onboarding Feedback Milestones](../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 
-  ## Benefits, Perks and Pay
-
-  [General overview](../../benefits-pay-perks/benefits-perks/index.md)
+  ## [Benefits, Perks and Pay](../../benefits-pay-perks/benefits-perks/index.md)
 
   ### Pay & Expenses
 
-  - [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
-    - [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-    - [Equity](../../benefits-pay-perks/pay-expenses/compensation/index.md#sts=Equity)
-  - [Submitting expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
+- [Compensation & Leveling](people-ops/process/compensation-and-leveling/index.md)
+  - [Compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
+  - [Equity](../../benefits-pay-perks/pay-expenses/compensation/index.md#sts=Equity)
+- [Submitting expenses](../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
-  ### Perks
+  ### [Perks](../../benefits-pay-perks/benefits-perks/)
 
-  - [Paid Time Off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
-  - [Travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
-  - [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
-  - [Wellbeing](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
-  - [Celebrating teammates](../../benefits-pay-perks/benefits-perks/celebrate.md)
-  - [Charity matching](../../benefits-pay-perks/benefits-perks/charity-matching.md)
-  - [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
+- [Paid Time Off](../../benefits-pay-perks/benefits-perks/time-off/index.md)
+- [Travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
+- [Nomad Life](../../benefits-pay-perks/benefits-perks/nomad-life.md)
+- [Wellbeing](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
+- [Celebrating teammates](../../benefits-pay-perks/benefits-perks/celebrate.md)
+- [Charity matching](../../benefits-pay-perks/benefits-perks/charity-matching.md)
+- [Tuition Reimbursement](../../benefits-pay-perks/benefits-perks/tuition-reimbursement.md)
 
   ### Benefits
 
-  - [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
-  - [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
-  - [Benefits available for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
+- [Benefits FAQs for US teammates](people-ops/tools/people-ops-faqs.md#q-what-benefits-and-plans-are-available-to-me)
+  - We offer Health, Dental, and Vision with 100% employer paid premiums for teammates, spouse, and depdenents. We also offer Life insurance for teammates.
+  - Access to Modern Health for 10 coaching and 10 therapy sessions per year
+  - 401K
+  - HSA, FSA, and Dependent Care FSA
+- [Parental leave & New parent support](../../benefits-pay-perks/benefits-perks/parental-leave.md)
+- [Leave of absence](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 
 ## People Processes & Tools
 
@@ -80,5 +82,5 @@
 - [The interview process](talent/process/interview_process.md)
 - [Types of interviews](talent/process/types_of_interviews.md)
 - [Interview training & best practices](talent/tools/interview_training.md)
-- [Recruitment branding](talent/process/recruitment-branding.md)
+- [Recruitment branding](talent/process/recruitment_branding.md)
 - [Recruiting tools](talent/tools/index.md)

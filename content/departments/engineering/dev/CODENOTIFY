@@ -1,0 +1,8 @@
+# See https://github.com/sourcegraph/codenotify for documentation.
+
+roles.md @sqs
+
+
+distribution/** @sourcegraph/distribution
+observability/** @sourcegraph/distribution
+observability/** @slimsag

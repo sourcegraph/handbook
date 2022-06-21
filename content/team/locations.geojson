@@ -656,14 +656,6 @@
             ]
          }
       },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.34887838363649,
-               47.65703408702765
-            ]
-         }
-      },
       {
          "type": "Feature",
          "properties": {
@@ -1002,19 +994,6 @@
             "coordinates": [
                21.023197174072266,
                52.18087924523222
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Varun Gandhi"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.27100849151611,
-               37.8639447129692
             ]
          }
       },
@@ -1407,5 +1386,32 @@
               40.68896903762434
             ]
          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "Dulani Wallace"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -76.997570,
+              38.947710
+            ]
+         }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+            "name": "Miles Patton"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              46.056946, 
+              14.505752
+            ]
+         }
       }
-] }
+   ]
+}
