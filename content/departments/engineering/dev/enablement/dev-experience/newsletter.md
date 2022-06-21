@@ -52,15 +52,15 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 **sg generate go** now displays a progress bar to indicate its status and is also noticeably faster thanks to [35807](https://github.com/sourcegraph/sourcegraph/pull/35807), [#36742](https://github.com/sourcegraph/sourcegraph/pull/36742) and [#36681](https://github.com/sourcegraph/sourcegraph/pull/36681).
 
-**Readability improvements**: `sg start logs` are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
+**Readability improvements**: `sg start` logs are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
 
 ![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
 
 ### CI improvements
 
-** The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
-** When you retry the `sg lint` step, the `verbose` flag will be added allowing you to see more of what is going on.
-\*\* You can now force the run of tests that are executed when your PR is _ready for review_ by specifying in your commit message `[ready-for-review]`. Gone are the days of flipping your PR between draft and ready for review!
+- The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
+- When you retry the `sg lint` step, the `verbose` flag will be added allowing you to see more of what is going on.
+- You can now force the run of tests that are executed when your PR is _ready for review_ by specifying in your commit message `[ready-for-review]`. Gone are the days of flipping your PR between draft and ready for review!
 
 ### Tech Radar
 
