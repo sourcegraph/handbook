@@ -44,9 +44,21 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 **`sg [cmd...] --feedback`**: TODO @burmudar
 
+**Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated. 
+
+**`dev/schemadoc`** has been removed and is replaced by `sg migration ...` commands. Example: `sg migration describe -db codeintel --format=psql -force -out internal/database/schema.codeintel.md` to generate the schema for the `codeintel` db thanks to [#35905](https://github.com/sourcegraph/sourcegraph/pull/35905).
+
+**`./dev/generate.sh`** has been deprecated in favour of of **`sg generate go`** (and its alias `sg gen go` for teammates in a hurry). 
+
+**sg generate go** now displays a progress bar to indicate its status and is also noticeably faster thanks to [35807](https://github.com/sourcegraph/sourcegraph/pull/35807), [#36742](https://github.com/sourcegraph/sourcegraph/pull/36742) and [#36681](https://github.com/sourcegraph/sourcegraph/pull/36681).
+
 **Readability improvements**: `sg start logs` are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
 
 ![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
+
+### CI improvements
+
+The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
 
 ### TODO
 
