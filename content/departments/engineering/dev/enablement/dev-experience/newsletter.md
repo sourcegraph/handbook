@@ -25,7 +25,14 @@ You can find the new docs in [How to add logging](https://docs.sourcegraph.com/d
 
 ### Observability features
 
-**Sentry errors**: Errors are now automatically reported to Sentry from warning-level and above logs that include an error field, which can be added using the `log.Error` or `log.NamedError` field constructors. Check out this demo to see it in action!
+**Sentry errors**: Errors are now automatically reported to Sentry from warning-level and above logs entries from [`sourcegraph/log` loggers](https://docs.sourcegraph.com/dev/how-to/add_logging) that include an error field, which can be added using the `log.Error` or `log.NamedError` field constructors, for example:
+
+```go
+logger.Error("something terrible happened", log.Error(err))
+```
+
+The reported Sentry event includes helpful information like the logger scope, log message, log fields, and more!
+Check out this demo to see it in action:
 
 [![Sentry demo](https://cdn.loom.com/sessions/thumbnails/f2010789f6884e72932f6e6a9b091558-with-play.gif)](https://www.loom.com/share/f2010789f6884e72932f6e6a9b091558)
 
