@@ -40,6 +40,14 @@ The process of ensuring an external contributor has signed Sourcegraph's Contrib
 
 You can learn more in the [`clabot-config` repository](https://github.com/sourcegraph/clabot-config) and the [accepting external contributions guide](https://docs.sourcegraph.com/dev/contributing/accepting_contribution).
 
+### `sg` goodies 
+
+**`sg [cmd...] --feedback`**: TODO @burmudar
+
+**Readability improvements**: `sg start logs` are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
+
+![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
+
 ### TODO
 
 TODO
