@@ -53,6 +53,12 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 **Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
 
+**`sg setup` and `sg lint` rewrite**: We have rewritten `sg lint` and `sg setup` to use a shared internal framework that can be used to easily and flexibly build powerful "check-and-fix" tasks. This enables features like:
+
+- `sg setup -check` to quickly generate a report of what you have set up
+- `sg setup -fix` to fix all issues with your dev setup in one go
+- `sg lint -fix` to automatically try and fix your lint issues (only supported by a few linters at the moment, but more can easily be added!)
+
 **`dev/schemadoc`** has been removed and is replaced by `sg migration ...` commands. Example: `sg migration describe -db codeintel --format=psql -force -out internal/database/schema.codeintel.md` to generate the schema for the `codeintel` db thanks to [#35905](https://github.com/sourcegraph/sourcegraph/pull/35905).
 
 **`./dev/generate.sh`** has been deprecated in favour of of **`sg generate go`** (and its alias `sg gen go` for teammates in a hurry).
