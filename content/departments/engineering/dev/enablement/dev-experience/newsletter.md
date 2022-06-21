@@ -42,7 +42,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ### `sg` goodies
 
-**`sg [cmd...] --feedback`**: TODO @burmudar
+**`sg [cmd...] --feedback`**: Love sg ? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
 
 **Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
 
@@ -58,7 +58,9 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ### CI improvements
 
-The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
+** The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
+** When you retry the `sg lint` step, the `verbose` flag will be added allowing you to see more of what is going on.
+** You can now force the run of tests that are executed when your PR is _ready for review_ by specifying in your commit message `[ready-for-review]`. Gone are the days of flipping your PR between draft and ready for review!
 
 ### Tech Radar
 
