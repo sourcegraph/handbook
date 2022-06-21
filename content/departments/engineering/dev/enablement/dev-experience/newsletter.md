@@ -40,15 +40,15 @@ The process of ensuring an external contributor has signed Sourcegraph's Contrib
 
 You can learn more in the [`clabot-config` repository](https://github.com/sourcegraph/clabot-config) and the [accepting external contributions guide](https://docs.sourcegraph.com/dev/contributing/accepting_contribution).
 
-### `sg` goodies 
+### `sg` goodies
 
 **`sg [cmd...] --feedback`**: TODO @burmudar
 
-**Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated. 
+**Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
 
 **`dev/schemadoc`** has been removed and is replaced by `sg migration ...` commands. Example: `sg migration describe -db codeintel --format=psql -force -out internal/database/schema.codeintel.md` to generate the schema for the `codeintel` db thanks to [#35905](https://github.com/sourcegraph/sourcegraph/pull/35905).
 
-**`./dev/generate.sh`** has been deprecated in favour of of **`sg generate go`** (and its alias `sg gen go` for teammates in a hurry). 
+**`./dev/generate.sh`** has been deprecated in favour of of **`sg generate go`** (and its alias `sg gen go` for teammates in a hurry).
 
 **sg generate go** now displays a progress bar to indicate its status and is also noticeably faster thanks to [35807](https://github.com/sourcegraph/sourcegraph/pull/35807), [#36742](https://github.com/sourcegraph/sourcegraph/pull/36742) and [#36681](https://github.com/sourcegraph/sourcegraph/pull/36681).
 
