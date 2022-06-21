@@ -63,6 +63,8 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
 
+**`sg` analytics**: The DevX team is experimenting with collecting analytics on `sg` usage and issues! For now this is a manual process, so if you'd like to contribute you data to our explorations, you can submit your data with `sg analytics submit [username]`, or check out what data has been collected with `sg analytics view`!
+
 ### CI improvements
 
 - The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
