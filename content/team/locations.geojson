@@ -818,19 +818,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Dan Ryan"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -111.88030242919922,
-               40.44511813759635
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Ryan Slade"
          },
          "geometry": {
@@ -890,19 +877,6 @@
             "coordinates": [
                -81.73553466796875,
                41.38299120166604
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Adam Greenhalgh"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -111.82674407958983,
-               40.721502075213955
             ]
          }
       },
@@ -1270,19 +1244,6 @@
             ]
          }
       },
-     {
-          "type": "Feature",
-          "properties": {
-            "name": "Jean-Paul Bezuidenhout"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              18.439610,
-              -34.062710
-            ]
-         }
-      },
       {
           "type": "Feature",
           "properties": {
@@ -1319,19 +1280,6 @@
             "coordinates": [
               -75.21240234375,
               40.68896903762434
-            ]
-         }
-      },
-      {
-          "type": "Feature",
-          "properties": {
-            "name": "Dulani Wallace"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -76.997570,
-              38.947710
             ]
          }
       },
