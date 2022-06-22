@@ -1683,17 +1683,6 @@ rafal_gajdulewicz:
   links: '[LinkedIn](https://www.linkedin.com/in/gajdulewicz/)'
   description: Rafal lives in Warsaw, Poland with his wife & 2 sons. Before Sourcegraph, Rafal worked as Software Engineer at Google, building UIs for Kubernetes-related products. In his free time, Rafal enjoys riding bicycles and motorcycles, surfing and snowboarding.
 
-lauren_chapman:
-  name: Lauren Chapman
-  pronouns: she/her
-  role: Security Engineer
-  reports_to: engineering_manager_security
-  location: New Brunswick, Canada 🇨🇦
-  github: deflncha
-  email: lauren@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/chapman-lauren-202/)'
-  description: "Lauren lives in eastern Canada in the small province of New Brunswick with her two kitties Piper & Momo 🐱. Prior to Sourcegraph she worked as a Software Developer, Application Support Specialist, and Application Security Specialist - wearing many different 'hats' over her career. In her free time shes loves board games (Catan, Forbidden Island, Pandemic) and to read personal biographies. Lauren also loves to talk about and advocate for mental health, therapy, and meditation 🪴 - all of which have been instrumental in her life."
-
 jordan_plahn:
   name: Jordan Plahn
   pronouns: he/him
