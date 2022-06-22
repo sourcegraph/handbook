@@ -589,8 +589,7 @@ Note: to avoid invoking command before version is changed, add `#` before pastin
 ### 5) Sync files to customer instance
 
 ```sh
-# if instance is v1.0, add flag: --v1.0
-go run ../util/cmd/ sync [--v1.0]
+go run ../util/cmd/ sync --v1.0
 git add . && git commit -m "$CUSTOMER: update docker-compose.yaml symlink"
 ```
 
