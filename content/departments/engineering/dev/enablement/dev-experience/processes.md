@@ -13,6 +13,37 @@ We aim to allow teammates the flexibility to work on incoming requests, tackle p
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
 
+### How we deliver work
+
+We use a 4-step delivery framework to prioritize problems to solve, create solutions, and follow through on our work.
+
+1. Identify the problem and identify who has this problem (the customers).
+1. Artifact: a GitHub issue.
+1. Execute on a solution, in line with our principles.
+1. Artifact: One or multiple Pull Requests, for example.
+1. Roll out the change to our customers.
+1. Artifact: Sharing it in our channels (Slack and newsletter). Educating our customers about the change, and helping them adopt it.
+1. Tracking adoption and feedback.
+1. Artifact: feedback or metrics on adoption.
+
+### Definition of Done
+
+The "Definition of Done" is the definition that includes all steps and tasks that need to be completed for a work item in order for it to be considered "done".
+
+For each work item, we ask the following questions:
+
+1. Who needs to know about this change?
+2. How and where are we reaching them?
+3. What do they need in order to adopt this change?
+
+From the answers, we create a Definition of Done for the item that should include these steps:
+
+- Create an announement about the change in immediate channels (relevant Slack channels)
+- Add an entry to the Dev Experience newsletter
+- Update documentation if applicable
+- Create resources to help engineers adopt the change
+- Create content to educate engineers about the background and reason for the change
+
 ### Tracking
 
 As of 2022-04-28, we use Github projects to keep track of our work.
