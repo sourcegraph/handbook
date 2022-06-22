@@ -441,23 +441,6 @@ You can see the board-approved headcount plan, and the corresponding assigned re
    </td>
   </tr>
   <tr>
-   <td>Engineering
-
-   </td>
-   <td>Product Education
-
-   </td>
-   <td>Veronica Bueno
-
-   </td>
-   <td>Win Yu
-
-   </td>
-   <td>Kemper Hamilton
-
-   </td>
-  </tr>
-  <tr>
    <td>Talent
 
    </td>

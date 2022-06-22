@@ -425,32 +425,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Jean du Plessis"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               18.69546890258789,
-               -33.81944570348443
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Lisa Tagliaferri"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -73.949997,
-               40.650002
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Stompy Mwendwa"
          },
          "geometry": {
@@ -614,19 +588,6 @@
             "coordinates": [
                30.378398895263672,
                59.94555469995002
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Bill Creager"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               30.08267,
-               -97.842484
             ]
          }
       },
@@ -812,19 +773,6 @@
             "coordinates": [
                4.8758764564991,
                52.353725318203985
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
-            "name": "Yink Teo"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -122.41288661956786,
-               37.79099803764377
             ]
          }
       },
@@ -1143,19 +1091,6 @@
       {
          "type": "Feature",
          "properties": {
-            "name": "Jeff Wayman"
-         },
-         "geometry": {
-            "type": "Point",
-            "coordinates": [
-               -82.24863052368164,
-               27.962035105066086
-            ]
-         }
-      },
-      {
-         "type": "Feature",
-         "properties": {
             "name": "Michal Vrtiak"
          },
          "geometry": {
@@ -1408,7 +1343,7 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
-              46.056946, 
+              46.056946,
               14.505752
             ]
          }

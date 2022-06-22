@@ -9,7 +9,7 @@
    - [15m] Break
    - [45 min] We will ask you a system design question to collect signals of solving real large-scale problems.
 1. [1 hr] Team collaboration interview with [Joel Kwartler](../../../../team/index.md#joel-kwartler) and [Alicja Suska](../../../../team/index.md#alicja-suska) to assess how you communicate and collaborate on a team.
-1. [30 min] [Jean du Plessis](../../../../team/index.md#jean-du-plessis) (Director)
+1. [30 min] TBD
 1. [30 min] [Beyang Liu](../../../../team/index.md#beyang-liu) (CTO)
 1. We make you a job offer.
 1. We check your references during your first week to find out what motivates you and how best to work with you.
