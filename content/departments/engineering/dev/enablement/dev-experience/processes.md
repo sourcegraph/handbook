@@ -18,13 +18,13 @@ We aim to allow teammates the flexibility to work on incoming requests, tackle p
 We use a 4-step delivery framework to prioritize problems to solve, create solutions, and follow through on our work.
 
 1. Identify the problem and identify who has this problem (the customers).
-1. Artifact: a GitHub issue.
+   1. Artifact: a GitHub issue.
 1. Execute on a solution, in line with our principles.
-1. Artifact: One or multiple Pull Requests, for example.
+   1. Artifact: One or multiple Pull Requests, for example.
 1. Roll out the change to our customers.
-1. Artifact: Sharing it in our channels (Slack and newsletter). Educating our customers about the change, and helping them adopt it.
+   1. Artifact: Sharing it in our channels (Slack and newsletter). Educating our customers about the change, and helping them adopt it.
 1. Tracking adoption and feedback.
-1. Artifact: feedback or metrics on adoption.
+   1. Artifact: feedback or metrics on adoption.
 
 ### Definition of Done
 
