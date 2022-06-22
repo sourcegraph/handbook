@@ -63,25 +63,24 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [People & Talent](departments/people-talent/index.md)
 
-#### [People team](departments/people-talent/people-ops/index.md)
+- [People team](departments/people-talent/people-ops/index.md)
 
-#### [Talent](departments/people-talent/talent/index.md)
-
-- [Resources for Candidates](departments/people-talent/talent/index.md)
-- [Resources for Hiring Manager](departments/people-talent/talent/index.md)
-- [Resources for Teammates](departments/people-talent/talent/index.md)
-- [Resources for Recruiters](departments/people-talent/talent/index.md)
+- [Talent](departments/people-talent/talent/index.md)
+  - [Resources for Interns](departments/people-talent/talent/internship/index.md)
+  - [Resources for Candidates](departments/people-talent/talent/index.md#resources-for-candidates)
+  - [Resources for Hiring Manager](departments/people-talent/talent/index.md#resources-for-hiring-managers)
+  - [Resources for Teammates](departments/people-talent/talent/index.md#resources-for-teammates)
+  - [Resources for Recruiters](departments/people-talent/talent/index.md#resources-for-talent-team)
 
 #### [Engineering](departments/engineering/index.md)
 
-- [Engineering](departments/engineering/engineering/index.md)
-  - [Engineering orgs and teams](departments/engineering/engineering/team/index.md)
+- [Engineering](departments/engineering/dev/index.md)
+  - [Engineering orgs and teams](departments/engineering/dev/team/index.md)
 - [Product Management](departments/engineering/product/index.md)
   - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
   - [Process](departments/engineering/product/process/index.md)
   - [Design](departments/engineering/product/design/index.md)
 - [Design](departments/engineering/product/design/index.md)
-- [Product Education](departments/engineering/product/product_education/index.md)
 
 > NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 

@@ -42,7 +42,7 @@ Read about Sales onboarding Mentor program:
 - [Marketing](../../marketing/index.md)
 - [Sales](index.md)
 - [Data and Looker onboarding](data_onboarding.md)
-- [Delivery team](../../engineering/engineering/admin-exp/delivery/index.md)
+- [Delivery team](../../engineering/dev/admin-exp/delivery/index.md)
 - Check the Sales team onboarding [quiz](quiz.md)
 
 ## Key targets for onboarding reps

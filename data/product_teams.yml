@@ -2,11 +2,10 @@
 
 search_product:
   title: Search Product
-  product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
   pm: ben_venker
   em: loïc_guychard
-  design: marisa_kanemoto
+  design: paulo_almeida
   pmm: lori_colston
   issue_labels:
     - team/search-product
@@ -14,7 +13,6 @@ search_product:
 
 search_core:
   title: Search Core
-  product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/search/core/index.md
   pm: eugenia_fernandez
   em: jeff_warner
@@ -26,7 +24,6 @@ search_core:
 
 code_intelligence:
   title: Code Intelligence
-  product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/code-intelligence/index.md
   pm: maría_craig
   em: owen_convey
@@ -37,7 +34,6 @@ code_intelligence:
 
 batch_changes:
   title: Batch Changes
-  product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/batch-changes/index.md
   pm: malo_marrec
   em: chris_pine
@@ -48,7 +44,6 @@ batch_changes:
 
 code_insights:
   title: Code Insights
-  product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/code-insights/index.md
   pm: joel_kwartler
   em: felix_becker
@@ -59,7 +54,6 @@ code_insights:
 
 integrations:
   title: Integrations
-  product_org: adminexp
   strategy_link: /strategy-goals/strategy/admin-exp/integrations/index.md
   pm: ryan_scott
   design: sara_lee
@@ -70,7 +64,6 @@ integrations:
 
 growth:
   title: Growth
-  product_org: adminexp
   strategy_link: /strategy-goals/strategy/admin-exp/growth-team/index.md
   em: murat_sutunc
   pmm: alex_isken
@@ -79,29 +72,16 @@ growth:
 
 iam:
   title: Identity and Access Management (IAM)
-  product_org: adminexp
   strategy_link: /strategy-goals/strategy/admin-exp/iam-admin/index.md
   pm: ryan_phillips
-  design: quinn_keast
-  em: rafal_leszczynski_iam
-  pmm: alex_isken
+  em: jordan_plahn
   issue_labels:
     - team/iam
     - team/admin-exp
 
-devops:
-  title: DevOps
-  strategy_link: /departments/engineering/engineering/admin-exp/devops/#goals
-  product_org: adminexp
-  pm: bill_creager
-  em: jennifer_mitchell
-  issue_labels:
-    - team/devops
-
 delivery:
   title: Delivery
   strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
-  product_org: adminexp
   pm: brienne_mcnally
   em: crystal_augustus
   issue_labels:
@@ -110,7 +90,6 @@ delivery:
 dev_experience:
   title: Dev Experience
   strategy_link: /strategy-goals/strategy/enablement/dev-experience
-  product_org: enablement
   pm: taylor_sperry
   em: kristen_stretch
   issue_labels:
@@ -119,7 +98,6 @@ dev_experience:
 frontend_platform:
   title: Frontend Platform
   strategy_link: /strategy-goals/strategy/enablement/frontend-platform
-  product_org: enablement
   pm: taylor_sperry
   em: jason_gornall
   design: alicja_suska
@@ -129,7 +107,6 @@ frontend_platform:
 repo_management:
   title: Repo Management
   strategy_link: /strategy-goals/strategy/admin-exp/repo-management
-  product_org: adminexp
   em: jordan_plahn
   issue_labels:
     - team/repo-management
@@ -137,7 +114,6 @@ repo_management:
 content_platform:
   title: Content Platform Team
   strategy_link: /strategy-goals/strategy/enablement/content-platform
-  product_org: enablement
   pm: elzanne_wentzel
   em: elzanne_wentzel
   issue_labels:
@@ -145,7 +121,6 @@ content_platform:
 
 code_security_tiger_team:
   title: Code Security tiger team
-  product_org: code_graph
   strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
   pm: malo_marrec
   em: engineering_manager_code_security_tiger_team
@@ -156,10 +131,8 @@ code_security_tiger_team:
 
 security:
   title: Security
-  product_org: security
   em: diego_comas
 
 cloud:
   title: Cloud
-  product_org: cloud
   em: rafal_leszczynski

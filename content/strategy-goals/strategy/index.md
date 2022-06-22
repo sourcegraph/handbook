@@ -122,7 +122,6 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
   - [Enablement](enablement/index.md)
     - [Dev Experience](enablement/dev-experience/index.md)
     - [Frontend Platform](enablement/frontend-platform/index.md)
-    - [Engineering Education](enablement/engineering-education/index.md)
     - [Content Platform](enablement/content-platform/index.md)
   - [Admin Experience](admin-exp/index.md)
     - [IAM](admin-exp/iam/index.md)

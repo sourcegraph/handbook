@@ -2,7 +2,7 @@
 
 > NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 
-The product team at Sourcegraph consists of [product management](process/index.md), [product design](design/index.md), and [Product Education](product_education/index.md). We strive to make the following true:
+The product team at Sourcegraph consists of [product management](process/index.md) and [product design](design/index.md). We strive to make the following true:
 
 - The team is working on the most important things on [our strategy](../../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
 - Each teammate has the customer and product context needed about customer problems, likely future priorities, possible solutions, etc. to perform their work effectively.
@@ -31,7 +31,7 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 - [Features by deployment options](tools/deployment_options.md)
 - [Feature tiers/pricing](https://about.sourcegraph.com/pricing/)
 - [(Internal) Feature limitations](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=0)
-- [(Internal) Feature ownership](../engineering/process/engineering_ownership.md)
+- [(Internal) Feature ownership](../dev/process/engineering_ownership.md)
 
 ## Metrics
 

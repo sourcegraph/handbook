@@ -118,26 +118,22 @@ A critical part of the customer experience is user onboarding. After deal close,
 
 ## Webinars / Trainings / Q&A Sessions
 
-The webinar you will most-often run is a Sourcegraph 101/102 (basically a longer and more in-depth version of the typical demo flow). It's important to relate use cases to customer needs.
+A standard customer engagmeent should include three core trainings, as well as optional topics customized to customer needs or requests, or demos of new features or use cases that are relevant to the team. These webinars may be run repeatedly if, for example, you're expanding into a new business unit within an existing customer.
 
-We may also hold specific topic trainings or Q&A sessions, depending on customer need.
+### Standard trainings
+
+- [Sourcegraph 101](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-101) ([Video training](https://drive.google.com/file/d/1emSuz6Q871OC2YOadcfkrUXfuopn6JCB/view?usp=sharing)) - The basic "how to use Sourcegraph search" webinar. This should take a new users from 0 to able to use the tool competently. The repo includes a fully scripted talk track, a lesson plan version of the talk track for those who prefer that format to a script, a Slack follow up message to send to customers, test exercises for customers to run, and the content formatted for inclusion in a customer's LMS for self-directed learning.
+- [Sourcegraph 102](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-102) - This should take a customer from being a general Sourcegraph user through being able to use the majority of Sourcegraph's advanced search features.
+- Admin training webinar - Currently in progress with ETA for completion of EOQ Q2FY23. This should take an admin for the instance through all of the elements of the admin area of the app, and leave them feeling confident with instance and user management training.
+
+### Other trainings
+
+- Security use case training - Currently in progress with ETA for completion of EOQ Q2FY23. This should walk customers thorugh how to use Sourcegraph for the [security use case](https://about.sourcegraph.com/use-cases#find-and-fix-security-vulnerabilities).
 
 ### Resources
 
 - [Training Webinar Recording](https://chorus.ai/meeting/8FEAE02538644AA3ABB22149750E6308?)
-
-## Check-in calls
-
-Check-in calls may be weekly, bi-weekly, monthly, or as-needed. Going into a check-in call you should be familiar with:
-
-- Usage data
-- Current Sourcegraph version & upgrade info
-- New features in the latest version(s) and/or the product roadmap
-- Any recent or active questions or support issues or feature requests from the customer
-
-### Resources
-
-- [Chorus recording of a typical check-in call](https://chorus.ai/meeting/84885A7398C943A3AFD32327F06A3F12?)
+- [Customer Training Engineer repo](https://github.com/sourcegraph/customer-training/tree/main/trainings)
 
 ## QBRs
 
@@ -148,6 +144,7 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 - The [QBR Guide](https://docs.google.com/document/d/1gFRn2SkX19sU0GSMGndNkk-I9cFe7FlN3xlZ2UX3Frs/edit#) details how CEs should execute a QBR.
 - [QBR Quickstart video](https://www.loom.com/share/fb63d3286cda43a3b57913c5bdcc9806)
 - [QBR Deck Template](https://docs.google.com/presentation/d/10TTvP3_U9-z_40vyqo1Bi_f0lD2s8TclFLnqvXIdU1s/edit#slide=id.gc868ddee9e_0_0)
+- [QBR Deck Template (with value realization)](https://docs.google.com/presentation/d/1PMd0_nuPrhM7m_vKp9eW-GYDbhwUk1D4DQHy8-smObE)
 - [Example QBR Deck](https://docs.google.com/presentation/d/1bWjDHA5U6luV4h6jNDo9fyj11tkpf_nHi9DhbLsPxr0/edit#slide=id.g96a3fc9b53_0_0)
 - [Example QBR Survey](https://www.surveymonkey.com/results/SM-K6LMJQMZ7/)
 - [Sample QBR Recording on Chorus](https://chorus.ai/meeting/36928A0D99694DCB8E0AC9D028E44A1D?search=qbr&recordingsOnly=true&transcript=false)

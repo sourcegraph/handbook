@@ -95,20 +95,48 @@ Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager
 We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` and `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 
-**Step 3:** Once the offer is fully approved in Greenhouse, Recruiter schedules an offer call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
+**Step 3:** Once the offer is fully approved in Greenhouse, Recruiter schedules an offer call using the email template in Greenhouse. The goals of the offer summary call are to:
+
+- Convey to candidates how excited we are about the prospect of them joining the team and how much value they will add to Sourcegraph.
+- Ensure they have a good understanding of our compensation philosophy, their salary, perks, travel (and benefits, if applicable) and equity.
+- Answer any questions the candidate has and gauge how the candidate is feeling about the opportunity.
+- Before ending the call, be sure to 1) determine a potential start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops) and 2) schedule a follow-up call to answer any questions.
 
 Attendees: Recruiter, Hiring Manager (optional), Candidate.
 
-To generate the offer summary, click “generate” in the Offer Details section of the candidate’s Greenhouse profile, and select the appropriate offer summary.
-Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager for review.
+To generate the offer summary, click “generate” in the Offer Details section of the candidate’s Greenhouse profile, and select the appropriate offer summary. Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager for review.
 
-Offer Summary call agenda:
+_Preparation_
 
-- The Recruiter (or Hiring Manager if present) kicks off the call to give the candidate feedback and tell why we’re excited about them.
-- The Recruiter will share their screen to display the offer summary document.
-- The Recruiter then covers our compensation philosophy, the compensation specifics, internship start and end dates, and the perks that apply to interns.
-- The Recruiter (and Hiring Manager if present) answers any questions and asks how the candidate is feeling about the opportunity.
-- If there are any outstanding questions, be sure to schedule a follow-up call before ending the conversation.
+- Recruiter needs to ensure the discussed start date falls on the correct Internship Cohort date. We start all interns on the same cohort date, so if the candidate is not able to start on the Cohort Date, Recruiter needs to get approval from VP of People/Talent and Hiring Manager.
+- Make sure you have generated the offer summary letter in advance.
+- Recruiter (and Hiring Manager if attending) calibrate prior to the offer call to make sure there is alignment on how to best approach the call
+- Recruiter (and Hiring Manager if attending) should pick 3-4 of their favorite quotes about the candidate from scorecards submitted by interviewers during the process and reiterate excitement of the potential of them joining the team.
+
+_Offer Summary call walkthrough_
+
+> Each candidate offer summary call will be slightly different, time estimates included as approximation to ensure all points are covered.
+
+- (2 min) The Recruiter (or Hiring Manager if present) kicks off the call to give the candidate feedback and tell them why we’re excited about them. They will read a few of their favorite feedback quotes from the interviewers.
+- (~15 min) Recruiter shares their screen to display the offer summary document and will walk through each slide with the candidate. After each slide, Recruiter will ask the candidate if they have any questions about the information displayed. _Important to ensure the Offer Summary Call is interactive and not a presentation_
+
+  - Slides that the recruiter will cover:
+    - Total Rewards Summary
+    - Your Offer - At a Glance
+    - Your Offer - Perks
+    - Note: Interns are not eligible for Benefits or Stock Options
+
+- (~10 min) Recruiter will ask the candidate how they are feeling about the offer and opportunity to gauge the chances of closing the candidate. The recruiter will ask if they feel comfortable to verbally commit.
+
+  - If YES:
+    - Recruiter reconfirms with candidate a previously discussed start date.
+    - Recruiter covers following topics (Docusign, Welcome email from Ines) etc.
+  - If NO:
+    - Recruiter will ask to address any concerns on the call. If candidate needs time to think through the offer, Recruiter will schedule a follow up call with candidate within 24 hours.
+
+- (1 min) Recruiter informs the candidate that they will send a copy of the offer summary right after the call and to reach out if any questions come up. Recruiter (and Hiring Manager if present) reiterate excitement to wrap up. Once the call ends, Recruiter then proceeds to Step 4.
+
+**For Recruiters:** To see an actual offer summary script, click [HERE](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit).
 
 **Step 4:** Following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc’s the Hiring Manager and VP Talent.
 
@@ -123,7 +151,7 @@ All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recru
 
 **Step 6:** the candidate receives the offer.
 
-COMING SOON: what to do if the candidate declines our offer
+Reference [here](../process/extending_an_offer.md#what-do-to-if-candidate-declines-our-offer) on what to do if a candidate declines our offer.
 
 ### After the Internship offer acceptance
 

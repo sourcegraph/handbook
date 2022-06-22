@@ -143,7 +143,7 @@ Store Completed Success Plans <strong>[Here]</strong>
   <tr>
    <td>What Is Supported in Sourcegraph?
    </td>
-   <td>Guidance provided by Sourcegraph Product and Engineering teams documenting supported features and functionality as well as feature limitations. This is used by CEs to perform technical qualification of customer use cases and configurations during trial planning and prior to trial kickoff.
+   <td>Guidance provided by Engineering teams documenting supported features and functionality as well as feature limitations. This is used by CEs to perform technical qualification of customer use cases and configurations during trial planning and prior to trial kickoff.
 <p>
 <a href="https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279">Link to What Is Supported in Sourcegraph</a>
    </td>
@@ -272,7 +272,7 @@ If there are additional questions, the Product Team member can request a synchro
 
 Because CEs work directly with Sourcegraph users in the course of assessing the technical fit of the product for a prospective customer, they will likely receive feedback about the product and identify product gaps which might potentially block adoption. All such feedback should be shared with the Product Team.
 
-It is important to distinguish all customer feedback CEs receive from what would be considered a product gap. A product gap would be some feedback a CE collects from a prospect during the initial sales cycle, or from an existing customer, that could be within the expected scope of work for the Product and Engineering team. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated into our roadmap. In contrast, a product feature or functionality that does not perform as documented might be a bug and should be handled through Product Support.
+It is important to distinguish all customer feedback CEs receive from what would be considered a product gap. A product gap would be some feedback a CE collects from a prospect during the initial sales cycle, or from an existing customer, that could be within the expected scope of work for Engineering. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated into our roadmap. In contrast, a product feature or functionality that does not perform as documented might be a bug and should be handled through Product Support.
 
 All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../engineering/product/process/surfacing_product_feedback.md).
 

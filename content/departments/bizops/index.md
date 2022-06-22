@@ -17,6 +17,7 @@ The Business Operations & Strategy (BizOps) team is made up of Business Operatio
 
 ## Resources
 
+- [Operating cadence/sprint planning](process/operating_cadence.md)
 - [Teammate onboarding](onboarding/index.md)
 - [User metrics definitions](process/user_definitions.md)
 - [CustomerOps Tools Overview](tools/customer_ops_tools.md)
