@@ -105,16 +105,16 @@ Some common scenarios:
 
 ### Post-mortem
 
-After the incident is resolved, the incident lead:
+After the incident is resolved, the incident lead should follow these steps:
 
-1. Updates the incident status and closes it.
-2. Confirms that the messenger updated any customer communication channels, internal threads, or channels (outside of the incident channel) and social media posts (with marketing’s approval and if necessary) with the latest information.
-3. Updates and closes any relevant public GitHub issues.
-4. [Generate a postmortem](https://docs.incident.io/generating-a-postmortem), documents details and publish it in the [Incidents folder in Google Drive](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F).
-   1. Schedule a [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) if you think it would be valuable.
-5. Create [follow-ups in incident.io](https://app.incident.io/follow-ups) from the "Follow-ups" tab in the incident page. For each follow-up, attach a GitHub issue from the overflow menu (you can choose to have one be created, or link an existing one).
+1. **Update** the incident status and closes it.
+2. **Confirm** that the messenger updated any customer communication channels, internal threads, or channels (outside of the incident channel) and social media posts (with marketing’s approval and if necessary) with the latest information.
+3. **Update and close** any relevant public GitHub issues.
+4. **[Generate a postmortem](https://docs.incident.io/generating-a-postmortem)** and publish it in the [Incidents folder in Google Drive](https://drive.google.com/drive/u/0/folders/1aWKkaSyuLfAP35mPe1pe8niBF4oh0M8F).
+   1. **Schedule** a [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) if you think it would be valuable.
+5. **Create [follow-ups in incident.io](https://app.incident.io/follow-ups)** from the "Follow-ups" tab in the incident page. For each follow-up, **attach a GitHub issue** from the overflow menu (you can choose to have one be created, or link an existing one).
    1. Attaching a GitHub issue makes it easier to ensure a follow-up item is addressed - if the GitHub issue is closed, the follow-up is marked as Resolved in incident.io.
-6. Archive the incident channel.
+6. **Archive** the incident channel.
 
 #### Past incident post-mortems
 
