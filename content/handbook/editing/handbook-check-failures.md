@@ -136,7 +136,6 @@ data/team.yml valid
 data/features.yml valid
 data/product_teams.yml invalid
 data/search must have required property 'title'
-data/product_orgs.yml valid
 ```
 
 The file with invalid YAML will be reported as invalid, and the error will be listed following that line. In the above example, the `data/search` entry is missing a required property—its title.
