@@ -112,4 +112,4 @@ AE new hires focus on the following in the fourth week:
 1. Provide 30 minute pricing model review
 2. Check in to see if they have any outstanding questions from their first month ramp period
 
-If you have any questions about the AE new hire mentor program, reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com) or [trey.sizemore@sourcegraph.com](mailto:trey.sizemore@sourcegraph.com).
+If you have any questions about the AE new hire mentor program, reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com).
