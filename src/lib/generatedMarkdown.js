@@ -243,9 +243,7 @@ export async function generateProductTeamsList() {
     }
     if (productTeam.pmm) {
       const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
-      pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(
-            bioLink
-          )})\n`
+      pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)})\n`
     }
     if (productTeam.issue_labels) {
       for (let index = 0; index < productTeam.issue_labels.length; index++) {
@@ -254,13 +252,13 @@ export async function generateProductTeamsList() {
         }
         if (index < productTeam.issue_labels.length - 1) {
           pageContent += `[${String(
-                productTeam.issue_labels[index]
-              )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])}), `
+            productTeam.issue_labels[index]
+          )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])}), `
         }
         if (index === productTeam.issue_labels.length - 1) {
           pageContent += `[${String(
-                productTeam.issue_labels[index]
-              )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])})`
+            productTeam.issue_labels[index]
+          )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])})`
           pageContent += '\n'
         }
       }
