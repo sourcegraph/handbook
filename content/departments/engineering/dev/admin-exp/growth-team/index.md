@@ -9,17 +9,6 @@ TODO
     <div class="col" style="flex: 1;">
       <div>
         <div style="text-align: center;">
-          <a href="/team" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/anna.png" alt="Picture of Anna Bergevin" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">Anna Bergevin</div>
-        <div style="text-align: center; font-size: 12px;">Product Manager</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
           <a href="/team#murat-sutunc" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/murat.png" alt="Picture of Murat Sutunc" style="background: transparent; width:128px;"/>
           </a>
