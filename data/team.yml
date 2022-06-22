@@ -306,7 +306,7 @@ christine_lovett:
   name: Christine Lovett
   pronouns: she/her
   role: Principal Customer Engineer
-  reports_to: senior_manager_customer_engineering_west
+  reports_to: vp_customer_engineering
   location: Baltimore MD, USA 🇺🇸
   github: christinelovett
   email: christine@sourcegraph.com
@@ -470,7 +470,7 @@ jonah_dueck:
   name: Jonah Dueck
   pronouns: he/him
   role: Customer Engineer
-  reports_to: senior_manager_customer_engineering_west
+  reports_to: vp_customer_engineering
   location: Seattle, WA, USA 🇺🇸
   github: justdueck
   email: jonah@sourcegraph.com
@@ -1064,7 +1064,7 @@ nate_maynard:
   name: Nate Maynard
   pronouns: He/Him
   role: Customer Engineer
-  reports_to: senior_manager_customer_engineering_west
+  reports_to: vp_customer_engineering
   location: Denver, Colorado, USA 🇺🇸
 
   email: nate.maynard@sourcegraph.com
@@ -1655,7 +1655,7 @@ dan_diemer:
   github: dhdiemer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_west
+  reports_to: vp_customer_engineering
   location: Whitefish, MT
   links: '[Spotify](https://open.spotify.com/artist/4dhuJYDtoPxqQCkzAxXXfd), [LinkedIn](https://www.linkedin.com/in/dhdiemer/)'
   pronunciation: Dee-mer
@@ -1822,7 +1822,7 @@ isuru_fonseka:
   name: Isuru Fonseka
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_west
+  reports_to: vp_customer_engineering
   location: Sydney, Australia 🇦🇺
   github: Isuru-F
   email: isuru.fonseka@sourcegraph.com
@@ -2422,7 +2422,7 @@ josé_taylor:
   github: josetaylor06
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: senior_manager_customer_engineering_west
+  reports_to: vp_customer_engineering
   location: San Antonio, TX
   links: '[Personal Website](https://iamjosetaylor.com), [LinkedIn](https://www.linkedin.com/in/josetaylor06/)'
   pronunciation: Hose-a
