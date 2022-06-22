@@ -58,6 +58,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 - `sg setup -check` to quickly generate a report of what you have set up
 - `sg setup -fix` to fix all issues with your dev setup in one go
 - `sg lint -fix` to automatically try and fix your lint issues (only supported by a few linters at the moment, but more can easily be added!)
+- Continuous integration testing for `sg setup`
 
 **`dev/schemadoc`** has been removed and is replaced by `sg migration ...` commands. Example: `sg migration describe -db codeintel --format=psql -force -out internal/database/schema.codeintel.md` to generate the schema for the `codeintel` db thanks to [#35905](https://github.com/sourcegraph/sourcegraph/pull/35905).
 
