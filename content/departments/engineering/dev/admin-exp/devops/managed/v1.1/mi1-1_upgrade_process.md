@@ -2,6 +2,8 @@
 
 ## Prereq
 
+### Environment
+
 You have `go` installed
 
 You have `gcloud-cli` (and you're authenticated!)
@@ -22,15 +24,19 @@ make install
 GOBIN=~/.bin make install
 ```
 
+### Upgrade `managed_instance` terraform module
+
+- Retrieve the latest executors module release version from https://github.com/sourcegraph/terraform-google-executors/tags
+- `git checkout -b upgrade-executors-$version`
+- Open [modules/executors/main.tf](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf) and bump referenced upstream module version if it is outdated
+- Determine the next tag of `mi-module-vx.y.z-va`, e.g. `mi-module-v3.40.1-v1`.
+  - `vx.y.z` should match the sourcegraph release version
+  - `va` is used to track revision to the module in between the same sourcegraph release
+- Do a global string replacement of the referenced module `source` to the next tag for every instances
+  - the reference exists in each `$CUSTOMER/infrastructure.tf` in the `managed_instance` module
+- Open a Pull Request, tag the latest `main` with the above tag
+
 ## Steps
-
-### Ensure we have release a new version of the managed_instance terraform module in `sourcegraph/deploy-sourcegraph-managed`
-
-Check if executors module contains the [latest version](https://github.com/sourcegraph/terraform-google-executors/tags) https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf, and bump the version as needed
-
-After the change is merged on `main`, tag a new version by following the convention of `mi-module-vx.y.z-va`, e.g. `mi-module-v3.40.1-v1`.
-
-Update `ref` to the `managed_instance` module in `infrastructure.tf` to reference the latest tag.
 
 ### Ensure new version of `docker-compose.yaml` file is in the golden directory
 
@@ -68,6 +74,12 @@ Upgrade the deployment. At a high level, this will perform the following steps
 
 ```sh
 mg --customer $CUSTOMER upgrade --target $VERSION
+```
+
+Make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
+
+```sh
+terraform apply
 ```
 
 ### Confirm instance health
