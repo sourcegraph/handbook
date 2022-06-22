@@ -1,12 +1,14 @@
-Talent Team Onboarding
+People & Talent Team Onboarding
 
 # Onboarding
 
-Welcome to Sourcegraph - we're VERY excited to have you on the Talent team! This page describes the onboarding philosophy and process for new talent team members as they onboard, as well as what success looks like [30 / 60 / 90](#30-60-90-day-plan) days in.
+Welcome to Sourcegraph - we're VERY excited to have you on the team! This page describes the onboarding philosophy and process for new People and Talent team members as they onboard, as well as what success looks like within each role at the 1 month, 3 month, 6 month, and 1 year mark.
 
-## Company-wide and Talent-specific Onboarding
+## Company-wide and People/Talent-specific Onboarding
 
 Our goal is to have all talent team members fully ramped by the end of your 4th week. During your first 4 weeks, you will complete a variety of activities intended to both introduce you to the company as a whole, as well as provide you with the knowledge, tools, and support necessary to be set up for success.
+
+## Talent Onboarding
 
 ### Onboarding Tooling
 
@@ -26,18 +28,18 @@ Each new Talent team member is paired with two individuals during their onboardi
 - [Learning how to use our tools](../talent/tools/index.md)
 - [Learning how to extend an offer](../talent/process/extending_an_offer.md)
 
-## High-level Onboarding Overview
+### High-level Onboarding Overview
 
 Below are the goals and expectations for each week of your onboarding.
 
-### Week 1 Goals:
+#### Week 1 Goals:
 
 - Complete through General Company-Wide Onboarding activities: our values, our vision, our culture, what it means to be handbook-first, and how we operate as a business
 - Get all necessary access to tools and logistical setup
 - Learn about our purpose and the value we provide to customers: why does Sourcegraph exist, who uses our product, and how do we add value to our customers' business
 - Learn about the Talent org: who are we, who do we work with, what's our vision and why what we do matters
 
-### Week 2 Goals:
+#### Week 2 Goals:
 
 - Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
 - Learn about the product
@@ -46,19 +48,19 @@ Below are the goals and expectations for each week of your onboarding.
 - Listen to assigned Brighthire recordings
 - Beginning week 2, you'll look to lead your first Recruiter Screen, with your onboarding mentor there to support you.
 
-### Week 3 Goals:
+#### Week 3 Goals:
 
 - COMING SOON
 
-### Week 4 Goals:
+#### Week 4 Goals:
 
 - COMING SOON
 
-## What will success look like
+### What will success look like
 
-We want every CE to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. In the following section details what success looks like within the first year for various roles.
+We want everyone to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. The following section details what success looks like within the first year for various roles.
 
-### Recruitment Operations Specialist (level 2)
+#### Recruitment Operations Specialist (level 2)
 
 **Within one month, you will…**
 
@@ -92,7 +94,7 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
 - Identify areas of growth and share them continuously in your 1:1s.
 
-### Sourcer (level 2)
+#### Sourcer (level 2)
 
 **Within one month, you will…**
 
@@ -130,13 +132,14 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
 - Identify areas of growth and share them continuously in your 1:1s.
 
-### Recruiter (level 3)
+#### Recruiter (level 3)
 
 **Within one month, you will...**
 
 - Begin 1:1’s with your Manager, understand your 30-60-90 day plan, meet & shadow current members of the Sourcegraph team, and delve into your role
 - Set your OKRs (Objectives and Key Results) with your Manager and develop an action plan to achieve them.
-- Meet key hiring managers and executive leadership you will be supporting - you will be meeting with them weekly and they will be key relationships for you throughout your [role.Begin](http://role.begin/) recruiting on openings and become ingrained in the business with assistance from your team and the VP, Talent.
+- Meet key hiring managers and executive leadership you will be supporting - you will be meeting with them weekly and they will be key relationships for you throughout your role.
+- Begin recruiting on openings and become ingrained in the business with assistance from your team and the VP, Talent.
 
 **Within three months, you will...**
 
@@ -158,10 +161,104 @@ We want every CE to feel certain and comfortable with where they are at currentl
 - Provide a candidate experience that is considered to be the best they’ve ever had.
 - Train and develop new team members.
 
-### Senior Recruiter (level 4)
+#### Senior Recruiter (level 4)
 
 - COMING SOON
 
-### Manager
+#### Manager
 
 - COMING SOON
+
+## People Onboarding
+
+### Onboarding Tooling
+
+As a company, we use [Process.st](https://app.process.st/reports/) to guide each individuals' onboarding. Your own custom onboarding plan will be provided to you prior to your first day and will serve as your guide.
+
+### Onboarding Support
+
+Each new People team member is paired with two individuals during their onboarding time. Both of these assignments will be indicated in your Process.st checklist.
+
+- An [onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md): your onboarding buddy is assigned as part of our company-wide onboarding program. For the People team, this will be a peer from an adjacent team with whom you'll work closely.
+- An onboarding mentor: your onboarding mentor will be someone from the People team with whom you'll have regular check-ins and will be there to help guide you.
+
+### Helpful links & resources
+
+COMING SOON
+
+### High-level Onboarding Overview
+
+Below are the goals and expectations for each week of your onboarding.
+
+#### Week 1 Goals:
+
+- Complete through General Company-Wide Onboarding activities: our values, our vision, our culture, what it means to be handbook-first, and how we operate as a business
+- Get all necessary access to tools and logistical setup
+- Learn about our purpose and the value we provide to customers: why does Sourcegraph exist, who uses our product, and how do we add value to our customers’ business
+- Learn about the People Team: who are we, who do we work with, what’s our vision and why what we do matters
+
+#### Week 2 Goals:
+
+- Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
+- More COMING SOON
+
+#### Week 3 Goals:
+
+COMING SOON
+
+#### Week 4 Goals:
+
+COMING SOON
+
+### What will success look like
+
+We want everyone to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. The following section details what success looks like within the first year for various roles.
+
+#### People Operations Coordinator
+
+**Within one month, you will...**
+
+- Start building a trusting relationship with your team and other teammates
+- Understand the what, why, and how of the projects that your team is working on and how those projects contribute to our company goals.
+- Experience our robust onboarding process first-hand, not only for your own development, but to understand how onboarding works within a company like Sourcegraph
+- Begin completing tasks that give you exposure to the operations of a People team
+
+**Within three months, you will...**
+
+- Own various tasks that are critical to our operations, such as offboarding, critical training and checks
+- Handle questions related to our operations and benefits with confidence and speed
+- Have gained exposure to, and had an opportunity to contribute to, the thinking and implementation of those initiatives and learnt from the outcomes
+
+**Within six months, you will...**
+
+- Understand how a People team is structured to support a scaling tech company and how it prioritizes initiatives
+- Make suggestions for how to improve various aspects of our People operations as you see the opportunities to automate and improve our ways of working to be more compliant and respond more effectively
+- Handle questions related to our operations and benefits with confidence and speed, but also acting on trends for common questions, and recommending ways to improve communication and/or access to information
+- Have gained exposure to, and had an opportunity to contribute to, the thinking and implementation of other initiatives in the team
+
+**Within one year, you will...**
+
+- Have had robust exposure to all aspects of People Operations and made a significant contribution to how we scale the team and provide a great experience to our teammates
+- Understand more about what aspects of the People function allow you to apply your strengths, and where you want to learn more, and have the opportunity to expand as the team grows
+
+#### People Partner
+
+**Within one month, you will… **
+
+- Have completed the onboarding process yourself, and understand what it looks like for other parts of the business
+- Build relationships with each member of the team and understand how the team supports the company and works together
+- Understand the team’s quarterly objectives and get an idea of how you contribute to the team
+- Connected with each of the managers in the business to build a relationship and begin to understand their needs
+- Get up to speed with all our guidelines, benefits and ways of working.
+
+**Within three months, you will...**
+
+- Have a clear sense of how you contribute to the success of the team and the bigger company
+- Have a solid understanding of all our systems and how they work together
+- Be autonomously helping managers with day-to-day guidance and coaching on their people strategies and initiatives, as well as providing effective coaching and HR support around challenging situations and people dynamics
+- Start contributing new insights to inform People team initiatives, and taking the lead if appropriate
+
+**Within six months, you will...**
+
+- Be a trusted advisor to your teams, informing their people strategies and connecting this to team initiatives with ease and flow, helping the People team offer an exceptional service to the business.
+- Be leading our in-house manager training and liaising with our L&D function to help ensure that our opportunities touch the right things.

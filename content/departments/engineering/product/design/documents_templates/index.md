@@ -25,7 +25,7 @@ We have several handy templates that we use to get going quick on new work.
 ## Docs
 
 - [RFC template](https://docs.google.com/document/d/1vUp1A-j5xxnPn_rv3x3rWo8tbXJhIA5NggHLU6UofUc/edit?usp=sharing), which you should duplicate for all new RFCs.
-- [One-page research plan template](https://docs.google.com/document/d/14xwjn7y6H5JbJEFOqNtlZD54u6etUZt_oHrOHLwmrtg/edit?usp=sharing), which you can use to plan research.
+- [One-page research plan template](https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#heading=h.g0gjwch98szj), which you can use to plan research.
 - [One-page design challenge template](https://docs.google.com/document/d/1sEAZAl4NXTY5R1aklPv70_gg-ASbQDgqy0bT5fnJhoU/edit?usp=sharing), which you can use to frame a design problem.
 
 ## Airtable

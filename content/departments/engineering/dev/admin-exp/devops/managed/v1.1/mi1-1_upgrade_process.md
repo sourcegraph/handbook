@@ -2,6 +2,8 @@
 
 ## Prereq
 
+### Environment
+
 You have `go` installed
 
 You have `gcloud-cli` (and you're authenticated!)
@@ -21,6 +23,18 @@ make install
 # add $HOME/.bin to your path
 GOBIN=~/.bin make install
 ```
+
+### Upgrade `managed_instance` terraform module
+
+- Retrieve the latest executors module release version from https://github.com/sourcegraph/terraform-google-executors/tags
+- `git checkout -b upgrade-executors-$version`
+- Open [modules/executors/main.tf](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf) and bump referenced upstream module version if it is outdated
+- Determine the next tag of `mi-module-vx.y.z-va`, e.g. `mi-module-v3.40.1-v1`.
+  - `vx.y.z` should match the sourcegraph release version
+  - `va` is used to track revision to the module in between the same sourcegraph release
+- Do a global string replacement of the referenced module `source` to the next tag for every instances
+  - the reference exists in each `$CUSTOMER/infrastructure.tf` in the `managed_instance` module
+- Open a Pull Request, tag the latest `main` with the above tag
 
 ## Steps
 
@@ -62,12 +76,28 @@ Upgrade the deployment. At a high level, this will perform the following steps
 mg --customer $CUSTOMER upgrade --target $VERSION
 ```
 
+Make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
+
+```sh
+terraform apply
+```
+
 ### Confirm instance health
 
 Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
 ```
 mg --customer $CUSTOMER check
+```
+
+### Upgrade executors (optional)
+
+If the instance has executors enabled, we need to apply the new executors module as well
+
+> You should be expecting some `replacement` on the executors docker-mirror compute instance and the instance group
+
+```sh
+terraform apply
 ```
 
 ### Wrapping up

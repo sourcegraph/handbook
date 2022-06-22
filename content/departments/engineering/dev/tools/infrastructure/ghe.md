@@ -55,7 +55,7 @@ Sourcegraph has a GitHub Enterprise license through their [GitHub Developer Prog
 
 Going forward we should consider joining their new [Partner Program](https://partner.github.com/) for continued assistance.
 
-Please note to manage the license you need access to the GitHub Enterprise portal: https://enterprise.github.com (_Currently only Beyang and Jean can access it and add new members as needed._)
+Please note to manage the license you need access to the GitHub Enterprise portal: https://enterprise.github.com (_Currently only Beyang can access it and add new members as needed._)
 
 If you need to renew the license follow the following steps:
 

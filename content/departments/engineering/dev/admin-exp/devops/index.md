@@ -23,10 +23,6 @@ This team is responsible for
 - Cloud monitoring infrastructure (Prometheus / Grafana)
 - [Managed instances](./managed/index.md)
 
-## Members
-
-{{generator:product_team.devops}}
-
 ## Contact & Support Guideline
 
 - The best way to contact the `cloud-devops` team is in the #cloud-devops slack channel. If it is urgent, please cc `@devops-support` in your message.

@@ -490,46 +490,6 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 - Duration: 1 hour
 - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
-### Director of Product
-
-#### Working session
-
-- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
-- Duration: 1 hour
-- Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
-
-#### Meet your team
-
-- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../../engineering/product/index.md#product).
-- Duration: 45 min
-- Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
-
-#### Design and engineering collaboration
-
-- Interviewer(s): Product Designer and Engineering Manager.
-- Duration: 30 mins
-- Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organized plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
-
-### Director of Product Education
-
-#### Async strategy and writing project
-
-- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
-- Duration: ~1 hour
-- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
-
-#### Working session on strategy & Leadership
-
-- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
-- Duration: 1 hour
-- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
-
-#### Cross-functional interview
-
-- Interviewer: [Emily Chapman](../../../../team/index.md#emily-chapman) and [Quinn Keast](../../../../team/index.md#quinn-keast)
-- Duration: 60 mins
-- Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
-
 ### Product manager
 
 #### Async writing project [(RFC Project)](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md)

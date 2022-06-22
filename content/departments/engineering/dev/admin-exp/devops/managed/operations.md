@@ -10,7 +10,7 @@ Operations guides for [managed instances](./index.md).
 - To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
 - To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
-* [Managed instances operations](#managed-instances-operations)
+- [Managed instances operations](#managed-instances-operations)
   - [Red/black deployment model](#redblack-deployment-model)
   - [Accessing the instance](#accessing-the-instance)
     - [SSH access](#ssh-access)
@@ -20,10 +20,21 @@ Operations guides for [managed instances](./index.md).
     - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
     - [Finding the external IPs](#finding-the-external-ips)
     - [Resizing Disks](#resizing-disks)
+    - [Capturing network traffic for analysis on the instance](#capturing-network-traffic-for-analysis-on-the-instance)
+  - [Changing the instance](#changing-the-instance)
+  - [Availability of the instance](#availability-of-the-instance)
+    - [Uptime Checks](#uptime-checks)
+    - [Performance Checks](#performance-checks)
+  - [Confirm instance health](#confirm-instance-health)
   - [Instance technicalities](#instance-technicalities)
     - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
     - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
     - [Debugging startup scripts](#debugging-startup-scripts)
+    - [Viewing container logs](#viewing-container-logs)
+    - [Fix corrupted repo on `gitserver`](#fix-corrupted-repo-on-gitserver)
+  - [Disaster Recovery and Business Continuity Plan](#disaster-recovery-and-business-continuity-plan)
+  - [Troubleshooting](#troubleshooting)
+    - [FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"](#faq-googleapi-error-400-the-network_endpoint_group-resource--is-already-being-used)
 
 ## Red/black deployment model
 
@@ -167,6 +178,24 @@ To increase the disk size:
 
 Running these commands will have no impact on a running deployment and can be safely performed without interruption to the customer.
 
+### Capturing network traffic for analysis on the instance
+
+In some cases, you may need to capture network traffic for debugging issues on the instance. We use Wireshark and tcpdump to do this.
+First, find the service you are interested in, for example, to capture traffic to/from the `sourcegraph-frontend` service:
+
+```sh
+  sudo tcpdump -i any -s 65535 'port 3080' -w /tmp/sourcegraph-frontend.pcap
+```
+
+Next you need to `scp` this from the instance:
+
+```sh
+   # after eval $(mg workon)
+   gcloud compute scp root@default-$DEPLOYMENT-instance:/tmp/sourcegraph-frontend.pcap . # copy from instance
+```
+
+Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
+
 ## Changing the instance
 
 <span class="badge badge-note">SOC2/CI-98</span>
@@ -178,18 +207,19 @@ The state of managed instances infrastructure and deployment artifact are stored
 
 We are aligned with the [company-wide testing philosophy](https://docs.sourcegraph.com/dev/background-information/testing_principles#policy). All changes to above repositories have to be done via a Pull Request, and the Pull Request requires a [test plan](https://docs.sourcegraph.com/dev/background-information/testing_principles#test-plans) in the description to detail how to validate the change. Additionally, the Pull Request will require at least one approval prior to merging. This ensure we establish a proper audit trail of what's changed and the reason behind it.
 
-## Avaiability of the instance
-
-<span class="badge badge-note">SOC2/CI-87</span>
-<span class="badge badge-note">SOC2/CI-25</span>
-
-We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
+## Availability of the instance
 
 ### Uptime Checks
+
+<span class="badge badge-note">SOC2/CI-87</span>
+
+We are aligned with the [company-wide incident response playbook](../../../process/incidents/index.md) to handle managed instances downtime.
 
 We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
 ### Performance Checks
+
+<span class="badge badge-note">SOC2/CI-25</span>
 
 We utilize the Sourcegraph built-in [alerting](https://docs.sourcegraph.com/admin/observability/alerting) to monitor application-level metrics. We identify a list of critical metrics that are representation on the overall system performance, and the alert is delivered to Opsgenie. Opsgenie will notify On-Call DevOps engineers](../index.md#on-call) and the On-Call engineers will proceed to investigate and ensure we reach to a resolution.
 
@@ -284,11 +314,13 @@ Context of why this exists:
 
 - https://github.com/sourcegraph/sourcegraph/issues/25264
 - https://github.com/sourcegraph/customer/issues/887
+- https://github.com/sourcegraph/customer/issues/1014#issuecomment-1151489754
 
 A broken repo can be identified by
 
 - Checking https://sourcegraph.example.com/site-admin/repositories?status=failed-fetch
 - `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
+- `git prune` and `git fetch` operations failing when run inside gitserver on the repo directly
 
 Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
 
@@ -300,7 +332,17 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    export CUSTOMER=<customer_or_instance_name>
    ```
 
-2. Run the following script
+1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
+
+```sh
+mg ssh
+docker exec -it gitserver-0 sh
+cd /data/repos/<repo_name>
+git prune && git fetch
+# look for errors, no output indicates clean repo
+```
+
+1. Run the following script to have repo-updater queue an update
 
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
