@@ -24,6 +24,14 @@ GOBIN=~/.bin make install
 
 ## Steps
 
+### Ensure we have release a new version of the managed_instance terraform module in `sourcegraph/deploy-sourcegraph-managed`
+
+Check if executors module contains the [latest version](https://github.com/sourcegraph/terraform-google-executors/tags) https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf, and bump the version as needed
+
+After the change is merged on `main`, tag a new version by following the convention of `mi-module-vx.y.z-va`, e.g. `mi-module-v3.40.1-v1`.
+
+Update `ref` to the `managed_instance` module in `infrastructure.tf` to reference the latest tag.
+
 ### Ensure new version of `docker-compose.yaml` file is in the golden directory
 
 If they are not, download the file and open a PR to commit the file prior to upgrade
@@ -68,6 +76,16 @@ Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
 ```
 mg --customer $CUSTOMER check
+```
+
+### Upgrade executors (optional)
+
+If the instance has executors enabled, we need to apply the new executors module as well
+
+> You should be expecting some `replacement` on the executors docker-mirror compute instance and the instance group
+
+```sh
+terraform apply
 ```
 
 ### Wrapping up
