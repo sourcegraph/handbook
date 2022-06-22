@@ -23,7 +23,8 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
 - Backend platform
   - [`lib/errors`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/errors): error types for Sourcegraph backend services
-  - [`lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log): standardized logging for Sourcegraph backend services + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_logging)
+  - [`log`](https://sourcegraph.com/github.com/sourcegraph/log/-/tree): standardized logging for Sourcegraph backend services + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_logging)
+  - [`run`](https://sourcegraph.com/github.com/sourcegraph/run/-/tree): execute commands and manipulate command output in Go experiment
   - [`internal/observation`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/observation): all-in-one operation-oriented observability primitives + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_observability)
   - Supporting test standards and infrastructure
   - Packaging infrastructure (e.g. base Docker images)
