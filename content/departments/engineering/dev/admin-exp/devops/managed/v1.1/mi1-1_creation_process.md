@@ -6,7 +6,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Prepare your environment:
-
+   - `export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)`
    - `export VERSION=v<MAJOR.MINOR.PATCH>`
    - `export COMPANY=$COMPANY`
    - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
