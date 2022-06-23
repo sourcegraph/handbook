@@ -75,7 +75,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    "auth.passwordResetLinkExpiry": 86400, // 24 hours
    ```
 1. Enable metrics collection and GCP alerts for created Managed Instance via [this action](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
-1. Enable security audit logging via `terraform apply` in [infrastructure reposiotry](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
+1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
@@ -92,4 +92,4 @@ To provide the customer access to the instance:
 
 ## Configuring License, SSO, and repositories
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+The instance is handed off to CE at this point, CE will schedule a call with the customer (including a team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. See [CE docs](../../../../../ce-support/ce/process/license_keys.md)
