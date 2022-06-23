@@ -43,7 +43,7 @@ GOBIN=~/.bin make install
 If they are not, download the file and open a PR to commit the file prior to upgrade
 
 ```sh
-curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml
+curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml || echo "failed to download"
 ```
 
 ### Ensure `config.yaml` file in customer directory is up-to-date
@@ -76,7 +76,9 @@ Upgrade the deployment. At a high level, this will perform the following steps
 mg --customer $CUSTOMER upgrade --target $VERSION
 ```
 
-Make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
+(Optional) If the instance has executors enabled, make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
+
+> You should be expecting some `replacement` on the executors docker-mirror compute instance and the instance group
 
 ```sh
 terraform apply
@@ -88,16 +90,6 @@ Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
 ```
 mg --customer $CUSTOMER check
-```
-
-### Upgrade executors (optional)
-
-If the instance has executors enabled, we need to apply the new executors module as well
-
-> You should be expecting some `replacement` on the executors docker-mirror compute instance and the instance group
-
-```sh
-terraform apply
 ```
 
 ### Wrapping up

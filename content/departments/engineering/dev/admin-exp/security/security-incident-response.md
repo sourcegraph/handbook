@@ -1,9 +1,10 @@
 # Security Incident Response Policy
 
 **Policy Owner:** security@sourcegraph.com
-**Policy Authors:** André Eleuterio, Dan Mckean
-**Approved by:** Bill Creager, Director of Platform and Infrastructure
+**Policy Authors:** André Eleuterio, Dan Mckean, Feroz Salam
+**Approved by:** Diego Comas, Security Lead
 **Effective Date:** July 31st 2021
+**Last Revised:** June 23rd, 2022
 
 ## Purpose
 
@@ -15,17 +16,22 @@ This policy covers all information security or data privacy events or incidents.
 
 ## Incident and Event Definitions
 
-A security event is an observable occurrence relevant to the confidentiality, availability, integrity, or privacy of company controlled data, systems or networks.
-A security incident is a security event which results in loss or damage to the confidentiality, availability, integrity, or privacy of company controlled data, systems or networks.
+- A security event is an observable occurrence relevant to the confidentiality, availability, integrity, or privacy of company controlled data, systems or networks.
+- A security incident is a security event which results in loss or damage to the confidentiality, availability, integrity, or privacy of company controlled data, systems or networks.
 
 ## Incident Reporting & Documentation
 
 ### Reporting
 
-If a Sourcegraph employee, contractor, user, or customer becomes aware of an information security event or incident, possible incident, imminent incident, unauthorized access, policy violation, security weakness, or suspicious activity, then they shall immediately report the information using ALL of the following communication channels:
+If a Sourcegraph employee, contractor, user, or customer becomes aware of any
+possible information security event or incident, unauthorized access, policy violation,
+security weakness, or suspicious activity, they can report the incident by emailing
+security@sourcegraph.com.
 
-- Email security@sourcegraph.com information or reports about the event or incident
-- Message @security in any open (non-private) Sourcegraph Slack channel
+If there is strong reason to believe that the possible security incident is ongoing and
+could have significant impact to data or systems belonging to Sourcegraph or its
+clients, the incident should be raised by emailing security-emergency@sourcegraph.com.
+This method should be used with caution as it will page the Security team immediately.
 
 Reports should include specific details about what has been observed or discovered.
 
