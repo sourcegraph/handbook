@@ -2,7 +2,7 @@
 
 <span class="badge badge-note">SOC2/CI-98</span>
 
-_Please follow this [guidance](#contributing-to-this-page) on how to contribute to this page._
+> NOTE: Please follow [this guidance](#contributing-to-this-page) on how to contribute to this page.
 
 This document explains the workflow for driving changes on the Sourcegraph software application.
 
@@ -10,16 +10,16 @@ This document explains the workflow for driving changes on the Sourcegraph softw
 
 Sourcegraph uses GitHub issues to track and drive changes to its application. They are the single source of truth, and are structured as following:
 
-- Roadmap items
+- Roadmap issues
   - Tracking issues
     - Standard issues
 
 ### Roadmap items
 
-At the very top, Sourcegraph uses roadmap items, found in the [product and engineering roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
+At the very top, Sourcegraph uses roadmap issues, found in the [product and engineering roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
 Each individual issue is tagged with their owning organization, owning team and assignees, who are in charge of updating the issue during the quarter.
 
-The issue content contains the following sections:
+A roadmap issue contains the following sections:
 
 - Problem definition
 - Measure of success
