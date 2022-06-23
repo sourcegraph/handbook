@@ -67,12 +67,12 @@ additionalAdmins:
 mg init-instance $CUSTOMER_ADMIN_EMAIL
 ```
 
-1. Commit the changes to `config.yaml`, create a PR for review, apply and merge
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
+1. Commit all changes
 1. Enable application performance metrics via
 
 ```bash
-mg --customer=$COMPANY sync-alerts
+mg sync-alerts
 ```
 
 1. Enable metrics collection and GCP alerts for the new instance by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored)
@@ -80,6 +80,8 @@ mg --customer=$COMPANY sync-alerts
 - cd `monitoring`
 - add new map entry to `monitored_projects` in `variables.tf`
 - run `terraform apply`
+
+1. Commit the last changes, create a PR for review, apply and merge
 
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../../process/releases/upgrade_managed_issue_template.md).
