@@ -69,12 +69,6 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. Commit all changes
-1. Enable application performance metrics via
-
-   ```bash
-   mg sync-alerts
-   ```
-
 1. Enable metrics collection and GCP alerts for the new instance:
 
    - cd `monitoring`
