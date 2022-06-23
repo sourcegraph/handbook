@@ -38,7 +38,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    mg check
    ```
 
-1. In the `$COMPANY` directory run `terraform fmt`, create a PR for review, apply and merge
+1. In the `$COMPANY` directory run `terraform fmt` and commit any changes
 
 1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
 
@@ -67,6 +67,7 @@ additionalAdmins:
 mg init-instance $CUSTOMER_ADMIN_EMAIL
 ```
 
+1. Commit the changes to `config.yaml`, create a PR for review, apply and merge
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. Enable application performance metrics via
 
