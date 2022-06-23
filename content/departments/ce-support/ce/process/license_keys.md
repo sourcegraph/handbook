@@ -50,7 +50,8 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 
 As part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../engineering/dev/admin-exp/devops/managed/creation_process.md#configuring-license-sso-and-repositories)
 we ask CE to create the license. However, the CE needs to provision additional licenses to account for Sourcegraph administrators.
-The number of additional licenses is determined by the number of [members of the cloud team](https://groups.google.com/a/sourcegraph.com/g/cloud-team/members) (currently 6).
+The number of additional licenses is determined by the number of [members of the cloud team](https://groups.google.com/a/sourcegraph.com/g/cloud-team/members) but we reccomend a standard buffer of 10.
+
 
 ### License key tags
 
