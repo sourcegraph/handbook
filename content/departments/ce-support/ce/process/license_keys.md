@@ -52,8 +52,6 @@ As part of the Managed Instance creation process, the CE should create a license
 we ask CE to create the license. However, the CE needs to provision additional licenses to account for Sourcegraph administrators.
 The number of additional licenses is determined by the number of [members of the cloud team](https://groups.google.com/a/sourcegraph.com/g/cloud-team/members) (currently 6).
 
-
-
 ### License key tags
 
 - **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.
