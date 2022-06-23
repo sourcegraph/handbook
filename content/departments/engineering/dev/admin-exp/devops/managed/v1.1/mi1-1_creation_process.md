@@ -4,11 +4,6 @@ Creating a new [managed instance](./index.md) involves following the steps below
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
-1. Create a new GCP project for the instance by adding it to the [`managed_projects` tfvar in the infrastructure repo's `gcp/projects/terraform.tfvars`](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24%40main+managed_projects+%3D+%7B+:%5B_%5D+%7D&patternType=structural)
-   - It will look something like `sourcegraph-managed-$COMPANY = { ... }` - refer to the existing variables for more details. If you customize the `sourcegraph-managed` prefix, make sure to update the PROJECT_PREFIX variable in the below instructions.
-   - Due to the amount of service APIs that are defined in this project, run Terraform with increased parallelism to prevent waiting a long time for the plan to form:
-     `terraform apply -parallelism=100`
-   - Ensure that you commit and push the `terraform.tfstate` file to GitHub after running Terraform!
 1. Clone and `cd deploy-sourcegraph-managed/`
 1. Prepare your environment:
 
@@ -21,6 +16,12 @@ For basic operations like accessing an instance for these steps, see [managed in
      - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
+1. Create a new GCP project for the instance by:
+
+- Adding it to the [`managed_projects` tfvar in `gcp/projects/terraform.tfvars`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/gcp/projects/terraform.tfvars)
+- Apply terraform in `gcp/projects` folder - due to the amount of service APIs that are defined in this project, run Terraform with increased parallelism to prevent waiting a long time for the plan to form:
+  `terraform apply -parallelism=100`
+
 1. Ensure the target version of docker-compose file is in the golden directory, it should be named `docker-compose.x.y.z.yaml`
 1. ` ./util/create-managed-instance-new.sh $COMPANY` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Replace base `docker-compose.yaml` to use golden symlink: `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.<MAJOR.MINOR.PATCH>.yaml docker-compose.yaml && rm ../VERSION && cd ../../`
@@ -28,21 +29,15 @@ For basic operations like accessing an instance for these steps, see [managed in
 
    > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
 
-1. Ensure you are using the version of Terraform indicated in `.tool-versions` using `tfenv`
-1. In `deploy-sourcegraph-managed/$COMPANY/gcp-tfstate` run `terraform init && terraform apply -var-file=../terraform.tfvars && git add . && git commit -m 'initialize GCP tfstate bucket'`
-
-   > NOTE: You can safely ignore the warnings from `terraform apply`.
-
-1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n1-standard-8".
+1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n2-standard-8".
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
-1. In the infrastructure repository, [create a DNS entry](https://github.com/sourcegraph/infrastructure/blob/main/dns/sourcegraph.managed.tf) that points `$PROJECT_SLUG` to the `default-global-address` (`gcloud compute addresses list --filter="name:( default-global-address )" --project=$PROJECT_ID`) and follow the process there to `asdf exec terraform apply` it. If the instance is Public, set `proxied` to `true`. If it's Private, set it to `false`.
-1. In the GCP web UI under **Network services** > **Load balancers** > select the load balancer > watch the SSL certificate status. It may take some time for it to become active (~1h41m) / for Google to see the DNS change from Cloudflare. Confirm it is active by following ["Access through the GCP load balancer as a user would"](../operations.md#access-through-the-gcp-load-balancer-as-a-user-would).
-1. Create a PR for review, apply and merge
 1. Check if all is running
 
    ```bash
    mg --customer=$COMPANY check
    ```
+
+1. Create a PR for review, apply and merge
 
 1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
 
@@ -60,9 +55,16 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. Initialize the instance and copy the password reset link that is generated
 
-   ```bash
-   mg init-instance $CUSTOMER_ADMIN_EMAIL
-   ```
+Note: if added in MI template, add CE email in `config.yaml`:
+
+```
+additionalAdmins:
+- CE_NAME@sourcegraph.com
+```
+
+```bash
+mg init-instance $CUSTOMER_ADMIN_EMAIL
+```
 
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. Enable application performance metrics via
@@ -71,7 +73,13 @@ For basic operations like accessing an instance for these steps, see [managed in
 mg --customer=$COMPANY sync-alerts
 ```
 
-1. Enable metrics collection and GCP alerts for the new instance by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
+1. Enable metrics collection and GCP alerts for the new instance by following [these instructions](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored)
+
+- cd `monitoring`
+- add new map entry to `monitored_projects` in `variables.tf`
+- run `terraform apply`
+
+1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../../process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access

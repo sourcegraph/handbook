@@ -2,7 +2,7 @@
 
 ## Quicklinks
 
-- Enablement session recording (https://sourcegraph.zoom.us/rec/share/09fYEk1hCuhIbVDV2JC2RekqS8uR44y1BrN29lOOp89rlpjQoRlvWI4xgV-SNQys.ZBk8NYM-ZsU6rKDs)
+- Enablement [session recording](https://sourcegraph.zoom.us/rec/share/09fYEk1hCuhIbVDV2JC2RekqS8uR44y1BrN29lOOp89rlpjQoRlvWI4xgV-SNQys.ZBk8NYM-ZsU6rKDs)
 - Demo video
 - [Release post](https://github.com/sourcegraph/about/pull/5471)
 
@@ -22,7 +22,7 @@ For example, a complex Java refactor could take 15 min to run per repository. Ru
 
 [Running batch changes server-side (beta)](https://docs.sourcegraph.com/batch_changes/explanations/server_side) removes the need for running that CLI locally to create the batch changes. Instead, the batch change will be ran on one or multiple separate compute instance.
 
-<object data="server-side-run.png"></object>
+<object data="server-side-run.svg"></object>
 
 This feature requires to setup [executors](https://docs.sourcegraph.com/admin/executors), which Sourcegraph will use to offload expensive tasks. The best way to think about executors is that they're much like CI agents. Executors can also be used to run Code Intelligence [auto-indexing](https://docs.sourcegraph.com/code_intelligence/how-to/enable_auto_indexing) (experimental).
 
@@ -53,3 +53,22 @@ This is a free feature for all the customers of the Batch Changes add-on.
 - It is moving to Beta after we got positive feedback from a few early adopters during the `Experimental` phase.
 - Limitations are listed out in the [Running batch changes server-side](https://docs.sourcegraph.com/batch_changes/explanations/server_side#limitations) docs.
 - The main limitation to keep in mind is that we don't offer managed executors. Customers on managed instances can enable this feature, but they will need to self-host executors, and connect them to their manage instance.
+
+## FAQ
+
+#### Are there customers currently running batch changes server-side?
+
+Yes. You can track this [here](https://github.com/orgs/sourcegraph/projects/232)
+
+#### Running batch changes server-side on managed instances requires customers to self-host executors. How much work is that?
+
+Self-hosting executors requires customers to provision executors using Terraform modules (on AWS/GCP) and upgrade them monthly at each Sourcegraph release. While this is relatively automated, it still requires a commitment from the site-admin.
+In the current state, we should only offer this feature to self-hosted customers, and to managed instances customers with a clear need to run batch changes at a large scale.
+
+#### Will Sourcegraph provide managed executors for managed instances customers at some point?
+
+Yes, this is on our long term roadmap.
+
+The main reason we're not offering managed executors today is that some usage patterns can generate meaningful compute costs, that we would need to bill for. This requires setting up a billing infrastructure and clearly defining the pricing model for executors. We are currently collecting customer feedback and usage data to inform this decision.
+
+The first iteration of managed executors for managed instance customers will likely be a free tier of usage, with a hard cap. All managed instances customers with the Batch Changes add-on will be able to run batch changes server-side up to a certain amount of monthly compute minutes. Once they exceed this amount, they will have to self-host executors. Also see [RFC 563 PRIVATE APPROVED: Executors pricing and billing for managed instances](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18).

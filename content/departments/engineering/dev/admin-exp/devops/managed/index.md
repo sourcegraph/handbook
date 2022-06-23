@@ -15,7 +15,7 @@ For operation guides (e.g. upgrade process), please see [managed instances opera
   - [Monitoring and alerting](#monitoring-and-alerting)
   - [Access](#access)
 - [Cost estimation](cost_estimation.md)
-- [Requesting a managed instance](#requesting-a-managed-instance)
+- [Requesting a managed instance](#workflow)
 - [SLAs for managed instances](#slas-for-managed-instances)
 - [Operations for managed instances](#operations)
 - [FAQ](#faq)
@@ -85,7 +85,7 @@ Incidents which affect managed instances handled according to our [incidents](..
 
 Managed instances are Docker Compose deployments only today. We do not currently offer Kubernetes managed instances.
 
-These managed Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU / 360 GB memory which is typically enough for most medium to large enterprises.
+These managed Docker Compose deployments can scale up to the largest GCP instance type available, n2-standard-128 with 128 CPU / 512 GB memory which is typically enough for most medium to large enterprises.
 
 We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
 
