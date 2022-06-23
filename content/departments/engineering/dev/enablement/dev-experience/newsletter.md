@@ -23,6 +23,12 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 You can find the new docs in [How to add logging](https://docs.sourcegraph.com/dev/how-to/add_logging)!
 
+**Investigating flakes in CI**: Have you ever merged a PR, got pinged in #buildkite-main, and thought "gosh this test failure has nothing to do with my changes 😭"? Well with a few quick steps you can easily determine if you've been hit with a frequently flaking test that should be disabled ASAP, and contribute to keeping our pipelines healthy! Check out our new Loom demo to learn more:
+
+[![how to find out if a CI failure is a recurring flake](https://cdn.loom.com/sessions/thumbnails/58cedf44d44c45a292f650ddd3547337-1655933919745-with-play.gif)](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337)
+
+More details are available in the handbook: [Grafana Cloud - CI logs](https://handbook.sourcegraph.com/departments/engineering/dev/tools/observability/cloud/#ci-logs), and if you have any questions please reach out in #dev-experience!
+
 ### Observability features
 
 **Sentry errors**: Errors are now automatically reported to Sentry from warning-level and above logs entries from [`sourcegraph/log` loggers](https://docs.sourcegraph.com/dev/how-to/add_logging) that include an error field, which can be added using the `log.Error` or `log.NamedError` field constructors, for example:
