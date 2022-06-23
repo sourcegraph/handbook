@@ -2662,3 +2662,13 @@ alex_mathison:
   name: Alex Mathison
   role: Senior People Partner
   reports_to: director_people
+
+jamie_lindsay:
+  name: Jamie Lindsay
+  pronouns: Concord, NC, USA
+  role: Sales Enablement Lead
+  reports_to: senior_manager_value_engineering
+  email: jamie.lindsay@sourcegraph.com
+  github: jamielndsy
+  links: '[LinkedIn](https://www.linkedin.com/in/jamielinds/)'
+  description: 'Jamie lives in Concord, NC with her husband and daughter. Her family is originally from Medellin, Colombia 🇨🇴 and has lived all around the United States. Most recently was located in Salt Lake City, Utah, USA where she gain a passion for snowboarding that is difficult to fulfill in the hills of North Carolina. Outside of work she enjoys trying out new recipes and spending time outside. She has been working in tech her entire career and is passionate about helping sellers expedite their success.'  
