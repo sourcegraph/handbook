@@ -16,7 +16,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 - #security channel on Slack.
 - @sourcegraph/security on GitHub.
 - [report a vulnerability](reporting-vulnerabilities.md)
-- [report an incident](./security-incident-response/#reporting)
+- [report an incident](./security-incident-response.md#reporting)
 
 ## Interviews
 
