@@ -9,7 +9,6 @@ The committee of mentorship program champions are the designated owners and main
 - [Stompy Mwendwa](../../team/index.md#stompy-mwendwa) (CS)
 - [Kelli Rockwell](../../team/index.md#kelli-rockwell) (Engineering)
 - [Joe Chen](../../team/index.md#joe-chen) (Engineering)
-- [Marisa Kanemoto](../../team/index.md#marisa-kanemoto) (Product)
 - [Inés Roitman](../../team/index.md#inés-roitman) (People Ops)
 
 The responsibilities of the mentorship program champions are 3-fold:

@@ -4,7 +4,7 @@ The org chart is generated automatically from data files in the handbook reposit
 
 ## [Engineering](../departments/engineering/index.md)
 
-Our Engineering department includes design, product education, product management, and software engineering.
+Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.eng_lead}}
 
@@ -27,6 +27,10 @@ Our Engineering department includes design, product education, product managemen
 ## [Talent & People Ops](../departments/people-talent/index.md)
 
 {{generator:reporting_structure.vp_talent}}
+
+## Executive Business Partners
+
+{{generator:reporting_structure.ebp_lead}}
 
 ## [Business Operations & Strategy](../departments/bizops/index.md#members)
 
