@@ -34,10 +34,10 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Check if all is running
 
    ```bash
-   mg --customer=$COMPANY check
+   mg check
    ```
 
-1. Create a PR for review, apply and merge
+1. In the `$COMPANY` directory run `terraform fmt`, create a PR for review, apply and merge
 
 1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
 
