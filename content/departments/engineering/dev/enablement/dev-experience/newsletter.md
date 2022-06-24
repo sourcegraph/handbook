@@ -94,6 +94,18 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 You can browse this month [tech-radar](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/sourcegraph/sourcegraph/main/doc/dev/radar/tech-radar.csv) to get a bird's-eye view of Sourcegraph tech stack! Check this [guide](https://docs.sourcegraph.com/dev/how-to/maintain-tech-radar) to learn about how updating it with your team initiatives.
 
+### DevOps and DevX team merge
+
+As you may have heard, the Cloud DevOps team is splitting up into a new Cloud team, with the remaining teammates merging into the DevX team - so we're happy to welcome 3 new teammates to the DevX team!
+
+A consequence of this change will be a shift in ownership of various domains - this is still a work in progress, but you can see an overview [in the Cloud DevOps handoff plan](https://docs.google.com/document/d/1byFDrIMzPS4Dp9jzQhLcS-RpvZV-gPmc2cpSfaxVBII/edit#heading=h.e8f9rqf2cnkm). Broadly speaking, the main changes are that the DevX team will soon own and lead initatives on the following fronts:
+
+- observability (including internal tooling and external services like Grafana Cloud, Sentry, etc)
+- the operation of sourcegraph.com
+- misc. ops-related support
+
+We will have more to share soon as the dust settles!
+
 ## May 20, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
