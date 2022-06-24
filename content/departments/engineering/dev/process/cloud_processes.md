@@ -63,7 +63,7 @@ If you have created an organization on Sourcegraph Cloud (in production) for you
 
 If you are running a local instance of Sourcegraph DotCom (with `sg start dotcom`), first make sure that your organization has the `org-deletion` feature flag set to `true`. When this flag is not configured, the "Delete this organization" button won't be displayed in the org's settings page.
 
-To set or change the feature flag value:
+To create a feature flag locally or change its value:
 
 - Go to the Site Admin page, click "Feature flags" in the left menu. If `org-deletion` is present and set to `false`, change it to `true`.
 - If you don't have the `org-deletion` flag yet, click the "Create feature flag" button in the same page, type the flag name, set its type to `boolean` and its value to `true`.
