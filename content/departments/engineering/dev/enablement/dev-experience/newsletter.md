@@ -27,7 +27,7 @@ You can find the new docs in [How to add logging](https://docs.sourcegraph.com/d
 
 [![how to find out if a CI failure is a recurring flake](https://cdn.loom.com/sessions/thumbnails/58cedf44d44c45a292f650ddd3547337-1655933919745-with-play.gif)](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337)
 
-More details are available in the handbook: [Grafana Cloud - CI logs](https://handbook.sourcegraph.com/departments/engineering/dev/tools/observability/cloud/#ci-logs), and if you have any questions please reach out in #dev-experience!
+More details are available in the handbook: [Grafana Cloud - CI logs](../../tools/observability/cloud.md#ci-logs), and if you have any questions please reach out in #dev-experience!
 
 ### Observability features
 
