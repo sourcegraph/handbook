@@ -217,3 +217,18 @@ Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
 However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior disabling the builtin provider.
+
+### FAQ: How do I restart the frontend after changing the site-config?
+
+> If you are a Cloud teammate, follow the regualr operation playbook.
+
+Are you a member of our CE & CS teams?
+
+- Visit [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
+- Locate the `slug` of the customer instance from list of folders
+- Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
+- Click `Run workflow` and input the `slug` of customer instance
+- Click the `Run workflow` green button
+- Done! It shoudln't take more than 2 mintues
+
+<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
