@@ -222,8 +222,7 @@ TBD
 
 - [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM team for all day to day communication within the team.
 - [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
-- [#admin-exp-org](https://sourcegraph.slack.com/archives/C03JA8BAM7C) - public channel for all the members of Admin Experience organization.
-- [#admin-exp-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
+- [#repo-iam-team-internal](https://sourcegraph.slack.com/archives/C03K05FCRFH) - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
 
 ## Product and technical documentation
 
