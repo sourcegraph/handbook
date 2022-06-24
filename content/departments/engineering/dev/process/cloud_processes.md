@@ -1,6 +1,6 @@
 # Sourcegraph Cloud Processes
 
-## Closing down an organization on Sourcegraph Cloud
+## Closing down a customer's organization on Sourcegraph Cloud
 
 During the open-beta, customers receive 30 days to try out Sourcegraph Cloud with Organizations. Once this period has passed, customers need to reach out in order to continue leveraging Sourcegraph Cloud.
 
@@ -41,3 +41,17 @@ DELETE * FROM orgs WHERE id = $ORG_ID;
 ### Other useful queries
 
 A list of useful DB queries can be found in [useful DB queries](https://docs.google.com/spreadsheets/d/1Z1-7uJwtF2etZFeqTcJS4z9WcAjKlkCxt8HQ931D3dA).
+
+## Closing down an employee's organization on Sourcegraph Cloud
+
+If you have created an organization on Sourcegraph Cloud for yourself that you’ve been using for testing or learning, when it’s time to delete it:
+
+- Go to your organization settings page. You can access it from the Site Admin area, in the left side bar, under Organizations. Or you can quickly navigate to the top right menu where you will also find a link to it.
+
+- Click the Delete Organization button in the bottom of the page. This action can't be undone and will hard delete the organization along with all these following resources associated to it:
+  - org_members
+  - org_invitations
+  - registry_extensions
+  - saved_searches
+  - notebooks
+  - settings
