@@ -50,14 +50,19 @@ If you have created an organization on Sourcegraph Cloud (in production) for you
 
 - You should see the "Delete this organization" button in the bottom of the page. Go ahead and click it, confirming the deletion by typing the org's name in the input field.
 
-  Note that this action can't be undone and will hard delete the organization along with all these following resources associated to it:
+  Note that this action can't be undone and will hard delete the organization along with all resources associated to it, such as:
 
-  - org_members
-  - org_invitations
-  - registry_extensions
-  - saved_searches
-  - notebooks
-  - settings
+  - Organization members
+  - Organization invitations
+  - Registry extensions
+  - Saved searches
+  - Notebooks
+  - Settings
+  - Code insights
+  - Batch changes
+  - Code monitors
+
+Deleting an organization will also remove all its synced repositories from Sourcegraph.
 
 ## Closing down an organization locally, on `dotcom` mode
 
@@ -69,3 +74,5 @@ To create a feature flag locally or to change its value:
 - If you don't have the `org-deletion` flag yet, click the "Create feature flag" button in the same page, type the flag name, set its type to `boolean` and its value to `true`.
 - Go to your organization settings page. You can access it from the Site Admin area, in the left side bar, under Organizations. Or quickly navigate to the top right menu where you will also find a link to your org.
 - Now you should see the "Delete this organization" button. Go ahead and delete it, but be aware that this action can't be undone and will hard delete the organization along with all resources associated to it.
+
+Deleting an organization will also remove all its synced repositories from Sourcegraph.
