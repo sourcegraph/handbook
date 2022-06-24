@@ -111,6 +111,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 We aggregate all of this feedback in [productboard](https://sourcegraph.productboard.com/). This lets us look at all of the sources of feedback to better understand which features will have the biggest impact on the product. It helps with prioritization and making sure we're building the next most important thing. It also helps us maintain a long-term source of truth for feedback: some of our sources of feedback are subject to removal over time due to retention policies, so adding specific insights to productboard captures it for the future.
 
 In case you have longer google docs (eg. customer discovery notes) that don't fit in productboard cards:
+
 - put the doc in the [customer feedback notes](https://drive.google.com/drive/folders/1suKSsUTTJlEyRaiunNtzJUMwrP_ZPWYG) folder, using the following naming convention `Customer Year - <notes>` eg. `ACME Corp 2022 - code security notes`.
 - create snippets for key insights into Productboard
 
