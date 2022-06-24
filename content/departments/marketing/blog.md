@@ -37,7 +37,7 @@ Feel free to add many code snippets and use code repositories to complement your
 
 ## Adding a blog post
 
-Once your draft is approved, you're ready to add a blog post by creating a [Markdown](https://www.markdownguide.org/getting-started/) file in one of the `sourcegraph/about` repository `content/blogposts` child directories using the following template as a starting point:
+Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories. You can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607) to make that conversion and then use the following template for your front matter:
 
 ```markdown
 ---
