@@ -2,6 +2,8 @@
 
 ## Prereq
 
+### Environment
+
 You have `go` installed
 
 You have `gcloud-cli` (and you're authenticated!)
@@ -22,6 +24,18 @@ make install
 GOBIN=~/.bin make install
 ```
 
+### Upgrade `managed_instance` terraform module
+
+- Retrieve the latest executors module release version from https://github.com/sourcegraph/terraform-google-executors/tags
+- `git checkout -b upgrade-executors-$version`
+- Open [modules/executors/main.tf](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/modules/executors/main.tf) and bump referenced upstream module version if it is outdated
+- Determine the next tag of `mi-module-vx.y.z-va`, e.g. `mi-module-v3.40.1-v1`.
+  - `vx.y.z` should match the sourcegraph release version
+  - `va` is used to track revision to the module in between the same sourcegraph release
+- Do a global string replacement of the referenced module `source` to the next tag for every instances
+  - the reference exists in each `$CUSTOMER/infrastructure.tf` in the `managed_instance` module
+- Open a Pull Request, tag the latest `main` with the above tag
+
 ## Steps
 
 ### Ensure new version of `docker-compose.yaml` file is in the golden directory
@@ -29,7 +43,7 @@ GOBIN=~/.bin make install
 If they are not, download the file and open a PR to commit the file prior to upgrade
 
 ```sh
-curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml
+curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml || echo "failed to download"
 ```
 
 ### Ensure `config.yaml` file in customer directory is up-to-date
@@ -60,6 +74,14 @@ Upgrade the deployment. At a high level, this will perform the following steps
 
 ```sh
 mg --customer $CUSTOMER upgrade --target $VERSION
+```
+
+(Optional) If the instance has executors enabled, make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
+
+> You should be expecting some `replacement` on the executors docker-mirror compute instance and the instance group
+
+```sh
+terraform apply
 ```
 
 ### Confirm instance health

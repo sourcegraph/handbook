@@ -16,6 +16,7 @@ We think that security is an enabler for the business. Sourcegraph is committed 
 - #security channel on Slack.
 - @sourcegraph/security on GitHub.
 - [report a vulnerability](reporting-vulnerabilities.md)
+- [report an incident](./security-incident-response.md#reporting)
 
 ## Interviews
 
@@ -218,7 +219,7 @@ In an effort to work closely with our teammates and shift security focus more in
 
 - [Security Support Rotation](security-support-rotation.md)
 
-## Slack acknowledgement
+### Slack acknowledgement
 
 It is essential to remove assumptions/uncertainty around whether teammates have seen, understood, or acted on a message in an async-first communication environment.
 To assist in this regard, we provide the following guideline for teammates to follow when communicating and responding in Slack.
@@ -238,6 +239,10 @@ _When acknowledging a statement:_
 _When acknowledging a question:_
 
 You should provide a written response unless it's a simple yes/no question, in which case `:thumbs-up:` (👍)/`:thumbs-down:` (👎) is acceptable.
+
+## Monitoring and incident response
+
+- [Security Incident Response Policy](./security-incident-response.md)
 
 ## Risk management
 

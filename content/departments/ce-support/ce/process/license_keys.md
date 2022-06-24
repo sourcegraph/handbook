@@ -46,6 +46,12 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 7. Set the licensed number of users (note that if you added the `true-up` tag above, the company will be able to exceed this count, but administrators will see a warning) and the number of days that the license should be valid, and click **Generate license**.
 8. Finally, copy the license key, and send it to the relevant contact at the company. You can link them to the following docs for instructions on where to add the key: [Updating your license key](https://docs.sourcegraph.com/admin/subscriptions#updating-your-license-key)
 
+### License Keys for Managed Instances
+
+As part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../engineering/dev/admin-exp/devops/managed/creation_process.md#configuring-license-sso-and-repositories)
+we ask CE to create the license. However, the CE needs to provision additional licenses to account for Sourcegraph administrators.
+The number of additional licenses is determined by the number of [members of the cloud team](https://groups.google.com/a/sourcegraph.com/g/cloud-team/members) but we reccomend a standard buffer of 10.
+
 ### License key tags
 
 - **Enterprise Licenses**: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`, plus the customer name, should be added to every Enterprise license. Optionally add `true-up`, `mau`, `trial`, `batch-changes`, and `code-insights` based on the context of the license.

@@ -8,7 +8,7 @@ Is there anything missing? Please reach out to [onboarding@sourcegraph.com](mail
 
 ### ✍️ **Tell us more about YOU**
 
-Please fill out [this form](https://forms.gle/Tim5dVFrFRHsJmcf7) within the first **24 hours** after you sign your contract. _This is an important step so that we can begin your onboarding process and systems setup._
+Please fill out [this form](https://forms.gle/sxidvRGbPpPQJin28) within the first **24 hours** after you sign your contract. _This is an important step so that we can begin your onboarding process and systems setup._
 
 ### 🎥 **Make your welcome video**
 

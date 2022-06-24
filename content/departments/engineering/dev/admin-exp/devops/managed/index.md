@@ -1,24 +1,30 @@
 # Managed instances
 
-This documentation details how the Distribution team at Sourcegraph internally handles the provisioning/creation/configuration/maintenance of [managed instances](https://docs.sourcegraph.com/admin/install/managed).
+This documentation details how the Cloud team at Sourcegraph internally handles the provisioning/creation/configuration/maintenance of [managed instances](https://docs.sourcegraph.com/admin/install/managed).
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
-For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intended to provide additional external-facing information.
 
-- [Technical details](#technical-details)
-  - [Deployment type and scaling](#deployment-type-and-scaling)
-  - [Environments](#environments)
-  - [Release process](#release-process)
-  - [Known limitations of managed instances](#known-limitations-of-managed-instances)
-  - [Security](#security)
-  - [Monitoring and alerting](#monitoring-and-alerting)
-  - [Access](#access)
-- [Cost estimation](cost_estimation.md)
-- [Requesting a managed instance](#requesting-a-managed-instance)
-- [SLAs for managed instances](#slas-for-managed-instances)
-- [Operations for managed instances](#operations)
-- [FAQ](#faq)
+- [Managed instances](#managed-instances)
+  - [When to offer a Managed Instance](#when-to-offer-a-managed-instance)
+  - [Managed Instance Requests](#managed-instance-requests)
+    - [Workflow](#workflow)
+  - [SLAs for managed instances](#slas-for-managed-instances)
+    - [Incident Response](#incident-response)
+  - [Technical details](#technical-details)
+    - [Deployment type and scaling](#deployment-type-and-scaling)
+    - [Environments](#environments)
+      - [Internal instances](#internal-instances)
+      - [Customer instances](#customer-instances)
+    - [Release process](#release-process)
+    - [Known limitations of managed instances](#known-limitations-of-managed-instances)
+    - [Security](#security)
+    - [Monitoring and alerting](#monitoring-and-alerting)
+    - [Configuration management](#configuration-management)
+    - [Operations](#operations)
+  - [FAQ](#faq)
+    - [FAQ: Can customers disable the "Builtin username-password authentication"?](#faq-can-customers-disable-the-builtin-username-password-authentication)
 
 ## When to offer a Managed Instance
 
@@ -37,12 +43,12 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
-- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
-- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
 
 ### Workflow
@@ -85,7 +91,7 @@ Incidents which affect managed instances handled according to our [incidents](..
 
 Managed instances are Docker Compose deployments only today. We do not currently offer Kubernetes managed instances.
 
-These managed Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU / 360 GB memory which is typically enough for most medium to large enterprises.
+These managed Docker Compose deployments can scale up to the largest GCP instance type available, n2-standard-128 with 128 CPU / 512 GB memory which is typically enough for most medium to large enterprises.
 
 We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
 
@@ -210,4 +216,4 @@ Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior disabling the builtin provider.
