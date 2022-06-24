@@ -46,9 +46,17 @@ A list of useful DB queries can be found in [useful DB queries](https://docs.goo
 
 If you have created an organization on Sourcegraph Cloud for yourself that you’ve been using for testing or learning, when it’s time to delete it:
 
-- Go to your organization settings page. You can access it from the Site Admin area, in the left side bar, under Organizations. Or you can quickly navigate to the top right menu where you will also find a link to it.
+- Confirm that your organization has the `org-deletion` feature flag set to `true`.
 
-- Click the Delete Organization button in the bottom of the page. This action can't be undone and will hard delete the organization along with all these following resources associated to it:
+  - To add this flag, go to the Site Admin page, click "Feature flags" in the left menu, then "Create feature flag".
+  - Type the flag name (`org-deletion`), set its type to `boolean` and its value to `true`.
+
+- Go to your organization settings page. You can access it from the Site Admin area, in the left side bar, under Organizations. Or quickly navigate to the top right menu where you can also find a link to your org.
+
+- You will see the "Delete this organization" button in the bottom of the page. Go ahead and click it, confirming the deletion by typing the org's name in the input field.
+
+  Note that this action can't be undone and will hard delete the organization along with all these following resources associated to it:
+
   - org_members
   - org_invitations
   - registry_extensions
