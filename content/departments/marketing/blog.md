@@ -4,14 +4,40 @@
 
 > NOTE: This documentation covers only the mechanics of adding a blog post, not considerations such as who needs to approve your post or when it should be published.
 
-1. Create the blog post file
-1. Create a pull request
-1. Confirm via the preview deployment site that everything is looking good (the `deploy/netlify — Deploy preview ready!` link in the checks section)
-1. Request a review from the editor who reviewed your draft
+1. Create an outline and request a reviewer
+2. Create a draft of your blog post in Google Docs and request a reviewer
+3. Create the blog post file
+4. Create a pull request
+5. Confirm via the preview deployment site that everything is looking good (the `deploy/netlify — Deploy preview ready!` link in the checks section)
+6. Request a review from the editor who reviewed your draft
+
+## Create an Intro & Outline
+
+You only get one chance to make a first impression on your blog post, meaning you need an introduction that stands out. But what do you say? How do you say it? Should it be long? Short? Funny? Serious? Intros set the stage. They establish the tone and let visitors know what to expect.
+
+### 3 Steps for a great intro
+
+ 1. Grab the reader's attention. That looks different for every piece of writing.
+ 2. Present the reason for the post's existence.
+ 3. Explain how the post will help address the problem that brought your reader to it.
+
+### Why do you need an outline?
+
+Blog posts can have overwhelming amounts of information – for the reader and the writer. The trick here is to organize the information, so readers aren't intimidated by the length or amount of content. This organization can take multiple forms — sections, lists, tips — whatever's most appropriate. But it must be organized!
+
+## Create a Draft
+
+The best way to get actionable feedback on your blog post is to start by writing it on a [blank Google Docs file](https://docs.new). This format will allow your reviewers to suggest changes or add comments to sections of your post.
+
+When asking for a review, you should be happy with your draft being ready to be published. This means you've got your headers and images in place, and your code samples all work.
+
+There's nothing more frustrating for a reader than not being able to copy code (if, for example, you end up using images instead of code snippets) or if that code just doesn't work. 
+
+Feel free to add many code snippets and use code repositories to complement your example. A reader should be able to implement the solution you're proposing from start to finish or at least understand how you implemented that solution if the aim here is only to tell a story.
 
 ## Adding a blog post
 
-Add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories using the following template as a starting point:
+Once your draft is approved, you're ready to add a blog post by creating a [Markdown](https://www.markdownguide.org/getting-started/) file in one of the `sourcegraph/about` repository `content/blogposts` child directories using the following template as a starting point:
 
 ```markdown
 ---
