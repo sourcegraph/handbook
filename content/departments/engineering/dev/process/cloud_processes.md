@@ -44,9 +44,7 @@ A list of useful DB queries can be found in [useful DB queries](https://docs.goo
 
 ## Closing down an employee's organization on Sourcegraph Cloud
 
-### In Production
-
-If you have created an organization on Sourcegraph Cloud for yourself that you’ve been using for testing or learning, follow these instructions when it’s time to delete it:
+If you have created an organization on Sourcegraph Cloud (in production) for yourself that you’ve been using for testing or learning, follow these instructions when it’s time to delete it:
 
 - Go to your organization settings page. You can access it from the top right menu where there's a link to your org.
 
@@ -61,7 +59,7 @@ If you have created an organization on Sourcegraph Cloud for yourself that you�
   - notebooks
   - settings
 
-### Locally
+## Closing down an organization locally, on `dotcom` mode
 
 If you are running a local instance of Sourcegraph DotCom (with `sg start dotcom`), first make sure that your organization has the `org-deletion` feature flag set to `true`. When this flag is not configured, the "Delete this organization" button won't be displayed in the org's settings page.
 
