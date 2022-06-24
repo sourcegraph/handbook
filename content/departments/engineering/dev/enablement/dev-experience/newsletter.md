@@ -57,7 +57,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ### `sg` goodies
 
-**`sg [cmd...] --feedback`**: Love (or hate) `sg`? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag on *all* commands, we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
+**`sg [cmd...] --feedback`**: Love (or hate) `sg`? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag on _all_ commands, we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
 
 **Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
 
