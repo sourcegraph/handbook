@@ -70,6 +70,7 @@ The `description` field is used as an excerpt for your post on the blog the inde
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
 - As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
 - The `canonical` field is optional and only required to override the canonical link. Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
+- The `heroImage` field is your blog post's main header image. It's best to ping #creative-ops to request a blog illustration right after you submit your draft to get the artwork in time.
 - The `socialImage` field is optional. Use the full path to image in order to be read properly on Twitter and Facebook. Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
 - The `videoID` field is an optional YouTube video ID and will take priority even if the `socialImage` is present. This will generate an inline video preview card when sharing on social media. This is supported for all types of posts; blog, podcast, and release posts.
 
