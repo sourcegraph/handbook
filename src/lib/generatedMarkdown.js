@@ -394,7 +394,7 @@ export async function generateEngineeringOwnershipTable() {
   const productTeams = await readYamlFile('data/product_teams.yml')
   let pageContent =
     '|Category|Thing|Type|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
-  pageContent += '|---|---|---|---|---|---|---|---|---|---|\n'
+  pageContent += '|---|---|---|---|---|---|---|---|---|\n'
   for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
     pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
     if (productTeams[thing.product_team]) {
