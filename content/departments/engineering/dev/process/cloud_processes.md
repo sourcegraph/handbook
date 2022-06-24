@@ -44,11 +44,11 @@ A list of useful DB queries can be found in [useful DB queries](https://docs.goo
 
 ## Closing down an employee's organization on Sourcegraph Cloud
 
-If you have created an organization on Sourcegraph Cloud for yourself that you’ve been using for testing or learning, when it’s time to delete it:
+If you have created an organization on Sourcegraph Cloud for yourself that you’ve been using for testing or learning, follow these instructions when it’s time to delete it:
 
 - Confirm that your organization has the `org-deletion` feature flag set to `true`.
 
-  - To add this flag, go to the Site Admin page, click "Feature flags" in the left menu, then "Create feature flag".
+  - To add this flag, go to the Site Admin page, click "Feature flags" in the left menu, then click the "Create feature flag" button.
   - Type the flag name (`org-deletion`), set its type to `boolean` and its value to `true`.
 
 - Go to your organization settings page. You can access it from the Site Admin area, in the left side bar, under Organizations. Or quickly navigate to the top right menu where you can also find a link to your org.
