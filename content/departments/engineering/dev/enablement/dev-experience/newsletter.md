@@ -76,7 +76,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 **Named migrations files**: `sg migration` now supports migrations with migration names embedded in the migration's directory, and all newly created migrations from `sg migration add` will now have migration names included, which will make the `migrations` directory a bit easier to browser. [#37244](https://github.com/sourcegraph/sourcegraph/issues/37244)
 
-**Readability improvements**: `sg start` logs are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
+**Readability improvements**: `sg start` logs are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas an explicit `oss-` prefix has been introduced.
 
 ![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
 
@@ -98,7 +98,7 @@ You can browse this month [tech-radar](https://radar.thoughtworks.com/?sheetId=h
 
 As you may have heard, the Cloud DevOps team is splitting up into a new Cloud team, with the remaining teammates merging into the DevX team - so we're happy to welcome 3 new teammates to the DevX team!
 
-A consequence of this change will be a shift in ownership of various domains - this is still a work in progress, but you can see an overview [in the Cloud DevOps handoff plan](https://docs.google.com/document/d/1byFDrIMzPS4Dp9jzQhLcS-RpvZV-gPmc2cpSfaxVBII/edit#heading=h.e8f9rqf2cnkm). Broadly speaking, the main changes are that the DevX team will soon own and lead initatives on the following fronts:
+A consequence of this change will be a shift in ownership of various domains - this is still a work in progress, but you can see an overview [in the Cloud DevOps handoff plan](https://docs.google.com/document/d/1byFDrIMzPS4Dp9jzQhLcS-RpvZV-gPmc2cpSfaxVBII/edit#heading=h.e8f9rqf2cnkm). Broadly speaking, the main changes are that the DevX team will soon own and lead initiatives on the following fronts:
 
 - observability (including internal tooling and external services like Grafana Cloud, Sentry, etc)
 - the operation of sourcegraph.com
