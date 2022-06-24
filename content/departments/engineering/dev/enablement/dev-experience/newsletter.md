@@ -47,6 +47,8 @@ Because this raises the amount of errors being reported, we're experimenting wit
 Under the hood, it uses a new "log sinks" mechanism that can easily be extended to accomodate new backends in the future - you can learn more about it in the [package docs](https://pkg.go.dev/github.com/sourcegraph/log/internal/sinkcores/sentrycore)!
 As a byproduct, the codebase doesn't have anymore any explicit reference to Sentry, apart from the optional Sentry sink itself.
 
+**DataDog sunset**: Note that the DataDog trial is being ended, and the plan is to [sunset DataDog integrations within the codebase](https://github.com/sourcegraph/sourcegraph/pull/37673).
+
 ### CLA bot automation
 
 The process of ensuring an external contributor has signed Sourcegraph's Contributor License Agreement (CLA) is now fully automated. Once a contributor has signed [the CLA form](https://docs.google.com/forms/d/e/1FAIpQLSfxy_9WJptKeTmTsrQ6C-5JeiVs4i1pUiahzgLZta1t6Nls-g/viewform), their provided GitHub handle will now automatically be synchronized to the list of approved users.
@@ -55,7 +57,7 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 ### `sg` goodies
 
-**`sg [cmd...] --feedback`**: Love sg ? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
+**`sg [cmd...] --feedback`**: Love (or hate) `sg`? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag on *all* commands, we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
 
 **Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
 
@@ -72,11 +74,15 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 
 **sg generate go** now displays a progress bar to indicate its status and is also noticeably faster thanks to [35807](https://github.com/sourcegraph/sourcegraph/pull/35807), [#36742](https://github.com/sourcegraph/sourcegraph/pull/36742) and [#36681](https://github.com/sourcegraph/sourcegraph/pull/36681).
 
+**Named migrations files**: `sg migration` now supports migrations with migration names embedded in the migration's directory, and all newly created migrations from `sg migration add` will now have migration names included, which will make the `migrations` directory a bit easier to browser. [#37244](https://github.com/sourcegraph/sourcegraph/issues/37244)
+
 **Readability improvements**: `sg start` logs are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
 
 ![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
 
 **`sg` analytics**: The DevX team is experimenting with collecting analytics on `sg` usage and issues! For now this is a manual process, so if you'd like to contribute you data to our explorations, you can submit your data with `sg analytics submit [username]`, or check out what data has been collected with `sg analytics view`!
+
+**ADRs ❤️ `sg`**: You will soon be able to list, search, view, and create [Architecture Decision Records](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions) directly from `sg`! [#37718](https://github.com/sourcegraph/sourcegraph/pull/37718)
 
 ### CI improvements
 
@@ -87,10 +93,6 @@ You can learn more in the [`clabot-config` repository](https://github.com/source
 ### Tech Radar
 
 You can browse this month [tech-radar](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/sourcegraph/sourcegraph/main/doc/dev/radar/tech-radar.csv) to get a bird's-eye view of Sourcegraph tech stack! Check this [guide](https://docs.sourcegraph.com/dev/how-to/maintain-tech-radar) to learn about how updating it with your team initiatives.
-
-### TODO
-
-TODO
 
 ## May 20, 2022
 
