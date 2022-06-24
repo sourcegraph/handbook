@@ -16,7 +16,3 @@ This meeting has a large attendance. To make it work, we use the following worki
 - The day before the meeting, participants can write down their ideas in the doc, and discuss async. This prep work will make the meeting more efficient by making sure we have as much context as possible before joining.
 - We take 2 min at the beginning of the meeting to vote on the topics to discuss, 3 votes per person.
 - We discuss each topic for 5 min max. After 5 min, we run a quick show of hands to extend the discussion by 5 additional minutes. This allows us to be intentional about the time needed for a topic.
-
-
-
-
