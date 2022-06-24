@@ -17,9 +17,9 @@ You only get one chance to make a first impression on your blog post, meaning yo
 
 ### 3 Steps for a great intro
 
- 1. Grab the reader's attention. That looks different for every piece of writing.
- 2. Present the reason for the post's existence.
- 3. Explain how the post will help address the problem that brought your reader to it.
+1.  Grab the reader's attention. That looks different for every piece of writing.
+2.  Present the reason for the post's existence.
+3.  Explain how the post will help address the problem that brought your reader to it.
 
 ### Why do you need an outline?
 
@@ -31,7 +31,7 @@ The best way to get actionable feedback on your blog post is to start by writing
 
 When asking for a review, you should be happy with your draft being ready to be published. This means you've got your headers and images in place, and your code samples all work.
 
-There's nothing more frustrating for a reader than not being able to copy code (if, for example, you end up using images instead of code snippets) or if that code just doesn't work. 
+There's nothing more frustrating for a reader than not being able to copy code (if, for example, you end up using images instead of code snippets) or if that code just doesn't work.
 
 Feel free to add many code snippets and use code repositories to complement your example. A reader should be able to implement the solution you're proposing from start to finish or at least understand how you implemented that solution if the aim here is only to tell a story.
 
