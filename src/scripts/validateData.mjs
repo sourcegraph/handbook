@@ -14,7 +14,6 @@ const codeHosts = await readYamlFile('data/code_hosts.yml')
 const features = await readYamlFile('data/features.yml')
 const maturityLevels = await readYamlFile('data/maturity_levels.yml')
 const productTeams = await readYamlFile('data/product_teams.yml')
-const productOrgs = await readYamlFile('data/product_orgs.yml')
 const teamMembers = await readYamlFile('data/team.yml')
 const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
 const useCases = await readYamlFile('data/use_cases.yml')
@@ -63,11 +62,8 @@ for (const feature of Object.values(features)) {
     }
 }
 
-// iterate through product teams and make sure they point to valid product orgs and team members
+// iterate through product teams and make sure they point to valid team members
 for (const productTeam of Object.values(productTeams)) {
-    if (!Object.prototype.hasOwnProperty.call(productOrgs, productTeam.product_org)) {
-        errors += `Product team contains unknown org: ${JSON.stringify(productTeam)}\n\n`
-    }
     if (productTeam.em) {
         if (!Object.prototype.hasOwnProperty.call(teamMembers, productTeam.em)) {
             errors += `Product team contains unknown EM: ${JSON.stringify(productTeam)}\n\n`
@@ -116,20 +112,6 @@ for (const useCase of Object.values(useCases)) {
     }
 }
 
-// iterate through product orgs and make sure they point to valid team members
-for (const productOrg of Object.values(productOrgs)) {
-    if (productOrg.em) {
-        if (!Object.prototype.hasOwnProperty.call(teamMembers, productOrg.em)) {
-            errors += `Product org contains unknown EM: ${JSON.stringify(productOrg)}\n\n`
-        }
-    }
-    if (productOrg.pm) {
-        if (!Object.prototype.hasOwnProperty.call(teamMembers, productOrg.pm)) {
-            errors += `Product org contains unknown PM: ${JSON.stringify(productOrg)}`
-        }
-    }
-}
-
 // iterate through team members and make sure their manager exists
 for (const teamMember of Object.values(teamMembers)) {
     if (teamMember.reports_to) {
@@ -149,13 +131,8 @@ for (const teamMember of Object.values(teamMembers)) {
     }
 }
 
-// iterate through engineering feature list and ensure product org and product team exist
+// iterate through engineering feature list and ensure product team exists
 for (const thing of Object.values(engineeringOwnership)) {
-    if (thing.product_org) {
-        if (!Object.prototype.hasOwnProperty.call(productOrgs, thing.product_org)) {
-            errors += `Engineering ownership item contains unknown product org: ${JSON.stringify(thing)}\n\n`
-        }
-    }
     if (thing.product_team) {
         if (!Object.prototype.hasOwnProperty.call(productTeams, thing.product_team)) {
             errors += `Engineering ownership item contains unknown product team: ${JSON.stringify(thing)}\n\n`
