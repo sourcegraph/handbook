@@ -1091,6 +1091,28 @@ In most languages, idioms are commonly-known phrases packed with meaning. Howeve
 
 ## Instructions, references, and citations
 
+Use descriptive link text, never `here`.
+
+<div class="usage">
+<div class="item yes">
+
+##### Yes
+
+- See [Batch Changes documentation](#) for more information.
+- If you encounter a problem, [file an issue](#).
+
+</div>
+<div class="item no">
+
+##### No
+
+- For more information about Batch Changes, see documentation [here](#).
+- If you encounter a problem, click [here](#) to file an issue.
+
+</div>
+</div>
+
+
 Use bold when referring to buttons in documentation.
 
 <div class="usage">
