@@ -1112,7 +1112,6 @@ Use descriptive link text, never `here`.
 </div>
 </div>
 
-
 Use bold when referring to buttons in documentation.
 
 <div class="usage">
