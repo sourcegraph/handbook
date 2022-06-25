@@ -29,7 +29,7 @@
 
 ## Members
 
-{{generator:reporting_structure.marketing_lead}} 
+{{generator:reporting_structure.marketing_lead}}
 
 ## Career development
 
