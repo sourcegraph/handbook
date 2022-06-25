@@ -9,4 +9,4 @@ Our company OKRs are public.
 
 Timeline: 2022-02-01 to 2023-01-31
 
-- [FY23-Q1 OKRs (current)](2023_Q1.md)
+- [FY23-Q1 OKRs](2023_Q1.md)
