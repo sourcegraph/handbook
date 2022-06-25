@@ -119,8 +119,6 @@ sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for MacOS
 terraform apply
 ```
 
-
-
 ## Commit the changes to the deploy-sourcegraph-managed repo
 
 ### Prepare the changeset
