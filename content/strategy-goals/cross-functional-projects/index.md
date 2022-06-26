@@ -47,3 +47,20 @@ The exec team member who is sponsoring the project is responsible for:
 - Supporting escalations as needed
 - Attend all company goal working group meetings
 - Act as an exec team liaison to ensure appropriate insight and alignment to other projects, initiatives, or programs.
+
+# Current cross-functional projects
+
+| Project Name                                        | Engaged Departments                                    | DRI         | Exec Sponsor   | Description | 
+| :-------------------------------------------------- | :----------------------------------------------------- | :---------: | :----------:   | :---------- |
+| Deliver a world class admin experience              | engineering, sales, CE                                 | Aimee Menne | Aimee Menne    |          |
+| Launch code security for security teams             | engineering, sales, CE                                 | Malo Marrec | ???            |          |
+| Create a strategic segment operating model          | sales, CE, ops, people                                 | ???         | Gregg Stone    |          |
+| Enhance customer success and health operating model | sales, CE                                              | ???         | Aimee Menne    |          |
+| Kickstart demand generation and content engine      | sales, marketing, ops                                  | ???         | Gregg Stone    |          |
+| Create new performance management culture           | ops, sales, CE, engineering, talent, people, marketing | ???         | Carly Jones    |          |
+| Make cloud the preferred deployment method          | engineering, sales, CE, marketing                      | ???         | Quinn Slack    |          |
+| Achieve SOC2 type 2 certification                   | security, ops, engineering                             | ???         | Quinn Slack    |          |
+| Revamp pricing and packaging                        | sales, CE, ops, engineering, marketing                 | ???         | Gregg Stone    |          |
+| Improve our data collection                         | engineering, ops                                       | ???         | Dan Adler      |          |
+| Create operational reviews                          | ops, sales, CE, engineering, talent, people, marketing | ???         | Connor O'Brien |          |
+| Fix self-hosted deployment                          | Eng, CE                                                | ???         | Beyang Liu     |           |
