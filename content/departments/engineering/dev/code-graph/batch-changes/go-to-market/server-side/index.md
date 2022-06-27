@@ -74,3 +74,7 @@ Yes, this is on our long term roadmap.
 The main reason we're not offering managed executors today is that some usage patterns can generate meaningful compute costs, that we would need to bill for. This requires setting up a billing infrastructure and clearly defining the pricing model for executors. We are currently collecting customer feedback and usage data to inform this decision.
 
 The first iteration of managed executors for managed instance customers will likely be a free tier of usage, with a hard cap. All managed instances customers with the Batch Changes add-on will be able to run batch changes server-side up to a certain amount of monthly compute minutes. Once they exceed this amount, they will have to self-host executors. Also see [RFC 563 PRIVATE APPROVED: Executors pricing and billing for managed instances](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18).
+
+#### Do we have server-side pings?
+
+Yes, but not yet available in Looker ([#sourcegraph/analytics/issues/489](https://github.com/sourcegraph/analytics/issues/489))
