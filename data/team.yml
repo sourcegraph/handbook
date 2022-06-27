@@ -2674,3 +2674,12 @@ chris_concannon:
   github: cconcannon
   links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
   description: 'Chris lives in San Francisco 🌁 with his wife and their dog. He has a biomedical engineering degree from Duke University, and he spent several years as a clinical medical device professional before he became a software developer. Chris is an avid trail runner, and he thinks that running up a mountain at sunrise is the best way to start a day. He also enjoys skiing, backpacking, cycling, traveling, riding his motorcycle, and indulging in the fabulous local food, wines, and beers of the Bay Area.'
+
+tom_pinckney:
+  name: Tom Pinckney
+  role: Head of Business Development
+  location: San Francisco, CA
+  reports_to: VP of Sales
+  email: tom.pinckney@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
+  description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
