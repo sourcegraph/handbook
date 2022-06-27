@@ -2463,16 +2463,6 @@ rakesh_joshi:
   links: '[LinkedIn](https://www.linkedin.com/in/rakesh-joshi-62a56416)'
   description: Rakesh is an application support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
 
-maxim_pimenov:
-  name: Maxim Pimenov
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_search_core
-  location: Moscow, Russia 🇷🇺
-  github: mpimenov
-  email: maxim.pimenov@sourcegraph.com
-  description: Prior to Sourcegraph, Maxim helped building the best mobile app for offline maps. Apart from programming at work, he enjoys programming during his spare time.
-
 nathan_downs:
   name: Nathan Downs
   email: nathan.downs@sourcegraph.com
