@@ -72,9 +72,9 @@ growth:
 
 iam:
   title: Identity and Access Management (IAM)
-  strategy_link: /strategy-goals/strategy/admin-exp/iam-admin/index.md
+  strategy_link: /strategy-goals/strategy/admin-exp/iam/index.md
   pm: ryan_phillips
-  em: jordan_plahn
+  em: jordan_plahn_iam
   issue_labels:
     - team/iam
     - team/admin-exp
