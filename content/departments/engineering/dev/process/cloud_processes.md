@@ -46,13 +46,13 @@ A list of useful DB queries can be found in [useful DB queries](https://docs.goo
 
 If you have created an organization on Sourcegraph Cloud (in production) for yourself that you’ve been using for testing or learning, follow these instructions when it’s time to delete it:
 
-- Go to your organization settings page. You can access it from the top right menu where there's a link to your org.
+- Go to your organization settings page. You can access it from the top right menu where there's a link to your organization.
 
 - You should see the "Delete this organization" button in the bottom of the page. Go ahead and click it, confirming the deletion by typing the org's name in the input field.
 
-  Note that this action can't be undone and will hard delete the organization along with all resources associated to it, such as:
+  Note that this action can't be undone and will hard delete the organization along with all resources associated to it, including:
 
-  - Organization members
+  - Organization membership
   - Organization invitations
   - Registry extensions
   - Saved searches
@@ -62,7 +62,7 @@ If you have created an organization on Sourcegraph Cloud (in production) for you
   - Batch changes
   - Code monitors
 
-Deleting an organization will also remove all its synced repositories from Sourcegraph.
+Deleting an organization will also remove all its synced repositories from Sourcegraph Cloud.
 
 ## Closing down an organization locally, on `dotcom` mode
 
@@ -75,4 +75,4 @@ To create a feature flag locally or to change its value:
 - Go to your organization settings page. You can access it from the Site Admin area, in the left side bar, under Organizations. Or quickly navigate to the top right menu where you will also find a link to your org.
 - Now you should see the "Delete this organization" button. Go ahead and delete it, but be aware that this action can't be undone and will hard delete the organization along with all resources associated to it.
 
-Deleting an organization will also remove all its synced repositories from Sourcegraph.
+Deleting an organization will also remove all its synced repositories from Sourcegraph Cloud.
