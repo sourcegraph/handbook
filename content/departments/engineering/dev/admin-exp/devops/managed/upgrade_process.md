@@ -565,8 +565,7 @@ git checkout -b $CUSTOMER/upgrade-v<MAJOR.MINOR.PATCH>
 Create a snapshot:
 
 ```sh
-../util/create-snapshot.ts $OLD_DEPLOYMENT
-git add . && git commit -m "$CUSTOMER: snapshot deployment"
+mg backup --types vm
 ```
 
 This can take anywhere from a minute to several minutes, depending on how large the disk is.
@@ -590,7 +589,7 @@ Note: to avoid invoking command before version is changed, add `#` before pastin
 
 ```sh
 # if instance is v1.0, add flag: --v1.0
-go run ../util/cmd/ sync [--v1.0]
+go run ../util/cmd/ sync artifacts --v1.0
 git add . && git commit -m "$CUSTOMER: update docker-compose.yaml symlink"
 ```
 
@@ -641,5 +640,5 @@ mg enable-oidc
 1. Add Sourcegraph users
 
 ```bash
-mg sync-admins
+mg sync admins
 ```

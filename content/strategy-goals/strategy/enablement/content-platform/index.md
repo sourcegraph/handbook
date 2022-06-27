@@ -18,7 +18,7 @@ The current existing content platforms include:
 
 ## Roadmap
 
-In the next six months, we will focus primarily on improving the self-service ability of the marketing site and blog for the Marketing department.
+In the next six months, we will focus primarily on improving our tracking ability and to iterate fast on the marketing site and blog for the Marketing department.
 
 [Full list of roadmap issues for Content Platform team.](https://github.com/orgs/sourcegraph/projects/214/views/14)
 
@@ -28,14 +28,16 @@ In the next six months, we will focus primarily on improving the self-service ab
 
 - Convert the marketing site to use our preferred tech stack
 - Establish a unified technical strategy to drive all content platforms forward
-- Convert the blog to user our preferred tech stack
-- Deliver the implementation of the redesigned blog
-- Establish and document an incident response strategy for the sites owned by CPT
 
 #### FY23 Q2
 
-- Implement Contentful CMS on marketing site and blog
-- [Marketing website redesign](https://docs.google.com/document/u/0/d/1_LOCIwHGb8A42wqWjZzT6s75_aY6qFK4gMSHLa5YPPE/edit)
+- Enable better analytics to track and measure engagement
+- Enable fast delivery of new templates and changes to existing templates
+- SEO audit site optimization
+
+#### FY23 Q3
+
+- Implement a content hub on about.sourcegraph.com
 
 #### Longer-term
 

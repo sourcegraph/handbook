@@ -6,7 +6,7 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 
 - [Code Graph overall strategy](../index.md)
 - [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
-- [Batch Changes positioning and messaging](../../../../departments/marketing/product-marketing/batch_changes_positioning.md)
+- [Batch Changes positioning and messaging](../../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
 - [Batch Changes team page](../../../../departments/engineering/dev/code-graph/batch-changes/index.md)
@@ -90,7 +90,7 @@ Success here means creating end-to-end usage paths that use Batch Changes as wel
 
 Batch Changes has proven early product/market fit with high-growth scale-ups and medium to large technology companies. We are now working on expanding into more traditional enterprises. We see anecdotal early evidence of market fit across other segments ([Batch Changes dashboard](https://sourcegraph.looker.com/dashboards-next/174)).
 
-Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) and [Code Health](../../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/marketing/product-marketing/batch_changes_positioning.md#go-to-market-playbook)
+Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) and [Code Health](../../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md#go-to-market-playbook)
 
 We have five main learnings from the first year of Batch Changes:
 

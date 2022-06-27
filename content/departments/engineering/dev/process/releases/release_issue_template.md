@@ -33,7 +33,7 @@ Perform these steps the day before the release date to generate a stable release
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
-- [ ] Update the changelog and merge the generated pull request:
+- [ ] Update the changelog and merge the generated pull requests:
   ```sh
   yarn release changelog:cut
   ```
@@ -81,6 +81,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 On the day of the release, confirm there are no more release-blocking issues (as reported by the `release:status` command), then proceed with creating the final release:
 
 - [ ] Make sure [CHANGELOG entries](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
+- [ ] Make sure [deploy-sourcegraph-helm CHANGELOG entries](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
 - [ ] Tag the final release:
   ```sh
   yarn release release:create-candidate final
@@ -102,6 +103,8 @@ On the day of the release, confirm there are no more release-blocking issues (as
     - [ ] Ensure the [release tag `v$MAJOR.$MINOR.$PATCH`](https://github.com/sourcegraph/deploy-sourcegraph/tags) has been created
   - For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
     - [ ] Ensure the [release tag `v$MAJOR.$MINOR.$PATCH`](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags) has been created
+  - For [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm)
+    - [ ] Cherry pick the release-publishing PR from the release branch into main
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
@@ -114,7 +117,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) with the parameters for the next release.
   - [ ] Change `upcomingRelease` to the current patch release
   - [ ] Change `previousRelease` to the previous patch release version
-  - [ ] Change `releaseDate` to the current date (time is optional) along with `oneWorkingDayAfterRelease` and `oneWorkingDayBeforeRelease`
+  - [ ] Change `releaseDate` to the current date (time is optional) along with `oneWorkingDayAfterRelease` and `threeWorkingDaysBeforeRelease`
   - [ ] Change `captainSlackUsername` and `captainGitHubUsername` accordingly
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 - [ ] Create release calendar events, tracking issue, and announcement for next release:

@@ -1,5 +1,10 @@
 # Making decisions at Sourcegraph
 
+TL;DR
+
+- **Find the right owner.** Every decision should be made by the individual who is most directly responsible for the execution and results of the decision.
+- **Avoid slow decisions.** Making a bad decision fast and reverting later is better than making a good decision slowly. Instead of going to your manager to go to their manager to go to their product manager, embrace transparency and ask directly in a public channel for others to see and possibly contribute. A decision taking longer than one week should be a rare exception.
+
 ## Distributed decision making
 
 Making a decision is always challenging. It can feel risky (what are we missing?), uncomfortable (am I the right person to make this call?), rude (am I overstepping my bounds?), and more.
@@ -51,6 +56,13 @@ The key principle is that every decision should be made by the individual who is
 That individual’s manager may feel responsible for the results, but if they’re not owning the execution, they are likely not the right [decider](#decider).
 
 Our high-agency culture is only successful if individuals across the organization are empowered to make decisions. If you or someone on your team is rarely making decisions, that’s a sign of organizational failure. Managers at Sourcegraph are celebrated for delegating decision-making by empowering their teams.
+
+## Avoid slow decision making
+
+- **Be impatient.** The number of decisions at our company that take longer than a week are tiny.
+- **Making a bad decision fast and reverting later is better than making a good decision slowly.**
+- **Don’t go layer by layer, go direct.** Instead of going to your EM to go to their EM to go to their PM, embrace transparency: ask them directly, for others to see and possibly contribute.
+- **Don’t try to do too many things.** If we try to do too many things decisions tend to get slower because we need to keep too much context in mind. Focus on less things, make faster decisions.
 
 ### Examples
 
