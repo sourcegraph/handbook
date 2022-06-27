@@ -78,4 +78,3 @@ The first iteration of managed executors for managed instance customers will lik
 #### Do we have server-side pings?
 
 Yes, but not yet available in Looker ([#sourcegraph/analytics/issues/489](https://github.com/sourcegraph/analytics/issues/489))
-
