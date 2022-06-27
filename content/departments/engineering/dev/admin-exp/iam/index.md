@@ -60,13 +60,8 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
+- [Repo Management](../repo-management/index.md)
 - [Security](../security) - Team ambassador: [Feroz Salam](../../../../../team/index.md#feroz-salam)
-
-## News and updates
-
-### Weekly team updates
-
-Each Friday, we send weekly team updates to the rest of the Admin Experience org to keep the senior leadership and our partner teams in the loop about IAM team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
 
 ## How we work
 
