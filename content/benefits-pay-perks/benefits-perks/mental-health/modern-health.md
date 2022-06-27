@@ -1,6 +1,6 @@
 # Modern Health
 
-Sourcegraph offers an Employee Assistance Program to all team members via [Modern Health](https://www.joinmodernhealth.com/). Modern Health provides technology and professional support to help reduce stress, feel more engaged, and be happier. Through Sourcegraph, you have access to 10 coaching sessions and 10 therapy sessions at no cost to you as well as 100+ digital programs & mediations and unlimited live provider-led group sessions or circles. You will also have the ability to give individual access to the Modern Health platform for up to 3 dependents.
+Sourcegraph offers an Employee Assistance Program to all team members via [Modern Health](https://www.joinmodernhealth.com/). Modern Health provides technology and professional support to help reduce stress, feel more engaged, and be happier. Through Sourcegraph, you have access to 6 coaching sessions and 6 therapy sessions at no cost to you as well as 100+ digital programs & mediations and unlimited live provider-led group sessions or circles. You will also have the ability to give individual access to the Modern Health platform for up to 3 dependents.
 
 ### How to use Modern Health & a demo:
 
@@ -11,8 +11,8 @@ Learn how to use our mental health benefit by watching [this informational sessi
 Modern Health is the one-stop shop for all tools related to mental well-being and self-improvement. Teammates will have access to the following features:
 
 - Personalized Plan: Take a well-being assessment and review which tools may be most helpful for you.
-- Professional Coaching Support: Get matched to a dedicated professional who can help you reach your personal and professional goals. As a Sourcegraph teammate, your first 10 coaching sessions are complimentary. After the allotted sessions have been utilized, team members can work directly with the provider to determine a path forward at an additional cost to the teammate.
-- Therapy: As a Sourcegraph teammate, your first 10 therapy sessions are complimentary. After the allotted sessions have been utilized, team members can work directly with the provider to determine a path forward at an additional cost to the teammate.
+- Professional Coaching Support: Get matched to a dedicated professional who can help you reach your personal and professional goals. As a Sourcegraph teammate, your first 6 coaching sessions are complimentary. After the allotted sessions have been utilized, team members can work directly with the provider to determine a path forward at an additional cost to the teammate.
+- Therapy: As a Sourcegraph teammate, your first 6 therapy sessions are complimentary. After the allotted sessions have been utilized, team members can work directly with the provider to determine a path forward at an additional cost to the teammate.
 - Curated Content Library: Learn quick tricks to prevent burnout, manage stress, and cope with anxiety or depression based on evidence-based digital programs. You can use these digital programs for in-the-moment support or to build your own toolkit of techniques to improve your mental well-being.
 - Circles: [Live community sessions](https://circles.modernhealth.com/) led by Modern Health therapists and coaches, designed to help you proactively improve your mental health. Access to circles is unlimited and center around topics such as Foundations of Mental Health, Healing Asian Communities, Power of Women, and more.
 
@@ -26,8 +26,8 @@ If you’re still not sure where to get started, we recommend that you:
 
 Based on our Sourcegraph plan with Modern Health, you and 3 of your dependents have access to:
 
-- 10 one-on-one video sessions (per year) with certified mental health, professional, or financial well-being coaches
-- 10 one-on-one video or in-person sessions (per year) with licensed clinical therapists
+- 6 one-on-one video sessions (per year) with certified mental health, professional, or financial well-being coaches
+- 6 one-on-one video or in-person sessions (per year) with licensed clinical therapists
 - Unlimited group support sessions (known as Circles), designed to be safe spaces for sharing & learning with others. (Note: Circles currently offered in English only.)
 - Guided Meditations on managing stress and proactively building resilience.
 - Ongoing well-being assessments to check-in on your well-being over time
@@ -36,7 +36,7 @@ Based on our Sourcegraph plan with Modern Health, you and 3 of your dependents h
 
 Yes, coverage for up to 3 dependents is included in your benefit.
 
-Dependents have the following complimentary sessions: 10 coaching sessions and 10 therapy sessions which they will receive separately from your reserved sessions.
+Dependents have the following complimentary sessions: 6 coaching sessions and 6 therapy sessions which they will receive separately from your reserved sessions.
 
 “Dependents” refers to:
 
