@@ -2,8 +2,6 @@
 
 ## Closing down an organization on Sourcegraph Cloud
 
-# <<<<<<< Updated upstream
-
 If you have created an organization on Sourcegraph Cloud, follow these instructions when it’s time to delete it:
 
 - Go to your organization settings page. You can access it from the top right menu where there's a link to it.
@@ -25,8 +23,6 @@ If you have created an organization on Sourcegraph Cloud, follow these instructi
 Deleting an organization will also remove all its synced repositories from Sourcegraph Cloud.
 
 ## Closing down a customer's organization on Sourcegraph Cloud
-
-> > > > > > > Stashed changes
 
 During the open-beta, customers receive 30 days to try out Sourcegraph Cloud with Organizations. Once this period has passed, customers need to reach out in order to continue leveraging Sourcegraph Cloud.
 
@@ -67,8 +63,6 @@ DELETE * FROM orgs WHERE id = $ORG_ID;
 ### Other useful queries
 
 A list of useful DB queries can be found in [useful DB queries](https://docs.google.com/spreadsheets/d/1Z1-7uJwtF2etZFeqTcJS4z9WcAjKlkCxt8HQ931D3dA).
-<<<<<<< Updated upstream
-=======
 
 ## Closing down an organization locally, on `dotcom` mode
 
@@ -82,5 +76,3 @@ To create a feature flag locally or to change its value:
 - Now you should see the "Delete this organization" button. Go ahead and delete it, but be aware that this action can't be undone and will hard delete the organization along with all resources associated to it.
 
 Deleting an organization will also remove all its synced repositories from Sourcegraph Cloud.
-
-> > > > > > > Stashed changes
