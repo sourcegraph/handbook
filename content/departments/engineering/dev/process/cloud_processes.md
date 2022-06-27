@@ -42,9 +42,9 @@ DELETE * FROM orgs WHERE id = $ORG_ID;
 
 A list of useful DB queries can be found in [useful DB queries](https://docs.google.com/spreadsheets/d/1Z1-7uJwtF2etZFeqTcJS4z9WcAjKlkCxt8HQ931D3dA).
 
-## Closing down an employee's organization on Sourcegraph Cloud
+## Closing down an organization on Sourcegraph Cloud
 
-If you have created an organization on Sourcegraph Cloud (in production) for yourself that you’ve been using for testing or learning, follow these instructions when it’s time to delete it:
+If you have created an organization on Sourcegraph Cloud, follow these instructions when it’s time to delete it:
 
 - Go to your organization settings page. You can access it from the top right menu where there's a link to your organization.
 
