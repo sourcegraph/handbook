@@ -62,7 +62,7 @@ Yes. You can track this [here](https://github.com/orgs/sourcegraph/projects/232)
 
 #### Running batch changes server-side requires customers to self-host executors. How much work is that?
 
-- Self-hosting executors requires customers to provision executors and upgrade them monthly at each Sourcegraph release. This equires a commitment from the site-admin.
+- Self-hosting executors requires customers to provision executors and upgrade them monthly at each Sourcegraph release. This requires some time from the site-admin.
 - We provide Terraform modules to install executors on AWS and GCP, making it relatively comfortable to spin them up and relatively automated to upgrade them. We also offer binaries that users can deploy wherever they want. See the [documentation](https://docs.sourcegraph.com/admin/deploy_executors) on what configuration is needed for each option.
 - In the current state, we should only offer this feature to self-hosted customers, and to managed instances customers with a clear need to run batch changes at a large scale.
 - Executors are also used for code-intel auto-indexing. While there's an initial time investment to install them, they power two very useful features.
