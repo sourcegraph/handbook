@@ -112,7 +112,7 @@ We aggregate all of this feedback in [productboard](https://sourcegraph.productb
 
 In case you have longer google docs (eg. customer discovery notes) that don't fit in productboard cards:
 
-- put the doc in the [customer feedback notes](https://drive.google.com/drive/folders/1suKSsUTTJlEyRaiunNtzJUMwrP_ZPWYG) folder, using the following naming convention `Customer Year - <notes>` eg. `ACME Corp 2022 - code security notes`.
+- put the doc (or a [shortcut](https://support.google.com/drive/answer/9700156?)) in the [customer feedback notes](https://drive.google.com/drive/folders/1suKSsUTTJlEyRaiunNtzJUMwrP_ZPWYG) folder, using the following naming convention `Customer Year - <notes>` eg. `ACME Corp 2022 - code security notes`.
 - create snippets for key insights into Productboard
 
 ### Adding feedback to productboard
