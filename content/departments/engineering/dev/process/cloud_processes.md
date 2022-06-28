@@ -1,6 +1,6 @@
 # Sourcegraph Cloud Processes
 
-## Closing down an organization on Sourcegraph Cloud
+## Closing down a customer's organization on Sourcegraph Cloud
 
 If you have created an organization on Sourcegraph Cloud, follow these instructions when it’s time to delete it:
 
