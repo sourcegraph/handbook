@@ -12,6 +12,8 @@ To avoid this, as an open core company we can look to open source to see how thi
 
 The earlier you engage with the maintaining team, the more likely you are to avoid a situation where you've gotten ahead of yourself and might need to redo work: unlike open source, there is no forking the project to make your own version. In situations where the ownership is unclear, it might represent a new category, or things are otherwise fuzzy, you should post in #product for help.
 
+It's also important to communicate when something that looks like a project involving other teams is not yet prioritized, to avoid making other teams concerned you are not following this process and that they need to proactively get involved. For example, if you were to create an early prototype for user research, if you share that prototype in public or internal places, you should note the purpose of the prototype and acknowledge you'll reach out to the maintainer team if or when the project gets prioritized. 
+
 Through these simple rules of engagement we can foster innovation at the company, avoid turf wars and shipping the org chart, take advantage of the fact that we're a tool "by engineers, for engineers" and welcome everyone's contributions to improve the product while avoiding negative outcomes.
 
 ### Cross org and team projects
