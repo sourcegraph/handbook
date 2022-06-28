@@ -13,7 +13,6 @@ Product Management and Marketing must work closely together to successfully crea
 
 Shared areas of ownership where both teams contribute are:
 
-
 - Market research, including personas, ideal customer profiles, etc.
 - Competitive positioning and analysis
 - [Go to market planning](./rollout_process.md)
