@@ -44,7 +44,7 @@ Note: Our policy is that all teammates have a sourcegraph-managed laptop to perf
 
 ## Computers
 
-All Sourcegraph teammates are required to have, and to work from, a company machine that is set up accoring to our [device requirements](../../departments/tech-ops/tools/computer-setup.md). Computers are considered property of the company.
+All Sourcegraph teammates are required to have, and to work from, a company machine that is set up according to our [device requirements](../../departments/tech-ops/tools/computer-setup.md). Computers are considered property of the company.
 
 Please see below how to get your computer and which specs to get depending on your role.
 
