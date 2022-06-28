@@ -1,14 +1,14 @@
 # Company meeting
 
-**What:** A bi-weekly live meeting that takes place evry other Tuesday at 3pm UTC. 
+**What:** A bi-weekly live meeting that takes place evry other Tuesday at 3pm UTC.
 
 **Why:** To come together as a gloabl team and hear from @sqs and other leaders about company goals, to align on company strategy, and to celebrate recent wins. This is an important communication touchpoint all teammates should prioritize the time to attend.
 
-**How:** Attend live via Zoom. Invites are automatically sent to your calendar. If we make any changes to the invite, we will notify the team in #announcements. 
+**How:** Attend live via Zoom. Invites are automatically sent to your calendar. If we make any changes to the invite, we will notify the team in #announcements.
 
 ## Recordings
 
-> All company meetings are recorded and the recording is shared in #announcements following the meeting along with any slides and scripts. 
+> All company meetings are recorded and the recording is shared in #announcements following the meeting along with any slides and scripts.
 
 If a recording isn't shared here is the process to access it yourself:
 
