@@ -34,6 +34,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
+- [Cross-functional projects](strategy-goals/cross-functional-projects/index.md)
 
 ## Company Information and Processes
 
