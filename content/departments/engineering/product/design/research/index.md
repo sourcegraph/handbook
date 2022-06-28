@@ -51,6 +51,8 @@ Use the following methods to identify internal research subjects:
 
 ## External users
 
+_The product team keeps a list of [upcoming external research calls here](https://docs.google.com/spreadsheets/d/1JkTrLyPLPqBx7Vjkaweosq-GauPxaVSDRb0dh56VLVw/edit#gid=0), so other teammates can add quick additional topics if something is already scheduled and there is additional time. You should still take agency to schedule your own research calls, but this helps us multiply our scheduling efforts to benefit multiple teams._
+
 Relying on internal users can lead to introducing bias into your research, yet sourcing external users for feedback is one of the most difficult parts of the research process. The following are methods product and design use to source research candidates:
 
 - Outreach on social media, either through our platform (ask for a post in #social-media-action) or via active and influential accounts such as the CTO, CEO, or members of your team.
