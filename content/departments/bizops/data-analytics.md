@@ -285,13 +285,14 @@ Looker is a business intelligence tool used for standard enterprise reporting an
 
 Looker has the ability to connect to all data sources that are located in our BigQuery DWH. It can also connect to documents in Google.
 
-**Notable reports: **
+**Notable reports:**
 
 **Overview dashboards and charts**
 
 - [Server Instances Overview](https://sourcegraph.looker.com/dashboards/167?Unique%20Server%20ID=Netflix&Salesforce%20Unique%20ID=) - A look at an individual instance and usage metrics at the instance and feature level
-- [Server instances](https://sourcegraph.looker.com/looks/436) - a list of all instances and users by month
+- [Server instances](https://sourcegraph.looker.com/looks/436) - A list of all instances and users by month
 - [Customer Health - by customer](https://sourcegraph.looker.com/dashboards/194?Unique%20Server%20ID=Uber) - A view of customers (on-prem) and their usage measures
+- [Prospect Overview - by account](https://sourcegraph.looker.com/dashboards/304?Account%20Name=&Ae%20Name=&Sdr%20Name=) - A list of all accounts in Salesforce and their product usage and campaign memberships aggregated at the account level
 
 **Feature specific dashboards and charts**
 
