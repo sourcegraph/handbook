@@ -2542,11 +2542,12 @@ steve_fisher:
 
 alex_mathison:
   name: Alex Mathison
+  email: alex.mathison@sourcegraph.com
   pronouns: she/her
   role: Senior People Partner
+  reports_to: director_people
   location: Seattle, WA 🇺
   github: amath00
-  email: alex.mathison@sourcegraph.com
   links: [LinkedIn](https://www.linkedin.com/in/acmathison/)'
   description: When she's not relaxing on the couch with a book, Alex is outside digging in the garden, going up and down mountains on skis, riding a bike, or chasing a frisbee around a field during an ultimate game. She is an HR nerd and is only sometimes embarassed to admit it. Alex loves rainy Seattle but refuses to use an umbrella. 
 
