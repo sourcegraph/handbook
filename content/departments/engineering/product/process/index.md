@@ -55,6 +55,7 @@ When we have relaxed this in the past, the results have been bad and the overwhe
   - [Release blog post template](https://github.com/sourcegraph/about/blob/main/handbook/product/product_management/release_blog_post_template.md)
   - [New feature legal questionnaire](gtm/new_feature_legal_questionnaire.md) - how we share relevant information about new features with our legal team.
 - [Pricing and tiering/packaging](gtm/pricing.md)
+- [Licensing](gtm/licensing.md)
 
 #### Talking to customers and stakeholders
 
