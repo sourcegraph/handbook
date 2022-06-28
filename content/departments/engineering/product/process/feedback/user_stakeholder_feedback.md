@@ -8,7 +8,7 @@ _This page is most relevant to product team members. If you want to know how to 
 
 - [Tracking & sharing user & stakeholder feedback](#tracking--sharing-user--stakeholder-feedback)
   - [Sources of feedback](#sources-of-feedback)
-    - [Sales feedback](#salesce-feedback)
+    - [Sales feedback](#sales-feedback)
     - [CE feedback](#ce-feedback)
     - [Email lists](#email-lists)
       - [hi@sourcegraph.com](#hisourcegraphcom)
@@ -20,6 +20,7 @@ _This page is most relevant to product team members. If you want to know how to 
     - [Support tickets](#support-tickets)
     - [Hubspot forms](#hubspot-forms)
       - [NPS Survey](#nps-survey)
+      - [Happiness widget](#happiness-widget)
       - [Browser Extension Uninstall Feedback](#browser-extension-uninstall-feedback)
   - [Productboard](#productboard)
     - [Adding feedback to productboard](#adding-feedback-to-productboard)
@@ -63,14 +64,14 @@ We have a few different email lists that are used to send us feedback.
 #### support@sourcegraph.com
 
 - **Purpose:** This email list is for customers to request help and connects to Zendesk.
-- **Owner:** The Customer Support team is [responsible for all support issues](../../../ce-support/support/process/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
+- **Owner:** The Customer Support team is [responsible for all support issues](../../../../ce-support/support/process/support-workflow.md#support-workflow) and will pull in as needed engineering teams or product to help answer questions.
 
 ### GitHub issues
 
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
 - **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](product_feedback_rotation.md) is responsible for labelling with the right team.
 
-See [How to reference customer names in public tickets](prioritizing.md#how-to-reference-customer-names-in-public-tickets).
+See [How to reference customer names in public tickets](../prioritize_and_build/prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
 ### Twitter
 
@@ -104,7 +105,7 @@ See [How to reference customer names in public tickets](prioritizing.md#how-to-r
 #### Browser Extension Uninstall Feedback
 
 - **Purpose:** We ask everyone who uninstalls the browser extension why they no longer want it.
-- **Owner:** The browser extension product manager (currently the [Integrations team product manager](../../dev/admin-exp/integrations/index.md#members)) owns responding to this feedback.
+- **Owner:** The browser extension product manager (currently the [Integrations team product manager](../../../dev/admin-exp/integrations/index.md#members)) owns responding to this feedback.
 
 ## Productboard
 

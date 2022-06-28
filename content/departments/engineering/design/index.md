@@ -8,15 +8,15 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Team
 
-- [Steve Fisher](../../../../team/#sts=Steve%20Fisher) Head of Design
-  - [Rob Rhyne](../../../../team/index.md#rob-rhyne) Code Graph Design Manager (he/him)
-    - [Alicja Suska](../../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
-    - [Daniel Marques](../../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
-    - [Paulo Almeida](../../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
-  - [Steve Fisher](../../../../team/#sts=Steve%20Fisher) Interim Cloud Design Manager
-    - [Quinn Keast](../../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
-    - [Sara Lee](../../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
-  - [Megan St. Andrew](../../../../team/index.md#megan-st-andrew) UX Researcher - Code Graph
+- [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design
+  - [Rob Rhyne](../../../team/index.md#rob-rhyne) Code Graph Design Manager (he/him)
+    - [Alicja Suska](../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
+    - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
+    - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
+  - [Steve Fisher](../../../team/#sts=Steve%20Fisher) Interim Cloud Design Manager
+    - [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
+    - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
+  - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher - Code Graph
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -40,11 +40,11 @@ Our [product design principles](../process/index.md#sourcegraphs-design-principl
 
 ### Designing in the open
 
-At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../../company-info-and-process/values/index.md) to our work and thrive in our globally distributed, remote company.
+At Sourcegraph, we design in the open. This is an important part of how we work as a design team, and is a key part of how we apply [our values](../../../company-info-and-process/values/index.md) to our work and thrive in our globally distributed, remote company.
 
 Designing in the open means many things to us.
 
-- **Our work and process is [transparent by default](../../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../../company-info-and-process/values/index.md#high-agency) environment.
+- **Our work and process is [transparent by default](../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company-info-and-process/values/index.md#high-agency) environment.
 - **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
 - **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 
@@ -88,7 +88,7 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 - [Tools](./tools/index.md)
 - [Workshops](./workshops/index.md)
-- [Content guidelines](../../../../company-info-and-process/communication/content_guidelines/index.md)
+- [Content guidelines](../../../company-info-and-process/communication/content_guidelines/index.md)
 - [Documents and templates](./documents_templates/index.md)
 - [Visual design checklist](./visual_design_checklist.md)
 - [External resources](./external_resources/index.md)
@@ -96,4 +96,4 @@ We avoid siloed work as much as possible. Instead of design and development phas
 ## Other
 
 - [Design team onboarding](./onboarding/index.md)
-- [Interview process](../roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
+- [Interview process](../product/roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))

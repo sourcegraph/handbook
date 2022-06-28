@@ -26,7 +26,7 @@ The assigned sponsors for each use case are listed on the individual [use case p
 
 - Research
   - [User research](user_research/index.md)
-  - [Design workshops](../design/workshops/index.md)
+  - [Design workshops](../../design/workshops/index.md)
 - Feedback
   - [Tracking user & stakeholder feedback](feedback/user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
   - [The product feedback rotation](feedback/product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.

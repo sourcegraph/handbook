@@ -2,7 +2,7 @@
 
 Welcome to the Design Team!
 
-Having gone though [the Process St onboarding](https://app.process.st/reports/) and [product onboarding](../../onboarding/index.md), it's time for the design onboarding!
+Having gone though [the Process St onboarding](https://app.process.st/reports/) and [product onboarding](../../product/onboarding/index.md), it's time for the design onboarding!
 
 Your perspective as both a new user of Sourcegraph and a new teammate is very valuable to us. Please keep notes on any issues you encounter as you are onboarding and learning the product. We’ll use those notes to improve the product and process.
 
@@ -87,7 +87,7 @@ Then, coordinate with you manager and share the results with the design team.
 
 ## Manager checklist
 
-- Complete the [product team manager checklist](../../onboarding/index.md#manager-checklist)
+- Complete the [product team manager checklist](../../product/onboarding/index.md#manager-checklist)
 - Add the designer to these team meetings:
   - Design sync meeting (both meetings!)
   - Design retro meeting (first Wednesday of the month)

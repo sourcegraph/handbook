@@ -36,7 +36,7 @@ Surveys allow researchers to ask questions at a scale that isn't possible with o
 
 # Publishing results
 
-After research is complete, we publish our findings in the research in the [user research library](../../process/user_research/index.md#user-research-library) or share the resulting artifacts with the project team, and the broader company via internal channels. Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
+After research is complete, we publish our findings in the research in the [user research library](../../product/process/user_research/index.md#user-research-library) or share the resulting artifacts with the project team, and the broader company via internal channels. Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
 
 # User Research Participants
 
@@ -68,9 +68,9 @@ Relying on internal users can lead to introducing bias into your research, yet s
 
 We've found that moderated user research goes more smoothly, and is more approachable, when both participants and observers know what to expect. We've created two resources you can share ahead of time to make your research more successful:
 
-- [So you’re about to participate in user testing](../../process/user_research/user_research_participant.md)
-- [So you’re about to help us with user testing](../../process/user_research/user_research_observer.md)
+- [So you’re about to participate in user testing](../../product/process/user_research/user_research_participant.md)
+- [So you’re about to help us with user testing](../../product/process/user_research/user_research_observer.md)
 
 ## Compensation for user research participants
 
-When it's the right choice to provide compensation for user research participants, we have an [established process you can bring into your research activity](../../process/user_research/user_research_compensation.md).
+When it's the right choice to provide compensation for user research participants, we have an [established process you can bring into your research activity](../../product/process/user_research/user_research_compensation.md).

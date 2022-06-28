@@ -25,13 +25,13 @@ We believe that in this increasingly technical world, code should be transparent
 
 <span style="font-size: larger">To make it so <strong class="text-vivid-violet">everyone can code</strong>, we will create tools, networks, and incentives for coding at <strong class="text-vivid-violet">ever-larger scale</strong>.</span>
 
-Read more about [our mission in the handbook](../../../../../strategy-goals/strategy/index.md#mission).
+Read more about [our mission in the handbook](../../../../strategy-goals/strategy/index.md#mission).
 
 ### Values
 
 These values are the beliefs and principles that help us achieve our goals and vision and build an inclusive team. These apply at every level of our organization—“you” refers to individuals, teams, and Sourcegraph as a whole.
 
-Read more about [our values in the handbook](../../../../../company-info-and-process/values/index.md).
+Read more about [our values in the handbook](../../../../company-info-and-process/values/index.md).
 
 ## Brand voice
 
@@ -87,4 +87,4 @@ Our voice is informed by our story—because we believe in large scale accessibi
 
 Our voice attributes guide how we articulate our communication. Each message requires differing amounts of each voice attribute, depending on the audience.
 
-See also ["Voice and tone" in our content guidelines](../../../../../company-info-and-process/communication/content_guidelines/voice_and_tone.md).
+See also ["Voice and tone" in our content guidelines](../../../../company-info-and-process/communication/content_guidelines/voice_and_tone.md).
