@@ -11,8 +11,8 @@ Here at Sourcegraph, we believe that interviewing is a company-wide effort. This
 ## Checklist for new interviewers
 
 - Review interview training below
-- Review [guide to using brighthire] page
-- Review [guide to using Greenhouse] page
+- Review [guide to using brighthire](guide_to_using_brighthire.md)
+- Review [guide to using Greenhouse](guide_to_using_greenhouse.md)
   - How to see your interview questions
   - How to provide feedback
   - Interview feedback definitions
@@ -35,7 +35,7 @@ So in interviewing, the question becomes: how do we prevent them from impacting 
 
 1. The first way that we can prevent unconscious bias is to take the [Harvard implicit bias test](https://implicit.harvard.edu/implicit/takeatest.html). We strongly encourage all our teammates to take this test if you're interested in learning more about your personal biases. It's okay that we all have these, but awareness of them should work towards reducing them to the best of our ability.
 2. The second way to prevent unconscious bias is to consider likeability. We tend to want to hire people who remind us of ourselves. Make sure you're asking yourself, does the person I'm interviewing have the innate will, skill, and values to succeed in the role? We should not hire based on whether they grew up in the same place, have the same hobbies, etc. We really should not be leveraging those things to make a decision one way or another.
-3. Finally, stick to an interview script. Our hiring managers work hard at the beginning of every process to create an [interview plan](resources_for_hiring_managers.md#the-interview-process). An interview plan is a structured interview process that every candidate goes through regardless of background and it ensures that they are all asked the exact same questions to level the playing field. Asking those structured interview questions helps to reduce bias from affecting our decision making.
+3. Finally, stick to an interview script. Our hiring managers work hard at the beginning of every process to create an [interview plan](../process/interview_process.md). An interview plan is a structured interview process that every candidate goes through regardless of background and it ensures that they are all asked the exact same questions to level the playing field. Asking those structured interview questions helps to reduce bias from affecting our decision making.
 
 ### 2. Structured interviewing
 

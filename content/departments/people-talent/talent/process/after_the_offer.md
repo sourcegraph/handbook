@@ -22,17 +22,17 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 **Step 2**: the Recruiter confirms that the open, start and hired dates are correct, ensuring accurate time-to-fill data.
 
-- COMING SOON: how to view / edit
+- To view/edit this information in Greenhouse, click 'Job Setup' and then 'Job Info'. This will show you the role details and you can confirm that all of the information is correct.
 
 **Step 3**: the Recruiter confirms the candidate source information is accurate, ensuring accurate source data.
 
-- COMING SOON: how to edit source information
+- To view/edit source information, click the 'Details' tab on the candidate's Greenhouse profile and scroll down to the 'Source and Responsibility' section. Confirm that the Source, Recruiter, and Coordinator are correct and if needed, edit the information by clicking the pencil button beside each field.
 
 **Step 4**: the Recruiter confirms that the candidate's profile name in Greenhouse matches their legal first & last name, which can be found on the signature page of their signed offer letter.
 
 **Step 5**: the Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
 
-- COMING SOON: how to decline candidates
+- Click [here](interview_process.md#declining-candidates) to learn how to decline candidates.
 
 **Step 6**: the Recruiter marks the candidate as "hired" in Greenhouse.
 
@@ -110,7 +110,7 @@ After the candidate formally signs the offer letter (contract) generated through
 
 If a new hire needs to change their start date, the Recruiter follows the below steps:
 
-**Step 1**: Send the below Slack to Ines, Noemi, & Carly to request approval to change the start date.
+**Step 1**: Send the below Slack to Ines & Carly in the [#onboarding-internal](https://sourcegraph.slack.com/archives/C02773ADT7A) Slack channel to request approval to change the start date.
 \_Please note: all requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard
 
 "Hi team, we have a candidate who would like to move their start date. Please find their updated details below. Do we have the green light to make the change? If so, I will update the hire date in Greenhouse and will send an email with the updated start date.

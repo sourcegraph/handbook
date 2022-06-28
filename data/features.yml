@@ -7,7 +7,7 @@ literal_search:
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -32,7 +32,7 @@ regexp_search:
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -57,7 +57,7 @@ structural_search:
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -82,7 +82,7 @@ diff_commit_search:
   documentation_link: https://docs.sourcegraph.com/code_search/reference/queries
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -107,7 +107,7 @@ code_monitoring:
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - code_reuse
   compatibility:
     gitlab_com: true
@@ -130,7 +130,7 @@ code_monitoring_email_notifications:
   documentation_link: https://docs.sourcegraph.com/code_monitoring
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - code_reuse
   compatibility:
     gitlab_com: true
@@ -152,7 +152,7 @@ code_monitoring_webhooks:
   maturity: not_implemented
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - code_reuse
 
 saved_searches:
@@ -203,7 +203,7 @@ search_based_code_intelligence:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
   use_cases:
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -231,7 +231,7 @@ precise_code_intelligence_go:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -259,7 +259,7 @@ precise_code_intelligence_jsts:
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -287,7 +287,7 @@ precise_code_intelligence_java_scala_kotlin:
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -315,7 +315,7 @@ precise_code_intelligence_c_cpp:
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
   use_cases:
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -376,7 +376,7 @@ batch_changes:
     github_com: true
     github_enterprise: true
     bitbucket_server: true
-    bitbucket_cloud: false
+    bitbucket_cloud: true
     phabricator: false
     codecommit: false
     gitolite: false
@@ -389,14 +389,15 @@ batch_changes:
     cloud: not_implemented
 
 server_side_batch_changes:
-  title: Server side batch changes
+  title: Server-side batch changes
   product_team: batch_changes
-  maturity: experimental
+  maturity: beta
   documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
   deployment:
-    self_hosted: experimental
-    managed_instance: experimental
+    self_hosted: beta
+    managed_instance: beta
     cloud: not_implemented
+  note: Server-side batch changes on managed instances requires self-hosting [executors](#executors).
 
 code_insights:
   title: Code Insights
@@ -405,7 +406,7 @@ code_insights:
   documentation_link: https://docs.sourcegraph.com/code_insights
   use_cases:
     - code_health
-    - fixing_security_vulnerabilities
+    - code_security
     - incident_response
     - code_reuse
     - developer_onboarding
@@ -471,7 +472,7 @@ repository_permissions:
 
 user_authentication:
   title: User Authentication
-  product_team: iam_and_admin_exp
+  product_team: iam
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/config/authorization_and_authentication
   compatibility:
@@ -528,7 +529,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: devops
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   compatibility:
@@ -547,7 +548,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: devops
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   compatibility:
@@ -566,7 +567,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: devops
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   compatibility:
@@ -620,3 +621,13 @@ custom_extensions:
     gerrit: true
     perforce: true
     cvs: true
+
+executors:
+  title: Executors
+  product_team: code_intelligence
+  maturity: experimental
+  documentation_link: https://docs.sourcegraph.com/admin/executors
+  deployment:
+    self_hosted: beta
+    managed_instance: experimental
+    cloud: not_implemented

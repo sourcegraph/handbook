@@ -21,18 +21,6 @@
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#noemi-mercado" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/noemiAvatar.png"
-                alt="Picture of Noemi Mercado" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Noemi Mercado</div>
-          <div style="text-align: center; font-size: 12px;">People Operations Manager</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
             <a href="../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
                 alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
@@ -40,30 +28,6 @@
           </div>
           <div style="text-align: center;">Inés Roitman</div>
           <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../team/index.md#cassie-melani" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/cassieAvatar.png"
-                alt="Picture of Cassie Melani" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Cassie Melani</div>
-          <div style="text-align: center; font-size: 12px;">Teammate Success Manager</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../team/index.md#cecily-Black" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/cecilyAvatar.png"
-                alt="Picture of Cecily Black" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Cecily Black</div>
-          <div style="text-align: center; font-size: 12px;">People Operations Coordinator</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
@@ -78,7 +42,10 @@
           <div style="text-align: center;">Jonathan Ayers</div>
           <div style="text-align: center; font-size: 12px;">Director, People</div>
         </div>
-         <div>
+        </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
             <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
               <img
                 src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
@@ -88,7 +55,19 @@
           <div style="text-align: center;">Alex Mathison</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
-      </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
+                alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Carl Robson</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
     </div>
    </section>
 
@@ -98,9 +77,7 @@
 
 ### How to reach the right member of the People Ops team
 
-If you encounter a question at any point, we're here to help!
-
-Our **[People Ops Communications Matrix](https://docs.google.com/spreadsheets/d/1JItBWbfKV9lr-LAmE19I0JMvu3Cvh0AdrEHDv-r1E2w/edit#gid=0)** will help you understand which aliases to use for your questions. It will also ensure you get the right attention, from the right team member, faster. In the spirit of transparency, for any questions which might apply to others, feel free to post in the Slack channels we listed in the matrix.
+If you encounter a question at any point, we're here to help! Slack us at #ask-people-team
 
 ### Open roles
 

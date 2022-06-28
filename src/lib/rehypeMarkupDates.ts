@@ -75,7 +75,7 @@ export const rehypeMarkupDates: Plugin = () => root =>
 function formatTimezoneOffset(totalMinutes: number): string {
     const hours = Math.trunc(totalMinutes / 60)
     const minutes = Math.abs(totalMinutes) % 60
-    return `${formatInt(hours, 2)}:${formatInt(minutes, 2)}`
+    return `${totalMinutes >= 0 ? '+' : ''}${formatInt(hours, 2)}:${formatInt(minutes, 2)}`
 }
 
 const fiscalIntervalPattern = new RegExp(`^(?:${fiscalYearPattern.source}|${fiscalQuarterPattern.source})$`)
@@ -98,7 +98,7 @@ function parseFiscalInterval(input: string): { start: string; end: string } | nu
     if (!startFiscalYearString) {
         startQuarterString = startOnlyQuarterString
     }
-    if (!startQuarterString) {
+    if (!startQuarterString && startYearHalfString) {
         startQuarterString = startYearHalfString === '1' ? '1' : '3'
         durationMonths = 6
     }
@@ -123,8 +123,9 @@ function parseFiscalInterval(input: string): { start: string; end: string } | nu
     if (startFiscalYearString.length === 2) {
         startFiscalYearString = '20' + startFiscalYearString
     }
-    const endYear = parseInt(startFiscalYearString, 10)
-    const startYear = endYear - 1
+
+    const startYear = parseInt(startFiscalYearString, 10) - 1
+    const endYear = Math.floor(startYear + (startMonth + durationMonths) / 12)
 
     return {
         start: `${formatInt(startYear, 4)}-${formatInt(startMonth, 2)}-01`,

@@ -12,9 +12,6 @@
       "title": {
         "type": "string"
       },
-      "product_org": {
-        "type": "string"
-      },
       "product_team": {
         "type": "string"
       },

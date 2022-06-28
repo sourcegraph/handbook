@@ -34,6 +34,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
+- [Cross-functional projects](strategy-goals/cross-functional-projects/index.md)
 
 ## Company Information and Processes
 
@@ -63,46 +64,36 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [People & Talent](departments/people-talent/index.md)
 
-#### [People team](departments/people-talent/people-ops/index.md)
+- [People team](departments/people-talent/people-ops/index.md)
 
-#### [Talent](departments/people-talent/talent/index.md)
+- [Talent](departments/people-talent/talent/index.md)
+  - [Resources for Interns](departments/people-talent/talent/internship/index.md)
+  - [Resources for Candidates](departments/people-talent/talent/index.md#resources-for-candidates)
+  - [Resources for Hiring Manager](departments/people-talent/talent/index.md#resources-for-hiring-managers)
+  - [Resources for Teammates](departments/people-talent/talent/index.md#resources-for-teammates)
+  - [Resources for Recruiters](departments/people-talent/talent/index.md#resources-for-talent-team)
 
-- [Resources for Candidates](departments/people-talent/talent/index.md)
-- [Resources for Hiring Manager](departments/people-talent/talent/index.md)
-- [Resources for Teammates](departments/people-talent/talent/index.md)
-- [Resources for Recruiters](departments/people-talent/talent/index.md)
+#### [Engineering](departments/engineering/index.md)
 
-### [Product & Engineering](departments/product-engineering/index.md)
+- [Engineering](departments/engineering/dev/index.md)
+  - [Engineering orgs and teams](departments/engineering/dev/team/index.md)
+- [Product Management](departments/engineering/product/index.md)
+  - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
+  - [Process](departments/engineering/product/process/index.md)
+  - [Design](departments/engineering/product/design/index.md)
+- [Design](departments/engineering/product/design/index.md)
 
-- [Planning process](departments/product-engineering/process/planning-process.md)
+> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 
-#### [Product](departments/product-engineering/product/index.md)
+### [Customer Support](departments/ce-support/support/index.md)
 
-- [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
-- [Process](departments/product-engineering/product/process/index.md)
-- [Design](departments/product-engineering/product/design/index.md)
-
-#### [Engineering](departments/product-engineering/engineering/index.md)
-
-<!-- When updating the engineering team list below, please also update engineering/eng_org.md -->
-
-- [Engineering](departments/product-engineering/engineering/index.md)
-  - [Engineering orgs and teams](departments/product-engineering/engineering/team/index.md)
-
-### [Customer Support](departments/support/index.md)
-
-### [Customer Engineering](departments/ce/index.md)
+### [Customer Engineering](departments/ce-support/ce/index.md)
 
 ### [Marketing](departments/marketing/index.md)
 
 - [Product Marketing](departments/marketing/product-marketing/index.md)
-- [Content Marketing](departments/marketing/content/index.md)
-  - [Editorial](departments/marketing/content/editorial/index.md)
-- [Demand Gen](departments/marketing/demand-gen/index.md)
-- [Developer Education](departments/marketing/education/index.md)
-- [Brand](departments/marketing/brand/index.md)
-- [Social Media](departments/marketing/social-media/index.md)
-- [Community Relations](departments/marketing/community_relations/index.md)
+- Communications
+- [Creative Ops](departments/marketing/creative-ops.md)
 
 ### [Sales](departments/sales/index.md)
 
@@ -119,6 +110,8 @@ The handbook is a living document and we expect every teammate to propose improv
 ### [Legal](departments/legal/index.md)
 
 ### [CTO](departments/cto/index.md)
+
+- [Community](departments/cto/community/index.md)
 
 ### [Tech Ops](departments/tech-ops/index.md)
 

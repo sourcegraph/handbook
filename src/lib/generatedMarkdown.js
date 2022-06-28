@@ -32,28 +32,25 @@ export async function generateFeatureMaturityLevels() {
   const features = await readYamlFile('data/features.yml')
   const maturityLevels = await readYamlFile('data/maturity_levels.yml')
   const productTeams = await readYamlFile('data/product_teams.yml')
-  const productOrgs = await readYamlFile('data/product_orgs.yml')
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
     let featureCount = 0
     let areaContent = `\n### ${String(productTeam.title)}\n`
-    if (productOrgs[productTeam.product_org].strategy_link) {
-      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
-        productOrgs[productTeam.product_org].strategy_link
-      )}) | `
-    }
+    let notes = ''
     if (productTeam.strategy_link) {
       areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
     if (productTeam.pm) {
+      if (!teamMembers[productTeam.pm]) {
+        throw new Error(`no team member: ${String(productTeam.pm)}`)
+      }
       const bioLink = createBioLink(teamMembers[productTeam.pm].name)
       areaContent += `\nProduct Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})`
     }
 
     areaContent += '\n|Feature|Maturity|\n'
     areaContent += '|-------|--------|\n'
-
     for (const feature of Object.values(features)) {
       if (feature.product_team === productTeamName) {
         featureCount++
@@ -63,7 +60,13 @@ export async function generateFeatureMaturityLevels() {
           areaContent += `|${String(feature.title)}`
         }
         areaContent += `|${String(maturityLevels[feature.maturity].title)}|\n`
+        if (feature.note) {
+          notes += `- ${String(feature.note)} \n `
+        }
       }
+    }
+    if (notes) {
+      areaContent += `\n Notes: \n ${notes}`
     }
     if (featureCount > 0) {
       pageContent += areaContent
@@ -75,19 +78,12 @@ export async function generateFeatureMaturityLevels() {
 export async function generateFeatureCodeHostCompatibilities() {
   const features = await readYamlFile('data/features.yml')
   const productTeams = await readYamlFile('data/product_teams.yml')
-  const productOrgs = await readYamlFile('data/product_orgs.yml')
   const teamMembers = await readYamlFile('data/team.yml')
   const codeHosts = await readYamlFile('data/code_hosts.yml')
   let pageContent = ''
   for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
     let featureCount = 0
     let areaContent = `\n### ${String(productTeam.title)}\n`
-    const productOrg = productOrgs[productTeam.product_org]
-    if (productOrg.strategy_link) {
-      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
-        productOrg.strategy_link
-      )}) | `
-    }
     if (productTeam.strategy_link) {
       areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
@@ -189,6 +185,9 @@ export async function generateTeamMembersList() {
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
   for (const teamMember of Object.values(teamMembers)) {
+    if (teamMember.hide_on_team_page) {
+      continue
+    }
     pageContent += `\n### ${String(teamMember.name)}\n`
     if (teamMember.role) {
       pageContent += `${String(teamMember.role)}`
@@ -223,61 +222,44 @@ export async function generateTeamMembersList() {
 
 export async function generateProductTeamsList() {
   const productTeams = await readYamlFile('data/product_teams.yml')
-  const productOrgs = await readYamlFile('data/product_orgs.yml')
   const teamMembers = await readYamlFile('data/team.yml')
   let pageContent = ''
-  for (const [productOrgName, productOrg] of Object.entries(productOrgs)) {
-    pageContent += `\n### ${String(productOrg.title)} org\n\n`
-    if (productOrg.strategy_link) {
-      pageContent += `- [Strategy Page](${String(productOrg.strategy_link)})\n`
+  for (const productTeam of Object.values(productTeams)) {
+    pageContent += `\n\n### ${String(productTeam.title)} team\n`
+    if (productTeam.strategy_link) {
+      pageContent += `- [Strategy Page](${String(productTeam.strategy_link)})\n`
     }
-    if (productOrg.strategy_link) {
-      const bioLinkPM = createBioLink(teamMembers[productOrg.pm].name)
-      const bioLinkEM = createBioLink(teamMembers[productOrg.em].name)
-      pageContent += `- Product Director: [${String(teamMembers[productOrg.pm].name)}](${String(bioLinkPM)})\n`
-      pageContent += `- Engineering Director: [${String(teamMembers[productOrg.em].name)}](${String(bioLinkEM)})\n`
+    if (productTeam.pm) {
+      const bioLink = createBioLink(teamMembers[productTeam.pm].name)
+      pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
     }
-    for (const productTeam of Object.values(productTeams)) {
-      if (productTeam.product_org === productOrgName) {
-        pageContent += `\n\n#### ${String(productTeam.title)} team\n`
-        if (productTeam.strategy_link) {
-          pageContent += `- [Strategy Page](${String(productTeam.strategy_link)})\n`
+    if (productTeam.em) {
+      const bioLink = createBioLink(teamMembers[productTeam.em].name)
+      pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
+    }
+    if (productTeam.design) {
+      const bioLink = createBioLink(teamMembers[productTeam.design].name)
+      pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
+    }
+    if (productTeam.pmm) {
+      const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
+      pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)})\n`
+    }
+    if (productTeam.issue_labels) {
+      for (let index = 0; index < productTeam.issue_labels.length; index++) {
+        if (index === 0) {
+          pageContent += '- Issue labels: '
         }
-        if (productTeam.pm) {
-          const bioLink = createBioLink(teamMembers[productTeam.pm].name)
-          pageContent += `- Product Manager: [${String(teamMembers[productTeam.pm].name)}](${String(bioLink)})\n`
+        if (index < productTeam.issue_labels.length - 1) {
+          pageContent += `[${String(
+            productTeam.issue_labels[index]
+          )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])}), `
         }
-        if (productTeam.em) {
-          const bioLink = createBioLink(teamMembers[productTeam.em].name)
-          pageContent += `- Engineering Manager: [${String(teamMembers[productTeam.em].name)}](${String(bioLink)})\n`
-        }
-        if (productTeam.design) {
-          const bioLink = createBioLink(teamMembers[productTeam.design].name)
-          pageContent += `- Product Designer: [${String(teamMembers[productTeam.design].name)}](${String(bioLink)})\n`
-        }
-        if (productTeam.pmm) {
-          const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
-          pageContent += `- Product Marketing Manager: [${String(teamMembers[productTeam.pmm].name)}](${String(
-            bioLink
-          )})\n`
-        }
-        if (productTeam.issue_labels) {
-          for (let index = 0; index < productTeam.issue_labels.length; index++) {
-            if (index === 0) {
-              pageContent += '- Issue labels: '
-            }
-            if (index < productTeam.issue_labels.length - 1) {
-              pageContent += `[${String(
-                productTeam.issue_labels[index]
-              )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])}), `
-            }
-            if (index === productTeam.issue_labels.length - 1) {
-              pageContent += `[${String(
-                productTeam.issue_labels[index]
-              )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])})`
-              pageContent += '\n'
-            }
-          }
+        if (index === productTeam.issue_labels.length - 1) {
+          pageContent += `[${String(
+            productTeam.issue_labels[index]
+          )}](https://github.com/sourcegraph/sourcegraph/labels/${String(productTeam.issue_labels[index])})`
+          pageContent += '\n'
         }
       }
     }
@@ -410,23 +392,11 @@ export async function generateTeamOrgChart(team) {
 export async function generateEngineeringOwnershipTable() {
   const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
   const productTeams = await readYamlFile('data/product_teams.yml')
-  const productOrgs = await readYamlFile('data/product_orgs.yml')
   let pageContent =
-    '|Category|Thing|Type|Org|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
-  pageContent += '|---|---|---|---|---|---|---|---|---|---|\n'
+    '|Category|Thing|Type|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
+  pageContent += '|---|---|---|---|---|---|---|---|---|\n'
   for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
     pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
-    if (productOrgs[thing.product_org]) {
-      if (productOrgs[thing.product_org]) {
-        pageContent += `|[${String(productOrgs[thing.product_org].title)}](${String(
-          productOrgs[thing.product_org].strategy_link
-        )})`
-      } else {
-        pageContent += `|${String(productOrgs[thing.product_org].title)}`
-      }
-    } else {
-      pageContent += '|'
-    }
     if (productTeams[thing.product_team]) {
       if (productTeams[thing.product_team].strategy_link) {
         pageContent += `|[${String(productTeams[thing.product_team].title)}](${String(
@@ -466,7 +436,6 @@ export async function generateGlossary() {
 export async function generateDeploymentOptions() {
   const features = await readYamlFile('data/features.yml')
   const productTeams = await readYamlFile('data/product_teams.yml')
-  const productOrgs = await readYamlFile('data/product_orgs.yml')
   const teamMembers = await readYamlFile('data/team.yml')
   const deploymentOptions = await readYamlFile('data/deployment_options.yml')
   const maturityLevels = await readYamlFile('data/maturity_levels.yml')
@@ -475,12 +444,6 @@ export async function generateDeploymentOptions() {
   for (const [productTeamName, productTeam] of Object.entries(productTeams)) {
     let featureCount = 0
     let areaContent = `\n### ${String(productTeam.title)}\n`
-    const productOrg = productOrgs[productTeam.product_org]
-    if (productOrg.strategy_link) {
-      areaContent += ` ([${String(productOrgs[productTeam.product_org].title)} Strategy](${String(
-        productOrg.strategy_link
-      )}) | `
-    }
     if (productTeam.strategy_link) {
       areaContent += `[${String(productTeam.title)} Strategy](${String(productTeam.strategy_link)}))\n`
     }
@@ -547,6 +510,17 @@ export async function generateGuildRoster(guildReference) {
     const name = teamMembers[memberReference].name
     pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
   }
+  if (guild.leadership_sponsors) {
+    pageContent += '### Leadership Sponsor'
+    if (guild.leadership_sponsors.length > 1) {
+      pageContent += 's'
+    }
+    pageContent += '\n'
 
+    for (const reference of guild.leadership_sponsors) {
+      const name = teamMembers[reference].name
+      pageContent += `- [${String(name)}](${String(createBioLink(name))})\n`
+    }
+  }
   return pageContent
 }

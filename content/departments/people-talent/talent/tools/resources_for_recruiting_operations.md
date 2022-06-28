@@ -16,7 +16,7 @@ In order to help attract top global talent, Recruiting Operations Specialists al
 - [BrightHire](guide_to_using_brighthire.md)
 - [Slack](https://slack.com/): To communicate with the Talent team and the rest of the Sourcegraph team
 - [Calendly](https://calendly.com/)
-- Talent Wall (page coming soon)
+- [Talent Wall](guide_to_using_talentwall.md)
 
 ## How to Submit an Interview Scheduling Request
 
@@ -73,15 +73,13 @@ NOTE: Follow the same scheduling steps for internal candidates that you would fo
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](../../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../../team/index.md#kylie-fligstein)
-- [Kacie Jenkins](../../../../team/index.md#kacie-jenkins), VP Marketing: [Amber Furbush](../../../../team/index.md#amber-furbush)
 - [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../../team/index.md#amber-smokowski)
-- [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../../team/index.md#kylie-fligstein) in the meantime)
+- [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett)
 - [Quinn Slack](../../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../../team/index.md#sally-voisen)
 
 ### How to Select a Values Interview Panel:
 
-Coming Soon!
+When creating the interview plan in Greenhouse, the talent team will select 2 values interviewers to participate in the interview process for each role. The talent team aims to include two teammates outside of the department for which a candidate is interviewing.
 
 ### How to Send a Candidate Interview Confirmation Email
 
@@ -93,12 +91,12 @@ Coming Soon!
 
 #### For For IAM and Admin Experinece Technical Interviews Only
 
-<!-- TODO: Will this still be the same with the IAM and Admin Experience team? -->
+<!-- TODO: Will this still be the same with the IAM team? -->
 
-When scheduling a IAM and Admin Experience Technical Interview, you will also need to schedule a prep email to be sent to the candidate 2 hours prior to the interview by completing the following steps:
+When scheduling a IAM Technical Interview, you will also need to schedule a prep email to be sent to the candidate 2 hours prior to the interview by completing the following steps:
 
 1. Select the "Email [Candidate Name]" button under ‘Tools’ on the right side of the Candidate’s greenhouse profile, which will open an email window.
-2. Select the ‘Send - Interview Prep - IAM and Admin Experience’ email template
+2. Select the ‘Send - Interview Prep - IAM’ email template
 3. Select ‘Pick a custom time’ in the ‘Send Email When’ dropdown and schedule the email to be sent 2 hours prior to the Technical Interview.
 4. Send Email.
 
@@ -130,7 +128,11 @@ NOTE: If you're removing the interviewer who is set as the zoom meeting host, yo
 
 ## How to Generate an Offer Letter
 
-Coming soon!
+Offer letters are generated and sent by Recruiting Coordinators or Recruiting Operations Specialists.
+
+To generate a US Offer Letter, watch and follow [these steps.](https://share.vidyard.com/watch/DKevdnBPCfK26jgQgyzX2x)
+
+To generate a non-US Offer letter, watch and follow [these steps.](https://share.vidyard.com/watch/BjoopiomMjB85aJabQPdwu)
 
 ## Other Recruiting Operations Responsibilities:
 

@@ -87,18 +87,7 @@ SLAs—Turnaround for Legal review:
 
 ### Vendor contracts
 
-1. Purpose of the contract (1–2 sentences)
-1. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
-1. Approximate contract value
-1. Budget: Confirm whether the contract is included in the budget. Attach budget file referencing where the spend is listed.
-1. Any other relevant context
-1. Cc the VP Budget Owner
-
-SLAs—Turnaround time for legal review:
-
-- Sourcegraph Form: 5 business days
-- Vendor Form: 7 business days
-- EOQ: expect delays during the last two weeks of each sales quarter
+Please see our [Vendor Request Process](../../tech-ops/process/vendor-request.md) page for more details on how to raise a vendor request.
 
 ### Partner contracts
 

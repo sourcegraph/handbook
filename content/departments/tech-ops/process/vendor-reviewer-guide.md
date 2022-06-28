@@ -136,70 +136,115 @@ Please see below matrix for review requirements for ANY type of vendor:
   <tr>
    <td>
    </td>
-   <td><strong>=0k</strong>
+   <td><strong>Cost < 1000</strong>
    </td>
-   <td><strong>>0K</strong>
+   <td><strong>Cost >= 1000</strong>
+   </td>
+    <td><strong>Cost >= 10 000 </strong>
+
    </td>
   </tr>
   <tr>
-   <td><strong>Restricted</strong>
+  <td><strong>Restricted</strong>
+
    </td>
-   <td>Security
-<p>
-Tech Ops
+   <td><p>- Security
+     <p> - Tech Ops
+
    </td>
-   <td>Security
-<p>
-Legal
-<p>
-Tech Ops
-<p>
-Finance
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
    </td>
   </tr>
   <tr>
    <td><strong>Private</strong>
+
    </td>
-   <td>Security
-<p>
-Tech Ops
+   <td><p>- Security
+
+<p>- Tech Ops
+
    </td>
-   <td>Security
-<p>
-Legal
-<p>
-Tech Ops
-<p>
-Finance
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
    </td>
   </tr>
   <tr>
    <td><strong>Internal</strong>
+
    </td>
-   <td>Security
-<p>
-Tech Ops
+   <td><p>- Security
+
+<p>- Tech Ops
+
    </td>
-   <td>Security
-<p>
-Legal
-<p>
-Tech Ops
-<p>
-Finance
+   <td><p>- Security
+
+<p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Security
+
+<p>- Legal
+
+<p>- Tech Ops
+
+<p>- Finance
+
    </td>
   </tr>
   <tr>
    <td><strong>Public</strong>
+
    </td>
-   <td>Tech Ops
+   <td><p>- Tech Ops
+
    </td>
-   <td>Tech Ops
-<p>
-Finance
+   <td><p>- Tech Ops
+
+<p>- Finance
+
+   </td>
+   <td><p>- Tech Ops
+
+<p>- Legal
+
+<p>- Finance
+
    </td>
   </tr>
-</table>
 
 As we improve the form and capture more details for the request, we will be able to build more sophisticated routing rules and pre-checks for the review teams to minimize manual input, specifically for recurring standard requests.
 
@@ -264,4 +309,4 @@ More information on Vendr can be found [here](../tools/Vendr/index.md).
 
 Please see ‘How To Do A Vendor Request’ handbook documentation [here](../process/vendor-request.md).
 
-Please see a short Loom video guide on how to use Jira to review vendors (TBD).
+Please see a short [Loom video guide](https://www.loom.com/share/2bdd2a7ee2d549a9b15acdd74072da32) on how to use Jira to review vendors.

@@ -2,6 +2,8 @@
 
 In addition to an Onboarding Buddy, AEs will be paired up with an Onboarding Mentor. The mentor will be someone from the sales team who will act as a point of contact for role-related support during an AEs ramp period. As a peer, mentors will provide support and guidance while AEs are learning and practicing the sales pitch and sales process. They will also help AEs determine who to go to in the company for various Sales related tasks or partnerships.
 
+You can read more about [Onboarding Mentors here](../../../company-info-and-process/onboarding/onboarding-mentor.md)
+
 ## Why We Have Onboarding Mentors
 
 Mentors ensure new AEs are set up for success and have additional resources while they learn the industry, product, and hone the skills that will make them successful AEs.
@@ -110,4 +112,4 @@ AE new hires focus on the following in the fourth week:
 1. Provide 30 minute pricing model review
 2. Check in to see if they have any outstanding questions from their first month ramp period
 
-If you have any questions about the AE new hire mentor program, reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com) or [trey.sizemore@sourcegraph.com](mailto:trey.sizemore@sourcegraph.com).
+If you have any questions about the AE new hire mentor program, reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com).

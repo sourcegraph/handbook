@@ -18,4 +18,8 @@ If you've been employeed via Deel, follow these steps to submit an expense for r
 
 ![You can now sww your expense](https://storage.googleapis.com/sourcegraph-assets/handbook/expenses/step4.png)
 
-If you have any questions, please reach out to [#people-ops](https://sourcegraph.slack.com/archives/CQAGQKC4A)
+Internet, phone, and wellness should be entered as **Allowances** as these are taxable.
+
+Co-working, desk setup, and any other reimbursements should be entered as **Reimbursements** as there are NOT taxable to teammates.
+
+If you have any questions, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack

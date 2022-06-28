@@ -53,7 +53,7 @@ Partner with the organization to build scalable data solutions and insights to h
   <tr>
    <td>Stakeholder Management
    </td>
-   <td>Maintenance 
+   <td>Maintenance
    </td>
   </tr>
   <tr>
@@ -102,7 +102,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Product/Engineering
    </td>
-   <td>Christina Forney, Nick Fischer, Anna Mikhova, Serina Clark, Bill Creager, Yink Tao, Jean Du Plessis
+   <td>Quinn Slack
    </td>
    <td>Eric Brody-Moore, Brady Garrett
    </td>
@@ -126,7 +126,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Marketing
    </td>
-   <td>Kacie, Jenkins, Erica Lindberg, Nick Gage, Andy Schumeister
+   <td>Nick Gage, Andy Schumeister
    </td>
    <td>TBH
    </td>
@@ -134,7 +134,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Customer Support
    </td>
-   <td>Virginia Ulrich
+   <td>
    </td>
    <td>Kelsey Brown
    </td>

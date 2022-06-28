@@ -41,7 +41,8 @@ The first step of an interview process for a candidate is the Recruiter Screen. 
 The Recruiter conducts an initial recruiter screen with eligible candidates. Sample Recruiter screen questions can be found [here](interview_process.md).
 
 - To advance a candidate to the Recruiter screen stage, the Recruiter uses the Calendly template in Greenhouse to schedule. To reject a candidate, Recruiter sends rejection email template.
-- COMING SOON: how to schedule with Calendly
+- To use the Calendly template in Greenhouse to schedule, first enable [Calendly integration](https://support.greenhouse.io/hc/en-us/articles/360029359472) in Greenhouse. Then continue to [these steps](https://support.greenhouse.io/hc/en-us/articles/360029686091) to schedule an interview with Calendly.
+
 - To decline a candidate, follow [these steps](../process/interview_process.md#declining-candidates). All candidates are either advanced or declined within **5 business days** of their application date to provide a positive candidate experience.
 
 If the candidate does not show up for the interview, the Recruiter will call, email, and text the candidate and offer to reschedule.
@@ -52,9 +53,9 @@ The Recruiter submits qualified candidates to the Hiring Manager. If Hiring Mana
 
 ### The hiring manager screen stage
 
-If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](../tools/interview_training.md#2-structured-interviewing) and Guide to Using Brighthire before conducting interviews.
+If the Hiring Manager chooses to advance a candidate following the Hiring Manager screen, the Recruiting Coordinator schedules additional interviews in the interview process (below). All interviewers must review the [interview training](../tools/interview_training.md#2-structured-interviewing) and [Guide to Using Brighthire](../tools/guide_to_using_brighthire.md#guide-to-using-brighthire) before conducting interviews.
 
-- COMING SOON: link to instructions on how we schedule interviews
+- [How we schedule interviews](../tools/resources_for_recruiting_operations.md#How-to-Schedule-an-Interview)
 - Interview process and sample interview questions for each department [here](interview_process.md)
 - If the candidate does not show up for the interview in the first 5 minutes, the Hiring Manager will send a message in the private Slack channel for the position and tag the Recruiter and Recruiting Coordinator. If the candidate does not show up for over 5 minutes, the Hiring Manager will end the interview.
 
@@ -62,7 +63,7 @@ If the Hiring Manager chooses to advance a candidate following the Hiring Manage
 
 The "onsite" stage is defined as all interviews that take place after the hiring manager screen.
 
-The Recruitment Operations specialist will schedule all remaining interviews in the interview process. It is important that all teammates accept the calendar invite to confirm that you plan to attend to the interview
+The Recruitment Operations specialist will schedule all remaining interviews in the interview process. It is important that all teammates accept the calendar invite to confirm that you plan to attend to the interview.
 
 - If you unable to make an interview, please Slack `#Hiring` immediately so that we can work on finding a replacement interviewer, or reschedule. Please do you best to provide a minimum of 24-hours notice if you are unable to attend.
 
@@ -70,7 +71,7 @@ Following your interview, please provide interview feedback immediately, no late
 
 - [How to provide interview feedback](../process/interview_process.md#providing-interview-feedback)
 - We want to ensure every Teammate is aligned on what a `strong yes` `yes` and `no` recommendation means. You can find interview feedback definitions [here](../process/interview_process.md#providing-interview-feedback)
-- [How to keep your interview feedback legal](../process/interview_process.md#keeping-your-feedback-legal)
+- [How to keep your interview feedback legal](../process/interview_process.md#how-to-keep-feedback-legal)
 
 ### The decision making stage
 
@@ -89,7 +90,7 @@ If we are _moving forward_ with an offer, the Recruiter will submit the offer de
 
 If we are _declining_ the candidate, the Recruiter will call the candidate.
 
-- COMING SOON: policy on declining candidates and giving feedback
+- Click [here](../process/interview_process.md#declining-candidates) for policy on declining candidates and providing feedback.
 
 ## Estimated time-to-hire
 
@@ -103,11 +104,14 @@ Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6a
 
 ## **Sourcing best practices**
 
-- COMING SOON: to source passive candidates, the Recruiter & Hiring Manager follows best sourcing practices in LinkedIn Recruiter
+- To source passive candidates, the Recruiter and Hiring Manager follows best sourcing practices in LinkedIn Recruiter.
+
+Click [here](how_to_be_a_sourcer_at_sourcegraph.md) to read about sourcing best practices and how a sourcer partners with a Recruiter and Hiring Manager.
+Click [here](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) for a guide on creating a Recruiting Outreach Campaign.
 
 ## **Outreach best practices**
 
-- Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and or/content at touch points delivered to a targeted candidate at predefined intervals.
+- Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and/or content at touch points delivered to a targeted candidate at predefined intervals.
 
 [Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.
 
@@ -127,7 +131,11 @@ To schedule an interview with a candidate, please work with your recruiter or Sl
 
 Please put your written feedback into Greenhouse as soon as possible following the interview (immediately is ideal) while it is still fresh in your mind. You can also leverage your [BrightHire recording](../tools/guide_to_using_brighthire.md) to revisit key points during the interview when providing feedback. All feedback must be submitted in Greenhouse **before** discussing with anyone. This is required and ensures that bias does not impact your hiring recommendation.
 
-COMING SOON: how to use Brighthire for feedback
+#### How to use BrightHire for feedback
+
+Brighthire’s interview assistant allows you to take time stamped notes while you are interviewing. The notes are formatted into bullets and the question topics are formatted into headers. In interview assistant, you can flag key moments, leave reactions, and use “at mentions” to tag someone. Every note is clickable so as you click it, you can jump right in to replay the moment the note was taken. The bottom of the notes section provides an area to add a general comment that gets tied to the entire interview instead of one specific time point. This is a great place in Brighthire to tag a teammate and pull them in to let them know about next steps.
+
+At the top of the notes page, you have the link available to jump right into the Greenhouse scorecard or to share the link with someone else. When you go back to Greenhouse to leave feedback, you will see the BrightHire tab at the right side of the screen (enabled with the Chrome extension). Clicking on the tab allows you to watch the entire interview, look over time stamped notes, replay key moments with video and recording, jump into areas where you asked questions, and review flagged moments. With this extension, you can copy and paste all notes formatted with the question topics directly into the Greenhouse scorecard to make it easy to provide written feedback in Greenhouse.
 
 ### Overall hiring recommendation
 
@@ -163,19 +171,21 @@ When assessing [focus attributes](https://support.greenhouse.io/hc/en-us/article
 
 `Stop` You are **very** certain that this candidate does not embody this attribute.
 
-### Keeping your feedback legal
-
-COMING SOON
-
 ## Declining candidates
 
-COMING SOON: how to decline a candidate
-
-Who receives a written rejection:
+**Who receives a written rejection:**
 
 - Any candidate who applies to Sourcegraph but doesn't make it to the Recruiter Screen stage.
 - Any candidate who has a Recruiter Screen, but isn't progressed to the Hiring Manager Screen stage.
 
-Who receives a phone call rejection:
+Follow [these steps](https://support.greenhouse.io/hc/en-us/articles/360025225732-Reject-candidate-or-prospect) on how to send candidates a written rejection using a standardized rejection template in Greenhouse.
+
+**Who receives a phone call rejection:**
 
 - Any candidate who makes it past the Hiring Manager Screen stage.
+
+If you make it to or past the Hiring Manager stage and are not selected for the role, the Recruiter will call you to provide you high-level feedback about why the team is not moving forward.
+
+### How to keep feedback legal
+
+### Best practices for giving feedback

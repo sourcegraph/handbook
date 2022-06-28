@@ -35,7 +35,7 @@ All departments are likely to have some or all of the below universal interview 
 
 - Interviewer: the assigned recruiter for the role.
 - Duration: 30-minutes.
-- Details: the goal of the recruiter screen is to learn more about your background and interest in Sourcegraph. In addition to learning about you, the Recruiter will also tell you about Sourcegraph, the role, compensation/benefits, the interview process, and answer any questions you have.
+- Details: the goal of the recruiter screen is to learn more about your background and interest in Sourcegraph. In addition to learning about you, the recruiter will also tell you about Sourcegraph, the role, compensation/benefits, the interview process, and answer any questions you have.
 - Example questions:
   - Tell me about your work experience, past to present.
   - Why are you looking for something new?
@@ -94,8 +94,7 @@ All departments are likely to have some or all of the below universal interview 
 - Interviewer: a member of the leadership team for the department.
 - Duration: 30–45 minutes.
 - Details: during this stage in the interview process, a member of the leadership team for the department will ask questions to gain more insight into the following areas: your grit, curiosity, passion, growth mindset, intelligence, and values. They will also answer any final questions you may have! This is generally the last stage in our interview process.
-- Example questions:
-  - Coming soon
+- Leadership interviews tend to vary by department, role, and leader. Your recruiter will prepare you and answer any questions you may have prior to the interview.
 
 ## Values Interview
 
@@ -104,8 +103,9 @@ Read more about our values interview [here](evaluating_values.md).
 - Interviewers: two teammates outside of the department for which you're interviewing.
 - Duration: 30-minutes.
 - Details: this interview is focused entirely on our values and how a candidate's views and experiences align with them. Our values are key to our success as individuals and as a company. You can read more about them [here](../../../../company-info-and-process/values/index.md).
-- Example questions:
-  - We will ask behavioral-based, open-ended questions directly related to our values.
+- Example questions: We will ask behavioral-based, open-ended questions directly related to our values.
+  -Tell us about a time when you advocated for someone else
+  -Tell us about a project you are most proud of completing
 
 # Department specific interviews
 
@@ -115,16 +115,16 @@ In addition to the above interviews, some departments have department-specific i
 
 #### Executive Business Partner working session scenario
 
-- Interviewer(s): Kacie Jenkins, Gregg Stone, and Kelsey Nagel
+- Interviewer(s): Gregg Stone, VP of Sales
 - Duration: 60-minutes.
 - Details: The goal of this working session is to give us all a sense of what it would be like to work together. Below is a hypothetical situation that we would like to play out during this 60-minute session.
 
-  You are new to the role (30 days) when Kacie and Gregg ask you to meet and discuss organizing an in-person event for the sales/marketing teams. The idea behind this event is to build strong relationships among team members and align on goals.
+  You are new to the role (30 days) when Gregg asks you to meet and discuss organizing an in-person event for the sales/marketing teams. The idea behind this event is to build strong relationships among team members and align on goals.
 
   Your objective in this meeting is to:
 
 1.  Gather all the information that you need in order to be successful at planning and executing this event.
-2.  Provide recommendations, share potential ideas, and discuss solutions with Kacie and Gregg.
+2.  Provide recommendations, share potential ideas, and discuss solutions with Gregg.
 
 Our advice:
 
@@ -151,58 +151,61 @@ A few pointers:
 
 - It’s 2021, and Sourcegraph is growing at a rapid pace. With the launch of Sourcegraph cloud and significant growth in sales of the existing self-hosted deployment option, the VP of Operations is asking you to prepare a plan for upgrading our data infrastructure to be prepared for the next several years of growth.
 - We have a complex user journey that can touch a number of websites, apps, and integrations:
-- Data sources:
-- Websites
-- About.sourcegraph.com: Sourcegraph’s marketing website (pages include: a splash homepage, our blog, about us, contact us, press, careers, terms of service, etc.)
-- Learn.sourcegraph.com (learning and tutorials about code search)
-- Docs.sourcegraph.com (documentation)
-- Custom SEO landing pages
-- And more...
-- Core products:
-- Sourcegraph.com: The cloud product, used for searching across the universe of open source code and users’ private repositories. Can be used as an actual product destination or simply as a demo as needed.
-- Self-hosted Sourcegraph instances: Self-hosted webapps, using the same codebase as Sourcegraph.com, but deployed on-premises or in our customers’ private clouds. An example would be Uber’s private Sourcegraph instance—only accessible to Uber employees and contractors, and only containing Uber’s code. It would be accessible to Uber devs on an internal-only domain, like sourcegraph.uber.com.
-- Integrations:
-- Sourcegraph browser extensions: Chrome, Safari, and Firefox extensions that add Sourcegraph features to other websites where users view code (e.g. enhanced code views on sites like GitHub, GitLab, Bitbucket, and more).
-- Sourcegraph editor extensions: downloadable plugins for desktop code editors, such as VS Code, Atom, and Vim, that add some Sourcegraph features locally.
+  - Data sources:
+    - Websites
+      - About.sourcegraph.com: Sourcegraph’s marketing website (pages include: a splash homepage, our blog, about us, contact us, press, careers, terms of service, etc.)
+      - Learn.sourcegraph.com (learning and tutorials about code search)
+      - Docs.sourcegraph.com (documentation)
+      - Custom SEO landing pages
+      - And more…
+  - Core products:
+    - Sourcegraph.com: The cloud product, used for searching across the universe of open source code and users’ private repositories. Can be used as an actual product destination or simply as a demo as needed.
+    - Self-hosted Sourcegraph instances: Self-hosted webapps, using the same codebase as Sourcegraph.com, but deployed on-premises or in our customers’ private clouds. An example would be Uber’s private Sourcegraph instance—only accessible to Uber employees and contractors, and only containing Uber’s code. It would be accessible to Uber devs on an internal-only domain, like sourcegraph.uber.com.
+  - Integrations:
+    - Sourcegraph browser extensions: Chrome, Safari, and Firefox extensions that add Sourcegraph features to other websites where users view code (e.g. enhanced code views on sites like GitHub, GitLab, Bitbucket, and more).
+    - Sourcegraph editor extensions: downloadable plugins for desktop code editors, such as VS Code, Atom, and Vim, that add some Sourcegraph features locally.
 - Key notes:
-- The expectation for privacy is much higher for our downloaded products and self-hosted Sourcegraph instances. E.g. the customers who opt to host Sourcegraph themselves expect us not to track their users’ actions. Instead, we only collect aggregated telemetry from self-hosted Sourcegraph instances, with no individual user-level details.
-- Consumers of this user journey data include nearly every part of the company, from product (core app engagement and product usage data), engineering (application performance data), marketing and sales (top of funnel data and user engagement data for outreach), customer success (customer health and engagement), and more.
-- Our current traffic is ~100k monthly website visitors and cloud product users and ~40k monthly self-hosted instance users.
+  - The expectation for privacy is much higher for our downloaded products and self-hosted Sourcegraph instances. E.g. the customers who opt to host Sourcegraph themselves expect us not to track their users’ actions. Instead, we only collect aggregated telemetry from self-hosted Sourcegraph instances, with no individual user-level details.
+  - Consumers of this user journey data include nearly every part of the company, from product (core app engagement and product usage data), engineering (application performance data), marketing and sales (top of funnel data and user engagement data for outreach), customer success (customer health and engagement), and more.
+  - Our current traffic is ~100k monthly website visitors and cloud product users and ~40k monthly self-hosted instance users.
 - Deliverables:
-- Please design a high-level, conceptual data pipeline that would serve our business’s needs. Please name specific recommended tools (or options) to serve at each step of the pipeline. No need to write descriptions of every step, but please be prepared to answer questions about them.
-- Please describe the basic structure of data at the beginning(s) and the end(s) of the pipeline, and be prepared to discuss the data transformations that take place along the way.
-- Finally, please draw or describe (no real data required) the dashboards or reports that you would recommend providing to the CEO, the head of Product, and the head of Marketing each month.
+  - Please design a high-level, conceptual data pipeline that would serve our business’s needs. Please name specific recommended tools (or options) to serve at each step of the pipeline. No need to write descriptions of every step, but please be prepared to answer questions about them.
+  - Please describe the basic structure of data at the beginning(s) and the end(s) of the pipeline, and be prepared to discuss the data transformations that take place along the way.
+  - Finally, please draw or describe (no real data required) the dashboards or reports that you would recommend providing to the CEO, the head of Product, and the head of Marketing each month.
 - We recommend that you spend approximately 2 hours on this case study. Please feel free to reach out with any questions!
 
 ### BizOps: Product Analyst take-home project
 
-- This exercise should take 2–3 hours to complete; please don’t take more than that!
-- Getting setup: You’ll be using Mode Analytics public datasets to complete this take-home project. Here are the steps to getting into the SQL workspace:
-- 1.Create an account if you don’t already have one
-- 2.Click the green+in the top right (‘Create report’)to access the workspace
-- 3.We’ll be using the following Mode Public Warehousetables to complete the exercise:tutorials.playbook_users,tutorials.playbook_events,tutorials.playbook_experiments,tutorials.playbook_emails
-- Prompt: For each of the following questions please create charts and/or tables (within Mode or by exporting to a spreadsheet tool if that’s easier) to show your findings. We’re not expecting a slide deck or document to explain your findings, but quick summaries of charts, if needed, are just fine. Keep in mind that in most cases there are no “right” or “wrong” answers; we’re more interested in your approach and thought processes.
+This exercise should take 2–3 hours to complete; please don’t take more than that!
 
-  - 1.What company is most engaged with the product?
-  - 2.We ran an A/B test (experiment) to increase ‘like_message’ actions users are taking. Which variant would you recommend going forward with, if any?
-  - When you’ve completed the project, share your results via static run links along with some availability you have over the next week to review the project with a BizOps team member. When reviewing, you can expect questions about your approach in getting to know the data, the process you took to find the results, results themselves, and how you decided to communicate your findings.
+- Getting setup: You’ll be using Mode Analytics public datasets to complete this take-home project. Here are the steps to getting into the SQL workspace:
+  _ 1.Create an account if you don’t already have one
+  _ 2.Click the green+in the top right (‘Create report’)to access the workspace \* 3.We’ll be using the following Mode Public Warehousetables to complete the exercise:tutorials.playbook_users,tutorials.playbook_events,tutorials.playbook_experiments,tutorials.playbook_emails
+- Prompt: For each of the following questions please create charts and/or tables (within Mode or by exporting to a spreadsheet tool if that’s easier) to show your findings. We’re not expecting a slide deck or document to explain your findings, but quick summaries of charts, if needed, are just fine. Keep in mind that in most cases there are no “right” or “wrong” answers; we’re more interested in your approach and thought processes.
+  _ 1. What company is most engaged with the product?
+  _ 2. We ran an A/B test (experiment) to increase ‘like_message’ actions users are taking. Which variant would you recommend going forward with, if any?
+- When you’ve completed the project, share your results via static run links along with some availability you have over the next week to review the project with a BizOps team member. When reviewing, you can expect questions about your approach in getting to know the data, the process you took to find the results, results themselves, and how you decided to communicate your findings.
 
 ### Legal: Corporate & Legal Counsel take-home project
 
-- The goal of the assignment is to give you a chance to demonstrate how you think, write, and negotiate while tackling issues that are top of mind for Sourcegraph and our customers.
+The goal of the assignment is to give you a chance to demonstrate how you think, write, and negotiate while tackling issues that are top of mind for Sourcegraph and our customers.
+
 - Please see the attached MSA redlines (we will provide this to you if you get to this stage in the process) from our prospective customer, a CA-based tech company. Deal summary:
-- On-premise instance
-- 100K USD ACV
+  - On-premise instance
+  - 100K USD ACV
 - Will you respond to the redlines and include comments to the customer explaining your reasoning for any redlines that you reject or modify? Please accept any redlines that you suggest that we agree to with a brief comment explaining why.
 - In addition, please draft a short, casual note with your assessment that you would send to the account executive. Include a short issues list, with the prioritization of issues made clear.
 
 ### TechOps: Tech Ops IT Engineer take-home project / Technical Interview
 
-- The technical interview should be approximately:
+The technical interview should be approximately:
+
 - 25 min for questions from Nicky and Dan M
 - 10 min questions from you to us
 - 10 min to discuss a short take-home project (3 min presentation and 7 min discussion)
-- Project:
+
+Project:
+
 - We have a fully remote team. Tech Ops wants to ensure that our Team Members are appropriately protected from security threats. As part of the onboarding process we want to provide all new hires with a Security Checklist. What would you put on this checklist?
 - Please be prepared to present this recommendation on a detailed level in 3 minutes.
 
@@ -345,7 +348,7 @@ The agenda for the meeting will go as follows:
 Important Note: Keeping the timing of the interview will be your responsibility. If you’re running out of time on a prompt, it is better to wrap up the most salient points, and move on to the next prompt. It is important that 10 minutes be left at the end for feedback. You are more than welcome to use slides to facilitate this conversation or personal notes—whichever you feel is most appropriate.
 
 Prompt 3 additional notes:
-The [CE](../../../ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../../ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../../ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
+The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales oriented to the overall technical success of our customers: from the initial deal through our long term engagement. The types of activities that we perform as part of our core responsibilities are described [here](../../../ce-support/ce/team-culture/working-with-customers.md). These activities align with traditional Sales Engineering, Solution Architecture, and Technical Account Management organizational responsibilities because we essentially wear all of these hats. How we currently interact with other teams is described [here](../../../ce-support/ce/team-culture/index.md#how-we-intersect-other-teams). As the team accountable for our customers’ technical success we recognize the need to inspect opportunities from the lens of technical requirements aligning with our product and to validate edge cases or customer-specific requirements. We expect that a new, dedicated sub-team will work with the account CE to perform these technical validation steps.
 
 ## Engineering
 
@@ -483,61 +486,21 @@ The [CE](../../../ce/ce.md) organization is pre- and post-sales oriented to the 
 
 #### Design research & managing success
 
-- Interviewer(s): [Two Product Designers](../../../product-engineering/product/team/index.md)
+- Interviewer(s): [Two Product Designers](../../../engineering/product/team/index.md)
 - Duration: 1 hour
 - Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
 
-### Director of Product
-
-#### Working session
-
-- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
-- Duration: 1 hour
-- Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
-
-#### Meet your team
-
-- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../../product-engineering/product/index.md#product).
-- Duration: 45 min
-- Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
-
-#### Design and engineering collaboration
-
-- Interviewer(s): Product Designer and Engineering Manager.
-- Duration: 30 mins
-- Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organized plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
-
-### Director of Technical Writing
-
-#### Async strategy and writing project
-
-- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
-- Duration: ~1 hour
-- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
-
-#### Working session on strategy & Leadership
-
-- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
-- Duration: 1 hour
-- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
-
-#### Cross-functional interview
-
-- Interviewer: [Emily Chapman](../../../../team/index.md#emily-chapman) and [Quinn Keast](../../../../team/index.md#quinn-keast)
-- Duration: 60 mins
-- Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
-
 ### Product manager
 
-#### Async writing project [(RFC Project)](../../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
+#### Async writing project [(RFC Project)](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
-- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../../product-engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
+- Details: This is a take home writing assignment to see how you communicate and think about product problems. The prompt for the exercise can be found on [this page](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md#prompt), which also includes how we will evaluate it.
 
 #### Product interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a product manager. Be prepared to discuss the actual proposal, what happened and what you could have done differently. We will be looking for how you use data to drive decisions and get buy-in from collaborators. How you have created solutions for customers, representing their voice across the organization. We will talk about product development prioritization, and how you balance priorities of what our customers want with Engineering resources.
 
@@ -551,15 +514,15 @@ The [CE](../../../ce/ce.md) organization is pre- and post-sales oriented to the 
 
 #### Portfolio review
 
-- Interviewer(s): [Two Product Designers](../../../product-engineering/product/index.md).
+- Interviewer(s): [Two Product Designers](../../../engineering/product/index.md).
 - Duration: 1 hour
-- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../../product-engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
+- Details: In this interview, we will be looking for you to give some real insight into a problem you were solving as part of a project you’ve worked on. We would like you to lead us through this problem or case study in detail. We’ll look to understand the size and structure of the team you were a part of, the goals of the project, your low-fidelity design work, your high-fidelity design skills, how you approached research, how you synthesized research data to inform design decisions, what design standards and guidelines you worked within, and how you collaborated with a wider team. We are particularly interested in your process for the project, the outcomes, the challenges you encountered, and tradeoffs you made. [Here's more info on what we're looking for](../../../engineering/product/roles/interviews/product_designer/pd_portfolio_review.md).
 
 #### Design exercise
 
-- Interviewer(s): [Product Manager, Product Designers](../../../product-engineering/product/index.md), and a Frontend engineer.
+- Interviewer(s): [Product Manager, Product Designers](../../../engineering/product/index.md), and a Frontend engineer.
 - Duration: 2 hours
-- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../product-engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
+- Details: The interview simulates a real-life design collaboration. The goal is to build something together and to understand the way the candidate thinks about design in practice, and to experience their process. [Here's more info on what we're looking for and how we will evaluate the exercise](../../../engineering/product/roles/interviews/product_designer/pd_design_exercise.md).
 - The interview is in 2 parts. Below is the prompt:
 - Part 1: (~15 min) Pick a developer application (e.g., code hosts like GitHub or GitLab, cloud providers like AWS or GCP, monitoring tools like Lightstep or Sentry, etc) and walk us through what works well and what doesn’t. We do not want you to prepare a presentation or script, but should come knowing which application you want to use as an example and be prepared to have a conversation about it.
 - Part 2: (~60 min) We will give you a specific problem to solve for Sourcegraph and would like you to walk us through your design process. We will be evaluating the process, not the final outcome of the solution. Please be prepared to work in your favorite design tool for wireframes and low fidelity mockups.
@@ -576,13 +539,13 @@ The [CE](../../../ce/ce.md) organization is pre- and post-sales oriented to the 
 
 #### Research RFC Project
 
-- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../product-engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
+- Interviewer(s): NA—this is a take home assignment. [Two members from the Product team](../../../engineering/product/index.md) will review your RFC and discuss it with you in the next round of interviews.
 - Duration: ~1 hour
 - Details: This is a take home writing assignment to learn more about research you have conducted for a real user/problem you helped identify, plan and facilitate that led a product update. We would like to see how you frame and communicate your research approach, how you measure and think about potential impact it may have to the product, and your "why" behind decisions made. We will look to understand the problem or question your research is addressing, your research approach, how you analyze and synthesize your data, and ultimately how you communicate those outcomes to stakeholders. We are particularly interested in learning about tangible metrics, indicators of success, or insights that you came away with from your research.
 
 #### Research Interview
 
-- Interviewer(s): [Product Manager and a Product Designer](../../../product-engineering/product/index.md) who were the reviewers of the RFC.
+- Interviewer(s): [Product Manager and a Product Designer](../../../engineering/product/index.md) who were the reviewers of the RFC.
 - Duration: 1 hour
 - Details: In this interview, you will review your RFC and deep dive on how you work as a User Researcher. Be prepared to do a walkthrough of your assignment, your decision making behind the "why" of your approach, how you collaborated with others during the process, how you presented your insights to stakeholders in a meaningful and clear way, and what happened and what you could have done differently. We are particularly interested in how you were able to collaborate with product, design, and engineering throughout the process. We will also be looking for how you used insights you gathered to make next-step recommendations to stakeholders.
 
@@ -603,10 +566,10 @@ Read more about our sales interview processes [here](../../../sales/hiring/index
 - Interviewer(s): NA—this is a take home assignment.
 - Duration: we expect this to take no more than 1 hour.
 - Details: Specifically, you will be crafting a “cold call” email to a prospective customer, with the goal of securing a meeting. You can assume that this is the first time this person has ever heard of Sourcegraph.
-- Step 1: Pick a new customer (not on our site/case studies, etc.).
-- Step 2: Identify someone you would like to prospect into. Why did you choose
-- Step 3: Create a “cold call” email to the person identified in step 2. Your goal is to secure a meeting with our team.
-- Step 4: Submit your assignment within 24 hours by clicking “reply all” to this email.
+- **Step 1:** Pick a new customer (not on our site/case studies, etc.).
+- **Step 2:** Identify someone you would like to prospect into. Why did you choose
+- **Step 3:** Create a “cold call” email to the person identified in step 2. Your goal is to secure a meeting with our team.
+- **Step 4:** Submit your assignment within 24 hours by clicking “reply all” to this email.
 - What to include in your assignment submission: Email Subject Line, Email Body & Explanation of your process: 1) Why did you choose this company? 2) Who are you targeting? (Insert LinkedIn Profile link). Why did you choose this person? 3) Explain your approach. Why did you choose to craft the email this way?
 
 #### SDR mock cold call
@@ -665,7 +628,7 @@ A great resource on structure (including some great walkthrough videos) from [Be
 - Interviewer(s): NA—this is a take home assignment.
 - Duration: we expect this to take no more than 1 hour.
 - Details: we want to ensure we understand your approach to proactively reaching out to and engaging with passive talent. Instructions:
-- **Step 1.** You are the newly assigned Recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
+- **Step 1.** You are the newly assigned recruiter for the [pick a job on our website] role. As a first step, you'll want to have an intake meeting with the Hiring Manager. What questions do you plan to ask to gain a full understanding of the role?
 - **Step 2.** We have posted the job and have received zero applicants, so we need to go out and recruit the right person. Please identify 5 target candidates and explain 1) how you found them (what search string(s) did you use) and 2) why are you targeting them specifically?
 - **Step 3.** As we know, rarely do we hear back from a candidate after our 1st message or call. Pick one of the above profiles and please describe your outreach "campaign." What steps will you take to engage with this candidate? Please 1) include example inmails, emails, voicemails etc, and 2) please explain your approach and why you chose to craft your outreach campaign in this way. Your ultimate goal is to secure a call with the candidate.
 - **Step 4.** Good news! The candidate you messaged in step 3 is interested in having an exploratory conversation. How do you describe/sell Sourcegraph to them?

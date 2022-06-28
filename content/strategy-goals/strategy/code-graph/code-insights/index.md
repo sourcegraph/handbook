@@ -7,8 +7,8 @@ This page outlines the vision, strategy, and goals of the Code Insights team ove
 Quick links:
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/product-engineering/strategy-goals/index.md)
-- [Go to market resources for Sales, CE, and Marketing](../../../../departments/product-engineering/engineering/code-graph/code-insights/go_to_market.md)
+- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
+- [Go to market resources for Sales, CE, and Marketing](../../../../departments/engineering/dev/code-graph/code-insights/go_to_market.md)
 - [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
@@ -172,7 +172,7 @@ These are the goals we plan to fully complete by the end of Q1 FY23:
 
 - KR 1: 10 customers have purchased Code Insights in FY23Q1
 
-_See also [completed goals](../../../../departments/product-engineering/engineering/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../../departments/engineering/dev/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 
@@ -228,9 +228,9 @@ We will explore:
 
 ### What we're not working on & why
 
-In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following:
+In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following unless new information surfaces:
 
-- Code Insights on Cloud: the current Cloud architecture strategy will bring Cloud in parity with managed and on-prem instances, so Code Insights will become available on Cloud without additional work on our part.
+- Code Insights on single docker container deployments: Code Insights lives primarily on the unindexed search path, which is substantially more resource intensive in this context. Currently, the experience is unacceptably bad, so we don't support it. The number of customers and leads that use a single docker container deployment is both shrinking and small enough that this is not a priority.
 - Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all Code Insights users first. (However, we are exploring early integrations.)
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
 

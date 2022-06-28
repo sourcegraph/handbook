@@ -27,8 +27,12 @@ jobs:
             Install-Module PowerGit -Force -ErrorAction Stop
             Install-Module PSGitHub -Force -ErrorAction Stop
 
-            $PSDefaultParameterValues['*:GitHub*'] = ConvertTo-SecureString -String $env:GITHUB_TOKEN -AsPlainText -Force
+            if (-not $env:GITHUB_TOKEN) {
+              throw "No GITHUB_TOKEN env var provided"
+            }
+
+            $githubToken = ConvertTo-SecureString -String $env:GITHUB_TOKEN -AsPlainText -Force
 
             $baseRef = $github.base_ref
             git branch $BaseRef "origin/$BaseRef"
-            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number
+            ./src/scripts/check-large-files.ps1 -BaseRef $baseRef -PullRequestNumber $github.event.pull_request.number -GitHubToken $githubToken

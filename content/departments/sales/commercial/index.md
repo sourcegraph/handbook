@@ -6,8 +6,6 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 [Kevin Quigley](../../../team/index.md#sts=Kevin%20Quigley)
 
-[Markie Muldez](../../../team/index.md#sts=Mark%20%E2%80%9CMarkie%E2%80%9D%20Muldez)
-
 [Sam Cregg](../../../team/index.md#sts=Sam%20Cregg)
 
 ## Quick Links
@@ -33,7 +31,7 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
 
 1. Close Dates:
 
-   - When setting up an opportunity it should be the 15th day two months out; any opp opened in February will having a starting close date of April 15th.
+   - When setting up an opportunity, please make the initial forecast for the opportunity no earlier than the 15th day of the first month of the next quarter and at least as late as the 15th day two months out; for example, an opp opened in May (the 15th of the first month of the next quarter) or June (the 15th day two months out) should have an initial forecast date no earlier than August 15th and an opp opened in July should have an initial forecast date no earlier than September 15th (the 15th day two months out).
 
      - A close date on the 15th implies that your best guess is that the close date will be either the month before the close date or the current month of the close date.
      - By definition of forecasting in quarter, a call or best case deal can't have a close date later than the 15th of the first month of the next quarter
@@ -54,9 +52,9 @@ The Commercial Team represents Sourcegraph for customers <501 employees. Clearbi
    - Always keep the next steps date updated
 
 3. About the 3 Why’s:
-   - Why anything: this is a description of the customer’s business problem; this should be something quantifiable in terms of time or money or pertaining to security
+   - Why anything: this is a description of the customer’s business problem; this should be something quantifiable in terms of increasing revenue, reducing cost or reducing risk
    - Why Sourcegraph: this describes the technical problems that underlie the business problem and how Sourcegraph is uniquely suited to solving these technical problems
-   - Why now: this may come later in discovery but it gives purpose for a timeline / compelling event
+   - Why now: this is an explanation of for a timeline or compelling event that is driving the deal forward and cause for the deal to happen
 
 ## Best Practices
 

@@ -1,5 +1,11 @@
 # Personas
 
+Here are Sourcegraph's core personas along with a few example titles for each persona. It is worth noting that these are not the only personas or titles that use or get value from Sourcegraph.
+
+- [Developer/Engineer (IC):](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_1_0) Senior Software Engineer, Senior Developer, Frontend Developer, Backend Developer, Full stack Developer, Software Engineer
+- [Dev Productivity/Experience Lead](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_19): Dir. / Sr Manager of Dev Services; Dev Productivity; Dev Experience; Productivity Eng; Tech Enablement; Infrastructure Eng; Developer Platform
+- [Engineering Leader](https://docs.google.com/presentation/d/1aQhcWoWd_LJXdAgEn7JBGnZV5pfN6UJyct2VV-ZiTXI/edit#slide=id.ge9b93ff711_0_46): VP Engineering; Sr. Director of Engineering, Engineering Manager, Engineering Leader
+
 ## What are "personas"?
 
 A persona is a set of people who share common problems and other traits. Instead of writing a blog post for a single specific person, or building a feature for a single specific person, we target broad sets of people ("personas"). For general information about personas, see "[Personas for Product Management](https://svpg.com/personas-for-product-management/)".

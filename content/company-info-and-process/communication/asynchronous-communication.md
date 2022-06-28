@@ -88,7 +88,7 @@ Additionally, here are some other tips we've found work well:
 - **Share things while they’re still in work-in-progress**. Aim for progress, not perfection. We all want to get things done first and then share, but so much feedback can be collected and comments can be made while you are offline. You can make notes on your work stating something is going to change or you are waiting for X to go on with a certain section to notify reviewers of the state of your work.
 - **Never assume.** It is best to include more context than to give room to misinterpretation.
 - **Share**. Don’t make others hunt for information.
-- **Communicate your work preferences.** We all work differently and have preferred ways of communication. Let your teammates know, this will help everyone be more empathetic and conscious about collaboration. Create a rudimentary README that clarifies how you work. [The support team has some great examples](../../departments/support/team/index.md).
+- **Communicate your work preferences.** We all work differently and have preferred ways of communication. Let your teammates know, this will help everyone be more empathetic and conscious about collaboration. Create a rudimentary README that clarifies how you work. [The support team has some great examples](../../departments/ce-support/support/team/index.md).
 - **Summarize**. If your documentation ends up being too long, consider adding a summary, in the beginning, to help people consider if this is what they are looking for.
 - **Consider which tool to use**. Think about what you are working on and which is the best tool to discuss it, iterate and communicate.
 - **Know when _not_ to meet**. Ask yourself: is this meeting necessary or could we work on it asynchronously?
@@ -112,7 +112,7 @@ Slack is our [team chat](../communication/team_chat.md) and a big part of our da
 - You don’t have to join every open channel available, but if you do, be mindful of what to pay attention to and how much time you spend reading threads that might not be helpful to you or your work. This takes some time and we recommend talking to teammates to understand what works best for you.
 - Slack can feel like a synchronous way of communication and people might feel they need to respond right away, but remember we are remote and async. Teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for them, and they are also free to read messages whenever is convenient for them. There is no expectation that people will be immediately responsive.
 - A good practice is to send one message with your request directly, instead of sending “[Hey, how’s it going](https://www.nohello.com/)?” and waiting for the other person to reply to send the actual message. That interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously.
-- Slack can be a black hole where it feels like messages go out, but it is unclear if anyone saw or engaged with it. Not everything needs a thread, but when nobody replies does that mean everyone saw it and agrees? Does it mean that nobody saw it? Or that people saw it and are choosing not to engage? You can help mitigate this lack of clarity by leaving reaction emojis even if you don't plan to reply. A checkmark, thank you, heart, thumbs up/down, or one of the values emojis (`:value-*:`) are good ways to indicate you saw the message and what you thought about it without having to reply. Within a team you can also think of setting more explicit meanings as the [Enablement group has done here](../../departments/product-engineering/engineering/enablement/index.md#slack-acknowledgment).
+- Slack can be a black hole where it feels like messages go out, but it is unclear if anyone saw or engaged with it. Not everything needs a thread, but when nobody replies does that mean everyone saw it and agrees? Does it mean that nobody saw it? Or that people saw it and are choosing not to engage? You can help mitigate this lack of clarity by leaving reaction emojis even if you don't plan to reply. A checkmark, thank you, heart, thumbs up/down, or one of the values emojis (`:value-*:`) are good ways to indicate you saw the message and what you thought about it without having to reply. Within a team you can also think of setting more explicit meanings as the [Enablement group has done here](../../departments/engineering/dev/enablement/index.md#slack-acknowledgment).
 
 Be mindful:
 
@@ -126,7 +126,7 @@ Finally, remember Slack is _not_ a source of truth. Something said or mentioned 
 
 ### Workshops
 
-The design team has a framework for running [large, async workshops](../../departments/product-engineering/product/design/workshops/async-design.md) that could be adapted to other purposes.
+The design team has a framework for running [large, async workshops](../../departments/engineering/product/design/workshops/async-design.md) that could be adapted to other purposes.
 
 ### When to use sync meetings
 
