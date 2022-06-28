@@ -70,7 +70,7 @@ We are looking to add one [experienced full-stack engineer](https://boards.green
   - [CE onboarding](ce-onboarding.md)
 - As a sales team member
   - (private) AE training: [recording](https://drive.google.com/file/d/10oeyEvKNKk4RdyJUtvc-rXcgcmGhSrc2/view?usp=sharing), [slides](https://docs.google.com/presentation/d/1N50kk1N712lvsWI_BrGB4WH8LHnOVYrkxqvRS9WubuA/edit#slide=id.g7d2aea8729_0_0)
-  - [Batch Changes positioning](../../../../marketing/product-marketing/batch_changes_positioning.md)
+  - [Batch Changes positioning](go-to-market/index.md)
 
 ## Sourcegraphers using Batch Changes
 
@@ -89,7 +89,7 @@ This is a non-exhaustive list of Sourcegaphers use cases for Sourcegraph (either
 - [User-facing documentation](https://docs.sourcegraph.com/batch_changes)
 - [Developer documentation](https://docs.sourcegraph.com/dev/background-information/batch_changes)
 - [Batch Changes Drive Folder (private)](https://drive.google.com/drive/u/0/folders/18Sa_NpsVRvVV8MIvuXyoDEinpEf8fbGn)
-- [Batch Changes Product Marketing Brief](https://docs.google.com/document/d/1yQpCKF50gx8_T-KDnU4s9TjW6fZpMUfWLF2h4xSM8jk)
+- [Batch Changes go-to-market resources](go-to-market/index.md)
 
 ## Attribution
 

@@ -148,7 +148,7 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 
 **Keywords**: `docs`, `documentation`, `sourcegraph.com`,
 
-The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each team and our Product Education team).
+The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each engineering team).
 
 If the docs site is unavilable, route to the [Content Platform team](../../../engineering/dev/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
 
@@ -198,6 +198,10 @@ After you file the Github issue, alert the relevant engineering team you did so 
 - When posting for Cloud/SaaS, be sure to do so in the #cloud-saas channel and use @cloud-saas
 - When posting for Search, use @search-core-support or @search-product-support ... depending which team within Search you need
 - Whenever we have more work than any one engineering team can handle via their support process, we prioritize issues holistically. We try to catch this before the engineering team has to alert us.
+
+### How To Questions
+
+For How-To procedure go [here](how-to-tickets.md)
 
 ### Defects
 

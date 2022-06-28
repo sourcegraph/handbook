@@ -1,6 +1,5 @@
 # Engineering processes
 
-- [Headcount planning](headcount-planning.md)
 - [Dev-specific process](../dev/process/index.md)
 - [Software development life cycle](sdlc.md)
 - [Cross-team/org collaboration](cross-org-team-collab.md)

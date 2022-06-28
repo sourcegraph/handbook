@@ -25,9 +25,8 @@ The current existing content platforms include:
 The Content Platform team has the following customers:
 
 1. Marketing department: The marketing, blog, and learn sites.
-1. Content Platform: The handbook site
-1. Product department: The docs site
-1. Docs team: The docs site
+1. Engineering department: The docs site.
+1. Sourcegraph employees: The handbook site.
 
 ## Principles
 

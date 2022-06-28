@@ -8,6 +8,104 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
+## June 24, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+### New guides
+
+**Logging**: We've made some updates to our logging guidance around [the new logging library](https://github.com/sourcegraph/log) to include more concrete suggestions and examples around:
+
+- How to use scopes
+- Creating sub-loggers (e.g. those with traces and fields)
+- Writing log messages
+
+You can find the new docs in [How to add logging](https://docs.sourcegraph.com/dev/how-to/add_logging)!
+
+**Investigating flakes in CI**: Have you ever merged a PR, got pinged in #buildkite-main, and thought "gosh this test failure has nothing to do with my changes 😭"? Well with a few quick steps you can easily determine if you've been hit with a frequently flaking test that should be disabled ASAP, and contribute to keeping our pipelines healthy! Check out our new Loom demo to learn more:
+
+[![how to find out if a CI failure is a recurring flake](https://cdn.loom.com/sessions/thumbnails/58cedf44d44c45a292f650ddd3547337-1655933919745-with-play.gif)](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337)
+
+More details are available in the handbook: [Grafana Cloud - CI logs](../../tools/observability/cloud.md#ci-logs), and if you have any questions please reach out in #dev-experience!
+
+### Observability features
+
+**Sentry errors**: Errors are now automatically reported to Sentry from warning-level and above logs entries from [`sourcegraph/log` loggers](https://docs.sourcegraph.com/dev/how-to/add_logging) that include an error field, which can be added using the `log.Error` or `log.NamedError` field constructors, for example:
+
+```go
+logger.Error("something terrible happened", log.Error(err))
+```
+
+The reported Sentry event includes helpful information like the logger scope, log message, log fields, and more!
+Check out this demo to see it in action:
+
+[![Sentry demo](https://cdn.loom.com/sessions/thumbnails/f2010789f6884e72932f6e6a9b091558-with-play.gif)](https://www.loom.com/share/f2010789f6884e72932f6e6a9b091558)
+
+Because this raises the amount of errors being reported, we're experimenting with sampling the errors, which both prevents to fill our quota too quickly and also ensure that we're not spending too much resources on the reporting itself.
+
+Under the hood, it uses a new "log sinks" mechanism that can easily be extended to accomodate new backends in the future - you can learn more about it in the [package docs](https://pkg.go.dev/github.com/sourcegraph/log/internal/sinkcores/sentrycore)!
+As a byproduct, the codebase doesn't have anymore any explicit reference to Sentry, apart from the optional Sentry sink itself.
+
+**DataDog sunset**: Note that the DataDog trial is being ended, and the plan is to [sunset DataDog integrations within the codebase](https://github.com/sourcegraph/sourcegraph/pull/37673).
+
+### CLA bot automation
+
+The process of ensuring an external contributor has signed Sourcegraph's Contributor License Agreement (CLA) is now fully automated. Once a contributor has signed [the CLA form](https://docs.google.com/forms/d/e/1FAIpQLSfxy_9WJptKeTmTsrQ6C-5JeiVs4i1pUiahzgLZta1t6Nls-g/viewform), their provided GitHub handle will now automatically be synchronized to the list of approved users.
+
+You can learn more in the [`clabot-config` repository](https://github.com/sourcegraph/clabot-config) and the [accepting external contributions guide](https://docs.sourcegraph.com/dev/contributing/accepting_contribution).
+
+### `sg` goodies
+
+**`sg [cmd...] --feedback`**: Love (or hate) `sg`? Want to make a suggestion or found that a command was acting strange? In addition to the `--feedback` flag on _all_ commands, we've also added a `feedback` subcommand enabling you to give us feedback right from the comfort of your terminal! When you opt to provide feedback a new discussion will be created in the [dev experience category on the Sourcegraph repository](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience).
+
+**Generated `sg` documentation**: Because maintaining documentation is always hard, what's better than automation to make sure its stays up to date? The [`sg` reference](https://docs.sourcegraph.com/dev/background-information/sg/reference) is now automatically generated.
+
+**`sg setup` and `sg lint` rewrite**: We have rewritten `sg lint` and `sg setup` to use a shared internal framework that can be used to easily and flexibly build powerful "check-and-fix" tasks. This enables features like:
+
+- `sg setup -check` to quickly generate a report of what you have set up
+- `sg setup -fix` to fix all issues with your dev setup in one go
+- `sg lint -fix` to automatically try and fix your lint issues (only supported by a few linters at the moment, but more can easily be added!)
+- Continuous integration testing for `sg setup`
+
+**`dev/schemadoc`** has been removed and is replaced by `sg migration ...` commands. Example: `sg migration describe -db codeintel --format=psql -force -out internal/database/schema.codeintel.md` to generate the schema for the `codeintel` db thanks to [#35905](https://github.com/sourcegraph/sourcegraph/pull/35905).
+
+**`./dev/generate.sh`** has been deprecated in favour of of **`sg generate go`** (and its alias `sg gen go` for teammates in a hurry).
+
+**sg generate go** now displays a progress bar to indicate its status and is also noticeably faster thanks to [35807](https://github.com/sourcegraph/sourcegraph/pull/35807), [#36742](https://github.com/sourcegraph/sourcegraph/pull/36742) and [#36681](https://github.com/sourcegraph/sourcegraph/pull/36681).
+
+**Named migrations files**: `sg migration` now supports migrations with migration names embedded in the migration's directory, and all newly created migrations from `sg migration add` will now have migration names included, which will make the `migrations` directory a bit easier to browser. [#37244](https://github.com/sourcegraph/sourcegraph/issues/37244)
+
+**Readability improvements**: `sg start` logs are now easier to read, as the command names text is now justified. To ensure it's still readable in small terminals, a few of them have be shortened and the `enterprise-` prefix is now implicit whereas `oss-` prefix has been introduced.
+
+![](https://user-images.githubusercontent.com/23356519/174646815-843dbbf0-c4e2-49a1-b046-cc3e75f047f7.png)
+
+**`sg` analytics**: The DevX team is experimenting with collecting analytics on `sg` usage and issues! For now this is a manual process, so if you'd like to contribute you data to our explorations, you can submit your data with `sg analytics submit [username]`, or check out what data has been collected with `sg analytics view`!
+
+**ADRs ❤️ `sg`**: You will soon be able to list, search, view, and create [Architecture Decision Records](https://docs.sourcegraph.com/dev/adr/1650968652-record-architecture-decisions) directly from `sg`! [#37718](https://github.com/sourcegraph/sourcegraph/pull/37718)
+
+### CI improvements
+
+- The linter job that runs on every build is now inferring which linter task needs to run depending on the changes (except `main` where it runs everything), saving some time on pull requests thanks to [#35331](https://github.com/sourcegraph/sourcegraph/pull/35331).
+- When you retry the `sg lint` step, the `verbose` flag will be added allowing you to see more of what is going on.
+- You can now force the run of tests that are executed when your PR is _ready for review_ by specifying in your commit message `[ready-for-review]`. Gone are the days of flipping your PR between draft and ready for review!
+
+### Tech Radar
+
+You can browse this month [tech-radar](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/sourcegraph/sourcegraph/main/doc/dev/radar/tech-radar.csv) to get a bird's-eye view of Sourcegraph tech stack! Check this [guide](https://docs.sourcegraph.com/dev/how-to/maintain-tech-radar) to learn about how updating it with your team initiatives.
+
+### DevOps and DevX team merge
+
+As you may have heard, the Cloud DevOps team is splitting up into a new Cloud team, with the remaining teammates merging into the DevX team - so we're happy to welcome 3 new teammates to the DevX team!
+
+A consequence of this change will be a shift in ownership of various domains - this is still a work in progress, but you can see an overview [in the Cloud DevOps handoff plan](https://docs.google.com/document/d/1byFDrIMzPS4Dp9jzQhLcS-RpvZV-gPmc2cpSfaxVBII/edit#heading=h.e8f9rqf2cnkm). Broadly speaking, the main changes are that the DevX team will soon own and lead initatives on the following fronts:
+
+- observability (including internal tooling and external services like Grafana Cloud, Sentry, etc)
+- the operation of sourcegraph.com
+- misc. ops-related support
+
+We will have more to share soon as the dust settles!
+
 ## May 20, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
@@ -16,7 +114,7 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ### Logs, logs, logs 🗃️
 
-A brand new logging package is now available in [`github.com/sourcegraph/sourcegraph/lib/log`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/log). This library outputs a [OpenTelemetry-compliant log format](https://docs.sourcegraph.com/admin/observability/logs#opentelemetry) in JSON mode, paving the way towards enabling customers to more easily ingest and leverage logs, and also offers a performant, strongly-typed interface for providing log fields. The library also encodes a number of best practices:
+A brand new logging package is now available in [`github.com/sourcegraph/log`](https://sourcegraph.com/github.com/sourcegraph/log). This library outputs a [OpenTelemetry-compliant log format](https://docs.sourcegraph.com/admin/observability/logs#opentelemetry) in JSON mode, paving the way towards enabling customers to more easily ingest and leverage logs, and also offers a performant, strongly-typed interface for providing log fields. The library also encodes a number of best practices:
 
 1. No global loggers - it is no longer possible to instantiate a logger at compile time, and users should hold their own references to loggers, so that fields can be attached and log output can be more useful with additional context, and pass Logger instances to components as required.
 2. Loggers are attached to scopes - this helps orient log entries within a larger codebase. For example, when creating a GitHub V3 client for making a auth provider to make requests, one might use `log.Scoped("provider.github.v3", "provider github client")`.

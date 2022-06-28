@@ -376,7 +376,7 @@ batch_changes:
     github_com: true
     github_enterprise: true
     bitbucket_server: true
-    bitbucket_cloud: false
+    bitbucket_cloud: true
     phabricator: false
     codecommit: false
     gitolite: false
@@ -389,14 +389,15 @@ batch_changes:
     cloud: not_implemented
 
 server_side_batch_changes:
-  title: Server side batch changes
+  title: Server-side batch changes
   product_team: batch_changes
-  maturity: experimental
+  maturity: beta
   documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
   deployment:
-    self_hosted: experimental
-    managed_instance: experimental
+    self_hosted: beta
+    managed_instance: beta
     cloud: not_implemented
+  note: Server-side batch changes on managed instances requires self-hosting [executors](#executors).
 
 code_insights:
   title: Code Insights
@@ -528,7 +529,7 @@ native_integration:
 
 single_container_deployment:
   title: Single Container Deployment
-  product_team: devops
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker
   compatibility:
@@ -547,7 +548,7 @@ single_container_deployment:
 
 docker_compose_deployment:
   title: Docker Compose Deployment
-  product_team: devops
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/docker-compose
   compatibility:
@@ -566,7 +567,7 @@ docker_compose_deployment:
 
 kubernetes_deployment:
   title: Kubernetes Deployment
-  product_team: devops
+  product_team: delivery
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/admin/install/kubernetes/configure#getting-started
   compatibility:
@@ -620,3 +621,13 @@ custom_extensions:
     gerrit: true
     perforce: true
     cvs: true
+
+executors:
+  title: Executors
+  product_team: code_intelligence
+  maturity: experimental
+  documentation_link: https://docs.sourcegraph.com/admin/executors
+  deployment:
+    self_hosted: beta
+    managed_instance: experimental
+    cloud: not_implemented

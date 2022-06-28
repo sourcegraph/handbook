@@ -38,6 +38,8 @@ These are books relevant to engineers and engineering managers and have been rec
 
 [A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/en/book/show/39996759-a-philosophy-of-software-design)
 
+This book focuses on complexity in the code, covering it from a high level perspective so its teachings are applicable regardlessly of which technology the reader is working with. What makes it really interesting is that the author is providing very concrete examples to illustrate his claims and thoroughly describes his reasonings. It gives the reader the tools to think about complexity on their own so they can make their own decisions instead of following a list of good and bad practices.
+
 ## Go programming language
 
 The authoritative resource for learning Go is this book:

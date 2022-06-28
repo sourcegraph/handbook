@@ -83,6 +83,14 @@ Our team is geographically and timezone diverse. The handbook has a [large page 
 - For support rotation picking up incidental work. Tasks in support backlog to capture this, more intentional work around support and papercuts versus trying to work normally and getting interrupted.
 - Focus on more feature flag driven development to simplify on-premise changes and speed up MTTR for Cloud.
 
+### Releases
+
+Most of the work related to releasing our code fits the general description of [Engineering processes](../../process).
+
+However, there is an important thing to mention. Since Zoekt lives in a separate repo, we need to periodically pull changes from the Zoekt repo to the main Sourcegraph repo. This can be done either manually by altering the go.mod and go.sum files in the main repo, or by merging the corresponding PR opened by [the bot](https://github.com/sourcegraph/sourcegraph/pulls?q=is%3Apr+author%3Asourcegraph-buildkite+zoekt).
+
+This is good enough to see our changes in an upcoming release, but if you want to see them immediately at Sourcegraph Cloud, another step is needed. Sourcegraph Cloud is continuously deployed from the main repo code, and we alter some parts of it by providing an intentionally wrong version number in the deployment script. The reason is we do not depend on the rollout schedule this way; each update of the version number triggers a rollout. For information on how to bump the Zoekt images and deploy the newer versions, refer to [Continuous Deployment Process](../../process/deployments/index.md#continuous-deployment-process), [Manually deploying a service to sourcegraph.com](../../process/deployments/playbooks.md#manually-deploying-a-service-to-sourcegraphcom), and [Our update script](https://github.com/sourcegraph/sourcegraph/blob/3.20/dev/zoekt/update).
+
 ## On Boarding - [visit the page](./onboarding.md)
 
 ### Public resources are available here:
