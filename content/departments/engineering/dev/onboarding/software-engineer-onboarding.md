@@ -35,7 +35,7 @@ Take the first 20–30 minutes of the session to have an unstructured, introduct
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
-- What are relevant [RFCs](../../../../company-info-and-process/communication/rfcs/index.md), [PDs](../../product/process/product_documents.md), GitHub issues or documentation pages?
+- What are relevant [RFCs](../../../../company-info-and-process/communication/rfcs/index.md), [PDs](../../product/process/prioritize_and_build/product_documents.md), GitHub issues or documentation pages?
 - What parts of our codebase need to be changed to solve this problem?
 - How will we test the code being changed?
 - Will there be future work needed after solving this problem? How could you contribute?
