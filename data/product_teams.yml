@@ -90,7 +90,7 @@ delivery:
 dev_experience:
   title: Dev Experience
   strategy_link: /strategy-goals/strategy/enablement/dev-experience
-  pm: taylor_sperry
+  pm: quinn_hare
   em: kristen_stretch
   issue_labels:
     - team/dev-experience
