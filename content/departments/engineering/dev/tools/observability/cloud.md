@@ -36,14 +36,23 @@ The Loki instance in Grafana Cloud is currently configured to ingest logs from S
 
 #### CI logs
 
-The `sourcegraph/sourcegraph` CI pipeline also [uploads pipeline logs using `sg` to Loki](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/dev/upload-build-logs.sh). To query these, you can start with a LogQL query like:
+The `sourcegraph/sourcegraph` CI pipeline also [uploads pipeline logs using `sg` to Loki](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/enterprise/dev/upload-build-logs.sh).
+These uploads only happen for _failed builds_ on `main` - we do not publish data for successful builds or branch builds (for those, you can refer to our [build traces](https://docs.sourcegraph.com/dev/background-information/ci/development#pipeline-command-tracing)).
+To query logs, you can start with a [LogQL query](#logs) like:
 
 ```logql
 {app="buildkite",branch="main",state="failed"}
   |~ "FAILED:"
 ```
 
-Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1) for more examples—just select a panel and click "Explore" to see the underlying query.
+Also refer to the [CI dashboard](https://sourcegraph.grafana.net/d/iBBWbxFnk/ci?orgId=1), which is a set of graphs based on the contents of uploaded logs, for more examples—just select a panel and click "Explore" to see the underlying query.
+
+A demo is also available that demonstrates one of the most common use cases of this functionality, assessing [flakes](https://docs.sourcegraph.com/dev/background-information/ci#flakes): [how to find out if a build is a recurring flake](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337).
+
+Additional resources:
+
+- [CI observability](https://docs.sourcegraph.com/dev/background-information/ci/development#observability)
+- [CI playbook](../../process/incidents/playbooks/ci.md)
 
 ## Cloudflare
 
