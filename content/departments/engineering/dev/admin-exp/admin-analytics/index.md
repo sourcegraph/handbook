@@ -19,7 +19,7 @@ We sync weekly on Thursday. See our [sync doc](https://docs.google.com/document/
 Team members supporting this project are part of other teams & are all working at acting capacity for the duration of MVP. The roster will be revisited after the release.
 
 - [Ryan Phillips](../../../../../team/index.md#ryan-phillips), Product Manager
-- [Rob Rhyne](../../../../../team/index.md#rob-rhyne), Customer Engineer
+- [Rob Rhyne](../../../../../team/index.md#rob-rhyne), Product Designer
 - [Murat Sutunc](../../../../../team/index.md#murat-sutunc), Engineering Manager
 - [Erzhan Torokulov](../../../../../team/index.md#erzhan-torokulov), Software Engineer
 - [Naman Kumar](../../../../../team/index.md#naman-kumar), Software Engineer
