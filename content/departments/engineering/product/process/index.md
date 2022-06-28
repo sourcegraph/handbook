@@ -18,7 +18,7 @@ To support the ongoing maintenance and improvement of each use case, each can ha
 - Being a point of contact for people with product, design, and/or engineering ideas/questions about the use case
 - Facilitating flow of ideas to owning teams backlogs as necessary
 - Including designers and researchers as needed to make sure that the features for use cases have a coherent flow and user experience, and that the voice of the customer is properly included.
-- Maintaining the use case strategy pages, including ensuring they are ready for planning. This can include talking to customers, internal teams, stakeholders or other kinds of research. This does NOT include maintaining a use case backlog, but just making sure ideas, trends, and important product/design/engineering concepts associated with the use case are documented on (or linked to from) the strategy page and captured in an actionable format (i.e., RFC, PD).
+- Maintaining the use case strategy pages, including ensuring they are ready for planning. This can include talking to customers, internal teams, stakeholders or other kinds of research. This does NOT include maintaining a use case backlog, but just making sure ideas, trends, and important design/engineering concepts associated with the use case are documented on (or linked to from) the strategy page and captured in an actionable format (i.e., RFC, PD).
 
 The assigned sponsors for each use case are listed on the individual [use case pages](../../../../strategy-goals/strategy/use-cases/index.md).
 

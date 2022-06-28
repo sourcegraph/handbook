@@ -80,8 +80,8 @@ The handbook is a living document and we expect every teammate to propose improv
 - [Product Management](departments/engineering/product/index.md)
   - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
   - [Process](departments/engineering/product/process/index.md)
-  - [Design](departments/engineering/product/design/index.md)
-- [Design](departments/engineering/product/design/index.md)
+  - [Design](departments/engineering/design/index.md)
+- [Design](departments/engineering/design/index.md)
 
 > NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 

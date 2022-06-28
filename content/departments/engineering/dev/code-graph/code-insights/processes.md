@@ -120,7 +120,7 @@ We also intentionally plan so we can avoid merging significant work less than tw
 
 ### Planning larger projects
 
-Larger (usually multi-iteration) projects coming from our roadmap go through three phases. <small>_(Note that these three phases are the **team collaboration** phases, but there are often additional individual phases like product/design research processes or technical research that may come before phase 1.)_</small>
+Larger (usually multi-iteration) projects coming from our roadmap go through three phases. <small>_(Note that these three phases are the **team collaboration** phases, but there are often additional individual phases like design research processes or technical research that may come before phase 1.)_</small>
 
 1. **Product context and scope agreement** (usually 1–2 weeks)<br>
    The PM (or other driving individual) creates a product-level RFC summarizing user desires from feedback and proposes a reasonable timeline to reach a scope agreement (mentioned in the RFC).
