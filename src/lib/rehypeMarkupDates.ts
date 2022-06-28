@@ -75,7 +75,7 @@ export const rehypeMarkupDates: Plugin = () => root =>
 function formatTimezoneOffset(totalMinutes: number): string {
     const hours = Math.trunc(totalMinutes / 60)
     const minutes = Math.abs(totalMinutes) % 60
-    return `${formatInt(hours, 2)}:${formatInt(minutes, 2)}`
+    return `${totalMinutes >= 0 ? '+' : ''}${formatInt(hours, 2)}:${formatInt(minutes, 2)}`
 }
 
 const fiscalIntervalPattern = new RegExp(`^(?:${fiscalYearPattern.source}|${fiscalQuarterPattern.source})$`)

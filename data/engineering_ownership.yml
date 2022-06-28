@@ -8,16 +8,14 @@ authn_authz:
   category: Application Architecture
   title: AuthN/AuthZ
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 multi_tenancy:
   category: Application Architecture
   title: Multi-tenancy
   type: Tech
-  product_org: adminexp
   product_lifecycle: Introduction
 
 rate_limiting:
@@ -35,17 +33,15 @@ feature_flagging_ab_testing:
 gating_system_license_key_management:
   category: Application Architecture
   title: Gating system and license key management
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 rbac:
   category: Application Architecture
   title: RBAC
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 audit_logs:
@@ -64,15 +60,13 @@ cloud_kms_encryption:
   category: Application Architecture
   title: Cloud KMS encryption
   type: Tech
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
 
 src_cli:
   category: Application Interface
   title: src-cli
   type: Product
-  product_org: code_graph
   product_team: batch_changes
   domain_experts: Batch Changes
   slack_channels: '#batch-changes'
@@ -84,7 +78,6 @@ browser_extensions:
   category: Application Interface
   title: Browser Extensions
   type: Product
-  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -94,7 +87,6 @@ native_integrations:
   category: Application Interface
   title: Native Integrations
   type: Product
-  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -104,7 +96,6 @@ editor_extension:
   category: Application Interface
   title: Editor Extension
   type: Product
-  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -114,7 +105,6 @@ web_app:
   category: Application Interface
   title: Web App
   type: Product
-  product_org: enablement
   product_team: frontend_platform
   ownership_model: Owner
 
@@ -122,7 +112,6 @@ resource_estimator:
   category: Application Interface
   title: Resource Estimator
   type: Product
-  product_org: adminexp
   product_team: delivery
   ownership_model: Owner
 
@@ -130,7 +119,6 @@ diff_commit_search:
   category: Client - Core Feature
   title: Diff / commit search
   type: Product
-  product_org: code_graph
   product_team: search_product
   domain_experts: Camden Cheek, Rijnard van Tonder
   slack_channels: '#search'
@@ -142,7 +130,6 @@ structural_search:
   category: Client - Core Feature
   title: Structural search
   type: Product
-  product_org: code_graph
   product_team: search_product
   domain_experts: Rijnard van Tonder
   slack_channels: '#search'
@@ -154,9 +141,8 @@ admin_experience:
   category: Client - Table stakes
   title: Admin Experience
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 terms_conditions:
@@ -168,14 +154,12 @@ ci_infra:
   category: Continuous Integration
   title: CI infra - Docker/GKE images, ASG config, etc.
   type: Tech
-  product_org: enablement
-  product_team: devops
+  product_team: dev_experience
 
 buildkite:
   category: Continuous Integration
   title: Buildkite - agents, agent images, and agent infrastructure
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   slack_channels: '#dev-experience, #buildkite-main'
   ownership_model: Owner
@@ -184,7 +168,6 @@ ci_service:
   category: Continuous Integration
   title: CI service - pipeline gen, tools, monitoring, etc.
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   slack_channels: '#dev-experience, #buildkite-main'
   ownership_model: Owner
@@ -194,7 +177,6 @@ webpack_build_config:
   category: Continuous Integration
   title: Webpack build config
   type: Tech
-  product_org: enablement
   product_team: frontend_platform
   slack_channels: '#frontend-platform'
   ownership_model: Owner
@@ -204,7 +186,6 @@ code_host_qa:
   category: Continuous Integration
   title: Code host QA instances (GitHub, GitLab, Bitbucket Server)
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   domain_experts: Dev Experience
   slack_channels: '#dev-experience'
@@ -215,7 +196,6 @@ codeintel_db:
   category: Datastore
   title: CodeIntel DB
   type: Product
-  product_org: code_graph
   product_team: code_intelligence
   domain_experts: Code Intelligence
   slack_channels: '#code-intel'
@@ -252,7 +232,6 @@ zoekt:
   category: Dependency
   title: Zoekt
   type: Tech
-  product_org: code_graph
   product_team: search_core
   ownership_model: Owner
 
@@ -280,7 +259,6 @@ sg_tool:
   category: Developer Experience
   title: sg tool
   type: Product
-  product_org: code_graph
   product_team: dev_experience
   domain_experts: Thorsten, Erik Seliger
   slack_channels: '#dev-experience'
@@ -292,7 +270,6 @@ wildcard_component_library:
   category: Developer Experience
   title: Wildcard component library
   type: Product
-  product_org: enablement
   product_team: frontend_platform
   slack_channels: '#frontend-platform, #component-system-updates'
   ownership_model: Owner
@@ -303,7 +280,6 @@ frontend_coding_standards:
   category: Developer Experience
   title: Frontend coding standards (TypeScript, HTML, CSS)
   type: Tech
-  product_org: enablement
   product_team: frontend_platform
   slack_channels: '#frontend-platform'
   ownership_model: Owner
@@ -313,7 +289,6 @@ frontend_testing_libraries:
   category: Developer Experience
   title: Frontend testing libraries
   type: Tech
-  product_org: enablement
   product_team: frontend_platform
   slack_channels: '#frontend-platform'
   ownership_model: Caretaker
@@ -328,7 +303,6 @@ testing_infra_tooling:
   category: Developer Experience
   title: Testing infrastructure and tooling
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   slack_channels: '#dev-experience'
   ownership_model: Caretaker
@@ -359,7 +333,7 @@ common_libs:
   type: Tech
 
 alerting_monitoring:
-  category: DevOps
+  category: Dev_Experience
   title: Alerting and monitoring
   type: Tech
 
@@ -367,28 +341,24 @@ gcp_test_envs:
   category: Google Cloud Platform
   title: GCP - Test environments
   type: Tech
-  product_org: enablement
-  product_team: devops
+  product_team: dev_experience
 
 gcp_managed_instances:
   category: Google Cloud Platform
   title: GCP - Managed Instances
   type: Tech
-  product_org: enablement
-  product_team: devops
+  product_team: cloud
 
 gcp_sourcegraph_com:
   category: Google Cloud Platform
   title: GCP - Sourcegraph.com
   type: Tech
-  product_org: adminexp
-  product_team: devops
+  product_team: dev_experience
 
 gcp_permissions:
   category: Google Cloud Platform
   title: GCP - Permissions
   type: Tech
-  product_org: cloud
   product_team: security
   slack_channels: '#security'
   ownership_model: Owner
@@ -398,16 +368,14 @@ dns:
   category: Infrastructure
   title: DNS
   type: Tech
-  product_org: enablement
-  product_team: devops
+  product_team: dev_experience
   ownership_model: Caretaker
 
 infrastructure_as_code:
   category: Infrastructure
   title: Orchestration - Infrastructure as Code
   type: Tech
-  product_org: adminexp
-  product_team: devops
+  product_team: dev_experience
   slack_channels: '#cloud-devops, #dev-ops'
   ownership_model: Caretaker
 
@@ -423,7 +391,6 @@ waf:
   category: Security & Compliance
   title: WAF (Cloudflare)
   type: Tech
-  product_org: adminexp
   product_team: security
   slack_channels: '#security'
   ownership_model: Owner
@@ -434,7 +401,6 @@ compliance:
   category: Security & Compliance
   title: Compliance
   type: Tech
-  product_org: adminexp
   product_team: security
   slack_channels: '#security'
   ownership_model: Caretaker
@@ -480,7 +446,6 @@ syntax_highlighter:
   category: Sub-system
   title: Syntax Highlighter
   type: Product
-  product_org: code_graph
   product_team: code_intelligence
   domain_experts: Stephen Gutekanst
 
@@ -488,7 +453,6 @@ blob_storage:
   category: Sub-system
   title: Blob storage
   type: Tech
-  product_org: code_graph
   product_team: code_intelligence
   slack_channels: '#code-intel'
 
@@ -496,7 +460,6 @@ executors:
   category: Sub-system
   title: Executors
   type: Product
-  product_org: code_graph
   product_team: code_intelligence
   domain_experts: Code Intelligence, Batch Changes
   slack_channels: '#code-intel, #batch-changes'
@@ -508,7 +471,6 @@ repo_updater:
   category: Sub-system
   title: Repo updater
   type: Product
-  product_org: enablement
   product_team: repo_management
   slack_channels: '#repo-management'
   ownership_model: Owner
@@ -518,7 +480,6 @@ gitserver_service:
   category: Sub-system
   title: Gitserver Service
   type: Product
-  product_org: enablement
   product_team: repo_management
   slack_channels: '#repo-management'
   ownership_model: Owner
@@ -527,7 +488,6 @@ code_host_syncing:
   category: Sub-system
   title: Code host syncing (GitHub, GitLab, Bitbucket Server)
   type: Product
-  product_org: enablement
   product_team: repo_management
   slack_channels: '#repo-management'
   ownership_model: Owner
@@ -536,7 +496,6 @@ search_indexing:
   category: Sub-system
   title: Search indexing
   type: Product
-  product_org: code_graph
   product_team: search_core
   product_lifecycle: Growth
 
@@ -544,7 +503,6 @@ searcher:
   category: Sub-system
   title: Searcher
   type: Product
-  product_org: code_graph
   product_team: search_core
 
 frontend_service:
@@ -571,7 +529,6 @@ cvs_import_tool:
   category: Sub-system
   title: CVS import tool
   type: Tech
-  product_org: code_graph
   product_team: batch_changes
   domain_experts: Adam Harvey
   slack_channels: '#tmp-cvs-support'
@@ -583,7 +540,6 @@ batch_changes:
   category: Web App - Add-on Feature
   title: Web App - Batch changes
   type: Product
-  product_org: code_graph
   product_team: batch_changes
   slack_channels: '#batch-changes'
   ownership_model: Owner
@@ -592,7 +548,6 @@ code_insights:
   category: Web App - Add-on Feature
   title: Web App - Code Insights
   type: Product
-  product_org: code_graph
   product_team: code_insights
   slack_channels: '#code-insights'
   ownership_model: Owner
@@ -603,7 +558,6 @@ extensions_registry:
   category: Web App - Add-on Feature
   title: Web App - Extensions registry
   type: Product
-  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -612,7 +566,6 @@ extensions:
   category: Web App - Add-on Feature
   title: Sourcegraph Extensions
   type: Product
-  product_org: adminexp
   product_team: integrations
   slack_channels: '#integrations'
   ownership_model: Owner
@@ -622,7 +575,6 @@ code_monitoring:
   category: Web App - Add-on Feature
   title: Web App - Code monitoring
   type: Product
-  product_org: code_graph
   product_team: search_product
   slack_channels: '#search'
   ownership_model: Owner
@@ -631,9 +583,8 @@ subscription_management:
   category: Web App - Billing
   title: Subscription Management
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -646,9 +597,8 @@ usage_reporting_entitlements:
   category: Web App - Billing
   title: Usage reporting / entitlements limits
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -656,9 +606,8 @@ payments_billing:
   category: Web App - Billing
   title: Payments / Billing
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -666,16 +615,14 @@ on_prem_licensing:
   category: Web App - Billing
   title: On-prem licencing model
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
 
 settings_page:
   category: Web App - Core Feature
   title: Settings page
   type: Product
-  product_org: enablement
   product_team: frontend_platform
   slack_channels: '#frontend-platform'
   ownership_model: Caretaker
@@ -685,7 +632,6 @@ feedback_prompts:
   category: Web App - Core Feature
   title: Feedback prompts
   type: Product
-  product_org: enablement
   product_team: frontend_platform
   slack_channels: '#frontend-platform'
   ownership_model: Caretaker
@@ -700,9 +646,8 @@ user_profile_settings:
   category: Web App - Core Feature
   title: User profile / settings
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Mature
 
@@ -710,7 +655,6 @@ signup_flow:
   category: Web App - Core Feature
   title: Sign up flow
   type: Product
-  product_org: adminexp
   product_team: growth
   slack_channels: '#growth'
   ownership_model: Owner
@@ -720,7 +664,6 @@ onboarding_flow:
   category: Web App - Core Feature
   title: Post sign up / onboarding flow / product tour / in-product guidance / new user experience (NUE)
   type: Product
-  product_org: adminexp
   product_team: growth
   slack_channels: '#growth'
   ownership_model: Owner
@@ -730,9 +673,8 @@ user_notifications:
   category: Web App - Core Feature
   title: User notifications
   type: Product
-  product_org: adminexp
   product_team: iam
-  slack_channels: '#iam-and-admin-exp'
+  slack_channels: '#iam'
   ownership_model: Owner
   product_lifecycle: Introduction
 
@@ -749,7 +691,6 @@ code_search:
   category: Web App - Core Feature
   title: Code search
   type: Product
-  product_org: code_graph
   product_team: search_product
   slack_channels: '#search'
   ownership_model: Owner
@@ -758,7 +699,6 @@ open_source_search:
   category: Web App - Core Feature
   title: Open Source (OSS) Code Search
   type: Product
-  product_org: code_graph
   product_team: search_core
   slack_channels: '#search'
   ownership_model: Owner
@@ -787,7 +727,6 @@ github:
   category: Tooling
   title: GitHub
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   slack_channels: '#dev-experience'
   ownership_model: Owner
@@ -796,7 +735,6 @@ github_applications:
   category: Tooling
   title: GitHub Applications (incl. 3rd party apps)
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   slack_channels: '#dev-experience'
   ownership_model: Owner
@@ -805,7 +743,6 @@ cla_bot:
   category: Tooling
   title: Contributor Licence Agreement Bot (cla-bot)
   type: Tech
-  product_org: enablement
   product_team: dev_experience
   slack_channels: '#dev-experience'
   ownership_model: Owner

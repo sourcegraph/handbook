@@ -99,4 +99,4 @@ New AE focuses on the following in their third week:
 
 - Ask any outstanding questions from their first-month ramp period
 
-If you have any questions about the AE new hire mentor program, reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com) or [trey.sizemore@sourcegraph.com](mailto:trey.sizemore@sourcegraph.com).
+If you have any questions about the AE new hire mentor program, reach out to [onboarding@sourcegraph.com](mailto:onboarding@sourcegraph.com).

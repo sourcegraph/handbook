@@ -12,14 +12,16 @@ Note that this integration only works with public notebooks on sourcegraph.com.
 
 ## Data files
 
-The data that drives the various pages is located in [/data](https://github.com/sourcegraph/handbook/tree/main/data) and is stored in the YAML format. Each contains a list of entries, with those entries containing various fields, and those fields containing strings or pointers to other elements (for example, the name of a person as a string, or a pointer for a team to a member of that team via the id.) For example, here is a sample org where the title and strategy links are strings, and the pm and em are pointers to people:
+The data that drives the various pages is located in [/data](https://github.com/sourcegraph/handbook/tree/main/data) and is stored in the YAML format. Each contains a list of entries, with those entries containing various fields, and those fields containing strings or pointers to other elements (for example, the name of a person as a string, or a pointer for a team to a member of that team via the id.) For example, here is a sample team where the title and strategy links are strings, and the pm is a pointer to a person:
 
 ```yaml
-code_graph:
-  title: Code Graph
-  strategy_link: /company/strategy/code-graph/index.md
-  pm: anna_mikhova
-  em: yink_teo
+search_product:
+  title: Search Product
+  strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
+  pm: logan_zhao
+  issue_labels:
+    - team/search-product
+    - team/search
 ```
 
 There are schema files for each of the data files at [/schema](https://github.com/sourcegraph/handbook/tree/main/schema) that set formats and whether different fields are required or not.

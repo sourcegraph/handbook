@@ -204,12 +204,6 @@ Originally popularized by VS Code (the protocol was defined by Microsoft), many 
 
 [Official LSP documentation](https://microsoft.github.io/language-server-protocol/).
 
-### LSIF Typed
-
-An evolution of the [language server index format](#language-server-index-format).
-
-TODO: Add more details here.
-
 ### module
 
 TODO
@@ -247,6 +241,13 @@ TODO
 An algorithm for fast indexing for repositories with deep history.
 
 TODO: Link RFC
+
+### SCIP
+
+Recursive acronym for the [SCIP Code Intelligence Protocol](https://github.com/sourcegraph/scip).
+Also accompanied by a CLI tool named `scip`.
+
+Before the announcement, it was developed under the name "LSIF Typed."
 
 ### search-based code intel
 

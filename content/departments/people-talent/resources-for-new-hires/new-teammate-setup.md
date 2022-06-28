@@ -4,7 +4,11 @@
 
 Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the requirements to set up your computer.
 
+You can get a quick view of how to use a [Mac laptop here](https://help.apple.com/macOS/high-sierra/mac-basics/#/intro) and find further resources [here](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md).
+
 ## Google Workspace
+
+You can find resources on how to use each of the main tools [here](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md#google-workspace).
 
 ### Gmail
 
@@ -19,7 +23,7 @@ Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the r
 4. Choose **Insert image** and then **Web Address (URL)** and enter https://user-images.githubusercontent.com/3173176/115082082-2d892380-9eba-11eb-9606-6c4b9c4eb465.png then choose **Small** size after it has been entered.
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like this, and clicking the Sourcegraph logo should bring you to sourcegraph.com:
-7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/careers.
+7. You may wish to add another line like `What is Universal Code Search? | We're hiring!` with links to https://about.sourcegraph.com/ and https://about.sourcegraph.com/jobs.
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/3173176/115082263-7a6cfa00-9eba-11eb-93ba-61b72de8b30b.png">
 
@@ -46,6 +50,8 @@ Visit [this handbook page](../../tech-ops/tools/computer-setup.md) to know the r
 - See the Communication handbook for [more on scheduling meetings](../../../company-info-and-process/communication/index.md#scheduling-meetings-with-google-calendar).
 
 ## Slack
+
+You can find resources on how to use Slack in [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md#slack). Make sure you visit [How we use Slack at Sourcegraph](../../../company-info-and-process/communication/team_chat.md) to learn our internal guidelines and usage of Slack.
 
 Slack is one of the tools we use the most for communication, this is why having a full profile helps everyone to identify each other and our working hours easily. Click on the icon to the right top of the app and configure the following:
 

@@ -73,9 +73,8 @@ NOTE: Follow the same scheduling steps for internal candidates that you would fo
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](../../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../../team/index.md#kylie-fligstein)
 - [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../../team/index.md#amber-smokowski)
-- [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../../team/index.md#kylie-fligstein) in the meantime)
+- [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett)
 - [Quinn Slack](../../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../../team/index.md#sally-voisen)
 
 ### How to Select a Values Interview Panel:

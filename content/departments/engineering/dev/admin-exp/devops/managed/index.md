@@ -1,33 +1,38 @@
 # Managed instances
 
-This documentation details how the Distribution team at Sourcegraph internally handles the provisioning/creation/configuration/maintenance of [managed instances](https://docs.sourcegraph.com/admin/install/managed).
+This documentation details how the Cloud team at Sourcegraph internally handles the provisioning/creation/configuration/maintenance of [managed instances](https://docs.sourcegraph.com/admin/install/managed).
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
-For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intended to provide additional external-facing information.
 
-- [Technical details](#technical-details)
-  - [Deployment type and scaling](#deployment-type-and-scaling)
-  - [Environments](#environments)
-  - [Known limitations of managed instances](#known-limitations-of-managed-instances)
-  - [Security](#security)
-  - [Monitoring and alerting](#monitoring-and-alerting)
-  - [Access](#access)
-- [Cost estimation](cost_estimation.md)
-- [Requesting a managed instance](#requesting-a-managed-instance)
-- [SLAs for managed instances](#slas-for-managed-instances)
-- [Operations for managed instances](#operations)
-- [FAQ](#faq)
+- [Managed instances](#managed-instances)
+  - [When to offer a Managed Instance](#when-to-offer-a-managed-instance)
+  - [Managed Instance Requests](#managed-instance-requests)
+    - [Workflow](#workflow)
+  - [SLAs for managed instances](#slas-for-managed-instances)
+    - [Incident Response](#incident-response)
+  - [Technical details](#technical-details)
+    - [Deployment type and scaling](#deployment-type-and-scaling)
+    - [Environments](#environments)
+      - [Internal instances](#internal-instances)
+      - [Customer instances](#customer-instances)
+    - [Release process](#release-process)
+    - [Known limitations of managed instances](#known-limitations-of-managed-instances)
+    - [Security](#security)
+    - [Monitoring and alerting](#monitoring-and-alerting)
+    - [Configuration management](#configuration-management)
+    - [Operations](#operations)
+  - [FAQ](#faq)
+    - [FAQ: Can customers disable the "Builtin username-password authentication"?](#faq-can-customers-disable-the-builtin-username-password-authentication)
 
 ## When to offer a Managed Instance
 
 Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
 
-As of 2022-03-10, managed instance is not the recommended deployment method for any tier size of customer. We hope to be able to change that in the future.
-
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
-Please message #cloud-devops for any answers or information missing from this page.
+Please message #cloud for any answers or information missing from this page.
 
 When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
 
@@ -38,21 +43,26 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
-- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
-- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
 
 ### Workflow
 
-1.  Sales alerts their CE partner to seek approval from CE leadership, who will guide next steps
-2.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
+1.  CE seeks Managed Instance approval from their regional CE Manager
+2.  The Regional CE Manager will review the following criteria:
+    - Overall, is the deal qualified?
+    - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
+    - If anything is non-standard, it must pass the tech review process
+3.  If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
     - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the DevOps team using the corresponding issue template in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
     - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the DevOps team.
-3.  Message the team in #cloud-devops.
+4.  Message the team in #cloud-devops.
+5.  If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
 ## SLAs for managed instances
 
@@ -81,7 +91,7 @@ Incidents which affect managed instances handled according to our [incidents](..
 
 Managed instances are Docker Compose deployments only today. We do not currently offer Kubernetes managed instances.
 
-These managed Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU / 360 GB memory which is typically enough for most medium to large enterprises.
+These managed Docker Compose deployments can scale up to the largest GCP instance type available, n2-standard-128 with 128 CPU / 512 GB memory which is typically enough for most medium to large enterprises.
 
 We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
 
@@ -91,7 +101,7 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 #### Internal instances
 
-For each type of Managed Instances (v1.0 and v.1.1), Souregraph maintains separate test environments:
+For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
 
 - for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
@@ -107,6 +117,33 @@ Internal instances are created for various testing purposes:
 All customer instances are considered part of the production environment and all changes applied to these customers should be well-tested in the test environment.
 
 Upgrade process to new Sourcegraph version is also preceded with upgrading test instances - [upgrade to v3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
+
+### Release process
+
+<span class="badge badge-note">SOC2/CI-100</span>
+
+Sourcegraph upgrades every test and customer instances according to [SLA](#slas-for-managed-instances).
+
+The release process is performed in steps:
+
+1. New version is released via [release guild](../../../process/releases/release_guild.md)
+1. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../../process/releases/upgrade_managed_issue_template.md)
+1. Github issue is labeled with `team/devops` and Devops Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
+1. DevOps team performs upgrade of all instances in given order:
+
+- for Instances with version [v1.0](./upgrade_process.md)
+  1. Test instances are upgraded - [dev](https://devmanaged.sourcegraph.com/) and [demo](https://demo.sourcegraph.com/)
+  1. [Uptime checks](./upgrade_process.md#8-confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. When test instances are working correctly, DevOps Team performs upgrade of all v1.0 customer instances
+- for Instances with version [v1.1](./v1.1/mi1-1_upgrade_process.md)
+  1. Test instance is upgraded - [rctest](https://rctest.sourcegraph.com/)
+  1. [Uptime checks](./v1.1/mi1-1_upgrade_process.md#confirm-instance-health) are verified. This includes [automated monitoring](#monitoring-and-alerting)
+  1. When test instance is working correctly, DevOps Team performs upgrade of all v1.1 customer instances
+
+Sample upgrade:
+
+- [tracking issue - 3.40.1](https://github.com/sourcegraph/sourcegraph/issues/36219).
+- Github Pull Requests for [3.40.1 upgrade](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls?q=is%3Apr+is%3Aclosed++upgrade+v3.40.1)
 
 ### Known limitations of managed instances
 
@@ -179,4 +216,19 @@ Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior disabling the builtin provider.
+
+### FAQ: How do I restart the frontend after changing the site-config?
+
+> If you are a Cloud teammate, follow the regualr operation playbook.
+
+Are you a member of our CE & CS teams?
+
+- Visit [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
+- Locate the `slug` of the customer instance from list of folders
+- Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
+- Click `Run workflow` and input the `slug` of customer instance
+- Click the `Run workflow` green button
+- Done! It shoudln't take more than 2 mintues
+
+<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
