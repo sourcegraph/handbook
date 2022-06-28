@@ -83,7 +83,7 @@ Exec Sponsor / DRI / Appropriate cross-functional project teammate
 
 #### What:
 
-A Google doc that includes (link to template)
+A Google doc that includes ([link to template](https://docs.google.com/document/d/1uT6-2w7Pv8rXA4F-azZ7Ual_pN0XZZQMAksDcalO54w/edit#heading=h.92d75u96bh28))
 
 - A summary of the week's work / color commentary on the project as a whole.
   - Update on the status of the project (Red / Yellow / Green).
