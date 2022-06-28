@@ -68,7 +68,21 @@
           <div style="text-align: center;">Carl Robson</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Sarah Um</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
     </div>
+    </div>
+    
    </section>
 
 #### People Ops team READMEs
@@ -77,7 +91,16 @@
 
 ### How to reach the right member of the People Ops team
 
-If you encounter a question at any point, we're here to help! Slack us at #ask-people-team
+If you encounter a question at any point, we're here to help! Slack us at #ask-people-team.
+
+#### People Partner Alignment
+
+Our People Partners are aligned business units as follows:
+
+**Jonathan Ayers**: Executive Team
+**Carl Robson**: Sales & Marketing
+**Sarah Um**: Customer Engineering & Support; Operations
+**Alex Mathison**: Product & Engineering
 
 ### Open roles
 
