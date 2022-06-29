@@ -1,24 +1,30 @@
 # Managed instances
 
-This documentation details how the Distribution team at Sourcegraph internally handles the provisioning/creation/configuration/maintenance of [managed instances](https://docs.sourcegraph.com/admin/install/managed).
+This documentation details how the Cloud team at Sourcegraph internally handles the provisioning/creation/configuration/maintenance of [managed instances](https://docs.sourcegraph.com/admin/install/managed).
 
 Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what these are and what we provide.
 
-For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intented to provide additional external-facing information.
+For operation guides (e.g. upgrade process), please see [managed instances operations](./operations.md). This page is intended to provide additional external-facing information.
 
-- [Technical details](#technical-details)
-  - [Deployment type and scaling](#deployment-type-and-scaling)
-  - [Environments](#environments)
-  - [Release process](#release-process)
-  - [Known limitations of managed instances](#known-limitations-of-managed-instances)
-  - [Security](#security)
-  - [Monitoring and alerting](#monitoring-and-alerting)
-  - [Access](#access)
-- [Cost estimation](cost_estimation.md)
-- [Requesting a managed instance](#workflow)
-- [SLAs for managed instances](#slas-for-managed-instances)
-- [Operations for managed instances](#operations)
-- [FAQ](#faq)
+- [Managed instances](#managed-instances)
+  - [When to offer a Managed Instance](#when-to-offer-a-managed-instance)
+  - [Managed Instance Requests](#managed-instance-requests)
+    - [Workflow](#workflow)
+  - [SLAs for managed instances](#slas-for-managed-instances)
+    - [Incident Response](#incident-response)
+  - [Technical details](#technical-details)
+    - [Deployment type and scaling](#deployment-type-and-scaling)
+    - [Environments](#environments)
+      - [Internal instances](#internal-instances)
+      - [Customer instances](#customer-instances)
+    - [Release process](#release-process)
+    - [Known limitations of managed instances](#known-limitations-of-managed-instances)
+    - [Security](#security)
+    - [Monitoring and alerting](#monitoring-and-alerting)
+    - [Configuration management](#configuration-management)
+    - [Operations](#operations)
+  - [FAQ](#faq)
+    - [FAQ: Can customers disable the "Builtin username-password authentication"?](#faq-can-customers-disable-the-builtin-username-password-authentication)
 
 ## When to offer a Managed Instance
 
@@ -37,12 +43,12 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 Customer Engineers (CE) or Sales may request to:
 
-- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
   - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
-- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
-- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
 
 ### Workflow
@@ -210,4 +216,19 @@ Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Plesae reach out to our team prior disabling the builtin provider.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior disabling the builtin provider.
+
+### FAQ: How do I restart the frontend after changing the site-config?
+
+> If you are a Cloud teammate, follow the regualr operation playbook.
+
+Are you a member of our CE & CS teams?
+
+- Visit [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
+- Locate the `slug` of the customer instance from list of folders
+- Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
+- Click `Run workflow` and input the `slug` of customer instance
+- Click the `Run workflow` green button
+- Done! It shoudln't take more than 2 mintues
+
+<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

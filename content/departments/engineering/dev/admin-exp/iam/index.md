@@ -20,7 +20,7 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 The IAM team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
 
-While the IAM team owns the underliying layer for authentication and authorization, Integrations and Growth teams are responsible for the UI and UX for sign-in and sign-up. Integrations and Growth teams also work on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-org-team-collab.md).
+While the IAM team owns the underliying layer for authentication and authorization, Integrations and Growth teams are responsible for the UI and UX for sign-in and sign-up. Integrations and Growth teams also work on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-team-collab.md).
 
 Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
 
@@ -58,18 +58,10 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 
 ## Partner Teams
 
-The IAM team works alongside several other teams within the Cloud organization at Sourcegraph. You can find more information about their teams and goals on the respective pages:
+The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
-- [Cloud DevOps](../devops)
-- [Integrations](../integrations)
-- [Growth](../growth-team)
+- [Repo Management](../repo-management/index.md)
 - [Security](../security) - Team ambassador: [Feroz Salam](../../../../../team/index.md#feroz-salam)
-
-## News and updates
-
-### Weekly team updates
-
-Each Friday, we send weekly team updates to the rest of the Cloud org to keep the Cloud senior leadership and our partner teams in the loop about IAM Team progress and our ups and downs. You can find all the weekly updates in this [Google Docs](https://docs.google.com/document/d/1a_36dJ-ZR4LU_3bDaIWAZldZJ6O3zaSi8NhGfT0fsdw/edit#heading=h.yggics8n0cyt).
 
 ## How we work
 
@@ -225,9 +217,7 @@ TBD
 
 - [#iam-internal](https://sourcegraph.slack.com/archives/C02EQBDB1LY) - internal channel for IAM team for all day to day communication within the team.
 - [#iam](https://sourcegraph.slack.com/archives/C03D4H7UBEV) - external channel for IAM team where other Sourcegraphers can ask for help or leave questions for the team.
-- [#cloud-org](https://sourcegraph.slack.com/archives/C02E07JDBD3) - public channel for all the members of Cloud product and engineering organization.
-- [#cloud-org-social](https://sourcegraph.slack.com/archives/C02KQHMLJFQ) - public channel where all the members of Cloud product and engineering organization can get to know each other, socialize and talk about other non-work-related topics.
-- [#cloud-gtm](https://sourcegraph.slack.com/archives/C025T3B3NAH) - a place to discuss Sourcegraph Gloud go to market strategy, including pricing, packaging, customers, and more!
+- [#repo-iam-team-internal](https://sourcegraph.slack.com/archives/C03K05FCRFH) - a good channel to use whenever we're unclear on whether something should be owned by Repo Management or IAM.
 
 ## Product and technical documentation
 
@@ -310,4 +300,3 @@ If the answer is not available below, your buddy and the whole team will share t
 - [IAM Team GitHub Project](https://github.com/orgs/sourcegraph/projects/259)
 - [IAM Team Google Drive](https://drive.google.com/drive/u/0/folders/0ACd8_Z-WGWroUk9PVA?ths=true)
 - [IAM Team Retrium workspace](https://app.retrium.com/team-room/0c97e800-29c0-41cb-97e1-eb2556fbfa7d)
-- [Looker dashboard with Cloud addption metrics](https://sourcegraph.looker.com/dashboards-next/219)

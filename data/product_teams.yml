@@ -72,9 +72,9 @@ growth:
 
 iam:
   title: Identity and Access Management (IAM)
-  strategy_link: /strategy-goals/strategy/admin-exp/iam-admin/index.md
+  strategy_link: /strategy-goals/strategy/admin-exp/iam/index.md
   pm: ryan_phillips
-  em: jordan_plahn
+  em: jordan_plahn_iam
   issue_labels:
     - team/iam
     - team/admin-exp
@@ -90,7 +90,7 @@ delivery:
 dev_experience:
   title: Dev Experience
   strategy_link: /strategy-goals/strategy/enablement/dev-experience
-  pm: taylor_sperry
+  pm: quinn_hare
   em: kristen_stretch
   issue_labels:
     - team/dev-experience

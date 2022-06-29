@@ -118,7 +118,7 @@ joe_chen:
   name: Joe Chen
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_iam_and_admin_exp
+  reports_to: engineering_manager_iam
   github: unknwon
   email: joe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
@@ -904,13 +904,6 @@ rafal_leszczynski:
   links: '[LinkedIn](https://www.linkedin.com/in/rleszcz/)'
   description: Raf lives with his family outside of Poznan (Poland), surrounded by forests, boars, deers, and other wildlife.
 
-rafal_leszczynski_iam:
-  name: Rafal Leszczynski (interim)
-  role: Engineering Manager, Identity and Access Management (interim)
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_iam_and_admin_exp
-  hide_on_team_page: true
-
 kelli_rockwell:
   name: Kelli Rockwell
   pronouns: she/her
@@ -1263,7 +1256,7 @@ milan_freml:
   name: Milan Freml
   pronouns: He/Him
   role: Software Engineer
-  reports_to: engineering_manager_iam_and_admin_exp
+  reports_to: engineering_manager_iam
   location: Ružomberok, Žilinský, Slovakia 🇸🇰
   github: kopancek
   email: milan.freml@sourcegraph.com
@@ -1568,7 +1561,7 @@ taylor_sperry:
   name: Taylor Sperry
   reports_to: eng_lead
   pronouns: she/her
-  role: Product Manager, Frontend Platform & Dev Experience
+  role: Product Manager, Frontend Platform
   location: Denver, CO, USA 🇺🇸
   github: taylorsperry
   email: taylor.sperry@sourcegraph.com
@@ -1597,6 +1590,14 @@ jordan_plahn:
   email: jordan.plahn@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jplahn)'
   description: Jordan lives in Seattle, WA with his fiancée and fluffy Newfoundland. He was born in Houston, but lived in other countries for 12 years while growing up (Thailand, Egypt, Scotland). Jordan loves to explore the beautiful mountains of Washington, travel and eat, play golf, and spend way too much time (and money) chasing the perfect espresso shot. Before Sourcegraph, Jordan worked at Amazon for 6 years as a Software Engineer, Product Manager, and Engineering Manager.
+
+jordan_plahn_iam:
+  name: Jordan Plahn
+  pronouns: he/him
+  role: Engineering Manager, Identity and Access Management
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_iam
+  hide_on_team_page: true
 
 varun_gandhi:
   name: Varun Gandhi
@@ -1964,7 +1965,7 @@ pietro_rosa:
   location: Rovigo Italy, IT 🇮🇹
   role: Software Engineer
   links: '[LinkedIn](https://www.linkedin.com/in/pietrorosa77)'
-  reports_to: engineering_manager_iam_and_admin_exp
+  reports_to: engineering_manager_iam
   description: Pietro lives in a small city called [Rovigo](https://goo.gl/maps/bFK7n4quTGk5MJBu7) in Italy with his wife and 2 kids. Pietro previously worked in Microsoft, Auth0 and NearForm as a senior full stack engineer. He loves playing football ⚽ (nowadays only 5 aside letting the ball doing most of the job...), hiking 🥾 and wild mushrooms gathering 🍄.
 
 lindsay_murphy:
@@ -2019,7 +2020,7 @@ petri_last:
   name: Petri-Johan Last
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_iam_and_admin_exp
+  reports_to: engineering_manager_iam
   location: Stellenbosch, Western Cape, South Africa 🇿🇦
   github: pjlast
   pronunciation: '[pɪətʁɪ lɑst](http://ipa-reader.xyz/?text=p%C9%AA%C9%99t%CA%81%C9%AA%20l%C9%91st&voice=Joey)'
@@ -2114,7 +2115,7 @@ michelle_veronese:
   github: miveronese
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_iam_and_admin_exp
+  reports_to: engineering_manager_iam
   location: Fremont, CA, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/michelleveronese)'
   description: Michelle lives in the San Francisco Bay Area with her husband, Herval, and Frodo, a shih tzu dog that loves adventures. She grew up in Brazil and, before becoming a software engineer, worked as a journalist. In her free time, she likes reading, hiking and cooking Northeastern Brazilian recipes such as cuscuz and tapioca.
@@ -2462,16 +2463,6 @@ rakesh_joshi:
   links: '[LinkedIn](https://www.linkedin.com/in/rakesh-joshi-62a56416)'
   description: Rakesh is an application support engineer who love solving customer problems, exploring new places, meeting new people and learning from them. He lives in Melbourne, Australia with his wife and 7 year old son.
 
-maxim_pimenov:
-  name: Maxim Pimenov
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_search_core
-  location: Moscow, Russia 🇷🇺
-  github: mpimenov
-  email: maxim.pimenov@sourcegraph.com
-  description: Prior to Sourcegraph, Maxim helped building the best mobile app for offline maps. Apart from programming at work, he enjoys programming during his spare time.
-
 nathan_downs:
   name: Nathan Downs
   email: nathan.downs@sourcegraph.com
@@ -2662,3 +2653,23 @@ alex_mathison:
   name: Alex Mathison
   role: Senior People Partner
   reports_to: director_people
+
+chris_concannon:
+  name: Chris Concannon
+  pronouns: he/him/his
+  location: San Francisco, CA, USA 🇺🇸
+  role: Senior Customer Engineer
+  reports_to: vp_customer_engineering
+  email: chris.concannon@sourcegraph.com
+  github: cconcannon
+  links: '[LinkedIn](https://www.linkedin.com/in/csconcannon), [Website](https://blog.concannon.tech)'
+  description: 'Chris lives in San Francisco 🌁 with his wife and their dog. He has a biomedical engineering degree from Duke University, and he spent several years as a clinical medical device professional before he became a software developer. Chris is an avid trail runner, and he thinks that running up a mountain at sunrise is the best way to start a day. He also enjoys skiing, backpacking, cycling, traveling, riding his motorcycle, and indulging in the fabulous local food, wines, and beers of the Bay Area.'
+
+tom_pinckney:
+  name: Tom Pinckney
+  role: Head of Business Development
+  location: San Francisco, CA
+  reports_to: vp_sales
+  email: tom.pinckney@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
+  description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
