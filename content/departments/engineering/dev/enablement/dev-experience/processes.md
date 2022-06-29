@@ -22,7 +22,7 @@ When planning work, the [relevant work lead](#work-leads) should:
 - Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../process/tracking_issues.md). The tracking issue description should have the following:
   - **Problem**: Articulate the problem space and requirements.
   - **Scope**: Scope the work so that it can be completed in a single bet cycle, identifying:
-    - **Boundaries**: Define the focus areas for the work and what work is explicitly out of scope.
+    - **Boundaries**: Define what work is within the scope and what work is explicitly out of scope. (Out-of-scope boundaries, or "non-goals", are worth writing down and they help prevent scope creep.)
     - **Definition of done**: the desired end state that needs to be achieved for a work item to be considered "done", in addition to:
       - a [rollout strategy](#rollout-strategy)
       - "non-functional requirements" such as testing, monitoring, and documentation
