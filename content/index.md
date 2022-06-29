@@ -98,9 +98,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Sales strategy & operations](departments/sales/sales-ops/index.md)
 
-### [Business Operations & Strategy](departments/bizops/index.md)
+### [Data & Analytics](departments/bizops/index.md)
 
-- [Data and Analytics](departments/bizops/data-analytics.md)
+- [Data & Analytics](departments/bizops/data-analytics.md)
   - [Analytics](departments/bizops/analytics/index.md)
   - [Data Engineering](departments/bizops/data-engineering/index.md)
 
