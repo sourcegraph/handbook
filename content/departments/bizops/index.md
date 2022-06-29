@@ -9,8 +9,6 @@ The Data & Analytics team is made up of Data Analytics, and Data Engineering. Th
   - [Analytics](analytics/index.md)
   - [Data Engineering](data-engineering/index.md)
 
-- [Business Operations (BizOps)](business-operations/index.md)
-
 ## Members
 
 {{generator:reporting_structure.director_data_analytics}}
