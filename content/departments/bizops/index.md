@@ -1,6 +1,6 @@
-# Business Operations & Strategy
+# Data & Analytics
 
-The Business Operations & Strategy (BizOps) team is made up of Business Operations, Data Analytics, and Data Engineering. This page contains information that is relevant to the whole company, and each of the links below will take you to subteam-specific information. As the Analytics and Engineering functions are further built out, this page will contain information for all of business operations and strategy and the functional specific pages will contain information for each area.
+The Data & Analytics team is made up of Data Analytics, and Data Engineering. This page contains information that is relevant to the whole company, and each of the links below will take you to subteam-specific information. As the Analytics and Engineering functions are further built out, this page will contain information for all of business operations and strategy and the functional specific pages will contain information for each area.
 
 ## Functional areas
 
