@@ -126,7 +126,7 @@ Finally, remember Slack is _not_ a source of truth. Something said or mentioned 
 
 ### Workshops
 
-The design team has a framework for running [large, async workshops](../../departments/engineering/product/design/workshops/async-design.md) that could be adapted to other purposes.
+The design team has a framework for running [large, async workshops](../../departments/engineering/design/workshops/async-design.md) that could be adapted to other purposes.
 
 ### When to use sync meetings
 

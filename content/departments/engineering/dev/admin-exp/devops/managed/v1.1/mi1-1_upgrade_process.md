@@ -76,11 +76,13 @@ Upgrade the deployment. At a high level, this will perform the following steps
 mg --customer $CUSTOMER upgrade --target $VERSION
 ```
 
-(Optional) If the instance has executors enabled, make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
+(Optional) If the instance has executors enabled (search for `enable_executors = true` in `$CUSTOMER/terraform.tfvars`), make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
 
 > You should be expecting some `replacement` on the executors docker-mirror compute instance and the instance group
 
 ```sh
+# Found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>
 terraform apply
 ```
 
