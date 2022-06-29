@@ -1,7 +1,15 @@
 # Opsgenie
 
-Our current on-call alerting system is run via Opsgenie. This system will send notifications via voice call, SMS, email, and Slack.
+Our current [on-call](../../process/incidents/on_call.md) alerting system is run via Opsgenie. This system will send notifications via voice call, SMS, email, and Slack.
 Teams at Sourcegraph that have production systems where they need to alerted to potential issues should have an Opsgenie rotation.
+
+## Accessing Opsgenie
+
+Access to Opsgenie is granted automatically to all Engineering teammates and you may login with your [OKTA](../../../../tech-ops/tools/Okta/main.md) credentials at https://sourcegraph.app.opsgenie.com/.
+
+> EM should have the `Admin` role
+
+After logging in to Opsgenie for the first time, work with your EM to join a team and participate in the rotation.
 
 ## Creating an Opsgenie team
 
