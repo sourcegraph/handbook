@@ -35,7 +35,7 @@ Take the first 20–30 minutes of the session to have an unstructured, introduct
 
 - What problem is your teammate trying to solve?
 - Why is that problem important? What team goal does it fit under?
-- What are relevant [RFCs](../../../../company-info-and-process/communication/rfcs/index.md), [PDs](../../product/process/product_documents.md), GitHub issues or documentation pages?
+- What are relevant [RFCs](../../../../company-info-and-process/communication/rfcs/index.md), [PDs](../../product/process/prioritize_and_build/product_documents.md), GitHub issues or documentation pages?
 - What parts of our codebase need to be changed to solve this problem?
 - How will we test the code being changed?
 - Will there be future work needed after solving this problem? How could you contribute?
@@ -50,7 +50,7 @@ We have many resources available to help you onboard and gain context:
 - To complement the architecture overview docs, watch the [architecture video (10 minutes)](https://www.youtube.com/watch?v=LiBtt1IeqFY).
 - Read through the rest of the engineering handbook to learn more about how we operate.
 - Read how we choose and continually update our [goals](../../../../strategy-goals/goals/index.md).
-- Read how we collaborate with design to [request or implement design work](../../product/design/index.md#working-with-design-requesting-design-work).
+- Read how we collaborate with design to [request or implement design work](../../design/index.md#working-with-design-requesting-design-work).
 - Watch this [high-level overview of the Sourcegraph codebase and repositories on Github (13 minutes)](https://www.youtube.com/watch?v=3OewJAaX4KI).
 - Read our [Testing Principles](https://docs.sourcegraph.com/dev/background-information/testing_principles) to learn how we think about testing. Reading this makes sure you know what others on the team are referring to when we refer to certain types of tests.
   - More concrete documentation and troubleshooting help for when you're running, writing or debugging your first tests can be found in the dev docs page [Testing the Sourcegraph main repo](https://docs.sourcegraph.com/dev/how-to/testing). This is mainly as reference (you don't need to read this all now) but useful information to have in hand.

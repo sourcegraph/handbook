@@ -1,6 +1,6 @@
 # The #feedback-dogfood channel
 
-The #feedback-dogfood channel is a community focused on [surfacing](../product/process/surfacing_product_feedback.md), discussing, and acknowledging product feedback and use cases from Sourcegraph teammates.
+The #feedback-dogfood channel is a community focused on [surfacing](../product/process/feedback/surfacing_product_feedback.md), discussing, and acknowledging product feedback and use cases from Sourcegraph teammates.
 "Dogfood" refers to using a product we build (in this case, Sourcegraph products) in our workflows.
 
 Our company is made of developers building developer tools.
