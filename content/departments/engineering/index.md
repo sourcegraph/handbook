@@ -4,7 +4,7 @@ The Engineering department at Sourcegraph consists of 4 functions:
 
 - [Development](dev/index.md)
 - [Product Management](product/index.md)
-- [Design](product/design/index.md)
+- [Design](design/index.md)
 
 We work together to build a product that developers love and that solves big problems for our customers.
 

@@ -46,7 +46,7 @@ A [detailed page about issues](./working-with-issues.md) is available.
 
 To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues:
 
-- [Product Documents](../product/process/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
+- [Product Documents](../product/process/prioritize_and_build/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
   - See also the [product process](../product/process/index.md).
 - [Request For Comments](../../../company-info-and-process/communication/rfcs/index.md) to communicate around specific problems and make decisions.
 
@@ -58,11 +58,11 @@ The flow starts with a GitHub issue that will be the single source of truth for 
 
 Designing at Sourcegraph starts with a design document: a PD, an RFC or simply a description in the GitHub issue.
 
-The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../product/design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
+The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
-When a RFC or PD reaches the [REVIEW](../product/process/product_documents.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
+When a RFC or PD reaches the [REVIEW](../product/process/prioritize_and_build/product_documents.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
 
-A detailed version of the [design process](../product/design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
+A detailed version of the [design process](../design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
 
 ### Implementation
 
