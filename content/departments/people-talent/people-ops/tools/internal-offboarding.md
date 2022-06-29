@@ -115,7 +115,7 @@ This team is only involved if the teammate leaving is a US employee.
 
 Information they need:
 
-- Are they getting COBRA coverage and for how long
+- Are they getting Sourcegraph paid COBRA and for how long
 - Departure day and pay through date
 - Are they getting severance
 
