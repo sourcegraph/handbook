@@ -1,4 +1,4 @@
-**Sourcegraph Paid Parental Leave Policy**
+# Sourcegraph Paid Parental Leave Policy
 
 —----------------------------------------------------------—----------------------------------------------------------—--------------
 
