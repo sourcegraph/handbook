@@ -189,7 +189,7 @@ Tasks:
 - Deactivate accounts
 - Lock and remotely wipe the device using Workspace One
 - Sending a box and label to the person’s home address to ship back their laptop
-- If the computer is older than a year and the person wants to purchase it: coordinate that. Instructions can be found [here](https://handbook.sourcegraph.com/departments/tech-ops/process/buyback/).
+- If the computer is older than a year and the person wants to purchase it: coordinate that. Instructions can be found [here](../../../tech-ops/process/buyback.md).
 
 ## Severance agreements
 
