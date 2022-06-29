@@ -151,7 +151,7 @@ For team members taking >2 weeks of leave
 - Family planning resources:
   - We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth, adoption or placement of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing). Please submit any family planning related receipts directly into Airbase, just as you would for any other reimbursement. Receipts for any expense over $25 are required.
 - [Modern Health](https://circles.modernhealth.com/): our mental health platform, Modern Health, has resources for current & future parents:
-  - [Developing Parenting Skills](r)
+  - [Developing Parenting Skills](https://my.joinmodernhealth.com/topic/develop-parenting-skills)
   - [Building Family Resilience](https://my.joinmodernhealth.com/program/building-family-resilience)
   - [Covid-19 Conversations with Kids](https://my.joinmodernhealth.com/program/covid-19-conversations-with-kids)
   - [Helping Kids Cope with Stress](https://my.joinmodernhealth.com/program/helping-kids-cope-with-stress)
