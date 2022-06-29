@@ -71,7 +71,7 @@ There are just a few places where a review is required; these should include you
 - Updates on feature deprecation
 - Speaking to press
 
-Unless the change is extremely wide in impact (a large about site update, a major press outlet, or a major pricing change), you do not need to continue blocking on marketing or product director review after 3 full business days have passed from the review request. Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../../process/cross-team-collab.md).
+Unless the change is extremely wide in impact (a large about site update, a major press outlet, or a major pricing change), you do not need to continue blocking on marketing or product director review after 3 full business days have passed from the review request. Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-team-collab.md).
 
 ## Tools/Templates
 
@@ -107,7 +107,7 @@ There is also a [company-wide glossary of terms](../../../../company-info-and-pr
 
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
-Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-org-team-collab.md).
+Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-team-collab.md).
 
 ### Executive decisions
 
