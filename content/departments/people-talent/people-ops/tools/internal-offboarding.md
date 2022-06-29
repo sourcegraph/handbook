@@ -8,7 +8,7 @@ We use Process St as our offboarding tool. There are several teams involved in t
 
 ### Kicking off the process
 
-Once we are certain someone is leaving us (be it voluntarily, involuntarily, or through mutual separation) the People Partner responsible for that department will go to the Offboarding workflow in Process St and click on **_Run Workflow_**. This will create a new one using the Offboarding template. The naming convention for a workflow is: “First + Last name + Offboarding”
+Once we are certain someone is leaving us (be it voluntarily, involuntarily, or through mutual separation) the [People Partner responsible for that department](../index.md#people-partner-alignment) will go to the Offboarding workflow in Process St and click on **_Run Workflow_**. This will create a new one using the Offboarding template. The naming convention for a workflow is: “First + Last name + Offboarding”
 
 ### Teammate information
 
@@ -91,7 +91,7 @@ There are different tasks managers need to complete when a teammate is offboardi
 
 ### Communication
 
-Announce the departure to the team and in the different channels. Here’s the [departure announcement protocol](https://handbook.sourcegraph.com/company-info-and-process/communication/announcements/#departures).
+Announce the departure to the team and in the different channels. Here’s the [departure announcement protocol](../../../../company-info-and-process/communication/announcements.md#departures).
 
 ### Handbook
 
