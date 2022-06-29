@@ -1,23 +1,3 @@
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 1.507 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Tue Jun 28 2022 15:58:04 GMT-0700 (PDT)
-* Source doc: Use this version: WIP Parental Leave
------>
 
 **Sourcegraph Paid Parental Leave Policy**
 
@@ -34,7 +14,7 @@ We support teammates at all stages of life, including during family planning. Pr
 Sourcegraph ensures you are paid 100% of your salary for up to 16 weeks per birth, adoption or placement event, covering the difference between any country or state-sponsored benefits and your full salary. (Teammates must sign up for any country or state-sponsored leave benefits if available.)
 _Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section.](#Commission-payout-and-quota-relief)_
 
-- **Adoption- or Foster-placement leave** may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding.
+- **Adoption or Foster-placement leave** may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding.
 - **Leave preceding the birth of the child** is available to teammates as PTO, medical leave or statutory maternity benefits (dependent on location) . This is an additional benefit on top of the paid parental leave policy, which ensures up to 16 weeks of paid leave after the birth event. The People Team is available to consult on options for pre-birth and disability leave policies.
 - **Sourcegraph provides leave after pregnancy loss.** Contact your People Partner for assistance.
 - Paid parental leave can be used for the birth, adoption, or foster care placement of a child, within the 12 months immediately following the qualifying event (your child’s birth, adoption finalization, or placement).
