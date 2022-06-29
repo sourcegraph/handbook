@@ -59,7 +59,7 @@ DRIs are responsible for:
 
 The exec sponsors are responsible for:
 
-- Supporting the DRI in securing and aligning resources and removing bottlenecks
+- Supporting the DRI in securing and aligning internal resources and removing bottlenecks
 - Supporting escalations as needed
 - Attend all company goal working group meetings
 - Act as an exec team liaison to ensure appropriate insight and alignment to other projects, initiatives, or programs
