@@ -59,7 +59,7 @@ There are also several related resources:
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../departments/engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/engineering/design/product_design_principles.md).
 
 ### Assumptions
 
