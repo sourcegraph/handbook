@@ -24,7 +24,6 @@ You can find resources on how to use each of the main tools [here](../../../comp
 5. Click the image, then click **Link** and paste https://sourcegraph.com into the **Web Address** field. Now your image links to the website!
 6. Your signature should now look something like the one above, and clicking the Sourcegraph logo should bring you to sourcegraph.com.
 
-
 ### Google Calendar
 
 - [Add your working hours to Google Calendar](https://calendar.google.com/calendar/r/settings) so your teammates know when it is safe to add meetings to your calendar.
