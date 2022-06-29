@@ -6,6 +6,7 @@ Our mission is to provide the fastest, most seamless way for development teams t
 
 ## Teams
 
+- [Admin Analytics Tiger Team](./admin-analytics/index.md)
 - [IAM](./iam/index.md): TBD
 - [Security](./security/index.md) ensures _proactive Security_ on our platform
 - [Integrations](./integrations/index.md) is bringing the value of Sourcegraph _closer to our users_
