@@ -45,6 +45,10 @@ The product team takes on special initiatives that are not strictly tied to prod
 
 To create a new initiative, go to the [new issue screen](https://github.com/sourcegraph/engineering-tracker/issues/new/choose) for the [engineering-tracker repo](https://github.com/sourcegraph/engineering-tracker) and choose `Product Initiative`; this will ensure it gets the correct label to be included in the search above.
 
+## Product/design sync
+
+The product and design team meets weekly to discuss the most important cross-team product topics that need synchronous conversations. See the [logistics and working agreements](product-design-sync.md).
+
 ## References
 
 - [Beta and experimental feature labels](process/gtm/beta_and_experimental_feature_labels.md)
