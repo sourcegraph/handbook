@@ -42,22 +42,16 @@ We prioritize different typefaces for our product interface. For the purposes of
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem">
   <div style="flex: 1 1 0">
-    <h3>Extra Light and SemiBold</h3>
+    <h3>Light and SemiBold</h3>
     <p>
-      Headlines help readers locate the info they need, and facilitate scanning. We use the Extra Light weight at larger sizes.
-      H1 should always be set in Extra Light.
-      H2 should be set in Extra Light when by itself.
-      When it operates as a sub-headline it should be set in SemiBold. Sub-headlines are situations where a second headline is placed in close proximity to the main headline.
-      Using different weights supports contrast and hierarchy.
-      Sub-headlines should not occur at levels below H3.
-      We use SemiBold for the rest of the headline levels.
+      Headlines help readers locate the info they need, and facilitate scanning. We use the Light weight at larger sizes within slide decks and downloadable assets and SemiBold for all other applications.
     </p>
     <h3>Relative sizing</h3>
     <p>The approximate point size of each headline level will change according to the format and
     size of each design, however, relative sizing should resemble the examples to the right.</p>
     <h3>Tone of voice</h3>
     <p>
-      Headlines should be set in sentence case—never all caps.
+      Headlines should be set in sentence case—never all caps (except for overlines).
       We do not want to be perceived as yelling at our audience.
       Initial caps create visual “speed bumps” for readers and should be avoided.
       Use punctuation sparingly; we recommend using em dashes over commas, avoiding exclamation points, and omitting periods in headlines unless preceded by other punctuation.
@@ -65,13 +59,12 @@ We prioritize different typefaces for our product interface. For the purposes of
     </p>
   </div>
   <div style="white-space: nowrap; padding: 2rem" class="bg-light-gray">
-    <p><span style="font-size: 64px; font-weight: 200">Headline 1</span> 64 px</p>
-    <p><span style="font-size: 48px; font-weight: 600">Sub Headline 2</span> 48 px</p>
-    <p><span style="font-size: 48px; font-weight: 200">Headline 2</span> 48 px</p>
-    <p><span style="font-size: 30px; font-weight: 600">Sub Headline 3</span></p>
-    <p><span style="font-size: 30px; font-weight: 600">Headline 3</span> 30 px</p>
+    <p><span style="font-size: 52px; font-weight: 600">Headline 1</span> 52 px</p>
+    <p><span style="font-size: 40px; font-weight: 600">Headline 2</span> 40 px</p>
+    <p><span style="font-size: 30px; font-weight: 400">Headline 3</span> 30 px</p>
     <p><span style="font-size: 24px; font-weight: 600">Headline 4</span> 24 px</p>
     <p><span style="font-size: 24px; font-weight: 600">Headline 5</span> 20 px</p>
+    <p><span style="font-size: 28px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em">Headline 6 (overline)</span> 18 px</p>
   </div>
 </div>
 
@@ -87,7 +80,7 @@ We recommend setting body copy at 12/16pt. This is optimal for layouts with quic
 
 ### Web
 
-For web designs we recommend going slightly larger in type size at 16px and line-height at 1.5em. Larger type and looser line-height ensures readability.
+For web designs we recommend going slightly larger in type size at 16px and line-height at 140%. Larger type and looser line-height ensures readability.
 
 ## Code
 
@@ -125,7 +118,7 @@ Layout is just as crucial as hierarchy to effective communication. Whether digit
 
 ### Use a grid or columns
 
-Layouts should use a grid or columns to help organize material and make information feel open and organized. An underlying structure with multiple columns can be used to delineate primary content from secondary content, as well as make sure line lengths don’t get too long.
+Layouts should use a grid or columns to help organize material and make information feel open and organized. An underlying structure with multiple columns can be used to delineate primary content from secondary content, as well as make sure line lengths don’t get too long. View our website grids [Here](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Marketing-DLS?node-id=7313%3A48101).
 
 ### Line length
 
