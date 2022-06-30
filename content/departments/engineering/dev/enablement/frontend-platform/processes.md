@@ -55,13 +55,11 @@ We use OpsGenie to manage a support rotation that changes weekly. The person on-
 
 #### Handling CI assistance requests
 
-If the `@frontend-platform-support`’s assistance was requested in one of the CI issues, this request should be handled in one of the following ways:
+If `@frontend-platform-support` is pinged for a CI issue, the teammate on rotation should ask the person requesting help [to determine](https://docs.sourcegraph.com/dev/how-to/testing#assessing-flaky-client-steps) whether or not the issue is due to a flaky test and [to disable it](https://docs.sourcegraph.com/dev/background-information/ci#flaky-tests) if so.
 
-1. The reported CI issue is fixed with a PR created by the Frontend Platform team.
-2. A GitHub issue is created with the `team/frontend-platform` label to investigate the root cause of the CI issue.
-3. The assistance request is forwarded to another team owning the area of the CI issue.
+Otherwise, the teammate on rotation should resolve the problem with a PR from the Frontend Platform team or create an issue and assign it to the appropriate owner.
 
-This process aims to _always_ have a solution or artifact for a reported problem to avoid bumping into the same CI issues in the future.
+This process aims to _always_ have a solution or artifact for a reported problem so that we can avoid the same CI issues in the future.
 
 ### Technical lead
 
