@@ -92,7 +92,7 @@ delivery:
   brief: Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides.
   strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
   pm: brienne_mcnally
-  em: crystal_augustus
+  em: sanjeev_sekar
   issue_labels:
     - team/delivery
 
