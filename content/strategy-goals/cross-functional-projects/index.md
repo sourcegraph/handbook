@@ -12,25 +12,37 @@ When it comes down to it, OKRs are a tool, and not all tools work for every job.
 - Failed to create meaningful and measurable KRs that can be achieved within the quarter
 - Failed to drive meaningful progress or tangible outcomes towards achieving company goals and strategy since the adoption of OKRs
 
-By shifting to more project-based work, we hope to see more tangible, meaningful and impactful outcomes four our company goals and strategy.
+By shifting to more project-based work, we hope to see more tangible, meaningful and impactful outcomes for our company goals and strategy.
 
 ## How are cross-functional projects different from OKRs?
 
-### 1. Cross-functional projects are project-based and focused on tangible outcomes
+1. Cross-functional projects are project-based and focused on tangible outcomes
 
-No more “meta” objectives that lead to a lack of accountability, ill-defined outcomes, and spurious measures of success.
+   - No more “meta” objectives that lead to a lack of accountability, ill-defined outcomes, and spurious measures of success.
 
-### 2. Cross-functional projects are not bound by arbitrary quarterly cycles
+2. Cross-functional projects are not bound by arbitrary quarterly cycles
 
-Cross-functional projects should target short-to-medium term deliverables (roughly 1 - 2 quarters) and can be spun up / elevated or deprioritized as needed. This will shift our focus from asking “what can we do within this quarter” to “what should we do to drive the most impact in as short a time as possible?”
+   - Cross-functional projects should target short-to-medium term deliverables (roughly 1 - 2 quarters) and can be spun up / elevated or deprioritized as needed.
+   - This will shift our focus from asking “what can we do within this quarter” to “what should we do to drive the most impact in as short a time as possible?”
 
-### 3. Cross-functional projects are focused on dynamic cross-functional teamwork
+3. Cross-functional projects are focused on dynamic cross-functional teamwork
+   - We will no longer waste time trying to carve our specific roles for each department and align them to Objectives and Key Results.
+   - Sometimes departments aren’t involved in really important projects and that’s OK.
+   - Instead, we will leverage working groups and entrust those teams to include the appropriate teams and make the best decisions for the overall success of each project.
 
-We will no longer waste time trying to carve our specific roles for each department and align them to Objectives and Key Results. Sometimes departments aren’t involved in really important projects and that’s OK. Instead, we will leverage working groups and entrust those teams to include the appropriate teams and make the best decisions for the overall success of each project.
-
-## Accountability and cross-functional projects
+## Expectations, Roles, and Responsibilities
 
 Each cross-functional project has a DRI and Executive Sponsor who are ultimately accountable for the success or failure of the project.
+
+These projects are designed to be shut down and therefor must be self-sustaining after completion.
+
+### Expectations
+
+Each project must have a clear:
+
+- Problem that needs to be solved that betters the experience of our customers, company, or sourcegraph teammates
+- Measureable, trackable and self-sustaining solution
+- Set of 'exit criteria' that clearly indicate when the project has reached its conclusion
 
 ### Directly Responsible Individuals (DRIs)
 
@@ -45,9 +57,9 @@ DRIs are responsible for:
 
 ### Executive Sponsors
 
-The exec team member who is sponsoring the project is responsible for:
+The exec sponsors are responsible for:
 
-- Supporting the DRI in securing and aligning resources and removing bottlenecks
+- Supporting the DRI in securing and aligning internal resources and removing bottlenecks
 - Supporting escalations as needed
 - Attend all company goal working group meetings
 - Act as an exec team liaison to ensure appropriate insight and alignment to other projects, initiatives, or programs
@@ -55,32 +67,68 @@ The exec team member who is sponsoring the project is responsible for:
 
 # Reporting Cadence and Updates
 
-Each cross-function DRI and Exec Sponsor is expected to submit a weekly update on the overall state of the project by COB (12:00am UTC) every Friday.
-Content / information to include:
+Philosophically, we will try for a 90/10 percent split between asynchronous and synchronous updates and communication.
+
+## Asynchronous Updates:
+
+### Weekly reports
+
+#### When:
+
+Submitted every Friday COB (12:00am UTC)
+
+#### Who:
+
+Exec Sponsor / DRI / Appropriate cross-functional project teammate
+
+#### What:
+
+A Google doc that includes ([link to template](https://docs.google.com/document/d/1uT6-2w7Pv8rXA4F-azZ7Ual_pN0XZZQMAksDcalO54w/edit#heading=h.92d75u96bh28))
 
 - A summary of the week's work / color commentary on the project as a whole.
-- Update on the status of the project (Red / Yellow / Green).
-- What went well this week?
-- Action plan for next week?
+  - Update on the status of the project (Red / Yellow / Green).
+  - What went well this week?
+  - Action plan for next week?
 
-This should be shared in the #cross-functional-projects slack channel. Please submit your updates as:
+#### Where:
 
-- '[_project name_] - Weekly update (yyyy-mm-dd)'
-- Please include in additional supporting content / documentation as a thread
+- Handbook page
+  - Make updates to this page as necessary / needed.
+- #cross-functional-projects slack channel
+  - Links to supporting documentation and with high-level summary submitted
+
+## Synchronous Updates:
+
+### Twice-weekly standups
+
+#### When:
+
+Every Monday and Friday. Time is based on team availability.
+
+#### Who:
+
+Exec Sponsor / DRI / Appropriate cross-functional project teammate
+
+#### What:
+
+A highly tactical conversation based on the supplied weekly report. Topics include
+
+- How to overcome bottlenecks / blockers
+  - Highlighting key milestones
+  - Running through specific tasks expected to be completed this week and next.
+- Where: Zoom meeting scheduled by EBP to CEO
 
 # Current cross-functional projects
 
-| Project Name                                        |                  Engaged Departments                   |     DRI     |  Exec Sponsor  | Description |
-| :-------------------------------------------------- | :----------------------------------------------------: | :---------: | :------------: | :---------- |
-| Deliver a world class admin experience              |                 engineering, sales, CE                 | Aimee Menne |  Aimee Menne   |             |
-| Launch code security for security teams             |                 engineering, sales, CE                 | Malo Marrec |  Quinn Slack   |             |
-| Create a strategic segment operating model          |                 sales, CE, ops, people                 |     ???     |  Gregg Stone   |             |
-| Enhance customer success and health operating model |                       sales, CE                        |     ???     |  Aimee Menne   |             |
-| Kickstart demand generation and content engine      |                 sales, marketing, ops                  |     ???     |  Gregg Stone   |             |
-| Create new performance management culture           | ops, sales, CE, engineering, talent, people, marketing |     ???     |  Carly Jones   |             |
-| Make cloud the preferred deployment method          |           engineering, sales, CE, marketing            |     ???     |  Quinn Slack   |             |
-| Achieve SOC2 type 2 certification                   |               security, ops, engineering               |     ???     |  Quinn Slack   |             |
-| Revamp pricing and packaging                        |         sales, CE, ops, engineering, marketing         |     ???     |  Gregg Stone   |             |
-| Improve our data collection                         |                    engineering, ops                    |     ???     |   Dan Adler    |             |
-| Create operational reviews                          | ops, sales, CE, engineering, talent, people, marketing |     ???     | Connor O'Brien |             |
-| Fix self-hosted deployment                          |                        Eng, CE                         |     ???     |   Beyang Liu   |             |
+| Project Name                                        |                  Engaged Departments                   |        DRI        |  Exec Sponsor  | Description                                                                                                                                                                                          |
+| :-------------------------------------------------- | :----------------------------------------------------: | :---------------: | :------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Deliver a world class admin experience              |                 engineering, sales, CE                 |    Aimee Menne    |  Aimee Menne   | Make it so our customers have the best experience and get the most value and benefit of Sourcegraph as quickly as possible by streamlining the deployment and maintenance of Sourcegraph for admins. |
+| Create a strategic segment operating model          |              sales, CE, ops, people, eng               |   Ajay Uppaluri   |  Gregg Stone   |                                                                                                                                                                                                      |
+| Enhance customer success and health operating model |                     sales, CE, eng                     |    Aimee Menne    |  Aimee Menne   |                                                                                                                                                                                                      |
+| Kickstart demand generation and content engine      |   sales, community, product marketing, CE, ops, eng    |     Nick Gage     |  Gregg Stone   |                                                                                                                                                                                                      |
+| Create new performance management culture           | ops, sales, CE, engineering, talent, people, marketing |    Carly Jones    |  Carly Jones   |                                                                                                                                                                                                      |
+| Make cloud the preferred deployment method          |           engineering, sales, CE, marketing            | Rafal Leszczynski |  Quinn Slack   |                                                                                                                                                                                                      |
+| Achieve SOC2 type 2 certification                   |               security, ops, engineering               |    Diego Comas    |  Quinn Slack   |                                                                                                                                                                                                      |
+| Revamp pricing and packaging                        |         sales, CE, ops, engineering, marketing         |  Connor O'Brien   |  Quinn Slack   |                                                                                                                                                                                                      |
+| Improve our data collection                         |                    engineering, ops                    |  Lauren Anderson  |   Dan Adler    |                                                                                                                                                                                                      |
+| Create operational reviews                          | ops, sales, CE, engineering, talent, people, marketing |  Connor O'Brien   | Connor O'Brien |                                                                                                                                                                                                      |

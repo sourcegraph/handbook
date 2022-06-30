@@ -83,14 +83,14 @@ delivery:
   title: Delivery
   strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
   pm: brienne_mcnally
-  em: crystal_augustus
+  em: sanjeev_sekar
   issue_labels:
     - team/delivery
 
 dev_experience:
   title: Dev Experience
   strategy_link: /strategy-goals/strategy/enablement/dev-experience
-  pm: taylor_sperry
+  pm: quinn_hare
   em: kristen_stretch
   issue_labels:
     - team/dev-experience

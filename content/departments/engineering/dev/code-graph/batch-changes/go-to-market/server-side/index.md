@@ -60,10 +60,12 @@ This is a free feature for all the customers of the Batch Changes add-on.
 
 Yes. You can track this [here](https://github.com/orgs/sourcegraph/projects/232)
 
-#### Running batch changes server-side on managed instances requires customers to self-host executors. How much work is that?
+#### Running batch changes server-side requires customers to self-host executors. How much work is that?
 
-Self-hosting executors requires customers to provision executors using Terraform modules (on AWS/GCP) and upgrade them monthly at each Sourcegraph release. While this is relatively automated, it still requires a commitment from the site-admin.
-In the current state, we should only offer this feature to self-hosted customers, and to managed instances customers with a clear need to run batch changes at a large scale.
+- Self-hosting executors requires customers to provision executors and upgrade them monthly at each Sourcegraph release. This requires some time from the site-admin.
+- We provide Terraform modules to install executors on AWS and GCP, making it relatively comfortable to spin them up and relatively automated to upgrade them. We also offer binaries that users can deploy wherever they want. See the [documentation](https://docs.sourcegraph.com/admin/deploy_executors) on what configuration is needed for each option.
+- In the current state, we should only offer this feature to self-hosted customers, and to managed instances customers with a clear need to run batch changes at a large scale.
+- Executors are also used for code-intel auto-indexing. While there's an initial time investment to install them, they power two very useful features.
 
 #### Will Sourcegraph provide managed executors for managed instances customers at some point?
 
@@ -72,3 +74,7 @@ Yes, this is on our long term roadmap.
 The main reason we're not offering managed executors today is that some usage patterns can generate meaningful compute costs, that we would need to bill for. This requires setting up a billing infrastructure and clearly defining the pricing model for executors. We are currently collecting customer feedback and usage data to inform this decision.
 
 The first iteration of managed executors for managed instance customers will likely be a free tier of usage, with a hard cap. All managed instances customers with the Batch Changes add-on will be able to run batch changes server-side up to a certain amount of monthly compute minutes. Once they exceed this amount, they will have to self-host executors. Also see [RFC 563 PRIVATE APPROVED: Executors pricing and billing for managed instances](https://docs.google.com/document/d/1g267ZD0veHKWDeM3GlzpwRGIRrAsDDIXt4Vh7vVvG18).
+
+#### Do we have server-side pings?
+
+Yes, but not yet available in Looker ([#sourcegraph/analytics/issues/489](https://github.com/sourcegraph/analytics/issues/489))
