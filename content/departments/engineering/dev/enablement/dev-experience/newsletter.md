@@ -15,7 +15,7 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ## TODO idea: top N flakes disablers
 
-IDEA: Shoutouts to ... who disabled flakes ... 
+IDEA: Shoutouts to ... who disabled flakes ...
 
 ## `sg` goodies
 
