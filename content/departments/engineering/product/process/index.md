@@ -8,6 +8,7 @@ This page contains information that is relevant for how to do well at your job a
 See [principles](product_principles.md) for our core beliefs in how we build products
 
 ### Strategy
+
 See [strategy](../../../../strategy-goals/index.md)
 
 #### Use case sponsorship
