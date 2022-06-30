@@ -13,6 +13,10 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
+## TODO idea: top N flakes disablers
+
+IDEA: Shoutouts to ... who disabled flakes ... 
+
 ## `sg` goodies
 
 TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
