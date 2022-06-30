@@ -33,9 +33,11 @@ _Note: References to fully-paid parental leave in this policy for non-commission
 
 **Step 1:** Notify your Manager & the People Team
 
-- Teammates planning to take parental leave should begin discussions with their Manager & the People Team **no later than** 1 month prior to the expected leave start date.
-- Please work with your Manager to discuss your parental leave date and return-to-work date so that you can both plan for your absence in advance.
-- Please notify the People Team via email ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) with answers to the following questions.
+Teammates planning to take parental leave should begin discussions with their Manager & the People Team **no later than** 1 month prior to the expected leave start date.
+
+Please work with your Manager to discuss your parental leave date and return-to-work date so that you can both plan for your absence in advance.
+
+Please notify the People Team via email ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) with answers to the following questions.
 
 1. What date are you planning on starting your leave?
 2. Are you a birthing caregiver or non-birthing caregiver?
@@ -44,19 +46,21 @@ _Note: References to fully-paid parental leave in this policy for non-commission
 5. Will you be taking your leave consecutively or non-consecutively? If non-consecutively, how do you plan on structuring your leave?
 6. Are there any questions or concerns you have for the People Team regarding your leave?
 
-- Once you’ve notified the People Team via email, someone will follow up with next steps:
+Once you’ve notified the People Team via email, someone will follow up with next steps:
+
 - **US Teammates:** someone on the People Team will reach out to you to initiate your onboarding with [Sparrow](https://trysparrow.com/), our leave management platform that helps guide teammates through the parental leave process. Your Sparrow contact will be your main point of contact during your leave and will help you manage all your leave related inquiries. Once we input your information, the Sparrow team will follow up directly with you to set up an introduction call in order to prepare you for your leave.
 - **Contractor Teammates**: someone on the People Team will reach out to you and will work with you to prepare for your upcoming parental leave.
 - **PEO Teammates:** one of our People teammates will work with your PEO to gather information on the parental leave process and requirements for your specific country and will work with you to prepare for your upcoming parental leave.
 
 **Step 2:** Log your parental leave
 
-- Once you’ve communicated and confirmed your leave dates with the People Team and your Manager, please use [Roots](https://www.tryroots.io/pto) (select the Parental Leave category) to record your leave and return-to-work dates
-  - We understand that your Leave dates may change, so you can adjust your Roots dates at a later date if needed.
+Once you’ve communicated and confirmed your leave dates with the People Team and your Manager, please use [Roots](https://www.tryroots.io/pto) (select the Parental Leave category) to record your leave and return-to-work dates
+
+We understand that your Leave dates may change, so you can adjust your Roots dates at a later date if needed.
 
 **Step 3:** Make your out of office plan & communicate it with your team
 
-- See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
+See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
 
 ## Commission payout and quota relief
 
@@ -107,8 +111,6 @@ For opportunities created after start of parental leave:
     - Deal remains with covering AE to maximize customer experience
     - AE on leave to receive 20% attainment credit & commissions for successful deal closure
     - Covering AE to receive 80% attainment credit & commissions for successful deal closure
-
-You will receive quota attainment for the duration of your Paid Parental Leave, which will be prorated based on the actual time you are on leave. Your quota does not change while you are on leave. Quota attainment is simply a record of attainment for the quarter and it does not equate to your actual quota payout. This is to ensure that attainment does not negatively impact the teammate's promotion eligibility and ability to hit accelerators.
 
 _For any period of leave &lt;2 weeks, please consult your manager._
 
