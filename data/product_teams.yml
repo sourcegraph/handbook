@@ -83,7 +83,7 @@ delivery:
   title: Delivery
   strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
   pm: brienne_mcnally
-  em: crystal_augustus
+  em: sanjeev_sekar
   issue_labels:
     - team/delivery
 
