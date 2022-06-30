@@ -6,7 +6,7 @@
 
 Product Principles are the fundamental values that we use to validate every action, decision, or move the product team makes.
 
-They compliment our Product Vision (where we want to go), Product Strategy (what we'll do) and our KPIs (have we been successful) by outlining how we'll get there.
+They complement our Product Vision (where we want to go), Product Strategy (what we'll do) and our KPIs (have we been successful) by outlining how we'll get there.
 
 ## Our Product Principles
 
