@@ -16,6 +16,7 @@ This page contains information that is relevant for how to do well at your job a
 - [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
 - [Learning](product_learning.md) - how we learn from what we shipped.
 - [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
+- [Principles](product_principles.md) - our core beliefs in how we build products
 
 ## Product data
 
