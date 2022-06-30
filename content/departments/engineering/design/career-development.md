@@ -108,50 +108,75 @@ To learn more about promotions, see ["Considerations for promotion" in our talen
     <!-- IC1 -->
     <tr>
       <th id="ic1" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic1"></a><abbr title="Individual Contributor">IC</abbr>1</th>
-      <td colspan="3" class="level-summary">An engineer focused on learning, growth, and establishing themselves as a contributing teammate.</td>
+      <td colspan="3" class="level-summary"><p>Entry level. Starting out in their career and needs guidance is most areas.</p>
+        <ul>
+          <li>Delivers assigned designs to solve known problems</li>
+          <li>Gets considerable amount of hands-on support</li>
+          <li>Learning to collaborate with their team triad</li>
+          <li>Actively learning across all areas</li>
+          <li>Focused on execution</li>
+          <li>Learning from their team triad</li>
+        </ul>
+      </td>
     </tr>
     <tr class="category-summaries-row">
       <td class="category-summary proficiency">
         <div class="wrapper">
-          Possesses and demonstrates core technical skills, while focusing on learning and improving in everything they do.
+          Learning what strategy is
         </div>
       </td>
       <td class="category-summary execution">
         <div class="wrapper">
-          Able to achieve positive outcomes on small well defined problems.
+          Should be able to execute on essential design skills
         </div>
       </td>
       <td class="category-summary teamwork">
         <div class="wrapper">
-          An engaged member of their team.
+          Learning how to be on a team
         </div>
       </td>
     </tr>
     <tr class="behaviors-row">
       <td class="behaviors proficiency">
         <ul>
-          <li>Contributes technical solutions to well-scoped tasks, with guidance.</li>
-          <li>Demonstrates the essentials needed to do work in their domain.</li>
-          <li>Reviews code for their teammates by asking questions and applying what they learned.</li>
-          <li>Integrates feedback from teammates to deliver high-quality solutions.</li>
-          <li>Increases their technical knowledge through reading, observing, and doing.</li>
+          <li>Understand your product</li>
+          <li>Know our competitors, their solutions, and gaps</li>
+          <li>Know Sourcegraph’s target customers and buyer personas</li>
+          <li>Know who’s using your product, their jobs, tasks, use cases, and goals</li>
+          <li>Know the strategy and vision for our company, product, your program, your group, and your team</li>
+          <li>Work toward the vision for your product area</li>
+          <li>Know the metrics and outcomes we aim for in your product area</li>
         </ul>
       </td>
       <td class="behaviors execution">
         <ul>
-          <li>Manages their own time and wellbeing, meeting commitments while finding balance and creating rest.</li>
-          <li>Asks for guidance in unfamiliar areas or for underspecified tasks. Speaks up if not comfortable with the scopes or timelines.</li>
-          <li>Exercises user empathy, whether their users are internal or external.</li>
-          <li>Recognizes when they’re blocked and asks for support.</li>
+          <li>Learn from team how to understand customer and business problems</li>
+          <li>Ask for and use existing research to inform your solutions</li>
+          <li>Learning about the fundamentals of system design</li>
+          <li>Talk to colleagues inside of your team affected by your work</li>
+          <li>Explore different ways to solve problems</li>
+          <li>Identify pros & cons, questions, implications</li>
+          <li>Use our design system</li>
+          <li>Follow fundamentals of good UI design</li>
+          <li>Seek support to conceptualize a hypothesis that will be tested through a prototype</li>
+          <li>Work closely with engineers to understand and work around constraints</li>
         </ul>
       </td>
       <td class="behaviors teamwork">
         <ul>
-          <li>Actively asks teammates questions to seek feedback and clarify, including cross-functionally (e.g. Design and Product).</li>
-          <li>Participates and demonstrates curiosity in team meetings.</li>
-          <li>Follows documented team processes and helps keep the handbook up-to-date.</li>
-          <li>Communicates empathetically.</li>
-          <li>Is flexible to change.</li>
+          <li>Know and learn to apply our Design principles</li>
+          <li>Understand and apply our company values</li>
+          <li>Actively look for opportunities to learn and develop</li>
+          <li>Build your self-awareness</li>
+          <li>Be optimistic and positive about growth opportunities</li>
+          <li>Build strong relationships within your team</li>
+          <li>Regularly communicate your work and status clearly and coherently</li>
+          <li>Provide rationale for your decisions</li>
+          <li>Actively seek feedback</li>
+          <li>Appreciate and consider all feedback with an open mind</li>
+          <li>Make every day count. Have a bias for effective action.</li>
+          <li>Learn to prioritize what’s important</li>
+          <li>Be part of representing design in your team</li>
         </ul>
       </td>
     </tr>
