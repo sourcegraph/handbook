@@ -4,19 +4,8 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
-- [Design workshops](../design/workshops/index.md)
-- [User research](user_research/index.md)
-- [Pricing](pricing.md) - how we decide what tier a feature goes in/how much an add-on feature costs.
-- [Tracking issues](../../dev/process/tracking_issues.md) - how we keep track of planned and on-going work.
-- [Prioritizing](prioritizing.md) - how we prioritize work, and how to get things prioritized.
-- [Surfacing feedback to the product team](surfacing_product_feedback.md)
-- [Tracking user & stakeholder feedback](user_stakeholder_feedback.md) - sources of feedback and how we keep track of that feedback.
-- [The product feedback rotation](product_feedback_rotation.md) - how we respond to user feedback for the feedback channels the product team owns.
-- [New feature legal questionnaire](new_feature_legal_questionnaire.md) - how we share relevant information about new features with our legal team.
-- [Feature rollout](rollout_process.md) - how we test, rollout and launch new features.
-- [Learning](product_learning.md) - how we learn from what we shipped.
-- [Feature deprecation](deprecation_process.md) - how we deprecate features when necessary.
-- [Principles](product_principles.md) - our core beliefs in how we build products
+### Principles
+See [principles](product_principles.md) for our core beliefs in how we build products
 
 ### Strategy
 See [strategy](../../../../strategy-goals/index.md)
