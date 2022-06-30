@@ -4,7 +4,7 @@ Welcome to the Security Team 🥳
 
 Congrats on taking your first steps towards a new chapter in your cyber security career! Our team is here to support and guide you on this journey so never hesitate to reach out in the team Slack channel **#security-internal**.
 
-Below you'll find some steps to get your local development enviroment setup, common tools installed, access etc.
+Below you'll find some steps to get your local development enviroment set up, common tools installed, access etc.
 
 ## Useful Slack Channels
 
@@ -17,7 +17,7 @@ Sourcegraph as a whole uses Slack heavily for daily communication - our team als
 
 ## Github Setup
 
-If you haven't been given access to Sourcegraphs Organization on Github yet reach out to **#it-tech-ops** on Slack and provide your Github username.
+If you haven't been given access to Sourcegraph's Organization on Github yet reach out to **#it-tech-ops** on Slack and provide your Github username.
 
 We are an all-remote company and favor asynchronous communication, it is important to configure your notifications correctly so that you receive and read notifications that are important (e.g. someone makes a comment on one of your PRs, someone adds you as a reviewer to a PR) without being overwhelmed by notifications that don’t involve you.
 
@@ -31,8 +31,6 @@ We are an all-remote company and favor asynchronous communication, it is importa
   - [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers) - Our CI (Continuous Integration) pipelines host.
     - Self-serve via google auth
   - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider.
-    - **#security** or you can reach out in **#internal-security**
-  - [Jira](https://sourcegraph.atlassian.net/jira/) - Our teams kanban board for planned work management.
     - **#security** or you can reach out in **#internal-security**
 
 ## Sourcegraph - Local Enviroment Setup
@@ -59,11 +57,9 @@ Our private code repositories can only be searched using our internal dev instan
    - Terraform is our infastructure as code tool which we use to modify our enviroments.
 3. [Connect to dogfood with kubectl](../../process/deployments/debugging/tutorial.md#gain-access-to-the-cluster)
    - For prod and other clusters it’s just a matter of adding the other kubeconfigs
-4. Download and setup [Burpsuite community edition](https://portswigger.net/burp/communitydownload) on your laptop.
+4. Download and setup [BurpSuite Community Edition](https://portswigger.net/burp/communitydownload) on your laptop.
    - You can use [this Burp project](https://drive.google.com/file/d/1__fpwVbzUyuZinbrJnEJSVe3WM1ANpxQ/view?usp=sharing) already configured for Sourcegraph.
    - Try to capture some traffic in your local sourcegraph instance such as logging in.
-
-**Tip:** The browser extension FoxyProxy makes it much easier to quickly switch between Burps proxy 😉
 
 ## Training
 
@@ -115,7 +111,6 @@ Skim through our support rotation page in the [handbook](../../admin-exp/securit
 ## Acceptance Criteria
 
 - You are able to run Sourcegraph code locally with dev-private
-- You are able to run tf plan on the sourcegraph/infrastructure repository
-- You are able to kubectl into our clusters
-- Complete onboarding tasks above and any other assigned tasks in Jira
-- Capture traffic via Burpsuite for analysis
+- You are able to run `tf plan` on the sourcegraph/infrastructure repository
+- You are able to `kubectl` into our clusters
+- You have BurpSuite set up on your local machine
