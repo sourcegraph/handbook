@@ -8,6 +8,15 @@ To learn more about components of Sourcegraph's developer experience, check out 
 
 > NOTE: For authors, refer to [this guide](./processes.md#newsletter) for preparing a newsletter.
 
+## July xx, 2022
+
+Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
+As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
+
+## `sg` goodies
+
+TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
+
 ## June 24, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
