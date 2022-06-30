@@ -1468,18 +1468,6 @@ win_yu:
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
   description: After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
 
-crystal_augustus:
-  name: Crystal Augustus
-  pronouns: she/her
-  role: Engineering Manager, Delivery
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-  location: Ashland, MA, United States 🇺🇸
-  github: caugustus-sourcegraph
-  email: crystal.augustus@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/crystalaugustus/)'
-  description: Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
-
 kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
@@ -1561,7 +1549,7 @@ taylor_sperry:
   name: Taylor Sperry
   reports_to: eng_lead
   pronouns: she/her
-  role: Product Manager, Frontend Platform & Dev Experience
+  role: Product Manager, Frontend Platform
   location: Denver, CO, USA 🇺🇸
   github: taylorsperry
   email: taylor.sperry@sourcegraph.com
@@ -2673,3 +2661,9 @@ tom_pinckney:
   email: tom.pinckney@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
+
+sanjeev_sekar:
+  name: Sanjeev Sekar
+  role: Engineering Manager
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_delivery

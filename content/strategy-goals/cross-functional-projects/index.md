@@ -59,7 +59,7 @@ DRIs are responsible for:
 
 The exec sponsors are responsible for:
 
-- Supporting the DRI in securing and aligning resources and removing bottlenecks
+- Supporting the DRI in securing and aligning internal resources and removing bottlenecks
 - Supporting escalations as needed
 - Attend all company goal working group meetings
 - Act as an exec team liaison to ensure appropriate insight and alignment to other projects, initiatives, or programs
@@ -83,7 +83,7 @@ Exec Sponsor / DRI / Appropriate cross-functional project teammate
 
 #### What:
 
-A Google doc that includes (link to template)
+A Google doc that includes ([link to template](https://docs.google.com/document/d/1uT6-2w7Pv8rXA4F-azZ7Ual_pN0XZZQMAksDcalO54w/edit#heading=h.92d75u96bh28))
 
 - A summary of the week's work / color commentary on the project as a whole.
   - Update on the status of the project (Red / Yellow / Green).
@@ -122,9 +122,9 @@ A highly tactical conversation based on the supplied weekly report. Topics inclu
 
 | Project Name                                        |                  Engaged Departments                   |        DRI        |  Exec Sponsor  | Description                                                                                                                                                                                          |
 | :-------------------------------------------------- | :----------------------------------------------------: | :---------------: | :------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Deliver a world class admin experience              |                 engineering, sales, CE                 |    Aimee Menne    |  Aimee Menne   | Make it so our customers have the best experience and get the most value and benefit of Sourcegraph as quickly as possible by streamlining the deployment and maintenance of Sourcegraph for admins. |
+| Deliver a world class admin experience              |                 engineering, sales, CE                 |   Brie McNally    |  Aimee Menne   | Make it so our customers have the best experience and get the most value and benefit of Sourcegraph as quickly as possible by streamlining the deployment and maintenance of Sourcegraph for admins. |
 | Create a strategic segment operating model          |              sales, CE, ops, people, eng               |   Ajay Uppaluri   |  Gregg Stone   |                                                                                                                                                                                                      |
-| Enhance customer success and health operating model |                     sales, CE, eng                     |    Aimee Menne    |  Aimee Menne   |                                                                                                                                                                                                      |
+| Enhance customer success and health operating model |                  sales, CE, eng, ops                   |  Shawnteé Harris  |  Aimee Menne   | Establish consistent, scalable means for tracking customer health with consistent inspection and defined problem resolution.                                                                         |
 | Kickstart demand generation and content engine      |   sales, community, product marketing, CE, ops, eng    |     Nick Gage     |  Gregg Stone   |                                                                                                                                                                                                      |
 | Create new performance management culture           | ops, sales, CE, engineering, talent, people, marketing |    Carly Jones    |  Carly Jones   |                                                                                                                                                                                                      |
 | Make cloud the preferred deployment method          |           engineering, sales, CE, marketing            | Rafal Leszczynski |  Quinn Slack   |                                                                                                                                                                                                      |

@@ -53,6 +53,14 @@ If you think Frontend Platform is the right team to address a bug or other reque
 
 We use OpsGenie to manage a support rotation that changes weekly. The person on-call will be pinged when someone tags `@frontend-platform-support` in Slack. That person is expected to prioritize responding to the support request, but anyone who sees a request can and should jump in.
 
+#### Handling CI assistance requests
+
+If `@frontend-platform-support` is pinged for a CI issue, the teammate on rotation should ask the person requesting help [to determine](https://docs.sourcegraph.com/dev/how-to/testing#assessing-flaky-client-steps) whether or not the issue is due to a flaky test and [to disable it](https://docs.sourcegraph.com/dev/background-information/ci#flaky-tests) if so.
+
+Otherwise, the teammate on rotation should resolve the problem with a PR from the Frontend Platform team or create an issue and assign it to the appropriate owner.
+
+This process aims to _always_ have a solution or artifact for a reported problem so that we can avoid the same CI issues in the future.
+
 ### Technical lead
 
 For each roadmap item, we assign an engineer to be technical lead. Technical leads are responsible for working with the EM/PM to articulate the problem space, proposed solution, and measures of success. They also scope a delivery plan and create issues to be tracked in the roadmap tracking issue. They are **not** solely responsible for executing on the work, which is a team effort. At our weekly team syncs, they share a status update (`On track`, `At risk`, `Won’t Do`) with the team.

@@ -32,7 +32,7 @@ Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.ebp_lead}}
 
-## [Business Operations & Strategy](../departments/bizops/index.md#members)
+## [Data & Analytics](../departments/bizops/index.md#members)
 
 {{generator:reporting_structure.director_data_analytics}}
 

@@ -2,9 +2,44 @@
 
 ## Planning and tracking work
 
+We use a 4-step delivery framework to prioritize problems to solve, create solutions, and follow through on our work.
+This applies for both [planned work](#planned-work) and [unplanned work](#unplanned-work).
+
+1. Identify the problem, who has this problem (the customers), and potential solutions.
+   - Artifact: [planned work process](#planned-work), or at least [a GitHub issue](#tracking)
+2. Execute on a solution, in line with [our principles](./index.md#principles), and communicate progress back within the team (e.g. via the [planned work process](#planned-work) or [unplanned work process](#unplanned-work))
+3. [Roll out the change to our customers](#rollout-strategy).
+   - Artifact: Sharing it in our channels (Slack and newsletter). Educating our customers about the change, and helping them adopt it.
+4. Tracking adoption and feedback.
+   - Artifact: feedback or metrics on adoption.
+
 ### Planned work
 
-We use the [DevX Planning](https://docs.google.com/document/d/1REAHhadAHUyg9DSDpRyoNQZL8jUb0V8pL4ilhVUQ6ps/edit#heading=h.56tkkexago5v) document to asynchronously discuss our quarterly roadmap. Our [Strategy](../../../../../../content/strategy-goals/strategy/enablement/dev-experience/index.md) page is updated monthly to reflect our team’s plans.
+We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views/33) and [scratch documents](#scratch-documents) to asynchronously discuss our roadmap.
+
+When planning work, the [relevant work lead](#work-leads) should:
+
+- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../process/tracking_issues.md). The tracking issue description should have the following:
+  - **Problem**: Articulate the problem space and requirements.
+  - **Scope**: Scope the work so that it can be completed in a single bet cycle, identifying:
+    - **Boundaries**: Define what work is within the scope and what work is explicitly out of scope. (Out-of-scope boundaries, or "non-goals", are worth writing down and they help prevent scope creep.)
+    - **Definition of done**: the desired end state that needs to be achieved for a work item to be considered "done", in addition to:
+      - a [rollout strategy](#rollout-strategy)
+      - "non-functional requirements" such as testing, monitoring, and documentation
+      - a retrospective (e.g. by consulting relevant stakeholders) to identify if goals were achieved and follow-up work needs to be done
+- Create a implementation plan by creating and tagging [GitHub issues](#tracking) to be tracked in the roadmap issue.
+  - Issues should be labeled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)), other metadata where helpful, a rough order of operations, and outline of what can be parallelized.
+  - Dependencies on other work are identified and tracked.
+- Maintain an understanding of the progress of the work.
+  - Have a clear picture of what's being executed, what's coming up, and overall timelines.
+  - Ensure required tasks are delegated.
+  - Continually evaluate whether we are working towards our key results.
+  - Work with EM/PM if any adjustments are needed.
+  - Create follow-up issues for any known or outstanding bugs.
+
+Note that teammates can also support a work lead on all of the above - it is not exclusively the responsibility of work leads.
+
+> NOTE: An updated and well-documented planning issue makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with planning efforts.
 
 ### Unplanned work
 
@@ -13,21 +48,42 @@ We aim to allow teammates the flexibility to work on incoming requests, tackle p
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
 
+We encourage you to log unplanned work in [GitHub issues](#tracking), the [devx-scratch repository](#devx-scratch), or in [the daily Geekbot updates](#slack).
+
+Note that even unplanned work should take into account a [rollout strategy](#rollout-strategy), especially if it is implementing improvements based on feedback.
+
+### Rollout strategy
+
+For each work item, we ask the following questions:
+
+1. Who needs to know about this change?
+2. How and where are we reaching them?
+3. What do they need in order to adopt this change?
+
+From the answers, we extend the Definition of Done for the item to include these steps:
+
+- Create an announement about the change in immediate channels (relevant Slack channels)
+- Add an entry to the Dev Experience newsletter
+- Update documentation if applicable
+- Create resources to help engineers adopt the change
+- Create content to educate engineers about the background and reason for the change
+
 ### Tracking
 
-As of 2022-04-28, we use Github projects to keep track of our work.
+As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
-### Product and Engineering roadmap project
-
-Our quarterly roadmap items are defined in [tracking issues](../../process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). These tracking issues describe the problem space, requirements, proposed solution, key results, and measures of success; provide links to relevant RFCs, discussions, arifacts, and decisions; and collate the smaller issues that contribute to the execution of our roadmap. In this way, they reflect a high-level view of our progress on a given roadmap item and provide necessary context. These issues have the `team/devx`, `roadmap`, and `tracking` labels.
-
-### Dev Experience project
+#### Dev Experience project
 
 For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212/views/32). This board automatically imports issues with the `dx` or `team/devx` labels.
 
 ### Google Drive
 
 We collect meeting notes and planning artifacts in a shared [Google Drive folder](https://drive.google.com/drive/folders/1d1scMzzmXM5uCEpKI06U9cc6zPF7g9wE).
+
+#### Scratch documents
+
+We encourage the liberal use of "scratch documents" - temporary, short-lived Google Docs that are used as discussion forums and a dump for ideas.
+Concrete, permanent artefacts should be created from them, e.g. via the [planned work process](#planned-work).
 
 ## Support
 
@@ -89,23 +145,7 @@ We use OpsGenie to manage a [support](#support) rotation that changes weekly. Th
 
 For each major body of work, we assign an engineer to be a **work lead**. Work leads are responsible for working with the PM/EM to articulate the problem space, requirements, proposed solution, key results, and measures of success. They also scope a delivery plan and create issues to be tracked in the tracking issue. The work lead helps answer questions about priority order, scope change, etc., and provides updates at team syncs. They are **not** solely responsible for executing on the work, which is a team effort.
 
-The work lead should:
-
-- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../process/tracking_issues.md).
-  - Articulate the problem space, requirements, proposed solution, key results, and measures of success.
-  - Scope the work to a manageable size for one team to deliver in one quarter.
-  - Identify any applicable "Non-Functional Requirements", such as testing, monitoring, and documentation.
-  - Identify stakeholders to consult and/or dependencies on other work.
-- Create a delivery plan with issues to be tracked in the roadmap issue.
-  - Issues should be labeled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)), other metadata where helpful, a rough order of operations, and outline of what can be parallelized.
-- Maintain an understanding of the progress of the work.
-  - Have a clear picture of what's being executed, what's coming up, and overall timelines.
-  - Ensure required tasks are delegated.
-  - Continually evaluate whether we are working towards our key results.
-  - Work with EM/PM if any adjustments are needed.
-  - Create follow-up issues for any known or outstanding bugs.
-
-> NOTE: An updated and well-documented planning issue makes it easier to teammates and stakeholders to pick up context around the state of planning, and helps represent the often significant time investment involved with planning efforts.
+See the [planned work process](#planned-work) for additional details.
 
 ## Team meetings and communication
 
