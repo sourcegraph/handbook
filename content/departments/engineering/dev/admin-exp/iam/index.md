@@ -8,7 +8,7 @@ The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/admin-exp/iam/index.md).
+The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/iam/index.md).
 
 ## Areas of Ownership
 
@@ -18,9 +18,7 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 #### Identity and access management
 
-The IAM team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
-
-While the IAM team owns the underliying layer for authentication and authorization, Integrations and Growth teams are responsible for the UI and UX for sign-in and sign-up. Integrations and Growth teams also work on the [new user experience](../../../process/new-user-experience.md) using our [cross-team collaboration principles](../../../process/cross-team-collab.md).
+The IAM team is responsible for both authentication and authorization to Sourcegraph, including login, sign-in and sign-up pages and user management for on-prem and managed instances.
 
 Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
 

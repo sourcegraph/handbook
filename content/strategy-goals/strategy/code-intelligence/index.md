@@ -5,7 +5,7 @@ Code intelligence provides features and services that help developers better und
 Quicklinks:
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
+- [Product & Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
 - [Code intelligence backlog](https://github.com/orgs/sourcegraph/projects/211)
 - [Latest demo](https://www.loom.com/share/b76c3ce971d9498197d4b664a20b20a8)
 - [Documentation](https://docs.sourcegraph.com/code_intelligence)
@@ -84,12 +84,12 @@ Top feedback patterns we're hearing from customers and prospects across the boar
 
 We believe this is emerging as an additional killer feature. Most developers think in terms of package and dependency versions rather than focusing on external repositories. Supporting precise dependency navigation elevates the code navigation experience to a new level of cross-project analysis. Dependency navigation coupled with cross-repository takes the IDE model and scales it to encompass the whole cognitive space of a company.
 
-The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on). Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
+The ability to navigate to any third party dependency a repository references is key to use cases like [Developer onboarding](../use-cases/dev-onboarding.md) where time to value is directly related to how fast a developer is able to navigate and understand a new codebase (including the dependencies it relies on). Taking it a step further, adding support for a wider set of package hosts opens the door to a whole new array of cross-team features that support our use cases. These include (but are not limited to):
 
-- Make Sourcegraph a must-have for code security teams by [Code security](../../use-cases/code-security.md) and helping [Incident response](../../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections.
-- Accelerating [Developer onboarding](../../use-cases/dev-onboarding.md) by enabling the ability to search over the full transitive dependency graph.
-- Monitor [Code Health](../../use-cases/code-health.md) by creating Code Insights that track deprecated dependency usages and version drift.
-- Encourage [Code Reuse](../../use-cases/code-reuse.md) by making precise navigation the obvious way to find references to relevant usage examples.
+- Make Sourcegraph a must-have for code security teams by [Code security](../use-cases/code-security.md) and helping [Incident response](../use-cases/incident-response.md) by searching and finding references to vulnerable dependency versions or errors. Having an available fully semantic graph of the code in question allows other products such as Batch Changes to provide fast fixes and turnarounds during incidents and vulnerability detections.
+- Accelerating [Developer onboarding](../use-cases/dev-onboarding.md) by enabling the ability to search over the full transitive dependency graph.
+- Monitor [Code Health](../use-cases/code-health.md) by creating Code Insights that track deprecated dependency usages and version drift.
+- Encourage [Code Reuse](../use-cases/code-reuse.md) by making precise navigation the obvious way to find references to relevant usage examples.
 
 These are all currently in early stages of development and discussion. Read more about how we're thinking about the dependency graph in [RFC 593: Unlocking use cases based on the dependency graph of repositories](https://docs.google.com/document/d/1SkM8CG0IksvPEKRBRVLKipiRJTopx6Vq_hSWRJ9NyKs/edit#heading=h.trqab8y0kufp).
 
@@ -123,7 +123,7 @@ Additionally, providing the precise code intelligence data layer sets the founda
 
 ### What's next and why
 
-- **Adding precise C# and Ruby language support:** Based on our team's bandwidth and skill set, we are not planning to work on these languages this quarter. However, to support our [Grow ARR and Iterate with existing customers first](../../index.md#this-year-fy23) goals, we are working towards prioritizing these languages later this year based on current customer language share and associated ARR.
+- **Adding precise C# and Ruby language support:** Based on our team's bandwidth and skill set, we are not planning to work on these languages this quarter. However, to support our [Grow ARR and Iterate with existing customers first](../index.md#this-year-fy23) goals, we are working towards prioritizing these languages later this year based on current customer language share and associated ARR.
 
 - **Scale the C++ code graph:** Given the fragmented nature of the C/C++ environment we've held off in investing in improving C/C++ language support or scaling in the last year. However, we're currently looking into implementation strategies that will help us uncover the level of effort it would require the team to improve our current support.
 

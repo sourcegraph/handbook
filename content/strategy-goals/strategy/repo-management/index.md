@@ -1,6 +1,6 @@
 # Repo Management strategy
 
-This page outlines the vision, strategy, and goals of the [Repository Management team](../../../../departments/engineering/dev/admin-exp/repo-management/index.md).
+This page outlines the vision, strategy, and goals of the [Repository Management team](../../../departments/engineering/dev/admin-exp/repo-management/index.md).
 
 ---
 

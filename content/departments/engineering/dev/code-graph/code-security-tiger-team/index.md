@@ -14,7 +14,7 @@ We use [lookback](https://lookback.io/org/sourcegraph/projects/code-security/rou
 
 ## Strategy
 
-See [strategy page](../../../../../strategy-goals/strategy/code-graph/code-security-tiger-team/index.md)
+See [strategy page](../../../../../strategy-goals/strategy/code-security-tiger-team/index.md)
 
 ## Contact
 
