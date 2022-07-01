@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schema/cross-product_projects.schema.json
+# yaml-language-server: $schema=../schema/product_teams.schema.json
 
 search_product:
   title: Search Product
