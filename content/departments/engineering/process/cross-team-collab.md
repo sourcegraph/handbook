@@ -28,6 +28,10 @@ Sometimes a team builds a new platform feature. Recent examples include executor
 
 - [New user experience](new-user-experience.md)
 
+### Explicit cross-product owners
+
+Projects that involve consistent collaboration across multiple teams may be best handled with a[cross-product owner](../product/process/prioritize_and_build/cross-product_owners.md).
+
 ## Contributions from the public
 
 We're an open core company, so we can also get code, ideas, and bug reports from outside parties. The same guidance applies for their contributions as well.
