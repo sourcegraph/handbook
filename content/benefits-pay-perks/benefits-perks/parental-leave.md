@@ -1,6 +1,5 @@
 # Sourcegraph Paid Parental Leave Policy
 
-
 **Reason for the policy**
 
 We support teammates at all stages of life, including during family planning. Providing flexibility and family-friendly policies are essential to cultivating a culture where employees can thrive professionally without sacrificing precious family time. We want to give all new parents the ability to bond with their new child and adjust to their new family dynamic. The below resources are for teammates who are expecting to become, or have recently become, a parent.
