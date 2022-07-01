@@ -105,6 +105,10 @@ Product Management collaborates with a lot of different groups. Beyond our share
 
 Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-team-collab.md).
 
+### Cross-team owners
+
+Priorities that consistently require the collaboration of multiple engineering teams are given [cross-product owners](prioritize_and_build/cross-product_owners.md).
+
 ### Executive decisions
 
 There are some classes of questions that occasionally require an executive level in order to proceed, usually because they are part of a high level strategic decision or because they require making tradeoffs between different organizations or departments within the company. Some examples of these in the past which have gotten stuck are:
