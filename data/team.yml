@@ -863,7 +863,7 @@ fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
   role: Creative Operations Manager
-  reports_to: marketing_lead
+  reports_to: director_design
   manager_role_slug: creative_ops_manager
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
@@ -2521,7 +2521,7 @@ steve_fisher:
   role: Head of Design
   manager_role_slug: director_design
   reports_to: eng_lead
-  location: Sechelt, BC, Canada 🇨
+  location: Sechelt, BC, Canada
   github: hellofisher
   email: steve.fisher@sourcegraph.com
   links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'

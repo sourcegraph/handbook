@@ -4,9 +4,13 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
+### Principles
+
+See [principles](product_principles.md) for our core beliefs in how we build products
+
 ### Strategy
 
-See [strategy](../../../../strategy-goals/index.md)
+See [strategy](../../../../strategy-goals/index.md).
 
 #### Use case sponsorship
 
@@ -39,14 +43,6 @@ The assigned sponsors for each use case are listed on the individual [use case p
 - [Product documents](prioritize_and_build/product_documents.md) - how we communicate plans for new product areas
 - [Prioritizing](prioritize_and_build/prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Feature deprecation](prioritize_and_build/deprecation_process.md) - how we deprecate features when necessary.
-
-#### Release early, release often
-
-Each project, no matter how long-running, needs to plan to ship _something_ in each release. The "something" depends on the project. We strongly prefer for it to be a minimal viable feature that is enabled by default. The next best thing is to ship something that is feature-flagged off by default. When possible, larger features should be merged mid-cycle to solicit feedback from the team and customers before the release is cut.
-
-The reason for this is to avoid going for too long without customer feedback (from customers trying it) or even technical/product feedback (from performing the diligent work of polishing it to be ready to release). Lacking these critical checks means we will end up building something that doesn't solve people's problems or that is over-built.
-
-When we have relaxed this in the past, the results have been bad and the overwhelming feedback from retrospectives has been to release regularly. Also see [Quality through iteration](../../../../company-info-and-process/values/index.md#### high-quality-through-iteration).
 
 ### Go-to-market
 
