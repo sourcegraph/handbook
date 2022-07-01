@@ -17,7 +17,7 @@ Using and developing Sourcegraph is effortless.
 
 [Full list of roadmap issues for Frontend Platform](https://github.com/orgs/sourcegraph/projects/214/views/21?filterQuery=label%3A%22team%2Ffrontend-platform%22)
 
-See also our [completed goals](../../../../departments/engineering/dev/enablement/frontend-platform/goals_completed.md).
+See also our [completed goals](../../../departments/engineering/dev/enablement/frontend-platform/goals_completed.md).
 
 ### FY23 Q2
 

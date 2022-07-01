@@ -21,7 +21,7 @@ The collaboration modes are described in the [profile role description](../caree
 
 ## Mission / Vision / Strategy
 
-For a deep dive into our mission, vision & strategy see our [strategy page](../../../../strategy-goals/strategy/enablement/index.md)
+For a deep dive into our mission, vision & strategy see our [strategy page](../../../../strategy-goals/strategy/index.md)
 
 ## Principles and practices
 

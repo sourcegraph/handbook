@@ -5,11 +5,11 @@ Batch Changes is a tool to find code that needs to be changed and change it at s
 ## Quick links
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
-- [Batch Changes positioning and messaging](../../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md)
+- [Product & Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
+- [Batch Changes positioning and messaging](../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md)
 - [Demo video](https://www.youtube.com/watch?v=eOmiyXIWTCw)
 - [Batch Changes documentation](https://docs.sourcegraph.com/batch_changes)
-- [Batch Changes team page](../../../../departments/engineering/dev/code-graph/batch-changes/index.md)
+- [Batch Changes team page](../../../departments/engineering/dev/code-graph/batch-changes/index.md)
 - [Planning board](https://github.com/orgs/sourcegraph/projects/216)
 - [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Batch+changes%22)
 
@@ -38,7 +38,7 @@ We allow developers to focus on changing their code, without having to do any pl
 To deliver our vision, we will:
 
 - First, get adopted by the Sourcegraph customer base, including large enterprises. We will target customers with advanced practices and workflow, and collaborate with them to build a category-defining product that all other companies will use. This is what we are doing today.
-- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged). One way we'll do this is by decreasing time-to-value for Batch Changes, allowing users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a [use case](../../use-cases/index.md), possibly without writing code.
+- Concurrently, spread usage (MAUs) within our customer base and make sure we deliver on our success metric (changesets merged). One way we'll do this is by decreasing time-to-value for Batch Changes, allowing users unfamiliar with the practice of automating code changes to easily onboard and solve a problem linked to a [use case](../use-cases/index.md), possibly without writing code.
 - Eventually, address the problem end to end by becoming the go-to place for discovering, using, building and sharing code rewrite steps.
 
 ## Competitive landscape
@@ -69,7 +69,7 @@ To drive enterprise success and stickiness, we need to:
 
 ### Get changesets merged
 
-The key [success metric](../../../../departments/engineering/dev/code-graph/batch-changes/metrics.md) for batch changes is the number of changesets that get _merged_. In practice, once a user has applied a batch change, they need to spend time tracking and following up with downstream repository owners so that they merge the batch change's changesets. The larger the batch change, the more time-consuming this can be. We want to improve how easy it is for users to get large batch changes over the finish line, as measured by time-to-merge and batch changes merge rate.
+The key [success metric](../../../departments/engineering/dev/code-graph/batch-changes/metrics.md) for batch changes is the number of changesets that get _merged_. In practice, once a user has applied a batch change, they need to spend time tracking and following up with downstream repository owners so that they merge the batch change's changesets. The larger the batch change, the more time-consuming this can be. We want to improve how easy it is for users to get large batch changes over the finish line, as measured by time-to-merge and batch changes merge rate.
 
 ### Time-to-value
 
@@ -90,7 +90,7 @@ Success here means creating end-to-end usage paths that use Batch Changes as wel
 
 Batch Changes has proven early product/market fit with high-growth scale-ups and medium to large technology companies. We are now working on expanding into more traditional enterprises. We see anecdotal early evidence of market fit across other segments ([Batch Changes dashboard](https://sourcegraph.looker.com/dashboards-next/174)).
 
-Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../../use-cases/code-reuse.md) and [Code Health](../../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md#go-to-market-playbook)
+Over the first year, we have discovered a repeatable playbook for our [Code Reuse](../use-cases/code-reuse.md) and [Code Health](../use-cases/code-health.md) use case. A platform engineering team, sometimes supported by a developer experience team, adopts Batch Changes to make large-scale code changes to internal libraries, frameworks and platforms they maintain . Some batch changes are relatively simple code changes, such as updating configuration files across many repositories. Some are more complex, such as changing API call sites to ship a breaking change in an internal library. The common denominator is those changes would take a very long time to create and track to completion using a manual approach. Adopting Batch Changes allows the platform team to automate manual work and save time, as well as transition from a model in which they are asking their customer teams to do some work, to a more proactive where they can propose a change themselves and leave customer teams to review and merge. See [playbook](../../../departments/engineering/dev/code-graph/batch-changes/go-to-market/index.md#go-to-market-playbook)
 
 We have five main learnings from the first year of Batch Changes:
 
@@ -123,7 +123,7 @@ This quarter, we will:
 
 ### Running Batch Changes server-side on managed instances
 
-During the experimental phase of running batch changes server-side, we got some demand from managed instances customers. Our [strategy](../../../index.md) is to deliver the same product experience regardless of the deployment mode.
+During the experimental phase of running batch changes server-side, we got some demand from managed instances customers. Our [strategy](../../index.md) is to deliver the same product experience regardless of the deployment mode.
 
 Currently, if managed instances customers want to run batch changes server-side, they need to setup executors on their own infratructure. The reason we cannot provide this as a managed service yet are:
 

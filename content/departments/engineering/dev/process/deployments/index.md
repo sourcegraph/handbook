@@ -13,7 +13,9 @@ For a complete list of Sourcegraph instances we manage, see our [instances docum
   - [Relationship between deploy-sourcegraph repositories](#relationship-between-deploy-sourcegraph-repositories)
     - [Merging upstream `deploy-sourcegraph` into `deploy-sourcegraph` forks](#merging-upstream-deploy-sourcegraph-into-deploy-sourcegraph-forks)
   - [Sourcegraph Cloud](#sourcegraph-cloud)
-    - [Sourcegraph Cloud release process](#continuous-deployment-process)
+    - [Continuous Deployment Process](#continuous-deployment-process)
+  - [Deployment observability](#deployment-observability)
+    - [Deployment traces](#deployment-traces)
 
 Additional resources:
 
