@@ -7,8 +7,8 @@ This page outlines the vision, strategy, and goals of the Code Insights team ove
 Quick links:
 
 - [Code Graph overall strategy](../index.md)
-- [Product & Engineering strategy](../../../../departments/engineering/strategy-goals/index.md)
-- [Go to market resources for Sales, CE, and Marketing](../../../../departments/engineering/dev/code-graph/code-insights/go_to_market.md)
+- [Product & Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
+- [Go to market resources for Sales, CE, and Marketing](../../../departments/engineering/dev/code-graph/code-insights/go_to_market.md)
 - [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
@@ -33,7 +33,7 @@ To deliver on our mission, we will:
 
 - First, build a robust Code Insights product offering that is configurable yet simple enough to answer many different engineering leaders' specific questions
 - Continually track usage and feedback to grow the product in its most valuable directions
-- Then, build in key cross-product pathways that enable more steps of our [Sourcegraph use cases](../../index.md#use-cases) flows
+- Then, build in key cross-product pathways that enable more steps of our [Sourcegraph use cases](../index.md#use-cases) flows
 - Next, build new features that integrate new computation ability and new types of data to answer ever more questions about a codebase
 - Eventually, build new major features or sub-products that help answer the second- and third-stage level of questions about a codebase
 
@@ -125,7 +125,7 @@ Users do not need to learn a new query language or format to use Code Insights. 
 
 ### Code Insights is a product _with graphs_, not a _graphing product_
 
-The primary value of Code Insights comes from the questions it can answer for its users in service of [Sourcegraph use cases](../../index.md#use-cases). While Code Insights will continue to add graph UI features as customers demonstrate need and value –- or even just desire -- we will primarily focus on building new insight types or graph flows (such as monitoring, cross-feature integrations, and filtering/drilldown ability) rather than new chart types or especially fancy charting customizations.
+The primary value of Code Insights comes from the questions it can answer for its users in service of [Sourcegraph use cases](../index.md#use-cases). While Code Insights will continue to add graph UI features as customers demonstrate need and value –- or even just desire -- we will primarily focus on building new insight types or graph flows (such as monitoring, cross-feature integrations, and filtering/drilldown ability) rather than new chart types or especially fancy charting customizations.
 
 **What this looks like:**
 
@@ -172,7 +172,7 @@ These are the goals we plan to fully complete by the end of Q1 FY23:
 
 - KR 1: 10 customers have purchased Code Insights in FY23Q1
 
-_See also [completed goals](../../../../departments/engineering/dev/code-graph/code-insights/goals_completed.md)_
+_See also [completed goals](../../../departments/engineering/dev/code-graph/code-insights/goals_completed.md)_
 
 ### Themes (and What's next and why)
 
@@ -187,7 +187,7 @@ We will:
 
 #### Tracking needs
 
-A major use case for Code Insights is tracking migrations and similar efforts, which is an action that supports all of our [Sourcegraph use cases](../../index.md#use-cases). There are a number of core features we've learned are valuable to users that we have yet to build.
+A major use case for Code Insights is tracking migrations and similar efforts, which is an action that supports all of our [Sourcegraph use cases](../index.md#use-cases). There are a number of core features we've learned are valuable to users that we have yet to build.
 
 We will:
 
