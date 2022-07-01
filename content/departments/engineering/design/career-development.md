@@ -2,9 +2,14 @@
 
 Our career development framework is here to help you understand the expectations of your role, and to provide a common language for you and your manager to discuss and plan your career growth. It is also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.
 
-## When do I get promoted?
-
-To learn more about promotions, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
+## What are the expectations of my role?
+There are currently six levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+<ul>
+  <li>Strategy</li>
+  <li>Execution</li>
+  <li>Teamwork and behaviors</li>
+</ul>
+It’s important to understand that what is listed in the level descriptions are examples, and not checkboxes for promotion. The expectation is that you demonstrate a level of impact consistent with each of the category descriptions for your level.
 
 <style>
   .container {
