@@ -30,7 +30,7 @@ Sometimes a team builds a new platform feature. Recent examples include executor
 
 ### Explicit cross-product owners
 
-Projects that involve consistent collaboration across multiple teams may be best handled with a[cross-product owner](../product/process/prioritize_and_build/cross-product_projects.md).
+Projects that involve consistent collaboration across multiple teams may be best handled with a[cross-product owner](../product/process/prioritize_and_build/cross-product_owners.md).
 
 ## Contributions from the public
 
