@@ -43,7 +43,7 @@ Note that teammates can also support a work lead on all of the above - it is not
 
 ### Unplanned work
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#roadmap), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../../strategy-goals/strategy/dev-experience/index.md#roadmap), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
@@ -133,7 +133,7 @@ If a tool or test is behaving in an unstable manner, the team using the tool or 
 
 The team leading the investigation should either fix the issue directly, or if the issue requires changes in the [DevX team's ownership/responsibility areas](#responsibilities) (e.g. increasing resource limits for build agents, or making significant changes to the pipeline generator), request the desired changes through an issue tagged `team/devx`.
 
-For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles).
+For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
 
 ## Team roles
 

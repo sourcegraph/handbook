@@ -8,7 +8,7 @@ The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/admin-exp/iam/index.md).
+The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../../strategy-goals/strategy/iam/index.md).
 
 ## Areas of Ownership
 
