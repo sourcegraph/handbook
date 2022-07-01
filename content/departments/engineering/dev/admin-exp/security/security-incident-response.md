@@ -4,7 +4,7 @@
 **Policy Authors:** André Eleuterio, Dan Mckean, Feroz Salam
 **Approved by:** Diego Comas, Security Lead
 **Effective Date:** July 31st 2021
-**Last Revised:** June 23rd, 2022
+**Last Revised:** July 1st, 2022
 
 ## Purpose
 
@@ -37,7 +37,8 @@ Reports should include specific details about what has been observed or discover
 
 ### Severity
 
-Sourcegraph’s Security team will monitor incident and event tickets and shall assign a ticket severity based on the following categories.
+When raising a security incident, Sourcegraph's security team will assign the 
+incident a severity based on the following categories:
 
 #### S3/S4 - Low and Medium Severity
 
@@ -51,80 +52,25 @@ High severity issues relate to problems where an adversary or active exploitatio
 
 Critical issues relate to actively exploited risks and involve a malicious actor. Identification of active exploitation is required to meet this severity category.
 
-### Escalation and Internal Reporting
-
-- S1 - Critical Severity: S1 issues require immediate notification to the Platform Director.
-- S2 - High Severity: A ticket must be completed and the appropriate manager (see S1 above) must also be notified via email or Slack with a reference to the ticket number.
-- S3/S4 - Medium and Low Severity: A ticket must be created and assigned to the appropriate department for response.
-
-### Documentation
-
-All reported security events, incidents, and response activities shall be documented in the ticket raised for the issue.
-
-A root cause analysis may be performed on all verified S1 security incidents. A root cause analysis report shall be documented and referenced in the incident ticket. The root cause analysis shall be reviewed by the most relevant manager or executive, who shall determine if a post-mortem meeting will be called.
-
 ## Incident Response Process
 
-For critical issues, the response team will follow an iterative response process designed to investigate, contain exploitation, eradicate the threat, recover system and services, remediate vulnerabilities, and document a post-mortem with the lessons of an incident.
+In order to standardize the process of incident response and ensure that all required
+steps are followed when responding to an incident, a process document must be made
+available to all members of the security team. The document should cover all steps
+of the incident response process, including:
 
-#### Summary
+- Documentation requirements
+- Escalation steps
+- Client notification requirements
+- Post-incident processes, such as postmortem and forensics
 
-- Event reported
-- Triage and analysis
-- Investigation
-- Containment & neutralization (short term work)
-- Recovery & vulnerability remediation
-- Hardening & Detection improvements (lessons learned, long term work)
-- Post-mortem
-- Customer communication
-
-#### Detailed
-
-- An appropriate person (e.g. an engineering manager) will manage the incident response effort
-- For S1/S2 incidents:
-  - A Slack channel will be created for the incident, with all relevant parties invited, to coordinate efforts and provide updates
-  - A recurring Incident Response Meeting or scheduled update cadence will be established until the incident is resolved
-  - Legal and executive staff will be informed as needed
-
-#### Responsibilities of the incident manager
-
-- The right people from all functions are actively involved at all times
-- Status updates are communicated to the appropriate persons at regular intervals
-- Incidents are resolved in the immediate term
-- Determining necessary follow-up actions
-- Assigning follow-up activities to the appropriate people
-- Promptly reporting incident details which may trigger breach reporting, in writing to the appropriate executive management
-
-Ensure the following is occurring with sufficient frequency and detail:
-
-- Update Incident Ticket and timelines
-- Document new Indicators of Compromise (IOCs)
-- Perform investigative Q&A
-- Apply emergency mitigations
-- Plan long term mitigations
-- Document Root Cause Analysis (RCA)
-- Assist in customer-facing comms as needed
-- Additional items as needed
+The incident response process must be tested at least annually.
 
 ### Special Considerations
 
 #### Internal Issues
 
 Issues where the malicious actor is an internal employee, contractor, vendor, or partner requires sensitive handling. The incident manager shall contact the VP of People or the CEO directly and will not discuss with other employees. These are critical issues where follow-up must occur.
-
-#### Compromised Communications
-
-Incident responders must have access to Slack available before listing themselves as incident members. If there are IT communication risks, an out of band solution will be chosen, and communicated to incident responders via email or another uncompromised method of communication.
-
-#### Additional Requirements
-
-- Suspected and reported events and incidents shall be documented.
-- Suspected incidents shall be assessed and classified as either an event or an incident.
-- Incident response shall be performed according to this plan and any associated procedures.
-- All incidents shall be formally documented, and a documented root cause analysis shall be performed.
-- Suspected and confirmed unauthorized access events shall be reviewed by the Incident Response Team. Breach determinations shall only be made by the incident manager in coordination with appropriate executive management.
-- Sourcegraph shall promptly and properly notify customers, partners, users, affected parties, and regulatory agencies of relevant incidents or breaches in accordance with Sourcegraph policies, contractual commitments, and regulatory requirements. Sourcegraph will disclose the issue as soon as it is confirmed and initial investigations are done.
-- This Incident Response Plan shall be reviewed and tested at least annually.
 
 ## Roles & Responsibilities
 
