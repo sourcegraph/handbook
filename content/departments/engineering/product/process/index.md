@@ -111,7 +111,7 @@ Apart from the guidance for specific groups we collaborate with below, we also h
 
 ### Cross-team projects
 
-Priorities that consistently require the collaboration of multiple engineering teams are elevated to [cross-team projects](prioritize_and_build/cross-product_projects.md).
+Priorities that consistently require the collaboration of multiple engineering teams are elevated to [cross-product projects](prioritize_and_build/cross-product_projects.md).
 
 ### Executive decisions
 
