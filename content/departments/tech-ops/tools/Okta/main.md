@@ -47,15 +47,16 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 Okta Verify should be used as the default MFA option and if you want to add others, they are in addition to Okta Verify.
 
 1. Okta Verify - sends a push notification to your mobile Okta Verify app
--- Available on iOS, and Android devices. 
--- You can use 1Password’s one-time passcode feature to host your MFA codes.
+   -- Available on iOS, and Android devices.
+   -- You can use 1Password’s one-time passcode feature to host your MFA codes.
 2. FIDO2 (WebAuthn) - use a security key or biometric authenticator
--- Authenticate using a security key, such as YubiKey or Google Titan, or using biometric data from your device like Touch ID. Learn more [here](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)
+   -- Authenticate using a security key, such as YubiKey or Google Titan, or using biometric data from your device like Touch ID. Learn more [here](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)
 
 For Okta Verify
 -- Use the Okta Verify app to scan the QR code when prompted
 
 For Touch ID
+
 - Each browser will verify and register Touch ID (if you use multiple browsers, you will need to set this up on each one)
 
 For YubiKey set up:
@@ -64,10 +65,11 @@ For YubiKey set up:
 2. Send #it-tech-ops the generated CSV
 
 ## Adding a new MFA option
+
 1. Sign into your Okta Dashboard
 2. Go to your name > Settings
 3. Edit settings (you will need to log in again to edit settings)
-4. Scroll to the bottom and under Extra Verification 
+4. Scroll to the bottom and under Extra Verification
 5. Select “Set up” next to Security Keys or Biometric Authenticator
 6. Select “Enroll” and follow the steps prompted by your browser
 
