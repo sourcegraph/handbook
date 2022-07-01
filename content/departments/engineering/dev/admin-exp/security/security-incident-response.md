@@ -37,7 +37,7 @@ Reports should include specific details about what has been observed or discover
 
 ### Severity
 
-When raising a security incident, Sourcegraph's security team will assign the 
+When raising a security incident, Sourcegraph's security team will assign the
 incident a severity based on the following categories:
 
 #### S3/S4 - Low and Medium Severity
