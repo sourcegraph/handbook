@@ -267,6 +267,23 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
+export async function generateCPPList() {
+  const projects = await readYamlFile('data/cross-product_projects.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+  let pageContent = ''
+  for (const project of Object.values(projects)) {
+    pageContent += `\n\n### ${String(project.title)} project\n`
+    if (project.handbook_link) {
+      pageContent += `- [Handbook Page](${String(project.handbook_link)})\n`
+    }
+    if (project.owner) {
+      const bioLink = createBioLink(teamMembers[project.owner].name)
+      pageContent += `- Owner: [${String(teamMembers[project.owner].name)}](${String(bioLink)})\n`
+    }
+  }
+  return pageContent
+}
+
 export async function generateProductTeamUseCaseList(product_team) {
   const features = await readYamlFile('data/features.yml')
   const useCases = await readYamlFile('data/use_cases.yml')

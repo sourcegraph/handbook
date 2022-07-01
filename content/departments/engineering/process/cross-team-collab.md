@@ -22,7 +22,7 @@ Through these simple rules of engagement we can foster innovation at the company
 
 ## Identifying and prioritizing platforms
 
-Sometimes a team builds a new platform feature. Recent examples include executors or compute. As a PM, EM or engineer building what could be a new platform, you should proactively sollicit feedback from other teams on what the platform could be used for. This will allow other teams to start thinking about what the new capability could mean for their area, and inform your own decisions. See [Open-ended compute directions](https://docs.google.com/document/d/1daJwnJGmOGbekx7wK98cfMcv0lzH-cvuw7pDdIOU3dQ/edit) for an example of how to do this well.
+Sometimes a team builds a new platform feature. Recent examples include executors or compute. As a PM, EM or engineer building what could be a new platform, you should proactively solicit feedback from other teams on what the platform could be used for. This will allow other teams to start thinking about what the new capability could mean for their area, and inform your own decisions. See [Open-ended compute directions](https://docs.google.com/document/d/1daJwnJGmOGbekx7wK98cfMcv0lzH-cvuw7pDdIOU3dQ/edit) for an example of how to do this well.
 
 ### Cross org and team projects
 
