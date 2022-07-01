@@ -2,7 +2,7 @@
 
 - Slack channel: #TBD
 - Owner: Joel Kwartler
-- Owner split with other roles: 50-50 (this-other roles) 
+- Owner split with other roles: 50-50 (this-other roles)
 
 This project is....
 
