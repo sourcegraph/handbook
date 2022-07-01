@@ -11,6 +11,6 @@ You may also be interested in seeing the [product org chart](index.md).
 
 ## Cross-product owners
 
-In addition to product teams, we have cross-product owners for initiatives that involve multiple teams. 
+In addition to product teams, we have cross-product owners for initiatives that involve multiple teams.
 
 {{generator:cross-product_owners_list}}
