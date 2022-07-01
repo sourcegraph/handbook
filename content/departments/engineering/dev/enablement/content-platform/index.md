@@ -8,7 +8,7 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 ## Our Strategy
 
-[Mission & Vision](../../../../../strategy-goals/strategy/enablement/content-platform/index.md)
+[Mission & Vision](../../../../../strategy-goals/strategy/content-platform/index.md)
 
 ## Responsibilities
 

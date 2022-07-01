@@ -1,6 +1,6 @@
 # 🗞 Developer experience newsletter
 
-Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevX team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevX team focuses on but is owned by everyone](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md#guiding-principles).
+Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevX team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevX team focuses on but is owned by everyone](../../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
 
 To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
@@ -531,7 +531,7 @@ To be mentioned here in the next iteration, please tag your PR or issue with dx-
 
 ### DevX team mission statement
 
-Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/enablement/dev-experience](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md)
+Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/dev-experience](../../../../../strategy-goals/strategy/dev-experience/index.md)
 
 ### Buildkite incident post-mortem(s)
 

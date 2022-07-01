@@ -1,6 +1,6 @@
 # IAM Team
 
-This page outlines the short-term strategy for the IAM Team. You can find the overview of Sourcegraph Product and Engineering FY23 Q2 focus [here](../../../../departments/engineering/strategy-goals/index.md#fy23-q2-focus)
+This page outlines the short-term strategy for the IAM Team. You can find the overview of Sourcegraph Product and Engineering FY23 Q2 focus [here](../../../departments/engineering/strategy-goals/index.md#fy23-q2-focus)
 
 ## Q2 Objective and Key Results
 

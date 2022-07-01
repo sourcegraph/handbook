@@ -10,7 +10,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Strategy
 
-Find out more about the Dev Experience team's mission, vision, and strategic plans in our [Strategy page](../../../../../strategy-goals/strategy/enablement/dev-experience/index.md).
+Find out more about the Dev Experience team's mission, vision, and strategic plans in our [Strategy page](../../../../../strategy-goals/strategy/dev-experience/index.md).
 
 ## Responsibilities
 
