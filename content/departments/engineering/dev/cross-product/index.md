@@ -1,3 +1,3 @@
-# Cross-product projects
+# Cross-product owners
 
-[Cross-product projects](../../product/process/prioritize_and_build/cross-product_projects.md)
+[Cross-product owners](../../product/process/prioritize_and_build/cross-product_owners.md)

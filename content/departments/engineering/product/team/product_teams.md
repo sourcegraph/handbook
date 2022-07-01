@@ -1,5 +1,5 @@
 ---
-data_source: [/data/product_teams.yml, product teams]
+data_source: [/data/cross-product_owners.yml, product teams]
 ---
 
 # Sourcegraph product teams
@@ -9,8 +9,8 @@ You may also be interested in seeing the [product org chart](index.md).
 
 {{generator:product_teams_list}}
 
-## Cross-product projects
+## Cross-product owners
 
-In addition to product teams, we have cross-product projects that involve multiple teams. These projects have an owner and additional information about that project.
+In addition to product teams, we have cross-product owners for initiatives that involve multiple teams. 
 
-{{generator:cross-product_projects_list}}
+{{generator:cross-product_owners_list}}

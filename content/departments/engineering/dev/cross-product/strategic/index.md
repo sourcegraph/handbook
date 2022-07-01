@@ -1,4 +1,4 @@
-# Strategic cross-product project
+# Strategic cross-product owner
 
 - Slack channel: #TBD
 - Owner: Joel Kwartler

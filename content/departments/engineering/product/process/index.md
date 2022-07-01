@@ -109,9 +109,9 @@ Product Management collaborates with a lot of different groups. Beyond our share
 
 Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-team-collab.md).
 
-### Cross-team projects
+### Cross-team owners
 
-Priorities that consistently require the collaboration of multiple engineering teams are elevated to [cross-product projects](prioritize_and_build/cross-product_projects.md).
+Priorities that consistently require the collaboration of multiple engineering teams are given [cross-product owners](prioritize_and_build/cross-product_owners.md).
 
 ### Executive decisions
 

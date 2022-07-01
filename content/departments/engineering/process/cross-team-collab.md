@@ -28,9 +28,9 @@ Sometimes a team builds a new platform feature. Recent examples include executor
 
 - [New user experience](new-user-experience.md)
 
-### Explicit cross-product projects
+### Explicit cross-product owners
 
-Projects that involve consistent collaboration across multiple teams may be best handled as a [cross-product project](../product/process/prioritize_and_build/cross-product_projects.md).
+Projects that involve consistent collaboration across multiple teams may be best handled with a[cross-product owner](../product/process/prioritize_and_build/cross-product_projects.md).
 
 ## Contributions from the public
 
