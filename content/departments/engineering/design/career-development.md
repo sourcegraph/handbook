@@ -78,6 +78,9 @@ It’s important to understand that what is listed in the level descriptions are
   .levels-table td[colspan] {
     text-align: center;
   }
+  .levels-table td ul {
+     text-align: left;
+  }
   .level-summary, .category-summaries-row {
     font-style: italic;
   }
