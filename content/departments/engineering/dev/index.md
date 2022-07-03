@@ -116,8 +116,8 @@ The current channels are:
 - IC5s are expected to raise global tech problems and recommend solutions to the Head of Engineering.
   - This only applies to problems/solutions that require significant cross-team coordination and staffing. For anything smaller that doesn't need help from the Head of Engineering, just go do it; no process required.
 - Each recommendation should have been reviewed by each IC5.
-   - Consensus is not necessary.
-   - If an IC5 is out on leave or otherwise can't review it, don't block on them unless you think it is necessary.
+  - Consensus is not necessary.
+  - If an IC5 is out on leave or otherwise can't review it, don't block on them unless you think it is necessary.
 - When given a problem and recommended solution, the Head of Engineering should generally approve (and get a staffing plan in place) or reject within 48 hours.
 
 ## Misc.
