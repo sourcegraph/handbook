@@ -78,7 +78,7 @@ On top of [the company wide process for reviewing pull requests](https://docs.so
   - Ex: If looking to be reviewed by someone in particular, just explicty add them in the reviewers (useful to get a thorough review when a teammate has a lot of context for example).
   - Ex: Reach out for others if a review is urgent. 
   - Ex: PR author is responsible of taking the decision on when it's ok to merge it, to keep adding changes or to add those in a different PR.
-- We communicate eagerly on our PRs:
+- We eagerly communicate in our PRs:
   - Ex: If a review was expedited to unblock the PR, just say so and let its author bear the responsibility of merging or not their PR.
   - Ex: If only a subset of the PR content is familiar to you, you can still review, just say what you didn't cover.
   - Ex: If I don't understand why something is done in a certain way, just ask. There are no dumb questions. 
