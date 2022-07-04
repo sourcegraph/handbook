@@ -1,6 +1,6 @@
 # Frontend platform team completed goals
 
-This page records goals completed by the Frontend platform team historically (started recording in FY-21-Q4). See also our [current goals](../../../../../strategy-goals/strategy/enablement/frontend-platform/index.md).
+This page records goals completed by the Frontend platform team historically (started recording in FY-21-Q4). See also our [current goals](../../../../../strategy-goals/strategy/frontend-platform/index.md).
 
 - [**FY2023**](#fy2023)
 - [**FY2022**](#fy2022)

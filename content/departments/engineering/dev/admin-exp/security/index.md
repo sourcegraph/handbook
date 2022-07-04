@@ -243,6 +243,7 @@ You should provide a written response unless it's a simple yes/no question, in w
 ## Monitoring and incident response
 
 - [Security Incident Response Policy](./security-incident-response.md)
+- [Security Incident Response Process](./security-incident-response-process.md)
 
 ## Risk management
 

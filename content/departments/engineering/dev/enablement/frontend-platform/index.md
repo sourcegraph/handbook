@@ -12,7 +12,7 @@ Our mission is to empower all users and Sourcegraph frontend developers to achie
 
 ## Strategy
 
-[Find out about the Frontend Platform team's mission, vision, and strategic plans.](../../../../../strategy-goals/strategy/enablement/frontend-platform/index.md)
+[Find out about the Frontend Platform team's mission, vision, and strategic plans.](../../../../../strategy-goals/strategy/frontend-platform/index.md)
 
 ## Responsibilities
 

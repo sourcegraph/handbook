@@ -2,13 +2,7 @@
 
 ## Hiring process
 
-- [Headcount Planning and Approval](people-ops/process/headcount-planningl-approval.md)
-  - What is the approved headcount
-  - How to make a change to my headcount plan
-  - How to change a role’s start date (pulling a role forward or pushing it back in the board-approved headcount plan)
-  - How to add a net-new role to the headcount plan (not already approved by the board)
-  - How to delete a role from the plan (with no plans to re-allocate the headcount to another role or department)
-  - How to change the scope of a role (ie title, level, department etc.)
+- [Headcount Planning and Approval](talent/process/headcount_changes.md)
 - [Leveling philosophy](people-ops/process/compensation-and-leveling/leveling.md)
 - [Compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - [Who is my recruiter?](talent/process/teamalignment.md)

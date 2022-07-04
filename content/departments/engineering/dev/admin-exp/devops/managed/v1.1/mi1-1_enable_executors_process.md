@@ -41,6 +41,20 @@ Add the executor token to the site configuration of the instance (note: this mus
 mg executors set-token --token $(terraform output -raw executor_proxy_password)
 ```
 
+### Reload deployment config
+
+Sync configuration
+
+```sh
+mg sync
+```
+
+Reload worker to catch up with the updated configuration
+
+```sh
+mg ssh-exec "cd /deployment/docker-compose && docker-compose up -d worker"
+```
+
 ### Confirm executors is actually working
 
 Then run the command below, which will

@@ -17,7 +17,7 @@ Our mission is to provide the fastest, most seamless way for development teams t
 
 ## Useful links
 
-[Product Strategy – Mission/Vision/Focus Areas](../../../../strategy-goals/strategy/admin-exp/index.md)
+[Product Strategy – Mission/Vision/Focus Areas](../../../../strategy-goals/strategy/index.md)
 
 ## Contact
 
