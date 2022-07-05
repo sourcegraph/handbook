@@ -34,6 +34,7 @@ Existing tooling doesn’t enable teams to be agile and effective in their respo
 The recent Log4j vulnerability is still having a massive impact on developers worldwide. It is a prime example of how challenging it is to create a cohesive response across multiple teams in an org. While Log4j was a widely recorded vulnerability with a lot of available remediation tactics, teams all around the world, in multi-million dollar infrastructure organizations, were left feeling lost and scrambling to implement a fix. Most organizations struggled with searching all of their codebase to determine where the vulnerability existed, how it was being used, and what impact it had on the other code. Even after learning that, they were not empowered to patch it in an effective, timely manner.
 
 In April May FY2023, we ran a 2-month exploratory effort to identify the core painpoints of security teams and security leaders. We focused on the software supply chain. Here are the key findings:
+
 - Supply chain attacks are increasing, as well as regulatory pressure on emitting a software bill of material (SBOM). It's likely that emitting an SBOM will rapidly be commoditized, however no player today is providing a complete solution to explore, visualise, and extract actionable insights form the SBOM.
 - Code security scanners create a low signal to noise/ratio, increasing the load on security and development teams. This leads to alert fatigue, and sometimes to the erosion of trust between security and development teams.
 - When analyzing the maturity of security teams, there are three main stages:
@@ -44,6 +45,7 @@ In April May FY2023, we ran a 2-month exploratory effort to identify the core pa
 See [explore, understand & secure the software supply chain](https://docs.google.com/presentation/d/1_Cuu2wi9Zdq41PW97rbmlIruhQSY9t_1zOlOkI6A1Es/edit) for a vision of how Sourcegraph could position itself in the software supply chain space by building a dependency graph. Also see [PD 35 WIP - Dependency Graph for code security](https://docs.google.com/document/d/1Bq2SAx-FXxzW0YFbkIYoPS6bvy-LvlvZMyOTNUI1NV0/edit#heading=h.z5ozjpfzh2yl).
 
 Sourcegraph today is building two building blocks that will be key in achieving that vision:
+
 - dependency search
 - code ownership
 
