@@ -12,7 +12,7 @@ Our mission is to empower all users and Sourcegraph frontend developers to achie
 
 ## Strategy
 
-[Find out about the Frontend Platform team's mission, vision, and strategic plans.](../../../../../strategy-goals/strategy/frontend-platform/index.md)
+[Find out about the Frontend Platform team's mission, vision, and strategic plans.](../../../../strategy-goals/strategy/frontend-platform/index.md)
 
 ## Responsibilities
 
@@ -32,7 +32,7 @@ Our mission is to empower all users and Sourcegraph frontend developers to achie
    - Sourcegraph application homepage, user settings, and admin pages
    - . . . And supporting other teams in all of the above
 
-We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities.md#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities.md#frontend-crew). For a breakdown of responsibilities across teams, see [Engineering Ownership](../../process/engineering_ownership.md).
+We also maintain the [canonical list(s) of frontend devs at Sourcegraph](./other-responsibilities.md#frontend-devs) and host the [Frontend Crew meeting](./other-responsibilities.md#frontend-crew). For a breakdown of responsibilities across teams, see [Engineering Ownership](../../dev/process/engineering_ownership.md).
 
 ## Contact
 
@@ -43,7 +43,7 @@ For more information on how to contact us for support or raise an issue, please 
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
+We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md).
 
 ## Processes
 

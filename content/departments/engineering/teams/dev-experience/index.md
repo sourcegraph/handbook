@@ -10,7 +10,7 @@ The Dev Experience team, or DevX for short, is a team focused on improving the d
 
 ## Strategy
 
-Find out more about the Dev Experience team's mission, vision, and strategic plans in our [Strategy page](../../../../../strategy-goals/strategy/dev-experience/index.md).
+Find out more about the Dev Experience team's mission, vision, and strategic plans in our [Strategy page](../../../../strategy-goals/strategy/dev-experience/index.md).
 
 ## Responsibilities
 
@@ -33,13 +33,13 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
     - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
     - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
-  - [Continuous integration infrastructure](../../tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
-  - [Continuous integration playbook](../../process/incidents/playbooks/ci.md)
+  - [Continuous integration infrastructure](../../dev/tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
+  - [Continuous integration playbook](../../dev/process/incidents/playbooks/ci.md)
 - Other
   - [Developer experience newsletter](./newsletter.md)
   - [`sg` hack hour](processes.md#sg-hack-hour)
 
-Also see [org-wide areas of ownership](../../process/engineering_ownership.md) and our [team processes](processes.md).
+Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.md) and our [team processes](processes.md).
 
 ## Contact
 
@@ -52,7 +52,7 @@ Also see [org-wide areas of ownership](../../process/engineering_ownership.md) a
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
+We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md). In addition, the following principles guide the work we do in dev experience. Sometimes adhering to one causes us to compromise another, but they guide our decisions on what matters.
 
 - **We don't own the developer experience at Sourcegraph – we simply focus on it.** Sourcegraph engineers own the developer experience as a collective.
 - **We ship open products.** Our products are open to contributions to anyone in the company, documented, and provide migration paths if necessary. Our decisions are clearly and publicly communicated for everyone to understand our reasoning. We want to make it simple for everyone to benefit from and work on Sourcegraph’s developer experience.
@@ -82,4 +82,4 @@ Come work with us! We're hiring software engineers to join our team in Q3 and Q4
 ## Tech stack
 
 We primarily build tools and libraries in Go, with a dash of bash scripting in between.
-We also operate [CI infrastructure](../../tools/infrastructure/ci/index.md) with Kubernetes and Terraform.
+We also operate [CI infrastructure](../../dev/tools/infrastructure/ci/index.md) with Kubernetes and Terraform.

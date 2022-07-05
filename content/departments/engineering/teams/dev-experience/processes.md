@@ -19,7 +19,7 @@ We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views
 
 When planning work, the [relevant work lead](#work-leads) should:
 
-- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../process/tracking_issues.md). The tracking issue description should have the following:
+- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../dev/process/tracking_issues.md). The tracking issue description should have the following:
   - **Problem**: Articulate the problem space and requirements.
   - **Scope**: Scope the work so that it can be completed in a single bet cycle, identifying:
     - **Boundaries**: Define what work is within the scope and what work is explicitly out of scope. (Out-of-scope boundaries, or "non-goals", are worth writing down and they help prevent scope creep.)
@@ -28,7 +28,7 @@ When planning work, the [relevant work lead](#work-leads) should:
       - "non-functional requirements" such as testing, monitoring, and documentation
       - a retrospective (e.g. by consulting relevant stakeholders) to identify if goals were achieved and follow-up work needs to be done
 - Create a implementation plan by creating and tagging [GitHub issues](#tracking) to be tracked in the roadmap issue.
-  - Issues should be labeled with days estimates ([as supported by the tracking-issue-bot](../../process/tracking_issues.md#labels)), other metadata where helpful, a rough order of operations, and outline of what can be parallelized.
+  - Issues should be labeled with days estimates ([as supported by the tracking-issue-bot](../../dev/process/tracking_issues.md#labels)), other metadata where helpful, a rough order of operations, and outline of what can be parallelized.
   - Dependencies on other work are identified and tracked.
 - Maintain an understanding of the progress of the work.
   - Have a clear picture of what's being executed, what's coming up, and overall timelines.
@@ -43,7 +43,7 @@ Note that teammates can also support a work lead on all of the above - it is not
 
 ### Unplanned work
 
-We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../../strategy-goals/strategy/dev-experience/index.md#roadmap), so as a rule of thumb:
+We aim to allow teammates the flexibility to work on incoming requests, tackle proactive improvements, and invest in long-term efforts on our [roadmap](../../../../strategy-goals/strategy/dev-experience/index.md#roadmap), so as a rule of thumb:
 
 - We aim to spend **20% to 30%** (~2-3 days every 2 weeks) of our time on making proactive impact, i.e. working on things that are aligned with the team's mission, but aren't on our roadmap.
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
@@ -109,7 +109,7 @@ Concrete, permanent artefacts should be created from them, e.g. via the [planned
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #dev-experience channel is the best way to reach us. Tag the `@dev-experience-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 #### Raising an issue
 
@@ -153,7 +153,7 @@ If a tool or test is behaving in an unstable manner, the team using the tool or 
 
 The team leading the investigation should either fix the issue directly, or if the issue requires changes in the [DevX team's ownership/responsibility areas](#responsibilities) (e.g. increasing resource limits for build agents, or making significant changes to the pipeline generator), request the desired changes through an issue tagged `team/devx`.
 
-For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
+For a higher-level understanding of our responsibilities, see our [guiding principles](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
 
 ## Team roles
 
@@ -169,7 +169,7 @@ See the [planned work process](#planned-work) for additional details.
 
 ## Team meetings and communication
 
-We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
+We inherit Sourcegraph's [meeting principles](../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
 - Meeting leaders rotate weekly, and the leader should prepare the agenda at least 24 hours ahead of time.
 - All teammates should add items to the agenda before the meeting begins.
@@ -235,7 +235,7 @@ To prepare a new issue of the newsletter, create a PR for the latest newsletter 
 
 - You can refer to [`dx-announce` issues and PRs](https://github.com/sourcegraph/sourcegraph/issues?q=+is%3Aclosed+sort%3Aupdated-desc+label%3Adx-announce) for content ideas!
   - Adding a `closed:>YYYY-MM-DD` will filter the list down to just things that have been closed since the last newsletter issue.
-- To include images, either [follow the official guide](../../../../../handbook/editing/handbook-images-video.md) or upload images to a GitHub issue - this will provide a shareable link.
+- To include images, either [follow the official guide](../../../../handbook/editing/handbook-images-video.md) or upload images to a GitHub issue - this will provide a shareable link.
 
 Once the newsletter is ready and reviewed, merge the PR. Then copy and paste the rendered newsletter from the handbook (you can set this up locally with `yarn dev`) into a draft newsletter. You will need to remove the background color from the pasted content, but the formatting should otherwise just work.
 

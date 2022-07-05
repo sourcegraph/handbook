@@ -4,7 +4,7 @@
 
 ### Planning
 
-We use the [FPT Planning](https://docs.google.com/document/d/1Y_1t9fPWn7VfARcLKj4KEV4FJoMHsGzG8flJH2V54QA/edit) document to asynchronously discuss our quarterly roadmap. Our [Strategy](../../../../../../content/strategy-goals/strategy/frontend-platform/index.md) page is updated monthly to reflect our team’s plans.
+We use the [FPT Planning](https://docs.google.com/document/d/1Y_1t9fPWn7VfARcLKj4KEV4FJoMHsGzG8flJH2V54QA/edit) document to asynchronously discuss our quarterly roadmap. Our [Strategy](../../../../../content/strategy-goals/strategy/frontend-platform/index.md) page is updated monthly to reflect our team’s plans.
 
 We collect our team’s important planning documents in [Frontend Platform RFCs and PDs](https://docs.google.com/document/d/12CJP9T360GzxQJpJuJgtRid3uKpyIWPo1XpvkXG3P9M/edit).
 
@@ -14,7 +14,7 @@ As of 2022-04-20, we use Github projects and Code Insights to keep track of our 
 
 #### Product and Engineering roadmap project
 
-Our quarterly roadmap items are defined in [tracking issues](../../process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these tracking issues collate the smaller issues that contribute to the execution of our roadmap. In this way, they reflect a high-level view of our progress on a given roadmap item.
+Our quarterly roadmap items are defined in [tracking issues](../../dev/process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these tracking issues collate the smaller issues that contribute to the execution of our roadmap. In this way, they reflect a high-level view of our progress on a given roadmap item.
 
 #### Frontend Platform project
 
@@ -41,7 +41,7 @@ The Frontend Platform team primarily receives support requests from internal Sou
 
 ### Requesting support
 
-If you have a question that relates to our [areas of ownership](../../process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-platform-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
+If you have a question that relates to our [areas of ownership](../../dev/process/engineering_ownership.md), the #frontend-platform channel is the best way to reach us. Tag the `@frontend-platform-support` handle if something is urgent (think of this as pulling the fire alarm) and requires our immediate attention. Our on-call teammate will jump in.
 
 ### Raising an issue
 
@@ -67,7 +67,7 @@ For each roadmap item, we assign an engineer to be technical lead. Technical lea
 
 ## Team Meetings
 
-We inherit Sourcegraph's [meeting principles](../../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
+We inherit Sourcegraph's [meeting principles](../../../../company-info-and-process/communication/index.md#internal-meetings) and [asynchronous communication guidelines](../../../../company-info-and-process/communication/asynchronous-communication.md#how-to-choose-sync-vs-async) with some modifications that help us run effective meetings:
 
 - Meeting leaders rotate weekly, and the leader should prepare the agenda at least 24 hours ahead of time.
 - All teammates should add items to the agenda before the meeting begins.

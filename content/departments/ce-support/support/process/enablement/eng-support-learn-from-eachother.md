@@ -71,7 +71,7 @@ Some engineering teams have a way for an application engineer to take on a scope
 
 ### If you are interested in frontend development...
 
-Our [Frontend Platform team](../../../../engineering/dev/enablement/frontend-platform/index.md) welcomes you to:
+Our [Frontend Platform team](../../../../engineering/teams/frontend-platform/index.md) welcomes you to:
 
 1. Learn [Typescript](https://www.typescriptlang.org/) and [React](https://reactjs.org/)
 2. Learn how to write unit tests with [Jest](https://jestjs.io/docs/getting-started)

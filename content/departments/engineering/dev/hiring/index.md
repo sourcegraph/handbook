@@ -28,7 +28,7 @@ Since there is a smaller number of Sourcegraph teammates with frontend expertise
 
 The source of truth for assignment grading (who has experience with each type of assignment) can be found in the internal [Assignment Grading Experience](https://docs.google.com/spreadsheets/d/1GjANzx39zouJZzFQv7PinhNvYLa5wIMtGnJdKK4EjiI/edit#gid=0) sheet.
 
-For the purposes of hiring, _frontend engineer_ means anyone on [the @frontend-devs list](../enablement/frontend-platform/other-responsibilities.md#frontend-devs).
+For the purposes of hiring, _frontend engineer_ means anyone on [the @frontend-devs list](../../teams/frontend-platform/other-responsibilities.md#frontend-devs).
 
 ### Other positions
 

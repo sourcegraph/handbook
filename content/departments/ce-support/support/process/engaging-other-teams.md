@@ -150,7 +150,7 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 
 The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each engineering team).
 
-If the docs site is unavilable, route to the [Content Platform team](../../../engineering/dev/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
+If the docs site is unavilable, route to the [Content Platform team](../../../engineering/teams/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
 
 For a more detailed breakdown of codebase ownership please see the [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) matrix
 

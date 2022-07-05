@@ -8,7 +8,7 @@ The Content Platform team (part of the [Enablement](../index.md) org) creates, m
 
 ## Our Strategy
 
-[Mission & Vision](../../../../../strategy-goals/strategy/content-platform/index.md)
+[Mission & Vision](../../../../strategy-goals/strategy/content-platform/index.md)
 
 ## Responsibilities
 
@@ -30,7 +30,7 @@ The Content Platform team has the following customers:
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../process/principles-and-practices.md) and [Enablement principles and practices](../index.md#principles-and-practices).
+We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md).
 
 ### Guiding principles
 
@@ -103,7 +103,7 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 
 ### Prioritizing Issues
 
-- Issues are prioritized as they come in by the Content Platform [Product Manager](../../../product/roles), with input from the rest of the team and stakeholders
+- Issues are prioritized as they come in by the Content Platform Product Manager, with input from the rest of the team and stakeholders
 - Priorities are reviewed in the [bi-weekly team sync](#bi-weekly-sync-meeting) to prepare for the next sprint
 
 ### Issue Status + Updating Issues
@@ -172,7 +172,7 @@ You can view our [Current Sprint](https://github.com/orgs/sourcegraph/projects/2
 
 #### Retrospectives
 
-- _Overview:_ We conduct a bi-weekly [retrospective](../../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
+- _Overview:_ We conduct a bi-weekly [retrospective](../../../../company-info-and-process/communication/retrospectives.md) to celebrate wins and share feedback.
 - _Goal:_ To ensure we improve as a team to become more efficient and effective.
 - _When:_ Every second Thursday
 

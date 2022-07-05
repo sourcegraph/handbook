@@ -1,6 +1,6 @@
 # 🗞 Developer experience newsletter
 
-Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevX team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevX team focuses on but is owned by everyone](../../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
+Welcome to the developer experience newsletter! This is a newsletter prepared by the [DevX team](./index.md) to highlight contributions and updates to Sourcegraph's developer experience, which is [an area the DevX team focuses on but is owned by everyone](../../../../strategy-goals/strategy/dev-experience/index.md#guiding-principles).
 
 To have your updates highlighted here, please tag your PR or issue with the `dx-announce` label! If you have questions or feedback, feel free to reach out in #dev-experience or in our [discussions](https://github.com/sourcegraph/sourcegraph/discussions/categories/developer-experience) as well.
 
@@ -27,7 +27,7 @@ You can find the new docs in [How to add logging](https://docs.sourcegraph.com/d
 
 [![how to find out if a CI failure is a recurring flake](https://cdn.loom.com/sessions/thumbnails/58cedf44d44c45a292f650ddd3547337-1655933919745-with-play.gif)](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337)
 
-More details are available in the handbook: [Grafana Cloud - CI logs](../../tools/observability/cloud.md#ci-logs), and if you have any questions please reach out in #dev-experience!
+More details are available in the handbook: [Grafana Cloud - CI logs](../../dev/tools/observability/cloud.md#ci-logs), and if you have any questions please reach out in #dev-experience!
 
 ### Observability features
 
@@ -426,7 +426,7 @@ Actors (used to identify a request in the context of a user or internal actor) a
 
 #### Tracking issues
 
-[Tracking issues](../../process/tracking_issues.md) now support a new marker, `<!-- OPTIONAL LABEL: my-label -->`, that allows you to add labels on a tracking issue that do not need to be present on child issues for them to be considered part of this tracking issue. This is useful for making tracking issues easier to find without adding labels to every single issue within the tracking issue. For more details, see [#28665](https://github.com/sourcegraph/sourcegraph/pull/28665).
+[Tracking issues](../../dev/process/tracking_issues.md) now support a new marker, `<!-- OPTIONAL LABEL: my-label -->`, that allows you to add labels on a tracking issue that do not need to be present on child issues for them to be considered part of this tracking issue. This is useful for making tracking issues easier to find without adding labels to every single issue within the tracking issue. For more details, see [#28665](https://github.com/sourcegraph/sourcegraph/pull/28665).
 
 ### Continuous integration
 
@@ -434,7 +434,7 @@ Actors (used to identify a request in the context of a user or internal actor) a
 
 In response to a variety of CI incidents (including [INC-21](https://github.com/sourcegraph/sourcegraph/issues/25482) at the end of September) we have introduced automated branch locks via a tool called [`buildchecker`](https://github.com/sourcegraph/sourcegraph/tree/main/dev/buildchecker). When `buildchecker` detects a series of CI failures, it will now automatically restrict push access to `main` to authors of recent failed builds and the DevX team until it sees a passed build, at which point it will unlock the branch. A notification will be posted in Slack to #buildkite-main as well mentioning the relevant teammates.
 
-It is the responsibility of authors of recently failed builds to investigate what might have gone wrong, seek help if needed, and help get the pipeline back green. We hope this will prevent long periods of time where many commits to `main` go untested due to failing jobs. To learn more, check out the [branch lock playbook](../../process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch)
+It is the responsibility of authors of recently failed builds to investigate what might have gone wrong, seek help if needed, and help get the pipeline back green. We hope this will prevent long periods of time where many commits to `main` go untested due to failing jobs. To learn more, check out the [branch lock playbook](../../dev/process/incidents/playbooks/ci.md#buildchecker-has-locked-the-main-branch)
 
 We've also made significant investments towards improving and streamlining the pipeline for better stability and observability - most recently, [a large number of E2E/QA tests were dropped](#e2e-and-qa-tests-survey-results) - which will hopefully help with minimizing locks triggered by test and infrastructure flakes.
 
@@ -457,9 +457,9 @@ Buildkite pipeline steps should now explicitly declare `queue: standard` to avoi
 
 #### Terraform vulnerability scanning
 
-The [security team](../../../teams/security/index.md) has introduced [Checkov checks](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) to the [`infrastructure` repository](https://github.com/sourcegraph/infrastructure) and performed a cleanup to fix or suppress all high and critical issues!
+The [security team](../security/index.md) has introduced [Checkov checks](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) to the [`infrastructure` repository](https://github.com/sourcegraph/infrastructure) and performed a cleanup to fix or suppress all high and critical issues!
 
-Going forward, the Checkov step of the infrastructure pipeline will be set to fail in the event it finds a Terraform security issue. If the pipeline fails a warning block will be displayed in the pipeline output - a link will take you to the handbook with guidance on how to continue, and additional output will help point you towards how to correct the issue. For more details, see [Checkov Terraform vulnerability scanning](../../../teams/security/checkov.md)
+Going forward, the Checkov step of the infrastructure pipeline will be set to fail in the event it finds a Terraform security issue. If the pipeline fails a warning block will be displayed in the pipeline output - a link will take you to the handbook with guidance on how to continue, and additional output will help point you towards how to correct the issue. For more details, see [Checkov Terraform vulnerability scanning](../security/checkov.md)
 
 If anyone has any questions or issues, please post in the #security channel!
 
@@ -531,7 +531,7 @@ To be mentioned here in the next iteration, please tag your PR or issue with dx-
 
 ### DevX team mission statement
 
-Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/dev-experience](../../../../../strategy-goals/strategy/dev-experience/index.md)
+Published Developer Experience team mission and strategy: [handbook.sourcegraph.com/company/strategy/dev-experience](../../../../strategy-goals/strategy/dev-experience/index.md)
 
 ### Buildkite incident post-mortem(s)
 

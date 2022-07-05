@@ -180,4 +180,4 @@ Based on these traces, we can create dashboards to monitor the metrics related t
 
 You can see our current dashboards in Honeycomb: [Deployments](https://ui.honeycomb.io/sourcegraph/board/ev4yWqP5h3u/Deployments)
 
-This tooling is operated by the [DevX team](../../enablement/dev-experience/index.md).
+This tooling is operated by the [DevExp team](../../../teams/dev-experience/index.md).
