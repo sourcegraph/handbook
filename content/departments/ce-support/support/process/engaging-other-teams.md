@@ -81,8 +81,8 @@ EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 
 - `Perforce` should be routed to the [Repo Management](../../../engineering/dev/admin-exp/repo-management/index.md)
 - `permission syncing` should be routed to the [Repo Management](../../../engineering/dev/admin-exp/repo-management/index.md)
-- `CVS` should be routed to the [Batch Changes team](../../../engineering/dev/code-graph/batch-changes/index.md)
-- `license enforcement/management` should be routed to the [Batch Changes team](../../../engineering/dev/code-graph/batch-changes/index.md) (though these should always go through the CE)
+- `CVS` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md)
+- `license enforcement/management` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md) (though these should always go through the CE)
 
 Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../../engineering/dev/admin-exp/integrations/index.md).
 
@@ -96,7 +96,7 @@ Any questions about repository updating, indexing, or code host syncing should b
 
 **Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
-Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../../engineering/dev/code-graph/code-intelligence/index.md).
+Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../../engineering/teams/code-intelligence/index.md).
 
 ### Search
 
@@ -104,7 +104,7 @@ Any questions about code intelligence and navigation should be routed to the [Co
 
 The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud.
 
-Any questions about search should be routed to the [Search team](../../../engineering/dev/code-graph/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
+Any questions about search should be routed to the [Search team](../../../engineering/teams/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
 
 In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively.
 
@@ -124,7 +124,7 @@ Any questions about Sourcegraph extensions should be routed to the [Integrations
 
 **Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src batch`, `automation`, `batch changes`
 
-Any questions about Batch Changes should be routed to the [Batch Changes team](../../../engineering/dev/code-graph/batch-changes/index.md).
+Any questions about Batch Changes should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md).
 
 ### Cloud
 
@@ -142,7 +142,7 @@ Any questions about Identity and Access Management (IAM) and Administration Expe
 
 **Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
 
-Any questions about Code Insights should be routed to the [Code Insights Team](../../../engineering/dev/code-graph/code-insights/index.md)
+Any questions about Code Insights should be routed to the [Code Insights Team](../../../engineering/teams/code-insights/index.md)
 
 ### Docs site availability
 

@@ -16,7 +16,7 @@ The code insights team is responsible for building and delivering code insights 
 ## Handbook Pages
 
 - [Processes](processes.md)
-- [Strategy, goals, and roadmap](../../../../../strategy-goals/strategy/code-insights/index.md)
+- [Strategy, goals, and roadmap](../../../../strategy-goals/strategy/code-insights/index.md)
 - [Code Insights go-to-market resources](go_to_market.md)
 - [(Internal) framework for thinking about success when we close new sales](https://docs.google.com/document/d/1xt_HmXIc7bd5ItINSZWIjpDvf1n_-GRVE1KDQS2qtcM/edit)
 
@@ -70,7 +70,7 @@ For more information about code insights, see the original [product document](ht
   - @sourcegraph/code-insights-frontend for only the frontend engineers on the team
   - @sourcegraph/code-insights-backend for only the backend engineers on the team
 - [Code Insights Events](https://calendar.google.com/calendar/u/0?cid=Y19kOWFyMHUzZ3BpbnVpNjRiMDRpNjc3bm1qY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) calendar.
-  - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
+  - _Teammates should add this calendar (calendar ID `c_d9ar0u3gpinui64b04i677nmjc@group.calendar.google.com`) as an additional calendar in the [Roots PTO Slack app](../../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md) so that their PTO is visible to their team on the team calendar (and disable adding their manager directly to the calendar invite)._
 - code-insights-team@sourcegraph.com Google group for mentioning in Google Docs and calendar invites.
 - #code-insights-internal for team (non-product) related discussion
 - #code-insights-eng for higher bandwith communication typically amongst the engineering team / PM. This channel is separated out of #code-insights since this discussion can get quite noisy for the casual observer of #code-insights.

@@ -24,7 +24,7 @@ It also owns a subset of features built on top of Sourcegraph search:
 - Code monitoring
 - Saved searches
 
-To learn more about our goals, see the [Search Product strategy](../../../../../strategy-goals/strategy/search/product.md) page.
+To learn more about our goals, see the [Search Product strategy](../../../../strategy-goals/strategy/search/product.md) page.
 
 ## Teammate experience: guiding principles
 

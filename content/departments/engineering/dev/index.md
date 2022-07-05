@@ -42,14 +42,6 @@
 
 <video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
 
-## Org chart
-
-We are organized in 3 orgs:
-
-- [Code Graph](code-graph/index.md)
-- [Admin Experience](admin-exp/index.md)
-- [Enablement](enablement/index.md)
-
 ## Communication
 
 For a list of engineering relevant Slack channels to join see the [team chat](../../../company-info-and-process/communication/team_chat.md#engineering) page in the handbook.

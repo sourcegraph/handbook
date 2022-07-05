@@ -222,7 +222,7 @@ rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
   manager_role_slug: design_manager_code_graph
-  role: Design Manager, Code Graph
+  role: Design Manager
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -2630,7 +2630,7 @@ megan_standrew:
   name: Megan St. Andrew
   pronouns: she/they
   location: Chicago, IL, USA 🇺🇸
-  role: UX Researcher, Code Graph
+  role: UX Researcher
   reports_to: director_design
   email: megan.standrew@sourcegraph.com
   github: meglynst

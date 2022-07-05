@@ -7,7 +7,7 @@ The search core team owns all parts of Sourcegraph that map an interpreted searc
 - Result ranking
 - Open source indexing, current at over 2.5M repos!
 
-To learn more about our goals, see the [Search Core strategy](../../../../../strategy-goals/strategy/search/core.md) page.
+To learn more about our goals, see the [Search Core strategy](../../../../strategy-goals/strategy/search/core.md) page.
 
 ## Team members
 
@@ -66,7 +66,7 @@ We use a [backlog project board](https://github.com/orgs/sourcegraph/projects/20
 
 ## Living the Async Life
 
-Our team is geographically and timezone diverse. The handbook has a [large page dedicated to it](../../../../../company-info-and-process/communication/asynchronous-communication.md) and it is worth reading. This section is intended to augment the handbook. Since our team works across many timezones, setting boundaries for notifications becomes really important to protect your free time. You are empowered to do this and here are a couple of suggestions:
+Our team is geographically and timezone diverse. The handbook has a [large page dedicated to it](../../../../company-info-and-process/communication/asynchronous-communication.md) and it is worth reading. This section is intended to augment the handbook. Since our team works across many timezones, setting boundaries for notifications becomes really important to protect your free time. You are empowered to do this and here are a couple of suggestions:
 
 1. Set your working hours in Google. This makes it easier for your teammates to see when you are normally online.
 2. Set your [notification schedule in Slack](https://slack.com/help/articles/214908388-Pause-notifications-with-Do-Not-Disturb).
@@ -89,7 +89,7 @@ Most of the work related to releasing our code fits the general description of [
 
 However, there is an important thing to mention. Since Zoekt lives in a separate repo, we need to periodically pull changes from the Zoekt repo to the main Sourcegraph repo. This can be done either manually by altering the go.mod and go.sum files in the main repo, or by merging the corresponding PR opened by [the bot](https://github.com/sourcegraph/sourcegraph/pulls?q=is%3Apr+author%3Asourcegraph-buildkite+zoekt).
 
-This is good enough to see our changes in an upcoming release, but if you want to see them immediately at Sourcegraph Cloud, another step is needed. Sourcegraph Cloud is continuously deployed from the main repo code, and we alter some parts of it by providing an intentionally wrong version number in the deployment script. The reason is we do not depend on the rollout schedule this way; each update of the version number triggers a rollout. For information on how to bump the Zoekt images and deploy the newer versions, refer to [Continuous Deployment Process](../../process/deployments/index.md#continuous-deployment-process), [Manually deploying a service to sourcegraph.com](../../process/deployments/playbooks.md#manually-deploying-a-service-to-sourcegraphcom), and [Our update script](https://github.com/sourcegraph/sourcegraph/blob/3.20/dev/zoekt/update).
+This is good enough to see our changes in an upcoming release, but if you want to see them immediately at Sourcegraph Cloud, another step is needed. Sourcegraph Cloud is continuously deployed from the main repo code, and we alter some parts of it by providing an intentionally wrong version number in the deployment script. The reason is we do not depend on the rollout schedule this way; each update of the version number triggers a rollout. For information on how to bump the Zoekt images and deploy the newer versions, refer to [Continuous Deployment Process](../../dev/process/deployments/index.md#continuous-deployment-process), [Manually deploying a service to sourcegraph.com](../../dev/process/deployments/playbooks.md#manually-deploying-a-service-to-sourcegraphcom), and [Our update script](https://github.com/sourcegraph/sourcegraph/blob/3.20/dev/zoekt/update).
 
 ## On Boarding - [visit the page](./onboarding.md)
 
@@ -99,7 +99,7 @@ This is good enough to see our changes in an upcoming release, but if you want t
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
-- [How gitserver works](../../admin-exp/repo-management/how-gitserver-works.md)
+- [How gitserver works](../../dev/admin-exp/repo-management/how-gitserver-works.md)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html

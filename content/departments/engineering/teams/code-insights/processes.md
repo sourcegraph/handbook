@@ -38,9 +38,9 @@ Our current process is as follows:
 
 - **While an iteration is ongoing, we plan the next iteration**. This is a mostly asynchronous process.
 
-  - Engineers, designer, PM and EM can **_propose_ issues to be worked on** _before_ the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning) by adding them to the next iteration milestone and setting "Status" to **Proposed**. This is done considering our [higher-level goals and roadmap](../../../../../strategy-goals/strategy/code-insights/index.md).
+  - Engineers, designer, PM and EM can **_propose_ issues to be worked on** _before_ the mid-iteration [Thursday iteration planning](#fortnightly-iteration-planning) by adding them to the next iteration milestone and setting "Status" to **Proposed**. This is done considering our [higher-level goals and roadmap](../../../../strategy-goals/strategy/code-insights/index.md).
 
-  - We plan our iterations with point baselines such that factor in time off, life events, and support across prior iterations. We calibrate these point baselines via temperature checks in retros and manual adjustment. Roughly 80% of our iteration capacity is planned by the PM as the decider, and ~20% of the capacity is explicitly left for engineers to prioritize, taking into account our [goals and roadmap](../../../../../strategy-goals/strategy/code-insights/index.md), technical roadmap, estimates, workloads on individuals, and release dates (the 20th of every month).<br> The PM will choose issues among all proposed issues – engineers and designers should still propose issues, even if they are not the planning decider.
+  - We plan our iterations with point baselines such that factor in time off, life events, and support across prior iterations. We calibrate these point baselines via temperature checks in retros and manual adjustment. Roughly 80% of our iteration capacity is planned by the PM as the decider, and ~20% of the capacity is explicitly left for engineers to prioritize, taking into account our [goals and roadmap](../../../../strategy-goals/strategy/code-insights/index.md), technical roadmap, estimates, workloads on individuals, and release dates (the 20th of every month).<br> The PM will choose issues among all proposed issues – engineers and designers should still propose issues, even if they are not the planning decider.
 
     - The issue should also have its **_Size_ column filled out**, so that it can be evaluated whether it fits into the iteration. If the proposer lacks the information to estimate the issue, they reply on the issue in GitHub or raise it in our Slack channel to get the missing information or get an estimate from the appropiate person. Teammates may also discuss this in ad-hoc synchronous meetings if beneficial. An assignee may also already volunteer or be proposed, but this may still be changed at the [Monday sync](#weekly-sync) to distribute workload. See below for information on issue sizing.
     - If **technical exploration** is needed to get more information, a _spike_ (a time-boxed investigation task meant to facilitate more granular planning) can be proposed for the next iteration instead to get that information.
@@ -114,7 +114,7 @@ Our goal is to begin the next iteration with a correctly-sized **Todo** list, an
 
 ### Releases
 
-Despite following two-week iterations, our [releases are monthly on the 20th](../../process/releases/index.md#releases) and we may sometimes need to order tasks in a way that we can get important projects into the next release.
+Despite following two-week iterations, our [releases are monthly on the 20th](../../dev/process/releases/index.md#releases) and we may sometimes need to order tasks in a way that we can get important projects into the next release.
 
 We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
 
@@ -194,7 +194,7 @@ It's the support engineer's responsibility to reach out proactively, find someon
 
 The engineer assigned to the support rotation is responsible for:
 
-1. Responding to and triaging escalations from other teams (for example: [customer support](../../../../ce-support/support/index.md), or [security](../../admin-exp/security/index.md))
+1. Responding to and triaging escalations from other teams (for example: [customer support](../../../ce-support/support/index.md), or [security](../../dev/admin-exp/security/index.md))
 2. Performing a best-effort resolution of the issue
    1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem

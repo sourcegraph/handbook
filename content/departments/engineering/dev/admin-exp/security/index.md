@@ -108,104 +108,72 @@ In an effort to work closely with our teammates and shift security focus more in
 - **Who is the ambassador for my team?**
   <table>
   <tr>
-   <td><strong>Org</strong>
-   </td>
    <td><strong>Division/Team</strong>
    </td>
    <td><strong>Assignee</strong>
    </td>
   </tr>
   <tr>
-   <td>Code Graph
-   </td>
    <td>Search Core
    </td>
    <td>André
    </td>
   </tr>
   <tr>
-   <td>Code Graph
-   </td>
    <td>Search Product
    </td>
    <td>Lauren
    </td>
   </tr>
   <tr>
-   <td>Code Graph
-   </td>
    <td>Code intelligence
    </td>
    <td>André
    </td>
   </tr>
   <tr>
-   <td>Code Graph
-   </td>
    <td>Batch Changes
    </td>
    <td>Lauren
    </td>
   </tr>
   <tr>
-   <td>Code Graph
-   </td>
    <td>Code insight
    </td>
    <td>André
    </td>
   </tr>
   <tr>
-   <td>Enablement
-   </td>
    <td>Repo management
    </td>
    <td>Feroz
    </td>
   </tr>
   <tr>
-   <td>Enablement
-   </td>
    <td>Delivery
    </td>
    <td>Mohammad
    </td>
   </tr>
   <tr>
-   <td>Enablement
-   </td>
    <td>Dev Experience
    </td>
    <td>Mohammad
    </td>
   </tr>
   <tr>
-   <td>Enablement
-   </td>
    <td>Front End Platform
    </td>
    <td>Lauren
    </td>
   </tr>
   <tr>
-   <td>Cloud
-   </td>
    <td>Growth and Integrations
    </td>
    <td>Feroz
    </td>
   </tr>
   <tr>
-   <td>Cloud
-   </td>
-   <td>Devops
-   </td>
-   <td>André
-   </td>
-  </tr>
-  <tr>
-   <td>Cloud
-   </td>
    <td>IAM
    </td>
    <td>Feroz

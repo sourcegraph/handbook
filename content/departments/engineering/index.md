@@ -10,6 +10,14 @@ We work together to build a product that developers love and that solves big pro
 
 > NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on combining and flattening the handbook structure after that change.
 
+## Teams
+
+- [Search Core](teams/search/core.md)
+- [Search Product](teams/search/product.md)
+- [Code Intelligence](teams/code-intelligence/index.md)
+- [Code Insights](teams/code-insights/index.md)
+- [Batch Changes](teams/batch-changes/index.md)
+
 ## Slack channels
 
 - #engineering

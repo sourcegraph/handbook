@@ -90,8 +90,7 @@ There is also a [company-wide glossary of terms](../../../../company-info-and-pr
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
-- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
-- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
+- Department: A top-level organizational unit of people, such as Sales, Engineering, or Marketing.
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.

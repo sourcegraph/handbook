@@ -1,6 +1,6 @@
 # Code Security tiger team
 
-The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tiger_team) is to iterate quickly with customers over new user flows addressing the [Code security use case](../../../../../strategy-goals/strategy/use-cases/code-security.md) over FY23Q2.
+The purpose of the Code Security [tiger team](https://en.wikipedia.org/wiki/Tiger_team) is to iterate quickly with customers over new user flows addressing the [Code security use case](../../../../strategy-goals/strategy/use-cases/code-security.md) over FY23Q2.
 
 ## Workflow
 
@@ -14,7 +14,7 @@ We use [lookback](https://lookback.io/org/sourcegraph/projects/code-security/rou
 
 ## Strategy
 
-See [strategy page](../../../../../strategy-goals/strategy/code-security-tiger-team/index.md)
+See [strategy page](../../../../strategy-goals/strategy/code-security-tiger-team/index.md)
 
 ## Contact
 
@@ -26,10 +26,10 @@ See [strategy page](../../../../../strategy-goals/strategy/code-security-tiger-t
 
 {{generator:product_team.code_security_tiger_team}}
 
-- [Ryan Scott](../../../../../team/index.md#ryan-scott), Product Manager
-- [Dan Diemer](../../../../../team/index.md#dan-diemer), Customer Engineer
-- [Thorsten Ball](../../../../../team/index.md#thorsten-ball), Software Engineer
-- [André Eleuterio](../../../../../team/index.md#andré-eleuterio), Security Engineer
+- [Ryan Scott](../../../../team/index.md#ryan-scott), Product Manager
+- [Dan Diemer](../../../../team/index.md#dan-diemer), Customer Engineer
+- [Thorsten Ball](../../../../team/index.md#thorsten-ball), Software Engineer
+- [André Eleuterio](../../../../team/index.md#andré-eleuterio), Security Engineer
 
 ## Reading list
 
