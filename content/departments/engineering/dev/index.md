@@ -1,7 +1,5 @@
 # Development
 
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
-
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
 - [Roles and responsibilities](roles/index.md)

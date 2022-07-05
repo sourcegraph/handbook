@@ -4,7 +4,7 @@ Sourcegraph aims to be a platform powered by code search. There are two teams th
 
 Quicklinks:
 
-- [Product & Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
+- [Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
 - [Latest demo](https://www.youtube.com/watch?v=XLfE2YuRwvw)
 - [Documentation](https://docs.sourcegraph.com/code_search/)
 - [Completed goals](../../../departments/engineering/teams/search/goals_completed.md)

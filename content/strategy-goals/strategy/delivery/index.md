@@ -1,6 +1,6 @@
 # Delivery strategy
 
-This page outlines the short-term strategy for the [Delivery team](../../../departments/engineering/teams/delivery/index.md). You can find the overview of Sourcegraph Product and Engineering FY23 Q2 focus [here](../../../departments/engineering/strategy-goals/index.md#fy23-q2-focus)
+This page outlines the short-term strategy for the [Delivery team](../../../departments/engineering/teams/delivery/index.md). You can find the overview of Engineering FY23 Q2 focus [here](../../../departments/engineering/strategy-goals/index.md#fy23-q2-focus)
 
 ---
 
