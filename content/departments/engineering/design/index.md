@@ -36,7 +36,7 @@ As a design team, we’re constantly reflecting and improving on how we work.
 
 ### Design principles
 
-Our [product design principles](../process/index.md#sourcegraphs-design-principles) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
+Our [product design principles](product_design_principles.md) are how we express our shared vision and values while designing for our product. We co-created these principles with members of the design, product, and engineering teams.
 
 ### Designing in the open
 

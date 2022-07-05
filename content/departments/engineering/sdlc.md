@@ -34,21 +34,21 @@ The purpose of these sections is make the objectives definition and understandin
 
 A tracking issue is a GitHub issue that captures the planned and on-going work of a team’s milestone, project, RFC, goal or anything else of the sort and are mentioned in roadmap items they relate to. This artifact is a medium used for planning, progress check-ins and stakeholder communication.
 
-A [detailed guide about tracking issues](../dev/process/tracking_issues.md) is available.
+A [detailed guide about tracking issues](dev/process/tracking_issues.md) is available.
 
 ### Standard issues
 
 A standard issue captures a task, a bug or an explocation owned by a team (assigned through a label of the form `team/NAME`). Other expectations toward the issue content and labels are up to its owning team.
 
-A [detailed page about issues](./working-with-issues.md) is available.
+A [detailed page about issues](working-with-issues.md) is available.
 
 ## Additional artefacts
 
 To convey additional context driving changes, Sourcegraph uses two other type of artefacts, that are referenced by GitHub issues:
 
-- [Product Documents](../product/process/prioritize_and_build/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
-  - See also the [product process](../product/process/index.md).
-- [Request For Comments](../../../company-info-and-process/communication/rfcs/index.md) to communicate around specific problems and make decisions.
+- [Product Documents](product/process/prioritize_and_build/product_documents.md) to communicate high-level product problems that need to be solved. All PDs are available in our [public Google Drive folder](https://drive.google.com/drive/folders/1UbuN9izpTj7ppJiduKI5tid8GEFuAiEx).
+  - See also the [product process](product/process/index.md).
+- [Request For Comments](../../company-info-and-process/communication/rfcs/index.md) to communicate around specific problems and make decisions.
 
 ## Workflow
 
@@ -58,15 +58,15 @@ The flow starts with a GitHub issue that will be the single source of truth for 
 
 Designing at Sourcegraph starts with a design document: a PD, an RFC or simply a description in the GitHub issue.
 
-The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](../design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
+The outcome of the design step is an updated Product Document that links to design work and user research that supports it. The design team follows [product design principles](design/index.md) and iteratively solidifies its work into deliverables that can be shipped in order to measure and evaluate the solution design.
 
-When a RFC or PD reaches the [REVIEW](../product/process/prioritize_and_build/product_documents.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
+When a RFC or PD reaches the [REVIEW](product/process/prioritize_and_build/product_documents.md#status) phase, reviewers and approvers scrutinize the proposed solution, seeking to establish it if meets the stated requirements.
 
-A detailed version of the [design process](../design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
+A detailed version of the [design process](design/design_process.md) is available. This process may also include engineering discovery work that explores the problem space to frame the right boundaries for the implementation phase and to surface potential problems as soon as possible.
 
 ### Implementation
 
-With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](../dev/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../teams/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
+With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](dev/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](teams/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
 
 Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document or RFC, though an Engineering Manager or Engineer can also lead the work.
 
@@ -76,18 +76,18 @@ If complex problems surface during this step, an RFC can be created to frame the
 
 The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. The solution is scrutized to evaluate if the requirements stated in the design phase are met.
 
-Security is evaluated through automated [vulnerability scanning and SAST](../teams/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
+Security is evaluated through automated [vulnerability scanning and SAST](teams/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
 
 If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
 
-If the change is a feature, it may initially only be available behind a [feature flag](../dev/tools/continuous_releasability.md#a-feature-flag-is-required-for-every-new-feature) in order to provide a mechanism to disable it if needed, as well as ensure that the continuous releasability contract is maintained.
+If the change is a feature, it may initially only be available behind a [feature flag](dev/tools/continuous_releasability.md#a-feature-flag-is-required-for-every-new-feature) in order to provide a mechanism to disable it if needed, as well as ensure that the continuous releasability contract is maintained.
 
 ### Deployments
 
 Sourcegraph uses two different mechanisms to deploy its changes in production:
 
-- [Continuous deployments](../dev/index.md#sourcegraph-deployments-and-other-developer-test-instances) on soucegraph.com
-- [Release-based model](../dev/process/releases/index.md) for [managed instances](../teams/devops/managed/index.md).
+- [Continuous deployments](dev/index.md#sourcegraph-deployments-and-other-developer-test-instances) on soucegraph.com
+- [Release-based model](dev/process/releases/index.md) for [managed instances](teams/devops/managed/index.md).
 
 ### Maintenance and monitoring
 

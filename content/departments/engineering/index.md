@@ -44,15 +44,17 @@ The following functional teams work across the above dev teams:
 - #eng-announce
 - #eng-leads
 
+## Processes
+
+- [Submitting a bug report](submitting-a-bug-report.md)
+- [Working with issues](working-with-issues.md)
+- [Our software development lifecycle (SDLC)](sdlc.md)
+
 ## Links
 
 Reference:
 
 - [Current roadmap (private)](https://github.com/orgs/sourcegraph/projects/214/views/21)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
+- [Cross-team collaboration](cross-team-collab.md)
 - [Demo day](demo-day.md)
-- [Processes](process/index.md)
-
-[How to](process/index.md):
-
-- [Submitting a bug report](process/submitting-a-bug-report.md)
