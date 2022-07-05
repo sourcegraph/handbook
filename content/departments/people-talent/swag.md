@@ -41,10 +41,10 @@ After the offer letter has been signed, the People team will email the new hire 
 Once the new hire selects the T-shirt type they want, the new hire will need to follow these two simple steps:
 
 1. Choose the size for the Tshirt and hoodie
-![size](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-size-real.png)
+   ![size](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-size-real.png)
 
 2. Enter shipping information (the address can be US or non-US)
-![shipping](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-shipping.png)
+   ![shipping](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-shipping.png)
 
 Once these steps are completed, the new hire will get an email with delivery details and our vendor will ship the kit using the inventory our people/team has already purchased. New hires will not be responsible for any costs associated with their welcome kit. If there are any fees associated with customs, the new hire can expense the amount once they've started at Sourcegraph.
 
