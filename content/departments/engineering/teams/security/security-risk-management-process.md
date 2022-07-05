@@ -31,17 +31,15 @@ the Information Security Risk Policy.
 
 Sourcegraph's Information Security Risk Committee is currently comprised of:
 
-- [Christina Forney][3], VP Product & Engineering
+- [Quinn Slack][3], Head of Product & Engineering
 - [Dan Adler][4], VP Operations
-- [Diego Comas][5], Engineering Manager, Security
-- [Nick Snyder][6], VP Engineering
-- [Tammy Zhu][7], Diector of Legal
+- [Diego Comas][5], Security Lead
+- [Tammy Zhu][6], Diector of Legal
 
-[3]: ../../../../team/index.md#christina-forney
+[3]: ../../../../team/index.md#quinn-slack
 [4]: ../../../../team/index.md#dan-adler
 [5]: ../../../../team/index.md#diego-comas
-[6]: ../../../../team/index.md#nick-snyder
-[7]: ../../../../team/index.md#tammy-zhu
+[6]: ../../../../team/index.md#tammy-zhu
 
 ## Risk identification
 
