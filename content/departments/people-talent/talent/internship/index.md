@@ -47,6 +47,8 @@ Payroll
 - 🏖️ PTO - We offer flexible Paid Time Off (PTO). Given that this is a 3-month internship, we expect that on average, interns will not take anymore than a week off in total. If you need PTO, please work with your Manager and the People Team via Slack before confirming your travel details.
   - As a global company, we're not prescriptive about offering "Company-wide holidays" because the holidays are vastly different in every country! We empower our teammates to use their high agency and decide which days they'd like to use their PTO for.
 
+**Interns are only eligible for the perks listed above. Any other company perks will not apply to the internship program.**
+
 #### Equipment
 
 - We will provide each intern with a loaner [laptop](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
