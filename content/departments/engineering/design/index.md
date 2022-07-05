@@ -15,7 +15,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
     - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
   - [Steve Fisher](../../../team/#sts=Steve%20Fisher) Interim Cloud Design Manager
     - [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
-    - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
+    - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Integrations (she/her) - [ReadMe](content/departments/engineering/design/Sara-readme.md)
   - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
