@@ -2661,3 +2661,13 @@ sanjeev_sekar:
   role: Engineering Manager
   reports_to: eng_lead
   manager_role_slug: engineering_manager_delivery
+
+gary_lee:
+  name: Gary Lee
+  role: Software Engineer
+  reports_to: engineering_manager_search_core
+  location: San Francisco, CA, USA 🇺🇸
+  github: gl-srgr
+  email: gary.lee@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/gary-lee-68b28745/)'
+  description: Gary lives in San Francisco, California and has worked as a Software Engineer on search products and solutions since 2015. Outside of work he plays drums in a rock band, practices martial arts, spends time with his dogs, and catches up on books.
