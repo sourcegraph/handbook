@@ -12,7 +12,7 @@ We provide two primary ways of requesting support from Repo Management:
 
 1. The [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) channel in Slack is our preferred method of receiving support requests. If your support request is a simple question, post in the channel. You don’t have to provide a GitHub issue or any other artifact. If your support request is more than a question (e.g. customer bug, deep dive required, high priority ask), follow the support [request guidelines](#support-request-guidelines) below.
 
-2. If you are unsure whether Repo Management is the right team, or it impacts multiple teams, you can post in the [#ask-product-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W) channel. We recommend posting in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) instead if you are confident that Repo Management is the right owner as we do not review the #ask-product-eng channel as quickly.
+2. If you are unsure whether Repo Management is the right team, or it impacts multiple teams, you can post in the [#ask-engineering](https://sourcegraph.slack.com/archives/C022SPMNR0W) channel. We recommend posting in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) instead if you are confident that Repo Management is the right owner as we do not review the #ask-engineering channel as quickly.
 
 ### Support Request Guidelines
 
@@ -30,7 +30,7 @@ Support requests related to our [areas of ownership](index.md#responsibilities) 
 
 Each week one member from the Repo Management team is on support rotation according to [repo-management-support](https://sourcegraph.app.opsgenie.com/settings/schedule/detail/b553cefc-2466-4ad2-ad0c-66937c790bbf) schedule in OpsGenie. The user is also added to the Slack User Group `@repo-management-support` by [Slackgenie](https://github.com/sourcegraph/background-jobs/tree/main/slackgenie). Feel free to tag `@repo-management-support` for your support requests on Slack.
 
-For simple questions in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) or [#ask-product-eng](https://sourcegraph.slack.com/archives/C022SPMNR0W), we will review and respond on a daily basis.
+For simple questions in [#repo-management](https://sourcegraph.slack.com/archives/C02EDAQAJQZ) or [#ask-engineering](https://sourcegraph.slack.com/archives/C022SPMNR0W), we will review and respond on a daily basis.
 
 More involved support requests follow the below process:
 

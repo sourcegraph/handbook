@@ -36,7 +36,6 @@
   - [Talent review process](career-development/talent-review-process.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
   - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
-  - [Dogfood (internal) feedback](../team-culture/feedback-dogfood.md)
 
 <video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
 

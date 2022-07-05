@@ -44,7 +44,8 @@ for (const filePath of filePaths) {
                 pattern:
                     /^https?:\/\/(?!(cors-anywhere.sgdev.org\/https?:\/\/)?sourcegraphstatic.com\/|storage.googleapis.com\/sourcegraph-assets\/)/,
             },
-        ],
+            process.env.OFFLINE ? { pattern: /^https?:/ } : null,
+        ].filter(pattern => pattern !== null),
     })
 
     const lineColumnFinder = lineColumn(content, { origin: 1 })
