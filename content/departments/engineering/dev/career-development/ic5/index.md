@@ -26,6 +26,8 @@ If the new IC5 profile represents the promotion of an existing teammate, the EM 
 
 ## Profiles
 
+> NOTE: Some of these profiles need to be updated after 2022-06.
+
 - [Enablement Org](./enablement-org.md)
 - [Code Intelligence](./code-intelligence.md)
 - [Code Intelligence - Indexing](./code-intelligence-indexing.md)
