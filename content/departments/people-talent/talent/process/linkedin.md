@@ -38,3 +38,12 @@ After the hiring manager and recruiter work together on setting up the search cr
 Only candidates we decide to engage will be added into Greenhouse.
 
 [Hiring Manager Education Course](https://training.talent.linkedin.com/hiring-managers-guide-to-success-with-linkedin-recruiter)
+
+## Talent Team - How to give teammates a LinkedIn Recruiter seat
+
+If a teammate requests a recruiter seat, any member of the talent team can provide this access. Simply follow these steps:
+- Click 'Recruiter' in the top right corner of your LinkedIn homepage
+- Hover over your photo in the top right of the LinkedIn Recruiter homepage, then click 'Manage users in account center'
+- Click the 'Add New Users' button and then select 'Add new users by email'
+- Enter the requesting teammate's email, select the appropriate level of access, then select 'Confirm' 
+  - **You must input the email they used to sign up for their LinkedIn account**
