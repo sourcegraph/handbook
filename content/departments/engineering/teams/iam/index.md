@@ -269,7 +269,7 @@ If the answer is not available below, your buddy and the whole team will share t
 - How Sourcegraph is designed? - Deep dive into our [architecture](https://docs.sourcegraph.com/dev/background-information/architecture)
 - On-premise, managed instances, and the Cloud - What are main differences and similarities? What should I care about from the perspective of the IAM team?
 - Life of a commit - How does my code end up in production?
-  - [Current Software Development Life Cycle](../../process/sdlc.md)
+  - [Current Software Development Life Cycle](../../sdlc.md)
   - [Cloud CI pipeline](https://docs.sourcegraph.com/dev/background-information/continuous_integration)
     - Video from Dave Try about [CI pipeline](https://www.loom.com/share/601c226a8a93429890c40213922476f9)
     - [CI/CD slides](https://docs.google.com/presentation/d/1ML71MPM4n9EHW-57p8ks9GktJdKqrcQnWhBiU2qQGpI)
