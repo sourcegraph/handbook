@@ -38,7 +38,7 @@ Reference:
 - [Current strategy](strategy-goals/index.md)
 - [Current roadmap (private)](https://github.com/orgs/sourcegraph/projects/214/views/21)
 - [KPIs](https://sourcegraph.looker.com/boards/20)
-- [Team rituals](team-culture/index.md)
+- [Demo day](demo-day.md)
 - [Processes](process/index.md)
 
 [How to](process/index.md):
