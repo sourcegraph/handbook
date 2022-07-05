@@ -1,6 +1,6 @@
 # Engineering
 
-The Engineering department at Sourcegraph consists of 4 functions:
+The Engineering department at Sourcegraph consists of:
 
 - [Development](dev/index.md)
 - [Product Management](product/index.md)
@@ -28,6 +28,12 @@ See "[Engineering department update 2022-06](https://docs.google.com/document/d/
 - [Search Core](teams/search/core.md)
 - [Search Product](teams/search/product.md)
 - [Security](teams/security/index.md)
+
+The following functional teams work across the above dev teams:
+
+- Design
+- Product Management
+
 
 ## Roadmap
 
