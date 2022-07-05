@@ -68,6 +68,26 @@ From the answers, we extend the Definition of Done for the item to include these
 - Create resources to help engineers adopt the change
 - Create content to educate engineers about the background and reason for the change
 
+### Pull-Requests reviews
+
+Remember that pull requests are simply a dialogue between team members about changes that we're shipping as a team and we're here to help each others to achieve it.
+
+On top of [the company wide process for reviewing pull requests](https://docs.sourcegraph.com/dev/background-information/pull_request_reviews), we follow these principles when it comes to review each others:
+
+- We own our PRs:
+  - Ex: If looking to be reviewed by someone in particular, just explicty add them in the reviewers (useful to get a thorough review when a teammate has a lot of context for example).
+  - Ex: Reach out for others if a review is urgent.
+  - Ex: PR author is responsible of taking the decision on when it's ok to merge it, to keep adding changes or to add those in a different PR.
+- We eagerly communicate in our PRs:
+  - Ex: If a review was expedited to unblock the PR, just say so and let its author bear the responsibility of merging or not their PR.
+  - Ex: If only a subset of the PR content is familiar to you, you can still review, just say what you didn't cover.
+  - Ex: If I don't understand why something is done in a certain way, just ask. There are no dumb questions.
+  - Ex: If you're happy to see a change be merged, just say it! Async doesn't mean we can't be supportive of each others like we'd have done if we'd be sitting next to each other.
+- When in doubt, act!
+  - Ex: If you're not sure that a piece of code is going to create a problem, just say so, that's always better than not posting anything and you can always come back later and confirm.
+  - Ex: A PR should fix a problem, but that's not entirely sure. If merging tells you the answer, and that's shorter than verifying, just do it unless the consequences are too high.
+  - Ex: A PR has been merged? You can still review it, its author will open a new PR if you spot a mistake!
+
 ### Tracking
 
 As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
