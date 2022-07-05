@@ -41,11 +41,13 @@ In April May FY2023, we ran a 2-month exploratory effort to identify the core pa
   - The bulk of companies have scanners in place, but are struggling to handle the load of alerts. Their next step is to make triaging more efficient, and put in place workflows to more efficiently hand-off issues to engineering.
   - The late-adopters don't have scanners yet. Their next step is to get a scanner.
 
-See [explore, understand & secure the software supply chain](https://docs.google.com/presentation/d/1_Cuu2wi9Zdq41PW97rbmlIruhQSY9t_1zOlOkI6A1Es/edit) for a vision of how Sourcegraph could position itself in the software supply chain space by building a dependency graph. Also see [PD 35 WIP - Dependency Graph for code security](https://docs.google.com/document/d/1Bq2SAx-FXxzW0YFbkIYoPS6bvy-LvlvZMyOTNUI1NV0/edit#heading=h.z5ozjpfzh2yl).
+We developed a vision of how Sourcegraph could position itself in the software supply chain space, and accelerate triage and remediation. See [explore, understand & secure the software supply chain](https://docs.google.com/presentation/d/1_Cuu2wi9Zdq41PW97rbmlIruhQSY9t_1zOlOkI6A1Es/edit) (private) and [PD 35 WIP - Dependency Graph for code security](https://docs.google.com/document/d/1Bq2SAx-FXxzW0YFbkIYoPS6bvy-LvlvZMyOTNUI1NV0/edit#heading=h.z5ozjpfzh2yl).
 
 Sourcegraph today is building two building blocks that will be key in achieving that vision:
 - dependency search
 - code ownership
+
+As we iterate on these features, we need to keep code security users and the dependency graph vision in mind.
 
 ## How we solve this today
 
