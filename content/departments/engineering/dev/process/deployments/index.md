@@ -130,13 +130,13 @@ In order to mimic the same workflow that we tell our customers to follow:
 
 ## Sourcegraph Cloud
 
-As [Sourcegraph Cloud](instances.md#sourcegraph-cloud) has matured into a core product it's needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Cloud DevOps](../../admin-exp/devops/index.md) team.
+As [Sourcegraph Cloud](instances.md#sourcegraph-cloud) has matured into a core product its needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Cloud DevOps](../../../teams/devops/index.md) team.
 
-Similarly, the code-release process for Sourcegraph Cloud has changed. Unlike customer instances, Sourcegraph Cloud operates a continuous release cycle and code changes are deployed multiple times a day. To help facilitate this rapid release cycle while still maintaining operation stability, a [preprod environment](../../admin-exp/devops/preprod.md) has been integrated into the workflow that closely mirrors the deployment of Sourcegraph Cloud.
+Similarly, the code-release process for Sourcegraph Cloud has changed. Unlike customer instances, Sourcegraph Cloud operates a continuous release cycle and code changes are deployed multiple times a day. To help facilitate this rapid release cycle while still maintaining operation stability, a [preprod environment](../../../teams/devops/preprod.md) has been integrated into the workflow that closely mirrors the deployment of Sourcegraph Cloud.
 
 ### Continuous Deployment Process
 
-Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to preprod within 10 minutes where a series of smoke tests will be performed. If successful, the images will be promoted and automatically promoted to production within a few hours.In the normal use-case, the deployment process should be invisible. If a manual or urgent change is needed, refer to the [Deploying a code change to Sourcegraph Cloud](../../admin-exp/devops/deploy-code-change.md) document.
+Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to preprod within 10 minutes where a series of smoke tests will be performed. If successful, the images will be promoted and automatically promoted to production within a few hours.In the normal use-case, the deployment process should be invisible. If a manual or urgent change is needed, refer to the [Deploying a code change to Sourcegraph Cloud](../../../teams/devops/deploy-code-change.md) document.
 
 The automatic release process works as follows:
 

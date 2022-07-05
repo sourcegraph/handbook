@@ -8,7 +8,6 @@ Most of our process is documented in a private repository, but our goal is to mo
 - [Software engineer pairing exercise](software-engineer-pairing-exercise.md).
 - [Software engineer coding exercise](software-engineer-coding-exercise.md).
 - [Software engineer code review exercise](software-engineer-code-review-exercise.md).
-- [Frontend Engineer (Integrations) Interview](./frontend-engineer-extensibility.md)
 - [Engineering-leadership](engineering-leadership.md)
 - [Early-career engineers](early-career-engineers.md)
 

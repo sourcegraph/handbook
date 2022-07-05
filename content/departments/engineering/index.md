@@ -12,11 +12,17 @@ We work together to build a product that developers love and that solves big pro
 
 ## Teams
 
+- [Admin Analytics Tiger Team](teams/admin-analytics/index.md)
+- [Batch Changes](teams/batch-changes/index.md)
+- [Code Insights](teams/code-insights/index.md)
+- [Code Intelligence](teams/code-intelligence/index.md)
+- [Delivery](teams/delivery/index.md)
+- [IAM](teams/iam/index.md)
+- [Integrations](teams/integrations/index.md)
+- [Repo Management](teams/repo-management/index.md)
 - [Search Core](teams/search/core.md)
 - [Search Product](teams/search/product.md)
-- [Code Intelligence](teams/code-intelligence/index.md)
-- [Code Insights](teams/code-insights/index.md)
-- [Batch Changes](teams/batch-changes/index.md)
+- [Security](teams/security/index.md)
 
 ## Slack channels
 

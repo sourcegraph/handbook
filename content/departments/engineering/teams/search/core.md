@@ -85,7 +85,7 @@ Our team is geographically and timezone diverse. The handbook has a [large page 
 
 ### Releases
 
-Most of the work related to releasing our code fits the general description of [Engineering processes](../../process).
+Most of the work related to releasing our code fits the general description of [Engineering processes](../../dev/process).
 
 However, there is an important thing to mention. Since Zoekt lives in a separate repo, we need to periodically pull changes from the Zoekt repo to the main Sourcegraph repo. This can be done either manually by altering the go.mod and go.sum files in the main repo, or by merging the corresponding PR opened by [the bot](https://github.com/sourcegraph/sourcegraph/pulls?q=is%3Apr+author%3Asourcegraph-buildkite+zoekt).
 
@@ -99,7 +99,7 @@ This is good enough to see our changes in an upcoming release, but if you want t
 - [Architecture diagram](https://docs.sourcegraph.com/dev/background-information/architecture)
 - [Sourcegraph Documentation](https://docs.sourcegraph.com/dev)
 - [Super helpful intro video](https://www.youtube.com/watch?v=VXaUXwMLzjg)
-- [How gitserver works](../../dev/admin-exp/repo-management/how-gitserver-works.md)
+- [How gitserver works](../../teams/repo-management/how-gitserver-works.md)
 - Zoekt Bedtime Reading:
   - https://github.com/sourcegraph/zoekt/blob/master/doc/design.md
   - https://swtch.com/~rsc/regexp/regexp4.html
