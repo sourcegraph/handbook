@@ -78,6 +78,5 @@ We also have a set of [guiding principles](../../../../strategy-goals/strategy/d
 - [Read more about how we work](processes.md)
 - [Onboarding](onboarding.md)
 - [Customers](customers/index.md)
-- [What we need from our directors](delivery-directors.md)
 
 [devops]: ../devops/index.md

@@ -4,7 +4,7 @@ Code intelligence provides features and services that help developers better und
 
 Quicklinks:
 
-- [Product & Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
+- [Engineering strategy](../../../departments/engineering/strategy-goals/index.md)
 - [Code intelligence backlog](https://github.com/orgs/sourcegraph/projects/211)
 - [Latest demo](https://www.loom.com/share/b76c3ce971d9498197d4b664a20b20a8)
 - [Documentation](https://docs.sourcegraph.com/code_intelligence)

@@ -219,7 +219,7 @@ The status field for each issue in the project board roughly represents the foll
 - **External**: DX-related work being handled by other teams
 - **Done**: That's a wrap!
 
-### Updating the Product and Engineering roadmap
+### Updating the Engineering roadmap
 
 The PM and work leads own the [roadmap issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc). They solicit input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct.
 

@@ -1,6 +1,6 @@
 # IAM Team
 
-This page outlines the short-term strategy for the IAM Team. You can find the overview of Sourcegraph Product and Engineering FY23 Q2 focus [here](../../../departments/engineering/strategy-goals/index.md#fy23-q2-focus)
+This page outlines the short-term strategy for the IAM Team. You can find the overview of Engineering FY23 Q2 focus [here](../../../departments/engineering/strategy-goals/index.md#fy23-q2-focus)
 
 ## Q2 Objective and Key Results
 
@@ -11,7 +11,7 @@ Today, the IAM team is less than two weeks old and does not yet have a long-term
 - Key Result 1: An updated handbook page for the IAM team including mission, vision, and team working agreements.
 - Key Result 2: A GitHub board outlining the key efforts on our 12-month roadmap validated by customer product gaps.
 
-**Product and Engineering OKR Alignment:** This does not align to product & engineering OKRs. It is necessary due to the formation of a new team.
+**Engineering OKR Alignment:** This does not align to engineering OKRs. It is necessary due to the formation of a new team.
 
 ### Problem Area: Unifying Feature Permissions
 
@@ -26,7 +26,7 @@ Within this area, in Q2 we are not working on:
 - Implementing RBAC for administrators
 - Updating features to respect our permissions, this will be owned by each feature team
 
-**Product and Engineering OKR Alignment:** Objective #2: Focus on time-to-value for a single use-case (Fixing Vulnerabilities). With a single permissions model, Sourcegraph feature teams will be able to enable cross-feature experiences for our customers to fix vulnerabilities. For example, setting up a code monitor to ensure a vulnerability is not re-introduced after fixing with a batch change.
+**Engineering OKR Alignment:** Objective #2: Focus on time-to-value for a single use-case (Fixing Vulnerabilities). With a single permissions model, Sourcegraph feature teams will be able to enable cross-feature experiences for our customers to fix vulnerabilities. For example, setting up a code monitor to ensure a vulnerability is not re-introduced after fixing with a batch change.
 
 ### Problem Area: Improve Admin Analytics
 
@@ -36,7 +36,7 @@ Today, Sourcegraph Admins do not have a clear understanding of how their team is
 
 - Key Result 1: Identify and deliver an improved usage analytics experience for admins.
 
-**Product and Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, enterprise admins have very little visibility into usage within their organization. They are forced to rely on the basic stats provided by Sourcegraph or anecdotal reviews from their team. Introducing more fine grained analytics will enable admins to easily quantify value to their team and aid Sourcegraph AE/CE in driving upsell conversations based on usage within the org.
+**Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, enterprise admins have very little visibility into usage within their organization. They are forced to rely on the basic stats provided by Sourcegraph or anecdotal reviews from their team. Introducing more fine grained analytics will enable admins to easily quantify value to their team and aid Sourcegraph AE/CE in driving upsell conversations based on usage within the org.
 
 ### Problem Area: Allow Admins to Control Sign-ups via Externally Defined Groups
 
@@ -46,4 +46,4 @@ Today, Sourcegraph does not provide administrators the ability to specify who ca
 - Key Result 2: A technical roadmap is written to provide admins the ability to limit user sign-up based on an externally defined entity (i.e. a GitHub Organization or Team, Gitlab organization, LDAP group for SAML connections).
 - Key Result 3: Short term improvements are implemented to provide admins the ability to limit user sign up based on externally defined entities (i.e. GitHub organization, GitLab organization, IDAP group)
 
-**Product and Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, customers who want to limit sign-ups to a specific group are either blocked or are required to spend extra time coordinating with our CE team to build a custom hack to achieve the desired outcome. By introducing this as a standard feature of Sourcegraph, customers who desire this will be able to deploy faster.
+**Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, customers who want to limit sign-ups to a specific group are either blocked or are required to spend extra time coordinating with our CE team to build a custom hack to achieve the desired outcome. By introducing this as a standard feature of Sourcegraph, customers who desire this will be able to deploy faster.
