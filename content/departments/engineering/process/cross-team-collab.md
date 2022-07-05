@@ -24,10 +24,6 @@ Through these simple rules of engagement we can foster innovation at the company
 
 Sometimes a team builds a new platform feature. Recent examples include executors or compute. As a PM, EM or engineer building what could be a new platform, you should proactively sollicit feedback from other teams on what the platform could be used for. This will allow other teams to start thinking about what the new capability could mean for their area, and inform your own decisions. See [Open-ended compute directions](https://docs.google.com/document/d/1daJwnJGmOGbekx7wK98cfMcv0lzH-cvuw7pDdIOU3dQ/edit) for an example of how to do this well.
 
-### Cross org and team projects
-
-- [New user experience](new-user-experience.md)
-
 ### Explicit cross-product owners
 
 Projects that involve consistent collaboration across multiple teams may be best handled with a [cross-product owner](../product/process/prioritize_and_build/cross-product_owners.md).

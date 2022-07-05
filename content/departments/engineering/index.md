@@ -10,6 +10,23 @@ We work together to build a product that developers love and that solves big pro
 
 > NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on combining and flattening the handbook structure after that change.
 
+## Teams
+
+- [Admin Analytics Tiger Team](teams/admin-analytics/index.md)
+- [Batch Changes](teams/batch-changes/index.md)
+- [Code Insights](teams/code-insights/index.md)
+- [Code Intelligence](teams/code-intelligence/index.md)
+- [Content Platform](teams/frontend-platform/index.md)
+- [Delivery](teams/delivery/index.md)
+- [Dev Experience](teams/dev-experience/index.md)
+- [Frontend Platform](teams/frontend-platform/index.md)
+- [IAM](teams/iam/index.md)
+- [Integrations](teams/integrations/index.md)
+- [Repo Management](teams/repo-management/index.md)
+- [Search Core](teams/search/core.md)
+- [Search Product](teams/search/product.md)
+- [Security](teams/security/index.md)
+
 ## Slack channels
 
 - #engineering

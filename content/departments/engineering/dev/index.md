@@ -4,6 +4,7 @@
 
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
+- [Roles and responsibilities](roles/index.md)
 - [Engineering management](tools/engineering-management.md)
 - [Policies](policies/index.md)
 - RFCs (requests for comment)
@@ -40,19 +41,6 @@
   - [Dogfood (internal) feedback](../team-culture/feedback-dogfood.md)
 
 <video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
-
-## Org chart
-
-We are organized in 3 orgs:
-
-- [Code Graph](code-graph/index.md)
-- [Admin Experience](admin-exp/index.md)
-- [Enablement](enablement/index.md)
-
-Also see:
-
-- [Full org chart](team/index.md).
-- [Roles and responsibilities](roles/index.md)
 
 ## Communication
 

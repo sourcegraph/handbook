@@ -9,15 +9,14 @@ Your perspective as both a new user of Sourcegraph and a new teammate is very va
 ## Designer checklist
 
 - Join the design-related Slack channels:
-  - design
-  - design-internal
-  - accessibility
-  - analytics-review
-  - wildcard-components-library-wcl
-  - hallway-testing
-- Join your organization's channels
-  - If Code Graph: #code-graph, #code-graph-em-pm-design, and #code-graph-social
-  - If Cloud: #cloud-org, #cloud-org-social
+  - #design
+  - #design-internal
+  - #accessibility
+  - #analytics-review
+  - #wildcard-components-library-wcl
+  - #hallway-testing
+  - #engineering
+  - #eng-announce
 - Add yourself as a designer to the handbook pages of the teams you're working with. You can also add those teams to your Slack profile description, for ex. 'Product Designer (Code Insights)'
 - Get familiar with the products that we use as inspirations for reference in the developer tools industry:
   - code hosts: [GitHub](https://github.com/) and [GitLab](https://gitlab.com/)
