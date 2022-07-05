@@ -8,8 +8,6 @@ The Engineering department at Sourcegraph consists of 4 functions:
 
 We work together to build a product that developers love and that solves big problems for our customers.
 
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on combining and flattening the handbook structure after that change.
-
 ## Teams
 
 - [Admin Analytics Tiger Team](teams/admin-analytics/index.md)

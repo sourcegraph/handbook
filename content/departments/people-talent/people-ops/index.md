@@ -82,7 +82,7 @@
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
     </div>
     </div>
-    
+
    </section>
 
 #### People Ops team READMEs
@@ -100,7 +100,7 @@ Our People Partners are aligned business units as follows:
 **Jonathan Ayers**: Executive Team
 **Carl Robson**: Sales & Marketing
 **Sarah Um**: Customer Engineering & Support; Operations
-**Alex Mathison**: Product & Engineering
+**Alex Mathison**: Engineering
 
 ### Open roles
 

@@ -12,9 +12,9 @@ We collect our team’s important planning documents in [Frontend Platform RFCs 
 
 As of 2022-04-20, we use Github projects and Code Insights to keep track of our work.
 
-#### Product and Engineering roadmap project
+#### Engineering roadmap project
 
-Our quarterly roadmap items are defined in [tracking issues](../../dev/process/tracking_issues.md) on the [Product and Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these tracking issues collate the smaller issues that contribute to the execution of our roadmap. In this way, they reflect a high-level view of our progress on a given roadmap item.
+Our quarterly roadmap items are defined in [tracking issues](../../dev/process/tracking_issues.md) on the [Engineering roadmap](https://github.com/orgs/sourcegraph/projects/214/views/14). In addition to describing the problem space, proposed solution, and measures of success, these tracking issues collate the smaller issues that contribute to the execution of our roadmap. In this way, they reflect a high-level view of our progress on a given roadmap item.
 
 #### Frontend Platform project
 
@@ -95,7 +95,7 @@ At the start of each week, the PM posts a reminder in `#frontend-platform-intern
 
 All engineers update the board in advance of the weekly sync.
 
-### Updating the Product and Engineering roadmap
+### Updating the Engineering roadmap
 
 The PM owns the roadmap issues and solicits input from the team to make sure the problem space is thorough, measures of success are ambitious-but-reasonable, and technical details are correct. The PM updates these issues weekly, after getting the roadmap progress reports in the team sync.
 

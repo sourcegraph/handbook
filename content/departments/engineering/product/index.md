@@ -1,7 +1,5 @@
 # Product
 
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
-
 We strive to make the following true:
 
 - The team is working on the most important things on [our strategy](../../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
