@@ -16,7 +16,7 @@ Sourcegraph uses GitHub issues to track and drive changes to its application. Th
 
 ### Roadmap items
 
-At the very top, Sourcegraph uses roadmap issues, found in the [product and engineering roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
+At the very top, Sourcegraph uses roadmap issues, found in the [roadmap tracker](https://github.com/sourcegraph/product-engineering-tracker) list objectives for each quarter in individual issues.
 Each individual issue is tagged with their owning organization, owning team and assignees, who are in charge of updating the issue during the quarter.
 
 A roadmap issue contains the following sections:

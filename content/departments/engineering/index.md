@@ -43,6 +43,7 @@ The following functional teams work across the above dev teams:
 - #engineering
 - #eng-announce
 - #eng-leads
+- #ask-engineering
 
 ## Processes
 
