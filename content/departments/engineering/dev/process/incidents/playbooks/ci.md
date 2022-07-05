@@ -1,6 +1,6 @@
 # Continuous integration playbook
 
-- **Maintainers**: [DevX Team](../../../enablement/dev-experience/index.md).
+- **Maintainers**: [DevX Team](../../../../teams/dev-experience/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
