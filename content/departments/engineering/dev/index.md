@@ -4,6 +4,7 @@
 
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
+- [Roles and responsibilities](roles/index.md)
 - [Engineering management](tools/engineering-management.md)
 - [Policies](policies/index.md)
 - RFCs (requests for comment)
@@ -48,11 +49,6 @@ We are organized in 3 orgs:
 - [Code Graph](code-graph/index.md)
 - [Admin Experience](admin-exp/index.md)
 - [Enablement](enablement/index.md)
-
-Also see:
-
-- [Full org chart](team/index.md).
-- [Roles and responsibilities](roles/index.md)
 
 ## Communication
 

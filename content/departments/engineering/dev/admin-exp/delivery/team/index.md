@@ -1,6 +1,6 @@
 # Delivery Team README
 
-Our README expands on our profile in [the company team directory](../../../team/index.md) and are meant to help us orient to one another.
+Our README expands on our profile in [the company team directory](../../../../../../team/index.md) and are meant to help us orient to one another.
 
 - Brie [README](brie-readme.md)
 - Kevin [README](kevin-readme.md)
