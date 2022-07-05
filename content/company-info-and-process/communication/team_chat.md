@@ -17,7 +17,7 @@ _All teammates should join these channels and check them regularly_
 - #progress - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
 - #thanks - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
 - #handbook-announce - Announcements of important changes to the Handbook.
-- #feedback-dogfood - Internal product feeedback! ([learn more](../../departments/engineering/team-culture/feedback-dogfood.md))
+- #feedback-dogfood - Internal product feedback
 
 If you'd like to add a channel to the company-wide list, please reach out to the Tech Ops team in #it-tech-ops.
 

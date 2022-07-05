@@ -76,13 +76,10 @@ The handbook is a living document and we expect every teammate to propose improv
 #### [Engineering](departments/engineering/index.md)
 
 - [Engineering](departments/engineering/dev/index.md)
-  - [Engineering orgs and teams](departments/engineering/dev/team/index.md)
 - [Product Management](departments/engineering/product/index.md)
   - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
   - [Process](departments/engineering/product/process/index.md)
 - [Design](departments/engineering/design/index.md)
-
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
 
 ### [Customer Support](departments/ce-support/support/index.md)
 

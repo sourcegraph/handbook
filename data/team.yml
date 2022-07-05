@@ -153,7 +153,7 @@ thorsten_ball:
   name: Thorsten Ball
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Aschaffenburg, Bavaria, Germany 🇩🇪
   github: mrnugget
   email: thorsten@sourcegraph.com
@@ -222,7 +222,7 @@ rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
   manager_role_slug: design_manager_code_graph
-  role: Design Manager, Code Graph
+  role: Design Manager
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -863,7 +863,7 @@ fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
   role: Creative Operations Manager
-  reports_to: marketing_lead
+  reports_to: director_design
   manager_role_slug: creative_ops_manager
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
@@ -1592,7 +1592,7 @@ varun_gandhi:
   pronouns: he/him
   role: Software Engineer
   reports_to: engineering_manager_code_intelligence
-  location: 'Europe'
+  location: 'Taipei, Taiwan'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
@@ -2521,7 +2521,7 @@ steve_fisher:
   role: Head of Design
   manager_role_slug: director_design
   reports_to: eng_lead
-  location: Sechelt, BC, Canada 🇨
+  location: Sechelt, BC, Canada
   github: hellofisher
   email: steve.fisher@sourcegraph.com
   links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
@@ -2630,7 +2630,7 @@ megan_standrew:
   name: Megan St. Andrew
   pronouns: she/they
   location: Chicago, IL, USA 🇺🇸
-  role: UX Researcher, Code Graph
+  role: UX Researcher
   reports_to: director_design
   email: megan.standrew@sourcegraph.com
   github: meglynst
