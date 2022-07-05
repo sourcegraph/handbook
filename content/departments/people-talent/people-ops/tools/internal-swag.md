@@ -61,7 +61,7 @@ There will be a link included in the Email Template that is sent to new hires to
 Once they select their shirt style, they need to follow these two simple steps:
 
 1. Choose the size for the Tshirt and hoodie ![size](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-size-real.png)
-2. Enter shipping information (it can be international). Once they do that, they will get an email with delivery details. ![shipping](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-shipping.png) 
+2. Enter shipping information (it can be international). Once they do that, they will get an email with delivery details. ![shipping](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-shipping.png)
 
 ### Delivery
 
