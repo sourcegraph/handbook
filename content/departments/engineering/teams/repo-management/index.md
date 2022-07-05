@@ -1,7 +1,5 @@
 # Repo Management team
 
-The Repo Management team is part of the [Enablement](../index.md) org.
-
 ## Mission
 
 Our mission (which we do choose to accept) is to ensure that Sourcegraph’s most critical prerequisite to providing awesome customer value—access to code—is robust, stable and meets the needs of our customers, both directly and in how it underpins everything else in Sourcegraph.
@@ -87,7 +85,7 @@ Read more about [how this team works](processes.md).
 
 ## Principles
 
-We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md) and [Enablement org's principles and practices](../index.md#principles-and-practices).
+We inherit Sourcegraph's [engineering principles and practices](../../dev/process/principles-and-practices.md).
 
 We also have a set of [guiding principles](../../../../strategy-goals/strategy/repo-management/index.md#guiding-principles) that help inform our decision making about our strategic and prioritization choices.
 

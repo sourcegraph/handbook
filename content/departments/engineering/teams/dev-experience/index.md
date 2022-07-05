@@ -2,7 +2,7 @@
 
 <img align="right" src="https://user-images.githubusercontent.com/23356519/166327839-472252c9-e3aa-460e-8c11-5655b0451ae2.png" height="300" alt="Sourcegraph dev experience temporary team logo"></img>
 
-The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph as part of the [Enablement](../index.md) org.
+The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
 
 ## Members
 

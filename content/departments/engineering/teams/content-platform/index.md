@@ -1,6 +1,6 @@
 # Content Platform Team
 
-The Content Platform team (part of the [Enablement](../index.md) org) creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
+The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
 
 ## Members
 

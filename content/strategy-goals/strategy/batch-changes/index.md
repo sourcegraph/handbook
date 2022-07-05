@@ -140,7 +140,7 @@ Our tentative plan so far:
 
 - **Windows support** ([#24849](https://github.com/sourcegraph/sourcegraph/issues/24849)): Reliably supporting creating batch changes locally in a windows environment is a very large amount of work, that is incompatible with our plan of delivering Server-side Batch Changes as fast as possible. Windows support has blocked one [prospect](https://github.com/sourcegraph/customers/issues/3) and slowed down adoption at a [customer](https://github.com/sourcegraph/customers/issues/2), and will likely be important in the Banking and Gaming industry. We plan to address these customers with Server-side Batch Changes. Server-side Batch Changes will bypass the need to run the CLI locally, and instead allow customers to compute the batch changes on the Sourcegraph instance.
 
-- **Permissions and access control** is not a focus for Q2, as we are still collecting feedback and we want to focus on running batch changes server-side. It's very likely to be a focus area for Q3 as efforts from other teams (IAM and admin experience) land.
+- **Permissions and access control** is not a focus for Q2, as we are still collecting feedback and we want to focus on running batch changes server-side. It's very likely to be a focus area for Q3 as efforts from other teams (IAM) land.
 
 - **Additional codehosts** we do not plan to add additional codehosts (outside of BitBucket Cloud), or code review tool integrations (Gerrit, Phabricator) this year.
 
