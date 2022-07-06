@@ -19,7 +19,7 @@ We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views
 
 When planning work, the [relevant work lead](#work-leads) should:
 
-- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../dev/process/tracking_issues.md). The tracking issue description should have the following:
+- Work with the PM/EM to create the [roadmap tracking issue](#roadmap-tracking-issues) using the [tracking issue bot](../../dev/process/tracking_issues.md). A loose scratch doc can be created in [the team Drive](#google-drive) as well, but ultimately the tracking issue is the concrete artifact we share with stakeholders and the company. The tracking issue description should have the following:
   - **Problem**: Articulate the problem space and requirements.
   - **Scope**: Scope the work so that it can be completed in a single bet cycle, identifying:
     - **Boundaries**: Define what work is within the scope and what work is explicitly out of scope. (Out-of-scope boundaries, or "non-goals", are worth writing down and they help prevent scope creep.)
@@ -68,7 +68,7 @@ From the answers, we extend the Definition of Done for the item to include these
 - Create resources to help engineers adopt the change
 - Create content to educate engineers about the background and reason for the change
 
-### Pull-Requests reviews
+### Pull request reviews
 
 Remember that pull requests are simply a dialogue between team members about changes that we're shipping as a team and we're here to help each others to achieve it.
 
@@ -94,7 +94,20 @@ As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
 #### Dev Experience project
 
-For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212/views/32). This board automatically imports issues with the `dx` or `team/devx` labels.
+For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/devx` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
+
+#### Roadmap tracking issues
+
+[Roadmap tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) are what we communicate to teammates outside of the Dev Experience team what we are working on and what we plan on working on.
+Roadmap issues should be scoped to a bet period, and be a [tracking issue](../../dev/process/tracking_issues.md) that encapsulates everything outlined in the [planned work process](#planned-work).
+
+They should have the `team/devx` and `roadmap` label, one (or more) appropriate `devx/` label(s), as well as the following text in the description to help the tracking issue bot find relevant issues:
+
+```md
+<!-- OPTIONAL LABEL: roadmap -->
+```
+
+A project board view is also available [here](https://github.com/orgs/sourcegraph/projects/212/views/33).
 
 ### Google Drive
 
