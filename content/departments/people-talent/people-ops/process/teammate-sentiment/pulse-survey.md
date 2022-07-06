@@ -13,6 +13,7 @@ We are launching pulse surveys as a 90 day pilot program. We know pulse surveys 
 All Teammates will be invited to participate in our pulse survey.
 
 ### When will I receive a survey?
+
 Pulse surveys are sent to all employees at random intervals during the survey period of two weeks. Spreading out survey delivery times helps mitigate [recency bias](https://en.wikipedia.org/wiki/Recency_bias) in survey results. If someone on your team has received a survey and you have not, don’t worry! You’ll get a chance to participate in the survey.
 
 ### How do I complete the survey?
