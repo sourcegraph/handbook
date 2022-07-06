@@ -2,14 +2,14 @@
 
 ## What is it?
 
-[Checkov](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) scans our 
+[Checkov](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) scans our
 Terraform configuration to identify security issues affecting our infrastructure.
 
 Checkov can identify hundreds of security issues that might impact our infrastructure,
 and therefore has the potential to significantly improve our security posture
 before the affected infrastructure is deployed.
 
-## How is Checkov run? 
+## How is Checkov run?
 
 Checkov runs against two repositories, [infrastructure][0] and [deploy-sourcegraph-managed][1],
 via GitHub Actions.
@@ -47,7 +47,7 @@ adds a Checkov skip, your workflow should be as follows:
 1. If the skip is required to resolve an ongoing incident, approve the skip immediately
    and then follow the rest of this process retrospectively.
 1. Assess the validity of the issue that Checkov is reporting.
-1. If the issue is valid, assess the reason why the request to add a skip has 
+1. If the issue is valid, assess the reason why the request to add a skip has
    been made. If the proposed issue would require significant engineering time
    to resolve (which is for some reason not available) then add a security
    vulnerability of the correct severity following the [vulnerability remediation
