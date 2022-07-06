@@ -37,11 +37,11 @@ Feel free to add many code snippets and use code repositories to complement your
 
 ## Adding a blog post
 
-Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories. 
+Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories.
 
 ## Convert to markdown
 
-To quickly convert your document into Markdown, you can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607). This is not required, but can save some time if you do not prefer to rewrite the content. 
+To quickly convert your document into Markdown, you can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607). This is not required, but can save some time if you do not prefer to rewrite the content.
 
 If you do this, please add the following frontmatter to the beginning of the file:
 
@@ -81,7 +81,7 @@ This section is called `frontmatter` and it provides the post's metadata. Import
 
 ## Using the Blog Post Starter Pack
 
-The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. 
+The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post.
 
 Access the template in the About repository: `/content/blogposts/blog-post-starter-pack.md`
 
