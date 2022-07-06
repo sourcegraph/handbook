@@ -82,11 +82,11 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
 
 <div class="color-palette interactive">
   <div class="color" style="--color: var(--sg-sky-blue)">
-    <h5>Sourcegraph Sky Blue</h5>
+    <h5>Sourcegraph Blue</h5>
     <code>#00cbec</code>
   </div>
   <div class="color" style="--color: var(--sg-vivid-violet); color: white">
-    <h5>Sourcegraph Vivid Violet</h5>
+    <h5>Sourcegraph Violet</h5>
     <code>#a112ff</code>
   </div>
   <div class="color" style="--color: var(--sg-vermillion); color: white">
@@ -265,6 +265,44 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Green 500</small>
     </div>
   </div>
+  <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #ffffff">
+      <code>#ffffff</code>
+      <small>White</small>
+    </div>
+    <div class="color color-sm" style="--color: #f9fafb">
+      <code>#f9fafb</code>
+      <small>Grayscale 50</small>
+    </div>
+    <div class="color color-sm" style="--color: #f1f1f1">
+      <code>#f1f1f1</code>
+      <small>Grayscale 100</small>
+    </div>
+    <div class="color color-sm" style="--color: #e7e7e7;">
+      <code>#e7e7e7</code>
+      <small>Grayscale 200</small>
+    </div>
+    <div class="color color-sm" style="--color: #c4c4c4;">
+      <code>#c4c4c4</code>
+      <small>Grayscale 300</small>
+    </div>
+    <div class="color color-sm" style="--color: #8a8a8a; color: white">
+      <code>#8a8a8a</code>
+      <small>Grayscale 400</small>
+    </div>
+    <div class="color color-sm" style="--color: #4d4d4d; color: white">
+      <code>#4d4d4d</code>
+      <small>Grayscale 500</small>
+    </div>
+    <div class="color color-sm" style="--color: #313131; color: white">
+      <code>#313131</code>
+      <small>Grayscale 600</small>
+    </div>
+    <div class="color color-sm" style="--color: #000000; color: white">
+      <code>#000000</code>
+      <small>Black</small>
+    </div>
+  </div>
 </div>
 
 ### Colors for website UI
@@ -296,11 +334,11 @@ Use supporting colors for added tonality and awareness within website UI.
     <div>
       <code>#000000</code>
       <br />
-      <small>Grayscale black</small>
+      <small>Sourcegraph Black</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-blurple); color: white">
-    <h5>SG Blurple</h5>
+    <h5>Sourcegraph blurple</h5>
     <p>Use for button and CTA messages in website UI.</p>
     <div>
       <code>#5033e1</code>
@@ -309,7 +347,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-action-green); color: white">
-    <h5>SG Action Green</h5>
+    <h5>Sourcegraph action green</h5>
     <p>Use for check marks and to signal positive messages in website UI.</p>
     <div>
       <code>#17ab52</code>
@@ -318,7 +356,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-alert-red); color: white">
-    <h5>SG Alert Red</h5>
+    <h5>Sourcegraph alert red</h5>
     <p>Use for alerts and to signal error messages in website UI.</p>
     <div>
       <code>#ed2e20</code>
@@ -425,11 +463,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Aquamarine</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-aquamarine); color: white">
       <div>
-        <h5>Sourcegraph Sky Blue</h5>
+        <h5>Blue 300</h5>
         <div><code>#00cbec</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Blurple</h5>
+        <h5>Blurple 400</h5>
         <div><code>#5033e1</code></div>
       </div>
     </div>
@@ -438,11 +476,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Infrared</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-infrared); color: white">
       <div>
-        <h5>Sourcegraph Vivid Violet</h5>
+        <h5>Violet 400</h5>
         <div><code>#a112ff</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Vermillion</h5>
+        <h5>Vermillion 300</h5>
         <div><code>#ff5543</code></div>
       </div>
     </div>
