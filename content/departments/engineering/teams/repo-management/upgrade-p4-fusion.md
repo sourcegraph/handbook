@@ -71,7 +71,6 @@ Successfully built ee90643e2bba
 Successfully tagged p4-fusion:latest
 ```
 
-
 Run the binary in the container by running the following command: 
 
 ```
