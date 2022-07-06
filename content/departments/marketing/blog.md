@@ -37,7 +37,13 @@ Feel free to add many code snippets and use code repositories to complement your
 
 ## Adding a blog post
 
-Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories. You can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607) to make that conversion and then use the following template for your front matter:
+Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories. 
+
+## Convert to markdown
+
+To quickly convert your document into Markdown, you can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607). This is not required, but can save some time if you do not prefer to rewrite the content. 
+
+If you do this, please add the following frontmatter to the beginning of the file:
 
 ```markdown
 ---
@@ -61,10 +67,9 @@ videoID: 'dQw4w9WgXcQ'
 Your markdown content goes here
 ```
 
-The data between the `---` is called front matter and is used to provide post metadata. Important to note about this metadata, is that:
+This section is called `frontmatter` and it provides the post's metadata. Importantly:
 
-The `description` field is used as an excerpt for your post on the blog the index page.
-
+- The `description` field is used as an excerpt for your post on the blog the index page.
 - The `authors` field is for any author of the blog. The `url` field is optional but recommended. \* The indentations on this field are important to keep matching the example.
 - The `tags` field should be left as `blog` until we incorporate filtering posts via tags.
 - The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
@@ -74,7 +79,26 @@ The `description` field is used as an excerpt for your post on the blog the inde
 - The `socialImage` field is optional. Use the full path to image in order to be read properly on Twitter and Facebook. Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
 - The `videoID` field is an optional YouTube video ID and will take priority even if the `socialImage` is present. This will generate an inline video preview card when sharing on social media. This is supported for all types of posts; blog, podcast, and release posts.
 
-## Adding images and other media
+## Using the Blog Post Starter Pack
+
+The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. 
+
+Access the template in the About repository: `/content/blogposts/blog-post-starter-pack.md`
+
+## Adding images
+
+Please use a `Figure` component to add images to your post. Optionally, you can include a `caption` to display a description below the image.
+
+<!-- prettier-ignore -->
+```html
+<Figure 
+  src="https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png"
+  alt="Sourcegraph thumbnail"
+  caption="The Sourcegraph logo"
+/>
+```
+
+Please do not add images using `img` tags or `![text](image.png)` methods.
 
 ### Sizing images
 
@@ -106,41 +130,51 @@ The `description` field is used as an excerpt for your post on the blog the inde
   </div>
 </div>
 
-### YouTube video embed code
+## Adding a video hosted on YouTube
 
-Uses Bootstrap for responsive sizing and adequate whitespace between adjacent elements, and that only Sourcegraph videos are shown on the end screen.
+Please use the `YouTube` component to embed YouTube videos into your post.
 
 <!-- prettier-ignore -->
 ```html
-<div className="container my-4 video-embed embed-responsive embed-responsive-16by9">
-  <iframe
-    className="embed-responsive-item"
-    src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
-    allowFullScreen=""
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    frameBorder="0"
-  ></iframe>
-</div>
+<YouTube
+  title="Accelerate developer onboarding with Sourcegraph" 
+  id="DgwvhRW1Cbc"
+  showTitle={true}
+/>
 ```
 
-### HubSpot form embed code
+## Adding a video file or screen recording
 
-Inserts HubSpot form wherever the `targetId` div tag is placed.
+You can read about [embedding GIFs and videos](process/adding_screenshots_screen_recording.md) here.
 
+To add a video file to your post, first add the `.webm` and `mp4 versions to Google Cloud, then include them in a `Video` component.
+
+<!-- prettier-ignore -->
+```html
+<Video 
+  source={{webm: 'blog/video-title', mp4: 'blog/video-title'}} 
+  loop={true}
+  title="Code reuse"
+  caption="An example of code search with Sourcegraph"
+  showCaption={true}
+/>
+```
+
+## Adding a HubSpot form
+
+The `EmbeddedHubSpot` component inserts a HubSpot form wherever the `targetId` div tag is placed.
+
+<!-- prettier-ignore -->
 ```html
 <EmbeddedHubSpot portalId="2762526" formId="your-form-id" targetId="#your-target-id" />
 <div id="your-target-id"></div>
 ```
 
-### Adding a screenshot or screen recording
-
-You can read about [embedding GIFs and videos](process/adding_screenshots_screen_recording.md) here.
-
 ## Previewing your blog post
 
 It's recommended to run the development site to preview your blog post locally.
 
-Once your pull request is created, you can preview your blog post through the netlify build. To do so:
+Once your pull request is created, you can preview your blog post through the Netlify build. To do so:
 
 - In your PR, on the 'conversation' tab
 - Find the checks at the bottom
