@@ -298,6 +298,9 @@ ci_tooling:
   category: Developer Experience
   title: CI tooling
   type: Tech
+  product_team: dev_experience
+  slack_channels: '#dev-experience, #buildkite-main'
+  ownership_model: Caretaker
 
 testing_infra_tooling:
   category: Developer Experience
@@ -316,10 +319,14 @@ oberservability:
   category: Developer Experience
   title: Observability standards and tooling
   type: Tech
+  slack_channels: '#dev-experience'
+  ownership_model: Caretaker
 
 analytics_libs_tooling:
   category: Developer Experience
   title: Analytics libs and tooling
+  slack_channels: '#dev-experience'
+  ownership_model: Caretaker
   type: Tech
 
 api_standards:
@@ -335,12 +342,16 @@ common_libs:
 alerting_monitoring:
   category: Dev_Experience
   title: Alerting and monitoring
+  slack_channels: '#dev-experience'
+  ownership_model: Caretaker
   type: Tech
 
 gcp_test_envs:
   category: Google Cloud Platform
   title: GCP - Test environments
   type: Tech
+  slack_channels: '#dev-experience'
+  ownership_model: Caretaker
   product_team: dev_experience
 
 gcp_managed_instances:
@@ -353,6 +364,8 @@ gcp_sourcegraph_com:
   category: Google Cloud Platform
   title: GCP - Sourcegraph.com
   type: Tech
+  slack_channels: '#dev-ops'
+  ownership_model: Owner
   product_team: dev_experience
 
 gcp_permissions:
@@ -369,6 +382,7 @@ dns:
   title: DNS
   type: Tech
   product_team: dev_experience
+  slack_channels: '#dev-ops'
   ownership_model: Caretaker
 
 infrastructure_as_code:
@@ -405,6 +419,14 @@ compliance:
   slack_channels: '#security'
   ownership_model: Caretaker
   health: Green
+
+sdlc:
+  category: Security & Compliance
+  title: Software Development Life Cycle
+  type: Tech
+  product_team: dev_experience
+  slack_channels: '#eng-leads'
+  ownership_model: Caretaker
 
 application_security:
   category: Security & Compliance

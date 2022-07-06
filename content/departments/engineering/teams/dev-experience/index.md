@@ -21,6 +21,17 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
   - [CLA bot](https://github.com/sourcegraph/clabot-config)
   - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
+  - [Release Tool](../dev/tools/release.md)
+- [DotCom](https://sourcegraph.com/search)
+  - Monitoring
+  - Analytics
+  - Deployments
+  - Cloudflare (with the exclusion of the WAF)
+  - SOC2 control points partially pertaining to DotCom: `CI-86`, `CI-100` and `CI-108`.
+- [DogFood](https://k8s.sgdev.org/)
+  - Monitoring
+  - Deployments
+  - CodeHost instances
 - Backend platform
   - [`lib/errors`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/lib/errors): error types for Sourcegraph backend services
   - [`sourcegraph/log`](https://sourcegraph.com/github.com/sourcegraph/log/-/tree): standardized logging for Sourcegraph backend services + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_logging)
@@ -35,6 +46,19 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
     - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
   - [Continuous integration infrastructure](../../dev/tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
   - [Continuous integration playbook](../../dev/process/incidents/playbooks/ci.md)
+- Misc DevOps support
+  - DNS requests
+- Third party services
+  - [Buildkite](https://buildkite.com)
+  - [Docker.io](https://docker.io)
+  - [Geekbot](https://geekbot.com/)
+  - [GitHub](https://github.com)
+    - For simple permission changes and team creations, please reach out the [IT Tech Ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) instead.
+    - Otherwise, we can be reached out through the `@github-owners` Slack handle.
+  - [Renovate](https://github.com/apps/renovate)
+  - [Sentry](https://sentry.io)
+  - [Netlify](https://www.netlify.com)
+    - Owned from the DevOps perspective, for other questions, please reach out the [Content Platform team](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
 - Other
   - [Developer experience newsletter](./newsletter.md)
   - [`sg` hack hour](processes.md#sg-hack-hour)
