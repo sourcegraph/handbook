@@ -1,6 +1,6 @@
 # Frontend Platform strategy
 
-The Frontend Platform team, by the nature of their purpose, does not follow a traditional product roadmap and instead focuses on high-impact projects aligned with Engineering department strategy. To inform our priorities, we gain crucial insights from quarterly DevX surveys, bi-weekly Frontend Crew discussions, and 1:1 syncs with our teammates. 
+The Frontend Platform team, by the nature of their purpose, does not follow a traditional product roadmap and instead focuses on high-impact projects aligned with Engineering department strategy. To inform our priorities, we gain crucial insights from quarterly DevX surveys, bi-weekly Frontend Crew discussions, and 1:1 syncs with our teammates.
 
 ## Mission
 
@@ -21,7 +21,7 @@ See also our [completed goals](../../../departments/engineering/teams/frontend-p
 
 ### FY23 Q2
 
-Once V2 of the Wildcard Component Library is over the finish line, we'll tackle the meat of our WCAG accessibility requirements by working with frontend teams to audit and improve their areas of ownership. We'll also work with DevX to introduce more actionable observability tooling that helps teams know how to find problems and fix them quickly, and we'll lay the groundwork for better integration, E2E, and visual testing suites.  
+Once V2 of the Wildcard Component Library is over the finish line, we'll tackle the meat of our WCAG accessibility requirements by working with frontend teams to audit and improve their areas of ownership. We'll also work with DevX to introduce more actionable observability tooling that helps teams know how to find problems and fix them quickly, and we'll lay the groundwork for better integration, E2E, and visual testing suites.
 
 - [Complete V2 of Wildcard Component Library](https://github.com/sourcegraph/sourcegraph/issues/31204)
 
@@ -31,7 +31,7 @@ Once V2 of the Wildcard Component Library is over the finish line, we'll tackle 
 
 ### FY23 Q3
 
-As we move towards Cloud (Managed Instances) as our preferred deployment method, it will become more important than ever that everything shipped to production is ready to be consumed by customers, which means we need better tests. We'll spend the first part of the quarter investigating pain points around our testing processes and exploring solutions to start implementing. And because quarterly DevX surveys report that "codebase inconsistency" negatively impacts the developer experience at Sourcegraph, we'll also focus on completing ongoing migrations and streamlinging file structure, naming conventions, and organization of reusable modules. 
+As we move towards Cloud (Managed Instances) as our preferred deployment method, it will become more important than ever that everything shipped to production is ready to be consumed by customers, which means we need better tests. We'll spend the first part of the quarter investigating pain points around our testing processes and exploring solutions to start implementing. And because quarterly DevX surveys report that "codebase inconsistency" negatively impacts the developer experience at Sourcegraph, we'll also focus on completing ongoing migrations and streamlinging file structure, naming conventions, and organization of reusable modules.
 
 - [Improve consistency in Sourcegraph's frontend codebase](https://github.com/sourcegraph/sourcegraph/issues/33123)
 
@@ -48,4 +48,3 @@ As we move towards Cloud (Managed Instances) as our preferred deployment method,
 ### FY24 Q1
 
 - [Wildcard Design System as a product](https://github.com/sourcegraph/sourcegraph/issues/33747)
-
