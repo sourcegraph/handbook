@@ -74,7 +74,7 @@ also use the following plugins:
 
 [0]: https://github.com/sourcegraph/infrastructure/
 [1]: https://github.com/sourcegraph/deploy-sourcegraph-managed/
-[2]: https://handbook.sourcegraph.com/departments/engineering/teams/security/vulnerability-management-process/
+[2]: ./vulnerability-management-process.md
 [3]: https://docs.google.com/spreadsheets/d/1s1wX-SkBT_oFPGV92TlxJJUEi33uqkxr72HuBXgVIbg/edit#gid=0
 [4]: https://www.checkov.io/2.Basics/Suppressing%20and%20Skipping%20Policies.html
 [5]: https://sourcegraph.sourcegraph.com/search?q=context:sourcegraph+repo:%5Egithub%5C.com/sourcegraph/infrastructure%24+checkov:skip&patternType=literal
