@@ -42,7 +42,6 @@ that we maintain.
 - [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
   - https://github.com/sourcegraph/security-issues
 - Increase our security posture by running traditional security tools such as vulnerability scanners, SAST, and DAST tools.
-  - https://github.com/sourcegraph/sourcegraph/security/code-scanning
   - [Security tooling](./tooling/index.md)
 - Create a culture of security at Sourcegraph that empowers all of our engineers to write secure code.
 - Respond to Security Incidents as per our [Security Incident Response Policy](./security-incident-response.md)
