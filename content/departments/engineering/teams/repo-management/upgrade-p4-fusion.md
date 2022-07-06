@@ -71,7 +71,7 @@ Successfully built ee90643e2bba
 Successfully tagged p4-fusion:latest
 ```
 
-Run the binary in the container by running the following command: 
+Run the binary in the container by running the following command:
 
 ```
 docker run -t -i p4-fusion /sr/local/bin/p4-fusion
