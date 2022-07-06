@@ -38,7 +38,7 @@ issues where necessary.
 
 ## Guidance for security engineers
 
-Checkov is unfortunately current configured with both global and local skips, and
+Checkov is unfortunately currently configured with both global and local skips, and
 some of the reasons for the global skips are undocumented.
 
 If you are approached with a request to add a Checkov skip, or tagged in a PR that
