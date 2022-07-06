@@ -11,17 +11,19 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
 
 ### Product Design
-  - [Rob Rhyne](../../../team/index.md#rob-rhyne) Product Design Manager (he/him)
-    - [Alicja Suska](../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
-    - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
-    - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
-    - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
-  - [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
-  - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher (she/they)
- 
- ### Creative Ops / Brand
- - [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
- - [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (she/her)
+
+- [Rob Rhyne](../../../team/index.md#rob-rhyne) Product Design Manager (he/him)
+  - [Alicja Suska](../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
+  - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
+  - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
+  - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
+- [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher (she/they)
+
+### Creative Ops / Brand
+
+- [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
+- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (she/her)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
