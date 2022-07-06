@@ -8,7 +8,7 @@ That said, if the collaboration part is not handled well, you can end up in situ
 
 To avoid this, as an open core company we can look to open source to see how this kind of situation is handled:
 
-1. There should always be a clear Engineering department `maintainer team` who makes the final decision of whether to accept a suggestion/code from another team. You can refer to the [ownership chart](../dev/process/engineering_ownership.md) to determine which team the maintainer is, and they are the first group you should go to to discuss your idea. In cases where the question isn't directly dependent on or modifying existing code, you should refer to the "Vision" sections of [team strategy pages](../../../strategy-goals/strategy/index.md#team-strategy-pages) to determine if there is already a `maintaining team` for features related to the job-to-be-done you are pursuing.
+1. There should always be a clear Engineering department `maintainer team` who makes the final decision of whether to accept a suggestion/code from another team. You can refer to the [ownership chart](dev/process/engineering_ownership.md) to determine which team the maintainer is, and they are the first group you should go to to discuss your idea. In cases where the question isn't directly dependent on or modifying existing code, you should refer to the "Vision" sections of [team strategy pages](../../strategy-goals/strategy/index.md#team-strategy-pages) to determine if there is already a `maintaining team` for features related to the job-to-be-done you are pursuing.
 2. Similarly, if you're submitting code, they own the merge decision for changes to areas they maintain.
 3. When it comes to go-to-market, they also determine pricing and how it fits in with their product area.
 
@@ -26,7 +26,7 @@ Sometimes a team builds a new platform feature. Recent examples include executor
 
 ### Explicit cross-product owners
 
-Projects that involve consistent collaboration across multiple teams may be best handled with a [cross-product owner](../product/process/prioritize_and_build/cross-product_owners.md).
+Projects that involve consistent collaboration across multiple teams may be best handled with a [cross-product owner](product/process/prioritize_and_build/cross-product_owners.md).
 
 ## Contributions from the public
 

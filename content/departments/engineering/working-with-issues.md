@@ -1,6 +1,6 @@
 # Working with issues
 
-Product-engineering teams are free to adopt the workflow they want for planning out sprints and organizing their backlog. However, we need to ensure that there is a clear way to submit issues to a team, and that issues get looked at. To balance the need for flexibility (the workflow that works best for each team) with the need for consistency, each engineering team needs to implement a minimum set of constraints.
+Teams are free to adopt the workflow they want for planning out sprints and organizing their backlog. However, we need to ensure that there is a clear way to submit issues to a team, and that issues get looked at. To balance the need for flexibility (the workflow that works best for each team) with the need for consistency, each engineering team needs to implement a minimum set of constraints.
 
 In other words, pick the workflow you want, as long as you implement this interface:
 
@@ -10,7 +10,7 @@ In other words, pick the workflow you want, as long as you implement this interf
 - **teams have a Triage column on their board**, where everybody (including automation) can add things for prioritization
 - **teams have a Backlog column on their board**
 
-Note that customers are not expected to follow this process and cannot label issues. The [PM on feedback rotation](../product/process/feedback/product_feedback_rotation.md) makes sure that issues submitted by users outside Sourcegraph get labeled properly, so that they get on the owning team's radar.
+Note that customers are not expected to follow this process and cannot label issues. The [PM on feedback rotation](product/process/feedback/product_feedback_rotation.md) makes sure that issues submitted by users outside Sourcegraph get labeled properly, so that they get on the owning team's radar.
 
 #### Surfacing issues to the design team
 
