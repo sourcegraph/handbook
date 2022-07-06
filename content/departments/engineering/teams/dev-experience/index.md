@@ -21,7 +21,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
   - [CLA bot](https://github.com/sourcegraph/clabot-config)
   - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
-  - [Release Tool](../dev/tools/release.md)
+  - [Release Tool](../../dev/tools/release.md)
 - [DotCom](https://sourcegraph.com/search)
   - Monitoring
   - Analytics
