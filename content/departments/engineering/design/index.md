@@ -1,22 +1,27 @@
-# Product design
+# Design
 
-### Welcome to product design at Sourcegraph!
+### Welcome to design at Sourcegraph!
 
-The product design team exists to increase the value Sourcegraph delivers to its users. We achieve this objective through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company.
+The design team exists to increase the value Sourcegraph delivers to its users. We achieve this objective through thoughtful discovery, inspired design, careful validation, and close collaboration with all manner of roles throughout the company.
 
 We also seek to make it easier and more efficient to build Sourcegraph itself. Through the artifacts of our open process, we provide a forum where anyone in the company can provide valuable input that improves a project's outcome before a single line of code is written.
 
-## Team
+## Design Team
 
-- [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design
-  - [Rob Rhyne](../../../team/index.md#rob-rhyne) Design Manager (he/him)
+[Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
+
+### Product Design
+  - [Rob Rhyne](../../../team/index.md#rob-rhyne) Product Design Manager (he/him)
     - [Alicja Suska](../../../team/index.md#alicja-suska) Product Designer, Code Insights (she/her)
     - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
     - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
-  - [Steve Fisher](../../../team/#sts=Steve%20Fisher) Interim Cloud Design Manager
-    - [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
     - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
-  - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher
+  - [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
+  - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher (she/they)
+ 
+ ### Creative Ops / Brand
+ - [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
+ - [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (she/her)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -28,7 +33,7 @@ We know that we’re successful as a design team when we…
 - **Feel empowered to act with high agency to make our product, processes, and teams better.** Design is an inherently explorative and iterative process. We value high agency, and we have to actively create an environment of physiological safety, trust, and transparency.
 - **Advocate for and ship design outcomes that align with our [product design principles](./product_design_principles.md).**
 - **Improve Sourcegraph’s velocity by helping to ship more usable and delightful features in the first iteration.** Design often means more time up-front, but this reduces time-consuming rewrites, refactors, and technical and design debt that occurs when changes are made during development or after releases.
-- **Complete OKRs owned by our teams.** We’re successful when each of us is able to complete our OKRs in a sustainable way, while also contributing to the design team culture and rituals.
+- **Complete goals owned by our teams.** We’re successful when each of us is able to complete our goals in a sustainable way, while also contributing to the design team culture and rituals.
 
 ## How we work
 
@@ -95,6 +100,6 @@ We avoid siloed work as much as possible. Instead of design and development phas
 
 ## Other
 
-- [Design team onboarding](./onboarding/index.md)
 - [Design career framework](./career-development.md)
+- [Design team onboarding](./onboarding/index.md)
 - [Interview process](../product/roles/interviews/product_designer/index.md) ([We’re hiring!](https://boards.greenhouse.io/sourcegraph91))
