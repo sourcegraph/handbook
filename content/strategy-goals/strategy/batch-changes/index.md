@@ -74,10 +74,12 @@ The key [success metric](../../../departments/engineering/teams/batch-changes/me
 ### Time to value
 
 Batch Changes is a powerful product with a steep learning curve. The two main friction point are:
+
 - iterating on a batch change has a slow cycle time
 - Batch Changes requires users to write **code rewrite steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to Batch Changes.
 
 We are pursuing three approaches here:
+
 - Building a library of batch specs, that users can reuse and build upon. This will give users code to bootsrap from, but in most cases it will only get them 60% of the way for their use case.
 - Solve common, simple code rewrite use cases end-to-end, without requiring users to write any code. Common use cases:
   - run a regex-based and replace
