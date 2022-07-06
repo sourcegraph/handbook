@@ -20,6 +20,7 @@ The Sales team represents us and our values to customers, bringing back dollars 
 - [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
 - [Deployment methods and products](./sales-enablement/deployment-methods-and-products.md)
+- [Forecasting Overview](forecasting.md)
 
 ## Pipeline, data, and models
 
