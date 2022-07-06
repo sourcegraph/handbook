@@ -76,7 +76,7 @@ Remember:
 - Read about [search queries](https://docs.sourcegraph.com/code_search) and perform your first searches.
 - Work through the questions from the [Sales Onboarding Quiz](../../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Record yourself completing the Sales [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit#).
-- [How to make configuration changes to sourcegraph.com](../../dev/admin-exp/devops/update_sg_website_config.md)
+- [How to make configuration changes to sourcegraph.com](../../teams/devops/update_sg_website_config.md)
 
 ### Get to know our customers
 

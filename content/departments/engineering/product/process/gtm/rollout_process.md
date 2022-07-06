@@ -75,7 +75,7 @@ Sourcegraph Cloud is continuously deployed with all new updates to master. We ma
 ### Launch
 
 1. **Enable for all Sourcegraph Cloud users**
-   - Follow the steps in this [document](../../../dev/admin-exp/devops/update_sg_website_config.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
+   - Follow the steps in this [document](../../../teams/devops/update_sg_website_config.md) to enable your feature in global settings and to push it to all users on Sourcegraph.com.
    - In the PR that pushes changes live, add everyone who gave approval for launch as reviewers.
 1. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
@@ -109,7 +109,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 
 ### Before merge
 
-- Run hallway tests with internal users, leveraging [the #feedback-dogfood channel](../../../team-culture/feedback-dogfood.md).
+- Run hallway tests with internal users, using the #feedback-dogfood channel.
 - Complete a final [design review](../../../design/design_process.md#final-review)
 - Review documentation
 - Review analytics and ensure desired metrics have been added to the feature
@@ -125,7 +125,7 @@ Sourcegraph Browser Extensions and IDE Extensions are released every two weeks o
 ### Launch
 
 1. **Release Process**
-   - Release process is different for each product. Please refer to the [Browser Extensions](../../../dev/admin-exp/integrations/browser-extensions) & [IDE Extensions](../../../dev/admin-exp/integrations/ide-extensions) pages for more details.
+   - Release process is different for each product. Please refer to the [Browser Extensions](../../../teams/integrations/browser-extensions) & [IDE Extensions](../../../teams/integrations/ide-extensions) pages for more details.
 2. **Metrics**
    - Share analytics for monitoring the feature shipped. Track metrics for regressions.
 

@@ -17,7 +17,7 @@ CEs are tightly aligned with the sales team and serve as technical experts, prov
 To be successful in driving technical wins requires the ability to:
 
 1. Help define and document customers’ use cases as confirmed during the qualification stage of the sales process
-2. Validate the technical viability of our solution against customers’ use cases using criteria provided by Product and Engineering
+2. Validate the technical viability of our solution against customers’ use cases using criteria provided by Engineering
 3. Understand how to leverage resources across the CE organization and other internal teams to secure the win
 4. Track and communicate the technical win status with the sales organization and other teams in a way that aligns with Sourcegraph’s [company culture of remote and asynchronous](../../../../company-info-and-process/communication/asynchronous-communication.md) communication
 
@@ -225,7 +225,7 @@ The following criteria are used to determine whether a technical win should prog
 
 As early as the Qualification stage (Stage 2), CEs begin to collect information about and work to understand the needs of prospective customers. The learnings from these discussions (business and technical challenges, current environment, and technical and functional requirements) are recorded in a Technical Design Document.
 
-- Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, Product and Engineering.
+- Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, and Engineering.
 - All TDDs for [Tier 1 accounts](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit) must be reviewed by a peer on the CE team.
 - All TDDs with [non-standard technical requirements](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279) must be reviewed by a peer on the CE team.
 
