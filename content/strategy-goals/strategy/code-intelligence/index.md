@@ -35,7 +35,7 @@ At the moment maturity varies depending on the area of ownership:
 
 - **Language indexers:** Maturity varies widely per language. See [LSIF indexers documentation](https://docs.sourcegraph.com/code_intelligence/references/indexers).
 
-- **Code intelligence platform:** We're currently working on delivering an out-of-the-box precise code intelligence solution to a small number of eager customers. This allows customers to easily set up precise code intelligence for Go, Java, Scala, Kotlin and TypeScript repositories. This also enables automatic indexing of a repository's dependencies, which means users are now be able to navigate and find references across repositories and dependencies alike. 
+- **Code intelligence platform:** We're currently working on delivering an out-of-the-box precise code intelligence solution to a small number of eager customers. This allows customers to easily set up precise code intelligence for Go, Java, Scala, Kotlin and TypeScript repositories. This also enables automatic indexing of a repository's dependencies, which means users are now be able to navigate and find references across repositories and dependencies alike.
 
 - **Code navigation:** Baseline features are implemented but have a considerable amount of debt and room for improvement. We're currently focusing on fixing and improving our core workflow features, with the goal of making the code navigation experience feel fast and reliable.
 
@@ -47,7 +47,7 @@ In the last few months we’ve:
 
 Recent key learnings:
 
-- In alignment to the business strategy, making executors and auto-indexing available by default on managed instances and ensuring  will be key part of moving Auto-indexing into Beta.
+- In alignment to the business strategy, making executors and auto-indexing available by default on managed instances and ensuring will be key part of moving Auto-indexing into Beta.
 
 ### Top customer, support, sales and marketing issues
 
@@ -90,6 +90,7 @@ Several recent efforts have shown an increasing need to unify the [code intellig
 **Ship precise language support**
 
 We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). Increasing precise support contributes to push forward any security features we choose to implement as it makes compiler-accurate metadata available for all our product verticals. We're currently working on:
+
 - Adding precise cross-repository Python and PyPi package support in preparation for our Python indexer launch.
 - Implementing Ruby support.
 - Assesing our options for a revamped version of our C++ indexer.
