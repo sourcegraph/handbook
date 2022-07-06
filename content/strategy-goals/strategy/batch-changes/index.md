@@ -119,7 +119,7 @@ This quarter, we will focus on two things: time-to-value and keep iterating on s
 - **Get adoption for self-hosted executor and iterate on running batch changes server-side as feedback comes in**. To do so, we are working with cusotmers on improving executors and making deploying them easier (see [RFC 696 APPROVED: Reduced isolation deployments for executor](https://docs.google.com/document/d/16SVTBbuqAc2RizJBZgBRCfv5fsMVhR_a2QrIHnEh5T0/edit#heading=h.trqab8y0kufp)).
 - **An MVP of the Batch Changes library** ([#32687](https://github.com/sourcegraph/sourcegraph/issues/32687)), that will contain a small set of universally useful batch changes specs. As part of this, we need to figure out how we can build more specs (collaborate with professional services? hire a dedicated teammate?).
 - **Ship an experimental version of solving a batch change use case end-to-end, without writing code**. It's likely we'll experiment with [RFC 713: Compute-powered batch changes](https://docs.google.com/document/d/1c9vGgSfh35HNzhPSMltgVkMA9B1NO4QF5GgZwFlt5Ys/edit#heading=h.trqab8y0kufp). This is successfull if we see a sharp uptick in the number of MAUs per customer.
-- **Get mounting files on step containers** ([#14851](https://github.com/sourcegraph/sourcegraph/issues/14851)), to reduce cycle time for customers that run their own code rewrite tools/scripts.
+- **GA mounting files on step containers** ([#14851](https://github.com/sourcegraph/sourcegraph/issues/14851)), to reduce cycle time for customers that run their own code rewrite tools/scripts.
 
 ## What we are not working on
 
