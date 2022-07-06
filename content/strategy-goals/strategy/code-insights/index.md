@@ -1,6 +1,6 @@
 # Code Insights strategy
 
-Code Insights is an upcoming product that lets engineering leaders track and understand what's in your code and how it changes over time, and helps individual developers discover relevant trends and high-level information about a codebase within their core workflow of searching and navigating code. 
+Code Insights is an upcoming product that lets engineering leaders track and understand what's in your code and how it changes over time, and helps individual developers discover relevant trends and high-level information about a codebase within their core workflow of searching and navigating code.
 
 This page outlines the vision, strategy, and goals of the Code Insights team over the next year or so.
 
@@ -45,7 +45,7 @@ To deliver on our mission, we will:
 
 #### 3 Year vision
 
-> Code Insights-powered features are table stakes features for what good code search and navigation must provide. For engineering leaders, Sourcegraph Code Insights provide Sourcegraph-built custom value metrics and combines with all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. These same metrics are surfaced in-flow to developers to enable an entire organization to move towards the same goals effectively. 
+> Code Insights-powered features are table stakes features for what good code search and navigation must provide. For engineering leaders, Sourcegraph Code Insights provide Sourcegraph-built custom value metrics and combines with all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. These same metrics are surfaced in-flow to developers to enable an entire organization to move towards the same goals effectively.
 
 #### 10 year vision
 
@@ -53,11 +53,11 @@ To deliver on our mission, we will:
 
 ### Guiding principles
 
-### For individual developers 
+### For individual developers
 
-#### Meet developers where they work 
+#### Meet developers where they work
 
-Code Insights surfaces key information for individual developers in their existing workflows, without requiring learning a new interface or tool. We use information about where in a developers workflow they are to help inform what information is useful to show. 
+Code Insights surfaces key information for individual developers in their existing workflows, without requiring learning a new interface or tool. We use information about where in a developers workflow they are to help inform what information is useful to show.
 
 **What this looks like:**
 
@@ -66,49 +66,57 @@ Code Insights surfaces key information for individual developers in their existi
 
 **What this does _not_ look like:**
 
-- Code Insights will not surface information when it's not useful, or could be more annoyance than useful. If they conflict, we choose to minimize our false positive rate rather than maximize our true positive rate – we do not want to frustrate or bombard developers with useless information. 
+- Code Insights will not surface information when it's not useful, or could be more annoyance than useful. If they conflict, we choose to minimize our false positive rate rather than maximize our true positive rate – we do not want to frustrate or bombard developers with useless information.
 
-#### Integrate seamlessly with our existing workflows 
+#### Integrate seamlessly with our existing workflows
 
-Rather than try to build new core workflow pathways, Code Insights integrates into our search and code navigation core workflow. 
+Rather than try to build new core workflow pathways, Code Insights integrates into our search and code navigation core workflow.
 
 **What this looks like:**
+
 - We focus on adding value within our search and code navigation features
 
 **What this does _not_ look like:**
-- We do not focus on adding additional separate /insights/ pages and flows when the same need could be solved within our existing workflows. 
+
+- We do not focus on adding additional separate /insights/ pages and flows when the same need could be solved within our existing workflows.
 
 #### The "why" and "where" is more important than the "what" and "who"
 
-Most questions individual developers have for Code Insights are about why code is a certain way, or where the code they want to reference can be found. They are less concerned with who wrote the code and what the code contains at a high level. 
+Most questions individual developers have for Code Insights are about why code is a certain way, or where the code they want to reference can be found. They are less concerned with who wrote the code and what the code contains at a high level.
 
 **What this looks like:**
-- We build features that help surface trends and patterns and the potential reasons behind them 
+
+- We build features that help surface trends and patterns and the potential reasons behind them
 
 **What this does not look like:**
+
 - We don't focus on absolute counts or compliance-type use cases that most individual developers don't need
 
 #### Don't interrupt flow
 
-Code Insights works smoothly enough that it doesn't interrupt a developer's flow or require them to learn a new product to get value. 
+Code Insights works smoothly enough that it doesn't interrupt a developer's flow or require them to learn a new product to get value.
 
 **What this looks like:**
-- We build features with minimal loading time and setup required so developers don't break their flow to get value from code insights 
+
+- We build features with minimal loading time and setup required so developers don't break their flow to get value from code insights
 
 **What this does not look like:**
-- We don't require developers to return later to get value from the product 
 
-#### Proactively surface important information 
+- We don't require developers to return later to get value from the product
 
-Code Insights automatically surfaces to developers when there's a change or new pattern they care about. Individual developers don't need to remember to check code insights features on their own.  
+#### Proactively surface important information
+
+Code Insights automatically surfaces to developers when there's a change or new pattern they care about. Individual developers don't need to remember to check code insights features on their own.
 
 **What this looks like:**
-- We make automated alerting for Insights and related features first-class priorities 
 
-**What this does not look like:** 
-- We don't spam developers with unnecessary information or alerts. We make it easy to configure alerts that you actually care about. 
+- We make automated alerting for Insights and related features first-class priorities
 
-### For Engineering Leaders 
+**What this does not look like:**
+
+- We don't spam developers with unnecessary information or alerts. We make it easy to configure alerts that you actually care about.
+
+### For Engineering Leaders
 
 #### Code Insights was built first for engineering leaders
 
@@ -116,7 +124,7 @@ The answer to "why did we build Code Insights ahead of other cool projects Sourc
 
 Engineer leaders may not need to use Sourcegraph directly for code search (though their teams do), but they do need to answer questions about their code that Sourcegraph, via Code Insights, is well-positioned to serve.
 
-The below principles are an abbreviation of what we use when building for engineering leaders. For full details, see [older revisions of this page](https://sourcegraph.com/github.com/sourcegraph/handbook/-/commit/c45cd7e2e8d54f2090f79417414dd0e131acc2b0?visible=2). These principles will become relevant again after we build Insights features that serve the core developer 
+The below principles are an abbreviation of what we use when building for engineering leaders. For full details, see [older revisions of this page](https://sourcegraph.com/github.com/sourcegraph/handbook/-/commit/c45cd7e2e8d54f2090f79417414dd0e131acc2b0?visible=2). These principles will become relevant again after we build Insights features that serve the core developer
 
 - Code Insights layers together the Sourcegraph feature ecosystem
 - Code Insights is NOT for tracking individual developers
@@ -148,13 +156,13 @@ Overall: there are no other products that can efficiently and effectively provid
 
 There may be one-off instances of companies that have glued together in-house solutions to answer some of the same problems, but we have already validated (thus far) every one of those companies would prefer to use Code Insights.
 
-There are no products that target providing high-level or historical information for individual developers within the code search and navigation flows themselves. 
+There are no products that target providing high-level or historical information for individual developers within the code search and navigation flows themselves.
 
 ## Detailed Strategy and Plans
 
 ### Strategy for FY22H2:
 
-The next six months are focused on building features that developers will use multiple times a day as they search and navigate code. 
+The next six months are focused on building features that developers will use multiple times a day as they search and navigate code.
 
 ### Themes (and what's next and why)
 
@@ -162,7 +170,7 @@ _All of these themes are yet-to-be-validated with actively ongoing user research
 
 #### Surface relevant recent trends and changes
 
-Developers searching for code often have to dig into git blame or diff searches to understand the "why" behind a change. We should proactively surface information that answers questions about why something exists the way it does. 
+Developers searching for code often have to dig into git blame or diff searches to understand the "why" behind a change. We should proactively surface information that answers questions about why something exists the way it does.
 
 We will:
 
@@ -170,40 +178,43 @@ We will:
 
 #### Convey the structure of a codebase
 
-When "onboarding" (in the local, "I need to make a few quick changes or fix some failing tests" sense of the word) to a new area of any codebase, developers struggle to understand how it's structured. 
+When "onboarding" (in the local, "I need to make a few quick changes or fix some failing tests" sense of the word) to a new area of any codebase, developers struggle to understand how it's structured.
 
 We will:
 
-- Explore surfacing heatmaps or structural information in the search and navigation workflow 
+- Explore surfacing heatmaps or structural information in the search and navigation workflow
 
-#### Prevent regressions on important initiatives 
+#### Prevent regressions on important initiatives
 
-While engineering leaders can set up code insights to track important initiatives, the average developer won't know those insights exist and may commit code that moves key metrics in the wrong direction. 
+While engineering leaders can set up code insights to track important initiatives, the average developer won't know those insights exist and may commit code that moves key metrics in the wrong direction.
 
-We will: 
-- Explore how to best surface key initiatives within the search and navigation workflow 
+We will:
+
+- Explore how to best surface key initiatives within the search and navigation workflow
 
 #### Export insights information to core workflow tools
 
-Some customers use third-party tools like service catalogs as part of their developers core workflow. We want to make Code Insights available to developers where they work. 
+Some customers use third-party tools like service catalogs as part of their developers core workflow. We want to make Code Insights available to developers where they work.
 
-We will: 
-- Explore easier embedding and exporting of code insights into other tools 
+We will:
+
+- Explore easier embedding and exporting of code insights into other tools
 
 #### Provide automated alerts for individual developers
 
-Often, a team lead may set up a code insight to help with a key initiative. When the insight changes (positively or negatively), it's important that their team is aware of it. 
+Often, a team lead may set up a code insight to help with a key initiative. When the insight changes (positively or negatively), it's important that their team is aware of it.
 
-We will: 
+We will:
+
 - Build monitoring integrations to send relevant code insights information into tools like Slack
 
 ### What we're not working on & why
 
 In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following unless new information surfaces:
 
-- Additional short-term features for engineering leadership: Code Insights successfully serves the needs of engineering leaders at many enterprises, so we're pausing development on features for the engineering leader while we focus on building features for the individual developer. This does not mean we are pausing support for existing features (we are not) nor that we are not marketing and still offering Code Insights as an add-on product for engineering leaders (we are). 
+- Additional short-term features for engineering leadership: Code Insights successfully serves the needs of engineering leaders at many enterprises, so we're pausing development on features for the engineering leader while we focus on building features for the individual developer. This does not mean we are pausing support for existing features (we are not) nor that we are not marketing and still offering Code Insights as an add-on product for engineering leaders (we are).
 - Code Insights on single docker container deployments: Code Insights lives primarily on the unindexed search path, which is substantially more resource intensive in this context. Currently, the experience is unacceptably bad, so we don't support it. The number of customers and leads that use a single docker container deployment is both shrinking and small enough that this is not a priority.
-- Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all developers first. 
+- Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all developers first.
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
 
 ## Related use cases
