@@ -71,15 +71,21 @@ cd $CUSTOMER
 ```sh
 module "managed_instance" {
   cloud_sql_deletion_protection  = false
-  kms_crypto_key_prevent_destroy = false
-  source                     = ...
+  source                         = "../modules/terraform-managed-instance-new"
   (..)
 }
+```
+
+- modify kms key to remove delete protection
+
+```sh
+sed -i '' 's/    prevent_destroy = true/    prevent_destroy = false/g' ../modules/terraform-managed-instance-new/infrastructure.tf
 ```
 
 - apply changes
 
 ```sh
+terraform init # switch to local module
 terraform apply
 ```
 
