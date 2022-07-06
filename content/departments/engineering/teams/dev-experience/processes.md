@@ -19,7 +19,7 @@ We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views
 
 When planning work, the [relevant work lead](#work-leads) should:
 
-- Work with the PM/EM to create the [roadmap tracking issue](#roadmap-tracking-issues) using the [tracking issue bot](../../dev/process/tracking_issues.md). The tracking issue description should have the following:
+- Work with the PM/EM to create the [roadmap tracking issue](#roadmap-tracking-issues) using the [tracking issue bot](../../dev/process/tracking_issues.md). A loose scratch doc can be created in [the team Drive](#google-drive) as well, but ultimately the tracking issue is the concrete artifact we share with stakeholders and the company. The tracking issue description should have the following:
   - **Problem**: Articulate the problem space and requirements.
   - **Scope**: Scope the work so that it can be completed in a single bet cycle, identifying:
     - **Boundaries**: Define what work is within the scope and what work is explicitly out of scope. (Out-of-scope boundaries, or "non-goals", are worth writing down and they help prevent scope creep.)
@@ -94,7 +94,7 @@ As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
 #### Dev Experience project
 
-For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212/views/32). This board automatically imports issues with the `dx` or `team/devx` labels.
+For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/devx` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
 
 #### Roadmap tracking issues
 
@@ -106,6 +106,8 @@ They should have the `team/devx` and `roadmap` label, one (or more) appropriate 
 ```md
 <!-- OPTIONAL LABEL: roadmap -->
 ```
+
+A project board view is also available [here](https://github.com/orgs/sourcegraph/projects/212/views/33).
 
 ### Google Drive
 
