@@ -22,7 +22,7 @@ See "[Engineering department update 2022-06](https://docs.google.com/document/d/
 - [Batch Changes](teams/batch-changes/index.md)
 - [Code Insights](teams/code-insights/index.md)
 - [Code Intelligence](teams/code-intelligence/index.md)
-- [Content Platform](teams/frontend-platform/index.md)
+- [Content Platform](teams/content-platform/index.md)
 - [Delivery](teams/delivery/index.md)
 - [Dev Experience](teams/dev-experience/index.md)
 - [Frontend Platform](teams/frontend-platform/index.md)
