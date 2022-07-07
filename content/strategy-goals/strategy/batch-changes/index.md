@@ -82,7 +82,7 @@ We are pursuing three approaches here:
 
 - Building a library of batch specs, that users can reuse and build upon. This will give users code to bootsrap from, but in most cases it will only get them 60% of the way for their use case.
 - Solve common, simple code rewrite use cases end-to-end, without requiring users to write any code. Common use cases:
-  - run a regex-based and replace
+  - run a regex-based search and replace
   - run a structural search and replace (comby)
   - rename a symbol
 - Reducing iteration time (reduce the time between changing a batch change, and getting feedback)
