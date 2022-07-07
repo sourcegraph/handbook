@@ -41,7 +41,7 @@ What is being run, how and when must be very clear. Otherwise, it introduces fri
 
 ## Roadmap
 
-[Full list of roadmap issues for Dev Experience](https://github.com/orgs/sourcegraph/projects/214/views/14?filterQuery=owning-org%3AEnablement+owning-team%3A%22Dev+Experience%22)
+[Dev Experience roadmap view](https://github.com/orgs/sourcegraph/projects/214/views/21)
 
 See also our [completed goals](../../../departments/engineering/teams/dev-experience/goals_completed.md).
 

@@ -4,3 +4,8 @@ strategic:
   title: Strategic
   handbook_link: /departments/engineering/dev/cross-product/strategic/index.md
   owner: joel_kwartler
+
+usage:
+  title: Usage
+  handbook_link: /departments/engineering/dev/cross-product/event-data/index.md
+  owner: ryan_phillips
