@@ -131,7 +131,7 @@ terraform apply
 
 ### Commit the change
 
-To prevent an initial state circular depenency, the Terraform state for GCP projects is committed as a file into the infrastructure repository.
+To prevent an initial state circular dependency, the Terraform state for GCP projects is committed as a file into the infrastructure repository.
 Make sure to include this in the pull request.
 
 ```
@@ -169,7 +169,7 @@ git push origin HEAD
 
 ## Remove audit monitoring from removed GCP project
 
-[infrasctructure repository](https://github.com/sourcegraph/infrastructure)
+[infrastructure repository](https://github.com/sourcegraph/infrastructure)
 
 ```
 cd security/auto-discovery
