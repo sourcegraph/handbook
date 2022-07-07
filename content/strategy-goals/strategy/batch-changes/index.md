@@ -91,7 +91,7 @@ We are pursuing three approaches here:
 
 Today, running batch changes server-side is available on Cloud (formerly managed instances), provided that customers self-host executors. This is not practical, given customers that use Cloud want to minimize installation and maintenance work. Our long term goal is to enable running batch changes server-side by default for all managed instances customers, with managed executors. This will likely require billing for variable compute costs beyond a free usage tier, which implies additional operations to bill customers. Our roadmap therefore is:
 
-- Stage 1: enable executors on managed instances by default, with a capped free usage tier. Usage beyong the free tier requires self-hosting executors.
+- Stage 1: enable executors on managed instances by default, with a capped free usage tier. Usage beyond the free tier requires self-hosting executors.
 - Stage 2: collect feedback on usage patterns, run customer discovery on billing.
 - Stage 3: put billing in place, GA managed executors.
 
