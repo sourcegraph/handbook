@@ -171,12 +171,6 @@ loïc_guychard:
   links: '[LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-guychard-749b8152/)'
   description: Loïc loves oceanside living and long bike rides. He started his career as a linguist, before transitioning to software engineering while working at Dashlane.
 
-engineering_manager_code_security_tiger_team:
-  name: Loïc Guychard
-  role: Engineering Manager, Code Security tiger team
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_security_tiger_team
-
 dan_adler:
   name: Dan Adler
   pronouns: he/him
