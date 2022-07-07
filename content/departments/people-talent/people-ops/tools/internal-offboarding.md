@@ -8,7 +8,7 @@ We use Process St as our offboarding tool. There are several teams involved in t
 
 ### Kicking off the process
 
-Once we are certain someone is leaving us (be it voluntarily, involuntarily, or through mutual separation) the [People Partner responsible for that department](../index.md#people-partner-alignment) will go to the Offboarding workflow in Process St and click on **_Run Workflow_**. This will create a new one using the Offboarding template. The naming convention for a workflow is: “First + Last name + Offboarding”
+Once we are certain someone is leaving us (be it voluntarily, involuntarily, or through mutual separation) the [People Partner responsible for that department](../index.md#people-partner-alignment) will go to the [_Offboarding (NEW)_](https://app.process.st/workflows/Offboarding-NEW-kU5DM2RPK3kec6TTKFVI_g/view/tasks/mp1YRoz0MCUp022PN_dHtg) workflow in Process St and click on **_Run Workflow_**. This will create a new one using the Offboarding template. The naming convention for a workflow is: “First + Last name + Offboarding”
 
 ### Teammate information
 
@@ -31,7 +31,7 @@ The People Partner responsible for the exit needs to complete the following fiel
 - **Manager name**
   - of person leaving Sourcegraph
 - **HRBP**
-  - People Partner responsible for the exit. An option will be selected from a list.
+  - People Partner responsible for the exit. See alignment [here](../index.md#people-partner-alignment). An option will be selected from a list.
 - **Employment type**
   - of person leaving Sourcegraph. An option will be selected from a list.
 - **Department**
@@ -90,7 +90,9 @@ It is important to click on **_Complete task_**, as it triggers a message to the
 The People Partner responsible for this offboarding needs to complete the steps in this task:
 
 - BambooHR - Profile termination
+  - Steps to terminate a profile are [here](bamboohr.md#how-to-terminate-someone)
 - Lattice - Exit interview and survey (Only if Voluntary departure)
+  - Here you can read more about [Exit interview](../process/performance-coaching/exit-interview.md) & [experience exit survey](../process/teammate-sentiment/exit-survey.md).
 - Send Orrick an email to suspend the user.
 
 While the first two are done in their own platform (BambooHR and Lattice respectively), the last one can be done in Process St. When clicking on **_Send_**, the email will send automatically:
@@ -101,8 +103,6 @@ While the first two are done in their own platform (BambooHR and Lattice respect
 - Body:
 
         Please suspend vesting for *First name Last name* effective *Departure date*. Thanks!
-
-Here you can read more about [Exit interview](../process/performance-coaching/exit-interview.md) & [experience exit survey](../process/teammate-sentiment/exit-survey.md).
 
 ### People team - NO Severance
 
@@ -142,7 +142,7 @@ Clicking on **_Complete Task_** adds a line to the [Severance sheet](https://bit
 
 ## Managers
 
-There are different tasks managers need to complete when a teammate is offboarding.
+There are different tasks managers need to complete when a teammate is offboarding. 
 
 ### Communication
 
@@ -150,7 +150,7 @@ Announce the departure to the team and in the different channels. Here’s the [
 
 ### Handbook
 
-Remove or replace teammates from all handbook pages.
+Remove or replace teammates from all handbook pages. Managers can use [this GitHub search query](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/handbook%24+giselle+&patternType=literal) to search for the teammate in the handbook. Resource: [Editing the handbook](../../../../handbook/editing/index.md)
 
 ### Calendar
 
