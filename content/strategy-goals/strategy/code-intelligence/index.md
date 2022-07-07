@@ -120,7 +120,7 @@ These are all currently in early stages of development and discussion. Read more
 
 ### How do these all tie together?
 
-Every one of the themes above contributes to push forward our vision. Auto-indexing serves a double purpose: it lowers the barrier to adoption by making precise code intelligence easier to configure, and also unlocks the ability to index and navigate dependencies. By adding more language support, combined with adding package hosts support, and improving our navigation features overall we're aiming to position Sourcegraph as a superior code navigation platform that goes beyond baseline expectations and creates delightful experiences for our users.
+Auto-indexing serves a double purpose: it lowers the barrier to adoption by making precise code intelligence easier to configure and unlocks the ability to navigate dependencies. By adding more language and package host support we're aiming to position Sourcegraph as a superior code navigation platform that goes beyond baseline expectations and creates delightful experiences for our users.
 
 Additionally, providing the precise code intelligence data layer sets the foundations to unlock new features in our other product verticals (e.g. powering symbol renaming in Batch Changes, using number of call sites to power ranking in Search) and enhancing already existing product verticals (e.g more accurate dependency tracking in Code Insights). This will make Sourcegraph a powerful integrated solution for a large array of developer use cases, which will be hard to match by any single competitor.
 
