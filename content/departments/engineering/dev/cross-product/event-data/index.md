@@ -4,7 +4,7 @@
 - Owner: Lauren Anderson and Ryan Phillips
 - Owner split with other roles: 50-50 (this-other roles)
 
-### Mission and ownership 
+### Mission and ownership
 
 The goal of this project is to increase Sourcegraph's operational efficiency by increasing the data aggregated from customers instances. This data will help our teams develop valuable features for customers, in a more efficient way, while maintaining high levels of trust with customers.
 
