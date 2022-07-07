@@ -142,7 +142,7 @@ Clicking on **_Complete Task_** adds a line to the [Severance sheet](https://bit
 
 ## Managers
 
-There are different tasks managers need to complete when a teammate is offboarding. 
+There are different tasks managers need to complete when a teammate is offboarding.
 
 ### Communication
 
