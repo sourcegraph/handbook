@@ -388,15 +388,15 @@ When applying color to website UI elements use Sourcegraph Red, Green, Dark Gray
   }
 </style>
 
-#### <span class="inline-color-box middle" style="--color: var(--sg-blurple)"></span> <span class="middle">SG Blurple</span>
+#### <span class="inline-color-box middle" style="--color: var(--sg-blurple)"></span> <span class="middle">Sourcegraph Blurple</span>
 
 Blurple is used for button elements and CTA text.
 
-#### <span class="inline-color-box middle" style="--color: var(--sg-action-green)"></span> <span class="middle">SG Action Green</span>
+#### <span class="inline-color-box middle" style="--color: var(--sg-action-green)"></span> <span class="middle">Sourcegraph Action Green</span>
 
 Green is used for check mark elements and to signal positive messages.
 
-#### <span class="inline-color-box middle" style="--color: var(--sg-alert-red)"></span> <span class="middle">SG Alert Red</span>
+#### <span class="inline-color-box middle" style="--color: var(--sg-alert-red)"></span> <span class="middle">Sourcegraph Alert Red</span>
 
 Red is used to signal serious alerts and error warnings.
 
