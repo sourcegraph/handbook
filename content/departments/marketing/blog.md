@@ -173,7 +173,7 @@ Use an `Alert` to highlight an important piece of information. By default, the b
 
 ## Adding a blockquote
 
-Showcase a quote using `BlockquoteWithBorder`. You may also include a `headline` above the quote for context. 
+Showcase a quote using `BlockquoteWithBorder`. You may also include a `headline` above the quote for context.
 
 <!-- prettier-ignore -->
 ```html
