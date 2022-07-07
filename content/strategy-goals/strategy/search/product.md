@@ -28,34 +28,27 @@ Our Q3 work will include paring back the search experience to its essentials and
 ## What's next and why
 
 ### Enhancing the core workflow
+
 #### UX enhancements
 In Q3, we'll focus on simplifying the core workflow, implementing small but meaningful UX changes that make it easier for Sourcegraph users to solve problems and unblock themselves using Sourcegraph.
 
 #### Query language improvements
 We will continue our efforts to improve our search experience via the query language. Features like Lucky search and improved syntax such as inline regex, the elimination of a need for a pattern type, and aliases for `path` will help users get value from Sourcegraph quickly, even if they're used to another code search tool.
 
-### Exposing metadata
-We will also begin work to let metadata be searchable. Our first project will be exposing repository metadata, which is stored in a separate database from code. That database also houses data for our other products, such as Batch Changes and Notebooks, meaning that we could later make their metadata searchable as well.
+### Ready the core workflow for deep integrations
 
+#### SCIP <> search <> Compute integration
+With Code Intel’s commitment to complete SCIP <> search <> Compute integration shortly, we will have the ability to search only precise results. This has huge implications for surfacing and leveraging code intelligence data throughout the product.
 
+#### Develop integration framework in the core workflow
+UI concern of where integrations fit:
+-  [RFC 701 Review: Search as both a workflow in itself, and as a start for other workflows](https://docs.google.com/document/d/1Np081Iuezi-ZCzEJT5VkJNBDKF-Po-Xbz4M5_QJLH2Y/edit#heading=h.trqab8y0kufp)
 
-For example, if a user enters:
-
-> Python function for k-means clustering
-
-We'd want to see the model generate a query like:
-
-`file:.\py$ kmeans select:symbol.function`
-
-Learning Sourcegraph's query language is a struggle for many users, to the point that they simply never go beyond using literal search. Anything we can do to reduce the learning curve and improve result quality will have a big impact on user experience and potentially drive more usage.
-
-If successful, this effort would have implications beyond Code Search. Imagine being able to create a Code Insight or a Batch Change with natural language.
+Likely way to integrate features more deeply into search and core workflow is to integrate code insights and batch changes into compute. There may be Compute work necessary to achieve that (production readiness, scale, …).
+- Code Insights: [RFC (PRIVATE?) 696 REVIEW: Code Insights serves new jobs to be...](https://docs.google.com/document/u/0/d/1Vktm_9CtSoF8zjye5YwCrfaLm8srktf0fccbM-3bcOA/edit)
+- Batch Changes: [RFC 713: Compute-powered batch changes](https://docs.google.com/document/u/0/d/1c9vGgSfh35HNzhPSMltgVkMA9B1NO4QF5GgZwFlt5Ys/edit)
 
 ## What we're not working on and why
+- We'll complete our migration from the Monaco editor to CodeMirror 6, but we won't continue our work on improving search query suggestions for the time being. We're turning most of the application focus to cleaning up the core workflow.
 
-### Compute
-**Patch generation/Batch Changes integrations:** We don't currently have the resources to support this and Batch Changes team is fully committed to other roadmap items.
-
-**Support for pipe operations:** Similarly, we don't have the resources to support this and Code Insights (the requestor) doesn't have the ability to commit resources to it either.
-
-**SCIP <> search <> Compute integration:** With Code Intel’s commitment to complete SCIP <> search <> Compute integration shortly, we will have the ability to search only precise results. This has huge implications for surfacing and leveraging code intelligence data throughout the product, however the team is not sufficiently resourced to pursue this work in Q3.
+- We'll also defer work to make metadata searchable. Although this is an important piece of functionality, the platform will be focused primarily on Lucky search and Compute foundational work.

@@ -1,5 +1,5 @@
 # Cross-product ownership: Core workflow
-**Owning PM:** [Ben Venker](../../team/index#ben-venker)
+**Owning PM:** Ben Venker
 
 > What is ["cross-product ownership"]()?
 
