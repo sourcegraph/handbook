@@ -6,7 +6,7 @@ The Cloud team is the special focus team reporting directly to CEO modeled on _â
 
 ## Mission statement
 
-Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) support 100+ customers** using **dedicated** Sourcegraph instances, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
+Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) support 200+ customers** using **dedicated** Sourcegraph instances, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
 
 **Fully managed**
 
