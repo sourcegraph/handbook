@@ -171,12 +171,6 @@ loïc_guychard:
   links: '[LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-guychard-749b8152/)'
   description: Loïc loves oceanside living and long bike rides. He started his career as a linguist, before transitioning to software engineering while working at Dashlane.
 
-engineering_manager_code_security_tiger_team:
-  name: Loïc Guychard
-  role: Engineering Manager, Code Security tiger team
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_security_tiger_team
-
 dan_adler:
   name: Dan Adler
   pronouns: he/him
@@ -2677,3 +2671,23 @@ gary_lee:
   email: gary.lee@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/gary-lee-68b28745/)'
   description: Gary lives in San Francisco, California and has worked as a Software Engineer on search products and solutions since 2015. Outside of work he plays drums in a rock band, practices martial arts, spends time with his dogs, and catches up on books.
+
+thomas_liu:
+  name: Thomas Liu
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_search
+  location: Dallas, TX, USA
+  github: tbliu98
+  email: thomas.liu@sourcegraph.com
+  description: Thomas grew up in Denver, Colorado, studied Cognitive Studies and Computer Science at Vanderbilt University, and now lives in Dallas, Texas. He has lived in a different building every year since 2016. Unfortunately Texas is proving to be a bit too hot for Thomas' liking and he's thinking about moving, again. On an unrelated note, Thomas enjoys changing things up.
+
+vincent_ruijter:
+  name: Vincent Ruijter
+  pronouns: he/him/his
+  email: vincent.ruijter@sourcegraph.com
+  github: evict
+  role: Security Engineer
+  reports_to: engineering_manager_security
+  location: The Hague, Netherlands
+  description: Loves anything related to computers and security and broke more routers than he should be proud of. Enjoys reading books, running, eating (a lot, hence the running) and simracing.
