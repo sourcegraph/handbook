@@ -180,7 +180,7 @@ Developers searching for code often have to dig into git blame or diff searches 
 
 We will:
 
-- Explore surfacing historical trends, diff search, and other high-level information in the core workflow of search and code navigation (such as [#38440](<[url](https://github.com/sourcegraph/sourcegraph/issues/38440)>))
+- Explore surfacing historical trends, diff search, and other high-level information in the core workflow of search and code navigation (such as [#38440](https://github.com/sourcegraph/sourcegraph/issues/38440))
 
 #### Convey the structure of a codebase
 
@@ -196,7 +196,7 @@ While engineering leaders can set up code insights to track important initiative
 
 We will:
 
-- Explore how to best surface key initiatives within the search and navigation workflow (such as [#38441](<[url](https://github.com/sourcegraph/sourcegraph/issues/38441)>))
+- Explore how to best surface key initiatives within the search and navigation workflow (such as [#38441](https://github.com/sourcegraph/sourcegraph/issues/38441))
 
 #### Export insights information to core workflow tools
 
