@@ -2,7 +2,7 @@
 
 > NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** *(for example `mycompany.sourcegraph.com`)*. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages. 
 
-The Cloud team is the special focus team reporting directly to CEO modeled on *“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”* The team is resposible for maintaining existing managed instances and building the next generation of them. The Cloud team has no other responsibilities.
+The Cloud team is the special focus team reporting directly to CEO modeled on *“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”* The team is resposible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed). and building the next generation of them. The Cloud team has no other responsibilities.
 
 ## Mission statement
 
@@ -72,3 +72,114 @@ The Cloud team will define FY23 roadmap in upcomming weeks.
 ## Team
 
 {{generator:product_team.cloud}}
+
+## How to contact the team and ask for help
+
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for devops`.
+- For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
+- For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers *(exp. coding, infrastructure change etc.)* please create a GH issue and assign `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
+
+## When to offer a Managed Instance
+
+> NOTE: Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
+
+Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
+
+See below for the SLAs and Technical implementation details (including Security) related to managed instances.
+
+Please message [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) for any answers or information missing from this page.
+
+When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
+
+- Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
+- Customers's code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. *(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)*
+
+## Managed Instance Requests
+
+Customer Engineers (CE) or Sales may request to:
+
+- **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+  - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
+  - For new customers or prospects who currently do not have a managed instance.
+- **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
+  - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
+- **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
+  - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+
+### Workflow
+
+1. CE seeks Managed Instance approval from their regional CE Manager
+2. The Regional CE Manager will review the following criteria:
+    - Overall, is the deal qualified?
+    - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
+    - If anything is non-standard, it must pass the tech review process
+3. If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
+    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Cloud team using the corresponding [issue template](#managed-instance-requests) in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Cloud team.
+4. Message the team in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
+5. If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
+
+## SLAs for managed instances
+
+Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index.md#slas). Other engineering SLAs are listed below
+
+|                                               | Description                                            | Response time                                 | Resolution time                               |
+| --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependenant on the request                    |
+| Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
+| Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
+
+### Incident Response
+
+Incidents which affect managed instances are handled according to our [incidents](../../../dev/process/incidents/index.md) process.
+
+## How we work 
+
+### Issue tracking
+
+The [Cloud team GitHub Project](https://github.com/orgs/sourcegraph/projects/264/views/1) is the single source of truth.
+
+### How we use GitHub Projects (Beta)
+
+tbd
+
+### On-call
+
+We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main). Reponsibilities of the teammate who is on-call include:
+
+- Acknowledging incoming alerts
+- Initiating incident procedures
+- Publishing postmortems
+
+## [Managed Instance technical documentation](technical-docs/index.md)
+
+## Team slack channels
+
+- [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) - external channel for the Cloud team where other Sourcegraphers can ask for help or leave questions for the team
+- [`#cloud-internal`](https://sourcegraph.slack.com/archives/C03LCPCT3SP) - internal channel for the Cloud team for all day to day communication within the team
+
+## FAQ
+
+### FAQ: Can customers disable the "Builtin username-password authentication"?
+
+Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
+
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior disabling the builtin provider.
+
+### FAQ: How do I restart the frontend after changing the site-config?
+
+> NOTE: If you are a Cloud teammate, follow the regular operation playbook.
+
+Are you a member of our CE & CS teams?
+
+- Visit [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed)
+- Locate the `slug` of the customer instance from list of folders
+- Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
+- Click `Run workflow` and input the `slug` of customer instance
+- Click the `Run workflow` green button
+- Done! It shoudln't take more than 2 mintues
+
+<div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
