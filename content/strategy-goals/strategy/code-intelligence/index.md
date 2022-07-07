@@ -41,7 +41,8 @@ At the moment maturity varies depending on the area of ownership:
 
 In the last few months we’ve:
 
-- Improved our search-based navigation experience by implementing efforts like [Rockskip](https://docs.sourcegraph.com/code_intelligence/explanations/rockskip) and [Squirrel] (https://docs.google.com/document/d/10YHHydQXmPODzeDDSAm_audheahdc8NjCqQPBV_wcN0) for the top used languages.
+- Improved our search-based navigation speed and accuracy for the top used languages. We've also introduced the ability to navigate to local variables.
+- Improved performance of the symbol sidebar and search-based code intelligence on big monorepos by implementing [Rockskip](https://docs.sourcegraph.com/code_intelligence/explanations/rockskip). 
 - Shipped the [executors service](https://docs.sourcegraph.com/admin/executors) that powers [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) to unlock precise cross repository and dependency navigation.
 - Launched [SCIP](https://about.sourcegraph.com/blog/announcing-scip), our new code indexing format, to address shortcomings of LSIF and allow us to deliver and iterate on indexers faster. This also paves the way for long awaited features like incremental indexing and cross-language navigation.
 
