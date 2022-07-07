@@ -1,8 +1,8 @@
 # Cloud Team
 
-> NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** *(for example `mycompany.sourcegraph.com`)*. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages. 
+> NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
 
-The Cloud team is the special focus team reporting directly to CEO modeled on *“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”* The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed). and building the next generation of them. The Cloud team has no other responsibilities.
+The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed). and building the next generation of them. The Cloud team has no other responsibilities.
 
 ## Mission statement
 
@@ -26,7 +26,7 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 **Support 100+ customer**
 
 - Targeting 100+ customers in FY23 to invest in supporting 1000 in FY24
-  - Support 250 production-grade instances (accommodating trials / testing) 
+  - Support 250 production-grade instances (accommodating trials / testing)
 - Compatible with current MI use cases
   - Infrastructure / Domain / Isolation boundary per customer
 
@@ -77,7 +77,7 @@ The Cloud team will define FY23 roadmap in upcoming weeks.
 
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for devops`.
 - For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
-- For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers *(exp. coding, infrastructure change etc.)* please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
+- For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
 
 ## When to offer a Managed Instance
 
@@ -92,7 +92,7 @@ Please message [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) fo
 When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
 
 - Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
-- Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. *(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)*
+- Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. _(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)_
 
 ## Managed Instance Requests
 
@@ -110,12 +110,12 @@ Customer Engineers (CE) or Sales may request to:
 
 1. CE seeks Managed Instance approval from their regional CE Manager
 2. The Regional CE Manager will review the following criteria:
-    - Overall, is the deal qualified?
-    - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
-    - If anything is non-standard, it must pass the tech review process
+   - Overall, is the deal qualified?
+   - Is it technically qualified? We have documented POC success criteria and the customer agrees to the criteria. We have documented the basic technical requirements of the customer (languages, repo types, security, etc.)
+   - If anything is non-standard, it must pass the tech review process
 3. If approved, then CE proceeds based on whether this is a standard or non-standard managed instance scenario:
-    - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Cloud team using the corresponding [issue template](#managed-instance-requests) in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
-    - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Cloud team.
+   - For standard managed instance requests (i.e., new instance, no scale concerns, no additional security requirements), CE submits a request to the Cloud team using the corresponding [issue template](#managed-instance-requests) in the [sourcegraph/customer](https://github.com/sourcegraph/customer) repo.
+   - For non-standard managed instance requests (i.e., any migrations, special scale or security requirements, or anything considered unusual), CE submits the opportunity to Tech Review before making a request to the Cloud team.
 4. Message the team in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP).
 5. If denied, the CE/AE can appeal through the CE/AE leadership chain of command.
 
@@ -128,7 +128,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 | New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
-| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                    |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                      |
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 
@@ -136,7 +136,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 
 Incidents which affect managed instances are handled according to our [incidents](../../../dev/process/incidents/index.md) process.
 
-## How we work 
+## How we work
 
 ### Issue tracking
 
