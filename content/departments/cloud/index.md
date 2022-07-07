@@ -50,7 +50,6 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 - Infrastructure cost covered by Sourcegraph
   - We’re incentivized to operate efficiently
 - Administration / operations provided by Sourcegraph
-  - Cloud team headcount scales sublinearly with number of customers
 - (FY24) Self service provisioning / release channels for upgrades
 
 ## Roadmap
