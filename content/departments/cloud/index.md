@@ -25,7 +25,7 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 **Support 200+ customer**
 
-- Targeting 100+ customers in FY23 to invest in supporting 1000 in FY24
+- Targeting 200+ customers in FY23 to invest in supporting 1000 in FY24
   - Support 250 production-grade instances (accommodating trials / testing)
 - Compatible with current MI use cases
   - Infrastructure / Domain / Isolation boundary per customer
