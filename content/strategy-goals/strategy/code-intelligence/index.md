@@ -92,7 +92,7 @@ Several recent efforts have shown an increasing need to unify the [code intellig
 We’ve historically invested in broadening our span of supported languages. This is an ongoing effort that ties directly back to the Global Code Graph vision, aiming to support languages that cover 90% of code intelligence actions at customers and Sourcegraph Cloud (see our [language share dashboard section](https://sourcegraph.looker.com/dashboards/159)). Increasing precise support contributes to push forward any security features we choose to implement as it makes compiler-accurate metadata available for all our product verticals. We're currently working on:
 
 - Adding precise cross-repository Python and PyPi package support in preparation for our Python indexer launch.
-- Implementing Ruby support.
+- Implementing Ruby support and integrating with RubyGems.
 - Assesing our options for a revamped version of our C++ indexer.
 
 **Auto-indexing on-prem goes into Beta:**
