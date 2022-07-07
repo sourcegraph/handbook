@@ -2681,3 +2681,13 @@ thomas_liu:
   github: tbliu98
   email: thomas.liu@sourcegraph.com
   description: Thomas grew up in Denver, Colorado, studied Cognitive Studies and Computer Science at Vanderbilt University, and now lives in Dallas, Texas. He has lived in a different building every year since 2016. Unfortunately Texas is proving to be a bit too hot for Thomas' liking and he's thinking about moving, again. On an unrelated note, Thomas enjoys changing things up.
+
+vincent_ruijter:
+  name: Vincent Ruijter
+  pronouns: he/him/his
+  email: vincent.ruijter@sourcegraph.com
+  github: evict
+  role: Security Engineer
+  reports_to: engineering_manager_security
+  location: The Hague, Netherlands
+  description: Loves anything related to computers and security and broke more routers than he should be proud of. Enjoys reading books, running, eating (a lot, hence the running) and simracing. 
