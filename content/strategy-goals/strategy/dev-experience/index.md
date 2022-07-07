@@ -44,4 +44,3 @@ What is being run, how and when must be very clear. Otherwise, it introduces fri
 [Dev Experience roadmap view](https://github.com/orgs/sourcegraph/projects/214/views/57)
 
 See also our [completed goals](../../../departments/engineering/teams/dev-experience/goals_completed.md).
-
