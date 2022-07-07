@@ -168,6 +168,7 @@ This means we may ship features that only work for some use cases, or don't yet 
 
 1. New data and delivery processes will allow us to collect customer feedback much faster, so we don't need to wait until we've built high confidence (prior, we did because feedback iteration cycles might take many months, so getting it right the first time was more important)
 2. Developers (unlike engineering leaders) comprise the majority of our users, so we can expect to reach a statistically significant number of users more quickly
+3. We believe many of these features need "live time" in front of users to discover new ways developers should search code using them, which a research prototype can't always capture
 
 ### Themes (and what's next and why)
 
