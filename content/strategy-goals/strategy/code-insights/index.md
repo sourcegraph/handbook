@@ -1,13 +1,13 @@
 # Code Insights strategy
 
-Code Insights is an upcoming product that lets engineering leaders track and understand what's in your code and how it changes over time, and helps individual developers discover relevant trends and high-level information about a codebase within their core workflow of searching and navigating code.
+Code Insights lets engineering leaders track and understand what's in your code and how it changes over time, and helps individual developers discover relevant trends and high-level information about a codebase within their core workflow of searching and navigating code.
 
 This page outlines the vision, strategy, and goals of the Code Insights team over the next year or so.
 
 Quick links:
 
-- [Engineering strategy](../../../departments/engineering/index.md#product-vision-and-strategy)
 - [Go to market resources for Sales, CE, and Marketing](../../../departments/engineering/teams/code-insights/go_to_market.md)
+- [Engineering strategy](../../../departments/engineering/index.md#product-vision-and-strategy)
 - [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#)
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
@@ -32,7 +32,7 @@ To deliver on our mission, we will:
 
 - ✅ First, build a robust Code Insights product offering that is configurable yet simple enough to answer many different engineering leaders' specific questions
 - 🔄 Continually track usage and feedback to grow the product in its most valuable directions
-- Now, build Code Insights-like features that empower the core workflow of individual developers who use Sourcegraph 10+ times a day to search and navigate code
+- Now, in FY23Q3, build Code Insights features that empower the core workflow of individual developers who use Sourcegraph 10+ times a day to search and navigate code
 - Then, build in key cross-product pathways that enable more steps of our [Sourcegraph use cases](../index.md#use-cases) flows
 - Next, build new features that integrate new computation ability and new types of data to answer ever more questions about a codebase
 - Eventually, build new major features or sub-products that help answer the second- and third-stage level of questions about a codebase
@@ -41,15 +41,15 @@ To deliver on our mission, we will:
 
 #### 1 Year vision
 
-> Any Sourcegraph user uses Code Insights-powered features to get a uniquely valuable view of code that displays actionable information about historical usage, code structure, or other high-level patterns that make their daily work more effective.
+> Any Sourcegraph user uses Code Insights features to see actionable information about historical usage, code structure, and other high-level patterns that improve the efficiency of their daily workflows.
 
 #### 3 Year vision
 
-> Code Insights-powered features are table stakes features for what good code search and navigation must provide. For engineering leaders, Sourcegraph Code Insights provide Sourcegraph-built custom value metrics and combines with all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. These same metrics are surfaced in-flow to developers to enable an entire organization to move towards the same goals effectively.
+> Code Insights features are table stakes for what best-in-class code search and navigation must provide. For engineering leaders, Sourcegraph Code Insights provide Sourcegraph-built custom value metrics and combines with all other data sources about your code to be the singular home for any high-level question, impact, or code analysis. These same metrics are surfaced in-flow to developers to enable an entire organization to move towards the same goals effectively.
 
 #### 10 year vision
 
-> Code Insights is inseparable is the foundation upon which all developers everywhere naturally track, measure, learn, predict, and optimize their engineering and codebase – the best practices of big data become the best practices for managing big code.
+> Code Insights is the foundation upon which all developers everywhere naturally track, measure, learn, predict, and optimize their engineering and codebase – the best practices of big data become the best practices for managing big code both in-flow and deliberately.
 
 ### Guiding principles
 
@@ -61,12 +61,12 @@ Code Insights surfaces key information for individual developers in their existi
 
 **What this looks like:**
 
-- Code Insights may surface information in a search screen or code navigation hover
-- Code Insights may surface information in your IDE or on your code host via our extensions
+- Code Insights may surface information in a search screen or code navigation hover that informs whether or not you should reuse code, or what questions you need to answer next
+- Code Insights may surface this same information in your IDE or on your code host via our extensions
 
 **What this does _not_ look like:**
 
-- Code Insights will not surface information when it's not useful, or could be more annoyance than useful. If they conflict, we choose to minimize our false positive rate rather than maximize our true positive rate – we do not want to frustrate or bombard developers with useless information.
+- Code Insights will not surface information when it's potentially not useful. We choose to minimize our false positive rate rather than maximize our true positive rate – we do not want to frustrate or bombard developers with useless information.
 
 #### Integrate seamlessly with our existing workflows
 
@@ -74,15 +74,15 @@ Rather than try to build new core workflow pathways, Code Insights integrates in
 
 **What this looks like:**
 
-- We focus on adding value within our search and code navigation features
+- We focus on extending and adding value within our search and code navigation features
 
 **What this does _not_ look like:**
 
-- We do not focus on adding additional separate /insights/ pages and flows when the same need could be solved within our existing workflows.
+- We do add separate /insights/ pages and flows when the same need could be solved within our existing workflows.
 
 #### The "why" and "where" is more important than the "what" and "who"
 
-Most questions individual developers have for Code Insights are about why code is a certain way, or where the code they want to reference can be found. They are less concerned with who wrote the code and what the code contains at a high level.
+Most questions individual developers have for Code Insights are about why code is a certain way, or where the code they want to reference is found. They are less concerned with who wrote the code and what the codebase contains at a high level (since they are looking at the low-level code itself).
 
 **What this looks like:**
 
@@ -90,15 +90,15 @@ Most questions individual developers have for Code Insights are about why code i
 
 **What this does not look like:**
 
-- We don't focus on absolute counts or compliance-type use cases that most individual developers don't need
+- We don't focus on absolute counts or compliance-type use cases that most individual developers don't have
 
-#### Don't interrupt flow
+#### Maintain a user's flow
 
-Code Insights works smoothly enough that it doesn't interrupt a developer's flow or require them to learn a new product to get value.
+Code Insights works quickly and smoothly, and doesn't interrupt a developer's flow or require them to learn a new product to get value.
 
 **What this looks like:**
 
-- We build features with minimal loading time and setup required so developers don't break their flow to get value from code insights
+- We build features with minimal loading time and setup required so developers don't break flow to get value from code insights
 
 **What this does not look like:**
 
@@ -110,7 +110,7 @@ Code Insights automatically surfaces to developers when there's a change or new 
 
 **What this looks like:**
 
-- We make automated alerting for Insights and related features first-class priorities
+- We make automated alerting for Insights and related features first-class priorities, at both a threshold cadence and a time cadence.
 
 **What this does not look like:**
 
@@ -124,7 +124,7 @@ The answer to "why did we build Code Insights ahead of other cool projects Sourc
 
 Engineer leaders may not need to use Sourcegraph directly for code search (though their teams do), but they do need to answer questions about their code that Sourcegraph, via Code Insights, is well-positioned to serve.
 
-The below principles are an abbreviation of what we use when building for engineering leaders. For full details, see [older revisions of this page](https://sourcegraph.com/github.com/sourcegraph/handbook/-/commit/c45cd7e2e8d54f2090f79417414dd0e131acc2b0?visible=2). These principles will become relevant again after we build Insights features that serve the core developer
+The below principles are an abbreviation of what we use when building for engineering leaders. For full details, see [older revisions of this page](https://sourcegraph.com/github.com/sourcegraph/handbook/-/commit/c45cd7e2e8d54f2090f79417414dd0e131acc2b0?visible=2). These principles will become relevant again after we build Insights features that serve the core developer. 
 
 - Code Insights layers together the Sourcegraph feature ecosystem
 - Code Insights is NOT for tracking individual developers
@@ -143,7 +143,7 @@ For what we have learned so far and how we are operationalizing those learnings,
 ### Top customer, support, sales and marketing issues
 
 - The biggest issues customers face, and that we're addressing, are the yet-to-be-built product gaps. See the docs page for [Current Limitations of Code Insights](https://docs.sourcegraph.com/code_insights/explanations/current_limitations_of_code_insights).
-- The main sales task for Code Insights is focusing on repeatability and pipe generation of our Insights sales
+- The main sales task for Code Insights is focusing on repeatability and pipeline generation of our Insights sales
 - The main marketing task for Code Insights is building demand generation pipelines around our Code Insights content and public assets
 
 ### Competitive landscape
@@ -152,7 +152,7 @@ While there are many devtool products that use some version of the word "Insight
 
 For the Sales-focused competitive breakdown and responses, see the [Field Enablement training recording from 56:32-1:01:00](https://drive.google.com/drive/folders/1vYwRVsK8IfmaLa7cDcctXydClsWmnAQE) and the [accompanying slides](https://docs.google.com/presentation/d/1feAl1na3R3A56c_WKvWddgZB_bhk69Qqq6GWr_ISYuM/edit). You can also find a detailed breakdown of "similar" products in the original [Product Document for Code Insights](https://docs.google.com/document/d/1d34gCpt_rUOMAun8phcjNsFofGaaA_N_8znmgaugdKw/edit#bookmark=id.pobwla63lsa7).
 
-Overall: there are no other products that can efficiently and effectively provide the deep historical and realtime analysis that Code Insights can provide, largely because any product that wanted to compete with Sourcegraph Code Insights would first have to catch up to the product moat of Sourcegraph Search (which powers Code Insights), and then also build out a Code Insights-like product.
+Overall: there are no other products that can efficiently and effectively provide the deeply configurable historical and realtime analysis that Code Insights can provide, largely because any product that wanted to compete with Sourcegraph Code Insights would first have to catch up to the product moat of Sourcegraph Search (which powers Code Insights), and then also build out a Code Insights-like product.
 
 There may be one-off instances of companies that have glued together in-house solutions to answer some of the same problems, but we have already validated (thus far) every one of those companies would prefer to use Code Insights.
 
@@ -166,7 +166,7 @@ The next six months are focused on building features that developers will use mu
 
 ### Themes (and what's next and why)
 
-_All of these themes are yet-to-be-validated with actively ongoing user research._
+_All of these themes are yet-to-be-validated with actively-ongoing user research._
 
 #### Surface relevant recent trends and changes
 
@@ -212,7 +212,7 @@ We will:
 
 In order to focus on what drives the most user value, the Code Insights team is explicitly not working on any of the following unless new information surfaces:
 
-- Additional short-term features for engineering leadership: Code Insights successfully serves the needs of engineering leaders at many enterprises, so we're pausing development on features for the engineering leader while we focus on building features for the individual developer. This does not mean we are pausing support for existing features (we are not) nor that we are not marketing and still offering Code Insights as an add-on product for engineering leaders (we are).
+- Additional short-term features for engineering leadership: Code Insights successfully serves the needs of engineering leaders at many enterprises, so we're pausing development on features for the engineering leader while we focus on building features for the individual developer. This does not mean we are pausing support for existing features (we are not pausing support) nor that we are not marketing and still offering Code Insights as an add-on product for engineering leaders (we are still targeting engineering leaders with the product).
 - Code Insights on single docker container deployments: Code Insights lives primarily on the unindexed search path, which is substantially more resource intensive in this context. Currently, the experience is unacceptably bad, so we don't support it. The number of customers and leads that use a single docker container deployment is both shrinking and small enough that this is not a priority.
 - Full integration with Batch changes: some customers want to visualize batch changes progress in Insights. While valuable, Batch changes is also new, so only a subset of customers will get value immediately and we've chosen to delay this work and focus on features that benefit all developers first.
 - Integration with Precise Code Intelligence: though making insights for symbols is useful, the feature maturity of cross-repo code intel and the complexity involved is not yet worth the time cost for us to develop first.
