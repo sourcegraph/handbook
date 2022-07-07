@@ -74,11 +74,10 @@ Partner with the organization to build scalable data solutions and insights to h
 
 The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook page: [Analytics Handbook Page](index.md). Don’t see what you are looking for? Ask a question in one of our Slack channels.
 
-- [#business-ops](https://sourcegraph.slack.com/archives/business-ops) to interact with the Business Operations team (e.g. questions you know are specifically for us)
-- [#business-ops-internal](https://sourcegraph.slack.com/archives/business-ops-internal) for internal BizOps communication
-- [#analytics](https://sourcegraph.slack.com/archives/analytics) for anything related to analytics; not just the Business Operations team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask). This channel has previously been a catch-all for Business Operations, and we’ll be pushing you all towards business-ops for those topics
-- [#analytics-review](https://sourcegraph.slack.com/archives/analytics-review) for help with self-service and WIP data projects (questions about the data, requests for peer review). Although we do expect to be involved in this quite a bit, it’s not just meant to get feedback from Business Operations. We will also be using this channel to have our work peer reviewed and collaborate with other folks from different parts of the business! Anybody comfortable enough with data can be a peer reviewer or answer questions
-- [#data-eng-ops](https://sourcegraph.slack.com/archives/data-eng-ops) for Data Ops communication
+- [#data-analytics-internal](https://sourcegraph.slack.com/archives/data-analytics-internal) for internal Data & Analytics communication
+- [#analytics](https://sourcegraph.slack.com/archives/analytics) for anything related to analytics; not just the Data & Analytics team (e.g the impact on a shift from HubSpot to Marketo, sharing a deliverable that has cross-functional impact, or a question related to data you don’t know where to ask).
+- [#analytics-review](https://sourcegraph.slack.com/archives/analytics-review) for help with self-service and WIP data projects (questions about the data, requests for peer review). Although we do expect to be involved in this quite a bit, it’s not just meant to get feedback from Data & Analytics. We will also be using this channel to have our work peer reviewed and collaborate with other folks from different parts of the business! Anybody comfortable enough with data can be a peer reviewer or answer questions
+- [#data-eng](https://sourcegraph.slack.com/archives/data-eng) for Data Engineering communication
 
 There is an analyst on support each week that will be answering questions and triaging requests that come through these channels.
 
@@ -110,7 +109,7 @@ The analysts will be aligned to the business units that are supported, and each 
   <tr>
    <td>Customer Engineering
    </td>
-   <td>Aimee Menne, Bob Roudebush
+   <td>Aimee Menne
    </td>
    <td>Kelsey Brown
    </td>
@@ -128,7 +127,7 @@ The analysts will be aligned to the business units that are supported, and each 
    </td>
    <td>Nick Gage, Andy Schumeister
    </td>
-   <td>TBH
+   <td>TBD
    </td>
   </tr>
   <tr>
@@ -285,13 +284,14 @@ Looker is a business intelligence tool used for standard enterprise reporting an
 
 Looker has the ability to connect to all data sources that are located in our BigQuery DWH. It can also connect to documents in Google.
 
-**Notable reports: **
+**Notable reports:**
 
 **Overview dashboards and charts**
 
 - [Server Instances Overview](https://sourcegraph.looker.com/dashboards/167?Unique%20Server%20ID=Netflix&Salesforce%20Unique%20ID=) - A look at an individual instance and usage metrics at the instance and feature level
-- [Server instances](https://sourcegraph.looker.com/looks/436) - a list of all instances and users by month
+- [Server instances](https://sourcegraph.looker.com/looks/436) - A list of all instances and users by month
 - [Customer Health - by customer](https://sourcegraph.looker.com/dashboards/194?Unique%20Server%20ID=Uber) - A view of customers (on-prem) and their usage measures
+- [Prospect Overview - by account](https://sourcegraph.looker.com/dashboards/304?Account%20Name=&Ae%20Name=&Sdr%20Name=) - A list of all accounts in Salesforce and their product usage and campaign memberships aggregated at the account level
 
 **Feature specific dashboards and charts**
 

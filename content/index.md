@@ -34,6 +34,7 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Strategy](strategy-goals/strategy/index.md)
 - [Goals/OKRs](strategy-goals/goals/index.md)
+- [Cross-functional projects](strategy-goals/cross-functional-projects/index.md)
 
 ## Company Information and Processes
 
@@ -75,14 +76,10 @@ The handbook is a living document and we expect every teammate to propose improv
 #### [Engineering](departments/engineering/index.md)
 
 - [Engineering](departments/engineering/dev/index.md)
-  - [Engineering orgs and teams](departments/engineering/dev/team/index.md)
 - [Product Management](departments/engineering/product/index.md)
   - [Strategy](strategy-goals/strategy/index.md#team-strategy-pages)
   - [Process](departments/engineering/product/process/index.md)
-  - [Design](departments/engineering/product/design/index.md)
-- [Design](departments/engineering/product/design/index.md)
-
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
+- [Design](departments/engineering/design/index.md)
 
 ### [Customer Support](departments/ce-support/support/index.md)
 
@@ -98,9 +95,9 @@ The handbook is a living document and we expect every teammate to propose improv
 
 - [Sales strategy & operations](departments/sales/sales-ops/index.md)
 
-### [Business Operations & Strategy](departments/bizops/index.md)
+### [Data & Analytics](departments/bizops/index.md)
 
-- [Data and Analytics](departments/bizops/data-analytics.md)
+- [Data & Analytics](departments/bizops/data-analytics.md)
   - [Analytics](departments/bizops/analytics/index.md)
   - [Data Engineering](departments/bizops/data-engineering/index.md)
 

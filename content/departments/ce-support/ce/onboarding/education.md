@@ -17,7 +17,8 @@ _See also [Working with Customers](../team-culture/working-with-customers.md)_
   - [Sourcegraph repo tour](https://www.youtube.com/watch?v=3OewJAaX4KI) (YouTube)
 - [CTE Training Repo](https://github.com/sourcegraph/customer-training/tree/main/trainings)
   - [Sourcegraph 101 Team Training](https://drive.google.com/file/d/1emSuz6Q871OC2YOadcfkrUXfuopn6JCB/view?usp=sharing), [Sourcegraph 101 Resources](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-101)
-  - [Sourcegraph 102 Resources](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-102)
+  - [Sourcegraph 102 Team Training](https://drive.google.com/file/d/1813s6MTmFqtWJ5IYVc6ivkX3mKlY6X7T/view?usp=sharing), [Sourcegraph 102 Resources](https://github.com/sourcegraph/customer-training/tree/main/trainings/sourcegraph-102)
+  - [Admin training webinar](https://github.com/sourcegraph/customer-training/tree/main/trainings/admin-webinar)
 
 ## Product-Centric Topics
 
@@ -26,7 +27,7 @@ _See also [Working with Customers](../team-culture/working-with-customers.md)_
 - [Enterprise vs. Open Source Sourcegraph](../onboarding/enterprise-vs-oss.md)
 - [Deployment Methods](deployment-methods.md)
 - [Demo repo contribution](../process/demo-repo-contribution.md)
-- [Code Insights Go to Market content](../../../engineering/dev/code-graph/code-insights/go_to_market.md)
+- [Code Insights Go to Market content](../../../engineering/teams/code-insights/go_to_market.md)
 
 ## CE Tools
 
