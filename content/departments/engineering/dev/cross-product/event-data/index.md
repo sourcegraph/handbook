@@ -24,10 +24,12 @@ Our working group is a cross-functional group of people from across Sourcegraph.
 - Democratize Data Analysis - This system must be built in a way that anyone across Sourcegraph can build event-level usage reports in a self-service way (i.e. the way it exists today on dotcom).
 
 ## Roadmap
+
 TBA
 
 ## Resources
 
 Due to the sensitivity of this project, our working documents are internal only at this time. As we release our MVP, we will update our publicly facing documentation.
+
 - [MVP Scoping Document](https://docs.google.com/document/d/1f5NDBrk-qNZsgnAQNPRfDShGm3SyRkT38HxMZeYaJAE/edit?usp=sharing)
 - [Original Decision Document](https://docs.google.com/document/d/10xyTkaxPvhCIXWyAzkvMkY_JNPJwSnPd2U_rTnrzqOQ/edit?usp=sharing)
