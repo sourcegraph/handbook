@@ -7,7 +7,6 @@
 - [How to deploy a code change to the Cloud](deploy-code-change.md)
 - [Large release (rollout release) process](deploy-code-change.md#large-releases-to-cloud-rollup-releases)
 - [How to make configuration changes to sourcegraph.com](update_sg_website_config.md)
-- [Datadog monitoring](datadog.md)
 - [How to add or modify DNS Records](dns.md)
 - [Disaster Recovery](disaster-recovery.md)
 - [How to resize disks in StatefulSet](resize-disks-in-statefulset.md)
