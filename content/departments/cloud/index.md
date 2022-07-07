@@ -2,7 +2,7 @@
 
 > NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** *(for example `mycompany.sourcegraph.com`)*. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages. 
 
-The Cloud team is the special focus team reporting directly to CEO modeled on *“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”* The team is resposible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed). and building the next generation of them. The Cloud team has no other responsibilities.
+The Cloud team is the special focus team reporting directly to CEO modeled on *“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”* The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed). and building the next generation of them. The Cloud team has no other responsibilities.
 
 ## Mission statement
 
@@ -57,7 +57,7 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 ## Roadmap
 
-The Cloud team will define FY23 roadmap in upcomming weeks.
+The Cloud team will define FY23 roadmap in upcoming weeks.
 
 ### Q2FY23 goals
 
@@ -77,7 +77,7 @@ The Cloud team will define FY23 roadmap in upcomming weeks.
 
 - For emergencies and incidents, alert the team using Slack command `/genie alert [message] for devops`.
 - For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
-- For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers *(exp. coding, infrastructure change etc.)* please create a GH issue and assign `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
+- For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers *(exp. coding, infrastructure change etc.)* please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
 
 ## When to offer a Managed Instance
 
@@ -92,7 +92,7 @@ Please message [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) fo
 When offering customers a Managed Instance, CE and Sales should communicate and gather information for the following topics
 
 - Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
-- Customers's code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. *(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)*
+- Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. *(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)*
 
 ## Managed Instance Requests
 
@@ -128,7 +128,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 | New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
-| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependenant on the request                    |
+| New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                    |
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 
@@ -148,7 +148,7 @@ tbd
 
 ### On-call
 
-We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main). Reponsibilities of the teammate who is on-call include:
+We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main). Responsibilities of the teammate who is on-call include:
 
 - Acknowledging incoming alerts
 - Initiating incident procedures
@@ -167,7 +167,7 @@ We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.c
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior disabling the builtin provider.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior to disabling the builtin provider.
 
 ### FAQ: How do I restart the frontend after changing the site-config?
 
@@ -180,6 +180,6 @@ Are you a member of our CE & CS teams?
 - Visit https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_frontend.yml
 - Click `Run workflow` and input the `slug` of customer instance
 - Click the `Run workflow` green button
-- Done! It shoudln't take more than 2 mintues
+- Done! It shouldn't take more than 2 minutes
 
 <div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
