@@ -1,4 +1,4 @@
-# Cloud Team
+# Cloud
 
 > NOTE: **Cloud means single-tenant dedicated instances managed by Sourcegraph** _(for example `mycompany.sourcegraph.com`)_. Sourcegraph Cloud should not be confused with Sourcegraph.com which holds public and open source code. The Cloud and managed instance should be considered synonyms within these handbook pages.
 
@@ -134,7 +134,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 
 ### Incident Response
 
-Incidents which affect managed instances are handled according to our [incidents](../../../dev/process/incidents/index.md) process.
+Incidents which affect managed instances are handled according to our [incidents](../engineering/dev/process/incidents/index.md) process.
 
 ## How we work
 
@@ -167,7 +167,7 @@ We maintain an [on-call rotation in Opsgenie](https://sourcegraph.app.opsgenie.c
 
 Yes, you may disable the builtin authentication provider and only allow creation of accounts from configured SSO providers.
 
-However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](./oidc_site_admin.md) as an authentication provider. Please reach out to our team prior to disabling the builtin provider.
+However, in order to preserve site admin access for Sourcegraph operators, we need to add [Sourcegraph's internal Okta](technical-docs/oidc_site_admin.md) as an authentication provider. Please reach out to our team prior to disabling the builtin provider.
 
 ### FAQ: How do I restart the frontend after changing the site-config?
 

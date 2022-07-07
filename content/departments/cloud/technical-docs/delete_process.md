@@ -269,7 +269,7 @@ cd ../ # back to the repo root directory
 
 Remove customer from managed instance upgrade template. Avoid mentioning the customer name directly, the handbook is a public repository.
 
-The template is located in [handbook/content/departments/engineering/dev/process/releases/upgrade_managed_issue_template](../../../dev/process/releases/upgrade_managed_issue_template.md).
+The template is located in [handbook/content/departments/engineering/dev/process/releases/upgrade_managed_issue_template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
 ### Updating outstanding tracking issues
 

@@ -25,7 +25,7 @@ For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separ
 
 Internal instances are created for various testing purposes:
 
-- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow [managed instances upgrade tracker](../../../../departments/engineering/dev/process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
+- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow [managed instances upgrade tracker](../../engineering/dev/process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
 
@@ -43,10 +43,10 @@ Sourcegraph upgrades every test and customer instances according to [SLA](#slas-
 
 The release process is performed in steps:
 
-1. New version is released via [release guild](../../../../departments/engineering/dev/process/releases/release_guild.md)
-1. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../../../departments/engineering/dev/process/releases/upgrade_managed_issue_template.md)
-1. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
-1. Cloud team performs upgrade of all instances in given order:
+1. New version is released via [release guild](../../engineering/dev/process/releases/release_guild.md)
+2. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md)
+3. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
+4. Cloud team performs upgrade of all instances in given order:
 
 - for Instances with version [v1.0](./upgrade_process.md)
   1. Test instances are upgraded - [dev](https://devmanaged.sourcegraph.com/) and [demo](https://demo.sourcegraph.com/)
@@ -108,9 +108,9 @@ Alerting flow:
 
 2. From Opsgenie, alert is sent to [on-call Cloud](../index.md#on-call) and Slack channels ([`#opsgenie`](https://sourcegraph.slack.com/archives/C0J618TTM), [`#cloud-internal`](https://sourcegraph.slack.com/archives/C03LCPCT3SP)).
 
-3. On-call Cloud engineer has to decide, what is the alert type and if [incident](../../../../departments/engineering/dev/process/incidents/index.md) should be opened and follow [the procedure](../../../../departments/engineering/dev/process/incidents/#process) to perform the incident. On-call Cloud engineer should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
+3. On-call Cloud engineer has to decide, what is the alert type and if [incident](../../engineering/dev/process/incidents/index.md) should be opened and follow [the procedure](../../engineering/dev/process/incidents/#process) to perform the incident. On-call Cloud engineer should use [managed instances operations](./operations.md) to check, assess and repair broken managed instance.
 
-4. When alert is closed via incident resolution, [post-mortem actions](../../../../departments/engineering/dev/process/incidents/#post-mortem) has to be assigned and performed.
+4. When alert is closed via incident resolution, [post-mortem actions](../../engineering/dev/process/incidents/#post-mortem) has to be assigned and performed.
 
 [Opsgenie alerts](https://sourcegraph.app.opsgenie.com/alert)
 Sample managed instance incident - [customer XXX is down](https://app.incident.io/incidents/102).
