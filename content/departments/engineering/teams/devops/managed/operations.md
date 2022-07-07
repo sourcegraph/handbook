@@ -97,6 +97,7 @@ Open a connection to the DB in a terminal session
 export PROJECT_PREFIX=sourcegraph-managed
 export CUSTOMER=<>
 ```
+
 ```
 cloud_sql_proxy -instances=$(gcloud sql instances list --project $PROJECT_PREFIX-$CUSTOMER --limit=1 --format 'value(connectionName)')=tcp:5433 -token=$(gcloud auth print-access-token --impersonate-service-account=instance@$PROJECT_PREFIX-$CUSTOMER.iam.gserviceaccount.com) -enable_iam_login
 ```
