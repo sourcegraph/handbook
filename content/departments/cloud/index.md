@@ -52,6 +52,14 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 - Administration / operations provided by Sourcegraph
 - (FY24) Self service provisioning / release channels for upgrades
 
+Not in scope (for FY23 / FY24):
+
+- supporting customer provided GCP infrastructure
+- supporting cloud providers other than GCP
+- managing Sourcegraph installations in clusters not provisioned by the Cloud team (Bring-your-own-Kubernetes)
+- supporting customers smaller than [X1](https://docs.google.com/document/d/1jJq_-arjzjsBDFWV5VlHi01KrxTXYd8NV5UV-fmMtCE/edit#bookmark=id.kjizf2bpwb0f) ARR
+- optimizing cost below [X2](https://docs.google.com/document/d/1jJq_-arjzjsBDFWV5VlHi01KrxTXYd8NV5UV-fmMtCE/edit#bookmark=id.pqt5n89wdcan) $/month
+
 ## Roadmap
 
 The Cloud team will define FY23 roadmap in upcoming weeks.
