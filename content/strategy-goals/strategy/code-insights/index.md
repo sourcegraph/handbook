@@ -160,13 +160,13 @@ There are no products that target providing high-level or historical information
 
 The next six months are focused on building features that developers will use multiple times a day as they search and navigate code.
 
-### Tactics 
+### Tactics
 
-As we execute on this strategy, we will consistently prioritize shipping new iterations to customers as quickly as possible (<1 month) and collecting quantitative data via our new pipelines to validate next directions. 
+As we execute on this strategy, we will consistently prioritize shipping new iterations to customers as quickly as possible (<1 month) and collecting quantitative data via our new pipelines to validate next directions.
 
-This means we may ship features that only work for some use cases, or don't yet scale to all customers, and that's okay – we'll message and feature-flag them as necessary to minimize any impacts. High speed is more important than high confidence for this work, because: 
+This means we may ship features that only work for some use cases, or don't yet scale to all customers, and that's okay – we'll message and feature-flag them as necessary to minimize any impacts. High speed is more important than high confidence for this work, because:
 
-1. New data and delivery processes will allow us to collect customer feedback much faster, so we don't need to wait until we've built high confidence (prior, we did because feedback iteration cycles might take many months, so getting it right the first time was more important) 
+1. New data and delivery processes will allow us to collect customer feedback much faster, so we don't need to wait until we've built high confidence (prior, we did because feedback iteration cycles might take many months, so getting it right the first time was more important)
 2. Developers (unlike engineering leaders) comprise the majority of our users, so we can expect to reach a statistically significant number of users more quickly
 
 ### Themes (and what's next and why)
@@ -179,7 +179,7 @@ Developers searching for code often have to dig into git blame or diff searches 
 
 We will:
 
-- Explore surfacing historical trends, diff search, and other high-level information in the core workflow of search and code navigation (such as [#38440]([url](https://github.com/sourcegraph/sourcegraph/issues/38440)))
+- Explore surfacing historical trends, diff search, and other high-level information in the core workflow of search and code navigation (such as [#38440](<[url](https://github.com/sourcegraph/sourcegraph/issues/38440)>))
 
 #### Convey the structure of a codebase
 
@@ -195,7 +195,7 @@ While engineering leaders can set up code insights to track important initiative
 
 We will:
 
-- Explore how to best surface key initiatives within the search and navigation workflow (such as [#38441]([url](https://github.com/sourcegraph/sourcegraph/issues/38441)))
+- Explore how to best surface key initiatives within the search and navigation workflow (such as [#38441](<[url](https://github.com/sourcegraph/sourcegraph/issues/38441)>))
 
 #### Export insights information to core workflow tools
 
