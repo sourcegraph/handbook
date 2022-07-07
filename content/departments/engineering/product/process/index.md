@@ -4,13 +4,17 @@ This page contains information that is relevant for how to do well at your job a
 
 ## Product process
 
+### Principles
+
+See [principles](product_principles.md) for our core beliefs in how we build products
+
 ### Strategy
 
-See [strategy](../../../../strategy-goals/index.md)
+See [strategy](../../../../strategy-goals/index.md).
 
 #### Use case sponsorship
 
-Our [use cases](../../../../strategy-goals/strategy/use-cases/index.md) help us align our platform, products, features, and roadmap to the most important value drivers for our customers. The use cases are problems that our customers encounter that our product helps solve, and in Product and Engineering we’re building for these scenarios, demonstrating a clear progression of solving our customers' (and potential customers') pain points over time. When we talk about what’s coming next on the roadmap, we think about how we’re enhancing the product to better solve these use cases. They provide general alignment and focus that the team is constantly thinking about, across the organization and within our product teams and features. When we package together Sourcegraph’s products like search, code insights, code intelligence, batch changes, notebooks - we’re able to create a cohesive and compelling narrative and solution in a particular use case for the end-user.
+Our [use cases](../../../../strategy-goals/strategy/use-cases/index.md) help us align our platform, products, features, and roadmap to the most important value drivers for our customers. The use cases are problems that our customers encounter that our product helps solve, and in Engineering we’re building for these scenarios, demonstrating a clear progression of solving our customers' (and potential customers') pain points over time. When we talk about what’s coming next on the roadmap, we think about how we’re enhancing the product to better solve these use cases. They provide general alignment and focus that the team is constantly thinking about, across the organization and within our product teams and features. When we package together Sourcegraph’s products like search, code insights, code intelligence, batch changes, notebooks - we’re able to create a cohesive and compelling narrative and solution in a particular use case for the end-user.
 
 To support the ongoing maintenance and improvement of each use case, each can have a designated product, design, and engineering sponsor. That group is responsible for:
 
@@ -40,14 +44,6 @@ The assigned sponsors for each use case are listed on the individual [use case p
 - [Prioritizing](prioritize_and_build/prioritizing.md) - how we prioritize work, and how to get things prioritized.
 - [Feature deprecation](prioritize_and_build/deprecation_process.md) - how we deprecate features when necessary.
 
-#### Release early, release often
-
-Each project, no matter how long-running, needs to plan to ship _something_ in each release. The "something" depends on the project. We strongly prefer for it to be a minimal viable feature that is enabled by default. The next best thing is to ship something that is feature-flagged off by default. When possible, larger features should be merged mid-cycle to solicit feedback from the team and customers before the release is cut.
-
-The reason for this is to avoid going for too long without customer feedback (from customers trying it) or even technical/product feedback (from performing the diligent work of polishing it to be ready to release). Lacking these critical checks means we will end up building something that doesn't solve people's problems or that is over-built.
-
-When we have relaxed this in the past, the results have been bad and the overwhelming feedback from retrospectives has been to release regularly. Also see [Quality through iteration](../../../../company-info-and-process/values/index.md#### high-quality-through-iteration).
-
 ### Go-to-market
 
 - [Working with product marketing](gtm/pm_and_pmm.md) - how product management and product marketing collaborate
@@ -71,7 +67,7 @@ There are just a few places where a review is required; these should include you
 - Updates on feature deprecation
 - Speaking to press
 
-Unless the change is extremely wide in impact (a large about site update, a major press outlet, or a major pricing change), you do not need to continue blocking on marketing or product director review after 3 full business days have passed from the review request. Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-team-collab.md).
+Unless the change is extremely wide in impact (a large about site update, a major press outlet, or a major pricing change), you do not need to continue blocking on marketing or product director review after 3 full business days have passed from the review request. Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Engineering of [welcoming contributions](../../cross-team-collab.md).
 
 ## Tools/Templates
 
@@ -94,8 +90,7 @@ There is also a [company-wide glossary of terms](../../../../company-info-and-pr
 - Product priorities: An ordered list of problem statements or outcomes that product has evidence is important
 - Roadmap: The tasks and timeline for when each will be worked on
 - Backlog: The ordered list of items to be tackled after items on the roadmap are complete
-- Department: A top-level organizational unit of people, such as Sales, Product or Marketing.
-- Org: A mid-level organizational unit of people, such as Code Graph, Enablement, or Cloud. Note that an org does not necessarily represent a coherent product area that exists in the product, it's an internal team.
+- Department: A top-level organizational unit of people, such as Sales, Engineering, or Marketing.
 - Team: A well-defined product team that works to deliver features for one or more product areas.
 - Product Area: A loosely defined collection of features or capabilities that may be worked on by one or more teams.
 - Developer onboarding: Referring to the use case of "developer onboarding and velocity," where a new developer joining a company is able to quickly understand and become productive in their new company's codebase.
@@ -107,7 +102,11 @@ There is also a [company-wide glossary of terms](../../../../company-info-and-pr
 
 Product Management collaborates with a lot of different groups. Beyond our shared [work as a team value](../../../../company-info-and-process/values/index.md#work-as-a-team), there are some teams where collaboration is especially important and where roles and responsibilities can be unclear. To help clarify this, we have documented high level practices around how we work together.
 
-Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Product & Engineering of [welcoming contributions](../../process/cross-team-collab.md).
+Apart from the guidance for specific groups we collaborate with below, we also have a general principle within Engineering of [welcoming contributions](../../cross-team-collab.md).
+
+### Cross-team owners
+
+Priorities that consistently require the collaboration of multiple engineering teams are given [cross-product owners](prioritize_and_build/cross-product_owners.md).
 
 ### Executive decisions
 

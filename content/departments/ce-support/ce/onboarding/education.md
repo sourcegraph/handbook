@@ -27,7 +27,7 @@ _See also [Working with Customers](../team-culture/working-with-customers.md)_
 - [Enterprise vs. Open Source Sourcegraph](../onboarding/enterprise-vs-oss.md)
 - [Deployment Methods](deployment-methods.md)
 - [Demo repo contribution](../process/demo-repo-contribution.md)
-- [Code Insights Go to Market content](../../../engineering/dev/code-graph/code-insights/go_to_market.md)
+- [Code Insights Go to Market content](../../../engineering/teams/code-insights/go_to_market.md)
 
 ## CE Tools
 

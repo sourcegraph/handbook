@@ -153,7 +153,7 @@ thorsten_ball:
   name: Thorsten Ball
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Aschaffenburg, Bavaria, Germany 🇩🇪
   github: mrnugget
   email: thorsten@sourcegraph.com
@@ -170,12 +170,6 @@ loïc_guychard:
   email: loic@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-guychard-749b8152/)'
   description: Loïc loves oceanside living and long bike rides. He started his career as a linguist, before transitioning to software engineering while working at Dashlane.
-
-engineering_manager_code_security_tiger_team:
-  name: Loïc Guychard
-  role: Engineering Manager, Code Security tiger team
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_code_security_tiger_team
 
 dan_adler:
   name: Dan Adler
@@ -222,7 +216,7 @@ rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
   manager_role_slug: design_manager_code_graph
-  role: Design Manager, Code Graph
+  role: Design Manager
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -863,7 +857,7 @@ fabiana_castellanos:
   name: Fabiana Castellanos
   pronouns: she/her
   role: Creative Operations Manager
-  reports_to: marketing_lead
+  reports_to: director_design
   manager_role_slug: creative_ops_manager
   location: Oceanside, CA USA 🇺🇸
   github: fabicastp
@@ -1468,18 +1462,6 @@ win_yu:
   links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
   description: After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
 
-crystal_augustus:
-  name: Crystal Augustus
-  pronouns: she/her
-  role: Engineering Manager, Delivery
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-  location: Ashland, MA, United States 🇺🇸
-  github: caugustus-sourcegraph
-  email: crystal.augustus@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/crystalaugustus/)'
-  description: Crystal has a strong love for books and puns. Originally from Texas, she still misses the thunderstorms and breakfast tacos, but fall in New England more than makes up for it.
-
 kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
@@ -1604,7 +1586,7 @@ varun_gandhi:
   pronouns: he/him
   role: Software Engineer
   reports_to: engineering_manager_code_intelligence
-  location: 'Europe'
+  location: 'Taipei, Taiwan'
   github: varungandhi-src
   email: varun.gandhi@sourcegraph.com
   links: '[Twitter](https://twitter.com/typesanitizer), [LinkedIn](https://www.linkedin.com/in/varungandhi15/)'
@@ -2533,7 +2515,7 @@ steve_fisher:
   role: Head of Design
   manager_role_slug: director_design
   reports_to: eng_lead
-  location: Sechelt, BC, Canada 🇨
+  location: Sechelt, BC, Canada
   github: hellofisher
   email: steve.fisher@sourcegraph.com
   links: '[Twitter](https://twitter.com/hellofisher), [LinkedIn](https://www.linkedin.com/in/hellofisher/)'
@@ -2642,7 +2624,7 @@ megan_standrew:
   name: Megan St. Andrew
   pronouns: she/they
   location: Chicago, IL, USA 🇺🇸
-  role: UX Researcher, Code Graph
+  role: UX Researcher
   reports_to: director_design
   email: megan.standrew@sourcegraph.com
   github: meglynst
@@ -2673,3 +2655,29 @@ tom_pinckney:
   email: tom.pinckney@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
+
+sanjeev_sekar:
+  name: Sanjeev Sekar
+  role: Engineering Manager
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_delivery
+
+gary_lee:
+  name: Gary Lee
+  role: Software Engineer
+  reports_to: engineering_manager_search_core
+  location: San Francisco, CA, USA 🇺🇸
+  github: gl-srgr
+  email: gary.lee@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/gary-lee-68b28745/)'
+  description: Gary lives in San Francisco, California and has worked as a Software Engineer on search products and solutions since 2015. Outside of work he plays drums in a rock band, practices martial arts, spends time with his dogs, and catches up on books.
+
+thomas_liu:
+  name: Thomas Liu
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_search
+  location: Dallas, TX, USA
+  github: tbliu98
+  email: thomas.liu@sourcegraph.com
+  description: Thomas grew up in Denver, Colorado, studied Cognitive Studies and Computer Science at Vanderbilt University, and now lives in Dallas, Texas. He has lived in a different building every year since 2016. Unfortunately Texas is proving to be a bit too hot for Thomas' liking and he's thinking about moving, again. On an unrelated note, Thomas enjoys changing things up.
