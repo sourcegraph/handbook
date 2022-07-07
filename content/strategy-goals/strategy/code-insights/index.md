@@ -64,10 +64,6 @@ Code Insights surfaces key information for individual developers in their existi
 - Code Insights may surface information in a search screen or code navigation hover that informs whether or not you should reuse code, or what questions you need to answer next
 - Code Insights may surface this same information in your IDE or on your code host via our extensions
 
-**What this does _not_ look like:**
-
-- Code Insights will not surface information when it's potentially not useful. We choose to minimize our false positive rate rather than maximize our true positive rate – we do not want to frustrate or bombard developers with useless information.
-
 #### Integrate seamlessly with our existing workflows
 
 Rather than try to build new core workflow pathways, Code Insights integrates into our search and code navigation core workflow.
@@ -164,6 +160,15 @@ There are no products that target providing high-level or historical information
 
 The next six months are focused on building features that developers will use multiple times a day as they search and navigate code.
 
+### Tactics 
+
+As we execute on this strategy, we will consistently prioritize shipping new iterations to customers as quickly as possible (<1 month) and collecting quantitative data via our new pipelines to validate next directions. 
+
+This means we may ship features that only work for some use cases, or don't yet scale to all customers, and that's okay – we'll message and feature-flag them as necessary to minimize any impacts. High speed is more important than high confidence for this work, because: 
+
+1. New data and delivery processes will allow us to collect customer feedback much faster, so we don't need to wait until we've built high confidence (prior, we did because feedback iteration cycles might take many months, so getting it right the first time was more important) 
+2. Developers (unlike engineering leaders) comprise the majority of our users, so we can expect to reach a statistically significant number of users more quickly
+
 ### Themes (and what's next and why)
 
 _All of these themes are yet-to-be-validated with actively-ongoing user research._
@@ -174,7 +179,7 @@ Developers searching for code often have to dig into git blame or diff searches 
 
 We will:
 
-- Explore surfacing historical trends, diff search, and other high-level information in the core workflow of search and code navigation
+- Explore surfacing historical trends, diff search, and other high-level information in the core workflow of search and code navigation (such as [#38440]([url](https://github.com/sourcegraph/sourcegraph/issues/38440)))
 
 #### Convey the structure of a codebase
 
@@ -190,7 +195,7 @@ While engineering leaders can set up code insights to track important initiative
 
 We will:
 
-- Explore how to best surface key initiatives within the search and navigation workflow
+- Explore how to best surface key initiatives within the search and navigation workflow (such as [#38441]([url](https://github.com/sourcegraph/sourcegraph/issues/38441)))
 
 #### Export insights information to core workflow tools
 
