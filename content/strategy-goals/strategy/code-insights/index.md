@@ -124,7 +124,7 @@ The answer to "why did we build Code Insights ahead of other cool projects Sourc
 
 Engineer leaders may not need to use Sourcegraph directly for code search (though their teams do), but they do need to answer questions about their code that Sourcegraph, via Code Insights, is well-positioned to serve.
 
-The below principles are an abbreviation of what we use when building for engineering leaders. For full details, see [older revisions of this page](https://sourcegraph.com/github.com/sourcegraph/handbook/-/commit/c45cd7e2e8d54f2090f79417414dd0e131acc2b0?visible=2). These principles will become relevant again after we build Insights features that serve the core developer. 
+The below principles are an abbreviation of what we use when building for engineering leaders. For full details, see [older revisions of this page](https://sourcegraph.com/github.com/sourcegraph/handbook/-/commit/c45cd7e2e8d54f2090f79417414dd0e131acc2b0?visible=2). These principles will become relevant again after we build Insights features that serve the core developer.
 
 - Code Insights layers together the Sourcegraph feature ecosystem
 - Code Insights is NOT for tracking individual developers
