@@ -1,9 +1,22 @@
 # Security tooling and processes
 
-WIP document to list Security tools/process and their documentation. Sensitive information stored in [Google Drive](https://docs.google.com/document/d/10oocqojeIM0uZpcOl6L76afDYj3-MLsFxRK2jhOg93E/).
+This page contains information on tools and processes we run within the Security
+team.
+
+If you want to document sensitive information, you can either:
+- Store it in [Google Drive](https://docs.google.com/document/d/10oocqojeIM0uZpcOl6L76afDYj3-MLsFxRK2jhOg93E/).
+- Add it to the `docs` folder in the [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/docs).
+  This option is better for technical documentation.
+
+## Processes
 
 - [Blocking IPs in Cloudflare](https://docs.google.com/document/d/17FV8pjbJNrhAtW9lvGIbJ1jSkXe0mRw4ci7w0084RBE/edit#heading=h.jpz7uaphhdtk)
 
-## CI/CD Pipeline Vulnerability Scanning
+## SAST scanning
 
-- We are currently using Checkov.io to [scan our IaC](../checkov.md) and [Trivy](../trivy.md) to scan containers.
+We use a combination of tools within the team to cover a number of different types
+of vulnerability.
+
+- We use [Checkov](./checkov.md) to scan our Terraform infrastructure.
+- We use [Trivy](./trivy.md) to scan containers for issues with dependencies.
+- We use [SonarCloud](./sonarcloud.md) to scan our code in `sourcegraph/sourcegraph` for vulnerabilities
