@@ -12,7 +12,7 @@ Quick links:
 - [Code Insights Backlog](https://github.com/orgs/sourcegraph/projects/200/views/13)
 - [Latest demo video](https://www.youtube.com/watch?v=fMCUJQHfbUA)
 - [Documentation](https://docs.sourcegraph.com/code_insights)
-- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/34?filterQuery=owning-org%3A%22Code+Graph%22+type%3ARoadmap+owning-team%3A%22Code+insights%22)
+- [Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/59)
 
 ## Mission, Vision, and Guiding Principles
 
