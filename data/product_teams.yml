@@ -150,3 +150,5 @@ security:
 cloud:
   title: Cloud
   em: rafal_leszczynski
+  issue_labels: 
+    - team/cloud
