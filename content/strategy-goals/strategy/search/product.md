@@ -41,18 +41,22 @@ We will continue our efforts to improve our search experience via the query lang
 ### Ready the core workflow for deep integrations
 
 #### SCIP <> search <> Compute integration
+
 With Code Intel’s commitment to complete SCIP <> search <> Compute integration shortly, we will have the ability to search only precise results. This has huge implications for surfacing and leveraging code intelligence data throughout the product.
 
 #### Develop integration framework in the core workflow
+
 UI concern of where integrations fit:
--  [RFC 701 Review: Search as both a workflow in itself, and as a start for other workflows](https://docs.google.com/document/d/1Np081Iuezi-ZCzEJT5VkJNBDKF-Po-Xbz4M5_QJLH2Y/edit#heading=h.trqab8y0kufp)
+
+- [RFC 701 Review: Search as both a workflow in itself, and as a start for other workflows](https://docs.google.com/document/d/1Np081Iuezi-ZCzEJT5VkJNBDKF-Po-Xbz4M5_QJLH2Y/edit#heading=h.trqab8y0kufp)
 
 Likely way to integrate features more deeply into search and core workflow is to integrate code insights and batch changes into compute. There may be Compute work necessary to achieve that (production readiness, scale, …).
+
 - Code Insights: [RFC (PRIVATE?) 696 REVIEW: Code Insights serves new jobs to be...](https://docs.google.com/document/u/0/d/1Vktm_9CtSoF8zjye5YwCrfaLm8srktf0fccbM-3bcOA/edit)
 - Batch Changes: [RFC 713: Compute-powered batch changes](https://docs.google.com/document/u/0/d/1c9vGgSfh35HNzhPSMltgVkMA9B1NO4QF5GgZwFlt5Ys/edit)
 
-
 ## What we're not working on and why
+
 - We'll complete our migration from the Monaco editor to CodeMirror 6, but we won't continue our work on improving search query suggestions for the time being. We're turning most of the application focus to cleaning up the core workflow.
 
 - We'll also defer work to make metadata searchable. Although this is an important piece of functionality, the platform will be focused primarily on Lucky search and Compute foundational work.
