@@ -34,7 +34,6 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 - One Sourcegraph instance serves a single customer
 - (FY23/FY24) Dedicated, Sourcegraph-provided Cloud infrastructure
-  - With a path to “single-tenant Sourcegraph, shared-infrastructure” model in the future
 - (FY23/FY24) GCP only
   - With a path to supporting other Cloud providers / Bring-your-own-Kubernetes in the future
 
