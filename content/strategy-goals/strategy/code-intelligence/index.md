@@ -43,7 +43,7 @@ In the last few months we’ve:
 
 - Improved our search-based navigation experience by implementing efforts like [Rockskip](https://docs.sourcegraph.com/code_intelligence/explanations/rockskip) and [Squirrel] (https://docs.google.com/document/d/10YHHydQXmPODzeDDSAm_audheahdc8NjCqQPBV_wcN0) for the top used languages.
 - Shipped the [executors service](https://docs.sourcegraph.com/admin/executors) that powers [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing) to unlock precise cross repository and dependency navigation.
-- Launched [SCIP](https://about.sourcegraph.com/blog/announcing-scip), our new code indexing format, to address shortcomings of the LSIF format and allow us to deliver and iterate on indexers faster. This also paves the way for long awaited features like incremental indexing and cross-language navigation.
+- Launched [SCIP](https://about.sourcegraph.com/blog/announcing-scip), our new code indexing format, to address shortcomings of LSIF and allow us to deliver and iterate on indexers faster. This also paves the way for long awaited features like incremental indexing and cross-language navigation.
 
 Recent key learnings:
 
