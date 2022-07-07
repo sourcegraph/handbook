@@ -25,9 +25,11 @@ Once V2 of the Wildcard Component Library is over the finish line, we'll tackle 
 
 - [Complete V2 of Wildcard Component Library](https://github.com/sourcegraph/sourcegraph/issues/31204)
 
+- WCAG 2.1 AA Accessibility [auditing user journeys](https://github.com/sourcegraph/sourcegraph/issues/31475) and [fixing known issues](https://github.com/sourcegraph/sourcegraph/issues/31476)
+
 - [Improve client-side observability on Sourcegraph Cloud](https://github.com/sourcegraph/sourcegraph/issues/26570)
 
-- WCAG 2.1 AA Accessibility [auditing user journeys](https://github.com/sourcegraph/sourcegraph/issues/31475) and [fixing known issues](https://github.com/sourcegraph/sourcegraph/issues/31476)
+- [Client flakes: low-hanging fruit](https://github.com/sourcegraph/sourcegraph/issues/38345)
 
 ### FY23 Q3
 
