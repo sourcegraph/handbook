@@ -7,7 +7,6 @@ A quick note before reading the rest of this page: Customers with managed instan
 A list of managed instances can be found as part of the GCP Project `Managed Instances`
 ![Screen Shot 2022-07-07 at 9 49 49 AM](https://user-images.githubusercontent.com/13024338/177827979-7375b1c1-20c3-4c01-870e-003b2153b1a4.png)
 
-
 ## Required access
 
 To fully access managed instances, follow these [docs](../../../engineering/teams/devops/managed/index.md#access)
