@@ -178,6 +178,7 @@ Not all roles have commissions. For those who do, all of these must be completed
 This is rarely used. When needed, complete all field.
 
 ## How to terminate someone
+
 Go to the person's profile, and update Employment Status in the Job tab.
 
 Complete the following fields:
