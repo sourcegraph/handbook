@@ -177,6 +177,30 @@ Not all roles have commissions. For those who do, all of these must be completed
 
 This is rarely used. When needed, complete all field.
 
+## How to terminate someone
+Go to the person's profile, and update Employment Status in the Job tab.
+
+Complete the following fields:
+
+- Effective Date (departure date/paythrough date)
+- Employment Status: Terminated
+- Termination Type: Voluntary/Involuntary/Mutal Separation
+- Termination Reason
+- Eligible for Rehire:
+  - Yes:
+    - No PIP
+  - No
+    - PIP
+    - Any of these reasons [COMING SOON]
+
+Under Employment Status, complete:
+
+- Attrition Type:
+  - No PIP
+  - PIP
+
+For managers with direct reports, confirm with terminated person's manager what the new reporting structure will be and update it in BambooHR. The report change should be effective after this person's last active day (System Deactivation Date/Last day), which may not necessarily be the same as departure date or last pay date.
+
 ## Integrations
 
 Fields access to other tools (lattice)
