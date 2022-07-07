@@ -18,60 +18,56 @@ The first task is the most important one. All the fields must be completed in or
 
 The People Partner responsible for the exit needs to complete the following field:
 
-
-
-* **First name** 
+- **First name**
   - of person leaving Sourcegraph
-* **Last name** 
+- **Last name**
   - of person leaving Sourcegraph
-* **Sourcegraph email** 
+- **Sourcegraph email**
   - of person leaving Sourcegraph
-* **Job title** 
+- **Job title**
   - of person leaving Sourcegraph
-* **Manager email** 
+- **Manager email**
   - of person leaving Sourcegraph
-* **Manager name** 
+- **Manager name**
   - of person leaving Sourcegraph
-* **HRBP** 
+- **HRBP**
   - People Partner responsible for the exit. An option will be selected from a list.
-* **Employment type** 
+- **Employment type**
   - of person leaving Sourcegraph. An option will be selected from a list.
-* **Department** 
+- **Department**
   - of person leaving Sourcegraph. An option will be selected from a list.
-* **Departure date/Last day payroll/BambooHR date** 
+- **Departure date/Last day payroll/BambooHR date**
   - last official date of employment. This might be different to last day active.
-* **Start date (First day employed)** 
+- **Start date (First day employed)**
   - First day of employment at Sourcegraph. This information can be found in BambooHR.
-* **System Deactivation Date/Last day** 
+- **System Deactivation Date/Last day**
   - last day active. This is the day we deactivate accounts and, if the person was a manager, we make the org structure changes effective.
-* **Started before May 14th 2021** 
-  - that is the day we made changes in our type of options, so Legal needs to confirm if teammate has vested ISOs with 3 month PTEP instead of 10 years. This fields triggers notifications to the Legal team. 
-* **Type of exit** 
-  - An option will be selected from a list. You can read more about the definitions and types of departure here. 
-* **Regrettable or not** 
-  - an option will be selected from a list. You can read more about the definitions for this here. 
-* **Has direct reports?** 
+- **Started before May 14th 2021**
+  - that is the day we made changes in our type of options, so Legal needs to confirm if teammate has vested ISOs with 3 month PTEP instead of 10 years. This fields triggers notifications to the Legal team.
+- **Type of exit**
+  - An option will be selected from a list. You can read more about the definitions and types of departure here.
+- **Regrettable or not**
+  - an option will be selected from a list. You can read more about the definitions for this here.
+- **Has direct reports?**
   - this triggers a task in the _People team - General Tasks_ section. If the teammate leaving has direct reports, the People Partner needs to confirm with their manager what the new reporting structure will be and update it in BambooHR, using the last day active as the effective date of the change.
-* **Severance** 
+- **Severance**
   - this triggers the type of actions the People team, Finance and Legal will make. If the answer is NO, the _People team - NO Severance_ task will be assigned to the People Partner, Legal will not be notified, and Finance will not be asked to process severance. If the answer is YES, the _People team - Severance_ task will be assigned to the People Partner, Legal will be notified, and Finance will be asked to process severance.
-* **Months of Severance** 
+- **Months of Severance**
   - single number input. It is data that will populate in emails and information to the Finance team.
-* **Severance amount** 
+- **Severance amount**
   - include amount with two decimals. The unit will automatically be USD. This is information the Finance team needs.
-* **If email forwarding is needed (y/n)**
+- **If email forwarding is needed (y/n)**
   - this will be sent in the Slack automated message sent to the offboarding channel.
-* **Hold laptop for legal review** 
+- **Hold laptop for legal review**
   - this notifies the Tech Ops team if we can wipe the laptop or not (e.g. if there is an active litigation)
-* **Will get COBRA subsidy as part of severance** 
+- **Will get COBRA subsidy as part of severance**
   - this is information Payroll needs to know before processing last pay
-* **How many months of COBRA coverage?** 
+- **How many months of COBRA coverage?**
   - this is information needed by Payroll and it is also used in emails sent to the person who is leaving.
-* **Is this role eligible for commissions or bonuses? (Check BambooHR - Job tab)** 
+- **Is this role eligible for commissions or bonuses? (Check BambooHR - Job tab)**
   - this information can be found in BambooHR and it triggers the notification to the person in Finance responsible for commissions and bonuses.
 
-
 #### Slack message
-
 
 It is important to click on **_Complete task_**, as it triggers a message to the Slack #offboarding-private channel with all the information needed:
 
