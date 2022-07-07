@@ -410,7 +410,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <tr>
       <td colspan="3" class="tbd">
         <p>
-          Rather than being solely defined through proficiency, execution and teamwork, IC5 is differentiated from levels 1-4 by a specific <strong>business need</strong> for the role. The creation of an IC5 role is contingent on the existence of this business need, and the business need will bring an associated set of expectations for proficiency, execution and teamwork. To acknowledge this specificity, the level is defined through the <a href="./ic5/index.md">profiles of IC5 roles at Sourcegraph today</a>.
+          Rather than being solely defined through proficiency, execution and teamwork, IC5 is differentiated from levels 1-4 by a specific <strong>business need</strong> for the role. The creation of an IC5 role is contingent on the existence of this business need, and the business need will bring an associated set of expectations for proficiency, execution and teamwork.
         </p>
       </td>
     </tr>
