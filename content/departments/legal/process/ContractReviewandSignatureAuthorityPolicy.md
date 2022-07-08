@@ -41,7 +41,17 @@ Legal
    </td>
    <td>#deal-desk Slack channel
    </td>
-   <td><a href="../../finance/deal-desk.md">Deal Desk</a> team will escalate to Legal if necessary - see <a href="https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit">Order Form review guide</a>
+   <td><a href="https://handbook.sourcegraph.com/departments/finance/deal-desk/">Deal Desk</a> team will escalate to Legal if necessary - see <a href="https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit">Order Form review guide</a>
+   </td>
+  </tr>
+  <tr>
+   <td>Customer Order Form or MSA redlines
+   </td>
+   <td>Legal
+   </td>
+   <td>legal@sourcegraph.com
+   </td>
+   <td>Email (instead of Slack) helps us keep track of all contract versions
    </td>
   </tr>
   <tr>
@@ -57,26 +67,16 @@ Legal
 <p>
 AND
 <p>
- 
+ \
 #vendor-requests Slack channel
    </td>
    <td><em>Step One: Submit Jira ticket</em>
 <p>
-Follow steps on <a href="../../tech-ops/process/vendor-request.md">Vendor Request Process</a> handbook page to submit a Jira request for internal review.
+Follow steps on <a href="https://handbook.sourcegraph.com/departments/tech-ops/process/vendor-request">Vendor Request Process</a> handbook page to submit a Jira request for internal review.
 <p>
 <em>Step Two: notify Legal in #vendor-requests Slack channel</em>
 <p>
 Let Legal know you’ve submitted a vendor request for their review. Legal will review once budgetary approval is confirmed. 
-   </td>
-  </tr>
-  <tr>
-   <td>Customer contract redlines
-   </td>
-   <td>Legal
-   </td>
-   <td>legal@sourcegraph.com
-   </td>
-   <td>This helps us keep track of all contract versions
    </td>
   </tr>
   <tr>
