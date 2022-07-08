@@ -33,7 +33,7 @@ After code ownership, we will have a pattern of how we ingest, store and search 
 
 When launched, our Browser Extensions provided much needed code intelligence functionality into code hosts. Since then code hosts have now caught up and implement similar (albeit not as good) functionality to their products. Because of our need to focus and minor competitive differentiation we will pause adding new functionality to our Browser extensions. This pause will be re-assessed after we've integrated new concepts into our platform.
 
-However, as we had previously focussed on individual user adoption, we believe there are minor improvements we can make to improve adoption across enterprises such as becoming an approved extension for [Chrome enterprise.](https://support.google.com/chrome/a/answer/6306504?hl=en). Which we may choose to investigate depending on priorities.
+However, as we had previously focussed on individual user adoption, we believe there are minor improvements we can make to improve adoption across enterprises such as becoming an approved extension for [Chrome enterprise](https://support.google.com/chrome/a/answer/6306504?hl=en). Which we may choose to investigate depending on priorities.
 
 #### Pause IDE extensions
 
