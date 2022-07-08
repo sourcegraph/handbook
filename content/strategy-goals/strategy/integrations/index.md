@@ -9,18 +9,17 @@ Sourcegraph provides value anywhere that someone reads or writes code.
 ### Themes
 
 For the next 6 months, we will be focussing on the following two themes:
+
 1. Moving extensions into the core workflow
 2. Introducing new concepts to Sourcegraph
 
 Due to this focus, we'll be pausing feature work on IDE and Browser extensions.
-
 
 #### Moving extensions into the core workflow
 
 The current goal for the company is to focus on the core workflow and developer time saved. The integrations team will contribute by moving the most heavily used extensions to be core parts of our product (e.g. code intelligence, open in editor, git extras etc.). For our customers this will result in these features being both faster and more discoverable.
 
 To further simplify the product and have a greater focus on the core workflow we will also deprecate the current Sourcegraph extensions and the extension registry. With the most used extensions becoming core parts of our product there's less need for our extensions. Instead, we will work towards a different extension model in order to support our goal of introducing new concepts to Sourcegraph. Deprecating Sourcegraph extensions will require us to work with our customers to determine what custom extensions have been built and endeavour to add them as native features.
-
 
 #### Start introducing new concepts to Sourcegraph
 
@@ -46,25 +45,25 @@ Because of this coverage and the need to focus, we will be pausing any additiona
 
 #### FY’23 Q3
 
-* Code ownership
-    * Research into the best technical solution and customer needs
-* Deprecating Sourcegraph extensions
-    * Prevent authoring of new extensions on our Sourcegraph.com extension registry
-    * Move “code intelligence” features to core workflow
-    * Move “git extras” (i.e. git blame etc.) extension to core workflow
-    * Move “open in editor” extension to core workflow
-    * Move “search exports” extension to core workflow
-    * Move “go imports search” extension to core workflow
-    * Deprecate the extension registry and extensions page
+- Code ownership
+  - Research into the best technical solution and customer needs
+- Deprecating Sourcegraph extensions
+  - Prevent authoring of new extensions on our Sourcegraph.com extension registry
+  - Move “code intelligence” features to core workflow
+  - Move “git extras” (i.e. git blame etc.) extension to core workflow
+  - Move “open in editor” extension to core workflow
+  - Move “search exports” extension to core workflow
+  - Move “go imports search” extension to core workflow
+  - Deprecate the extension registry and extensions page
 
 #### FY’23 Q4+
 
-* Code ownership
-    * Code ownership database that can be queried by a “codeowners” keyword, and via an API
-    * Code ownership supported by other products (e.g. Batch Changes and Code Insights)
-* Deprecating Sourcegraph extensions
-* Support test coverage data
-* Investigate and prioritize other concepts to be imported (e.g. Code quality metrics, vulnerability data, service maps, logging information, performance metrics etc.)
+- Code ownership
+  - Code ownership database that can be queried by a “codeowners” keyword, and via an API
+  - Code ownership supported by other products (e.g. Batch Changes and Code Insights)
+- Deprecating Sourcegraph extensions
+- Support test coverage data
+- Investigate and prioritize other concepts to be imported (e.g. Code quality metrics, vulnerability data, service maps, logging information, performance metrics etc.)
 
 Check out our roadmap [here](https://github.com/orgs/sourcegraph/projects/214/views/56)
 
