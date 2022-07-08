@@ -10,18 +10,18 @@ Sourcegraph provides value anywhere that someone reads or writes code.
 
 For the next 6 months, we will be focussing on the following two themes:
 
-1. Moving extensions into the core workflow
-2. Introducing new concepts to Sourcegraph
+1. Move extensions into the core workflow
+2. Introduce new concepts to Sourcegraph
 
 Due to this focus, we'll be pausing feature work on IDE and Browser extensions.
 
 #### Moving extensions into the core workflow
 
-The current goal for the company is to focus on the core workflow and developer time saved. The integrations team will contribute by moving the most heavily used extensions to be core parts of our product (e.g. code intelligence, open in editor, git extras etc.). For our customers this will result in these features being both faster and more discoverable.
+To improve the core workflow we will move the most heavily used extensions to be core parts of our product (e.g. code intelligence, open in editor, git extras etc.). For our customers this will result in these features being both faster and more discoverable, saving developer time.
 
 To further simplify the product and have a greater focus on the core workflow we will also deprecate the current Sourcegraph extensions and the extension registry. With the most used extensions becoming core parts of our product there's less need for our extensions. Instead, we will work towards a different extension model in order to support our goal of introducing new concepts to Sourcegraph. Deprecating Sourcegraph extensions will require us to work with our customers to determine what custom extensions have been built and endeavour to add them as native features.
 
-#### Start introducing new concepts to Sourcegraph
+#### Introduce new concepts to Sourcegraph
 
 In the long term we want Sourcegraph to become the primary source for information relating to code, tying all tools that developers use into a single platform. This will make Sourcegraph indispensable as we become the best way to answer any question relating to code, unblocking developers and saving their time.
 
