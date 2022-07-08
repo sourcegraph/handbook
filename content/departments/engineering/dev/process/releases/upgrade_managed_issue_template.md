@@ -13,7 +13,7 @@ Arguments:
 
 These [managed instances](../../../../cloud/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process../../../../cloud/technical-docs/upgrade_process.md).
+To perform these upgrades, follow the [managed instances upgrade process](../../../../cloud/technical-docs/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
 
 ---

@@ -71,7 +71,6 @@ The Cloud team will define FY23 roadmap in upcoming weeks.
 - [Support migration Sourcegraph.com customers to the Cloud](https://docs.google.com/document/d/1owIo8QA_omwnFqSfS5EKyIhd4SpMDdn7cZJrsvgjl-E/edit#heading=h.2vev9l6i9qrg)
 - Support SOC2 audit for managed instances
 - Enabling managed instances trials (limited capacity)
-- Defined SLO & measured SLO for managed instances
 - Finalize design & implementation plan of [RFC 706](https://docs.google.com/document/d/1pPS3xzv4pI5ZlliPrr1tkoOtvn-ZWxKVdYfNNHKVPHs/edit)
 
 ## Team
