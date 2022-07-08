@@ -36,8 +36,8 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
     gap: 1rem;
   }
   .color-palette .color-sm {
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 8rem;
   }
   .color-palette .color-lg {
     width: 14rem;
@@ -311,7 +311,7 @@ Use supporting colors for added tonality and awareness within website UI.
 
 <div class="color-palette interactive" style="max-width: 54rem">
   <div class="color color-lg" style="--color: #f9fafb">
-    <h5>SG Light gray</h5>
+    <h5>Sourcegraph Light Gray</h5>
     <p>Our light gray can add tonality to and create space within layouts.</p>
     <div>
       <code>#f9fafb</code>
@@ -320,7 +320,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-dark-gray); color: white">
-    <h5>SG Dark gray</h5>
+    <h5>Sourcegraph Dark Gray</h5>
     <p>Our dark gray can add tonality and depth to typographical layouts.</p>
     <div>
       <code>#4d4d4d</code>
@@ -329,16 +329,16 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: black; color: white">
-    <h5>SG Black</h5>
+    <h5>Sourcegraph Black</h5>
     <p>Our black is a true black to provide maximum contrast.</p>
     <div>
       <code>#000000</code>
       <br />
-      <small>Sourcegraph Black</small>
+      <small>Black</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-blurple); color: white">
-    <h5>Sourcegraph blurple</h5>
+    <h5>Sourcegraph Blurple</h5>
     <p>Use for button and CTA messages in website UI.</p>
     <div>
       <code>#5033e1</code>
@@ -347,7 +347,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-action-green); color: white">
-    <h5>Sourcegraph action green</h5>
+    <h5>Sourcegraph Action Green</h5>
     <p>Use for check marks and to signal positive messages in website UI.</p>
     <div>
       <code>#17ab52</code>
@@ -356,7 +356,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-alert-red); color: white">
-    <h5>Sourcegraph alert red</h5>
+    <h5>Sourcegraph Alert Red</h5>
     <p>Use for alerts and to signal error messages in website UI.</p>
     <div>
       <code>#ed2e20</code>
@@ -376,7 +376,7 @@ Once the logo is placed, add appropriate colors keeping in mind that our vibrant
 
 ### Color use for website UI
 
-When applying color to website UI elements use Sourcegraph Red, Green, dark gray, and Blurple from our secondary palette. Violet can be used for icons.
+When applying color to website UI elements use Sourcegraph Red, Green, Dark Gray, and Blurple from our secondary palette. Violet can be used for icons.
 
 <style>
   .inline-color-box {
