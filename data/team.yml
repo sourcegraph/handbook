@@ -1240,7 +1240,7 @@ rami_hamdan:
   pronouns: they/them
   role: Manager, Enterprise - US West
   manager_role_slug: manager_customer_engineering_west
-  reports_to: director_customer_engineering
+  reports_to: vp_customer_engineering
   location: Albuquerque, NM from Palestine 🇵🇸
   github: ZrnH
   email: rami@sourcegraph.com
@@ -1285,7 +1285,7 @@ ajay_sridhar:
   name: Ajay Sridhar
   pronouns: He/Him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: vp_customer_engineering
   location: London, UK 🇬🇧
   github: ajaynz
   email: ajay.sridhar@sourcegraph.com
@@ -1473,19 +1473,6 @@ kemper_hamilton:
   links: '[LinkedIn](https://www.linkedin.com/in/kemperhamilton/)'
   description: Kemper has been an Austinite for ten years and is about to begin a 6 month digital nomad adventure. She loves traveling, listening to live music, spending time outdoors, and she is a cheese & charcuterie enthusiast 🧀 She has experience in corporate communications, operations, and recruitment.
 
-bob_roudebush:
-  name: Bob Roudebush
-  pronouns: he/him
-  role: Director, Customer Engineering
-  reports_to: vp_customer_engineering
-  manager_role_slug: director_customer_engineering
-  location: Indianapolis, Indiana, United States 🇺🇸
-  github: RoudyBob
-  email: bob.roudebush@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/bobroudebush/)'
-  pronunciation: 'How to say my last name: [Roudebush](https://www.howtopronounce.com/roudebush)'
-  description: "Bob has been a resident of the Hoosier State his entire life and currently resides in Indianapolis, IN with his wife and two sons. The two sons are currently away at college but still drop by when they want a home-cooked meal or have laundry to be done. Bob is a former 'Microsoftie' and 'X-Googler' and has had the benefit of having many different interesting jobs at those companies and few others. He's a big fan of family board game night, an avid trail runner, and consumes as many books, podcasts, and Kentucky bourbons as his remaining time will allow."
-
 nancy_shah:
   name: Nancy Shah
   pronouns: she/her
@@ -1532,7 +1519,7 @@ simon_waterer:
   name: Simon Waterer
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: vp_customer_engineering
   location: London, United Kingdom 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   github: simoncwaterer
   email: simon.waterer@sourcegraph.com
@@ -2161,7 +2148,7 @@ andy_price:
   pronouns: he/him
   role: Senior Manager, Enterprise - US East and US Commercial
   manager_role_slug: senior_manager_customer_engineering_east
-  reports_to: director_customer_engineering
+  reports_to: vp_customer_engineering
   location: Arlington, VA, USA 🇺🇸
 
 leo_papaloizos:
@@ -2349,7 +2336,7 @@ yoway_buorn:
   name: Yoway Buorn
   pronouns: he/him
   role: Senior Customer Engineer
-  reports_to: director_customer_engineering
+  reports_to: vp_customer_engineering
   location: İstanbul, Türkiye 🇹🇷🇸
   github: yowayb
   email: yoway.buorn@sourcegraph.com
@@ -2505,7 +2492,7 @@ gronk:
   pronouns: he/him
   role: Manager, Enterprise EMEA
   manager_role_slug: manager_customer_engineering_emea
-  reports_to: director_customer_engineering
+  reports_to: vp_customer_engineering
   location: Hamburg, Germany 🇩🇪
   description: Gronk lives in the hanseatic city of Hamburg and has used, implemented, and sold very many source code management systems (including some awkward ones) over the last 20+ years. He rides an old motorcycle and on weekends an even older tractor. When not working he is consuming as much live music as possible and aims to be a singer and guitar player although his grown up daughters don't fail to remind him of his lack of related talent.
 
