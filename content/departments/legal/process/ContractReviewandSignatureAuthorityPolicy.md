@@ -133,7 +133,6 @@ people-ops@sourcegraph.com
   </tr>
 </table>
 
-
 # **Non-Disclosure Agreements (NDAs)**
 
 ## Do I need an NDA?
