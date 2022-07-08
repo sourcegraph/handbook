@@ -16,7 +16,8 @@ In most circumstances, license keys match the renewal dates on an account contra
 
 1. If possible, check with the account's Customer Engineer & Account Executive, as well as the account running notes. This will help you understand any special context surrounding the current license key tags and expiration dates. The account team may opt to extend a product trial key for a specific amount of time.
 2. Grab the contract end date by going to the Account page in Salesforce to look up the `"Active Contract Period End"`.
-3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags as the existing key and use the `"Active Contract Period End"` as the expiration date.
+3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags and user count as the existing key (make sure to comma separate each tag) and use the `"Active Contract Period End"` as the expiration date.
+4. Send the new license key to the customer (follow the process outlined below).
 
 ## How to create a license key for a renewal or upgrade
 
