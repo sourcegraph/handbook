@@ -37,7 +37,7 @@ As we move towards Cloud (Managed Instances) as our preferred deployment method,
 
 - [Improve consistency in Sourcegraph's frontend codebase](https://github.com/sourcegraph/sourcegraph/issues/33123)
 
-- [Investigate alternatives to Percy/Chromatic for regression testing](https://github.com/sourcegraph/sourcegraph/issues/33740)
+- [Investigate alternatives to Percy/Chromatic for testing](https://github.com/sourcegraph/sourcegraph/issues/33740)
 
 - [WCAG 2.1 AA Accessibility - Comprehensive audit and response](https://github.com/sourcegraph/sourcegraph/issues/33743)
 
