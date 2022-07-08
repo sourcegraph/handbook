@@ -32,3 +32,73 @@ The currently available queues:
 
 - `standard`: our default Buildkite agents, currently Docker-in-Docker agents running in Kubernetes
 - `vagrant`: special Buildkite agents desgined to run resource intensive test on docker deployments.
+
+### `buildkite-job-dispatcher`
+
+Our Buildkite agents are stateless, and are deployed in batches as Kubernetes jobs where each agent runs its workload and exits.
+This is managed by the `buildkite-job-dispatcher`:
+
+- [Source code](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/docker-images/buildkite-job-dispatcher)
+- [Documentation, dashboards, and deployment manifests](https://github.com/sourcegraph/infrastructure/blob/main/buildkite/kubernetes/buildkite-job-dispatcher)
+
+Relevant runbooks:
+
+- [Replacing agents](../../../process/incidents/playbooks/ci.md#replacing-agents)
+- [Agent availability issues](../../../process/incidents/playbooks/ci.md#agent-availability-issues)
+
+A diagram overview of how this all works:
+
+<!-- below diagram adapted from https://bobheadxi.dev/stateless-ci/#dynamic-kubernetes-jobs -->
+
+```mermaid
+sequenceDiagram
+    participant ba as buildkite-job-dispatcher
+    participant k8s as CI Kubernetes cluster
+    participant bk as Buildkite.com
+    participant gh as GitHub.com
+
+    loop
+      gh->>bk: enqueue jobs
+      activate bk
+
+      ba->>bk: list queued jobs and total agents
+      bk-->>ba: queued jobs, total agents
+
+      activate ba
+      ba->>ba: determine required agents
+      alt queue needs agents
+        ba->>k8s: get template Job
+        activate k8s
+        k8s-->>ba: template Job
+        deactivate k8s
+
+        ba->>k8s: get buildkite-git-references volume
+        activate k8s
+        k8s-->>ba: volume
+        deactivate k8s
+
+        ba->>ba: modify Job template
+
+        ba->>k8s: dispatch new Job
+        activate k8s
+        k8s->>bk: register agents
+        bk-->>k8s: assign jobs to agents
+
+        loop while % of Pods not online or completed
+          par deployed agents process jobs
+            k8s-->>bk: report completed jobs
+            bk-->>gh: report pipeline status
+            deactivate bk
+          and check previous dispatch
+            ba->>k8s: list Pods from dispatched Job
+            k8s-->>ba: Pods states
+          end
+        end
+      end
+      deactivate ba
+
+      k8s->>k8s: Clean up completed Jobs
+
+      deactivate k8s
+    end
+```
