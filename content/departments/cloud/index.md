@@ -48,7 +48,6 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 - Expected to support teams from 50 to 5000 users (EOFY23) at 500$/month minimal infrastructure cost
 - Infrastructure cost covered by Sourcegraph
-  - We’re incentivized to operate efficiently
 - Administration / operations provided by Sourcegraph
 - (FY24) Self service provisioning / release channels for upgrades
 
