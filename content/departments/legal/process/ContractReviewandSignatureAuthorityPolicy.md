@@ -2,13 +2,10 @@
 
 Effective and last modified July 8, 2022
 
-_Quick tip: Try searching this page for exactly what you’re looking for:_ 
+_Quick tip: Try searching this page for exactly what you’re looking for:_
 
-
-
-* _General search terms: NDA, Customer, Vendor, Partner, Teammate_ 
-* _Specific search term examples: legal review, DPA, template, who signs_ 
-
+- _General search terms: NDA, Customer, Vendor, Partner, Teammate_
+- _Specific search term examples: legal review, DPA, template, who signs_
 
 ## **Purpose:**
 
@@ -16,17 +13,13 @@ This Contract Review and Signature Authority Policy is designed to help Sourcegr
 
 This Policy covers the following contract types:
 
-
-
-1. [Non-Disclosure Agreements](ContractReviewandSignatureAuthorityPolicy.md#Non-Disclosure-Agreements-(NDAs)) (NDAs)
+1. [Non-Disclosure Agreements](<ContractReviewandSignatureAuthorityPolicy.md#Non-Disclosure-Agreements-(NDAs)>) (NDAs)
 2. [Customer Contracts](ContractReviewandSignatureAuthorityPolicy.md#Customer-Contracts) (Order Forms, MSAs, DPAs)
 3. [Vendor Contracts](ContractReviewandSignatureAuthorityPolicy.md#Vendor-Contracts) (including temporary contractors)
 4. [Partner Contracts](ContractReviewandSignatureAuthorityPolicy.md#Partner-Contracts) (resellers, technology partners)
 5. [Teammate Contracts & Offers](ContractReviewandSignatureAuthorityPolicy.md#Teammate-Contracts-&-Offers)
 
-
 ## <span style="text-decoration:underline;">How to Submit Requests to Internal Teams for Review</span>:
-
 
 <table>
   <tr>
@@ -140,101 +133,76 @@ people-ops@sourcegraph.com
   </tr>
 </table>
 
-
-
 # **Non-Disclosure Agreements (NDAs)**
-
 
 ## Do I need an NDA?
 
-
 ![If we don't have an NDA, get an NDA](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview1.png)
-
-
 
 ## Where do I find an NDA?
 
 ![STOP](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview2.png)
 
+**BEFORE YOU SEND AN NDA, CHECK TO SEE IF WE ALREADY HAVE ONE**
 
-**BEFORE YOU SEND AN NDA, CHECK TO SEE IF WE ALREADY HAVE ONE**  
+- Check our [NDAs folder](https://drive.google.com/drive/u/1/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) for the name of the other company.
+  - If you find an NDA with that company, check and see if it’s still in effect.
+    - How do I know if the NDA is in effect?
+      - Rule of thumb: Our default NDA terms are 3 years.
+      - Check the following sections of the NDA:
+        - The Effective Date
+        - The Term (which will tell you how long the NDA is in effect)
+    - Still not sure? Ask Legal!
 
-
-
-* Check our [NDAs folder](https://drive.google.com/drive/u/1/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) for the name of the other company. 
-    * If you find an NDA with that company, check and see if it’s still in effect.
-        * How do I know if the NDA is in effect?
-            * Rule of thumb:  Our default NDA terms are 3 years.
-            * Check the following sections of the NDA:
-                * The Effective Date
-                * The Term (which will tell you how long the NDA is in effect)
-        * Still not sure? Ask Legal!
-
-**If we already have a signed NDA in effect, you do not need a new one.** 
+**If we already have a signed NDA in effect, you do not need a new one.**
 
 ![GO](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview3.png)
 
+**DIDN’T FIND AN NDA WITH THIS COMPANY? LET’S GET ONE IN PLACE!**
 
-**DIDN’T FIND AN NDA WITH THIS COMPANY? LET’S GET ONE IN PLACE!** 
-
-
-
-* Use Sourcegraph’s NDA template using one of the following options:
-    * Send our [NDA form](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) via Docusign
-        * Watch this [3-minute Powerform NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing) to walk you through how to send out our Powerform NDA via DocuSign.
-    * Send our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
-
+- Use Sourcegraph’s NDA template using one of the following options:
+  - Send our [NDA form](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) via Docusign
+    - Watch this [3-minute Powerform NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing) to walk you through how to send out our Powerform NDA via DocuSign.
+  - Send our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
 
 ## Do I need another internal team to review or approve the NDA before it is signed?
 
 ![Changes to NDA require Legal review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview4.png)
 
-
-
 ## What information do I send to Legal for an NDA review?
 
-For vendor contracts:  We do not review vendor NDAs. Send the vendor our NDA form described above.
+For vendor contracts: We do not review vendor NDAs. Send the vendor our NDA form described above.
 
-For customer contracts:  Share our NDA form with the prospect. If a customer insists on using their NDA, reach out to your legal POC via #legal or legal@sourcegraph.com and write 1-sentence why this should be an exception. See the NDA slide (13) of our [Legal onboarding for Sourcegraph AEs](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing) for self-serve guidelines to get an NDA signed quickly.
-
+For customer contracts: Share our NDA form with the prospect. If a customer insists on using their NDA, reach out to your legal POC via #legal or legal@sourcegraph.com and write 1-sentence why this should be an exception. See the NDA slide (13) of our [Legal onboarding for Sourcegraph AEs](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing) for self-serve guidelines to get an NDA signed quickly.
 
 ## What are the SLAs for Legal review of NDAs?
 
-
-
-* Sourcegraph form: 2 business days
-* Third-party form: 3 business days
-
+- Sourcegraph form: 2 business days
+- Third-party form: 3 business days
 
 ## Who signs the NDA for Sourcegraph?
 
-
-
-* Director of Legal, VP, or Director
+- Director of Legal, VP, or Director
 
 Changes to the above signing authorities require written approval by the CEO.
 
-
 ## Who sends out the NDA for signature?
 
-If you have DocuSign access, you do! 
+If you have DocuSign access, you do!
 
-Please have the other party sign first. 
+Please have the other party sign first.
 
 If you do not have DocuSign access, please ask Legal to send the NDA out for you.
 
-
 ## Where do I save the NDA once it’s signed?
 
-Once both parties have signed the NDA, you’ll need to save it in the [NDAs folder](https://drive.google.com/drive/u/1/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) in Google Drive. 
+Once both parties have signed the NDA, you’ll need to save it in the [NDAs folder](https://drive.google.com/drive/u/1/folders/1kwsephGh0quiOIgvLBE_XU3DEfe97Z78) in Google Drive.
 
 Save the document as a pdf using the following <span style="text-decoration:underline;">naming convention</span>: Party Name-NDA-Year-Month-Date (example: Company A-NDA-2022-01-01)
 
 Remember: It is important to save your fully signed NDA in our shared folder. NDAs can be used for different purposes, relationships, and opportunities, so you never know who on the Sourcegraph team could need to reference that NDA in the future.
 
-
-# **Customer Contracts** 
-
+# **Customer Contracts**
 
 ## I have a Prospect and want to send them a contract…
 
@@ -244,123 +212,93 @@ Check out the [Sales Resources](../../sales/tools/salesresources.md#sales-templa
 
 Not finding the template you need? Reach out to Legal.
 
-
 ## I found the template I needed and sent it to my Prospect. Do I need another internal team to review the Customer contract before I get it signed?
-
 
 ### Order Forms:
 
 Our standard Orders are governed by our online terms, so if a Customer is ready to sign a standard Order with online terms, you do not need additional approvals.
 
-Remember: for non-standard Orders, **you need to engage Deal Desk.** Deal Desk will know if and when to engage Legal. 
+Remember: for non-standard Orders, **you need to engage Deal Desk.** Deal Desk will know if and when to engage Legal.
 
 Check out the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) for a list of our non-standard terms and the [Deal Desk Handbook page](../../finance/deal-desk.md) for more information and resources.
 
-
 ![Non-standard terms require Deal Desk review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview5.png)
 
-
 Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit) includes a Deal Approval Matrix, which outlines what makes a deal standard vs. non-standard and what approvals are needed.
-
 
 ### Master Services Agreements (MSAs):
 
 ![Changes to MSA require Legal review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview6.png)
 
-
-
 ## What information do I send to Legal for a Customer MSA review?
 
-
-
 1. In the #deal-desk channel in Slack, look for the + sign (it has a blue lightning bolt) in the bottom left-hand corner. Click that button and you’ll see under “Workflows for this channel” a workflow called “Legal Review - MSA”.
-    1. Click the “Legal Review - MSA” workflow option. It will open up a form for you to fill out in order to make a formal request for Legal review.
-
+   1. Click the “Legal Review - MSA” workflow option. It will open up a form for you to fill out in order to make a formal request for Legal review.
 
 ## What are the SLAs for Legal review of Customer contracts?
 
-
-
-* Sourcegraph form: 3 business days
-* Customer form: not accepted, requires a legal-to-legal call if Customer pushes back
-* **End of Quarter**: Legal will attempt to expedite reviews in the last month of the quarter. 
-    * **Important**: Please communicate with your Legal contact about any urgency for Sourcegraph or the Customer to help set expectations for turnaround time for Legal reviews.
-
+- Sourcegraph form: 3 business days
+- Customer form: not accepted, requires a legal-to-legal call if Customer pushes back
+- **End of Quarter**: Legal will attempt to expedite reviews in the last month of the quarter.
+  - **Important**: Please communicate with your Legal contact about any urgency for Sourcegraph or the Customer to help set expectations for turnaround time for Legal reviews.
 
 ## Who signs the Customer contract for Sourcegraph?
 
-
-
-* Financial Controller
-    * Back-Up Signers: Director of Legal and VP Finance/Operations
+- Financial Controller
+  - Back-Up Signers: Director of Legal and VP Finance/Operations
 
 Changes to the above signing authorities require written approval by the CEO.
 
-
 ## Who sends out the Customer contract for signature?
 
-If you have DocuSign access, you do! 
+If you have DocuSign access, you do!
 
-Please have the other party sign first. 
+Please have the other party sign first.
 
 If you do not have DocuSign access, please tell your Legal point of contact and they will send out the contract for you.
-
 
 ## Where do I save the Customer contract once it’s signed?
 
 Once both parties have signed the contract, you’ll need to save it in two places:
 
-
-
-1. the [Customer Contracts](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) folder in Google Drive 
-2. Salesforce. 
-
+1. the [Customer Contracts](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) folder in Google Drive
+2. Salesforce.
 
 ### Saving in Google Drive:
 
+- Fully signed Customer contracts should be saved in the [Customer Contracts](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) folder.
+  - Already have a folder for this Customer in the [New Customers in Progress](https://drive.google.com/drive/u/1/folders/1o2xBbEp0gy-N1f27RB_vu7CzdSPNRwXQ) folder?
+    - Move that folder into [Customer Contracts](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) folder.
+      - Save the signed Customer contract in the Customer’s subfolder.
+  - No folder for this Customer in the New Customers in Progress folder?
+    - Create a new subfolder under the [Customer Contracts ](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)folder with the Customer’s name.
+      - Save the fully signed Customer contract in the subfolder you just created.
 
-
-* Fully signed Customer contracts should be saved in the [Customer Contracts](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) folder.
-    * Already have a folder for this Customer in the [New Customers in Progress](https://drive.google.com/drive/u/1/folders/1o2xBbEp0gy-N1f27RB_vu7CzdSPNRwXQ) folder?
-        * Move that folder into [Customer Contracts](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm) folder. 
-            * Save the signed Customer contract in the Customer’s subfolder.
-    * No folder for this Customer in the New Customers in Progress folder?
-        * Create a new subfolder under the [Customer Contracts ](https://drive.google.com/drive/u/1/folders/1ePvVWcZYdd1_3ZlCP5A0lvMbBhBCVfSm)folder with the Customer’s name.
-            * Save the fully signed Customer contract in the subfolder you just created.
-
-Save the document as a pdf using the following **naming** **convention**:  Year-Month-Date-Customer-Contract Name (example: 2022-01-01-Company A-MSA and Order Form)
+Save the document as a pdf using the following **naming** **convention**: Year-Month-Date-Customer-Contract Name (example: 2022-01-01-Company A-MSA and Order Form)
 
 **Remember**: It is important to save your fully signed Customer contract in our shared folder, so teammates can easily access them and link to them in future questions. <span style="text-decoration:underline;">Do not</span> save your signed contract anywhere else (unless for your own purpose and ONLY IF you have saved it in the Customer Contracts folder first).
 
-
 ### Saving in Salesforce:
 
-For Salesforce, complete the opportunity with the following steps: 
-
-
+For Salesforce, complete the opportunity with the following steps:
 
 1. Go to the opportunity and click on the "Files" link near the top of the page. On the far right of the "Files" page is "Add Files".
 2. Go back to the opportunity and at the top right click the "Add Products" link. Fill out the info in the link and pay attention to the monthly/yearly period options so that they are consistent.
 3. Go back to the opportunity and complete the other fields in the opportunity as follows: switch the Stage to "7 - Closed Won"; next scroll down to the "Financial Details" and "Opportunity Close Out" sections and add the appropriate "ACV", "Closed Won Reason", "Start of Contract" and "End of Contract". Save and you should be done.
 
-
 # **Vendor Contracts**
-
 
 ## I am considering engaging a Vendor…
 
-Great! Please see our [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request.md) for more details on how to raise a vendor request. 
-
+Great! Please see our [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request.md) for more details on how to raise a vendor request.
 
 ## Who do we consider to be a “Vendor”?
 
 Any company or individual who will be providing us services or software. This includes temporary consultants or contractors.
 
-
 ## Is there a different process for hiring temporary consultants or contractors?
 
-Nope! Temporary consultants and contractors are vendors and should be submitted through the [Vendor Request Process](../../tech-ops/process/vendor-request.md).  
-
+Nope! Temporary consultants and contractors are vendors and should be submitted through the [Vendor Request Process](../../tech-ops/process/vendor-request.md).
 
 ## Where can I find Vendor contract templates to submit through the Vendor Request Process?
 
@@ -368,14 +306,11 @@ If the Vendor is providing us services (not software), use our template. If the 
 
 We have three main templates for Vendor services contracts:
 
-
-
 1. [Services contract - no SOW exhibits](https://docs.google.com/document/d/11SWUssH8x1Y8T3O8d-C0a1r3RY0d4Wp-pDIWmUCDPlY/view) - use this form if the Vendor has already prepared a separate SOW with payment amounts and due dates.
 2. [Services contract - with SOW exhibits](https://docs.google.com/document/d/1ZXnsOZBdGIm7IQyKxgGAqLD1bMUoiJpZ/view) - use this form if you don’t have a separate SOW with payment amounts or due dates.
 3. [Services contract for individuals - with SOW exhibits](https://docs.google.com/document/d/1mG5t2c0oLqSZJySXtJKB-WYTYN3aoe9G/edit?usp=sharing&ouid=112937061981605591616&rtpof=true&sd=true) - use this form to directly engage a consultant or contractor on a short-term, part-time basis (temporary contractors).
 
-For software (including SaaS) contracts, ask the Vendor for their template. 
-
+For software (including SaaS) contracts, ask the Vendor for their template.
 
 ## Do I need another internal team to review the vendor contract before I get it signed?
 
@@ -383,159 +318,126 @@ You definitely do! Following the [Vendor Request Process](../../tech-ops/process
 
 The [Vendor Reviewer Guide](../../tech-ops/process/vendor-reviewer-guide.md) clarifies which internal teams might need to review a vendor engagement (Security, Legal, Finance, and Tech Ops). When each reviewer type is engaged is dependent upon the annual contract value and the type of data the vendor will have access to.
 
-
 ## When is Legal review required for Vendor contracts?
 
 ![If Vendor accesses private or restricted data, Legal must review contract](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview7.png)
-
 
 ## Examples of Restricted or Private Data:
 
 Our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) outlines our four different data classifications. When data is classified as “Restricted” or “Private” and a vendor will have access to that data, Legal needs to review the contract.
 
-
-
-* Restricted Data examples:
-    * Sensitive security information
-        * Examples: incident data, security logs, authentication
-    * Core IT infrastructure
-        * Examples: GCP, AWS, Customer data storage
-    * Customer private code
-* Private Data examples:
-    * Sourcegraph teammate personal data: Vendor has access to personal data of Sourcegraph teammates
-        * Examples: usernames (including if our teammates will create an account to login), email addresses, and any other information that can be used to identify an individual: name, title, personal address, location, IP address, physical characteristics, analytics tied to individuals, etc.
-    * Customer Content: Vendor has access to customer repo names, pings, or personal data of Customer personnel
+- Restricted Data examples:
+  - Sensitive security information
+    - Examples: incident data, security logs, authentication
+  - Core IT infrastructure
+    - Examples: GCP, AWS, Customer data storage
+  - Customer private code
+- Private Data examples:
+  - Sourcegraph teammate personal data: Vendor has access to personal data of Sourcegraph teammates
+    - Examples: usernames (including if our teammates will create an account to login), email addresses, and any other information that can be used to identify an individual: name, title, personal address, location, IP address, physical characteristics, analytics tied to individuals, etc.
+  - Customer Content: Vendor has access to customer repo names, pings, or personal data of Customer personnel
 
 Questions about whether the Vendor will have access to Restricted or Private Data? Check out our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md) for more examples. If you still have questions, contact our compliance manager or Legal.
-
 
 ## If the Vendor will have access to Restricted or Private data, what does Legal review and negotiate?
 
 Legal’s focus when reviewing contracts where the Vendor will have access to personal information or sensitive data are on:
 
-
-
-* Indemnification for data breach/confidentiality breach
-* Uncapped liability for indemnification
+- Indemnification for data breach/confidentiality breach
+- Uncapped liability for indemnification
 
 Sample language is available in our [Vendor Review Playbook](https://docs.google.com/document/d/1RxuOmvrw8Khe7sbMoNcFkrASoTdh4a0MsqWrg4FWqpw/edit).
 
-
 ## Do I need a Data Processing Agreement (DPA)?
 
-If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review. 
+If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review.
 
 If the Vendor will have access to a Customer’s Restricted or Private Data, flag to [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or the #legal Slack channel so legal can update the subprocessor list.
 
-
 ## What information do I send to Legal for a Vendor contract review?
 
-The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request.md) walks you through all of the information that Legal needs to review your vendor contract request.  When you submit a new vendor request, that information will automatically be routed to Legal when legal review is necessary.  Legal will let you know if they need any additional information for their review.
-
+The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request.md) walks you through all of the information that Legal needs to review your vendor contract request. When you submit a new vendor request, that information will automatically be routed to Legal when legal review is necessary. Legal will let you know if they need any additional information for their review.
 
 ## What are the SLAs for Legal review of Vendor contracts?
 
-
-
-* Sourcegraph form: 5 business days
-* Vendor form: 7 business days
-* **End of Quarter**: expect delays during the last two weeks of the sales quarter. 
-    * **Important**: Please communicate with your Legal contact about any urgency for Sourcegraph or the Customer to help set expectations for turnaround time for Legal reviews.
-
+- Sourcegraph form: 5 business days
+- Vendor form: 7 business days
+- **End of Quarter**: expect delays during the last two weeks of the sales quarter.
+  - **Important**: Please communicate with your Legal contact about any urgency for Sourcegraph or the Customer to help set expectations for turnaround time for Legal reviews.
 
 ## Who signs the Vendor contract for Sourcegraph?
 
-
-
-* VP Budget Owner or VP Finance/Operations
+- VP Budget Owner or VP Finance/Operations
 
 Note: the above signature authority also applies to signing of Vendor DPAs, with the Director of Legal as the back-up signer. If a Vendor has requested a DPA amendment, the Director of Legal has signature authority for that amendment.
 
-For vendor contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com). 
-
+For vendor contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
 
 ## Who sends out the Vendor contract for signature?
 
-If you have DocuSign access, you do! 
+If you have DocuSign access, you do!
 
-Please have the other party sign first. 
+Please have the other party sign first.
 
 If you do not have DocuSign access, please tell your Legal point of contact and they will send out the contract for you.
-
 
 ## Where do I save the Vendor contract once it’s signed?
 
 For agreements with temporary contractors, send the final signed contract to Legal for Legal to save in the [Sensitive Suppliers](https://drive.google.com/drive/folders/1i5_ZJ32t3yhvjpmcn0_VNSaYtWZueQza) folder in the Legal private Google Drive.
 
-For all other vendor contracts, once both parties have signed the contract, you’ll need to save it in the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder in Google Drive. 
-
+For all other vendor contracts, once both parties have signed the contract, you’ll need to save it in the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder in Google Drive.
 
 ### Saving in Google Drive:
 
-
-
-* Fully signed Vendor contracts should be saved in the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder.
-    * Already have a folder for this Vendor in the [New Suppliers in Progress](https://drive.google.com/drive/u/1/folders/10riVWiGm1PXSW7dPBmvKkrIHjuEJtQ1k) folder?
-        * Move that folder into the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder.
-            * Save the signed Vendor contract in the Vendor’s subfolder.
-    * No folder for this Vendor in the New Suppliers in Progress folder?
-        * Create a new subfolder under the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder with the Vendor’s name.
-            * Save the fully signed Vendor contract in the subfolder you just created.
+- Fully signed Vendor contracts should be saved in the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder.
+  - Already have a folder for this Vendor in the [New Suppliers in Progress](https://drive.google.com/drive/u/1/folders/10riVWiGm1PXSW7dPBmvKkrIHjuEJtQ1k) folder?
+    - Move that folder into the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder.
+      - Save the signed Vendor contract in the Vendor’s subfolder.
+  - No folder for this Vendor in the New Suppliers in Progress folder?
+    - Create a new subfolder under the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder with the Vendor’s name.
+      - Save the fully signed Vendor contract in the subfolder you just created.
 
 Save the document as a pdf using the following <span style="text-decoration:underline;">naming convention</span>: Year-Month-Date-Vendor-Contract Name (example: 2022-01-01-Company A-Services Agreement
 
 **Remember**: It is important to save your fully signed Vendor contract in our shared folder. Legal and our internal business teams all use this folder to have a full picture of our vendor relationships. **Do not** save your signed contract anywhere else (unless for your own purpose and ONLY IF you have saved it in the Suppliers folder first).
 
-
 ### Saving Click-Through Agreements:
 
 For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through terms.
 
-
 # **Partner Contracts**
-
 
 ## Is my contract a partner contract?
 
 Examples of Partner contracts are:
 
-
-
 1. Reseller agreements: where the partner is reselling a Sourcegraph product
 2. Technology partner agreements: product integrations
 3. Marketing/co-sell agreements: joint marketing initiatives
 
-
 ## I’m ready to send a contract to a prospect Partner. Where can I find a template?
 
-
-### Reseller Agreements: 
+### Reseller Agreements:
 
 Click this [link](https://drive.google.com/u/0/uc?id=1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1&export=download) to download a local Microsoft Word copy of our Reseller template.
-
 
 ### All other Partner Contracts:
 
 Sourcegraph does not currently have templates for Partner contracts that are not Reseller Agreements. We’ll need to use the Partner’s paper to enter into an agreement, or you will need to work directly with your Legal point of contact to create a contract for your specific use case (be prepared for this to take time!).
 
-
 ## Do I need any internal teams to review the Partner contract before it’s signed?
 
-Yes! Every Partner contract needs review and approval prior to signature. 
+Yes! Every Partner contract needs review and approval prior to signature.
 
 Review: Business Development and Legal
 
 Approve: VP and Finance
 
-
 ## What if the Partner contract is a click-through agreement that can’t be redlined? Do I still need to go through the above review process?
 
 YES. It does not matter if we can’t redline the contract; it’s still very important that Sourcegraph understand any risks posed by the contract we are looking to sign.
 
-
 ## What information do I send to Legal for a Partner contract review?
-
-
 
 1. Purpose of the contract (1–2 sentences)
 2. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
@@ -544,112 +446,94 @@ YES. It does not matter if we can’t redline the contract; it’s still very im
 5. Responsibilities and Restrictions on Sourcegraph (for product integrations): Propose any changes or confirm that you have no changes
 6. Any other relevant context
 
-
 ## What are the SLAs for Legal review of Partner contracts?
 
-
-
-* 7 business days
-* EOQ: expect delays during the last two weeks of each sales quarter
-
+- 7 business days
+- EOQ: expect delays during the last two weeks of each sales quarter
 
 ## Who signs the Partner contract for Sourcegraph?
 
+- Director or VP
 
-
-* Director or VP
-
-For Partner contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com). 
-
+For Partner contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
 
 ## Who sends out the Partner contract for signature?
 
-If you have DocuSign access, you do! 
+If you have DocuSign access, you do!
 
-Please have the other party sign first. 
+Please have the other party sign first.
 
 If you do not have DocuSign access, please tell your Legal point of contact and they will send out the contract for you.
 
-
 ## Where do I save the Partner contract once it’s signed?
 
-Once both parties have signed the contract, you’ll need to save it in the [Partner Contracts](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q) folder in Google Drive. 
-
+Once both parties have signed the contract, you’ll need to save it in the [Partner Contracts](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q) folder in Google Drive.
 
 ### Saving in Google Drive:
 
-
-
-* Fully signed Partner contracts should be saved in the [Partner Contracts ](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q)folder.
-    * Already have a folder for this Partner in the [New Partners in Progress](https://drive.google.com/drive/u/1/folders/15AH-t7S_57uBiRHQLGi55o9_mb0SZhBv) folder?
-        * Move that folder into the [Partners](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q) folder.
-            * Saved the signed Partner contract in the Partner’s subfolder.
-    * No folder for this Partner in the New Partners in Progress folder?
-        * Create a new subfolder under the [Partners](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q) folder with the Partner’s name.
-        * Save the fully signed Partner contract in the subfolder you just created.
+- Fully signed Partner contracts should be saved in the [Partner Contracts ](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q)folder.
+  - Already have a folder for this Partner in the [New Partners in Progress](https://drive.google.com/drive/u/1/folders/15AH-t7S_57uBiRHQLGi55o9_mb0SZhBv) folder?
+    - Move that folder into the [Partners](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q) folder.
+      - Saved the signed Partner contract in the Partner’s subfolder.
+  - No folder for this Partner in the New Partners in Progress folder?
+    - Create a new subfolder under the [Partners](https://drive.google.com/drive/u/1/folders/1Cl3B560wT85Zj4crlvZ7ngRoHCTqdn6q) folder with the Partner’s name.
+    - Save the fully signed Partner contract in the subfolder you just created.
 
 Save the document as a pdf using the following **naming convention**: Year-Month-Date-Vendor-Contract Type (example: 2022-01-01-Company A-Reseller Agreement
 
 **Remember**: It is important to save your fully signed Partner contract in our shared folder. Legal and Sales use this folder to have a full picture of our Partner relationships. <span style="text-decoration:underline;">Do not</span> save your signed contract anywhere else (unless for your own purpose and ONLY IF you have saved it in the Partner folder first).
 
-
 ### Saving Click-Through Agreements:
 
-For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through 
-
+For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through
 
 # **<span style="text-decoration:underline;">Teammate Contracts and Offers </span>**
-
 
 ## What types of contracts fall under the “Teammate Contracts and Offers” category?
 
 Offer letters, employment contracts, international consulting agreements, individual commission agreements, separation / severance agreements, and related amendments
 
-For temporary consultants and contractors and PEO master agreements, please refer to the [Vendor Contracts](ContractReviewandSignatureAuthorityPolicy.md#Vendor-Contracts) section above. 
-
+For temporary consultants and contractors and PEO master agreements, please refer to the [Vendor Contracts](ContractReviewandSignatureAuthorityPolicy.md#Vendor-Contracts) section above.
 
 ## Which internal teams need to review my teammate contract or offer before it’s signed?
 
+- Sourcegraph** Form Offer Letter or Consulting Agreement** - standard terms (no redlines)
 
+  - Review: Recruiter, hiring manager
+  - Approve: VP budget owner \
 
-* Sourcegraph** Form Offer Letter or Consulting Agreement** - standard terms (no redlines)
-    * Review: Recruiter, hiring manager
-    * Approve: VP budget owner \
-
-* **Amendments** to Sourcegraph teammate contracts
-    * Review: Senior People Partner
-    * Approve: Director, People
-* **PEO Statement of work **(with PEO)
-    * Review: (a) Senior People Partner and (b) Legal (if Legal review requirements in Legal Review Workflow for Vendor Contracts triggers legal review)
-    * Approve: Director, People or VP, Talent & People
-* Individual **Commission Agreements**
-    * Review: Director, Sales Strategy & Operations or Sales Strategy & Operations Manager
-    * Approve: VP, Operations or Controller (note: Legal should also review mid-year modifications to individual agreements)
-    * Also note: Master Plan reviewed by Sales, Finance, & Legal; Master Plan approved by VP, Ops and VP, Sales. 
-* Sourcegraph **Form Separation Agreement - standard terms** (no redlines) 
-    * Review: (a) Senior People Partner; and (b) Legal 
-    * Approve: Director, People
-* Sourcegraph **Form Separation Agreement - non-standard terms** (red-lined)
-    * Review: (a) Senior People Partner; and (b) Legal
-    * Approve: (a) VP, Talent & People or Director, People and (b) VP of separating teammate’s function (if modified terms have financial or business impact)
-
+- **Amendments** to Sourcegraph teammate contracts
+  - Review: Senior People Partner
+  - Approve: Director, People
+- **PEO Statement of work **(with PEO)
+  - Review: (a) Senior People Partner and (b) Legal (if Legal review requirements in Legal Review Workflow for Vendor Contracts triggers legal review)
+  - Approve: Director, People or VP, Talent & People
+- Individual **Commission Agreements**
+  - Review: Director, Sales Strategy & Operations or Sales Strategy & Operations Manager
+  - Approve: VP, Operations or Controller (note: Legal should also review mid-year modifications to individual agreements)
+  - Also note: Master Plan reviewed by Sales, Finance, & Legal; Master Plan approved by VP, Ops and VP, Sales.
+- Sourcegraph **Form Separation Agreement - standard terms** (no redlines)
+  - Review: (a) Senior People Partner; and (b) Legal
+  - Approve: Director, People
+- Sourcegraph **Form Separation Agreement - non-standard terms** (red-lined)
+  - Review: (a) Senior People Partner; and (b) Legal
+  - Approve: (a) VP, Talent & People or Director, People and (b) VP of separating teammate’s function (if modified terms have financial or business impact)
 
 ## Who signs teammate contracts or offers for Sourcegraph?
 
+- Sourcegraph **Form Offer Letter or Consulting Agreement** - standard terms (no redlines)
 
+  - Sign: CEO or VP, Talent & People \
 
-* Sourcegraph **Form Offer Letter or Consulting Agreement** - standard terms (no redlines)
-    * Sign: CEO or VP, Talent & People \
+- **Amendments** to Sourcegraph teammate contracts
+  - Sign: CEO or VP, Talent & People
+- **PEO Statement of work** (with PEO)
+  - Sign: VP, Talent & People (or designee)
+- Individual **Commission Agreements**
+  - Sign: VP, Operations or Controller
+- Sourcegraph **Form Separation Agreement - standard terms** (no redlines)
+  - Sign: VP, Talent & People (or designee)
+- Sourcegraph **Form Separation Agreement - non-standard terms** (red-lined)
+  - Sign: VP, Talent & People (or designee)
 
-* **Amendments** to Sourcegraph teammate contracts
-    * Sign: CEO or VP, Talent & People
-* **PEO Statement of work** (with PEO)
-    * Sign: VP, Talent & People (or designee) 
-* Individual **Commission Agreements**
-    * Sign: VP, Operations or Controller
-* Sourcegraph **Form Separation Agreement - standard terms** (no redlines) 
-    * Sign: VP, Talent & People (or designee)
-* Sourcegraph **Form Separation Agreement - non-standard terms** (red-lined)
-    * Sign: VP, Talent & People (or designee)
-
-For teammate contracts or offers, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com). 
+For teammate contracts or offers, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
