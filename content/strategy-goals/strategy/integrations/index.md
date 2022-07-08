@@ -30,7 +30,6 @@ The first concept we want to introduce to Sourcegraph is code ownership. This ha
 
 After code ownership, we will have a pattern of how we ingest, store and search across new concepts. We will then identify and prioritize subsequent concepts (and their associated use cases), and determine how we can incorporate those into Sourcegraph.
 
-
 #### Pause Browser extensions
 
 When launched, our Browser Extensions provided much needed code intelligence functionality into code hosts. Since then code hosts have now caught up and implement similar (albeit not as good) functionality to their products. Because of our need to focus and minor competitive differentiation we will pause adding new functionality to our Browser extensions. This pause will be re-assessed after we've integrated new concepts into our platform.
@@ -42,7 +41,6 @@ However, as we had previously focussed on individual user adoption, we believe t
 After the release of the JetBrains plugin we will have supported IDE extensions for the [majority of professional developers](https://survey.stackoverflow.co/2022/#section-worked-with-vs-want-to-work-with-integrated-development-environment) and the most highly requested by our customers.
 
 Because of this coverage and the need to focus, we will be pausing any additional feature work for our IDE extensions. Similarly to Browser Extensions we will reassess this pause once we’ve integrated new concepts into our platform.
-
 
 ### What’s next and why
 
@@ -70,8 +68,7 @@ Because of this coverage and the need to focus, we will be pausing any additiona
 
 Check out our roadmap [here](https://github.com/orgs/sourcegraph/projects/214/views/56)
 
-
 ### What we’re not working on & why
 
-* Adding new features to IDE or Browser extensions
-* Investing further into Sourcegraph extensions
+- Adding new features to IDE or Browser extensions
+- Investing further into Sourcegraph extensions
