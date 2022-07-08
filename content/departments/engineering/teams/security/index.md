@@ -115,13 +115,13 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Search Core
    </td>
-   <td>André
+   <td>Vincent
    </td>
   </tr>
   <tr>
    <td>Search Product
    </td>
-   <td>Lauren
+   <td>Vincent
    </td>
   </tr>
   <tr>
@@ -133,7 +133,13 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Batch Changes
    </td>
-   <td>Lauren
+   <td>André
+   </td>
+  </tr>
+  <tr>
+   <td>Cloud
+   </td>
+   <td>André
    </td>
   </tr>
   <tr>
@@ -163,7 +169,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Front End Platform
    </td>
-   <td>Lauren
+   <td>Vincent
    </td>
   </tr>
   <tr>
@@ -178,6 +184,12 @@ In an effort to work closely with our teammates and shift security focus more in
    <td>Feroz
    </td>
   </tr>
+   <td>Tech Ops
+   </td>
+   <td>Mohammad
+   </td>
+  </tr>
+  <tr>
   </table>
 
 ---
