@@ -107,3 +107,5 @@ sequenceDiagram
       deactivate k8s
     end
 ```
+
+> NOTE: If this diagram fails to render, [read this page on GitHub instead](https://github.com/sourcegraph/handbook/blob/main/content/departments/engineering/dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher).
