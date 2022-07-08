@@ -45,6 +45,16 @@ Legal
    </td>
   </tr>
   <tr>
+   <td>Customer Order Form or MSA redlines
+   </td>
+   <td>Legal
+   </td>
+   <td>legal@sourcegraph.com
+   </td>
+   <td>Email (instead of Slack) helps us keep track of all contract versions
+   </td>
+  </tr>
+  <tr>
    <td>Vendor contract reviews
    </td>
    <td>Finance
@@ -57,7 +67,7 @@ Legal
 <p>
 AND
 <p>
- 
+ \
 #vendor-requests Slack channel
    </td>
    <td><em>Step One: Submit Jira ticket</em>
@@ -67,16 +77,6 @@ Follow steps on <a href="../../tech-ops/process/vendor-request.md">Vendor Reques
 <em>Step Two: notify Legal in #vendor-requests Slack channel</em>
 <p>
 Let Legal know you’ve submitted a vendor request for their review. Legal will review once budgetary approval is confirmed. 
-   </td>
-  </tr>
-  <tr>
-   <td>Customer contract redlines
-   </td>
-   <td>Legal
-   </td>
-   <td>legal@sourcegraph.com
-   </td>
-   <td>This helps us keep track of all contract versions
    </td>
   </tr>
   <tr>
@@ -132,6 +132,7 @@ people-ops@sourcegraph.com
    </td>
   </tr>
 </table>
+
 
 # **Non-Disclosure Agreements (NDAs)**
 
