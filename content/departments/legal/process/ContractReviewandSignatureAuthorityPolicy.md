@@ -497,15 +497,15 @@ For temporary consultants and contractors and PEO master agreements, please refe
 
 ### Which internal teams need to review my teammate contract or offer before it’s signed?
 
-- Sourcegraph** Form Offer Letter or Consulting Agreement** - standard terms (no redlines)
+- Sourcegraph **Form Offer Letter or Consulting Agreement** - standard terms (no redlines)
 
   - Review: Recruiter, hiring manager
-  - Approve: VP budget owner \
+  - Approve: VP budget owner
 
 - **Amendments** to Sourcegraph teammate contracts
   - Review: Senior People Partner
   - Approve: Director, People
-- **PEO Statement of work **(with PEO)
+- **PEO Statement of work** (with PEO)
   - Review: (a) Senior People Partner and (b) Legal (if Legal review requirements in Legal Review Workflow for Vendor Contracts triggers legal review)
   - Approve: Director, People or VP, Talent & People
 - Individual **Commission Agreements**
