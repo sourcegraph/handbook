@@ -487,7 +487,7 @@ Save the document as a pdf using the following **naming convention**: Year-Month
 
 For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through
 
-## **<span style="text-decoration:underline;">Teammate Contracts and Offers </span>**
+## **Teammate Contracts and Offers**
 
 ### What types of contracts fall under the “Teammate Contracts and Offers” category?
 
