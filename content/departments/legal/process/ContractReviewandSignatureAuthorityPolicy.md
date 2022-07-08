@@ -13,7 +13,7 @@ This Contract Review and Signature Authority Policy is designed to help Sourcegr
 
 This Policy covers the following contract types:
 
-1. [Non-Disclosure Agreements](<ContractReviewandSignatureAuthorityPolicy.md#non-disclosure-agreements-ndas>) (NDAs)
+1. [Non-Disclosure Agreements](ContractReviewandSignatureAuthorityPolicy.md#non-disclosure-agreements-ndas) (NDAs)
 2. [Customer Contracts](ContractReviewandSignatureAuthorityPolicy.md#customer-contracts) (Order Forms, MSAs, DPAs)
 3. [Vendor Contracts](ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts) (including temporary contractors)
 4. [Partner Contracts](ContractReviewandSignatureAuthorityPolicy.md#partner-contracts) (resellers, technology partners)
