@@ -59,7 +59,7 @@ A couple of notes before to help you get started in figuring out which team will
 
 Any questions about self-hosted deployment should be routed to the [Delivery team](../../../engineering/teams/delivery/index.md).
 
-Any questions about managed instance deployment should be routed to the [DevOps team](../../../engineering/teams/devops/index.md).
+Any questions about managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/).
 
 ### Monitoring, management, and performance optimization
 
@@ -69,7 +69,7 @@ Questions about specific alerts and graph panels should be routed to the team th
 
 Any other questions about monitoring and performance for self-hosted customers should be routed to the [Delivery team](../../../engineering/teams/delivery/index.md).
 
-Any other questions about monitoring and performance for managed insteance deployment should be routed to the [DevOps team](../../../engineering/teams/devops/index.md).
+Any other questions about monitoring and performance for managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/../../cloud/index.md).
 
 ### Code host connections
 
