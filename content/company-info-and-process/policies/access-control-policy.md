@@ -2,8 +2,6 @@
 
 **Policy Owner**: Tech Ops
 
-**Policy Owner & Approver:** VP Operations
-
 **Effective Date**: April 1, 2022
 
 **Last Updated Date**: March 25, 2022
