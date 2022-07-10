@@ -12,7 +12,7 @@ As an all-remote company, we want everyone to feel included and connected, regar
 
 ## Anniversaries
 
-We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
+We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! It is Sourcegraph custom for the manager of a teammate who has hit a yearly milestone to record a video message highlighting their accomplishments. This message is then posted in #thanks. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
 
 To celebrate anniversaries, managers can send gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
