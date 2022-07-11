@@ -78,7 +78,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Commit the last changes, create a PR for review, apply and merge
 
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
-1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../../dev/process/releases/upgrade_managed_issue_template.md).
+1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 

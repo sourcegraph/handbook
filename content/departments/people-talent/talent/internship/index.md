@@ -123,7 +123,7 @@ Wage and Hour Guidelines
 Payroll
 
 - We use Rippling to report/approve internship working hours.
-- COMING SOON - training for approving hours in Rippling
+- When your intern submits their hours in Rippling each pay-period, you will receive an email letting you know that there is a timecard waiting for your approval. Simply open the email, review the information, and select the 'Review and Approve' button. This will direct you to the Rippling platform where you can review more timecard details and approve them if accurate. If you have any payroll/Rippling questions, please reach out to Keely Aguayo.
 
 1:1 Meetings
 
@@ -162,9 +162,9 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 2022-06-15 Q&A - Dan Adler
 - 2022-07-05 Cohort Meeting
 - 2022-07-06 Interviewing Workshop
-- 2022-07-13 Q&A - Connor O'Brien
 - 2022-07-14 Virtual Escape Room
 - 2022-07-19 Q&A - Christina/Nick
+- 2022-07-20 Q&A - Connor O'Brien
 - 2022-07-26 Cohort Meeting
 - 2022-07-20 Optional Q&A - Ben Horowitz
 - 2022-07-27 Exec Q&A - Gregg/Aimee

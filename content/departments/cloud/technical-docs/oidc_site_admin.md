@@ -102,6 +102,6 @@ Edit the initial account username to follow the “`sourcegraph-management-<firs
 Add Sourcegraph Teammates as required. Use the convention for usernames and use their corresponding @sourcegraph.com email address.
 
 - Customer Support - Application Engineers
-  - A subset of Application Engineers have access to managed instances. [They are listed in the Support Process page for Managed Instances](../../../../ce-support/support/process/support-managed-instances.md#accessing-managed-instances)
+  - A subset of Application Engineers have access to managed instances. [They are listed in the Support Process page for Managed Instances](../../ce-support/support/process/support-managed-instances.md#accessing-managed-instances)
 - Delivery Team
-  - [All software engineers for on-call rotation](../../devops/index.md#members)
+  - [All software engineers for on-call rotation](../index.md#team)
