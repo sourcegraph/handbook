@@ -1,4 +1,5 @@
 # People & Talent
+
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [People team](people-ops/index.md)
 - [Talent](talent/index.md)
