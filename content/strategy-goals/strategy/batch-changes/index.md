@@ -77,6 +77,7 @@ Batch Changes is a powerful product with a steep learning curve. The two main fr
 
 - Iterating on a batch change has a slow cycle time
 - Batch Changes requires users to write **code rewrite steps** (the components of a batch spec that define a specific change to be executed), either using existing code rewrite tools (sed, comby, etc) or writing code from scratch. Most developers are unfamiliar with such tooling, and have a hard time onboarding to Batch Changes.
+- (second order) some users are afraid to experiment with batch changes
 
 We are pursuing three approaches here:
 
