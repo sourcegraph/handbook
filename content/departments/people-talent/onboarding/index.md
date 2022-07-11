@@ -161,7 +161,6 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Provide a candidate experience that is considered to be the best they’ve ever had.
 - Train and develop new team members.
 
-
 ## People Onboarding
 
 ### Onboarding Tooling
