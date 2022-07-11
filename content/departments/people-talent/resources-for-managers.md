@@ -7,13 +7,13 @@
 - [Compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - [Who is my recruiter?](talent/process/teamalignment.md)
 - [How to open a new role](talent/process/opening_a_new_job.md)
-  - Writing a job description
-  - Creating and interview plan
+  - [Writing a job description](talent/process/opening_a_new_job.md)
+  - Creating an interview plan
 - Opening a new job: complete [this form](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform)
 - How we find candidates - [Identifying candidate](talent/process/identifying_candidates.md)
   - Where we advertise our jobs
   - How we source passive candidates
-  - Using recruitment agencies
+  - [Using recruitment agencies](talent/process/identifying_candidates.md)
   - How we share profiles with Hiring Managers
 - [The interview process](talent/process/interview_process.md)
   - [First time interviewer resources]COMING SOON
