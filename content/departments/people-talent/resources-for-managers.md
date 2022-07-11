@@ -31,9 +31,7 @@
   - The offer letter
 - [How to hire a teammate into a new role](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
   - [Scenario: you want to interview a teammate for a role on a different team - Internal transfer process](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-  - [Scenario: you want to promote someone into a new level band]COMING SOON
-  - [Scenario: you want to give someone a raise]COMING SOON
-
+ 
 ## Managing people
 
 - [Onboarding direct reports as hiring manager](../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md)
