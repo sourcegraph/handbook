@@ -11,7 +11,7 @@
   - Creating an interview plan
 - Opening a new job: complete [this form](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform)
 - How we find candidates - [Identifying candidate](talent/process/identifying_candidates.md)
-  - Where we advertise our jobs
+  - [Where we advertise our jobs](talent/process/identifying_candidates.md)
   - How we source passive candidates
   - [Using recruitment agencies](talent/process/identifying_candidates.md)
   - How we share profiles with Hiring Managers
