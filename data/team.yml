@@ -1089,17 +1089,6 @@ amber_furbush:
 
   description: Amber joins Sourcegraph previously worked in customer success roles prior to joining Sourcegraph. In her free time, Amber likes to spend time with her family, learn about different technologies, history and making new friends.
 
-ben_gordon:
-  name: Ben Gordon
-  pronouns: He/Him
-  role: Application Engineer
-  reports_to: customer_support_manager_2
-  location: Chicago IL, USA 🇺🇸
-  github: benjaminwgordon
-  email: ben.gordon@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/benjaminwgordon/)'
-  description: Ben is an engineer based in Chicago. Before joining Sourcegraph, he was in an instructor role where he taught students to code. He enjoys fitness, board games, disc golf, and blacksmithing.
-
 jason_harris:
   name: Jason Harris
   pronouns: He/Him
