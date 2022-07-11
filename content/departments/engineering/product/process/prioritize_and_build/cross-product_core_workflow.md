@@ -2,7 +2,7 @@
 
 **Owning PM:** Ben Venker
 
-> What is ["cross-product ownership"]()?
+> What is ["cross-product ownership"](cross-product_owners.md)?
 
 The core workflow in Sourcegraph today is using Sourcegraph to unblock yourself or answer a question by performing a search and then reading and navigating through code.
 
