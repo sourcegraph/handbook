@@ -36,7 +36,7 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
     gap: 1rem;
   }
   .color-palette .color-sm {
-    width: 6rem;
+    width: 7rem;
     height: 8rem;
   }
   .color-palette .color-lg {
