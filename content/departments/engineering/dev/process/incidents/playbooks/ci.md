@@ -204,6 +204,8 @@ In order to handle problems with the CI, the following elements are necessary:
      1. **Yes**, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
    - **No**: it's not a flake, reach out the team owning those tests.
 
+You can also refer to the [Loom walkthrough "how to find out if a CI failure is a recurring flake"](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337).
+
 ### SSH into an agent
 
 - Gravity: none
