@@ -31,14 +31,12 @@
   - The offer letter
 - [How to hire a teammate into a new role](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
   - [Scenario: you want to interview a teammate for a role on a different team - Internal transfer process](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-  - [Scenario: you want to promote someone into a new level band]COMING SOON
-  - [Scenario: you want to give someone a raise]COMING SOON
 
 ## Managing people
 
 - [Onboarding direct reports as hiring manager](../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md)
 
-  - There's a trip planned and I want my soon to be direct report to come: [Guest TripAction invite](../../benefits-pay-perks/benefits-perks/travel/TripActions.md#new-teammates-joining-trips)
+  - [Scenario: There's a trip planned and I want my soon to be direct report to come and need a Guest TripAction invite](../../benefits-pay-perks/benefits-perks/travel/TripActions.md#new-teammates-joining-trips)
   - [2022 Cohort calendar start dates](https://docs.google.com/spreadsheets/d/1Q_h9I0CkppecPNbaMlhe7uafcNdfzWuiPApm0KxTaAA/edit#gid=0)
 
 - [Holidays we celebrate](../../company-info-and-process/working-at-sourcegraph/holidays.md)

@@ -56,8 +56,6 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [The offer letter](process/extending_an_offer.md)
 - [How to hire a teammate into a new role]
   - [Scenario: you want to interview a teammate for a role on a different team](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-  - [Scenario: you want to promote someone into a new level band]COMING SOON
-  - [Scenario: you want to give someone a raise]COMING SOON
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
@@ -80,6 +78,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
 - [Recruiting Tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
 - [Recruitment branding](process/recruitment_branding.md)
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 
