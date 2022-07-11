@@ -36,8 +36,8 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
     gap: 1rem;
   }
   .color-palette .color-sm {
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 8rem;
   }
   .color-palette .color-lg {
     width: 14rem;
@@ -82,11 +82,11 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
 
 <div class="color-palette interactive">
   <div class="color" style="--color: var(--sg-sky-blue)">
-    <h5>Sourcegraph Sky Blue</h5>
+    <h5>Sourcegraph Blue</h5>
     <code>#00cbec</code>
   </div>
   <div class="color" style="--color: var(--sg-vivid-violet); color: white">
-    <h5>Sourcegraph Vivid Violet</h5>
+    <h5>Sourcegraph Violet</h5>
     <code>#a112ff</code>
   </div>
   <div class="color" style="--color: var(--sg-vermillion); color: white">
@@ -107,130 +107,200 @@ Primary logo colors have been marked. The secondary colors, along with shades an
   <div class="color-palette-column">
     <div class="color color-sm" style="--color: #fff2cf">
       <code>#fff2cf</code>
-      <small>Yellow Mist</small>
+      <small>Lemon 200</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-lemon)">
       <code>#ffdb45</code>
-      <small>Lemon</small>
+      <small>Lemon 300</small>
     </div>
     <div class="color color-sm" style="--color: #ffc247">
       <code>#ffc247</code>
-      <small>Orange</small>
+      <small>Lemon 400</small>
     </div>
     <div class="color color-sm" style="--color: #ff9933; color: white">
       <code>#ff9933</code>
-      <small>Carrot</small>
+      <small>Lemon 500</small>
     </div>
   </div>
   <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #ffdfdc">
+      <code>#ffdfdc</code>
+      <small>Vermillion 100</small>
+    </div>
     <div class="color color-sm" style="--color: #ffc9c9">
       <code>#ffc9c9</code>
-      <small>Red Mist</small>
+      <small>Vermillion 200</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-vermillion); color: white">
       <code>#ff5543</code>
-      <small>Vermillion</small>
+      <small>Vermillion 300</small>
       <div><img src="logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
     </div>
     <div class="color color-sm" style="--color: #ed2e20; color: white">
       <code>#ed2e20</code>
-      <small style="font-size: 85%">Pomegranate</small>
+      <small style="font-size: 85%">Vermillion 400</small>
     </div>
     <div class="color color-sm" style="--color: #c22626; color: white">
       <code>#c22626</code>
-      <small>Poppy</small>
+      <small>Vermillion 500</small>
     </div>
   </div>
   <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #ffdff5">
+      <code>#ffdff5</code>
+      <small>Cerise 100</small>
+    </div>
     <div class="color color-sm" style="--color: #ffd1f2">
       <code>#ffd1f2</code>
-      <small>Pink Mist</small>
+      <small>Cerise 200</small>
+    </div>
+    <div class="color color-sm" style="--color: #e1449a">
+      <code>#e1449a</code>
+      <small>Cerise 300</small>
     </div>
     <div class="color color-sm" style="--color: #d62687; color: white">
       <code>#d62687</code>
-      <small>Cerise</small>
+      <small>Cerise 400</small>
     </div>
     <div class="color color-sm" style="--color: #c4147d; color: white">
       <code>#c4147d</code>
-      <small>Red Violet</small>
+      <small>Cerise 500</small>
     </div>
     <div class="color color-sm" style="--color: #9e1769; color: white">
       <code>#9e1769</code>
-      <small>Disco</small>
+      <small>Cerise 600</small>
     </div>
   </div>
   <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #eedfff">
+      <code>#eedfff</code>
+      <small>Violet 100</small>
+    </div>
     <div class="color color-sm" style="--color: #e8d1ff">
       <code>#e8d1ff</code>
-      <small>Violet Mist</small>
+      <small>Violet 200</small>
+    </div>
+    <div class="color color-sm" style="--color: #ce9cff">
+      <code>#ce9cff</code>
+      <small>Violet 300</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-vivid-violet); color: white">
       <code>#a112ff</code>
-      <small>Vivid Violet</small>
+      <small>Violet 400</small>
       <div><img src="logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
     </div>
     <div class="color color-sm" style="--color: #820dde; color: white">
       <code>#820dde</code>
-      <small>Electric Violet</small>
+      <small>Violet 500</small>
     </div>
     <div class="color color-sm" style="--color: #6112a3; color: white">
       <code>#6112a3</code>
-      <small>Seance</small>
+      <small>Violet 600</small>
     </div>
   </div>
   <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #dbdbff">
+      <code>#dbdbff</code>
+      <small>Blurple 100</small>
+    </div>
     <div class="color color-sm" style="--color: #bfbfff">
       <code>#bfbfff</code>
-      <small>Plum Mist</small>
+      <small>Blurple 200</small>
     </div>
     <div class="color color-sm" style="--color: #6b59ed; color: white">
       <code>#6b59ed</code>
-      <small>Plum</small>
+      <small>Blurple 300</small>
     </div>
     <div class="color color-sm" style="--color: #5033E1; color: white">
       <code>#5033E1</code>
-      <small>Blurple</small>
+      <small>Blurple 400</small>
     </div>
     <div class="color color-sm" style="--color: #3826cc; color: white">
       <code>#3826cc</code>
-      <small>Persian Blue</small>
+      <small>Blurple 500</small>
     </div>
   </div>
   <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #dcfefe">
+      <code>#dcfefe</code>
+      <small>Blue 100</small>
+    </div>
     <div class="color color-sm" style="--color: #c7ffff">
       <code>#c7ffff</code>
-      <small>Blue Mist</small>
+      <small>Blue 200</small>
     </div>
     <div class="color color-sm" style="--color: var(--sg-sky-blue)">
       <code>#00cbec</code>
-      <small>Sky Blue</small>
+      <small>Blue 300</small>
       <div><img src="logo/versions/Sourcegraph_Logomark_WHT.svg" alt="Primary logo color" style="width: 1em; height: 1em"></div>
     </div>
     <div class="color color-sm" style="--color: #00a1c7; color: white">
       <code>#00a1c7</code>
-      <small>Pacific Blue</small>
+      <small>Blue 400</small>
     </div>
     <div class="color color-sm" style="--color: #005482; color: white">
       <code>#005482</code>
-      <small>Orient</small>
+      <small>Blue 500</small>
     </div>
   </div>
   <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #d2fff1">
+      <code>#d2fff1</code>
+      <small>Green 100</small>
+    </div>
     <div class="color color-sm" style="--color: #c4ffe8">
       <code>#c4ffe8</code>
-      <small>Green Mist</small>
+      <small>Green 200</small>
     </div>
     <div class="color color-sm" style="--color: #8fedcf">
       <code>#8fedcf</code>
-      <small>Mint</small>
+      <small>Green 300</small>
     </div>
     <div class="color color-sm" style="--color: #17ab52; color: white">
       <code>#17ab52</code>
-      <small>Mountain Meadow</small>
+      <small>Green 400</small>
     </div>
     <div class="color color-sm" style="--color: #1f7d45; color: white">
       <code>#1f7d45</code>
-      <small>Eucalyptus</small>
+      <small>Green 500</small>
+    </div>
+  </div>
+  <div class="color-palette-column">
+    <div class="color color-sm" style="--color: #ffffff">
+      <code>#ffffff</code>
+      <small>White</small>
+    </div>
+    <div class="color color-sm" style="--color: #f9fafb">
+      <code>#f9fafb</code>
+      <small>Grayscale 50</small>
+    </div>
+    <div class="color color-sm" style="--color: #f1f1f1">
+      <code>#f1f1f1</code>
+      <small>Grayscale 100</small>
+    </div>
+    <div class="color color-sm" style="--color: #e7e7e7;">
+      <code>#e7e7e7</code>
+      <small>Grayscale 200</small>
+    </div>
+    <div class="color color-sm" style="--color: #c4c4c4;">
+      <code>#c4c4c4</code>
+      <small>Grayscale 300</small>
+    </div>
+    <div class="color color-sm" style="--color: #8a8a8a; color: white">
+      <code>#8a8a8a</code>
+      <small>Grayscale 400</small>
+    </div>
+    <div class="color color-sm" style="--color: #4d4d4d; color: white">
+      <code>#4d4d4d</code>
+      <small>Grayscale 500</small>
+    </div>
+    <div class="color color-sm" style="--color: #313131; color: white">
+      <code>#313131</code>
+      <small>Grayscale 600</small>
+    </div>
+    <div class="color color-sm" style="--color: #000000; color: white">
+      <code>#000000</code>
+      <small>Black</small>
     </div>
   </div>
 </div>
@@ -240,26 +310,26 @@ Primary logo colors have been marked. The secondary colors, along with shades an
 Use supporting colors for added tonality and awareness within website UI.
 
 <div class="color-palette interactive" style="max-width: 54rem">
-  <div class="color color-lg" style="--color: var(--sg-light-gray)">
+  <div class="color color-lg" style="--color: #f9fafb">
     <h5>Sourcegraph Light Gray</h5>
     <p>Our light gray can add tonality to and create space within layouts.</p>
     <div>
-      <code>#f4f7fb</code>
+      <code>#f9fafb</code>
       <br />
-      <small>Alice Blue</small>
+      <small>Grayscale 50</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-dark-gray); color: white">
     <h5>Sourcegraph Dark Gray</h5>
-    <p>Our dark gray can add tonality and depth to layouts.</p>
+    <p>Our dark gray can add tonality and depth to typographical layouts.</p>
     <div>
-      <code>#6c757d</code>
+      <code>#4d4d4d</code>
       <br />
-      <small>Pale Sky</small>
+      <small>Grayscale 500</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: black; color: white">
-    <h5>Sourcegraph Space Black</h5>
+    <h5>Sourcegraph Black</h5>
     <p>Our black is a true black to provide maximum contrast.</p>
     <div>
       <code>#000000</code>
@@ -273,7 +343,7 @@ Use supporting colors for added tonality and awareness within website UI.
     <div>
       <code>#5033e1</code>
       <br />
-      <small>Blurple</small>
+      <small>Blurple 400</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-action-green); color: white">
@@ -282,7 +352,7 @@ Use supporting colors for added tonality and awareness within website UI.
     <div>
       <code>#17ab52</code>
       <br />
-      <small>Mountain Meadow</small>
+      <small>Green 400</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-alert-red); color: white">
@@ -291,7 +361,7 @@ Use supporting colors for added tonality and awareness within website UI.
     <div>
       <code>#ed2e20</code>
       <br />
-      <small>Pomegranate</small>
+      <small>Vermillion 400</small>
     </div>
   </div>
 </div>
@@ -306,7 +376,7 @@ Once the logo is placed, add appropriate colors keeping in mind that our vibrant
 
 ### Color use for website UI
 
-When applying color to website UI elements use Sourcegraph Red, Green, and Blurple from our secondary palette. Dark gray can be used for text and icons.
+When applying color to website UI elements use Sourcegraph Red, Green, Dark Gray, and Blurple from our secondary palette. Violet can be used for icons.
 
 <style>
   .inline-color-box {
@@ -318,15 +388,15 @@ When applying color to website UI elements use Sourcegraph Red, Green, and Blurp
   }
 </style>
 
-#### <span class="inline-color-box middle" style="--color: var(--sg-blurple)"></span> <span class="middle">Sourcegraph Blurple</span>
+#### <span class="inline-color-box middle" style="--color: var(--sg-blurple)"></span> <span class="middle">SG Blurple</span>
 
 Blurple is used for button elements and CTA text.
 
-#### <span class="inline-color-box middle" style="--color: var(--sg-action-green)"></span> <span class="middle">Sourcegraph Action Green</span>
+#### <span class="inline-color-box middle" style="--color: var(--sg-action-green)"></span> <span class="middle">SG Action Green</span>
 
 Green is used for check mark elements and to signal positive messages.
 
-#### <span class="inline-color-box middle" style="--color: var(--sg-alert-red)"></span> <span class="middle">Sourcegraph Alert Red</span>
+#### <span class="inline-color-box middle" style="--color: var(--sg-alert-red)"></span> <span class="middle">SG Alert Red</span>
 
 Red is used to signal serious alerts and error warnings.
 
@@ -393,11 +463,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Aquamarine</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-aquamarine); color: white">
       <div>
-        <h5>Sourcegraph Sky Blue</h5>
+        <h5>Blue 300</h5>
         <div><code>#00cbec</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Blurple</h5>
+        <h5>Blurple 400</h5>
         <div><code>#5033e1</code></div>
       </div>
     </div>
@@ -406,11 +476,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Infrared</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-infrared); color: white">
       <div>
-        <h5>Sourcegraph Vivid Violet</h5>
+        <h5>Violet 400</h5>
         <div><code>#a112ff</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Vermilion</h5>
+        <h5>Vermillion 300</h5>
         <div><code>#ff5543</code></div>
       </div>
     </div>
@@ -419,11 +489,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Aurora</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-aurora); color: white">
       <div>
-        <h5>Sourcegraph Sky Blue</h5>
+        <h5>Blue 300</h5>
         <div><code>#00cbec</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Vivid Violet</h5>
+        <h5>Violet 400</h5>
         <div><code>#a112ff</code></div>
       </div>
     </div>
@@ -432,11 +502,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Mars</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-mars)">
       <div>
-        <h5>Sourcegraph Red Mist</h5>
+        <h5>Vermillion 200</h5>
         <div><code>#ffc9c9</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Violet Mist</h5>
+        <h5>Violet 100</h5>
         <div><code>#e8d1ff</code></div>
       </div>
     </div>
@@ -445,11 +515,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Saturn</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-saturn)">
       <div>
-        <h5>Sourcegraph Violet Mist</h5>
+        <h5>Violet 100</h5>
         <div><code>#e8d1ff</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Blue Mist</h5>
+        <h5>Blue 200</h5>
         <div><code>#c7ffff</code></div>
       </div>
     </div>
@@ -458,11 +528,11 @@ Our gradients provide visual interest to backgrounds or container shapes. Gradie
     <h4>Venus</h4>
     <div class="color color-lg color-gradient" style="--color: var(--sg-gradient-venus)">
       <div>
-        <h5>Sourcegraph Blue Mist</h5>
+        <h5>Blue 200</h5>
         <div><code>#c7ffff</code></div>
       </div>
       <div>
-        <h5>Sourcegraph Green Mist</h5>
+        <h5>Green 200</h5>
         <div><code>#c4ffe8</code></div>
       </div>
     </div>

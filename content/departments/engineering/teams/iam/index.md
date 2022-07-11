@@ -207,9 +207,9 @@ TBD
 
 TBD
 
-#### On-call
+#### On-call and support rotation
 
-TBD
+We use the same OpsGenie schedule for both on-call and support rotation, and use the [SlackGenie automation](https://github.com/sourcegraph/background-jobs/blob/main/slackgenie/config.yaml) to automatically rotate team member for the `@iam-support` Slack handle.
 
 ### Team slack channels
 
