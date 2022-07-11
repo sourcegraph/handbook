@@ -437,7 +437,7 @@ Approve: VP and Finance
 
 YES. It does not matter if we can’t redline the contract; it’s still very important that Sourcegraph understand any risks posed by the contract we are looking to sign.
 
-### What information do I send to Legal for a Partner contract review?
+### What information do I send to Legal and Business Development for a Partner contract review?
 
 1. Purpose of the contract (1–2 sentences)
 2. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
