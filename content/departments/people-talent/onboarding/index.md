@@ -60,7 +60,7 @@ Below are the goals and expectations for each week of your onboarding.
 
 We want everyone to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. The following section details what success looks like within the first year for various roles.
 
-#### Recruitment Operations Specialist (level 2)
+#### Recruitment Operations Specialist
 
 **Within one month, you will…**
 
@@ -132,7 +132,7 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
 - Identify areas of growth and share them continuously in your 1:1s.
 
-#### Recruiter (level 3)
+#### Recruiter/Senior Recruiter
 
 **Within one month, you will...**
 
@@ -160,14 +160,6 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Be considered a top-performing Recruiter on the team and a go-to resource for your hiring managers.
 - Provide a candidate experience that is considered to be the best they’ve ever had.
 - Train and develop new team members.
-
-#### Senior Recruiter (level 4)
-
-- COMING SOON
-
-#### Manager
-
-- COMING SOON
 
 ## People Onboarding
 
