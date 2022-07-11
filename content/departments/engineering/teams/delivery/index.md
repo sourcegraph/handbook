@@ -1,7 +1,5 @@
 # Delivery team
 
-Delivery team is a part of the [Cloud](../index.md) org.
-
 ## Mission
 
 Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Make it as easy as possible to access this value, and to maintain it going forwards by easily staying up to date with Sourcegraph's latest developments.
@@ -23,7 +21,6 @@ For more detailed information on the Delivery team members, check out our [READM
   - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
-- ~[Managed instances](../devops/managed/index.md)~ managed instances are owned by the [DevOps] team
 - ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../dev/process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact
