@@ -1,3 +1,8 @@
+# Engineering Ownership
+
+The following table documents the ownership of our product and tech stack.
+
+If you see an area that is missing, [figure out](../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this table up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
 | Team | General ownership | User journey ownership | Tooling ownership | GitHub / Repository ownership|
 |------|-------------------|------------------------|-------------------|------------------------------|
@@ -15,3 +20,18 @@
 | [Search Core](../../teams/search/core.md) | <ul><li>Indexed and unindexed search</li> <li>Diff/commit search</li> <li>Result ranking</li> <li>Open source indexing</li></ul> | | <ul><li>Zoekt</li></ul> | <ul><li>sourcegraph/zoekt</li> <li>sourcegraph/sourcegraph</li><li>sourcegraph/search-scratch</li></ul> |
 | [Search Product](../../teams/search/product.md) | <ul><li>Search queries and results</li> <li>Diff/commit and structural search</li> <li>Code monitoring</li> <li>Saved searches</li> <li>Notebooks</li></ul> | <ul><li>Search using the search box</li> <li>View recent search activity, community search activity, and saved searches</li> <li>View progress of an executed search, results, and tips for no results</li> <li>Modify search queries in the sidebar</li> <li>Manage search context</li> <li>Add, edit, and delete saved searches</li> <li>Create, view details, filter, edit, disable, and copy code monitors</li> <li>Send email and Slack notifications from a code monitor</li> <li>Create, search, view, edit, update permissions, delete, copy, export, favorite, run, and manage blocks for notebooks</li> <li>Add searches and files to the notepad and edit or delete added items</li> <li>Create a notebook from notepad items.</li></ul> | | |
 | [Security](../../teams/security/core.md) | <ul><li>Security infrastructure, tooling, vulnerability reports, incident response, and external communications</li> <li>Compliance</li> <li>3rd party security vendor relationships and risk management</li> <li>Customer risk management</li></ul> | | <ul><li>Cloudflare</li> <li>HackerOne</li></ul> | |
+
+## Owners files
+
+Owners files work exactly like the CODENOTIFY files that we use currently, and can also help you find the owner of a certain bit of code:
+
+- An OWNERS file can appear in any directory.
+- Owners files are recursive, so an OWNERS file in a directory also applies to all subdirectories.
+- The effective owners of a given file / directory are determined by the union of the owners of all parent directories.
+
+OWNERS files and CODENOTIFY files use the same syntax, and notifications for both are implemented by the [Codenotify](https://github.com/sourcegraph/codenotify) tool. Owners files have some additional guidelines:
+
+- It is preferred to list a team (e.g., @sourcegraph/frontend-platform) rather than individuals.
+- If there is an individual with expertise in a given part of the code, who is not on the owning team (e.g., Thorsten Ball with sg), that person should be listed in OWNERS.
+
+For questions about our use of owners files, please reach out on [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU).
