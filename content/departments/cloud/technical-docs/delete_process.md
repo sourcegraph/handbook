@@ -115,7 +115,7 @@ terraform destroy
 
 ```
 cd monitoring/
-sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for MacOS
+sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for macOS
 terraform apply
 ```
 
