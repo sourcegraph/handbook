@@ -354,7 +354,7 @@ Sample language is available in our [Vendor Review Playbook](https://docs.google
 
 If the Vendor will have access to any of the Private Data outlined above, ask the Vendor to provide a DPA for Sourcegraph Legal to review.
 
-If the Vendor will have access to a Customer’s Restricted or Private Data, flag to [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or the #legal Slack channel so legal can update the subprocessor list. 
+If the Vendor will have access to a Customer’s Restricted or Private Data, flag to [legal@sourcegraph.com](mailto:legal@sourcegraph.com) or the #legal Slack channel so legal can update the subprocessor list.
 
 ### What information do I send to Legal for a Vendor contract review?
 
