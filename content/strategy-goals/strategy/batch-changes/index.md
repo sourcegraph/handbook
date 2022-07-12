@@ -81,7 +81,7 @@ Batch Changes is a powerful product with a steep learning curve. The two main fr
 
 We are pursuing three approaches here:
 
-- Building a library of batch specs, that users can reuse and build upon. This will give users code to bootsrap from, but in most cases it will only get them 60% of the way for their use case.
+- Building a library of batch specs, that users can reuse and build upon. This will give users code to bootstrap from, but in most cases it will only get them 60% of the way for their use case.
 - Solve common, simple code rewrite use cases end-to-end, without requiring users to write any code. Common use cases:
   - run a regex-based search and replace
   - run a structural search and replace (comby)
@@ -117,9 +117,9 @@ We keep hearing user requests for [mounting files on batch change steps containe
 
 This quarter, we will focus on two things: time-to-value and keep iterating on server-side batch changes. Here is our list of priorities:
 
-- **Get adoption for self-hosted executor and iterate on running batch changes server-side as feedback comes in**. To do so, we are working with cusotmers on improving executors and making deploying them easier (see [RFC 696 APPROVED: Reduced isolation deployments for executor](https://docs.google.com/document/d/16SVTBbuqAc2RizJBZgBRCfv5fsMVhR_a2QrIHnEh5T0/edit#heading=h.trqab8y0kufp)).
-- **An MVP of the Batch Changes library** ([#32687](https://github.com/sourcegraph/sourcegraph/issues/32687)), that will contain a small set of universally useful batch changes specs. As part of this, we need to figure out how we can build more specs (collaborate with professional services? hire a dedicated teammate?).
-- **Ship an experimental version of solving a batch change use case end-to-end, without writing code**. It's likely we'll experiment with [RFC 713: Compute-powered batch changes](https://docs.google.com/document/d/1c9vGgSfh35HNzhPSMltgVkMA9B1NO4QF5GgZwFlt5Ys/edit#heading=h.trqab8y0kufp). This is successfull if we see a sharp uptick in the number of MAUs per customer.
+- **Get adoption for self-hosted executors and iterate on running batch changes server-side as feedback comes in**. To do so, we are working with customers on improving executors and making deployments easier (see [RFC 696 APPROVED: Reduced isolation deployments for executor](https://docs.google.com/document/d/16SVTBbuqAc2RizJBZgBRCfv5fsMVhR_a2QrIHnEh5T0/edit#heading=h.trqab8y0kufp)).
+- **An MVP of the Batch Changes library** ([#32687](https://github.com/sourcegraph/sourcegraph/issues/32687)), that will contain a small set of universally-useful batch changes specs. As part of this, we need to figure out how we can build more specs (collaborate with professional services? hire a dedicated teammate?).
+- **Ship an experimental version of solving a batch change use case end-to-end, without writing code**. It's likely we'll experiment with [RFC 713: Compute-powered batch changes](https://docs.google.com/document/d/1c9vGgSfh35HNzhPSMltgVkMA9B1NO4QF5GgZwFlt5Ys/edit#heading=h.trqab8y0kufp). This is successful if we see a sharp uptick in the number of MAUs per customer.
 - **GA mounting files on step containers** ([#14851](https://github.com/sourcegraph/sourcegraph/issues/14851)), to reduce cycle time for customers that run their own code rewrite tools/scripts.
 
 ## What we are not working on

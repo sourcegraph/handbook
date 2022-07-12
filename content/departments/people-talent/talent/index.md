@@ -2,7 +2,7 @@
 
 The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome.
 
-If you have any questions for the Talent Team, please email Recruiting@sourcegraph.com.
+If you have any questions for the Talent team, please email Recruiting@sourcegraph.com.
 
 ## Resources for Candidates
 
