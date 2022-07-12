@@ -15,7 +15,7 @@ Our working group is a cross-functional group of people from across Sourcegraph.
 - PM: Ryan Phillips
 - Data Engineer: Nathan Downs
 - Legal Partner: Lily Schurra and Collette Tesauro
-- Lead Engineer: TBD
+- Lead Engineer: Coury Clark
 
 ## Principles
 
