@@ -13,5 +13,6 @@ This section of the Handbook holds all documentation related to specific departm
   - [Development](engineering/dev/index.md)
   - [Product Management](engineering/product/index.md)
   - [Design](engineering/design/index.md)
+- [Cloud](cloud/index.md)
 - [Sales](sales/index.md)
 - [Tech Ops](tech-ops/index.md)
