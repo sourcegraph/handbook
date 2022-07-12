@@ -17,7 +17,7 @@ This Policy covers the following contract types:
 2. [Customer Contracts](ContractReviewandSignatureAuthorityPolicy.md#customer-contracts) (Order Forms, MSAs, DPAs)
 3. [Vendor Contracts](ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts) (including temporary contractors)
 4. [Partner Contracts](ContractReviewandSignatureAuthorityPolicy.md#partner-contracts) (resellers, technology partners)
-5. [Teammate Contracts & Offers](ContractReviewandSignatureAuthorityPolicy.md#teammate-contracts-and-offers-)
+5. [Teammate Contracts & Offers](ContractReviewandSignatureAuthorityPolicy.md#teammate-contracts-and-offers)
 
 ## <span style="text-decoration:underline;">How to Submit Requests to Internal Teams for Review</span>:
 
@@ -49,7 +49,7 @@ Legal
    </td>
    <td>Legal
    </td>
-   <td>legal@sourcegraph.com
+   <td>commercial-contracts@sourcegraph.com
    </td>
    <td>Email (instead of Slack) helps us keep track of all contract versions
    </td>
@@ -66,15 +66,13 @@ Legal
    <td>Jira ticket submission
 <p>
 AND
-<p>
- \
 #vendor-requests Slack channel
    </td>
    <td><em>Step One: Submit Jira ticket</em>
 <p>
 Follow steps on <a href="../../tech-ops/process/vendor-request.md">Vendor Request Process</a> handbook page to submit a Jira request for internal review.
 <p>
-<em>Step Two: notify Legal in #vendor-requests Slack channel</em>
+<em>Step Two: notify Legal in #vendor-requests Slack channel or email commercial-contracts@sourcegraph.com</em>
 <p>
 Let Legal know you’ve submitted a vendor request for their review. Legal will review once budgetary approval is confirmed. 
    </td>
@@ -167,13 +165,13 @@ people-ops@sourcegraph.com
 
 ### Do I need another internal team to review or approve the NDA before it is signed?
 
-![Changes to NDA require Legal review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview4.png)
+![Changes to NDAs require Legal review](https://storage.googleapis.com/sourcegraph-assets/handbook/Contract%20Review%20Policy/ContractReview4.png)
 
 ### What information do I send to Legal for an NDA review?
 
 For vendor contracts: We do not review vendor NDAs. Send the vendor our NDA form described above.
 
-For customer contracts: Share our NDA form with the prospect. If a customer insists on using their NDA, reach out to your legal POC via #legal or legal@sourcegraph.com and write 1-sentence why this should be an exception. See the NDA slide (13) of our [Legal onboarding for Sourcegraph AEs](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing) for self-serve guidelines to get an NDA signed quickly.
+For customer contracts: Share our NDA form with the prospect. If a customer insists on using their NDA, reach out to your legal POC via #deal-desk or commercial-contracts@sourcegraph.com and write a 1-sentence explanation of why we should make an exception and use the Customer's NDA. See the NDA slide (13) of our [Legal onboarding for Sourcegraph AEs](https://drive.google.com/file/d/1494EbO5uhkA9nw4SSxDKkzaPM1lvBOwq/view?usp=sharing) for self-serve guidelines to get an NDA signed quickly.
 
 ### What are the SLAs for Legal review of NDAs?
 
@@ -312,6 +310,10 @@ We have three main templates for Vendor services contracts:
 
 For software (including SaaS) contracts, ask the Vendor for their template.
 
+### What if the software Vendor’s contract is a click-through agreement that can’t be redlined? Do I still need to go through the above review process?
+
+YES. It does not matter if we can’t redline the contract; it’s still very important that Sourcegraph understand any risks posed by the contract we are looking to sign.
+
 ### Do I need another internal team to review the vendor contract before I get it signed?
 
 You definitely do! Following the [Vendor Request Process](../../tech-ops/process/vendor-request.md) is your best way to get your vendor request in front of the relevant internal reviewers and approvers.
@@ -403,7 +405,7 @@ Save the document as a pdf using the following <span style="text-decoration:unde
 
 #### Saving Click-Through Agreements:
 
-For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through terms.
+For click-through agreements, forward confirmation emails to commercial-contracts@sourcegraph.com. If none, then email commercial-contracts@sourcegraph.com confirming that you accepted the click-through terms.
 
 ## **Partner Contracts**
 
@@ -485,7 +487,7 @@ Save the document as a pdf using the following **naming convention**: Year-Month
 
 #### Saving Click-Through Agreements:
 
-For click-through agreements, forward confirmation emails to legal@sourcegraph.com. If none, then email legal@sourcegraph.com confirming that you accepted the click-through
+For click-through agreements, forward confirmation emails to commercial-contracts@sourcegraph.com. If none, then email commercial-contracts@sourcegraph.com confirming that you accepted the click-through
 
 ## **Teammate Contracts and Offers**
 
