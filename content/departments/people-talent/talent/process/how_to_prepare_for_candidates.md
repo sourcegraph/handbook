@@ -17,7 +17,7 @@ If there are technical difficulties during your interview, please reach out to r
 
 Please note, your interviews will be conducted over video and may be recorded so that we can focus on you, not taking notes, and ensure that we're delivering a great interview experience. If you prefer to keep your camera off, and/or not to be recorded during your interview, please let us know - the structure of the interview and decision-making process will remain the same and your preference will have no weight on your candidacy.
 
-To learn more about Brighthire click[HERE](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire) 
+To learn more about Brighthire click[HERE](https://about.sourcegraph.com/handbook/talent/hiring/guide_to_using_brighthire)
 
 ## Helpful links
 
