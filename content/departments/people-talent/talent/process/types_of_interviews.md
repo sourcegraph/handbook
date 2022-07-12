@@ -359,7 +359,6 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 ### Content working session
 
-- Interviewer(s): Coming soon.
 - Duration: 60-minutes.
 - Details: during this stage in the interview process, we try to get a sense of your approach and thought process when reviewing writing drafts submitted by team members. You will be given a blog post draft to review for the first 30-minutes of the session, after which you and the hiring manager go through how you approached the piece and talk about the changes you made and why.
 
