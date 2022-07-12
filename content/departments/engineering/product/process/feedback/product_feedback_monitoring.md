@@ -38,7 +38,7 @@ If the person that submitted the feedback item is a CE and the item looks like a
 
 ### Labelling GitHub issues with no team label
 
-Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/batchers` so that they show up on the dashboard of the right team. All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage. Issues without labels tend to get lost. External contributors cannot add labels, so PMs are responsible of re-routing these issues to the relevant team. As a PM you'll get unlabelled issues randomly assigned to you, your job here is to re-assign them to the owning team by adding the relevant team label. 
+Sometimes, someone outside Sourcegraph will submit a GitHub issue. At Sourcegraph, issues are labelled with team labels, that look like `team/batchers` so that they show up on the dashboard of the right team. All issues labeled with a team's name are [automatically added](https://github.com/sourcegraph/sourcegraph/blob/main/.github/workflows/label-move.yml) to the team's board for triage. Issues without labels tend to get lost. External contributors cannot add labels, so PMs are responsible of re-routing these issues to the relevant team. As a PM you'll get unlabelled issues randomly assigned to you, your job here is to re-assign them to the owning team by adding the relevant team label.
 
 In practice:
 
@@ -48,5 +48,5 @@ In practice:
 There is no SLA for this, just make sure that all issues are labelled periodically.
 
 ### Answering feedback inbox emails
-We have a `feedback@sourcegraph.com` email list that is used by users to reach our product team with their feedback directly. As we don't get actionable feedback emails very often, María Craig owns monitoring the inbox and re-routing emails to the relevant PM if a reply is needed. Once again remember to cc `feedback@sourcegraph.com` and bcc [your salesforce email](https://www.google.com/url?q=https://sourcegraph2020.lightning.force.com/lightning/settings/personal/EmailToSalesforceUserSetup/home&sa=D&source=docs&ust=1644257326395356&usg=AOvVaw0KQKoT-nlb8dZb8xk7iyPa) so that if the user replies all, we can all see that feedback.
 
+We have a `feedback@sourcegraph.com` email list that is used by users to reach our product team with their feedback directly. As we don't get actionable feedback emails very often, María Craig owns monitoring the inbox and re-routing emails to the relevant PM if a reply is needed. Once again remember to cc `feedback@sourcegraph.com` and bcc [your salesforce email](https://www.google.com/url?q=https://sourcegraph2020.lightning.force.com/lightning/settings/personal/EmailToSalesforceUserSetup/home&sa=D&source=docs&ust=1644257326395356&usg=AOvVaw0KQKoT-nlb8dZb8xk7iyPa) so that if the user replies all, we can all see that feedback.
