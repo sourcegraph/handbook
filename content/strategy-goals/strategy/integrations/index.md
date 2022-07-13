@@ -43,7 +43,6 @@ After the release of the JetBrains plugin we will have supported IDE extensions 
 
 Similarly to Browser extensions, we want to now improve our differentiation and become more than a more convenient place to search. Consequently after we've incorporated new concepts into Sourcegraph we'll work out how best to use these in the IDE. Then we'll work on getting enterprise wide adoption by making authentication, and distribution of our extensions easier.
 
-
 ### What’s next and why
 
 #### FY’23 Q3
