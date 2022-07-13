@@ -97,6 +97,7 @@ This will remove all GCP infrastructure except the Terraform remote state and GC
 
 ```
 terraform destroy
+git restore ../modules/terraform-managed-instance-new/infrastructure.tf # restore module after destroying instance
 ```
 
 ## Remove the project from the monitoring project
