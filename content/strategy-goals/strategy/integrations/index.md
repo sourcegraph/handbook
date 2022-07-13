@@ -31,15 +31,18 @@ After code ownership, we will have a pattern of how we ingest, store and search 
 
 #### Pause Browser extensions
 
-When launched, our Browser Extensions provided much needed code intelligence functionality into code hosts. Since then code hosts have now caught up and implement similar (albeit not as good) functionality to their products. Because of our need to focus and minor competitive differentiation we will pause adding new functionality to our Browser extensions. This pause will be re-assessed after we've integrated new concepts into our platform.
+When launched, our Browser Extensions provided much needed code intelligence functionality into code hosts. Since then code hosts have now caught up and implement similar (albeit not as good) functionality to their products.
 
-However, as we had previously focussed on individual user adoption, we believe there are minor improvements we can make to improve adoption across enterprises such as becoming an approved extension for [Chrome enterprise](https://support.google.com/chrome/a/answer/6306504?hl=en). Which we may choose to investigate depending on priorities.
+Because of this we want to first focus on improving our competitive differentiation by bringing new concepts about code into Sourcegraph. From there we can work out where best to display them on code hosts to provide the most value to our users.
+
+After we've added additional value to the Browser extensions, we will focus on improving adoption across all developers at an enterprise. We had previously optimised for onboarding individual users, but given our focus change this does not scale. Instead, we will explore ideas such as becoming an approved extension for [Chrome enterprise](https://support.google.com/chrome/a/answer/6306504?hl=en).
 
 #### Pause IDE extensions
 
 After the release of the JetBrains plugin we will have supported IDE extensions for the [majority of professional developers](https://survey.stackoverflow.co/2022/#section-worked-with-vs-want-to-work-with-integrated-development-environment) and the most highly requested by our customers.
 
-Because of this coverage and the need to focus, we will be pausing any additional feature work for our IDE extensions. Similarly to Browser Extensions we will reassess this pause once we’ve integrated new concepts into our platform.
+Similarly to Browser extensions, we want to now improve our differentiation and become more than a more convenient place to search. Consequently after we've incorporated new concepts into Sourcegraph we'll work out how best to use these in the IDE. Then we'll work on getting enterprise wide adoption by making authentication, and distribution of our extensions easier.
+
 
 ### What’s next and why
 
