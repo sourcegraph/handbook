@@ -32,7 +32,7 @@ Within this area, in Q2 we are not working on:
 
 ### Problem Area: Improve Admin Analytics
 
-*Update*: The MVP of this work is planning to be launched in the July release of Sourcegraph (version 3.42).
+_Update_: The MVP of this work is planning to be launched in the July release of Sourcegraph (version 3.42).
 
 Today, Sourcegraph Admins do not have a clear understanding of how their team is using (or not using) Sourcegraph. This information is valuable to help administrators (1) convey the value of Sourcegraph to executives and (2) make key decisions required to do their job effectively, such as monitoring remaining licenses.
 
@@ -42,7 +42,7 @@ Today, Sourcegraph Admins do not have a clear understanding of how their team is
 
 ### Problem Area: Allow Admins to Control Sign-ups via Externally Defined Groups
 
-*Update*: We shipped numerous improvements to allow admins to limit by [github teams](https://docs.sourcegraph.com/admin/auth#how-to-control-user-sign-up-and-sign-in-with-github-auth-provider), [gitlab groups and subgroups](https://docs.sourcegraph.com/admin/auth#how-to-control-user-sign-up-and-sign-in-with-github-auth-provider) and [SAML group membership](https://docs.sourcegraph.com/admin/auth/saml#how-to-control-user-sign-up-and-sign-in).
+_Update_: We shipped numerous improvements to allow admins to limit by [github teams](https://docs.sourcegraph.com/admin/auth#how-to-control-user-sign-up-and-sign-in-with-github-auth-provider), [gitlab groups and subgroups](https://docs.sourcegraph.com/admin/auth#how-to-control-user-sign-up-and-sign-in-with-github-auth-provider) and [SAML group membership](https://docs.sourcegraph.com/admin/auth/saml#how-to-control-user-sign-up-and-sign-in).
 
 Today, Sourcegraph does not provide administrators the ability to specify who can and cannot sign up for Sourcegraph, yet this functionality is critical for customers who want to adopt a land-and-expand strategy for adoption within their organization.
 
