@@ -5,11 +5,12 @@ Information about Sourcegraph's different instances.
 - [Sourcegraph Cloud](instances.md#sourcegraph-cloud) is our production deployment.
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
   This deployment also contains all of our private code.
-- [Managed instances](../../admin-exp/devops/managed/index.md) are deployments of Sourcegraph we manage for customers.
+- [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
+  - [sourcegraph.sourcegraph.com](instances.md#sourcegraph-sourcegraph-com) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2".
 
-For deployments of Sourcegraph we manage for customers, see [managed instances](../../admin-exp/devops/managed/index.md).
+For deployments of Sourcegraph we manage for customers, see [managed instances](../../../../cloud/index.md).
 
 Also see [playbooks](./playbooks.md) for common actions related to operating our Sourcegraph deployments.
 
@@ -57,7 +58,7 @@ Learn more in [deployment basics](./index.md#deployment-basics).
 
 ## Managed instances
 
-[Managed instances](../../admin-exp/devops/managed/index.md) are deployments of Sourcegraph we manage for customers.
+[Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
 We also maintain some internal managed instances for various use cases.
 
 ### demo.sourcegraph.com
@@ -66,12 +67,12 @@ This deployment is used by Sourcegraph CE for demos.
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-demo)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/demo)
-- [Operations](../../admin-exp/devops/managed/operations.md)
+- [Operations](../../../../cloud/technical-docs/operations.md)
 
 ### devmanaged.sourcegraph.com
 
-This deployment is a [managed instance](../../admin-exp/devops/managed/index.md) used by Distribution for experimenting with managed instances in general.
+This deployment is a [managed instance](../../../../cloud/index.md) used by Distribution for experimenting with managed instances in general.
 
 - [GCP project](https://console.cloud.google.com/home/dashboard?project=sourcegraph-managed-dev)
 - [Infrastructure configuration](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/dev)
-- [Operations](../../admin-exp/devops/managed/operations.md)
+- [Operations](../../../../cloud/technical-docs/operations.md)
