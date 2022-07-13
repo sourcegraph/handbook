@@ -21,7 +21,6 @@ For more detailed information on the Delivery team members, check out our [READM
   - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
-- ~[Managed instances](../devops/managed/index.md)~ managed instances are owned by the [DevOps] team
 - ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../dev/process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact

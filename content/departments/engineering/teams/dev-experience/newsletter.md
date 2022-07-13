@@ -371,9 +371,9 @@ Learn more in [this Loom demo](https://www.loom.com/share/601c226a8a93429890c402
 
 Each log entry now prints an iTerm link that links to each log statement's source file:line in VS Code ([#30439](https://github.com/sourcegraph/sourcegraph/pull/30439)).
 
-#### Workaround for MacOS firewalls
+#### Workaround for macOS firewalls
 
-A new `-add-to-macos-firewall` flag, [enabled by default on MacOS](https://github.com/sourcegraph/sourcegraph/pull/31299), is now available on `sg start` and `sg run` to avoid all those pop-up prompts you get in MacOS when firewalls are enabled. [#30747](https://github.com/sourcegraph/sourcegraph/pull/30747)
+A new `-add-to-macos-firewall` flag, [enabled by default on macOS](https://github.com/sourcegraph/sourcegraph/pull/31299), is now available on `sg start` and `sg run` to avoid all those pop-up prompts you get in macOS when firewalls are enabled. [#30747](https://github.com/sourcegraph/sourcegraph/pull/30747)
 
 If this causes issues for you, the behaviour can be disabled with `-add-to-macos-firewall=false`.
 
@@ -459,7 +459,7 @@ Buildkite pipeline steps should now explicitly declare `queue: standard` to avoi
 
 The [security team](../security/index.md) has introduced [Checkov checks](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) to the [`infrastructure` repository](https://github.com/sourcegraph/infrastructure) and performed a cleanup to fix or suppress all high and critical issues!
 
-Going forward, the Checkov step of the infrastructure pipeline will be set to fail in the event it finds a Terraform security issue. If the pipeline fails a warning block will be displayed in the pipeline output - a link will take you to the handbook with guidance on how to continue, and additional output will help point you towards how to correct the issue. For more details, see [Checkov Terraform vulnerability scanning](../security/checkov.md)
+Going forward, the Checkov step of the infrastructure pipeline will be set to fail in the event it finds a Terraform security issue. If the pipeline fails a warning block will be displayed in the pipeline output - a link will take you to the handbook with guidance on how to continue, and additional output will help point you towards how to correct the issue. For more details, see [Checkov Terraform vulnerability scanning](../security/tooling/checkov.md)
 
 If anyone has any questions or issues, please post in the #security channel!
 

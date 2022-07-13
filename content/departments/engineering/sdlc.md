@@ -87,7 +87,7 @@ If the change is a feature, it may initially only be available behind a [feature
 Sourcegraph uses two different mechanisms to deploy its changes in production:
 
 - [Continuous deployments](dev/index.md#sourcegraph-deployments-and-other-developer-test-instances) on soucegraph.com
-- [Release-based model](dev/process/releases/index.md) for [managed instances](teams/devops/managed/index.md).
+- [Release-based model](dev/process/releases/index.md) for [managed instances](../cloud/index.md).
 
 ### Maintenance and monitoring
 

@@ -18,7 +18,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 ## Product team
 
 - [Product team reference](team/product_teams.md)
-- [How product is organized](team/index.md)
 - [Roles and responsibilities](roles/index.md) of the product team
 
 ## Feature matrices
