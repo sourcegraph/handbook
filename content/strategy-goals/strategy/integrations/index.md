@@ -41,7 +41,7 @@ After we've added additional user value to the Browser extensions, we will focus
 
 After the release of the JetBrains plugin we will have supported IDE extensions for the [majority of professional developers](https://survey.stackoverflow.co/2022/#section-worked-with-vs-want-to-work-with-integrated-development-environment) and the most highly requested by our customers.
 
-Similarly to Browser extensions, we want to now improve our differentiation and become more than a more convenient place to search. Consequently after we've incorporated new concepts into Sourcegraph we'll work out how best to use these in the IDE. Then we'll work on getting enterprise wide adoption by making authentication, and distribution of our extensions easier.
+Similar to Browser extensions, we want to improve our user value and product differentiation to become more than a convenient place to search in a user's editor. We plan on using the new concepts that we will be incorporating into Sourcegraph to increase value for user's in IDEs. After that, we'll work on getting enterprise-wide adoption by making authentication, and distribution of our extensions easier.
 
 ### What’s next and why
 
