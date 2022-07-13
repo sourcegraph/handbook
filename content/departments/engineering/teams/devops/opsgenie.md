@@ -34,8 +34,8 @@ For example, if half your team is in North America and the other half of your te
 
 To set this up in Opsgenie:
 
-1. Under your schedule, click "Create a new rotation", setting it to the desired interval (e.g. "weekly") and selecting the "Restrict to time intervals" option. Configure the interval's start and end *times* to match your first group. Make sure to update the time in "Start on" to match the interval's start time.
-  ![rotation](https://user-images.githubusercontent.com/23356519/178831318-433e9e87-bf1f-4f67-b894-8f38bd9de1f3.png)
+1. Under your schedule, click "Create a new rotation", setting it to the desired interval (e.g. "weekly") and selecting the "Restrict to time intervals" option. Configure the interval's start and end _times_ to match your first group. Make sure to update the time in "Start on" to match the interval's start time.
+   ![rotation](https://user-images.githubusercontent.com/23356519/178831318-433e9e87-bf1f-4f67-b894-8f38bd9de1f3.png)
 2. Repeat the above, except set "Restrict to time intervals" times to match the second group, again ensuring the time in "Start on" matches the interval's start time.
 3. Assign the appropriate teammates to both of the above.
 
