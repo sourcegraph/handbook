@@ -35,7 +35,7 @@ When launched, our Browser Extensions provided much needed code intelligence fun
 
 Because of this we want to first focus on improving our competitive differentiation by bringing new concepts about code into Sourcegraph. From there we can work out where best to display them on code hosts to provide the most value to our users.
 
-After we've added additional value to the Browser extensions, we will focus on improving adoption across all developers at an enterprise. We had previously optimised for onboarding individual users, but given our focus change this does not scale. Instead, we will explore ideas such as becoming an approved extension for [Chrome enterprise](https://support.google.com/chrome/a/answer/6306504?hl=en).
+After we've added additional user value to the Browser extensions, we will focus on improving widespread adoption for developers at an enterprise level. We had previously optimised for onboarding individual users, but given our focus change to enterprise, we need to find an adoption strategy that is more scalable. Instead, we will explore ideas such as becoming an approved extension for [Chrome enterprise](https://support.google.com/chrome/a/answer/6306504?hl=en).
 
 #### Pause IDE extensions
 
