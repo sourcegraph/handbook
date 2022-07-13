@@ -82,7 +82,7 @@ We would include the following types of meetups in Category 4:
 
 ### 5. Professional development stipend and educational travel
 
-Each teammate has $1,000 per fiscal year to spend on professional development opportunities that will enhance the knowledge, human skills, and thinking required to fulfill the purpose of your role and advance your career at Sourcegraph.
+Each teammate has $1,000 per fiscal year to spend on professional development opportunities that will enhance the knowledge, human skills, and thinking required to fulfill the purpose of your role and advance your career at Sourcegraph. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 
 _This professional development budget includes:_
 

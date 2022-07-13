@@ -1,10 +1,21 @@
 # Cross-product ownership: Core workflow
 
-**Owning PM:** Ben Venker
+**Owning PM:** [Ben Venker](../../team/#ben-venker)
+**Design partners:** [Paulo Almeida](../../team/#paulo-almeida), [Quinn Keast](../../team/#quinn-keast)
 
 > What is ["cross-product ownership"](cross-product_owners.md)?
 
 The core workflow in Sourcegraph today is using Sourcegraph to unblock yourself or answer a question by performing a search and then reading and navigating through code.
+
+The owning PM is the Directly Responsible Individual (DRI) for the core workflow ([scope](#the-core-workflow)), reporting to the CEO.
+
+## Current efforts
+
+The Core workflow ownership area is new and still being defined, but current efforts are:
+
+- A rapid simplification of the existing Sourcegraph search UI without changing the underlying interaction models or structure of the search UI
+- Long term strategy and outcome definition toward a re-envisioning of Sourcegraph’s core search workflow
+- Defining the interface for teams to propose features into the Core workflow
 
 ## Goals
 
