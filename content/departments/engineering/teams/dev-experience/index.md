@@ -45,6 +45,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
     - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
     - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
   - [Continuous integration infrastructure](../../dev/tools/infrastructure/ci/index.md) (Buildkite agents, etc.)
+    - [buildkite-job-dispatcher](../../dev/tools/infrastructure/ci/index.md#buildkite-job-dispatcher)
   - [Continuous integration playbook](../../dev/process/incidents/playbooks/ci.md)
 - Misc DevOps support
   - DNS requests

@@ -34,7 +34,7 @@ If you want to fetch GitHub data (used for the recent contributors list on the s
 
 ### Using Docker
 
-You can run the handbook locally using Docker and the included Dockerfile. This won't require you to have a Node environment installed, you'll need only the Docker engine (Linux) or Docker Desktop (Windows and MacOS) installed.
+You can run the handbook locally using Docker and the included Dockerfile. This won't require you to have a Node environment installed, you'll need only the Docker engine (Linux) or Docker Desktop (Windows and macOS) installed.
 
 After cloning this repository, build the image with:
 
