@@ -1,6 +1,7 @@
 # Cross-product ownership: Core workflow
 
 **Owning PM:** [Ben Venker](../../team/#ben-venker)
+
 **Design partners:** [Paulo Almeida](../../team/#paulo-almeida), [Quinn Keast](../../team/#quinn-keast)
 
 > What is ["cross-product ownership"](cross-product_owners.md)?
