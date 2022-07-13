@@ -15,6 +15,8 @@ Today, the IAM team is less than two weeks old and does not yet have a long-term
 
 ### Problem Area: Unifying Feature Permissions
 
+> NOTE: This work has been paused for Q2.
+
 Today, nearly all Sourcegraph features (Code insights, batch changes, search notebooks, etc) have unique, custom permissions models, creating confusion for users and preventing cross-feature use cases from being developed.
 
 - Key Result 1: A detailed product & technical plan for implementing a unified permissions model
@@ -30,7 +32,7 @@ Within this area, in Q2 we are not working on:
 
 ### Problem Area: Improve Admin Analytics
 
-> NOTE: This work has been transitioned to the [growth team](../growth-team/index.md) in Q2. The goals remain unchanged.
+*Update*: The MVP of this work is planning to be launched in the July release of Sourcegraph (version 3.42).
 
 Today, Sourcegraph Admins do not have a clear understanding of how their team is using (or not using) Sourcegraph. This information is valuable to help administrators (1) convey the value of Sourcegraph to executives and (2) make key decisions required to do their job effectively, such as monitoring remaining licenses.
 
@@ -39,6 +41,8 @@ Today, Sourcegraph Admins do not have a clear understanding of how their team is
 **Engineering OKR Alignment:** Objective #1: Faster Time-to-Value by enterprises. Today, enterprise admins have very little visibility into usage within their organization. They are forced to rely on the basic stats provided by Sourcegraph or anecdotal reviews from their team. Introducing more fine grained analytics will enable admins to easily quantify value to their team and aid Sourcegraph AE/CE in driving upsell conversations based on usage within the org.
 
 ### Problem Area: Allow Admins to Control Sign-ups via Externally Defined Groups
+
+*Update*: We shipped numerous improvements to allow admins to limit by [github teams](https://docs.sourcegraph.com/admin/auth#how-to-control-user-sign-up-and-sign-in-with-github-auth-provider), [gitlab groups and subgroups](https://docs.sourcegraph.com/admin/auth#how-to-control-user-sign-up-and-sign-in-with-github-auth-provider) and [SAML group membership](https://docs.sourcegraph.com/admin/auth/saml#how-to-control-user-sign-up-and-sign-in).
 
 Today, Sourcegraph does not provide administrators the ability to specify who can and cannot sign up for Sourcegraph, yet this functionality is critical for customers who want to adopt a land-and-expand strategy for adoption within their organization.
 
