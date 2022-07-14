@@ -574,12 +574,6 @@ A great resource on structure (including some great walkthrough videos) from [Be
 - Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 10 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development.
 - **Very important:** please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for! If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
 
-#### Enterprise AE deal review
-
-- Interviewer(s): Coming soon.
-- Duration: Coming soon.
-- Purpose: as a part of our interview process, we ask that you prepare a 25-minute presentation reviewing a major deal you've successfully closed. We ask that you prepare to walk your interviewers through all aspects of the deal and your sales process, providing a step-by-step breakdown of how the deal was won and what skills/processes were employed. Feel free to include any challenges you faced, how you overcame them, and what stakeholders were involved, etc. Looking forward to hearing how you win!
-
 #### Enterprise AE team collaboration with Customer Engineering
 
 - Interviewer(s): Two individual contributor Customer Engineers
