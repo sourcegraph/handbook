@@ -8,7 +8,7 @@ The Engineering department at Sourcegraph consists of:
 
 ## Product vision and strategy
 
-_1-year vision:_ Sourcegraph is a code intelligence platform, which devs will use 10+ times daily to unblock themselves and code better. Sourcegraph will be the fastest, and often only, way for devs to find what they need because it integrates all kinds about code-related information and makes it accessible within seconds on the web, in the editor, in code review, in custom tooling, and anywhere else it's needed.
+_1-year vision:_ Sourcegraph is a code intelligence platform, which devs will use 10+ times daily to unblock themselves and code better. Sourcegraph will be the fastest, and often only, way for devs to find what they need because it integrates all kinds of code-related information and makes it accessible within seconds on the web, in the editor, in code review, in custom tooling, and anywhere else it's needed.
 
 See "[Engineering department update 2022-06](https://docs.google.com/document/d/1YezFhbIsH8YHRLRdwZ-qUK1Z4aogM04_8IqxJpUX-nY/edit#)" for our strategy, including making Cloud (managed instances) the preferred deployment method, focusing on the core workflow, counting dev time saved, and deeply integrating code-related concepts (code nav, code graph, code ownership, and more).
 

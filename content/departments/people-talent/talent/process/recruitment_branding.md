@@ -17,6 +17,7 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
   - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
   - View [this folder](https://drive.google.com/drive/u/0/folders/1wE3IGJ5WF5fYIm7h6BOA9z_kUAieInsE) full of LinkedIn post examples to provide some inspiration!
+  - [Talent team LinkedIn content library](https://docs.google.com/spreadsheets/d/1j8mzReq4FTNrxFC8-4moSWunwPynUpgllo2_dshcwCQ/edit#gid=0)
 - View the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph) to find recent updates and articles to share
 
 #### LinkedIn Posting Best Practices
