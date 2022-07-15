@@ -2,11 +2,12 @@
 
 Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings outside of work. We also like to celebrate, and we like to celebrate _you_! Use this guide for team gatherings and to celebrate your teammates' birthdays, anniversaries, and source some really great gift ideas.
 
-**The People team is currently revamping our swag and gifting policies and will announce updates soon.** Until then, managers will own celebrating their teammates' birthdays and work anniversaries. We suggest posting about the occasion in the `#thanks` channel and then letting the teammate know they can expense $XX to celebrate. 
+**The People team is currently revamping our swag and gifting policies and will announce updates soon.** Until then, managers will own celebrating their teammates' birthdays and work anniversaries. We suggest posting about the occasion in the `#thanks` channel and then letting the teammate know they can expense $XX to celebrate.
 
-Please follow the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries) and  [birthday gift amount policy](#gift-amount-policy-for-birthdays).
+Please follow the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries) and [birthday gift amount policy](#gift-amount-policy-for-birthdays).
 
 Posting suggestions:
+
 - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
 - Highlight their key contributions and impact they've made
 
