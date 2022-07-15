@@ -6,23 +6,55 @@
 
 > What is ["cross-product ownership"](cross-product_owners.md)?
 
+The owning PM is the Directly Responsible Individual (DRI) for the core workflow ([scope](#the-core-workflow-in-the-sourcegraph-product)), reporting to the CEO.
+
+## Overview
 The core workflow in Sourcegraph today is using Sourcegraph to unblock yourself or answer a question by performing a search and then reading and navigating through code.
 
-The owning PM is the Directly Responsible Individual (DRI) for the core workflow ([scope](#the-core-workflow)), reporting to the CEO.
+Its charter is to enable our [1-year vision](../../../../engineering/index.md#product-vision-and-strategy) of becoming a code intelligence platform by making the core workflow more powerful and intuitive, and leveraging our capabilities, to create irreplaceable dev tooling.
 
-## Current efforts
+## Short-term execution
 
-The Core workflow ownership area is new and still being defined, but current efforts are:
+### Reducing complexity
+Being recently created, the Core workflow's first short-term project is a rapid simplification of the existing Sourcegraph search UI without changing the underlying interaction models or structure. That work is nearly complete and has consisted largely of removing or consolidating old UI and UX that obstructed or distracted users.
 
-- A rapid simplification of the existing Sourcegraph search UI without changing the underlying interaction models or structure of the search UI
-- Long term strategy and outcome definition toward a re-envisioning of Sourcegraph’s core search workflow
-- Defining the interface for teams to propose features into the Core workflow
+## 1-year vision
 
-## Goals
+### Evolving the core workflow
+The longer term purpose of this ownership is to first evolve the core workflow to better empower developers in their daily work. We'll apply existing customer feedback, fresh research, technical capabilities, and design thinking to our customers' most challenging problems that we have an advantage in solving. Doing that to the best of our ability may mean some breaking changes to our current product, but they will always be in service of a better outcome for our users.
 
-This initiative's charter is to make the core workflow **simpler, better, and more coherent**.
+## How we'll do it
 
-## The Core workflow
+### Define the first principles of the core workflow
+First, we’re going to define first principles for the core workflow. Today, these first principles are more implicitly understood than anything, and are oriented around code search without consideration of a broader workflow supporting code intelligence.
+
+We’ll aim to have an MVP of this drafted and shared by July 20, and initial alignment by July 22.
+
+### Evolve the information architecture and interaction model behind the core workflow
+
+Next, we’ll work on evolving the information architecture and interaction model behind the core workflow around these first principles. This will be done at a high level of information/documentation and low level of visual fidelity—just enough to align across teams on how the evolved conceptual model is surfaced.
+
+We aren’t starting from scratch: the Search Product team has been exploring opportunities here that we'll continue building on. The underlying ideas around how the core workflow will extend and integrate with other product features like Code Insights and Batch Changes should be clear and intuitive as an outcome.
+
+We’ll aim to explore, share, and collect feedback for this over the course of about a week.
+
+### Rapid prototyping, building, and testing
+
+Over the course of ~2 months, ahead of the Sourcegraph 4.0 release, we’ll rapidly prototype, build, and test this work. We want to move very quickly, but as this an intentionally large shift to the product, we must reduce risk as we go (we must not break Sourcegraph as a result of this work).
+
+To help communicate and seek better feedback while we do this, we’ll define the key workflows / jobs-to-be-done that need to be demonstrably improved or retain effectiveness.
+
+We’ll also start defining the key workflows / jobs-to-be-done enabled by the core workflow.
+
+While the first shippable iteration will target the core workflow, we’ll work directly with teams like Code Insights, Batch Changes, and Code Navigation to integrate these features as quickly as possible under the shared interaction model.
+
+## Timeline recap
+- July 18-22 – Define MVP of first principles for core workflow.
+- July 25–July 29 – Explore, share, collect feedback on evolved information architecture and interaction model.
+- July 29 and on – Rapid prototyping, building, and testing.
+- Targeting first shipped iteration 
+
+## The Core workflow in the Sourcegraph product
 
 Core workflow ownership encompasses the following areas:
 
