@@ -48,8 +48,8 @@ Below are the goals and expectations for each week of your onboarding.
 - Schedule 1:1s with the Hiring Managers you will be supporting
 - Build out sourcing projects for your org's high priority roles
 - Listen to assigned Brighthire recordings
-- Familiarize yourself with Interview Plans and Greenhouse Worklflow 
-- Familiarize yourself with TopFunnel 
+- Familiarize yourself with Interview Plans and Greenhouse Worklflow
+- Familiarize yourself with TopFunnel
 - Make a small (or big!) improvement to a page your team uses in the handbook. Once you identify it, make the change and assign your manager as a reviewer
 
 #### Week 3 Goals:
