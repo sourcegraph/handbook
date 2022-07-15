@@ -2,6 +2,14 @@
 
 Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings outside of work. We also like to celebrate, and we like to celebrate _you_! Use this guide for team gatherings and to celebrate your teammates' birthdays, anniversaries, and source some really great gift ideas.
 
+**The People team is currently revamping our swag and gifting policies and will announce updates soon.** Until then, managers will own celebrating their teammates' birthdays and work anniversaries. We suggest posting about the occasion in the `#thanks` channel and then letting the teammate know they can expense $XX to celebrate. 
+
+Please follow the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries) and  [birthday gift amount policy](#gift-amount-policy-for-birthdays).
+
+Posting suggestions:
+- Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
+- Highlight their key contributions and impact they've made
+
 ## Team Virtual Gatherings
 
 In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $150 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com). This can be expensed under the "Team Travel" categories.
@@ -16,22 +24,15 @@ We like to take the time to celebrate big milestones for teammates who have hit 
 
 To celebrate anniversaries, managers can send gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
 
-- Managers can choose to send [Loop & Tie](https://sourcegraph.loopandtie.com/) collections as anniversary gifts\*. To create a Loop & Tie account, please reach out to the People team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) Slack channel. **Please note:**
-
-  - \*Requests for changes or additions to inventory cannot be facilitated at this time. This is being reviewed and updates will be posted!
-  - There are both US and international Loop & Tie collections, be mindful to choose the correct collection when sending these out.
-
 ### Gift amount policy for anniversaries
 
 Anniversary gifts should not exceed the following amounts per teammate and per year:
 
-- Year 1: $25 USD
-- Year 2: $50 USD
-- Year 3: $75 USD
-- Year 4: $100 USD
-- Year 5: $150 USD
-- Year 6: $200 USD
-- Year 7 and above: $250 USD
+- Year 1: $50 USD
+- Year 2: $75 USD
+- Year 3: $100 USD
+- Year 4: $200 USD
+- Year 5+: $250 USD
 
 ## Birthdays
 
@@ -70,7 +71,7 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 
 **Internal requests:**
 
-- Requests for branded swag for internal use cannot be facilitated by the People Ops team at this time. We therefore can't take ad hoc requests and appreciate your understanding. This is being reviewed and updates will be posted! If you have any questions, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com.
+- Read about[Ordering internal swag](../../departments/people-talent/swag.md#ordering-additional-swag). If you have any questions, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack or people-ops@sourcegraph.com.
 
 **External requests:**
 
