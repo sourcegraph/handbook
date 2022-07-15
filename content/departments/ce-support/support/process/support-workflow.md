@@ -103,7 +103,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** We have a form embedded in the product to inquire with customers how they feel about the product every so often.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_monitoring.md) and support handles it via our outlined workflow steps.
 
 ### support@ email
 
@@ -115,7 +115,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** An email that is sometimes included in forms we send customers (for example, our NPS forms). It may not be used frequently, but when it is used, we want to be sure nothing falls through the cracks.
 - **Those involved:** Product > support (if necessary)
-- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps.
+- **Details:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_monitoring.md) and support handles it via our outlined workflow steps.
 
 ### Support contracts
 
@@ -133,7 +133,7 @@ As explained above, our customers are able to initiate conversations for help vi
 
 - **Purpose:** Our non-paying and open source customers can seek help via this tracker, though sometimes our team and enterprise customers opt to use it, too.
 - **Those involved:** Product > support (if necessary)
-- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_rotation.md#nps-feedback) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
+- **Workflow:** Sometimes this feedback becomes support-ish in nature. When this happens, product engages support via [their process outlined here](../../../engineering/product/process/feedback/product_feedback_monitoring.md) and support handles it via our outlined workflow steps. Additionally, the relevant templates instruct customers to email support@sourcegraph.com if they require immediate help.
 
 ### @sourcegraph Twitter (and other social)
 
