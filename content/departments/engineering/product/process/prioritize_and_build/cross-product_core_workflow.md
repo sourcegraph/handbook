@@ -94,14 +94,6 @@ Core workflow ownership encompasses the following areas:
 - File result page
 - Repo result page (and child pages, excluding Code Intel)
 
-## Current strategy and processes
-
-This role was created the final third of FY23 Q2 and the long term strategy and processes are still being defined.
-
-### Short term
-
-In the near term, the strategy is to prepare for deeper integration of Sourcegraph products and features by reducing the complexity of the core workflow. We'll do this by making high-confidence, low-effort changes which largely involve removing or consolidating features and experiences. Only a small number of new features will be introduced.
-
 ## Resources
 
 - The first initiative is the **Core workflow punch list** ([GitHub project](https://github.com/orgs/sourcegraph/projects/271/views/1))
