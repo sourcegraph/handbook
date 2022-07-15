@@ -40,7 +40,7 @@ Do the [branch cut](./index.md#release-branches) for the release:
   ```
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
-  git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR
+  yarn release release:branch-cut
   ```
 
 Upon branch cut, create and test release candidates:
