@@ -14,14 +14,6 @@
 
 - Varies for each offsite
 
-**Birthdays** - COMING SOON
-
-**Anniversaries** - COMING SOON
-
-**Baby Boxes** - COMING SOON
-
-**Promotion Boxes** - COMING SOON
-
 ## New Hire Welcome Kits
 
 Our People/Talent team uses a vendor named [Printfection](https://www.printfection.com/) to fulfill our new hire welcome kit orders. The [People team](people-ops) purchases inventory in bulk based on the anticipated hiring rate and monitors/reorders the inventory as needed.
