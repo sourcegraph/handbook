@@ -3,7 +3,7 @@
 search_product:
   title: Search Product
   brief: The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results
-  strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
+  strategy_link: /strategy-goals/strategy/search/product/index.md
   pm: ben_venker
   em: loïc_guychard
   design: paulo_almeida
@@ -15,7 +15,7 @@ search_product:
 search_core:
   title: Search Core
   brief: The search core team owns all parts of Sourcegraph that map an interpreted search query to a set of results
-  strategy_link: /strategy-goals/strategy/code-graph/search/core/index.md
+  strategy_link: /strategy-goals/strategy/search/core/index.md
   pm: eugenia_fernandez
   em: jeff_warner
   design: rob_rhyne
@@ -27,7 +27,7 @@ search_core:
 code_intelligence:
   title: Code Intelligence
   brief: Code intelligence provides features and services that help developers better understand and navigate code.
-  strategy_link: /strategy-goals/strategy/code-graph/code-intelligence/index.md
+  strategy_link: /strategy-goals/strategy/code-intelligence/index.md
   pm: maría_craig
   em: owen_convey
   design: sara_lee
@@ -38,7 +38,7 @@ code_intelligence:
 batch_changes:
   title: Batch Changes
   brief: Batch Changes is a tool to find code that needs to be changed and change it at scale by running code.
-  strategy_link: /strategy-goals/strategy/code-graph/batch-changes/index.md
+  strategy_link: /strategy-goals/strategy/batch-changes/index.md
   pm: malo_marrec
   em: chris_pine
   design: rob_rhyne
@@ -49,7 +49,7 @@ batch_changes:
 code_insights:
   title: Code Insights
   brief: The code insights team is responsible for building and delivering code insights to engineering leaders, empowering data-driven decisions in engineering organizations.
-  strategy_link: /strategy-goals/strategy/code-graph/code-insights/index.md
+  strategy_link: /strategy-goals/strategy/code-insights/index.md
   pm: joel_kwartler
   em: felix_becker
   design: alicja_suska
@@ -60,7 +60,7 @@ code_insights:
 integrations:
   title: Integrations
   brief: The integrations team owns the our code host and third-party integrations (including our IDE and browser extensions), and Sourcegraph extensions.
-  strategy_link: /strategy-goals/strategy/admin-exp/integrations/index.md
+  strategy_link: /strategy-goals/strategy/integrations/index.md
   pm: ryan_scott
   design: sara_lee
   em: murat_sutunc
@@ -71,7 +71,7 @@ integrations:
 growth:
   title: Growth
   brief: Growth team owns initial user journey as well as coordinating with marketing, optimization of product flows and encouraging experimental growth objectives to assist in Sourcegraph UX throughout their journey
-  strategy_link: /strategy-goals/strategy/admin-exp/growth-team/index.md
+  strategy_link: /strategy-goals/strategy/growth-team/index.md
   em: murat_sutunc
   pmm: alex_isken
   issue_labels:
@@ -80,7 +80,7 @@ growth:
 iam:
   title: Identity and Access Management (IAM)
   brief: The IAM team is responsible for both authentication and authorization to Sourcegraph, including login and user management for on-prem and managed instances.
-  strategy_link: /strategy-goals/strategy/admin-exp/iam/index.md
+  strategy_link: /strategy-goals/strategy/iam/index.md
   pm: ryan_phillips
   em: jordan_plahn_iam
   issue_labels:
@@ -90,7 +90,7 @@ iam:
 delivery:
   title: Delivery
   brief: Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides.
-  strategy_link: /strategy-goals/strategy/admin-exp/delivery/index.md
+  strategy_link: /strategy-goals/strategy/delivery/index.md
   pm: brienne_mcnally
   em: sanjeev_sekar
   issue_labels:
@@ -98,8 +98,8 @@ delivery:
 
 dev_experience:
   title: Dev Experience
-  brief: The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph as part of the Enablement org.
-  strategy_link: /strategy-goals/strategy/enablement/dev-experience
+  brief: The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
+  strategy_link: /strategy-goals/strategy/dev-experience
   pm: quinn_hare
   em: kristen_stretch
   issue_labels:
@@ -108,7 +108,7 @@ dev_experience:
 frontend_platform:
   title: Frontend Platform
   brief: The Frontend Platform team aims to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
-  strategy_link: /strategy-goals/strategy/enablement/frontend-platform
+  strategy_link: /strategy-goals/strategy/frontend-platform
   pm: taylor_sperry
   em: jason_gornall
   design: alicja_suska
@@ -117,31 +117,19 @@ frontend_platform:
 
 repo_management:
   title: Repo Management
-  strategy_link: /strategy-goals/strategy/admin-exp/repo-management
+  strategy_link: /strategy-goals/strategy/repo-management
   em: jordan_plahn
   issue_labels:
     - team/repo-management
 
 content_platform:
   title: Content Platform Team
-  brief: The Content Platform team (part of the Enablement org) creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
-  strategy_link: /strategy-goals/strategy/enablement/content-platform
+  brief: The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
+  strategy_link: /strategy-goals/strategy/content-platform
   pm: elzanne_wentzel
   em: elzanne_wentzel
   issue_labels:
     - team/content-platform
-
-code_security_tiger_team:
-  title: Code Security tiger team
-  brief: The purpose of the Code Security tiger team is to iterate quickly with customers by increasing developer efficiency through effective triage, remediation and user enablement.
-
-  strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
-  pm: malo_marrec
-  em: engineering_manager_code_security_tiger_team
-  design: quinn_keast
-  pmm: alex_isken
-  issue_labels:
-    - team/code-security-tiger-team
 
 security:
   title: Security
@@ -150,3 +138,5 @@ security:
 cloud:
   title: Cloud
   em: rafal_leszczynski
+  issue_labels:
+    - team/cloud

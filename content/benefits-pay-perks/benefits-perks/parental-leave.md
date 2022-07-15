@@ -1,35 +1,33 @@
 # Sourcegraph Paid Parental Leave Policy
 
-—----------------------------------------------------------—----------------------------------------------------------—--------------
-
-**Reason for the policy**
+## Reason for the policy
 
 We support teammates at all stages of life, including during family planning. Providing flexibility and family-friendly policies are essential to cultivating a culture where employees can thrive professionally without sacrificing precious family time. We want to give all new parents the ability to bond with their new child and adjust to their new family dynamic. The below resources are for teammates who are expecting to become, or have recently become, a parent.
 
-## **RESOURCES FOR TEAMMATES**
+## Resources for teammates
 
-**Paid parental leave policy at Sourcegraph**
+### Paid parental leave policy at Sourcegraph
 
 Sourcegraph ensures you are paid 100% of your salary for up to 16 weeks per birth, adoption or placement event, covering the difference between any country or state-sponsored benefits and your full salary. (Teammates must sign up for any country or state-sponsored leave benefits if available.)
-_Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section.](#Commission-payout-and-quota-relief)_
+_Note: References to fully-paid parental leave in this policy for non-commission based teammates are intended to reference 100% of your base pay. If you are on a commission plan, additional guidance is provided in the [Commission Payout and Quota Relief section](#resources-for-teammates-with-a-commission-plan-sales--ce)._
 
 - **Adoption or Foster-placement leave** may be taken before actual placement or adoption of a child for absences related to placement or adoption, in addition to post-placement bonding.
 - **Leave preceding the birth of the child** is available to teammates as PTO, medical leave or statutory maternity benefits (dependent on location) . This is an additional benefit on top of the paid parental leave policy, which ensures up to 16 weeks of paid leave after the birth event. The People Team is available to consult on options for pre-birth and disability leave policies.
 - **Sourcegraph provides leave after pregnancy loss.** Contact your People Partner for assistance.
 - Paid parental leave can be used for the birth, adoption, or foster care placement of a child, within the 12 months immediately following the qualifying event (your child’s birth, adoption finalization, or placement).
 
-- You may take more or less than 16 weeks, depending on your needs and preferences, but anything over 16 weeks is not eligible for the paid parental leave policy. (See [FAQ ](#bookmark=kix.7066sn7ibhrg)for Non-US/statutory variances)
+- You may take more or less than 16 weeks, depending on your needs and preferences, but anything over 16 weeks is not eligible for the paid parental leave policy. (See [FAQ](#faq-for-non-us-based-teammates)for Non-US/statutory variances)
 
 - You may take the 16 weeks consecutively, or you may choose to use them non-consecutively (so long as it is within 12 months of your initial parental leave date). If using non-consecutively, you must request leave in blocks of 1-week increments and cannot split this into specified days across partial, non-consecutive weeks.
 
 - If you live in a country where a statutory Parental and/or Birthing Parent/Maternity Leave benefit is available (which may include disability leave for birthing parents), you will be required to claim statutory Parental and/or Birthing Parent/Maternity Leave pay (if you are eligible) and, if such leave is offered at less than full pay, Sourcegraph will supplement any gaps in total unpaid leave for up to 16 weeks. Please see guidance below for International Teammates.
 
-## Who is eligible for Sourcegraph’s paid parental leave?
+#### Who is eligible for Sourcegraph’s paid parental leave?
 
 - All full-time teammates who become parents through child birth, adoption, or placement of a child are eligible for Parental Leave benefits.
 - There is no minimum tenure required to be eligible for Parental Leave. In other words, all teammates are eligible for Parental Leave on day 1.
 
-## Planning to go on Parental Leave? Follow the below steps…
+#### Planning to go on Parental Leave? Follow the below steps…
 
 **Step 1:** Notify your Manager & the People Team
 
@@ -62,24 +60,24 @@ We understand that your Leave dates may change, so you can adjust your Roots dat
 
 See [example template](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit?usp=sharing) for reference.
 
-## Commission payout and quota relief
+### Resources for Teammates with a commission plan (Sales & CE)
 
 We want our quota-carrying teammates to feel supported while out on parental leave. This includes Account Executives, Sales Development Representatives, Customer Engineers and Managers. Please contact [people-ops@sourcegraph.com](mailto:peopleops@sourcegraph.com) to confirm if your role qualifies as a quota-based position.
 
 _Please note that the intent of this policy is to ensure that quota-carrying individuals are fully supported in taking whatever time they need in order to spend with their family. Therefore, the below guidelines are subject to leadership discretion in order to accommodate each individual’s unique circumstances._
 
-## Quota while on Leave for AE’s
+#### Quota while on leave for Account Executives
 
 For team members taking >2 weeks of leave:
 
 - Quota-carrying teammates will be paid no less than 100% of their OTE during leave months
 - Any deals closed during this period will be measured against attainment based on the below criteria
 - Should attainment exceed 100% of prorated OTE, rep will be entitled to the full amount of compensation based on attainment, including any applicable multipliers
-- Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member; however these excess funds <span style="text-decoration:underline;">shall not</span> qualify for quota relief
+- Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member; however these excess funds **shall not** qualify for quota relief
 
 In addition, for team members taking >50% of leave in one block, Sourcegraph shall provide the team member with a 3-month ramp period of 50% of prorated quota upon return. Quota shall revert to 100% attainment in month 4 of return. The ramp period will begin on the 1st of the month following the teammate’s return.
 
-## Commission Payout Scenarios for AEs
+#### Commission payout scenarios for Account Executives
 
 _Applies for any period of parental leave that is >2 weeks. Deal stage is locked at the date of the start of team member’s parental leave, with additional validation by current Pre-Sales Customer Engineer._
 
@@ -114,7 +112,7 @@ For opportunities created after start of parental leave:
 
 _For any period of leave &lt;2 weeks, please consult your manager._
 
-## Commission Payout while on Leave for SDRs
+#### Commission payout while on leave for Sales Development Representatives
 
 For team members taking >2 weeks of leave:
 
@@ -126,7 +124,7 @@ For team members taking >2 weeks of leave:
 
 _For any period of leave &lt;2 weeks, our regular policies will apply._
 
-## Commission Payout while on Leave for CEs
+#### Commission payout while on leave for Customer Engineers
 
 For team members taking leave >2 weeks:
 
@@ -140,15 +138,15 @@ For team members taking leave >2 weeks:
 
 _For any period of leave &lt;2 weeks, our regular policies will apply._
 
-## Commission Payout while on Leave for Sales, SDR and CE Managers:
+#### Commission payout while on leave for Sales, SDR and CE Managers
 
 For team members taking >2 weeks of leave
 
 - Quota-carrying managers will be paid no less than 100% of their OTE during leave months
 - Should team attainment exceed 100% of prorated OTE, manager will be entitled to the full amount of compensation based on attainment, including any applicable multipliers
-- Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member; however these excess funds <span style="text-decoration:underline;">shall not</span> qualify for quota relief\*\*
+- Should attainment not exceed 100% of prorated OTE, Sourcegraph shall provide the remaining funds to the team member; however these excess funds **shall not** qualify for quota relief
 
-## Resources we provide to current & future parents:
+### Helpful resources
 
 - Family planning resources:
   - We value and support teammates at all stages of life. We ensure that all teammates are afforded at least 16 weeks of paid parental leave for the birth, adoption or placement of a child (Sourcegraph will bridge any gap of unpaid parental leave, so coverage details vary by location), and a reimbursement of up to $25,000 USD for family planning services (including but not limited to adoption, IVF, egg/sperm freezing, surrogacy, fertility hormone testing). Please submit any family planning related receipts directly into Airbase, just as you would for any other reimbursement. Receipts for any expense over $25 are required.
@@ -174,7 +172,7 @@ For team members taking >2 weeks of leave
     - Coaching:
       - Ages 18+
 
-## **Returning from parental leave:**
+### Returning from parental leave
 
 Preparing for your first day back:
 
@@ -190,92 +188,94 @@ Preparing for your first day back:
   - Set up a 1-1 with your manager for your first day back to check in
   - Review the [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit) you and your manager put together prior to your leave as well as your 1-1 doc to catch up on in-progress projects and priorities.
 
-## **FAQs:**
+### FAQ
 
-## **All location FAQs:**
+#### FAQ for all Teammates (regardless of location)
 
-**Q:** Can I extend my parental leave past 16 weeks?
+##### Q: Can I extend my parental leave past 16 weeks?
 
-- A: You may request to extend your leave beyond 16 weeks, though any additional time off will be unpaid and must be approved by your manager and the People Team. If you plan to extend your leave past 16 weeks, please make sure you 1) notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) of your request for additional time off and, if approved, 2) update your return-to-work date and out-of-office plan, if need be.
+A: You may request to extend your leave beyond 16 weeks, though any additional time off will be unpaid and must be approved by your manager and the People Team. If you plan to extend your leave past 16 weeks, please make sure you 1) notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) of your request for additional time off and, if approved, 2) update your return-to-work date and out-of-office plan, if need be.
+
 - Please note:
   - Sourcegraph’s Paid Parental Leave policy is intended to ensure you receive full pay for at least 16 weeks following a qualifying birth event. However, some country-mandated parental leave laws may give eligible parents the right to take leave for longer than 16 weeks, potentially on a reduced pay or unpaid basis. If you are eligible for statutory leave that is longer than 16 weeks, we will work with you to clarify how our Paid Parental Leave policy works in conjunction with your statutory parental leave. Just so there’s no confusion: this Paid Parental Leave policy will not limit your rights to take your full statutory parental leave.
   - For any requests regarding extended leave due to medical reasons or statutory requirements, either prior to the birth-date or after the end of the paid parental period, please contact the People Team at people-ops@sourcegraph.com.
 
-**Q:** I just joined recently. Am I eligible for parental leave even though I haven’t been here for a year?
+##### Q: I just joined recently. Am I eligible for parental leave even though I haven’t been here for a year?
 
-- A: Yes! We do not have a waiting period for Paid Parental Leave.
+A: Yes! We do not have a waiting period for Paid Parental Leave.
 
-**Q:** What happens to my promotion eligibility?
+##### Q: What happens to my promotion eligibility?
 
-- A: Time taken on parental leave will not be factored into (e.g. not counted toward, nor negatively impact) internal mobility and/or promotion eligibility. Upon return from leave, promotion eligibility will resume; there is not a restart on the timeline. Please work with your Manager and People Partner to align on expectations and timeline based on your role and segment.
+A: Time taken on parental leave will not be factored into (e.g. not counted toward, nor negatively impact) internal mobility and/or promotion eligibility. Upon return from leave, promotion eligibility will resume; there is not a restart on the timeline. Please work with your Manager and People Partner to align on expectations and timeline based on your role and segment.
 
-**Q:** Does the same Paid Parental Leave policy apply to me if I’m a non-birthing caregiver?
+##### Q: Does the same Paid Parental Leave policy apply to me if I’m a non-birthing caregiver?
 
-- A: Yes! The same Paid Parental Leave policy and benefits apply to every teammate regardless of whether they are a birthing or non-birthing caregiver.
+A: Yes! The same Paid Parental Leave policy and benefits apply to every teammate regardless of whether they are a birthing or non-birthing caregiver.
 
-**Q:** If both parents work at Sourcegraph, can they each qualify for parental leave?
+##### Q: If both parents work at Sourcegraph, can they each qualify for parental leave?
 
-- A: Each parent is individually eligible for paid parental leave. The leave can be used by both parents either concurrently or non-concurrently.
+A: Each parent is individually eligible for paid parental leave. The leave can be used by both parents either concurrently or non-concurrently.
 
-**Q:** What if my parental leave start date or return-to-work date changes?
+##### Q: What if my parental leave start date or return-to-work date changes?
 
-- A: Please notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with your updated leave start date or return-to-work-date as soon as possible, and we will guide you on who else you need to inform depending on your location and employment status (PEO or Contractor), and whether approval is required.
+A: Please notify the People Team at [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) with your updated leave start date or return-to-work-date as soon as possible, and we will guide you on who else you need to inform depending on your location and employment status (PEO or Contractor), and whether approval is required.
 
-## **US-Teammate FAQs**
+#### FAQ for US-based Teammates
 
-**Q:** When should I add my child to my insurance? (_\*this only applies to US Employees)_
+##### Q: When should I add my child to my insurance? _(this only applies to US Employees)_
 
-- A: You will need to add your child within the first 30 days of their adoption date or birth date
+A: You will need to add your child within the first 30 days of their adoption date or birth date
 
-**Q:** How do I add my child to my insurance? (_\*this only applies to US Employees)_
+##### Q: How do I add my child to my insurance? _(this only applies to US Employees)_
 
-- A: Use Rippling to trigger a Qualifying Life Event
-  - Log into [Rippling](https://app.rippling.com/insurance/employee/overview/home)
-  - Click on the heart-shaped icon on the dashboard on the left
-  - Click “Insurance & Benefits”
-  - Select “Insurance” from the drop down menu
-  - Click “update my benefits”
-  - Select your Qualifying Life Event from the drop down menu
+A: Use Rippling to trigger a Qualifying Life Event
 
-**Q:** Can I change my health plans at the time of my child’s adoption or birth? (_\*this only applies to US Employees)_
+- Log into [Rippling](https://app.rippling.com/insurance/employee/overview/home)
+- Click on the heart-shaped icon on the dashboard on the left
+- Click “Insurance & Benefits”
+- Select “Insurance” from the drop down menu
+- Click “update my benefits”
+- Select your Qualifying Life Event from the drop down menu
 
-- A: Yes, when you trigger the Qualifying Life Event in [Rippling](https://app.rippling.com/insurance/employee/) you will have the option to select new insurance plans. You have 30 days from the birth date or adoption date to make your elections.
+##### Q: Can I change my health plans at the time of my child’s adoption or birth? _(this only applies to US employees)_
 
-**Q:** If I have questions about benefits such as PFL or FMLA, who should I reach out to? (_\*this only applies to US Employees)_
+A: Yes, when you trigger the Qualifying Life Event in [Rippling](https://app.rippling.com/insurance/employee/) you will have the option to select new insurance plans. You have 30 days from the birth date or adoption date to make your elections.
 
-- A: Your Sparrow contact will be the best point of contact for any national or state specific benefit questions.
+##### Q: If I have questions about benefits such as PFL or FMLA, who should I reach out to? _(this only applies to US employees)_
 
-## International-Teammate FAQs
+A: Your Sparrow contact will be the best point of contact for any national or state specific benefit questions.
 
-**Q:** What if my country of residence has statutory parental leave that differs from Sourcegraph’s Paid Parental Leave policy? Which do I follow? _(International Teammates only)_
+#### FAQ for non-US-based Teammates
 
-- A: International teammates are entitled to take any statutorily-provided parental leave for which they are eligible. We recognize that as a global company we need to account for variances in country-specific statutory parental leave. Our goal is to ensure, irrespective of the country-specific statutory policy, that all Sourcegraph teammates have at least 16 weeks of **paid** parental leave after a qualifying birth event. Some countries may provide maternity-/birthing parent-specific leaves that begin prior to the birthdate of the child, or may entitle individuals to take a period of leave after the qualifying birth event that is longer than 16 weeks. The focus of our Paid Parental Leave policy is to ensure that all teammates are enabled to take fully-paid time off after a qualifying birth event, irrespective of parental role or gender, to focus on their new family dynamic.
+##### Q: What if my country of residence has statutory parental leave that differs from Sourcegraph’s Paid Parental Leave policy? Which do I follow? _(International teammates only)_
 
-  **Example 1:** If the country of residence provides 6 weeks of maternity leave prior to the birthdate and also provides the option of 8 weeks of fully-paid parental leave after the birthdate, Sourcegraph will provide the teammate with 8 additional weeks of fully-paid parental leave after the birthdate to bring the total to 16 weeks. The 6 weeks of paid leave that are available only to the birthing parent before the child’s birth are not factored into paid parental leave eligibility or calculation under this policy. This general guidance may not account for all nuances within the context of the statutory requirements of the teammate's specific country. Please reach out to your People Partner for additional guidance.
+A: International teammates are entitled to take any statutorily-provided parental leave for which they are eligible. We recognize that as a global company we need to account for variances in country-specific statutory parental leave. Our goal is to ensure, irrespective of the country-specific statutory policy, that all Sourcegraph teammates have at least 16 weeks of **paid** parental leave after a qualifying birth event. Some countries may provide maternity-/birthing parent-specific leaves that begin prior to the birthdate of the child, or may entitle individuals to take a period of leave after the qualifying birth event that is longer than 16 weeks. The focus of our Paid Parental Leave policy is to ensure that all teammates are enabled to take fully-paid time off after a qualifying birth event, irrespective of parental role or gender, to focus on their new family dynamic.
 
-  **Example 2:** if the country of residence provides 52 weeks of unpaid parental leave to both birthing and non-birthing parents, Sourcegraph will ensure that at least 16 weeks of the leave the teammate chooses to take are **fully-paid**. The teammate would still be entitled to take the remainder of any statutory parental leave for which they are eligible, but time taken in addition to 16 weeks would be unpaid.
+**Example 1:** If the country of residence provides 6 weeks of maternity leave prior to the birthdate and also provides the option of 8 weeks of fully-paid parental leave after the birthdate, Sourcegraph will provide the teammate with 8 additional weeks of fully-paid parental leave after the birthdate to bring the total to 16 weeks. The 6 weeks of paid leave that are available only to the birthing parent before the child’s birth are not factored into paid parental leave eligibility or calculation under this policy. This general guidance may not account for all nuances within the context of the statutory requirements of the teammate's specific country. Please reach out to your People Partner for additional guidance.
 
-**Q:** Where can I find additional information on parental leave benefits for my specific country? (\*International Teammates Only)
+**Example 2:** if the country of residence provides 52 weeks of unpaid parental leave to both birthing and non-birthing parents, Sourcegraph will ensure that at least 16 weeks of the leave the teammate chooses to take are **fully-paid**. The teammate would still be entitled to take the remainder of any statutory parental leave for which they are eligible, but time taken in addition to 16 weeks would be unpaid.
 
-- A: This is dependent on whether you are employed via a PEO or engaged as a Contractor. Depending on the type of working relationship, there may be variances to how specific statutory parental leave benefits are accounted for.
+##### Q: Where can I find additional information on parental leave benefits for my specific country? _(International teammates only)_
+
+A: This is dependent on whether you are employed via a PEO or engaged as a Contractor. Depending on the type of working relationship, there may be variances to how specific statutory parental leave benefits are accounted for.
 
 If you are employed through **Deel**:
 
-- This [link](https://www.letsdeel.com/global-hiring-guide)provides details for all country specific employment requirements and regulations.
+- [Deel's global hiring guide](https://www.letsdeel.com/global-hiring-guide) provides details for all country specific employment requirements and regulations.
 - Contact: support@deel.com for any additional information or clarification of your country specific policy. Please Cc [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) on your support request.
 
 If you are employed through **Remote.com**:
 
-- This [link ](https://remote.com/country-explorer)provides details for all country specific employment requirements and regulations.
-- Contact: [userhappiness@remote.com](mailto:suserhappiness@remote.com) for any additional information or clarification of your country specific policy. Please Cc [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) on your support request.
+- [Remote's country explorer](https://remote.com/country-explorer) provides details for all country specific employment requirements and regulations.
+- Contact: [userhappiness@remote.com](mailto:userhappiness@remote.com) for any additional information or clarification of your country specific policy. Please Cc [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) on your support request.
 
 If you are engaged as an International Contractor:
 
 - Each country has varying requirements that dictate eligibility for statutory parental benefits. This is dependent on the working relationship type including, independent contractors and those who are self-employed. Given the varying country specific regulations, please contact [people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com) to receive guidance regarding statutory requirements you are eligible for and how Sourcegraph will cover any variances in total applicable paid leave to ensure you are getting the full 16 weeks of paid parental leave.
 
-## RESOURCES FOR MANAGERS
+## Resources for managers
 
-**Before the leave happens:**
+### Before the leave happens
 
 Steps to follow once informed of a leave:
 
@@ -287,18 +287,18 @@ Steps to follow once informed of a leave:
 
 **Step 2: Ensure the People Team is notified**
 
-- To make sure your teammate gets all the support they need, please remind them to notify People Ops of their upcoming parental leave (if they haven’t already) so that they can follow up with next steps and support them through their leave process!
+- To make sure your teammate gets all the support they need, please remind them to notify the People Team of their upcoming parental leave (if they haven’t already) so that they can follow up with next steps and support them through their leave process!
 
-**Step 2: Arrange out of office coverage**
+**Step 3: Arrange out of office coverage**
 
 - Ask the teammate to start working on their [Out of Office Plan](https://docs.google.com/document/d/1XfFl_JbyheCLIobG5gWhKvLibmPxZ5odt0_qgfya_3I/edit)
 - If you need a temporary worker, please reach out to the Talent team ([recruiting@sourcegraph.com](mailto:recruiting@sourcegraph.com)) or @talent in Slack.
 
-**During leave:**
+### During leave
 
 - Keep a running list in your 1:1 agenda of any significant updates to cover when your direct report is back from leave.
 
-**Returning to work:**
+### Returning to work
 
 **Schedule a check-in with your direct report on their first day back**
 
@@ -325,6 +325,6 @@ Steps to follow once informed of a leave:
 - Schedule additional 1-1s or office hours for your direct report to be able to easily reach out to you for help or support as they transition back into work.
 - Recognize that returning teammates may need additional support as they transition back. Work with your returning teammate to provide reasonable support beyond the first week as they ramp back up.
 
-## **RESOURCES FOR PEOPLE TEAM**
+## Resources for people team
 
 **([Coming Soon](https://docs.google.com/document/d/1eFDi0p2RpUm_R33kj09p32nljm9_yMZvu1EnXU8rEMM/edit))**
