@@ -87,7 +87,7 @@ docker ps
 
 You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) to interact with the containers.
 
-#### Accessing the Aurora external database
+#### Accessing the Cloud SQL
 
 _This instruction is intended as a temporary flow to enable AeE and Cloud engineer to access the Cloud SQL databases locally._
 
