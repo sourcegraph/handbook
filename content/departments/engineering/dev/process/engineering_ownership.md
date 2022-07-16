@@ -2,7 +2,7 @@
 
 The following table documents the ownership of our product and tech stack.
 
-If you see an area that is missing, [figure out](../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this table up to date, and teams should be sure to add to it as their ownership areas change or grow.
+If you see an area that is missing, [figure out](../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this list up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
 ## [Batch Changes](../../teams/batch-changes/index.md)
 
@@ -96,7 +96,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - sourcegraph/lsif-go
 - sourcegraph/lsif-node
 - sourcegraph/lsif-java
-- sourcegraph/lsif-clang\* sourcegraph/lsif-test
+- sourcegraph/lsif-clang\
+- sourcegraph/lsif-test
 
 ## [Content Platform](../../teams/content-platform/index.md)
 
@@ -124,7 +125,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - Deployment methods and configuration
 - Customer deployments and docs
-- Go Live Support\* Resource estimator
+- Go Live Support
+- Resource estimator
 - Health status tooling
 - Product education and documentation around delivery
 - Multi-version upgrades
@@ -175,7 +177,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Feedback and NPS widgets
 - Global keyboard shortcuts
 - Color theme
-- Code view header selectors and file path\* Repositories page tree, commits, branches, tags, and compare tabs and pages
+- Code view header selectors and file path
+- Repositories page tree, commits, branches, tags, and compare tabs and pages
 - Core navigation of the user settings page and product research page
 - Core navigation of site admin page
 - Commit diff view
@@ -234,7 +237,9 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - Create and manage extensions from the extensions registry
 - Search and filter extensions
-- Activate/deactivate and enable/disable extensions* Extension action items panel, extension line and file decorations, status bar* Command palette
+- Activate/deactivate and enable/disable extensions
+- Extension action items panel, extension line and file decorations, status bar
+- Command palette
 
 ## [Repo Management](../../teams/repo-management/index.md)
 
@@ -279,7 +284,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Search queries and results
 - Diff/commit and structural search
 - Code monitoring
-- Saved searches\* Notebooks
+- Saved searches
+- Notebooks
 
 ### User journeys
 
