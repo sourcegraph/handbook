@@ -37,6 +37,7 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
   }
   .color-palette .color-sm {
     width: 6rem;
+    min-width: 104px;
     height: 8rem;
   }
   .color-palette .color-lg {
@@ -103,8 +104,8 @@ Use supporting colors for graphic elements, illustrations, callouts, website UI 
 
 Primary logo colors have been marked. The secondary colors, along with shades and tints, were chosen to support and compliment these three core colors.
 
-<div class="color-palette interactive">
-  <div class="color-palette-column">
+<div class="color-palette interactive" style="gap: 0rem">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #fff2cf">
       <code>#fff2cf</code>
       <small>Lemon 200</small>
@@ -122,7 +123,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Lemon 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #ffdfdc">
       <code>#ffdfdc</code>
       <small>Vermillion 100</small>
@@ -145,7 +146,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Vermillion 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #ffdff5">
       <code>#ffdff5</code>
       <small>Cerise 100</small>
@@ -171,7 +172,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Cerise 600</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #eedfff">
       <code>#eedfff</code>
       <small>Violet 100</small>
@@ -198,7 +199,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Violet 600</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #dbdbff">
       <code>#dbdbff</code>
       <small>Blurple 100</small>
@@ -220,7 +221,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Blurple 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #dcfefe">
       <code>#dcfefe</code>
       <small>Blue 100</small>
@@ -243,7 +244,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Blue 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #d2fff1">
       <code>#d2fff1</code>
       <small>Green 100</small>
@@ -265,7 +266,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Green 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #ffffff">
       <code>#ffffff</code>
       <small>White</small>
