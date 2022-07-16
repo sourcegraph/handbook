@@ -4,23 +4,233 @@ The following table documents the ownership of our product and tech stack.
 
 If you see an area that is missing, [figure out](../../product/process/feedback/surfacing_product_feedback.md) who the right owner is and add it to the appropriate team. If you can't figure out who the right owner is, post in #eng-leads. It's up to all of us to keep this table up to date, and teams should be sure to add to it as their ownership areas change or grow.
 
-<!-- prettier-ignore -->
-| Team | General ownership | User journey ownership | Tooling ownership | GitHub / Repository ownership|
-|------|-------------------|------------------------|-------------------|------------------------------|
-| [Batch Changes](../../teams/batch-changes/index.md) | <ul><li>Batch Changes</li><li>Executors</li><li>src-cli maintenance</li></ul> | <ul><li>View lists of batch changes globally, by organization, or by individual</li> <li>Configure credentials for publishing changesets</li> <li>Create, edit, and execute a batch spec</li> <li>View active batch spec execution</li> <li>Preview results of executing a batch spec</li> <li>Preview a changeset diff from an executed batch diff</li> <li>Set changesets to publish from the preview of a batch spec</li> <li>Apply a batch spec</li> <li>View the status, burndown chart, and previously executed specs of an open batch change</li> <li>Perform a bulk operation on changeset for an open batch change</li> <li>Close a batch change</li> <li>As an admin, configure and view webhooks for a code host connection, add a global access token to use with batch changes, view a list of all batch specs that have been executed.</li></ul> | | <ul><li>sourcegraph/batch-change-examples</li><li>sourcegraph/src-cli</li></ul> |
-| Cloud (Managed Instances) | Production support and on-call of single-tenant managed instances</li> "Continuous delivery" and deployment tooling | | | |
-| [Code Insights](../../teams/code-insights/index.md) | <ul><li>Backend and frontend development of all code insights features</li> <li>Code insights support</li> <li>Chart libraries in the UI (visx) </li></ul>| <ul><li>Discover code insights</li> <li>Create insights through dashboard or search result</li> <li>Add insight to a dashboard</li> <li>Create and edit dashboards</li> <li>Drill down insights</li> <li>Edit, share, and delete insights</li> <li>View insights</li> <li>Filter insights by context or repo regex</li> <li>Limited access mode/licensing gating features for code insights license tag</li> <li>code insights graphql API to create/read/edit/delete insights and dashboards</li> <li>File page hover tooltips</li></ul> | | <ul><li>sourcegraph/code-insights-scratch</li></ul> |
-| [Code Intelligence](../../teams/code-intelligence/index.md) | <ul><li>Code intelligence API</li> Model for dependency relationships across projects, repositories, and languages</li> <li>Infrastructure to precise index code, and update and query it</li> <li>Syntax highlighter</li> <li>Blob storage</li> <li>Executors</li></ul> | <ul><li>Fuzzy file search through a repository</li> <li>Navigate through directory tree in a repository</li> <li>Search symbols for a repository</li> <li>Go to definition from symbol</li> <li>Find references and implentations for a symbol</li> <li>Inspect and modify LSIF/SCIP uploads for a repository or instance</li> <li>Inspect auto-indexing jobs for a repository or index</li> <li>Edit auto-indexing policies or congfiguration for a repository or instance.</li></ul> | | <ul><li>lsif/lsif.github.io</li> <li>sourcegraph-codeintel-showcase</li> <li>sourcegraph/codeintelutils</li> <li>sourcegraph/code-intel-extensions</li> <li>sourcegrap/codeintellify</li> <li>sourcegraph/lsif-go</li> <li>sourcegraph/lsif-node</li> <li>sourcegraph/lsif-java</li> <li>sourcegraph/lsif-clang</li> <li>sourcegraph/lsif-test</li></ul> |
-| [Content Platform](../../teams/content-platform/index.md) | <ul><li>Technical matters related to marketing platform, blog, Learn site, handbook, and docs</li></ul> | | <ul><li>Netlify</li> <li>BrowserStack</li> <li>Swiftype</li></ul> | <ul><li>sourcegraph/about (incl. blog)</li> <li>sourcegraph/handbook</li> <li>sourcegraph/learn</li> <li>sourcegraph/docsite</li></ul> |
-| [Delivery](../../teams/delivery/index.md) (and Delivery Tiger Team) | <ul><li>Deployment methods and configuration</li> <li>Customer deployments and docs</li> <li>Go Live Support</li> <li>Resource estimator</li> <li>Health status tooling</li> <li>Product education and documentation around delivery</li> <li>Multi-version upgrades</li></ul> | | | |
-| [Developer Experience](../../teams/dev-experience/index.md) | <ul><li>Continuous integration tooling, support, pipelines, infrastructure, and playbook</li> <li>Error types, logging, alerts, and monitoring for backend services</li> <li>Backend testing standards, libraries, and infrastructure</li> <li>Packaging infrastructure</li> <li>SOC2 compliance around the software development lifecycle, testing, and CI</li> <li>Production support and on-call of DotCom environment</li> <li>GCP cost savings</li> <li>Observability tooling for DotCom environment</li> <li>Dogfood/Pre-prod and other test environments</li> <li>Code host QA instances</li> <li>DNS</li></ul> | | <ul><li>sg</li> <li>Contributor Licence Agreement (CLA) bot</li> <li>Monitoring generator</li> <li>Github and Github Applications</li> <li>Buildkite</li> <li>OkayHQ</li> <li>Sentry.io</li> <li>Geekbot</li><ul> | |
-| [Frontend Platform](../../teams/frontend-platform/index.md) | <ul><li>Client-side error monitoring</li> <li>Frontend testing standards, libraries, and infrastructure</li> <li>Frontend coding standards (Typescript, HTML, CSS)</li> <li>Cross-cutting frontend metrics</li> <li>Wildcard Component Library</li> <li>WCAG compliance (Accessibility)</li></ul> | <ul><li>Global navigation bar</li> <li>User profile menu and dropdown</li> <li>Global footer</li> <li>Feedback and NPS widgets</li> <li>Global keyboard shortcuts</li> <li>Color theme</li> <li>Code view header selectors and file path</li> <li>Repositories page tree, commits, branches, tags, and compare tabs and pages</li> <li>Core navigation of the user settings page and product research page</li> <li>Core navigation of site admin page</li> <li>Commit diff view</li> <li>Non-code file view</li> <li>Code panel file history view</li></ul> | <ul><li>Gitstart</li> <li>TPGi</li> <li>Chromatic</li> <li>Storybook</li> <li>Webpack</li></ul> | |
-| [Identity and Access Management (IAM)](../../teams/iam/index.md) | <ul><li>E2E Permissions (RBAC for features and Repo Permissions)</li> <li>Repository permission syncing</li> <li>Permission caching</li> <li>Explicit permissions API</li> <li>Identity and access management</li> <li>Sign-in/Sign-up UI</li> <li>Administration experience and teams management</li> <li>Subscription management</li> <li>Pricing and packaging</li> <li>Billing, invoicing, and payments</li> <li>Usage reporting and entitlement enforcement</li> <li>Licensing models</li></ul> | <ul><li>Sign-up through email, GitHub, GitLab</li> <li>Sign-in through e-mail, GitHub, GitLab</li> <li>Global configuration notifications and repo syncing notifications</li> <li>User profile</li> <li>User emails</li> <li>User privacy</li> <li>Organization settings</li> <li>Organization members</li> <li>Organization invitations </li><ul>| | |
-| [Integrations](../../teams/integrations/index.md) | <ul><li>Sourcegraph extension API</li> <li>Third-party extensions</li> <li>Extensions registry and toolsets</li> <li>Code host integrations</li> <li>Browser extensions</li> <li>IDE and third-party code view integrations</li></ul> | <ul><li>Create and manage extensions from the extensions registry</li> <li>Search and filter extensions</li> <li>Activate/deactivate and enable/disable extensions</li> <li>Extension action items panel, extension line and file decorations, status bar</li> <li>Command palette</li></ul> | | |
-| [Repo Management](../../teams/repo-management/index.md) | <ul><li>Code host connections (GitHub, GitLab, BitBucket, Perforce, CVS, Gerrit)</li> <li>Code replication into Sourcegraph</li> <li>Code storage within Sourcegraph</li> <li>Support and maintenance around authentication</li> <li>One-click export</li> <li>CVS importer </li></ul>| <ul><li>Add new codehost connection</li><li>Add repositories</li><li>Sync public repositories</li><li>Sync all or individual repositories</li></ul> | | |
-| [Search Core](../../teams/search/core.md) | <ul><li>Indexed and unindexed search</li> <li>Diff/commit search</li> <li>Result ranking</li> <li>Open source indexing</li></ul> | | <ul><li>Zoekt</li></ul> | <ul><li>sourcegraph/zoekt</li> <li>sourcegraph/sourcegraph</li><li>sourcegraph/search-scratch</li></ul> |
-| [Search Product](../../teams/search/product.md) | <ul><li>Search queries and results</li> <li>Diff/commit and structural search</li> <li>Code monitoring</li> <li>Saved searches</li> <li>Notebooks</li></ul> | <ul><li>Search using the search box</li> <li>View recent search activity, community search activity, and saved searches</li> <li>View progress of an executed search, results, and tips for no results</li> <li>Modify search queries in the sidebar</li> <li>Manage search context</li> <li>Add, edit, and delete saved searches</li> <li>Create, view details, filter, edit, disable, and copy code monitors</li> <li>Send email and Slack notifications from a code monitor</li> <li>Create, search, view, edit, update permissions, delete, copy, export, favorite, run, and manage blocks for notebooks</li> <li>Add searches and files to the notepad and edit or delete added items</li> <li>Create a notebook from notepad items.</li></ul> | | |
-| [Security](../../teams/security/index.md) | <ul><li>Security infrastructure, tooling, vulnerability reports, incident response, and external communications</li> <li>Compliance</li> <li>3rd party security vendor relationships and risk management</li> <li>Customer risk management</li></ul> | | <ul><li>Cloudflare</li> <li>HackerOne</li></ul> | |
+## [Batch Changes](../../teams/batch-changes/index.md)
+### General
+* Batch Changes
+* Executors
+* src-cli maintenance
+### User journeys
+* View lists of batch changes globally, by organization, or by individual
+* Configure credentials for publishing changesets
+* Create, edit, and execute a batch spec
+* View active batch spec execution
+* Preview results of executing a batch spec
+* Preview a changeset diff from an executed batch diff
+* Set changesets to publish from the preview of a batch spec
+* Apply a batch spec
+* View the status, burndown chart, and previously executed specs of an open batch change
+* Perform a bulk operation on changeset for an open batch change
+* Close a batch change* As an admin, configure and view webhooks for a code host connection, add a global access token to use with batch changes, view a list of all batch specs that have been executed.
+### Repositories
+* sourcegraph/batch-change-examples
+* sourcegraph/src-cli
+## Cloud (Managed Instances)
+### General
+* Production support and on-call of single-tenant managed instances
+* "Continuous delivery" and deployment tooling
+## [Code Insights](../../teams/code-insights/index.md)
+### General
+* Backend and frontend development of all code insights features
+* Code insights support
+* Chart libraries in the UI (visx)
+### User journeys
+* Discover code insights
+* Create insights through dashboard or search result
+* Add insight to a dashboard
+* Create and edit dashboards
+* Drill down insights
+* Edit, share, and delete insights
+* View insights
+* Filter insights by context or repo regex
+* Limited access mode/licensing gating features for code insights license tag
+* code insights graphql API to create/read/edit/delete insights and dashboards
+* File page hover tooltips
+### Repositories
+* sourcegraph/code-insights-scratch
+## [Code Intelligence](../../teams/code-intelligence/index.md)
+### General
+* Code intelligence API
+* Model for dependency relationships across projects, repositories, and languages
+* Infrastructure to precise index code, and update and query it
+* Syntax highlighter
+* Blob storage
+* Executors
+### User journeys
+* Fuzzy file search through a repository
+* Navigate through directory tree in a repository
+* Search symbols for a repository
+* Go to definition from symbol
+* Find references and implentations for a symbol
+* Inspect and modify LSIF/SCIP uploads for a repository or instance
+* Inspect auto-indexing jobs for a repository or index
+* Edit auto-indexing policies or congfiguration for a repository or instance.
+### Repositories
+* lsif/lsif.github.io
+* sourcegraph-codeintel-showcase
+* sourcegraph/codeintelutils
+* sourcegraph/code-intel-extensions
+* sourcegrap/codeintellify
+* sourcegraph/lsif-go
+* sourcegraph/lsif-node
+* sourcegraph/lsif-java
+* sourcegraph/lsif-clang* sourcegraph/lsif-test
+## [Content Platform](../../teams/content-platform/index.md)
+### General
+* Technical matters related to marketing platform, blog, Learn site, handbook, and docs
+### Tooling
+* Netlify
+* BrowserStack
+* Swiftype
+* Cookiebot
+### Repositories
+* sourcegraph/about (incl. blog)
+* sourcegraph/handbook
+* sourcegraph/learn
+* sourcegraph/docsite
+## [Delivery](../../teams/delivery/index.md) (and Delivery Tiger Team)
+### General
+* Deployment methods and configuration
+* Customer deployments and docs
+* Go Live Support* Resource estimator
+* Health status tooling
+* Product education and documentation around delivery
+* Multi-version upgrades
+## [Developer Experience](../../teams/dev-experience/index.md)
+### General
+* Continuous integration tooling, support, pipelines, infrastructure, and playbook
+* Error types, logging, alerts, and monitoring for backend services
+* Backend testing standards, libraries, and infrastructure
+* Packaging infrastructure
+* SOC2 compliance around the software development lifecycle, testing, and CI
+* Production support and on-call of DotCom environment
+* GCP cost savings
+* Observability tooling for DotCom environment
+* Dogfood/Pre-prod and other test environments
+* Code host QA instances
+* DNS
+### Tooling
+* sg
+* Contributor Licence Agreement (CLA) bot
+* Monitoring generator
+* Github and Github Applications
+* Buildkite
+* OkayHQ
+* Sentry.io
+* Geekbot
+## [Frontend Platform](../../teams/frontend-platform/index.md)
+### General
+* Client-side error monitoring
+* Frontend testing standards, libraries, and infrastructure
+* Frontend coding standards (Typescript, HTML, CSS)
+* Cross-cutting frontend metrics
+* Wildcard Component Library
+* WCAG compliance (Accessibility)
+### User journeys
+* Global navigation bar
+* User profile menu and dropdown
+* Global footer
+* Feedback and NPS widgets
+* Global keyboard shortcuts
+* Color theme
+* Code view header selectors and file path* Repositories page tree, commits, branches, tags, and compare tabs and pages
+* Core navigation of the user settings page and product research page
+* Core navigation of site admin page
+* Commit diff view
+* Non-code file view
+* Code panel file history view
+### Tooling
+* Gitstart
+* TPGi
+* Chromatic
+* Storybook
+* Webpack
+## [Identity and Access Management (IAM)](../../teams/iam/index.md)
+### General
+* E2E Permissions (RBAC for features and Repo Permissions)
+* Repository permission syncing
+* Permission caching
+* Explicit permissions API
+* Identity and access management
+* Sign-in/Sign-up UI
+* Administration experience and teams management
+* Subscription management
+* Pricing and packaging
+* Billing, invoicing, and payments
+* Usage reporting and entitlement enforcement
+* Licensing models
+### User journeys
+* Sign-up through email, GitHub, GitLab
+* Sign-in through e-mail, GitHub, GitLab
+* Global configuration notifications and repo syncing notifications
+* User profile
+* User emails
+* User privacy
+* Organization settings
+* Organization members
+* Organization invitations
+## [Integrations](../../teams/integrations/index.md)
+### General
+* Sourcegraph extension API
+* Third-party extensions
+* Extensions registry and toolsets
+* Code host integrations
+* Browser extensions
+* IDE and third-party code view integrations
+### User journeys
+* Create and manage extensions from the extensions registry
+* Search and filter extensions
+* Activate/deactivate and enable/disable extensions* Extension action items panel, extension line and file decorations, status bar* Command palette
+## [Repo Management](../../teams/repo-management/index.md)
+### General
+* Code host connections (GitHub, GitLab, BitBucket, Perforce, CVS, Gerrit)
+* Code replication into Sourcegraph* Code storage within Sourcegraph
+* Support and maintenance around authentication
+* One-click export
+* CVS importer
+### User journeys
+* Add new codehost connection
+* Add repositories
+* Sync public repositories
+* Sync all or individual repositories
+## [Search Core](../../teams/search/core.md)
+### General
+* Indexed and unindexed search
+* Diff/commit search
+* Result ranking
+* Open source indexing
+### Tooling
+* Zoekt
+### Repositories
+* sourcegraph/zoekt
+* sourcegraph/sourcegraph
+* sourcegraph/search-scratch
+## [Search Product](../../teams/search/product.md)
+### General
+* Search queries and results
+* Diff/commit and structural search
+* Code monitoring
+* Saved searches* Notebooks
+### User journeys
+* Search using the search box
+* View recent search activity, community search activity, and saved searches
+* View progress of an executed search, results, and tips for no results
+* Modify search queries in the sidebar
+* Manage search context
+* Add, edit, and delete saved searches
+* Create, view details, filter, edit, disable, and copy code monitors
+* Send email and Slack notifications from a code monitor
+* Create, search, view, edit, update permissions, delete, copy, export, favorite, run, and manage blocks for notebooks
+* Add searches and files to the notepad and edit or delete added items
+* Create a notebook from notepad items.
+## [Security](../../teams/security/index.md)
+### General
+* Security infrastructure, tooling, vulnerability reports, incident response, and external communications
+* Compliance
+* 3rd party security vendor relationships and risk management
+* Customer risk management
+### Tooling
+* Cloudflare
+* HackerOne
 
 ## Owners files
 
