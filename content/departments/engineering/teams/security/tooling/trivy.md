@@ -35,8 +35,6 @@ Once Trivy is installed running scans on images is easy:
 trivy image --severity "HIGH,CRITICAL" <IMAGE>:insiders
 ```
 
-
-
 This scans an image for High/Critical CVEs. The `-f json` flag can be used to output data in JSON format, which includes a lot more information on the vulnerable components and versions.
 
 ## Accepted vulnerabilities and false positives
