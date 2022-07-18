@@ -121,4 +121,3 @@ A highly tactical conversation based on the supplied weekly report. Topics inclu
   - Highlighting key milestones
   - Running through specific tasks expected to be completed this week and next.
 - Where: Zoom meeting scheduled by EBP to CEO
-
