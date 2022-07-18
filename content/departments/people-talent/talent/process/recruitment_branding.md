@@ -71,7 +71,7 @@ Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.138065992
 
 ### Before posting to a job board:
 
-In order to assess the return on investment for any given job board, it is critical that we create custom sources and tracking links in Greenhouse. This will allow us to capture data on where applicants are applying from. 
+In order to assess the return on investment for any given job board, it is critical that we create custom sources and tracking links in Greenhouse. This will allow us to capture data on where applicants are applying from.
 
 Please follow these instructions:
 
