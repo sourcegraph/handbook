@@ -316,6 +316,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - HackerOne
 
 ## Individual Contributors
+
 - [Thorsten Ball](https://handbook.sourcegraph.com/team/#thorsten-ball): Dependency search
 
 ## Owners files
