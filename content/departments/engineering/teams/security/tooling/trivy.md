@@ -13,7 +13,17 @@ The CI scan is used to catch CVEs in new components. It acts on non-blocking mod
 
 ## Running Trivy locally
 
-Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/):
+### Sourcegraph Trivy docker image
+
+We can run the same image as the CronJob locally and have results uploaded to the GCP bucket. Authentication to GCP is necessary. Run the image with:
+
+```
+docker run -it -v ~/.config/gcloud:/.config/gcloud us.gcr.io/sourcegraph-security-logging/trivy-sg:latest
+```
+
+### Trivy binary
+
+You can also install Trivy and scan specific images. Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/):
 
 ```
 brew install aquasecurity/trivy/trivy
@@ -24,6 +34,8 @@ Once Trivy is installed running scans on images is easy:
 ```
 trivy image --severity "HIGH,CRITICAL" <IMAGE>:insiders
 ```
+
+
 
 This scans an image for High/Critical CVEs. The `-f json` flag can be used to output data in JSON format, which includes a lot more information on the vulnerable components and versions.
 
