@@ -109,7 +109,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
-  yarn release release:close
+  yarn release release:announce
   ```
 
 ### Post-release
