@@ -87,8 +87,6 @@ The Cloud team will define FY23 roadmap in upcoming weeks.
 
 > NOTE: Please first read [the customer-facing managed instance documentation](https://docs.sourcegraph.com/admin/install/managed) to understand what managed instances are and what we provide.
 
-Managed instances offer a backup alternative for using Sourcegraph when a customer either can't or, for some reason, won't deploy Sourcegraph self-hosted.
-
 See below for the SLAs and Technical implementation details (including Security) related to managed instances.
 
 Please message [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) for any answers or information missing from this page.
@@ -103,8 +101,8 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 Customer Engineers (CE) or Sales may request to:
 
 - **Create a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
-  - **After ruling out a self-hosted deployment** and [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
   - For new customers or prospects who currently do not have a managed instance.
+  - After [determining a managed instance is viable for a customer/prospect](https://docs.sourcegraph.com/admin/install/managed)
 - **Suspend a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fsuspension-request&template=managed-instance-suspend.md&title=Managed+Instance+suspension+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
 - **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
@@ -129,7 +127,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 
 |                                               | Description                                            | Response time                                 | Resolution time                               |
 | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement         |
 | Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                      |
