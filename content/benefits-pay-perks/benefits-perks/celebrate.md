@@ -4,21 +4,12 @@ Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings
 
 **The People team is currently revamping our swag and gifting policies and will announce updates soon.**
 
-## Who is responsible
+## Teammate Gatherings
 
-### Teammate Gatherings:
+Who is responsible:
 
 - Teammates are responsible for submitting their own receipts for reimbursement when individually utilizing the [Teammate Gatherings](#teammate-gatherings) budget.
 - Managers are responsible for submitting their team's receipt for reimbursement if they're booking for the whole team.
-
-### Celebrations: Birthdays and work anniversaries
-
-**Managers own celebrating their teammates' birthdays and work anniversaries.**
-
-- Best practices for [celebrating a teammate's birthday](#best-practices-for-celebrating-a-teammates-birthday)
-- Best practices for [celebrating a teammate's work anniversary](#best-practices-for-celebrating-a-teammates-work-anniversary)
-
-## Teammate Gatherings
 
 ### Virtual Gatherings
 
@@ -28,13 +19,18 @@ In addition to our travel budget for in-person meetups, we encourage teams to ga
 
 As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. As such, each teammate has $150 per person per quarter to spend on a gathering of their choice (in addition to travel budgets). This budget can be used for a wide array of activities including meals, transportation, etc. We will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts. This can be expensed under the "Team Travel" categories.
 
-## Work Anniversaries
+## Celebrations
 
-We love celebrating work anniversaries! Each manager is responsible for celebrating their teammates' yearly milestones here at Sourcegraph. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
+**Managers are responsible for celebrating their teammates' birthdays and work anniversaries.**
 
-To celebrate anniversaries, managers can send gifts to their direct reports according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below.
+- Best practices for [birthdays](#best-practices-for-celebrating-a-teammates-birthday)
+- Best practices for [work anniversaries](#best-practices-for-celebrating-a-teammates-work-anniversary)
 
-### Best practices for celebrating a teammate's work anniversary
+### Work Anniversaries
+
+We love celebrating work anniversaries! Each manager is responsible for celebrating their teammates' yearly milestones and sending a gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
+
+### Best practices for celebrating a work anniversary
 
 - The manager posts a written or video message in the `#thanks` channel
 - Post suggestions:
@@ -43,21 +39,13 @@ To celebrate anniversaries, managers can send gifts to their direct reports acco
   - TIP: You can pre-schedule your Slack messages to send on the correct dates!
 - The manager [sends a gift](#how-to-send-a-gift) within the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
 
-### Gift amount policy for anniversaries
-
-Anniversary gifts should not exceed the following amounts per teammate and per year:
-
-- Year 1: $50 USD
-- Year 2: $75 USD
-- Year 3: $100 USD
-- Year 4: $200 USD
-- Year 5+: $250 USD
-
-## Birthdays
+### Birthdays
 
 Sourcegraph encourages teammates to take a day of vacation on their special day in alignment with our [**Paid Time Off Policy**](https://docs.google.com/document/d/1nqkTF_e32wx_WMw5Y1a2C8iyh-iRtIcC9Mc54YwPSko/edit). If your celebration happens to fall over a weekend please be sure to take an alternate day such as the Friday prior or the Monday after.
 
-### Best practices for celebrating a teammate's birthday:
+Each manager is responsible for sending their direct reports a birthday gift according to the [gift amount policy](#gift-amount-policy-for-anniversaries) detailed below. Managers can easily access all teammate birthdays by checking their Bamboo HR homepage.
+
+### Best practices for celebrating a birthday:
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will post about the occasion in slack and offer a gift.
 
@@ -70,14 +58,25 @@ Be considerate of all teammates and acknowledge that not everybody likes to be i
 
 To add the BambooHR "Birthdays" calendar to your Google Calendar, please use [this link](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665) and perform the following steps:
 
-- Go to **Google Calendar**
-- Click **Settings**
+- Open your **Google Calendar Settings**
 - Click **Add calendar**
 - Click **From URL**
 - Paste link in **URL of calendar** box
 - Click **Add calendar**.
 
-### Gift amount policy for birthdays
+### Gift amount policies
+
+#### Anniversaries
+
+Anniversary gifts should not exceed the following amounts per teammate and per year:
+
+- Year 1: $50 USD
+- Year 2: $75 USD
+- Year 3: $100 USD
+- Year 4: $200 USD
+- Year 5+: $250 USD
+
+#### Birthdays
 
 Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
