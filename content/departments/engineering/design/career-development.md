@@ -486,7 +486,7 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
       <td class="category-summary execution">
         <div class="wrapper">
-          Leading standards and key business initatives across group
+          Leading standards and key business initiatives across group
         </div>
       </td>
       <td class="category-summary teamwork">
