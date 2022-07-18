@@ -1,25 +1,13 @@
-# Teammate Gatherings and Celebrations
+# Teammate Celebrations & Gatherings
 
-Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings outside of work. We also like to celebrate, and we like to celebrate _you_! Use this guide for team gatherings and to celebrate your teammates' birthdays, anniversaries, and source some really great gift ideas.
+Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings outside of work. We also like to celebrate, and we like to celebrate _you_! Use this guide for team gatherings and to celebrate your teammates' milestones.  Recommended milestones to celebrate include: 
 
-**The People team is currently revamping our swag and gifting policies and will announce updates soon.** Until then, managers will own celebrating their teammates' birthdays and work anniversaries. We suggest posting about the occasion in the `#thanks` channel and then letting the teammate know they can expense $XX to celebrate.
+- anniversaries
+- birthdays
+- promotions
+- new babies
 
-Please follow the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries) and [birthday gift amount policy](#gift-amount-policy-for-birthdays).
-
-Posting suggestions:
-
-- Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
-- Highlight their key contributions and impact they've made
-
-## Team Virtual Gatherings
-
-In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $150 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com). This can be expensed under the "Team Travel" categories.
-
-## Teammate In-Person Gatherings
-
-As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. As such, each teammate has $150 per person per quarter to spend on a gathering of their choice (in addition to travel budgets). This budget can be used for a wide array of activities including meals, transportation, etc. We will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts. This can be expensed under the "Team Travel" categories.
-
-## Anniversaries
+## Anniversaries 
 
 We like to take the time to celebrate big milestones for teammates who have hit their yearly anniversaries (_and beyond_)! It is Sourcegraph custom for the manager of a teammate who has hit a yearly milestone to record a video message highlighting their accomplishments. This message is then posted in #thanks. Managers can easily access all teammate anniversaries by checking their Bamboo HR homepage.
 
@@ -50,6 +38,42 @@ To add the BambooHR "Birthdays" calendar to your Google Calendar, please use thi
 - Paste link in **URL of calendar** box
 - Click **Add calendar**.
 
+### Gift amount policy for birthdays
+
+Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+
+## Promotions
+COMING SOON
+
+## Life events
+COMING SOON
+
+## Gift ideas 
+
+**The People team is currently revamping our swag and gifting policies and will announce updates soon.** Until then, managers will own celebrating their teammates' milestone events (birthdays, anniversaries, promotions, and life events). 
+
+For **anniversaries**, we suggest posting about the occasion in the `#thanks` channel and then letting the teammate know they can expense $XX to celebrate.
+
+Sample post:
+- "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph! `Insert highlights re: their key contributions and impact`"
+
+For **birthdays**, we suggest posting in a team channel or sending a #slack directly to the teammate. 
+
+Sample post: 
+- Wishing the amazing @teammate the BEST birthday today. Teammate Name - I am so appreciative of everything you do and couldn't imagine this team without you  :heart: :tada: :birthday: treat yourself (and expense) with $50 from us!
+
+You are welcome to 1. send a gift directly, or 2. tell the Teammate that they can treat themselves and submit for reimbusment directly.  If you chose the 2nd option, following your post in #Slack, please ping the Teammate directly and let them know they can purchase a gift and submit it for reimbursement. Please be sure to follow the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries) and [birthday gift amount policy](#gift-amount-policy-for-birthdays).  
+
+## Other personal milestones
+
+Other personal milestones such as promotion, marriage, baby announcement, and so forth, can be celebrated at the discretion of teammates. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
+
+## Virtual Gatherings
+
+In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. 
+
+Each team has **$150 per person per quarter** to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com). This can be expensed under the "Team Travel" categories.
+
 _Need a little help on what to get? Here’s a few of our favorite things:_
 
 - Ordering for breakfast or lunch! Send your teammate a giftcard for a local food delivery service in their area _(International)_
@@ -60,13 +84,11 @@ _Need a little help on what to get? Here’s a few of our favorite things:_
 - [Farmgirl Flowers: For those who like to stop and smell the roses](https://farmgirlflowers.com/) _(US)_
 - [Goldbelly Gift Card: For the foodies](https://www.goldbelly.com/) _(US)_
 
-### Gift amount policy for birthdays
+## Sending gifts via mail
 
-Birthday gifts should not exceed **$50 USD** _per teammate_. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
+If you require a teammate's address to send a gift, please ask the teammate directly if they are comfortable sharing their address for gift purposes. (While People Ops and managers do have access to address information, it is considered confidential and just as with other information of sensitive nature, we are unable to share it as with others).
 
-## Other personal milestones
-
-Other personal milestones such as promotion, marriage, baby announcement, and so forth, can be celebrated at the discretion of teammates. Sourcegraph does not have a budget for celebrating these milestones as they are not experienced by every person on a regular cadence. However, teammates are still welcome to celebrate these milestones if they choose!
+_Happy celebrating!_
 
 ## Branded swag
 
@@ -77,13 +99,5 @@ Other personal milestones such as promotion, marriage, baby announcement, and so
 **External requests:**
 
 - See how to [send swag](../../departments/marketing/swag.md) to people outside of Sourcegraph.
-
-## Sending gifts via mail
-
-If you require a teammate's address to send a gift, please ask the teammate directly if they are comfortable sharing their address for gift purposes. (While People Ops and managers do have access to address information, it is considered confidential and just as with other information of sensitive nature, we are unable to share it as with others).
-
-_Happy celebrating!_
-
----
 
 For any additional questions, feel free to reach out to people-ops@sourcegraph.com or the [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) channel in Slack.
