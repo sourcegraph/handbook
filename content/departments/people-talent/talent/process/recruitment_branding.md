@@ -18,6 +18,7 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
   - View [this folder](https://drive.google.com/drive/u/0/folders/1wE3IGJ5WF5fYIm7h6BOA9z_kUAieInsE) full of LinkedIn post examples to provide some inspiration!
   - [Talent team LinkedIn content library](https://docs.google.com/spreadsheets/d/1j8mzReq4FTNrxFC8-4moSWunwPynUpgllo2_dshcwCQ/edit#gid=0)
+  - Editable ['We're Hiring' Figma templates](https://www.figma.com/file/XXHx1E5zptZXvVXhf4YHAW/Hiring-social-imagery-templates?node-id=623%3A54) and [Loom Tutorial](https://www.loom.com/share/f03bdf8745af411481fa51e3a5a0f54d)
 - View the "Recommendations from Sourcegraph" section on [Sourcegraph's LinkedIn Profile](https://www.linkedin.com/company/sourcegraph) to find recent updates and articles to share
 
 #### LinkedIn Posting Best Practices
@@ -30,6 +31,7 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 - Copy options for Twitter
   - Click to tweet: https://ctt.ac/k23tL
   - Click to tweet: https://ctt.ac/dxqE5
+- Editable ['We're Hiring' Figma templates](https://www.figma.com/file/XXHx1E5zptZXvVXhf4YHAW/Hiring-social-imagery-templates?node-id=623%3A54) and [Loom Tutorial](https://www.loom.com/share/f03bdf8745af411481fa51e3a5a0f54d)
 
 ### Company content to share:
 
