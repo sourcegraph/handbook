@@ -127,7 +127,7 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 
 |                                               | Description                                            | Response time                                 | Resolution time                               |
 | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------- | --------------------------------------------- |
-| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement         |
+| New instance Creation                         | Spin up new instance for a new customer                | Within 24 hours of becoming aware of the need | Within 7 working days from agreement          |
 | Existing instance suspension                  | Suspend an existing managed instance temporarily       | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | Existing instance deletion/teardown           | Decommission/delete and existing managed instance      | Within 24 hours of becoming aware of the need | Within 15 working days from agreement         |
 | New Feature Request                           | Feature request from new or existing customers         | Within 24 hours of becoming aware of the need | Dependent on the request                      |
