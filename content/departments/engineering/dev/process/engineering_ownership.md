@@ -317,7 +317,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ## Individual Contributors
 
-- [Thorsten Ball](https://handbook.sourcegraph.com/team/#thorsten-ball): Dependency search
+- [Thorsten Ball](../../../../team/index.md#thorsten-ball): Dependency search
 
 ## Owners files
 
