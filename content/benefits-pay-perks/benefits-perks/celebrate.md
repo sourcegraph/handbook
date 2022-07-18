@@ -41,7 +41,7 @@ To celebrate anniversaries, managers can send gifts to their direct reports acco
   - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
   - Highlight the teammates' key contributions and impact they've made
   - TIP: You can pre-schedule your Slack messages to send on the correct dates!
--  The manager [sends a gift](#how-to-send-a-gift) within the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
+- The manager [sends a gift](#how-to-send-a-gift) within the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
 
 ### Gift amount policy for anniversaries
 
@@ -66,7 +66,7 @@ Be considerate of all teammates and acknowledge that not everybody likes to be i
   - Announce the occasion: "A huge #thanks and happy birthday to [name] on their [#] year anniversary at Sourcegraph!"
   - Highlight the teammates' key contributions and impact they've made
   - TIP: You can pre-schedule your Slack messages to send on the correct dates!
--  The manager [sends a gift](#how-to-send-a-gift) within the [birthday gift amount policy](#gift-amount-policy-for-birthdays). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
+- The manager [sends a gift](#how-to-send-a-gift) within the [birthday gift amount policy](#gift-amount-policy-for-birthdays). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
 
 To add the BambooHR "Birthdays" calendar to your Google Calendar, please use [this link](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665) and perform the following steps:
 
