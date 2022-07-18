@@ -27,6 +27,8 @@ TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
 
+TODO jh shaved 10m on server https://github.com/sourcegraph/sourcegraph/pull/38940
+
 ## June 24, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
