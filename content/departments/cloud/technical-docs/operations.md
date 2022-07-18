@@ -361,6 +361,7 @@ mg ssh
 docker exec -it gitserver-0 sh
 cd /data/repos/<repo_name>/.git
 cat sgm.log
+cat gc.log
 # look for errors and numbers of failures
 # Also run
 git prune && git fetch # check for errors
