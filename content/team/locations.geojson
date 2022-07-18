@@ -1295,6 +1295,19 @@
                37.765810
             ]
          }
-      }
+      },
+       {
+    "type": "Feature",
+    "properties": {
+        "name": "Jamie Lindsay"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -80.579514,
+            35.408752
+        ]
+    }
+}
    ]
 }
