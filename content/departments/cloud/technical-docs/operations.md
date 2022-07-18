@@ -15,6 +15,7 @@ Operations guides for [managed instances](./index.md).
   - [Accessing the instance](#accessing-the-instance)
     - [SSH access](#ssh-access)
       - [Accessing the Docker containers](#accessing-the-docker-containers)
+      - [Accessing the Cloud SQL](#accessing-the-cloud-sql)
       - [Restarting for configuration updates](#restarting-for-configuration-updates)
     - [Port-forwarding](#port-forwarding)
     - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
@@ -358,15 +359,27 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 ```sh
 mg ssh
 docker exec -it gitserver-0 sh
-cd /data/repos/<repo_name>
-git prune && git fetch
-# look for errors, no output indicates clean repo
+cd /data/repos/<repo_name>/.git
+cat sgm.log
+# look for errors and numbers of failures
+# Also run
+git prune && git fetch # check for errors
 ```
 
 1. Run the following script to have repo-updater queue an update
 
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
+   ```
+
+1. Possibly add YAML below per https://github.com/sourcegraph/customer/issues/1128#issuecomment-1187299283. This depends
+   on if SRC_ENABLE_SG_MAINTENANCE is thought to be part of the issue.
+
+   ```yaml
+   gitserver-0:
+     environment:
+       - SRC_ENABLE_SG_MAINTENANCE=false
+       - SRC_ENABLE_GC_AUTO=true
    ```
 
 ## Disaster Recovery and Business Continuity Plan
