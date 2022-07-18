@@ -315,6 +315,9 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Cloudflare
 - HackerOne
 
+## Individual Contributors
+- [Thorsten Ball](https://handbook.sourcegraph.com/team/#thorsten-ball): Dependency search
+
 ## Owners files
 
 Owners files work exactly like the CODENOTIFY files that we use currently, and can also help you find the owner of a certain bit of code:
