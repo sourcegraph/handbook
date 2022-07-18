@@ -7,6 +7,7 @@ Here at Sourcegraph, we encourage frequent team virtual and in-person gatherings
 ## Teammate Gatherings
 
 Who is responsible:
+
 - Teammates are responsible for submitting their own receipts for reimbursement when individually utilizing the [Teammate Gatherings](#teammate-gatherings) budget.
 - Managers are responsible for submitting their team's receipt for reimbursement if they're booking for the whole team.
 
@@ -65,7 +66,8 @@ To add the BambooHR "Birthdays" calendar to your Google Calendar, please use [th
 
 ### Gift amount policies
 
-#### Anniversaries 
+#### Anniversaries
+
 Anniversary gifts should not exceed the following amounts per teammate and per year:
 
 - Year 1: $50 USD
