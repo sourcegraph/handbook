@@ -1,18 +1,18 @@
 # Recruitment Branding
 
-Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and sharing about Sourcegraph's [Culture](../../resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../../company-info-and-process/values/index.md).
+Join us in sharing about [Life at Sourcegraph](https://www.linkedin.com/company/sourcegraph/life/lifeatsourcegraph/?viewAsMember=true)! An important part of finding top notch talent is leveraging our individual networks and promoting Sourcegraph's [Culture](../../resources_for_candidates.md#sourcegraphs-culture) and [Values](../../../../company-info-and-process/values/index.md).
 This page outlines recruitment branding tips and information to tell the story of what it's like to [work at Sourcegraph](../../resources_for_candidates.md#working-at-sourcegraph).
 
 We post about hiring initiatives and Sourcegraph culture content on our company [LinkedIn](https://www.linkedin.com/company/sourcegraph/?viewAsMember=true), [Twitter](https://twitter.com/sourcegraph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), [Youtube](https://www.youtube.com/c/sourcegraph), [Twitch](https://www.twitch.tv/sourcegraph), and [Blog](https://about.sourcegraph.com/blog/?_ga=2.123203275.1380659926.1640620768-539125958.1632800152) pages.
 
 ## Sharing to your personal social platforms
 
-Sourcegraph will share the top priority roles we're hiring for via a monthly LinkedIn and Twitter post. It is encouraged to post about our open roles on personal Linkedin and Twitter profiles as well. Thank you for helping us attract and hire the best talent!
+Sourcegraph will share the top priority roles we're hiring for via LinkedIn and Twitter posts. It is encouraged to post about our open roles on personal Linkedin and Twitter profiles as well. Thank you for helping us attract and hire the best talent!
 
-### Linked In
+### LinkedIn
 
-- If you share all of our [open roles](https://boards.greenhouse.io/sourcegraph91) on your LinkedIn, please use the following link so that Greenhouse can track the applicants that apply through our personal LinkedIn posts: https://grnh.se/6c3034d74us
-  - If you prefer to share a specific role, rather than the entire job board, please send a Slack message to #hiring and a member of the talent team will create a LinkedIn tracking link for you to use
+- If you share our [open roles](https://boards.greenhouse.io/sourcegraph91) on your LinkedIn, please use the following link so that Greenhouse can track the number of applicants that apply through our personal LinkedIn posts: https://grnh.se/6c3034d74us
+  - If you prefer to share a specific role rather than the entire job board, please send a Slack message to #hiring and a member of the talent team will create a tracking link for you to use
 - Copy options for LinkedIn
   - We are building a team of brilliant dreamers around the globe. Join my team at Sourcegraph! [https://srcgr.ph/32pe8gC](https://srcgr.ph/32pe8gC)
   - At Sourcegraph we are developing the world's most advanced code search navigation platform alongside some pretty awesome people. Check it out: https://srcgr.ph/32pe8gC
@@ -24,7 +24,7 @@ Sourcegraph will share the top priority roles we're hiring for via a monthly Lin
 #### LinkedIn Posting Best Practices
 
 - Use this [2021 LinkedIn Algorithm Information](https://www.linkedin.com/posts/richardvanderblom_linkedin-algorithm-report-edition-2021-activity-6848141573990051840-spu1/) and our [Guide to Using LinkedIn Recruiter](linkedin.md#guide-to-using-linkedin-recruiter) to understand recent best practices for sharing hiring initiatives on your LinkedIn Profile.
-- [Here's](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/) an article for more helpful tips!
+- [Helpful Tips](https://www.linkedin.com/pulse/13-tips-mastering-linkedin-algorithm-jay-palter/)
 
 ### Twitter
 
@@ -71,7 +71,9 @@ Our [Careers Page](https://about.sourcegraph.com/jobs/?_ga=2.236774849.138065992
 
 ### Before posting to a job board:
 
-In order to assess the return on investment for any given job board, it is critical that we create custom sources and tracking links in Greenhouse. This will allow us to capture data on where applicants are applying from. To do this, please follow these instructions:
+In order to assess the return on investment for any given job board, it is critical that we create custom sources and tracking links in Greenhouse. This will allow us to capture data on where applicants are applying from. 
+
+Please follow these instructions:
 
 - Step 1: Send a Slack message to #hiring outlining the job board(s) you would like to post to and the job(s) you would like to see posted.
 
@@ -102,7 +104,7 @@ In order to assess the return on investment for any given job board, it is criti
 
 ### Job boards we will consider in the future:
 
-We welcome suggestions for more places that we can post! Please reach out to your recruiter or post in the #hiring slack channel to suggest a new job board.
+We welcome suggestions for more places that we can post ou ropen roles! Please reach out to your recruiter or post in the #hiring slack channel to suggest a new job board.
 
 We want to make sure our job postings reach a wide audience and that we're posting in multiple places without a large overlap in members from our existing job postings.
 
