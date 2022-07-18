@@ -82,7 +82,8 @@ Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is 
 ## Gift ideas
 
 ### Loop & Tie
-Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). 
+
+Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International).
 
 Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in `#ask-people-team` slack channel.
 
@@ -90,11 +91,11 @@ Once you have an account, here is [how to send a Loop & Tie gift](https://guides
 
 Loop & Tie FAQS:
 
-- **Q: Will the recipient see the gift price?** A: Your Loop & Tie recipient never sees the gift budget you selected. They just see the items available to them in the collection you selected! 
-- **Q: Can I change or add products to the collections?** A: We are not able to facilitate changes/additions at this time. 
-
+- **Q: Will the recipient see the gift price?** A: Your Loop & Tie recipient never sees the gift budget you selected. They just see the items available to them in the collection you selected!
+- **Q: Can I change or add products to the collections?** A: We are not able to facilitate changes/additions at this time.
 
 ### Other gift ideas
+
 If you don't want to use Loop & Tie, here are some other gift ideas!
 
 - Gift a meal! Send your teammate a giftcard for a local food delivery service in their area _(International)_
