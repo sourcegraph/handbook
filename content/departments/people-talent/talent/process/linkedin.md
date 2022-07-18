@@ -72,11 +72,7 @@ Our goal is to drive meaningful outreach and engagement with prospective candida
 
 ### Running a high-quality search
 
-Now that you have a project up and running it's time to start sourcing and adding prospects to your project by running searches.
-
-Familiarize yourself with our [sourcing best practices](identifying_candidates/.md#sourcing-best-practices). Whether you are sourcing through LinkedIn Recruiter, Twitter, Alumni groups, or other avenues, it’s important to understand our general sourcing best practices.
-
-When we are running searches in LinkedIn Recruiter we prioritize:
+Now that you have a project up and running it's time to start sourcing and adding prospects to your project by running searches.When we are running searches in LinkedIn Recruiter we prioritize:
 
 - Building strategic and targeted pipelines
   - Take the time to understand what experience you are looking for and why
@@ -89,7 +85,7 @@ When we are running searches in LinkedIn Recruiter we prioritize:
   - You are creatively updating your search queries with unique identifiers to find talent that may be hidden from LinkedIn’s “Most Relevant” top search results page
   - You are building talent pools representative of the global workforce
 
-- **Step 1**: Hiring Managers will work with their [designated recruiter and sourcer](teamalignment/.md) to create realistic search criterias. This will be used to generate an automated pipeline of outbound candidates.
+- **Step 1**: Hiring Managers will work with their designated recruiter and sourcer to create realistic search criterias. This will be used to generate an automated pipeline of outbound candidates.
 - **Step 2**: [Start running your search criteria on LinkedIn](https://www.linkedin.com/help/recruiter/answer/a413329).
 - **Step 3**: [Filter your search results](https://www.linkedin.com/help/recruiter/answer/a414281)
 
