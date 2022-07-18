@@ -3,7 +3,7 @@
 Welcome to the Sourcegraph Security Knowledge Base.
 
 The knowledge base is a repository of security best practices and principles that we've accumulated over time to help secure our product and infrastructure. This includes everything from high-level software design principles to Sourcegraph / technology specific coding best practices.
-In the spirit of [transparency](../../../../../company-info-and-process/values/index.md#open-and-transparent) we want to share as much as we can openly with the community including this **public** knowledge base - however not everything should be represented here.
+In the spirit of [transparency](../../../company-info-and-process/values/index.md#open-and-transparent) we want to share as much as we can openly with the community including this **public** knowledge base - however not everything should be represented here.
 
 Before adding to the knowledge base consider the following:
 
