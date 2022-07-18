@@ -1,6 +1,6 @@
-# Trivy container vulnerability scanning
+# Container vulnerability scanning
 
-[Trivy](https://github.com/aquasecurity/trivy) is a container image scanner. It breaks down a container image into components and alerts on components with CVEs. We scan our container images for Critical and High severity CVEs.
+We use [Trivy](https://github.com/aquasecurity/trivy) to scan our container images for security vulnerabilities. It breaks down a container image into components and alerts on components with CVEs. We scan our container images for Critical and High severity CVEs.
 
 We currently run Trivy in two ways:
 
@@ -84,3 +84,9 @@ For each release there is a release-blocking issue ([example](https://github.com
 ## For Sourcegraph engineers
 
 If you got a CI warning for a Trivy vulnerability _**it is not your responsibility**_ to patch it. To encourage our High Agency value we encourage engineers to look into CVEs and providing patches where feasible. Please note that we don't expect to fix all CVEs, and accepted vulnerabilities are tracked [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
+
+## For CEs
+
+It's common for our customers to scan the container images we ship to them. These scans usually contain vulnerabilities that are either false positives or that we have accepted as low risk. All open container vulnerabilities can be found [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aissue+is%3Aopen+label%3Asource%2Ftrivy), where there is context that can be shared with the customer.
+
+For customer scans the CE should cross-check the vulnerabilities found in the customer scan with the ones we have documented in the `security-issues` repository. If we missed any please bring it to the attention of the Security team in the #security channel.
