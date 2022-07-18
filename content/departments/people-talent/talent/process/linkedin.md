@@ -10,7 +10,7 @@ We have unlimited LinkedIn Recruiter licenses for all Sourcegraph teammates. A r
 
 ### To request a license
 
-- Contact your department's [assigned recruiter](https://github.com/sourcegraph/handbook/edit/main/content/departments/people-talent/talent/process/teamalignment.md#search-recruiting-team-alignment-by-department) or reach out to #Hiring in Slack, we will get your account activated! If you are a first time user, you can take an [Introductory Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0).
+- Contact your department's [assigned recruiter](teamalignment/.md) or reach out to #Hiring in Slack, we will get your account activated! If you are a first time user, you can take an [Introductory Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0).
 - To log into LinkedIn Recruiter, follow these [instructions](https://www.linkedin.com/help/recruiter/answer/a414112/access-linkedin-recruiter-and-recruiter-lite?lang=en#:~:text=Click%20the%20Recruiter%20icon%20in,from%20the%20menu%20that%20appears)
 
 ### For Talent Team - assigning a LinkedIn license:
@@ -74,7 +74,7 @@ Our goal is to drive meaningful outreach and engagement with prospective candida
 
 Now that you have a project up and running it's time to start sourcing and adding prospects to your project by running searches.
 
-Familiarize yourself with our [sourcing best practices](https://handbook.sourcegraph.com/departments/people-talent/talent/process/identifying_candidates/#sourcing-best-practices). Whether you are sourcing through LinkedIn Recruiter, Twitter, Alumni groups, or other avenues, it’s important to understand our general sourcing best practices.
+Familiarize yourself with our [sourcing best practices](identifying_candidates/.md#sourcing-best-practices). Whether you are sourcing through LinkedIn Recruiter, Twitter, Alumni groups, or other avenues, it’s important to understand our general sourcing best practices.
 
 When we are running searches in LinkedIn Recruiter we prioritize:
 
@@ -89,7 +89,7 @@ When we are running searches in LinkedIn Recruiter we prioritize:
   - You are creatively updating your search queries with unique identifiers to find talent that may be hidden from LinkedIn’s “Most Relevant” top search results page
   - You are building talent pools representative of the global workforce
 
-- **Step 1**: Hiring Managers will work with their [designated recruiter and sourcer](https://handbook.sourcegraph.com/departments/people-talent/talent/process/teamalignment/) to create realistic search criterias. This will be used to generate an automated pipeline of outbound candidates.
+- **Step 1**: Hiring Managers will work with their [designated recruiter and sourcer](teamalignment/.md) to create realistic search criterias. This will be used to generate an automated pipeline of outbound candidates.
 - **Step 2**: [Start running your search criteria on LinkedIn](https://www.linkedin.com/help/recruiter/answer/a413329).
 - **Step 3**: [Filter your search results](https://www.linkedin.com/help/recruiter/answer/a414281)
 
