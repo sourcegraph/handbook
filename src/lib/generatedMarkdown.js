@@ -267,6 +267,23 @@ export async function generateProductTeamsList() {
   return pageContent
 }
 
+export async function generateCPList() {
+  const owners = await readYamlFile('data/cross-product_owners.yml')
+  const teamMembers = await readYamlFile('data/team.yml')
+  let pageContent = ''
+  for (const owner of Object.values(owners)) {
+    pageContent += `\n\n### ${String(owner.title)} owner\n`
+    if (owner.handbook_link) {
+      pageContent += `- [Handbook Page](${String(owner.handbook_link)})\n`
+    }
+    if (owner.owner) {
+      const bioLink = createBioLink(teamMembers[owner.owner].name)
+      pageContent += `- Owner: [${String(teamMembers[owner.owner].name)}](${String(bioLink)})\n`
+    }
+  }
+  return pageContent
+}
+
 export async function generateProductTeamUseCaseList(product_team) {
   const features = await readYamlFile('data/features.yml')
   const useCases = await readYamlFile('data/use_cases.yml')
@@ -386,34 +403,6 @@ export async function generateTeamOrgChart(team) {
     const bioLink = createBioLink(teamMembers[productTeam.pmm].name)
     pageContent += `- [${String(teamMembers[productTeam.pmm].name)}](${String(bioLink)}), Product Marketing Manager\n`
   }
-  return pageContent
-}
-
-export async function generateEngineeringOwnershipTable() {
-  const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
-  const productTeams = await readYamlFile('data/product_teams.yml')
-  let pageContent =
-    '|Category|Thing|Type|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
-  pageContent += '|---|---|---|---|---|---|---|---|---|\n'
-  for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
-    pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
-    if (productTeams[thing.product_team]) {
-      if (productTeams[thing.product_team].strategy_link) {
-        pageContent += `|[${String(productTeams[thing.product_team].title)}](${String(
-          productTeams[thing.product_team].strategy_link
-        )})`
-      } else {
-        pageContent += `|${String(productTeams[thing.product_team].title)}`
-      }
-    } else {
-      pageContent += '|'
-    }
-    pageContent += `|${String(thing.domain_experts || '')}|${String(thing.slack_channels || '')}`
-    pageContent += `|${String(thing.ownership_model || '')}|${String(thing.health || '')}`
-    pageContent += `|${String(thing.product_lifecycle || '')}`
-    pageContent += '|\n'
-  }
-
   return pageContent
 }
 

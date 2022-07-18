@@ -4,7 +4,7 @@ This section documents testing clusters and deployments.
 
 ## Create a project in the "Engineering Projects" folder
 
-Create a folder with your name [here](https://console.cloud.google.com/projectselector2/home/dashboard?orgonly=true&supportedpurview=project&project=&folder=795981974432) following our [naming conventions](../../tools/infrastructure/gcp.md#Engineering-Projects). If you are an Application Engineer wishing to start your own project, ask for one to be created in the #cloud-devops channel on slack. When you are done with the project, let #delivery know in the same thread you started in #cloud-devops so that they know it is safe to take it down.
+Create a folder with your name [here](https://console.cloud.google.com/projectselector2/home/dashboard?orgonly=true&supportedpurview=project&project=&folder=795981974432) following our [naming conventions](../../tools/infrastructure/gcp.md#Engineering-Projects). If you are an Application Engineer wishing to start your own project, ask for one to be created in the #dev-chat channel on slack. When you are done with the project, let #delivery know in the same thread you started in #cloud-devops so that they know it is safe to take it down.
 
 ## How to manually start a test cluster in your test project in GCP
 

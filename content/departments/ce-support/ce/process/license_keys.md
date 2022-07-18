@@ -10,6 +10,15 @@ For a new trial, create a _new_ subscription. You will only use this for the tri
 
 When the customer converts, create a _new_ subscription; do not reuse the trial subscription. (Follow the instructions below from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
+## How to reissue a license key for an expiring license
+
+In most circumstances, license keys match the renewal dates on an account contract and are generated well ahead of time. Sometimes, license keys deviate from this format due to product trials and other special circumstances. If a license key is imminently expiring or has expired, follow these steps:
+
+1. If possible, check with the account's Customer Engineer & Account Executive, as well as the account running notes. This will help you understand any special context surrounding the current license key tags and expiration dates. The account team may opt to extend a product trial key for a specific amount of time.
+2. Grab the contract end date by going to the Account page in Salesforce to look up the `"Active Contract Period End"`.
+3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags and user count as the existing key (make sure to comma separate each tag) and use the `"Active Contract Period End"` as the expiration date.
+4. Send the new license key to the customer (follow the process outlined below).
+
 ## How to create a license key for a renewal or upgrade
 
 If an existing company or customer needs a new license key for any reason (e.g., they purchase more seats, they upgrade product tiers, or they simply renew), add a new license key to the _existing_ subscription. In that circumstance, do not click **Create a product subscription**; find the existing subscription on that page and then once viewing it, click **Generate new license manually**.
@@ -48,7 +57,7 @@ The CE should first create a Sourcegraph.com user account for the prospect/custo
 
 ### License Keys for Managed Instances
 
-As part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../engineering/dev/admin-exp/devops/managed/creation_process.md#configuring-license-sso-and-repositories)
+As part of the Managed Instance creation process, the CE should create a license key for the new instance. Per our [steps](../../../cloud/technical-docs/creation_process.md#configuring-license-sso-and-repositories)
 we ask CE to create the license. However, the CE needs to provision additional licenses to account for Sourcegraph administrators.
 The number of additional licenses is determined by the number of [members of the cloud team](https://groups.google.com/a/sourcegraph.com/g/cloud-team/members) but we reccomend a standard buffer of 10.
 

@@ -40,7 +40,7 @@ Do the [branch cut](./index.md#release-branches) for the release:
   ```
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
-  git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR
+  yarn release release:branch-cut
   ```
 
 Upon branch cut, create and test release candidates:
@@ -67,7 +67,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post the following message to the #cloud-devops channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
+- [ ] Post the following message to the #cloud channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
 
   ```
   Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.1) to be deployed to a test managed instance. Could someone help here? :ty:

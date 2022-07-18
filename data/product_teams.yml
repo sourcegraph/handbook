@@ -98,7 +98,7 @@ delivery:
 
 dev_experience:
   title: Dev Experience
-  brief: The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph as part of the Enablement org.
+  brief: The Dev Experience team, or DevX for short, is a team focused on improving the developer experience of Sourcegraph.
   strategy_link: /strategy-goals/strategy/dev-experience
   pm: quinn_hare
   em: kristen_stretch
@@ -124,24 +124,12 @@ repo_management:
 
 content_platform:
   title: Content Platform Team
-  brief: The Content Platform team (part of the Enablement org) creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
+  brief: The Content Platform team creates, manages, and optimizes the content platforms that enable the success of Sourcegraph’s business objectives.
   strategy_link: /strategy-goals/strategy/content-platform
   pm: elzanne_wentzel
   em: elzanne_wentzel
   issue_labels:
     - team/content-platform
-
-code_security_tiger_team:
-  title: Code Security tiger team
-  brief: The purpose of the Code Security tiger team is to iterate quickly with customers by increasing developer efficiency through effective triage, remediation and user enablement.
-
-  strategy_link: /strategy-goals/strategy/search/product/index.md
-  pm: malo_marrec
-  em: engineering_manager_code_security_tiger_team
-  design: quinn_keast
-  pmm: alex_isken
-  issue_labels:
-    - team/code-security-tiger-team
 
 security:
   title: Security
@@ -150,3 +138,5 @@ security:
 cloud:
   title: Cloud
   em: rafal_leszczynski
+  issue_labels:
+    - team/cloud

@@ -37,30 +37,38 @@ Below are the goals and expectations for each week of your onboarding.
 - Complete through General Company-Wide Onboarding activities: our values, our vision, our culture, what it means to be handbook-first, and how we operate as a business
 - Get all necessary access to tools and logistical setup
 - Learn about our purpose and the value we provide to customers: why does Sourcegraph exist, who uses our product, and how do we add value to our customers' business
+- Read about our strategy [here](../../..//strategy-goals/strategy/) to understand why developers should use Sourcegraph
 - Learn about the Talent org: who are we, who do we work with, what's our vision and why what we do matters
 
 #### Week 2 Goals:
 
 - Continue orienting yourself to the company: all the different teams, our internal tooling and how we use it
-- Learn about the product
-  - Learn how we pitch Sourcegraph to candidates
-  - MORE COMING SOON
+- Learn about the product by watching the Product Tour video and reading the first page of Sourcegraph's user documentation
+- Familiarize yourself with the orgs you will be supporting
+- Schedule 1:1s with the Hiring Managers you will be supporting
+- Build out sourcing projects for your org's high priority roles
 - Listen to assigned Brighthire recordings
-- Beginning week 2, you'll look to lead your first Recruiter Screen, with your onboarding mentor there to support you.
+- Familiarize yourself with Interview Plans and Greenhouse Worklflow
+- Familiarize yourself with TopFunnel
+- Make a small (or big!) improvement to a page your team uses in the handbook. Once you identify it, make the change and assign your manager as a reviewer
 
 #### Week 3 Goals:
 
-- COMING SOON
+- Lead your first Recruiter Screen, with your onboarding mentor there to support you
+- Make a small (or big!) improvement to a page your team uses in the handbook. Once you identify it, make the change and assign your manager as a reviewer
+- Complete 1:1s with your Hiring Managers and schedule weekly follow-ups
 
 #### Week 4 Goals:
 
-- COMING SOON
+- Have multiple candidates in Hiring Manager screen (or beyond!)
+- Make a small (or big!) improvement to a page your team uses in the handbook. Once you identify it, make the change and assign your manager as a reviewer
+- Send weekly hiring metrics to your orgs and provide guidance: What's working? What needs improvement?
 
 ### What will success look like
 
 We want everyone to feel certain and comfortable with where they are at currently, what's expected of them, and what's next. The following section details what success looks like within the first year for various roles.
 
-#### Recruitment Operations Specialist (level 2)
+#### Recruitment Operations Specialist
 
 **Within one month, you will…**
 
@@ -132,7 +140,7 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Play an instrumental role in scaling out our recruiting organization and be ready to step up into greater responsibilities.
 - Identify areas of growth and share them continuously in your 1:1s.
 
-#### Recruiter (level 3)
+#### Recruiter/Senior Recruiter
 
 **Within one month, you will...**
 
@@ -160,14 +168,6 @@ We want everyone to feel certain and comfortable with where they are at currentl
 - Be considered a top-performing Recruiter on the team and a go-to resource for your hiring managers.
 - Provide a candidate experience that is considered to be the best they’ve ever had.
 - Train and develop new team members.
-
-#### Senior Recruiter (level 4)
-
-- COMING SOON
-
-#### Manager
-
-- COMING SOON
 
 ## People Onboarding
 

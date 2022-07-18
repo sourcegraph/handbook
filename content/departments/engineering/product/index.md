@@ -1,7 +1,5 @@
 # Product
 
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
-
 We strive to make the following true:
 
 - The team is working on the most important things on [our strategy](../../../strategy-goals/strategy/index.md), and that it is communicated well both inside and outside of Sourcegraph.
@@ -13,7 +11,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 
 ## Roadmap & Strategy
 
-- [Roadmap](../strategy-goals/roadmap.md)
 - [Roadmap tracker](https://github.com/orgs/sourcegraph/projects/214/views/21) in GitHub
 - The [Sourcegraph strategy page](../../../strategy-goals/strategy/index.md) containing our mission, vision, how we think about prioritization
 - The [PMM roadmap deck](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gf131fe1596_2_7) (internal only) which contains upcoming and recently launched important customer-facing features
@@ -21,7 +18,6 @@ You can reach us at the #product channel or @product-team on Slack. If you have 
 ## Product team
 
 - [Product team reference](team/product_teams.md)
-- [How product is organized](team/index.md)
 - [Roles and responsibilities](roles/index.md) of the product team
 
 ## Feature matrices
