@@ -81,9 +81,23 @@ Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is 
 
 ## Gift ideas
 
-_Need a little help on what to get? Here’s a few of our favorite things:_
+### Loop & Tie
+Our recommended gifting platform is [Loop & Tie](https://sourcegraph.loopandtie.com/). Loop & Tie offers curated collections of gifts organized by price and shipping location (US and International). 
 
-- Ordering for breakfast or lunch! Send your teammate a giftcard for a local food delivery service in their area _(International)_
+Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie account, please reach out to the People team in `#ask-people-team` slack channel.
+
+Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
+
+Loop & Tie FAQS:
+
+- **Q: Will the recipient see the gift price?** A: Your Loop & Tie recipient never sees the gift budget you selected. They just see the items available to them in the collection you selected! 
+- **Q: Can I change or add products to the collections?** A: We are not able to facilitate changes/additions at this time. 
+
+
+### Other gift ideas
+If you don't want to use Loop & Tie, here are some other gift ideas!
+
+- Gift a meal! Send your teammate a giftcard for a local food delivery service in their area _(International)_
 - [Virgin Experience Gifts: For the adventurers](https://www.virginexperiencegifts.com/) _(US)_
 - [AirBnb Gift Cards: For the travelers](https://www.airbnb.com/d/gift-cards) _(Redeemable only by individuals in the US with a US payment method. Do not use US payment method for purchasing for Non-US based teammates)_
 - [Dylan's Candy Bar: For those with a sweet tooth](https://www.dylanscandybar.com/) (_International)_
