@@ -304,10 +304,6 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             replaceMatchedUseCaseFeatureList
         )
         markdown = markdown.replace(
-            /{{generator:engineering_ownership}}/gi,
-            await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
-        )
-        markdown = markdown.replace(
             /{{generator:glossary}}/gi,
             await Promise.resolve(generatedMarkdown.generateGlossary())
         )
