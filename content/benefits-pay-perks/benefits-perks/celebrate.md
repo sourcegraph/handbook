@@ -36,11 +36,12 @@ To celebrate anniversaries, managers can send gifts to their direct reports acco
 
 ### Best practices for celebrating a teammate's work anniversary
 
-- The manager posts a written or video message in the `#thanks` channel and then lets the teammate know they can expense $XX to celebrate.
-- Please follow the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries)
+- The manager posts a written or video message in the `#thanks` channel
 - Post suggestions:
   - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
   - Highlight the teammates' key contributions and impact they've made
+  - TIP: You can pre-schedule your Slack messages to send on the correct dates!
+- The manager [sends a gift](#how-to-send-a-gift) within the [anniversary gift amount policy](#gift-amount-policy-for-anniversaries). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $XX USD.
 
 ### Gift amount policy for anniversaries
 
@@ -58,13 +59,14 @@ Sourcegraph encourages teammates to take a day of vacation on their special day 
 
 ### Best practices for celebrating a teammate's birthday:
 
-- Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will post about the occasion in slack and offer a gift.
-- The manager posts about the occasion in the `#thanks` channel and then lets the teammate know they can expense $XX to celebrate.
-  - TIP: You can pre-schedule your Slack messages to send on the correct dates!
-- Please follow the [birthday gift amount policy](#gift-amount-policy-for-birthdays).
+Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will post about the occasion in slack and offer a gift.
+
+- The manager posts about the occasion in the team channel
 - Post suggestions:
-  - Announce the occasion: "A huge #thanks and congrats to [name] on their [#] year anniversary at Sourcegraph!"
+  - Announce the occasion: "A huge #thanks and happy birthday to [name] on their [#] year anniversary at Sourcegraph!"
   - Highlight the teammates' key contributions and impact they've made
+  - TIP: You can pre-schedule your Slack messages to send on the correct dates!
+- The manager [sends a gift](#how-to-send-a-gift) within the [birthday gift amount policy](#gift-amount-policy-for-birthdays). Alternatively, you can let your teammate know that they can treat themselves and submit a reimbursement for up to $50 USD.
 
 To add the BambooHR "Birthdays" calendar to your Google Calendar, please use [this link](https://sourcegraph.bamboohr.com/feeds/feed.php?id=535bc86f7d5ecda6e76e4e3a05291665) and perform the following steps:
 
@@ -79,7 +81,7 @@ To add the BambooHR "Birthdays" calendar to your Google Calendar, please use [th
 
 Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
-## Gift ideas
+## How to send a gift
 
 ### Loop & Tie
 
