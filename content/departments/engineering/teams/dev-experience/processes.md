@@ -160,7 +160,10 @@ Tips for [tracking](#tracking) support work:
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration). The goal of this process is to identify the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 
-The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker). If there are any issues, ensure issues are followed up on:
+The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker).
+Monitoring generally means taking a look at a random sample of 2-3 failures in #buildkite-main throughout the day and identifying if it might be a legitimate issue, of if it is a flake - refer to the [flakes playbook](../../dev/process/incidents/playbooks/ci.md#is-this-a-failure-or-a-flake) to learn more.
+
+If there are any issues, ensure issues are followed up on:
 
 1. Infer the owner based on the contents of the issue \*e.g. through product names, git history, and/or other context) and reach out for assistance:
    1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.
