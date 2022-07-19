@@ -1,19 +1,20 @@
-# Teammate Celebrations & Gatherings 
+# Teammate Celebrations & Gatherings
 
-Here at Sourcegraph, we like to celebrate our Teammates' work & life events. Below are sample milestones that we encourage our Managers to celebrate: 
-- birthdays 
+Here at Sourcegraph, we like to celebrate our Teammates' work & life events. Below are sample milestones that we encourage our Managers to celebrate:
+
+- birthdays
 - work anniversaries
 - promotions
 - new babies
 - other life events
 
-**The People team is currently revamping our swag and gifting policies and will announce updates soon.  In the meantime, please follow the below guidance**
+**The People team is currently revamping our swag and gifting policies and will announce updates soon. In the meantime, please follow the below guidance**
 
 ## Celebrating a birthday:
 
 Be considerate of all teammates and acknowledge that not everybody likes to be in the spotlight on their birthdays. Managers should check their employee’s BambooHR profile for their birthday and ask them personally if they’d like to celebrate it at work beforehand. With their permission, people managers will post about the occasion in a Team Slack (or directly via dm) and offer a gift.
 
-- The manager posts about the occasion in the team channel or 1:1 
+- The manager posts about the occasion in the team channel or 1:1
 - Team post suggestions:
   - Announce the occasion: "A huge #thanks and happy birthday to [name] on their [#] year anniversary at Sourcegraph! Please treat yourself to a $50 gift and celebrate yourself!"
   - Highlight the teammates' key contributions and impact they've made
@@ -30,7 +31,7 @@ To view and add the BambooHR "Birthdays" calendar to your Google Calendar, pleas
 - Paste link in **URL of calendar** box
 - Click **Add calendar**.
 
-### Birthday gift budget 
+### Birthday gift budget
 
 Birthday gifts should not exceed **$50 USD** _per teammate_ and per year. It is also advisable to spend the same amount for each person on your team when getting a gift for them to create fairness within the group.
 
