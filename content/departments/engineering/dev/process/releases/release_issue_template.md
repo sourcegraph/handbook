@@ -34,10 +34,14 @@ Perform these steps three days before the release date to generate a stable rele
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
-- [ ] Update the changelog and merge the generated pull requests:
+- [ ] Update the changelog and create pull requests:
+
   ```sh
   yarn release changelog:cut
   ```
+
+- [ ] Manually review the pull requests created in the previous step and merge.
+
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
   yarn release release:branch-cut
@@ -109,7 +113,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
-  yarn release release:close
+  yarn release release:announce
   ```
 
 ### Post-release
@@ -126,6 +130,9 @@ On the day of the release, confirm there are no more release-blocking issues (as
   yarn run release tracking:issues
   yarn run release tracking:timeline
   ```
-- [ ] Close this issue.
+- [ ] Close the release.
+  ```sh
+  yarn run release release:close
+  ```
 
 **Note:** If a patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.
