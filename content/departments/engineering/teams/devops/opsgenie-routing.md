@@ -8,7 +8,6 @@ Create separate schedules for each team. We have search-core-support-east and se
 
 ![schedules](https://user-images.githubusercontent.com/3095053/179857501-71987f39-bcc0-42d4-9c6f-7659f1896999.png)
 
-
 ## Step 2
 
 Create a rotation inside of each schedule. We used search-core-support-east-rotation and support-core-support-west-rotation. Inside of the rotations is where you add people. People in Europe and Africa are in the east rotation and people in the Americas are in the west rotation. People can override schedules just as they have previously.
@@ -16,7 +15,6 @@ Create a rotation inside of each schedule. We used search-core-support-east-rota
 ![rotations](https://user-images.githubusercontent.com/3095053/179857537-cb799f4e-1c4d-4fa2-bd8f-417b0edab7d9.png)
 
 ![update-rotations](https://user-images.githubusercontent.com/3095053/179857574-724ce4e0-8411-4fe1-ad3b-c2b962775af5.png)
-
 
 ## Step 3
 
