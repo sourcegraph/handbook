@@ -2,9 +2,9 @@
 
 # The Talent & People Team
 
-The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome.  The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us. 
+The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack '#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack '#ask-people-team`or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack`#hiring` or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
 
@@ -13,10 +13,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 # Resources for Candidates
 
 ### Open positions
+
 - [Careers page & open positions](../resources_for_candidates.md#how-to-apply)
 - [Internship Program](internship/index.md)
 
 ### Interview & offer process
+
 - [How to prepare for your interview](../resources_for_candidates.md)
   - [Types of interviews & sample questions](process/types_of_interviews.md)
   - [Candidate FAQ](../resources_for_candidates.md#candidate-faqs)
@@ -28,14 +30,16 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How we engage](../people-ops/process/how-we-engage-talent-outside-the-us/index.md)
   - [How we pay](../people-ops/process/how-we-engage-talent-outside-the-us/#payments-2/index.md)
 
-### Culture & total rewards 
+### Culture & total rewards
+
 - [Company values](../../../company-info-and-process/values/index.md)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 
 # Resources for Teammates
 
 ### Onboarding
-- I9 verification 
+
+- I9 verification
 - The onboarding process
 - BambooHR
 - Helpful videos
@@ -43,10 +47,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Our values
 
 ### Career mobility
+
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 - [Promotion process]
 
 ### Total rewards
+
 - Compensation
   - Getting paid
   - Getting raises
@@ -54,50 +60,59 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Company-travel
 - Equity
   - Equity FAQ
-  - Carta  
+  - Carta
 - PTO policy
   - Submitting time off
   - Public holidays
-- Perks 
-- Benefits 
-  - Lumity 
+- Perks
+- Benefits
+  - Lumity
   - Rippling
   - Making benefits changes
 - Parental leave
 - Mental health resources
 
 ### How we measure culture
+
 - Pulse surveys
 
 ### Moving homes
-- Changing addresses 
-- Mortgage verification 
 
-### Immigration support 
+- Changing addresses
+- Mortgage verification
+
+### Immigration support
+
 - Visa process
 - Sponsorship policy
 
 ### Verifications
-- Employment verification process 
+
+- Employment verification process
 - Motgage process
 
 ### Expenses
-- Our expense policy 
+
+- Our expense policy
 - How to submit expenses
 
 ### People Team support
+
 - Who is my People Partner?
 - How to raise a cofidential issue
 
-### Reporting violations 
+### Reporting violations
+
 - Anti-harassment
 - Code of business conduct & ethics
 
 ### Learning & development
-  - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
-  - [Interview training & best practices](tools/interview_training.md)
+
+- [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
+- [Interview training & best practices](tools/interview_training.md)
 
 ### Interviewing
+
 - [How to refer a candidate](process/identifying_candidates.md)
   - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)
 - [The interview process](process/interview_process.md)
@@ -114,11 +129,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Recruitment branding](process/recruitment_branding.md)
 
 ### Leaving Sourcegraph
+
 - How to resign
 
 ## Resources for Hiring Managers
 
 ### Hiring
+
 - [How to make a change to my headcount plan](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to change a role's start date (pulling a role forward or pushing it back in the board-approved headcount plan)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to add a net-new role to the headcount plan (not already approved by the board)](https://forms.gle/6dQmnRjsXDEjB4y7A)
@@ -153,54 +170,61 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to hire a teammate into a new role]
   - [Scenario: you want to interview a teammate for a role on a different team](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
-### Tools 
-  - BambooHR
-  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
-  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
-  - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
-  - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+### Tools
+
+- BambooHR
+- [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+- [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+- [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
+- [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 
 ### Learning & development
-  - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
-  - [Interview training & best practices](tools/interview_training.md)
+
+- [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
+- [Interview training & best practices](tools/interview_training.md)
 
 ### Onboarding your new hire
 
 ### Celebrating Teammates
+
 - Birthdays
-- Anniversaries 
+- Anniversaries
 - Promotions
-- Life events 
+- Life events
 
 ### Compensation
-- Our compensation philosophy 
-- Our bands 
+
+- Our compensation philosophy
+- Our bands
 - How to give a raise
-- How to give a spot bonus 
+- How to give a spot bonus
 - How to give a promotion
 
 ## Resources for People Team
 
 ### Onboarding
+
 - Types of employment
   - US-based Teammates
-  - Contractors 
+  - Contractors
   - PEO
 - BambooHR
 
 ### Promotions
 
-### Merit cycles 
+### Merit cycles
 
 ### Teammate support
+
 - Parental leave
 - Leaving Sourcegraph
-  - Exit interviews 
-  - Offboarding process 
+  - Exit interviews
+  - Offboarding process
 
 ### Teammate swag
 
 ### How we measure culture
+
 - Pulse surveys
 
 ## Resources for Talent Team
