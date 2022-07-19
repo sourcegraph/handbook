@@ -213,7 +213,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### User journeys
 
 - Sign-up through email, GitHub, GitLab
-- Sign-in through e-mail, GitHub, GitLab
+- Sign-in through email, GitHub, GitLab
 - Global configuration notifications and repo syncing notifications
 - User profile
 - User emails
