@@ -40,7 +40,7 @@ Do the [branch cut](./index.md#release-branches) for the release:
   yarn release changelog:cut
   ```
 
-- [ ] Manully review the pull requests created in the previous step and merge.
+- [ ] Manually review the pull requests created in the previous step and merge.
 
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
