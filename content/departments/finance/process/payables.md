@@ -36,7 +36,7 @@ Just [contact the finance team](../index.md#contact) if you believe you are elig
 
 **Virtual Credit Cards**: Virtual cards are tied to a specific vendor rather than an individual. All recurring software spend should be on a virtual credit card rather than a Physical Credit card. Requests how-to can be found here [Request Virtual Cards and Purchase Orders in Airbase](https://help.airbase.com/hc/en-us/articles/4407660486164-Request-Virtual-Cards-and-Purchase-Orders-in-Airbase-)
 
-Receipts can be added directly in Airbase and directions can be found here [Manage Receipts](https://help.airbase.com/hc/en-us/articles/360053509271-Manage-Receipts-in-Receipt-Inbox-)
+Payments made from virtual cards are made by Sourcegraph, therefore filing an expense report is not required. Receipts for payments made by virtual card should be added directly to the virual card. Directions can be found here [Manage Receipts](https://help.airbase.com/hc/en-us/articles/360053509271-Manage-Receipts-in-Receipt-Inbox-)
 
 If you have a purchase that you’d like to explain/clarify post about it in the #finance Slack channel (e.g. if it's some new system for the team) or email `ap@sourcegraph.com` (e.g. if it's a personal reimbursable expense).
 

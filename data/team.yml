@@ -2532,17 +2532,6 @@ kalan_chan:
   links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
   description: Kalan lives in Burnaby, also known as Vancouver to everyone outside of Metro Vancouver. He graduated from the University of Alberta with an Electrical Engineering degree, but soon after started self learning Software Development when he saw the light. On his spare time when he's not pushing pixels, Kalan enjoys biking, bouldering, reading and plane spotting.
 
-marcos_placona:
-  name: Marcos Placona
-  pronouns: he/him
-  location: Leighton Buzzard, UK 🇬🇧
-  role: Director of DevRel and Community
-  reports_to: cto
-  email: marcos.placona@sourcegraph.com
-  github: mplacona
-  links: '[Twitter](https://twitter.com/marcos_placona), [LinkedIn](https://www.linkedin.com/in/marcosplacona/)'
-  description: 'Marcos grew up in Brazil and studied Computer Science in the UK. He is passionate about community and technology and spends much of his time building apps and often connecting them to physical devices. Before Sourcegraph, he ran DevRel at Twilio for EMEA and LATAM. Marcos is also a great API and developer tools enthusiast and believes they bring peace to the Software Engineering world. Outside of work, he enjoys spending time with his family and playing Magic the Gathering at his local game store.'
-
 quinn_hare:
   name: Quinn Hare
   pronouns: she/her
@@ -2666,3 +2655,12 @@ james_cotter:
   github: jac
   email: james.cotter@sourcegraph.com
   description: James is a UCC Computer Science graduate born and raised in West Cork, Ireland. Previously he was a Software Engineering Intern at F5/NGINX, and Head Systems Administrator at UCC Netsoc, the college tech/gaming society. Outside of tech James enjoys sailing, gaming, D&D, and all things sci-fi.
+
+jamie_lindsay:
+  name: Jamie Lindsay
+  email: jamie.lindsay@sourcegraph.com
+  pronouns: she/her
+  role: Sales Enablement Lead
+  reports_to: senior_manager_value_engineering
+  location: Concord, NC
+  description: Jamie is located in Concord, North Carolina which is outside of Charlotte with her husband and daughter. She has worked in sales for entire career and helped build out the enablement function at ther last company, Quickbase. In her free time, she enjoys cooking, baking, taking care of the garden, and spending time outdoors with her family.
