@@ -85,7 +85,6 @@
 
    </section>
 
-
 #### People Partner Alignment
 
 Our People Partners are aligned to business units as follows:
