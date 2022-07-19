@@ -10,7 +10,7 @@ If you need to discuss something confidential or private, please Slack your Peop
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
-# Resources for Candidates
+# RESOURCES FOR CANDIDATES
 
 ### Open positions
 
@@ -35,7 +35,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Company values](../../../company-info-and-process/values/index.md)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 
-# Resources for Teammates
+# RESOURCES FOR TEAMMATES
 
 ### Onboarding
 
@@ -132,7 +132,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - How to resign
 
-## Resources for Hiring Managers
+## RESOURCES FOR HIRING MANAGERS
 
 ### Hiring
 
@@ -200,7 +200,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - How to give a spot bonus
 - How to give a promotion
 
-## Resources for People Team
+## RESOURCES FOR PEOPLE TEAM
 
 ### Onboarding
 
@@ -227,7 +227,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Pulse surveys
 
-## Resources for Talent Team
+## RESOURCES FOR TALENT TEAM
 
 - [Recruiter onboarding resources](../onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
