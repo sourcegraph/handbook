@@ -66,6 +66,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 ### ARR
 
 [Topline Metrics Definitions](topline-definitions.md)
+
 [ARR Definitions](arr-definitions.md)
 
 Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
