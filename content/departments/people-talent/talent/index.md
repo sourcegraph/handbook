@@ -1,10 +1,11 @@
-! UNDER CONSTRUCTION !
+
+# ! THIS PAGE IS UNDER CONSTRUCTION !
 
 # The Talent & People Team
 
-The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
+The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing a positive experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack '#ask-people-team`or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack`#hiring` or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
 
@@ -12,7 +13,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 # RESOURCES FOR CANDIDATES
 
-### Open positions
+### Our open positions
 
 - [Careers page & open positions](../resources_for_candidates.md#how-to-apply)
 - [Internship Program](internship/index.md)
@@ -46,18 +47,17 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Onboarding swag
 - Our values
 
-### Career mobility
-
-- [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- [Promotion process]
-
 ### Total rewards
 
 - Compensation
   - Getting paid
-  - Getting raises
+  - Compensation bands / pay transparency
+  - Merit process 
   - 401k
 - Company-travel
+  - Company-wide travel 
+  - Team travel 
+  - Individual travel
 - Equity
   - Equity FAQ
   - Carta
@@ -66,38 +66,49 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Public holidays
 - Perks
 - Benefits
-  - Lumity
-  - Rippling
-  - Making benefits changes
+  - Lumity is where you access your benefits cards
+  - Rippling is where you... 
+  - How to make benefits changes
 - Parental leave
+  - Preparing to take leave
+  - During leave
+  - How we compensation Teammates with varibale compensation
 - Mental health resources
+
+### Career mobility
+
+- [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [Promotion process]
 
 ### How we measure culture
 
-- Engagment Surveys
-- Pulse Surveys
+- Our values
+- Engagment surveys
+- Pulse surveys
 
 ### How we manage performance
 
-- 360-Impact Review Process
+- High performance culture
+- 360-Impact review process
   - Methodology
-  - Goal Setting and Expectations
+  - Goal setting and expectations
   - Eligibility
-  - Evaluation Cadence
-  - Review Schedule
-  - Talent Assessment Framework
+  - Evaluation cadence
+  - Review schedule
+  - Talent assessment framework
     - Skills-based
     - Values-based
-    - Performance & Values Rating Definitions
-    - Guidance for Performance Ratings
-  - Impact Review Questions
+    - Performance & values rating definitions
+    - Guidance for performance ratings
+  - Impact review questions
 - Enablement
   - How to write an effective self and peer review (Coming Soon)
 
-### Relocation/Address Changes
+### Relocation/address changes
 
 - Changing addresses
 - Mortgage verification
+- How to inform the People Team 
 
 ### Immigration support
 
@@ -107,7 +118,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Verifications
 
 - Employment verification process
-- Motgage process
 
 ### Expenses
 
@@ -148,9 +158,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- How to resign
+- How to resign (coming soon) 
 
-## RESOURCES FOR HIRING MANAGERS
+## RESOURCES FOR MANAGERS
 
 ### Hiring
 
@@ -188,6 +198,15 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to hire a teammate into a new role]
   - [Scenario: you want to interview a teammate for a role on a different team](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
+### Onboarding your new hire
+
+### Career mobility
+
+- [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- How to give a promotion
+- How to give a raise 
+- How to give a spot bonus
+
 ### Tools
 
 - BambooHR
@@ -201,8 +220,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
 - [Interview training & best practices](tools/interview_training.md)
 
-### Onboarding your new hire
-
 ### Celebrating Teammates
 
 - Birthdays
@@ -213,31 +230,31 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Compensation
 
 - Our compensation philosophy
-- Our bands
+- Compensation bands / pay transparency
 - How to give a raise
 - How to give a spot bonus
 - How to give a promotion
 
-### Performance Management
+### Performance management
 
-- 360-Impact Review Process
-  - Methodology
+- Performance review process (aka 360-Impact Review)
+  - Our methodology
   - Goal Setting and Expectations
   - Eligibility
-  - Evaluation Cadence
-  - Review Schedule
-  - Talent Assessment Framework
-    - Skills-based
-    - Values-based
-    - Performance & Values Rating Definitions
-    - Guidance for Performance Ratings
-  - Impact Review Questions
-- Performance Improvement Plan Process (PIP)
-- Enablement
+  - Evaluation cadence
+  - Review schedule
+  - What we measure
+    - Skills
+    - Values
+    - Performance & values rating definitions
+    - Guidance for performance ratings
+  - Impact review questions
+- Performance improvement plan (PIP) process 
+- Performance management training
   - Guide to having an effective 1:1 (Coming Soon)
-  - Introduction to and preparing for Calibrations (Coming Soon)
-  - Template Calibration Presentation (Coming Soon)
-  - How to have an impactful review conversation (Coming Soon)
+  - Introduction to and preparing for performance review cycles (Coming Soon)
+  - Template calibration presentation (Coming Soon)
+  - How to have an impactful performance review conversation (Coming Soon)
   - How to have a compensation conversation (Coming Soon)
   - How to have an effective Career/Coaching conversation (Coming Soon)
 
@@ -249,9 +266,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - US-based Teammates
   - Contractors
   - PEO
+- I9 process
 - BambooHR
+- Sending swag 
 
-### Calibration Cycles & Templates
+### Performance Calibration Cycles & Templates
 
 - Merit
 - Promotion
@@ -265,6 +284,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Offboarding process
 
 ### Teammate swag
+- New hire swag 
+- Celebration swag
 
 ### How we measure culture
 
@@ -273,7 +294,10 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ## RESOURCES FOR TALENT TEAM
 
+### Recruiter onboarding
 - [Recruiter onboarding resources](../onboarding/index.md)
+
+### Recruiting lifecycle
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
@@ -281,6 +305,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How we find candidates](process/identifying_candidates.md)
   - [Where we advertise our jobs](process/recruitment_branding.md)
   - [How we source passive candidates](process/identifying_candidates.md#sourcing-best-practices)
+  - [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
   - [Partnering with your Sourcer](process/identifying_candidates.md)
   - [Using external recruiting agencies](process/identifying_candidates.md)
   - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
@@ -299,22 +324,31 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
   - [Counter offer conversations](process/extending_an_offer.md#counter-offers-and-how-to-deal-with-them)
+
+### Onboarding process
 - [After the offer](process/after_the_offer.md)
   - [How to mark a candidate as "hired"](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding process](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding via PEO](process/after_the_offer.md#onboarding-process-for-peo-hires)
   - [Changing start dates](process/after_the_offer.md#changing-a-new-hires-start-date)
   - [Actioning a Revoked Offer](process/after_the_offer.md#actioning-a-revoked-offer)
+
+### Tools
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
   - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
+
+### Branding
 - [Recruitment branding](process/recruitment_branding.md)
-- [Recruitment metrics](process/talent_metrics.md)
-- [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-- [How to make a change to headcount plan](process/headcount_changes.md)
+
+### [Metrics](process/talent_metrics.md)
+- [Ashby](process/talent_metrics.md) 
+- [TalentWall](process/talent_metrics.md)
+
+### Internship program 
 - [Internship Program](internship/index.md)
 - [Internship Recruiting and Offer Processes](internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
