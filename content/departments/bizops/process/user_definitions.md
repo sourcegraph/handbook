@@ -121,14 +121,14 @@ The customer health score combines high-level, aggregated metrics in order to un
 
 | Metric                  | Description                                                                                           |
 | ----------------------- | ----------------------------------------------------------------------------------------------------- |
-| MAU/Total User Accounts | Used as a measure of monthly adoption within a customer’s total licensed active user base             |
-| DAU/MAU                 | Used as a measure of overall engagement / stickiness of the platform within an account's active users |
-| Net Promoter Score      | Used as a measure of sentiment toward the platform among a customer’s active users of Sourcegraph     |
+| Adoption measured as: MAU/Total purchased seats (%) | Used as a measure of monthly adoption within a customer’s total licensed user base.              |
+| Usage measured as: DAU/MAU (%)               | Used as a measure of overall engagement / stickiness of the platform within an account’s active users |
+| # of versions behind current Sourcegraph version      | Used as a measure of overall instance health     |
 
 Additional Resources:
 
-- [Project overview](https://docs.google.com/spreadsheets/d/1D2CJoVdkbXsBwVjgNDziGXBanWBfVhoVs6_kDBRStfA/edit#gid=1229546656): Describes which metrics we view as indicative of customer health along with how scores are calculated, and provides space for ongoing feedback
-- [Dashboard](https://sourcegraph.looker.com/dashboards-next/179?Customer%20Engineer=&Account%20Executive=&Unique%20Server%20ID=&Region=): The customer health dashboard is the source of truth for health scores and is updated in real-time
+- [Project overview](https://docs.google.com/document/d/1AO3o82KN0bIWUNK2Kyc1Rk8Lz6gElBm-6K2ou0dHr-Y/edit#): Describes in more detail how we decided to measure technical health in this way,  how scores are calculated, and our plans to re-assess and improve this scoring. This is also a place for ongoing feedback/updates.
+- [Dashboard](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D): Technical health dashboard is the source of truth for health score
 
 ## How are active users calculated?
 
