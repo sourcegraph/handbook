@@ -77,11 +77,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Engagment Surveys
 - Pulse Surveys
 
-### How we manage performance 
+### How we manage performance
 
 - Methdology
 - Impact Reviews
-- Enablement 
+- Enablement
 
 ### Relocation/Address Changes
 
@@ -211,7 +211,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Impact Reviews
 - PIP Process
-- Enablement 
+- Enablement
 
 ## RESOURCES FOR PEOPLE TEAM
 
@@ -223,8 +223,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - PEO
 - BambooHR
 
-
 ### Calibration Cycles & Templates
+
 - Merit
 - Promotion
 - Compensation
