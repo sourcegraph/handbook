@@ -274,6 +274,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ## Resources for Talent Team
 
 ### Onboarding resources
+
 - [Recruiter onboarding resources](../onboarding/index.md)
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
@@ -285,12 +286,14 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Recruitment branding](process/recruitment_branding.md)
 
 ### Opening a new job & headcount changes
+
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
 - [How to make a change to headcount plan](process/headcount_changes.md)
 
 ### Sourcing
+
 - [Identifying candidates](process/identifying_candidates.md)
   - [How we find candidates](process/identifying_candidates.md)
   - [Where we advertise our jobs](process/recruitment_branding.md)
@@ -301,6 +304,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ### Interviewing
+
 - [The interview stage](process/interview_process.md)
   - [First time interviewer resources](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
