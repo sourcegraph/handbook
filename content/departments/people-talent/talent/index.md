@@ -1,4 +1,3 @@
-
 # ! THIS PAGE IS UNDER CONSTRUCTION !
 
 # The Talent & People Team
@@ -52,11 +51,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Compensation
   - Getting paid
   - Compensation bands / pay transparency
-  - Merit process 
+  - Merit process
   - 401k
 - Company-travel
-  - Company-wide travel 
-  - Team travel 
+  - Company-wide travel
+  - Team travel
   - Individual travel
 - Equity
   - Equity FAQ
@@ -67,7 +66,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Perks
 - Benefits
   - Lumity is where you access your benefits cards
-  - Rippling is where you... 
+  - Rippling is where you...
   - How to make benefits changes
 - Parental leave
   - Preparing to take leave
@@ -108,7 +107,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Changing addresses
 - Mortgage verification
-- How to inform the People Team 
+- How to inform the People Team
 
 ### Immigration support
 
@@ -158,7 +157,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- How to resign (coming soon) 
+- How to resign (coming soon)
 
 ## RESOURCES FOR MANAGERS
 
@@ -204,7 +203,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 - How to give a promotion
-- How to give a raise 
+- How to give a raise
 - How to give a spot bonus
 
 ### Tools
@@ -249,7 +248,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - Performance & values rating definitions
     - Guidance for performance ratings
   - Impact review questions
-- Performance improvement plan (PIP) process 
+- Performance improvement plan (PIP) process
 - Performance management training
   - Guide to having an effective 1:1 (Coming Soon)
   - Introduction to and preparing for performance review cycles (Coming Soon)
@@ -268,7 +267,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - PEO
 - I9 process
 - BambooHR
-- Sending swag 
+- Sending swag
 
 ### Performance Calibration Cycles & Templates
 
@@ -284,7 +283,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Offboarding process
 
 ### Teammate swag
-- New hire swag 
+
+- New hire swag
 - Celebration swag
 
 ### How we measure culture
@@ -295,9 +295,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ## RESOURCES FOR TALENT TEAM
 
 ### Recruiter onboarding
+
 - [Recruiter onboarding resources](../onboarding/index.md)
 
 ### Recruiting lifecycle
+
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
@@ -326,6 +328,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Counter offer conversations](process/extending_an_offer.md#counter-offers-and-how-to-deal-with-them)
 
 ### Onboarding process
+
 - [After the offer](process/after_the_offer.md)
   - [How to mark a candidate as "hired"](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding process](process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
@@ -334,6 +337,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Actioning a Revoked Offer](process/after_the_offer.md#actioning-a-revoked-offer)
 
 ### Tools
+
 - [Recruiting tools](process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
@@ -342,13 +346,16 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
 
 ### Branding
+
 - [Recruitment branding](process/recruitment_branding.md)
 
 ### [Metrics](process/talent_metrics.md)
-- [Ashby](process/talent_metrics.md) 
+
+- [Ashby](process/talent_metrics.md)
 - [TalentWall](process/talent_metrics.md)
 
-### Internship program 
+### Internship program
+
 - [Internship Program](internship/index.md)
 - [Internship Recruiting and Offer Processes](internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
