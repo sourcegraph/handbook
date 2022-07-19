@@ -34,10 +34,13 @@ Perform these steps three days before the release date to generate a stable rele
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
-- [ ] Update the changelog and merge the generated pull requests:
+- [ ] Update the changelog and create pull requests:
   ```sh
   yarn release changelog:cut
   ```
+
+- [ ] Manully review the pull requests created in the previous step and merge.
+
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
   yarn release release:branch-cut
