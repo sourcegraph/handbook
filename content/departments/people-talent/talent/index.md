@@ -4,13 +4,13 @@
 
 The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack '#ask-people-team`or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack`#hiring` or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
-# RESOURCES FOR CANDIDATES
+## RESOURCES FOR CANDIDATES
 
 ### Open positions
 
@@ -35,7 +35,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Company values](../../../company-info-and-process/values/index.md)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 
-# RESOURCES FOR TEAMMATES
+## RESOURCES FOR TEAMMATES
 
 ### Onboarding
 
