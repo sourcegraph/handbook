@@ -119,15 +119,15 @@ NPS score = % promotors of total submissions - % detractors of total submissions
 
 The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
 
-| Metric                  | Description                                                                                           |
-| ----------------------- | ----------------------------------------------------------------------------------------------------- |
-| Adoption measured as: MAU/Total purchased seats (%) | Used as a measure of monthly adoption within a customer’s total licensed user base.              |
-| Usage measured as: DAU/MAU (%)               | Used as a measure of overall engagement / stickiness of the platform within an account’s active users |
-| # of versions behind current Sourcegraph version      | Used as a measure of overall instance health     |
+| Metric                                              | Description                                                                                           |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Adoption measured as: MAU/Total purchased seats (%) | Used as a measure of monthly adoption within a customer’s total licensed user base.                   |
+| Usage measured as: DAU/MAU (%)                      | Used as a measure of overall engagement / stickiness of the platform within an account’s active users |
+| # of versions behind current Sourcegraph version    | Used as a measure of overall instance health                                                          |
 
 Additional Resources:
 
-- [Project overview](https://docs.google.com/document/d/1AO3o82KN0bIWUNK2Kyc1Rk8Lz6gElBm-6K2ou0dHr-Y/edit#): Describes in more detail how we decided to measure technical health in this way,  how scores are calculated, and our plans to re-assess and improve this scoring. This is also a place for ongoing feedback/updates.
+- [Project overview](https://docs.google.com/document/d/1AO3o82KN0bIWUNK2Kyc1Rk8Lz6gElBm-6K2ou0dHr-Y/edit#): Describes in more detail how we decided to measure technical health in this way, how scores are calculated, and our plans to re-assess and improve this scoring. This is also a place for ongoing feedback/updates.
 - [Dashboard](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D): Technical health dashboard is the source of truth for health score
 
 ## How are active users calculated?
