@@ -318,7 +318,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Internship Program](internship/index.md)
 - [Internship Recruiting and Offer Processes](internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
-## Talent Team Members
+# The Talent Team 
 
 [Click here](process/teamalignment.md) to see Talent Team alignment with each department
 
@@ -328,12 +328,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
         <div>
           <div>
             <a href="../../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Carly-Bitmoji.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
                 alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Carly Jones</div>
-          <div style="text-align: center; font-size: 12px;">VP of Talent</div>
+          <div style="text-align: center; font-size: 12px;">VP of Talent & People</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
@@ -420,7 +420,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
             </a>
           </div>
           <div style="text-align: center;">Marija Petrovic</div>
-          <div style="text-align: center; font-size: 12px;">Senior Sales Recruiter, Team Lead</div>
+          <div style="text-align: center; font-size: 12px;">Director, Corporate & Sales Recruiting</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
@@ -447,19 +447,75 @@ In case of emergency, the VP People & Talent and the Director, People are availa
           <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
         </div>
       </div>
+    </div>
+  </section>
+
+# The People Team
+
+ <section>
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png"
-                alt="Picture with CTA: Join Us" style="background: transparent; width:128px;" />
+            <a href="../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
+                alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
             </a>
           </div>
-          <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank"
-              rel="noopener">Join Sourcegraph</a></div>
-          <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91"
-              target="_blank" rel="noopener">All Roles Here</a></div>
+          <div style="text-align: center;">Inés Roitman</div>
+          <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
         </div>
       </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
+                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Jonathan Ayers</div>
+          <div style="text-align: center; font-size: 12px;">Director, People</div>
+        </div>
+        </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
+                alt="Picture of Alex Mathison" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Alex Mathison</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
+                alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Carl Robson</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Sarah Um</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
     </div>
-  </section>
+    </div>
+
+   </section>
