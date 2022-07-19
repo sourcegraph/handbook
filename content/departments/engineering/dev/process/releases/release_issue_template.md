@@ -126,6 +126,9 @@ On the day of the release, confirm there are no more release-blocking issues (as
   yarn run release tracking:issues
   yarn run release tracking:timeline
   ```
-- [ ] Close this issue.
+- [ ] Close the release.
+  ```sh
+  yarn run release release:close
+  ```
 
 **Note:** If a patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.
