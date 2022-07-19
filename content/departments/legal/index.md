@@ -61,6 +61,13 @@ At least annually, with regular monitoring throughout the year, Legal assesses t
 
 - Add your proposed update in “suggest change” mode on this [staging version](https://docs.google.com/document/d/1dXLuK8sYyZiqpG8iADEgXWqDRtzlkPDgbJAe1jb1Ff0/edit#) and tag our privacy counsel in a comment.
 
+## Resources
+
+### Legal Team Resources
+
+- [Checklist - Writing Legal Policies](https://drive.google.com/file/d/1PrLrHt6X7FwDA2G_ZUNCfbM69lHiBkHJ/view?usp=sharing)
+- [Process Overview - PTEP Extensions](https://drive.google.com/file/d/1SX-dYZKKLwQjJzdMdXAXZhvLhEC2oNW6/view?usp=sharing)
+
 ## Outside counsel
 
 Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
