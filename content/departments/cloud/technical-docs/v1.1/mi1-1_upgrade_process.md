@@ -46,6 +46,13 @@ If they are not, download the file and open a PR to commit the file prior to upg
 curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml || echo "failed to download"
 ```
 
+Upgrading to a RC build?
+
+```sh
+curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/master/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml || echo "failed to download"
+go run ./util/enforce-tags.go X.Y.Z golden/docker-compose.X.Y.Z.yaml
+```
+
 ### Ensure `config.yaml` file in customer directory is up-to-date
 
 Check `$CUSTOMER/config.yaml` and make sure the file is present
