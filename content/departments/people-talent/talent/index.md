@@ -80,13 +80,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### How we manage performance
 
 - 360-Impact Review Process
-  - Methodology 
-  - Goal Setting and Expectations 
+  - Methodology
+  - Goal Setting and Expectations
   - Eligibility
   - Evaluation Cadence
   - Review Schedule
   - Talent Assessment Framework
-    - Skills-based 
+    - Skills-based
     - Values-based
     - Performance & Values Rating Definitions
     - Guidance for Performance Ratings
@@ -221,13 +221,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Performance Management
 
 - 360-Impact Review Process
-  - Methodology 
-  - Goal Setting and Expectations 
+  - Methodology
+  - Goal Setting and Expectations
   - Eligibility
   - Evaluation Cadence
   - Review Schedule
   - Talent Assessment Framework
-    - Skills-based 
+    - Skills-based
     - Values-based
     - Performance & Values Rating Definitions
     - Guidance for Performance Ratings
