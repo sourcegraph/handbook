@@ -28,6 +28,4 @@ Create an escalation policy to support each group and make sure the routing rule
 
 Escalation image
 
-
 And that's it!
-
