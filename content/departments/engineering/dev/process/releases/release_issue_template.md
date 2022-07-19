@@ -35,6 +35,7 @@ Perform these steps three days before the release date to generate a stable rele
 Do the [branch cut](./index.md#release-branches) for the release:
 
 - [ ] Update the changelog and create pull requests:
+
   ```sh
   yarn release changelog:cut
   ```
