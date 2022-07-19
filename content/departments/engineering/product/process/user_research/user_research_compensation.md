@@ -9,7 +9,6 @@ However, there are times when it makes sense to compensate research participants
 1. **Monetary compensation.** We can provide this option when participants provide their ACH banking details
 1. **A voucher for an online store.** We pre-approve vendors before offering it as an option. Note that not all vendors are available in all regions, and it's important that we manage participant's expectations accordingly.
 
-
 ## Compensation rate
 
 We have a flat hourly rate of **$60 USD / hour** for compensation in user research. We will always compensate for at least one full hour, even if the research session takes less than the full hour. This simplifies communication, expectations, and our own accounting.
