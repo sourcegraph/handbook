@@ -30,4 +30,3 @@ The Security team manages risk via the [Information Security Risk Management Pol
 and the underlying [risk management process](security-risk-management-process.md).
 
 [0]: https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit
-

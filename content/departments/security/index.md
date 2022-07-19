@@ -23,6 +23,7 @@ Security questions and support requests should be raised in #security:
 2. Select an option at the top of the menu
 3. Fill out the questions
 4. Tag @security-support in the resulting thread if urgent
+
 ### Security Questionnaires
 
 Security questionnaires for new and existing customers should [follow the process here](../sales/process/salessecurity.md)—feel free to message us on #security too.
@@ -157,6 +158,7 @@ In an effort to work closely with our teammates and shift security focus more in
   </tr>
   <tr>
   </table>
+
 ---
 
 ## Interviews
