@@ -224,6 +224,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Teammate swag
 
 ### How we measure culture
+
 - Pulse surveys
 
 ## RESOURCES FOR TALENT TEAM
