@@ -70,7 +70,7 @@ The following table includes the recommended usage for cryptographic keys:
 
 \* This is provided via the TLS 1.3 stack using the TLS_AES_128_GCM_SHA256 Cipher Suite.
 
-\*\* Please see [Computer Standards](../../../tech-ops/process/internal-security/computer-standards.md) for more information.
+\*\* Please see [Computer Standards](../tech-ops/process/internal-security/computer-standards.md) for more information.
 
 ## Exceptions
 

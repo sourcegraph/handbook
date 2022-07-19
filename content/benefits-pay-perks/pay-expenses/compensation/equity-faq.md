@@ -28,9 +28,13 @@ Unfortunately, we cannot legally provide personal financial or tax advice. Pleas
 
 On your last day.
 
-### **Are my vested stock options impacted if I leave Sourcegraph?**
+### Are my vested stock options impacted if I leave Sourcegraph?
 
-If you are a U.S. employee with vested ISOs, yes. Your ISOs will convert to NSOs three months from your date of separation.
+If you are a U.S. employee with vested ISOs, yes.
+
+- If you were hired May 2021 or earlier, your ISOs will expire 3 months after your separation date unless you are granted an extension (see [this FAQ](#how-much-time-do-i-have-to-exercise-the-stock-options-that-have-vested-if-i-leave)). Upon being granted an extension (increasing the time you have to exercise from 3 months to 10 years), your ISOs will convert to NSOs.
+
+- If you were hired after May 2021, you already have 10 years to exercise your options and your ISOs will convert to NSOs three months from your date of separation.
 
 There is no impact to vested NSOs as a result of your separation from Sourcegraph.
 
