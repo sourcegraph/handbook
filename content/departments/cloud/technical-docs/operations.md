@@ -350,8 +350,8 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 
    ```sh
    export PROJECT_PREFIX=sourcegraph-managed
-   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    export CUSTOMER=<customer_or_instance_name>
+   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    ```
 
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
@@ -367,7 +367,7 @@ cat gc.log
 git prune && git fetch # check for errors
 ```
 
-1. Run the following script to have repo-updater queue an update
+1. Run the following [script](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/fix-dirty-repo.sh), from within a clone of `sourcegraph/deploy-sourcegraph-managed`, to have repo-updater queue an update
 
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
