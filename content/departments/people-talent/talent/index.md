@@ -74,9 +74,16 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- Pulse surveys
+- Engagment Surveys
+- Pulse Surveys
 
-### Moving homes
+### How we manage performance
+
+- Methdology
+- Impact Reviews
+- Enablement
+
+### Relocation/Address Changes
 
 - Changing addresses
 - Mortgage verification
@@ -200,6 +207,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - How to give a spot bonus
 - How to give a promotion
 
+### Perfromance Management
+
+- Impact Reviews
+- PIP Process
+- Enablement
+
 ## RESOURCES FOR PEOPLE TEAM
 
 ### Onboarding
@@ -210,9 +223,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - PEO
 - BambooHR
 
-### Promotions
+### Calibration Cycles & Templates
 
-### Merit cycles
+- Merit
+- Promotion
+- Compensation
 
 ### Teammate support
 
@@ -225,7 +240,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- Pulse surveys
+- Engagment Surveys
+- Pulse Surveys
 
 ## RESOURCES FOR TALENT TEAM
 
