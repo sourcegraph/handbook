@@ -70,6 +70,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Rippling
   - Making benefits changes
 - Parental leave
+- Medical leave & accommodation
 - Mental health resources
 
 ### How we measure culture
