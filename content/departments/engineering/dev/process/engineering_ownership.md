@@ -96,7 +96,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - sourcegraph/lsif-go
 - sourcegraph/lsif-node
 - sourcegraph/lsif-java
-- sourcegraph/lsif-clang\
+- sourcegraph/lsif-clang
 - sourcegraph/lsif-test
 
 ## [Content Platform](../../teams/content-platform/index.md)
