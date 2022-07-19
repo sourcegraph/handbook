@@ -96,7 +96,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - sourcegraph/lsif-go
 - sourcegraph/lsif-node
 - sourcegraph/lsif-java
-- sourcegraph/lsif-clang\
+- sourcegraph/lsif-clang
 - sourcegraph/lsif-test
 
 ## [Content Platform](../../teams/content-platform/index.md)
@@ -213,7 +213,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### User journeys
 
 - Sign-up through email, GitHub, GitLab
-- Sign-in through e-mail, GitHub, GitLab
+- Sign-in through email, GitHub, GitLab
 - Global configuration notifications and repo syncing notifications
 - User profile
 - User emails

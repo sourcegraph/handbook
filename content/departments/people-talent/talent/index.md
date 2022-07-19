@@ -4,13 +4,13 @@
 
 The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
 
-While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack '#ask-people-team`or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack`#hiring` or email Recruiting@sourcegraph.com.
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
 
 If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
-# RESOURCES FOR CANDIDATES
+## Resources for candidates
 
 ### Open positions
 
@@ -35,7 +35,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Company values](../../../company-info-and-process/values/index.md)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 
-# RESOURCES FOR TEAMMATES
+## Resources for teammates
 
 ### Onboarding
 
@@ -70,6 +70,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Rippling
   - Making benefits changes
 - Parental leave
+- Medical leave & accommodation
 - Mental health resources
 
 ### How we measure culture
@@ -94,7 +95,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Enablement
   - How to write an effective self and peer review (Coming Soon)
 
-### Relocation/Address Changes
+### Relocation/address changes
 
 - Changing addresses
 - Mortgage verification
@@ -150,7 +151,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - How to resign
 
-## RESOURCES FOR HIRING MANAGERS
+## Resources for managers
 
 ### Hiring
 
@@ -185,8 +186,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
-- [How to hire a teammate into a new role]
-  - [Scenario: you want to interview a teammate for a role on a different team](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+- [How to hire a teammate into a new role](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ### Tools
 
@@ -203,7 +203,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Onboarding your new hire
 
-### Celebrating Teammates
+### Celebrating teammates
 
 - Birthdays
 - Anniversaries
@@ -218,7 +218,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - How to give a spot bonus
 - How to give a promotion
 
-### Performance Management
+### Performance management
 
 - 360-Impact Review Process
   - Methodology
@@ -241,7 +241,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - How to have a compensation conversation (Coming Soon)
   - How to have an effective Career/Coaching conversation (Coming Soon)
 
-## RESOURCES FOR PEOPLE TEAM
+## Resources for People Team
 
 ### Onboarding
 
@@ -251,7 +251,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - PEO
 - BambooHR
 
-### Calibration Cycles & Templates
+### Calibration cycles & templates
 
 - Merit
 - Promotion
@@ -271,7 +271,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Engagment Surveys
 - Pulse Surveys
 
-## RESOURCES FOR TALENT TEAM
+## Resources for Talent Team
 
 - [Recruiter onboarding resources](../onboarding/index.md)
 - [Opening a new job](process/opening_a_new_job.md)
