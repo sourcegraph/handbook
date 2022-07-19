@@ -59,7 +59,7 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
 - [Repo Management](../repo-management/index.md)
-- [Security](../security/index.md) - Team ambassador: [Feroz Salam](../../../../team/index.md#feroz-salam)
+- [Security](../../../security/index.md) - Team ambassador: [Feroz Salam](../../../security/index.md#feroz-salam)
 
 ## How we work
 

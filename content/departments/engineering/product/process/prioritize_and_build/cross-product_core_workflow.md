@@ -57,7 +57,7 @@ While the first shippable iteration will target the core workflow, we’ll work 
 - July 18-22 – Define MVP of first principles for core workflow.
 - July 25–July 29 – Explore, share, collect feedback on evolved information architecture and interaction model.
 - July 29 and on – Rapid prototyping, building, and testing.
-- Targeting first shipped iteration
+- Targeting first shipped iteration for Sourcegraph 4.0
 
 ## The Core workflow in the Sourcegraph product
 
