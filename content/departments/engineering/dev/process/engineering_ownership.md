@@ -301,7 +301,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Add searches and files to the notepad and edit or delete added items
 - Create a notebook from notepad items.
 
-## [Security](../../teams/security/index.md)
+## [Security](../../../security/index.md)
 
 ### General
 
