@@ -1,4 +1,4 @@
-# Teammate Celebrations & Gatherings
+# Teammate Celebrations
 
 Here at Sourcegraph, we like to celebrate our Teammates' work & life events. Below are sample milestones that we encourage our Managers to celebrate:
 
