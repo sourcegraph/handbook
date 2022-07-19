@@ -79,9 +79,20 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we manage performance
 
-- Methdology
-- Impact Reviews
+- 360-Impact Review Process
+  - Methodology 
+  - Goal Setting and Expectations 
+  - Eligibility
+  - Evaluation Cadence
+  - Review Schedule
+  - Talent Assessment Framework
+    - Skills-based 
+    - Values-based
+    - Performance & Values Rating Definitions
+    - Guidance for Performance Ratings
+  - Impact Review Questions
 - Enablement
+  - How to write an effective self and peer review (Coming Soon)
 
 ### Relocation/Address Changes
 
@@ -207,11 +218,28 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - How to give a spot bonus
 - How to give a promotion
 
-### Perfromance Management
+### Performance Management
 
-- Impact Reviews
-- PIP Process
+- 360-Impact Review Process
+  - Methodology 
+  - Goal Setting and Expectations 
+  - Eligibility
+  - Evaluation Cadence
+  - Review Schedule
+  - Talent Assessment Framework
+    - Skills-based 
+    - Values-based
+    - Performance & Values Rating Definitions
+    - Guidance for Performance Ratings
+  - Impact Review Questions
+- Performance Improvement Plan Process (PIP)
 - Enablement
+  - Guide to having an effective 1:1 (Coming Soon)
+  - Introduction to and preparing for Calibrations (Coming Soon)
+  - Template Calibration Presentation (Coming Soon)
+  - How to have an impactful review conversation (Coming Soon)
+  - How to have a compensation conversation (Coming Soon)
+  - How to have an effective Career/Coaching conversation (Coming Soon)
 
 ## RESOURCES FOR PEOPLE TEAM
 
