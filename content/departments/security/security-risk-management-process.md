@@ -36,10 +36,10 @@ Sourcegraph's Information Security Risk Committee is currently comprised of:
 - [Diego Comas][5], Security Lead
 - [Tammy Zhu][6], Diector of Legal
 
-[3]: ../../../../team/index.md#quinn-slack
-[4]: ../../../../team/index.md#dan-adler
-[5]: ../../../../team/index.md#diego-comas
-[6]: ../../../../team/index.md#tammy-zhu
+[3]: ../../team/index.md#quinn-slack
+[4]: ../../team/index.md#dan-adler
+[5]: ../../team/index.md#diego-comas
+[6]: ../../team/index.md#tammy-zhu
 
 ## Risk identification
 

@@ -31,7 +31,7 @@ See "[Engineering department update 2022-06](https://docs.google.com/document/d/
 - [Repo Management](teams/repo-management/index.md)
 - [Search Core](teams/search/core.md)
 - [Search Product](teams/search/product.md)
-- [Security](teams/security/index.md)
+- [Security](../security/index.md)
 
 The following functional teams work across the above dev teams:
 
