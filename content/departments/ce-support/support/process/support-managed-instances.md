@@ -10,7 +10,7 @@ If you are an application engineer being trained to work with managed instances,
 
 ## Required access
 
-To fully access managed instances, contact the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) team
+If you do not have access, create a ticket in #it-tech-ops request to be added to `gcp-customer-support-engineering` Google Group and tag your manager for approval.
 
 ## Set up a tutorial session
 
