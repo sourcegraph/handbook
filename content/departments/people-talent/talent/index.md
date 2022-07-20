@@ -35,9 +35,19 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Company values](../../../company-info-and-process/values/index.md)
 - [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
 
-## Resources for teammates
+## Resources for Teammates
 
-### Onboarding
+### Who to go to
+
+- People support
+  - Who is my People Partner?
+- Recruiting support
+  - Who is my Recruiter?
+- Anonymous support
+  - Our exec AMA process
+  - How to submit a confidential complaint
+
+### Onboarding as a new hire
 
 - I9 verification
 - The onboarding process
@@ -48,6 +58,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Career mobility
 
+- Our high performance culture
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 - [Promotion process]
 
@@ -77,23 +88,20 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Engagment Surveys
 - Pulse Surveys
+- What we do with survey results
 
 ### How we manage performance
 
-- 360-Impact Review Process
-  - Methodology
-  - Goal Setting and Expectations
-  - Eligibility
-  - Evaluation Cadence
-  - Review Schedule
-  - Talent Assessment Framework
-    - Skills-based
-    - Values-based
-    - Performance & Values Rating Definitions
-    - Guidance for Performance Ratings
-  - Impact Review Questions
-- Enablement
-  - How to write an effective self and peer review (Coming Soon)
+- Our expectations from managers
+  - Coaching from managers
+  - Performance improvement plan process
+- Our formal performance review process
+  - Why we do performance reviews
+  - When we do performance reviews
+  - What we measure
+  - The questions we ask
+  - How we use the results
+  - Training: how to write an effective review (Coming Soon)
 
 ### Relocation/address changes
 
@@ -115,15 +123,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Our expense policy
 - How to submit expenses
 
-### People Team support
-
-- Who is my People Partner?
-- How to raise a cofidential issue
-
 ### Reporting violations
 
 - Anti-harassment
 - Code of business conduct & ethics
+- How to raise a cofidential issue
 
 ### Learning & development
 
@@ -151,7 +155,17 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - How to resign
 
-## Resources for managers
+## Resources for Managers
+
+### Who to go to
+
+- People support
+  - Who is my People Partner?
+- Recruiting support
+  - Who is my Recruiter?
+- Anonymous support
+  - Our exec AMA process
+  - How to submit a confidential complaint
 
 ### Hiring
 
@@ -188,6 +202,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [The offer letter](process/extending_an_offer.md)
 - [How to hire a teammate into a new role](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
+### Onboarding your new hire
+
 ### Tools
 
 - BambooHR
@@ -201,8 +217,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
 - [Interview training & best practices](tools/interview_training.md)
 
-### Onboarding your new hire
-
 ### Celebrating teammates
 
 - Birthdays
@@ -213,33 +227,32 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Compensation
 
 - Our compensation philosophy
-- Our bands
+- Pay transparancy / our bands
 - How to give a raise
 - How to give a spot bonus
 - How to give a promotion
 
 ### Performance management
 
-- 360-Impact Review Process
-  - Methodology
-  - Goal Setting and Expectations
-  - Eligibility
-  - Evaluation Cadence
-  - Review Schedule
-  - Talent Assessment Framework
-    - Skills-based
-    - Values-based
-    - Performance & Values Rating Definitions
-    - Guidance for Performance Ratings
-  - Impact Review Questions
-- Performance Improvement Plan Process (PIP)
-- Enablement
-  - Guide to having an effective 1:1 (Coming Soon)
-  - Introduction to and preparing for Calibrations (Coming Soon)
-  - Template Calibration Presentation (Coming Soon)
-  - How to have an impactful review conversation (Coming Soon)
-  - How to have a compensation conversation (Coming Soon)
-  - How to have an effective Career/Coaching conversation (Coming Soon)
+- Our expectations from managers
+  - Coaching from managers
+  - Performance improvement plan (PIP) process
+- Our formal performance review process
+  - Why we do performance reviews
+  - When we do performance reviews
+  - What we measure
+  - The questions we ask
+  - How we use the results
+- Training:
+  - How to write an effective review (Coming Soon)
+  - How to have an effective 1:1 (Coming Soon)
+  - How to have a coaching/career conversation
+  - How to initiate a formal performance improvement plan (PIP)
+
+### Resignations
+
+- How to handle a resignation
+- How to kick off a backfill request
 
 ## Resources for People Team
 
