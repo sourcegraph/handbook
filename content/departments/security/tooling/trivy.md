@@ -1,6 +1,6 @@
-# Trivy container vulnerability scanning
+# Container vulnerability scanning
 
-[Trivy](https://github.com/aquasecurity/trivy) is a container image scanner. It breaks down a container image into components and alerts on components with CVEs. We scan our container images for Critical and High severity CVEs.
+We use [Trivy](https://github.com/aquasecurity/trivy) to scan our container images for security vulnerabilities. It breaks down a container image into components and alerts on components with CVEs. We scan our container images for Critical and High severity CVEs.
 
 We currently run Trivy in two ways:
 
@@ -13,7 +13,17 @@ The CI scan is used to catch CVEs in new components. It acts on non-blocking mod
 
 ## Running Trivy locally
 
-Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/):
+### Sourcegraph Trivy docker image
+
+We can run the same image as the CronJob locally and have results uploaded to the GCP bucket. Authentication to GCP is necessary. Run the image with:
+
+```
+docker run -it -v ~/.config/gcloud:/.config/gcloud us.gcr.io/sourcegraph-security-logging/trivy-sg:latest
+```
+
+### Trivy binary
+
+You can also install Trivy and scan specific images. Trivy can be installed with [homebrew](https://aquasecurity.github.io/trivy/v0.18.0/installation/):
 
 ```
 brew install aquasecurity/trivy/trivy
@@ -29,7 +39,7 @@ This scans an image for High/Critical CVEs. The `-f json` flag can be used to ou
 
 ## Accepted vulnerabilities and false positives
 
-Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
+Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../engineering/dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
 
 ## For Security engineers
 
@@ -55,7 +65,7 @@ Most docker images we create have build scripts that can be run locally. In case
 sg ci build docker-images-patch <image>
 ```
 
-More information [here](../../dev/process/deployments/testing.md/#building-docker-images-for-a-specific-branch)
+More information [here](../../engineering/dev/process/deployments/testing.md/#building-docker-images-for-a-specific-branch)
 
 A recommended process to test patches is:
 
@@ -74,3 +84,9 @@ For each release there is a release-blocking issue ([example](https://github.com
 ## For Sourcegraph engineers
 
 If you got a CI warning for a Trivy vulnerability _**it is not your responsibility**_ to patch it. To encourage our High Agency value we encourage engineers to look into CVEs and providing patches where feasible. Please note that we don't expect to fix all CVEs, and accepted vulnerabilities are tracked [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
+
+## For CEs
+
+It's common for our customers to scan the container images we ship to them. These scans usually contain vulnerabilities that are either false positives or that we have accepted as low risk. All open container vulnerabilities can be found [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aissue+is%3Aopen+label%3Asource%2Ftrivy), where there is context that can be shared with the customer.
+
+For customer scans the CE should cross-check the vulnerabilities found in the customer scan with the ones we have documented in the `security-issues` repository. If we missed any please bring it to the attention of the Security team in the #security channel.

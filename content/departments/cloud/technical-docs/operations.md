@@ -15,6 +15,7 @@ Operations guides for [managed instances](./index.md).
   - [Accessing the instance](#accessing-the-instance)
     - [SSH access](#ssh-access)
       - [Accessing the Docker containers](#accessing-the-docker-containers)
+      - [Accessing the Cloud SQL](#accessing-the-cloud-sql)
       - [Restarting for configuration updates](#restarting-for-configuration-updates)
     - [Port-forwarding](#port-forwarding)
     - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
@@ -50,7 +51,7 @@ The `NAME` value indicates the currently active instance (`red` or `black`). Dur
 
 ## Accessing the instance
 
-For CSE's, also refer to [Accessing Managed Instances](../../../../ce-support/support/process/support-managed-instances.md).
+For CSE's, also refer to [Accessing Managed Instances](../../ce-support/support/process/support-managed-instances.md).
 
 ### SSH access
 
@@ -87,7 +88,7 @@ docker ps
 
 You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) to interact with the containers.
 
-#### Accessing the Aurora external database
+#### Accessing the Cloud SQL
 
 _This instruction is intended as a temporary flow to enable AeE and Cloud engineer to access the Cloud SQL databases locally._
 
@@ -234,7 +235,7 @@ We are aligned with the [company-wide testing philosophy](https://docs.sourcegra
 
 <span class="badge badge-note">SOC2/CI-87</span>
 
-We are aligned with the [company-wide incident response playbook](../../../dev/process/incidents/index.md) to handle managed instances downtime.
+We are aligned with the [company-wide incident response playbook](../../engineering/dev/process/incidents/index.md) to handle managed instances downtime.
 
 We utilize GCP [Uptime Checks](https://cloud.google.com/monitoring/uptime-checks) to perform uptime checks against the [managed instance frontend url](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/f2d46b67f31bfcd2d74f79e46641a701215afb56/modules/terraform-managed-instance/infrastructure.tf#L508-L553). When such alert is fired, it usually means the service is completely not accessible to customers. In the event of downtime, GCP will notify [On-Call DevOps engineers](../index.md#on-call) via Opsgenie and the On-Call engineers will proceed with our incident playbook to ensure we reach to a resolution.
 
@@ -349,8 +350,8 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 
    ```sh
    export PROJECT_PREFIX=sourcegraph-managed
-   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    export CUSTOMER=<customer_or_instance_name>
+   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    ```
 
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
@@ -358,15 +359,28 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 ```sh
 mg ssh
 docker exec -it gitserver-0 sh
-cd /data/repos/<repo_name>
-git prune && git fetch
-# look for errors, no output indicates clean repo
+cd /data/repos/<repo_name>/.git
+cat sgm.log
+cat gc.log
+# look for errors and numbers of failures
+# Also run
+git prune && git fetch # check for errors
 ```
 
-1. Run the following script to have repo-updater queue an update
+1. Run the following [script](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/fix-dirty-repo.sh), from within a clone of `sourcegraph/deploy-sourcegraph-managed`, to have repo-updater queue an update
 
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
+   ```
+
+1. Possibly add YAML below per https://github.com/sourcegraph/customer/issues/1128#issuecomment-1187299283. This depends
+   on if SRC_ENABLE_SG_MAINTENANCE is thought to be part of the issue.
+
+   ```yaml
+   gitserver-0:
+     environment:
+       - SRC_ENABLE_SG_MAINTENANCE=false
+       - SRC_ENABLE_GC_AUTO=true
    ```
 
 ## Disaster Recovery and Business Continuity Plan

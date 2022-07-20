@@ -7,7 +7,7 @@
 ## How to request
 
 1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
-2. Notify Delivery in [#cloud-devops] channel, linking to the issue
+2. Notify Cloud team in [#cloud] channel, linking to the issue
 
 SLAs for this can be found with our other [managed instance SLAs](index.md#slas-for-managed-instances).
 
@@ -117,7 +117,7 @@ terraform destroy
 
 ```
 cd monitoring/
-sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for MacOS
+sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for macOS
 terraform apply
 ```
 
@@ -271,7 +271,7 @@ cd ../ # back to the repo root directory
 
 Remove customer from managed instance upgrade template. Avoid mentioning the customer name directly, the handbook is a public repository.
 
-The template is located in [handbook/content/departments/engineering/dev/process/releases/upgrade_managed_issue_template](../../../dev/process/releases/upgrade_managed_issue_template.md).
+The template is located in [handbook/content/departments/engineering/dev/process/releases/upgrade_managed_issue_template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
 ### Updating outstanding tracking issues
 

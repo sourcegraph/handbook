@@ -3,7 +3,7 @@
 - All full-time teammates must have a Sourcegraph computer
 - All teammates must work from their Sourcegraph computer
 - All teammates must only use their Sourcegraph computer for accessing [company data](#company-data)
-- Sourcegraph approves the use of Apple MacOs only (you may work with Windows and Linux devices for work that does not involve internal, private or confidential company data, such as open source coding)
+- Sourcegraph approves the use of Apple macOS only (you may work with Windows and Linux devices for work that does not involve internal, private or confidential company data, such as open source coding)
 - All teammates should adhere to our related usage and access policies:
   - [Device usage and privacy policy](../process/team_device_usage_privacy.md)
   - [Access control policy](../../../company-info-and-process/policies/access-control-policy.md)
@@ -75,7 +75,7 @@ If you have a device that you are having [upgraded](../../../benefits-pay-perks/
 - We can create a similar Linux environment for those wishing to have this capability on their Apple devices.
 - We can manage and monitor these environments remotely hence we can make sure they are compliant with our policies.
 
-## Why did we standardize to MacOS
+## Why did we standardize to macOS
 
 - We are all-remote: our teammates work all over the world, from the office of their choosing, and this has inherent risks for device management (such as unauthorized access, an increased likelihood that a device is lost/stolen, and wireless network attacks). We feel that Macs, and the tools we can install on Macs, can provide us with the greatest ability to protect these devices and the data accessed while continuing to support our global teammates.
 - We are customer-first: we have an obligation to protect our clients' and teammates' data and privacy. Standardizing to Mac and restricting our access policy is part of adhering to this promise.

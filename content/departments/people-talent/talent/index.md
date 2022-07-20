@@ -1,15 +1,24 @@
-# Talent
+! UNDER CONSTRUCTION !
 
-The Talent team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome.
+# The Talent & People Team
 
-If you have any questions for the Talent Team, please email Recruiting@sourcegraph.com.
+The Talent Team is responsible for helping every team at Sourcegraph hire, and for providing an incredible experience to all candidates, regardless of hiring outcome. The People Team ensures that all Teammates, once hired, have the tools and support needed to be successful throughout during their journey with us.
 
-## Resources for Candidates
+While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
+
+If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
+
+In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
+
+## Resources for candidates
+
+### Open positions
 
 - [Careers page & open positions](../resources_for_candidates.md#how-to-apply)
 - [Internship Program](internship/index.md)
-- [Company values](../../../company-info-and-process/values/index.md)
-- [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
+
+### Interview & offer process
+
 - [How to prepare for your interview](../resources_for_candidates.md)
   - [Types of interviews & sample questions](process/types_of_interviews.md)
   - [Candidate FAQ](../resources_for_candidates.md#candidate-faqs)
@@ -21,7 +30,130 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [How we engage](../people-ops/process/how-we-engage-talent-outside-the-us/index.md)
   - [How we pay](../people-ops/process/how-we-engage-talent-outside-the-us/#payments-2/index.md)
 
-## Resources for Hiring Managers
+### Culture & total rewards
+
+- [Company values](../../../company-info-and-process/values/index.md)
+- [Perks, benefits & compensation](../resources_for_candidates.md#benefits-and-perks)
+
+## Resources for teammates
+
+### Onboarding
+
+- I9 verification
+- The onboarding process
+- BambooHR
+- Helpful videos
+- Onboarding swag
+- Our values
+
+### Career mobility
+
+- [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- [Promotion process]
+
+### Total rewards
+
+- Compensation
+  - Getting paid
+  - Getting raises
+  - 401k
+- Company-travel
+- Equity
+  - Equity FAQ
+  - Carta
+- PTO policy
+  - Submitting time off
+  - Public holidays
+- Perks
+- Benefits
+  - Lumity
+  - Rippling
+  - Making benefits changes
+- Parental leave
+- Medical leave & accommodation
+- Mental health resources
+
+### How we measure culture
+
+- Engagment Surveys
+- Pulse Surveys
+
+### How we manage performance
+
+- 360-Impact Review Process
+  - Methodology
+  - Goal Setting and Expectations
+  - Eligibility
+  - Evaluation Cadence
+  - Review Schedule
+  - Talent Assessment Framework
+    - Skills-based
+    - Values-based
+    - Performance & Values Rating Definitions
+    - Guidance for Performance Ratings
+  - Impact Review Questions
+- Enablement
+  - How to write an effective self and peer review (Coming Soon)
+
+### Relocation/address changes
+
+- Changing addresses
+- Mortgage verification
+
+### Immigration support
+
+- Visa process
+- Sponsorship policy
+
+### Verifications
+
+- Employment verification process
+- Motgage process
+
+### Expenses
+
+- Our expense policy
+- How to submit expenses
+
+### People Team support
+
+- Who is my People Partner?
+- How to raise a cofidential issue
+
+### Reporting violations
+
+- Anti-harassment
+- Code of business conduct & ethics
+
+### Learning & development
+
+- [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
+- [Interview training & best practices](tools/interview_training.md)
+
+### Interviewing
+
+- [How to refer a candidate](process/identifying_candidates.md)
+  - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)
+- [The interview process](process/interview_process.md)
+  - [Types of interviews](process/types_of_interviews.md)
+  - [Peer interview](process/types_of_interviews.md#peer-interview)
+  - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
+  - [Values interview](process/evaluating_values.md)
+  - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
+  - [Interview scenarios & escalation process](process/scenarios_and_escalation_process.md)
+- [Recruiting Tools](process/index.md#recruiting-tools)
+  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
+- [Recruitment branding](process/recruitment_branding.md)
+
+### Leaving Sourcegraph
+
+- How to resign
+
+## Resources for managers
+
+### Hiring
 
 - [How to make a change to my headcount plan](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to change a role's start date (pulling a role forward or pushing it back in the board-approved headcount plan)](https://forms.gle/6dQmnRjsXDEjB4y7A)
@@ -54,41 +186,114 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Offer approval process](process/extending_an_offer.md)
   - [The offer summary](process/extending_an_offer.md)
   - [The offer letter](process/extending_an_offer.md)
-- [How to hire a teammate into a new role]
-  - [Scenario: you want to interview a teammate for a role on a different team](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-  - [Scenario: you want to promote someone into a new level band]COMING SOON
-  - [Scenario: you want to give someone a raise]COMING SOON
-- [Recruiting tools](process/index.md#recruiting-tools)
-  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
-  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
-  - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
-  - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+- [How to hire a teammate into a new role](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
-## Resources for Teammates
+### Tools
 
-- [How to refer a candidate](process/identifying_candidates.md)
-  - [Greenhouse referral instructions](https://support.greenhouse.io/hc/en-us/articles/201982560-Submit-referrals)
-- [The interview process](process/interview_process.md)
-  - [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
-  - [Interview training & best practices](tools/interview_training.md)
-  - [Types of interviews](process/types_of_interviews.md)
-  - [Peer interview](process/types_of_interviews.md#peer-interview)
-  - [Team collaboration interview](process/types_of_interviews.md#team-collaboration-interview)
-  - [Values interview](process/evaluating_values.md)
-  - [Providing interview feedback & feedback definitions](process/interview_process.md#providing-interview-feedback)
-  - [Interview scenarios & escalation process](process/scenarios_and_escalation_process.md)
-- [Recruiting Tools](process/index.md#recruiting-tools)
-  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
-  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
-- [Recruitment branding](process/recruitment_branding.md)
-- [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+- BambooHR
+- [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+- [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+- [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
+- [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+
+### Learning & development
+
+- [First time interviewer resources](tools/interview_training.md#checklist-for-new-interviewers)
+- [Interview training & best practices](tools/interview_training.md)
+
+### Onboarding your new hire
+
+### Celebrating teammates
+
+- Birthdays
+- Anniversaries
+- Promotions
+- Life events
+
+### Compensation
+
+- Our compensation philosophy
+- Our bands
+- How to give a raise
+- How to give a spot bonus
+- How to give a promotion
+
+### Performance management
+
+- 360-Impact Review Process
+  - Methodology
+  - Goal Setting and Expectations
+  - Eligibility
+  - Evaluation Cadence
+  - Review Schedule
+  - Talent Assessment Framework
+    - Skills-based
+    - Values-based
+    - Performance & Values Rating Definitions
+    - Guidance for Performance Ratings
+  - Impact Review Questions
+- Performance Improvement Plan Process (PIP)
+- Enablement
+  - Guide to having an effective 1:1 (Coming Soon)
+  - Introduction to and preparing for Calibrations (Coming Soon)
+  - Template Calibration Presentation (Coming Soon)
+  - How to have an impactful review conversation (Coming Soon)
+  - How to have a compensation conversation (Coming Soon)
+  - How to have an effective Career/Coaching conversation (Coming Soon)
+
+## Resources for People Team
+
+### Onboarding
+
+- Types of employment
+  - US-based Teammates
+  - Contractors
+  - PEO
+- BambooHR
+
+### Calibration cycles & templates
+
+- Merit
+- Promotion
+- Compensation
+
+### Teammate support
+
+- Parental leave
+- Leaving Sourcegraph
+  - Exit interviews
+  - Offboarding process
+
+### Teammate swag
+
+### How we measure culture
+
+- Engagment Surveys
+- Pulse Surveys
 
 ## Resources for Talent Team
 
+### Onboarding resources
+
 - [Recruiter onboarding resources](../onboarding/index.md)
+- [Recruiting tools](process/index.md#recruiting-tools)
+  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
+  - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
+  - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+  - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
+- [Recruitment metrics](process/talent_metrics.md)
+- [Recruitment branding](process/recruitment_branding.md)
+
+### Opening a new job & headcount changes
+
 - [Opening a new job](process/opening_a_new_job.md)
   - [Kicking off a new search](process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
+- [How to make a change to headcount plan](process/headcount_changes.md)
+
+### Sourcing
+
 - [Identifying candidates](process/identifying_candidates.md)
   - [How we find candidates](process/identifying_candidates.md)
   - [Where we advertise our jobs](process/recruitment_branding.md)
@@ -96,6 +301,10 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Partnering with your Sourcer](process/identifying_candidates.md)
   - [Using external recruiting agencies](process/identifying_candidates.md)
   - [How we share profiles with Hiring Managers](process/identifying_candidates.md)
+- [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
+
+### Interviewing
+
 - [The interview stage](process/interview_process.md)
   - [First time interviewer resources](process/interview_process.md)
   - [Interview training & best practices](tools/interview_training.md)
@@ -117,20 +326,13 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
   - [Onboarding via PEO](process/after_the_offer.md#onboarding-process-for-peo-hires)
   - [Changing start dates](process/after_the_offer.md#changing-a-new-hires-start-date)
   - [Actioning a Revoked Offer](process/after_the_offer.md#actioning-a-revoked-offer)
-- [Recruiting tools](process/index.md#recruiting-tools)
-  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
-  - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
-  - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
-  - [Talent Wall, our pipeline tracking tool](tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
-  - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
-- [Recruitment branding](process/recruitment_branding.md)
-- [Recruitment metrics](process/talent_metrics.md)
-- [Internal transfers & switching teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
-- [How to make a change to headcount plan](process/headcount_changes.md)
+
+### Internship program
+
 - [Internship Program](internship/index.md)
 - [Internship Recruiting and Offer Processes](internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
-## Talent Team Members
+# The Talent Team
 
 [Click here](process/teamalignment.md) to see Talent Team alignment with each department
 
@@ -140,12 +342,12 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
         <div>
           <div>
             <a href="../../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Carly-Bitmoji.png"
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
                 alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Carly Jones</div>
-          <div style="text-align: center; font-size: 12px;">VP of Talent</div>
+          <div style="text-align: center; font-size: 12px;">VP of Talent & People</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
@@ -232,7 +434,7 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
             </a>
           </div>
           <div style="text-align: center;">Marija Petrovic</div>
-          <div style="text-align: center; font-size: 12px;">Senior Sales Recruiter, Team Lead</div>
+          <div style="text-align: center; font-size: 12px;">Director, Corporate & Sales Recruiting</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
@@ -259,19 +461,75 @@ If you have any questions for the Talent Team, please email Recruiting@sourcegra
           <div style="text-align: center; font-size: 12px;">Recruiting Operations Specialist</div>
         </div>
       </div>
+    </div>
+  </section>
+
+# The People Team
+
+ <section>
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="https://boards.greenhouse.io/sourcegraph91" target="_blank" rel="noopener">
-              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/join-us-vermillion.png"
-                alt="Picture with CTA: Join Us" style="background: transparent; width:128px;" />
+            <a href="../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
+                alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
             </a>
           </div>
-          <div style="text-align: center;"><a href="https://boards.greenhouse.io/sourcegraph91" target="_blank"
-              rel="noopener">Join Sourcegraph</a></div>
-          <div style="text-align: center; font-size: 12px;"><a href="https://boards.greenhouse.io/sourcegraph91"
-              target="_blank" rel="noopener">All Roles Here</a></div>
+          <div style="text-align: center;">Inés Roitman</div>
+          <div style="text-align: center; font-size: 12px;">Onboarding and Training Manager</div>
         </div>
       </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
+                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Jonathan Ayers</div>
+          <div style="text-align: center; font-size: 12px;">Director, People</div>
+        </div>
+        </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
+                alt="Picture of Alex Mathison" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Alex Mathison</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
+                alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Carl Robson</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Sarah Um</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
     </div>
-  </section>
+    </div>
+
+   </section>
