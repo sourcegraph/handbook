@@ -183,7 +183,7 @@ terraform apply
 
 Remove customer from managed instance upgrade template. **Avoid mentioning the customer name directly**, the handbook is a public repository.
 
-The template is located in [managed instances upgrade issue template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
+The template is located in [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
 ### Updating outstanding tracking issues
 
