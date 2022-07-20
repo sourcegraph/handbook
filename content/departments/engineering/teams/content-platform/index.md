@@ -126,14 +126,15 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
 - **Automation:**
 
 GitHub Automation workflows are currently in Beta and we take advantage of the following features available to us:
-  - When an issue is added to the project, its status is set to **Backlog**.
-  - When an issue or PR is reopened, its status is set to **Ready for Development**.
-    - In some cases, PRs may be reopened but are not yet **In Progress** again. If , manually change the status.
-  - When an issue or PR is closed, its status is changed to **Done**.
-    - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
-  - When PR changes are requested, the status is set to **In Progress**.
-  - When a PR is approved, its status is changed to **In Stakeholder Review**.
-  - When a PR is merged, its status is changed to **Done**.
+
+- When an issue is added to the project, its status is set to **Backlog**.
+- When an issue or PR is reopened, its status is set to **Ready for Development**.
+  - In some cases, PRs may be reopened but are not yet **In Progress** again. If , manually change the status.
+- When an issue or PR is closed, its status is changed to **Done**.
+  - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
+- When PR changes are requested, the status is set to **In Progress**.
+- When a PR is approved, its status is changed to **In Stakeholder Review**.
+- When a PR is merged, its status is changed to **Done**.
 
 ### Pull Requests
 
