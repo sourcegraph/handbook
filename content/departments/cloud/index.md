@@ -23,7 +23,7 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 - Reliable (ability to offer SLA, internal SLO of 99.9%)
 - Automatable (in due time, feature releases / billing / upgrades / analytics are built-in)
 
-**Support 200+ customer**
+**Support 200+ customers**
 
 - Targeting 200+ customers in FY23 to invest in supporting 1000 in FY24
   - Support 300 production-grade instances (accommodating trials / testing)
@@ -51,7 +51,7 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 - Administration / operations provided by Sourcegraph
 - (FY24) Self service provisioning / release channels for upgrades
 
-Not in scope (for FY23 / FY24):
+#### Not in scope (for FY23 / FY24):
 
 - supporting customer provided GCP infrastructure
 - supporting cloud providers other than GCP
