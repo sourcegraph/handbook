@@ -37,14 +37,15 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ## Resources for Teammates
 
-### Who to go to 
+### Who to go to
+
 - People support
   - Who is my People Partner?
 - Recruiting support
   - Who is my Recruiter?
-- Anonymous support 
+- Anonymous support
   - Our exec AMA process
-  - How to submit a confidential complaint 
+  - How to submit a confidential complaint
 
 ### Onboarding as a new hire
 
@@ -96,9 +97,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Performance improvement plan process
 - Our formal performance review process
   - Why we do performance reviews
-  - When we do performance reviews 
-  - What we measure 
-  - The questions we ask 
+  - When we do performance reviews
+  - What we measure
+  - The questions we ask
   - How we use the results
   - Training: how to write an effective review (Coming Soon)
 
@@ -156,14 +157,15 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ## Resources for Managers
 
-### Who to go to 
+### Who to go to
+
 - People support
   - Who is my People Partner?
 - Recruiting support
   - Who is my Recruiter?
-- Anonymous support 
+- Anonymous support
   - Our exec AMA process
-  - How to submit a confidential complaint 
+  - How to submit a confidential complaint
 
 ### Hiring
 
@@ -237,19 +239,20 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - Performance improvement plan (PIP) process
 - Our formal performance review process
   - Why we do performance reviews
-  - When we do performance reviews 
-  - What we measure 
-  - The questions we ask 
+  - When we do performance reviews
+  - What we measure
+  - The questions we ask
   - How we use the results
-- Training: 
+- Training:
   - How to write an effective review (Coming Soon)
   - How to have an effective 1:1 (Coming Soon)
   - How to have a coaching/career conversation
   - How to initiate a formal performance improvement plan (PIP)
 
 ### Resignations
-- How to handle a resignation 
-- How to kick off a backfill request 
+
+- How to handle a resignation
+- How to kick off a backfill request
 
 ## Resources for People Team
 
