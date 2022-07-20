@@ -271,10 +271,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Compensation
 
 ### Role / comp / equity change process
-- How to process an equity increase 
-- How to process a compensation increase 
-  - Informing PEO re: comp increases 
-- Template for change to role / comp / equity 
+
+- How to process an equity increase
+- How to process a compensation increase
+  - Informing PEO re: comp increases
+- Template for change to role / comp / equity
 
 ### Teammate support
 
