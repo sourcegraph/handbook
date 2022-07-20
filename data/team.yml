@@ -333,7 +333,7 @@ quinn_keast:
   name: Quinn Keast
   reports_to: director_design
   pronouns: he/him
-  role: Product Designer, Cloud SaaS and Search
+  role: Product Designer
   location: Berlin, Germany 🇩🇪
   github: quinnkeast
   email: qkeast@sourcegraph.com
@@ -1916,16 +1916,6 @@ shawntee_harris:
   location: Kansas City, KS, USA 🇺🇸
   description: Shawntee lives in Kansas City, KS with her fiancé and 2 dogs. Outside of work she loves collecting new vinyals, attending live music shows and traveling.
 
-pietro_rosa:
-  name: Pietro Rosa
-  email: pietro.rosa@sourcegraph.com
-  pronouns: he/him
-  location: Rovigo Italy, IT 🇮🇹
-  role: Software Engineer
-  links: '[LinkedIn](https://www.linkedin.com/in/pietrorosa77)'
-  reports_to: engineering_manager_iam
-  description: Pietro lives in a small city called [Rovigo](https://goo.gl/maps/bFK7n4quTGk5MJBu7) in Italy with his wife and 2 kids. Pietro previously worked in Microsoft, Auth0 and NearForm as a senior full stack engineer. He loves playing football ⚽ (nowadays only 5 aside letting the ball doing most of the job...), hiking 🥾 and wild mushrooms gathering 🍄.
-
 lindsay_murphy:
   name: Lindsay Murphy
   email: lindsay.murphy@sourcegraph.com
@@ -2542,17 +2532,6 @@ kalan_chan:
   links: '[LinkedIn](https://www.linkedin.com/in/kalanchan/)'
   description: Kalan lives in Burnaby, also known as Vancouver to everyone outside of Metro Vancouver. He graduated from the University of Alberta with an Electrical Engineering degree, but soon after started self learning Software Development when he saw the light. On his spare time when he's not pushing pixels, Kalan enjoys biking, bouldering, reading and plane spotting.
 
-marcos_placona:
-  name: Marcos Placona
-  pronouns: he/him
-  location: Leighton Buzzard, UK 🇬🇧
-  role: Director of DevRel and Community
-  reports_to: cto
-  email: marcos.placona@sourcegraph.com
-  github: mplacona
-  links: '[Twitter](https://twitter.com/marcos_placona), [LinkedIn](https://www.linkedin.com/in/marcosplacona/)'
-  description: 'Marcos grew up in Brazil and studied Computer Science in the UK. He is passionate about community and technology and spends much of his time building apps and often connecting them to physical devices. Before Sourcegraph, he ran DevRel at Twilio for EMEA and LATAM. Marcos is also a great API and developer tools enthusiast and believes they bring peace to the Software Engineering world. Outside of work, he enjoys spending time with his family and playing Magic the Gathering at his local game store.'
-
 quinn_hare:
   name: Quinn Hare
   pronouns: she/her
@@ -2667,3 +2646,32 @@ vincent_ruijter:
   reports_to: engineering_manager_security
   location: The Hague, Netherlands
   description: Loves anything related to computers and security and broke more routers than he should be proud of. Enjoys reading books, running, eating (a lot, hence the running) and simracing.
+
+james_cotter:
+  name: James Cotter
+  role: Software Engineering Intern
+  reports_to: engineering_manager_search_core
+  location: Cork, Ireland 🇮🇪
+  github: jac
+  email: james.cotter@sourcegraph.com
+  description: James is a UCC Computer Science graduate born and raised in West Cork, Ireland. Previously he was a Software Engineering Intern at F5/NGINX, and Head Systems Administrator at UCC Netsoc, the college tech/gaming society. Outside of tech James enjoys sailing, gaming, D&D, and all things sci-fi.
+
+jamie_lindsay:
+  name: Jamie Lindsay
+  email: jamie.lindsay@sourcegraph.com
+  pronouns: she/her
+  role: Sales Enablement Lead
+  reports_to: senior_manager_value_engineering
+  location: Concord, NC
+  description: Jamie is located in Concord, North Carolina which is outside of Charlotte with her husband and daughter. She has worked in sales for entire career and helped build out the enablement function at ther last company, Quickbase. In her free time, she enjoys cooking, baking, taking care of the garden, and spending time outdoors with her family.
+
+jessie_seidler:
+  name: Jessie Seidler
+  pronouns: she/her
+  role: Enterprise Account Executive
+  reports_to: vp_sales_western_region
+  location: Denver, CO, USA 🇺🇸
+  github: JessieSeidler
+  email: jessie.seidler@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jessieseidler/)'
+  description: "A recent Denver transplant, Jessie spent the last 8 years in San Francisco establishing a career in sales with companies like Optimizely and Twilio. Jessie graduated from Boston College with an Honors BA in Sociology and Spanish. When she's not whipping up dank Italian food, you can find her outside biking, running, or backpacking. Jessie has been to 50 countries and counting! "
