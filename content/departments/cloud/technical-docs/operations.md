@@ -369,6 +369,15 @@ git prune && git fetch # check for errors
        - SRC_ENABLE_SG_MAINTENANCE=false
        - SRC_ENABLE_GC_AUTO=true
    ```
+   
+### Investigate VM platform logs
+
+Navigate to GCP Logging in the right project, use the following query. This is helpful to figure out automated operation against our VM instances.
+
+```
+resource.type="gce_instance"
+protoPayload.authenticationInfo.principalEmail="system@google.com"
+```
 
 ## Disaster Recovery and Business Continuity Plan
 
