@@ -61,6 +61,18 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Our high performance culture
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 - [Promotion process]
+- Career ladders
+  - How we determine our career ladder
+  - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+  - Department specific career ladders
+    - [CE](link coming soon)
+    - [Engineering](link coming soon)
+    - [Marketing](link coming soon)
+    - [Ops](link coming soon)
+    - [Sales](link coming soon)
+    - [Support](link coming soon)
+    - [People & Talent](link coming soon)
+- [How to view your level](coming soon)
 
 ### Total rewards
 
@@ -177,6 +189,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to open a new job search](process/opening_a_new_job.md)
   - [Who is my recruiter?](process/teamalignment.md)
   - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
+  - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
@@ -249,6 +262,15 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - How to have a coaching/career conversation
   - How to initiate a formal performance improvement plan (PIP)
 
+### How we measure culture
+
+- Types of Lattice surveys (coming soon)
+  - Engagment Surveys (coming soon)
+  - Pulse Surveys (coming soon)
+- How Managers access their team's survey responses in Lattice (coming soon)
+- How the People Team shares survey results (coming soon)
+- How the People Team actions survey results (coming soon)
+
 ### Resignations
 
 - How to handle a resignation
@@ -291,8 +313,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- Engagment Surveys
-- Pulse Surveys
+- Types of Lattice surveys (coming soon)
+  - Engagment Surveys (coming soon)
+  - Pulse Surveys (coming soon)
+- How to access survey results (coming soon)
+- How the People Team shares survey results with the company (coming soon)
+- Hot the People Team actions survey results (coming soon)
 
 ## Resources for Talent Team
 
