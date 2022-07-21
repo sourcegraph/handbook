@@ -275,7 +275,10 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - How to process an equity increase
 - How to process a compensation increase
   - Informing PEO re: comp increases
-- Template for change to role / comp / equity
+- Template letters: 
+  - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
+  - Spot bonus template
+  - Compemsation and / or equity increase template
 
 ### Teammate support
 
@@ -312,6 +315,10 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [The intake meeting](process/opening_a_new_job.md#the-recruiters-actions)
 - [How to make a change to headcount plan](process/headcount_changes.md)
 
+### Where we hire
+  - [Locations where we hire](../people-ops/process/how-we-engage-talent-outside-the-us/index.md)
+  - [Approval process for PEO](https://docs.google.com/presentation/d/1LIXOhvAmNjjiGV5oB0x3iRDrsjBkB0cbhSFGttCYCyo/edit#slide=id.g11848eed1f7_0_0)
+  
 ### Sourcing
 
 - [Identifying candidates](process/identifying_candidates.md)
