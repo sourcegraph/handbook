@@ -40,6 +40,8 @@ The estimated spend for interns is **$925\***.
 - Ergonomic chair
 - Camera (for people who present externally to clients and prospects)
 
+Note: Our policy is that all teammates have a sourcegraph-managed laptop to perform all work pertaining to their role at Sourcegraph and we only support Mac computers at this time, so teammates are not able to expense a PC. See below for more information on computers and ordering your laptop.
+
 ## Computers
 
 All Sourcegraph teammates are required to have, and to work from, a company machine that is set up accoring to our [device requirements](../../departments/tech-ops/tools/computer-setup.md). Computers are considered property of the company.

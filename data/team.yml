@@ -333,7 +333,7 @@ quinn_keast:
   name: Quinn Keast
   reports_to: director_design
   pronouns: he/him
-  role: Product Designer, Cloud SaaS and Search
+  role: Product Designer
   location: Berlin, Germany 🇩🇪
   github: quinnkeast
   email: qkeast@sourcegraph.com
@@ -351,17 +351,6 @@ juliana_peña:
   links: '[LinkedIn](https://www.linkedin.com/in/julianapena/), [Twitter](https://twitter.com/limitedmage)'
   pronunciation: '[pronounce my name 🔊](https://www.name-coach.com/julip)'
   description: "Juliana is originally from Cali, Colombia 🇨🇴 and went to college in Mexico City 🇲🇽 before moving to the Seattle area. She loves building powerful and beautiful web applications that improve people's lives. Before Sourcegraph, Juliana worked at Microsoft building successful startup projects, and is now very excited to be working in a real startup company. Outside of work, Juliana loves cyling, collecting Lego, playing video games, and traveling."
-
-tharuntej_kandala:
-  name: Tharuntej Kandala
-  pronouns: he/him
-  role: Software Engineer
-  reports_to: engineering_manager_growth
-  location: Jacksonville, FL, USA 🇺🇸
-  github: tjkandala
-  email: tj@sourcegraph.com
-  pronunciation: Call him "TJ"
-  description: TJ was born in India before he was brought to the swamp. He strives to bridge the gap between Developer Experience and User Experience in modern web applications. Outside of work, he loves to code and dunk basketballs by the ocean.
 
 chris_pine:
   name: Chris Pine
@@ -1647,7 +1636,7 @@ brett_hayes:
   role: Software Engineer
   reports_to: engineering_manager_content_platform
   location: Ontario, Canada 🇨🇦
-  description: Brett sparked his interest in design and programming when he first discovered modding map skins and projectiles to do weird things in the game of Halo. This became the catalyst to his self-taught career in software and web development. He started consulting after graduating high school and has had the pleasure of working for a handful of startups as well as Co-founding a few of his own. He's worked in many industries such as retail, edtech, fintech, and automotive and brings over a decade of experience in software and web development to Sourcegraph. Being creative at heart with an analytical mind, Brett has a knack for his craft and is passionate about design and web technologies. Away from his mechanical keyboard, you can find him photographing candid moments, snowboarding with his wife, tinkering with his network rack, playing or writing music, or wrenching on his car.
+  description: Brett sparked his interest in design and programming when he first discovered modding map skins and projectiles to do weird things in the game of Halo. This became the catalyst to his self-taught career in software and web development. He started consulting after graduating high school and has had the pleasure of working for a handful of startups as well as co-founding a few of his own. He's worked in many industries such as retail, edtech, fintech, and automotive and brings over a decade of experience in software and web development to Sourcegraph. Being creative at heart with an analytical mind, Brett has a knack for his craft and is passionate about design and web technologies.
 
 olivia_simpson:
   name: Olivia Simpson
@@ -2302,15 +2291,6 @@ tracey_johnson:
   links: '[LinkedIn](https://www.linkedin.com/in/tracey-johnson)'
   description: Tracey is a Brand Designer and mom of 3. Before coming to Sourcegraph, she was a designer at a full-service digital marketing agency serving B2B tech-SaaS clients. She is passionate about brand consistency and empathetic design. She spends her freetime doing puzzles, knitting, playing video games, and brunching!
 
-tim_zielonko:
-  name: Tim Zielonko
-  email: tim.zielonko@sourcegraph.com
-  github: zlonko
-  role: Software Engineer
-  reports_to: engineering_manager_content_platform
-  location: Saint Louis, MO, USA 🇺🇸
-  description: 'Tim is a software engineer supporting the Content Platform team. He joins Sourcegraph from Saint Louis, Missouri, where he lives with his partner, Alex, and their dog, Otto.'
-
 yoway_buorn:
   name: Yoway Buorn
   pronouns: he/him
@@ -2664,3 +2644,14 @@ jamie_lindsay:
   reports_to: senior_manager_value_engineering
   location: Concord, NC
   description: Jamie is located in Concord, North Carolina which is outside of Charlotte with her husband and daughter. She has worked in sales for entire career and helped build out the enablement function at ther last company, Quickbase. In her free time, she enjoys cooking, baking, taking care of the garden, and spending time outdoors with her family.
+
+jessie_seidler:
+  name: Jessie Seidler
+  pronouns: she/her
+  role: Enterprise Account Executive
+  reports_to: vp_sales_western_region
+  location: Denver, CO, USA 🇺🇸
+  github: JessieSeidler
+  email: jessie.seidler@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/jessieseidler/)'
+  description: "A recent Denver transplant, Jessie spent the last 8 years in San Francisco establishing a career in sales with companies like Optimizely and Twilio. Jessie graduated from Boston College with an Honors BA in Sociology and Spanish. When she's not whipping up dank Italian food, you can find her outside biking, running, or backpacking. Jessie has been to 50 countries and counting! "
