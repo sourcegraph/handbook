@@ -330,8 +330,8 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 
 **Related useful links**
 
-- [Metrics definitions:](https://handbook.sourcegraph.com/departments/bizops/process/user_definitions/#engagement-ratios)
-- [Data sources of truth:](https://handbook.sourcegraph.com/departments/bizops/analytics/sources-of-truth/) Includes some definitions and links to data points owned/managed by Sales and Finance (ex. ARR)
+- [Metrics definitions](https://handbook.sourcegraph.com/departments/bizops/process/user_definitions/#.mdengagement-ratios)
+- [Data sources of truth:](https://handbook.sourcegraph.com/departments/bizops/analytics/sources-of-truth/#.mdsources-of-truth) Includes some definitions and links to data points owned/managed by Sales and Finance (ex. ARR)
 
 **Looker Enablement**
 
