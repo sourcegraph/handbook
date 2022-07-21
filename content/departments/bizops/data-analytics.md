@@ -293,9 +293,10 @@ If you’re looking for high-level data about how our user base interacts with o
 - [Monthly users by instance type](https://sourcegraph.looker.com/looks/729)
 - [Instances by deployment type](https://sourcegraph.looker.com/looks/971?toggle=fil,pik)
 - [DAU/MAU ](https://sourcegraph.looker.com/looks/1319)
-- [Average and median seat consumption (MAU/Total Seats)](https://docs.google.com/spreadsheets/d/17yPICwsiYRljXiG1SnSGndWFsVMOncUL5SETk4MirPY/edit#gid=634721411) - customers only
+- [Average seat consumption (MAU/Total Seats)](https://sourcegraph.looker.com/looks/1333?toggle=dat,fil,pik) - customers only
 - [Customer support tickets](https://sourcegraph.looker.com/dashboards/177?Organization=&Ticket+priority=None%2Cp1%2Cp2&Created+Date=90+day&Assignee+ID=&Lifecycle=)
 - [Growth dashboard ](https://sourcegraph.looker.com/dashboards/292?Salesforce%20Unique%20ID=&Unique%20Server%20ID=)(includes metrics like total searches per month, lines of code indexed per month, user retention etc)
+- [Technical health score](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D)
 
 **Customer-level metrics**
 If you’re looking for product usage data for a specific customer(s), below are links to charts for some commonly requested data points. Please note that if you want to see a full overview of a specific instance’s usage, the dashboards in the “Full instance overview” section may be more useful.
@@ -304,7 +305,7 @@ If you’re looking for product usage data for a specific customer(s), below are
 - [Total user accounts by customer (monthly)](https://sourcegraph.looker.com/looks/1066)
 - [DAU/MAU by customer](https://sourcegraph.looker.com/looks/1316)
 - [Customers by Sourcegraph version](https://sourcegraph.looker.com/looks/718)
-- [Customer seat consumption (MAU/purchased seats)](https://docs.google.com/spreadsheets/d/17yPICwsiYRljXiG1SnSGndWFsVMOncUL5SETk4MirPY/edit#gid=1396382810)
+- [Customer seat consumption (MAU/purchased seats)](https://sourcegraph.looker.com/looks/1332?toggle=pik)
 - [Deployment type by customer](https://sourcegraph.looker.com/looks/1317)
 - [Telemetry status by customer](https://sourcegraph.looker.com/looks/1310)
 - [Code hosts by customer](https://sourcegraph.looker.com/looks/1198)
@@ -315,9 +316,9 @@ If you’re looking for product usage data for a specific customer(s), below are
 **Full instance overview**
 If you’re looking for a full breakdown of usage on a server or for a particular customer, below are links to a few widely used dashboards that contain a variety of usage metrics.
 
-- [Customer account overview: ](https://sourcegraph.looker.com/dashboards/296?Name=Uber&Contract+Start+Date=&Company+size+%28%23+of+employees%29=&Account+Exec=&Customer+Engineer=&Contract+End+Date=)This is the main dashboard we use to assess usage at a customer account (note: this is only for customers, free and prospect instances will not show up here). While more pared down than the following two dashboards, it contains the metrics we think are generally most important to measuring overall usage.
+- [Customer account overview: ](https://sourcegraph.looker.com/dashboards/296?Name=Uber&Contract+Start+Date=&Company+size+%28%23+of+employees%29=&Account+Exec=&Customer+Engineer=&Contract+End+Date=)A key dashboard we use to assess usage at a customer account (note: this is only for customers, free and prospect instances will not show up here). While more pared down than the following two dashboards, it contains the metrics we think are generally most important to measuring overall usage.
 - [Server instances dashboard:](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Uber&Salesforce+Unique+ID=) This dashboard is much more comprehensive than the customer account overview, but not every metric on here will be important/relevant for every user/customer. However, you can find free and prospect instances on this dashboard
-- [Technical health dashboard:](https://sourcegraph.looker.com/dashboards/194?Unique+Server+ID=Uber) This dashboard contains the account’s technical health score and the metrics that are included as a part of that score, as well as a select few other metrics.
+- [Technical health dashboard:](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D) This dashboard contains the account’s technical health score and the metrics that are included as a part of that score.
 
 **Feature specific dashboards and charts**
 
