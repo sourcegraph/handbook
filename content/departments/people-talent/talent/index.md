@@ -65,13 +65,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - How we determine our career ladder
   - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - Department specific career ladders
-    - [CE](link coming soon) 
-    - [Engineering](link coming soon) 
-    - [Marketing](link coming soon) 
-    - [Ops](link coming soon) 
-    - [Sales](link coming soon) 
-    - [Support](link coming soon) 
-    - [People & Talent](link coming soon) 
+    - [CE](link coming soon)
+    - [Engineering](link coming soon)
+    - [Marketing](link coming soon)
+    - [Ops](link coming soon)
+    - [Sales](link coming soon)
+    - [Support](link coming soon)
+    - [People & Talent](link coming soon)
 - [How to view your level](coming soon)
 
 ### Total rewards
