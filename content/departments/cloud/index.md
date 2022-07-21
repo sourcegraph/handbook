@@ -201,7 +201,7 @@ Cloud instances provisioned for customers run [released](../engineering/dev/proc
 
 Sourcegraph-owned instances can be updated more frequently (with versions that weren't officially released), [DevX team](../engineering/teams/dev-experience/index.md) will own continuous deployment to those environments.
 
-### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances?
+### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
 Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
