@@ -185,3 +185,17 @@ Are you a member of our CE & CS teams?
 - Done! It shouldn't take more than 2 minutes
 
 <div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### FAQ: What are Cloud plans for observability - will we be able to see data from customer instances in Honeycomb / Grafana Cloud / X?
+
+Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces). 
+GCP Logging is used to store / query logs written by Sourcegraph workloads, and GCP Monitoring is used for infrastructure-level metrics / uptime checks.
+
+Access to data from Cloud instances is governed by [Cloud Access Control Policy](https://docs.google.com/document/d/16tRqZDKhli4hZtfAkJG46Cj6dtqAw2s6QGw5fGM43BQ/edit?usp=sharing).
+
+Long-term, we will collaborate with [DevX team](https://handbook.sourcegraph.com/departments/engineering/teams/dev-experience/) (as owners of Sourcegraph observability) to integrate Cloud with monitoring / observability solutions that are qualified for use with customer data.
+
+### FAQ: What are Cloud plans for continuous deployment - how often do we deploy code to Cloud instances?
+
+Cloud instances provisioned for customers run released Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
+Sourcegraph-owned instances can be updated more frequently (with versions that weren't officially released), [DevX team](https://handbook.sourcegraph.com/departments/engineering/teams/dev-experience/) will own continuous deployment to those environments.
