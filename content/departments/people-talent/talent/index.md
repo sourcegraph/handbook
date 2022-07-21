@@ -42,47 +42,60 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - Who is my People Partner?
 - Recruiting support
-  - Who is my Recruiter?
+  - [Who is my recruiter?](process/teamalignment.md)
 - Anonymous support
   - Our exec AMA process
   - How to submit a confidential complaint
 
 ### Onboarding as a new hire
 
-- I9 verification
-- The onboarding process
-- BambooHR
+- [I9 verification](../people-ops/tools/internal-onboarding.md/#onboarding)
+- [The onboarding process](../../../company-info-and-process/onboarding/index.md)
+- [BambooHR](../resources-for-new-hires/new-teammate-setup.md/#sts=BambooHR)
 - Helpful videos
-- Onboarding swag
-- Our values
+- [Onboarding swag](../swag.md/)
+- [Our values](../../../company-info-and-process/values/index.md)
 
 ### Career mobility
 
 - Our high performance culture
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
 - [Promotion process]
+- Career ladders
+  - How we determine our career ladder
+  - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+  - Department specific career ladders
+    - [CE](link coming soon)
+    - [Engineering](link coming soon)
+    - [Marketing](link coming soon)
+    - [Ops](link coming soon)
+    - [Sales](link coming soon)
+    - [Support](link coming soon)
+    - [People & Talent](link coming soon)
+- [How to view your level](coming soon)
 
 ### Total rewards
 
-- Compensation
-  - Getting paid
-  - Getting raises
-  - 401k
-- Company-travel
+- [Compensation](../../../benefits-pay-perks/pay-expenses/compensation/index.md)
+  - [Getting paid](../../../benefits-pay-perks/pay-expenses/index.md)
+  - [Getting raises](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+  - [401k](<../../../benefits-pay-perks/benefits-perks/#sts=🏦%20401(k).md>)
+- [Company-travel](../../../benefits-pay-perks/benefits-perks/travel/index.md)
 - Equity
-  - Equity FAQ
+  - [Equity FAQ](../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
   - Carta
-- PTO policy
-  - Submitting time off
-  - Public holidays
-- Perks
-- Benefits
-  - Lumity
-  - Rippling
-  - Making benefits changes
-- Parental leave
-- Medical leave & accommodation
-- Mental health resources
+- [PTO policy](../../../benefits-pay-perks/benefits-perks/time-off/index.md)
+  - [Submitting time off](../../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
+  - [Public holidays](../../../company-info-and-process/working-at-sourcegraph/holidays.md)
+- [Perks](../../../benefits-pay-perks/benefits-perks/#perks.md)
+- [Benefits](../../../benefits-pay-perks/benefits-perks/#benefits.md)
+  - [Lumity](../people-ops/tools/people-ops-faqs.md/#q-what-is-lumity)
+  - [Rippling](../people-ops/tools/people-ops-faqs.md/#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?)
+  - [Making benefits changes](../people-ops/tools/people-ops-faqs.md/#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
+- [Parental leave](../../../benefits-pay-perks/benefits-perks/parental-leave.md)
+- [Medical leave & accommodation](../../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
+- [Mental health resources](../../../benefits-pay-perks/benefits-perks/mental-health/index.md)
+  - [Modern Health](../../../benefits-pay-perks/benefits-perks/mental-health/modern-health.md)
 
 ### How we measure culture
 
@@ -177,6 +190,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to open a new job search](process/opening_a_new_job.md)
   - [Who is my recruiter?](process/teamalignment.md)
   - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
+  - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
   - [Writing a job description](process/opening_a_new_job.md)
   - [Creating an interview plan](process/opening_a_new_job.md)
@@ -249,6 +263,15 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - How to have a coaching/career conversation
   - How to initiate a formal performance improvement plan (PIP)
 
+### How we measure culture
+
+- Types of Lattice surveys (coming soon)
+  - Engagment Surveys (coming soon)
+  - Pulse Surveys (coming soon)
+- How Managers access their team's survey responses in Lattice (coming soon)
+- How the People Team shares survey results (coming soon)
+- How the People Team actions survey results (coming soon)
+
 ### Resignations
 
 - How to handle a resignation
@@ -291,8 +314,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- Engagment Surveys
-- Pulse Surveys
+- Types of Lattice surveys (coming soon)
+  - Engagment Surveys (coming soon)
+  - Pulse Surveys (coming soon)
+- How to access survey results (coming soon)
+- How the People Team shares survey results with the company (coming soon)
+- Hot the People Team actions survey results (coming soon)
 
 ## Resources for Talent Team
 
