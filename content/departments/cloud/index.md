@@ -197,11 +197,11 @@ Long-term, we will collaborate with [DevX team](../engineering/teams/dev-experie
 
 ### FAQ: What are Cloud plans for continuous deployment - how often do we deploy code to Cloud instances?
 
-Cloud instances provisioned for customers run [released](https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
+Cloud instances provisioned for customers run [released](../engineering/dev/process/releases/index.md#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
 
 Sourcegraph-owned instances can be updated more frequently (with versions that weren't officially released), [DevX team](../engineering/teams/dev-experience/index.md) will own continuous deployment to those environments.
 
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
-Future work in this area is owned by [Analytics team](https://handbook.sourcegraph.com/departments/bizops/) and managed through the ["Improve our data collection"](https://handbook.sourcegraph.com/strategy-goals/cross-functional-projects/#current-cross-functional-projects) cross-functional project.
+Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
