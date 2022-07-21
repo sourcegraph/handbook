@@ -385,35 +385,40 @@ git prune && git fetch # check for errors
    ```
 
 ### Grant Access to the Frontend
+
 In some situations it may be necessary to access the frontend of a running managed instance but the customer configuration has disabled access to basic auth or an OIDC-based solution preventing Sourcegraph adminstrator login easily. In these situations we have two options to grant ourselves temporary access.
 
-
 #### 1. Modify the `site-config` JSON file
+
 This is the easiest way to modify the site config, however it does not work if multiple frontend containers are running.
 
 1. `cd` into the desired customer directory in `deploy-sourcegraph-managed` and run `mg ssh` to gain an SSH shell to the instance
 1. Get a shell to the current frontend container with `docker exec -it --user=root sourcegraph-frontend-0 ash`
 1. Navigate to the `site-config.json` file path with `cd /home/sourcegraph`
 1. Using an editor of your choice (you may need to `apk add <editor>` if it's not already installed), modify the `site-config.json` file to include `builtin` as an available `auth.providers` value.
+
 ```json
   "auth.providers": [
     {
       "type": "builtin",
-      "allowSignup": false 
+      "allowSignup": false
     }
 ```
 
 #### 1. Modify the `site-config` via the database
+
 In situations where accessing the `frontend` container is unviable or there are multiple `frontend` containers running, we can modify the `site-config` directly in the database.
 
 1. `cd` into the desired customer directory in `deploy-sourcegraph-managed` and run `mg db proxy` to gain access to the Cloud SQL database. Note the credentials this command outputs.
-1. Connect to the database using your database tool of choice. Query the 
+1. Connect to the database using your database tool of choice. Query the
 1. Fetch the current site config with
+
 ```sql
 SELECT contents
-FROM critical_and_site_config 
+FROM critical_and_site_config
 ORDER BY updated_at DESC LIMIT 1;
 ```
+
 1. Save a copy of this file as a backup.
 1. Modify the file such that it includes the following `auth.providers` configuration to enable `builtin` auth. Do not remove any other auth methods.
 
@@ -421,9 +426,10 @@ ORDER BY updated_at DESC LIMIT 1;
   "auth.providers": [
     {
       "type": "builtin",
-      "allowSignup": false 
+      "allowSignup": false
     }
 ```
+
 1. Update the site configuration in the database with the new configuration.
 
 After the changes are made you should be able to access the `frontend` using the administrator credentials stored in 1Pass. After servicing the instance, make sure to revert the changes and remove the `builtin` auth provider.
