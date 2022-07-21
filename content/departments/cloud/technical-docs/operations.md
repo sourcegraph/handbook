@@ -201,7 +201,7 @@ To increase the disk size:
    git push origin HEAD
    ```
 
-1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/working-with-persistent-disks#resize_pd) to resize the block storage. In most cases, the commands will look like:
+1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
 
    ```sh
    ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
