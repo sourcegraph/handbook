@@ -151,7 +151,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - [sg](https://docs.sourcegraph.com/dev/background-information/sg)
 - [Contributor Licence Agreement (CLA) bot](https://github.com/sourcegraph/clabot-config)
-- Monitoring generator
+- [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
 - Github and Github Applications
 - Buildkite
 - OkayHQ
