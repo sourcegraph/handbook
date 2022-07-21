@@ -79,7 +79,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Compensation](../../../benefits-pay-perks/pay-expenses/compensation/index.md)
   - [Getting paid](../../../benefits-pay-perks/pay-expenses/index.md)
   - [Getting raises](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
-  - [401k](../../../benefits-pay-perks/benefits-perks/#sts=🏦%20401(k).md)
+  - [401k](<../../../benefits-pay-perks/benefits-perks/#sts=🏦%20401(k).md>)
 - [Company-travel](../../../benefits-pay-perks/benefits-perks/travel/index.md)
 - Equity
   - [Equity FAQ](../../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
