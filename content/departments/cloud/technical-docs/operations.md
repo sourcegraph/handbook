@@ -443,10 +443,10 @@ ORDER BY updated_at DESC LIMIT 1;
       "allowSignup": false
     }
 ```
+
 1. Update the site configuration in the database with the new configuration.
 
 After the changes are made you should be able to access the `frontend` using the administrator credentials stored in 1Pass. After servicing the instance, make sure to revert the changes and remove the `builtin` auth provider.
-
 
 ### Investigate VM platform logs
 
