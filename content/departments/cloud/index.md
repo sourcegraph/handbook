@@ -190,6 +190,7 @@ Are you a member of our CE & CS teams?
 
 Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces).
 GCP Logging is used to store / query logs written by Sourcegraph workloads, and GCP Monitoring is used for infrastructure-level metrics / uptime checks.
+
 Access to data from Cloud instances is governed by [Cloud Access Control Policy](https://docs.google.com/document/d/16tRqZDKhli4hZtfAkJG46Cj6dtqAw2s6QGw5fGM43BQ/edit?usp=sharing).
 
 Long-term, we will collaborate with [DevX team](https://handbook.sourcegraph.com/departments/engineering/teams/dev-experience/) (as owners of Sourcegraph observability) to support monitoring / observability solutions that are qualified for use with customer data.
@@ -197,4 +198,11 @@ Long-term, we will collaborate with [DevX team](https://handbook.sourcegraph.com
 ### FAQ: What are Cloud plans for continuous deployment - how often do we deploy code to Cloud instances?
 
 Cloud instances provisioned for customers run [released](https://handbook.sourcegraph.com/departments/engineering/dev/process/releases/#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
+
 Sourcegraph-owned instances can be updated more frequently (with versions that weren't officially released), [DevX team](https://handbook.sourcegraph.com/departments/engineering/teams/dev-experience/) will own continuous deployment to those environments.
+
+### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances?
+
+Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings). 
+Future work in this area is owned by [Analytics team](https://handbook.sourcegraph.com/departments/bizops/) and managed through the ["Improve our data collection"](https://handbook.sourcegraph.com/strategy-goals/cross-functional-projects/#current-cross-functional-projects) cross-functional project.
+
