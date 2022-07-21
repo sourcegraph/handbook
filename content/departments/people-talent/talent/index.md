@@ -42,9 +42,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - Who is my People Partner?
 - Recruiting support
-  - [Who is my recruiter?](process/teamalignment.md)
+  - [Who is my Recruiter?](process/teamalignment.md)
 - Anonymous support
-  - Our exec AMA process
+  - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - How to submit a confidential complaint
 
 ### Onboarding as a new hire
@@ -99,8 +99,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### How we measure culture
 
-- Engagment Surveys
-- Pulse Surveys
+- [Engagement Surveys](../people-ops/process/teammate-sentiment/engagement-survey.md)
+- [Pulse Surveys](../people-ops/process/teammate-sentiment/pulse-survey.md)
 - What we do with survey results
 
 ### How we manage performance
@@ -129,7 +129,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Verifications
 
 - Employment verification process
-- Motgage process
+- Mortgage process
 
 ### Expenses
 
@@ -175,9 +175,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - Who is my People Partner?
 - Recruiting support
-  - Who is my Recruiter?
+  - [Who is my recruiter?](process/teamalignment.md)
 - Anonymous support
-  - Our exec AMA process
+  - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - How to submit a confidential complaint
 
 ### Hiring
@@ -188,7 +188,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How to delete a role from the plan (with no plans to re-allocate the headcount to another role or department)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to change the scope of a role (ie type of role, title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
 - [How to open a new job search](process/opening_a_new_job.md)
-  - [Who is my recruiter?](process/teamalignment.md)
+  - [Who is my Recruiter?](process/teamalignment.md)
   - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
   - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
@@ -220,7 +220,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Tools
 
-- BambooHR
+- [BambooHR](../people-ops/tools/manager-guide.md/#sts=BambooHR)
 - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
 - [BrightHire, our interview recording tool](tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [LinkedIn Recruiter, our sourcing tool](process/linkedin.md)
@@ -233,24 +233,24 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Celebrating teammates
 
-- Birthdays
-- Anniversaries
-- Promotions
-- Life events
+- [Birthdays](../../../benefits-pay-perks/benefits-perks/celebrate.md#sts=Celebrating%20a%20birthday:)
+- [Anniversaries](../../../benefits-pay-perks/benefits-perks/celebrate.md#celebrating-a-work-anniversary)
+- [Promotions](../../../benefits-pay-perks/benefits-perks/celebrate.md#celebrating-a-promotion)
+- [Life events](../../../benefits-pay-perks/benefits-perks/celebrate.md#life-milestones)
 
 ### Compensation
 
-- Our compensation philosophy
+- [Our compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - Pay transparancy / our bands
-- How to give a raise
-- How to give a spot bonus
-- How to give a promotion
+- [How to give a raise](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+- [How to give a spot bonus](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+- [How to give a promotion](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 
 ### Performance management
 
 - Our expectations from managers
   - Coaching from managers
-  - Performance improvement plan (PIP) process
+  - [Performance improvement plan (PIP) process](../people-ops/process/performance-coaching/pip.md)
 - Our formal performance review process
   - Why we do performance reviews
   - When we do performance reviews
@@ -266,8 +266,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### How we measure culture
 
 - Types of Lattice surveys (coming soon)
-  - Engagment Surveys (coming soon)
-  - Pulse Surveys (coming soon)
+  - [Engagement Surveys](../people-ops/process/teammate-sentiment/engagement-survey.md)
+  - [Pulse Surveys](../people-ops/process/teammate-sentiment/pulse-survey.md)
 - How Managers access their team's survey responses in Lattice (coming soon)
 - How the People Team shares survey results (coming soon)
 - How the People Team actions survey results (coming soon)
@@ -285,7 +285,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - US-based Teammates
   - Contractors
   - PEO
-- BambooHR
+- [BambooHR](../people-ops/tools/bamboohr.md)
 
 ### Calibration cycles & templates
 
@@ -301,7 +301,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Template letters:
   - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
   - Spot bonus template
-  - Compemsation and / or equity increase template
+  - Compensation and / or equity increase template
 
 ### Teammate support
 
@@ -315,11 +315,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### How we measure culture
 
 - Types of Lattice surveys (coming soon)
-  - Engagment Surveys (coming soon)
-  - Pulse Surveys (coming soon)
+  - [Engagement Surveys](../people-ops/process/teammate-sentiment/engagement-survey.md)
+  - [Pulse Surveys](../people-ops/process/teammate-sentiment/pulse-survey.md)
 - How to access survey results (coming soon)
 - How the People Team shares survey results with the company (coming soon)
-- Hot the People Team actions survey results (coming soon)
+- How the People Team actions survey results (coming soon)
 
 ## Resources for Talent Team
 
