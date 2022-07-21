@@ -115,9 +115,9 @@ Submission buckets for `How likely is it that you would recommend Sourcegraph to
 
 NPS score = % promotors of total submissions - % detractors of total submissions
 
-## Customer Health Score
+## Technical Health Score (Customers)
 
-The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
+The technical health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
 
 | Metric                                              | Description                                                                                           |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
