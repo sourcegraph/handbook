@@ -8,6 +8,7 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 - [Amplitude](../tools/amplitude.md)
 - [Analytics FAQs](faqs.md)
 - [Sources of truth](sources-of-truth.md)
+- [Data Analyst IC levels](https://docs.google.com/spreadsheets/d/1KXNvR3vB9zeqkeNIqqLD14mgRdRfp0D0t8EQ1gmk_Pk/edit)
 
 ## Data sources
 
