@@ -203,6 +203,5 @@ Sourcegraph-owned instances can be updated more frequently (with versions that w
 
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances?
 
-Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings). 
+Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
 Future work in this area is owned by [Analytics team](https://handbook.sourcegraph.com/departments/bizops/) and managed through the ["Improve our data collection"](https://handbook.sourcegraph.com/strategy-goals/cross-functional-projects/#current-cross-functional-projects) cross-functional project.
-
