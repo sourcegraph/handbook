@@ -135,7 +135,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ### General
 
-- Continuous integration tooling, support, pipelines, infrastructure, and playbook
+- [Continuous integration tooling, support, pipelines, infrastructure, and playbook](../tools/infrastructure/ci/index.md)
 - Error types, logging, alerts, and monitoring for backend services
 - Backend testing standards, libraries, and infrastructure
 - Packaging infrastructure
@@ -149,8 +149,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ### Tooling
 
-- sg
-- Contributor Licence Agreement (CLA) bot
+- [sg](https://docs.sourcegraph.com/dev/background-information/sg)
+- [Contributor Licence Agreement (CLA) bot](https://github.com/sourcegraph/clabot-config)
 - Monitoring generator
 - Github and Github Applications
 - Buildkite
