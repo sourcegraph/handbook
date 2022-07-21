@@ -42,7 +42,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - Who is my People Partner?
 - Recruiting support
-  - [Who is my recruiter?](process/teamalignment.md)
+  - [Who is my Recruiter?](process/teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - How to submit a confidential complaint
@@ -188,7 +188,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How to delete a role from the plan (with no plans to re-allocate the headcount to another role or department)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to change the scope of a role (ie type of role, title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
 - [How to open a new job search](process/opening_a_new_job.md)
-  - [Who is my recruiter?](process/teamalignment.md)
+  - [Who is my Recruiter?](process/teamalignment.md)
   - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
   - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
@@ -240,7 +240,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Compensation
 
-- [Our compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation.md)
+- [Our compensation philosophy](../../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - Pay transparancy / our bands
 - [How to give a raise](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a spot bonus](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
@@ -301,7 +301,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Template letters:
   - [Promotion template](https://docs.google.com/document/d/1e6vBGpAva2n5KW75-JET66zMUi9a2WmIm__GALO_LNI/edit)
   - Spot bonus template
-  - Compemsation and / or equity increase template
+  - Compensation and / or equity increase template
 
 ### Teammate support
 
