@@ -23,6 +23,8 @@ TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
 
 **Build annotations, in your terminal!**: Ever wanted to check the status of your build in your terminal, but couldn't see those nice little dialogues (annotations) at the top your build showing that test that failed and other helpful links? Well those days are gone! When you check the status of your build with `sg ci status` it will now also print any annotation that is present on your build!
 
+TODO jh describe's @keegan stuff here https://github.com/sourcegraph/sourcegraph/pull/39231
+
 ## CI improvements
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
