@@ -30,13 +30,11 @@ The longer term purpose of this ownership is to first evolve the core workflow t
 
 ### Define the first principles of the core workflow
 
-First, we’re going to define first principles for the core workflow. Today, these first principles are more implicitly understood than anything, and are oriented around code search without consideration of a broader workflow supporting code intelligence.
-
-We’ll aim to have an MVP of this drafted and shared by July 20, and initial alignment by July 22.
+First, we have co-created [first principles for the core workflow](core_workflow_first_principles.md). Previously, these first principles were more implicitly understood than anything, and are oriented around code search without consideration of a broader workflow supporting code intelligence.
 
 ### Evolve the information architecture and interaction model behind the core workflow
 
-Next, we’ll work on evolving the information architecture and interaction model behind the core workflow around these first principles. This will be done at a high level of information/documentation and low level of visual fidelity—just enough to align across teams on how the evolved conceptual model is surfaced.
+Next, we’ll work on evolving the information architecture and interaction model behind the core workflow around these [first principles](core_workflow_first_principles.md). This will be done at a high level of information/documentation and low level of visual fidelity—just enough to align across teams on how the evolved conceptual model is surfaced.
 
 We aren’t starting from scratch: the Search Product team has been exploring opportunities here that we'll continue building on. The underlying ideas around how the core workflow will extend and integrate with other product features like Code Insights and Batch Changes should be clear and intuitive as an outcome.
 
