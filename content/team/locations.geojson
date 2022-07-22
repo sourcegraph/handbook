@@ -998,6 +998,16 @@
                 "type": "Point",
                 "coordinates": [-80.579514, 35.408752]
             }
-        }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sam Johns"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.084747, 38.890759]
+             }
+        },
     ]
 }
