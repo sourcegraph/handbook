@@ -2663,12 +2663,12 @@ jessie_seidler:
   links: '[LinkedIn](https://www.linkedin.com/in/jessieseidler/)'
   description: "A recent Denver transplant, Jessie spent the last 8 years in San Francisco establishing a career in sales with companies like Optimizely and Twilio. Jessie graduated from Boston College with an Honors BA in Sociology and Spanish. When she's not whipping up dank Italian food, you can find her outside biking, running, or backpacking. Jessie has been to 50 countries and counting! "
 
-  sam_johns:
-    name: Sam Johns
-    email: sam.johns@sourcegraph.com
-    role: Senior Deployment Engineer
-    reports_to: vp_customer_engineering
-    location: Arlington, VA, USA 🇺🇸
-    github: scjohns
-    links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
-    description: 'A native to the hills of Upstate NY, Sam has lived in the DC metro area for most of his professional career, relocating shortly after graduating from Syracuse University with a degree in music. He loves golfing, smoking BBQ, drinking whisky, and watching sports.'
+sam_johns:
+  name: Sam Johns
+  email: sam.johns@sourcegraph.com
+  role: Senior Deployment Engineer
+  reports_to: vp_customer_engineering
+  location: Arlington, VA, USA 🇺🇸
+  github: scjohns
+  links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
+  description: 'A native to the hills of Upstate NY, Sam has lived in the DC metro area for most of his professional career, relocating shortly after graduating from Syracuse University with a degree in music. He loves golfing, smoking BBQ, drinking whisky, and watching sports.'
