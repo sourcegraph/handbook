@@ -61,6 +61,8 @@ If you are on a current F1 Student VISA and eligible to work in the US for the d
 
 If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the [acceptable documents listed by USCIS](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. All other VISA requirements, including obtaining an I-20 form to authorize CPT work authorization, will need to be handled between you and your university.
 
+After signing our offer letter, we recommend immediately requesting your I-20 form from your university because this process can take 15 business days.
+
 Sourcegraph does not have the ability to support F-1 extensions (OPT).
 
 Read more about our [VISA policies for full-time employees](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
@@ -123,7 +125,8 @@ Wage and Hour Guidelines
 Payroll
 
 - We use Rippling to report/approve internship working hours.
-- COMING SOON - training for approving hours in Rippling
+- When your intern submits their hours in Rippling each pay-period, you will receive an email letting you know that there is a timecard waiting for your approval. Simply open the email, review the information, and select the 'Review and Approve' button. This will direct you to the Rippling platform where you can review more timecard details and approve them if accurate. If you have any payroll/Rippling questions, please reach out to Keely Aguayo.
+- Note: The required 30 minute lunch break is unpaid, but the required 10 minute breaks should be paid and do not need to be tracked on timesheets.
 
 1:1 Meetings
 
@@ -162,9 +165,9 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 2022-06-15 Q&A - Dan Adler
 - 2022-07-05 Cohort Meeting
 - 2022-07-06 Interviewing Workshop
-- 2022-07-13 Q&A - Connor O'Brien
 - 2022-07-14 Virtual Escape Room
 - 2022-07-19 Q&A - Christina/Nick
+- 2022-07-20 Q&A - Connor O'Brien
 - 2022-07-26 Cohort Meeting
 - 2022-07-20 Optional Q&A - Ben Horowitz
 - 2022-07-27 Exec Q&A - Gregg/Aimee

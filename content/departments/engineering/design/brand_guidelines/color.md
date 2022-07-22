@@ -36,8 +36,9 @@ Our colors express our commitment to being a welcoming, vibrant, and accessible 
     gap: 1rem;
   }
   .color-palette .color-sm {
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    min-width: 104px;
+    height: 8rem;
   }
   .color-palette .color-lg {
     width: 14rem;
@@ -103,8 +104,8 @@ Use supporting colors for graphic elements, illustrations, callouts, website UI 
 
 Primary logo colors have been marked. The secondary colors, along with shades and tints, were chosen to support and compliment these three core colors.
 
-<div class="color-palette interactive">
-  <div class="color-palette-column">
+<div class="color-palette interactive" style="gap: 0rem">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #fff2cf">
       <code>#fff2cf</code>
       <small>Lemon 200</small>
@@ -122,7 +123,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Lemon 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #ffdfdc">
       <code>#ffdfdc</code>
       <small>Vermillion 100</small>
@@ -145,7 +146,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Vermillion 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #ffdff5">
       <code>#ffdff5</code>
       <small>Cerise 100</small>
@@ -171,7 +172,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Cerise 600</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #eedfff">
       <code>#eedfff</code>
       <small>Violet 100</small>
@@ -198,7 +199,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Violet 600</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #dbdbff">
       <code>#dbdbff</code>
       <small>Blurple 100</small>
@@ -220,7 +221,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Blurple 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #dcfefe">
       <code>#dcfefe</code>
       <small>Blue 100</small>
@@ -243,7 +244,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Blue 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #d2fff1">
       <code>#d2fff1</code>
       <small>Green 100</small>
@@ -265,7 +266,7 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <small>Green 500</small>
     </div>
   </div>
-  <div class="color-palette-column">
+  <div class="color-palette-column" style="gap: 0rem">
     <div class="color color-sm" style="--color: #ffffff">
       <code>#ffffff</code>
       <small>White</small>
@@ -311,7 +312,7 @@ Use supporting colors for added tonality and awareness within website UI.
 
 <div class="color-palette interactive" style="max-width: 54rem">
   <div class="color color-lg" style="--color: #f9fafb">
-    <h5>SG Light gray</h5>
+    <h5>Sourcegraph Light Gray</h5>
     <p>Our light gray can add tonality to and create space within layouts.</p>
     <div>
       <code>#f9fafb</code>
@@ -320,7 +321,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-dark-gray); color: white">
-    <h5>SG Dark gray</h5>
+    <h5>Sourcegraph Dark Gray</h5>
     <p>Our dark gray can add tonality and depth to typographical layouts.</p>
     <div>
       <code>#4d4d4d</code>
@@ -329,16 +330,16 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: black; color: white">
-    <h5>SG Black</h5>
+    <h5>Sourcegraph Black</h5>
     <p>Our black is a true black to provide maximum contrast.</p>
     <div>
       <code>#000000</code>
       <br />
-      <small>Sourcegraph Black</small>
+      <small>Black</small>
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-blurple); color: white">
-    <h5>Sourcegraph blurple</h5>
+    <h5>Sourcegraph Blurple</h5>
     <p>Use for button and CTA messages in website UI.</p>
     <div>
       <code>#5033e1</code>
@@ -347,7 +348,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-action-green); color: white">
-    <h5>Sourcegraph action green</h5>
+    <h5>Sourcegraph Action Green</h5>
     <p>Use for check marks and to signal positive messages in website UI.</p>
     <div>
       <code>#17ab52</code>
@@ -356,7 +357,7 @@ Use supporting colors for added tonality and awareness within website UI.
     </div>
   </div>
   <div class="color color-lg" style="--color: var(--sg-alert-red); color: white">
-    <h5>Sourcegraph alert red</h5>
+    <h5>Sourcegraph Alert Red</h5>
     <p>Use for alerts and to signal error messages in website UI.</p>
     <div>
       <code>#ed2e20</code>
@@ -376,7 +377,7 @@ Once the logo is placed, add appropriate colors keeping in mind that our vibrant
 
 ### Color use for website UI
 
-When applying color to website UI elements use Sourcegraph Red, Green, dark gray, and Blurple from our secondary palette. Violet can be used for icons.
+When applying color to website UI elements use Sourcegraph Red, Green, Dark Gray, and Blurple from our secondary palette. Violet can be used for icons.
 
 <style>
   .inline-color-box {
