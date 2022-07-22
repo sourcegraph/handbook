@@ -66,7 +66,7 @@ A user’s path is not prescribed, but rather adapts to the user’s needs in th
 
 ### Support building and holding mental context
 
-The core workflow supports a user’s own workflow, which inherently involves building and holding mental context. Every interruption that shifts attention to Sourcegraph itself vesus the workflow it’s supporting adds cognitive load that adds stress in holding that mental context. The core workflow actively minimizes and avoids these moments.
+The core workflow supports a user’s own workflow, which inherently involves building and holding mental context. Every interruption that shifts attention to Sourcegraph itself versus the workflow it’s supporting adds cognitive load that adds stress in holding that mental context. The core workflow actively minimizes and avoids these moments.
 
 **Immediate implications**
 
