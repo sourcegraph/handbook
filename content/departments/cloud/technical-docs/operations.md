@@ -405,8 +405,7 @@ To workaround the issue, locate the resource in GCP yourself and delete it manua
 
 This likely means built-in auth-provider has been disabled. To fix this:
 
-* connect to the DB using `mg sql`
-* run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
-* if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
-* quit `mg sql`, use `mg reload-config` to make sure frontend picks-up new changes
-
+- connect to the DB using `mg sql`
+- run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
+- if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
+- quit `mg sql`, use `mg reload-config` to make sure frontend picks-up new changes
