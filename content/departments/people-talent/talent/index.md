@@ -119,12 +119,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Relocation/address changes
 
 - Changing addresses
-- Mortgage verification
+- [Mortgage verification](../people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
 
-- Visa process
-- Sponsorship policy
+- [Visa process](../people-ops/tools/people-ops-faqs.md#q-i-need-a-letter-from-my-employer-to-obtain-a-visa-how-do-i-request-that)
+- [Sponsorship policy](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
 
 ### Verifications
 
@@ -133,13 +133,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Expenses
 
-- Our expense policy
-- How to submit expenses
+- [Our expense policy](../../../benefits-pay-perks/benefits-perks/spending-company-money.md)
+- [How to submit expenses](../../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
 ### Reporting violations
 
 - Anti-harassment
-- Code of business conduct & ethics
+- [Code of business conduct & ethics]../../../company-info-and-process/communication/code_of_conduct/index.md)
 - How to raise a cofidential issue
 
 ### Learning & development
