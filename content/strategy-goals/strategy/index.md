@@ -82,7 +82,7 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
 
 ## Team strategy pages
 
-- [**Product & Engineering**](../../departments/engineering/strategy-goals/index.md)
+- [**Engineering strategy**](../../departments/engineering/index.md#product-vision-and-strategy)
   - [Highlights of planned features from all teams (currently internal only)](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164)
   - [Feature areas by maturity, tier, or code host compatibility](../../departments/engineering/product/index.md#feature-matrices)
   - [Search core and Search product](search/index.md)

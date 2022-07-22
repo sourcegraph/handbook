@@ -39,7 +39,7 @@ Currently, CEs are responsible for answering all how-to questions and handling a
 
 A few notes for CE:
 
-- If CE doesn’t know the answer to a how-to question, they ask for help in the ask-product-eng Slack channel. This channel is monitored by product, engineering, and CS. It is a best effort approach (i.e., there is no SLA for response time for answers).
+- If CE doesn’t know the answer to a how-to question, they ask for help in the #ask-engineering Slack channel. This channel is monitored by product, engineering, and CS. It is a best effort approach (i.e., there is no SLA for response time for answers).
 - Any other request for help from engineering should go through CS (for troubleshooting) or [product (for feature requests)](../../departments/engineering/product/process/feedback/surfacing_product_feedback.md) and not to engineering directly. (For example, CEs are welcome to start troubleshooting an issue, but if they get stuck, the next step is to engage CS, and CS will take responsibility for resolution and customer communication from there)
 - CE [routes all feature requests to product](../../departments/engineering/product/process/feedback/surfacing_product_feedback.md) for consideration and prioritization
 - If a CE feels compelled to let a customer know CS will help them, they should do so without using loaded terms like “ASAP” or that sign up CS for something they may not be able to honor

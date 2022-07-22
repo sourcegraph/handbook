@@ -153,7 +153,7 @@ thorsten_ball:
   name: Thorsten Ball
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
+  reports_to: eng_lead
   location: Aschaffenburg, Bavaria, Germany 🇩🇪
   github: mrnugget
   email: thorsten@sourcegraph.com
@@ -222,7 +222,7 @@ rob_rhyne:
   name: Rob Rhyne
   reports_to: director_design
   manager_role_slug: design_manager_code_graph
-  role: Design Manager, Code Graph
+  role: Design Manager
   location: Wilmington, NC, USA 🇺🇸
   email: rob@sourcegraph.com
   links: '[@robrhyne](https://twitter.com/robrhyne), [LinkedIn](https://www.linkedin.com/in/rrhyne)'
@@ -2630,7 +2630,7 @@ megan_standrew:
   name: Megan St. Andrew
   pronouns: she/they
   location: Chicago, IL, USA 🇺🇸
-  role: UX Researcher, Code Graph
+  role: UX Researcher
   reports_to: director_design
   email: megan.standrew@sourcegraph.com
   github: meglynst
@@ -2667,3 +2667,23 @@ sanjeev_sekar:
   role: Engineering Manager
   reports_to: eng_lead
   manager_role_slug: engineering_manager_delivery
+
+gary_lee:
+  name: Gary Lee
+  role: Software Engineer
+  reports_to: engineering_manager_search_core
+  location: San Francisco, CA, USA 🇺🇸
+  github: gl-srgr
+  email: gary.lee@sourcegraph.com
+  links: '[LinkedIn](https://www.linkedin.com/in/gary-lee-68b28745/)'
+  description: Gary lives in San Francisco, California and has worked as a Software Engineer on search products and solutions since 2015. Outside of work he plays drums in a rock band, practices martial arts, spends time with his dogs, and catches up on books.
+
+thomas_liu:
+  name: Thomas Liu
+  pronouns: he/him
+  role: Software Engineer
+  reports_to: engineering_manager_search
+  location: Dallas, TX, USA
+  github: tbliu98
+  email: thomas.liu@sourcegraph.com
+  description: Thomas grew up in Denver, Colorado, studied Cognitive Studies and Computer Science at Vanderbilt University, and now lives in Dallas, Texas. He has lived in a different building every year since 2016. Unfortunately Texas is proving to be a bit too hot for Thomas' liking and he's thinking about moving, again. On an unrelated note, Thomas enjoys changing things up.
