@@ -16,7 +16,6 @@ First principles for our core workflow **are**:
 - The underlying model of how the system aligns with / enables the user’s actions
 - What we prioritize (and as a consequence what we care less about)
 
-
 These first principles **are not**:
 
 - Principles for how to approach design or development as a discipline (e.g. our existing design principles)
@@ -39,6 +38,7 @@ These principles represent our current understanding. As we move forward, we’l
 Sourcegraph’s first role is to help developers get knowledge out of code—code intelligence—that unblocks them in their work. The core workflow is the basis for code intelligence in Sourcegraph.
 
 **Immediate implications**
+
 - Conceptually, we need to shift the core workflow from an underlying conceptual model of **“searching code”** to instead **“querying code intelligence data.”**
 - Code itself is one type of data exposed through Sourcegraph, alongside history, metadata, SCIP data, etc. (define the full set, elevate as first class where needed).
 
@@ -47,6 +47,7 @@ Sourcegraph’s first role is to help developers get knowledge out of code—cod
 The core workflow begins in some way or another with a query. The core workflow enables other workflows in Sourcegraph.
 
 **Immediate implications**
+
 - The core workflow enables other features like batch changes and code insights to extend or integrate directly into the core workflow.
 - The query should be a unifying connection enabling as many of Sourcegraph’s features as possible.
 
@@ -57,6 +58,7 @@ The core workflow inherently supports a workflow moving from a broad interest sp
 A user’s path is not prescribed, but rather adapts to the user’s needs in the moment.
 
 **Immediate implications**
+
 - The core workflow will benefit from our explicitly defining different search strategies that developers use and what makes those strategies successful.
 - The core workflow is already based around an existing search strategy, and that will form the basis for iteration.
 - To support a range of search strategies, the core workflow must make it easy for users to understand the path they’ve followed and be able to to move back and forth between moments on that path.
@@ -67,6 +69,7 @@ A user’s path is not prescribed, but rather adapts to the user’s needs in th
 The core workflow supports a user’s own workflow, which inherently involves building and holding mental context. Every interruption that shifts attention to Sourcegraph itself vesus the workflow it’s supporting adds cognitive load that adds stress in holding that mental context. The core workflow actively minimizes and avoids these moments.
 
 **Immediate implications**
+
 - The core workflow should minimize doorway effects and preserve working context.
 - Rendering and loading content must be feel instant. We will need to optimize how we do this beyond simply rendering faster.
 - The core workflow should follow existing and familiar patterns whenever possible. Explicitly define the context of “familiar patterns” and how the core workflow parallels or diverges from this context.
@@ -77,5 +80,6 @@ The core workflow supports a user’s own workflow, which inherently involves bu
 The core workflow is the basis of code intelligence on Sourcegraph, and ultimately helps deliver value across a user’s organization. First-class collaboration is crucial for transforming Sourcegraph from orienting around “a user’s workflow in isolation” to a platform that “provides value across a user’s organization.” Collaboration should take place as close to the original context as possible.
 
 **Immediate implications**
+
 - Future collaborative actions must be intentionally designed as close to the original context as possible.
 - The core workflow and integrations with this workflow should consider not only the direct user engaging with core workflow, but the ecosystem of users that may engage with the core workflow in other ways or through other users.
