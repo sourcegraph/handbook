@@ -400,3 +400,13 @@ Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400:
 Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
 
 To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
+
+### FAQ: I don't see an option to log-in as sourcegraph admin
+
+This likely means built-in auth-provider has been disabled. To fix this:
+
+* connect to the DB using `mg sql`
+* run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
+* if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
+* quit `mg sql`, use `mg ssh` to log-in to the instance and run `cd /deployment/docker-compose && docker-compose restart sourcegraph-frontend`
+
