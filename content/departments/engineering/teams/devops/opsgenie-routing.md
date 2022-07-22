@@ -2,6 +2,8 @@
 
 Our team has decided to split up on call based on the people on the east and west side of the Atlantic ocean. Here are the steps and screenshot of what we did.
 
+Note, this version is not currently compatible with the [Slackgenie background job](https://sourcegraph.com/github.com/sourcegraph/background-jobs/-/blob/slackgenie/README.md)
+
 ## Step 1
 
 Create separate schedules for each team. We have search-core-support-east and search-core-support-west.
