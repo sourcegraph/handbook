@@ -116,7 +116,7 @@ Link Monitoring email notification channels we created from the terraform module
 
 ### Remove the server-side batch changes feature flag
 
-By default, the server-side batch changes UI is hidden on managed instances, to avoid creating confusing for users without executors. Run this [mutation](https://github.com/sourcegraph/sourcegraph/issues/36920#issuecomment-1156593075) to remove the server-side batch changes flag. 
+By default, the server-side batch changes UI is hidden on managed instances, to avoid creating confusing for users without executors. Run this [mutation](https://github.com/sourcegraph/sourcegraph/issues/36920#issuecomment-1156593075) to remove the server-side batch changes flag.
 
 ## Troubleshooting
 
