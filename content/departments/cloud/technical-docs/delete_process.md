@@ -2,6 +2,8 @@
 
 <span class="badge badge-note">SOC2/CI-41</span>
 
+**For MI 1.1, see the new process [here](v1.1/mi1-1_delete_process.md).**
+
 ## How to request
 
 1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
@@ -115,7 +117,7 @@ terraform destroy
 
 ```
 cd monitoring/
-sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for MacOS
+sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for macOS
 terraform apply
 ```
 

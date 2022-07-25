@@ -8,6 +8,7 @@ Information about Sourcegraph's different instances.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
+  - [sourcegraph.sourcegraph.com](instances.md#sourcegraph-sourcegraph-com) is a managed instance used for Sourcegraph's dogfooding needs. Informally referred to as "S2".
 
 For deployments of Sourcegraph we manage for customers, see [managed instances](../../../../cloud/index.md).
 

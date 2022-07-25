@@ -10,33 +10,46 @@ Operations guides for [managed instances](./index.md).
 - To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
 - To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
-- [Managed instances operations](#managed-instances-operations)
-  - [Red/black deployment model](#redblack-deployment-model)
-  - [Accessing the instance](#accessing-the-instance)
-    - [SSH access](#ssh-access)
-      - [Accessing the Docker containers](#accessing-the-docker-containers)
-      - [Restarting for configuration updates](#restarting-for-configuration-updates)
-    - [Port-forwarding](#port-forwarding)
-    - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
-    - [Finding the external IPs](#finding-the-external-ips)
-    - [Resizing Disks](#resizing-disks)
-    - [Capturing network traffic for analysis on the instance](#capturing-network-traffic-for-analysis-on-the-instance)
-  - [Changing the instance](#changing-the-instance)
-  - [Availability of the instance](#availability-of-the-instance)
-    - [Uptime Checks](#uptime-checks)
-    - [Performance Checks](#performance-checks)
-  - [Confirm instance health](#confirm-instance-health)
-  - [Instance technicalities](#instance-technicalities)
-    - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
-    - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
-    - [Debugging startup scripts](#debugging-startup-scripts)
-    - [Viewing container logs](#viewing-container-logs)
-    - [Fix corrupted repo on `gitserver`](#fix-corrupted-repo-on-gitserver)
-  - [Disaster Recovery and Business Continuity Plan](#disaster-recovery-and-business-continuity-plan)
-  - [Troubleshooting](#troubleshooting)
-    - [FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"](#faq-googleapi-error-400-the-network_endpoint_group-resource--is-already-being-used)
+## Prereq
+
+To perform any MI opertaions, you need to meet the following requirement
+
+```sh
+git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
+cd deploy-sourcegraph-managed
+echo "export \$MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+```
+
+Below we will install `mg` CLI. `mg` simlifies operation on MI and releases the burden of remembering various common `gcloud` commands.
+
+> you can just run `make install` if you already have `$GOBIN` configure somewhere
+
+```sh
+mkdir -p ~/.bin
+export GOBIN=$HOME/.bin
+echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+make install
+```
+
+`mg` should be either run under a specific `$CUSTOMER` directory or you need to provide the `--customer $CUSTOMER` flag explictly
+
+```sh
+cd $CUSTOMER
+mg ssh
+```
+
+or
+
+```sh
+mg --customer $CUSTOMER ssh
+```
+
+Below docs will only cover the essential `mg` commands, and you should consult the `mg` cli usage on your own.
 
 ## Red/black deployment model
+
+> red/black deployment model is only used during machine upgrade process
+> all regular version upgrade is done in an in-place fashion
 
 At any point in time only one deployment is the active production instance, this is noted in `deploy-sourcegraph-managed/$CUSTOMER/terraform.tfvars`, and except during upgrades only one is running. You can see this via:
 
@@ -54,73 +67,48 @@ For CSE's, also refer to [Accessing Managed Instances](../../ce-support/support/
 
 ### SSH access
 
-Locate the GCP instance you'd like to access (usually either `default-red-instance` or `default-black-instance`), and then:
-
 ```sh
-$ gcloud beta compute ssh --zone "us-central1-f" --tunnel-through-iap --project "sourcegraph-managed-$CUSTOMER" default-$DEPLOYMENT-instance
+mg --customer $CUSTOMER ssh
 ```
 
-If you get an error:
-
-```sh
-ERROR: (gcloud.beta.compute.start-iap-tunnel) Error while connecting [4003: u'failed to connect to backend'].
-ssh_exchange_identification: Connection closed by remote host
-ERROR: (gcloud.beta.compute.ssh) [/usr/bin/ssh] exited with return code [255].
-```
-
-This may be indicating that the VM is currently not running—check:
-
-```sh
-$ gcloud beta compute instances list --project=sourcegraph-managed-$CUSTOMER
-```
-
-And start the instance if needed (e.g. through the web UI.)
-
-#### Accessing the Docker containers
+### Accessing the Docker containers
 
 [SSH into the relevant instance](#ssh-access) and then:
 
 ```sh
-sudo su
 docker ps
 ```
 
 You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) to interact with the containers.
 
-#### Accessing the Aurora external database
+### Accessing the Cloud SQL
 
-_This instruction is intended as a temporary flow to enable AeE and Cloud engineer to access the Cloud SQL databases locally._
-
-Open a connection to the DB in a terminal session
-
-```
-export PROJECT_PREFIX=sourcegraph-managed
-export CUSTOMER=<>
+```sh
+mg --customer $CUSTOMER db proxy
 ```
 
-```
-cloud_sql_proxy -instances=$(gcloud sql instances list --project $PROJECT_PREFIX-$CUSTOMER --limit=1 --format 'value(connectionName)')=tcp:5433 -token=$(gcloud auth print-access-token --impersonate-service-account=instance@$PROJECT_PREFIX-$CUSTOMER.iam.gserviceaccount.com) -enable_iam_login
-```
+or
 
-Use local psql client to connect to the database proxy
-
-```
-psql -U "instance@$PROJECT_PREFIX-$CUSTOMER.iam" -d pgsql -h localhost -p 5433
+```sh
+mg --customer $CUSTOMER db cli
 ```
 
-#### Restarting for configuration updates
+### Restarting for configuration updates
 
-1. [SSH into the relevant instance](#ssh-access)
-2. `cd` to the `/deployment/docker-compose` folder and run:
-3. `docker compose restart sourcegraph-frontend-0 sourcegraph-frontend-internal`
+```sh
+mg --customer $CUSTOMER reload-config
+```
 
 ### Port-forwarding
 
-Locate the GCP instance you'd like to access (usually either `default-red-instance` or `default-black-instance`), and then:
+```sh
+mg forward <remote_port> <local_port>
+```
+
+Expose frontend at `8080`
 
 ```sh
-export PORT=80 # or one of the below ports
-gcloud compute start-iap-tunnel default-$DEPLOYMENT-instance $PORT --local-host-port=localhost:4444 --zone "us-central1-f" --project "sourcegraph-managed-$CUSTOMER"
+mg forward 80 4444
 ```
 
 This will port-forward `localhost:4444` to port `80` on the VM instance. Some common ports:
@@ -185,7 +173,7 @@ To increase the disk size:
    git push origin HEAD
    ```
 
-1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/working-with-persistent-disks#resize_pd) to resize the block storage. In most cases, the commands will look like:
+1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
 
    ```sh
    ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
@@ -349,8 +337,8 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 
    ```sh
    export PROJECT_PREFIX=sourcegraph-managed
-   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    export CUSTOMER=<customer_or_instance_name>
+   export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    ```
 
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
@@ -358,16 +346,38 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 ```sh
 mg ssh
 docker exec -it gitserver-0 sh
-cd /data/repos/<repo_name>
-git prune && git fetch
-# look for errors, no output indicates clean repo
+cd /data/repos/<repo_name>/.git
+cat sgm.log
+cat gc.log
+# look for errors and numbers of failures
+# Also run
+git prune && git fetch # check for errors
 ```
 
-1. Run the following script to have repo-updater queue an update
+1. Run the following [script](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/fix-dirty-repo.sh), from within a clone of `sourcegraph/deploy-sourcegraph-managed`, to have repo-updater queue an update
 
    ```sh
    ./util/fix-dirty-repo.sh github.com/org/repo
    ```
+
+1. Possibly add YAML below per https://github.com/sourcegraph/customer/issues/1128#issuecomment-1187299283. This depends
+   on if SRC_ENABLE_SG_MAINTENANCE is thought to be part of the issue.
+
+   ```yaml
+   gitserver-0:
+     environment:
+       - SRC_ENABLE_SG_MAINTENANCE=false
+       - SRC_ENABLE_GC_AUTO=true
+   ```
+
+### Investigate VM platform logs
+
+Navigate to GCP Logging in the right project, use the following query. This is helpful to figure out automated operation against our VM instances.
+
+```
+resource.type="gce_instance"
+protoPayload.authenticationInfo.principalEmail="system@google.com"
+```
 
 ## Disaster Recovery and Business Continuity Plan
 
