@@ -512,16 +512,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Ben Gordon"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-87.62420654296875, 41.87582421126483]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Michael Bali"
             },
             "geometry": {
