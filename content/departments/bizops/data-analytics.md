@@ -284,7 +284,6 @@ Looker is a business intelligence tool used for standard enterprise reporting an
 
 Looker has the ability to connect to all data sources that are located in our BigQuery DWH. It can also connect to documents in Google.
 
-
 **Notable reports**
 
 **Company level metrics**
