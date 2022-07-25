@@ -1,7 +1,5 @@
 # Internal Onboarding Process
 
-TODO
-
 ## Pre onboarding
 
 ### After accepting the offer
