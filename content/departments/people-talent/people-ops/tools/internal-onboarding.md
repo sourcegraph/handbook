@@ -137,8 +137,9 @@ Teammates must have the elegible documents available for us to corroborate their
 ## Onboarding Feedback
 
 There are two main onboarding feedback instances:
-- **One Month check in**: 15 min check-in with Inés (or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process. 
-- **Onboarding survey**: sent out monthly on the three month mark. Based on the [standards of success](../../../../company-info-and-process/onboarding/index.md#onboarding-standards-and-success) the teammate’s survey is focused on experience, content, and format, and presentation. 
+
+- **One Month check in**: 15 min check-in with Inés (or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process.
+- **Onboarding survey**: sent out monthly on the three month mark. Based on the [standards of success](../../../../company-info-and-process/onboarding/index.md#onboarding-standards-and-success) the teammate’s survey is focused on experience, content, and format, and presentation.
 
 ### Onboarding survey
 
@@ -148,16 +149,15 @@ Surveys are conducted at the 3-month mark to collect feedback from all new teamm
 
 On the last Monday of each month, we send a Slack message to each person asking them to complete the survey. Here is an example of the message:
 
-  _Hey! Hope you are doing great!_
+_Hey! Hope you are doing great!_
 
-  _One of my biggest projects at the moment is making the onboarding process as rich and structured as possible, so as to build every new teammate up for success. To do this, I constantly meet with new hires, managers, and teammates to listen to their feedback and experience._
-  _This time, I wanted to listen to your input in this. I’ve created a **[survey](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit)** to collect feedback from all teammates that have been with us since [MONTH] to ask if their onboarding experience has properly equipping you with the support and resources necessary for you to be successful in your new role._
-  _It is a simple survey, most of the questions are multiple choice and some require some input. Would you mind taking 10 minutes to complete it? :pray:_
-  _Could you please submit it by XXX?_
-  _Thank you! Have a great day :)_
+_One of my biggest projects at the moment is making the onboarding process as rich and structured as possible, so as to build every new teammate up for success. To do this, I constantly meet with new hires, managers, and teammates to listen to their feedback and experience._
+_This time, I wanted to listen to your input in this. I’ve created a **[survey](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit)** to collect feedback from all teammates that have been with us since [MONTH] to ask if their onboarding experience has properly equipping you with the support and resources necessary for you to be successful in your new role._
+_It is a simple survey, most of the questions are multiple choice and some require some input. Would you mind taking 10 minutes to complete it? :pray:_
+_Could you please submit it by XXX?_
+_Thank you! Have a great day :)_
 
 [Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
-
 
 ## Temporary Contractor onboarding
 
