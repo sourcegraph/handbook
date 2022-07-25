@@ -60,6 +60,5 @@
 - [Ashby](https://app.ashbyhq.com/access), our metrics tool
 - [Brighthire](talent/tools/guide_to_using_brighthire.md), our interview recording tool
 - [Greenhouse](talent/tools/guide_to_using_greenhouse.md), our ATS
-- [GoodTime](talent/tools/guide_to_using_goodtime.md)
 - [LinkedIn Recruiter](talent/process/linkedin.md), our sourcing tool
 - [Talentwall](talent/tools/guide_to_using_talentwall.md), our pipeline tracking tool

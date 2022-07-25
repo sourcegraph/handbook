@@ -55,8 +55,8 @@ If you're not sure what the error message means or can't determine how to fix it
 - Click "details" to see more information, and you should see something like this:
   ![Broken link error details](https://storage.googleapis.com/sourcegraph-assets/handbook/broken-link-details.png)
 - Breaking down the error:
-  - `readmes/mary-belzer-readme.md`
-    - This is telling you that the link to the “Mary Belzer Readme” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
+  - `readmes/foo.md`
+    - This is telling you that the link to the “Foo Readme” page is broken. This can happen when a page is moved or deleted, and that link path no longer works.
 - \*\*To Fix:
   - First, you need to find the page where the broken link lives. In your PR, click the "Files Changed" tab.
   - Scroll down until you see an error like this:
@@ -136,7 +136,6 @@ data/team.yml valid
 data/features.yml valid
 data/product_teams.yml invalid
 data/search must have required property 'title'
-data/product_orgs.yml valid
 ```
 
 The file with invalid YAML will be reported as invalid, and the error will be listed following that line. In the above example, the `data/search` entry is missing a required property—its title.

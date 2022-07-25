@@ -1,14 +1,13 @@
 # Compensation for user research participants
 
-We use a [variety of research methods](../../design/research/index.md) to help us learn about our customers, test our ideas, and improve our products.
+We use a [variety of research methods](../../../design/research/index.md) to help us learn about our customers, test our ideas, and improve our products.
 
 Often, our customers or users are happy to help us out to make their experience with Sourcegraph better. Other times, we do research through usertesting.com, which recruits and compensates participants automatically without our involvement.
 
 However, there are times when it makes sense to compensate research participants for their time and involvement in our research activities. We have three ways of providing compensation to user research participants:
 
-1. **Monetary compensation.** We can provide this option when participants are located in a region where we can pay out through PayPal.
+1. **Monetary compensation.** We can provide this option when participants provide their ACH banking details
 1. **A voucher for an online store.** We pre-approve vendors before offering it as an option. Note that not all vendors are available in all regions, and it's important that we manage participant's expectations accordingly.
-1. **A donation to a registered non-profit of the participant's choosing.**
 
 ## Compensation rate
 

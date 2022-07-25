@@ -6,6 +6,7 @@ Arguments:
 - $MINOR
 - $PATCH
 - $RELEASE_DATE
+- $THREE_WORKING_DAY_BEFORE_RELEASE
 - $ONE_WORKING_DAY_AFTER_RELEASE
 -->
 
@@ -20,9 +21,9 @@ This release is scheduled for **$RELEASE_DATE**.
 - [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up to date with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 
-## Cut Release (day before release - $ONE_WORKING_DAY_BEFORE_RELEASE)
+## Cut Release (three days before release - $THREE_WORKING_DAY_BEFORE_RELEASE)
 
-Perform these steps the day before the release date to generate a stable release candidate.
+Perform these steps three days before the release date to generate a stable release candidate.
 
 ### Prepare release
 
@@ -33,13 +34,17 @@ Perform these steps the day before the release date to generate a stable release
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
-- [ ] Update the changelog and merge the generated pull request:
+- [ ] Update the changelog and create pull requests:
+
   ```sh
   yarn release changelog:cut
   ```
+
+- [ ] Manually review the pull requests created in the previous step and merge.
+
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
-  git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR
+  yarn release release:branch-cut
   ```
 
 Upon branch cut, create and test release candidates:
@@ -66,7 +71,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post the following message to the #cloud-devops channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
+- [ ] Post the following message to the #cloud channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
 
   ```
   Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.1) to be deployed to a test managed instance. Could someone help here? :ty:
@@ -81,6 +86,7 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
 On the day of the release, confirm there are no more release-blocking issues (as reported by the `release:status` command), then proceed with creating the final release:
 
 - [ ] Make sure [CHANGELOG entries](https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
+- [ ] Make sure [deploy-sourcegraph-helm CHANGELOG entries](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/CHANGELOG.md) have been moved from **Unreleased** to **$MAJOR.$MINOR.$PATCH**, but exluding the ones that merged to `main` after the branch cut (whose changes are not in the `$MAJOR.$MINOR` branch).
 - [ ] Tag the final release:
   ```sh
   yarn release release:create-candidate final
@@ -102,10 +108,12 @@ On the day of the release, confirm there are no more release-blocking issues (as
     - [ ] Ensure the [release tag `v$MAJOR.$MINOR.$PATCH`](https://github.com/sourcegraph/deploy-sourcegraph/tags) has been created
   - For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
     - [ ] Ensure the [release tag `v$MAJOR.$MINOR.$PATCH`](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags) has been created
+  - For [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm)
+    - [ ] Cherry pick the release-publishing PR from the release branch into main
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
-  yarn release release:close
+  yarn release release:announce
   ```
 
 ### Post-release
@@ -122,6 +130,9 @@ On the day of the release, confirm there are no more release-blocking issues (as
   yarn run release tracking:issues
   yarn run release tracking:timeline
   ```
-- [ ] Close this issue.
+- [ ] Close the release.
+  ```sh
+  yarn run release release:close
+  ```
 
 **Note:** If a patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.

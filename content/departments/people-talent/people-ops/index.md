@@ -68,16 +68,31 @@
           <div style="text-align: center;">Carl Robson</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
+          </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../team/index.md#sarah-um" target="_blank" rel="noopener">
+              <img
+                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Sarah Um</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
     </div>
+    </div>
+
    </section>
 
-#### People Ops team READMEs
+#### People Partner Alignment
 
-[People Ops READMEs](team/index.md)
+Our People Partners are aligned to business units as follows:
 
-### How to reach the right member of the People Ops team
-
-If you encounter a question at any point, we're here to help! Slack us at #ask-people-team
+**Jonathan Ayers**: Executive Team
+**Carl Robson**: Sales & Marketing
+**Sarah Um**: Customer Engineering & Support; Operations
+**Alex Mathison**: Engineering, Product and Design
 
 ### Open roles
 
@@ -86,12 +101,6 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 ## People Ops frequently asked questions (FAQs)
 
 [People Ops FAQs](tools/people-ops-faqs.md)
-
-## Goals & Current Work
-
-See People Ops OKRs [here](../../../strategy-goals/goals/2022_q3.md#people-ops).
-
-See how we manage project and updates [here](process/people-ops-project-management.md).
 
 ## Things you need to know about working here
 

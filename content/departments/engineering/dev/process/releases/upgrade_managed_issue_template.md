@@ -11,9 +11,9 @@ Arguments:
 
 # $MAJOR.$MINOR.$PATCH managed instances upgrade
 
-These [managed instances](../../admin-exp/devops/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
+These [managed instances](../../../../cloud/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process](../../admin-exp/devops/managed/upgrade_process.md).
+To perform these upgrades, follow the [managed instances upgrade process](../../../../cloud/technical-docs/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
 
 ---
@@ -50,3 +50,11 @@ Make sure to upgrade internal instances before customer instances.
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/956
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/769
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1046
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1044
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1057
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1058
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1101
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1106
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1108
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1107
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1109

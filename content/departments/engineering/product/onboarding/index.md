@@ -8,7 +8,7 @@ Welcome to Sourcegraph! As a member of the product team, it is your job to be th
 
 - Visit the [Onboarding process for Hiring Managers](../../../../company-info-and-process/onboarding/onboarding-for-hiring-managers.md) page to understand the workflow with People Ops.
 - Create an onboarding Google doc for the new teammate
-  - Link to this page and relevant team specific pages such as [designer onboarding](../design/onboarding/index.md)
+  - Link to this page and relevant team specific pages such as [designer onboarding](../../design/onboarding/index.md)
   - Customize your teammates onboarding tasks as required
   - Update the onboarding doc with initial projects for weeks 2–4
 - Notify People Ops on the tools needed by day one - [Tools for new teammates form](https://docs.google.com/forms/d/e/1FAIpQLSeQjfoLjAZUim7pVYw9joQCssXuVz2t2RlpjLadzmHrj15cwQ/viewform)
@@ -55,7 +55,7 @@ Remember:
   - Team handbook page(s), to learn about the team and its internal processes
     - [Product](../index.md)
     - [Product management](../process/index.md)
-    - [Product design](../design/index.md)
+    - [Product design](../../design/index.md)
     - [Product process](../process/index.md)
   - [Sourcegraph user docs](https://docs.sourcegraph.com/)
 
@@ -76,12 +76,12 @@ Remember:
 - Read about [search queries](https://docs.sourcegraph.com/code_search) and perform your first searches.
 - Work through the questions from the [Sales Onboarding Quiz](../../../sales/onboarding/quiz.md) to make sure you understand key concepts. Feel free to skip any obvious answers and discuss any questions you have or knowledge gaps with your manager.
 - Record yourself completing the Sales [10 Step Demo Certification](https://docs.google.com/document/d/1P6nzAGfpTNysIi2FIcFY7mHX__q0qZ8955NDnWylF4I/edit#).
-- [How to make configuration changes to sourcegraph.com](../../dev/admin-exp/devops/update_sg_website_config.md)
+- [How to make configuration changes to sourcegraph.com](../../teams/devops/update_sg_website_config.md)
 
 ### Get to know our customers
 
 - Watch the [demo videos](../../../ce-support/ce/onboarding/education.md#trainings-and-demos) & recent Chorus.AI recordings with customers
-- Familiarize yourself with [customer feedback channels](../process/product_feedback_rotation.md):
+- Familiarize yourself with [customer feedback channels](../process/feedback/product_feedback_monitoring.md):
   - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions) surveys
   - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
   - Twitter

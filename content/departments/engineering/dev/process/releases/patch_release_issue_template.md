@@ -1,5 +1,5 @@
 <!--
-DO NOTE COPY THIS ISSUE TEMPLATE MANUALLY. Use `yarn release tracking:issues` in the `sourcegraph/sourcegraph` repository.
+DO NOT COPY THIS ISSUE TEMPLATE MANUALLY. Use `yarn release tracking:issues` in the `sourcegraph/sourcegraph` repository.
 
 Arguments:
 - $MAJOR
@@ -27,7 +27,7 @@ This release is scheduled for **$RELEASE_DATE**.
 
 <!-- Keep in sync with release_issue_template's "Setup" section -->
 
-- [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up to date with the parameters for the current release.
+- [ ] Ensure release configuration in [`dev/release/release-config.jsonc`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/dev/release/release-config.jsonc) on `main` is up-to-date with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
 
 ## Prepare release
@@ -39,6 +39,7 @@ For each of the following repositories, cherry-pick (see snippet below) and chec
 - [ ] `sourcegraph/sourcegraph` ([`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/sourcegraph/tree/$MAJOR.$MINOR) [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=$MAJOR.$MINOR))
 - [ ] `sourcegraph/deploy-sourcegraph` ([`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/deploy-sourcegraph/tree/$MAJOR.$MINOR) [CI](https://buildkite.com/sourcegraph/deploy-sourcegraph/builds?branch=$MAJOR.$MINOR))
 - [ ] `sourcegraph/deploy-sourcegraph-docker` ([`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/deploy-sourcegraph-docker/tree/$MAJOR.$MINOR) [CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-docker/builds?branch=$MAJOR.$MINOR))
+- [ ] `sourcegraph/deploy-sourcegraph-helm` ([`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/deploy-sourcegraph-helm/tree/release/$MAJOR.$MINOR) [CI](https://buildkite.com/sourcegraph/deploy-sourcegraph-helm/builds?branch=$MAJOR.$MINOR))
 
 ```sh
 git checkout $MAJOR.$MINOR
@@ -53,7 +54,7 @@ Create and test the first release candidate:
 
 - [ ] Push a release candidate tag:
   ```sh
-  N=1 yarn release release:create-candidate $N
+  N=1; yarn release release:create-candidate $N
   ```
 - [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.1` tag:
 
@@ -88,15 +89,19 @@ Create and test the first release candidate:
 
 ## Finalize release
 
-<!-- Keep in sync with release_issue_template's "Finalize elease" section, except no blog post -->
+<!-- Keep in sync with release_issue_template's "Finalize release" section, except no blog post -->
 
-- [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously.
+- [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously. Note: some PRs require certain actions performed before merging.
+- [ ] After all the PRs are merged, perform following checks/actions
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
-    - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph/releases) has the correct tag
-  - [ ] For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
-    - [ ] Ensure the [release](https://github.com/sourcegraph/deploy-sourcegraph-docker/releases) has the correct tag
+    - [ ] Ensure the [release tag](https://github.com/sourcegraph/deploy-sourcegraph/tags) has been created
+  - For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
+    - [ ] Ensure the [release tag](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags) has been created
   - For [sourcegraph](https://github.com/sourcegraph/sourcegraph), also:
-    - [ ] Cherry pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
+    - [ ] Cherry-pick the release-publishing PR from `sourcegraph/sourcegraph@main` into the release branch.
+  - For [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm), also:
+    - [ ] Update the [changelog](https://github.com/sourcegraph/deploy-sourcegraph-helm/blob/main/charts/sourcegraph/CHANGELOG.md) to include changes from the patch
+    - [ ] Cherry-pick the release-publishing PR from the release branch into `main`
 - [ ] Finalize and announce that the release is live:
   ```sh
   yarn release release:close

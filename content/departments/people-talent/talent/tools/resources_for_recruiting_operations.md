@@ -73,10 +73,9 @@ NOTE: Follow the same scheduling steps for internal candidates that you would fo
 
 Please reach out to the following Executive Business Partners directly if you have any questions about the following Sourcegraph executive’s availability:
 
-- [Christina Forney](../../../../team/index.md#christina-forney), VP Product: [Kylie Fligstein](../../../../team/index.md#kylie-fligstein)
-- [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales: [Amber Smokowski](../../../../team/index.md#amber-smokowski)
-- [Nick Snyder](../../../../team/index.md#nick-snyder), VP Engineering: [Michal Sennett](../../../../team/index.md##michal-sennett) (on MAT leave, go to [Kylie Fligstein](../../../../team/index.md#kylie-fligstein) in the meantime)
-- [Quinn Slack](../../../../team/index.md#quinn-slack), CEO: [Sally Voisen](../../../../team/index.md#sally-voisen)
+- [Sally Voisen](../../../../team/index.md#sally-voisen) supports [Quinn Slack](../../../../team/index.md#quinn-slack), CEO
+- [Michal Sennett](../../../../team/index.md##michal-sennett) supports [Beyang Liu](https://www.linkedin.com/in/beyang-liu/), CTO & Co-founder, [Carly Jones](https://www.linkedin.com/in/carlycjones/), VP Talent
+- [Amber Smokowski](../../../../team/index.md#amber-smokowski) supports [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales, [Aimee Menne](https://www.linkedin.com/in/aimee-menne-8343487/), VP Customer Engineering & Support
 
 ### How to Select a Values Interview Panel:
 
@@ -90,7 +89,7 @@ When creating the interview plan in Greenhouse, the talent team will select 2 va
 3. The email template will auto-populate. You’ll only need to edit the following: 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d 3. We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder. 4. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md).
 4. Send Email
 
-#### For For IAM and Admin Experinece Technical Interviews Only
+#### For IAM Technical Interviews Only
 
 <!-- TODO: Will this still be the same with the IAM team? -->
 

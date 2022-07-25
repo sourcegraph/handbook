@@ -112,7 +112,7 @@ Slack is our [team chat](../communication/team_chat.md) and a big part of our da
 - You don’t have to join every open channel available, but if you do, be mindful of what to pay attention to and how much time you spend reading threads that might not be helpful to you or your work. This takes some time and we recommend talking to teammates to understand what works best for you.
 - Slack can feel like a synchronous way of communication and people might feel they need to respond right away, but remember we are remote and async. Teammates should feel free to send messages to others at any time, rather than trying to guess what a convenient time would be for them, and they are also free to read messages whenever is convenient for them. There is no expectation that people will be immediately responsive.
 - A good practice is to send one message with your request directly, instead of sending “[Hey, how’s it going](https://www.nohello.com/)?” and waiting for the other person to reply to send the actual message. That interrupts their work without communicating anything. If you have a quick question, just ask the question directly, and the person will respond asynchronously.
-- Slack can be a black hole where it feels like messages go out, but it is unclear if anyone saw or engaged with it. Not everything needs a thread, but when nobody replies does that mean everyone saw it and agrees? Does it mean that nobody saw it? Or that people saw it and are choosing not to engage? You can help mitigate this lack of clarity by leaving reaction emojis even if you don't plan to reply. A checkmark, thank you, heart, thumbs up/down, or one of the values emojis (`:value-*:`) are good ways to indicate you saw the message and what you thought about it without having to reply. Within a team you can also think of setting more explicit meanings as the [Enablement group has done here](../../departments/engineering/dev/enablement/index.md#slack-acknowledgment).
+- Slack can be a black hole where it feels like messages go out, but it is unclear if anyone saw or engaged with it. Not everything needs a thread, but when nobody replies does that mean everyone saw it and agrees? Does it mean that nobody saw it? Or that people saw it and are choosing not to engage? You can help mitigate this lack of clarity by leaving reaction emojis even if you don't plan to reply. A checkmark, thank you, heart, thumbs up/down, or one of the values emojis (`:value-*:`) are good ways to indicate you saw the message and what you thought about it without having to reply.
 
 Be mindful:
 
@@ -126,7 +126,7 @@ Finally, remember Slack is _not_ a source of truth. Something said or mentioned 
 
 ### Workshops
 
-The design team has a framework for running [large, async workshops](../../departments/engineering/product/design/workshops/async-design.md) that could be adapted to other purposes.
+The design team has a framework for running [large, async workshops](../../departments/engineering/design/workshops/async-design.md) that could be adapted to other purposes.
 
 ### When to use sync meetings
 

@@ -332,7 +332,7 @@ A summary of the 4 prompts are provided below:
 
 2. Escalation Handling: You are receiving feedback from cross-functional leaders that there are concerns about one of your employees. Their paired Account Executive is requesting to be assigned with a new CE stating that they feel they are not able to progress deals forward due to lackluster performance by the CE during calls and demos. How do you handle this situation? What do you share with the CE? How would you understand if the CE needs to make changes? How would you work with them to improve performance and what would you do if you do not see the improvements you expect?
 
-3. Change Management: We are in a hyper-growth phase and there are several key initiatives that will likely be rolling out over the course of the next several quarters. A key responsibility of this role is to align and train your team, introduce, implement, and manage organizational change, and anticipate emerging needs to iterate quickly. One such initiative we expect to need to implement across the CE organization in the near future is introducing a subset of individuals with the technical skills to be able to test/validate customer edge cases prior to progressing a deal forward. This is outside the current CE responsibilities today and Product and Engineering believe that this is best served from within CE as the team responsible for the technical success of the customer. See below for more context on this prompt. How would you approach this change with your team? How will you uncover and handle objections from within the team? What will you do personally to oversee this broad initiative?
+3. Change Management: We are in a hyper-growth phase and there are several key initiatives that will likely be rolling out over the course of the next several quarters. A key responsibility of this role is to align and train your team, introduce, implement, and manage organizational change, and anticipate emerging needs to iterate quickly. One such initiative we expect to need to implement across the CE organization in the near future is introducing a subset of individuals with the technical skills to be able to test/validate customer edge cases prior to progressing a deal forward. This is outside the current CE responsibilities today and Engineering believe that this is best served from within CE as the team responsible for the technical success of the customer. See below for more context on this prompt. How would you approach this change with your team? How will you uncover and handle objections from within the team? What will you do personally to oversee this broad initiative?
 
 4. Your 30–60–90 Day Plan: What would your personal 30 / 60 / 90 day plan be for joining the team as a leader? What would you personally need to ensure success executing against this 30 / 60 / 90 day plan? How will you communicate and ensure alignment with our leadership team during your 30 / 60 / 90 day plan?
 
@@ -359,7 +359,6 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 ### Content working session
 
-- Interviewer(s): Coming soon.
 - Duration: 60-minutes.
 - Details: during this stage in the interview process, we try to get a sense of your approach and thought process when reviewing writing drafts submitted by team members. You will be given a blog post draft to review for the first 30-minutes of the session, after which you and the hiring manager go through how you approached the piece and talk about the changes you made and why.
 
@@ -470,66 +469,6 @@ The [CE](../../../ce-support/ce/ce.md) organization is pre- and post-sales orien
 
 ## Product
 
-### Director of Design
-
-#### Peer + Leadership
-
-- Interviewer(s): Director of Product + Director of Engineering
-- Duration: 1 hour
-- Details: In this interview, you will meet with Directors from Product and Engineering (hopefully) from the same organization. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, focusing on your experiences integrating and supporting cross functional work. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and shared sense of ownership over our Product/Engineering goals (OKRs). We’re looking for you to talk about your experiences managing a team, what you've learned, and how you inspire and challenge your team of peers and your reports.
-
-#### Design feedback & processes
-
-- Interviewer(s): Two Product Designers
-- Duration: 1 hour
-- Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. This interview will have an emphasis on how you've improved processes across your team and the organization. We’re looking for how you create team cohesion, how you give feedback, what you've learned through managing different teams/people, and how you mentor.
-
-#### Design research & managing success
-
-- Interviewer(s): [Two Product Designers](../../../engineering/product/team/index.md)
-- Duration: 1 hour
-- Details: In this interview, you will meet with some of your direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team's success and failure as well as measuring the success of a project. This interview will have an emphasis on how you think about user research, and how you would influence/help/support the research done for a project with Product Designers and cross-functionally.
-
-### Director of Product
-
-#### Working session
-
-- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product and either Nick Snyder, VP Engineering or the Director of Engineering of the corresponding org.
-- Duration: 1 hour
-- Details: In this interview, you will work through problem solving leadership exercises in real-time. At the beginning of the session, Christina will share a Google doc with you that has prompts for discussion. The purpose of this interview is to get a sense of what it would be like to collaborate and work together, brainstorming and solving problems in real-time. We’re looking for how you demonstrate decision making, prioritizing projects, the team’s work, and individuals. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences.
-
-#### Meet your team
-
-- Interviewer(s): Depending on the org, 2–3 [Product Managers](../../../engineering/product/index.md#product).
-- Duration: 45 min
-- Details: In this interview, you will meet with your team of direct reports, to get to know them and for them to get to know you. We are interested in understanding how you manage your team, identifying and prioritizing growth and development opportunities. We’re looking for how you create team cohesion, solve problems, identify areas for improvement, and define success and failure for your team.
-
-#### Design and engineering collaboration
-
-- Interviewer(s): Product Designer and Engineering Manager.
-- Duration: 30 mins
-- Details: In this interview, you will meet an Engineering Manager and Product Designer that you will be working with closely as well as a Product Designer. The goal of this interview is to understand how you collaborate with different teams, communicating and inspiring a shared Product vision across the organization. We will ask questions about how you have strategically organized plans across multiple teams, solving and resolving any issues that have come up. We’re looking to see how you have created and nurtured relationships and trust, prioritizing and making decisions while getting buy-in from necessary stakeholders. This replaces the Peer interview for this role.
-
-### Director of Product Education
-
-#### Async strategy and writing project
-
-- Interviewer(s): NA - this is a take home assignment. [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement will review.
-- Duration: ~1 hour
-- Details: Please review the Sourcegraph Docs Plan (will be sent to you) and write a high level plan for how you would execute this vision (or challenge us why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive.
-
-#### Working session on strategy & Leadership
-
-- Interviewer(s): [Christina Forney](../../../../team/index.md#christina-forney), VP Product + [Jean du Plessis](../../../../team/index.md#jean-du-plessis), Director of Engineering - Enablement
-- Duration: 1 hour
-- Details: Prior to the interview, you will receive the Sourcegraph Docs (WIP) and will be asked to write a high-level plan for how you would execute this vision (or challenge us on why it isn’t correct). Please keep it to two pages or less, we want you to capture your high-level thoughts to understand how you write, we do not need it to be fully complete or comprehensive. We’re looking for you to challenge assumptions, ask questions, and how you learn and adapt throughout the session and what you have learned from your previous experiences. In this interview, you will discuss how you would build the team and processes from scratch, and help us achieve our vision of world class documentation. The purpose of this interview is to get a sense of what it would be like to collaborate and work together. We’re looking for how you would integrate docs into the product experience as well as your team's work into the early parts of the product life-cycle process.
-
-#### Cross-functional interview
-
-- Interviewer: [Emily Chapman](../../../../team/index.md#emily-chapman) and [Quinn Keast](../../../../team/index.md#quinn-keast)
-- Duration: 60 mins
-- Details: In this interview, you will meet with a Customer Engineer and a Product Designer to discuss how you've partnered cross-functionally to make sure documentation is solving the needs for the user and the business. We will discuss how you've gone about improving and informing teams of updates to documentation, with an emphasis on making sure that documentation can be used and loved by developer audiences of different experience levels.
-
 ### Product manager
 
 #### Async writing project [(RFC Project)](../../../engineering/product/roles/interviews/product_manager/pm_rfc_project.md)
@@ -634,12 +573,6 @@ A great resource on structure (including some great walkthrough videos) from [Be
 - Duration: 45-minutes.
 - Purpose: during the sales presentation, you will 1) walk the panel through a brief introduction/bio of yourself, 2) deep-dive into an enterprise deal you have led, and 3) present a pipeline generation plan (including 10 top target accounts you would pursue based on your understanding of Sourcegraph's value proposition, your personal relationships, and relevant information about the prospect companies that you believe lead to a high probability of engagement). The goal of this interview is for us to understand: 1) your past experience and skill set (via your intro), 2) whether you can command a sales process (via the deep-dive), and 3) your understanding of our value proposition and approach towards territory development.
 - **Very important:** please use [this template](https://docs.google.com/presentation/d/1Tl5XdoMog8QEzEZFAHVHrOYAfjlOh7tomZKlVdxwGeA/edit#slide=id.g9288fdfdea_0_109) for your presentation and please check out the speaker notes - they have a lot of detail on what we are looking for! If you have any issues accessing the presentation, please email recruiting@sourcegraph.com.
-
-#### Enterprise AE deal review
-
-- Interviewer(s): Coming soon.
-- Duration: Coming soon.
-- Purpose: as a part of our interview process, we ask that you prepare a 25-minute presentation reviewing a major deal you've successfully closed. We ask that you prepare to walk your interviewers through all aspects of the deal and your sales process, providing a step-by-step breakdown of how the deal was won and what skills/processes were employed. Feel free to include any challenges you faced, how you overcame them, and what stakeholders were involved, etc. Looking forward to hearing how you win!
 
 #### Enterprise AE team collaboration with Customer Engineering
 

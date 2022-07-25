@@ -1,5 +1,10 @@
 # Making decisions at Sourcegraph
 
+TL;DR
+
+- **Find the right owner.** Every decision should be made by the individual who is most directly responsible for the execution and results of the decision.
+- **Avoid slow decisions.** Making a bad decision fast and reverting later is better than making a good decision slowly. Instead of going to your manager to go to their manager to go to their product manager, embrace transparency and ask directly in a public channel for others to see and possibly contribute. A decision taking longer than one week should be a rare exception.
+
 ## Distributed decision making
 
 Making a decision is always challenging. It can feel risky (what are we missing?), uncomfortable (am I the right person to make this call?), rude (am I overstepping my bounds?), and more.
@@ -52,6 +57,13 @@ That individual’s manager may feel responsible for the results, but if they’
 
 Our high-agency culture is only successful if individuals across the organization are empowered to make decisions. If you or someone on your team is rarely making decisions, that’s a sign of organizational failure. Managers at Sourcegraph are celebrated for delegating decision-making by empowering their teams.
 
+## Avoid slow decision making
+
+- **Be impatient.** The number of decisions at our company that take longer than a week are tiny.
+- **Making a bad decision fast and reverting later is better than making a good decision slowly.**
+- **Don’t go layer by layer, go direct.** Instead of going to your EM to go to their EM to go to their PM, embrace transparency: ask them directly, for others to see and possibly contribute.
+- **Don’t try to do too many things.** If we try to do too many things decisions tend to get slower because we need to keep too much context in mind. Focus on less things, make faster decisions.
+
 ### Examples
 
 While the principle above is clear, how to apply it can be murky. Examples below are helpful to illustrate it. This section is a work in progress—please add additional examples where decision rights were clear and made a decision successful!
@@ -69,7 +81,7 @@ While the principle above is clear, how to apply it can be murky. Examples below
 #### Building a new Growth team to focus on user growth
 
 - While user growth is a company-wide goal, it primarily aligns with the Product and Marketing organizations (based on team-level OKRs and efforts). Other teams affected include Sales, Engineering, Business Operations, and more.
-- As a result, the Product and Marketing teams are the ones who are primarily responsible for the results of such a decision. In this case, greater impact will be felt on the Product and Engineering organizations versus Marketing, as they may have to reallocate teammates to this new team full-time.
+- As a result, the Product and Marketing teams are the ones who are primarily responsible for the results of such a decision. In this case, greater impact will be felt on the Engineering organizations versus Marketing, as they may have to reallocate teammates to this new team full-time.
 - Given the goal that would drive this decision is cross-functional, the heads of Marketing and Engineering should be consulted for input, or potentially even given [approver](#approvers) rights, but in this case, the [decider](#decider) is the head of the Product organization.
 
 #### Making a large change to the product

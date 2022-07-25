@@ -31,6 +31,9 @@
           "type": "string",
           "enum": ["ga", "partial_ga", "beta", "experimental", "not_implemented", "deprecated"]
         }
+      },
+      "note": {
+        "type": "string"
       }
     },
     "required": ["title", "product_team", "maturity"]

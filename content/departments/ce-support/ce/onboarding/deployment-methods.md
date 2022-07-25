@@ -12,9 +12,9 @@ Self-hosted deployments will use one of these three options, unless customers us
 
 The majority of our customers use a self-hosted instance—Sourcegraph is deployed to servers they control, using one of the three options listed in the previous section. However, for Enterprise customers, we do also offer the option for a managed instance.
 
-In a managed instance, we deploy Sourcegraph _for_ the customer, in an isolated instance in our Google Cloud environment. (It's a single-tenant cloud.) We control installing it and upgrading it, but it’s segregated from any other instance. We charge a fee on top of their license fee to cover costs (based on lines of code, since the size of the git repo controls how much disk space we need to provision, which controls how much the instance costs us). Managed instances are controlled by the Delivery team.
+In a managed instance, we deploy Sourcegraph _for_ the customer, in an isolated instance in our Google Cloud environment. (It's a single-tenant cloud.) We control installing it and upgrading it, but it’s segregated from any other instance. We charge a fee on top of their license fee to cover costs (based on lines of code, since the size of the git repo controls how much disk space we need to provision, which controls how much the instance costs us). Managed instances are controlled by the Cloud team.
 
-Managed instances are all currently docker-compose deployments, and as such are not technically high-availability. They can scale to the largest machine GCP offers, so they can be used by all but the very largest enterprises. [More info from Delivery](../../../engineering/dev/admin-exp/devops/managed/index.md).
+Managed instances are all currently docker-compose deployments, and as such are not technically high-availability. They can scale to the largest machine GCP offers, so they can be used by all but the very largest enterprises. [More information here](../../../cloud/index.md).
 
 Managed instances are only available to Enterprise customers.
 
