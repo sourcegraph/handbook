@@ -162,6 +162,7 @@ _Thank you! Have a great day :)_
 When someone changes teams, we make sure they have access to the resources needed to be successful in their new role. We provide teammates a Process St. checklist. You can read more about internal mobility [here](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md). Once the People team is notified, we run a checklist from the Transition Onboarding workflows, share it with the manager and send it to the teammate on the day the role change is effective.
 
 The most comment transitions are:
+
 - [SDR to AE](../../../sales/sdrteam/index.md#sdr-promotion-process)
 - [Aplication Engineer to Engineer]
 
