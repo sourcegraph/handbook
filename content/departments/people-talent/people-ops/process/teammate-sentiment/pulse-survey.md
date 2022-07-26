@@ -64,7 +64,7 @@ Survey results are published to the handbook following the Company Meeting in wh
 
 ### Who will be able to see my responses?
 
-All responses are submitted **anonymously**. The People Team can view department-specific themes when 5 or more Teammates from a given organization (Sales, Engineering, Operations, Sales, etc) respond to the survey. All comments are submitted anonymously, and the People Team can respond to them but cannot see who submitted the comment.
+All responses are submitted **anonymously**. The People Team can view department-specific themes when 5 or more Teammates from a given organization (Sales, Engineering, Operations, etc.) respond to the survey. All comments are submitted anonymously, and the People Team can respond to them but cannot see who submitted the comment.
 
 ### When does the pilot period end?
 
