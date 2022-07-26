@@ -2,13 +2,9 @@
 
 > NOTE: The IAM team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
 
-## Vision
-
-The vision of the IAM is TBA.
-
 ## Goals and Roadmap
 
-We're working on updating our public-facing roadmap. For Sourcegraph employees, our roadmap can be found [here](https://docs.google.com/spreadsheets/d/1Mrtf04XAHXRSCXL_amY6dDmxAJ4dhKi9-ydFeBPBH4M/edit?usp=sharing).
+The goals and roadmap for the IAM team can be found on our [strategy page](../../../../strategy-goals/strategy/iam/index.md)
 
 ## Areas of Ownership
 
