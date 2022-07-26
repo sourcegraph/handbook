@@ -70,7 +70,7 @@ Sourcegraph uses two factors to determine which due diligence checks need to be 
 
 Approval of third-party onboarding can only be provided if all due diligence reviews are approved.
 
-Sourcegraph’s [Vendor Reviewer Guide Process](https://handbook.sourcegraph.com/departments/tech-ops/process/vendor-reviewer-guide/) captures the due diligence triage matrix as well as provides more details on the due diligence activities by each reviewer.
+Sourcegraph’s [Vendor Reviewer Guide Process](../../departments/tech-ops/process/vendor-reviewer-guide.md) captures the due diligence triage matrix as well as provides more details on the due diligence activities by each reviewer.
 
 ### &nbsp;&nbsp;&nbsp; Third-Party Security Standards
 
