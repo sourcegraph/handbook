@@ -263,7 +263,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### General
 
 - Indexed and unindexed search
-- Diff/commit search
 - Result ranking
 - Open source indexing
 
@@ -274,7 +273,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### Repositories
 
 - sourcegraph/zoekt
-- sourcegraph/sourcegraph
 - sourcegraph/search-scratch
 
 ## [Search Product](../../teams/search/product.md)
