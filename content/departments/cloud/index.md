@@ -200,7 +200,7 @@ Are you a member of our CE & CS teams?
 
 ### FAQ: How to use mg cli for Managed Instances operations?
 
-```
+```sh
 git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
 cd deploy-sourcegraph-managed
 echo "export \$MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
