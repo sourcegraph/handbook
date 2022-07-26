@@ -134,6 +134,12 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 
+## Recovery Time Objective and Recovery Point Objective (RTO & RPO)
+
+We have a maximum Recovery Point Time objective of 24 hours. Snapshots are performed at-least daily on managed instances. Some components may have lower RPOs (e.g. database).
+
+Our maximum Recovery Time Objective is defined by our [support SLAs](../ce-support/support/index.md#slas) for P1 & P2 incidents.
+
 ### Incident Response
 
 Incidents which affect managed instances are handled according to our [incidents](../engineering/dev/process/incidents/index.md) process.
