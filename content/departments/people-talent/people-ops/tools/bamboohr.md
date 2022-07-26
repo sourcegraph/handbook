@@ -147,6 +147,7 @@ All of the following must be complete before start date:
 - **Department**
 - **Job Title**: if it doesn't exist, follow the instructions above in [Creating a Job Title](#creating-a-job-title)
 - **Reports to**
+- **Cost Center**: we use this field to sync with our financial systems through Okta.
 
 #### Options
 
