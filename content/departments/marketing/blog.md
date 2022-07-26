@@ -83,7 +83,7 @@ This section is called `frontmatter` and it provides the post's metadata. Import
 
 The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post.
 
-Access the template in the About repository: `/content/blogposts/blog-post-starter-pack.md`
+Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md)
 
 ## Adding images
 
@@ -91,10 +91,11 @@ Please use a `Figure` component to add images to your post. Optionally, you can 
 
 <!-- prettier-ignore -->
 ```html
-<Figure 
+<Figure
   src="https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png"
   alt="Sourcegraph thumbnail"
   caption="The Sourcegraph logo"
+  link="https://https://sourcegraph.com/search.com"
 />
 ```
 
@@ -137,7 +138,7 @@ Please use the `YouTube` component to embed YouTube videos into your post.
 <!-- prettier-ignore -->
 ```html
 <YouTube
-  title="Accelerate developer onboarding with Sourcegraph" 
+  title="Accelerate developer onboarding with Sourcegraph"
   id="DgwvhRW1Cbc"
   showTitle={true}
 />
@@ -151,8 +152,8 @@ To add a video file to your post, first add the `.webm` and `mp4 versions to Goo
 
 <!-- prettier-ignore -->
 ```html
-<Video 
-  source={{webm: 'blog/video-title', mp4: 'blog/video-title'}} 
+<Video
+  source={{webm: 'blog/video-title', mp4: 'blog/video-title'}}
   loop={true}
   title="Code reuse"
   caption="An example of code search with Sourcegraph"
@@ -162,12 +163,19 @@ To add a video file to your post, first add the `.webm` and `mp4 versions to Goo
 
 ## Adding a HubSpot form
 
-The `EmbeddedHubSpot` component inserts a HubSpot form wherever the `targetId` div tag is placed.
+Use the `HubSpotForm` component to drop a custom HubSpot form into your post. In most cases, the `masterFormName` and `chiliPiper` props are the only properties that need to be updated. Once added to your post, the HubSpot form will render in its place. All the options for this component are:
 
-<!-- prettier-ignore -->
-```html
-<EmbeddedHubSpot portalId="2762526" formId="your-form-id" targetId="#your-target-id" />
-<div id="your-target-id"></div>
+- `formId` - an optional form ID if the form doesn't fall under one of our [master forms](https://docs.google.com/document/d/1qa393uAW_tjwNtH9jHf_d__PCJgmbsxNoxi9cO4XOcE/edit)
+- `masterFormName` - an optional master form name; `contactMulti`, `contactEmail`, `gatedMulti`, or `gatedEmail` for general contact forms and gated forms that have multi fields or an email field
+- `onFormSubmitted` - an optional callback function for triggering an action after a form is submitted
+- `inlineMessage` - an optional message to display after a form is submitted. We have a [generic fallback](https://github.com/sourcegraph/about/blob/main/src/components/HubSpotForm.tsx#L288) if none is provided.
+- `chiliPiper` - an optional boolean (`true`/`false`) to enable Chili Piper. This is false by default.
+
+```
+  <HubSpotForm
+    masterFormName="contactEmail"
+    chiliPiper={true}
+  />
 ```
 
 ## Previewing your blog post
