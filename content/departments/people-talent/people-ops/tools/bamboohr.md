@@ -100,7 +100,7 @@ In the image below, you can see in red the fields the People Team must complete 
 
 In the image below, you can see in red the fields the People Team must complete before someone starts:
 
-![Fields that must be completed in the jobhttps://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png) section](
+![Fields that must be completed in the job section](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png)
 
 #### Employee status
 
