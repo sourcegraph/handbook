@@ -109,8 +109,8 @@ All three fields need to be complete before start date:
 - **Effective date**: Same as start date
 - **Employee Status**: Each teammates should be one of either:
   - Contractor: Not used
-  - Full-Time Contractors (Non-US Teammate)
-  - Full-Time Contractors (Non-US Teammate) - Intern
+  - Full-Time (Non-US Teammate)
+  - Full-Time (Non-US Teammate) - Intern
   - Full-Time Employee (US Teammate)
   - Full-Time Employee (US Teammate) - Intern
   - Full-Time PEO Employee (Non-US Teammate)
@@ -197,8 +197,8 @@ Complete the following fields:
 Under Employment Status, complete:
 
 - Attrition Type:
-  - No PIP
-  - PIP
+  - Regrettable
+  - Non-Regrettable
 
 For managers with direct reports, confirm with terminated person's manager what the new reporting structure will be and update it in BambooHR. The report change should be effective after this person's last active day (System Deactivation Date/Last day), which may not necessarily be the same as departure date or last pay date.
 
