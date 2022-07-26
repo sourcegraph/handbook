@@ -45,7 +45,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Who is my Recruiter?](process/teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
-  - How to submit a confidential complaint
+  - [How to submit a confidential complaint](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
 ### Onboarding as a new hire
 
@@ -60,13 +60,15 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Our high performance culture
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- [Promotion process]
+- Promotion process
 - Career ladders
   - How we determine our career ladder
   - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - Department specific career ladders
     - [CE](link coming soon)
-    - [Engineering](link coming soon)
+    - [Engineering](../../engineering/dev/career-development/framework.md)
+    - [Product](link coming soon)
+    - [Design](../../engineering/design/career-development.md)
     - [Marketing](link coming soon)
     - [Ops](link coming soon)
     - [Sales](link coming soon)
@@ -119,12 +121,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Relocation/address changes
 
 - Changing addresses
-- Mortgage verification
+- [Mortgage verification](../people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
 
-- Visa process
-- Sponsorship policy
+- [Visa process](../people-ops/tools/people-ops-faqs.md#q-i-need-a-letter-from-my-employer-to-obtain-a-visa-how-do-i-request-that)
+- [Sponsorship policy](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
 
 ### Verifications
 
@@ -133,14 +135,14 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Expenses
 
-- Our expense policy
-- How to submit expenses
+- [Our expense policy](../../../benefits-pay-perks/benefits-perks/spending-company-money.md)
+- [How to submit expenses](../../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
 ### Reporting violations
 
-- Anti-harassment
-- Code of business conduct & ethics
-- How to raise a cofidential issue
+- [Anti-harassment](../../../company-info-and-process/communication/code_of_conduct.md#respect-each-other)
+- [Code of business conduct & ethics](../../../company-info-and-process/communication/code_of_conduct.md)
+- [How to raise a cofidential issue](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
 ### Learning & development
 
@@ -178,7 +180,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Who is my recruiter?](process/teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
-  - How to submit a confidential complaint
+  - [How to submit a confidential complaint](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
 ### Hiring
 
@@ -245,6 +247,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to give a raise](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a spot bonus](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a promotion](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
+- [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](../people-ops/process/compensation-and-leveling/compensation-role-changes.md)
 
 ### Performance management
 
@@ -305,9 +308,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Teammate support
 
-- Parental leave
+- [Parental leave](../../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - Leaving Sourcegraph
-  - Exit interviews
+  - [Exit interviews](../people-ops/process/performance-coaching/exit-interview.md)
   - Offboarding process
 
 ### Teammate swag
