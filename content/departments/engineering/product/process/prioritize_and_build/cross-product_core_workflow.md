@@ -30,13 +30,11 @@ The longer term purpose of this ownership is to first evolve the core workflow t
 
 ### Define the first principles of the core workflow
 
-First, we’re going to define first principles for the core workflow. Today, these first principles are more implicitly understood than anything, and are oriented around code search without consideration of a broader workflow supporting code intelligence.
-
-We’ll aim to have an MVP of this drafted and shared by July 20, and initial alignment by July 22.
+First, we have co-created [first principles for the core workflow](core_workflow_first_principles.md). Previously, these first principles were more implicitly understood than anything, and are oriented around code search without consideration of a broader workflow supporting code intelligence.
 
 ### Evolve the information architecture and interaction model behind the core workflow
 
-Next, we’ll work on evolving the information architecture and interaction model behind the core workflow around these first principles. This will be done at a high level of information/documentation and low level of visual fidelity—just enough to align across teams on how the evolved conceptual model is surfaced.
+Next, we’ll work on evolving the information architecture and interaction model behind the core workflow around these [first principles](core_workflow_first_principles.md). This will be done at a high level of information/documentation and low level of visual fidelity—just enough to align across teams on how the evolved conceptual model is surfaced.
 
 We aren’t starting from scratch: the Search Product team has been exploring opportunities here that we'll continue building on. The underlying ideas around how the core workflow will extend and integrate with other product features like Code Insights and Batch Changes should be clear and intuitive as an outcome.
 
@@ -54,9 +52,9 @@ While the first shippable iteration will target the core workflow, we’ll work 
 
 ## Timeline recap
 
-- July 18-22 – Define MVP of first principles for core workflow.
-- July 25–July 29 – Explore, share, collect feedback on evolved information architecture and interaction model.
-- July 29 and on – Rapid prototyping, building, and testing.
+- 2022-07-18 - 2022-07-22 – Define MVP of first principles for core workflow.
+- 2022-07-25 - 2022-07-29 – Explore, share, collect feedback on evolved information architecture and interaction model.
+- 2022-07-29 and on – Rapid prototyping, building, and testing.
 - Targeting first shipped iteration for Sourcegraph 4.0
 
 ## The Core workflow in the Sourcegraph product
@@ -98,4 +96,4 @@ Core workflow ownership encompasses the following areas:
 
 - The first initiative is the **Core workflow punch list** ([GitHub project](https://github.com/orgs/sourcegraph/projects/271/views/1))
 - For new and existing issues, here are the relevant GitHub labels: [cp-core-workflow](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+label%3Acp-core-workflow)
-- Slack channel: [#cp-core-workflow](https://sourcegraph.slack.com/archives/C03N0HGN069)
+- Slack channel: #cp-core-workflow

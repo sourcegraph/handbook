@@ -135,7 +135,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ### General
 
-- Continuous integration tooling, support, pipelines, infrastructure, and playbook
+- [Continuous integration tooling, support, pipelines, infrastructure, and playbook](../tools/infrastructure/ci/index.md)
 - Error types, logging, alerts, and monitoring for backend services
 - Backend testing standards, libraries, and infrastructure
 - Packaging infrastructure
@@ -149,9 +149,9 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 ### Tooling
 
-- sg
-- Contributor Licence Agreement (CLA) bot
-- Monitoring generator
+- [sg](https://docs.sourcegraph.com/dev/background-information/sg)
+- [Contributor Licence Agreement (CLA) bot](https://github.com/sourcegraph/clabot-config)
+- [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
 - Github and Github Applications
 - Buildkite
 - OkayHQ
@@ -263,7 +263,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### General
 
 - Indexed and unindexed search
-- Diff/commit search
 - Result ranking
 - Open source indexing
 
@@ -274,7 +273,6 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 ### Repositories
 
 - sourcegraph/zoekt
-- sourcegraph/sourcegraph
 - sourcegraph/search-scratch
 
 ## [Search Product](../../teams/search/product.md)
