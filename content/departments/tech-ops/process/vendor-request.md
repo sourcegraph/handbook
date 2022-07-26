@@ -1,6 +1,6 @@
 # Vendor Request Process
 
-At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to personal, Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program here (TBC- will follow shortly).
+At Sourcegraph we use a variety of vendors to help us with our day-to-day efforts in building the best product for our clients. These third parties can have direct or indirect access to personal, Sourcegraph’s and/or client’s data and hence can pose a security risk. Adequate third party risk management is a best practice that helps mitigate security risks and enables Sourcegraph to meet our contractual obligations as well as stay compliant with security industry standards like SOC. You can learn more about our Third Party Risk Management Program [here](../../../company-info-and-process/policies/third-party-management-policy.md).
 
 ### Why should I use this process?
 
@@ -142,7 +142,7 @@ As mentioned above, Sourcegraph rates its vendors by the sensitivity of data tha
 
 ### Offboarding
 
-When we decide to terminate our contract with a vendor, the system/partnership owner has to raise an ‘Offboarding’ vendor request in order to make sure we can guarantee secure handling of any data that has to be disposed of/retained as per our [Data Management Policy](https://docs.google.com/document/d/1EteK_ftNhF8B_2G8BdSrW7xlehba_6yq/edit). Each request will be handled case by case depending on the data that is stored, transmitted and/or processed by the offboarded vendor.
+When we decide to terminate our contract with a vendor, the system/partnership owner has to raise an ‘Offboarding’ vendor request in order to make sure we can guarantee secure handling of any data that has to be disposed of/retained as per our [Data Management Policy](../../../company-info-and-process/policies/data-management-policy.md). Each request will be handled case by case depending on the data that is stored, transmitted and/or processed by the offboarded vendor.
 
 ### Vendor Risk Assessment
 

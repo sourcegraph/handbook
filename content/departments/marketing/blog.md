@@ -81,7 +81,7 @@ This section is called `frontmatter` and it provides the post's metadata. Import
 
 ## Using the Blog Post Starter Pack
 
-The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post.
+The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. It's important to use the components provided for tables, images, alerts, youtube videos, videos, and hubspot forms to ensure our blog posts are uniform in styling.
 
 Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md)
 
@@ -159,6 +159,45 @@ To add a video file to your post, first add the `.webm` and `mp4 versions to Goo
   caption="An example of code search with Sourcegraph"
   showCaption={true}
 />
+```
+
+## Adding an alert
+
+Use an `Alert` to highlight an important piece of information. By default, the background color is purple. To change the background color of the `Alert`, include the `type` property with one of the following options: `primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light`, or `dark`.
+
+<!-- prettier-ignore -->
+```html
+<Alert>This Alert is purple!</Alert>
+<Alert type="warning">This Alert is yellow!</Alert>
+<Alert type="success">This Alert is green!</Alert>
+```
+
+## Adding a blockquote
+
+Showcase a quote using `BlockquoteWithBorder`. You may also include a `headline` above the quote for context.
+
+<!-- prettier-ignore -->
+```html
+<BlockquoteWithBorder
+  quote="Onboard to a new codebase, find answers faster, and identify security risks with universal code search."
+  author="Sourcegraph"
+  headline="Search your code. All of it."
+/>
+```
+
+## Adding a table
+
+Tables can be written in Markdown or HTML. When preparing a table, please include the `TableWrapper` component to ensure that the table adapts to different screen sizes.
+
+<!-- prettier-ignore -->
+```html
+<TableWrapper>
+| Planet     | Orbital speed (km/s) |
+|------------|----------------------|
+| Mercury    | 47.4                 |
+| Venus      | 35.0                 |
+| Earth      | 29.8                 |
+</TableWrapper>
 ```
 
 ## Adding a HubSpot form

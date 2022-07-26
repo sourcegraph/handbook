@@ -174,3 +174,7 @@ Existing Sourcegraph customer (Customer A) closed a one-year subscription on Dec
 - July 31, 2022, ARR balance = $100,000
 - August 1, 2022 ARR balance = $150,000
 - November 30, 2022, ARR balance = $150,000
+
+### Process for communicating and reporting on, out of Period Adjustments
+
+- Please see our [process](https://docs.google.com/document/d/1J7Z_PW0Fzkti4qRR8iHuSxFeJh7hbEKttp3v5zfAMR8/edit#) for communicating and reporting on, out of period ARR adjustments.
