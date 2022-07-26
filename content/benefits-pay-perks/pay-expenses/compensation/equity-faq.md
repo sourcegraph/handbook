@@ -16,6 +16,10 @@ Sourcegraph cannot make recommendations or provide advice related to your option
 
 ## FAQ
 
+### When and where do I get my Carta invite?
+
+Carta houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1–3 weeks after the board meeting to process. Board meetings are typically held 3-4 weeks after fiscal quarter end.
+
 ### What if my options in Carta are incorrect (such as I have the wrong number of options or the wrong type of options)?
 
 Email [our Carta admin](https://docs.google.com/document/d/1i-JS8Vv2uvvUyUqxiW-PSemvhsg9kjs3evsPzFFYi5k/edit?usp=sharing) and cc your legal POC or legal@sourcegraph.com, depending on the sensitivity of your question.
@@ -27,6 +31,16 @@ Unfortunately, we cannot legally provide personal financial or tax advice. Pleas
 ### If I am leaving Sourcegraph, does my equity stop vesting when I give notice, or on my last day?
 
 On your last day.
+
+### Are my vested stock options impacted if I leave Sourcegraph?
+
+If you are a U.S. employee with vested ISOs, yes.
+
+- If you were hired May 2021 or earlier, your ISOs will expire 3 months after your separation date unless you are granted an extension (see [this FAQ](#how-much-time-do-i-have-to-exercise-the-stock-options-that-have-vested-if-i-leave)). Upon being granted an extension (increasing the time you have to exercise from 3 months to 10 years), your ISOs will convert to NSOs.
+
+- If you were hired after May 2021, you already have 10 years to exercise your options and your ISOs will convert to NSOs three months from your date of separation.
+
+There is no impact to vested NSOs as a result of your separation from Sourcegraph.
 
 ### If I am moving out of the US, will my equity continue to vest?
 

@@ -100,7 +100,7 @@ In the image below, you can see in red the fields the People Team must complete 
 
 In the image below, you can see in red the fields the People Team must complete before someone starts:
 
-![Fields that must be completed in the jobhttps://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png) section](
+![Fields that must be completed in the job section](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png)
 
 #### Employee status
 
@@ -109,8 +109,8 @@ All three fields need to be complete before start date:
 - **Effective date**: Same as start date
 - **Employee Status**: Each teammates should be one of either:
   - Contractor: Not used
-  - Full-Time Contractors (Non-US Teammate)
-  - Full-Time Contractors (Non-US Teammate) - Intern
+  - Full-Time (Non-US Teammate)
+  - Full-Time (Non-US Teammate) - Intern
   - Full-Time Employee (US Teammate)
   - Full-Time Employee (US Teammate) - Intern
   - Full-Time PEO Employee (Non-US Teammate)
@@ -147,6 +147,7 @@ All of the following must be complete before start date:
 - **Department**
 - **Job Title**: if it doesn't exist, follow the instructions above in [Creating a Job Title](#creating-a-job-title)
 - **Reports to**
+- **Cost Center**: we use this field to sync with our financial systems through Okta.
 
 #### Options
 
@@ -176,6 +177,31 @@ Not all roles have commissions. For those who do, all of these must be completed
 #### Bonus
 
 This is rarely used. When needed, complete all field.
+
+## How to terminate someone
+
+Go to the person's profile, and update Employment Status in the Job tab.
+
+Complete the following fields:
+
+- Effective Date (departure date/paythrough date)
+- Employment Status: Terminated
+- Termination Type: Voluntary/Involuntary/Mutal Separation
+- Termination Reason
+- Eligible for Rehire:
+  - Yes:
+    - No PIP
+  - No
+    - PIP
+    - Any of these reasons [COMING SOON]
+
+Under Employment Status, complete:
+
+- Attrition Type:
+  - Regrettable
+  - Non-Regrettable
+
+For managers with direct reports, confirm with terminated person's manager what the new reporting structure will be and update it in BambooHR. The report change should be effective after this person's last active day (System Deactivation Date/Last day), which may not necessarily be the same as departure date or last pay date.
 
 ## Integrations
 

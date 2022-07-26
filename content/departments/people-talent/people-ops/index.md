@@ -85,14 +85,6 @@
 
    </section>
 
-#### People Ops team READMEs
-
-[People Ops READMEs](team/index.md)
-
-### How to reach the right member of the People Ops team
-
-If you encounter a question at any point, we're here to help! Slack us at #ask-people-team.
-
 #### People Partner Alignment
 
 Our People Partners are aligned to business units as follows:
@@ -100,7 +92,7 @@ Our People Partners are aligned to business units as follows:
 **Jonathan Ayers**: Executive Team
 **Carl Robson**: Sales & Marketing
 **Sarah Um**: Customer Engineering & Support; Operations
-**Alex Mathison**: Engineering
+**Alex Mathison**: Engineering, Product and Design
 
 ### Open roles
 
@@ -109,12 +101,6 @@ See our [careers page](https://boards.greenhouse.io/sourcegraph91) for open role
 ## People Ops frequently asked questions (FAQs)
 
 [People Ops FAQs](tools/people-ops-faqs.md)
-
-## Goals & Current Work
-
-See People Ops OKRs [here](../../../strategy-goals/goals/2022_q3.md#people-ops).
-
-See how we manage project and updates [here](process/people-ops-project-management.md).
 
 ## Things you need to know about working here
 

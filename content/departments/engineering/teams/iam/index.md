@@ -8,7 +8,7 @@ The vision of the IAM is TBA.
 
 ## Goals and Roadmap
 
-The FY23 Q2 goals and roadmap are outlined on our [strategy page](../../../../strategy-goals/strategy/iam/index.md).
+We're working on updating our public-facing roadmap. For Sourcegraph employees, our roadmap can be found [here](https://docs.google.com/spreadsheets/d/1Mrtf04XAHXRSCXL_amY6dDmxAJ4dhKi9-ydFeBPBH4M/edit?usp=sharing).
 
 ## Areas of Ownership
 
@@ -20,7 +20,7 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 The IAM team is responsible for both authentication and authorization to Sourcegraph, including login, sign-in and sign-up pages and user management for on-prem and managed instances.
 
-Code-level authorization is enforced based on the repository permissions on the code host level and the Repository Management team owns this area. It is coupled with administration experience and team management, which created close collaboration between both teams.
+The IAM team also owns code-level authorization, which is enforced based on the repository permissions on the code host level. It is coupled with administration experience and team management, which created close collaboration between both teams.
 
 #### Administration experience and teams management
 
@@ -59,7 +59,7 @@ We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegr
 The IAM team works alongside several other teams at Sourcegraph. You can find more information about their teams and goals on the respective pages:
 
 - [Repo Management](../repo-management/index.md)
-- [Security](../security/index.md) - Team ambassador: [Feroz Salam](../../../../team/index.md#feroz-salam)
+- [Security](../../../security/index.md) - Team ambassador: [Feroz Salam](../../../security/index.md#feroz-salam)
 
 ## How we work
 
