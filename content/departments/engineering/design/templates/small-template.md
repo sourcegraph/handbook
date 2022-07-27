@@ -1,6 +1,6 @@
 # Design Template: Small
 
-- Estimate: Several days to a week
+- Estimate: One day to a week
 - Notes:
 
   - When creating the issue, use the label design-estimated-SM
@@ -8,12 +8,13 @@
 
 ✂️ -------------------------
 ```markdown:
-  ## Design Template: Small
-  - Estimate: A days to a week
+## Design process
+
+  - Estimate: One day to a week
   - Weighting factors:
     - Note: A small issue should not be high impact and high certainty.
-    - [HIGH|MEDIUM|LOW] risk
-    - [HIGH|MEDIUM|LOW] clarity
+    - HIGH|MEDIUM|LOW risk
+    - HIGH|MEDIUM|LOW clarity
 
   ### Discover
   - [ ] Existing customer feedback - Link

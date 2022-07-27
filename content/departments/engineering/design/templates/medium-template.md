@@ -10,12 +10,13 @@
 
  ✂️ -------------------------
 ```markdown:
-  ## Design Template: Medium
-  - Estimate: Several days to two weeks
+## Design process
+
+  - Estimate: Two weeks to one month
   - Weighting factors:
     - Note: A small issue should not be high impact and high certainty.
-    - [HIGH|MEDIUM|LOW] risk
-    - [HIGH|MEDIUM|LOW] clarity
+    - HIGH|MEDIUM|LOW risk
+    - HIGH|MEDIUM|LOW clarity
 
   ### Discover
   - [ ] RFC

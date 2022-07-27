@@ -11,8 +11,9 @@
 
 ✂️ -------------------------
 ```markdown:
-  ## Design Template: Extra large
-  - Estimate: Two weeks to a month
+## Design process
+
+  - Estimate: More than a month
   - Weighting factors:
     - Note: a project of this size requires resources that increase it's risk profile.
     - [HIGH|MEDIUM] risk

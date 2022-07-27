@@ -10,11 +10,12 @@
 
 ✂️ -------------------------
 ```markdown:
-  ## Design Template: Large
+## Design process
+
   - Estimate: Two weeks to a month
   - Weighting factors:
-    - [HIGH|MEDIUM|LOW] risk
-    - [HIGH|MEDIUM|LOW] clarity
+    - HIGH|MEDIUM|LOW risk
+    - HIGH|MEDIUM|LOW clarity
 
   ### Discover
   - [ ] RFC

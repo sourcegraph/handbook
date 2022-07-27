@@ -8,11 +8,12 @@
 
 ✂️ -------------------------
 ```markdown:
-  ## Design Template: Extra small
-  - Estimate: Several days to two weeks
+## Design process
+
+  - Estimate: Less than a day
   - Weighting factors:
-    - [MEDIUM|LOW] risk
-    - [HIGH|MEDIUM] clarity
+    - MEDIUM|LOW risk
+    - HIGH|MEDIUM clarity
 
   ### Discover
   - [ ] Product and/or engineering provide direction and/or feedback
@@ -29,6 +30,7 @@
 
   ### Deliver
   - [ ] Team review
+  - [ ] QA'd by designer before release
 
   ### Measure
   - [ ] Metrics defined in the Figma file ([i](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/defining-metrics/)) - Link
