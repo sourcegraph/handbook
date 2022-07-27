@@ -7,6 +7,7 @@ This page walks through the most important things to think about when deprecatin
 ## Principles for successful deprecation
 
 Below are a number of principles which have led to success in past deprecating projects:
+
 - Craft an honest message: When conveying the reasoning to customers, it is important that you are as honest as possible about the reasoning behind sunsetting.
 - Ensure you’re speaking to the customer: Often times when creating the external-messaging for deprecating a feature, it can be easy to focus on internal-jargon or story. Make sure any message you share is speaking in customer language which they will clearly understand. While customers may not always be happy that we’re shutting down a feature, we want them to understand why.
 - Ensure each task has a single DRI and that each DRI understands their role: During deprecating process, it is common for the message about what is happening and when it is happening to get lost. Thus, it is critical to ensure each task has a DRI and that person clearly understands the timeline and expectations of their role.
@@ -73,13 +74,12 @@ Subject: Sunestting the personal code beta on Sourcegraph.com
 
 > This decision means we’ll be sunsetting some beta features on Sourcegraph.com, including personal repository syncing. On August 1, all clones of personal repositories (public and private) will be removed from the service. If you have any personal repositories currently synced to the service, they will no longer appear in your Sourcegraph account after August 1.
 >
-> Sourcegraph.com will continue to host an index of over 2M open source repositories so that you can freely search the open source universe. If you’re interested in Sourcegraph for your personal code or for your company’s code, you can also run a local installation of Sourcegraph for free, or get in touch with our team to learn more about single-tenant Sourcegraph Cloud. 
+> Sourcegraph.com will continue to host an index of over 2M open source repositories so that you can freely search the open source universe. If you’re interested in Sourcegraph for your personal code or for your company’s code, you can also run a local installation of Sourcegraph for free, or get in touch with our team to learn more about single-tenant Sourcegraph Cloud.
 >
 > Thank you for being a Sourcegraph.com user!
 >
 > Ryan Phillips
 > Product Manager, Cloud
-
 
 ### 7- and 1-day Reminder Email
 
@@ -97,4 +97,3 @@ Subject: Sunsetting the personal code beta in 1 week
 
 > Ryan Phillips
 > Product Manager, Cloud
-
