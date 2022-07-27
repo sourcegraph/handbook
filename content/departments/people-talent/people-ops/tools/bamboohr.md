@@ -180,7 +180,7 @@ This is rarely used. When needed, complete all field.
 
 ## Editing a profile
 
-There are different ways of editing a profile. 
+There are different ways of editing a profile.
 
 ### Personal tab
 
@@ -191,25 +191,24 @@ Once the changes are made, click on **Save changes** to make them effective.
 Some of these fields can be edited by teammates. When they do, the People team receives a notification and have to approve the changes before they show in BambooHR.
 
 ### Job tab
- 
- Just like in the Personal tab, all free style and drop down fields can be updated/edited and we'll have to click on **Save changes** for them to be effective.
 
- For Employment Status, Compensation, Job Information, Options, and Commission, there are two ways of changing the information:
+Just like in the Personal tab, all free style and drop down fields can be updated/edited and we'll have to click on **Save changes** for them to be effective.
 
- **Editing**
- To edit the information, put the cursor on the line you want to edit and click on the pencil. Make the changes and the line will be edited. The same applies for removing the line.
+For Employment Status, Compensation, Job Information, Options, and Commission, there are two ways of changing the information:
 
- This _only_ applies for mistakes. We do not edit lines if something in the teammate's employment changes. When that's the case, we update by adding a new line.
+**Editing**
+To edit the information, put the cursor on the line you want to edit and click on the pencil. Make the changes and the line will be edited. The same applies for removing the line.
 
- ![How to edit a field](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/editing.png)
+This _only_ applies for mistakes. We do not edit lines if something in the teammate's employment changes. When that's the case, we update by adding a new line.
 
- **Updating**
- We update information by clicking on **+ Update XXX**. This will add a new line on top of the excisting ones. A good example of when we do this is when a teammate has a new manager o a change in compensation. 
+![How to edit a field](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/editing.png)
 
- Keep in mind Effective Date refers to the day the change will be effective, not the date we are doing the update.
+**Updating**
+We update information by clicking on **+ Update XXX**. This will add a new line on top of the excisting ones. A good example of when we do this is when a teammate has a new manager o a change in compensation.
+
+Keep in mind Effective Date refers to the day the change will be effective, not the date we are doing the update.
 
 ![How to edit a field](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/updating.png)
-
 
 ## How to terminate someone
 
