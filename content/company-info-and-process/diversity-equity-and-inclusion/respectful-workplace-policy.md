@@ -4,7 +4,7 @@
   <tr>
    <td><strong>Policy Owner</strong>:<strong> </strong>Legal
    </td>
-   <td><strong>Effective Date: </strong>August 1, 2022
+   <td><strong>Effective Date: </strong>July 27, 2022
    </td>
   </tr>
   <tr>
