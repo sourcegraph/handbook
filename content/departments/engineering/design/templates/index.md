@@ -11,7 +11,7 @@ Selecting a scope of work for a project (and the corresponding template) require
 
 Generally, the higher the risk involved in the effort and the lower confidence, the larger the project should be.
 
-## Design project templates
+## Templates
 
 - [XL](./extra-large-template.md)
 - [Large](./large-template.md)
