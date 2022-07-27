@@ -3,8 +3,8 @@
 - Estimate: More than a month
 - Notes:
 
-  - When creating the issue, use the label design-estimated-XL
-  - All phases for this project should involve a higher level of fidelity. Exampoles include additional test participants, multiple versions of designs and more revision and refinement than designs for smaller projects.
+  - When creating the issue, use the label `design-estimated-XL`
+  - All phases for this project should involve a higher level of fidelity. Examples include additional test participants, multiple versions of designs, and more revision, and refinement than designs for smaller projects.
   - Ideally, design should be given sufficient time in the problem space to explore and research.
   - Design should be happening at least one iteration before engineering is planned. If user testing is required before or after design, this should be factored into the design time.
   - These efforts require close collaboration with the Product Manager to scope and define the user problems being solved.
@@ -16,7 +16,7 @@
 
   - Estimate: More than a month
   - Weighting factors:
-    - Note: a project of this size requires resources that increase it's risk profile.
+    - Note: a project of this size requires resources that increase its risk profile.
     - [HIGH|MEDIUM] risk
     - [HIGH|MEDIUM|LOW] clarity
 
@@ -54,7 +54,7 @@
 
   ### Deliver
   - [ ] Announce in #progress
-    - Consider announcing in a company meeeting
+    - Consider announcing in a company meeting
   - [ ] Loom - Link
   - [ ] Team review
   - [ ] Design team review

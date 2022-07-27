@@ -3,7 +3,7 @@
 - Estimate: Two weeks to a month
 - Notes:
 
-  - When creating the issue, use the label design-estimated-L
+  - When creating the issue, use the label `design-estimated-L`
   - Ideally, design should be given sufficient time in the problem space to explore and research.
   - Design should be happening at least one iteration before engineering is planned. If user testing is required before or after design, this should be factored into the design time.
   - These efforts require close collaboration with the Product Manager to scope and define the user problems being solved.

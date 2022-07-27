@@ -3,7 +3,7 @@
 - Estimate: One day to a week
 - Notes:
 
-  - When creating the issue, use the label design-estimated-SM
+  - When creating the issue, use the label `design-estimated-SM`
   - Useful when design resources are short, but the project needs to be moved forward. In this case, a small, consultive effort may be undertaken, a problem is small enough to require only design guidance
 
 ✂️ -------------------------
