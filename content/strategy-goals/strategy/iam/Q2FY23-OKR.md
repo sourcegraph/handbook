@@ -2,8 +2,6 @@
 
 ### Problem Area: Align on Team Vision
 
-Today, the IAM team is less than two weeks old and does not yet have a long-term mission or vision that aligns with the company vision.
-
 - Key Result 1: An updated handbook page for the IAM team including mission, vision, and team working agreements.
 - Key Result 2: A GitHub board outlining the key efforts on our 12-month roadmap validated by customer product gaps.
 
