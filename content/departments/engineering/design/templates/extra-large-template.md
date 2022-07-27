@@ -10,6 +10,7 @@
   - These efforts require close collaboration with the Product Manager to scope and define the user problems being solved.
 
 ✂️ -------------------------
+
 ```markdown:
   ## Design Template: Extra large
   - Estimate: Two weeks to a month
@@ -62,4 +63,5 @@
   - [ ] Metrics defined in the Figma file ([i](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/defining-metrics/)) - Link
   - [ ] Followup task will analyze metrics to ensure successful completion - Link
 ```
+
 ✂️ -------------------------
