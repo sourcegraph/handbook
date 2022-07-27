@@ -37,47 +37,13 @@ Feel free to add many code snippets and use code repositories to complement your
 
 ## Adding a blog post
 
-Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories.
+Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `/content/blogposts` child directories.
 
 ## Convert to markdown
 
 To quickly convert your document into Markdown, you can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607). This is not required, but can save some time if you do not prefer to rewrite the content.
 
-If you do this, please add the following frontmatter to the beginning of the file:
-
-```markdown
----
-title: The title
-description: A 300 character limit field for describing your post. Use this is you want to specially craft the excerpt shown on the index page. Uses the first 300 characters of text from your post if this field does not exist.
-authors:
-  - name: The author name
-    url: https://example.com/
-  - name: Second authors name (optional)
-    url: https://example-2.com/
-publishDate: YYYY-MM-DDT10:00-07:00
-tags: [blog]
-slug: the-blog-slug
-heroImage: /blog/thumbnail-image.jpg
-socialImage: Use to set large social image i.e.  https://about.sourcegraph.com/blog/sourcegraph-social-img.png
-canonical: Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
-published: true
-videoID: 'dQw4w9WgXcQ'
----
-
-Your markdown content goes here
-```
-
-This section is called `frontmatter` and it provides the post's metadata. Importantly:
-
-- The `description` field is used as an excerpt for your post on the blog the index page.
-- The `authors` field is for any author of the blog. The `url` field is optional but recommended. \* The indentations on this field are important to keep matching the example.
-- The `tags` field should be left as `blog` until we incorporate filtering posts via tags.
-- The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
-- As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
-- The `canonical` field is optional and only required to override the canonical link. Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
-- The `heroImage` field is your blog post's main header image. It's best to ping #creative-ops to request a blog illustration right after you submit your draft to get the artwork in time.
-- The `socialImage` field is optional. Use the full path to image in order to be read properly on Twitter and Facebook. Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
-- The `videoID` field is an optional YouTube video ID and will take priority even if the `socialImage` is present. This will generate an inline video preview card when sharing on social media. This is supported for all types of posts; blog, podcast, and release posts.
+If you do this, please add the **frontmatter** to the beginning of the file, frontmatter instructions can be found in the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack).
 
 ## Using the Blog Post Starter Pack
 
@@ -85,7 +51,7 @@ The Content Platform Team maintains a template Markdown file that exposes all of
 
 Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md).
 
-To use the template, copy the above file and paste it in the appropriate year folder (i.e. `content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly, all available standardized components are ready to be changed right in this file!
+To use the template, copy the above file and paste it in the appropriate year folder (i.e. `/content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly, all available standardized components are ready to be changed right in this file!
 
 <hr />
 
@@ -99,15 +65,15 @@ To ensure uniformity between commonly used content items, please use the followi
 6. YouTube, and;
 7. HubSpotForm
 
-> NOTE: **Please reference the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack) for use case examples.**
+> NOTE: **Reference the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack) for use case examples.**
 
 <hr />
 
 ## Adding images
 
-Please use a `<Figure />` component to add images to your post. See
+Please use a `<Figure />` component to add images to your post. Find instructions in the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack).
 
-Please do not add images using `img` tags or `![text](image.png)` methods.
+**Do not** add images using `img` tags or `![text](image.png)` methods.
 
 ### Sizing images
 
@@ -119,7 +85,7 @@ Please do not add images using `img` tags or `![text](image.png)` methods.
 ### Uploading images
 
 - If you do not have a custom hero or social image, use this [default hero image](https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png).
-- Small images can be placed in the `website/static/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
+- Small images can be placed in the `/public/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
 - Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket. You can use the UI uploader at [https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog](https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog) or you can use the CLI with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/blog/myasset.png`.
   - Note: You may need to request permission to upload files to the GCP bucket. If you see an error message that additional permissions are required, you can ask for help in #it-tech-ops on Slack.
 - Please use lower case letters and hyphens instead of spaces in folder and image names:
