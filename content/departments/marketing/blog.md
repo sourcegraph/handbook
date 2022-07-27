@@ -89,7 +89,7 @@ To use the template, copy the above file and paste it in the appropriate year fo
 
 <hr />
 
-To ensure uniformity between commonly used content items, please use the following components where appropriate. These are setup to accommodate screen responsiveness, accessibility concerns, and our brand spacing and theme designs.
+To ensure uniformity between commonly used content items, please use the following components where appropriate. These are setup to accommodate screen responsiveness, accessibility concerns, and meet our brand guidelines.
 
 1. Alert
 2. Blockquote
