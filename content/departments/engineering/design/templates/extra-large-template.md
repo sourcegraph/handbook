@@ -1,22 +1,25 @@
-# Design Template: Large
+# Design Template: Extra Large
 
-- Estimate: Two weeks to a month
+- Estimate: More than a month
 - Notes:
 
-  - When creating the issue, use the label design-estimated-L
+  - When creating the issue, use the label design-estimated-XL
+  - All phases for this project should involve a higher level of fidelity. Exampoles include additional test participants, multiple versions of designs and more revision and refinement than designs for smaller projects.
   - Ideally, design should be given sufficient time in the problem space to explore and research.
   - Design should be happening at least one iteration before engineering is planned. If user testing is required before or after design, this should be factored into the design time.
   - These efforts require close collaboration with the Product Manager to scope and define the user problems being solved.
 
 ✂️ -------------------------
 ```markdown:
-  ## Design Template: Large
+  ## Design Template: Extra large
   - Estimate: Two weeks to a month
   - Weighting factors:
-    - [HIGH|MEDIUM|LOW] risk
+    - Note: a project of this size requires resources that increase it's risk profile.
+    - [HIGH|MEDIUM] risk
     - [HIGH|MEDIUM|LOW] clarity
 
   ### Discover
+  Extra large projects should entail more comprehensive research efforts.
   - [ ] RFC
   - [ ] Existing customer feedback - Link
     - [ ] NPS scores
@@ -42,12 +45,14 @@
   - [ ] Designer review
 
   ### Testing
+  Testing of these efforts should also be more comprehensive.
   - [ ] Hallway testing - Link
   - [ ] Usertesting.com task based evaluation - Link
-  - [ ] User testing with 2 customers - Link
+  - [ ] User testing with multiple customers - Link
 
   ### Deliver
   - [ ] Announce in #progress
+    - Consider announcing in a company meeeting
   - [ ] Loom - Link
   - [ ] Team review
   - [ ] Design team review

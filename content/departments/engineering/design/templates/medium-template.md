@@ -8,6 +8,7 @@
   - Design should be happening at least one iteration before engineering is planned. If user testing is required before or after design, this should be factored into the design time.
   - These efforts require close collaboration with the Product Manager to scope and define the user problems being solved.
 
+ ✂️ -------------------------
 ```markdown:
   ## Design Template: Medium
   - Estimate: Several days to two weeks
@@ -43,6 +44,7 @@
   - [ ] Usertesting.com task based evaluation - Link
 
   ### Deliver
+  - [ ] Announce in #progress
   - [ ] Loom - Link
   - [ ] Team review
   - [ ] Design team review
@@ -52,3 +54,4 @@
   - [ ] Metrics defined in the Figma file ([i](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/defining-metrics/)) - Link
   - [ ] Followup task will analyze metrics to ensure successful completion - Link
 ```
+✂️ -------------------------

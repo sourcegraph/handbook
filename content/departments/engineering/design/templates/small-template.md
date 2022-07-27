@@ -6,6 +6,7 @@
   - When creating the issue, use the label design-estimated-SM
   - Useful when design resources are short, but the project needs to be moved forward. In this case, a small, consultive effort may be undertaken, a problem is small enough to require only design guidance
 
+✂️ -------------------------
 ```markdown:
   ## Design Template: Small
   - Estimate: A days to a week
@@ -43,3 +44,4 @@
   - [ ] Metrics defined in the Figma file ([i](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/defining-metrics/)) - Link
   - [ ] Followup task will analyze metrics to ensure successful completion - Link
 ```
+✂️ -------------------------

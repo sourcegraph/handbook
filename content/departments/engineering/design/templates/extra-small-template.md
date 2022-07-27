@@ -3,10 +3,12 @@
 - Estimate: Less than a day
 - Notes:
 
+  - When creating the issue, use the label design-estimated-XS
   - Useful when solving clear, low risk, often lower value problems. Often a solution is provided by product or engineering.
 
+✂️ -------------------------
 ```markdown:
-  ## Design Template: Medium
+  ## Design Template: Extra small
   - Estimate: Several days to two weeks
   - Weighting factors:
     - [MEDIUM|LOW] risk
@@ -32,3 +34,4 @@
   - [ ] Metrics defined in the Figma file ([i](https://handbook.sourcegraph.com/departments/product-engineering/product/design/metrics/defining-metrics/)) - Link
   - [ ] Followup task will analyze metrics to ensure successful completion - Link
 ```
+✂️ -------------------------
