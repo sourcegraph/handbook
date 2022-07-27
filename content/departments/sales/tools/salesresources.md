@@ -7,7 +7,7 @@ Google drive is the main repository for sales resources and the sales folder can
 - [Sourcegraph W9](https://drive.google.com/u/0/uc?id=1sxASpL9AmPiUgMx2qE-yXLtwTlfHGyBW&export=download)
 - [Certificate of Incorporation](https://drive.google.com/u/0/uc?id=1q7AJT0k8Q5NJO5xN4v7iytaE3Gh6fYBb&export=download) (to add a customer's name to our COI, reach out to certificates@embroker.com with the customer's request and information and cc legal@sourcegraph.com)
 - [Insurance Certificate](https://drive.google.com/u/0/uc?id=1Zm2b7KvZS9yL3K6_KZBd4VapCRO4BoyJ&export=download)
-- [Miscellaneous corporate information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
+- [Corporate Information for Customer/Vendor/Partner Questionnaires](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/)
 
 Please reach out to finance if you require assistance in completing the vendor onboaring process for our new customers, or if you require any information that is not included above. You can forward any correspondence to finance@sourcegraph.com, or you can connect with the finance team on the #finance channel. Where a vendor directs you to complete vendor onboarding templates, or complete detail on a vendor onboarding portal, finance are happy to complete this exercise.
 
@@ -41,7 +41,7 @@ To update a template place the new template in the main Sales Template folder, n
 - [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
 - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
-- [Template Customer Contract FAQs](https://docs.google.com/document/d/1dSL38Iaw2qi7NEK2RlSS8xF9TxT_ydcm4_YA3X4PVMA/edit?usp=sharing)
+- [Template Customer Contract FAQs](https://docs.google.com/document/d/1UwUKdnAKsvDyxh5BXchR4ZwglghDV6vvPjmYOj8p4Fs/edit?usp=sharing)
 - [GDPR Prospecting Guidelines](https://docs.google.com/document/d/1p1w7YYWoOkiSBbCZBeTJZUkst8vX8GnG1jivtQ9wYBo/edit)
 
 ## Customer Notes

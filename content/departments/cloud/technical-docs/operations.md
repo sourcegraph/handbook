@@ -173,7 +173,7 @@ To increase the disk size:
    git push origin HEAD
    ```
 
-1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/working-with-persistent-disks#resize_pd) to resize the block storage. In most cases, the commands will look like:
+1. Follow the [GCP instructions](https://cloud.google.com/compute/docs/disks/resize-persistent-disk) to resize the block storage. In most cases, the commands will look like:
 
    ```sh
    ../util/ssh-exec.sh "sudo resize2fs /dev/sdb"
@@ -369,6 +369,15 @@ git prune && git fetch # check for errors
        - SRC_ENABLE_SG_MAINTENANCE=false
        - SRC_ENABLE_GC_AUTO=true
    ```
+
+### Investigate VM platform logs
+
+Navigate to GCP Logging in the right project, use the following query. This is helpful to figure out automated operation against our VM instances.
+
+```
+resource.type="gce_instance"
+protoPayload.authenticationInfo.principalEmail="system@google.com"
+```
 
 ## Disaster Recovery and Business Continuity Plan
 

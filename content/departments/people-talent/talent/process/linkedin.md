@@ -54,7 +54,7 @@ If a teammate requests a recruiter seat, any member of the talent team can provi
 
     - Format: TeamOrOrgName_TitleofRole_DateOfOpening (DD/MM/YYYY)
       - Example 1: Delivery_SeniorSoftwareEngineer_16/2/2022
-      - Example 2: Product_TechnicalWriter_24/1/2022
+      - Example 2: Product_ProductManager_24/1/2022
 
   - **Step 3**: Under **Project Settings > Project Details**, the Recruiter or Sourcer will add relevant information gathered from the intake call such as scope of work, ideal experience, etc. This is to create a point of reference for project collaborators.
 
