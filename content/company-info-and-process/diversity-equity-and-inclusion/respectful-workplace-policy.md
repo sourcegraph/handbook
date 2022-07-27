@@ -4,17 +4,13 @@
   <tr>
    <td><strong>Policy Owner</strong>:<strong> </strong>Legal
    </td>
-   <td><strong>Effective Date: </strong>July 27, 2022
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Policy Authors: </strong>Collette Tesauro
-   </td>
    <td><strong>Last Revised: </strong>July 27, 2022
    </td>
   </tr>
   <tr>
-   <td colspan="2" ><strong>Approved By: </strong>Carly Jones, VP Talent & People; Tammy Zhu, Head of Legal
+   <td><strong>Policy Authors: </strong>Senior Legal Counsel, Privacy & Employment
+   </td>
+   <td><strong>Approved By: </strong>VP Talent & People & Head of Legal
    </td>
   </tr>
 </table>
