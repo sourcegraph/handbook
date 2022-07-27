@@ -87,19 +87,25 @@ Access the template in the About repository: [`/content/blogposts/blog-post-star
 
 To use the template, copy the above file and paste it in the appropriate year folder (i.e. `content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly, all available standardized components are ready to be changed right in this file!
 
+<hr />
+
+To ensure uniformity between commonly used content items, please use the following components where appropriate. These are setup to accommodate screen responsiveness, accessibility concerns, and our brand spacing and theme designs.
+
+1. Alert
+2. Blockquote
+3. Figure
+4. TableWrapper
+5. Video
+6. YouTube, and;
+7. HubSpotForm
+
+> NOTE: **Please reference the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack) for use case examples.**
+
+<hr />
+
 ## Adding images
 
-Please use a `Figure` component to add images to your post. Optionally, you can include a `caption` to display a description below the image.
-
-<!-- prettier-ignore -->
-```html
-<Figure
-  src="https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png"
-  alt="Sourcegraph thumbnail"
-  caption="The Sourcegraph logo"
-  link="https://https://sourcegraph.com/search.com"
-/>
-```
+Please use a `<Figure />` component to add images to your post. See
 
 Please do not add images using `img` tags or `![text](image.png)` methods.
 
@@ -132,92 +138,6 @@ Please do not add images using `img` tags or `![text](image.png)` methods.
     </ul>
   </div>
 </div>
-
-## Adding a video hosted on YouTube
-
-Please use the `YouTube` component to embed YouTube videos into your post.
-
-<!-- prettier-ignore -->
-```html
-<YouTube
-  title="Accelerate developer onboarding with Sourcegraph"
-  id="DgwvhRW1Cbc"
-  showTitle={true}
-/>
-```
-
-## Adding a video file or screen recording
-
-You can read about [embedding GIFs and videos](process/adding_screenshots_screen_recording.md) here.
-
-To add a video file to your post, first add the `.webm` and `mp4 versions to Google Cloud, then include them in a `Video` component.
-
-<!-- prettier-ignore -->
-```html
-<Video
-  source={{webm: 'blog/video-title', mp4: 'blog/video-title'}}
-  loop={true}
-  title="Code reuse"
-  caption="An example of code search with Sourcegraph"
-  showCaption={true}
-/>
-```
-
-## Adding an alert
-
-Use an `Alert` to highlight an important piece of information. By default, the background color is purple. To change the background color of the `Alert`, include the `type` property with one of the following options: `primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light`, or `dark`.
-
-<!-- prettier-ignore -->
-```html
-<Alert>This Alert is purple!</Alert>
-<Alert type="warning">This Alert is yellow!</Alert>
-<Alert type="success">This Alert is green!</Alert>
-```
-
-## Adding a blockquote
-
-Showcase a quote using `BlockquoteWithBorder`. You may also include a `headline` above the quote for context.
-
-<!-- prettier-ignore -->
-```html
-<BlockquoteWithBorder
-  quote="Onboard to a new codebase, find answers faster, and identify security risks with universal code search."
-  author="Sourcegraph"
-  headline="Search your code. All of it."
-/>
-```
-
-## Adding a table
-
-Tables can be written in Markdown or HTML. When preparing a table, please include the `TableWrapper` component to ensure that the table adapts to different screen sizes.
-
-<!-- prettier-ignore -->
-```html
-<TableWrapper>
-| Planet     | Orbital speed (km/s) |
-|------------|----------------------|
-| Mercury    | 47.4                 |
-| Venus      | 35.0                 |
-| Earth      | 29.8                 |
-</TableWrapper>
-```
-
-## Adding a HubSpot form
-
-Use the `HubSpotForm` component to drop a custom HubSpot form into your post. In most cases, the `masterFormName` and `chiliPiper` props are the only properties that need to be updated. Once added to your post, the HubSpot form will render in its place. All the options for this component are:
-
-- `formId` - an optional form ID if the form doesn't fall under one of our [master forms](https://docs.google.com/document/d/1qa393uAW_tjwNtH9jHf_d__PCJgmbsxNoxi9cO4XOcE/edit)
-- `masterFormName` - an optional master form name; `contactMulti`, `contactEmail`, `gatedMulti`, or `gatedEmail` for general contact forms and gated forms that have multi fields or an email field
-- `onFormSubmitted` - an optional callback function for triggering an action after a form is submitted
-- `inlineMessage` - an optional message to display after a form is submitted. We have a [generic fallback](https://github.com/sourcegraph/about/blob/main/src/components/HubSpotForm.tsx#L288) if none is provided.
-- `chiliPiper` - an optional boolean (`true`/`false`) to enable Chili Piper. This is false by default.
-
-```
-  <HubSpotForm
-    masterFormName="contactEmail"
-    chiliPiper={true}
-  />
-```
 
 ## Previewing your blog post
 
