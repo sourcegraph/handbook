@@ -12,8 +12,8 @@
   ## Design Template: Large
   - Estimate: Two weeks to a month
   - Weighting factors:
-    - [HIGH|MEDIUM|LOW] impact
-    - [HIGH|MEDIUM|LOW] certainty of solution
+    - [HIGH|MEDIUM|LOW] risk
+    - [HIGH|MEDIUM|LOW] clarity
 
   ### Discover
   - [ ] RFC

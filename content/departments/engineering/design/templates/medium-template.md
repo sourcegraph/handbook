@@ -13,8 +13,8 @@
   - Estimate: Several days to two weeks
   - Weighting factors:
     - Note: A small issue should not be high impact and high certainty.
-    - [HIGH|MEDIUM|LOW] impact
-    - [HIGH|MEDIUM|LOW] certainty of solution
+    - [HIGH|MEDIUM|LOW] risk
+    - [HIGH|MEDIUM|LOW] clarity
 
   ### Discover
   - [ ] RFC

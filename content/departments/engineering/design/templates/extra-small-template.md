@@ -9,8 +9,8 @@
   ## Design Template: Medium
   - Estimate: Several days to two weeks
   - Weighting factors:
-    - [MEDIUM|LOW] impact
-    - [HIGH|MEDIUM] certainty of solution
+    - [MEDIUM|LOW] risk
+    - [HIGH|MEDIUM] clarity
 
   ### Discover
   - [ ] Product and/or engineering provide direction and/or feedback
