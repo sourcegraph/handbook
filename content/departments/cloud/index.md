@@ -134,9 +134,21 @@ Support SLAs for Sev 1 and Sev 2 can be found [here](../ce-support/support/index
 | Maintenance: Monthly Update to latest release | Updating an instance to the latest release             | NA                                            | Within 1 week after latest release            |
 | Maintenance: patch/emergency release Update   | Updating an instance with a patch or emergency release | NA                                            | Within 1 week after patch / emergency release |
 
-### Incident Response
+## Incident Response
 
 Incidents which affect managed instances are handled according to our [incidents](../engineering/dev/process/incidents/index.md) process.
+
+## Accessing/Debugging Managed Instances
+
+| Action                      | Who can do it                                         | Description                                                                                                                                                                                                           | How                                                                                                                                                                |
+| --------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Reload config               | CE/CS                                                 | Reload MI site config (restart frontend)                                                                                                                                                                              | [restart frontend](#faq-how-do-i-restart-the-frontend-after-changing-the-site-config)                                                                              |
+| View GCP project metrics    | Cloud/Security/All SG employees via policy attachment | Access to all MI metrics aggregate in single project                                                                                                                                                                  | [GCP scoped dashboard](https://console.cloud.google.com/monitoring/dashboards/builder/5b5a0be8-d90b-42d8-9271-46366d8af285?project=sourcegraph-managed-monitoring) |
+| View GCP project logs       | Cloud/Security/All SG employees via policy attachment | Access customer GCP project logs                                                                                                                                                                                      | [GCP logs](https://console.cloud.google.com/logs/query?project=sourcegraph-managed-demo) - change to proper customer name                                          |
+| GCP ssh, tunnel ports       | Cloud/CS                                              | Required for troubleshooting customer environment and perform pre-defined playbook                                                                                                                                    | [mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations) or [gcloud](https://cloud.google.com/sdk/docs/install)commands                                   |
+| Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations) or [gcloud](https://cloud.google.com/sdk/docs/install) commands                                  |
+| Login to customer MI web UI | Cloud/CE                                              | Login to customer web UI (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug                                                                 | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                     |
+| Login to customer Grafana   | Cloud/CE                                              | Login to customer [Grafana](https://devmanaged.sourcegraph.com/-/debug/grafana/?orgId=1) (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                     |
 
 ## How we work
 
@@ -185,3 +197,18 @@ Are you a member of our CE & CS teams?
 - Done! It shouldn't take more than 2 minutes
 
 <div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+### FAQ: How to use mg cli for Managed Instances operations?
+
+```sh
+git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
+cd deploy-sourcegraph-managed
+echo "export \$MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+mkdir -p ~/.bin
+export GOBIN=$HOME/.bin
+echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+make install
+mg --help
+```
+
+> NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` will be used from specific directory.
