@@ -250,8 +250,5 @@ Fixing, editing, and updating a blog post on [about.sourcegraph.com](https://abo
 This video shows the process from start to finish, although only those with repository push access will be able to squash and merge the change. Find a blogpost file in [About's repository](https://github.com/sourcegraph/about/tree/main/content/blogposts), the slug and file name are usually the same. Edit and preview the markdown in GitHub. Create a pull request from the browser. The change can be previewed again in staging, accessible from the `deploy/netlify` **Details** button.
 
 <div className="container">
-  <video loop autoplay muted playsinline>
-    <source src="https://sourcegraphstatic.com/handbook/edit-blogpost-demo.webm" type="video/webm" />
-    <source src="https://sourcegraphstatic.com/handbook/edit-blogpost-demo.mp4" type="video/mp4" />
-  </video>
+  <iframe src="https://www.youtube-nocookie.com/embed/0kQDard1GEY" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} frameBorder="0" webkitAllowFullscreen="" mozAllowFullScreen="" allowFullScreen="" />
 </div>
