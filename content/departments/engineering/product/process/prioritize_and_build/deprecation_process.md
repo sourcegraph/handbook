@@ -25,7 +25,7 @@ Be sure to talk to the the parties above and ensure you really understand the im
 
 Once the decision to deprecate a product or feature has been made, below is a recommend set of actions to ensure
 
-1. **Determine if you need an exception process.** Some features may require extended migration periods to allow customers
+1. **Determine if you need an exception process.** Some features may require extended migration periods to allow customers extended time to fully adopt a new solution.
 2. **Craft the message & build the internal enablement document.** This document should include frequently asked questions, timelines, impacted customers, DRIs, and any other relevant information.
 3. **Share the message internally.** You will know what channel is best but generally it is recommended to share in #eng-announce at a minimum. Please lean towards over-sharing in these cases to ensure everyone has a chance to see the message.
 4. **Identify a technical DRI to document the technical steps required.** Ideally, this is the person who writes the plan, will be the one executing on the plan the day of the deprecating.
