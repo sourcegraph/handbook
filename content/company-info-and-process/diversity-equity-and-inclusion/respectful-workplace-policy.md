@@ -1,6 +1,5 @@
 # Global Respectful Workplace and Harassment, Discrimination and Bullying Prevention Policy
 
-
 <table>
   <tr>
    <td><strong>Policy Owner</strong>:<strong> </strong>Legal
@@ -20,7 +19,6 @@
   </tr>
 </table>
 
-
 ## Purpose
 
 Sourcegraph is committed to ensuring everyone within Sourcegraph, and who interacts with Sourcegraph Teammates, feels welcomed and included regardless of their background. The purpose of this **Global Respectful Workplace Policy** (the “**Policy**”) is to be clear about the way all Teammates should treat each other and third parties who interact with Sourcegraph, and the remedies available in the event anyone feels they are not being treated with respect. **Sourcegraph treats allegations of harassment, discrimination and bullying seriously. **
@@ -29,9 +27,9 @@ All Teammates are owners of this policy, and it is every Teammate's responsibili
 
 ## Scope
 
-* **Who is Covered:** This Policy applies to all Teammates globally (full-time, part-time, temporary, and independent contractors). It also applies to interactions between Sourcegraph Teammates and any third-parties (applicants, customers, vendors, suppliers, and partners).
+- **Who is Covered:** This Policy applies to all Teammates globally (full-time, part-time, temporary, and independent contractors). It also applies to interactions between Sourcegraph Teammates and any third-parties (applicants, customers, vendors, suppliers, and partners).
 
-* **Sourcegraph’s Workplace:** As a globally-mobile, remote-first company, Sourcegraph’s workplace exists beyond the physical space where you work. Harassment, discrimination and bullying are prohibited in any location where you are working or Sourcegraph business is being conducted, where you are interacting with work colleagues, and where you are interacting with third parties in the scope of your (or their) work for or with Sourcegraph. This includes team and company offsites, conferences, customer/vendor meetings, and virtual spaces like Slack, text and email, among others. All of these places are considered the “**Workplace**” under this Policy.
+- **Sourcegraph’s Workplace:** As a globally-mobile, remote-first company, Sourcegraph’s workplace exists beyond the physical space where you work. Harassment, discrimination and bullying are prohibited in any location where you are working or Sourcegraph business is being conducted, where you are interacting with work colleagues, and where you are interacting with third parties in the scope of your (or their) work for or with Sourcegraph. This includes team and company offsites, conferences, customer/vendor meetings, and virtual spaces like Slack, text and email, among others. All of these places are considered the “**Workplace**” under this Policy.
 
 ## Prohibited Conduct Under This Policy
 
@@ -41,101 +39,101 @@ The following sections define the categories of conduct prohibited by this Polic
 
 Sourcegraph prohibits harassment of any kind, including sexual harassment, and will take appropriate and immediate action in response to good faith complaints or knowledge of alleged Policy violations.
 
-* **What is harassment?**
+- **What is harassment?**
 
-   Harassment includes all inappropriate and disrespectful conduct that creates an intimidating, hostile, degrading, humiliating or offensive environment, or otherwise unreasonably interferes with work performance. Harassment also includes any conduct designed to threaten, intimidate, or coerce. Any conduct considered harassment under local law is prohibited by this Policy.
+  Harassment includes all inappropriate and disrespectful conduct that creates an intimidating, hostile, degrading, humiliating or offensive environment, or otherwise unreasonably interferes with work performance. Harassment also includes any conduct designed to threaten, intimidate, or coerce. Any conduct considered harassment under local law is prohibited by this Policy.
 
-   Prohibited harassment includes any unequal treatment of an individual in any aspect of employment based solely or in part on the individual’s protected category. **Protected categories** include: race, color, religion, religious creed (including religious dress and grooming practices), national origin, ancestry, citizenship, physical or mental disability, medical condition (including cancer and genetic characteristics), genetic information, marital status, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), gender, gender identity, gender expression, age, sexual orientation, veteran and/or military status, protected medical leaves (requesting or approved for leave under the Family and Medical Leave Act, the California Family Rights Act, or other local family leave law), domestic violence victim status, political affiliation, and any other status protected by state or country law.
+  Prohibited harassment includes any unequal treatment of an individual in any aspect of employment based solely or in part on the individual’s protected category. **Protected categories** include: race, color, religion, religious creed (including religious dress and grooming practices), national origin, ancestry, citizenship, physical or mental disability, medical condition (including cancer and genetic characteristics), genetic information, marital status, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), gender, gender identity, gender expression, age, sexual orientation, veteran and/or military status, protected medical leaves (requesting or approved for leave under the Family and Medical Leave Act, the California Family Rights Act, or other local family leave law), domestic violence victim status, political affiliation, and any other status protected by state or country law.
 
-* **What is sexual harassment?**
+- **What is sexual harassment?**
 
-   Sexual harassment is harassment specifically based on sex or gender, and includes unwelcome verbal or physical conduct that is sexual in nature. Conduct can constitute sexual harassment even when it’s not motivated by sexual desire and regardless of the individuals’ gender or gender expression. It is irrelevant whether the victim is the same sex as the harasser or not. Conduct may constitute sexual harassment regardless of the individuals’ positions within Sourcegraph.
+  Sexual harassment is harassment specifically based on sex or gender, and includes unwelcome verbal or physical conduct that is sexual in nature. Conduct can constitute sexual harassment even when it’s not motivated by sexual desire and regardless of the individuals’ gender or gender expression. It is irrelevant whether the victim is the same sex as the harasser or not. Conduct may constitute sexual harassment regardless of the individuals’ positions within Sourcegraph.
 
-   Sexual harassment is generally categorized into two types: **Quid Pro Quo** and **Hostile Work Environment**.
+  Sexual harassment is generally categorized into two types: **Quid Pro Quo** and **Hostile Work Environment**.
 
-    * <span style="text-decoration:underline;">Quid Pro Quo</span> (“this for that”) sexual harassment exists when submission to sexual conduct is made explicitly or implicitly a term or condition of an individual’s employment or eligibility for an employment-related benefit, or when submission to or rejection of sex-related conduct by an individual is used as the basis for employment decisions affecting the individual.
-    * <span style="text-decoration:underline;">Hostile Work Environment</span> sexual harassment exists when workplace conduct of a sexual nature or based on a person’s sex unreasonably interferes with an individual’s work performance and/or creates an intimidating, hostile or otherwise offensive work environment.
+  - <span style="text-decoration:underline;">Quid Pro Quo</span> (“this for that”) sexual harassment exists when submission to sexual conduct is made explicitly or implicitly a term or condition of an individual’s employment or eligibility for an employment-related benefit, or when submission to or rejection of sex-related conduct by an individual is used as the basis for employment decisions affecting the individual.
+  - <span style="text-decoration:underline;">Hostile Work Environment</span> sexual harassment exists when workplace conduct of a sexual nature or based on a person’s sex unreasonably interferes with an individual’s work performance and/or creates an intimidating, hostile or otherwise offensive work environment.
 
-* **Conduct constituting harassment:**
+- **Conduct constituting harassment:**
 
-   Conduct constituting harassment, including sexual harassment, can be verbal or nonverbal, and may include the following examples (these examples are **_not exhaustive_** and other conduct may constitute harassment violating this Policy):
+  Conduct constituting harassment, including sexual harassment, can be verbal or nonverbal, and may include the following examples (these examples are **_not exhaustive_** and other conduct may constitute harassment violating this Policy):
 
-    * Racial slurs, derogatory remarks about a person’s accent, display of racially-offensive symbols;
-    * Derogatory, demeaning or insensitive comments, jokes, pranks or remarks;
-    * Displaying or distributing offensive posters, symbols, cartoons, drawings, computer displays or emails;
-    * Physically threatening another person, blocking someone’s way, and unwelcome physical conduct (whether or not sexual);
-    * Unwelcome sexual advances or requests for dates, kissing, groping or massaging;
-    * Non-verbal behavior such as leering, whistling, and inappropriate gestures;
-    * Unreasonably or unjustifiably excluding someone from normal workplace conversations or interactions, and making them feel unwelcome;
-    * Intimidating, bullying or threatening;
-    * Offensive comments about appearance or other personal or physical characteristics, such as sexually charged comments or comments on someone’s physical disability, race, ethnicity, age, or other characteristic;
-    * Innuendos or veiled threats;
-    * Threats or demands that a person submit to sexual requests as a condition of continued employment or to avoid some other negative consequence, and offers of work-related benefits in return for sexual favors; and
-    * Any other conduct that shows hostility toward, disrespect for, or mistreatment of a person or class of people.
+  - Racial slurs, derogatory remarks about a person’s accent, display of racially-offensive symbols;
+  - Derogatory, demeaning or insensitive comments, jokes, pranks or remarks;
+  - Displaying or distributing offensive posters, symbols, cartoons, drawings, computer displays or emails;
+  - Physically threatening another person, blocking someone’s way, and unwelcome physical conduct (whether or not sexual);
+  - Unwelcome sexual advances or requests for dates, kissing, groping or massaging;
+  - Non-verbal behavior such as leering, whistling, and inappropriate gestures;
+  - Unreasonably or unjustifiably excluding someone from normal workplace conversations or interactions, and making them feel unwelcome;
+  - Intimidating, bullying or threatening;
+  - Offensive comments about appearance or other personal or physical characteristics, such as sexually charged comments or comments on someone’s physical disability, race, ethnicity, age, or other characteristic;
+  - Innuendos or veiled threats;
+  - Threats or demands that a person submit to sexual requests as a condition of continued employment or to avoid some other negative consequence, and offers of work-related benefits in return for sexual favors; and
+  - Any other conduct that shows hostility toward, disrespect for, or mistreatment of a person or class of people.
 
-   “I was joking”, “I didn’t mean it that way”, “this is acceptable where I come from”, “no one has ever complained about this before” and other similar rationalizations are **<span style="text-decoration:underline;">not</span>** excuses for harassment, nor is being under the influence of alcohol or other substances.
+  “I was joking”, “I didn’t mean it that way”, “this is acceptable where I come from”, “no one has ever complained about this before” and other similar rationalizations are **<span style="text-decoration:underline;">not</span>** excuses for harassment, nor is being under the influence of alcohol or other substances.
 
 ### Discrimination
 
 Sourcegraph prohibits discrimination of any kind and will take appropriate and immediate action in response to good faith complaints or knowledge of violations of this Policy.
 
-* **What is discrimination?**
+- **What is discrimination?**
 
-   Discrimination is the unfair denial of equal treatment and opportunity to individuals or groups, with respect to the terms, conditions, or privileges of employment, including discrimination based solely or in part on the individual’s protected category. Terms, conditions and privileges of employment may affect all aspects of employment, including but not limited to: hiring, firing, promoting, disciplining, scheduling, training, or deciding compensation. Any conduct considered discrimination under local law is prohibited by this Policy.
+  Discrimination is the unfair denial of equal treatment and opportunity to individuals or groups, with respect to the terms, conditions, or privileges of employment, including discrimination based solely or in part on the individual’s protected category. Terms, conditions and privileges of employment may affect all aspects of employment, including but not limited to: hiring, firing, promoting, disciplining, scheduling, training, or deciding compensation. Any conduct considered discrimination under local law is prohibited by this Policy.
 
 ### Bullying and Abusive Conduct
 
 Sourcegraph prohibits bullying and abuse of any kind and will take appropriate and immediate action in response to good faith complaints or knowledge of Policy violations.
 
-* **What is bullying and abusive conduct?**
+- **What is bullying and abusive conduct?**
 
-   Bullying and abusive conduct includes behavior that creates a risk to health and safety of others, including both physical and psychological safety. Bullying and abusive behaviors may take different forms and may be obvious or subtle. In order for conduct to rise to the level of bullying or abusive, it typically must be (1) malicious; (2) unwanted; (3) repetitive; (4) unreasonable; and (5) outside the scope of the company’s legitimate interests. Examples of workplace bullying may include the following:
+  Bullying and abusive conduct includes behavior that creates a risk to health and safety of others, including both physical and psychological safety. Bullying and abusive behaviors may take different forms and may be obvious or subtle. In order for conduct to rise to the level of bullying or abusive, it typically must be (1) malicious; (2) unwanted; (3) repetitive; (4) unreasonable; and (5) outside the scope of the company’s legitimate interests. Examples of workplace bullying may include the following:
 
-    * Intimidating or undermining Teammates by demeaning their work standards, not giving them credit, setting them up for failure and constantly reminding them of old mistakes;
-    * Threatening Teammates’ personal self-esteem and work status;
-    * Unreasonably excluding or isolating Teammates from opportunities, information and interaction with others;
-    * Sending aggressive communications; and
-    * Any other malicious, abusive and repeated actions that are not within the company’s legitimate interests and contribute to creating a work environment that is not suitable for a reasonable person to perform their duties.
+  - Intimidating or undermining Teammates by demeaning their work standards, not giving them credit, setting them up for failure and constantly reminding them of old mistakes;
+  - Threatening Teammates’ personal self-esteem and work status;
+  - Unreasonably excluding or isolating Teammates from opportunities, information and interaction with others;
+  - Sending aggressive communications; and
+  - Any other malicious, abusive and repeated actions that are not within the company’s legitimate interests and contribute to creating a work environment that is not suitable for a reasonable person to perform their duties.
 
-      These examples are **_not exhaustive_** and other conduct may constitute bullying or abusive conduct in violation of this Policy. Any conduct considered bullying under local law is prohibited by this Policy.
+    These examples are **_not exhaustive_** and other conduct may constitute bullying or abusive conduct in violation of this Policy. Any conduct considered bullying under local law is prohibited by this Policy.
 
 ### Retaliation
 
 Sourcegraph prohibits retaliation of any kind and will take appropriate and immediate action in response to good faith complaints or knowledge of Policy violations.
 
-* **What is retaliation?**
+- **What is retaliation?**
 
-   Retaliation is any adverse employment action taken against a Teammate because the Teammate engaged in activity protected under this Policy or applicable law. **Protected activities** may include (but are not limited to): reporting or assisting in reporting suspected Policy violations, cooperating in investigations or proceedings arising out of a violation of this Policy, or exercising a right under this Policy or applicable law.
+  Retaliation is any adverse employment action taken against a Teammate because the Teammate engaged in activity protected under this Policy or applicable law. **Protected activities** may include (but are not limited to): reporting or assisting in reporting suspected Policy violations, cooperating in investigations or proceedings arising out of a violation of this Policy, or exercising a right under this Policy or applicable law.
 
-* **What is an adverse employment action?**
+- **What is an adverse employment action?**
 
-   Adverse employment actions include conduct that materially affects the terms and conditions of an individual’s employment status or is reasonably likely to deter a Teammate from engaging in a protected activity. Whether something constitutes an adverse employment action is considered based on the totality of the circumstances.
+  Adverse employment actions include conduct that materially affects the terms and conditions of an individual’s employment status or is reasonably likely to deter a Teammate from engaging in a protected activity. Whether something constitutes an adverse employment action is considered based on the totality of the circumstances.
 
 ## Expectations for Managers & Supervisors
 
 As leaders in the company, managers and supervisors set the tone for Sourcegraph’s culture and play a critical role in ensuring all Teammates experience a respectful workplace. In addition to [the obligation to report incidents](#people-manager--supervisor-reporting-obligations), all Sourcegraph managers and supervisors must:
 
-* Foster a respectful work environment for your team(s), free of discrimination, harassment and bullying;
-* Read, understand and comply with this Policy and ensure your team understands and complies with this Policy;
-* Ensure that your team knows how to report complaints of known or suspected Policy violations;
-* Reinforce Sourcegraph’s [commitment to No Retaliation](#no-retaliation), including by encouraging and supporting your team in making reports or participating in investigations, and never engaging in any form of retaliation;
-* Treating all Teammates fairly and reasonably, even if you know or believe they have made a complaint (and even if that complaint may be about you);
-* If necessary, take action to stop ongoing harassment, discrimination or bullying; and
-* Avoid investigating reports on your own – instead, promptly notify HR or Legal.
+- Foster a respectful work environment for your team(s), free of discrimination, harassment and bullying;
+- Read, understand and comply with this Policy and ensure your team understands and complies with this Policy;
+- Ensure that your team knows how to report complaints of known or suspected Policy violations;
+- Reinforce Sourcegraph’s [commitment to No Retaliation](#no-retaliation), including by encouraging and supporting your team in making reports or participating in investigations, and never engaging in any form of retaliation;
+- Treating all Teammates fairly and reasonably, even if you know or believe they have made a complaint (and even if that complaint may be about you);
+- If necessary, take action to stop ongoing harassment, discrimination or bullying; and
+- Avoid investigating reports on your own – instead, promptly notify HR or Legal.
 
 ## Reporting Suspected Misconduct Under this Policy
 
 The company’s ability to maintain a respectful workplace and prevent prohibited conduct is directly tied to our knowledge of conduct that may violate this Policy. Teammates who believe they have experienced or witnessed a Policy violation, or otherwise have a good faith belief that a Policy violation has occurred, are strongly encouraged to report such conduct. Reports may be made in any of the following ways:
 
-* directly to your manager;
-* directly to your People Partner (via email, Slack, or phone);
-* by emailing [People-ops@sourcegraph.com](mailto:People-ops@sourcegraph.com);
-* to [Legal@sourcegraph.com](mailto:Legal@sourcegraph.com); or
-* anonymously through [Convercent](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296) (more details on how to use Convercent [here](https://handbook.sourcegraph.com/company-info-and-process/communication/convercent/)).
+- directly to your manager;
+- directly to your People Partner (via email, Slack, or phone);
+- by emailing [People-ops@sourcegraph.com](mailto:People-ops@sourcegraph.com);
+- to [Legal@sourcegraph.com](mailto:Legal@sourcegraph.com); or
+- anonymously through [Convercent](https://app.convercent.com/en-US/LandingPage/384ff5dc-cf85-ec11-a988-000d3ab9f296) (more details on how to use Convercent [here](https://handbook.sourcegraph.com/company-info-and-process/communication/convercent/)).
 
 ### People Manager & Supervisor Reporting Obligations
 
-People managers and supervisors who become aware of an actual or likely violation of this Policy, or who receive a complaint or allegation of a violation of this Policy **<span style="text-decoration:underline;">must</span>** report the complaint to an appropriate member of the People Team or Legal, promptly and without delay.  A manager’s or supervisor’s failure to comply with this reporting obligation is considered a violation of this Policy and may be subject to discipline, up to and including termination of your professional relationship with Sourcegraph.
+People managers and supervisors who become aware of an actual or likely violation of this Policy, or who receive a complaint or allegation of a violation of this Policy **<span style="text-decoration:underline;">must</span>** report the complaint to an appropriate member of the People Team or Legal, promptly and without delay. A manager’s or supervisor’s failure to comply with this reporting obligation is considered a violation of this Policy and may be subject to discipline, up to and including termination of your professional relationship with Sourcegraph.
 
 ### Investigations
 
@@ -172,5 +170,3 @@ In the event of a conflict between this Policy and local laws, local laws contro
 ## Contact
 
 If you have any questions about this Policy, you can contact the People Team ([people-ops@sourcegraph.com](mailto:people-ops@sourcegraph.com)) or Legal ([legal@sourcegraph.com](mailto:legal@sourcegraph.com)).
-
-
