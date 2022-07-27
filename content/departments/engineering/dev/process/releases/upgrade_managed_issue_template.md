@@ -15,6 +15,7 @@ These [managed instances](../../../../cloud/index.md) upgrades are scheduled for
 
 To perform these upgrades, follow the [managed instances upgrade process](../../../../cloud/technical-docs/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
+For compliance, ensure that you link the upgrade pull requests to this issue.
 
 ---
 
