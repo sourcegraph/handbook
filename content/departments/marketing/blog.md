@@ -81,7 +81,7 @@ This section is called `frontmatter` and it provides the post's metadata. Import
 
 ## Using the Blog Post Starter Pack
 
-The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. It's important to use the components provided for tables, images, alerts, youtube videos, videos, and hubspot forms to ensure our blog posts are uniform in styling.
+The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. It's important to use the components provided for tables, images, alerts, youtube videos, external or self hosted videos, and HubSpot forms to ensure our blog posts are uniform in styling.
 
 Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md).
 
