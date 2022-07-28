@@ -1,8 +1,8 @@
-# Processes
+# Code Insights team processes
 
 There is no such thing as a team without processes, only teams with undocumented processes. Therefor, we prefer to document the way we do things, and evolve it over time!
 
-We share the [Developer Insights org's processes](../index.md#processes), plus the following for our team.
+We share the [Engineering processes](../index.md#processes), plus the following for our team.
 We use our [bi-weekly retrospective](#retrospectives) to identify any tweaks we should make that would improve our process.
 
 ## Weekly sync
@@ -22,13 +22,13 @@ The project is separated into multiple views: **Current iteration**, **Next iter
 We use an intentional list of statuses on our project board:
 
 - **No Status**: Status is not assigned. These issues need triage.
-- **Backlog**: we are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
-- **On deck**: these issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
-- **Proposed for iteration**: these are a select group of issues proposed for a specific iteration. They should have an iteration milestone attached. TODO @felix could we enforce that?
-- **Todo**: this is the small set of issues that are planned for our current iteration.
-- **In Progress**: issues currently being worked on in the iteration.
-- **In Review**: issues that have PRs in review.
-- **Done**: all closed issues, including "won't do" issues.
+- **Backlog**: We are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
+- **On deck**: These issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
+- **Proposed for iteration**: These are a select group of issues proposed for a specific iteration. They must have an iteration milestone attached.
+- **Todo**: This is the small set of issues that are planned for our current iteration.
+- **In Progress**: Issues currently being worked on in the iteration.
+- **In Review**: Issues that have PRs in review.
+- **Done**: All closed issues, including "won't do" issues.
 
 Our current process is as follows:
 
