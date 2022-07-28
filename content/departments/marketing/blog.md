@@ -43,7 +43,7 @@ Once your draft is approved, you're ready to add a blog post by creating a Markd
 
 To quickly convert your document into Markdown, you can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607). This is not required, but can save some time if you do not prefer to rewrite the content.
 
-If you do this, please add the **frontmatter** to the beginning of the file, frontmatter instructions can be found in the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack).
+If you do this, please add the **frontmatter** to the beginning of the file, frontmatter instructions can be found in the [Blog Post Starter Pack](#using-the-blog-post-starter-pack).
 
 ## Using the Blog Post Starter Pack
 
@@ -65,13 +65,13 @@ To ensure uniformity between commonly used content items, please use the followi
 6. YouTube, and;
 7. HubSpotForm
 
-> NOTE: **Reference the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack) for use case examples.**
+> NOTE: **Reference the [Blog Post Starter Pack](#using-the-blog-post-starter-pack) for use case examples.**
 
 <hr />
 
 ## Adding images
 
-Please use a `<Figure />` component to add images to your post. Find instructions in the [Blog Post Starter Pack](/departments/marketing/blog/#using-the-blog-post-starter-pack).
+Please use a `<Figure />` component to add images to your post. Find instructions in the [Blog Post Starter Pack](#using-the-blog-post-starter-pack).
 
 **Do not** add images using `img` tags or `![text](image.png)` methods.
 
