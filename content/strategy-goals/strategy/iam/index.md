@@ -14,7 +14,7 @@ Our main focus for FY23 is on significantly improving the admin experience. We m
 
 This also includes a number of non-customer facing improvements:
 
-- Fix paper cuts and hacks to improve the overall reliability of existing repo permissions syncing functionality 
+- Fix paper cuts and hacks to improve the overall reliability of existing repo permissions syncing functionality
 - Dramatically improve our automated integration and regression testing for everything we own to increase confidence in the quality of what we currently own and launch
 
 ## Past Quarters
