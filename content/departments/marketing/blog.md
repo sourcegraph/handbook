@@ -85,7 +85,7 @@ Please use a `<Figure />` component to add images to your post. Find instruction
 ### Uploading images
 
 - If you do not have a custom hero or social image, use this [default hero image](https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png).
-- Small images can be placed in the `/public/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
+- Small images can be placed in the `/public/blog` directory and have the url of `/blog/example-image.jpg` in your markdown. We also strongly encourage you to create a sub directory with the same slug as your post if you are including multiple files for your blog post. This keeps our assets organized per blog post. For example: `/blog/my-slug/image-name.png`, `/blog/my-slug/other-image-name.png`.
 - Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket. You can use the UI uploader at [https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog](https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog) or you can use the CLI with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/blog/myasset.png`.
   - Note: You may need to request permission to upload files to the GCP bucket. If you see an error message that additional permissions are required, you can ask for help in #it-tech-ops on Slack.
 - Please use lower case letters and hyphens instead of spaces in folder and image names:
