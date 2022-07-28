@@ -35,7 +35,7 @@ To create a Product Gap, navigate to the impacted customer(s) most recent Opport
 
 - Severity - P0: Dealbreaker, P1: Significant Pain Point, P2: Nice to Have
 - Use Case - _if relevant_ tie your submission to one or multiple core use cases to help with prioritization
-- Description
+- Description - include not just what the customer wants, but why – what problem does it solve for them? Is that problem a priority for them?
 - Impact
 - Workaround, if any
 
