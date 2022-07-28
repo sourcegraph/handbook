@@ -26,7 +26,7 @@ Within this area, in Q2 we are not working on:
 
 ### Problem Area: Improve Admin Analytics
 
-_Update_: The MVP of this work is planning to be launched in the July release of Sourcegraph (version 3.42).
+_Update_: The MVP of this work was launched as a part of [Sourcegraph 3.42](https://about.sourcegraph.com/blog/release/3.42).
 
 Today, Sourcegraph Admins do not have a clear understanding of how their team is using (or not using) Sourcegraph. This information is valuable to help administrators (1) convey the value of Sourcegraph to executives and (2) make key decisions required to do their job effectively, such as monitoring remaining licenses.
 
