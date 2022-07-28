@@ -10,3 +10,7 @@ For general observability development, please refer to the [observability develo
   - [Sourcegraph monitoring guide](monitoring.md)
     - [Monitoring pillars](monitoring_pillars.md)
     - [Monitoring architecture](./monitoring_architecture.md)
+
+### Learning more
+
+Are you interested in observability? Check out the [recommended learning resources](learning_resources.md) to pick up what modern observability is and its benefits.
