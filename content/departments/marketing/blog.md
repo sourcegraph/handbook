@@ -51,7 +51,7 @@ The Content Platform Team maintains a template Markdown file that exposes all of
 
 Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md).
 
-To use the template, copy the above file and paste it in the appropriate year folder (i.e. `/content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly, all available standardized components are ready to be changed right in this file!
+To use the template, copy the above file and paste it in the appropriate year folder (i.e. `/content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly. All available standardized components are ready to be changed right in this file!
 
 <hr />
 
