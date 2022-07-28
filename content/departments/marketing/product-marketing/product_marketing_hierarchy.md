@@ -6,4 +6,4 @@ Only L1 products that are Generally Available (GA) will have dedicated product l
 
 Our product hierarchy will be updated as we launch new products and features. Here is the current hierarchy as of 2021-05-09:
 
-![Product Hierarchy](https://storage.googleapis.com/sourcegraph-assets/Product%20Hierarchy.png)
+![Product Hierarchy](https://storage.googleapis.com/sourcegraph-assets/Product%20Hierarchy%20July22.jpg)
