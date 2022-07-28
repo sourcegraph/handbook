@@ -54,3 +54,4 @@ To work best with the teams and product stakeholders also involved in this work,
 
 1. [Github Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/58)
 1. [Strategic accounts list](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=1317478762)
+2. [Strategic account size tiers for support, planning, and scale testing](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107&range=B6)
