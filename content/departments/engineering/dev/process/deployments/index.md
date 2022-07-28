@@ -21,7 +21,6 @@ Additional resources:
 
 - [Playbooks](./playbooks.md)
 - [Azure DevOps](./azure_devops.md)
-- [RPO & RTO](./rto_rpo.md)
 - [Testing](./testing.md)
 - [Security](./security.md)
 
