@@ -28,12 +28,12 @@ Additional resources:
 
 Changes to [the main `sourcegraph/sourcegraph` repository](https://github.com/sourcegraph/sourcegraph) are automatically built as [images](#images).
 
-- [sourcegraph.com](instances.md#sourcegraph-dotcom) (or 'DotCom') is updated on a daily basis using the Sourcegraph developer tool, [sg](https://docs.sourcegraph.com/dev/background-information/sg/reference#sg-ops-update-images).
+- [sourcegraph.com](instances.md#dotcom) (or 'DotCom') is updated on a daily basis using the Sourcegraph developer tool, [sg](https://docs.sourcegraph.com/dev/background-information/sg/reference#sg-ops-update-images).
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) will deploy the changes via [ArgoCD](#argocd)
 
 ### Images
 
-Each Sourcegraph service is provided as a Docker image. Every commit to `main` in [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) pushes updated Docker images for all of our services to [Docker Hub](https://hub.docker.com/u/sourcegraph/) as part of our [CI pipeline](https://buildkite.com/sourcegraph/sourcegraph) (i.e. if CI is green, then Docker images have been pushed). Images are first built as "candidate" images that are pushed to GCR to with the tag format `<commit-hash>_<build-number>_candidate`. The pipeline then runs a series of tests and checks against the images. If all pipeline steps pass the images are "promoted" and pushed to DockerHub with the tag format `<build-number>_<date>_<commit-hash>`. These are used by [DotCom](instances.md#sourcegraph-cloud).
+Each Sourcegraph service is provided as a Docker image. Every commit to `main` in [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph) pushes updated Docker images for all of our services to [Docker Hub](https://hub.docker.com/u/sourcegraph/) as part of our [CI pipeline](https://buildkite.com/sourcegraph/sourcegraph) (i.e. if CI is green, then Docker images have been pushed). Images are first built as "candidate" images that are pushed to GCR to with the tag format `<commit-hash>_<build-number>_candidate`. The pipeline then runs a series of tests and checks against the images. If all pipeline steps pass the images are "promoted" and pushed to DockerHub with the tag format `<build-number>_<date>_<commit-hash>`. These are used by [DotCom](instances.md#dotcom).
 
 When [a new semver release](../releases/index.md) is cut the pipelines, will build a release image with the same tag as the latest [release version](https://github.com/sourcegraph/sourcegraph/tags) as well. These are used by customer deployments.
 
@@ -128,7 +128,7 @@ In order to mimic the same workflow that we tell our customers to follow:
 
 ## DotCom
 
-As [DotCom](instances.md#sourcegraph-dotcom) has matured into our public, free-to-use product its needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Dev Experience](../../../teams/dev-experience/index.md) team.
+As [DotCom](instances.md#dotcom) has matured into our public, free-to-use product its needs have diverged from the base `deploy-sourcegraph` repo it initially was a fork of. It no longer maintains `deploy-sourcegraph` as a remote and infrastructure and deployment changes are now manually merged in as-needed by the [Dev Experience](../../../teams/dev-experience/index.md) team.
 
 Similarly, the code-release process for sourcegraph.com has changed. Unlike customer instances, DotCom operates a release cycle where code changes are deployed once a day.
 
