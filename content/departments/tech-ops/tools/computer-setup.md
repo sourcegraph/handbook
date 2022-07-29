@@ -31,21 +31,21 @@ Please go [here](../../../benefits-pay-perks/benefits-perks/spending-company-mon
 
 ## What to do if you are waiting for your Sourcegraph computer to arrive
 
-Currently, we are experiencing extensive wait times to receive new laptops due to Apple logistics delays. If you are waiting for your Sourcegraph computer to arrive you can either:
+Currently, we are experiencing extensive wait times to receive new laptops due to Apple logistics delays. If you are waiting for your Sourcegraph computer to arrive you can do one of the following (listed in order of preference):
 
-1. Use your personal device as a temporary measure, as long as the minimum security measures can be instituted
 1. Request a loaner laptop - this is severely limited based on location and availability
+1. Use your personal device as a temporary measure, as long as the minimum security measures can be instituted
 1. Rent a laptop from a local provider, #it-tech-ops can pay for this service - this is also limited by location and availability
+
+## Requesting a loaner
+
+Tech Ops has a number of computers available to be allocated in the event you need one. Please reached out to the Tech Ops team in the #it-tech ops channel to request a device. As we are a global company not all situations can be accommodated through this process, however, Tech Ops is committed to ensuring you have access to the device you need to do your job and will work with you to find the right solution.
 
 ## Use of personal devices
 
 If you are a temporary contractor, waiting to receive a Sourcegraph computer, or if there has been some damage or circumstance where the machine is unavailable, you may use a personal device as a temporary solution provided that you either set up WS1 and Carbon Black or, at a minimum, set up our [standards](../process/internal-security/computer-standards.md) and have an antivirus installed on the device. Please reached out to the Tech Ops team in the #it-tech ops channel to get an invite to our antivirus software, Carbon Black.
 
 If you do work from your non-company device you would be acknowledging the risks associated with doing so. For example, if anything happens to the device (broken/stolen/etc) it would not be the responsibility of Sourcegraph to replace or fix it. If there were to be a breach and company data was compromised then the computer could be taken over by a forensic team and inspected.
-
-## Requesting a loaner
-
-Tech Ops has a number of previously used computers available to be allocated in the event you need one. Please reached out to the Tech Ops team in the #it-tech ops channel to request a device. As we are a global company not all situations can be accommodated through this process, however, Tech Ops is committed to ensuring you have access to the device you need to do your job and will work with you to find the right solution.
 
 ## Damaged computers
 
@@ -59,15 +59,19 @@ All devices being sent for repair need to be wiped of all data, this should be d
 
 ## Used computers
 
-If you have a device that you are having [upgraded](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#laptop-upgrade), or you are leaving the company you can either:
+If you have a device that you are having [upgraded](../../../benefits-pay-perks/benefits-perks/spending-company-money.md#laptop-upgrade) you can either:
 
 1. participate in our [buyback program](../process/buyback.md), where we will transfer ownership to you.
-2. return it to Sourcegraph, through ComputerCare, to be repurposed or recycled. To return it to Sourcegraph, please contact #it-tech-ops to open a ticket for you, we with the following information:
+2. return it to Sourcegraph.
+
+## Returning computers
+
+To return a Sourcegraph device that is no longer needed, please contact Tech Ops with the following information to assess the best method of returning the device:
 
 - Serial number of the device and specs of the device
 - Are there any issues with the laptop?
 - Would you like a box and a label shipped to you or just the label (this will be emailed)?
-- Address and phone number for the shipping
+- Address and phone number for shipping
 
 ## What if I have a business need for Windows or Linux
 
