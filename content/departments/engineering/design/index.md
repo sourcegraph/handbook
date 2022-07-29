@@ -69,10 +69,13 @@ These discovery and delivery phases can be as large or as small as needed for th
 
 We avoid siloed work as much as possible. Instead of design and development phases, each discipline is involved end-to-end, and it’s likely that one discipline will be more involved than the others at different moments along the way. Similarly, we avoid hard handoffs as much as possible. When the Discovery phase is complete, every team member should have a deep understanding and agreement around what will move forward into Delivery and is responsible for shipping the project outcome.
 
+[Design project templates](./templates/index.md) are used to help structure our efforts.
+
 ## Process
 
 - [Ways of working](./ways_of_working/index.md)
 - [Design artifacts](./artifacts/index.md)
+- [Project templates](./templates/index.md)
 - [Wildcard design system](./wildcard_design_system/index.md)
 - [Brand Guidelines](./brand_guidelines/)
 - [Analytics and product design](./metrics/index.md)
