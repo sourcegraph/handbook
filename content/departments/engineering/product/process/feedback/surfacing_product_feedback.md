@@ -4,6 +4,7 @@
 
 - Internal feedback should be shared in the #feedback-dogfood channel, and cross-posted (optional) in the relevant team's channel.
 - Any teammate can open an issue for consideration by a engineering team, and assign the team's label. Teams each have their own workflow for triaging issues, but use [common principles](../../../working-with-issues.md)
+- To determine which team the feedback applies to, consult [Engineering Ownership](../../../dev/process/engineering_ownership.md) (and update it if necessary!).
 
 ## Surfacing customer feedback
 
@@ -34,7 +35,7 @@ To create a Product Gap, navigate to the impacted customer(s) most recent Opport
 
 - Severity - P0: Dealbreaker, P1: Significant Pain Point, P2: Nice to Have
 - Use Case - _if relevant_ tie your submission to one or multiple core use cases to help with prioritization
-- Description
+- Description - include not just what the customer wants, but why – what problem does it solve for them? Is that problem a priority for them? (Tip: just ask "why?" repeatedly to get the answer.)
 - Impact
 - Workaround, if any
 
