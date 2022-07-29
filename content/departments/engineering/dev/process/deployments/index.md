@@ -167,7 +167,7 @@ The following fields are important in each event:
 
 - `service.name` denotes the type of the span (`deploy/$env`, `pull_request`, `service`)
 - `name` denotes an identifying string for the span in the context of `service.name` (e.g. pull request number, Sourcegraph service name)
-- `environment` denotes the deploy environment the span is related to (e.g. `preprod`, `cloud`)
+- `environment` denotes the deploy environment the span is related to (e.g. `prod`)
 
 Based on these traces, we can create dashboards to monitor the metrics related to how long changes take to roll out from the time a PR is merged, to each service in each environment.
 
