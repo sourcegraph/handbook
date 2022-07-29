@@ -191,3 +191,6 @@ We must notify the manager and update the start date in BambooHR. This is critic
 Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
 
 ## Rescinding offer
+When someone rescinds their offer, the Onboarding team needs to be informed as soon as possible. Considering onboarding involves many moving parts and teams, time is of the esense. The Onboarding team will notify Payroll, Tech Ops, the managers, and anyone else involved in the process.
+
+We also need to deactivate the user in BambooHR. Go to [this page](bamboohr.md#rescinded-offersacceptances) to follow the steps in BambooHR.
