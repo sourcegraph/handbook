@@ -11,5 +11,3 @@ Tech Ops will source the current trade-in or fair market value of the device and
 3. Submit payment (via check or Paypal)
 4. Sign a document accepting ownership of the device ‘as-is’
 5. Schedule a time with Tech Ops to perform the device wipe
-
-
