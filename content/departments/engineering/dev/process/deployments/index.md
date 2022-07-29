@@ -134,7 +134,7 @@ Similarly, the code-release process for sourcegraph.com has changed. Unlike cust
 
 ### Continuous Deployment Process
 
-Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to preprod within 10 minutes where a series of smoke tests will be performed. If successful, the images will be promoted and automatically promoted to production within 24 hours. If a manual or urgent change is needed, refer to the [Deploying a code change to DotCom](../../../teams/devops/deploy-code-change.md) document.
+Code committed to the `sourcegraph/sourcegraph@main` repo will automatically built and deployed to production within 24 hours. If a manual or urgent change is needed, refer to the [Deploying a code change to DotCom](../../../teams/devops/deploy-code-change.md) document.
 
 The automatic release process works as follows:
 
