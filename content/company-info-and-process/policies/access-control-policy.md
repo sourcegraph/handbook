@@ -8,11 +8,11 @@
 
 ## 1. Purpose
 
-The purpose of this policy is to limit access to information and information processing systems to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets as application of poor credentials in service and system can lead to disclosure of sensitive information and data breaches. Our intention in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose 
+The purpose of this policy is to limit access to information and information processing systems to authorized parties in order to protect our customers, employees, contractors, and other partners from harm caused by both deliberate and inadvertent misuse. Furthermore, this policy outlines Sourcegraph’s approach to credential management used for authentication on company assets as application of poor credentials in service and system can lead to disclosure of sensitive information and data breaches. Our intention in publishing this policy is to outline information security practices intended to protect Sourcegraph’s assets, not to impose
 
 ## 2. Scope
 
-This policy applies to all Sourcegraph full-time teammates, interns,  temporary contractors, and to all external parties with access to Sourcegraph systems.
+This policy applies to all Sourcegraph full-time teammates, interns, temporary contractors, and to all external parties with access to Sourcegraph systems.
 
 ## 3. Policy
 
@@ -23,8 +23,7 @@ Access to information and information processing systems is limited to employees
 ### Access Control Policy
 
 The level of access granted to individual Sourcegraph users should be based on the “principle of least privilege.” This principle states that users are only granted the level of access absolutely required to perform their job functions, and is dictated by Sourcegraph’s business and security requirements. Permissions and access rights not expressly granted should, by default, be prohibited.
-Sourcegraph’s primary method of assigning and maintaining consistent access controls and access rights is through the implementation of Role-Based Access Control (RBAC). Wherever feasible, rights and restrictions should  be allocated to groups. Individual user accounts may be granted additional permissions with a request stating “business need” and approval by the asset/system owner.
-
+Sourcegraph’s primary method of assigning and maintaining consistent access controls and access rights is through the implementation of Role-Based Access Control (RBAC). Wherever feasible, rights and restrictions should be allocated to groups. Individual user accounts may be granted additional permissions with a request stating “business need” and approval by the asset/system owner.
 
 ## 5. User Access Management
 
@@ -60,13 +59,14 @@ Control and management of individual user passwords is the responsibility of all
 
 ### Credentials Management Policy
 
-Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password. 
+Keep in mind that the passwords we choose contribute to the security of our Sourcegraph-managed systems and data. In addition to being users, many of us are also Administrators and so it is especially important to be thoughtful when selecting a password.
 
-Sourcegraph provides guidance for setting passwords to Sourcegraph-managed accounts. These are strongly recommended and will be enforced at the organizational level when available. 
+Sourcegraph provides guidance for setting passwords to Sourcegraph-managed accounts. These are strongly recommended and will be enforced at the organizational level when available.
 
 ## 7. System and Application Access
 
 ### Information Access Restriction
+
 Applications must restrict access to program functions and information to authorized users and support personnel in accordance with the defined Access Control policy. The level and type of restrictions applied by each application should be based on the individual application requirements, as identified by the asset/system owner. The application-specific access control policy must also conform to Sourcegraph policies regarding access controls and data management.
 
 Prior to implementation, evaluation criteria are to be applied to application software to determine the necessary access controls and data policies. Assessment criteria include, but are not limited to:
@@ -82,7 +82,7 @@ Prior to implementation, evaluation criteria are to be applied to application so
 
 ### Secure Log-on Procedures
 
-Secure log-on controls are used to prove the identity of user and should be  designed and selected in accordance with the sensitivity of data and the risk of unauthorized access It is prefered that all applications with sensitive data use an IdP provider for SSO (Okta and Google). In lieu of these options, MFA (multi factor authentication) should be enforced. 
+Secure log-on controls are used to prove the identity of user and should be designed and selected in accordance with the sensitivity of data and the risk of unauthorized access It is prefered that all applications with sensitive data use an IdP provider for SSO (Okta and Google). In lieu of these options, MFA (multi factor authentication) should be enforced.
 
 #### Multi Factor authentication (MF2) Procedures
 
@@ -96,7 +96,7 @@ All storage and transmission of passwords is to be protected using appropriate c
 
 ### Use of Privileged Utility Programs
 
-Use of utility programs (an application that performs computer management tasks such as virus protection, password management, file compression, etc.),or other software that might be capable of overriding system and application controls or altering system configurations must be restricted. 
+Use of utility programs (an application that performs computer management tasks such as virus protection, password management, file compression, etc.),or other software that might be capable of overriding system and application controls or altering system configurations must be restricted.
 
 Management approval is required prior to the installation or use of any ad hoc or third-party system utilities.
 
@@ -104,7 +104,7 @@ Management approval is required prior to the installation or use of any ad hoc o
 
 The risk to avoid is the introduction of new code in our open source Sourcegraph code by external people, therefore access to program source code and associated items, including designs, specifications, verification plans, and validation plans should be strictly controlled in order to prevent the introduction of unauthorized functionality into software, avoid unintentional changes, and protect Sourcegraph intellectual property.
 
-All access to private source code should follow our [Github Access & Permission Policy](https://docs.google.com/document/d/1PHu0LhiybXdBenivkZy5l3A9Pq300L_YH8s0lavxLcE/edit?usp=sharing). 
+All access to private source code should follow our [Github Access & Permission Policy](https://docs.google.com/document/d/1PHu0LhiybXdBenivkZy5l3A9Pq300L_YH8s0lavxLcE/edit?usp=sharing).
 
 ## 8. Exceptions
 
