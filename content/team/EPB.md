@@ -14,11 +14,6 @@ As Executive Business Partners, we are here to support and enable our executive 
 
 We support our executives with tasks such as scheduling, coordinating travel, organizing team and company wide events, taking notes at meetings, managing simultaneous projects and any other administrative tasks that help our executive team perform at their best.
 
-- [Executive Business Partner, VP Sales](https://docs.google.com/document/d/1Gv2RaGSUacZLCuTcHay4PWIcQCT3y0SAaLGdBbhBDRA/edit#)
-- [Executive Business Partner, VP Customer Engineering & Support](https://docs.google.com/document/d/14Wcq98zbKbnZXJb7J1JpE5btHCES4NWEV_YpWZEYYSU/edit#heading=h.pcm11zg42m96)
-- Executive Business Partner, VP Talent and People Ops
-- Manager, Sr. Executive Business Partner, CEO
-
 ## Scheduling with the Executive Team
 
 Ask yourself or the requestor of the meeting: can this be done async? If not, please reach out to the EBP of the executive you need to schedule for with an agenda, any time preferences, and length of the meeting.
