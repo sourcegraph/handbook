@@ -40,7 +40,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Who to go to
 
 - People support
-  - Who is my People Partner?
+  - [Who is my People Partner?](../people-ops/index.md#people-partner-alignment)
 - Recruiting support
   - [Who is my Recruiter?](process/teamalignment.md)
 - Anonymous support
@@ -60,7 +60,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - Our high performance culture
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- Promotion process
+- [Promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
 - Career ladders
   - How we determine our career ladder
   - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
@@ -72,7 +72,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [Marketing](link coming soon)
     - [Ops](link coming soon)
     - [Sales](link coming soon)
-    - [Support](link coming soon)
+    - [Support](../../ce-support/support/career-growth/cs-career-levels.md#customer-support-career-levels)
     - [People & Talent](link coming soon)
 - [How to view your level](coming soon)
 
@@ -103,13 +103,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Engagement Surveys](../people-ops/process/teammate-sentiment/engagement-survey.md)
 - [Pulse Surveys](../people-ops/process/teammate-sentiment/pulse-survey.md)
-- What we do with survey results
+- [What we do with survey results](../people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ### How we manage performance
 
 - Our expectations from managers
   - Coaching from managers
-  - Performance improvement plan process
+  - [Performance improvement plan process](../people-ops/process/performance-coaching/pip.md#performance-improvement-plans)
 - Our formal performance review process
   - Why we do performance reviews
   - When we do performance reviews
