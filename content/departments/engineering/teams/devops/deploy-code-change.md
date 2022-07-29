@@ -24,7 +24,9 @@ In extreme circumstances, you can follow the steps [here](../../dev/process/depl
 to build an image that bypasses tests.
 
 ### Manually deploying an image to DotCom
+
 In case an image needs to be deployed faster than the daily release cycle allows, follow these steps:
+
 1. Find the image by either going to the [buildkite CI logs](https://buildkite.com/sourcegraph/sourcegraph) on [Sourcegraph](https://github.com/sourcegraph/sourcegraph) or searching [Dockerhub](https://hub.docker.com/u/sourcegraph) for the correct tag.
 1. The Sourcegraph tag format is `[build_number]_[date]_[short git SHA1]`
 1. Create a branch off the `release` branch of the [DotCom repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
@@ -34,6 +36,7 @@ In case an image needs to be deployed faster than the daily release cycle allows
 
 1. Create a pull request
 1. Request a review from the dev-experience GitHub team (preferable) or another member of the engineering department.
+
    - Note: _1 approval is required before merging_
 
 1. Merge the pull request
