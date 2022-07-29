@@ -31,3 +31,7 @@ Create an escalation policy to support each group and make sure the routing rule
 ![escalation](https://user-images.githubusercontent.com/3095053/179857653-326ffc44-f425-4e86-9c1f-9e39d410977b.png)
 
 And that's it!
+
+## SlackOpsgenie integration
+
+If you want to automatically update the Slack support handle with the handle of the people currently on call, use the [Slackgenie](../../dev/tools/slackgenie.md) tool.
