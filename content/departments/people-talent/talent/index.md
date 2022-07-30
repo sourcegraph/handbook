@@ -59,7 +59,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Career mobility
 
 - Our high performance culture
-  - Continuous performance management 
+  - Continuous performance management
   - Semi-annual performance review process
   - [Promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
   - How we manage underperformance
@@ -113,10 +113,10 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Our expectations from managers
   - Coaching from managers
   - [Performance improvement plan process](../people-ops/process/performance-coaching/pip.md#performance-improvement-plans)
-- Continuous performance management process 
-  - How to lead an effective 1:1 
+- Continuous performance management process
+  - How to lead an effective 1:1
   - How to have coaching conversations
-  - How to manage underperformance 
+  - How to manage underperformance
   - PIP process
 - Our semi-annual performance review process
   - Why we do performance reviews
