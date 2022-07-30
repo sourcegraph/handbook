@@ -59,8 +59,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Career mobility
 
 - Our high performance culture
+  - Continuous performance management 
+  - Semi-annual performance review process
+  - [Promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+  - How we manage underperformance
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- [Promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
 - Career ladders
   - How we determine our career ladder
   - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
@@ -110,7 +113,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - Our expectations from managers
   - Coaching from managers
   - [Performance improvement plan process](../people-ops/process/performance-coaching/pip.md#performance-improvement-plans)
-- Our formal performance review process
+- Continuous performance management process 
+  - How to lead an effective 1:1 
+  - How to have coaching conversations
+  - How to manage underperformance 
+  - PIP process
+- Our semi-annual performance review process
   - Why we do performance reviews
   - When we do performance reviews
   - What we measure
