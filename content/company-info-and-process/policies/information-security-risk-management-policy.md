@@ -13,13 +13,13 @@ This policy specifies a risk management framework through which:
 - New risks are added to the risk register and existing risks are reviewed according to a defined schedule.
 - Roles and responsibilities for managing the above risks are clearly defined.
 
-This is a high-level policy document that specifies what processes need to occur as part of this framework. For details of how these processes occur in practice, please refer to the accompanying [Information Security Risk Management Process](https://handbook.sourcegraph.com/departments/security/security-risk-management-process/).
+This is a high-level policy document that specifies what processes need to occur as part of this framework. For details of how these processes occur in practice, please refer to the accompanying [Information Security Risk Management Process](../../departments/security/security-risk-management-process.md).
 
 ## **Scope**
 
 This policy applies to all information handled in the course of Sourcegraph’s business, whether for internal purposes, or as part of services provided to customers. This policy also applies regardless of the technology or medium used to process or store the information.
 
-Risks unrelated to information security are not in scope for this policy; when risk is mentioned in this document, unless explicitly specified, such reference is to information security risks alone. Risks in this context are used to identify high-level areas where a compromise of confidentiality, integrity, or availability might occur. This is distinct from vulnerabilities, which refer to specific technical weaknesses in Sourcegraph’s infrastructure, and are covered by Sourcegraph’s [Vulnerability Management Policy.](https://handbook.sourcegraph.com/departments/product-engineering/engineering/policies/vulnerability-management-policy)
+Risks unrelated to information security are not in scope for this policy; when risk is mentioned in this document, unless explicitly specified, such reference is to information security risks alone. Risks in this context are used to identify high-level areas where a compromise of confidentiality, integrity, or availability might occur. This is distinct from vulnerabilities, which refer to specific technical weaknesses in Sourcegraph’s infrastructure, and are covered by Sourcegraph’s [Vulnerability Management Policy.](../../departments/engineering/dev/policies/vulnerability-management-policy.md)
 
 # **Risk management**
 
