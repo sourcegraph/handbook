@@ -2,7 +2,7 @@
 
 Information about Sourcegraph's different instances.
 
-- [Sourcegraph Cloud](instances.md#sourcegraph-cloud) is our production deployment.
+- [sourcegraph.com](instances.md#dotcom) (or 'DotCom') is our public, free-to-use deployment.
 - [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
   This deployment also contains all of our private code.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
@@ -14,19 +14,19 @@ For deployments of Sourcegraph we manage for customers, see [managed instances](
 
 Also see [playbooks](./playbooks.md) for common actions related to operating our Sourcegraph deployments.
 
-## Sourcegraph Cloud
+## DotCom
 
 [![Build status](https://badge.buildkite.com/ef1289610fdd05b606bf1e57a034af2365c7b09c95ac6121f9.svg)](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud)
 
-This deployment is also colloquially referred to as "sourcegraph.com", "Cloud", and "dot-com". It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search).
+This deployment is also colloquially referred to as 'DotCom' and 'sourcegraph.com'. It is the public deployment available to the public at [sourcegraph.com/search](https://sourcegraph.com/search).
 
-`sourcegraph.com` deploys the latest changes from [`sourcegraph/sourcegraph`](https://github.com/sourcegraph/sourcegraph) on a schedule via [Renovate](./index.md#renovate)
+`sourcegraph.com` deploys the latest changes from [`sourcegraph/sourcegraph`](https://github.com/sourcegraph/sourcegraph) on a [daily basis](index.md#continuous-deployment-process).
 
 This deployment also includes our [documentation](https://docs.sourcegraph.com/) and [about](https://about.sourcegraph.com/) sites.
 
 > 🐶 For dogfooding changes, use [k8s.sgdev.org](#k8s-sgdev-org) instead, which generally receives updates faster.
 
-- [dot-com cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud?project=sourcegraph-dev)
+- [DotCom cluster on GCP](https://console.cloud.google.com/kubernetes/clusters/details/us-central1-f/cloud?project=sourcegraph-dev)
   ```
   gcloud container clusters get-credentials cloud --zone us-central1-f --project sourcegraph-dev
   ```
