@@ -10,34 +10,6 @@ Operations guides for [managed instances](./index.md).
 - To enable executors on a managed instance, see [enable executors process](./enable_executors_process.md)
 - To restore a managed instance in the event of accidental deletion, follow [restore process](./restore_process.md).
 
-- [Managed instances operations](#managed-instances-operations)
-  - [Red/black deployment model](#redblack-deployment-model)
-  - [Accessing the instance](#accessing-the-instance)
-    - [SSH access](#ssh-access)
-      - [Accessing the Docker containers](#accessing-the-docker-containers)
-      - [Accessing the Cloud SQL](#accessing-the-cloud-sql)
-      - [Restarting for configuration updates](#restarting-for-configuration-updates)
-    - [Port-forwarding](#port-forwarding)
-    - [Access through the GCP load balancer as a user would](#access-through-the-gcp-load-balancer-as-a-user-would)
-    - [Finding the external IPs](#finding-the-external-ips)
-    - [Resizing Disks](#resizing-disks)
-    - [Capturing network traffic for analysis on the instance](#capturing-network-traffic-for-analysis-on-the-instance)
-  - [Changing the instance](#changing-the-instance)
-  - [Availability of the instance](#availability-of-the-instance)
-    - [Uptime Checks](#uptime-checks)
-    - [Performance Checks](#performance-checks)
-  - [Confirm instance health](#confirm-instance-health)
-  - [Instance technicalities](#instance-technicalities)
-    - [Impact of recreating the instance via Terraform](#impact-of-recreating-the-instance-via-terraform)
-    - [Instance is recreated when startup script changes](#instance-is-recreated-when-startup-script-changes)
-    - [Debugging startup scripts](#debugging-startup-scripts)
-    - [Viewing container logs](#viewing-container-logs)
-    - [Fix corrupted repo on `gitserver`](#fix-corrupted-repo-on-gitserver)
-    - [Access frontend when no access is provisioned](#grant-access-to-the-frontend)
-  - [Disaster Recovery and Business Continuity Plan](#disaster-recovery-and-business-continuity-plan)
-  - [Troubleshooting](#troubleshooting)
-    - [FAQ: "googleapi: Error 400: The network_endpoint_group resource ... is already being used"](#faq-googleapi-error-400-the-network_endpoint_group-resource--is-already-being-used)
-
 ## Prereq
 
 To perform any MI opertaions, you need to meet the following requirement
