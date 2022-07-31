@@ -1,25 +1,19 @@
-
-
 # **Information Security Risk Management Policy**
-
 
 ## **Overview and purpose**
 
-In the course of its operations, Sourcegraph encounters risks which could affect the confidentiality, integrity, or availability of information it holds. This includes information stored for Sourcegraph’s internal functions as well as information stored in order to provide services to customers. 
+In the course of its operations, Sourcegraph encounters risks which could affect the confidentiality, integrity, or availability of information it holds. This includes information stored for Sourcegraph’s internal functions as well as information stored in order to provide services to customers.
 
 This policy specifies a risk management framework through which:
 
-
-
-* Sourcegraph is able to identify information security risks that are pertinent to the organization.
-* Sourcegraph has a standardized method of measuring the severity and potential impact of the identified risks.
-* Sourcegraph has defined risk acceptance thresholds for information security risks.
-* Risks which exceed the specified thresholds are treated according to a defined procedure.
-* New risks are added to the risk register and existing risks are reviewed according to a defined schedule.
-* Roles and responsibilities for managing the above risks are clearly defined.
+- Sourcegraph is able to identify information security risks that are pertinent to the organization.
+- Sourcegraph has a standardized method of measuring the severity and potential impact of the identified risks.
+- Sourcegraph has defined risk acceptance thresholds for information security risks.
+- Risks which exceed the specified thresholds are treated according to a defined procedure.
+- New risks are added to the risk register and existing risks are reviewed according to a defined schedule.
+- Roles and responsibilities for managing the above risks are clearly defined.
 
 This is a high-level policy document that specifies what processes need to occur as part of this framework. For details of how these processes occur in practice, please refer to the accompanying [Information Security Risk Management Process](https://handbook.sourcegraph.com/departments/security/security-risk-management-process/).
-
 
 ## **Scope**
 
@@ -27,22 +21,15 @@ This policy applies to all information handled in the course of Sourcegraph’s 
 
 Risks unrelated to information security are not in scope for this policy; when risk is mentioned in this document, unless explicitly specified, such reference is to information security risks alone. Risks in this context are used to identify high-level areas where a compromise of confidentiality, integrity, or availability might occur. This is distinct from vulnerabilities, which refer to specific technical weaknesses in Sourcegraph’s infrastructure, and are covered by Sourcegraph’s [Vulnerability Management Policy.](https://handbook.sourcegraph.com/departments/product-engineering/engineering/policies/vulnerability-management-policy)
 
-
-#  **Risk management**
+# **Risk management**
 
 At a high level, the risk management framework at Sourcegraph can be summarized via the following diagram:
 
-
 Diagram to be added.
-
 
 The various stages of this process are described in more detail below.
 
-
-
-
 ## **Roles and responsibilities**
-
 
 <table>
   <tr>
@@ -126,36 +113,30 @@ The various stages of this process are described in more detail below.
   </tr>
 </table>
 
-
-
 ## **Risk register**
 
 All identified risks must be recorded in a risk register. At a minimum, the risk register must record:
 
-
-
-* Risk name
-* Risk description
-* Date of creation
-* Risk owner
-* Risk author
-* Inherent risk estimate
-* Existing controls (if any)
-* Residual risk estimate
-* Risk status (treatment/acceptance)
-* Review date (where applicable)
+- Risk name
+- Risk description
+- Date of creation
+- Risk owner
+- Risk author
+- Inherent risk estimate
+- Existing controls (if any)
+- Residual risk estimate
+- Risk status (treatment/acceptance)
+- Review date (where applicable)
 
 For all risks that require treatment, a due date must also be defined.
 
 The ability to change risk estimates must be limited to members of the Security team or the Compliance Manager.
-
 
 ## **Risk estimation**
 
 In order to assess whether a given risk should be treated or accepted, a risk measurement must be carried out. In order to do so, an impact and likelihood assessment must be carried out.
 
 Likelihood should be rated from one to five, depending on the expectation of the event occurring. The following table explains the mapping from ratings to event frequencies:
-
 
 <table>
   <tr>
@@ -208,9 +189,7 @@ Likelihood should be rated from one to five, depending on the expectation of the
   </tr>
 </table>
 
-
 Impact should also be rated from 1 to 5, using the following table as a guide:
-
 
 <table>
   <tr>
@@ -320,11 +299,9 @@ Impact should also be rated from 1 to 5, using the following table as a guide:
   </tr>
 </table>
 
-
 Once the impact and the likelihood has been estimated, a final risk score can be arrived at by multiplying the two values. This gives a minimum risk score of 1 and a maximum score of 25.
 
 For ease of reference, the risk scores are categorized as follows:
-
 
 <table>
   <tr>
@@ -353,8 +330,6 @@ For ease of reference, the risk scores are categorized as follows:
   </tr>
 </table>
 
-
-
 ## **Risk identification and assessment**
 
 The process of risk identification should take place on a rolling basis by all Sourcegraph employees. The Risk Management Process must enable this to occur, and communication on risk management responsibilities must emphasize this aspect of Sourcegraph’s risk management policy.
@@ -365,7 +340,6 @@ Once these exercises have been carried out and new risks have been identified, t
 
 All risks must have a defined risk owner, whose responsibilities are defined above.
 
-
 ## **Risk treatment, risk acceptance, and exceptions**
 
 Once risk estimates have been created for a specific risk, a decision must be made on whether to accept or treat the residual risk.
@@ -373,7 +347,6 @@ Once risk estimates have been created for a specific risk, a decision must be ma
 Any risk with a High or Medium score should be treated until it is of Low risk. On the identification of such a risk, the Security team must work with the risk owner to identify acceptable risk treatments as well as a schedule for the treatments to be implemented. A valid treatment is any solution that will reduce the impact or the likelihood of the identified risk.
 
 For ease of reference, the cells in red within the following matrix show the points at which treatment of a risk is mandated:
-
 
 <table>
   <tr>
@@ -468,28 +441,20 @@ For ease of reference, the cells in red within the following matrix show the poi
   </tr>
 </table>
 
-
 It is then the responsibility of the risk owner to ensure the treatment of the risk within the schedule agreed. In cases where the risk treatments cannot be delivered on time, it is the responsibility of the risk owner to raise this with the Compliance Manager at the earliest opportunity. Once a treatment has been successfully implemented, it is the responsibility of the Compliance Manager to update the risk register to reflect the new likelihood or impact of the risk. Where a risk now meets the acceptance threshold, the risk status should also be updated.
 
 In cases where a High or Medium risk has no treatment that can be reasonably applied, an exception can be granted. Granting an exception will mean that Sourcegraph will consciously carry this risk with no treatment until a point where the facts of the risk or its possible treatments fundamentally change. Exceptions must have the signoff from the risk committee on an individual basis.
-
 
 ## **Reporting and review**
 
 The Compliance Manager must send out overviews of Sourcegraph’s information security risks to a relevant audience, consisting of senior leadership at minimum, at least annually. These reports must contain at least:
 
-
-
-* A summary of new risks added to the risk register
-* A summary of risks that have exceeded or are likely to exceed their allotted treatment time
+- A summary of new risks added to the risk register
+- A summary of risks that have exceeded or are likely to exceed their allotted treatment time
 
 All existing risks must be reviewed at least annually, and any necessary updates made to their status; the Compliance Manager is responsible for directing this process. Evidence of this review occurring (meeting notes, ticket comments, or similar) must be gathered at the time of review.
 
-
-
 **Policy Owner: Compliance Manager** \
-
-
 
 <table>
   <tr>
@@ -529,4 +494,3 @@ All existing risks must be reviewed at least annually, and any necessary updates
    </td>
   </tr>
 </table>
-
