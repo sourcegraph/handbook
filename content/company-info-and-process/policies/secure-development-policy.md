@@ -14,9 +14,9 @@ This policy describes the rules for the acquisition and development of software 
 
 ## **System Change Control Procedures**
 
-Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures. Change control procedures and requirements are described in the Sourcegraph Operations Security Policy. 
+Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures. Change control procedures and requirements are described in the Sourcegraph Operations Security Policy.
 
-Significant code changes must be reviewed and approved by at least one other Sourcegraph employee before being merged into any production branch in accordance with Sourcegraph SDLC policy. 
+Significant code changes must be reviewed and approved by at least one other Sourcegraph employee before being merged into any production branch in accordance with Sourcegraph SDLC policy.
 
 ## **Software Version Control**
 
@@ -32,19 +32,19 @@ Principles for engineering secure systems shall be established, documented, main
 
 Engineering style guides and technical references can be found in the Code guidelines documentation [here](https://docs.sourcegraph.com/dev/background-information/languages).
 
-Software developers are expected to adhere to Sourcegraph’s coding guidelines throughout the development cycle, including standards for quality, commenting, and security. 
+Software developers are expected to adhere to Sourcegraph’s coding guidelines throughout the development cycle, including standards for quality, commenting, and security.
 
 ## **Secure Development Environment**
 
-Sourcegraph shall establish and appropriately protect secure development environments for system development and integration efforts that cover the entire system development life cycle. 
+Sourcegraph shall establish and appropriately protect secure development environments for system development and integration efforts that cover the entire system development life cycle.
 
 ## **Outsourced Development**
 
-Sourcegraph shall supervise and monitor the activity of outsourced system development. Outsourced development shall adhere to all Sourcegraph standards and policies. 
+Sourcegraph shall supervise and monitor the activity of outsourced system development. Outsourced development shall adhere to all Sourcegraph standards and policies.
 
 ## **System Security Testing**
 
-Testing of security functionality shall be carried out during development. No code shall be deployed to Sourcegraph production systems without documented, successful test results. 
+Testing of security functionality shall be carried out during development. No code shall be deployed to Sourcegraph production systems without documented, successful test results.
 
 ## **System Acceptance Testing**
 
@@ -58,23 +58,19 @@ Test data shall be selected carefully, protected and controlled. Sensitive custo
 
 The acquisition of third-party systems and software shall be done in accordance with the requirements of the Sourcegraph Third-Party Management Policy.
 
-
 ## **Exceptions**
 
-Requests for an exception to this Policy must be submitted to the Security  for approval.
-
+Requests for an exception to this Policy must be submitted to the Security for approval.
 
 ## **Policy Compliance**
 
 Sourcegraph will measure and verify compliance to this policy through various methods, including but not limited to, business tool reports, and both internal and external audits.
-
 
 ## **Violations & Enforcement**
 
 Any known violations of this policy should be reported to [report-policy-violation@sourcegraph.com](mailto:report-policy-violation@sourcegraph.com). Failure to follow this policy can result in disciplinary action, up to and including termination.
 
 **Policy Owner:** Security Engineering Manager
-
 
 <table>
   <tr>
@@ -114,4 +110,3 @@ Any known violations of this policy should be reported to [report-policy-violati
    </td>
   </tr>
 </table>
-
