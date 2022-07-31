@@ -59,7 +59,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Teammate development & mobility
 
 - [Continuous feedback & coaching](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-   - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+  - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 - [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
   - [Our promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
     - [Department specific career ladders](COMING SOON)
@@ -75,7 +75,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
   - [How to give a raise within band]COMING SOON
-    - [Our compensation bands](COMING SOON)   
+    - [Our compensation bands](COMING SOON)
 - [How we manage underperformance](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
@@ -210,19 +210,20 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to hire a teammate into a new role](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
 ### Onboarding your new hire
+
 COMING SOON
 
 ### Teammate development & mobility
 
 - [Continuous feedback & coaching](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
-   - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+  - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 - [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
   - [How to promote a Teammate to a new level](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
     - [Department specific career ladders](COMING SOON)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
   - [How to give a raise within band]COMING SOON
-    - [Our compensation bands](COMING SOON)   
+    - [Our compensation bands](COMING SOON)
 - [How we manage underperformance](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
   - [PIP process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [Teammate transfer process](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
