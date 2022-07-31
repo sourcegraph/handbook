@@ -109,7 +109,7 @@ Below is additional information to help Managers and Teammates navigate performa
 - Anchor expectations to objective performance requirements based on established career ladders.
   - _Career ladders across all roles at Sourcegraph are coming soon. If no career ladder is in place for the role, align on expectations with your Manager._
 
-**Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance (unsure who your People Partner is? [Click here](COMING SOON)
+**Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance (unsure who your People Partner is? [Click here](../people-ops/index.md#people-partner-alignment)
 
 Once you contact your People Partner, they will guide you through next steps. Every circumstance is different and depending on the nature / seriousness of the performance issues, the recommended performance management process may differ. In some cases, it may be appropriate to follow all of the Stages of the below process in order, and in other cases it may be appropriate to skip to a later stage or to handle the performance issue outside of the PIP process altogether.
 
