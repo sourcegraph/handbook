@@ -43,7 +43,7 @@ GOBIN=~/.bin make install
 If they are not, download the file and open a PR to commit the file prior to upgrade
 
 ```sh
-curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml || echo "failed to download"
+mg update-golden -target $VERSION // e.g. 3.42.0
 ```
 
 ### Ensure `config.yaml` file in customer directory is up-to-date
