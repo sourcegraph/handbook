@@ -26,12 +26,14 @@ We are an all-remote company and favor asynchronous communication, it is importa
 ## Other Access
 
 - Request access to the services below via the listed teams:
-  - [GCP](https://console.cloud.google.com) (Google Cloud Platform) - GCP is where our Cloud infastructure exists.
-    - **#it-tech-ops**
   - [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers) - Our CI (Continuous Integration) pipelines host.
     - Self-serve via google auth
   - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider.
     - **#security** or you can reach out in **#internal-security**
+  - [GCP](https://console.cloud.google.com) (Google Cloud Platform) - GCP is where our Cloud infastructure exists.
+    - **#it-tech-ops**
+  - [Google Workspaces investigation tool](https://admin.google.com/ac/sc/investigation)
+    - **#it-tech-ops**
 
 ## Sourcegraph - Local Enviroment Setup
 
