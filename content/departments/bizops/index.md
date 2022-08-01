@@ -17,7 +17,6 @@ The Data & Analytics team is made up of Data Analytics, and Data Engineering. Th
 
 - [User metrics definitions](process/user_definitions.md)
 
-
 ## Resources
 
 - [CustomerOps Tools Overview](tools/customer_ops_tools.md)
@@ -26,7 +25,6 @@ The Data & Analytics team is made up of Data Analytics, and Data Engineering. Th
 - [Guide to user journey mapping](../../departments/engineering/product/process/user_research/user_journey_maps.md)
 - [Guide to product-led growth](process/product_led_growth.md)
 - [Customer data policy](process/customer_data_policy.md)
-
 
 ## How we work
 
