@@ -33,5 +33,5 @@ TODO: Add additional resources
 
 TODO: Add additional resources
 
-- Utilize the [Zoom plugin for Google Calendar] to schedule Zoom meetings on behalf of your executives
+- Utilize the [Zoom plugin for Google Calendar](../company-info-and-process/communication/zoom/#add-zoom-to-google-calendar) to schedule Zoom meetings on behalf of your executives
 - Help executives [preschedule slack messages](https://slack.com/help/articles/1500012915082-Schedule-messages-to-send-later)
