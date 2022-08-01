@@ -31,7 +31,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - sourcegraph/batch-change-examples
 - sourcegraph/src-cli
 
-## Cloud (Managed Instances)
+## [Cloud](../../../cloud/index.md) (Managed Instances)
 
 ### General
 
