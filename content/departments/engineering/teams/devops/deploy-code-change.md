@@ -1,66 +1,48 @@
-# Deploying a code change to Sourcegraph Cloud
+# Deploying a code change to DotCom
 
 _Developers should rarely need to perform these steps since
-we have tooling to ensure that code change merged to **main**
+we have tooling to ensure that code change merged to **release**
 are automatically deployed_
 
-To learn more about the continuous delivery process for Sourcegraph
-Cloud, visit the [deployments](../../dev/process/deployments/index.md) documentation.
+To learn more about the continuous delivery process for DotCom, visit the [deployments](../../dev/process/deployments/index.md) documentation.
 
 > NOTE: These docs are most relevant during a **codefreeze** or if the continuous delivery
 > pipeline is not working.
 
-- [Deploying a code change to Sourcegraph Cloud](#deploying-a-code-change-to-sourcegraph-cloud)
+- [Deploying a code change to DotCom](#deploying-a-code-change-to-dotcom)
   - [Assumptions](#assumptions)
-  - [Manually Deploying an image to Cloud](#manually-deploying-an-image-to-cloud)
-  - [Large releases to Cloud (Rollup releases)](#large-releases-to-cloud-rollup-releases)
+  - [Manually Deploying an image to DotCom](#manually-deploying-an-image-to-dotcom)
+  - [Large releases to DotCom (Rollup releases)](#large-releases-to-dotcom-rollup-releases)
 
 ### Assumptions
 
-In order to deploy a code change to cloud, an image needs to exist
+In order to deploy a code change to DotCom, an image needs to exist
 that has the code change. CI builds images that are merged to main
 **and** pass all tests.
 
 In extreme circumstances, you can follow the steps [here](../../dev/process/deployments/testing.md#building-docker-images-for-a-specific-branch)
 to build an image that bypasses tests.
 
-### Manually deploying an image to Cloud
+### Manually deploying an image to DotCom
 
-All changes deployed to Cloud should be staged and tested in `preprod` first before releasing to production.
+In case an image needs to be deployed faster than the daily release cycle allows, follow these steps:
 
 1. Find the image by either going to the [buildkite CI logs](https://buildkite.com/sourcegraph/sourcegraph) on [Sourcegraph](https://github.com/sourcegraph/sourcegraph) or searching [Dockerhub](https://hub.docker.com/u/sourcegraph) for the correct tag.
 1. The Sourcegraph tag format is `[build_number]_[date]_[short git SHA1]`
+1. Create a branch off the `release` branch of the [DotCom repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
+1. Make the relevant image changes in the YAML files
 
-1. Make the relevant image changes to the YAML files in the [cloud repo](https://github.com/sourcegraph/deploy-sourcegraph-cloud)
+   - Typically, the image will need to be updated in a `Deployment` or `StatefulSet` file
 
-   - Typically, the image will need to be updated in an `deployment` or `statefulset` file
+1. Create a pull request
+1. Request a review from the dev-experience GitHub team (preferable) or another member of the engineering department.
 
-1. Create a pull request against the `preprod` branch of the cloud repo
-1. Request a review from the cloud-devops github team (preferable) or
-
-   - another member of the Cloud organization.
-   - Note: _1 approval is required before merging_
-
-1. Merge the pull request
-1. (Optional) View the CI run on the branch to ensure CI successfully rolls out the change.
-1. Once deployed, verify change is live and successful in [preprod](https://preview.sgdev.dev)
-
-Changes deployed to `preprod` will be automatically released to production on a [fixed schedule](https://github.com/sourcegraph/deploy-sourcegraph-cloud/blob/release/.github/workflows/release-preprod.yaml#L4). If a change is urgent and needs to be deployed to production quickly:
-
-1. Create a branch off the `release` branch of the cloud repo
-1. Create a pull request against the `release` branch of the cloud repo
-1. Request a review from the cloud-devops github team (preferable) or
-
-   - another member of the Cloud organization.
    - Note: _1 approval is required before merging_
 
 1. Merge the pull request
 1. Once built and deployed verify change was successful
-1. Then create a branch off `preprod`
-1. Cherry-pick your changes onto this branch
-1. Submit a PR to merge those changes to `preprod`. Note in the PR that the changes are already live on Cloud.
 
-## Large releases to Cloud (Rollup releases)
+## Large releases to DotCom (Rollup releases)
 
 These releases should not be different from our normal release process as long as
 the below assumptions are true:

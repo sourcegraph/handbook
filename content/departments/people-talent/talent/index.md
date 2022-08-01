@@ -10,7 +10,7 @@ If you need to discuss something confidential or private, please Slack your Peop
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
-## Resources for candidates
+## Resources for Candidates
 
 ### Open positions
 
@@ -56,25 +56,29 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Onboarding swag](../swag.md/)
 - [Our values](../../../company-info-and-process/values/index.md)
 
-### Career mobility
+### Teammate development & mobility
 
-- Our high performance culture
+- [Continuous feedback & coaching](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+  - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+- [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
+  - [Our promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+    - [Department specific career ladders](COMING SOON)
+      - [CE](link coming soon)
+      - [Engineering](../../engineering/dev/career-development/framework.md)
+      - [Product](link coming soon)
+      - [Design](../../engineering/design/career-development.md)
+      - [Marketing](link coming soon)
+      - [Ops](link coming soon)
+      - [Sales](link coming soon)
+      - [Support](../../ce-support/support/career-growth/cs-career-levels.md#customer-support-career-levels)
+      - [People & Talent](link coming soon)
+    - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+    - [How to view your current level](COMING SOON)
+  - [How to give a raise within band]COMING SOON
+    - [Our compensation bands](COMING SOON)
+- [How we manage underperformance](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
+  - [PIP process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- [Promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
-- Career ladders
-  - How we determine our career ladder
-  - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
-  - Department specific career ladders
-    - [CE](link coming soon)
-    - [Engineering](../../engineering/dev/career-development/framework.md)
-    - [Product](link coming soon)
-    - [Design](../../engineering/design/career-development.md)
-    - [Marketing](link coming soon)
-    - [Ops](link coming soon)
-    - [Sales](link coming soon)
-    - [Support](../../ce-support/support/career-growth/cs-career-levels.md#customer-support-career-levels)
-    - [People & Talent](link coming soon)
-- [How to view your level](coming soon)
 
 ### Total rewards
 
@@ -104,19 +108,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Engagement Surveys](../people-ops/process/teammate-sentiment/engagement-survey.md)
 - [Pulse Surveys](../people-ops/process/teammate-sentiment/pulse-survey.md)
 - [What we do with survey results](../people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
-
-### How we manage performance
-
-- Our expectations from managers
-  - Coaching from managers
-  - [Performance improvement plan process](../people-ops/process/performance-coaching/pip.md#performance-improvement-plans)
-- Our formal performance review process
-  - Why we do performance reviews
-  - When we do performance reviews
-  - What we measure
-  - The questions we ask
-  - How we use the results
-  - Training: how to write an effective review (Coming Soon)
 
 ### Relocation/address changes
 
@@ -220,6 +211,23 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Onboarding your new hire
 
+COMING SOON
+
+### Teammate development & mobility
+
+- [Continuous feedback & coaching](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+  - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+- [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
+  - [How to promote a Teammate to a new level](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+    - [Department specific career ladders](COMING SOON)
+    - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+    - [How to view your current level](COMING SOON)
+  - [How to give a raise within band]COMING SOON
+    - [Our compensation bands](COMING SOON)
+- [How we manage underperformance](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
+  - [PIP process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
+- [Teammate transfer process](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+
 ### Tools
 
 - [BambooHR](../people-ops/tools/manager-guide.md/#sts=BambooHR)
@@ -249,23 +257,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to give a promotion](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](../people-ops/process/compensation-and-leveling/compensation-role-changes.md)
 
-### Performance management
-
-- Our expectations from managers
-  - Coaching from managers
-  - [Performance improvement plan (PIP) process](../people-ops/process/performance-coaching/pip.md)
-- Our formal performance review process
-  - Why we do performance reviews
-  - When we do performance reviews
-  - What we measure
-  - The questions we ask
-  - How we use the results
-- Training:
-  - How to write an effective review (Coming Soon)
-  - How to have an effective 1:1 (Coming Soon)
-  - How to have a coaching/career conversation
-  - How to initiate a formal performance improvement plan (PIP)
-
 ### How we measure culture
 
 - Types of Lattice surveys (coming soon)
@@ -290,7 +281,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - PEO
 - [BambooHR](../people-ops/tools/bamboohr.md)
 
-### Calibration cycles & templates
+### Teammate development
 
 - Merit
 - Promotion
@@ -311,7 +302,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Parental leave](../../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - Leaving Sourcegraph
   - [Exit interviews](../people-ops/process/performance-coaching/exit-interview.md)
-  - Offboarding process
+  - [Offboarding process]COMING SOON
 
 ### Teammate swag
 
