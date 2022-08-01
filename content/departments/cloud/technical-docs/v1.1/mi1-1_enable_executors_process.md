@@ -71,6 +71,8 @@ mg executors check
 
 Commit your changes and open a PR. Let #wg-shipping-executors know it is ready!
 
+<!--
+
 ## Setup billing alert
 
 As of 2022-03-08, we give customers a fixed amount (e.g. $500) of computing credits for executors usage, so we need to setup billing alerts.
@@ -113,6 +115,8 @@ Link Monitoring email notification channels we created from the terraform module
 ![create-budget-04](https://storage.googleapis.com/sourcegraph-assets/create-executor-budgets-04.png)
 
 ![create-budget-02](https://storage.googleapis.com/sourcegraph-assets/create-executor-budgets-02.png)
+
+-->
 
 ## Troubleshooting
 
