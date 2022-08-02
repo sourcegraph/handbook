@@ -26,7 +26,7 @@ This policy covers all information security or data privacy events or incidents.
 If a Sourcegraph employee, contractor, user, or customer becomes aware of any
 possible information security event or incident, unauthorized access, policy violation,
 security weakness, or suspicious activity, they can report the incident by emailing
-security@sourcegraph.com.
+security-team@sourcegraph.com.
 
 If there is strong reason to believe that the possible security incident is ongoing and
 could have significant impact to data or systems belonging to Sourcegraph or its
