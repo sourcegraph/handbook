@@ -1,9 +1,6 @@
 # Enabling executors
 
-Enabling executor on a managed instances is initiated by #wg-shipping-executors. There are a few logical steps to follow.
-
-1. Update the managed instances terraform to include executor modules
-1. Setup billing alert for the executor resources
+All managed instances will have executors enabled by default. #ce is responsible for providing the ARR to help us determine the compute resources we allocate to executors, [learn more](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.md#executors).
 
 ## Deploy executors
 
