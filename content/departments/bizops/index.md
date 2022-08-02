@@ -16,7 +16,7 @@ The Data & Analytics team is made up of Data Analytics, and Data Engineering. Th
 ## Data and reporting documentation
 
 - [User metrics definitions](process/user_definitions.md)
-- [Metric sources of truth](content/departments/bizops/analytics/sources-of-truth.md) 
+- [Metric sources of truth](content/departments/bizops/analytics/sources-of-truth.md)
 
 ## Resources
 
