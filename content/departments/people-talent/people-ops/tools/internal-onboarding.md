@@ -128,7 +128,7 @@ We create a channel for the cohort. We add all new teammates, the onboarding tea
 
 **i-9s**
 
-US teammates need to get their i9 berification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
+US teammates need to get their i9 verification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
 
 Teammates must have the elegible documents available for us to corroborate their identity. [Here are the acceptable documents](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents)
 
