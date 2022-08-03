@@ -75,6 +75,8 @@ For basic operations like accessing an instance for these steps, see [managed in
    - add new map entry to `monitored_projects` in `variables.tf`
    - run `terraform apply`
 
+1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
+
 1. Commit the last changes, create a PR for review, apply and merge
 
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
