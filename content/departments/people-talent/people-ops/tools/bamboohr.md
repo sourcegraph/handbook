@@ -242,6 +242,8 @@ If someone has signed their contract but will not be starting after all, we need
 - If we rescinded the offer: "Offer rescinded"
 - If the person decided not to join: "Withdrew acceptance before onboarding"
 
+Keep in mind that the start date will be after the rescinding of the offer, therefore the start date will override the rescinding date. We will need to delete the start date entry.
+
 ## Integrations
 
 Fields access to other tools (lattice)
