@@ -33,7 +33,7 @@ We expect Managers to foster a high-performance culture and provide performance 
 1. Formal performance reviews
 2. Ongoing feedback
 
-## **<span style="text-decoration:underline;">1. Formal performance reviews</span>**
+### **<span style="text-decoration:underline;">1. Formal performance reviews</span>**
 
 At Sourcegraph, we have a formal performance review process that takes place **twice a year.**
 
@@ -48,7 +48,7 @@ The purpose of our semi-annual reviews, which take place via Lattice, is to gath
 
 Reviews coincide with our promotion and compensation review cycles. [Click here](https://docs.google.com/document/d/1bS2V_9Ne0TdLyMBXufdcoSkkojeeyxzoSXZdCe-fyfE/edit) to learn more about our semi-annual review process.
 
-## <span style="text-decoration:underline;">2. Continuous feedback</span>
+### <span style="text-decoration:underline;">2. Continuous feedback</span>
 
 We expect our Managers to provide ongoing, continuous feedback in the following ways:
 
