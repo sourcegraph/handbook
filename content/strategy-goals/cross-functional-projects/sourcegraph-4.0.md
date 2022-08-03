@@ -65,12 +65,15 @@ In the future, we believe Starship will become a regular, recurring launch event
 ### General FAQs
 
 **Where can I ask questions about Sourcegraph 4.0 and Starship?**
+
 Alex Isken is the DRI for this event, and can answer questions about Starship.
 
 We also encourage questions and discussion around Sourcegraph 4.0 in respective public (non-internal or private) Slack channels: #engineering, #product, #sales, #marketing, etc. 
 
 **I have an idea for Starship / 4.0! How can I contribute?**
+
 Let us know in Slack! Drop your ideas in their respective channels (e.g. #marketing). All ideas are welcome.
 
 **Where/when can I expect to hear updates about 4.0?**
+
 You can expect updates in the #announcements Slack channel on Mondays and Fridays. If you have questions, or feel that something needs to be addressed but hasn't been in recent updates, please raise your concern in Slack.
