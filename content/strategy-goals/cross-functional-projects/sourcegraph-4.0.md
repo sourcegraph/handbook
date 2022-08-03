@@ -39,7 +39,7 @@ The theme for 4.0 and the 4.0 launch event is the evolution of code search to be
 Starship is a launch event that is planned for September 27, 2022. It includes 2 major projects:
 
 1. Sourcegraph 4.0
-2. Completion of the "Make Cloud the preferred deployment method" [cross-functional project](https://handbook.sourcegraph.com/strategy-goals/cross-functional-projects/)
+2. Completion of the "Make Cloud the preferred deployment method" [cross-functional project](index.md)
 
 **Where did the "Starship" branding come from?**
 "Star" refers to wildcard, Sourcegraph's logo.
