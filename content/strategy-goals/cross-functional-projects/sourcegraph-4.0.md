@@ -22,6 +22,7 @@ Marketing will be running several promotional activities to support the launch:
 
 **Why 4.0 and not 3.44?**
 Sourcegraph 3.0 first released in February 2019. Since then, we have launched a number of significant products &amp; features. To name just a few:
+
 - Code Insights
 - Batch Changes
 - Notebooks
@@ -58,6 +59,7 @@ In the future, we believe Starship will become a regular, recurring launch event
 This is a cross-functional project focused on Cloud (our single-tenant, managed version of Sourcegraph). You can find more details about this project in [this document](https://docs.google.com/document/d/1IUFb2JkwqdLCf8B-FkiF40PyAFg50xfWnB6gQO2ViRQ/edit#heading=h.2md1aeolxqwl).
 
 We intend to complete this project by September 27, in line with the Starship event.
+
 ### General FAQs
 
 **Where can I ask questions about Sourcegraph 4.0 and Starship?**
