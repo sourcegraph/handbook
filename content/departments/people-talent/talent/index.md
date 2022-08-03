@@ -6,7 +6,7 @@ The Talent Team is responsible for helping every team at Sourcegraph hire, and f
 
 While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
 
-If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
+If you need to discuss something confidential or private, please Slack your [People Partner](process/teamalignment.md) or the VP People & Talent.
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
@@ -40,7 +40,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Who to go to
 
 - People support
-  - [Who is my People Partner?](../people-ops/index.md#people-partner-alignment)
+  - [Who is my People Partner?](process/teamalignment.md)
 - Recruiting support
   - [Who is my Recruiter?](process/teamalignment.md)
 - Anonymous support
@@ -390,7 +390,7 @@ COMING SOON
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#carly-jones" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
                 alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
             </a>
@@ -516,10 +516,11 @@ COMING SOON
 # The People Team
 
  <section>
+    <div class="row" style="display:flex;">
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
                 alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
             </a>
@@ -531,33 +532,43 @@ COMING SOON
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
-                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            <a href="../../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
+                alt="Picture of Jonathan Ayers" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Jonathan Ayers</div>
           <div style="text-align: center; font-size: 12px;">Director, People</div>
         </div>
-        </div>
+      </div>
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
+            <a href="../../../../team/index.md#alex-mathison" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
                 alt="Picture of Alex Mathison" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Alex Mathison</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
-          </div>
+      </div>
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
+            <a href="../../../../team#sarah-um" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Sarah Um</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../../team/index.md#carl-robson" target="_blank" rel="noopener">
               <img
                 src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
                 alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
@@ -566,19 +577,6 @@ COMING SOON
           <div style="text-align: center;">Carl Robson</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
-          </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../team/index.md#sarah-um" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
-                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Sarah Um</div>
-          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+      </div>
     </div>
-    </div>
-
-   </section>
+       </section>
