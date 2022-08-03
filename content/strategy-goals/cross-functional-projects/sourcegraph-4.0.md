@@ -41,7 +41,6 @@ Starship is a launch event that is planned for September 27, 2022. It includes 2
 2. Completion of the "Make Cloud the preferred deployment method" [cross-functional project](https://handbook.sourcegraph.com/strategy-goals/cross-functional-projects/)
 
 **Where did the "Starship" branding come from?**
-
 "Star" refers to wildcard, Sourcegraph's logo.
 
 "Ship" refers to shipping code, which will happen at this (and future) Starship events.
