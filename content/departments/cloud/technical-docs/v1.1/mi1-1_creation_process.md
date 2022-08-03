@@ -122,3 +122,9 @@ You may be trying to re-create an instance in the same project where KMS is only
 terraform import 'module.managed_instance.google_kms_key_ring.keyring' projects/sourcegraph-managed-$COMPANY/locations/global/keyRings/primary-key-ring
 terraform import 'module.managed_instance.google_kms_crypto_key.key' global/primary-key-ring/primary-key
 ```
+
+## `Error creating Brand: googleapi: Error 409: Requested entity already exists`
+
+```sh
+terraform import module.managed_instance.google_iap_brand.project_brand $(gcloud alpha iap oauth-brands list --project $PROJECT_ID --format json | jq -r '.[0].name')
+```
