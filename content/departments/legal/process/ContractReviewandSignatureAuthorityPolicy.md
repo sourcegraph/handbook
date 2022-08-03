@@ -425,6 +425,7 @@ Examples of Partner contracts are:
 Click this [link](https://drive.google.com/u/0/uc?id=1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1&export=download) to download a local Microsoft Word copy of our Reseller Agreement template.
 
 #### Referral Agreements:
+
 Click this [link](https://docs.google.com/document/d/1UnEJ2Lzw0slRkquHWjjpsO0KN7SVfZgy/copy) to download a local Microsoft Word copy of our Referral Agreement template.
 
 #### All other Partner Contracts:
