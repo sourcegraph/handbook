@@ -27,6 +27,10 @@ Below we will install `mg` CLI. `mg` simlifies operation on MI and releases the 
 ```sh
 mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
+# if you use ZSH
+# echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
+# you need ensure our `mg` binrary has the highest priority in $PATH
+# otherwise if will conflict with the `mg` emacs editor 😢
 echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
 make install
 ```
