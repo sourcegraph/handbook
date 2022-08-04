@@ -1,6 +1,6 @@
 # Customer Support
 
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammeates. The team is comprised of application engineers (AERs) and [escalation engineers](ee.md) (EEs). 
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammeates. The team is comprised of application engineers (AERs) and [escalation engineers](ee.md) (EEs).
 
 ### Guiding principles:
 
