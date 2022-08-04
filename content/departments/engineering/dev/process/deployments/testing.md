@@ -156,4 +156,14 @@ sg ci build docker-images-patch-notest frontend
 
 > NOTE: You can simply force-push if you would like to re-use a branch name with `--force`.
 
-This will trigger two builds on Buildkite that will publish newly built Docker images.
+This will trigger two builds on Buildkite that will publish newly built Docker images. You can pull the image URL from the logs, and then use it to test changes locally.
+
+When using the image, if you get an authentication issue similar to as follows:
+
+```sh
+Unable to find image 'us.gcr.io/sourcegraph-dev/server:8738645e6be92cd86da4126b340a9392dc8fc0c4_164858_candidate' locally
+docker: Error response from daemon: unauthorized: You don't have the needed permissions to perform this operation, and you may have invalid credentials. To authenticate your request, follow the steps in: https://cloud.google.com/container-registry/docs/advanced-authentication.
+See 'docker run --help'.
+```
+
+You can run `gcloud auth configure-docker us.gcr.io` to authenticate yourself.
