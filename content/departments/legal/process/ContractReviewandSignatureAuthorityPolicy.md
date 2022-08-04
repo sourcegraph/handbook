@@ -202,7 +202,7 @@ Remember: It is important to save your fully signed NDA in our shared folder. ND
 
 ## **Customer Contracts**
 
-### I have a Prospect and want to send them a contract…
+### I have a Prospect and want to send them a contract.
 
 Great! Which contract you send will depend on what Sourcegraph product your Prospect needs.
 
@@ -385,7 +385,7 @@ If you do not have DocuSign access, please tell your Legal point of contact and 
 
 ### Where do I save the Vendor contract once it’s signed?
 
-For agreements with temporary contractors, send the final signed contract to Legal for Legal to save in the [Sensitive Suppliers](https://drive.google.com/drive/folders/1i5_ZJ32t3yhvjpmcn0_VNSaYtWZueQza) folder in the Legal private Google Drive.
+For agreements with temporary contractors, send the final signed contract to Legal for Legal to save in the [Sensitive Suppliers](https://drive.google.com/drive/folders/1i5_ZJ32t3yhvjpmcn0_VNSaYtWZueQza?usp=sharing) folder in the Legal private Google Drive. If you need access to this folder, please let the Legal Team know.
 
 For all other vendor contracts, once both parties have signed the contract, you’ll need to save it in the [Suppliers](https://drive.google.com/drive/u/1/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k) folder in Google Drive.
 
@@ -414,14 +414,19 @@ For click-through agreements, forward confirmation emails to commercial-contract
 Examples of Partner contracts are:
 
 1. Reseller agreements: where the partner is reselling a Sourcegraph product
-2. Technology partner agreements: product integrations
-3. Marketing/co-sell agreements: joint marketing initiatives
+2. Referral agreements: where the partner refers prospective customers to Sourcegraph
+3. Technology partner agreements: product integrations
+4. Marketing/co-sell agreements: joint marketing initiatives
 
 ### I’m ready to send a contract to a prospect Partner. Where can I find a template?
 
 #### Reseller Agreements:
 
-Click this [link](https://drive.google.com/u/0/uc?id=1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1&export=download) to download a local Microsoft Word copy of our Reseller template.
+Click this [link](https://drive.google.com/u/0/uc?id=1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1&export=download) to download a local Microsoft Word copy of our Reseller Agreement template.
+
+#### Referral Agreements:
+
+Click this [link](https://docs.google.com/document/d/1UnEJ2Lzw0slRkquHWjjpsO0KN7SVfZgy/copy) to download a local Microsoft Word copy of our Referral Agreement template.
 
 #### All other Partner Contracts:
 
@@ -455,7 +460,8 @@ YES. It does not matter if we can’t redline the contract; it’s still very im
 
 ### Who signs the Partner contract for Sourcegraph?
 
-- Director or VP
+- For Reseller or Referral Agreements, Head of Business Development or VP of Sales
+- For all other Partner contracts, Director or VP
 
 For Partner contracts, authorized signers may delete authority to teammates in manager-level roles or above. Delegation must be made in writing, either via email with copy to [legal@sourcegraph.com](mailto:legal@sourcegraph.com), or via Slack with a screenshot of the delegation sent to [legal@sourcegraph.com](mailto:legal@sourcegraph.com).
 
