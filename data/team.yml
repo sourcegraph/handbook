@@ -1954,6 +1954,17 @@ Samantha_Ulrich:
   links: '[LinkedIn](https://www.linkedin.com/in/samantha-u-62218837/)'
   description: 'An Oregon Native, Sam loves to hike and explore her home state with her fiancé, one of their favorite things is finding hidden waterfalls. An avid reader, Sam has run her own book blog on Youtube and Instagram since 2014. She also has recently discovered a new passion in watercolor painting. Prior to Sourcegraph, Sam has spent time in the healthcare, structural engineering, and crypto fields and looks forward to bringing her experience to her role at Sourcagraph!'
 
+andrew_norrish:
+  name: Andrew Norrish
+  email: andrew.norrish@sourcegraph.com
+  github: anorrish
+  pronouns: he/him
+  role: Senior Implementation Project Manager
+  reports_to: vp_customer_engineering
+  location: Denver, CO, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
+  description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
+
 michal_vrtiak:
   name: Michal Vrtiak
   email: michal.vrtiak@sourcegraph.com
