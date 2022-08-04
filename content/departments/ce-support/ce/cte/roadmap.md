@@ -18,14 +18,14 @@ Going in to Q3, the team will be focused on expanding the training library as we
 
 - Offering video content
 
-  - What: We'll build modular video units to cover the LMS versions of Sourcegraph 101, 102, and the Admin webinar. 
+  - What: We'll build modular video units to cover the LMS versions of Sourcegraph 101, 102, and the Admin webinar.
   - Why: Modular video content is a consistent request from customers and from CEs, and having modular content will allow targeted sharing of appropriate videos as part of the onboarding and enablement journey for the customer.
   - How: Work on 101 videos is in progress already with Marek. 102 videos and admin webinars will be completed by Emily. By the end of the process, each LMS-formatted unit for each webinar should have an equivalent short video.
   - Business Outcome: CEs will have both sync and async training available for customers for all three required training units; we should no longer be blocked on enablement due to a lack of resources for these three trainings.
 
 - Use case based webinars
 
-  - What: We'll complete the shipping and enablement of the New Developer Onboarding webinar in both lesson plan and LMS form. Additionally, two new use case webinars will be shipped, selection TBD based on CE feedback. 
+  - What: We'll complete the shipping and enablement of the New Developer Onboarding webinar in both lesson plan and LMS form. Additionally, two new use case webinars will be shipped, selection TBD based on CE feedback.
   - Why: Use cases remain key to selling Sourcegraph and to making it clear to devs how Sourcegraph fits into their daily workflow. Orienting around those use cases benefits customers and the CEs.
   - How: Each of the three use case webinars will have at minimum a lesson plan and an LMS form. Stretch goals include video content for the units.
   - Business Impact: 100% of CE team is enabled on 3 new webinars.
@@ -34,21 +34,21 @@ Going in to Q3, the team will be focused on expanding the training library as we
 
   - What: We'll lead, in partnership with Marketing and Engineering, three public webinars. The first, on VSCode, is scheduled. The other two (Autoindexing, and a TBD topic) have not yet been scheduled.
   - Why: Having CE-delivered content for public audiences serves as a lead gen tool in alignment with other peer companies. Additionally, building out a library of recorded video content will allow that content to be leveraged by CE if needed.
-  - How: Partner with Marketing to deliver the webinars, guided by their knowledge of best practices. 
+  - How: Partner with Marketing to deliver the webinars, guided by their knowledge of best practices.
   - Business Impact: 3 webinars delivered and analyzed for trends and efficacy as a driver of sales conversations.
 
 - Evaluate impact
 
   - What: We'll attempt to establish more concrete metrics around the success or failure of the CTE program.
   - Why: Q2 was focused on establishing something that could be evaluated; now that there's baseline content, Q3 is focused on evaluating efficacy and iterating.
-  - How: Build CE-targeted survey to evaluate impact of program, deliver at beginning and end of quarter and compare results. Additionally, work with CE to build a post-webinar, customer-facing survey to be delivered via Zoom's survey functionality. 
+  - How: Build CE-targeted survey to evaluate impact of program, deliver at beginning and end of quarter and compare results. Additionally, work with CE to build a post-webinar, customer-facing survey to be delivered via Zoom's survey functionality.
   - Business Impact: Survey completed with at least 70% CE participation, allowing for confirmation of whether there is improvement in efficacy, understanding, etc. throughout the quarter as a result of CTE efforts.
 
 Additional projects
 
-  - Complete public ship of 101 and 102 Trailhead units
-  - Create internal training on GraphQL for the CEs, per their request
-  - Continue with Office Hours program
+- Complete public ship of 101 and 102 Trailhead units
+- Create internal training on GraphQL for the CEs, per their request
+- Continue with Office Hours program
 
 ## FY23 Q2: Foundations
 
