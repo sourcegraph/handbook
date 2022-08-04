@@ -166,4 +166,4 @@ docker: Error response from daemon: unauthorized: You don't have the needed perm
 See 'docker run --help'.
 ```
 
-You can run `gcloud auth configure-docker us.gcr.io` to authenticate yourself correctly.
+You can run `gcloud auth configure-docker us.gcr.io` to authenticate yourself.
