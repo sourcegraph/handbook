@@ -1,8 +1,6 @@
 # Customer Support
 
-## Our ethos
-
-Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions in a way that feels (reasonably) effortless for our customers. The team is comprised of application engineers. We show up for our customers (pre-sales and post-sales), open source users, and teammates by living up to our Sourcegraph values and handbook, as well as by honoring our...
+Customer Support at Sourcegraph exists to resolve technical issues and answer technical/product questions for our customers (pre-sales and post-sales), open source users, and teammeates. The team is comprised of application engineers (AERs) and [escalation engineers](ee.md) (EEs). 
 
 ### Guiding principles:
 
@@ -19,47 +17,10 @@ Keeping our reason for existence and guiding principles in mind in all of our wo
 
 For additional context, check out [RFC 274](https://docs.google.com/document/d/1eLJmEVoD4H2s18gw65OCKSEX7ZQiG38FU_jU3UsrBKY/edit#), the starting vision for CS at Sourcegraph.
 
-## We know that we are successful when we …
+## We know that we are successful when we...
 
-### At the team level and at a very high level...
-
-We always want the following to be true:
-
-- **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
-- **Meet SLA (service level agreement) resolution 95% of the time.** While it’s possible to always meet our SLA response expectations, we will need to allow ourselves reasonable grace with our target for SLA resolution. This grace accounts for using commercially reasonable efforts to provide a resolution or workaround. Performance available in [the Customer Support dashboard in Looker](https://sourcegraph.looker.com/dashboards-next/177).
-- **No more than 10% of cases result in a request for help from engineering per month.** Requests for help are questions about how something works and/or troubleshooting assistance. This does not include defects or feature improvement requests. 10% may be the wrong target, but it’s a start and no matter what, the target will reflect the intention that the support team will strive to be as self-sufficient as possible. Performance available in summary updates (currently manually tallied).
-- **We complete our OKRs:**
-  - [FY23Q2 OKR plan](strategy-goals/FY23Q2-OKR-plan.md)
-  - [FY23Q1 OKR plan](strategy-goals/FY23Q1-OKR-Plan.md)
-  - [FY22Q4 OKR plan](strategy-goals/FY22Q4-OKR-Plan.md)
-  - [FY22Q3 OKR plan](strategy-goals/FY22Q3-OKR-Plan.md)
-  - [FY22Q2 OKR plan](strategy-goals/FY22Q2-OKR-Plan.md)
-
-### As an individual application engineer...
-
-As I complete my first 90 days (if not sooner), I know I am successful in my day-to-day work helping customers when I am responsive, consistent, and reliable. I can measure that myself by confirming that all of the following is true:
-
-1. I enact our company values and team guiding principles in all of my work (customer communication, workflow, internal communication, etc)
-2. I take an average of at least 1 new case each day (5–7 a week); as volume allows
-3. I provide an initial response to each case for which I take responsibility within 1 hour of the customer requesting help
-4. I remain responsive to our customers throughout, aiming to reply within minutes to each reply they send me and letting no more than a day (counted as 24 hours) pass between my replies (being sure that I have set expectations with the customer on when they will hear from me again and what I am doing in the meantime)
-5. I resolve the cases for which I am responsible in 7 days or less (on average)
-6. I rarely have more than 5 active cases at a time
-7. I work toward team self-sufficiency by always asking my teammates for input/help before engaging engineering and by ensuring what I learn along the way is reflected in our docs or the handbook (whichever is most relevant)
-8. I provide a summary of my cases to populate our [resolved case database](process/enablement/zendesk-ticket-exporter.md)
-
-You can see how you are performing toward some of these metrics by determining your Zendesk assignee ID ([instructions](https://support.zendesk.com/hc/en-us/articles/360044278093-How-can-I-locate-an-agent-ID-in-Support-) and filtering [our Looker dashboard](https://sourcegraph.looker.com/dashboards-next/177) on your ID.
-
-If ever you feel like success isn’t possible as outlined above, talk to your manager. Their job is to help figure out a path forward so you can feel like your favorite self whilst working (and hopefully whilst enjoying all other aspects of life, too!).
-
-In addition, we also use several additional key performance indicators (KPIs) to help us uncover any team health issues as quickly as possible and look at any interesting trends that could result in product, practice, and/or staffing improvements. For example:
-
-- Total case volume
-- Type of case (how-to question, defect, product improvement)
-- Percent of issues/questions by product/feature
-- Average number of cases per customer
-- Volume of cases by each customer
-- Volume of cases incoming during US hours, Europe hours, etc
+- **Deliver our customers with an exceptional customer experience.** Customer Satisfaction (CSAT) is the most important measurement of our success. Questions and issues will always arise - the experience that we provide to our customers in those moments is our ultimate north star.
+- **Meet SLA (service level agreement) response 100% of the time.** Meeting SLA response requires a thoughtful first response that summarizes the troubleshooting the support engineer has already done, as well as next steps. A response of “we are on it” would not be sufficient for us to count as successfully meeting SLA. If we are staffed correctly and have reasonable SLAs, it should be possible to always meet our SLA response expectations.
 
 ## How we intersect with other teams
 
@@ -116,7 +77,6 @@ We rely mostly on our ethos to inform our decisions and actions, allowing for th
 - [Team schedule](process/support-schedule.md)
 - [Organizational structure](team/support-org-structure.md)
 - [Team rituals](team-culture/index.md)
-- [How we plan our OKRs](process/quarterly-planning.md)
 - [Workflow](process/support-workflow.md)
 - [Prioritization](process/support-prioritization.md)
 - [Customer exceptions](process/customer-exceptions.md)
