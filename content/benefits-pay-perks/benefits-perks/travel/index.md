@@ -183,10 +183,10 @@ Please see below for a complete summary of spend limit for each type of trip. Th
 | Trip Category     | Total Spend Limit |
 | ----------------- | ----------------- |
 | Company-wide      | N/A               |
-| Team              | $5,500            | 
-| Individual        | $2,500            | 
+| Team              | $5,500            |
+| Individual        | $2,500            |
 | Business/Customer | N/A               |
-| Education         | $1,000            | 
+| Education         | $1,000            |
 
 ### Dependent care budget:
 
