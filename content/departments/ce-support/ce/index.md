@@ -8,7 +8,6 @@ Customer Engineering at Sourcegraph is oriented around the technical success of 
 - [Customer Training Engineers](cte/index.md)
 - [Implementation Engineers](ie/index.md)
 
-
 ## Resources
 
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
