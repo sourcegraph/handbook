@@ -178,15 +178,15 @@ We ask you to use your best judgment when traveling and spending company money. 
 
 #### Trip Summary
 
-Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip. The best practice is to plan your trip in accordance with the per diem and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
+Please see below for a complete summary of spend limit for each type of trip. The best practice is to plan your trip in accordance with the daily meals allotment and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
 
-| Trip Category     | Total Spend Limit | Per Diem?                        | Hotel Budget?                    |
-| ----------------- | ----------------- | -------------------------------- | -------------------------------- |
-| Company-wide      | N/A               | Yes                              | Yes                              |
-| Team              | $5,500            | Recommended if under budget only | Recommended if under budget only |
-| Individual        | $2,500            | Recommended if under budget only | Recommended if under budget only |
-| Business/Customer | N/A               | Yes                              | Yes                              |
-| Education         | $1,000            | Recommended if under budget only | Recommended if under budget only |
+| Trip Category     | Total Spend Limit |
+| ----------------- | ----------------- |
+| Company-wide      | N/A               |
+| Team              | $5,500            |
+| Individual        | $2,500            |
+| Business/Customer | N/A               |
+| Education         | $1,000            |
 
 ### Dependent care budget:
 
