@@ -101,6 +101,7 @@ mg --customer $CUSTOMER db cli
 ```
 
 If you find that the command hangs on the following error:
+
 ```
 Waiting for cloud_sql_proxy to be ready...
 ```
