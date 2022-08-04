@@ -100,6 +100,13 @@ or
 mg --customer $CUSTOMER db cli
 ```
 
+If you find that the command hangs on the following error:
+```
+Waiting for cloud_sql_proxy to be ready...
+```
+
+It's likely that you need to install [`cloud_sql_proxy`](https://github.com/GoogleCloudPlatform/cloudsql-proxy).
+
 ### Restarting for configuration updates
 
 ```sh
