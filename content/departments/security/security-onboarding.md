@@ -35,7 +35,7 @@ We are an all-remote company and favor asynchronous communication, it is importa
   - [Google Workspaces investigation tool](https://admin.google.com/ac/sc/investigation)
     - **#it-tech-ops**
   - [OpsGenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/ff31605f-6091-4ab0-93f5-3b5b9a79100c/main)
-    - **#security-internal**  
+    - **#security-internal**
 
 ## Sourcegraph - Local Enviroment Setup
 
