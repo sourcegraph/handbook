@@ -35,7 +35,7 @@ Internal instances are created for various testing purposes:
 
 This is a shared instance for the engineering organization to test unreleased versions, locally built images, or anything they would like to experiement with Managed Instances.
 
-#cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM. The team that is running the experiment is responsbile for keeping everyone updated on the experiement in #cloud and ensuring the application is working as intented. The team should consult the [operation guide](./opertations.md) when interacting with the dev instance. (please backup the database and VM before doing anyting destructive)
+#cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM. The team that is running the experiment is responsbile for keeping everyone updated on the experiement in #cloud and ensuring the application is working as intented. The team should consult the [operation guide](./operations.md) when interacting with the dev instance. (please backup the database and VM before doing anyting destructive)
 
 ##### [tpgi instance](http://tpgi.sourcegraph.com/)
 
