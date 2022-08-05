@@ -47,12 +47,14 @@ To work best with the teams and product stakeholders also involved in this work,
 ## Strategy
 
 1. ✅ By July 30 2022, build a deep understanding of the strategic customer space current state and future needs.
-2. Prioritize and solve the most pressing future needs – currently:
-3. 🔄 Plan and pilot customer in place for supporting strategic customers on cloud _By August 26th if not sooner_
-4. 🔄 Updating strat account teams and processes to better align with technical needs and gaps _By August 19th if not sooner_
-5. Building a defined achievable timeline of when we can support each tier size (see below)
-6. Creating product docs for possible strat features: 2. Admin analytics features for 10k+ user instances 3. Innersource portal
-7. Collect active inputs from new strategic prospects and customs
+1. Prioritize and solve the most pressing future needs – currently:
+   1. 🔄 Plan and pilot customer in place for supporting strategic customers on cloud _By August 26th if not sooner_
+   1. 🔄 Updating strat account teams and processes to better align with technical needs and gaps _By August 19th if not sooner_
+   1. Building a defined achievable timeline of when we can support each tier size (see below)
+   1. Exploring and validating possible strat features:
+      1. Admin analytics features for 10k+ user instances
+      1. Innersource portal
+1. Collect active inputs from new strategic prospects and customs
 
 ## Resources
 
