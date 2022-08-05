@@ -2,6 +2,10 @@
 
 The escalation engineers (EEs) temporarily rotate onto our Customer Engineering & Support team for a fixed period of time to help solve the most complex and technical customer issues.
 
+## Contact
+
+@escalation-engineers on Slack
+
 ## Benefits
 
 - EEs provide extra engineering capacity dedicated to solving important customer issues to speed up resolution.
