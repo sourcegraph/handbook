@@ -23,7 +23,8 @@ We use an intentional list of statuses on our project board:
 
 - **No Status**: Status is not assigned. These issues need triage.
 - **Backlog**: We are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
-- **On deck**: These issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
+- **On deck**: These issues are not currently proposed for any upcoming iteration but are a maintained, priority ordering of likely next issues.
+   - One caveat: issues for the next iteration tagged with both "on deck" and that next iteration milestone are in a "proposed to move out" state. Usually this happens because someone other than the PM proposed the issues, and the PM suggests we remove them from the iteration but wants to confirm at the iteration planning meeting. 
 - **Proposed for iteration**: These are a select group of issues proposed for a specific iteration. They must have an iteration milestone attached.
 - **Todo**: This is the small set of issues that are planned for our current iteration.
 - **In Progress**: Issues currently being worked on in the iteration.
