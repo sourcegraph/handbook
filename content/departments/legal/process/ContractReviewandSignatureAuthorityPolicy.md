@@ -245,7 +245,7 @@ Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3M
 - Financial Controller
   - Back-Up Signers: Director of Legal and VP Finance/Operations
 
-Additionally, every Customer contract requires a Deal Desk Stamp, which allows us to have better control around the contracts that are signed. Additional information on the signature process and how to request the deal desk stamp can be found here: [Customer Contracts Signature Process] (https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit#).
+Additionally, every Customer contract requires a Deal Desk Stamp, which allows us to have better control around the contracts that are signed. You can find more information on the signature process and how to request the deal desk stamp here: [Customer Contracts Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit).
 
 Changes to the above signing authorities require written approval by the CEO.
 
@@ -253,7 +253,7 @@ Changes to the above signing authorities require written approval by the CEO.
 
 If you have DocuSign access, you do! If you do not have DocuSign access, please contact #it-tech-ops team.
 
-You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it simplifies our stamping requirement.
+You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it also simplifies our stamping procedure.
 
 ### Where do I save the Customer contract once it’s signed?
 
