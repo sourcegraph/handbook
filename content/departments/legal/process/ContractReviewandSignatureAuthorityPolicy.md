@@ -253,8 +253,7 @@ Changes to the above signing authorities require written approval by the CEO.
 
 If you have DocuSign access, you do! If you do not have DocuSign access, please contact #it-tech-ops team.
 
-You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it simplifies our stamping requirement. 
-
+You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it simplifies our stamping requirement.
 
 ### Where do I save the Customer contract once it’s signed?
 
