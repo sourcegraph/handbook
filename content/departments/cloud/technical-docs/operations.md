@@ -124,6 +124,26 @@ This will port-forward `localhost:4444` to port `80` on the VM instance. Some co
 
 Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule.
 
+### Backup
+
+Everything
+
+```sh
+mg backup
+```
+
+Just the Cloud SQL
+
+```sh
+mg backup --types sql
+```
+
+Just the VM
+
+```sh
+mg backup --types vm
+```
+
 ### Access through the GCP load balancer as a user would
 
 Users access Sourcegraph through GCP Load Balancer/HTTPS -> the Caddy load balancer/HTTP -> the actual sourcegraph-frontend/HTTP. If you suspect that an issue is being introduced by the GCP load balancer itself, e.g. perhaps a request is timing out there due to some misconfiguration, then you will need to access through the GCP load balancer itself. If the managed instance is protected by the load balancer firewall / not publicly accessible on the internet, then it is not possible for you to access `$CUSTOMER.sourcegraph.com` as a normal user would.

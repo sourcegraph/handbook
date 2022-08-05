@@ -20,14 +20,30 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
 
-- for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
+- ~for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)~ (all instances have been migrated to v1.1)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
+- for v1.1 - [tpgi instance](http://tpgi.sourcegraph.com/)
+- for v1.1 - [s2 instance](https://sourcegraph.sourcegraph.com/)
 
 Internal instances are created for various testing purposes:
 
 - testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow [managed instances upgrade tracker](../../engineering/dev/process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
+
+##### [dev instance](https://devmanaged.sourcegraph.com/)
+
+This is a shared instance for the engineering organization to test unreleased versions, locally built images, or anything they would like to experiement with Managed Instances.
+
+#cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM. The team that is running the experiment is responsbile for keeping everyone updated on the experiement in #cloud and ensuring the application is working as intented. The team should consult the [operation guide](./operations.md) when interacting with the dev instance. (please backup the database and VM before doing anyting destructive)
+
+##### [tpgi instance](http://tpgi.sourcegraph.com/)
+
+Learn more from https://github.com/sourcegraph/customer/issues/958
+
+##### [s2 instance](https://sourcegraph.sourcegraph.com/)
+
+This is the internal Cloud dogfood instance for the entire company. #dev-experience is responsible for rolling out nightly builds on this instance and #cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
 
 #### Customer instances
 
