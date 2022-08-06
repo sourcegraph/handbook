@@ -25,7 +25,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 - [Career growth](career-growth/index.md)
 - [Team README](team/index.md)
 - [Team schedule](process/support-schedule.md)
-- [Organizational structure](team/support-org-structure.md)
+- [Team Meeting Norms](team/team-meetng-norms.md)
 - [Team rituals](team-culture/index.md)
 - [Workflow](process/support-workflow.md)
 - [Prioritization](process/support-prioritization.md)
