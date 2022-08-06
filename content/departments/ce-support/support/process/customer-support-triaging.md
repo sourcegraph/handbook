@@ -53,7 +53,7 @@ That said, there may be times when we have unusually large amount of work or mor
 
 - **Step 8:** Create a post in our #customer-support-internal Slack channel altering the team that there is a new ticket available to take. Remember to facilitate if necessary, @ mentioning folks who have capacity to take it if we are at level 2 capacity.
 
-- **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. This macro should also change the assignee to Virginia, which is important so these tickets don't count in the support metric data. You may then submit the ticket as solved.
+- **Step 9:** If there is no action for CS, use the "no action for CS macro" and leave a reason why not -- remember, these internal notes sync to Salesforce so CEs know our decision making. These tickets don't count in the support metric data. You may then submit the ticket as solved.
 
 ## FAQs
 
