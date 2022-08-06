@@ -47,7 +47,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 ## SLAs
 
-Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). 
+Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
 
 Sourcegraph offers 24x5 support bound by the SLA times listed above. The SLA times are the time frames in which you can expect an initial response. Our team will make a best effort to resolve all issues as quickly as possible. However, please note that the SLA times are not to be considered as an expected time-to-resolution.
 
@@ -55,28 +55,31 @@ Sourcegraph offers 24x5 support bound by the SLA times listed above. The SLA tim
 
 While Sourcegraph will strive to respond as soon as possible to every issue, we will be responsible for upholding the SLAs below Monday through Friday.
 
-|    Severity Level        | Description                                                                                                                                | Response time                                           | Support Availability                                                                                            |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 0 | Emergency: total loss of service or security-related issue (includes POCs) | Within 2 business hours of becoming aware of the issue          | 24x5 (Monday - Friday)  |
-| 1 | Severe impact: service significantly limited for 60%+ of users; core features are unavailable or extremely slowed down with no acceptable workaround         | Within 4 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
-| 2 | Medium impact: core features are unavailable or somewhat slowed; workaround exists | Within 8 business hours of becoming aware of the issue          | 24x5 (Monday - Friday)  |
-| 3 | Minimal impact: questions or clarifications around features, documentation, or deployments| Within 2 business days of becoming aware of the issue | 24x5 (Monday - Friday)  |
+| Severity Level | Description                                                                                                                                          | Response time                                          | Support Availability   |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------- |
+| 0              | Emergency: total loss of service or security-related issue (includes POCs)                                                                           | Within 2 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 1              | Severe impact: service significantly limited for 60%+ of users; core features are unavailable or extremely slowed down with no acceptable workaround | Within 4 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 2              | Medium impact: core features are unavailable or somewhat slowed; workaround exists                                                                   | Within 8 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 3              | Minimal impact: questions or clarifications around features, documentation, or deployments                                                           | Within 2 business days of becoming aware of the issue  | 24x5 (Monday - Friday) |
 
 **Note:** premium support / enhanced SLAs will be available in the future
 
 **Note for Cloud (Managed Instance) customers:** We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
 
 #### Sev 0 - Emergency Support Scope
+
 What constitues a Sev 0 - Emergency:
--   Instance is completely down, unavailable or unresponsive for all users
--   Web UI showing 4xx or 5xx errors on every page
--   All users are unable to login
--   A security related incident that poses risk / exposure
+
+- Instance is completely down, unavailable or unresponsive for all users
+- Web UI showing 4xx or 5xx errors on every page
+- All users are unable to login
+- A security related incident that poses risk / exposure
 
 What is not a Sev 0 - Emergency:
--   A single user is unable to login
--   Performance is slower than usual
--   Partial or delayed repository sync
+
+- A single user is unable to login
+- Performance is slower than usual
+- Partial or delayed repository sync
 
 #### For customers with custom support agreements:
 
