@@ -15,7 +15,6 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ## CI News
 
-
 ## `sg` goodies
 
 TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
@@ -28,13 +27,13 @@ TODO jh describe's @keegan stuff here https://github.com/sourcegraph/sourcegraph
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
 
-Flaky tests happen, which is why the docs have [a specific section](https://docs.sourcegraph.com/dev/background-information/ci#flakes) about how to deal with those. In a nutshell, disable them on sight and notify the ownning team so they can fix those. We want to say thank you those who took a few minutes out of their day to improve the CI experience for everyone else. Special thanks to Thorsten Ball who disabled five of them on his own! And thanks to Camden Cheek, Alex Ostrikov who are following closely. 
+Flaky tests happen, which is why the docs have [a specific section](https://docs.sourcegraph.com/dev/background-information/ci#flakes) about how to deal with those. In a nutshell, disable them on sight and notify the ownning team so they can fix those. We want to say thank you those who took a few minutes out of their day to improve the CI experience for everyone else. Special thanks to Thorsten Ball who disabled five of them on his own! And thanks to Camden Cheek, Alex Ostrikov who are following closely.
 
-All builds on the main branch are now faster by about 6 to 8 minutes. This is achieved by [caching the client bundle build](https://github.com/sourcegraph/sourcegraph/pull/38940) in the job that builds the _server_ container that is later used to run e2e tests. 
+All builds on the main branch are now faster by about 6 to 8 minutes. This is achieved by [caching the client bundle build](https://github.com/sourcegraph/sourcegraph/pull/38940) in the job that builds the _server_ container that is later used to run e2e tests.
 
 ![builds duration heatmap over july](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/heatmap_duration.png)
 
-The caching mechanism is disabled on releases, to be 100% sure we are shipping the right client bundle. When the caching is used, an annotation such as the one below is displayed, making it explicit from when the client bundle was cached, so we can easily see if it should have been invalidated. Those two extra precautions are taken because the caching is done externally and do not rely on any client tooling, therefore invalidation depends on how careful we are at not missing files that could change the build result. 
+The caching mechanism is disabled on releases, to be 100% sure we are shipping the right client bundle. When the caching is used, an annotation such as the one below is displayed, making it explicit from when the client bundle was cached, so we can easily see if it should have been invalidated. Those two extra precautions are taken because the caching is done externally and do not rely on any client tooling, therefore invalidation depends on how careful we are at not missing files that could change the build result.
 
 ![annotation showing a client bundle cache hit](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/client_bundle_cache.png)
 
