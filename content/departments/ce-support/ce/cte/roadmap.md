@@ -14,7 +14,6 @@ Q2 was focused on building a strong foundation for our future work. We focused o
 
   - How: We established a shared training repository in GitHub, a template for training materials to follow, and then transfer existing 101, 102, and admin training concepts floating around the team into standard flows. The team has beene trained on how to deliver these trainings using a train the trainer model.
 
-
 ## FY23 Q3/Q4: Customer Onboarding Experience
 
 Q3/Q4 will be focused on continuing to build upon the foundation set in Q2, expanding to the full onboarding experience of customers post-sale closing. We’ll focus on the 90 days after a sale is closed and providing collateral and training as needed based on feedback from the customer’s usage. This collateral and training content will be used by the CE team to continue enabling their customers.
