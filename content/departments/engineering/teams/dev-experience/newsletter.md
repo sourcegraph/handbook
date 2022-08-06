@@ -13,9 +13,8 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-## TODO idea: top N flakes disablers
+## CI News
 
-IDEA: Shoutouts to ... who disabled flakes ...
 
 ## `sg` goodies
 
@@ -29,7 +28,21 @@ TODO jh describe's @keegan stuff here https://github.com/sourcegraph/sourcegraph
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
 
-TODO jh shaved 10m on server https://github.com/sourcegraph/sourcegraph/pull/38940
+Flaky tests happen, which is why the docs have [a specific section](https://docs.sourcegraph.com/dev/background-information/ci#flakes) about how to deal with those. In a nutshell, disable them on sight and notify the ownning team so they can fix those. We want to say thank you those who took a few minutes out of their day to improve the CI experience for everyone else. Special thanks to Thorsten Ball who disabled five of them on his own! And thanks to Camden Cheek, Alex Ostrikov who are following closely. 
+
+All builds on the main branch are now faster by about 6 to 8 minutes. This is achieved by [caching the client bundle build](https://github.com/sourcegraph/sourcegraph/pull/38940) in the job that builds the _server_ container that is later used to run e2e tests. 
+
+![builds duration heatmap over july](./july2022/heatmap_duration.png)
+
+The caching mechanism is disabled on releases, to be 100% sure we are shipping the right client bundle. When the caching is used, an annotation such as the one below is displayed, making it explicit from when the client bundle was cached, so we can easily see if it should have been invalidated. Those two extra precautions are taken because the caching is done externally and do not rely on any client tooling, therefore invalidation depends on how careful we are at not missing files that could change the build result. 
+
+![annotation showing a client bundle cache hit](./july2022/client_bundle_cache.png)
+
+Npm has became increasingly unstable over the past weeks, which caused an increase in client flakes when fetching packages that our code depends on. The CI now wraps `yarn install` in [a retrying loop](https://github.com/sourcegraph/sourcegraph/pull/39454) to mitigate those. Oldest trick in the book!
+
+The default buildkite failures Slack messages are not the most actionnable ones, so we have decided to replace them with our in-house notifications which we have total control on:
+
+![slack notification for a build failure](./july2022/build_tracker.png)
 
 ## June 24, 2022
 
