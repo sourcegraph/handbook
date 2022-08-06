@@ -230,6 +230,24 @@ Next you need to `scp` this from the instance:
 
 Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
 
+### Deploy new images across all instances
+
+Use case: you would like to roll out a new images to all instances
+
+- Open a PR to update the golden file and merge it
+- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+
+### Update application config across all instances
+
+Use case: you would like to update site-config for all instances
+
+- Open a PR to update `mg` codes with the right configuration
+- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+- Click `Run workflow` and it will run `mg sync` on each instance
+
+> This action also runs every 24h to ensure all instances config are correct
+
 ## Changing the instance
 
 <span class="badge badge-note">SOC2/CI-98</span>
