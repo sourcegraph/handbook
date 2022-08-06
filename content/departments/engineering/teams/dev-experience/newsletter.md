@@ -32,17 +32,17 @@ Flaky tests happen, which is why the docs have [a specific section](https://docs
 
 All builds on the main branch are now faster by about 6 to 8 minutes. This is achieved by [caching the client bundle build](https://github.com/sourcegraph/sourcegraph/pull/38940) in the job that builds the _server_ container that is later used to run e2e tests. 
 
-![builds duration heatmap over july](./july2022/heatmap_duration.png)
+![builds duration heatmap over july](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/heatmap_duration.png)
 
 The caching mechanism is disabled on releases, to be 100% sure we are shipping the right client bundle. When the caching is used, an annotation such as the one below is displayed, making it explicit from when the client bundle was cached, so we can easily see if it should have been invalidated. Those two extra precautions are taken because the caching is done externally and do not rely on any client tooling, therefore invalidation depends on how careful we are at not missing files that could change the build result. 
 
-![annotation showing a client bundle cache hit](./july2022/client_bundle_cache.png)
+![annotation showing a client bundle cache hit](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/client_bundle_cache.png)
 
 Npm has became increasingly unstable over the past weeks, which caused an increase in client flakes when fetching packages that our code depends on. The CI now wraps `yarn install` in [a retrying loop](https://github.com/sourcegraph/sourcegraph/pull/39454) to mitigate those. Oldest trick in the book!
 
 The default buildkite failures Slack messages are not the most actionnable ones, so we have decided to replace them with our in-house notifications which we have total control on:
 
-![slack notification for a build failure](./july2022/build_tracker.png)
+![slack notification for a build failure](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/build_tracker.png)
 
 ## June 24, 2022
 
