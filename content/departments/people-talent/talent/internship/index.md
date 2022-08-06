@@ -1,6 +1,6 @@
 # Sourcegraph Internship Program
 
-We completed our first-ever internship program! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were  full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
+We completed our first-ever internship program! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
 We currently plan to post 2023 summer internship roles in early 2023 and we will update this page accordingly.
 
