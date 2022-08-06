@@ -20,7 +20,6 @@ Customer Support at Sourcegraph exists to resolve technical issues and answer te
 
 Letting customers talk to us where they prefer and streamlining our workflow must also be balanced with other elements of the customer experience. Handoffs cause frustration more than any other aspect of trying to get help. How we work accounts for this. It also accounts for continually positioning our CEs as trusted and reliable partners who need time to think about customers proactively.
 
-
 - [Application engineer onboarding](onboarding/customer-support-onboarding.md)
 - [Manager onboarding](onboarding/customer-support-manager-onboarding.md)
 - [Career growth](career-growth/index.md)
