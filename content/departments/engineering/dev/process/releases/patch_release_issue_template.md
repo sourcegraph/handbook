@@ -104,6 +104,7 @@ Create and test the first release candidate:
     - [ ] Cherry-pick the release-publishing PR from the release branch into `main`
 - [ ] Finalize and announce that the release is live:
   ```sh
+  yarn release release:announce
   yarn release release:close
   ```
 
@@ -111,6 +112,7 @@ Create and test the first release candidate:
 
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://github.com/sourcegraph/sourcegraph/edit/main/dev/release/release-config.jsonc) with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
+- [ ] Let the #cloud team know about the managed instances upgrade issue
 - [ ] Close this issue.
 
 **Note:** If another patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md) be filled out and approved first.
