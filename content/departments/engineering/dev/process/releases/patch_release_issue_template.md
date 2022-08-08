@@ -34,7 +34,7 @@ This release is scheduled for **$RELEASE_DATE**.
 
 Ensure that all [patch request issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Apatch-release-request) are accounted for, and have all relevant commits across relevant repositories listed above in the checklist.
 
-For each of the following repositories you have made changes on, cherry-pick (see snippet below) and check off commits listed above.
+For each of the following repositories you have made changes to, cherry-pick (see snippet below) and check off commits listed above.
 
 - [ ] `sourcegraph/sourcegraph` ([`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/sourcegraph/tree/$MAJOR.$MINOR) [CI](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=$MAJOR.$MINOR))
 - [ ] `sourcegraph/deploy-sourcegraph` ([`$MAJOR.$MINOR` release branch](https://github.com/sourcegraph/deploy-sourcegraph/tree/$MAJOR.$MINOR) [CI](https://buildkite.com/sourcegraph/deploy-sourcegraph/builds?branch=$MAJOR.$MINOR))
@@ -112,7 +112,7 @@ Create and test the first release candidate:
 
 - [ ] Open a PR to update [`dev/release/release-config.jsonc`](https://github.com/sourcegraph/sourcegraph/edit/main/dev/release/release-config.jsonc) with the parameters for the current release.
 - [ ] Ensure you have the latest version of the release tooling and configuration by checking out and updating `sourcegraph@main`.
-- [ ] Let the #cloud team know about the managed instances upgrade issue
+- [ ] Let the #cloud team know about the managed instances upgrade issue.
 - [ ] Close this issue.
 
 **Note:** If another patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md) be filled out and approved first.
