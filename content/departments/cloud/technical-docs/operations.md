@@ -134,6 +134,26 @@ This will port-forward `localhost:4444` to port `80` on the VM instance. Some co
 
 Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule.
 
+### Backup
+
+Everything
+
+```sh
+mg backup
+```
+
+Just the Cloud SQL
+
+```sh
+mg backup --types sql
+```
+
+Just the VM
+
+```sh
+mg backup --types vm
+```
+
 ### Access through the GCP load balancer as a user would
 
 Users access Sourcegraph through GCP Load Balancer/HTTPS -> the Caddy load balancer/HTTP -> the actual sourcegraph-frontend/HTTP. If you suspect that an issue is being introduced by the GCP load balancer itself, e.g. perhaps a request is timing out there due to some misconfiguration, then you will need to access through the GCP load balancer itself. If the managed instance is protected by the load balancer firewall / not publicly accessible on the internet, then it is not possible for you to access `$CUSTOMER.sourcegraph.com` as a normal user would.
@@ -219,6 +239,24 @@ Next you need to `scp` this from the instance:
 ```
 
 Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
+
+### Deploy new images across all instances
+
+Use case: you would like to roll out a new images to all instances
+
+- Open a PR to update the golden file and merge it
+- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+
+### Update application config across all instances
+
+Use case: you would like to update site-config for all instances
+
+- Open a PR to update `mg` codes with the right configuration
+- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+- Click `Run workflow` and it will run `mg sync` on each instance
+
+> This action also runs every 24h to ensure all instances config are correct
 
 ## Changing the instance
 
