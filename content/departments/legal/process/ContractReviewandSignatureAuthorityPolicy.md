@@ -511,7 +511,7 @@ For temporary consultants and contractors and PEO master agreements, please refe
   - Approve: VP budget owner
 
 - **Amendments** to Sourcegraph teammate contracts
-  - Review: Senior People Partner
+  - Review: (a) Senior People Partner and (b) Legal, if amendment is not routine / outside the ordinary course of business (if unsure, check with Employment Counsel)
   - Approve: Director, People
 - **PEO Statement of work** (with PEO)
   - Review: (a) Senior People Partner and (b) Legal (if Legal review requirements in Legal Review Workflow for Vendor Contracts triggers legal review)
