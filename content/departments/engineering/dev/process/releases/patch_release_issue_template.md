@@ -92,7 +92,7 @@ Create and test the first release candidate:
 <!-- Keep in sync with release_issue_template's "Finalize release" section, except no blog post -->
 
 - [ ] From the [release batch change](https://k8s.sgdev.org/organizations/sourcegraph/batch-changes), merge the release-publishing PRs created previously. Note: some PRs require certain actions performed before merging.
-- [ ] After all the PRs are merged, perform following checks/actions
+- [ ] **After all the PRs are merged**, perform following checks/actions
   - For [deploy-sourcegraph](https://github.com/sourcegraph/deploy-sourcegraph)
     - [ ] Ensure the [release tag](https://github.com/sourcegraph/deploy-sourcegraph/tags) has been created
   - For [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
