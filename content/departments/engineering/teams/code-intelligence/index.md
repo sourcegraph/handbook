@@ -18,8 +18,8 @@ The Code Intelligence team builds tools and services that provide contextual inf
 - In the near term we want Code intelligence to provide seamless, out-of-the-box, precise code navigation for languages that cover 90% of the market usage.
 - We want our code navigation to reach IDE feature parity, while offering the option of plugging into developers’ favorite IDEs.
 - In the longer term, we envision building a global knowledge graph that accurately maps the entire code universe.
-- Our complete strategy is available at [Code intelligence strategy](../../../../../strategy-goals/strategy/code-intelligence/index.md)
-- See [Code Intelligence history](../history.md) for our journey so far!
+- Our complete strategy is available at [Code intelligence strategy](../../../../strategy-goals/strategy/code-intelligence/index.md)
+- See [Code Intelligence history](./history.md) for our journey so far!
 
 ### Video walkthrough
 
