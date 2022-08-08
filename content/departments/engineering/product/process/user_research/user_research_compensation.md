@@ -20,21 +20,24 @@ While planning user research, if you feel it's the right choice to offer compens
 2. Share your research plan and expected cost with Finance ([finance@sourcegraph.com](mailto:finance@sourcegraph.com) or in the #finance Slack channel) to make sure the research budget is available and approved.
 3. Conduct your research!
 4. During or after the session, send the [Sourcegraph Research Compensation form](https://forms.gle/NejoccZTfPAATtg77) to participants to collect their information.
+
 - It's a good idea to warn participants that we can only purchase Amazon gift cards in the following [countries](https://www.amazon.com/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3FnodeId%3D201248840&ref_=navm_footer_icp_cp): Australia, Brazil, Canada, China, Egypt, France, Germany, India, Italy, Japan, Mexico, Netherlands, Poland, Saudi Arabia, Singapore, Spain, Sweden, Turkey, United Arab Emirates, United Kingdom, and United States
+
 5. Create a virtual card in [Aribase](https://dashboard.airbase.io/home)
+
 - Click "Request" > "Spend" in the upper right hand corner
 - Select Amazon as the vendor
 - Select USD for the amount. Enter the total value for all gift cards you need to purchase. For example, if you need to buy 3 $60 Amazon gift cards, you should enter $180 as the amount.
 - Choose 62700 Web/Design as the accounting category.
 - [Learn more about how Sourcegraph uses Airbase](https://handbook.sourcegraph.com/departments/finance/process/payables/).
+
 7. Use your approved virtual card to purchase Amazon gift cards directly through Amazon.
 8. Submit receipts for each Amazon gift card in Airbase.
-
 
 Whoever is the DRI for the research initiative is accountable for making sure the end-to-end compensation process is followed and that the research participants are ultimately compensated.
 
 ## Links & resources
 
--  [Sourcegraph Research Compensation form](https://forms.gle/NejoccZTfPAATtg77)
--  [Sourcegraph User Research Compensation spreadsheet (internal only)](https://docs.google.com/spreadsheets/d/1lQDF8_1XX372FhSE8gsE_XstpGPXrJl5ZhkBanc8dgQ/edit#gid=1160735453)
+- [Sourcegraph Research Compensation form](https://forms.gle/NejoccZTfPAATtg77)
+- [Sourcegraph User Research Compensation spreadsheet (internal only)](https://docs.google.com/spreadsheets/d/1lQDF8_1XX372FhSE8gsE_XstpGPXrJl5ZhkBanc8dgQ/edit#gid=1160735453)
 - [One-Page Research Plan Template](https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#)
