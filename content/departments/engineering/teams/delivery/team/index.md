@@ -2,9 +2,6 @@
 
 Our README expands on our profile in [the company team directory](../../../../../team/index.md) and are meant to help us orient to one another.
 
-- Brie [README](brie-readme.md)
-- Kevin [README](kevin-readme.md)
-
 The format, style, order, etc is up to each of us. Just make sure to include the following to the degree you feel at ease to do so; feel free to add/remove as you see fit:
 
 - How I work
