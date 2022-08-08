@@ -29,7 +29,7 @@ While planning user research, if you feel it's the right choice to offer compens
 - Select Amazon as the vendor
 - Select USD for the amount. Enter the total value for all gift cards you need to purchase. For example, if you need to buy 3 $60 Amazon gift cards, you should enter $180 as the amount.
 - Choose 62700 Web/Design as the accounting category.
-- [Learn more about how Sourcegraph uses Airbase](https://handbook.sourcegraph.com/departments/finance/process/payables/).
+- [Learn more about how Sourcegraph uses Airbase](../../../../finance/process/payables/.md).
 
 7. Use your approved virtual card to purchase Amazon gift cards directly through Amazon.
 8. Submit receipts for each Amazon gift card in Airbase.
