@@ -103,7 +103,7 @@ Language Platform's focus is split into two distinct areas, the creation of data
 
 Code Navigation owns the UI/UX customer facing code navigation experience predominately focusing on the file view.
 
-- Slack channel: #code-navigation
+- Slack channel: #code-navigation-internal
 - Github board --> https://github.com/orgs/sourcegraph/projects/211/views/21
 
 ##### Current members
