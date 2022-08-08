@@ -104,10 +104,6 @@ You **must** be on Google Chrome in order to use BrightHire.
 
   - A: Under GDPR, we are legally required to delete interview recordings when we no longer have a business need for them. There is no legal requirement specifying the amount of time we have to delete the recording. As a matter of policy, Sourcegraph will auto delete all interview recordings within 365 days of the recording. If at any time you would like Sourcegraph to delete your interview recording, you can email your request to support@brighthire.ai and your recording will be deleted (applies to EU residents and to non-EU candidates interviewing with companies that adhere to GDPR).
 
-- Q: Can I request a copy of my BrightHire recording and/or transcript?
-
-  - A: Yes, this is required under GDPR and certain State privacy laws. Sourcegraph will provide you a copy of your recording and transcript upon written request to recruiting@sourcegraph.com.
-
 - Q: Is my interview secure?
 
   - A: BrightHire’s first value as a company is to put candidates first, and this shapes every decision they make, including their approach to data security and privacy. They take the responsibility of securing your information very seriously and use a variety of industry-standard technologies and services to prevent unauthorized access, disclosure, use, and loss.
