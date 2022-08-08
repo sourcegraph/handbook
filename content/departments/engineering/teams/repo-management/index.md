@@ -2,7 +2,7 @@
 
 ## Mission
 
-Our mission is to ensure that Sourcegraph "just works" with the code hosts that our customers use. Whether customers use GitHub, Gitlab, Bitbucket, Perforce, or the many other code hosts that exist, we ensure their code syncs with Sourcegraph without them worrying about it. 
+Our mission is to ensure that Sourcegraph "just works" with the code hosts that our customers use. Whether customers use GitHub, Gitlab, Bitbucket, Perforce, or the many other code hosts that exist, we ensure their code syncs with Sourcegraph without them worrying about it.
 
 ## Members
 
