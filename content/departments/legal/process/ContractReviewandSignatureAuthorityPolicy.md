@@ -247,6 +247,8 @@ Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3M
 
 Additionally, every Customer contract requires a Deal Desk Stamp, which allows us to have better control around the contracts that are signed. You can find more information on the signature process and how to request the deal desk stamp here: [Customer Contracts Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit).
 
+Note: the above signature authority also applies to signing of Evaluation or Proof of Concept (POC) Agreements.
+
 Changes to the above signing authorities require written approval by the CEO.
 
 ### Who sends out the Customer contract for signature?
@@ -369,7 +371,7 @@ The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request
 
 ### Who signs the Vendor contract for Sourcegraph?
 
-- VP Budget Owner or VP Finance/Operations
+- VP Budget Owner
 
 Note: the above signature authority also applies to signing of Vendor DPAs, with the Director of Legal as the back-up signer. If a Vendor has requested a DPA amendment, the Director of Legal has signature authority for that amendment.
 
