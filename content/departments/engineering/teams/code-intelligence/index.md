@@ -50,7 +50,7 @@ There is no "that's not my responsibility" with the use of streams, we just have
 
 ### Language Tools
 
-- Slack channel: #language-tools
+- Slack channel: #language-tools-internal
 - Github board --> https://github.com/orgs/sourcegraph/projects/211/views/51
 
 ##### Current members
