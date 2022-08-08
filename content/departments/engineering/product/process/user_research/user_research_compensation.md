@@ -23,13 +23,13 @@ While planning user research, if you feel it's the right choice to offer compens
 
 - It's a good idea to warn participants that we can only purchase Amazon gift cards in the following [countries](https://www.amazon.com/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3FnodeId%3D201248840&ref_=navm_footer_icp_cp): Australia, Brazil, Canada, China, Egypt, France, Germany, India, Italy, Japan, Mexico, Netherlands, Poland, Saudi Arabia, Singapore, Spain, Sweden, Turkey, United Arab Emirates, United Kingdom, and United States
 
-5. Create a virtual card in [Aribase](https://dashboard.airbase.io/home)
+5. Create a virtual card in [Airbase](https://dashboard.airbase.io/home)
 
 - Click "Request" > "Spend" in the upper right hand corner
 - Select Amazon as the vendor
 - Select USD for the amount. Enter the total value for all gift cards you need to purchase. For example, if you need to buy 3 $60 Amazon gift cards, you should enter $180 as the amount.
 - Choose 62700 Web/Design as the accounting category.
-- [Learn more about how Sourcegraph uses Airbase](../../../../finance/process/payables/.md).
+- [Learn more about how Sourcegraph uses Airbase](../../../../finance/process/payables.md).
 
 7. Use your approved virtual card to purchase Amazon gift cards directly through Amazon.
 8. Submit receipts for each Amazon gift card in Airbase.
