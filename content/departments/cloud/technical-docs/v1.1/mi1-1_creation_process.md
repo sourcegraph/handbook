@@ -75,6 +75,8 @@ For basic operations like accessing an instance for these steps, see [managed in
    - add new map entry to `monitored_projects` in `variables.tf`
    - run `terraform apply`
 
+1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
+
 1. Commit the last changes, create a PR for review, apply and merge
 
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
@@ -108,7 +110,9 @@ terraform output
 
 Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses.
 
-## `KeyRing` already exists
+## Troubleshooting
+
+### `KeyRing` already exists
 
 ```
 │ Error: Error creating KeyRing: googleapi: Error 409: KeyRing projects/sourcegraph-managed-$CUSTOMER/locations/global/keyRings/primary-key-ring already exists.
@@ -119,4 +123,12 @@ You may be trying to re-create an instance in the same project where KMS is only
 ```sh
 terraform import 'module.managed_instance.google_kms_key_ring.keyring' projects/sourcegraph-managed-$COMPANY/locations/global/keyRings/primary-key-ring
 terraform import 'module.managed_instance.google_kms_crypto_key.key' global/primary-key-ring/primary-key
+```
+
+### `Error creating Brand: googleapi: Error 409: Requested entity already exists`
+
+You may be trying to re-create an instance in an existing project. Simply import the resource.
+
+```sh
+terraform import module.managed_instance.google_iap_brand.project_brand $(gcloud alpha iap oauth-brands list --project $PROJECT_ID --format json | jq -r '.[0].name')
 ```

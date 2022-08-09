@@ -43,7 +43,7 @@ GOBIN=~/.bin make install
 If they are not, download the file and open a PR to commit the file prior to upgrade
 
 ```sh
-curl --fail -s https://raw.githubusercontent.com/sourcegraph/deploy-sourcegraph-docker/vX.Y.Z/docker-compose/docker-compose.yaml > ./golden/docker-compose.X.Y.Z.yaml || echo "failed to download"
+mg update-golden -target $VERSION // e.g. 3.42.0
 ```
 
 ### Ensure `config.yaml` file in customer directory is up-to-date
@@ -88,6 +88,8 @@ terraform apply
 
 ### Confirm instance health
 
+<span class="badge badge-note">SOC2/CI-108</span>
+
 Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
 ```
@@ -102,7 +104,15 @@ Commit your change:
 git add . && git commit -m "$CUSTOMER: update docker-compose.yaml"
 ```
 
-Create a pull request.
+### Create a pull request.
+
+<span class="badge badge-note">SOC2/CI-108</span>
+
+You MUST link the pull request to the Github issue that caused the upgrade.
+
+```sh
+gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "Part of <link to release tracking Github ticket>\n## Test plan No review required: normal upgrade\n"
+```
 
 ## Fallback plan
 
