@@ -86,7 +86,6 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 Follow the [post-creation task](#post-creation-tasks) below.
 
-
 ## Post-creation tasks
 
 ### Giving customer access
@@ -105,9 +104,9 @@ Here's the link to the password reset link <>. Please note the link will expire 
 
 If the link expires before the customer was able to sign up, you can generate a new link with
 
- ```bash
- mg reset-customer-password --email <customer admin email>
- ```
+```bash
+mg reset-customer-password --email <customer admin email>
+```
 
 ### Enable "private" mode
 
