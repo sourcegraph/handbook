@@ -16,15 +16,18 @@ Please reach out to finance if you require assistance in completing the vendor o
 Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM). Below are the ones which are currently available:
 
 Order Forms:
+
 - [Sourcegraph Order Form and MSA On Prem](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
 - [Sourcegraph Order Form and MSA Offline](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
 - [Sourcegraph Order Form and MSA Cloud (Managed Instance)](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/edit#heading=h.gjdgxs)
 
 Partner Contracts:
+
 - [Reseller Agreement](https://docs.google.com/document/d/1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1/edit)
 - [Referral Agreemeny](https://docs.google.com/document/d/1UnEJ2Lzw0slRkquHWjjpsO0KN7SVfZgy/edit)
 
 Other Resources:
+
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
