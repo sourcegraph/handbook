@@ -75,7 +75,7 @@ with the Language Platform team in that, Language Tools will provide the specifi
 
 ### Language Platform
 
-Language Platform's focus is split into two distinct areas, the creation of data (invoking SCIP indexers via Executors _or_ generating symbols) and the productionalization of said data (exposing the data in a queryable, performant and scalable way). Language Platform aims to empower two users, providing a programatic/pluggable system for the Language Tools stream and for downstream clients to build ontop of the Code Graph data (the Code Navigation stream and also additional product teams).
+Language Platform's focus is split into two distinct areas, the creation of data (invoking SCIP indexers via Executors _or_ generating symbols) and the productionalization of said data (exposing the data in a queryable, performant and scalable way). Language Platform aims to empower two users, providing a programatic/pluggable system for the Language Tools stream and for downstream clients to build on top of the Code Graph data (the Code Navigation stream and also additional product teams).
 
 - Slack channel: #language-platform-and-navigation-internal
 - Github board --> https://github.com/orgs/sourcegraph/projects/211/views/48
