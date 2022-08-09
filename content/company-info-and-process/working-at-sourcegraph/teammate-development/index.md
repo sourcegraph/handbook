@@ -45,7 +45,7 @@ _**Teammates who are meeting or exceeding our "high bar" expectations can expect
 The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers. Our semi-annual review process is broken into two parts:
 
 - A 360-review, which helps give Teammates insight into how they’re performing, and eliminates “gut feel” and unconscious bias from impacting compensation or promotion decisions.\_ (A 360-review should not serve as a replacement for giving and getting ongoing, continuous feedback. Any underperformance feedback should be covered during 1:1s and should never come as a surprise to the Teammate).
-- A calibration process immediately following the 360-review cycle to ensure we hold a high and consistent bar across Managers, teams, and departments. 
+- A calibration process immediately following the 360-review cycle to ensure we hold a high and consistent bar across Managers, teams, and departments.
 
 Reviews coincide with our promotion and compensation review cycles. [Click here](https://docs.google.com/document/d/1bS2V_9Ne0TdLyMBXufdcoSkkojeeyxzoSXZdCe-fyfE/edit) to learn more about our semi-annual review process.
 
