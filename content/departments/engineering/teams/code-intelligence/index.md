@@ -61,7 +61,7 @@ There is no "that's not my responsibility" with the use of streams, we just have
 
 ##### Focus and ownership
 
-The Language Tools stream focus on tooling specific to programming languages and their counterpart ecosystems to provide the best Precise Intelligence experience. The aim is to have a symbiotic relationship
+The Language Tools stream focus on tooling specific to programming languages and their counterpart ecosystems to provide the best precise code navigation experience. The aim is to have a symbiotic relationship
 with the Language Platform team in that, Language Tools will provide the specific logic per problem (think syntax highlighting) whilst Language Platform will expose an agnostic/programatic way to scale this. Specific areas of ownership include:
 
 - Precise Intelligence
