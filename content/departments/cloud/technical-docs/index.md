@@ -142,3 +142,5 @@ All customer credentials, secrets, site configuration, app and user configuratio
 Please review the Managed Instances v1.0 [operations guide](./operations.md) for instructions.
 
 Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
+
+Managed Instances v2.0 documentation can be found [here](./v2.0/index.md)

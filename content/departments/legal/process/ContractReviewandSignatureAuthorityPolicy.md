@@ -242,10 +242,17 @@ Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3M
 
 ### Who signs the Customer contract for Sourcegraph?
 
-- Financial Controller
-  - Back-Up Signers: Director of Legal and VP Finance/Operations
+1.  Stamp: Deal Desk
 
-Additionally, every Customer contract requires a Deal Desk Stamp, which allows us to have better control around the contracts that are signed. You can find more information on the signature process and how to request the deal desk stamp here: [Customer Contracts Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit).
+**Every** Customer contract requires a Deal Desk Stamp, which allows us to have better control around the contracts that are signed. You can find more information on the signature process and how to request the deal desk stamp here: [Customer Contracts Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit).
+
+Good rule of thumb: When in doubt, get a Deal Desk stamp!
+
+2.  Signature: Financial Controller
+
+Back-Up Signers: Director of Legal and VP Finance/Operations
+
+Note: the above signature authority also applies to Evaluation or Proof of Concept (POC) Agreements.
 
 Changes to the above signing authorities require written approval by the CEO.
 
@@ -369,7 +376,7 @@ The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request
 
 ### Who signs the Vendor contract for Sourcegraph?
 
-- VP Budget Owner or VP Finance/Operations
+- VP Budget Owner
 
 Note: the above signature authority also applies to signing of Vendor DPAs, with the Director of Legal as the back-up signer. If a Vendor has requested a DPA amendment, the Director of Legal has signature authority for that amendment.
 
