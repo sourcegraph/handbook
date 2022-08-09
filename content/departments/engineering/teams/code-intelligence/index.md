@@ -66,7 +66,7 @@ with the Language Platform team in that, Language Tools will provide the specifi
 
 - Precise Intelligence
   - [SCIP](https://github.com/sourcegraph/scip#readme)
-  - SCIP indexers
+  - [SCIP indexers](https://docs.sourcegraph.com/code_intelligence/references/indexers)
   - LSIF indexers
   - Community indexer contributions
 - Auto-inference behavior for indexing projects
