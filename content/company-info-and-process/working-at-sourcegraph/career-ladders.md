@@ -19,16 +19,21 @@
   - [Design career development framework](../../departments/engineering/design/career-development.md)
 
 ## Legal
+
 - [COMING SOON]
 
 ## Marketing
+
 - [COMING SOON]
 
 ## Operations
+
 - [COMING SOON]
 
 ## Sales
+
 - [COMING SOON]
 
 ## Talent & People
+
 - [COMING SOON]
