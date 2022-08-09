@@ -6,7 +6,7 @@
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<https://drive.google.com/file/d/18sGIuQHWUJirCfmVULSfPUnXd5O6ewGv/uc?usp=sharing>
 
 
 ![alt_text](images/image1.png "image_tooltip")
@@ -110,11 +110,7 @@ For the _current snapshot layer, _we replace the tables with the most up-to-date
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
+<https://drive.google.com/file/d/1B0BFBAFjiUOQvEUXOu4YNVuWtixSAMxj/uc?usp=sharing>
 
 
 # **BigQuery**
@@ -122,12 +118,7 @@ For the _current snapshot layer, _we replace the tables with the most up-to-date
 Below is a screenshot of how the tables look like on BigQuerys:
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
+<https://drive.google.com/file/d/1yuEoWbPVB0QQ3TyJDdPcHs95o2-l9nF8/uc?usp=sharing>
 
 
 # **SFDC Account** 
