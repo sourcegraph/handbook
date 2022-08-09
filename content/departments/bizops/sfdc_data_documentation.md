@@ -2,7 +2,7 @@
 
     The salesforce data architecture consists of raw data which has been transformed into  derivative tables for ease of use. These transformations have been done to bring all of the needed data into one place to make the process of joining data for analysis simpler and to ensure data accuracy. This graphic illustrates the processes, transformations, and joins used to create the core derivative tables.
 
-<https://drive.google.com/file/d/18sGIuQHWUJirCfmVULSfPUnXd5O6ewGv/uc?usp=sharing>
+![SFDC Architecture](https://drive.google.com/file/d/18sGIuQHWUJirCfmVULSfPUnXd5O6ewGv/uc?usp=sharing)
 
 **SFDC Raw Tables - Blue**
 
@@ -83,13 +83,13 @@ For the _daily snapshot layer_, we take the most recent row at the end of the da
 
 For the \_current snapshot layer, \_we replace the tables with the most up-to-date data we have daily. It serves as the truth of what is happening “today” on our accounts, leads, opportunity, etc.
 
-<https://drive.google.com/file/d/1B0BFBAFjiUOQvEUXOu4YNVuWtixSAMxj/view?usp=sharing>
+![Fivetran Transformation](https://drive.google.com/file/d/1B0BFBAFjiUOQvEUXOu4YNVuWtixSAMxj/view?usp=sharing)
 
 # **BigQuery**
 
 Below is a screenshot of how the tables look like on BigQuerys:
 
-<https://drive.google.com/file/d/1yuEoWbPVB0QQ3TyJDdPcHs95o2-l9nF8/view?usp=sharing>
+![Data Model](https://drive.google.com/file/d/1yuEoWbPVB0QQ3TyJDdPcHs95o2-l9nF8/view?usp=sharing)
 
 # **SFDC Account**
 
