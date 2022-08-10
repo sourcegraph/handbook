@@ -113,14 +113,6 @@ Once `force_destroy` has been set to "true", Terraform is able to remove the GCP
 terraform destroy
 ```
 
-## Remove the project from the monitoring project
-
-```
-cd monitoring/
-sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for macOS
-terraform apply
-```
-
 ## Commit the changes to the deploy-sourcegraph-managed repo
 
 ### Prepare the changeset
