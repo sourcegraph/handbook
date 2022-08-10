@@ -79,7 +79,6 @@ What's intentionally NOT in this list (but would be plausible items for a simila
 - **~~Public usage~~:** We target organizations' Sourcegraph instances (Cloud managed instances and customer self-managed or jointly managed instances), not Sourcegraph.com. Presume for any feature that it's not worth doing extra work to make it work on Sourcegraph.com (and disable it on Sourcegraph.com with a feature flag if needed).
 - **~~Secrecy/surprise~~:** We almost never care about keeping a feature secret prior to announcement. It's still important to avoid confusing users and customers about pre-release features and future plans.
 
-
 ## Links
 
 Reference:
