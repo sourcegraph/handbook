@@ -91,7 +91,7 @@ It also provides key areas for CEs to consider and specific steps to take to ens
    </td>
    <td>A living document that is used to track information about customers - their needs, their technical environment, use cases, etc. At first, this document captures details about the customer prior to Sourcegraph, then during the trial phase, and subsequently as they move to production.
 <p>
-<a href="https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/">Link To Template</a>
+<a href="https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/">Link To Template</a>
 <p>
 Store Completed TDDs <a href="https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC">Here</a>
    </td>
@@ -201,11 +201,11 @@ The following criteria are used to determine whether a technical win should prog
 - Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
 - Has the CE completed technical qualification of the customer’s usage scenario?
 - If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed?
-- CE has completed a v1 draft of the [Technical Design Document](https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/)
+- CE has completed the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
 
 #### Trial Deployment (Sales Stages: 3-4)
 
-- CE has completed a v1 final version of [Technical Design Document](https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/)
+- CE has updated the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
 - CE has completed the Trial and Deployment portions of the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268)
 - Is the trial or evaluation environment successfully deployed?
 
@@ -218,7 +218,7 @@ The following criteria are used to determine whether a technical win should prog
 #### Post-Trial (Stages 5-7)
 
 - CE has completed a v1 draft of the [Post Sales Engagement Sheet](https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0)
-- CE has updated the [Technical Design Document](https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/) with details about the customer’s production deployment plans
+- CE has updated the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) with details about the customer’s production deployment plans
 - Welcome kickoff meeting is scheduled with the customer
 
 ### Technical Design Document Creation and Review
