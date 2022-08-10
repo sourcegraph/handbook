@@ -89,7 +89,7 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 ### Security
 
 - **Isolation**: Each managed instance is created in an isolated GCP project with heavy gcloud access ACLs and network ACLs for security reasons.
-- **Admin access**: Both the customer and Sourcegraph personnel will have access to an application-level admin account.
+- **Admin access**: Both the customer and Sourcegraph personnel will have access to an application-level admin account. Learn more about [how we ensure secure access to your instance](./oidc_site_admin.md).
 - **VM/SSH access**: Only Sourcegraph personnel will have access to the actual GCP VM, this is done securely through GCP IAP TCP proxy access only. Sourcegraph personnel can make changes or provide data from the VM upon request by the customer.
 - **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.). Notes, in addition to the customer provided IP allowlist, traffic from well-known public code hosts (e.g. GitHub.com) is also permitted to access selected Sourcegraph endpoints to ensure functionality of certain features.
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
