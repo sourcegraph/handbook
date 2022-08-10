@@ -3,8 +3,7 @@
 Information about Sourcegraph's different instances.
 
 - [sourcegraph.com](instances.md#dotcom) (or 'DotCom') is our public, free-to-use deployment.
-- [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest customers.
-  This deployment also contains all of our private code.
+- [k8s.sgdev.org](instances.md#k8s-sgdev-org) is a dogfood deployment that replicates the scale of our largest on-prem customers. This deployment also contains all of our private code.
 - [Managed instances](../../../../cloud/index.md) are deployments of Sourcegraph we manage for customers.
   - [demo.sourcegraph.com](instances.md#demo-sourcegraph-com) is a managed instance used for CE demos.
   - [devmanaged.sourcegraph.com](instances.md#devmanaged-sourcegraph-com) is a managed instance used for managed instances development.
@@ -42,6 +41,14 @@ This deployment also includes our [documentation](https://docs.sourcegraph.com/)
 This deployment is also colloquially referred to as "dogfood", "dogfood-k8s", or just "k8s".
 This is the Sourcegraph instance to use for dogfooding changes to Sourcegraph.
 It contains Sourcegraph private code, and deploys the latest [Sourcegraph images](./index.md#images) via [ArgoCD](./index.md#argocd)
+
+We are following GitOps practice to handle deployment of `k8s`. The source of truth of the deployment is [sourcegraph/deploy-sourcegraph-dogfood-k8s](https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s/blob/release/dogfood-helm/kustomization.yaml).
+
+We use two scheduled GitHub Actions to continuously create PRs to update the images and merge the created PRs on a fixed schedule. If you would like to bypass the schedule, do the following
+
+- Run https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s/actions/workflows/update-tags.yml and wait for completion
+- Run https://github.com/sourcegraph/deploy-sourcegraph-dogfood-k8s/actions/workflows/merge-pr.yml
+- Your changes should be up in no time, or you may monitor the rollout status in <argocd.sgdev.org>
 
 Learn more in [deployment basics](./index.md#deployment-basics).
 
