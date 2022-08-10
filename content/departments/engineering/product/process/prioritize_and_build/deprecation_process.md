@@ -12,6 +12,12 @@ You should first determine the potential impact of the feature deprecation:
 
 Be sure to talk to the the parties above and ensure you really understand the impact of the deprecation. If the answers to these questions confirm that deprecation is the best path forward, you should next document the deprecation.
 
+## Prefer gradual deprecation
+
+We should strive to gradually remove functionality over multiple releases to provide time for our customers and internal teams to make plans and adjust. For example, in a first release we use a feature flag to disable functionality by default and, in a subsequent release we remove the functionality entirely.
+
+How we achieve this gradual deprecation should be assessed on a case by case basis depending on the usage, importance of the feature, impacts of removing and other factors.
+
 ## Documenting a feature's deprecation
 
 You should then create a blog post to publish when we deprecate the feature. The blog post should contain:
