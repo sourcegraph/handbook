@@ -10,7 +10,7 @@ The CE team is a single globally distributed team. There are currently six level
 - Business
 - Technology
 
-We think of these three core competencies that every CE must demonstrate in order to serve our customers and our business: leadership, business, and technology. Within each pillared competency are defined core behaviors that CEs perform. In most cases, a level builds on the expectations from the preceding levels, eg someone at level 2 must also meet the level 1 expectations. In addition to what is listed in our ladders (stored in Lattice), we expect every customer engineer, at all levels, to exhibit our values. Also, rather than precede each bullet point with "consistently", we leave it as implicit. These are the expectations for ICs after they have completed their onboarding.
+We think of these three core competencies that every CE must demonstrate in order to serve our customers and our business: leadership, business, and technology. Within each pillared competency are defined core behaviors that CEs perform. In most cases, a level builds on the expectations from the preceding levels, eg someone at level 2 must also meet the level 1 expectations. In addition to what is listed in our ladders (stored in Lattice, as well as shown below), we expect every customer engineer, at all levels, to exhibit our values. Also, rather than precede each bullet point with "consistently", we leave it as implicit. These are the expectations for ICs after they have completed their onboarding.
 
 ### Leadership
 
@@ -216,7 +216,7 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       <td>
         <ul>
           <li>Can reference examples of where we have uncovered new opportunities to make Sourcegraph stickier and more widely used.</li>
-          <li>Strong interpersonal skills and influence interfacing directly with Director, VP, C-level audiences and also at DevOps, architect and dev team levels, too-_</li>
+          <li>Strong interpersonal skills and influence interfacing directly with Director, VP, C-level audiences and also at DevOps, architect and dev team levels, too</li>
         </ul>
       </td>
     </tr>
@@ -231,7 +231,7 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       <td>Entirely self-directed, can build a clear technical win plan and technical design for customers. Able to raise requests to internal teams on behalf of customer needs.</td>
       <td>Designs solutions and phased roll out plans / technical design plans against customer needs. Negotiates and influences customer needs and design according to best practices, owning the technical design for customer solutions.</td>
       <td>Turns gaps into opportunities by formulating a plan for success and driving activity against that plan on behalf of customers.</td>
-      <td>Recognized as an industry influencer and thought leader around code search</td>
+      <td>Recognized as an industry influencer and thought leader around code search.</td>
     </tr>
     <tr>
       <td colspan="6" class="category-summary leadership">
@@ -365,7 +365,7 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       </td>
       <td>
         <ul>
-          <li>Understands advanced features to deliver customer value through extensibility and customization.</li>
+          <li>Understands advanced features to deliver customer value through extensibility and customization</li>
           <li>Leads the customer on best practices for configuring and using the product, steering clear of less ideal designs in complex customer environments.</li>
           <li>Can consistently technically advise a path forward when an issue/limitation has been identified.</li>
           <li>Voice of the customer: Speaks directly to the impact / benefit of gaps, features, and needs to internal teams.</li>
@@ -374,14 +374,14 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
       </td>
       <td>
         <ul>
-          <li>Understands advanced features to deliver customer value through extensibility and customization.</li>
+          <li>Understands advanced features to deliver customer value through extensibility and customization</li>
           <li>Ability to guide a technical audience towards good engineering disciplines and demonstrated experience in what it takes to incorporate Sourcegraph into a customer architecture.</li>
           <li>Voice of the customer: Demonstrated ability to manage project and product changes by re-aligning internal and external teams to customer needs and business value.</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Understands advanced features to deliver customer value through extensibility and customization.</li>
+          <li>Understands advanced features to deliver customer value through extensibility and customization</li>
           <li>As a thought leader, creates architectural best practices on development ecosystems that leverage Sourcegraph. These best practices are recognized by customers and used to drive competitive advantage for organizations.</li>
         </ul>
       </td>
