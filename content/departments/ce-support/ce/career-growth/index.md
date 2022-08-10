@@ -376,4 +376,3 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
    </td>
   </tr>
 </table>
-
