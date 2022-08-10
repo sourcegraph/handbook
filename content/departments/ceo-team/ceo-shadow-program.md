@@ -18,6 +18,7 @@ The CEO Shadow will give [eligible employees](https://github.com/sourcegraph/han
 In addition, this program is designed to humanize the [CEO](../../team/ceo/index.md) (and the executive team) so that teammates are more confident and comfortable collaborating and providing direct feedback to the [CEO](../../team/ceo/index.md) and the exec team after the rotation is over.
 
 ## Past CEO Shadow experiences
+
 Are you curious about how other shadow's experiences? Hear from them yourself about their experiences and takeaways.
 
 - Joel Kwalter (June 8th - 9th)
@@ -66,7 +67,7 @@ Participation in the CEO Shadow Program is not additive work to your day job. Pa
 
 ## Preparation
 
-We encourage upcoming Shadows to review prior shadows [blogs / vlogs](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to the Chief of Staff to the CEO directly (they will alos proactively reach out to you if there is anything specific Quinn would like to work with you on). 
+We encourage upcoming Shadows to review prior shadows [blogs / vlogs](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#past-ceo-shadow-experiences) or reach out to them directly to discuss their experience. You can also reach out to the Chief of Staff to the CEO directly (they will alos proactively reach out to you if there is anything specific Quinn would like to work with you on).
 
 ### Travel & Expenses
 
@@ -74,7 +75,7 @@ The CEO Shadow Program is designed to provide a unique and compelling opportunit
 
 #### Lodging
 
-Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. If travling a long distance and loding is needed over the weekend, please clear with the Chief of Staff (@Connor O'Brien )first. 
+Lodging during the CEO shadow program is provided by the company and will only cover for the "active" shadowing period. If travling a long distance and loding is needed over the weekend, please clear with the Chief of Staff (@Connor O'Brien )first.
 
 Lodging is booked in accordance with our [company travel policy](../../benefits-pay-perks/benefits-perks/travel/index.md). We use TripActions.
 
@@ -104,7 +105,7 @@ The CEO Shadow will not participate in Exec Team Off-site or Board meetings. Sho
 
 ## Blog post / interview
 
-Part of your job as a CEO Shadow is to create a blog / vlog post about your time as the CEO Shadow. 
+Part of your job as a CEO Shadow is to create a blog / vlog post about your time as the CEO Shadow.
 
 ### When is your content due?
 
