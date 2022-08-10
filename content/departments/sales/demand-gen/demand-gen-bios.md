@@ -2,11 +2,7 @@
 
 Our README expands on our profile in [the company team directory](../../../team/index.md) and are meant to help us orient to one another.
 
-- Adam [README](./adam-readme.md)
-- Erica [README](./erica-readme.md)
-- Greg [README](./greg-readme.md)
 - Jake [README](./jake-readme.md)
-- Sarah [README](./sarah-readme.md)
 
 ---
 
