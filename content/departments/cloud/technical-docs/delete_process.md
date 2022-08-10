@@ -273,6 +273,8 @@ This [Github Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aope
 
 ## Close teardown request issue
 
+<span class="badge badge-note">SOC2/CI-41</span>
+
 > NOTE: to ensure auditability of the teardown SLA, it is important to execute these steps directly after tearing down a managed instance.
 
 1. Validate that the teardown request issue has references to the pull requests showing the necessary changes. If any are missing, update the PR descriptions with a link to the teardown request issue.
