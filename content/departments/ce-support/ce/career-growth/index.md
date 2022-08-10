@@ -62,8 +62,8 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     --leadership-color: var(--sg-vivid-violet);
     --business-color: var(--sg-sky-blue);
     --technology-color: var(--sg-vermillion);
-    --values-color: var(--sg-mint);
-    --levels-color: var(--sg-blurple);
+    --values-color: var(--sg-blurple);
+    --levels-color: var(--sg-mint);
 
     table-layout: fixed;
   }
@@ -94,14 +94,13 @@ Learn more about CEs transitioning to CE management [here](cemgr-candidates-inte
     text-align: center;
     border-color: var(--category-color);
     background: var(--category-color);
-    color: white;
   }
   tbody td.category-title {
     text-align: center;
     border-color: var(--category-color);
     background: var(--category-color);
   }
-  td:is(.leadership, .technology) {
+  td:is(.leadership, .technology, .values) {
     color: white;
   }
   /*
