@@ -23,8 +23,8 @@ After CPT review, the PR and deploy preview are shared with stakeholders to prov
 1. CPT project manager creates a Slack channel to collect feedback and shares this, the Asana task, the PR link, and the deploy preview link with the appropriate stakeholders and the PR Author. This includes a deadline for feedback.
    - The naming convention for the channel is: #review-[issue title]
    - Where applicable, feedback can also be captured in a markup.io file.
-2. Once feedback cycle is closed, the PR Author works through the necessary changes and where applicable, can leave non-blocking feedback for a later stage. 
-5. After changes are made, stakeholders are asked to perform a final review.
+2. Once feedback cycle is closed, the PR Author works through the necessary changes and where applicable, can leave non-blocking feedback for a later stage.
+3. After changes are made, stakeholders are asked to perform a final review.
 
 ## Approval and release
 
