@@ -18,7 +18,7 @@ Notes:
   - If there are kinds or groups of devs who don't use Sourcegraph frequently (much less 10+ times daily), we should figure out why and see if we can make Sourcegraph more useful to them.
   - For example, if a dev works at a company where only some of the code they work with is on Sourcegraph, then it's less likely they'll find Sourcegraph useful 10+ times daily. The most valuable first step is probably to figure out how to get all of their code on Sourcegraph.
 - What is the relationship between "10+ times daily" and "dev time saved"?
-  - We want users to use Sourcegraph 10+ times daily *because* it saves them time.
+  - We want users to use Sourcegraph 10+ times daily _because_ it saves them time.
   - We don't want to artificially increase frequency of usage through annoying "growth hack" techniques that don't save devs time.
   - We prefer higher usage frequency with less value per use (for example, a user having 10 sessions each with `N/10` time saved is better than 1 session with `N` time saved). This is because as a non-system-of-record (that users aren't required to use), we need users to remember to use us and consider us among their small number of go-to dev tools, which is more likely to happen with high usage frequency.
 - See "[Engineering department update 2022-06](https://docs.google.com/document/d/1YezFhbIsH8YHRLRdwZ-qUK1Z4aogM04_8IqxJpUX-nY/edit#)" for our strategy, including making Cloud (managed instances) the preferred deployment method, focusing on the core workflow, counting dev time saved, and deeply integrating code-related concepts (code nav, code graph, code ownership, and more).
