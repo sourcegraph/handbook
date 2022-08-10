@@ -27,7 +27,7 @@ This is a new program, so any and all of these points are flexible, but here is 
 
 ## How to participate
 
-If you have questions or want to participate, please message Quinn Slack or Nick Snyder.
+If you have questions or want to participate, please message Nick Snyder.
 
 ## FAQ
 
