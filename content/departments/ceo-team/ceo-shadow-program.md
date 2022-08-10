@@ -71,7 +71,7 @@ We encourage upcoming Shadows to review prior shadows [blogs / vlogs](https://gi
 
 ### Travel & Expenses
 
-The CEO Shadow Program is designed to provide a unique and compelling opportunity to any and all Sourcegraph teammates. It's aim is to be as inclusive as possible so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](../../benefits-pay-perks/benefits-perks/travel.md#3-individual-travel.md).
+The CEO Shadow Program is designed to provide a unique and compelling opportunity to any and all Sourcegraph teammates. It's aim is to be as inclusive as possible so any and all travel-related expenses (detailed below) will be covered by the program and not draw down from your [individual travel budget](../../benefits-pay-perks/benefits-perks/travel/index.md).
 
 #### Lodging
 
