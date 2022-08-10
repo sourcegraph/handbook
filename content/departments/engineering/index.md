@@ -55,20 +55,28 @@ The following functional teams work across the above dev teams:
 
 For every feature we ship, consider:
 
+#### Build
+
 - **Security:** Make it secure, because our customers trust us with very sensitive code and other data, and we need to continually earn and retain that trust.
 - **Reliability:** Make it stable and robust, because devs don't trust flaky or incorrect results.
 - **Speed:** Make it fast, because devs won't use something 10+ times daily if it's slow.
 - **Scalability:** Make it work at large scale, such as big monorepos or 100,000s of repositories.
 - **Documentation:** Add and update documentation for the new feature.
-- **Announcement:** Draft the eventual announcement of the feature early (in blog post form, along with a changelog entry and major docs changes), and update it as you iterate.
-- **Iteration feedback:** Iterate with our existing customers and gather user feedback as early as possible.
-- **Usage/value analytics:** Show how the feature is being used to users and admins, communicate the value to the customer's business, and identify opportunities for more value.
 - **Accessibility:** Make it accessible to a broad set of users (including keyboard accessibility).
-- **Marketing:** Update all marketing content to reflect the new feature (such as our about site, readmes, extension descriptions, slides, etc.).
 - **Observability:** Help admins debug, manage, and scale the functionality.
 - **Telemetry:** Gather the (minimum) data needed for us to understand how the feature is being used and improve it.
 - **Backward-compatibility:** Make it smooth to upgrade from past versions and adapt usage to the newest version.
 - **Forward-compatibility:** Anticipate the feature's future evolution (where possible, and without over-building today).
+
+#### Feedback
+
+- **Iteration feedback:** Iterate with our existing customers and gather user feedback as early as possible.
+- **Usage/value analytics:** Show how the feature is being used to users and admins, communicate the value to the customer's business, and identify opportunities for more value.
+
+#### Launch
+
+- **Marketing:** Update all marketing content to reflect the new feature (such as our about site, readmes, extension descriptions, slides, etc.).
+- **Announcement:** Draft the eventual announcement of the feature early (in blog post form, along with a changelog entry and major docs changes), and update it as you iterate.
 - **Pricing/packaging:** Decide which plans include this feature and whether its code will be open-source or not.
 
 What's intentionally NOT in this list (but would be plausible items for a similar list at other companies):
