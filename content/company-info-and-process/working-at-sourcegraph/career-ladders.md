@@ -6,7 +6,7 @@
   - [Support Career Growth](../../departments/ce-support/support/career-growth/index.md)
   - [Customer support career levels](../../departments/ce-support/support/career-growth/cs-career-levels.md)
 - **Customer Engineering**
-  - [COMING SOON]
+  - [Customer engineering framework & levels](../../departments/ce-support/ce/career-growth.md)
 
 ## Engineering
 
