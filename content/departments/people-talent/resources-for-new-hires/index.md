@@ -5,7 +5,7 @@
 - [Perks and Benefits](../../../benefits-pay-perks/benefits-perks/index.md)
 - [Types of employment](../../people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md)
 - [Company values](../../../company-info-and-process/values/index.md)
-- What do we do
+- [What do we do](https://about.sourcegraph.com)
 - [How we work asynchronously](../../../company-info-and-process/communication/asynchronous-communication.md)
 
 ## Once you've decided to join us

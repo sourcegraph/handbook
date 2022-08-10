@@ -12,7 +12,7 @@ Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.engineering_manager_cloud}}
 
-## Security
+## [Security](../departments/security/index.md#members)
 
 {{generator:reporting_structure.engineering_manager_security}}
 
@@ -28,7 +28,7 @@ Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.vp_talent}}
 
-## Executive Business Partners
+## [Executive Business Partners](EPB.md)
 
 {{generator:reporting_structure.ebp_lead}}
 

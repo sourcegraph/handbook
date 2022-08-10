@@ -11,10 +11,11 @@ Arguments:
 
 # $MAJOR.$MINOR.$PATCH managed instances upgrade
 
-These [managed instances](../../../teams/devops/managed/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
+These [managed instances](../../../../cloud/index.md) upgrades are scheduled for **$ONE_WORKING_DAY_AFTER_RELEASE**.
 
-To perform these upgrades, follow the [managed instances upgrade process](../../../teams/devops/managed/upgrade_process.md).
+To perform these upgrades, follow the [managed instances upgrade process](../../../../cloud/technical-docs/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
+For compliance, ensure that you link the upgrade pull requests to this issue.
 
 ---
 
@@ -24,6 +25,7 @@ Make sure to upgrade internal instances before customer instances.
 - [ ] Upgrade [rctest.sourcegraph.com](https://rctest.sourcegraph.com)
 - [ ] Upgrade [demo.sourcegraph.com](https://demo.sourcegraph.com) - contact #ce beforehand and make sure there are no demos scheduled for the hour of the upgrade.
 - [ ] Upgrade [tpgi.sourcegraph.com](https://tpgi.sourcegraph.com) - this is the accessibility audit managed instance, please contact #frontend-platform before upgrading.
+- [ ] Upgrade [sourcegraph.sourcegraph.com](https://sourcegraph.sourcegraph.com)
 
 ## Upgrade customer managed instances
 
@@ -49,11 +51,15 @@ Make sure to upgrade internal instances before customer instances.
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/774
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/956
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/769
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1046
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1044
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1057
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1058
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1101
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1106
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1108
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1111
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1107
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1109
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8483
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8287
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8389
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8340

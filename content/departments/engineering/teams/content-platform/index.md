@@ -114,7 +114,7 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
   - **[Handbook](https://github.com/orgs/sourcegraph/projects/227/views/5)** contains issues in the [Handbook repo](https://github.com/sourcegraph/handbook).
   - **[About/Marketing Site](https://github.com/orgs/sourcegraph/projects/227/views/7)** contains issues in the [About repo](https://github.com/sourcegraph/about/labels/blog), excluding issues labeled “docs”, “docs-ux”, or “blog”.
   - **[Blog](https://github.com/orgs/sourcegraph/projects/227/views/8)** contains issues labeled “blog”.
-  - **[Learn](https://github.com/orgs/sourcegraph/projects/227/views/9)** contains issues in the [Learn repo](https://github.com/sourcegraph/learn.
+  - **[Learn](https://github.com/orgs/sourcegraph/projects/227/views/9)** contains issues in the [Learn repo](https://github.com/sourcegraph/learn).
 - **Statuses:**
   - **Backlog:** Issue has not yet been [triaged](#triaging-incoming-requests) or is otherwise not ready to be worked.
   - **Ready for Development:** Issue has been triaged and prioritized, and is ready to be worked.
@@ -124,11 +124,17 @@ The Content Platform Product Manager triages and prioritizes requests on a daily
   - **Done:** Work is complete, PR is merged (if applicable), and no further action is needed on this issue.
   - **Not Planned:** Issue has been triaged, but not prioritized with current work. This may mean it will be prioritized in the future when it aligns with the roadmap.
 - **Automation:**
-  - When an issue or PR is added to the project, its status is set to **Backlog**.
-  - When an issue or PR is reopened, its status is set to **Ready for Development**.
-  - When an issue or PR is closed, its status is changed to **Done**.
-    - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
-  - When a PR is merged, its status is changed to **Done**.
+
+GitHub Automation workflows are currently in Beta and we take advantage of the following features available to us:
+
+- When an issue is added to the project, its status is set to **Backlog**.
+- When an issue or PR is reopened, its status is set to **Ready for Development**.
+  - In some cases, PRs may be reopened but are not yet **In Progress** again. If , manually change the status.
+- When an issue or PR is closed, its status is changed to **Done**.
+  - In some cases, **Not Doing/Cancelled** may be a more appropriate status. If so, manually change the status.
+- When PR changes are requested, the status is set to **In Progress**.
+- When a PR is approved, its status is changed to **In Stakeholder Review**.
+- When a PR is merged, its status is changed to **Done**.
 
 ### Pull Requests
 
@@ -139,7 +145,6 @@ All PRs made by the Content Platform team go through a creation and QA process.
 1. Context in the description on what the PR achieves. This includes which issues it refers to, if any, using [closing keywords](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to automate issue closing.
 2. A list of tasks as a Test Plan that a reviewer should test to ensure the proposed changes work as intended.
 3. At least 1 reviewer to review, provide feedback if necessary, and approve, in order to increase code health and prevent accidental bugs and changes from being snuck in after an approval has been made.
-   - Note that the `/docs`, `/blogposts`, and `/podcasts` directories in our [About repo](https://github.com/sourcegraph/about) dismiss approvals for our Legal and Content Marketing teams to reduce friction. However, other changes proposed for the rest of the codebase require an approval.
 4. Setting yourself as the assignee to keep track of your work.
 5. Any relevant labels, including the required `team/content-platform` label.
 6. Tagging the **Content Platform Work** project and setting the apropriate status through the stages of work: In Progress and In Review, to keep everyone informed.
@@ -151,7 +156,7 @@ All PRs made by the Content Platform team go through a creation and QA process.
 1. Create a draft PR if your PR is still work in progress (WIP).
 2. Assign a reviewer once your PR is ready to be reviewed and is no longer WIP.
 3. If there are changes requested, push your changes and resolve conversations as they are fixed. You can optionally leave conversations unresolved if more conversation is necessary.
-4. Once approved, the Author merges and the branch is deleted.
+4. Once approved, the Author merges and the branch is automatically deleted.
 
 ### Planning
 

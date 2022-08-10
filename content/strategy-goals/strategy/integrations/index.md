@@ -1,108 +1,75 @@
 # Integrations Team Strategy
 
-Quick links:
-
-- [Integrations Backlog](https://github.com/orgs/sourcegraph/projects/213/views/26)
-
 ## Vision
 
 Sourcegraph provides value anywhere that someone reads or writes code.
 
-## Where we are now
-
-### Our products
-
-#### Browser extensions
-
-First released in 2016, the[ Browser Extension](https://about.sourcegraph.com/blog/browse-review-code-on-github-like-in-an-ide-with-the-sourcegraph-chrome-extension/) is the oldest product in the Integrations ecosystem of products. The mission of the Browser Extension is to bring the value of Sourcegraph to code hosts.
-
-Browser extensions offer code intelligence features, providing information and actions when you hover your mouse over code in files, diffs, pull requests. They also bring further information to the code host by displaying data provided via Sourcegraph extensions (e.g. code coverage information).
-
-All recent work in our Browser extensions has been to ensure stability, test coverage and bug fixes.
-
-#### IDE extensions
-
-The initial release of our IDE extensions was mid 2017 and included Sublime Text, JetBrains and Atom (VS Code was introduced in 2018). Most of these integrations were basic in functionality and allowed you to:
-
-- Open a file in Sourcegraph
-- Search text selection in Sourcegraph
-- Copy link to line in Sourcegraph
-
-On Jan 2022, we released a major revamp of our VS Code integration that included far more functionality including:
-
-- Integrated Sourcegraph search
-- Open a file from search in your IDE
-- Access to saved searches, recent files and repositories
-
-At the time of writing this document we’re also looking to create a similar extension for the JetBrains family of IDEs.
-
-#### Sourcegraph extensions
-
-Sourcegraph extensions originated in an October 2018 hackathon. They were rapidly used to build things like our Codecov integration, and some core features of Sourcegraph were ported from our main codebase to this new platform: git-extras (providing our inline blame feature) and code intel extensions.
-
-Sourcegraph extensions provide additional functionality to the Sourcegraph website or code hosts if you have the browser extension installed. These cover both integrations with third party tools (e.g. Codecov, Datadog, Sentry etc.) as well as other tools (e.g. search export, open in editor etc.). We also provide both a public extensions registry and the ability to create your own registry for discovering and installing extensions. At present anyone can create an extension on our public extension registry.
-
-After the release of the Datadog integration (Feb 2022), we’ve seen increasing interest in integrating with more third party tools.
-
 ## Strategy and Plans for FY’23
 
-### **Themes**
+### Themes
 
-#### Double down on integrations
+For the next 6 months, we will be focussing on the following two themes:
 
-In the long term we want to position Sourcegraph as the authoritative source for information relating to code. In order to achieve this we need to provide a platform that our customers trust and provides compounding value with each tool you integrate.
+1. Move extensions into the core workflow
+2. Introduce new concepts to Sourcegraph
 
-Integrations align directly with our FY’23 strategy as some of our use cases require information from other tools (e.g. Managing security vulnerabilities). Integrations can also provide additional value to our existing features (e.g. Code Insights aggregating third party data with code search data).
+Due to this focus, we'll be pausing feature work on IDE and Browser extensions.
 
-Integrations can also increase our addressable market by providing value for roles we don’t normally support. This could work in two ways, combining code with other third party data they typically use (e.g. Mapping code to infrastructure for SREs) or bringing visibility of Sourcegraph functionality to tools that other roles use (e.g. linking Sourcegraph notebooks in a Jira ticket for Product Managers). This aligns with early signals from our tech partners who are looking to expand their solutions beyond their current target market to developers.
+#### Moving extensions into the core workflow
 
-#### Focus on bringing a great Sourcegraph search experience to more IDE users
+To improve the core workflow we will move the most heavily used extensions to be core parts of our product (e.g. code intelligence, open in editor, git extras etc.). For our customers this will result in these features being both faster and more discoverable, saving developer time.
 
-Right now, we see a polar distribution of usage with Sourcegraph, our power users use us multiple times per week, but the majority only occasionally. We believe that part of the key of converting occasional users to frequent users is to become embedded in a developers workflow and providing our functionality into IDEs is the best way to do that.
+To further simplify the product and have a greater focus on the core workflow we will also deprecate the current Sourcegraph extensions and the extension registry. With the most used extensions becoming core parts of our product there's less need for our extensions. Instead, we will work towards a different extension model in order to support our goal of introducing new concepts to Sourcegraph. Deprecating Sourcegraph extensions will require us to work with our customers to determine what custom extensions have been built and endeavour to add them as native features.
 
-To achieve this, we will focus on building highly native integrations for VS Code and JetBrains IDEs that minimize context switching and focus on developer flow. As our goal is building a habit of using Sourcegraph in the IDE, we want to ensure core use cases are well adopted before expanding our functionality. Consequently we’ll initially focus on the Code Reuse and Developer Onboarding use cases before expanding to others later.
+#### Introduce new concepts to Sourcegraph
 
-We also believe that we can greatly improve the adoption of our IDE extensions by focusing on the management and rollout of extensions at scale. Often enterprises have supported IDEs, IDE extensions, or tooling for particular IDEs. If we can become a standard approved extension for IDEs at large companies, we can greatly increase our reach inside of them. To achieve this we’ll focus on making it easier to automatically configure and authenticate our extensions for private instances.
+In the long term we want Sourcegraph to become the primary source for information relating to code, tying all tools that developers use into a single platform. This will make Sourcegraph indispensable as we become the best way to answer any question relating to code, unblocking developers and saving their time.
 
-#### Use Browser Extensions as a funnel for advanced functionality
+The first concept we want to introduce to Sourcegraph is code ownership. This has been a highly requested feature with clear, validated use cases across all of our products.
 
-When launched, our Browser Extensions provided much needed code intelligence functionality into code hosts, however, this is now implemented natively (either directly in the case of GitHub, or indirectly through Web IDEs).
+After code ownership, we will have a pattern of how we ingest, store and search across new concepts. We will then identify and prioritize subsequent concepts (and their associated use cases), and determine how we can incorporate those into Sourcegraph.
 
-Adding functionality via Browser Extensions is expensive and brittle due to the fact we don’t own the underlying platform and we anticipate this will get worse as browsers become further locked down. Despite the difficulties, we do have a competitive advantage that we can provide the same functionality across different code hosts, providing a consistent experience for our customers.
+#### Pause Browser extensions
 
-Because of the complexities of adding functionality directly into code hosts, we believe the best course of action is to continue to solve our core use cases (Code Reuse and Developer Onboarding) via Browser Extensions but redirect users to our web app for more advanced functionality. This approach has worked well with “Find References” and we believe we can continue to use it for other features.
+When launched, our Browser Extensions provided much needed code intelligence functionality into code hosts. Since then code hosts have now caught up and implement similar (albeit not as good) functionality to their products.
 
-### **What's next and why**
+Because of this we want to first focus on improving our competitive differentiation by bringing new concepts about code into Sourcegraph. From there we can work out where best to display them on code hosts to provide the most value to our users.
 
-#### Q2
+After we've added additional user value to the Browser extensions, we will focus on improving widespread adoption for developers at an enterprise level. We had previously optimised for onboarding individual users, but given our focus change to enterprise, we need to find an adoption strategy that is more scalable. Instead, we will explore ideas such as becoming an approved extension for [Chrome enterprise](https://support.google.com/chrome/a/answer/6306504?hl=en).
 
-We have two major themes for Q2:
+#### Pause IDE extensions
 
-1. Increase the usage of Sourcegraph within IDEs
-2. Determine long term direction for Sourcegraph extensions
+After the release of the JetBrains plugin we will have supported IDE extensions for the [majority of professional developers](https://survey.stackoverflow.co/2022/#section-worked-with-vs-want-to-work-with-integrated-development-environment) and the most highly requested by our customers.
 
-##### Increase the usage of Sourcegraph within IDEs
+Similar to Browser extensions, we want to improve our user value and product differentiation to become more than a convenient place to search in a user's editor. We plan on using the new concepts that we will be incorporating into Sourcegraph to increase value for user's in IDEs. After that, we'll work on getting enterprise-wide adoption by making authentication, and distribution of our extensions easier.
 
-We believe that we can improve our IDE extensions are a great way of getting Sourcegraph adopted into a developers workflow, driving engagement. We want to continue the momentum we generated in Q1 with the VS Code launch by continuing to invest here. We will focus on two major streams of work:
+### What’s next and why
 
-1. [JetBrains IDE extension](https://github.com/sourcegraph/sourcegraph/issues/31465) - to increase total market of IDE users
-2. [Improve VSCode recurring usage](https://github.com/sourcegraph/sourcegraph/issues/34346) - identify pain points with the current extension to increase engagement.
+#### FY’23 Q3
 
-We’ve decided to do these two streams simultaneously so that we can take any learnings from VS Code usage and apply it to our JetBrains IDE extension.
+- Code ownership
+  - Research into the best technical solution and customer needs
+- Deprecating Sourcegraph extensions
+  - Prevent authoring of new extensions on our Sourcegraph.com extension registry
+  - Move “code intelligence” features to core workflow
+  - Move “git extras” (i.e. git blame etc.) extension to core workflow
+  - Move “open in editor” extension to core workflow
+  - Move “search exports” extension to core workflow
+  - Move “go imports search” extension to core workflow
+  - Deprecate the extension registry and extensions page
 
-**Determine long term direction for Sourcegraph extensions**
+#### FY’23 Q4+
 
-At the moment it’s not clear to us or our customers what Sourcegraph extensions should be used for. Because of this we haven’t been able to set clear expectations around what we are or aren’t building and any long term direction. We want to use this quarter to better understand:
+- Code ownership
+  - Code ownership database that can be queried by a “codeowners” keyword, and via an API
+  - Code ownership supported by other products (e.g. Batch Changes and Code Insights)
+- Deprecating Sourcegraph extensions
+- Support test coverage data
+- Investigate and prioritize other concepts to be imported (e.g. Code quality metrics, vulnerability data, service maps, logging information, performance metrics etc.)
 
-- What are the key pain points for our customers that extensions could solve?
-- What are the key integrations that customers would like to see?
-- What do we have to add to our platform to support this?
+Check out our roadmap [here](https://github.com/orgs/sourcegraph/projects/214/views/56)
 
-As this is quite discovery heavy we will also address common pain points with the current extensions to ensure that they are [enterprise friendly](https://github.com/sourcegraph/sourcegraph/issues/34347).
+### What we’re not working on & why
 
-Check out our roadmap [here](https://github.com/orgs/sourcegraph/projects/214/views/21)
-
-### **What we're not working on & why**
-
-- Adding native search in code hosts
-- Supporting community developed extensions
+- Adding new features to IDE or Browser extensions
+- Investing further into Sourcegraph extensions
