@@ -12,25 +12,27 @@ Operations guides for [managed instances](./index.md).
 
 ## Prereq
 
-To perform any MI opertaions, you need to meet the following requirement
+To perform any MI operations, you need to meet the following requirement
 
 ```sh
-git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
+git clone git@github.com:sourcegraph/deploy-sourcegraph-managed.git
 cd deploy-sourcegraph-managed
-echo "export \$MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
 ```
 
 Below we will install `mg` CLI. `mg` simlifies operation on MI and releases the burden of remembering various common `gcloud` commands.
 
-> you can just run `make install` if you already have `$GOBIN` configure somewhere
+> you can just run `make install` if you already have `$GOBIN` configured somewhere
 
 ```sh
 mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
+
 # ZSH users: echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
 # you need ensure our `mg` binary has the highest priority in $PATH
 # otherwise if will conflict with the `mg` emacs editor 😢
-echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+
 # ZSH users: source ~/.zshrc
 source ~/.bashrc
 make install
@@ -97,6 +99,14 @@ or
 ```sh
 mg --customer $CUSTOMER db cli
 ```
+
+If you find that the command hangs on the following error:
+
+```
+Waiting for cloud_sql_proxy to be ready...
+```
+
+It's likely that you need to install [`cloud_sql_proxy`](https://github.com/GoogleCloudPlatform/cloudsql-proxy).
 
 ### Restarting for configuration updates
 
@@ -229,6 +239,24 @@ Next you need to `scp` this from the instance:
 ```
 
 Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
+
+### Deploy new images across all instances
+
+Use case: you would like to roll out a new images to all instances
+
+- Open a PR to update the golden file and merge it
+- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+
+### Update application config across all instances
+
+Use case: you would like to update site-config for all instances
+
+- Open a PR to update `mg` codes with the right configuration
+- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+- Click `Run workflow` and it will run `mg sync` on each instance
+
+> This action also runs every 24h to ensure all instances config are correct
 
 ## Changing the instance
 
