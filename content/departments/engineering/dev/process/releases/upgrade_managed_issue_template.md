@@ -60,3 +60,6 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1107
 - [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1109
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8483
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8287
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8389
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8340

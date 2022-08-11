@@ -13,35 +13,41 @@ Please reach out to finance if you require assistance in completing the vendor o
 
 ## Sales Templates
 
-Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM)
+Sales templates for common use cases can be found in [Sales Template folder](https://drive.google.com/drive/folders/1eBfRzDDM-fonChy5kumN5m1aS-aZxlYM). Below are the ones which are currently available:
 
-### Cloning
-
-Please do not edit the templates directly -- create a copy and place it in a different location to work on. Non-template files located in the Sales Template folder will be periodically relocated.
-
-### Current Templates
-
-The following templates are currently available:
+Order Forms:
 
 - [Sourcegraph Order Form and MSA On Prem](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/edit)
 - [Sourcegraph Order Form and MSA Offline](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/edit)
 - [Sourcegraph Order Form and MSA Cloud (Managed Instance)](https://docs.google.com/document/d/1wAg8CJMTpkB9gYtm0OrFxnlis7k3SL5A/edit#heading=h.gjdgxs)
+
+Partner Contracts:
+
+- [Reseller Agreement](https://docs.google.com/document/d/1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1/edit)
+- [Referral Agreement](https://docs.google.com/document/d/1UnEJ2Lzw0slRkquHWjjpsO0KN7SVfZgy/edit)
+
+Other Resources:
+
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
 - [Mutual Nondisclosure Agreement](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) ([3-min Powerform NDA Tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing)) or share our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
 - [First Call Deck](https://docs.google.com/presentation/d/1-LW97oT-VU4Zu3MXB1Wgbu_bSoAkdfOCfUfx7MWO9lo/)
 
+### Cloning
+
+Please do not edit the templates directly -- create a copy and place it in a different location to work on. Non-template files located in the Sales Template folder will be periodically relocated.
+
 ### Updating Templates
 
 To update a template place the new template in the main Sales Template folder, name the file (beginning with the date format YYYY.MM.DD) then move the old template into the [Template Archive folder](https://drive.google.com/drive/folders/1iWmAocnXlNNXayN4E1ZB-J64I2-dgXGT). Update the appropriate handbook link to the new template.
 
-## Useful Links
+## Other Useful Links
 
 - [CE Account Ownership](https://docs.google.com/spreadsheets/d/1EbAlUlMoZU-M2haRj0DoW3E7h7KG2D0vwLX3PlwL-h0/edit#gid=0)
 - [Sourcegraph resource estimator](https://docs.sourcegraph.com/admin/install/resource_estimator) - For helping clients understand the requirements for using Sourcegraph.
 - [Order Form Reviews](https://docs.google.com/document/d/1xOFBtx3Me592fEVAp6SPDCosGtp--0fdVsaHPFx3SCs/edit?usp=sharing)
-- [Template Customer Contract FAQs](https://docs.google.com/document/d/1UwUKdnAKsvDyxh5BXchR4ZwglghDV6vvPjmYOj8p4Fs/edit?usp=sharing)
+- [Template Customer Contract FAQs](https://drive.google.com/file/d/1sb_FA2Yxqx7fmbKrB8RDabyYHeOHIVA2/view?usp=sharing)
 - [GDPR Prospecting Guidelines](https://docs.google.com/document/d/1p1w7YYWoOkiSBbCZBeTJZUkst8vX8GnG1jivtQ9wYBo/edit)
 
 ## Customer Notes

@@ -235,6 +235,15 @@ Under Employment Status, complete:
 
 For managers with direct reports, confirm with terminated person's manager what the new reporting structure will be and update it in BambooHR. The report change should be effective after this person's last active day (System Deactivation Date/Last day), which may not necessarily be the same as departure date or last pay date.
 
+### Rescinded offers/acceptances
+
+If someone has signed their contract but will not be starting after all, we need to terminate them in BambooHR. The process is the same as explained above, however, we must add a note in the Employment Status comment section. This is what we state:
+
+- If we rescinded the offer: "Offer rescinded"
+- If the person decided not to join: "Withdrew acceptance before onboarding"
+
+Keep in mind that the start date will be after the rescinding of the offer, therefore the start date will override the rescinding date. We will need to delete the start date entry.
+
 ## Integrations
 
 Fields access to other tools (lattice)
