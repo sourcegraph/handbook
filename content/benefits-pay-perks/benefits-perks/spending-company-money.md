@@ -10,7 +10,6 @@ We want to make sure you have what you need to be productive and happy in your r
 
 Directions for how to determine how much spend you have left in each travel category, professional development, or desk setup can be found [here ](https://docs.google.com/document/d/1XXAKh2DHitaFCFmNCEqpYBPbknhJ8IC0r-deDSFlht4/edit?usp=sharing) for additional help.
 
-
 ## Desk set-up
 
 ### Full-time teammates
