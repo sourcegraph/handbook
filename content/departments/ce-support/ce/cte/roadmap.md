@@ -52,44 +52,15 @@ Additional projects
 
 ## FY23 Q2: Foundations
 
-Q2 will be focused on building a strong foundation for our future work. As such, we’ll be focused on standardizing training content and flow, standardizing content location for greater discoverability, and producing template content for the CEs to leverage.
+Q2 was focused on building a strong foundation for our future work. We focused on standardizing training content and flow, standardizing content location for greater discoverability, and producing template content for the CEs to leverage.
 
 - Standardizing customer training
 
-  - What: We’ll be building standardized Sourcegraph 101, 102, and admin webinar trainings, and enabling the CE team on them, similar to previous work on Demo Flows. We will also begin work on use case-oriented trainings, though this may extend into Q3; initial use case focus is Code Security.
+  - What: We built and delivered standardized Sourcegraph 101, 102, and admin webinar trainings, and enabling the CE team on them, similar to previous work on Demo Flows. We also begin work on use case-oriented trainings, though this may extend into Q3; initial use case focus is Code Security.
 
-  - Why: We can’t iteratively measure the impact of our work if each CE is training on completely different cadences and with completely different materials. Additionally, without training templates, CEs are forced to reinvent the wheel each time they onboard a new customer; we hope that this is the first step in easing that process for the team. Additionally, we want to bring use cases into our customer training and success model in the same way they exist in the pre-sales model.
+  - Why: We can’t iteratively measure the impact of our work if each CE is training on completely different cadences and with completely different materials. Additionally, without training templates, CEs were forced to reinvent the wheel each time they onboard a new customer. Additionally, we wanted to bring use cases into our customer training and success model in the same way they exist in the pre-sales model.
 
-  - How: We’ll establish a shared training repository in GitHub, a template for training materials to follow, and then transfer existing 101, 102, and admin training concepts floating around the team into standard flows. The team will be trained on how to deliver these trainings using a train the trainer model. The Code Security training will be created and added to the demo repo and the CEs will be enabled on it using a train the trainer model, with other use cases to follow.
-
-  - Business Outcomes:
-
-    - 100% of CE team is trained (via train-the-trainer) on foundational user and admin onboarding training block. (DRI: [Emily Chapman](mailto:emily@sourcegraph.com))
-    - Ship (and enable 100% of CE via train-the-trainer) on code security training with Sourcegraph. (DRI: [Thomas Hughes](mailto:thomas.hughes@sourcegraph.com))
-
-- Improved admin experience
-
-  - What: The CTE team will generate training materials to help admins stand up Sourcegraph.
-
-  - Why: This issue impacts the customer experience that impedes them from using the product.
-
-  - How: We will create or modify existing playbooks for Kubernetes (without Helm) installs and for high-security environment installs based on known customer challenges. If time permits, we will create or modify existing playbooks for Kubernetes with Helm and Docker Compose installs. We will store these in the standard artifact repository and enable the CEs on them.
-
-  - Business Outcome:
-
-    - 5 customers receive admin-specific enablement prior to production set up (DRI: [Thomas Hughes](mailto:thomas.hughes@sourcegraph.com))
-
-- CE enablement
-
-  - What: The CTE team will provide reusable assets for CEs focused on resolving shared, identified needs in service of the CTE team’s overall goals.
-
-  - Why: Though CE enablement isn’t the core focus of the team, there is obvious overlap between CE enablement and a world-class customer training experience for our Enterprise customers. Providing reusable resources which can serve both goals furthers the overall CE org’s agenda.
-
-  - How: Within the asset repo, create and share email templates for kickoff of the post-sales onboarding process, share useful sample scripts/cheat sheets/handouts that might accompany a training, and generate other assets as time allows.
-
-  - Business Outcome:
-
-    - Produce and deliver at least 3 CE-requested assets in Q2. (DRI: [Emily Chapman](mailto:emily@sourcegraph.com))
+  - How: We established a shared training repository in GitHub, a template for training materials to follow, and then transfer existing 101, 102, and admin training concepts floating around the team into standard flows. The team has beene trained on how to deliver these trainings using a train the trainer model.
 
 ## FY23 Q3/Q4: Customer Onboarding Experience
 
