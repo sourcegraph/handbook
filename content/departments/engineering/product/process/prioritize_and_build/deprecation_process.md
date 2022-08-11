@@ -11,6 +11,7 @@ Below are a number of principles which have led to success in past deprecating p
 - Craft an honest message: When conveying the reasoning to customers, it is important that you are as honest as possible about the reasoning behind sunsetting.
 - Ensure you’re speaking to the customer: Often times when creating the external-messaging for deprecating a feature, it can be easy to focus on internal-jargon or story. Make sure any message you share is speaking in customer language which they will clearly understand. While customers may not always be happy that we’re shutting down a feature, we want them to understand why.
 - Ensure each task has a single DRI and that each DRI understands their role: During deprecating process, it is common for the message about what is happening and when it is happening to get lost. Thus, it is critical to ensure each task has a DRI and that person clearly understands the timeline and expectations of their role.
+- Prefer gradual deprecations: We should strive to gradually remove functionality over multiple releases to provide time for our customers and internal teams to make plans and adjust. For example, in a first release we use a feature flag to disable functionality by default and, in a subsequent release we remove the functionality entirely. How we achieve this gradual deprecation should be assessed on a case by case basis depending on the usage, importance of the feature, impacts of removing and other factors.
 
 ## Choosing to deprecate a feature
 
