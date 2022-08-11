@@ -85,7 +85,7 @@ We encourage you to read about the [different types of interviews](talent/proces
 
 - We do our best to provide a decision (whether we're moving forward or not moving forward) within 5 business days of the interview. If you want an update on the status of your application, please email recruiting@sourcegraph.com
 
-### Sharing interview feedback
+### Sharing interview feedback with candidates
 
 We don't share specific reasons or feedback if we decide not to move forward in our hiring process with a candidate. It would be nice if we could give feedback like this, but we don't do this today. Why?
 

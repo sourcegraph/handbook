@@ -1,8 +1,8 @@
-# Processes
+# Code Insights team processes
 
 There is no such thing as a team without processes, only teams with undocumented processes. Therefor, we prefer to document the way we do things, and evolve it over time!
 
-We share the [Developer Insights org's processes](../index.md#processes), plus the following for our team.
+We share the [Engineering processes](../index.md#processes), plus the following for our team.
 We use our [bi-weekly retrospective](#retrospectives) to identify any tweaks we should make that would improve our process.
 
 ## Weekly sync
@@ -22,13 +22,13 @@ The project is separated into multiple views: **Current iteration**, **Next iter
 We use an intentional list of statuses on our project board:
 
 - **No Status**: Status is not assigned. These issues need triage.
-- **Backlog**: we are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
-- **On deck**: these issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
-- **Proposed for iteration**: these are a select group of issues proposed for a specific iteration. They should have an iteration milestone attached. TODO @felix could we enforce that?
-- **Todo**: this is the small set of issues that are planned for our current iteration.
-- **In Progress**: issues currently being worked on in the iteration.
-- **In Review**: issues that have PRs in review.
-- **Done**: all closed issues, including "won't do" issues.
+- **Backlog**: We are keeping this issue open for reference, as a placeholder, and for future prioritization, but it's not a current priority.
+- **On deck**: These issues are not currently proposed for the upcoming iteration but are a maintained, priority ordering of likely next issues.
+- **Proposed for iteration**: These are a select group of issues proposed for a specific iteration. They must have an iteration milestone attached.
+- **Todo**: This is the small set of issues that are planned for our current iteration.
+- **In Progress**: Issues currently being worked on in the iteration.
+- **In Review**: Issues that have PRs in review.
+- **Done**: All closed issues, including "won't do" issues.
 
 Our current process is as follows:
 
@@ -66,6 +66,21 @@ Our current process is as follows:
 - During an iteration, teammates **work on their assigned issues for the iteration in the order they are listed** in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1) of the board. When starting work on a task, the teammate **updates its status column to "In Progress"** to communicate it to their team. This gives a good overview in the ["Current iteration" view](https://github.com/orgs/sourcegraph/projects/200/views/1), which can also be viewed in [Kanban layout](https://github.com/orgs/sourcegraph/projects/200/views/1?layout=board), on how the iteration is tracking.
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
+
+## Design planning and process
+
+In addition to the above iteration planning process, we maintain a parallel design planning process as follows using our [design project board](https://github.com/orgs/sourcegraph/projects/200/views/12):
+
+1. Anyone on the team can create issues for things that need designs. These issues should be tagged with `needs-design`.
+1. The product manager and designer add iteration milestones to these design issues. If a design issue has a milestone and a `TODO` (or a later-stage) status, this means that the design process should be completed by the end date of the iteration milestone.
+1. For example, a design issue tagged "iteration 29" in `TODO` would be ready for engineering implemention by the final day of iteration 29.
+1. Design issues do not need to, and often do not, follow 2-week iteration cycles. It is up to the designer when to start or make progress on various design projects _within the constraints_ that designs are complete by the end of the tagged iteration. So, a larger 4-week project to be completed three iterations (in six weeks) away might be started before smaller 1-week project that only needs to be completed by a date four weeks in the future, and that's fine.
+1. The product manager, engineering manager, and designer meet synchronously once a week to review the design board, which requires aligning on proposed updates and re-prioritizing if over capacity.
+   1. To propose an update or add a design issue, an issue labelled `needs-design` should be tagged with the proposed status and a milestone. In the sync, the triad will review all "proposed" issues and either align that the priority and timeline works – in which case, setting them to `TODO` – or discuss and reorder items.
+   1. By the end of the planning sync, there should be no design items tagged with the "proposed" status.
+1. Issues tagged `needs-design` should only ever have the designer assigned. We do not un-assign the designer and then re-assign engineers; we move the issue to done and create new engineering issues. We do this because:
+   1. Past experience has taught us that this causes confusion as to the status of an issue, as it's possible for an issue to from "in progress" on design back to "todo" on engineering.
+   1. Often, designs are larger than a single engineering issue and we want to default to engineers breaking up a project into smaller items, rather than reusing a larger and imperfect issue.
 
 ## Project Leads
 
@@ -194,7 +209,7 @@ It's the support engineer's responsibility to reach out proactively, find someon
 
 The engineer assigned to the support rotation is responsible for:
 
-1. Responding to and triaging escalations from other teams (for example: [customer support](../../../ce-support/support/index.md), or [security](../../teams/security/index.md))
+1. Responding to and triaging escalations from other teams (for example: [customer support](../../../ce-support/support/index.md), or [security](../../../security/index.md))
 2. Performing a best-effort resolution of the issue
    1. This means even if someone doesn't have much knowledge or context about some parts of the system, they are still responsible to try and solve the problem before escalating to other engineers on the team
    2. This could mean searching documentation, asking questions to other engineers, experimenting with the product, or any other means at your disposal to try and solve the problem

@@ -1,4 +1,4 @@
-# Dev Experience Processes
+# Dev Experience processes
 
 ## Planning and tracking work
 
@@ -19,7 +19,7 @@ We use the [roadmap view](https://github.com/orgs/sourcegraph/projects/212/views
 
 When planning work, the [relevant work lead](#work-leads) should:
 
-- Work with the PM/EM to create the [roadmap tracking issue](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) using the [tracking issue bot](../../dev/process/tracking_issues.md). The tracking issue description should have the following:
+- Work with the PM/EM to create the [roadmap tracking issue](#roadmap-tracking-issues) using the [tracking issue bot](../../dev/process/tracking_issues.md). A loose scratch doc can be created in [the team Drive](#google-drive) as well, but ultimately the tracking issue is the concrete artifact we share with stakeholders and the company. The tracking issue description should have the following:
   - **Problem**: Articulate the problem space and requirements.
   - **Scope**: Scope the work so that it can be completed in a single bet cycle, identifying:
     - **Boundaries**: Define what work is within the scope and what work is explicitly out of scope. (Out-of-scope boundaries, or "non-goals", are worth writing down and they help prevent scope creep.)
@@ -49,6 +49,7 @@ We aim to allow teammates the flexibility to work on incoming requests, tackle p
 - If **over 50%** (~5 days every 2 weeks) of our time is spent _outside_ of planned work (i.e support requests), we opt to discuss the scope and priority of the work with the team first.
 
 We encourage you to log unplanned work in [GitHub issues](#tracking), the [devx-scratch repository](#devx-scratch), or in [the daily Geekbot updates](#slack).
+If the work is a response to an active problem or urgent request that must be prioritized outside of our [planned work](#planned-work), create an issue and add the `reactive` label so that we can prioritize the work and review our reactive work load at the end of a bet period.
 
 Note that even unplanned work should take into account a [rollout strategy](#rollout-strategy), especially if it is implementing improvements based on feedback.
 
@@ -68,7 +69,7 @@ From the answers, we extend the Definition of Done for the item to include these
 - Create resources to help engineers adopt the change
 - Create content to educate engineers about the background and reason for the change
 
-### Pull-Requests reviews
+### Pull request reviews
 
 Remember that pull requests are simply a dialogue between team members about changes that we're shipping as a team and we're here to help each others to achieve it.
 
@@ -94,7 +95,24 @@ As of 2022-04-28, we use GitHub issues and projects to keep track of our work.
 
 #### Dev Experience project
 
-For a lower level view of our day-to-day progress, we use the [Dev Experience Github project](https://github.com/orgs/sourcegraph/projects/212/views/32). This board automatically imports issues with the `dx` or `team/devx` labels.
+For a lower level view of our day-to-day progress, we use the [Dev Experience GitHub project](https://github.com/orgs/sourcegraph/projects/212). This board automatically imports issues with the `dx` or `team/devx` labels. Additional views are avaialble on the board for specific purposes, such as viewing active [roadmap issues](#roadmap-tracking-issues).
+
+> NOTE: Be _very_ careful when deleting things from the GitHub project, especially board views, labels, custom fields, and so on.
+
+#### Roadmap tracking issues
+
+[Roadmap tracking issues](https://github.com/sourcegraph/sourcegraph/issues?q=label%3Aroadmap+label%3Ateam%2Fdevx+sort%3Aupdated-desc) are what we communicate to teammates outside of the Dev Experience team what we are working on and what we plan on working on.
+Roadmap issues should be scoped to a bet period, and be a [tracking issue](../../dev/process/tracking_issues.md) that encapsulates everything outlined in the [planned work process](#planned-work).
+
+They should have the `team/devx` and `roadmap` label, one (or more) appropriate `devx/...` label(s), as well as the following text in the description to help the tracking issue bot find relevant issues:
+
+```md
+<!-- OPTIONAL LABEL: roadmap -->
+```
+
+> NOTE: Be sure to add _all_ your desired labels (including at least one `devx/...` label) _before_ creating the issue, otherwise the tracking issue bot might try to tag more issues than you want.
+
+A project board view for roadmap tracking issues is also available [here](https://github.com/orgs/sourcegraph/projects/212/views/33).
 
 ### Google Drive
 
@@ -128,9 +146,13 @@ General tips:
 
 1. We are not responsible for every issue in CI - see [build pipeline support](#build-pipeline-support) and [CI support responsibilities](#ci-support-responsibilities).
 2. `git rebase` is very easy for teammates unfamiliar with `git` to do incorrect - if a branch update is required, err towards recommending a [`git merge`](https://git-scm.com/docs/git-merge) (e.g. `git pull origin main`).
-3. Make sure to [update devx-scratch](#devx-scratch) for any notable support efforts.
-4. Be wary of issues achieving joke/meme status: it often means that it is actually quite a disruptive issue, and warrants a closer look.
-5. Be liberal in asking for a video or screen recording to demonstrate DX issues: this can help us understand and emphathise with DX pains.
+3. Be wary of issues achieving joke/meme status: it often means that it is actually quite a disruptive issue, and warrants a closer look.
+4. Be liberal in asking for a video or screen recording to demonstrate DX issues: this can help us understand and emphathise with DX pains.
+
+Tips for [tracking](#tracking) support work:
+
+1. Make sure to [update devx-scratch](#devx-scratch) for any notable support efforts and problems you ran into.
+2. If a sizeable amount of work is surfaced (e.g. an active problem or urgent request), follow the [unplanned work tracking](#unplanned-work) guidance to help us keep track of how much reactive work we are tackling, and to ensure the work gets prioritized as needed.
 
 #### Build pipeline support
 
@@ -138,7 +160,10 @@ General tips:
 
 Build pipeline support pertains to our [continuous integration](https://docs.sourcegraph.com/dev/background-information/continuous_integration). The goal of this process is to identify the right person to drive a fix on an issue, rather than actively fixing every issue that arises.
 
-The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker). If there are any issues, ensure issues are followed up on:
+The on-call support teammate should monitor the pipeline through channels like #buildkite-main for [flakes](https://docs.sourcegraph.com/dev/background-information/testing_principles#flaky-tests) and notifications from [`buildchecker`](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildchecker).
+Monitoring generally means taking a look at a random sample of 2-3 failures in #buildkite-main throughout the day and identifying if it might be a legitimate issue, of if it is a flake - refer to the [flakes playbook](../../dev/process/incidents/playbooks/ci.md#is-this-a-failure-or-a-flake) to learn more.
+
+If there are any issues, ensure issues are followed up on:
 
 1. Infer the owner based on the contents of the issue \*e.g. through product names, git history, and/or other context) and reach out for assistance:
    1. If a team can be inferred, ping the `@$TEAM-support` handle in Slack for assistance, escalating to `@$TEAM` if no support handle or teammate is available.

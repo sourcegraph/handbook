@@ -62,7 +62,7 @@ Becoming activated as user is based on a sequence of events. We found that this 
 As a part of this sequence of events we also developed a new metric. The first two steps of the sequence is Account Setup.
 
 On-Prem and Managed:
-Work is currently being done to inform the activated metric for on-prem and managed customers. We expect to have this definition informed by the end of June 2022.
+Work is currently being done to inform the activated metric for on-prem and managed customers. This will be with analysis ability added by having user level usage data.
 
 ### Registered user (Cloud)
 
@@ -115,20 +115,20 @@ Submission buckets for `How likely is it that you would recommend Sourcegraph to
 
 NPS score = % promotors of total submissions - % detractors of total submissions
 
-## Customer Health Score
+## Technical Health Score (Customers)
 
-The customer health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
+The technical health score combines high-level, aggregated metrics in order to understand customer engagement with the product, as a means to ensure customers are receiving maximum value from Sourcegraph. We currently include the following metrics:
 
-| Metric                  | Description                                                                                           |
-| ----------------------- | ----------------------------------------------------------------------------------------------------- |
-| MAU/Total User Accounts | Used as a measure of monthly adoption within a customer’s total licensed active user base             |
-| DAU/MAU                 | Used as a measure of overall engagement / stickiness of the platform within an account's active users |
-| Net Promoter Score      | Used as a measure of sentiment toward the platform among a customer’s active users of Sourcegraph     |
+| Metric                                              | Description                                                                                           |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Adoption measured as: MAU/Total purchased seats (%) | Used as a measure of monthly adoption within a customer’s total licensed user base.                   |
+| Usage measured as: DAU/MAU (%)                      | Used as a measure of overall engagement / stickiness of the platform within an account’s active users |
+| # of versions behind current Sourcegraph version    | Used as a measure of overall instance health                                                          |
 
 Additional Resources:
 
-- [Project overview](https://docs.google.com/spreadsheets/d/1D2CJoVdkbXsBwVjgNDziGXBanWBfVhoVs6_kDBRStfA/edit#gid=1229546656): Describes which metrics we view as indicative of customer health along with how scores are calculated, and provides space for ongoing feedback
-- [Dashboard](https://sourcegraph.looker.com/dashboards-next/179?Customer%20Engineer=&Account%20Executive=&Unique%20Server%20ID=&Region=): The customer health dashboard is the source of truth for health scores and is updated in real-time
+- [Project overview](https://docs.google.com/document/d/1AO3o82KN0bIWUNK2Kyc1Rk8Lz6gElBm-6K2ou0dHr-Y/edit#): Describes in more detail how we decided to measure technical health in this way, how scores are calculated, and our plans to re-assess and improve this scoring. This is also a place for ongoing feedback/updates.
+- [Dashboard](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D): Technical health dashboard is the source of truth for health score
 
 ## How are active users calculated?
 

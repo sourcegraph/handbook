@@ -8,6 +8,18 @@ Our People Team runs Pulse surveys as a way to check in with Teammates on a regu
 
 We are launching pulse surveys as a 90 day pilot program. We know pulse surveys are effective, but our focus in the past has been on traditional engagement surveys, where feedback is collected on a bi-annual basis. Pulse surveys allow us to ‘bridge the gap’ between our bi-annual surveys and hone in on what is important in the here-and-now. Given recent changes in our organization and our collective focus on taking Sourcegraph to the next level, there is no better time to roll them out and will be taking an experimental approach to figure out the best cadence for us as an organization.
 
+### Who receives the survey?
+
+All Teammates will be invited to participate in our pulse survey.
+
+### When will I receive a survey?
+
+Pulse surveys are sent to all employees at random intervals during the survey period of two weeks. Spreading out survey delivery times helps mitigate [recency bias](https://en.wikipedia.org/wiki/Recency_bias) in survey results. If someone on your team has received a survey and you have not, don’t worry! You’ll get a chance to participate in the survey.
+
+### How do I complete the survey?
+
+We use Lattice to administer the survey, so you’ll receive both a Slack notification via the Lattice App integration, and an email prompting you to complete the survey. You’ll only be able to complete the survey once.
+
 ### Am I required to fill out the survey?
 
 We are all invested in the future success of Sourcegraph, which means that we’re also responsible for creating a culture and company in which we all thrive. While you are not required to complete the bi-weekly survey, we strongly encourage you to do so. The more Teammates participate, the better the insights that we’ll uncover - enabling us to develop more strategically as an organization and understand how we can build the very best employee experience imaginable.
@@ -52,7 +64,7 @@ Survey results are published to the handbook following the Company Meeting in wh
 
 ### Who will be able to see my responses?
 
-All responses are submitted **anonymously**. The People Team can view department-specific themes when 5 or more Teammates from a given organization (Sales, Engineering, Operations, Sales, etc) respond to the survey. All comments are submitted anonymously, and the People Team can respond to them but cannot see who submitted the comment.
+All responses are submitted **anonymously**. The People Team can view department-specific themes when 5 or more Teammates from a given organization (Sales, Engineering, Operations, etc.) respond to the survey. All comments are submitted anonymously, and the People Team can respond to them but cannot see who submitted the comment.
 
 ### When does the pilot period end?
 
