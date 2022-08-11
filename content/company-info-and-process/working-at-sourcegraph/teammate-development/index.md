@@ -2,16 +2,6 @@
 
 The purpose of this Handbook Page is to provide Managers and Teammates with the resources needed to drive a high performing culture at Sourcegraph. We believe that our team thrives when we have a high bar for excellence, and when all Teammates receive feedback early and often.
 
-**<span style="text-decoration:underline;">On this page, you will find: </span>**
-
-1. What is a high-performance culture & why is it important
-2. How we foster a high-performance culture
-   1. Formal semi-annual performance reviews in February & August
-   2. Continuous feedback
-3. Managing underperformance
-   1. Formal coaching phase (pre-PIP)
-   2. Performance improvement plan (PIP) process
-
 ## **<span style="text-decoration:underline;">What is a high performance culture?</span>**
 
 We want a culture where Teammates are highly productive and motivated. Our Teammates should have the resources they need to meet and exceed their goals, feel supported by their Manager, be aligned with our company values, and feel confident in leadership. High-performance cultures benefit both the company and the individual.
