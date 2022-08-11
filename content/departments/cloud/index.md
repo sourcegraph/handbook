@@ -206,6 +206,26 @@ Are you a member of our CE & CS teams?
 
 <div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
+
+Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces).
+GCP Logging is used to store / query logs written by Sourcegraph workloads, and GCP Monitoring is used for infrastructure-level metrics / uptime checks.
+
+Access to data from Cloud instances is governed by [Cloud Access Control Policy](https://docs.google.com/document/d/16tRqZDKhli4hZtfAkJG46Cj6dtqAw2s6QGw5fGM43BQ/edit?usp=sharing).
+
+Long-term, we will collaborate with [DevX team](../engineering/teams/dev-experience/index.md) (as owners of Sourcegraph observability) to support monitoring / observability solutions that are qualified for use with customer data.
+
+### FAQ: What are Cloud plans for continuous deployment - how often do we deploy code to Cloud instances?
+
+Cloud instances provisioned for customers run [released](../engineering/dev/process/releases/index.md#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
+
+Sourcegraph-owned instances can be updated more frequently (with versions that weren't officially released), [DevX team](../engineering/teams/dev-experience/index.md) will own continuous deployment to those environments.
+
+### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
+
+Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
+Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+
 ### FAQ: How to use mg cli for Managed Instances operations?
 
 ```sh
@@ -219,4 +239,4 @@ make install
 mg --help
 ```
 
-> NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` will be used from specific directory.
+> NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
