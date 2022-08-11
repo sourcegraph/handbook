@@ -119,16 +119,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Asdine El Hrychy"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [55.13729095458984, 25.080312820442302]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Adam Harvey"
             },
             "geometry": {
