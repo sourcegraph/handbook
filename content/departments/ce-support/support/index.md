@@ -47,9 +47,7 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 ## SLAs
 
-Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
-
-Sourcegraph offers 24x5 support bound by the SLA times listed above. The SLA times are the time frames in which you can expect an initial response. Our team will make a best effort to resolve all issues as quickly as possible. However, please note that the SLA times are not to be considered as an expected time-to-resolution.
+Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). SLA response times are the time frames in which you can expect an initial response. Our team will make a best effort to resolve all issues as quickly as possible. However, please note that the SLA times are not to be considered as an expected time-to-resolution.
 
 #### The following applies to both cloud (managed instance) and on-premise/self-hosted Sourcegraph customers:
 
