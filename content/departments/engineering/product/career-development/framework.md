@@ -72,7 +72,6 @@
     font-style: italic;
     border-bottom: none !important;
   }
-
 </style>
 
 ## Levels
