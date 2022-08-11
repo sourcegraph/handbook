@@ -15,4 +15,5 @@ This section of the Handbook holds all documentation related to specific departm
   - [Design](engineering/design/index.md)
 - [Cloud](cloud/index.md)
 - [Sales](sales/index.md)
+- [Security](security/index.md)
 - [Tech Ops](tech-ops/index.md)
