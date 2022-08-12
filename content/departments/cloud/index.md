@@ -257,6 +257,6 @@ For public instances, usually the CE responsible for the customer is added as si
 Open 1password, and create a new Secure Note item and paste the password reset url, then use the [1password share item feature](https://support.1password.com/share-items/) to securely share the link with customer admin. Make sure you configure the following options while sharing the item:
 
 - Link expires after: 1 day
-- Available to: <insert customer admin email>
+- Available to: `<insert customer admin email>`
 
 This ensures only the customer admin is able to gain access to the password reset url.
