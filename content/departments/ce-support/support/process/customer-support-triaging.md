@@ -58,19 +58,19 @@ We sometimes get all company updates coming to the support mailbox. Company upda
 
 When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
 
-### 7. How to Triage Post Customer Support
+### 6. How to Triage Post in the Customer Support channel
 
 When we see post in the Customer Support channel, we need to make sure whether or not a ticket needs to be created for the AER's following the same processes as listed above. There may be circumstances that involve additional action. Please view those [here](customer-exceptions.md)
 
-### 8. Customer Request on Custom Scripts
+### 7. Customer Request on Custom Scripts
 
 Sometimes custom scripts are developed by the CE team, if the customer reaches out regarding any issues with running the script. It would be no action for the CS team.
 
-### 9. How to Handle Follow Up Tickets
+### 8. How to Handle Follow Up Tickets
 
 When a customer replies to a solved Zendesk ticket a new ticket will be created. You will want to remove all the tags and triage following the same steps listed above.
 
-### 10. How to handle Hubspot emails?
+### 9. How to handle Hubspot emails?
 
 If it's from the Hubspot form and for marketing, engage them in the #marketing Slack channel and @ mention @marketing-operations.
 
