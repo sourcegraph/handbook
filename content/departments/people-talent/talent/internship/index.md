@@ -1,8 +1,8 @@
 # Sourcegraph Internship Program
 
-We are rolling out our first-ever internship program in FY23 Q2!
+We completed our first-ever internship program! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
-This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
+We currently plan to post 2023 summer internship roles in early 2023 and we will update this page accordingly.
 
 We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
@@ -14,7 +14,7 @@ As a Sourcegraph intern, you will take initiative on hands-on, impactful project
 
 ### Open Positions
 
-We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
+We will be hiring for interns across various business departments. Recruiting will begin in early 2023 and our open roles will be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
 ### Job Boards we’re Using
 
@@ -82,11 +82,11 @@ At the end of an internship, a full time position is not guaranteed, but may be 
 
 ### Future Internship Cohorts
 
-While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of the internship.
+While 2022 was our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of each internship program.
 
 ### How to request an intern for your team
 
-Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
+The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
 
 The process for requesting an intern for your team and opening an intern role is documented [here](internship-recruiting-and-offers.md#opening-an-intern-role). Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 
@@ -148,9 +148,9 @@ Payroll
 Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
 
 - The video submission is due to Kemper on 2022-07-18.
-- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB 2022-08-01.
+- The blog post will be emailed to Kemper by COB 2022-08-01 and shared from your personal LinkedIn by COB 2022-08-05.
 
-### Internship Events
+### 2022 Internship Events
 
 In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
 

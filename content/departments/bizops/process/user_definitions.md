@@ -62,7 +62,7 @@ Becoming activated as user is based on a sequence of events. We found that this 
 As a part of this sequence of events we also developed a new metric. The first two steps of the sequence is Account Setup.
 
 On-Prem and Managed:
-Work is currently being done to inform the activated metric for on-prem and managed customers. We expect to have this definition informed by the end of June 2022.
+Work is currently being done to inform the activated metric for on-prem and managed customers. This will be with analysis ability added by having user level usage data.
 
 ### Registered user (Cloud)
 
