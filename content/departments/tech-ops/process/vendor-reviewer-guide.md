@@ -89,7 +89,6 @@ There are four types of request tickets that we support:
 - New vendor onboarding - new contracts/services/tools
 - Annual review - annual risk review that helps us keep track of vendor risk (i.e. are their certifications still in place, did any of their policies change, etc.)
 - Offboarding - when we want to terminate or sunset a vendor we have previously engaged with
-- Other (eg. upgrades/renewals) - anything that doesn’t fit in the above categories
 
 ## Data
 
@@ -119,7 +118,7 @@ The teams involved in the due diligence process for the vendor review will be no
 
 ## Triage and Review Logic
 
-From a vendor management perspective we base our review requirements on the sensitivity of data that is shared with the vendor. According to our [Data management policy](https://docs.google.com/document/d/1EteK_ftNhF8B_2G8BdSrW7xlehba_6yq/edit) we will route each of the classifications for reviews as follows:
+From a vendor management perspective we base our review requirements on the sensitivity of data that is shared with the vendor. According to our [Data management policy](../../../company-info-and-process/policies/data-management-policy.md) we will route each of the classifications for reviews as follows:
 
 - **Restricted:** Security, Legal, Tech Ops
 - **Private:** Security, Legal, Tech Ops

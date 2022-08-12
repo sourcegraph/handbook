@@ -6,11 +6,11 @@ The Talent Team is responsible for helping every team at Sourcegraph hire, and f
 
 While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
 
-If you need to discuss something confidential or private, please Slack your People Partner [PEOPLE PARTNER ALIGNMENT COMING SOON] or the VP People & Talent.
+If you need to discuss something confidential or private, please Slack your [People Partner](process/teamalignment.md) or the VP People & Talent.
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
-## Resources for candidates
+## Resources for Candidates
 
 ### Open positions
 
@@ -40,12 +40,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Who to go to
 
 - People support
-  - Who is my People Partner?
+  - [Who is my People Partner?](process/teamalignment.md)
 - Recruiting support
   - [Who is my Recruiter?](process/teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
-  - How to submit a confidential complaint
+  - [How to submit a confidential complaint](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
 ### Onboarding as a new hire
 
@@ -56,23 +56,29 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Onboarding swag](../swag.md/)
 - [Our values](../../../company-info-and-process/values/index.md)
 
-### Career mobility
+### Teammate development & mobility
 
-- Our high performance culture
+- [Continuous feedback & coaching](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+  - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+- [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
+  - [Our promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+    - [Department specific career ladders](COMING SOON)
+      - [CE](link coming soon)
+      - [Engineering](../../engineering/dev/career-development/framework.md)
+      - [Product](link coming soon)
+      - [Design](../../engineering/design/career-development.md)
+      - [Marketing](link coming soon)
+      - [Ops](link coming soon)
+      - [Sales](link coming soon)
+      - [Support](../../ce-support/support/career-growth/cs-career-levels.md#customer-support-career-levels)
+      - [People & Talent](link coming soon)
+    - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+    - [How to view your current level](COMING SOON)
+  - [How to give a raise within band]COMING SOON
+    - [Our compensation bands](COMING SOON)
+- [How we manage underperformance](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
+  - [PIP process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
 - [How to switch teams](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
-- [Promotion process]
-- Career ladders
-  - How we determine our career ladder
-  - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
-  - Department specific career ladders
-    - [CE](link coming soon)
-    - [Engineering](link coming soon)
-    - [Marketing](link coming soon)
-    - [Ops](link coming soon)
-    - [Sales](link coming soon)
-    - [Support](link coming soon)
-    - [People & Talent](link coming soon)
-- [How to view your level](coming soon)
 
 ### Total rewards
 
@@ -101,30 +107,17 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Engagement Surveys](../people-ops/process/teammate-sentiment/engagement-survey.md)
 - [Pulse Surveys](../people-ops/process/teammate-sentiment/pulse-survey.md)
-- What we do with survey results
-
-### How we manage performance
-
-- Our expectations from managers
-  - Coaching from managers
-  - Performance improvement plan process
-- Our formal performance review process
-  - Why we do performance reviews
-  - When we do performance reviews
-  - What we measure
-  - The questions we ask
-  - How we use the results
-  - Training: how to write an effective review (Coming Soon)
+- [What we do with survey results](../people-ops/process/teammate-sentiment/pulse-survey.md#how-do-we-respond-to-pulse-survey-results-and-take-action)
 
 ### Relocation/address changes
 
 - Changing addresses
-- Mortgage verification
+- [Mortgage verification](../people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
 
-- Visa process
-- Sponsorship policy
+- [Visa process](../people-ops/tools/people-ops-faqs.md#q-i-need-a-letter-from-my-employer-to-obtain-a-visa-how-do-i-request-that)
+- [Sponsorship policy](../people-ops/process/how-we-engage-talent-outside-the-us/#sts=Visa%20sponsorship%20and%20immigration%20assistance)
 
 ### Verifications
 
@@ -133,14 +126,14 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Expenses
 
-- Our expense policy
-- How to submit expenses
+- [Our expense policy](../../../benefits-pay-perks/benefits-perks/spending-company-money.md)
+- [How to submit expenses](../../../benefits-pay-perks/pay-expenses/expenses/index.md)
 
 ### Reporting violations
 
-- Anti-harassment
-- Code of business conduct & ethics
-- How to raise a cofidential issue
+- [Anti-harassment](../../../company-info-and-process/communication/code_of_conduct.md#respect-each-other)
+- [Code of business conduct & ethics](../../../company-info-and-process/communication/code_of_conduct.md)
+- [How to raise a cofidential issue](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
 ### Learning & development
 
@@ -178,7 +171,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Who is my recruiter?](process/teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
-  - How to submit a confidential complaint
+  - [How to submit a confidential complaint](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
 
 ### Hiring
 
@@ -218,6 +211,23 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Onboarding your new hire
 
+COMING SOON
+
+### Teammate development & mobility
+
+- [Continuous feedback & coaching](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+  - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+- [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
+  - [How to promote a Teammate to a new level](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
+    - [Department specific career ladders](COMING SOON)
+    - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
+    - [How to view your current level](COMING SOON)
+  - [How to give a raise within band]COMING SOON
+    - [Our compensation bands](COMING SOON)
+- [How we manage underperformance](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
+  - [PIP process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md#addressing-underperformance)
+- [Teammate transfer process](../../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
+
 ### Tools
 
 - [BambooHR](../people-ops/tools/manager-guide.md/#sts=BambooHR)
@@ -245,23 +255,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to give a raise](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a spot bonus](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a promotion](../../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
-
-### Performance management
-
-- Our expectations from managers
-  - Coaching from managers
-  - [Performance improvement plan (PIP) process](../people-ops/process/performance-coaching/pip.md)
-- Our formal performance review process
-  - Why we do performance reviews
-  - When we do performance reviews
-  - What we measure
-  - The questions we ask
-  - How we use the results
-- Training:
-  - How to write an effective review (Coming Soon)
-  - How to have an effective 1:1 (Coming Soon)
-  - How to have a coaching/career conversation
-  - How to initiate a formal performance improvement plan (PIP)
+- [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](../people-ops/process/compensation-and-leveling/compensation-role-changes.md)
 
 ### How we measure culture
 
@@ -287,7 +281,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - PEO
 - [BambooHR](../people-ops/tools/bamboohr.md)
 
-### Calibration cycles & templates
+### Teammate development
 
 - Merit
 - Promotion
@@ -305,10 +299,10 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Teammate support
 
-- Parental leave
+- [Parental leave](../../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - Leaving Sourcegraph
-  - Exit interviews
-  - Offboarding process
+  - [Exit interviews](../people-ops/process/performance-coaching/exit-interview.md)
+  - [Offboarding process]COMING SOON
 
 ### Teammate swag
 
@@ -396,7 +390,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../../team/index.md#carly-jones-sheher" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#carly-jones" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlyAvatar.png"
                 alt="Picture of Carly Jones" style="background: transparent; width:128px;" />
             </a>
@@ -522,10 +516,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 # The People Team
 
  <section>
+    <div class="row" style="display:flex;">
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
+            <a href="../../../../team/index.md#inés-roitman" target="_blank" rel="noopener">
               <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/inesAvatar.png"
                 alt="Picture of Inés Roitman" style="background: transparent; width:128px;" />
             </a>
@@ -537,33 +532,43 @@ In case of emergency, the VP People & Talent and the Director, People are availa
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
-                alt="Picture of Jon Ayers" style="background: transparent; width:128px;" />
+            <a href="../../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/jonAvatar.png"
+                alt="Picture of Jonathan Ayers" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Jonathan Ayers</div>
           <div style="text-align: center; font-size: 12px;">Director, People</div>
         </div>
-        </div>
+      </div>
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#jonathan-ayers" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
+            <a href="../../../../team/index.md#alex-mathison" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/alexAvatar.png"
                 alt="Picture of Alex Mathison" style="background: transparent; width:128px;" />
             </a>
           </div>
           <div style="text-align: center;">Alex Mathison</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
-          </div>
+      </div>
       <div class="col" style="flex: 1;">
         <div>
           <div>
-            <a href="../../../team/index.md#carl-robson" target="_blank" rel="noopener">
+            <a href="../../../../team#sarah-um" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
+                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
+            </a>
+          </div>
+          <div style="text-align: center;">Sarah Um</div>
+          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+        </div>
+      </div>
+      <div class="col" style="flex: 1;">
+        <div>
+          <div>
+            <a href="../../../../team/index.md#carl-robson" target="_blank" rel="noopener">
               <img
                 src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
                 alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
@@ -572,19 +577,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
           <div style="text-align: center;">Carl Robson</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
-          </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../team/index.md#sarah-um" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/sarahAvatar.png"
-                alt="Picture of Sarah Um" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Sarah Um</div>
-          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
+      </div>
     </div>
-    </div>
-
-   </section>
+       </section>

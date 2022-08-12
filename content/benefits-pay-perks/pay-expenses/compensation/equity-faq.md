@@ -16,6 +16,10 @@ Sourcegraph cannot make recommendations or provide advice related to your option
 
 ## FAQ
 
+### When and where do I get my Carta invite?
+
+Carta houses your equity plan. Carta invites go out once per quarter to your personal email after the board of directors has approved option grants in the latest board meeting. The invites take our lawyers 1–3 weeks after the board meeting to process. Board meetings are typically held 3-4 weeks after fiscal quarter end.
+
 ### What if my options in Carta are incorrect (such as I have the wrong number of options or the wrong type of options)?
 
 Email [our Carta admin](https://docs.google.com/document/d/1i-JS8Vv2uvvUyUqxiW-PSemvhsg9kjs3evsPzFFYi5k/edit?usp=sharing) and cc your legal POC or legal@sourcegraph.com, depending on the sensitivity of your question.

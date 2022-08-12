@@ -53,7 +53,7 @@ The core workflow begins in some way or another with a query. The core workflow 
 
 ### From broad interest space to narrow solution space
 
-The core workflow inherently supports a workflow moving from a broad interest space to a narrow solution space. The path from broad to narrow is not necessarily a linear drilldown, but more closely resembles “berrypicking,” where one path may reveal new paths, and narrow solution spaces may in turn trigger broader interest spaces.
+The core workflow inherently supports a workflow moving from a broad interest space to a narrow solution space. The path from broad to narrow goes from broad to narrow, sometimes once, sometimes over and over to answer different parts of a question or even new questions.
 
 A user’s path is not prescribed, but rather adapts to the user’s needs in the moment.
 
@@ -62,11 +62,12 @@ A user’s path is not prescribed, but rather adapts to the user’s needs in th
 - The core workflow will benefit from our explicitly defining different search strategies that developers use and what makes those strategies successful.
 - The core workflow is already based around an existing search strategy, and that will form the basis for iteration.
 - To support a range of search strategies, the core workflow must make it easy for users to understand the path they’ve followed and be able to to move back and forth between moments on that path.
+- The core workflow more closely resembles “berrypicking” than a “linear drilldown.”
 - The underlying information architecture, UI, and navigation through the UI must align to these first principles, and this particular principle is one of the most influential in decision-making.
 
 ### Support building and holding mental context
 
-The core workflow supports a user’s own workflow, which inherently involves building and holding mental context. Every interruption that shifts attention to Sourcegraph itself vesus the workflow it’s supporting adds cognitive load that adds stress in holding that mental context. The core workflow actively minimizes and avoids these moments.
+The core workflow supports a user’s own workflow, which inherently involves building and holding mental context. Every interruption that shifts attention to Sourcegraph itself versus the workflow it’s supporting adds cognitive load that adds stress in holding that mental context. The core workflow actively minimizes and avoids these moments.
 
 **Immediate implications**
 

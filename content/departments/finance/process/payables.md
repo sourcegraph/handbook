@@ -2,7 +2,7 @@
 
 ## What is Airbase?
 
-Airbase is an all-in-one spend maangement platform. At Sourcegraph we use Airbase for Purchase Orders, vendor and international contractor invoice processing, vendor and international contractor payments, physical credit cards for our worldwide team, virtual cards for our worldwide team, and expense reimbursements for our US team. Essentially any spend you do on behalf of Sourcegraph will run through Airbase!
+Airbase is an all-in-one spend management platform. At Sourcegraph we use Airbase for Purchase Orders, vendor and international contractor invoice processing, vendor and international contractor payments, physical credit cards for our worldwide team, virtual cards for our worldwide team, and expense reimbursements for our US team. Essentially any spend you do on behalf of Sourcegraph will run through Airbase!
 
 Airbase gives our department leads and Finance visibilty into spend in real time on the Airbase platform. Additionally we are able to route all expenses through the proper approvals to make sure we are in compliance for audits.
 

@@ -37,6 +37,7 @@ We identify candidates using a variety of channels:
 - Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and/or content at touch points delivered to a targeted candidate at predefined intervals.
 
 [Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.
+[Here's](https://docs.google.com/spreadsheets/d/1dEVe7YUGJrQvu6zKk0iVZ9VbOhqF-ZDTDdzUT2P2f04/edit#gid=1234033687) our Target Companies list for Recruiters & Sourcers.
 
 ### How a Recruiter and/or Hiring Manager partners with their Sourcer
 

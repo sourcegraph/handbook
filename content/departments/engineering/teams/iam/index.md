@@ -2,13 +2,9 @@
 
 > NOTE: The IAM team is a newly formed team at Sourcegraph. We'll be updating this page as we clarify our mission, vision, and roadmap.
 
-## Vision
-
-The vision of the IAM is TBA.
-
 ## Goals and Roadmap
 
-We're working on updating our public-facing roadmap. For Sourcegraph employees, our roadmap can be found [here](https://docs.google.com/spreadsheets/d/1Mrtf04XAHXRSCXL_amY6dDmxAJ4dhKi9-ydFeBPBH4M/edit?usp=sharing).
+The goals and roadmap for the IAM team can be found on our [strategy page](../../../../strategy-goals/strategy/iam/index.md)
 
 ## Areas of Ownership
 
@@ -20,13 +16,11 @@ Service management is a broad area of ownership. To provide more clarity into wh
 
 The IAM team is responsible for both authentication and authorization to Sourcegraph, including login, sign-in and sign-up pages and user management for on-prem and managed instances.
 
-The IAM team also owns code-level authorization, which is enforced based on the repository permissions on the code host level. It is coupled with administration experience and team management, which created close collaboration between both teams.
+The IAM team also owns code-level authorization, which is enforced based on the repository permissions on the code host level or with explicit permissions API.
 
-#### Administration experience and teams management
+#### Teams management
 
-Capabilities that provide customers with transparency and access control to how Sourcegraph is used within their organizations. This includes but is not limited to team management, role-based access control, and other features targeted towards admins on our customer’s side.
-
-In addition to the organization-level management capabilities, we are also responsible for individual users' administration experience.
+Capabilities that provide customers with transparency and access control to how Sourcegraph is used within their organizations. This includes but is not limited to organization/team management, role-based access control, and other features targeted towards admins on our customer’s side.
 
 #### Subscription management
 

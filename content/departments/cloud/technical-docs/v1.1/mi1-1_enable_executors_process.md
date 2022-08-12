@@ -1,9 +1,6 @@
 # Enabling executors
 
-Enabling executor on a managed instances is initiated by #wg-shipping-executors. There are a few logical steps to follow.
-
-1. Update the managed instances terraform to include executor modules
-1. Setup billing alert for the executor resources
+All managed instances will have executors enabled by default. #ce is responsible for providing the ARR to help us determine the compute resources we allocate to executors, [learn more](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.md#executors).
 
 ## Deploy executors
 
@@ -73,6 +70,8 @@ mg executors check
 
 Commit your changes and open a PR. Let #wg-shipping-executors know it is ready!
 
+<!--
+
 ## Setup billing alert
 
 As of 2022-03-08, we give customers a fixed amount (e.g. $500) of computing credits for executors usage, so we need to setup billing alerts.
@@ -115,6 +114,8 @@ Link Monitoring email notification channels we created from the terraform module
 ![create-budget-04](https://storage.googleapis.com/sourcegraph-assets/create-executor-budgets-04.png)
 
 ![create-budget-02](https://storage.googleapis.com/sourcegraph-assets/create-executor-budgets-02.png)
+
+-->
 
 ## Troubleshooting
 

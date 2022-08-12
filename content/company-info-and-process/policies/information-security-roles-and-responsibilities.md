@@ -78,9 +78,9 @@ This policy is applicable to all Sourcegraph employees and contractors who are i
 
 <li>Works with applicable executive leadership to establish an information security framework and awareness program
 
-<li>Build and maintain an Enterprise Risk Management Framework
+<li>Builds and maintains an Information Security & Enterprise Risk Management Framework
 
-<li>Serves as liaison to the Board of Directors, Law Enforcement, Internal Audit and General Council. 
+<li>Responsible for compliance to policies and internal controls. 
 </li>
 </ul>
    </td>

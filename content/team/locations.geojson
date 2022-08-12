@@ -119,16 +119,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Asdine El Hrychy"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [55.13729095458984, 25.080312820442302]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Adam Harvey"
             },
             "geometry": {
@@ -507,16 +497,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-117.92734265327452, 33.673845318635735]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Ben Gordon"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-87.62420654296875, 41.87582421126483]
             }
         },
         {
@@ -998,6 +978,16 @@
                 "type": "Point",
                 "coordinates": [-80.579514, 35.408752]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sam Johns"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.084747, 38.890759]
+             }
         }
     ]
 }
