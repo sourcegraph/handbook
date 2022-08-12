@@ -241,7 +241,6 @@ mg --help
 
 > NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
 
-
 ### FQA: How do I generate a password reset link for customer admin?
 
 > For #cloud engineers, run `mg reset-customer-password -email <>` and it will generate a 1password share link for you.
@@ -252,11 +251,11 @@ If the customer instance is a private instance (e.g. access is restrict to custo
 
 For public instance, usually the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Management" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
 
-__IMPORTANT__: Please do not share the password reset url directly with the customer admin over email or slack. [More context](https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1660037049746969).
+**IMPORTANT**: Please do not share the password reset url directly with the customer admin over email or slack. [More context](https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1660037049746969).
 
 Open 1password, and create a new Secure Note item and paste the password reset url, then use the 1[password share item feature](https://support.1password.com/share-items/) to securely share the link with customer admin. Make sure you configure the following options while sharing the item:
 
 - Link expires after: 1 day
 - Available to: <insert customer admin email>
-  
+
 This ensures only the customer admin is able to gain access to the password reset url.
