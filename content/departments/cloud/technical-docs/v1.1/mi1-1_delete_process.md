@@ -168,6 +168,15 @@ Wait for checks to pass, approval and then merge pull request.
 git push origin HEAD
 ```
 
+## Remove infra monitoring
+
+In https://github.com/sourcegraph/deploy-sourcegraph-managed
+
+```sh
+cd monitoring
+terraform apply
+```
+
 ## Remove audit monitoring from removed GCP project
 
 [infrastructure repository](https://github.com/sourcegraph/infrastructure)
