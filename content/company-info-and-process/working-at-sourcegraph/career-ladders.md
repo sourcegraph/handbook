@@ -2,7 +2,7 @@
 
 We use the term "career framework" to recognize that careers take many paths. At Sourcegraph, we intentionally avoid the term "career ladder," recognizing instead that a Teammate's career journey is often multi-dimensional.
 
-The frameworks below are iterative - we are committed to maintaining high expectations of all of our Teammates, and are open to adjusting or clarifying wording in our frameworks as our business evolves. 
+The frameworks below are iterative - we are committed to maintaining high expectations of all of our Teammates, and are open to adjusting or clarifying wording in our frameworks as our business evolves.
 
 Every department has created a framework for roles within their group. Each framework may apply to multiple job titles within that department. Where we have many Teammates in a role, we may create a more detailed, job-specific framework.
 
