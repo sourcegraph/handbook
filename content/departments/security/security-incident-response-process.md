@@ -1,4 +1,4 @@
-# Security Event Response Procedure
+# Security Incident Response Process
 
 The aim of this document is to define the key steps required as part of responding to a security incident, in line with Sourcegraph’s Security Incident Response Policy.
 
