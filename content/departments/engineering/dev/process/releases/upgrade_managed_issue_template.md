@@ -45,12 +45,11 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8285
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/581
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/537
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/820
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/814
-- [ ] Upgrade second instance for https://github.com/sourcegraph/customer/issues/820
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8494
+- [ ] Upgrade second instance for https://github.com/sourcegraph/accounts/issues/8494
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8247
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/956
-- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/769
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/3078
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8495
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/1246
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/2007
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/981
