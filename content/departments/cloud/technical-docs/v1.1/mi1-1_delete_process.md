@@ -186,7 +186,6 @@ cd security/auto-discovery
 terraform apply
 ```
 
-
 ## Update documentation to remove references of the managed instance
 
 ### Updating the upgrade template
