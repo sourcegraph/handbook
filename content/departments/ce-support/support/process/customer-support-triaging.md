@@ -50,21 +50,11 @@ If the other ticket is still open, merge the new ticket into it and alert our te
 
 No. Hopefully in the future, Zendesk will give us this feature; for now, we can link to the other ticket and be sure the requestor is correct.
 
-### 4. Do we have anything to triage manually?
-
-Yes, we have a few customers listed in our [Customer Exception list](customer-exceptions.md) that we have to manually triage because we cannot automate the link from Slack to Zendesk. When a customer creates a support request in these channels, we have to manually create a Zendesk ticket and then triage that.
-
-We also look at the queues of anyone who is out that day to see if someone needs to fill-in (the original CSE keeps responsibility) -- great for when the CSE is out a day or two -- or we if we need to transition the case to another CSE --great for when the CSE is out a longer period of time.
-
-We should be creating tickets when the post is from someone at the customer, even if the end result is no action for CS. We can skip things from our internal teammates.
-
-And finally, we are also brought into every new incident channel to be there if it requires customer communication and ensure we have a team member available to serve as a messenger.
-
-### 5. What do I do when I see a company update in the triage queue?
+### 4. What do I do when I see a company update in the triage queue?
 
 We sometimes get all company updates coming to the support mailbox. Company updates could be meeting updates etc. When you come across these updates, from a data integrity perspective, please go ahead and delete them.
 
-### 6.What if we are close to missing SLA?
+### 5.What if we are close to missing SLA?
 
 When SLA is close to expiring, we view the teams' cases we ask those AERs with less than 5 open/active tickets (pending or open ... on hold = not active) if they have capacity to take it.
 
