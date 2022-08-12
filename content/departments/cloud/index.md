@@ -231,10 +231,11 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 ```sh
 git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
 cd deploy-sourcegraph-managed
-echo "export \$MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
 mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
-echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+source ~/.bashrc
 make install
 mg --help
 ```
