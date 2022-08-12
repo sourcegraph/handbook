@@ -6,7 +6,7 @@ Note: These planned maintenance windows do not impact Self-Hosted Sourcegraph cu
 
 ## Process
 
-1. Once a maintenance window with downtime has been scheduled, reach out to [Virginia Ulrich](mailto:virginia@sourcegraph.com) (support), [Alex Isken](mailto:alex.isken@sourcegraph.com) (PMM for Cloud), and [Ryan Phillips](mailto:ryphil@sourcegraph.com) (PM for Cloud). By this time, you should have an idea of:
+1. Once a maintenance window with downtime has been scheduled, reach out to [Alex Isken](mailto:alex.isken@sourcegraph.com) (PMM for Cloud), and [Ryan Phillips](mailto:ryphil@sourcegraph.com) (PM for Cloud). By this time, you should have an idea of:
    - The time, date, and duration of the planned outage
    - The impact on the experience for customers (i.e. “New changes to repositories will not be represented during this time)
    - The breadth of impact (all customers or a subset of customers)

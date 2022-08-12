@@ -233,16 +233,6 @@ felix_becker:
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
   description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-asdine_el_hrychy:
-  name: Asdine El Hrychy
-  pronunciation: First name is pronounced _as-deen_, last name _el-ree-tchee_
-  role: Software Engineer
-  reports_to: engineering_manager_repo
-  location: Ajaccio, France 🇫🇷/ Dubai, UAE 🇦🇪
-  github: asdine
-  email: asdine@sourcegraph.com
-  description: Asdine loves experimenting and building bizarre software while enjoying an entire pot of coffee. Before Sourcegraph, he was writing tools and frameworks for his colleagues at Heetch. He also hates dogs, especially the small ones, essentially because they hate him.
-
 dave_try:
   name: Dave Try
   role: Software Engineer
@@ -1597,16 +1587,6 @@ carson_hopkins:
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
-kevin_wojkovich:
-  name: Kevin Wojkovich
-  email: kevin.wojkovich@sourcegraph.com
-  github: kevinwojo
-  pronouns: he/him
-  role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
-  location: Chicago, IL, USA 🇺🇸
-  description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
-
 brett_hayes:
   name: Brett Hayes
   email: brett.hayes@sourcegraph.com
@@ -1718,7 +1698,7 @@ oleg_gromov:
   links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
   github: oleggromov
   role: Software Engineer
-  reports_to: engineering_manager_frontend_platform
+  reports_to: engineering_manager_code_intelligence
   location: Rostov-on-Don, Russia 🇷🇺
   description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
 
@@ -1953,6 +1933,17 @@ Samantha_Ulrich:
   location: Portland, OR, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/samantha-u-62218837/)'
   description: 'An Oregon Native, Sam loves to hike and explore her home state with her fiancé, one of their favorite things is finding hidden waterfalls. An avid reader, Sam has run her own book blog on Youtube and Instagram since 2014. She also has recently discovered a new passion in watercolor painting. Prior to Sourcegraph, Sam has spent time in the healthcare, structural engineering, and crypto fields and looks forward to bringing her experience to her role at Sourcagraph!'
+
+andrew_norrish:
+  name: Andrew Norrish
+  email: andrew.norrish@sourcegraph.com
+  github: anorrish
+  pronouns: he/him
+  role: Senior Implementation Project Manager
+  reports_to: vp_customer_engineering
+  location: Denver, CO, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
+  description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
 
 michal_vrtiak:
   name: Michal Vrtiak
@@ -2277,7 +2268,7 @@ yoway_buorn:
   location: İstanbul, Türkiye 🇹🇷🇸
   github: yowayb
   email: yoway.buorn@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
+  links: '[Linkedin](https://www.linkedin.com/in/%E2%9C%A8-yoway-%E2%9C%A8-buorn-%E2%9C%A8-5038b221b/)'
   description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
 
 Nicky_Comber:
@@ -2467,17 +2458,6 @@ lily_schurra:
   location: Easton, Pennsylvania
   links: '[LinkedIn](https://www.linkedin.com/in/c-lily-schurra)'
   description: Lily is an experienced contracts attorney, having supported the sales and data acquisition teams at Dun & Bradstreet prior to joining Sourcegraph. Professionally, she is happiest when she has regular opportunities to learn new things (like coding to add herself to the Handbook - eek!). Personally, she is happiest practicing yoga or taking Peloton classes on her DIY Peloton, but nothing beats spending time with her husband, daughter, and their two cats.
-
-adham_khalifa:
-  name: Adham Khalifa
-  email: adham.khalifa@sourcegraph.com
-  github: AdhamKhalifa
-  pronouns: he/him/his
-  role: Search Product Intern
-  reports_to: engineering_manager_search
-  location: New London, Connecticut, United States 🇺🇸
-  links: '[Linkedin](https://www.linkedin.com/in/adhamkhalifa/)'
-  description: Adham lives in New London, CT. He is a student at Connecticut College graduating in 2023 with a major in computer science. He loves programming and creating cool projects to make life easier. Do not hesitate to reach out to him to discuss any cool projects!
 
 kalan_chan:
   name: Kalan Chan

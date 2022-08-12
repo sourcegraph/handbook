@@ -161,3 +161,47 @@ We want to find engineers who are:
   ```
 
   </details>
+
+### Head of Engineering Interview Process
+
+#### Hiring Manager Interview
+
+- **Interviewers:** Quinn Slack, co-founder and CEO
+
+- **Duration:** 60-minutes.
+
+- **Details:** During this stage in the interview process, Quinn will introduce himself, get to know you, and answer any initial questions you may have. This stage is meant to be conversational and informative for both us and you.
+
+#### Interview with Beyang Liu
+
+- **Interviewers:** Beyang Liu, co-founder and CTO
+
+- **Duration:** 60-minutes.
+
+- **Details:** During this stage in the interview process, Beyang will dig into your leadership skills and get an understanding of how you'd run the team.
+
+#### Peer Interview
+
+- **Interviewers:** Aimee Menne, VP Customer Engineering & Customer Support
+
+- **Duration:** 60-minutes.
+
+- **Details:** During this stage in the interview process, Aimee will dig into your vision, execution history, decision-making, and collaboration with adjacent teams.
+
+#### Technical Interview
+
+- **Interviewers:** Two IC5 Engineers
+
+- **Duration:** 60-minutes.
+
+- **Details:** This interview will be a focused assessment of technical skills and requires work to be done prior to the interview.
+
+- **How to prepare:** Prior to the interview, open up a pull request on Sourcegraph or send us a patch to add a small feature or other improvement.
+
+#### Cross-functional Team Collaboration
+
+- **Interviewers:** Two cross-functional peers
+
+- **Duration:** 60-minutes.
+
+- **Details:** This interview will be focused on domain knowledge, functionally-specific depth, and breadth.

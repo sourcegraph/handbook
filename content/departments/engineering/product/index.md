@@ -62,6 +62,7 @@ The product and design team meets weekly to discuss the most important cross-tea
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
 - [Product team tools](tools/index.md)
+- [Product career development framework](career-development/framework.md)
 
 ### Deprecated
 

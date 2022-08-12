@@ -29,11 +29,13 @@ We are an all-remote company and favor asynchronous communication, it is importa
   - [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers) - Our CI (Continuous Integration) pipelines host.
     - Self-serve via google auth
   - [Cloudflare](https://dash.cloudflare.com/login) - Our CDN / WAF / DNS provider.
-    - **#security** or you can reach out in **#internal-security**
+    - **#security** or you can reach out in **security-internal**
   - [GCP](https://console.cloud.google.com) (Google Cloud Platform) - GCP is where our Cloud infastructure exists.
     - **#it-tech-ops**
   - [Google Workspaces investigation tool](https://admin.google.com/ac/sc/investigation)
     - **#it-tech-ops**
+  - [OpsGenie](https://sourcegraph.app.opsgenie.com/teams/dashboard/ff31605f-6091-4ab0-93f5-3b5b9a79100c/main)
+    - **#security-internal**
 
 ## Sourcegraph - Local Enviroment Setup
 

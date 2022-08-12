@@ -2,16 +2,6 @@
 
 The purpose of this Handbook Page is to provide Managers and Teammates with the resources needed to drive a high performing culture at Sourcegraph. We believe that our team thrives when we have a high bar for excellence, and when all Teammates receive feedback early and often.
 
-**<span style="text-decoration:underline;">On this page, you will find: </span>**
-
-1. What is a high-performance culture & why is it important
-2. How we foster a high-performance culture
-   1. Formal semi-annual performance reviews in February & August
-   2. Continuous feedback
-3. Managing underperformance
-   1. Formal coaching phase (pre-PIP)
-   2. Performance improvement plan (PIP) process
-
 ## **<span style="text-decoration:underline;">What is a high performance culture?</span>**
 
 We want a culture where Teammates are highly productive and motivated. Our Teammates should have the resources they need to meet and exceed their goals, feel supported by their Manager, be aligned with our company values, and feel confident in leadership. High-performance cultures benefit both the company and the individual.
@@ -33,22 +23,21 @@ We expect Managers to foster a high-performance culture and provide performance 
 1. Formal performance reviews
 2. Ongoing feedback
 
-## **<span style="text-decoration:underline;">1. Formal performance reviews</span>**
+### **<span style="text-decoration:underline;">1. Formal performance reviews</span>**
 
 At Sourcegraph, we have a formal performance review process that takes place **twice a year.**
 
-- Review 1: February
-- Review 2: August
+- Review 1: launches February (ends April 1)
+- Review 2: launches August (ends Oct 1)
 
 The purpose of our semi-annual reviews, which take place via Lattice, is to gather formal feedback from the Teammate, their Manager, and their Peers. Our semi-annual review process is broken into two parts:
 
-- A 360-review, which helps give Teammates insight into how they’re performing, and eliminates “gut feel” and unconscious bias from impacting compensation or promotion decisions.\_ (A 360-review should not serve as a replacement for giving and getting ongoing, continuous feedback. Any underperformance feedback should be covered during 1:1s and should never come as a surprise to the Teammate).
-- A calibration process immediately following the 360-review cycle to ensure we hold a high and consistent bar across Managers, teams, and departments. The calibration process consists of:
-  - COMING SOON
+- A 360-review, which helps give Teammates insight into how they’re performing, and eliminates “gut feel” and unconscious bias from impacting compensation or promotion decisions. (A 360-review should not serve as a replacement for giving and getting ongoing, continuous feedback. Any underperformance feedback should be covered during 1:1s and should never come as a surprise to the Teammate).
+- A calibration process immediately following the 360-review cycle, during which People Partners meet with Managers to ensure we hold a high and consistent bar across Managers, teams, and departments.
 
 Reviews coincide with our promotion and compensation review cycles. [Click here](https://docs.google.com/document/d/1bS2V_9Ne0TdLyMBXufdcoSkkojeeyxzoSXZdCe-fyfE/edit) to learn more about our semi-annual review process.
 
-## <span style="text-decoration:underline;">2. Continuous feedback</span>
+### <span style="text-decoration:underline;">2. Continuous feedback</span>
 
 We expect our Managers to provide ongoing, continuous feedback in the following ways:
 
@@ -107,7 +96,7 @@ Below is additional information to help Managers and Teammates navigate performa
 - Anchor expectations to objective performance requirements based on established career ladders.
   - _Career ladders across all roles at Sourcegraph are coming soon. If no career ladder is in place for the role, align on expectations with your Manager._
 
-**Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance (unsure who your People Partner is? [Click here](COMING SOON)
+**Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance.
 
 Once you contact your People Partner, they will guide you through next steps. Every circumstance is different and depending on the nature / seriousness of the performance issues, the recommended performance management process may differ. In some cases, it may be appropriate to follow all of the Stages of the below process in order, and in other cases it may be appropriate to skip to a later stage or to handle the performance issue outside of the PIP process altogether.
 
