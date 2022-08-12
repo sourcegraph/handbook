@@ -164,9 +164,9 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 
 The [Cloud team GitHub Project](https://github.com/orgs/sourcegraph/projects/264/views/1) is the single source of truth.
 
-### How we use GitHub Projects (Beta)
+### [How we use GitHub Projects (Beta)](github-projects-beta.md)
 
-tbd
+### [Grooming and Estimation process](grooming-and-estimation-process.md)
 
 ### On-call
 
