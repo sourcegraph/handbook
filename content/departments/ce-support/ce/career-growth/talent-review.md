@@ -36,7 +36,7 @@ Promotion requests are made immediately following the [talent review calibration
 
 Teammates are considered for promotion to a new level when their manager can make the case that they have had at least four quarters of high performance at their current level, and one quarter performing at the next level. We want to avoid situations where someone is promoted to a level in which they struggle to meet expectations.
 
-Our career ladders describe performance expectations in 3 core competencies. It will be extremely rare for a customer engineer to be exactly at the same level in all of these categories. Since the levels describe the minimum expectations for each level, a customer engineer must meet the expectations for all categories before they can be considered for promotion.
+Our career frameworks describe performance expectations in 3 core competencies. It will be extremely rare for a customer engineer to be exactly at the same level in all of these categories. Since the levels describe the minimum expectations for each level, a customer engineer must meet the expectations for all categories before they can be considered for promotion.
 
 ## Compensation increase requests
 
