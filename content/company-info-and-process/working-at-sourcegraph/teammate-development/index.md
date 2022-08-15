@@ -71,7 +71,7 @@ Topics to cover during 1:1:
   - If giving negative feedback, Managers are expected to provide specific examples and follow the [SBI (situation, behavior, impact) model](https://www.the10minuteleader.com/how-to-give-good-feedback/).
 - Managers should solicit direct feedback from Teammates (“What should I start / stop / continue?”, “How happy are you?,” Iis there anything I can do to better support you?,” etc).
 - Discussion about career progression. Managers should discuss a Teammate’s career advancement at least quarterly.
-  - Career frameworks 
+  - Career frameworks
 
 [Click here](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit#) to read more about how to lead an effective 1:1 at Sourcegraph.
 
