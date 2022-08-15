@@ -189,7 +189,7 @@ Your **skill-based rating** is directly tied to outcomes and indicates how well 
 
 You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
 
-[9-BOX VISUAL COMING SOON]
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.48.49%20PM.png)
 
 ### Team 9-box distribution
 
@@ -213,7 +213,7 @@ Following the completion of self, peer and upward reviews, the below steps take 
 
 - **Step 2:** The Manager has conversation with Teammate to deliver the results / feedback.
 
-[IMAGE COMING SOON]
+![visual of steps](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.49.16%20PM.png)
 
 - **Step 3:** Promotion or compensation increases go into effect. Promotion announcements are made via `#teammate-announce` channel.
 
