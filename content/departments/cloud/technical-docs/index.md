@@ -24,6 +24,7 @@ For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separ
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
 - for v1.1 - [tpgi instance](http://tpgi.sourcegraph.com/)
 - for v1.1 - [s2 instance](https://sourcegraph.sourcegraph.com/)
+- for v1.1 - [research.sourcegraph.com](https://research.sourcegraph.com)
 
 Internal instances are created for various testing purposes:
 
@@ -44,6 +45,10 @@ Learn more from https://github.com/sourcegraph/customer/issues/958
 ##### [s2 instance](https://sourcegraph.sourcegraph.com/)
 
 This is the internal Cloud dogfood instance for the entire company. #dev-experience is responsible for rolling out nightly builds on this instance and #cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
+
+##### [research.sourcegraph.com](https://research.sourcegraph.com)
+
+Learn more from https://github.com/sourcegraph/customer/issues/1221
 
 #### Customer instances
 
