@@ -71,7 +71,7 @@ Topics to cover during 1:1:
   - If giving negative feedback, Managers are expected to provide specific examples and follow the [SBI (situation, behavior, impact) model](https://www.the10minuteleader.com/how-to-give-good-feedback/).
 - Managers should solicit direct feedback from Teammates (“What should I start / stop / continue?”, “How happy are you?,” Iis there anything I can do to better support you?,” etc).
 - Discussion about career progression. Managers should discuss a Teammate’s career advancement at least quarterly.
-  - Career ladders [COMING SOON]
+  - Career frameworks
 
 [Click here](https://docs.google.com/document/d/1dnuemPYSgd6M1lcBHViCQE-rdsFIrxgxt7jBk1ZNFMU/edit#) to read more about how to lead an effective 1:1 at Sourcegraph.
 
@@ -93,8 +93,8 @@ Below is additional information to help Managers and Teammates navigate performa
 - Avoid favoritism (for example, assigning a certain Teammate more favorable tasks, giving them special attention/coaching, or sharing work-related information with only certain employees).
 - Ask yourself - would you hire this person again?
 - Hold yourself and the team member accountable to achieving set goals.
-- Anchor expectations to objective performance requirements based on established career ladders.
-  - _Career ladders across all roles at Sourcegraph are coming soon. If no career ladder is in place for the role, align on expectations with your Manager._
+- Anchor expectations to objective performance requirements based on established career frameworks.
+  - _Career frameworks across all roles at Sourcegraph are coming soon. If no career framework is in place for the role, align on expectations with your Manager._
 
 **Step 1:** If you believe you have a Teammate who is underperforming on your team, begin by contacting your People Partner, who will work with and coach you through managing Teammate underperformance.
 
