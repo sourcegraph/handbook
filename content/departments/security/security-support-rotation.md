@@ -104,3 +104,17 @@ Sourcegraph.com is behind the Cloudflare WAF. It's a great tool but sometimes it
    ![Cloudflare event](https://storage.googleapis.com/sourcegraph-assets/cloudflare-waf-block-1.png)
 4. Go to Firewall -> Managed rules and find the rule group containing this RuleID. Find information about the rule and what it's trying to block. In most cases we disable the rule regardless since a WAF cannot block legitimate searches.
 5. To disable the rule, add the RuleID to [this list](https://github.com/sourcegraph/infrastructure/blob/main/dns/variables.tf#L1) and follow our git flow for updating infrastructure.
+
+### Security Vendor Reviews
+
+Vendor reviews are requested by Legal or Compliance when a new vendor is being requested by a teammate. When requested, we want to review various aspects of the vendor's security policy, not limited to but including, data processing, data protection, security reporting, and type of data being shared. Here is a non-exhaustive list of items you may want to review for this request.
+
+Information needed and reviewed:
+
+1. What type of information is being shared with the vendor: customer data, sourcegraph data, both?
+2. Security compliance certifications like ISO27001 or SOC 2.
+3. Encryption standards of data at rest and in transit (transport layer security).
+4. Clear measures around confidentiality, integrity, availability, and resilience of processing systems and services.
+5. Clear process in case of a security incident and the reporting to Sourcegraph.
+6. Ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
+7. Periodic testing on security, assessing and evaluating the effectiveness of technical and organizational measures for ensuring the security of the processing.

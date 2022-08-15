@@ -65,7 +65,7 @@ Most docker images we create have build scripts that can be run locally. In case
 sg ci build docker-images-patch <image>
 ```
 
-More information [here](../../engineering/dev/process/deployments/testing.md/#building-docker-images-for-a-specific-branch)
+More information [here](../../engineering/dev/process/deployments/testing.md#building-docker-images-for-a-specific-branch)
 
 A recommended process to test patches is:
 

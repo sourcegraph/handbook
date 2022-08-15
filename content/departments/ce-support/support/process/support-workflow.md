@@ -2,8 +2,6 @@
 
 ## From noticing an issue ... through resolution
 
-Things happen pretty much in this order...and at every step, our decisions and actions are informed by [our ethos](../index.md).
-
 1. **Someone notices something in our product not working correctly or needs help getting our product working.** This could be a prospect, a paying customer, an open source users, or anyone at Sourcegraph -- we consider all of them customers, regardless of what "type."
 
 2. **Someone engages the support team for help.** Our customers are able to initiate conversations for help via several methods (Slack channels, support@ email, Twitter, etc -- (more details below). Allowing customers to initiate conversations via several methods increases the likelihood that we become aware of issues, feedback, etc as quickly as possible and can get our customers the help they need. In order to scale this, we use Zendesk. Zendesk simplifies what would otherwise feel complex through out-of-the-box configuration and integrations, allowing us to have almost everything in one place for easy prioritization and powerful data tracking. We get the benefit of everything coming to one place and customers have the lowest barrier possible to interact with us. Our teammates will almost always reach out to us over Slack. The primary exception is when there is an outage (`about`, /`search` on sourcegraph.com, or `docs` is fully unreachable) and engineering pages us via OpsGenie.

@@ -1,25 +1,20 @@
 # Release Post process
 
-Product Marketing is responsible for creating the monthly release post in collaboration with the product and content teams. The release post is intended to showcase highlights and major updates included in the latest version of Sourcegraph. New versions are typically released on the 20th of each more; you can read more about [the engineering release process here](../../engineering/dev/process/releases/index.md#when-we-release).
+Product Marketing is responsible for creating the monthly release post in collaboration with the product team. The release post is intended to showcase highlights and major updates included in the latest version of Sourcegraph. New versions are typically released on the 22nd of each month; you can read more about [the engineering release process here](../../engineering/dev/process/releases/index.md#when-we-release).
 
 Here is an overview of the release post process:
 
 **10 days before release ships**
 
-- Product Marketing creates a release post file with placeholder section for highlights, adding it to a new PR in GitHub
-- Product Marketing proposes a release post timeline in #release-post & pulls in involved teams (Product, Content, CE)
+- Product Marketing creates a release post file with placeholder section for highlights, adding it to a new PR in GitHub.
+- Product Marketing proposes a release post timeline in #release-post & pulls in involved teams (Product & CE).
 
 **7 days before release ships**
 
 - PMs recommend which updates to feature in the post and commit draft copy to the release post PR. They also add assets (videos, links, screenshots) for all highlights directly to the PR.
 - If visual assets aren't ready by this date, PMs add a placeholder for expected assets.
 
-**1-2 days before the release is cut**
-
-- Product Marketing to work with the CE team to review the changelog and determine 5-7 major items that should be featured in the release post changelog.
-  - It is easier to do this closer to when the release is cut so that the changelog is mostly final.
-
-**When the release is cut (24 hours before release ships)**
+**When the release is cut (72 hours before release ships)**
 
 You can tell when the release is cut by following along in #progress.
 
@@ -29,15 +24,16 @@ You can tell when the release is cut by following along in #progress.
   - Make sure that you get the latest in the Sourcegraph repo before running this command. If your repo is in a different location than `../sourcegraph`, you'll need to update the command line above.
   - If for some reason the version number isn't added yet and you need to capture the "Unreleased" then passing it the literal string match for the "Unreleased" heading, usually `Unreleased`, in place of a version number works)
 
-- Once this is done, the marketing owner reduces the changelog to 5-7 notable items and then informs the team in the #release-post channel.
+- Once this is done, PMM works with the CE team to choose 5-7 changelog items to include in the post, and then informs the team in the #release-post channel.
 - If necessary, PMs make edits to the changelog based on what was actually shipped.
+  - PMs are responsible for their highlights accurately reflecting features that are included in the release.
 - PMs add final assets.
 - Product marketing makes last edits to the release post and shares it to Content, Product, Product Marketing, & Comms for review.
 
 **0–2 days after release ships**
 
 - No new additions or edits from the product team.
-- Managing Editor (from the content team) edits and publishes release post.
+- PMM edits and publishes release post.
 
 **When the release post is published**
 

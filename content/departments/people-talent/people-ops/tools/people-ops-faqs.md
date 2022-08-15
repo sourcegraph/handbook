@@ -112,9 +112,11 @@ This page is meant as a resource to find answers to questions frequently asked b
 - **Vision insurance and Life Insurance:**
   - [Equitable Vision](https://drive.google.com/file/d/18hsyxSJqwI2Uyoy0iS1xk2k0AiY88zNb/view?usp=sharing)
 - **HSA, FSA, and Dependent Care FSA:**
+  - HSA, FSA and Dependent Care FSA accounts are administered by [Rippling] (https://app.rippling.com/login?next=%2Fdashboard).
 - **401K:**
 
-**Non-US teammates:**
+  - Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
+    **Non-US teammates:**
 
 - Not applicable.
 

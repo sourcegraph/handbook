@@ -89,10 +89,10 @@
 
 Our People Partners are aligned to business units as follows:
 
-**Jonathan Ayers**: Executive Team
-**Carl Robson**: Sales & Marketing
-**Sarah Um**: Customer Engineering & Support; Operations
-**Alex Mathison**: Engineering, Product and Design
+- **Jonathan Ayers**: Executive Team
+- **Carl Robson**: Sales & Marketing
+- **Sarah Um**: Customer Engineering & Support; Operations
+- **Alex Mathison**: Engineering, Product and Design
 
 ### Open roles
 
