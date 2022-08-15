@@ -8,7 +8,7 @@ We create a high-performance culture at Sourcegraph by providing continuous, act
 
 The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
 
-To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
+To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../company-info-and-process/working-at-sourcegraph/teammate-development.md).
 
 ### When do they take place?
 
@@ -41,15 +41,12 @@ Reviews a Teammate receives:
 
 ### What we do with Impact Review feedback
 
-Results from the semi-annual impact review process support the growth and development of our Teammates in the following ways:
+Results from the semi-annual Impact Review process support the growth and development of our Teammates in the following ways:
 
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
-
-  - Growth & promotion philosophy
-    - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
-    - [Career development frameworks][link coming soon]
-
-- [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
+  - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
+  - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-ladders.md)
+  - [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
 
 ## Impact Review timeline
@@ -205,7 +202,7 @@ We do not stack rank employees but, rather, calibrate across the organization to
   - Least Effective score: 3:1, 3:2, 2:3, 1:3 or 3:3
   - Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
 
-## Impact Review Calibration
+## Impact Review calibration
 
 Following the completion of self, peer and upward reviews, the below steps take place:
 
@@ -255,7 +252,7 @@ Impact Reviews are an important component in our compensation decision making pr
 
 More information may be found in our [how we pay at Sourcegraph] Handbook page [COMING SOON].
 
-## Merit Philosophy
+## Performance-based pay philosophy
 
 We believe in performance-based pay, meaning merit increases (inclusive of cash and equity) will be driven by performance. We believe in hiring all Teammates at an equitable starting point within their respective band and we want to provide opportunities for Teammates to grow within their salary band that is in alignment with their performance.
 
@@ -284,7 +281,7 @@ Teammate performance is to be formally reviewed at least twice a year. The focus
 
 In some cases, it may be necessary to support a merit increase outside of a performance review cycle. These should be rare and be seen as an “exception to the rule.” The Department Leader will need to present a business case for out-of-cycle merit-based salary adjustments, spot, and equity bonuses. All changes require VP People & Talent and CEO approval.
 
-## Promotion Philosophy
+## Promotion philosophy
 
 The purpose of our promotion philosophy is to support the growth & advancement of Teammates, in alignment with our values. Sourcegraph’s success is fueled by our incredible Teammates, which is why we foster a culture of continuous growth and accelerate opportunities to level up.
 
