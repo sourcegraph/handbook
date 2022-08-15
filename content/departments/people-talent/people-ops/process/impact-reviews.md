@@ -4,7 +4,6 @@ _If you have any questions about the Impact Review process, or need help in gene
 
 ## Impact Reviews explained
 
-
 We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide [ongoing feedback with Teammates year-round in 1:1 meetings and informally](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
 
 The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
@@ -45,14 +44,13 @@ Reviews a Teammate receives:
 Results from the semi-annual impact review process support the growth and development of our Teammates in the following ways:
 
 - Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
+
   - Growth & promotion philosophy
     - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
-    - [Career development frameworks][LINK COMING SOON]
+    - [Career development frameworks][link coming soon]
 
 - [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
-
-
 
 ## Impact Review timeline
 
@@ -123,6 +121,7 @@ Lattice resources:
 - **Required questions:**
 
 - How have this Teammate’s contributions impacted your ability to deliver on your goals?
+
   - To what extent does this person follow through on commitments? (Please provide examples).
 
 - **Optional questions:**
@@ -252,7 +251,7 @@ The coaching categories are:
 
 ### How we approach compensation decisions
 
-Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program. 
+Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
 More information may be found in our [how we pay at Sourcegraph] Handbook page [COMING SOON].
 
