@@ -62,7 +62,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Guide to an effective 1:1](../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 - [Semi-annual performance review process](../people-ops/process/impact-reviews.md)
   - [Our promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md#how-to-get-a-promotion)
-    - [Department specific career frameworks](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
+    - [Department specific career frameworks](../../../company-info-and-process/working-at-sourcegraph/career-ladders.md)
     - [Our level guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
     - [How to view your current level](COMING SOON)
   - [How to give a raise within band]COMING SOON
