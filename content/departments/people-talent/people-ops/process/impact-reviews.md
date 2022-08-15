@@ -323,6 +323,10 @@ Q. **How are Teammate ratings on Impact Reviews used?**
 
 - Ratings on Impact Reviews are indicators of overall performance and are used as part of the calibration process to determine eligibility for Merit and Promotions. Merit increases will be awarded and differentiated amongst Teammates based on individual performance.
 
+Q. **How do I choose my peer reviewers?**
+
+- Guidance on selecting peer reviewers can be found [here](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
+
 Q. **Can reviews be submitted outside of the predetermined Impact Review schedule?**
 
 - No. All reviews must be submitted in alignment with the Impact Review schedule. This ensures accountability for all Teammates to submit reviews during the same period. We intentionally provided a significant runway for Peer Selection, Review Writing, and Calibration, so Teammates can prioritize each stage in alignment with their current workload. Managers are responsible for ensuring their teams are not missing submission deadlines. If an extension is needed for any reason, please contact the ask-people-team channel. All Teammates will receive a Calendar Invite in alignment with the review schedule.
