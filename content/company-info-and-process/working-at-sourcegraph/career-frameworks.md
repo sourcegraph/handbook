@@ -1,4 +1,4 @@
-# Career Framework
+# Career Frameworks
 
 We use the term "career framework" to recognize that careers take many paths. At Sourcegraph, we intentionally avoid the term "career ladder," recognizing instead that a Teammate's career journey is often multi-dimensional.
 
@@ -6,7 +6,7 @@ The frameworks below are iterative - we are committed to maintaining high expect
 
 Every department has created a framework for roles within their group. Each framework may apply to multiple job titles within that department. Where we have many Teammates in a role, we may create a more detailed, job-specific framework.
 
-This page is maintained by our [Talent and People Team](https://handbook.sourcegraph.com/departments/people-talent/talent/).
+This page is maintained by our [Talent and People Team](../../departments/people-talent/talent/index.md).
 
 ## Customer Engineering & Support
 
