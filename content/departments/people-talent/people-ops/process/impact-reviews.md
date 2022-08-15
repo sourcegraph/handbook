@@ -191,9 +191,9 @@ You will receive a Performance Rating and a Values Rating, as well as a written 
 
 ![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.48.49%20PM.png)
 
-### Team 9-box distribution
+### 9-box distribution
 
-We do not stack rank employees but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
+We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
 
 - 20% of Teammates will fall in the **“Top Tier”** (high performance) category.
   - Top Tier score: 1:1, 1:2 or 2:1
@@ -305,9 +305,7 @@ The following criteria support promotions:
 
 ### What is the promotion process & timeline?
 
-We promote in alignment with our Impact Review process, to ensure Teammate growth opportunities are not delayed by extended cadence parameters. There are four core stages to the promotion process: Planning/Calibration, Recommendation- Approvals, Processing & Announcement.
-
-[TABLE COMING SOON]
+We promote in alignment with our Impact Review process, to ensure Teammate growth opportunities are not delayed by extended cadence parameters. There are four core stages to the promotion process: Planning/Calibration, Recommendation-Approvals, Processing & Announcement.
 
 ### How is the merit/promotion budget determined?
 
