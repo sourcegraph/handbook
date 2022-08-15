@@ -47,7 +47,7 @@ Results from the semi-annual impact review process support the growth and develo
 
   - Growth & promotion philosophy
     - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
-    - [Career development frameworks][link coming soon]
+    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-ladders.md)
 
 - [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
@@ -58,7 +58,7 @@ Results from the semi-annual impact review process support the growth and develo
 
 _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
 
-- **Phase 1: Select your reviewers**
+- **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
   - Monday 2022-08-15 to Thursday 2022-08-18 (4 days)
 - **Phase 2: Self, Peer, & Upward Review Writing**
   - Friday 2022-08-19 to Friday 2022-09-02 (2 weeks)
@@ -75,7 +75,7 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
 
 **FEBRUARY FY24** (6 weeks total)
 
-- **Phase 1: Select your reviewers**
+- **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
   - 2023-02-01 to 2023-02-07 (1 week)
 - **Phase 2: Self, Peer, & Upward Review Writing**
   - 2023-02-08 to 2023-02-22 (2 weeks)
