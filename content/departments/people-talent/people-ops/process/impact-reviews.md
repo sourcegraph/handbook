@@ -47,7 +47,7 @@ Results from the semi-annual impact review process support the growth and develo
 
   - Growth & promotion philosophy
     - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
-    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-ladders.md)
+    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
 - [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
