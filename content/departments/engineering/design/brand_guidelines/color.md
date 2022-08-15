@@ -276,24 +276,24 @@ Primary logo colors have been marked. The secondary colors, along with shades an
       <code>#f9fafb</code>
       <small>Grayscale 50</small>
     </div>
-    <div class="color color-sm" style="--color: #f1f1f1">
-      <code>#f1f1f1</code>
+    <div class="color color-sm" style="--color: #F5F7FB">
+      <code>#f5f7fb</code>
       <small>Grayscale 100</small>
     </div>
-    <div class="color color-sm" style="--color: #e7e7e7;">
-      <code>#e7e7e7</code>
+    <div class="color color-sm" style="--color: #dbe2f0;">
+      <code>#dbe2f0</code>
       <small>Grayscale 200</small>
     </div>
-    <div class="color color-sm" style="--color: #c4c4c4;">
-      <code>#c4c4c4</code>
+    <div class="color color-sm" style="--color: #ABB3C1;">
+      <code>#abb3c1</code>
       <small>Grayscale 300</small>
     </div>
-    <div class="color color-sm" style="--color: #8a8a8a; color: white">
-      <code>#8a8a8a</code>
+    <div class="color color-sm" style="--color: #696B71; color: white">
+      <code>#696b71</code>
       <small>Grayscale 400</small>
     </div>
-    <div class="color color-sm" style="--color: #4d4d4d; color: white">
-      <code>#4d4d4d</code>
+    <div class="color color-sm" style="--color: #484b51; color: white">
+      <code>#484b51</code>
       <small>Grayscale 500</small>
     </div>
     <div class="color color-sm" style="--color: #313131; color: white">
@@ -322,11 +322,20 @@ Use supporting colors for added tonality and awareness within website UI.
       <small>Grayscale 50</small>
     </div>
   </div>
-  <div class="color color-lg" style="--color: var(--sg-dark-gray); color: white">
+   <div class="color color-lg" style="--color: #DBE2F0; color: black">
+    <h5>Sourcegraph Medium Gray</h5>
+    <p>Our medium gray can be used for borders and lines.</p>
+    <div>
+      <code>#dbe2f0</code>
+      <br />
+      <small>Grayscale 200</small>
+    </div>
+  </div>
+  <div class="color color-lg" style="--color: #484B51; color: white">
     <h5>Sourcegraph Dark Gray</h5>
     <p>Our dark gray can add tonality and depth to typographical layouts.</p>
     <div>
-      <code>#4d4d4d</code>
+      <code>#484b51</code>
       <br />
       <small>Grayscale 500</small>
     </div>
