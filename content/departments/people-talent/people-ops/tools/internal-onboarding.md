@@ -128,7 +128,7 @@ We create a channel for the cohort. We add all new teammates, the onboarding tea
 
 **i-9s**
 
-US teammates need to get their i9 berification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
+US teammates need to get their i9 verification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
 
 Teammates must have the elegible documents available for us to corroborate their identity. [Here are the acceptable documents](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents)
 
@@ -191,3 +191,7 @@ We must notify the manager and update the start date in BambooHR. This is critic
 Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
 
 ## Rescinding offer
+
+When someone rescinds their offer, the Onboarding team needs to be informed as soon as possible. Considering onboarding involves many moving parts and teams, time is of the esense. The Onboarding team will notify Payroll, Tech Ops, the managers, and anyone else involved in the process.
+
+We also need to deactivate the user in BambooHR. Go to [this page](bamboohr.md#rescinded-offersacceptances) to follow the steps in BambooHR.

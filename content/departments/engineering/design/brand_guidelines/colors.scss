@@ -1,0 +1,76 @@
+:root {
+    /* Wildcard Design System colors */
+    --gray-01: #f9fafb;
+    --gray-02: #f0f1f2;
+    --gray-05: #a6b6d9;
+    --gray-04: #dbe2f0;
+    --gray-07: #5e6e8c;
+    --gray-08: #343a4d;
+
+    /* Brand guideline colors */
+    --sg-light-gray: #f4f7fb;
+    --sg-dark-gray: #6c757d;
+    --sg-space-black: #000000;
+
+    --sg-yellow-1: #fff2cf;
+    --sg-yellow-2: #ffdb45;
+    --sg-yellow-3: #ffc247;
+    --sg-yellow-4: #ff9933;
+
+    --sg-violet-1: #e8d1ff;
+    --sg-violet-2: #a112ff;
+    --sg-violet-3: #820dde;
+    --sg-violet-4: #6112a3;
+
+    --sg-red-1: #ffc9c9;
+    --sg-red-2: #ff5543;
+    --sg-red-3: #ed2e20;
+    --sg-red-4: #c22626;
+
+    --sg-blue-1: #c7ffff;
+    --sg-blue-2: #00cbec;
+    --sg-blue-3: #00a1c7;
+    --sg-blue-4: #005482;
+
+    --sg-plum-1: #bfbfff;
+    --sg-plum-2: #6b59ed;
+    --sg-plum-3: #5033e1;
+    --sg-plum-4: #3826cc;
+
+    --sg-green-1: #c4ffe8;
+    --sg-green-2: #8fedcf;
+    --sg-green-3: #17ab52;
+    --sg-green-4: #1f7d45;
+
+    /* Logo colors */
+    --sg-vermillion: var(--sg-red-2);
+    --sg-vivid-violet: var(--sg-violet-2);
+    --sg-sky-blue: var(--sg-blue-2);
+
+    --sg-lemon: var(--sg-yellow-2);
+    --sg-mint: var(--sg-green-2);
+    --sg-blurple: var(--sg-plum-3);
+    --sg-action-green: var(--sg-green-3);
+    --sg-alert-red: var(--sg-red-3);
+
+    --sg-red-mist: var(--sg-red-1);
+    --sg-blue-mist: var(--sg-blue-1);
+    --sg-violet-mist: var(--sg-violet-1);
+    --sg-green-mist: var(--sg-green-1);
+
+    /* Gradients */
+    --sg-gradient-aquamarine: linear-gradient(var(--sg-sky-blue), var(--sg-blurple));
+    --sg-gradient-infrared: linear-gradient(var(--sg-vivid-violet), var(--sg-vermillion));
+    --sg-gradient-aurora: linear-gradient(var(--sg-sky-blue), var(--sg-vivid-violet));
+    --sg-gradient-mars: linear-gradient(var(--sg-red-mist), var(--sg-violet-mist));
+    --sg-gradient-saturn: linear-gradient(var(--sg-violet-mist), var(--sg-blue-mist));
+    --sg-gradient-venus: linear-gradient(var(--sg-blue-mist), var(--sg-green-mist));
+}
+
+// Gradient bg- utilities
+$sg-gradients: 'aquamarine' 'infrared' 'aurora' 'mars' 'saturn' 'venus';
+@each $gradient in $sg-gradients {
+    .bg-gradient-#{$gradient} {
+        background: var(--sg-gradient-#{$gradient});
+    }
+}

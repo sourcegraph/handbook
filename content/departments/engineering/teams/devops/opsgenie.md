@@ -25,7 +25,7 @@ Ensure that the final escalation policy is set to "Send to the DevOps team" or "
 
 ### Creating split rotations
 
-Otherwise known as "follow-the-sun" rotations, split on-call rotations are a great way to leverage distributed, worldwide teams to make sure no one has to wake up in the middle of the night!
+Otherwise known as "follow-the-sun" rotations, split on-call rotations are a great way to leverage distributed, worldwide teams to make sure no one has to wake up in the middle of the night! If you need a "follow-the-sun" rotation with additional flexibility, [check out this approach](./opsgenie-routing.md).
 
 For example, if half your team is in North America and the other half of your team is in parts of Europe, you could leverage on-call rotations based on an east and west side of the Atlantic grouping, such as:
 

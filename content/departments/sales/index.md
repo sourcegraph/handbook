@@ -2,10 +2,8 @@
 
 The Sales team represents us and our values to customers, bringing back dollars and feedback to help us grow.
 
-- [Commercial Sales](commercial/index.md)
 - [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
 - [Pricing](https://about.sourcegraph.com/pricing)
-- [Price List](https://docs.google.com/spreadsheets/d/1Vea0kr4Mx6AIs9YIHytTzDv9D1E7TY235hO49ZOB4I0/edit#gid=1935459439)
 - [Common questions from prospective customers](tools/common_customer_questions.md)
 - [Sales team onboarding](onboarding/index.md)
 - [SDR Team](sdrteam/index.md)
