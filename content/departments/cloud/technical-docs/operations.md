@@ -363,8 +363,6 @@ Visit https://console.cloud.google.com/logs and ensure you're in the right GCP p
 > There's a `Show query` toggle at the top right corner, turn it on
 
 ```
-resource.type="gce_instance"
-log_name="projects/sourcegraph-managed-dev/logs/gcplogs-docker-driver"
 jsonPayload.container.name : sourcegraph-frontend-0
 ```
 
