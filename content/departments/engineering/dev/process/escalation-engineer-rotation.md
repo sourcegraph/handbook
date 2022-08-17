@@ -10,11 +10,11 @@ Discuss escalation engineering rotation in #escalation-engineering.
 
 ## Rotations
 
-| Rotation | Engineers |
-| - | - |
+| Rotation                 | Engineers                                                                                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2022-08-10 to 2022-09-06 | [@nicksnyder](https://github.com/nicksnyder), [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide) |
 | 2022-09-07 to 2022-10-09 | [@nicksnyder](https://github.com/nicksnyder), [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov) |
-| 2022-10-12 to 2022-??-?? | TBD |
+| 2022-10-12 to 2022-??-?? | TBD                                                                                                                                                |
 
 ## Benefits
 
