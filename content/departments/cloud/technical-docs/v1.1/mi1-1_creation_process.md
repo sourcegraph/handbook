@@ -81,24 +81,42 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
-## Giving the customer access
+## Wraping up
+
+Follow the [post-creation task](#post-creation-tasks) below.
+
+## Post-creation tasks
+
+### Giving customer access
 
 > NOTE: ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created!
 
-To provide the customer access to the instance:
+#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
 
-1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](../operations.md).
-2. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Inform the CE this link will expire after 24 hours. If the link expires before the customer was able to sign up, you can generate a new link with
-   ```bash
-   mg reset-customer-password --email <customer admin email>
-   ```
-3. Ask the CE to add 10 extra seats to the license, as we currently do not exclude DevOps admin accounts from the license usage.
+```
+Hi,
 
-## Configuring License, SSO, and repositories
+The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+```
 
-## Is customers using a private code host?
+If the link expires before the customer was able to sign up, you can generate a new link with
+
+```bash
+mg reset-customer-password --email <customer admin email>
+```
+
+### Enable "private" mode
+
+Some customers opt to restrict access to Sourcegraph instance to a limitied number of IP ranges (e.g. corporate VPN). Ensure CE has provided the customer IP allowlist. This is a prereq in the instance creation form.
+
+- Set `type=private` in `$CUSTOMER/config.yaml`
+- Set `public=false` in `$CUSTOMER/terraform.tfvars`
+- Add `allowed_customer_ip_ranges=["1.2.3.4/32"]` in `$CUSTOMER/terraform.tfvars`
+- Run `terraform apply`
+
+### Is customers using a private code host?
 
 If the customers' code host is behind a firewall, we will need to provide them the IP of our Cloud NAT
 
