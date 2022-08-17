@@ -233,16 +233,6 @@ felix_becker:
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
   description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-asdine_el_hrychy:
-  name: Asdine El Hrychy
-  pronunciation: First name is pronounced _as-deen_, last name _el-ree-tchee_
-  role: Software Engineer
-  reports_to: engineering_manager_repo
-  location: Ajaccio, France 🇫🇷/ Dubai, UAE 🇦🇪
-  github: asdine
-  email: asdine@sourcegraph.com
-  description: Asdine loves experimenting and building bizarre software while enjoying an entire pot of coffee. Before Sourcegraph, he was writing tools and frameworks for his colleagues at Heetch. He also hates dogs, especially the small ones, essentially because they hate him.
-
 dave_try:
   name: Dave Try
   role: Software Engineer
@@ -1708,7 +1698,7 @@ oleg_gromov:
   links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
   github: oleggromov
   role: Software Engineer
-  reports_to: engineering_manager_frontend_platform
+  reports_to: engineering_manager_code_intelligence
   location: Rostov-on-Don, Russia 🇷🇺
   description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
 
@@ -2278,7 +2268,7 @@ yoway_buorn:
   location: İstanbul, Türkiye 🇹🇷🇸
   github: yowayb
   email: yoway.buorn@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
+  links: '[Linkedin](https://www.linkedin.com/in/%E2%9C%A8-yoway-%E2%9C%A8-buorn-%E2%9C%A8-5038b221b/)'
   description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
 
 Nicky_Comber:
@@ -2597,8 +2587,8 @@ vincent_ruijter:
 
 james_cotter:
   name: James Cotter
-  role: Software Engineering Intern
-  reports_to: engineering_manager_search_core
+  role: Software Engineer
+  reports_to: engineering_manager_delivery
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com

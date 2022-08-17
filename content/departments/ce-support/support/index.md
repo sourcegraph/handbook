@@ -47,37 +47,37 @@ Letting customers talk to us where they prefer and streamlining our workflow mus
 
 ## SLAs
 
-Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). Additionally, we have the following internal SLAs:
+Our default contractual service level agreements (SLAs) are described below. The SLAs apply to generally available products and exclude [beta and experimental features](https://docs.sourcegraph.com/admin/beta_and_experimental_features). SLA response times are the time frames in which you can expect an initial response. Our team will make a best effort to resolve all issues as quickly as possible. However, please note that the SLA times are not to be considered as an expected time-to-resolution.
 
-- We aim to respond to all customers on all issues within 1 hour between 9:00–0:00 UTC (2am–5pm PT) Monday-Friday (priority given to customers in our pre-sales process)
-- We aim to resolve all issues within an average of no more than one week.
+#### The following applies to both cloud (managed instance) and on-premise/self-hosted Sourcegraph customers:
 
-#### For customers with on-premises/self-hosted Sourcegraph instances:
+While Sourcegraph will strive to respond as soon as possible to every issue, we will be responsible for upholding the SLAs below Monday through Friday.
 
-While Sourcegraph will strive to respond as soon as possible to every issue, we will be responsible for upholding the SLAs below during working hours (9:00a.m. to 5:00p.m.) Pacific Time, Monday through Friday.
+| Severity Level | Description                                                                                                                                          | Response time                                          | Support Availability   |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------- |
+| 0              | Emergency: total loss of service or security-related issue (includes POCs)                                                                           | Within 2 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 1              | Severe impact: service significantly limited for 60%+ of users; core features are unavailable or extremely slowed down with no acceptable workaround | Within 4 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 2              | Medium impact: core features are unavailable or somewhat slowed; workaround exists                                                                   | Within 8 business hours of becoming aware of the issue | 24x5 (Monday - Friday) |
+| 3              | Minimal impact: questions or clarifications around features, documentation, or deployments                                                           | Within 2 business days of becoming aware of the issue  | 24x5 (Monday - Friday) |
 
-|            | Description                                                                                                                                | Response time                                           | Resolution time                                                                                              |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Severity 1 | Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment. | Within 24 hours of becoming aware of the issue          | Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.                |
-| Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
+**Note:** premium support / enhanced SLAs will be available in the future
 
-#### For customers with managed instances:
+**Note for Cloud (Managed Instance) customers:** We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
 
-|            | Description                                                                                                                                | Response time                                           | Resolution time                                                                                              |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Severity 1 | Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment. | Within 24 hours of becoming aware of the issue          | Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.                |
-| Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
+#### Sev 0 - Emergency Support Scope
 
-We will work with the customer to schedule maintenance downtime at least 24 hours in advance, and will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
+What constitues a Sev 0 - Emergency:
 
-#### For cloud saas customers:
+- Instance is completely down, unavailable or unresponsive for all users
+- Web UI showing 4xx or 5xx errors on every page
+- All users are unable to login
+- A security related incident that poses risk / exposure
 
-|            | Description                                                                                                                                | Response time                                           | Resolution time                                                                                              |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Severity 1 | Any error reported where usage of Sourcegraph is severely impacted, and causes a high impact to the business, in a production environment. | Within 24 hours of becoming aware of the issue          | Within 72 hours, using commercially reasonable efforts to provide a resolution or workaround.                |
-| Severity 2 | Any error reported that involves partial, non-critical loss of use, or any general usage questions, feature requests, and similar.         | Within one business week of becoming aware of the issue | When complete, using commercially reasonable efforts to provide a resolution, workaround, or product update. |
+What is not a Sev 0 - Emergency:
 
-We will use commercially reasonable efforts to ensure downtimes lasts no longer than 2 hours. In aggregate, Sourcegraph will use commercially reasonable efforts to maintain availability of 99.5% uptime.
+- A single user is unable to login
+- Performance is slower than usual
+- Partial or delayed repository sync
 
 #### For customers with custom support agreements:
 
@@ -85,4 +85,4 @@ Enterprise Plus and Elite customers should refer to their contracts if they have
 
 ## Support on-call
 
-Our contractual SLAs do not require support to be available 24x7, but we strive to make sure our customers have what they need when they need it. Via proper staffing (hiring folks whose working hours align with our needs), we will eventually move to 24x5 over the course of FY23, possibly into FY24. We will assess quarterly whether we need to move to a 24x7 schedule. In the meantime, our [team schedule](process/support-schedule.md) shows when we have folks online and the OpsGenie on-call protocol can alert a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.
+OpsGenie on-call protocol alerts a CS leader at any time, too: use the Slack command: `/genie alert [alert message] for customer-support` ... and this will trigger a page to a member of the leadership team, any time, any day.

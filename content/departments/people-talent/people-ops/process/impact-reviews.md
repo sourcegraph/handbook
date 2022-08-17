@@ -1,228 +1,413 @@
-# 360 Impact review cycles
+# Impact review cycles
 
-At Sourcegraph, we aim for ongoing, real-time career conversations so you feel empowered to own your growth and development. Our bi-annual 360 Impact reviews, done through Lattice, are only one part of this cycle and should act as a summary of the various feedback conversations you've had in-between.
+_If you have any questions about the Impact Review process, or need help in general, please Slack `#ask-people-team`_
 
-<video controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/understanding_360_impact_reviews.mp4" />
-  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/understanding_360_impact_reviews.vtt" />
-</video>
+## Impact Reviews explained
 
-## Why call them Impact reviews?
+We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide [ongoing feedback with Teammates year-round in 1:1 meetings and informally](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
 
-[High agency](../../../../company-info-and-process/values/index.md#high-agency), [high quality](../../../../company-info-and-process/values/index.md#high-quality), and [continuous growth](../../../../company-info-and-process/values/index.md#continuously-grow) are three of our Sourcegraph values that speak to the intent of our Impact reviews. By using your high agency, each teammate should take the initiative to move the needle for their teams and produce high-quality work which will contribute to Sourcegraph’s mission and success—all resulting in continuous growth for each individual.
+The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
 
-Continuous growth begins on your first day here at Sourcegraph. To equip you with the tools to champion your own growth, we’ve set up [Onboarding Feedback Milestones](../../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) to track your progress in onboarding during your first, second, and third month. We’d like you to start practicing the concept of continuous feedback in these first three monthly checkpoints so you can shift into the mindset of continuous growth before you begin your first review cycle.
+To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
-Ultimately, these cycles are referred to as “Impact reviews” because they reveal the impact that you are making on a company-wide level, at a team level, and most importantly, at a personal level!
+### When do they take place?
 
-## What’s new with our Impact review cycles?
+Formal performance reviews take place **twice a year,** aligning with our promotion and compensation review cycles.
 
-### 360 Impact review cycle cadence:
+On average, Teammates can expect to have their compensation increased for merit purposes **_once a year_** if they are meeting and/or exceeding expectations. Teammates can receive an increase twice a year if they are a top-performer, or if they have fallen below the 75th percentile of their respective compensation band.
 
-Instead of running everyone's reviews synchronously twice a year, your Impact reviews will be launched automatically on your 6-month anniversary, and your one-year anniversary, setting you up for two review cycles per year, in accordance with your start date. We encourage all temmates to add a recurring "every 6 months" calendar reminder to their calendar and their manager's calendar to track when their Impact reviews will be! If this date falls on a weekend, it will start the following Monday.
+- **1st review period: Q1**
+  - Launches February (corresponding promotion and/or pay increase goes into effect April 1st)
+- **2nd review period: Q3**
+  - Launches August (corresponding promotion and/or pay increase goes into effect October 1st)
 
-_In these review cycles, you will be asked to give and receive the following reviews:_
+### Who is eligible?
 
-- **Self-review:** reflect on your own contribution to your team and how you’ve made an impact.
-- **Peer review**: select 2–3 stakeholders who you’ve collaborated with on projects to give feedback on the impact you’ve made and how you’ve lived our values while collaborating.
-- **Upwards review:** review your manager, how they’ve supported your development, and what they can do to support you more effectively.
-- **Your manager reviewing you:** your manager will reflect on your contribution to your team and how you’ve made an impact and lived our values.
+Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
-### Timing:
+### Who provides feedback?
 
-Each review cycle will last three weeks from start to finish. This means that reviews will be happening in real-time, at different points for all of us during each calendar year. As our company standard, our review cycles run on UTC. The review cycle completes at midnight UTC on the day that your review is slated to end. _For instance, if your review is set to end on April 2nd, the review cycle will close for submission at midnight on April 2nd, so you have that full day to complete your reviews._
+During an Impact Review, you will be asked to give and receive the following reviews.
 
-We expect that all teammates will carve out time to put thought into writing out their reviews, and writing the reviews of their peers. We encourage all reviewers to designate around 30 minutes per review on their calendars as a calendar block called: “Writing peer reviews - do not book.” We encourage all teammates during this time to respect those review calendar blocks.
+Reviews a Teammate gives:
 
-Feedback is important, and we should be intentional about setting aside time to give it and give it well. In doing so, we can work together to elevate each other’s successes, share blind spots, and take the time to articulate feedback thoughtfully.
+- **Self-review:** you will write a review of yourself, reflecting on your own contributions and how you’ve made an impact.
+- **Upward review:** you will write a review of your Manager, reflecting on how they’ve supported your development and what they can do to support you more effectively.
 
-As the last step in this cycle, managers will write their own review for their direct report, have time to review their direct report’s feedback, and will release the feedback packets through Lattice once reviewed. If your direct reports peers haven't given feedback and your window to submit feedback as a manager has closed, simply Slack #impact-reviews and a member of People Ops will be able to reopen your feedback submission window.
+Reviews a Teammate receives:
 
-#### Instances where timing may not align with your planned leave:
+- **Peer review:** you will select and receive reviews from 2 Peers who can speak to your contributions and values alignment.
+- **Manager review:** your Manager will reflect on your contribution to your team, including how you’ve made an impact and embodied our values.
 
-With any type of review cycle, we know that no cycle is perfect. You may find that the timing intersects with formal upcoming leave that you may have planned. If you have any of these types of leave that you know will intersect with your 3-week Impact review cycle, please email people-ops@sourcegraph.com for an exception:
+### What we do with Impact Review feedback
 
-- Paid time off (PTO)
-- Parental bonding leave
-- Bereavement leave
-- A medical leave of absence
+Results from the semi-annual impact review process support the growth and development of our Teammates in the following ways:
 
-People Ops needs adequate time _before_ your cycle launches to make any changes to it, and once it has launched, they are unable to edit the cadence of your Impact review.
+- Helps identify **strengths & accomplishments**, which guides promotion eligibility and corresponding compensation increases.
 
-### A note on the "10%" questions:
+  - Growth & promotion philosophy
+    - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
+    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
-You may have noticed the question "Tell me what I can do 10% more of or better" in some of the reviews. The 10% metric centers around the idea that small, incremental changes are less daunting and seem more attainable, but actually often result in a larger impact. [People resist change for a variety of reasons.](https://hbr.org/2012/09/ten-reasons-people-resist-chang)
+- [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
+- Helps identify **development opportunities** & a corresponding coaching/action plan.
 
-Stepping back from the bigger picture of your work and seeing where you can make slight changes can help empower you and will create gradual change at a pace that feels manageable.
+## Impact Review timeline
 
-### A note on the Values-based questions:
+**AUGUST FY23** (7 weeks total)
 
-You may have noticed questions around which values you embody the most, and which values you can work on to embody more of. These questions were created to embed more of our values-driven culture into our Impact reviews. This is meant to be a nod to the fact that our values are living, breathing things - and all teammates should actively work on inserting these values in how we show up for eachother each day.
+_Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
 
-If you find yourself stuck in choosing one value over another, you can simply select the value that most aligns with the area you chose for this teammate (whether it is something they excel at, or need to work on), and elaborate about other values in the comment box. Similarly to the 10% question above, we focus on selecting one value here as to not overwhelm the 'feedback receiver' with a laundry list of things to change before their next review cycle begins. Making tiny, incremental changes in the way we work can have a large impact over time!
+- **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
+  - Monday 2022-08-15 to Thursday 2022-08-18 (4 days)
+- **Phase 2: Self, Peer, & Upward Review Writing**
+  - Friday 2022-08-19 to Friday 2022-09-02 (2 weeks)
+  - _Note: we estimate that each review should take, on average, 15-30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review_
+- **Phase 3: Manager Review Writing**
+  - Monday 2022-09-05 to Monday 2022-09-19 (2 weeks)
+  - _Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review_
+- **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
+  - Monday 2022-09-19 to Friday 2022-09-30 (2 weeks)
+  - _Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date_
+- **Phase 5: Impact Review Cycle Ends**
+  - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03
+  - Compensation changes go into effect 2022-10-01
 
-### Continuous feedback:
+**FEBRUARY FY24** (6 weeks total)
 
-We’ve shifted how we think about feedback as a company and moved into the mindset of giving continuous feedback. _What does this mean?_ We value feedback being shared in real-time, whether right after a meeting or in the moment. Feedback is a gift, and flexing it requires building up your feedback muscles.
+- **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
+  - 2023-02-01 to 2023-02-07 (1 week)
+- **Phase 2: Self, Peer, & Upward Review Writing**
+  - 2023-02-08 to 2023-02-22 (2 weeks)
+- **Phase 3: Manager Review Writing**
+  - 2023-02-23 to 2023-03-03 (1 week)
+- **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
+  - 2023-03-04 to 2023-03-20 (2 weeks)
+- **Phase 5: Impact Review Cycle Ends**
+  - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-01
+  - Compensation changes will go into effect 2022-04-01
 
-There are three different types of feedback: giving, receiving, and seeking feedback. In-between flexing your feedback muscle by giving it and learning how to pause when you receive it, you should also practice actively seeking out feedback from your peers. This can be as simple as sending a Slack message to ask how your presentation in a meeting went, or as thorough as setting aside time with an agenda of the situation to cover where you’d like feedback.
+## Impact Review process
 
-All managers and their direct reports should include an element of feedback in their weekly or bi-weekly 1:1’s. These should be a safe space to give, receive and seek both positive and constructive feedback! As a best practice, People Ops recommends keeping your 1:1’s with your managers/direct reports on a consistent cadence. The more you practice feedback and lead with radical candor, the easier it becomes to create an open, authentic, and transparent work environment.
+### How to select reviewers & submit your review
 
-To help get you started, we have created Sourcegraph Fundamentals class called _Feedback 101_ to help you unpack, understand, and practice giving, receiving, and seeking feedback. Check it out here:
+Once the review process begins, Teammates will receive reminders and communication through [Lattice](https://sourcegraph.latticehq.com/) via Slack and Email.
 
-<iframe src="https://drive.google.com/file/d/18nMVWqrLj-I2uvX0KyNvAH_YpXK1l0lP/preview" width="1920" height="1080" allow="autoplay"></iframe>
+Lattice resources:
 
-## Impact review stages
+- [How to complete a performance review](https://help.lattice.com/hc/en-us/articles/360060207674-Complete-a-Performance-Review)
+- [How to select peer reviewers](https://help.lattice.com/hc/en-us/articles/1500001692902-How-to-Nominate-Your-Own-Peers)
 
-After you’ve moved through each of your three [Onboarding Feedback Milestones](../../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) and you arrive at month six of your Sourcegraph journey, you will use your Sourcegraph login for [Lattice](https://lattice.com/) to conduct your 360 Impact review cycles! You will receive an email when your review cycle is set to begin prompting you to nominate your peer reviewers.
-
-Timeline of stages:
-
-- **Peer selection:** 5 business days
-- **Self, peer, and upwards reviews:** 7 business days
-- **Manager reviews:** 5 business days, then manager will release feedback packet to you
-- **Meet with manager to discuss feedback packet:** after your cycle concludes
-
-The 360 Impact review process covers a few key types of feedback as mentioned above:
-
-- **Self-review:** you will review yourself
-- **Peer review**: 2–3 stakeholders will review you
-- **Upwards review:** you will review your manager
-- **Manager review:** your manager will review you
-
-_Best practice tip: We recognize that to make an impact, you must first develop goals that drive specific outcomes. Engaging in quarterly goal setting in tandem with your Impact reviews will give each teammate direction, certainty, and velocity in prioritizing their goals. If you’d like to create quarterly goals to align with your manager on, use our series of templates in our [Goal setting folder](https://drive.google.com/drive/folders/1EA0uJ5eroG8NMKtv315c5aumFNB1K7AD)._
-
-These cycles will run concurrently with your [Onboarding Feedback Milestones](../../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md) on the following cadence:
-
-<object role="image" data="impact_review_infographic.svg" width="960" height="540" aria-label="Infographic describing cadence of Impact review cycle from start date to cycle launches"></object>
-
-### Selecting a peer reviewer
-
-**Teammates**: All teammates will select 2–3 reviewers for their peer review cycle. We encourage you to choose different reviewers for each cycle to get a well-balanced representation of your peers. If you'd like to increase your number of reviewers, reach out to #impact-reviews on Slack with your reviewer name and who you'd like to add to your roster.
-
-When you choose these 2–3 reviewers, you should consider:
-
-- Which peers can speak directly to my growth opportunities? Have I had a difficult conversation with someone and would like to include them as a reviewer to obtain constructive feedback?
-- Who have I collaborated with recently who has had a direct line of vision into my work? Have we worked together recently on a project? You are encouraged to choose reviewers who have insight into your recent work, rather than people you simply talk to often at Sourcegraph.
-- Include one reviewer whose review you’re scared to read! This is a best practice and will broaden your perspective and build self-awareness.
-- All peer reviewers should have been at Sourcegraph for at least two months before you ask them to review you.
-
-_Pro tip: For more information on how to select peer reviewers, see [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)! If you are chosen to be a peer reviewer but are not necessarily sure you have the bandwidth to contribute to their review, see [Opting out of being a peer reviewer.](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)_
-
-Managers will have the ability to edit the reviewers after teammates submit their initial choices, with the total number of reviewers being capped at 3 teammates. If you would like to add more reviewers than our current cap of 3, please reach out to the #impact-reviews Slack channel and our Lattice Admins can override this limit.
-
-As a best practice, all teammates are encouraged to share their reviewer’s names with their managers beforehand to align on their choices and rationale for choosing them.
-
-**Managers**: People managers will only need to select 1–2 peer reviewers for this upcoming cycle. The bulk of your time should be spent giving feedback to your direct report(s) and actively thinking through ways to help them grow.
-
-Each review should take an average of 30–45 minutes to complete, and all teammates are encouraged to carve out time when they are tagged to review their peers to give thoughtful feedback. All reviewers and reviewers must complete each cycle in two weeks. Please plan and prioritize a working block on your calendar to write them in the time frame given to you.
-
-_As a note_: For any managers who have inherited a new direct report and are not listed as their current manager, please reach out to our #impact-reviews Slack channel for help!
-
-### Submitting feedback as a manager
-
-**Managers**: You will be able to review all peer feedback given to each of your direct reports during the review cycle before writing your manager review and summary remarks. Once all of your reviews are submitted, you will be prompted to share the completed review packets with your direct report and we encourage you to set up a time to discuss the packet during your next 1:1. When you share your packet with your direct report they will be able to see all peer feedback names associated with their feedback, as well as your own manager feedback. Direct reports are unable to see any reviews their own managers might get. The idea is, you can see feedback downwards, but not upwards, to protect psychological safety.
-
-**Teammates**: After the two-week review cycle period ends, the review cycle will automatically close. Upon completion, you will receive a summary of your reviews from your manager and peers.
-
-Note on completing the cycles in the given windows: We encourage you to make every effort to complete reviews that are assigned to you during these two weeks, as extending individual cycles can be an arduous administrative process, and we’d like each teammate to receive their feedback sooner than later.
-
-### Informal Impact review cycles
-
-You may find that the timeline for your review may have just recently passed, or that your next review is too far in the future, leaving you without helpful feedback that you could easily apply to make small changes to the way you work. Consider the option of including an informal Impact review as a pulse check for learning: how you are showing up in your working relationships, where you are driving impact for your team, and obtaining more self-awareness of your working style.
-
-In the event that you’d like to conduct an informal Impact review, [use this resource to learn about holding an informal cycle for yourself](https://docs.google.com/document/d/1YrsjivLAKZ4SQKvXNM0riZn7aiyJTupb0ce6UFRvIog/edit) and [use this resource as a template to document your reviews](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit).
-
-There are three components to feedback: giving it to others, receiving it yourself, and seeking it out. Keep in mind that feedback is a muscle, and works best when you regularly strengthen it by giving and receiving it often. The concept you will be using in this informal review process is around “seeking feedback” which will help you inform your own working style, positive trends, and areas for improvement.
-
-We recommend that you as the reviewee set time with your manager to discuss feedback between both parties. If you would like to conduct reviews with stakeholders (either in the event that you are seeking promotion, would like additional information on how you show up in your peer relationships, or are simply curious), it is recommended that you book time with at least 2–3 peers as 30-45 minute calendar invites.
-
-In all instances, we recommend documenting these items in [this Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) or your 1:1 GoogleDoc which you share with your manager:
-
-- The questions you went over during your informal reviews
-- A summary of the answers you have received to those questions
-- Any reflections you may have based on the conversations
-
-After you have documented your informal Impact review, this process will be complete. After you complete your informal review, a best practice is to share with any reviewers that you’d like to keep the door open for feedback and empower them to share feedback in the moment and often. The point of each review cycle is not to open the floodgates for feedback that you haven’t received yet, but more importantly to synthesize trends that you’ve already had conversations about and are aware of.
-
-You can also use [the Informal Impact reviews template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit) to reference in promotion conversations, as a document you can share with any new managers or skip-level managers, you may have, sharing feedback with peers who can help you track your progress over time, or simply to keep in your own files for reference.
-
-\_Note: your informal Impact review template has all of the questions mentioned in our regular Impact reviews—the only difference is where the information will be documented, and the fact that you will be driving these feedback conversations yourself. These are meant to supplement a transitional period where teammates' review dates may have passed during the time frame where we switched over to a new cadence.
-
-## How to use Lattice
-
-Log into Lattice using your Sourcegraph Okta authenticator. You will be prompted to write different types of reviews on your home page dashboard. If you have any issues and cannot see reviews that you have been assigned to, please Slack #impact-reviews with a screenshot of your homepage dashboard for help.
-
-<video controls crossorigin>
-  <source src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/lattice_demo.mp4" />
-  <track default kind="captions" label="Captions" src="https://cors-anywhere.sgdev.org/https://sourcegraphstatic.com/handbook/impact-reviews/lattice_demo.vtt" />
-</video>
-
-### Writing your reviews using the SBI framework
-
-We encourage all reviewers to use the [SBI framework](https://medium.com/pm101/the-situation-behavior-impact-feedback-framework-e20ce52c9357) for giving feedback while filling out their reviews. SBI is a framework developed by the Center For Creative Leadership and is used all around the world. It works because it forces people to speak about feedback in a specific, actionable way. By using SBI, you can counteract some of the stress-inducing responses activated by the limbic system or _your threat zone_. Feedback helps us _continuously grow_ and it's important to live that value by being specific and actionable in your feedback. The more specific you are in your responses, the more likely the feedback will be received and land in a helpful way for your teammate. Clear is kind!
-
-Situation: the where and when (_shaping the context of the feedback_)
-
-Behavior: the observable action (_what you observed directly, not your interpretation_)
-
-Impact: the so-what (_effect on emotion and work_)
-
-In the spirit of openness and transparency, all feedback you give to others during their review cycles (and vice versa) will have names attached to them. To honor our value of being an [open company](../../../../company-info-and-process/values/index.md#open-and-transparent), we’d like all feedback to be a dialogue between two teammates rather than a one-way conversation.
-
-For more information on how to use SBI and giving great feedback, [check out this resource](https://docs.google.com/document/d/1sT-eyNj7KnFQZyaJ7Uja6Hnqb1sXE-aq-Ayz4X_-8Zk/edit)!
-
-## Impact review cycle questions
-
-**Self-review:**
-
-- What are you most proud of in the past six months?
-- In the past six months, how have you made an impact and contributed to your team’s success? Give specific examples.
-- In the past six months, what company value have you embodied the most? Give specific examples.
-- Over the next 6 months, what is something that you can do 10% better?
-- In the next six months, what company value do you want to embody more? How do you plan on working towards embodying it more?
-- What would you like to learn more about in the next 6 months to help you further succeed in your role? Describe what you’d like to learn.
-
-**Direct report review of manager:**
-
-- Do you understand what your team’s goals are and how you contribute to those goals?
-- Does your manager support you by giving meaningful feedback on your work (both what you do well and what can be done better)?
-- How could your manager support you 10% more?
-- How has your manager helped you grow in the past six months?
+### Questions we ask in the Impact Review
+
+**Teammate self review:**
+
+- **Required questions**
+
+  - What were your most impactful accomplishments over the past 6 months?
+    - Note: we recommend sharing up to 3 examples
+  - To what extent did you meet your commitments or goals in the past 6 months?
+  - What are you looking to achieve in your next 6 months at Sourcegraph? (Please describe)
+
+- **Optional questions:**
+  - What elements of your job do you find challenging?
+  - Describe how you’ve showcased 1-2 competencies over the past 6 months. (Please share specific examples of how these map to your team’s career framework).
+  - Describe how you’ve showcased 1-2 values over the past 6 months. (Please share specific examples).
+  - Which 1-2 competencies would you like to focus on in the coming 6 months? (These can be from either your current role or one you aspire to and are actively discussing with your Manager).
+  - Please share any additional feedback that may be helpful as a part of your self-review assessment.
 
 **Peer review:**
 
-- Describe how you’ve collaborated with this person in the last six months and the impact that they’ve had on your work.
-- Which value has this teammate embodied the most over the past six months? Give specific examples.
-- Which value can this teammate embody more of over the next six months? Give specific examples.
-- What are this teammate’s biggest growth opportunities before their next review cycle?
-- How can they continue to support the success of you and your team? (optional question)
+- **Required questions:**
 
-**Manager review of direct report:**
+- How have this Teammate’s contributions impacted your ability to deliver on your goals?
 
-- What has this teammate done that they should be most proud of? (Consider the purpose of their role and the team’s OKRs and give a summary of how they’ve made an impact on the team in the last six months.)
-- Which value(s) does this teammate consistently embody in their work and in their interactions with others? Give specific examples.
-- In the next six months, which value(s) would you like to see this teammate engage with more? Give specific examples.
-- What are this teammate’s biggest growth opportunities (skills, knowledge, expertise) moving forward? How can you support them while they work on these areas?
+  - To what extent does this person follow through on commitments? (Please provide examples).
 
-# Resources for all teammates and managers:
+- **Optional questions:**
+  - Based on your interactions with this person, which role-specific competency or values would you recommend they focus on in order to grow professionally?
+  - Please share any additional feedback that may help this Teammate grow in their career.
 
-- Video: [Understanding 360 Impact review cycles](https://drive.google.com/file/d/1Xyq26Pf-2XelHajUVzB4WH_hpnU4ZwNo/view?usp=sharing)
-- Video: [Demo of a manager and teammate going through the review cycle](https://drive.google.com/file/d/1iEh5YExCbZ_dxpyq4kPyce4i6U8r5AKi/view?usp=sharing)
-- [Resources and guides for reviewers](https://drive.google.com/drive/folders/1Sd74Qp68U_eb9Yy91ThZDNfX5FJprw7j?usp=sharing)
-- [How to choose your peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit?usp=sharing)
-- [Opting out of being a peer reviewer](https://docs.google.com/document/d/12oLL_rtlobVKaRLzdK3GkdrKvNsPL5sipFwLIMTUZNw/edit#)
-- [SBI and how to give great feedback](https://docs.google.com/document/d/1sT-eyNj7KnFQZyaJ7Uja6Hnqb1sXE-aq-Ayz4X_-8Zk/edit?usp=sharing)
+**Manager-to-Direct Report review:**
 
-## Extra optional resources for teammates:
+- **Required questions:**
+  - How has this Teammate’s performance mapped to their career development framework over the past 6 months? To what extent did they meet their commitments?
+  - What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).
+  - How does this person’s behavior align with our values? (Provide 2-3 specific examples).
+  - How do you see this person’s role evolving over the next 6 months? What are the key competencies that they should focus on?
+- **Optional questions:**
+  - Describe how this Teammate’s motivation and effort align with their future potential.
+  - Please share any additional feedback that may help this Teammate grow in their career.
 
-- [Holding an informal Impact review cycle](https://docs.google.com/document/d/1YrsjivLAKZ4SQKvXNM0riZn7aiyJTupb0ce6UFRvIog/edit?usp=sharing)
-- [Informal Impact review template](https://docs.google.com/document/d/1VROO7iy8kUl7F5OyOGuGnD-2UQsU77_BsFy15wuT3dU/edit)
-- [How to have a developmental conversation with your manager](https://docs.google.com/document/d/1Wc_T4aXEjDlhKymeGeSFjqkM32l_hRFk6i0Bjm7BqE0/edit)
-- [Quarterly goal setting 101](https://docs.google.com/document/d/1626uxUL40MbIvISNLL7DKNp7j2lEE9tvJN4X2oljeZU/edit?usp=sharing)
-- [Brag document template](https://docs.google.com/document/d/1CBZYawlQedc7ef8uJmy2efb-mFebXlWhMery4BoUCFY/edit?usp=sharing)
+**Direct Report-to-Manager review (skip-level feedback)**:
 
-## Questions?
+- **Required questions:**
 
-For any questions relating to our updated performance review cadence or Lattice, please Slack #impact-reviews! Happy reviewing.
+  - How has your Manager enabled you to do your best work over the past 6 months?
+  - Does your Manager foster a healthy, productive, and collaborative team environment? (Please provide specific examples).
+  - How did your Manager embody our values in the last 6 months? (Please provide examples for 2-3 values).
+
+- **Optional questions:**
+  - What type of coaching or support do you need from your Manager to continue to grow professionally?
+  - I would always want to work for this Manager (Rating Scale).
+  - Please share any additional feedback that may help this Teammate grow in their career.
+
+## The Talent Assessment using the 9-box
+
+In addition to asking the above questions during the Impact Review process, we also ask our Managers to submit a Talent Assessment score in alignment with our **9-box guidance.**
+
+Combined with the Impact Review Feedback, the Talent Assessment framework helps:
+
+- Support Teammates career progression
+- Calibrate promotion readiness and succession planning
+- Connect Teammates to development opportunities
+- Reduce bias in the calibration process and fosters transparency
+- Recognize top talent cross-functionally
+
+### How we evaluate performance using a 9-box
+
+Teammate performance is evaluated through two complementary lenses:
+
+- 1. Your performance in your role (skill).
+- 2. Your embodiment of the Sourcegraph Values.
+
+The overall **Performance Rating** is a combination of Skills and Values-based performance.
+
+### Rating definitions
+
+- **Exceeding High Bar**
+  - Skill: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
+  - Values: exceeds in many, exhibits all, deficient in none.
+- **Meeting High Bar**
+  - Skill: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
+  - Values: exceeds in some, exhibits most.
+- **Not Meeting High Bar**
+  - Skill: your contributions are below expectations for your current level and must immediately improve.
+  - Values: exhibits some, lacks in some, deficient in some.
+
+Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
+
+You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
+
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.48.49%20PM.png)
+
+### 9-box distribution
+
+We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
+
+- 20% of Teammates will fall in the **“Top Tier”** (high performance) category.
+  - Top Tier score: 1:1, 1:2 or 2:1
+  - Teammates rated as “Top Tier” are eligible to receive a compensation increase that cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
+- 70% of Teammates will fall in the **“Highly Valued”** (strong performance) category.
+  - Highly-Valued score: 2:2s
+  - Teammates rated “Highly Valued” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
+- 10% of Teammates will fall in the **“Least Effective”** (low performance) category.
+  - Least Effective score: 3:1, 3:2, 2:3, 1:3 or 3:3
+  - Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
+
+## Impact Review Calibration
+
+Following the completion of self, peer and upward reviews, the below steps take place:
+
+- **Step 1:** The People Team will schedule calibrations sessions with leaders to review feedback and align on performance, promotion and merit recommendations. These will take place during the last two-weeks of the impact review process.
+
+- **Step 2:** The Manager has conversation with Teammate to deliver the results / feedback.
+
+![visual of steps](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.49.16%20PM.png)
+
+- **Step 3:** Promotion or compensation increases go into effect. Promotion announcements are made via `#teammate-announce` channel.
+
+### What to expect in a calibration session\*\*
+
+We hold a high and consistent bar for Impact Review calibrations to ensure they are fair across Managers, departments, and job levels. The process is meant to limit bias in the performance review process and ensure Managers agree on the criteria against which their direct reports are assessed on. Our People Team has a macro view of these sessions across the organization, so they will be able to provide valuable context and guidance to leaders to ensure an equitable review process.
+
+**What to expect:**
+
+The People Partners will facilitate three calibration sessions in each review period:
+
+- **1. Performance Calibration:** all Managers in the department will meet to calibrate team performance and ratings. In this discussion, they will leverage the Talent Assessment Framework (9-box) to finalize Teammate Performance Reviews and Ratings. In addition, the Executive and Recruiting Director of that department will attend and the People Partner will facilitate the meeting. Everyone will work together to review current Teammate ratings and justify the rating given to each Teammate. After the calibration, Managers will finalize and submit Impact Reviews and Ratings for each team member.
+- **2. Promotion Calibration:** after the submission of team performance reviews and ratings, the Managers, Department Executive and People Partners will meet to finalize promotion recommendations. The People Partner will facilitate the meeting and is responsible for submitting the promotion docs.
+- **3. Compensation Calibration:** the Managers, Department Executive and People Partners will meet to finalize merit recommendations. The People Partner will facilitate the meeting and is responsible for submitting the compensation docs.
+
+### Delivering the review to Teammates
+
+Each People Partner will coach Managers on how to deliver Teammate reviews.
+
+**Nothing should be a surprise:** Performance and development topics (and more) should regularly be addressed in weekly 1:1s or other casual check-ins, meaning none of the topics discussed during a Teammate’s review should be a surprise. Teammates should have a good idea of what to expect and know Impact Reviews and calibration conversations improve the fairness of performance scores, so they can approach these conversations calmly and with an open mind.
+
+### How we coach Teammates based on performance
+
+Coaching categories help our Managers work with Teammates to create tailored career growth plans. We all have our own unique career goals and interests, and coaching categories help align those career goals and interests to the work we do now. An important part of being a Manager at Sourcegraph is engaging in career growth-focused conversations with Teammates, and working together to create actionable career growth plans. How Managers engage in those conversations depends on Teammate performance, values alignment, and personal goals. Coaching categories are guides to meaningful career-oriented conversations.
+
+We’ll continue to “build muscle” around individual career development plans over the next year or so by incrementally adding tools Managers and Teammates can use to foster meaningful career conversations.
+
+The coaching categories are:
+
+- **Motivate:** focus on ways in which Teammates who are superior performers can continue to strive to model our values in an exceptional way.
+- **Empower:** create opportunities for our highest performing Teammates to step into, or elevate, their leadership presence at Sourcegraph.
+- **Guide:** foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in roles that allow for opportunities to stretch skills, and demonstrate superior performance.
+- **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
+- **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
+
+### How we approach compensation decisions
+
+Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
+
+More information may be found in our [how we pay at Sourcegraph] Handbook page [COMING SOON].
+
+## Merit Philosophy
+
+We believe in performance-based pay, meaning merit increases (inclusive of cash and equity) will be driven by performance. We believe in hiring all Teammates at an equitable starting point within their respective band and we want to provide opportunities for Teammates to grow within their salary band that is in alignment with their performance.
+
+### What is our eligibility process for merit increases?
+
+To be eligible for a merit increase, a Teammate must have worked at least 4 months in that given review period and have received a Skill and Values-based performance rating of at least “2” in both areas.
+
+Teammates can receive increases 2x per year for exceptional performance, but the **expectation is that Teammates receive a comp review 1x per year.**
+
+### How do we determine merit increases?
+
+The recommendation will be calibrated by Leadership and their respective People Partner. The calibration will consider:
+
+- The Teammate’s performance as calibrated in the Impact Review cycle.
+- The appropriate pay level within the range for the Teammate, considering their performance and the performance of others in the same range.
+- Available pay increase budget.
+- Recommendations by Leadership, as approved by Finance and the Executive Team.
+
+### What is the approval process for merit increases?
+
+Merit increases require the recommendation of the Teammate’s immediate Manager and the approval of the VP of People & Talent. Teammates will be notified of their merit increase as soon as possible after all Teammate merit increases for the year have been approved.
+
+Teammate performance is to be formally reviewed at least twice a year. The focus of the review is to discuss their performance for the rating period, review standards for the position, communicate the amount of any merit increase, and set goals for the next rating period.
+
+### What is the approval process for merit or promotion increases outside of a performance cycle?\*\*
+
+In some cases, it may be necessary to support a merit increase outside of a performance review cycle. These should be rare and be seen as an “exception to the rule.” The Department Leader will need to present a business case for out-of-cycle merit-based salary adjustments, spot, and equity bonuses. All changes require VP People & Talent and CEO approval.
+
+## Promotion Philosophy
+
+The purpose of our promotion philosophy is to support the growth & advancement of Teammates, in alignment with our values. Sourcegraph’s success is fueled by our incredible Teammates, which is why we foster a culture of continuous growth and accelerate opportunities to level up.
+
+Promotion decisions are calibrated based on a Teammate’s achievements, execution at a higher job scope, and values alignment. The People Partner and Leadership Team are responsible for calibrating promotion nominations, in alignment with our Impact Review process and bi-annual promotion cadence.
+
+Our Teammates can pursue promotion opportunities in two ways:
+
+- Through our promotion process to move up their specific Career Framework or Leadership track.
+- By applying and interviewing for open positions that are approved in our headcount plan. This type of promotion may occur outside of a review cycle, but eligibility is determined by prior Impact Assessment.
+
+### What criteria determine promotions?
+
+The following criteria support promotions:
+
+- A Teammate is already performing at the next level or job scope prior to promotion.
+- The business need exists for the role to increase in job scope, or capacity requirements show additional headcount at a higher job scope is required (IC5+ and M4+).
+- The promotion decision is occurring at a justified and fair rate.
+
+### What is the promotion process & timeline?
+
+We promote in alignment with our Impact Review process, to ensure Teammate growth opportunities are not delayed by extended cadence parameters. There are four core stages to the promotion process: Planning/Calibration, Recommendation-Approvals, Processing & Announcement.
+
+### How is the merit/promotion budget determined?
+
+The merit and promotion budget is held at the Department Leader-level and allocated as part of the financial planning period. Department Leadership may have to work with Finance to make a business case based on potential tradeoffs if divisions/departments are over/under budget during the calibration cycle.
+
+## Teammate FAQ
+
+Q. **Are Impact Reviews required for all Teammates?**
+
+- Yes. It is important for all Teammates to complete bi-annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
+
+Q. **How are Teammate ratings on Impact Reviews used?**
+
+- Ratings on Impact Reviews are indicators of overall performance and are used as part of the calibration process to determine eligibility for Merit and Promotions. Merit increases will be awarded and differentiated amongst Teammates based on individual performance.
+
+Q. **How do I choose my peer reviewers?**
+
+- Guidance on selecting peer reviewers can be found [here](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
+
+Q. **Can reviews be submitted outside of the predetermined Impact Review schedule?**
+
+- No. All reviews must be submitted in alignment with the Impact Review schedule. This ensures accountability for all Teammates to submit reviews during the same period. We intentionally provided a significant runway for Peer Selection, Review Writing, and Calibration, so Teammates can prioritize each stage in alignment with their current workload. Managers are responsible for ensuring their teams are not missing submission deadlines. If an extension is needed for any reason, please contact the ask-people-team channel. All Teammates will receive a Calendar Invite in alignment with the review schedule.
+
+Q. **What changed from the prior Impact Review process?**
+
+- We made several changes:
+  - **Cadence:** We moved from a rolling cadence, to a bi-annual synchronous review period to reduce the operational burden and improve transparency regarding promotion and merit decisions.
+  - **Defined our Talent Assessment framework:** Our new Skills and Values-based assessment framework is designed to enable transparent conversations between Managers and Teammates, ensuring a consistent, fair calibration process!
+  - **Embedded Career Frameworks:** We updated/are updating ALL Career frameworks for each department. These will be directly in the Lattice via the Grow Feature as well as in the Handbook.
+  - **Improved Questions**: We reduced the number of required questions - giving Teammates the flexibility to take control of how they communicate feedback, while optional questions guide Teammates to best reflect on the attributes that help them progress in their career.
+
+Q. **What if a Teammate is on leave during the review period?**
+
+- If over the 6-month review period, there are fewer than 4-months of on-the-job performance to assess, the Teammate will retain the rating from the immediately previous cycle. Please reach out to your People Partner for questions related to Teammates on leave.
+
+Q. **What if a Teammate recently transferred in from another team or the Manager is new?**
+
+- Depending on the timing of the transfer or the reporting Manager alignment, it may be appropriate for the prior Manager to conduct the Impact Review. If the Manager recently joined the organization, it is likely that both the new Manager and department head/interim Manager will complete the Impact Review. Please consult your People Partner to confirm the best course of action.
+
+Q. **I have a concern about the performance of a Teammate. What should I do?**
+
+- Please discuss the circumstances with your Manager and/or People Partner. There should be no surprises in the Impact Review cycle as performance management is a continuous process.
+
+Q. **Is Impact Review training available for Managers and Teammates?**
+
+- We are currently building out enablement content for both Managers and Teammates to support the full life cycle of our Impact Review process. This will be available once the review writing cycle begins. The People Team will also set up Office Hours prior to and during the review cycle!
+
+Q. **How should Teammates prepare to participate in an Impact Review?**
+
+- Some basic tips for preparation include:
+  - Keep notes on accomplishments, feedback, training, and challenges throughout the review period
+  - Review your team career frameworks and solicit feedback from cross-functional partners
+  - Prepare discussion points for the Impact Review conversation
+
+Q. **Will my Impact Review be negatively impacted if I do not answer the optional questions?**
+
+- No. Impact Review responses are evaluated based on quality, not quantity. We intentionally included optional questions to help guide Teammates to key discussion points as part of thoughtful self evaluation. If you choose to only submit the required answers, we recommend that you take a thoughtful approach to the examples you share.
+
+Q. **Who should Teammates reach out to with questions about the performance review process?**
+
+- All questions should be directed to the `#ask-people-team` Slack channel.
+
+---
+
+The below sections are COMING SOON and will be published before the Manager Review Writing portion
+
+**# RESOURCES FOR MANAGERS**
+
+**Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
+
+**How to write an effective review**
+
+COMING SOON
+
+**Examples of a good review**
+
+COMING SOON
+
+**What comes after review writing**
+
+COMING SOON
+
+**How do I leverage the 9-box**
+
+COMING SOON
+
+**What to expect in the calibration session**
+
+COMING SOON
+
+**How to mitigate bias**
+
+COMING SOON
+
+**RESOURCES FOR PEOPLE TEAM**
+
+**People Partners:** Responsible for assuring Teammates and Managers have the required resources to guide successful review cycles and complete review milestones in a timely manner. Your People Partner will lead calibration sessions with leadership and provide coaching and guidance as needed to all Teammates.
+
+**How we prepare for calibration cycles**
+
+COMING SOON
+
+**How to help Managers mitigate bias**
+
+COMING SOON

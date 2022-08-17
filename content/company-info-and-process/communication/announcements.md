@@ -65,7 +65,7 @@ _DRI:_ Manager of departing teammate
 
 **Q: When a manager is the one communicating a departure, is it safe to assume that that teammate is leaving involuntarily?**
 
-**A:** No, in fact, this communication process was created to have more consistency of messahe for ALL teammates, regardless of their reason for leaving Sourcegraph. All departure communications are driven by the manager of the departing person. This will ensure that every departure is communicated consistently and does not allow room for speculation or gossip.
+**A:** No, in fact, this communication process was created to have more consistency of message for ALL teammates, regardless of their reason for leaving Sourcegraph. All departure communications are driven by the manager of the departing person. This will ensure that every departure is communicated consistently and does not allow room for speculation or gossip.
 
 **Q: Do all departing teammates need to send a message in #thanks?**
 

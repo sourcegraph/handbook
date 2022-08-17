@@ -72,7 +72,6 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Enable metrics collection and GCP alerts for the new instance:
 
    - cd `monitoring`
-   - add new map entry to `monitored_projects` in `variables.tf`
    - run `terraform apply`
 
 1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
