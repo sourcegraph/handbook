@@ -1698,7 +1698,7 @@ oleg_gromov:
   links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
   github: oleggromov
   role: Software Engineer
-  reports_to: engineering_manager_frontend_platform
+  reports_to: engineering_manager_code_intelligence
   location: Rostov-on-Don, Russia 🇷🇺
   description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
 
@@ -2587,8 +2587,8 @@ vincent_ruijter:
 
 james_cotter:
   name: James Cotter
-  role: Software Engineering Intern
-  reports_to: engineering_manager_search_core
+  role: Software Engineer
+  reports_to: engineering_manager_delivery
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com

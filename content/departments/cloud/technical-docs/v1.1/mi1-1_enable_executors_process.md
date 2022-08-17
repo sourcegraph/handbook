@@ -32,6 +32,8 @@ cd $CUSTOMER
 terraform apply
 ```
 
+**Important**: executors has to be set up on active instance, so if multiple VMs are running, use flag `--deployment red|black` in all `mg` commands below.
+
 Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
 ```sh
@@ -43,7 +45,7 @@ mg executors set-token --token $(terraform output -raw executor_proxy_password)
 Sync configuration
 
 ```sh
-mg sync
+mg sync artifacts
 ```
 
 Reload worker to catch up with the updated configuration
