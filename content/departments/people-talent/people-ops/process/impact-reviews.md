@@ -23,7 +23,7 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 ### Who is eligible?
 
-Teammates who have completed **4-months tenure** by the start of the review period are eligible for an impact review. See the eligibility guidelines for Merit and Promotions further below.
+Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
 ### Who provides feedback?
 
