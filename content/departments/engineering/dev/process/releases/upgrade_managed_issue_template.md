@@ -24,6 +24,7 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade [rctest.sourcegraph.com](https://rctest.sourcegraph.com)
 - [ ] Upgrade [demo.sourcegraph.com](https://demo.sourcegraph.com) - contact #ce beforehand and make sure there are no demos scheduled for the hour of the upgrade.
 - [ ] Upgrade [tpgi.sourcegraph.com](https://tpgi.sourcegraph.com) - this is the accessibility audit managed instance, please contact #frontend-platform before upgrading.
+- [ ] Upgrading [research.sourcegraph.com]
 - [ ] ~Upgrade [devmanaged.sourcegraph.com](https://devmanaged.sourcegraph.com)~ This is a test instance shared by engineering org
 - [ ] ~Upgrade [sourcegraph.sourcegraph.com](https://sourcegraph.sourcegraph.com)~ This instance receives unreleased version upgrade reguarly by #dev-experience
 
@@ -64,3 +65,6 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8306
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/3922
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/4345
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/589
+- [ ] Upgrdae instance for https://github.com/sourcegraph/accounts/issues/8496
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/7890
