@@ -1,4 +1,4 @@
-## **Search People & Talent Team Alignment by Department**
+## **People & Talent Team Alignment by Department**
 
 People Partner alignment:
 
