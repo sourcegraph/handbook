@@ -17,12 +17,6 @@ For basic operations like accessing an instance for these steps, see [managed in
      - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
-1. Create a new GCP project for the instance by:
-
-- Adding it to the [`managed_projects` tfvar in `gcp/projects/terraform.tfvars`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/gcp/projects/terraform.tfvars)
-- Apply terraform in `gcp/projects` folder - due to the amount of service APIs that are defined in this project, run Terraform with increased parallelism to prevent waiting a long time for the plan to form:
-  `terraform apply -parallelism=100`
-
 1. Ensure the target version of docker-compose file is in the golden directory, it should be named `docker-compose.x.y.z.yaml`
 1. ` ./util/create-managed-instance-new.sh $COMPANY` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Replace base `docker-compose.yaml` to use golden symlink: `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.<MAJOR.MINOR.PATCH>.yaml docker-compose.yaml && rm ../VERSION && cd ../../`
