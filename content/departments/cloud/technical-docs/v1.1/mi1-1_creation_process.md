@@ -31,6 +31,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
 
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n2-standard-8".
+1. In `deploy-sourcegraph-managed/$COMPANY/project` run `terraform init && terraform apply -var-file=../terraform.tfvars` to create the GCP project
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
 1. Check if all is running
 
