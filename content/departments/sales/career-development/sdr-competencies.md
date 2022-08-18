@@ -1,6 +1,5 @@
 # SDR Competency Framework
 
-
 <table>
   <tr>
    <td><strong>Category</strong>
@@ -229,4 +228,3 @@
    </td>
   </tr>
 </table>
-

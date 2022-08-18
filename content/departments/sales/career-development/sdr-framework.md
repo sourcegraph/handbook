@@ -1,6 +1,5 @@
 # SDR Career Development Framework
 
-
 <table>
   <tr>
    <td colspan="4" ><strong>SDR Career Levels</strong>
@@ -57,4 +56,3 @@ Meeting Expectations across majority of competencies (Rating=2). May be an Exper
    </td>
   </tr>
 </table>
-
