@@ -8,7 +8,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Design Team
 
-[Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
+- [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
 
 ### Product Design
 
@@ -90,9 +90,9 @@ We avoid siloed work as much as possible. Instead of design and development phas
 ## Collaboration
 
 - [Team rituals](./team_rituals/index.md)
-- [Reviewing design](./reviewing_design/index.md)
+- [Design collaboration and review](./design_collaboration_review/index.md)
+- [Structuring design artifacts for review](./structuring_design_artifacts_for_review/index.md)
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
-- [Design critiques](./design_critiques/index.md) (Coming soon)
 
 ## Toolkit
 
