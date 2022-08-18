@@ -131,7 +131,7 @@ Lattice resources:
 **Manager-to-Direct Report review:**
 
 - **Required questions:**
-  - How has this Teammate’s performance mapped to their career development framework over the past 6 months? To what extent did they meet their commitments?
+  - How has this Teammate’s performance mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
   - What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).
   - How does this person’s behavior align with our values? (Provide 2-3 specific examples).
   - How do you see this person’s role evolving over the next 6 months? What are the key competencies that they should focus on?
