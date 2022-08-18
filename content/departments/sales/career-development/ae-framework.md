@@ -1,6 +1,5 @@
 # Account Executive Career Development Framework
 
-
 <table>
   <tr>
    <td colspan="6" ><strong>Account Executive Career Levels</strong>
@@ -83,4 +82,3 @@ Drives company-wide alignment and enablement to win and retain our largest strat
    </td>
   </tr>
 </table>
-
