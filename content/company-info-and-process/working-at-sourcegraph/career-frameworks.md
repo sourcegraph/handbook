@@ -42,7 +42,10 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 ## Sales
 
-- [COMING SOON]
+- [Account Executive career development framework](../../departments/sales/career-development/ae-framework.md)
+- [Account Executive competency framework](../../departments/sales/career-development/ae-competencies.md)
+- [SDR career development framework](../../departments/sales/career-development/sdr-framework.md)
+- [SDR competency framework](../../departments/sales/career-development/sdr-competencies.md)
 
 ## Talent & People
 
