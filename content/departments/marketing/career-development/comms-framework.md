@@ -1,7 +1,5 @@
 # Comms Career Development Framework
 
-
-
 <table>
   <tr>
    <td>
@@ -204,4 +202,3 @@ Social: leverages social platforms to support Sales' ID'd opportunities.
    </td>
   </tr>
 </table>
-
