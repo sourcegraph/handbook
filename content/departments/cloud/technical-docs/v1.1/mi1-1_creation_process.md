@@ -31,6 +31,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
 
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n2-standard-8".
+1. Is telemetry enabeld? Edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml` and configure `EXPORT_USAGE_DATA_ENABLED=true` in `worker` service.
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
 1. Check if all is running
 
@@ -68,18 +69,10 @@ For basic operations like accessing an instance for these steps, see [managed in
    ```
 
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
-1. Commit all changes
-1. Enable metrics collection and GCP alerts for the new instance:
-
-   - cd `monitoring`
-   - run `terraform apply`
-
-1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
 
 1. Commit the last changes, create a PR for review, apply and merge
 
-1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
-1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
+1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md). You can merge the PR against handbook without review since it's a trivial change.
 
 ## Wraping up
 
@@ -87,24 +80,38 @@ Follow the [post-creation task](#post-creation-tasks) below.
 
 ## Post-creation tasks
 
-### Giving customer access
+### Enable executors
 
-> NOTE: ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created!
-
-#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
-
-```
-Hi,
-
-The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
-
-Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+```sh
+cd $COMPANY
+mg executors set-token --token (terraform output -raw executor_proxy_password)
+mg executors check
 ```
 
-If the link expires before the customer was able to sign up, you can generate a new link with
+For troubleshooting, [learn more](./mi1-1_enable_executors_process.md).
 
-```bash
-mg reset-customer-password --email <customer admin email>
+### Confirue monitoring project
+
+To unable metrics collection and GCP alerts for the new instance:
+
+In [sourcegraph/deploy-sourcegraph-managed](https://github.com/github.com/sourcegraph/deploy-sourcegraph-managed),
+
+```sh
+cd `monitoring`
+terraform apply
+```
+
+### Configure security project
+
+Enable security audit logging:
+
+In [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery)
+
+> as long as there's no deletetion, it's usually safe to apply
+
+```sh
+cd security/auto-discovery
+terraform apply
 ```
 
 ### Enable "private" mode
@@ -126,6 +133,26 @@ terraform output
 ```
 
 Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses.
+
+### Giving customer access
+
+> NOTE: ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created!
+
+#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
+
+```
+Hi,
+
+The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
+
+Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+```
+
+If the link expires before the customer was able to sign up, you can generate a new link with
+
+```bash
+mg reset-customer-password --email <customer admin email>
+```
 
 ## Troubleshooting
 
