@@ -1,6 +1,5 @@
 # Product Marketing Career Development Framework
 
-
 <table>
   <tr>
    <td>
@@ -245,4 +244,3 @@ Used as a resource to uplevel campaigns, programs, or initiatives.
    </td>
   </tr>
 </table>
-
