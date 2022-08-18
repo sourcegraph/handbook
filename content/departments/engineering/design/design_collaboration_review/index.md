@@ -83,7 +83,7 @@ It’s important to:
 - Provide context. Make sure the specific problem and goal is clear. What does success look like? What constraints influence the decisions? For whom is this being designed?
 - Specifically say what kind of feedback you’re seeking. A thumbs-up, thumbs-down? A gut call on the better of two approaches? A detailed critique?
 - Ask specific questions that you want feedback about. Divert attention away from things you don’t.
-State where you want the feedback, if that’s not where you’re requesting it. Example: you’re requesting feedback in Slack but state that you want comments in a Figma rather than a threaded Slack reply.
+  State where you want the feedback, if that’s not where you’re requesting it. Example: you’re requesting feedback in Slack but state that you want comments in a Figma rather than a threaded Slack reply.
 - After receiving feedback, follow up. Recognize contributions and share how you will move forward.
 - Tell stories. Seeking feedback is an opportunity to practice storytelling: instead of showing an outcome, walk through the context, rationale, and how it will impact our users’ lives.
 
