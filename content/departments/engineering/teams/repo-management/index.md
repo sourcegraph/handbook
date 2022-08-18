@@ -18,7 +18,7 @@ Check out our [onboarding guide](onboarding.md).
 
 ## Responsibilities
 
-### Code Host / Repository Ranagement
+### Code Host / Repository Management
 
 Including maintenance, development, support, and advice for:
 
