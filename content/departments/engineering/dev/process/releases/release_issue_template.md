@@ -53,7 +53,7 @@ Upon branch cut, create and test release candidates:
   ```sh
   N=1; yarn release release:create-candidate $N
   ```
-- [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.1` tag:
+- [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.N` tag:
 
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
 
@@ -71,10 +71,10 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post the following message to the #cloud channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
+- [ ] Edit the following message to reflect the correct release candidate number, and post the message to the #cloud channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
 
   ```
-  Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.1) to be deployed to a test managed instance. Could someone help here? :ty:
+  Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.N) to be deployed to a test managed instance. Could someone help here? :ty:
   ```
 
 ## Release Day ($RELEASE_DATE)
