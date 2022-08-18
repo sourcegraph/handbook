@@ -113,7 +113,7 @@
     "vfile": "^5.2.0"
   },
   "devDependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "@sourcegraph/eslint-config": "^0.26.0",
     "@sourcegraph/prettierrc": "^3.0.3",
     "@sourcegraph/tsconfig": "^4.0.1",
