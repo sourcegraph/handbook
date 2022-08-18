@@ -12,7 +12,7 @@
   <tr>
    <td rowspan="4" ><strong>Sales Foundations</strong>
 <p>
-(Core assessment critera for success)
+(Core assessment criteria for success)
    </td>
    <td><strong>Value Selling</strong>
    </td>
