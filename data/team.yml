@@ -678,6 +678,14 @@ murat_sutunc:
   links: '[LinkedIn](https://www.linkedin.com/in/muratsutunc)'
   description: Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.
 
+murat_sutunc_frontend_platform:
+  name: Murat Sutunc
+  pronouns: he/him
+  role: Engineering Manager, Frontend Platform
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_frontend_platform
+  hide_on_team_page: true
+
 jon_kishpaugh:
   name: Jon Kishpaugh
   pronouns: he/him
@@ -1615,18 +1623,6 @@ amy_johnson:
   reports_to: financial_controller
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
-
-jason_gornall:
-  name: Jason Gornall
-  pronouns: he/him
-  role: Engineering Manager, Frontend Platform
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_frontend_platform
-  location: San Marcos, CA, USA 🇺🇸
-  github: jasongornall
-  email: jason.gornall@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jasongornall)'
-  description: Jason lives in San Diego, CA with his wife and cat Siren. He has lived in several cities in the USA including Atlanta, San Francisco, LA, Boston, and NYC. Jason loves ridiculously spicy foods and always enjoys a good pun. Jason's cat is named Siren but because he called her kitten for the majority of her early life she doesn't respond to her name at all and as a result we tend to call her Mitten because it is close enough to kitten and she can't tell the difference.
 
 Daniel_Gwyn:
   name: Daniel Gwyn
