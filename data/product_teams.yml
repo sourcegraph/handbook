@@ -110,7 +110,7 @@ frontend_platform:
   brief: The Frontend Platform team aims to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
   strategy_link: /strategy-goals/strategy/frontend-platform
   pm: taylor_sperry
-  em: jason_gornall
+  em: murat_sutunc
   design: alicja_suska
   issue_labels:
     - team/frontend-platform
