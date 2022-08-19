@@ -35,7 +35,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ## Resources for Teammates
 
-[People Ops FAQ](people-ops/tools/people-ops-faqs.md) 
+[People Ops FAQ](people-ops/tools/people-ops-faqs.md)
 
 ### Who to go to
 
@@ -574,12 +574,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
       </div>
     </div>
        </section>
-
-
-
-
-
-
 
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [People team](people-ops/index.md)
