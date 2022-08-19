@@ -684,13 +684,7 @@ murat_sutunc:
   role: Engineering Manager, Frontend Platform
   reports_to: eng_lead
   manager_role_slug: engineering_manager_frontend_platform
-  location: Redwood City, CA, USA 🇺🇸
-  pronunciation: '[muˈɾat](http://ipa-reader.xyz/?text=mu%CB%88%C9%BEat&voice=Joey)'
-  github: muratsu
-  email: murat@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/muratsutunc)'
-  description: Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.
-
+  hide_on_team_page: true
 
 jon_kishpaugh:
   name: Jon Kishpaugh
