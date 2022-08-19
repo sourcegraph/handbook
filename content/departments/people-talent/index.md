@@ -575,6 +575,12 @@ In case of emergency, the VP People & Talent and the Director, People are availa
     </div>
        </section>
 
+
+
+
+
+
+
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [People team](people-ops/index.md)
 - [Talent](talent/index.md)
