@@ -25,6 +25,8 @@ With our dedicated instance for user research, we can much more accurately explo
 - More than one unmoderated user research participant can sign in with the same user account at the same time to complete their activities.
 - The instance is a standalone Cloud instance and not part of our internal authentication infrastructure. If you are planning or conducting user research and need administration access to configure the instance for your activity, please contact Quinn Keast (@quinnkeast) to request an account.
 - If the repositories present on the instance need to be changed to support a given research activity, please contact Quinn Keast (@quinnkeast).
+- When creating content on the instance, aim for real-world accuracy to create a realistic environment for user research. For example, a new search context might be named `@security-team`, but avoid `@test-context-123`.
+- When creating content on the instance for the purpose of or as a result of running user research, if the content may conflict or influence other research activities, the research organizer is responsible for removing or reverting that content to restore the instance to a "clear state."
 
 ## Coordinating user research
 
