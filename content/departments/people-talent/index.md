@@ -574,4 +574,3 @@ In case of emergency, the VP People & Talent and the Director, People are availa
       </div>
     </div>
        </section>
-
