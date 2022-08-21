@@ -18,7 +18,7 @@ The origin of our work is the core of Sourcegraph, first implemented as [srclib]
 
 2017 - Over time we started to experience some issues with language servers. They can be difficult to deploy, slow at runtime, slow to adopt by members of their respective language communities, and slow to develop.
 
-2018 - We added a new basic code navigation that is built on search-based heuristics to allow us to provide quick and good enough i.e. "imprecise" support for the [most popular programming languages](https://sourcegraph.com/extensions?query=category%3A%22Programming+languages%22).
+2018 - We added a new basic code intelligence that is built on search-based heuristics to allow us to provide quick and good enough i.e. "imprecise" support for the [most popular programming languages](https://sourcegraph.com/extensions?query=category%3A%22Programming+languages%22).
 
 2019 - While looking for more efficient alternatives to language servers we found LSIF (Language Server Index Format) which provided an index-based implementation of precise code navigation (similar to srclib) with the advantage of being able to build on top of the work done in the LSP community (LSIF and LSP are sister protocols).
 
@@ -30,13 +30,13 @@ See [Code intelligence strategy](../../../../strategy-goals/strategy/code-intell
 
 ## Overview
 
-The video below is a brief introduction to Code Intelligence at Sourcegraph explaining concepts such as the difference between search-based and precise code navigation.
+The video below is a brief introduction to Code Intelligence at Sourcegraph explaining concepts such as the difference between search-based and precise code intelligence.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/fcaddfd333da487cb526a4fc99ead803" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Tech stack
 
-Precise code navigation specific services are written in Go and code navigation features are added to the existing frontend service where possible. Sourcegraph extensions that provide code navigation are written in TypeScript. We use Postgres databases to store data specific to a particular LSIF index and all other metadata.
+Precise code intelligence specific services are written in Go and code intelligence features are added to the existing frontend service where possible. Sourcegraph extensions that provide code intelligence are written in TypeScript. We use Postgres databases to store data specific to a particular LSIF index and all other metadata.
 
 ## How we do technical hiring
 
@@ -68,17 +68,17 @@ We track most of our work as [issues on the Sourcegraph main repository](https:/
 
 ## New Engineer Onboarding
 
-Our team is growing and to help our new teammates have the best onboarding experience we have created additional material that builds on Sourcegraph's [general engineering onboarding](../../dev/onboarding/index.md) guide. We think will help you ramp up in all things code navigation.
+Our team is growing and to help our new teammates have the best onboarding experience we have created additional material that builds on Sourcegraph's [general engineering onboarding](../../dev/onboarding/index.md) guide. We think will help you ramp up in all things code intel.
 
 ### Weeks 1–4
 
-**Architecture Presentation**: An experienced code navigation engineer will give a live presentation primarily to the new hire (and any other Sourcegraph teammate who’s interested) explaining the architecture of our systems at a high level.
+**Architecture Presentation**: An experienced code intel engineer will give a live presentation primarily to the new hire (and any other Sourcegraph teammate who’s interested) explaining the architecture of our systems at a high level.
 
 **Pair Programming**: Keeping inline with [engineering pairing sessions](../../dev/onboarding/index.md#pairing-sessions) we will support our new teammates by setting aside dedicated time every week for mentoring. This not only helps deliver guided learning but also is great for team and relationship building.
 
-**First Tasks**: The team has marked issues we believe are good first issues in [Github](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+label%3A%22good+first+issue%22++label%3A%22team%2Fcode-intelligence%22), following the [starter task process](../../dev/onboarding/index.md#starter-tasks) work with the code navigation engineering manager to select three issues that you think are good ones for you to work on in your first 4 weeks.
+**First Tasks**: The team has marked issues we believe are good first issues in [Github](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+label%3A%22good+first+issue%22++label%3A%22team%2Fcode-intelligence%22), following the [starter task process](../../dev/onboarding/index.md#starter-tasks) work with the code intel engineering manager to select three issues that you think are good ones for you to work on in your first 4 weeks.
 
-**Technical Design Docs & Diagrams**: We know that a picture is worth a thousand words and we will create visual diagrams to supplement our written documentation for the most critical or complex components and processes. This material is great for async learning and can provide a better understanding of the parts that make up the big picture. Check [code navigation user documentation](https://docs.sourcegraph.com/code_intelligence) and [our journey with LSIF post](https://about.sourcegraph.com/blog/evolution-of-the-precise-code-intel-backend/) to understand the overall view. Browse through available documentation and diagrams in the [code navigation developer documentation](https://docs.sourcegraph.com/dev/background-information/codeintel/) and [code navigation Google drive](https://drive.google.com/drive/folders/1YF237FV_4fAeIS4D5aH9bxexft_bh16r) and learn how the Bundle Manager works or view Inter-service request diagrams.
+**Technical Design Docs & Diagrams**: We know that a picture is worth a thousand words and we will create visual diagrams to supplement our written documentation for the most critical or complex components and processes. This material is great for async learning and can provide a better understanding of the parts that make up the big picture. Check [code intel user documentation](https://docs.sourcegraph.com/code_intelligence) and [our journey with LSIF post](https://about.sourcegraph.com/blog/evolution-of-the-precise-code-intel-backend/) to understand the overall view. Browse through available documentation and diagrams in the [code intel developer documentation](https://docs.sourcegraph.com/dev/background-information/codeintel/) and [code intel Google drive](https://drive.google.com/drive/folders/1YF237FV_4fAeIS4D5aH9bxexft_bh16r) and learn how the Bundle Manager works or view Inter-service request diagrams.
 
 ### Second Month
 
