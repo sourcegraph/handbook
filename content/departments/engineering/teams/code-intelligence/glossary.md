@@ -14,7 +14,6 @@ Examples:
 - Maven, Gradle, Ant: Primarily used for Java, Kotlin and Scala.
 - CMake: Primarily used for C and C++, but also used for other projects. Strictly speaking, CMake is a "meta build system"; it generates build instructions which are executed by another build system (such as Make or Ninja).
 
-
 ### Code navigation popover
 
 A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code navigation](#precise-code-intel). Depending on the context, it may have (as of 2022 Apr 08):
