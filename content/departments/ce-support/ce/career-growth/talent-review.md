@@ -8,7 +8,7 @@ The talent review and calibration process is performed bi-annually (~April and ~
 
 ## Pre-Work
 
-Prior to the calibration meeting (meeting with CE VP, Directors, and Managers of a relevant sub-team to determine promotions and calibrate around each level) each Manager should evaluate ICs reporting to them using the level descriptions from the career ladder in Lattice. For each, they will make the determination whether the IC is meeting/exceeding/struggling-to-meet the expectations of their given level. Managers should prepare a short statement to justify their determination, which they will share during the calibration meeting. If they believe the IC to be performing at a higher level, they should also ensure that the IC is meeting the expectations for that higher level, and be prepared to present evidence of such.
+Prior to the calibration meeting (meeting with CE VP, Directors, and Managers of a relevant sub-team to determine promotions and calibrate around each level) each Manager should evaluate ICs reporting to them using the level descriptions from the career framework in Lattice. For each, they will make the determination whether the IC is meeting/exceeding/struggling-to-meet the expectations of their given level. Managers should prepare a short statement to justify their determination, which they will share during the calibration meeting. If they believe the IC to be performing at a higher level, they should also ensure that the IC is meeting the expectations for that higher level, and be prepared to present evidence of such.
 
 The pre-work that Managers do is greatly aided by previous Impact review cycles, but it is not the only input into this. Managers are expected to collect proof points from adjacent peer leaders to ensure broad alignment.
 
@@ -36,7 +36,7 @@ Promotion requests are made immediately following the [talent review calibration
 
 Teammates are considered for promotion to a new level when their manager can make the case that they have had at least four quarters of high performance at their current level, and one quarter performing at the next level. We want to avoid situations where someone is promoted to a level in which they struggle to meet expectations.
 
-Our career ladders describe performance expectations in 3 core competencies. It will be extremely rare for a customer engineer to be exactly at the same level in all of these categories. Since the levels describe the minimum expectations for each level, a customer engineer must meet the expectations for all categories before they can be considered for promotion.
+Our career frameworks describe performance expectations in 3 core competencies. It will be extremely rare for a customer engineer to be exactly at the same level in all of these categories. Since the levels describe the minimum expectations for each level, a customer engineer must meet the expectations for all categories before they can be considered for promotion.
 
 ## Compensation increase requests
 

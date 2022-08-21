@@ -1,8 +1,8 @@
-# Disaster Recovery for Sourcegraph Cloud
+# Disaster Recovery for DotCom
 
 Disaster Recovery process contains playbooks for different components:
 
-- [Cloud base infrastructure](#cloud-base-infrasructure)
+- [DotCom base infrastructure](#dotcom-base-infrastructure)
 - [CloudSQL databases](#databases)
   - [Database backup process](#database-backup-process)
   - [Database restore process](#database-restore-process)
@@ -17,11 +17,11 @@ Disaster Recovery process contains playbooks for different components:
   - [GKE Kubernetes restore process](#gke-kubernetes-backup-process)
   - [Update nginx ingress controller](#update-nginx-ingress-controller)
 
-# Cloud base infrastructure
+# DotCom base infrastructure
 
-[Sourcegraph](https://sourcegraph.com) is deployed in Google Cloud Platform.
+[Sourcegraph](https://sourcegraph.com) is deployed on Google Cloud Platform.
 
-![Sourcegrap.com in Google Cloud Platform](sourcegraph_cloud.png)
+![sourcegraph.com on Google Cloud Platform](sourcegraph_cloud.png)
 
 Before restoring all components from backups, [terraform](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/cloud/README.md) has to be applied to create:
 
@@ -33,10 +33,10 @@ Before restoring all components from backups, [terraform](https://k8s.sgdev.org/
 
 # CloudSQL databases
 
-[Sourcegraph](https://sourcegraph.com) is using two Google CloudSQL instances:
+[Sourcegraph](https://sourcegraph.com) uses two Google CloudSQL instances:
 
-- [main database sg](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/cloud/sql.tf?L39)
-- [code-intel database](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/cloud/sql.tf?L110)
+- [main database sg](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/sql.tf?L39)
+- [code-intel database](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/sql.tf?L110)
 
 Apart from automated daily backups, Sourcegraph performs database exports to Google Storage Bucket as [recommended by Google](https://cloud.google.com/sdk/gcloud/reference/sql/export/sql).
 
@@ -47,7 +47,7 @@ Steps to create an export of the CloudSQL database into Google Storage bucket:
 1. Create Google bucket for exports:
 
 ```
-gsutil mb -p sourcegraph-pre-prod -l us gs://preprod-database-export
+gsutil mb -p sourcegraph-dev -l us gs://prod-database-export
 ```
 
 2. List SQL instances:
@@ -59,19 +59,19 @@ gcloud sql instances list
 3. Get service account for SQL instance:
 
 ```
-gcloud sql instances describe pre-prod-ddd6e61f46 | grep service
+gcloud sql instances describe <instance ID> | grep service
 ```
 
 4. Add database instance permission to create objects in the bucket:
 
 ```
-gcloud projects add-iam-policy-binding sourcegraph-pre-prod --member=serviceAccount:p323384348006-s6zx3o@gcp-sa-cloud-sql.iam.gserviceaccount.com --role=roles/storage.objectCreator
+gcloud projects add-iam-policy-binding sourcegraph-dev --member=serviceAccount:p323384348006-s6zx3o@gcp-sa-cloud-sql.iam.gserviceaccount.com --role=roles/storage.objectCreator
 ```
 
 5. Export the database into the bucket:
 
 ```
-gcloud sql export sql --async --offload pre-prod-ddd6e61f46 gs://preprod-database-export/pre-prod-ddd6e61f46-$(date +%s).gz --database=sg
+gcloud sql export sql --async --offload <instance ID> gs://prod-database-export/<instance ID>-$(date +%s).gz --database=sg
 ```
 
 Meaning of the flags:
@@ -82,7 +82,7 @@ Meaning of the flags:
 6. Check status of export, as with async flag, it returns immediately after invoking export command in previous point:
 
 ```
-gcloud sql operations list  --instance=pre-prod-ddd6e61f46 --limit=10
+gcloud sql operations list  --instance=<instance ID> --limit=10
 ```
 
 Note: Export has to be in status: `DONE`
@@ -90,39 +90,35 @@ Note: Export has to be in status: `DONE`
 7. Verify that the database dump was created:
 
 ```
-gsutil ls gs://preprod-database-export/
+gsutil ls gs://prod-database-export/
 ```
 
 ## Database restore process
 
-1. Create CloudSQL database instace either via [terraform module](https://k8s.sgdev.org/github.com/sourcegraph/infrastructure/-/blob/cloud/sql.tf?L36)(recommend at Sourcegraph) or via gcloud command:
-
-```
-gcloud sql instances create pre-prod-ddd6e61f46 --database-version=POSTGRES_12 --cpu=2 --memory=4GB --region=us-central1 --root-password=testdr
-```
+1. Create a CloudSQL database instance either via the [terraform module](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/infrastructure/-/blob/cloud/sql.tf?L36)
 
 2. Create user:
 
 ```
-gcloud sql users create sgdr --instance=pre-prod-ddd6e61f46 --password=testdr
+gcloud sql users create sgdr --instance=<instance ID> --password=testdr
 ```
 
 3. Create database schema:
 
 ```
-gcloud sql databases create sgdr --instance=pre-prod-ddd6e61f46
+gcloud sql databases create sgdr --instance=<instance ID>
 ```
 
 4. Check available import files:
 
 ```
-gsutil ls gs://preprod-database-export/
+gsutil ls gs://prod-database-export/
 ```
 
 5. Import file from the bucket:
 
 ```
-gcloud sql import sql pre-prod-ddd6e61f46 gs://preprod-database-export/pre-prod-ddd6e61f46-1644412879.gz --database=sgdr --user=sgdr
+gcloud sql import sql <instance ID> gs://prod-database-export/<backup name>.gz --database=sgdr --user=sgdr
 ```
 
 6. Verify all tables are available:
@@ -131,7 +127,7 @@ gcloud sql import sql pre-prod-ddd6e61f46 gs://preprod-database-export/pre-prod-
 - start SQLProxy:
 
 ```
-./cloud_sql_proxy -instances=sourcegraph-pre-prod:us-central1:pre-prod-ddd6e61f46=tcp:0.0.0.0:5432
+./cloud_sql_proxy -instances=sourcegraph-dev:us-central1:<instance ID>=tcp:0.0.0.0:5432
 ```
 
 - connect to the database in another terminal tab:
@@ -198,13 +194,13 @@ Note: original documentation from [Velero](https://github.com/vmware-tanzu/veler
 1. Set project:
 
 ```
-gcloud config set project sourcegraph-pre-prod
+gcloud config set project sourcegraph-dev
 ```
 
 2. Create bucket for cluster snapshot:
 
 ```
-gsutil mb gs://sg-velero-preprod-backup
+gsutil mb gs://sg-velero-prod-backup
 ```
 
 3. Export project ID:
@@ -260,7 +256,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 9. Add Velero ServiceAccount permissions to the snapshot bucket:
 
 ```
-gsutil iam ch serviceAccount:$SERVICE_ACCOUNT_EMAIL:objectAdmin gs://sg-velero-preprod-backup
+gsutil iam ch serviceAccount:$SERVICE_ACCOUNT_EMAIL:objectAdmin gs://sg-velero-prod-backup
 ```
 
 10. Create Velero ServiceAccount keys needed for installation on GKE Kubernetes:
@@ -275,7 +271,7 @@ gcloud iam service-accounts keys create credentials-velero --iam-account $SERVIC
 velero install \
   --provider gcp \
   --plugins velero/velero-plugin-for-gcp:v1.4.0 \
-  --bucket sg-velero-preprod-backup \
+  --bucket sg-velero-prod-backup \
   --secret-file ./credentials-velero \
   --velero-pod-cpu-limit=1 \
   --velero-pod-cpu-request=1 \
@@ -305,13 +301,17 @@ GKE Kubernetes backup process is performed by [Velero](https://github.com/vmware
 1. Install Velero on GKE Kubernetes:
 
 ```
-velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.4.0     --bucket sg-velero-preprod-backup     --secret-file ./credentials-velero
+velero install \
+ --provider gcp \
+ --plugins velero/velero-plugin-for-gcp:v1.4.0 \
+ --bucket sg-velero-prod-backup \
+ --secret-file ./credentials-velero
 ```
 
 2. Invoke manual backup with disk snapshots:
 
 ```
-velero backup create sgdr11022022 --snapshot-volumes --wait
+velero backup create sgdr<timestamp> --snapshot-volumes --wait
 ```
 
 Note: wait ensures the backup is done synchronously, so any error will be reported after it finishes.
@@ -333,13 +333,17 @@ gcloud compute snapshots list
 1. Install Velero on GKE Kubernetes:
 
 ```
-velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.4.0     --bucket sg-velero-preprod-backup     --secret-file ./credentials-velero
+velero install \
+  --provider gcp \
+  --plugins velero/velero-plugin-for-gcp:v1.4.0 \
+  --bucket sg-velero-prod-backup \
+  --secret-file ./credentials-velero
 ```
 
 2. Create scheduled backup with disk snapshots:
 
 ```
-velero schedule create preprod-daily --schedule="0 0 * * *" --snapshot-volumes=true
+velero schedule create prod-daily --schedule="0 0 * * *" --snapshot-volumes=true
 ```
 
 Note:
@@ -357,25 +361,29 @@ Important:
 1. Connect to new GKE cluster:
 
 ```
-gcloud container clusters get-credentials pre-prod-dr --region us-central1 --project sourcegraph-pre-prod
+gcloud container clusters get-credentials prod-dr --region us-central1 --project sourcegraph-dev
 ```
 
 2. Install Velero on GKE Kubernetes:
 
 ```
-velero install     --provider gcp     --plugins velero/velero-plugin-for-gcp:v1.4.0     --bucket sg-velero-preprod-backup     --secret-file ./credentials-velero
+velero install \
+  --provider gcp \
+  --plugins velero/velero-plugin-for-gcp:v1.4.0 \
+  --bucket sg-velero-prod-backup \
+  --secret-file ./credentials-velero
 ```
 
 3. Add backup location to Velero (required if in previous step –bucket is not the same as the bucket used to make snapshot from origin cluster):
 
 ```
-velero backup-location create preprod-backups --provider gcp --access-mode=ReadOnly --bucket sg-velero-preprod-backup
+velero backup-location create prod-backups --provider gcp --access-mode=ReadOnly --bucket sg-velero-prod-backup
 ```
 
 4. Add disks snapshots location:
 
 ```
-velero snapshot-location create preprod-snapshots --provider gcp
+velero snapshot-location create prod-snapshots --provider gcp
 ```
 
 5. Check available backups and choose appropriate:
@@ -387,22 +395,22 @@ velero backup get
 6. Restore applications into new cluster (this will also create PV disks from GCP snapshots):
 
 ```
-velero restore create preprod-dr-test --from-backup sgdr11022022 --include-namespaces prod,ingress-nginx --wait
+velero restore create prod-dr --from-backup sgdr<timestamp> --include-namespaces prod,ingress-nginx --wait
 ```
 
 7. Check if restore was successful:
 
 ```
-velero restore describe preprod-dr-test
+velero restore describe prod-dr
 ```
 
 ## Update nginx ingress controller
 
-Note: if Nginx ingress controller was also restored by Velero, please follow the steps to update it.
+Note: if nginx ingress controller was also restored by Velero, please follow the steps to update it.
 
 Fix nginx ingress controller after restore (only if restoring from running cluster):
 
-1. Remove Google LB IP from nginx configuration (cannot use already taken static IP):
+1. Remove Google LB IP from nginx configuration (cannot use a static IP that is already in use):
 
 ```
 kubectl patch svc sg-nginx-ingress-nginx-controller --type=json -p="[{'op': 'remove', 'path': '/spec/loadBalancerIP'}]" -n ingress-nginx
@@ -423,7 +431,7 @@ kubectl apply -f cr_backup.yaml && kubectl apply -f crb_backup.yaml
 4. Test Sourcegraph via public IP:
 
 ```
-curl -ki https://$(kubectl get services -n ingress-nginx sg-nginx-ingress-nginx-controller --output jsonpath='{.status.loadBalancer.ingress[0].ip}')/search -H "Host: preview.sgdev.dev"
+curl -ki https://$(kubectl get services -n ingress-nginx sg-nginx-ingress-nginx-controller --output jsonpath='{.status.loadBalancer.ingress[0].ip}')/search -H "Host: sourcegraph.com"
 ```
 
 5. Change CloudFlare to point to the new IP:

@@ -17,12 +17,6 @@ For basic operations like accessing an instance for these steps, see [managed in
      - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
 
 1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
-1. Create a new GCP project for the instance by:
-
-- Adding it to the [`managed_projects` tfvar in `gcp/projects/terraform.tfvars`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/gcp/projects/terraform.tfvars)
-- Apply terraform in `gcp/projects` folder - due to the amount of service APIs that are defined in this project, run Terraform with increased parallelism to prevent waiting a long time for the plan to form:
-  `terraform apply -parallelism=100`
-
 1. Ensure the target version of docker-compose file is in the golden directory, it should be named `docker-compose.x.y.z.yaml`
 1. ` ./util/create-managed-instance-new.sh $COMPANY` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
 1. Replace base `docker-compose.yaml` to use golden symlink: `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.<MAJOR.MINOR.PATCH>.yaml docker-compose.yaml && rm ../VERSION && cd ../../`
@@ -31,6 +25,7 @@ For basic operations like accessing an instance for these steps, see [managed in
    > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
 
 1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n2-standard-8".
+1. In `deploy-sourcegraph-managed/$COMPANY/project` run `terraform init && terraform apply -var-file=../terraform.tfvars` to create the GCP project
 1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
 1. Check if all is running
 
@@ -72,32 +67,51 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. Enable metrics collection and GCP alerts for the new instance:
 
    - cd `monitoring`
-   - add new map entry to `monitored_projects` in `variables.tf`
    - run `terraform apply`
+
+1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
 
 1. Commit the last changes, create a PR for review, apply and merge
 
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
-## Giving the customer access
+## Wraping up
+
+Follow the [post-creation task](#post-creation-tasks) below.
+
+## Post-creation tasks
+
+### Giving customer access
 
 > NOTE: ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created!
 
-To provide the customer access to the instance:
+#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
 
-1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](../operations.md).
-2. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Inform the CE this link will expire after 24 hours. If the link expires before the customer was able to sign up, you can generate a new link with
-   ```bash
-   mg reset-customer-password --email <customer admin email>
-   ```
-3. Ask the CE to add 10 extra seats to the license, as we currently do not exclude DevOps admin accounts from the license usage.
+```
+Hi,
 
-## Configuring License, SSO, and repositories
+The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+```
 
-## Is customers using a private code host?
+If the link expires before the customer was able to sign up, you can generate a new link with
+
+```bash
+mg reset-customer-password --email <customer admin email>
+```
+
+### Enable "private" mode
+
+Some customers opt to restrict access to Sourcegraph instance to a limitied number of IP ranges (e.g. corporate VPN). Ensure CE has provided the customer IP allowlist. This is a prereq in the instance creation form.
+
+- Set `type=private` in `$CUSTOMER/config.yaml`
+- Set `public=false` in `$CUSTOMER/terraform.tfvars`
+- Add `allowed_customer_ip_ranges=["1.2.3.4/32"]` in `$CUSTOMER/terraform.tfvars`
+- Run `terraform apply`
+
+### Is customers using a private code host?
 
 If the customers' code host is behind a firewall, we will need to provide them the IP of our Cloud NAT
 
@@ -108,7 +122,9 @@ terraform output
 
 Provide the value of `cloud_nat_ips` to CE or customers, and instruct them to allow incoming traffic from referenced IP addresses.
 
-## `KeyRing` already exists
+## Troubleshooting
+
+### `KeyRing` already exists
 
 ```
 │ Error: Error creating KeyRing: googleapi: Error 409: KeyRing projects/sourcegraph-managed-$CUSTOMER/locations/global/keyRings/primary-key-ring already exists.
@@ -119,4 +135,12 @@ You may be trying to re-create an instance in the same project where KMS is only
 ```sh
 terraform import 'module.managed_instance.google_kms_key_ring.keyring' projects/sourcegraph-managed-$COMPANY/locations/global/keyRings/primary-key-ring
 terraform import 'module.managed_instance.google_kms_crypto_key.key' global/primary-key-ring/primary-key
+```
+
+### `Error creating Brand: googleapi: Error 409: Requested entity already exists`
+
+You may be trying to re-create an instance in an existing project. Simply import the resource.
+
+```sh
+terraform import module.managed_instance.google_iap_brand.project_brand $(gcloud alpha iap oauth-brands list --project $PROJECT_ID --format json | jq -r '.[0].name')
 ```

@@ -2,7 +2,6 @@
 
 The Sales team represents us and our values to customers, bringing back dollars and feedback to help us grow.
 
-- [Commercial Sales](commercial/index.md)
 - [Account Tiers](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit?ts=5f7e4023#heading=h.qdguquy7dt7i)
 - [Pricing](https://about.sourcegraph.com/pricing)
 - [Common questions from prospective customers](tools/common_customer_questions.md)
@@ -141,3 +140,7 @@ See [Our Stages and the reasoning behind them.](https://docs.google.com/spreadsh
 Maintaining [Server Installers to Company List](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit?usp=sharing) and [Server to Company List](https://docs.google.com/spreadsheets/d/1wo_KQIcGrNGCWYKa6iHJ7MImJ_aI7GN12E-T21Es8TU/edit?usp=sharing) spreadsheets for every new company on a trial and new customers.
 
 These are used as join tables in Looker, and are important to connect instance data to a specific customer.
+
+## Sales Career Development
+
+Visit [this page](career-development/index.md) to learn more about Sales career development.

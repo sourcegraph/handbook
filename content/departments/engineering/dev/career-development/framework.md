@@ -30,7 +30,7 @@ It is the responsibility of your manager to track this, and to ensure that you a
 
 When your manager can make the case that you’ve had at least one quarter of high performance at your current level, and one quarter performing at the next level, in all three of the categories. It takes time to demonstrate the “consistently” implicit in the expectations, and we don’t want to promote anyone to a level in which they will struggle.
 
-Promotions from one level to another are considered in our quarterly [talent review](talent-review-process.md).
+Promotions from one level to another are considered in our twice-yearly [talent review](talent-review-process.md).
 An in-band compensation increase (while staying at the same level) can happen at any time, in recognition of exceeding expectations in your current level without having yet met the expectations of the next level.
 
 To learn more, see ["Considerations for promotion" in our talent review process](talent-review-process.md#considerations-for-promotion).
@@ -344,8 +344,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     <tr>
       <th id="ic4" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic4"></a><abbr title="Individual Contributor">IC</abbr>4</th>
       <td colspan="3" class="level-summary">
-        A particularly experienced, impactful contributor.<br>
-        IC4 is the highest level that an engineer can get to based solely on their performance. The availability of positions beyond IC4 is based on both impact and business need.
+        A particularly experienced, impactful contributor.
       </td>
     </tr>
     <tr class="category-summaries-row">
@@ -401,14 +400,52 @@ To learn more, see ["Considerations for promotion" in our talent review process]
     </tr>
     <!-- IC5 -->
     <tr>
-      <th id="ic5" scope="row" rowspan="2" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
+      <th id="ic5" scope="row" rowspan="3" class="level"><a class="anchor" href="#ic5"></a><abbr title="Individual Contributor">IC</abbr>5</th>
       <td colspan="3" class="level-summary">
-        IC5 is a different role from levels 1–4.<br>
-        What impact looks like at this level varies between individuals.<br>
+        A Staff Engineer, responsible for identifying impactful problems aligned with business objectives that need to be solved and then driving the solution to those problems.
       </td>
     </tr>
-    <tr>
-      <td colspan="3" class="tbd">
+    <tr class="category-summaries-row">
+      <td class="category-summary proficiency">
+        <div class="wrapper">
+          A respected technical leader, on and off their team.
+        </div>
+      </td>
+      <td class="category-summary execution">
+        <div class="wrapper">
+          Defines deep or broad goals that align with top level company goals, and ensures delivery to meet business needs.
+        </div>
+      </td>
+      <td class="category-summary teamwork">
+        <div class="wrapper">
+          An extremely strong communicator doing outstanding stakeholder management.
+        </div>
+      </td>
+    </tr>
+    <tr class="behaviors-row">
+      <td class="behaviors proficiency">
+        <ul>
+          <li>Sets the technical vision for their team, and influences the broader technical vision.</li>
+          <li>Initiates and drives projects with broad/deep impact that enable higher quality work.</li>
+          <li>Provides oversight, coaching, and guidance through code and design reviews, both on and off the team.</li>
+          <li>Acts as a trusted advisor, drawing on functional expertise to inform customer-driven strategy.</li>
+        </ul>
+      </td>
+      <td class="behaviors execution">
+        <ul>
+          <li>Proactively identifies areas for improvement across engineering. Suggests process and methodology improvements.</li>
+          <li>Works closely with Engineering/Product leadership to validate alignment of team roadmaps within their org.</li>
+          <li>Independently scopes, designs, and delivers solutions for large, complex challenges.</li>
+          <li>Operates with calm and grace in ambiguous/uncertain situations. Does not shy away from taking calculated risks.</li>
+        </ul>
+      </td>
+      <td class="behaviors teamwork">
+        <ul>
+          <li>Provides technical expertise internally and externally, informing what can be achieved.</li>
+          <li>Regularly shares knowledge to influence and up-level large and/or senior audiences.</li>
+          <li>Persuades and challenges clients and internal stakeholders, using valid expertise and respectful communication.</li>
+          <li>Responsive to a variety of unexpected requests for advice or consultation; gracefully handles more frequent context-switching.</li>
+        </ul>
       </td>
     </tr>
     <!-- IC6 -->
@@ -416,8 +453,7 @@ To learn more, see ["Considerations for promotion" in our talent review process]
       <th id="ic6" scope="row" class="level"><a class="anchor" href="#ic6"></a><abbr title="Individual Contributor">IC</abbr>6</th>
       <td colspan="3" class="tbd">
         <p>
-          We haven't yet finalized the description of this level at Sourcegraph.
-          Like <a href="#ic5">IC5</a>, this is a different <strong>role</strong> than the levels preceding it based not only on performance, but also business need, and (like <a href="#ic5">IC5</a>) what impact at this level looks like may vary more from person to person than at preceding levels.
+          Senior Staff Engineer. We haven't yet finalized the description of this level at Sourcegraph.
         </p>
       </td>
     </tr>

@@ -35,8 +35,8 @@ To create a Product Gap, navigate to the impacted customer(s) most recent Opport
 
 - Severity - P0: Dealbreaker, P1: Significant Pain Point, P2: Nice to Have
 - Use Case - _if relevant_ tie your submission to one or multiple core use cases to help with prioritization
-- Description - include not just what the customer wants, but why – what problem does it solve for them? Is that problem a priority for them? (Tip: just ask "why?" repeatedly to get the answer.)
-- Impact
+- Description - any additional detail about what this specific customer wants (as opposed to what is already captured in the Product Gap which should apply to every Submission)
+- Impact - what problem does it solve for them? What is the cost of not solving this problem? (for example, this could be answered in terms of developer experience, cost to the business, or time wasted)
 - Workaround, if any
 
 View the [full list of product gap categories/subcategories](https://docs.google.com/spreadsheets/d/1lgfIJUGkGW0Cp6yJmOqpR-WcUaWj8LbEAg4jt6EH4oY/edit?usp=sharing) in Google Drive.
