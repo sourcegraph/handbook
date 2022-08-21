@@ -1,4 +1,4 @@
-# Code Intelligence Glossary
+# Code navigation Glossary
 
 ### build system
 
@@ -6,7 +6,7 @@ A tool that is used to transform code into a format where it can be executed, us
 
 A build system understands the relations between different files, [modules][#module] and [packages][#package].
 
-In the context of Code Intelligence, for out-of-the-box support, an [indexer](#indexer) needs to invoke the build system in the right way. (TODO: Clarify this!)
+In the context of code navigation, for out-of-the-box support, an [indexer](#indexer) needs to invoke the build system in the right way. (TODO: Clarify this!)
 
 Examples:
 
@@ -14,23 +14,14 @@ Examples:
 - Maven, Gradle, Ant: Primarily used for Java, Kotlin and Scala.
 - CMake: Primarily used for C and C++, but also used for other projects. Strictly speaking, CMake is a "meta build system"; it generates build instructions which are executed by another build system (such as Make or Ninja).
 
-### Code Intel
 
-⚠: This term is an internal abbreviation and not recommended when talking to external people.
+### Code navigation popover
 
-Shorthand for "Code Intelligence". Used as a broad term for describing knowledge about code that forms the core building block for rich [code navigation](#code-navigation) (as of 2022 Apr 08), and hopefully a lot more cool functionality in the future. 😄
-
-Divided into two types: [search-based code intel](#search-based-code-intel) and [precise code intel](#precise-code-intel). However, this distinction is becoming increasingly blurry, as some code intel can be a mix of precise and search-based.
-
-For example, as of 2022 Apr 08, GitHub's code navigation accuracy falls somewhere between our search-based code intel and precise code intel.
-
-### Code Intel popover
-
-A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code intel](#precise-code-intel). Depending on the context, it may have (as of 2022 Apr 08):
+A box that shows up when hovering over an [identifier](#identifier) for which we have [search-based](#search-based-code-intel) or [precise code navigation](#precise-code-intel). Depending on the context, it may have (as of 2022 Apr 08):
 
 - The [doc comment](#doc-comment) for the [symbol](#symbol) corresponding to the identifier.
 - Buttons for [code navigation](#code-navigation).
-- A label describing if the code intel is search-based or precise.
+- A label describing if the code navigation is search-based or precise.
 
 ### code navigation
 
@@ -50,7 +41,7 @@ Usually, compilation is split into a few layers conceptually.
 
 Depending on the language, name resolution and type checking may be interleaved. Together, these two phases are called [semantic analysis](#semantic-analysis).
 
-Optimization and code generation are not relevant from the point-of-view of Code Intel.
+Optimization and code generation are not relevant from the point-of-view of code navigation.
 
 ### compilation unit
 
@@ -95,13 +86,13 @@ A structure with nodes and directed edges (arrows between the nodes) such that t
 
 TODO: Link to a graphic here.
 
-In the context of Code Intel, the most important bit to know about a DAG is that it provides a clear structure for processing nodes (this is called "topological ordering" or "dependency order"). Conversely, the presence of a cycle in a situation where a DAG is expected (e.g. cyclic dependencies across build steps) is likely to lead to a hang and/or a crash, or potentially even silently incorrect results.
+In the context of code navigation , the most important bit to know about a DAG is that it provides a clear structure for processing nodes (this is called "topological ordering" or "dependency order"). Conversely, the presence of a cycle in a situation where a DAG is expected (e.g. cyclic dependencies across build steps) is likely to lead to a hang and/or a crash, or potentially even silently incorrect results.
 
 ### doc comment
 
 Shorthand for documentation comment, sometimes called a "docstring."
 
-A code comment that is intended to be surfaced by documentation tools, as a description of an entity like a function, a type etc. The [Code Intel popover](#code-intel-popover) surfaces a doc comment when possible.
+A code comment that is intended to be surfaced by documentation tools, as a description of an entity like a function, a type etc. The [Code navigation popover](#code-intel-popover) surfaces a doc comment when possible.
 
 In code, these are often written directly above or below an entity's definition, and typically colored in a more dull shade. Here is an example in TypeScript:
 
@@ -139,7 +130,7 @@ Examples:
 
 ### hover tooltip
 
-Same as [Code Intel popover](#code-intel-popover), which is the preferred term.
+Same as [Code navigation popover](#code-intel-popover), which is the preferred term.
 
 ### keyword
 
@@ -174,7 +165,7 @@ TODO
 
 A tool that does [indexing](#indexing).
 
-In the context of Code Intel, this usually refers to a _precise_ indexer, i.e. something which emits [precise code intel](#precise-code-intel) about a language. However, this is sometimes used as shorthand for "some tool that emits [LSIF Typed](#lsif-typed)".
+In the context of code navigation, this usually refers to a _precise_ indexer, i.e. something which emits [precise code navigation](#precise-code-intel) about a language. However, this is sometimes used as shorthand for "some tool that emits [LSIF Typed](#lsif-typed)".
 
 ### indexing
 
@@ -224,7 +215,7 @@ TODO
 
 The process of converting code from unstructured plain text to a tree-like data structure (a [syntax tree](#syntax-tree)) that is more suited to further processing, such as syntax highlighting.
 
-### precise code intel
+### precise code navigation
 
 TODO
 
@@ -286,9 +277,9 @@ In some languages like Nim, this mapping is N:M instead of N:1, because they sup
 
 N.B. In the context of building/linking code, "symbol" is sometimes used as shorthand for "object code symbol" rather than "semantic symbol." For example, most compilers do not emit object code symbols for local variables (they are directly manipulated on the stack or in registers). However, an indexer will usually want to emit semantic symbols for locals to enable code navigation.
 
-However, in the context of Code Intel, we are ~almost never interested in talking about object code symbols.[^object-code-symbols] So it makes sense to use "symbol" instead of the longer "semantic symbol."
+However, in the context of code navigation, we are ~almost never interested in talking about object code symbols.[^object-code-symbols] So it makes sense to use "symbol" instead of the longer "semantic symbol."
 
-[^object-code-symbols]: This could potentially change, if say, we integrated Code Intel with tools that aggregate/emit stack traces for native code.
+[^object-code-symbols]: This could potentially change, if say, we integrated code navigation with tools that aggregate/emit stack traces for native code.
 
 ### symbols sidebar
 
@@ -347,7 +338,7 @@ const b = makePair(a) // 'b' is inferred to have type '[]number'
 
 This example might be misleading in its simplicity; you might think that there isn't anything more to type inference other than "propagating" the types from constant values (like `10`) and based on annotations (such as on `makePair`). However, in practice, type inference for most industrial languages is quite complicated, and is not implementable in a language-agnostic way.
 
-Techniques such as GitHub's "stack graphs" that are largely language-agnostic can only approximate type inference. This is why our strategy for [precise code intel](#precise-code-intel) relies on leveraging language-specific [compiler](#compiler)s/[type checker](#type-checker)s, which include a complete implementation of type inference.
+Techniques such as GitHub's "stack graphs" that are largely language-agnostic can only approximate type inference. This is why our strategy for [precise code navigation](#precise-code-intel) relies on leveraging language-specific [compiler](#compiler)s/[type checker](#type-checker)s, which include a complete implementation of type inference.
 
 ### type checker
 
