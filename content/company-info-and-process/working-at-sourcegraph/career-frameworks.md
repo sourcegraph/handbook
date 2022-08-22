@@ -6,7 +6,7 @@ The frameworks below are iterative - we are committed to maintaining high expect
 
 Every department has created a framework for roles within their group. Each framework may apply to multiple job titles within that department. Where we have many Teammates in a role, we may create a more detailed, job-specific framework.
 
-This page is maintained by our [Talent and People Team](../../departments/people-talent/talent/index.md).
+This page is maintained by our [Talent and People Team](../../departments/people-talent/index.md).
 
 ## Customer Engineering & Support
 
