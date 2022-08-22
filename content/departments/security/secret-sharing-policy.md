@@ -2,7 +2,7 @@
 This document specifies how to distribute secrets among engineers and customers.
 
 ## Sharing password reset links
-Sharing password reset links for Sourcegraph is safe! We invalidate the password reset link after setting the password (which should be the standard for all reset links). So when creating an account for a customer or teammate, it’s actually best practice to share the password reset link with them, so they can set their own password. By default the link expires after 4 hours, so if the receiver tells you that the password reset link has expired within that time frame, it might be a good idea to [alert the security team](./index.md#contact)!
+Sharing password reset links for Sourcegraph is safe! We invalidate the password reset link after setting the password (which should be the standard for all reset links). So when creating an account for a customer or teammate, it’s actually best practice to share the password reset link with them, so they can set their own password. By default the link expires after 24 hours, so if the receiver tells you that the password reset link has expired within that time frame, it might be a good idea to [alert the security team](./index.md#contact)!
 
 ## Sharing other types of credentials
 Within Sourcegraph we use 1Password for managing our credentials. If you want to share credentials with a teammate you can add it to the shared Vault. 
