@@ -314,9 +314,11 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 ## Teammate enablement
 
 ### How to write a peer review
+
 COMING SOON
 
 ### How to write a self review
+
 COMING SOON
 
 ## Teammate FAQ
@@ -386,10 +388,12 @@ The below sections are COMING SOON and will be published before the Manager Revi
 
 ## Manager enablement
 
-### How to write an effective review**
+### How to write an effective review\*\*
+
 COMING SOON
 
-### Examples of a good review**
+### Examples of a good review\*\*
+
 COMING SOON
 
 **What comes after review writing**
