@@ -3,7 +3,7 @@
 As part of the Sourcegraph team, you are required to complete different compliance trainings. All team members, regardless of location, are required to take harassment prevention and security awareness training, and an annually roll re training of both of them.
 
 - New hires complete the training as part of their onboarding within their first three weeks at Sourcegraph.
-- All teammates re take trainings annually on a set date. _[XX for Preventing Harassment and XX for Security Awareness]_
+- All teammates re take trainings annually on a set date. _[April for Security Awareness and June for Preventing Harassment]_
 - New hires who joined within 6 months prior to the re training, don't have to do the retraining that year.
 
 <table>
