@@ -5,7 +5,7 @@
 - [Headcount Planning and Approval](talent/process/headcount_changes.md)
 - [Leveling philosophy](people-ops/process/compensation-and-leveling/leveling.md)
 - [Compensation philosophy](../../benefits-pay-perks/pay-expenses/compensation/index.md)
-- [Who is my recruiter?](talent/process/teamalignment.md)
+- [Who is my recruiter?](teamalignment.md)
 - [How to open a new role](talent/process/opening_a_new_job.md)
   - [Opening a new job](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform)
   - [Writing a job description](talent/process/opening_a_new_job.md)

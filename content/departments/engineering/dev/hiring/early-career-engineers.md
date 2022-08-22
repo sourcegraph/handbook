@@ -43,7 +43,7 @@ This framework intends to complement the standard processes defined by the Talen
 
 ### Finding suitable candidates
 
-Your first step is to meet up with [your department's recruiter](../../../people-talent/talent/index.md#talent-team-members) and work on a strategy to find the right talent for your team's needs. You will follow [the standard process](../../../people-talent/talent/process/interview_process.md) to kick off a search and identify candidates.
+Your first step is to meet up with [your department's recruiter](../../../people-talent/index.md#talent-team-members) and work on a strategy to find the right talent for your team's needs. You will follow [the standard process](../../../people-talent/talent/process/interview_process.md) to kick off a search and identify candidates.
 
 The sections below will help you to understand what to consider.
 
