@@ -78,6 +78,7 @@ For every feature we ship, consider:
 - **Telemetry:** Gather the (minimum) data needed for us to understand how the feature is being used and improve it.
 - **Backward-compatibility:** Make it smooth to upgrade from past versions and adapt usage to the newest version.
 - **Forward-compatibility:** Anticipate the feature's future evolution (where possible, and without over-building today).
+- **Admin experience:** Give an admin the visibility and controls they need to roll out and manage the feature.
 
 #### Feedback
 
