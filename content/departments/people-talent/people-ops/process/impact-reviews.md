@@ -2,6 +2,8 @@
 
 _If you have any questions about the Impact Review process, or need help in general, please Slack `#ask-people-team`_
 
+RESOURCES FOR TEAMMATES
+
 ## Impact Reviews explained
 
 We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide [ongoing feedback with Teammates year-round in 1:1 meetings and informally](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
@@ -311,6 +313,14 @@ We promote in alignment with our Impact Review process, to ensure Teammate growt
 
 The merit and promotion budget is held at the Department Leader-level and allocated as part of the financial planning period. Department Leadership may have to work with Finance to make a business case based on potential tradeoffs if divisions/departments are over/under budget during the calibration cycle.
 
+## Teammate Enablement 
+
+### How to write a peer review
+COMING SOON
+
+### How to write a self review
+COMING SOON
+
 ## Teammate FAQ
 
 Q. **Are Impact Reviews required for all Teammates?**
@@ -376,12 +386,12 @@ The below sections are COMING SOON and will be published before the Manager Revi
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-**How to write an effective review**
+## Manager Enablement 
 
+### How to write an effective review**
 COMING SOON
 
-**Examples of a good review**
-
+### Examples of a good review**
 COMING SOON
 
 **What comes after review writing**
