@@ -6,7 +6,7 @@ The Talent Team is responsible for helping every team at Sourcegraph hire, and f
 
 While you should find the answer to most of your questions here, if you have any questions for the People Team, please Slack `#ask-people-team` or email People-ops@sourcegraph.com, and if you have any questions for the Talent Team, please Slack `#hiring` or email Recruiting@sourcegraph.com.
 
-If you need to discuss something confidential or private, please Slack your [People Partner](process/teamalignment.md) or the VP People & Talent.
+If you need to discuss something confidential or private, please Slack your [People Partner](../teamalignment.md) or the VP People & Talent.
 
 In case of emergency, the VP People & Talent and the Director, People are available 24/7 via their cell phone number which is listed in their Slack profile.
 
@@ -40,9 +40,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Who to go to
 
 - People support
-  - [Who is my People Partner?](teamalignment.md)
+  - [Who is my People Partner?](../teamalignment.md)
 - Recruiting support
-  - [Who is my Recruiter?](teamalignment.md)
+  - [Who is my Recruiter?](../teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - [How to submit a confidential complaint](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
@@ -159,7 +159,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - Who is my People Partner?
 - Recruiting support
-  - [Who is my recruiter?](teamalignment.md)
+  - [Who is my recruiter?](../teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - [How to submit a confidential complaint](../../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
@@ -172,7 +172,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How to delete a role from the plan (with no plans to re-allocate the headcount to another role or department)](https://forms.gle/6dQmnRjsXDEjB4y7A)
   - [How to change the scope of a role (ie type of role, title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
 - [How to open a new job search](process/opening_a_new_job.md)
-  - [Who is my Recruiter?](teamalignment.md)
+  - [Who is my Recruiter?](../teamalignment.md)
   - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
   - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
   - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
@@ -374,7 +374,7 @@ COMING SOON
 
 # The Talent Team
 
-[Click here](teamalignment.md) to see Talent Team alignment with each department
+[Click here](../teamalignment.md) to see Talent Team alignment with each department
 
   <section>
     <div class="row" style="display:flex;">

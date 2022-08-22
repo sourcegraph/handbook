@@ -145,7 +145,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Providing interview feedback & feedback definitions](talent/process/interview_process.md#providing-interview-feedback)
   - [Interview scenarios & escalation process](talent/process/scenarios_and_escalation_process.md)
 - [Recruiting Tools](talent/process/index.md#recruiting-tools)
-  - [Greenhouse, our ATS](tools/guide_to_using_greenhouse.md)
+  - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
 - [Recruitment branding](talent/process/recruitment_branding.md)
@@ -192,7 +192,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Types of interviews](talent/process/types_of_interviews.md)
   - [Hiring Manager screen](talent/process/types_of_interviews.md#hiring-manager-screen)
   - [Resume Deep Dive](talent/process/types_of_interviews.md#resume-deep-dive)
-  - [Scheduling an interview](process/interview_process.md)
+  - [Scheduling an interview](talent/process/interview_process.md)
   - [Providing interview feedback & feedback definitions](talent/process/interview_process.md#providing-interview-feedback)
   - [Interview scenarios & escalation process](talent/process/scenarios_and_escalation_process.md)
 - [How to extend an offer](talent/process/extending_an_offer.md)
@@ -249,7 +249,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to give a raise](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a spot bonus](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
 - [How to give a promotion](../../benefits-pay-perks/pay-expenses/compensation/compensation-change-approvals.md)
-- [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](../people-ops/process/compensation-and-leveling/compensation-role-changes.md)
+- [Requesting changes in BambooHR: Compensation, Role, and Promotion workflows](people-ops/process/compensation-and-leveling/compensation-role-changes.md)
 
 ### How we measure culture
 
@@ -295,7 +295,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - Leaving Sourcegraph
-  - [Exit interviews](../people-ops/process/performance-coaching/exit-interview.md)
+  - [Exit interviews](people-ops/process/performance-coaching/exit-interview.md)
   - [Offboarding process]COMING SOON
 
 ### Teammate swag
