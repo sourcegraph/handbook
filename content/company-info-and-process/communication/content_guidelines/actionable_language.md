@@ -559,12 +559,15 @@ When the response to an input field might be from a wide range of options, place
 
 Sometimes, an example will make it easier for users to understand how to answer a field. Avoid this if you can, but if the field is new or unfamiliar it can be a useful tool.
 
+Note that when a placeholder is used for an example, it does not replace the input label, but rather provides clarification.
+
 <div class="usage">
 <div class="item yes">
 
 ##### Yes
 
-- Such as “repo:sourcegraph/sourcegraph”
+- Input label: Search snippet  
+  Placeholder: Such as “repo:sourcegraph/sourcegraph”
 
 </div>
 </div>
