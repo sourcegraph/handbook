@@ -246,7 +246,7 @@ mg --help
 
 > NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
 
-### FQA: How do I generate a password reset link for customer admin?
+### FAQ: How do I generate a password reset link for customer admin?
 
 > For #cloud engineers, run `mg reset-customer-password -email <>` and it will generate a 1password share link for you.
 

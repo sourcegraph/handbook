@@ -169,16 +169,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Jason Gornall"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-117.161148, 33.139469]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Quinn Keast"
             },
             "geometry": {
