@@ -64,3 +64,10 @@ Different trainings must be taken based on location. Visit <a href="preventing-h
    </td>
   </tr>
 </table>
+
+## Preventing Harassment training
+
+All ICs promoted to managers have to take the Preventing Harassment and Discrimination training for managers within their first 6 months as managers. To stay compliant, Sourcegraph adds a second annual roll out in January that only applies to promoted managers:
+
+- All teammates promoted between January and June do the training in June (normal cadence)
+- All teammates promoted between June and January do the training in January - *This does not apply to international teammates as they do not have a manager specific training.*
