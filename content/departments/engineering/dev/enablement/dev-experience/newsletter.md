@@ -21,10 +21,6 @@ TODO JH https://github.com/sourcegraph/sourcegraph/pull/38718
 
 IDEA: Shoutouts to ... who disabled flakes ...
 
-### Development improvement <--- HALP, this needs a better title
-
-**esbuild for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get esbuild in a usable state for Sourcegraph. Doesn't work for everything yet but helps in reducing your development iteration cycle. You can enable it by running `DEV_WEB_BUILDER=esbuild sg start`
-
 ### `sg` goodies
 
 TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
@@ -36,10 +32,6 @@ TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
 ### CI improvements
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
-
-**Build notifications:** We've rolled out new build notifications! What was wrong with the old ones you might ask? Well, they just took you to the build and you were on your own from then on. With the new build notifications, we show what job failed on your build! We provide a link for you to go straight to the jobs output! If that wasn't enough, we've also added a way for you to see all the logs of your build in Grafana. All of this from the comfort of Slack. We've aimed to make the notifications more actionable and also make everyone more aware of flakes and actively encourage them to disable those pesky flakes!
-
-**More annotations!**: We've added a custom Mocha reporter which will upon any E2E and QA test failures generate a annotation on Buildkite with the relevant failures. Now you don't have to doom scroll through a bunch of lines just to find the failures!
 
 ## June 24, 2022
 
