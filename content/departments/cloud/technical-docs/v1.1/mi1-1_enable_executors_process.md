@@ -128,22 +128,6 @@ batches--sourcegraph-executor    us-central1-a  zone   sourcegraph-executors  Ye
 codeintel--sourcegraph-executor  us-central1-a  zone   sourcegraph-executors  Yes      0
 ```
 
-Ensure `minNumReplicas` is greater than `0`
-
-```sh
-$ gcloud compute instance-groups managed describe batches--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
-{
-  "minNumReplicas": 1,
-}
-```
-
-```sh
-$ gcloud compute instance-groups managed describe codeintel--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
-{
-  "minNumReplicas": 1,
-}
-```
-
 Ensure there is an active instance belong to one of the instance group (notes the `batches--sourcegraph-executor-rqfs` instance). Sometimes it may take GCP longer to spawn a new instance, so be patient. If no new instance is created for an unreasonable amount of time, consult GCP documentation for next step.
 
 ```sh
