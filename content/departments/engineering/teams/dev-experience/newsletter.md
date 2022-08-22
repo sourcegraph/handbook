@@ -13,6 +13,10 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
+## Development improvement <--- HALP, this needs a better title and a better place?
+
+**esbuild for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get esbuild in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in sg startup time! You can enable it by running `DEV_WEB_BUILDER=esbuild sg start`.
+
 ## CI News
 
 ## `sg` goodies
