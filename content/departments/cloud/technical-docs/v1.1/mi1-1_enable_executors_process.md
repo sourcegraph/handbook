@@ -139,3 +139,13 @@ sourcegraph-executors-docker-registry-mirror  us-central1-a  n1-standard-2      
 ```
 
 If above all check out, visit the [Compute Engine Console](https://console.cloud.google.com/compute/instances) and check logs of the executor instance for more troubleshooting.
+
+### Troubleshooting executor-dependent features
+
+To check if executors are making progress on available work, consult this [alert](https://docs.sourcegraph.com/admin/observability/alerts#executor-executor-processor-total).
+
+Executor-dependent features (Server Side Batch Changes, Code-Intelligence Auto-indexing) differ in the way they use executors & influence core Sourcegraph experience, for further troubleshooting contact:
+
+- #wg-shipping-executors for general executor questions
+- #code-intel for Code Intelligence auto-indexing questions, [on-call](https://sourcegraph.app.opsgenie.com/teams/dashboard/d0c10593-3edd-4d7e-8d1b-2ad29afeaa71/main)
+- #batch-changes for Server-Side Batch Changes questions, [on-call](TODO)
