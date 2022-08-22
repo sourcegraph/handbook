@@ -68,10 +68,7 @@ At least annually, with regular monitoring throughout the year, Legal assesses t
 - [Checklist - Writing Legal Policies](https://drive.google.com/file/d/1PrLrHt6X7FwDA2G_ZUNCfbM69lHiBkHJ/view?usp=sharing)
 - [Process Overview - PTEP Extensions](https://drive.google.com/file/d/1SX-dYZKKLwQjJzdMdXAXZhvLhEC2oNW6/view?usp=sharing)
 - [Legal Team PTO Guidelines](https://docs.google.com/document/d/1n8Pn2DvvbcTTSCnP-7e2aEy0EXVRrgqHbU2U270x2M4/edit?usp=sharing)
-
-## Outside counsel
-
-Before reaching out to our [outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing), check with us first. We may know the answer to your question or may have already started looking into it. Whenever you reach out to outside counsel, cc your legal POC.
+- [Outside counsel](https://docs.google.com/document/d/1TX1BwRO0GtZLjnhLGoQTdvKrPlHfj5O5S8Xnw418sqo/edit?usp=sharing)
 
 ## What are we up to? FY'23 goals
 
