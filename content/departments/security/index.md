@@ -193,6 +193,15 @@ More detailed description of our responsibilities and what we do, can be found [
 
 ---
 
+## Security Policies
+
+The security team is reponsible for maintaining the following policies:
+
+- [Vulnerability Management Policy](../engineering/dev/policies/vulnerability-management-policy.md)
+- [Security Incident Response Policy](./security-incident-response.md)
+- [Cryptography Policy](./cryptography-policy.md)
+- [Secret Sharing Policy](./secret-sharing-policy.md)
+
 # Misc Links
 
 - [Code Ownership Matrix](../engineering/dev/process/engineering_ownership.md)
