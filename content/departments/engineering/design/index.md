@@ -17,7 +17,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
   - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
   - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
   - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
-- [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Quinn Keast](../../../team/index.md#quinn-keast) Staff Product Designer (he/him) – [ReadMe](https://quinnkeast.com/readme)
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher (she/they)
 
 ### Creative Ops / Brand
