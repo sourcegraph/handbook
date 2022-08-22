@@ -63,7 +63,7 @@ To ensure our compensation is competitive even for people in high-salary/high-co
 
 ### Consistency
 
-We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-talent/people-ops/index.md) before making them.
+We publish and maintain [internal compensation bands](#compensation-bands) for every position we hire for. Recruiters and hiring managers are expected to adhere to these bands for all offers that go out, and to bring any out-of-band offers to [People Ops](../../../departments/people-talent/index.md) before making them.
 
 ### Negotiating should not be needed
 
@@ -83,7 +83,7 @@ As a note, our [Impact reviews](../../../departments/people-talent/people-ops/pr
 
 ## Compensation bands
 
-Internal compensation bands are maintained by the [People Ops](../../../departments/people-talent/people-ops/index.md) team for each department.
+Internal compensation bands are maintained by the [People Ops](../../../departments/people-talent/index.md) team for each department.
 
 - [Sales compensation bands (last updated 2022-01-07)](https://docs.google.com/spreadsheets/d/1o-1__fJY079LioUioLUAJkEZKGJBWijVoP_WtZGNyLk)
 - [Marketing compensation bands (last updated xxxx-xx-xx)](https://docs.google.com/spreadsheets/d/1ER9PvuZxY-V1wP_paRiTKt3Kup9wB60-Dy1m__Taanc)
