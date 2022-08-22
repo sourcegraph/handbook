@@ -16,7 +16,8 @@ There is a #hallway-testing Slack channel to share information and scout partici
 
 When unmoderated user testing is valuable we use [usertesting.com](../tools/index.md#product-design-and-research) to conduct unmoderated user research with a pool of participants sourced by usertesting.com.
 
-> [Read the Sourcegraph guide for conducting research with usertesting.com](./user-testing-com.md)
+- Read the guide for [conducting research with usertesting.com](./user-testing-com.md)
+- Learn about our [Sourcegraph Cloud instance for user research](./user-research-instance.md)
 
 ### Moderated user testing
 
