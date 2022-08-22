@@ -306,7 +306,7 @@ If you’re looking for product usage data for a specific customer(s), below are
 - [Customers by Sourcegraph version](https://sourcegraph.looker.com/looks/718)
 - [Customer seat consumption (MAU/purchased seats)](https://sourcegraph.looker.com/looks/1332?toggle=pik)
 - [Deployment type by customer](https://sourcegraph.looker.com/looks/1317)
-- [Telemetry status by customer](https://sourcegraph.looker.com/looks/1310)
+- [Telemetry status by customer](https://sourcegraph.looker.com/looks/1366)
 - [Code hosts by customer](https://sourcegraph.looker.com/looks/1198)
 - [Total repos by customer](https://sourcegraph.looker.com/looks/1318)
 - [NPS score by customer](https://sourcegraph.looker.com/dashboards/128?Unique+Server+ID=Uber&Time=48+months)
