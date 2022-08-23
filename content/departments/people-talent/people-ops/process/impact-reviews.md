@@ -23,7 +23,7 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 ### Who is eligible?
 
-Teammates who have completed **4-months tenure** by the start of the review period are eligible for an impact review. See the eligibility guidelines for Merit and Promotions further below.
+Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
 ### Who provides feedback?
 
@@ -47,7 +47,7 @@ Results from the semi-annual impact review process support the growth and develo
 
   - Growth & promotion philosophy
     - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
-    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-ladders.md)
+    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
 - [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
@@ -131,7 +131,7 @@ Lattice resources:
 **Manager-to-Direct Report review:**
 
 - **Required questions:**
-  - How has this Teammate’s performance mapped to their career development framework over the past 6 months? To what extent did they meet their commitments?
+  - How has this Teammate’s performance mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
   - What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).
   - How does this person’s behavior align with our values? (Provide 2-3 specific examples).
   - How do you see this person’s role evolving over the next 6 months? What are the key competencies that they should focus on?
@@ -191,9 +191,9 @@ You will receive a Performance Rating and a Values Rating, as well as a written 
 
 ![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.48.49%20PM.png)
 
-### Team 9-box distribution
+### 9-box distribution
 
-We do not stack rank employees but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
+We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
 
 - 20% of Teammates will fall in the **“Top Tier”** (high performance) category.
   - Top Tier score: 1:1, 1:2 or 2:1
@@ -305,13 +305,21 @@ The following criteria support promotions:
 
 ### What is the promotion process & timeline?
 
-We promote in alignment with our Impact Review process, to ensure Teammate growth opportunities are not delayed by extended cadence parameters. There are four core stages to the promotion process: Planning/Calibration, Recommendation- Approvals, Processing & Announcement.
-
-[TABLE COMING SOON]
+We promote in alignment with our Impact Review process, to ensure Teammate growth opportunities are not delayed by extended cadence parameters. There are four core stages to the promotion process: Planning/Calibration, Recommendation-Approvals, Processing & Announcement.
 
 ### How is the merit/promotion budget determined?
 
 The merit and promotion budget is held at the Department Leader-level and allocated as part of the financial planning period. Department Leadership may have to work with Finance to make a business case based on potential tradeoffs if divisions/departments are over/under budget during the calibration cycle.
+
+## Teammate enablement
+
+### How to write a peer review
+
+COMING SOON
+
+### How to write a self review
+
+COMING SOON
 
 ## Teammate FAQ
 
@@ -378,11 +386,13 @@ The below sections are COMING SOON and will be published before the Manager Revi
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-**How to write an effective review**
+## Manager enablement
+
+### How to write an effective review\*\*
 
 COMING SOON
 
-**Examples of a good review**
+### Examples of a good review\*\*
 
 COMING SOON
 

@@ -169,16 +169,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Jason Gornall"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-117.161148, 33.139469]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Quinn Keast"
             },
             "geometry": {
@@ -903,16 +893,6 @@
             "type": "Feature",
             "properties": {
                 "name": "Randell Callahan"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.739235, -104.99025]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Brienne McNally"
             },
             "geometry": {
                 "type": "Point",
