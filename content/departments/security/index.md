@@ -195,7 +195,7 @@ More detailed description of our responsibilities and what we do, can be found [
 
 ## Security Policies
 
-We are responsible for company-wide security policies. You can find them [here](../../company-info-and-process/policies)
+We are responsible for maintaining company-wide security policies. You can find them [here](../../company-info-and-process/policies)
 
 # Misc Links
 
