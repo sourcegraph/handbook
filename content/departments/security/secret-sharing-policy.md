@@ -11,6 +11,6 @@ Within Sourcegraph we use 1Password for managing our credentials. If you want to
 Are the credentials especially sensitive, or do you want them with someone outside of Sourcegraph? Create the credentials in your private Vault and use 1Password to create a sharing link. You can then share that link privately with someone. If only one person is expected to receive the credential, make sure to enable the option to expire the link after 1 view. We also recommend adding the email address of the recipient for extra security.
 
 <div style="text-align: center; margin-bottom: 1rem">
-  <img src="../img/sharing-with-1password.png" width="50%" alt="Sharing an item with 1Password for 1 hour and only 1 view.">
+  <img src="./img/sharing-with-1password.png" width="50%" alt="Sharing an item with 1Password for 1 hour and only 1 view.">
   <p>Sharing an item with 1Password</p>
 </div>
