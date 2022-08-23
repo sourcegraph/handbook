@@ -161,7 +161,7 @@ people-ops@sourcegraph.com
 - Use Sourcegraph’s NDA template using one of the following options:
   - Send our [NDA form](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) via Docusign
     - Watch this [3-minute Powerform NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing) to walk you through how to send out our Powerform NDA via DocuSign.
-  - Send our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
+  - Send our [pre-signed NDA](https://drive.google.com/file/d/1GQn3z-LA42KT7t6mvIRngynmxo_f2rnV/view?usp=sharing)
 
 ### Do I need another internal team to review or approve the NDA before it is signed?
 
