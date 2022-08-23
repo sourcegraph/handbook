@@ -24,7 +24,7 @@ This design club is open to anyone, but is first for the product design team.
 
 ## Design critiques
 
-Our [design critique process](../design_critiques/index.md) is informal right now, and very much project-team based. As a team, we’re planning to define a more structured design critique format and rhythm to better share our work within the design team.
+Our [design critique process](../design_collaboration_review/index.md) is informal right now, and very much project-team based. As a team, we’re planning to define a more structured design critique format and rhythm to better share our work within the design team.
 
 ## Retros
 
