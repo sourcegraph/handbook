@@ -451,3 +451,21 @@ Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400:
 Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
 
 To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
+
+### FAQ: I don't see an option to log-in as sourcegraph admin
+
+This likely means built-in auth-provider has been disabled. To fix this:
+
+- connect to the DB using `mg db`
+- run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
+- if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
+- quit `mg sql`, use `mg reload-config` to make sure frontend picks-up new changes
+
+### FAQ: sourcegraph-admin login credentials are incorrect
+
+This likely means our admin user account was deleted. To verify
+
+- connect to the DB using `mg db`
+- run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
+- if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
+- login should now work correctly
