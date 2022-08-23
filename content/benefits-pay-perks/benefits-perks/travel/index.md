@@ -80,7 +80,7 @@ Consider using this to spend time with teammates from another team, with whom yo
 - This budget is _in addition_ to the other benefits mentioned on this page.
 - Budgets cannot be "mixed and matched", for example you cannot spend $1k from your invidivual team budget in order to add the remaining $1.5k to a team travel.
 
-Share the outcomes of your individual travel with the rest of your team and company 
+Share the outcomes of your individual travel with the rest of your team and company
 
 - Post a recap of what you accomplished in your team Slack channel and cross post in #progress.
 - This will create visibility across the company of what you and other individuals are working on.
