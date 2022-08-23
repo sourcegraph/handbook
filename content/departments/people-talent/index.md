@@ -376,7 +376,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Internship Program](talent/internship/index.md)
 - [Internship Recruiting and Offer Processes](talent/internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
-# The Talent Team
+# The Talent & People Team
 
 [Click here](teamalignment.md) to see Talent Team alignment with each department
 
