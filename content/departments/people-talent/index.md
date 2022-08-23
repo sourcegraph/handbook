@@ -105,7 +105,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Relocation/address changes
 
 - [Moving to a new location](people-talent/people-ops/process/moving.md) SOON
-  -  Changing addresses
+  - Changing addresses
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
