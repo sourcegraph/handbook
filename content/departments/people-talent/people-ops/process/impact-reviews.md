@@ -23,7 +23,7 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 ### Who is eligible?
 
-Teammates who have completed **4-months tenure** by the start of the review period are eligible for an impact review. See the eligibility guidelines for Merit and Promotions further below.
+Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
 ### Who provides feedback?
 
@@ -131,7 +131,7 @@ Lattice resources:
 **Manager-to-Direct Report review:**
 
 - **Required questions:**
-  - How has this Teammate’s performance mapped to their career development framework over the past 6 months? To what extent did they meet their commitments?
+  - How has this Teammate’s performance mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
   - What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).
   - How does this person’s behavior align with our values? (Provide 2-3 specific examples).
   - How do you see this person’s role evolving over the next 6 months? What are the key competencies that they should focus on?
@@ -311,6 +311,16 @@ We promote in alignment with our Impact Review process, to ensure Teammate growt
 
 The merit and promotion budget is held at the Department Leader-level and allocated as part of the financial planning period. Department Leadership may have to work with Finance to make a business case based on potential tradeoffs if divisions/departments are over/under budget during the calibration cycle.
 
+## Teammate enablement
+
+### How to write a peer review
+
+COMING SOON
+
+### How to write a self review
+
+COMING SOON
+
 ## Teammate FAQ
 
 Q. **Are Impact Reviews required for all Teammates?**
@@ -376,11 +386,13 @@ The below sections are COMING SOON and will be published before the Manager Revi
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-**How to write an effective review**
+## Manager enablement
+
+### How to write an effective review\*\*
 
 COMING SOON
 
-**Examples of a good review**
+### Examples of a good review\*\*
 
 COMING SOON
 
