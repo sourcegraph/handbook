@@ -104,7 +104,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Relocation/address changes
 
-- [Moving to a new location](people-talent/people-ops/process/moving.md) SOON
+- [Moving to a new location](people-ops/process/moving.md) SOON
   - Changing addresses
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 
@@ -153,7 +153,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- [How to resign](SOON)
+- [How to resign] (SOON)
 
 ## Resources for Managers
 
