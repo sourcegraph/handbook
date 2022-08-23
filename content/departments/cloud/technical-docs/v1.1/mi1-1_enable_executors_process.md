@@ -148,4 +148,4 @@ Executor-dependent features (Server Side Batch Changes, Code-Intelligence Auto-i
 
 - #wg-shipping-executors for general executor questions
 - #code-intel for Code Intelligence auto-indexing questions, [on-call](https://sourcegraph.app.opsgenie.com/teams/dashboard/d0c10593-3edd-4d7e-8d1b-2ad29afeaa71/main)
-- #batch-changes for Server-Side Batch Changes questions, [on-call](TODO)
+- #batch-changes for Server-Side Batch Changes questions, or ping `@batcher-support` if it's urgent
