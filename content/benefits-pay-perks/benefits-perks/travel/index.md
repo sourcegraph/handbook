@@ -65,10 +65,11 @@ Factor in as much time to spend together during the trip and leave room for solo
 - The budget can be used for online team bonding events if the team prefers. See our [**Remote-friendly team bonding document**](https://docs.google.com/document/d/1tvWXo0nu49yhn7f0lWIHBwCKfTvoSftbN2j7um0joWI/edit?ts=60906da4) for ideas.
 - Visit the [Sample Team Offsites](sample-team-offsites.md) handbook page to view offsite itineraries used by other teams in the past.
 
-Share the outcomes of your team gathering with the rest of the company 
+Share the outcomes of your team gathering with the rest of the company
+
 - Post a recap of what your team accomplished in your team Slack channel and cross post in #progress.
-- This will create visibility across the company of what your team is working on. 
-- Reach out to #internal-comms in Slack if you want your updates to be featured in our company newsletter. 
+- This will create visibility across the company of what your team is working on.
+- Reach out to #internal-comms in Slack if you want your updates to be featured in our company newsletter.
 
 ### 3. Individual travel
 
