@@ -380,6 +380,74 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 ---
 
+**# RESOURCES FOR TEAMMATES
+
+## Teammate enablement
+
+### How to write great feedback\*\*
+We recommend using the the Situation-Behavior-Impact model (SBI) when writing feedback in our 360 Impact Review Cycles to be most effective.
+
+
+**Using SBI**
+The Situation-Behavior-Impact model is simple and direct: You capture and clarify the Situation, describe the specific Behaviors observed, and explain the Impact that the person’s behavior had. Framing feedback in this way makes it specific and actionable. 
+
+**Situation:** the where and when (shaping the context of the feedback)
+
+**Behavior:** the observable action (what you observed directly, not your interpretation)
+
+**Impact:** the so-what (describe the results and impact of the behavior)
+
+
+Below are some examples of both good and bad feedback:
+
+
+**How have this Teammate’s contributions impacted your ability to deliver on your goals?**
+
+**Bad**
+
+Hermione did exceptional work in our collaboration to defeat Lord Voldemort. Hermione is a good leader and she’s able to get things done. I’m constantly impressed when I work with her.
+
+**Good**
+
+Hermione did exceptional work in our collaboration to defeat Lord Voldemort.(Situation:)  When she joined the project, we were blocked trying to figure out how to find the chamber of secrets, and the project was at risk. (Behavior:) Hermione joined the project, came up with the idea of brewing polyjuice potion, researched how to do it, and successfully brewed it autonomously. (Impact:) As a result, the team was able to take the potion, learn the location of the chamber of secrets, and destroy Tom Riddle’s diary successfully. 
+
+
+**What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).**
+
+**Bad**
+
+Ron could be better at listening to others’ ideas. He often interrupts and does what he thinks is best.
+
+**Good**
+
+I would like to see Ron improve at listening to others’ ideas in meetings. (Situation:) While working on the chamber of secrets project, I found a diary that appeared blank, but I suspected had information in it that we could figure out how to access. (Behavior:) When I presented this to the team in our December team meeting, Ron repeatedly interrupted me before I could finish, saying it was obviously blank and we couldn’t use it. (Impact:) This undermined my presentation before I was able to explain my theory, and I was not able to get the team to buy-in. This set the project back three weeks, until I brought it to Harry directly, who was able to see its contents right away.
+
+
+**How does this person’s behavior align with our values? (Provide 2-3 specific examples).**
+
+**Bad**
+
+Harry is great at collaborating with the rest of the Quidditch team and I’d love for him to continue being a team player.
+
+**Good**
+
+Harry stood out in our value of “high agency” and “work as a team” this period. (Situation:) When we started Quidditch practice in October, we lost 5 members of the team, including our captain, to graduation. (Behavior:) Harry took the initiative to set up a recruiting event, run tryouts for the team, and in two weeks successfully staffed the team. This typically takes 6+ weeks. (Impact:) This allowed us to begin practicing together 4 weeks earlier than we would have, and win our first match.
+
+(Situation:) When I joined the team as a Keeper, I had never played Quidditch before. (Behavior:) Harry set up extra practice sessions with me twice per week, and coached me on how to prepare for our match against Slytherin. (Impact:) Because of this, I was able to onboard quickly, and was ready to be our starting Keeper for our first match of the season.
+
+
+**Please share any additional feedback that may help this Teammate grow in their career.**
+
+**Bad**
+
+Harry could really take his spells to the next level by documenting them in the Harry Potter handbook. He should work harder on that.
+
+**Good**
+
+(Situation:)To continue to grow in his career, (Behavior:) Harry can increase his impact by documenting his spells in the Source(rer)graph handbook. (Impact:) Documenting his spells in the handbook will allow new teammates, and his teammates who cast spells in a different time zone, to learn from his work asynchronously, which will increase his impact beyond his 1:1 mentoring sessions.
+
+
+
 The below sections are COMING SOON and will be published before the Manager Review Writing portion
 
 **# RESOURCES FOR MANAGERS**
