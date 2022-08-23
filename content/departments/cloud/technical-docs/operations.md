@@ -469,14 +469,14 @@ service:
 ```
 
 3. Update the corresponding `docker-compose.override.yaml` file to now include the `otel-collector` service and configure all existing services with the correct environment variables. Reference this [pull request enabling otel for `tpgi`](https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/911/files) for an example of all that needs to be modified.
-4. Connect to the manage instance and add the following configuration to the `site-config`:
+4. Connect to the manage instance and add the following configuration to the `site-config` (substituting in the correct GCP Project):
 
 ```json
 
 "observability.tracing": {
   "type": "opentelemetry",
   "sampling": "selective",
-  "urlTemplate": "https://google.com?{{.TraceID}}"
+  "urlTemplate": "https://console.cloud.google.com/traces/list?tid={{ .TraceID }}&project=sourcegraph-managed-$COMPANY"
 }
 ```
 
