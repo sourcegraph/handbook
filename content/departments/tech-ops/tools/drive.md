@@ -31,4 +31,5 @@ Collaborating on files with people outside of Sourcegraph is available to everyo
 To request a domain be added, please post in #it-tech-ops. Domains will be reviewed periodically to ensure they are still active collaborators.
 
 ## Using google service accounts
+
 Please contact Tech Ops for granting access to google drive files for google service accounts. These accounts need to be scoped properly to allow information to be accessed by the service account.
