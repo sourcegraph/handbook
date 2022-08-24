@@ -1,6 +1,6 @@
 ### **Giving great feedback**
 
-Giving great feedback to fellow Teammates is just one of the ways in which we put into practice [Sourcegraph's value of Continuous Growth](company-info-and-process/values.md). On this page, you'll find suggestions on how to deliver clear, actionable feedback. We recommend using the Situation-Behavior-Impact (SBI) model when crafting 360 reviews.
+Giving great feedback to fellow Teammates is just one of the ways in which we put into practice Sourcegraph's value of Continuous Growth. On this page, you'll find suggestions on how to deliver clear, actionable feedback. We recommend using the Situation-Behavior-Impact (SBI) model when crafting 360 reviews.
 
 This page contains guidance on:
 
