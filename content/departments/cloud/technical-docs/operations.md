@@ -28,7 +28,7 @@ Below we will install `mg` CLI. `mg` simlifies operation on MI and releases the 
 mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
 
-# ZSH users: echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
+# ZSH users: echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
 # you need ensure our `mg` binary has the highest priority in $PATH
 # otherwise if will conflict with the `mg` emacs editor 😢
 echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
@@ -429,6 +429,59 @@ Navigate to GCP Logging in the right project, use the following query. This is h
 resource.type="gce_instance"
 protoPayload.authenticationInfo.principalEmail="system@google.com"
 ```
+
+### Enabling GCP Cloud Tracing on Managed Instances
+
+As part of the [Centralised Observability](https://github.com/sourcegraph/customer/issues/1151) efforts we will be enabling GCP Cloud Tracing on all Managed Instances.
+
+To enable GCP Cloud Tracing on an existing instance, follow these instructions for deploying the `opentelemetry-collector` service:
+
+1. `cd` into the desired customer directory and into the deployment folder (`red` or `black`).
+2. Create a new directory called `otel-collector` and within it a folder called `config.yaml` with the following contents:
+
+```yaml
+receivers:
+  otlp:
+    protocols:
+      grpc:
+
+exporters:
+  jaeger:
+    endpoint: '$JAEGER_HOST:14250'
+    tls:
+      insecure: true
+  googlecloud:
+    retry_on_failure:
+      enabled: false
+
+extensions:
+  health_check:
+    port: 13133
+  zpages:
+    endpoint: 'localhost:55679'
+
+service:
+  extensions: [health_check, zpages]
+  pipelines:
+    traces:
+      receivers: [otlp]
+      exporters: [jaeger, googlecloud]
+```
+
+3. Update the corresponding `docker-compose.override.yaml` file to now include the `otel-collector` service and configure all existing services with the correct environment variables. Reference this [pull request enabling otel for `tpgi`](https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/911/files) for an example of all that needs to be modified.
+4. Connect to the manage instance and add the following configuration to the `site-config` (substituting in the correct GCP Project):
+
+```json
+
+"observability.tracing": {
+  "type": "opentelemetry",
+  "sampling": "selective",
+  "urlTemplate": "https://console.cloud.google.com/traces/list?tid={{ .TraceID }}&project=sourcegraph-managed-$COMPANY"
+}
+```
+
+5. Run `mg sync artifacts` and when complete, restart the instance.
+6. Verify on GCP that traces delivered via `HTTP POST` are now available.
 
 ## Disaster Recovery and Business Continuity Plan
 
