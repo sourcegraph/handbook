@@ -18,10 +18,10 @@ Sustaining and giving back to the open source community, and encouraging open so
 
 #### FOSS Contributor Fund
 
-* Our go-to funding platform is [Open Collective](https://opencollective.com/sourcegraph)
-* If you want to nominate a project:
-  * **Sourcegraphers**: [use this spreadsheet](https://docs.google.com/spreadsheets/d/1kbZjAkgYM3gzaMQ8Bma4dFpwJct4FaMUriPcnDU-KFg/edit#gid=0) and mention/tag Justin Dorfman.
-  * **Community members**: Join our [Discord Server](https://srcgr.ph/discord) and ask in `#general` or DM Justin Dorfman.
+- Our go-to funding platform is [Open Collective](https://opencollective.com/sourcegraph)
+- If you want to nominate a project:
+  - **Sourcegraphers**: [use this spreadsheet](https://docs.google.com/spreadsheets/d/1kbZjAkgYM3gzaMQ8Bma4dFpwJct4FaMUriPcnDU-KFg/edit#gid=0) and mention/tag Justin Dorfman.
+  - **Community members**: Join our [Discord Server](https://srcgr.ph/discord) and ask in `#general` or DM Justin Dorfman.
 
 ### Events and Conferences
 
@@ -31,8 +31,8 @@ Playing an active role in broadening our reach in the community, building authen
 
 ### Team
 
-* Beyang Liu (CTO)
-* Justin Dorfman (Open Source Program Manager)
+- Beyang Liu (CTO)
+- Justin Dorfman (Open Source Program Manager)
 
 {{generator:reporting_structure.director_community}}
 
@@ -51,6 +51,6 @@ Can be found in our [Discord Server](https://srcgr.ph/discord).
 
 ### Read more
 
-* [How to become a Sourcegraph Champion](becoming_a_sourcegraph_champion.md)
-* [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
-* [Adding a community landing page](oss_community_pages.md)
+- [How to become a Sourcegraph Champion](becoming_a_sourcegraph_champion.md)
+- [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
+- [Adding a community landing page](oss_community_pages.md)
