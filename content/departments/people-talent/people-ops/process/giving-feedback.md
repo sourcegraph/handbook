@@ -4,9 +4,11 @@ Giving great feedback to fellow Teammates is just one of the ways in which we pu
 
 This page contains guidance on:
 
-- [Writing effective peer reviews](###Writing-effective-peer reviews)
-- [Writing an effective self review](###Writing-an-effective-self-review)
-- [Writing effective ](###Writing-an-effective-Manager-to-Teammate-review)
+- [Writing effective peer reviews](#writing-effective-peer-reviews)
+- [Writing an effective self review](#writing-an-effective-self-review)
+- [Writing effective Manager-to-Teammate reviews]/#writing-effective-manager-to-teammate-reviews)
+
+
   For more examples on utilizing the SBI model to deliver great feedback, click [here](https://docs.google.com/document/d/1R6c78xV9GpMdOX3jnZBg7GxUbcPJcABfJgUsdpU-m-U/edit?usp=sharing).
 
 ### Writing effective peer reviews
@@ -65,7 +67,7 @@ For example, **_(Situation:)_** I worked on the Chamber of Secrets project with 
 
 **Example Answer:** In the next six months, I would like to successfully cast the Patronus spell. **_(Situation:)_** Dementors are going to take over the school and will be a problem for me and my friends. **_(Behavior:)_** I will reach out to Professor Lupin for help with casting, and perfecting, the spell. **_(Impact:)_** The Patronus spell will help us defend ourselves, should the need arise.
 
-### Writing an effective Manager-to-Teammate review
+### Writing effective Manager-to-Teammate reviews
 
 People leaders at Sourcegraph play a vital role in shaping the experiences of their team members. While we encourage Managers to provide continuous feedback throughout the year, whether it be via Regular 1:1s or Career Conversations, our bi-annual 360 Impact Review Cycle provides a great opportunity where in-depth, formal feedback can be provided both ways: Teammate-to-Manager, as well as Manager-to-Teammate.
 
@@ -76,6 +78,8 @@ SBI is a straightforward model with three simple components:
 - **Situation:** the where and when (shaping the context of the feedback)
 - **Behavior:** the observable action (what you observed directly, not your interpretation)
 - **Impact:** the so-what (effect on emotion and work)
+
+An additional benefit to utilizing the SBI model is that Managers will be better prepared when we enter Stage 4 of the Impact Review Cycle. The written Manager-to-Teammate review will provide the necessary support to justify a Manager’s rating of an individual’s performance by providing clear evidence of work that supports their rating.
 
 To assist Managers through the review writing process, we have provided several examples below on how a Manager might utilize the SBI model to deliver the most meaningful and impactful review to a team member.
 
