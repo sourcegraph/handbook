@@ -1,4 +1,12 @@
-# Internship Recruiting and Offer Processes
+# Internship Program - Planning, Recruiting, and Offer Processes
+
+## Internship Program Planning
+
+The documents below outline the entire 2022 process of creating, preparing, and running the internship program, as well as the retrospective data gained from learnings, stakeholder feedback, and recruiting data. These documents will be used to prepare and run future internship programs.
+- [How to plan and run a Sourcegraph internship program](https://docs.google.com/document/d/1sq4ICbt7wOMT-_HijuW7fiJI3GwuvVpEDpF6R6THDXs/edit#heading=h.1mc5ogfsb23s)
+- [2022 Internship Retro Data](https://docs.google.com/presentation/d/1blAckjeTbjGjr99xK4nqweZ8y2GK7qiMS59FYPZOCQM/edit?usp=sharing)
+
+## Internship Recruiting Process
 
 The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
@@ -74,6 +82,8 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 ### Identifying Candidates
 
 Information on where we find our candidates can be found [here.](../process/identifying_candidates.md#where-we-find-our-candidates)
+
+## Internship Offer Process
 
 ### Extending an Internship Offer
 
