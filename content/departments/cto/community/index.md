@@ -16,6 +16,13 @@ Creating educational content such as tutorials and career-improvement guides wit
 
 Sustaining and giving back to the open source community, and encouraging open source contributions.
 
+#### FOSS Contributor Fund
+
+* Our go-to funding platform is [Open Collective](https://opencollective.com/sourcegraph)
+* If you want to nominate a project:
+  * **Sourcegraphers**: [use this spreadsheet](https://docs.google.com/spreadsheets/d/1kbZjAkgYM3gzaMQ8Bma4dFpwJct4FaMUriPcnDU-KFg/edit#gid=0) and mention/tag Justin Dorfman.
+  * **Community members**: Join our [Discord Server](https://srcgr.ph/discord) and ask in `#general` or DM Justin Dorfman.
+
 ### Events and Conferences
 
 Playing an active role in broadening our reach in the community, building authentic relationships, mindsharing and planting seeds to foster healthy conversations and connections with the community.
