@@ -2,7 +2,7 @@
 
 At Sourcegraph, our mission is to make it so [everyone can code](../../../strategy-goals/strategy#purpose). The community relations team supports our mission by implementing community outreach programs, organizing events, and supporting our community’s contributions to Sourcegraph. The team’s ultimate goal is to contribute to understanding and smooth collaboration within our community.
 
-## Our team runs:
+## What we do
 
 ### Developer Evangelism
 
@@ -20,23 +20,29 @@ Sustaining and giving back to the open source community, and encouraging open so
 
 Playing an active role in broadening our reach in the community, building authentic relationships, mindsharing and planting seeds to foster healthy conversations and connections with the community.
 
-## Team
+---
+
+### Team
+
+* Beyang Liu (CTO)
+* Justin Dorfman (Open Source Program Manager)
 
 {{generator:reporting_structure.director_community}}
 
-## Contact
+### Contact
 
 **Chat with us** in our [Discord Server](https://srcgr.ph/discord). <br/>
 **Email us** at [community@sourcegraph.com](mailto:community@sourcegraph.com).
 
-## Code of Conduct
+### Code of Conduct
 
 [Code of Conduct](../../../company-info-and-process/communication/code_of_conduct.md)
 
-## Community calendars
+### Community calendars
 
 Can be found in our [Discord Server](https://srcgr.ph/discord).
-## Read more
+
+### Read more
 
 - [How to become a Sourcegraph Champion](becoming_a_sourcegraph_champion.md)
 - [Public projects using Sourcegraph](public_projects_using_sourcegraph.md)
