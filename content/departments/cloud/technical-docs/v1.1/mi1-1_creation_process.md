@@ -25,6 +25,8 @@ For basic operations like accessing an instance for these steps, see [managed in
 
   or via [GithubAction web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
 
+  Important: GithubAction is `idempotent`, so can be safely re-run multiple times.
+
 1. PR will be open automatically with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository.
 1. Enable metrics collection and GCP alerts for the new instance:
 
