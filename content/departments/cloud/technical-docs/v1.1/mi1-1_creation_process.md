@@ -64,10 +64,6 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
 1. Commit all changes
-1. Enable metrics collection and GCP alerts for the new instance:
-
-   - cd `monitoring`
-   - run `terraform apply`
 
 1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
 
