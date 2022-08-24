@@ -8,7 +8,6 @@ This page contains guidance on:
 - [Writing an effective self review](#writing-an-effective-self-review)
 - [Writing effective Manager-to-Teammate reviews]/#writing-effective-manager-to-teammate-reviews)
 
-
   For more examples on utilizing the SBI model to deliver great feedback, click [here](https://docs.google.com/document/d/1R6c78xV9GpMdOX3jnZBg7GxUbcPJcABfJgUsdpU-m-U/edit?usp=sharing).
 
 ### Writing effective peer reviews
