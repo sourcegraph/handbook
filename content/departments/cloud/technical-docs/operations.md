@@ -240,24 +240,6 @@ Next you need to `scp` this from the instance:
 
 Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
 
-### Deploy new images across all instances
-
-Use case: you would like to roll out a new images to all instances
-
-- Open a PR to update the golden file and merge it
-- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
-- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
-
-### Update application config across all instances
-
-Use case: you would like to update site-config for all instances
-
-- Open a PR to update `mg` codes with the right configuration
-- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
-- Click `Run workflow` and it will run `mg sync` on each instance
-
-> This action also runs every 24h to ensure all instances config are correct
-
 ## Changing the instance
 
 <span class="badge badge-note">SOC2/CI-98</span>
@@ -482,6 +464,43 @@ service:
 
 5. Run `mg sync artifacts` and when complete, restart the instance.
 6. Verify on GCP that traces delivered via `HTTP POST` are now available.
+
+### Deploy new images across all instances
+
+Use case: you would like to roll out a new images to all instances
+
+- Open a PR to update the golden file and merge it
+- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+
+### Update application config across all instances
+
+Use case: you would like to update site-config for all instances
+
+- Open a PR to update `mg` codes with the right configuration
+- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+- Click `Run workflow` and it will run `mg sync` on each instance
+
+> This action also runs every 24h to ensure all instances config are correct
+
+### Make global changes to docker-compose.yaml across all deployment
+
+Use case;
+
+- Configure default `cpus` of `gitserver` for all instances
+- Use a custom `prometheus` image for all instances
+
+The `docker-compose.yaml` of each custom deployment artifacts is a symlink to `golden/docker-compose.$version.yaml`. The golden file is merged from the upstream file from [sourcegraph/deploy-sourcegraph-docker] and global override files at [golden/overrides](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/golden/overrides).
+
+The global override files are separated into different files by purpose. When adding a new override, you should consider whether you should create a new one or append your override in an existing file. Upon updating the global override files, you should run the command below to update the golden files. The `update-golden` command will pull the target file from upstream, then merge it with every global override files.
+
+> NOTES: you should never edit the golden files manually, let `mg` CLI to do the work
+
+```sh
+mg update-golden -target $version
+```
+
+Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
 
 ## Disaster Recovery and Business Continuity Plan
 
