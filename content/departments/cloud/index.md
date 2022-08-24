@@ -74,7 +74,7 @@ The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/
 
 ## How to contact the team and ask for help
 
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for devops`.
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud`.
 - For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
 - For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
 
