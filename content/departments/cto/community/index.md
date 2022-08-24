@@ -26,7 +26,7 @@ Playing an active role in broadening our reach in the community, building authen
 
 ## Contact
 
-**Chat with us** in the #community-relations Slack channel, or by tagging @community. <br/>
+**Chat with us** in our [Discord Server](https://srcgr.ph/discord). <br/>
 **Email us** at [community@sourcegraph.com](mailto:community@sourcegraph.com).
 
 ## Code of Conduct
@@ -35,8 +35,7 @@ Playing an active role in broadening our reach in the community, building authen
 
 ## Community calendars
 
-[Sourcegraph events and sponsorships](https://calendar.google.com/calendar/u/0?cid=Y184bnRwamprbjI0Y3IzY2g2NTY2dHQyNTNmc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-
+Can be found in our [Discord Server](https://srcgr.ph/discord).
 ## Read more
 
 - [How to become a Sourcegraph Champion](becoming_a_sourcegraph_champion.md)
