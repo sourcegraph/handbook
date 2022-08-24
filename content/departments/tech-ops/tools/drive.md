@@ -10,7 +10,7 @@ There are several ways to share documents within Google Drive.
 - **Sourcegraph**: Anyone with an @sourcegraph email can access the document with the link to the file. Collaborators can include anyone with an @sourcegraph email address or any user from an allowlisted domain. This setting is standard to all Sourcegraph accounts.
 - **Anyone with the link** : Anyone with the link can access the document. This should be restricted to only files that can be shared publicly and do not contain any sensitive teammate or client information. This permission is limited to our publicly shared folders only.
 
-All setting allow you to set whether people can edit, view, or comment on a file.
+From each of these sharing levels you can set how you want collaborates to interact with the file (edit, view, or comment). More information about getting started with Google Drive can be found [here.](https://support.google.com/a/users/answer/9310248?hl=en)
 
 ## My Drive
 
@@ -29,3 +29,6 @@ If you have a set of documents to be shared publicly, Tech Ops will create a dri
 Collaborating on files with people outside of Sourcegraph is available to everyone through the use of allowlists. Any folder or file can be shared with people at an organization whose domain has been added to our allowlist. After adding an email account, Drive will either allow the invite to be sent (meaning the domain is already on the allowlist) or else Drive will send a warning stating that this domain is not on our allowlist.
 
 To request a domain be added, please post in #it-tech-ops. Domains will be reviewed periodically to ensure they are still active collaborators.
+
+## Using google service accounts
+Please contact Tech Ops for granting access to google drive files for google service accounts. These accounts need to be scoped properly to allow information to be accessed by the service account.
