@@ -366,9 +366,12 @@ Q. **Is Impact Review training available for Managers and Teammates?**
 Q. **How should Teammates prepare to participate in an Impact Review?**
 
 - Some basic tips for preparation include:
+
   - Keep notes on accomplishments, feedback, training, and challenges throughout the review period
   - Review your team career frameworks and solicit feedback from cross-functional partners
   - Prepare discussion points for the Impact Review conversation
+
+- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 Q. **Will my Impact Review be negatively impacted if I do not answer the optional questions?**
 
@@ -380,7 +383,7 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 ---
 
-The below sections are COMING SOON and will be published before the Manager Review Writing portion
+The below sections are IN PROGRESS and will be published before the Manager Review Writing portion
 
 **# RESOURCES FOR MANAGERS**
 
@@ -390,11 +393,7 @@ The below sections are COMING SOON and will be published before the Manager Revi
 
 ### How to write an effective review\*\*
 
-COMING SOON
-
-### Examples of a good review\*\*
-
-COMING SOON
+We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 **What comes after review writing**
 
