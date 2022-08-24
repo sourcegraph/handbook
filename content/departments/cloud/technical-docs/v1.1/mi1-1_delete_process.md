@@ -120,7 +120,7 @@ gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "da
 ## Remove the GCP Project
 
 ```
-cd $CUSTOMER/projects
+cd $CUSTOMER/project
 ```
 
 ```
