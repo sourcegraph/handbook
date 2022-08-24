@@ -61,17 +61,12 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 ## Roadmap
 
-The Cloud team will define FY23 roadmap in upcoming weeks.
+The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/d/1H01OTNxXb2eobXLtgypJueVxqSz8Dh0IkgY9x5F8cBg/edit#gid=0).
 
-### Q2FY23 goals
+### Q3FY23 goals
 
-- Support up to 100 managed instances [without greatly increasing engineering capacity invested in maintenance](https://docs.google.com/document/d/1SvWVScwBtLdrvoVKB4tgSiqhv3MPBDjv6JbwqGnlLdg/edit#)
-  - [Migrate all managed instances to v 1.1 architecture](https://docs.google.com/document/d/1ZHOnZc6K0oLhnqbcFYyzvdqng2ZM4vhc8Ln20Q4piQ0/edit#heading=h.trqab8y0kufp)
-- Provision sourcegraph.sourcegraph.com as production grade managed instance for Sourcegraph team
-- [Support migration Sourcegraph.com customers to the Cloud](https://docs.google.com/document/d/1owIo8QA_omwnFqSfS5EKyIhd4SpMDdn7cZJrsvgjl-E/edit#heading=h.2vev9l6i9qrg)
-- Support SOC2 audit for managed instances
-- Enabling managed instances trials (limited capacity)
-- Finalize design & implementation plan of [RFC 706](https://docs.google.com/document/d/1pPS3xzv4pI5ZlliPrr1tkoOtvn-ZWxKVdYfNNHKVPHs/edit)
+- Support the initiative to [make the Cloud a preferred deployment method](https://docs.google.com/document/d/1IUFb2JkwqdLCf8B-FkiF40PyAFg50xfWnB6gQO2ViRQ/edit) from the platform and infrastructure perspective
+- [Cloud v2](https://docs.google.com/document/d/1GiOPJjuYrUahrZnENSLUCsujo2MCu2v_gw23SKNzE6E/edit#) - migrate current the Cloud (managed instances) from single-VM, Docker Compose based architecture to multi-node, GKE based architecture
 
 ## Team
 
