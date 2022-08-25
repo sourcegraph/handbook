@@ -23,7 +23,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 ### Creative Ops / Brand
 
 - [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
-- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (she/her)
+- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (they/them)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
