@@ -8,7 +8,7 @@ The CEO Shadow Program typically lasts between 1 and 5 business days (1 business
 
 ## Goal and intention of the program
 
-The overarching goal of the CEO Shadow program is to give [eligible teammates](ceo-shadow-program.md#eligibility) broad exposure to every possible facet of the business while working directly with the CEO on a more personal level. 
+The overarching goal of the CEO Shadow program is to give [eligible teammates](ceo-shadow-program.md#eligibility) broad exposure to every possible facet of the business while working directly with the CEO on a more personal level.
 
 ## What the CEO shadow program is NOT
 
@@ -33,10 +33,9 @@ Examples of typical tasks and responsibilities of a CEO Shadow:
 Are you curious about how other shadow's experiences? Hear from them yourself about their experiences and takeaways.
 
 - Joel Kwalter (June 8th - 9th)
-- [Murat Sutunc (July 25th)](https://docs.google.com/document/d/131nAu5J6fLv9c_2CWONimjBe0JNfAHXjDAYwDv9OOpc/edit): Great tips / advice on how to maximize your time and what to expect. 
+- [Murat Sutunc (July 25th)](https://docs.google.com/document/d/131nAu5J6fLv9c_2CWONimjBe0JNfAHXjDAYwDv9OOpc/edit): Great tips / advice on how to maximize your time and what to expect.
 - Rok Novosel (upcoming August 10th - 11th)
 - [Alex Isken (upcoming August 22nd - 26th)]()
-
 
 ## Eligibility & Participation
 
