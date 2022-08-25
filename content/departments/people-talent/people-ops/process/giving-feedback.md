@@ -1,4 +1,4 @@
-### **Giving great feedback**
+### Giving great feedback
 
 Giving great feedback to fellow Teammates is just one of the ways in which we put into practice Sourcegraph's value of Continuous Growth. On this page, you'll find suggestions on how to deliver clear, actionable feedback. We recommend using the Situation-Behavior-Impact (SBI) model when crafting 360 reviews.
 
@@ -6,9 +6,9 @@ This page contains guidance on:
 
 - [Writing effective peer reviews](#writing-effective-peer-reviews)
 - [Writing an effective self review](#writing-an-effective-self-review)
-- [Writing effective Manager-to-Teammate reviews]/#writing-effective-manager-to-teammate-reviews)
+- [Writing effective Manager-to-Teammate reviews](#writing-effective-manager-to-teammate-reviews)
 
-  For more examples on utilizing the SBI model to deliver great feedback, click [here](https://docs.google.com/document/d/1R6c78xV9GpMdOX3jnZBg7GxUbcPJcABfJgUsdpU-m-U/edit?usp=sharing).
+For more examples on utilizing the SBI model to deliver great feedback, click [here](https://docs.google.com/document/d/1R6c78xV9GpMdOX3jnZBg7GxUbcPJcABfJgUsdpU-m-U/edit?usp=sharing).
 
 ### Writing effective peer reviews
 
