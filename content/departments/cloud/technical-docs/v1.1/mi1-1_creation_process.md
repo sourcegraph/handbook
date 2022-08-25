@@ -28,13 +28,10 @@ For basic operations like accessing an instance for these steps, see [managed in
   Important: GithubAction is `idempotent`, so can be safely re-run multiple times.
 
 1. PR will be open automatically with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository.
-1. Enable metrics collection and GCP alerts for the new instance:
-
-   - cd `monitoring`
-   - run `terraform apply`
-
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
+
+Note: GCP metrics monitoring and alerting is applied automatically via scheduled [GithubAction](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 
 ## Optional: customise instance size
 
