@@ -21,6 +21,26 @@ _All teammates should join these channels and check them regularly_
 
 If you'd like to add a channel to the company-wide list, please reach out to the Tech Ops team in #it-tech-ops.
 
+### Slack Retention
+
+Slack is not a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth) which means important updates that may be shared in Slack should be reflected in a [source of truth](https://sourcegraph.com/github.com/sourcegraph/handbook@2f4a8affc57038a0bf149f296581cb8cacde57d1/-/blob/content/company-info-and-process/communication/index.md#sources-of-truth). To enforce this, only 90 days of Slack activity in public channels is retained. Consider using the “bookmark” feature in Slack to make relevant documents and sources of truth easily accessible in channels. 
+
+**Important:** You must notify Tech Ops (in #Tech-Ops) when you create a new channel requiring an exception to the default 90-day rule (even if it falls into an existing exception). **We have no way to know when new channels requiring an exception are created.** Exception requests will be reviewed and approved on a case-by-case basis.
+
+Exceptions to the 90-day rule include the following channels:
+
+- #security-monitoring retains messages for 5 years for auditing purposes in our security monitoring tooling.
+- #customer-updates similarly retains messages for two years because a lot of customer context ends up in Slack threads and it is not currently practical to move that to another system of record.
+- #feedback retains messages for 5 years because it provides a good source of user testimonials.
+- #engaging-external-engineers retains for 5 years because team chat is the easiest way to solicit advice from our broader team, and the questions are usually one-off, so it wouldn’t make sense to try to make this more organized.
+- #it-tech-ops retains messages for 5 years to provide a source of education for new teammates as well as provide a record of changes made to our internal systems
+- #sales-prospecting retains for 5 years to support the education of new teammates about how to communicate with customers and prospects.
+- #west_sales_news_and_prospecting and #east_sales_news_and_prospecting retain messages for 5 years to serve as libraries of start-up accounts that the sales team can target as AE and SDR headcount scales.
+- #sales-resources retains messages for 5 years to serve as a library of quickly evolving sales collateral and tools.
+- Channels that we share with customers or prospects (typically containing the prefixes #trial- or #support-) retain messages for 5 years to preserve context for support or audit-related purposes.
+- #marketintel retains messages for 5 years to keep a long-term overview of market information around the field of developer tools.
+- #seo retains messages for 5 years to keep a record of historical SEO efforts, numbers & screenshots, etc.
+
 ### Use of private channels
 
 By default all Slack channels are public. This is in line with our company's[ value to be open and transparent](../values/index.md#open-and-transparent) and facilitates collaboration and [async learning](asynchronous-communication.md). Any member of the Sourcegraph workspace (but not guests) can view and join a public channel, giving everyone access to the same shared information. However, we understand that not everything discussed between team members should be public and there is a need for private channels. Private channels are for conversations that should not be open to all members. People must be added to a private channel by someone who’s already a member of the channel. Messages or files posted in a private channel can only be searched by members of that channel.
