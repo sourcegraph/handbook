@@ -25,6 +25,11 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
+- **1st review (Q1) eligibility rule**
+  - Must be hired on or before October 1st of the prior calendar year
+- **2nd review (Q3) eligibility rule**
+  - Must be hired on or before April 1st of the current calendar year
+
 ### Who provides feedback?
 
 During an Impact Review, you will be asked to give and receive the following reviews.
@@ -313,13 +318,13 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 ## Teammate enablement
 
-### How to write a peer review
+### Writing effective feedback & self reviews
 
-COMING SOON
+Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
-### How to write a self review
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
-COMING SOON
+Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
 
 ## Teammate FAQ
 
