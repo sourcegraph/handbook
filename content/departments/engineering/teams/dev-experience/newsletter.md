@@ -21,6 +21,8 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ## `sg` goodies
 
+**Finding builds or logs by commit**: Ever wanted to look at the build of a particular commit? Not in the mood to go through all the pages of Buildkite? You don't have to anymore! With `sg ci status` you can now pass it a `--commit` flag and it will do all the detective work for you. `sg ci logs` also accepts the `--commit` flag so you can now easily look at the logs of a build for a particular commit too!
+
 **Inspect main branch tags with `sg ops inspect-tag`**: We've added a new subcommand named `inspect-tag` which allows you to inspect main branch tags. For example you can now inspect the image with `sg ops inspect-tag index.docker.io/sourcegraph/cadvisor:159625_2022-07-11_225c8ae162cc@sha256:foobar` or get the build number with `sg ops inspect-tag -p build 159625_2022-07-11_225c8ae162cc`. For more examples and other options see `sg ops inspect-tag --help`.
 
 **Update images in Docker compose manifests with `sg ops update-images`**: `update-images` has been updated and can now update docker compose manifests with `sg ops update-images -k compose`. With `compose` entering the fold, `sg ops update-images` is now able to update images in three different formats namely `k8s`, `helm` and `compose`.
