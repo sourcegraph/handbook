@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is an overview of the CEO Shadow Program. Please feel free to contact the [Chief of Staff](mailto:connor.obrien@sourcegraph.com) or [Executive Business Partner to the CEO](mailto:sally.voisen@sourcegraph.com) with any questions, comments, feedback, or concerns.
+This is an overview of the CEO Shadow Program. Please feel free to contact the Chief of Staff @Connor O'Brien on slack or ping the #ceo-shado slack channel with any questions, comments, feedback, or concerns.
 
-The CEO Shadow Program could run as short as 1 day or as long as 1 week. It is a temporary rotation for all [eligible employees](https://github.com/sourcegraph/handbook/blob/main/ceo-shadow-program.md#eligibility) where they are provided the opportunity to learn about the various functions of Sourcegraph from the perspective of the CEO. As part of the rotation, the CEO Shadow can expect to:
+The CEO Shadow Program typically runs between 1 - 5 business days. It is a temporary rotation for all [eligible employees](/ceo-shadow-program.md#eligibility) where they are provided the opportunity to learn about the various functions of Sourcegraph from te perspective of the CEO. As part of the rotation, the CEO Shadow can expect to:
 
 - Interact with every function of the business.
 - Act as a “thoughtful sounding board” to the CEO.
