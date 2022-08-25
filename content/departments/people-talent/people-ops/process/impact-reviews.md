@@ -313,13 +313,12 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 ## Teammate enablement
 
-### How to write a peer review
+### How to write an effective peer & self review
 
-COMING SOON
+We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md. On this page you'll find guidance on using SBI to give clear feedback, as well as examples of SBI in action. 
 
-### How to write a self review
+Stuck? Not sure where to start? Your manager is also an excellent resource for writing a self review or feedback for your Teammates. 
 
-COMING SOON
 
 ## Teammate FAQ
 
