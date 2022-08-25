@@ -21,11 +21,35 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ## `sg` goodies
 
-TODO jh https://github.com/sourcegraph/sourcegraph/pull/38012
+**Inspect main branch tags with `sg ops inspect-tag`**: We've added a new subcommand named `inspect-tag` which allows you to inspect main branch tags. For example you can now inspect the image with `sg ops inspect-tag index.docker.io/sourcegraph/cadvisor:159625_2022-07-11_225c8ae162cc@sha256:foobar` or get the build number with `sg ops inspect-tag -p build 159625_2022-07-11_225c8ae162cc`. For more examples and other options see `sg ops inspect-tag --help`.
+
+**Update images in Docker compose manifests with `sg ops update-images`**: `update-images` has been updated and can now update docker compose manifests with `sg ops update-images -k compose`. With `compose` entering the fold, `sg ops update-images` is now able to update images in three different formats namely `k8s`, `helm` and `compose`.
+
+**Commands in `sg.config.overwrite.yml` should no longer cause as much headache**: Thorsten has fixed an issue that many have felt the pain of! We've all added a custom command in `sg.config.overwrite.yml` only for `go run generate` to come along and ruin our dreams. Thorsten, having been bitten by this one too many times, landed a fix for this by adding a flag `-disable-overwrite` to sg which is passed to sg when `go run generate` runs to generate the `reference.md` file. Due to the nature of the fix, there is nothing for you to do!
 
 **Build annotations, in your terminal!**: Ever wanted to check the status of your build in your terminal, but couldn't see those nice little dialogues (annotations) at the top your build showing that test that failed and other helpful links? Well those days are gone! When you check the status of your build with `sg ci status` it will now also print any annotation that is present on your build!
 
-TODO jh describe's @keegan stuff here https://github.com/sourcegraph/sourcegraph/pull/39231
+**Multi user Auth testing just got a whole lot easier**: Keegan recently added a `http-header` auth-proxy that creates a few users and exposes each user on a different port locally. By accessing Sourcegraph through these ports you are **authenticated as that user**. To use it run `go run dev/internal/cmd/auth-proxy-http-header.go`. Words don't do it justice so below is some output of it in action! For more information on how authentication happens [please see the docs](https://docs.sourcegraph.com/admin/auth#http-authentication-proxies).
+
+```bash
+go run auth-proxy-http-header.go
+https://docs.sourcegraph.com/admin/auth#http-authentication-proxies
+
+  "auth.providers": [
+    {
+      "type": "http-header",
+      "usernameHeader": "X-Forwarded-User",
+      "emailHeader": "X-Forwarded-Email"
+    }
+  ]
+
+Visit http://127.0.0.1:10810 for william william@sourcegraph.com
+Visit http://127.0.0.1:10811 for user1 william+user1@sourcegraph.com
+Visit http://127.0.0.1:10812 for user2 william+user2@sourcegraph.com
+Visit http://127.0.0.1:10813 for user3 william+user3@sourcegraph.com
+Visit http://127.0.0.1:10814 for user4 william+user4@sourcegraph.com
+Visit http://127.0.0.1:10815 for user5 william+user5@sourcegraph.com
+```
 
 ## CI improvements
 
