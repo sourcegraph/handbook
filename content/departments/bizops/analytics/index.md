@@ -87,6 +87,7 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 When adding a user to Looker, they need to be in both the group and role:
 
 - Engineering, marketing, customer support, people ops, talent, CTO users = View
-- CE, sales, product users = ‘All internal users, view and edit’
+- CE, sales, product users = View
 - Any other teams not listed should default to 'View'
 - Generally, CE, sales, product, customer support, engineering, CTO, and marketing receive accounts when joining the company
+- Reach out to #analytics channel if you need elevated permissions - to create content, for example.
