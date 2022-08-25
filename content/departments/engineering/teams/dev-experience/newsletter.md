@@ -15,7 +15,7 @@ As a reminder, you can check out previous iterations of the newsletter in the [n
 
 ## Frontend news
 
-**esbuild for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get esbuild in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in sg startup time! You can enable it by running `DEV_WEB_BUILDER=esbuild sg start`.
+**`esbuild` for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get `esbuild` in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in sg startup time! You can enable it by running `DEV_WEB_BUILDER=`esbuild` sg start`. For more information on `esbuild` please see [the following docs.](https://docs.sourcegraph.com/dev/background-information/web/build#esbuild)
 
 ## CI News
 
