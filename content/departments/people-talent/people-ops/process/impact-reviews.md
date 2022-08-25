@@ -25,6 +25,11 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
+- **1st review (Q1) eligibility rule**
+  - Must be hired on or before October 1st of the prior calendar year
+- **2nd review (Q3) eligibility rule**
+  - Must be hired on or before April 1st of the current calendar year
+
 ### Who provides feedback?
 
 During an Impact Review, you will be asked to give and receive the following reviews.
