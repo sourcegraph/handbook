@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is an overview of the CEO Shadow Program. Please feel free to contact the [Chief of Staff](mailto:connor.obrien@sourcegraph.com) or [Executive Business Partner to the CEO](mailto:sally.voisen@sourcegraph.com) with any questions, comments, feedback, or concerns.
+This is an overview of the CEO Shadow Program. Please feel free to contact the Chief of Staff with any questions, comments, feedback, or concerns.
 
-The CEO Shadow Program could run as short as 1 day or as long as 1 week. It is a temporary rotation for all [eligible employees](https://github.com/sourcegraph/handbook/blob/main/ceo-shadow-program.md#eligibility) where they are provided the opportunity to learn about the various functions of Sourcegraph from the perspective of the CEO. As part of the rotation, the CEO Shadow can expect to:
+The CEO Shadow Program could run as short as 1 day or as long as 1 week. It is a temporary rotation for all [eligible employees](ceo-shadow-program.md#eligibility) where they are provided the opportunity to learn about the various functions of Sourcegraph from the perspective of the CEO. As part of the rotation, the CEO Shadow can expect to:
 
 - Interact with every function of the business.
 - Act as a “thoughtful sounding board” to the CEO.
@@ -13,7 +13,7 @@ The CEO Shadow Program could run as short as 1 day or as long as 1 week. It is a
 
 ## Goal and intention of the program
 
-The CEO Shadow will give [eligible employees](https://github.com/sourcegraph/handbook/blob/main/ceo-shadow-program.md#eligibility) an up-close look at the day-to-day life of the Sourcegraph [CEO](../../team/ceo/index.md), Sourcegraph’s business strategies at work, and decision-making at the top. This rotation, if done right, should increase transparency and visibility into how Sourcegraph is run while better enabling the CEO Shadow to work cross-functionally and better align their core work to company strategies.
+The CEO Shadow will give [eligible employees](ceo-shadow-program.md#eligibility) an up-close look at the day-to-day life of the Sourcegraph [CEO](../../team/ceo/index.md), Sourcegraph’s business strategies at work, and decision-making at the top. This rotation, if done right, should increase transparency and visibility into how Sourcegraph is run while better enabling the CEO Shadow to work cross-functionally and better align their core work to company strategies.
 
 In addition, this program is designed to humanize the [CEO](../../team/ceo/index.md) (and the executive team) so that teammates are more confident and comfortable collaborating and providing direct feedback to the [CEO](../../team/ceo/index.md) and the exec team after the rotation is over.
 
@@ -28,7 +28,7 @@ Are you curious about how other shadow's experiences? Hear from them yourself ab
 
 ## What the CEO shadow program is NOT
 
-The CEO Shadow program is not a professional or leadership development program. Being a CEO Shadow is not related to your performance (though, you must meet the [eligibility criteria](https://github.com/sourcegraph/handbook/blob/main/ceo-shadow-program.md#eligibility)). Lastly, the CEO shadow program is not “extra work” on top of your core work. CEO Shadow rotations should be treated as paid leave by their department and the teammate.
+The CEO Shadow program is not a professional or leadership development program. Being a CEO Shadow is not related to your performance (though, you must meet the [eligibility criteria](ceo-shadow-program.md#eligibility). Lastly, the CEO shadow program is not “extra work” on top of your core work. CEO Shadow rotations should be treated as paid leave by their department and the teammate.
 
 ## Typical responsibilities
 
@@ -54,7 +54,7 @@ All Sourcegraph teammates in good standing (not on a performance plan) are eligi
 
 As a CEO Shadow, your shadow experience could run as short as 1 day or as long as 1 week. The length and timing of your shadow program is subject to change given Quinn's constantly evolving schedule. The CEO team will do it's best to not deviate from the pre-agreed dates, but please understand there are external factors that cause Quinn's availability to shift dramatically on a moment's notice.
 
-This program is a break from our async culture, but given the [goal and intention](https://github.com/sourcegraph/handbook/edit/main/content/departments/ceo-team/ceo-shadow-program.md#goal-and-intention-of-the-program) of the program, the CEO Shadow program is an exception. As such, efforts will be made to ensure this program is as inclusive as possible. Please reach out to the [Chief of Staff](@Connor O'Brien) or [Executive Business Partner to the CEO](@Sally Voisen) if you have extenuating circumstances that are keeping you from participating and we’ll do our best to accommodate.
+This program is a break from our async culture, but given the goal and intention of the program, the CEO Shadow program is an exception. As such, efforts will be made to ensure this program is as inclusive as possible. Please reach out to the [Chief of Staff](@Connor O'Brien) if you have extenuating circumstances that are keeping you from participating and we’ll do our best to accommodate.
 
 Participation in the CEO Shadow Program is not additive work to your day job. Participating in the CEO Shadow program means you are taking a leave from your core job responsibilites to focus on being a CEO Shadow. Participation in the CEO Shadow program will not draw down from your available PTO as you will still be working, but in a different capacity.
 
