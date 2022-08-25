@@ -192,11 +192,9 @@ We want to find engineers who are:
 
 - **Interviewers:** Two IC5 Engineers
 
-- **Duration:** 60-minutes.
+- **Duration:** 90-minutes.
 
 - **Details:** This interview will be a focused assessment of technical skills and requires work to be done prior to the interview.
-
-- **How to prepare:** Prior to the interview, open up a pull request on Sourcegraph or send us a patch to add a small feature or other improvement.
 
 #### Cross-functional Team Collaboration
 
