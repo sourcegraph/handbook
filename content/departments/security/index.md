@@ -100,7 +100,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Batch Changes
    </td>
-   <td>André
+   <td>Vincent
    </td>
   </tr>
   <tr>
