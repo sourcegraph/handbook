@@ -54,7 +54,7 @@ The table below presents the approval levels required for expenditure, based on 
 
 ##### Purchase Order Process
 
-For procurement that exceeds the equivalent of 5,000 USD, a Purchase Order (PO) will be required in Airbase. Please attach the quote, estimate, or contractual draft to the PO prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](./ap.md#contractual-execution) section below.
+For procurement that exceeds the equivalent of 5,000 USD, a Purchase Order (PO) will be required in Airbase. Please attach the quote, estimate, or contractual draft to the PO prior to finalizing an agreement. The Finance team can be reached via ap@sourcegraph.com or the #finance Slack channel. For contract review, see the [Contractual Execution](./ap.md#contractual-execution) section below. 
 
 POs are not required for our FT international teammates, but will be required for any temporary contractors.
 
@@ -65,6 +65,8 @@ POs are not required for our FT international teammates, but will be required fo
 3. PO goes through approvals
 4. When PO is fully approved, contract can be signed
 5. Vendor invoices ap@sourcegraph.com and accounting applies the invoice(s) against the PO.
+
+You can find screen shot and a more indepth explanation [here](https://docs.google.com/document/d/1_-WDaW1qWXv-5hrcmYP4o8-VSZzBKM4e4MrDk_jNzi0/edit) 
 
 #### Go-to-market Stage
 
