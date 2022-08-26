@@ -104,6 +104,12 @@ The default buildkite failures Slack messages are not the most actionnable ones,
 
 **Continuous deployments are live** TODO @sanderginn
 
+## Insights 
+
+Now that [S2](https://sourcegraph.sourcegraph.com) is our default instance, all [DevX insights](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxfQ==) have been ported over there. While a few of those relate mostly to what the DevX team is doing (for example the [logging migration](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMH0=)) others insights maybe quite interesting to take a look at, such at [the insight tracking the evolution of tests in the codebase](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMX0=).
+
+![Testing code insight](https://storage.googleapis.com/sourcegraph-assets/handbook/engineering/devx/newsletter/july2022/test_insights.png)
+
 ## June 24, 2022
 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
