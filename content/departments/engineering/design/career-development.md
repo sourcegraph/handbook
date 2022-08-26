@@ -341,7 +341,6 @@ It’s important to understand that what is listed in the level descriptions are
       <td class="behaviors teamwork">
         <ul>
           <li>Consistently use the Design principles to make decisions</li>
-          <li>Proficiently run projects with the R&D toolkit</li>
           <li>Live our values in your work and interactions</li>
           <li>Consistently seek out opportunities to improve</li>
           <li>Be resilient when you face setbacks</li>
