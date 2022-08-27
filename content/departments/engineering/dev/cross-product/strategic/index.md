@@ -1,7 +1,7 @@
 # Strategic cross-product owner
 
 - Slack channel: #cp-strategic
-- Owner: Joel Kwartler
+- Owner: Ryan Phillips
 - Owner split with other roles: 50-50 (this-other roles)
 
 ## Mission and ownership
