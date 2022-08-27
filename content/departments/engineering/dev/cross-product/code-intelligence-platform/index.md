@@ -6,7 +6,7 @@
 
 ## Mission and ownership
 
-The code intelligence cross-product owner focuses on all product, design, and engineering work necessary to achieve our [1-year vision](../../../../engineering/index.md#product-vision-and-strategy). 
+The code intelligence cross-product owner focuses on all product, design, and engineering work necessary to achieve our [1-year vision](../../../../engineering/index.md#product-vision-and-strategy).
 
 This ownership includes:
 
@@ -25,6 +25,7 @@ TBD see this [google doc until Sep 2](https://docs.google.com/document/d/1fJLdxQ
 TBD see this [google doc until Sep 2](https://docs.google.com/document/d/1fJLdxQTz3WbtjQSaFbynsstYJT_GKakEKJatqmlUKz0/edit#).
 
 ## Strategy
+
 TBD see this [google doc until Sep 2](https://docs.google.com/document/d/1fJLdxQTz3WbtjQSaFbynsstYJT_GKakEKJatqmlUKz0/edit#).
 
 ## Resources
