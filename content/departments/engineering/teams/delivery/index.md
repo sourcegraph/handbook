@@ -2,11 +2,13 @@
 
 ## Mission
 
-Delivery's mission is to empower any customer to self-manage Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Our distributions will evolve to consistently meet the needs of our customers.
+Delivery's mission is to empower any customer to self-manage Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides.
+
+Informed by internal and external stakeholders, Sourcegrpah distributions will evolve to meet the needs of our customers.
 
 ## Current Workstreams
 
-Listed is a high-level overview of workstreams that Delivery is currently undertaking. This is an ephemeral list that will mutate as the team continues to mature. Workstreams may turn into long-term responsibilities, roadmap items, or strategic guides.
+Listed is a high-level overview of workstreams that Delivery is currently undertaking. This list will mutate as the team continues to mature. Workstreams may turn into long-term responsibilities, roadmap items, or strategic guides.
 
 - Docker Compose Load Testing
   - Load test using K6 accurate upper bounds of each Docker container
@@ -23,6 +25,8 @@ Listed is a high-level overview of workstreams that Delivery is currently undert
   - Hire 2 more engineers
   - [Delivery Engineer role](https://boards.greenhouse.io/sourcegraph91/jobs/4357102004)
 - Resource Estimator
+  - Create roadmap to extend Resource Estimator into new customer workflow.
+  - Owned by Sanjeev Sekar
 
 ## Members
 
@@ -35,7 +39,6 @@ For more detailed information on the Delivery team members, check out our [READM
 [Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/delivery/index.md)
 
 ## Responsibilities
-
 - Deployments methods
   - [Docker-Compose](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - Maintenance of [Kubernetes-Helm](./deployment/helm.md) and [Kustomize](https://github.com/sourcegraph/deploy-sourcegraph) core repositories
