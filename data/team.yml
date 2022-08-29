@@ -51,7 +51,7 @@ christina_forney:
 stephen_gutekanst:
   name: Stephen Gutekanst
   role: Internal Contributor / Software Engineer
-  reports_to: cto
+  reports_to: engineering_manager_delivery
   location: Phoenix, AZ, USA 🇺🇸
   github: slimsag
   email: stephen@sourcegraph.com
@@ -778,7 +778,7 @@ beatrix_woo:
   name: Beatrix Woo
   pronouns: she/her
   role: Software Engineer
-  reports_to: engineering_manager_growth
+  reports_to: engineering_manager_delivery
   location: San Diego, CA, USA 🇺🇸 / Hong Kong 🇭🇰
   github: abeatrix
   email: beatrix@sourcegraph.com
