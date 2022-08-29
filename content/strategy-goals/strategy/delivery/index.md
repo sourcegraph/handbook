@@ -3,13 +3,19 @@
 This page outlines the short-term strategy for the [Delivery team](../../../departments/engineering/teams/delivery/index.md).
 
 ---
+<<<<<<< HEAD
 # Current Strategy
 ## Q3  Strategy
 
 Q3's strategy has taken a major departure from previous Delivery strategies. Sourcegraph has pivoted from OKRs to [Cross-Functional Projects](../../cross-functional-projects/index.md#current-cross-functional-projects). Delivery has taken this shift to focus on Sourcegraph's long-term self-managed distributions. This includes defining the roadmap, documentation, tooling, and simplified self-managed distribution.
+=======
+>>>>>>> 8ebe738ee9776de62c0f718f8d2324ca111b077c
 
+# Current Strategy
 
+## Q3 Strategy
 
+Q3's strategy has taken a major departure from previous Delivery strategies. Sourcegraph has pivoted from OKRs to [Cross-Functional Projects](https://handbook.sourcegraph.com/strategy-goals/cross-functional-projects/#current-cross-functional-projects). Delivery has taken this shift to focus on Sourcegraph's long-term self-managed distributions. This includes defining the roadmap, documentation, tooling, and simplified self-managed distribution.
 
 # Previous Strategy
 
