@@ -4,6 +4,26 @@
 
 Delivery's mission is to empower any customer to self-manage Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Our distributions will evolve to consistently meet the needs of our customers.
 
+## Current Workstreams
+
+Listed is a high-level overview of workstreams that Delivery is currently undertaking. This is an ephemeral list that will mutate as the team continues to mature. Workstreams may turn into long-term responsibilities, roadmap items, or strategic guides.
+
+- Docker Compose Load Testing
+  - Load test using K6 accurate upper bounds of each Docker container
+  - Work with Strategic PM to define T-Shirt sizes
+  - Led by Beatrix Woo and James Cotter
+- AWS Marketplace Integration
+  - Work with AWS & Tom Pinckney to define onboarding requirements
+  - Build 3 AMIs and update documentation accordingly
+- Long Term Self-Managed Solution
+  - Spun up working group to gather peer feedback
+  - Initial focus is on building K3 POC
+  - Tech Lead is Stephen Gutekanst
+- Build out Delivery team
+  - Hire 2 more engineers
+  - [Delivery Engineer role](https://boards.greenhouse.io/sourcegraph91/jobs/4357102004)
+- Resource Estimator
+
 ## Members
 
 {{generator:product_team.delivery}}
