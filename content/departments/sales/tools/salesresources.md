@@ -23,8 +23,8 @@ Order Forms:
 
 Partner Contracts:
 
-- [Reseller Agreement](https://docs.google.com/document/d/1LxPDwqEYIxBO-p3C2f9IsOMy1fIhYpO1/edit)
-- [Referral Agreement](https://docs.google.com/document/d/1UnEJ2Lzw0slRkquHWjjpsO0KN7SVfZgy/edit)
+- [Reseller Agreement](https://docs.google.com/document/d/1y8gF3ai8YdDH-iORi_vVeqET9-g11RZxaXurcNmb0-E/copy)
+- [Referral Agreement](https://docs.google.com/document/d/1UnEJ2Lzw0slRkquHWjjpsO0KN7SVfZgy/copy)
 
 Other Resources:
 
