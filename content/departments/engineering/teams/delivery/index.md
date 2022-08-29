@@ -2,7 +2,7 @@
 
 ## Mission
 
-Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Make it as easy as possible to access this value, and to maintain it going forwards by easily staying up to date with Sourcegraph's latest developments.
+Delivery's mission is to empower any customer to self-manage Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides. Our distributions will evolve to consistently meet the needs of our customers.
 
 ## Members
 
@@ -15,13 +15,11 @@ For more detailed information on the Delivery team members, check out our [READM
 [Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/delivery/index.md)
 
 ## Responsibilities
-
-- Deployments methods and configuration
-  - [Kubernetes - Helm](./deployment/helm.md)
-  - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
-  - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
+- Deployments methods
+  - [Docker-Compose](https://github.com/sourcegraph/deploy-sourcegraph-docker)
+- Maintenance of [Kubernetes-Helm](./deployment/helm.md) and [Kustomize](https://github.com/sourcegraph/deploy-sourcegraph) core repositories
+  - Customer Engineering will support jointly-managed deployments.
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
-- ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../dev/process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact
 
