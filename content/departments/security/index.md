@@ -100,7 +100,7 @@ In an effort to work closely with our teammates and shift security focus more in
   <tr>
    <td>Batch Changes
    </td>
-   <td>André
+   <td>Vincent
    </td>
   </tr>
   <tr>
@@ -192,6 +192,10 @@ that we maintain.
 More detailed description of our responsibilities and what we do, can be found [here](what-we-do.md).
 
 ---
+
+## Security Policies
+
+We are responsible for maintaining company-wide security policies. You can find them [here](../../company-info-and-process/policies)
 
 # Misc Links
 

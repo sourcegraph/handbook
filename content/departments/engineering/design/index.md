@@ -8,7 +8,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Design Team
 
-[Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
+- [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
 
 ### Product Design
 
@@ -23,7 +23,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 ### Creative Ops / Brand
 
 - [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
-- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (she/her)
+- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (they/them)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -52,7 +52,7 @@ At Sourcegraph, we design in the open. This is an important part of how we work 
 Designing in the open means many things to us.
 
 - **Our work and process is [transparent by default](../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company-info-and-process/values/index.md#high-agency) environment.
-- **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
+- **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./structuring_design_artifacts_for_review/index.md).
 - **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 
 Designing in the open is hard! As designers, it’s easy to want to hold back on sharing until we’re happy with what we have. It can be very uncomfortable for others to see the things we’re working on before we’re ready to share. But designing in the open also challenges us to improve our design communication and makes us better at collaborating asynchronously.
@@ -90,9 +90,9 @@ We avoid siloed work as much as possible. Instead of design and development phas
 ## Collaboration
 
 - [Team rituals](./team_rituals/index.md)
-- [Reviewing design](./reviewing_design/index.md)
+- [Design collaboration and review](./design_collaboration_review/index.md)
+- [Structuring design artifacts for review](./structuring_design_artifacts_for_review/index.md)
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
-- [Design critiques](./design_critiques/index.md) (Coming soon)
 
 ## Toolkit
 

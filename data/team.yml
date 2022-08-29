@@ -1947,7 +1947,7 @@ michal_vrtiak:
   github: vrto
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_security
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
   description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs.
@@ -2092,7 +2092,7 @@ leo_papaloizos:
   reports_to: engineering_manager_code_insights
   location: London, UK 🇬🇧
   github: leonore
-  email: leo.p@sourcegraph.com
+  email: leo.papaloizos@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/leonore-p-99bb0b170/)'
   description: 'Leo grew up in France and studied Computer Science in Glasgow, and is now based in London. Outside of work, she enjoys podcasts, collecting fun facts, playing football, and more recently, knitting.'
 
@@ -2375,16 +2375,6 @@ randell_callahan:
   reports_to: engineering_manager_batch_changes
   location: Denver, CO, USA 🇺🇸
   description: Randell is a Colorado Native. He grew up in a small mountain town before getting a culture shock in Boulder, Colorado. Randell enjoys going for runs (when it is not snowing), playing with his daughter, and throwing the ball for his little Yorkie.
-
-brienne_mcnally:
-  name: Brie McNally
-  email: brie.mcnally@sourcegraph.com
-  github: briemcnally
-  pronouns: she/her
-  role: Product Manager
-  reports_to: eng_lead
-  location: Denver, CO, USA 🇺🇸
-  description: Brie is a nurse turned software engineer turned product manager. She has a passion for understanding complex problems and developing products that help delight customers and relieve pain points. Outside of product management you can find Brie enjoying nature with her husband and Miniature Australian Shepherd. She loves hiking, snowboarding, biking, paddle boarding and exploring new destinations, restaurants, and bars.
 
 william_bezuidenhout:
   name: William Bezuidenhout

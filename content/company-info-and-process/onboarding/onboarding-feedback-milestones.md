@@ -2,7 +2,7 @@
 
 The People Ops team wants to better support new teammates and managers by opening a two-way conversation between them throughout the [onboarding process](./index.md) about what’s on track and what needs action, both on the new teammates' contribution and how well they’re living our shared values.
 
-Feedback check-ins are now part of the onboarding process. We want to help teammates succeed by having structured monthly feedback sessions with their managers during their first 3 months.
+Feedback check-ins are part of the onboarding process. We want to help teammates succeed by having structured monthly feedback sessions with their managers during their first 3 months.
 
 This will help teammates understand their performance and how well they’ve been adapting to their new role. Teammates who understand what’s expected of them and can have conversations with their managers about how to improve are more likely to have a better experience. Managers should use these feedback milestones to guide the new teammate, reinforce good work practices, and better set them up for success. During these meetings, managers will help new teammates understand their role in the team and company and what’s expected of them.
 
@@ -18,7 +18,7 @@ Following our [standards of success](./index.md#onboarding-standards-and-success
 - normalize two-way feedback and
 - open conversation and build trust
 
-**Feedback Milestone: Month 2 & 3:**
+**Feedback Milestone: Month 3:**
 
 - check in on OKR/expectations tracking and values fit and get a sense for how they’re feeling
 - normalize two-way feedback and
@@ -31,7 +31,7 @@ During the new teammates’ first week with us, they will find a task in their P
 
 ## Managers: What to expect
 
-To help facilitate these onboarding feedback milestones, we have developed check-ins in Lattice that will be active at the end of month 1, 2 and 3. You will be given structured questions that serve as a guideline for you to have those important conversations pertinent to the onboarding process. The onboarding feedback milestones serve as a conversation guide and the answers serve as notes that you can reference to assess their onboarding success.
+To help facilitate these onboarding feedback milestones, we have developed check-ins in Lattice that will be active at the end of month 1 and 3. You will be given structured questions that serve as a guideline for you to have those important conversations pertinent to the onboarding process. The onboarding feedback milestones serve as a conversation guide and the answers serve as notes that you can reference to assess their onboarding success.
 
 The question or topic notes will **not** be private and new teammates will see what managers have written as the conversations notes will be shared with the teammate. It is important to note that summaries are not required anymore at the end of your review.
 

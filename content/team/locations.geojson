@@ -902,16 +902,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Brienne McNally"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.739235, -104.99025]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "William Bezuidenhout"
             },
             "geometry": {
