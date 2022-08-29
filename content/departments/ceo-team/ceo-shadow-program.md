@@ -32,8 +32,8 @@ Examples of typical tasks and responsibilities of a CEO Shadow:
 
 Are you curious about how other shadow's experiences? Hear from them yourself about their experiences and takeaways.
 
-- Joel Kwalter (June 8th - 9th)
-- [Murat Sutunc (July 25th)](https://docs.google.com/document/d/131nAu5J6fLv9c_2CWONimjBe0JNfAHXjDAYwDv9OOpc/edit): Great tips / advice on how to maximize your time and what to expect.
+- [Joel Kwalter (June 8th - 9th)](https://docs.google.com/document/d/15qgDCMpU17-MJUsOOb-j0_XkGOyK7m7UAm0f54Yx8KU/edit#heading=h.r68qm0s7vcd2): Insight into the day-to-day of being a CEO / CEO Shadow.
+- [Murat Sutunc (July 25th)](https://docs.google.com/document/d/131nAu5J6fLv9c_2CWONimjBe0JNfAHXjDAYwDv9OOpc/edit): Tips / advice on how to maximize your time and what to expect.
 - Rok Novosel (upcoming August 10th - 11th)
 - [Alex Isken (upcoming August 22nd - 26th)]()
 
