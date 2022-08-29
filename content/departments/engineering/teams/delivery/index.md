@@ -15,6 +15,7 @@ For more detailed information on the Delivery team members, check out our [READM
 [Find out about our team’s vision, guiding principles, current status quo, and strategic plans](../../../../strategy-goals/strategy/delivery/index.md)
 
 ## Responsibilities
+
 - Deployments methods
   - [Docker-Compose](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - Maintenance of [Kubernetes-Helm](./deployment/helm.md) and [Kustomize](https://github.com/sourcegraph/deploy-sourcegraph) core repositories
