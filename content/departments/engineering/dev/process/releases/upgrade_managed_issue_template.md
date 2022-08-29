@@ -70,4 +70,6 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/7890
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8497
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/1249
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1254
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/570
 - [ ] Upgrade second instance for https://github.com/sourcegraph/accounts/issues/8494
