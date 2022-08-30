@@ -15,6 +15,7 @@ These [managed instances](../../../../cloud/index.md) upgrades are scheduled for
 
 To perform these upgrades, follow the [managed instances upgrade process](../../../../cloud/technical-docs/upgrade_process.md).
 Make sure to upgrade internal instances before customer instances.
+Make sure to upgrade instances by following the order as it is in this tracking issue.
 For compliance, ensure that you link the upgrade pull requests to this issue.
 
 ---
@@ -35,6 +36,7 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
   Use a https://github.com/sourcegraph/accounts link instead.
 -->
 
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8494
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/528
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/532
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/542
@@ -45,8 +47,6 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8285
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/581
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/537
-- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8494
-- [ ] Upgrade second instance for https://github.com/sourcegraph/accounts/issues/8494
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8247
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/3078
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8495
@@ -69,3 +69,7 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrdae instance for https://github.com/sourcegraph/accounts/issues/8496
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/7890
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8497
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/1249
+- [ ] Upgrade instance for https://github.com/sourcegraph/customer/issues/1254
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/570
+- [ ] Upgrade second instance for https://github.com/sourcegraph/accounts/issues/8494
