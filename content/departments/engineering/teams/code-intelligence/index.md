@@ -10,12 +10,12 @@ The Code Intelligence team builds tools and services that provide contextual inf
 
 - A powerful and flexible language-agnostic model of dependency relationships across projects, repositories, and languages
 
-- Robust, extensible, and scalable infrastructure to index code across all languages, keep those indexes up-to-date, and efficiently resolve code intelligence queries against all indexed code.
+- Robust, extensible, and scalable infrastructure to index code across all languages, keep those indexes up-to-date, and efficiently resolve code navigation queries against all indexed code.
 
 ## Strategy
 
 - We see Code intelligence as the glue that sticks the product together, providing a platform for features from navigation to precise powered searches, compiler-accurate batch changes and insights. We aim to provide support for all widely used languages and for the ones we don’t, provide a platform for any developer to add and test their own indexers.
-- In the near term we want Code intelligence to provide seamless, out-of-the-box, precise code navigation for languages that cover 90% of the market usage.
+- In the near term we want code navigation to provide seamless, out-of-the-box, precise code navigation for languages that cover 90% of the market usage.
 - We want our code navigation to reach IDE feature parity, while offering the option of plugging into developers’ favorite IDEs.
 - In the longer term, we envision building a global knowledge graph that accurately maps the entire code universe.
 - Our complete strategy is available at [Code intelligence strategy](../../../../strategy-goals/strategy/code-intelligence/index.md)
@@ -63,7 +63,7 @@ There is no "that's not my responsibility" with the use of streams, we just have
 The Language Tools stream focus on tooling specific to programming languages and their counterpart ecosystems to provide the best precise code navigation experience. The aim is to have a symbiotic relationship
 with the Language Platform team in that, Language Tools will provide the specific logic per problem (think syntax highlighting) whilst Language Platform will expose an agnostic/programatic way to scale this. Specific areas of ownership include:
 
-- Precise Intelligence
+- Precise navigation
   - [SCIP](https://github.com/sourcegraph/scip#readme)
   - [SCIP indexers](https://docs.sourcegraph.com/code_intelligence/references/indexers)
   - LSIF indexers
