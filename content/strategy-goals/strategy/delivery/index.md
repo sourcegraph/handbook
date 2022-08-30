@@ -3,6 +3,7 @@
 This page outlines the short-term strategy for the [Delivery team](../../../departments/engineering/teams/delivery/index.md).
 
 ---
+
 # Current Strategy
 
 ## Q3 Strategy
