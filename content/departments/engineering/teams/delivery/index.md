@@ -4,7 +4,7 @@
 
 Delivery's mission is to empower any customer to self-manage Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides.
 
-Informed by internal and external stakeholders, Sourcegrpah distributions will evolve to meet the needs of our customers.
+Informed by internal and external stakeholders, Sourcegraph distributions will evolve to meet the needs of our customers.
 
 ## Current Workstreams
 
