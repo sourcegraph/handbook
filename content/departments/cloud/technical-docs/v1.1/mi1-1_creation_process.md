@@ -4,7 +4,7 @@ Creating a new [managed instance](./index.md) involves following the steps below
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
-1. Cloud Team invoke GithubAction with following parameters:
+1. Cloud Team invoke Github Actions with following parameters:
 
 - `customer` - name of customer
 - `ce_email` - email of Customer Engineer from issue
@@ -23,15 +23,15 @@ For basic operations like accessing an instance for these steps, see [managed in
   gh workflow run mi_create.yml -f customer=$CUSTOMER -f ce_email=$CE_EMAIL -f customer_email=$CUSTOMER_EMAIL instance_type=[production|trial|internal]
   ```
 
-  or via [GithubAction web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
+  or via [Github Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
 
-  Important: GithubAction is `idempotent`, so can be safely re-run multiple times with same arguments.
+  Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
 
-1. PR will be open automatically by Github Action with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
+1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md). DO NOT use customer name in Pull Requests title nor commits/description, only issue number. Sample link: `https://github.com/sourcegraph/customer/issues/1125`
 
-Note: GCP metrics monitoring and alerting is applied automatically via scheduled [GithubAction](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
+Note: GCP metrics monitoring and alerting is applied automatically via scheduled [Github Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 
 ## Optional: customise instance size
 
