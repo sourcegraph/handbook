@@ -7,6 +7,7 @@ This document is a work in progress to give an overview of the expectations of t
 During the initial phases of a sale, the CE should evaluate whether or not the customer is a good candidate for a jointly managed instance. If the CE believes a jointly managed instance will be necessecary, they should send a Slack to #ask-implementation outlining who the customer is, what their expected deployment type is, how large they are (including the number of expected users, repos, and code hosts), and a brief description of why they will likely need a jointly managed instance.
 
 Typical reasons a customer would be flagged for jointly managed are:
+
 - Sourcegraph's Cloud offering is not a viable option.
 - The customer is expected to have a particularly large instance.
 - There is a high probability the instance will require a Kubernetes deployment.
