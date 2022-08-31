@@ -38,7 +38,7 @@ You'll need to configure docker so that the images build for amd64, not arm64.
 
 ```sh
 docker buildx create --use
-docker buildx build -t p4-fusion --platform linux/amd64 --target=p4-fusion .
+docker buildx build --load -t p4-fusion --platform linux/amd64 --target=p4-fusion .
 ```
 
 ## Testing the changes
@@ -74,7 +74,7 @@ Successfully tagged p4-fusion:latest
 Run the binary in the container by running the following command:
 
 ```
-docker run -t -i p4-fusion /sr/local/bin/p4-fusion
+docker run -t -i p4-fusion /usr/local/bin/p4-fusion
 ```
 
 The output will be similar to this:
