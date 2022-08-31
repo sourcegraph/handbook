@@ -4,20 +4,33 @@ This document is an overview of the processes followed by the implementation tea
 
 # Inputs from Pre-Sales
 
-The primary input from pre-sales will be the TDD. The TDD, when completed, should include all information necessary for the implementation team to plan out a deployment for the newly signed customer. The TDD should be updated with information about lessons learned in the POC process and how the proof of concept design and deployment differs from the production design and deployment.
+The primary input from pre-sales will be the TDD. The TDD, when completed, should include all technical information necessary for the implementation team to plan out a deployment for the newly signed customer. The TDD should be updated with information about lessons learned in the POC process and how the proof of concept design and deployment differs from the production design and deployment.
 
-# Direct steps taken with customers
+For more information on how the pre-sales team will interact with the implementation team and hand off accounts, visit the [CE Implementation Handoff](/ce-implementation/handoff.md) page.
 
-The steps below detail, on a high level, the steps that Sourcegraph implementation engineers will be interfacing with the customer.
+# Implementation Team Tasks and Responsibilities
 
-- Confirmation of the production deployment design as captured in the pre-sales stages
-- Set milestones for deployment and share the project plan
-- Deploy customer non-production environment(s) for initial confirmation of deployment design
+The steps below detail, on a high level, the steps that the Sourcegraph implementation teams will work on both internally and directly with the customers:
+
+[Implementation Engineers](/index.md)
+- Confirmation of the production technical deployment design as captured in the pre-sales stages
+- Build internal replica environment based on expected requirements for production deployment
+- Deploy customer non-production environment(s) for confirmation of deployment design and use as a dedicated testing environment
 - Configure code hosts on non-production environment(s) to confirm no issues cloning and indexing repos at scale
 - Onboard testing users into non-production environment(s) and confirm Sourcegraph performance is optimal
-- Build production environment
-- Configure code hosts on production environment
+- Build and configure production environment and code hosts
+- Execute load testing in replica environment
 - Onboard full scope of users
+
+[Implementation Project Managers](../../../ce-support/ce/tpm/index.md)
+- Set milestones for deployment and develop project plan (starts prior to contract finalization)
+- Ensure leadership engagement and buy in for the implementation
+- Confirm appropriate project staffing
+- Track progress towards key milestones and implementation Exit Criteria
+- Track Open Issues and Risks
+- Provide project reports to key internal and external stakeholders
+- Engage cross-functional teams for additional assistance where needed
+- Remove blockers for IEs and customer teams to accomplish project tasks
 
 # Internal steps taken to support implementation efforts
 
@@ -28,21 +41,33 @@ The steps below detail, on a high level, the steps that Sourcegraph implementati
 - Validate resourcing estimations for customer environments
   - Using the replica environment, run k6 load testing to ensure the instance can handle user traffic at scale and maintain high levels of performance.
 
-# Internal stakeholders
+# Implementation Stakeholders
 
-At a minimum, the internal stakeholders should include the following people:
+## Internal Stakeholders
+
+While others may be directly or indirectly involved with specific implementations and customers, the below list accounts for the primary internal stakeholders. It is important that these stakeholders have direct and clear access to any and all information pertaining to the deployment. This is primarily achieved through regular maintenance of the project plan documents.
 
 - Implementation Engineer
 - Implementation Project Manager
 - Customer Success Manager (Technical Account Manager)
 - Customer Engineer
 - Account Executive
+- Leadership (particularly for Strategic Accounts)
 
-It is important that these stakeholders have direct and clear access to any and all information pertaining to the deployment. This is primarily achieved through regular maintenance of the project plan documents.
+## External Stakeholders
 
-# Internal and external documents to maintain for progress updates/project status
+This stakeholders will vary by customer depending on their organizational structure, needs, and processes. Still, external stakeholders can largely be broken down into the below categories.
 
-For ongoing support and account management, the implementation engineer is responsible for creating an internal document that details the following:
+- Project Champion - usually an internal leader invested in distributing Sourcegraph to developers
+- Project Team - developers, admins, DevX team members, etc. dedicated to standing up Sourcegraph
+- Engineering Leadership - managers, directors, etc. directly overseeing developers that will be impacted by Sourcegraph
+- Engineers - end users providing feedback throughout UAT and user group roll-outs
+- External Vendors - representatives from tools and products used by the customer may need to be engaged ins certain scenarios
+
+
+# Implementation Documentation
+
+For ongoing support and account management, the implementation team is responsible for creating an internal document that details the following:
 
 - Final Production Design (with specific emphasis on any deviations from standard, recommended deployment)
 - Resourcing for the customer environment
@@ -67,7 +92,9 @@ For ongoing support and account management, the implementation engineer is respo
   - Cloud platform
   - CI/CD stack
   - Externalized services
+  - Other unique aspects of deployment
+  - Current usage information and any expansion requirements
 
-In addition, the implementation team is responsible for ensuring that the timeline information, deadlines, and status of any tasks are accurate and up to date in the external project plan.
+In addition, the implementation team is responsible for ensuring that the timeline information, deadlines, issues, and statuses of any tasks are accurate and up to date in the project plan.
 
-# Requirements for implementation to be considered complete
+# Exit Criteria for the Implementation to be Considered Complete
