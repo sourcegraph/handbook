@@ -39,7 +39,7 @@ This scans an image for High/Critical CVEs. The `-f json` flag can be used to ou
 
 ## Accepted vulnerabilities and false positives
 
-Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../engineering/dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
+Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../../engineering/dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
 
 ## For Security engineers
 
@@ -65,7 +65,7 @@ Most docker images we create have build scripts that can be run locally. In case
 sg ci build docker-images-patch <image>
 ```
 
-More information [here](../../engineering/dev/process/deployments/testing.md#building-docker-images-for-a-specific-branch)
+More information [here](../../../engineering/dev/process/deployments/testing.md#building-docker-images-for-a-specific-branch)
 
 A recommended process to test patches is:
 
