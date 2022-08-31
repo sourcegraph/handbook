@@ -30,7 +30,8 @@ For basic operations like accessing an instance for these steps, see [managed in
 1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
 1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md). DO NOT use customer name in Pull Requests title nor commits/description, only issue number. Sample link: `https://github.com/sourcegraph/customer/issues/1125`
 
-Note: 
+Note:
+
 - GCP metrics monitoring and alerting is applied automatically via scheduled [Github Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 - Security audit logging is applied automatically via a scheduled [GitHub Actions Worflow](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml)
 
