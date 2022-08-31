@@ -140,6 +140,7 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Go Live Support
 - Resource estimator
 - Health status tooling
+- One-click export
 - Product education and documentation around delivery
 - Multi-version upgrades
 
@@ -243,6 +244,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Billing, invoicing, and payments
 - Usage reporting and entitlement enforcement
 - Licensing models
+- Support and maintenance around authentication
+- Red accounts
 
 ### User journeys
 
@@ -281,9 +284,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - Code host connections (GitHub, GitLab, BitBucket, Perforce, CVS, Gerrit)
 - Code replication into Sourcegraph\* Code storage within Sourcegraph
-- Support and maintenance around authentication
-- One-click export
 - CVS importer
+- Red accounts
 
 ### User journeys
 
