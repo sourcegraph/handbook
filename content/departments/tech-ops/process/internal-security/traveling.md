@@ -7,10 +7,10 @@ As an all-remote company, we are encouraged to take advantage of working from an
 **Before you go**:
 
 - Make sure you check and install any software [updates](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac) on your laptop before you leave a secure and fast network connection, as sometimes these can take a while
-- Increase the [password](internal-security/passwords.md) complexity on all your devices
-- [Change](https://support.apple.com/guide/mac-help/change-screen-saver-preferences-mchlp1227/mac) your laptop screen lock time from 5 Minutes (Sourcegraph [standards](internal-security/computer-standards.md)) to 1 or 2 minutes
-- Erase anything private/sensative on your hard drive and save everything to [Google drive](../tools/drive.md) instead
-- Review our [computer requirements](../tools/computer-setup.md) to make sure standards, WS1 and Carbon Black are in place
+- Increase the [password](../internal-security/passwords.md) complexity on all your devices
+- [Change](https://support.apple.com/guide/mac-help/change-screen-saver-preferences-mchlp1227/mac) your laptop screen lock time from 5 Minutes (Sourcegraph [standards](../internal-security/computer-standards.md)) to 1 or 2 minutes
+- Erase anything private/sensitive on your hard drive and save everything to [Google drive](../../tools/drive.md) instead
+- Review our [computer requirements](../../tools/computer-setup.md) to make sure standards, WS1 and Carbon Black are in place
 - Presenting? Demoing at an event? Contact Tech Ops for a loaner to bring along - avoid using your own laptop for presentations/demos/etc. if there is a possibilty someone else might access it
 
 **While traveling**:
