@@ -35,6 +35,18 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 
 ### Company content to share:
 
+#### Awards and Recognition:
+
+##### Inc. 5000
+
+We made #244 on the 2022 Inc 5000 List and we want to spread the word about it! Feel free to share this post content on your social networks:
+
+- Option 1: "I'm happy to share that we are #244 on the #Inc5000 fastest-growing companies list.
+  How? By helping 1.275M devs understand their codebases with an all-remote team of 250+ teammates across 25+ countries. https://www.inc.com/profile/sourcegraph "
+- Option 2: "Huge thanks to our teammates for all their work to build Sourcegraph into a code intelligence platform used by dev teams at companies like Uber, GE, Reddit, Canva, and Plaid. https://lnkd.in/e3nUmcqz"
+
+#### Other Content:
+
 - Sourcegraph Youtube, Blog, and Handbook content
 - [Sourcegraph Universal Code Search](https://www.youtube.com/watch?v=GQj5jXdON3A)
 - [Dev Tool Time](https://www.youtube.com/playlist?list=PL6zLuuRVa1_iDEP4EicZ8972RgyccCRGF) - Sourcegraph's bi-weekly virtual event series in which guest developers share their favorite dev tools and productivity hacks.
