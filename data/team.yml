@@ -2568,7 +2568,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: cto
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
