@@ -28,6 +28,7 @@
 ## How to Submit an Invoice:
 
 - All invoices should be sent via email to our accounting team, ap@sourcegraph.com All invoices will be paid through [Airbase](https://www.airbase.com/). Accounting will create an account with your personal email and bank information provided on your invoice.
+- Invoices should be sent as a PDF or Excel spreadsheet, so that it can be automatically picked up by Airbase and avoids needing to manually upload the invoice.
 
 ## Invoice Submission Timing
 
