@@ -1,6 +1,6 @@
 # Overview
 
-This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. This document is specific to the process for _Jointly Managed Implementations_. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
+This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for *Jointly Managed Implementations*. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
 
 # Inputs from Pre-Sales
 
