@@ -219,4 +219,4 @@ We are responsible for maintaining company-wide security policies. You can find 
 
 - [Code Ownership Matrix](../engineering/dev/process/engineering_ownership.md)
 
-[interview-process]: ../people-talent/talent/process/engineering_interview_process_candidates#standard-interview-process
+[interview-process]: ../people-talent/talent/process/engineering_interview_process_candidates.md#standard-interview-process
