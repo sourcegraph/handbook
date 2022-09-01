@@ -2535,12 +2535,6 @@ tom_pinckney:
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
 
-sanjeev_sekar:
-  name: Sanjeev Sekar
-  role: Engineering Manager
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-
 gary_lee:
   name: Gary Lee
   role: Software Engineer
@@ -2574,7 +2568,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: cto
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
