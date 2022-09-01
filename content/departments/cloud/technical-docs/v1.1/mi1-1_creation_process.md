@@ -9,6 +9,18 @@ For basic operations like accessing an instance for these steps, see [managed in
 - `customer` - name of customer
 - `ce_email` - email of Customer Engineer from issue
 - `customer_email` - customer admin email (only one from provided in issue)
+- `instance_size` - the t-shirt size of the instance.
+
+  > review the eligibility of each instance size in the [Google Doc](https://docs.google.com/document/d/1WXfmyBsGlIoJvSdxaEhV0iYTD4ylm9ykLyJItDE53eE/edit#bookmark=id.hmlsv2azmjja)
+
+  > if you would like to request a larger trial instance, please reach out to #cloud
+  
+      small - for customer trial or paying customers
+
+      medium - for paying customers only
+
+      large - for paying customers only
+      
 - `instance_type` - purpose of this instance
 
       trial - for customer trial
