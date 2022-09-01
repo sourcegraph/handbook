@@ -6,7 +6,7 @@ The frameworks below are iterative - we are committed to maintaining high expect
 
 Every department has created a framework for roles within their group. Each framework may apply to multiple job titles within that department. Where we have many Teammates in a role, we may create a more detailed, job-specific framework.
 
-This page is maintained by our [Talent and People Team](../../departments/people-talent/talent/index.md).
+This page is maintained by our [Talent and People Team](../../departments/people-talent/index.md).
 
 ## Customer Engineering & Support
 
@@ -32,7 +32,9 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 ## Marketing
 
-- [COMING SOON]
+- [Comms career development framework](../../departments/marketing/career-development/comms-framework.md)
+- [Product Marketing career development framework](../../departments/marketing/career-development/product-marketing-framework.md)
+- [Customer Marketing career development framework](../../departments/marketing/career-development/customer-marketing-framework.md)
 
 ## Operations
 
@@ -40,7 +42,10 @@ This page is maintained by our [Talent and People Team](../../departments/people
 
 ## Sales
 
-- [COMING SOON]
+- [Account Executive career development framework](../../departments/sales/career-development/ae-framework.md)
+- [Account Executive competency framework](../../departments/sales/career-development/ae-competencies.md)
+- [SDR career development framework](../../departments/sales/career-development/sdr-framework.md)
+- [SDR competency framework](../../departments/sales/career-development/sdr-competencies.md)
 
 ## Talent & People
 

@@ -1,4 +1,4 @@
-# Reviewing design
+# Structuring design artifacts for review
 
 We [design in the open](../index.md#designing-in-the-open), which means that anyone can view [design artifacts](../artifacts/index.md) at any stage of the design process. We want to make an environment where we can work transparently while still having space and the physiological safety to explore ideas, make mistakes, and to create some absolute crap along the way.
 

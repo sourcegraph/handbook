@@ -91,8 +91,8 @@ delivery:
   title: Delivery
   brief: Enable any Sourcegraph customer or user to trial or run (in production) Sourcegraph in a way that is compatible with their environment, supports their level of technical expertise, and allows them to easily access the value that our product provides.
   strategy_link: /strategy-goals/strategy/delivery/index.md
-  pm: brienne_mcnally
-  em: sanjeev_sekar
+  pm: beyang_liu
+  em: beyang_liu
   issue_labels:
     - team/delivery
 
@@ -110,7 +110,7 @@ frontend_platform:
   brief: The Frontend Platform team aims to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
   strategy_link: /strategy-goals/strategy/frontend-platform
   pm: taylor_sperry
-  em: jason_gornall
+  em: murat_sutunc
   design: alicja_suska
   issue_labels:
     - team/frontend-platform

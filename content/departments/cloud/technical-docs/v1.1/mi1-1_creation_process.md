@@ -4,101 +4,76 @@ Creating a new [managed instance](./index.md) involves following the steps below
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
-1. Clone and `cd deploy-sourcegraph-managed/`
-1. Prepare your environment:
+1. Cloud Team invoke Github Actions with following parameters:
 
-   - `export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)`
-   - `export VERSION=v<MAJOR.MINOR.PATCH>`
-   - `export COMPANY=$COMPANY`
-   - `export PROJECT_PREFIX=sourcegraph-managed` (should match GCP project prefix)
-   - `export PROJECT_ID=$PROJECT_PREFIX-$COMPANY`
-   - `export PROJECT_SLUG=<prefix>.sourcegraph.com` (the customer issue mentions it)
-   - `export TF_VAR_opsgenie_webhook=<OpsGenie Webhook value>`
-     - This can be found in the [Managed Instances vault](https://my.1password.com/vaults/nwbckdjmg4p7y4ntestrtopkuu/allitems/d64bhllfw4wyybqnd4c3wvca2m)
+- `customer` - name of customer
+- `ce_email` - email of Customer Engineer from issue
+- `customer_email` - customer admin email (only one from provided in issue)
+- `instance_type` - purpose of this instance
 
-1. Check out a new branch: `git checkout -b $COMPANY/create-instance`
-1. Create a new GCP project for the instance by:
+      trial - for customer trial
 
-- Adding it to the [`managed_projects` tfvar in `gcp/projects/terraform.tfvars`](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/gcp/projects/terraform.tfvars)
-- Apply terraform in `gcp/projects` folder - due to the amount of service APIs that are defined in this project, run Terraform with increased parallelism to prevent waiting a long time for the plan to form:
-  `terraform apply -parallelism=100`
+      production - for paying customer
 
-1. Ensure the target version of docker-compose file is in the golden directory, it should be named `docker-compose.x.y.z.yaml`
-1. ` ./util/create-managed-instance-new.sh $COMPANY` and **commit the result**. Make sure that the version exists in [deploy-sourcegraph-docker](https://github.com/sourcegraph/deploy-sourcegraph-docker/tags).
-1. Replace base `docker-compose.yaml` to use golden symlink: `cd $COMPANY/red/docker-compose && rm docker-compose.yaml && ln -s ../../../golden/docker-compose.<MAJOR.MINOR.PATCH>.yaml docker-compose.yaml && rm ../VERSION && cd ../../`
-1. Open and edit `terraform.tfvars` according to the TODO comments within and commit the result.
+      internal - for internal Sourcegraph usage
 
-   > NOTE: ⚠️ Do not set `enable_alerting` to `true` yet as this will cause false alerts to fire until the MI creation process has been completed!
+  via command line:
 
-1. Open and edit `deploy-sourcegraph-managed/$COMPANY/red/docker-compose/docker-compose.override.yaml`, increase `gitserver-0`'s `cpus: 8` if the instance size is larger than "n2-standard-8".
-1. In `deploy-sourcegraph-managed/$COMPANY` run `terraform init && terraform apply`
-1. Check if all is running
+  ```
+  gh workflow run mi_create.yml -f customer=$CUSTOMER -f ce_email=$CE_EMAIL -f customer_email=$CUSTOMER_EMAIL instance_type=[production|trial|internal]
+  ```
 
-   ```bash
-   mg check
-   ```
+  or via [Github Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
 
-1. In the `$COMPANY` directory run `terraform fmt` and commit any changes
+  Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
 
-1. In the `$COMPANY` GCP project, create [Google Oauth credentials](https://console.cloud.google.com/apis/credentials?project=sourcegraph-managed-$COMPANY) with the following parameters:
+1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
+1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md). DO NOT use customer name in Pull Requests title nor commits/description, only issue number. Sample link: `https://github.com/sourcegraph/customer/issues/1125`
 
-   - type: Web Application
-   - name: `managed-instance-$COMPANY`
-   - Authorized redirect URIs:
-     - Is the instance **public**, then add **only** `https://$PROJECT_SLUG/.auth/callback`
-     - Is the instance **private**, then add **both** `https://$PROJECT_SLUG/.auth/callback` AND `http://localhost/.auth/callback`
+Note:
 
-1. Create a GCS secret to be used by OIDC authentication
+- GCP metrics monitoring and alerting is applied automatically via scheduled [Github Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
+- Security audit logging is applied automatically via a scheduled [GitHub Actions Worflow](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml)
 
-   ```bash
-   mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
-   ```
+## Optional: customise instance size
 
-1. Initialize the instance and copy the password reset link that is generated by running
+When based on the issue customer requires customisation (diffferent instance/DB/disk size or more executors), Cloud Team will modify the instance BEFORE giving access for customer!
 
-   > NOTE: if requested in the new MI request issue, add the CE email in `config.yaml`:
-   >
-   > ```
-   > additionalAdmins:
-   > - CE_NAME@sourcegraph.com
-   > ```
+Customisation is done via:
 
-   ```bash
-   mg init-instance $CUSTOMER_ADMIN_EMAIL
-   ```
+- modification of `terraform.tfvars` file
+- `cd $CUSTOMER && terraform apply`
 
-1. Go back to `terraform.tfvars` and set `enable_alerting` to `true`. Run `terraform apply` and verify that only `google_monitoring_alert_policy.primary` is created.
-1. Commit all changes
-1. Enable metrics collection and GCP alerts for the new instance:
+  in `$CUSTOMER/create-instance` branch of [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed).
 
-   - cd `monitoring`
-   - run `terraform apply`
+### Giving customer access
 
-1. Enable executors, [learn more](./mi1-1_enable_executors_process.md).
+Generate password reset link for customer:
 
-1. Commit the last changes, create a PR for review, apply and merge
+```bash
+mg reset-customer-password --email <customer admin email>
+```
 
-1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
-1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
+#cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
 
-## Giving the customer access
+```
+Hi,
 
-> NOTE: ⚠️ Before providing access to the customer, make sure that the GCP alerting policy has been created!
+The instance is ready. Would you kindly add 10 extra seats to the license so we can have a few extra seats for Sourcegraph management access?
 
-To provide the customer access to the instance:
+Here's the link to the password reset link <>. Please note the link will expire after 24 hours
+```
 
-1. If IP restrictions are requested, create and apply the Terraform change that grants their IP/CIDR ranges access to the instance, or makes it public/SSO-only, by following the [operations guide](../operations.md).
-2. Copy the generated link and provide it to the CE to provide to the customer. Managed instances usually won't have email set up, so a link will not be sent automatically. Inform the CE this link will expire after 24 hours. If the link expires before the customer was able to sign up, you can generate a new link with
-   ```bash
-   mg reset-customer-password --email <customer admin email>
-   ```
-3. Ask the CE to add 10 extra seats to the license, as we currently do not exclude DevOps admin accounts from the license usage.
+### Enable "private" mode
 
-## Configuring License, SSO, and repositories
+Some customers opt to restrict access to Sourcegraph instance to a limitied number of IP ranges (e.g. corporate VPN). Ensure CE has provided the customer IP allowlist. This is a prereq in the instance creation form.
 
-Delivery usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users.
+- Set `type=private` in `$CUSTOMER/config.yaml`
+- Set `public=false` in `$CUSTOMER/terraform.tfvars`
+- Add `allowed_customer_ip_ranges=["1.2.3.4/32"]` in `$CUSTOMER/terraform.tfvars`
+- Run `terraform apply`
 
-## Is customers using a private code host?
+### Is customers using a private code host?
 
 If the customers' code host is behind a firewall, we will need to provide them the IP of our Cloud NAT
 

@@ -23,7 +23,12 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 ### Who is eligible?
 
-Teammates who have completed **4-months tenure** by the start of the review period are eligible for an impact review. See the eligibility guidelines for Merit and Promotions further below.
+Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
+
+- **1st review (Q1) eligibility rule**
+  - Must be hired on or before October 1st of the prior calendar year
+- **2nd review (Q3) eligibility rule**
+  - Must be hired on or before April 1st of the current calendar year
 
 ### Who provides feedback?
 
@@ -131,7 +136,7 @@ Lattice resources:
 **Manager-to-Direct Report review:**
 
 - **Required questions:**
-  - How has this Teammate’s performance mapped to their career development framework over the past 6 months? To what extent did they meet their commitments?
+  - How has this Teammate’s performance mapped to the expectations of their role and level over the past 6 months? (Reference the career development framework if applicable). To what extent did they meet their commitments?
   - What are the areas in which you would like to see this person improve? (Please provide examples from the last 6 months).
   - How does this person’s behavior align with our values? (Provide 2-3 specific examples).
   - How do you see this person’s role evolving over the next 6 months? What are the key competencies that they should focus on?
@@ -311,6 +316,16 @@ We promote in alignment with our Impact Review process, to ensure Teammate growt
 
 The merit and promotion budget is held at the Department Leader-level and allocated as part of the financial planning period. Department Leadership may have to work with Finance to make a business case based on potential tradeoffs if divisions/departments are over/under budget during the calibration cycle.
 
+## Teammate enablement
+
+### Writing effective feedback & self reviews
+
+Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
+
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+
+Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
+
 ## Teammate FAQ
 
 Q. **Are Impact Reviews required for all Teammates?**
@@ -356,9 +371,12 @@ Q. **Is Impact Review training available for Managers and Teammates?**
 Q. **How should Teammates prepare to participate in an Impact Review?**
 
 - Some basic tips for preparation include:
+
   - Keep notes on accomplishments, feedback, training, and challenges throughout the review period
   - Review your team career frameworks and solicit feedback from cross-functional partners
   - Prepare discussion points for the Impact Review conversation
+
+- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 Q. **Will my Impact Review be negatively impacted if I do not answer the optional questions?**
 
@@ -370,19 +388,17 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 ---
 
-The below sections are COMING SOON and will be published before the Manager Review Writing portion
+The below sections are IN PROGRESS and will be published before the Manager Review Writing portion
 
 **# RESOURCES FOR MANAGERS**
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-**How to write an effective review**
+## Manager enablement
 
-COMING SOON
+### How to write an effective review\*\*
 
-**Examples of a good review**
-
-COMING SOON
+We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 **What comes after review writing**
 

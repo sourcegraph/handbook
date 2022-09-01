@@ -61,17 +61,12 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 ## Roadmap
 
-The Cloud team will define FY23 roadmap in upcoming weeks.
+The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/d/1H01OTNxXb2eobXLtgypJueVxqSz8Dh0IkgY9x5F8cBg/edit#gid=0).
 
-### Q2FY23 goals
+### Q3FY23 goals
 
-- Support up to 100 managed instances [without greatly increasing engineering capacity invested in maintenance](https://docs.google.com/document/d/1SvWVScwBtLdrvoVKB4tgSiqhv3MPBDjv6JbwqGnlLdg/edit#)
-  - [Migrate all managed instances to v 1.1 architecture](https://docs.google.com/document/d/1ZHOnZc6K0oLhnqbcFYyzvdqng2ZM4vhc8Ln20Q4piQ0/edit#heading=h.trqab8y0kufp)
-- Provision sourcegraph.sourcegraph.com as production grade managed instance for Sourcegraph team
-- [Support migration Sourcegraph.com customers to the Cloud](https://docs.google.com/document/d/1owIo8QA_omwnFqSfS5EKyIhd4SpMDdn7cZJrsvgjl-E/edit#heading=h.2vev9l6i9qrg)
-- Support SOC2 audit for managed instances
-- Enabling managed instances trials (limited capacity)
-- Finalize design & implementation plan of [RFC 706](https://docs.google.com/document/d/1pPS3xzv4pI5ZlliPrr1tkoOtvn-ZWxKVdYfNNHKVPHs/edit)
+- Support the initiative to [make the Cloud a preferred deployment method](https://docs.google.com/document/d/1IUFb2JkwqdLCf8B-FkiF40PyAFg50xfWnB6gQO2ViRQ/edit) from the platform and infrastructure perspective
+- [Cloud v2](https://docs.google.com/document/d/1GiOPJjuYrUahrZnENSLUCsujo2MCu2v_gw23SKNzE6E/edit#) - migrate current the Cloud (managed instances) from single-VM, Docker Compose based architecture to multi-node, GKE based architecture
 
 ## Team
 
@@ -79,7 +74,7 @@ The Cloud team will define FY23 roadmap in upcoming weeks.
 
 ## How to contact the team and ask for help
 
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for devops`.
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud`.
 - For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
 - For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
 
@@ -107,6 +102,10 @@ Customer Engineers (CE) or Sales may request to:
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
 - **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+- **Enable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+  - For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
+- **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+  - For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
 
 ### Workflow
 
@@ -219,7 +218,7 @@ Long-term, we will collaborate with [DevX team](../engineering/teams/dev-experie
 
 Cloud instances provisioned for customers run [released](../engineering/dev/process/releases/index.md#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
 
-Sourcegraph-owned instances can be updated more frequently (with versions that weren't officially released), [DevX team](../engineering/teams/dev-experience/index.md) will own continuous deployment to those environments.
+Sourcegraph-owned instances are continuously deployed (with versions that weren't officially released), [DevX team](../engineering/teams/dev-experience/index.md) owns continuous deployment to those environments.
 
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
@@ -242,7 +241,7 @@ mg --help
 
 > NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
 
-### FQA: How do I generate a password reset link for customer admin?
+### FAQ: How do I generate a password reset link for customer admin?
 
 > For #cloud engineers, run `mg reset-customer-password -email <>` and it will generate a 1password share link for you.
 
