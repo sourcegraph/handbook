@@ -6,7 +6,7 @@ This document is an overview of the processes followed by the implementation tea
 
 The primary input from pre-sales will be the TDD. The TDD, when completed, should include all technical information necessary for the implementation team to plan out a deployment for the newly signed customer. The TDD should be updated with information about lessons learned in the POC process and how the proof of concept design and deployment differs from the production design and deployment.
 
-For more information on how the pre-sales team will interact with the implementation team and hand off accounts, visit the [CE Implementation Handoff](/ce-implementation-handoff.md) page.
+For more information on how the pre-sales team will interact with the implementation team and hand off accounts, visit the [CE Implementation Handoff](ce-implementation-handoff.md) page.
 
 # Implementation Team Tasks and Responsibilities
 
