@@ -90,7 +90,7 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
   - 2023-03-04 to 2023-03-20 (2 weeks)
 - **Phase 5: Impact Review Cycle Ends**
   - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-01
-  - Compensation changes will go into effect 2022-04-01
+  - Compensation changes will go into effect 2023-04-01
 
 ## Impact Review process
 
