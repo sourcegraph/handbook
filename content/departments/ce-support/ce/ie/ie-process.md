@@ -99,3 +99,12 @@ For ongoing support and account management, the implementation team is responsib
 In addition, the implementation team is responsible for ensuring that the timeline information, deadlines, issues, and statuses of any tasks are accurate and up to date in the project plan.
 
 # Exit Criteria for the Implementation to be Considered Complete
+
+Implementation is considered to be completed when the Sourcegraph instance is deployed and operational. This includes infrastructure, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections and general site configuration). At this point, users are ready to be onboarded and trained by Customer Engineers. The list of confirmed tasks before considering implementation complete include, but are not limited to:
+
+- Full production infrastructure live
+- Sourcegraph Admin accounts provisioned
+- All code hosts included in original deployment scope synced and indexed
+- Admin training completed
+
+With these items complete, the Customer Engineer that will be working with the customer long term will be the primary owner of user onboarding, fielding questions from the customer, and ensuring the long term health of the account.
