@@ -35,6 +35,11 @@ Our users are passionate and provide excellent, regular feedback that we keep in
 
 Surveys allow researchers to ask questions at a scale that isn't possible with other research methods. Surveys are very useful in validating qualitative findings at much larger scales.
 
+# Scripts and proven activities
+
+- (One-page research plan template)[https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#]
+- [Useful, proven test activities for re-use](./useful-testing-activities.md)
+
 # Publishing results
 
 After research is complete, we publish our findings in the research in the [user research library](../../product/process/user_research/index.md#user-research-library) or share the resulting artifacts with the project team, and the broader company via internal channels. Research findings are valuable for future reference, so it's worth making sure they're [well-crafted asynchronous design artifacts](../artifacts/index.md).
