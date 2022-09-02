@@ -534,7 +534,6 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Coordinate design work across multiple teams</li>
           <li>Prioritize the most impactful initiatives to take on</li>
           <li>Drive excellence in the group’s design execution</li>
-          <li>When necessary, lead design work across multiple teams and projects</li>
           <li>Shares a long-term vision that influences the group’s roadmap</li>
         </ul>
       </td>
