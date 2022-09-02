@@ -26,6 +26,10 @@ If you're interested in which kind of data you can see for a given customer, you
 - Full pings: This self-hosted customer sends us all the aggregated, anonymoous data we outline [here](https://docs.sourcegraph.com/admin/pings#other-telemetry)
 - Full pings + user-level data: This managed instance customer sends us all the aggregated, anonymous data outlined in our [documentation](https://docs.sourcegraph.com/admin/pings#other-telemetry), in addition to anonymous, user-level, event stream data from our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts)
 
+#### Which data tool should I use for instance data?
+
+![Data tool flowchart](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/data_flow.png)
+
 ### Other data sources
 
 We also collect data from the following:
