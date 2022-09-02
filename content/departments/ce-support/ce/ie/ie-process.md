@@ -100,11 +100,16 @@ In addition, the implementation team is responsible for ensuring that the timeli
 
 # Exit Criteria for the Implementation to be Considered Complete
 
-Implementation is considered to be completed when the Sourcegraph instance is deployed and operational. This includes infrastructure, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections and general site configuration). At this point, users are ready to be onboarded and trained by Customer Engineers. The list of confirmed tasks before considering implementation complete include, but are not limited to:
+Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes completion of the necessary infrastructure for all customer environments, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration). While the long-term support resource will likely be executing a subset of tasks in parallel with the implementation (such as UAT and onboarding planning), the end of the implementation indicates the point at which the account will fully transition technical ownership to the Customer Engineers (or TAM if one exists). Once transitioned, the Customer Engineer will continue with long-term customer success activities such as user onboarding, training, expansion, account health management, and general support.
 
-- Full production infrastructure live
-- Sourcegraph Admin accounts provisioned
-- All code hosts included in original deployment scope synced and indexed
-- Admin training completed
+The list of tasks to be accomplished before considering an implementation complete include, but are not limited to:
 
-With these items complete, the Customer Engineer that will be working with the customer long term will be the primary owner of user onboarding, fielding questions from the customer, and ensuring the long term health of the account.
+- Full production infrastructure live and stable
+- Sourcegraph admin accounts provisioned and admins trained
+- All scoped code hosts synced and indexed
+- All scoped features are functioning as expected
+- The production instance achieves a sufficiently high level of performance
+- Standard workflow and performance tests completed
+- The production infrastructure is staged for long-term success with continued user and feature expansion
+- The production environment is right-sized (or a plan is in place to right-size the environemnt)
+- The production environment is on a current version
