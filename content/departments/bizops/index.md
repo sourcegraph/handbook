@@ -32,6 +32,5 @@ The Data & Analytics team is made up of Data Analytics, and Data Engineering. Th
 
 ## How we work
 
-- [Teammate onboarding](onboarding/index.md)
 - [Operating cadence/sprint planning](process/operating_cadence.md)
 - [Team processes](process/index.md)

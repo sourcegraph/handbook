@@ -502,6 +502,14 @@ mg update-golden -target $version
 
 Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
 
+### How to add feature flags?
+
+Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
+
+Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
+
+Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
+
 ## Disaster Recovery and Business Continuity Plan
 
 <span class="badge badge-note">SOC2/CI-110</span>
