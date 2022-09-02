@@ -37,7 +37,7 @@ Surveys allow researchers to ask questions at a scale that isn't possible with o
 
 # Scripts and proven activities
 
-- (One-page research plan template)[https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#]
+- [One-page research plan template](https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#)
 - [Useful, proven test activities for re-use](./useful-testing-activities.md)
 
 # Publishing results
