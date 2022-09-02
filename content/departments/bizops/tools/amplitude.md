@@ -32,9 +32,9 @@ Any analysis we conducted in Looker before we started using Amplitude we can con
 
 ### Pipeline
 
-1. Events are stored in the [dotcom_events.events_usage](<[url](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&_ga=2.7211002.912372869.1639779794-1385560724.1639779794&pli=1&ws=!1m5!1m4!4m3!1stelligentsourcegraph!2sdotcom_events!3sevents_usage)>)
-2. Incremental events are formatted to fit Amplitude's schema, enhanced with user properties (company name, company region, etc) in [this scheduled query](<[url](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/6319611b-0000-203e-8729-94eb2c0924fc/runs?project=telligentsourcegraph)>), and a JSON is created in a [GCS bucket](<[url](https://console.cloud.google.com/storage/browser/event-usage-to-amplitude/data/2022/08;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&project=telligentsourcegraph&prefix=&forceOnObjectsSortingFiltering=false)>).
-3. Every 5 minutes Amplitude checks for new data in the GCS bucket to ingest.
+1. Events are stored in the [dotcom_events.events_usage](https://console.cloud.google.com/bigquery?project=telligentsourcegraph&_ga=2.7211002.912372869.1639779794-1385560724.1639779794&pli=1&ws=!1m5!1m4!4m3!1stelligentsourcegraph!2sdotcom_events!3sevents_usage)
+2. Events are formatted to fit Amplitude's schema, enhanced with user properties (company name, company region, etc) in [this scheduled query](https://console.cloud.google.com/bigquery/scheduled-queries/locations/us/configs/6319611b-0000-203e-8729-94eb2c0924fc/runs?project=telligentsourcegraph), and a JSON is created in a [GCS bucket](https://console.cloud.google.com/storage/browser/event-usage-to-amplitude/data?project=telligentsourcegraph&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&prefix=&forceOnObjectsSortingFiltering=false).
+3. Every hour Amplitude checks for new data in the GCS bucket to ingest.
 
 ### Adding events to Amplitude
 
