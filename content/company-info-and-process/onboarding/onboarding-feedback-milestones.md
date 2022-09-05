@@ -37,7 +37,7 @@ During the new teammates’ first week with us, new teammates will find a task i
 
 New teammates are responsible for scheduling the meetings in Google Calendar.
 
-New teammates will receive a review form a month and 3 months after joining. They will have to complete and submit the questions in Lattice. The question will **not** be private and new teammates will see what managers have written and managers will see what their direct reports wrote too. 
+New teammates will receive a review form a month and 3 months after joining. They will have to complete and submit the questions in Lattice. The question will **not** be private and new teammates will see what managers have written and managers will see what their direct reports wrote too.
 
 **Teammate prep**
 
