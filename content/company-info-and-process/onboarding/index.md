@@ -129,4 +129,3 @@ Bonus: you can celebrate joining Sourcegraph by changing your LinkedIn backgroun
 - [Customer Support Managers](../../departments/ce-support/support/onboarding/customer-support-manager-onboarding.md)
 - [Sales team](../../departments/sales/onboarding/index.md)
 - [Product team](../../departments/engineering/product/onboarding/index.md)
-- [Business Operations & Strategy](../../departments/bizops/onboarding/index.md)

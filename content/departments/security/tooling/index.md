@@ -19,5 +19,5 @@ We use a combination of tools within the team to cover a number of different typ
 of vulnerability.
 
 - We use [Checkov](./checkov.md) to scan our Terraform infrastructure.
-- We use [Trivy](./trivy.md) to scan containers for issues with dependencies.
+- We use [Trivy](./trivy/index.md) to scan containers for issues with dependencies.
 - We use [SonarCloud](./sonarcloud.md) to scan our code in `sourcegraph/sourcegraph` for vulnerabilities

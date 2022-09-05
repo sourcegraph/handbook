@@ -197,8 +197,8 @@ search_contexts:
     perforce: true
     cvs: true
 
-search_based_code_intelligence:
-  title: Search-based Code Intelligence
+search_based_code_navigation:
+  title: Search-based code navigation
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/search_based_code_intelligence
@@ -225,8 +225,8 @@ search_based_code_intelligence:
     managed_instance: ga
     cloud: ga
 
-precise_code_intelligence_go:
-  title: Precise Code Intelligence for Go
+precise_code_navigation_go:
+  title: Precise code navigation for Go
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
@@ -253,8 +253,8 @@ precise_code_intelligence_go:
     managed_instance: ga
     cloud: ga
 
-precise_code_intelligence_jsts:
-  title: Precise Code Intelligence for JavaScript/TypeScript
+precise_code_navigation_jsts:
+  title: Precise code navigation for JavaScript/TypeScript
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
@@ -281,8 +281,8 @@ precise_code_intelligence_jsts:
     managed_instance: partial_ga
     cloud: partial_ga
 
-precise_code_intelligence_java_scala_kotlin:
-  title: Precise Code Intelligence for Java, Scala & Kotlin
+precise_code_navigation_java_scala_kotlin:
+  title: Precise code navigation for Java, Scala & Kotlin
   product_team: code_intelligence
   maturity: ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
@@ -309,8 +309,8 @@ precise_code_intelligence_java_scala_kotlin:
     managed_instance: ga
     cloud: ga
 
-precise_code_intelligence_c_cpp:
-  title: Precise Code Intelligence for C/C++
+precise_code_navigation_c_cpp:
+  title: Precise code navigation for C/C++
   product_team: code_intelligence
   maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
@@ -337,23 +337,23 @@ precise_code_intelligence_c_cpp:
     managed_instance: partial_ga
     cloud: partial_ga
 
-precise_code_intelligence_python:
-  title: Precise Code Intelligence for Python
+precise_code_navigation_python:
+  title: Precise code navigation for Python
   product_team: code_intelligence
   maturity: not_implemented
 
-precise_code_intelligence_csharp:
-  title: Precise Code Intelligence for C#
+precise_code_navigation_csharp:
+  title: Precise code navigation for C#
   product_team: code_intelligence
   maturity: not_implemented
 
-precise_code_intelligence_ruby:
-  title: Precise Code Intelligence for Ruby
+precise_code_navigation_ruby:
+  title: Precise code navigation for Ruby
   product_team: code_intelligence
   maturity: not_implemented
 
-precise_code_intelligence_auto_indexing:
-  title: Precise Code Intelligence auto-indexing
+precise_code_navigation_auto_indexing:
+  title: Precise code navigation auto-indexing
   product_team: code_intelligence
   maturity: experimental
   deployment:
