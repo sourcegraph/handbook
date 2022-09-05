@@ -225,6 +225,10 @@ Sourcegraph-owned instances are continuously deployed (with versions that weren'
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
 Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
 
+### FAQ: Does Cloud support data migrations?
+
+Cloud instances are created without any customer data, and Cloud team does not have a process for importing data from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
+
 ### FAQ: How to use mg cli for Managed Instances operations?
 
 ```sh
