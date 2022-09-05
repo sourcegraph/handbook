@@ -2,9 +2,9 @@
 
 ## Purpose
 
-The purpose of Onboarding Reviews is to gather specific data from new hires within the life-cycle of their onboarding journey. It does not replace 1:1s and should not be a cumbersome or duplicate process to continuous feedback loops. 
+The purpose of Onboarding Reviews is to gather specific data from new hires within the life-cycle of their onboarding journey. It does not replace 1:1s and should not be a cumbersome or duplicate process to continuous feedback loops.
 
-We want our new teammates and managers to be supported through frameworks that enable effective two-way conversations between them throughout the onboarding process - focusing on what’s on track and what needs action, the new teammates’ contribution, and alignment to our values. Such conversations enable Teammates to better understand their performance and how well they’re adapting to their new role. 
+We want our new teammates and managers to be supported through frameworks that enable effective two-way conversations between them throughout the onboarding process - focusing on what’s on track and what needs action, the new teammates’ contribution, and alignment to our values. Such conversations enable Teammates to better understand their performance and how well they’re adapting to their new role.
 
 ## Check-ins
 
@@ -12,7 +12,7 @@ We want our new teammates and managers to be supported through frameworks that e
 
 ### People Team
 
-- **Month 1 - 15 min check-in with Inés_ _**(or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work. Our aim is to minimize any anxiety, provide reassurance where needed, and help deliver the very best onboarding experience for all new hires.
+- **Month 1 - 15 min check-in with Inés\_ \_**(or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work. Our aim is to minimize any anxiety, provide reassurance where needed, and help deliver the very best onboarding experience for all new hires.
 - **Month 6 - 20 min check-in with People Partner** to connect with Teammates once they have become proficient at their role here at Sourcegraph. The purpose of this conversation is to ensure long-term retention of teammates, continued strong performance, and give Teammates the chance to provide feedback on the onboarding process with the perspective 6 months at our organization brings.
 
 ### Manager

@@ -55,8 +55,10 @@ Keep in mind managers may define expectations differently to fit the team, the m
 ### Review Questions
 
 #### New teammates questions
+
 **Month 1**
-- How are you feeling about your new role and experience at Sourcegraph so far? (Free form - required) 
+
+- How are you feeling about your new role and experience at Sourcegraph so far? (Free form - required)
 - How well have the training & resources guided your onboarding journey? Did we meet your expectations? (Rating Scale + Free Form - required)
 - If you could describe onboarding in one sentence, what would it be? (Free form - optional)
 - Is there anything you need help with? What are the biggest obstacles you have encountered so far? (Free form)
@@ -64,20 +66,21 @@ Keep in mind managers may define expectations differently to fit the team, the m
 - Any additional feedback?
 
 **Month 3**
-- Did the onboarding process meet your expectations? What could we have done better? Please describe. (Free form - required) 
+
+- Did the onboarding process meet your expectations? What could we have done better? Please describe. (Free form - required)
 - Do you feel connected to your teammates? Is there anything that would help you feel more connected? (Free form - optional)
-- When you have questions about your work, do you have the resources to get them resolved?  Do you need more time with your onboarding buddy or manager? (Free form - required) 
-- How clearly do you understand what is expected of you? (Free Form  - required)
+- When you have questions about your work, do you have the resources to get them resolved? Do you need more time with your onboarding buddy or manager? (Free form - required)
+- How clearly do you understand what is expected of you? (Free Form - required)
 - How would you rate your performance thus far? (Rating Scale + Free Form - required)
 - What can your manager or teammates do to better support you? (Free form - optional)
 
 #### Manager Questions
+
 **Month 1 & 3**
 
 - How did this person’s performance map against the expected onboarding goals? (Rating Scale + Free Form - required)
 - How well is this person collaborating with you and their teammates? (Rating Scale + Free Form - required)
-- What areas of coaching do they need to ramp up to the role expectations? (Free Form  - required)
+- What areas of coaching do they need to ramp up to the role expectations? (Free Form - required)
 - How does this person’s behavior compare to our values? (Rating Scale + Free Form - required)
 - Overall, the teammate had a successful onboarding process (Rating Scale + Free Form - required)
 - Is there anything more the PeopleOps team could have done to make their onboarding a success? (Free form - optional)
-
