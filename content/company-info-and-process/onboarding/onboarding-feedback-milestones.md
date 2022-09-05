@@ -31,11 +31,20 @@ The manager and the Direct Report will receive a review to complete 25 and 85 da
 
 Once the reviews are complete, manager and direct report will meet synchronously to talk about what is going well, what needs attention, and what the next steps are. You must complete both reviews before meeting.
 
-### New teammate: Getting the meetings understood & scheduled
+### New teammate: What to expect
 
 During the new teammates’ first week with us, new teammates will find a task in their Process.St checklist called **Understanding your impact**. Visit your (or your direct report's) [Process.St](https://app.process.st/reports/saved-views/jximA08020M34hrr8fZGsQ) checklist to read more about it.
 
 New teammates are responsible for scheduling the meetings in Google Calendar.
+
+New teammates will receive a review form a month and 3 months after joining. They will have to complete and submit the questions in Lattice. The question will **not** be private and new teammates will see what managers have written and managers will see what their direct reports wrote too. 
+
+**Teammate prep**
+
+- check onboarding checklist,
+- have list of values and examples ready,
+- have OKRs and examples ready,
+- think about examples of what your manager can do to support you better
 
 ### Managers: What to expect
 
