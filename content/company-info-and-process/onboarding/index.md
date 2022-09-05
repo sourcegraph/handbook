@@ -75,9 +75,9 @@ We don't expect you to know everything by the time stated in each task. We know 
 
 For the most part, this is a self paced process, tasks and content is presented in sequence, but you are free to organize your own time. However, some tasks are mandatory. Please see [this handbook page](onboarding-checklist.md) to understand more about the checklist and the mandatory tasks.
 
-## Onboarding check-ins
+## Onboarding Reviews
 
-There are different instances of [onboarding check ins](onboarding-check-ins.md).
+There are different instances of [onboarding reviews](onboarding-reviews.md).
 
 ### One month check-in
 

@@ -25,15 +25,23 @@ Following our [standards of success](./index.md#onboarding-standards-and-success
 - open conversation and build trust
 - get a feel for if they’re going to succeed and action if they aren’t (keep in mind teammates should be participating in projects by month 2 and owning projects by month 3)
 
-## New teammate: Getting the meetings understood & scheduled
+## Lattice reviews
 
-During the new teammates’ first week with us, they will find a task in their Process.St checklist called **Understanding your impact**. Visit your (or your direct report's) [Process.St](https://app.process.st/reports/saved-views/jximA08020M34hrr8fZGsQ) checklist to read more about it.
+The manager and the Direct Report will receive a review to complete 25 and 85 days after start date. The questions for these forms are different, but the answers will be shared with both parties after it's closed.
 
-## Managers: What to expect
+Once the reviews are complete, manager and direct report will meet synchronously to talk about what is going well, what needs attention, and what the next steps are. You must complete both reviews before meeting.
+
+### New teammate: Getting the meetings understood & scheduled
+
+During the new teammates’ first week with us, new teammates will find a task in their Process.St checklist called **Understanding your impact**. Visit your (or your direct report's) [Process.St](https://app.process.st/reports/saved-views/jximA08020M34hrr8fZGsQ) checklist to read more about it.
+
+New teammates are responsible for scheduling the meetings in Google Calendar.
+
+### Managers: What to expect
 
 To help facilitate these onboarding feedback milestones, we have developed check-ins in Lattice that will be active at the end of month 1 and 3. You will be given structured questions that serve as a guideline for you to have those important conversations pertinent to the onboarding process. The onboarding feedback milestones serve as a conversation guide and the answers serve as notes that you can reference to assess their onboarding success.
 
-The question or topic notes will **not** be private and new teammates will see what managers have written as the conversations notes will be shared with the teammate. It is important to note that summaries are not required anymore at the end of your review.
+The question or topic notes will **not** be private and new teammates will see what managers have written as the reviews will be shared with the teammate. It is important to note that summaries are not required at the end of your review.
 
 Keep in mind managers may define expectations differently to fit the team, the most important thing is that teammates should feel they know what is expected of them, whether that is done through a 30/60/90 framework, personal OKRs, or through other means.
 
@@ -42,13 +50,34 @@ Keep in mind managers may define expectations differently to fit the team, the m
 - check onboarding checklist,
 - have list of values and examples ready,
 - have OKRs and examples ready,
-- Think about the project in which the teammate is participating and their performance
+- think about the project in which the teammate is participating and their performance
 
-**The conversation**
+### Review Questions
 
-- _“We’re having this meeting so we can check in on how you’re tracking, both in your contribution and how you’re living the values. I’m going to ask some questions, but let’s keep this an informal conversation, feel free to speak up or ask questions at any time.”_
-- Help me get a broad idea of how you’re doing
-- Talk me through what’s on track with 1) your OKRs and 2) how well you think you’re living our values? THEN manager feedback with examples and impact.
-- Talk me through what you think needs attention with 1) your OKRS and 2) how well you think you’re living our values? THEN manager feedback with examples and suggestions for development
-- Are you clear on your individual expectations and the team’s OKRs, and next steps to getting there? Is there anything that might prevent you from getting there?
-- What could I be doing 10% more of to help you succeed?
+#### New teammates questions
+**Month 1**
+- How are you feeling about your new role and experience at Sourcegraph so far? (Free form - required) 
+- How well have the training & resources guided your onboarding journey? Did we meet your expectations? (Rating Scale + Free Form - required)
+- If you could describe onboarding in one sentence, what would it be? (Free form - optional)
+- Is there anything you need help with? What are the biggest obstacles you have encountered so far? (Free form)
+- Are you clear on expectations? Is your manager providing you with continuous feedback and guidance? (Free form - required)
+- Any additional feedback?
+
+**Month 3**
+- Did the onboarding process meet your expectations? What could we have done better? Please describe. (Free form - required) 
+- Do you feel connected to your teammates? Is there anything that would help you feel more connected? (Free form - optional)
+- When you have questions about your work, do you have the resources to get them resolved?  Do you need more time with your onboarding buddy or manager? (Free form - required) 
+- How clearly do you understand what is expected of you? (Free Form  - required)
+- How would you rate your performance thus far? (Rating Scale + Free Form - required)
+- What can your manager or teammates do to better support you? (Free form - optional)
+
+#### Manager Questions
+**Month 1 & 3**
+
+- How did this person’s performance map against the expected onboarding goals? (Rating Scale + Free Form - required)
+- How well is this person collaborating with you and their teammates? (Rating Scale + Free Form - required)
+- What areas of coaching do they need to ramp up to the role expectations? (Free Form  - required)
+- How does this person’s behavior compare to our values? (Rating Scale + Free Form - required)
+- Overall, the teammate had a successful onboarding process (Rating Scale + Free Form - required)
+- Is there anything more the PeopleOps team could have done to make their onboarding a success? (Free form - optional)
+
