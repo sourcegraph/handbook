@@ -1,4 +1,4 @@
-# New-hire Onboarding Review Process
+# Onboarding Review Process
 
 ## Purpose
 
