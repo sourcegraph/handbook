@@ -163,7 +163,25 @@ In an effort to work closely with our teammates and shift security focus more in
 
 ## Interviews
 
-- [Application security walkthrough](./appsec-walkthrough.md)
+Interviews for candidates looking to join the Security team broadly follow the
+[standard interview process][interview-process], with two security-specific
+technical interviews. The nature of the technical interview will depend on the
+depth of your prior security experience.
+
+For early career security engineers, there will be two case-study based technical
+interviews. The case studies will look at different areas of your security-based
+knowledge in the context of real-world examples that you might encounter during
+your time at Sourcegraph.
+
+Experienced security engineers will have one resume-based technical deep dive,
+which will cover prior experience in the security field, and how this experience
+might be relevant to Sourcegraph. The second technical interview is an
+[application security walkthrough](./appsec-walkthrough.md), where candidates will
+walk us through a code example of their choice and discuss how they would review
+it from a security perspective.
+
+If you are unsure about which interview set you will be doing, reach out to the
+recruiter you are working with for more information!
 
 ## Onboarding
 
@@ -179,7 +197,7 @@ that we maintain.
 
 ## Responsibilities
 
-- Proactively improve the security of our application and infrastructure.
+- Proactively improve the security of our application and infrastructure. Includes [continuous code reviews](./continuous-code-review-process.md)
 - Define, plan, and prioritize security work that needs to be done (and then go do that work).
 - Directly contribute to our codebase (i.e., Go, TypeScript, Kubernetes, Docker, Google Cloud Platform) to secure our application and deployments, and help other engineers on our team make the necessary changes.
 - [Respond to security vulnerability reports](#how-we-respond-to-security-vulnerability-reports)
@@ -200,3 +218,5 @@ We are responsible for maintaining company-wide security policies. You can find 
 # Misc Links
 
 - [Code Ownership Matrix](../engineering/dev/process/engineering_ownership.md)
+
+[interview-process]: ../people-talent/talent/process/engineering_interview_process_candidates.md#standard-interview-process

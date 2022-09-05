@@ -2535,12 +2535,6 @@ tom_pinckney:
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
 
-sanjeev_sekar:
-  name: Sanjeev Sekar
-  role: Engineering Manager
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-
 gary_lee:
   name: Gary Lee
   role: Software Engineer
@@ -2574,7 +2568,7 @@ vincent_ruijter:
 james_cotter:
   name: James Cotter
   role: Software Engineer
-  reports_to: engineering_manager_delivery
+  reports_to: cto
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
@@ -2609,3 +2603,14 @@ sam_johns:
   github: scjohns
   links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
   description: 'A native to the hills of Upstate NY, Sam has lived in the DC metro area for most of his professional career, relocating shortly after graduating from Syracuse University with a degree in music. He loves golfing, smoking BBQ, drinking whisky, and watching sports.'
+
+will_dollman:
+  name: Will Dollman
+  email: will.dollman@sourcegraph.com
+  github: willdollman
+  pronouns: he/him
+  role: Security Engineer
+  reports_to: engineering_manager_security
+  location: Bristol, UK 🇬🇧
+  links: '[LinkedIn](https://linkedin.com/in/willdollman/)'
+  description: "Will lives in Bristol, UK with his wife, two cats (Buzz and Matilda), and too many houseplants to name 🌿. He's worked on a wide range of software projects through his career, but always comes back to security. Will loves reading, photography, video games (Nintendo for preference), cheese, and has recently taken up running - which he uses to justify the quantity of cheese that he eats."
