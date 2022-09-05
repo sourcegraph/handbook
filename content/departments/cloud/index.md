@@ -227,7 +227,7 @@ Future work in this area is owned by [Analytics team](../bizops/index.md) and ma
 
 ### FAQ: Does Cloud support data migrations?
 
-Cloud instances are created without any customer data, and Cloud team does not have a process for importing data from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
+Cloud instances are created without any customer data, and Cloud team does not support importing data (repos / code-host connections / code / user accounts / code insights etc.) from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
 
 ### FAQ: How to use mg cli for Managed Instances operations?
 
