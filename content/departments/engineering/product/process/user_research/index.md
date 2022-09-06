@@ -35,3 +35,7 @@
   - Loom discussing the research [part 1](https://www.loom.com/share/f775af94c06a4446a31fcc600332f2f5), [part 2](https://www.loom.com/share/13e0e6d2e035409db1173c13428f090a), [part 3](https://www.loom.com/share/8907c7413b6a4162a5cb819d9584d908)
 - **Search use cases** - A document describing the high level categories of code search use cases and use cases for each category. It also provides user studies for use cases where available.
   - [Search use cases](https://docs.google.com/document/d/1JWR5tQrq8df6OMNdYFk6tPPdVDadZgcMQbB-kdaYKBk/edit#heading=h.ivm56981fogr)
+- **Search home content** – This study explored the search home chips as a solution to the problems identified in [#39817](https://github.com/sourcegraph/sourcegraph/issues/39817)
+  - [GitHub issue with problem statements, context, and hypotheses](https://github.com/sourcegraph/sourcegraph/issues/39817)
+  - [Research plan](https://docs.google.com/document/d/1DUEguOpi9ZoYMIn_ZWhPLz77c0hKVU2roQhbzFnQ1io/edit#)
+  - [Research insights and opportunities findings](https://docs.google.com/document/d/1e-R8mNQnZJTzc50Vlv1uvakbOsPFz0FwTnmYKk7whxs/edit#)

@@ -43,8 +43,10 @@ Sales compensation will be aligned with the value Sourcegraph receives from a cu
 
 ### Subscription Renewals:
 
-- If a customer intends not to renew, we continue to recognize that customer’s current subscription/ARR until the last day of the subscription term
-  A subscription renewal requires a signed Order Form
+A subscription renewal requires a signed Order Form.
+
+- If a customer intends not to renew, we continue to recognize that customer’s current subscription/ARR until the last day of the subscription term.
+  Churn will fall on subscription term end date + 1 day regardless of the date the customer notifies Sourcegraph.
 
 - If a subscription term ends and a renewal has not yet been completed:
 
