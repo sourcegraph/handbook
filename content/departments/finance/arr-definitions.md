@@ -42,10 +42,11 @@ _FY23 sales forecasting and reporting will be anchored off of IARR recognition a
 Sales compensation will be aligned with the value Sourcegraph receives from a customers annual commitment and is currently being discussed. In other words, aligning sales comp with our ARR definition and the long-term best interests of the company is a priority and we do not plan on promoting a scenario where an AE is financially incentivized to sell / structure a customer contract in a way that is eroding value to Sourcegraph
 
 ### Subscription Renewals:
+
 A subscription renewal requires a signed Order Form.
 
 - If a customer intends not to renew, we continue to recognize that customer’s current subscription/ARR until the last day of the subscription term.
-   Churn will fall on subscription term end date + 1 day regardless of the date the customer notifies Sourcegraph.
+  Churn will fall on subscription term end date + 1 day regardless of the date the customer notifies Sourcegraph.
 
 - If a subscription term ends and a renewal has not yet been completed:
 
