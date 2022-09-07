@@ -28,7 +28,7 @@ If you're interested in which kind of data you can see for a given customer, you
 
 #### Which data tool should I use for instance data?
 
-![Data tool flowchart](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/data_flow.png)
+![Data tool flowchart](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/data_workflow.png)
 
 ### Other data sources
 
