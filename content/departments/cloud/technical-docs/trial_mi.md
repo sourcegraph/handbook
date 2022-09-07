@@ -10,6 +10,8 @@ All process are same as for production Managed Instances (for paying customers):
 - [security](./index.md#security)
 - [monitoring](./index.md#monitoring-and-alerting)
 
+## Difference from production instances
+
 The difference from production Managed Instances:
 
 1. During the trial period, Sourcegraph is covering all the infrastructure and licence costs.
