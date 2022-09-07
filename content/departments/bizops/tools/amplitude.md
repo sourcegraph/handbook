@@ -29,7 +29,7 @@ Anything not based directly on analyzing event-level data is in Looker. This inc
 
 | Type of analysis                  | Tool      | Example                                                                                                                                        |
 | --------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Retention drivers                 | Amplitude | [Link](<[https://analytics.amplitude.com/sourcegraph/chart/zlj82e0](https://analytics.amplitude.com/sourcegraph/chart/rqbignv?source=search)>) |
+| Retention drivers                 | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/rqbignv?source=search) |
 | On-prem instances/pings           | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/174)                                                                                     |
 | Managed instance event-level data | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)                                                         |
 
