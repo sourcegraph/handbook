@@ -51,7 +51,7 @@ A subscription renewal requires a signed Order Form.
 - If a subscription term ends and a renewal has not yet been completed:
 
   - The customer subscription ends the day after the subscription term end date + 1 day; churn will also fall on subscription term end date + 1 day.
-  - Churn will not be recognized upon subscription term end date +1 day only in the event of both VP of Sales and VP of Finance written approval in response to a request for a subscription contract extension.
+  - Churn will not be recognized upon subscription term end date +1 day only in the event of both VP of Sales and VP of Finance written approval in response to a request for a subscription contract extension. Approvals should be requested in the #deal-desk channel.
   - A contract extension request will be evaluated on a case-by-case basis, not exceeding 30 calendar days from the last date of the initial subscription term end date.
   - Customer churn is voided upon a completed renewal order form. A completed renewal order form includes customer signatures with a signature date falling on or before the last day of the Sourcegraph approved contract extension term. A completed renewal order form will have a term start equal to the subsequent date of the prior contract term end date + 1 day.
 
