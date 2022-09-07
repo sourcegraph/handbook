@@ -18,7 +18,7 @@ In special circumstances, such as a bridge extension being requested due to the 
 
 In most circumstances, license keys match the renewal dates on an account contract and are generated well ahead of time. Sometimes, license keys deviate from this format due to product trials and other special circumstances. If a license key is imminently expiring or has expired, follow these steps:
 
-1. Check with the account's Customer Engineer & Account Executive, as well as the Salesforce Account record and the account running notes. This will help you understand any special context surrounding the current license key tags and expiration dates. 
+1. Check with the account's Customer Engineer & Account Executive, as well as the Salesforce Account record and the account running notes. This will help you understand any special context surrounding the current license key tags and expiration dates.
 2. Grab the contract end date by going to the Account page in Salesforce to look up the `"Active Contract Period End"`.
 3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags and user count as the existing key (make sure to comma separate each tag) and use the `"Active Contract Period End"` as the expiration date.
 4. Send the new license key to the customer (follow the process outlined below).
