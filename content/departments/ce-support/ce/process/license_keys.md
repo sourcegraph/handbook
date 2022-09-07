@@ -10,11 +10,15 @@ For a new trial, create a _new_ subscription. You will only use this for the tri
 
 When the customer converts, create a _new_ subscription; do not reuse the trial subscription. (Follow the instructions below from start to finish.) This is to ensure data accuracy for the Sales Ops team.
 
+## A note on license extensions outside of contractual terms
+
+In special circumstances, such as a bridge extension being requested due to the renewal process not aligning with license expiration, Sales must receive approval from the VP of Finance and VP of Sales. This approval is granted via request in #deal-desk. If an AE requests a deviation from their contract licensing terms, please validate that the necessary approvals have been granted before making any changes to a customers' license key.
+
 ## How to reissue a license key for an expiring license
 
 In most circumstances, license keys match the renewal dates on an account contract and are generated well ahead of time. Sometimes, license keys deviate from this format due to product trials and other special circumstances. If a license key is imminently expiring or has expired, follow these steps:
 
-1. If possible, check with the account's Customer Engineer & Account Executive, as well as the account running notes. This will help you understand any special context surrounding the current license key tags and expiration dates. The account team may opt to extend a product trial key for a specific amount of time.
+1. Check with the account's Customer Engineer & Account Executive, as well as the Salesforce Account record and the account running notes. This will help you understand any special context surrounding the current license key tags and expiration dates. 
 2. Grab the contract end date by going to the Account page in Salesforce to look up the `"Active Contract Period End"`.
 3. Follow the process below for generating a renewal license key. Unless otherwise noted during Step 1, use the same exact tags and user count as the existing key (make sure to comma separate each tag) and use the `"Active Contract Period End"` as the expiration date.
 4. Send the new license key to the customer (follow the process outlined below).
