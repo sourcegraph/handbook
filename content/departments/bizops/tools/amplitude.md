@@ -27,11 +27,11 @@ Looker is very flexible in that we can set it up for any purpose we'd like. The 
 
 Anything not based directly on analyzing event-level data is in Looker. This includes [pings from on-prem instances](https://docs.sourcegraph.com/admin/pings), anything we get from the [Cloud Postgres database](https://github.com/sourcegraph/sourcegraph/blob/main/internal/database/schema.md) and any data from third-parties tools (such as Google Analytics and Salesforce).
 
-| Type of analysis                  | Tool      | Example                                                                                                                                        |
-| --------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Retention drivers                 | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/rqbignv?source=search) |
-| On-prem instances/pings           | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/174)                                                                                     |
-| Managed instance event-level data | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)                                                         |
+| Type of analysis                  | Tool      | Example                                                                                |
+| --------------------------------- | --------- | -------------------------------------------------------------------------------------- |
+| Retention drivers                 | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/chart/rqbignv?source=search)        |
+| On-prem instances/pings           | Looker    | [Link](https://sourcegraph.looker.com/dashboards-next/174)                             |
+| Managed instance event-level data | Amplitude | [Link](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace) |
 
 Any analysis we conducted in Looker before we started using Amplitude we can continue doing in Looker. We'll still maintain existing Looker dashboards and visualizations. Amplitude will help us conduct new and different analyses regarding product analytics.
 
