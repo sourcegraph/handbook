@@ -940,7 +940,7 @@ Refer to the natural noun of the product or feature directly.
 
 ### Sourcegraph Cloud
 
-When talking about about Sourcegraph Cloud, we should:
+When talking about Sourcegraph Cloud, we should:
 
 - Position Sourcegraph Cloud as something you sign up for, not something you request access to.
 - Use language that highlights the absolute benefits of single-tenant Cloud: dedicated, isolated, secure, etc.
