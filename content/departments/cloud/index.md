@@ -91,6 +91,10 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 - Customers are comfortable with [security implication](technical-docs/index.md#security) of using a managed instance
 - Customers' code host should be accessible publically or able to allow incoming traffic from Sourcegraph-owned static IP addresses. _(Notes: we do not have proper support for other connectivity methods, e.g. site-to-site VPN)_
 
+## Trial Managed Instances (aka PoC)
+
+[Documentation](./technical-docs/trial_mi.md)
+
 ## Managed Instance Requests
 
 Customer Engineers (CE) or Sales may request to:
