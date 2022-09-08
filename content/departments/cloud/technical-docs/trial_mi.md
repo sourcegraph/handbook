@@ -26,16 +26,16 @@ The difference from production Managed Instances:
 
 ## Request Trial Managed Instance
 
-[Requesting Trial Managed Instance](../index.md#managed-instance-requests) process is similar to production once, with 2 differences:
+[Requesting Trial Managed Instance](../index.md#managed-instance-requests) process is similar to production one, with 2 differences:
 
-- in New Managed Instance Template CE explicitly sign trial via `Is trial/PoC instance? true`
+- in New Managed Instance Template CE explicitly mark trial via `Is trial/PoC instance? true`
 - CE adds Github label `cloud-trial` to New Managed Instance Github issue
-  When New Trial Managed Instance is requested and `cloud-trial` Github label is added, [Cloud Team]() is notified and will create Trial Managed Instances under [New Trial Create Request SLA]()
+  When New Trial Managed Instance is requested and `cloud-trial` Github label is added, [Cloud Team](../../cloud/index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
 
 ## New Trial Managed Instance create SLA
 
-SLA for create new Trial Managed Instances is XX hours inside [Cloud Team]() operating hours - from XX-YY UTC.
-If request is creatd outside of operating hours, new Trial Instance will be created under SLA in first working day following request day.
+SLA for create new Trial Managed Instances is 1 hour within [Cloud Team](../../cloud/index.md#team) office hours - Monday to Friday - 7:00 AM GMT - 10:00 PM GMT.
+If request is creatd outside of [Cloud Team](../../cloud/index.md#team) office hours, new Trial Instance SLA is 1 business day.
 
 ## Architecture
 
@@ -53,6 +53,19 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 
 ## Convert trial to paying customer
 
+When customer has decided to sign the deal, CE will inform [Cloud Team](../../cloud/index.md#team) via comment in Managed Instance Creation issue. [Cloud Team](../../cloud/index.md#team) will modify GCP label `instance-type=production`.
+
 ## Teardown Trial Managed Instance
 
 when trial expires and customer do not wish to sign the deal, CE will open [Teardown Managed Instance request](../index.md#managed-instance-requests)
+
+## FAQ
+
+1. How to check trial Managed Instances owned by Customer Engineer
+
+- open [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml)
+- click `Run workflow`
+- choose `Instance type` -> `trial` (required)
+- type `CE email responsible for Managed Instances` -> CE email (optional, without it will list all trials)
+
+For other questions please use [Managed Instance FAQ](../index.md#faq)
