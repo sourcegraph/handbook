@@ -30,10 +30,11 @@ The difference from production Managed Instances:
 - instance requestor adds Github label `cloud-trial` to New Managed Instance Github issue
   When New Trial Managed Instance is requested and `cloud-trial` Github label is added. [Cloud Team](../../cloud/index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
 
+> NOTE: The "cloud-trial" label added to the instance creation request GH issue is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
+
 ## New Trial Managed Instance create SLA
 
-SLA for create new Trial Managed Instances is 1 hour within [Cloud Team](../../cloud/index.md#team) office hours - Monday to Friday - 7:00 AM GMT - 10:00 PM GMT.
-If request is creatd outside of [Cloud Team](../../cloud/index.md#team) office hours, new Trial Instance SLA is 1 business day.
+[SLA for trial Managed Instance creation](../index.md#slas-for-managed-instances)
 
 ## Architecture
 
