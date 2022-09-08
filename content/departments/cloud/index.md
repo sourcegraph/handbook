@@ -265,6 +265,10 @@ Open 1password, and create a new Secure Note item and paste the password reset u
 
 This ensures only the customer admin is able to gain access to the password reset url.
 
+### FAQ: I have a new feature I want to deploy to Cloud, how do I do that?
+
+Read through our [Cloud Cost Policy](cloud-cost.md)
+
 ### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
 
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
