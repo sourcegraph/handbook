@@ -12,9 +12,9 @@ Before we can proceed with writing code monitors, it is important to define what
 
 That’s why we have defined a set of interactions that can be dangerous. Especially when a user manages to inject unsanitized data in a function call. Typical examples include interactions with:
 
-Operating system interfaces (e.g., filesystem, execution environment, sockets);
-External services (e.g. HTTP with user input, outgoing webhooks, gRPC);
-Cryptographic libraries (e.g. TLS, encryption or hashing of user-data).
+- Operating system interfaces (e.g., filesystem, execution environment, sockets);
+- External services (e.g. HTTP with user input, outgoing webhooks, gRPC);
+- Cryptographic libraries (e.g. TLS, encryption or hashing of user-data).
 
 If an attacker has (partial) control over the data that, for example, gets passed to a Golang exec call, it might lead to a command execution bug. Most of these interactions can lead to vulnerabilities as described in the [OWASP top 10](https://owasp.org/Top10/).
 
