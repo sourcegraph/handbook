@@ -269,16 +269,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Oleg Gromov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.72396, 47.210317]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Ólafur Páll Geirsson"
             },
             "geometry": {
@@ -893,16 +883,6 @@
             "type": "Feature",
             "properties": {
                 "name": "Randell Callahan"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.739235, -104.99025]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Brienne McNally"
             },
             "geometry": {
                 "type": "Point",

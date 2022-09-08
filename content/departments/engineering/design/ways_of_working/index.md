@@ -23,4 +23,4 @@ It’s important that when we’re working as design consultants, we’re settin
 
 We each work as a member of the product design team. As a team, we’re responsible for the discipline of product design at Sourcegraph. This includes defining the team culture, rituals, expectations, tooling, and processes, as well as supporting each other’s growth and helping each other to be successful as product designers at Sourcegraph.
 
-As a product design team, we create space for our own [team rituals](../team_rituals/index.md), regularly request and provide feedback in [design critiques](../design_critiques/index.md), advocate for our [design principles](../product_design_principles.md) through our actions, and promote design thinking and creativity across Sourcegraph.
+As a product design team, we create space for our own [team rituals](../team_rituals/index.md), regularly request and provide feedback in [design collaboration and review](../design_collaboration_review/index.md), advocate for our [design principles](../product_design_principles.md) through our actions, and promote design thinking and creativity across Sourcegraph.

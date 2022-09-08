@@ -82,7 +82,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Company-travel](../../benefits-pay-perks/benefits-perks/travel/index.md)
 - Equity
   - [Equity FAQ](../../benefits-pay-perks/pay-expenses/compensation/equity-faq.md)
-  - Carta
+  - [Carta](people-ops/tools/people-ops-faqs.md#equity-plan)
 - [Paid Time Off (PTO) policy](../../benefits-pay-perks/benefits-perks/time-off/index.md)
   - [Submitting time off](../../benefits-pay-perks/benefits-perks/time-off/submitting-time-off.md)
   - [Public holidays](../../company-info-and-process/working-at-sourcegraph/holidays.md)
@@ -104,7 +104,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Relocation/address changes
 
-- Changing addresses
+- [Moving to a new location](people-ops/process/moving.md) SOON
+  - Changing addresses
 - [Mortgage verification](people-ops/process/employment_verification.md#when-should-you-use-truework)
 
 ### Immigration support
@@ -114,8 +115,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Verifications
 
-- Employment verification process
-- Mortgage process
+- [Employment verification process](people-ops/process/employment_verification.md)
+- [Mortgage process](people-ops/process/employment_verification.md)
 
 ### Expenses
 
@@ -152,7 +153,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- How to resign
+- [How to resign] (SOON)
 
 ## Resources for Managers
 
@@ -262,8 +263,8 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Resignations
 
-- How to handle a resignation
-- How to kick off a backfill request
+- How to handle a resignation SOON
+- How to kick off a backfill request SOON
 
 ## Resources for People Team
 
@@ -375,7 +376,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Internship Program](talent/internship/index.md)
 - [Internship Recruiting and Offer Processes](talent/internship/internship-recruiting-and-offers.md#internship-recruiting-and-offer-processes)
 
-# The Talent Team
+# The Talent & People Team
 
 [Click here](teamalignment.md) to see Talent Team alignment with each department
 
@@ -477,7 +478,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
             </a>
           </div>
           <div style="text-align: center;">Marija Petrovic</div>
-          <div style="text-align: center; font-size: 12px;">Director, Corporate & Sales Recruiting</div>
+          <div style="text-align: center; font-size: 12px;">Director, Recruiting and People-Ops</div>
         </div>
       </div>
       <div class="col" style="flex: 1;">
@@ -506,8 +507,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
       </div>
     </div>
   </section>
-
-# The People Team
 
  <section>
     <div class="row" style="display:flex;">

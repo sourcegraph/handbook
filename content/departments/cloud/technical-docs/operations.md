@@ -28,7 +28,7 @@ Below we will install `mg` CLI. `mg` simlifies operation on MI and releases the 
 mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
 
-# ZSH users: echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
+# ZSH users: echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.zshrc
 # you need ensure our `mg` binary has the highest priority in $PATH
 # otherwise if will conflict with the `mg` emacs editor 😢
 echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
@@ -240,24 +240,6 @@ Next you need to `scp` this from the instance:
 
 Open the pcap file in Wireshark (installable with `brew install --cask wireshark`)
 
-### Deploy new images across all instances
-
-Use case: you would like to roll out a new images to all instances
-
-- Open a PR to update the golden file and merge it
-- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
-- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
-
-### Update application config across all instances
-
-Use case: you would like to update site-config for all instances
-
-- Open a PR to update `mg` codes with the right configuration
-- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
-- Click `Run workflow` and it will run `mg sync` on each instance
-
-> This action also runs every 24h to ensure all instances config are correct
-
 ## Changing the instance
 
 <span class="badge badge-note">SOC2/CI-98</span>
@@ -430,6 +412,104 @@ resource.type="gce_instance"
 protoPayload.authenticationInfo.principalEmail="system@google.com"
 ```
 
+### Enabling GCP Cloud Tracing on Managed Instances
+
+As part of the [Centralised Observability](https://github.com/sourcegraph/customer/issues/1151) efforts we will be enabling GCP Cloud Tracing on all Managed Instances.
+
+To enable GCP Cloud Tracing on an existing instance, follow these instructions for deploying the `opentelemetry-collector` service:
+
+1. `cd` into the desired customer directory and into the deployment folder (`red` or `black`).
+2. Create a new directory called `otel-collector` and within it a folder called `config.yaml` with the following contents:
+
+```yaml
+receivers:
+  otlp:
+    protocols:
+      grpc:
+
+exporters:
+  jaeger:
+    endpoint: '$JAEGER_HOST:14250'
+    tls:
+      insecure: true
+  googlecloud:
+    retry_on_failure:
+      enabled: false
+
+extensions:
+  health_check:
+    port: 13133
+  zpages:
+    endpoint: 'localhost:55679'
+
+service:
+  extensions: [health_check, zpages]
+  pipelines:
+    traces:
+      receivers: [otlp]
+      exporters: [jaeger, googlecloud]
+```
+
+3. Update the corresponding `docker-compose.override.yaml` file to now include the `otel-collector` service and configure all existing services with the correct environment variables. Reference this [pull request enabling otel for `tpgi`](https://github.com/sourcegraph/deploy-sourcegraph-managed/pull/911/files) for an example of all that needs to be modified.
+4. Connect to the manage instance and add the following configuration to the `site-config` (substituting in the correct GCP Project):
+
+```json
+
+"observability.tracing": {
+  "type": "opentelemetry",
+  "sampling": "selective",
+  "urlTemplate": "https://console.cloud.google.com/traces/list?tid={{ .TraceID }}&project=sourcegraph-managed-$COMPANY"
+}
+```
+
+5. Run `mg sync artifacts` and when complete, restart the instance.
+6. Verify on GCP that traces delivered via `HTTP POST` are now available.
+
+### Deploy new images across all instances
+
+Use case: you would like to roll out a new images to all instances
+
+- Open a PR to update the golden file and merge it
+- Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+
+### Update application config across all instances
+
+Use case: you would like to update site-config for all instances
+
+- Open a PR to update `mg` codes with the right configuration
+- Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
+- Click `Run workflow` and it will run `mg sync` on each instance
+
+> This action also runs every 24h to ensure all instances config are correct
+
+### Make global changes to docker-compose.yaml across all deployment
+
+Use case;
+
+- Configure default `cpus` of `gitserver` for all instances
+- Use a custom `prometheus` image for all instances
+
+The `docker-compose.yaml` of each custom deployment artifacts is a symlink to `golden/docker-compose.$version.yaml`. The golden file is merged from the upstream file from [sourcegraph/deploy-sourcegraph-docker] and global override files at [golden/overrides](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/golden/overrides).
+
+The global override files are separated into different files by purpose. When adding a new override, you should consider whether you should create a new one or append your override in an existing file. Upon updating the global override files, you should run the command below to update the golden files. The `update-golden` command will pull the target file from upstream, then merge it with every global override files.
+
+> NOTES: you should never edit the golden files manually, let `mg` CLI to do the work
+
+```sh
+mg update-golden -target $version
+```
+
+Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
+
+### How to add feature flags?
+
+Feature flags are defined in either `config.global.yaml` or `$CUSTOMER/config.yaml`. `$CUSTOMER/config.yaml` takes higher precedence than `config.global.yaml`
+
+Clone the repo locally and add your override to the `config.global.yaml` or `$CUSTOMER/config.yaml`, then open a PR and ask for review.
+
+Upon merging, follow [update application config across all instances](#update-application-config-across-all-instances).
+
 ## Disaster Recovery and Business Continuity Plan
 
 <span class="badge badge-note">SOC2/CI-110</span>
@@ -451,3 +531,21 @@ Error: Error when reading or editing NetworkEndpointGroup: googleapi: Error 400:
 Or similar—this indicates a bug in Terraform where GCP requires an associated resource to be deleted first and Terraform is trying to delete (or create) that resource in the wrong order.
 
 To workaround the issue, locate the resource in GCP yourself and delete it manually and then `terraform apply` again.
+
+### FAQ: I don't see an option to log-in as sourcegraph admin
+
+This likely means built-in auth-provider has been disabled. To fix this:
+
+- connect to the DB using `mg db`
+- run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
+- if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
+- quit `mg sql`, use `mg reload-config` to make sure frontend picks-up new changes
+
+### FAQ: sourcegraph-admin login credentials are incorrect
+
+This likely means our admin user account was deleted. To verify
+
+- connect to the DB using `mg db`
+- run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
+- if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
+- login should now work correctly

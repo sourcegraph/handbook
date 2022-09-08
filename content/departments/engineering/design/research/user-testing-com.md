@@ -40,6 +40,10 @@ _*Tip*: Avoid biasing the user to specific inputs. A mistake one designer made i
 
 In both cases, new users often need an introduction to Sourcegraph to get started. We can’t expect a user to create a code monitor, without them first understanding some basic rules about Sourcegraph search. To set these users up for success, a designer testing monitor tasks may require the user to first conduct a few searches that relate to the insights test.
 
+### Useful, proven test activities for re-use
+
+See [useful testing activities](./useful-testing-activities.md) to save time in the future by re-using proven test activities when it makes sense.
+
 ## Ask quantitative questions
 
 Wherever possible, ask quantitative questions of your audience, including after a task you will analyze qualitatively. For example, if your task requires a user to find a specific term in code, the second task may be a multiple-choice question that asks the user if they were able to complete the task successfully. You might also consider asking the user to rate the relative ease of the task. The output of these two questions will be quantitative data which can augment your qualitative research. The usertesting.com platform will provide metrics from these types of questions that save designers time in generating reports.
