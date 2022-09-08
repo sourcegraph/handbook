@@ -30,7 +30,7 @@ During the late stages of closing a deal, it is imperative that the pre-sales te
 
 ### Internal Communications
 
-When the customer has signed, the internal stakeholders on the project should hold a meeting to make sure any context is passed from the pre-sales team to the implementation team. This meeting is primarily to go through the TDD and ensure there is no loss of info in the handoff from the pre-sales team. From this point onward, the Implementation team (alongside the AE) will become the official owners of the customer.
+When the request for IE resourcing has been approved, the internal stakeholders on the project should hold a meeting to make sure any context is passed from the pre-sales team to the implementation team. This meeting is primarily to go through the TDD and ensure there is no loss of info in the handoff from the pre-sales team. From this point onward, the Implementation team (alongside the AE) will become the official owners of the customer.
 
 # Requirements Collection and Project Planning
 
