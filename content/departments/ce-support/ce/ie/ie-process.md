@@ -2,11 +2,11 @@
 
 This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for _Jointly Managed Implementations_. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
 
-# Inputs from Pre-Sales
+# Inputs from CE
 
-The primary input from pre-sales will be the TDD. The TDD, when completed, should include all technical information necessary for the implementation team to plan out a deployment for the newly signed customer. The TDD should be updated with information about lessons learned in the POC process and how the proof of concept design and deployment differs from the production design and deployment.
+The primary input from CE will be the TDD. The TDD, when completed, should include all technical information necessary for the implementation team to plan out a deployment for the newly signed customer. The TDD should be updated with information about lessons learned in the POC process and how the proof of concept design and deployment differs from the production design and deployment.
 
-For more information on how the pre-sales team will interact with the implementation team and hand off accounts, visit the [CE Implementation Handoff](ce-implementation-handoff.md) page.
+For more information on how the CE team will interact with the Implementation team and hand off accounts, visit the [CE Implementation Handoff](ce-implementation-handoff.md) page.
 
 # Implementation Team Tasks and Responsibilities
 
@@ -14,7 +14,7 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 
 [Implementation Engineers](./index.md)
 
-- Confirmation of the production technical deployment design as captured in the pre-sales stages
+- Confirmation of the production technical deployment design as captured by the CE
 - Build internal replica environment based on expected requirements for production deployment
 - Deploy customer non-production environment(s) for confirmation of deployment design and use as a dedicated testing environment
 - Configure code hosts on non-production environment(s) to confirm no issues cloning and indexing repos at scale
