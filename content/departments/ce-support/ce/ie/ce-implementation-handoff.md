@@ -1,20 +1,22 @@
 # Overview
 
-This document is a work in progress to give an overview of the expectations of the handoff between the customer engineering team and the implementation engineering team when a new customer signs and requires implementation support.
+This document is a work in progress to give an overview of the expectations of the handoff between the customer engineering team and the implementation engineering team when a new customer requires implementation support.
 
 # Jointly Managed Evalutation
 
-During the initial phases of a sale, the CE should evaluate whether or not the customer is a good candidate for a jointly managed instance. If the CE believes a jointly managed instance will be necessecary, they should send a Slack to #ask-implementation outlining who the customer is, what their expected deployment type is, how large they are (including the number of expected users, repos, and code hosts), and a brief description of why they will likely need a jointly managed instance.
-
-Typical reasons a customer would be flagged for jointly managed are:
+During the initial phases of a sale, the CE should evaluate whether or not the customer is a candidate for a jointly managed instance. Typical reasons a customer would be flagged for jointly managed are:
 
 - Sourcegraph's Cloud offering is not a viable option.
 - The customer is expected to have a particularly large instance.
 - There is a high probability the instance will require a Kubernetes deployment.
 
-# Documentation requirements for handoff
+# Initiating an IE Request
 
-As a prerequisite to a handoff from Customer Engineering and Sales to Implementation, the Implementation team must review and sign off on the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit#heading=h.y9pic5x93a9l) (TDD) written by the Customer Engineer and a high-level sense of project requirements should be established. This will give the Implementation team a much clearer understanding of the scope of the deployment as it was agreed upon between the customer and Sourcegraph. In order to accomplish this, the [Implementation Project Manager](../tpm/index.md) should be pulled into conversations surrounding the customer deployment during the discovery phase. The [Implementation Engineer](index.md) should then be engaged following completion of the initial TDD draft.
+If the customer is unable to utilize our Cloud option or a single node solution, then the CE should submit a new request via New IE Customer Request workflow in the #ask-implementation channel. Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
+
+# Handoff to Implementation
+
+As a prerequisite to a handoff from CE to Implementation, the Implementation team must review and sign off on the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit#heading=h.y9pic5x93a9l) (TDD) written by the CE and a high-level sense of project requirements should be established. This will give the Implementation team a much clearer understanding of the scope of the deployment as it was agreed upon between the customer and Sourcegraph. In order to accomplish this, the [Implementation Project Manager](../tpm/index.md) should be pulled into conversations surrounding the customer deployment during the discovery phase. The [Implementation Engineer](index.md) should then be engaged following completion of the initial TDD draft.
 
 In the event the customer has different requirements for their production deployment from the trial outlined in the TDD, the production requirements should be documented in the TDD in a separate section.
 
