@@ -20,7 +20,7 @@ File a “Cloud Launch” ticket on our customer repository using the
 
 Post in the #cloud channel when the issue has been created
 Label the issue `cloud-feature`
-The Cloud team has an SLA of 7 days to respond to the ticket with questions.
+The Cloud team has an [SLA of 24 hours](./index.md#SLAs-for-managed-instances) to respond to the ticket with questions.
 
 ## Infrastructure costs
 
