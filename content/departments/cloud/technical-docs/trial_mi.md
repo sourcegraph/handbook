@@ -46,7 +46,8 @@ For trial Managed Instances we support only 3 options:
 - small
 - medium
 - large
-  Based on data provided by CE in New Managed Instance Request [Cloud Team](../../cloud/index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
+
+Based on data provided by CE in New Managed Instance Request [Cloud Team](../../cloud/index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
 
 [Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
 
