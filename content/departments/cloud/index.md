@@ -93,7 +93,7 @@ When offering customers a Managed Instance, CE and Sales should communicate and 
 
 ## Trial Managed Instances (aka PoC)
 
-[Documentation](./technical-docs/trial_mi.md)
+[Documentation](./trial_mi.md.md)
 
 ## Managed Instance Requests
 
