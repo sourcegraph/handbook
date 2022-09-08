@@ -6,15 +6,15 @@ We use metrics to guide prioritization and planning. By defining metrics against
 
 People using Sourcegraph can be segmented into a number of different states, the following of which are relevant over a measured time period (for example, monthly or weekly). They are not mutually exclusive in some cases—a user can be both registered, activated and churned at the same time.
 
-| Metric                                       | Description                                                                                       | Cloud | On-prem | Pings data point                        | Type\*         |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----- | ------- | --------------------------------------- | -------------- |
-| [Active User]([#active-user-cloud](https://docs.sourcegraph.com/admin/faq#how-are-active-users-calculated))         | Users who performed a qualifying activation event (see below)                                     | ✔️    | n/a     | n/a                                     | Activity       |
-| [Registered](#registered-user) | A user with an account on the instance                                                                   | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
-| Retained                                     | Users who were active last period _and_ this period                                               | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
-| Churned                                      | Users who were active last period but not this period                                             | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
-| Resurrected                                  | Users who were _not_ active last period but are active this period                                | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
-| Created                                      | Users whose account was created this period                                                       | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
-| Deleted                                      | Users whose account was deleted this period                                                       | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
+| Metric                                                                                                        | Description                                                        | Cloud | On-prem | Pings data point                        | Type\*         |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----- | ------- | --------------------------------------- | -------------- |
+| [Active User](<[#active-user-cloud](https://docs.sourcegraph.com/admin/faq#how-are-active-users-calculated)>) | Users who performed a qualifying activation event (see below)      | ✔️    | n/a     | n/a                                     | Activity       |
+| [Registered](#registered-user)                                                                                | A user with an account on the instance                             | ✔️    | n/a     | `site_activity.MAU.RegisteredUserCount` | Characteristic |
+| Retained                                                                                                      | Users who were active last period _and_ this period                | ✔️    | ✔️      | `growth_statistics.RetainedUsers`       | MoM activity   |
+| Churned                                                                                                       | Users who were active last period but not this period              | ✔️    | ✔️      | `growth_statistics.ChurnedUsers`        | MoM activity   |
+| Resurrected                                                                                                   | Users who were _not_ active last period but are active this period | ✔️    | ✔️      | `growth_statistics.ResurrectedUsers`    | MoM activity   |
+| Created                                                                                                       | Users whose account was created this period                        | ✔️    | ✔️      | `growth_statistics.CreatedUsers`        | MoM activity   |
+| Deleted                                                                                                       | Users whose account was deleted this period                        | ✔️    | ✔️      | `growth_statistics.DeletedUsers`        | MoM activity   |
 
 \***_Types_**
 
