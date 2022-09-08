@@ -119,16 +119,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Asdine El Hrychy"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [55.13729095458984, 25.080312820442302]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Adam Harvey"
             },
             "geometry": {
@@ -174,16 +164,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-58.38160514831543, -34.60329406047471]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Jason Gornall"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-117.161148, 33.139469]
             }
         },
         {
@@ -284,16 +264,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-1.2599945068359375, 53.884511629030904]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Oleg Gromov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.72396, 47.210317]
             }
         },
         {
@@ -913,16 +883,6 @@
             "type": "Feature",
             "properties": {
                 "name": "Randell Callahan"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.739235, -104.99025]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Brienne McNally"
             },
             "geometry": {
                 "type": "Point",

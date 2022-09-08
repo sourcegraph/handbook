@@ -2,46 +2,65 @@
 
 Our FY23 focus is to build a world class customer training experience focused on our Enterprise customers. By creating a foundation of consistent training materials and formatting, we will empower the CE org to better serve our Enterprise customer base and our customers to see the most value out of Sourcegraph.
 
+## FY23 Q3: Expansion
+
+Coming out of Q2, the team accomplished:
+
+- Shipped and enabled Sourcegraph 101, 102, and Admin webinars (all [available on GitHub](https://github.com/sourcegraph/customer-training/tree/main/trainings))
+- Shipped Batch Changes and Code Insights webinars ([available on GitHub](https://github.com/sourcegraph/customer-training/tree/main/trainings))
+- Partially shipped dev onboarding webinar ([available on GitHub](https://github.com/sourcegraph/customer-training/tree/main/trainings/dev-onboarding-webinar))
+- Delivered 3 customer trainings
+- Delivered 4 Office Hours trainings (Looker Dashboards, Managed Instances, Extensions, Authz/N. [Available in Google Drive.](https://docs.google.com/spreadsheets/d/1MPeZ5WDULmggH8x_polp_QmuMBHhBKYRebKWwFT1Cpk/edit#gid=722518981))
+- Collaborated with [customer](https://github.com/sourcegraph/accounts/issues/6716) to ship public LMS 101 content (currently in staging; working with them to move to production and Marek to create videos; [videos available in Google Drive](https://docs.google.com/spreadsheets/d/1WFgfma5WIpXcFuP7fNEcEkLHv_i9LdKsFG6efjtIqj0/edit#gid=0))
+- Created three Comms Templates (config review, new customer kickoff, PoC slack announcement, [available in GitHub](https://github.com/sourcegraph/customer-training/tree/main/comms-templates))
+
+Going in to Q3, the team will be focused on expanding the training library as well as increasing the number of video offerings, due to CE and customer request. (DRI is Emily Chapman unless otherwise noted.)
+
+- Offering video content
+
+  - What: We'll build modular video units to cover the LMS versions of Sourcegraph 101, 102, and the Admin webinar.
+  - Why: Modular video content is a consistent request from customers and from CEs, and having modular content will allow targeted sharing of appropriate videos as part of the onboarding and enablement journey for the customer.
+  - How: Work on 101 videos is in progress already with Marek. 102 videos and admin webinars will be completed by Emily. By the end of the process, each LMS-formatted unit for each webinar should have an equivalent short video.
+  - Business Outcome: CEs will have both sync and async training available for customers for all three required training units; we should no longer be blocked on enablement due to a lack of resources for these three trainings.
+
+- Use case based webinars
+
+  - What: We'll complete the shipping and enablement of the New Developer Onboarding webinar in both lesson plan and LMS form. Additionally, two new use case webinars will be shipped, selection TBD based on CE feedback.
+  - Why: Use cases remain key to selling Sourcegraph and to making it clear to devs how Sourcegraph fits into their daily workflow. Orienting around those use cases benefits customers and the CEs.
+  - How: Each of the three use case webinars will have at minimum a lesson plan and an LMS form. Stretch goals include video content for the units.
+  - Business Impact: 100% of CE team is enabled on 3 new webinars.
+
+- Public webinars
+
+  - What: We'll lead, in partnership with Marketing and Engineering, three public webinars. The first, on VSCode, is scheduled. The other two (Autoindexing, and a TBD topic) have not yet been scheduled.
+  - Why: Having CE-delivered content for public audiences serves as a lead gen tool in alignment with other peer companies. Additionally, building out a library of recorded video content will allow that content to be leveraged by CE if needed.
+  - How: Partner with Marketing to deliver the webinars, guided by their knowledge of best practices.
+  - Business Impact: 3 webinars delivered and analyzed for trends and efficacy as a driver of sales conversations.
+
+- Evaluate impact
+
+  - What: We'll attempt to establish more concrete metrics around the success or failure of the CTE program.
+  - Why: Q2 was focused on establishing something that could be evaluated; now that there's baseline content, Q3 is focused on evaluating efficacy and iterating.
+  - How: Build CE-targeted survey to evaluate impact of program, deliver at beginning and end of quarter and compare results. Additionally, work with CE to build a post-webinar, customer-facing survey to be delivered via Zoom's survey functionality.
+  - Business Impact: Survey completed with at least 70% CE participation, allowing for confirmation of whether there is improvement in efficacy, understanding, etc. throughout the quarter as a result of CTE efforts.
+
+Additional projects
+
+- Complete public ship of 101 and 102 Trailhead units
+- Create internal training on GraphQL for the CEs, per their request
+- Continue with Office Hours program
+
 ## FY23 Q2: Foundations
 
-Q2 will be focused on building a strong foundation for our future work. As such, we’ll be focused on standardizing training content and flow, standardizing content location for greater discoverability, and producing template content for the CEs to leverage.
+Q2 was focused on building a strong foundation for our future work. We focused on standardizing training content and flow, standardizing content location for greater discoverability, and producing template content for the CEs to leverage.
 
 - Standardizing customer training
 
-  - What: We’ll be building standardized Sourcegraph 101, 102, and admin webinar trainings, and enabling the CE team on them, similar to previous work on Demo Flows. We will also begin work on use case-oriented trainings, though this may extend into Q3; initial use case focus is Code Security.
+  - What: We built and delivered standardized Sourcegraph 101, 102, and admin webinar trainings, and enabling the CE team on them, similar to previous work on Demo Flows. We also begin work on use case-oriented trainings, though this may extend into Q3; initial use case focus is Code Security.
 
-  - Why: We can’t iteratively measure the impact of our work if each CE is training on completely different cadences and with completely different materials. Additionally, without training templates, CEs are forced to reinvent the wheel each time they onboard a new customer; we hope that this is the first step in easing that process for the team. Additionally, we want to bring use cases into our customer training and success model in the same way they exist in the pre-sales model.
+  - Why: We can’t iteratively measure the impact of our work if each CE is training on completely different cadences and with completely different materials. Additionally, without training templates, CEs were forced to reinvent the wheel each time they onboard a new customer. Additionally, we wanted to bring use cases into our customer training and success model in the same way they exist in the pre-sales model.
 
-  - How: We’ll establish a shared training repository in GitHub, a template for training materials to follow, and then transfer existing 101, 102, and admin training concepts floating around the team into standard flows. The team will be trained on how to deliver these trainings using a train the trainer model. The Code Security training will be created and added to the demo repo and the CEs will be enabled on it using a train the trainer model, with other use cases to follow.
-
-  - Business Outcomes:
-
-    - 100% of CE team is trained (via train-the-trainer) on foundational user and admin onboarding training block. (DRI: [Emily Chapman](mailto:emily@sourcegraph.com))
-    - Ship (and enable 100% of CE via train-the-trainer) on code security training with Sourcegraph. (DRI: [Thomas Hughes](mailto:thomas.hughes@sourcegraph.com))
-
-- Improved admin experience
-
-  - What: The CTE team will generate training materials to help admins stand up Sourcegraph.
-
-  - Why: This issue impacts the customer experience that impedes them from using the product.
-
-  - How: We will create or modify existing playbooks for Kubernetes (without Helm) installs and for high-security environment installs based on known customer challenges. If time permits, we will create or modify existing playbooks for Kubernetes with Helm and Docker Compose installs. We will store these in the standard artifact repository and enable the CEs on them.
-
-  - Business Outcome:
-
-    - 5 customers receive admin-specific enablement prior to production set up (DRI: [Thomas Hughes](mailto:thomas.hughes@sourcegraph.com))
-
-- CE enablement
-
-  - What: The CTE team will provide reusable assets for CEs focused on resolving shared, identified needs in service of the CTE team’s overall goals.
-
-  - Why: Though CE enablement isn’t the core focus of the team, there is obvious overlap between CE enablement and a world-class customer training experience for our Enterprise customers. Providing reusable resources which can serve both goals furthers the overall CE org’s agenda.
-
-  - How: Within the asset repo, create and share email templates for kickoff of the post-sales onboarding process, share useful sample scripts/cheat sheets/handouts that might accompany a training, and generate other assets as time allows.
-
-  - Business Outcome:
-
-    - Produce and deliver at least 3 CE-requested assets in Q2. (DRI: [Emily Chapman](mailto:emily@sourcegraph.com))
+  - How: We established a shared training repository in GitHub, a template for training materials to follow, and then transfer existing 101, 102, and admin training concepts floating around the team into standard flows. The team has beene trained on how to deliver these trainings using a train the trainer model.
 
 ## FY23 Q3/Q4: Customer Onboarding Experience
 

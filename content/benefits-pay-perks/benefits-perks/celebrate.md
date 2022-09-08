@@ -76,6 +76,9 @@ Managers must have a Loop & Tie account to send a gift. To create a Loop & Tie a
 
 Once you have an account, here is [how to send a Loop & Tie gift](https://guides.loopandtie.com/knowledge/how-to-send-a-gift-on-loop-tie).
 
+**Managers are expected to add their own credits to their Loop & Tie account using a credit card that is associated with their team's budget.**
+When you're placing an order, you will see under 'Your Payment Method,' an option to select 'Add Payment Method.' This will prompt you to enter your credit card information like any other online checkout.
+
 Loop & Tie FAQS:
 
 - **Q: Will the recipient see the gift price?** A: Your Loop & Tie recipient never sees the gift budget you selected. They just see the items available to them in the collection you selected!

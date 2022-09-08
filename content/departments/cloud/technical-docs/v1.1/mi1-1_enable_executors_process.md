@@ -1,9 +1,6 @@
 # Enabling executors
 
-Enabling executor on a managed instances is initiated by #wg-shipping-executors. There are a few logical steps to follow.
-
-1. Update the managed instances terraform to include executor modules
-1. Setup billing alert for the executor resources
+All managed instances will have executors enabled by default. #ce is responsible for providing the ARR to help us determine the compute resources we allocate to executors, [learn more](https://github.com/sourcegraph/customer/blob/master/.github/ISSUE_TEMPLATE/new_managed_instance.md#executors).
 
 ## Deploy executors
 
@@ -35,6 +32,8 @@ cd $CUSTOMER
 terraform apply
 ```
 
+**Important**: executors has to be set up on active instance, so if multiple VMs are running, use flag `--deployment red|black` in all `mg` commands below.
+
 Add the executor token to the site configuration of the instance (note: this must be run in the `$CUSTOMER` directory)
 
 ```sh
@@ -46,7 +45,7 @@ mg executors set-token --token $(terraform output -raw executor_proxy_password)
 Sync configuration
 
 ```sh
-mg sync
+mg sync artifacts
 ```
 
 Reload worker to catch up with the updated configuration
@@ -129,22 +128,6 @@ batches--sourcegraph-executor    us-central1-a  zone   sourcegraph-executors  Ye
 codeintel--sourcegraph-executor  us-central1-a  zone   sourcegraph-executors  Yes      0
 ```
 
-Ensure `minNumReplicas` is greater than `0`
-
-```sh
-$ gcloud compute instance-groups managed describe batches--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
-{
-  "minNumReplicas": 1,
-}
-```
-
-```sh
-$ gcloud compute instance-groups managed describe codeintel--sourcegraph-executor --zone=$ZONE --project=$PROJECT --format=json | jq '.autoscaler.autoscalingPolicy'
-{
-  "minNumReplicas": 1,
-}
-```
-
 Ensure there is an active instance belong to one of the instance group (notes the `batches--sourcegraph-executor-rqfs` instance). Sometimes it may take GCP longer to spawn a new instance, so be patient. If no new instance is created for an unreasonable amount of time, consult GCP documentation for next step.
 
 ```sh
@@ -156,3 +139,13 @@ sourcegraph-executors-docker-registry-mirror  us-central1-a  n1-standard-2      
 ```
 
 If above all check out, visit the [Compute Engine Console](https://console.cloud.google.com/compute/instances) and check logs of the executor instance for more troubleshooting.
+
+### Troubleshooting executor-dependent features
+
+To check if executors are making progress on available work, consult this [alert](https://docs.sourcegraph.com/admin/observability/alerts#executor-executor-processor-total).
+
+Executor-dependent features (Server Side Batch Changes, Code-Intelligence Auto-indexing) differ in the way they use executors & influence core Sourcegraph experience, for further troubleshooting contact:
+
+- #wg-shipping-executors for general executor questions
+- #code-intel for Code Intelligence auto-indexing questions, [on-call](https://sourcegraph.app.opsgenie.com/teams/dashboard/d0c10593-3edd-4d7e-8d1b-2ad29afeaa71/main)
+- #batch-changes for Server-Side Batch Changes questions, or ping `@batcher-support` if it's urgent

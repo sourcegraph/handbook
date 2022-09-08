@@ -18,17 +18,18 @@ After comments are submitted, the PR author can make changes before sharing more
 
 ## Stakeholder review
 
-After CPT review, the PR and deploy preview are shared with stakeholders to provide feedback in a QA doc. To do this:
+After CPT review, the PR and deploy preview are shared with stakeholders to provide feedback. To do this:
 
-1. CPT product manager shares PR and deploy preview link with stakeholders. In most marketing request cases this means sharing with the marketing project manager.
-2. Marketing project manager creates a QA doc to collect feedback and shares this, the PR link, and the deploy preview link with the appropriate stakeholders on the marketing side. This includes a deadline for feedback.
-3. Once the QA doc has closed, CPT product manager works with the PR author to make changes.
-4. After changes are made, stakeholders are asked to perform a final review.
+1. CPT project manager creates a Slack channel to collect feedback and shares this, the Asana task, the PR link, and the deploy preview link with the appropriate stakeholders and the PR Author. This includes a deadline for feedback.
+   - The naming convention for the channel is: #review-[issue title]
+   - Where applicable, feedback can also be captured in a markup.io file.
+2. Once feedback cycle is closed, the PR Author works through the necessary changes and where applicable, can leave non-blocking feedback for a later stage.
+3. After changes are made, stakeholders are asked to perform a final review.
 
 ## Approval and release
 
 After final stakeholder approval, we can merge the PR and push the changes live.
 
-1. Marketing project manager informs CPT product manager once we have stakeholder approval.
-2. CPT product manager approves the PR with a comment stating that we have stakeholder approval to merge.
-3. PR Author merges PR.
+1. Marketing project manager informs the channel once we have stakeholder approval.
+2. PR Author approves and merges PR and informs the channel once it's released.
+3. CPT project manager archives the Slack channel.

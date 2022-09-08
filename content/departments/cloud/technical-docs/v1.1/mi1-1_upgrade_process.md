@@ -117,3 +117,8 @@ gh pr create --title "$CUSTOMER: upgrade to $NEW_VERSION" --body "Part of <link 
 ## Fallback plan
 
 Follow [restore process](./mi1-1_restore_process.md)
+
+## Automated upgrades
+
+For patch release, which contains only images version upgrade, without executor upgrades, [Upgrade Managed Instance Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_upgrade.yml) can be used.
+It will perform all mandatory steps from [Upgrade section](#upgrade) and open Pull Request. After Pull Request is open, please add link to upgrade issue and Github Action performing the upgrade to have history of performed steps.

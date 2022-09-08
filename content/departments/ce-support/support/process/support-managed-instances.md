@@ -1,6 +1,6 @@
 # Accessing managed instances
 
-All AeRs in the GCP [user group](https://groups.google.com/u/1/a/sourcegraph.com/g/gcp-customer-support-engineering/members) `gcp-customer-support-engineering` have access to managed instance via GCP management tooling. To request access to this group, reach out to #it-tech-ops to request access to the "gcp-managed" group.
+All AeRs in the GCP [user group](https://groups.google.com/u/1/a/sourcegraph.com/g/gcp-customer-support-engineering/members) `gcp-customer-support-engineering` have access to managed instance via GCP management tooling. To request access to this group, reach out to #it-tech-ops to request access to the `gcp-customer-support-engineering` group.
 
 A quick note before reading the rest of this page: Customers with managed instances cannot pull their own logs, and in many cases, the customer we're dealing with is not a site-admin, so they can't access site-admin priveleges either. Please make absolute sure regardless of the customer, that they are not working with a managed instance.
 

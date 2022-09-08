@@ -131,3 +131,6 @@ public/sitemap.xml
 
 # IDE config
 .idea
+
+# vi .swp files
+.*.swp

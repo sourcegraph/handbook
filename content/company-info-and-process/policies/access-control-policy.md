@@ -133,7 +133,7 @@ Any known violations of this policy should be reported to report-policy-violatio
   <tr>
    <td>1.0
    </td>
-   <td>20-03-22
+   <td>2022-03-20
    </td>
    <td>Nicky Van Maneen, Maureen Loughrey
    </td>
@@ -143,7 +143,7 @@ Any known violations of this policy should be reported to report-policy-violatio
   <tr>
    <td>1.1
    </td>
-   <td>18-07-22
+   <td>2022-07-18
    </td>
    <td>Nicky Van Maanen, Maureen Loughrey
    </td>
@@ -153,7 +153,7 @@ Any known violations of this policy should be reported to report-policy-violatio
   <tr>
    <td>1.1
    </td>
-   <td>29-07-22
+   <td>2022-07-29
    </td>
    <td>Dora Grgic
    </td>
@@ -163,7 +163,7 @@ Any known violations of this policy should be reported to report-policy-violatio
   <tr>
    <td>1.1
    </td>
-   <td>27-07-22
+   <td>2022-07-27
    </td>
    <td>Dan Adler
    </td>
