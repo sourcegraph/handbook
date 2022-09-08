@@ -23,7 +23,7 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 - Execute load testing in replica environment
 - Onboard full scope of users
 
-[Implementation Project Managers](../ce-support/ce/tpm/index.md)
+[Implementation Project Managers](../tpm/index.md)
 
 - Set milestones for deployment and develop project plan (starts prior to contract finalization)
 - Ensure leadership engagement and buy in for the implementation
