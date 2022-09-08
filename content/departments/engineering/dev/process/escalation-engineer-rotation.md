@@ -13,7 +13,7 @@ Discuss escalation engineering rotation in #escalation-engineering.
 | Rotation                 | Engineers                                                                                                                                          |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2022-08-10 to 2022-09-06 | [@nicksnyder](https://github.com/nicksnyder), [@keegancsmith](https://github.com/keegancsmith), [@BolajiOlajide](https://github.com/BolajiOlajide) |
-| 2022-09-07 to 2022-10-09 | [@nicksnyder](https://github.com/nicksnyder), [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov) |
+| 2022-09-07 to 2022-10-09 | [@keegancsmith](https://github.com/keegancsmith), [@valerybugakov](https://github.com/valerybugakov)                                               |
 | 2022-10-10 to 2022-11-07 | [@tbliu98](https://github.com/tbliu98), TBD, TBD                                                                                                   |
 
 ## Benefits
@@ -37,7 +37,7 @@ This is a new program, so any and all of these points are flexible, but here is 
 
 ## How to participate
 
-If you have questions or want to participate, please message Nick Snyder.
+If you have questions or want to participate, please post in #escalation-engineering.
 
 ## FAQ
 
