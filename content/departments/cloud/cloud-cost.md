@@ -12,7 +12,8 @@ If any of the above is true, this shouldn’t prevent you from launching on Clou
 
 Utilize **feature flags** (ie through site-config or experimental flags) such that a feature can be enabled or disabled as needed. This also allows for the Cloud team to roll out the changes using “canary” methodologies to limit the blast radius for managed instances.
 
-Monitor and test features on S2. S2 has continous deployment so changes that are pushed to the `main` branch will be deployed to S2. Its not always possible to determine how a change may affect the overall cost. It is the feature team’s responsibility to check the billing page to ensure that their feature is not causing any large spikes in cost. The billing view is saved [here](https://console.cloud.google.com/billing/017005-C370B2-0E3030/reports;savedView=8549f3e5-8bfa-4a88-9b41-42a72eeb93f5?organizationId=244397465763&project=sourcegraph-dev).
+Monitor and test features on [S2](https://sourcegraph.sourcegraph.com/). You can view the grafana dashboard for S2 [here](https://sourcegraph.sourcegraph.com/-/debug/grafana/) and the tracing dashboard [here](https://console.cloud.google.com/traces/overview?project=sourcegraph-managed-sg).
+S2 has continous deployment so changes that are pushed to the `main` branch will be deployed to S2. Its not always possible to determine how a change may affect the overall cost. It is the feature team’s responsibility to check the billing page to ensure that their feature is not causing any large spikes in cost. The billing view is saved [here](https://console.cloud.google.com/billing/017005-C370B2-0E3030/reports;savedView=8549f3e5-8bfa-4a88-9b41-42a72eeb93f5?organizationId=244397465763&project=sourcegraph-dev).
 
 File a “Cloud Launch” ticket on our customer repository using the
 [Cloud Launch template](https://docs.google.com/document/d/1oE2PJSdgqcX3ZRApWXwabgDtzFK4-0PZ3js5PTxsavw/edit?usp=sharing)
