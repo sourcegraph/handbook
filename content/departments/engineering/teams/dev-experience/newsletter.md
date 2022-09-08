@@ -13,13 +13,11 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
-## Frontend news
+### Frontend news
 
 **`esbuild` for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get `esbuild` in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in sg startup time! You can enable it by running `DEV_WEB_BUILDER=`esbuild` sg start`. For more information on `esbuild` please see [the following docs.](https://docs.sourcegraph.com/dev/background-information/web/build#esbuild)
 
-## CI News
-
-## `sg` goodies
+### `sg` goodies
 
 **Finding builds or logs by commit**: Ever wanted to look at the build of a particular commit? Not in the mood to go through all the pages of Buildkite? You don't have to anymore! With `sg ci status` you can now pass it a `--commit` flag and it will do all the detective work for you. `sg ci logs` also accepts the `--commit` flag so you can now easily look at the logs of a build for a particular commit too!
 
@@ -53,7 +51,7 @@ Visit http://127.0.0.1:10814 for user4 william+user4@sourcegraph.com
 Visit http://127.0.0.1:10815 for user5 william+user5@sourcegraph.com
 ```
 
-## CI improvements
+### CI improvements
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
 
@@ -76,7 +74,7 @@ Npm has became increasingly unstable over the past weeks, which caused an increa
 **More annotations!**: We've added a custom Mocha reporter which will upon any E2E and QA test failures generate a annotation on Buildkite with the relevant failures. Now you don't have to doom scroll through a bunch of lines just to find the failures!
 The default buildkite failures Slack messages are not the most actionnable ones, so we have decided to replace them with our in-house notifications which we have total control on:
 
-## S2 news
+### S2 news
 
 **Sentry frontend and backend errors** are now available in Sentry on the [S2 project](https://sentry.io/organizations/sourcegraph/projects/s2/?issuesType=all&project=6583153). It has a much lower volume than dotcom and reflects more accurately what we can expect to see in our customers deployments. Therefore, it's a prime candidate to monitor your own domain and to create alerts for issues relevant to your team, thanks to the scope attribute. You can view the [loom recording](https://www.loom.com/share/f2010789f6884e72932f6e6a9b091558) to refresh your memory about logging scopes.
 
