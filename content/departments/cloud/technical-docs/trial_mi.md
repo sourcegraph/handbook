@@ -16,7 +16,7 @@ The difference from production Managed Instances:
 
 1. During the trial period, Sourcegraph is covering all the infrastructure and licence costs.
 1. Trial Managed Instances have GCP label `instance-type=trial`, which allows to filter them.
-1. Trial Managed Instances are monitored for trial expiration period (default 30 days). When Trial Managed Instance expires, CE has to decide if:
+1. Trial Managed Instances are monitored for trial expiration period (default 30 days). When Trial Managed Instance expires, instance requestor has to decide if:
 
 - extend the trial period
 - [convert to paying customer](#convert-trial-to-paying-customer)
@@ -26,8 +26,8 @@ The difference from production Managed Instances:
 
 [Requesting Trial Managed Instance](../index.md#managed-instance-requests) process is similar to production one, with 2 differences:
 
-- in New Managed Instance Template CE explicitly mark trial via `Is trial/PoC instance? true`
-- CE adds Github label `cloud-trial` to New Managed Instance Github issue
+- in New Managed Instance Template instance requestor explicitly mark trial via `Is trial/PoC instance? true`
+- instance requestor adds Github label `cloud-trial` to New Managed Instance Github issue
   When New Trial Managed Instance is requested and `cloud-trial` Github label is added. [Cloud Team](../../cloud/index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
 
 ## New Trial Managed Instance create SLA
@@ -47,13 +47,13 @@ For trial Managed Instances we support only 3 options:
 - medium
 - large
 
-Based on data provided by CE in New Managed Instance Request [Cloud Team](../../cloud/index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
+Based on data provided by instance requestor in New Managed Instance Request [Cloud Team](../../cloud/index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
 
 [Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
 
 ## Monitoring Trial Managed Instances
 
-Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](../../cloud/index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](../../cloud/index.md#team) will notify CE and ask for choosing one of the options:
+Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](../../cloud/index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](../../cloud/index.md#team) will notify instance requestor and ask for choosing one of the options:
 
 - extend the trial period
 - [convert to paying customer](#convert-trial-to-paying-customer)
@@ -61,11 +61,11 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 
 ## Convert trial to paying customer
 
-When customer has decided to sign the deal, CE will inform [Cloud Team](../../cloud/index.md#team) via comment in Managed Instance Creation issue. [Cloud Team](../../cloud/index.md#team) will modify GCP label `instance-type=production`.
+When customer has decided to sign the deal, instance requestor will inform [Cloud Team](../../cloud/index.md#team) via comment in Managed Instance Creation issue. [Cloud Team](../../cloud/index.md#team) will modify GCP label `instance-type=production`.
 
 ## Teardown Trial Managed Instance
 
-When trial expires and customer do not wish to sign the deal, CE will open [Teardown Managed Instance request](../index.md#managed-instance-requests)
+When trial expires and customer do not wish to sign the deal, instance requestor will open [Teardown Managed Instance request](../index.md#managed-instance-requests)
 
 ## FAQ
 
