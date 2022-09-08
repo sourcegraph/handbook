@@ -39,6 +39,17 @@ If request is creatd outside of [Cloud Team](../../cloud/index.md#team) office h
 
 [Managed Instance architecture](./index.md)
 
+## Trial Managed Instances sizes
+
+For trial Managed Instances we support only 3 options:
+
+- small
+- medium
+- large
+  Based on data provided by CE in New Managed Instance Request [Cloud Team](../../cloud/index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
+
+[Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
+
 ## Monitoring Trial Managed Instances
 
 Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](../../cloud/index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](../../cloud/index.md#team) will notify CE and ask for choosing one of the options:
