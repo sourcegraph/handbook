@@ -13,6 +13,19 @@ To learn more about components of Sourcegraph's developer experience, check out 
 Welcome to another iteration of the [Developer Experience newsletter](./newsletter.md)!
 As a reminder, you can check out previous iterations of the newsletter in the [newsletter archive](./newsletter.md).
 
+### Tracing with OpenTelemetry
+
+OpenTelemetry is now the default tracing export mechanism in Sourcegraph, replacing the existing
+This means that traces now export to an [OpenTelemetry Collector](https://docs.sourcegraph.com/admin/observability/opentelemetry) instance, which can then easily be configured to export data to a variety of backends - for example, in [s2](https://sourcegraph.sourcegraph.com) we are [currently exploring exporting to both Honeycomb, Google Cloud Traces, and Jaeger](https://sourcegraph.sourcegraph.com/github.com/sourcegraph/deploy-sourcegraph-managed@aa1ff34e9446c38c4376ecc29b3d75f4b4ae4676/-/blob/sg/red/otel-collector/config.yaml) to assess the available options.
+
+OpenTracing API calls are bridged to OpenTelemetry automatically, though we strongly recommend that everyone migrate to OpenTelemetry APIs (either `internal/trace` or `go.opentelemetry.io/otel`), which brings better API ergonomics and improved usage of `context.Context`. We've added a linter that forbids new imports of OpenTracing APIs, and added deprecation notices on internal APIs that should no longer be used.
+
+Additionally, the web app can now be instrumented with OpenTelemetry as well, with traces being sent to the frontend service which proxies it to the deployed OpenTelemetry Collector.
+
+To get started with testing out OpenTelemetry locally, refer to our [OpenTelemetry development docs](https://docs.sourcegraph.com/dev/how-to/opentelemetry_local_dev) and refer to our [tracing for site admins guidance](https://docs.sourcegraph.com/admin/observability/tracing).
+
+If you are interested in learning more about OpenTelemetry in general and the specifics of the engineering work required to make this happen, check out [this recording of a DevX team Q&A about OpenTelemetry](https://drive.google.com/drive/folders/1z_Uf_Stp3frDKB_UXFtenbQJdYB4LikO)!
+
 ### Frontend news
 
 **`esbuild` for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get `esbuild` in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in sg startup time! You can enable it by running `DEV_WEB_BUILDER=`esbuild` sg start`. For more information on `esbuild` please see [the following docs.](https://docs.sourcegraph.com/dev/background-information/web/build#esbuild)
