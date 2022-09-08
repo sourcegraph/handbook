@@ -53,7 +53,7 @@ Participation in the CEO Shadow Program is not additive work to your day job. Pa
 
 ## How to apply
 
-1. Work with your manager and cross-refence [this doc](https://docs.google.com/spreadsheets/d/1HqcXD5qZ6drKp1OEvGRM_o8tUuzydvzQJzcaOz-kMNs/edit#gid=0) to find a few dates that could work .
+1. Work with your manager and cross-reference [this doc](https://docs.google.com/spreadsheets/d/1HqcXD5qZ6drKp1OEvGRM_o8tUuzydvzQJzcaOz-kMNs/edit#gid=0) to find a few dates that could work .
 2. Once you've identified a few dates, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScQXYDlypKgCEzGy8ifFFUuuLERRpSLKRFUGaoJgpsCUqU_QA/viewform) to kick off the request process.
 3. The Executive Business Partner to the CEO (@sally voisen on slack) will then reach out to coordinate and schedule your rotation date(s).
 4. After your rotation date(s) have been scheduled please reach out to the Chief of Staff to the CEO(@connor o'brien on slack) to discuss program logistis (where to stay, what to do, etc.) Most answers to these questions should be answered on this handbook page. If they are not, please don't hesitate to reach out for clarification.
