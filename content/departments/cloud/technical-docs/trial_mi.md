@@ -16,12 +16,10 @@ The difference from production Managed Instances:
 
 1. During the trial period, Sourcegraph is covering all the infrastructure and licence costs.
 1. Trial Managed Instances have GCP label `instance-type=trial`, which allows to filter them.
-1. Trial Managed Instances are monitored for trila expiration period (default 30 days). When Trial Managed Instance expires, CE has to decide if:
+1. Trial Managed Instances are monitored for trial expiration period (default 30 days). When Trial Managed Instance expires, CE has to decide if:
 
 - extend the trial period
-  or
 - [convert to paying customer](#convert-trial-to-paying-customer)
-  or
 - [teardown Trial Managed Instance](#teardown-trial-managed-instance)
 
 ## Request Trial Managed Instance
@@ -30,7 +28,7 @@ The difference from production Managed Instances:
 
 - in New Managed Instance Template CE explicitly mark trial via `Is trial/PoC instance? true`
 - CE adds Github label `cloud-trial` to New Managed Instance Github issue
-  When New Trial Managed Instance is requested and `cloud-trial` Github label is added, [Cloud Team](../../cloud/index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
+  When New Trial Managed Instance is requested and `cloud-trial` Github label is added. [Cloud Team](../../cloud/index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
 
 ## New Trial Managed Instance create SLA
 
@@ -43,12 +41,10 @@ If request is creatd outside of [Cloud Team](../../cloud/index.md#team) office h
 
 ## Monitoring Trial Managed Instances
 
-Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team]() on Slack channel `#`will notify CE and ask for choosing one of the options:
+Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](../../cloud/index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](../../cloud/index.md#team) will notify CE and ask for choosing one of the options:
 
 - extend the trial period
-  or
 - [convert to paying customer](#convert-trial-to-paying-customer)
-  or
 - [teardown Trial Managed Instance](#teardown-trial-managed-instance)
 
 ## Convert trial to paying customer
