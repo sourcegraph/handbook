@@ -939,17 +939,19 @@ Refer to the natural noun of the product or feature directly.
 </div>
 
 ### Sourcegraph Cloud
+
 When talking about about Sourcegraph Cloud, we should:
-- Position Sourcegraph Cloud as something you sign up for, not something you request access to. 
+
+- Position Sourcegraph Cloud as something you sign up for, not something you request access to.
 - Use language that highlights the absolute benefits of single-tenant Cloud: dedicated, isolated, secure, etc.
-- Only mention comparative benefits, like no maintenance, scaling, or upgrading when making a direct comparison to Cloud vs Self-hosted.  
+- Only mention comparative benefits, like no maintenance, scaling, or upgrading when making a direct comparison to Cloud vs Self-hosted.
 
 <div class="usage">
 <div class="item yes">
 
 ##### Yes
 
-- Sign up for Sourcegraph Cloud today. 
+- Sign up for Sourcegraph Cloud today.
 - Sourcegraph Cloud uses a single-tenant architecture with a dedicated, isolated instance for each organization.
 
 </div>
@@ -957,8 +959,8 @@ When talking about about Sourcegraph Cloud, we should:
 
 ##### No
 
-- Request access to Sourcegraph Cloud today. 
-- Best of all, we maintain Sourcegraph Cloud for you.  
+- Request access to Sourcegraph Cloud today.
+- Best of all, we maintain Sourcegraph Cloud for you.
 
 </div>
 </div>
