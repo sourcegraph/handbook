@@ -4,7 +4,7 @@ This document is a work in progress to give an overview of the expectations of t
 
 # Jointly Managed Evalutation
 
-During the initial phases of a sale, the CE should evaluate whether or not the customer is a candidate for a jointly managed instance. Typical reasons a customer would be flagged for jointly managed are:
+During the initial conversations with a customer, the CE should evaluate whether or not the customer is a candidate for a jointly managed instance. Typical reasons a customer would be flagged for jointly managed are:
 
 - Sourcegraph's Cloud offering is not a viable option.
 - The customer is expected to have a particularly large instance.
@@ -26,11 +26,11 @@ In the event the customer has different requirements for their production deploy
 
 Once we have confirmed the evalutation that a customer will require implementation team support for their deployment, it is the CE’s responsibility to introduce the customer to the assigned implementation engineer and project manager leading the deployment. The CE should actively communicate to the customer that they will be working with an seperate implementation team from the discovery phase through the end of the implementation, and a formal introductory meeting should be scheduled. From this point onward, the implementation team should be included on continued communications.
 
-During the late stages of closing a deal, it is imperative that the pre-sales team is setting the stage correctly for the implementation team to be successful. The AE and CE on the account should be clearly communicating what customers should expect when working with the implementation team. In addition, the Implementation Project Manager should be brought in on calls to help begin identifying a project plan for the deployment.
+As IE involvement begins, it is imperative that the CE is setting the stage correctly for the implementation team to be successful. The AE and CE on the account should be clearly communicating what customers should expect when working with the implementation team. In addition, the Implementation Project Manager should be brought in on calls to help begin identifying a project plan for the deployment.
 
 ### Internal Communications
 
-When the request for IE resourcing has been approved, the internal stakeholders on the project should hold a meeting to make sure any context is passed from the pre-sales team to the implementation team. This meeting is primarily to go through the TDD and ensure there is no loss of info in the handoff from the pre-sales team. From this point onward, the Implementation team (alongside the AE) will become the official owners of the customer.
+When the request for IE resourcing has been approved, the internal stakeholders on the project should hold a meeting to make sure any context is passed from the CE to the implementation team. This meeting is primarily to go through the TDD and ensure there is no loss of info in the handoff from the CE. From this point onward, the Implementation team (alongside the AE) will become the official owners of the customer.
 
 # Requirements Collection and Project Planning
 
