@@ -28,7 +28,7 @@ The difference from paid Managed Instances:
 
 - in New Managed Instance Template instance requestor explicitly mark trial via `Is trial/PoC instance? true`
 - instance requestor adds Github label `cloud-trial` to New Managed Instance Github issue
-  When New Trial Managed Instance is requested and `cloud-trial` Github label is added. [Cloud Team](././cloud/index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
+  When New Trial Managed Instance is requested and `cloud-trial` Github label is added. [Cloud Team](././index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
 
 > NOTE: The "cloud-trial" label added to the instance creation request GH issue is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
 
@@ -50,13 +50,13 @@ For trial Managed Instances we support only 3 options:
 | medium | n2-highmem-8    | db-custom-2-8192  |
 | large  | n2-highmem-16   | db-custom-4-26624 |
 
-Based on data provided by instance requestor in New Managed Instance Request [Cloud Team](././cloud/index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
+Based on data provided by instance requestor in New Managed Instance Request [Cloud Team](././index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
 
 [Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
 
 ## Monitoring Trial Managed Instances
 
-Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](././cloud/index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](././cloud/index.md#team) will notify instance requestor and ask for choosing one of the options:
+Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](././index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](././index.md#team) will notify instance requestor and ask for choosing one of the options:
 
 - extend the trial period
 - [convert to paying customer](#convert-trial-to-paying-customer)
@@ -64,7 +64,7 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 
 ## Convert trial to paying customer
 
-When customer has decided to sign the deal, instance requestor will inform [Cloud Team](././cloud/index.md#team) via comment in Managed Instance Creation issue. [Cloud Team](././cloud/index.md#team) will modify GCP label `instance-type=production`.
+When customer has decided to sign the deal, instance requestor will inform [Cloud Team](././index.md#team) via comment in Managed Instance Creation issue. [Cloud Team](././index.md#team) will modify GCP label `instance-type=production`.
 
 ## Teardown Trial Managed Instance
 
