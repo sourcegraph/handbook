@@ -1,17 +1,16 @@
 # Accessing managed instances
 
-All AeRs in the GCP [user group](https://groups.google.com/u/1/a/sourcegraph.com/g/gcp-customer-support-engineering/members) `gcp-customer-support-engineering` have access to managed instance via GCP management tooling. To request access to this group, reach out to #it-tech-ops to request access to the "gcp-managed" group.
+All AeRs in the GCP [user group](https://groups.google.com/u/1/a/sourcegraph.com/g/gcp-customer-support-engineering/members) `gcp-customer-support-engineering` have access to managed instance via GCP management tooling. To request access to this group, reach out to #it-tech-ops to request access to the `gcp-customer-support-engineering` group.
 
 A quick note before reading the rest of this page: Customers with managed instances cannot pull their own logs, and in many cases, the customer we're dealing with is not a site-admin, so they can't access site-admin priveleges either. Please make absolute sure regardless of the customer, that they are not working with a managed instance.
 
 A list of managed instances can be found as part of the GCP Project `Managed Instances`
-![Screen Shot 2022-07-07 at 9 49 49 AM](https://user-images.githubusercontent.com/13024338/177827979-7375b1c1-20c3-4c01-870e-003b2153b1a4.png)
 
 If you are an application engineer being trained to work with managed instances, read ahead.
 
 ## Required access
 
-To fully access managed instances, contact the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) team
+If you do not have access, create a ticket in #it-tech-ops request to be added to `gcp-customer-support-engineering` Google Group and tag your manager for approval.
 
 ## Set up a tutorial session
 
@@ -25,7 +24,7 @@ Next, you'll need to install the Google Cloud Platform (GCP) SDK locally. Instru
 
 To check and see if you've installed the GCP SDK correctly, enter the command `gcloud version` in your terminal. It should return the current version of your SDK. If so, congratulations. You now have the ability to start up virtual machines for each managed instance, and begin debugging.
 
-To access managed instance's running external databases in Aurora via `psql` you'll need to install `cloud_sql_proxy`, instructions to do so may be found [here](https://cloud.google.com/sql/docs/postgres/connect-instance-auth-proxy#macos-64-bit).
+To access managed instance's running external databases (Cloud SQL) via `psql` you'll need to install `cloud_sql_proxy`, instructions to do so may be found [here](https://cloud.google.com/sql/docs/postgres/connect-instance-auth-proxy#macos-64-bit).
 
 Next, read the [managed instances operations](../../../cloud/technical-docs/operations.md) page in its entirety. This provides direction for using the gcloud in the command line to debug managed instances, and is _absolutely necessary_ reading. Bookmark the page. You will revisit it often.
 

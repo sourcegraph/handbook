@@ -36,7 +36,7 @@ The following are expectations for the support owner in a given week:
 6. If you ever have 0 active support requests (woohoo!), use that time to improve something within our team. Adding/improving tests, updating documentation, fixing bugs, and otherwise improving what we own are all great things to spend time on.
 7. If you ever have _too many_ support requests, leave a message in #repo-management-internal and engage the secondary support owner for the week
 8. After resolving an issue, do _at least_ one of the following:
-   1. Add an FAQ to [FAQ: Permissions Syncing](https://docs.google.com/document/d/1IFEqLD5Nrp709svXi-EQSiZS0MYo12Obr274OGyJFsM/edit)
+   1. Add an FAQ to one of the existing docs based on the area or create one [here](https://drive.google.com/drive/folders/1ON6RfELoYYmUiMZ_ET3-Bzz66oYMVRx2)
    2. Update docs.sourcegraph.com or other documentation
    3. Create a backlog issue for an improvement, feature, tool, etc. that would have been useful to troubleshoot and solve the problem
 

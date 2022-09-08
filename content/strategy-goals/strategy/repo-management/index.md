@@ -14,17 +14,19 @@ Our mission (which we do choose to accept) is to ensure that Sourcegraph’s mos
 
 > Our support of code hosts scales to the biggest companies with minimal customization or friction. Sourcegraph engineers are able to interact with the components that facilitate access to code in a consistent and simple way, enabling new functionality to be built to support all code management systems with little-to-no customization. Sourcegraph is easily set up to access any code management system, regardless of type. Sourcegraph functionality works with any code, from anywhere.
 
+## FY23
+
+Note: Sourcegraph's fiscal year runs from February 1, 2022 to January 31, 2023.
+
+Our main focus for FY23 is on significantly improving the admin experience. Allowing admins to easily connect code to Sourcegraph directly supports our team and company mission. Mainly, our work is focused on identifying ways to improve the clarity of how the system **should** work and how it **is** working through better observability, monitoring and docs.
+
+1. Improve admin experience for GitHub (Cloud and Server) and Gitlab (Cloud and Server). This includes implemetnation of GitHub Apps connections to improve security, simplicity, and control for GitHub customers.
+2. Improve BitBucket (Cloud and Server) to parity with first-class code-hosting services
+3. Improve Perforce permissions syncing, including sub-repo permissions.
+
 # Roadmap
 
-[Full list of the tracking issues for Repo Management](https://github.com/orgs/sourcegraph/projects/214/views/21?filterQuery=label%3A%22team%2Frepo-management%22)
-
-## FY23 Q2
-
-Complete implementation and test the work to support Perforce. Research and validate plans for webhook repo updates, CVS permissions support and Gerrit support. Progress the work on the revised hashing algorithm which will make our repo syncing faster.
-
-## FY23 Q3
-
-Heavy focus on the admin experience - mainly around identifying ways to improve the clarity of how the system **should** work and how it **is** working through better observability, monitoring and docs. Implemetnation of GitHub Apps connections to improve security and simplicity.
+While we are working on making our roadmap publicly viewable, we are not yet ready to share our detailed roadmap publicly. Internal Sourcegraph employees can see the [full list of the tracking issues for Repo Management here](https://docs.google.com/spreadsheets/d/1Mrtf04XAHXRSCXL_amY6dDmxAJ4dhKi9-ydFeBPBH4M/edit?usp=sharing).
 
 # Product Gaps
 

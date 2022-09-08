@@ -55,7 +55,7 @@ Slack is one of the tools we use the most for communication, this is why having 
 - **Full name**: Set your Slack full name as First Name (or preferred name) Last Name.
 - **Display name**: To avoid confusion, set your Slack display name as First Name (or preferred name) Last Name.
 - **What I do**: Add your role title
-- **Pronouns**: To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. You can read more about this here.
+- **Pronouns**: To help make everyone feel welcome at Sourcegraph, we ask everyone to use people’s personal pronouns. You can read more about this [here](../../../company-info-and-process/diversity-equity-and-inclusion/personal-pronouns.md).
 - **Time zone**: This makes async work a lot easier.
 
 And of course, any other field you wish to complete.

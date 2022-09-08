@@ -45,6 +45,7 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 - Email a summary of this candidate to:
   - Onboarding Email
   - VP of Talent
+  - Recruiting Director
   - Hiring Manager
 
 **Step 7**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
@@ -94,6 +95,7 @@ After the candidate formally signs the offer letter (contract) generated through
 - Email a summary of this candidate to:
   - Onboarding Email
   - VP of Talent
+  - Recruiting Director
   - Hiring Manager
 
 **Step 7**: the Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel

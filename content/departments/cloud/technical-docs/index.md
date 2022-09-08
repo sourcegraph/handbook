@@ -20,14 +20,35 @@ We do not offer Kubernetes managed instances today as this introduces some compl
 
 For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separate test environments:
 
-- for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)
+- ~for v1.0 - [dev instance](https://devmanaged.sourcegraph.com/)~ (all instances have been migrated to v1.1)
 - for v1.1 - [rctest instance](https://rctest.sourcegraph.com/)
+- for v1.1 - [tpgi instance](http://tpgi.sourcegraph.com/)
+- for v1.1 - [s2 instance](https://sourcegraph.sourcegraph.com/)
+- for v1.1 - [research.sourcegraph.com](https://research.sourcegraph.com)
 
 Internal instances are created for various testing purposes:
 
 - testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow [managed instances upgrade tracker](../../engineering/dev/process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
+
+##### [dev instance](https://devmanaged.sourcegraph.com/)
+
+This is a shared instance for the engineering organization to test unreleased versions, locally built images, or anything they would like to experiement with Managed Instances.
+
+#cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM. The team that is running the experiment is responsbile for keeping everyone updated on the experiement in #cloud and ensuring the application is working as intented. The team should consult the [operation guide](./operations.md) when interacting with the dev instance. (please backup the database and VM before doing anyting destructive)
+
+##### [tpgi instance](http://tpgi.sourcegraph.com/)
+
+Learn more from https://github.com/sourcegraph/customer/issues/958
+
+##### [s2 instance](https://sourcegraph.sourcegraph.com/)
+
+This is the internal Cloud dogfood instance for the entire company. #dev-experience is responsible for rolling out nightly builds on this instance and #cloud is responsible for the maintenance of infrastructure, including Cloud SQL and underlying VM.
+
+##### [research.sourcegraph.com](https://research.sourcegraph.com)
+
+Learn more from https://github.com/sourcegraph/customer/issues/1221
 
 #### Customer instances
 
@@ -73,12 +94,12 @@ The main limitation of this model is that an underlying GCP infrastructure outag
 ### Security
 
 - **Isolation**: Each managed instance is created in an isolated GCP project with heavy gcloud access ACLs and network ACLs for security reasons.
-- **Admin access**: Both the customer and Sourcegraph personnel will have access to an application-level admin account.
+- **Admin access**: Both the customer and Sourcegraph personnel will have access to an application-level admin account. Learn more about [how we ensure secure access to your instance](./oidc_site_admin.md).
 - **VM/SSH access**: Only Sourcegraph personnel will have access to the actual GCP VM, this is done securely through GCP IAP TCP proxy access only. Sourcegraph personnel can make changes or provide data from the VM upon request by the customer.
-- **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.)
+- **Inbound network access**: The customer may choose between having the deployment be accessible via the public internet and protected by their SSO provider, or for additional security have the deployment restricted to an allowlist of IP addresses only (such as their corporate VPN, etc.). Filtering of the IP allowlist is performed by our WAF provider, Cloudflare. Notes, in addition to the customer provided IP allowlist, traffic from well-known public code hosts (e.g. GitHub.com) is also permitted to access selected Sourcegraph endpoints to ensure functionality of certain features.
 - **Outbound network access**: The Sourcegraph deployment will have unfettered egress TCP/ICMP access, and customers will need to allow the
   Sourcegraph deployment to contact their code host. This can be done by having their code-host be publicly accessible, or by allowing the static IP of the Sourcegraph deployment to access their code host.
-- **Web Application Firewall (WAF) protections**: The Sourcegraph deployment, if open to the Internet, will be proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF. Notes: Cloudflare WAF is not applicable when inbound network access is restricted to an allowlist of IP addresses only.
+- **Web Application Firewall (WAF) protections**: All managed instances are proxied through Cloudflare and leverage security features such as rate limiting and the Cloudflare WAF.
 
 Access can be requested in #it-tech-ops WITH manager approval.
 
@@ -126,3 +147,5 @@ All customer credentials, secrets, site configuration, app and user configuratio
 Please review the Managed Instances v1.0 [operations guide](./operations.md) for instructions.
 
 Managed Instances v1.1 documentation can be found [here](./v1.1/index.md)
+
+Managed Instances v2.0 documentation can be found [here](./v2.0/index.md)

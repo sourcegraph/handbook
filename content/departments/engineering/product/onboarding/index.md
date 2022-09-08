@@ -81,7 +81,7 @@ Remember:
 ### Get to know our customers
 
 - Watch the [demo videos](../../../ce-support/ce/onboarding/education.md#trainings-and-demos) & recent Chorus.AI recordings with customers
-- Familiarize yourself with [customer feedback channels](../process/feedback/product_feedback_rotation.md):
+- Familiarize yourself with [customer feedback channels](../process/feedback/product_feedback_monitoring.md):
   - [HubSpot](https://app.hubspot.com/forms/2762526/a86bbac5-576d-4ca0-86c1-0c60837c3eab/submissions) surveys
   - [Productboard](https://sourcegraph.productboard.com/insights/shared-inbox)
   - Twitter

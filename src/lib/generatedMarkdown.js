@@ -406,34 +406,6 @@ export async function generateTeamOrgChart(team) {
   return pageContent
 }
 
-export async function generateEngineeringOwnershipTable() {
-  const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
-  const productTeams = await readYamlFile('data/product_teams.yml')
-  let pageContent =
-    '|Category|Thing|Type|Team|Domain experts|Slack channels|Ownership model|Health|Product lifecycle|\n'
-  pageContent += '|---|---|---|---|---|---|---|---|---|\n'
-  for (const [thingName, thing] of Object.entries(engineeringOwnership)) {
-    pageContent += `|${String(thing.category)}|${String(thing.title)}|${String(thing.type || '')}`
-    if (productTeams[thing.product_team]) {
-      if (productTeams[thing.product_team].strategy_link) {
-        pageContent += `|[${String(productTeams[thing.product_team].title)}](${String(
-          productTeams[thing.product_team].strategy_link
-        )})`
-      } else {
-        pageContent += `|${String(productTeams[thing.product_team].title)}`
-      }
-    } else {
-      pageContent += '|'
-    }
-    pageContent += `|${String(thing.domain_experts || '')}|${String(thing.slack_channels || '')}`
-    pageContent += `|${String(thing.ownership_model || '')}|${String(thing.health || '')}`
-    pageContent += `|${String(thing.product_lifecycle || '')}`
-    pageContent += '|\n'
-  }
-
-  return pageContent
-}
-
 export async function generateGlossary() {
   const glossarySections = await readYamlFile('data/glossary.yml')
   let pageContent = ''

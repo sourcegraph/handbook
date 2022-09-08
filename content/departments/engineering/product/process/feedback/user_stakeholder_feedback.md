@@ -69,7 +69,7 @@ We have a few different email lists that are used to send us feedback.
 ### GitHub issues
 
 - **Purpose:** Anyone within or outside of Sourcegraph can file issues (like bugs or feature requests). Issues are often a developer's default place to leave feedback.
-- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, the product manager on [feedback rotation](product_feedback_rotation.md) is responsible for labelling with the right team.
+- **Owner:** For issues filed by Sourcegraph teammates, the filing teammate is responsible for making sure the issue is [labeled with the team's label](surfacing_product_feedback.md). For issues filed by someone outside Sourcegraph, product managers are [responsible for labelling with the right team](product_feedback_monitoring.md#labelling-github-issues-with-no-team-label).
 
 See [How to reference customer names in public tickets](../prioritize_and_build/prioritizing.md#how-to-reference-customer-names-in-public-tickets).
 
@@ -81,7 +81,7 @@ See [How to reference customer names in public tickets](../prioritize_and_build/
 ### Slack
 
 - **Purpose:** Slack is a fast way for existing customers and Sourcegraph teammates to provide feedback.
-- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. The product manager on [feedback rotation](product_feedback_rotation.md) owns routing and logging this feedback.
+- **Owner:** We [ask that teammates surface product feedback](surfacing_product_feedback.md) in #feedback. Product managers own [routing and logging this feedback](product_feedback_monitoring.md).
 
 ### Support tickets
 
@@ -93,13 +93,13 @@ See [How to reference customer names in public tickets](../prioritize_and_build/
 #### NPS Survey
 
 - **Purpose:** We prompt customers to provide NPS ratings from within the Sourcegraph UI. On Sourcegraph version 3.41 and above, we also prompt about use cases.
-- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding NPS feedback.
+- **Owner:** Product managers own [responding to or forwarding actionable NPS feedback](product_feedback_monitoring.md).
 - **Pipeline:** This is powered by two Zaps: one for [Sourcegraph 3.40 and below](https://zapier.com/app/editor/64689250), and another for [Sourcegraph 3.41 and above](https://zapier.com/editor/160211136/published/160211136) that also handles use cases data submissions. Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note and posted in #feedback. Submissions with only a score are posted in #feedback-nps. In addition, if the feedback contains obvious keywords (eg. 'Code Insights'), the PM of the relevant area will be automatically @-mentioned on slack. The CE and AE owners of the deal are also mentioned if they have added their handle to [this spreadhseet](https://docs.google.com/spreadsheets/d/1RPiuhuyEpqJ6MHFyzf5WOfx1DA00iW6_mEgAHbJffeQ/edit#gid=334520408). This is based on account ownership as available in this [look](https://sourcegraph.looker.com/looks/1301).
 
 #### Happiness widget
 
 - **Purpose:** Users can submit feedback from the `Feedback` button of the Sourcegraph UI.
-- **Owner:** The product manager on [feedback rotation](product_feedback_rotation.md) owns responding to or forwarding happiness widget feedback.
+- **Owner:** Product managers own [responding to or forwarding any actionable happiness widget feedback](product_feedback_monitoring.md).
 - **Pipeline:** This is powered by a [Zap](https://zapier.com/app/editor/113508746). Submissions that have written feedback (as opposed to only a rating), are saved as a productboard note. In addition, if the feedback contains specific keywords, the PM of the relevant area will be automatically @-mentioned on slack.
 
 #### Browser Extension Uninstall Feedback

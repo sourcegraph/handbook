@@ -15,7 +15,6 @@ const features = await readYamlFile('data/features.yml')
 const maturityLevels = await readYamlFile('data/maturity_levels.yml')
 const productTeams = await readYamlFile('data/product_teams.yml')
 const teamMembers = await readYamlFile('data/team.yml')
-const engineeringOwnership = await readYamlFile('data/engineering_ownership.yml')
 const useCases = await readYamlFile('data/use_cases.yml')
 const deploymentOptions = await readYamlFile('data/deployment_options.yml')
 const guilds = await readYamlFile('data/guilds.yml')
@@ -127,15 +126,6 @@ for (const teamMember of Object.values(teamMembers)) {
             if (manager_exists === false) {
                 errors += `Team member reports to non-existent manager role slug: ${JSON.stringify(teamMember)}\n\n`
             }
-        }
-    }
-}
-
-// iterate through engineering feature list and ensure product team exists
-for (const thing of Object.values(engineeringOwnership)) {
-    if (thing.product_team) {
-        if (!Object.prototype.hasOwnProperty.call(productTeams, thing.product_team)) {
-            errors += `Engineering ownership item contains unknown product team: ${JSON.stringify(thing)}\n\n`
         }
     }
 }

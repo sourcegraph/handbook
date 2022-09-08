@@ -2,6 +2,8 @@
 
 <span class="badge badge-note">SOC2/CI-41</span>
 
+**For MI 1.1, see the new process [here](v1.1/mi1-1_delete_process.md).**
+
 ## How to request
 
 1. Create a new issue using [this template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fdevops&template=managed-instance-teardown.md&title=)
@@ -109,14 +111,6 @@ Once `force_destroy` has been set to "true", Terraform is able to remove the GCP
 
 ```
 terraform destroy
-```
-
-## Remove the project from the monitoring project
-
-```
-cd monitoring/
-sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for macOS
-terraform apply
 ```
 
 ## Commit the changes to the deploy-sourcegraph-managed repo
@@ -278,6 +272,8 @@ Search for any open upgrade tracking issues, edit the description to remove the 
 This [Github Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-tracking) may be helpful.
 
 ## Close teardown request issue
+
+<span class="badge badge-note">SOC2/CI-41</span>
 
 > NOTE: to ensure auditability of the teardown SLA, it is important to execute these steps directly after tearing down a managed instance.
 

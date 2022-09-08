@@ -9,6 +9,7 @@ Travel budgets are for full time teammates.
 - Travel is usually disruptive, even when it's productive. When planning a trip, consider the impact on your team and clients, and choose dates and times that make sense and don't have an unreasonable impact on your work or your teammates. If you're not sure, consult your manager.
 - Make sure to cancel bookings when trips are cancelled. **Your bookings are your responsibility.** Managers, Finance, PeopleOps, or TripActions do not cancel these bookings. Any bookings that were not cancelled will be the monetary responsibility of the teammate.
 - Our high agency value works because we all make responsible decisions in the best interests of the whole team and the business — **please treat company money how you would treat your own**.
+- Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
 - When planning a trip with another teammate(s), actively gauge the level of comfort of others for both the activities you’ll be engaging in, and how you plan on meeting up. Be inclusive of different interests in the group.
 - For team travel, not everyone on your team may be able to join your meetup. If you will be discussing work related things that involve members of the team who are not physically present, you must find a way to include them remotely. Accessibility to conversations is important, and all teammates must feel included, whether or not they are joining in person.
 - All meetups are to remain completely optional for all attendees.
@@ -46,7 +47,9 @@ This travel budget is intended for teammates to attend company-wide meetups, arr
 
 ### 2. Team travel
 
-Each team is allocated $5,500 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
+Each team is allocated $5,500 USD per year per teammate for team meetups, so you can connect and build relationships with the members of your own team. Considering the intention, this applies when a minimum two members of the team get together. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+
+The best team trips are the ones with 50% bonding, and 50% work/collaboration time factored in. In planning your Team travel, feel free to reference a sample agenda below:
 
 - _9am–12pm: Breakfast + Team collaboration time_
 - _12pm–1pm: Team lunch_
@@ -64,7 +67,9 @@ Factor in as much time to spend together during the trip and leave room for solo
 
 ### 3. Individual travel
 
-Each teammate has a $2,500 budget per year to meet up with individual Sourcegraph teammates or a group. The intention for this budget is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
+Each teammate has a $2,500 budget per year to meet up with individual Sourcegraph teammates or a group. The intention for this budget is for you to connect and build relationships with teammates in the wider company, i.e. in other teams and/or locations, that you may not reach at team events. Tracking the fiscal year spend is the responsibility of each individual teammate. Be aware of how much you have spent against your budget, you will not be notified once your budget has been reached. Accounting is happy to confirm totals.
+
+Consider using this to spend time with teammates from another team, with whom you work closely or with whom a personal meeting may be beneficial.
 
 - This budget is _in addition_ to the other benefits mentioned on this page.
 - Budgets cannot be "mixed and matched", for example you cannot spend $1k from your invidivual team budget in order to add the remaining $1.5k to a team travel.
@@ -173,15 +178,15 @@ We ask you to use your best judgment when traveling and spending company money. 
 
 #### Trip Summary
 
-Please see below for a complete summary of spend limit, per diem, and hotel budget guidelines for each type of trip. The best practice is to plan your trip in accordance with the per diem and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
+Please see below for a complete summary of spend limit for each type of trip. The best practice is to plan your trip in accordance with the daily meals allotment and hotel policy, in order to efficiently use the spending budget allowed. Costs incurred will only be reimbursed to spending limits provided (or the applicable guidance), so it is up to the individual/team how to best allocate that spending allowance for their trips.
 
-| Trip Category     | Total Spend Limit | Per Diem?                        | Hotel Budget?                    |
-| ----------------- | ----------------- | -------------------------------- | -------------------------------- |
-| Company-wide      | N/A               | Yes                              | Yes                              |
-| Team              | $5,500            | Recommended if under budget only | Recommended if under budget only |
-| Individual        | $2,500            | Recommended if under budget only | Recommended if under budget only |
-| Business/Customer | N/A               | Yes                              | Yes                              |
-| Education         | $1,000            | Recommended if under budget only | Recommended if under budget only |
+| Trip Category     | Total Spend Limit |
+| ----------------- | ----------------- |
+| Company-wide      | N/A               |
+| Team              | $5,500            |
+| Individual        | $2,500            |
+| Business/Customer | N/A               |
+| Education         | $1,000            |
 
 ### Dependent care budget:
 
@@ -273,3 +278,11 @@ If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately
 - If you need to take additional time off work to recover, first and foremost: we hope you feel better soon! Please submit your time off under 'Wellbeing leave' in Roots (though Slack); this will trigger a notification to your manager. We recommend talking through your time off plan with them in case you need a longer recovery time than expected.
 
 If you have any questions or concerns, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
+
+# In-person gatherings that don't require travel
+
+As an all-remote company, we want everyone to feel included and connected, regardless of where they’re located. As such, each teammate has $150 per person per quarter to spend on a gathering of their choice (in addition to travel budgets). This budget can be used for a wide array of activities including meals, transportation, etc. We will reimburse only your own portion of the bill if you include a non-teammate, so make sure to separate your bills or ask for separate receipts. This can be expensed under the "Team Travel" categories.
+
+# Virtual Gatherings
+
+In addition to our travel budget for in-person meetups, we encourage teams to gather for fun activities in a virtual setting. Each team has $150 per person per quarter to spend on a team gathering of their choice. This budget can be used for a wide array of activities including meals, games, prizes, etc. For single-events with expenditures above $1,500 please request approval from the finance team (finance@sourcegraph.com). This can be expensed under the "Team Travel" categories.

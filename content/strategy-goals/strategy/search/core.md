@@ -18,7 +18,7 @@ We have recently worked toward the goal of indexing open source code to make our
 
 - The Sourcegraph Cloud global index has now 2.6M repositories representing all repositories with 5 stars or more from GitHub.com and GitLab.com. While working towards this goal, we have made changes that have yielded trickle-down benefits to all Sourcegraph deployments, for instance, we accomplished a [5x reduction](https://about.sourcegraph.com/blog/zoekt-memory-optimizations-for-sourcegraph-cloud/) in the memory usage of Zoekt, our trigram-based indexed search backend.
 - We have made progress towards expanding code host coverage to include repositories from non-GitHub.com and GitLab.com code hosts: you can now search more than [34k repositories](https://sourcegraph.com/search?q=context:global+r:%5Esrc%5C.fedoraproject%5C.org/+type:repo+count:all&patternType=literal) from src.fedoraproject.org on sourcegraph.com.
-- We have released the beta version of [dependencies search](https://docs.sourcegraph.com/code_search/how-to/dependencies_search) enabling search through the dependencies of your repositories for Go and npm.
+- We have released the beta version of [dependencies search](https://docs.sourcegraph.com/code_search/how-to/dependencies_search) enabling search through the dependencies of your repositories for Go, npm, and Python.
 
 We conducted discovery work to better understand the bottlenecks of our search infrastructure on large monorepos (those with a working directory > 6GB) and started work on some prototypes to address our customers' most pressing needs. We established a baseline and created a synthetic gigarepo to measure progress towards our goal. Our synthetic gigarepo is a representative monorepo with a HEAD working copy size of 15GB.
 
@@ -26,21 +26,18 @@ As a first step towards improving the ranking of results, we have enabled [zoekt
 
 ## What's next and why
 
-### FY23Q2
+### FY23Q3
 
 #### Goals
 
 - **Monorepo performance**: At a P75 level, synthetic gigarepo will index in less than 30 minutes, indexed searches will complete in < 2s and unindexed searches will complete in < 10s.
 - **Ranking**: Understand customer pain points and establish a baseline for future improvements.
-- **Dependencies Search**: Expand support for dependencies search to Python and JVM and implement `repo:dependents(...)`.
 
 #### Details
 
 **Monorepo performance**: This is a recurrent pain point for large enterprise customers. Having replicated large monorepo setups, we identified that unindexed monorepo performance is still poor and several facets of search on large monorepos cause significant load on gitserver. To address this, we have been working on an incremental indexing prototype and a Searcher prototype to better handle unindexed searches.
 
 **Ranking**: As a first step towards improving the ranking of our search results, we will start tracking the quality of search results using the index of user-selected results as a proxy metric. Having this tracking in place will help measure the success of future improvements. We will also conduct discovery of customers needs and pain points to drive the areas of ranking we choose to focus on.
-
-**Dependencies Search**: We will expand support for dependencies search to include Python and JVM and implement `repo:dependents(...)` allowing users to search which repositories depend on a specific package. This will be particularly relevant for the Code security use case.
 
 #### What we're not working on and why
 
@@ -53,9 +50,3 @@ We had a previous goal to scale the Sourcegraph Cloud global index to include ev
 - By indexing these 2 to 3 stars repositories we will not be achieving the promise of letting users search their own code since this would only be attained by additionally indexing all 0 to 1 star repositories, a much larger number of repositories which we are currently not ready to support.
 
 We’ve chosen instead to make progress towards [indexing the entire OSS universe](https://about.sourcegraph.com/blog/why-index-the-oss-universe/) by indexing repositories from different code hosts as well as adding support for package host integrations. By focusing on this, we strive to make Sourcegraph.com a truly universal code search engine.
-
-## Related use cases
-
-This section lists use cases that are related to this product team, along with the specific relevant features.
-
-{{generator:product_team_use_case_list.search_core}}

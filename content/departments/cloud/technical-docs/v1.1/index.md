@@ -30,7 +30,9 @@ _To update this file: goto
 
 The following processes only apply to Managed Instances v1.1:
 
+- [Create a Managed Instance](./mi1-1_creation_process.md)
 - [Upgrade a Managed Instance](./mi1-1_upgrade_process.md)
+- [Delete a Managed Instance](./mi1-1_delete_process.md)
 - [Restore a Managed Instance](./mi1-1_restore_process.md)
 - [Failover Process](./mi1-1_failover_process.md)
 - [Enable Executors](./mi1-1_enable_executors_process.md)

@@ -128,3 +128,9 @@ dist
 # Generated at build time
 public/robots.txt
 public/sitemap.xml
+
+# IDE config
+.idea
+
+# vi .swp files
+.*.swp

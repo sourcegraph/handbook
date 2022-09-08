@@ -11,7 +11,7 @@ All [internal infrastructure](./index.md) is developed and deployed with infrast
 
 [Internal infrastructure](https://github.com/sourcegraph/infrastructure) is primarily deployed from Terraform definitions, though Kubernetes manifests are used for internal tools as well where relevant.
 
-In both cases, all changes are required to go through standardized and automated set of static analysis tools that verify the validity of manifests before they can be deployed, which includes [security scanning](../../../teams/security/tooling/checkov.md).
+In both cases, all changes are required to go through standardized and automated set of static analysis tools that verify the validity of manifests before they can be deployed, which includes [security scanning](../../../../security/tooling/checkov.md).
 
 ### Sourcegraph instances repositories
 

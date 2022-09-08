@@ -8,10 +8,31 @@ This page describes Sourcegraph's analytics function, our data sources, and how 
 - [Amplitude](../tools/amplitude.md)
 - [Analytics FAQs](faqs.md)
 - [Sources of truth](sources-of-truth.md)
+- [Data Analyst IC levels](https://docs.google.com/spreadsheets/d/1KXNvR3vB9zeqkeNIqqLD14mgRdRfp0D0t8EQ1gmk_Pk/edit)
 
 ## Data sources
 
-We collect data from the following:
+### Product data
+
+We collect two different levels of product data. The type of data we collect depends how an instance is being hosted.
+
+- [Pings](https://docs.sourcegraph.com/admin/pings) we collect pings from Sourcegraph cloud, self-hosted, and managed Sourcegraph instances. These pings contain anonymous and aggregated information. There are [specific guidelines](https://docs.sourcegraph.com/dev/background-information/adding_ping_data) that must be followed for teams to add ping data.
+- [User-level data](https://docs.google.com/document/d/1vXHoMBnvI_SlOjft4Q1Zhb5ZoScS1IjZ4V1LSKgVxv8/edit#heading=h.5cvokp6lk0w3): we collect anonymous, user-level, event stream data from Sourceraph cloud and Sourcegraph managed instances using our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). The event stream is data that is collected at the time the user does something in the product. That means, what did they do, when did they do it, what was the outcome.
+
+If you're interested in which kind of data you can see for a given customer, you check their telemetry status [here](https://sourcegraph.looker.com/looks/1366). The options are as follows:
+
+- No telemetry: This self-hosted customer has an airgapped instance, or has turned pings off. We don't have any data about this customer's product usage
+- [Critical pings: ](https://docs.sourcegraph.com/admin/pings#critical-telemetry)This self-hosted customer has elected to send us only the pings that are required for billing, support, updates, and security notices
+- Full pings: This self-hosted customer sends us all the aggregated, anonymoous data we outline [here](https://docs.sourcegraph.com/admin/pings#other-telemetry)
+- Full pings + user-level data: This managed instance customer sends us all the aggregated, anonymous data outlined in our [documentation](https://docs.sourcegraph.com/admin/pings#other-telemetry), in addition to anonymous, user-level, event stream data from our [event logger](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts)
+
+#### Which data tool should I use for instance data?
+
+![Data tool flowchart](https://storage.googleapis.com/sourcegraph-assets/handbook/BizOps/data_workflow.png)
+
+### Other data sources
+
+We also collect data from the following:
 
 - Google Analytics: Website analytics for Sourcegraph marketing and docs pages (not Sourcegraph.com)
 - Google Tag Manager: Tag management system to collect event data and execute custom scripts across marketing our sites (i.e. (about|info|docs).sourcegraph.com)
@@ -20,8 +41,6 @@ We collect data from the following:
 - MixMax: Email marketing automation (Apollo is not used in production, but still retains data)
 - ZoomInfo: Data enrichment of account and contact information
 - Sourcegraph.com Site-admin pages: customer subscriptions and license keys
-- [Pings](https://docs.sourcegraph.com/admin/pings) from self-hosted Sourcegraph instances containing anonymous and aggregated information. There are [specific guidelines](https://docs.sourcegraph.com/dev/background-information/adding_ping_data) that must be followed for teams to add ping data.
-- [Event logger: custom tool to track events](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/client/web/src/tracking/eventLogger.ts). On Sourcegraph.com, this sends events directly to BigQuery. On customer instances, this sends events to the `EventLogs` database, which is then used to populate pings.
 - Sourcegraph production database: we query a few particular tables from the production database via terraform to access data for Sourcegraph cloud.
 - [Prometheus dashboards](https://sourcegraph.com/-/debug/grafana/?orgId=1) show high-level insight into the health of a Sourcegraph instance to admins. Sourcegraph teammates can see the health of Sourcegraph.com.
 - [Customer Environment Questions](../process/customer_environment_questions.md)
@@ -86,6 +105,7 @@ Every underlying data source (not chart!) is assumed to always be up-to-date unl
 When adding a user to Looker, they need to be in both the group and role:
 
 - Engineering, marketing, customer support, people ops, talent, CTO users = View
-- CE, sales, product users = ‘All internal users, view and edit’
+- CE, sales, product users = View
 - Any other teams not listed should default to 'View'
 - Generally, CE, sales, product, customer support, engineering, CTO, and marketing receive accounts when joining the company
+- Reach out to #analytics channel if you need elevated permissions - to create content, for example.

@@ -24,8 +24,6 @@ The code insights team is responsible for building and delivering code insights 
 
 {{generator:product_team.code_insights}}
 
-[We're hiring!](https://boards.greenhouse.io/sourcegraph91/jobs/4034945004)
-
 ## Mission
 
 To create a Sourcegraph code insights product that answers all your important high-level questions about what's in your code and how it's changing.

@@ -29,7 +29,7 @@ If you enable email notifications for watched repositories then you will want to
 
 ### Gmail filters
 
-> You can also try out [Joe](../../../../team/index.md##joe-chen)'s Gmail filters, [download](https://storage.googleapis.com/sourcegraph-assets/joe-chen-gmail-filters.xml).
+> You can also try out [Joe](../../../../team/index.md#joe-chen)'s Gmail filters, [download](https://storage.googleapis.com/sourcegraph-assets/joe-chen-gmail-filters.xml).
 
 1. Create a filter that skips the inbox for any message from notifications@github.com that doesn't contain your email address (i.e. `from:(notifications@github.com) -{YOURNAME@sourcegraph.com}`). GitHub will explicitly cc your email address if and only if you are mentioned/involved in the thread. Only threads that involve you will appear in your inbox.
 

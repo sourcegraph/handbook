@@ -1,7 +1,7 @@
 # Strategic cross-product owner
 
 - Slack channel: #cp-strategic
-- Owner: Joel Kwartler
+- Owner: Ryan Phillips
 - Owner split with other roles: 50-50 (this-other roles)
 
 ## Mission and ownership
@@ -46,11 +46,18 @@ To work best with the teams and product stakeholders also involved in this work,
 
 ## Strategy
 
-1. 🔄 By July 30 2022, build a deep understanding of the strategic customer space current state and future needs. _This will inform much of the rest of the strategy, so the below other items are broad for now._
-2. Prioritize and solve the most pressing future needs
-3. Collect active inputs from new strategic prospects and customs
+1. ✅ By July 30 2022, build a deep understanding of the strategic customer space current state and future needs.
+1. Prioritize and solve the most pressing future needs – currently:
+   1. 🔄 Plan and pilot customer in place for supporting strategic customers on cloud _By August 26th if not sooner_
+   1. 🔄 Updating strat account teams and processes to better align with technical needs and gaps _By August 19th if not sooner_
+   1. Building a defined achievable timeline of when we can support each tier size (see below)
+   1. Exploring and validating possible strat features:
+      1. Admin analytics features for 10k+ user instances
+      1. Innersource portal
+1. Collect active inputs from new strategic prospects and customs
 
 ## Resources
 
 1. [Github Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/58)
 1. [Strategic accounts list](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=1317478762)
+1. [Strategic account size tiers for support, planning, and scale testing](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107&range=B6)

@@ -33,4 +33,4 @@
 
 ## Career development
 
-Our [career development framework](https://docs.google.com/document/d/1MQiF1DY9io2znXXWnr3m9eudx--k3i1ST227z3pDu-w/edit) helps you understand the expectations of your role and provides a common language for you and your manager to discuss and plan your career growth. It is also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.
+Our [career development frameworks](career-development/index.md) help you understand the expectations of your role and provide a common language for you and your manager to discuss and plan your career growth. They are also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.

@@ -8,7 +8,7 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
 
 ## Design Team
 
-[Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
+- [Steve Fisher](../../../team/#sts=Steve%20Fisher) Head of Design (he/him)
 
 ### Product Design
 
@@ -17,13 +17,13 @@ We also seek to make it easier and more efficient to build Sourcegraph itself. T
   - [Daniel Marques](../../../team/index.md#daniel-marques) Product Designer, Batch Changes (he/him)
   - [Paulo Almeida](../../../team/index.md#paulo-almeida) Product Designer, Search Product (he/him)
   - [Sara Lee](../../../team/index.md#sara-lee) Product Designer, Growth & Integrations (she/her)
-- [Quinn Keast](../../../team/index.md#quinn-keast) Product Designer, Cloud SaaS (he/him) – [ReadMe](https://quinnkeast.com/readme)
+- [Quinn Keast](../../../team/index.md#quinn-keast) Staff Product Designer (he/him) – [ReadMe](https://quinnkeast.com/readme)
 - [Megan St. Andrew](../../../team/index.md#megan-st-andrew) UX Researcher (she/they)
 
 ### Creative Ops / Brand
 
 - [Fabiana Castellanos](../../../team/index.md#fabiana-castellanos) Creative Operations Manager (she/her)
-- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (she/her)
+- [Tracey Johnson](../../../team/index.md#tracey-johnson) Brand Designer (they/them)
 
 We’re hiring! [Check out our open roles](https://boards.greenhouse.io/sourcegraph91).
 
@@ -52,7 +52,7 @@ At Sourcegraph, we design in the open. This is an important part of how we work 
 Designing in the open means many things to us.
 
 - **Our work and process is [transparent by default](../../../company-info-and-process/values/index.md#open-and-transparent)**. By making our work visible to anyone, it’s easy for us to collaborate with others while building trust within our [high agency](../../../company-info-and-process/values/index.md#high-agency) environment.
-- **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./reviewing_design/index.md).
+- **We share early and often**. Our design process encourages collaboration with other teams at all stages of the product design process, and designing in the open reduces friction and [encourages feedback and shared understanding](./structuring_design_artifacts_for_review/index.md).
 - **We create shared understanding**. We proactively communicate with teammates from all disciplines and backgrounds. We don't use jargon and don't expect others to have a deep design-specific understanding, and we look for gaps in understanding where we can help provide clarity.
 
 Designing in the open is hard! As designers, it’s easy to want to hold back on sharing until we’re happy with what we have. It can be very uncomfortable for others to see the things we’re working on before we’re ready to share. But designing in the open also challenges us to improve our design communication and makes us better at collaborating asynchronously.
@@ -69,10 +69,13 @@ These discovery and delivery phases can be as large or as small as needed for th
 
 We avoid siloed work as much as possible. Instead of design and development phases, each discipline is involved end-to-end, and it’s likely that one discipline will be more involved than the others at different moments along the way. Similarly, we avoid hard handoffs as much as possible. When the Discovery phase is complete, every team member should have a deep understanding and agreement around what will move forward into Delivery and is responsible for shipping the project outcome.
 
+[Design project templates](./templates/index.md) are used to help structure our efforts.
+
 ## Process
 
 - [Ways of working](./ways_of_working/index.md)
 - [Design artifacts](./artifacts/index.md)
+- [Project templates](./templates/index.md)
 - [Wildcard design system](./wildcard_design_system/index.md)
 - [Brand Guidelines](./brand_guidelines/)
 - [Analytics and product design](./metrics/index.md)
@@ -87,9 +90,9 @@ We avoid siloed work as much as possible. Instead of design and development phas
 ## Collaboration
 
 - [Team rituals](./team_rituals/index.md)
-- [Reviewing design](./reviewing_design/index.md)
+- [Design collaboration and review](./design_collaboration_review/index.md)
+- [Structuring design artifacts for review](./structuring_design_artifacts_for_review/index.md)
 - [Intersecting with other teams](./intersecting_with_other_teams/index.md) (Coming soon)
-- [Design critiques](./design_critiques/index.md) (Coming soon)
 
 ## Toolkit
 

@@ -20,16 +20,16 @@ Conversion notes:
 * Tables are currently converted to HTML tables.
 ----->
 
-**Description**
+# **Description**
 
 This is an outline of the capabilities of the data and analytics team, how the team will engage and support key stakeholders and groups in the organization, and how to best make requests and/or communicate with the team. It is understood that the model will change over time as company priorities change and the team itself grows.
 
-**Our Vision and Values**
+# **Our Vision and Values**
 
 Partner with the organization to build scalable data solutions and insights to help the company grow
 ![Vision and Values](https://storage.googleapis.com/sourcegraph-assets/Data%20And%20Analytics%20Vision%20and%20Values.png)
 
-**Our Current Capabilities**
+# **Our Current Capabilities**
 
 <table>
   <tr>
@@ -70,7 +70,7 @@ Partner with the organization to build scalable data solutions and insights to h
   </tr>
 </table>
 
-**Communications/Asking a Question**
+## **Communications/Asking a Question**
 
 The Data and Analytics team will strive to be Handbook first. Have a question? Look for the answer in our Handbook page: [Analytics Handbook Page](index.md). Don’t see what you are looking for? Ask a question in one of our Slack channels.
 
@@ -85,7 +85,7 @@ How to know what we are working on:
 
 Data and Analytics Project Board ([Here](https://github.com/orgs/sourcegraph/projects/246))
 
-**Stakeholder Support Model**
+# **Stakeholder Support Model**
 
 The analysts will be aligned to the business units that are supported, and each stakeholder will know who their point of contact is. This allows the analyst to build relationships, embed in a specific group to become a subject matter expert, and advocate for prioritized engineering work as needed.
 
@@ -158,7 +158,7 @@ The analysts will be aligned to the business units that are supported, and each 
 
 The engineering team will be considered a shared service that will prioritize the requests across all business units and will adhere to an agreed upon ratio of prioritized tasks and self-directed tasks like addressing tech debt, optimizations, and platform health and administration.
 
-**Stakeholder Partnerships**
+## **Stakeholder Partnerships**
 
 **Data and Analytics responsibilities**
 
@@ -170,7 +170,7 @@ The engineering team will be considered a shared service that will prioritize th
 - Gather feedback from stakeholders and teams as needed
 - Enablement/documentation
 
-**Stakeholder responsibilities (VP/Dir)**
+## **Stakeholder responsibilities (VP/Dir)**
 
 - Keep us up to date on planned OKRs to ensure that our OKRs are aligned
 - Prioritize large projects
@@ -179,7 +179,7 @@ The engineering team will be considered a shared service that will prioritize th
 - Enablement adoption
 - Champion adoption and engagement of data deliverables/solutions within your teams
 
-**Project Requestor or Point of Contact responsibilities (Dir and below)**
+## **Project Requestor or Point of Contact responsibilities (Dir and below)**
 
 - Partner in requirements gathering sessions
 - Agree on timelines and definition of done
@@ -189,7 +189,7 @@ The engineering team will be considered a shared service that will prioritize th
 - Provide testing and usability feedback
 - Enablement/documentation
 
-**Suggested Meetings**
+## **Suggested Meetings**
 
 - Stakeholder/Analyst meetings
   - Bi-Weekly or Monthly meetings to share updates of ongoing projects, talk through upcoming projects, priorities, and planning, and share new and notable work from other parts of the analytics organization.
@@ -199,7 +199,7 @@ The engineering team will be considered a shared service that will prioritize th
 - Retrospectives
   - Retrospectives will be held at the conclusion of any cross-functional, multi-month project
 
-**Project Intake**
+## **Project Intake**
 
 The Data and Analytics team will accept project/enhancement requests through [GitHub issues in the Sourcegraph analytics repository](https://github.com/sourcegraph/analytics/issues). At this time, requests that are not attached to a GitHub issue will not have an assigned analyst/engineer or expected completion date, and will not be tracked by the team.
 
@@ -225,7 +225,7 @@ A Data and Analytics team member will triage and assign issues to the relevant t
 
 For time-sensitive or urgent requests, please tag the issue with the urgent label. This will make the GitHub issue appear in the #analytics channel in Slack to ensure visibility, and where you can follow up with more details/asks.
 
-**Sprint Planning**
+# **Sprint Planning**
 
 We currently work in two week sprints that run from Monday to the following Friday. Requests that come in mid-sprint will be placed in the backlog and triaged at the next sprint planning meeting. If something is urgent, please let us know and we can prioritize as needed.
 
@@ -244,7 +244,7 @@ Planning Principles:
 - Mix of quick wins and long-term, proactive projects
 - Only choose projects where we have a clear picture of what the result looks like and the impact it will make; if these aren’t clear, we should block time to further scope them
 
-**Self-Service**
+# **Self-Service**
 
 Supporting a Self-Service framework for BI and Analytics is imperative to being a data driven organization.
 
@@ -254,11 +254,11 @@ This framework consists of three principles:
 2. Create a collaborative environment
 3. Create a process to govern how this collaboration leads to continuous improvement of our analytics capabilities
 
-**Personas**
+## **Personas**
 
 In our Self-Service framework, we need to accommodate multiple personas because not all users will want to self-serve the same way.
 
-**Viewers**
+## **Viewers**
 
 - Viewers are interested in standardized reporting on standardized metrics. They are interested to see how metrics change over time and may want to drill into specific datasets for those metrics. Viewers will request new standard metrics or new filters on current standard reports. They will also request new views and reports. Viewers may want to create their own views or dashboards for their own personal use.
 - Examples of use cases of a viewer
@@ -267,7 +267,7 @@ In our Self-Service framework, we need to accommodate multiple personas because 
   _ I have a set of metrics that I am measured against and want to track progress of those metrics
   _ I want to automate a set of metrics that I report out on regularly
 
-**Creators**
+## **Creators**
 
 - Creators are interested in all the components of a Viewer, but will also want to create their own views/reports. Creators will also want to perform ad-hoc analysis. They are interested in both standard metrics and new/undefined metrics. They may be able to write queries directly against a data warehouse. And creators will use our standard tools, but may use other tools that are not part of the Data and Analytics tech stack.
 - Examples of use cases of a creator
@@ -276,32 +276,64 @@ In our Self-Service framework, we need to accommodate multiple personas because 
   _ I want to query the DWH to understand and analyze data quickly
   _ I want to automate analysis
 
-**Tools**
+# **Tools**
 
-**Looker**
+## **Looker**
 
 Looker is a business intelligence tool used for standard enterprise reporting and ad hoc reporting and analysis. All Sourcegraph employees can have View access to Looker. Some groups have the ability to create reports. If you are not a part of a group that can save content, reach out to #Analytics in Slack.
 
 Looker has the ability to connect to all data sources that are located in our BigQuery DWH. It can also connect to documents in Google.
 
-**Notable reports:**
+### **Notable reports**
 
-**Overview dashboards and charts**
+**Company level metrics**
+If you’re looking for high-level data about how our user base interacts with our product generally, below are links to charts for some commonly requested data points. Unless otherwise noted, these charts include data for both free and paying users.
 
-- [Server Instances Overview](https://sourcegraph.looker.com/dashboards/167?Unique%20Server%20ID=Netflix&Salesforce%20Unique%20ID=) - A look at an individual instance and usage metrics at the instance and feature level
-- [Server instances](https://sourcegraph.looker.com/looks/436) - A list of all instances and users by month
-- [Customer Health - by customer](https://sourcegraph.looker.com/dashboards/194?Unique%20Server%20ID=Uber) - A view of customers (on-prem) and their usage measures
-- [Prospect Overview - by account](https://sourcegraph.looker.com/dashboards/304?Account%20Name=&Ae%20Name=&Sdr%20Name=) - A list of all accounts in Salesforce and their product usage and campaign memberships aggregated at the account level
+- [Monthly users by instance type](https://sourcegraph.looker.com/looks/729)
+- [Instances by deployment type](https://sourcegraph.looker.com/looks/971?toggle=fil,pik)
+- [DAU/MAU ](https://sourcegraph.looker.com/looks/1319)
+- [Average seat consumption (MAU/Total Seats)](https://sourcegraph.looker.com/looks/1333?toggle=dat,fil,pik) - customers only
+- [Customer support tickets](https://sourcegraph.looker.com/dashboards/177?Organization=&Ticket+priority=None%2Cp1%2Cp2&Created+Date=90+day&Assignee+ID=&Lifecycle=)
+- [Growth dashboard ](https://sourcegraph.looker.com/dashboards/292?Salesforce%20Unique%20ID=&Unique%20Server%20ID=)(includes metrics like total searches per month, lines of code indexed per month, user retention etc)
+- [Technical health score](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D)
+
+**Customer-level metrics**
+If you’re looking for product usage data for a specific customer(s), below are links to charts for some commonly requested data points. Please note that if you want to see a full overview of a specific instance’s usage, the dashboards in the “Full instance overview” section may be more useful.
+
+- [MAUs by customer](https://sourcegraph.looker.com/looks/1065)
+- [Total user accounts by customer (monthly)](https://sourcegraph.looker.com/looks/1066)
+- [DAU/MAU by customer](https://sourcegraph.looker.com/looks/1316)
+- [Customers by Sourcegraph version](https://sourcegraph.looker.com/looks/718)
+- [Customer seat consumption (MAU/purchased seats)](https://sourcegraph.looker.com/looks/1332?toggle=pik)
+- [Deployment type by customer](https://sourcegraph.looker.com/looks/1317) (ex. kubernetes, docker-compose)
+- [Hosting type by customer](https://sourcegraph.looker.com/looks/1374) (ex. self-hosted, managed instance)
+- [Telemetry status by customer](https://sourcegraph.looker.com/looks/1366)
+- [Code hosts by customer](https://sourcegraph.looker.com/looks/1198)
+- [Total repos by customer](https://sourcegraph.looker.com/looks/1318)
+- [NPS score by customer](https://sourcegraph.looker.com/dashboards/128?Unique+Server+ID=Uber&Time=48+months)
+- [Customer support metrics by customer](https://sourcegraph.looker.com/dashboards/177?Organization=Uber&Ticket+priority=None%2Cp1%2Cp2&Created+Date=90+day&Assignee+ID=&Lifecycle=)
+
+**Full instance overview**
+If you’re looking for a full breakdown of usage on a server or for a particular customer, below are links to a few widely used dashboards that contain a variety of usage metrics.
+
+- [Customer account overview: ](https://sourcegraph.looker.com/dashboards/296?Name=Uber&Contract+Start+Date=&Company+size+%28%23+of+employees%29=&Account+Exec=&Customer+Engineer=&Contract+End+Date=)A key dashboard we use to assess usage at a customer account (note: this is only for customers, free and prospect instances will not show up here). While more pared down than the following two dashboards, it contains the metrics we think are generally most important to measuring overall usage.
+- [Server instances dashboard:](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Uber&Salesforce+Unique+ID=) This dashboard is much more comprehensive than the customer account overview, but not every metric on here will be important/relevant for every user/customer. However, you can find free and prospect instances on this dashboard
+- [Technical health dashboard:](https://sourcegraph.looker.com/dashboards/179?Customer+Engineer=&Account+Executive=&Customer+Name=&Telemetry+Status=Full+telemetry&Customer+Tenure+%28days%29=%5B0%2C2000%5D) This dashboard contains the account’s technical health score and the metrics that are included as a part of that score.
 
 **Feature specific dashboards and charts**
 
 - [Code intelligence](https://sourcegraph.looker.com/dashboards/158?Unique+Server+ID=Dropbox&Company+Type=)
 - [Batch changes](https://sourcegraph.looker.com/dashboards/174?Unique%20Server%20ID=)
-- [Code insights](https://sourcegraph.looker.com/dashboards/208?Instance=Atlassian)
+- [Code insights](https://sourcegraph.looker.com/dashboards/208?Instance=)
 - [Code monitoring](https://sourcegraph.looker.com/looks/932?toggle=fil,pik)
 - [Extensions](https://sourcegraph.looker.com/dashboards/165?Filter%20to%20a%20server%20ID=-NULL)
 
-**Looker Enablement**
+**Related useful links**
+
+- [Metrics definitions](./process/user_definitions.md#user-metrics-definitions)
+- [Data sources of truth:](./analytics/sources-of-truth.md#sources-of-truth) Includes some definitions and links to data points owned/managed by Sales and Finance (ex. ARR)
+
+### **Looker Enablement**
 
 [Onboarding to Looker](https://sourcegraph.looker.com/projects/sourcegraph_events/documents/1_home.md)
 
@@ -319,22 +351,22 @@ When adding a user to Looker, they need to be in both the group and role:
 - Any other teams not listed should default to ‘View’
 - Generally, CE, sales, product, customer support, engineering, and marketing receive accounts when joining the company
 
-**Amplitude**
+## **Amplitude**
 
 Amplitude is a business intelligence tool for product analytics. It surfaces data and insight into customer and user behavior and can help optimize for desired outcomes. Amplitude is for product managers. It’s a space where they can create reports, perform ad-hoc analysis, and understand the user journey.
 
 Amplitude tracks Sourcegraph cloud usage.
 
-**Notable reports: **
+### **Notable reports: **
 
 - [Cloud growth metrics](https://analytics.amplitude.com/sourcegraph/dashboard/ya9aoy7?source=search): high-level growth metrics such as traffic, activation, and retention for Sourcegraph cloud
 - [Organizations on cloud overview](https://analytics.amplitude.com/sourcegraph/dashboard/8towezl?source=search)**: **high-level growth metrics for organizations participating in our beta program on cloud
 
-**Amplitude Enablement**
+### **Amplitude Enablement**
 
 [Onboarding to Amplitude](../../departments/bizops/tools/amplitude.md)
 
-**BigQuery**
+## **BigQuery**
 
 BigQuery is our central data warehouse. It houses raw product and application data and transforms it into usable and reportable data for Amplitude, Looker, and more.
 
@@ -348,7 +380,7 @@ BigQuery is our central data warehouse. It houses raw product and application da
 - Salesforce
 - Hubspot
 
-**Success Metrics**
+# **Success Metrics**
 
 OKR tracker ([Here](https://github.com/orgs/sourcegraph/projects/246/views/5)) - Our quarterly OKR tracker
 

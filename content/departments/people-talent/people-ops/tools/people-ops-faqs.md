@@ -112,9 +112,11 @@ This page is meant as a resource to find answers to questions frequently asked b
 - **Vision insurance and Life Insurance:**
   - [Equitable Vision](https://drive.google.com/file/d/18hsyxSJqwI2Uyoy0iS1xk2k0AiY88zNb/view?usp=sharing)
 - **HSA, FSA, and Dependent Care FSA:**
+  - HSA, FSA and Dependent Care FSA accounts are administered by [Rippling] (https://app.rippling.com/login?next=%2Fdashboard).
 - **401K:**
 
-**Non-US teammates:**
+  - Our 401k Plan is administered by Human Interest. You can view or change your elections via the Human Interest App, accessed through your Rippling homepage.
+    **Non-US teammates:**
 
 - Not applicable.
 
@@ -289,8 +291,7 @@ This page is meant as a resource to find answers to questions frequently asked b
 
 **Non-US teammates:**
 
-- On a monthly basis through Veem. To be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../../../../benefits-pay-perks/pay-expenses/invoices.md).
-  - **Note:** if Veem is not supported by your country we have other payment methods, like a direct monthly wire. If this is the case, please reach out to [Inés Roitman](../../../../team/index.md#ines-roitman) at [ines@sourcegraph.com](mailto:ines@sourcegraph.com).
+- On a monthly basis through Airbase or a PEO. If not on a PEO, to be paid, you will have to submit an invoice to Finance. Please see instructions on how to do so [here](../../../../benefits-pay-perks/pay-expenses/invoices.md).
 
 ## Retirement
 

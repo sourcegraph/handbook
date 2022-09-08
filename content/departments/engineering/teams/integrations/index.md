@@ -57,17 +57,6 @@ Our mission is to bring the value of Sourcegraph to all developers, everywhere t
     <div class="col" style="flex: 1;">
       <div>
         <div style="text-align: center;">
-          <a href="/team#tharuntej-kandala" target="_blank" rel="noopener">
-            <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/tj.png" alt="Picture of TJ Kandala" style="background: transparent; width:128px;"/>
-          </a>
-        </div>
-        <div style="text-align: center;">TJ Kandala</div>
-        <div style="text-align: center; font-size: 12px;">Software Engineer</div>
-      </div>
-    </div>
-    <div class="col" style="flex: 1;">
-      <div>
-        <div style="text-align: center;">
           <a href="/team#philipp-spiess" target="_blank" rel="noopener">
             <img src="https://storage.googleapis.com/sourcegraph-assets/handbook/extensibility/philipp.png" alt="Picture of Philipp Spiess" style="background: transparent; width:128px;"/>
           </a>

@@ -66,7 +66,7 @@ A detailed version of the [design process](design/design_process.md) is availabl
 
 ### Implementation
 
-With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](dev/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](teams/security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
+With the help of a Product Manager, the relevant engineering teams divide the necessary work into smaller tracked units of effort with the management system of their choice. This optionally takes the form of a [tracking issue](dev/process/tracking_issues.md). Embedding security in the developement process, [security ambassadors](../security/#security-ambassador-program) are present to provide early feedback and assistance on security related requirements.
 
 Engineering teams iterate and plan the implementation of these units of work on their own time. The Product Manager is ultimately responsible for the conformance of the result to the requirements stated in the Product Document or RFC, though an Engineering Manager or Engineer can also lead the work.
 
@@ -76,7 +76,7 @@ If complex problems surface during this step, an RFC can be created to frame the
 
 The testing phase ensures conformance to the requirements stated in the Product Document/RFC/Ticket and to appropriate standards for service and security. The solution is scrutized to evaluate if the requirements stated in the design phase are met.
 
-Security is evaluated through automated [vulnerability scanning and SAST](teams/security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
+Security is evaluated through automated [vulnerability scanning and SAST](../security/tooling/index.md#cicd-pipeline-vulnerability-scanning) during [continuous integration](https://docs.sourcegraph.com/dev/background-information/ci).
 
 If necessary, the changes will be deployed on an internal Sourcegraph instance to be internally tried until enough confidence is reached.
 

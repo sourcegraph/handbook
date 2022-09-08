@@ -18,7 +18,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - Monitoring and triaging [`dx` issues](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Adx) and [project board](processes.md#updating-the-dev-experience-project-board)
   - [Dev experience support](processes.md#support)
 - Tooling
-  - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg)
+  - [`sg` - the Sourcegraph developer tool](https://docs.sourcegraph.com/dev/background-information/sg) ([`dev/sg`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/dev/sg))
   - [CLA bot](https://github.com/sourcegraph/clabot-config)
   - [Monitoring generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/monitoring)
 - Backend platform
@@ -26,10 +26,10 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`sourcegraph/log`](https://sourcegraph.com/github.com/sourcegraph/log/-/tree): standardized logging for Sourcegraph backend services + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_logging)
   - [`sourcegraph/run`](https://sourcegraph.com/github.com/sourcegraph/run/-/tree): execute commands and manipulate command output in Go experiment
   - [`internal/observation`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/observation): all-in-one operation-oriented observability primitives + [how-to guide](https://docs.sourcegraph.com/dev/how-to/add_observability)
-  - Supporting test standards and infrastructure
+  - [`internal/trace`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/trace), [`internal/tracer`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/tracer): tracing infrastructure and libraries
   - Packaging infrastructure (e.g. base Docker images)
   - [SOC2 compliance](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=) regarding software development lifecycles, testing, and continuous integration
-- Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
+- Continuous integration (also see [CI support responsibilities](processes.md#ci-support-responsibilities))
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
     - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
     - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
@@ -39,6 +39,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
 - Other
   - [Developer experience newsletter](./newsletter.md)
   - [`sg` hack hour](processes.md#sg-hack-hour)
+  - GCP cost and cost reduction initiatives
 
 Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.md) and our [team processes](processes.md).
 

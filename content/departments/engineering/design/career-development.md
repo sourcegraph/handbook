@@ -4,7 +4,7 @@ Our career development framework is here to help you understand the expectations
 
 ## What are the expectations of my role?
 
-There are currently six levels for software engineers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
+There are currently six levels for designers at Sourcegraph. A level is composed of three categories, each with a summary statement and several example behaviors. These categories are:
 
 <ul>
   <li>Strategy</li>
@@ -486,7 +486,7 @@ It’s important to understand that what is listed in the level descriptions are
       </td>
       <td class="category-summary execution">
         <div class="wrapper">
-          Leading standards and key business initatives across group
+          Leading standards and key business initiatives across group
         </div>
       </td>
       <td class="category-summary teamwork">

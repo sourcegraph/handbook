@@ -64,14 +64,14 @@ The handbook is a living document and we expect every teammate to propose improv
 
 ### [People & Talent](departments/people-talent/index.md)
 
-- [People team](departments/people-talent/people-ops/index.md)
+- [People team](departments/people-talent/index.md)
 
-- [Talent](departments/people-talent/talent/index.md)
+- [Talent](departments/people-talent/index.md)
   - [Resources for Interns](departments/people-talent/talent/internship/index.md)
-  - [Resources for Candidates](departments/people-talent/talent/index.md#resources-for-candidates)
-  - [Resources for Hiring Manager](departments/people-talent/talent/index.md#resources-for-hiring-managers)
-  - [Resources for Teammates](departments/people-talent/talent/index.md#resources-for-teammates)
-  - [Resources for Talent Team](departments/people-talent/talent/index.md#resources-for-talent-team)
+  - [Resources for Candidates](departments/people-talent/index.md#resources-for-candidates)
+  - [Resources for Hiring Manager](departments/people-talent/index.md#resources-for-hiring-managers)
+  - [Resources for Teammates](departments/people-talent/index.md#resources-for-teammates)
+  - [Resources for Talent Team](departments/people-talent/index.md#resources-for-talent-team)
 
 ### [Engineering](departments/engineering/index.md)
 

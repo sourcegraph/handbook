@@ -38,7 +38,11 @@ PEO employees will receive employee benefits in accordance with local employment
 
 ### Payments
 
-The PEO will pay these employees directly in their local currency via direct deposit and in accordance with local employment laws.
+The PEO will pay these employees directly in their local currency via direct deposit and in accordance with local employment laws. The Sourcegraph Finance team is responsible for determining the FX rate that is used when PEO contracts are generated. This FX rate will be applied to base salary and bonuses/commission.
+
+To determine a fair and reasonable FX rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review FX rates on an annual basis, and the FX rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review.
+
+The FX rate is calculated by using the trailing 12-month average.
 
 ### Onboarding
 

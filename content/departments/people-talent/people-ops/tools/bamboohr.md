@@ -100,7 +100,7 @@ In the image below, you can see in red the fields the People Team must complete 
 
 In the image below, you can see in red the fields the People Team must complete before someone starts:
 
-![Fields that must be completed in the jobhttps://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png) section](
+![Fields that must be completed in the job section](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/Job1.png)
 
 #### Employee status
 
@@ -109,8 +109,8 @@ All three fields need to be complete before start date:
 - **Effective date**: Same as start date
 - **Employee Status**: Each teammates should be one of either:
   - Contractor: Not used
-  - Full-Time Contractors (Non-US Teammate)
-  - Full-Time Contractors (Non-US Teammate) - Intern
+  - Full-Time (Non-US Teammate)
+  - Full-Time (Non-US Teammate) - Intern
   - Full-Time Employee (US Teammate)
   - Full-Time Employee (US Teammate) - Intern
   - Full-Time PEO Employee (Non-US Teammate)
@@ -147,6 +147,7 @@ All of the following must be complete before start date:
 - **Department**
 - **Job Title**: if it doesn't exist, follow the instructions above in [Creating a Job Title](#creating-a-job-title)
 - **Reports to**
+- **Cost Center**: we use this field to sync with our financial systems through Okta.
 
 #### Options
 
@@ -177,6 +178,38 @@ Not all roles have commissions. For those who do, all of these must be completed
 
 This is rarely used. When needed, complete all field.
 
+## Editing a profile
+
+There are different ways of editing a profile.
+
+### Personal tab
+
+All of these fields can be updated or edited by typing the new/correct information.
+
+Once the changes are made, click on **Save changes** to make them effective.
+
+Some of these fields can be edited by teammates. When they do, the People team receives a notification and have to approve the changes before they show in BambooHR.
+
+### Job tab
+
+Just like in the Personal tab, all free style and drop down fields can be updated/edited and we'll have to click on **Save changes** for them to be effective.
+
+For Employment Status, Compensation, Job Information, Options, and Commission, there are two ways of changing the information:
+
+**Editing**
+To edit the information, put the cursor on the line you want to edit and click on the pencil. Make the changes and the line will be edited. The same applies for removing the line.
+
+This _only_ applies for mistakes. We do not edit lines if something in the teammate's employment changes. When that's the case, we update by adding a new line.
+
+![How to edit a field](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/editing.png)
+
+**Updating**
+We update information by clicking on **+ Update XXX**. This will add a new line on top of the excisting ones. A good example of when we do this is when a teammate has a new manager o a change in compensation.
+
+Keep in mind Effective Date refers to the day the change will be effective, not the date we are doing the update.
+
+![How to edit a field](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/BambooInternal/updating.png)
+
 ## How to terminate someone
 
 Go to the person's profile, and update Employment Status in the Job tab.
@@ -197,10 +230,19 @@ Complete the following fields:
 Under Employment Status, complete:
 
 - Attrition Type:
-  - No PIP
-  - PIP
+  - Regrettable
+  - Non-Regrettable
 
 For managers with direct reports, confirm with terminated person's manager what the new reporting structure will be and update it in BambooHR. The report change should be effective after this person's last active day (System Deactivation Date/Last day), which may not necessarily be the same as departure date or last pay date.
+
+### Rescinded offers/acceptances
+
+If someone has signed their contract but will not be starting after all, we need to terminate them in BambooHR. The process is the same as explained above, however, we must add a note in the Employment Status comment section. This is what we state:
+
+- If we rescinded the offer: "Offer rescinded"
+- If the person decided not to join: "Withdrew acceptance before onboarding"
+
+Keep in mind that the start date will be after the rescinding of the offer, therefore the start date will override the rescinding date. We will need to delete the start date entry.
 
 ## Integrations
 

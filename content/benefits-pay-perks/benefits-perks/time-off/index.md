@@ -4,7 +4,7 @@ At Sourcegraph, every teammate has agency over how they create a balance between
 
 This balance looks different from person to person and may be reliant on a number of factors, including a teammate’s preferred working style, location, and family obligations. For that reason, we empower our teammates to have agency over their working times, the vacations they take, the time they need to recharge or recover from being sick, and the number of hours they can put in over any week without losing focus or motivation.
 
-Read more about our **[working hours philosofy here](../../../company-info-and-process/working-at-sourcegraph/working-hours.md).**
+Read more about our **[working hours philosophy here](../../../company-info-and-process/working-at-sourcegraph/working-hours.md).**
 
 Here are some basic guidelines to help our teammates navigate their paid time off for rest, paid time off for reasons other than rest, and working hours.
 
