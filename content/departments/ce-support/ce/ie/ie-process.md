@@ -12,7 +12,7 @@ For more information on how the pre-sales team will interact with the implementa
 
 The steps below detail, on a high level, the steps that the Sourcegraph implementation teams will work on both internally and directly with the customers:
 
-[Implementation Engineers](/index.md)
+[Implementation Engineers](./index.md)
 
 - Confirmation of the production technical deployment design as captured in the pre-sales stages
 - Build internal replica environment based on expected requirements for production deployment
@@ -23,7 +23,7 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
 - Execute load testing in replica environment
 - Onboard full scope of users
 
-[Implementation Project Managers](../../../ce-support/ce/tpm/index.md)
+[Implementation Project Managers](../ce-support/ce/tpm/index.md)
 
 - Set milestones for deployment and develop project plan (starts prior to contract finalization)
 - Ensure leadership engagement and buy in for the implementation
