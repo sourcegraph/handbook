@@ -65,7 +65,7 @@ When customer has decided to sign the deal, CE will inform [Cloud Team](../../cl
 
 ## Teardown Trial Managed Instance
 
-when trial expires and customer do not wish to sign the deal, CE will open [Teardown Managed Instance request](../index.md#managed-instance-requests)
+When trial expires and customer do not wish to sign the deal, CE will open [Teardown Managed Instance request](../index.md#managed-instance-requests)
 
 ## FAQ
 
