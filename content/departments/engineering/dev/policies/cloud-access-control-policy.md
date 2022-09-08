@@ -1,7 +1,7 @@
 # Cloud Access Control Policy
 
 Policy Owner: Security Lead
-Approved by: Security Lead
+[Approved by](https://github.com/sourcegraph/handbook/pull/4820): Security Lead
 
 ## Introduction
 
