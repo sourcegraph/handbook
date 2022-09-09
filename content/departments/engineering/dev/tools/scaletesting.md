@@ -57,7 +57,6 @@ The code for this environment can be found in the following locations, depending
 
 The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository. Here you will find configuration for the project, GKE cluster, Cloud SQL instances, secrets and anything else related to the configuraion of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, however contributions are always welcomed.
 
-
 #### Application
 
 All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
@@ -85,7 +84,6 @@ In order to gather meaningful results of running tests against the scale testing
 
 If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes/.md#kubectl-cheatsheet) for useful `kubectl` commands.
 
-
 ## Playbook
 
 ## Prerequisites
@@ -103,14 +101,8 @@ Merge your changes via a pull request, and run the following from the base of th
 
 `helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 3.43.2-insiders.3e3f9e9 sourcegraph insiders/sourcegraph -n scaletesting`
 
-
 ### Scale the cluster down when not in use
 
 To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config ](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
-
-
-
-
-
