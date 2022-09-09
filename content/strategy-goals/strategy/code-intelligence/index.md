@@ -23,6 +23,7 @@ We generate and process rich metadata that powers compiler-accurate code navigat
 - In the longer term, we envision building a global knowledge graph that accurately maps the entire code universe.
 
 ## Where we are now
+
 State of the art broken down by work stream:
 
 - **Language tools:** We've progressively added and improved our precise language support, currently covering precise navigation 9 different languages. For a detailed description of language maturity see [indexers documentation](https://docs.sourcegraph.com/code_navigation/references/indexers).
@@ -79,6 +80,7 @@ We are commited to making our navigation feel fast and reliable to users. Our cu
 Several recent efforts have shown an increasing need to unify the [code intelligence data platform](https://docs.google.com/document/d/1AjZ_d0nJVHbV75IH3jZRkrGXhsv_AXp2kS4nrw2SAQ8). These efforts show an immediate need to be able to correlate and aggregate data from different sources within an API boundary (instead of re-implemented on several clients). This will set precedent for our internal team's domains and will establish clear ownership boundaries for other product teams to build on top of. We see this engineering milestone as a large enabler for every product vertical.
 
 ### Towards the code intelligence platform
+
 The plan for this theme will be outlined by the Product team in the next quarter. A relevant sub-theme to consider is:
 
 **Unlocking dependency navigation**
