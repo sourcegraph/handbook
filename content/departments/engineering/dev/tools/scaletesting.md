@@ -1,4 +1,4 @@
-# ScaleTesting Instance
+# Scale testing
 
 This page documents resources that are relevant for engineers looking to run Sourcegraph at scale as a preemptive measure to uncover bugs that
 may only be caught when operating under particular scale. Typically, this enables to approximate a customer instance usage pattern to ensure
@@ -6,15 +6,15 @@ that our application will perform within acceptable boundaries in that context.
 
 Join the [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) Slack channel to join conversations about its use, both from the perspective of an engineer using it to test things or to follow or contribute to its development.
 
-## Scaling VS Customer Tiers
+## Scaling VS customer tiers
 
 It is important to make the distinction that by scale here, we're referring to the scale of operations from the perspective of a customer. So we're talking in terms of number of repositories, their size and the number of users. This is not directly about observing how far we can scale horizontally or vertically a given service, though this can be achieved though the same mean.
 
 The common vocabulary being used to talk about scaling from the persective of a customer is described in details over at [tiers of strategic accounts](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107). Therefore, it's best to use the terminology _LARGE_, _XL_, _2XL_ and _3XL_ to frame which kind of customer a test would target.
 
-## ScaleTesting Instance
+## ScaleTesting instance
 
-This instance is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
+`scaletesting.sgdev.org` is entirely dedicated to peform manual testing at this stage and should not be used for other purpose. It is assumed that all the data associated with that instance can be discarded at the discretion of engineers performing tests on it or by the Dev Experience team.
 
 :right_arrow: If you plan to run a test, announce yourself on [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) to ensure you're the only one using it at the moment.
 
@@ -24,26 +24,19 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 
 ## TL;DR to conduct a test
 
-> :warning: Under no circumastances should the instance ever be populated with customer data. **Only use open source or synthetic data.**
+> :warning: Under no circumstances should the instance ever be populated with customer data. **Only use open source or synthetic data.**
 
 1. Have access to the Google Project: TODO
 2. Be familiar with our Observability stack.
 3. Be familiar with our Infrastructure code.
 4. Join [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) and announce yourself.
 5. Adjust the infrastructure to the customer tier you're targeting.
-
-- Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
-
-See the [Environment](#Environment) section for more details about how and where to make configuration changes.
-
-1. Make sure to deploy the right commit you want to test on that intance.
-
-- `sg ops ... TODO `
-
+   1. Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
+   2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
+6. Make sure o deploy the right commit you want to test on that intance.
+   1. `sg ops ... TODO `
 7. Populate the code hosts with your test data.
-
-- `TODO`
-
+   1. `TODO`
 8. Perform actions to test that deployment, from the perpective of your business domain.
 9. Announce on the channel that you're finished with your test.
 10. Share your experience and results on that channel to help others to understand how we can improve the scale testing process.
@@ -63,7 +56,7 @@ All code related the deployment of the application is found at [`sourcegraph/dep
 
 > :bulb: Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#scaling-kubernetes-clusters) handbook page.
 
-### Code Hosts
+### Code hosts
 
 In order to reproduce a customer scenario accurately, you'll need access to the various code hosts that are available for testing purposes.
 
@@ -105,6 +98,6 @@ Merge your changes via a pull request, and run the following from the base of th
 
 ### Scale the cluster down when not in use
 
-To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config ](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
+To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
