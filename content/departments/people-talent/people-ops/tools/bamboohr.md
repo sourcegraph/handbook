@@ -158,11 +158,17 @@ New hires should have the following completed before their start date. Number of
 New grants are entered into BambooHR as follows:
 
 **Status:** Proposed, Not Yet Granted
+
 **No. of Options:** Granted options amount in number of shares
+
 **Vesting Start Date:** Date of hire or refresh letter
+
 **Grant Date:** Leave blank
+
 **Exercise Price:** Leave blank
+
 **Certificate Number:** Leave blank
+
 **Equity Notes:** Include Grant Type (see below)
 
 Always include a Grant Type in the Equity Notes in BambooHR option section.
