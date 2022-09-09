@@ -4,13 +4,13 @@ This page documents resources that are relevant for engineers looking to run Sou
 may only be caught when operating under particular scale. Typically, this enables to approximate a customer instance usage pattern to ensure
 that our application will perform within acceptable boundaries in that context.
 
-Join the [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) Slack channel to join conversations about its use, both from theperspective of an engineer using it to test things or to follow or contribute to its development.
+Join the [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) Slack channel to join conversations about its use, both from the perspective of an engineer using it to test things or to follow or contribute to its development.
 
 ## Scaling VS Customer Tiers
 
-It is important to make the distinction that by scale here, we're referring to the scale of operations from the perspective of a customer. So we're talking in terms of number of repositories, their size and the number of users. This is not directly about observing far we can scale horizontally or vertically a given service, though this can be achieved though the same mean.
+It is important to make the distinction that by scale here, we're referring to the scale of operations from the perspective of a customer. So we're talking in terms of number of repositories, their size and the number of users. This is not directly about observing how far we can scale horizontally or vertically a given service, though this can be achieved though the same mean.
 
-The common vocabulary being used to talk about scaling from the persective of a customer is described in details over [tiers of strategic accounts](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107). Therefore, we it's best to use it (_LARGE_, _XL_, _2XL_ and _3XL_) to frame which kind of customer a test would target.
+The common vocabulary being used to talk about scaling from the persective of a customer is described in details over at [tiers of strategic accounts](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107). Therefore, it's best to use the terminology _LARGE_, _XL_, _2XL_ and _3XL_ to frame which kind of customer a test would target.
 
 ## ScaleTesting Instance
 
@@ -20,11 +20,11 @@ This instance is entirely dedicated to peform manual testing at this stage and s
 
 It is deployed in its own Google Cloud Project and is maintained by the Developer Experience team. This is very much a collaborative effort and any help to improve it is welcomed.
 
-> :bulb: There are zero alerting enabled on that instance, you are on your own and are expected to reach out for help if you notice something erratical with the deployment itself.
+> :bulb: There are zero alerting enabled on that instance, you are on your own and are expected to reach out for help if you notice something erratic with the deployment itself.
 
 ## TL;DR to conduct a test
 
-> :warning: Do not ever populate that instance with customer data. **Only use open source or synthetic data.**
+> :warning: Under no circumastances should the instance ever be populated with customer data. **Only use open source or synthetic data.**
 
 1. Have access to the Google Project: TODO
 2. Be familiar with our Observability stack.
@@ -59,9 +59,9 @@ In order to make changes on the infrastructure itself, to adjust the infrastruct
 
 ### Code Hosts
 
-In order to reproduce accurately a customer scenario, you'll need access to the various code hosts that are available for testing purposes. The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored.
+In order to reproduce a customer scenario accurately, you'll need access to the various code hosts that are available for testing purposes. The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored.
 
-Are available right now:
+The following code hosts are available for testing:
 
 - GHE TODO
 - GitLab TODO
