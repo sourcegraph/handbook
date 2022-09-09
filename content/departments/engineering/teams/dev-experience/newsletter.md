@@ -64,6 +64,15 @@ Visit http://127.0.0.1:10814 for user4 william+user4@sourcegraph.com
 Visit http://127.0.0.1:10815 for user5 william+user5@sourcegraph.com
 ```
 
+**A complete set of commands to run web application Puppeteer tests**: Have you ever wondered how to debug a CI client flake locally? Always unsure of what environment variables to set to get things right? `sg` got your back! Valery updated respective commands, which now link directly [to the up-to-date documentation](https://docs.sourcegraph.com/dev/how-to/testing#client-integration-tests):
+
+```bash
+sg test web-e2e
+sg test web-regression
+sg test web-integration
+sg test web-integration:debug PATH_TO_THE_TEST_FILE_TO_DEBUG
+```
+
 ### CI improvements
 
 **Go to the Grafana logs of your build straight from your build:** Previously, if you wanted to see the logs of your build you had to navigate to http://sourcegraph.grafana.net and wield the dark arts of creating a LogQL yourself to query the logs. We've updated annotations on builds to have an additional link named "View Grafana logs" which will take you directly to Grafana with a prefilled LogQL query for your particular build. One small step to helping you diagnose build failures in your faster!
