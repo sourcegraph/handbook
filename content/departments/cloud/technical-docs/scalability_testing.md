@@ -20,13 +20,14 @@ This document lists steps required to verify that a Cloud instance (_target inst
 
 Run k6 scripts on load generator VM with `k6 run -e SG_SIZE=S scripts/load.js`
 Sample output for rctest:
+
 ```
 $ k6 run -e SG_SIZE=S scripts/load.js
 
-          /\      |‾‾| /‾‾/   /‾‾/   
-     /\  /  \     |  |/  /   /  /    
-    /  \/    \    |     (   /   ‾‾\  
-   /          \   |  |\  \ |  (‾)  | 
+          /\      |‾‾| /‾‾/   /‾‾/
+     /\  /  \     |  |/  /   /  /
+    /  \/    \    |     (   /   ‾‾\
+   /          \   |  |\  \ |  (‾)  |
   / __________ \  |__| \__\ \_____/ .io
 
   execution: local
@@ -58,32 +59,32 @@ default ✓ [======================================] 0000/2000 VUs  5m0s
        ✓ structural
        ✓ regexp
 
-   ✓ checks.........................: 100.00% ✓ 40041      ✗ 0     
-     ✓ { type:highlight }...........: 100.00% ✓ 28697      ✗ 0     
-     ✓ { type:literal }.............: 100.00% ✓ 8204       ✗ 0     
-     ✓ { type:regexp }..............: 100.00% ✓ 2575       ✗ 0     
-     ✓ { type:structural }..........: 100.00% ✓ 279        ✗ 0     
-     ✓ { type:unindexed }...........: 100.00% ✓ 286        ✗ 0     
+   ✓ checks.........................: 100.00% ✓ 40041      ✗ 0
+     ✓ { type:highlight }...........: 100.00% ✓ 28697      ✗ 0
+     ✓ { type:literal }.............: 100.00% ✓ 8204       ✗ 0
+     ✓ { type:regexp }..............: 100.00% ✓ 2575       ✗ 0
+     ✓ { type:structural }..........: 100.00% ✓ 279        ✗ 0
+     ✓ { type:unindexed }...........: 100.00% ✓ 286        ✗ 0
      data_received..................: 585 MB  1.8 MB/s
      data_sent......................: 22 MB   67 kB/s
-     group_duration.................: avg=770.99ms min=33.56ms  med=192.96ms max=1m0s     p(90)=679.6ms  p(95)=1.12s   
-     http_req_blocked...............: avg=1.26ms   min=192ns    med=366ns    max=61.57ms  p(90)=555ns    p(95)=23.89µs 
-     http_req_connecting............: avg=537.98µs min=0s       med=0s       max=27.21ms  p(90)=0s       p(95)=0s      
+     group_duration.................: avg=770.99ms min=33.56ms  med=192.96ms max=1m0s     p(90)=679.6ms  p(95)=1.12s
+     http_req_blocked...............: avg=1.26ms   min=192ns    med=366ns    max=61.57ms  p(90)=555ns    p(95)=23.89µs
+     http_req_connecting............: avg=537.98µs min=0s       med=0s       max=27.21ms  p(90)=0s       p(95)=0s
      http_req_duration..............: avg=216.46ms min=32.65ms  med=54.13ms  max=1m0s     p(90)=109.57ms p(95)=226.59ms
        { expected_response:true }...: avg=216.46ms min=32.65ms  med=54.13ms  max=1m0s     p(90)=109.57ms p(95)=226.59ms
-   ✓ http_req_failed................: 0.00%   ✓ 0          ✗ 40041 
-     http_req_receiving.............: avg=114ms    min=27.78µs  med=69.72µs  max=1m0s     p(90)=1.01ms   p(95)=3.86ms  
+   ✓ http_req_failed................: 0.00%   ✓ 0          ✗ 40041
+     http_req_receiving.............: avg=114ms    min=27.78µs  med=69.72µs  max=1m0s     p(90)=1.01ms   p(95)=3.86ms
      http_req_sending...............: avg=68.6µs   min=33.28µs  med=63.73µs  max=1.11ms   p(90)=86.97µs  p(95)=111.98µs
-     http_req_tls_handshaking.......: avg=714.28µs min=0s       med=0s       max=36.52ms  p(90)=0s       p(95)=0s      
+     http_req_tls_handshaking.......: avg=714.28µs min=0s       med=0s       max=36.52ms  p(90)=0s       p(95)=0s
      http_req_waiting...............: avg=102.39ms min=32.52ms  med=53.71ms  max=1m0s     p(90)=102.92ms p(95)=198.93ms
      http_reqs......................: 40041   121.375478/s
-     iteration_duration.............: avg=44.29s   min=356.49µs med=44.07s   max=2m24s    p(90)=1m11s    p(95)=1m17s   
+     iteration_duration.............: avg=44.29s   min=356.49µs med=44.07s   max=2m24s    p(90)=1m11s    p(95)=1m17s
      iterations.....................: 10961   33.225859/s
      time_to_first_byte.............: avg=102.39ms min=32.52ms  med=53.71ms  max=1m0s     p(90)=102.92ms p(95)=198.93ms
      ✓ { type:highlight }...........: avg=61.45ms  min=34.24ms  med=49.05ms  max=1.06s    p(90)=83.39ms  p(95)=102.64ms
      ✓ { type:literal }.............: avg=129.9ms  min=40.46ms  med=70.08ms  max=1m0s     p(90)=164.93ms p(95)=338.62ms
      ✓ { type:regexp }..............: avg=231.34ms min=32.52ms  med=72.64ms  max=2.53s    p(90)=718.41ms p(95)=826.16ms
-     ✓ { type:structural }..........: avg=2.3s     min=39.92ms  med=616.68ms max=22.76s   p(90)=7.32s    p(95)=11.6s   
+     ✓ { type:structural }..........: avg=2.3s     min=39.92ms  med=616.68ms max=22.76s   p(90)=7.32s    p(95)=11.6s
      ✓ { type:unindexed }...........: avg=113.08ms min=42.63ms  med=69.84ms  max=780.74ms p(90)=232.92ms p(95)=265.71ms
      vus............................: 11      min=0        max=2000
      vus_max........................: 2000    min=537      max=2000
