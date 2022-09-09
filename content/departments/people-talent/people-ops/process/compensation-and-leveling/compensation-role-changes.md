@@ -30,13 +30,18 @@ _Use for changes to cash compensation (base salary) only. Use cases include: mer
 
 ## Requesting a compensation change (equity only)
 
-Use for changes to equity (stock options) only. Use cases include: merit increase and market (compensation band) adjustments.
-
+Please contact the People and Talent Team before entering new equity grants into Bamboo.
 | **Form field: Equity**          | **How to fill out**                                                                                                                                                      |
 | :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Status**                      | Proposed, Not Yet Granted                                                                                                                                                |
 | **Vesting Start Date**          | The vesting date should reflect the current date or a future date only. If you need to backdate the vesting change, please include an explanation in the comments field. |
-| **Equity Notes**                | Elaborate on reason for equity refresh                                                                                                                                   |
+| **Equity Notes**                | Reason options are:
+
+- New hire Grant
+
+- Promotion
+
+- Equity Refresh |
 | **Comment for the Approver(s)** | Include any additional notes for Finance/People Ops, if any                                                                                                              |
 
 ## Requesting a compensation change (commission only)
