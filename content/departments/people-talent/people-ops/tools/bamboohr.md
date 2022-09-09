@@ -152,7 +152,7 @@ All of the following must be complete before start date:
 
 #### Options
 
-Options are entered only by the People Ops and Talent Teams. 
+Options are entered only by the People Ops and Talent Teams.
 New hires should have the following completed before their start date. Number of shares must match their offer letter.
 
 New grants are entered into BambooHR as follows:
@@ -166,11 +166,12 @@ New grants are entered into BambooHR as follows:
 **Equity Notes:** Include Grant Type (see below)
 
 Always include a Grant Type in the Equity Notes in BambooHR option section.
+
 - New Hire Grant
 - Promotion
 - Equity Refresh
 
-The board approves equity grants on a quarterly basis. The People Team is responsible for updating status to "Granted," adding a Grant Date, and updating the Exercise Price field within one week of approval. 
+The board approves equity grants on a quarterly basis. The People Team is responsible for updating status to "Granted," adding a Grant Date, and updating the Exercise Price field within one week of approval.
 
 #### Commission
 
