@@ -30,6 +30,8 @@ If you are interested in learning more about OpenTelemetry in general and the sp
 
 **`esbuild` for faster frontend builds**: Shoutout to @Nick Snyder who took it upon himself to get `esbuild` in a usable state for Sourcegraph. It doesn't work for everything yet but a few people have reported a markable improvement in sg startup time! You can enable it by running `DEV_WEB_BUILDER=`esbuild` sg start`. For more information on `esbuild` please see [the following docs.](https://docs.sourcegraph.com/dev/background-information/web/build#esbuild)
 
+**Documentation for analyzing the bundlesize check failure**: With more contributions focused on the core workflow improvements, the Frontend Platform team noticed an increased number of [bundlesize check](https://docs.sourcegraph.com/dev/how-to/testing#bundlesize) [failures](https://github.com/sourcegraph/sourcegraph/runs/8094204910), and often the reason for it is not apparent. Valery added [a step-by-step guide for debugging root causes](https://docs.sourcegraph.com/dev/how-to/testing#analyzing-the-bundlesize-check-failure) which should help teams to triage this failure. The Frontend Platform team will be looking into automating these steps entirely next quarter!
+
 ### `sg` goodies
 
 **Finding builds or logs by commit**: Ever wanted to look at the build of a particular commit? Not in the mood to go through all the pages of Buildkite? You don't have to anymore! With `sg ci status` you can now pass it a `--commit` flag and it will do all the detective work for you. `sg ci logs` also accepts the `--commit` flag so you can now easily look at the logs of a build for a particular commit too!
