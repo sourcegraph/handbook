@@ -88,7 +88,6 @@ In order to gather meaningful results of running tests against the scale testing
 
 - Tracing: TODO
 - Sentry: TODO
-- Logs: TODO
-- Infrastructure Logs: TODO
+- Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
 
-You can of course connect directly to the cluster with `kubectx ...TODO` in order to directly observe the the cluster. An alternative is to use the Google Cloud console.
+If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#kubectl-cheatsheet) for useful `kubectl` commands.
