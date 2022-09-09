@@ -85,7 +85,7 @@ If you have already configured and authenticated to the cluster, you can of cour
 ## Prerequisites
 
 - Access to the `sourcegraph-scaletesting` google project.
-- [kubectl](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#how-to-set-up-access-to-kubernetes) and [helm](https://handbook.sourcegraph.com/departments/engineering/teams/delivery/deployment/helm/#helm) configured.
+- [kubectl](../process/deployments/kubernetes/kubernetes.md#how-to-set-up-access-to-kubernetes) and [helm](../../teams/delivery/deployment/helm.md#helm) configured.
 
 Below you can find a subset of the common tasks and how to complete them:
 
