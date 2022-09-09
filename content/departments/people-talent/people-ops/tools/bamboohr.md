@@ -171,7 +171,6 @@ New grants are entered into BambooHR as follows:
 
 **Equity Notes:** Include Grant Type (see below)
 
-
 Always include a Grant Type in the Equity Notes in BambooHR option section.
 
 - New Hire Grant
