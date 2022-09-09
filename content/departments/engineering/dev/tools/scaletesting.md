@@ -34,7 +34,9 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 
 - Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
 
-6. Make sure to deploy the right commit you want to test on that intance.
+See the [Environment](#Environment) section for more details about how and where to make configuration changes.
+
+1. Make sure to deploy the right commit you want to test on that intance.
 
 - `sg ops ... TODO `
 
@@ -51,21 +53,34 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 
 TODO `sg ops`
 
-### Infrastructure
+### Environment
 
-In order to make changes on the infrastructure itself, to adjust the infrastructure scaling of the customer tier you're seeking to test against, you can make a PR against the [scaletesting folder](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) of the [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed) repository.
+The code for this environment can be found in the following locations, depending on which part of the scale testing cluster you need to change.
 
-> :bulb: Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes.
+#### Infrastructure
+
+The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository. Here you will find configuration for the project, GKE cluster, Cloud SQL instances, secrets and anything else related to the configuraion of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, however contributions are always welcomed.
+
+F
+
+#### Application
+
+All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [overrides.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/override.yaml)
+
+
+> :bulb: Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#scaling-kubernetes-clusters) handbook page.
 
 ### Code Hosts
 
-In order to reproduce a customer scenario accurately, you'll need access to the various code hosts that are available for testing purposes. The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored.
+In order to reproduce a customer scenario accurately, you'll need access to the various code hosts that are available for testing purposes.
 
 The following code hosts are available for testing:
 
-- GHE TODO
-- GitLab TODO
-- TODO
+- [ghe.sgdev.org](ghe.sgdev.org)
+- [gitlab.sgdev.org](gitlab.sgdev.org)
+
+The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored, depending on test types and demand.
+
 
 ### Observability
 
