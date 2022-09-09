@@ -78,7 +78,7 @@ In order to gather meaningful results of running tests against the scale testing
 - Sentry: [`scaletesting`](https://sentry.io/organizations/sourcegraph/issues/?project=6735436)
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
 
-If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes/.md#kubectl-cheatsheet) for useful `kubectl` commands.
+If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes/kubernetes.md#kubectl-cheatsheet) for useful `kubectl` commands.
 
 ## Playbook
 
