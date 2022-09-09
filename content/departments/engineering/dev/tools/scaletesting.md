@@ -49,10 +49,6 @@ See the [Environment](#Environment) section for more details about how and where
 10. Share your experience and results on that channel to help others to understand how we can improve the scale testing process.
 11. Downscale the cluster to zero nodes.
 
-### Deploying code
-
-TODO `sg ops`
-
 ### Environment
 
 The code for this environment can be found in the following locations, depending on which part of the scale testing cluster you need to change.
@@ -61,11 +57,10 @@ The code for this environment can be found in the following locations, depending
 
 The configuration for the Google Cloud infrastructure can be found be found in the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) repository. Here you will find configuration for the project, GKE cluster, Cloud SQL instances, secrets and anything else related to the configuraion of underlying components. It is not expected that these values will change often, nor should testing engineers be expected to manage this code, however contributions are always welcomed.
 
-F
 
 #### Application
 
-All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [overrides.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/override.yaml)
+All code related the deployment of the application is found at [`sourcegraph/deploy-sourcegraph-scalesting`](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting). This deployment leverages [deploy-sourcegraph-helm](https://github.com/sourcegraph/deploy-sourcegraph-helm) so some familiarity will be useful, however all configuration changes can be made in the [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml)
 
 > :bulb: Please note that at this stage, it is expected for you to be familiar with the various manifests defining how Sourcegraph is being deployed in Kubernetes. For more information about interacting with the deployment, see the [Kubernetes](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#scaling-kubernetes-clusters) handbook page.
 
@@ -75,8 +70,8 @@ In order to reproduce a customer scenario accurately, you'll need access to the 
 
 The following code hosts are available for testing:
 
-- [ghe.sgdev.org](ghe.sgdev.org)
-- [gitlab.sgdev.org](gitlab.sgdev.org)
+- [ghe.sgdev.org](https://ghe.sgdev.org)
+- [gitlab.sgdev.org](https://gitlab.sgdev.org)
 
 The possibility of using isolated code hosts solely for the purpose of these tests is currently being explored, depending on test types and demand.
 
@@ -88,4 +83,34 @@ In order to gather meaningful results of running tests against the scale testing
 - Sentry: TODO
 - Infrastructure and Application logs: GKE logs are currently available for viewing in the `Google Cloud Logs Explorer`. See the [official documentation](https://cloud.google.com/logging/docs/view/building-queries) for further information on how to use the logging platform.
 
-If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#kubectl-cheatsheet) for useful `kubectl` commands.
+If you have already configured and authenticated to the cluster, you can of course interact directly with the deployment to observe logs or other behaviours. See the [cheatsheet](../process/deployments/kubernetes/.md#kubectl-cheatsheet) for useful `kubectl` commands.
+
+
+## Playbook
+
+## Prerequisites
+
+- Access to the `sourcegraph-scaletesting` google project.
+- [kubectl](https://handbook.sourcegraph.com/departments/engineering/dev/process/deployments/kubernetes/#how-to-set-up-access-to-kubernetes) and [helm](https://handbook.sourcegraph.com/departments/engineering/teams/delivery/deployment/helm/#helm) configured.
+
+Below you can find a subset of the common tasks and how to complete them:
+
+### Deploying code
+
+To make changes to images, environment variables or other configuration, all udpates should be made in [values.yaml](https://github.com/sourcegraph/deploy-sourcegraph-scaletesting/blob/main/helm/sourcegraph/values.yaml).
+
+Merge your changes via a pull request, and run the following from the base of the `deploy-sourcegraph-scaletesting` repository:
+
+`helm upgrade --install --values ./helm/sourcegraph/values.yaml --version 3.43.2-insiders.3e3f9e9 sourcegraph insiders/sourcegraph -n scaletesting`
+
+
+### Scale the cluster down when not in use
+
+To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config ](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
+
+Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
+
+
+
+
+
