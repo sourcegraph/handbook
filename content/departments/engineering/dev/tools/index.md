@@ -5,6 +5,7 @@ Internal tools used at Sourcegraph.
 - [Slackgenie](./slackgenie.md)
 - [Observability](observability/index.md)
 - [Infrastructure](infrastructure/index.md)
+- [ScaleTesting Instance](./scaletesting.md)
 
 In-house tools:
 
