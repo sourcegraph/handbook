@@ -2455,17 +2455,6 @@ quinn_hare:
   github: quinnhare
   links: '[LinkedIn](https://www.linkedin.com/in/quinn-hare-54b76055/)'
 
-carl_robson:
-  name: Carl Robson
-  pronouns: he/him
-  location: London, UK, 🇬🇧
-  role: Senior People Partner
-  reports_to: director_people
-  email: carl.robson@sourcegraph.com
-  github: carl-robson
-  links: '[LinkedIn](https://www.linkedin.com/in/carlrobson/)'
-  description: 'Carl lives in South London with his husband (Augusto) and their ever-growing plant family. His love for travelling, exploring new cultures and learning new languages ensures that he never has a dull day to contend with. Prior to Sourcegraph, Carl worked for a number of Retail and SaaS organisations, helping them transform and thrive in periods of unprecedented growth or change.'
-
 miles_patton:
   name: Miles Patton
   pronouns: he/him
