@@ -25,6 +25,11 @@ On average, Teammates can expect to have their compensation increased for merit 
 
 Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions further below.
 
+- **1st review (Q1) eligibility rule**
+  - Must be hired on or before October 1st of the prior calendar year
+- **2nd review (Q3) eligibility rule**
+  - Must be hired on or before April 1st of the current calendar year
+
 ### Who provides feedback?
 
 During an Impact Review, you will be asked to give and receive the following reviews.
@@ -85,7 +90,7 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
   - 2023-03-04 to 2023-03-20 (2 weeks)
 - **Phase 5: Impact Review Cycle Ends**
   - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2023-04-01
-  - Compensation changes will go into effect 2022-04-01
+  - Compensation changes will go into effect 2023-04-01
 
 ## Impact Review process
 
@@ -313,13 +318,13 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 ## Teammate enablement
 
-### How to write a peer review
+### Writing effective feedback & self reviews
 
-COMING SOON
+Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
-### How to write a self review
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
-COMING SOON
+Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
 
 ## Teammate FAQ
 
@@ -366,9 +371,12 @@ Q. **Is Impact Review training available for Managers and Teammates?**
 Q. **How should Teammates prepare to participate in an Impact Review?**
 
 - Some basic tips for preparation include:
+
   - Keep notes on accomplishments, feedback, training, and challenges throughout the review period
   - Review your team career frameworks and solicit feedback from cross-functional partners
   - Prepare discussion points for the Impact Review conversation
+
+- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 Q. **Will my Impact Review be negatively impacted if I do not answer the optional questions?**
 
@@ -380,7 +388,7 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 ---
 
-The below sections are COMING SOON and will be published before the Manager Review Writing portion
+The below sections are IN PROGRESS and will be published before the Manager Review Writing portion
 
 **# RESOURCES FOR MANAGERS**
 
@@ -390,11 +398,7 @@ The below sections are COMING SOON and will be published before the Manager Revi
 
 ### How to write an effective review\*\*
 
-COMING SOON
-
-### Examples of a good review\*\*
-
-COMING SOON
+We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 **What comes after review writing**
 
