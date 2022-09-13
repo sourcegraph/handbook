@@ -64,11 +64,11 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 
 ## Extend Trial Managed Instance
 
-When trial expires and should be extended (by default 30 days), instance requestor will create `Managed Instance Trial Extend` Github issue.
+When trial expires and should be extended (by default 30 days), instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) Github issue.
 
 ## Convert trial to paying customer
 
-When customer has decided to sign the deal, instance requestor will inform [Cloud Team](././index.md#team) via comment in Managed Instance Creation issue. [Cloud Team](././index.md#team) will modify GCP label `instance-type=production`.
+When customer has decided to sign the deal, instance requestor will create [Managed Instance Convert Trial to Paid](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will modify GCP label `instance-type=production`.
 
 ## Teardown Trial Managed Instance
 
