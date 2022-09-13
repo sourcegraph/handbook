@@ -18,7 +18,7 @@ The difference from paid Managed Instances:
 1. Trial Managed Instances have GCP label `instance-type=trial`, which allows to filter them.
 1. Trial Managed Instances are monitored for trial expiration period (default 30 days). When Trial Managed Instance expires, instance requestor has to decide if:
 
-- extend the trial period
+- [extend the trial period](#extend-trial-managed-instance)
 - [convert to paying customer](#convert-trial-to-paying-customer)
 - [teardown Trial Managed Instance](#teardown-trial-managed-instance)
 
@@ -58,9 +58,13 @@ Based on data provided by instance requestor in New Managed Instance Request [Cl
 
 Trial Managed Instance are [automatically checked daily](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/trials_expire.yml) for expired trials. If Trial Managed Instance period exceeded 30 days, it will notify [Cloud Team](././index.md#team) on Slack channel `#cloud-notifications`. [Cloud Team](././index.md#team) will notify instance requestor and ask for choosing one of the options:
 
-- extend the trial period
+- [extend the trial period](#extend-trial-managed-instance)
 - [convert to paying customer](#convert-trial-to-paying-customer)
 - [teardown Trial Managed Instance](#teardown-trial-managed-instance)
+
+## Extend Trial Managed Instance
+
+When trial expires and should be extended (by default 30 days), instance requestor will create `Managed Instance Trial Extend` Github issue.
 
 ## Convert trial to paying customer
 
