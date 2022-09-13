@@ -10,6 +10,7 @@ Customer Engineering at Sourcegraph is oriented around the technical success of 
 - [Implementation Project Managers](tpm/index.md)
 
 ## Former Functional Team
+
 - [Customer Training Engineers](cte/index.md)
 
 ## Resources
