@@ -3,7 +3,7 @@
 Trial Managed Instances (aka PoC) are private, dedicated Sourcegraph instances provisioned and managed by Sourcegraph - [more](https://docs.sourcegraph.com/cloud).
 The purpose is to provide free of charge Managed Instances for future customers for trial period (default is 30 days).
 
-All process are same as for paid Managed Instances (for paying customers):
+All process are the same as for paid Managed Instances (for paying customers):
 
 - [creation process](./technical-docs/v1.1/mi1-1_creation_process.md)
 - [upgrade process](./technical-docs/index.md#release-process)
