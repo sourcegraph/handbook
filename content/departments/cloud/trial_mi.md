@@ -64,7 +64,7 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 
 ## Extend Trial Managed Instance
 
-When trial expires and should be extended (by default 30 days), instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) Github issue.
+When trial expires and should be extended (by default 30 days), instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will add `trialAdditionalDays` to customer `config.yaml` to ensure extended trial period is monitored.
 
 ## Convert trial to paying customer
 
