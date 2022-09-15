@@ -17,59 +17,65 @@ cd deploy-sourcegraph-cloud-dev
 > See flow chart https://app.excalidraw.com/s/4Dr1S6qmmY7/2wUSD4kIxRo
 
 ```sh
-export SLUG=<>
+export SLUG=company
+export DOMAIN=company.sourcegraph.com
 ```
 
 ```sh
 git checkout -b $SLUG/create-instance
 ```
 
-### Create GCP Project
-
-Open `projects/terraform.tfvars` and create a new entry depending on instance type
-
-```hcl
-managed_projects = {
-  "slug" = {
-    name = "slug_or_custom_display_name"
-  }
-}
-```
-
-```sh
-terraform init
-terraform apply
-```
-
-Notes the output `project_id` of the new project
-
-```sh
-export PROJECT_ID=<>
-export DOMAIN=<>
-```
-
 ### Init deployment artifacts
 
 `mgv2 generate` will
 
-- generate the terraform module and apply the terraform module
+- generate the terraform module and prmompt you to apply the terraform module
 - generate the kustomization manifests and helm override based on output from the terraform module
 
 ```sh
-mgv2 generate --project-id $PROJECT_ID --domain $DOMAIN
+mgv2 generate --domain $DOMAIN --slug $SLUG
 ```
 
 Above command will fail on the first run, follow the prompt to manually apply the terraform module. (or you can just run the command below)
 
 ```sh
-cd deployments/$PROJECT_ID/terraform
+cd deployments/$SLUG/terraform/project
+terraform init
+terraform apply
+```
+
+Rerun the command to generate the infra terraform module
+
+```sh
+mgv2 generate --domain $DOMAIN --slug $SLUG
+```
+
+```sh
+cd deployments/$SLUG/terraform/infra
+terraform init
 terraform apply
 ```
 
 Rerun the `generate` command to generate the kustomize manifests and helm overrides
 
 ```sh
-mgv2 generate --project-id $PROJECT_ID --domain $DOMAIN
+mgv2 generate --domain $DOMAIN --slug $SLUG
+```
+
+Connect to the cluster locally by running
+
+```sh
+cd deployments/$SLUG/terraform/infra
+CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
+PROJECT_ID=$(yq '.status.gcpProjectID' < ../../config.yaml)
+gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
+```
+
+Deploy the manifests
+
+```sh
+cd deployments/$SLUG/kubernetes
+kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
 ### Wrapping up
