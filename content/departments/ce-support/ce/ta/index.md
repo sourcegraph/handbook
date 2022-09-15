@@ -2,24 +2,23 @@
 
 ## Who we are
 
-Technical Advisors (TA), within Customer Engineering (CE), are specialized experts focused first and foremost on the post-sales customer experience and relationship. Our team will be responsible for continously monitoring the health of our customers, becoming trusted advisors to them on all things Sourcegraph and engineering, and builting out the tools and processes internally to do this job as effectively as possible.  We are responsible for ensuring that customers are achieving their success metrics that were defined during the sales process, and that they continue to find new valueble use cases for Sourcegraph.
-
+Technical Advisors (TA), within Customer Engineering (CE), are specialized experts focused first and foremost on the post-sales customer experience and relationship. Our team will be responsible for continously monitoring the health of our customers, becoming trusted advisors to them on all things Sourcegraph and engineering, and builting out the tools and processes internally to do this job as effectively as possible. We are responsible for ensuring that customers are achieving their success metrics that were defined during the sales process, and that they continue to find new valueble use cases for Sourcegraph.
 
 ## Team Culture & Norms
 
 ### Team Norms
 
-This team is highly focused on engaging our customers with valuble insight and information.  We also are focused on internally surfacing customer information that is important to the business.  This means both synchronous customer conversations throughout the day along with synchronous and asynchronous Sourcegraph processes.
+This team is highly focused on engaging our customers with valuble insight and information. We also are focused on internally surfacing customer information that is important to the business. This means both synchronous customer conversations throughout the day along with synchronous and asynchronous Sourcegraph processes.
 
-Any daily / weekly / monthly team activities will be defined at a later time.  
-
+Any daily / weekly / monthly team activities will be defined at a later time.
 
 ### How we work in support of customers
 
 Ultimately we will work to increase the following customer metrics:
+
 - Adoption
 - Usage / Consumption
-- NPS 
+- NPS
 - Renewal Rate
 
 While those metrics are good for our business, the driving factor should be making that the customer is successful in their own business, and that Sourcegraph is a critical tool in that process that proves invaluble to their organization.
@@ -38,29 +37,30 @@ This team can be engaged in the [`#technical-advisors` channel](https://sourcegr
 We break our team down into four segments of customers which is used to help define what kind of activiteies are expected and how frequent they should occur.
 
 Those segments are:
+
 - Strategic
 - Large Enterprise
 - Small Enterprise
-- Commercial 
-
+- Commercial
 
 # Tooling
 
 ## Vitally
 
-We use Vitally stay organized internally around our customers.  Your account should be able to look at just your book of business or the entire customer base.
+We use Vitally stay organized internally around our customers. Your account should be able to look at just your book of business or the entire customer base.
 
 ### Account Views
 
 - 2x2 Meeting Dashboard
-    - This is a prebuilt screen that will surface all the relevant information for your 2x2 Meetings to discuss your customers.
+  - This is a prebuilt screen that will surface all the relevant information for your 2x2 Meetings to discuss your customers.
 - Technical Details
-    - This view is indended to be a snapshot of the technical details from our customers implementation.  If an Implementation Engineer was asigned to the implementation, they will be responsible for recording this information.
+  - This view is indended to be a snapshot of the technical details from our customers implementation. If an Implementation Engineer was asigned to the implementation, they will be responsible for recording this information.
 
 ### Dashboards
+
 - [Deployment Tracking](https://sourcegraph.vitally.io/work/team/dashboards/539a4ade-5d23-4d16-8883-5036e74836ae)
-    - This dashboard is used to track the ongoing customer deployments and ensure they are getting value in a timely manner.
-    - This filters out Sourcegraph Managed / Cloud instances, and any instance that has a Production Infastructure Completed date.
+  - This dashboard is used to track the ongoing customer deployments and ensure they are getting value in a timely manner.
+  - This filters out Sourcegraph Managed / Cloud instances, and any instance that has a Production Infastructure Completed date.
 
 # Technical Advisor Responsibilities and Touchpoints
 
@@ -68,29 +68,28 @@ The following are a sample of the activities that a TA is responsible for on a d
 
 ### Internal
 
--  Establish up-to-date account map / plan
-    -  Org, roles & responsibilities, learn the state of things, intros to folks
+- Establish up-to-date account map / plan
+  - Org, roles & responsibilities, learn the state of things, intros to folks
 - Account Monitoring: flag and schedule internal meetings, work with customer on corrective action, customer health
-    - Internal 2x2 meetings
-
+  - Internal 2x2 meetings
 
 ### External
 
 - Account Monitoring: flag and schedule internal meetings, work with customer on corrective action, customer health
 - Relationship building
-    - Champion identification/building/nurture activities
-    - Tech advocate identification/building/nurture activities
+  - Champion identification/building/nurture activities
+  - Tech advocate identification/building/nurture activities
 - Standardized customer communications
-    - Incident response
-    - Product updates
-    - Product research
+  - Incident response
+  - Product updates
+  - Product research
 - Usage & Value Reporting on a quarterly basis
 
 # Detailed Touchpoints
 
 ## Post-Sales Engagement Kickoff
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 Once a customer signs on with Sourcegraph, we need to:
 
@@ -112,7 +111,7 @@ On the kickoff call we plan our ongoing engagement with the customer. Different 
 
 ## User Onboarding
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 A critical part of the customer experience is user onboarding. After deal close, once the customers' production infrastructure is setup and confifured, CEs are responsible for driving adoption of users onto Sourcegraph. During engagement kick-off, CE works with our customer stakeholders to create a plan to onboard their users.
 
@@ -122,7 +121,7 @@ A critical part of the customer experience is user onboarding. After deal close,
 
 ## Webinars / Trainings / Q&A Sessions
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 A standard customer engagmeent should include three core trainings, as well as optional topics customized to customer needs or requests, or demos of new features or use cases that are relevant to the team. These webinars may be run repeatedly if, for example, you're expanding into a new business unit within an existing customer.
 
@@ -143,7 +142,7 @@ A standard customer engagmeent should include three core trainings, as well as o
 
 ## QBRs
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an Executive Business Review), with our customers which recaps how Sourcegraph has been integrated into and creating value for their organization over the past quarter. These QBRs are typically created and presented by the CE assigned to the account, in conjunction with the account’s AE. They are typically presented in a slide deck format to executive-level leadership, and highlight usage metrics and use cases for their org. Additionally, they are used to gather feedback and comments from leadership regarding Sourcegraph.
 
@@ -159,13 +158,13 @@ We often hold QBRs, or Quarterly Business Reviews (sometimes referred to as an E
 
 ## Expansions and Renewals
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 Expanding Sourcegraph to a new team or unlocking new enterprise features could involve a full cycle of CE discovery and demos and value mapping. It could also include a trial for a new user group or with that new feature. A basic renewal or seat expansion may not involve CE beyond generating a new license key.
 
 ## Ongoing Customer Nurture
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 While our CS team is primarily responsible for reactive technical support, CE helps keep an eye out on Slack for any questions or issues that come through. CE can view any support issues in Zendesk by using our SFDC <> Zendesk integration. Go to the Account page in Salesforce and click the "Zendesk" tab to view.
 
@@ -177,7 +176,7 @@ At times a customer may raise a feature request or provide product feedback. It 
 
 ## Account Management
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 As CEs we are responsible for the technical success of our customers. Post-sales we nurture these relationships and manage the accounts by paying attention to customer health metrics. Usage, adoption, and customer sentiment are important indicators that we monitor and address. It is recommended that CEs routinely monitor this to keep a pulse on customer metrics. There is also a link to this from the Salesforce Account record.
 
@@ -188,17 +187,15 @@ In addition to routine monitoring, CE should be collaborating with their AE to c
 - [Customer Health Dashboard](https://sourcegraph.looker.com/dashboards-next/194)
 - [Instance overview dashboard](https://sourcegraph.looker.com/dashboards-next/167)
 
-
 # Playbooks
 
 To enable CEs and ensure consistent practices, our team may produce playbooks from time-to-time. These playbooks should serve as a useful onboarding resource to new CEs and a helpful refresher for CEs as well.
 
 ## Account Health
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 The [account health playbook](https://docs.google.com/document/d/1YeuwtlplEkZEnmLMXZ1vKjJGImUZCIb1x4aCLXcNavc/edit) offers a repeatable framework for mitigating the risk of low adoption scores by offering suggestions for engagement as well as repeatable training and reusable content. This is a living document that should change to reflect available components in the [Customer Health Dashboard - Individual Customer](https://sourcegraph.looker.com/dashboards-next/194?Unique+Server+ID=Eventbrite) and mature over time to provide more refined resources to support Customer Engineers.
-
 
 # Processes
 
@@ -206,7 +203,7 @@ Similar to playbooks, processes exist to ensure consistent practices amongst tea
 
 ## Renewal Process
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 Finance, TA, Sales, and Value Engineering all play a key role in customer renewals. While the customer renewal is a single event, our teams are constantly assessing the health of our customers and taking corrective action as necessary.
 
@@ -222,7 +219,7 @@ On a quarterly basis, finance generates and publishes an updated renewal analysi
 
 ## Red Accounts
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 As the team accountable for our customers' technical success, usage, and adoption of our products, CEs must keep a close pulse on the health of our customers. The Red Accounts Program exists to ensure we as a company are assessing customer health at all times.
 
@@ -251,7 +248,7 @@ Tech Reviews are employed in both pre-sales scenarios and post-sales scenarios.
 
 ## Account Planning
 
-*This section contains information from when CE / pre-sales owned the process.  It will be updated as these processes are redefined*
+_This section contains information from when CE / pre-sales owned the process. It will be updated as these processes are redefined_
 
 Account Planning is critical to the success of our customers. The account planning process is where an account team (AE & CE) comes together to review the current status of their customers (Usage, Health, ect.) on a quarterly basis and sets new goals for the next quarter, focusing on customer health, retention, and expansion.
 
