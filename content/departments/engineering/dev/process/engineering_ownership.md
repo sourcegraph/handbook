@@ -167,8 +167,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Backend testing standards, libraries, and infrastructure
 - Packaging infrastructure
 - SOC2 compliance around the software development lifecycle, testing, and CI
-- Production support and on-call of DotCom environment
 - GCP cost savings
+- Production support and on-call of DotCom environment
 - Observability tooling for DotCom environment
 - Dogfood/Pre-prod and other test environments
 - Code host QA instances
