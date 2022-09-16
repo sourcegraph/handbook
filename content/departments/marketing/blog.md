@@ -57,13 +57,16 @@ To use the template, copy the above file and paste it in the appropriate year fo
 
 To ensure uniformity between commonly used content items, please use the following components where appropriate. These are setup to accommodate screen responsiveness, accessibility concerns, and meet our brand guidelines.
 
-1. Alert
-2. Blockquote
-3. Figure
-4. TableWrapper
-5. Video
-6. YouTube, and;
-7. HubSpotForm
+<ol>
+  <li>Aler</li>
+  <li>Badge</li>
+  <li>Blockquote</li>
+  <li>Figure</li>
+  <li>TableWrapper</li>
+  <li>Video</li>
+  <li>YouTube, and;</li>
+  <li>HubSpotForm</li>
+</ol>
 
 > NOTE: **Reference the [Blog Post Starter Pack](#using-the-blog-post-starter-pack) for use case examples.**
 
