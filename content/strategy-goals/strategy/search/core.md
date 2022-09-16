@@ -27,10 +27,10 @@ We have also conducted discovery work to better understand what pain points our 
 
 #### Goals
 
-Given the new company strategies and focus on making Sourcegraph support large customers, the team will be focusing on the following three areas in Q3 and beyond: 
+Given the new company strategies and focus on making Sourcegraph support large customers, the team will be focusing on the following three areas in Q3 and beyond:
 
 - **Observability and admin experience**
-- **Scalability** 
+- **Scalability**
 - **Ranking**
 
 #### Details
