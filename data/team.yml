@@ -256,7 +256,7 @@ dax_mcdonald:
 robert_lin:
   name: Robert Lin
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_cloud
   location: Burnaby, Canada 🇨🇦
   pronouns: he/him
   github: bobheadxi
