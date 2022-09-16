@@ -58,7 +58,7 @@ To use the template, copy the above file and paste it in the appropriate year fo
 To ensure uniformity between commonly used content items, please use the following components where appropriate. These are setup to accommodate screen responsiveness, accessibility concerns, and meet our brand guidelines.
 
 <ol>
-  <li>Aler</li>
+  <li>Alert</li>
   <li>Badge</li>
   <li>Blockquote</li>
   <li>Figure</li>
