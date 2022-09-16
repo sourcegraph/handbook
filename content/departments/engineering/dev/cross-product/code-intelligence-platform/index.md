@@ -4,6 +4,10 @@
 - Owner: Joel Kwartler
 - Owner split with other roles: 75-25 (this-other roles)
 
+## Overview
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vThxOgLUUK2EfBhYRoCPwfKcw8wiarmD7uaTtmQpB1_WL7oho1377pRT8Vv6l7avKtCdK4T1o9Qaqng/embed?start=false&loop=false&delayms=3000&slide=id.g1581317b2af_1_0" allow="fullscreen" title="Code Intelligence Platform slide deck"></iframe>
+
 ## Mission and ownership
 
 The code intelligence cross-product owner focuses on all product, design, and engineering work necessary to achieve our [1-year vision](../../../../engineering/index.md#product-vision-and-strategy).
