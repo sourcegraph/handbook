@@ -47,6 +47,7 @@ Visit [this page](okta-activation-steps.md) to follow the steps to activate your
 Okta Verify is the default MFA option. You can add others (like iTouch) but Okta Verify is mandatory.
 
 1. Okta Verify: There are two ways to set up Okta Verify.
+
    1. Download the Okta Verify to you mobile device. When prompted a push notification will be sent to your mobile Okta Verify app (iOS, and Android devices) and you must verify that it was you trying to access Okta.
    2. Alternatively, you can use 1Password as the TOTP (time-based one time password) device rather than the Okta Verify app. By using 1Password, both your password and TOTP get autofilled via the 1Password browser extension. Note: the scan QR code function in 1Password does not work for Okta Verify. Follow these steps for replacing Okta Verify with 1Password:
       - Begin as if you are setting up Okta Verify
@@ -57,7 +58,7 @@ Okta Verify is the default MFA option. You can add others (like iTouch) but Okta
       - It will then load the secret key that you have to manually enter into the one-time password field in 1Password
       - Save on the entire entry in 1Password
       - The 6 digit code will automatically begin generating on a rolling timer like expected
- 
+
 2. FIDO2 [WebAuthn](https://help.okta.com/en-us/Content/Topics/Security/mfa-webauthn.htm?cshid=csh_FIDO2_WebAuthn)- use a security key or biometric authenticator (such as YubiKey, Google Titan, or Touch ID)
    - Touch ID: Each browser will need to verify and register Touch ID, so if you use multiple browsers, you will need to set this up on each one.
    - For YubiKey set up:Follow [these instructions](https://support.yubico.com/hc/en-us/articles/360016614960-Programming-YubiKeys-for-Okta-Adaptive-Multi-Factor-Authentication) and send #it-tech-ops the generated CSV
