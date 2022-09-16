@@ -21,6 +21,7 @@ For more detailed information on the Delivery team members, check out our [READM
   - [Kubernetes - kustomize](https://github.com/sourcegraph/deploy-sourcegraph)
   - [docker](https://github.com/sourcegraph/deploy-sourcegraph-docker)
 - [Customer deployments and docs](https://docs.sourcegraph.com/admin/install)
+- [Org-wide areas of ownership](../../dev/process/engineering_ownership.md/#delivery-and-delivery-tiger-team)
 - ~~[Sourcegraph releases](../../dev/process/releases/index.md)~~ releases are owned by the [Release Guild](../../dev/process/releases/release_guild.md) and the Delivery provides support to the Release Guild.
 
 ## Contact
@@ -42,7 +43,7 @@ Feel free to direct simple questions to us in [#delivery](https://sourcegraph.sl
 
 ### Support request guidelines
 
-Support requests related to our [areas of ownership](index.md#responsibilities) should follow this process:
+Support requests related to our [areas of ownership](./#responsibilities) should follow this process:
 
 1. Make sure there is an issue—if there's not, please create one and include:
    - A short description of the ask
