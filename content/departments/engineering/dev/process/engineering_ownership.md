@@ -64,6 +64,10 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - sourcegraph/code-insights-scratch
 
+### Container images
+
+- [sourcegraph/codeinsights-db](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/codeinsights-db)
+
 ## [Code Intelligence](../../teams/code-intelligence/index.md)
 
 ### General
@@ -99,6 +103,14 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - sourcegraph/lsif-clang
 - sourcegraph/lsif-test
 
+### Container images
+
+- [sourcegraph/codeintel-db](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/codeintel-db)
+- [sourcegraph/minio](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/minio)
+- [sourcegraph/precise-code-intel-worker](https://github.com/sourcegraph/sourcegraph/tree/main/enterprise/cmd/precise-code-intel-worker)
+- [sourcegraph/symbols](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/symbols)
+- [sourcegraph/syntax-highlighter](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/syntax-highlighter)
+
 ## [Content Platform](../../teams/content-platform/index.md)
 
 ### General
@@ -128,8 +140,23 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Go Live Support
 - Resource estimator
 - Health status tooling
+- One-click export
 - Product education and documentation around delivery
 - Multi-version upgrades
+
+### Container images
+
+- [sourcegraph/alpine-3.14](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/alpine-3.14)
+- [sourcegraph/cadvisor](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/cadvisor)
+- [sourcegraph/frontend](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/frontend)
+- [sourcegraph/migrator](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/migrator)
+- [sourcegraph/postgres-12-alpine](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/postgres-12-alpine)
+- [sourcegraph/postgres_exporter](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/postgres_exporter)
+- [sourcegraph/redis-cache](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/redis-cache)
+- [sourcegraph/redis-store](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/redis-store)
+- [sourcegraph/redis_exporter](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/redis_exporter)
+- [sourcegraph/server](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/server)
+- [sourcegraph/worker](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/worker)
 
 ## [Developer Experience](../../teams/dev-experience/index.md)
 
@@ -157,6 +184,14 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - OkayHQ
 - Sentry.io
 - Geekbot
+
+### Container images
+
+- [sourcegraph/sg](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/sg)
+- [sourcegraph/grafana](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/grafana)
+- [sourcegraph/jaeger-agent](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/jaeger-agent)
+- [sourcegraph/jaeger-all-in-one](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/jaeger-all-in-one)
+- [sourcegraph/prometheus](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/prometheus)
 
 ## [Frontend Platform](../../teams/frontend-platform/index.md)
 
@@ -209,6 +244,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Billing, invoicing, and payments
 - Usage reporting and entitlement enforcement
 - Licensing models
+- Support and maintenance around authentication
+- Red accounts
 
 ### User journeys
 
@@ -247,9 +284,8 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - Code host connections (GitHub, GitLab, BitBucket, Perforce, CVS, Gerrit)
 - Code replication into Sourcegraph\* Code storage within Sourcegraph
-- Support and maintenance around authentication
-- One-click export
 - CVS importer
+- Red accounts
 
 ### User journeys
 
@@ -257,6 +293,12 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 - Add repositories
 - Sync public repositories
 - Sync all or individual repositories
+
+## Container images
+
+- [sourcegraph/github-proxy](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/github-proxy)
+- [sourcegraph/repo-updater](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/repo-updater)
+- [sourcegraph/gitserver](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/gitserver)
 
 ## [Search Core](../../teams/search/core.md)
 
@@ -274,6 +316,12 @@ If you see an area that is missing, [figure out](../../product/process/feedback/
 
 - sourcegraph/zoekt
 - sourcegraph/search-scratch
+
+## Container images
+
+- [sourcegraph/indexed-searcher](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/indexed-searcher)
+- [sourcegraph/search-indexer](https://github.com/sourcegraph/sourcegraph/tree/main/docker-images/search-indexer)
+- [sourcegraph/searcher](https://github.com/sourcegraph/sourcegraph/tree/main/cmd/searcher)
 
 ## [Search Product](../../teams/search/product.md)
 

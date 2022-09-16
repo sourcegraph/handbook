@@ -39,7 +39,7 @@ This scans an image for High/Critical CVEs. The `-f json` flag can be used to ou
 
 ## Accepted vulnerabilities and false positives
 
-Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../engineering/dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
+Trivy finds many vulnerabilities that are either false positives (where we are not actually vulnerable) or that we decide to accept because it presents low risk to us. It's not expected for all images to be cleared of all High/Critical CVEs due to these issues with the tool. This is according to our [Vulnerability Management Policy](../../../engineering/dev/policies/vulnerability-management-policy.md#acceptance-of-vulnerabilities). Current CVEs that are accepted or false positives are documented [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aopen+is%3Aissue+label%3Asource%2Ftrivy).
 
 ## For Security engineers
 
@@ -65,7 +65,7 @@ Most docker images we create have build scripts that can be run locally. In case
 sg ci build docker-images-patch <image>
 ```
 
-More information [here](../../engineering/dev/process/deployments/testing.md#building-docker-images-for-a-specific-branch)
+More information [here](../../../engineering/dev/process/deployments/testing.md#building-docker-images-for-a-specific-branch)
 
 A recommended process to test patches is:
 
@@ -90,3 +90,13 @@ If you got a CI warning for a Trivy vulnerability _**it is not your responsibili
 It's common for our customers to scan the container images we ship to them. These scans usually contain vulnerabilities that are either false positives or that we have accepted as low risk. All open container vulnerabilities can be found [here](https://github.com/sourcegraph/security-issues/issues?q=is%3Aissue+is%3Aopen+label%3Asource%2Ftrivy), where there is context that can be shared with the customer.
 
 For customer scans the CE should cross-check the vulnerabilities found in the customer scan with the ones we have documented in the `security-issues` repository. If we missed any please bring it to the attention of the Security team in the #security channel.
+
+## Accepted CVEs
+
+Releases of Sourcegraph may ship with container images that contain known vulnerable
+packages that are either false positives considering the way in which we run Sourcegraph,
+or that we have accepted as low risk. You can find more details about these below:
+
+- [3.43.0](./3-43-0.md)
+- [3.43.1](./3-43-1.md)
+- [3.43.2](./3-43-2.md)

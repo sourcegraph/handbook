@@ -29,7 +29,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`internal/trace`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/trace), [`internal/tracer`](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/internal/tracer): tracing infrastructure and libraries
   - Packaging infrastructure (e.g. base Docker images)
   - [SOC2 compliance](https://sourcegraph.com/notebooks/Tm90ZWJvb2s6NjA=) regarding software development lifecycles, testing, and continuous integration
-- Continuous integration (also see [CI support responsibilities](#ci-support-responsibilities))
+- Continuous integration (also see [CI support responsibilities](processes.md#ci-support-responsibilities))
   - [`sourcegraph/sourcegraph` Buildkite pipelines](https://docs.sourcegraph.com/dev/background-information/continuous_integration#buildkite-pipelines)
     - [Pipeline generator](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/tree/enterprise/dev/ci)
     - [Documentation](https://docs.sourcegraph.com/dev/background-information/ci)
@@ -39,6 +39,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
 - Other
   - [Developer experience newsletter](./newsletter.md)
   - [`sg` hack hour](processes.md#sg-hack-hour)
+  - GCP cost and cost reduction initiatives
 
 Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.md) and our [team processes](processes.md).
 

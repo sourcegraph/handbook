@@ -28,20 +28,6 @@ With MAUs being removed as a top-level goal, nothing changes for product-led gro
 
 To see how individual teams fit into the flywheel, please see [the full deck](https://docs.google.com/presentation/d/1q2LFxTnhneHWJitNXm57R06xhyP3bIqES0gaCQeZG24/edit#slide=id.gf5663c214b_0_17).
 
-## The Flywheel roadmap
-
-### Current state
-
-![PLG flywheel current state](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-current-state.png)
-
-### FY22 Q4
-
-![PLG flywheel FY22 Q4](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-fy22q4.png)
-
-### FY23 Q1
-
-![PLG flywheel FY23 Q1](https://storage.googleapis.com/sourcegraph-assets/handbook/product-led%20growth/plg-flywheel-fy23q1.png)
-
 # Lead Scoring at Sourcegraph
 
 Lead scoring is a framework we have put in place across HubSpot and Salesforce to enable sales and marketing to identify which inbound prospects are potentially most valuable to the company. Through lead scoring, all inbound prospects are assigned point values corresponding to each online interaction they have with Sourcegraph (either through marketing-owned forms or our free product offering). Once a prospect surpasses a certain point threshold, they receive a lead scoring designation that signals high intent and/or engagement to sales. This designation is designed to enable sales reps to quickly and efficiently filter through top of funnel noise in order to focus their time and attention on only those inbound prospects with a high likelihood to purchase. If you have any questions or feedback on anything pertaining to lead scoring, please post them in the #lead-lifecycle channel in Slack.
@@ -278,7 +264,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
    <td>
 <ol>
 
-<li>Addition of ≥1 code host OR ≥1 repo
+<li>Addition of ≥1 code host
 
 <li>Completion of ≥1 search
 </li>
@@ -343,17 +329,6 @@ How do we track changes to PQL scoring over time:
 PQL scoring is not static. BizOps conducts regular analysis to evaluate whether we have the right scoring criteria in place to inform better outreach to those users seeing the most value from our product. While the PQL scoring workflow ultimately lives in HubSpot, we track all relevant changes [here](https://docs.google.com/spreadsheets/d/1cK1EHd1nt6XvVbP52Vh_d4CYKd9oPlejKqSSfS7QyRQ/edit#gid=0).
 
 ## Additional PLG resources
-
-### Internal resources
-
-Growth:
-
-- [Product-Led Growth for Cloud](https://docs.google.com/document/u/0/d/1dAqjVUV8p6I-T1epDdUjNzOsFocFg9ZJVik941ISvGw/edit)
-- [If we had a growth team one pager](https://docs.google.com/document/u/0/d/1lz0qBKs753Ytt9SHl17EM0CK_VUnVMAcSZMDef5Tl00/edit)
-
-Growth and Integrations:
-
-- [Growth and Integrations Team - Cloud Org](https://docs.google.com/document/u/0/d/16pZ2QIRW2rvYVtyxuqWR91DTgReIdrOAAa_bX5q9kR8/edit)
 
 ### External resources
 

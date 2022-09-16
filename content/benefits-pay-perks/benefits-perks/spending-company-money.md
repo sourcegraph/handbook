@@ -8,6 +8,8 @@ We want to make sure you have what you need to be productive and happy in your r
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
 - Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](../pay-expenses/expenses/index.md) for additional help.
 
+Directions for how to determine how much spend you have left in each travel category, professional development, or desk setup can be found [here ](https://docs.google.com/document/d/1XXAKh2DHitaFCFmNCEqpYBPbknhJ8IC0r-deDSFlht4/edit?usp=sharing) for additional help.
+
 ## Desk set-up
 
 ### Full-time teammates

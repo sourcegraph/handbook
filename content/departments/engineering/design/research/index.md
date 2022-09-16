@@ -16,7 +16,8 @@ There is a #hallway-testing Slack channel to share information and scout partici
 
 When unmoderated user testing is valuable we use [usertesting.com](../tools/index.md#product-design-and-research) to conduct unmoderated user research with a pool of participants sourced by usertesting.com.
 
-> [Read the Sourcegraph guide for conducting research with usertesting.com](./user-testing-com.md)
+- Read the guide for [conducting research with usertesting.com](./user-testing-com.md)
+- Learn about our [Sourcegraph Cloud instance for user research](./user-research-instance.md)
 
 ### Moderated user testing
 
@@ -33,6 +34,11 @@ Our users are passionate and provide excellent, regular feedback that we keep in
 ### Surveys
 
 Surveys allow researchers to ask questions at a scale that isn't possible with other research methods. Surveys are very useful in validating qualitative findings at much larger scales.
+
+# Scripts and proven activities
+
+- [One-page research plan template](https://docs.google.com/document/d/1frKMZIT3rPjsvT5w5rkUahR7KiZA8KWTOjAlqIWKnP0/edit#)
+- [Useful, proven test activities for re-use](./useful-testing-activities.md)
 
 # Publishing results
 

@@ -233,16 +233,6 @@ felix_becker:
   links: '[Twitter](https://github.com/felixfbecker), [LinkedIn](https://www.linkedin.com/in/felixfbecker/)'
   description: Felix discovered batch files on Windows 98 in elementary school and one thing led to another. He has the most fun in all things web technology and open source, especially TypeScript. But when that gets boring, he likes to play field hockey and sail the north & baltic seas.
 
-asdine_el_hrychy:
-  name: Asdine El Hrychy
-  pronunciation: First name is pronounced _as-deen_, last name _el-ree-tchee_
-  role: Software Engineer
-  reports_to: engineering_manager_repo
-  location: Ajaccio, France 🇫🇷/ Dubai, UAE 🇦🇪
-  github: asdine
-  email: asdine@sourcegraph.com
-  description: Asdine loves experimenting and building bizarre software while enjoying an entire pot of coffee. Before Sourcegraph, he was writing tools and frameworks for his colleagues at Heetch. He also hates dogs, especially the small ones, essentially because they hate him.
-
 dave_try:
   name: Dave Try
   role: Software Engineer
@@ -333,7 +323,7 @@ quinn_keast:
   name: Quinn Keast
   reports_to: director_design
   pronouns: he/him
-  role: Product Designer
+  role: Staff Product Designer
   location: Berlin, Germany 🇩🇪
   github: quinnkeast
   email: qkeast@sourcegraph.com
@@ -687,6 +677,14 @@ murat_sutunc:
   email: murat@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/muratsutunc)'
   description: Murat started his career at Microsoft working on web standards. He worked on the JavaScript runtime engine and was a founding team member of the TypeScript language. After Microsoft, he founded a venture-backed company and eventually found his way to the Bay Area. Outside of work, Murat is passionate about cooking, finance, and video games.
+
+murat_sutunc_frontend_platform:
+  name: Murat Sutunc
+  pronouns: he/him
+  role: Engineering Manager, Frontend Platform
+  reports_to: eng_lead
+  manager_role_slug: engineering_manager_frontend_platform
+  hide_on_team_page: true
 
 jon_kishpaugh:
   name: Jon Kishpaugh
@@ -1597,16 +1595,6 @@ carson_hopkins:
   location: Brooklyn, NY, USA 🇺🇸
   description: Carson grew up in rural Virginia and now lives in New York City with her wife. She’s a startup and remote work veteran who enjoys buying more books than she can possibly read, drinking coffee, and showering her cat with affection that is occasionally reciprocated. She’s also a big fan of national parks, dinner parties, sweatpants, and obscure desserts.
 
-kevin_wojkovich:
-  name: Kevin Wojkovich
-  email: kevin.wojkovich@sourcegraph.com
-  github: kevinwojo
-  pronouns: he/him
-  role: Software Engineer, Delivery
-  reports_to: engineering_manager_delivery
-  location: Chicago, IL, USA 🇺🇸
-  description: Kevin lives in the Rogers Park neigborhood in Chicago, IL. He's worked within the DevOps and Infrastructure space across many industries including crytpocurrency, finance, retail, and law enforcement. When not working, Kevin enjoys biking, going to the gym, cooking, bread-making, and watching cartoons.
-
 brett_hayes:
   name: Brett Hayes
   email: brett.hayes@sourcegraph.com
@@ -1635,18 +1623,6 @@ amy_johnson:
   reports_to: financial_controller
   location: Trabuco Canyon, CA, USA
   description: Amy lives in Southern California with her husband and mini australian shepherd. When she isn't knee deep in spreadsheets, she enjoys hiking, camping, and snowboarding.
-
-jason_gornall:
-  name: Jason Gornall
-  pronouns: he/him
-  role: Engineering Manager, Frontend Platform
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_frontend_platform
-  location: San Marcos, CA, USA 🇺🇸
-  github: jasongornall
-  email: jason.gornall@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jasongornall)'
-  description: Jason lives in San Diego, CA with his wife and cat Siren. He has lived in several cities in the USA including Atlanta, San Francisco, LA, Boston, and NYC. Jason loves ridiculously spicy foods and always enjoys a good pun. Jason's cat is named Siren but because he called her kitten for the majority of her early life she doesn't respond to her name at all and as a result we tend to call her Mitten because it is close enough to kitten and she can't tell the difference.
 
 Daniel_Gwyn:
   name: Daniel Gwyn
@@ -1710,17 +1686,6 @@ Nate_Freng:
   email: nate.freng@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
   description: Nate lives in Fargo, ND with his wife (Chelsey) and their four kids (Avery, Auden, Alder, and Addison). A great variety of jobs have led to where he is now from driving forklift, in-home healthcare, implementing insurance benefits plans to finally landing in IT where he has had an interest since he was young. Originally graduation college with a B.S. in Human Development and Family Science, Nate has been working almost the past 10 years doing IT work for organizations of various sizes ranging from 100 to 1000 users. Outside of work he spends most of his time  doing things with his family or working on home DIY projects. When left up to his own devices he enjoys podcasts, reading, video games, and all things fitness. Also food, cannot forget food!
-
-oleg_gromov:
-  name: Oleg Gromov
-  pronunciation: '[How to pronounce Oleg](https://www.howtopronounce.com/oleg/5010972)'
-  email: oleg.gromov@sourcegraph.com
-  links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
-  github: oleggromov
-  role: Software Engineer
-  reports_to: engineering_manager_frontend_platform
-  location: Rostov-on-Don, Russia 🇷🇺
-  description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
 
 filip_haftek:
   name: Filip Haftek
@@ -1954,13 +1919,24 @@ Samantha_Ulrich:
   links: '[LinkedIn](https://www.linkedin.com/in/samantha-u-62218837/)'
   description: 'An Oregon Native, Sam loves to hike and explore her home state with her fiancé, one of their favorite things is finding hidden waterfalls. An avid reader, Sam has run her own book blog on Youtube and Instagram since 2014. She also has recently discovered a new passion in watercolor painting. Prior to Sourcegraph, Sam has spent time in the healthcare, structural engineering, and crypto fields and looks forward to bringing her experience to her role at Sourcagraph!'
 
+andrew_norrish:
+  name: Andrew Norrish
+  email: andrew.norrish@sourcegraph.com
+  github: anorrish
+  pronouns: he/him
+  role: Senior Implementation Project Manager
+  reports_to: vp_customer_engineering
+  location: Denver, CO, USA 🇺🇸
+  links: '[LinkedIn](https://www.linkedin.com/in/andrew-norrish-73a1b413a/)'
+  description: A Denver native, Andrew spent several years in the mid-west before deciding to move back to the mountains of Colorado. He enjoys doing almost any and every outdoor activity, spending much of his free time skiing, hiking, and biking. When the Colorado sun is a bit too much, he likes relaxing with a good book or movie. Prior to Sourcegraph, Andrew led healthcare software projects, delivering large-scale deployments to hospital organizations around North America.
+
 michal_vrtiak:
   name: Michal Vrtiak
   email: michal.vrtiak@sourcegraph.com
   github: vrto
   pronouns: he/him
   role: Software Engineer
-  reports_to: eng_lead
+  reports_to: engineering_manager_security
   location: Brno, South Moravia, Czech Republic 🇨🇿
   links: '[LinkedIn](https://www.linkedin.com/in/michal-vrtiak-8a4619126/)'
   description: Michal grew up in Slovakia, and currently lives together with his wife and daughter in Brno, Czech Republic. Michal loves writing clean code, brewing specialty coffee, exploring Moravian wine, following interior design trends, and enjoying craft beer. He is an urbanism nerd, and loves to learn about interesting cities and places. Prior to Sourcegraph Michal has worked at Help Scout, where he helped to lay foundations of the backend architecture, and both internal and public APIs.
@@ -2105,7 +2081,7 @@ leo_papaloizos:
   reports_to: engineering_manager_code_insights
   location: London, UK 🇬🇧
   github: leonore
-  email: leo.p@sourcegraph.com
+  email: leo.papaloizos@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/leonore-p-99bb0b170/)'
   description: 'Leo grew up in France and studied Computer Science in Glasgow, and is now based in London. Outside of work, she enjoys podcasts, collecting fun facts, playing football, and more recently, knitting.'
 
@@ -2277,7 +2253,7 @@ yoway_buorn:
   location: İstanbul, Türkiye 🇹🇷🇸
   github: yowayb
   email: yoway.buorn@sourcegraph.com
-  links: '[Linkedin](https://www.linkedin.com/in/yoway-buorn-5038b221b/)'
+  links: '[Linkedin](https://www.linkedin.com/in/%E2%9C%A8-yoway-%E2%9C%A8-buorn-%E2%9C%A8-5038b221b/)'
   description: 'Yoway is a technical Customer Engineer experienced in DevOps, security, analytics and software development.  He loves kebabs and traveling with his wife Julie and their cats Bowie and Franklin.'
 
 Nicky_Comber:
@@ -2389,16 +2365,6 @@ randell_callahan:
   location: Denver, CO, USA 🇺🇸
   description: Randell is a Colorado Native. He grew up in a small mountain town before getting a culture shock in Boulder, Colorado. Randell enjoys going for runs (when it is not snowing), playing with his daughter, and throwing the ball for his little Yorkie.
 
-brienne_mcnally:
-  name: Brie McNally
-  email: brie.mcnally@sourcegraph.com
-  github: briemcnally
-  pronouns: she/her
-  role: Product Manager
-  reports_to: eng_lead
-  location: Denver, CO, USA 🇺🇸
-  description: Brie is a nurse turned software engineer turned product manager. She has a passion for understanding complex problems and developing products that help delight customers and relieve pain points. Outside of product management you can find Brie enjoying nature with her husband and Miniature Australian Shepherd. She loves hiking, snowboarding, biking, paddle boarding and exploring new destinations, restaurants, and bars.
-
 william_bezuidenhout:
   name: William Bezuidenhout
   email: william.bezuidenhout@sourcegraph.com
@@ -2468,17 +2434,6 @@ lily_schurra:
   links: '[LinkedIn](https://www.linkedin.com/in/c-lily-schurra)'
   description: Lily is an experienced contracts attorney, having supported the sales and data acquisition teams at Dun & Bradstreet prior to joining Sourcegraph. Professionally, she is happiest when she has regular opportunities to learn new things (like coding to add herself to the Handbook - eek!). Personally, she is happiest practicing yoga or taking Peloton classes on her DIY Peloton, but nothing beats spending time with her husband, daughter, and their two cats.
 
-adham_khalifa:
-  name: Adham Khalifa
-  email: adham.khalifa@sourcegraph.com
-  github: AdhamKhalifa
-  pronouns: he/him/his
-  role: Search Product Intern
-  reports_to: engineering_manager_search
-  location: New London, Connecticut, United States 🇺🇸
-  links: '[Linkedin](https://www.linkedin.com/in/adhamkhalifa/)'
-  description: Adham lives in New London, CT. He is a student at Connecticut College graduating in 2023 with a major in computer science. He loves programming and creating cool projects to make life easier. Do not hesitate to reach out to him to discuss any cool projects!
-
 kalan_chan:
   name: Kalan Chan
   pronouns: he/him
@@ -2499,17 +2454,6 @@ quinn_hare:
   email: quinn.hare@sourcegraph.com
   github: quinnhare
   links: '[LinkedIn](https://www.linkedin.com/in/quinn-hare-54b76055/)'
-
-carl_robson:
-  name: Carl Robson
-  pronouns: he/him
-  location: London, UK, 🇬🇧
-  role: Senior People Partner
-  reports_to: director_people
-  email: carl.robson@sourcegraph.com
-  github: carl-robson
-  links: '[LinkedIn](https://www.linkedin.com/in/carlrobson/)'
-  description: 'Carl lives in South London with his husband (Augusto) and their ever-growing plant family. His love for travelling, exploring new cultures and learning new languages ensures that he never has a dull day to contend with. Prior to Sourcegraph, Carl worked for a number of Retail and SaaS organisations, helping them transform and thrive in periods of unprecedented growth or change.'
 
 miles_patton:
   name: Miles Patton
@@ -2569,12 +2513,6 @@ tom_pinckney:
   links: '[LinkedIn](https://www.linkedin.com/in/tom-pinckney)'
   description: Tom is a native Virgnian.  He came to California back in 2000 and has never left.  Tom lives in San Francisco with his wife and 7 and 12 year old boys and dog Sugar.  He has spent most of his career working in field based roles in high growth enterprise software companies.  He's responsible for the partner ecosystem at Sourcegraph.
 
-sanjeev_sekar:
-  name: Sanjeev Sekar
-  role: Engineering Manager
-  reports_to: eng_lead
-  manager_role_slug: engineering_manager_delivery
-
 gary_lee:
   name: Gary Lee
   role: Software Engineer
@@ -2607,8 +2545,8 @@ vincent_ruijter:
 
 james_cotter:
   name: James Cotter
-  role: Software Engineering Intern
-  reports_to: engineering_manager_search_core
+  role: Software Engineer
+  reports_to: cto
   location: Cork, Ireland 🇮🇪
   github: jac
   email: james.cotter@sourcegraph.com
@@ -2643,3 +2581,14 @@ sam_johns:
   github: scjohns
   links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
   description: 'A native to the hills of Upstate NY, Sam has lived in the DC metro area for most of his professional career, relocating shortly after graduating from Syracuse University with a degree in music. He loves golfing, smoking BBQ, drinking whisky, and watching sports.'
+
+will_dollman:
+  name: Will Dollman
+  email: will.dollman@sourcegraph.com
+  github: willdollman
+  pronouns: he/him
+  role: Security Engineer
+  reports_to: engineering_manager_security
+  location: Bristol, UK 🇬🇧
+  links: '[LinkedIn](https://linkedin.com/in/willdollman/)'
+  description: "Will lives in Bristol, UK with his wife, two cats (Buzz and Matilda), and too many houseplants to name 🌿. He's worked on a wide range of software projects through his career, but always comes back to security. Will loves reading, photography, video games (Nintendo for preference), cheese, and has recently taken up running - which he uses to justify the quantity of cheese that he eats."

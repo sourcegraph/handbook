@@ -161,7 +161,7 @@ people-ops@sourcegraph.com
 - Use Sourcegraph’s NDA template using one of the following options:
   - Send our [NDA form](https://powerforms.docusign.net/a07dd347-371d-4a15-b29e-580ace414b5c?env=na2&acct=9afaa898-f274-476c-a511-6317f8d11239&accountId=9afaa898-f274-476c-a511-6317f8d11239) via Docusign
     - Watch this [3-minute Powerform NDA tutorial](https://drive.google.com/file/d/1JmQ5Pfg4tp89eI0wPnB9xzBzjGj0ueRq/view?usp=sharing) to walk you through how to send out our Powerform NDA via DocuSign.
-  - Send our [pre-signed NDA](https://drive.google.com/file/d/14DTt4gRah1N-Oko8WJKFzgamCQFZ5GZ-/view?usp=sharing)
+  - Send our [pre-signed NDA](https://drive.google.com/file/d/1GQn3z-LA42KT7t6mvIRngynmxo_f2rnV/view?usp=sharing)
 
 ### Do I need another internal team to review or approve the NDA before it is signed?
 
@@ -242,18 +242,25 @@ Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3M
 
 ### Who signs the Customer contract for Sourcegraph?
 
-- Financial Controller
-  - Back-Up Signers: Director of Legal and VP Finance/Operations
+1.  Stamp: Deal Desk
+
+**Every** Customer contract requires a Deal Desk Stamp, which allows us to have better control around the contracts that are signed. You can find more information on the signature process and how to request the deal desk stamp here: [Customer Contracts Signature Process](https://docs.google.com/document/d/1ZyD-sWphRdJkzz5fo-aI2pOGv5ZnxABj4v2VWfmqIcc/edit).
+
+Good rule of thumb: When in doubt, get a Deal Desk stamp!
+
+2.  Signature: Financial Controller
+
+Back-Up Signers: Director of Legal and VP Finance/Operations
+
+Note: the above signature authority also applies to Evaluation or Proof of Concept (POC) Agreements.
 
 Changes to the above signing authorities require written approval by the CEO.
 
 ### Who sends out the Customer contract for signature?
 
-If you have DocuSign access, you do!
+If you have DocuSign access, you do! If you do not have DocuSign access, please contact #it-tech-ops team.
 
-Please have the other party sign first.
-
-If you do not have DocuSign access, please tell your Legal point of contact and they will send out the contract for you.
+You should push back when a customer requests to submit the document for signature on their end. We should be the ones initiating the signature process as it allows us to track the envelope, send reminders to signers, and it also simplifies our stamping procedure.
 
 ### Where do I save the Customer contract once it’s signed?
 
@@ -369,7 +376,7 @@ The [Vendor Request Process Handbook page](../../tech-ops/process/vendor-request
 
 ### Who signs the Vendor contract for Sourcegraph?
 
-- VP Budget Owner or VP Finance/Operations
+- VP Budget Owner
 
 Note: the above signature authority also applies to signing of Vendor DPAs, with the Director of Legal as the back-up signer. If a Vendor has requested a DPA amendment, the Director of Legal has signature authority for that amendment.
 
@@ -511,7 +518,7 @@ For temporary consultants and contractors and PEO master agreements, please refe
   - Approve: VP budget owner
 
 - **Amendments** to Sourcegraph teammate contracts
-  - Review: Senior People Partner
+  - Review: (a) Senior People Partner and (b) Legal, if amendment is not routine / outside the ordinary course of business (if unsure, check with Employment Counsel)
   - Approve: Director, People
 - **PEO Statement of work** (with PEO)
   - Review: (a) Senior People Partner and (b) Legal (if Legal review requirements in Legal Review Workflow for Vendor Contracts triggers legal review)

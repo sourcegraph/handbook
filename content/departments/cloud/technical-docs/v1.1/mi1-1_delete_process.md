@@ -55,7 +55,7 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
 1.  Setup the environment:
 
-- `export TF_VAR_opsgenie_webhook=<value from 1Password>`
+- `export TF_VAR_opsgenie_webhook=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=OPSGENIE_WEBHOOK)`
 - `export CUSTOMER=<customer>`
 
 ### Navigate to the customer's managed instance directory
@@ -104,7 +104,6 @@ git restore ../modules/terraform-managed-instance-new/infrastructure.tf # restor
 
 ```
 cd monitoring/
-sed -i 'sourcegraph-managed-$CUSTOMER/d' variables.tf # may need gsed for MacOS
 terraform apply
 ```
 
@@ -121,13 +120,11 @@ gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "da
 ## Remove the GCP Project
 
 ```
-cd gcp/projects
+cd $CUSTOMER/project
 ```
 
-Edit `terraform.tfvars` to remove the project variable corresponding to $CUSTOMER.
-
 ```
-terraform apply
+terraform destroy
 ```
 
 ### Commit the change
@@ -166,6 +163,15 @@ Wait for checks to pass, approval and then merge pull request.
 
 ```
 git push origin HEAD
+```
+
+## Remove infra monitoring
+
+In https://github.com/sourcegraph/deploy-sourcegraph-managed
+
+```sh
+cd monitoring
+terraform apply
 ```
 
 ## Remove audit monitoring from removed GCP project

@@ -61,17 +61,12 @@ Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) 
 
 ## Roadmap
 
-The Cloud team will define FY23 roadmap in upcoming weeks.
+The Cloud team roadmap in available [here](https://docs.google.com/spreadsheets/d/1H01OTNxXb2eobXLtgypJueVxqSz8Dh0IkgY9x5F8cBg/edit#gid=0).
 
-### Q2FY23 goals
+### Q3FY23 goals
 
-- Support up to 100 managed instances [without greatly increasing engineering capacity invested in maintenance](https://docs.google.com/document/d/1SvWVScwBtLdrvoVKB4tgSiqhv3MPBDjv6JbwqGnlLdg/edit#)
-  - [Migrate all managed instances to v 1.1 architecture](https://docs.google.com/document/d/1ZHOnZc6K0oLhnqbcFYyzvdqng2ZM4vhc8Ln20Q4piQ0/edit#heading=h.trqab8y0kufp)
-- Provision sourcegraph.sourcegraph.com as production grade managed instance for Sourcegraph team
-- [Support migration Sourcegraph.com customers to the Cloud](https://docs.google.com/document/d/1owIo8QA_omwnFqSfS5EKyIhd4SpMDdn7cZJrsvgjl-E/edit#heading=h.2vev9l6i9qrg)
-- Support SOC2 audit for managed instances
-- Enabling managed instances trials (limited capacity)
-- Finalize design & implementation plan of [RFC 706](https://docs.google.com/document/d/1pPS3xzv4pI5ZlliPrr1tkoOtvn-ZWxKVdYfNNHKVPHs/edit)
+- Support the initiative to [make the Cloud a preferred deployment method](https://docs.google.com/document/d/1IUFb2JkwqdLCf8B-FkiF40PyAFg50xfWnB6gQO2ViRQ/edit) from the platform and infrastructure perspective
+- [Cloud v2](https://docs.google.com/document/d/1GiOPJjuYrUahrZnENSLUCsujo2MCu2v_gw23SKNzE6E/edit#) - migrate current the Cloud (managed instances) from single-VM, Docker Compose based architecture to multi-node, GKE based architecture
 
 ## Team
 
@@ -79,7 +74,7 @@ The Cloud team will define FY23 roadmap in upcoming weeks.
 
 ## How to contact the team and ask for help
 
-- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for devops`.
+- For emergencies and incidents, alert the team using Slack command `/genie alert [message] for cloud`.
 - For internal Sourcegraph teammates, join us in [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel to ask questions or request help from our team.
 - For [special requests](#managed-instance-requests) types or requests for help that requires action for the Cloud team engineers _(exp. coding, infrastructure change etc.)_ please create a GH issue and assign a `team/cloud` label. You can also post a follow up message on the [`#cloud`](https://sourcegraph.slack.com/archives/C03JR7S7KRP) slack channel
 
@@ -107,6 +102,10 @@ Customer Engineers (CE) or Sales may request to:
   - For customers or prospects who currently have a managed instance that needs to pause their journey, but intend to come back within a couple of months.
 - **Tear down a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Cmi%2Fteardown-request&template=managed-instance-teardown.md&title=Managed+Instance+teardown+request+for+%5BCUSTOMER+NAME%5D)]
   - For customers or prospects who have elected to stop their managed instance journey entirely. They accept that they will no longer have access to the data from the instance as it will be permanently deleted.
+- **Enable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fenable-telemetry-request&template=managed-instance-enable-telemetry.md&title=Enable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+  - For customers or prospects who currently do have a managed instance and you would like to enable collection of user-level metrics.
+- **Disable telemtry on a managed instance** - [[Issue Template](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2Cmi%2Fdisable-telemetry-request&template=managed-instance-disable-telemetry.md&title=Disable+Telemetry+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D)]
+  - For customers or prospects who currently do have a managed instance and you would like to disable collection of user-level metrics.
 
 ### Workflow
 
@@ -155,6 +154,7 @@ Incidents which affect managed instances are handled according to our [incidents
 | Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [install mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mg cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
 | Login to customer MI web UI | Cloud/CE                                              | Login to customer web UI (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug                                                                 | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
 | Login to customer Grafana   | Cloud/CE                                              | Login to customer [Grafana](https://devmanaged.sourcegraph.com/-/debug/grafana/?orgId=1) (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
+| List Managed Instances      | Cloud/CE                                              | List Managed Instances, filtered by instance type (trial/production/internal) and (optionally) by responsible CE                                                                                                      | [list Managed Instances](#faq-how-do-i-list-trial,-production-or-internal-instances)                                                                                                                                                                                                |
 
 More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
@@ -164,9 +164,9 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 
 The [Cloud team GitHub Project](https://github.com/orgs/sourcegraph/projects/264/views/1) is the single source of truth.
 
-### How we use GitHub Projects (Beta)
+### [How we use GitHub Projects (Beta)](github-projects-beta.md)
 
-tbd
+### [Grooming and Estimation process](grooming-and-estimation-process.md)
 
 ### On-call
 
@@ -206,17 +206,81 @@ Are you a member of our CE & CS teams?
 
 <div style="position: relative; padding-bottom: 64.63195691202873%; height: 0;"><iframe src="https://www.loom.com/embed/158df7e4dec349ffbed534bcc5b228ff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+### FAQ: What are Cloud plans for observability - can I see data from customer instances in Honeycomb / Grafana Cloud / X?
+
+Cloud instances provisioned for customers provide the same monitoring data / tooling as all other Sourcegraph instances (Grafana/Prometheus for metrics, Jaeger for traces).
+GCP Logging is used to store / query logs written by Sourcegraph workloads, and GCP Monitoring is used for infrastructure-level metrics / uptime checks.
+
+Access to data from Cloud instances is governed by [Cloud Access Control Policy](https://docs.google.com/document/d/16tRqZDKhli4hZtfAkJG46Cj6dtqAw2s6QGw5fGM43BQ/edit?usp=sharing).
+
+Long-term, we will collaborate with [DevX team](../engineering/teams/dev-experience/index.md) (as owners of Sourcegraph observability) to support monitoring / observability solutions that are qualified for use with customer data.
+
+### FAQ: What are Cloud plans for continuous deployment - how often do we deploy code to Cloud instances?
+
+Cloud instances provisioned for customers run [released](../engineering/dev/process/releases/index.md#releases) Sourcegraph versions and are currently updated at least once a month (for minor releases), unless we need to deploy a patch release.
+
+Sourcegraph-owned instances are continuously deployed (with versions that weren't officially released), [DevX team](../engineering/teams/dev-experience/index.md) owns continuous deployment to those environments.
+
+### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
+
+Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
+Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+
+### FAQ: Does Cloud support data migrations?
+
+Cloud instances are created without any customer data (repos / code-host connections / code / user accounts / code insights etc.), and Cloud team does not support importing customer data from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
+
 ### FAQ: How to use mg cli for Managed Instances operations?
 
 ```sh
 git clone https://github.com/sourcegraph/deploy-sourcegraph-managed
 cd deploy-sourcegraph-managed
-echo "export \$MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
+echo "export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=$(pwd)" >> ~/.bashrc
 mkdir -p ~/.bin
 export GOBIN=$HOME/.bin
-echo "export \$PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+echo "export PATH=\$HOME/.bin:\$PATH" >> ~/.bashrc
+source ~/.bashrc
 make install
 mg --help
 ```
 
-> NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` will be used from specific directory.
+> NOTE: for using commands on specific customer, use `--customer XYZ` or `cd XYZ`, because customer `config.yaml` from specific directory will be used.
+
+### FAQ: How do I generate a password reset link for customer admin?
+
+> For #cloud engineers, run `mg reset-customer-password -email <>` and it will generate a 1password share link for you.
+
+The password reset link expires after 24h, so it's quite common that CE would have to generate a new link during the initial hand-off process.
+
+If access to the instance is restricted, either via VPN or CIDR whitelist, please reach out to #cloud for assistance.
+
+Otherwise, the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Employee" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
+
+**IMPORTANT**: Please do not share the password reset url directly with the customer admin over email or slack. [More context](https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1660037049746969).
+
+Open 1password, and create a new Secure Note item and paste the password reset url, then use the [1password share item feature](https://support.1password.com/share-items/) to securely share the link with customer admin. Make sure you configure the following options while sharing the item:
+
+- Link expires after: 1 day
+- Available to: `<insert customer admin email>`
+
+This ensures only the customer admin is able to gain access to the password reset url.
+
+### FAQ: I have a new feature I want to deploy to Cloud, how do I do that?
+
+Read through our [Cloud Cost Policy](cloud-cost.md)
+
+### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
+
+Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
+Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+
+### FAQ: How to list trial, production or internal instances?
+
+You can either use:
+
+- [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
+- `mg cli` via command:
+
+```
+mg info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
+```
