@@ -26,7 +26,6 @@ Note that this won’t be the top priority of product nor design until after sep
 
 Initial agreement on a primary definition of “code intelligence platform,” possible competing interpretations worth filtering research against, and specific things we will need to learn more about, as well as a framework for the research in the next step. 
 
-<<<<<<< HEAD
 ## Identify and explore specific knowledge gaps | Oct 3 – Oct 14 (2 weeks)
 
 **Actions**
