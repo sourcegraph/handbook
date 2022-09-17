@@ -10,11 +10,11 @@ Note that this won’t be the top priority of product nor design until after sep
 
 **Actions** 
 
-* Cancun workshop ([detailed process doc](https://docs.google.com/document/d/1Wb-YVUjlXNV4yqVtFjvv2-axnyk_7xan84XbwEK3StA/edit?usp=drive_open&ouid=110069214620879702746))
-* Group async workshop
-    * Initial understanding of “what is a code intelligence platform.”
-    * Identify some of the knowledge gaps.
-* Synthesis of Cancun workshop into excitement areas and research directions 
+- Cancun workshop ([detailed process doc](https://docs.google.com/document/d/1Wb-YVUjlXNV4yqVtFjvv2-axnyk_7xan84XbwEK3StA/edit?usp=drive_open&ouid=110069214620879702746))
+- Group async workshop
+  - Initial understanding of “what is a code intelligence platform.”
+  - Identify some of the knowledge gaps.
+- Synthesis of Cancun workshop into excitement areas and research directions
 
 **Roles**
 
@@ -22,10 +22,11 @@ Note that this won’t be the top priority of product nor design until after sep
 * Product: all PMs involved directly in this together with a single shared set of outputs
 * Engineering: Key engineers involved with their product partners or with the overall group
 
-**Exit with** 
+**Exit with**
 
 Initial agreement on a primary definition of “code intelligence platform,” possible competing interpretations worth filtering research against, and specific things we will need to learn more about, as well as a framework for the research in the next step. 
 
+<<<<<<< HEAD
 ## Identify and explore specific knowledge gaps | Oct 3 – Oct 14 (2 weeks)
 
 **Actions**
@@ -64,7 +65,7 @@ Research findings and insights from a variety of perspectives that prove or disp
 * Product: All PMs involved
 * Engineering: Key engineers involved in synthesis and definition.
 
-**Exit with **
+**Exit with**
 
 Specific high-level opportunities and insights, specific customer-facing value areas that a code intelligence platform provides – the definition of the "code intelligence platform".
 
@@ -113,7 +114,7 @@ A Sourcegraph-wide product strategy to realize the vision. Teams have a shared s
 * Product: All PMs will help map dependencies, and surface any holistic goals that need to be solved by a shared effort. 
 * Engineering: Key engineer involved in identifying and ordering goals to define the overall roadmap of goals and problems , with a particular focus on known technical problems or known knowns.
 
-E**xit with**
+**Exit with**
 
 Collected set of opportunities and unsolved problems that match strategy, and necessary strategy updates. Shared overall roadmap and specific team roadmaps that are specific to the problems to solve in the near term (and less specific in the later term). Also now have a rough product roadmap deck that sales can use. 
 
@@ -140,4 +141,4 @@ Collected set of opportunities and unsolved problems that match strategy, and ne
 
 **Exit with**
 
-No clear “exit,” but rather transition into overall delivery phase by continuing to carry out the iterative design/delivery process. Goals for the strategy and roadmap. 
+No clear “exit,” but rather transition into overall delivery phase by continuing to carry out the iterative design/delivery process. Goals for the strategy and roadmap.
