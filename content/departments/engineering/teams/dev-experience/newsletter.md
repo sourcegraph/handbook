@@ -105,7 +105,7 @@ The default buildkite failures Slack messages are not the most actionnable ones,
 
 **Continuous deployments are live**: every hour, S2 is updated with the latest known green commit from the `main` branch.
 
-## Insights 
+## Insights
 
 Now that [S2](https://sourcegraph.sourcegraph.com) is our default instance, all [DevX insights](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxfQ==) have been ported over there. While a few of those relate mostly to what the DevX team is doing (for example the [logging migration](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMH0=)) others insights maybe quite interesting to take a look at, such at [the insight tracking the evolution of tests in the codebase](https://sourcegraph.sourcegraph.com/insights/dashboards/ZGFzaGJvYXJkOnsiSWRUeXBlIjoiY3VzdG9tIiwiQXJnIjoxMX0=).
 
