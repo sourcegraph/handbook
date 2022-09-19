@@ -4,6 +4,10 @@
 
 The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed) and building the next generation of them. The Cloud team has no other responsibilities.
 
+## Members
+
+{{generator:product_team.cloud}}
+
 ## Mission statement
 
 Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) support 200+ customers** using **dedicated** Sourcegraph instances, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
