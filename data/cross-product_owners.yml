@@ -5,11 +5,6 @@ strategic:
   handbook_link: /departments/engineering/dev/cross-product/strategic/index.md
   owner: ryan_phillips
 
-usage:
-  title: Usage
-  handbook_link: /departments/engineering/dev/cross-product/event-data/index.md
-  owner: ryan_phillips
-
 code_intelligence_platform:
   title: Code Intelligence Platform
   handbook_link: /departments/engineering/dev/cross-product/code-intelligence-platform/index.md
