@@ -446,6 +446,7 @@ kbd {
         max-width: 100%;
         width: 100%;
         height: auto;
+        border: none;
     }
 
     iframe {
@@ -454,6 +455,14 @@ kbd {
         // This is important for <iframe>s but not for <video>s, <img>s or SVG <object>s, because <iframe>s do
         // NOT automatically scale based on their intrinsic size, while <video>, <img> and SVG <object> do.
         aspect-ratio: 16 / 9;
+
+        &[src^="https://docs.google.com/presentation/"]:not([src*="rm=minimal"])
+        {
+            // Special case for Google Slides embeds: Slides are usually in 16:9 and 844x474.75 at full page width,
+            // but there are 36px added from the presentation control bar.
+            // This prevents black bars on the sides in most scenarios.
+            aspect-ratio: 844 / calc(474.75 + 36);
+        }
     }
 
     .drop-shadow {
