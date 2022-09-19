@@ -1,4 +1,4 @@
-# Frontend Platform team
+# Growth team
 
 ## Mission and strategy
 
@@ -15,5 +15,5 @@ See [strategy](../../../../strategy-goals/strategy/growth-team/index.md)
 
 ## Contact
 
-- #growth channel, @growth-team
-- [team/frontend-platform](https://github.com/sourcegraph/sourcegraph/labels/team%2Fgrowth) label and @sourcegraph/growth team on GitHub.
+- #growth channel, `@growth-team` in Slack.
+- [team/growth](https://github.com/sourcegraph/sourcegraph/labels/team%2Fgrowth) label and `@sourcegraph/growth` team on GitHub.
