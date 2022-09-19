@@ -1687,17 +1687,6 @@ Nate_Freng:
   links: '[LinkedIn](https://www.linkedin.com/in/nathanielfreng)'
   description: Nate lives in Fargo, ND with his wife (Chelsey) and their four kids (Avery, Auden, Alder, and Addison). A great variety of jobs have led to where he is now from driving forklift, in-home healthcare, implementing insurance benefits plans to finally landing in IT where he has had an interest since he was young. Originally graduation college with a B.S. in Human Development and Family Science, Nate has been working almost the past 10 years doing IT work for organizations of various sizes ranging from 100 to 1000 users. Outside of work he spends most of his time  doing things with his family or working on home DIY projects. When left up to his own devices he enjoys podcasts, reading, video games, and all things fitness. Also food, cannot forget food!
 
-oleg_gromov:
-  name: Oleg Gromov
-  pronunciation: '[How to pronounce Oleg](https://www.howtopronounce.com/oleg/5010972)'
-  email: oleg.gromov@sourcegraph.com
-  links: '[gromov.com](https://gromov.com), [@oleggromov](https://twitter.com/oleggromov), [LinkedIn](https://www.linkedin.com/in/oleggromov/), [where is Rostov-on-Don](https://goo.gl/maps/Dv8suXbopw6zQ2fm9)'
-  github: oleggromov
-  role: Software Engineer
-  reports_to: engineering_manager_code_intelligence
-  location: Rostov-on-Don, Russia 🇷🇺
-  description: "Oleg is a software engineer who is experienced in hands-on development and people management. He dedicates his attention to front-end development, although also enjoys full-stack work from product and design to dev-ops and analytics. He is originally from Rostov-on-Don, and after living in the US, Sweden, and UK he's back to his hometown. Supposedly not for long 😅 In his free time, Oleg enjoys playing and listening to rock music, spending time with his son and wife, and playing chess with friends."
-
 filip_haftek:
   name: Filip Haftek
   pronouns: he/him
@@ -2466,17 +2455,6 @@ quinn_hare:
   github: quinnhare
   links: '[LinkedIn](https://www.linkedin.com/in/quinn-hare-54b76055/)'
 
-carl_robson:
-  name: Carl Robson
-  pronouns: he/him
-  location: London, UK, 🇬🇧
-  role: Senior People Partner
-  reports_to: director_people
-  email: carl.robson@sourcegraph.com
-  github: carl-robson
-  links: '[LinkedIn](https://www.linkedin.com/in/carlrobson/)'
-  description: 'Carl lives in South London with his husband (Augusto) and their ever-growing plant family. His love for travelling, exploring new cultures and learning new languages ensures that he never has a dull day to contend with. Prior to Sourcegraph, Carl worked for a number of Retail and SaaS organisations, helping them transform and thrive in periods of unprecedented growth or change.'
-
 miles_patton:
   name: Miles Patton
   pronouns: he/him
@@ -2603,3 +2581,14 @@ sam_johns:
   github: scjohns
   links: '[LinkedIn](https://www.linkedin.com/in/samcjohns/)'
   description: 'A native to the hills of Upstate NY, Sam has lived in the DC metro area for most of his professional career, relocating shortly after graduating from Syracuse University with a degree in music. He loves golfing, smoking BBQ, drinking whisky, and watching sports.'
+
+will_dollman:
+  name: Will Dollman
+  email: will.dollman@sourcegraph.com
+  github: willdollman
+  pronouns: he/him
+  role: Security Engineer
+  reports_to: engineering_manager_security
+  location: Bristol, UK 🇬🇧
+  links: '[LinkedIn](https://linkedin.com/in/willdollman/)'
+  description: "Will lives in Bristol, UK with his wife, two cats (Buzz and Matilda), and too many houseplants to name 🌿. He's worked on a wide range of software projects through his career, but always comes back to security. Will loves reading, photography, video games (Nintendo for preference), cheese, and has recently taken up running - which he uses to justify the quantity of cheese that he eats."

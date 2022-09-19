@@ -269,16 +269,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Oleg Gromov"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [39.72396, 47.210317]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Ólafur Páll Geirsson"
             },
             "geometry": {

@@ -107,7 +107,6 @@ Code Navigation owns the UI/UX customer facing code navigation experience predom
 
 ##### Current members
 
-- Oleg
 - Olaf
 
 ##### Primary focus

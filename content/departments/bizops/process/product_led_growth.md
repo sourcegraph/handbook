@@ -264,7 +264,7 @@ Our product engagement scoring inputs, which we view as different between cloud 
    <td>
 <ol>
 
-<li>Addition of ≥1 code host OR ≥1 repo
+<li>Addition of ≥1 code host
 
 <li>Completion of ≥1 search
 </li>

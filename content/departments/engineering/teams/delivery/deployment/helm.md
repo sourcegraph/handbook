@@ -2,7 +2,7 @@
 
 <div style="background-color:#d4ebf2">
 All documentaion on this page is written here in preparation for the GA (General Availability) support of Helm.
- 
+
 At the time of writing, this is planned for towards the end of April 2022.
 
 If you're unsure if this has occured, please ask for confimation in [#Delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) (and let us know this intro text needs updating 😉)
@@ -67,7 +67,7 @@ Monthly and patch releases are published here. This is the official repo and sho
 To access these charts, run:
 
 ```
-helm add repo sourcegraph https://helm.sourcegraph.com/release
+helm repo add sourcegraph https://helm.sourcegraph.com/release
 helm repo update
 helm search repo sourcegraph
 ```
@@ -81,7 +81,7 @@ Charts are tagged with `<chart version>-insiders-{short sha}`. This doesn't stri
 To access these charts, run:
 
 ```
-helm add repo insiders https://helm.sourcegraph.com/insiders
+helm repo add insiders https://helm.sourcegraph.com/insiders
 helm repo update
 helm search repo insiders --devel
 ```

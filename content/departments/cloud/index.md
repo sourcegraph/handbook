@@ -154,6 +154,7 @@ Incidents which affect managed instances are handled according to our [incidents
 | Access CloudSQL database    | Cloud/Security/CS                                     | Login to CloudSQL DB                                                                                                                                                                                                  | [install mg cli](#faq-how-to-use-mg-cli-for-managed-instances-operations)<br /> [access CloudSQL via mg cli](./technical-docs/operations.md#accessing-the-cloud-sql)<br /> [gcloud](https://cloud.google.com/sdk/docs/install) commands                                             |
 | Login to customer MI web UI | Cloud/CE                                              | Login to customer web UI (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug                                                                 | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
 | Login to customer Grafana   | Cloud/CE                                              | Login to customer [Grafana](https://devmanaged.sourcegraph.com/-/debug/grafana/?orgId=1) (requires enabled OIDC on customer instance or access to `1password customer instances vault`) - change URL to customer slug | login with GSuite (OIDC) or user/password from 1password (if OIDC not enabled)                                                                                                                                                                                                      |
+| List Managed Instances      | Cloud/CE                                              | List Managed Instances, filtered by instance type (trial/production/internal) and (optionally) by responsible CE                                                                                                      | [list Managed Instances](#faq-how-do-i-list-trial,-production-or-internal-instances)                                                                                                                                                                                                |
 
 More Managed Instances can be found [here](./technical-docs/operations.md#accessing-the-instance)
 
@@ -225,6 +226,10 @@ Sourcegraph-owned instances are continuously deployed (with versions that weren'
 Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
 Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
 
+### FAQ: Does Cloud support data migrations?
+
+Cloud instances are created without any customer data (repos / code-host connections / code / user accounts / code insights etc.), and Cloud team does not support importing customer data from self-managed / jointly-managed / Cloud-managed Sourcegraph instances.
+
 ### FAQ: How to use mg cli for Managed Instances operations?
 
 ```sh
@@ -247,9 +252,9 @@ mg --help
 
 The password reset link expires after 24h, so it's quite common that CE would have to generate a new link during the initial hand-off process.
 
-If the customer instance is a private instance (e.g. access is restricted to customer VPN only), please reach out to #cloud for assistance.
+If access to the instance is restricted, either via VPN or CIDR whitelist, please reach out to #cloud for assistance.
 
-For public instances, usually the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Management" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
+Otherwise, the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Employee" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
 
 **IMPORTANT**: Please do not share the password reset url directly with the customer admin over email or slack. [More context](https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1660037049746969).
 
@@ -259,3 +264,23 @@ Open 1password, and create a new Secure Note item and paste the password reset u
 - Available to: `<insert customer admin email>`
 
 This ensures only the customer admin is able to gain access to the password reset url.
+
+### FAQ: I have a new feature I want to deploy to Cloud, how do I do that?
+
+Read through our [Cloud Cost Policy](cloud-cost.md)
+
+### FAQ: What are Cloud plans for analytics - where can I see data from Cloud instances in Looker / Amplitude?
+
+Cloud instances do not expose analytics data other than [pings](https://docs.sourcegraph.com/admin/pings).
+Future work in this area is owned by [Analytics team](../bizops/index.md) and managed through the ["Improve our data collection"](../../strategy-goals/cross-functional-projects/index.md#current-cross-functional-projects) cross-functional project.
+
+### FAQ: How to list trial, production or internal instances?
+
+You can either use:
+
+- [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_info.yml) (ce email parameter is optional).
+- `mg cli` via command:
+
+```
+mg info --ce <NAME>@sourcegraph.com --instance-type [trial|production|internal] (both parameters are optional)
+```

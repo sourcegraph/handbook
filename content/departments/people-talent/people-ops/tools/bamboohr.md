@@ -136,6 +136,7 @@ Complete before start date:
 - **Change reason**: Complete
 - **Comment**: Add insight
 - **Compensation Category and Level**: Confirm with Talent if you don't know.
+- **Radford Job Code**: Listed in Assemble, confirm with People Ops if unsure.
 
 #### Job Information
 
@@ -151,15 +152,32 @@ All of the following must be complete before start date:
 
 #### Options
 
-Complete before start date:
+Options are entered only by the People Ops and Talent Teams.
+New hires should have the following completed before their start date. Number of shares must match their offer letter.
 
-- **Status**:
-  - Proposed, Not Yet Granted: before Sourcegraph's Board of Directors approves them
-  - Granted: after Sourcegraph's Board of Directors approves them
-    If you are not sure, contact the Legal team.
-- **Number of options**
-- **Vesting Date**: Same as start date
-  Leave the rest blank until they are approved by the Board.
+New grants are entered into BambooHR as follows:
+
+**Status:** Proposed, Not Yet Granted
+
+**No. of Options:** Granted options amount in number of shares
+
+**Vesting Start Date:** Date of hire or refresh letter
+
+**Grant Date:** Leave blank
+
+**Exercise Price:** Leave blank
+
+**Certificate Number:** Leave blank
+
+**Equity Notes:** Include Grant Type (see below)
+
+Always include a Grant Type in the Equity Notes in BambooHR option section.
+
+- New Hire Grant
+- Promotion
+- Equity Refresh
+
+The board approves equity grants on a quarterly basis. The People Team is responsible for updating status to "Granted," adding a Grant Date, and updating the Exercise Price field within one week of approval.
 
 #### Commission
 

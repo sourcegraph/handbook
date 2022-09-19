@@ -41,7 +41,7 @@ Find out more about the Dev Experience team's mission, vision, and strategic pla
   - [`sg` hack hour](processes.md#sg-hack-hour)
   - GCP cost and cost reduction initiatives
 
-Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.md) and our [team processes](processes.md).
+Also see [org-wide areas of ownership](../../dev/process/engineering_ownership.md/#developer-experience) and our [team processes](processes.md).
 
 ## Contact
 
