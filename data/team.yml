@@ -2490,8 +2490,14 @@ megan_standrew:
 
 alex_mathison:
   name: Alex Mathison
+  pronouns: she/her
+  location: Seattle, WA, USA 🇺🇸
   role: Senior People Partner
   reports_to: director_people
+  email: alex.mathison@sourcegraph.com
+  github: amath00
+  links: '[LinkedIn](https://www.linkedin.com/in/acmathison/)'
+  description: 'When she's not reading a book or puttering around the garden, Alex is probably exploring the West Coast on 2 wheels, by foot, or on a pair of skis. Never one to shy away from a new hobby, Alex throws bad pottery, disc golfs even though she almost always regrets it (too boring), and is learning to sail. She is very scared of snakes and sticks that look like snakes. Alex thinks Seattle is a great place to live and visit - send her a message if you're in town!'
 
 chris_concannon:
   name: Chris Concannon
