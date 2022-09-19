@@ -34,7 +34,7 @@ These are shared terms so we know where we are and are thinking about things at 
 
 Our **mission** answers: what is our long-term goal? [Done for us already]
 
-> [To make it so everyone can learn to code.](../../../../../strategy-goals/strategy/index.md#purpose)
+> [To make it so everyone can code.](../../../../../strategy-goals/strategy/index.md#purpose)
 
 Our **1-year vision** answers: what will the world look like in a year if we are on track to achieve that goal? [Mostly done already]
 
