@@ -51,17 +51,16 @@ To work best with the teams and product stakeholders also involved in this work,
 ## Strategy
 
 1. ✅ By July 30 2022, build a deep understanding of the strategic customer space current state and future needs.
-1. Prioritize and solve the most pressing future needs – currently:
-   1. 🔄 Plan and pilot customer in place for supporting strategic customers on cloud _By August 26th if not sooner_
-   1. 🔄 Updating strat account teams and processes to better align with technical needs and gaps _By August 19th if not sooner_
-   1. Building a defined achievable timeline of when we can support each tier size (see below)
-   1. Exploring and validating possible strat features:
-      1. Admin analytics features for 10k+ user instances
-      1. Innersource portal
-1. Collect active inputs from new strategic prospects and customs
+1. 🔄 By Sept 28 2022, prioritize and solve the most pressing future needs – currently:
+   1. 🔄 Document product opportunities for select strategic customers and prospects _By September 20th_
+   1. 🔄 Each triad puts together a roadmap for their team for the next 6 months (now until mid-March marketing moment) _By September 27th_
+   1. Sqs and Ryan Phillips will review teams roadmaps in EM/PM weekly syncs _During the week of Sept 26th_
+1. Teams begin iteratively executing on their roadmaps. PM are focused 25% on strategic readiness and 75% on Code Intelligence Platform
+1. On Jan 1, most teams shift to focusing on the Code Intelligence Platform while continuing to prioritize alongside
+1. In March CY2023, Sourcegraph will host the spring Starship event focused on speed, scale, and reliability. More to come on this as the date approaches.
 
 ## Resources
 
-1. [Github Roadmap](https://github.com/orgs/sourcegraph/projects/214/views/58)
+1. [Strategic Ideas list for work-to-be-done](https://docs.google.com/spreadsheets/d/1Y7qrzWkLkqvukUmiZ01Lyt4jck392jvJzaPHXOccDcg/edit?usp=sharing)
 1. [Strategic accounts list](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=1317478762)
 1. [Strategic account size tiers for support, planning, and scale testing](https://docs.google.com/spreadsheets/d/1n-KfGc8m1w09rIzNKm5tRxAYmP4-w11CVOCplMvVazk/edit#gid=1172385107&range=B6)
