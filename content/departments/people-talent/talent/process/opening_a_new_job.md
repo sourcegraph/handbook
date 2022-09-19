@@ -14,7 +14,7 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 
 The below actions must take place before we begin interviewing candidates.
 
-**Step 1**: The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=2123710308). This is required for all net new and backfill roles.
+**Step 1**: The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). This is required for all net new and backfill roles.
 
 **Step 2**: The People and Finance team will confirm whether or not the headcount request is approved.
 
