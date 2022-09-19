@@ -53,7 +53,7 @@ To work best with the teams and product stakeholders also involved in this work,
    1. Sqs and Ryan Phillips will review teams roadmaps in EM/PM weekly syncs _During the week of Sept 26th_
 1. Teams begin iteratively executing on their roadmaps. PM are focused 25% on strategic readiness and 75% on Code Intelligence Platform
 1. On Jan 1, most teams shift to focusing on the Code Intelligence Platform while continuing to prioritize alongside
-1. In March CY2023,
+1. In March CY2023, Sourcegraph will host the spring Starship event focused on speed, scale, and reliability. More to come on this as the date approaches.
 
 ## Resources
 
