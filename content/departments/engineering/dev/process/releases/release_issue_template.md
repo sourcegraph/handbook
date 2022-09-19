@@ -31,6 +31,7 @@ Perform these steps three days before the release date to generate a stable rele
   ```sh
   yarn release release:status
   ```
+- [ ] Create a `Security release approval issue` and post a message in the [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) channel tagging @security-support.
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
