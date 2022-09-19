@@ -4,6 +4,10 @@
 - Owner: Ryan Phillips
 - Owner split with other roles: 50-50 (this-other roles)
 
+## Overview
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vThxOgLUUK2EfBhYRoCPwfKcw8wiarmD7uaTtmQpB1_WL7oho1377pRT8Vv6l7avKtCdK4T1o9Qaqng/embed?start=false&loop=false&delayms=3000&slide=id.g152664597f7_0_2109" allow="fullscreen" title="Strategic Readiness slide deck"></iframe>
+
 ## Mission and ownership
 
 The strategic cross-product owner focuses on all strategic product and engineering work necessary to make strategic customers successful.
