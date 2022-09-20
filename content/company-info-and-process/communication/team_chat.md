@@ -1,4 +1,4 @@
-# How we use Slack @ Sourcegraph
+# How we use Slack at Sourcegraph
 
 ### Overview
 
@@ -213,6 +213,7 @@ All engineers should join the following channels (feel free to adjust your notif
 - #dev-frontend - Anything related to frontend development.
 - #dev-backend - Anything related to backend development.
 - #dev-ops - Discussing incidents and any other ops-related work.
+- #dev-learn - Share and discuss learning resources such as articles, books, and courses.
 - #buildkite - Notifications about Buildkite / CI failures.
 - #opsgenie - Pager notifications get sent to Slack.
 - #alerts-cloud - Alertmanager alerts and warnings for our Cloud deployment.
