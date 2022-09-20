@@ -51,5 +51,3 @@ If you have any questions please reach out to the relevant teams on their slack 
 
 For more details on how to use our Security Trust Portal as an admin and a full training video please see the following handbook page (link). 
 
-
-> Written with [StackEdit](https://stackedit.io/).
