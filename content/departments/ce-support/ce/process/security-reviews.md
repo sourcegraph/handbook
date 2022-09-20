@@ -98,4 +98,4 @@ CE Security SMEs will periodically review the data and the results of this data 
 
 ## Sharing Evidence of Attestations or Certifications
 
-Please see full instruction on how to share evidence of attestations or certification via our Security Trust Portal [here](../../../security/security-trust-center.md). 
+Please see full instruction on how to share evidence of attestations or certification via our Security Trust Portal [here](../../../security/security-trust-center.md).
