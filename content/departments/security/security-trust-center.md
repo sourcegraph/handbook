@@ -43,6 +43,6 @@ Please see below which team will be responsible for the different elements of up
 
 If you have any questions please reach out to the relevant teams on their slack channels: #ce , #security, #safebase
 
-### Account manager role - user guide
+### Safebase user guide
 
-For more details on how to use our Security Trust Portal as an account manager and a full training video please see the following [handbook page](./safebase-account-manager-user-guide.md). This role is primarily assigned to CE and Security as they support the day-to-day approvals and maintainance of the platform.
+For more details on how to operate Safebase and all of its features please see the full training video [here](./safebase-account-manager-user-guide.md). This primarily a resource for CE and Security as they support the day-to-day operation and maintainance of the platform.
