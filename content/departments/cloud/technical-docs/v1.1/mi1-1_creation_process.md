@@ -106,3 +106,12 @@ You may be trying to re-create an instance in an existing project. Simply import
 ```sh
 terraform import module.managed_instance.google_iap_brand.project_brand $(gcloud alpha iap oauth-brands list --project $PROJECT_ID --format json | jq -r '.[0].name')
 ```
+
+### Github Action creaing Managed Instance failed
+
+When Github Action creating Managed Instance failed, it can be safely rerun. If error occurs again, verify at which stage failed and:
+
+- checkout [deploy-sourcegraph-managed]https://github.com/sourcegraph/deploy-sourcegraph-managed) and switch to branch `CUSTOMER/create-instance`
+- finalise creation of Managed Instance - perform steps from [this flow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_create.yml) starting from the one which failed
+- ensure to open Pull Request as the last step and add Cloud Team as reviewer
+- prepare fix and open Pull Request
