@@ -36,18 +36,6 @@ beyang_liu:
   links: '[@beyang](https://twitter.com/beyang), [LinkedIn](https://www.linkedin.com/in/beyang-liu)'
   description: Beyang Liu is CTO and cofounder of Sourcegraph. Prior to Sourcegraph, Beyang was a software engineer at Palantir Technologies, where he developed new data analysis software on a small, customer-facing team working with Fortune 500 companies. Beyang studied Computer Science at Stanford, where he published research in probabilistic graphical models and computer vision at the Stanford AI Lab and thoroughly enjoyed his compilers course.
 
-christina_forney:
-  name: Christina Forney
-  pronouns: she/her
-  role: Product Advisor
-  reports_to: eng_lead
-  location: Woodside, CA, USA 🇺🇸
-  github: christinaforney
-  pronunciation: '[krɪsˈtiːnə ˈfɔrnɪ](http://ipa-reader.xyz/?text=kr%C9%AAs%CB%88ti%CB%90n%C9%99%20%CB%88f%C9%94rn%C9%AA&voice=Kendra)'
-  email: christina@sourcegraph.com
-  links: '[@christina4nee](https://twitter.com/christina4nee), [LinkedIn](https://www.linkedin.com/in/christinaforney)'
-  description: Christina loves riding and spending time with her two horses, Comet and Bentley. Prior to Sourcegraph, she merged her love of horses and software development by running product and engineering at an equine nutrition company. At Sourcegraph, she has returned to her roots and passion for developer productivity tools.
-
 stephen_gutekanst:
   name: Stephen Gutekanst
   role: Internal Contributor / Software Engineer

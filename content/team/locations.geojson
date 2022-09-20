@@ -109,16 +109,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Christina Forney"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.24607467651367, 37.39493120891107]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Adam Harvey"
             },
             "geometry": {
