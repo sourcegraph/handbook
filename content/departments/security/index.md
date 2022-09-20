@@ -30,7 +30,7 @@ Security questions and support requests should be raised in #security:
 
 ### Security Attestations & Questionnaires
 
-Sourcegraph's security team puts great importance on verification and attestation through industry standards when it comes to our security practices and posture. Please find all the information on attestation evidence (SOC 2, pen-tests, etc.) and our Security Trust Portal [here](./security-trust-center.md). 
+Sourcegraph's security team puts great importance on verification and attestation through industry standards when it comes to our security practices and posture. Please find all the information on attestation evidence (SOC 2, pen-tests, etc.) and our Security Trust Portal [here](./security-trust-center.md).
 
 Security questionnaires for new and existing customers should [follow the process here](../sales/process/salessecurity.md)—feel free to message us on #security too.
 
