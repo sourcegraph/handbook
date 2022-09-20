@@ -1,9 +1,9 @@
 # Cloud Trial Managed Instances
 
 Trial Managed Instances (aka PoC) are private, dedicated Sourcegraph instances provisioned and managed by Sourcegraph - [more](https://docs.sourcegraph.com/cloud).
-The purpose is to provide free of charge Managed Instances for future customers for trial period (default is 30 days).
+The purpose is to provide free of charge Managed Instances for future customers for a trial period (default is 30 days).
 
-All process are the same as for paid Managed Instances (for paying customers):
+All processes are the same as for paid Managed Instances (for paying customers):
 
 - [creation process](./technical-docs/v1.1/mi1-1_creation_process.md)
 - [upgrade process](./technical-docs/index.md#release-process)
@@ -15,20 +15,16 @@ All process are the same as for paid Managed Instances (for paying customers):
 The difference from paid Managed Instances:
 
 1. During the trial period, Sourcegraph is covering all the infrastructure and licence costs.
-1. Trial Managed Instances have GCP label `instance-type=trial`, which allows to filter them.
-1. Trial Managed Instances are monitored for trial expiration period (default 30 days). When Trial Managed Instance expires, instance requestor has to decide if:
+1. Trial Managed Instances have the GCP label `instance-type=trial`, which allows to filter them.
+1. Trial Managed Instances are monitored for trial expiration period (default 30 days). When a Trial Managed Instance expires, the instance requestor has to decide to:
 
 - [extend the trial period](#extend-trial-managed-instance)
 - [convert to paying customer](#convert-trial-to-paying-customer)
-- [teardown Trial Managed Instance](#teardown-trial-managed-instance)
+- [teardown the Trial Managed Instance](#teardown-trial-managed-instance)
 
 ## Request Trial Managed Instance
 
-[Requesting Trial Managed Instance](./index.md#managed-instance-requests) process is similar to paid one, with 2 differences:
-
-- in New Managed Instance Template instance requestor explicitly mark trial via `Is trial/PoC instance? true`
-- instance requestor adds Github label `cloud-trial` to New Managed Instance Github issue
-  When New Trial Managed Instance is requested and `cloud-trial` Github label is added. [Cloud Team](././index.md#team) is notified and will create Trial Managed Instances under [New Trial Create Request SLA](#new-trial-managed-instance-create-sla)
+The [requesting Trial Managed Instance](./index.md#managed-instance-requests) process is similar to paid one, except it's raised by opening a [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D)
 
 > NOTE: The "cloud-trial" label added to the instance creation request GH issue is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
 
@@ -42,15 +38,11 @@ The difference from paid Managed Instances:
 
 ## Trial Managed Instances sizes
 
-For trial Managed Instances we support only 3 options:
+Trial managed instances default to **small** and reasonable defaults (see issue template):
 
-| Size   | Virtual Machine | CloudSQL instance |
-| ------ | --------------- | ----------------- |
-| small  | n2-highmem-4    | db-custom-1-4096  |
-| medium | n2-highmem-8    | db-custom-2-8192  |
-| large  | n2-highmem-16   | db-custom-4-26624 |
-
-Based on data provided by instance requestor in New Managed Instance Request [Cloud Team](././index.md#team) will provision instance with size matching the requirements. When customer sign the deal with Sourcegraph, size can be customised if needed.
+| Size  | Virtual Machine | CloudSQL instance |
+| ----- | --------------- | ----------------- |
+| small | n2-highmem-4    | db-custom-1-4096  |
 
 [Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
 
@@ -62,9 +54,19 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 - [convert to paying customer](#convert-trial-to-paying-customer)
 - [teardown Trial Managed Instance](#teardown-trial-managed-instance)
 
+## End of trial
+
+After 30 days of trial, the growth team (DRI Malo Marrec) will be responsible for making sure one of the three following next step is triggered, after consultation with the account owner (if any):
+
+- extend trial managed instance
+- convert trial to paid customer
+- teardown the managed instance
+
+Picking one of those three next steps is due with 5 days after the end of the 30 day trial period. In the future, this process will be automated.
+
 ## Extend Trial Managed Instance
 
-When trial expires and should be extended (by default 30 days), instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will add `trialAdditionalDays` to customer `config.yaml` to ensure extended trial period is monitored.
+When trial expires and should be extended (by default 30 days), the instance requestor will create [Managed Instance Trial Extend](index.md#managed-instance-requests) Github issue. [Cloud Team](././index.md#team) will add `trialAdditionalDays` to customer `config.yaml` to ensure extended trial period is monitored.
 
 ## Convert trial to paying customer
 
