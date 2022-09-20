@@ -177,7 +177,7 @@ The "grooming" label is used for marking tickets to be included in the upcoming 
 
 #### Team calendar
 
-All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/u/0/r/search?who=iam-team%40sourcegraph.com&sf=true). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
+All team events and reminders should be added to the [team calendar](https://calendar.google.com/calendar/embed?src=c_n5p67no2g2tprhq3g0v7km7pv8%40group.calendar.google.com). This will allow us to keep all team events and reminders in a single place, increasing visibility for people within and outside of the team.
 
 - Please add `iam-team@sourcegraph.com` group to participants for all events you expect people to join/participate in. This will automatically block time on your peers’ calendars. Also, if they can’t join, they can decline the event providing transparency about their ability to participate.
 - For reminders, you don’t need to add participants
