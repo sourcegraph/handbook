@@ -36,18 +36,6 @@ beyang_liu:
   links: '[@beyang](https://twitter.com/beyang), [LinkedIn](https://www.linkedin.com/in/beyang-liu)'
   description: Beyang Liu is CTO and cofounder of Sourcegraph. Prior to Sourcegraph, Beyang was a software engineer at Palantir Technologies, where he developed new data analysis software on a small, customer-facing team working with Fortune 500 companies. Beyang studied Computer Science at Stanford, where he published research in probabilistic graphical models and computer vision at the Stanford AI Lab and thoroughly enjoyed his compilers course.
 
-christina_forney:
-  name: Christina Forney
-  pronouns: she/her
-  role: Product Advisor
-  reports_to: eng_lead
-  location: Woodside, CA, USA 🇺🇸
-  github: christinaforney
-  pronunciation: '[krɪsˈtiːnə ˈfɔrnɪ](http://ipa-reader.xyz/?text=kr%C9%AAs%CB%88ti%CB%90n%C9%99%20%CB%88f%C9%94rn%C9%AA&voice=Kendra)'
-  email: christina@sourcegraph.com
-  links: '[@christina4nee](https://twitter.com/christina4nee), [LinkedIn](https://www.linkedin.com/in/christinaforney)'
-  description: Christina loves riding and spending time with her two horses, Comet and Bentley. Prior to Sourcegraph, she merged her love of horses and software development by running product and engineering at an equine nutrition company. At Sourcegraph, she has returned to her roots and passion for developer productivity tools.
-
 stephen_gutekanst:
   name: Stephen Gutekanst
   role: Internal Contributor / Software Engineer
@@ -123,31 +111,6 @@ joe_chen:
   email: joe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
   description: Joe lives in his little dark room. Prior to Sourcegraph, Joe created the Gogs project, a painless self-hosted Git service. Joe graduated with a MS in Software Development from Boston University.
-
-vanesa_ortiz:
-  name: Vanesa Ortiz
-  pronouns: she/her
-  pronunciation: '/[ˈvanɛsa ɔɹˈtiz](http://ipa-reader.xyz/?text=%5B%CB%88van%C9%9Bsa%20%C9%94%C9%B9%CB%88tiz%5D&voice=Penelope)/'
-  role: Developer Community Manager
-  reports_to: cto
-  manager_role_slug: dev_community_manager
-  location: San Francisco, CA, USA 🇺🇸
-  github: vanesa
-  email: vanesa@sourcegraph.com
-  links: '[@vanesacodes](https://twitter.com/vanesacodes), [LinkedIn](https://www.linkedin.com/in/vanesaortiz/)'
-  description: Vanesa loves to travel (45 countries so far), spend time with her daughter, son and husband, sing and make jewelry. She grew up in the Dominican jungle and is really good at catching lizards. Prior to Sourcegraph, she lived in Germany and built dev tools for the infrastructure team at Lovoo. She used to be a human rights researcher for the London School of Economics before transtitioning to software engineering. Her weakness is sushi.
-
-nick_snyder:
-  name: Nick Snyder
-  pronouns: he/him
-  role: Engineering Advisor
-  reports_to: eng_lead
-  location: Belmont, CA, USA 🇺🇸
-  github: GitHub
-  email: nick@sourcegraph.com
-  links: '[Twitter](https://twitter.com/nickdsnyder), [LinkedIn](https://www.linkedin.com/in/nickdsnyder/), [manager docs](readmes/nick.md)'
-  pronunciation: '[pronounce my name 🔊](https://name-coach.com/nickdsnyder)'
-  description: Nick started writing code in CS 101 at Vanderbilt and loved it so much that he graduated 4 years later with a B.S and M.S. in Computer Science. Since then, Nick has spent most of his career as a software engineer working with a variety of technologies at companies large and small, and now enjoys building teams. Nick has a wife, a daughter, and a son, and likes to sail on the San Francisco Bay as often as his calendar permits.
 
 thorsten_ball:
   name: Thorsten Ball
@@ -256,7 +219,7 @@ dax_mcdonald:
 robert_lin:
   name: Robert Lin
   role: Software Engineer
-  reports_to: engineering_manager_developer_experience
+  reports_to: engineering_manager_cloud
   location: Burnaby, Canada 🇨🇦
   pronouns: he/him
   github: bobheadxi
@@ -1405,17 +1368,6 @@ ben_venker:
   email: ben.venker@sourcegraph.com
   description: Ben socially engineered his way into his first product role and has been hooked ever since. He currently lives in St. Louis, MO, but has lived all over the country at various times. He enjoys hacking on personal dev projects, playing guitar, and getting completely engrossed in new, random pursuits.
 
-win_yu:
-  name: Win Yu
-  pronouns: he/his
-  role: Technical Talent Sourcer
-  location: Yangon, Burma
-  reports_to: director_technical_recruiting
-  github: wysg
-  email: win.yu@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/winyuglobal/)'
-  description: After graduating from Middlebury College with a B.A . in Economics and a minor in South Asian studies, he worked at a few companies and also co-founded two schools in Burma. When not working, he loves spending time with family and friends, traveling, and swimming. He also loves keeping up with healthy meals.
-
 kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
@@ -2490,8 +2442,14 @@ megan_standrew:
 
 alex_mathison:
   name: Alex Mathison
+  pronouns: she/her
+  location: Seattle, WA, USA 🇺🇸
   role: Senior People Partner
   reports_to: director_people
+  email: alex.mathison@sourcegraph.com
+  github: amath00
+  links: '[LinkedIn](https://www.linkedin.com/in/acmathison/)'
+  description: "When she's not reading a book or puttering around the garden, Alex is probably exploring the West Coast on 2 wheels, by foot, or on a pair of skis. Never one to shy away from a new hobby, Alex throws bad pottery, disc golfs even though she almost always regrets it (too boring), and is learning to sail. She is very scared of snakes and sticks that look like snakes. Alex thinks Seattle is a great place to live and visit - send her a message if you're in town!"
 
 chris_concannon:
   name: Chris Concannon
