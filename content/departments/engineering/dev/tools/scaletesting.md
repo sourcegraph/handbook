@@ -31,7 +31,7 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 3. Be familiar with our Infrastructure code.
 4. Join [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) and announce yourself.
 5. Adjust the infrastructure to the customer tier you're targeting.
-   1. Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
+   1. Open a PR against [the Terraform definitions](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) for that cluster. In particular the nodes count, which is often set to the lowest value to avoid consuming resouces when not using the instance.
    2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
 6. Make sure to deploy the right commit you want to test on that intance.
    1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use. This will create a pull request that you can merge.
