@@ -38,7 +38,7 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
    2. NOTE: pin-tag input field accepts both semver format `$MAJOR.$MINOR.$PATCH` as well as sourcegraph tag format `[build_number]_[date]_[short git SHA1]`
    3. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
 7. Populate the code hosts with your test data.
-   1. `TODO` 
+   1. `TODO`
 8. Perform actions to test that deployment, from the perpective of your business domain.
 9. Announce on the channel that you're finished with your test.
 10. Share your experience and results on that channel to help others to understand how we can improve the scale testing process.
