@@ -52,7 +52,7 @@ Top feedback patterns we're hearing from customers and prospects across the boar
 
 <!-- ### Analyst landscape
 
-- If you are not currently involved with analyst discussions for your product area, you can reach out to Christina for context here and to stay in the loop in the future.
+- If you are not currently involved with analyst discussions for your product area, you can reach out to Steve Fisher for context here and to stay in the loop in the future.
 - Are there analysts tracking this product area?
 - How are analysts positioning the product? What are areas of improvement? -->
 
