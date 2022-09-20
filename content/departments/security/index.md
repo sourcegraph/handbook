@@ -6,8 +6,12 @@
 
 We think that security is an enabler for the business. Sourcegraph is committed to proactive security, and addressing vulnerabilities in a timely manner. We approach security with a can-do philosophy, and look to achieve product goals while maintaining a positive posture, and improving our security stance over time.
 
-- [report a vulnerability](reporting-vulnerabilities.md)
-- [report an incident](./security-incident-response.md#reporting)
+- [Report a vulnerability](reporting-vulnerabilities.md)
+- [Report an incident](./security-incident-response.md#reporting)
+
+Please visit our Security Trust Portal for all of Sourcegraph's latest information on the security, reliability, privacy, and compliance of our product.
+
+- [Security Trust Portal](https://security.sourcegraph.com)
 
 ## Members
 
@@ -24,7 +28,9 @@ Security questions and support requests should be raised in #security:
 3. Fill out the questions
 4. Tag @security-support in the resulting thread if urgent
 
-### Security Questionnaires
+### Security Attestations & Questionnaires
+
+Sourcegraph's security team puts great importance on verification and attestation through industry standards when it comes to our security practices and posture. Please find all the information on attestation evidence (SOC 2, pen-tests, etc.) and our Security Trust Portal [here](./security-trust-center.md). 
 
 Security questionnaires for new and existing customers should [follow the process here](../sales/process/salessecurity.md)—feel free to message us on #security too.
 
