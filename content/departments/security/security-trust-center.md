@@ -20,11 +20,10 @@ Once access has been requested by the client/prospect on the portal, a notificat
 
 ## My access to the Security Trust Portal
 
-Everyone at Sourcegraph has access to our Security Trust Portal and can log in through Okta to view and access all the documents and information on the Portal as well as search the Knowledge Base (Q&A catalog). 
+Everyone at Sourcegraph has access to our Security Trust Portal and can log in through Okta to view and access all the documents and information on the Portal as well as search the Knowledge Base (Q&A catalog).
 
 You will find a Safebase tile in your Okta just like in the image below.
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/Safebase-Okta-Tile.png)
-
 
 ## Who is responsible for what
 
@@ -46,4 +45,4 @@ If you have any questions please reach out to the relevant teams on their slack 
 
 ### Account manager role - user guide
 
-For more details on how to use our Security Trust Portal as an account manager and a full training video please see the following [handbook page](./safebase-account-manager-user-guide.md). This role is primarily assigned to CE and Security as they support the day-to-day approvals and maintainance of the platform. 
+For more details on how to use our Security Trust Portal as an account manager and a full training video please see the following [handbook page](./safebase-account-manager-user-guide.md). This role is primarily assigned to CE and Security as they support the day-to-day approvals and maintainance of the platform.
