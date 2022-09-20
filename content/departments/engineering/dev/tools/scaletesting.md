@@ -33,9 +33,10 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 5. Adjust the infrastructure to the customer tier you're targeting.
    1. Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
    2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
-6. Make sure o deploy the right commit you want to test on that intance.
-   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use.This will create a pull request that you can merge.
-   2. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
+6. Make sure to deploy the right commit you want to test on that intance.
+   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use. This will create a pull request that you can merge.
+   2. NOTE: pin-tag input field accepts both semver format `$MAJOR.$MINOR.$PATCH` as well as sourcegraph tag format `[build_number]_[date]_[short git SHA1]`
+   3. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
 7. Populate the code hosts with your test data.
    1. `TODO`
 8. Perform actions to test that deployment, from the perpective of your business domain.
