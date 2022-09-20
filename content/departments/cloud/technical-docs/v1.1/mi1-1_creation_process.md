@@ -29,10 +29,12 @@ For basic operations like accessing an instance for these steps, see [managed in
 
       internal - for internal Sourcegraph usage
 
+- `domain` - optional, only if customer wishes to have different slug than customer name, in format `DOMAIN.sourcegraph.com`
+
   via command line:
 
   ```
-  gh workflow run mi_create.yml -f customer=$CUSTOMER -f ce_email=$CE_EMAIL -f customer_email=$CUSTOMER_EMAIL instance_type=[production|trial|internal]
+  gh workflow run mi_create.yml -f customer=$CUSTOMER -f ce_email=$CE_EMAIL -f customer_email=$CUSTOMER_EMAIL instance_type=[production|trial|internal] -f instance_size=[small|medium|large] --domain=$DOMAIN.sourcegraph.com
   ```
 
   or via [Github Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
