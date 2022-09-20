@@ -66,7 +66,7 @@ The IAM team works alongside several other teams at Sourcegraph. You can find mo
 
 ### Planning, execution, and issue tracking
 
-The IAM team plans work based on our [long-term roadmap](https://docs.google.com/spreadsheets/d/1fuW0S2yYaJ0vRWQGH4dcKnT5FDj_A62vFpaELsUznuU/edit#gid=0) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
+The IAM team plans work based on our [long-term roadmap](https://github.com/orgs/sourcegraph/projects/214/views/52) and setting [quarterly goals](#goals-and-roadmap). During the quarter, we follow a flavor of the SCRUM process with biweekly sprints. Our cycle starts every second Tuesday with a retrospective, sprint review, and planning meetings. We set goals for each sprint and focus team efforts during the iteration on achieving these goals rather than closing a number of issues. It’s the outcomes and delivered customer value, not the output, that matters.
 
 We are using [GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) as our project tracking tool. The [list view of backlog](https://github.com/orgs/sourcegraph/projects/259/views/10) is publicly available in our team project.
 
