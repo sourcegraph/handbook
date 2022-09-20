@@ -40,9 +40,9 @@ The [requesting Trial Managed Instance](./index.md#managed-instance-requests) pr
 
 Trial managed instances default to **small** and reasonable defaults (see issue template):
 
-| Size   | Virtual Machine | CloudSQL instance |
-| ------ | --------------- | ----------------- |
-| small  | n2-highmem-4    | db-custom-1-4096  |
+| Size  | Virtual Machine | CloudSQL instance |
+| ----- | --------------- | ----------------- |
+| small | n2-highmem-4    | db-custom-1-4096  |
 
 [Technical details](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/util/cmd/mg_create.go#L67)
 
@@ -62,7 +62,7 @@ After 30 days of trial, the growth team (DRI Malo Marrec) will be responsible fo
 - convert trial to paid customer
 - teardown the managed instance
 
-Picking one of those three next steps is due with 5 days after the end of the 30 day trial period.  In the future, this process will be automated.
+Picking one of those three next steps is due with 5 days after the end of the 30 day trial period. In the future, this process will be automated.
 
 ## Extend Trial Managed Instance
 
