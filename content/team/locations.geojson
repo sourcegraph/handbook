@@ -99,16 +99,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Nick Snyder"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.27598667144774, 37.520363396222756]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Adam Harvey"
             },
             "geometry": {

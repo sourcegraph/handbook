@@ -125,18 +125,6 @@ vanesa_ortiz:
   links: '[@vanesacodes](https://twitter.com/vanesacodes), [LinkedIn](https://www.linkedin.com/in/vanesaortiz/)'
   description: Vanesa loves to travel (45 countries so far), spend time with her daughter, son and husband, sing and make jewelry. She grew up in the Dominican jungle and is really good at catching lizards. Prior to Sourcegraph, she lived in Germany and built dev tools for the infrastructure team at Lovoo. She used to be a human rights researcher for the London School of Economics before transtitioning to software engineering. Her weakness is sushi.
 
-nick_snyder:
-  name: Nick Snyder
-  pronouns: he/him
-  role: Engineering Advisor
-  reports_to: eng_lead
-  location: Belmont, CA, USA 🇺🇸
-  github: GitHub
-  email: nick@sourcegraph.com
-  links: '[Twitter](https://twitter.com/nickdsnyder), [LinkedIn](https://www.linkedin.com/in/nickdsnyder/), [manager docs](readmes/nick.md)'
-  pronunciation: '[pronounce my name 🔊](https://name-coach.com/nickdsnyder)'
-  description: Nick started writing code in CS 101 at Vanderbilt and loved it so much that he graduated 4 years later with a B.S and M.S. in Computer Science. Since then, Nick has spent most of his career as a software engineer working with a variety of technologies at companies large and small, and now enjoys building teams. Nick has a wife, a daughter, and a son, and likes to sail on the San Francisco Bay as often as his calendar permits.
-
 thorsten_ball:
   name: Thorsten Ball
   pronouns: he/him
