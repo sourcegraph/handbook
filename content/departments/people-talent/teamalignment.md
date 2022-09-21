@@ -11,5 +11,5 @@ People Partner alignment:
 Talent Team alignment (contact the below person and they will assign you to a Recruiter):
 
 - Sales, CE, Support, Marketeing, Ops - Marija Petrovic, Director, Recruiting & People-Ops
-- Engineering - Devon Coords, Director, Technical Recruiting
+- Engineering, Product, Design - Devon Coords, Director, Technical Recruiting
 - Exec search - Carly Jones, VP, People & Talent
