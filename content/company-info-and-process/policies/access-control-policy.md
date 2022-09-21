@@ -54,7 +54,7 @@ The access rights of all users should be promptly removed upon termination of th
 
 ## User Responsibility for the Management of Secret Authentication Information
 
-Control and management of individual user passwords is the responsibility of all Sourcegraph full-time teammates, interns, and temporary contractors. Users sound protect secret authentication information in accordance with this policy.
+Control and management of individual user passwords is the responsibility of all Sourcegraph full-time teammates, interns, and temporary contractors. Users should protect secret authentication information in accordance with this policy.
 
 ## Credentials Management Policy
 
