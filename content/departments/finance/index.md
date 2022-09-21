@@ -86,8 +86,8 @@ The FY23 plan was built at a departmental level. We have 9 departments:
 
 | Department           | Department (Budget owner) |
 | -------------------- | ------------------------- |
-| R&D Engineering      | Nick Snyder               |
-| R&D Product          | Christina Forney          |
+| R&D Engineering      |                           |
+| R&D Product          | Quinn Slack               |
 | Marketing            |                           |
 | Sales                | Gregg Stone               |
 | Customer Support     |                           |
