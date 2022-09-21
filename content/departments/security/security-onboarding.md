@@ -88,7 +88,7 @@ The more familiar you are with Sourcegraph and it's components the better! Spend
 
 ### Buildkite
 
-Explore our Continious Integration (CI) platform [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers). There's no need to deepdive on the [documentation](https://buildkite.com/docs/pipelines) but understanding the basics on a high-level and familiarizing yourself with our usage is recommended.
+Explore our Continuous Integration (CI) platform [Buildkite](https://buildkite.com/sourcegraph?team=sourcegraphers). There's no need to deepdive on the [documentation](https://buildkite.com/docs/pipelines) but understanding the basics on a high-level and familiarizing yourself with our usage is recommended.
 
 ### Secret Rotation
 
