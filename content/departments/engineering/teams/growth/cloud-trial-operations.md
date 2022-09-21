@@ -20,23 +20,35 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
   - If the request is qualified **and** there's **no** instance on the domain of the requesting user's email:
     - set the lead status to `Approved trial`
     - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive
-    - :large_creen_circle: your job as a SDR is done!
+    - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](instance-provisioning-and-hand-off-workflow)
 - If there **is** already an instance on the domain of the requesting user's email
   - set the lead status to `disqualified`
   - set the lead substatus to `Domain Already in Trial`
-  - :large_creen_circle: your job as a SDR is done!
+  - 🟢 your job as a SDR is done!
   - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know about the pre-existing instance.
   - if SSO is setup on that instance, the user can log in. If not, they can't. Therefore, @malo or @Eric Brody-Moore will email the site-admin to let them know someone tried to join. (This is a quick fix until there is a "request an invite" system).
-    If the request is **not qualified**:
+- If the request is **not qualified**:
   - set the lead status to `disqualified`
   - set the lead substatus to `Does not meet trial criteria`
-  - :large_creen_circle: your job as a SDR is done!
+  - 🟢 your job as a SDR is done!
   - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know that we are experiencing high demand and can't get them an instance at the moment.
 
 This workflow is very manual. We are working hard to automate all of this to improve the user experience massively, and reduce the operational burden. Come [join us](index.md)! All this workflow is powered by salesforce, and [Zapier automation](https://zapier.com/app/zaps/folder/1368159).
 
 ### Instance provisioning and hand-off workflow
+
+@ebrodymoore and @malo will be monitoring the #cloud-trial-alerts for qualified requests. When a request is sent, they will:
+
+1. self-assign the request by replying "I'm taking it" to the alert
+1. raise a trial instance request with the cloud team (this step will be automated soon)
+1. when the instance is ready
+   1. set a license on the instance with 1,000 users, a 30-day limit, and the following tags: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`,`batch-changes`,`code-insights`,`trial`
+   2. send the admin an onboarding email with
+      1. an initial password reset link to the instance
+      2. a link to the onboarding checklist
+      3. a link to schedule time with a customer engineer (CE)
+   3. set the lead status in salesforce to `Trial Instance Handed Off`
 
 ### PQL qualification workflow
 
@@ -74,7 +86,8 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 ### Now
 
-- The onboarding email sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE.
+- The onboarding email sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE. This is an opt-in, session to answer questions on setup / config if they have them, possible demo offered.
+- When a trial user becomes a Product Qualified Lead (PQL), it is assigned to an account executive (who will engage CE). This is the usual process for any opportunity.
 
 ### Long term
 
