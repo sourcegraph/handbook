@@ -58,6 +58,11 @@ How the interview will usually go:
      - Most candidates do have thoughtful questions. If you are nervous because you aren't sure what to ask, then just ask to discuss topics that you care about, even if they aren't questions per se. I do want to see you engaging in the interview and don't want it to be 1-way.
 1. I often ask:
    - What's a big important thing you did that made a lot of money for your company or helped a lot of users/customers, that wouldn't have happened if not for you?
+   - What is your experience with Sourcegraph as a product?
+   - Why are you interested in the product?
+   - How many other people at your company are in your role?
+   - What kind of work given to people in your role would people at your company think you would be the absolute best for, out of all N people in your role? Worst?
+   - If we move forward and were to give you an offer, how would you make the decision?
 
 #### Questions about Sourcegraph
 
