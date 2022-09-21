@@ -1,0 +1,93 @@
+# Cloud trial operations
+
+From 2022-09-27, Sourcegraph Cloud will be the default way of deploying Sourcegraph. All the call to actions (CTAs) on Sourcegraph sites and posts will let users request a 30-day cloud trial. This page describes the workflow and expectations from each team to make sure those trial users get a great experience. It also describes what the role of each team will be in the longer term.
+
+## Context
+
+Cloud is the default way of deploying Souregraph, but there are some limits to delivering a cloud trial instance today.
+
+- There is a cap on the number of instances we can managed at any given time ([SLA](#TODO)). Therefore, when someone requests an instance, we have to qualify them to make sure that we have capacity and that a cloud instance is the best option to meet their needs.
+- Cloud instances take some time to provision ([SLA](#TODO)), that makes it so signing up for a cloud instance is not instance.
+- The workflow for qualifying a user that requests a trial instance, provisioning the instance, handing it off to the requesting user, and helping them onboard is very manual. This last bit will be automated in the short term (next few months).
+
+## Workflow
+
+### Qualification workflow
+
+- The workflow starts when a user requests an instance on [signup.sourcegraph.com](signup.sourcegraph.com). When that happens:
+- A new lead is created in salesforce, in the `PR - Trial - Cloud - 9.27.22` campaign, and an alert is posted in #cloud-trial-alerts
+- **A SDR** (`@Daniel Gwyn` or `@Casi Neff`) needs to qualify this request against this [qualification criteria](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.gsb6q3dp43wu) AND check if there is alredy an instance on the domain of the requesting user's email. For example, if `bob@acme-corp.com` requests an instance, we should first check if there's already a `acme-corp.sourcegraph.com`.
+  - If the request is qualified **and** there's **no** instance on the domain of the requesting user's email:
+    - set the lead status to `Approved trial`
+    - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive
+    - :large_creen_circle: your job as a SDR is done!
+    - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](instance-provisioning-and-hand-off-workflow)
+- If there **is** already an instance on the domain of the requesting user's email
+  - set the lead status to `disqualified`
+  - set the lead substatus to `Domain Already in Trial`
+  - :large_creen_circle: your job as a SDR is done!
+  - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know about the pre-existing instance.
+  - if SSO is setup on that instance, the user can log in. If not, they can't. Therefore, @malo or @Eric Brody-Moore will email the site-admin to let them know someone tried to join. (This is a quick fix until there is a "request an invite" system).
+    If the request is **not qualified**:
+  - set the lead status to `disqualified`
+  - set the lead substatus to `Does not meet trial criteria`
+  - :large_creen_circle: your job as a SDR is done!
+  - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know that we are experiencing high demand and can't get them an instance at the moment.
+
+This workflow is very manual. We are working hard to automate all of this to improve the user experience massively, and reduce the operational burden. Come [join us](index.md)! All this workflow is powered by salesforce, and [Zapier automation](https://zapier.com/app/zaps/folder/1368159).
+
+### Instance provisioning and hand-off workflow
+
+### PQL qualification workflow
+
+The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL). For now, the criteria is best judgement and the workflow is manual, but this will be clearly defined and automated in the future.
+
+When a trial becomes a PQL, the lead status will be changed to `PQL` in salesforce, which will trigger an alert in #channel-TBD, to be picked up by an Account Executive.
+
+## Expectations from stakeholders
+
+Here's how every team at Sourcegraph contributes to the trial workflow in the short term, and in the long term.
+
+## Growth marketing and SDRs
+
+#### Now
+
+- Drive qualified traffic to the signup page
+- SDRs: see the [qualification workflow](qualification-workflow)
+
+# Product growth
+
+#### Now
+
+- After a cloud instance requests is qualfiied raise instance provisioning requests to the cloud team
+- When the instance is provisioned, hand it off to the user and make sure they can get started
+- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../../departments/cloud/trial_mi.md/#cloud-trial-managed-instances) the trial
+- monitor metrics for product qualified leads (PQLs)
+- (those are just operational tasks, the product growth team is also working on its usual produc team stuff)
+
+#### Long term
+
+- Automate it all!
+- Also see our [broader strategy](../../../../strategy-goals/strategy/growth-team/index.md).
+
+## Customer Engineering (CE)
+
+### Now
+
+- The onboarding email sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE.
+
+### Long term
+
+Long term, we may create more specialised customer success roles to drive high leverage ways to help cloud trial users achieve success. This could include:
+
+- checking-in with trial users regularly
+- webinars and 1-to-many sessions
+- working with product growth to build self-serve ways to get to value, and address common issues
+
+## Customer Support (CS)
+
+Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues with SLAs TBD.
+
+## Account Executives
+
+Engage PQLs!
