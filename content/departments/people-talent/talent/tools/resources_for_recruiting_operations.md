@@ -43,20 +43,21 @@ How All Other Teammates Submit Interview Requests:
    1. The recruiter and/or hiring manager will let you know which step(s) need to be scheduled
    2. The candidate’s availability will be listed in _your_ time zone, meaning, whichever time zone you designated for yourself under your Greenhouse settings
       1. You can find the candidate’s time zone by scrolling up to the top of their profile and looking under their name. Alternative ways to find a candidate’s location are within their resume on the Details tab, or on the Linkedin tab.
-3. Click “Schedule Interview” to the right of the interview section that you need to schedule. (**Pro tip:** Open this in a new window so you can view the candidate’s availability side by side with the scheduling page.) 
-    1. This will take you to a page showing you the calendars of each potential interviewer.
-    2. The interview plan and job post will specify how many people should be in each interview section and whether or not specific people are required (if there are any discrepancies between the job post and interview plan, ask your recruiter to confirm the panel).
-        1. Remove anyone who does not need to attend the interview  
-    3. Navigate to the Interview Plan tab by clicking on the Job Title at the top of the candidate’s Greenhouse profile, then selecting Job Setup, Interview Plan, the Edit icon next to the corresponding interview stage, then scrolling to the Default Interviewers section.
+3. Click “Schedule Interview” to the right of the interview section that you need to schedule. (**Pro tip:** Open this in a new window so you can view the candidate’s availability side by side with the scheduling page.)
+
+   1. This will take you to a page showing you the calendars of each potential interviewer.
+   2. The interview plan and job post will specify how many people should be in each interview section and whether or not specific people are required (if there are any discrepancies between the job post and interview plan, ask your recruiter to confirm the panel).
+      1. Remove anyone who does not need to attend the interview
+   3. Navigate to the Interview Plan tab by clicking on the Job Title at the top of the candidate’s Greenhouse profile, then selecting Job Setup, Interview Plan, the Edit icon next to the corresponding interview stage, then scrolling to the Default Interviewers section.
 
 4. Select an available time on the calendar within Greenhouse that corresponds with the candidate’s availability.
 5. Click “Schedule and Continue”
-6. The Email template, Subject Line, and Description will auto populate. All you need to do is click “Add Video Conferencing", select “Zoom”, and mark one of the interviewers as the Zoom Host. 
-    - **Important note:** if one of the interviewers is _not_ the zoom host, they will not be able to cancel the interview recording in BrightHire should the candidate request that in real time.
+6. The Email template, Subject Line, and Description will auto populate. All you need to do is click “Add Video Conferencing", select “Zoom”, and mark one of the interviewers as the Zoom Host.
+   - **Important note:** if one of the interviewers is _not_ the zoom host, they will not be able to cancel the interview recording in BrightHire should the candidate request that in real time.
 7. Before sending any interview invitations, please double check the interviewers’ availability within Google Calendar by clicking “Open in Google Cal”.
-    1. This will open a separate tab. You can see the interview zoom link in the body of the invite, as well as the interviewers’ names listed as Guests.
-    2. Use the “Find a Time” tool to confirm all interviewers are available during the interview time 
-    3. **Important note:** the calendar shown in Greenhouse does not include interviewers’ working hours. You must open in Google Calendar to ensure that you are scheduling an interview within working hours.
+   1. This will open a separate tab. You can see the interview zoom link in the body of the invite, as well as the interviewers’ names listed as Guests.
+   2. Use the “Find a Time” tool to confirm all interviewers are available during the interview time
+   3. **Important note:** the calendar shown in Greenhouse does not include interviewers’ working hours. You must open in Google Calendar to ensure that you are scheduling an interview within working hours.
 8. Click “Save”, “Send”, and “Invite all guests”.
 
 **NOTE:** Follow the same scheduling steps for internal candidates that you would for external candidates. Send the confirmation email to the internal candidate's Sourcegraph email address so they can add the event to their calendar if they'd like.
@@ -95,10 +96,10 @@ When creating the interview plan in Greenhouse, the talent team will select 2 va
 1. Once you’ve sent out all of the interview invitations to the appropriate Sourcegraph panelists, refresh the candidate’s Greenhouse profile.
 2. Click “Send Interview Confirmation” above the candidate’s availability.
    1. If you receive a candidate’s availability outside of Greenhouse (phone, text, email, etc.), you may not see an option to “send interview confirmation email” in Greenhouse. In these cases, simply click “not requested” or “not received” next to availability and update it to “availability received”. You should then see the option to “send interview confirmation email.”
-3. The email template will auto-populate. You’ll only need to edit the following: 
-    1. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d.  
-       - We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder.
-    2. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md).
+3. The email template will auto-populate. You’ll only need to edit the following:
+   1. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d.
+      - We recommend you Cc yourself because otherwise you will not be able to find the email in your “sent” Gmail folder.
+   2. Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md).
 4. Send Email
 
 #### For IAM Technical Interviews Only
