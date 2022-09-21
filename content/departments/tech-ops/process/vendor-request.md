@@ -129,7 +129,7 @@ Our due diligence involves the following reviews:
 
 (Please note: reviews happen in parallel and hence the longest SLA is 10 business days)
 
-- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing and info on where to [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed).
+- If all required reviews have been completed and approval has been granted you can go ahead and sign the contract with the vendor. Please see [signature authority rules](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md) for rules on contract signing and info on where to [save the signed contract](https://drive.google.com/drive/u/2/folders/1hO7wFuvix3QcIDgM6OLNyjfElOUv-s0k).
 - If any issues are found during the reviews and the approvers deem the vendor to be too risky to engage with further, any existing engagement will be terminated and the vendor will be offboarded (new vendor request to be raised for ‘Offboarding’) and the new vendor will not be onboarded.
 
 ### Budget
