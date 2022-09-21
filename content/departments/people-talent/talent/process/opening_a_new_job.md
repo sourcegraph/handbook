@@ -15,7 +15,8 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 The below actions must take place before we begin interviewing candidates.
 
 **Step 1**: The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). This is required for all net new and backfill roles.
-  - If you need help completing this form or getting a status update on your headcount request, please get in touch with your [recruiting partner](../../teamalignment.md) so they can help move this through the process.
+
+- If you need help completing this form or getting a status update on your headcount request, please get in touch with your [recruiting partner](../../teamalignment.md) so they can help move this through the process.
 
 **Step 2**: The People and Finance team will confirm whether or not the headcount request is approved.
 
@@ -30,8 +31,9 @@ The below actions must take place before we begin interviewing candidates.
 ## The Recruiter's actions
 
 **Pre-Kickoff**
- - If you are awaiting confirmation on a headcount request, please request a status update through the #finance-talent-collab slack channel.
- - Make sure that the net new or backfill req is added to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). 
+
+- If you are awaiting confirmation on a headcount request, please request a status update through the #finance-talent-collab slack channel.
+- Make sure that the net new or backfill req is added to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630).
 
 **Step 1**: the Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
 
