@@ -47,7 +47,7 @@ Once they submit their request the following message will pop up in the #safebas
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/Safebase-access-request-slack.png)
 
-Once the "Approve" button has been click you can add additional information to the account and prompt a NDA workflow through DocuSign (correct NDA template is already configure) for those customers that do not already have a NDA signed with us or choose " Signed outside of Safebase" if an NDA already exists.
+Once the "Approve" button has been clicked you can add additional information to the account and prompt a NDA workflow through DocuSign (correct NDA template is already configured) for those customers that do not already have an NDA signed with us or choose " Signed outside of Safebase" if an NDA already exists.
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/safebase-access-request-slack-NDA.png)
 
@@ -58,13 +58,13 @@ https://help.safebase.io/en/articles/6173881-how-customers-gain-private-security
 
 ## Using the Knowledge Base
 
-The Knowledge Base includes information from the Security Trust Portal as well as any questionnaires that we upload. The Trust Portal information in the Knowledge Base will be automatically updated as we update the Portal information, however, the questionnaire data needs to be reviewed and updated on a regular basis ( see responsibilities section above).
+The Knowledge Base includes information from the Security Trust Portal as well as any questionnaires that we upload. The Trust Portal information in the Knowledge Base will be automatically updated as we update the Portal information, however, the questionnaire data needs to be reviewed and updated on a regular basis (see responsibilities section above).
 
-You can search the Knowledge Base tab for any key words and quickly get relevant questions and answer to your search.
+You can search the Knowledge Base tab for any keywords and quickly get relevant questions and answer to your search.
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/Safebase-knowledge-base.png)
 
-The "Import" functionality allows for bulk upload via a csv or xlsx file with new questions & answers. Answer and questions can also be edited one by one.
+The "Import" functionality allows for bulk upload via a csv or xlsx file with new questions & answers. Answers and questions can also be edited one by one.
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/safebase-knowledge-base-edit.png)
 
