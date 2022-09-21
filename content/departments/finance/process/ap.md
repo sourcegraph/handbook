@@ -1,7 +1,5 @@
 # Sourcegraph Procurement Policy
 
-The below policy relates to all expenses above $10,000—including monthly recurring expenses with vendors where the annual run rate is above $10,000.
-
 ## AP Policy
 
 ### Policy Mission Statement
