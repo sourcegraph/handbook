@@ -396,7 +396,7 @@ server_side_batch_changes:
   deployment:
     self_hosted: beta
     managed_instance: beta
-    cloud: not_implemented
+    cloud: beta
   note: Server-side batch changes on managed instances requires self-hosting [executors](#executors).
 
 code_insights:
@@ -426,7 +426,7 @@ code_insights:
   deployment:
     self_hosted: ga
     managed_instance: ga
-    cloud: not_implemented
+    cloud: ga
 
 soc_ii_type_ii:
   title: SOC II Type II
