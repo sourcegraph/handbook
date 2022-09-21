@@ -14,16 +14,16 @@ Once access has been requested by the client/prospect on the portal, a notificat
 
 - _Attestations & Certification_ - Safely share attestation evidence (SOC 2, pen-test reports, etc.) with clients and prospects; this includes a built-in NDA workflow
 
-- Source of Truth for Security questionnaires - you can find all up-to-date security and compliance questions + answers in the knowledge base in the portal (see below screenshot). Currently this is only an internally facing feature, however this will soon be made client facing as well by Safebase. This will provide a self-service to our clients that want to browse our security questions and answers themselves.
+- _Source of Truth for Security questionnaires_ - you can find all up-to-date security and compliance questions + answers in the knowledge base in the portal (see below screenshot). Currently this is only an internally facing feature, however this will soon be made client facing as well by Safebase. This will provide a self-service to our clients that want to browse our security questions and answers themselves.
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/KnowledgeBase-Safebase-Security-Trust-Portal.png)
 
 ## My access to the Security Trust Portal
 
-Everyone at Sourcegraph has access to our Security Trust Portal and can log in through Okta to view and access all the documents and information on the Portal.
+Everyone at Sourcegraph has access to our Security Trust Portal and can log in through Okta to view and access all the documents and information on the Portal as well as search the Knowledge Base (Q&A catalog).
 
 You will find a Safebase tile in your Okta just like in the image below.
-![enter image description here](https://storage.googleapis.com/sourcegraph-assets/Safebase-Okta-Tile.png)## Heading
+![enter image description here](https://storage.googleapis.com/sourcegraph-assets/Safebase-Okta-Tile.png)
 
 ## Who is responsible for what
 
@@ -43,6 +43,6 @@ Please see below which team will be responsible for the different elements of up
 
 If you have any questions please reach out to the relevant teams on their slack channels: #ce , #security, #safebase
 
-### Admin user guide
+### Safebase user guide
 
-For more details on how to use our Security Trust Portal as an admin and a full training video please see the following handbook page (link).
+For more details on how to operate Safebase and all of its features please see the full training video [here](./safebase-account-manager-user-guide.md). This primarily a resource for CE and Security as they support the day-to-day operation and maintainance of the platform.
