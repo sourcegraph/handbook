@@ -15,6 +15,7 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 The below actions must take place before we begin interviewing candidates.
 
 **Step 1**: The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). This is required for all net new and backfill roles.
+  - If you need help completing this form or getting a status update on your headcount request, please get in touch with your [recruiting partner](../../teamalignment.md) so they can help move this through the process.
 
 **Step 2**: The People and Finance team will confirm whether or not the headcount request is approved.
 
@@ -27,6 +28,10 @@ The below actions must take place before we begin interviewing candidates.
 ... _Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:_
 
 ## The Recruiter's actions
+
+**Pre-Kickoff**
+ - If you are awaiting confirmation on a headcount request, please request a status update through the #finance-talent-collab slack channel.
+ - Make sure that the net new or backfill req is added to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). 
 
 **Step 1**: the Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
 
@@ -51,7 +56,7 @@ Example topics to cover during intake meeting:
 **Step 2**: the Recruiter opens the job in Greenhouse:
 
 - Copy the "Template" job.
-- Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan]).(https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit) directly into each interview stage.
+- Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage.
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding Interview Steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 
 **Step 3**: the Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
