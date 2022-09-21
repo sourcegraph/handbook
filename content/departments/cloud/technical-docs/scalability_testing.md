@@ -12,9 +12,9 @@ This document lists steps required to verify that a Cloud instance (_target inst
 2. Make sure target instance has a SSD data disk with capacity >=1000GB
 3. Create a Code Host connection with >=100000 repos - [example for Github](https://github.com/sourcegraph/reference-architecture-test/blob/main/configs/github_config_100k_repos.json)
 4. Wait until your instance has [cloned](https://rctest.sourcegraph.com/-/debug/grafana/explore?orgId=1&left=%5B%22now-1h%22,%22now%22,%22Prometheus%22,%7B%22exemplar%22:true,%22expr%22:%22src_gitserver_repo_count%22,%22requestId%22:%22Q-662fcf77-5726-4d55-90cf-e523b29d1ea3-0A%22%7D%5D) and [indexed]([index_num_indexed](https://rctest.sourcegraph.com/-/debug/grafana/explore?orgId=1&left=%5B%22now-7d%22,%22now%22,%22Prometheus%22,%7B%22exemplar%22:true,%22expr%22:%22index_num_indexed%22,%22requestId%22:%22Q-bab9d4c3-db12-4ae7-b051-2be6ec528e58-0A%22%7D%5D) all repos.
-5. To generate load, create a 4 CPU VM in the same region as your target instance
+5. To generate load, create a 4 CPU VM in the same region as your target instance (to make sure cross-region network requests don't affect latency)
 6. Follow our [k6 installation guide](https://github.com/sourcegraph/k6#instructions) on the load-generator VM
-7. Take note of load generator VP external IP, and add it to Cloudflare IP Access Rules allowlist
+7. Take note of load generator VP external IP, and add it to Cloudflare IP Access Rules allowlist (to avoid 429/Captcha challenges being returned by Cloudflare)
 
 ### Running load tests
 
