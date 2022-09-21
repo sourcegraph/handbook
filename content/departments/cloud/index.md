@@ -4,6 +4,10 @@
 
 The Cloud team is the special focus team reporting directly to CEO modeled on _“if AWS were to offer ‘Managed Sourcegraph’ like they do Elasticsearch, Redis, PostgreSQL, etc., how would they do it?”_ The team is responsible for maintaining existing [managed instances](https://docs.sourcegraph.com/admin/install/managed) and building the next generation of them. The Cloud team has no other responsibilities.
 
+## Members
+
+{{generator:product_team.cloud}}
+
 ## Mission statement
 
 Build a **fully managed platform** for using Sourcegraph that can **(by EOFY23) support 200+ customers** using **dedicated** Sourcegraph instances, providing **feature compatibility** with self-hosted while **being cost-efficient for customers and Sourcegraph**.
@@ -252,9 +256,9 @@ mg --help
 
 The password reset link expires after 24h, so it's quite common that CE would have to generate a new link during the initial hand-off process.
 
-If the customer instance is a private instance (e.g. access is restricted to customer VPN only), please reach out to #cloud for assistance.
+If access to the instance is restricted, either via VPN or CIDR whitelist, please reach out to #cloud for assistance.
 
-For public instances, usually the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Management" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
+Otherwise, the CE responsible for the customer is added as site-admin, so CE can login with "Sourcegraph Employee" (Google Workspace) auth provider and reset customer admin password. Otherwise, please reach out to #cloud for assistance.
 
 **IMPORTANT**: Please do not share the password reset url directly with the customer admin over email or slack. [More context](https://sourcegraph.slack.com/archives/C03JR7S7KRP/p1660037049746969).
 

@@ -430,20 +430,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
           <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
         </div>
       </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#win-yu" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202021-12-02%20at%204.52.42%20PM.png"
-                alt="Picture of Win Yu" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Win Yu</div>
-          <div style="text-align: center; font-size: 12px;">Technical Talent Sourcer</div>
-        </div>
-      </div>
-    </div>
     <div class="row" style="display:flex;">
       <div class="col" style="flex: 1;">
         <div>
@@ -555,19 +541,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
             </a>
           </div>
           <div style="text-align: center;">Sarah Um</div>
-          <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
-        </div>
-      </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#carl-robson" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleOps-Avatar/carlAvatar.png"
-                alt="Picture of Carl Robson" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Carl Robson</div>
           <div style="text-align: center; font-size: 12px;">Senior People Partner</div>
         </div>
       </div>
