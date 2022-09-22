@@ -38,7 +38,7 @@
 - Preparation:
 
   - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
-  - Recruiter will download the offer summary as a Word Doc, and convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
+  - Recruiter will download the offer summary as a Word Doc and then will convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review. -**Important note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
   - Recruiter will check previously discussed start date and make sure it still falls on a Cohort start date. If it does not, before the end of the call the recruiter must be sure to determine a potential alternative start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops)
   - Recruiting and Hiring Manager calibrate prior to offer call so they are aligned on how best to approach the call.
   - Recruiter and Hiring Manager should pick 3-4 of their favorite quotes about the candidate from scorecards submitted by interviewers during the process to reiterate excitement of the potential of them joining the team.
@@ -77,12 +77,17 @@
 
   **For Recruiters**: To see an actual offer summary call script, click [HERE](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing).
 
-**Step 6**: following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
+**Step 6**: Following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
 
-**Step 7**: once the candidate verbally accepts the offer, the Recruiter follows the below steps:
+**Step 7**: Once the candidate verbally accepts the offer, the Recruiter follows the below steps:
 
 - If US-based candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
-- If a Contractor candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
+
+  1. In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
+  2. You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
+  3. Click on _Offer Request_ and fill out the form.
+  4. Click 'Submit' once you're done.
+
 - If onboarding via a PEO, make a formal request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
 
 Hi team - we have a candidate based in `location` that we would like to onboard via Remote. Can we please initiate the process?
@@ -100,7 +105,7 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
 - Start date:
 - Hiring Manager (full name):
 
-**Step 8**: the candidate receives the offer.
+**Step 8**: The offer letter is officially [generated](../tools/resources_for_recruiting_operations.md#how-to-generate-an-offer-letter) and the candidate receives the offer.
 
 - For US-based offers, the Recruiting Operations Specialist will send the `US-offer template` via DocuSign.
 - For non-US based offers (Contractors), the Recruiting Operations Specialist will confirm the correct template and will send via DocuSign.
@@ -109,23 +114,27 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
 
 ### Offer Process for PEO/EOR contracts
 
-1. Confirm if the Country is Eligible for PEO through Remote.com - https://support.remote.com/hc/en-us/articles/4411262104589
-2. If a country does not have an SLA, notify People Ops and Legal to begin the SLA process if at the final or offer stage with a candidate.
-   - Current SLA in UK, Australia, Netherlands, Germany, Ireland
-3. Talent notifies People Ops of verbal acceptance and provides contract info
-4. People Ops enters information to Remote platform and invites candidate to onboard to Remote (~ 1 day)
-5. Candidate creates Remote profile and completes required fields (~1-2 days)
-6. Remote reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
-7. People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
-8. Candidate reviews and signs Employment Agreement (~1-2 days)
-9. People Ops forwards confirmation for signed employment agreement to Talent
-10. Follow PEO Onboarding Process
+Our **Default position** is to hire new teammates as contractors, as opposed to hiring via PEO.
+
+- The exception is the UK. For new hires in the UK, we will hire these teammates via PEO
+- If a new teammate requests to be hired via a PEO, and that teammate is _not_ based in the UK, then the finance team will review this request.
+
+  - **Step 1:** The talent team should set the expectation with the candidate (non US based candidates) that Sourcegraph wishes to engage that candidate as a contractor. This should be completed as early as possible in the hiring process.
+
+  - **Step 2:** If a candidate informs the talent team that they wish to be hired via a PEO, then the talent team should request approval from the Finance. This should be communicated at the #finance-talent-collab channel
+
+  - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries.
+  - **Step 4** Finance will aim to respond within 24 hours.
+    - Should additional approvals be required, Finance will initiate this part of the process.
+  - **Step 5:** Follow [PEO Onboarding Process](after_the_offer.md#onboarding-process-for-peo-hires)
+
+- For Talent & People teammembers: You can read more about the process [here](https://docs.google.com/presentation/d/1LIXOhvAmNjjiGV5oB0x3iRDrsjBkB0cbhSFGttCYCyo/edit?usp=sharing)
 
 ## What do to if candidate declines our offer
 
 If a candidate declines our offer, the Recruiter will follow the processes below.
 
-Note: If the candidate initially signs the offer letter and is marked as hired then revokes the offer, please follow the steps to [Action a Revoked Offer](./after_the_offer.md).
+Note: If the candidate initially signs the offer letter and is marked as hired then revokes the offer, please follow the steps to [Action a Revoked Offer](./after_the_offer.md#actioning-a-revoked-offer).
 
 **Step 1:** The Recruiter will send a Slack in the role’s private hiring channel to inform the Hiring Manager and the Interview team that the candidate has declined the offer and discuss steps.
 

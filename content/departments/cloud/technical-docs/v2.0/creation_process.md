@@ -16,16 +16,27 @@ cd deploy-sourcegraph-cloud-dev
 
 > See flow chart https://app.excalidraw.com/s/4Dr1S6qmmY7/2wUSD4kIxRo
 
+1. [Set environment variables](#Set-environment-variables)
+1. [Check out a new branch](#Check-out-a-new-branch)
+1. [Init deployment artifacts - GCP Project](#init-deployment-artifacts-gcp-project)
+1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts-k8s)
+1. [Deploy application](#deploy-application)
+1. [Commit your changes](#Commit-your-changes)
+
+### Set environment variables
+
 ```sh
 export SLUG=company
 export DOMAIN=company.sourcegraph.com
 ```
 
+### Check out a new branch
+
 ```sh
 git checkout -b $SLUG/create-instance
 ```
 
-### Init deployment artifacts
+### Init deployment artifacts - GCP Project {#init-deployment-artifacts-gcp-project}
 
 `mgv2 generate` will
 
@@ -44,6 +55,8 @@ terraform init
 terraform apply
 ```
 
+### Init deployment artifacts - Infrastructure {#init-deployment-artifacts-infra}
+
 Rerun the command to generate the infra terraform module
 
 ```sh
@@ -56,11 +69,15 @@ terraform init
 terraform apply
 ```
 
+### Init deployment artifacts - K8S {#init-deployment-artifacts-k8s}
+
 Rerun the `generate` command to generate the kustomize manifests and helm overrides
 
 ```sh
 mgv2 generate --domain $DOMAIN --slug $SLUG
 ```
+
+### Deploy application
 
 Connect to the cluster locally by running
 
@@ -78,7 +95,7 @@ cd deployments/$SLUG/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
-### Wrapping up
+### Commit your changes
 
 ```sh
 git add .
