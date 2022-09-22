@@ -29,6 +29,8 @@ The following channels/boards should be checked at least _once a day_:
 - #integrations
 - #integrations-internal
 - #integrations-ide
+- #alerts-integrations
+- #feedback-dogfood
 - Messages that tag `@integrations-team` or `@integrations-eng`
 - GitHub notifications tagging `@sourcegraph/integrations`
 - GitHub issues that tag `team/integrations`.
@@ -39,7 +41,7 @@ If you're curious, here's a work-in-progress list of [all channels that support 
 
 This process was first discussed as a suggestion to improve how we handle feedback in our team during the 2022 Barcelona team offsite.
 
-We believe this process has the following benifits:
+We believe this process has the following benefits:
 
 - Engineers have easier exposure to all areas that the team owns (everyone will eventually see BExt, VSCE, JB and other bugs). This will also help with onboarding new engineers.
 - We can rely on incoming feedback being responded to, so others have piece of mind and can focus on their work.
