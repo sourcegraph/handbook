@@ -2,13 +2,15 @@
 
 > Note: This processes is currently in trial mode, meaning we will re-evaulate the value it brings on Nov 21 (~2 months after the introduction).
 
-The [Ingrations team](./index.md) has a dedicated member on a weekly support rotation. This document outlines the responsibilities of this role and how to execute the tasks. In a nutshell, these are the responsibilities of the engineer:
+The [Integrations team](./index.md) has a dedicated member on a weekly support rotation. This document outlines the responsibilities of this role and how to execute the tasks. In a nutshell, these are the responsibilities of the engineer:
 
 - Respond and triage incoming inquiries from other teams and the support channels
 
 ## Expectations
 
 The engineer on rotation is expected to comply with these responsibilities only **_within their usual working hours_**. There is no on-call, 24x7-watch expectation on these tasks. The async nature of Sourcegraph allows us to properly support the organization without having to be in front of the computer all day.
+
+We do not expect work related to the support rotation to take up more than 10% of your time while on schedule.
 
 You are not expected to provide all answers to inquiries or review all PRs. You are expected to be the initial responder and decide whether to tackle the work right away or add it for later planning. As a general rule of thumb, any work that will take longer than half a day should become an issue in the team's [GitHub board](https://github.com/orgs/sourcegraph/projects/213/views/18). This also includes work that takes less than half a day but needs to be transitioned to another engineer.
 
