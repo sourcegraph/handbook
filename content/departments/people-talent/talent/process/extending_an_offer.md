@@ -38,7 +38,8 @@
 - Preparation:
 
   - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
-  - Recruiter will download the offer summary as a Word Doc and then will convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review. -**Important note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
+  - Recruiter will download the offer summary as a Word Doc and then will convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
+    - **Important note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
   - Recruiter will check previously discussed start date and make sure it still falls on a Cohort start date. If it does not, before the end of the call the recruiter must be sure to determine a potential alternative start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops)
   - Recruiting and Hiring Manager calibrate prior to offer call so they are aligned on how best to approach the call.
   - Recruiter and Hiring Manager should pick 3-4 of their favorite quotes about the candidate from scorecards submitted by interviewers during the process to reiterate excitement of the potential of them joining the team.
@@ -81,14 +82,14 @@
 
 **Step 7**: Once the candidate verbally accepts the offer, the Recruiter follows the below steps:
 
-- If US-based candidate: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
+- For US-Based and Non-US Based (contractor) candidates: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
 
-  1. In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
-  2. You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
-  3. Click on _Offer Request_ and fill out the form.
-  4. Click 'Submit' once you're done.
+  - **Step 1:** In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
+  - **Step 2:** You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
+  - **Step 3:** Click on _Offer Request_ and fill out the form.
+  - **Step 4:** Click 'Submit' once you're done.
 
-- If onboarding via a PEO, make a formal request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
+- For Non-US Based candidates hired via a PEO: you should have already done through the [process of having the PEO request approved](extending_an_offer.md#offer-process-for-peoeor-contracts). You will make a formal offer letter request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
 
 Hi team - we have a candidate based in `location` that we would like to onboard via Remote. Can we please initiate the process?
 
