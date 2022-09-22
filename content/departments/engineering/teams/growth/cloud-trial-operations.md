@@ -27,7 +27,7 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
   - set the lead substatus to `Domain Already in Trial`
   - 🟢 your job as a SDR is done!
   - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know about the pre-existing instance.
-  - if SSO is setup on that instance, the user can log in. If not, they can't. Therefore, @malo or @Eric Brody-Moore will email the site-admin to let them know someone tried to join. (This is a quick fix until there is a "request an invite" system).
+  - if SSO is setup on that instance, the user can log in. If not, they can't. Therefore, `@malo` or `@Eric Brody-Moore` will email the site-admin to let them know someone tried to join. (This is a quick fix until there is a "request an invite" system).
 - If the request is **not qualified**:
   - set the lead status to `disqualified`
   - set the lead substatus to `Does not meet trial criteria`
