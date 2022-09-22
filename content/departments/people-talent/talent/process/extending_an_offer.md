@@ -38,7 +38,7 @@
 - Preparation:
 
   - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
-  - Recruiter will download the offer summary as a Word Doc and then will convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review. 
+  - Recruiter will download the offer summary as a Word Doc and then will convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
     - **Important note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
   - Recruiter will check previously discussed start date and make sure it still falls on a Cohort start date. If it does not, before the end of the call the recruiter must be sure to determine a potential alternative start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops)
   - Recruiting and Hiring Manager calibrate prior to offer call so they are aligned on how best to approach the call.
