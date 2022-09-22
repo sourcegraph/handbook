@@ -103,6 +103,7 @@ Please follow these instructions:
 - [AngelList](https://angel.co/company/sourcegraph)
 - [Diversify Tech](https://www.diversifytech.co/job-board)
 - [Console](https://console.dev/profiles/sourcegraph/). We have a company profile on Console that links to our careers page.
+- [BuiltIn](https://builtin.com/company/sourcegraph). We have a company profile on BuiltIn that links to our careers page.
 
 [Click here](../internship/index.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
 
