@@ -56,7 +56,7 @@ Trial Managed Instance are [automatically checked daily](https://github.com/sour
 
 ## End of trial
 
-After 30 days of trial, the [Growth Team](../engineering/teams/growth/index.md) (DRI Malo Marrec) will be responsible for making sure one of the three following next step is triggered, after consultation with the account owner (if any):
+After 30 days of trial, the [Growth Team](../engineering/teams/growth/index.md) (DRI [Malo Marrec](https://handbook.sourcegraph.com/team/#sts=Malo%20Marrec)) will be responsible for making sure one of the three following next step is triggered, after consultation with the account owner (if any):
 
 - extend trial managed instance
 - convert trial to paid customer
@@ -78,7 +78,7 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
 ## Trial Managed Instance creation flow
 
-1. New [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D) is open by CE or [Growth Team](../engineering/teams/growth/index.md) (DRI Malo Marrec)
+1. New [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D) is open by CE or [Growth Team](../engineering/teams/growth/index.md) (DRI [Malo Marrec](https://handbook.sourcegraph.com/team/#sts=Malo%20Marrec))
 2. Based on the time of issue creation:
 
    2.1. Withing Cloud Team working hours (`Monday to Friday - 7:00 AM GMT - 10:00 PM GMT`)
