@@ -47,7 +47,7 @@ This feature mostly benefits end users of Batch Changes.
 
 ## What plan or pricing tier is this part of?
 
-This is a free feature for all the customers of the Batch Changes add-on. 
+This is a free feature for all the customers of the Batch Changes add-on.
 
 ## Why is it moving to Beta? Are there limitations?
 
@@ -70,9 +70,9 @@ Yes. You can track this [here](https://sourcegraph.looker.com/explore/sourcegrap
 
 Executors are available by defailt on single-tenant Cloud (a.k.a. managed instances).
 
-
 #### Do we have server-side pings?
 
 Yes, but not yet available in Looker:
+
 - [batch changes by execution mode](https://sourcegraph.looker.com/explore/sourcegraph_events/batch_changes_by_source?qid=gW1120gr9b6D7gF7d6bsro&toggle=fil)
 - [executor pings](https://sourcegraph.looker.com/explore/sourcegraph_events/batch_changes_executor_usage_monthly?qid=vUhZNlWNxikTdjN7ggke29&toggle=fil)
