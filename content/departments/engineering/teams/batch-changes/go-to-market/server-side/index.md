@@ -8,7 +8,7 @@
 
 ## Summary
 
-[Running batch changes server-side](https://docs.sourcegraph.com/batch_changes/explanations/server_side#limitations) is moving to beta. This feature was initially built to enable large customers to run batch changes on very large amounts of repositories. It also comes with UX improvements that will allow developers to iterate on batch changes more quickly. This feature requires installing executors, which comes with additional resource requirements and maintenance. Executors are like CI agents, that Sourcegraph uses to offload expensive tasks. [Executors](https://docs.sourcegraph.com/admin/executors) also power code intelligence [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing). Running batch changes server-side is available both for self-hosted and Sourcegraph Cloud customers. Self-hosted customers need to deploy executors as part of their Sourcegraph deployment. Sourcegraph Cloud (a.k.a. managed instance) customers have managed executors available by default (Sourcegaph hosts those as part of the cloud offering).
+[Running batch changes server-side](https://docs.sourcegraph.com/batch_changes/explanations/server_side#limitations) is moving to beta. This feature was initially built to enable large customers to run batch changes on very large amounts of repositories. It also comes with UX improvements that will allow developers to iterate on batch changes more quickly. This feature requires installing executors, which comes with additional resource requirements and maintenance. Executors are like CI agents, that Sourcegraph uses to offload expensive tasks. [Executors](https://docs.sourcegraph.com/admin/executors) also power code intelligence [auto-indexing](https://docs.sourcegraph.com/code_intelligence/explanations/auto_indexing). Running batch changes server-side is available both for self-hosted and Sourcegraph Cloud customers. Self-hosted customers need to deploy executors as part of their Sourcegraph deployment. Sourcegraph Cloud (a.k.a. managed instance) customers have managed executors available by default (Sourcegraph hosts those as part of the cloud offering).
 
 ## What is running batch changes server-side?
 
@@ -68,7 +68,7 @@ Yes. You can track this [here](https://sourcegraph.looker.com/explore/sourcegrap
 
 #### Are executors available on Cloud?
 
-Executors are available by defailt on single-tenant Cloud (a.k.a. managed instances).
+Executors are available by default on single-tenant Cloud (a.k.a. managed instances).
 
 #### Do we have server-side pings?
 
@@ -76,3 +76,32 @@ Yes, but not yet available in Looker:
 
 - [batch changes by execution mode](https://sourcegraph.looker.com/explore/sourcegraph_events/batch_changes_by_source?qid=gW1120gr9b6D7gF7d6bsro&toggle=fil)
 - [executor pings](https://sourcegraph.looker.com/explore/sourcegraph_events/batch_changes_executor_usage_monthly?qid=vUhZNlWNxikTdjN7ggke29&toggle=fil)
+
+#### Why are we moving some workloads to executors?
+
+
+#### Executors are a beta technology. What does this mean for our customers?
+
+See [experimental and beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
+
+#### Q: How do self-hosted customers deploy executors?
+
+See [deploying executors](https://docs.sourcegraph.com/admin/deploy_executors)
+
+#### How do Cloud customers use executors?
+
+Executors are provided by default to every cloud customer. What that means is thats erver-side batch changes is on by default for all cloud customers.
+
+#### Are there pricing implications for executors?
+
+- For self-hosted customers, executors are provided free of charge. Customers will have to self-host them though, which will cause infrastructure costs.
+- For cloud customers, 1 or more executors are included in their deployment by default, [depending on their ARR](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request&template=new_managed_instance.md&title=New+Managed+Instance+request%3A+%5BCUSTOMER+NAME%5D). If customers need more executors that included, this will come at an extra charge as defined in the Sourcegraph billing page.
+
+#### What are the most common complications/issues with deploying & using executors?
+
+
+#### How should issues with executors be escalated?
+
+Executors are beta, and we encounter very heterogenous customer setup, so it's exepcted that executor related questions will be escalated fast. Raise either via the normal channels, or in #wg-shipping-executors.
+
+
