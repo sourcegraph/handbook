@@ -54,7 +54,7 @@ This workflow is very manual. We are working hard to automate all of this to imp
 
 The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL). For now, the criteria is best judgement and the workflow is manual, but this will be clearly defined and automated in the future.
 
-When a trial becomes a PQL, the lead status will be changed to `PQL` in salesforce, which will trigger an alert in #channel-TBD, to be picked up by an Account Executive.
+When a trial becomes a PQL, the lead status will be changed to `PQL` in salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
 
 ## Expectations from stakeholders
 
@@ -99,7 +99,7 @@ Long term, we may create more specialised customer success roles to drive high l
 
 ## Customer Support (CS)
 
-Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues with SLAs TBD.
+Cloud trial users that ecounter issues can use our discord, or send an email to support@sourcegraph.com. The support team is expected to address those issues within normal [SLAs](../../../ce-support/support/index.md#sts=SLAs).
 
 ## Account Executives
 
