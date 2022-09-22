@@ -147,6 +147,6 @@ If a new hire decides not to join us _after being marked as Hired in Greenhouse_
 - After the candidate has been unhired, action the candidate out of the pipeline. Mark as “Withdrew” and add notes explaining why.
 - Re-open the req. in GH by searching for the req using the “Closed” job filter, then selecting “Open as Draft” and request approval.
 
-**Step 5:** If the hiring team wants to rebuild the pipeline and accept new applicants, make sure the role is posted to our [Careers Page](<[https://about.sourcegraph.com/jobs/](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us)>) and begin recruiting as normal. Do not create a new requisition number for the role that needs to be refilled.
+**Step 5:** If the hiring team wants to rebuild the pipeline and accept new applicants, make sure the role is posted to our [Careers Page] (https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us) and begin recruiting as normal. Do not create a new requisition number for the role that needs to be refilled.
 
 - If extending the offer to a different finalist instead of accepting new applications, there is no need to make the role visible on our job board. Simply connect with the candidate to confirm they’re still interested in the role and excited to potentially join Sourcegraph, and schedule any other necessary conversations with the hiring manager/team (optional). Then, create a new offer for approval. Follow [Extending an Offer](extending_an_offer.md/#extending-an-offer) steps as normal from here.
