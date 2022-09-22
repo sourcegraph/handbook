@@ -114,17 +114,19 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
 
 ### Offer Process for PEO/EOR contracts
 
-1. Confirm if the Country is Eligible for PEO through Remote.com - https://support.remote.com/hc/en-us/articles/4411262104589
-2. If a country does not have an SLA, notify People Ops and Legal to begin the SLA process if at the final or offer stage with a candidate.
-   - Current SLA in UK, Australia, Netherlands, Germany, Ireland
-3. Talent notifies People Ops of verbal acceptance and provides contract info
-4. People Ops enters information to Remote platform and invites candidate to onboard to Remote (~ 1 day)
-5. Candidate creates Remote profile and completes required fields (~1-2 days)
-6. Remote reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
-7. People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
-8. Candidate reviews and signs Employment Agreement (~1-2 days)
-9. People Ops forwards confirmation for signed employment agreement to Talent
-10. Follow PEO Onboarding Process
+Our **Default position** is to hire new teammates as contractors, as opposed to hiring via PEO. 
+  - The exception is the UK. For new hires in the UK, we will hire these teammates via PEO 
+  - If a new teammate requests to be hired via a PEO, and that teammate is *not* based in the UK, then the finance team will review this request.
+  
+     - **Step 1:** The talent team should set the expectation with the candidate (non US based candidates) that Sourcegraph wishes to engage that candidate as a contractor. This should be completed as early as possible in the hiring process. 
+
+     - **Step 2:** If a candidate informs the talent team that they wish to be hired via a PEO, then the talent team should request approval from the Finance. This should be communicated at the #finance-talent-collab channel
+
+      - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries.   - **Step 4** Finance will aim to respond within 24 hours.
+     - **Step 5:** Should additional approvals be required, Finance will initiate this part of the process. 
+     - **Step 6:** Follow [PEO Onboarding Process](after_the_offer.md#onboarding-process-for-peo-hires)
+  - For Talent & People teammembers: You can read more about the process [here](https://docs.google.com/presentation/d/1LIXOhvAmNjjiGV5oB0x3iRDrsjBkB0cbhSFGttCYCyo/edit?usp=sharing)
+
 
 ## What do to if candidate declines our offer
 
