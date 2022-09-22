@@ -18,8 +18,9 @@ cd deploy-sourcegraph-cloud-dev
 
 1. [Set environment variables](#Set-environment-variables)
 1. [Check out a new branch](#Check-out-a-new-branch)
-1. [Init deployment artifacts - GCP Project](#init-deployment-artifacts-gcp-project)
-1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts-k8s)
+1. [Init deployment artifacts - GCP Project](#init-deployment-artifacts---gcp-project)
+1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts---infrastructure)
+1. [Init deployment artifacts - K8S](#init-deployment-artifacts---k8s)
 1. [Deploy application](#deploy-application)
 1. [Commit your changes](#Commit-your-changes)
 
@@ -36,7 +37,7 @@ export DOMAIN=company.sourcegraph.com
 git checkout -b $SLUG/create-instance
 ```
 
-### Init deployment artifacts - GCP Project {#init-deployment-artifacts-gcp-project}
+### Init deployment artifacts - GCP Project
 
 `mgv2 generate` will
 
@@ -55,9 +56,9 @@ terraform init
 terraform apply
 ```
 
-### Init deployment artifacts - Infrastructure {#init-deployment-artifacts-infra}
+### Init deployment artifacts - Infrastructure
 
-Rerun the command to generate the infra terraform module
+Rerun the `generate` command to generate the infra terraform module
 
 ```sh
 mgv2 generate --domain $DOMAIN --slug $SLUG
@@ -69,7 +70,7 @@ terraform init
 terraform apply
 ```
 
-### Init deployment artifacts - K8S {#init-deployment-artifacts-k8s}
+### Init deployment artifacts - K8S
 
 Rerun the `generate` command to generate the kustomize manifests and helm overrides
 
