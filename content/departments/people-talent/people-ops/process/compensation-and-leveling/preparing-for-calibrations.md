@@ -16,7 +16,7 @@ Once all reviews have been written and submitted, we move into the Calibration p
 
 **Calibration focus areas:**
 
-- Calibration sessions center on Teammate Talent Assessment and Performance Rating alignment. Our [Career Frameworks](./../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) are foundational for evaluating both performance and values during calibration and reviews.
+- Calibration sessions center on Teammate Talent Assessment and Performance Rating alignment. Our [Career Frameworks](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) are foundational for evaluating both performance and values during calibration and reviews.
 - It's important to note that performance calibrations are part of an ongoing, continuous conversation. Alignment is a process we'll continue to work through together by encouraging open dialogue and productive disagreement.
 
 ## Manager Pre-Work
