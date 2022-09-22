@@ -6,8 +6,8 @@ From 2022-09-27, Sourcegraph Cloud will be the default way of deploying Sourcegr
 
 Cloud is the default way of deploying Souregraph, but there are some limits to delivering a cloud trial instance today.
 
-- There is a cap on the number of instances we can managed at any given time ([SLA](#TODO)). Therefore, when someone requests an instance, we have to qualify them to make sure that we have capacity and that a cloud instance is the best option to meet their needs.
-- Cloud instances take some time to provision ([SLA](#TODO)), that makes it so signing up for a cloud instance is not instance.
+- There is a cap on the number of instances we can managed at any given time ([SLA](../../../cloud/index.md#slas-for-managed-instances)). Therefore, when someone requests an instance, we have to qualify them to make sure that we have capacity and that a cloud instance is the best option to meet their needs.
+- Cloud instances take some time to provision ([SLA](../../../cloud/index.md#slas-for-managed-instances)), that makes it so signing up for a cloud instance is not instance.
 - The workflow for qualifying a user that requests a trial instance, provisioning the instance, handing it off to the requesting user, and helping them onboard is very manual. This last bit will be automated in the short term (next few months).
 
 ## Workflow
@@ -26,13 +26,13 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
   - set the lead status to `disqualified`
   - set the lead substatus to `Domain Already in Trial`
   - 🟢 your job as a SDR is done!
-  - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know about the pre-existing instance.
+  - this will send an alert in #cloud-trial-alerts and automatically send an [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) to the user to let them know about the pre-existing instance.
   - if SSO is setup on that instance, the user can log in. If not, they can't. Therefore, `@malo` or `@Eric Brody-Moore` will email the site-admin to let them know someone tried to join. (This is a quick fix until there is a "request an invite" system).
 - If the request is **not qualified**:
   - set the lead status to `disqualified`
   - set the lead substatus to `Does not meet trial criteria`
   - 🟢 your job as a SDR is done!
-  - this will send an alert in #cloud-trial-alerts and automatically send an email to the user to let them know that we are experiencing high demand and can't get them an instance at the moment.
+  - this will send an alert in #cloud-trial-alerts and automatically send an [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) to the user to let them know that we are experiencing high demand and can't get them an instance at the moment.
 
 This workflow is very manual. We are working hard to automate all of this to improve the user experience massively, and reduce the operational burden. Come [join us](index.md)! All this workflow is powered by salesforce, and [Zapier automation](https://zapier.com/app/zaps/folder/1368159).
 
@@ -44,7 +44,7 @@ This workflow is very manual. We are working hard to automate all of this to imp
 1. raise a trial instance request with the cloud team (this step will be automated soon)
 1. when the instance is ready
    1. set a license on the instance with 1,000 users, a 30-day limit, and the following tags: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`,`batch-changes`,`code-insights`,`trial`
-   2. send the admin an onboarding email with
+   2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) with
       1. an initial password reset link to the instance
       2. a link to the onboarding checklist
       3. a link to schedule time with a customer engineer (CE)
@@ -86,7 +86,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 ### Now
 
-- The onboarding email sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE. This is an opt-in, session to answer questions on setup / config if they have them, possible demo offered.
+- The onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) sent out when we hand off a trial instance to a trial user will contain a link for them to request a 30-min session with a CE. This is an opt-in, session to answer questions on setup / config if they have them, possible demo offered.
 - When a trial user becomes a Product Qualified Lead (PQL), it is assigned to an account executive (who will engage CE). This is the usual process for any opportunity.
 
 ### Long term
