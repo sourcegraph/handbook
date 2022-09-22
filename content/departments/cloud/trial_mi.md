@@ -88,10 +88,10 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
      2.2. Outside of Cloud Team working hours
 
-   - Cloud Team will receive new Trial Managed Instance request via email and on-call person should proceed to p.3
+   - Cloud Team will receive new Trial Managed Instance request via email and on-call person should proceed to p.3 withing 1 working day
 
 3. Create Trial Managed Instance
-   Trial Managed Instance should be created according to the [Managed Instance create process](https://handbook.sourcegraph.com/departments/cloud/technical-docs/v1.1/mi1-1_creation_process/).
+   Trial Managed Instance should be created according to the [Managed Instance create process](./technical-docs/v1.1/mi1-1_creation_process.md).
 
    Important:
 
@@ -101,7 +101,7 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
 4. Finalisation
 
-   When [giving customer access](https://handbook.sourcegraph.com/departments/cloud/technical-docs/v1.1/mi1-1_creation_process/#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
+   When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
 
 ## FAQ
 
