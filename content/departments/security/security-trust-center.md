@@ -1,6 +1,6 @@
 # Sourcegraph's Security Trust Portal
 
-Sourcegraph has launched its own Security Trust Portal via Safebase, which is our 'One Stop Shop' to all of Sourcegraph's latest information on the security, reliability, privacy, and compliance of our product. Our Security Trust Portal allows us to proactively gather and send our crucial security information to customers and prospects. Once created we can control who has access to it for how long and place sensitive material behind a build-in NDA workflow.
+Sourcegraph has launched its own Security Trust Portal via Safebase, which is our 'One Stop Shop' to all of Sourcegraph's latest information on the security, reliability, privacy, and compliance of our product. Our Security Trust Portal allows us to proactively gather and send our crucial security information to customers and prospects. Once created, we can control who has access to it for how long and place sensitive material behind a built-in NDA workflow.
 
 ## How to share Evidence of Attestations
 
@@ -14,7 +14,7 @@ Once access has been requested by the client/prospect on the portal, a notificat
 
 - _Attestations & Certification_ - Safely share attestation evidence (SOC 2, pen-test reports, etc.) with clients and prospects; this includes a built-in NDA workflow
 
-- _Source of Truth for Security questionnaires_ - you can find all up-to-date security and compliance questions + answers in the knowledge base in the portal (see below screenshot). Currently this is only an internally facing feature, however this will soon be made client facing as well by Safebase. This will provide a self-service to our clients that want to browse our security questions and answers themselves.
+- _Source of Truth for Security questionnaires_ - you can find all up-to-date security and compliance questions + answers in the knowledge base in the portal (see the screenshot below). Currently this is only an internally facing feature, however this will soon be made client facing as well by Safebase. This will provide a self-service to our clients that want to browse our security questions and answers themselves.
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/KnowledgeBase-Safebase-Security-Trust-Portal.png)
 
