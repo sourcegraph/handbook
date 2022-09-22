@@ -123,9 +123,10 @@ Our **Default position** is to hire new teammates as contractors, as opposed to 
 
   - **Step 2:** If a candidate informs the talent team that they wish to be hired via a PEO, then the talent team should request approval from the Finance. This should be communicated at the #finance-talent-collab channel
 
-  - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries. - **Step 4** Finance will aim to respond within 24 hours.
-  - **Step 5:** Should additional approvals be required, Finance will initiate this part of the process.
-  - **Step 6:** Follow [PEO Onboarding Process](after_the_offer.md#onboarding-process-for-peo-hires)
+  - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries.
+  - **Step 4** Finance will aim to respond within 24 hours.
+    - Should additional approvals be required, Finance will initiate this part of the process.
+  - **Step 5:** Follow [PEO Onboarding Process](after_the_offer.md#onboarding-process-for-peo-hires)
 
 - For Talent & People teammembers: You can read more about the process [here](https://docs.google.com/presentation/d/1LIXOhvAmNjjiGV5oB0x3iRDrsjBkB0cbhSFGttCYCyo/edit?usp=sharing)
 
