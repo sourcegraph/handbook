@@ -92,7 +92,7 @@ See [deploying executors](https://docs.sourcegraph.com/admin/deploy_executors)
 
 #### How do Cloud customers use executors?
 
-Executors are provided by default to every cloud customer. What that means is thats erver-side batch changes is on by default for all cloud customers.
+Executors are provided by default to every cloud customer. What that means is that server-side batch changes is on by default for all cloud customers.
 
 #### Are there pricing implications for executors?
 
