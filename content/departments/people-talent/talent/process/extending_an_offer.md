@@ -114,19 +114,20 @@ Hi team - we have a candidate based in `location` that we would like to onboard 
 
 ### Offer Process for PEO/EOR contracts
 
-Our **Default position** is to hire new teammates as contractors, as opposed to hiring via PEO. 
-  - The exception is the UK. For new hires in the UK, we will hire these teammates via PEO 
-  - If a new teammate requests to be hired via a PEO, and that teammate is *not* based in the UK, then the finance team will review this request.
-  
-     - **Step 1:** The talent team should set the expectation with the candidate (non US based candidates) that Sourcegraph wishes to engage that candidate as a contractor. This should be completed as early as possible in the hiring process. 
+Our **Default position** is to hire new teammates as contractors, as opposed to hiring via PEO.
 
-     - **Step 2:** If a candidate informs the talent team that they wish to be hired via a PEO, then the talent team should request approval from the Finance. This should be communicated at the #finance-talent-collab channel
+- The exception is the UK. For new hires in the UK, we will hire these teammates via PEO
+- If a new teammate requests to be hired via a PEO, and that teammate is _not_ based in the UK, then the finance team will review this request.
 
-      - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries.   - **Step 4** Finance will aim to respond within 24 hours.
-     - **Step 5:** Should additional approvals be required, Finance will initiate this part of the process. 
-     - **Step 6:** Follow [PEO Onboarding Process](after_the_offer.md#onboarding-process-for-peo-hires)
-  - For Talent & People teammembers: You can read more about the process [here](https://docs.google.com/presentation/d/1LIXOhvAmNjjiGV5oB0x3iRDrsjBkB0cbhSFGttCYCyo/edit?usp=sharing)
+  - **Step 1:** The talent team should set the expectation with the candidate (non US based candidates) that Sourcegraph wishes to engage that candidate as a contractor. This should be completed as early as possible in the hiring process.
 
+  - **Step 2:** If a candidate informs the talent team that they wish to be hired via a PEO, then the talent team should request approval from the Finance. This should be communicated at the #finance-talent-collab channel
+
+  - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries. - **Step 4** Finance will aim to respond within 24 hours.
+  - **Step 5:** Should additional approvals be required, Finance will initiate this part of the process.
+  - **Step 6:** Follow [PEO Onboarding Process](after_the_offer.md#onboarding-process-for-peo-hires)
+
+- For Talent & People teammembers: You can read more about the process [here](https://docs.google.com/presentation/d/1LIXOhvAmNjjiGV5oB0x3iRDrsjBkB0cbhSFGttCYCyo/edit?usp=sharing)
 
 ## What do to if candidate declines our offer
 
