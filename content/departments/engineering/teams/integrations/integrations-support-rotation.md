@@ -22,6 +22,17 @@ Finally, it's your responsibility to ensure a smooth transition to the next engi
 - Ensuring all tasks are properly documented (with GitHub issues and status updates)
 - Communicating any leftover tasks/asks/things to keep in mind for whoever is up next. This is best done the day before the rotation transitions via an async recap update posted in `#integrations-internal`.
 
+### Guidelines on priorization
+
+The [Integrations project board](https://github.com/orgs/sourcegraph/projects/213/) defines a priority column with four priorities:
+
+- 🚨 Critical
+- 🔴 High
+- 🟡 Medium
+- 🟢 Low
+
+However, there is currently no definition of how to assign these priorities so you are encouraged to go with your gut feeling and best effort.
+
 ### Channels to keep an eye on
 
 The following channels/boards should be checked at least _once a day_:
