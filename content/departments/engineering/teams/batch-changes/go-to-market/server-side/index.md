@@ -103,4 +103,4 @@ Executors are provided by default to every cloud customer. What that means is th
 
 #### How should issues with executors be escalated?
 
-Executors are beta, and we encounter very heterogenous customer setup, so it's exepcted that executor related questions will be escalated fast. Raise either via the normal channels, or in #wg-shipping-executors.
+Executors are beta, and we encounter a very heterogenous customer setup, so it's expected that executor-related questions will be escalated fast. Raise either via the normal channels, or in #wg-shipping-executors.
