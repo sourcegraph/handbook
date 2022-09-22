@@ -79,11 +79,14 @@ Yes, but not yet available in Looker:
 
 #### Why are we moving some workloads to executors?
 
+- Some workloads such as server-side runs or code-intel auto-indexing are very resource-intensive and potentially spiky. This is handled gracefully by executors as they can be autoscaled up or down.
+- Besides, batch changes run arbitrary user-provided code, so they need to be ran in isolation. Executors can provide the required [isolation](https://docs.sourcegraph.com/admin/executors#how-it-works).
+
 #### Executors are a beta technology. What does this mean for our customers?
 
 See [experimental and beta](https://docs.sourcegraph.com/admin/beta_and_experimental_features).
 
-#### Q: How do self-hosted customers deploy executors?
+#### How do self-hosted customers deploy executors?
 
 See [deploying executors](https://docs.sourcegraph.com/admin/deploy_executors)
 
@@ -98,6 +101,9 @@ Executors are provided by default to every cloud customer. What that means is th
 
 #### What are the most common complications/issues with deploying & using executors?
 
+
 #### How should issues with executors be escalated?
 
 Executors are beta, and we encounter very heterogenous customer setup, so it's exepcted that executor related questions will be escalated fast. Raise either via the normal channels, or in #wg-shipping-executors.
+
+
