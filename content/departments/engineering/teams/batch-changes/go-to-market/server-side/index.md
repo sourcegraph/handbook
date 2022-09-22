@@ -101,6 +101,10 @@ Executors are provided by default to every cloud customer. What that means is th
 
 #### What are the most common complications/issues with deploying & using executors?
 
+Executors are best run on GCP or AWS using our provided terraform modules. If a customer can't or doesn't want to use terraform and one of these Cloud providers, they need to take manual steps, outlined in the docs. These may change over the releases, so this has to be monitored and adjusted for. In the future, we will provide a more straightforward non-cloud-specific setup.
+When using firecracker KVM-level isolation (recommended for high security and the default on Sourcegraph Cloud), AWS instances need to be metal instances, as AWS doesn't support nested virtualization. On self-managed bare metal machines, KVM support needs to be available for this feature.
+Customers have completely varying requirements for infrastructure, and it's likely we don't cover all of them yet (like custom encryption, networking tweaks, etc). The provided terraform modules are designed to be as flexible as possible, but we are also happy to add more customization options if they are generalizable. Some customers chose to fork our modules to extend them for their use cases as well.
+
 #### How should issues with executors be escalated?
 
 Executors are beta, and we encounter a very heterogenous customer setup, so it's expected that executor-related questions will be escalated fast. Raise either via the normal channels, or in #wg-shipping-executors.
