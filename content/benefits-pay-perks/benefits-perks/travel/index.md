@@ -104,7 +104,7 @@ _This professional development budget includes:_
 
 **Best practice tip:** Request budget approval from your manager before booking any professional development opportunities.
 
-If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to Finance for approval PRIOR to booking.
+If any of the above meet the guidelines for usage and fall within your $1,000 allowance, you do not need approval from Finance + People Ops. If you have your eye on something that exceeds the allowance but is important to your role and/or team, please first raise the request with your manager and your manager can reach out to PeopleOps and Finance for approval PRIOR to booking.
 
 #### Obtaining Manager Approval:
 
@@ -118,7 +118,8 @@ _The applicant is responsible for collecting the information below (where applic
 > - Event Location (city, country):
 > - Duration of stay (days, nights):
 >
-> - Is quarantine required for travel? If so, for how long:
+> - Is quarantine required for 
+? If so, for how long:
 > - Registration fee:
 > - Airfare:
 > - Ground transportation:
@@ -135,7 +136,7 @@ _The applicant is responsible for collecting the information below (where applic
 3.  The manager works with the director to ensure that the budget is available
 4.  The manager confirms with the applicant if the application is approved or not
 
-For any anticipated spending over $1,000 USD, please follow the above steps and CC the travel@sourcegraph alias with a note included in the title as [Approval for Professional Development Stipend - Anticipated Spend over 1k].
+For any anticipated spending over $1,000 USD, please follow the above steps and CC the people-ops@sourcegraph alias with a note included in the title as [Approval for Professional Development Stipend - Anticipated Spend over 1k].
 
 ## Budget best practices and additional spending categories
 
