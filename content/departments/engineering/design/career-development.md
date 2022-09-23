@@ -318,7 +318,7 @@ It’s important to understand that what is listed in the level descriptions are
           <li>Design coherent systems, not just interfaces</li>
           <li>Integrate your system with our broader product</li>
           <li>Understand the technical system, work around constraints with engineers</li>
-          <li>Explore a broad range of solutions in Interconcepts and detailed designs</li>
+          <li>Explore a broad range of solutions and detailed designs</li>
           <li>Involve cross-functional partners in explorations</li>
           <li>Narrow down to the best solution using strong rationale</li>
           <li>Reflect our design principles in your designs</li>
