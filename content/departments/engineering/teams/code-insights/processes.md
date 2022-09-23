@@ -67,6 +67,8 @@ Our current process is as follows:
 
 - If one or more issues that were planned for an iteration are looking to **not get finished** (which includes testing) in the [current iteration](https://github.com/orgs/sourcegraph/projects/200/views/1) (while maintaining sustainable work practices) the assignee **raises this as soon as possible asynchronously** to the team (including the PM and EM), e.g. on the GitHub issue or Slack. These issues then **become _proposed_ issues for the next iteration** (meaning nothing carries over automatically, but we also don't just drop and forget missed issues).
 
+- When an iteration is finished, the `Current iteration`, `Next iteration` and `Next-next iteration` views should be updated in the [Code Insights project](https://github.com/orgs/sourcegraph/projects/200/views/1) and the associated milestone should be closed from the [milestones page](https://github.com/sourcegraph/sourcegraph/milestones).
+
 ## Design planning and process
 
 In addition to the above iteration planning process, we maintain a parallel design planning process as follows using our [design project board](https://github.com/orgs/sourcegraph/projects/200/views/12):
