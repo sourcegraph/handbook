@@ -28,7 +28,7 @@ The [requesting Trial Managed Instance](./index.md#managed-instance-requests) pr
 
 > NOTE: The "cloud-trial" label added to the instance creation request GH issue is required to deliver for provisioning this instance within 1h SLA during the Cloud team office hours.
 
-## New Trial Managed Instance create SLA
+## New Trial Managed Instance create SLA (since 27th of September 2022)
 
 [SLA for trial Managed Instance creation](./index.md#slas-for-managed-instances)
 
@@ -97,6 +97,9 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
 - Instance type should be trial
 - Instance size should be small
+- Customer name has to be max 10 characters (GCP project name limit - `sourcegraph-managed-SLUG` cannot execeed 30 characters). If customer SLUG has more characters:
+  - set `customer endpoint` to `SLUG.sourcegraph.com`
+  - set `customer` with SLUG trimmed to 10 characters
 - other parameters should be used from New Trial Managed Instance request.
 
 4. Finalisation
