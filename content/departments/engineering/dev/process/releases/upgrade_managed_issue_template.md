@@ -76,4 +76,5 @@ For compliance, ensure that you link the upgrade pull requests to this issue.
 - [ ] Upgrade second instance for https://github.com/sourcegraph/accounts/issues/8494
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/8506
 - [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/2104
+- [ ] Upgrade instance for https://github.com/sourcegraph/accounts/issues/6108
 - [ ] Verify all instances are upgraded: `mg --customer all info | grep 'Name\|Version'`
