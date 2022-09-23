@@ -1,6 +1,6 @@
 # Reference checks
 
-References will be requested on a case-by-case basis and the hiring manager is responsible for deciding which specific references we would like to speak to based on the candidate's work experience and interview performance. 
+References will be requested on a case-by-case basis and the hiring manager is responsible for deciding which specific references we would like to speak to based on the candidate's work experience and interview performance.
 
 Based on the candidate’s work experience, the talent team will request specific references from the candidate. Requested references will typically be a former manager(s) and/or colleague(s) and may be from the candidate’s most recent or previous companies. We will never conduct a reference call without explicit consent from the candidate.
 
