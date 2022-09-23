@@ -41,7 +41,7 @@ This workflow is very manual. We are working hard to automate all of this to imp
 `@Eric Brody-Moore ` and `@malo` will be monitoring the #cloud-trial-alerts for qualified requests. When a request is sent, they will:
 
 1. self-assign the request by replying "I'm taking it" to the alert
-2. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial.md#trial-managed-instance-creation-flow)
+2. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial_mi.md#trial-managed-instance-creation-flow)
 3. when the instance is ready
    1. set a license on the instance with 1,000 users, a 30-day limit, and the following tags: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`,`batch-changes`,`code-insights`,`trial`
    2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) with
