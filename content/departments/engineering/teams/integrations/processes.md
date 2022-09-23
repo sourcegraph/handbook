@@ -39,7 +39,7 @@ Our current process is as follows:
 
 For IDE Extensions and Browser Extensions, we release at the end of every sprint (two-weeks).
 
-For Sourcegraph Extensions & other core dependent work we follow our [monthly release schedule](../../dev/process/releases/index.md#releases). We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
+For other core dependent work we follow our [monthly release schedule](../../dev/process/releases/index.md#releases). We also intentionally plan so we can avoid merging significant work less than two days before a release (if a release is on the 20th, our last day to merge is the 18th). Exceptions require explicit approval of both the PM and EM.
 
 ## Retrospectives
 
@@ -71,10 +71,6 @@ The team follows the [default code review guidelines](https://docs.sourcegraph.c
 1. If the author would like any of the requested reviewers to merge the PR after approval they add the label `merge-on-any-approve`
 2. If the author would like their PR to be merged once all of the requested reviewers have approved it they add the label `merge-on-all-approve`
 3. When there are only minor issues, reviewers are encouraged to give "approval with comments" and trust their teammates to address the comments without requiring a follow-up review.
-
-## Extension audits
-
-We perform bi-monthly [audits](https://docs.google.com/spreadsheets/d/1HXmdHOwXhzFeQW-oiezsg0YF82HjGtUatShx3M66Gt0/edit#gid=0) of all Sourcegraph extension-related repositories [that we own](https://docs.sourcegraph.com/dev/background-information/sourcegraph_extensions) to ensure that they continue to reach our quality bar.
 
 ## Pair programming
 
