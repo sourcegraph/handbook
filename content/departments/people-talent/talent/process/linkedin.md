@@ -10,9 +10,8 @@ We have unlimited LinkedIn Recruiter licenses for all Sourcegraph teammates. A r
 
 ### For Teammates - How to request a LinkedIn Recruiter license
 
-- Contact your department's [assigned recruiter](../../teamalignment.md#search-recruiting-team-alignment-by-department) or reach out to #Hiring in Slack, we will get your account activated! 
-- If you are a first time user, you can take an [Introductory Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0).
--[How to log into LinkedIn Recruiter](https://www.linkedin.com/help/recruiter/answer/a414112/access-linkedin-recruiter-and-recruiter-lite?lang=en#:~:text=Click%20the%20Recruiter%20icon%20in,from%20the%20menu%20that%20appears)
+- Contact your department's [assigned recruiter](../../teamalignment.md#search-recruiting-team-alignment-by-department) or reach out to #Hiring in Slack, we will get your account activated!
+- If you are a first time user, you can take an [Introductory Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Flinkedin-recruiter-for-new-users-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ZZ53ap8WeBM1COR76EWDX0vdjCKnh1Q%2Bhm93VruCXrE%3D&reserved=0). -[How to log into LinkedIn Recruiter](https://www.linkedin.com/help/recruiter/answer/a414112/access-linkedin-recruiter-and-recruiter-lite?lang=en#:~:text=Click%20the%20Recruiter%20icon%20in,from%20the%20menu%20that%20appears)
 
 ### For Talent Team - How to assign a LinkedIn Recruiter license:
 
@@ -35,28 +34,30 @@ Any member of the Talent team can grant teammates access to a recruiter license.
 During onboarding you should have received an invitation to activate your LinkedIn Recruiter license. When you're activating your license, ensure you have the following permissions: Hiring Project Creator License, Recruiter Searcher, Product Settings Admin, and Public Notes Viewer. If you don't have these permissions, request it via slack message in the #talent-team-private-channel.
 
 Before you jump in and start building projects and sending inmails, become familiar with:
-  - [Our Guide to Candidate Outreach Best Practices](https://github.com/sourcegraph/handbook/edit/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices)
-  - [How Recruiters and Sourcers partner together](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-recruiters)
-  - [How Recruiters and Sourcers partner with Hiring Managers](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-hiring-managers)
+
+- [Our Guide to Candidate Outreach Best Practices](https://github.com/sourcegraph/handbook/edit/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices)
+- [How Recruiters and Sourcers partner together](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-recruiters)
+- [How Recruiters and Sourcers partner with Hiring Managers](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-hiring-managers)
 
 ### How to create Projects for new job openings:
 
-  - **Step 1**: The Recruiter or Sourcer will [create the project](https://www.linkedin.com/help/recruiter/answer/a417035/create-a-project-in-recruiter-and-recruiter-lite?lang=en) for a new job opening (be sure to coordinate with each other to avoid duplication of effort).
-  - **Step 2**: The Recruiter or Sourcer will name the project so that project collaborators know exactly which role this project is for.
+- **Step 1**: The Recruiter or Sourcer will [create the project](https://www.linkedin.com/help/recruiter/answer/a417035/create-a-project-in-recruiter-and-recruiter-lite?lang=en) for a new job opening (be sure to coordinate with each other to avoid duplication of effort).
+- **Step 2**: The Recruiter or Sourcer will name the project so that project collaborators know exactly which role this project is for.
 
-    - Standard naming convention: TeamorOrgName_TitleofRole_DateOfOpening (DD/MM/YYYY)
-      - Example 1: Delivery_SeniorSoftwareEngineer_16/2/2022
-      - Example 2: Product_ProductManager_24/1/2022
+  - Standard naming convention: TeamorOrgName_TitleofRole_DateOfOpening (DD/MM/YYYY)
+    - Example 1: Delivery_SeniorSoftwareEngineer_16/2/2022
+    - Example 2: Product_ProductManager_24/1/2022
 
-  - **Step 3**: Under **Project Settings > Project Details**, the Recruiter or Sourcer will add relevant information gathered from the intake call, such as scope of work, ideal experience, etc. This is to create a point of reference for project collaborators.
+- **Step 3**: Under **Project Settings > Project Details**, the Recruiter or Sourcer will add relevant information gathered from the intake call, such as scope of work, ideal experience, etc. This is to create a point of reference for project collaborators.
 
-  - **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Sourcer, Hiring Manager, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
+- **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Sourcer, Hiring Manager, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
 
-  - **Step 5**: Recruiter, Sourcer, and Hiring Manager discuss a [LinkedIn engagement strategy](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/linkedin.md#engagement-strategy).
-  - **Step 6**: Recruiter and Sourcer will start running high quality searches
+- **Step 5**: Recruiter, Sourcer, and Hiring Manager discuss a [LinkedIn engagement strategy](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/linkedin.md#engagement-strategy).
+- **Step 6**: Recruiter and Sourcer will start running high quality searches
 
 ### Additional Resources:
-  - Sharpen your LinkedIn Recruiter skills and maximize your time by taking this [Experienced User Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Fleverage-the-full-power-of-linkedin-recruiter-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=agxl%2B4%2BMf5nGXhHMDCfq%2F5cP2Ecw3qVW9%2B%2BKQrY%2FFSM%3D&reserved=0)
+
+- Sharpen your LinkedIn Recruiter skills and maximize your time by taking this [Experienced User Course](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.talent.linkedin.com%2Fseries%2Ftsep%2Fleverage-the-full-power-of-linkedin-recruiter-tsep&data=04%7C01%7Ccestrella%40linkedin.com%7C1ba987a0c7e04e959b6208d973b4f7c9%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637668043371226775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=agxl%2B4%2BMf5nGXhHMDCfq%2F5cP2Ecw3qVW9%2B%2BKQrY%2FFSM%3D&reserved=0)
 
 ## How to use LinkedIn Recruiter as a Hiring Manager
 
@@ -88,21 +89,22 @@ Now that you have a project up and running it's time to start sourcing and addin
 
 **Step 3**: [Filter your search results](https://www.linkedin.com/help/recruiter/answer/a414281)
 
-  - Filtering your search results will help further identify targeted profiles. Creatively plug and play these filters to thoroughly search through the candidate pool.
-  - For Recruiters: [Here](https://business.linkedin.com/content/dam/me/business/en-us/talent-solutions/learning-center/tip-sheets/en-us/HowSearchFiltersWork.pdf) is an indepth LinkedIn guide on how search filters work
+- Filtering your search results will help further identify targeted profiles. Creatively plug and play these filters to thoroughly search through the candidate pool.
+- For Recruiters: [Here](https://business.linkedin.com/content/dam/me/business/en-us/talent-solutions/learning-center/tip-sheets/en-us/HowSearchFiltersWork.pdf) is an indepth LinkedIn guide on how search filters work
 
-  - **Common filters used**:
-    - Job titles: Common industry titles the role has.
-    - Keywords: Skills or phrases found on profiles of interest. The qualification section of job description is a good source for keywords.
-    - Location: Any preference on location or time zone for the role.
-    - Companies: Any companies that are known to have quality candidates for the role.
-    - Years of experience: Possible minimum years of experience required for the role, or is commonly needed to gain the required qualifications.
-  - **Unique filter identifiers**:
-    - Keywords: Organizations and groups that candidates are currently or were previously involved with (alumni groups, non-profits, open-source communities, etc)
-    - Location: Locations that are often overlooked in favor of typical tech hubs
-    - Network Relationships: Maximize the network you’ve already built
-    - Recruiting activity: Revisit qualified candidates from 3+ months ago
-    - Spotlights: Review candidates that are more likely to respond or already engaged with our talent brand
+- **Common filters used**:
+  - Job titles: Common industry titles the role has.
+  - Keywords: Skills or phrases found on profiles of interest. The qualification section of job description is a good source for keywords.
+  - Location: Any preference on location or time zone for the role.
+  - Companies: Any companies that are known to have quality candidates for the role.
+  - Years of experience: Possible minimum years of experience required for the role, or is commonly needed to gain the required qualifications.
+- **Unique filter identifiers**:
+
+  - Keywords: Organizations and groups that candidates are currently or were previously involved with (alumni groups, non-profits, open-source communities, etc)
+  - Location: Locations that are often overlooked in favor of typical tech hubs
+  - Network Relationships: Maximize the network you’ve already built
+  - Recruiting activity: Revisit qualified candidates from 3+ months ago
+  - Spotlights: Review candidates that are more likely to respond or already engaged with our talent brand
 
 - **Step 4**: [Save searches and set up search alerts](https://www.linkedin.com/help/recruiter/answer/a414065)
   - If you really like the results of your search, including any keyword strings or filters, you can save them and also set up alerts to notify you when new candidates match your search criteria.
