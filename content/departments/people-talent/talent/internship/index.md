@@ -192,11 +192,13 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
   - A: Yes, we anticipate a consistent 40 hours/week report unless your manager is aware you'll be working _less than_ 40 hours in a certain week and/or unless you have _overtime_ approved by your manager ahead of time.
 
-- Q: How do interns submit expenses for reimbursement?
+- Q: How do International interns submit expenses for reimbursement?
 
-  - A:
-    - International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](../../../../benefits-pay-perks/pay-expenses/invoices.md) is a link to a template.
-    - US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
+  - A: International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](../../../../benefits-pay-perks/pay-expenses/invoices.md) is a link to a template.
+
+- Q: How do US interns submit expenses for reimbursement?
+
+  - A: US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
 
 - Q: Do I clock hours into Rippling on PTO?
   - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”
