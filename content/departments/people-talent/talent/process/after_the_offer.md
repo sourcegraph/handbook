@@ -113,7 +113,7 @@ After the candidate formally signs the offer letter (contract) generated through
 If a new hire needs to change their start date, the Recruiter follows the below steps:
 
 **Step 1**: Send the below Slack to Ines & Carly in the [#onboarding-internal](https://sourcegraph.slack.com/archives/C02773ADT7A) Slack channel to request approval to change the start date.
-\_Please note: all requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard
+\Please note: all requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard.
 
 "Hi team, we have a candidate who would like to move their start date. Please find their updated details below. Do we have the green light to make the change? If so, I will update the hire date in Greenhouse and will send an email with the updated start date.
 
