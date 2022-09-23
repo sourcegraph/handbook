@@ -1,29 +1,29 @@
-# Internship Program - Planning, Recruiting, and Offer Processes
+# Internship program - planning, recruiting, and offer processes
 
-## Internship Program Planning
+## Internship program planning
 
 The documents below outline the entire 2022 process of creating, preparing, and running the internship program, as well as the retrospective data gained from learnings, stakeholder feedback, and recruiting data. These documents will be used to prepare and run future internship programs.
 
 - [How to plan and run a Sourcegraph internship program](https://docs.google.com/document/d/1sq4ICbt7wOMT-_HijuW7fiJI3GwuvVpEDpF6R6THDXs/edit#heading=h.1mc5ogfsb23s)
 - [2022 Internship Retro Data](https://docs.google.com/presentation/d/1blAckjeTbjGjr99xK4nqweZ8y2GK7qiMS59FYPZOCQM/edit?usp=sharing)
 
-## Internship Recruiting Process
+## Internship recruiting process
 
-The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
+The recruiting and offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
-- [Opening an Intern role](../internship/internship-recruiting-and-offers.md#opening-and-intern-role)
-- [Recruiting for Intern roles](../internship/internship-recruiting-and-offers.md#identifying-candidates)
-- [Extending an Internship offer](../internship/internship-recruiting-and-offers.md#extending-an-internship-offer)
-- [After the Internship offer acceptance](../internship/internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
+- [Opening an intern role](../internship/internship-recruiting-and-offers.md#opening-and-intern-role)
+- [Recruiting for intern roles](../internship/internship-recruiting-and-offers.md#identifying-candidates)
+- [Extending an internship offer](../internship/internship-recruiting-and-offers.md#extending-an-internship-offer)
+- [After the internship offer acceptance](../internship/internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
 - [Actions to complete prior to the internship start date](../internship/internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
 
-### Opening an Intern role
+### Opening an intern role
 
-**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then Leadership + VP People + Talent will finalize which internship roles we will hire for and assign a Recruiter to each role.
+**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then leadership + VP People + Talent will finalize which internship roles we will hire for and assign a Recruiter to each role.
 
 **Step 2:** The Recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The Hiring Manager will be required to develop a job description following the [steps in the handbook](../process/opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
 
-Note: For Internship interview plans, the only required steps are Recruiter Screen, Hiring Manager Screen, Peer Interview, and Values Interview. Typically, 1 Talent team member will conduct each intern Values Interview.
+Note: For internship interview plans, the only required steps are Recruiter Screen, Hiring Manager Screen, Peer Interview, and Values Interview. Typically, 1 talent team member will conduct each intern Values Interview.
 
 _… Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:_
 
@@ -210,12 +210,12 @@ If an intern decides not to join us after being marked as Hired in Greenhouse bu
 
 The Internship Program Manager needs to complete the following actions prior to the internship start date
 
-- Send PeopleOps and TechOps the final list of intern names, teams, managers, and locations (by Country)
+- Send People Ops and Tec hOps the final list of intern names, teams, managers, and locations (by Country)
   - Greenhouse integration will add to Bamboo
-  - PeopleOps will onboard
-  - TechOps will ship laptops
-- Work with PeopleOps and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
-- Work with TechOps team to ensure system access is set up for the interns
+  - People Ops will onboard
+  - Tech Ops will ship laptops
+- Work with People Ops and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
+- Work with Tech Ops team to ensure system access is set up for the interns
 - Confirm with Legal team that the [manager training doc](https://docs.google.com/document/d/1r2MFGEefMqRWitk_qdvl9VPK8m7dfjM19h56-ERSjDw/edit) is still sufficient for the upcoming cohort
 - Confirm with each intern who is currently on a F1 Student Visa that they:
   - Have obtained an I-20 form from their university - This can take a couple of weeks, so please reach out to the interns at least 2-3 weeks prior to their start date
