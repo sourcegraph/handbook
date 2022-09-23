@@ -173,6 +173,7 @@ COMING SOON
 ### People Team onboarding goals + expectations
 
 #### Week 1 Goals:
+
 - Complete the First Day and First Week activities in Process Street
 - Complete tools/systems setup
 - [Read about Sourcegraph](../../../company-info-and-process/about-sourcegraph/): our values, our vision, our culture, our purpose, our product, our customers, what it means to be handbook-first, and how we operate as a business
@@ -255,4 +256,3 @@ We want everyone to feel certain and comfortable with where they are at currentl
 
 - Be a trusted advisor to your teams, informing their people strategies and connecting this to team initiatives with ease and flow, helping the People team offer an exceptional service to the business.
 - Be leading our in-house manager training and liaising with our L&D function to help ensure that our opportunities touch the right things.
-
