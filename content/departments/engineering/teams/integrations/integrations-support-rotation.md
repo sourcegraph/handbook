@@ -12,7 +12,7 @@ The engineer on rotation is expected to comply with these responsibilities only 
 
 We do not expect work related to the support rotation to take up more than 10% of your time while on schedule.
 
-You are not expected to provide all answers to inquiries or review all PRs. You are expected to be the initial responder and decide whether to tackle the work right away or add it for later planning. As a general rule of thumb, any work that will take longer than half a day should become an issue in the team's [GitHub board](https://github.com/orgs/sourcegraph/projects/213/views/18). This also includes work that takes less than half a day but needs to be transitioned to another engineer.
+You are not expected to provide all answers to inquiries or review all PRs. You are expected to be the initial responder and decide whether to tackle the work right away or add it for later planning. As a general rule of thumb, any work that will take longer than two hours should become an issue in the team's [GitHub board](https://github.com/orgs/sourcegraph/projects/213/views/18). This also includes work that takes less than half a day but needs to be transitioned to another engineer.
 
 The engineer on support rotation is responsible for anything that doesn't have a clear owner in our team. For example if we start receiving a trove of PRs for something that another engineer is currently working on, there's no need to keep an eye on those. On the other hand, if it's a one-off review then it's your responsibility to ensure the ball doesn't get dropped.
 
