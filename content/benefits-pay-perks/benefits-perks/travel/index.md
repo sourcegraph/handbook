@@ -118,8 +118,8 @@ _The applicant is responsible for collecting the information below (where applic
 > - Event Location (city, country):
 > - Duration of stay (days, nights):
 >
-> - Is quarantine required for 
-? If so, for how long:
+> - Is quarantine required for
+>   ? If so, for how long:
 > - Registration fee:
 > - Airfare:
 > - Ground transportation:
