@@ -41,8 +41,8 @@ This workflow is very manual. We are working hard to automate all of this to imp
 `@Eric Brody-Moore ` and `@malo` will be monitoring the #cloud-trial-alerts for qualified requests. When a request is sent, they will:
 
 1. self-assign the request by replying "I'm taking it" to the alert
-1. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../../departments/cloud/trial.md#-trial-managed-instance-creation-flow)
-1. when the instance is ready
+2. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial.md#trial-managed-instance-creation-flow)
+3. when the instance is ready
    1. set a license on the instance with 1,000 users, a 30-day limit, and the following tags: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`,`batch-changes`,`code-insights`,`trial`
    2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) with
       1. an initial password reset link to the instance
@@ -66,6 +66,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 - Drive qualified traffic to the signup page
 - SDRs: see the [qualification workflow](#Trial-request-qualification-workflow)
+- When a CE call request is received through chilipiper, makes sure a CE gets assigned
 
 # Product growth
 
@@ -73,7 +74,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 - After a cloud instance trial request is qualified, raise instance provisioning requests to the cloud team
 - When the instance is provisioned, hand it off to the user and make sure they can get started
-- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../../departments/cloud/trial_mi.md/#cloud-trial-managed-instances) the trial
+- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md/#cloud-trial-managed-instances) the trial
 - monitor metrics for product qualified leads (PQLs)
 - (those are just operational tasks, the product growth team is also working on its usual produc team stuff)
 
