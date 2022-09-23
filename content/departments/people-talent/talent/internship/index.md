@@ -195,7 +195,7 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - Q: How do International interns submit expenses for reimbursement?
 
   - A: International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](../../../../benefits-pay-perks/pay-expenses/invoices.md) is a link to a template.
-    
+
 - Q: How do US interns submit expenses for reimbursement?
 
   - A: US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
