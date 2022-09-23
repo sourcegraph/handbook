@@ -542,7 +542,7 @@ Only use this approach for low-risk patch upgrades or docker-compose container r
 ### 0) Upgrade setup
 
 ```sh
-eval $(go run ./util/cmd/ --customer <CUSTOMER> workon)
+eval $(go run ./util/cmd/mi --customer <CUSTOMER> workon)
 export NEW_DEPLOYMENT=$OLD_DEPLOYMENT
 ```
 
@@ -565,7 +565,7 @@ git checkout -b $CUSTOMER/upgrade-v<MAJOR.MINOR.PATCH>
 Create a snapshot:
 
 ```sh
-mg backup --types vm
+mi backup --types vm
 ```
 
 This can take anywhere from a minute to several minutes, depending on how large the disk is.
@@ -626,13 +626,13 @@ Upgrade process from v1.0 instance to v1.1.
 1. Create a GCS secret to be used by OIDC authentication
 
    ```bash
-   mg create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
+   mi create-oidc-secret --client-id=<CLIENT_ID_FROM_OAUTH_CREDENTIALS> --client-secret=<CLIENT_SECRET_FROM_OAUTH_CREDENTIALS>
    ```
 
 1. Enable Google Oauth OIDC in instance configuration
 
 ```bash
-mg enable-oidc
+mi enable-oidc
 ```
 
 1. Ask the CE to add 10 extra seats to the license, as we currently do not exclude DevOps admin accounts from the license usage.
@@ -640,5 +640,5 @@ mg enable-oidc
 1. Add Sourcegraph users
 
 ```bash
-mg sync admins
+mi sync admins
 ```

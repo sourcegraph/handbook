@@ -14,7 +14,7 @@ Configure required env var
 export MG_DEPLOY_SOURCEGRAPH_MANAGED_PATH=/path/to/deploy-sourcegraph-managed/repo
 ```
 
-Install `mg` (or run `go run ./util/cmd/.` for all subsequent `mg` commands)
+Install `mi` (or run `go run ./util/cmd/mi/.` for all subsequent `mi` commands)
 
 ```sh
 make install
@@ -43,7 +43,7 @@ GOBIN=~/.bin make install
 If they are not, download the file and open a PR to commit the file prior to upgrade
 
 ```sh
-mg update-golden -target $VERSION // e.g. 3.42.0
+mi update-golden -target $VERSION // e.g. 3.42.0
 ```
 
 ### Ensure `config.yaml` file in customer directory is up-to-date
@@ -73,7 +73,7 @@ Upgrade the deployment. At a high level, this will perform the following steps
 - run `docker-compose up -d` on the VM
 
 ```sh
-mg --customer $CUSTOMER upgrade --target $VERSION
+mi --customer $CUSTOMER upgrade --target $VERSION
 ```
 
 (Optional) If the instance has executors enabled (search for `enable_executors = true` in `$CUSTOMER/terraform.tfvars`), make sure the terraform module is [up-to-date](##upgrade-managed_instance-terraform-module), then apply the terraform module
@@ -93,7 +93,7 @@ terraform apply
 Follow these [steps](../upgrade_process.md#8-confirm-instance-health)
 
 ```
-mg --customer $CUSTOMER check
+mi --customer $CUSTOMER check
 ```
 
 ### Wrapping up

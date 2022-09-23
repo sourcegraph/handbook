@@ -42,13 +42,13 @@ make install
 
 ```sh
 cd $CUSTOMER
-mg ssh
+mi ssh
 ```
 
 or
 
 ```sh
-mg --customer $CUSTOMER ssh
+mi --customer $CUSTOMER ssh
 ```
 
 Below docs will only cover the essential `mg` commands, and you should consult the `mg` cli usage on your own.
@@ -75,7 +75,7 @@ For CSE's, also refer to [Accessing Managed Instances](../../ce-support/support/
 ### SSH access
 
 ```sh
-mg --customer $CUSTOMER ssh
+mi --customer $CUSTOMER ssh
 ```
 
 ### Accessing the Docker containers
@@ -91,13 +91,13 @@ You can then use regular Docker commands (e.g. `docker exec -it $CONTAINER sh`) 
 ### Accessing the Cloud SQL
 
 ```sh
-mg --customer $CUSTOMER db proxy
+mi --customer $CUSTOMER db proxy
 ```
 
 or
 
 ```sh
-mg --customer $CUSTOMER db cli
+mi --customer $CUSTOMER db cli
 ```
 
 If you find that the command hangs on the following error:
@@ -111,19 +111,19 @@ It's likely that you need to install [`cloud_sql_proxy`](https://github.com/Goog
 ### Restarting for configuration updates
 
 ```sh
-mg --customer $CUSTOMER reload-config
+mi --customer $CUSTOMER reload-config
 ```
 
 ### Port-forwarding
 
 ```sh
-mg forward <remote_port> <local_port>
+mi forward <remote_port> <local_port>
 ```
 
 Expose frontend at `8080`
 
 ```sh
-mg forward 80 4444
+mi forward 80 4444
 ```
 
 This will port-forward `localhost:4444` to port `80` on the VM instance. Some common ports:
@@ -139,19 +139,19 @@ Note that other ports are prevented by the `allow-iap-tcp-ingress` firewall rule
 Everything
 
 ```sh
-mg backup
+mi backup
 ```
 
 Just the Cloud SQL
 
 ```sh
-mg backup --types sql
+mi backup --types sql
 ```
 
 Just the VM
 
 ```sh
-mg backup --types vm
+mi backup --types vm
 ```
 
 ### Access through the GCP load balancer as a user would
@@ -234,7 +234,7 @@ First, find the service you are interested in, for example, to capture traffic t
 Next you need to `scp` this from the instance:
 
 ```sh
-   # after eval $(mg workon)
+   # after eval $(mi workon)
    gcloud compute scp root@default-$DEPLOYMENT-instance:/tmp/sourcegraph-frontend.pcap . # copy from instance
 ```
 
@@ -287,19 +287,19 @@ Following a release upgrade, in addition to automated instance health checks, we
 Run command below and inspect the output to ensure that all containers are healthy (in particular, look for anything that says Restarting):
 
 ```sh
-mg --customer $CUSTOMER check
+mi --customer $CUSTOMER check
 ```
 
 Access Grafana and confirm the instance is healthy by verifying no critical alerts are firing, and there has been no large increase in warning alerts:
 
 ```sh
-mg forward grafana
+mi forward grafana
 ```
 
 Check frontend logs and there are no recent errors
 
 ```sh
-mg ssh-exec docker logs sourcegraph-frontend-0
+mi ssh-exec docker logs sourcegraph-frontend-0
 ```
 
 ## Instance technicalities
@@ -377,7 +377,7 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
 
 ```sh
-mg ssh
+mi ssh
 docker exec -it gitserver-0 sh
 cd /data/repos/<repo_name>/.git
 cat sgm.log
@@ -462,7 +462,7 @@ service:
 }
 ```
 
-5. Run `mg sync artifacts` and when complete, restart the instance.
+5. Run `mi sync artifacts` and when complete, restart the instance.
 6. Verify on GCP that traces delivered via `HTTP POST` are now available.
 
 ### Deploy new images across all instances
@@ -471,7 +471,7 @@ Use case: you would like to roll out a new images to all instances
 
 - Open a PR to update the golden file and merge it
 - Visit [GitHub Actions - reload instances](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/reload_instance.yml)
-- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mg sync artifacts` then reload deployment on each instance
+- Click `Run workflow` (omit customer slug unless you only want to target a specific customer) and it will run `mi sync artifacts` then reload deployment on each instance
 
 ### Update application config across all instances
 
@@ -479,7 +479,7 @@ Use case: you would like to update site-config for all instances
 
 - Open a PR to update `mg` codes with the right configuration
 - Visit [GitHub Actions - sync instances config](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/sync_instance_config.yml)
-- Click `Run workflow` and it will run `mg sync` on each instance
+- Click `Run workflow` and it will run `mi sync` on each instance
 
 > This action also runs every 24h to ensure all instances config are correct
 
@@ -497,7 +497,7 @@ The global override files are separated into different files by purpose. When ad
 > NOTES: you should never edit the golden files manually, let `mg` CLI to do the work
 
 ```sh
-mg update-golden -target $version
+mi update-golden -target $version
 ```
 
 Commit your change and make a PR. Once the PR is merged, you can follow [this process](#deploy-new-images-across-all-instances) to roll out changes to all instances.
@@ -536,16 +536,16 @@ To workaround the issue, locate the resource in GCP yourself and delete it manua
 
 This likely means built-in auth-provider has been disabled. To fix this:
 
-- connect to the DB using `mg db`
+- connect to the DB using `mi db`
 - run `SELECT contents FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1;` and verify whether the array value of `auth.providers` contains a provider of type "builtin"
 - if there's no bultin provider, modify the JSON array to add `{"type": "builtin","allowSignup":false}` and run `UPDATE critical_and_site_config SET contents = $JSON where id = (SELECT id FROM critical_and_site_config ORDER BY created_at DESC LIMIT 1)` replacing $JSON with the value you modified
-- quit `mg sql`, use `mg reload-config` to make sure frontend picks-up new changes
+- quit `mi sql`, use `mi reload-config` to make sure frontend picks-up new changes
 
 ### FAQ: sourcegraph-admin login credentials are incorrect
 
 This likely means our admin user account was deleted. To verify
 
-- connect to the DB using `mg db`
+- connect to the DB using `mi db`
 - run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
 - if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
 - login should now work correctly

@@ -13,7 +13,7 @@ All Managed Instances (internal, trial and paid) have OIDC OKTA access enabled b
 
 ## Admin users on Managed Instance
 
-1. Every instance has a Sourcegraph Admin user added during [initialisation](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/7e9066e537b02feb6013585d443fc27514b71a71/util/cmd/mg_init_instance.go#L51) of Managed Instance. This admin user has [username, password and token](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/36db9bb65ec72ffa470752461b82c6999c00b969/util/pkg/config/config.go#L47) stored in Managed Instance GCP Secret Manager. This token is used to access Managed Instance from `mg cli`. For customers, who [did not disable OIDC](#disabling-okta-oidc-on-managed-instance) the token is used to impersonate user invoking action on Managed Instance, otherwise action is invoked as Sourcegraph Admin user.
+1. Every instance has a Sourcegraph Admin user added during [initialisation](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/7e9066e537b02feb6013585d443fc27514b71a71/util/cmd/mg_init_instance.go#L51) of Managed Instance. This admin user has [username, password and token](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/36db9bb65ec72ffa470752461b82c6999c00b969/util/pkg/config/config.go#L47) stored in Managed Instance GCP Secret Manager. This token is used to access Managed Instance from `mi cli`. For customers, who [did not disable OIDC](#disabling-okta-oidc-on-managed-instance) the token is used to impersonate user invoking action on Managed Instance, otherwise action is invoked as Sourcegraph Admin user.
 
 Unless customer explicitly [disabled OIDC on Managed Instance](#disabling-okta-oidc-on-managed-instance)
 
