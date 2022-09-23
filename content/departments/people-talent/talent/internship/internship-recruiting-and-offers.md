@@ -12,7 +12,7 @@ The documents below outline the entire 2022 process of creating, preparing, and 
 The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
 - [Opening an Intern role](../internship/internship-recruiting-and-offers.md#opening-and-intern-role)
-- [Recruiting for Intern roles](../internship/internship-recruiting-and-offers.md#Identifying-Candidates)
+- [Recruiting for Intern roles](../internship/internship-recruiting-and-offers.md#identifying-candidates) 
 - [Extending an Internship offer](../internship/internship-recruiting-and-offers.md#extending-an-internship-offer)
 - [After the Internship offer acceptance](../internship/internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
 - [Actions to complete prior to the internship start date](../internship/internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
