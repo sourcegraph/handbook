@@ -862,6 +862,7 @@ We do not capitalize our category name (code intelligence platform) or platform 
 - To create a batch change...
 - You can create batch changes for various purposes, such as upgrading dependencies across...
 - Sourcegraph is a code intelligence platform that enables you to understand, fix, and automate across your entire codebase.
+- You can get started with Sourcegraph Cloud today.
 
 </div>
 <div class="item no">
@@ -952,8 +953,9 @@ When talking about Sourcegraph Cloud, we should:
 
 ##### Yes
 
-- Sign up for Sourcegraph Cloud today.
+- Sign up for Sourcegraph Cloud today. With Cloud, you can use X, Y, and Z features.
 - Sourcegraph Cloud uses a single-tenant architecture with a dedicated, isolated instance for each organization.
+- You can run Sourcegraph on the cloud with our new offering.
 
 </div>
 <div class="item no">
@@ -962,6 +964,7 @@ When talking about Sourcegraph Cloud, we should:
 
 - Request access to Sourcegraph Cloud today.
 - Best of all, we maintain Sourcegraph Cloud for you.
+- You can run Sourcegraph on the Cloud.
 
 </div>
 </div>
