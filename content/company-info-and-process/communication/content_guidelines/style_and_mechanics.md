@@ -946,16 +946,14 @@ When talking about Sourcegraph Cloud, we should:
 - Position Sourcegraph Cloud as something you sign up for, not something you request access to.
 - Use language that highlights the absolute benefits of single-tenant Cloud: dedicated, isolated, secure, etc.
 - Only mention comparative benefits, like no maintenance, scaling, or upgrading when making a direct comparison to Cloud vs Self-hosted.
-- Only capitalize "Cloud" when referring directly to the product as a proper noun. In all other contexts, the word "cloud" should remain lowercase.
 
 <div class="usage">
 <div class="item yes">
 
 ##### Yes
 
-- Sign up for Sourcegraph Cloud today. With Cloud, you can use X, Y, and Z features.
+- Sign up for Sourcegraph Cloud today.
 - Sourcegraph Cloud uses a single-tenant architecture with a dedicated, isolated instance for each organization.
-- You can run Sourcegraph on the cloud with our new offering.
 
 </div>
 <div class="item no">
@@ -964,7 +962,33 @@ When talking about Sourcegraph Cloud, we should:
 
 - Request access to Sourcegraph Cloud today.
 - Best of all, we maintain Sourcegraph Cloud for you.
+
+</div>
+</div>
+
+Be careful to only capitalize the word "Cloud" in certain situations:
+
+- Capitalize "Cloud" when referring directly to the product as a proper noun.
+- Capitalize "Cloud" when using it as shorthand that refers directly to the product. In this case, it should still be treated as a proper noun. Using "Cloud" as shorthand should only be done to avoid the repitition of saying "Sourcegraph Cloud" repeatedly.
+- Do not capitalize "cloud" when referring to it as a common noun or when referring to general cloud technology.
+
+<div class="usage">
+<div class="item yes">
+
+##### Yes
+
+- We recommend you use Sourcegraph Cloud. With Cloud, you can use X, Y, and Z features.
+- Cloud, our newest offering, features X Y Z benefits.
+- You can now run Sourcegraph on the cloud.
+
+</div>
+<div class="item no">
+
+##### No
+
+- Sourcegraph cloud is our newest product.
 - You can run Sourcegraph on the Cloud.
+- This version of Sourcegraph is Cloud-based.
 
 </div>
 </div>
