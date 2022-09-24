@@ -842,9 +842,10 @@ We capitalize product names. Qualify product names with `Sourcegraph $FEATURE` o
 
 List of product names:
 
+- Sourcegraph Self-hosted
+- Sourcegraph Cloud
 - Batch Changes
 - Code Insights
-- Code Intelligence
 - Code Search
 
 We do not capitalize our category name (code intelligence platform) or platform positioning.
@@ -869,7 +870,6 @@ We do not capitalize our category name (code intelligence platform) or platform 
 
 - Use Sourcegraph universal code search to...
 - With code insights you can...
-- Here’s how to use code intelligence.
 - Here’s how to use code search.
 - Our Code Intelligence Platform enables you to understand, fix, and automate across your entire codebase.
 
