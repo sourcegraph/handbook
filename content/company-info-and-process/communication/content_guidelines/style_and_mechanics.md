@@ -945,6 +945,7 @@ When talking about Sourcegraph Cloud, we should:
 - Position Sourcegraph Cloud as something you sign up for, not something you request access to.
 - Use language that highlights the absolute benefits of single-tenant Cloud: dedicated, isolated, secure, etc.
 - Only mention comparative benefits, like no maintenance, scaling, or upgrading when making a direct comparison to Cloud vs Self-hosted.
+- Only capitalize "Cloud" when referring directly to the product as a proper noun. In all other contexts, the word "cloud" should remain lowercase.
 
 <div class="usage">
 <div class="item yes">
