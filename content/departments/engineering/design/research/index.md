@@ -69,9 +69,8 @@ Relying on internal users can lead to introducing bias into your research, yet s
   - Posting a request in the support channels of customers who are users of or interested in using the feature
   - Searching Productboard or Chorus.ai for mentions of the feature in question
 - Reach out to members of the Sourcegraph Research Panel (currently a work in progress)
-  - [Learn more about the Sourcegraph Research Panel and how to join](./sourcegraph-research-panel.md)  
+  - [Learn more about the Sourcegraph Research Panel and how to join](./sourcegraph-research-panel.md)
 - Consider running the test on usertesting.com
- 
 
 ## Helpful links to share with user research participants and observers
 
