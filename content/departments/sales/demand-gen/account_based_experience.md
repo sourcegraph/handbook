@@ -18,7 +18,6 @@ Supporting our _ABX Program_ are four pillars used to help create a baseline pro
 
 _Meet the team_
 
-
 [**Olivia Simpson**](../../../team/index.md#olivia-simpson) _Program Manager, Demand Generation_
 
 - Develops and implements marketing plans and strategy
