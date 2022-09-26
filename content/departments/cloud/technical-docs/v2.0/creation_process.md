@@ -5,10 +5,10 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## Prereq
 
-Follow https://github.com/sourcegraph/deploy-sourcegraph-cloud-controller#installation to install `mgv2`
+Follow https://github.com/sourcegraph/deploy-sourcegraph-cloud-controller#installation to install `mi2`
 
 ```sh
-git clone https://github.com/sourcegraph/deploy-sourcegraph-cloud-dev
+git clone https://github.com/sourcegraph/deploy-sourcegraph-cloud-next
 cd deploy-sourcegraph-cloud-dev
 ```
 
@@ -29,6 +29,7 @@ cd deploy-sourcegraph-cloud-dev
 ```sh
 export SLUG=company
 export DOMAIN=company.sourcegraph.com
+export ENVIRONMENT=dev
 ```
 
 ### Check out a new branch
@@ -39,43 +40,54 @@ git checkout -b $SLUG/create-instance
 
 ### Init deployment artifacts - GCP Project
 
-`mgv2 generate` will
+`mi2 generate` will
 
 - generate the terraform module and prmompt you to apply the terraform module
 - generate the kustomization manifests and helm override based on output from the terraform module
 
 ```sh
-mgv2 generate --domain $DOMAIN --slug $SLUG
+mi2 generate -e dev --domain $DOMAIN --slug $SLUG
 ```
 
 Above command will fail on the first run, follow the prompt to manually apply the terraform module. (or you can just run the command below)
 
+Before applying the terraform modulel, gather the computed values and configure them as environment variables
+
 ```sh
-cd deployments/$SLUG/terraform/project
+export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
+export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
+```
+
+Apply the `project` terraform module
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/project
 terraform init
 terraform apply
 ```
 
 ### Init deployment artifacts - Infrastructure
 
-Rerun the `generate` command to generate the infra terraform module
+Rerun the `generate` command to generate the infra terraform module.
 
 ```sh
-mgv2 generate --domain $DOMAIN --slug $SLUG
+mi2 generate -e dev --domain $DOMAIN --slug $SLUG
 ```
 
+Above command will fail again, run the command below to manually apply the `infra` terraform module.
+
 ```sh
-cd deployments/$SLUG/terraform/infra
+cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/infra
 terraform init
 terraform apply
 ```
 
 ### Init deployment artifacts - K8S
 
-Rerun the `generate` command to generate the kustomize manifests and helm overrides
+Rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
 
 ```sh
-mgv2 generate --domain $DOMAIN --slug $SLUG
+mi2 generate -e dev --domain $DOMAIN --slug $SLUG
 ```
 
 ### Deploy application
@@ -83,16 +95,15 @@ mgv2 generate --domain $DOMAIN --slug $SLUG
 Connect to the cluster locally by running
 
 ```sh
-cd deployments/$SLUG/terraform/infra
+cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/infra
 CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
-PROJECT_ID=$(yq '.status.gcpProjectID' < ../../config.yaml)
 gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
 ```
 
 Deploy the manifests
 
 ```sh
-cd deployments/$SLUG/kubernetes
+cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
