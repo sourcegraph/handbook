@@ -46,6 +46,8 @@ Our primary competition comes from companies building internal tools to apply an
 
 We expect to see more vertical competition from companies focused on a language ecosystem, that enter the market by building refactoring frameworks for a given language ecosystem, then competing with Batch Changes on tooling to apply and track code changes. [Moderne](https://moderne.io/)/[openrewrite](https://github.com/openrewrite/rewrite) is the first significant example of this, focused on the Java ecosystem. Recently, [updatecli](https://www.updatecli.io/) also showed up on our radar. So far, Batch Changes differentiates with better search, a collaborative management UI, its language agnostic approach and enterprise-grade features.
 
+In the past, a few customers have seen some overlap with Atomist ([acquired by Docker](https://www.docker.com/blog/docker-acquires-atomist/)).
+
 We are committed to remaining language-agnostic, which includes using Batch Changes to apply and track changesets created with frameworks such as openrewrite or any other refactoring framework. We also think there is an opportunity in leveraging precise code intelligence to create radically better code change tools that support many languages in the future.
 
 ## Themes
