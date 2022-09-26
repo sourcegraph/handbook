@@ -120,6 +120,7 @@ The power of Sourcegraph is available everywhere that developers read or write c
   - [Browser Extensions](browser-extensions/index.md)
   - [Sourcegraph Extensions](https://docs.sourcegraph.com/extensions)
   - [IDE Extensions](ide-extensions/index.md)
+- [Support rotation](integrations-support-rotation.md)
 - [Triad Roles and Responsibilities](triad-roles-and-responsibilites.md)
 - [Team history](team-history.md)
 - [Onboarding](onboarding.md)
