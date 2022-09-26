@@ -109,4 +109,5 @@ Long term, we may create more specialised customer success roles to drive high l
 
 ## Account Executives
 
-Engage PQLs!
+- Engage PQLs!
+- We **do not** engage with Cloud trials for commercial discussions, unless they're a Strategic account or are identified as PQLs
