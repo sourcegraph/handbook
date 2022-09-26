@@ -12,7 +12,7 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - [TalentWall](https://app.talentwall.io/dashboard/dashboards/7012): Provides key recruiting metrics in real-time to all teammates
 - [Ashby](https://app.ashbyhq.com/home/dashboard-99c39b44-6c73-4492-a53c-f1551fe1e188): Adhoc reporting tool. We leverage this to analyze DEI efforts and targeted business objectives.
 - [Greenhouse Reporting:](https://support.greenhouse.io/hc/en-us/articles/360007315491-Greenhouse-Recruiting-reports-index) We leverage our ATS data and reports for interview calibration, the [Requisition Report](https://docs.google.com/spreadsheets/d/1SyrAInHn12g2W1USfhWvDZSfLe0_VPM3Re_ImgM6nq4/edit#gid=815618435ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1829575136), and more.
-- [BU Staffed to Plan Report](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=790175108): This is an Excel doc measuring our percentage staffed to hiring goal of >95%. This report ensures we hire the right talent at the right time, allowing our BUs to execute on goals.
+- [BU Staffed to Plan Report](https://docs.google.com/spreadsheets/d/1n6gtEfvjmSlgQfz_bLajalxstC7jgLT4OtLbXa4K4Gw/edit#gid=174110325): This is an Excel doc measuring our percentage staffed to hiring goal of >95%. This report ensures we hire the right talent at the right time, allowing our BUs to execute on goals.
 
 ### What we measure:
 
