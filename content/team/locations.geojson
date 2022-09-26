@@ -419,19 +419,6 @@
         {
             "type": "Feature",
             "properties": {
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "name": "Jake Sorensen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-118.36666, 34.15821]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Nick Gage"
             },
             "geometry": {
