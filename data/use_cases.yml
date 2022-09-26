@@ -4,7 +4,7 @@ developer_onboarding:
   title: Developer Onboarding
   link: /strategy-goals/strategy/use_cases/dev-onboarding
   sponsors:
-    product: ben_venker
+    product: loïc_guychard
     engineering: marek_zaluski
 
 code_reuse:
