@@ -1,35 +1,35 @@
-# Internship Program - Planning, Recruiting, and Offer Processes
+# Internship program - planning, recruiting, and offer processes
 
-## Internship Program Planning
+## Internship program planning
 
 The documents below outline the entire 2022 process of creating, preparing, and running the internship program, as well as the retrospective data gained from learnings, stakeholder feedback, and recruiting data. These documents will be used to prepare and run future internship programs.
 
 - [How to plan and run a Sourcegraph internship program](https://docs.google.com/document/d/1sq4ICbt7wOMT-_HijuW7fiJI3GwuvVpEDpF6R6THDXs/edit#heading=h.1mc5ogfsb23s)
 - [2022 Internship Retro Data](https://docs.google.com/presentation/d/1blAckjeTbjGjr99xK4nqweZ8y2GK7qiMS59FYPZOCQM/edit?usp=sharing)
 
-## Internship Recruiting Process
+## Internship recruiting process
 
-The Recruiting and Offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
+The recruiting and offer processeses for internship positions are sightly different than full-time roles. This page will outline the correct steps to take for the following.
 
-- [Opening an Intern role](../internship/internship-recruiting-and-offers.md#opening-and-intern-role)
-- Recruiting for Intern roles
-- [Extending an Internship offer](../internship/internship-recruiting-and-offers.md#extending-an-internship-offer)
-- [After the Internship offer acceptance](../internship/internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
+- [Opening an intern role](../internship/internship-recruiting-and-offers.md#opening-and-intern-role)
+- [Recruiting for intern roles](../internship/internship-recruiting-and-offers.md#identifying-candidates)
+- [Extending an internship offer](../internship/internship-recruiting-and-offers.md#extending-an-internship-offer)
+- [After the internship offer acceptance](../internship/internship-recruiting-and-offers.md#after-the-internship-offer-acceptance)
 - [Actions to complete prior to the internship start date](../internship/internship-recruiting-and-offers.md#actions-to-complete-prior-to-the-internship-start-date)
 
-### Opening an Intern role
+### Opening an intern role
 
-**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then Leadership + VP Talent will finalize which internship roles we will hire for and assign a recruiter to each role.
+**Step 1:** Prior to each internship cohort, Leadership will fill out an Intern Request Form to request one or more intern(s) for their team. Then leadership + VP People + Talent will finalize which internship roles we will hire for and assign a Recruiter to each role.
 
-**Step 2:** The recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The hiring manager will be required to develop a job description following the [steps in the handbook](../process/opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
+**Step 2:** The Recruiter will reach out to each Hiring Manager via slack to request the job description and interview plan. The Hiring Manager will be required to develop a job description following the [steps in the handbook](../process/opening_a_new_job.md#how-to-open-a-new-job). The Hiring Manager will also need to fill out an intake form.
 
-Note: For Internship interview plans, the only required steps are Recruiter Screen, Hiring Manager Screen, Peer Interview, and Values Interview. Typically, 1 Talent team member will conduct each intern values interview.
+Note: For internship interview plans, the only required steps are Recruiter Screen, Hiring Manager Screen, Peer Interview, and Values Interview. Typically, 1 talent team member will conduct each intern Values Interview.
 
 _… Once the Hiring Manager completes the above steps, the Recruiter takes the below actions:_
 
 **Step 3:** The Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
 
-**Step 4:** The recruiter then sets up the role in Greenhouse and posts it to our [Careers Page](https://about.sourcegraph.com/jobs/).
+**Step 4:** The Recruiter then sets up the role in Greenhouse and posts it to our [Careers Page](https://about.sourcegraph.com/jobs/).
 
 - Copy the “Template” job.
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the interview plan directly into each interview stage.
@@ -57,17 +57,17 @@ As a next step, please:
 
 Interview process / hiring team:
 
-- [30m] [Recruiter screen:](../process/types_of_interviews.md#recruiter-screen)
-- [30–60m] [Hiring Manager Screen:](../process/types_of_interviews.md#hiring-manager-screen)
+- [30m] [Recruiter Screen](../process/types_of_interviews.md#recruiter-screen)
+- [30–60m] [Hiring Manager Screen](../process/types_of_interviews.md#hiring-manager-screen)
 - Assignment, if applicable:
 - In-depth Interview Stage:
-  - [1h] [Resume Deep Dive:](../process/types_of_interviews.md#resume-deep-dive)
-  - [30m] Assignment review/working session, if applicable:
-  - [60–120m] Technical interview, if applicable:
-  - [30–60m] [Cross-functional Team Collaboration:](../process/types_of_interviews.md#cross-functional-team-collaboration-interview)
-  - [30m] [Peer Interview:](../process/types_of_interviews.md#peer-interview)
-- [30m] [Values Interview:](../process/types_of_interviews.md#values-interview)
-- [15–30m] [Leadership Interview:](../process/types_of_interviews.md#leadership-interview)
+  - [1h] [Resume Deep Dive](../process/types_of_interviews.md#resume-deep-dive)
+  - [30m] Assignment review/working session, if applicable
+  - [60–120m] Technical interview, if applicable
+  - [30–60m] [Cross-functional Team Collaboration](../process/types_of_interviews.md#cross-functional-team-collaboration-interview)
+  - [30m] [Peer Interview](../process/types_of_interviews.md#peer-interview)
+- [30m] [Values Interview](../process/types_of_interviews.md#values-interview)
+- [15–30m] [Leadership Interview](../process/types_of_interviews.md#leadership-interview)
 
 At a high level, here is an overview of what we’re looking for in this hire. @hiringmanager, please add any additional insight that will be helpful for the hiring team to keep in mind as they interview candidates!
 
@@ -78,7 +78,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Selling points:
 - Target start date:”
 
-**Step 6:** The Recruiter begins [generating a candidate pool](../process/identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](../process/interview_process.md).
+**Step 6:** The Recruiter begins [generating a candidate pool](../process/identifying_candidates.md) by reviewing applications in Greenhouse and sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [interview stage](../process/interview_process.md).
 
 ### Identifying Candidates
 
@@ -101,7 +101,7 @@ using the below offer data
 - Equity options - “0”
 - For all other offer fields, follow the standard process.
 
-Approval chain: Talent Team Manager (if applicable) > VP Talent > Hiring Manager > Department Head > VP Operations.
+Approval chain: Talent Team Manager (if applicable) > VP People + Talent > Hiring Manager > Department Head > VP Operations.
 
 We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` and `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
 If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
@@ -149,7 +149,7 @@ _Offer Summary call walkthrough_
 
 **For Recruiters:** To see an actual offer summary script, click [HERE](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit).
 
-**Step 4:** Following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc’s the Hiring Manager and VP Talent.
+**Step 4:** Following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc’s the Hiring Manager and VP People + Talent.
 
 **Step 5:** once the candidate verbally accepts the offer, a Recruiting Operations Specialist will draft the offer letter. If the recruiter needs to request the offer letter to be drafted, please follow the below steps:
 
@@ -158,7 +158,7 @@ _Offer Summary call walkthrough_
 
 The Recruiting Operations Specialist will need to generate the offer template, download it to their computer, update the yellow fields using Microsoft Word, then reupload the offer template into Greenhouse before Sending with Docusign.
 
-All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
+All DocuSigns should be routed for signing to VP People + Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
 
 **Step 6:** the candidate receives the offer.
 
@@ -208,14 +208,14 @@ If an intern decides not to join us after being marked as Hired in Greenhouse bu
 
 ### Actions to complete prior to the internship start date
 
-The Internship Program manager needs to complete the following actions prior to the internship start date
+The Internship Program Manager needs to complete the following actions prior to the internship start date
 
-- Send PeopleOps and TechOps the final list of intern names, teams, managers, and locations (by Country)
+- Send People Ops and Tec hOps the final list of intern names, teams, managers, and locations (by Country)
   - Greenhouse integration will add to Bamboo
-  - Inés will onboard
+  - People Ops will onboard
   - Tech Ops will ship laptops
-- Work with Inés and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
-- Work with TechOps team to ensure system access is set up for the interns
+- Work with People Ops and Hiring Managers to confirm onboarding activities and prepare Process Street for the Interns’ first day
+- Work with Tech Ops team to ensure system access is set up for the interns
 - Confirm with Legal team that the [manager training doc](https://docs.google.com/document/d/1r2MFGEefMqRWitk_qdvl9VPK8m7dfjM19h56-ERSjDw/edit) is still sufficient for the upcoming cohort
 - Confirm with each intern who is currently on a F1 Student Visa that they:
   - Have obtained an I-20 form from their university - This can take a couple of weeks, so please reach out to the interns at least 2-3 weeks prior to their start date
