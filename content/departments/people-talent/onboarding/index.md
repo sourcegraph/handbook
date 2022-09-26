@@ -182,8 +182,6 @@ COMING SOON
 
 #### Week 2 Goals:
 
-#### Week 2:
-
 - Search the handbook for information about:
   - Our different teams
   - Our internal tooling
@@ -237,7 +235,7 @@ We want everyone to feel certain and comfortable with where they are at currentl
 
 #### People Partner
 
-**Within one month, you will… **
+**Within one month, you will…**
 
 - Have completed the onboarding process yourself, and understand what it looks like for other parts of the business
 - Build relationships with each member of the team and understand how the team supports the company and works together
