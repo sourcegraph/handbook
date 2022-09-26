@@ -23,7 +23,6 @@ Order Forms and MSAs:
 - [Sourcegraph Enterprise Order Form](https://docs.google.com/document/d/1Oo7vbWoGIaIq72zo7TFH9M4eugJXrvNv/copy)
 - [Sourcegraph Offline Order Form and MSA](https://docs.google.com/document/d/18hGbvBDFsGiE7KOczX3OGD8flWTOWN3b/copy)
 
-
 Partner Contracts:
 
 - [Reseller Agreement](https://docs.google.com/document/d/1y8gF3ai8YdDH-iORi_vVeqET9-g11RZxaXurcNmb0-E/copy)
