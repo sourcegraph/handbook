@@ -1,6 +1,6 @@
 # Cloud Engineer onboarding
 
-Welcome to the [Cloud team](./index.md)! This document will guide you through Cloud-team-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../../dev/onboarding/software-engineer-onboarding.md).
+Welcome to the [Cloud team](./index.md)! This document will guide you through Cloud-team-specific onboarding tasks to make your start here at Sourcegraph as smooth as it can be. Make sure you've read and completed the [general engineering onboarding guide](../engineering/dev/onboarding/software-engineer-onboarding.md).
 
 ## Checklist
 
@@ -20,10 +20,10 @@ Welcome to the [Cloud team](./index.md)! This document will guide you through Cl
 - Meet your onboarding buddy
 - Attend weekly sync meeting
 - Deploy your own SG instance using the following [install methods](https://docs.sourcegraph.com/admin/install):
-  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../../dev/tools/infrastructure/gcp.md#projects)
-  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../../dev/tools/infrastructure/gcp.md#engineering-projects).
-- Familiarize yourself with the Sourcegraph's [internal infrastructure](../../dev/tools/infrastructure/index.md) and the team's ownership areas
-- Open and merge first GitHub pull request by adding yourself to [team page](../../../../handbook/editing/add-yourself-to-team-page.md) in Handbook
+  - [Docker Compose](https://docs.sourcegraph.com/admin/install/docker-compose): You should be able to install this locally on your Sourcegraph laptop. If for some reason you do not have the local resources, create a vm in your own [engineering project](../engineering/dev/tools/infrastructure/gcp.md#projects)
+  - [Kubernetes](https://docs.sourcegraph.com/admin/install/kubernetes): To install this it is recommended you create a cluster in your own [engineering project](../engineering/dev/tools/infrastructure/gcp.md#engineering-projects).
+- Familiarize yourself with the Sourcegraph's [internal infrastructure](../engineering/dev/tools/infrastructure/index.md) and the team's ownership areas
+- Open and merge first GitHub pull request by adding yourself to [team page](../../handbook/editing/add-yourself-to-team-page.md) in Handbook
 - Read our [Cloud team handbook pages](index.md)
 - Join the following Slack channels:
   - #cloud
