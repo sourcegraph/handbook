@@ -50,6 +50,8 @@ This workflow is very manual. We are working hard to automate all of this to imp
       2. a link to the onboarding checklist
       3. a link to schedule time with a customer engineer (CE)
    3. set the lead status in salesforce to `Trial Instance Handed Off`
+      
+After that workflow, a (TBD) admin onboarding email campaign will start.
 
 ### PQL qualification workflow
 
