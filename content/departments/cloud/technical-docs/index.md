@@ -6,11 +6,8 @@
 
 ### Deployment type and scaling
 
-Managed instances are Docker Compose deployments only today. We do not currently offer Kubernetes managed instances.
-
-These managed Docker Compose deployments can scale up to the largest GCP instance type available, n2-standard-128 with 128 CPU / 512 GB memory which is typically enough for most medium to large enterprises.
-
-We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
+Managed instances are Docker Compose deployments today - we do not currently offer Kubernetes (or multi-node) managed instances.
+See [known limitations](#known-limitations-of-managed-instances) for more context on scalability of Cloud.
 
 ### Environments
 
@@ -85,11 +82,9 @@ Sample upgrade:
 
 ### Known limitations of managed instances
 
-Sourcegraph managed instances are single-machine Docker-Compose deployments only. We do not offer Kubernetes managed instances, or multi-machine deployments, today.
+Sourcegraph managed instances are single-machine Docker-Compose deployments only. We do not offer Kubernetes managed instances, or multi-machine deployments, today. The main limitation of the current model is that the underlying GCP infrastructure outage could result in downtime, i.e. is it not a highly-available deployment.
 
-With that said, Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU & 360 GB memory, and are typically capable of supporting all but the largest of enterprises (around 25,000 repositories and 3,000 users are supported, based on what we have seen thus far.)
-
-The main limitation of this model is that an underlying GCP infrastructure outage could result in downtime, i.e. is it not a HA deployment.
+Current Cloud architecture has been [tested](./scalability_testing.md) to support a workload of >100000 repositories (440GB Git storage) and 10000 [simulated](https://github.com/sourcegraph/k6) users on a [`n2-standard-32`](https://cloud.google.com/compute/docs/general-purpose-machines#n2-standard) VM.
 
 ### Security
 
