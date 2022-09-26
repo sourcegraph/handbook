@@ -9,7 +9,7 @@ Sourcegraph will share the top priority roles we're hiring for via LinkedIn and 
 
 ### LinkedIn
 
-- Reshare company updates/articles from our [company LinkedIn Profile](https://www.linkedin.com/company/sourcegraph) 
+- Reshare company updates/articles from our [company LinkedIn Profile](https://www.linkedin.com/company/sourcegraph)
 - When sharing our open roles on your LinkedIn, please use the following URL so that Greenhouse can track the number of applicants that apply through our personal LinkedIn posts: https://grnh.se/6c3034d74us
   - If you prefer to share a specific role rather than the entire job board, please send a Slack message to #hiring and a member of the talent team will create a tracking link for you to use
 - Post ideas for LinkedIn
@@ -68,6 +68,7 @@ We encourage teammates to leave honest reviews about their Sourcegraph experienc
 ### Writing prompts
 
 You are welcome to use these prompts to get ideas flowing for your review:
+
 - I enjoy working at Sourcegraph because...
 - My favorite perk/benefit at Sourcegraph is...
 - A day in the life of a Sourcegraph employee includes...
@@ -116,7 +117,7 @@ Please follow these instructions:
 
 ### Future job boards:
 
-We welcome suggestions for more places that we can post our open roles! Please reach out to your recruiter or post in the #hiring slack channel to suggest a new job board. 
+We welcome suggestions for more places that we can post our open roles! Please reach out to your recruiter or post in the #hiring slack channel to suggest a new job board.
 
 We want to make sure our job postings reach a wide audience and that we're posting in multiple places without a large overlap in members from our existing job postings.
 
