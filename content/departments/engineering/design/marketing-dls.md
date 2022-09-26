@@ -26,4 +26,4 @@ Spacing:
 
 ## Using Figma
 
-If you're new to using Figma, there are some instructions and tips in [using figma](./wildcard_design_system/using-figma/#sts=Using%20Figma).
+If you're new to using Figma, there are some instructions and tips in [using figma](./wildcard_design_system/using-figma.md).
