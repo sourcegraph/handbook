@@ -878,17 +878,6 @@ ryan_phillips:
   links: '[LinkedIn](https://www.linkedin.com/in/ryphil/)'
   description: Born in the wild west (Texas), Ryan now lives in San Francisco, CA where he loves exploring the amazing nature nearby! Ryan lives to experience and build products which have an incredibly high level of craft - custom JH Audio headphones, to beautiful books such as Designing Design, to delicious food! Outside of Sourcegraph, Ryan is a lecturer at the d.school at Stanford University, teaching at the intersection of technology, design, and inclusion. He is always open to adventure, lets explore together!
 
-jake_sorensen:
-  name: Jake Sorensen
-  pronouns: He/Him
-  role: Programs Lead, Demand Gen Campaigns
-  reports_to: director_demand_generation
-  location: Los Angeles, CA, USA 🇺🇸
-  github: jakevsen
-  email: jake@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/jakevsorensen/)'
-  description: Born and raised in Utah now living in California with my partner of twelve years, Tia, and our two Chihuahuas, Dory and Minnie. I discovered my love for marketing working in field marketing, demand gen, and account-based marketing and love empowering teams to be passionate and innovative in their careers. I have a degree in environmental science and hydrogeology, aspirations for Shakespearean acting, and am a fluent French speaker and Francophile. My passions include my family, travel, iaido practice and matcha.
-
 coury_clark:
   name: Coury Clark
   pronouns: He/Him
@@ -1358,15 +1347,6 @@ sara_lee:
   email: sara.lee@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/sara-yoojin-lee/)'
   description: Sara is a Product Designer, aspiring artist 🎨, and simulation game enthusiast 🎮. She resides in Chicago, IL and Chapel Hill, NC for equal parts of the year. She is passionate about using design as a medium to make the complex more accessible to people. She is currently working on learning Javascript and drinking less cups of coffee ☕️.
-
-ben_venker:
-  name: Ben Venker
-  reports_to: eng_lead
-  role: Product Manager, Search Product
-  location: St. Louis, MO, United States 🇺🇸
-  github: benvenker
-  email: ben.venker@sourcegraph.com
-  description: Ben socially engineered his way into his first product role and has been hooked ever since. He currently lives in St. Louis, MO, but has lived all over the country at various times. He enjoys hacking on personal dev projects, playing guitar, and getting completely engrossed in new, random pursuits.
 
 kemper_hamilton:
   name: Kemper Hamilton

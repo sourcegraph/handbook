@@ -4,7 +4,7 @@ search_product:
   title: Search Product
   brief: The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results
   strategy_link: /strategy-goals/strategy/search/product/index.md
-  pm: ben_venker
+  pm: loïc_guychard
   em: loïc_guychard
   design: paulo_almeida
   pmm: lori_colston
