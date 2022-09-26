@@ -40,7 +40,7 @@ Each new team member is paired with two individuals during their onboarding time
   - Our different teams
   - Our internal tooling
   - The orgs you'll be supporting
-- Learn about the product by watching the Product Tour video and reading the first page of Sourcegraph's user documentation
+- Learn about the product by watching the [Product Tour video](https://www.youtube.com/watch?v=Kk1ea2-l8Hk) and reading the first page of Sourcegraph's user documentation
 - Schedule 1:1s with the Hiring Managers you will be supporting
 - Build out sourcing projects for your org's high priority roles
 - Listen to assigned Brighthire recordings
@@ -186,7 +186,7 @@ COMING SOON
   - Our different teams
   - Our internal tooling
   - The orgs you'll be supporting
-- Learn about the product by watching the Product Tour video and reading the first page of Sourcegraph's user documentation
+- Learn about the product by watching the [Product Tour video](https://www.youtube.com/watch?v=Kk1ea2-l8Hk) and reading the first page of Sourcegraph's user documentation
 - Schedule 1:1s with teammates cross-funtional stakeholders you will be supporting
 - Build out sourcing projects for your org's high priority roles
 - MORE COMING SOON
