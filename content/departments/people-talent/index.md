@@ -229,7 +229,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
 - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
-- [Talent Wall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+- [TalentWall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 
 ### Learning & development
 
@@ -315,13 +315,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Onboarding resources
 
 - [Recruiter onboarding resources](onboarding/index.md)
+- [Recruitment metrics](talent/process/talent_metrics.md)
 - [Recruiting tools](talent/process/index.md#recruiting-tools)
   - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
   - [Talent Wall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
   - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
-- [Recruitment metrics](talent/process/talent_metrics.md)
 - [Recruitment branding](talent/process/recruitment_branding.md)
 
 ### Opening a new job & headcount changes
@@ -430,20 +430,6 @@ In case of emergency, the VP People & Talent and the Director, People are availa
           <div style="text-align: center; font-size: 12px;">Technical Recruiter</div>
         </div>
       </div>
-      <div class="col" style="flex: 1;">
-        <div>
-          <div>
-            <a href="../../../../team/index.md#win-yu" target="_blank" rel="noopener">
-              <img
-                src="https://storage.googleapis.com/sourcegraph-assets/handbook/Talent%20Team/Screen%20Shot%202021-12-02%20at%204.52.42%20PM.png"
-                alt="Picture of Win Yu" style="background: transparent; width:128px;" />
-            </a>
-          </div>
-          <div style="text-align: center;">Win Yu</div>
-          <div style="text-align: center; font-size: 12px;">Technical Talent Sourcer</div>
-        </div>
-      </div>
-    </div>
     <div class="row" style="display:flex;">
       <div class="col" style="flex: 1;">
         <div>

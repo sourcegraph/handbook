@@ -98,10 +98,12 @@ Please follow these instructions:
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph). All jobs that are publically listed in our applicant tracking system are automatically pushed to LinkedIn.
 - ["Ask HN: Who is Hiring" monthly thread](hacker-news-who-is-hiring.md). Devon Coords posts one job to Hacker News on the first of every month.
 - [RemoteWoman](https://remotewoman.com/). RemoteWoman scrapes our career page, we can also message them to manually post our unlisted roles.
-- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Devon Coords owns this list and payments are made with Nick's Brex. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
+- [Tech Ladies](https://www.hiretechladies.com/). With our current plan we can post up to 10 roles at a time (and can rotate out roles as they are filled). Kemper Hamilton owns this list. We can update our posted roles anytime by emailing jobpostings@hiretechladies.com.
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm) All jobs that are publically listed in our applicant tracking system are automatically pushed to Glassdoor.
 - [AngelList](https://angel.co/company/sourcegraph)
 - [Diversify Tech](https://www.diversifytech.co/job-board)
+- [Console](https://console.dev/profiles/sourcegraph/). We have a company profile on Console that links to our careers page.
+- [BuiltIn](https://builtin.com/company/sourcegraph). We have a company profile on BuiltIn that links to our careers page.
 
 [Click here](../internship/index.md#college-job-boards-were-using) to see the job boards we're using for our Internship Program
 

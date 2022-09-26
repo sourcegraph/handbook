@@ -73,7 +73,7 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
   - _Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review_
 - **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
   - Monday 2022-09-19 to Friday 2022-09-30 (2 weeks)
-  - _Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date_
+  - _Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](compensation-and-leveling/preparing-for-calibrations.md)_
 - **Phase 5: Impact Review Cycle Ends**
   - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03
   - Compensation changes go into effect 2022-10-01
