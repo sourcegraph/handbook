@@ -182,8 +182,6 @@ COMING SOON
 
 #### Week 2 Goals:
 
-#### Week 2:
-
 - Search the handbook for information about:
   - Our different teams
   - Our internal tooling
