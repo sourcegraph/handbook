@@ -52,7 +52,7 @@ We made #244 on the 2022 Inc 5000 List and we want to spread the word about it! 
 - [Dev Tool Time](https://www.youtube.com/playlist?list=PL6zLuuRVa1_iDEP4EicZ8972RgyccCRGF) - Sourcegraph's bi-weekly virtual event series in which guest developers share their favorite dev tools and productivity hacks.
 - [Perks, benefits, & compensation](../../../../benefits-pay-perks/benefits-perks/index.md)
 - [Careers page & open positions](../../resources_for_candidates.md#how-to-apply)
-- [Company values](../../resources_for_candidates.md#our-company-values)
+- [Company values](../../../../company-info-and-process/values/index.md)
 - [All-remote](../../../../company-info-and-process/remote/index.md)
 - [Asynchronous communication](../../../../company-info-and-process/communication/asynchronous-communication.md)
 
