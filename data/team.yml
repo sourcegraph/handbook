@@ -1359,15 +1359,6 @@ sara_lee:
   links: '[LinkedIn](https://www.linkedin.com/in/sara-yoojin-lee/)'
   description: Sara is a Product Designer, aspiring artist 🎨, and simulation game enthusiast 🎮. She resides in Chicago, IL and Chapel Hill, NC for equal parts of the year. She is passionate about using design as a medium to make the complex more accessible to people. She is currently working on learning Javascript and drinking less cups of coffee ☕️.
 
-ben_venker:
-  name: Ben Venker
-  reports_to: eng_lead
-  role: Product Manager, Search Product
-  location: St. Louis, MO, United States 🇺🇸
-  github: benvenker
-  email: ben.venker@sourcegraph.com
-  description: Ben socially engineered his way into his first product role and has been hooked ever since. He currently lives in St. Louis, MO, but has lived all over the country at various times. He enjoys hacking on personal dev projects, playing guitar, and getting completely engrossed in new, random pursuits.
-
 kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
