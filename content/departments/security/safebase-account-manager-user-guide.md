@@ -51,14 +51,12 @@ After the "Approve" button has been clicked you can add additional information t
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/safebase-access-request-slack-NDA.png)
 
-The requester will receive an email in their Inbox with the NDA to be signed. And once the NDA is signed or if one is already in place they will receive a confirmation email that they have been granted full access to the Security Trust Portal and all the document downloads. 
+The requester will receive an email in their Inbox with the NDA to be signed. And once the NDA is signed or if one is already in place they will receive a confirmation email that they have been granted full access to the Security Trust Portal and all the document downloads.
 
-The approver can visit the the "Accounts" tab in Safebase to see what the status for the requester account and the NDA signature status. 
+The approver can visit the the "Accounts" tab in Safebase to see what the status for the requester account and the NDA signature status.
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/SafebaseAccountView.png)
 
-
-Any document downloads will also generate a notification into the #safebase slack channel. 
-
+Any document downloads will also generate a notification into the #safebase slack channel.
 
 More resources:
 https://help.safebase.io/en/articles/6173881-how-customers-gain-private-security-portal-access-from-your-public-link
