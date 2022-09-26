@@ -25,7 +25,7 @@ You **must** be on Google Chrome in order to use BrightHire.
 - **Step 1:** You'll automatically receive an email invite to BrightHire when you're scheduled for your first interview (if the invite does not come through, or you require access prior to your first interview, please Slack #Hiring and a member of the Talent team will manually invite you). Use the invite to set up your account, log in, and sync your Google calendar.
 - **Step 2:** Familiarize yourself with BrightHire by watching [this video](https://help.brighthire.ai/en/articles/4168499-brighthire-101). Note: you must be a registered BrightHire user to view this video.
 - **Step 3:** Download the [BrightHire Chrome extension](https://chrome.google.com/webstore/detail/brighthire-extension/mbokiighkhdopgedihndpibkincpcgan?hl=en&authuser=0).
-- **Step 4:** Click the 'Interview with BrightHire' button in your calendar invite when joining an interview. (This is instead of clicking 'Join Zoom Meeting')
+- **Step 4:** Click the "Interview with BrightHire" button in your calendar invite when joining an interview. (This is instead of clicking "Join Zoom Meeting")
 - **Step 5:** You should see your BrightHire Chrome extension pop up to help guide you. If you don't see it, click the puzzle-piece icon in the top right hand corner of your screen and it will show up.
 - **Step 6:** Lead the interview as you normally would. You can hover your curser over each question prompt to see your full question. No need to take notes unless you want to! Everything will be captured and transcribed for you, and you will be able to reference it when filling out your scorecard after the interview.
 - **Step 7:** Go to Greenhouse to fill out your scorecard, and use the BrightHire side panel to review your notes and the interview to provide robust candidate feedback.
@@ -57,7 +57,7 @@ Is using BrightHire optional for our teammates?
 
 - Just like with candidates, using BrightHire is optional for all interviewers. However, we strongly encourage giving it a try and truly believe it will benefit you as an interviewer, as well as improve our candidate experience. If you chose not to use BrightHire, please partner with the Talent team to ensure you’re still providing a consistent, structured interview experience for all candidates, and please submit robust feedback in writing immediately following the interview to ensure your recall is as strong as possible.
 
-Is using Brighthire optional for our candidates?
+Is using BrightHire optional for our candidates?
 
 - Using BrightHire is optional for both our interviewers AND our candidates. We will only record interviews with a candidate’s explicit consent and they can choose to opt out at any time. If they do, the structure of the interview and decision process will remain the same and their decision will have no weight on their candidacy.
 
@@ -81,7 +81,7 @@ Can candidates request a copy of their recordings?
 
 - Yes, Sourcegraph will provide candidates a copy of their recording and transcript upon request to recruiting@sourcegraph.com.
 
-Is Brighthire GDPR compliant?
+Is BrightHire GDPR compliant?
 
 - Yes, BrightHire is GDPR compliant.
 
@@ -105,7 +105,7 @@ Q: Can I choose to interview with Sourcegraph without being recorded?
 
 Q: Who will be able to see my interview?
 
-- A: BrightHire gives recruiting leaders at Sourcegraph detailed controls to ensure only the right people have access to your interview. Only the talent team and the Hiring team can see your interview.
+- A: BrightHire gives recruiting leaders at Sourcegraph detailed controls to ensure only the right people have access to your interview. Only the talent team and the hiring team can see your interview.
 
 Q: How long will Sourcegraph hold on to my interview?
 
