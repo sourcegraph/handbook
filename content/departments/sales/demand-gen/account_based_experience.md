@@ -18,12 +18,6 @@ Supporting our _ABX Program_ are four pillars used to help create a baseline pro
 
 _Meet the team_
 
-[**Jake Sorensen**](../../../team/index.md#jake-sorensen) _Program Lead, Demand Generation_
-
-- Develop framework, processes, strategy, and campaigns
-- Manage flow, roadmap, and program success
-- Measure and report to leadership teams
-- Execute on ABX campaigns
 
 [**Olivia Simpson**](../../../team/index.md#olivia-simpson) _Program Manager, Demand Generation_
 
@@ -128,4 +122,4 @@ Our first measurement of success if by bridging the gap that occurs frequently b
 - Velocity
 - Increase in IARR
 
-#### Note: This page is a constantly evolving guide to ABX at Sourcegraph. We will continue to add more and update as the program grows! If you have a suggestion or improvement or just want to talk ABX strategy, please email [Jake Sorensen](mailto:jake@sourcegraph.com)
+#### Note: This page is a constantly evolving guide to ABX at Sourcegraph. We will continue to add more and update as the program grows! If you have a suggestion or improvement or just want to talk ABX strategy, please email [Olivia Simpson](mailto:olivia.simpson@sourcegraph.com)
