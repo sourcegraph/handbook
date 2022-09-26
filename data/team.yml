@@ -106,7 +106,7 @@ joe_chen:
   name: Joe Chen
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_iam
+  reports_to: engineering_manager_cloud
   github: unknwon
   email: joe@sourcegraph.com
   links: '[LinkedIn](https://www.linkedin.com/in/jiahua-joe-chen-86218a81/)'
@@ -2226,7 +2226,7 @@ naman_kumar:
   github: thenamankumar
   pronouns: he/him
   role: Software Engineer
-  reports_to: engineering_manager_growth
+  reports_to: engineering_manager_iam
   location: New Delhi, IN
   links: '[LinkedIn](https://www.linkedin.com/in/hereisnaman/), [Twitter](https://twitter.com/TheNamanKumar)'
   description: Naman is from New Delhi, India. He is a vim user and a huge desk setup perfectionist. He strives to help makers build better products. Prior to Source Graph he gained experience at Product Hunt, executing experiments on the platform for improved retention and growth. He likes to play with data and drive meaningful patterns out of it. When he is not working, you will find him either adoring sunrise from a mountain peak or enjoying pina colada from a beach shack. After hours, he likes to spend his time reading, gaming or going out on long drives.
