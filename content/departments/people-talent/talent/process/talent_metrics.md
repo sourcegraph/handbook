@@ -40,7 +40,7 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Metric definition:** Average number of days elapsed between requisition kick-off date and offer acceptance for internal and external hires
 - **Measurement:** Total days to fill ÷ total offers accepted
 - **Metric use:** Calibrate the timeliness and efficiency of the recruiting process
-- **Target:**  &lt; 45 days
+- **Target:** &lt; 45 days
 
 #### Recruitment source breakdown
 
