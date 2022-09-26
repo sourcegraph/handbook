@@ -100,6 +100,7 @@ or that we have accepted as low risk. You can find more details about these belo
 ### 4.0
 
 - [4.0.0](./4-0-0.md)
+- [4.0.1](./4-0-1.md)
 
 ### 3.43
 
