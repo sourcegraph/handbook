@@ -18,7 +18,7 @@ Colors:
 
 - The marketing DLS has a single complete palette, based on our core brand colors.
   - They can be found on the [Colors page](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Marketing-DLS?node-id=18%3A101)
-- For details on how to use these colors semantically, reference the [Colors section](https://handbook.sourcegraph.com/departments/engineering/design/brand_guidelines/color/#sts=Primary%20colors) of our Brand Guidelines.
+- For details on how to use these colors semantically, reference the [Colors section](/departments/engineering/design/brand_guidelines/color/#sts=Primary%20colors) of our Brand Guidelines.
 
 Spacing:
 
@@ -26,4 +26,4 @@ Spacing:
 
 ## Using Figma
 
-If you're new to using Figma, there are some instructions and tips in [using figma](./using-figma.md).
+If you're new to using Figma, there are some instructions and tips in [using figma](/departments/engineering/design/wildcard_design_system/using-figma/#sts=Using%20Figma).
