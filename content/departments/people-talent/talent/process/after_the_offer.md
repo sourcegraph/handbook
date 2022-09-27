@@ -41,21 +41,21 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 - Click the "Mark candidate as hired" button found in the "offer details" section of the candidate's profile
 - Select Close Reason: "hire-new headcount" or "hire-backfill"
-- Click either `"yes"` or `"no"` in the "Keep Job Open" section. Only keep the job open if we are hiring for multiple openings
+- Click either `"Yes"` or `"No"` in the "Keep Job Open" section. Only keep the job open if we are hiring for multiple openings
 - Select `"Yes"` for "Make Candidate Private"
 - Select `"Yes"` for "Export to BambooHR
   - If you don't see an option to export to Bamboo, please ensure your Bamboo integration is active by following [these steps](https://support.greenhouse.io/hc/en-us/articles/201177624-BambooHR)
 - Email a summary of this candidate to:
   - Onboarding Email
-  - VP of Talent
+  - VP of People & Talent
   - Recruiting Director
   - Hiring Manager
 
 **Step 7**: The Recruiter sends a "thank you for participating in the interview process" note to the interview team in the role-specific Slack channel
 
-**Step 8**: The Recruiter archives the Channel after people respond
+**Step 8**: The Recruiter archives the channel after people respond
 
-**Step 9**: The Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #Hiring channel.
+**Step 9**: The Recruiter asks the Hiring Manager to make a announcement of the candidate's acceptance in the Slack #hiring channel.
 
 **Step 10**: The People Operations team then works with the candidate to onboard them and get them set up for their first day!
 
