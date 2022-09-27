@@ -39,6 +39,8 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 This workflow is very manual. We are working hard to automate all of this to improve the user experience massively, and reduce the operational burden. Come [join us](index.md)! All this workflow is powered by salesforce, and [Zapier automation](https://zapier.com/app/zaps/folder/1368159).
 
+Note: all automated email will automatically appear in salesforce (through Malo's account).
+
 ### Instance provisioning and hand-off workflow
 
 `@Eric Brody-Moore ` and `@malo` will be monitoring the #cloud-trial-alerts for qualified requests. When a request is sent, they will:
