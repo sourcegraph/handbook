@@ -483,18 +483,6 @@ andré_eleuterio:
   links: '[@eleuterio\_](https://twitter.com/eleuterio_)'
   description: André is a Security Engineer from Curitiba, Brazil. Before joining Sourcegraph he was working at npm and GitHub, holding different security responsibilities. André is a devout follower of Athletico Paranaense, a local soccer team, despite its rare joys and successes. Definitely a geek, be careful when bringing up Breath of the Wild or Magic the Gathering around André as that can lead to some very long conversations.
 
-emily_chapman:
-  name: Emily Chapman
-  pronouns: she/her
-  role: Senior Customer Training Engineer
-  reports_to: vp_customer_engineering
-  location: Portland, OR, USA, 🇺🇸
-  github: emchap
-  email: emily@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/emchap/)'
-  pronunciation: '[Name pronunciation](https://www.name-coach.com/emily-chapman-ec13ee64-97e1-4eb4-978f-59d672131b50)'
-  description: 'Emily grew up in Atlanta, GA but now lives in Portland, OR. She started her career at Mailchimp/Mandrill before stints at Trello/Atlassian, Healthify, and Help Scout. She is the creator of [Lana Ipsum](http://lanaipsum.com/), a Lana Del Rey lorem ipsum generator. She is obsessed with the .horse TLD, localization of the sweet potato emoji (🍠), and the ways in which SMTP can run into encoding issues. In her free time she can be found either cooking, or trying to convince her very loud cat to be less loud. She has an Anthropology degree and knows a lot about bog bodies.'
-
 camden_cheek:
   name: Camden Cheek
   pronouns: he/him
