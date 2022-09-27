@@ -91,20 +91,20 @@
 
 - For Non-US Based candidates hired via PEO: You should have already gone through the [process of having the PEO request approved](extending_an_offer.md#offer-process-for-peoeor-contracts). You will make a formal offer letter request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
 
-    Hi team - we have a candidate based in `location` that we would like to onboard via Deel. Can we please initiate the process?
+  Hi team - we have a candidate based in `location` that we would like to onboard via Deel. Can we please initiate the process?
 
-    - Candidate's full legal name:
-    - Candidate's personal email:
-    - Country of residence:
-    - Do they require visa sponsorship to work in their country of residence? If so, what visa?
-    - Job title:
-    - Job description link:
-    - Compensation in USD (we will need to convert this to their local currency):
-    - Provide commission plan if applicable to the role:
-    - Job level:
-    - Will they be an IC or Manager?
-    - Start date:
-    - Hiring Manager (full name):
+  - Candidate's full legal name:
+  - Candidate's personal email:
+  - Country of residence:
+  - Do they require visa sponsorship to work in their country of residence? If so, what visa?
+  - Job title:
+  - Job description link:
+  - Compensation in USD (we will need to convert this to their local currency):
+  - Provide commission plan if applicable to the role:
+  - Job level:
+  - Will they be an IC or Manager?
+  - Start date:
+  - Hiring Manager (full name):
 
 **Step 8**: The offer letter is officially [generated](../tools/resources_for_recruiting_operations.md#how-to-generate-an-offer-letter) and the candidate receives the offer.
 
