@@ -61,18 +61,24 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 ## Onboarding process for PEO hires
 
-After the candidate formally signs the offer letter (contract) generated through the PEO, the Recruiter takes the following steps to onboard the new Teammate:
+You need approval to bring a candidate on via Deel from People Ops. 
 
-**Turnaround time for PEO/EOR contracts**
+Process for approvals:
+Post in #peo-visa-hiring-exceptions with the candidate’s name, country, and situation/need for exception and tag Debbie Johnstone or Marija Petrovic. 
+Once the candidate has received approval to proceed with Deel fill out this [form](https://forms.gle/ocipGysWCPZ5TytL7) so that Marija Petrovic can create the candidate’s contract in Deel
 
-- Talent notifies People Ops of verbal acceptance and provides contract info
-  - You can find what contract info you need to provide under the [_Offer Stage_ , Step 7](extending_an_offer.md#offer-stage)
-- People Ops enters information to Deel platform and invites candidate to onboard to Deel (~ 1 day)
-- Candidate creates Deel profile and completes required fields (~1-2 days)
-- Deel reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
-- People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
-- Candidate reviews and signs Employment Agreement (~1-2 days)
-- People Ops forwards confirmation for signed employment agreement to Talent
+PEO contract process:
+- Deel admin creates contract using the information Talent has provided via the Google Form.
+- Deel team reviews contract
+- Deel admin reviews contract for the following:
+- Payment Terms show 7 days invoice deadlines, 
+- Consultant Expenses section III shows 7 days payment deadlines
+- No additional terms beyond 5.7
+- (If contract strays from the above, escalate by posting in #success-deel-sourcegraph and tag Legal)
+- Deel admin signs contract and pays invoice
+- Deel team sends the candidate their contract for signature
+- Once candidate signs, Deel team commences employment verification and Deel onboarding (candidate will be asked to provide any necessary ID and/or visa documents)
+- Once candidate’s documents are verified, they are ready to commence their Sourcegraph onboarding process depending on their start date
 
 **Step 1**: Via Greenhouse, the Recruiter sends a welcome email to the candidate by selecting the "welcome email from recruiter - PEO" template.
 
