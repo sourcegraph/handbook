@@ -61,17 +61,18 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 ## Onboarding process for PEO hires
 
-You need approval to bring a candidate on via Deel from People Ops. 
+You need approval to bring a candidate on via Deel from People Ops.
 
 Process for approvals:
-Post in #peo-visa-hiring-exceptions with the candidate’s name, country, and situation/need for exception and tag Debbie Johnstone or Marija Petrovic. 
+Post in #peo-visa-hiring-exceptions with the candidate’s name, country, and situation/need for exception and tag Debbie Johnstone or Marija Petrovic.
 Once the candidate has received approval to proceed with Deel fill out this [form](https://forms.gle/ocipGysWCPZ5TytL7) so that Marija Petrovic can create the candidate’s contract in Deel
 
 PEO contract process:
+
 - Deel admin creates contract using the information Talent has provided via the Google Form.
 - Deel team reviews contract
 - Deel admin reviews contract for the following:
-- Payment Terms show 7 days invoice deadlines, 
+- Payment Terms show 7 days invoice deadlines,
 - Consultant Expenses section III shows 7 days payment deadlines
 - No additional terms beyond 5.7
 - (If contract strays from the above, escalate by posting in #success-deel-sourcegraph and tag Legal)
