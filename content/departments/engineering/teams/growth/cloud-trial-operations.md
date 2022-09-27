@@ -125,4 +125,4 @@ Long term, we may create more specialised customer success roles to drive high l
 
 ## Data and Analytics
 
-- Maintain and/or contribute to the dashboards, data flows and both product and marketing growth iterations. See the [dashboard documentation](<[url](https://docs.google.com/document/d/1zwSu0Kyug6VIB6Pm_L5Oprt5FPH8ky8kWDLGt64ryA8/edit)>) for a list of dashboards and sources.
+- Maintain and/or contribute to the dashboards, data flows and both product and marketing growth iterations. See the [dashboard documentation](https://docs.google.com/document/d/1zwSu0Kyug6VIB6Pm_L5Oprt5FPH8ky8kWDLGt64ryA8/edit) for a list of dashboards and sources.
