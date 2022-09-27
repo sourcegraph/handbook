@@ -75,10 +75,7 @@ PEO contract process:
 
 - Deel admin creates contract using the information Talent has provided via the Google Form.
 - Deel team reviews contract
-- Deel admin reviews contract for the following:
-- Payment Terms show 7 days invoice deadlines,
-- Consultant Expenses section III shows 7 days payment deadlines
-- No additional terms beyond 5.7
+- Deel admin reviews contract
 - (If contract strays from the above, escalate by posting in #success-deel-sourcegraph and tag Legal)
 - Deel admin signs contract and pays invoice
 - Deel team sends the candidate their contract for signature
