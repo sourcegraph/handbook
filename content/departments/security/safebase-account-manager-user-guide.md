@@ -47,11 +47,16 @@ Once they submit their request the following message will pop up in the #safebas
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/Safebase-access-request-slack.png)
 
-Once the "Approve" button has been clicked you can add additional information to the account and prompt a NDA workflow through DocuSign (correct NDA template is already configured) for those customers that do not already have an NDA signed with us or choose " Signed outside of Safebase" if an NDA already exists.
+After the "Approve" button has been clicked you can add additional information to the account and prompt an NDA workflow through DocuSign (correct NDA template is already configured) for those customers that **do not already** have an NDA signed with us **else choose " Signed outside of Safebase" if an NDA already exists.**
 
 ![enter image description here](https://storage.googleapis.com/sourcegraph-assets/safebase-access-request-slack-NDA.png)
 
-Once the user has signed the NDA via their email inbox (or a NDA already was signed prior), full access will be granted to all the documentation and information on our Trust Portal. An email will have been sent to the user that now they can download and view all the documents on the portal.
+The requester will receive an email in their Inbox with the NDA to be signed. And once the NDA is signed or if one is already in place they will receive a confirmation email that they have been granted full access to the Security Trust Portal and all the document downloads.
+
+The approver can visit the the "Accounts" tab in Safebase to see what the status for the requester account and the NDA signature status.
+![enter image description here](https://storage.googleapis.com/sourcegraph-assets/SafebaseAccountView.png)
+
+Any document downloads will also generate a notification into the #safebase slack channel.
 
 More resources:
 https://help.safebase.io/en/articles/6173881-how-customers-gain-private-security-portal-access-from-your-public-link

@@ -35,9 +35,9 @@ During onboarding you should have received an invitation to activate your Linked
 
 Before you jump in and start building projects and sending inmails, become familiar with:
 
-- [Our Guide to Candidate Outreach Best Practices](https://github.com/sourcegraph/handbook/edit/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices)
-- [How Recruiters and Sourcers partner together](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-recruiters)
-- [How Recruiters and Sourcers partner with Hiring Managers](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-hiring-managers)
+- [Our Guide to Candidate Outreach Best Practices](how_to_be_a_sourcer_at_sourcegraph.md#sourcing-best-practices)
+- [How Recruiters and Sourcers partner together](how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-recruiters)
+- [How Recruiters and Sourcers partner with Hiring Managers](how_to_be_a_sourcer_at_sourcegraph.md#how-to-partner-with-hiring-managers)
 
 ### How to create Projects for new job openings:
 
@@ -52,7 +52,7 @@ Before you jump in and start building projects and sending inmails, become famil
 
 - **Step 4**: Project creator will need to make sure all relevant collaborators (Recruiter, Sourcer, Hiring Manager, and relevant Director of Recruiting) are added to the project as project members with [full project access](https://www.linkedin.com/help/recruiter/answer/a569729).
 
-- **Step 5**: Recruiter, Sourcer, and Hiring Manager discuss a [LinkedIn engagement strategy](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/linkedin.md#engagement-strategy).
+- **Step 5**: Recruiter, Sourcer, and Hiring Manager discuss a [LinkedIn engagement strategy](linkedin.md#engagement-strategy).
 - **Step 6**: Recruiter and Sourcer will start running high quality searches
 
 ### Additional Resources:
@@ -63,7 +63,7 @@ Before you jump in and start building projects and sending inmails, become famil
 
 - **Step 1**: Once your license is activated, review the [Hiring Manager's Guide to Success with LinkedIn Recruiter](https://training.talent.linkedin.com/hiring-managers-guide-to-success-with-linkedin-recruiter/507127/scorm/20xf4p8f7tfcb) for a quick introduction to the software workflow.
 - **Step 2**: Check to see that your recruiter has added you to your role's hiring project and that you have full project access.
-- **Step 3**: Coordinate with your recruiter on an [engagement strategy](https://github.com/sourcegraph/handbook/blob/main/content/departments/people-talent/talent/process/linkedin.md#engagement-strategy). The engagement strategy is an agreement on how you and the recruiter would like to collaborate and interact with candidates + each other within the LinkedIn project.
+- **Step 3**: Coordinate with your recruiter on an [engagement strategy](linkedin.md#engagement-strategy). The engagement strategy is an agreement on how you and the recruiter would like to collaborate and interact with candidates + each other within the LinkedIn project.
 
 ## Sourcing and Outreach Best Practices
 
