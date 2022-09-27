@@ -68,7 +68,7 @@ The product growth team will be monitoring analytics for trial instances that ha
 
 When a trial becomes a PQL, the lead status will be changed to `PQL` in Salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
 
-This will be manually triggered by `@Eric Brody-Moore` for now. See the qualification [here](<[url](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.qsm8u5uvpib8)>)
+This will be manually triggered by `@Eric Brody-Moore` for now. See the qualification [here](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.qsm8u5uvpib8). 
 
 ## Expectations from stakeholders
 
