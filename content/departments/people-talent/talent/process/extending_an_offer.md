@@ -31,27 +31,67 @@
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` or `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
   - If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 
-**Step 5**: Once the offer is **fully approved** in Greenhouse, Recruiter schedules an offer summary call using the email template in Greenhouse. The purpose of the offer summary call is to review our offer with the candidate and answer any questions they may have.
+**Step 5**: Once the offer is **fully approved** in Greenhouse, Recruiter schedules an [offer summary call](extending_an_offer.md#offer-summary-call) using the email template in Greenhouse.
 
-- Attendees: Recruiter, Hiring Manager, Candidate.
-- Duration: Each candidate offer summary call will be slightly different, time estimates below are included as approximation to ensure all points are covered.
-- Preparation:
+**Step 6**: Following the offer summary call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
 
-  - To generate the offer summary, click "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
-  - Recruiter will download the offer summary as a Word Doc and then convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
-    - **Important note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
-  - Recruiter will check previously discussed start date and make sure it still falls on a Cohort start date. If it does not, before the end of the call the recruiter must be sure to determine a potential alternative start date (all start dates should fall on a cohort Monday and any exceptions to that rule require approval from VP of Talent and People Ops)
-  - Recruiter and Hiring Manager calibrate prior to offer call so they are aligned on how best to approach the call.
+**Step 7**: Once the candidate verbally accepts the offer, the Recruiter follows the below steps:
+
+- For US-based and non-US based (contractor) candidates: make a formal request in the Slack channel #talent-scheduling-and-offers for an offer letter to be sent via DocuSign.
+
+  - **Step 1:** In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
+  - **Step 2:** You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
+  - **Step 3:** Click on _Offer Request_ and fill out the form.
+  - **Step 4:** Click 'Submit' once you're done.
+
+- For non-US Based candidates hired via PEO: You should have already gone through the [process of having the PEO request approved](extending_an_offer.md#offer-process-for-peoeor-contracts). You will make a formal offer letter request in the Slack channel #peo-visa-hiring-exceptions to begin the PEO onboarding process (example below).
+
+  Hi team - we have a candidate based in `location` that we would like to onboard via Deel. Can we please initiate the process?
+
+  - Candidate's full legal name:
+  - Candidate's personal email:
+  - Country of residence:
+  - Do they require visa sponsorship to work in their country of residence? If so, what visa?
+  - Job title:
+  - Job description link:
+  - Compensation in USD (we will need to convert this to their local currency):
+  - Provide commission plan if applicable to the role:
+  - Job level:
+  - Will they be an IC or Manager?
+  - Start date:
+  - Hiring Manager (full name):
+
+**Step 8**: The offer letter is officially [generated](../tools/resources_for_recruiting_operations.md#how-to-generate-an-offer-letter) and the candidate receives the offer.
+
+- For US-based offers, the Recruiting Operations Specialist will send the `US-offer template` via DocuSign.
+- For non-US based offers (Contractors), the Recruiting Operations Specialist will confirm the correct template and will send via DocuSign.
+  - All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
+- For PEO candidates, the candidate will receive all offer documentation via the PEO.
+
+### Offer summary call
+
+- **Attendees:** Recruiter, Hiring Manager, Candidate.
+
+- **Duration:** Each candidate offer summary call will be slightly different, time estimates below are included as approximation to ensure all points are covered.
+- **Preparation:**
+
+  - Have your offer summary created and ready to present
+    - **Step 1:** Create the offer summary by clicking "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
+    - **Step 2:** Recruiter will download the offer summary as a Word Doc and then convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
+    - **Note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
+  - Check that the previously discussed start date still falls on a Cohort start date.
+    - If it does not, the recruiter must be sure to find an alternative date during the summary call. Any exceptions to that rule require approval from VP of Talent and People Ops (Jonathan and Ines).
+  - Recruiter and Hiring Manager should calibrate on alignment regarding how best to approach the call.
   - Recruiter and Hiring Manager should pick 3-4 of their favorite quotes about the candidate from scorecards submitted by interviewers during the process to reiterate excitement of the potential of them joining the team.
 
-- Offer summary call goals:
+- **Offer summary call goals**
 
   - Convey to candidates how excited we are about the prospect of them joining the team and how much value they will add to Sourcegraph.
   - Ensure candidates have a good understanding of our compensation philosophy, their salary, perks, travel (and benefits, if applicable) and equity.
   - Answer any questions the candidate has and gauge how the candidate is feeling about the opportunity.
   - Determine a start date and schedule a follow-up call to answer any questions.
 
-- Offer summary call walkthrough:
+- **Offer summary call walkthrough**
 
   - (2 min) The Hiring Manager or Recruiter kicks off the call to give the candidate feedback and tell them why we’re excited about them. They will read a few of their favorite feedback quotes from the interviewers.
   - (~15 min) Recruiter shares their screen to display the offer summary document and will walk through each slide with the candidate. After each slide, Recruiter will ask the candidate if they have any questions about the information displayed. **Important to ensure the Offer Summary Call is interactive and not a presentation**
@@ -76,42 +116,7 @@
 
   - (1 min) Recruiter informs the candidate that they will send a copy of the offer summary right after the call and to reach out if any questions come up. Recruiter and Hiring Manager reiterate excitement.
 
-  **For recruiters**: See a sample [offer summary call script](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing).
-
-**Step 6**: Following the offer call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
-
-**Step 7**: Once the candidate verbally accepts the offer, the Recruiter follows the below steps:
-
-- For US-Based and Non-US Based (contractor) candidates: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
-
-  - **Step 1:** In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
-  - **Step 2:** You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
-  - **Step 3:** Click on _Offer Request_ and fill out the form.
-  - **Step 4:** Click 'Submit' once you're done.
-
-- For Non-US Based candidates hired via PEO: You should have already gone through the [process of having the PEO request approved](extending_an_offer.md#offer-process-for-peoeor-contracts). You will make a formal offer letter request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
-
-  Hi team - we have a candidate based in `location` that we would like to onboard via Deel. Can we please initiate the process?
-
-  - Candidate's full legal name:
-  - Candidate's personal email:
-  - Country of residence:
-  - Do they require visa sponsorship to work in their country of residence? If so, what visa?
-  - Job title:
-  - Job description link:
-  - Compensation in USD (we will need to convert this to their local currency):
-  - Provide commission plan if applicable to the role:
-  - Job level:
-  - Will they be an IC or Manager?
-  - Start date:
-  - Hiring Manager (full name):
-
-**Step 8**: The offer letter is officially [generated](../tools/resources_for_recruiting_operations.md#how-to-generate-an-offer-letter) and the candidate receives the offer.
-
-- For US-based offers, the Recruiting Operations Specialist will send the `US-offer template` via DocuSign.
-- For non-US based offers (Contractors), the Recruiting Operations Specialist will confirm the correct template and will send via DocuSign.
-  - All DocuSigns should be routed for signing to VP Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
-- For PEO candidates, the candidate will receive all offer documentation via the PEO.
+  **Note for recruiters:** you can practice an offer summary call by reading a [sample script](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing)
 
 ### Offer process for PEO/EOR contracts
 

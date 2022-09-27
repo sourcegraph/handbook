@@ -343,7 +343,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Where we advertise our jobs](talent/process/recruitment_branding.md)
   - [How we source passive candidates](talent/process/identifying_candidates.md#sourcing-best-practices)
   - [Partnering with your Sourcer](talent/process/identifying_candidates.md)
-  - [Using external recruiting agencies](talent/process/identifying_candidates.md)
+  - [Using external recruiting agencies](talent/process/identifying_candidates.md#recruiting-agencies)
   - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
