@@ -104,7 +104,6 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 
 - When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
 - Also add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
-   
 
 ## FAQ
 
