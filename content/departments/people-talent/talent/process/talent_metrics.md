@@ -12,11 +12,11 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - [TalentWall](https://app.talentwall.io/dashboard/dashboards/7012): Provides key recruiting metrics in real-time to all teammates
 - [Ashby](https://app.ashbyhq.com/home/dashboard-99c39b44-6c73-4492-a53c-f1551fe1e188): Adhoc reporting tool. We leverage this to analyze DEI efforts and targeted business objectives.
 - [Greenhouse Reporting:](https://support.greenhouse.io/hc/en-us/articles/360007315491-Greenhouse-Recruiting-reports-index) We leverage our ATS data and reports for interview calibration, the [Requisition Report](https://docs.google.com/spreadsheets/d/1SyrAInHn12g2W1USfhWvDZSfLe0_VPM3Re_ImgM6nq4/edit#gid=815618435ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1829575136), and more.
-- [BU Staffed to Plan Report](https://docs.google.com/spreadsheets/d/1n6gtEfvjmSlgQfz_bLajalxstC7jgLT4OtLbXa4K4Gw/edit#gid=174110325): This is an Excel doc measuring our percentage staffed to hiring goal of >95%. This report ensures we hire the right talent at the right time, allowing our BUs to execute on goals.
+- [Q3 Open Roles - Tracking Sheet](https://docs.google.com/spreadsheets/d/1n6gtEfvjmSlgQfz_bLajalxstC7jgLT4OtLbXa4K4Gw/edit#gid=174110325): This is an Excel doc showing our quarterly open roles This report ensures we hire the right talent at the right time, allowing our BUs to execute on goals.
 
 ### What we measure:
 
-#### Diversity Lifecycle: Applications, recruited, interviewed, offers extended & offers accepted
+#### Diversity lifecycle: applications, recruited, interviewed, offers extended & offers accepted
 
 - The talent acquisition workflow [metrics](https://app.ashbyhq.com/home/dashboard-99c39b44-6c73-4492-a53c-f1551fe1e188) are specific to candidates who self-identified as coming from an underrepresented group.
 - _Diversity_ refers to the characteristics of the people who make up Sourcegraph and how they identify. Race, gender, age, ethnicity, religion, national origin, disability, and sexual orientation are _some_ examples of how the data might be categorized when looking at Sourcegraph’s diversity.
@@ -28,19 +28,19 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Metric use:** Measure recruiting effectiveness at candidate conversion and determine the strength of our offers for different positions
 - **Target:** >90%
 
-#### Average time to hire (Days)
+#### Average time to hire (days)
 
 - **Metric definition:** The average number of days between the application date and the date the candidate is marked as hired
 - **Measurement:** Total time taken to complete the individual component of the hiring process for all requisitions ÷ total number of requisitions
 - **Metric use:** Calibrate the timeliness and efficiency of the recruiting process. Identify components of the hiring process that need improvement.
-- **Target:** &lt; 30 days
+- **Target:** <30 days
 
-#### Average time to fill (Days)
+#### Average time to fill (days)
 
 - **Metric definition:** Average number of days elapsed between requisition kick-off date and offer acceptance for internal and external hires
 - **Measurement:** Total days to fill ÷ total offers accepted
 - **Metric use:** Calibrate the timeliness and efficiency of the recruiting process
-- **Target:** &lt; 45 days
+- **Target:** <45 days
 
 #### Recruitment source breakdown
 
@@ -55,7 +55,7 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Metric use:** Evaluate sourcing quality and recruiter efficiency
 - **Target:** 12:1
 
-### Candidate experience:
+### Candidate experience
 
 - **Metric definition:** An indication of how satisfied candidates and recent hires were with the recruiting process
 - **Measurement:** Candidate perceptions, measured through a survey
@@ -68,4 +68,4 @@ Our Talent Metrics approach is to support our leader's ability to define talent 
 - **Measurement:** Labor market perceptions of our brand are measured through channel ratings (ie Glassdoor, Blind etc) & Quality/Volume of Internal Applicants
 - **Metric use:** Assess the internal/external perception of the employment opportunity and determine the impact of marketing or other external distribution of information about Sourcegraph
 
-For questions regarding Recruiting Metrics and reports please E-mail Recruiting@sourcegraph.com
+For questions regarding Recruiting Metrics and reports please e-mail Recruiting@sourcegraph.com
