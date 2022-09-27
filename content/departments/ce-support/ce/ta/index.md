@@ -20,6 +20,7 @@ While those metrics are good for our business, the driving factor should be maki
 ## Team Reference Resources
 
 ### Team Norms
+
 - [Team Norms](team-norms.md)
 - [How we work in support of customers](working-with-customers.md)
 
@@ -29,4 +30,5 @@ While those metrics are good for our business, the driving factor should be maki
 - [Career Development](ta-career-development.md)
 
 ## How to Reach Us
+
 This team can be engaged in the #technical-advisors channel. The team is also in the #ce channel, however, the #ce channel is more focused on the actual Customer Engineers, not the TA sub-team.
