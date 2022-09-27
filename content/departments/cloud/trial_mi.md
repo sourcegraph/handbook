@@ -98,12 +98,13 @@ When trial expires and customer do not wish to sign the deal, instance requestor
    - Customer name has to be max 10 characters (GCP project name limit - `sourcegraph-managed-SLUG` cannot execeed 30 characters). If customer SLUG has more characters:
      - set `customer endpoint` to `SLUG.sourcegraph.com`
      - set `customer` with SLUG trimmed to 10 characters
-   - other parameters should be used from New Trial Managed Instance request.
+   - Other parameters should be used from New Trial Managed Instance request.
 
 4. Finalisation
 
-- When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
-- Also add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
+   - A Cloud team member needs to sign in to the instance through basic authentication to apply the license key in order to have the SSO option available. Credentials of the default admin users of each instance could be found in the GSM of the respective GCP projects.
+   - When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
+   - Also add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## FAQ
 
