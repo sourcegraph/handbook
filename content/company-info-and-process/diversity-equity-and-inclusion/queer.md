@@ -23,5 +23,3 @@ Currently, the cohort's activity is focused on #queer, the locked Slack channel 
 ## How do I participate in the cohort?
 
 To join the Slack channel, please add your work email address to [this form](https://docs.google.com/forms/d/1Ab9p9gQxzsMZPOyaDDm85qvpoEKGt36gtgbDDuNqOcQ/prefill). The form will trigger a bot that will add you to the Slack channel.
-
-The form is maintained by [Emily Chapman](../../team/index.md#emily-chapman); feel free to ping her with any questions if the form does not seem to be working.
