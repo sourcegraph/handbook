@@ -38,7 +38,7 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
   - this will send an alert in #cloud-trial-alerts and automatically send an [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) to the user to let them know that we are experiencing high demand and can't get them an instance at the moment.
 
 This workflow is very manual. We are working hard to automate all of this to improve the user experience massively, and reduce the operational burden. Come [join us](index.md)! All this workflow is powered by salesforce, and [Zapier automation](https://zapier.com/app/zaps/folder/1368159).
-  
+
 Note: all automated email will automatically appear in salesforce (through Malo's account).
 
 ### Instance provisioning and hand-off workflow
