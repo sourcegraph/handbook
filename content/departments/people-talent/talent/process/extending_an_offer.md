@@ -37,14 +37,14 @@
 
 **Step 7**: Once the candidate verbally accepts the offer, the Recruiter follows the below steps:
 
-- For US-based and non-US based (contractor) candidates: make a formal request in the Slack channel `talent-scheduling-and-offers` for an offer letter to be sent via DocuSign.
+- For US-based and non-US based (contractor) candidates: make a formal request in the Slack channel #talent-scheduling-and-offers for an offer letter to be sent via DocuSign.
 
   - **Step 1:** In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
   - **Step 2:** You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
   - **Step 3:** Click on _Offer Request_ and fill out the form.
   - **Step 4:** Click 'Submit' once you're done.
 
-- For non-US Based candidates hired via PEO: You should have already gone through the [process of having the PEO request approved](extending_an_offer.md#offer-process-for-peoeor-contracts). You will make a formal offer letter request in the Slack channel #peo-visa-hiring to begin the PEO onboarding process (example below).
+- For non-US Based candidates hired via PEO: You should have already gone through the [process of having the PEO request approved](extending_an_offer.md#offer-process-for-peoeor-contracts). You will make a formal offer letter request in the Slack channel #peo-visa-hiring-exceptions to begin the PEO onboarding process (example below).
 
   Hi team - we have a candidate based in `location` that we would like to onboard via Deel. Can we please initiate the process?
 
