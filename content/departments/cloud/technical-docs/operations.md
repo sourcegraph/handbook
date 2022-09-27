@@ -390,8 +390,6 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    ```
 
-````
-
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
 
 ```sh
@@ -567,4 +565,3 @@ This likely means our admin user account was deleted. To verify
 - run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
 - if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
 - login should now work correctly
-````
