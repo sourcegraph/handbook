@@ -61,10 +61,6 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 
 ## Onboarding process for PEO hires
 
-After the candidate formally signs the offer letter (contract) generated through the PEO, the Recruiter takes the following steps to onboard the new Teammate:
-
-**Turnaround time for PEO/EOR contracts**
-
 You need approval to bring a candidate on via Deel from People Ops.
 
 Process for approvals:
