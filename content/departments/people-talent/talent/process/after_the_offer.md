@@ -65,8 +65,8 @@ After the candidate formally signs the offer letter (contract) generated through
 
 **Turnaround time for PEO/EOR contracts**
 
-- Talent notifies People Ops of verbal acceptance and provides contract info
-  - You can find what contract info you need to provide under the [_Offer Stage_ , Step 7](extending_an_offer.md#offer-stage)
+- Talent notifies People Ops of verbal acceptance in the [#peo-visa-hiring-exceptions](https://sourcegraph.slack.com/archives/C028QD6HV6G) slack channel and provides contract info
+  - Detailed instructions can be found under the [_Offer Stage_ , Step 7](extending_an_offer.md#offer-stage)
 - People Ops enters information to Deel platform and invites candidate to onboard to Deel (~ 1 day)
 - Candidate creates Deel profile and completes required fields (~1-2 days)
 - Deel reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
