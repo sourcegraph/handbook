@@ -230,7 +230,7 @@ Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3M
 
 ### What information do I send to Legal for a Customer MSA review?
 
-Submit a request in the #deal-desk channel in Slack to Sourcegraph's Legal POC for commercial contracts. In your request, please include the following information: 
+Submit a request in the #deal-desk channel in Slack to Sourcegraph's Legal POC for commercial contracts. In your request, please include the following information:
 
 1.  What you are selling (1-2 sentences), including deployment method
 2.  Approximate contract value
