@@ -173,6 +173,8 @@ More Managed Instances can be found [here](./technical-docs/operations.md#access
 
 ## How we work
 
+### [Cloud launch process](launch-process.md)
+
 ### Issue tracking
 
 The [Cloud team GitHub Project](https://github.com/orgs/sourcegraph/projects/264/views/1) is the single source of truth.
