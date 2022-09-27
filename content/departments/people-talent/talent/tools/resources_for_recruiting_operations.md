@@ -26,20 +26,21 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 - When a candidate has passed the [Recruiter Screen](../process/types_of_interviews.md#recruiter-screen) stage of the Interview Process, the Recruiter will request interview scheduling from a coordinator.
 
-  - **Please note:** Make sure that all interviews under your interview plan in Greenhouse are up-to-date. 
+  - **Please note:** Make sure that all interviews under your interview plan in Greenhouse are up-to-date.
+
     - Under `Job Setup` > `Interview Plan` > Click _Edit Interview_ under each corresponding interview, and scroll to the `Interview Prep` section. Make a note at the top of that section listing who the required/preferred interviewers are and who their backup counterparts are. Add all potential interviewers to the `Set default interviewers` box.
- 
+
   - **Step 1:** Gather the candidate's availability
     - Note: While you can grab the availability from the candidate via email or verbally, it is ideal to gather this information via Greenhouse.
     - **Step 1**: Go to the Candidate's profile in Greenhouse
     - **Step 2**: Under the interview stage you will see `Availability` and a link that says `Request Availability`, click it.
-    - **Step 3**: Select the appropriate template, make sure to add any additional information in the Body. 
+    - **Step 3**: Select the appropriate template, make sure to add any additional information in the Body.
       - If the interviewer(s) provide preferred time slots, you can include those by clicking the `Suggest interview times for candidate` button.
     - **Step 4**: Send email
-  - **Step 2:** Make a formal request in the Slack channel [#talent-scheduling-and-offers](https://sourcegraph.slack.com/archives/C02AY4BLZS7) 
+  - **Step 2:** Make a formal request in the Slack channel [#talent-scheduling-and-offers](https://sourcegraph.slack.com/archives/C02AY4BLZS7)
     - **Step 1:** In the slack channel you will go to the message box and click on the Attachments & shortcuts button (the cross icon).
     - **Step 2:** You will see a section called Workflows for this channel with two options: `Scheduling Request` and `Offer Request`
-    - **Step 3:** Click on `Scheduling Request` and fill out the form. 
+    - **Step 3:** Click on `Scheduling Request` and fill out the form.
       - Under Availability, you can either paste the time slots the candidate provided or indicate that the availability is in Greenhouse.
       - Under Notes, include any additional information that will help recruiting coordinators schedule faster, such as who the required and preferred interviewers are.
     - **Step 4:** Click `Submit` once you’re done.
@@ -69,7 +70,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
   - **Pro tip:** Open this in a new window so you can view the candidate’s availability side by side with the scheduling page.
 - Remove anyone who does not need to attend the interview by clicking on the `x` next to their name
   - The Interview Plan and job post will specify how many people should be in each interview section and whether or not specific people are required
-  - See who the required interviewers are in the Interview Plan by clicking on the `Job Title` at the top of the candidate’s Greenhouse profile, selecting `Job Setup` > `Interview Plan` > Edit icon next to the corresponding interview stage, then scrolling to the `Interview Prep` section. 
+  - See who the required interviewers are in the Interview Plan by clicking on the `Job Title` at the top of the candidate’s Greenhouse profile, selecting `Job Setup` > `Interview Plan` > Edit icon next to the corresponding interview stage, then scrolling to the `Interview Prep` section.
   - **Note:** If there are discrepancies between the job post and interview plan, go to the role-specific hiring channel and ask your Recruiter to confirm the panel.
 
 **Step 4:** Select an available time on the calendar within Greenhouse that corresponds with the candidate’s availability.
