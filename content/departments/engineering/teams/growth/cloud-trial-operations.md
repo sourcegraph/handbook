@@ -20,7 +20,7 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
   - If the request is qualified **and** there's **no** instance on the domain of the requesting user's email:
     - set the lead status to `Approved trial`
     - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive. Unassigned accounts will be assigned round-robin.
-    - create a slack channel called #cloud-trial-<companyname> and add the owning AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Broody-More and Malo Marrec
+    - create a slack channel called `#cloud-trial-<companyname>` and add the owning AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec
     - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](#instance-provisioning-and-hand-off-workflow)
 - If there **is** already an instance on the domain of the requesting user's email
@@ -50,6 +50,7 @@ This workflow is very manual. We are working hard to automate all of this to imp
       2. a link to the onboarding checklist
       3. a link to schedule time with a customer engineer (CE)
    3. set the lead status in salesforce to `Trial Instance Handed Off`
+   4. Update the [server_installers_to_company]([url](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0)) spreadsheet so we can map this instance with the account's name (and corresponding Salesforce data). Use the `Company` Salesforce field if it's filled in. 
 
 After that workflow, a (TBD) admin onboarding email campaign will start.
 
@@ -57,7 +58,9 @@ After that workflow, a (TBD) admin onboarding email campaign will start.
 
 The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL). For now, the criteria is best judgement and the workflow is manual, but this will be clearly defined and automated in the future.
 
-When a trial becomes a PQL, the lead status will be changed to `PQL` in salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
+When a trial becomes a PQL, the lead status will be changed to `PQL` in Salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
+
+This will be manually triggered by `@Eric Brody-Moore` for now. See the qualification [here]([url](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.qsm8u5uvpib8))
 
 ## Expectations from stakeholders
 
@@ -111,3 +114,7 @@ Long term, we may create more specialised customer success roles to drive high l
 
 - Engage PQLs!
 - We **do not** engage with Cloud trials for commercial discussions, unless they're a Strategic account or are identified as PQLs
+
+## Data and Analytics
+
+- Maintain and/or contribute to the dashboards, data flows and both product and marketing growth iterations. See the [dashboard documentation]([url](https://docs.google.com/document/d/1zwSu0Kyug6VIB6Pm_L5Oprt5FPH8ky8kWDLGt64ryA8/edit)) for a list of dashboards and sources. 
