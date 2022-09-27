@@ -5,11 +5,11 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## Prereq
 
-Follow https://github.com/sourcegraph/deploy-sourcegraph-cloud-controller#installation to install `mi2`
+Follow https://github.com/sourcegraph/controller#installation to install `mi2`
 
 ```sh
-git clone https://github.com/sourcegraph/deploy-sourcegraph-cloud-next
-cd deploy-sourcegraph-cloud-dev
+git clone https://github.com/sourcegraph/cloud
+cd cloud
 ```
 
 ## Steps
@@ -46,10 +46,10 @@ git checkout -b $SLUG/create-instance
 - generate the kustomization manifests and helm override based on output from the terraform module
 
 ```sh
-mi2 generate -e dev --domain $DOMAIN --slug $SLUG
+mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-Above command will fail on the first run, follow the prompt to manually apply the terraform module. (or you can just run the command below)
+Above command will fail on the first run, follow the prompt to manually apply the terraform module or you can just run the command below
 
 Before applying the terraform modulel, gather the computed values and configure them as environment variables
 
@@ -71,7 +71,7 @@ terraform apply
 Rerun the `generate` command to generate the infra terraform module.
 
 ```sh
-mi2 generate -e dev --domain $DOMAIN --slug $SLUG
+mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
 Above command will fail again, run the command below to manually apply the `infra` terraform module.
@@ -87,7 +87,7 @@ terraform apply
 Rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
 
 ```sh
-mi2 generate -e dev --domain $DOMAIN --slug $SLUG
+mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
 ### Deploy application
@@ -96,7 +96,7 @@ Connect to the cluster locally by running
 
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/infra
-CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
+export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
 gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
 ```
 
@@ -118,7 +118,29 @@ Create a new pull request and merge it
 
 ## Troubleshooting
 
+### PVC is stuck at `Pending`
+
+You may be seeing the following events
+
+```
+failed to provision volume with StorageClass "sourcegraph": rpc error: code = InvalidArgument desc = CreateVolume failed to pick zones for disk: failed to pick zones from topology: need 2 zones from topology, only got 1 unique zones
+```
+
+This is due to there is only one worker node available in the pool, we can force worker pool to scale up by deployment the below pause pod.
+
+```sh
+kubectl apply -f https://gist.githubusercontent.com/michaellzc/c19b94d84cfd0da2265034d16d623aa9/raw/a8398bf3131bfcdb571f2122227debbb54371fbd/src-cloud-scale-up-node-pool.yaml
+```
+
+Don't forget to clean it up after PVCs are provisioned.
+
+```sh
+kubectl delete -f https://gist.githubusercontent.com/michaellzc/c19b94d84cfd0da2265034d16d623aa9/raw/a8398bf3131bfcdb571f2122227debbb54371fbd/src-cloud-scale-up-node-pool.yaml
+```
+
 ### How do I check my Sourcegraph deployment rollout progress?
+
+> We do not use ArgoCD for V2 MVP
 
 Visit ArgoCD at https://argocd-cloud.sgdev.org
 
