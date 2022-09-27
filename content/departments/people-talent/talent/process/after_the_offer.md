@@ -66,9 +66,10 @@ After the candidate formally signs the offer letter (contract) generated through
 **Turnaround time for PEO/EOR contracts**
 
 - Talent notifies People Ops of verbal acceptance and provides contract info
-- People Ops enters information to Remote platform and invites candidate to onboard to Remote (~ 1 day)
-- Candidate creates Remote profile and completes required fields (~1-2 days)
-- Remote reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
+  - You can find what contract info you need to provide under the [_Offer Stage_ , Step 7](extending_an_offer.md#offer-stage)
+- People Ops enters information to Deel platform and invites candidate to onboard to Deel (~ 1 day)
+- Candidate creates Deel profile and completes required fields (~1-2 days)
+- Deel reviews candidate and contract information to create and send SLA and Employment agreement (~3-5 days)
 - People Ops/VP Talent and Legal review SO/SLA and sign (~1-2 days)
 - Candidate reviews and signs Employment Agreement (~1-2 days)
 - People Ops forwards confirmation for signed employment agreement to Talent
