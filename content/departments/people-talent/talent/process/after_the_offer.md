@@ -33,7 +33,7 @@ After the candidate formally signs the offer letter via DocuSign, the Recruiter 
 **Step 5**: The Recruiter declines all other candidates if we are closing the role / not hiring for multiple positions.
 
 - Click [here](interview_process.md#declining-candidates) to learn how to decline candidates.
-- If hiring for multiple positions: 
+- If hiring for multiple positions:
   - Do not hire multiple people under the same job req in Greenhouse.
   - You must open a new job in Greenhouse and transfer the candidate's profile and scorecards over.
 
@@ -117,13 +117,13 @@ If a new hire needs to change their start date, the Recruiter follows the below 
 
 **Step 1**: Send the below Slack to Ines & Carly in the [#onboarding-internal](https://sourcegraph.slack.com/archives/C02773ADT7A) Slack channel to request approval to change the start date.
 
-  - **Please note:** All requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard.
+- **Please note:** All requests must be at least 5-days before the new start date to allow enough time for People Ops to onboard.
 
-  "Hi team, we have a candidate who would like to move their start date. Please find their updated details below. Do we have the green light to make the change? If so, I will update the hire date in Greenhouse and will send an email with the updated start date.
+"Hi team, we have a candidate who would like to move their start date. Please find their updated details below. Do we have the green light to make the change? If so, I will update the hire date in Greenhouse and will send an email with the updated start date.
 
-  - Name: \_\_\_\_
-  - Original start date: **\_\_**
-  - New start date: (must be a cohort date): **\_\_**"
+- Name: \_\_\_\_
+- Original start date: **\_\_**
+- New start date: (must be a cohort date): **\_\_**"
 
 **Step 2**: Update new start date in Greenhouse (in the offer section).
 
@@ -143,10 +143,11 @@ If a new hire decides not to join us _after being marked as Hired in Greenhouse_
 - If the laptop has been shipped, the Tech Ops team will own the laptop retrieval process.
 - If the laptop has not been shipped, no action is needed from the Recruiter.
 
-**Step 3:** The Recruiter will discuss next steps with the Hiring Manager. 
-  - Were there other finalists the team was excited about that they would like to extend the offer to now? 
-  - Were there any other candidates in-process that we’d like to loop back in to complete interviews? 
-  - If not, the Recruiter will begin sourcing and recruiting to rebuild the pipeline.
+**Step 3:** The Recruiter will discuss next steps with the Hiring Manager.
+
+- Were there other finalists the team was excited about that they would like to extend the offer to now?
+- Were there any other candidates in-process that we’d like to loop back in to complete interviews?
+- If not, the Recruiter will begin sourcing and recruiting to rebuild the pipeline.
 
 **Step 4:** The Recruiter will [re-open the role in Greenhouse](https://support.greenhouse.io/hc/en-us/articles/360025208872-Re-open-job#:~:text=Expand%20the%20Filter%20panel%20and,now%20reopened%20as%20a%20Draft.).
 
@@ -154,8 +155,9 @@ If a new hire decides not to join us _after being marked as Hired in Greenhouse_
 - After the candidate has been unhired, action the candidate out of the pipeline. Mark as “Withdrew” and add notes explaining why.
 - Re-open the req. in GH by searching for the req using the “Closed” job filter, then selecting “Open as Draft” and request approval.
 
-**Step 5:** If the hiring team wants to rebuild the pipeline and accept new applicants, make sure the role is posted to our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us) and begin recruiting as normal. 
-  - Do not create a new requisition number for the role that needs to be refilled.
+**Step 5:** If the hiring team wants to rebuild the pipeline and accept new applicants, make sure the role is posted to our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us) and begin recruiting as normal.
 
-- If extending the offer to a different finalist instead of accepting new applications, there is no need to make the role visible on our job board. Simply connect with the candidate to confirm they’re still interested in the role and excited to potentially join Sourcegraph, and schedule any other necessary conversations with the hiring manager/team (optional). Then, create a new offer for approval. 
+- Do not create a new requisition number for the role that needs to be refilled.
+
+- If extending the offer to a different finalist instead of accepting new applications, there is no need to make the role visible on our job board. Simply connect with the candidate to confirm they’re still interested in the role and excited to potentially join Sourcegraph, and schedule any other necessary conversations with the hiring manager/team (optional). Then, create a new offer for approval.
   - Follow [Extending an Offer](./extending_an_offer.md) steps as normal from here.
