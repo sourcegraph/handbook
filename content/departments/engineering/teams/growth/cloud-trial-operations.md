@@ -63,11 +63,19 @@ Note: all automated email will automatically appear in salesforce (through Malo'
 
 After that workflow, a (TBD) admin onboarding email campaign will start.
 
+### When trial users schedule time with us
+
+- SDRs will reach out to the CE owner and schedule some time
+- we will keep the discussion technical, and focused on onboarding
+- the inbound SDR that owns the lead will create a #cloud-trial-companyname channel, if it doesn't exist yet, and add the AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec.
+
 ### PQL qualification workflow
 
 The product growth team will be monitoring analytics for trial instances that have usage patterns that show signs that they could convert into a customer: Product Qualified Leads (PQL). For now, the criteria is best judgement and the workflow is manual, but this will be clearly defined and automated in the future.
 
-When a trial becomes a PQL, the lead status will be changed to `PQL` in Salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
+When a trial becomes a PQL:
+- the lead status will be changed to `PQL` in Salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
+- the inbound SDR that owns the lead will create a #cloud-trial-companyname channel, if it doesn't exist yet, and add the AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec.
 
 This will be manually triggered by `@Eric Brody-Moore` for now. See the qualification [here](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.qsm8u5uvpib8).
 
