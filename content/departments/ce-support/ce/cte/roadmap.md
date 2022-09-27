@@ -77,4 +77,3 @@ Q3/Q4 will be focused on continuing to build upon the foundation set in Q2, expa
   - Why: Post onboarding, CEs need to ensure their customers are continuing to onboard developers by providing training based on usage data and feedback from the customers. This feedback will influence the CTE team priorities on enhancing existing training and collateral, as well as creating new training and collateral when required.
   - How: Collateral and training will be made and updated as needed to support ongoing and customer-usage based training needs through an established feedback mechanism from CE to CTE.
   - Measure of Success: CEs are enabled to know which training exists, how to gather and provide feedback on trainings, and when to utilize trainings based on customer feedback and usage data. CTE measures feedback and effectiveness of the trainings.
-
