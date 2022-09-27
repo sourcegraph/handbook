@@ -27,6 +27,7 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
     - set the lead status to `Approved trial`
     - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive. If the lead is from an existing account, the AE will be aded to the lead automatically.
     - create a slack channel called `#cloud-trial-<companyname>` and add the owning AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec
+    - do **not** convert the lead. This will only happen if the trial [becomes a PQL](#pql-qualification-workflow)
     - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](#instance-provisioning-and-hand-off-workflow)
 - If there **is** already an instance on the domain of the requesting user's email
