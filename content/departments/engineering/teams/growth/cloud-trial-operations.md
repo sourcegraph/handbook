@@ -58,7 +58,7 @@ Note: all automated email will automatically appear in salesforce (through Malo'
       2. a link to the onboarding checklist
       3. a link to schedule time with a customer engineer (CE)
    3. set the lead status in salesforce to `Trial Instance Handed Off`
-   4. Update the [server_installers_to_company](<[url](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0)>) spreadsheet so we can map this instance with the account's name (and corresponding Salesforce data). Use the `Company` Salesforce field if it's filled in.
+   4. Update the [server_installers_to_company](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0) spreadsheet so we can map this instance with the account's name (and corresponding Salesforce data). Use the `Company` Salesforce field if it's filled in.
 
 After that workflow, a (TBD) admin onboarding email campaign will start.
 
