@@ -16,7 +16,7 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 ## Dashboard
 
-- [Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000004tI9EAI/view?queryScope=userFolders)
+- [Lead pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000004tI9EAI/view?queryScope=userFolders) (Salesforce)
 
 ### Trial request qualification workflow
 
