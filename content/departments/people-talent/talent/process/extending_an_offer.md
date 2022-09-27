@@ -31,7 +31,7 @@
 - We want to hire people who overwhelmingly get `Yes` and `Strong Yes` feedback. If the candidate did not receive all `Yes` or `Strong Yes` feedback, the Hiring Manager or Recruiter needs to submit written justification for moving forward with offer in the offer approval section.
   - If the candidate received a `no` during the values interview, follow [these steps](../process/evaluating_values.md#resources-for-recruiters).
 
-**Step 5**: Once the offer is **fully approved** in Greenhouse, Recruiter schedules an [offer summary call](extending_an_offer.md#offer-summary-call) using the email template in Greenhouse. 
+**Step 5**: Once the offer is **fully approved** in Greenhouse, Recruiter schedules an [offer summary call](extending_an_offer.md#offer-summary-call) using the email template in Greenhouse.
 
 **Step 6**: Following the offer summary call, the Recruiter sends the offer summary to the candidate in an email, and Cc's the Hiring Manager, VP Talent and Director, Technical Recruiting (if applicable).
 
@@ -77,10 +77,10 @@
 
   - Have your offer summary created and ready to present
     - **Step 1:** Create the offer summary by clicking "generate" in the Offer Details section of the candidate's Greenhouse profile, and select the appropriate offer summary.
-    - **Step 2:** Recruiter will download the offer summary as a Word Doc and then convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review. 
+    - **Step 2:** Recruiter will download the offer summary as a Word Doc and then convert to PDF. Recruiter will then send to the Hiring Manager and Director, Technical Recruiting (if applicable) for review.
     - **Note:** If you do not download the summary as a Word Doc first and then convert to PDF, the icons and formatting will have errors.
-  - Check that the previously discussed start date still falls on a Cohort start date. 
-    - If it does not, the recruiter must be sure to find an alternative date during the summary call. Any exceptions to that rule require approval from VP of Talent and People Ops (Jonathan and Ines). 
+  - Check that the previously discussed start date still falls on a Cohort start date.
+    - If it does not, the recruiter must be sure to find an alternative date during the summary call. Any exceptions to that rule require approval from VP of Talent and People Ops (Jonathan and Ines).
   - Recruiter and Hiring Manager should calibrate on alignment regarding how best to approach the call.
   - Recruiter and Hiring Manager should pick 3-4 of their favorite quotes about the candidate from scorecards submitted by interviewers during the process to reiterate excitement of the potential of them joining the team.
 
@@ -117,7 +117,7 @@
   - (1 min) Recruiter informs the candidate that they will send a copy of the offer summary right after the call and to reach out if any questions come up. Recruiter and Hiring Manager reiterate excitement.
 
   **Note for recruiters:** you can practice an offer summary call by reading a [sample script](https://docs.google.com/document/d/1ny8dtNN0VHhawhs_YOCxDJPs2zwuLTv9uvj1n2VkxGM/edit?usp=sharing)
-  
+
 ### Offer process for PEO/EOR contracts
 
 Our **default position** is to hire new teammates as contractors, as opposed to hiring via PEO.
