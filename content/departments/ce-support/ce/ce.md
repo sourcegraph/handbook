@@ -59,3 +59,7 @@ In the future, we intend to correlate usage with feature consumption based on cu
 - [New CE Onboarding](onboarding/index.md)
 - [Educational Materials](onboarding/education.md)
 - [Career Development](career-growth/index.md)
+
+## How to Reach Us
+
+You can reach us at the #ce channel or @ce on Slack. Customer Engineering represents the voice of our customers so if you're curious about something customer-related, particularly as it relates to how Sourcegraph brings customers value, we're the team to reach out to!
