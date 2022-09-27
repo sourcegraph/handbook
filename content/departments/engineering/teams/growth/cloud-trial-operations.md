@@ -21,8 +21,8 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 ### Trial request qualification workflow
 
 - The workflow starts when a user requests an instance on [signup.sourcegraph.com](http://signup.sourcegraph.com). When that happens:
-- A new lead is created in salesforce, in the `PR - Trial - Cloud - 9.27.22` campaign, and an alert is posted in #cloud-trial-alerts.
-- **A SDR** (`@Daniel Gwyn` or `@Casi Neff`) needs to qualify this request against this [qualification criteria](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.gsb6q3dp43wu) AND check if there is alredy an instance on the domain of the requesting user's email. For example, if `bob@acme-corp.com` requests an instance, we should first check if there's already a `acme-corp.sourcegraph.com`.
+- A new lead is created in salesforce, in the `PR - Trial - Cloud - 9.27.22` campaign, and an alert is posted in #cloud-trial-alerts
+- **A SDR** (`@Daniel Gwyn` or `@Casi Neff`) needs to qualify this request against this [qualification criteria](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.gsb6q3dp43wu) AND check if there is alredy an instance on the domain of the requesting user's email. For example, if `bob@acme-corp.com` requests an instance, we should first check if there's already a `acme-corp.sourcegraph.com`. For now, **all trial requests will be qualified by the inbound SDR team**.
   - If the request is qualified **and** there's **no** instance on the domain of the requesting user's email:
     - set the lead status to `Approved trial`
     - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive. If the lead is from an existing account, the AE will be aded to the lead automatically.
