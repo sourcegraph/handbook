@@ -55,7 +55,7 @@ Example topics to cover during intake meeting:
 - Any additional information
 - Job description
 
-**Step 2**: the Recruiter opens the job in Greenhouse. You can look up the Radford Job Code in Assemble. 
+**Step 2**: the Recruiter opens the job in Greenhouse. You can look up the Radford Job Code in Assemble.
 
 - Copy the "Template" job.
 - Build out the interview plan, adding all behavioral-based, structured questions (found in the [interview plan](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit)) directly into each interview stage.
