@@ -14,13 +14,12 @@ Coming out of Q2, the team accomplished:
 - Collaborated with [customer](https://github.com/sourcegraph/accounts/issues/6716) to ship public LMS 101 content (currently in staging; working with them to move to production and Marek to create videos; [videos available in Google Drive](https://docs.google.com/spreadsheets/d/1WFgfma5WIpXcFuP7fNEcEkLHv_i9LdKsFG6efjtIqj0/edit#gid=0))
 - Created three Comms Templates (config review, new customer kickoff, PoC slack announcement, [available in GitHub](https://github.com/sourcegraph/customer-training/tree/main/comms-templates))
 
-Going in to Q3, the team will be focused on expanding the training library as well as increasing the number of video offerings, due to CE and customer request. (DRI is Emily Chapman unless otherwise noted.)
+Going in to Q3, the team will be focused on expanding the training library as well as increasing the number of video offerings, due to CE and customer request.
 
 - Offering video content
 
   - What: We'll build modular video units to cover the LMS versions of Sourcegraph 101, 102, and the Admin webinar.
   - Why: Modular video content is a consistent request from customers and from CEs, and having modular content will allow targeted sharing of appropriate videos as part of the onboarding and enablement journey for the customer.
-  - How: Work on 101 videos is in progress already with Marek. 102 videos and admin webinars will be completed by Emily. By the end of the process, each LMS-formatted unit for each webinar should have an equivalent short video.
   - Business Outcome: CEs will have both sync and async training available for customers for all three required training units; we should no longer be blocked on enablement due to a lack of resources for these three trainings.
 
 - Use case based webinars
@@ -79,41 +78,3 @@ Q3/Q4 will be focused on continuing to build upon the foundation set in Q2, expa
   - How: Collateral and training will be made and updated as needed to support ongoing and customer-usage based training needs through an established feedback mechanism from CE to CTE.
   - Measure of Success: CEs are enabled to know which training exists, how to gather and provide feedback on trainings, and when to utilize trainings based on customer feedback and usage data. CTE measures feedback and effectiveness of the trainings.
 
-## Near-term Goals
-
-Near term, the Customer Training organization will support the mission of training and enablement opportunities for our enterprise customers. CTEs will formalize the structure and process for course creation, training enablement and delivery, and will begin to staff for delivering formalized training from the CTE org itself, off-loading this from the CE team.
-
-We anticipate the following initiatives:
-
-- Formal, Discrete Training Function / Offering
-
-  - What: Establish a formalized training offering, led by Customer Training, that is discretely provided to customers.
-  - How: Optional PS-style paid engagement or perhaps free for a certain tier (eg Strategic) as part of a great “Training Catalog” documenting our engagement offerings. (See longer-term goals for catalog information)
-
-- Advanced trainings on specific use-cases
-
-  - What: Create additional advanced trainings on specific use-cases, covering the 5 primary use-cases as a company and expanding into additional use cases as we receive feedback from the customers.
-  - How: Gathering feedback from the CE team and from customers, we’ll focus on additional use cases as we find new ways customers are using Sourcegraph, and transform these into formal trainings for additional specialized skillsets. For example, we may determine a GraphQL based training for Admins is appropriate for an advanced enablement training.
-
-## Longer-term Goals
-
-Going forward, the Customer Training organization will continue to support the company’s larger goals and metrics surrounding training and enablement opportunities. CTEs will continue to gather feedback and metrics on the impact of trainings against customer usage and adoption rates, and support the Customer Engineering team in their efforts to enable, onboard, and assist in rolling out Sourcegraph to their customers at scale to all customer segments, in a self-service and automated manner. This will continue to be driven through a world-class training experience through a formal learning management system (LMS), certifications, and more.
-
-We anticipate the following larger initiatives:
-
-- External Learning Management System (LMS)
-
-  - What: We’ll invest in a customer-facing LMS that’s built and maintained by the Customer Training team.
-  - Why: Streamlines upkeep and iteration of customer-facing training and enablement at scale.
-  - Measure of Success: End users are able to access content, consume content, and we see feature consumption in the intended and desired manner.
-
-- Sourcegraph Certification process
-
-  - What: We’ll create a certification process for partners, platform integrators, trainers, and end-users to be certified in Sourcegraph through our LMS.
-  - Why: Certification provides a simple way to showcase knowledge in various Sourcegraph skills. This can lead to partner enablement, platform expansion through integrators, and certification of our own team members in Sourcegraph.
-  - Measure of Success: Certifications exist for various course paths within the Sourcegraph LMS to be certified as admins, users, trainers, partners, integrators, etc.
-
-- Full training / services catalog
-
-  - What: We’ll create a training and services catalog in partnership with the CE team that showcases which CE led training and CE led engagements are available for a white-glove offering (whether we charge for this or build it into licensing for specific market segments)
-  - Why: Providing a catalog is a step toward showcasing the ways Sourcegraph can enhance the overall onboarding and adoption experience of Sourcegraph within a customer’s organizations. Enterprises are happy to pay for quality training, enablement engagements, and more. Showcasing this value through free or paid offerings in a catalog would give a one-stop-shop experience and assist future sales teams in their pitching of the value Sourcegraph can bring.
