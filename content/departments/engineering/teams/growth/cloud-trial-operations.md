@@ -12,6 +12,12 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 ## Workflow
 
+[Recording of Walkthrough with Malo and Eric](https://drive.google.com/file/d/1tW0NmtW0Vu3UBnRhJnnqKRK0EE5M6_Gr/view?usp=sharing)
+
+## Dashboard
+
+- [Lead pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000004tI9EAI/view?queryScope=userFolders) (Salesforce)
+
 ### Trial request qualification workflow
 
 - The workflow starts when a user requests an instance on [signup.sourcegraph.com](http://signup.sourcegraph.com). When that happens:
@@ -19,7 +25,8 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 - **A SDR** (`@Daniel Gwyn` or `@Casi Neff`) needs to qualify this request against this [qualification criteria](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.gsb6q3dp43wu) AND check if there is alredy an instance on the domain of the requesting user's email. For example, if `bob@acme-corp.com` requests an instance, we should first check if there's already a `acme-corp.sourcegraph.com`.
   - If the request is qualified **and** there's **no** instance on the domain of the requesting user's email:
     - set the lead status to `Approved trial`
-    - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive
+    - if the requesting user is from an existing customer or on the [strat 100](https://docs.google.com/spreadsheets/d/1JFHacGYDIBd4pMSrKC3QV25YFkK2yBfM0dMd9An2sGE/edit#gid=637855099) list, notify the owning Account Executive. Unassigned accounts will be assigned round-robin.
+    - create a slack channel called #cloud-trial-<companyname> and add the owning AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Broody-More and Malo Marrec
     - 🟢 your job as a SDR is done!
     - this will trigger an alert in #cloud-trial-alerts channel and start the [Instance provisioning and hand-off workflow](#instance-provisioning-and-hand-off-workflow)
 - If there **is** already an instance on the domain of the requesting user's email
@@ -36,6 +43,8 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 This workflow is very manual. We are working hard to automate all of this to improve the user experience massively, and reduce the operational burden. Come [join us](index.md)! All this workflow is powered by salesforce, and [Zapier automation](https://zapier.com/app/zaps/folder/1368159).
 
+Note: all automated email will automatically appear in salesforce (through Malo's account).
+
 ### Instance provisioning and hand-off workflow
 
 `@Eric Brody-Moore ` and `@malo` will be monitoring the #cloud-trial-alerts for qualified requests. When a request is sent, they will:
@@ -43,12 +52,14 @@ This workflow is very manual. We are working hard to automate all of this to imp
 1. self-assign the request by replying "I'm taking it" to the alert
 2. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial_mi.md#trial-managed-instance-creation-flow)
 3. when the instance is ready
-   1. set a license on the instance with 1,000 users, a 30-day limit, and the following tags: `plan:enterprise-0`,`acls`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`,`batch-changes`,`code-insights`,`trial`
-   2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit) with
+   1. set a license on the instance with 1,000 users, a **30-day limit**, and the following tags ([definition of tags](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@main/-/blob/enterprise/internal/licensing/data.go)): `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`.
+   2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit), **cc-ing the AE and CE** assigned to the account with
       1. an initial password reset link to the instance
       2. a link to the onboarding checklist
       3. a link to schedule time with a customer engineer (CE)
    3. set the lead status in salesforce to `Trial Instance Handed Off`
+
+After that workflow, a (TBD) admin onboarding email campaign will start.
 
 ### PQL qualification workflow
 
@@ -106,4 +117,5 @@ Long term, we may create more specialised customer success roles to drive high l
 
 ## Account Executives
 
-Engage PQLs!
+- Engage PQLs!
+- We **do not** engage with Cloud trials for commercial discussions, unless they're a Strategic account or are identified as PQLs

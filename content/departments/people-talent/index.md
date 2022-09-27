@@ -229,7 +229,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
 - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
-- [Talent Wall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+- [TalentWall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 
 ### Learning & development
 
@@ -316,7 +316,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 - [Recruiter onboarding resources](onboarding/index.md)
 - [Recruitment metrics](talent/process/talent_metrics.md)
-- [Recruiting tools](talent/process/index.md#recruiting-tools)
+- Recruiting tools
   - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)

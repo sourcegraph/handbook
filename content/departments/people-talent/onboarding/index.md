@@ -40,7 +40,7 @@ Each new team member is paired with two individuals during their onboarding time
   - Our different teams
   - Our internal tooling
   - The orgs you'll be supporting
-- Learn about the product by watching the Product Tour video and reading the first page of Sourcegraph's user documentation
+- Learn about the product by watching the [Product Tour video](https://www.youtube.com/watch?v=Kk1ea2-l8Hk) and reading the first page of Sourcegraph's user documentation
 - Schedule 1:1s with the Hiring Managers you will be supporting
 - Build out sourcing projects for your org's high priority roles
 - Listen to assigned Brighthire recordings
@@ -182,13 +182,11 @@ COMING SOON
 
 #### Week 2 Goals:
 
-#### Week 2:
-
 - Search the handbook for information about:
   - Our different teams
   - Our internal tooling
   - The orgs you'll be supporting
-- Learn about the product by watching the Product Tour video and reading the first page of Sourcegraph's user documentation
+- Learn about the product by watching the [Product Tour video](https://www.youtube.com/watch?v=Kk1ea2-l8Hk) and reading the first page of Sourcegraph's user documentation
 - Schedule 1:1s with teammates cross-funtional stakeholders you will be supporting
 - Build out sourcing projects for your org's high priority roles
 - MORE COMING SOON
@@ -237,7 +235,7 @@ We want everyone to feel certain and comfortable with where they are at currentl
 
 #### People Partner
 
-**Within one month, you will… **
+**Within one month, you will…**
 
 - Have completed the onboarding process yourself, and understand what it looks like for other parts of the business
 - Build relationships with each member of the team and understand how the team supports the company and works together

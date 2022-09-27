@@ -81,30 +81,29 @@ When trial expires and customer do not wish to sign the deal, instance requestor
 1. New [trial managed instance request issue](https://github.com/sourcegraph/customer/issues/new?assignees=&labels=team%2Fcloud%2C+mi%2Cmi%2Fnew-instance-request%2C+cloud-trial&template=new_trial_managed_instance.md&title=New+Trial+Managed+Instance+request%3A+%5Bdomain+name%5D) is open by CE or [Growth Team](../engineering/teams/growth/index.md) (DRI [Malo Marrec](../../team/index.md#sts=Malo%20Marrec))
 2. Based on the time of issue creation:
 
-   2.1. Withing Cloud Team working hours (`Monday to Friday - 7:00 AM GMT - 10:00 PM GMT`)
-
-   - [Github Integration](https://sourcegraph.app.opsgenie.com/settings/integration/edit/GitHub/f69b65ee-8cbe-4557-8ed8-13b294c45667?teamId=9ec2825d-38da-4e2b-bdec-a0c03d11d420) will send alert to [cloud-trial-creator Opsgenie route](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main)
-   - this alert will notify Cloud Team member, who should Acknowledge the alert and proceed to p.3
-
-     2.2. Outside of Cloud Team working hours
-
-   - Cloud Team will receive new Trial Managed Instance request via email and on-call person should proceed to p.3 withing 1 working day
+   - Within Cloud Team working hours (`Monday to Friday - 7:00 AM GMT - 10:00 PM GMT`)
+     - [GitHub Integration](https://sourcegraph.app.opsgenie.com/settings/integration/edit/GitHub/f69b65ee-8cbe-4557-8ed8-13b294c45667?teamId=9ec2825d-38da-4e2b-bdec-a0c03d11d420) will send alert to [cloud-trial-creator Opsgenie route](https://sourcegraph.app.opsgenie.com/teams/dashboard/9ec2825d-38da-4e2b-bdec-a0c03d11d420/main)
+     - This alert will notify Cloud Team member, who should Acknowledge the alert and proceed to p.3
+   - Outside of Cloud Team working hours
+     - Cloud Team will receive new Trial Managed Instance request via email and on-call person should proceed to p.3 withing 1 working day
 
 3. Create Trial Managed Instance
+
    Trial Managed Instance should be created according to the [Managed Instance create process](./technical-docs/v1.1/mi1-1_creation_process.md).
 
    Important:
 
-- Instance type should be trial
-- Instance size should be small
-- Customer name has to be max 10 characters (GCP project name limit - `sourcegraph-managed-SLUG` cannot execeed 30 characters). If customer SLUG has more characters:
-  - set `customer endpoint` to `SLUG.sourcegraph.com`
-  - set `customer` with SLUG trimmed to 10 characters
-- other parameters should be used from New Trial Managed Instance request.
+   - Instance type should be trial
+   - Instance size should be small
+   - Customer name has to be max 10 characters (GCP project name limit - `sourcegraph-managed-SLUG` cannot execeed 30 characters). If customer SLUG has more characters:
+     - set `customer endpoint` to `SLUG.sourcegraph.com`
+     - set `customer` with SLUG trimmed to 10 characters
+   - other parameters should be used from New Trial Managed Instance request.
 
 4. Finalisation
 
-   When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
+- When [giving customer access](./technical-docs/v1.1/mi1-1_creation_process.md#giving-customer-access) is done via comment in New Trial Managed Instance request issue, alert in `#cloud-notifications` should be closed.
+- Also add the `cloud-trial/instance-ready` label on the instance request issue. This will trigger an alert in #cloud-trial-alerts.
 
 ## FAQ
 
