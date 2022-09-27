@@ -172,13 +172,13 @@ Note: If you're removing the interviewer who is set as the zoom meeting host, yo
 
 - You’ll see that the Google calendar updates you made are reflected in the interview schedule
 
-**Step 2:** Click “_Resend Interview Confirmation_” above the candidate’s availability.
+**Step 2:** Click "_Resend Interview Confirmation_” above the candidate’s availability.
 
 **Step 3:** The email template will auto-populate again. 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d
 
 **Step 4:** Adjust the subject line to include “UPDATED”
 
-**Step 5:** Within the “_Interview Agenda_” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md). Double check that the correct Zoom link is in the invite.
+**Step 5:** Within the "_Interview Agenda_” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md). Double check that the correct Zoom link is in the invite.
 
 **Step 6:** Send Email
 
