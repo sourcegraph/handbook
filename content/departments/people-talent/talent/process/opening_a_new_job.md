@@ -18,7 +18,7 @@ The below actions must take place before we begin interviewing candidates.
 
 - If you need help completing this form or getting a status update on your headcount request, please get in touch with your [recruiting partner](../../teamalignment.md) so they can help move this through the process.
 
-**Step 2**: The People and Finance team will confirm whether or not the headcount request is approved.
+**Step 2**: The exec team must agree that this is a business-critical role before the Finance team can approve it for hire. This happens synchronously during exec team meetings, and a decision will be made at this meeting. Finance will then note whether the role is approved or denied in [this sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630). Alternatively, the Hiring Manager can request this approval be completed async by the exec team.
 
 **Step 3**: If the role is approved, the Hiring Manager creates a job description & interview plan using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). We recognize that this step is time consuming, yet it is a critical step in setting our search up for success. Creating a well-thought out job description and interview plan 1) ensures alignment between the Hiring Manager, the hiring team, and the Recruiter and 2) ensures that all candidates are receiving a fair and consistent interview experience. Creating a strong plan upfront is also proven to reduce time-to-fill, meaning that we will make a hire faster, on average.
 
@@ -32,6 +32,7 @@ The below actions must take place before we begin interviewing candidates.
 
 **Pre-Kickoff**
 
+- Please check [this sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630) to confirm headcount has been approved by the exec and Finance team.
 - If you are awaiting confirmation on a headcount request, please request a status update through the #finance-talent-collab slack channel.
 - Make sure that the net new or backfill req is added to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630).
 
