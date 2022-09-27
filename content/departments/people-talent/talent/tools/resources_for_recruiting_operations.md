@@ -36,7 +36,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
     - **Step 2**: Under the interview stage you will see "_Availability_", click the 2nd link to the right that says "_Request Availability_"
     - **Step 3**: Select the appropriate template, make sure to add any additional information in the Body.
       - If the interviewer(s) provide preferred time slots, you can include those by clicking the "_Suggest interview times for candidate_" button.
-    - **Step 4**: Send email
+    - **Step 4**: Send email 
   - **Step 2:** Make a formal request in the Slack channel [#talent-scheduling-and-offers](https://sourcegraph.slack.com/archives/C02AY4BLZS7)
     - **Step 1:** In the slack channel you will go to the message box and click on the Attachments & shortcuts button (the cross icon).
     - **Step 2:** You will see a section called Workflows for this channel with two options: "_Scheduling Request_" and "_Offer Request_"
