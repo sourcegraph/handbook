@@ -364,6 +364,22 @@ A broken repo can be identified by
 - `repo-updater` alerts - [syncer_synced_repos](https://docs.sourcegraph.com/admin/observability/alert_solutions#repo-updater-syncer-synced-repos)
 - `git prune` and `git fetch` operations failing when run inside gitserver on the repo directly
 
+> Also possible to fix this by calling a specific API endpoint mutation:
+
+```graphql
+query {
+  repository(name: "github.com/sourcegraph/sourcegraph") {
+    id
+  }
+}
+
+mutation {
+  recloneRepository(repo: "id-from-query-above") {
+    id
+  }
+}
+```
+
 Once you have identified a repo is constantly failing to be updated/fetched, execute the following steps:
 
 1. Set up env vars
@@ -373,6 +389,8 @@ Once you have identified a repo is constantly failing to be updated/fetched, exe
    export CUSTOMER=<customer_or_instance_name>
    export DEPLOYMENT=$(gcloud compute instances list --project "$PROJECT_PREFIX-$CUSTOMER" | grep -v "executors" | awk 'NR>1 { if ($1 ~ "-red-") print "red"; else print "black"; }')
    ```
+
+````
 
 1. Determine if `git prune` or `git fetch` is failing by exec'ing into the gitserver-0 container
 
@@ -549,3 +567,4 @@ This likely means our admin user account was deleted. To verify
 - run `SELECT id,username,deleted_at FROM users ORDER BY created_at LIMIT 1;` and check if the third value is set to a non NULL value (a date)
 - if you see `deleted_at` set, take note of ID (usually equal to 1, returned in first column) and use `UPDATE users SET deleted_at = NULL where ID = ?` (substitute `?` for id) to mark the user as not deleted
 - login should now work correctly
+````
