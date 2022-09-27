@@ -12,6 +12,8 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 ## Workflow
 
+[Recording of Walkthrough with Malo and Eric](https://drive.google.com/file/d/1tW0NmtW0Vu3UBnRhJnnqKRK0EE5M6_Gr/view?usp=sharing)
+
 ### Trial request qualification workflow
 
 - The workflow starts when a user requests an instance on [signup.sourcegraph.com](http://signup.sourcegraph.com). When that happens:
