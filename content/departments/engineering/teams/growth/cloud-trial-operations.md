@@ -14,9 +14,17 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 [Recording of Walkthrough with Malo and Eric](https://drive.google.com/file/d/1tW0NmtW0Vu3UBnRhJnnqKRK0EE5M6_Gr/view?usp=sharing)
 
-## Dashboard
+## Dashboards
 
 - [Lead pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000004tI9EAI/view?queryScope=userFolders) (Salesforce)
+- [Main lead/funnel/ongoing trial dashboard (Looker)](https://sourcegraph.looker.com/dashboards/341)
+  - Ongoing trials
+  - Traffic -> lead -> trial instances
+  - Lead status breakdown
+- [Amplitude instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)
+  - Event-level data from trial instances
+- [Server instance overview (Looker)](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Netflix&Salesforce+Unique+ID=)
+  - The same dashboard you’re probably used to; cloud trials are still Sourcegraph instances and send pings, so we have the same aggregated data as any on-prem/managed instance
 
 ### Trial request qualification workflow
 
