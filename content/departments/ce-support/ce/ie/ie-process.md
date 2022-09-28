@@ -2,11 +2,15 @@
 
 This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for _Jointly Managed Implementations_. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
 
-# Inputs from CE
+# Cross-Functional Collaboration
 
-The primary input from CE will be the TDD. The TDD, when completed, should include all technical information necessary for the implementation team to plan out a deployment for the newly signed customer. The TDD should be updated with information about lessons learned in the POC process and how the proof of concept design and deployment differs from the production design and deployment.
+The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
 
-For more information on how the CE team will interact with the Implementation team and hand off accounts, visit the [CE Implementation Handoff](ce-implementation-handoff.md) page.
+CE - [CE-Implementation Collaboration Overview](ce-implementation-handoff.md)
+Sales
+TAM
+Sales
+Engineer
 
 # Implementation Team Tasks and Responsibilities
 
