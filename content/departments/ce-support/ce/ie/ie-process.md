@@ -1,4 +1,4 @@
-# Overview
+# Implementation Process Overview
 
 This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for _Jointly Managed Implementations_. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
 
@@ -42,6 +42,8 @@ The steps below detail, on a high level, the steps that the Sourcegraph implemen
   - Building a replica environment is especially important for new deployments with unique considerations (exceptional number of repos, exceptionally large monorepos, exceptionally high seat count). This will help validate the resourcing estimations for the customer’s deployment.
 - Validate resourcing estimations for customer environments
   - Using the replica environment, run k6 load testing to ensure the instance can handle user traffic at scale and maintain high levels of performance.
+- Internal status reporting and blockers removal
+  - The Implementation Project Manager will report on the status of the project to internal stakeholders while assisting the Implementation Engineer to remove any implementation blockers they may be running into.
 
 # Implementation Stakeholders
 
