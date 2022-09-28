@@ -174,7 +174,7 @@ Generally speaking, revisiting bands every six months helps avoid market volatil
 
 **Where do I learn more about leveling at Sourcegraph?**
 
-For information about leveling at Sourcegraph at a high level, check out the [Sourcegraph Leveling Guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit). 
+For information about leveling at Sourcegraph at a high level, check out the [Sourcegraph Leveling Guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit).
 
 For department specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md#career-frameworks).
 
