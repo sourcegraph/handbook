@@ -28,11 +28,20 @@ We identify candidates using a variety of channels:
 
 ### Recruiting agencies
 
-- When do we use agencies? We only partner with select recruitment agencies in a limited capacity. Most recruiting takes place via our internal recruitment team. Any outside agency support must be approved by both the VP Talent and Head of Finance, who will review requests on a case-by-case basis. If internal Sourcegraph recruiters are not enough to meet the needs of the team, then we will consider outside help.
-- How do we engage with a new agency? To engage with a new agency, please Slack @hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. As a next step, the VP of Talent will send and sign all agency agreemnts. All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit). Our standard agency fee is 20%.
-- How do agencies submit candidates?: the talent team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse.
-- Where do we store agency agreements?: The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq).
-- What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate? Please forward any emails from agencies to recruiting@sourcegraph.com.
+- Q: When do we use agencies?
+- A: We only partner with select recruitment agencies in a limited capacity. Most recruiting takes place via our internal recruitment team. Any outside agency support must be approved by both the VP People & Talent and Head of Finance, who will review requests on a case-by-case basis. If internal Sourcegraph recruiters are not enough to meet the needs of the team, then we will consider outside help.
+
+- Q: How do we engage with a new agency?
+- A: To engage with a new agency, please Slack #hiring with your request, including 1) the agency name/contact information and 2) the roles that you would like the agency to work on. The VP People & Talent and Head of Finance will then review the agency. If approved, the VP of People & Talent will send and sign all agency agreements. All agencies sign our [standard agreement](https://docs.google.com/document/d/1IU_eWoZxEGQS8RRcjuUPfVD-byWScn5bsZE3e3oFZQ0/edit). Our standard agency fee is 20%.
+
+- Q: How do agencies submit candidates?
+- A: The Talent Team will set each agency up with a Greenhouse account. All agencies **must** submit candidates via Greenhouse. If an agency does not submit a candidate via Greenhouse, they will not get credit for that candidate.
+
+- Q: Where do we store agency agreements?
+- A: The folder to store agency contracts can be found [here](https://drive.google.com/drive/u/0/folders/1aEtbTvcQF7hfd3mHH0JMgBhlFLYL4piq).
+
+- Q: What do I do if an agency recruiter (with whom we do **not** have an agreement) emails me a candidate?
+- A: Please forward any emails from agencies to recruiting@sourcegraph.com.
 
 # Sourcing best practices
 
@@ -43,10 +52,10 @@ We identify candidates using a variety of channels:
 - Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and/or content at touch points delivered to a targeted candidate at predefined intervals.
 
 [Here's](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) a guide on creating a Recruiting Outreach Campaign.
-[Here's](https://docs.google.com/spreadsheets/d/1dEVe7YUGJrQvu6zKk0iVZ9VbOhqF-ZDTDdzUT2P2f04/edit#gid=1234033687) our Target Companies list for Recruiters & Sourcers.
+[Here's](https://docs.google.com/spreadsheets/d/1dEVe7YUGJrQvu6zKk0iVZ9VbOhqF-ZDTDdzUT2P2f04/edit#gid=1234033687) our target companies list for Recruiters & Sourcers.
 
 ### How a Recruiter and/or Hiring Manager partners with their Sourcer
 
-- A sourcer is responsible for sourcing passive and active candidates for open roles. A Sourcer partners extensively with Recruiters and Hiring Managers to identify, attract, and message appropriate candidates.
+- A Sourcer is responsible for sourcing passive and active candidates for open roles. A Sourcer partners extensively with Recruiters and Hiring Managers to identify, attract, and message appropriate candidates.
 
-[Here's](how_to_be_a_sourcer_at_sourcegraph.md) a guide on how a sourcer partners with recruiters and hiring managers.
+[Here's](how_to_be_a_sourcer_at_sourcegraph.md) a guide on how a Sourcer partners with Recruiters and Hiring Managers.

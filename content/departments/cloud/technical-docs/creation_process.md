@@ -76,7 +76,6 @@ For basic operations like accessing an instance for these steps, see [managed in
    ```
 1. Enable metrics collection and GCP alerts for created Managed Instance via [this action](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/monitoring#2-add-new-managed-instances-project-to-be-monitored).
 1. Enable security audit logging via `terraform apply` in [infrastructure repository](https://github.com/sourcegraph/infrastructure/tree/main/security/auto-discovery) - this will create required resources dynamically, based on project label.
-1. Add an entry for the customer by adding their [Accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
 ## Giving the customer access
 
