@@ -18,7 +18,7 @@ Colors:
 
 - The marketing DLS has a single complete palette, based on our core brand colors.
   - They can be found on the [Colors page](https://www.figma.com/file/o1QRtdQI0ozKq0n7ATrKlx/Marketing-DLS?node-id=18%3A101)
-- For details on how to use these colors semantically, reference the [Colors section](./brand_guidelines/color.md) of our Brand Guidelines.
+- For guidance on how to apply these colors in marketing, reference the [Colors section](./brand_guidelines/color.md) of our Brand Guidelines.
 
 Spacing:
 
