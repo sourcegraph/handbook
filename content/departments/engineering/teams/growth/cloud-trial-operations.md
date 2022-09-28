@@ -92,7 +92,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 - After a cloud instance trial request is qualified, raise instance provisioning requests to the cloud team
 - When the instance is provisioned, hand it off to the user and make sure they can get started
-- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md/#cloud-trial-managed-instances) the trial
+- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md#cloud-trial-managed-instances) the trial
 - monitor metrics for product qualified leads (PQLs)
 - (those are just operational tasks, the product growth team is also working on its usual produc team stuff)
 
