@@ -20,15 +20,11 @@ Conversion notes:
 * Tables are currently converted to HTML tables.
 ----->
 
-
-
 # Implementation Strategies and Recommendations
 
 There are several potential deployment and implementation strategies that may be used with a customer depending on their deployment type, size, and complexity. Each deployment strategy involves different internal owners and timeline expectations.
 
-
 ### Deployment Strategies
-
 
 <table>
   <tr>
@@ -117,4 +113,3 @@ TPM
    </td>
   </tr>
 </table>
-
