@@ -1,7 +1,5 @@
 # Code Intelligence Platform strategy planning process and timeline
 
-Note that this won’t be the top priority of product nor design until after sept 27 ([Strategic-readiness](../strategic/index.md) work comes first).
-
 > Important tactical note: further specifics for each stage will be added on a rolling basis.
 
 <object data="process-roadmap-high-level.svg" width="835" height="327" aria-label="Diagram showing a single timeline, with the first section title from left to right being vision, the second strategy, and the third and roadmap. The text across all 3 sections reads as follows, from left to right: hypotheses, validation, definition, top level strategy, tactical strategy, team/feature roadmap."></object>
