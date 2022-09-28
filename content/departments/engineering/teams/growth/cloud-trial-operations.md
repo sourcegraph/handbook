@@ -26,7 +26,6 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 - [Server instance overview (Looker)](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Netflix&Salesforce+Unique+ID=)
   - The same dashboard you’re probably used to; cloud trials are still Sourcegraph instances and send pings, so we have the same aggregated data as any on-prem/managed instance
 
-
 ### Trial request qualification workflow
 
 - The workflow starts when a user requests an instance on [signup.sourcegraph.com](http://signup.sourcegraph.com). When that happens:
