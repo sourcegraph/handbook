@@ -1,4 +1,4 @@
-# Overview
+# CE-Implementation Collaboration Overview
 
 This document is a work in progress to give an overview of the expectations of the handoff between the customer engineering team and the implementation engineering team when a new customer requires implementation support.
 
@@ -12,11 +12,29 @@ During the initial conversations with a customer, the CE should evaluate whether
 
 # Initiating an IE Request
 
-If the customer is unable to utilize our Cloud option or a single node solution, then the CE should submit a new request via New IE Customer Request workflow in the #ask-implementation channel. Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
+If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to [#ask-implementation](https://sourcegraph.slack.com/archives/C0418GDBT7S) with the following information:
+
+Jointly-Managed Implementation Request
+- Customer Name:
+- Link to Salesforce Opportunity:
+- Link to TDD:
+- Expected Deployment Type:
+- Expected Hosting Provider:
+- Additional Information (if needed):
+
+From there, the implementation team will add the customer to the [Jointly-Managed Backlog](https://docs.google.com/spreadsheets/d/1v36cFlcWGEGENKGGTsElCEP4_ZhIQd2mhgpwDxRPtGM/edit#gid=0) where the account/opportunity will be triaged and prioritized. The triage will take into consideration:
+
+1. Overall size and technical complexity of the deployment
+2. Opportunity ARR and TAM of the account
+3. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
+4. Current bandwidth 
+ Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
+
+The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly-managed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
 
 # Handoff to Implementation
 
-As a prerequisite to a handoff from CE to Implementation, the Implementation team must review and sign off on the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit#heading=h.y9pic5x93a9l) (TDD) written by the CE and a high-level sense of project requirements should be established. This will give the Implementation team a much clearer understanding of the scope of the deployment as it was agreed upon between the customer and Sourcegraph. In order to accomplish this, the [Implementation Project Manager](../tpm/index.md) should be pulled into conversations surrounding the customer deployment during the discovery phase. The [Implementation Engineer](index.md) should then be engaged following completion of the initial TDD draft.
+As a prerequisite to a handoff from CE to Implementation, the Implementation team must review and sign off on the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/edit#heading=h.y9pic5x93a9l) (TDD) written by the CE and a high-level sense of project requirements should be established. The TDD should include all technical information necessary for the implementation to plan out the customer's deployment, giving the implementation team a much clearer understanding of the scope of the deployment as it was agreed upon between the customer and Sourcegraph. In order to accomplish this, the [Implementation Project Manager](../tpm/index.md) should be pulled into conversations surrounding the customer deployment during the as the customer approaching contract closure. The [Implementation Engineer](index.md) should then be engaged following completion of the initial TDD draft.
 
 In the event the customer has different requirements for their production deployment from the trial outlined in the TDD, the production requirements should be documented in the TDD in a separate section.
 
@@ -34,7 +52,7 @@ When the request for IE resourcing has been approved, the internal stakeholders 
 
 # Requirements Collection and Project Planning
 
-During discovery, requirements for the implementation should be collected. Much of this information will be gathered as part of the TDD, but the overall goal of the implementation team leading up to the contract being signed collect:
+During discovery, requirements for the implementation should be collected. Much of this information will be gathered as part of the TDD, but,leading up to the contract being signed, the implementation team will need to collect:
 
 - Technical Requirements
 - Deployment Timelines
