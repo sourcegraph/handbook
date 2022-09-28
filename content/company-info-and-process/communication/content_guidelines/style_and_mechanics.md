@@ -842,8 +842,6 @@ We capitalize product names. Qualify product names with `Sourcegraph $FEATURE` o
 
 List of product names:
 
-- Sourcegraph Self-hosted
-- Sourcegraph Cloud
 - Batch Changes
 - Code Insights
 - Code Search
