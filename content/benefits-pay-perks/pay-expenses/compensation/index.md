@@ -28,7 +28,7 @@ We are an early-stage company, and every Teammate can have a huge impact on our 
 
 **Benefits and perks**
 
-- See[benefits and perks](../../benefits-perks/index.md)
+- See [benefits and perks](../../benefits-perks/index.md)
 
 **Commissions and bonuses**
 
