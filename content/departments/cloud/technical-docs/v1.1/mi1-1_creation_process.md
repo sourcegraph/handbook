@@ -28,7 +28,6 @@ For basic operations like accessing an instance for these steps, see [managed in
   Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
 
 1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
-1. Add an entry for the customer by adding their [accounts](https://github.com/sourcegraph/accounts/) link to the checklist in the [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md). DO NOT use customer name in Pull Requests title nor commits/description, only issue number. Sample link: `https://github.com/sourcegraph/customer/issues/1125`
 
 Note:
 
