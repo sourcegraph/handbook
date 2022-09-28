@@ -230,8 +230,11 @@ Note: the [Order Form Review Guide](https://docs.google.com/document/d/1xOFBtx3M
 
 ### What information do I send to Legal for a Customer MSA review?
 
-1. In the #deal-desk channel in Slack, look for the + sign (it has a blue lightning bolt) in the bottom left-hand corner. Click that button and you’ll see under “Workflows for this channel” a workflow called “Legal Review - MSA”.
-   1. Click the “Legal Review - MSA” workflow option. It will open up a form for you to fill out in order to make a formal request for Legal review.
+Submit a request in the #deal-desk channel in Slack to Sourcegraph's Legal POC for commercial contracts. In your request, please include the following information:
+
+1.  What you are selling (1-2 sentences), including deployment method
+2.  Approximate contract value
+3.  Any other relevant context
 
 ### What are the SLAs for Legal review of Customer contracts?
 
@@ -454,7 +457,7 @@ YES. It does not matter if we can’t redline the contract; it’s still very im
 ### What information do I send to Legal and Business Development for a Partner contract review?
 
 1. Purpose of the contract (1–2 sentences)
-2. Data: Confirm whether the vendor will access customer data, teammate data, or other sensitive data
+2. Data: Confirm whether the partner will access customer data, teammate data, or other sensitive data
 3. Fees: If the contract includes fees payable by or to Sourcegraph, include written approval from the VP Budget Owner
 4. Marketing rights: Propose any changes to the marketing, publicity, and logo terms or confirm that you have no changes
 5. Responsibilities and Restrictions on Sourcegraph (for product integrations): Propose any changes or confirm that you have no changes

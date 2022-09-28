@@ -25,14 +25,32 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 ### How Recruiters submit interview requests
 
 - When a candidate has passed the [Recruiter Screen](../process/types_of_interviews.md#recruiter-screen) stage of the Interview Process, the Recruiter will request interview scheduling from a coordinator.
-  - Currently requests are submitted in the private ‘talent-scheduling-and-offers’ Slack channel (subject to change).
-  - The interview schedule request needs to include the following information: Candidate name, Job Title, [Interview Type](../process/types_of_interviews.md), Candidate Availability, and any relevant notes.
+
+  - **Please note:** Make sure that all interviews under your interview plan in Greenhouse are up-to-date.
+
+    - Under "_Job Setup_" > "_Interview Plan_" > Click "_Edit Interview_" under each corresponding interview, and scroll to the "_Interview Prep_" section. Make a note at the top of that section listing who the required/preferred interviewers are and who their backup counterparts are. Add all potential interviewers to the "_Set default interviewers_" box.
+
+  - **Step 1:** Gather the candidate's availability
+    - Note: While you can grab the availability from the candidate via email or verbally, it is ideal to gather this information via Greenhouse.
+    - **Step 1**: Go to the Candidate's profile in Greenhouse
+    - **Step 2**: Under the interview stage you will see "_Availability_", click the 2nd link to the right that says "_Request Availability_"
+    - **Step 3**: Select the appropriate template, make sure to add any additional information in the Body.
+      - If the interviewer(s) provide preferred time slots, you can include those by clicking the "_Suggest interview times for candidate_" button.
+    - **Step 4**: Send email
+  - **Step 2:** Make a formal request in the Slack channel [#talent-scheduling-and-offers](https://sourcegraph.slack.com/archives/C02AY4BLZS7)
+    - **Step 1:** In the slack channel you will go to the message box and click on the Attachments & shortcuts button (the cross icon).
+    - **Step 2:** You will see a section called Workflows for this channel with two options: "_Scheduling Request_" and "_Offer Request_"
+    - **Step 3:** Click on "_Scheduling Request_" and fill out the form.
+      - Under Availability, you can either paste the time slots the candidate provided or indicate that the availability is in Greenhouse.
+      - Under Notes, include any additional information that will help recruiting coordinators schedule faster, such as who the required and preferred interviewers are.
+    - **Step 4:** Click "_Submit_" once you’re done.
+
 - The coordinator will provide scheduling status updates (typically done via emoji on the recruiter’s Slack message with the schedule request)
 
 ### How all other teammates submit interview requests
 
 - Simply let the appropriate Recruiter and/or Recruiting Operations Specialist know what you would like scheduled in whatever format is easiest for you (email, slack, tagging them in Greenhouse, etc.). Please include the candidate’s full name and which [types of interviews](../process/types_of_interviews.md#resume-deep-dive) you would like scheduled. We will let you know if we have any follow up questions!
-  - If you do not hear back from us in 24–48 hours, please send a kind reminder over Slack!
+  - If you do not hear back from us in 24–48 hours, please send a kind reminder over Slack in the [#Hiring](https://sourcegraph.slack.com/archives/C168VP0FM) channel
 
 ## Interview scheduling
 
@@ -40,35 +58,36 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
 **Step 1:** Find the candidate’s profile in Greenhouse by searching for their name.
 
-**Step 2:** On the _On1Job_ tab, note the candidate’s current step in the interview process and their availability for the next interview step(s).
+**Step 2:** On the "_On1Job_" tab, note the candidate’s current step in the interview process and their availability for the next interview step(s).
 
 - Recruiter and/or Hiring Manager will let you know which step(s) need to be scheduled.
-- The candidate’s availability will be listed in _your_ time zone, meaning, whichever time zone you designated for yourself under your Greenhouse settings.
+- The candidate’s availability will be listed in "_your_" time zone, meaning, whichever time zone you designated for yourself under your Greenhouse settings.
   - You can find the candidate’s time zone by scrolling up to the top of their profile and looking under their name. Alternative ways to find a candidate’s location are within their resume on the Details tab, or on the Linkedin tab.
 
-**Step 3:** Click “Schedule Interview” to the right of the interview section that you need to schedule.
+**Step 3:** Click "_Schedule Interview_" to the right of the interview section that you need to schedule.
 
 - This will take you to a page showing you the calendars of each potential interviewer.
   - **Pro tip:** Open this in a new window so you can view the candidate’s availability side by side with the scheduling page.
-- The Interview Plan and job post will specify how many people should be in each interview section and whether or not specific people are required (if there are any discrepancies between the job post and interview plan, ask your Recruiter to confirm the panel).
-  - Remove anyone who does not need to attend the interview.
-- Navigate to the Interview Plan tab by clicking on the Job Title at the top of the candidate’s Greenhouse profile, then selecting Job Setup, Interview Plan, the Edit icon next to the corresponding interview stage, then scrolling to the Default Interviewers section.
+- Remove anyone who does not need to attend the interview by clicking on the `x` next to their name
+  - The Interview Plan and job post will specify how many people should be in each interview section and whether or not specific people are required
+  - See who the required interviewers are in the Interview Plan by clicking on the "_Job Title_" at the top of the candidate’s Greenhouse profile, selecting "_Job Setup_" > "_Interview Plan_" > Edit icon next to the corresponding interview stage, then scrolling to the "_Interview Prep_" section.
+  - **Note:** If there are discrepancies between the job post and interview plan, go to the role-specific hiring channel and ask your Recruiter to confirm the panel.
 
 **Step 4:** Select an available time on the calendar within Greenhouse that corresponds with the candidate’s availability.
 
-**Step 5:** Click “Schedule and Continue”.
+**Step 5:** Click "_Schedule and Continue_"
 
-**Step 6:** The Email template, Subject Line, and Description will auto populate. All you need to do is click “Add Video Conferencing", select “Zoom”, and mark one of the interviewers as the Zoom Host.
+**Step 6:** The Email template, Subject Line, and Description will auto populate. All you need to do is click "_Add Video Conferencing_", select "_Zoom_", and mark one of the interviewers as the Zoom Host.
 
-- **Note:** if one of the interviewers is _not_ the zoom host, they will not be able to cancel the interview recording in BrightHire should the candidate request that in real time.
+- **Note:** If one of the interviewers is _not_ the Zoom host, they will not be able to cancel the interview recording in BrightHire should the candidate request that in real time.
 
-**Step 7:** Before sending any interview invitations, please double check the interviewers’ availability within Google Calendar by clicking “Open in Google Cal”.
+**Step 7:** Before sending any interview invitations, please double check the interviewers’ availability within Google Calendar by clicking "_Open in Google Cal_".
 
 - This will open a separate tab. You can see the interview Zoom link in the body of the invite, as well as the interviewers’ names listed as Guests.
 - Use the “Find a Time” tool to confirm all interviewers are available during the interview time.
 - **Note:** the calendar shown in Greenhouse does not include interviewers’ working hours. You must open in Google Calendar to ensure that you are scheduling an interview within working hours.
 
-**Step 8:** Click “Save”, “Send”, and “Invite all guests”.
+**Step 8:** Click "_Save_" > "_Send_" > "_Invite all guests_"
 
 **Note:** Follow the same scheduling steps for internal candidates that you would for external candidates. Send the confirmation email to the internal candidate's Sourcegraph email address so they can add the event to their calendar if they'd like.
 
@@ -95,7 +114,7 @@ Please reach out to the following Executive Business Partners directly if you ha
 
 - [Sally Voisen](../../../../team/index.md#sally-voisen) supports [Quinn Slack](../../../../team/index.md#quinn-slack), CEO
 - [Michal Sennett](../../../../team/index.md##michal-sennett) supports [Beyang Liu](../../../../team/index.md#beyang-liu), CTO & Co-founder, [Carly Jones](../../../../team/index.md#carlycjones), VP People & Talent
-- [Amber Smokowski](../../../../team/index.md#amber-smokowski) supports [Gregg Stone](../../../../team/index.md#gregg-stone), VP Sales, [Aimee Menne](../../../../team/index.md#aimee-menne), VP Customer Engineering & Support
+- [Amber Smokowski](../../../../team/index.md#amber-smokowski) supports [Greg Bastis](../../../../team/index.md#greg-bastis), VP Sales, Western Region and [Aimee Menne](../../../../team/index.md#aimee-menne), VP Customer Engineering & Support
 
 ### How to select a Values Interview panel
 
@@ -105,9 +124,9 @@ When creating the interview plan in Greenhouse, the talent team will select 2 va
 
 **Step 1:** Once you’ve sent out all of the interview invitations to the appropriate Sourcegraph panelists, refresh the candidate’s Greenhouse profile.
 
-**Step 2:** Click “Send Interview Confirmation” above the candidate’s availability.
+**Step 2:** Click “_Send Interview Confirmation_” above the candidate’s availability.
 
-- If you receive a candidate’s availability outside of Greenhouse (phone, text, email, etc.), you may not see an option to “send interview confirmation email” in Greenhouse. In these cases, simply click “not requested” or “not received” next to availability and update it to “availability received”. You should then see the option to “send interview confirmation email.”
+- If you receive a candidate’s availability outside of Greenhouse (phone, text, email, etc.), you may not see an option to “send interview confirmation email” in Greenhouse. In these cases, simply click “_not requested_” or “_not received_” next to availability and update it to “_availability received_”. You should then see the option to “_send interview confirmation email_”.
 
 **Step 3:** The email template will auto-populate. You’ll only need to edit the following:
 
@@ -123,23 +142,23 @@ When creating the interview plan in Greenhouse, the talent team will select 2 va
 
 When scheduling a IAM Technical Interview, you will also need to schedule a prep email to be sent to the candidate 2 hours prior to the interview by completing the following steps:
 
-1. Select the "Email [Candidate Name]" button under ‘Tools’ on the right side of the Candidate’s greenhouse profile, which will open an email window.
-2. Select the ‘Send - Interview Prep - IAM’ email template
-3. Select ‘Pick a custom time’ in the ‘Send Email When’ dropdown and schedule the email to be sent 2 hours prior to the Technical Interview.
+1. Select the "_Email [Candidate Name]_" button under "_Tools_" on the right side of the Candidate’s greenhouse profile, which will open an email window.
+2. Select the "_Send - Interview Prep - IAM_" email template
+3. Select "_Pick_" a custom time’ in the "_Send Email When_" dropdown and schedule the email to be sent 2 hours prior to the Technical Interview.
 4. Send Email
 
 ### Updating an interview that has already been scheduled
 
 #### Adjusting the interviewers’ Google Calendar invite(s)
 
-**Step 1:** Find the existing interview invitation on Google Calendar and ‘Edit Event’
+**Step 1:** Find the existing interview invitation on Google Calendar and "_Edit Event_"
 
 **Step 2:** Adjust the interviewers or select a new available time frame depending on whether you’re rescheduling due to interviewer availability or candidate availability
 
 - No need to adjust the subject line, event description, or zoom link
-- Use the “Find a Time” tool to confirm all interviewers are available during the interview time
+- Use the “_Find a Time_” tool to confirm all interviewers are available during the interview time
 
-**Step 3:** Click “Save”, “Send”, and “Invite all guests”. This will automatically update the schedule in Greenhouse
+**Step 3:** Click “_Save_”, “_Send_”, and “_Invite all guests_”. This will automatically update the schedule in Greenhouse
 
 Note: If you're removing the interviewer who is set as the zoom meeting host, you will need to create a new zoom link with an appropriate host by following these steps:
 
@@ -153,13 +172,13 @@ Note: If you're removing the interviewer who is set as the zoom meeting host, yo
 
 - You’ll see that the Google calendar updates you made are reflected in the interview schedule
 
-**Step 2:** Click “Resend Interview Confirmation” above the candidate’s availability.
+**Step 2:** Click "_Resend Interview Confirmation_” above the candidate’s availability.
 
 **Step 3:** The email template will auto-populate again. 2. Make sure the recruiter, hiring manager, agency recruiter (if applicable) and yourself are all Cc’d
 
 **Step 4:** Adjust the subject line to include “UPDATED”
 
-**Step 5:** Within the “Interview Agenda” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md). Double check that the correct Zoom link is in the invite.
+**Step 5:** Within the "_Interview Agenda_” section of the email, add and link the specific [Interview Type(s)](../process/types_of_interviews.md) and the [interviewer names](../../../../team/index.md). Double check that the correct Zoom link is in the invite.
 
 **Step 6:** Send Email
 
@@ -181,11 +200,11 @@ Recruiting Operations Specialists follow the steps below to send weekly candidat
 
 1. Click the three dots on the top of the Greenhouse page
 
-2. Click on “Reports”
+2. Click on “_Reports_”
 
-3. Click on “Candidate Surveys”
+3. Click on “_Candidate Surveys_”
 
-4. Click “Export to excel” and open in numbers (mac) or excel (PC)
+4. Click “_Export to excel_” and open in numbers (mac) or excel (PC)
 
 5. Delete column B because it is not applicable
 
