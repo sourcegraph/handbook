@@ -174,7 +174,9 @@ Generally speaking, revisiting bands every six months helps avoid market volatil
 
 **Where do I learn more about leveling at Sourcegraph?**
 
-For information about leveling at Sourcegraph at a high level, check out the [Sourcegraph Leveling Guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit). For department specific career development frameworks, check out [this handbook page].
+For information about leveling at Sourcegraph at a high level, check out the [Sourcegraph Leveling Guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit).
+
+For department specific career development frameworks, check out [this handbook page](../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md#career-frameworks).
 
 **Where can I view my level? Where can I view my colleague’s levels?**
 
@@ -206,7 +208,7 @@ Our internal titles vary from team to team, so you may notice some job codes whe
 
 **My level surprises me, or I’m not sure what my level is - who can I speak to?**
 
-Start with your manager if you have any questions about your compensation level or Radford code match. You can also reach out to your [People Partner](../../../departments/people-talent/people-ops/#people-partner-alignment.md) to discuss!
+Start with your manager if you have any questions about your compensation level or Radford code match. You can also reach out to your [People Partner](../../../departments/people-talent/teamalignment.md#people--talent-team-alignment-by-department) to discuss!
 
 **If we hire externally into the entry point of our salary bands, why are some Teammates paid higher in band, or even above band?**
 
