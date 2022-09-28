@@ -2,6 +2,8 @@
 
 This document is an overview of the processes followed by the implementation team when involved in a customer implementation project. It is specific to the process for _Jointly Managed Implementations_. Ad-hoc requests for support from the implementation team do not follow this process, but the implementation team may require pieces of this process to be completed in those cases.
 
+To review the long-term work and goals of the implementation team, please review the [Jointly Managed Deployment Roadmap](https://docs.google.com/spreadsheets/d/1cXquABcSYxAKG38ol1yQFSWWslueck9vayAcOxPLga8/edit#gid=0).
+
 # Cross-Functional Collaboration
 
 The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
@@ -102,7 +104,7 @@ For ongoing support and account management, the implementation team is responsib
   - Other unique aspects of deployment
   - Current usage information and any expansion requirements
 
-In addition, the implementation team is responsible for ensuring that the timeline information, deadlines, issues, and statuses of any tasks are accurate and up to date in the project plan.
+In addition, the implementation team is responsible for ensuring that the timeline information, deadlines, issues, risks, and statuses of any tasks are accurate and up to date in the project plan.
 
 # Exit Criteria for the Implementation to be Considered Complete
 
