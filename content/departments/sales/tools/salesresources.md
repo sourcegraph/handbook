@@ -30,6 +30,7 @@ Partner Contracts:
 
 Other Resources:
 
+- [Change Order Form](https://docs.google.com/document/d/1HP_zvh95QahN5me3IDT2AEnkEXutmKUV/copy)
 - [Proposal](https://docs.google.com/presentation/d/1Qv75e1oSSL9eRyf8RMOPDFpqoQdOAdmB3lvWcvsZz94/)
 - [Proof of Concept](https://docs.google.com/file/d/1IYI4w4Pavjf1s14CNZZ0VPSaheWGtdaNSCD0VDFWlEE/)
 - [Sales Email](https://docs.google.com/document/d/1a7NayrKc8JWKgzlpawVCUVCTHFYucrSGA5wuF706B-M/)
