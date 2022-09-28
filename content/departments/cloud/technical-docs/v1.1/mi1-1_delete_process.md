@@ -184,12 +184,6 @@ terraform apply
 
 ## Update documentation to remove references of the managed instance
 
-### Updating the upgrade template
-
-Remove customer from managed instance upgrade template. **Avoid mentioning the customer name directly**, the handbook is a public repository.
-
-The template is located in [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
-
 ### Updating outstanding tracking issues
 
 Search for any open upgrade tracking issues, edit the description to remove the customer’s entry. No need to upgrade if there isn’t anything to upgrade!

@@ -25,7 +25,7 @@ For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separ
 
 Internal instances are created for various testing purposes:
 
-- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow [managed instances upgrade tracker](../../engineering/dev/process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
+- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow managed instances upgrade tracker (this is created prior to monthly upgrade) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
 
@@ -62,7 +62,7 @@ Sourcegraph upgrades every test and customer instances according to [SLA](#slas-
 The release process is performed in steps:
 
 1. New version is released via [release guild](../../engineering/dev/process/releases/release_guild.md)
-2. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md)
+2. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the managed instances upgrade template.
 3. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
 
