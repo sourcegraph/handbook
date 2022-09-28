@@ -15,6 +15,7 @@ During the initial conversations with a customer, the CE should evaluate whether
 If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to [#ask-implementation](https://sourcegraph.slack.com/archives/C0418GDBT7S) with the following information:
 
 Jointly-Managed Implementation Request
+
 - Customer Name:
 - Link to Salesforce Opportunity:
 - Link to TDD:
@@ -27,8 +28,8 @@ From there, the implementation team will add the customer to the [Jointly-Manage
 1. Overall size and technical complexity of the deployment
 2. Opportunity ARR and TAM of the account
 3. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
-4. Current bandwidth 
- Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
+4. Current bandwidth
+   Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
 
 The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly-managed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
 
