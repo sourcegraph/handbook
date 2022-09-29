@@ -42,21 +42,21 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
 1.  Navigate into the repository
 
-- `cd deploy-sourcegraph-managed`
+    - `cd deploy-sourcegraph-managed`
 
 1.  Pull in the latest changes
 
-- `git checkout main`
-- `git pull`
-
-1.  Create a branch for the teardown
-
-- `git checkout -b $CUSTOMER/destroy-managed-instance`
+    - `git checkout main`
+    - `git pull`
 
 1.  Setup the environment:
 
-- `export TF_VAR_opsgenie_webhook=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=OPSGENIE_WEBHOOK)`
-- `export CUSTOMER=<customer>`
+    - `export TF_VAR_opsgenie_webhook=$(gcloud secrets versions access latest --project=sourcegraph-secrets --secret=OPSGENIE_WEBHOOK)`
+    - `export CUSTOMER=<customer>`
+
+1.  Create a branch for the teardown
+
+    - `git checkout -b $CUSTOMER/destroy-managed-instance`
 
 ### Navigate to the customer's managed instance directory
 
