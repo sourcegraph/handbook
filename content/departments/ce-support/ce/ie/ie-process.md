@@ -4,6 +4,8 @@ This document is an overview of the processes followed by the implementation tea
 
 To review the long-term work and goals of the implementation team, please review the [Jointly Managed Deployment Roadmap](https://docs.google.com/spreadsheets/d/1cXquABcSYxAKG38ol1yQFSWWslueck9vayAcOxPLga8/edit#gid=0).
 
+For information on recommended deployment types and strategies, visit [Implementation Strategies](./impl-strategies.md).
+
 # Cross-Functional Collaboration
 
 The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
