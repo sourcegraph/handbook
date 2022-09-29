@@ -3,6 +3,7 @@
 [Deel](https://www.deel.com/) is a privately-held payroll and compliance provider. We use Deel to hire international employees and contractors. We refer to Deel and similar providers as Professional Employer Organizations (PEOs) or Employer of Record (EORs).
 
 Resource for teammates:
+
 - [Deel - PEO/EOR employment](../process/how-we-engage-talent-outside-the-us/deel.md)
 
 ## Hiring someone on a PEO/EOR
