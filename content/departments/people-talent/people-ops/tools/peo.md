@@ -1,4 +1,4 @@
-# Internal PEO use - Deel
+# Internal PEO/EOR use - Deel
 
 [Deel](https://www.deel.com/) is a privately-held payroll and compliance provider. We use Deel to hire international employees and contractors. We refer to Deel and similar providers as Professional Employer Organizations (PEOs) or Employer of Record (EORs).
 
