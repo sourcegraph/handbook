@@ -32,7 +32,7 @@ You can check who employs you in [this page](https://help.letsdeel.com/hc/en-gb/
 
 #### How often does the exchange rate get updated for compensation?
 
-The amount specified as compensation in your Deel contract is based on an exchange rate calculated based on the 12-month trailing average. Exchange rates are updated when there is a change to compensation, such as a Merit or Promotion or Band adjustment.
+The amount specified as compensation in your Deel contract is based on an exchange rate calculated based on the YTD average. Exchange rates are updated when there is a change to compensation, such as a Merit or Promotion or Band adjustment. Please use this resource regarding FX rates: https://www.oanda.com/us-en/
 
 #### What does the onboarding process look like?
 
