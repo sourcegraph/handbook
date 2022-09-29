@@ -40,7 +40,7 @@ Learn about the [process of being onboarded in Deel](https://help.letsdeel.com/h
 
 #### How can I submit an expense in Deel?
 
-You can see this information in [this handbook page](../../../../../benefits-pay-perks/pay-expenses/expenses/expenses-through-deel.md).You can find more information on how to submit expenses in Deel in[ this page](https://help.letsdeel.com/hc/en-gb/sections/8266431839377-Expenses).
+You can see this information in [this handbook page](../../../../../benefits-pay-perks/pay-expenses/expenses/expenses-through-deel.md). You can find more information on how to submit expenses in Deel in [this page](https://help.letsdeel.com/hc/en-gb/sections/8266431839377-Expenses).
 
 #### The PTO policy in my country of residence is different from Sourcegraph’s PTO policy, which one should I follow?
 
