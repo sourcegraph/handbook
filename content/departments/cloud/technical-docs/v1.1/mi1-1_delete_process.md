@@ -133,24 +133,14 @@ To prevent an initial state circular dependency, the Terraform state for GCP pro
 Make sure to include this in the pull request.
 
 ```
-cd ..
-git add .
+git add $CUSTOMER
 git commit -m "managed-instance-${CUSTOMER}: Remove GCP infrastructure and project"
+git push origin HEAD
 ```
 
 **Review the proposed changes carefully.**
 
 ### Create the pull request
-
-**Title:** managed-instance-$CUSTOMER: Teardown Managed Instance
-
-_Link tear-down request issue in the description_
-
-### Open a pull request
-
-```
-git push origin HEAD
-```
 
 **Title:** managed-instance-$CUSTOMER: Teardown Managed Instance
 
