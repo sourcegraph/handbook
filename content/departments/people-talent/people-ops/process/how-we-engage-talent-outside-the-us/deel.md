@@ -36,7 +36,7 @@ The amount specified as compensation in your Deel contract is based on an exchan
 
 #### What does the onboarding process look like?
 
-Do to [this page](https://help.letsdeel.com/hc/en-gb/sections/8266345839249-Onboarding-Guide) to read about the process of being onboarded in Deel.
+Learn about the [process of being onboarded in Deel](https://help.letsdeel.com/hc/en-gb/sections/8266345839249-Onboarding-Guide).
 
 #### How can I submit an expense in Deel?
 
