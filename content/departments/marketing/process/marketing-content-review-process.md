@@ -38,8 +38,8 @@ Having a review process does not mean that we should wait to get feedback or sha
       4. Get feedback from Engineering and Product (#product, #ask-a-dev, etc.)
       5. Ask your PM/EM counterpart questions to help you understand the product
 2. **Marketing peer review:** Once you feel good about your content, share it with another member of the marketing team for a peer review.
-3. **EM/PM review:** Share a draft with your Engineering or Product counterpart. If you aren’t working directly with an EM/PM, then post in #ask-a-dev. To make this as productive as possible:
-   1. Give the reviewer at least 48 hours to review (sometimes this won’t be feasible)
+3. **EM/PM review:** Share a draft with your Engineering or Product counterpart. If you aren’t working directly with an EM/PM, then post in #marketing-eng-content-review. To make this as productive as possible:
+   1. Give the reviewer at least 72 hours to review (sometimes this won’t be feasible)
    2. Flag specific questions and areas of confusion/concern.
    3. For headlines and other key sections, provide a few alternatives to give the EM/PM something to respond to.
    4. Be clear about who the audience is.
