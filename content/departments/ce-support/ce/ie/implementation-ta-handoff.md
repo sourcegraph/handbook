@@ -41,7 +41,3 @@ The implementation team will keep a log of notes from the implementation. These 
 Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes completion of the necessary infrastructure for all customer environments, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration).
 
 At this point, the customer will be working exclusively with the TA for all subsequent updates (onboarding additional users, code hosts, batch changes, etc.), and the implementation engineer will no longer be actively involved in the deployment.
-
-# Documenting Lessons Learned
-
-# Long Term Upgrade Strategy
