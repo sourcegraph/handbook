@@ -2497,3 +2497,14 @@ will_dollman:
   location: Bristol, UK 🇬🇧
   links: '[LinkedIn](https://linkedin.com/in/willdollman/)'
   description: "Will lives in Bristol, UK with his wife, two cats (Buzz and Matilda), and too many houseplants to name 🌿. He's worked on a wide range of software projects through his career, but always comes back to security. Will loves reading, photography, video games (Nintendo for preference), cheese, and has recently taken up running - which he uses to justify the quantity of cheese that he eats."
+
+bachi_degli_innocenti:
+  name: Juliana (Bachi) Degli Innocenti
+  pronouns: she/her
+  location: San Carlos de Bariloche, Argentina 🇦🇷
+  role: Sr. Social Media Manager
+  reports_to: Director of Global Communications
+  email: bachi.degli.innocenti@sourcegraph.com
+  github: bachidegli
+  links: '[Twitter](https://twitter.com/julibachi), [LinkedIn](https://www.linkedin.com/in/julianadi/)'
+  description: 'Bachi recently moved to Bariloche in Patagonia, Argentina with her wife, Dai, and her 2 cats, Oreo and Melba. If she is not geeking about social media or doing a new course, you'll find her trying new recipes or playing videogames and boardgames. Prior to Sourcegraph, I was the head of social media at Auth0, and before that, she worked in agencies and videogame companies.'
