@@ -42,7 +42,7 @@ Do to [this page](https://help.letsdeel.com/hc/en-gb/sections/8266345839249-Onbo
 
 You can see this information in [this handbook page](../../../../../benefits-pay-perks/pay-expenses/expenses/expenses-through-deel.md).You can find more information on how to submit expenses in Deel in[ this page](https://help.letsdeel.com/hc/en-gb/sections/8266431839377-Expenses).
 
-#### The PTO policie in my country of recidence is different from Sourcegraph’s PTO policy, which one should I follow?
+#### The PTO policy in my country of residence is different from Sourcegraph’s PTO policy, which one should I follow?
 
 Sourcegraph will honor the unlimited [PTO policy](../../../../../benefits-pay-perks/benefits-perks/time-off/index.md), but you will be required to take the minimum mandatory ones for your country in order for us to be compliant with Deel and your country’s laws.
 
