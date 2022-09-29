@@ -20,7 +20,12 @@ For basic operations like accessing an instance for these steps, see [managed in
   via command line:
 
   ```
-  gh workflow run mi_create.yml -f customer=$CUSTOMER -f ce_email=$CE_EMAIL -f customer_email=$CUSTOMER_EMAIL instance_type=[production|trial|internal]
+  gh workflow run mi_create.yml \
+    -f customer=$CUSTOMER \
+    -f ce_email=$CE_EMAIL \
+    -f customer_email=$CUSTOMER_EMAIL \
+    -f instance_type=[production|trial|internal] \
+    -f instance_size=[small|medium|large]
   ```
 
   or via [Github Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
@@ -106,9 +111,9 @@ You may be trying to re-create an instance in an existing project. Simply import
 terraform import module.managed_instance.google_iap_brand.project_brand $(gcloud alpha iap oauth-brands list --project $PROJECT_ID --format json | jq -r '.[0].name')
 ```
 
-### Github Action creating Managed Instance failed
+### GitHub Action creating Managed Instance failed
 
-When [Github Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml) creating Managed Instance failed, it can be safely re-run. If error occurs again, verify at which stage failed and:
+When [GitHub Action](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml) creating Managed Instance failed, it can be safely re-run. If error occurs again, verify at which stage failed and:
 
 - checkout [deploy-sourcegraph-managed]https://github.com/sourcegraph/deploy-sourcegraph-managed) and switch to branch `CUSTOMER/create-instance`
 - finalise creation of Managed Instance - perform steps from [this flow](https://github.com/sourcegraph/deploy-sourcegraph-managed/blob/main/.github/workflows/mi_create.yml) starting from the one which failed
