@@ -60,7 +60,7 @@ Clone or navigate to the `sourcegraph/deploy-sourcegraph-managed` repository
 
 ### Navigate to the customer's managed instance directory
 
-```
+```sh
 cd $CUSTOMER
 ```
 
@@ -107,23 +107,23 @@ Scheduled snapshots are not managed by Terraform. In order to remove the GCP pro
 
 **Please double-check the value of the $CUSTOMER environment variable in your current session.**
 
-```
+```sh
 gcloud compute snapshots list --project=sourcegraph-managed-$CUSTOMER | grep "data" | awk '{print $1}' | xargs gcloud compute snapshots delete --project=sourcegraph-managed-$CUSTOMER --quiet
 ```
 
-## Remove the GCP Project
+## Remove the GCP project
 
-```
-cd $CUSTOMER/project
-```
-
-```
+```sh
+# Under $CUSTOMER directory
+cd project
 terraform destroy -var-file=../terraform.tfvars
 ```
 
 ## Remove customer files
 
-```
+```sh
+# Back to the repository root
+cd ../../
 rm -rf $CUSTOMER
 ```
 
