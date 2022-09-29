@@ -116,6 +116,7 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 ### Description of Decision Tree Questions
 
 **Does the account qualify for a Cloud Instance?**<br>
+
 - <em>Do Sourcegraph's certification meet all requirements?</em> - While Sourcegraph's current certifications and compliances (i.e. SOC2) should be sufficient for a large number of customers, others may have hard certification requirements that Sourcegraph does not currently support (such as FEDRAMP, ISO 27001, and others). If you are uncertain of current certifications, reach out to the Cloud team.<br>
 
 - <em>Is Sourcegraph's admin access acceptable?</em> - Sourcegraph admins will need to access the customer's Managed Instance. This may be a blocking issue for a customer. Currently, Sourcegraph admins authorize via Okta with 2FA. We don't currently support MFA. This question is used to ensure that this access and authorization is acceptable for the customer.
@@ -127,26 +128,33 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 - <em>NOTE</em> - With any of these Cloud-related blocking questions, if you run into a hard requirement that isn't currently supported for Managed Instances, reach out to the Cloud team. For many situations, it may be possible that the Cloud team can complete development to remove that blocker and help to qualify the customer for Cloud.
 
 **Is there a requirement for a currently unsupported hosting locale or code host that the organization is not willing to wait for Cloud development?**<br>
+
 - Certain organizations will have hosting locale requirements that aren't currently supported. It typically takes the Cloud team about 1 month to stand up a new hosting locale. If this timeline works for the customer, great! Otherwise, they will need to move on to other deployment options.
 
 - Likewise, Cloud can currently support the same code host types as listed for self-hosted instances ([Link to current code host support.](https://docs.sourcegraph.com/admin/external_service)). That being said, the code host must be publicly available (i.e. have a public IP and accept connections from all source addresses or have the ability to be configured to accept connections from a public IP). Without being publicly available, a Managed Instance currently cannot connect to a code host and is therefore not a viable option for that customer.
 
 **Does the account have more than 75GB of hosted code?**<br>
+
 - This question is used to determine whether or not the customer will use the Business or Enterprise Cloud pricing model. Any customer with more than 75GB or hosted code will be on the Enterprise pricing model.
 
 **Are any of your code hosts non-standard or non-cloud?**<br>
+
 - All code hosts must be standard, cloud-based offerings (GitHub Cloud, GitLab Cloud, BitBucket Cloud) in order for the customer to be on the Business pricing model. If any of the customer's cloud hosts are non-standard or non-cloud, the customer will need to be on the Enterprise pricing model.
 
 **Does the account require priority SLAs, dedicated support, additional executors, or Private Instance Access?**<br>
+
 - A customer wanting any of these available options will need to be on the Enterprise Cloud model. For the executors specifically, Business customers are restricted to 2 exectors whereas Enterprise customers will have up to 4.
 
 **Does the organization have more than 20k users or 200k repos?**<br>
+
 - As of right now, AMI deployments can only scale up to these numbers of users and repositories. If an organization is above these numbers, they will need to deploy with Kubernetes.
 
 **Is there an organizational requirement for a cluster deployment?**<br>
+
 - Some organizations require enterprise products to be deployed on clusters. If this is the case, the customer should be directed to a Kubernetes deployment.
 
 **Will a Sourcegraph AMI instance work for the account?**<br>
+
 - <em>Can the organization deploy Sourcegraph on AWS?</em> - As of right now, Sourcegraph one-click AMIs need to be deployed on AWS. If the organization needs to deploy on any other cloud provider, they cannot use the one-click deployment option.
 
 - <em>Has the organization had no historical technical or scaling issues when deploying on a single machine?</em> - As a single-node option, customers may run into technical or scaling issues that may prevent them from using the one-click deployment option. When this happens, it should be recommended that the customer transitions to a Kubernetes deployment.
@@ -154,5 +162,5 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 - <em>Do no other technical or organizational restrictions exist that prevent the use of a Sourcegrpah AMI for the instance</em> - This is a placeholder to capture any other technical or organizational blockers that disallow a customer from using the one-click deployment option. If you and the customer encounter issues or limitations of this deployment option, reach out the the Delivery team to discuss options and determine whether or not Kubernetes should be recommended.
 
 **Is there an organizational requirement to use their own base AMI?**
-- If a customer indicates that they require the use of their own base AMI (therefore requiring the use of Docker Compose), this should be questioned and discouraged. While this is still possible, Docker Compose is no longer recommended, and ideally any customer for whom Cloud and one-click doesn't work should be deploying with Kubernetes.
 
+- If a customer indicates that they require the use of their own base AMI (therefore requiring the use of Docker Compose), this should be questioned and discouraged. While this is still possible, Docker Compose is no longer recommended, and ideally any customer for whom Cloud and one-click doesn't work should be deploying with Kubernetes.
