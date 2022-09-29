@@ -100,7 +100,6 @@ It leverages the following issue templates, which list all individual steps that
 
 - [Release issue template](release_issue_template.md)
 - [Patch release issue template](patch_release_issue_template.md)
-- [Upgrade managed instances issue template](upgrade_managed_issue_template.md)
 
 ### Release branches
 
@@ -238,5 +237,4 @@ In the future, we may introduce continuous releases if these issues become surmo
 [delivery]: ../../admin-exp/delivery/index.md
 [release issue template]: release_issue_template.md
 [patch release issue template]: patch_release_issue_template.md
-[upgrade managed instances issue template]: upgrade_managed_issue_template.md
 [changelog.md]: https://github.com/sourcegraph/sourcegraph/blob/main/CHANGELOG.md

@@ -100,13 +100,6 @@ terraform destroy
 git restore ../modules/terraform-managed-instance-new/infrastructure.tf # restore module after destroying instance
 ```
 
-## Remove the project from the monitoring project
-
-```
-cd monitoring/
-terraform apply
-```
-
 ## Delete Snapshots
 
 Scheduled snapshots are not managed by Terraform. In order to remove the GCP project, remaining snapshots must be deleted.
@@ -124,7 +117,13 @@ cd $CUSTOMER/project
 ```
 
 ```
-terraform destroy
+terraform destroy -var-file=../terraform.tfvars
+```
+
+## Remove customer files
+
+```
+rm -rf $CUSTOMER
 ```
 
 ### Commit the change
@@ -184,12 +183,6 @@ terraform apply
 ```
 
 ## Update documentation to remove references of the managed instance
-
-### Updating the upgrade template
-
-Remove customer from managed instance upgrade template. **Avoid mentioning the customer name directly**, the handbook is a public repository.
-
-The template is located in [managed instances upgrade issue template](../../../engineering/dev/process/releases/upgrade_managed_issue_template.md).
 
 ### Updating outstanding tracking issues
 

@@ -673,7 +673,7 @@ warren_gifford:
   name: Warren Gifford
   pronouns: he/him
   role: Application Engineer
-  reports_to: customer_support_manager_1
+  reports_to: vp_customer_engineering
   location: Portland, OR, USA 🇺🇸
   github: DaedalusG
   email: warren@sourcegraph.com
@@ -740,7 +740,7 @@ beatrix_woo:
 stompy_mwendwa:
   name: Stompy Mwendwa
   role: Application Engineer
-  reports_to: customer_support_manager_2
+  reports_to: vp_customer_engineering
   location: Nairobi, Kenya 🇰🇪
   github: airamare01
   email: stompy@sourcegraph.com
@@ -987,7 +987,7 @@ gabe_torres:
   name: Gabe Torres
   pronouns: He/Him
   role: Application Engineer
-  reports_to: customer_support_manager_1
+  reports_to: vp_customer_engineering
   location: Los Angeles, CA, USA 🇺🇸
   github: gabtorre
   email: gabe@sourcegraph.com
@@ -998,7 +998,7 @@ amber_furbush:
   name: Amber Furbush
   pronouns: She/her
   role: Application Engineer
-  reports_to: customer_support_manager_2
+  reports_to: vp_customer_engineering
   location: Commerce City, CO, US
   github: amberfurbush0317
   email: amber@sourcegraph.com
@@ -1009,7 +1009,7 @@ jason_harris:
   name: Jason Harris
   pronouns: He/Him
   role: Application Engineer
-  reports_to: customer_support_manager_2
+  reports_to: vp_customer_engineering
   location: Los Angeles, CA USA
   github: jasonhawkharris
   email: jason.harris@sourcegraph.com
@@ -1020,7 +1020,7 @@ michael_bali:
   name: Michael Bali
   pronouns: He/Him
   role: Application Engineer
-  reports_to: customer_support_manager_1
+  reports_to: vp_customer_engineering
   location: Lagos, Nigeria 🇳🇬
   github: topebali
   email: michael.bali@sourcegraph.com
@@ -1031,7 +1031,7 @@ alex_jean-baptiste:
   name: Alex Jean-Baptiste
   pronouns: He/Him
   role: Application Engineer
-  reports_to: customer_support_manager_2
+  reports_to: vp_customer_engineering
   location: Atlanta, Georgia USA 🇺🇸
   github: alexAtSourcegraph
   email: alex.jean-baptiste@sourcegraph.com
@@ -1043,7 +1043,7 @@ mariam_adedeji:
   name: Mariam Adedeji
   pronouns: She/Her
   role: Application Engineer
-  reports_to: customer_support_manager_1
+  reports_to: vp_customer_engineering
   location: Lagos, Nigeria 🇳🇬
   github: rhiam
   email: mariam@sourcegraph.com
@@ -1218,27 +1218,6 @@ brannon_rouse:
   email: brannon.rouse@sourcegraph.com
   links: '[Linkedin](https://www.linkedin.com/in/brannon-rouse-1a106414b/)'
   description: Brannon grew up in Dallas, Texas and currently lives in Birmingham, Alabama with his wife, Emery. Brannon is an avid runner, a big Dallas sports fan, and a Taco Tuesday enthusiast. Before joining Sourcegraph he worked in the digital health startup space where he developed a passion for development, team-building, and bullet journaling.
-
-nonso_obiano:
-  name: Nonso Obiano
-  role: Customer Support Manager
-  reports_to: vp_customer_engineering
-  manager_role_slug: customer_support_manager_2
-  location: Lagos, Nigeria 🇳🇬
-  github: Cyberwhiz5000
-  email: nonso.obiano@sourcegraph.com
-  links: '[LinkedIn](https://www.linkedin.com/in/obianochukwunonso/)'
-  description: Nonso lives in Lagos, Nigeria with his wife, Rita and they volunteer at their local church as pastors for the youth group. He loves a good sci-fi thriller, European soccer leagues, video games and works of fiction (Dean Koontz, Stephen King... you get the idea). Nonso has worked in customer support and contact centre operations the past decade and has led teams to deliver memorable experiences across various industries and customer segments.
-
-brielle_collins:
-  name: Brielle Collins
-  role: Customer Support Manager
-  reports_to: vp_customer_engineering
-  manager_role_slug: customer_support_manager_1
-  location: Chicago, Illinois 🇺🇸
-  github: Brielle-C
-  email: brielle.collins@sourcegraph.com
-  description: Brielle Enjoys reading and occasionally writing short stories. She loves to binge-watch series and anime has a soft spot in her heart. She is the youngest of 4 and is a super aunt to all of her nieces and nephews. Brielle is very family-oriented and enjoys spending time at home with friends and family, although she was born in the Summer months Fall is her favorite season. She currently lives is searching for a dog to be a pet mom to. Brielle identifies as a Gryffindor and is a tea enthusiast, her favorite is David’s Tea Pomegranate blend.
 
 diego_comas:
   name: Diego Comas
@@ -1689,7 +1668,7 @@ riana_shahid:
   github: r-shahid
   pronouns: she/her
   role: Application Engineer
-  reports_to: customer_support_manager_1
+  reports_to: vp_customer_engineering
   location: New York City, NY, USA 🇺🇸
   links: '[LinkedIn](https://www.linkedin.com/in/rianashahid/)'
   description: Riana is an analytical thinker with many creative interests. She studied mathematics at NYU where she first played with code in a web design class she took for fun. She returned to it later when she decided to attend a coding bootcamp. Outside of work, Riana likes to paint, knit, and visit museums in her city. She is an avid learner who's always willing to try out something new!
@@ -2257,7 +2236,7 @@ ajay_uppaluri:
 rakesh_joshi:
   name: Rakesh Joshi
   role: Application Engineer
-  reports_to: customer_support_manager_1
+  reports_to: vp_customer_engineering
   location: Melbourne, Australia
   email: rakesh.joshi@sourcegraph.com
   github: rakeshjosh2003

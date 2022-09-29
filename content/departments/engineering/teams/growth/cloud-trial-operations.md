@@ -14,9 +14,17 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 [Recording of Walkthrough with Malo and Eric](https://drive.google.com/file/d/1tW0NmtW0Vu3UBnRhJnnqKRK0EE5M6_Gr/view?usp=sharing)
 
-## Dashboard
+## Dashboards
 
 - [Lead pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000004tI9EAI/view?queryScope=userFolders) (Salesforce)
+- [Main lead/funnel/ongoing trial dashboard (Looker)](https://sourcegraph.looker.com/dashboards/341)
+  - Ongoing trials
+  - Traffic -> lead -> trial instances
+  - Lead status breakdown
+- [Amplitude instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)
+  - Event-level data from trial instances
+- [Server instance overview (Looker)](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Netflix&Salesforce+Unique+ID=)
+  - The same dashboard you’re probably used to; cloud trials are still Sourcegraph instances and send pings, so we have the same aggregated data as any on-prem/managed instance
 
 ### Trial request qualification workflow
 
@@ -52,10 +60,13 @@ Note: all automated email will automatically appear in salesforce (through Malo'
 
 1. self-assign the request by replying "I'm taking it" to the alert
 2. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial_mi.md#trial-managed-instance-creation-flow)
+
+- you will need to [create an issue in the accounts repository](https://github.com/sourcegraph/accounts/issues) to link in the managed instance request issue
+
 3. when the instance is ready
-   1. set a license on the instance with 1,000 users, a **30-day limit**, and the following tags ([definition of tags](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@main/-/blob/enterprise/internal/licensing/data.go)): `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`.
+   1. set a license on the instance with 1,000 users, a **30-day limit**, and the following tags ([definition of tags](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@main/-/blob/enterprise/internal/licensing/data.go)): `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`. If there is no Salesforce account ID associated with the user, you may leave this blank when creating a user within the license creation flow
    2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit), **cc-ing the AE and CE** assigned to the account with
-      1. an initial password reset link to the instance
+      1. an initial password reset link to the instance following [this workflow](../../../cloud/#faq-how-do-i-generate-a-password-reset-link-for-customer-admin)
       2. a link to the onboarding checklist
       3. a link to schedule time with a customer engineer (CE)
    3. set the lead status in salesforce to `Trial Instance Handed Off`
