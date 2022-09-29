@@ -66,28 +66,27 @@ cd $CUSTOMER
 
 ### Allow the GCP KMS Crypto Key and CloudSQL instance to be deleted
 
-- add extra variables in
+- Disable Cloud SQL delete protection by editing the `infrastructure.tf`:
 
-```sh
-module "managed_instance" {
-  cloud_sql_deletion_protection  = false
-  source                         = "../modules/terraform-managed-instance-new"
-  (..)
-}
-```
+  ```diff
+  module "managed_instance" {
+  +  cloud_sql_deletion_protection  = false
+    source                         = "../modules/terraform-managed-instance-new"
+  }
+  ```
 
-- modify kms key to remove delete protection
+- Disable KMS key delete protection:
 
-```sh
-sed -i '' 's/    prevent_destroy = true/    prevent_destroy = false/g' ../modules/terraform-managed-instance-new/infrastructure.tf
-```
+  ```sh
+  sed -i '' 's/    prevent_destroy = true/    prevent_destroy = false/g' ../modules/terraform-managed-instance-new/infrastructure.tf
+  ```
 
-- apply changes
+- Apply changes:
 
-```sh
-terraform init # switch to local module
-terraform apply
-```
+  ```sh
+  terraform init # switch to local module
+  terraform apply
+  ```
 
 By default the KMS Crypto Key and CloudSQL instance is prevented from being deleted. This must be changed in order for Terraform to remove all resources.
 
