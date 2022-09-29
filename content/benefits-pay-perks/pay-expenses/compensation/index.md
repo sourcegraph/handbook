@@ -64,7 +64,7 @@ Our compensation bands are published internally. We periodically add new bands a
 
 ### How to view our internal compensation bands
 
-Our compensation bands are internally viewable to all Teammates in **Assemble**. _Teammates may not share bands externally_.
+Our compensation bands are internally viewable to all Teammates in **Assemble**. Assemble is live for all Managers effective 2022-09-29. Assemble will go live for all Teammates effective 2022-10-14.
 
 **Logging into Assemble**
 
