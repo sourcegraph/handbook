@@ -70,9 +70,10 @@ This stakeholders will vary by customer depending on their organizational struct
 
 - Project Champion - usually an internal leader invested in distributing Sourcegraph to developers
 - Project Team - developers, admins, DevX team members, etc. dedicated to standing up Sourcegraph
+- Project Manager - someone responsible for tracking progress, delegating tasks, and communication related to the implementation
 - Engineering Leadership - managers, directors, etc. directly overseeing developers that will be impacted by Sourcegraph
 - Engineers - end users providing feedback throughout UAT and user group roll-outs
-- External Vendors - representatives from tools and products used by the customer may need to be engaged ins certain scenarios
+- External Vendors - representatives of tools and products used by the customer may need to be engaged ins certain scenarios
 
 # Implementation Documentation
 
