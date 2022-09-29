@@ -150,7 +150,7 @@ Wait for checks to pass, approval and then merge pull request.
 
 ## Remove infrastructure monitoring
 
-In https://github.com/sourcegraph/deploy-sourcegraph-managed
+In the repository root of the [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed):
 
 ```sh
 cd monitoring
@@ -159,9 +159,9 @@ terraform apply
 
 ## Remove audit monitoring from removed GCP project
 
-[infrastructure repository](https://github.com/sourcegraph/infrastructure)
+In the repository root of the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure):
 
-```
+```sh
 cd security/auto-discovery
 terraform apply
 ```
@@ -172,7 +172,7 @@ terraform apply
 
 Search for any open upgrade tracking issues, edit the description to remove the customer’s entry. No need to upgrade if there isn’t anything to upgrade!
 
-This [Github Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-tracking) may be helpful.
+This [GitHub Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aopen+is%3Aissue+label%3Arelease-tracking) may be helpful.
 
 ## Close teardown request issue
 
