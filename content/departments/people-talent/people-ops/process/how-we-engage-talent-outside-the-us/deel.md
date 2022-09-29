@@ -22,7 +22,7 @@ If there are any delays, Deel will notify the People Ops team and propose a new 
 
 #### Why is there no mention of equity or stocks in my contract?
 
-Since your employment contract is with Deel, any equity grants or stock options offered by your company will need a separate agreement between you and them.
+Since your employment contract is with Deel, any equity grants or stock options offered by your company will need a separate agreement between you and your company.
 
 We usa Carta as our default app for tracking options, please refer to [this handbook](../../../../../benefits-pay-perks/pay-expenses/compensation/index.md#components-of-compensation) page for more information. You can also confirm your number of options and grant date in BambooHR.
 
