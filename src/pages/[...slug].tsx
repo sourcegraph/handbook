@@ -99,7 +99,11 @@ export default function Page({ page }: PageProps): JSX.Element {
 
     return (
         <>
-            <NextSeo noindex={true} title={page.frontMatter?.title || page.title} description={page.frontMatter?.description} />
+            <NextSeo
+                noindex={true}
+                title={page.frontMatter?.title || page.title}
+                description={page.frontMatter?.description}
+            />
             <div className="container">
                 {!page.frontMatter?.hide_sidebar && (
                     <nav id="right-sidebar">
