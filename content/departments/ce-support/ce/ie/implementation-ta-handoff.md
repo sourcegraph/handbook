@@ -6,22 +6,23 @@ This document is a work in progress to give an overview of the expectations of t
 
 Implementation should input values to fill out the production deployment information in the account's dashboard in Vitally. This information includes the following:
 
-  - Link to the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc)
-  - Start date of implementation of production infrastructure
-  - Completion date of implementation of production infrastructure
-  - Sourcegraph instance URL
-  - Deployment type (ex: Kubernetes with Helm)
-  - Infrastructure Hosting Provider (ex: AWS)
-  - Machine Instance Types
-  - Total CPU
-  - Total Memory (GB)
-  - Total Disk Space (GB)
+- Link to the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc)
+- Start date of implementation of production infrastructure
+- Completion date of implementation of production infrastructure
+- Sourcegraph instance URL
+- Deployment type (ex: Kubernetes with Helm)
+- Infrastructure Hosting Provider (ex: AWS)
+- Machine Instance Types
+- Total CPU
+- Total Memory (GB)
+- Total Disk Space (GB)
 
 Implementation will also fill in details regarding the code host on the same Vitally dashboard. This information includes the following:
-  - Code Hosts in Use
-  - Number of Repositories
-  - Number of Monorepos
-  - Largest Repository (MB)
+
+- Code Hosts in Use
+- Number of Repositories
+- Number of Monorepos
+- Largest Repository (MB)
 
 This section will be maintained by the TA after the initial implementation work has been completed.
 
@@ -30,9 +31,10 @@ This will ensure the TA and any other members of the CE team are able to have cl
 # Supporting Documentation for Ongoing Support
 
 The implementation team will keep a log of notes from the implementation. These notes will include information that will ensure a smoother support experience for the customer. Examples of information includes:
-  - Discussed upper limits for users, concurrent users, and repositories on initial deployment
-  - Special deployment details (ex: rockskip enabled, externalized PostgreSQL database)
-  - Any significant errors or engineering involvement in successfully completing deployment
+
+- Discussed upper limits for users, concurrent users, and repositories on initial deployment
+- Special deployment details (ex: rockskip enabled, externalized PostgreSQL database)
+- Any significant errors or engineering involvement in successfully completing deployment
 
 # Closing out a Deployment
 
@@ -42,7 +44,4 @@ At this point, the customer will be working exclusively with the TA for all subs
 
 # Documenting Lessons Learned
 
-
-
 # Long Term Upgrade Strategy
-
