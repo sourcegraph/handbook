@@ -66,12 +66,14 @@ cd $CUSTOMER
 
 ### Allow the GCP KMS Crypto Key and CloudSQL instance to be deleted
 
+By default, the KMS Crypto Key and CloudS QL instance is prevented from being deleted. This must be changed in order for Terraform to remove all resources.
+
 - Disable Cloud SQL delete protection by editing the `infrastructure.tf`:
 
   ```diff
   module "managed_instance" {
   +  cloud_sql_deletion_protection  = false
-    source                         = "../modules/terraform-managed-instance-new"
+     source                         = "../modules/terraform-managed-instance-new"
   }
   ```
 
@@ -88,18 +90,18 @@ cd $CUSTOMER
   terraform apply
   ```
 
-By default the KMS Crypto Key and CloudSQL instance is prevented from being deleted. This must be changed in order for Terraform to remove all resources.
-
 ### Destroy the infrastructure
 
 This will remove all GCP infrastructure except the Terraform remote state and GCP project.
 
-```
+```sh
 terraform destroy
-git restore ../modules/terraform-managed-instance-new/infrastructure.tf # restore module after destroying instance
+
+# Restore module after destroying instance
+git restore ../modules/terraform-managed-instance-new/infrastructure.tf
 ```
 
-## Delete Snapshots
+## Delete snapshots
 
 Scheduled snapshots are not managed by Terraform. In order to remove the GCP project, remaining snapshots must be deleted.
 
