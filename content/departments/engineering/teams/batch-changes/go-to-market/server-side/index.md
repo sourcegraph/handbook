@@ -114,7 +114,7 @@ Executors are beta, and we encounter a very heterogenous customer setup, so it's
 This highly depends on the number of concurrent batch changes, the nature of the batch changes, and the number of repositories per batch change.
 The general answers is the more executors the better (workfloads will be executed fast), but also the more cost.
 To get an answer tailored to a customer, please collect the following and post in #wg-shipping-executors:
+
 - how many batch changes will be ran concurrently?
 - how many repos will be a typical batch change target
 - what's the nature of the batch changes? What tool will be used to create the changes? Any specific requirements to run that tool (RAM, disk, CPU)?
-
