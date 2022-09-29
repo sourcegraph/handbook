@@ -44,7 +44,6 @@ There are several potential deployment and implementation strategies that may be
    <td>
 <ul>
 <li>Prefered deployment strategy
-
 <li>Once it is determined that the customer qualifies for Cloud, the CE or Sales will submit a <a href="https://handbook.sourcegraph.com/departments/cloud/#managed-instance-requests">Managed Instance Request</a> to the Cloud Team to kick off the process
 </li>
 </ul>
@@ -60,9 +59,7 @@ CE
    <td>
 <ul>
 <li>Prefered on-prem deployment method
-
 <li>The production environment for the customer is created by the CE prior to transitioning ownership of the account to the TAM
-
 <li>The production environment could be initiated as part of a trial or POC, or it could be created following contract closure
 </li>
 </ul>
@@ -76,9 +73,7 @@ CE
    <td>
 <ul>
 <li>If Cloud and One-Click are not options for the customer, the CE will <a href="https://handbook.sourcegraph.com/departments/ce-support/ce/ie/ce-implementation-handoff/#initiating-an-ie-request">Initiate an IE Request</a>
-
 <li>Upon reviewing the request, the implementation team qualifies the customer for a jointly managed deployment and kicks off the process with the CE and Sales
-
 <li>This method is primarily used for on-prem Kubernetes deployments
 </li>
 </ul>
@@ -96,9 +91,7 @@ TPM
    <td>
 <ul>
 <li>This method is only used by customers that would like a production environment stood up quickly, their initial user set can be supported by a One-Click Deployment, but a full Kubernetes instance will be needed for expansion to the full set of users
-
 <li>The CE will stand up an initial One-Click production environment and transition the customer to the TAM for continued support
-
 <li>As the deployment reaches scalability or technical limits, the TAM engages the implementation team to coordinate a post-live, jointly managed Kubernetes deployment 
 </li>
 </ul>
@@ -113,3 +106,14 @@ TPM
    </td>
   </tr>
 </table>
+
+### Deployment Recommendations
+
+#### Deployment Decision Tree
+
+![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/DeploymentDecisionTreev5.png)
+
+[Link to Excalidraw](https://excalidraw.com/#json=52xcj-MlwYuHvY1bcwRNm,1Z1RbotOIu0k_sHLlTlcxA)
+
+
+#### Description of Decision Tree Questions
