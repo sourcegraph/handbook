@@ -80,7 +80,7 @@ The vendor management process will be supported by our [‘Vendor Management’ 
 - **Software:** this can be SaaS or non-SaaS products
 - **Services:** Consulting services; any company that is commissioned to perform knowledge enhancing project-based work for Sourcegraph. Examples of this include any work that concludes with a report issued to the company, product development work, training development, sales & marketing projects and regulatory consulting work.
 - **Temporary contractors :** Individuals that have been contracted for a limited amount of time to enhance/assist/deliver project base work (they are a separate group since their access level to data will most likely be different to a ‘Service’ engagement)
-  - For temporary contractors, we use our standard forms, which you can find in the Vendor contracts section of our [Contract review and signature policy.](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services)
+  - For temporary contractors, we use our standard forms, which you can find in the Vendor contracts section of our [Contract review and signature policy.](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts-sourcegraph-pays-a-third-party-for-products-or-services)
 
 ## Request type
 
@@ -279,7 +279,7 @@ Legal approval - information needed and reviewed:
     - If so, ask vendor for a DPA and attach for legal review
     - other sensitive data (including incident data, security logs, core IT infrastructure or data storage)
 
-Please also see our handbook page on vendor contracts [here](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#vendor-contracts).
+Please also see our handbook page on vendor contracts [here](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#vendor-contracts).
 
 ## Tech Ops
 
@@ -292,7 +292,7 @@ Tech Ops approval - information needed and reviewed:
 
 Finance approval - information needed and reviewed:
 
-- Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables.md/#airbase-limits)
+- Airbase CC and/or PO# based on [paying bills policy](../../finance/process/payables.md#airbase-limits)
 - Contract & commercial terms
 - W-9
 
