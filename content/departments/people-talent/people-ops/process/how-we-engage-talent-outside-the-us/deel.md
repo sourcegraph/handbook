@@ -4,7 +4,7 @@
 
 Deel acts as the intermediary between you (the employee) and the company you're working for. Deel engages with both parties using separate agreements. While you perform your duties at the company, you get hired and paid by Deel.
 
-## How to get employed via a PEO/EOR?
+## How can I get employed via a PEO/EOR?
 
 During your interview process, your recruiter will explain the different types of employment available. Should you choose to come in on a PEO/EOR, they will ask you for certain details and then notify you as soon as the request has been approved.
 
