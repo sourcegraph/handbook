@@ -6,7 +6,7 @@ Deel acts as the intermediary between you (the employee) and the company you're 
 
 ## How can I get employed via a PEO/EOR?
 
-During your interview process, your recruiter will explain the different types of employment available. Should you choose to come in on a PEO/EOR, they will ask you for certain details and then notify you as soon as the request has been approved.
+During your interview process, your recruiter will explain the different types of employment available. If you come in on a PEO/EOR, they will ask you for certain details and then notify you as soon as the request has been approved.
 
 After the People Ops team and the Finance team set everything up for you on the backend, Deel will contact you, notify you and request your signature. You can read about the onboarding task [here](https://help.letsdeel.com/hc/en-gb/articles/4414311737745-What-will-my-onboarding-process-look-like-).
 
