@@ -20,7 +20,10 @@ We identify candidates using a variety of channels:
 
 - We actively recruit passive candidates via a variety of channels, including LinkedIn Recruiter.
 - It is okay to reach out to prospective candidates that work at a Sourcegraph customer; however, do not mention their current employer or team being a customer of ours in the outreach. We should target prospective candidates for their skills and experience. We should not be using our customer vendor relationship as a way to outreach to our customer's employees.
-- [How to be a sourcer at Sourcegraph](how_to_be_a_sourcer_at_sourcegraph.md)
+- After the intake call, the Recruiter or Sourcer will create a LinkedIn Recruiter project and include the Hiring Manager, relevant Director of the department and any teammates included in the interview plan, and will find 10+ relevant candidates.
+- The Recruiter or Sourcer will send LinkedIn profiles to the Hiring Manager for review. Once the Hiring Manager adds comments, the Recruiter or Sourcer will use the feedback to source more appropriate candidates.
+- Recruiters will continue to add LinkedIn profiles to the project and start an outreach campaign following our [Sourcing Outreach Best Practices](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit).
+- Additional support: [How to be a Sourcer at Sourcegraph](how_to_be_a_sourcer_at_sourcegraph.md)
 
 ### Referrals
 
