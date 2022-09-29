@@ -48,6 +48,8 @@ Do the [branch cut](./index.md#release-branches) for the release:
   yarn release release:branch-cut
   ```
 
+- [ ] To support the multi-version upgrade utility, update [this constant](https://sourcegraph.com/search?q=context:global+repo:%5Egithub%5C.com/sourcegraph/sourcegraph%24%40main+file:upgradedata+const+maxVersionString&patternType=lucky) to `$MAJOR.$MINOR.0` on the `main` branch, then cherry-pick this change into the `$MAJOR.$MINOR` branch. Bumping this version will require the `$MAJOR.$MINOR` branch to exist, and `go generate` will need to be invoked.
+
 Upon branch cut, create and test release candidates:
 
 - [ ] Tag the first release candidate:
