@@ -32,7 +32,7 @@ Having a review process does not mean that we should wait to get feedback or sha
       2. Give yourself time between writing content and editing content
       3. Read your content out loud
    2. **Technical precision and accuracy + dev-first writing**
-      1. Check the [handbook](../../../company-info-and-process/communication/content_guidelines/terminology_guidelines/.md) and [docs](https://docs.sourcegraph.com/?_ga=2.190972906.1747313014.1663792166-1869712147.1659118261) to understand how Engineering and Product describe our product
+      1. Check the [handbook](../../../company-info-and-process/communication/content_guidelines/terminology_guidelines.md) and [docs](https://docs.sourcegraph.com/?_ga=2.190972906.1747313014.1663792166-1869712147.1659118261) to understand how Engineering and Product describe our product
       2. Research how other companies or devs write about a given subject
       3. Spend time reading content by devs/for devs
       4. Get feedback from Engineering and Product (#product, #ask-a-dev, etc.)
