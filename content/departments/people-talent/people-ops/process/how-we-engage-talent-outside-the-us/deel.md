@@ -14,7 +14,7 @@ After the People Ops team and the Finance team set everything up for you on the 
 
 The recruiter will let you know that Deel will contact you.
 
-You will be assigned a Deel Onboarding Specialist. They will ask you to create an profile in Deel and send over compliance documentation. All of this must be done before your start date, you won’t be able to start until this is done. Read about [how to sign up as an employee](https://help.letsdeel.com/hc/en-gb/articles/5779651597585-How-to-sign-up-as-an-Employee) here.
+You will be assigned a Deel Onboarding Specialist. They will ask you to create an profile in Deel and send over compliance documentation. All of this must be done before your start date. You won’t be able to start until this is done. Read about [how to sign up as an employee](https://help.letsdeel.com/hc/en-gb/articles/5779651597585-How-to-sign-up-as-an-Employee) here.
 
 If there are any delays, Deel will notify the People Ops team and propose a new start date. Your point of contact for any questions regarding employment will be answered by the Onboarding Specialist.
 
