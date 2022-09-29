@@ -76,7 +76,7 @@ _Attention_: System owner - this is by default the requester except otherwise in
 
 > If ‘Approved’ -
 >
-> New vendor: get the contract signed ([details on signature requirement](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md)) and [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md/#what-to-do-when-the-contract-is-fully-signed) in the correct place.
+> New vendor: get the contract signed ([details on signature requirement](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md)) and [save the signed contract](../../legal/process/ContractReviewandSignatureAuthorityPolicy.md#what-to-do-when-the-contract-is-fully-signed) in the correct place.
 >
 > Offboarding: no further actions required
 >

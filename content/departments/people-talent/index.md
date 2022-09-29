@@ -50,9 +50,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Onboarding as a new hire
 
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
-- [BambooHR](resources-for-new-hires/new-teammate-setup.md/#bamboohr)
+- [BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - Helpful videos
-- [I9 verification](people-ops/tools/internal-onboarding.md/#onboarding)
+- [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
 - [Onboarding swag](swag.md/)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Managing remore work](../../company-info-and-process/remote/index.md)
@@ -88,9 +88,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Public holidays](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Perks](../../benefits-pay-perks/benefits-perks/#perks.md)
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
-  - [Lumity](people-ops/tools/people-ops-faqs.md/#q-what-is-lumity)
-  - [Rippling](people-ops/tools/people-ops-faqs.md/#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?)
-  - [Making benefits changes](people-ops/tools/people-ops-faqs.md/#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
+  - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
+  - [Rippling](people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?)
+  - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Medical leave & accommodation](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 - [Mental health resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
@@ -225,7 +225,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Tools
 
 - [Manager tool guide](people-ops/tools/manager-guide.md)
-- [BambooHR](people-ops/tools/manager-guide.md/#bamboohr)
+- [BambooHR](people-ops/tools/manager-guide.md#bamboohr)
 - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
 - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
