@@ -2500,11 +2500,11 @@ will_dollman:
 
 bachi_degli_innocenti:
   name: Juliana (Bachi) Degli Innocenti
-  pronouns: she/her
-  location: San Carlos de Bariloche, Argentina 🇦🇷
-  role: Sr. Social Media Manager
-  reports_to: Director of Global Communications
   email: bachi.degli.innocenti@sourcegraph.com
+  pronouns: she/her🇷
+  role: Sr. Social Media Manager
+  reports_to: director_global_communications
+  location: San Carlos de Bariloche, Argentina 🇦
   github: bachidegli
   links: '[Twitter](https://twitter.com/julibachi), [LinkedIn](https://www.linkedin.com/in/julianadi/)'
-  description: 'Bachi recently moved to Bariloche in Patagonia, Argentina with her wife, Dai, and her 2 cats, Oreo and Melba. If she is not geeking about social media or doing a new course, you'll find her trying new recipes or playing videogames and boardgames. Prior to Sourcegraph, I was the head of social media at Auth0, and before that, she worked in agencies and videogame companies.'
+  description: 'Bachi recently moved to Bariloche in Patagonia, Argentina with her wife, Dai, and her 2 cats, Oreo and Melba. If she is not geeking about social media or doing a new course, you will find her trying new recipes or playing videogames and boardgames. Prior to Sourcegraph, I was the head of social media at Auth0, and before that, she worked in agencies and videogame companies.'
