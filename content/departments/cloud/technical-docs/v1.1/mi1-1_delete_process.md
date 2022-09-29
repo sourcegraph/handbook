@@ -140,7 +140,7 @@ git commit -m "managed-instance-${CUSTOMER}: Remove GCP infrastructure and proje
 
 **Review the proposed changes carefully.**
 
-### Create the Pull Request
+### Create the pull request
 
 **Title:** managed-instance-$CUSTOMER: Teardown Managed Instance
 
@@ -152,20 +152,13 @@ _Link tear-down request issue in the description_
 git push origin HEAD
 ```
 
-Open the PR:
 **Title:** managed-instance-$CUSTOMER: Teardown Managed Instance
 
 _Link tear-down request issue in the description_
 
 Wait for checks to pass, approval and then merge pull request.
 
-### Open a pull request
-
-```
-git push origin HEAD
-```
-
-## Remove infra monitoring
+## Remove infrastructure monitoring
 
 In https://github.com/sourcegraph/deploy-sourcegraph-managed
 
