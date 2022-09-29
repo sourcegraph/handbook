@@ -59,10 +59,13 @@ You can read more about submitting time off via [Roots here](../../../../../bene
 Go to [this article ](https://help.letsdeel.com/hc/en-gb/articles/4906891050769-How-do-I-download-an-Employment-Verification-Letter-)for more information on this topic.
 
 #### If I move will I be able to switch countries and still use deel?
-COMING SOON 
+
+COMING SOON
 
 #### Will I be able to change my contract relationship later on if needed? (from EOR to something else?)
+
 COMING SOON
 
 #### What if my circumstances change?
+
 Please be sure to keep us informed of any life events. You can read more [here](https://help.letsdeel.com/hc/en-gb/articles/4403918136209-What-if-my-circumstances-change-)
