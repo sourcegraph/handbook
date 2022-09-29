@@ -37,7 +37,7 @@
 
 **Step 7**: Once the candidate verbally accepts the offer, the Recruiter follows the below steps:
 
-- For US-based and non-US based (contractor) candidates: make a formal request in the Slack channel #talent-scheduling-and-offers for an offer letter to be sent via DocuSign.
+- For US-based and non-US based (Non-PEO/EOR) candidates: make a formal request in the Slack channel #talent-scheduling-and-offers for an offer letter to be sent via DocuSign.
 
   - **Step 1:** In the slack channel you will go to the message box and click on the _Attachments & shortcuts_ button (the cross icon).
   - **Step 2:** You will see a section called _Workflows for this channel_ with two options: _Scheduling Request_ and _Offer Request_
@@ -64,7 +64,7 @@
 **Step 8**: The offer letter is officially [generated](../tools/resources_for_recruiting_operations.md#how-to-generate-an-offer-letter) and the candidate receives the offer.
 
 - For US-based offers, the Recruiting Operations Specialist will send the `US-offer template` via DocuSign.
-- For non-US based offers (Contractors), the Recruiting Operations Specialist will confirm the correct template and will send via DocuSign.
+- For non-US based offers, the Recruiting Operations Specialist will confirm the correct template and will send via DocuSign.
   - All DocuSigns should be routed for signing to VP People & Talent > Candidate and Cc Recruiting@sourcegraph.com, Onboarding@sourcegraph.com and the Hiring Manager
 - For PEO candidates, the candidate will receive all offer documentation via the PEO.
 
@@ -120,14 +120,11 @@
 
 ### Offer process for PEO/EOR contracts
 
-Our **default position** is to hire new teammates as contractors, as opposed to hiring via PEO.
+- If a new teammate are required to be hired via a PEO/EOR, the finance team will review this request before it is processed.
 
-- The exception is the UK. For new hires in the UK, we will hire these teammates via PEO.
-- If a new teammate requests to be hired via a PEO, and that teammate is _not_ based in the UK, then the finance team will review this request.
+  - **Step 1:** The talent team should set the expectation with the candidate (non US based candidates) on our PEO/EOR onboarding process. This should be completed as early as possible in the hiring process.
 
-  - **Step 1:** The talent team should set the expectation with the candidate (non US based candidates) that Sourcegraph wishes to engage that candidate as a contractor. This should be completed as early as possible in the hiring process.
-
-  - **Step 2:** If a candidate informs the talent team that they wish to be hired via a PEO, then the talent team should request approval from finance. This should be communicated at the #finance-talent-collab channel.
+  - **Step 2:** If a candidate required to be hired via a PEO/EOR, then the talent team should request approval from finance. This should be communicated to the #finance-talent-collab channel.
 
   - **Step 3:** Finance will review the cost implications, as well as the implications associated with taking on additional headcount in certain countries.
   - **Step 4** Finance will aim to respond within 24 hours.
