@@ -150,6 +150,8 @@ Wait for checks to pass, approval and then merge pull request.
 
 ## Remove infrastructure monitoring
 
+> NOTE: This is typically done through [GitHub Actions every 15 minutes](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml), no manual intervention needed in regular situations.
+
 In the repository root of the [sourcegraph/deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed):
 
 ```sh
@@ -158,6 +160,8 @@ terraform apply
 ```
 
 ## Remove audit monitoring from removed GCP project
+
+> NOTE: This is typically done through [GitHub Actions every 15 minutes](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml), no manual intervention needed in regular situations.
 
 In the repository root of the [sourcegraph/infrastructure](https://github.com/sourcegraph/infrastructure):
 
@@ -176,7 +180,7 @@ This [GitHub Query](https://github.com/sourcegraph/sourcegraph/issues?q=is%3Aope
 
 ## Close teardown request issue
 
-> NOTE: to ensure auditability of the teardown SLA, it is important to execute these steps directly after tearing down a managed instance.
+> NOTE: To ensure auditability of the teardown SLA, it is important to execute these steps directly after tearing down a managed instance.
 
 1. Validate that the teardown request issue has references to the pull requests showing the necessary changes. If any are missing, update the PR descriptions with a link to the teardown request issue.
 1. Close the teardown request issue.
