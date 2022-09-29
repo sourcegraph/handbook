@@ -42,7 +42,7 @@ git checkout -b $SLUG/create-instance
 
 `mi2 generate` will
 
-- generate the terraform module and prmompt you to apply the terraform module
+- generate the terraform module and prompt you to apply the terraform module
 - generate the kustomization manifests and helm override based on output from the terraform module
 
 ```sh
@@ -61,7 +61,7 @@ export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.stat
 Apply the `project` terraform module
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/project
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/project
 terraform init
 terraform apply
 ```
@@ -77,7 +77,7 @@ mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 Above command will fail again, run the command below to manually apply the `infra` terraform module.
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/infra
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
 terraform init
 terraform apply
 ```
@@ -95,7 +95,7 @@ mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 Connect to the cluster locally by running
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/terraform/infra
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
 export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
 gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
 ```
@@ -103,7 +103,7 @@ gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --p
 Deploy the manifests
 
 ```sh
-cd environments/$ENVIRONMENT/deployments/$INSTNACE_ID/kubernetes
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
 ```
 
