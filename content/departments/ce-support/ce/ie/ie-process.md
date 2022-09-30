@@ -10,11 +10,15 @@ For information on recommended deployment types and strategies, visit [Implement
 
 The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
 
-CE - [CE-Implementation Collaboration Overview](ce-implementation-handoff.md)
-Sales
-TAM
-Sales
-Engineer
+CE - [CE-Implementation Collaboration Overview](ce-implementation-handoff.md)<br>
+Sales<br>
+TAM<br>
+Sales<br>
+Engineer<br>
+
+# High Level Implementation Project Plan
+
+![Implementation Overview](https://storage.googleapis.com/sourcegraph-assets/Implementation%20Overview.png)
 
 # Implementation Team Tasks and Responsibilities
 
