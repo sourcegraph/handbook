@@ -2,6 +2,21 @@
 
 This page includes all information a Talent Team member, Hiring Manager, or Teammate needs to know about the interview stage.
 
+## Values and practices
+
+1. We want our hiring process to access all potential qualified candidates.
+   - We proactively promote our open positions to many different groups, communities, and networks.
+   - If we believe there is a talented set of individuals who are not applying to our team, we will initiate outbound efforts to reach them. We believe there is value in reaching out to candidates who are not directly connected to the social graph of our team today.
+1. We want our hiring process to be fair to all candidates.
+   - We recognize that the way a job description is written can plan a key role in promoting positive Diversity & Inclusion efforts. In fact, countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. Because of this, our job descriptions focus on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool.
+   - We ask a consistent set of questions to each candidate so that we can objectively measure performance across candidates.
+   - We leverage [BrightHire](../tools/guide_to_using_brighthire.md) to record our interviews, ensuring there is an objective record of the interview that can be referenced when making a hiring decision.
+   - All interviewers submit written feedback independently before being able to see feedback from other interviewers. Feedback may not be edited after submission.
+   - We maintain a consistent hiring [decision process](#decision-making-process) for all candidates.
+1. Hiring managers own the hiring process for their team.
+   - Hiring managers are encouraged to partner with their assigned recruiter to experiment to learn how to improve their hiring process.
+   - The handbook is kept up-to-date with our learnings and current norms. If something is missing from the Handbook, please Slack @hiring.
+
 ## The interview lifecycle
 
 - [How to open a new job](./opening_a_new_job.md)
@@ -16,7 +31,7 @@ Current employees can refer a candidate in Greenhouse by following [these instru
 
 ## Preparing for an interview
 
-**Training:** all interviewers must review [interview training](../tools/interview_training.md) before participating in any interviews.
+**Training:** all interviewers must review and complete [interview training](../tools/interview_training.md) before participating in any interviews.
 
 - [How to lead a legal interview](../tools/interview_training.md#3-leading-a-legal-interview).
 - [How to provide a positive candidate experience](../tools/interview_training.md#candidate-experience).
@@ -24,7 +39,7 @@ Current employees can refer a candidate in Greenhouse by following [these instru
 **System set up:** all interviewers must have the below systems set up before interviewing.
 
 - [How to use Greenhouse, our ATS where all interview feedback lives](../tools/guide_to_using_greenhouse.md).
-- [How to use Brighthire, our interview recording tool ](../tools/guide_to_using_brighthire.md#guide-to-using-brighthire).
+- [How to use BrightHire, our interview recording tool ](../tools/guide_to_using_brighthire.md#guide-to-using-brighthire).
 
 **Role familiarization**: prior to the interview, open up the interview kit in Greenhouse (the link can be found in your interview calendar invite). In the interview kit, you’ll be able to view the candidate’s resume, the job description, and the structured interview questions you will ask during the interview.
 
@@ -34,7 +49,7 @@ Current employees can refer a candidate in Greenhouse by following [these instru
 
 ## The interview stage
 
-### **The recruiter screen**
+### The recruiter screen
 
 The first step of an interview process for a candidate is the Recruiter Screen. All Recruiters must have completed all stages of [Recruiter Onboarding](../../onboarding/index.md) before interviewing candidates.
 
@@ -102,14 +117,14 @@ It is our goal to fill our openings as quickly as possible while maintaining a h
 
 Please reference the [hiring plan](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=0) to see your upcoming open roles. This document is updated in real time and adjusts as the needs of our business change. If you see that you have an upcoming role in the next 2–3 months, please follow the below steps to kick off a search.
 
-## **Sourcing best practices**
+## Sourcing best practices
 
 - To source passive candidates, the Recruiter and Hiring Manager follows best sourcing practices in LinkedIn Recruiter.
 
 Click [here](how_to_be_a_sourcer_at_sourcegraph.md) to read about sourcing best practices and how a sourcer partners with a Recruiter and Hiring Manager.
 Click [here](https://docs.google.com/document/d/1c2ZI6IfvkK7syuo8aIBSnWpCF8SqAD12TiPSkTKqhp4/edit) for a guide on creating a Recruiting Outreach Campaign.
 
-## **Outreach best practices**
+## Outreach best practices
 
 - Our goal is to drive meaningful outreach and engagement with prospective candidates. When designing an engagement strategy, the goal is to create a sequence of messages and/or content at touch points delivered to a targeted candidate at predefined intervals.
 
