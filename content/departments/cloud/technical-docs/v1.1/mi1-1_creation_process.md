@@ -55,7 +55,7 @@ Customisation is done via:
 Generate password reset link for customer:
 
 ```bash
-mg reset-customer-password --email <customer admin email>
+mi reset-customer-password --email <customer admin email>
 ```
 
 #cloud usually hands off to CE at this point, they will schedule a call with the customer (including a DevOps team member, if needed) to walk the site admin on the customer's side through performing initial setup of the product including adding the license key, adding repos, configuring SSO, and inviting users. Please notify the CE requested the instance has been created with the following message.
