@@ -66,7 +66,7 @@ Note: all automated email will automatically appear in salesforce (through Malo'
 3. when the instance is ready
    1. set a license on the instance that:
    - is attached to a user called `customer-name-plg-trial`
-   - has 1,000 users 
+   - has 1,000 users
    - has a **30-day limit**
    - has the following tags ([definition of tags](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@main/-/blob/enterprise/internal/licensing/data.go)): `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial`. If there is no Salesforce account ID associated with the user, you may leave this blank when creating a user within the license creation flow
    2. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit), **cc-ing the AE and CE** assigned to the account with
