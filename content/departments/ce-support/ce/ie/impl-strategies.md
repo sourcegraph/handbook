@@ -109,9 +109,9 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 
 ### Deployment Decision Tree
 
-![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/DeploymentDecisionTreev5.png)
+![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/Deployment%20Decision%20Tree%20v6.png)
 
-[Link to Excalidraw](https://excalidraw.com/#json=52xcj-MlwYuHvY1bcwRNm,1Z1RbotOIu0k_sHLlTlcxA)
+[Link to Excalidraw](https://excalidraw.com/#json=RGUWp3kY8p6o17wUZT9Wn,NCIZn6zMIeQOgrYI6Q_5Ng)
 
 ### Description of Decision Tree Questions
 
@@ -169,6 +169,7 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 
 - <em>Are there contextual limitations requiring the acount to user Sourcegraph implementation services?</em> - Any additional contextual situations should be taken into account when determining the account priority and need for a jointly managed instance. These include questions such as whether or not the account has a lack of deployment expertise, they have particularly unique set of deployment requirements, or they have a strategic purpose.
 
-**Is there an organizational requirement to use their own base AMI?**
+**Is there an organizational requirement to use their own base AMI or does the organization use a cloud provider other than AWS?**
 
-- If a customer indicates that they require the use of their own base AMI (therefore requiring the use of Docker Compose), this should be questioned and discouraged. While this is still possible, Docker Compose is no longer recommended, and ideally any customer for whom Cloud and one-click doesn't work should be deploying with Kubernetes.
+- If a customer uses a cloud provider other than AWS and does not need a full Kubernetes deployment, Docker Compose should continue to be recommended.
+- If a customer uses AWS but indicates that they require the use of their own base AMI (therefore requiring the use of Docker Compose), this should be questioned and discouraged. While this is still possible, Docker Compose is no longer recommended, and ideally any customer for whom Cloud and one-click doesn't work should be deploying with Kubernetes.
