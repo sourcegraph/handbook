@@ -181,7 +181,7 @@ Take a snapshot at this point to preserve the state of the instance before proce
 
 Sourcegraph must be upgraded 1 minor version at a time.
 
-1. [Perform in-place upgrades](upgrade_process.md/#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
+1. [Perform in-place upgrades](upgrade_process.md#in-place-updates) from the customer's self-hosted version to the latest version deployed to managed instances.
 
 Repeat in-place upgrade process for upgrade path (Glovo’s listed below)
 
