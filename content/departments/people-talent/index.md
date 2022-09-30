@@ -162,7 +162,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - [Who is my People Partner?](teamalignment.md)
 - Recruiting support
-  - [Who is my recruiter?](teamalignment.md)
+  - [Who is my Recruiter?](teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - [How to submit a confidential complaint](../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
