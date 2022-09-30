@@ -11,11 +11,11 @@ For basic operations like accessing an instance for these steps, see [managed in
    - `customer_email` - customer admin email (only one from provided in issue)
    - `instance_type` - purpose of this instance
 
-      trial - for customer trial
+     trial - for customer trial
 
-      production - for paying customer
+     production - for paying customer
 
-      internal - for internal Sourcegraph usage
+     internal - for internal Sourcegraph usage
 
    via command line:
 
