@@ -59,10 +59,16 @@ Note: all automated email will automatically appear in salesforce (through Malo'
 `@Eric Brody-Moore ` and `@malo` will be monitoring the #cloud-trial-alerts for qualified requests. When a request is sent, they will:
 
 1. self-assign the request by replying "I'm taking it" to the alert
-2. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial_mi.md#trial-managed-instance-creation-flow)
-3. you will need to [create an issue in the accounts repository](https://github.com/sourcegraph/accounts/issues) to link in the managed instance request issue
-4. Create a lisense for the instance with 1,000 users, a **30-day limit**, and the following tags ([definition of tags](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@main/-/blob/enterprise/internal/licensing/data.go)): `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`. If there is no Salesforce account ID associated with the user, you may leave this blank when creating a user within the license creation flow. Note: the license will be set by the cloud team when provisioning the license.
-5. when the instance is ready
+1. raise a trial instance request with the cloud team (this step will be automated soon), which will start the [cloud instance creation flow](../../../cloud/trial_mi.md#trial-managed-instance-creation-flow)
+
+- you will need to [create an issue in the accounts repository](https://github.com/sourcegraph/accounts/issues) to link in the managed instance request issue
+- create a license, to be set by the cloud team when they provision the license, that:
+- is attached to a user called `customer-name-plg-trial`
+- has 1,000 users
+- has a **30-day limit**
+- has the following tags ([definition of tags](https://sourcegraph.com/github.com/sourcegraph/sourcegraph@main/-/blob/enterprise/internal/licensing/data.go)): `plan:enterprise-1`,`private-extension-registry`,`remote-extensions-allow-disallow`,`monitoring`,`true-up`, `trial`, `plg-trial`. If there is no Salesforce account ID associated with the user, you may leave this blank when creating a user within the license creation flow
+
+1. when the instance is ready
    1. send the admin an onboarding [email](https://docs.google.com/document/d/1k_cunJ4wSj3tl4K7lNiRTd_JERCGoiSWckpVBSI5rfc/edit), **cc-ing the AE and CE** assigned to the account with
       1. an initial password reset link to the instance following [this workflow](../../../cloud/#faq-how-do-i-generate-a-password-reset-link-for-customer-admin)
       2. a link to the onboarding checklist
