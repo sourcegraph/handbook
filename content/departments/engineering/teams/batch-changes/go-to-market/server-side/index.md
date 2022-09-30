@@ -108,3 +108,13 @@ Customers have heterogenous requirements for infrastructure, and it's likely we 
 #### How should issues with executors be escalated?
 
 Executors are beta, and we encounter a very heterogenous customer setup, so it's expected that executor-related questions will be escalated fast. Raise either via the normal channels, or in #wg-shipping-executors.
+
+#### How many executors do customers need to run batch changes?
+
+This highly depends on the number of concurrent batch changes, the nature of the batch changes, and the number of repositories per batch change.
+The general answers is the more executors the higher the throughput and the snappier the feedback cycle (workfloads will be executed fast), but also the more cost.
+To get an answer tailored to a customer, please collect the following and post in #wg-shipping-executors:
+
+- how many batch changes will be ran concurrently?
+- how many repos will be a typical batch change target
+- what's the nature of the batch changes? What tool will be used to create the changes? Any specific requirements to run that tool (RAM, disk, CPU)?
