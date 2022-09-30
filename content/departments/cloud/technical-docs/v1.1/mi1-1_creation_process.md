@@ -4,12 +4,12 @@ Creating a new [managed instance](./index.md) involves following the steps below
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
-1. Cloud Team invoke Github Actions with following parameters:
+1. Cloud Team invoke GitHub Actions with following parameters:
 
-- `customer` - name of customer
-- `ce_email` - email of Customer Engineer from issue
-- `customer_email` - customer admin email (only one from provided in issue)
-- `instance_type` - purpose of this instance
+   - `customer` - name of customer
+   - `ce_email` - email of Customer Engineer from issue
+   - `customer_email` - customer admin email (only one from provided in issue)
+   - `instance_type` - purpose of this instance
 
       trial - for customer trial
 
@@ -17,20 +17,20 @@ For basic operations like accessing an instance for these steps, see [managed in
 
       internal - for internal Sourcegraph usage
 
-  via command line:
+   via command line:
 
-  ```
-  gh workflow run mi_create.yml \
-    -f customer=$CUSTOMER \
-    -f ce_email=$CE_EMAIL \
-    -f customer_email=$CUSTOMER_EMAIL \
-    -f instance_type=[production|trial|internal] \
-    -f instance_size=[small|medium|large]
-  ```
+   ```
+   gh workflow run mi_create.yml \
+     -f customer=$CUSTOMER \
+     -f ce_email=$CE_EMAIL \
+     -f customer_email=$CUSTOMER_EMAIL \
+     -f instance_type=[production|trial|internal] \
+     -f instance_size=[small|medium|large]
+   ```
 
-  or via [Github Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml)
+   or via [GitHub Actions web console](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/mi_create.yml).
 
-  Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
+   Important: The `Create Managed Instance` workflow is `idempotent`, so can be safely re-run multiple times with same arguments.
 
 1. PR will be open automatically by Github Actions with the name/branch `$CUSTOMER/create-instance` in [deploy-sourcegraph-managed](https://github.com/sourcegraph/deploy-sourcegraph-managed/pulls) repository. Approve and merge it.
 
