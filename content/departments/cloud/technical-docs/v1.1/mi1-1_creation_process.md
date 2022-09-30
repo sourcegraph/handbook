@@ -36,7 +36,7 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 Note:
 
-- GCP metrics monitoring and alerting is applied automatically via scheduled [Github Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
+- GCP metrics monitoring and alerting is applied automatically via scheduled [GitHub Actions workflow](https://github.com/sourcegraph/deploy-sourcegraph-managed/actions/workflows/apply_monitoring.yml)
 - Security audit logging is applied automatically via a scheduled [GitHub Actions Worflow](https://github.com/sourcegraph/infrastructure/blob/main/.github/workflows/apply_mi_security_logging.yml)
 
 ## Optional: customise instance size
