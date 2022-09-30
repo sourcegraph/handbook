@@ -161,6 +161,14 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 
 - <em>Do no other technical or organizational restrictions exist that prevent the use of a Sourcegrpah AMI for the instance</em> - This is a placeholder to capture any other technical or organizational blockers that disallow a customer from using the one-click deployment option. If you and the customer encounter issues or limitations of this deployment option, reach out the the Delivery team to discuss options and determine whether or not Kubernetes should be recommended.
 
+\*\*Does the account qualify for a jointly managed instance?
+
+- <em>Has the account been evaluated by the implementation team for implementation services?</em> - Prior to qualifying an account for implementation services, the CE and AE must coordinate with the implementation team to discuss the opportunity, need, and strategy.
+
+- <em>Does the account take priority on the implementation backlog based on size, ARR, and TAM?</em> - The implementation team will likely not be able to handle every Kubernetes detployment that comes down the pipeline. In order to prioritize the accounts on the jointly managed backlog, the implementation team and leadership will primarily review the organizations size, the opportunities ARR, and the total addressable market of the account.
+
+- <em>Are there contextual limitations requiring the acount to user Sourcegraph implementation services?</em> - Any additional contextual situations should be taken into account when determining the account priority and need for a jointly managed instance. These include questions such as whether or not the account has a lack of deployment expertise, they have particularly unique set of deployment requirements, or they have a strategic purpose.
+
 **Is there an organizational requirement to use their own base AMI?**
 
 - If a customer indicates that they require the use of their own base AMI (therefore requiring the use of Docker Compose), this should be questioned and discouraged. While this is still possible, Docker Compose is no longer recommended, and ideally any customer for whom Cloud and one-click doesn't work should be deploying with Kubernetes.
