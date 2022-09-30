@@ -153,7 +153,7 @@ Larger (usually multi-iteration) projects coming from our roadmap go through thr
 3. **Implementation and testing** (usually 1–4 weeks)<br>
    Engineers execute on the implementation plan, putting a set of issues from the project into each iteration.
    This also includes that each sub-implementation-task is sufficiently tested, meaning by the end of this phase the project is ready to ship to customers with confidence.
-   When we are in testing phases, we prefer to make small issues for each problem discovered, and err on the side of too many testing issues (with duplicates, which are easy to close) rather than not filing something because we are worried about duplicates. 
+   When we are in testing phases, we prefer to make small issues for each problem discovered, and err on the side of too many testing issues (with duplicates, which are easy to close) rather than not filing something because we are worried about duplicates.
 
 We sequentialize and parallelize projects in a way that we can _plan_ projects (step 1 and 2) while another project is currently being _implemented_, so that we always have the next project ready to be implemented by the time a project has finished implementation.
 We will however make sure to never have multiple projects in planning phase at the same time, as this leads to cognitive overload while also delivering on an implementation for another projects.
