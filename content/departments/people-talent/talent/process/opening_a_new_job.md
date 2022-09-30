@@ -15,14 +15,17 @@ This page outlines the steps a Hiring Manager takes to kick off a new search.
 The below actions must take place before we begin interviewing candidates.
 
 ### Step 1: fill out the intake form
+
 The Hiring Manager fills out [this intake form](https://docs.google.com/forms/d/1ju9waV4k_TpYMGmYZaH5eA2swkuvIthLFKQCzqrRUZM/edit). Responses are routed to our [How to Open a New Job (Responses)](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630) form. This is required for all net new and backfill roles.
 
 - If you need help completing this form or getting a status update on your headcount request, please get in touch with your [recruiting partner](../../teamalignment.md) so they can help move this through the process.
 
 ### Step 2: exec approval
+
 The exec team must agree that this is a business-critical role before the Finance team can approve it for hire. This happens synchronously during exec team meetings, and a decision will be made at this meeting. Alternatively, the Hiring Manager can request this approval be completed async by the exec team. Finance or VP, People & Talent will alert Talent Team once it's approved or denied.
 
 ### Step 3: create a job description & interview plan
+
 If the role is approved, the Hiring Manager creates a job description & interview plan using [this template](https://docs.google.com/document/d/1rJAYyARbegvvH_e-VTrHoFhU9cDG5WfHov3L12NeCO8/edit). We recognize that this step is time consuming, yet it is a critical step in setting our search up for success. Creating a well-thought out job description and interview plan 1) ensures alignment between the Hiring Manager, the hiring team, and the Recruiter and 2) ensures that all candidates are receiving a fair and consistent interview experience. Creating a strong plan upfront is also proven to reduce time-to-fill, meaning that we will make a hire faster, on average.
 
 - **Job description format**: We write all job descriptions in an _impact format_. The way a job description is written can plan a key role in promoting positive DEI efforts. Countless studies have shown that certain demographics are less likely than others to apply if they don’t meet 100% of the outlined qualifications. To that end, Sourcegraph's job description format focuses on the **impact** a candidate will make in the role versus a long list of requirements that have historically impeded underrepresented candidates from applying, resulting in a larger and more diverse candidate pool. The goal of the job description is to focus on getting the candidate excited, while giving a clear representation on what we expect them to accomplish both in the short-term and longer-term. How will working at Sourcegraph benefit them in their career? Why is this the best job they’ll ever have?
@@ -34,11 +37,13 @@ If the role is approved, the Hiring Manager creates a job description & intervie
 ## The Recruiter's actions
 
 ### Pre-Kickoff
+
 - Please check [this sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630) to confirm headcount has been approved by the exec and Finance team.
 - If you are awaiting confirmation on a headcount request, please request a status update through the #finance-talent-collab Slack channel.
 - Make sure that the net new or backfill req is added to our [headcount tracking sheet](https://docs.google.com/spreadsheets/d/12fhIGjoJMtV27BEijThrW_ZSkNW62Xl8bkFZdkDa-lA/edit#gid=1720300630).
 
 ### Step 1: the intake meeting
+
 The Recruiter schedules a 30-minute intake meeting with the Hiring Manager to kick off the search and review the responses to the intake form. The intake meeting is intended for the Hiring Manager and the Recruiter to get on the same page about job requirements, the ideal candidate, and the proposed interview process. This is a necessary step to ensure initial alignment and set our search up for success.
 
 Example topics to cover during intake meeting:
@@ -60,6 +65,7 @@ Example topics to cover during intake meeting:
 - Job description
 
 ### Step 2: Greenhouse
+
 The Recruiter opens the job in Greenhouse:
 
 - Copy the "Template" job.
@@ -67,11 +73,13 @@ The Recruiter opens the job in Greenhouse:
 - All interview stages should use the standard interview titles, found [here](./types_of_interviews.md). When adding interview steps, you must follow the following format: ‘Type of Interview’ [Duration]. For example: Hiring Manager Screen [45 min]. It is not acceptable to add any notes or other identifying information in the title of the interview as this will skew our calibration data.
 
 ### Step 3: post the job
+
 The Recruiter posts the job to our [Careers page](https://about.sourcegraph.com/jobs/). If you would like it posted in other locations, please ask your Recruiter or send a Slack message to #hiring. You can see a list of other job boards we are considering [here](recruitment_branding.md).
 
 - The recruiter follows [these instructions](./recruitment_branding.md#before-posting-to-a-job-board) before posting a role to any given job board in order to track the source of applicants and help measure the job board's return on investment.
 
 ### Step 4: Slack kick-off process
+
 The Recruiter creates a Slack channel with the Interview Team and starts the Slack kick-off process:
 
 1. Create a new channel Slack channel named: “team-hiring_position_recruiter-name”
@@ -118,6 +126,7 @@ At a high level, here is an overview of what we’re looking for in this hire. @
 - Target start date:
 
 ### Step 5: post to `#hiring`
+
 The **Recruiter** posts an announcement about the new role in #hiring. Example below:
 
 Hi team! We're excited to announce that we're kicking off a new search on the [department name] team. Please help us find candidates by spreading the word to your network and sending any referrals! And as always, we welcome internal applicants, too! If you're interested, talk to your Manager and follow [these steps](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams) in the Handbook.
@@ -127,4 +136,5 @@ Hi team! We're excited to announce that we're kicking off a new search on the [d
 - What we're looking for: ask Hiring Manager to write a brief exciting description
 
 ### Step 6: recruit!
+
 The Recruiter begins [generating a candidate pool](identifying_candidates.md) by reviewing applications in Greenhouse and Sourcing passive candidates via LinkedIn Recruiter. Once eligible candidates are identified, they are moved to the [**interview stage**](./interview_process.md)
