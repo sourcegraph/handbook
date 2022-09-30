@@ -198,7 +198,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to extend an offer](talent/process/extending_an_offer.md)
   - [Reference checks](talent/process/extending_an_offer.md#offer-stage)
   - [Offer approval process](talent/process/extending_an_offer.md)
-  - [The offer summary](talent/process/extending_an_offer.md)
+  - [The offer summary](talent/process/extending_an_offer.md#offer-summary-call)
   - [The offer letter](talent/process/extending_an_offer.md)
 - [How to hire a teammate into a new role](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
@@ -360,7 +360,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Extending an offer](talent/process/extending_an_offer.md)
   - [Reference checks](talent/process/extending_an_offer.md#offer-stage)
   - [Offer approval process](talent/process/extending_an_offer.md)
-  - [The offer summary](talent/process/extending_an_offer.md)
+  - [The offer summary](talent/process/extending_an_offer.md#offer-summary-call)
   - [The offer letter](talent/process/extending_an_offer.md)
   - [Counter offer conversations](talent/process/extending_an_offer.md#counter-offers-and-how-to-deal-with-them)
 - [After the offer](talent/process/after_the_offer.md)
@@ -368,7 +368,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Onboarding process](talent/process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding via PEO](talent/process/after_the_offer.md#onboarding-process-for-peo-hires)
   - [Changing start dates](talent/process/after_the_offer.md#changing-a-new-hires-start-date)
-  - [Actioning a Revoked Offer](talent/process/after_the_offer.md#actioning-a-revoked-offer)
+  - [Actioning a revoked offer](talent/process/after_the_offer.md#actioning-a-revoked-offer)
 
 ### Internship program
 
