@@ -13,12 +13,12 @@ It can feel a little weird at first. Everyone else is just working Slack, why ca
 1. It is important that our team is as self-sustaining as possible and we need to be able to measure that. We have very fair salaries for a support role compared to the rest of the industry for this very reason and being able to reconcile total tickets vs what gets into Github helps us suss out our performance as well as room for growth.
 2. Most of the things we need to ask are not one and done ... they so quickly turn into long back and forth given that most questions require that level of attention and are just tricky enough; so even a simple question (if it's related to a case) counts.
 3. Engineering works in Github and while Slack is great, it's more helpful if they can refer to a Github issue to pick up where they left off, etc. This is also helpful for us for our long running cases.
-4. The #ask-product-eng Slack channel doesn't have a SLA. So if a question is meant to help a customer, we lose all mechanisms for accountability to make sure we are getting responses back in line with our SLAs to be sure customers are not left hanging.
+4. The #ask-engineering Slack channel doesn't have a SLA. So if a question is meant to help a customer, we lose all mechanisms for accountability to make sure we are getting responses back in line with our SLAs to be sure customers are not left hanging.
 5. Most questions we might ask that are simple will likely lead to a doc update and being able to see the history from the case to the Github issue and whether a docs update happened allows us to actually double check if docs updates are happening, where improvement is helpful (not just in the docs, but in what may make updating them difficult), etc.
 
-At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-product-eng Slack channel is for!
+At no point are we meant to be gatekeepers or go-betweens. No one else at Sourcegraph has to go through us to go to engineering; that is what the #ask-engineering Slack channel is for!
 
-And that may make you wonder when an application engineer would use the #ask-product-eng Slack channel. Simple, not for anything attached to a case. Longer answer:
+And that may make you wonder when an application engineer would use the #ask-engineering Slack channel. Simple, not for anything attached to a case. Longer answer:
 
 - ...for your own curiosity as you are learning (a question you have that is not driven from a case)
 - ...as you work on an OKR project
@@ -57,9 +57,9 @@ A couple of notes before to help you get started in figuring out which team will
 
 **Keywords**: `deploy`, `Docker`, `container`, `image`, `Kubernetes`/`k8s`, `cluster`, `AWS`, `Google Cloud`/`GCP`, `self-hosted`
 
-Any questions about self-hosted deployment should be routed to the [Delivery team](../../../engineering/dev/admin-exp/delivery/index.md).
+Any questions about self-hosted deployment should be routed to the [Delivery team](../../../engineering/teams/delivery/index.md).
 
-Any questions about managed instance deployment should be routed to the [DevOps team](../../../engineering/dev/admin-exp/devops/index.md).
+Any questions about managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/).
 
 ### Monitoring, management, and performance optimization
 
@@ -67,9 +67,9 @@ Any questions about managed instance deployment should be routed to the [DevOps 
 
 Questions about specific alerts and graph panels should be routed to the team that is responsible for the alert or panel, as indicated by relevant entry in [Alert solutions](https://docs.sourcegraph.com/admin/observability/alert_solutions) or the [Dashboards reference](https://docs.sourcegraph.com/admin/observability/dashboards) respectively.
 
-Any other questions about monitoring and performance for self-hosted customers should be routed to the [Delivery team](../../../engineering/dev/admin-exp/delivery/index.md).
+Any other questions about monitoring and performance for self-hosted customers should be routed to the [Delivery team](../../../engineering/teams/delivery/index.md).
 
-Any other questions about monitoring and performance for managed insteance deployment should be routed to the [DevOps team](../../../engineering/dev/admin-exp/devops/index.md).
+Any other questions about monitoring and performance for managed instance deployment should be routed to the [Cloud team](../../../engineering/teams/../../cloud/index.md).
 
 ### Code host connections
 
@@ -79,24 +79,24 @@ Any questions about code host connections and repository syncing should be route
 
 EXCEPTIONs FOR Q3FY22 (to be reassessed for Q4 by 2021-10-31):
 
-- `Perforce` should be routed to the [Repo Management](../../../engineering/dev/admin-exp/repo-management/index.md)
-- `permission syncing` should be routed to the [Repo Management](../../../engineering/dev/admin-exp/repo-management/index.md)
-- `CVS` should be routed to the [Batch Changes team](../../../engineering/dev/code-graph/batch-changes/index.md)
-- `license enforcement/management` should be routed to the [Batch Changes team](../../../engineering/dev/code-graph/batch-changes/index.md) (though these should always go through the CE)
+- `Perforce` should be routed to the [Repo Management](../../../engineering/teams/repo-management/index.md)
+- `permission syncing` should be routed to the [Repo Management](../../../engineering/teams/repo-management/index.md)
+- `CVS` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md)
+- `license enforcement/management` should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md) (though these should always go through the CE)
 
-Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../../engineering/dev/admin-exp/integrations/index.md).
+Note that this section applies to backend connections with code hosts, such as repository cloning and syncing. Questions about [frontend/UI integrations with code hosts](#browser-extensions-and-code-host-native-integrations) (e.g., getting code intelligence inside of a code host) should be routed to the [Integrations team](../../../engineering/teams/integrations/index.md).
 
 ### Repository Management
 
 **Keywords**: `indexing`, `gitserver`, `code host syncing`, `repo updates`
 
-Any questions about repository updating, indexing, or code host syncing should be routed to the [Repository Management team](../../../engineering/dev/admin-exp/repo-management/index.md).
+Any questions about repository updating, indexing, or code host syncing should be routed to the [Repository Management team](../../../engineering/teams/repo-management/index.md).
 
 ### Code Intelligence
 
 **Keywords**: `code intelligence`, `precise`, `navigation`, `LSIF`, `language server`/`LSP`, `go to definition`, `hover`, `find references`, `ctags`, `src lsif`, `syntax highlighter`, `syntect-server` any programming language names (e.g. `Go`, `Java`, `Python`, `COBOL`, etc.)
 
-Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../../engineering/dev/code-graph/code-intelligence/index.md).
+Any questions about code intelligence and navigation should be routed to the [Code Intelligence team](../../../engineering/teams/code-intelligence/index.md).
 
 ### Search
 
@@ -104,7 +104,7 @@ Any questions about code intelligence and navigation should be routed to the [Co
 
 The search team is divided into two sub-teams, search-product, and search-core. Search-product is focused on delivering features such as search contexts, and search predicates for Cloud and Enterprise alike, as well as driving retention for search in public code. Search-core is focused on growing the global index on Sourcegraph Cloud.
 
-Any questions about search should be routed to the [Search team](../../../engineering/dev/code-graph/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
+Any questions about search should be routed to the [Search team](../../../engineering/teams/search/index.md), via the #search slack channel. Teams should be flagged appropriately via @search-product or @search-core. The search team will also assign a dedicated team member for support inquiries via the @search-core-support and @search-product-support tags.
 
 In GitHub issues search-core and search-product should be flagged via team/search-core and team/search-product respectively.
 
@@ -112,37 +112,37 @@ In GitHub issues search-core and search-product should be flagged via team/searc
 
 **Keywords**: `browser extension`, `native integration`, `chrome`, `firefox`, `safari`, `Phabricator`, `Bitbucket`, `GitHub`, `GitLab`
 
-Any questions about the browser extension or code host native integrations should be routed to the [Integrations team](../../../engineering/dev/admin-exp/integrations/index.md).
+Any questions about the browser extension or code host native integrations should be routed to the [Integrations team](../../../engineering/teams/integrations/index.md).
 
 ### Sourcegraph extensions
 
 **Keywords**: `extensions`, `plugins`, `blame`, `git-extras`, `Codecov`
 
-Any questions about Sourcegraph extensions should be routed to the [Integrations team](../../../engineering/dev/admin-exp/integrations/index.md).
+Any questions about Sourcegraph extensions should be routed to the [Integrations team](../../../engineering/teams/integrations/index.md).
 
 ### Batch Changes
 
 **Keywords**: `campaigns`, `large scale code changes`, `refactoring`, `src batch`, `automation`, `batch changes`
 
-Any questions about Batch Changes should be routed to the [Batch Changes team](../../../engineering/dev/code-graph/batch-changes/index.md).
+Any questions about Batch Changes should be routed to the [Batch Changes team](../../../engineering/teams/batch-changes/index.md).
 
 ### Cloud
 
 **Keywords**: `cloud`, `Open Source Search`, `sourcegraph.com`, `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../../engineering/dev/admin-exp/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
+Any questions about Sourcegraph cloud should be routed to the [Cloud organization](../../../engineering/teams/index.md) via the [#cloud-org slack channel](https://sourcegraph.slack.com/archives/C02E07JDBD3).
 
 ### IAM
 
 **Keywords**: `permissions`, `ACLs`, `access`, `authorization`, `authz`, `authentication`, `authn`, `SSO`, `SAML`, `OAuth`, `auth proxy`, `OpenIDConnect`, `OIDC`
 
-Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM team](../../../engineering/dev/admin-exp/iam/index.md) via the [#iam slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
+Any questions about Identity and Access Management (IAM) and Administration Experience should be routed to the [IAM team](../../../engineering/teams/iam/index.md) via the [#iam slack channel](https://sourcegraph.slack.com/archives/C03D4H7UBEV).
 
 ### Code Insights
 
 **Keywords**: `insights`, `visualization`, `tracking`, `measuring`, `technical debt`
 
-Any questions about Code Insights should be routed to the [Code Insights Team](../../../engineering/dev/code-graph/code-insights/index.md)
+Any questions about Code Insights should be routed to the [Code Insights Team](../../../engineering/teams/code-insights/index.md)
 
 ### Docs site availability
 
@@ -150,7 +150,7 @@ Any questions about Code Insights should be routed to the [Code Insights Team](.
 
 The content platform team is responsible for our docs site (https://docs.sourcegraph.com/) being available, but not necessarily documentation (that is the responsibility for each engineering team).
 
-If the docs site is unavilable, route to the [Content Platform team](../../../engineering/dev/enablement/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
+If the docs site is unavilable, route to the [Content Platform team](../../../engineering/teams/content-platform/index.md) via the [#content platform slack channel](https://sourcegraph.slack.com/archives/C02PSJF0QLU).
 
 For a more detailed breakdown of codebase ownership please see the [Engineering Ownership](../../../engineering/dev/process/engineering_ownership.md) matrix
 

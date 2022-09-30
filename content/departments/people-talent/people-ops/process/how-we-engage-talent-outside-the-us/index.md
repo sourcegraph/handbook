@@ -24,9 +24,11 @@ Sourcegraph subsidiary employees go through team-specific onboarding.
 
 ## Employees of PEOs/EORs (if available)
 
-In countries where we don’t have a subsidiary, we will see if our current partner and third-party PEO (Professional Employer Organization) or EOR (Employer of Record), [Remote](https://remote.com/), is available to employ a teammate outside the US as a PEO employee.
+In countries where we don’t have a subsidiary, we will see if our current partner and third-party PEO (Professional Employer Organization) or EOR (Employer of Record), [Deel](https://www.deel.com/global-hiring-guide)/), is available to employ a teammate outside the US as a PEO employee.
 
-The Talent team and hiring managers carefully assess these exceptional cases where a PEO/EOR may be required, and engage the People Ops team to chat about the merit of the case early on, as our current partner, Remote, may not be able to support us in all countries.
+The Talent team and hiring managers carefully assess these exceptional cases where a PEO/EOR may be required, and engage the People Ops team to chat about the merit of the case early on, as our current partner, Deel, may not be able to support us in all countries.
+
+Read more about Deel [here](deel.md).
 
 ### Contracts
 
@@ -38,7 +40,11 @@ PEO employees will receive employee benefits in accordance with local employment
 
 ### Payments
 
-The PEO will pay these employees directly in their local currency via direct deposit and in accordance with local employment laws.
+The PEO will pay these employees directly in their local currency via direct deposit and in accordance with local employment laws. The Sourcegraph Finance team is responsible for determining the FX rate that is used when PEO contracts are generated. This FX rate will be applied to base salary and bonuses/commission.
+
+To determine a fair and reasonable FX rate, and in order to ensure that all teammates are paid consistently, the Sourcegraph Finance team will review FX rates on an annual basis, and the FX rates that are determined at these intervals will be used for all pay adjustments, and all new hires, for the 12 months following this review.
+
+The FX rate is calculated by using the trailing 12-month average.
 
 ### Onboarding
 

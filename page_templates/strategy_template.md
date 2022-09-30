@@ -1,6 +1,6 @@
 # Strategy page template
 
-> ℹ️  The following is a template for use on the pages of specific product & engineering teams, used to record and share your strategy and ultimately organize and communicate your thinking around prioritization. Some sections may be more applicable to customer-facing product teams, such as the analyst and competitive landscape sections, so feel free to customize or remove any that you know are not relevant to your strategy.
+> ℹ️  The following is a template for use on the pages of specific engineering teams, used to record and share your strategy and ultimately organize and communicate your thinking around prioritization. Some sections may be more applicable to customer-facing product teams, such as the analyst and competitive landscape sections, so feel free to customize or remove any that you know are not relevant to your strategy.
 
 > As you write this document, keep in mind that focusing on problems to solve more than lists of features tends to be a better way to approach communicating with people interested in your product team/area (customers, sales, analysts, etc.) as it leaves room for learning between what you know now and what you deliver in the end. This is not to say you never talk about features, but especially as you get [further out in planning](https://medium.com/@jobv/the-nearsighted-roadmap-57fa57b5906a) the blend of features vs. problems to solve should move more towards the latter.
 

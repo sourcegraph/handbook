@@ -43,13 +43,15 @@ Sales compensation will be aligned with the value Sourcegraph receives from a cu
 
 ### Subscription Renewals:
 
-- If a customer intends not to renew, we continue to recognize that customer’s current subscription/ARR until the last day of the subscription term
-  A subscription renewal requires a signed Order Form
+A subscription renewal requires a signed Order Form.
+
+- If a customer intends not to renew, we continue to recognize that customer’s current subscription/ARR until the last day of the subscription term.
+  Churn will fall on subscription term end date + 1 day regardless of the date the customer notifies Sourcegraph.
 
 - If a subscription term ends and a renewal has not yet been completed:
 
   - The customer subscription ends the day after the subscription term end date + 1 day; churn will also fall on subscription term end date + 1 day.
-  - Churn will not be recognized upon subscription term end date +1 day only in the event of both VP of Sales and VP of Finance written approval in response to a request for a subscription contract extension.
+  - Churn will not be recognized upon subscription term end date +1 day only in the event of both VP of Sales and VP of Finance written approval in response to a request for a subscription contract extension. Approvals should be requested in the #deal-desk channel.
   - A contract extension request will be evaluated on a case-by-case basis, not exceeding 30 calendar days from the last date of the initial subscription term end date.
   - Customer churn is voided upon a completed renewal order form. A completed renewal order form includes customer signatures with a signature date falling on or before the last day of the Sourcegraph approved contract extension term. A completed renewal order form will have a term start equal to the subsequent date of the prior contract term end date + 1 day.
 
@@ -174,3 +176,7 @@ Existing Sourcegraph customer (Customer A) closed a one-year subscription on Dec
 - July 31, 2022, ARR balance = $100,000
 - August 1, 2022 ARR balance = $150,000
 - November 30, 2022, ARR balance = $150,000
+
+### Process for communicating and reporting on, out of Period Adjustments
+
+- Please see our [process](https://docs.google.com/document/d/1J7Z_PW0Fzkti4qRR8iHuSxFeJh7hbEKttp3v5zfAMR8/edit#) for communicating and reporting on, out of period ARR adjustments.

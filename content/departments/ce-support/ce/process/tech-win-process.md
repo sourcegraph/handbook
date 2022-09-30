@@ -17,7 +17,7 @@ CEs are tightly aligned with the sales team and serve as technical experts, prov
 To be successful in driving technical wins requires the ability to:
 
 1. Help define and document customers’ use cases as confirmed during the qualification stage of the sales process
-2. Validate the technical viability of our solution against customers’ use cases using criteria provided by Product and Engineering
+2. Validate the technical viability of our solution against customers’ use cases using criteria provided by Engineering
 3. Understand how to leverage resources across the CE organization and other internal teams to secure the win
 4. Track and communicate the technical win status with the sales organization and other teams in a way that aligns with Sourcegraph’s [company culture of remote and asynchronous](../../../../company-info-and-process/communication/asynchronous-communication.md) communication
 
@@ -91,7 +91,7 @@ It also provides key areas for CEs to consider and specific steps to take to ens
    </td>
    <td>A living document that is used to track information about customers - their needs, their technical environment, use cases, etc. At first, this document captures details about the customer prior to Sourcegraph, then during the trial phase, and subsequently as they move to production.
 <p>
-<a href="https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/">Link To Template</a>
+<a href="https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/">Link To Template</a>
 <p>
 Store Completed TDDs <a href="https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC">Here</a>
    </td>
@@ -201,11 +201,11 @@ The following criteria are used to determine whether a technical win should prog
 - Has the CE defined the technical validation plan (demo, self eval, trial, etc.) which will be used to determine whether they have achieved the technical win?
 - Has the CE completed technical qualification of the customer’s usage scenario?
 - If the opportunity has non-standard or high-risk technical requirements as defined by the technical qualification criteria, has the CE gone through the [Tech Review Process](#tech-review-process) and received approval to proceed?
-- CE has completed a v1 draft of the [Technical Design Document](https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/)
+- CE has completed the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
 
 #### Trial Deployment (Sales Stages: 3-4)
 
-- CE has completed a v1 final version of [Technical Design Document](https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/)
+- CE has updated the [Technical Design Document v2](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/)
 - CE has completed the Trial and Deployment portions of the [Joint Success Plan](https://docs.google.com/spreadsheets/d/10nXs7INmzvKxGb5xPOTju8yxnkQXcBc3SEYdu20xFtM/edit#gid=1991584268)
 - Is the trial or evaluation environment successfully deployed?
 
@@ -218,14 +218,14 @@ The following criteria are used to determine whether a technical win should prog
 #### Post-Trial (Stages 5-7)
 
 - CE has completed a v1 draft of the [Post Sales Engagement Sheet](https://docs.google.com/spreadsheets/d/18DjSYXOnALOHYN-zrMhOGUWGFCaXYShqcKt477tj3LU/edit#gid=0)
-- CE has updated the [Technical Design Document](https://docs.google.com/document/d/15dxbZHqtcFG7JsGIQauBk3ERaeP2jtI4Lr-cgB5KfOI/) with details about the customer’s production deployment plans
+- CE has updated the [Technical Design Document](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc/) with details about the customer’s production deployment plans
 - Welcome kickoff meeting is scheduled with the customer
 
 ### Technical Design Document Creation and Review
 
 As early as the Qualification stage (Stage 2), CEs begin to collect information about and work to understand the needs of prospective customers. The learnings from these discussions (business and technical challenges, current environment, and technical and functional requirements) are recorded in a Technical Design Document.
 
-- Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, Product and Engineering.
+- Every prospective customer must have a Technical Design Document established starting as early as Stage 2 (Qualification) and completed by Stage 4 (Technical and Business Validation). TDDs are stored in a [central repository](https://drive.google.com/drive/folders/1o-4rB24vcYsOiUzSEr_vzJsC7pE03yYC) for easy collaboration with other CEs, Sales, Support, and Engineering.
 - All TDDs for [Tier 1 accounts](https://docs.google.com/document/d/14420oruJWMLKj67ObZiDzRK5GpHmRWXDjlDbH7L6T00/edit) must be reviewed by a peer on the CE team.
 - All TDDs with [non-standard technical requirements](https://docs.google.com/spreadsheets/d/101JXaau2EPvi322AOFmNeoeuXSJqlruD8gBBsHl1fmI/edit#gid=33376279) must be reviewed by a peer on the CE team.
 
@@ -274,7 +274,7 @@ Because CEs work directly with Sourcegraph users in the course of assessing the 
 
 It is important to distinguish all customer feedback CEs receive from what would be considered a product gap. A product gap would be some feedback a CE collects from a prospect during the initial sales cycle, or from an existing customer, that could be within the expected scope of work for Engineering. This especially pertains to either new feature requests or enhancements to existing features that could likely be incorporated into our roadmap. In contrast, a product feature or functionality that does not perform as documented might be a bug and should be handled through Product Support.
 
-All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../engineering/product/process/surfacing_product_feedback.md).
+All feedback and product gaps identified by CEs must be registered as a Product Gap in Salesforce with the appropriate taxonomy and documented impact. The Sourcegraph Handbook outlines [how to document Product Gaps appropriately](../../../engineering/product/process/feedback/surfacing_product_feedback.md).
 
 ### Weekly Tech Win Review
 

@@ -1,9 +1,8 @@
 # Development
 
-> NOTE: On 2022-06-05 we renamed our department to Engineering from "Product & Engineering". We're still working on updating the handbook after that change.
-
 - [Onboarding](onboarding/index.md)
 - [Principles and practices](process/principles-and-practices.md)
+- [Roles and responsibilities](roles/index.md)
 - [Engineering management](tools/engineering-management.md)
 - [Policies](policies/index.md)
 - RFCs (requests for comment)
@@ -22,6 +21,7 @@
   - [Licenses](process/licenses.md)
   - Guides on development, local setup, testing, best practices, etc. can be found in our "[Developing Sourcegraph](https://docs.sourcegraph.com/dev)" documentation.
   - [IAM model for GCP](process/engineering_iam_model.md)
+  - [Escalation engineer rotation](process/escalation-engineer-rotation.md)
 - [Tooling](tools/index.md)
   - [Slackgenie](tools/slackgenie.md)
 - Infrastructure
@@ -37,22 +37,8 @@
   - [Talent review process](career-development/talent-review-process.md)
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
   - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
-  - [Dogfood (internal) feedback](../team-culture/feedback-dogfood.md)
 
 <video controls src="https://storage.googleapis.com/sourcegraph-assets/handbook/Engineering%20Dept%20Video.mp4"></video>
-
-## Org chart
-
-We are organized in 3 orgs:
-
-- [Code Graph](code-graph/index.md)
-- [Admin Experience](admin-exp/index.md)
-- [Enablement](enablement/index.md)
-
-Also see:
-
-- [Full org chart](team/index.md).
-- [Roles and responsibilities](roles/index.md)
 
 ## Communication
 
@@ -110,6 +96,15 @@ The current channels are:
 - #dev-frontend
 - #dev-databases
 - #dev-urandom
+
+## IC5 mandate
+
+- IC5s are expected to raise global tech problems and recommend solutions to the Head of Engineering.
+  - This only applies to problems/solutions that require significant cross-team coordination and staffing. For anything smaller that doesn't need help from the Head of Engineering, just go do it; no process required.
+- Each recommendation should have been reviewed by each IC5.
+  - Consensus is not necessary.
+  - If an IC5 is out on leave or otherwise can't review it, don't block on them unless you think it is necessary.
+- When given a problem and recommended solution, the Head of Engineering should generally approve (and get a staffing plan in place) or reject within 48 hours.
 
 ## Misc.
 

@@ -8,15 +8,15 @@ We describe ourselves with a few different names depending on context, and we sh
 
 - **Sourcegraph**: Main product. This name is always preferred unless you need to clarify between the 3 deployment methods for Sourcegraph below.
 - **Sourcegraph self-hosted**: On-premises and self-managed version of Sourcegraph.
-- **Sourcegraph Cloud**: This is the cloud / SaaS version of Sourcegraph at [sourcegraph.com](https://sourcegraph.com). It can be used freely for open source search, or as a SaaS version of Sourcegraph for private code.
-- **Managed Sourcegraph instance**: Private Sourcegraph instances managed and provisioned by the Sourcegraph team.
+- **Sourcegraph Cloud** Dedicated, single-tenant Sourcegraph instances managed and provisioned by the Sourcegraph team. This was previously referred to as "managed instances."
+- **Sourcegraph.com / "dotcom"**: This is the service publicly available at [sourcegraph.com](https://sourcegraph.com). It can be used to search top open source repositories.
+- **Sourcegraph OSS**: When referring to the build result of the open source repository.
 - **Sourcegraph integrations**: The general term for our integrations. When referencing specific integrations:
   - Sourcegraph(’s) Phabricator integration
   - Sourcegraph(’s) GitHub integration
   - Sourcegraph(’s) browser extensions
   - Sourcegraph(’s) Chrome extension
   - Sourcegraph(’s) Firefox add-on
-- **Sourcegraph OSS**: When referring to the build result of the open source repository.
 - **Code intelligence platform**: Use when referring to our category or our entire suite of products and features.
 
 You don't need to use the full name of the product each time you refer to it, but don't use a shortened name that could be confused with an official name.

@@ -37,44 +37,46 @@ Feel free to add many code snippets and use code repositories to complement your
 
 ## Adding a blog post
 
-Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `content/blogposts` child directories. You can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607) to make that conversion and then use the following template for your front matter:
+Once your draft is approved, you're ready to add a blog post by creating a Markdown file in one of the `sourcegraph/about` repository `/content/blogposts` child directories.
 
-```markdown
----
-title: The title
-description: A 300 character limit field for describing your post. Use this is you want to specially craft the excerpt shown on the index page. Uses the first 300 characters of text from your post if this field does not exist.
-authors:
-  - name: The author name
-    url: https://example.com/
-  - name: Second authors name (optional)
-    url: https://example-2.com/
-publishDate: YYYY-MM-DDT10:00-07:00
-tags: [blog]
-slug: the-blog-slug
-heroImage: /blog/thumbnail-image.jpg
-socialImage: Use to set large social image i.e.  https://about.sourcegraph.com/blog/sourcegraph-social-img.png
-canonical: Use to override the canonical link i.e. https://www.fastcompany.com/90565930/im-deaf-and-this-is-what-happens-when-i-get-on-a-zoom-call
-published: true
-videoID: 'dQw4w9WgXcQ'
----
+## Convert to markdown
 
-Your markdown content goes here
-```
+To quickly convert your document into Markdown, you can use [Docs to Markdown](https://workspace.google.com/u/0/marketplace/app/docs_to_markdown/700168918607). This is not required, but can save some time if you do not prefer to rewrite the content.
 
-The data between the `---` is called front matter and is used to provide post metadata. Important to note about this metadata, is that:
+If you do this, please add the **frontmatter** to the beginning of the file, frontmatter instructions can be found in the [Blog Post Starter Pack](#using-the-blog-post-starter-pack).
 
-The `description` field is used as an excerpt for your post on the blog the index page.
+## Using the Blog Post Starter Pack
 
-- The `authors` field is for any author of the blog. The `url` field is optional but recommended. \* The indentations on this field are important to keep matching the example.
-- The `tags` field should be left as `blog` until we incorporate filtering posts via tags.
-- The `publishDate` field must be in the exact format above. Don't worry about the time, just change the date.
-- As long as `published` is true, your post will be visible, even if the value of `publishDate` is set in the future.
-- The `canonical` field is optional and only required to override the canonical link. Important for cross-posting blogs from personal blogs or published news sites. By default, set to `https://about.sourcegraph.com/blog/the-blog-slug`.
-- The `heroImage` field is your blog post's main header image. It's best to ping #creative-ops to request a blog illustration right after you submit your draft to get the artwork in time.
-- The `socialImage` field is optional. Use the full path to image in order to be read properly on Twitter and Facebook. Ideal image size: 1,200 x 628 pixels. <a href="https://sproutsocial.com/insights/social-media-image-sizes-guide/" rel="nofollow" target="_blank">Latest social size guidelines</a>.
-- The `videoID` field is an optional YouTube video ID and will take priority even if the `socialImage` is present. This will generate an inline video preview card when sharing on social media. This is supported for all types of posts; blog, podcast, and release posts.
+The Content Platform Team maintains a template Markdown file that exposes all of the content components available for use in the blog. You can directly copy and paste components from this file into your post. It's important to use the components provided for tables, images, alerts, youtube videos, external or self hosted videos, and HubSpot forms to ensure our blog posts are uniform in styling.
 
-## Adding images and other media
+Access the template in the About repository: [`/content/blogposts/blog-post-starter-pack.md`](https://github.com/sourcegraph/about/tree/main/content/blogposts/blog-post-starter-pack.md).
+
+To use the template, copy the above file and paste it in the appropriate year folder (i.e. `/content/blogposts/2022/`). Rename the file to the slug the post will be, or something similar. Edit the markdown content accordingly. All available standardized components are ready to be changed right in this file!
+
+<hr />
+
+To ensure uniformity between commonly used content items, please use the following components where appropriate. These are setup to accommodate screen responsiveness, accessibility concerns, and meet our brand guidelines.
+
+<ol>
+  <li>Alert</li>
+  <li>Badge</li>
+  <li>Blockquote</li>
+  <li>Figure</li>
+  <li>TableWrapper</li>
+  <li>Video</li>
+  <li>YouTube, and;</li>
+  <li>HubSpotForm</li>
+</ol>
+
+> NOTE: **Reference the [Blog Post Starter Pack](#using-the-blog-post-starter-pack) for use case examples.**
+
+<hr />
+
+## Adding images
+
+Please use a `<Figure />` component to add images to your post. Find instructions in the [Blog Post Starter Pack](#using-the-blog-post-starter-pack).
+
+**Do not** add images using `img` tags or `![text](image.png)` methods.
 
 ### Sizing images
 
@@ -86,7 +88,7 @@ The `description` field is used as an excerpt for your post on the blog the inde
 ### Uploading images
 
 - If you do not have a custom hero or social image, use this [default hero image](https://storage.googleapis.com/sourcegraph-assets/blog/default_hero_social.png).
-- Small images can be placed in the `website/static/blog` directory and have the url of `/blog/example-image.jpg` in your markdown.
+- Small images can be placed in the `/public/blog` directory and have the url of `/blog/example-image.jpg` in your markdown. We also strongly encourage you to create a sub directory with the same slug as your post if you are including multiple files for your blog post. This keeps our assets organized per blog post. For example: `/blog/my-slug/image-name.png`, `/blog/my-slug/other-image-name.png`.
 - Large images, GIFs, and other binary assets should be uploaded to the `sourcegraph-assets` Google Cloud Storage bucket. You can use the UI uploader at [https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog](https://console.cloud.google.com/storage/browser/sourcegraph-assets/blog) or you can use the CLI with `gsutil cp local/path/to/myasset.png gs://sourcegraph-assets/`, with the image `src` being `https://sourcegraphstatic.com/blog/myasset.png`.
   - Note: You may need to request permission to upload files to the GCP bucket. If you see an error message that additional permissions are required, you can ask for help in #it-tech-ops on Slack.
 - Please use lower case letters and hyphens instead of spaces in folder and image names:
@@ -106,41 +108,11 @@ The `description` field is used as an excerpt for your post on the blog the inde
   </div>
 </div>
 
-### YouTube video embed code
-
-Uses Bootstrap for responsive sizing and adequate whitespace between adjacent elements, and that only Sourcegraph videos are shown on the end screen.
-
-<!-- prettier-ignore -->
-```html
-<div className="container my-4 video-embed embed-responsive embed-responsive-16by9">
-  <iframe
-    className="embed-responsive-item"
-    src="https://www.youtube-nocookie.com/embed/${YOUTUBE_ID}?autoplay=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;loop=0&amp;controls=1&amp;modestbranding=0&amp;rel=0"
-    allowFullScreen=""
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    frameBorder="0"
-  ></iframe>
-</div>
-```
-
-### HubSpot form embed code
-
-Inserts HubSpot form wherever the `targetId` div tag is placed.
-
-```html
-<EmbeddedHubSpot portalId="2762526" formId="your-form-id" targetId="#your-target-id" />
-<div id="your-target-id"></div>
-```
-
-### Adding a screenshot or screen recording
-
-You can read about [embedding GIFs and videos](process/adding_screenshots_screen_recording.md) here.
-
 ## Previewing your blog post
 
 It's recommended to run the development site to preview your blog post locally.
 
-Once your pull request is created, you can preview your blog post through the netlify build. To do so:
+Once your pull request is created, you can preview your blog post through the Netlify build. To do so:
 
 - In your PR, on the 'conversation' tab
 - Find the checks at the bottom
@@ -164,13 +136,8 @@ If you're not seeing your blog post on the index page, check that:
 
 Fixing, editing, and updating a blog post on [about.sourcegraph.com](https://about.sourcegraph.com/blog/) is easy, can be done in minutes, and does not require running code locally.
 
-This video shows the process from start to finish, although only those with repository push access will be able to squash and merge the change.
+This video shows the process from start to finish, although only those with repository push access will be able to squash and merge the change. Find a blogpost file in [About's repository](https://github.com/sourcegraph/about/tree/main/content/blogposts), the slug and file name are usually the same. Edit and preview the markdown in GitHub. Create a pull request from the browser. The change can be previewed again in staging, accessible from the `deploy/netlify` **Details** button.
 
-<p className="container">
-  <div style={{ padding: '56.25% 0 0 0', position: 'relative'}}>
-    <iframe src="https://www.youtube-nocookie.com/embed/15hE2BCyMCQ" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} frameBorder="0" webkitAllowFullscreen="" mozAllowFullScreen="" allowFullScreen=""></iframe>
-  </div>
-  <p style={{ textAlign: 'center' }}>
-    <a href="https://www.youtube.com/watch?v=15hE2BCyMCQ" target="_blank" rel="noreferrer">Watch on YouTube</a>
-  </p>
-</p>
+<div className="container">
+  <iframe src="https://www.youtube-nocookie.com/embed/0kQDard1GEY" style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }} frameBorder="0" webkitAllowFullscreen="" mozAllowFullScreen="" allowFullScreen="" />
+</div>

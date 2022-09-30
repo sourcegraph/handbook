@@ -4,7 +4,7 @@ These guidelines are for contributing documentation to the [sourcegraph reposito
 
 ## Contributing
 
-Whenever a feature is changed, updated, introduced, or [deprecated](../../product/process/deprecation_process.md), the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
+Whenever a feature is changed, updated, introduced, or [deprecated](../../product/process/prioritize_and_build/deprecation_process.md), the pull request introducing these changes must be accompanied by the documentation (either updating existing ones or creating new ones).
 
 The developer who made the code change is also [responsible](../roles/index.md#software-engineer) for writing the initial documentation for new features and updating the documentation for changes to existing features. This includes updating [the changelog as well](https://sourcegraph.com/github.com/sourcegraph/sourcegraph/-/blob/CHANGELOG.md). At the pace Sourcegraph evolves, this is the only way to keep the docs up to date.
 
@@ -51,7 +51,7 @@ For large images and other binary assets, upload them to the `sourcegraph-assets
 This advice currently pertains to [Sourcegraph administration documentation](https://docs.sourcegraph.com/admin).
 
 - Try to avoid repeating information. Instead, find the most relevant home for a piece of information, and link to it from where you want it so that the information can be easily found and referenced from other places.
-  - e.g. [Deployments playbooks](deployments/playbooks.md), [Managed instances operations](../admin-exp/devops/managed/operations.md), [Docker Compose operations guides](https://docs.sourcegraph.com/admin/install/docker-compose/operations)
+  - e.g. [Deployments playbooks](deployments/playbooks.md), [Managed instances operations](../../../cloud/technical-docs/operations.md), [Docker Compose operations guides](https://docs.sourcegraph.com/admin/install/docker-compose/operations)
 - Instead of adding an FAQ item, try to add the information in a more agnostic format to the relevant documents first, so that it can easily be found and referenced from other places.
   - e.g. instead of "How do I do X when Y for Z?", try "Do X" with a section for "Y" situation in the relevant documents for "Z"
   - If a FAQ item still feels prudent, link to the guide from the FAQ instead of repeating the information.

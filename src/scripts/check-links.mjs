@@ -24,9 +24,9 @@ const filePaths = await glob('**/*.md', { cwd: contentFolderPath })
 
 const allLinkDestinations = new Set()
 
-let errorsReported = false
+let errorsReported = 0
 
-console.log('Starting handbook link check..')
+console.log('Starting handbook link check...')
 
 for (const filePath of filePaths) {
     const absoluteFilePath = path.join(contentFolderPath, filePath)
@@ -44,7 +44,8 @@ for (const filePath of filePaths) {
                 pattern:
                     /^https?:\/\/(?!(cors-anywhere.sgdev.org\/https?:\/\/)?sourcegraphstatic.com\/|storage.googleapis.com\/sourcegraph-assets\/)/,
             },
-        ],
+            process.env.OFFLINE ? { pattern: /^https?:/ } : null,
+        ].filter(pattern => pattern !== null),
     })
 
     const lineColumnFinder = lineColumn(content, { origin: 1 })
@@ -127,8 +128,10 @@ console.log('Link check complete.')
 //     }
 // }
 
-if (!errorsReported) {
+if (errorsReported === 0) {
     console.log('✅  No problems found')
+} else {
+    console.log(`❌  Problems found: ${errorsReported}`)
 }
 
 /**
@@ -139,10 +142,10 @@ function reportError(errorMessage, location) {
     if (process.env.GITHUB_ACTION) {
         githubAction.error(stripAnsi(errorMessage), location)
     } else {
-        console.log(`❌ ${chalk.red.bold(formatLocation(location))} ${chalk.red(errorMessage)}`)
+        console.log(`${formatLocation(location)}: error: ${String(errorMessage)}`)
     }
     process.exitCode = 1
-    errorsReported = true
+    errorsReported++
 }
 
 /**

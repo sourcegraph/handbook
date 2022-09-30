@@ -19,12 +19,13 @@
   - [Customer marketing](product-marketing/customer_marketing.md)
 - [How to write a blog post](blog.md)
 - [Sending swag](swag.md)
-- [Brand Guidelines](../engineering/product/design/brand_guidelines/index.md)
+- [Brand Guidelines](../engineering/design/brand_guidelines/index.md)
 - [Marketing roles - open positions](https://sourcegraph.com/careers)
 - [Use cases](../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../strategy-goals/strategy/working-with-use-cases.md)
 - [Process docs](process/index.md)
   - [Managing cross-functional projects](process/managing-crossfunctional-projects.md)
+  - [Marketing content review process](process/marketing-content-review-process.md)
 - [Marketing Rapid Response Process](marketing_rapid_response_process/index.md)
 
 ## Members
@@ -33,4 +34,4 @@
 
 ## Career development
 
-Our [career development framework](https://docs.google.com/document/d/1MQiF1DY9io2znXXWnr3m9eudx--k3i1ST227z3pDu-w/edit) helps you understand the expectations of your role and provides a common language for you and your manager to discuss and plan your career growth. It is also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.
+Our [career development frameworks](career-development/index.md) help you understand the expectations of your role and provide a common language for you and your manager to discuss and plan your career growth. They are also an important part of our larger goal of ensuring everyone is equitably recognized for the impact they have at work, and to reduce bias in promotions and hiring.

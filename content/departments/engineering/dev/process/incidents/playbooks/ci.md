@@ -1,6 +1,6 @@
 # Continuous integration playbook
 
-- **Maintainers**: [DevX Team](../../../enablement/dev-experience/index.md).
+- **Maintainers**: [DevX Team](../../../../teams/dev-experience/index.md).
 - **Audience**: any software engineer, no prior infrastructure knowlegde required.
 - **TL;DR** This document sums up what to do in various scenarios that can block the CI.
 
@@ -204,6 +204,8 @@ In order to handle problems with the CI, the following elements are necessary:
      1. **Yes**, that's a flake. See the [Spotted a flake scenario](#spotted-a-flake)
    - **No**: it's not a flake, reach out the team owning those tests.
 
+You can also refer to the [Loom walkthrough "how to find out if a CI failure is a recurring flake"](https://www.loom.com/share/58cedf44d44c45a292f650ddd3547337).
+
 ### SSH into an agent
 
 - Gravity: none
@@ -242,4 +244,4 @@ In order to handle problems with the CI, the following elements are necessary:
 2. Check [dispatched agents](<https://console.cloud.google.com/kubernetes/workload/overview?folder=true&organizationId=true&project=sourcegraph-ci&pageState=(%22savedViews%22:(%22i%22:%22d63788ab9603422da3abba5f06030393%22,%22c%22:%5B%5D,%22n%22:%5B%22buildkite%22%5D),%22workload_list_table%22:(%22f%22:%22%255B%257B_22k_22_3A_22Is%2520system%2520object_22_2C_22t_22_3A11_2C_22v_22_3A_22_5C_22False_~*false_5C_22_22_2C_22i_22_3A_22is_system_22%257D_2C%257B_22k_22_3A_22_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22buildkite-agent-stateless-_5C_22_22%257D%255D%22))>) for availability issues
 3. Check [dispatcher logs](https://console.cloud.google.com/logs/query;lfeCustomFields=jsonPayload%252FexpectDispatch;query=resource.type%3D%22k8s_container%22%0Aresource.labels.project_id%3D%22sourcegraph-ci%22%0Aresource.labels.location%3D%22us-central1-c%22%0Aresource.labels.cluster_name%3D%22default-buildkite%22%0Aresource.labels.namespace_name%3D%22buildkite%22%0Aresource.labels.container_name%3D%22buildkite-job-dispatcher%22;summaryFields=jsonPayload%252FrunID,jsonPayload%252Fmsg,jsonPayload%252F%2522metric.agentsDispatched%2522,jsonPayload%252F%2522metric.freeAgents%2522,jsonPayload%252F%2522metric.scheduledJobs%2522,jsonPayload%252F%2522metric.totalAgents%2522:false:18:end:true;timeRange=PT30M?project=sourcegraph-ci) for details
 
-For more details, see the source: [buildkite-job-dispatcher](https://sourcegraph.com/github.com/sourcegraph/infrastructure/-/tree/docker-images/buildkite-job-dispatcher)
+For more details, see the source: [buildkite-job-dispatcher](https://github.com/sourcegraph/infrastructure/blob/main/buildkite/kubernetes/buildkite-job-dispatcher/README.md)

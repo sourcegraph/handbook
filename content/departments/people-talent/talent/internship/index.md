@@ -1,32 +1,32 @@
-# Sourcegraph Internship Program
+# Sourcegraph internship program
 
-We are rolling out our first-ever internship program in FY23 Q2!
+We completed our first-ever internship program! It was a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles were full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
 
-This will be a 12 week internship program beginning May 16, 2022 and ending August 5th, 2022. All roles will be full-time and [all-remote](../../../../company-info-and-process/remote/index.md).
+We currently plan to post 2023 summer internship roles in early 2023 and we will update this page accordingly.
 
 We do not limit our internships to just students - we welcome all qualified applicants, including incoming college seniors, graduating seniors, graduate students, people without a degree, or individuals looking to make a career change.
 
-## Information for Candidates
+## Information for candidates
 
-### Why Apply?
+### Why apply?
 
 As a Sourcegraph intern, you will take initiative on hands-on, impactful projects, work alongside world class talent, and offer unique perspectives and ideas that directly influence Sourcegraph’s products and services. We give all of our interns exceptional support and high agency to drive their career forward in the field of recruiting, engineering, sales, design, and more. In addition to providing real-world work experience, we hold socials, speaker events, and career workshops to promote networking, growth, and professional skill development and set our cohort up for their future careers. Click [here](index.md#internship-events) to see the 2022 cohort internship events.
 
-### Open Positions
+### Open positions
 
-We will be hiring for interns across various business departments. Recruiting will begin in February 2022 and our open roles can be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
+We will be hiring for interns across various business departments. Recruiting will begin in early 2023 and our open roles will be found on our [Careers Page](https://boards.greenhouse.io/sourcegraph91?gh_src=c685479c4us).
 
-### Job Boards we’re Using
+### Job boards we’re using
 
 - [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=sourcegraph)
 - [Glassdoor](https://www.glassdoor.com/Overview/Working-at-Sourcegraph-EI_IE1356770.11,22.htm)
 - [Indeed](https://www.indeed.com/cmp/Sourcegraph?from=mobviewjob&tk=1fqti3gmuu2b6800&fromjk=e815aae4e6537634&attributionid=mobvjcmp)
 
-### Compensation, Perks, and Equipment
+### Compensation, perks, and equipment
 
 #### Compensation
 
-Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your recruiter will discuss our compensation offer with you in your recruiter screen.
+Prior to opening internship roles, our compensation offers are approved and finalized by our finance team. Your Recruiter will discuss our compensation offer with you in your recruiter screen.
 
 We pay competitively because we want to hire the best people and we want our teammates to be focused on helping Sourcegraph succeed, not worrying about paying bills. Internships will be paid and follow the same logic as our standard [Compensation Philosophy](../../../../benefits-pay-perks/pay-expenses/compensation/index.md#philosophy).
 
@@ -47,11 +47,13 @@ Payroll
 - 🏖️ PTO - We offer flexible Paid Time Off (PTO). Given that this is a 3-month internship, we expect that on average, interns will not take anymore than a week off in total. If you need PTO, please work with your Manager and the People Team via Slack before confirming your travel details.
   - As a global company, we're not prescriptive about offering "Company-wide holidays" because the holidays are vastly different in every country! We empower our teammates to use their high agency and decide which days they'd like to use their PTO for.
 
+**Interns are only eligible for the perks listed above. Any other company perks will not apply to the internship program.**
+
 #### Equipment
 
-- We will provide each intern with a loaner [laptop](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md/#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
+- We will provide each intern with a loaner [laptop](../../../../benefits-pay-perks/benefits-perks/spending-company-money.md#interns) for the duration of the internship. Once hired, our Tech Ops team will ship you a Sourcegraph device prior to your first day. The equipment will need to be returned in its original condition and box with all the included accessories at the end of the internship.
 
-### VISAs We Accept
+### VISAs we accept
 
 #### F1 Student VISA
 
@@ -59,7 +61,9 @@ If you are on a current F1 Student VISA and eligible to work in the US for the d
 
 If you are hired, we will need to verify your employment within your first 2 days of work using one or a combo of the [acceptable documents listed by USCIS](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents) as part of your I-9 check. All other VISA requirements, including obtaining an I-20 form to authorize CPT work authorization, will need to be handled between you and your university.
 
-Sourcegraph does not have the ability to support F-1 extensions (OPT).
+After signing our offer letter, we recommend immediately requesting your I-20 form from your university because this process can take 15 business days.
+
+Sourcegraph does not have the ability to support F1 extensions (OPT).
 
 Read more about our [VISA policies for full-time employees](../../people-ops/process/how-we-engage-talent-outside-the-us/index.md#visa-sponsorship-and-immigration-assistance).
 
@@ -67,22 +71,22 @@ Read more about our [VISA policies for full-time employees](../../people-ops/pro
 
 At the end of an internship, a full time position is not guaranteed, but may be possible depending on performance and what roles are open at that time. If the internship does not end with joining Sourcegraph in a full-time position, our team will happily stay in touch with you in case another opportunity arises in the future.
 
-### Helpful Links
+### Helpful links
 
 - [Resources for Candidates](../../resources_for_candidates.md)
-- [How to Apply](../../resources_for_candidates.md#how-to-apply)
+- [How to apply](../../resources_for_candidates.md#how-to-apply)
 - [Interviewing at Sourcegraph](../../resources_for_candidates.md#interviewing-at-sourcegraph)
 - [Candidate FAQs](../../resources_for_candidates.md#candidate-faqs)
 
-## Information for Sourcegraph Teammates
+## Information for Sourcegraph teammates
 
-### Future Internship Cohorts
+### Future internship cohorts
 
-While this is our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of the internship.
+While 2022 was our first internship program, it won’t be our last! We welcome questions and feedback in the #hiring Slack channel so we can improve for future intern cohorts. We will also be hosting a retrospective with participating teammates upon the completion of each internship program.
 
 ### How to request an intern for your team
 
-Intern positions for the first cohort (May-August 2022) have been finalized. The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
+The Talent team plans to survey leadership in January 2023 by sending out a Google Form to determine interest and business needs for 2023 interns.
 
 The process for requesting an intern for your team and opening an intern role is documented [here](internship-recruiting-and-offers.md#opening-an-intern-role). Having an intern is not guaranteed, but the Talent Team will connect with leadership and do their best to align interns with teams as needed.
 
@@ -92,7 +96,7 @@ The process for referring an intern is the same process as referring a full time
 
 ### My intern request was approved, now what?
 
-If your team is selected to have an intern, the recruiter will reach out via slack to request your job description and interview plan. The hiring manager will be required to develop a job description following the steps in the handbook. Once finalized, the recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private slack channel for the hiring team to stay aligned throughout the interview process. From there the recruiter will begin sourcing, recruiting, and scheduling interviews.
+If your team is selected to have an intern, the Recruiter will reach out via Slack to request your job description and interview plan. The Hiring Manager will be required to develop a job description following the steps in the handbook. Once finalized, the Recruiter will get the role set up in Greenhouse, posted to our job boards, and then create a private Slack channel for the hiring team to stay aligned throughout the interview process. From there the Recruiter will begin sourcing, recruiting, and scheduling interviews.
 
 ### How to get involved in the internship as a teammate
 
@@ -104,15 +108,15 @@ If you are not directly managing an intern but still want to be involved in the 
 
 #### Prior to the internship
 
-Internship Plans
+Internship plans
 
-- Prior to the internship start date, each intern manager will create an Internship Plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer and provide clarity/direction.
+- Prior to the internship start date, each intern manager will create an internship plan that breaks down the interns' summer project schedule week by week (Weeks can be combined if needed. For example "Weeks 1-2, Weeks 3-6, Weeks 7-9, Weeks 10-12). This plan will be shared with the interns during their first week so they can know what to expect for the summer and provide clarity/direction.
 
 Finalizing the onboarding checklist
 
 - Each manager will confirm the necessary onboarding checklist items with Inés to ensure the interns have a smooth and effective remote onboarding experience.
 
-Wage and Hour Guidelines
+Wage and hour guidelines
 
 - Prior to the internship program, compliance information for managing an hourly intern will be shared with each intern manager. The manager must also share this information with each intern on Day 1.
 
@@ -121,7 +125,8 @@ Wage and Hour Guidelines
 Payroll
 
 - We use Rippling to report/approve internship working hours.
-- COMING SOON - training for approving hours in Rippling
+- When your intern submits their hours in Rippling each pay-period, you will receive an email letting you know that there is a timecard waiting for your approval. Simply open the email, review the information, and select the 'Review and Approve' button. This will direct you to the Rippling platform where you can review more timecard details and approve them if accurate. If you have any payroll/Rippling questions, please reach out to Keely Aguayo.
+- Note: The required 30 minute lunch break is unpaid, but the required 10 minute breaks should be paid and do not need to be tracked on timesheets.
 
 1:1 Meetings
 
@@ -134,18 +139,18 @@ Payroll
 - [Inés](../../../../team/index.md#in%C3%A9s-roitman) - for onboarding questions
 - [Kemper](../../../../team/index.md#kemper-hamilton) - for all other internship program questions
 
-## 2022 Internship Cohort
+## 2022 internship cohort
 
-![Internship Cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
+![Internship cohort](https://storage.googleapis.com/sourcegraph-assets/internship%20cohort.png)
 
-### Internship Projects
+### Internship projects
 
 Prior to the end of the internship, each intern will complete a final project in the form of a blog post and video. These projects will reflect and recap the internship experience. Prompts and details have been shared internally and you can reach out to Kemper Hamilton with any questions.
 
 - The video submission is due to Kemper on 2022-07-18.
-- The blog post will be shared from your personal LinkedIn and emailed to Kemper by COB 2022-08-01.
+- The blog post will be emailed to Kemper by COB 2022-08-01 and shared from your personal LinkedIn by COB 2022-08-05.
 
-### Internship Events
+### 2022 internship events
 
 In addition to each interns’ projects and responsibilities, there will be a scheduled social and educational events to enhance the internship program experience. Google calendar invites have been sent for each of the events. If the event dates/times are updated, your google calendar invites will also be updated.
 
@@ -158,14 +163,15 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 - 2022-06-08 LinkedIn Workshop
 - 2022-06-14 Yoga/Meditation
 - 2022-06-15 Q&A - Dan Adler
+- 2022-06-29 Q&A - Aimee Menne
 - 2022-07-05 Cohort Meeting
 - 2022-07-06 Interviewing Workshop
-- 2022-07-13 Q&A - Connor O'Brien
 - 2022-07-14 Virtual Escape Room
 - 2022-07-19 Q&A - Christina/Nick
-- 2022-07-26 Cohort Meeting
+- 2022-07-20 Q&A - Connor O'Brien
 - 2022-07-20 Optional Q&A - Ben Horowitz
-- 2022-07-27 Exec Q&A - Gregg/Aimee
+- 2022-07-26 Cohort Meeting
+- 2022-07-28 Exec Q&A - Gregg
 - 2022-08-03 Virtual Cooking Class
 
 ### Payroll FAQs
@@ -186,11 +192,13 @@ In addition to each interns’ projects and responsibilities, there will be a sc
 
   - A: Yes, we anticipate a consistent 40 hours/week report unless your manager is aware you'll be working _less than_ 40 hours in a certain week and/or unless you have _overtime_ approved by your manager ahead of time.
 
-- Q: How do interns submit expenses for reimbursement?
+- Q: How do International interns submit expenses for reimbursement?
 
-  - A:
-    - International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](../../../../benefits-pay-perks/pay-expenses/invoices.md) is a link to a template.
-    - US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
+  - A: International interns can submit their expense reimbursements via an invoice emailed to ap@sourcegraph.com. [Here](../../../../benefits-pay-perks/pay-expenses/invoices.md) is a link to a template.
+
+- Q: How do US interns submit expenses for reimbursement?
+
+  - A: US Interns will submit for reimbursements through [Airbase](../../../finance/process/payables.md#airbase).
 
 - Q: Do I clock hours into Rippling on PTO?
   - A: Yes, clock in regular work hours and just add a comment in Rippling that you are on PTO. To make a comment, right click a day in your “Hours Worked” section of your TimeSheet and click “Add Comment.”

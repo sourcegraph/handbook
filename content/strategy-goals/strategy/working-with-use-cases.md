@@ -31,7 +31,7 @@ For Sales & CE, a good use case is:
 - Demonstrable; tell a cohesive narrative by tying together all parts of our product
 - Able to be tested discretely and completely (timeboxed) by a customer to prove out the value
 
-# Applied in Product & Engineering
+# Applied in Engineering
 
 See [Product use case sponsorship guide](../../departments/engineering/product/process/index.md#use-case-sponsorship) for details.
 

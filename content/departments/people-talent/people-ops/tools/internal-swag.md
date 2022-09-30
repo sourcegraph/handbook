@@ -35,7 +35,7 @@ We currently have two onboarding Kits: New Team Member Welcome Kit (Form-fit shi
 - Sourcegraph dress socks
 - Fuzzy Socks
 
-(INSERT PHOTO)
+![swag kit](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-kit-real.png)
 
 ### Email Template
 
@@ -49,7 +49,7 @@ Great news, your swag is now ready to order! 🎉
 
 Choose the type of t-shirt you want (you should choose one or the other). Just click on the link below, select the T shirt type you want (Form-fitted or Unisex/Men) and fill out all required fields to order your pack (we recommend ordering a size up for your hoodie if you want a looser fit):
 
-Please choose between the Form-fitted style OR the Unisex/men style and only place one order total. Attached you can find the size charts for each.
+Please choose between the Form-fitted style OR the Unisex/men style and only place one order total. Attached you can find the [size charts for each](https://drive.google.com/drive/folders/1oI7hG_cdz3RRUWQmZErk3ZrwFWKaoQHt).
 
 Let me know if you have any questions!
 Best,
@@ -60,20 +60,19 @@ There will be a link included in the Email Template that is sent to new hires to
 
 Once they select their shirt style, they need to follow these two simple steps:
 
-1. Choose the size for the Tshirt and hoodie (INSERT IMAGE)
-2. Enter shipping information (it can be international) (INSERT IMAGE)
-   Once they do that, they will get an email with delivery details.
+1. Choose the size for the Tshirt and hoodie ![size](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-size-real.png)
+2. Enter shipping information (it can be international). Once they do that, they will get an email with delivery details. ![shipping](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-shipping.png)
 
 ### Delivery
 
 For each link that is redeemed, Sourcegraph pays the shipping costs. This recurring cost will vary depending on the amount of kits sent and the shipping destinations.
 
 To see the cost of recent deliveries in the Printfection portal, click Campaigns → Giveaways to see the Recent Redemptions section. If you click on View Order, you can see the cost of delivery for each one. On average, we can estimate about $25 USD for US deliveries and $50 USD for international deliveries.
-(INSERT IMAGE)
+![delivery](https://storage.googleapis.com/sourcegraph-assets/handbook/swag-delivery.png)
 
 ## Additional Swag
 
-For any swag that is not on [this list](../../swag.md), we use a vendor named [Telescope](https://www.telescopestudio.com/). In the event a teammate wants to order custom swag for other occasions, such as a team trip or celebration, they will fill out this google form to provide necessary information such as: the occasion, type of swag they want, delivery deadline, quantity, and countries for delivery.
+For any swag that is not on [this list](../../swag.md), we use a vendor named [Telescope](https://www.telescopestudio.com/). In the event a teammate wants to order custom swag for other occasions, such as a team trip or celebration, they will fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLScCBlGZA4HOEi3oh-uEQt2NaK9wh8qtWlVzfIAavkTJQQxz0w/viewform) to provide necessary information such as: the occasion, type of swag they want, delivery deadline, quantity, and countries for delivery.
 
 Note: Unlike new hire kits, the budget for any additional swag is the responsibility of the team requesting the order - this must be confirmed prior to beginning the ordering process.
 

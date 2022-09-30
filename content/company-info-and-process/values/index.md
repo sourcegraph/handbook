@@ -136,7 +136,7 @@ Here are some ways that we support learning, teaching, and knowledge-sharing at 
 - We have an [education budget](../../benefits-pay-perks/benefits-perks/travel/index.md#professional-development-and-education) for professional development. This budget is dedicated to helping teammates expand their knowledge, whether it's through books, courses, training, or other resources.
 - We collect and curate educational resources (for use with the education budget mentioned above) in the [Educational Resources Library](../../departments/engineering/dev/education/library.md).
 - We organize occasional hackathons internally, which are opportunities to learn, experiment, and share knowledge.
-- The Engineering department hosts regular [demo days](../../departments/engineering/team-culture/demo-day.md) in which we share progress and learn from each other.
+- The Engineering department hosts regular [demo days](../../departments/engineering/demo-day.md) in which we share progress and learn from each other.
 - We teach each other new things in [Brain food sessions](../communication/index.md#brain-food)
 - We encourage self-directed growth.
 - We strive to support teammates who are interested in making career changes by [switching teams or roles.](../working-at-sourcegraph/switching-teams.md)

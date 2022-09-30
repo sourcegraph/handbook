@@ -17,7 +17,7 @@ The data that drives the various pages is located in [/data](https://github.com/
 ```yaml
 search_product:
   title: Search Product
-  strategy_link: /strategy-goals/strategy/code-graph/search/product/index.md
+  strategy_link: /strategy-goals/strategy/search/product/index.md
   pm: logan_zhao
   issue_labels:
     - team/search-product

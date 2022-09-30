@@ -62,7 +62,7 @@ Kubernetes, or k8s, is a container orchestration platform. If a customer is very
 
 ## Sourcegraph licenses
 
-The main product Sales sells is Sourcegraph Enterprise, with optional Code Insights and Batch Changes add-ons. For a full dive on the SKUs, see our [Licenses page](../../engineering/product/process/licensing.md/#licensing) in the handbook.
+The main product Sales sells is Sourcegraph Enterprise, with optional Code Insights and Batch Changes add-ons. For a full dive on the SKUs, see our [Licenses page](../../engineering/product/process/gtm/licensing.md#licensing) in the handbook.
 
 Of particular note around licenses:
 

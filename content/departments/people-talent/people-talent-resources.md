@@ -41,9 +41,9 @@
 - [Onboarding the People & Talent team](onboarding/index.md)
 - [Interview Training](talent/tools/interview_training.md)
 - [Resources for Candidates](resources_for_candidates.md)
-- [Resources for Hiring Managers](talent/index.md#resources-for-hiring-managers)
+- [Resources for Hiring Managers](index.md#resources-for-hiring-managers)
 - [Resources for Recruiting Ops](talent/tools/resources_for_recruiting_operations.md)
-- [Resources for Teammates](talent/index.md#resources-for-teammates)
+- [Resources for Teammates](index.md#resources-for-teammates)
 - [Opening a new job](talent/process/opening_a_new_job.md)
 - [Identifying candidates](talent/process/identifying_candidates.md)
 - [The interview stage](talent/process/interview_process.md)
@@ -60,6 +60,5 @@
 - [Ashby](https://app.ashbyhq.com/access), our metrics tool
 - [Brighthire](talent/tools/guide_to_using_brighthire.md), our interview recording tool
 - [Greenhouse](talent/tools/guide_to_using_greenhouse.md), our ATS
-- [GoodTime](talent/tools/guide_to_using_goodtime.md)
 - [LinkedIn Recruiter](talent/process/linkedin.md), our sourcing tool
 - [Talentwall](talent/tools/guide_to_using_talentwall.md), our pipeline tracking tool

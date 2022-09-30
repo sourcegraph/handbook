@@ -1,7 +1,7 @@
 # Sourcegraph strategy
 
 - Long-term: [make it so everyone can code](#purpose)
-- FY23 (this year): [target 5 specific use cases for existing customers first to grow ARR](#this-year-fy23)
+- FY23 (this year): [iterate with existing customers first to grow ARR](#this-year-fy23)
 
 ## Long-term
 
@@ -25,28 +25,6 @@ Our [values](../../company-info-and-process/values/index.md) are the principles 
 
 ## Medium-term
 
-### Use cases
-
-We have identified five key use cases for our universal code search platform:
-
-1. [Developer onboarding](use-cases/dev-onboarding.md)
-1. [Code reuse](use-cases/code-reuse.md)
-1. [Code health](use-cases/code-health.md)
-1. [Code security](use-cases/code-security.md)
-1. [Incident Response](use-cases/incident-response.md)
-
-There is no explicit mention of developer velocity in these use case titles, because they all improve developer velocity. Notably, research shows that revenue growth among companies who invest in the velocity of their developers see revenue growth up to 4-5 times faster than those who don’t.
-
-There are also several related resources:
-
-- How we [work with use cases](working-with-use-cases.md)
-- [Use cases slide (internal only)](https://docs.google.com/presentation/d/1XIZFqOxB9ZVEeswOzLWgLaOxK-K9SAn94juo2_cpRnY/edit#slide=id.g1074ab41e5e_2_0)
-- [AE pitch deck (internal only)](https://docs.google.com/presentation/d/1gplLIYGVzrqgyNOLhDrCtlF_VpXFIBRDtw6S6iOEaro/edit#slide=id.g10985e83d9f_0_465)
-- [Use case discovery & command (internal only)](https://docs.google.com/document/d/1ngbta0HM50P3lZiQiT8m5lZn54WJW5wJXW5jwT3xVts/edit#heading=h.r950ejc8058m)
-- [FY23 use cases in detail (internal only)](https://docs.google.com/document/d/1k7w-sgK3T4B_kLi9wuEIvvMdRp4hPd0YtsUt0UpwvsU/edit#heading=h.t4fumzvh3saz)
-- [Productboard use case index (internal only)](https://sourcegraph.productboard.com/feature-board/3957049-fy23-use-cases)
-- [How Code Insights maps to FY23 Use Cases](https://docs.google.com/document/d/1NXR0eX9VseJGT_BfCata_WR-yP0VxPsyYIyrsTOuoPs/edit#) (private until GA)
-
 ### Principles
 
 - Sourcegraph is universal code search, not universal "everything" search. Any additional data types in our search need to be relevant to the software development workflow.
@@ -59,7 +37,7 @@ There are also several related resources:
   - This entails designing for extensibility in our product (and documenting it more thoroughly) as a first-order priority.
 - Sourcegraph provides greater value the larger a software team. We are building not just for individual developers, but for development teams. We believe software development is increasingly a multiplayer game.
 
-Additionally, these are our [product design principles](../../departments/engineering/product/design/product_design_principles.md).
+Additionally, these are our [product design principles](../../departments/engineering/design/product_design_principles.md).
 
 ### Assumptions
 
@@ -76,27 +54,20 @@ Additionally, these are our [product design principles](../../departments/engine
 
 ## This year (FY23)
 
-Our strategy for FY23 is: **target 5 specific use cases for existing customers first to grow ARR.** ([Last year's strategy](history.md#what-we-learned-from-fy22s-strategy) was about serving larger and smaller customers.)
+Our strategy for FY23 is: **iterate with existing customers first to grow ARR.** ([Last year's strategy](history.md#what-we-learned-from-fy22s-strategy) was about serving larger and smaller customers.)
+
+_note: at the start of FY23 we started with the strategy to **"target 5 specific use cases for existing customers first to grow ARR."** in Q2FY23 we deprioritized use cases as a company-wide strategy. Click [here](https://docs.google.com/document/d/1nCe7k0JzYgSrrLkQvRJVD5-Lf2it6KptsZuOzMWOnyo/edit#bookmark=id.1kp9hh15xhdr) for more context._
 
 Let's break that down:
 
-- [Target 5 specific use cases](#target-5-specific-use-cases)
 - [Iterate with existing customers first](#iterate-with-existing-customers-first)
 - [Grow ARR](#grow-arr)
 
-### Target 5 specific use cases
-
-So far, we've been selling code search to companies that know they need code search. But most companies don't know they need code search or what problems it solves. Even power users don't know all the ways they could use code search. To overcome this, we'll market/design/develop/sell around five specific use cases that we'll target (mapped to our ideal customer profile, personas, and value drivers) that are immediately and obviously compelling to many more devs and companies.
-
-Some customers already use Sourcegraph for these use cases by stitching together our product capabilities in novel ways. That's great for those particularly industrious customers, but we want the use cases to feel so obvious and natural to every user, which will require a lot of product and engineering work. This is not just a marketing/positioning/pitching exercise.
-
-See [above](#use-cases) on this page for the complete list of use cases and supporting links.
-
 ### Iterate with existing customers first
 
-Product development (especially around target use cases) will go faster, incur less risk, and yield a more compelling and valuable product by iterating with existing customers (who already use Sourcegraph for the use cases and can give us more and better feedback), not new prospective customers.
+Product development will go faster, incur less risk, and yield a more compelling and valuable product by iterating with existing customers (who already use Sourcegraph and can give us more and better feedback), not new prospective customers.
 
-Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to build the target use cases to be so compelling that our existing customers adopt them (and expand usage/revenue) and so that new customers adopt as-is without customizations (with faster, smaller initial lands).
+Winning new customers is still very important, and we think this strategy will actually maximize new customer revenue. After all, what's more compelling to a new customer: (a) a product that demonstrably meets your needs, as validated by other well-known customers, or (b) a product that requires custom work before it meets your needs? Of course it's (a), and to achieve that, we need to work directly with our customer to continually increase the value of core workflows so that our existing customers gett more value out of sourcegraph (and expand usage/revenue) faster.
 
 Don't think about this as "say no to building for prospects". Instead, think "create and execute on such a compelling product roadmap that we can meet our revenue targets and win new customers without needing to build specifically for prospects".
 
@@ -111,26 +82,23 @@ Everyone here helps grow ARR (and if you don't know how or have better ideas, sp
 
 ## Team strategy pages
 
-- [**Product & Engineering**](../../departments/engineering/strategy-goals/index.md)
+- [**Engineering strategy**](../../departments/engineering/index.md#product-vision-and-strategy)
   - [Highlights of planned features from all teams (currently internal only)](https://docs.google.com/presentation/d/1o3R8WUIhzzRz0x5laTwVcizOzVWrMBe5MCAz74H45Ss/edit#slide=id.gd8d1ce5e98_0_164)
   - [Feature areas by maturity, tier, or code host compatibility](../../departments/engineering/product/index.md#feature-matrices)
-  - [Code Graph](code-graph/index.md)
-    - [Search core and Search product](code-graph/search/index.md)
-    - [Batch Changes](code-graph/batch-changes/index.md)
-    - [Code Intelligence](code-graph/code-intelligence/index.md)
-    - [Code Insights](code-graph/code-insights/index.md)
-  - [Enablement](enablement/index.md)
-    - [Dev Experience](enablement/dev-experience/index.md)
-    - [Frontend Platform](enablement/frontend-platform/index.md)
-    - [Content Platform](enablement/content-platform/index.md)
-  - [Admin Experience](admin-exp/index.md)
-    - [IAM](admin-exp/iam/index.md)
-    - [Integrations](admin-exp/integrations/index.md)
-    - [Growth](admin-exp/growth-team/index.md)
-    - [Repo Management](admin-exp/repo-management/index.md)
-    - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
-    - DevOps/SRE
-    - [Delivery](admin-exp/delivery/index.md)
+  - [Search core and Search product](search/index.md)
+  - [Batch Changes](batch-changes/index.md)
+  - [Code Intelligence](code-intelligence/index.md)
+  - [Code Insights](code-insights/index.md)
+  - [Dev Experience](dev-experience/index.md)
+  - [Frontend Platform](frontend-platform/index.md)
+  - [Content Platform](content-platform/index.md)
+  - [IAM](iam/index.md)
+  - [Integrations](integrations/index.md)
+  - [Growth](growth-team/index.md)
+  - [Repo Management](repo-management/index.md)
+  - [Security](https://github.com/orgs/sourcegraph/projects/257/views/3)
+  - DevOps/SRE
+  - [Delivery](delivery/index.md)
 
 ## Historical strategy
 

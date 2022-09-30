@@ -47,7 +47,7 @@ For complex engagements, we have internal technical reviews with cross-functiona
 
 ### Resources
 
-- [Technical Design Document Template](https://docs.google.com/document/d/19qcdFcFpqHNE6OTgO8SwdTF7FfB4AJH6Hlqeywgv6Yc/edit)
+- [Technical Design Document Template](https://docs.google.com/document/d/1vjETRXdUtLSTRrnMAuN6aEbR_Xx0qHacONrnI0zoPyc)
 
 ## Customer Trials
 

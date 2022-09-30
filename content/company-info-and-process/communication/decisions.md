@@ -81,7 +81,7 @@ While the principle above is clear, how to apply it can be murky. Examples below
 #### Building a new Growth team to focus on user growth
 
 - While user growth is a company-wide goal, it primarily aligns with the Product and Marketing organizations (based on team-level OKRs and efforts). Other teams affected include Sales, Engineering, Business Operations, and more.
-- As a result, the Product and Marketing teams are the ones who are primarily responsible for the results of such a decision. In this case, greater impact will be felt on the Product and Engineering organizations versus Marketing, as they may have to reallocate teammates to this new team full-time.
+- As a result, the Product and Marketing teams are the ones who are primarily responsible for the results of such a decision. In this case, greater impact will be felt on the Engineering organizations versus Marketing, as they may have to reallocate teammates to this new team full-time.
 - Given the goal that would drive this decision is cross-functional, the heads of Marketing and Engineering should be consulted for input, or potentially even given [approver](#approvers) rights, but in this case, the [decider](#decider) is the head of the Product organization.
 
 #### Making a large change to the product

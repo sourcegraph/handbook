@@ -20,6 +20,7 @@
   - If `terraform plan` is changing more than what is expected, reach out to security team to review the unexpected changes
   - If `terraform plan` output is expected, create a PR
     - Tag security for review
+    - Post in #tech-ops slack channel so a ticket is created to track manager approvals
 - Once approved, run terraform apply
 
 ## Procedure for requesting escalated permission for incident response:

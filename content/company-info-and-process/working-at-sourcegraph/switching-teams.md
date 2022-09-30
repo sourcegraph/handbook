@@ -8,7 +8,7 @@ This page focuses on the _process_ of moving from one team or department to anot
 - The interview process for internal teammates
 - Alerting People Ops / making the change official
 
-For teammates interested in a new role on a new team, please reach out to your Manager (or the [Talent team](../../departments/people-talent/talent/index.md) or [People Ops team](../../departments/people-talent/people-ops/index.md) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more.
+For teammates interested in a new role on a new team, please reach out to your Manager (or the [Talent team](../../departments/people-talent/index.md)) to ask questions related to personal or career progress, how to evaluate such moves, resources, and more. You can also apply directly on our [Internal Job Board](https://app4.greenhouse.io/internal_job_board).
 
 If you are interested in staying in the same department or team, or working for the same manager, but switching your focus (e.g. switching from frontend to backend software development), then this page is not needed—simply speak to your manager and see if adjustments can be made to our current role, that align with the team's success.
 

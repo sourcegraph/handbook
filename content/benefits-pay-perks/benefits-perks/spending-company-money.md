@@ -8,6 +8,8 @@ We want to make sure you have what you need to be productive and happy in your r
 - If you spend more than $1,000 on any given physical item, it will be considered property of the company.
 - Please file an expense report within 60 days of an eligible purchase. See [submitting expenses](../pay-expenses/expenses/index.md) for additional help.
 
+Directions for how to determine how much spend you have left in each travel category, professional development, or desk setup can be found [here ](https://docs.google.com/document/d/1XXAKh2DHitaFCFmNCEqpYBPbknhJ8IC0r-deDSFlht4/edit?usp=sharing) for additional help.
+
 ## Desk set-up
 
 ### Full-time teammates
@@ -20,7 +22,7 @@ If you don't spend all of your budget when you first join, it's ok to spend it l
 
 #### Team-specific totals
 
-- We expect new [Design team](../../departments/engineering/product/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
+- We expect new [Design team](../../departments/engineering/design/index.md) members to spend **$2,650** to allow for purchasing higher-resolution monitors or other design equipment.
 - Since they are customer-facing and need to deliver high-quality demos and support, [Customer Engineering](../../departments/ce-support/ce/index.md) team members can exceed these limits (within reason) to allow for purchasing beefier-spec computers, additional monitors, mics, lighting, etc.
 
 ### Interns
@@ -39,6 +41,8 @@ The estimated spend for interns is **$925\***.
 - Desk
 - Ergonomic chair
 - Camera (for people who present externally to clients and prospects)
+
+Note: Our policy is that all teammates have a sourcegraph-managed laptop to perform all work pertaining to their role at Sourcegraph and we only support Mac computers at this time, so teammates are not able to expense a PC. See below for more information on computers and ordering your laptop.
 
 ## Computers
 

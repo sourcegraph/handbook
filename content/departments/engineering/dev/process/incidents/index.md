@@ -7,7 +7,7 @@ Some examples of incidents:
 - sourcegraph.com is down or a critical feature is broken (e.g. sign-in, search, code intel).
 - If sourcegraph.com is down for more than 5 minutes, a critical feature is down for more than 5 minutes, or we're aware of a service degradation issue that >5 users have reported. If you're unsure if the incident's impact qualifies, ask @cs in Slack for advice.
 - We have an issue (per [our standard SLA definition](../../../../ce-support/support/index.md#slas)) that impacts all/many self-hosted instances, all/many managed instances, or all/many Cloud/SaaS users
-- There is a security issue with Sourcegraph (and if so, please also follow [our security disclosure process](../../admin-exp/security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)).
+- There is a security issue with Sourcegraph (and if so, please also follow [our security disclosure process](../../../../security/reporting-vulnerabilities.md#how-we-disclose-security-vulnerabilities)).
 - A Sourcegraph team member feels like an incident might be present, but isn't certain or isn't able to confirm on their own.
 - We need to do critical proactive 1-to-many communication to all self-hosted customers (for example, making them aware of something they need to do in a certain upgrade like [the prep needed before upgrading to 3.31](https://docs.sourcegraph.com/admin/migration/3_31)) -- over time, as we do more of this, we will likely create a separate process for this
 

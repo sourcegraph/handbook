@@ -14,7 +14,7 @@ VMWare’s Carbon Black is an antivirus software that we are deploying to all el
 
 If you haven't done so already please configure your laptop in accordance with our [endpoint standards](../process/internal-security/computer-standards.md).
 
-**How to Enroll in Workspace One for MacOS and Windows**
+**How to Enroll in Workspace One for macOS and Windows**
 
 1. Go to [getwsone.com](https://getwsone.com/)
 1. Once that is installed, run the program and enter your Sourcegraph email address into the WS One Intelligent Hub.

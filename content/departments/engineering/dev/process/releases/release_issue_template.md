@@ -31,16 +31,21 @@ Perform these steps three days before the release date to generate a stable rele
   ```sh
   yarn release release:status
   ```
+- [ ] Create a `Security release approval issue` and post a message in the [#security](https://sourcegraph.slack.com/archives/C1JH2BEHZ) channel tagging @security-support.
 
 Do the [branch cut](./index.md#release-branches) for the release:
 
-- [ ] Update the changelog and merge the generated pull requests:
+- [ ] Update the changelog and create pull requests:
+
   ```sh
   yarn release changelog:cut
   ```
+
+- [ ] Manually review the pull requests created in the previous step and merge.
+
 - [ ] Create the `$MAJOR.$MINOR` branch off the CHANGELOG commit in the previous step:
   ```sh
-  git branch $MAJOR.$MINOR && git push origin $MAJOR.$MINOR
+  yarn release release:branch-cut
   ```
 
 Upon branch cut, create and test release candidates:
@@ -49,7 +54,7 @@ Upon branch cut, create and test release candidates:
   ```sh
   N=1; yarn release release:create-candidate $N
   ```
-- [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.1` tag:
+- [ ] Ensure that the following Buildkite pipelines all pass for the `v$MAJOR.$MINOR.$PATCH-rc.N` tag:
 
   - [ ] [Sourcegraph pipeline](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=v$MAJOR.$MINOR.$PATCH-rc.1)
 
@@ -67,10 +72,10 @@ Revert or disable features that may cause delays. As necessary, `git cherry-pick
   yarn release release:status
   ```
 
-- [ ] Post the following message to the #cloud-devops channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
+- [ ] Edit the following message to reflect the correct release candidate number, and post the message to the #cloud channel asking for the release candidate to be deployed to a test managed instance. You're good to go once the instance is up and running:
 
   ```
-  Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.1) to be deployed to a test managed instance. Could someone help here? :ty:
+  Hey team, I'm the release captain for the $MAJOR.$MINOR release, posting here for asking for a release candidate (v$MAJOR.$MINOR.$PATCH-rc.N) to be deployed to a test managed instance. Could someone help here? :ty:
   ```
 
 ## Release Day ($RELEASE_DATE)
@@ -109,7 +114,7 @@ On the day of the release, confirm there are no more release-blocking issues (as
 - [ ] Alert the marketing team in [#release-post](https://sourcegraph.slack.com/archives/C022Y5VUSBU) that they can merge the release post.
 - [ ] Finalize and announce that the release is live:
   ```sh
-  yarn release release:close
+  yarn release release:announce
   ```
 
 ### Post-release
@@ -126,6 +131,9 @@ On the day of the release, confirm there are no more release-blocking issues (as
   yarn run release tracking:issues
   yarn run release tracking:timeline
   ```
-- [ ] Close this issue.
+- [ ] Close the release.
+  ```sh
+  yarn run release release:close
+  ```
 
 **Note:** If a patch release is requested after the release, ask that a [patch request issue](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=team%2Fdistribution&template=request_patch_release.md&title=$MAJOR.$MINOR.1%3A+) be filled out and approved first.

@@ -36,3 +36,5 @@ Once signed in to your Okta Account, you will be taken to the Apps Dashboard (sh
 ![Okta dashboard view](https://storage.googleapis.com/sourcegraph-assets/handbook/Okta-activation-steps/step3.png)
 
 _Do you have any questions?_ Please email tech-ops@sourcegraph.com or Slack #it-tech-ops.
+
+**Please remember to log in to [Process St](https://app.process.st/) and use your onboarding checklist, you can find the direct link in the Welcome email sent the Friday before your first day**.

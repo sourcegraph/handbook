@@ -77,7 +77,7 @@ Leadership has the right and responsibility to remove, edit, or reject comments,
 
 ### No tolerance for discrimination, harassment, or involuntary labor
 
-We provide equal employment opportunities for all who work at and apply to work at Sourcegraph. We are committed to providing an environment free of harassment and discrimination of all types.
+We provide equal employment opportunities for all who work at and apply to work at Sourcegraph. We are committed to providing an environment free of harassment and discrimination of all types. We expect Teammates to comply with our [Global Respectful Workplace and Harassment, Discrimination and Bullying Prevention Policy](../diversity-equity-and-inclusion/respectful-workplace-policy.md).
 
 Anyone who feels harassed, discriminated against, or otherwise disrespected should report the incident to their manager, the People Team, the Legal Team, or our anonymous, confidential third-party hotline. See the [Raising concerns](#raising-concerns) section.
 

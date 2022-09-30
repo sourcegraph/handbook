@@ -54,6 +54,7 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 ### Sources of truth
 
 - Financial statements
+- [Company Information](https://docs.google.com/document/d/1YbtEh5xpzWh5gbslHoQ1VS_02c4HIumS0PISfpAdU2M/edit)
 - Metrics
   - Quarterly and monthly [IARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=2006715807)
   - [ARR](https://docs.google.com/spreadsheets/d/1Ao3Nqw6gH3yAuZtICV3xo35kKKnI9oKXnvPuTQ0Fh9c/edit#gid=1460993554)
@@ -63,52 +64,11 @@ A fiscal year is a one-year period that corporations like Sourcegraph use for ac
 
 ## Definitions
 
-### ARR
+### ARR & Topline Metrics
 
 [Topline Metrics Definitions](topline-definitions.md)
+
 [ARR Definitions](arr-definitions.md)
-
-Annual Recurring Revenue (ARR) is the dollar value of contracted recurring revenue in a (normalized) one-year period.
-
-ARR includes committed [bookings](#booking) with contract start dates that fall in the first 15 days of the following calendar month. This allows Sourcegraph sales team members to get credit for renewals and expansions that may fall in the (near) future. Exceptions to this require written approval from the VP of Operations and the VP of Sales. Please see [ARR timing examples](https://docs.google.com/document/d/1SdUzcW8UUUgSjawIdjPw2bDBJ-j0Fjo3Et0r6yOnikE/edit).
-
-Furthermore, if the Company enters into a multi-year contract with a customer and the out-year billings are contractually locked in, then we will recognize ARR on a straight-line basis. If there is a term or clause in the contract that provides for an opt-out arrangement, then we will only recognize the portion of ARR that is contractually guaranteed. This policy allows Sourcegraph sales team members to get credit for deals with higher pricing in the later portion of the contractual period. Exceptions to this require written approval from the VP of Operations and the VP of Sales. Please see [ARR examples](https://docs.google.com/document/d/1H-qNQTzlDnnr6uNP4NcFFYwkL-ILyoQlBW9qEaYglg0/edit).
-
-### IARR
-
-Incremental [ARR](#arr) (IARR) is the change in ARR from one period to another.
-
-### New IARR
-
-New [IARR](#iarr) is IARR from _new customers_ (i.e., organizations that were **not** existing customers at the beginning of the period). See also [expansion IARR](#expansion-iarr).
-
-### Expansion IARR
-
-Expansion [IARR](#iarr) is IARR from _existing customers_ (i.e., organizations that were already customers at the beginning of the period).
-
-If within a single period a new customer signs a contract which then grows in ARR before the end of the period, the total ending ARR is all considered [new IARR](#new-iarr), not expansion IARR. For example, if Acme Corp signs a $100k contract on February 3 and then the contract expands to $200k on March 5, all $200k would be considered new IARR for Q1.
-
-The finance team reviews the AR aging schedule on a monthly basis and assesses customer collectability risk. If an existing customer signs a contract but holds an outstanding bill which the Finance team has deemed a high probability to be uncollectible, the Company will not recognize Expansion IARR until the full amount of the outstanding invoice is paid.
-
-### Churned/contraction IARR
-
-Churned/contraction IARR is from customers who do not renew their contract (churn) or whose contract decreases in ARR (contraction). This results in a decrease in ARR for the business.
-
-### Booking
-
-A booking is when a customer commits to pay us money. This includes when:
-
-- A new customer just started paying self-service or signed a contract
-- An existing customer (depending on their contract) takes an action that increases the amount of revenue we will earn from them (such as growing usage or using more premium features)
-- An existing customer renews (including when the renewal is for the same ARR as the previous period)
-
-### Net dollar retention
-
-Net dollar retention (NDR) is measures how much revenue a cohort is generating (expansion - churn) in a given period relative to its original size (dollar amount).
-
-Calculation: (Beginning period ARR + existing customer expansion - churn/contraction) / beginning period ARR
-
-For example, if a quarterly cohort is $100k of new business and the following quarter their expansion (net of churn) is $25k, their quarterly NDR will be ($100k + $25k)/$100k = 125%.
 
 ## FY23 Budget
 
@@ -126,8 +86,8 @@ The FY23 plan was built at a departmental level. We have 9 departments:
 
 | Department           | Department (Budget owner) |
 | -------------------- | ------------------------- |
-| R&D Engineering      | Nick Snyder               |
-| R&D Product          | Christina Forney          |
+| R&D Engineering      |                           |
+| R&D Product          | Quinn Slack               |
 | Marketing            |                           |
 | Sales                | Gregg Stone               |
 | Customer Support     |                           |

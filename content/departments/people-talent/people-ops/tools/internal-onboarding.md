@@ -1,7 +1,5 @@
 # Internal Onboarding Process
 
-TODO
-
 ## Pre onboarding
 
 ### After accepting the offer
@@ -130,11 +128,43 @@ We create a channel for the cohort. We add all new teammates, the onboarding tea
 
 **i-9s**
 
-US teammates need to get their i9 berification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
+US teammates need to get their i9 verification done by their third day with us. Someone in the People Team will schedule a meeting with them on their first or second day.
 
 Teammates must have the elegible documents available for us to corroborate their identity. [Here are the acceptable documents](https://www.uscis.gov/i-9-central/form-i-9-acceptable-documents)
 
 ## Onboarding Feedback
+
+There are two main onboarding feedback instances:
+
+- **One Month check in**: 15 min check-in with Inés (or someone else in the team in her absence) to get a pulse check, ask Teammates how they are doing and feeling, whether they are clear about expectations & ensure they are adapting well to asynchronous work, and get feedback on the onboarding process.
+- **Onboarding survey**: sent out monthly on the three month mark. Based on the [standards of success](../../../../company-info-and-process/onboarding/index.md#onboarding-standards-and-success) the teammate’s survey is focused on experience, content, and format, and presentation.
+
+### Onboarding survey
+
+Surveys are conducted at the 3-month mark to collect feedback from all new teammates to make sure that their onboarding experience is properly equipping them with the support and resources necessary for them to be successful in their new role.
+
+[Here](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit) is the survey.
+
+On the last Monday of each month, we send a Slack message to each person asking them to complete the survey. Here is an example of the message:
+
+_Hey! Hope you are doing great!_
+
+_One of my biggest projects at the moment is making the onboarding process as rich and structured as possible, so as to build every new teammate up for success. To do this, I constantly meet with new hires, managers, and teammates to listen to their feedback and experience._
+_This time, I wanted to listen to your input in this. I’ve created a **[survey](https://docs.google.com/forms/d/1fm46VUs2CWCABXvVxYR2n7J24BV5Nt1v9ahK_4qqjEc/edit)** to collect feedback from all teammates that have been with us since [MONTH] to ask if their onboarding experience has properly equipping you with the support and resources necessary for you to be successful in your new role._
+_It is a simple survey, most of the questions are multiple choice and some require some input. Would you mind taking 10 minutes to complete it? :pray:_
+_Could you please submit it by XXX?_
+_Thank you! Have a great day :)_
+
+[Here](https://docs.google.com/spreadsheets/d/1UVfc47SEhH_DhvqMvA9iYDVhCjnynDiJI_5GcsnwU_4/edit?usp=sharing) you can find dashboards with the onboarding survey results.
+
+## Transition onboarding
+
+When someone changes teams, we make sure they have access to the resources needed to be successful in their new role. We provide teammates a Process St. checklist. You can read more about internal mobility [here](../../../../company-info-and-process/working-at-sourcegraph/switching-teams.md). Once the People team is notified, we run a checklist from the Transition Onboarding workflows, share it with the manager and send it to the teammate on the day the role change is effective.
+
+The most comment transitions are:
+
+- [SDR to AE](../../../sales/sdrteam/index.md#sdr-promotion-process)
+- [Aplication Engineer to Engineer]
 
 ## Temporary Contractor onboarding
 
@@ -161,3 +191,7 @@ We must notify the manager and update the start date in BambooHR. This is critic
 Once that's done, change the start date in the [Teammate tracking spreadsheet](https://docs.google.com/spreadsheets/d/1qt3rGNRVaSyi_N2uN3DaXvlg8LjfKLJb8PFfrQsmR-I/edit?ts=6007152c#gid=460686311).
 
 ## Rescinding offer
+
+When someone rescinds their offer, the Onboarding team needs to be informed as soon as possible. Considering onboarding involves many moving parts and teams, time is of the esense. The Onboarding team will notify Payroll, Tech Ops, the managers, and anyone else involved in the process.
+
+We also need to deactivate the user in BambooHR. Go to [this page](bamboohr.md#rescinded-offersacceptances) to follow the steps in BambooHR.

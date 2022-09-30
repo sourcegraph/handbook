@@ -5,7 +5,7 @@
 - [Perks and Benefits](../../../benefits-pay-perks/benefits-perks/index.md)
 - [Types of employment](../../people-talent/people-ops/process/how-we-engage-talent-outside-the-us/index.md)
 - [Company values](../../../company-info-and-process/values/index.md)
-- What do we do
+- [What do we do](https://about.sourcegraph.com)
 - [How we work asynchronously](../../../company-info-and-process/communication/asynchronous-communication.md)
 
 ## Once you've decided to join us
@@ -16,7 +16,7 @@
   - [Onboarding buddy](../../../company-info-and-process/onboarding/buddy-program.md)
   - [Onboarding mentor](../../../company-info-and-process/onboarding/onboarding-mentor.md)
   - [Onboarding events](../../../company-info-and-process/onboarding/onboarding-events.md)
-  - [Onboarding check ins](../../../company-info-and-process/onboarding/onboarding-check-ins.md)
+  - [Onboarding reviews](../../../company-info-and-process/onboarding/onboarding-reviews.md)
     - [Onboarging Feedback Milestones](../../../company-info-and-process/onboarding/onboarding-feedback-milestones.md)
 - [Set up](new-teammate-setup.md)
 - [Tools we use](../../../company-info-and-process/working-at-sourcegraph/teammate-development/training/tools/index.md)

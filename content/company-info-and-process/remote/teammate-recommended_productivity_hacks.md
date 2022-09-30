@@ -47,7 +47,7 @@ You might think of this page as a remote version of "the clever workflows and sh
 
 - [Loom](https://loom.com) for quick videos for demos or bugs.
 - [Textexpander](https://textexpander.com) or [aText](https://www.trankynam.com/atext/) for text expansions and abbreviations. Use it to store things like your Zoom URL, Calendly URL, and our ISO date format in a way that can be easily populated into other documents.
-- [Kap](https://getkap.co/) open source screen recorder for MacOS
+- [Kap](https://getkap.co/) open source screen recorder for macOS
 - [CleanShot X](https://cleanshot.com/) is a paid but incredibly good screenshot/GIF/video recording tool for macOS.
 - [Screenflow](http://www.telestream.net/screenflow/overview.htm) is a paid video recording product that allows you to record your screen and webcam at the same time.
 - [Clocker](https://apps.apple.com/us/app/clocker/id1056643111?mt=12) for Mac makes it easy to see multiple time zones from your clock.

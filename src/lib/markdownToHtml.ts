@@ -280,6 +280,12 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             /{{generator:product_teams_list}}/gi,
             await Promise.resolve(generatedMarkdown.generateProductTeamsList())
         )
+
+        markdown = markdown.replace(
+            /{{generator:cross-product_owners_list}}/gi,
+            await Promise.resolve(generatedMarkdown.generateCPList())
+        )
+
         markdown = await replaceAsync(markdown, /({{generator:reporting_structure.)(\w+)(}})/gi, replaceMatchedTeam)
         markdown = await replaceAsync(
             markdown,
@@ -296,10 +302,6 @@ async function insertGeneratedMarkdown(markdown: string): Promise<string> {
             markdown,
             /({{generator:use_case_feature_list.)(\w+)(}})/gi,
             replaceMatchedUseCaseFeatureList
-        )
-        markdown = markdown.replace(
-            /{{generator:engineering_ownership}}/gi,
-            await Promise.resolve(generatedMarkdown.generateEngineeringOwnershipTable())
         )
         markdown = markdown.replace(
             /{{generator:glossary}}/gi,

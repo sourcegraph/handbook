@@ -1,15 +1,16 @@
-# Company wide policies
+# Sourcegraph Information Security Policies
 
 - [Access control policy](../policies/access-control-policy.md)
 - [Asset management policy](../policies/asset-management-policy.md)
-- [Business continuity and disaster recovery plan](https://docs.google.com/document/d/1bFvsrEXeBGbupxihq8wANav-6SKLS7sT)
+- [Business continuity and disaster recovery plan](business-continuity-policy.md)
 - [Code of conduct](../communication/code_of_conduct.md)
-- [Cryptography policy](../../departments/engineering/dev/admin-exp/security/cryptography-policy.md)
+- [Cryptography policy](../../departments/security/cryptography-policy.md)
 - [Data management policy](../policies/data-management-policy.md)
 - [Device requirements](../../departments/tech-ops/tools/computer-setup.md)
-- [Security incident response policy](../../departments/engineering/dev/admin-exp/security/security-incident-response.md)
 - [Information security policy](../policies/information-security-policy.md)
-- [Information security roles and responsibilities](https://docs.google.com/document/d/1lW8bdjeuefI4HLDwzgPxpejh5D020MWj)
-- [Information security risk management policy](https://docs.google.com/document/d/1dWTVx2Uzz8Eo0pG4x1b4i8CBbi4pO-U7jktbO4ihTG4/edit?usp=sharing)
-- [Secure development policy](https://docs.google.com/document/d/1gbE38vc0zwWQMkO-UaoKZUWdNvoFcDl0)
+- [Information security risk management policy](information-security-risk-management-policy.md)
+- [Information security roles and responsibilities](information-security-roles-and-responsibilities.md)
+- [Secret sharing policy](../../departments/security/secret-sharing-policy.md)
+- [Secure development policy](secure-development-policy.md)
+- [Security incident response policy](../../departments/security/security-incident-response.md)
 - [Third-party management policy](third-party-management-policy.md)

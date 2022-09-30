@@ -4,7 +4,7 @@ As the application engineer responsible for your work (what cases you take, etc)
 
 ## Who is our audience?
 
-No audience is a monolith, which means it’s okay to start with a general idea and remember that there will never be a single way that will resonate with every single person who comprises our audience. Our audience is that of developers and we could make many wrong assumptions about what developers like/don’t like. The good news is, we have amazing partners in marketing and product/design who have put in tons of thought to create our content guidelines (just search that here in the handbook and you'll find all their resources), which can help you think about our audience from the perspective of what likely resonates most.
+No audience is a monolith, which means it’s okay to start with a general idea and remember that there will never be a single way that will resonate with every single person who comprises our audience. Our audience is that of developers and we could make many wrong assumptions about what developers like/don’t like. The good news is, we have amazing partners in marketing and design who have put in tons of thought to create our content guidelines (just search that here in the handbook and you'll find all their resources), which can help you think about our audience from the perspective of what likely resonates most.
 
 ## Structure can go a long way
 

@@ -36,10 +36,10 @@ Sourcegraph Cloud projects.
 
 #### Sourcegraph Security
 
-[Sourcegraph Security projects](../../admin-exp/security/infrastructure/index.md#projects).
+[Sourcegraph Security projects](../../../../security/infrastructure/index.md#projects).
 
-- **[sourcegraph-security-logging](../../admin-exp/security/infrastructure/index.md#logging)**: Infrastructure required for centralized security logging.
-- **[sourcegraph-security-logging-stage](../../admin-exp/security/infrastructure/index.md#logging-stage)**: Staging environment for logging infrastructure.
+- **[sourcegraph-security-logging](../../../../security/infrastructure/index.md#logging)**: Infrastructure required for centralized security logging.
+- **[sourcegraph-security-logging-stage](../../../../security/infrastructure/index.md#logging-stage)**: Staging environment for logging infrastructure.
 
 #### Other Projects
 
@@ -58,7 +58,7 @@ Compute Engine lets you purchase committed use contracts in return for deeply di
 
 ### Current commitments
 
-We do not have any ongoing commitments as of right now since the most recent commitment expired. The [DevOps](../../admin-exp/devops/index.md) team is currently investigating resource usage as part of an effort to rightsize GCP consumption.
+We do not have any ongoing commitments as of right now since the most recent commitment expired. The [DevExp](../../../teams/dev-experience/index.md) team is currently investigating resource usage as part of an effort to rightsize GCP consumption.
 
 ### Assessing commitments
 

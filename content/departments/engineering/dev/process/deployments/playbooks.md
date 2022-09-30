@@ -1,25 +1,26 @@
 # Playbooks for deployments
 
-- [General](#general)
-- [Debugging](#debugging)
-  - [Check what version of Sourcegraph is deployed](#check-what-version-of-sourcegraph-is-deployed)
-- [Sourcegraph.com](#sourcegraphcom)
-  - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
-  - [Deploying to sourcegraph.com during code freeze](#deploying-to-sourcegraphcom-during-code-freeze)
-  - [Manually deploying a service to sourcegraph.com](#manually-deploying-a-service-to-sourcegraphcom)
-  - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
-  - [Disabling Renovate on sourcegraph.com](#disable-renovate)
-  - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
-  - [Invalidating all user sessions](#invalidating-all-user-sessions)
-  - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
-    - [Via the CLI](#via-the-cli)
-    - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
-  - [Restarting about.sourcegraph.com and docs.sourcegraph.com](#restarting-aboutsourcegraphcom-and-docssourcegraphcom)
-  - [Creating banners for maintenance tasks](#creating-banners-for-maintenance-tasks)
-- [k8s.sgdev.org](#k8ssgdevorg)
-  - [Manage users in k8s.sgdev.org](#manage-users-in-k8s-sgdev-org)
-- [PostgreSQL](#postgresql)
-- [Cloudflare Configuration](#cloudflare-configuration)
+- [Playbooks for deployments](#playbooks-for-deployments)
+  - [General](#general)
+  - [Debugging](#debugging)
+    - [Check what version of Sourcegraph is deployed](#check-what-version-of-sourcegraph-is-deployed)
+  - [Sourcegraph.com](#sourcegraphcom)
+    - [Deploying to sourcegraph.com](#deploying-to-sourcegraphcom)
+    - [Deploying to sourcegraph.com during code freeze](#deploying-to-sourcegraphcom-during-code-freeze)
+    - [Manually deploying a service to sourcegraph.com](#manually-deploying-a-service-to-sourcegraphcom)
+    - [Rolling back sourcegraph.com](#rolling-back-sourcegraphcom)
+    - [Disable Renovate](#disable-renovate)
+    - [Backing up & restoring a Cloud SQL instance (production databases)](#backing-up--restoring-a-cloud-sql-instance-production-databases)
+    - [Invalidating all user sessions](#invalidating-all-user-sessions)
+    - [Accessing sourcegraph.com database](#accessing-sourcegraphcom-database)
+      - [Via the CLI](#via-the-cli)
+      - [Via BigQuery (for read-only operations)](#via-bigquery-for-read-only-operations)
+    - [Restarting docs.sourcegraph.com](#restarting-docssourcegraphcom)
+    - [Creating banners for maintenance tasks](#creating-banners-for-maintenance-tasks)
+  - [k8s.sgdev.org](#k8ssgdevorg)
+    - [Manage users in k8s.sgdev.org](#manage-users-in-k8ssgdevorg)
+  - [PostgreSQL](#postgresql)
+  - [Cloudflare Configuration](#cloudflare-configuration)
 
 ## General
 
@@ -64,7 +65,7 @@ More about [pipeline run types](https://docs.sourcegraph.com/dev/background-info
 
 **Deploy**
 
-During the code freeze, [Renovate](#renovate) will be disabled on **YYYY-MM-dd 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge (requires approval from [CloudDevops](../../admin-exp/devops/index.md)) a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/YYYY-MM-dd` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
+During the code freeze, [Renovate](#renovate) will be disabled on **YYYY-MM-dd 12:00+00:00** and no automatic updates to Kubernetes manifests will be made. To deploy your changes, you can manually create and merge (requires approval from [CloudDevops](../../../teams/devops/index.md)) a PR that updates the Docker image tags in [deploy-sourcegraph-cloud](https://github.com/sourcegraph/deploy-sourcegraph-cloud). You can find the desired Docker image tags by looking at the output of the Docker build step in [CI on sourcegraph/sourcegraph `release/YYYY-MM-dd` branch](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=release%2F2021-08-19) or by looking at [Docker Hub](https://hub.docker.com/u/sourcegraph/).
 
 Once your PR has been merged, you can follow the deployment via [CI on the `release` branch](https://buildkite.com/sourcegraph/deploy-sourcegraph-cloud/builds?branch=release).
 
@@ -86,7 +87,7 @@ Usually you'll know the build from which you'd like to deploy, we'll use a speci
    ./update-images.py index.docker.io/sourcegraph/gitserver:118059_2021-11-29_05fcc11@sha256:0c8a862e7977a830e2fa8a690ac243eea1255c150766a44b6c6c86df959d224f
    ```
 
-8. Commit, push your changes and have them reviewed either by [CloudDevops](../../admin-exp/devops/index.md).
+8. Commit, push your changes and have them reviewed either by [CloudDevops](../../../teams/devops/index.md).
 9. Once merged, the CD process will take over and deploy the image(s) you've updated
 
 ### Rolling back sourcegraph.com
