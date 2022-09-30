@@ -6,11 +6,8 @@
 
 ### Deployment type and scaling
 
-Managed instances are Docker Compose deployments only today. We do not currently offer Kubernetes managed instances.
-
-These managed Docker Compose deployments can scale up to the largest GCP instance type available, n2-standard-128 with 128 CPU / 512 GB memory which is typically enough for most medium to large enterprises.
-
-We do not offer Kubernetes managed instances today as this introduces some complexity for us in terms of ongoing maintenance and overhead, we may revisit this decision in the future.
+Managed instances are Docker Compose deployments today - we do not currently offer Kubernetes (or multi-node) managed instances.
+See [known limitations](#known-limitations-of-managed-instances) for more context on scalability of Cloud.
 
 ### Environments
 
@@ -28,7 +25,7 @@ For each type of Managed Instances (v1.0 and v.1.1), Sourcegraph maintains separ
 
 Internal instances are created for various testing purposes:
 
-- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow [managed instances upgrade tracker](../../engineering/dev/process/releases/upgrade_managed_issue_template.md) to proceed with upgrade process.
+- testing changes prior to the monthly upgrade on customer instances. upon a new release is made available, Cloud team will follow managed instances upgrade tracker (this is created prior to monthly upgrade) to proceed with upgrade process.
 - testing significant operational changes prior to applying to customer instances
 - short-lived instances for product teams to test important product changes. Notes: any teammate may request a managed instance through our [request process](./index.md#managed-instance-requests)
 
@@ -65,7 +62,7 @@ Sourcegraph upgrades every test and customer instances according to [SLA](#slas-
 The release process is performed in steps:
 
 1. New version is released via [release guild](../../engineering/dev/process/releases/release_guild.md)
-2. Github issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the [managed instances upgrade template](../../engineering/dev/process/releases/upgrade_managed_issue_template.md)
+2. GitHub issue in [Sourcegraph repository](https://github.com/sourcegraph/sourcegraph) is open based on the managed instances upgrade template.
 3. Github issue is labeled with `team/cloud` and Cloud Team is automatically notified to perform Managed Instances upgrade. Label is part of the template.
 4. Cloud team performs upgrade of all instances in given order:
 
@@ -85,11 +82,9 @@ Sample upgrade:
 
 ### Known limitations of managed instances
 
-Sourcegraph managed instances are single-machine Docker-Compose deployments only. We do not offer Kubernetes managed instances, or multi-machine deployments, today.
+Sourcegraph managed instances are single-machine Docker-Compose deployments only. We do not offer Kubernetes managed instances, or multi-machine deployments, today. The main limitation of the current model is that the underlying GCP infrastructure outage could result in downtime, i.e. is it not a highly-available deployment.
 
-With that said, Docker Compose deployments can scale up to the largest GCP instance type available, n1-standard-96 with 96 CPU & 360 GB memory, and are typically capable of supporting all but the largest of enterprises (around 25,000 repositories and 3,000 users are supported, based on what we have seen thus far.)
-
-The main limitation of this model is that an underlying GCP infrastructure outage could result in downtime, i.e. is it not a HA deployment.
+Current Cloud architecture has been [tested](./scalability_testing.md) to support a workload of >100000 repositories (440GB Git storage) and 10000 [simulated](https://github.com/sourcegraph/k6) users on a [`n2-standard-32`](https://cloud.google.com/compute/docs/general-purpose-machines#n2-standard) VM.
 
 ### Security
 

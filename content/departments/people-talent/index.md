@@ -50,9 +50,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Onboarding as a new hire
 
 - [The onboarding process](../../company-info-and-process/onboarding/index.md)
-- [BambooHR](resources-for-new-hires/new-teammate-setup.md/#bamboohr)
+- [BambooHR](resources-for-new-hires/new-teammate-setup.md#bamboohr)
 - Helpful videos
-- [I9 verification](people-ops/tools/internal-onboarding.md/#onboarding)
+- [I9 verification](people-ops/tools/internal-onboarding.md#onboarding)
 - [Onboarding swag](swag.md/)
 - [Our values](../../company-info-and-process/values/index.md)
 - [Managing remore work](../../company-info-and-process/remote/index.md)
@@ -88,9 +88,9 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Public holidays](../../company-info-and-process/working-at-sourcegraph/holidays.md)
 - [Perks](../../benefits-pay-perks/benefits-perks/#perks.md)
 - [Benefits](../../benefits-pay-perks/benefits-perks/#benefits.md)
-  - [Lumity](people-ops/tools/people-ops-faqs.md/#q-what-is-lumity)
-  - [Rippling](people-ops/tools/people-ops-faqs.md/#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?)
-  - [Making benefits changes](people-ops/tools/people-ops-faqs.md/#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
+  - [Lumity](people-ops/tools/people-ops-faqs.md#q-what-is-lumity)
+  - [Rippling](people-ops/tools/people-ops-faqs.md#sts=Q.%20Where%20and%20when%20do%20I%20receive%20my%20Rippling%20invitation?)
+  - [Making benefits changes](people-ops/tools/people-ops-faqs.md#q-how-do-i-make-changes-to-my-insurance-in-the-case-of-a-qualifying-life-event-qle)
 - [Parental leave](../../benefits-pay-perks/benefits-perks/parental-leave.md)
 - [Medical leave & accommodation](../../benefits-pay-perks/benefits-perks/leave-of-absence.md)
 - [Mental health resources](../../benefits-pay-perks/benefits-perks/mental-health/index.md)
@@ -162,7 +162,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - [Who is my People Partner?](teamalignment.md)
 - Recruiting support
-  - [Who is my recruiter?](teamalignment.md)
+  - [Who is my Recruiter?](teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - [How to submit a confidential complaint](../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
@@ -176,17 +176,16 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How to change the scope of a role (ie type of role, title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
 - [How to open a new job search](talent/process/opening_a_new_job.md)
   - [Who is my Recruiter?](teamalignment.md)
-  - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
-  - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
-  - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
-  - [Writing a job description](talent/process/opening_a_new_job.md)
-  - [Creating an interview plan](talent/process/opening_a_new_job.md)
-  - [Open headcount - change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/viewform?usp=sf_link)
+  - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1n6gtEfvjmSlgQfz_bLajalxstC7jgLT4OtLbXa4K4Gw/edit#gid=174110325)
+  - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o)
+  - [How to kick off a search](talent/process/opening_a_new_job.md#step-1-fill-out-the-intake-form)
+  - [Writing a job description](talent/process/opening_a_new_job.md#step-3-create-a-job-description--interview-plan)
+  - [Creating an interview plan](talent/process/opening_a_new_job.md#step-3-create-a-job-description--interview-plan)
 - [How we find candidates](talent/process/identifying_candidates.md)
-  - [Where we advertise our jobs](talent/process/identifying_candidates.md)
-  - [How we source passive candidates](talent/process/identifying_candidates.md)
-  - [Using recruitment agencies](talent/process/identifying_candidates.md)
-  - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md)
+  - [Where we advertise our jobs](talent/process/recruitment_branding.md#job-boards)
+  - [How we source passive candidates](talent/process/identifying_candidates.md#how-we-source-passive-candidates)
+  - [Using recruitment agencies](talent/process/identifying_candidates.md#recruiting-agencies)
+  - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md#sourced-candidates)
 - [The interview process](talent/process/interview_process.md)
   - [First time interviewer resources](talent/tools/interview_training.md#checklist-for-new-interviewers)
   - [Interview training & best practices](talent/tools/interview_training.md)
@@ -225,11 +224,11 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Tools
 
 - [Manager tool guide](people-ops/tools/manager-guide.md)
-- [BambooHR](people-ops/tools/manager-guide.md/#bamboohr)
+- [BambooHR](people-ops/tools/manager-guide.md#bamboohr)
 - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
 - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
 - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
-- [Talent Wall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
+- [TalentWall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
 
 ### Learning & development
 
@@ -315,13 +314,13 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 ### Onboarding resources
 
 - [Recruiter onboarding resources](onboarding/index.md)
-- [Recruiting tools](talent/process/index.md#recruiting-tools)
+- [Recruitment metrics](talent/process/talent_metrics.md)
+- Recruiting tools
   - [Greenhouse, our ATS](talent/tools/guide_to_using_greenhouse.md)
   - [BrightHire, our interview recording tool](talent/tools/guide_to_using_brighthire.md#guide-to-using-brighthire)
   - [Ashby, our metrics tool](https://app.ashbyhq.com/access)
   - [Talent Wall, our pipeline tracking tool](talent/tools/guide_to_using_talentwall.md#guide-to-using-talentwall)
   - [LinkedIn Recruiter, our sourcing tool](talent/process/linkedin.md)
-- [Recruitment metrics](talent/process/talent_metrics.md)
 - [Recruitment branding](talent/process/recruitment_branding.md)
 
 ### Opening a new job & headcount changes
@@ -343,7 +342,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Where we advertise our jobs](talent/process/recruitment_branding.md)
   - [How we source passive candidates](talent/process/identifying_candidates.md#sourcing-best-practices)
   - [Partnering with your Sourcer](talent/process/identifying_candidates.md)
-  - [Using external recruiting agencies](talent/process/identifying_candidates.md)
+  - [Using external recruiting agencies](talent/process/identifying_candidates.md#recruiting-agencies)
   - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md)
 - [Internal transfers & switching teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 

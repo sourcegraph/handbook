@@ -17,7 +17,3 @@ Customer Engineering at Sourcegraph is oriented around the technical success of 
 
 - [Use cases](../../../strategy-goals/strategy/index.md#use-cases)
 - [How to work with use cases](../../../strategy-goals/strategy/working-with-use-cases.md)
-
-## How to Reach Us
-
-You can reach us at the #ce channel or @ce on Slack. Customer Engineering represents the voice of our customers so if you're curious about something customer-related, particularly as it relates to how Sourcegraph brings customers value, we're the team to reach out to!
