@@ -844,7 +844,6 @@ List of product names:
 
 - Batch Changes
 - Code Insights
-- Code Intelligence
 - Code Search
 
 We do not capitalize our category name (code intelligence platform) or platform positioning.
@@ -861,6 +860,7 @@ We do not capitalize our category name (code intelligence platform) or platform 
 - To create a batch change...
 - You can create batch changes for various purposes, such as upgrading dependencies across...
 - Sourcegraph is a code intelligence platform that enables you to understand, fix, and automate across your entire codebase.
+- You can get started with Sourcegraph Cloud today.
 
 </div>
 <div class="item no">
@@ -869,7 +869,6 @@ We do not capitalize our category name (code intelligence platform) or platform 
 
 - Use Sourcegraph universal code search to...
 - With code insights you can...
-- Here’s how to use code intelligence.
 - Here’s how to use code search.
 - Our Code Intelligence Platform enables you to understand, fix, and automate across your entire codebase.
 
@@ -961,6 +960,33 @@ When talking about Sourcegraph Cloud, we should:
 
 - Request access to Sourcegraph Cloud today.
 - Best of all, we maintain Sourcegraph Cloud for you.
+
+</div>
+</div>
+
+Be careful to only capitalize the word "Cloud" in certain situations:
+
+- Capitalize "Cloud" when referring directly to the product as a proper noun.
+- Capitalize "Cloud" when using it as shorthand that refers directly to the product. In this case, it should still be treated as a proper noun. Using "Cloud" as shorthand should only be done to avoid the repitition of saying "Sourcegraph Cloud" repeatedly.
+- Do not capitalize "cloud" when referring to it as a common noun or when referring to general cloud technology.
+
+<div class="usage">
+<div class="item yes">
+
+##### Yes
+
+- We recommend you use Sourcegraph Cloud. With Cloud, you can use X, Y, and Z features.
+- Cloud, our newest offering, features X Y Z benefits.
+- You can now run Sourcegraph on the cloud.
+
+</div>
+<div class="item no">
+
+##### No
+
+- Sourcegraph cloud is our newest product.
+- You can run Sourcegraph on the Cloud.
+- This version of Sourcegraph is Cloud-based.
 
 </div>
 </div>

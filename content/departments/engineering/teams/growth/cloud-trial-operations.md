@@ -14,9 +14,17 @@ Cloud is the default way of deploying Souregraph, but there are some limits to d
 
 [Recording of Walkthrough with Malo and Eric](https://drive.google.com/file/d/1tW0NmtW0Vu3UBnRhJnnqKRK0EE5M6_Gr/view?usp=sharing)
 
-## Dashboard
+## Dashboards
 
 - [Lead pipeline](https://sourcegraph2020.lightning.force.com/lightning/r/Dashboard/01Z5b0000004tI9EAI/view?queryScope=userFolders) (Salesforce)
+- [Main lead/funnel/ongoing trial dashboard (Looker)](https://sourcegraph.looker.com/dashboards/341)
+  - Ongoing trials
+  - Traffic -> lead -> trial instances
+  - Lead status breakdown
+- [Amplitude instance overview](https://analytics.amplitude.com/sourcegraph/dashboard/isnxhtb?source=workspace)
+  - Event-level data from trial instances
+- [Server instance overview (Looker)](https://sourcegraph.looker.com/dashboards/167?Unique+Server+ID=Netflix&Salesforce+Unique+ID=)
+  - The same dashboard you’re probably used to; cloud trials are still Sourcegraph instances and send pings, so we have the same aggregated data as any on-prem/managed instance
 
 ### Trial request qualification workflow
 
@@ -90,7 +98,7 @@ Here's how every team at Sourcegraph contributes to the trial workflow in the sh
 
 - After a cloud instance trial request is qualified, raise instance provisioning requests to the cloud team
 - When the instance is provisioned, hand it off to the user and make sure they can get started
-- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md/#cloud-trial-managed-instances) the trial
+- 5 days max after the 30-day trial ends, make sure a decision is made to [extend, convert, or terminate](../../../cloud/trial_mi.md#cloud-trial-managed-instances) the trial
 - monitor metrics for product qualified leads (PQLs)
 - (those are just operational tasks, the product growth team is also working on its usual produc team stuff)
 
