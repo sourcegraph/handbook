@@ -12,7 +12,7 @@ _All teammates should join these channels and check them regularly_
 
 - #announcements - To share critical information with all Sourcegraph teammates. Messages here are shared with ALL teammates at Sourcegraph.
   - Note: Posting permissions are limited to keep the signal-to-noise ratio high. Teammates should use emojis and threads to engage with content.
-  - If you need access to post in #announcements, please send a message to #internal-comms.
+  - If you need access to post in #announcements, please send a message to [#internal-comms](https://sourcegraph.slack.com/archives/C02K3HXGZTL) and tag Madison Clark.
 - #exec-ama - This channel makes it easy to ask Sourcegraph leadership any question and get an answer. Responses will be shared within 48 hours. [Follow these instructions ](https://github.com/sourcegraph/handbook/edit/main/content/company-info-and-process/communication/team_chat.md#more-on-exec-ama)when submitting a question.
 - #progress - Share exciting progress on things you’re working on (ex. Recently closed deals, product launches, etc.)
 - #thanks - Appreciate someone’s work? You can thank them here! :) Consider tying your feedback to a Sourcegraph value
