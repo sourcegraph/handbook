@@ -258,7 +258,7 @@ The coaching categories are:
 
 Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
-More information may be found in our [how we pay at Sourcegraph] Handbook page [COMING SOON].
+More information may be found in our [how we pay at Sourcegraph] (../../../../cbenefits-pay-perks/pay-expenses/compensation.md) Handbook page. 
 
 ## Merit Philosophy
 
