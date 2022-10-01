@@ -153,7 +153,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- [How to resign] (SOON)
+- [Leaving Sourcegraph](people-ops/process/leaving.md) (including how to resign)
 
 ## Resources for Managers
 
