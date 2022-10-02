@@ -461,7 +461,6 @@ server_side_batch_changes:
   deployment:
     self_hosted: beta
     single_tenant_cloud: beta
-  note: Server-side batch changes on managed instances requires self-hosting [executors](#executors).
 
 code_insights:
   title: Code Insights
