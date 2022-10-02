@@ -8,6 +8,7 @@ Unless we explictly call it out, you may assume things are unchanged.
 
 Learn more from:
 
+- [Cloud v2 MVP shortlist](https://docs.google.com/document/d/1O7V16J0gOtQSspfnNUJmcwRbXEaHKNv7ft7_IMk2YXc/edit#heading=h.nf7eonr5yxgn)
 - [Cloud v2 migration and decision docs](https://docs.google.com/document/d/1GiOPJjuYrUahrZnENSLUCsujo2MCu2v_gw23SKNzE6E/edit)
 - [Cloud v2 Orchestration docs](https://docs.google.com/document/d/1gyvi3T69FYb6P4EYIxcZJESnowghAPW1omtHU5vVTa4/edit)
 - [Cloud v2 diagrams](https://app.excalidraw.com/o/4Dr1S6qmmY7/9eJlHswH65d)

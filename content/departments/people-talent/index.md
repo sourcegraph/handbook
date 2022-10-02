@@ -153,7 +153,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 
 ### Leaving Sourcegraph
 
-- [How to resign] (SOON)
+- [Leaving Sourcegraph](people-ops/process/leaving.md) (including how to resign)
 
 ## Resources for Managers
 
@@ -162,7 +162,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - People support
   - [Who is my People Partner?](teamalignment.md)
 - Recruiting support
-  - [Who is my recruiter?](teamalignment.md)
+  - [Who is my Recruiter?](teamalignment.md)
 - Anonymous support
   - [Our exec AMA process](../../company-info-and-process/communication/team_chat.md#more-on-exec-ama)
   - [How to submit a confidential complaint](../../company-info-and-process/communication/code_of_conduct.md#raising-concerns)
@@ -176,17 +176,16 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [How to change the scope of a role (ie type of role, title, level, department etc.)](https://forms.gle/6dQmnRjsXDEjB4y7A)
 - [How to open a new job search](talent/process/opening_a_new_job.md)
   - [Who is my Recruiter?](teamalignment.md)
-  - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1Dpf6aDw1ESJRYroJz6-ZtaACJxwjEu4my_xeYuB3a7E/edit#gid=1869420933)
-  - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit?userstoinvite=chrispine@sourcegraph.com)
-  - [How to kick off a search](https://docs.google.com/forms/d/e/1FAIpQLSdYwWlI_4bKKSkhWq4FrLNE2MPEhRtiq91GtEC6RuFAt-mgfA/viewform?usp=sf_link)
-  - [Writing a job description](talent/process/opening_a_new_job.md)
-  - [Creating an interview plan](talent/process/opening_a_new_job.md)
-  - [Open headcount - change request form](https://docs.google.com/forms/d/e/1FAIpQLSfFhEOLKHIvgopTGUxWjOxIPxrhaQqNdwq0_9eUlsvQyfrhsg/viewform?usp=sf_link)
+  - [How to find my approved headcount](https://docs.google.com/spreadsheets/d/1n6gtEfvjmSlgQfz_bLajalxstC7jgLT4OtLbXa4K4Gw/edit#gid=174110325)
+  - [Determining level](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o)
+  - [How to kick off a search](talent/process/opening_a_new_job.md#step-1-fill-out-the-intake-form)
+  - [Writing a job description](talent/process/opening_a_new_job.md#step-3-create-a-job-description--interview-plan)
+  - [Creating an interview plan](talent/process/opening_a_new_job.md#step-3-create-a-job-description--interview-plan)
 - [How we find candidates](talent/process/identifying_candidates.md)
-  - [Where we advertise our jobs](talent/process/identifying_candidates.md)
-  - [How we source passive candidates](talent/process/identifying_candidates.md)
-  - [Using recruitment agencies](talent/process/identifying_candidates.md)
-  - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md)
+  - [Where we advertise our jobs](talent/process/recruitment_branding.md#job-boards)
+  - [How we source passive candidates](talent/process/identifying_candidates.md#how-we-source-passive-candidates)
+  - [Using recruitment agencies](talent/process/identifying_candidates.md#recruiting-agencies)
+  - [How we share profiles with Hiring Managers](talent/process/identifying_candidates.md#sourced-candidates)
 - [The interview process](talent/process/interview_process.md)
   - [First time interviewer resources](talent/tools/interview_training.md#checklist-for-new-interviewers)
   - [Interview training & best practices](talent/tools/interview_training.md)
@@ -199,7 +198,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [How to extend an offer](talent/process/extending_an_offer.md)
   - [Reference checks](talent/process/extending_an_offer.md#offer-stage)
   - [Offer approval process](talent/process/extending_an_offer.md)
-  - [The offer summary](talent/process/extending_an_offer.md)
+  - [The offer summary](talent/process/extending_an_offer.md#offer-summary-call)
   - [The offer letter](talent/process/extending_an_offer.md)
 - [How to hire a teammate into a new role](../../company-info-and-process/working-at-sourcegraph/switching-teams.md#switching-teams)
 
@@ -361,7 +360,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Extending an offer](talent/process/extending_an_offer.md)
   - [Reference checks](talent/process/extending_an_offer.md#offer-stage)
   - [Offer approval process](talent/process/extending_an_offer.md)
-  - [The offer summary](talent/process/extending_an_offer.md)
+  - [The offer summary](talent/process/extending_an_offer.md#offer-summary-call)
   - [The offer letter](talent/process/extending_an_offer.md)
   - [Counter offer conversations](talent/process/extending_an_offer.md#counter-offers-and-how-to-deal-with-them)
 - [After the offer](talent/process/after_the_offer.md)
@@ -369,7 +368,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
   - [Onboarding process](talent/process/after_the_offer.md#onboarding-process-for-us-based-teammates--contractors)
   - [Onboarding via PEO](talent/process/after_the_offer.md#onboarding-process-for-peo-hires)
   - [Changing start dates](talent/process/after_the_offer.md#changing-a-new-hires-start-date)
-  - [Actioning a Revoked Offer](talent/process/after_the_offer.md#actioning-a-revoked-offer)
+  - [Actioning a revoked offer](talent/process/after_the_offer.md#actioning-a-revoked-offer)
 
 ### Internship program
 
