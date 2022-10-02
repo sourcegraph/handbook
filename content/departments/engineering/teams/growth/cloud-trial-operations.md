@@ -76,7 +76,7 @@ Note: all automated email will automatically appear in salesforce (through Malo'
    1. set the lead status in salesforce to `Trial Instance Handed Off`
    1. Update the [server_installers_to_company](https://docs.google.com/spreadsheets/d/1Y2Z23-2uAjgIEITqmR_tC368OLLbuz12dKjEl4CMINA/edit#gid=0) spreadsheet so we can map this instance with the account's name (and corresponding Salesforce data). Use the `Company` Salesforce field if it's filled in.
 
-After that workflow, a (TBD) admin onboarding email campaign will start.
+After that workflow, a (manual for now) admin onboarding email campaign will start.
 
 ### When trial users schedule time with us
 
@@ -90,7 +90,7 @@ The product growth team will be monitoring analytics for trial instances that ha
 
 When a trial becomes a PQL:
 
-- the lead status will be changed to `PQL` in Salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive.
+- the lead status will be changed to `PQL` in Salesforce, which will trigger an alert in #product-qualified-leads, to be picked up by an Account Executive. This is powered by a [zap](https://zapier.com/editor/169193004/published).
 - the inbound SDR that owns the lead will create a #cloud-trial-companyname channel, if it doesn't exist yet, and add the AE, CE, Greg Bastis, Nick Gage, Andrew Reed, Eric Brody-Moore and Malo Marrec.
 
 This will be manually triggered by `@Eric Brody-Moore` for now. See the qualification [here](https://docs.google.com/document/d/1aUfXlt5AGwhG7tIF8dPRmsLhFL8TuvPKFvXlOsxgFws/edit#bookmark=id.qsm8u5uvpib8).
