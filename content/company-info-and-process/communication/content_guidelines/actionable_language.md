@@ -622,6 +622,7 @@ Instead we can use this more intuitive (but less accurate) language:
 When communicating that a problem is resolvable in mulitple ways, provide an external link to the docs page that cover all cases.
 
 ### Be explicit about linking to troubleshooting
+
 Avoid using simple 'learn more' that would be too broad for this case.
 
 <div class="usage">
@@ -642,6 +643,7 @@ Avoid using simple 'learn more' that would be too broad for this case.
 </div>
 
 ### Don't overpromise
+
 Use phrases that suggest that user can learn more about the known problems and how to fix them. Avoid promising a simple fix or a direct help.
 
 <div class="usage">
