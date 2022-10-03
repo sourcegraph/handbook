@@ -396,13 +396,13 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 
 ## Manager enablement
 
-### How to write an effective review\*\*
+### How to write an effective review
 
 We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
 
 **What comes after review writing**
 
-COMING SOON
+[Manager Guide - Delivering the Impact Review](delivering-impact-reviews.md)
 
 **How do I leverage the 9-box**
 
