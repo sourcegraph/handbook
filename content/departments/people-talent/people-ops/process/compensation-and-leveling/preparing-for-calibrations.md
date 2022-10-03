@@ -2,23 +2,6 @@
 
 ## Calibration process overview
 
-Once all reviews have been written and submitted, we move into the Calibration phase of our Impact Review process. During the calibration phase, our People Partner team will meet with each Manager to walk through their Teammates’ reviews, discuss performance, and determine any resulting compensation or promotion changes. Specifically, we review:
-
-- **Performance & Promotion eligibility**: each People Partner will schedule a live meeting to discuss overall performance, as well as any promotion eligibility
-- **Compensation**: we will review your recommended merit and promotion-related compensations adjustments asynchronously.
-
-**The ultimate goal of the calibration process is to:**
-
-- Ensure all Teammates get a fair and objective performance assessment
-- Align as a management team on a set of standards to be applied to all Teammates during reviews
-- Guide Managers on how to have effective conversations to deliver Impact Review feedback
-- Help Managers make final recommendations for any compensation changes or promotions
-
-**Calibration focus areas:**
-
-- Calibration sessions center on Teammate Talent Assessment and Performance Rating alignment. Our [Career Frameworks](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) are foundational for evaluating both performance and values during calibration and reviews.
-- It's important to note that performance calibrations are part of an ongoing, continuous conversation. Alignment is a process we'll continue to work through together by encouraging open dialogue and productive disagreement.
-
 ## Manager Pre-Work
 
 In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
@@ -205,7 +188,7 @@ We rate on two dimensions: performance & values. Each dimension is assigned a sc
     - Typically ~15% rated 1 in Skill, ~7% rated 1 in Values, with ~2% rated 1 in both.
   - _Merit_: Teammates who receive “exceeding high bar” rating can receive an increase twice a year.
     - Recommended merit increase:
-      - 1:1 = 8-10%
+      - 1:1 = 7.5-10%
       - 1:2 = 7.50%
       - 2:1 = 7.50%
     - Note: The above merit increase recommendations are based on the expected distribution of 20/70/10 and are subject to change dependent on final distribution.
