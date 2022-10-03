@@ -24,11 +24,11 @@
 
 Initial agreement on a primary definition of “code intelligence platform,” possible competing interpretations worth filtering research against, and specific things we will need to learn more about, as well as a framework for the research in the next step.
 
-Exit artifacts: 
+Exit artifacts:
 
-- [Synthesized hypotheses for strategy research](https://docs.google.com/document/d/1N38S-BxiRPbxC7oftc7H3mGlRU6AuGoGl87iaE-Movw/edit#) 
+- [Synthesized hypotheses for strategy research](https://docs.google.com/document/d/1N38S-BxiRPbxC7oftc7H3mGlRU6AuGoGl87iaE-Movw/edit#)
 - [Cancun offsite synthesis conclusion](https://docs.google.com/document/d/1FIym6MdP4EqEj7fSrATT2qNsesR6Sif9nPEgkA5_HBY/edit)
-- [Code intelligence platform takes](https://docs.google.com/document/d/16ivM1GCf3Q024tq8icNGtttlcKuvGv36YewtKQVbnl4/edit#heading=h.l65ay3z06vuz) 
+- [Code intelligence platform takes](https://docs.google.com/document/d/16ivM1GCf3Q024tq8icNGtttlcKuvGv36YewtKQVbnl4/edit#heading=h.l65ay3z06vuz)
 
 ## 🔄 Identify and explore specific knowledge gaps | Oct 3 – Oct 14 (2 weeks)
 
