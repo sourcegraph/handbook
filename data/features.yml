@@ -222,8 +222,7 @@ search_based_code_navigation:
     cvs: true
   deployment:
     self_hosted: ga
-    managed_instance: ga
-    cloud: ga
+    single_tenant_cloud: ga
 
 precise_code_navigation_go:
   title: Precise code navigation for Go
@@ -250,8 +249,7 @@ precise_code_navigation_go:
     cvs: true
   deployment:
     self_hosted: ga
-    managed_instance: ga
-    cloud: ga
+    single_tenant_cloud: ga
 
 precise_code_navigation_jsts:
   title: Precise code navigation for JavaScript/TypeScript
@@ -277,9 +275,8 @@ precise_code_navigation_jsts:
     perforce: true
     cvs: true
   deployment:
-    self_hosted: partial_ga
-    managed_instance: partial_ga
-    cloud: partial_ga
+    self_hosted: ga
+    single_tenant_cloud: ga
 
 precise_code_navigation_java_scala_kotlin:
   title: Precise code navigation for Java, Scala & Kotlin
@@ -306,8 +303,7 @@ precise_code_navigation_java_scala_kotlin:
     cvs: true
   deployment:
     self_hosted: ga
-    managed_instance: ga
-    cloud: ga
+    single_tenant_cloud: ga
 
 precise_code_navigation_c_cpp:
   title: Precise code navigation for C/C++
@@ -334,13 +330,34 @@ precise_code_navigation_c_cpp:
     cvs: true
   deployment:
     self_hosted: partial_ga
-    managed_instance: partial_ga
-    cloud: partial_ga
+    single_tenant_cloud: partial_ga
 
 precise_code_navigation_python:
   title: Precise code navigation for Python
   product_team: code_intelligence
-  maturity: not_implemented
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - code_security
+    - incident_response
+    - code_reuse
+    - developer_onboarding
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+  deployment:
+    self_hosted: ga
+    single_tenant_cloud: ga
 
 precise_code_navigation_csharp:
   title: Precise code navigation for C#
@@ -350,16 +367,65 @@ precise_code_navigation_csharp:
 precise_code_navigation_ruby:
   title: Precise code navigation for Ruby
   product_team: code_intelligence
-  maturity: not_implemented
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - code_security
+    - incident_response
+    - code_reuse
+    - developer_onboarding
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+  deployment:
+    self_hosted: partial_ga
+    single_tenant_cloud: partial_ga
+
+precise_code_navigation_rust:
+  title: Precise code navigation for Rust
+  product_team: code_intelligence
+  maturity: ga
+  documentation_link: https://docs.sourcegraph.com/code_intelligence/explanations/precise_code_intelligence
+  use_cases:
+    - code_security
+    - incident_response
+    - code_reuse
+    - developer_onboarding
+  compatibility:
+    gitlab_com: true
+    gitlab_enterprise: true
+    github_com: true
+    github_enterprise: true
+    bitbucket_server: true
+    bitbucket_cloud: true
+    phabricator: true
+    codecommit: true
+    gitolite: true
+    gerrit: true
+    perforce: true
+    cvs: true
+  deployment:
+    self_hosted: ga
+    single_tenant_cloud: ga
 
 precise_code_navigation_auto_indexing:
   title: Precise code navigation auto-indexing
   product_team: code_intelligence
-  maturity: experimental
+  maturity: partial_ga
   deployment:
-    self_hosted: experimental
-    managed_instance: experimental
-    cloud: not_implemented
+    self_hosted: beta
+    single_tenant_cloud: ga
+  note: Auto-indexing for self-hosted requires self-hosting [executors](#executors).
 
 batch_changes:
   title: Batch Changes
@@ -385,8 +451,7 @@ batch_changes:
     cvs: false
   deployment:
     self_hosted: ga
-    managed_instance: ga
-    cloud: not_implemented
+    single_tenant_cloud: ga
 
 server_side_batch_changes:
   title: Server-side batch changes
@@ -395,9 +460,7 @@ server_side_batch_changes:
   documentation_link: https://docs.sourcegraph.com/batch_changes/explanations/server_side
   deployment:
     self_hosted: beta
-    managed_instance: beta
-    cloud: not_implemented
-  note: Server-side batch changes on managed instances requires self-hosting [executors](#executors).
+    single_tenant_cloud: beta
 
 code_insights:
   title: Code Insights
@@ -425,8 +488,7 @@ code_insights:
     cvs: true
   deployment:
     self_hosted: ga
-    managed_instance: ga
-    cloud: not_implemented
+    single_tenant_cloud: ga
 
 soc_ii_type_ii:
   title: SOC II Type II
@@ -625,9 +687,8 @@ custom_extensions:
 executors:
   title: Executors
   product_team: code_intelligence
-  maturity: experimental
+  maturity: partial_ga
   documentation_link: https://docs.sourcegraph.com/admin/executors
   deployment:
     self_hosted: beta
-    managed_instance: experimental
-    cloud: not_implemented
+    single_tenant_cloud: ga

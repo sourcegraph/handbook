@@ -2,7 +2,5 @@
 
 self_hosted:
   title: Self-hosted
-managed_instance:
-  title: Managed instance
-cloud:
-  title: Cloud
+single_tenant_cloud:
+  title: Single tenant cloud
