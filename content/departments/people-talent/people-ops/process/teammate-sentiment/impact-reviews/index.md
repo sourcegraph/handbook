@@ -178,87 +178,45 @@ Teammate performance is evaluated through two complementary lenses:
 
 The overall **Performance Rating** is a combination of Skills and Values-based performance.
 
-### Rating definitions
-
-- **Exceeding High Bar**
-  - Skill: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
-  - Values: exceeds in many, exhibits all, deficient in none.
-- **Meeting High Bar**
-  - Skill: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
-  - Values: exceeds in some, exhibits most.
-- **Not Meeting High Bar**
-  - Skill: your contributions are below expectations for your current level and must immediately improve.
-  - Values: exhibits some, lacks in some, deficient in some.
+### Rating definitions, distribution, and corresponding compensation increase
 
 Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
 
 You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
 
-![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
-
-### 9-box distribution
-
 We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
 
-- 20% of Teammates will fall in the **“Top Tier”** (high performance) category.
-  - Top Tier score: 1:1, 1:2 or 2:1
-  - Teammates rated as “Top Tier” are eligible to receive a compensation increase that cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
-- 70% of Teammates will fall in the **“Highly Valued”** (strong performance) category.
-  - Highly-Valued score: 2:2s
-  - Teammates rated “Highly Valued” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
-- 10% of Teammates will fall in the **“Least Effective”** (low performance) category.
-  - Least Effective score: 3:1, 3:2, 2:3, 1:3 or 3:3
-  - Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
+- **Exceeding High Bar** 
+  - Score: 1:1, 1:2 or 2:1
+  - Skill: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
+  - Values: exceeds in many, exhibits all, deficient in none.
+  - Expected distribution: ~20% of Teammates will fall in the **“Top Tier”** (high performance) category.
+  - Recommended merit increase: 7.5-10%
+  - Comp increase frequency: Teammates rated as “Exceeding High Bar” are eligible to receive a compensation increase every review cycle, meaning that someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
+- **Meeting High Bar**
+  - Score: 2:2
+  - Skill: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
+  - Values: exceeds in some, exhibits most.
+  - Expected distribution: ~70% of Teammates will fall in the **“Highly Valued”** (strong performance) category.
+  - Recommended merit increase: 3-5%
+  - Comp increase frequency: Teammates rated “Meeting High Bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Exceeding High Bar” increase.   
+- **Not Meeting High Bar**
+  - Score: 3:1, 3:2, 2:3, 1:3 or 3:3
+  - Skill: your contributions are below expectations for your current level and must immediately improve.
+  - Values: exhibits some, lacks in some, deficient in some.
+  - Expected distribution: ~10% of Teammates will fall in the **“Not Meeting High Bar”** category.
+  - Recommended merit increase: 0%
+  - Comp increase frequency: Teammates rated “Not Meeting High Bar” are not eligible for a compensation increase, and will need to improve performance in order to be considered for merit increases in future review cycles.
 
-## Impact Review Calibration
+## The 9-box
 
-Following the completion of self, peer and upward reviews, the below steps take place:
-
-- **Step 1:** The People Team will schedule calibrations sessions with leaders to review feedback and align on performance, promotion and merit recommendations. These will take place during the last two-weeks of the impact review process.
-
-- **Step 2:** The Manager has conversation with Teammate to deliver the results / feedback.
-
-![visual of steps](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.49.16%20PM.png)
-
-- **Step 3:** Promotion or compensation increases go into effect. Promotion announcements are made via `#teammate-announce` channel.
-
-### What to expect in a calibration session\*\*
-
-We hold a high and consistent bar for Impact Review calibrations to ensure they are fair across Managers, departments, and job levels. The process is meant to limit bias in the performance review process and ensure Managers agree on the criteria against which their direct reports are assessed on. Our People Team has a macro view of these sessions across the organization, so they will be able to provide valuable context and guidance to leaders to ensure an equitable review process.
-
-**What to expect:**
-
-The People Partners will facilitate three calibration sessions in each review period:
-
-- **1. Performance Calibration:** all Managers in the department will meet to calibrate team performance and ratings. In this discussion, they will leverage the Talent Assessment Framework (9-box) to finalize Teammate Performance Reviews and Ratings. In addition, the Executive and Recruiting Director of that department will attend and the People Partner will facilitate the meeting. Everyone will work together to review current Teammate ratings and justify the rating given to each Teammate. After the calibration, Managers will finalize and submit Impact Reviews and Ratings for each team member.
-- **2. Promotion Calibration:** after the submission of team performance reviews and ratings, the Managers, Department Executive and People Partners will meet to finalize promotion recommendations. The People Partner will facilitate the meeting and is responsible for submitting the promotion docs.
-- **3. Compensation Calibration:** the Managers, Department Executive and People Partners will meet to finalize merit recommendations. The People Partner will facilitate the meeting and is responsible for submitting the compensation docs.
-
-### Delivering the review to Teammates
-
-Each People Partner will coach Managers on how to deliver Teammate reviews.
-
-**Nothing should be a surprise:** Performance and development topics (and more) should regularly be addressed in weekly 1:1s or other casual check-ins, meaning none of the topics discussed during a Teammate’s review should be a surprise. Teammates should have a good idea of what to expect and know Impact Reviews and calibration conversations improve the fairness of performance scores, so they can approach these conversations calmly and with an open mind.
-
-### How we coach Teammates based on performance
-
-Coaching categories help our Managers work with Teammates to create tailored career growth plans. We all have our own unique career goals and interests, and coaching categories help align those career goals and interests to the work we do now. An important part of being a Manager at Sourcegraph is engaging in career growth-focused conversations with Teammates, and working together to create actionable career growth plans. How Managers engage in those conversations depends on Teammate performance, values alignment, and personal goals. Coaching categories are guides to meaningful career-oriented conversations.
-
-We’ll continue to “build muscle” around individual career development plans over the next year or so by incrementally adding tools Managers and Teammates can use to foster meaningful career conversations.
-
-The coaching categories are:
-
-- **Motivate:** focus on ways in which Teammates who are superior performers can continue to strive to model our values in an exceptional way.
-- **Empower:** create opportunities for our highest performing Teammates to step into, or elevate, their leadership presence at Sourcegraph.
-- **Guide:** foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in roles that allow for opportunities to stretch skills, and demonstrate superior performance.
-- **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
-- **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
 
 ### How we approach compensation decisions
 
 Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
-More information may be found in our [how we pay at Sourcegraph] (../../../../cbenefits-pay-perks/pay-expenses/compensation.md) Handbook page.
+More information about pay transparency and how to view pay ranges in Assemble may be found in our [how we pay at Sourcegraph](../benefits-pay-perks/pay-expenses/compensation.md) Handbook page.
 
 ## Merit Philosophy
 
@@ -330,7 +288,15 @@ Your manager is also a great resource if you have any questions about how to wri
 
 Q. **Are Impact Reviews required for all Teammates?**
 
-- Yes. It is important for all Teammates to complete bi-annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
+- Yes. It is important for all eligible Teammates to complete bi-annual performance reviews. Impact Reviews give Teammates the chance to receive written feedback, evaluate needs for training and development, define expectations, highlight progress, and set new goals for the following review period. Impact Reviews promote productivity and effectiveness, as well as personal development. Promotion and Compensation calibrations require completed Impact Review submissions.
+
+Q: **How do I know if I'm eligible to go through the Impact Review process?**
+
+- Teammates who have completed **4-months tenure** in the given review period are eligible for the associated Impact Review cycle. See the eligibility guidelines for Merit and Promotions above.
+
+Q: **How do I know if I'm eligible for a merit increase?**
+
+- All Teammates who receive a Impact Review score of "Meeting" or "Exceeding" our high bar are eligible for a merit increase.  Please reference our 9-box 
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
@@ -399,6 +365,52 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 - [How to write an effective review](../../giving-feedback.md)
 - [How to prepare for your calibration meeting](../../compensation-and-leveling/preparing-for-calibrations.md)
 - [How to deliver the impact review results](../impact-reviews/delivering-impact-reviews.md)
+
+## The Calibration process explained
+
+Following the completion of self, peer and upward reviews, the below steps take place:
+
+- **Step 1:** The People Team will schedule calibrations sessions with Managers to review feedback and align on performance, promotion and merit recommendations. These will take place during the last two-weeks of the impact review process.
+
+- **Step 2:** The Manager has conversation with Teammate to deliver the results / feedback.
+
+![visual of steps](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.49.16%20PM.png)
+
+- **Step 3:** Promotion or compensation increases go into effect. Promotion announcements are made via `#teammate-announce` channel.
+
+### What to expect in a calibration session\*\*
+
+We hold a high and consistent bar for Impact Review calibrations to ensure they are fair across Managers, departments, and job levels. The process is meant to limit bias in the performance review process and ensure Managers agree on the criteria against which their direct reports are assessed on. Our People Team has a macro view of these sessions across the organization, so they will be able to provide valuable context and guidance to leaders to ensure an equitable review process.
+
+**What to expect:**
+
+The People Partners will facilitate three calibration sessions in each review period. Prior to the calibration session, all Managers must review[how to prepare for your calibration meeting](../../compensation-and-leveling/preparing-for-calibrations.md).
+
+
+- **1. Performance Calibration:** all Managers in the department will meet to calibrate team performance and ratings. In this discussion, they will leverage the Talent Assessment Framework (9-box) to finalize Teammate Performance Reviews and Ratings. In addition, the Executive and Recruiting Director of that department will attend and the People Partner will facilitate the meeting. Everyone will work together to review current Teammate ratings and justify the rating given to each Teammate. After the calibration, Managers will finalize and submit Impact Reviews and Ratings for each team member.
+- **2. Promotion Calibration:** after the submission of team performance reviews and ratings, the Managers, Department Executive and People Partners will finalize promotion recommendations async. The People Partner will facilitate the meeting and is responsible for submitting the promotion docs.
+- **3. Compensation Calibration:** the Managers, Department Executive and People Partners will finalize merit recommendations async. The People Partner will facilitate the meeting and is responsible for submitting the compensation docs.
+
+### Delivering the review to Teammates
+
+Each People Partner will coach Managers on how to deliver Teammate reviews.
+
+**Nothing should be a surprise:** Performance and development topics (and more) should regularly be addressed in weekly 1:1s or other casual check-ins, meaning none of the topics discussed during a Teammate’s review should be a surprise. Teammates should have a good idea of what to expect and know Impact Reviews and calibration conversations improve the fairness of performance scores, so they can approach these conversations calmly and with an open mind.
+
+### How we coach Teammates based on performance
+
+Coaching categories help our Managers work with Teammates to create tailored career growth plans. We all have our own unique career goals and interests, and coaching categories help align those career goals and interests to the work we do now. An important part of being a Manager at Sourcegraph is engaging in career growth-focused conversations with Teammates, and working together to create actionable career growth plans. How Managers engage in those conversations depends on Teammate performance, values alignment, and personal goals. Coaching categories are guides to meaningful career-oriented conversations.
+
+We’ll continue to “build muscle” around individual career development plans over the next year or so by incrementally adding tools Managers and Teammates can use to foster meaningful career conversations.
+
+The coaching categories are:
+
+- **Motivate:** focus on ways in which Teammates who are superior performers can continue to strive to model our values in an exceptional way.
+- **Empower:** create opportunities for our highest performing Teammates to step into, or elevate, their leadership presence at Sourcegraph.
+- **Guide:** foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in roles that allow for opportunities to stretch skills, and demonstrate superior performance.
+- **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
+- **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
+
 
 **# RESOURCES FOR PEOPLE TEAM**
 
