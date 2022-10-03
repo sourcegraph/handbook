@@ -28,7 +28,7 @@ Need an interview scheduled for one of your candidates? Submit a request one of 
 
   - **Please note:** Make sure that all interviews under your interview plan in Greenhouse are up-to-date.
 
-    - Under "_Job Setup_" > "_Interview Plan_" > Click "_Edit Interview_" under each corresponding interview, and scroll to the "_Interview Prep_" section. Make a note at the top of that section listing who the required/preferred interviewers are and who their backup counterparts are. Add all potential interviewers to the "_Set default interviewers_" box.
+    - Under "_Job Setup_" > "_Interview Plan_" > Click "_EditInterview_" under each corresponding interview, and scroll to the "_Interview Prep_" section. Make a note at the top of that section listing who the required/preferred interviewers are and who their backup counterparts are. Add all potential interviewers to the "_Set default interviewers_" box.
 
   - **Step 1:** Gather the candidate's availability
     - Note: While you can grab the availability from the candidate via email or verbally, it is ideal to gather this information via Greenhouse.
