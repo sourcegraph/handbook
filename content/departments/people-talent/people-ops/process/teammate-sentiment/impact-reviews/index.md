@@ -394,36 +394,18 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-## Manager enablement
+## Helpful links & resources
 
-### How to write an effective review
+- [How to write an effective review](../../giving-feedback.md)
+- [How to prepare for your calibration meeting](../../compensation-and-leveling/preparing-for-calibrations.md)
+- [How to deliver the impact review results](../impact-reviews/delivering-impact-reviews.md)
 
-We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../giving-feedback.md)
-
-**What comes after review writing**
-
-[Manager Guide - Delivering the Impact Review](../impact-reviews/delivering-impact-reviews.md)
-
-**How do I leverage the 9-box**
-
-COMING SOON
-
-**What to expect in the calibration session**
-
-COMING SOON
-
-**How to mitigate bias**
-
-COMING SOON
-
-**RESOURCES FOR PEOPLE TEAM**
+**# RESOURCES FOR PEOPLE TEAM**
 
 **People Partners:** Responsible for assuring Teammates and Managers have the required resources to guide successful review cycles and complete review milestones in a timely manner. Your People Partner will lead calibration sessions with leadership and provide coaching and guidance as needed to all Teammates.
 
-**How we prepare for calibration cycles**
+## Helpful links & resources
 
-COMING SOON
-
-**How to help Managers mitigate bias**
-
-COMING SOON
+- How to prepare for calibration meetings (COMING SOON)
+- How to help Managers mitigate bias (COMING SOON)
+- How to create letters for promotion & merit (COMING SOON)
