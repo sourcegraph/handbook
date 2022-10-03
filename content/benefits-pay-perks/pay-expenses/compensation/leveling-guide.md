@@ -1,8 +1,8 @@
-# INTRODUCTION TO JOB LEVELS AT SOURCEGRAPH
+# Introduction to job levels at Sourcegraph
 
 ## What are roles, levels, leveling guides, and career development frameworks? Why are they important?
 
-All teammates are assigned a **role** (e.g. “Software Engineer”, “Product Manager”, “Account Executive”) and **level **(e.g. IC1, IC2, IC3)**. <span style="text-decoration:underline;">Role</span>** defines what you do, and **level** defines the expectations, competencies, and abilities as you progress within that role.
+All teammates are assigned a **role** (e.g. “Software Engineer”, “Product Manager”, “Account Executive”) and **level** (e.g. IC1, IC2, IC3). **Role** defines what you do, and **level** defines the expectations, competencies, and abilities as you progress within that role.
 
 The **Sourcegraph leveling guide** is a tool to help us define expectations, competencies, and abilities for each level in a general sense, across all of Sourcegraph. This guide is used as a reference when building our **career development frameworks** to ensure that expectations for each level are consistent across roles. The Sourcegraph leveling guide is built to scale and therefore will remain fairly consistent over time.
 
@@ -37,7 +37,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 - Yes, there are numerous ways to build skills and experience, which will ultimately lead you to making progress within a level’s dimensions. We complete a biannual talent review and compensation calibration, which includes reviewing and rewarding growth in level.
 - We also benchmark our roles every 6 months to ensure we are keeping up with the market, and will make market adjustments as necessary when our bands are updated.
 
-## How does a Teammate progress from one level to the next?
+## How does a teammate progress from one level to the next?
 
 - Promotions from one level to the next are considered in our biannual Talent Review process. Individuals striving toward, and meeting the expectations of, the next level are considered for promotion.
 - To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through the promotion process to solidify the change.
@@ -71,7 +71,7 @@ In BambooHR, click on **My Info** > **Job** and in the **Compensation** section 
   - **Interview Execution vs Level Benchmark:** Candidate interview assessment should be evaluated according to expectations of the job responsibilities and leveling benchmark. If a candidate performs at the expected level of an L3, but the qualified level was benchmarked at L4, the recommendation would be to not hire the candidate if they underperform in the interview assessment. In some cases, it may be appropriate for the hiring team to work with their recruiter to reset the candidate’s expectations, based on the functional role and development opportunities.
   - **Interview Execution vs Years of Experience:** Candidate leveling should not be benchmarked exclusively to the candidate’s resume. For example, if a candidate interview assessment qualifies that they operate at the expected level of an IC5, but their total experience may align closer to others that are benchmarked at lower level, the hiring team should benchmark the candidate at the level we expect them to operate at, not based on the total years of experience within a specific function.
 
-# INDIVIDUAL CONTRIBUTOR LEVELING
+# Individual contributor leveling
 
 _There are 6-levels in the IC career path:_
 
@@ -196,7 +196,7 @@ Focused on learning, growth, and establishing themselves as a contributing teamm
   </tr>
 </table>
 
-# MANAGER LEVELING
+# Manager leveling
 
 _While there are 6-levels in the Manager career path, at Sourcegraph, we currently only use 5-levels (levels 2-to-6)._
 
