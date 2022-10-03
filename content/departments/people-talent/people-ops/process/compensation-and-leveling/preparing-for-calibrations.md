@@ -2,8 +2,6 @@
 
 ## Calibration process overview
 
-
-
 ## Manager Pre-Work
 
 In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
