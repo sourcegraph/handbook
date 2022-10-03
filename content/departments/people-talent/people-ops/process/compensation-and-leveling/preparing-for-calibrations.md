@@ -193,7 +193,7 @@ Likewise, final promotion decisions rest with VP+ level leaders. The calibration
 
 ## Rating definitions and expected distributions
 
-We rate on two dimensions: performance & values. Each dimension is assigned a score of 1 to 3. [The Impact Review Handbook page](../impact-reviews/index.md) defines our review philosophy in greater detail.
+We rate on two dimensions: performance & values. Each dimension is assigned a score of 1 to 3. [The Impact Review Handbook page](../teammate-sentiment/impact-reviews/index.md) defines our review philosophy in greater detail.
 
 ### Ratings
 

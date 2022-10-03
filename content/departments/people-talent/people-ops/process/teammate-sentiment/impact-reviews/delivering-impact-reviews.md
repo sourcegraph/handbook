@@ -9,13 +9,13 @@ Impact reviews will be delivered synchronously in a 1:1 between the Manager and 
 1. Schedule a 30-60 minute 1:1
 2. Send a Slack message to your direct report:
    1. “Hi [Teammate Name] - I just sent you a calendar invite to walk through your impact review. During this conversation, we will discuss your self-review, along with the feedback that you received from me and your peers. Agenda:
-      1. **Overview of [Impact Review Process](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/)**
+      1. **Overview of [Impact Review Process](index.md)**
       2. **Alignment on past performance:** We will discuss your strengths and then your development areas. I will answer your questions and gather your perspective on your performance.
       3. **Discuss future development**: We will work together to plan ways in which you can meet development and career aspirations moving forward.
-   2. Before the meeting, please review about our [impact review process ](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/)to set the stage for a meaningful conversation. Looking forward to it!”
+   2. Before the meeting, please review about our [impact review process](index.md)to set the stage for a meaningful conversation. Looking forward to it!”
 3. Review each Teammate’s full review packet 3. Review [instructions](https://help.lattice.com/hc/en-us/articles/360060331454-Share-Your-Team-s-Review-Packets-Without-Summary-Remarks) on how to access the Teammate review packet
 4. Review [Manager Guide: Delivering Performance Feedback and Having Difficult Conversations](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit?usp=sharing)
-5. Review the [Manager FAQ,](#bookmark=id.xowm8vulusmo) where we’ve tried to anticipate any and all questions you may receive from a Teammate
+5. Review the [Manager FAQ,](#faq) where we’ve tried to anticipate any and all questions you may receive from a Teammate
 
 Please remember - our Teammates are all unique - and they are what makes Sourcegraph unique! Consider key messages about each Teammate’s performance you want to impart during the review meeting.
 
@@ -31,13 +31,13 @@ You’ll meet 1:1 with each of your direct reports to deliver the results of our
 
 During these meetings, you’ll cover the following with each Teammate:
 
-1. Overview of our [impact review process](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/)
-2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/#how-we-evaluate-performance-using-a-9-box))**
+1. Overview of our [impact review process](index.md)
+2. Deliver the impact review, including **sharing overall score in values & performance ([please leverage the 9-box visual linked here](index.md#how-we-evaluate-performance-using-a-9-box))**
    1. _Share compensation increase (if any)_
-      1. _[Review](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/) supporting detail about how the compensation increase was determined_
-      2. _[Review](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/#what-is-our-eligibility-process-for-merit-increases) answer the question “how often is my compensation reviewed” _
-         1. _[Review ](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/#general-compensation-questions)supporting detail on how to answer the question “why is my increase less than the rate of inflation”_
-   2. _Celebrate promotion (if any)_ 3. _Click here to see[ Career Frameworks](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/career-frameworks/)_
+      1. _[Review](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) supporting detail about how the compensation increase was determined_
+      2. _[Review](index.md#what-is-our-eligibility-process-for-merit-increases) answer the question “how often is my compensation reviewed” _
+         1. _[Review ](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md#general-compensation-questions)supporting detail on how to answer the question “why is my increase less than the rate of inflation”_
+   2. _Celebrate promotion (if any)_ 3. _Click here to see[ Career Frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)_
 3. Have a forward-looking discussion: review your vision for your Team over the next 6-months, how the Teammate fits into that work, and longer-term (1+ year) exploration of Teammate’s career growth priorities and objectives. Discuss what you need to see from them to maintain, or improve their score.  
    3. If your Teammate is scored as “not meeting high bar” you will have a clear performance conversation. [Read more](https://docs.google.com/presentation/d/17b8k26srxCF5OJ6ddlwSGSVujjUjiioiIDuSMP8eXME/edit#slide=id.gd8d1ce5e98_0_164) about navigating performance conversations.
 4. Leave 10-minutes to answer any questions from the Teammate.
@@ -55,19 +55,19 @@ Immediately following the 1:1,please:
       2. I’ve shared your impact review packet with you in Lattice [_and,_ _if applicable - _and am also sharing here a letter outlining your compensation change].
    2. Sample Slack message for “Not Meeting High Bar” Teammates”: 3. “Hi [Teammate name] - thank you again \_\_\_ 4. I’ve shared your impact review packet with you in Lattice. We discussed some areas I’d like to see you improve in over the coming weeks and months. I’m looking forward to continuing our discussion in our future 1:1s, and helping you do great work here.
 
-It’s not uncommon for questions to arise as you deliver the impact review to Teammates. Make a note of any questions or follow up needed, and commit to circling back during your next 1:1 session. If unsure of an answer to a question, please contact [your People Partner](https://handbook.sourcegraph.com/departments/people-talent/teamalignment/).
+It’s not uncommon for questions to arise as you deliver the impact review to Teammates. Make a note of any questions or follow up needed, and commit to circling back during your next 1:1 session. If unsure of an answer to a question, please contact [your People Partner](../../../../teamalignment.md).
 
-Feedback and career growth [conversations are ongoing](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/teammate-development/), and not limited to our twice-yearly impact review cycles. Incorporating feedback given and received during an impact review into regular 1:1s presents a great opportunity to support Teammates making meaningful contributions to the Sourcegraph team, and to intentionally invest in their career development.
+Feedback and career growth [conversations are ongoing](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), and not limited to our twice-yearly impact review cycles. Incorporating feedback given and received during an impact review into regular 1:1s presents a great opportunity to support Teammates making meaningful contributions to the Sourcegraph team, and to intentionally invest in their career development.
 
 ### Talking points
 
 Each review conversation will be different, and we expect all Managers to spend time in advance of the 1:1 preparing for the conversation.Consider how you will approach each conversation in advance - you may want to write a few bullet points leading up to the conversation to help you prepare.
 
-For more on giving feedback to your direct reports in a clear, concise way, check out our page on [Teammate Development.](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/teammate-development/)
+For more on giving feedback to your direct reports in a clear, concise way, check out our page on [Teammate Development.](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
 
 ## Overview of our impact review process
 
-Keep this brief by sharing our handbook page about the [impact review cycle](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/) asynchronously prior to the meeting.
+Keep this brief by sharing our handbook page about the [impact review cycle](index.md) asynchronously prior to the meeting.
 
 Share with the teammate:
 
@@ -86,7 +86,7 @@ At the conclusion of the review read through, **share the Teammate’s calibrate
 
 ### Communicating promotions
 
-A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! After the feedback period is complete (October 14th, 2022 for FY23/Mid-year), Managers will share the good news with Teammates [in #teammate-announce](https://handbook.sourcegraph.com/company-info-and-process/communication/announcements/#promotions) by highlighting the promoted Teammate and their accomplishments that supported their promotion.
+A Teammate receiving a promotion is cause for celebration and recognition, and recognizing promotions in #teammate-announce is one way to acknowledge our awesome Teammates! After the feedback period is complete (October 14th, 2022 for FY23/Mid-year), Managers will share the good news with Teammates [in #teammate-announce](../../../../../../company-info-and-process/communication/announcements.md#promotions) by highlighting the promoted Teammate and their accomplishments that supported their promotion.
 
 ### Discussing the performance/value score
 
@@ -122,7 +122,7 @@ _If you have questions about how to conduct this conversation with Teammates rec
 
 ### How to have a career growth conversation\*\*
 
-The conclusion of the impact review is a great time to revisit on-going career growth conversations. Approach career growth with open-ended questions and curiosity. For more guidance on how to conduct meaningful career conversations, check out our [Teammate Development ](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/teammate-development/)page.
+The conclusion of the impact review is a great time to revisit on-going career growth conversations. Approach career growth with open-ended questions and curiosity. For more guidance on how to conduct meaningful career conversations, check out our [Teammate Development](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md) page.
 
 ### Communicating with Teammates on PTO or leave of absence
 
@@ -136,11 +136,11 @@ Our impact review cycles are great times to catch up with all teammates on their
 
 We’ve included some anticipated frequently asked questions below you may encounter when delivering the impact review and/or compensation results. If a Teammate asks a question and you’re not sure how to respond, let them know you’ll follow up, and reach out to your People Partner for assistance.
 
-Our[ Compensation at Sourcegraph page ](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/)also includes FAQs you may encounter during conversations with Teammates..
+Our[ Compensation at Sourcegraph page](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) also includes FAQs you may encounter during conversations with Teammates..
 
 ### Q: How often does Sourcegraph provide merit increases?
 
-- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we regularly evaluate the external job market and may issue market increases to remain competitive. You can read more about our anticipated corresponding compensation increase % for each impact review score **[here](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/compensation-and-leveling/preparing-for-calibrations/#rating-definitions-and-expected-distributions).** Please note that these are estimates and we reserve the right to change these at any time.
+- A: We evaluate compensation twice yearly, aligned with the Impact Review Cycles. Compensation at Sourcegraph is designed to reward high performance. Our Teammates can expect to typically receive an increase at least once per year. High performance during a period may result in more frequent increases. Additionally, we regularly evaluate the external job market and may issue market increases to remain competitive. You can read more about our anticipated corresponding compensation increase % for each impact review score **[here](../../compensation-and-leveling/preparing-for-calibrations.md#rating-definitions-and-expected-distributions).** Please note that these are estimates and we reserve the right to change these at any time.
 
 ### Q: How do I know if I’m eligible for a merit increase?
 
@@ -161,11 +161,11 @@ Our[ Compensation at Sourcegraph page ](https://handbook.sourcegraph.com/benefit
 
 ### Q: Inflation and the Consumer Price Index increased significantly in the past year. Why doesn’t my merit increase match increased inflation/CPI numbers?
 
-- A: As you’ll find with most (if not all!) companies, Sourcegraph does not adjust merit increases up or down based on inflation. Inflation is subject to a good deal of variability, and companies do not typically link merit increases to inflation or cost-of-living increases. Rather, our focus is on ensuring that our pay ranges are highly competitive (read more about our compensation philosophy and how we determine ranges[ here](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/)) and providing consistent performance-based increases annually (and bi-annually for Teammates [who are rated: “Exceeding High Bar”](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/impact-reviews/#how-we-evaluate-performance-using-a-9-box)). To learn more, we recommend reading [“Why Salary Increases Do Not Keep Pace With Inflation](https://www.forbes.com/sites/johnbremen/2022/04/07/why-salary-increases-do-not-keep-pace-with-inflation/?sh=6edafd775336).
+- A: As you’ll find with most (if not all!) companies, Sourcegraph does not adjust merit increases up or down based on inflation. Inflation is subject to a good deal of variability, and companies do not typically link merit increases to inflation or cost-of-living increases. Rather, our focus is on ensuring that our pay ranges are highly competitive (read more about our compensation philosophy and how we determine ranges[ here](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)) and providing consistent performance-based increases annually (and bi-annually for Teammates [who are rated: “Exceeding High Bar”](index.md#9-box-distribution)). To learn more, we recommend reading [“Why Salary Increases Do Not Keep Pace With Inflation](https://www.forbes.com/sites/johnbremen/2022/04/07/why-salary-increases-do-not-keep-pace-with-inflation/?sh=6edafd775336).
 
 ### Q: Where can I learn more about Compensation at Sourcegraph?
 
-- A: Information about [Compensation at Sourcegraph is published in the handbook](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/), and includes a set of compensation-specific FAQs.
+- A: Information about [Compensation at Sourcegraph is published in the handbook](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md), and includes a set of compensation-specific FAQs.
 
 ### Q: How do I access my promo/comp change letter?
 
