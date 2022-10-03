@@ -2,7 +2,7 @@
 
 _If you have any questions about the Impact Review process, or need help in general, please Slack `#ask-people-team`_
 
-RESOURCES FOR ALL TEAMMATES 
+RESOURCES FOR ALL TEAMMATES
 
 ## Impact Reviews explained
 
@@ -411,7 +411,7 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 **People Partners:** Responsible for assuring Teammates and Managers have the required resources to guide successful review cycles and complete review milestones in a timely manner. Your People Partner will lead calibration sessions with leadership and provide coaching and guidance as needed to all Teammates.
 
 ## People Team enablement - helpful links
+
 - How to prepare for calibrations(COMING SOON)
 - How to create promo/merit letters (COMING SOON)
 - How to update comp changes in Bamboo(COMING SOON)
-
