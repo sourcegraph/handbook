@@ -11,8 +11,8 @@ Note that this is an optional process; some teams use tracking issues and some t
 1. Create a new GitHub issue with the [tracking issue template](https://github.com/sourcegraph/sourcegraph/issues/new?assignees=&labels=tracking&template=tracking_issue.md&title=%24TEAM%3A+%24MILESTONE+Tracking+issue).
 1. Give it the **"\$THING_BEING_TRACKED: Tracking issue"** title.
 1. Assign it to the right milestone, creating such milestone if it doesn't yet exist.
-    1. Note that the right milestone may be no milestone at all. Check with your team if you are unsure.
-3. Ensure the **tracking** label is set as well as the other labels you want to track. Issues and pull requests with those labels will show up in the tracking issue.
+   1. Note that the right milestone may be no milestone at all. Check with your team if you are unsure.
+1. Ensure the **tracking** label is set as well as the other labels you want to track. Issues and pull requests with those labels will show up in the tracking issue.
 
 ## Updating an existing issue
 
@@ -35,7 +35,7 @@ If you want to convert an existing issue into a tracking issue:
 - 🧶 Technical debt
 - 🎩 Quality of life
 - 🛠️ [Roadmap](https://handbook.sourcegraph.com/departments/product-engineering/process/planning-process#roadmap)
-- 🕵️ [Spike](https://en.wikipedia.org/wiki/Spike_(software_development))
+- 🕵️ [Spike](<https://en.wikipedia.org/wiki/Spike_(software_development)>)
 - 🔒 Security issue
 - 🙆 Stretch goal
 ```
