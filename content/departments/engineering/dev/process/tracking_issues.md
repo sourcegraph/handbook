@@ -19,7 +19,7 @@ Note that this is an optional process; some teams use tracking issues and some t
 If you want to convert an existing issue into a tracking issue:
 
 1. Add the `tracking` label.
-1. Update the title by adding **": Tracking issue"**.
+1. Update the title by appending **": Tracking issue"**.
 1. Add the following code to the bottom of the issue.
 
 ```markdown
