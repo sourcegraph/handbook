@@ -565,7 +565,7 @@ inés_roitman:
   name: Inés Roitman
   pronouns: she/her
   role: Onboarding and Training Manager
-  reports_to: director_recruiting
+  reports_to: director_recruiting_peopleops
   location: Buenos Aires, Argentina 🇦🇷 / Barcelona, Spain 🇪🇸
   github: InesRoitman
   email: ines@sourcegraph.com
@@ -922,7 +922,7 @@ trevor_houghton:
   name: Trevor Houghton
   pronouns: he/him
   role: Recruiting Operations Specialist
-  reports_to: director_recruiting
+  reports_to: director_recruiting_peopleops
   location: Austin, TX, USA 🇺🇸
   github: TrevorHoughton
   email: trevor@sourcegraph.com
@@ -978,7 +978,7 @@ kelsey_nagel:
   name: Kelsey Nagel
   pronouns: she/her
   role: Corporate Recruiter
-  reports_to: director_recruiting
+  reports_to: director_recruiting_peopleops
   location: Minneapolis, MN USA
   github: kelseynagel
   description: "Kelsey is a North Dakota native living in Minneapolis, Minnesota. She is an avid Recruiter, bringing 5 years of talent acquisition experience in high growth companies before joining Sourcegraph. When not working, you'll find Kelsey travelling, spending time on lakes in Minnesota summers, and trying new Sushi restaurants."
@@ -1075,8 +1075,8 @@ bill_caplan:
 marija_petrovic:
   name: Marija Petrovic
   pronouns: She/Her
-  role: Director, Recruiting
-  manager_role_slug: director_recruiting
+  role: Director, Recruiting & People Ops
+  manager_role_slug: director_recruiting_peopleops
   reports_to: vp_talent
   location: Naples, FL USA 🇺🇸
   github: marija.petrovic214
@@ -1278,7 +1278,7 @@ grace_bohl:
   name: Grace Bohl
   pronouns: she/her
   role: Corporate Recruiter
-  reports_to: director_recruiting
+  reports_to: director_recruiting_peopleops
   location: Denver, CO 🇺🇸
   github: gracebohl
   email: you@sourcegraph.com
@@ -1318,8 +1318,8 @@ sara_lee:
 kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
-  role: Recruiting Operations Specialist
-  reports_to: director_recruiting
+  role: People-Ops Generalist
+  reports_to: director_recruiting_peopleops
   location: Austin, TX, United States 🇺🇸
   github: kemperhamilton
   email: kemper.hamilton@sourcegraph.com
