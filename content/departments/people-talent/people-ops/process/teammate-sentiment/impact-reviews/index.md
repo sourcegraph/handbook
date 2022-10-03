@@ -405,6 +405,7 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 **People Partners:** Responsible for assuring Teammates and Managers have the required resources to guide successful review cycles and complete review milestones in a timely manner. Your People Partner will lead calibration sessions with leadership and provide coaching and guidance as needed to all Teammates.
 
 ## Helpful links & resources
+
 - How to prepare for calibration meetings (COMING SOON)
 - How to help Managers mitigate bias (COMING SOON)
 - How to create letters for promotion & merit (COMING SOON)
