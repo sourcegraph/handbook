@@ -296,7 +296,7 @@ Q: **How do I know if I'm eligible for an Impact Review**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase.  All Teammates who receive a rating of "meets high bar" AND haven't recieved a seperate compensation increase in the past 9-months are eligible for a compensation increase.
+- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't recieved a seperate compensation increase in the past 9-months are eligible for a compensation increase.
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
@@ -409,7 +409,6 @@ The coaching categories are:
 - **Guide:** foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in roles that allow for opportunities to stretch skills, and demonstrate superior performance.
 - **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
 - **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
-
 
 **# RESOURCES FOR PEOPLE TEAM**
 
