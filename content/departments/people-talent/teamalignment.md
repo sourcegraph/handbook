@@ -2,9 +2,9 @@
 
 People Partner alignment:
 
-- Customer Engineering & Support, Operations, Legal - Sarah Um, Sr. People Partner
+- Customer Engineering & Support, Operations, Legal, Marketing - Sarah Um, Sr. People Partner
 - Engineering, Product & Design - Alex Mathison, Sr. People Partner
-- Sales & Marketing - Marija Petrovic, Director, Recruiting & People-Ops
+- Sales - Marija Petrovic, Director, Recruiting & People-Ops
 - Executive Team support, Talent & People - Jonathan Ayers, Director, People
 - Any critical concerns - Carly Jones, VP, People & Talent
 
