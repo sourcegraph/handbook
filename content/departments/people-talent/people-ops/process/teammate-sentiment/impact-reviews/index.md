@@ -69,7 +69,7 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
 - **Phase 3: Manager Review Writing**
   - Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review
 - **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
-  - Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](../../compensation-and-leveling/preparing-for-calibrations.md)_
+  - Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](../../compensation-and-leveling/preparing-for-calibrations.md)\_
 - **Phase 5: Impact Review Cycle Ends**
   - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03 and 2022-10-10
   - Compensation changes will be visible in Bamboo 2022-10-14 (they retro go into effect 2022-10-01)
@@ -104,6 +104,7 @@ Lattice resources:
 **Teammate self review:**
 
 - **Required questions**
+
   - What were your most impactful accomplishments over the past 6 months?
     - Note: we recommend sharing up to 3 examples
   - To what extent did you meet your commitments or goals in the past 6 months?
