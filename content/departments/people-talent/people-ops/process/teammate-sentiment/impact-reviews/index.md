@@ -2,6 +2,8 @@
 
 _If you have any questions about the Impact Review process, or need help in general, please Slack `#ask-people-team`_
 
+RESOURCES FOR ALL TEAMMATES 
+
 ## Impact Reviews explained
 
 We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
@@ -394,36 +396,22 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-## Manager enablement
+## Manager enablement - helpful links
 
-### How to write an effective review
+- How to write an effective review(../../giving-feedback.md)
+- How to prepare for calibrations(COMING SOON)
+- How to deliver Impact Review feedback(../impact-reviews/delivering-impact-reviews.md)
 
-We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../giving-feedback.md)
+---
 
-**What comes after review writing**
-
-[Manager Guide - Delivering the Impact Review](../impact-reviews/delivering-impact-reviews.md)
-
-**How do I leverage the 9-box**
-
-COMING SOON
-
-**What to expect in the calibration session**
-
-COMING SOON
-
-**How to mitigate bias**
-
-COMING SOON
+**COMING SOON**
 
 **RESOURCES FOR PEOPLE TEAM**
 
 **People Partners:** Responsible for assuring Teammates and Managers have the required resources to guide successful review cycles and complete review milestones in a timely manner. Your People Partner will lead calibration sessions with leadership and provide coaching and guidance as needed to all Teammates.
 
-**How we prepare for calibration cycles**
+## People Team enablement - helpful links
+- How to prepare for calibrations(COMING SOON)
+- How to create promo/merit letters (COMING SOON)
+- How to update comp changes in Bamboo(COMING SOON)
 
-COMING SOON
-
-**How to help Managers mitigate bias**
-
-COMING SOON
