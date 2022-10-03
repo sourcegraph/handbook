@@ -194,7 +194,7 @@ Your **skill-based rating** is directly tied to outcomes and indicates how well 
 
 You will receive a Performance Rating and a Values Rating, as well as a written review document from your Manager summarizing your achievements, strengths, and development areas.
 
-![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/Screen%20Shot%202022-08-14%20at%209.48.49%20PM.png)
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
 
 ### 9-box distribution
 
