@@ -36,7 +36,7 @@ Partner with the organization to build scalable data solutions and insights to h
    </td>
   </tr>
   <tr>
-   <td>Stakeholder Management
+   <td>[Stakeholder Management](../../departments/data-analytics/stakeholder-mgmt/index.md)
    </td>
    <td>Maintenance
    </td>
