@@ -3,7 +3,7 @@
 - [Working hours](working-hours.md)
 - [Holidays](holidays.md)
 - [Switching teams](switching-teams.md)
-- [Impact reviews](../../departments/people-talent/people-ops/process/impact-reviews/index.md)
+- [Impact reviews](../../departments/people-talent/people-ops/process/teammate-sentiment/impact-reviews/index.md)
 - [Leaving](../../departments/people-talent/people-ops/process/leaving.md)
 - [Before your start date](before-start.md)
 - [Teammate development](teammate-development/index.md)
