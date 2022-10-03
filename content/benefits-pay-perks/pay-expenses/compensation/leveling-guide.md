@@ -30,7 +30,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 
 - **Pay bands** outline a range in which we expect each role at Sourcegraph to be paid. Pay bands inevitably shift with the market over time, and may be adjusted in response to the job market. We couple pay bands with both levels and job families to articulate expected salary for each role at Sourcegraph.
 - We’ve aligned our levels to match levels in our compensation survey tool, Radford. This allows us to quickly “match” jobs to salary survey data and pull up-to-date market pay rate information. We began using Radford in 2022-04 and it is considered the best-of-the-best compensation and leveling tool that most [high-growth SaaS companies](https://radford.aon.com/products/surveys/technology-compensation-survey#s2) use, as well.
-- We regularly re-evaluate our pay bands to ensure market competitiveness. Our[ handbook page on compensation](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/) describes this process in greater detail.
+- We regularly re-evaluate our pay bands to ensure market competitiveness. Our[ handbook page on compensation](index.md) describes this process in greater detail.
 
 ## Can you receive a compensation raise without changing levels?
 
@@ -40,7 +40,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 ## How does a Teammate progress from one level to the next?
 
 - Promotions from one level to the next are considered in our biannual Talent Review process. Individuals striving toward, and meeting the expectations of, the next level are considered for promotion.
-- To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through [the promotion process](https://handbook.sourcegraph.com/company-info-and-process/working-at-sourcegraph/teammate-development/promotion/) to solidify the change.
+- To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through [the promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion/.md) to solidify the change.
 
 ![Teammate level progression](https://storage.googleapis.com/sourcegraph-assets/teammate-level-progression.png)
 
@@ -63,7 +63,7 @@ In BambooHR, click on **My Info** > **Job** and in the **Compensation** section 
 - Levels are used in the offer process to ensure that the candidate’s compensation expectations are within band and that our current team is being compensated at market rate for their role and level.
 - Prior to extending an offer, the hiring team will qualify the level of the candidate and benchmark compensation expectations accordingly. Given our methodology to ensure pay parity for all teammates at the same level, we do not engage in negotiations outside of the pre-defined compensation range of the associated level. Note that teammates may be at different positions within a band - either when they join or are promoted, or as and when Talent Review adjustments are awarded. This is to be expected in all organizations and does not deviate from our pay parity principles.
 
-  - We typically review salary bands against market data twice per year. If market data indicates that our bands are inconsistent or below-market, [we adjust the band](https://handbook.sourcegraph.com/benefits-pay-perks/pay-expenses/compensation/#how-bands-are-changed).
+  - We typically review salary bands against market data twice per year. If market data indicates that our bands are inconsistent or below-market, [we adjust the band](index.md#how-bands-are-changed).
   - If the new compensation band is approved, adjustments will be made for all new hires and existing teammates.
 
 - **Common offer calibration scenarios:**
