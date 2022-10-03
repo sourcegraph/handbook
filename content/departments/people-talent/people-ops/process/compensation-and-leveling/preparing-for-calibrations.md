@@ -225,7 +225,7 @@ We rate on two dimensions: performance & values. Each dimension is assigned a sc
     - Least Effective score = 3:1, 3:2, 2:3, 1:3 or 3:3
   - _Merit_: Teammates who receive “not meeting high bar” are **_not eligible_** for a compensation increase or a promotion.
 
-![Ratings in chart view](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/ratingChart.png)
+![Ratings in chart view](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
 
 ---
 
