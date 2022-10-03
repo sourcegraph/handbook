@@ -186,7 +186,7 @@ You will receive a Performance Rating and a Values Rating, as well as a written 
 
 We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
 
-- **Exceeding High Bar** 
+- **Exceeding High Bar**
   - Score: 1:1, 1:2 or 2:1
   - Skill: your contributions consistently raise the high bar set for individuals at your level; your execution, both individually and cross-functionally, is consistently excellent.
   - Values: exceeds in many, exhibits all, deficient in none.
@@ -199,7 +199,7 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Values: exceeds in some, exhibits most.
   - Expected distribution: ~70% of Teammates will fall in the **“Highly Valued”** (strong performance) category.
   - Recommended merit increase: 3-5%
-  - Comp increase frequency: Teammates rated “Meeting High Bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Exceeding High Bar” increase.   
+  - Comp increase frequency: Teammates rated “Meeting High Bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Exceeding High Bar” increase.
 - **Not Meeting High Bar**
   - Score: 3:1, 3:2, 2:3, 1:3 or 3:3
   - Skill: your contributions are below expectations for your current level and must immediately improve.
@@ -296,7 +296,7 @@ Q: **How do I know if I'm eligible to go through the Impact Review process?**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a Impact Review score of "Meeting" or "Exceeding" our high bar are eligible for a merit increase.  Please reference our 9-box 
+- All Teammates who receive a Impact Review score of "Meeting" or "Exceeding" our high bar are eligible for a merit increase. Please reference our 9-box
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
@@ -386,7 +386,6 @@ We hold a high and consistent bar for Impact Review calibrations to ensure they 
 
 The People Partners will facilitate three calibration sessions in each review period. Prior to the calibration session, all Managers must review[how to prepare for your calibration meeting](../../compensation-and-leveling/preparing-for-calibrations.md).
 
-
 - **1. Performance Calibration:** all Managers in the department will meet to calibrate team performance and ratings. In this discussion, they will leverage the Talent Assessment Framework (9-box) to finalize Teammate Performance Reviews and Ratings. In addition, the Executive and Recruiting Director of that department will attend and the People Partner will facilitate the meeting. Everyone will work together to review current Teammate ratings and justify the rating given to each Teammate. After the calibration, Managers will finalize and submit Impact Reviews and Ratings for each team member.
 - **2. Promotion Calibration:** after the submission of team performance reviews and ratings, the Managers, Department Executive and People Partners will finalize promotion recommendations async. The People Partner will facilitate the meeting and is responsible for submitting the promotion docs.
 - **3. Compensation Calibration:** the Managers, Department Executive and People Partners will finalize merit recommendations async. The People Partner will facilitate the meeting and is responsible for submitting the compensation docs.
@@ -410,7 +409,6 @@ The coaching categories are:
 - **Guide:** foster and engage in meaningful career growth conversations with Teammates, and give growth opportunities in roles that allow for opportunities to stretch skills, and demonstrate superior performance.
 - **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
 - **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
-
 
 **# RESOURCES FOR PEOPLE TEAM**
 
