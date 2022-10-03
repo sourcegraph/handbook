@@ -8,7 +8,7 @@ We create a high-performance culture at Sourcegraph by providing continuous, act
 
 The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
 
-To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
+To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
 ### When do they take place?
 
