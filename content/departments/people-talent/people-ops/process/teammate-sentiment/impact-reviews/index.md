@@ -54,7 +54,7 @@ Results from the semi-annual impact review process support the growth and develo
     - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
     - [Career development frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
-- [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
+- [Compensation philosophy](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
 
 ## Impact Review timeline
@@ -220,7 +220,7 @@ We believe in performance-based pay, meaning merit increases (inclusive of cash 
 
 Impact Reviews are an important component in our compensation decision making process. Our band entry points are market competitive, and we are committed to rewarding strong performance as part of our compensation program.
 
-More information about our commitment to Pay Transparency and our overall compensation philosophy may be found in our [how we pay at Sourcegraph](COMING SOON) Handbook page.
+More information about our commitment to Pay Transparency and our overall compensation philosophy may be found in our [how we pay at Sourcegraph](../../../../../../benefits-pay-perks/pay-expenses/compensation/index.md) Handbook page.
 
 ### What is our eligibility process for merit increases?
 
