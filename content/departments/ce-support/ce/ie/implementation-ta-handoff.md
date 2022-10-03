@@ -1,6 +1,6 @@
 # Overview
 
-This document is a work in progress to give an overview of the expectations of the handoff between the implementation team and the technical advisor (TA) when a jointly managed deployment is completed.
+This document is a work in progress to give an overview of the handoff between the implementation team and the technical advisor (TA) when a jointly managed deployment is completed.
 
 # Inputs from Implementation
 
@@ -36,8 +36,13 @@ The implementation team will keep a log of notes from the implementation. These 
 - Special deployment details (ex: rockskip enabled, externalized PostgreSQL database)
 - Any significant errors or engineering involvement in successfully completing deployment
 
+In addition, the implementation team will keep a dedicated:
+- Issues Log - active problems that need resolving
+- Risk Log - potential future problems and resposes to those problems if they come to fruition
+- Expansion Opportunities - if information is gathered on specific user or feature expansion opps, the implementation team will transition that information to the TA
+
 # Closing out a Deployment
 
 Implementation is considered complete when the Sourcegraph instance is deployed and operational according to the originally scoped work. This includes completion of the necessary infrastructure for all customer environments, Sourcegraph deployment and resourcing, and Sourcegraph instance configuration (code host connections, syncing, and indexing along with general site configuration).
 
-At this point, the customer will be working exclusively with the TA for all subsequent updates (onboarding additional users, code hosts, batch changes, etc.), and the implementation engineer will no longer be actively involved in the deployment.
+At this point, the customer will be working exclusively with the TA for all subsequent updates (onboarding additional users, code hosts, batch changes, etc.), and the implementation engineer will no longer be actively involved in the deployment. The Implementation team will be accountable for a smooth transition of ownership to the TA.
