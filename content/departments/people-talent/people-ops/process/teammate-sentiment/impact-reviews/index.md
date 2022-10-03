@@ -354,19 +354,17 @@ Q. **Who should Teammates reach out to with questions about the performance revi
 
 ---
 
-The below sections are IN PROGRESS and will be published before the Manager Review Writing portion
-
-**# RESOURCES FOR MANAGERS**
+## RESOURCES FOR MANAGERS
 
 **Leaders:** Responsible for providing review feedback and calibrating Teammate performance within the timeline of the review cycle. Accountable for ensuring their team is on track to meet selection and feedback deadlines.
 
-## Helpful links & resources
+### Helpful links & resources
 
 - [How to write an effective review](../../giving-feedback.md)
 - [How to prepare for your calibration meeting](../../compensation-and-leveling/preparing-for-calibrations.md)
 - [How to deliver the impact review results](../impact-reviews/delivering-impact-reviews.md)
 
-## The Calibration process explained
+### The Calibration process explained
 
 Following the completion of self, peer and upward reviews, the below steps take place:
 
@@ -410,11 +408,11 @@ The coaching categories are:
 - **PIP Eligible:** Teammates in this category must focus on immediate improvement. They engage in our values in a meaningful way, but may struggle to meet expectations. They work closely with their Manager to improve immediately.
 - **Immediate PIP:** used for Teammates who do not exemplify our values, and who do not meet performance expectations. These Teammates must focus on immediate improvement.
 
-**# RESOURCES FOR PEOPLE TEAM**
+## RESOURCES FOR PEOPLE TEAM
 
 **People Partners:** Responsible for assuring Teammates and Managers have the required resources to guide successful review cycles and complete review milestones in a timely manner. Your People Partner will lead calibration sessions with leadership and provide coaching and guidance as needed to all Teammates.
 
-## Helpful links & resources
+### Helpful links & resources
 
 - How to prepare for calibration meetings (COMING SOON)
 - How to help Managers mitigate bias (COMING SOON)
