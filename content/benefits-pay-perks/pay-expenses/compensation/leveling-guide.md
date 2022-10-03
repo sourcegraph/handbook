@@ -40,7 +40,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 ## How does a Teammate progress from one level to the next?
 
 - Promotions from one level to the next are considered in our biannual Talent Review process. Individuals striving toward, and meeting the expectations of, the next level are considered for promotion.
-- To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through [the promotion process](../../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion/.md) to solidify the change.
+- To change an existing Teammate’s level, or do a promotion off-cycle, please alert your People Partner. They will then guide you through the promotion process to solidify the change.
 
 ![Teammate level progression](https://storage.googleapis.com/sourcegraph-assets/teammate-level-progression.png)
 
