@@ -52,7 +52,7 @@ In business-critical cases, we may make exceptions and allow an offer above the 
 
 ### How leveling decisions are made
 
-Sourcegraph leveling decisions anchor on the [Leveling Guidelines](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit).
+Sourcegraph leveling decisions anchor on the [Leveling Guidelines](leveling-guide.md).
 
 ## Transparent and equitable
 
