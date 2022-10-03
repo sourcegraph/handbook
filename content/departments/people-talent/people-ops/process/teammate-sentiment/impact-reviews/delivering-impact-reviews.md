@@ -63,7 +63,7 @@ Feedback and career growth [conversations are ongoing](../../../../../../company
 
 Each review conversation will be different, and we expect all Managers to spend time in advance of the 1:1 preparing for the conversation.Consider how you will approach each conversation in advance - you may want to write a few bullet points leading up to the conversation to help you prepare.
 
-For more on giving feedback to your direct reports in a clear, concise way, check out our page on [Teammate Development.](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md)
+For more on giving feedback to your direct reports in a clear, concise way, check out our page on [Teammate Development](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
 ## Overview of our impact review process
 
