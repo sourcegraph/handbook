@@ -4,11 +4,11 @@ _If you have any questions about the Impact Review process, or need help in gene
 
 ## Impact Reviews explained
 
-We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide [ongoing feedback with Teammates year-round in 1:1 meetings and informally](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
+We create a high-performance culture at Sourcegraph by providing continuous, actionable, and direct feedback, both informally and formally. While we expect our Managers to provide ongoing feedback with Teammates year-round in 1:1 [meetings and informally](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md), we also provide **formal feedback** via our semi-annual “impact review” process, which takes place annually in February and August.
 
 The purpose of this handbook page is to outline our **formal semi-annual feedback review process**, known as “impact reviews.” We refer to our semi-annual review process as “impact reviews” because they reveal the _impact that you are making_ here at Sourcegraph.
 
-To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
+To read more about how we provide continuous feedback and our performance improvement plan (PIP) process, please see our [Teammate Development page](../../../../../../company-info-and-process/working-at-sourcegraph/teammate-development/index.md).
 
 ### When do they take place?
 
@@ -52,7 +52,7 @@ Results from the semi-annual impact review process support the growth and develo
 
   - Growth & promotion philosophy
     - [Leveling guide](https://docs.google.com/document/d/1CXitnFMj4VL_IU8VKzjMS2fDcuK9AYH7jkEjCaN6Q2o/edit)
-    - [Career development frameworks](../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
+    - [Career development frameworks](../../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md)
 
 - [Compensation philosophy](https://docs.google.com/document/u/0/d/1pWBHK7rsjvV2e5RqVvhzmMKSfKhw0XtqCprHZMMTiRA/edit)
 - Helps identify **development opportunities** & a corresponding coaching/action plan.
@@ -73,7 +73,7 @@ _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
   - _Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review_
 - **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
   - Monday 2022-09-19 to Friday 2022-09-30 (2 weeks)
-  - _Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](compensation-and-leveling/preparing-for-calibrations.md)_
+  - _Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](../../compensation-and-leveling/preparing-for-calibrations.md)_
 - **Phase 5: Impact Review Cycle Ends**
   - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03
   - Compensation changes go into effect 2022-10-01
@@ -322,7 +322,7 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
-To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../process/giving-feedback.md)
 
 Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
 
@@ -376,7 +376,7 @@ Q. **How should Teammates prepare to participate in an Impact Review?**
   - Review your team career frameworks and solicit feedback from cross-functional partners
   - Prepare discussion points for the Impact Review conversation
 
-- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../giving-feedback.md)
 
 Q. **Will my Impact Review be negatively impacted if I do not answer the optional questions?**
 
@@ -396,13 +396,13 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 
 ## Manager enablement
 
-### How to write an effective review\*\*
+### How to write an effective review
 
-We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../giving-feedback.md)
 
 **What comes after review writing**
 
-COMING SOON
+[Manager Guide - Delivering the Impact Review](../impact-reviews/delivering-impact-reviews.md)
 
 **How do I leverage the 9-box**
 
