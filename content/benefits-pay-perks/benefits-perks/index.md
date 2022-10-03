@@ -24,7 +24,7 @@ We value and support teammates at all stages of life. We ensure that all teammat
 
 ### 📚 Professional development
 
-In addition to on-the-job training, we offer a $1,000 yearly reimbursement for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../departments/people-talent/people-ops/process/impact-reviews.md) for all teammates. Receipts for any expense over $25 are required.
+In addition to on-the-job training, we offer a $1,000 yearly reimbursement for educational opportunities (such as courses, extended education, books, conferences, etc.). We also hold detailed, twice annual 360 degree [Impact review cycles](../../departments/people-talent/people-ops/process/impact-reviews/index.md) for all teammates. Receipts for any expense over $25 are required.
 
 ### ✈️ Travel
 

@@ -28,7 +28,7 @@
   - [Training](../../company-info-and-process/working-at-sourcegraph/teammate-development/training/index.md)
   - [How to switch teams](../../company-info-and-process/working-at-sourcegraph/switching-teams.md)
   - [How to get promoted](../../company-info-and-process/working-at-sourcegraph/teammate-development/promotion.md)
-  - [Impact reviews](people-ops/process/impact-reviews.md)
+  - [Impact reviews](people-ops/process/impact-reviews/index.md)
 - [Recognition program](../../company-info-and-process/working-at-sourcegraph/recognition-program.md)
 - How we measure our culture:
 
@@ -70,7 +70,7 @@
 
 ## People Processes & Tools
 
-- [Impact reviews](people-ops/process/impact-reviews.md)
+- [Impact reviews](people-ops/process/impact-reviews/index.md)
 - [Employment verification](people-ops/process/employment_verification.md)
 - [Moving to a new location](people-ops/process/moving.md)
 - [Leaving Sourcegraph](people-ops/process/leaving.md)

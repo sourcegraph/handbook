@@ -57,7 +57,7 @@ This area of the Handbook is dedicated to information about Sourcegraph, working
 
 - [Working hours](working-at-sourcegraph/working-hours.md)
 - [Switching teams](working-at-sourcegraph/switching-teams.md)
-- [Impact reviews](../departments/people-talent/people-ops/process/impact-reviews.md)
+- [Impact reviews](../departments/people-talent/people-ops/process/impact-reviews/index.md)
 - [Leaving](../departments/people-talent/people-ops/process/leaving.md)
 
 ## [Sourcegraph Community](community/index.md)

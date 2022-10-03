@@ -402,7 +402,7 @@ We recommend using the Situation-Behavior-Impact (SBI) model to write effective 
 
 **What comes after review writing**
 
-[Manager Guide - Delivering the Impact Review](delivering-impact-reviews.md)
+[Manager Guide - Delivering the Impact Review](delivering-impact-reviews/index.md)
 
 **How do I leverage the 9-box**
 
