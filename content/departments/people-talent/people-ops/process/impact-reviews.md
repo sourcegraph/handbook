@@ -187,7 +187,7 @@ The overall **Performance Rating** is a combination of Skills and Values-based p
   - Skill: your contributions are in line with expectations at your current level and sometimes exceed them; you are an essential part of the team.
   - Values: exceeds in some, exhibits most.
 - **Not Meeting High Bar**
-  - Skill: your contributions are below expectations for your current level and must immediately improve.
+  - Skill: your contributions are below expectations for your current level and must improve.
   - Values: exhibits some, lacks in some, deficient in some.
 
 Your **skill-based rating** is directly tied to outcomes and indicates how well you execute across the spectrum of core competencies in your role/level, over the review period. Your **values-based rating** indicates how well you exhibited our company values over the review period. Teammates, regardless of level, are expected to be leaders in our values. Those who demonstrate the most impact at Sourcegraph will not only regularly move the company forward through the work they complete, but will also do so in a way that exemplifies our values.
@@ -200,15 +200,15 @@ You will receive a Performance Rating and a Values Rating, as well as a written 
 
 We do not stack rank Teammates but, rather, calibrate across the organization to achieve anticipated rating distributions. While we do not force distribution, we anticipate the following Teammate distribution, on average:
 
-- 20% of Teammates will fall in the **“Top Tier”** (high performance) category.
+- 20% of Teammates will fall in the **“Exceeding High Bar”** (high performance) category.
   - Top Tier score: 1:1, 1:2 or 2:1
-  - Teammates rated as “Top Tier” are eligible to receive a compensation increase that cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
-- 70% of Teammates will fall in the **“Highly Valued”** (strong performance) category.
+  - Teammates rated as “Exceeding High Bar” are eligible to receive a compensation increase that cycle, meaning someone consistently rated “Top Tier” could receive an increase every 6 months. This allows us to directly reward top performance every period.
+- 70% of Teammates will fall in the **“Meeting High Bar”** (strong performance) category.
   - Highly-Valued score: 2:2s
-  - Teammates rated “Highly Valued” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
-- 10% of Teammates will fall in the **“Least Effective”** (low performance) category.
+  - Teammates rated “Meeting High Bar” will be eligible to receive a compensation increase annually, and this merit increase will be smaller than the “Top Tier” increase.
+- 10% of Teammates will fall in the **"Not Meeting High Bar"** (low performance) category.
   - Least Effective score: 3:1, 3:2, 2:3, 1:3 or 3:3
-  - Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
+  - Teammates rated “Not Meeting High Bar” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
 
 ## Impact Review Calibration
 
@@ -402,19 +402,8 @@ We recommend using the Situation-Behavior-Impact (SBI) model to write effective 
 
 **What comes after review writing**
 
-COMING SOON
-
-**How do I leverage the 9-box**
-
-COMING SOON
-
-**What to expect in the calibration session**
-
-COMING SOON
-
-**How to mitigate bias**
-
-COMING SOON
+- [Manager Guide: Calibrations](https://handbook.sourcegraph.com/departments/people-talent/people-ops/process/compensation-and-leveling/preparing-for-calibrations/)
+- [Manager Guide: Delivering Impact Review Feedback](https://docs.google.com/document/d/1oqXLhEWaZ0ZdJQS7vZXK7XLPyZinivJKHwVjzv0Y5xE/edit#)
 
 **RESOURCES FOR PEOPLE TEAM**
 
