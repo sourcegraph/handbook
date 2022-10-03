@@ -64,21 +64,17 @@ Results from the semi-annual impact review process support the growth and develo
 _Note: this cycle is longer than average due to 4.0 and Sourcegraph Merge_
 
 - **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
-  - Monday 2022-08-15 to Thursday 2022-08-18 (4 days)
 - **Phase 2: Self, Peer, & Upward Review Writing**
-  - Friday 2022-08-19 to Friday 2022-09-02 (2 weeks)
-  - _Note: we estimate that each review should take, on average, 15-30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review_
+  - Note: we estimate that each review should take, on average, 15-30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review
 - **Phase 3: Manager Review Writing**
-  - Monday 2022-09-05 to Monday 2022-09-19 (2 weeks)
-  - _Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review_
+  - Note: we estimate that each review should take, on average, 30 minutes to complete … but please take as much or as little time as needed to complete a thoughtful and thorough review
 - **Phase 4: People Partners meet with Managers** (to calibrate on: performance, promotion eligibility, and compensation increase eligibility)
-  - Monday 2022-09-19 to Friday 2022-09-30 (2 weeks)
-  - _Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](../../compensation-and-leveling/preparing-for-calibrations.md)_
+  - Note: Your People Partner will schedule sessions accordingly in this time frame and ensure adjusted calibrations scores and docs are submitted by due date. You can read more about how to prepare for calibrations [here](../../compensation-and-leveling/preparing-for-calibrations.md)\_
 - **Phase 5: Impact Review Cycle Ends**
-  - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03
-  - Compensation changes go into effect 2022-10-01
+  - Impact review results (and corresponding promotion & compensation increases) communicated the week of 2022-10-03 and 2022-10-10
+  - Compensation changes will be visible in Bamboo 2022-10-14 (they retro go into effect 2022-10-01)
 
-**FEBRUARY FY24** (6 weeks total)
+**Anticipated FEBRUARY FY24 Review Process Schedule** (6 weeks total)
 
 - **Phase 1:** [Select your reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
   - 2023-02-01 to 2023-02-07 (1 week)
@@ -125,8 +121,7 @@ Lattice resources:
 
 - **Required questions:**
 
-- How have this Teammate’s contributions impacted your ability to deliver on your goals?
-
+  - How have this Teammate’s contributions impacted your ability to deliver on your goals?
   - To what extent does this person follow through on commitments? (Please provide examples).
 
 - **Optional questions:**
@@ -160,6 +155,8 @@ Lattice resources:
 ## The Talent Assessment using the 9-box
 
 In addition to asking the above questions during the Impact Review process, we also ask our Managers to submit a Talent Assessment score in alignment with our **9-box guidance.**
+
+![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
 
 Combined with the Impact Review Feedback, the Talent Assessment framework helps:
 
@@ -207,10 +204,6 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Expected distribution: ~10% of Teammates will fall in the **“Least Effective”** (low performance) category.
   - Recommended merit increase: 0%
   - Merit increase frequency: Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
-
-## The 9-box visual
-
-![9-BOX VISUAL](https://storage.googleapis.com/sourcegraph-assets/handbook/PeopleTeam/Performance%20Reviews/calibrations/9-Box.png)
 
 ## Merit Philosophy
 
