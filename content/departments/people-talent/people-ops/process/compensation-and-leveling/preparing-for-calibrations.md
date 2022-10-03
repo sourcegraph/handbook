@@ -27,9 +27,9 @@ In preparation for your Calibration Session with your People Partner, we expect 
 2. In your Team’s [Calibration Roster, ](https://drive.google.com/drive/folders/1-mezcInNzjWjQ13S-Kog-4r5mqr5Jo1-)fill-in Rating Details (Columns H-I) for every Teammate up for review
 
 - _Note: While we don’t force distribution, we anticipate the following distribution on average:_
-  - _20% “Top Tier” [1:1, 1:2 or 2:1]_
-  - _70% “Highly Valued” [2:2s]_
-  - _10% “Least Effective” [3:1, 3:2, 2:3, 1:3 or 3:3]_
+  - _20% “Exceeding High Bar” [1:1, 1:2 or 2:1]_
+  - _70% “Meeting High Bar” [2:2s]_
+  - _10% “Not Meeting High Bar” [3:1, 3:2, 2:3, 1:3 or 3:3]_
 - Managers will be required to place each of their direct reports into one of the following categories for both [Skill and Values](../impact-reviews.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
 - While not required, we highly encourage managers to write notes in the section “M” of the [Calibration Roster](https://drive.google.com/drive/folders/1-mezcInNzjWjQ13S-Kog-4r5mqr5Jo1-) in preparation for their calibration presentation. You are [highly encouraged to copy/paste examples](#part-1-discussion) from your Lattice reviews.
 
