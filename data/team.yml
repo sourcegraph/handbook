@@ -565,7 +565,7 @@ inés_roitman:
   name: Inés Roitman
   pronouns: she/her
   role: Onboarding and Training Manager
-  reports_to: director_people
+  reports_to: director_recruiting
   location: Buenos Aires, Argentina 🇦🇷 / Barcelona, Spain 🇪🇸
   github: InesRoitman
   email: ines@sourcegraph.com
@@ -1319,7 +1319,7 @@ kemper_hamilton:
   name: Kemper Hamilton
   pronouns: she/her
   role: Recruiting Operations Specialist
-  reports_to: vp_talent
+  reports_to: director_recruiting
   location: Austin, TX, United States 🇺🇸
   github: kemperhamilton
   email: kemper.hamilton@sourcegraph.com
