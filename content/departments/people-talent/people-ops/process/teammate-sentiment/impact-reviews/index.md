@@ -322,7 +322,7 @@ The merit and promotion budget is held at the Department Leader-level and alloca
 
 Self reviews and peer feedback are crucial inputs to our bi-annual 360 Impact Review Cycle. Effective feedback is specific, and actionable. Great examples of accomplishments include a brief outline of the situation, response to the situation, and overall impact of the result.
 
-To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+To create great examples, we recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../process/giving-feedback.md)
 
 Your manager is also a great resource if you have any questions about how to write your self review or give feedback to a teammate.
 
@@ -376,7 +376,7 @@ Q. **How should Teammates prepare to participate in an Impact Review?**
   - Review your team career frameworks and solicit feedback from cross-functional partners
   - Prepare discussion points for the Impact Review conversation
 
-- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+- We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../giving-feedback.md)
 
 Q. **Will my Impact Review be negatively impacted if I do not answer the optional questions?**
 
@@ -398,7 +398,7 @@ The below sections are IN PROGRESS and will be published before the Manager Revi
 
 ### How to write an effective review
 
-We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../../../departments/people-talent/people-ops/process/giving-feedback.md)
+We recommend using the Situation-Behavior-Impact (SBI) model to write effective reviews. [Visit our Handbook page on writing effective reveiws](../../giving-feedback.md)
 
 **What comes after review writing**
 
