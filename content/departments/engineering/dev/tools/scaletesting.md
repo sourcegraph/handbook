@@ -31,11 +31,12 @@ It is deployed in its own Google Cloud Project and is maintained by the Develope
 3. Be familiar with our Infrastructure code.
 4. Join [#wg-test-at-scale](https://sourcegraph.slack.com/archives/C040LV3PS4C) and announce yourself.
 5. Adjust the infrastructure to the customer tier you're targeting.
-   1. Open a PR against [the Terraform definitons](https://github.com/sourcegraph/deploy-sourcegraph-managed/tree/main/scaletesting) for that cluster.
+   1. Open a PR against [the Terraform definitions](https://github.com/sourcegraph/infrastructure/tree/main/scaletesting) for that cluster. In particular the nodes count, which is often set to the lowest value to avoid consuming resouces when not using the instance.
    2. See the [Environment](#Environment) section for more details about how and where to make configuration changes.
-6. Make sure o deploy the right commit you want to test on that intance.
-   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use.This will create a pull request that you can merge.
-   2. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
+6. Make sure to deploy the right commit you want to test on that intance.
+   1. When testing a specific verison, manually trigger the update docker images github action with a pin tag for the version you would like to use. This will create a pull request that you can merge.
+   2. NOTE: pin-tag input field accepts both semver format `$MAJOR.$MINOR.$PATCH` as well as sourcegraph tag format `[build_number]_[date]_[short git SHA1]`
+   3. See [Deploying code](#deploying-code) section for more details about to how to deploy these code changes.
 7. Populate the code hosts with your test data.
    1. `TODO`
 8. Perform actions to test that deployment, from the perpective of your business domain.
@@ -115,3 +116,61 @@ To stop the `devx` compute instance when it is not in use, run the following:
 or to start it:
 
 `gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
+## Testing Data
+
+### Git
+
+#### Over 100k repositories
+
+The `rctest.sgdev.org` uses the following list of GitHub organizations to populate an instance with over 100k repositories:
+
+- `github.com/pld-linux` (22k repos)
+- `github.com/londonappbrewery` (28k repos)
+- `github.com/wp-plugins` (52k repos)
+
+In order to add them to a scale testing instance, you can run the following command:
+
+```
+sg client codehost add-github \
+  --display-name "repos-gh-100k" \
+  --baseurl "https://scaletesting.sgdev.org" \
+  --email "REDACTED" --password "REDACTED" \
+  --github.token REDACTED \
+  pld-linux londonappbrewery wp-plugins
+```
+
+#### Large binary files
+
+A repository with large binary files (Ubuntu isos) is available at https://ghe.sgdev.org/scaletesting/large-binary-files
+
+#### Large amount of commits
+
+The following repositories are available to test against repositories with a massive amount of commits:
+
+- `github.com/sgtest/megarepo` (>700k commits)
+- `gigarepo`, served through `git-combine` (> 1.8M commits)
+
+```
+{
+  // See the git-combine service and statefulset
+  "url": "http://git-combine",
+  // Do not change this. Sourcegraph uses this as a signal that url is 'src serve'.
+  "repos": [
+    "src-serve"
+  ]
+}
+```
+
+### Perforce
+
+#### Large depot
+
+WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
+
+### GitLab
+
+#### Large amount of commits
+
+The following repositories are available to test against repositories with a massive amount of commits:
+
+- `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)

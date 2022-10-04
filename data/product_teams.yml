@@ -4,7 +4,7 @@ search_product:
   title: Search Product
   brief: The search product team owns all parts of Sourcegraph that help users Compose search queries and navigate search results
   strategy_link: /strategy-goals/strategy/search/product/index.md
-  pm: ben_venker
+  pm: loïc_guychard
   em: loïc_guychard
   design: paulo_almeida
   pmm: lori_colston
@@ -110,7 +110,7 @@ frontend_platform:
   brief: The Frontend Platform team aims to empower all users and Sourcegraph frontend developers to achieve maximum efficiency and effectiveness by enabling and building a first-class web experience.
   strategy_link: /strategy-goals/strategy/frontend-platform
   pm: taylor_sperry
-  em: murat_sutunc
+  em: murat_sutunc_frontend_platform
   design: alicja_suska
   issue_labels:
     - team/frontend-platform

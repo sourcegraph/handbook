@@ -28,7 +28,7 @@ Our Engineering department includes design, product management, and development.
 
 {{generator:reporting_structure.vp_talent}}
 
-## [Executive Business Partners](EPB.md)
+## [Executive Business Partners](executive-business-partners.md)
 
 {{generator:reporting_structure.ebp_lead}}
 

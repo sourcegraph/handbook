@@ -5,74 +5,109 @@ For basic operations like accessing an instance for these steps, see [managed in
 
 ## Prereq
 
-Follow https://github.com/sourcegraph/deploy-sourcegraph-cloud-controller#installation to install `mgv2`
+Follow https://github.com/sourcegraph/controller#installation to install `mi2`
 
 ```sh
-git clone https://github.com/sourcegraph/deploy-sourcegraph-cloud-dev
-cd deploy-sourcegraph-cloud-dev
+git clone https://github.com/sourcegraph/cloud
+cd cloud
 ```
 
 ## Steps
 
 > See flow chart https://app.excalidraw.com/s/4Dr1S6qmmY7/2wUSD4kIxRo
 
+1. [Set environment variables](#Set-environment-variables)
+1. [Check out a new branch](#Check-out-a-new-branch)
+1. [Init deployment artifacts - GCP Project](#init-deployment-artifacts---gcp-project)
+1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts---infrastructure)
+1. [Init deployment artifacts - K8S](#init-deployment-artifacts---k8s)
+1. [Deploy application](#deploy-application)
+1. [Commit your changes](#Commit-your-changes)
+
+### Set environment variables
+
 ```sh
-export SLUG=<>
+export SLUG=company
+export DOMAIN=company.sourcegraph.com
+export ENVIRONMENT=dev
 ```
+
+### Check out a new branch
 
 ```sh
 git checkout -b $SLUG/create-instance
 ```
 
-### Create GCP Project
+### Init deployment artifacts - GCP Project
 
-Open `projects/terraform.tfvars` and create a new entry depending on instance type
+`mi2 generate` will
 
-```hcl
-managed_projects = {
-  "slug" = {
-    name = "slug_or_custom_display_name"
-  }
-}
-```
+- generate the terraform module and prompt you to apply the terraform module
+- generate the kustomization manifests and helm override based on output from the terraform module
 
 ```sh
+mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
+```
+
+Above command will fail on the first run, follow the prompt to manually apply the terraform module or you can just run the command below
+
+Before applying the terraform modulel, gather the computed values and configure them as environment variables
+
+```sh
+export INSTANCE_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.metadata.name')
+export PROJECT_ID=$(mi2 instance get -e $ENVIRONMENT --slug $SLUG | jq -r '.status.gcpProjectId')
+```
+
+Apply the `project` terraform module
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/project
 terraform init
 terraform apply
 ```
 
-Notes the output `project_id` of the new project
+### Init deployment artifacts - Infrastructure
+
+Rerun the `generate` command to generate the infra terraform module.
 
 ```sh
-export PROJECT_ID=<>
-export DOMAIN=<>
+mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-### Init deployment artifacts
-
-`mgv2 generate` will
-
-- generate the terraform module and apply the terraform module
-- generate the kustomization manifests and helm override based on output from the terraform module
+Above command will fail again, run the command below to manually apply the `infra` terraform module.
 
 ```sh
-mgv2 generate --project-id $PROJECT_ID --domain $DOMAIN
-```
-
-Above command will fail on the first run, follow the prompt to manually apply the terraform module. (or you can just run the command below)
-
-```sh
-cd deployments/$PROJECT_ID/terraform
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
+terraform init
 terraform apply
 ```
 
-Rerun the `generate` command to generate the kustomize manifests and helm overrides
+### Init deployment artifacts - K8S
+
+Rerun the `generate` command to generate the kustomize manifests and helm overrides (it shouldn't error out again)
 
 ```sh
-mgv2 generate --project-id $PROJECT_ID --domain $DOMAIN
+mi2 generate -e $ENVIRONMENT --domain $DOMAIN --slug $SLUG
 ```
 
-### Wrapping up
+### Deploy application
+
+Connect to the cluster locally by running
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/terraform/infra
+export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
+gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
+```
+
+Deploy the manifests
+
+```sh
+cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
+kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
+```
+
+### Commit your changes
 
 ```sh
 git add .
@@ -83,7 +118,29 @@ Create a new pull request and merge it
 
 ## Troubleshooting
 
+### PVC is stuck at `Pending`
+
+You may be seeing the following events
+
+```
+failed to provision volume with StorageClass "sourcegraph": rpc error: code = InvalidArgument desc = CreateVolume failed to pick zones for disk: failed to pick zones from topology: need 2 zones from topology, only got 1 unique zones
+```
+
+This is due to there is only one worker node available in the pool, we can force worker pool to scale up by deployment the below pause pod.
+
+```sh
+kubectl apply -f https://gist.githubusercontent.com/michaellzc/c19b94d84cfd0da2265034d16d623aa9/raw/a8398bf3131bfcdb571f2122227debbb54371fbd/src-cloud-scale-up-node-pool.yaml
+```
+
+Don't forget to clean it up after PVCs are provisioned.
+
+```sh
+kubectl delete -f https://gist.githubusercontent.com/michaellzc/c19b94d84cfd0da2265034d16d623aa9/raw/a8398bf3131bfcdb571f2122227debbb54371fbd/src-cloud-scale-up-node-pool.yaml
+```
+
 ### How do I check my Sourcegraph deployment rollout progress?
+
+> We do not use ArgoCD for V2 MVP
 
 Visit ArgoCD at https://argocd-cloud.sgdev.org
 

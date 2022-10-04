@@ -99,26 +99,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Nick Snyder"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.27598667144774, 37.520363396222756]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Christina Forney"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.24607467651367, 37.39493120891107]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Adam Harvey"
             },
             "geometry": {
@@ -434,19 +414,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.19268798828126, 47.616346999837226]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "name": "Jake Sorensen"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-118.36666, 34.15821]
             }
         },
         {
