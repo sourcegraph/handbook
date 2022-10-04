@@ -127,3 +127,38 @@ sg client codehost add-github \
   pld-linux londonappbrewery wp-plugins
 ```
 
+#### Large binary files
+
+A repository with large binary files (Ubuntu isos) is available at https://ghe.sgdev.org/scaletesting/large-binary-files
+
+#### Large amount of commits 
+
+The following repositories are available to test against repositories with a massive amount of commits: 
+
+- `github.com/sgtest/megarepo` (>700k commits) 
+- `gigarepo`, served through `git-combine` (> 1.8M commits)
+  
+```
+{
+  // See the git-combine service and statefulset
+  "url": "http://git-combine",
+  // Do not change this. Sourcegraph uses this as a signal that url is 'src serve'.
+  "repos": [
+    "src-serve"
+  ]
+}
+```
+
+### Perforce 
+
+#### Large depot
+
+WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
+
+### GitLab 
+
+#### Large amount of commits 
+
+The following repositories are available to test against repositories with a massive amount of commits: 
+
+- `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits) 
