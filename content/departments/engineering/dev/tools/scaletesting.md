@@ -116,6 +116,7 @@ To stop the `devx` compute instance when it is not in use, run the following:
 or to start it:
 
 `gcloud compute instances start devx --zone us-central1-a --project sourcegraph-scaletest`
+
 ## Testing Data
 
 ### Git
