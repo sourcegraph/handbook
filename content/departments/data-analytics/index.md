@@ -23,7 +23,6 @@ Partner with the organization to build scalable data solutions and insights to h
 | Documentation/Enablement/Support | Tool Administration |
 | Testing/Experimentation | Documentation/Monitoring/Alerts |
 
-
 <table>
   <tr>
    <td><strong>Data Analytics</strong>
