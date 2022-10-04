@@ -109,9 +109,9 @@ Customers should be directed towards using a managed instance on Sourcegraph Clo
 
 ### Deployment Decision Tree
 
-![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/Deployment%20Decision%20Tree%20v6.png)
+![Deployment Decision Tree](https://storage.googleapis.com/sourcegraph-assets/Deployment%20Decision%20Tree%20v7.png)
 
-[Link to Excalidraw](https://excalidraw.com/#json=RGUWp3kY8p6o17wUZT9Wn,NCIZn6zMIeQOgrYI6Q_5Ng)
+[Link to Excalidraw](https://excalidraw.com/#json=w1gOQdveH4n_JqHpFu6sI,whazdpInwMEC20HucLbMcw)
 
 ### Description of Decision Tree Questions
 
