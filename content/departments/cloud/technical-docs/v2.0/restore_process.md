@@ -13,7 +13,7 @@ Use cases:
 
 > Below process is derived from [GCP documentation](https://cloud.google.com/sql/docs/postgres/backup-recovery/restoring#gcloud)
 
-The restortion process will be performed with `gcloud`. Learn more about [why not terraform?](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance#restore_backup_context).
+The restoration process will be performed with `gcloud`. Learn more about [why not terraform?](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance#restore_backup_context).
 
 Locate the SQL instance, note the name of the instance as `SQL_INSTANCE`
 
