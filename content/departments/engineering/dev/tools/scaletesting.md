@@ -110,13 +110,13 @@ Create a pull request with your changes, and apply them once merged by running `
 
 #### Over 100k repositories
 
-The `rctest.sgdev.org` uses the following list of GitHub organizations to populate an instance with over 100k repositories: 
+The `rctest.sgdev.org` uses the following list of GitHub organizations to populate an instance with over 100k repositories:
 
-- `github.com/pld-linux` (22k repos) 
+- `github.com/pld-linux` (22k repos)
 - `github.com/londonappbrewery` (28k repos)
 - `github.com/wp-plugins` (52k repos)
 
-In order to add them to a scale testing instance, you can run the following command: 
+In order to add them to a scale testing instance, you can run the following command:
 
 ```
 sg client codehost add-github \
@@ -131,13 +131,13 @@ sg client codehost add-github \
 
 A repository with large binary files (Ubuntu isos) is available at https://ghe.sgdev.org/scaletesting/large-binary-files
 
-#### Large amount of commits 
+#### Large amount of commits
 
-The following repositories are available to test against repositories with a massive amount of commits: 
+The following repositories are available to test against repositories with a massive amount of commits:
 
-- `github.com/sgtest/megarepo` (>700k commits) 
+- `github.com/sgtest/megarepo` (>700k commits)
 - `gigarepo`, served through `git-combine` (> 1.8M commits)
-  
+
 ```
 {
   // See the git-combine service and statefulset
@@ -149,16 +149,16 @@ The following repositories are available to test against repositories with a mas
 }
 ```
 
-### Perforce 
+### Perforce
 
 #### Large depot
 
 WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
 
-### GitLab 
+### GitLab
 
-#### Large amount of commits 
+#### Large amount of commits
 
-The following repositories are available to test against repositories with a massive amount of commits: 
+The following repositories are available to test against repositories with a massive amount of commits:
 
-- `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits) 
+- `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)
