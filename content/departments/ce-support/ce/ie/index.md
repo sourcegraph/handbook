@@ -10,3 +10,5 @@ IEs work in support of Strategic customers as they install their Production envi
 
 - [CE and Implementation Handoff Process](ce-implementation-handoff.md)
 - [Implementation Processes](ie-process.md)
+- [Implementation Strategies and Recommendations](impl-strategies.md)
+- [Implementation and TA Integration Overview](implementation-ta-handoff.md)

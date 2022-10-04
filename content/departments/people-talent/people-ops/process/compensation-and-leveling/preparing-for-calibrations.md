@@ -2,23 +2,6 @@
 
 ## Calibration process overview
 
-Once all reviews have been written and submitted, we move into the Calibration phase of our Impact Review process. During the calibration phase, our People Partner team will meet with each Manager to walk through their Teammates’ reviews, discuss performance, and determine any resulting compensation or promotion changes. Specifically, we review:
-
-- **Performance & Promotion eligibility**: each People Partner will schedule a live meeting to discuss overall performance, as well as any promotion eligibility
-- **Compensation**: we will review your recommended merit and promotion-related compensations adjustments asynchronously.
-
-**The ultimate goal of the calibration process is to:**
-
-- Ensure all Teammates get a fair and objective performance assessment
-- Align as a management team on a set of standards to be applied to all Teammates during reviews
-- Guide Managers on how to have effective conversations to deliver Impact Review feedback
-- Help Managers make final recommendations for any compensation changes or promotions
-
-**Calibration focus areas:**
-
-- Calibration sessions center on Teammate Talent Assessment and Performance Rating alignment. Our [Career Frameworks](../../../../../company-info-and-process/working-at-sourcegraph/career-frameworks.md) are foundational for evaluating both performance and values during calibration and reviews.
-- It's important to note that performance calibrations are part of an ongoing, continuous conversation. Alignment is a process we'll continue to work through together by encouraging open dialogue and productive disagreement.
-
 ## Manager Pre-Work
 
 In preparation for your Calibration Session with your People Partner, we expect all Managers to complete the following pre-work:
@@ -30,7 +13,7 @@ In preparation for your Calibration Session with your People Partner, we expect 
   - _20% “Exceeding High Bar” [1:1, 1:2 or 2:1]_
   - _70% “Meeting High Bar” [2:2s]_
   - _10% “Not Meeting High Bar” [3:1, 3:2, 2:3, 1:3 or 3:3]_
-- Managers will be required to place each of their direct reports into one of the following categories for both [Skill and Values](../impact-reviews.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
+- Managers will be required to place each of their direct reports into one of the following categories for both [Skill and Values](../teammate-sentiment/impact-reviews/index.md#rating-definitions): Exceeding High Bar, Meeting High Bar, Not Meeting High Bar. Additionally, Managers will be required to note who they are considering putting up for promotion.
 - While not required, we highly encourage managers to write notes in the section “M” of the [Calibration Roster](https://drive.google.com/drive/folders/1-mezcInNzjWjQ13S-Kog-4r5mqr5Jo1-) in preparation for their calibration presentation. You are [highly encouraged to copy/paste examples](#part-1-discussion) from your Lattice reviews.
 
 1. On the same roster, mark “**Y**” - yes or “**N**” - no (Columns K-L) to indicate if the Teammate is being nominated for a promotion, and if yes, link the completed Promotion Form
@@ -187,13 +170,13 @@ Following calibration sessions, People Partners will work with VP+ level leaders
 
 It’s crucial that we adhere as closely as possible to expected distributions because our merit increase budgets are based on distribution assumptions listed below. The purpose of calibration sessions are to hold a high bar for “Exceeding High Bar” scores, and reward teammates accordingly.
 
-Likewise, final promotion decisions rest with VP+ level leaders. The calibration session is a time for VP+ level leaders to gather information they need to approve, or delay, promotion requests. VP+ level leaders are expected to follow up with Managers by the start of Phase 5 (see the [Impact Review Timeline](../impact-reviews.md#impact-review-timeline) for details on phases) with final decisions, so Managers may communicate to their teams accordingly.
+Likewise, final promotion decisions rest with VP+ level leaders. The calibration session is a time for VP+ level leaders to gather information they need to approve, or delay, promotion requests. VP+ level leaders are expected to follow up with Managers by the start of Phase 5 (see the [Impact Review Timeline](../teammate-sentiment/impact-reviews/index.md#impact-review-timeline) for details on phases) with final decisions, so Managers may communicate to their teams accordingly.
 
 ---
 
 ## Rating definitions and expected distributions
 
-We rate on two dimensions: performance & values. Each dimension is assigned a score of 1 to 3. [The Impact Review Handbook page](../impact-reviews.md) defines our review philosophy in greater detail.
+We rate on two dimensions: performance & values. Each dimension is assigned a score of 1 to 3. [The Impact Review Handbook page](../teammate-sentiment/impact-reviews/index.md) defines our review philosophy in greater detail.
 
 ### Ratings
 
@@ -205,7 +188,7 @@ We rate on two dimensions: performance & values. Each dimension is assigned a sc
     - Typically ~15% rated 1 in Skill, ~7% rated 1 in Values, with ~2% rated 1 in both.
   - _Merit_: Teammates who receive “exceeding high bar” rating can receive an increase twice a year.
     - Recommended merit increase:
-      - 1:1 = 8-10%
+      - 1:1 = 7.5-10%
       - 1:2 = 7.50%
       - 2:1 = 7.50%
     - Note: The above merit increase recommendations are based on the expected distribution of 20/70/10 and are subject to change dependent on final distribution.
