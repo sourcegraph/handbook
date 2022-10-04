@@ -103,3 +103,62 @@ Merge your changes via a pull request, and run the following from the base of th
 To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
+
+## Testing Data
+
+### Git
+
+#### Over 100k repositories
+
+The `rctest.sgdev.org` uses the following list of GitHub organizations to populate an instance with over 100k repositories:
+
+- `github.com/pld-linux` (22k repos)
+- `github.com/londonappbrewery` (28k repos)
+- `github.com/wp-plugins` (52k repos)
+
+In order to add them to a scale testing instance, you can run the following command:
+
+```
+sg client codehost add-github \
+  --display-name "repos-gh-100k" \
+  --baseurl "https://scaletesting.sgdev.org" \
+  --email "REDACTED" --password "REDACTED" \
+  --github.token REDACTED \
+  pld-linux londonappbrewery wp-plugins
+```
+
+#### Large binary files
+
+A repository with large binary files (Ubuntu isos) is available at https://ghe.sgdev.org/scaletesting/large-binary-files
+
+#### Large amount of commits
+
+The following repositories are available to test against repositories with a massive amount of commits:
+
+- `github.com/sgtest/megarepo` (>700k commits)
+- `gigarepo`, served through `git-combine` (> 1.8M commits)
+
+```
+{
+  // See the git-combine service and statefulset
+  "url": "http://git-combine",
+  // Do not change this. Sourcegraph uses this as a signal that url is 'src serve'.
+  "repos": [
+    "src-serve"
+  ]
+}
+```
+
+### Perforce
+
+#### Large depot
+
+WIP See `RacoonTest` (name to be changed) over https://github.com/sourcegraph/sourcegraph/issues/42091
+
+### GitLab
+
+#### Large amount of commits
+
+The following repositories are available to test against repositories with a massive amount of commits:
+
+- `https://gitlab.sgdev.org/sgtest/megarepo1` (>700k commits)
