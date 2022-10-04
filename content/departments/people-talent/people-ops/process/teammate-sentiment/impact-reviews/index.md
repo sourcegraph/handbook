@@ -407,6 +407,7 @@ The coaching categories are:
 
 ### Helpful links & resources
 
-- How to prepare for calibration meetings (COMING SOON)
+
+- [How to prepare for calibration meetings](../../compensation-and-leveling/preparing-for-calibrations.md)
 - How to help Managers mitigate bias (COMING SOON)
 - How to create letters for promotion & merit (COMING SOON)
