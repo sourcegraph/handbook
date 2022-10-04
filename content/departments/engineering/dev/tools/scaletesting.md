@@ -103,3 +103,27 @@ Merge your changes via a pull request, and run the following from the base of th
 To ensure the cluster is not left running, set the `min_num_nodes` and `max_num_nodes` to `0` in the [`terraform` config](https://github.com/sourcegraph/infrastructure/blob/main/scaletesting/main.tf#L39-L40)
 
 Create a pull request with your changes, and apply them once merged by running `terraform apply` in the `infrastructure/scaletesting` directory.
+
+## Testing Data
+
+### Git
+
+#### Over 100k repositories
+
+The `rctest.sgdev.org` uses the following list of GitHub organizations to populate an instance with over 100k repositories: 
+
+- `github.com/pld-linux` (22k repos) 
+- `github.com/londonappbrewery` (28k repos)
+- `github.com/wp-plugins` (52k repos)
+
+In order to add them to a scale testing instance, you can run the following command: 
+
+```
+sg client codehost add-github \
+  --display-name "repos-gh-100k" \
+  --baseurl "https://scaletesting.sgdev.org" \
+  --email "REDACTED" --password "REDACTED" \
+  --github.token REDACTED \
+  pld-linux londonappbrewery wp-plugins
+```
+
