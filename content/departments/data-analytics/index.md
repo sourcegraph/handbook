@@ -16,6 +16,14 @@ Partner with the organization to build scalable data solutions and insights to h
 
 # **Our Capabilities**
 
+| <strong>Data Analytics</strong>               | <strong>Data Engineering</strong> |
+| :-------------------------------------------- | :-------------------------------- |
+| Analysis/Proactive Insights                   | Engineering/Architecture          |
+| Dashboards                                    | Data Transformation               |
+| [Stakeholder Management](stakeholder-mgmt.md) | Maintenance                       |
+| Documentation/Enablement/Support              | Tool Administration               |
+| Testing/Experimentation                       | Documentation/Monitoring/Alerts   |
+
 <table>
   <tr>
    <td><strong>Data Analytics</strong>
