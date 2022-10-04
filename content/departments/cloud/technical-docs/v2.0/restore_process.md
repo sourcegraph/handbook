@@ -56,14 +56,7 @@ Backup and restore uses [native GKE mechanism](https://cloud.google.com/kubernet
 mi2 instance backup list --slug <CUSTOMER> -e [dev|prod]
 ```
 
-2. Create on-demand backup
-
-```sh
-cd sourcegraph/cloud
-mi2 instance backup create [--name <OPTIONAL_NAME>] --slug <CUSTOMER> -e [dev|prod]
-```
-
-Assess what is deleted:
+2. Assess what is deleted:
 
 - if GKE cluster - restore cluster and applications
 
