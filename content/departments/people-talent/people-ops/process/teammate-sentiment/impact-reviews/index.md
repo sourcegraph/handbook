@@ -289,7 +289,7 @@ Q: **How do I know if I'm eligible for an Impact Review**
 
 Q: **How do I know if I'm eligible for a merit increase?**
 
-- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't recieved a seperate compensation increase in the past 9-months are eligible for a compensation increase.
+- All Teammates who receive a 9-box rating of "exceeds high bar" are eligible for a compensation increase. All Teammates who receive a rating of "meets high bar" AND haven't received a seperate compensation increase in the past 9-months are eligible for a compensation increase.
 
 Q. **How are Teammate ratings on Impact Reviews used?**
 
