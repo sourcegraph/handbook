@@ -50,8 +50,8 @@ If you’re looking for a full breakdown of usage on a server or for a particula
 
 **Related useful links**
 
-- [Metrics definitions](./process/user_definitions.md#user-metrics-definitions)
-- [Data sources of truth:](./analytics/sources-of-truth.md#sources-of-truth) Includes some definitions and links to data points owned/managed by Sales and Finance (ex. ARR)
+- placeholder for user metrics definitions
+- placeholder for sources of truth Includes some definitions and links to data points owned/managed by Sales and Finance (ex. ARR)
 
 ## **Amplitude**
 
