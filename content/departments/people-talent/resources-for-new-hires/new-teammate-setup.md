@@ -64,7 +64,7 @@ You will soon find out that Slack has a lot of channels and it is very active. P
 
 ## Avatar
 
-If your avatar is not in [this folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA), or you don't like it, you can create it yourself. Just [follow the instructions in this doc](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit). If you need help, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+If your avatar is not in [this folder](https://drive.google.com/drive/u/0/folders/1T5qaSLjE2UbG0yt52gb3IVIGOUYm_YKA), or you don't like it, you can create it yourself. Just [follow the instructions in this doc](https://docs.google.com/document/d/1AMAGHqhzPvLxdqTgHws3NY4uQGz6-7B5RVcLhiprEYg/edit). If you need help, please reach out to the People Team in #ask-people-team in Slack.
 
 ## BambooHR
 
@@ -78,7 +78,7 @@ Login and enter the missing information in the required fields in the "Personal"
 
 #### Personal
 
-- **Name field**: your full legal name. BambooHR only lets admins edit the legal name field, so if you see that your legal name is incorrect, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack so we can update it!
+- **Name field**: your full legal name. BambooHR only lets admins edit the legal name field, so if you see that your legal name is incorrect, please reach out to the People Team in #ask-people-team in Slack so we can update it!
 - **Preferred Name field**: Your preferred name if different from your legal name.
   Example: My full legal name is "María Inés" but my preferred name is "Inés"
 - **Preferred Surname field**: Your preferred last name if different from your legal last name.
@@ -93,8 +93,8 @@ Saving changes in the address field: admins have to approve these changes, so it
 
 - **Compensation**: make sure this is correct and updated after any changes you are communicated in the future
 - **Job Information**: make sure this is correct and updated after any changes you are communicated in the future
-- **Options**: make sure the number of options and the vesting date (should be the same as hire date) is correct - please contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack if it is not. [Inters do not have options as part of their compensation. These fields should remain empty]
+- **Options**: make sure the number of options and the vesting date (should be the same as hire date) is correct - please contact the People Team in #ask-people-team in Slack if it is not. [Inters do not have options as part of their compensation. These fields should remain empty]
 
-If you catch any errors in your profile please feel free to contact the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack!
+If you catch any errors in your profile please feel free to contact the People Team in #ask-people-team in Slack!
 
 It is important to note that you are responsible for checking the information is accurate at all times. We do our best to keep BambooHR updated, but extra eyes are always welcome :)

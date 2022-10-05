@@ -18,7 +18,7 @@ If a new teammate requests to be hired via a PEO, and that teammate is not based
 
 Once the contract has been approved, the recruiter will notify the People Ops team. You can read more about these steps [here](../../talent/process/after_the_offer.md#onboarding-process-for-peo-hires).
 
-People Ops will then create a contract in Deel for the new teammate. Make sure you have access to the platform. You will need _Support Specialist_ or _Admin_ permissions in order to do this. If you don’t, please ask [#it-tech-ops](https://sourcegraph.slack.com/archives/C01CSS3TC75) to grant you access.
+People Ops will then create a contract in Deel for the new teammate. Make sure you have access to the platform. You will need _Support Specialist_ or _Admin_ permissions in order to do this. If you don’t, please ask #it-tech-ops to grant you access.
 
 Keep in mind that the process may last about a week. If the desired start date is sooner than that, the teammate might need to start on the following cohort date.
 
@@ -130,7 +130,7 @@ If there are any delays, Deel will notify us and propose a new start date.
 
 If there are questions, the Onboarding Specialist will deal with them. The specialist will loop us in if there are any questions we need to follow up with.
 
-The People Ops team has a Slack channel [#success-deel-sourcegraph](https://sourcegraph.slack.com/archives/C032RRC7W73) for any questions we might have.
+The People Ops team has a Slack channel #success-deel-sourcegraph for any questions we might have.
 
 ## Contract Amendments
 

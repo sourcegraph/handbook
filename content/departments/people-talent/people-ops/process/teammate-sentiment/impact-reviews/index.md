@@ -1,6 +1,6 @@
 # Impact review cycles
 
-_If you have any questions about the Impact Review process, or need help in general, please Slack `#ask-people-team`_
+_If you have any questions about the Impact Review process, or need help in general, please Slack #ask-people-team_
 
 ## Impact Reviews explained
 
@@ -297,7 +297,7 @@ Q. **How are Teammate ratings on Impact Reviews used?**
 
 Q. **How do I choose my peer reviewers?**
 
-- Guidance on selecting peer reviewers can be found [here](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
+- See [guidance on selecting peer reviewers](https://docs.google.com/document/d/1JDBYSs0u3rxykxW_SGj_Sf_fVBRFe5ml1Zn4sh8j77M/edit)
 
 Q. **Can reviews be submitted outside of the predetermined Impact Review schedule?**
 
@@ -343,7 +343,7 @@ Q. **Will my Impact Review be negatively impacted if I do not answer the optiona
 
 Q. **Who should Teammates reach out to with questions about the performance review process?**
 
-- All questions should be directed to the `#ask-people-team` Slack channel.
+- All questions should be directed to the #ask-people-team Slack channel.
 
 ---
 

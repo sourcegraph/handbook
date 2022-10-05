@@ -6,7 +6,7 @@ All teammates are assigned a **role** (e.g. “Software Engineer”, “Product 
 
 The **Sourcegraph leveling guide** is a tool to help us define expectations, competencies, and abilities for each level in a general sense, across all of Sourcegraph. This guide is used as a reference when building our **career development frameworks** to ensure that expectations for each level are consistent across roles. The Sourcegraph leveling guide is built to scale and therefore will remain fairly consistent over time.
 
-**Career development frameworks** are <span style="text-decoration:underline;">role specific</span> extensions of the Sourcegraph leveling guide to help you understand the expectations of your role and provide a common language for you and your manager to discuss and plan your career growth. These frameworks will continue to evolve over time and should not be viewed as an exhaustive list of requirements - rather a basis from which enriching performance and development discussions evolve.
+**Career development frameworks** are _role specific_ extensions of the Sourcegraph leveling guide to help you understand the expectations of your role and provide a common language for you and your manager to discuss and plan your career growth. These frameworks will continue to evolve over time and should not be viewed as an exhaustive list of requirements - rather a basis from which enriching performance and development discussions evolve.
 
 Our leveling guide and career development frameworks are the building blocks that drive career growth and development. They are used to bring consistency and transparency to expectations and promotion criteria/decisions across roles, levels, and teams.
 
@@ -30,7 +30,7 @@ Every role and level combination corresponds to a **pay band** that informs comp
 
 - **Pay bands** outline a range in which we expect each role at Sourcegraph to be paid. Pay bands inevitably shift with the market over time, and may be adjusted in response to the job market. We couple pay bands with both levels and job families to articulate expected salary for each role at Sourcegraph.
 - We’ve aligned our levels to match levels in our compensation survey tool, Radford. This allows us to quickly “match” jobs to salary survey data and pull up-to-date market pay rate information. We began using Radford in 2022-04 and it is considered the best-of-the-best compensation and leveling tool that most [high-growth SaaS companies](https://radford.aon.com/products/surveys/technology-compensation-survey#s2) use, as well.
-- We regularly re-evaluate our pay bands to ensure market competitiveness. Our[ handbook page on compensation](index.md) describes this process in greater detail.
+- We regularly re-evaluate our pay bands to ensure market competitiveness. Our [handbook page on compensation](index.md) describes this process in greater detail.
 
 ## Can you receive a compensation raise without changing levels?
 
@@ -129,7 +129,7 @@ Requires no direction
   <tr>
    <td><strong>IC4</strong>
    </td>
-   <td><strong>Senior: </strong>Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects. 
+   <td><strong>Senior: </strong>Brings domain expertise to complex projects. Role requires contribution outside the direct area of responsibility. Leads interdepartmental projects.
    </td>
    <td>Has domain-specific  knowledge and expertise. Key differentiator from IC3 is the established track record of resolving complex problems and the demonstrated ability to lead cross-functional projects.
    </td>
@@ -216,7 +216,7 @@ _While there are 6-levels in the Manager career path, at Sourcegraph, we current
    </td>
    <td>Accountable for the performance and results of a large organization, such as a regional function, a large product line, large sales areas or a global job family
    </td>
-   <td>You own a significant business area - entire service or multiple services. You set the goals for and own the operational responsibility for the entire business area. Your focus is on driving outcomes with significant impact through others. You develop leaders in your area and you raise the bar on quality across the company. You drive significant org changes across the company to improve throughput, retention and customer outcomes. Your judgment improves the effectiveness of other services.  
+   <td>You own a significant business area - entire service or multiple services. You set the goals for and own the operational responsibility for the entire business area. Your focus is on driving outcomes with significant impact through others. You develop leaders in your area and you raise the bar on quality across the company. You drive significant org changes across the company to improve throughput, retention and customer outcomes. Your judgment improves the effectiveness of other services.
    </td>
    <td>Likely reports to head of a major org (SVP or VP level)
 <p>
@@ -254,7 +254,7 @@ Requires very little direction
    </td>
    <td>Accountable for the budget, performance and results of a medium sized team or multiple small teams
    </td>
-   <td>You operate a single complex area or a couple of medium sized  areas of our services, with one or two teams with several individual contributors who report to you. You continually improve and expand the operational footprint of your area as complexity/scope increases. You set the bar for operational, people, and roadmap aspects of your area and advise/coach other managers effectively on the process. You are effective at driving debate and goal setting with the manager team. 
+   <td>You operate a single complex area or a couple of medium sized  areas of our services, with one or two teams with several individual contributors who report to you. You continually improve and expand the operational footprint of your area as complexity/scope increases. You set the bar for operational, people, and roadmap aspects of your area and advise/coach other managers effectively on the process. You are effective at driving debate and goal setting with the manager team.
    </td>
    <td>Leads a medium-to-large sized team, maybe multi-site
 <p>

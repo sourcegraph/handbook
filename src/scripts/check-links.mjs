@@ -44,6 +44,7 @@ for (const filePath of filePaths) {
                 pattern:
                     /^https?:\/\/(?!(cors-anywhere.sgdev.org\/https?:\/\/)?sourcegraphstatic.com\/|storage.googleapis.com\/sourcegraph-assets\/)/,
             },
+            { pattern: /^tel:/ },
             process.env.OFFLINE ? { pattern: /^https?:/ } : null,
         ].filter(pattern => pattern !== null),
     })
