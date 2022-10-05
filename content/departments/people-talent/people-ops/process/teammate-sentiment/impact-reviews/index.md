@@ -201,9 +201,9 @@ We do not stack rank Teammates but, rather, calibrate across the organization to
   - Score: 3:1, 3:2, 2:3, 1:3 or 3:3
   - Skill: your contributions are below expectations for your current level and must immediately improve.
   - Values: exhibits some, lacks in some, deficient in some.
-  - Expected distribution: ~10% of Teammates will fall in the **“Least Effective”** (low performance) category.
+  - Expected distribution: ~10% of Teammates will fall in the **“Not Meeting High Bar”** category.
   - Recommended merit increase: 0%
-  - Merit increase frequency: Teammates rated “Least Effective” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
+  - Merit increase frequency: Teammates rated “Not Meeting High Bar” are not eligible for a compensation increase, and will need to improve immediately to continue at Sourcegraph.
 
 ## Merit Philosophy
 
