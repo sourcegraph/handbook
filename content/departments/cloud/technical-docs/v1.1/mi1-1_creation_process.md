@@ -3,6 +3,8 @@
 Creating a new [managed instance](./index.md) involves following the steps below.
 For basic operations like accessing an instance for these steps, see [managed instances operations](../operations.md) what if there is some text here.
 
+> If GitHub Actions is not available, we should fallback to [manual creation](#gitHub-action-creating-managed-instance-failed).
+
 1. CE creates an issue with the managed instance template in the `sourcegraph/customer` repository.
 1. Cloud Team invoke GitHub Actions with following parameters:
 
