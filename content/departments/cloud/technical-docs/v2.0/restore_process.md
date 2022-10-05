@@ -53,7 +53,7 @@ Backup and restore uses [native GKE mechanism](https://cloud.google.com/kubernet
 1. List backups
 
 ```sh
-mi2 instance backup list --slug <CUSTOMER> -e [dev|prod]
+mi2 instance backup list --slug $SLUG -e $ENVIRONMENT
 ```
 
 2. Assess what is deleted:
@@ -68,14 +68,14 @@ terraform apply
 export CLUSTER_NAME=$(terraform show -json | jq -r '.. | .resources? | select(.!=null) | .[] | select((.type == "google_container_cluster") and (.mode == "managed")) | .values.name')
 gcloud container clusters get-credentials $CLUSTER_NAME --region us-central1 --project $PROJECT_ID
 cd sourcegraph/cloud
-mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug <CUSTOMER> -e [dev|prod]
+mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
 ```
 
 - if namespace - restore full namespace
 
 ```sh
 cd sourcegraph/cloud
-mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug <CUSTOMER> -e [dev|prod]
+mi2 instance restore create --backup-name <BACKUP_NAME> --restore-type full-replace --slug $SLUG -e $ENVIRONMENT
 ```
 
 - if single stateless application (i.e. frontend)
