@@ -61,7 +61,7 @@ In order to handle problems with the CI, the following elements are necessary:
 #### Actions
 
 1. Check your build on [Buildkite](https://buildkite.com/sourcegraph/sourcegraph/builds?branch=main).
-   - Find its link directly in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) channel.
+   - Find its link directly in the #buildkite-main channel.
    - 💡 Or run `sg ci status` in your shell, with the `main` branch checked out.
 2. Search for the failing steps, and browse the logs (💡 run `sg ci logs` in your shell, with the `main` branch checked out) .
    - Look for a failure explanation: it can be a test that failed or a command that return a non zero exit code.
@@ -78,7 +78,7 @@ In order to handle problems with the CI, the following elements are necessary:
       - **No**: see next point.
    1. Does the failure points to problem with the code that was shipped on that commit?
       1. Yes, and it's a very quick fix that can get merged promptly:
-         1. Write a short message on [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) and tell others that you're fixing it.
+         1. Write a short message on #buildkite-main and tell others that you're fixing it.
          1. Submit the fix with another PR and get it merged as soon as possible.
       1. Yes, but it's not easily and/or quickly fixed
          1. Revert the incriminating Pull Request.
@@ -110,7 +110,7 @@ In order to handle problems with the CI, the following elements are necessary:
    - 💡 Often it's the first build that became red, but check that the error is the same to be sure.
 1. Is this an external failure or an internal one?
    - 💡 External failures are about downloading a dependency like a package in a script or a in a Dockerfile. Often they'll manifest in the form of an HTTP error.
-   - 💡 If unsure, ask for help on [#dev-chat](https://sourcegraph.slack.com/archives/C07KZF47K).
+   - 💡 If unsure, ask for help on #dev-chat.
    - **Yes**, it's an external failure:
      1. See the [SSH into an agent scenario](#ssh-into-an-agent)
      1. Try to reproduce the faulty HTTP request so you can observe what's the problem. Is it the same failure?
@@ -137,7 +137,7 @@ In order to handle problems with the CI, the following elements are necessary:
 #### Actions
 
 1. Escalate by creating an incident (`/incident` on Slack).
-1. Get some help by pinging `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
+1. Get some help by pinging `@dev-experience-support` on Slack in the #buildkite-main or #dev-experience channels.
 
 ### Spotted a flake
 
@@ -158,7 +158,7 @@ In order to handle problems with the CI, the following elements are necessary:
 - Is this a Docker image build step?
   - 💡 This should really not be happening.
   - Is the error about the Docker daemon?
-    - **Yes**, this is a CI infrastructure flake. Ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
+    - **Yes**, this is a CI infrastructure flake. Ping `@dev-experience-support` on Slack in the #buildkite-main or #dev-experience channels.
     - **No**: reach out to the team owning that Docker image _immediately_.
 - Anything else
   - Take note of the failing step and go to next point.
@@ -169,9 +169,9 @@ In order to handle problems with the CI, the following elements are necessary:
   - Docker daemon not being reachable.
   - Missing tools that we use to run the steps, such as `go`, `node`, `comby`, ...
   - Errors from `asdf`, which is used to manage the above tools.
-- **Yes**: ping `@dev-experience-support` on Slack in the [#buildkite-main](https://sourcegraph.slack.com/archives/C02FLQDD3TQ) or [#dev-experience](https://sourcegraph.slack.com/archives/C01N83PS4TU) channels.
+- **Yes**: ping `@dev-experience-support` on Slack in the #buildkite-main or #dev-experience channels.
   - If nodoby is online to help:
-    - Reach out for help in [#dev-chat](https://sourcegraph.slack.com/archives/C07KZF47K)
+    - Reach out for help in #dev-chat
 
 1. Is that flake related to the code:
 

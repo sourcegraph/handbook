@@ -33,7 +33,7 @@ The `@geekbot` will prompt all participates at 10 AM local time (you may overrid
 
 ### Support Rotation
 
-The Delivery team has a weekly support rotation where the Engineer On-Duty will monitor the [#delivery](https://sourcegraph.slack.com/archives/C02E4HE42BX) channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
+The Delivery team has a weekly support rotation where the Engineer On-Duty will monitor the #delivery channel for questions and escalations, and other ad-hoc tasks. Off-duty team members may be allocated to project work.
 
 More information about the [Delivery Team's Support Rotation can be found here](./on-call.md).
 

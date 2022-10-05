@@ -243,7 +243,7 @@ Note that these guidelines are not inclusive of all travel requirements that are
 
 Please respect your peers wishes, and _lead with empathy_ when planning remote and hybrid meetups. Everyone should have equal and accessibility to any event that is planned. For trips that exceed the 10 teammates, please take the following protocols:
 
-- Assign a coordinator for your trip. This coordinator will need to gauge teammate comfort before planning begins. If no coordinator is formally assigned, the most senior person in the trip group will drive the process to gauge comfort levels across the team. We recommend creating a survey for your trip, and sending it to all teammates with a "Yes / No / Maybe" attendance question, surveying different locations, and explaining in the survey what safety precautions will be taken as a group. If you need help formulating one, ask the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack.
+- Assign a coordinator for your trip. This coordinator will need to gauge teammate comfort before planning begins. If no coordinator is formally assigned, the most senior person in the trip group will drive the process to gauge comfort levels across the team. We recommend creating a survey for your trip, and sending it to all teammates with a "Yes / No / Maybe" attendance question, surveying different locations, and explaining in the survey what safety precautions will be taken as a group. If you need help formulating one, ask the People Team in #ask-people-team in Slack.
 
 - Get tested (PCR or rapid test).
 
@@ -278,7 +278,7 @@ If you contract COVID-19 while traveling on behalf of Sourcegraph or immediately
     - If you are still onsite at your hotel and have tested positive before returning home, please let us know; we will reach out to you and book any extended stays for you through TripActions.
 - If you need to take additional time off work to recover, first and foremost: we hope you feel better soon! Please submit your time off under 'Wellbeing leave' in Roots (though Slack); this will trigger a notification to your manager. We recommend talking through your time off plan with them in case you need a longer recovery time than expected.
 
-If you have any questions or concerns, please reach out to the People Team in [#ask-people-team](https://sourcegraph.slack.com/archives/CQAGQKC4A) in Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
+If you have any questions or concerns, please reach out to the People Team in #ask-people-team in Slack. We hope that you stay healthy, and take care of yourselves! Thank you for your continued collaboration to ensure your safety and the safety of your teammates while traveling.
 
 # In-person gatherings that don't require travel
 
