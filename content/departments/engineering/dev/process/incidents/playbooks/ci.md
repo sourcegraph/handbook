@@ -209,22 +209,22 @@ You can also refer to the [Loom walkthrough "how to find out if a CI failure is 
 ### Builds are not being created on Buildkite
 
 - Severity: _major_
-- Impact: It's possible to merge a PR without going through CI. No builds are produced and it's impossible to deploy the new commits. 
+- Impact: It's possible to merge a PR without going through CI. No builds are produced and it's impossible to deploy the new commits.
 - Possible causes:
-  - GitHub is experiencing some outage that is affecting webhooks. 
+  - GitHub is experiencing some outage that is affecting webhooks.
   - Buildkite is experiencing some outage.
   - Webhooks that trigger the builds have been deleted.
 
-#### Actions 
+#### Actions
 
 1. Inspect [webhooks status](https://github.com/sourcegraph/sourcegraph/settings/hooks) on the `sourcegraph/sourcegraph` repository settings
-  1. If you're not authorized to see this page, ping `@dev-experience-support` or escalate to `@github-owners`.
-  1. Check the status of the webhook, if it's not green, something is wrong. However, if it is green it is no guarantee that the webhook is operating as usual! If GitHub Webhooks is experiencing degraded performance, it might not be emitting events to the endpoint at all any more, and the green status was the last submission before the outage started. See the next step to verify the status of Webhooks.
+1. If you're not authorized to see this page, ping `@dev-experience-support` or escalate to `@github-owners`.
+1. Check the status of the webhook, if it's not green, something is wrong. However, if it is green it is no guarantee that the webhook is operating as usual! If GitHub Webhooks is experiencing degraded performance, it might not be emitting events to the endpoint at all any more, and the green status was the last submission before the outage started. See the next step to verify the status of Webhooks.
 1. Check [GitHub Status](https://www.githubstatus.com/)
 1. Check [Buildkite Status](https://www.buildkitestatus.com/)
 1. A possible way to mitigate a GitHub outage is to recreate the webhook.
-  1. Delete the old buildkite webhook.
-  1. Create a new one by following these [instructions](https://buildkite.com/sourcegraph/sourcegraph/settings/setup/github).
+1. Delete the old buildkite webhook.
+1. Create a new one by following these [instructions](https://buildkite.com/sourcegraph/sourcegraph/settings/setup/github).
 
 ### SSH into an agent
 
