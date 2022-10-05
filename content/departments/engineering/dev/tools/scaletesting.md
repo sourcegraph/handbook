@@ -106,6 +106,14 @@ Create a pull request with your changes, and apply them once merged by running `
 
 ## Testing Data
 
+## Long running task machine
+Creating some of the data can take a long time, we've therefore added a machine in the scaletesting cluster to run these long running tasks.
+
+To access the machine execute the following command:
+```
+gcloud compute ssh --zone "us-central1-a" "devx"  --tunnel-through-iap --project "sourcegraph-scaletesting"
+```
+
 ### Git
 
 #### Over 100k repositories
