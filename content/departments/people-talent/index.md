@@ -328,6 +328,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
 - [Opening a new job](talent/process/opening_a_new_job.md)
   - [Kicking off a new search](talent/process/opening_a_new_job.md#how-to-open-a-new-job)
   - [The intake meeting](talent/process/opening_a_new_job.md#the-recruiters-actions)
+  - [How to determine compensation](../../benefits-pay-perks/pay-expenses/compensation/index.md)
 - [How to make a change to headcount plan](talent/process/headcount_changes.md)
 
 ### Where we hire
@@ -418,6 +419,7 @@ In case of emergency, the VP People & Talent and the Director, People are availa
         </div>
       </div>
       <div class="col" style="flex: 1;">
+  <section>
     <div class="row" style="display:flex;">
       <div class="col" style="flex: 1;">
         <div>
