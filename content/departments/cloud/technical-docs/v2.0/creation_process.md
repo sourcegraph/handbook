@@ -22,6 +22,7 @@ cd cloud
 1. [Init deployment artifacts - Infrastructure](#init-deployment-artifacts---infrastructure)
 1. [Init deployment artifacts - K8S](#init-deployment-artifacts---k8s)
 1. [Deploy application](#deploy-application)
+1. [Enable backup](#enable-backup)
 1. [Commit your changes](#Commit-your-changes)
 
 ### Set environment variables
@@ -105,6 +106,15 @@ Deploy the manifests
 ```sh
 cd environments/$ENVIRONMENT/deployments/$INSTANCE_ID/kubernetes
 kustomize build --load-restrictor LoadRestrictionsNone --enable-helm . | kubectl apply -f -
+```
+
+### Enable backup
+
+Enable daily backup for GKE cluster
+
+```sh
+cd sourcegraph/cloud
+mi2 instance sync --slug $SLUG -e $ENVIRONMENT
 ```
 
 ### Commit your changes
