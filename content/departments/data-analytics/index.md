@@ -18,9 +18,9 @@ Partner with the organization to build scalable data solutions and insights to h
 
 | <strong>Data Analytics</strong>               | <strong>Data Engineering</strong>           |
 | :-------------------------------------------- | :------------------------------------------ |
-| Analysis/Proactive Insights                   | [Engineering/Architecture](architecture.md) |
-| Dashboards                                    | Data Transformation                         |
+| [Analyses/Projects](analyses-projects.md)     | [Engineering/Architecture](architecture.md) |
+| [Reports/Dashboards](reports.md)              | Data Transformation                         |
 | [Stakeholder Management](stakeholder-mgmt.md) | Maintenance                                 |
 | Support/Enablement                            | Tool Administration                         |
-| Definitions/Documentations                    | Monitoring/Alerts                           |
+| Metric Definitions/Documentation              | Monitoring/Alerts                           |
 | Testing/Experimentation                       |                                             |
