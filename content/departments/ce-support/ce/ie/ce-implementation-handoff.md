@@ -10,11 +10,11 @@ During the initial conversations with a customer, the CE should evaluate whether
 - The customer is expected to have a particularly large instance.
 - There is a high probability the instance will require a Kubernetes deployment.
 
-# Initiating an IE Request
+# Initiating an Implementation Request
 
-If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to [#ask-implementation](https://sourcegraph.slack.com/archives/C0418GDBT7S) with the following information:
+If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to [#ask-implementation](https://sourcegraph.slack.com/archives/C0418GDBT7S) by submitting the request through the 'Implementation Request' Slack Workflow with the following information:
 
-Jointly-Managed Implementation Request
+Implementation Services Customer Request
 
 - Customer Name:
 - Link to Salesforce Opportunity:
@@ -23,7 +23,7 @@ Jointly-Managed Implementation Request
 - Expected Hosting Provider:
 - Additional Information (if needed):
 
-From there, the implementation team will add the customer to the [Jointly-Managed Backlog](https://docs.google.com/spreadsheets/d/1v36cFlcWGEGENKGGTsElCEP4_ZhIQd2mhgpwDxRPtGM/edit#gid=0) where the account/opportunity will be triaged and prioritized. The triage will take into consideration:
+From there, the customer request will be added to the [Implementation Services Account Backlog](https://docs.google.com/spreadsheets/d/1v36cFlcWGEGENKGGTsElCEP4_ZhIQd2mhgpwDxRPtGM/edit#gid=0) where the account/opportunity will be triaged and prioritized. The triage will take into consideration:
 
 1. Overall size and technical complexity of the deployment
 2. Opportunity ARR and TAM of the account
