@@ -32,7 +32,6 @@
 | [NPS](../process/user_definitions.md#net-promotor-score-nps)                                    | [Looker](https://sourcegraph.looker.com/dashboards/128?Unique+Server+ID=Uber&Time=48+months)                                                                                                                                                        | Product                 |
 | License seats                                                                                   | [Sourcegraph](https://sourcegraph.com/site-admin/dotcom/product/licenses) (if you have site admin access) or [Salesforce](https://sourcegraph2020.lightning.force.com/lightning/r/Account/0013t00001Xie0zAAB/related/Product_Subscriptions__r/view) | Sales/CE                |
 
-
 # User metrics definitions
 
 We use metrics to guide prioritization and planning. By defining metrics against the kinds of behaviors that we want to drive, we can plan features and measure results against the outcomes we're looking for. The three most important metrics we track are acquisition (of visitors), activation (visitor experiences habit creation), and retention (user remains active).
