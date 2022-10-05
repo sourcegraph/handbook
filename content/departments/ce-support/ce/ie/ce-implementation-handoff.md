@@ -28,8 +28,7 @@ From there, the customer request will be added to the [Implementation Services A
 1. Overall size and technical complexity of the deployment
 2. Opportunity ARR and TAM of the account
 3. Account intangibles such as deployment risks, admin technical aptitude, and other contextual items that could impact the importance of a jointly managed deployment
-4. Current bandwidth
-   Note: the TDD should outline how large they are (including the number of expected users, repos, and code hosts) and a brief description of why they will likely need a jointly managed instance.
+4. Current bandwidth<br>
 
 The CE and AE will be made aware of the qualification (or disqualification) and prioritization of the account for jointly-managed implementation services. Depending on the decision and timeline requirements, the implementation team will coordinate with the CE and AE to clearly define next steps and requirements to meet that customer's needs.
 
