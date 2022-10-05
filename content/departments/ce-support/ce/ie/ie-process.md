@@ -13,15 +13,19 @@ For general information on the roles and responsibilities throughout a customer'
 The Implementation Team will have a variety of integration and collaboration points with various Sourcegraph teams throughtout the implementation project and customer lifecycle as a whole. This cross-functional collaboration includes:
 
 #### CE / Sales
+
 Visit [CE-AE-Implementation Collaboration Overview](ce-implementation-handoff.md) to better understand this relationship.
 
 #### TA
+
 Visit [TA-Implementation Collaboration Overview](implementation-ta-handoff.md) to better understand this relationship.
 
 #### CS
+
 For the majority of implementations, the default process will be for CS to only be engaged once the customer is fully live. From there, the CS will follow standard support practices. The documentation created by the implementation team during the hand-off to the TA should be sufficient for future CS to better support the customers' needs.
 
 #### Engineering
+
 Similarly to CE, implementation will identify product issues, submit corresponding GitHub issues, submit Product Gaps identified by customers, and collaborate with engineering teams to properly priorities resolutions and feature request.
 
 # High Level Implementation Project Plan
