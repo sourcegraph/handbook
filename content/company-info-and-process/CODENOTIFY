@@ -1,4 +1,4 @@
 # See https://github.com/sourcegraph/codenotify for documentation
 
-values.md @christinaforney @nicksnyder @sqs
-strategy.md @christinaforney @nicksnyder @sqs
+values.md @sqs
+strategy.md @sqs
