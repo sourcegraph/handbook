@@ -12,7 +12,7 @@ During the initial conversations with a customer, the CE should evaluate whether
 
 # Initiating an Implementation Request
 
-If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to [#ask-implementation](https://sourcegraph.slack.com/archives/C0418GDBT7S) by submitting the request through the 'Implementation Request' Slack Workflow with the following information:
+If the customer is unable to utilize our Cloud option or a one-click-deployment, the CE should send a Slack request to #ask-implementation by submitting the request through the 'Implementation Request' Slack Workflow with the following information:
 
 Implementation Services Customer Request
 

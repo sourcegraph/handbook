@@ -51,7 +51,7 @@ We have designated TripActions delegates for each department and onboarding, and
 
 Managers will be the point of contact in these cases. Managers, please take some time to talk to the future new teammate about guidelines and what to expect. Indicate if this is an optional trip or not and be sure to point them towards these two handbook pages: [Company sponsored travel](index.md) and [TripActions](TripActions.md).
 
-Please reach out to [travel@sourcegraph.com](mailto:travel@sourcegraph.com) or [#expense-inquiries](https://sourcegraph.slack.com/archives/C029X9TCW68) in Slack for any questions.
+Please reach out to [travel@sourcegraph.com](mailto:travel@sourcegraph.com) or #expense-inquiries in Slack for any questions.
 
 ## Travel Assistance
 

@@ -1,6 +1,6 @@
 # Cohort for Gender Diversity in Tech at Sourcegraph
 
-_Known informally by the name of the group’s public Slack channel, [#gender-diversity-allies](https://sourcegraph.slack.com/archives/C02V14KPZQU)._
+_Known informally by the name of the group’s public Slack channel, #gender-diversity-allies._
 
 ## What is the cohort?
 
@@ -33,7 +33,7 @@ This group serves the needs of its members first and foremost. However, other po
 
 ## How is the cohort operated?
 
-The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Christina Forney](../../team/index.md#christina-forney), VP of Product. The cohort primarily operates out of its public slack channel, [#gender-diversity-allies](https://sourcegraph.slack.com/archives/C02V14KPZQU), with bi-weekly syncs to connect and discuss specific activities, ideas, and needs of its members. The cohort also has an opt-in private slack channel to function as a dedicated safe space for its members who aren’t participating as allies. Other activities of the cohort will be scoped out in time and may involve:
+The cohort is still just getting started, and operations will likely evolve over time. The group is presently being led by [Kelli Rockwell](../../team/index.md#kelli-rockwell), software engineer from Batch Changes, with support from executive sponsor [Christina Forney](../../team/index.md#christina-forney), VP of Product. The cohort primarily operates out of its public slack channel, #gender-diversity-allies, with bi-weekly syncs to connect and discuss specific activities, ideas, and needs of its members. The cohort also has an opt-in private slack channel to function as a dedicated safe space for its members who aren’t participating as allies. Other activities of the cohort will be scoped out in time and may involve:
 
 - Virtual team-building activities
 - Members happy hour
@@ -46,6 +46,6 @@ The cohort is still just getting started, and operations will likely evolve over
 
 ## How do I participate in the cohort?
 
-Start by joining our public slack channel, [#gender-diversity-allies](https://sourcegraph.slack.com/archives/C02V14KPZQU)! By joining the channel, you will also be invited to any public events that the cohort is hosting. Announcements and general discussion are encouraged in the public channel.
+Start by joining our public slack channel, #gender-diversity-allies! By joining the channel, you will also be invited to any public events that the cohort is hosting. Announcements and general discussion are encouraged in the public channel.
 
 If you would also like to join our private slack channel, you can fill out [this form](https://forms.gle/71YXaxz8WX1Mmbkw5) to receive an invite automatically. We ask allies to refrain from joining the private one so that those who are present in it feel the most comfortable expressing themselves and speaking freely. Think of the private channel as your place to vent or get advice. 🙂 However, to maintain an environment of respect, we also ask that members of the private channel refrain from discussing non-members by name.
